@@ -1,0 +1,8 @@
+ZOZNAMENIE S DATAMI
+- data su ulozene ako list slovnikov
+- počet 658460
+    PROBLEMY
+    - 1 riadok s nevalidným JSONom (245953) DONE
+    - 25,085 majú menej než 6 riadkov, 36,251 menej nez 10 (blbosť alebo len partial lyrics)
+    - niektoré pesničky sú tam viac krát (napr. Call Me the Breeze)
+    - šumy v rôznych jazykoch
