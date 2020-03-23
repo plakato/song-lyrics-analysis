@@ -1,8 +1,26 @@
-ZOZNAMENIE S DATAMI
-- data su ulozene ako list slovnikov
-- počet 658460
-    PROBLEMY
-    - 1 riadok s nevalidným JSONom (245953) DONE
-    - 25,085 majú menej než 6 riadkov, 36,251 menej nez 10 (blbosť alebo len partial lyrics)
-    - niektoré pesničky sú tam viac krát (napr. Call Me the Breeze)
-    - šumy v rôznych jazykoch
+MEETING THE DATA
+
+    PROBLEMS
+    [X] 1 line with invalid JSON (No. 245953) 
+    [ ] 25,085 have less than 6 lines, 36,251 less than 10 (not lyrics or partial lyrics)
+    [X] some songs appear more than once (ex. Call Me the Breeze) 
+    [ ] noise (Verse 1, ...) - in different languages
+    [ ] weird characters givin trouble to pycld2
+    [ ] useless attributes -> (year, producer), featured_artist, recording_location, charts, writer, samples, sampled_in
+
+    STATISTICS
+    - total count 658,460
+    After cleanup and filtering only is_music=True:
+        Total songs:  592751
+        Average number of lines per song:  46.45288831229302
+        Average number of words per line:  7.5209081199793895
+        Genres: 
+        {'rap': 149984, 'pop': 394849, 'rock': 38210, 'r-b': 5787, 'country': 3921}
+        Attributes:
+        {'rg_artist_id': 592751, 'lyrics': 592751, 'year': 138828, 'album': 592719, 'rg_type': 592751, 'producer': 93557, 'title': 592741, 'rg_album_id': 592751, 'featured_artist': 49389, 'recording_location': 18, 'charts': 0, 'writer': 33884, 'samples': 1408, 'rg_created': 592751, 'has_featured_video': 592751, 'genre': 592751, 'rg_song_id': 592751, 'is_music': 592751, 'has_verified_callout': 592751, 'artist': 592747, 'url': 592751, 'rg_tag_id': 592751, 'sampled_in': 1213, 'has_featured_annotation': 592751}
+        Languages (120):
+        {'ENGLISH': 443262, 'FRENCH': 21678, 'PORTUGUESE': 15224, 'TAGALOG': 976, 'GERMAN': 21068, 'Unknown': 5404, 'PERSIAN': 608, 'ITALIAN': 8651, 'SPANISH': 28210, 'DANISH': 2891, 'SWEDISH': 5380, 'LINGALA': 35, 'RUSSIAN': 1389, 'HUNGARIAN': 626, 'SERBIAN': 438, 'WOLOF': 27, 'POLISH': 10178, 'TURKISH': 1767, 'CROATIAN': 757, 'SCOTS': 78, 'Korean': 1352, 'Chinese': 12, 'Japanese': 1341, 'DUTCH': 3862, 'MALAY': 255, 'AZERBAIJANI': 34, 'HAITIAN_CREOLE': 132, 'ChineseT': 89, 'ROMANIAN': 507, 'MACEDONIAN': 228, 'SWAHILI': 97, 'LATIN': 359, 'ICELANDIC': 293, 'NORWEGIAN': 2056, 'GREEK': 373, 'ALBANIAN': 202, 'SHONA': 12, 'AKAN': 8, 'FINNISH': 4093, 'IRISH': 100, 'CORSICAN': 125, 'ARABIC': 599, 'INDONESIAN': 433, 'SLOVENIAN': 100, 'HMONG': 1, 'XHOSA': 30, 'NORWEGIAN_N': 731, 'YORUBA': 26, 'CZECH': 790, 'GEORGIAN': 17, 'ZULU': 29, 'LATVIAN': 181, 'KHASI': 2, 'LITHUANIAN': 282, 'BULGARIAN': 109, 'GALICIAN': 64, 'SLOVAK': 270, 'AFAR': 7, 'CATALAN': 697, 'HEBREW': 62, 'SESOTHO': 4, 'SANSKRIT': 33, 'BASQUE': 269, 'GREENLANDIC': 9, 'SAMOAN': 7, 'BOSNIAN': 245, 'SUNDANESE': 22, 'MALAGASY': 13, 'FAROESE': 14, 'TSWANA': 7, 'AFRIKAANS': 196, 'SESELWA': 2, 'SCOTS_GAELIC': 39, 'BENGALI': 9, 'HAWAIIAN': 12, 'VIETNAMESE': 61, 'ESTONIAN': 206, 'MANX': 3, 'JAVANESE': 4, 'HAUSA': 3, 'MONGOLIAN': 2, 'CEBUANO': 10, 'LUXEMBOURGISH': 8, 'INTERLINGUA': 6, 'NEPALI': 1, 'BISLAMA': 2, 'ESPERANTO': 25, 'QUECHUA': 2, 'SOMALI': 3, 'SINHALESE': 4, 'SISWANT': 1, 'RHAETO_ROMANCE': 3, 'GUARANI': 4, 'THAI': 4, 'VENDA': 4, 'UKRAINIAN': 14, 'ARMENIAN': 1, 'X_KLINGON': 3, 'MAORI': 6, 'BRETON': 39, 'FRISIAN': 3, 'NYANJA': 7, 'TURKMEN': 1, 'OCCITAN': 8, 'TONGA': 1, 'KINYARWANDA': 2, 'HINDI': 4, 'MALTESE': 1, 'OROMO': 1, 'WELSH': 16, 'X_PIG_LATIN': 4, 'AYMARA': 1, 'BELARUSIAN': 7, 'INTERLINGUE': 1, 'YIDDISH': 12, 'TSONGA': 1, 'TAMIL': 1, 'IGBO': 2, 'VOLAPUK': 1, 'MALAYALAM': 2}
+        Undetected:  2768
+
+    QUESTIONS
+    - description of data? what is_music means?
