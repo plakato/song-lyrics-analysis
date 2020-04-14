@@ -2,11 +2,11 @@ MEETING THE DATA
 
     PROBLEMS
     [X] 1 line with invalid JSON (No. 245953) 
-    [ ] 25,085 have less than 6 lines, 36,251 less than 10 (not lyrics or partial lyrics)
+    [X] 25,085 have less than 6 lines, 36,251 less than 10 (not lyrics or partial lyrics)
     [X] some songs appear more than once (ex. Call Me the Breeze) 
     [ ] noise (Verse 1, ...) - in different languages
     [ ] weird characters givin trouble to pycld2
-    [ ] useless attributes -> (year, producer), featured_artist, recording_location, charts, writer, samples, sampled_in
+    [X] useless attributes -> (year, producer), featured_artist, recording_location, charts, writer, samples, sampled_in
 
     STATISTICS
     - total count 658,460
@@ -24,3 +24,44 @@ MEETING THE DATA
 
     QUESTIONS
     - description of data? what is_music means?
+
+    CREATED CLEANED DATASET
+    - unique
+    - only is_music 
+    - keep only useful attributes
+    - Add "lang", "very_short" attributes
+
+UNSOLVED PROBLEMS WITH DATASET
+    - noise
+        - verse, chorus, hook, bridge
+        - https, WWW.MEGASTARBRAND.COM
+        - *clip*
+        - 3rd Shift
+        - xxxxxxxxxxxxxxxxxxxxx, -------------------------, __________
+        - **9/10******
+        - {*echoes*}
+        - word "Lyrics" included in titles
+    - multilingual songs
+
+SPARSAR
+    - syntax (dependency structures)
+    - semantics (verbs - negation, tense, modality), (nouns - abstract, singleton)
+    - grammar
+    - phonetic transcription (phoneme duration and stress) - they used CMU, covered missing words with SLIM
+    - rhyme schemes at stanza/poem level
+    - sentiment analysis of the poem (+ - neutral)
+    PROBLEMS
+        - new file for every song
+        - unknown errors sometimes
+            - ERROR: assignargument/8: Undefined procedure: ovls/6
+            - ERROR: atomic_list_concat/3: Arguments are not sufficiently instantiated
+            - common error: ERROR: atomic_list_concat/3: Type error: `atom' expected, found `[]' (an empty_list)
+            - zacyklenie
+        - no description of output
+        - weird rhymes?
+
+TASKS FOR NEXT WEEK
+- write email with lyrics that rhymes don't match - mistake or some unfulfilled presumption about lyrics
+- skript ktery vyplivne txt_phon oznackovany strukturou - rymy, foneticky prepis, napr. ako .csv
+- standard based rhyme schemes, different rhyme schemes
+

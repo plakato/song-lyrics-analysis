@@ -35,7 +35,7 @@ def filter_short(input_file):
         total = 0
         for song in data:
             if len(song['lyrics']) < 10:
-                # print(song['lyrics'])
+                print(song['lyrics'])
                 corrupted += 1
             total += 1
         print('corrupted: ', corrupted)
@@ -43,18 +43,19 @@ def filter_short(input_file):
 
 
 def detect_languages(input_file):
-    with open(input_file, encoding="utf-8") as file:
+    with open(input_file) as file:
         data = json.load(file)
-        for song in data:
+        for i in range(len(data)):
+            song = data[i]
             try:
                 lyrics = ''.join(song['lyrics'])
                 isReliable, textBytesFound, details = cld2.detect(lyrics)
-                print(details[0][0])
+                print(isReliable, details)
             except:
-                with open('test.json', 'w+') as result:
-                    json.dump(song, result)
-                print('ERROR', song['lyrics'])
-                print('ERROR', lyrics)
+                # with open('test.json', 'w+') as result:
+                #     json.dump(song, result)
+                print('ERROR')# , song['lyrics'])
+                # print('ERROR', lyrics)
 
 
 def print_statistics(input_file):
@@ -106,11 +107,65 @@ def print_statistics(input_file):
     print('Undetected: ', undetected_lang)
 
 
+# Keep only is_music 
+# Add "lang", "very_short"
+# Keep only useful attributes
+def create_clean_dataset(input_file, output_file):
+    with open(input_file) as input:
+        data = json.load(input)
+        new_data = []
+        selected_attr = ['lyrics', 'title', 'album', 'genre', 'artist', 'url', 'rg_artist_id', 'rg_type', 'rg_tag_id', 'rg_song_id', 'rg_album_id', 'rg_created', 'has_featured_video', 'has_verified_callout', 'has_featured_annotation']
+        for song in data:
+            if song['is_music'] != 'true':
+                continue
+            try:
+                lyrics = ''.join(song['lyrics'])
+                isReliable, textBytesFound, details = cld2.detect(lyrics)
+                lang = details[0][0]
+            except:
+                lang = 'DETECTION_ERROR'
+            very_short = False
+            if len(song['lyrics']) < 10:
+                very_short = True
+            new_song = { attr: song[attr] for attr in selected_attr }
+            new_song['very_short'] = very_short
+            new_song['lang'] = lang
+            new_data.append(new_song)
+    # Print new data.
+    with open(output_file, 'w+') as output:
+        output.write('[\n')
+        i = 0
+        for song in new_data:
+            if i != 0:
+                output.write(',\n')
+            json.dump(song, output)
+            i += 1
+        output.write('\n]')
+
+
+def remove_noise(input_file):
+    with open(input_file) as input:
+        data = json.load(input)
+        noise = set()
+        for song in data:
+            for line in song['lyrics']:
+                parsed = line.split(' ')
+                if len(parsed) < 3:
+                    noise.add(line)
+                # re.match('\*\**\*\*')
+
+    print(noise)
+
+
+
 def main():
     # filter_unique('lyrics_cleaned.json', 'lyrics_cleaned_unique.json')
-    # filter_short('lyrics_cleaned_unique.json')
-    # detect_languages('lyrics_sample.json')
-    print_statistics('lyrics_cleaned_unique.json')
+    # filter_short('data/1000lyrics_cleaned.json')
+    # detect_languages('data/100lyrics_cleaned.json')
+    # print_statistics('lyrics_cleaned_unique.json')
+    create_clean_dataset('data/lyrics_cleaned_unique.json', 'data/
+    lyrics_cleaned2.json')
+    # remove_noise('data/10000lyrics_cleaned.json')
 
 
 if __name__== "__main__":
