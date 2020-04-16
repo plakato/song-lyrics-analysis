@@ -55,7 +55,7 @@ SPARSAR
         - unknown errors sometimes
             - ERROR: assignargument/8: Undefined procedure: ovls/6
             - ERROR: atomic_list_concat/3: Arguments are not sufficiently instantiated
-            - common error: ERROR: atomic_list_concat/3: Type error: `atom' expected, found `[]' (an empty_list)
+            - more common error: ERROR: atomic_list_concat/3: Type error: `atom' expected, found `[]' (an empty_list)
             - zacyklenie
         - no description of output
         - weird rhymes?
@@ -63,5 +63,6 @@ SPARSAR
 TASKS FOR NEXT WEEK
 - write email with lyrics that rhymes don't match - mistake or some unfulfilled presumption about lyrics
 - skript ktery vyplivne txt_phon oznackovany strukturou - rymy, foneticky prepis, napr. ako .csv
-- standard based rhyme schemes, different rhyme schemes
+- standard based rhyme schemes, different rhyme schemes - generovat sama 
 
+-------------------------------------------------------------------------------------------------------------------

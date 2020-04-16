@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b63ffb1-2ce8-4d7c-99a7-09c7c211f71e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/song_data/analyze_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/analyze_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_description.txt" beforeDir="false" afterPath="$PROJECT_DIR$/work_description.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_diary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/work_diary.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,21 +14,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/song_data/analyze_data.py">
+        <entry file="file://$PROJECT_DIR$/song_data/sparsar_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="144" column="27" selection-start-line="144" selection-start-column="27" selection-end-line="144" selection-end-column="27" />
+            <state relative-caret-position="-374">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-                <element signature="e#1690#3410#0" />
+                <element signature="e#24#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/song_data/test.json">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/Trippin' Lyrics.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4">
+              <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/2010.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-660" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work_diary.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -40,6 +59,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/song_data/analyze_data.py" />
+        <option value="$PROJECT_DIR$/work_diary.txt" />
+        <option value="$PROJECT_DIR$/song_data/sparsar_analysis.py" />
       </list>
     </option>
   </component>
@@ -66,6 +87,19 @@
               <item name="song-lyrics-analysis" type="462c0819:PsiDirectoryNode" />
               <item name="song_data" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="song-lyrics-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="song-lyrics-analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="song_data" type="462c0819:PsiDirectoryNode" />
+              <item name="sparsar_experiments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="song-lyrics-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="song-lyrics-analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="song_data" type="462c0819:PsiDirectoryNode" />
+              <item name="sparsar_experiments" type="462c0819:PsiDirectoryNode" />
+              <item name="outs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -88,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.sparsar_analysis">
     <configuration name="analyze_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="diplomka" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,8 +144,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sparsar_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="diplomka" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/sparsar_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sparsar_analysis" />
         <item itemvalue="Python.analyze_data" />
       </list>
     </recent_temporary>
@@ -139,21 +195,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4059977" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49656993" weight="0.25259516" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49815303" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Tail" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3299435" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32881355" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49973616" weight="0.3298731" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49762532" visible="true" weight="0.32871974" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50237465" side_tool="true" visible="true" weight="0.32871974" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3295838" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -164,23 +221,96 @@
     <MESSAGE value="statistics with language" />
     <option name="LAST_COMMIT_MESSAGE" value="statistics with language" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/song_data/sparsar_analysis.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/song_data/lyrics_cleaned.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/test.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/song_data/analyze_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="144" column="27" selection-start-line="144" selection-start-column="27" selection-end-line="144" selection-end-column="27" />
+        <state relative-caret-position="861">
+          <caret line="145" column="27" selection-start-line="145" selection-start-column="27" selection-end-line="145" selection-end-column="27" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <element signature="e#1690#3410#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/test.json">
+    <entry file="file:///usr/lib/python3.6/xml/etree/ElementTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="607" selection-start-line="607" selection-end-line="607" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work_diary.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/Anybody Lyrics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Anybody Lyrics.txt'_phon.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3630">
+          <caret line="143" column="42" selection-start-line="143" selection-start-column="28" selection-end-line="143" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/outs/You Dont Know Me Lyrics.txt_phon">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/outs/'You Dont Know Me Lyrics.txt'.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/Twenty Fourteen Lyrics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/Trippin' Lyrics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/2010.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/sparsar_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
