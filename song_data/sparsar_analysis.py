@@ -35,12 +35,19 @@ def extract_rhymes_to_csv(filename):
     tree = ET.parse(inputfile)
 
     root = tree.getroot()
-    # Get rhyme scheme.
-    schemes = root[2][0].attrib['Different_Rhyme_Schemes']
-    schemes = schemes.replace('[', '').replace(']', '').split(',')
-    print(schemes)
-    # Remove title and author rhyme letters.
-    i = 0
+    # Parse rhyme scheme.
+    scheme = root[2][0].attrib['Stanza-based_Rhyme_Schemes']
+    scheme = scheme.replace('-', '\":\"'
+                                   '').replace('[', '{\"').replace(']',
+                                                                    '\"}').replace(',', '\",\"')
+    scheme = '{\"scheme\":' + scheme.replace('\"{', '{').replace('}"', '}'
+                                                                    ) + '}'
+    scheme = json.loads(scheme)
+    scheme_letters = {}
+    for stanza in scheme['scheme'].values():
+        scheme_letters.update(stanza)
+    print(scheme_letters)
+    # Create output.
     with open(outputfile, 'w+') as output:
         output.write('Rhyme Scheme Letter;Line Number;Lyrics;Phonetic '
                      'Transcription\n')
@@ -48,28 +55,27 @@ def extract_rhymes_to_csv(filename):
             for line in stanza[1]:
                 words = []
                 phons = []
+                no = int(line.attrib['no'])
                 for word in line.attrib['line_syllables'].split(']'):
                     if word == '':
                         continue
                     parts = word.replace('[', '').split('/')
                     words.append(parts[0].replace(',', ''))
                     phons.append(parts[1].replace(',', '_'))
-                output.write('{0};{1};{2};{3}\n'.format(schemes[i],
-                                                        line.attrib[
-                    'no'],
-                                                       ' '.join(
-                    words), ' '.join(phons)))
-                i += 1
-        while i < len(schemes):
-            output.write(schemes[i] + '\n')
-            i += 1
+                # Adding 3 to account for first three lines (author, title,
+                # empty line).
+                output.write('{0};{1};{2};{3}\n'.format(scheme_letters[str(no +
+                                                                       3)],
+                                                        no,
+                                                        ' '.join(words),
+                                                        ' '.join(phons)))
 
 
 def main():
     filename = 'data/100lyrics_cleaned.json'
     os.environ["PYTHONIOENCODING"] = "utf-8"
     # run_sparsar_for_files(filename)
-    extract_rhymes_to_csv('Cruising USA Lyrics.txt')
+    extract_rhymes_to_csv('Criminals Lyrics.txt')
 
 
 if __name__ == '__main__':
