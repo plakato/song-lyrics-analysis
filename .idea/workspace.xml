@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b63ffb1-2ce8-4d7c-99a7-09c7c211f71e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/song_data/sparsar_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_diary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/work_diary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,14 +12,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/song_data/sparsar_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374">
-              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state relative-caret-position="221">
+              <caret line="77" column="48" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="48" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
+                <element signature="e#151#586#0" />
+                <element signature="e#630#1034#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/'Criminals Lyrics.txt'.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="-184" />
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.6/json/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="340" selection-start-line="340" selection-end-line="340" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.6/json/decoder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7">
+              <caret line="342" column="3" selection-start-line="342" selection-start-column="3" selection-end-line="342" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.6/ast.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/rhyme_scheme_detector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/Die For Me Lyrics.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-526" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.6/xml/etree/ElementTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="585" selection-start-line="585" selection-end-line="585" />
             </state>
           </provider>
         </entry>
@@ -41,16 +107,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/work_diary.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>schemes</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>scheme</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,6 +133,8 @@
         <option value="$PROJECT_DIR$/song_data/analyze_data.py" />
         <option value="$PROJECT_DIR$/work_diary.txt" />
         <option value="$PROJECT_DIR$/song_data/sparsar_analysis.py" />
+        <option value="$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/rhyme_scheme_detector.py" />
+        <option value="$PROJECT_DIR$/song_data/sparsar_experiments/rhyme_scheme_detector.py" />
       </list>
     </option>
   </component>
@@ -93,13 +167,6 @@
               <item name="song_data" type="462c0819:PsiDirectoryNode" />
               <item name="sparsar_experiments" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="song-lyrics-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="song-lyrics-analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="song_data" type="462c0819:PsiDirectoryNode" />
-              <item name="sparsar_experiments" type="462c0819:PsiDirectoryNode" />
-              <item name="outs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -108,7 +175,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/song_data" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/song_data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/song_data/sparsar_experiments" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -122,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sparsar_analysis">
+  <component name="RunManager" selected="Python.rhyme_scheme_detector">
     <configuration name="analyze_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="diplomka" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,6 +212,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/analyze_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rhyme_scheme_detector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="diplomka" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/sparsar_experiments/rhymes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/rhyme_scheme_detector.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,6 +264,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rhyme_scheme_detector" />
         <item itemvalue="Python.sparsar_analysis" />
         <item itemvalue="Python.analyze_data" />
       </list>
@@ -197,21 +295,21 @@
     <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960423" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.86426115" visible="true" weight="0.24960423" />
+      <window_info id="Structure" order="1" sideWeight="0.13573883" side_tool="true" visible="true" weight="0.24960423" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49656993" weight="0.25259516" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49815303" weight="0.39907727" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.492876" weight="0.5928489" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4939314" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Tail" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49973616" weight="0.3298731" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49762532" visible="true" weight="0.32871974" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50237465" side_tool="true" visible="true" weight="0.32871974" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3295838" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49656993" visible="true" weight="0.32871974" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50343007" side_tool="true" visible="true" weight="0.32871974" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49920845" weight="0.32871974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -226,8 +324,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/song_data/sparsar_analysis.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="12" />
+          <line>66</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/song_data/sparsar_experiments/rhyme_scheme_detector.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/song_data/sparsar_experiments/rhyme_scheme_detector.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -246,13 +354,6 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/xml/etree/ElementTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="607" selection-start-line="607" selection-end-line="607" />
         </state>
       </provider>
     </entry>
@@ -302,12 +403,65 @@
         <state relative-caret-position="-660" />
       </provider>
     </entry>
+    <entry file="file:///usr/lib/python3.6/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="340" selection-start-line="340" selection-end-line="340" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="342" column="3" selection-start-line="342" selection-start-column="3" selection-end-line="342" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/'Criminals Lyrics.txt'.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-184" />
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/song_data/sparsar_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        <state relative-caret-position="221">
+          <caret line="77" column="48" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="48" />
           <folding>
             <element signature="e#24#34#0" expanded="true" />
+            <element signature="e#151#586#0" />
+            <element signature="e#630#1034#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/ast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/xml/etree/ElementTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="585" selection-start-line="585" selection-end-line="585" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/Die For Me Lyrics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-526" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/rhyme_scheme_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
