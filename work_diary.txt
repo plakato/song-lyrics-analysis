@@ -1,5 +1,5 @@
 MEETING THE DATA
-
+- "crowd-sourced lyrics data"
     PROBLEMS
     [X] 1 line with invalid JSON (No. 245953) 
     [X] 25,085 have less than 6 lines, 36,251 less than 10 (not lyrics or partial lyrics)
@@ -33,7 +33,7 @@ MEETING THE DATA
 
 UNSOLVED PROBLEMS WITH DATASET
     - noise
-        - verse, chorus, hook, bridge
+        - verse, chorus, hook, bridge, intro, outro, Transition:
         - https, WWW.MEGASTARBRAND.COM
         - *clip*
         - 3rd Shift
@@ -42,6 +42,10 @@ UNSOLVED PROBLEMS WITH DATASET
         - {*echoes*}
         - word "Lyrics" included in titles
     - multilingual songs
+
+WEIRDOS IN DATASET 
+    - some songs are not in lines according to rhymes (ex. Horrorcore Savior)
+    - some lyrics have only one/two words per line (ex. If I...)
 
 SPARSAR
     - syntax (dependency structures)
@@ -59,10 +63,94 @@ SPARSAR
             - zacyklenie
         - no description of output
         - weird rhymes?
+        - needs punctuation to analyze - add full stop at the end of each line to help 
 
 TASKS FOR NEXT WEEK
 - write email with lyrics that rhymes don't match - mistake or some unfulfilled presumption about lyrics
 - skript ktery vyplivne txt_phon oznackovany strukturou - rymy, foneticky prepis, napr. ako .csv
 - standard based rhyme schemes, different rhyme schemes - generovat sama 
+    
+-------------------------------------------------------------------------------------------------------------------
+
+TASKS FOR NEXT WEEK
++ email
+    - nam prijde zvlastne ze dva stejne riadky sa nerymuju, ma to nejaky dovod?
+    - ma to nejake command line options?manual?
+    => prepisu sparsar aby nemal ako default Elisabethan sonnet rhyme scheme
++ cistenie pesniciek
+    - od reklam
+    - maju vyplneny artist? ANO
+        - distribucia poctu riadkov na autora - kolko riadkov ma priemerne dany autor
+    - tiez urobit malu working sadu, mat tam aj dobre pesnicky aby nezahadzovalo zbytocne
+    => skusala som si vypisat pocet slov na pesnicku u jednotlivych autorov
+        - vyseparovala pesnicky, ktore su v okrajovych 5% normalneho rozdelenia u pesniciek daneho autora
+            - velmi nefungovalo, do vyberu sa dostali aj validne uplne texty a tiez nejake neuplne texty validnych pesniciek
+    => vyrazne lepsie fungovalo "< 30 slov" 
+            - 15/17 najdenych bol spam
+            - zvysok pesnicky od autora "Zoot Woman", kde sa spievaju 4 riadky dookola --> NECHAT --> ZMAZAT, stejne je to moc kratke na analyzu
++ cistenie textov
+
+NOTES
+    - v generovani zohladnit caste opakovanie, casta zmena typu schemat
+    - komisia sa zameriava na kvalitnu evaluaci :)
+    - "crowd-sourced lyrics data" pouzit v diplomke, bude potom opodstatnene pisat o cisteni
+
+    SADA TEXTOV
+        - pekne vzorove texty (cast nasich textov)
+        - nahodne vygenerovane (ani nie vety)
+        - texty s prehadzanymi riadkami
+        - nahradit (s nahodnou pravdepodobnostou) niektore slova nahodnymi/stejneho slovneho druhu
+        - ČUM, ale nemusia byt totalne usporiadane (prehodenie riadkov vs.slov)
+        - natrenovat metriku, nie na cisla, ale na usporiadanie
+        - 100 000 pesniciek? ---> vygenerovat milion, ale len ako data augmentation
+    CISTENIE TEXTOV
+        - najst 10 textov reprezentativnych
+        - vycistit ich rucne
+        - napisat skript co to vycisti stejne
+        - novy plevel sa potom pripadne prida do sady
 
 -------------------------------------------------------------------------------------------------------------------
+
+TASKS FOR NEXT WEEK
+    + vytvorit sady po 100 az 1000 pesniciek 
+        - distribuce cez zanre?
+        - prehadzane riadky     
+        - kazdu pesnicku permutujeme 5x
+        - meriame rozptyl prehadzanych, vsetky by mali byt horsie nez povodna
+        - viac sad, kazda inak prehadzana
+        - trenovat ranking loss, stratova funkcia je rozdiel medzi skore dvoch sieti so zdielanymi vahami (contrasted divergence)
+        - napr. 3 sady - neprehadzana, prehadzana, a spoly prehadzana
+    + pouzit SPARSAR na rozlisovanie povodnych a permutovanych textov (vysledok cislo)
+        - urobit si dev set a test set
+    + ako vysledok histogram so skore pre 3 sady roznou farbou
+
+MEASURING SONGABILITY 
+    IDEAS
+        - has chorus (groups of repeating lines)
+            - not all lyrics have chorus repeatedly written output
+            - emtpy lines may separate repeating lines
+        - try something with similarity matrix? (Colin Morris, https://www.youtube.com/watch?v=_tjFwcmHy5M&feature=youtu.be&fbclid=IwAR3d5BK4lqviuFFlG-aAkU-y4Maqr0iPhzA83MMQtmcjk86s1LcbUntNGoM)
+        - number of lines between empty lines probably should be repeating
+        - internal repetition, some rhyme pattern repeating?
+        - distance between same letters in rhyme scheme?
+        - often rap lyrics have the same rhyme in entire stanza
+        - rhymes mostly appear next to each other or with one line in between
+        - average distance between same rhymes
+        - average difference between neighbouring lines' lengths
+
+- I wrote an email to Rodolfo about some files that don't run
+    - problem with line numbering
+    - some errors for some files
+
+-------------------------------------------------------------------------------------------------------------------
+
+TASKS FOR NEXT WEEK
+    - riesit sparsar postupne
+        - nieco popri tom?
+    - maximalna vzdialenost najblizsieho rymu ako metrika?
+    - hledat rymy v songsim matici pomocou fonem?
+        - hladat v tom obecne vzory
+    - ignorovat prazdne riadky v prehadzanych
+    - skusit uvazovat ako vylepsit poradi prehadznej pesnicky - to by mohlo pomoct inspiracii
+    - pri generovani nagenerovat suroviny a potom s nimi pracovat - iterovani vylepsujucich iteracii
+    - dalsie upravy, absurdne prehadzania vytvarat 

@@ -67,9 +67,9 @@ def create_individual_files(filename):
             if song['lang'] != 'ENGLISH':
                 continue
             i += 1
-            # Take just hundred songs.
-            if i < 200 or i > 300:
-                continue
+            # # Take just hundred songs.
+            # if i < 200 or i > 300:
+            #     continue
             # Get rid of slashes because they can affect the file location.
             song_file = song['title'].replace('/', '') + '.txt'
             print(song_file)
@@ -81,7 +81,8 @@ def create_individual_files(filename):
 # Get rid of unnecessary words in lyrics.
 def clean_song(lyrics):
     undesirable_words = ['verse', 'chorus', 'intro', 'outro', 'repeat', 'hook',
-                         'bridge', 'transition', 'solo', 'http', 'www.']
+                         'bridge', 'transition', 'solo', 'http', 'www.',
+                         'interlude']
     clean_lyrics = []
     newline = False
     for line in lyrics:
@@ -89,6 +90,8 @@ def clean_song(lyrics):
         low_line = line.strip().lower()
         if any(re.search(x, low_line) for x in undesirable_words):
             words = low_line.split(' ')
+            # Too short lines probably don't contain lyrics, just verse
+            # description.
             if len(words) < 5:
                 line = ''
             else:
@@ -126,33 +129,25 @@ def check_cleaner_with_miniset(miniset_dir, miniset_cleaned_dir):
 
 
 # Extract into separate directory songs that do not appear to be valid songs.
-def extract_suspicious_songs(input_file):
+def extract_suspicious_songs(input_file, susp_songs_file):
     with open(input_file) as input:
         data = json.load(input)
-        artist_counts = {}
-        for song in data:
-            if song['artist'] not in artist_counts:
-                artist_counts[song['artist']] = [song['words']]
-            artist_counts[song['artist']].append(song['words'])
-            if song['words'] < 50:
-                print(song['title'])
-        print(artist_counts)
-        k = 2
-        for artist in artist_counts:
-            values = artist_counts[artist]
-            mean = np.mean(values)
-            s2 = sum(np.square(values))
-            sigma = np.sqrt(s2/len(values) - mean**2)
-            left_margin = mean - k*sigma
-            right_margin = mean + k*sigma
-            for value in values:
-                if value < left_margin: # or value > right_margin:
-                    print(artist, ': ', value)
+    suspicious = []
+    fine = []
+    for song in data:
+        if song['words'] < 30:
+            suspicious.append(song)
+        else:
+            fine.append(song)
+    print('OK songs:', len(fine))
+    print('Suspicious songs:', len(suspicious))
+    save_dataset(fine, input_file)
+    save_dataset(suspicious, susp_songs_file)
 
 
 def clean_all_songs(file):
     with open(file) as f:
-        songs = json.load(f)
+         songs = json.load(f)
     for song in songs:
         song['lyrics'] = clean_song(song['lyrics'])
     save_dataset(songs, file)
@@ -163,9 +158,11 @@ def clean_all_songs(file):
 
 # check_cleaner_with_miniset('data/miniset_for_lyrics_cleaning/',
 #                            'data/miniset_for_lyrics_cleaning/manually_cleaned/')
+# clean_all_songs('data/lyrics_cleaned.json')
 
-# extract_suspicious_songs('data/1000ENlyrics_cleaned.json')
+#
+# file = '100000ENlyrics_cleaned.json'
+# extract_suspicious_songs('data/' + file, 'data/suspicious_' + file)
 
-
-clean_all_songs('data/lyrics_cleaned.json')
-
+# create_individual_files('data/shuffled_lyrics/100ENlyrics_cleaned'
+#                         '.json')

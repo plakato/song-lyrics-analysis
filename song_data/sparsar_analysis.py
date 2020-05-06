@@ -2,6 +2,8 @@
 import ast
 import json
 import os
+from os.path import isfile, join
+from analyze_data import save_dataset
 import xml.etree.ElementTree as ET
 
 
@@ -14,7 +16,18 @@ def create_sparsar_input_file_from_song(song, output_filename):
             # line = line.replace(u'–', '-')
             # line = line.replace('\'', '\'')
             # line = line.replace('\'', '\'')
-            output.write(line + '\n')
+            output.write(line + '.\n')
+
+
+def replace_prohibited_characters(filename):
+    with open(filename) as f:
+        songs = json.load(f)
+        for song in songs:
+            for i in range(len(song['lyrics'])):
+                song['lyrics'][i] = song['lyrics'][i]\
+                    .replace('’', "'")\
+                    .replace('"', '')
+    save_dataset(songs, filename)
 
 
 def run_sparsar_for_files(filename):
@@ -23,29 +36,35 @@ def run_sparsar_for_files(filename):
         os.chdir("./sparsar_experiments")
         for song in data:
             if song['lang'] == 'ENGLISH':
-                song_file = song['title'] + '.txt'
+                song_file = 'shuffled' + song['title'] + '.txt'
                 print(song_file)
                 create_sparsar_input_file_from_song(song, song_file)
                 os.system("./sparsar_man loadallouts -- \"" + song_file + "\"")
 
 
-def extract_rhymes_to_csv(filename):
-    inputfile = 'sparsar_experiments/outs/\'' + filename + '\'_phon.xml'
-    outputfile = 'sparsar_experiments/rhymes/\'' + filename + '\'.csv'
+def get_scheme_letters(inputfile):
     tree = ET.parse(inputfile)
 
     root = tree.getroot()
     # Parse rhyme scheme.
     scheme = root[2][0].attrib['Stanza-based_Rhyme_Schemes']
     scheme = scheme.replace('-', '\":\"'
-                                   '').replace('[', '{\"').replace(']',
-                                                                    '\"}').replace(',', '\",\"')
-    scheme = '{\"scheme\":' + scheme.replace('\"{', '{').replace('}"', '}'
-                                                                    ) + '}'
+                                 '').replace('[', '{\"').replace(']',
+                                                                 '\"}').replace(
+        ',', '\",\"')
+    scheme = '{\"scheme\":' + scheme.replace('\"{', '{').replace('}"',
+                                                                 '}') + '}'
     scheme = json.loads(scheme)
     scheme_letters = {}
     for stanza in scheme['scheme'].values():
         scheme_letters.update(stanza)
+    return scheme_letters
+
+
+def extract_rhymes_to_csv(filename):
+    inputfile = 'sparsar_experiments/outs/' + filename + '_phon.xml'
+    outputfile = 'sparsar_experiments/rhymes/' + filename + '.csv'
+    scheme_letters = get_scheme_letters(inputfile)
     print(scheme_letters)
     # Create output.
     with open(outputfile, 'w+') as output:
@@ -72,10 +91,16 @@ def extract_rhymes_to_csv(filename):
 
 
 def main():
-    filename = 'data/100lyrics_cleaned.json'
-    os.environ["PYTHONIOENCODING"] = "utf-8"
+    # filename = 'data/shuffled_lyrics/shuffled0_100ENlyrics_cleaned.json'
+    # replace_prohibited_characters(filename)
+    # os.environ["PYTHONIOENCODING"] = "utf-8"
     # run_sparsar_for_files(filename)
-    extract_rhymes_to_csv('Criminals Lyrics.txt')
+    path = 'sparsar_experiments/outs/'
+    for item in os.listdir(path):
+        if isfile(join(path, item)) and item.endswith('_phon.xml') \
+                and item.startswith('\'shuffled'):
+            print('Extracting to csv...', item)
+            extract_rhymes_to_csv(item[:-9])
 
 
 if __name__ == '__main__':
