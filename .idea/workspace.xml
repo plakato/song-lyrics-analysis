@@ -2,13 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b63ffb1-2ce8-4d7c-99a7-09c7c211f71e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/song_data/repetition_matrix.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/analyze_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/analyze_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/clean_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/clean_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/get_partial_datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/get_partial_datasets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/lyrics_evaluator.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/lyrics_evaluator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/song_data/sparsar_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Donya Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Donya Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Donya Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Donya Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Donya Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Donya Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Donya Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Donya Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Donya Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Donya Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Rapture Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Rapture Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Twenty Fourteen Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Twenty Fourteen Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Twenty Fourteen Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Twenty Fourteen Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Twenty Fourteen Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Twenty Fourteen Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Twenty Fourteen Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Twenty Fourteen Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Twenty Fourteen Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Twenty Fourteen Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Donya Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Donya Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Donya Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Donya Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Rapture Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Rapture Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Rapture Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Rapture Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Twenty Fourteen Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Twenty Fourteen Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Twenty Fourteen Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Twenty Fourteen Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Donya Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Donya Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Rapture Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Rapture Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Twenty Fourteen Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Twenty Fourteen Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/'Be Kind To The Boy On The Road Lyrics.txt'.csv" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/'Be Kind To The Boy On The Road Lyrics.txt'.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/'Criminals Lyrics.txt'.csv" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/'Criminals Lyrics.txt'.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/'Fox On The Run Lyrics.txt'.csv" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/'Fox On The Run Lyrics.txt'.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/'Valkyrie Lyrics.txt'.csv" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/'Valkyrie Lyrics.txt'.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/'shuffledAsk Me Lyrics.txt'.csv" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/'shuffledAsk Me Lyrics.txt'.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/.~lock.'Be Kind To The Boy On The Road Lyrics.txt'.csv#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/.~lock.raptureLyrics.csv#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/.~lock.result.csv#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/ask_Me_Lyrics.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/raptureLyrics.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/work_diary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/work_diary.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,20 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/song_data/lyrics_evaluator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/song_data/analyze_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2948">
-              <caret line="135" selection-start-line="135" selection-end-line="135" />
+            <state relative-caret-position="-132">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -46,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/song_data/rhyme_scheme_detector.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+            <state relative-caret-position="902">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -55,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/song_data/sparsar_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="396">
+              <caret line="105" column="1" selection-start-line="103" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
               </folding>
@@ -68,52 +83,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3.6/posixpath.py">
+        <entry file="file:///usr/lib/python3.6/json/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="163">
+              <caret line="340" selection-start-line="340" selection-end-line="340" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/song_data/data/ENlyrics_cleaned.json">
-          <provider selected="true" editor-type-id="LargeFileEditor">
-            <state relative-caret-position="66">
-              <caret line="3" column="98" selection-start-line="3" selection-start-column="98" selection-end-line="3" selection-end-column="99" />
+        <entry file="file:///usr/lib/python3.6/json/decoder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-14">
+              <caret line="338" column="57" selection-start-line="338" selection-start-column="57" selection-end-line="338" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/song_data/repetition_matrix.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-198">
+              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/song_data/data/shuffled_lyrics/halfshuffled0_100ENlyrics_cleaned.json">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/repetition_matrices/Anybody Lyrics.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/repetition_matrices/Ask Me Lyrics.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/song_data/data/shuffled_lyrics/shuffled0_100ENlyrics_cleaned.json">
+        <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/Ask Me Lyrics.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/lib/python3.6/random.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6864">
-              <caret line="320" selection-start-line="320" selection-end-line="320" />
-            </state>
+            <state relative-caret-position="-711" />
           </provider>
         </entry>
       </file>
@@ -143,11 +155,15 @@
       <find>’</find>
       <find>repla</find>
       <find>;</find>
+      <find>json</find>
+      <find>data</find>
+      <find>csv</find>
     </findStrings>
     <replaceStrings>
       <replace>scheme</replace>
       <replace>values</replace>
       <replace>songs</replace>
+      <replace>pixels</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -163,8 +179,9 @@
         <option value="$PROJECT_DIR$/song_data/get_partial_datasets.py" />
         <option value="$PROJECT_DIR$/song_data/clean_data.py" />
         <option value="$PROJECT_DIR$/song_data/analyze_data.py" />
-        <option value="$PROJECT_DIR$/song_data/sparsar_analysis.py" />
         <option value="$PROJECT_DIR$/song_data/lyrics_evaluator.py" />
+        <option value="$PROJECT_DIR$/song_data/sparsar_analysis.py" />
+        <option value="$PROJECT_DIR$/song_data/repetition_matrix.py" />
       </list>
     </option>
   </component>
@@ -238,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lyrics_evaluator">
+  <component name="RunManager" selected="Python.repetition_matrix">
     <configuration name="analyze_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="diplomka" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -281,27 +298,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_partial_datasets" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="diplomka" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/get_partial_datasets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="lyrics_evaluator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="diplomka" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -315,6 +311,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/lyrics_evaluator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="repetition_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="diplomka" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/repetition_matrix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -346,11 +363,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lyrics_evaluator" />
+        <item itemvalue="Python.repetition_matrix" />
         <item itemvalue="Python.sparsar_analysis" />
+        <item itemvalue="Python.lyrics_evaluator" />
         <item itemvalue="Python.clean_data" />
         <item itemvalue="Python.analyze_data" />
-        <item itemvalue="Python.get_partial_datasets" />
       </list>
     </recent_temporary>
   </component>
@@ -377,20 +394,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85009485" visible="true" weight="0.24960423" />
       <window_info id="Structure" order="1" sideWeight="0.14990513" side_tool="true" weight="0.24960423" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49973616" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48654354" weight="0.28950405" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.48970976" visible="true" weight="0.3298731" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48654354" visible="true" weight="0.28950405" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48970976" weight="0.33794695" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Tail" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49973616" weight="0.3298731" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49656993" weight="0.4590542" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49656993" weight="0.084198385" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51345646" side_tool="true" weight="0.39215687" />
       <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49868074" weight="0.32871974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -461,14 +479,9 @@
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/song_data/sparsar_analysis.py</url>
-          <line>85</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/song_data/sparsar_analysis.py</url>
-          <line>56</line>
-          <option name="timeStamp" value="63" />
+          <url>file://$PROJECT_DIR$/song_data/repetition_matrix.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -478,29 +491,16 @@
       </configuration>
     </watches-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>scheme</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/song_data/lyrics_cleaned.json" />
-    <entry file="file://$PROJECT_DIR$/song_data/test.json" />
-    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/Anybody Lyrics.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Anybody Lyrics.txt'_phon.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3630">
-          <caret line="143" column="42" selection-start-line="143" selection-start-column="28" selection-end-line="143" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/outs/You Dont Know Me Lyrics.txt_phon">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/outs/'You Dont Know Me Lyrics.txt'.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/Twenty Fourteen Lyrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
@@ -520,25 +520,11 @@
         <state relative-caret-position="-660" />
       </provider>
     </entry>
-    <entry file="file:///usr/lib/python3.6/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="340" selection-start-line="340" selection-end-line="340" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/rhymes/'Criminals Lyrics.txt'.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file:///usr/lib/python3.6/json/decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7480">
-          <caret line="342" column="3" selection-start-line="342" selection-start-column="3" selection-end-line="342" selection-end-column="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="file:///usr/lib/python3.6/ast.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -724,16 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/rhyme_scheme_detector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python3.6/posixpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -741,10 +717,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/lib/python3.6/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="340" selection-start-line="340" selection-end-line="340" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/rhyme_scheme_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.6/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="338" column="57" selection-start-line="338" selection-start-column="57" selection-end-line="338" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/repetition_matrices/askme.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/repetition_matrices/Ask Me Lyrics.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/Ask Me Lyrics.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-711" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/repetition_matrices/Anybody Lyrics.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/sparsar_experiments/repetition_matrices/Hold On Lyrics.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/song_data/lyrics_evaluator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="-132">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -753,10 +770,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/song_data/sparsar_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="396">
+          <caret line="105" column="1" selection-start-line="103" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
           <folding>
             <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/repetition_matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
