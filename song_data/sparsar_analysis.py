@@ -3,6 +3,8 @@ import ast
 import json
 import os
 import re
+import shlex
+import subprocess
 from os.path import isfile, join
 from analyze_data import save_dataset
 import xml.etree.ElementTree as ET
@@ -13,11 +15,14 @@ def create_sparsar_input_file_from_song(song, output_filename):
         output.write(song['title'] + '\n')
         output.write('by ' + song['artist'] + '.\n\n')
         for i in range(len(song['lyrics'])):
-            line = song['lyrics'][i] # .replace('-', '-')
-            # line = line.replace(u'–', '-')
-            # line = line.replace('\'', '\'')
-            # line = line.replace('\'', '\'')
-            output.write(line + '.\n')
+            line = song['lyrics'][i].strip()
+            punctuation = '.'
+            if line[-1] == '?' or \
+                    line[-1] == '!' or \
+                    line[-1] == '…' or \
+                    line == '':
+                punctuation = ''
+            output.write(line + punctuation + '\n')
 
 
 def replace_prohibited_characters(filename):
@@ -35,12 +40,34 @@ def run_sparsar_for_files(filename, prefix):
     with open(filename) as input:
         data = json.load(input)
         os.chdir("./sparsar_experiments")
-        for song in data:
-            if song['lang'] == 'ENGLISH':
-                song_file = prefix + song['title'] + '.txt'
-                print(song_file)
-                create_sparsar_input_file_from_song(song, song_file)
-                os.system("./sparsar_man loadallouts -- \"" + song_file + "\"")
+    succeses = 0
+    fails = 0
+    for song in data:
+        # SPARSAR only understands ENGLISH.
+        if song['lang'] != 'ENGLISH':
+            print('Song', song['title'], 'is not in English.')
+            continue
+        song_file = prefix + song['title'] + '.txt'
+        print("Analyzing", song_file, '...')
+        create_sparsar_input_file_from_song(song, song_file)
+        # Don't get stuck on infinite sparsar executions.
+        command_line = "./sparsar_man loadallouts -- \"" + song_file + "\""
+        args = shlex.split(command_line)
+        FNULL = open(os.devnull, 'w')
+        try:
+            completed = subprocess.run(args, stdout=FNULL, timeout=180)
+            if completed.returncode == 0:
+                succeses += 1
+                print('Successfully analyzed', song_file)
+            else:
+                fails += 1
+                print('Analysis of', song_file, 'failed.')
+        except subprocess.TimeoutExpired:
+            print('Analysis of', song_file, 'ran too long.')
+            fails += 1
+
+    print('Successfully analyzed', succeses, 'files.')
+    print('Failed analyzing', fails, 'files.')
 
 
 def get_scheme_letters(inputfile):
@@ -48,6 +75,7 @@ def get_scheme_letters(inputfile):
 
     root = tree.getroot()
     # Parse rhyme scheme.
+    # Change Prolog format into JSON to be parsed as a dictionary.
     scheme = root[2][0].attrib['Stanza-based_Rhyme_Schemes']
     scheme = scheme.replace('-', '\":\"'
                                  '').replace('[', '{\"').replace(']',
@@ -55,6 +83,7 @@ def get_scheme_letters(inputfile):
         ',', '\",\"')
     scheme = '{\"scheme\":' + scheme.replace('\"{', '{').replace('}"',
                                                                  '}') + '}'
+    # Get rid of empty values with regex.
     scheme = re.sub('\".?\":\{\"\"\},', '', scheme)
     scheme = json.loads(scheme)
     scheme_letters = {}
@@ -94,12 +123,13 @@ def extract_rhymes_to_csv(filename):
 
 
 def main():
-    # prefix = ''   # 'shuffled0_'
-    # filename = 'data/shuffled_lyrics/' + \
-    #            prefix + '100ENlyrics_cleaned.json'
-    # replace_prohibited_characters(filename)
-    # os.environ["PYTHONIOENCODING"] = "utf-8"
-    # run_sparsar_for_files(filename, prefix)
+    prefixes = ['', 'shuffled0_']
+    for prefix in prefixes:
+        filename = 'data/shuffled_lyrics/' + \
+                   prefix + '100ENlyrics_cleaned.json'
+        replace_prohibited_characters(filename)
+        os.environ["PYTHONIOENCODING"] = "utf-8"
+        run_sparsar_for_files(filename, prefix)
     path = 'sparsar_experiments/outs/'
     for item in os.listdir(path):
         if isfile(join(path, item)) and item.endswith('_phon.xml'):

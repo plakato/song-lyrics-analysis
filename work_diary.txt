@@ -48,6 +48,7 @@ WEIRDOS IN DATASET
     - some lyrics have only one/two words per line (ex. If I...)
 
 SPARSAR
+    FUNCTIONALITIES
     - syntax (dependency structures)
     - semantics (verbs - negation, tense, modality), (nouns - abstract, singleton)
     - grammar
@@ -56,13 +57,18 @@ SPARSAR
     - sentiment analysis of the poem (+ - neutral)
     PROBLEMS
         - new file for every song
+            - specific format: 1st line title, 2nd line author with full stop at the end, 3rd line empty.
+            - some special characters prohibited
         - unknown errors sometimes
             - ERROR: assignargument/8: Undefined procedure: ovls/6
             - ERROR: atomic_list_concat/3: Arguments are not sufficiently instantiated
-            - more common error: ERROR: atomic_list_concat/3: Type error: `atom' expected, found `[]' (an empty_list)
+            - atomic_list_concat/3: Type error: `atom' expected, found `[]' (an empty_list)
+                - didn't know contraction "I'mma"
             - zacyklenie
+                - problem was "A-Z" word
         - no description of output
-        - weird rhymes?
+        - weird rhymes
+            - adjusted not to prefer Elisabethan sonnet structure
         - !!! needs punctuation to analyze - add full stop at the end of each line to help 
 
 TASKS FOR NEXT WEEK
@@ -156,3 +162,33 @@ TASKS FOR NEXT WEEK
     - dalsie upravy, absurdne prehadzania vytvarat 
         - dobre to zdokumentovat (test_sets.MD) detailne ako kazda vznikala
     - zistit ci diplomky su prerekvizity a zapisat si jednicku
+
+-------------------------------------------------------------------------------------------------------------------
+11.5.2020
+TASKS FOR NEXT WEEK
+    - prerobit matice aby brali iba konce riadkov (poslednych X fonem)
+    - podfarbit rymujuce verse stejnou farbou
+    - ako pocitat entropiu
+        - pocet/podiel jednotkovych ostrovov mimo diagonalu
+        - najvacsi biely stvorec/obdlznik
+        - skusit vlastne napady
+        + vyhodnotenie (cca 50 pesniciek)
+            - ked tomu dame pary, ako urci poskodenu
+            - ked tomu dame jednu, ci je poskodena
+            + percentualnu uspesnost
+    - automatizovat SPARSAR
+            
+    - nastudovat 
+        -GAN
+        - generativne modely na preklad
+        - autoencodery
+        - un/self-supervised learning
+        - transformery
+    - attention: cim blizsie som ku konci versa, tym vacsia tendencia opisovat
+    - pochopenie matic pomoze lepsie generovat sablony?
+        - napr. prv si vygenerujem pismenka sparsaru
+
+EVALUACIA PESNICKY
+    - skusit to nahodne prehadzat a ci sa struktura zhorsi
+
+

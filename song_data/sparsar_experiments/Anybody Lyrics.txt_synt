@@ -33,8 +33,8 @@ xcomp-prop-22-stackin
 obj2-benef-29-usin
 subj-theme_bound-29-we
 xcomp-prop-29-all
-obj-goal-37-blamin
 obj-goal-37-lamin-
+obj-goal-37-[]
 obj-theme-37-[]
 obj-theme_aff-37-lamin-
 subj-agent-37-i
@@ -224,9 +224,8 @@ ncmod-modale-1300-call
 specif-1300-this
 subj-theme_bound-1300-stuff
 xcomp-prop-1300-always
-iobj-goal-1351-dialin
+iobj-goal-1351-[]
 obj-goal-1351-me
-specif-1351-spe
 subj-actor-1351-you
 subj-agente-1351-you
 xcomp-purpose-1351-put
@@ -366,7 +365,7 @@ xcomp-prop-2243-pop
 65-i-pron
 66-hit-vt
 67-the-art
-68-blamin-n
+68-blamin- - n
 69-(.)-punto
 70-that-pron
 71-(is)-ause
@@ -727,7 +726,7 @@ xcomp-prop-2243-pop
 426-me-pron
 427-on-p
 428-speed-n
-429-dialin-n
+429-dialin- - n
 430-(.)-punto
 431-still-avv
 432-a-art
@@ -856,7 +855,7 @@ xcomp-prop-2243-pop
 16-[adj-(mod)(in,give,up),ncmod-specif(love-sn3,unconditional),ncmod(love-sn3,unconditional),ncmod-specif(say-sn4,say),ncmod-specif(say-sn4,many),ncmod-specif(of,say-sn4,say-sn5),ncmod-specif(say-sn5,we),ncmod-specif(say-sn5,that),sn5(det,say,many),ncmod-specif(all-sn1,say),ncmod-specif(all-sn1,many),obj-goal(give,love-sn3),subj-actor(give,all-sn2),subj-actor(give,all-sn1),voice(active,cl4,give),tense(past,cl4,give)]
 22-[ext(be,[she]),xcomp-prop(be,stackin-sn2),subj-theme_bound(be,she-sn1),voice(active,cl5,be),tense(pres,cl5,be)]
 29-[cmod-subord(det,be-cl6,be),xcomp-prop(be,all-sn3),obj2-benef(be,usin-sn2),subj-theme_bound(be,we-sn1),voice(active,cl6,be),tense(pres,cl6,be)]
-37-[cmod-subord(then,hit-cl9,make-4),obj-theme_aff(make-4,lamin- - sn8),subj-agent(make,lamin- - sn7),obj-goal(make,lamin- - sn6),subj-agent(make,i-sn5),obj-goal(hit,blamin-sn4),subj-agent(hit,i-sn3),obj-theme(quit,[]-sn2),subj-agent(quit,you-sn1),voice(active,cl9,hit),tense(past,cl9,hit),voice(active,cl8,make),tense(pres,cl8,make),voice(active,cl7,quit),tense(pres,cl7,quit)]
+37-[cmod-subord(then,hit-cl9,make-4),obj-theme_aff(make-4,lamin- - sn8),subj-agent(make,lamin- - sn7),obj-goal(make,lamin- - sn6),subj-agent(make,i-sn5),obj-goal(hit,[]-sn4),subj-agent(hit,i-sn3),obj-theme(quit,[]-sn2),subj-agent(quit,you-sn1),voice(active,cl9,hit),tense(past,cl9,hit),voice(active,cl8,make),tense(pres,cl8,make),voice(active,cl7,quit),tense(pres,cl7,quit)]
 48-[ncmod-specif(shit-sn1,real),xcomp-prop(be,shit-sn1),sn1(det,shit,real),voice(active,cl10,be),tense(pres,cl10,be)]
 58-[ante(smoke,it,it),ante(roll,it,it),ante(roll,it,it),cmod-subord(then,smoke-cl12,smoke-3),ncmod-specif(it-sn5,i),subj-agent(smoke,it-sn6),subj-agent(smoke,it-sn5),ncmod-specif(it-sn1,i),adj-subj_disc(roll,up-sn3),subj-agent(roll,it-sn2),subj-agent(roll,it-sn1),voice(active,cl12,smoke),tense(pres,cl12,smoke),voice(active,cl11,roll),tense(pres,cl11,roll)]
 70-[ext(put,[it]),ext(put,[it]),coord-prop(and,put-cl1),cmod-coord(and,put-cl13,put-cl13),ncmod-specif(feel-sn7,funky),ncmod(feel-sn7,funky),ncmod-specif(it-sn5,i),obj-theme(put,tip-sn8),iobj-goal(under,put-cl13,feel-sn7),subj-agent(put,it-sn6),subj-agent(put,it-sn5),cmod-subord(",put-cl13,put-cl13),ncmod-specif(feel-sn3,funky),ncmod(feel-sn3,funky),ncmod-specif(it-sn1,i),iobj-goal(under,put-cl13,feel-sn3),subj-agent(put,it-sn2),subj-agent(put,it-sn1),voice(active,cl13,put),tense(past,cl13,put)]
@@ -899,7 +898,7 @@ xcomp-prop-2243-pop
 1199-[ext(might,my),ncmod-poss(phone-sn2,my),ncmod-poss(phone-sn2,my),subj-source(offer-3,you-sn1),obj-result(bring,phone-sn2),xcomp-prop(to,bring-2,offer-3),subj-goal(bring-2,you-sn1),xcomp-prop(nil,offer-cl69,bring),subj-agent(might,you-sn1),modal(might,might),voice(active,cl69,offer),tense(pres,cl69,offer),voice(active,cl68,bring),tense(pres,cl68,bring),voice(active,cl67,might),tense(pres,cl67,might)]
 1250-[ext(keep,my),adj-(mod)(in,keep,away),ncmod-poss(cloth-sn2,my),ncmod-poss(cloth-sn2,my),iobj-goal(from,keep-cl70,cloth-sn2),subj-experiencer(keep,bitch-sn1),voice(active,cl70,keep),tense(pres,cl70,keep)]
 1300-[ncmod-specif(stuff-sn1,this),ncmod(stuff-sn1,this),ncmod-modale(on,be-cl71,call-sn3),xcomp-prop(be,always-sn2),subj-theme_bound(be,stuff-sn1),voice(active,cl71,be),tense(past,cl71,be)]
-1351-[ncmod-specif(dialin-sn3,spe),iobj-goal(on,put-2,dialin-sn3),sn3(det,dialin,speed),subj-agente(put-2,you-sn1),obj-goal(put,me-sn2),xcomp-purpose(to,put-cl73,put-2),subj-actor(use,you-sn1),voice(active,cl73,put),tense(past,cl73,put),voice(active,cl72,use),tense(pres,cl72,use)]
+1351-[iobj-goal(on,put-2,[]-sn3),sn3(det,[],speed),subj-agente(put-2,you-sn1),obj-goal(put,me-sn2),xcomp-purpose(to,put-cl73,put-2),subj-actor(use,you-sn1),voice(active,cl73,put),tense(past,cl73,put),voice(active,cl72,use),tense(pres,cl72,use)]
 1404-[adj-(mod)(in,be,still),ncmod-specif(of,hall-sn2,fame-sn4),ncmod-specif(of,part-sn1,hall-sn2),ncmod-specif(hall-sn2,that),ncmod(hall-sn2,that),det(part-sn1,a),subj-theme_bound(be,part-sn1),voice(active,cl74,be),tense(pres,cl74,be)]
 1457-[ext(be,[they]),ext(be,my),adj-(mod)(in,be,up),ncmod-poss(weedstop-sn2,my),ncmod-poss(weedstop-sn2,my),ncmod-locativo(on,be-cl75,weedstop-sn2),subj-theme_bound(be,they-sn1),voice(active,cl75,be),tense(pres,cl75,be)]
 1511-[ncmod-specif(ass-sn3,first),obj2-paziente(get,ass-sn3),obj-theme_unaff(get,ratchet-sn2),subj-agent(get,you-sn1),voice(active,cl76,get),tense(past,cl76,get)]

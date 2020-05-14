@@ -1,0 +1,206 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Am I Losin'? Lyrics.txt_1-1  []-question  []
+Am I Losin'? Lyrics.txt_2-3  []-positive  []
+Am I Losin'? Lyrics.txt_3-6  []-positive  []
+Am I Losin'? Lyrics.txt_3-7  [when-temp_coinc]-negative  [neg]
+Am I Losin'? Lyrics.txt_4-13  [but-advers]-positive  [fgb]
+Am I Losin'? Lyrics.txt_4-14  []-positive  []
+Am I Losin'? Lyrics.txt_5-19  []-positive  [fgb]
+Am I Losin'? Lyrics.txt_6-26  []-negative  [neg]
+Am I Losin'? Lyrics.txt_7-34  []-question  []
+Am I Losin'? Lyrics.txt_8-42  []-question  []
+Am I Losin'? Lyrics.txt_9-52  []-negative  [neg]
+Am I Losin'? Lyrics.txt_10-64  []-question  []
+Am I Losin'? Lyrics.txt_10-65  []-positive  []
+Am I Losin'? Lyrics.txt_11-75  []-positive  [fgb]
+Am I Losin'? Lyrics.txt_11-76  []-positive  []
+Am I Losin'? Lyrics.txt_11-77  [so-result]-positive  [fgb,fgb]
+Am I Losin'? Lyrics.txt_12-89  []-positive  []
+Am I Losin'? Lyrics.txt_12-90  []-positive  []
+Am I Losin'? Lyrics.txt_12-91  []-negative  [neg]
+Am I Losin'? Lyrics.txt_13-105  []-negative  [neg]
+Am I Losin'? Lyrics.txt_13-106  []-positive  []
+Am I Losin'? Lyrics.txt_13-107  []-suspension  []
+Am I Losin'? Lyrics.txt_14-121  []-positive  []
+Am I Losin'? Lyrics.txt_14-122  []-positive  []
+Am I Losin'? Lyrics.txt_15-137  [so-result,when-temp_coinc]-suspension  [fgb,fgb,neg,neg]
+Am I Losin'? Lyrics.txt_16-154  []-negative  [neg,neg]
+Am I Losin'? Lyrics.txt_17-172  []-suspension  [bkc,neg]
+Am I Losin'? Lyrics.txt_17-173  []-positive  []
+Am I Losin'? Lyrics.txt_18-191  [but-advers]-negative  [fgb,neg]
+Am I Losin'? Lyrics.txt_18-192  []-negative  [neg]
+Am I Losin'? Lyrics.txt_19-211  []-positive  []
+Am I Losin'? Lyrics.txt_19-212  []-positive  []
+Am I Losin'? Lyrics.txt_20-231  []-negative  [neg,neg]
+Am I Losin'? Lyrics.txt_21-252  []-question  []
+Am I Losin'? Lyrics.txt_22-274  []-suspension  []
+Am I Losin'? Lyrics.txt_22-275  []-negative  []
+Am I Losin'? Lyrics.txt_22-276  []-positive  []
+Am I Losin'? Lyrics.txt_23-299  [but-advers]-positive  [fgb]
+Am I Losin'? Lyrics.txt_23-300  []-positive  []
+Am I Losin'? Lyrics.txt_23-301  []-positive  [ass,neg]
+Am I Losin'? Lyrics.txt_24-325  []-question  [neg]
+Am I Losin'? Lyrics.txt_24-326  [(as)-temp_coinc]-positive  []
+Am I Losin'? Lyrics.txt_24-327  []-positive  []
+Am I Losin'? Lyrics.txt_25-352  [because-cause]-positive  []
+Am I Losin'? Lyrics.txt_25-353  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Am I Losin'? Lyrics.txt_1-1  [Losin-,i,am,?]  [title]
+Am I Losin'? Lyrics.txt_2-3  [Lyrics,by,Lynyrd,Skynyrd]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Am I Losin'? Lyrics.txt_3-6  [i,recall]  [provide_expl_just(recall,[external,factive,explanation,background,objective]),suggest(recall,_90794),provide_expl_just(use,[external,factive,cause,foreground,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Am I Losin'? Lyrics.txt_3-7  [when,i,used,to,come,home,,,never,had,a,dime]  [reject_expl_just(recall,[external,factive,explanation,background,objective]),propose_opin_neg(recall,_90964),reject_expl_just(use,[external,factive,cause,foreground,objective]),reject_expl_just(have,[external,factive,narration,foreground,objective])]
+Am I Losin'? Lyrics.txt_4-13  [but,,,lord]  [provide_expl_just(lord,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Am I Losin'? Lyrics.txt_4-14  [i,always,had,a,good,time]  [provide_expl_just(lord,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Am I Losin'? Lyrics.txt_5-19  [and,i,recall,drinking,wine,with,one,of,my,friends]  [provide_expl_just(drink,[external,factive,narration,foreground,objective])]
+Am I Losin'? Lyrics.txt_6-26  [lord,i,can,not,go,back,again]  [reject_expl_just(lord,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_7-34  [home,back,way,own,my,losin,i,am,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Am I Losin'? Lyrics.txt_8-42  [known,have,i,that,friend,good,a,losin,i,am,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(know,[internal,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_9-52  [not,me,you,?,am,will,tell,how,i,have,sinned]  [reject_expl_just(tell,[internal,nonfactive,narration,background,objective]),reject_expl_just(be,[internal,factive,narration,foreground,objective]),reject_expl_just(sin,[internal,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_10-64  [am,why,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Am I Losin'? Lyrics.txt_10-65  [i,losin,one,of,my,best,friends]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Am I Losin'? Lyrics.txt_11-75  [and,i,recall]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_91992)]
+Am I Losin'? Lyrics.txt_11-76  [this,friend,of,mine,i,knew]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_92078)]
+Am I Losin'? Lyrics.txt_11-77  [so,well]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_92164)]
+Am I Losin'? Lyrics.txt_12-89  [it,goes,to,show]  [provide_expl_just(tell,[external,nonfactive,narration,foreground,objective]),provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_12-90  [,,lord]  [provide_expl_just(tell,[external,nonfactive,narration,foreground,objective]),provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_12-91  [you,just,can,not,tell]  [reject_expl_just(tell,[external,nonfactive,narration,foreground,objective]),reject_expl_just(go,[external,factive,narration,background,objective]),reject_expl_just(lord,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_13-105  [now,my,friend,will,not,talk,to,me]  [reject_expl_just(tell,[external,factive,narration,background,objective]),reject_expl_just(talk,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_13-106  [,,let,me,tell]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(talk,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_13-107  [you,why]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(talk,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_14-121  [he,thinks]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(change,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_14-122  [i,have,changed,because_of,a,dollar_sign]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(change,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_15-137  [and,it,is,so,strange,when,you,get,just,a,little,money]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_16-154  [your,so-called,friends,want,to,act,just,a,little,funny]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(act,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_17-172  [yes,they,will,blame]  [provide_expl_just(blame,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_17-173  [you]  [provide_expl_just(blame,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_18-191  [but,i,am,not]  [reject_expl_just(blame,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_18-192  [the,one,that,is,here,to,blame]  [reject_expl_just(blame,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_19-211  [it,is,you,my,friend]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_19-212  [that,is,really,changed]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_20-231  [its,a,shame,such,a,shame]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_21-252  [once_again,losin,i,am,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Am I Losin'? Lyrics.txt_22-274  [why,these,things,happen]  [provide_expl_just(happen,[external,factive,narration,background,objective]),provide_expl_just(understand,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_22-275  [,,lord,don-t,understand]  [provide_expl_just(happen,[external,factive,narration,background,objective]),provide_expl_just(understand,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_22-276  [i]  [provide_expl_just(happen,[external,factive,narration,background,objective]),provide_expl_just(understand,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_23-299  [but,,,lord]  [provide_expl_just(lord,[external,factive,narration,background,objective]),provide_expl_just(hurt,[external,factive,cause,foreground,objective])]
+Am I Losin'? Lyrics.txt_23-300  [it,can]  [provide_expl_just(lord,[external,factive,narration,background,objective]),provide_expl_just(hurt,[external,factive,cause,foreground,objective])]
+Am I Losin'? Lyrics.txt_23-301  [sure,hurt,a,man]  [accept_expl_opin(lord,[external,factive,narration,background,objective]),accept_expl_opin(hurt,[external,factive,cause,foreground,objective])]
+Am I Losin'? Lyrics.txt_24-325  [not,will,why,?]  [provide_expl_just(will,[internal,nonfactive,narration,background,objective]),provide_expl_just(take,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Am I Losin'? Lyrics.txt_24-326  [my,friend,take,me,as]  [provide_expl_just(will,[internal,nonfactive,narration,background,objective]),provide_expl_just(take,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Am I Losin'? Lyrics.txt_24-327  [i,am]  [provide_expl_just(will,[internal,nonfactive,narration,background,objective]),provide_expl_just(take,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Am I Losin'? Lyrics.txt_25-352  [because,your,friend,lord,,,is,the]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
+Am I Losin'? Lyrics.txt_25-353  [most,important,thing]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Am I Losin'? Lyrics.txt_1-1)-[]
+2-(Am I Losin'? Lyrics.txt_2-3)-[]
+3-(Am I Losin'? Lyrics.txt_3-6)-[]
+4-(Am I Losin'? Lyrics.txt_3-7)-[secondary-temporal_repere,secondary-instru_behavior,primary-diffusion]
+5-(Am I Losin'? Lyrics.txt_4-13)-[]
+6-(Am I Losin'? Lyrics.txt_4-14)-[secondary-temporal_repere]
+7-(Am I Losin'? Lyrics.txt_5-19)-[secondary-instru_behavior,emotions-affection]
+8-(Am I Losin'? Lyrics.txt_6-26)-[primary-concreteness,secondary-temporal_repere]
+9-(Am I Losin'? Lyrics.txt_7-34)-[primary-concreteness]
+10-(Am I Losin'? Lyrics.txt_8-42)-[secondary-abstract_tought,emotions-affection]
+11-(Am I Losin'? Lyrics.txt_9-52)-[secondary-social_behavior]
+12-(Am I Losin'? Lyrics.txt_10-64)-[secondary-abstract_tought]
+13-(Am I Losin'? Lyrics.txt_10-65)-[emotions-affection]
+14-(Am I Losin'? Lyrics.txt_11-75)-[]
+15-(Am I Losin'? Lyrics.txt_11-76)-[emotions-affection,secondary-abstract_tought]
+16-(Am I Losin'? Lyrics.txt_11-77)-[]
+17-(Am I Losin'? Lyrics.txt_12-89)-[]
+18-(Am I Losin'? Lyrics.txt_12-90)-[]
+19-(Am I Losin'? Lyrics.txt_12-91)-[secondary-social_behavior]
+20-(Am I Losin'? Lyrics.txt_13-105)-[secondary-temporal_repere,emotions-affection,secondary-social_behavior]
+21-(Am I Losin'? Lyrics.txt_13-106)-[secondary-social_behavior]
+22-(Am I Losin'? Lyrics.txt_13-107)-[secondary-abstract_tought]
+half
+23-(Am I Losin'? Lyrics.txt_14-121)-[secondary-abstract_tought]
+24-(Am I Losin'? Lyrics.txt_14-122)-[]
+25-(Am I Losin'? Lyrics.txt_15-137)-[primary-unknow,secondary-temporal_repere,secondary-instru_behavior]
+26-(Am I Losin'? Lyrics.txt_16-154)-[emotions-affection,emotions-positive_affect]
+27-(Am I Losin'? Lyrics.txt_17-172)-[emotions-aggression]
+28-(Am I Losin'? Lyrics.txt_17-173)-[]
+29-(Am I Losin'? Lyrics.txt_18-191)-[]
+30-(Am I Losin'? Lyrics.txt_18-192)-[primary-concreteness,emotions-aggression]
+31-(Am I Losin'? Lyrics.txt_19-211)-[emotions-affection]
+32-(Am I Losin'? Lyrics.txt_19-212)-[secondary-abstract_tought]
+33-(Am I Losin'? Lyrics.txt_20-231)-[]
+34-(Am I Losin'? Lyrics.txt_21-252)-[]
+35-(Am I Losin'? Lyrics.txt_22-274)-[secondary-abstract_tought]
+36-(Am I Losin'? Lyrics.txt_22-275)-[secondary-abstract_tought]
+37-(Am I Losin'? Lyrics.txt_22-276)-[]
+38-(Am I Losin'? Lyrics.txt_23-299)-[]
+39-(Am I Losin'? Lyrics.txt_23-300)-[]
+40-(Am I Losin'? Lyrics.txt_23-301)-[secondary-abstract_tought,emotions-aggression]
+41-(Am I Losin'? Lyrics.txt_24-325)-[secondary-abstract_tought]
+42-(Am I Losin'? Lyrics.txt_24-326)-[emotions-affection]
+43-(Am I Losin'? Lyrics.txt_24-327)-[]
+44-(Am I Losin'? Lyrics.txt_25-352)-[emotions-affection]
+45-(Am I Losin'? Lyrics.txt_25-353)-[secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Am I Losin'? Lyrics.txt_1,1,cl1-nil-nil-be-[xcomp-prop-Losin- - sn2,subj-theme_bound-i-sn1,def_prop(Losin-,[istituzione,umano]),def_prop(i,[umano])])
+lf(Am I Losin'? Lyrics.txt_2,3,cl2-nil-nil-be-[arg_mod-agent-Skynyrd-sn2,subj-theme_bound-Lyrics-sn1,and(Skynyrd,Lynyrd,sn2),def_prop(Skynyrd,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Am I Losin'? Lyrics.txt_3,6,cl6-nil-nil-have-[xcomp-tema_bound-dime-sn6,adj-(mod)-never-nil,xcomp-tema_bound-dime-sn4,def_prop(dime,[astratto,oggetto]),def_prop(dime,[astratto,oggetto])])
+lf(Am I Losin'? Lyrics.txt_3,6,cl5-nil-nil-come-[])
+lf(Am I Losin'? Lyrics.txt_3,6,cl4-nil-nil-use-[obj-prop-home-sn3,xadj-result-come-2,subj-actor-i-sn2,def_prop(home,[luogo]),def_prop(i,[umano])])
+lf(Am I Losin'? Lyrics.txt_3,6,cl3-nil-nil-recall-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Am I Losin'? Lyrics.txt_4,13,cl8-nil-nil-have-[adj-(mod)-always-nil,xcomp-tema_bound-time-sn2,subj-experiencer-i-sn1,and(time,good,sn2),def_prop(time,[tempo]),def_prop(i,[umano])])
+lf(Am I Losin'? Lyrics.txt_4,13,cl7-nil-nil-lord-[subj-agent-pro-nil])
+lf(Am I Losin'? Lyrics.txt_5,19,cl10-nil-nil-drink-[cmod-subord-drink-",ncmod-comitativo-one-sn3,obj-goal-wine-sn2,xcomp-purpose-drink-2,def_prop(one,[umano]),def_prop(wine,[astratto,edible,oggetto])])
+lf(Am I Losin'? Lyrics.txt_5,19,cl9-nil-nil-recall-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Am I Losin'? Lyrics.txt_6,26,cl12-not-can-go-[obj-theme-again-sn3,xcomp-purpose-can-3,and(again,back,sn3),def_prop(again,[istituzione])])
+lf(Am I Losin'? Lyrics.txt_6,26,cl11-nil-nil-lord-[adj-(mod)-again-nil,subj-agent-i-sn2,subj-agent-i-sn1,and(again,back,sn5),and(again,back,sn3),and(i,you,sn1),def_prop(again,[istituzione]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Am I Losin'? Lyrics.txt_7,34,cl13-nil-nil-be-[xcomp-theme_aff-home-sn4,xcomp-theme-way-sn3,xcomp-prop-losin-sn2,subj-theme_bound-i-sn1,and(home,back,sn4),and(way,own,sn3),def_prop(home,[luogo,oggetto,stato,strumento]),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(losin,[istituzione]),def_prop(i,[umano])])
+lf(Am I Losin'? Lyrics.txt_8,42,cl15-nil-nil-know-[aux-have-nil])
+lf(Am I Losin'? Lyrics.txt_8,42,cl14-nil-nil-be-[xcomp-prop-losin-sn2,subj-theme_bound-i-sn1,def_prop(losin,[istituzione]),def_prop(i,[umano])])
+lf(Am I Losin'? Lyrics.txt_9,52,cl18-nil-nil-sin-[subj-actor-pro-nil,aux-have-nil,subj-actor-i-sn4,obj-paziente-how-sn2,xadj-result-tell-5,def_prop(i,[umano]),def_prop(how,[manner])])
+lf(Am I Losin'? Lyrics.txt_9,52,cl17-nil-will-tell-[adj-(mod)-be-nil])
+lf(Am I Losin'? Lyrics.txt_9,52,cl16-nil-nil-be-[subj-theme_bound-you-sn1,and(you,me,sn1),def_prop(you,[umano])])
+lf(Am I Losin'? Lyrics.txt_10,64,cl19-nil-nil-be-[xcomp-prop-losin-sn2,subj-theme_bound-i-sn1,and(losin,losin,sn2),def_prop(losin,[istituzione]),def_prop(i,[umano])])
+lf(Am I Losin'? Lyrics.txt_11,75,cl22-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(Am I Losin'? Lyrics.txt_11,75,cl21-nil-nil-know-[iobj-goal-i-sn3,subj-actor-you-sn2,cmod-subord-know-",and(i,mine,sn3),def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Am I Losin'? Lyrics.txt_11,75,cl20-nil-nil-recall-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Am I Losin'? Lyrics.txt_12,89,cl26-not-can-tell-[adj-(mod)-just-nil,subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Am I Losin'? Lyrics.txt_12,89,cl25-nil-nil-lord-[subj-agent-pro-nil])
+lf(Am I Losin'? Lyrics.txt_12,89,cl24-nil-nil-show-[subj-goal-it-sn1,def_prop(it,[any])])
+lf(Am I Losin'? Lyrics.txt_12,89,cl23-nil-nil-go-[subj-agent-it-sn1,def_prop(it,[any])])
+lf(Am I Losin'? Lyrics.txt_13,105,cl29-nil-nil-be-[xcomp-theme-why-sn9,subj-theme_bound-you-sn8,def_prop(why,[astratto]),def_prop(you,[umano])])
+lf(Am I Losin'? Lyrics.txt_13,105,cl28-nil-nil-tell-[xcomp-prop-me-sn7,subj-agent-you-sn6,obj2-goal-me-sn2,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano])])
+lf(Am I Losin'? Lyrics.txt_13,105,cl27-not-will-talk-[adj-locative-now-nil,subj-actor-friend-sn1,def_prop(friend,[umano])])
+lf(Am I Losin'? Lyrics.txt_14,121,cl31-nil-nil-change-[ncmod-modal-dollar_sign-sn3,subj-agent-i-sn2,aux-have-nil,def_prop(dollar_sign,[astratto,misura]),def_prop(i,[umano])])
+lf(Am I Losin'? Lyrics.txt_14,121,cl30-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Am I Losin'? Lyrics.txt_15,137,cl33-nil-nil-get-[cmod-subord-get-",cmod-subord-be-nil])
+lf(Am I Losin'? Lyrics.txt_15,137,cl32-nil-nil-be-[subj-theme_bound-it-sn1,def_prop(it,[any])])
+lf(Am I Losin'? Lyrics.txt_16,154,cl35-nil-nil-act-[])
+lf(Am I Losin'? Lyrics.txt_16,154,cl34-nil-nil-want-[adj-(mod)-just-nil,obj-tema_unaff-funny-sn10,subj-actor-friend-sn1,and(funny,little,sn10),and(friend,so-called,sn1),def_prop(funny,[istituzione]),def_prop(friend,[umano])])
+lf(Am I Losin'? Lyrics.txt_17,172,cl37-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Am I Losin'? Lyrics.txt_17,172,cl36-nil-will-blame-[subj-agent-they-sn2,subj-agent-they-sn1,and(they,yes,sn1),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Am I Losin'? Lyrics.txt_18,191,cl39-nil-nil-blame-[])
+lf(Am I Losin'? Lyrics.txt_18,191,cl38-nil-nil-be-[adj-(mod)-here-nil,subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Am I Losin'? Lyrics.txt_19,211,cl40-nil-nil-be-[xcomp-prop-changed-sn3,xcomp-prop-you-sn2,subj-theme_bound-it-sn1,def_prop(changed,[evaluative]),def_prop(you,[umano]),def_prop(it,[any])])
+lf(Am I Losin'? Lyrics.txt_20,231,cl41-nil-nil-be-[subj-theme_bound-shame-sn2,subj-theme_bound-shame-sn1,def_prop(shame,[emotivo,stato]),def_prop(shame,[emotivo,stato])])
+lf(Am I Losin'? Lyrics.txt_21,252,cl42-nil-nil-be-[xcomp-prop-losin-sn2,subj-theme_bound-i-sn1,def_prop(losin,[istituzione]),def_prop(i,[umano])])
+lf(Am I Losin'? Lyrics.txt_22,274,cl45-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Am I Losin'? Lyrics.txt_22,274,cl44-not-nil-understand-[subj-actor-you-sn3,aux-do-nil,def_prop(you,[umano])])
+lf(Am I Losin'? Lyrics.txt_22,274,cl43-nil-nil-happen-[subj-theme_unaff-thing-sn1,and(thing,these,sn1),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Am I Losin'? Lyrics.txt_23,299,cl48-nil-nil-hurt-[obj-theme_unaff-man-sn3,subj-experiencer-sure-sn2,def_prop(man,[any]),def_prop(sure,[valutativo])])
+lf(Am I Losin'? Lyrics.txt_23,299,cl47-nil-can-can-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Am I Losin'? Lyrics.txt_23,299,cl46-nil-nil-lord-[subj-agent-pro-nil])
+lf(Am I Losin'? Lyrics.txt_24,325,cl51-nil-nil-be-[subj-theme_bound-i-sn6,def_prop(i,[umano])])
+lf(Am I Losin'? Lyrics.txt_24,325,cl50-nil-nil-take-[obj-theme_aff-me-sn3,subj-agent-friend-sn2,def_prop(me,[umano]),def_prop(friend,[umano])])
+lf(Am I Losin'? Lyrics.txt_24,325,cl49-nil-will-will-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Am I Losin'? Lyrics.txt_25,352,cl53-nil-nil-be-[])
+lf(Am I Losin'? Lyrics.txt_25,352,cl52-nil-nil-lord-[subj-agent-friend-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(you,[umano])])

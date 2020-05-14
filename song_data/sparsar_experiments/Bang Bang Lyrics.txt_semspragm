@@ -1,0 +1,167 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Bang Bang Lyrics.txt_1-1  []-positive  []
+Bang Bang Lyrics.txt_2-3  []-positive  [ack]
+Bang Bang Lyrics.txt_2-4  []-positive  [fgb]
+Bang Bang Lyrics.txt_3-6  []-negative  [neg]
+Bang Bang Lyrics.txt_3-7  [but-advers]-suspension  [fgb,neg,neg,fgb,neg]
+Bang Bang Lyrics.txt_4-11  []-negative  [neg]
+Bang Bang Lyrics.txt_5-16  []-positive  []
+Bang Bang Lyrics.txt_5-17  []-negative  [neg]
+Bang Bang Lyrics.txt_6-23  []-positive  [bkc]
+Bang Bang Lyrics.txt_7-30  []-positive  [ass]
+Bang Bang Lyrics.txt_7-31  []-positive  []
+Bang Bang Lyrics.txt_8-38  []-positive  []
+Bang Bang Lyrics.txt_9-47  []-positive  []
+Bang Bang Lyrics.txt_10-57  []-positive  [fgb,fgb]
+Bang Bang Lyrics.txt_11-68  []-negative  []
+Bang Bang Lyrics.txt_12-80  []-positive  [bkc]
+Bang Bang Lyrics.txt_12-81  []-positive  []
+Bang Bang Lyrics.txt_13-94  []-positive  []
+Bang Bang Lyrics.txt_14-108  []-negative  []
+Bang Bang Lyrics.txt_15-123  []-positive  []
+Bang Bang Lyrics.txt_16-139  []-positive  []
+Bang Bang Lyrics.txt_17-156  []-positive  []
+Bang Bang Lyrics.txt_18-174  []-positive  []
+Bang Bang Lyrics.txt_19-193  []-positive  []
+Bang Bang Lyrics.txt_20-213  []-positive  []
+Bang Bang Lyrics.txt_20-214  []-positive  []
+Bang Bang Lyrics.txt_21-235  []-positive  []
+Bang Bang Lyrics.txt_21-236  [when-temp_coinc]-positive  []
+Bang Bang Lyrics.txt_22-258  []-positive  []
+Bang Bang Lyrics.txt_22-259  []-negative  [neg,fgb]
+Bang Bang Lyrics.txt_23-282  []-positive  [bkc,neg,fhd,ack]
+Bang Bang Lyrics.txt_24-306  [when-temp_coinc]-positive  []
+Bang Bang Lyrics.txt_25-331  []-negative  [neg]
+Bang Bang Lyrics.txt_26-357  []-positive  [bkc]
+Bang Bang Lyrics.txt_27-384  []-negative  [bkc,neg]
+Bang Bang Lyrics.txt_28-412  []-positive  []
+Bang Bang Lyrics.txt_29-441  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Bang Bang Lyrics.txt_1-1  [bang,Bang,Lyrics,by,Lynyrd,Skynyrd]  [title]
+Bang Bang Lyrics.txt_2-3  [somewhere,south,of,Winslow,the,road,went,right]  [provide_expl_just(go,[external,factive,narration,foreground,objective])]
+Bang Bang Lyrics.txt_2-4  [and,i,went,left]  [provide_expl_just(go,[external,factive,narration,foreground,objective])]
+Bang Bang Lyrics.txt_3-6  [nothing,out,my,window]  [reject_expl_just(out,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_3-7  [but,desert,,,dirt,,,and,death]  [provide_expl_just(out,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_4-11  [from,outta,nowhere,stood,an,angel,from,up,in,the,air]  [reject_expl_just(stand,[external,factive,narration,foreground,objective])]
+Bang Bang Lyrics.txt_5-16  [sometimes,that,hot,horizon,plays,tricks,on,you]  [provide_expl_just(play,[external,factive,narration,background,objective]),provide_expl_just(swear,[external,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_5-17  [i,swear]  [reject_expl_just(play,[external,factive,narration,background,objective]),reject_expl_just(swear,[external,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_6-23  [i,oh,picked,her,up]  [provide_expl_just(pick,[external,factive,narration,foreground,objective])]
+Bang Bang Lyrics.txt_7-30  [sure,enough,that,girl,was,real,,,sitting,in,my,truck,.,girl,was,real]  [accept_expl_opin(truck,[internal,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_7-31  [,,sitting,in,my,truck]  [provide_expl_just(truck,[internal,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_8-38  [said,i,know,a,place,Broken,called,the,wheel,where,we,can,try,our,luck]  [provide_expl_just(try,[external,nonfactive,narration,foreground,objective])]
+Bang Bang Lyrics.txt_9-47  [five,miles,north,of,66,,,behind,old,man,Lester-s,barn]  [provide_expl_just(man,[external,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_10-57  [the,flows,and,the,money,whisky,where,goes,and,the,Sherriff,claims,that,he]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_11-68  [don-t,know]  reject_expl_opin(nil,[])
+Bang Bang Lyrics.txt_12-80  [oh,here,i,go,again]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(singe,[external,factive,narration,foreground,objective])]
+Bang Bang Lyrics.txt_12-81  [,,singing]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(singe,[external,factive,narration,foreground,objective])]
+Bang Bang Lyrics.txt_13-94  [bang,bang]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Bang Bang Lyrics.txt_14-108  [that,cell,door-s,closing,in]  [proposal(be,[_541642,_541648,statement,foreground,_541666])]
+Bang Bang Lyrics.txt_15-123  [bang,bang]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Bang Bang Lyrics.txt_16-139  [here,i,go,again]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_17-156  [bang,bang]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Bang Bang Lyrics.txt_18-174  [those,around,my,chains,legs]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_19-193  [bang,bang]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Bang Bang Lyrics.txt_20-213  [this,is,where,the,highway,ends,.]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(end,[external,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_20-214  [the,highway,ends]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(end,[external,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_21-235  [4,am,i,was,outta,cash]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Bang Bang Lyrics.txt_21-236  [when,she,whispered,in,my,ear]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Bang Bang Lyrics.txt_22-258  [i,got]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(pull,[external,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_22-259  [a,gun,and,a,plan,pull,the,truck,up_to,the,rear]  [reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(pull,[external,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_23-282  [yeah,it,hit,me,a,tire,like,tool,right,between,the,eyes]  [provide_expl_just(hit,[external,factive,cause,foreground,objective])]
+Bang Bang Lyrics.txt_24-306  [flew,she,open,when,the,door,came,out,screaming]  [raise_issue(be,[_548728,factive,statement,_548746,subjective])]
+Bang Bang Lyrics.txt_25-331  [FOOL,drive,drive]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_26-357  [blue,oh,lights,in,my,eyes]  [provide_expl_just(light,[external,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_27-384  [oh,i,must-ve,been,my,mind,outta]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_28-412  [here,i,go,again]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Bang Bang Lyrics.txt_29-441  [bang,bang]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Bang Bang Lyrics.txt_1-1)-[primary-sound]
+2-(Bang Bang Lyrics.txt_2-3)-[primary-concreteness,primary-concreteness,primary-brink,secondary-moral_imperative]
+3-(Bang Bang Lyrics.txt_2-4)-[]
+4-(Bang Bang Lyrics.txt_3-6)-[primary-concreteness,primary-brink]
+5-(Bang Bang Lyrics.txt_3-7)-[primary-voyage,primary-anality,primary-passivity]
+6-(Bang Bang Lyrics.txt_4-11)-[primary-concreteness]
+7-(Bang Bang Lyrics.txt_5-16)-[secondary-temporal_repere,primary-fire,primary-brink,emotions-expressive_beh]
+8-(Bang Bang Lyrics.txt_5-17)-[]
+9-(Bang Bang Lyrics.txt_6-23)-[secondary-instru_behavior]
+10-(Bang Bang Lyrics.txt_7-30)-[secondary-abstract_tought,secondary-abstract_tought,secondary-abstract_tought]
+11-(Bang Bang Lyrics.txt_7-31)-[]
+12-(Bang Bang Lyrics.txt_8-38)-[secondary-social_behavior,secondary-abstract_tought,primary-concreteness,secondary-social_behavior,primary-concreteness,secondary-instru_behavior]
+13-(Bang Bang Lyrics.txt_9-47)-[primary-cold,primary-concreteness,secondary-temporal_repere,secondary-restraint]
+14-(Bang Bang Lyrics.txt_10-57)-[secondary-instru_behavior,primary-orality,primary-concreteness,secondary-instru_behavior]
+15-(Bang Bang Lyrics.txt_11-68)-[secondary-abstract_tought]
+16-(Bang Bang Lyrics.txt_12-80)-[primary-concreteness,secondary-temporal_repere]
+17-(Bang Bang Lyrics.txt_12-81)-[]
+18-(Bang Bang Lyrics.txt_13-94)-[primary-sound,primary-sound]
+half
+19-(Bang Bang Lyrics.txt_14-108)-[primary-brink]
+20-(Bang Bang Lyrics.txt_15-123)-[primary-sound,primary-sound]
+21-(Bang Bang Lyrics.txt_16-139)-[primary-concreteness,secondary-temporal_repere]
+22-(Bang Bang Lyrics.txt_17-156)-[primary-sound,primary-sound]
+23-(Bang Bang Lyrics.txt_18-174)-[primary-narcissism]
+24-(Bang Bang Lyrics.txt_19-193)-[primary-sound,primary-sound]
+25-(Bang Bang Lyrics.txt_20-213)-[primary-concreteness,primary-brink]
+26-(Bang Bang Lyrics.txt_20-214)-[primary-brink]
+27-(Bang Bang Lyrics.txt_21-235)-[primary-concreteness]
+28-(Bang Bang Lyrics.txt_21-236)-[secondary-temporal_repere,primary-soft,primary-sound]
+29-(Bang Bang Lyrics.txt_22-258)-[]
+30-(Bang Bang Lyrics.txt_22-259)-[emotions-aggression,secondary-abstract_tought,primary-concreteness]
+31-(Bang Bang Lyrics.txt_23-282)-[emotions-aggression,emotions-affection,secondary-moral_imperative,primary-concreteness,primary-narcissism]
+32-(Bang Bang Lyrics.txt_24-306)-[primary-ascend,primary-concreteness,secondary-temporal_repere,primary-brink,primary-concreteness]
+33-(Bang Bang Lyrics.txt_25-331)-[primary-voyage,primary-voyage]
+34-(Bang Bang Lyrics.txt_26-357)-[primary-vision,primary-vision,primary-narcissism]
+35-(Bang Bang Lyrics.txt_27-384)-[primary-concreteness]
+36-(Bang Bang Lyrics.txt_28-412)-[primary-concreteness,secondary-temporal_repere]
+37-(Bang Bang Lyrics.txt_29-441)-[primary-sound,primary-sound]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Bang Bang Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Skynyrd-sn2,subj-theme_bound-Lyrics-sn1,and(Skynyrd,Lynyrd,sn2),and(Lyrics,Bang,sn1),def_prop(Skynyrd,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Bang Bang Lyrics.txt_2,3,cl2-nil-nil-go-[cmod-subord-go-",xcomp-prop-left-sn8,subj-agent-i-sn7,adj-(mod)-south-nil,xcomp-prop-right-sn3,ncmod-specif-Winslow-sn2,subj-agent-road-sn1,and(south,somewhere,sn4),def_prop(left,[soggettivo]),def_prop(i,[umano]),def_prop(south,[istituzione]),def_prop(right,[soggettivo]),def_prop(Winslow,[place,umano]),def_prop(road,[attivita,oggetto,strumento])])
+lf(Bang Bang Lyrics.txt_3,6,cl3-nil-nil-be-[subj-theme_bound-death-sn5,def_prop(death,[animato,attivita,cambia,evento,informa,stato,tempo])])
+lf(Bang Bang Lyrics.txt_3,6,nil-nil-nil-out-[obj-theme-window-sn2,subj-actor-nothing-sn1,def_prop(window,[oggetto,strumento,tempo]),def_prop(nothing,[astratto,informa,oggetto])])
+lf(Bang Bang Lyrics.txt_4,11,cl4-nil-nil-stand-[adj-(mod)-nowhere-nil,iobj-locative-air-sn4,ncmod-loc_origin-up-sn3,ncmod-loc_origin-outta-sn2,subj-experiencer-angel-sn1,def_prop(air,[astratto,attivita,informa,luogo,sostanza]),def_prop(up,[istituzione]),def_prop(outta,[istituzione]),def_prop(angel,[plant,umano])])
+lf(Bang Bang Lyrics.txt_5,16,cl6-nil-nil-swear-[subj-agent-you-sn6,ncmod-locativo-you-sn3,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Bang Bang Lyrics.txt_5,16,cl5-nil-nil-play-[adj-(mod)-sometimes-nil,obj-goal-trick-sn2,subj-agent-horizon-sn1,and(horizon,that,sn1),and(horizon,hot,sn1),def_prop(trick,[attivita,tempo]),def_prop(horizon,[astratto,luogo])])
+lf(Bang Bang Lyrics.txt_6,23,cl7-nil-nil-pick-[obj-goal-up-sn2,subj-agent-oh-sn1,and(oh,i,sn1),def_prop(up,[istituzione]),def_prop(oh,[informa,tecno])])
+lf(Bang Bang Lyrics.txt_7,30,cl8-nil-nil-be-[xadj-adj-sitting-adj1,ncmod-locativo-truck-sn10,xcomp-prop-real-sn9,xcomp-theme-girl-sn8,ncmod-locativo-truck-sn5,subj-theme_bound-enough-sn1,and(enough,sure,sn1),def_prop(sitting,_552808),def_prop(truck,[oggetto,strumento]),def_prop(real,[astratto,oggetto]),def_prop(girl,[oggetto,strumento]),def_prop(truck,[oggetto,strumento]),def_prop(enough,[astratto,informa,oggetto])])
+lf(Bang Bang Lyrics.txt_8,38,_552974-nil-nil-try-[obl-locat-wheel-sn23,obl-locat-wheel-sn14,obl-locat-wheel-sn5,voice-try-nil,tense-try-nil,and(wheel,Broken,sn23),and(wheel,Broken,sn14),and(wheel,Broken,sn5),def_prop(wheel,[oggetto,strumento]),def_prop(wheel,[oggetto,strumento]),def_prop(wheel,[oggetto,strumento])])
+lf(Bang Bang Lyrics.txt_8,38,cl11-nil-nil-call-[subj-agent-wheel-sn14,voice-try-nil,tense-try-nil,obj-theme_bound-wheel-sn5,subj-agent-place-sn4,and(wheel,Broken,sn14),and(wheel,Broken,sn5),def_prop(wheel,[oggetto,strumento]),def_prop(wheel,[oggetto,strumento]),def_prop(place,[astratto,attivita,informa,luogo,stato])])
+lf(Bang Bang Lyrics.txt_8,38,cl10-nil-nil-know-[voice-try-nil,tense-try-nil,subj-tema_nonaff-i-sn2,def_prop(i,[umano])])
+lf(Bang Bang Lyrics.txt_8,38,cl9-nil-nil-say-[voice-try-nil,tense-try-nil,subj-actor-i-sn2,subj-actor-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Bang Bang Lyrics.txt_9,47,cl12-nil-nil-man-[adj-locative-north-nil,obj-theme-barn-sn4,ncmod-modal-old-sn3,ncmod-specif-66-sn2,subj-agent-mile-sn1,and(barn,Lester-s,sn4),and(mile,five,sn1),def_prop(barn,[nquant,oggetto,strumento]),def_prop(old,[estens]),def_prop(66,[nquant]),def_prop(mile,[evento,nquant])])
+lf(Bang Bang Lyrics.txt_10,57,cl13-nil-nil-go-[obj-theme_aff-claim-sn3,obj-theme-Sherriff-sn2,subj-agent-whisky-sn1,and(claim,he,sn3),and(claim,that,sn3),and(whisky,money,sn1),def_prop(claim,[astratto,attivita,informa]),def_prop(Sherriff,[istituzione,umano]),def_prop(whisky,[edible])])
+lf(Bang Bang Lyrics.txt_11,68,cl14-not-nil-know-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Bang Bang Lyrics.txt_12,80,cl16-nil-nil-singe-[subj-agent-you-sn8,def_prop(you,[umano])])
+lf(Bang Bang Lyrics.txt_12,80,cl15-nil-nil-go-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,oh,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Bang Bang Lyrics.txt_13,94,cl17-nil-nil-say-[obj-theme_unaff-bang-sn1,and(bang,bang,sn1),def_prop(bang,[body_part,emotivo,evento,umano])])
+lf(Bang Bang Lyrics.txt_14,108,cl18-nil-nil-close-[ncmod-modal-cell-sn2,subj-agent-you-sn1,def_prop(cell,[any,istituzione,oggetto,strumento]),def_prop(you,[umano])])
+lf(Bang Bang Lyrics.txt_15,123,cl19-nil-nil-say-[obj-theme_unaff-bang-sn1,and(bang,bang,sn1),def_prop(bang,[body_part,emotivo,evento,umano])])
+lf(Bang Bang Lyrics.txt_16,139,cl20-nil-nil-go-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Bang Bang Lyrics.txt_17,156,cl21-nil-nil-say-[obj-theme_unaff-bang-sn1,and(bang,bang,sn1),def_prop(bang,[body_part,emotivo,evento,umano])])
+lf(Bang Bang Lyrics.txt_18,174,cl22-nil-nil-be-[ncmod-modal-chain-sn2,subj-theme_bound-you-sn1,def_prop(chain,[nquant,oggetto,strumento]),def_prop(you,[umano])])
+lf(Bang Bang Lyrics.txt_19,193,cl23-nil-nil-say-[obj-theme_unaff-bang-sn1,and(bang,bang,sn1),def_prop(bang,[body_part,emotivo,evento,umano])])
+lf(Bang Bang Lyrics.txt_20,213,cl25-nil-nil-end-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Bang Bang Lyrics.txt_20,213,cl24-nil-nil-be-[subj-theme_bound-this-sn1,def_prop(this,[oggetto,umano])])
+lf(Bang Bang Lyrics.txt_21,235,cl27-nil-nil-whisper-[iobj-goal-ear-sn8,subj-actor-she-sn7,def_prop(ear,[astratto,body_part,plant,umano]),def_prop(she,[umano])])
+lf(Bang Bang Lyrics.txt_21,235,cl26-nil-nil-be-[xcomp-prop-cash-sn3,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(cash,outta,sn3),and(i,am,sn1),and(i,4,sn1),def_prop(cash,[astratto,oggetto]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Bang Bang Lyrics.txt_22,258,cl29-nil-nil-pull-[ncmod-loc_direct-rear-sn6,obj-goal-truck-sn5,coord-agent-gun_and_plan-sn4,subj-agent-plan-sn3,subj-agent-gun-sn2,def_prop(rear,[body_part,luogo,oggetto,strumento,umano]),def_prop(truck,[oggetto,strumento]),def_prop(gun_and_plan,[attivita,oggetto,strumento,umano,astratto,oggetto,strumento]),def_prop(plan,[attivita,oggetto,strumento,umano,astratto,oggetto,strumento]),def_prop(gun,[attivita,oggetto,strumento,umano,astratto,oggetto,strumento])])
+lf(Bang Bang Lyrics.txt_22,258,cl28-nil-nil-get-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bang Bang Lyrics.txt_23,282,cl30-nil-nil-hit-[xadj-adj-right-adj2,adj-(mod)-yeah-nil,ncmod-relation-eye-sn4,obj-theme-tool-sn3,obj-goal-me-sn2,subj-agent-it-sn1,and(tool,tire,sn3),def_prop(right,_556352),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(tool,[oggetto,strumento]),def_prop(me,[umano]),def_prop(it,[any])])
+lf(Bang Bang Lyrics.txt_24,306,cl31-nil-nil-come-[ncmod-modal-screaming-sn3,obj-theme-door-sn2,subj-agent-open-sn1,and(open,fly,sn1),def_prop(screaming,[attivita,evento,informa]),def_prop(door,[astratto,oggetto,strumento]),def_prop(open,[astratto,evento,luogo])])
+lf(Bang Bang Lyrics.txt_25,331,cl32-nil-nil-be-[ncmod-modal-drive-sn2,subj-theme_bound-you-sn1,def_prop(drive,[astratto,attivita,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Bang Bang Lyrics.txt_26,357,cl33-nil-nil-light-[ncmod-locativo-eye-sn2,subj-actor-oh-sn1,and(oh,blue,sn1),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(oh,[informa,tecno])])
+lf(Bang Bang Lyrics.txt_27,384,cl34-nil-nil-be-[xcomp-theme-outta-sn4,subj-theme_bound-must-ve-sn3,subj-theme_bound-must-ve-sn2,subj-theme_bound-i-sn1,and(outta,mind,sn4),and(must-ve,i,sn2),and(i,oh,sn1),def_prop(outta,[istituzione]),def_prop(must-ve,[edible,informa,oggetto,tecno]),def_prop(must-ve,[edible,informa,oggetto,tecno]),def_prop(i,[umano])])
+lf(Bang Bang Lyrics.txt_28,412,cl35-nil-nil-go-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Bang Bang Lyrics.txt_29,441,cl36-nil-nil-say-[obj-theme_unaff-bang-sn1,and(bang,bang,sn1),def_prop(bang,[body_part,emotivo,evento,umano])])
