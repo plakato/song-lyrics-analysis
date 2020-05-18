@@ -1,0 +1,206 @@
+"POLARITY, DISCOURSE MARKERS"
+
+shuffled0_Am I Losin'? Lyrics.txt_1-1  []-question  []
+shuffled0_Am I Losin'? Lyrics.txt_2-3  []-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_3-6  [because-cause]-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_3-7  []-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_4-11  []-question  []
+shuffled0_Am I Losin'? Lyrics.txt_4-12  []-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_5-16  []-question  []
+shuffled0_Am I Losin'? Lyrics.txt_6-23  []-negative  [neg]
+shuffled0_Am I Losin'? Lyrics.txt_6-24  []-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_6-25  []-suspension  []
+shuffled0_Am I Losin'? Lyrics.txt_7-32  [but-advers]-positive  [fgb]
+shuffled0_Am I Losin'? Lyrics.txt_7-33  []-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_8-41  []-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_8-42  []-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_9-50  []-negative  [neg,neg]
+shuffled0_Am I Losin'? Lyrics.txt_10-60  []-suspension  []
+shuffled0_Am I Losin'? Lyrics.txt_10-61  []-negative  []
+shuffled0_Am I Losin'? Lyrics.txt_10-62  []-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_11-73  []-negative  [neg]
+shuffled0_Am I Losin'? Lyrics.txt_12-87  []-question  []
+shuffled0_Am I Losin'? Lyrics.txt_13-100  []-question  [neg]
+shuffled0_Am I Losin'? Lyrics.txt_13-101  [(as)-temp_coinc]-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_13-102  []-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_14-116  []-negative  [neg,neg]
+shuffled0_Am I Losin'? Lyrics.txt_15-132  []-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_15-133  []-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_16-149  []-question  []
+shuffled0_Am I Losin'? Lyrics.txt_17-166  []-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_17-167  []-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_17-168  []-negative  [neg]
+shuffled0_Am I Losin'? Lyrics.txt_18-187  []-suspension  [bkc,neg]
+shuffled0_Am I Losin'? Lyrics.txt_18-188  []-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_19-207  []-positive  [fgb]
+shuffled0_Am I Losin'? Lyrics.txt_19-208  []-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_19-209  [so-result]-positive  [fgb,fgb]
+shuffled0_Am I Losin'? Lyrics.txt_20-229  []-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_20-230  [when-temp_coinc]-negative  [neg]
+shuffled0_Am I Losin'? Lyrics.txt_21-253  []-positive  [fgb]
+shuffled0_Am I Losin'? Lyrics.txt_22-276  [but-advers]-negative  [fgb,neg]
+shuffled0_Am I Losin'? Lyrics.txt_22-277  []-negative  [neg]
+shuffled0_Am I Losin'? Lyrics.txt_23-300  []-negative  [neg]
+shuffled0_Am I Losin'? Lyrics.txt_24-325  [but-advers]-positive  [fgb]
+shuffled0_Am I Losin'? Lyrics.txt_24-326  []-positive  []
+shuffled0_Am I Losin'? Lyrics.txt_24-327  []-positive  [ass,neg]
+shuffled0_Am I Losin'? Lyrics.txt_25-352  [so-result,when-temp_coinc]-suspension  [fgb,fgb,neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+shuffled0_Am I Losin'? Lyrics.txt_1-1  [Losin-,i,am,?]  [title]
+shuffled0_Am I Losin'? Lyrics.txt_2-3  [Lyrics,by,Lynyrd,Skynyrd]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_3-6  [because,your,friend,lord,,,is,the]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_3-7  [most,important,thing]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_4-11  [am,why,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_4-12  [i,losin,one,of,my,best,friends]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_5-16  [known,have,i,that,friend,good,a,losin,i,am,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(know,[internal,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_6-23  [now,my,friend,will,not,talk,to,me]  [reject_expl_just(tell,[external,factive,narration,background,objective]),reject_expl_just(talk,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_6-24  [,,let,me,tell]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(talk,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_6-25  [you,why]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(talk,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_7-32  [but,,,lord]  [provide_expl_just(lord,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_7-33  [i,always,had,a,good,time]  [provide_expl_just(lord,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_8-41  [it,is,you,my,friend]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_8-42  [that,is,really,changed]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_9-50  [its,a,shame,such,a,shame]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_10-60  [why,these,things,happen]  [provide_expl_just(happen,[external,factive,narration,background,objective]),provide_expl_just(understand,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_10-61  [,,lord,don-t,understand]  [provide_expl_just(happen,[external,factive,narration,background,objective]),provide_expl_just(understand,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_10-62  [i]  [provide_expl_just(happen,[external,factive,narration,background,objective]),provide_expl_just(understand,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_11-73  [not,me,you,?,am,will,tell,how,i,have,sinned]  [reject_expl_just(tell,[internal,nonfactive,narration,background,objective]),reject_expl_just(be,[internal,factive,narration,foreground,objective]),reject_expl_just(sin,[internal,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_12-87  [home,back,way,own,my,losin,i,am,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_13-100  [not,will,why,?]  [provide_expl_just(will,[internal,nonfactive,narration,background,objective]),provide_expl_just(take,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_13-101  [my,friend,take,me,as]  [provide_expl_just(will,[internal,nonfactive,narration,background,objective]),provide_expl_just(take,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_13-102  [i,am]  [provide_expl_just(will,[internal,nonfactive,narration,background,objective]),provide_expl_just(take,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_14-116  [your,so-called,friends,want,to,act,just,a,little,funny]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(act,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_15-132  [he,thinks]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(change,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_15-133  [i,have,changed,because_of,a,dollar_sign]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(change,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_16-149  [once_again,losin,i,am,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_17-166  [it,goes,to,show]  [provide_expl_just(tell,[external,nonfactive,narration,foreground,objective]),provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_17-167  [,,lord]  [provide_expl_just(tell,[external,nonfactive,narration,foreground,objective]),provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_17-168  [you,just,can,not,tell]  [reject_expl_just(tell,[external,nonfactive,narration,foreground,objective]),reject_expl_just(go,[external,factive,narration,background,objective]),reject_expl_just(lord,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_18-187  [yes,they,will,blame]  [provide_expl_just(blame,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_18-188  [you]  [provide_expl_just(blame,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_19-207  [and,i,recall]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_196648)]
+shuffled0_Am I Losin'? Lyrics.txt_19-208  [this,friend,of,mine,i,knew]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_201032)]
+shuffled0_Am I Losin'? Lyrics.txt_19-209  [so,well]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_205416)]
+shuffled0_Am I Losin'? Lyrics.txt_20-229  [i,recall]  [provide_expl_just(recall,[external,factive,narration,background,objective]),provide_expl_just(use,[external,factive,cause,foreground,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_20-230  [when,i,used,to,come,home,,,never,had,a,dime]  [reject_expl_just(recall,[external,factive,narration,background,objective]),reject_expl_just(use,[external,factive,cause,foreground,objective]),reject_expl_just(have,[external,factive,narration,foreground,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_21-253  [and,i,recall,drinking,wine,with,one,of,my,friends]  [provide_expl_just(drink,[external,factive,narration,foreground,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_22-276  [but,i,am,not]  [reject_expl_just(blame,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_22-277  [the,one,that,is,here,to,blame]  [reject_expl_just(blame,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_23-300  [lord,i,can,not,go,back,again]  [reject_expl_just(lord,[external,factive,narration,background,objective]),reject_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_24-325  [but,,,lord]  [provide_expl_just(lord,[external,factive,narration,background,objective]),provide_expl_just(hurt,[external,factive,cause,foreground,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_24-326  [it,can]  [provide_expl_just(lord,[external,factive,narration,background,objective]),provide_expl_just(hurt,[external,factive,cause,foreground,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_24-327  [sure,hurt,a,man]  [accept_expl_opin(lord,[external,factive,narration,background,objective]),accept_expl_opin(hurt,[external,factive,cause,foreground,objective])]
+shuffled0_Am I Losin'? Lyrics.txt_25-352  [and,it,is,so,strange,when,you,get,just,a,little,money]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(shuffled0_Am I Losin'? Lyrics.txt_1-1)-[]
+2-(shuffled0_Am I Losin'? Lyrics.txt_2-3)-[]
+3-(shuffled0_Am I Losin'? Lyrics.txt_3-6)-[emotions-affection]
+4-(shuffled0_Am I Losin'? Lyrics.txt_3-7)-[secondary-abstract_tought]
+5-(shuffled0_Am I Losin'? Lyrics.txt_4-11)-[secondary-abstract_tought]
+6-(shuffled0_Am I Losin'? Lyrics.txt_4-12)-[emotions-affection]
+7-(shuffled0_Am I Losin'? Lyrics.txt_5-16)-[secondary-abstract_tought,emotions-affection]
+8-(shuffled0_Am I Losin'? Lyrics.txt_6-23)-[secondary-temporal_repere,emotions-affection,secondary-social_behavior]
+9-(shuffled0_Am I Losin'? Lyrics.txt_6-24)-[secondary-social_behavior]
+10-(shuffled0_Am I Losin'? Lyrics.txt_6-25)-[secondary-abstract_tought]
+11-(shuffled0_Am I Losin'? Lyrics.txt_7-32)-[]
+12-(shuffled0_Am I Losin'? Lyrics.txt_7-33)-[secondary-temporal_repere]
+13-(shuffled0_Am I Losin'? Lyrics.txt_8-41)-[emotions-affection]
+14-(shuffled0_Am I Losin'? Lyrics.txt_8-42)-[secondary-abstract_tought]
+15-(shuffled0_Am I Losin'? Lyrics.txt_9-50)-[]
+16-(shuffled0_Am I Losin'? Lyrics.txt_10-60)-[secondary-abstract_tought]
+17-(shuffled0_Am I Losin'? Lyrics.txt_10-61)-[secondary-abstract_tought]
+18-(shuffled0_Am I Losin'? Lyrics.txt_10-62)-[]
+19-(shuffled0_Am I Losin'? Lyrics.txt_11-73)-[secondary-social_behavior]
+20-(shuffled0_Am I Losin'? Lyrics.txt_12-87)-[primary-concreteness]
+21-(shuffled0_Am I Losin'? Lyrics.txt_13-100)-[secondary-abstract_tought]
+22-(shuffled0_Am I Losin'? Lyrics.txt_13-101)-[emotions-affection]
+half
+23-(shuffled0_Am I Losin'? Lyrics.txt_13-102)-[]
+24-(shuffled0_Am I Losin'? Lyrics.txt_14-116)-[emotions-affection,emotions-positive_affect]
+25-(shuffled0_Am I Losin'? Lyrics.txt_15-132)-[secondary-abstract_tought]
+26-(shuffled0_Am I Losin'? Lyrics.txt_15-133)-[]
+27-(shuffled0_Am I Losin'? Lyrics.txt_16-149)-[]
+28-(shuffled0_Am I Losin'? Lyrics.txt_17-166)-[]
+29-(shuffled0_Am I Losin'? Lyrics.txt_17-167)-[]
+30-(shuffled0_Am I Losin'? Lyrics.txt_17-168)-[secondary-social_behavior]
+31-(shuffled0_Am I Losin'? Lyrics.txt_18-187)-[emotions-aggression]
+32-(shuffled0_Am I Losin'? Lyrics.txt_18-188)-[]
+33-(shuffled0_Am I Losin'? Lyrics.txt_19-207)-[]
+34-(shuffled0_Am I Losin'? Lyrics.txt_19-208)-[emotions-affection,secondary-abstract_tought]
+35-(shuffled0_Am I Losin'? Lyrics.txt_19-209)-[]
+36-(shuffled0_Am I Losin'? Lyrics.txt_20-229)-[]
+37-(shuffled0_Am I Losin'? Lyrics.txt_20-230)-[secondary-temporal_repere,secondary-instru_behavior,primary-diffusion]
+38-(shuffled0_Am I Losin'? Lyrics.txt_21-253)-[secondary-instru_behavior,emotions-affection]
+39-(shuffled0_Am I Losin'? Lyrics.txt_22-276)-[]
+40-(shuffled0_Am I Losin'? Lyrics.txt_22-277)-[primary-concreteness,emotions-aggression]
+41-(shuffled0_Am I Losin'? Lyrics.txt_23-300)-[primary-concreteness,secondary-temporal_repere]
+42-(shuffled0_Am I Losin'? Lyrics.txt_24-325)-[]
+43-(shuffled0_Am I Losin'? Lyrics.txt_24-326)-[]
+44-(shuffled0_Am I Losin'? Lyrics.txt_24-327)-[secondary-abstract_tought,emotions-aggression]
+45-(shuffled0_Am I Losin'? Lyrics.txt_25-352)-[primary-unknow,secondary-temporal_repere,secondary-instru_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(shuffled0_Am I Losin'? Lyrics.txt_1,1,cl1-nil-nil-be-[xcomp-prop-Losin- - sn2,subj-theme_bound-i-sn1,def_prop(Losin-,[istituzione,umano]),def_prop(i,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_2,3,cl2-nil-nil-be-[arg_mod-agent-Skynyrd-sn2,subj-theme_bound-Lyrics-sn1,and(Skynyrd,Lynyrd,sn2),def_prop(Skynyrd,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_3,6,cl4-nil-nil-be-[])
+lf(shuffled0_Am I Losin'? Lyrics.txt_3,6,cl3-nil-nil-lord-[subj-agent-friend-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(you,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_4,11,cl5-nil-nil-be-[xcomp-prop-losin-sn2,subj-theme_bound-i-sn1,and(losin,losin,sn2),def_prop(losin,[istituzione]),def_prop(i,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_5,16,cl7-nil-nil-know-[aux-have-nil])
+lf(shuffled0_Am I Losin'? Lyrics.txt_5,16,cl6-nil-nil-be-[xcomp-prop-losin-sn2,subj-theme_bound-i-sn1,def_prop(losin,[istituzione]),def_prop(i,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_6,23,cl10-nil-nil-be-[xcomp-theme-why-sn9,subj-theme_bound-you-sn8,def_prop(why,[astratto]),def_prop(you,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_6,23,cl9-nil-nil-tell-[xcomp-prop-me-sn7,subj-agent-you-sn6,obj2-goal-me-sn2,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_6,23,cl8-not-will-talk-[adj-locative-now-nil,subj-actor-friend-sn1,def_prop(friend,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_7,32,cl12-nil-nil-have-[adj-(mod)-always-nil,xcomp-tema_bound-time-sn2,subj-experiencer-i-sn1,and(time,good,sn2),def_prop(time,[tempo]),def_prop(i,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_7,32,cl11-nil-nil-lord-[subj-agent-pro-nil])
+lf(shuffled0_Am I Losin'? Lyrics.txt_8,41,cl13-nil-nil-be-[xcomp-prop-changed-sn3,xcomp-prop-you-sn2,subj-theme_bound-it-sn1,def_prop(changed,[evaluative]),def_prop(you,[umano]),def_prop(it,[any])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_9,50,cl14-nil-nil-be-[subj-theme_bound-shame-sn2,subj-theme_bound-shame-sn1,def_prop(shame,[emotivo,stato]),def_prop(shame,[emotivo,stato])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_10,60,cl17-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_10,60,cl16-not-nil-understand-[subj-actor-you-sn3,aux-do-nil,def_prop(you,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_10,60,cl15-nil-nil-happen-[subj-theme_unaff-thing-sn1,and(thing,these,sn1),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_11,73,cl20-nil-nil-sin-[subj-actor-pro-nil,aux-have-nil,subj-actor-i-sn4,obj-paziente-how-sn2,xadj-result-tell-5,def_prop(i,[umano]),def_prop(how,[manner])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_11,73,cl19-nil-will-tell-[adj-(mod)-be-nil])
+lf(shuffled0_Am I Losin'? Lyrics.txt_11,73,cl18-nil-nil-be-[subj-theme_bound-you-sn1,and(you,me,sn1),def_prop(you,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_12,87,cl21-nil-nil-be-[xcomp-theme_aff-home-sn4,xcomp-theme-way-sn3,xcomp-prop-losin-sn2,subj-theme_bound-i-sn1,and(home,back,sn4),and(way,own,sn3),def_prop(home,[luogo,oggetto,stato,strumento]),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(losin,[istituzione]),def_prop(i,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_13,100,cl24-nil-nil-be-[subj-theme_bound-i-sn6,def_prop(i,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_13,100,cl23-nil-nil-take-[obj-theme_aff-me-sn3,subj-agent-friend-sn2,def_prop(me,[umano]),def_prop(friend,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_13,100,cl22-nil-will-will-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_14,116,cl26-nil-nil-act-[])
+lf(shuffled0_Am I Losin'? Lyrics.txt_14,116,cl25-nil-nil-want-[adj-(mod)-just-nil,obj-tema_unaff-funny-sn10,subj-actor-friend-sn1,and(funny,little,sn10),and(friend,so-called,sn1),def_prop(funny,[istituzione]),def_prop(friend,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_15,132,cl28-nil-nil-change-[ncmod-modal-dollar_sign-sn3,subj-agent-i-sn2,aux-have-nil,def_prop(dollar_sign,[astratto,misura]),def_prop(i,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_15,132,cl27-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_16,149,cl29-nil-nil-be-[xcomp-prop-losin-sn2,subj-theme_bound-i-sn1,def_prop(losin,[istituzione]),def_prop(i,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_17,166,cl33-not-can-tell-[adj-(mod)-just-nil,subj-agent-you-sn2,def_prop(you,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_17,166,cl32-nil-nil-lord-[subj-agent-pro-nil])
+lf(shuffled0_Am I Losin'? Lyrics.txt_17,166,cl31-nil-nil-show-[subj-goal-it-sn1,def_prop(it,[any])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_17,166,cl30-nil-nil-go-[subj-agent-it-sn1,def_prop(it,[any])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_18,187,cl35-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_18,187,cl34-nil-will-blame-[subj-agent-they-sn2,subj-agent-they-sn1,and(they,yes,sn1),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_19,207,cl38-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_19,207,cl37-nil-nil-know-[iobj-goal-i-sn3,subj-actor-you-sn2,cmod-subord-know-",and(i,mine,sn3),def_prop(i,[umano]),def_prop(you,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_19,207,cl36-nil-nil-recall-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_20,229,cl42-nil-nil-have-[xcomp-tema_bound-dime-sn6,adj-(mod)-never-nil,xcomp-tema_bound-dime-sn4,def_prop(dime,[astratto,oggetto]),def_prop(dime,[astratto,oggetto])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_20,229,cl41-nil-nil-come-[])
+lf(shuffled0_Am I Losin'? Lyrics.txt_20,229,cl40-nil-nil-use-[obj-prop-home-sn3,xadj-result-come-2,subj-actor-i-sn2,def_prop(home,[luogo]),def_prop(i,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_20,229,cl39-nil-nil-recall-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_21,253,cl44-nil-nil-drink-[cmod-subord-drink-",ncmod-comitativo-one-sn3,obj-goal-wine-sn2,xcomp-purpose-drink-2,def_prop(one,[umano]),def_prop(wine,[astratto,edible,oggetto])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_21,253,cl43-nil-nil-recall-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_22,276,cl46-nil-nil-blame-[])
+lf(shuffled0_Am I Losin'? Lyrics.txt_22,276,cl45-nil-nil-be-[adj-(mod)-here-nil,subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_23,300,cl48-not-can-go-[obj-theme-again-sn3,xcomp-purpose-can-3,and(again,back,sn3),def_prop(again,[istituzione])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_23,300,cl47-nil-nil-lord-[adj-(mod)-again-nil,subj-agent-i-sn2,subj-agent-i-sn1,and(again,back,sn5),and(again,back,sn3),and(i,you,sn1),def_prop(again,[istituzione]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_24,325,cl51-nil-nil-hurt-[obj-theme_unaff-man-sn3,subj-experiencer-sure-sn2,def_prop(man,[any]),def_prop(sure,[valutativo])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_24,325,cl50-nil-can-can-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(shuffled0_Am I Losin'? Lyrics.txt_24,325,cl49-nil-nil-lord-[subj-agent-pro-nil])
+lf(shuffled0_Am I Losin'? Lyrics.txt_25,352,cl53-nil-nil-get-[cmod-subord-get-",cmod-subord-be-nil])
+lf(shuffled0_Am I Losin'? Lyrics.txt_25,352,cl52-nil-nil-be-[subj-theme_bound-it-sn1,def_prop(it,[any])])

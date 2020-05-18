@@ -44,7 +44,7 @@ Freddie Foxxx Lyrics.txt_8-42  [or,try,to,quarrel,in,court]  [provide_expl_just(
 Freddie Foxxx Lyrics.txt_8-42  [or,try,to,quarrel,in,court,or,this,war-ll,be,short]  [provide_expl_just(quarrel,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
 Freddie Foxxx Lyrics.txt_9-54  [stupid,ass,,,shooting,back,at,the,lord,with,mortal,retorts]  [provide_expl_just(shoot,[external,factive,narration,foreground,objective])]
 Freddie Foxxx Lyrics.txt_10-64  [it,is,Unorthodocks,opposite,of,Freddie,Foxxx]  [provide_expl_just(be,[external,factive,narration,background,objective])]
-Freddie Foxxx Lyrics.txt_11-75  [get,ready,i,am,coming,jetti,with,the,medi,on,my,socks]  [raise_issue(be,[_235502,factive,statement,_235520,subjective])]
+Freddie Foxxx Lyrics.txt_11-75  [get,ready,i,am,coming,jetti,with,the,medi,on,my,socks]  [raise_issue(be,[_235784,factive,statement,_235802,subjective])]
 Freddie Foxxx Lyrics.txt_12-87  [he,said]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
 Freddie Foxxx Lyrics.txt_12-88  [he,turn,the,petty,into,confetti]  [reject_expl_just(say,[external,factive,narration,foreground,objective])]
 Freddie Foxxx Lyrics.txt_12-89  [when,he,rocks]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
@@ -112,7 +112,7 @@ lf(Freddie Foxxx Lyrics.txt_8,42,cl14-nil-nil-quarrel-[ncmod-actor2-court-sn4,xc
 lf(Freddie Foxxx Lyrics.txt_8,42,cl13-nil-nil-try-[subj-actor-you-sn3,subj-actor-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
 lf(Freddie Foxxx Lyrics.txt_9,54,cl16-nil-nil-shoot-[adj-(mod)-back-nil,ncmod-comitativo-retort-sn3,ncmod-locativo-lord-sn2,subj-agent-ass-sn1,and(retort,mortal,sn3),and(ass,stupid,sn1),def_prop(retort,[oggetto,strumento]),def_prop(lord,[relat,sociale,umano]),def_prop(ass,[animato,attivita,body_part,umano])])
 lf(Freddie Foxxx Lyrics.txt_10,64,cl17-nil-nil-be-[xcomp-prop-opposite-sn3,xcomp-prop-Unorthodocks-sn2,subj-theme_bound-it-sn1,def_prop(opposite,[attivita,informa,nquant,relat,sociale,umano]),def_prop(Unorthodocks,[istituzione,umano]),def_prop(it,[any])])
-lf(Freddie Foxxx Lyrics.txt_11,75,cl18-nil-nil-come-[xadj-adj-ready-adj1,ncmod-locativo-sock-sn5,iobj-goal-medi-sn4,obj-theme_aff-jetti-sn3,subj-agent-i-sn2,subj-agent-i-sn1,aux-am-nil,progr-coming-nil,and(i,get,sn1),def_prop(ready,_244206),def_prop(sock,[oggetto,strumento]),def_prop(medi,[istituzione]),def_prop(jetti,[istituzione]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Freddie Foxxx Lyrics.txt_11,75,cl18-nil-nil-come-[xadj-adj-ready-adj1,ncmod-locativo-sock-sn5,iobj-goal-medi-sn4,obj-theme_aff-jetti-sn3,subj-agent-i-sn2,subj-agent-i-sn1,aux-am-nil,progr-coming-nil,and(i,get,sn1),def_prop(ready,_244488),def_prop(sock,[oggetto,strumento]),def_prop(medi,[istituzione]),def_prop(jetti,[istituzione]),def_prop(i,[umano]),def_prop(i,[umano])])
 lf(Freddie Foxxx Lyrics.txt_12,87,cl21-nil-nil-rock-[subj-agent-he-sn5,def_prop(he,[umano])])
 lf(Freddie Foxxx Lyrics.txt_12,87,cl20-nil-nil-turn-[ncmod-loc_direct-confetti-sn4,obj-theme-petty-sn3,subj-agent-he-sn2,def_prop(confetti,[oggetto,strumento]),def_prop(petty,[istituzione,umano]),def_prop(he,[umano])])
 lf(Freddie Foxxx Lyrics.txt_12,87,cl19-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])

@@ -62,7 +62,7 @@ Gimme Three Steps Lyrics.txt_46-1096  []-negative  [fgb,neg]
 Gimme Three Steps Lyrics.txt_1-1  [gimme,three,Steps,Lyrics,by,Lynyrd,Skynyrd]  [title]
 Gimme Three Steps Lyrics.txt_2-3  [i,was,cutting,the,rug]  [propose_opin_neg(cut,[external,factive,explanation,background,objective])]
 Gimme Three Steps Lyrics.txt_3-6  [down,at,a,place,the,jug,called]  [provide_expl_just(call,[external,factive,narration,foreground,objective])]
-Gimme Three Steps Lyrics.txt_4-10  [with,a,girl,Linda,Lu,named]  [raise_issue(be,[_324534,factive,statement,_324552,subjective])]
+Gimme Three Steps Lyrics.txt_4-10  [with,a,girl,Linda,Lu,named]  [raise_issue(be,[_993262,factive,statement,_993280,subjective])]
 Gimme Three Steps Lyrics.txt_5-15  [when,in,walked,a,man]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 Gimme Three Steps Lyrics.txt_6-21  [with,a,gun,in,his,hand]  [reject_expl_just(hand,[external,factive,narration,background,objective])]
 Gimme Three Steps Lyrics.txt_7-28  [and,he,was,looking]  [provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
@@ -82,9 +82,9 @@ Gimme Three Steps Lyrics.txt_17-159  [big,and,bad,,,lord]  [reject_expl_just(lor
 Gimme Three Steps Lyrics.txt_18-177  [pointing,that,gun,at,me]  [reject_expl_just(point,[external,factive,narration,foreground,objective])]
 Gimme Three Steps Lyrics.txt_19-196  [i,said]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(wait,[external,factive,narration,background,objective])]
 Gimme Three Steps Lyrics.txt_19-197  [,,wait,a,minute,mister]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(wait,[external,factive,narration,background,objective])]
-Gimme Three Steps Lyrics.txt_20-217  [i,didn-t,even,kiss,her]  [proposal(be,[_343368,_343374,statement,foreground,_343392])]
+Gimme Three Steps Lyrics.txt_20-217  [i,didn-t,even,kiss,her]  [proposal(be,[_1012096,_1012102,statement,foreground,_1012120])]
 Gimme Three Steps Lyrics.txt_21-238  [no,trouble,with,you,don-t,want]  [provide_expl_just(want,[external,factive,narration,foreground,objective])]
-Gimme Three Steps Lyrics.txt_22-260  [and,i,know,you,don-t,owe,me]  [reject_expl_just(be,[_343984,_343990,_343996,_344002,_344008])]
+Gimme Three Steps Lyrics.txt_22-260  [and,i,know,you,don-t,owe,me]  [reject_expl_just(be,[_1012712,_1012718,_1012724,_1012730,_1012736])]
 Gimme Three Steps Lyrics.txt_23-284  [but,i,wish]  [provide_expl_just(wish,[external,factive,narration,background,objective]),provide_expl_just(let,[external,factive,narration,background,objective])]
 Gimme Three Steps Lyrics.txt_23-285  [you,had,let,me]  [provide_expl_just(wish,[external,factive,narration,background,objective]),provide_expl_just(let,[external,factive,narration,background,objective])]
 Gimme Three Steps Lyrics.txt_24-309  [ask,one,favor,from,you]  [provide_expl_just(ask,[external,factive,narration,background,objective])]
@@ -100,8 +100,8 @@ Gimme Three Steps Lyrics.txt_33-572  [as,the,water,fell,on,the,floor]  [provide_
 Gimme Three Steps Lyrics.txt_34-606  [and,i,am,telling,you,son]  [provide_expl_just(tell,[external,factive,narration,foreground,objective])]
 Gimme Three Steps Lyrics.txt_35-641  [well,,,it,is,not,no,fun,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
 Gimme Three Steps Lyrics.txt_36-677  [staring,straight,down,a,forty-four]  [provide_expl_just(stare,[external,factive,narration,foreground,objective])]
-Gimme Three Steps Lyrics.txt_37-714  [well,he,turned]  [proposal(be,[_351456,_351462,statement,foreground,_351480])]
-Gimme Three Steps Lyrics.txt_37-715  [and,screamed,at,Linda,Lu]  [proposal(be,[_351796,_351802,statement,foreground,_351820])]
+Gimme Three Steps Lyrics.txt_37-714  [well,he,turned]  [proposal(be,[_1020184,_1020190,statement,foreground,_1020208])]
+Gimme Three Steps Lyrics.txt_37-715  [and,screamed,at,Linda,Lu]  [proposal(be,[_1020524,_1020530,statement,foreground,_1020548])]
 Gimme Three Steps Lyrics.txt_38-753  [and,that,is,the,break]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(look,[external,factive,narration,background,objective])]
 Gimme Three Steps Lyrics.txt_38-754  [i,was,looking]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective])]
 Gimme Three Steps Lyrics.txt_38-755  [for]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective])]
@@ -180,7 +180,7 @@ half
 
 lf(Gimme Three Steps Lyrics.txt_1,1,nil-nil-nil-gimme-[arg_mod-agent-Skynyrd-sn2,subj-agent-Lyrics-sn1,and(Skynyrd,Lynyrd,sn2),and(Lyrics,Step,sn1),and(Lyrics,three,sn1),def_prop(Skynyrd,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
 lf(Gimme Three Steps Lyrics.txt_2,3,cl1-nil-nil-cut-[obj-theme_aff-rug-sn2,subj-agent-i-sn1,aux-was-nil,progr-cutting-nil,def_prop(rug,[oggetto,strumento]),def_prop(i,[umano])])
-lf(Gimme Three Steps Lyrics.txt_3,6,cl2-nil-nil-call-[xadj-adj-down-adj1,iobj-goal-place-sn2,subj-agent-jug-sn1,def_prop(down,_359666),def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(jug,[nquant,oggetto,strumento])])
+lf(Gimme Three Steps Lyrics.txt_3,6,cl2-nil-nil-call-[xadj-adj-down-adj1,iobj-goal-place-sn2,subj-agent-jug-sn1,def_prop(down,_1028394),def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(jug,[nquant,oggetto,strumento])])
 lf(Gimme Three Steps Lyrics.txt_4,10,cl3-nil-nil-name-[ncmod-comitativo-girl-sn2,subj-agent-Lu-sn1,and(Lu,Linda,sn1),def_prop(girl,[oggetto,strumento]),def_prop(Lu,[umano])])
 lf(Gimme Three Steps Lyrics.txt_5,15,cl4-nil-nil-be-[xcomp-theme-when-sn2,subj-theme_bound-man-sn1,def_prop(when,[tempo]),def_prop(man,[any])])
 lf(Gimme Three Steps Lyrics.txt_6,21,cl5-nil-nil-hand-[ncmod-locativo-his-sn3,ncmod-comitativo-gun-sn2,subj-agent-you-sn1,def_prop(his,[umano]),def_prop(gun,[attivita,oggetto,strumento,umano]),def_prop(you,[umano])])
@@ -193,7 +193,7 @@ lf(Gimme Three Steps Lyrics.txt_10,56,cl10-nil-nil-try-[subj-tema_nonaff-what-sn
 lf(Gimme Three Steps Lyrics.txt_11,68,cl12-nil-nil-be-[adj-(mod)-there-nil,xcomp-prop-woman-sn1,def_prop(woman,[any])])
 lf(Gimme Three Steps Lyrics.txt_12,80,cl14-nil-nil-care-[cmod-subord-be-",subj-experiencer-man-sn2,def_prop(man,[any])])
 lf(Gimme Three Steps Lyrics.txt_12,80,cl13-nil-nil-be-[xcomp-prop-man-sn2,subj-theme_bound-i-sn1,def_prop(man,[any]),def_prop(i,[umano])])
-lf(Gimme Three Steps Lyrics.txt_13,94,cl16-nil-nil-be-[cmod-subord-be-",cmod-subord-might-nil,xcomp-prop-all-sn2,xcomp-purpose-be-2,def_prop(all,[_361312])])
+lf(Gimme Three Steps Lyrics.txt_13,94,cl16-nil-nil-be-[cmod-subord-be-",cmod-subord-might-nil,xcomp-prop-all-sn2,xcomp-purpose-be-2,def_prop(all,[_1030040])])
 lf(Gimme Three Steps Lyrics.txt_13,94,cl15-nil-might-might-[subj-theme_unaff-this-sn1,def_prop(this,[oggetto,umano])])
 lf(Gimme Three Steps Lyrics.txt_14,109,cl18-nil-nil-fear-[cmod-subord-fear-",subj-experiencer-you-sn2,def_prop(you,[umano])])
 lf(Gimme Three Steps Lyrics.txt_14,109,cl17-nil-nil-scare-[subj-experiencer-you-sn1,aux-was-nil,def_prop(you,[umano])])

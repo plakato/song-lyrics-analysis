@@ -52,13 +52,13 @@ Call Me the Breeze Lyrics.txt_12-78  [and,i,is,not,hidin,from,nobody,not]  [reje
 Call Me the Breeze Lyrics.txt_13-91  [nobody-s,hidin,from,me]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 Call Me the Breeze Lyrics.txt_14-105  [that,oh,is,the,way]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 Call Me the Breeze Lyrics.txt_14-106  [its,supposed,to,be]  [reject_expl_just(be,[external,factive,narration,background,objective])]
-Call Me the Breeze Lyrics.txt_15-120  [well,i,that,green,got,light,baby]  [proposal(be,[_141350,_141356,statement,foreground,_141374])]
+Call Me the Breeze Lyrics.txt_15-120  [well,i,that,green,got,light,baby]  [proposal(be,[_182244,_182250,statement,foreground,_182268])]
 Call Me the Breeze Lyrics.txt_16-136  [i,got,to,keep,movin,on]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
-Call Me the Breeze Lyrics.txt_17-154  [well,i,that,green,got,light,baby]  [proposal(be,[_142072,_142078,statement,foreground,_142096])]
+Call Me the Breeze Lyrics.txt_17-154  [well,i,that,green,got,light,baby]  [proposal(be,[_182966,_182972,statement,foreground,_182990])]
 Call Me the Breeze Lyrics.txt_18-172  [i,got,to,keep,movin,on]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
 Call Me the Breeze Lyrics.txt_19-192  [well,i,might,go,out,to,California]  [provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
-Call Me the Breeze Lyrics.txt_20-212  [might,go,down,to,Georgia]  [raise_issue(be,[_143182,_143188,statement,_143200,_143206])]
-Call Me the Breeze Lyrics.txt_21-233  [i,don-t,know]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_147596)]
+Call Me the Breeze Lyrics.txt_20-212  [might,go,down,to,Georgia]  [raise_issue(be,[_184076,_184082,statement,_184094,_184100])]
+Call Me the Breeze Lyrics.txt_21-233  [i,don-t,know]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_188490)]
 Call Me the Breeze Lyrics.txt_22-255  [well,i,dig]  [provide_expl_just(dig,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
 Call Me the Breeze Lyrics.txt_22-256  [you,Georgia,peaches]  [provide_expl_just(dig,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
 Call Me the Breeze Lyrics.txt_23-279  [makes,me,feel,right,at_home]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective])]
@@ -66,8 +66,8 @@ Call Me the Breeze Lyrics.txt_24-304  [well,now,i,dig]  [provide_expl_just(dig,[
 Call Me the Breeze Lyrics.txt_24-305  [you,Georgia,peaches]  [provide_expl_just(dig,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
 Call Me the Breeze Lyrics.txt_25-330  [makes,me,feel,right,at_home]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective])]
 Call Me the Breeze Lyrics.txt_26-357  [but,i,don-t,love,me,no_one,woman]  [reject_expl_just(love,[external,factive,narration,foreground,objective])]
-Call Me the Breeze Lyrics.txt_27-384  [so,i,can,not,stay,in,Georgia]  [reject_expl_just(be,[_160784,_160790,_160796,_160802,_160808])]
-Call Me the Breeze Lyrics.txt_27-384  [so,i,can,not,stay,in,Georgia,long]  [reject_expl_just(be,[_161006,_161012,_161018,_161024,_161030])]
+Call Me the Breeze Lyrics.txt_27-384  [so,i,can,not,stay,in,Georgia]  [reject_expl_just(be,[_201678,_201684,_201690,_201696,_201702])]
+Call Me the Breeze Lyrics.txt_27-384  [so,i,can,not,stay,in,Georgia,long]  [reject_expl_just(be,[_201900,_201906,_201912,_201918,_201924])]
 Call Me the Breeze Lyrics.txt_28-412  [Mr,oooh,breeze]  [provide_expl_just(breeze,[external,factive,narration,background,objective])]
 
 
@@ -144,5 +144,5 @@ lf(Call Me the Breeze Lyrics.txt_24,304,cl28-nil-nil-dig-[subj-agent-i-sn1,def_p
 lf(Call Me the Breeze Lyrics.txt_25,330,cl31-nil-nil-feel-[])
 lf(Call Me the Breeze Lyrics.txt_25,330,cl30-nil-nil-make-[obj-theme_aff-at_home-sn3,obj-goal-me-sn2,subj-agent-you-sn1,and(at_home,right,sn3),def_prop(at_home,[luogo,oggetto,stato,strumento]),def_prop(me,[umano]),def_prop(you,[umano])])
 lf(Call Me the Breeze Lyrics.txt_26,357,cl32-not-nil-love-[obj-theme-woman-sn3,obj-theme_unaff-me-sn2,subj-experiencer-i-sn1,aux-do-nil,and(woman,no_one,sn3),def_prop(woman,[any]),def_prop(me,[umano]),def_prop(i,[umano])])
-lf(Call Me the Breeze Lyrics.txt_27,384,cl33-not-can-stay-[cmod-subord-stay-so,xadj-adj-long-adj1,iobj-goal-Georgia-sn4,subj-agent-i-sn3,iobj-goal-Georgia-sn2,subj-agent-i-sn1,def_prop(long,_166578),def_prop(Georgia,[place,luogo]),def_prop(i,[umano]),def_prop(Georgia,[place,luogo]),def_prop(i,[umano])])
+lf(Call Me the Breeze Lyrics.txt_27,384,cl33-not-can-stay-[cmod-subord-stay-so,xadj-adj-long-adj1,iobj-goal-Georgia-sn4,subj-agent-i-sn3,iobj-goal-Georgia-sn2,subj-agent-i-sn1,def_prop(long,_207472),def_prop(Georgia,[place,luogo]),def_prop(i,[umano]),def_prop(Georgia,[place,luogo]),def_prop(i,[umano])])
 lf(Call Me the Breeze Lyrics.txt_28,412,cl34-nil-nil-breeze-[ncmod-modal-Mr-sn2,subj-agent-you-sn1,def_prop(Mr,[umano]),def_prop(you,[umano])])

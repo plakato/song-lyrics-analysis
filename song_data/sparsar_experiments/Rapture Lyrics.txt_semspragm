@@ -77,7 +77,7 @@ Rapture Lyrics.txt_16-145  [you,will,never,find,a,rapper,this,great]  [reject_ex
 Rapture Lyrics.txt_17-162  [fate,man,i,do,this,for,ya-ll]  [provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(fate,[external,factive,narration,background,objective])]
 Rapture Lyrics.txt_18-181  [and,i,do,this]  [provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(fall,[external,nonfactive,narration,background,objective])]
 Rapture Lyrics.txt_18-182  [for,me,to,but,by,tomorrow,i,will,fall]  [provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(fall,[external,nonfactive,narration,background,objective])]
-Rapture Lyrics.txt_19-201  [and,if,i,don-t,do,nothing,Imma,ball]  [reject_expl_just(be,[_731492,_731498,_731504,_731510,_731516])]
+Rapture Lyrics.txt_19-201  [and,if,i,don-t,do,nothing,Imma,ball]  [reject_expl_just(be,[_1767632,_1767638,_1767644,_1767650,_1767656])]
 Rapture Lyrics.txt_20-221  [and,i,all,day,am,counting,like,the,clock,on,the,wall]  [provide_expl_just(count,[external,factive,narration,foreground,objective])]
 Rapture Lyrics.txt_21-242  [i,keep]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
 Rapture Lyrics.txt_21-243  [it,more_than,a,hundred]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
@@ -87,16 +87,16 @@ Rapture Lyrics.txt_23-289  [keep,em,all,on,they,toes,like,gymnastics,backflips] 
 Rapture Lyrics.txt_24-313  [and,i,capture,my,rapture,through,this,rap]  [provide_expl_just(capture,[external,factive,narration,background,objective])]
 Rapture Lyrics.txt_24-313  [and,i,capture,my,rapture,through,this,rap,shit,rap,shit]  [provide_expl_just(capture,[external,factive,narration,background,objective])]
 Rapture Lyrics.txt_25-338  [go,,,go]  [provide_expl_just(go,[external,factive,narration,background,objective])]
-Rapture Lyrics.txt_27-392  [doing,doughnuts,in,the,road,skeet,skeet]  [proposal(be,[_736864,_736870,statement,foreground,_736888])]
+Rapture Lyrics.txt_27-392  [doing,doughnuts,in,the,road,skeet,skeet]  [proposal(be,[_1773004,_1773010,statement,foreground,_1773028])]
 Rapture Lyrics.txt_28-420  [right,on,that,ass,party,party]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 Rapture Lyrics.txt_29-449  [tomorrow,morning,sorry,mommy]  [reject_expl_just(be,[external,factive,narration,background,objective])]
 Rapture Lyrics.txt_30-479  [Imma,keep,on,rappin,til]  [provide_expl_just(pull,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective])]
 Rapture Lyrics.txt_30-480  [i,pull,up,in,that,Rari]  [provide_expl_just(pull,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective])]
 Rapture Lyrics.txt_31-511  [interlude]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
-Rapture Lyrics.txt_32-543  [welcome]  [raise_issue(be,[_739742,factive,statement,_739760,subjective])]
+Rapture Lyrics.txt_32-543  [welcome]  [raise_issue(be,[_1775882,factive,statement,_1775900,subjective])]
 Rapture Lyrics.txt_33-576  [welcome,to,the]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 Rapture Lyrics.txt_34-610  [Nytra,Exposition]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
-Rapture Lyrics.txt_35-645  [antonym]  [raise_issue(be,[_740968,factive,statement,_740986,subjective])]
+Rapture Lyrics.txt_35-645  [antonym]  [raise_issue(be,[_1777108,factive,statement,_1777126,subjective])]
 
 
 
@@ -156,7 +156,7 @@ half
 
 lf(Rapture Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-antonym-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,rapture,sn1),def_prop(antonym,[attivita,informa]),def_prop(Lyrics,[informa,tecno])])
 lf(Rapture Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-rapture-sn1,def_prop(rapture,[stato])])
-lf(Rapture Lyrics.txt_3,6,cl3-nil-nil-be-[xadj-adj-welcome-adj1,ncmod-relation-exposition-sn1,def_prop(welcome,_742208),def_prop(exposition,[attivita,informa])])
+lf(Rapture Lyrics.txt_3,6,cl3-nil-nil-be-[xadj-adj-welcome-adj1,ncmod-relation-exposition-sn1,def_prop(welcome,_1778348),def_prop(exposition,[attivita,informa])])
 lf(Rapture Lyrics.txt_4,10,cl5-nil-will-walk-[ncmod-relation-exhibition-sn10,subj-agent-you-sn8,def_prop(exhibition,[attivita,istituzione]),def_prop(you,[umano])])
 lf(Rapture Lyrics.txt_4,10,cl4-nil-will-be-[subj-theme_bound-you-sn9,adj-temporal-afternoon-nil,xcomp-prop-guide-sn2,subj-theme_bound-i-sn1,and(afternoon,this,sn5),def_prop(you,[umano]),def_prop(afternoon,[tempo]),def_prop(guide,[umano]),def_prop(i,[umano])])
 lf(Rapture Lyrics.txt_5,16,cl6-nil-nil-take-[xcomp-prop-flash-sn4,subj-agent-picture-sn3,and(flash,no,sn4),def_prop(flash,[astratto,evento,oggetto,strumento,tempo]),def_prop(picture,[astratto,attivita,informa,oggetto,stato,strumento])])
@@ -189,7 +189,7 @@ lf(Rapture Lyrics.txt_21,242,cl31-nil-nil-be-[xcomp-prop-hundred-sn3,subj-theme_
 lf(Rapture Lyrics.txt_21,242,cl30-nil-nil-keep-[subj-experiencer-you-sn1,def_prop(you,[umano])])
 lf(Rapture Lyrics.txt_22,265,cl33-nil-nil-be-[ncmod-temporale-sunday-sn5,subj-theme_bound-church-sn4,def_prop(sunday,[tempo]),def_prop(church,[istituzione,oggetto,strumento])])
 lf(Rapture Lyrics.txt_22,265,cl32-nil-nil-get-[xcomp-prop-coming-sn3,obj-theme_unaff-enemy-sn2,subj-agent-i-sn1,def_prop(coming,[astratto,cambia,evento]),def_prop(enemy,[istituzione,umano]),def_prop(i,[umano])])
-lf(Rapture Lyrics.txt_23,289,cl34-nil-nil-toe-[obj-theme-backflips-sn4,ncmod-locativo-they-sn3,subj-actor-all-sn2,subj-actor-all-sn1,and(all,em,sn1),and(all,keep,sn1),def_prop(backflips,[istituzione]),def_prop(they,[umano]),def_prop(all,[_747090]),def_prop(all,[_747108])])
+lf(Rapture Lyrics.txt_23,289,cl34-nil-nil-toe-[obj-theme-backflips-sn4,ncmod-locativo-they-sn3,subj-actor-all-sn2,subj-actor-all-sn1,and(all,em,sn1),and(all,keep,sn1),def_prop(backflips,[istituzione]),def_prop(they,[umano]),def_prop(all,[_1783230]),def_prop(all,[_1783248])])
 lf(Rapture Lyrics.txt_24,313,cl35-nil-nil-capture-[cmod-coord-capture-and,ncmod-relation-rap-sn9,obj-theme-rapture-sn8,subj-agent-i-sn7,cmod-subord-capture-",ncmod-relation-rap-sn3,obj-theme-rapture-sn2,subj-agent-i-sn1,and(rap,this,sn9),and(rap,this,sn3),def_prop(rap,[attivita,evento,informa]),def_prop(rapture,[stato]),def_prop(i,[umano]),def_prop(rap,[attivita,evento,informa]),def_prop(rapture,[stato]),def_prop(i,[umano])])
 lf(Rapture Lyrics.txt_25,338,cl36-nil-nil-go-[subj-agent-pro-nil,subj-agent-you-sn1,def_prop(you,[umano])])
 lf(Rapture Lyrics.txt_26,364,cl38-nil-nil-roll-[ncmod-loc_direct-street-sn3,subj-agent-this-sn1,def_prop(street,[oggetto,stato,strumento]),def_prop(this,[oggetto,umano])])

@@ -78,7 +78,7 @@ Hannibal Lyrics.txt_10-61  [and,Annie,and,Danny,daddy,has,been,bad]  [reject_exp
 Hannibal Lyrics.txt_10-62  [he,will,not,be]  [reject_expl_just(tell,[external,factive,narration,background,objective]),reject_expl_just(be,[external,nonfactive,narration,background,objective])]
 Hannibal Lyrics.txt_11-72  [back]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
 Hannibal Lyrics.txt_12-84  [had,to,let,it,go,just_so,i,could,bring,it,back]  [provide_expl_just(let,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(back,[external,factive,narration,background,objective])]
-Hannibal Lyrics.txt_13-101  [i,know]  [provide_expl_just(sing,[external,factive,narration,background,objective]),raise_issue(be,[_1687022,factive,statement,_1687040,subjective])]
+Hannibal Lyrics.txt_13-101  [i,know]  [provide_expl_just(sing,[external,factive,narration,background,objective]),raise_issue(be,[_1687016,factive,statement,_1687034,subjective])]
 Hannibal Lyrics.txt_13-102  [we,is,not,got,bling,or,plaques,but,if,you,know,it,,,sing,the,tracks]  [reject_expl_just(sing,[external,factive,narration,background,objective]),reject_expl_just(know,[external,nonfactive,hypothesis,background,objective])]
 Hannibal Lyrics.txt_14-118  [you,is,not,gotta,trip]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(hit,[external,nonfactive,narration,background,objective])]
 Hannibal Lyrics.txt_14-119  [if,you,can,not,hit,the,high,notes]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(hit,[external,nonfactive,narration,background,objective])]
@@ -202,7 +202,7 @@ lf(Hannibal Lyrics.txt_8,39,cl12-nil-nil-understand-[])
 lf(Hannibal Lyrics.txt_8,39,cl11-nil-nil-look-[subj-agent-man-sn2,subj-agent-man-sn1,and(man,you,sn1),def_prop(man,[any]),def_prop(man,[any])])
 lf(Hannibal Lyrics.txt_9,50,cl14-nil-nil-have-[cmod-subord-have-so,subj-experiencer-you-sn2,def_prop(you,[umano])])
 lf(Hannibal Lyrics.txt_10,60,cl16-not-will-be-[subj-theme_bound-you-sn5,cmod-subord-tell-",subj-theme_bound-you-sn4,def_prop(you,[umano]),def_prop(you,[umano])])
-lf(Hannibal Lyrics.txt_10,60,cl15-nil-nil-tell-[subj-agent-any-sn1,and(any,manic,sn1),and(any,anti-D,sn1),def_prop(any,[_1719732])])
+lf(Hannibal Lyrics.txt_10,60,cl15-nil-nil-tell-[subj-agent-any-sn1,and(any,manic,sn1),and(any,anti-D,sn1),def_prop(any,[_1719726])])
 lf(Hannibal Lyrics.txt_11,72,cl17-nil-nil-say-[])
 lf(Hannibal Lyrics.txt_12,84,nil-nil-nil-back-[subj-agent-it-sn5,subj-agent-it-sn4,def_prop(it,[any]),def_prop(it,[any])])
 lf(Hannibal Lyrics.txt_12,84,cl21-nil-could-bring-[subj-agent-i-sn3,def_prop(i,[umano])])
@@ -229,7 +229,7 @@ lf(Hannibal Lyrics.txt_19,210,cl37-nil-could-roll-[obj-theme_aff-flavor-sn2,subj
 lf(Hannibal Lyrics.txt_20,231,cl39-nil-nil-bring-[cmod-subord-bring-",obj-theme_aff-friend-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(you,[umano])])
 lf(Hannibal Lyrics.txt_21,252,cl41-nil-will-show-[xcomp-prop-her-sn4,subj-actor-we-sn3,def_prop(her,[umano]),def_prop(we,[umano])])
 lf(Hannibal Lyrics.txt_21,252,cl40-nil-nil-be-[xcomp-prop-sentimental-sn2,subj-theme_bound-she-sn1,def_prop(sentimental,[evaluative]),def_prop(she,[umano])])
-lf(Hannibal Lyrics.txt_22,275,cl42-nil-nil-spark-[ncmod-specif-s-sn5,obj-theme-ember-sn2,subj-agent-you-sn1,and(ember,mental,sn2),def_prop(s,_1723126),def_prop(ember,[oggetto]),def_prop(you,[umano])])
+lf(Hannibal Lyrics.txt_22,275,cl42-nil-nil-spark-[ncmod-specif-s-sn5,obj-theme-ember-sn2,subj-agent-you-sn1,and(ember,mental,sn2),def_prop(s,_1723120),def_prop(ember,[oggetto]),def_prop(you,[umano])])
 lf(Hannibal Lyrics.txt_23,298,cl44-nil-nil-stress-[subj-theme-you-sn6,aux-are-nil,ncmod-comitativo-one-sn2,def_prop(you,[umano]),def_prop(one,[umano])])
 lf(Hannibal Lyrics.txt_23,298,cl43-nil-can-see-[subj-agent-man-sn3,subj-agent-i-sn1,and(i,ten,sn1),def_prop(man,[any]),def_prop(i,[umano])])
 lf(Hannibal Lyrics.txt_24,323,cl45-nil-nil-be-[adj-(mod)-again-nil,xcomp-theme-mess-sn2,subj-theme_bound-i-sn1,and(again,but_then,sn5),and(mess,pad,sn2),def_prop(again,[istituzione]),def_prop(mess,[edible,nquant,oggetto,stato,strumento]),def_prop(i,[umano])])
@@ -238,7 +238,7 @@ lf(Hannibal Lyrics.txt_25,348,cl46-nil-nil-cost-[aux-had-nil])
 lf(Hannibal Lyrics.txt_26,375,cl48-nil-nil-take-[expl-it-nil,cmod-coord-take-or,ncmod-locativo-chess-sn3,subj-agent-it-sn2,subj-agent-interest-sn1,def_prop(chess,[attivita,plant]),def_prop(it,[any]),def_prop(interest,[astratto,oggetto])])
 lf(Hannibal Lyrics.txt_27,402,cl49-nil-will-incinerate-[xadj-theme-guess-sn5,ncmod-specif-you-sn4,subj-theme-i-sn3,and(guess,second,sn5),def_prop(guess,[astratto,attivita,informa]),def_prop(you,[umano]),def_prop(i,[umano])])
 lf(Hannibal Lyrics.txt_27,402,nil-nil-nil-sucker-[ncmod-modal-i-sn2,subj-agent-you-sn1,def_prop(i,[umano]),def_prop(you,[umano])])
-lf(Hannibal Lyrics.txt_28,431,cl51-nil-nil-succumb-[iobj-goal-second-sn14,xadj-adj-best-adj3,iobj-goal-second-sn13,subj-agent-you-sn12,iobj-goal-second-sn5,coord-agent-game_and_sucker-sn4,subj-agent-sucker-sn3,subj-agent-game-sn2,def_prop(second,[attivita,informa,nquant,relat,tempo,umano]),def_prop(best,_1724638),def_prop(second,[attivita,informa,nquant,relat,tempo,umano]),def_prop(you,[umano]),def_prop(second,[attivita,informa,nquant,relat,tempo,umano]),def_prop(game_and_sucker,[animato,attivita,edible,nquant,oggetto,strumento,animato,edible,oggetto,plant,umano]),def_prop(sucker,[animato,attivita,edible,nquant,oggetto,strumento,animato,edible,oggetto,plant,umano]),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento,animato,edible,oggetto,plant,umano])])
+lf(Hannibal Lyrics.txt_28,431,cl51-nil-nil-succumb-[iobj-goal-second-sn14,xadj-adj-best-adj3,iobj-goal-second-sn13,subj-agent-you-sn12,iobj-goal-second-sn5,coord-agent-game_and_sucker-sn4,subj-agent-sucker-sn3,subj-agent-game-sn2,def_prop(second,[attivita,informa,nquant,relat,tempo,umano]),def_prop(best,_1724632),def_prop(second,[attivita,informa,nquant,relat,tempo,umano]),def_prop(you,[umano]),def_prop(second,[attivita,informa,nquant,relat,tempo,umano]),def_prop(game_and_sucker,[animato,attivita,edible,nquant,oggetto,strumento,animato,edible,oggetto,plant,umano]),def_prop(sucker,[animato,attivita,edible,nquant,oggetto,strumento,animato,edible,oggetto,plant,umano]),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento,animato,edible,oggetto,plant,umano])])
 lf(Hannibal Lyrics.txt_28,431,cl50-nil-nil-be-[subj-theme_bound-life-sn1,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
 lf(Hannibal Lyrics.txt_29,461,cl52-nil-nil-be-[ncmod-temporale-diplomacy-sn3,xcomp-prop-overgrown-sn2,subj-theme_bound-some-sn1,def_prop(diplomacy,[attivita,informa]),def_prop(overgrown,[istituzione]),def_prop(some,[umano])])
 lf(Hannibal Lyrics.txt_30,491,cl54-nil-nil-notice-[xcomp-prop-me-sn6,subj-actor-you-sn5,def_prop(me,[umano]),def_prop(you,[umano])])

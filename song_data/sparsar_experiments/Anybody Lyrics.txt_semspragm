@@ -97,7 +97,7 @@ Anybody Lyrics.txt_2-3  [we,motivate,with,that,head]  [provide_expl_just(motivat
 Anybody Lyrics.txt_2-4  [bang]  [provide_expl_just(motivate,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
 Anybody Lyrics.txt_3-7  [indoor,smoke,like,that,flavor]  [reject_expl_just(like,[external,factive,explanation,background,objective]),propose_opin_neg(like,[external,factive,explanation,background,objective])]
 Anybody Lyrics.txt_4-11  [light,it,up,and,it,symbol,tation]  [provide_expl_just(symbol,[external,factive,explanation,background,objective])]
-Anybody Lyrics.txt_5-16  [many,say,that,we,all,gave,up,unconditional,love]  [proposal(be,[_1435010,_1435016,statement,foreground,_1435034])]
+Anybody Lyrics.txt_5-16  [many,say,that,we,all,gave,up,unconditional,love]  [proposal(be,[_1970700,_1970706,statement,foreground,_1970724])]
 Anybody Lyrics.txt_6-22  [she,be,stackin,up,fud]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 Anybody Lyrics.txt_7-29  [international,,,sensational,,,we,be,usin,all,recreational]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 Anybody Lyrics.txt_8-37  [quit,the,chainin-,then,i,make,the,lamin-,then,i,hit,the,blamin-]  [reject_expl_just(make,[external,factive,narration,background,objective]),reject_expl_just(hit,[external,factive,cause,foreground,objective])]
@@ -163,7 +163,7 @@ Anybody Lyrics.txt_51-1351  [use,to,put,me,on,speed,dialin-]  [provide_expl_just
 Anybody Lyrics.txt_52-1404  [still,a,part,of,that,hall,of,fame]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 Anybody Lyrics.txt_53-1457  [they,be,up,on,my,weedstop]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 Anybody Lyrics.txt_54-1511  [got,the,ratchet,first,ass]  [reject_expl_just(get,[external,factive,narration,foreground,objective])]
-Anybody Lyrics.txt_55-1566  [with,ribbon,stashed,in,her,purse]  [raise_issue(be,[_1474004,factive,statement,_1474022,subjective])]
+Anybody Lyrics.txt_55-1566  [with,ribbon,stashed,in,her,purse]  [raise_issue(be,[_2009694,factive,statement,_2009712,subjective])]
 Anybody Lyrics.txt_56-1622  [they,come,to,me]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 Anybody Lyrics.txt_56-1623  [for,that,therapy]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 Anybody Lyrics.txt_57-1680  [don-t,care,of,Bein,in,line,first]  [provide_expl_just(don-t,[external,factive,narration,background,objective])]
@@ -282,9 +282,9 @@ lf(Anybody Lyrics.txt_2,3,cl3-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,
 lf(Anybody Lyrics.txt_2,3,cl2-nil-nil-motivate-[iobj-goal-head-sn2,subj-agent-we-sn1,and(head,that,sn2),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(we,[umano])])
 lf(Anybody Lyrics.txt_3,7,nil-nil-nil-like-[obj-tema_emot-flavor-sn2,subj-experiencer-smoke-sn1,and(flavor,that,sn2),and(smoke,indoor,sn1),def_prop(flavor,[astratto]),def_prop(smoke,[astratto,attivita,cambia,informa,oggetto,strumento])])
 lf(Anybody Lyrics.txt_4,11,nil-nil-nil-symbol-[obj-theme_aff-tation-sn5,subj-agent-it-sn4,def_prop(tation,[istituzione]),def_prop(it,[any])])
-lf(Anybody Lyrics.txt_5,16,cl4-nil-nil-give-[adj-(mod)-up-nil,obj-goal-love-sn3,subj-actor-all-sn2,subj-actor-all-sn1,and(love,unconditional,sn3),and(all,say,sn1),and(all,many,sn1),def_prop(love,[astratto,emotivo,nquant]),def_prop(all,[_1488020]),def_prop(all,[_1488038])])
+lf(Anybody Lyrics.txt_5,16,cl4-nil-nil-give-[adj-(mod)-up-nil,obj-goal-love-sn3,subj-actor-all-sn2,subj-actor-all-sn1,and(love,unconditional,sn3),and(all,say,sn1),and(all,many,sn1),def_prop(love,[astratto,emotivo,nquant]),def_prop(all,[_2023710]),def_prop(all,[_2023728])])
 lf(Anybody Lyrics.txt_6,22,cl5-nil-nil-be-[xcomp-prop-stackin-sn2,subj-theme_bound-she-sn1,def_prop(stackin,[istituzione]),def_prop(she,[umano])])
-lf(Anybody Lyrics.txt_7,29,cl6-nil-nil-be-[xcomp-prop-all-sn3,obj2-benef-usin-sn2,subj-theme_bound-we-sn1,def_prop(all,[_1488266]),def_prop(usin,[istituzione]),def_prop(we,[umano])])
+lf(Anybody Lyrics.txt_7,29,cl6-nil-nil-be-[xcomp-prop-all-sn3,obj2-benef-usin-sn2,subj-theme_bound-we-sn1,def_prop(all,[_2023956]),def_prop(usin,[istituzione]),def_prop(we,[umano])])
 lf(Anybody Lyrics.txt_8,37,cl9-nil-nil-hit-[obj-goal-[]-sn4,subj-agent-i-sn3,def_prop([],nil),def_prop(i,[umano])])
 lf(Anybody Lyrics.txt_8,37,cl8-nil-nil-make-[cmod-subord-hit-then,subj-agent-lamin- - sn7,obj-goal-lamin- - sn6,subj-agent-i-sn5,def_prop(lamin-,[istituzione,umano]),def_prop(lamin-,[istituzione,umano]),def_prop(i,[umano])])
 lf(Anybody Lyrics.txt_8,37,cl7-nil-nil-quit-[obj-theme-[]-sn2,subj-agent-you-sn1,def_prop([],nil),def_prop(you,[umano])])
@@ -308,7 +308,7 @@ lf(Anybody Lyrics.txt_20,218,cl25-not-nil-make-[obj-goal-deal-sn2,subj-agent-i-s
 lf(Anybody Lyrics.txt_21,239,cl28-nil-nil-be-[cmod-subord-be-",subj-actor-you-sn2,voice-police-cl27,def_prop(you,[umano])])
 lf(Anybody Lyrics.txt_21,239,cl27-nil-nil-police-[adj-(mod)-be-nil,subj-theme-you-sn1,def_prop(you,[umano])])
 lf(Anybody Lyrics.txt_21,239,cl26-nil-might-might-[subj-theme_unaff-you-sn1,def_prop(you,[umano])])
-lf(Anybody Lyrics.txt_22,263,cl30-nil-nil-gaze-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,subj-actor-you-sn3,xadj-adj-round-adj2,ncmod-modal-em-sn2,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(you,[umano]),def_prop(round,_1491974),def_prop(em,[nquant])])
+lf(Anybody Lyrics.txt_22,263,cl30-nil-nil-gaze-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,subj-actor-you-sn3,xadj-adj-round-adj2,ncmod-modal-em-sn2,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(you,[umano]),def_prop(round,_2027664),def_prop(em,[nquant])])
 lf(Anybody Lyrics.txt_22,263,cl29-nil-nil-go-[subj-agent-we-sn1,def_prop(we,[umano])])
 lf(Anybody Lyrics.txt_23,287,cl32-nil-nil-be-[xcomp-prop-pop-sn3,subj-theme_bound-thangs-sn2,and(thangs,em,sn2),def_prop(pop,[edible,evento,oggetto]),def_prop(thangs,[istituzione])])
 lf(Anybody Lyrics.txt_23,287,cl31-nil-nil-go-[subj-agent-we-sn1,def_prop(we,[umano])])
@@ -340,7 +340,7 @@ lf(Anybody Lyrics.txt_42,921,cl56-not-nil-make-[obj-goal-deal-sn2,subj-agent-i-s
 lf(Anybody Lyrics.txt_43,964,cl59-nil-nil-be-[cmod-subord-be-",subj-actor-you-sn2,voice-police-cl58,def_prop(you,[umano])])
 lf(Anybody Lyrics.txt_43,964,cl58-nil-nil-police-[adj-(mod)-be-nil,subj-theme-you-sn1,def_prop(you,[umano])])
 lf(Anybody Lyrics.txt_43,964,cl57-nil-might-might-[subj-theme_unaff-you-sn1,def_prop(you,[umano])])
-lf(Anybody Lyrics.txt_44,1010,cl61-nil-nil-gaze-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,subj-actor-you-sn3,xadj-adj-round-adj3,ncmod-modal-em-sn2,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(you,[umano]),def_prop(round,_1496416),def_prop(em,[nquant])])
+lf(Anybody Lyrics.txt_44,1010,cl61-nil-nil-gaze-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,subj-actor-you-sn3,xadj-adj-round-adj3,ncmod-modal-em-sn2,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(you,[umano]),def_prop(round,_2032106),def_prop(em,[nquant])])
 lf(Anybody Lyrics.txt_44,1010,cl60-nil-nil-go-[subj-agent-we-sn1,def_prop(we,[umano])])
 lf(Anybody Lyrics.txt_45,1056,cl63-nil-nil-be-[xcomp-prop-pop-sn3,subj-theme_bound-thangs-sn2,and(thangs,em,sn2),def_prop(pop,[edible,evento,oggetto]),def_prop(thangs,[istituzione])])
 lf(Anybody Lyrics.txt_45,1056,cl62-nil-nil-go-[subj-agent-we-sn1,def_prop(we,[umano])])
@@ -372,7 +372,7 @@ lf(Anybody Lyrics.txt_63,2045,cl88-not-nil-make-[obj-goal-deal-sn2,subj-agent-i-
 lf(Anybody Lyrics.txt_64,2109,cl91-nil-nil-be-[cmod-subord-be-",subj-actor-you-sn2,voice-police-cl90,def_prop(you,[umano])])
 lf(Anybody Lyrics.txt_64,2109,cl90-nil-nil-police-[adj-(mod)-be-nil,subj-theme-you-sn1,def_prop(you,[umano])])
 lf(Anybody Lyrics.txt_64,2109,cl89-nil-might-might-[subj-theme_unaff-you-sn1,def_prop(you,[umano])])
-lf(Anybody Lyrics.txt_65,2176,cl93-nil-nil-gaze-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,subj-actor-you-sn3,xadj-adj-round-adj4,ncmod-modal-em-sn2,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(you,[umano]),def_prop(round,_1500348),def_prop(em,[nquant])])
+lf(Anybody Lyrics.txt_65,2176,cl93-nil-nil-gaze-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,subj-actor-you-sn3,xadj-adj-round-adj4,ncmod-modal-em-sn2,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(you,[umano]),def_prop(round,_2036038),def_prop(em,[nquant])])
 lf(Anybody Lyrics.txt_65,2176,cl92-nil-nil-go-[subj-agent-we-sn1,def_prop(we,[umano])])
 lf(Anybody Lyrics.txt_66,2243,cl95-nil-nil-be-[xcomp-prop-pop-sn3,subj-theme_bound-thangs-sn2,and(thangs,em,sn2),def_prop(pop,[edible,evento,oggetto]),def_prop(thangs,[istituzione])])
 lf(Anybody Lyrics.txt_66,2243,cl94-nil-nil-go-[subj-agent-we-sn1,def_prop(we,[umano])])

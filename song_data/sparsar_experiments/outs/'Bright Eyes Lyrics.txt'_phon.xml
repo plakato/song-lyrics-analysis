@@ -72,12 +72,12 @@
 </Stanza_level>
 <Stanza_level no="2">
 <Stats_Stanza  
-	line_durations_msec="[1840,1840,2637.34,2592,1760,1773.43,1890.43,2251.1800000000003]"
-	total_syllable_length_msec="16584.38"
-	mean_line_length_val="2073.0475"
-	standard_deviation_val="368.24093815831276"
-	skewness_val="0.6755157679392063"
-	kurtosis_val="-1.4492391118632832">
+	line_durations_msec="[1840,1840,2253.34,2592,1760,1773.43,1890.43,2251.1800000000003]"
+	total_syllable_length_msec="16200.380000000001"
+	mean_line_length_val="2025.0475000000001"
+	standard_deviation_val="303.516786956316"
+	skewness_val="0.797228781775929"
+	kurtosis_val="-0.975474276481334">
 </Stats_Stanza>
 <Metrical_Scheme_Stanza>
 <Line_verse no="11"
@@ -91,7 +91,7 @@
 	rhetorical_devices="[13-[]]"
 	metrical_structure_val="[0,1,0,1,0,0,1,0,1,0]"></Line_verse>
 <Line_verse no="13"
-	number_of_feet_no="3"	line_syllables="[between/[b_ah,t_w_iy_n],the/[dh_ah],scratches/[s_k_r_ae_ch,ah_z],and/[ah_n_d],the/[dh_ah],pulled/[p_uh_l_d],hair/[hh_eh_r]]"
+	number_of_feet_no="3"	line_syllables="[between/[b_ah,t_w_iy_n],the/[dh_iy],scratches/[s_k_r_ae_ch,ah_z],and/[ah_n_d],the/[dh_ah],pulled/[p_uh_l_d],hair/[hh_eh_r]]"
 	total_syllable_length_no="9"
 	rhetorical_devices="[14-[]]"
 	metrical_structure_val="[0,1,0,1,0,1,0,0,0]"></Line_verse>
@@ -191,10 +191,10 @@
 </Stanza_levels>
 <General_Stats>
 	<Prosodic_Measures_in_msecs
-	mean_line_length_val="2007.2426086956523"
-	standard_deviation_val="657.9909201447125"
-	skewness_val="-0.4993537871086435"
-	kurtosis_val="-0.33168559762092276">
+	mean_line_length_val="1990.5469565217393"
+	standard_deviation_val="646.0395145136584"
+	skewness_val="-0.4896950306188684"
+	kurtosis_val="-0.2234914133934005">
 </Prosodic_Measures_in_msecs>
 	<Metrical_Structures
 	mean_line_length_in_no_of_feet_val="4.695652173913044"
@@ -204,9 +204,9 @@
 </Metrical_Structures>
 	<Rhetorical_Metrical_Devices
 	Absolute_Count_of_Rhyming_Devices_val="2694"
-	Ratio_of_Absolute_Count_by_No_of_Stanzas_val="0.07317073170731707"
+	Ratio_of_Absolute_Count_by_No_of_Stanzas_val="0.07473309608540926"
 	Ratio_of_RhDevs_Absolute_Count_by_Corrected_No_of_Verses_val=" 122.45454545454545"
-	Ratio_of_RhDevs_Absolute_Count_by_Repetition_Rate_val="5120.384105960265"
+	Ratio_of_RhDevs_Absolute_Count_by_Repetition_Rate_val="5220.786206896551"
 	Ratio_of_RhDevs_Absolute_Count_by_Rare_Word_Repetition_Rate_val=" 3185.9478260869564"
 	Ratio_of_RhDevs_Absolute_Count_by_No_Tokens_val="27.34555652159408">
 </Rhetorical_Metrical_Devices>

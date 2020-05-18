@@ -70,7 +70,7 @@ Ain't No Good Life (original version) Lyrics.txt_13-100  [i,am,gonna,get,myself,
 Ain't No Good Life (original version) Lyrics.txt_14-115  [i,am,gonna,try,a,dyin,attempt]  [provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
 Ain't No Good Life (original version) Lyrics.txt_15-131  [talkin,about,the,good,times,slippin,by]  [provide_expl_just(time,[external,factive,narration,background,objective])]
 Ain't No Good Life (original version) Lyrics.txt_16-147  [yeah,i,tell,ya]  [provide_expl_just(tell,[external,factive,narration,background,objective])]
-Ain't No Good Life (original version) Lyrics.txt_17-164  [i,don-t,even,know,where,last_month,went]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_930922)]
+Ain't No Good Life (original version) Lyrics.txt_17-164  [i,don-t,even,know,where,last_month,went]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_932698)]
 Ain't No Good Life (original version) Lyrics.txt_18-183  [well,i,can,not,make,no,money,baby]  [reject_expl_just(make,[external,nonfactive,narration,foreground,objective])]
 Ain't No Good Life (original version) Lyrics.txt_19-202  [well,cause,my,money-s,spent,already]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 Ain't No Good Life (original version) Lyrics.txt_20-223  [and,i,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,foreground,objective])]
@@ -78,7 +78,7 @@ Ain't No Good Life (original version) Lyrics.txt_20-224  [where,it,went,.,it,wen
 Ain't No Good Life (original version) Lyrics.txt_21-245  [i,said]  [provide_expl_just(go,[external,factive,narration,foreground,objective])]
 Ain't No Good Life (original version) Lyrics.txt_21-246  [it,went,on,that,damn]  [reject_expl_just(go,[external,factive,narration,foreground,objective])]
 Ain't No Good Life (original version) Lyrics.txt_21-246  [it,went,on,that,damn,rent]  [reject_expl_just(go,[external,factive,narration,foreground,objective])]
-Ain't No Good Life (original version) Lyrics.txt_22-268  [well,i,don-t,mean,change,baby]  [reject_expl_just(be,[_942246,_942252,_942258,_942264,_942270])]
+Ain't No Good Life (original version) Lyrics.txt_22-268  [well,i,don-t,mean,change,baby]  [reject_expl_just(be,[_944022,_944028,_944034,_944040,_944046])]
 Ain't No Good Life (original version) Lyrics.txt_23-291  [i_mean,foldin,money]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 Ain't No Good Life (original version) Lyrics.txt_24-315  [well,i,want]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,foreground,objective])]
 Ain't No Good Life (original version) Lyrics.txt_24-316  [lovin-,said]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,foreground,objective])]
@@ -164,7 +164,7 @@ lf(Ain't No Good Life (original version) Lyrics.txt_5,17,cl7-nil-nil-grieve-[sub
 lf(Ain't No Good Life (original version) Lyrics.txt_5,17,cl6-nil-nil-seem-[obj2-goal-more-sn2,subj-actor-it-sn1,def_prop(more,[astratto,informa,oggetto]),def_prop(it,[any])])
 lf(Ain't No Good Life (original version) Lyrics.txt_6,24,cl8-nil-nil-look-[adj-(mod)-back-nil,adj-(mod)-well-nil,iobj-goal-times-sn2,subj-agent-i-sn1,and(times,good,sn2),def_prop(times,[tempo]),def_prop(i,[umano])])
 lf(Ain't No Good Life (original version) Lyrics.txt_7,31,cl9-nil-nil-lose-[obj-theme_unaff-part-sn2,subj-theme_aff-some-sn1,def_prop(part,[astratto,attivita,body_part,informa,oggetto,relat,strumento,umano]),def_prop(some,[umano])])
-lf(Ain't No Good Life (original version) Lyrics.txt_8,39,2-nil-nil-be-[subj-theme_bound-me-sn8,def_prop(me,_962786)])
+lf(Ain't No Good Life (original version) Lyrics.txt_8,39,2-nil-nil-be-[subj-theme_bound-me-sn8,def_prop(me,_964562)])
 lf(Ain't No Good Life (original version) Lyrics.txt_8,39,cl11-nil-nil-tell-[subj-agent-it-sn4,subj-agent-it-sn3,subj-agent-me-sn2,and(it,me,sn3),and(me,why,sn2),and(me,you,sn2),def_prop(it,[any]),def_prop(it,[any]),def_prop(me,[umano])])
 lf(Ain't No Good Life (original version) Lyrics.txt_8,39,cl10-nil-nil-know-[subj-tema_nonaff-i-sn1,def_prop(i,[umano])])
 lf(Ain't No Good Life (original version) Lyrics.txt_8,39,nil-nil-nil-wanna-[subj-agent-i-sn1,def_prop(i,[umano])])
@@ -185,7 +185,7 @@ lf(Ain't No Good Life (original version) Lyrics.txt_16,147,cl24-nil-nil-tell-[ob
 lf(Ain't No Good Life (original version) Lyrics.txt_17,164,cl26-nil-nil-go-[])
 lf(Ain't No Good Life (original version) Lyrics.txt_17,164,cl25-not-nil-know-[subj-actor-i-sn1,adj-(mod)-even-nil,aux-do-nil,def_prop(i,[umano])])
 lf(Ain't No Good Life (original version) Lyrics.txt_18,183,cl27-not-can-make-[adj-(mod)-well-nil,obj-theme_aff-baby-sn3,obj-goal-money-sn2,subj-agent-i-sn1,and(money,no,sn2),def_prop(baby,[animato,any,attivita,plant]),def_prop(money,[astratto,oggetto]),def_prop(i,[umano])])
-lf(Ain't No Good Life (original version) Lyrics.txt_19,202,_965154-nil-nil-spend-[voice-spend-nil,tense-spend-nil])
+lf(Ain't No Good Life (original version) Lyrics.txt_19,202,_966930-nil-nil-spend-[voice-spend-nil,tense-spend-nil])
 lf(Ain't No Good Life (original version) Lyrics.txt_19,202,cl28-nil-nil-be-[adj-(mod)-well-nil,voice-spend-nil,tense-spend-nil,subj-theme_bound-cause-sn1,def_prop(cause,[attivita,evento,informa])])
 lf(Ain't No Good Life (original version) Lyrics.txt_20,223,cl30-nil-nil-go-[subj-agent-it-sn2,cmod-subord-go-",def_prop(it,[any])])
 lf(Ain't No Good Life (original version) Lyrics.txt_20,223,cl29-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])

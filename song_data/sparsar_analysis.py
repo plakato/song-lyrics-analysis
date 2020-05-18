@@ -17,10 +17,10 @@ def create_sparsar_input_file_from_song(song, output_filename):
         for i in range(len(song['lyrics'])):
             line = song['lyrics'][i].strip()
             punctuation = '.'
-            if line[-1] == '?' or \
+            if line == '' or \
+                    line[-1] == '?' or \
                     line[-1] == '!' or \
-                    line[-1] == '…' or \
-                    line == '':
+                    line[-1] == '…':
                 punctuation = ''
             output.write(line + punctuation + '\n')
 
@@ -94,7 +94,10 @@ def get_scheme_letters(inputfile):
 
 def extract_rhymes_to_csv(filename):
     inputfile = 'sparsar_experiments/outs/' + filename + '_phon.xml'
-    outputfile = 'sparsar_experiments/rhymes/' + filename + '.csv'
+    prefix = ''
+    if filename.startswith('shuffled'):
+        prefix = filename[:9] + '/'
+    outputfile = 'sparsar_experiments/rhymes/' + prefix + filename + '.csv'
     scheme_letters, root = get_scheme_letters(inputfile)
     print(scheme_letters)
     # Create output.
@@ -123,18 +126,24 @@ def extract_rhymes_to_csv(filename):
 
 
 def main():
-    prefixes = ['', 'shuffled0_']
+    # Prepare files for SPARSAR.
+    prefixes = []  # ['', 'shuffled0_']
+    os.environ["PYTHONIOENCODING"] = "utf-8"
     for prefix in prefixes:
         filename = 'data/shuffled_lyrics/' + \
                    prefix + '100ENlyrics_cleaned.json'
         replace_prohibited_characters(filename)
-        os.environ["PYTHONIOENCODING"] = "utf-8"
+        # Generate SPARSAR output files.
         run_sparsar_for_files(filename, prefix)
+    # Extract useful information from SPARSAR output files to .csv file.
     path = 'sparsar_experiments/outs/'
+    total = 0
     for item in os.listdir(path):
         if isfile(join(path, item)) and item.endswith('_phon.xml'):
             print('Extracting to csv...', item)
             extract_rhymes_to_csv(item[:-9])
+            total += 1
+    print('Generated', total, '.csv files.')
 
 
 if __name__ == '__main__':

@@ -55,7 +55,7 @@ Bring It on Lyrics.txt_29-462  []-positive  []
 Bring It on Lyrics.txt_1-1  [bring,it,on,Lyrics,by,Lynyrd,Skynyrd]  [title]
 Bring It on Lyrics.txt_2-3  [uhh,Huh,that,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 Bring It on Lyrics.txt_3-6  [Missy,was,a,real,fine,looker]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
-Bring It on Lyrics.txt_4-10  [always,had,an,eye,for,the,boys]  [raise_issue(be,[_79640,factive,statement,_79658,subjective])]
+Bring It on Lyrics.txt_4-10  [always,had,an,eye,for,the,boys]  [raise_issue(be,[_991636,factive,statement,_991654,subjective])]
 Bring It on Lyrics.txt_5-15  [man,i,always,wanted,to,book,that,girl]  [provide_expl_just(want,[external,factive,narration,foreground,objective]),provide_expl_just(book,[external,factive,narration,background,objective]),provide_expl_just(man,[external,factive,narration,background,objective])]
 Bring It on Lyrics.txt_6-23  [play,around,with,some,of,her,toys]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 Bring It on Lyrics.txt_7-30  [i,said,my,my]  [provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,foreground,objective]),provide_expl_just(eye,[external,factive,narration,background,objective])]
@@ -64,7 +64,7 @@ Bring It on Lyrics.txt_7-32  [you,look,at,them]  [provide_expl_just(look,[extern
 Bring It on Lyrics.txt_7-33  [eyes]  [provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,foreground,objective]),provide_expl_just(eye,[external,factive,narration,background,objective])]
 Bring It on Lyrics.txt_8-41  [i,said]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
 Bring It on Lyrics.txt_8-42  [oh_no,lord,Here_we_go]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
-Bring It on Lyrics.txt_9-51  [don-t,you,pretend,you,don-t,know]  [provide_expl_just(pretend,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_80862)]
+Bring It on Lyrics.txt_9-51  [don-t,you,pretend,you,don-t,know]  [provide_expl_just(pretend,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_1002784)]
 Bring It on Lyrics.txt_10-63  [bring,it,on]  [provide_expl_just(bring,[external,factive,narration,background,objective])]
 Bring It on Lyrics.txt_11-74  [yeah,baby]  [provide_expl_just(baby,[external,factive,narration,background,objective])]
 Bring It on Lyrics.txt_12-86  [rumor,says,she,from,the,bayou]  [reject_expl_just(say,[external,factive,narration,background,objective]),reject_expl_just(rumor,[external,factive,narration,background,objective])]
@@ -78,7 +78,7 @@ Bring It on Lyrics.txt_16-147  [you,look,at,them]  [provide_expl_just(look,[exte
 Bring It on Lyrics.txt_16-148  [eyes]  [provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,foreground,objective]),provide_expl_just(eye,[external,factive,narration,background,objective])]
 Bring It on Lyrics.txt_17-165  [i,said]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
 Bring It on Lyrics.txt_17-166  [oh_no,lord,Here_we_go]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
-Bring It on Lyrics.txt_18-184  [don-t,you,pretend,you,don-t,know]  [provide_expl_just(pretend,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_82394)]
+Bring It on Lyrics.txt_18-184  [don-t,you,pretend,you,don-t,know]  [provide_expl_just(pretend,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_1015842)]
 Bring It on Lyrics.txt_19-205  [bring,it,on]  [provide_expl_just(bring,[external,factive,narration,background,objective])]
 Bring It on Lyrics.txt_20-225  [give,it,to,me,baby]  [provide_expl_just(baby,[external,factive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,background,objective])]
 Bring It on Lyrics.txt_21-247  [i,have,been,waiting]  [provide_expl_just(wait,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
@@ -180,7 +180,7 @@ lf(Bring It on Lyrics.txt_12,86,cl20-nil-nil-say-[ncmod-loc_origin-bayou-sn3,def
 lf(Bring It on Lyrics.txt_12,86,nil-nil-nil-rumor-[obj-prop-she-sn2,xcomp-purpose-say-2,subj-agent-you-sn1,def_prop(she,[umano]),def_prop(you,[umano])])
 lf(Bring It on Lyrics.txt_13,100,cl21-nil-nil-be-[coord-theme_bound-fortune_and_fame-sn3,subj-theme_bound-fame-sn2,subj-theme_bound-fortune-sn1,def_prop(fortune_and_fame,[astratto,oggetto,stato,stato]),def_prop(fame,[astratto,oggetto,stato,stato]),def_prop(fortune,[astratto,oggetto,stato,stato])])
 lf(Bring It on Lyrics.txt_14,114,cl22-nil-nil-get-[ncmod-subj_disc-her-sn4,obj-theme_aff-way-sn3,subj-theme_unaff-she-sn2,subj-theme_unaff-she-sn1,aux-(is)-nil,and(she,man,sn1),def_prop(her,[umano]),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(she,[umano]),def_prop(she,[umano])])
-lf(Bring It on Lyrics.txt_15,129,cl23-nil-nil-be-[xcomp-prop-insane-sn5,subj-theme_bound-boy-sn4,obj2-benef-us-sn3,xcomp-prop-all-sn2,subj-theme_bound-she-sn1,and(boy,poor,sn4),and(all,driving,sn2),def_prop(insane,[evaluative]),def_prop(boy,[oggetto,strumento]),def_prop(us,[umano]),def_prop(all,[_97412]),def_prop(she,[umano])])
+lf(Bring It on Lyrics.txt_15,129,cl23-nil-nil-be-[xcomp-prop-insane-sn5,subj-theme_bound-boy-sn4,obj2-benef-us-sn3,xcomp-prop-all-sn2,subj-theme_bound-she-sn1,and(boy,poor,sn4),and(all,driving,sn2),def_prop(insane,[evaluative]),def_prop(boy,[oggetto,strumento]),def_prop(us,[umano]),def_prop(all,[_1039522]),def_prop(she,[umano])])
 lf(Bring It on Lyrics.txt_16,145,cl27-nil-nil-eye-[subj-experiencer-pro-nil])
 lf(Bring It on Lyrics.txt_16,145,cl26-nil-nil-look-[iobj-locat-them-sn6,subj-agent-you-sn5,def_prop(them,[umano]),def_prop(you,[umano])])
 lf(Bring It on Lyrics.txt_16,145,cl25-nil-can-can-[subj-actor-you-sn4,def_prop(you,[umano])])

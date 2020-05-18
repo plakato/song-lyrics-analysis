@@ -30,21 +30,21 @@
 </Stanza_level>
 <Stanza_level no="1">
 <Stats_Stanza  
-	line_durations_msec="[1481.38,1968,880]"
-	total_syllable_length_msec="4329.38"
-	mean_line_length_val="1443.1266666666668"
-	standard_deviation_val="545.0077872226536"
-	skewness_val="-0.1047642295021201"
+	line_durations_msec="[1513.38,1456,880]"
+	total_syllable_length_msec="3849.38"
+	mean_line_length_val="1283.1266666666668"
+	standard_deviation_val="350.2948017503733"
+	skewness_val="-0.5599711351888164"
 	kurtosis_val="-1.9999999999999996">
 </Stats_Stanza>
 <Metrical_Scheme_Stanza>
 <Line_verse no="4"
-	number_of_feet_no="5"	line_syllables="[okay/[ow,k_ey],you/[y_uw],think/[th_ih_ng_k],you/[y_uw],got/[g_aa_t],a/[ah],pretty/[p_r_ih_t,iy],face/[f_ey_s]]"
+	number_of_feet_no="5"	line_syllables="[okay/[ow,k_ey],you/[y_uw],think/[th_ih_ng_k],you/[y_uw],got/[g_aa_t],a/[ey],pretty/[p_r_ih_t,iy],face/[f_ey_s]]"
 	total_syllable_length_no="10"
 	rhetorical_devices="[5-[]]"
 	metrical_structure_val="[1,1,0,1,0,1,0,1,0,0]"></Line_verse>
 <Line_verse no="5"
-	number_of_feet_no="3"	line_syllables="[but/[b_ah_t],the/[dh_ah],rest/[r_eh_s_t],of/[ah_v],you/[y_uw],(is)/[ih_z],out/[aw_t],of/[ah_v],place/[p_l_ey_s]]"
+	number_of_feet_no="3"	line_syllables="[but/[b_ah_t],the/[dh_iy],rest/[r_eh_s_t],of/[ah_v],you/[y_uw],(is)/[ah_z],out/[aw_t],of/[ah_v],place/[p_l_ey_s]]"
 	total_syllable_length_no="9"
 	rhetorical_devices="[6-[]]"
 	metrical_structure_val="[0,1,0,0,1,0,0,1,0]"></Line_verse>
@@ -121,11 +121,11 @@
 </Stanza_level>
 <Stanza_level no="4">
 <Stats_Stanza  
-	line_durations_msec="[810.14,1408,1184]"
-	total_syllable_length_msec="3402.14"
-	mean_line_length_val="1134.0466666666666"
-	standard_deviation_val="302.0441135551781"
-	skewness_val="-0.24129097567213015"
+	line_durations_msec="[810.14,1024,1184]"
+	total_syllable_length_msec="3018.14"
+	mean_line_length_val="1006.0466666666666"
+	standard_deviation_val="187.57549555667802"
+	skewness_val="-0.14225364018874834"
 	kurtosis_val="-2.0">
 </Stats_Stanza>
 <Metrical_Scheme_Stanza>
@@ -135,7 +135,7 @@
 	rhetorical_devices="[19-[]]"
 	metrical_structure_val="[0,0,1,0,1,0,1]"></Line_verse>
 <Line_verse no="19"
-	number_of_feet_no="3"	line_syllables="[cause/[k_aa_z],you/[y_uw],don-t/[d_ow_n_t],look/[l_uh_k],the/[dh_ah],same/[s_ey_m]]"
+	number_of_feet_no="3"	line_syllables="[cause/[k_aa_z],you/[y_uw],don-t/[d_ow_n_t],look/[l_uh_k],the/[dh_iy],same/[s_ey_m]]"
 	total_syllable_length_no="6"
 	rhetorical_devices="[20-[]]"
 	metrical_structure_val="[0,1,0,1,0,1]"></Line_verse>
@@ -260,10 +260,10 @@
 </Stanza_levels>
 <General_Stats>
 	<Prosodic_Measures_in_msecs
-	mean_line_length_val="1453.06125"
-	standard_deviation_val="432.85234320463366"
-	skewness_val="1.2170311343422615"
-	kurtosis_val="2.167532092520064">
+	mean_line_length_val="1426.06125"
+	standard_deviation_val="428.97529222593073"
+	skewness_val="1.3514517461076916"
+	kurtosis_val="2.6386692412558386">
 </Prosodic_Measures_in_msecs>
 	<Metrical_Structures
 	mean_line_length_in_no_of_feet_val="3.09375"
@@ -273,9 +273,9 @@
 </Metrical_Structures>
 	<Rhetorical_Metrical_Devices
 	Absolute_Count_of_Rhyming_Devices_val="2715"
-	Ratio_of_Absolute_Count_by_No_of_Stanzas_val="0.05415162454873646"
+	Ratio_of_Absolute_Count_by_No_of_Stanzas_val="0.055762081784386616"
 	Ratio_of_RhDevs_Absolute_Count_by_Corrected_No_of_Verses_val=" 87.58064516129032"
-	Ratio_of_RhDevs_Absolute_Count_by_Repetition_Rate_val="3581.214285714286"
+	Ratio_of_RhDevs_Absolute_Count_by_Repetition_Rate_val="3615.5198019801983"
 	Ratio_of_RhDevs_Absolute_Count_by_Rare_Word_Repetition_Rate_val=" 3498.1730769230767"
 	Ratio_of_RhDevs_Absolute_Count_by_No_Tokens_val="31.078803704043466">
 </Rhetorical_Metrical_Devices>
