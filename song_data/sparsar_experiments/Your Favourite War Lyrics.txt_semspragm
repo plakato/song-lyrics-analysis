@@ -1,0 +1,198 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Your Favourite War Lyrics.txt_1-1  []-positive  []
+Your Favourite War Lyrics.txt_2-3  []-negative  [neg]
+Your Favourite War Lyrics.txt_3-6  []-negative  [fgb,neg,neg]
+Your Favourite War Lyrics.txt_4-10  []-negative  [neg]
+Your Favourite War Lyrics.txt_5-15  [because-cause]-negative  [neg]
+Your Favourite War Lyrics.txt_6-21  []-negative  []
+Your Favourite War Lyrics.txt_7-28  []-positive  []
+Your Favourite War Lyrics.txt_8-36  []-suspension  [neg]
+Your Favourite War Lyrics.txt_9-45  [but-advers]-negative  [fgb,neg]
+Your Favourite War Lyrics.txt_10-55  []-positive  []
+Your Favourite War Lyrics.txt_10-56  []-suspension  [neg]
+Your Favourite War Lyrics.txt_11-68  [but-advers]-positive  [fgb]
+Your Favourite War Lyrics.txt_12-80  []-positive  []
+Your Favourite War Lyrics.txt_12-81  []-positive  []
+Your Favourite War Lyrics.txt_13-94  [but-advers]-negative  [fgb,neg]
+Your Favourite War Lyrics.txt_14-108  []-negative  [neg,neg]
+Your Favourite War Lyrics.txt_15-123  []-positive  []
+Your Favourite War Lyrics.txt_15-124  []-suspension  [neg]
+Your Favourite War Lyrics.txt_16-140  []-positive  []
+Your Favourite War Lyrics.txt_17-157  []-negative  [neg]
+Your Favourite War Lyrics.txt_17-158  []-negative  [neg]
+Your Favourite War Lyrics.txt_18-176  []-positive  []
+Your Favourite War Lyrics.txt_18-177  []-positive  []
+Your Favourite War Lyrics.txt_19-196  [so-result]-negative  [fgb,neg]
+Your Favourite War Lyrics.txt_20-216  []-positive  []
+Your Favourite War Lyrics.txt_20-217  []-positive  []
+Your Favourite War Lyrics.txt_21-237  []-positive  [bkc]
+Your Favourite War Lyrics.txt_21-238  []-positive  []
+Your Favourite War Lyrics.txt_22-259  []-positive  []
+Your Favourite War Lyrics.txt_22-260  []-positive  [neg]
+Your Favourite War Lyrics.txt_23-284  [but-advers]-positive  [fgb]
+Your Favourite War Lyrics.txt_24-308  []-positive  []
+Your Favourite War Lyrics.txt_24-309  []-positive  []
+Your Favourite War Lyrics.txt_25-334  [but-advers]-negative  [fgb,neg]
+Your Favourite War Lyrics.txt_26-360  []-positive  [neg]
+Your Favourite War Lyrics.txt_27-388  [but-advers]-positive  [fgb]
+Your Favourite War Lyrics.txt_28-416  []-positive  []
+Your Favourite War Lyrics.txt_28-417  []-positive  []
+Your Favourite War Lyrics.txt_29-446  [but-advers]-negative  [fgb,neg]
+Your Favourite War Lyrics.txt_30-476  []-positive  [neg]
+Your Favourite War Lyrics.txt_30-477  []-positive  []
+Your Favourite War Lyrics.txt_30-478  []-positive  [neg]
+Your Favourite War Lyrics.txt_30-479  []-positive  []
+Your Favourite War Lyrics.txt_30-480  []-positive  []
+Your Favourite War Lyrics.txt_31-511  [but-advers]-negative  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Your Favourite War Lyrics.txt_1-1  [your,Favourite,War,Lyrics,by,Wolverine]  [title]
+Your Favourite War Lyrics.txt_2-3  [there,is,a,war,inside,you]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_3-6  [and,i,can,not,escape,the,ground]  [reject_expl_just(escape,[external,nonfactive,narration,foreground,objective])]
+Your Favourite War Lyrics.txt_4-10  [i,am,losing,my,lifeline]  [reject_expl_just(be,[_130528,_130534,_130540,_130546,_130552])]
+Your Favourite War Lyrics.txt_5-15  [because,you,just,can,not,face,the,truth]  [reject_expl_just(face,[external,nonfactive,narration,foreground,objective])]
+Your Favourite War Lyrics.txt_6-21  [your,face,deceives,me]  [provide_expl_just(deceive,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_7-28  [you,tie,me,with,your,words]  [provide_expl_just(tie,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_8-36  [on_your_own,stones,fall]  [provide_expl_just(fall,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_9-45  [but,still,it,is,my,mistake]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_10-55  [forgive,me,forgive,me]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(ease,[external,factive,narration,background,objective]),provide_expl_just(forgive,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_10-56  [for,your,sins,i,want,to,ease,your,pain]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(ease,[external,factive,narration,background,objective]),provide_expl_just(forgive,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_11-68  [but,you,turn,your,head,away]  [proposal(be,[_134458,_134464,statement,foreground,_134482])]
+Your Favourite War Lyrics.txt_12-80  [i,found]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_12-81  [you,in,your,rain]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_13-94  [but,you,can,not,find,me]  [reject_expl_just(be,[_136404,_136410,_136416,_136422,_136428])]
+Your Favourite War Lyrics.txt_14-108  [this,stupid,game,we,are,playing]  [reject_expl_just(play,[external,factive,cause,foreground,objective])]
+Your Favourite War Lyrics.txt_15-123  [both,we,you,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(lose,[external,nonfactive,narration,background,objective])]
+Your Favourite War Lyrics.txt_15-124  [will,lose]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(lose,[external,nonfactive,narration,background,objective])]
+Your Favourite War Lyrics.txt_16-140  [locking,all,your,doors]  [provide_expl_just(lock,[external,factive,cause,foreground,objective])]
+Your Favourite War Lyrics.txt_17-157  [no_one,gets,in]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_17-158  [,,no_one,gets,out]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_18-176  [please,release,the,rope]  [provide_expl_just(release,[external,factive,narration,background,objective]),provide_expl_just(hold,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_18-177  [that,holds,me]  [provide_expl_just(release,[external,factive,narration,background,objective]),provide_expl_just(hold,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_19-196  [so,i,can,reach,your,mind]  [reject_expl_just(reach,[external,nonfactive,narration,foreground,objective])]
+Your Favourite War Lyrics.txt_20-216  [there,is,something,holding]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_20-217  [me]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_21-237  [there,oh,is,someone,holding]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_21-238  [me]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_22-259  [forgive,me,forgive,me]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(ease,[external,factive,narration,background,objective]),provide_expl_just(forgive,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_22-260  [for,your,words,i,want,to,ease,your,pain]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(ease,[external,factive,narration,background,objective]),provide_expl_just(forgive,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_23-284  [but,you,turn,your,head,away]  [proposal(be,[_153358,_153364,statement,foreground,_153382])]
+Your Favourite War Lyrics.txt_24-308  [i,found]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_24-309  [you,in,your,rain]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_25-334  [but,you,can,not,find,me]  [reject_expl_just(be,[_155304,_155310,_155316,_155322,_155328])]
+Your Favourite War Lyrics.txt_26-360  [i,want,to,ease,your,pain]  [provide_expl_just(ease,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_27-388  [but,you,turn,your,head,away]  [proposal(be,[_156282,_156288,statement,foreground,_156306])]
+Your Favourite War Lyrics.txt_28-416  [i,found]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_28-417  [you,in,your,rain]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_29-446  [but,you,can,not,find,me]  [reject_expl_just(be,[_158228,_158234,_158240,_158246,_158252])]
+Your Favourite War Lyrics.txt_30-476  [i,want,to,ease,your,pain]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(ease,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_30-477  [i,found]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(ease,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_30-478  [you,in,your,rain,i,want,to,ease,your,pain]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(ease,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_30-479  [i,found]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(ease,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_30-480  [you,in,your,rain]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(ease,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Your Favourite War Lyrics.txt_31-511  [but,you,can,not,find,me]  [reject_expl_just(be,[_167950,_167956,_167962,_167968,_167974])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Your Favourite War Lyrics.txt_1-1)-[]
+2-(Your Favourite War Lyrics.txt_2-3)-[emotions-aggression,primary-concreteness]
+3-(Your Favourite War Lyrics.txt_3-6)-[]
+4-(Your Favourite War Lyrics.txt_4-10)-[]
+5-(Your Favourite War Lyrics.txt_5-15)-[primary-narcissism,secondary-abstract_tought]
+6-(Your Favourite War Lyrics.txt_6-21)-[primary-narcissism]
+7-(Your Favourite War Lyrics.txt_7-28)-[]
+8-(Your Favourite War Lyrics.txt_8-36)-[primary-hard,primary-descent]
+9-(Your Favourite War Lyrics.txt_9-45)-[secondary-abstract_tought]
+10-(Your Favourite War Lyrics.txt_10-55)-[secondary-social_behavior,secondary-social_behavior]
+11-(Your Favourite War Lyrics.txt_10-56)-[primary-passivity,emotions-sadness]
+12-(Your Favourite War Lyrics.txt_11-68)-[primary-narcissism,primary-concreteness]
+13-(Your Favourite War Lyrics.txt_12-80)-[secondary-instru_behavior]
+14-(Your Favourite War Lyrics.txt_12-81)-[primary-water]
+15-(Your Favourite War Lyrics.txt_13-94)-[secondary-instru_behavior]
+16-(Your Favourite War Lyrics.txt_14-108)-[emotions-expressive_beh]
+17-(Your Favourite War Lyrics.txt_15-123)-[secondary-abstract_tought]
+18-(Your Favourite War Lyrics.txt_15-124)-[]
+19-(Your Favourite War Lyrics.txt_16-140)-[primary-brink]
+20-(Your Favourite War Lyrics.txt_17-157)-[]
+21-(Your Favourite War Lyrics.txt_17-158)-[primary-concreteness]
+22-(Your Favourite War Lyrics.txt_18-176)-[secondary-social_behavior]
+half
+23-(Your Favourite War Lyrics.txt_18-177)-[]
+24-(Your Favourite War Lyrics.txt_19-196)-[secondary-instru_behavior]
+25-(Your Favourite War Lyrics.txt_20-216)-[]
+26-(Your Favourite War Lyrics.txt_20-217)-[]
+27-(Your Favourite War Lyrics.txt_21-237)-[]
+28-(Your Favourite War Lyrics.txt_21-238)-[]
+29-(Your Favourite War Lyrics.txt_22-259)-[secondary-social_behavior,secondary-social_behavior]
+30-(Your Favourite War Lyrics.txt_22-260)-[primary-passivity,emotions-sadness]
+31-(Your Favourite War Lyrics.txt_23-284)-[primary-narcissism,primary-concreteness]
+32-(Your Favourite War Lyrics.txt_24-308)-[secondary-instru_behavior]
+33-(Your Favourite War Lyrics.txt_24-309)-[primary-water]
+34-(Your Favourite War Lyrics.txt_25-334)-[secondary-instru_behavior]
+35-(Your Favourite War Lyrics.txt_26-360)-[primary-passivity,emotions-sadness]
+36-(Your Favourite War Lyrics.txt_27-388)-[primary-narcissism,primary-concreteness]
+37-(Your Favourite War Lyrics.txt_28-416)-[secondary-instru_behavior]
+38-(Your Favourite War Lyrics.txt_28-417)-[primary-water]
+39-(Your Favourite War Lyrics.txt_29-446)-[secondary-instru_behavior]
+40-(Your Favourite War Lyrics.txt_30-476)-[primary-passivity,emotions-sadness]
+41-(Your Favourite War Lyrics.txt_30-477)-[secondary-instru_behavior]
+42-(Your Favourite War Lyrics.txt_30-478)-[primary-water,primary-passivity,emotions-sadness]
+43-(Your Favourite War Lyrics.txt_30-479)-[secondary-instru_behavior]
+44-(Your Favourite War Lyrics.txt_30-480)-[primary-water]
+45-(Your Favourite War Lyrics.txt_31-511)-[secondary-instru_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Your Favourite War Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wolverine-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,War,sn1),def_prop(Wolverine,[place,animato,relat,sociale,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Your Favourite War Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-war-sn2,subj-theme_bound-there-sn1,def_prop(war,[attivita,stato]),def_prop(there,[any])])
+lf(Your Favourite War Lyrics.txt_3,6,cl3-not-can-escape-[cmod-subord-escape-",obj-theme_unaff-ground-sn2,subj-agent-i-sn1,def_prop(ground,[astratto,luogo,oggetto,strumento]),def_prop(i,[umano])])
+lf(Your Favourite War Lyrics.txt_4,10,cl4-nil-nil-lose-[obj-theme_unaff-lifeline-sn2,subj-theme_aff-i-sn1,aux-am-nil,progr-losing-nil,def_prop(lifeline,[astratto,oggetto,strumento]),def_prop(i,[umano])])
+lf(Your Favourite War Lyrics.txt_5,15,cl5-not-can-face-[obj-actor-truth-sn2,subj-experiencer-you-sn1,def_prop(truth,[astratto,attivita,informa,stato]),def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_6,21,cl6-nil-nil-deceive-[obj-theme-me-sn2,subj-agent-face-sn1,def_prop(me,[umano]),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano])])
+lf(Your Favourite War Lyrics.txt_7,28,cl7-nil-nil-tie-[iobj-goal-word-sn3,obj-patient1-me-sn2,subj-agent-you-sn1,def_prop(word,[attivita,informa,nquant]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_8,36,cl8-nil-nil-fall-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_9,45,cl9-nil-nil-be-[adj-(mod)-still-nil,xcomp-prop-mistake-sn2,subj-theme_bound-it-sn1,def_prop(mistake,[astratto,attivita]),def_prop(it,[any])])
+lf(Your Favourite War Lyrics.txt_10,55,cl12-nil-nil-ease-[])
+lf(Your Favourite War Lyrics.txt_10,55,cl11-nil-nil-want-[obj-theme_aff-pain-sn5,xcomp-purpose-ease-cl12,subj-actor-sin-sn4,def_prop(pain,[astratto,emotivo,stato,umano]),def_prop(sin,[astratto,attivita,informa])])
+lf(Your Favourite War Lyrics.txt_10,55,cl10-nil-nil-forgive-[obj-theme_aff-me-sn3,obj-theme-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_11,68,cl13-nil-nil-turn-[xcomp-prop-away-sn3,obj-theme-head-sn2,subj-agent-you-sn1,def_prop(away,[evaluative]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_12,80,cl15-nil-nil-be-[ncmod-locativo-rain-sn3,subj-theme_bound-you-sn2,def_prop(rain,[astratto,attivita,cambia,sostanza]),def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_12,80,cl14-nil-nil-find-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_13,94,cl16-not-can-find-[obj-theme_bound-me-sn2,subj-actor-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_14,108,cl17-nil-nil-play-[subj-agent-we-sn2,subj-agent-we-sn1,aux-are-nil,progr-playing-nil,and(we,game,sn1),and(we,stupid,sn1),and(we,this,sn1),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Your Favourite War Lyrics.txt_15,123,cl19-nil-will-lose-[subj-theme_aff-you-sn4,def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_15,123,cl18-nil-nil-know-[subj-actor-you-sn2,subj-actor-you-sn1,and(you,we,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_16,140,cl20-nil-nil-lock-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_17,157,cl22-nil-nil-be-[adj-(mod)-out-nil,subj-theme_bound-get-sn2,and(get,no_one,sn2),def_prop(get,[informa,tecno])])
+lf(Your Favourite War Lyrics.txt_17,157,cl21-nil-nil-get-[sn2-no_one-nil,subj-agent-no_one-sn1,def_prop(no_one,[umano]),def_prop(no_one,[umano])])
+lf(Your Favourite War Lyrics.txt_18,176,cl24-nil-nil-hold-[ccomp-prop-hold-cl24,subj-agent-me-sn4,def_prop(me,[umano])])
+lf(Your Favourite War Lyrics.txt_18,176,cl23-nil-nil-release-[subj_top-agent-rope-sn1,def_prop(rope,[oggetto,strumento])])
+lf(Your Favourite War Lyrics.txt_19,196,cl25-nil-can-reach-[obj-goal-mind-sn2,subj-agent-i-sn1,def_prop(mind,[astratto]),def_prop(i,[umano])])
+lf(Your Favourite War Lyrics.txt_20,216,cl26-nil-nil-be-[subj-theme_bound-you-sn3,xcomp-prop-something-sn2,subj-theme_bound-there-sn1,def_prop(you,[umano]),def_prop(something,[astratto,informa,oggetto]),def_prop(there,[any])])
+lf(Your Favourite War Lyrics.txt_21,237,cl27-nil-nil-be-[subj-theme_bound-you-sn4,xcomp-prop-someone-sn2,subj-theme_bound-oh-sn1,and(oh,there,sn1),def_prop(you,[umano]),def_prop(someone,[umano]),def_prop(oh,[informa,tecno])])
+lf(Your Favourite War Lyrics.txt_22,259,cl30-nil-nil-ease-[])
+lf(Your Favourite War Lyrics.txt_22,259,cl29-nil-nil-want-[obj-theme_aff-pain-sn5,xcomp-purpose-ease-cl30,subj-actor-word-sn4,def_prop(pain,[astratto,emotivo,stato,umano]),def_prop(word,[attivita,informa,nquant])])
+lf(Your Favourite War Lyrics.txt_22,259,cl28-nil-nil-forgive-[obj-theme_aff-me-sn3,obj-theme-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_23,284,cl31-nil-nil-turn-[xcomp-prop-away-sn3,obj-theme-head-sn2,subj-agent-you-sn1,def_prop(away,[evaluative]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_24,308,cl33-nil-nil-be-[ncmod-locativo-rain-sn3,subj-theme_bound-you-sn2,def_prop(rain,[astratto,attivita,cambia,sostanza]),def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_24,308,cl32-nil-nil-find-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_25,334,cl34-not-can-find-[obj-theme_bound-me-sn2,subj-actor-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_26,360,cl36-nil-nil-ease-[obj-theme_aff-pain-sn2,xcomp-purpose-ease-2,def_prop(pain,[astratto,emotivo,stato,umano])])
+lf(Your Favourite War Lyrics.txt_26,360,cl35-nil-nil-want-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Your Favourite War Lyrics.txt_27,388,cl37-nil-nil-turn-[xcomp-prop-away-sn3,obj-theme-head-sn2,subj-agent-you-sn1,def_prop(away,[evaluative]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_28,416,cl39-nil-nil-be-[ncmod-locativo-rain-sn3,subj-theme_bound-you-sn2,def_prop(rain,[astratto,attivita,cambia,sostanza]),def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_28,416,cl38-nil-nil-find-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_29,446,cl40-not-can-find-[obj-theme_bound-me-sn2,subj-actor-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_30,476,cl44-nil-nil-be-[ncmod-locativo-rain-sn16,subj-theme_bound-you-sn15,def_prop(rain,[astratto,attivita,cambia,sostanza]),def_prop(you,[umano])])
+lf(Your Favourite War Lyrics.txt_30,476,cl43-nil-nil-find-[subj-actor-you-sn14,obj-result-pain-sn9,xcomp-prop-ease-2,iobj-goal-rain-sn7,subj-actor-you-sn5,obj-theme_aff-pain-sn2,xcomp-purpose-ease-5,def_prop(you,[umano]),def_prop(pain,[astratto,emotivo,stato,umano]),def_prop(rain,[astratto,attivita,cambia,sostanza]),def_prop(you,[umano]),def_prop(pain,[astratto,emotivo,stato,umano])])
+lf(Your Favourite War Lyrics.txt_30,476,cl42-nil-nil-ease-[])
+lf(Your Favourite War Lyrics.txt_30,476,cl41-nil-nil-want-[subj-sn6-i-sn8,subj-actor-you-sn6,subj-actor-i-sn1,def_prop(i,[umano]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Your Favourite War Lyrics.txt_31,511,cl45-not-can-find-[obj-theme_bound-me-sn2,subj-actor-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])

@@ -1,0 +1,171 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Ashes To Ashes.txt_1-1  []-positive  []
+Ashes To Ashes.txt_2-3  []-positive  [fgb]
+Ashes To Ashes.txt_3-6  []-positive  []
+Ashes To Ashes.txt_4-10  []-negative  [neg,fgb]
+Ashes To Ashes.txt_5-15  []-negative  [neg]
+Ashes To Ashes.txt_6-21  []-question  []
+Ashes To Ashes.txt_6-22  []-suspension  []
+Ashes To Ashes.txt_7-28  []-question  []
+Ashes To Ashes.txt_7-29  []-negative  [fhd,neg]
+Ashes To Ashes.txt_8-38  []-positive  [fgb]
+Ashes To Ashes.txt_9-47  []-positive  []
+Ashes To Ashes.txt_10-57  []-positive  []
+Ashes To Ashes.txt_11-69  []-positive  []
+Ashes To Ashes.txt_12-81  []-suspension  []
+Ashes To Ashes.txt_13-96  []-positive  [fgb]
+Ashes To Ashes.txt_14-110  []-positive  []
+Ashes To Ashes.txt_15-125  []-positive  []
+Ashes To Ashes.txt_16-141  []-negative  [neg]
+Ashes To Ashes.txt_17-158  []-positive  []
+Ashes To Ashes.txt_18-176  []-positive  []
+Ashes To Ashes.txt_19-195  []-suspension  []
+Ashes To Ashes.txt_20-217  []-positive  [fgb]
+Ashes To Ashes.txt_21-238  [if-hypoth]-negative  [fgb]
+Ashes To Ashes.txt_21-239  []-suspension  [neg]
+Ashes To Ashes.txt_22-261  []-negative  [neg]
+Ashes To Ashes.txt_22-262  []-positive  []
+Ashes To Ashes.txt_23-284  []-suspension  [ack]
+Ashes To Ashes.txt_23-285  [if-hypoth]-negative  [fgb,neg]
+Ashes To Ashes.txt_24-308  []-suspension  []
+Ashes To Ashes.txt_25-335  []-positive  []
+Ashes To Ashes.txt_25-336  []-positive  []
+Ashes To Ashes.txt_26-363  []-positive  []
+Ashes To Ashes.txt_27-390  []-positive  []
+Ashes To Ashes.txt_27-391  []-positive  []
+Ashes To Ashes.txt_28-419  [but-advers]-suspension  [fgb,neg,neg]
+Ashes To Ashes.txt_29-449  []-suspension  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Ashes To Ashes.txt_1-1  [ashes,to,Ashes,by,Woody,Guthrie]  [title]
+Ashes To Ashes.txt_2-3  [ashes,to,ashes,and,dust,to,dust]  [provide_expl_just(dust,[external,factive,explanation,background,objective])]
+Ashes To Ashes.txt_3-6  [show,me,a,woman,that,a,man,can,trust]  [raise_issue(be,[_866704,factive,statement,_866722,subjective])]
+Ashes To Ashes.txt_4-10  [snakes,on,the,desert,and,fish,in,the,sea]  [reject_expl_just(snake,[external,factive,explanation,background,objective]),propose_opin_neg(snake,[external,factive,explanation,background,objective])]
+Ashes To Ashes.txt_5-15  [a,rattlesnake,mama,made,a,sucker,out_of,me]  [reject_expl_just(make,[external,factive,cause,foreground,objective])]
+Ashes To Ashes.txt_6-21  [how_long,wait,have_to,tell,me,?]  [provide_expl_just(must,[internal,nonfactive,narration,background,objective])]
+Ashes To Ashes.txt_6-22  [must,i]  [provide_expl_just(must,[internal,nonfactive,narration,background,objective])]
+Ashes To Ashes.txt_7-28  [now,you,i,get,can,?]  [provide_expl_just(hesitate,[external,factive,narration,background,objective]),provide_expl_just(must,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Ashes To Ashes.txt_7-29  [or,must,i,hesitate]  [reject_expl_just(hesitate,[external,factive,narration,background,objective]),reject_expl_just(must,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Ashes To Ashes.txt_8-38  [bacon,to,bacon,and,beans,to,beans]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Ashes To Ashes.txt_9-47  [i,got,a,cornbread,mama,in,New,Orleans]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Ashes To Ashes.txt_10-57  [turtles,in,the,rivers,,,alligators,in,the,swamp]  [provide_expl_just(turtles,[external,factive,narration,background,objective]),provide_expl_just(alligators,[external,factive,narration,background,objective])]
+Ashes To Ashes.txt_11-69  [a,Louisiana,mama,keeps,a,man,on,the,jump]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
+Ashes To Ashes.txt_12-81  [tell,me,how_long,must,have_to,wait]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(wait,[external,nonfactive,narration,foreground,objective])]
+Ashes To Ashes.txt_13-96  [it,is,beer,to,beer,and,ale,to,ale]  [provide_expl_just(ale,[internal,factive,narration,background,objective])]
+Ashes To Ashes.txt_14-110  [i,got,a,L]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Ashes To Ashes.txt_15-125  [a]  [raise_issue(be,[_873718,factive,statement,_873736,subjective])]
+Ashes To Ashes.txt_16-141  [mama,in,the,Frisco,jail]  [reject_expl_just(jail,[external,factive,narration,background,objective])]
+Ashes To Ashes.txt_17-158  [gold,in,the,mountains,,,copper,in,the,hills]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Ashes To Ashes.txt_18-176  [they,caught,my,gal,with,a,forty,gallon,still]  [provide_expl_just(catch,[external,factive,narration,foreground,objective])]
+Ashes To Ashes.txt_19-195  [tell,me,how_long,must,have_to,wait]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(must,[external,nonfactive,narration,foreground,objective])]
+Ashes To Ashes.txt_20-217  [ham,to,ham,and,eggs,to,eggs]  [provide_expl_just(ham,[external,factive,narration,background,objective])]
+Ashes To Ashes.txt_21-238  [if,i,don-t,get,a,pension]  [provide_expl_just(beg,[external,nonfactive,narration,foreground,objective])]
+Ashes To Ashes.txt_21-239  [i,will,have_to,beg]  [propose_opin(beg,[external,nonfactive,narration,foreground,objective]),provide_expl_just(beg,[external,nonfactive,narration,foreground,objective])]
+Ashes To Ashes.txt_22-261  [there,is,a,lot,of,crooked,politician]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Ashes To Ashes.txt_22-262  [men]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Ashes To Ashes.txt_23-284  [it,would,be,all_right]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Ashes To Ashes.txt_23-285  [if,it,was,not,for,them]  [reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+Ashes To Ashes.txt_24-308  [tell,me,how_long,must,have_to,wait]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(wait,[external,nonfactive,narration,foreground,objective])]
+Ashes To Ashes.txt_25-335  [i,tried,to,get,a,job,all_over,town]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Ashes To Ashes.txt_25-336  [;]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Ashes To Ashes.txt_26-363  [seven,hundred,they,places,turned,me,down]  [provide_expl_just(turn,[external,factive,cause,foreground,objective])]
+Ashes To Ashes.txt_27-390  [they,told,me,six,weeks]  [provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,nonfactive,narration,background,objective])]
+Ashes To Ashes.txt_27-391  [i,could,get,relief]  [provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,nonfactive,narration,background,objective])]
+Ashes To Ashes.txt_28-419  [but,i,is,not,got,a,bite,to,eat]  [provide_expl_just(eat,[external,factive,narration,background,objective])]
+Ashes To Ashes.txt_29-449  [tell,me,how_long,must,have_to,wait]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(wait,[external,nonfactive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Ashes To Ashes.txt_1-1)-[primary-fire]
+2-(Ashes To Ashes.txt_2-3)-[primary-fire,primary-fire]
+3-(Ashes To Ashes.txt_3-6)-[]
+4-(Ashes To Ashes.txt_4-10)-[primary-voyage,primary-water]
+5-(Ashes To Ashes.txt_5-15)-[primary-counscious,primary-orality]
+6-(Ashes To Ashes.txt_6-21)-[secondary-social_behavior]
+7-(Ashes To Ashes.txt_6-22)-[secondary-restraint]
+8-(Ashes To Ashes.txt_7-28)-[secondary-temporal_repere]
+9-(Ashes To Ashes.txt_7-29)-[secondary-restraint]
+10-(Ashes To Ashes.txt_8-38)-[primary-orality,primary-orality,primary-orality,primary-orality]
+11-(Ashes To Ashes.txt_9-47)-[]
+12-(Ashes To Ashes.txt_10-57)-[primary-water,primary-water]
+13-(Ashes To Ashes.txt_11-69)-[primary-ascend]
+14-(Ashes To Ashes.txt_12-81)-[secondary-social_behavior,secondary-restraint]
+15-(Ashes To Ashes.txt_13-96)-[primary-orality,primary-orality,primary-orality,primary-orality]
+16-(Ashes To Ashes.txt_14-110)-[]
+17-(Ashes To Ashes.txt_15-125)-[]
+18-(Ashes To Ashes.txt_16-141)-[secondary-restraint]
+half
+19-(Ashes To Ashes.txt_17-158)-[emotions-glory,primary-height,primary-hard,primary-height]
+20-(Ashes To Ashes.txt_18-176)-[secondary-restraint,primary-taste]
+21-(Ashes To Ashes.txt_19-195)-[secondary-social_behavior,secondary-restraint]
+22-(Ashes To Ashes.txt_20-217)-[primary-orality,primary-orality,primary-orality,primary-orality]
+23-(Ashes To Ashes.txt_21-238)-[]
+24-(Ashes To Ashes.txt_21-239)-[]
+25-(Ashes To Ashes.txt_22-261)-[]
+26-(Ashes To Ashes.txt_22-262)-[]
+27-(Ashes To Ashes.txt_23-284)-[]
+28-(Ashes To Ashes.txt_23-285)-[secondary-abstract_tought]
+29-(Ashes To Ashes.txt_24-308)-[secondary-social_behavior,secondary-restraint]
+30-(Ashes To Ashes.txt_25-335)-[secondary-instru_behavior,secondary-instru_behavior]
+31-(Ashes To Ashes.txt_25-336)-[]
+32-(Ashes To Ashes.txt_26-363)-[primary-concreteness]
+33-(Ashes To Ashes.txt_27-390)-[secondary-social_behavior,secondary-temporal_repere]
+34-(Ashes To Ashes.txt_27-391)-[emotions-positive_affect]
+35-(Ashes To Ashes.txt_28-419)-[primary-orality,primary-orality]
+36-(Ashes To Ashes.txt_29-449)-[secondary-social_behavior,secondary-restraint]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Ashes To Ashes.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Guthrie-sn3,ncmod-locativo-Ashes-sn2,subj-theme_bound-ash-sn1,and(Guthrie,Woody,sn3),def_prop(Guthrie,[place,umano]),def_prop(Ashes,[istituzione]),def_prop(ash,[plant,sostanza])])
+lf(Ashes To Ashes.txt_2,3,cl2-nil-nil-dust-[ncmod-loc_direct-ash_and_dust-[sn2,sn3],subj-agent-ash-sn1,def_prop(ash_and_dust,[plant,sostanza,sostanza]),def_prop(ash,[plant,sostanza])])
+lf(Ashes To Ashes.txt_3,6,cl3-nil-nil-show-[obj2-paziente-woman-sn3,obj-goal-me-sn2,subj-actor-you-sn1,and(woman,man,sn3),and(woman,that,sn3),def_prop(woman,[any]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Ashes To Ashes.txt_4,10,cl4-nil-nil-snake-[ncmod-locativo-desert_and_fish-[sn2,sn3],subj-agent-you-sn1,def_prop(desert_and_fish,[luogo,animato,edible,oggetto]),def_prop(you,[umano])])
+lf(Ashes To Ashes.txt_5,15,cl5-nil-nil-make-[obj-goal-sucker-sn2,subj-agent-mama-sn1,and(mama,rattlesnake,sn1),def_prop(sucker,[animato,edible,oggetto,plant,umano]),def_prop(mama,[umano])])
+lf(Ashes To Ashes.txt_6,21,cl6-nil-must-must-[subj-theme_unaff-i-sn2,subj-theme_unaff-me-sn1,modal-have_to-nil,def_prop(i,[umano]),def_prop(me,[umano])])
+lf(Ashes To Ashes.txt_7,28,2-nil-nil-be-[])
+lf(Ashes To Ashes.txt_7,28,cl8-nil-nil-hesitate-[cmod-subord-be-",subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Ashes To Ashes.txt_7,28,cl7-nil-must-must-[subj-prop-i-sn1,def_prop(i,[umano])])
+lf(Ashes To Ashes.txt_8,38,cl9-nil-nil-be-[ncmod-loc_direct-bean-sn4,ncmod-loc_direct-bacon_and_bean-[sn2,sn3],subj-theme_bound-bacon-sn1,def_prop(bean,[edible,oggetto,plant]),def_prop(bacon_and_bean,[edible,oggetto,edible,oggetto,plant]),def_prop(bacon,[edible,oggetto])])
+lf(Ashes To Ashes.txt_9,47,cl10-nil-nil-get-[iobj-goal-Orleans-sn4,obj-prop-mama-sn3,obj-theme_unaff-cornbread-sn2,subj-agent-i-sn1,and(Orleans,New,sn4),def_prop(Orleans,[place,attivita,luogo]),def_prop(mama,[umano]),def_prop(cornbread,[edible,oggetto]),def_prop(i,[umano])])
+lf(Ashes To Ashes.txt_10,57,nil-nil-nil-alligators-[ncmod-locativo-swamp-sn4,ncmod-locativo-swamp-sn3,def_prop(swamp,[oggetto,stato]),def_prop(swamp,[oggetto,stato])])
+lf(Ashes To Ashes.txt_10,57,nil-nil-nil-turtles-[ncmod-locativo-river-sn2,subj-agent-you-sn1,def_prop(river,[oggetto]),def_prop(you,[umano])])
+lf(Ashes To Ashes.txt_11,69,cl11-nil-nil-keep-[obj-goal-man-sn2,subj-experiencer-mama-sn1,and(mama,Louisiana,sn1),def_prop(man,[any]),def_prop(mama,[umano])])
+lf(Ashes To Ashes.txt_12,81,cl14-nil-have_to-wait-[])
+lf(Ashes To Ashes.txt_12,81,cl13-nil-must-must-[])
+lf(Ashes To Ashes.txt_12,81,cl12-nil-nil-tell-[obj-theme_unaff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Ashes To Ashes.txt_13,96,cl15-nil-nil-be-[ncmod-loc_direct-ale-sn5,ncmod-loc_direct-beer_and_ale-[sn3,sn4],xcomp-prop-beer-sn2,subj-theme_bound-it-sn1,def_prop(ale,[edible,oggetto]),def_prop(beer_and_ale,[edible,oggetto,edible,oggetto]),def_prop(beer,[edible,oggetto]),def_prop(it,[any])])
+lf(Ashes To Ashes.txt_14,110,cl16-nil-nil-get-[obj-theme_unaff-L-sn2,subj-agent-i-sn1,def_prop(L,[umano]),def_prop(i,[umano])])
+lf(Ashes To Ashes.txt_15,125,cl17-nil-nil-say-[])
+lf(Ashes To Ashes.txt_16,141,cl18-nil-nil-jail-[iobj-goal-Frisco-sn2,subj-agent-mama-sn1,def_prop(Frisco,[place,umano]),def_prop(mama,[umano])])
+lf(Ashes To Ashes.txt_17,158,cl19-nil-nil-be-[xcomp-theme-copper-sn3,ncmod-locativo-mountain-sn2,subj-theme_bound-gold-sn1,def_prop(copper,[animato,astratto,oggetto,sostanza]),def_prop(mountain,[oggetto]),def_prop(gold,[astratto,oggetto,sostanza])])
+lf(Ashes To Ashes.txt_18,176,cl20-nil-nil-catch-[adj-(mod)-still-nil,ncmod-modal-gallon-sn3,obj-goal-gal-sn2,subj-agent-they-sn1,and(gallon,forty,sn3),def_prop(gallon,[nquant]),def_prop(gal,[nquant,umano]),def_prop(they,[umano])])
+lf(Ashes To Ashes.txt_19,195,cl23-nil-have_to-wait-[])
+lf(Ashes To Ashes.txt_19,195,cl22-nil-must-must-[])
+lf(Ashes To Ashes.txt_19,195,cl21-nil-nil-tell-[obj-theme_unaff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Ashes To Ashes.txt_20,217,cl24-nil-nil-ham-[cmod-subord-ham-",ncmod-loc_direct-egg-sn3,subj-theme-you-sn1,subj-actor-you-sn1,def_prop(egg,[animato,edible,oggetto]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Ashes To Ashes.txt_21,238,cl26-nil-have_to-beg-[subj-actor-you-sn3,modal-will-nil,def_prop(you,[umano])])
+lf(Ashes To Ashes.txt_21,238,cl25-not-nil-get-[obj-theme_unaff-pension-sn2,subj-agent-i-sn1,aux-do-nil,def_prop(pension,[astratto,oggetto]),def_prop(i,[umano])])
+lf(Ashes To Ashes.txt_22,261,cl27-nil-nil-be-[subj-theme_bound-you-sn4,xcomp-prop-lot-sn2,subj-theme_bound-there-sn1,def_prop(you,[umano]),def_prop(lot,[luogo,nquant]),def_prop(there,[any])])
+lf(Ashes To Ashes.txt_23,284,cl28-nil-would-be-[xcomp-theme-them-sn4,subj-theme_bound-it-sn3,xcomp-prop-all_right-sn2,subj-theme_bound-it-sn1,def_prop(them,[umano]),def_prop(it,[any]),def_prop(all_right,[astratto,attivita,body_part,cambia,evento,istituzione,luogo,oggetto,strumento,umano]),def_prop(it,[any])])
+lf(Ashes To Ashes.txt_24,308,cl31-nil-have_to-wait-[])
+lf(Ashes To Ashes.txt_24,308,cl30-nil-must-must-[])
+lf(Ashes To Ashes.txt_24,308,cl29-nil-nil-tell-[obj-theme_unaff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Ashes To Ashes.txt_25,335,cl34-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Ashes To Ashes.txt_25,335,cl33-nil-nil-get-[ncmod-locativo-town-sn3,obj-paziente-job-sn2,xcomp-purpose-get-2,def_prop(town,[istituzione,luogo]),def_prop(job,[attivita,informa,oggetto,strumento])])
+lf(Ashes To Ashes.txt_25,335,cl32-nil-nil-try-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Ashes To Ashes.txt_26,363,cl35-nil-nil-turn-[xcomp-prop-down-sn3,obj-theme-me-sn2,subj-agent-place-sn1,and(place,seven,sn1),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(me,[umano]),def_prop(place,[astratto,attivita,informa,luogo,stato])])
+lf(Ashes To Ashes.txt_27,390,cl37-nil-could-get-[obj-theme_unaff-relief-sn5,subj-agent-i-sn4,def_prop(relief,[astratto,attivita,emotivo,oggetto,stato,strumento]),def_prop(i,[umano])])
+lf(Ashes To Ashes.txt_27,390,cl36-nil-nil-tell-[obj-theme_unaff-me-sn2,subj-agent-they-sn1,def_prop(me,[umano]),def_prop(they,[umano])])
+lf(Ashes To Ashes.txt_28,419,cl39-nil-nil-eat-[subj-tema_nonaff-bite-sn2,def_prop(bite,[attivita,edible,evento,oggetto,stato])])
+lf(Ashes To Ashes.txt_28,419,cl38-not-nil-get-[obj-theme_aff-bite-sn2,subj-theme_unaff-i-sn1,aux-(is)-nil,def_prop(bite,[attivita,edible,evento,oggetto,stato]),def_prop(i,[umano])])
+lf(Ashes To Ashes.txt_29,449,cl42-nil-have_to-wait-[])
+lf(Ashes To Ashes.txt_29,449,cl41-nil-must-must-[])
+lf(Ashes To Ashes.txt_29,449,cl40-nil-nil-tell-[obj-theme_unaff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])

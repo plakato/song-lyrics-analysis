@@ -1,0 +1,75 @@
+"POLARITY, DISCOURSE MARKERS"
+
+My Rap Lyrics.txt_1-1  []-positive  []
+My Rap Lyrics.txt_2-3  []-positive  []
+My Rap Lyrics.txt_2-4  []-positive  []
+My Rap Lyrics.txt_2-5  [when-temp_coinc]-positive  []
+My Rap Lyrics.txt_2-6  []-positive  []
+My Rap Lyrics.txt_3-9  [then-temp_seq]-negative  [neg,fgb]
+My Rap Lyrics.txt_4-15  []-negative  [fhd,neg,neg,neg,fhd]
+My Rap Lyrics.txt_5-22  [then-temp_seq,when-temp_coinc]-positive  [fhd]
+My Rap Lyrics.txt_6-29  []-positive  [neg]
+My Rap Lyrics.txt_7-36  [but-advers,when-temp_coinc]-positive  [fgb]
+My Rap Lyrics.txt_8-46  [so-result,then-temp_seq]-negative  [neg,fgb,fgb]
+My Rap Lyrics.txt_9-55  []-positive  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+My Rap Lyrics.txt_1-1  [my,Rap,Lyrics,by,Tyler]  [title]
+My Rap Lyrics.txt_2-3  [i,made,my,own,rap,song,here]  [provide_expl_just(make,[external,factive,cause,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(start,[external,factive,inception,background,objective]),suggest(start,[external,factive,inception,background,objective])]
+My Rap Lyrics.txt_2-4  [it,is]  [provide_expl_just(make,[external,factive,cause,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(start,[external,factive,inception,background,objective]),suggest(start,[external,factive,inception,background,objective])]
+My Rap Lyrics.txt_2-5  [when,i,get,up,in,the,morning]  [provide_expl_just(make,[external,factive,cause,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(start,[external,factive,inception,background,objective]),suggest(start,[external,factive,inception,background,objective])]
+My Rap Lyrics.txt_2-6  [i,start]  [provide_expl_just(make,[external,factive,cause,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(start,[external,factive,inception,background,objective]),suggest(start,[external,factive,inception,background,objective])]
+My Rap Lyrics.txt_3-9  [snapping,my,fingers,to,the,beat,of,the,music,then,i,jump,up,and,start,dancing]  [reject_expl_just(jump,[external,factive,narration,background,objective]),reject_expl_just(dance,[external,factive,narration,foreground,objective])]
+My Rap Lyrics.txt_4-15  [like,a,fool,with,no,rhythm,i,no,time,got,to,shine,like,a,diamond,in,the,sky]  [reject_expl_just(shine,[external,factive,narration,background,objective]),reject_expl_just(like,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,foreground,objective])]
+My Rap Lyrics.txt_5-22  [then,when,it,is,morning,i,see,people,walking,down,the,street,like,there]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+My Rap Lyrics.txt_6-29  [about,to,cause,some,caous,in,the,streets,of,the,crowded,town,where,there,about]  [provide_expl_just(cause,[external,factive,narration,background,objective])]
+My Rap Lyrics.txt_7-36  [to,take,the,town,to,turn,over,it,around,but,when,they,do,they,hear,the,sound]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(hear,[external,factive,circumstance,background,objective])]
+My Rap Lyrics.txt_8-46  [of,sirens,in,the,not,so,distant,past,then,they,stopped,and,shouted,let-s]  [reject_expl_just(stop,[external,factive,narration,foreground,objective])]
+My Rap Lyrics.txt_9-55  [think,you,what,me,tell,please,town,damn,this,out_of,get,!]  [provide_expl_just(tell,[internal,factive,narration,foreground,objective]),provide_expl_just(get,[internal,factive,narration,foreground,objective]),provide_expl_just(think,[internal,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(My Rap Lyrics.txt_1-1)-[]
+2-(My Rap Lyrics.txt_2-3)-[primary-counscious,primary-concreteness]
+3-(My Rap Lyrics.txt_2-4)-[]
+4-(My Rap Lyrics.txt_2-5)-[secondary-temporal_repere]
+5-(My Rap Lyrics.txt_2-6)-[primary-vision]
+6-(My Rap Lyrics.txt_3-9)-[emotions-aggression,primary-sound,secondary-temporal_repere,primary-ascend,primary-vision]
+half
+7-(My Rap Lyrics.txt_4-15)-[emotions-affection,primary-sound,secondary-temporal_repere,primary-vision,emotions-affection,primary-height]
+8-(My Rap Lyrics.txt_5-22)-[secondary-temporal_repere,secondary-temporal_repere,primary-vision,primary-brink,emotions-affection]
+9-(My Rap Lyrics.txt_6-29)-[secondary-abstract_tought,primary-brink,primary-chaos,primary-concreteness]
+10-(My Rap Lyrics.txt_7-36)-[primary-concreteness,secondary-temporal_repere,primary-sound,primary-sound]
+11-(My Rap Lyrics.txt_8-46)-[primary-concreteness,secondary-temporal_repere,secondary-temporal_repere,emotions-expressive_beh]
+12-(My Rap Lyrics.txt_9-55)-[secondary-abstract_tought,secondary-social_behavior,secondary-social_behavior,primary-water]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(My Rap Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Tyler-sn2,subj-theme_bound-Lyrics-sn1,def_prop(Tyler,[place,luogo,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(My Rap Lyrics.txt_2,3,cl5-nil-nil-start-[subj-agent-you-sn13,def_prop(you,[umano])])
+lf(My Rap Lyrics.txt_2,3,cl4-nil-nil-get-[adj-subj_disc-morning-sn12,adj-subj_disc-up-sn11,subj-agent-i-sn10,def_prop(morning,[tempo]),def_prop(up,[istituzione]),def_prop(i,[umano])])
+lf(My Rap Lyrics.txt_2,3,cl3-nil-nil-be-[subj-theme_bound-you-sn9,def_prop(you,[umano])])
+lf(My Rap Lyrics.txt_2,3,cl2-nil-nil-make-[adj-(mod)-here-nil,obj-goal-song-sn2,subj-agent-i-sn1,and(song,own,sn2),and(song,rap,sn2),def_prop(song,[astratto,attivita,evento,informa,oggetto]),def_prop(i,[umano])])
+lf(My Rap Lyrics.txt_3,9,cl8-nil-nil-dance-[subj-theme-star-sn7,iobj-goal-beat-sn2,def_prop(star,[astratto,oggetto,umano]),def_prop(beat,[astratto,attivita,cambia,evento,luogo])])
+lf(My Rap Lyrics.txt_3,9,cl7-nil-nil-jump-[cmod-subord-dance-then,adj-locative-up-nil,subj-agent-star-sn7,subj-agent-star-sn6,and(star,i,sn6),def_prop(star,[astratto,oggetto,umano]),def_prop(star,[astratto,oggetto,umano])])
+lf(My Rap Lyrics.txt_3,9,cl6-nil-nil-snap-[subj-agent-finger-sn1,def_prop(finger,[body_part,nquant,oggetto,strumento,umano])])
+lf(My Rap Lyrics.txt_4,15,cl10-nil-nil-shine-[])
+lf(My Rap Lyrics.txt_4,15,cl9-nil-nil-get-[])
+lf(My Rap Lyrics.txt_4,15,nil-nil-nil-like-[adj-temporal-time-nil,adj-subj_disc-time-sn14,obj-theme_unaff-diamond-sn13,subj-sn1-i-sn3,obj-tema_emot-fool-sn2,subj-experiencer-you-sn1,and(time,no,sn19),and(time,no,sn14),and(time,no,sn14),and(diamond,sky,sn13),def_prop(time,[tempo]),def_prop(time,[tempo]),def_prop(diamond,[astratto,oggetto,sostanza,strumento]),def_prop(i,[umano]),def_prop(fool,[attivita,plant,stato,umano]),def_prop(you,[umano])])
+lf(My Rap Lyrics.txt_5,22,cl12-nil-nil-see-[cmod-subord-see-then,cmod-subord-see-when,ncmod-loc_direct-street-sn14,adj-(mod)-there-nil,ncmod-loc_direct-street-sn10,xcomp-prop-walking-sn9,subj-experiencer-people-sn8,ncmod-loc_direct-street-sn6,xcomp-prop-walking-sn5,obj-actor-people-sn4,subj-experiencer-i-sn3,def_prop(street,[oggetto,stato,strumento]),def_prop(there,[istituzione]),def_prop(street,[oggetto,stato,strumento]),def_prop(walking,[cambia,evento]),def_prop(people,[istituzione]),def_prop(street,[oggetto,stato,strumento]),def_prop(walking,[cambia,evento]),def_prop(people,[istituzione]),def_prop(i,[umano])])
+lf(My Rap Lyrics.txt_5,22,cl11-nil-nil-be-[xcomp-prop-morning-sn2,subj-theme_bound-it-sn1,def_prop(morning,[tempo]),def_prop(it,[any])])
+lf(My Rap Lyrics.txt_6,29,cl13-nil-nil-cause-[ncmod-locativo-street-sn2,subj-causer-caous-sn1,and(street,there,sn2),and(caous,some,sn1),def_prop(street,[oggetto,stato,strumento]),def_prop(caous,[istituzione])])
+lf(My Rap Lyrics.txt_7,36,cl16-nil-nil-hear-[])
+lf(My Rap Lyrics.txt_7,36,cl15-nil-nil-do-[cmod-subord-hear-when,subj-theme_unaff-you-sn13,aux-do-nil,def_prop(you,[umano])])
+lf(My Rap Lyrics.txt_7,36,cl14-nil-nil-take-[expl-it-nil,obj-theme_aff-sound-sn12,subj-sn2-they-sn11,adj-subj_disc-around-sn10,adj-subj_disc-over-sn9,obj-theme_aff-town-sn2,subj-agent-it-sn1,def_prop(sound,[astratto,attivita,cambia,evento,oggetto]),def_prop(they,[umano]),def_prop(around,[]),def_prop(over,[istituzione]),def_prop(town,[istituzione,luogo]),def_prop(it,[any])])
+lf(My Rap Lyrics.txt_8,46,cl17-nil-nil-stop-[cmod-subord-stop-then,subj-agent-let-s-sn4,subj-agent-let-s-sn3,and(let-s,shouted,sn4),and(let-s,they,sn3),and(let-s,shouted,sn3),def_prop(let-s,[attivita]),def_prop(let-s,[attivita])])
+lf(My Rap Lyrics.txt_9,55,_481044-nil-nil-think-[voice-think-nil,tense-think-nil,obl-theme_unaff-me-sn3,def_prop(me,[umano])])
+lf(My Rap Lyrics.txt_9,55,cl19-nil-nil-tell-[voice-think-nil,tense-think-nil])
+lf(My Rap Lyrics.txt_9,55,cl18-nil-nil-get-[adj-(mod)-please-nil,voice-think-nil,tense-think-nil,obj-paziente-me-sn3,xcomp-purpose-tell-2,ncmod-locativo-this-sn2,subj-agent-town-sn1,and(town,damn,sn1),def_prop(me,[umano]),def_prop(this,[oggetto,umano]),def_prop(town,[istituzione,luogo])])

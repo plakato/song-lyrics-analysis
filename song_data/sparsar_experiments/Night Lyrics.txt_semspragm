@@ -1,0 +1,294 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Night Lyrics.txt_1-1  []-positive  []
+Night Lyrics.txt_2-3  [(as)-temp_coinc]-positive  []
+Night Lyrics.txt_3-6  []-positive  []
+Night Lyrics.txt_4-10  []-suspension  [neg,fgb]
+Night Lyrics.txt_5-15  []-negative  []
+Night Lyrics.txt_6-21  []-positive  []
+Night Lyrics.txt_7-29  []-positive  []
+Night Lyrics.txt_8-37  []-positive  []
+Night Lyrics.txt_9-46  [when-temp_coinc]-negative  [neg]
+Night Lyrics.txt_10-57  []-positive  []
+Night Lyrics.txt_10-58  []-suspension  [neg,neg]
+Night Lyrics.txt_10-59  []-positive  [fgb]
+Night Lyrics.txt_11-70  [then-temp_seq]-positive  []
+Night Lyrics.txt_11-70  [then-temp_seq]-positive  [neg]
+Night Lyrics.txt_12-82  []-positive  [fhd]
+Night Lyrics.txt_12-83  []-positive  [neg]
+Night Lyrics.txt_13-96  []-suspension  [neg,neg]
+Night Lyrics.txt_14-110  []-suspension  []
+Night Lyrics.txt_14-111  []-positive  [fgb]
+Night Lyrics.txt_15-126  [then-temp_seq]-positive  [fgb]
+Night Lyrics.txt_16-142  [then-temp_seq]-negative  [fgb,neg]
+Night Lyrics.txt_17-160  []-positive  []
+Night Lyrics.txt_17-161  []-negative  [neg,neg]
+Night Lyrics.txt_18-180  []-positive  []
+Night Lyrics.txt_18-181  []-positive  [fgb]
+Night Lyrics.txt_19-200  []-positive  []
+Night Lyrics.txt_19-201  []-negative  []
+Night Lyrics.txt_20-223  []-positive  [neg]
+Night Lyrics.txt_21-244  []-negative  [fgb,neg]
+Night Lyrics.txt_21-245  []-suspension  [neg]
+Night Lyrics.txt_22-266  [when-temp_coinc]-suspension  []
+Night Lyrics.txt_23-292  []-suspension  []
+Night Lyrics.txt_23-293  []-negative  [neg]
+Night Lyrics.txt_24-317  []-positive  [fgb,fgb]
+Night Lyrics.txt_25-342  []-positive  []
+Night Lyrics.txt_26-368  []-positive  []
+Night Lyrics.txt_27-395  []-positive  []
+Night Lyrics.txt_28-423  []-negative  [fgb,fgb,neg,neg]
+Night Lyrics.txt_29-453  []-positive  [fhd]
+Night Lyrics.txt_30-483  [if-hypoth,so-result]-suspension  [fgb,fgb,fgb,neg]
+Night Lyrics.txt_31-515  []-suspension  []
+Night Lyrics.txt_31-516  []-positive  [fgb]
+Night Lyrics.txt_31-517  []-positive  []
+Night Lyrics.txt_32-549  []-negative  [neg,neg]
+Night Lyrics.txt_32-550  []-positive  [neg]
+Night Lyrics.txt_33-582  [before-temp_prec]-negative  [neg]
+Night Lyrics.txt_33-583  []-negative  [neg]
+Night Lyrics.txt_34-617  [if-hypoth]-positive  [fgb]
+Night Lyrics.txt_34-617  [if-hypoth]-positive  [fgb]
+Night Lyrics.txt_35-652  []-suspension  []
+Night Lyrics.txt_35-653  []-positive  []
+Night Lyrics.txt_36-689  []-negative  [neg]
+Night Lyrics.txt_36-690  []-positive  []
+Night Lyrics.txt_37-727  []-suspension  [neg,fgb,neg,fgb,neg,neg]
+Night Lyrics.txt_38-765  [so-result]-suspension  [fgb]
+Night Lyrics.txt_39-805  []-negative  [neg,neg]
+Night Lyrics.txt_40-845  []-suspension  [neg,fgb]
+Night Lyrics.txt_40-846  []-positive  []
+Night Lyrics.txt_41-887  []-negative  [neg,neg]
+Night Lyrics.txt_41-888  []-negative  [fgb,neg]
+Night Lyrics.txt_42-931  []-suspension  [neg]
+Night Lyrics.txt_42-932  []-suspension  [neg,neg]
+Night Lyrics.txt_43-975  []-positive  [fgb]
+Night Lyrics.txt_44-1019  []-positive  [fgb]
+Night Lyrics.txt_45-1064  []-positive  []
+Night Lyrics.txt_46-1110  []-positive  []
+Night Lyrics.txt_47-1157  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Night Lyrics.txt_1-1  [night,Lyrics,by,4AM]  [title]
+Night Lyrics.txt_2-3  [as,the,sun,sets]  [provide_expl_just(set,[external,factive,narration,background,objective])]
+Night Lyrics.txt_3-6  [the,day,grows,dry]  [raise_issue(be,[_2022716,factive,statement,_2022734,subjective])]
+Night Lyrics.txt_4-10  [i,will,get,close,my,eyes,and,into,bed]  [provide_expl_just(get,[external,nonfactive,narration,background,objective])]
+Night Lyrics.txt_5-15  [something,captures,me]  [provide_expl_just(capture,[external,factive,narration,background,objective])]
+Night Lyrics.txt_6-21  [takes,hold,of,my,sight]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(hold,[external,factive,narration,foreground,objective])]
+Night Lyrics.txt_7-29  [i,have,grown,a,love,that,new]  [raise_issue(be,[_2024482,factive,statement,_2024500,subjective])]
+Night Lyrics.txt_8-37  [night]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Night Lyrics.txt_9-46  [up,at,night,late,when,i,am,ready,to,sleep]  [reject_expl_just(sleep,[external,factive,circumstance,background,objective]),propose_opin_neg(sleep,[external,factive,circumstance,background,objective])]
+Night Lyrics.txt_10-57  [just,gotta]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(eye,[external,factive,narration,background,objective]),provide_expl_just(count,[external,factive,narration,background,objective])]
+Night Lyrics.txt_10-58  [close,my,eyes,tight]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(eye,[external,factive,narration,background,objective]),provide_expl_just(count,[external,factive,narration,background,objective])]
+Night Lyrics.txt_10-59  [and,count,down,sheep]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(eye,[external,factive,narration,background,objective]),provide_expl_just(count,[external,factive,narration,background,objective])]
+Night Lyrics.txt_11-70  [then,all,the,thoughts,from,the,day]  [provide_expl_just(flood,[external,factive,narration,background,objective])]
+Night Lyrics.txt_11-70  [then,all,the,thoughts,from,the,day,flood,my,thoughts]  [provide_expl_just(flood,[external,factive,narration,background,objective])]
+Night Lyrics.txt_12-82  [it,is,like,a,razor]  [provide_expl_just(slice,[external,factive,cause,foreground,objective])]
+Night Lyrics.txt_12-83  [blade,,,slicing,swift,,,its,damn,too,hot]  [provide_expl_just(slice,[external,factive,cause,foreground,objective])]
+Night Lyrics.txt_13-96  [never_mind,im,not,,,maybe,just,im,cold]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Night Lyrics.txt_14-110  [i,will,put,one,leg,out]  [provide_expl_just(put,[external,nonfactive,narration,background,objective]),provide_expl_just(weave,[external,factive,narration,foreground,objective])]
+Night Lyrics.txt_14-111  [,,weaving,sheet,and,blanket,folds]  [provide_expl_just(put,[external,nonfactive,narration,background,objective]),provide_expl_just(weave,[external,factive,narration,foreground,objective])]
+Night Lyrics.txt_15-126  [then,my,spring,eyes,open,and,the,fire,begins]  [provide_expl_just(begin,[external,factive,inception,background,objective])]
+Night Lyrics.txt_16-142  [why,is,it,now,,,and,not,then,,,that,my,day,must,begin]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(begin,[external,nonfactive,inception,foreground,objective]),indication(begin,[external,nonfactive,inception,foreground,objective])]
+Night Lyrics.txt_17-160  [i,get,up,walk,around]  [provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(pace,[external,factive,narration,background,objective])]
+Night Lyrics.txt_17-161  [,,i,try,hard,not,to,pace]  [reject_expl_just(try,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(pace,[external,factive,narration,background,objective])]
+Night Lyrics.txt_18-180  [my,i,steps,naught,all,for,i,am,just,walking]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(retrace,[external,factive,narration,background,objective])]
+Night Lyrics.txt_18-181  [and,retrace]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(retrace,[external,factive,narration,background,objective])]
+Night Lyrics.txt_19-200  [that,is,alright]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(sleep,[external,factive,narration,background,objective])]
+Night Lyrics.txt_19-201  [,,i,didn-t,want,to,go,to,sleep,tonight]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(sleep,[external,factive,narration,background,objective])]
+Night Lyrics.txt_20-223  [too_much,work,too_much,thought,all,part,of,my,inner,fight]  [provide_expl_just(think,[external,factive,narration,foreground,objective])]
+Night Lyrics.txt_21-244  [and,i,am,afraid]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Night Lyrics.txt_21-245  [i,truly,am,the,fear,is,deep,inside,of,me]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Night Lyrics.txt_22-266  [where,will,go,when,i,drift,off,to,sleep]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(sleep,[external,factive,circumstance,background,objective])]
+Night Lyrics.txt_23-292  [i,will,remember,me,from,a,dream]  [provide_expl_just(remember,[external,nonfactive,narration,background,objective]),provide_expl_just(dream,[internal,factive,narration,background,objective])]
+Night Lyrics.txt_23-293  [i,could,have,had,a,tough,break]  [reject_expl_just(remember,[external,nonfactive,narration,background,objective]),reject_expl_just(dream,[internal,factive,narration,background,objective])]
+Night Lyrics.txt_24-317  [luckily,,,just,for,me,and,its,dawn,and,i,am,awake,still]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Night Lyrics.txt_25-342  [it,is,four,a]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Night Lyrics.txt_26-368  [m]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Night Lyrics.txt_27-395  [somewhere]  [raise_issue(be,[_2056950,factive,statement,_2056968,subjective])]
+Night Lyrics.txt_28-423  [and,the,tossing,and,the,turning,no,it,grows,never,old]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Night Lyrics.txt_29-453  [i,kind,of,like,the,insomnia,running,through,my,bones]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+Night Lyrics.txt_30-483  [and,if,someones,gonna,ask,me,why,i,am,so,tired]  [suggest(be,[_2058018,_2058024,statement,background,_2058042])]
+Night Lyrics.txt_31-515  [i,will,look,at,em,with,teary,eyes]  [provide_expl_just(look,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Night Lyrics.txt_31-516  [and,tell,em]  [provide_expl_just(look,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Night Lyrics.txt_31-517  [that,i,am,really,quite,wired]  [provide_expl_just(look,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Night Lyrics.txt_32-549  [i,never_mind,am,not,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Night Lyrics.txt_32-550  [,,maybe,i,am,just,weird]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Night Lyrics.txt_33-582  [i,have,the,shadow,from,the,night,before]  [reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(rear,[external,factive,narration,background,objective])]
+Night Lyrics.txt_33-583  [,,its,ugly,head,has,reared]  [reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(rear,[external,factive,narration,background,objective])]
+Night Lyrics.txt_34-617  [if,find,myself,stuggling,to,get]  [proposal(be,[_2070466,_2070472,statement,foreground,_2070490])]
+Night Lyrics.txt_34-617  [if,find,myself,stuggling,to,get,this,in,one,take]  [proposal(be,[_2070852,_2070858,statement,foreground,_2070876])]
+Night Lyrics.txt_35-652  [i,will,reboot,with,some,caffeine]  [provide_expl_just(relate,[external,nonfactive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Night Lyrics.txt_35-653  [,,maybe,you,can,relate]  [provide_expl_just(relate,[external,nonfactive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Night Lyrics.txt_36-689  [relations,stop,there,its,at,the,ceiling]  [reject_expl_just(stare,[external,factive,narration,background,objective]),reject_expl_just(stop,[external,factive,narration,background,objective])]
+Night Lyrics.txt_36-690  [i,stare]  [provide_expl_just(stare,[external,factive,narration,background,objective]),provide_expl_just(stop,[external,factive,narration,background,objective])]
+Night Lyrics.txt_37-727  [with,heavy,thoughts,and,heavy,hands,and,slight,fears,for,nightmares]  [provide_expl_just(slight,[external,factive,narration,background,objective])]
+Night Lyrics.txt_38-765  [i,just,hope,that,i,will,become,brave,one,night,so,i,can,truly,be,the,victor]  [provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Night Lyrics.txt_39-805  [of,this,inner,fight,tiring]  [reject_expl_just(tire,[external,factive,narration,foreground,objective])]
+Night Lyrics.txt_40-845  [i,don-t,wanna,be,afraid,and,thats,the,truth,i,am,telling]  [provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Night Lyrics.txt_40-846  [you]  [provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Night Lyrics.txt_41-887  [i,am,tired,of,being,tired]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Night Lyrics.txt_41-888  [,,and,my,own,self,abuse]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Night Lyrics.txt_42-931  [i,will,be,sober]  [provide_expl_just(sober,[external,nonfactive,narration,background,objective]),provide_expl_just(free-cl65,[external,factive,narration,background,objective])]
+Night Lyrics.txt_42-932  [,,ill,be,free,in,my,sweet,escape]  [provide_expl_just(sober,[external,nonfactive,narration,background,objective]),provide_expl_just(free-cl65,[external,factive,narration,background,objective])]
+Night Lyrics.txt_43-975  [luckily,just,for,me,its,dawn,and,i,am,awake,still]  [provide_expl_just(be,[external,factive,circumstance,background,objective])]
+Night Lyrics.txt_44-1019  [luckily,just,for,me,its,dawn,and,i,am,awake,still]  [provide_expl_just(be,[external,factive,circumstance,background,objective])]
+Night Lyrics.txt_45-1064  [it,is,four,a]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Night Lyrics.txt_46-1110  [m]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Night Lyrics.txt_47-1157  [somewhere]  [raise_issue(be,[_2085180,factive,statement,_2085198,subjective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Night Lyrics.txt_1-1)-[]
+2-(Night Lyrics.txt_2-3)-[primary-fire]
+3-(Night Lyrics.txt_3-6)-[primary-height]
+4-(Night Lyrics.txt_4-10)-[primary-concreteness,primary-narcissism,primary-passivity]
+5-(Night Lyrics.txt_5-15)-[secondary-restraint]
+6-(Night Lyrics.txt_6-21)-[primary-vision]
+7-(Night Lyrics.txt_7-29)-[primary-height,emotions-affection]
+8-(Night Lyrics.txt_8-37)-[]
+9-(Night Lyrics.txt_9-46)-[primary-concreteness,secondary-temporal_repere,primary-counscious]
+10-(Night Lyrics.txt_10-57)-[]
+11-(Night Lyrics.txt_10-58)-[primary-concreteness,primary-narcissism]
+12-(Night Lyrics.txt_10-59)-[secondary-instru_behavior]
+13-(Night Lyrics.txt_11-70)-[secondary-temporal_repere,secondary-abstract_tought]
+14-(Night Lyrics.txt_11-70)-[secondary-temporal_repere,secondary-abstract_tought,primary-water,secondary-abstract_tought]
+15-(Night Lyrics.txt_12-82)-[emotions-affection]
+16-(Night Lyrics.txt_12-83)-[emotions-aggression,primary-water,primary-fire]
+17-(Night Lyrics.txt_13-96)-[secondary-abstract_tought,primary-cold]
+18-(Night Lyrics.txt_14-110)-[primary-narcissism,primary-concreteness]
+19-(Night Lyrics.txt_14-111)-[]
+20-(Night Lyrics.txt_15-126)-[secondary-temporal_repere,primary-ascend,primary-narcissism,primary-concreteness,primary-fire]
+21-(Night Lyrics.txt_16-142)-[secondary-abstract_tought,secondary-temporal_repere,secondary-temporal_repere,secondary-restraint]
+22-(Night Lyrics.txt_17-160)-[]
+23-(Night Lyrics.txt_17-161)-[secondary-instru_behavior,primary-hard]
+24-(Night Lyrics.txt_18-180)-[primary-brink]
+25-(Night Lyrics.txt_18-181)-[]
+26-(Night Lyrics.txt_19-200)-[]
+27-(Night Lyrics.txt_19-201)-[primary-counscious,secondary-temporal_repere]
+28-(Night Lyrics.txt_20-223)-[secondary-instru_behavior,secondary-abstract_tought,emotions-aggression]
+29-(Night Lyrics.txt_21-244)-[emotions-anxiety]
+30-(Night Lyrics.txt_21-245)-[secondary-abstract_tought,emotions-anxiety,primary-depth,primary-concreteness]
+31-(Night Lyrics.txt_22-266)-[primary-concreteness,secondary-temporal_repere,primary-passivity,primary-concreteness,primary-counscious]
+32-(Night Lyrics.txt_23-292)-[primary-counscious]
+33-(Night Lyrics.txt_23-293)-[emotions-aggression]
+half
+34-(Night Lyrics.txt_24-317)-[primary-ascend,primary-counscious]
+35-(Night Lyrics.txt_25-342)-[]
+36-(Night Lyrics.txt_26-368)-[]
+37-(Night Lyrics.txt_27-395)-[primary-concreteness]
+38-(Night Lyrics.txt_28-423)-[primary-height,secondary-temporal_repere]
+39-(Night Lyrics.txt_29-453)-[emotions-affection,emotions-affection,primary-narcissism]
+40-(Night Lyrics.txt_30-483)-[secondary-social_behavior,secondary-abstract_tought]
+41-(Night Lyrics.txt_31-515)-[primary-vision,primary-concreteness,primary-orality,primary-narcissism]
+42-(Night Lyrics.txt_31-516)-[secondary-social_behavior]
+43-(Night Lyrics.txt_31-517)-[secondary-abstract_tought]
+44-(Night Lyrics.txt_32-549)-[]
+45-(Night Lyrics.txt_32-550)-[secondary-abstract_tought]
+46-(Night Lyrics.txt_33-582)-[primary-diffusion]
+47-(Night Lyrics.txt_33-583)-[primary-narcissism,primary-concreteness]
+48-(Night Lyrics.txt_34-617)-[secondary-instru_behavior]
+49-(Night Lyrics.txt_34-617)-[secondary-instru_behavior]
+50-(Night Lyrics.txt_35-652)-[]
+51-(Night Lyrics.txt_35-653)-[secondary-abstract_tought]
+52-(Night Lyrics.txt_36-689)-[secondary-restraint,primary-concreteness]
+53-(Night Lyrics.txt_36-690)-[primary-vision]
+54-(Night Lyrics.txt_37-727)-[secondary-abstract_tought,primary-narcissism,emotions-anxiety,primary-counscious]
+55-(Night Lyrics.txt_38-765)-[secondary-abstract_tought,emotions-glory]
+56-(Night Lyrics.txt_39-805)-[emotions-aggression]
+57-(Night Lyrics.txt_40-845)-[emotions-anxiety,secondary-abstract_tought]
+58-(Night Lyrics.txt_40-846)-[]
+59-(Night Lyrics.txt_41-887)-[]
+60-(Night Lyrics.txt_41-888)-[secondary-instru_behavior,emotions-aggression]
+61-(Night Lyrics.txt_42-931)-[emotions-sadness]
+62-(Night Lyrics.txt_42-932)-[primary-taste]
+63-(Night Lyrics.txt_43-975)-[primary-ascend,primary-counscious]
+64-(Night Lyrics.txt_44-1019)-[primary-ascend,primary-counscious]
+65-(Night Lyrics.txt_45-1064)-[]
+66-(Night Lyrics.txt_46-1110)-[]
+67-(Night Lyrics.txt_47-1157)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Night Lyrics.txt_1,1,cl1-nil-nil-be-[adj-temporal-night-nil,iobj-scale-4AM-sn2,subj-theme_bound-Lyrics-sn1,def_prop(4AM,[nquant]),def_prop(Lyrics,[informa,tecno])])
+lf(Night Lyrics.txt_2,3,cl2-nil-nil-set-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Night Lyrics.txt_3,6,cl3-nil-nil-grow-[xcomp-prop-dry-sn2,subj-theme_bound-day-sn1,def_prop(dry,[umano]),def_prop(day,[tempo])])
+lf(Night Lyrics.txt_4,10,cl4-nil-will-get-[ncmod-modal-eye_and_be-[sn2,sn3],subj-experiencer-i-sn1,def_prop(eye_and_be,[astratto,body_part,oggetto,strumento,umano,informa,tecno]),def_prop(i,[umano])])
+lf(Night Lyrics.txt_5,15,cl5-nil-nil-capture-[obj-theme-me-sn2,subj-agent-something-sn1,def_prop(me,[umano]),def_prop(something,[astratto,informa,oggetto])])
+lf(Night Lyrics.txt_6,21,cl7-nil-nil-hold-[ncmod-specif-sight-sn2,def_prop(sight,[astratto,attivita,informa,nquant,oggetto,strumento])])
+lf(Night Lyrics.txt_6,21,cl6-nil-nil-take-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Night Lyrics.txt_7,29,cl8-nil-nil-grow-[obj-prop-love-sn2,subj-theme_bound-i-sn1,aux-have-nil,and(love,that,sn2),def_prop(love,[astratto,emotivo,nquant]),def_prop(i,[umano])])
+lf(Night Lyrics.txt_8,37,cl9-nil-nil-say-[])
+lf(Night Lyrics.txt_9,46,cl11-nil-nil-sleep-[])
+lf(Night Lyrics.txt_9,46,cl10-nil-nil-ready-[subj-theme-i-sn4,aux-am-nil,def_prop(i,[umano])])
+lf(Night Lyrics.txt_10,57,cl13-nil-nil-count-[cmod-subord-eye-",adj-(mod)-sheep-nil,adj-subj_disc-sheep-sn5,subj-actor-you-sn4,and(sheep,down,sn6),and(sheep,down,sn5),and(sheep,down,sn5),def_prop(sheep,[animato,umano]),def_prop(sheep,[animato,umano]),def_prop(you,[umano])])
+lf(Night Lyrics.txt_10,57,cl12-nil-nil-eye-[xcomp-prop-tight-sn3,subj-experiencer-my-sn2,and(my,close,sn2),def_prop(tight,[evaluative]),def_prop(my,[informa,tecno])])
+lf(Night Lyrics.txt_10,57,nil-nil-nil-gotta-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Night Lyrics.txt_11,70,cl14-nil-nil-flood-[cmod-subord-be-then,obj-prop-thought-sn6,ncmod-temporale-day-sn5,subj-actor-thought-sn4,and(thought,all,sn4),def_prop(thought,[astratto]),def_prop(day,[tempo]),def_prop(thought,[astratto])])
+lf(Night Lyrics.txt_12,82,cl16-nil-nil-slice-[xcomp-prop-damn-sn6,obj-patient-its-sn5,xcomp-prop-swift-sn4,subj-agent-blade-sn3,def_prop(damn,[astratto]),def_prop(its,[istituzione]),def_prop(swift,[valutativo]),def_prop(blade,[body_part,edible,oggetto,plant,strumento,umano])])
+lf(Night Lyrics.txt_12,82,cl15-nil-nil-be-[xcomp-prop-razor-sn2,subj-theme_bound-it-sn1,def_prop(razor,[oggetto,strumento]),def_prop(it,[any])])
+lf(Night Lyrics.txt_13,96,cl17-not-nil-be-[adj-(mod)-maybe-nil,subj-theme_bound-cold-sn2,subj-theme_bound-cold-sn1,and(cold,im,sn2),and(cold,im,sn1),def_prop(cold,[valutativo]),def_prop(cold,[valutativo])])
+lf(Night Lyrics.txt_14,110,cl19-nil-nil-weave-[coord-theme_aff-sheet_and_fold-sn8,obj-theme_aff-fold-sn7,obj-theme_aff-sheet-sn6,subj-actor-you-sn5,def_prop(sheet_and_fold,[attivita,informa,oggetto,strumento,astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(fold,[attivita,informa,oggetto,strumento,astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(sheet,[attivita,informa,oggetto,strumento,astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Night Lyrics.txt_14,110,cl18-nil-will-put-[adj-(mod)-out-nil,obj-goal-leg-sn2,subj-agent-i-sn1,and(leg,one,sn2),def_prop(leg,[attivita,body_part,edible,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(Night Lyrics.txt_15,126,nil-nil-nil-begin-[subj-actor-you-sn4,def_prop(you,[umano])])
+lf(Night Lyrics.txt_16,142,cl21-nil-must-begin-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Night Lyrics.txt_16,142,cl20-nil-nil-be-[cmod-subord-begin-",cmod-subord-begin-then,xcomp-prop-now-sn2,subj-theme_bound-it-sn1,def_prop(now,[istituzione]),def_prop(it,[any])])
+lf(Night Lyrics.txt_17,160,cl24-nil-nil-pace-[subj-theme-hard-sn7,def_prop(hard,[valutativo])])
+lf(Night Lyrics.txt_17,160,cl23-nil-nil-try-[xcomp-prop-hard-sn7,subj-actor-i-sn6,def_prop(hard,[valutativo]),def_prop(i,[umano])])
+lf(Night Lyrics.txt_17,160,cl22-nil-nil-get-[obj-theme_unaff-around-sn2,subj-agent-i-sn1,and(around,walk,sn2),def_prop(around,[]),def_prop(i,[umano])])
+lf(Night Lyrics.txt_18,180,cl26-nil-nil-retrace-[subj-agent-you-sn11,def_prop(you,[umano])])
+lf(Night Lyrics.txt_18,180,cl25-nil-nil-be-[xcomp-prop-walking-sn4,subj-theme_bound-i-sn3,subj-theme_bound-i-sn2,subj-theme_bound-all-sn1,and(i,all,sn2),and(all,naught,sn1),def_prop(walking,[cambia,evento]),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(all,[_285312])])
+lf(Night Lyrics.txt_19,200,cl30-nil-nil-sleep-[])
+lf(Night Lyrics.txt_19,200,cl29-nil-nil-go-[])
+lf(Night Lyrics.txt_19,200,cl28-not-nil-want-[adj-(mod)-tonight-nil,subj-actor-i-sn2,aux-did-nil,def_prop(i,[umano])])
+lf(Night Lyrics.txt_19,200,cl27-nil-nil-be-[xcomp-prop-alright-sn1,def_prop(alright,[istituzione])])
+lf(Night Lyrics.txt_20,223,cl31-nil-nil-think-[subj-agent-too_much-sn2,subj-agent-too_much-sn1,and(too_much,work,sn1),and(too_much,too_much,sn1),def_prop(too_much,[nquant]),def_prop(too_much,_285726)])
+lf(Night Lyrics.txt_21,244,cl32-nil-nil-be-[subj-theme_bound-inside-sn8,xcomp-prop-inside-sn6,subj-theme_bound-fear-sn5,adj-(mod)-truly-nil,subj-theme_bound-i-sn3,cmod-subord-be-",xcomp-prop-afraid-sn2,subj-theme_bound-i-sn1,and(inside,deep,sn8),and(inside,deep,sn6),def_prop(inside,[luogo]),def_prop(inside,[luogo]),def_prop(fear,[emotivo]),def_prop(i,[umano]),def_prop(afraid,[valutativo]),def_prop(i,[umano])])
+lf(Night Lyrics.txt_22,266,cl36-nil-nil-sleep-[cmod-subord-sleep-when])
+lf(Night Lyrics.txt_22,266,cl35-nil-nil-drift-[])
+lf(Night Lyrics.txt_22,266,cl34-nil-nil-go-[])
+lf(Night Lyrics.txt_22,266,cl33-nil-will-will-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Night Lyrics.txt_23,292,cl38-nil-could-have-[xcomp-tema_bound-break-sn5,subj-experiencer-i-sn4,ncmod-modal-dream-sn3,and(break,tough,sn5),def_prop(break,[attivita,evento]),def_prop(i,[umano]),def_prop(dream,[astratto,stato])])
+lf(Night Lyrics.txt_23,292,cl37-nil-will-remember-[obj-theme_unaff-me-sn2,subj-experiencer-i-sn1,def_prop(me,[umano]),def_prop(i,[umano])])
+lf(Night Lyrics.txt_24,317,cl39-nil-nil-be-[cmod-coord-be-and,adj-(mod)-still-nil,xcomp-prop-awake-sn8,subj-theme_bound-i-sn7,def_prop(awake,[evaluative]),def_prop(i,[umano])])
+lf(Night Lyrics.txt_25,342,cl40-nil-nil-be-[subj-theme_bound-it-sn1,def_prop(it,[any])])
+lf(Night Lyrics.txt_26,368,cl41-nil-nil-say-[obj-theme_unaff-m-sn1,def_prop(m,[nquant])])
+lf(Night Lyrics.txt_27,395,cl42-nil-nil-say-[])
+lf(Night Lyrics.txt_28,423,_286948-nil-nil-grow-[cmod-subord-be-",xadj-adj-old-adj1,voice-grow-nil,tense-grow-nil,def_prop(old,_287034)])
+lf(Night Lyrics.txt_28,423,cl43-nil-nil-be-[voice-grow-nil,tense-grow-nil,xcomp-prop-no-sn6,coord-theme_bound-turn_and_tossing-sn5,subj-theme_bound-tossing-sn4,subj-theme_bound-turn-sn3,and(tossing,turn_and_tossing-sn8,sn4),and(tossing,tossing-sn7,sn4),and(tossing,turn-sn3,sn4),def_prop(no,[istituzione]),def_prop(turn_and_tossing,[attivita,evento,tempo]),def_prop(tossing,[attivita,evento,tempo]),def_prop(turn,[attivita,evento,tempo])])
+lf(Night Lyrics.txt_29,453,nil-nil-nil-like-[ncmod-location-bone-sn3,obj-tema_emot-insomnia-sn2,subj-experiencer-i-sn1,def_prop(bone,[astratto,body_part,sostanza,umano]),def_prop(insomnia,[stato]),def_prop(i,[umano])])
+lf(Night Lyrics.txt_30,483,cl44-nil-nil-ask-[])
+lf(Night Lyrics.txt_30,483,nil-nil-nil-gonna-[cmod-subord-ask-",cmod-subord-ask-if,obj-prop-me-sn2,xcomp-purpose-ask-cl44,subj-agent-someone-sn1,def_prop(me,[umano]),def_prop(someone,[umano])])
+lf(Night Lyrics.txt_31,515,cl47-nil-nil-be-[adj-(mod)-really-nil,xcomp-prop-wired-sn7,subj-theme_bound-i-sn6,ncmod-comitativo-eye-sn3,ncmod-modale-em-sn2,and(eye,teary,sn3),def_prop(wired,[informa,tecno]),def_prop(i,[umano]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(em,[nquant])])
+lf(Night Lyrics.txt_31,515,cl46-nil-nil-tell-[cmod-subord-be-",obj-theme_unaff-em-sn5,subj-agent-you-sn4,def_prop(em,[nquant]),def_prop(you,[umano])])
+lf(Night Lyrics.txt_31,515,cl45-nil-will-look-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Night Lyrics.txt_32,549,cl48-not-nil-be-[adj-(mod)-maybe-nil,xcomp-prop-weird-sn4,subj-theme_bound-i-sn3,subj-theme_bound-never_mind-sn1,and(never_mind,i,sn1),def_prop(weird,[estens]),def_prop(i,[umano]),def_prop(never_mind,[astratto])])
+lf(Night Lyrics.txt_33,582,cl50-nil-nil-rear-[subj-agent-you-sn4,ncmod-temporale-night-sn3,aux-has-nil,def_prop(you,[umano]),def_prop(night,[tempo])])
+lf(Night Lyrics.txt_33,582,cl49-nil-nil-have-[xcomp-tema_bound-shadow-sn2,subj-experiencer-i-sn1,def_prop(shadow,[astratto,emotivo,stato,umano]),def_prop(i,[umano])])
+lf(Night Lyrics.txt_34,617,cl51-nil-nil-find-[obj-paziente-this-sn7,xcomp-purpose-get-2,obj-prop-stuggling-sn6,obj-theme_bound-myself-sn5,subj-actor-you-sn4,obj-prop-stuggling-sn3,obj-theme_bound-myself-sn2,subj-actor-you-sn1,def_prop(this,[oggetto,umano]),def_prop(stuggling,[istituzione]),def_prop(myself,[umano]),def_prop(you,[umano]),def_prop(stuggling,[istituzione]),def_prop(myself,[umano]),def_prop(you,[umano])])
+lf(Night Lyrics.txt_35,652,cl53-nil-can-relate-[adj-(mod)-maybe-nil,subj-experiencer-you-sn4,iobj-goal-caffeine-sn2,and(caffeine,some,sn2),def_prop(you,[umano]),def_prop(caffeine,[sostanza])])
+lf(Night Lyrics.txt_35,652,cl52-nil-will-will-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Night Lyrics.txt_36,689,cl55-nil-nil-stare-[subj-agent-you-sn5,iobj-goal-ceiling-sn4,def_prop(you,[umano]),def_prop(ceiling,[astratto,attivita,informa,oggetto,strumento])])
+lf(Night Lyrics.txt_36,689,cl54-nil-nil-stop-[obj-theme_aff-its-sn3,obj-actor-there-sn2,subj-agent-relation-sn1,def_prop(its,[istituzione]),def_prop(there,[any]),def_prop(relation,[any,attivita,informa])])
+lf(Night Lyrics.txt_37,727,cl56-nil-nil-slight-[])
+lf(Night Lyrics.txt_38,765,cl58-nil-will-will-[cmod-subord-be-so,obj-theme_aff-hope-sn2,def_prop(hope,[astratto,emotivo,umano])])
+lf(Night Lyrics.txt_38,765,cl57-nil-can-be-[xcomp-prop-victor-sn7,subj-theme_bound-i-sn6,adj-(mod)-truly-nil,def_prop(victor,[umano]),def_prop(i,[umano])])
+lf(Night Lyrics.txt_39,805,cl59-nil-nil-tire-[])
+lf(Night Lyrics.txt_40,845,cl61-nil-nil-tell-[obj-theme-i-sn5,xcomp-prop-truth-sn4,obj-theme-thats-sn3,obj-prop-afraid-sn2,xcomp-purpose-be-2,subj-agent-i-sn1,aux-am-nil,progr-telling-nil,def_prop(i,[umano]),def_prop(truth,[astratto,attivita,informa,stato]),def_prop(thats,[istituzione]),def_prop(afraid,[valutativo]),def_prop(i,[umano])])
+lf(Night Lyrics.txt_40,845,cl60-nil-nil-be-[subj-theme_bound-you-sn6,cmod-coord-tell-nil,def_prop(you,[umano])])
+lf(Night Lyrics.txt_41,887,cl63-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn3,xcomp-theme_aff-tired-sn2,xcomp-purpose-be-2,def_prop(you,[umano]),def_prop(tired,[emotivo])])
+lf(Night Lyrics.txt_41,887,cl62-nil-nil-tire-[subj-theme-i-sn1,aux-am-nil,def_prop(i,[umano])])
+lf(Night Lyrics.txt_42,931,cl65-nil-nil-free-[adj-(mod)-ill-nil,ncmod-locativo-escape-sn3,subj-agent-you-sn2,aux-be-nil,and(escape,sweet,sn3),def_prop(escape,[attivita,evento,plant]),def_prop(you,[umano])])
+lf(Night Lyrics.txt_42,931,cl64-nil-will-sober-[subj-patient-you-sn1,aux-be-nil,def_prop(you,[umano])])
+lf(Night Lyrics.txt_43,975,cl66-nil-nil-be-[cmod-coord-be-and,adj-(mod)-still-nil,xcomp-prop-awake-sn7,subj-theme_bound-i-sn6,def_prop(awake,[evaluative]),def_prop(i,[umano])])
+lf(Night Lyrics.txt_44,1019,cl67-nil-nil-be-[cmod-coord-be-and,adj-(mod)-still-nil,xcomp-prop-awake-sn7,subj-theme_bound-i-sn6,def_prop(awake,[evaluative]),def_prop(i,[umano])])
+lf(Night Lyrics.txt_45,1064,cl68-nil-nil-be-[subj-theme_bound-it-sn1,def_prop(it,[any])])
+lf(Night Lyrics.txt_46,1110,cl69-nil-nil-say-[obj-theme_unaff-m-sn1,def_prop(m,[nquant])])
+lf(Night Lyrics.txt_47,1157,cl70-nil-nil-say-[])

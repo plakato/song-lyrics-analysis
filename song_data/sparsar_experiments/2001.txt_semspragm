@@ -1,0 +1,134 @@
+"POLARITY, DISCOURSE MARKERS"
+
+2001.txt_1-1  []-positive  []
+2001.txt_2-3  []-positive  []
+2001.txt_3-6  [when-temp_coinc]-negative  [neg,neg]
+2001.txt_4-11  []-suspension  [neg]
+2001.txt_4-12  []-positive  []
+2001.txt_5-16  []-positive  [fgb]
+2001.txt_6-22  []-positive  [fhd,neg]
+2001.txt_7-29  [then-temp_seq]-positive  []
+2001.txt_8-38  []-negative  [neg,neg]
+2001.txt_9-47  []-positive  []
+2001.txt_9-48  []-positive  [fgb,fgb]
+2001.txt_10-58  []-positive  [fhd]
+2001.txt_11-69  [so-result]-negative  [neg,fgb,neg]
+2001.txt_12-81  []-negative  [neg,fgb,neg]
+2001.txt_13-95  []-negative  [neg]
+2001.txt_13-96  []-positive  []
+2001.txt_14-110  []-positive  []
+2001.txt_14-111  []-negative  [neg]
+2001.txt_15-126  []-positive  [neg]
+2001.txt_16-142  []-positive  []
+2001.txt_16-143  [so-result]-positive  [fgb]
+2001.txt_17-160  []-negative  [neg]
+2001.txt_18-178  []-positive  []
+2001.txt_18-179  []-positive  [fhd]
+2001.txt_19-198  [so-result]-negative  [fgb,neg]
+2001.txt_19-198  [so-result]-negative  [fgb,neg]
+2001.txt_20-220  [when-temp_coinc]-negative  [neg,neg]
+2001.txt_21-243  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+2001.txt_1-1  [2001,by,Aziz]  [title]
+2001.txt_2-3  [Yo]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+2001.txt_3-6  [when,worst,come,to,worst,,,my,people,come,first]  [reject_expl_just(worst,[external,factive,narration,background,objective])]
+2001.txt_4-11  [my,people,are,all,that,matter,til]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2001.txt_4-12  [i,end,up,in,the,hearse]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2001.txt_5-16  [with,a,suit,and,Bowtie,on,headed,to,the,heavens]  [provide_expl_just(head,[external,factive,narration,foreground,objective])]
+2001.txt_6-22  [my,fly,gettin,on,lifted,like,iron,with,my,bredren]  [provide_expl_just(lift,[external,factive,cause,foreground,objective])]
+2001.txt_7-29  [until,then,im,thinkin,of,the,past,tryna,see,clear]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+2001.txt_8-38  [in,1000,years,,,none,of,this,shit,will,be,here]  [reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+2001.txt_9-47  [we,run]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(skip,[external,factive,narration,background,objective])]
+2001.txt_9-48  [and,skip,and,leap,years]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(skip,[external,factive,narration,background,objective])]
+2001.txt_10-58  [on,the,moon,zero,gravity,boom,like,a,witches,broom]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2001.txt_11-69  [im,my,cop,so,soon,,,people,a,crib]  [reject_expl_just(people,[external,factive,narration,background,objective])]
+2001.txt_12-81  [a,second,whip,and,the,rest,give,to,my,moms,to,buy,some,extra,shit]  [reject_expl_just(buy,[external,factive,narration,background,objective]),reject_expl_just(give,[external,factive,narration,background,objective])]
+2001.txt_13-95  [that,she,never,did,chillin]  [reject_expl_just(do,[external,factive,narration,background,objective])]
+2001.txt_13-96  [Livin,benevolent]  [provide_expl_just(do,[external,factive,narration,background,objective])]
+2001.txt_14-110  [her,dresses,is,elegant]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(bring,[external,factive,narration,background,objective])]
+2001.txt_14-111  [,,bring,her,places,she,never]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(bring,[external,factive,narration,background,objective])]
+2001.txt_15-126  [people,tryna,bring,me,down,to,where,the,devil,is]  [provide_expl_just(bring,[external,factive,narration,background,objective])]
+2001.txt_16-142  [i,am,hot,already]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2001.txt_16-143  [so,i,rose,to,where,the,pedals,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2001.txt_17-160  [in,the,whip,pushin,pedals,kid]  [reject_expl_just(pedal,[external,factive,narration,background,objective])]
+2001.txt_18-178  [i,need,the,whole,nation]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+2001.txt_18-179  [catchin,wind,like,they,runnin,sprints]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+2001.txt_19-198  [so,Yall,is,not,gotta,be,in,Tokyo]  [reject_expl_just(catch,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,rationale,background,objective])]
+2001.txt_19-198  [so,Yall,is,not,gotta,be,in,Tokyo,to,catch,the,drift]  [reject_expl_just(catch,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,rationale,background,objective])]
+2001.txt_20-220  [when,worst,come,to,worst,my,people,are,Comin,with]  [reject_expl_just(worst,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+2001.txt_21-243  [twentyone]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(2001.txt_1-1)-[]
+2-(2001.txt_2-3)-[]
+3-(2001.txt_3-6)-[secondary-temporal_repere]
+4-(2001.txt_4-11)-[]
+5-(2001.txt_4-12)-[primary-sound]
+6-(2001.txt_5-16)-[primary-narcissism,primary-height]
+7-(2001.txt_6-22)-[primary-ascend,primary-ascend,emotions-affection,primary-hard]
+8-(2001.txt_7-29)-[secondary-temporal_repere,secondary-abstract_tought,secondary-temporal_repere,secondary-instru_behavior,primary-vision]
+9-(2001.txt_8-38)-[secondary-temporal_repere,primary-anality,primary-concreteness]
+10-(2001.txt_9-47)-[]
+11-(2001.txt_9-48)-[primary-ascend,secondary-temporal_repere]
+12-(2001.txt_10-58)-[primary-sound,emotions-affection]
+13-(2001.txt_11-69)-[secondary-temporal_repere]
+14-(2001.txt_12-81)-[emotions-aggression,primary-passivity,secondary-instru_behavior,primary-anality]
+half
+15-(2001.txt_13-95)-[primary-cold]
+16-(2001.txt_13-96)-[]
+17-(2001.txt_14-110)-[]
+18-(2001.txt_14-111)-[primary-concreteness]
+19-(2001.txt_15-126)-[secondary-instru_behavior,primary-concreteness]
+20-(2001.txt_16-142)-[primary-fire,secondary-temporal_repere]
+21-(2001.txt_16-143)-[primary-concreteness]
+22-(2001.txt_17-160)-[emotions-aggression]
+23-(2001.txt_18-178)-[]
+24-(2001.txt_18-179)-[secondary-restraint,secondary-instru_behavior,emotions-affection]
+25-(2001.txt_19-198)-[]
+26-(2001.txt_19-198)-[secondary-restraint,primary-passivity]
+27-(2001.txt_20-220)-[secondary-temporal_repere]
+28-(2001.txt_21-243)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(2001.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Aziz-sn2,subj-theme_bound-2001-sn1,def_prop(Aziz,[umano]),def_prop(2001,[date,tempo])])
+lf(2001.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-Yo-sn1,def_prop(Yo,[umano])])
+lf(2001.txt_3,6,cl4-nil-nil-worst-[])
+lf(2001.txt_3,6,cl3-nil-nil-come-[obj-theme-first-sn4,subj-result-people-sn3,xcomp-prop-worst-3,adj-sn1-when-sn2,subj-agent-worst-sn1,def_prop(first,[istituzione]),def_prop(people,[istituzione]),def_prop(when,[tempo]),def_prop(worst,[astratto,attivita,evento])])
+lf(2001.txt_4,11,cl5-nil-nil-be-[adj-(mod)-up-nil,adj-temporal-end-nil,ncmod-locativo-hearse-sn10,subj-theme_bound-i-sn9,xcomp-prop-til-sn2,subj-theme_bound-people-sn1,and(til,all,sn2),and(til,that,sn2),and(til,matter,sn2),def_prop(hearse,[oggetto,strumento]),def_prop(i,[umano]),def_prop(til,[informa,tecno]),def_prop(people,[istituzione])])
+lf(2001.txt_5,16,cl6-nil-nil-head-[iobj-goal-heaven-sn3,ncmod-comitativo-suit-sn2,subj-actor-Bowtie-sn1,def_prop(heaven,[luogo]),def_prop(suit,[attivita,informa,oggetto,strumento,umano]),def_prop(Bowtie,[istituzione,umano])])
+lf(2001.txt_6,22,cl7-nil-nil-lift-[obj-theme-iron-sn2,subj-actor-gettin-sn1,and(iron,bredren,sn2),and(gettin,fly,sn1),def_prop(iron,[oggetto,sostanza,strumento]),def_prop(gettin,[istituzione])])
+lf(2001.txt_7,29,2-nil-nil-be-[cmod-subord-see-then])
+lf(2001.txt_7,29,cl8-nil-nil-see-[xcomp-prop-clear-sn2,subj-experiencer-thinkin-sn1,and(thinkin,im,sn1),def_prop(clear,[valutativo]),def_prop(thinkin,[istituzione])])
+lf(2001.txt_8,38,cl9-nil-will-be-[adj-temporal-years-nil,xcomp-prop-here-sn2,subj-theme_bound-none-sn1,and(years,1000,sn5),def_prop(years,[tempo]),def_prop(here,[istituzione]),def_prop(none,[_98152])])
+lf(2001.txt_9,47,cl11-nil-nil-skip-[cmod-subord-skip-",adj-temporal-years-nil,adj-subj_disc-years-sn3,subj-agent-you-sn2,and(years,leap,sn5),and(years,leap,sn3),and(years,leap,sn3),def_prop(years,[tempo]),def_prop(years,[tempo]),def_prop(you,[umano])])
+lf(2001.txt_9,47,cl10-nil-nil-run-[subj-theme_aff-you-sn1,def_prop(you,[umano])])
+lf(2001.txt_10,58,cl12-nil-nil-be-[xcomp-theme-broom-sn3,ncmod-locativo-moon-sn2,subj-theme_bound-gravity-sn1,and(broom,witch,sn3),def_prop(broom,[oggetto,plant,strumento]),def_prop(moon,[oggetto]),def_prop(gravity,[attivita,cambia,emotivo])])
+lf(2001.txt_11,69,cl13-nil-nil-people-[])
+lf(2001.txt_12,81,cl15-nil-nil-buy-[obj-theme-shit-sn5,xcomp-purpose-buy-3,iobj-goal-mom-sn4,and(shit,some,sn5),and(shit,extra,sn5),def_prop(shit,[attivita,umano]),def_prop(mom,[umano])])
+lf(2001.txt_12,81,cl14-nil-nil-give-[coord-actor-whip_and_res-sn3,subj-actor-res-sn2,subj-actor-whip-sn1,def_prop(whip_and_res,[astratto,attivita,edible,oggetto,strumento,umano,informa,tecno]),def_prop(res,[astratto,attivita,edible,oggetto,strumento,umano,informa,tecno]),def_prop(whip,[astratto,attivita,edible,oggetto,strumento,umano,informa,tecno])])
+lf(2001.txt_13,95,cl17-nil-nil-be-[xcomp-prop-benevolent-sn6,subj-theme_bound-Livin-sn5,def_prop(benevolent,[evaluative]),def_prop(Livin,[istituzione,umano])])
+lf(2001.txt_13,95,cl16-nil-nil-do-[xcomp-actor-chillin-sn2,subj-theme_unaff-she-sn1,aux-did-nil,def_prop(chillin,[istituzione]),def_prop(she,[umano])])
+lf(2001.txt_14,110,cl19-nil-nil-bring-[adj-(mod)-never-nil,xcomp-prop-place-sn6,subj-agent-she-sn5,def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(she,[umano])])
+lf(2001.txt_14,110,cl18-nil-nil-be-[xcomp-prop-elegant-sn2,subj-theme_bound-dress-sn1,def_prop(elegant,[evaluative]),def_prop(dress,[oggetto,strumento])])
+lf(2001.txt_15,126,cl20-nil-nil-bring-[xadj-adj-down-adj1,obj2-goal-where-sn3,obj-theme_aff-me-sn2,subj-agent-tryna-sn1,and(tryna,people,sn1),def_prop(down,_99782),def_prop(where,[luogo]),def_prop(me,[umano]),def_prop(tryna,[istituzione])])
+lf(2001.txt_16,142,cl22-nil-nil-rise-[iobj-goal-where-sn6,subj-agent-i-sn5,def_prop(where,[luogo]),def_prop(i,[umano])])
+lf(2001.txt_16,142,cl21-nil-nil-be-[xcomp-prop-hot-sn2,subj-theme_bound-i-sn1,def_prop(hot,[valutativo]),def_prop(i,[umano])])
+lf(2001.txt_17,160,cl23-nil-nil-pedal-[obj-theme-ky-sn3,ncmod-locativo-whip-sn2,subj-agent-pushin-sn1,def_prop(ky,[informa,tecno]),def_prop(whip,[astratto,attivita,edible,oggetto,strumento,umano]),def_prop(pushin,[istituzione])])
+lf(2001.txt_18,178,cl25-nil-nil-be-[xcomp-prop-sprint-sn5,subj-theme_bound-they-sn4,subj-theme_bound-they-sn3,and(sprint,runnin,sn5),and(they,wind,sn3),and(they,catchin,sn3),def_prop(sprint,[cambia,evento,informa,tecno]),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(2001.txt_18,178,cl24-nil-nil-need-[obj-theme-nation-sn2,subj-experiencer-i-sn1,and(nation,whole,sn2),def_prop(nation,[istituzione]),def_prop(i,[umano])])
+lf(2001.txt_19,198,cl27-nil-nil-catch-[cmod-subord-be-so,xcomp-purpose-be-3])
+lf(2001.txt_19,198,cl26-not-nil-be-[xcomp-result-drift-sn5,xcomp-purpose-catch-5,ncmod-prop-Tokyo-sn4,xcomp-purpose-be-4,subj-theme_bound-Yall-sn3,ncmod-prop-Tokyo-sn2,subj-theme_bound-Yall-sn1,def_prop(drift,[astratto,attivita,cambia,oggetto,strumento]),def_prop(Tokyo,[place,luogo]),def_prop(Yall,[istituzione,umano]),def_prop(Tokyo,[place,luogo]),def_prop(Yall,[istituzione,umano])])
+lf(2001.txt_20,220,cl30-nil-nil-be-[xcomp-prop-Comin-sn4,adj-sn1-when-sn2,subj-theme_bound-worst-sn1,def_prop(Comin,[istituzione,umano]),def_prop(when,[tempo]),def_prop(worst,[astratto,attivita,evento])])
+lf(2001.txt_20,220,cl29-nil-nil-worst-[])
+lf(2001.txt_20,220,cl28-nil-nil-come-[subj-result-people-sn3,xcomp-prop-worst-3,def_prop(people,[istituzione])])
+lf(2001.txt_21,243,cl31-nil-nil-say-[obj-theme_unaff-twentyone-sn1,def_prop(twentyone,[istituzione])])

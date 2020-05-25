@@ -1,0 +1,68 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Bitter Blood Lyrics.txt_1-1  []-negative  [neg]
+Bitter Blood Lyrics.txt_2-3  []-suspension  [neg]
+Bitter Blood Lyrics.txt_3-6  []-negative  [neg]
+Bitter Blood Lyrics.txt_3-7  [but-advers]-negative  [fgb,neg,neg]
+Bitter Blood Lyrics.txt_4-10  []-positive  []
+Bitter Blood Lyrics.txt_5-15  []-positive  []
+Bitter Blood Lyrics.txt_6-21  []-positive  []
+Bitter Blood Lyrics.txt_7-28  []-negative  [neg]
+Bitter Blood Lyrics.txt_8-36  []-negative  [neg]
+Bitter Blood Lyrics.txt_9-45  []-suspension  [fgb,neg,neg]
+Bitter Blood Lyrics.txt_9-45  []-suspension  [fgb,neg,neg]
+Bitter Blood Lyrics.txt_10-55  []-suspension  [fgb]
+Bitter Blood Lyrics.txt_11-66  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Bitter Blood Lyrics.txt_1-1  [bitter,Blood,Lyrics,by,Sworn,in]  [title]
+Bitter Blood Lyrics.txt_2-3  [the,red,moon,drips,poison,on,the,floor]  [propose_opin_neg(drip,[external,factive,explanation,background,objective])]
+Bitter Blood Lyrics.txt_3-6  [my,sanity,is,nothing]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Bitter Blood Lyrics.txt_3-7  [but,a,cheap,whore]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Bitter Blood Lyrics.txt_4-10  [nevermore]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Bitter Blood Lyrics.txt_5-15  [nevermore]  [raise_issue(be,[_36864,factive,statement,_36882,subjective])]
+Bitter Blood Lyrics.txt_6-21  [the,veil,lift]  [provide_expl_just(lift,[external,factive,narration,background,objective])]
+Bitter Blood Lyrics.txt_7-28  [left,to,wither]  [reject_expl_just(wither,[external,factive,narration,background,objective])]
+Bitter Blood Lyrics.txt_8-36  [left,to,rot]  [reject_expl_just(rot,[external,factive,narration,background,objective])]
+Bitter Blood Lyrics.txt_9-45  [and,i,will,burn,in,hell]  [provide_expl_just(burn,[external,nonfactive,narration,background,objective])]
+Bitter Blood Lyrics.txt_9-45  [and,i,will,burn,in,hell,with,all,my,thoughts]  [provide_expl_just(burn,[external,nonfactive,narration,background,objective])]
+Bitter Blood Lyrics.txt_10-55  [and,i,will,seep,below]  [provide_expl_just(seep,[external,nonfactive,narration,background,objective])]
+Bitter Blood Lyrics.txt_11-66  [drenched,in,bitter,blood]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Bitter Blood Lyrics.txt_1-1)-[primary-taste]
+2-(Bitter Blood Lyrics.txt_2-3)-[primary-water,primary-orality,primary-brink]
+3-(Bitter Blood Lyrics.txt_3-6)-[]
+4-(Bitter Blood Lyrics.txt_3-7)-[primary-sex]
+5-(Bitter Blood Lyrics.txt_4-10)-[]
+6-(Bitter Blood Lyrics.txt_5-15)-[]
+half
+7-(Bitter Blood Lyrics.txt_6-21)-[primary-diffusion,primary-ascend]
+8-(Bitter Blood Lyrics.txt_7-28)-[]
+9-(Bitter Blood Lyrics.txt_8-36)-[primary-anality]
+10-(Bitter Blood Lyrics.txt_9-45)-[primary-fire]
+11-(Bitter Blood Lyrics.txt_9-45)-[primary-fire,secondary-abstract_tought]
+12-(Bitter Blood Lyrics.txt_10-55)-[primary-vision,primary-depth]
+13-(Bitter Blood Lyrics.txt_11-66)-[primary-water,primary-taste,primary-narcissism]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Bitter Blood Lyrics.txt_1,1,cl1-nil-nil-be-[subj-theme_bound-Lyrics-sn1,and(Lyrics,Blood,sn1),and(Lyrics,bitter,sn1),def_prop(Lyrics,[informa,tecno])])
+lf(Bitter Blood Lyrics.txt_2,3,cl2-nil-nil-drip-[ncmod-locativo-floor-sn3,obj-theme_aff-poison-sn2,subj-actor-moon-sn1,and(moon,red,sn1),def_prop(floor,[astratto,attivita,informa,oggetto,strumento]),def_prop(poison,[astratto,sostanza]),def_prop(moon,[oggetto])])
+lf(Bitter Blood Lyrics.txt_3,6,cl3-nil-nil-be-[subj-theme_bound-you-sn5,xcomp-prop-nothing-sn2,subj-theme_bound-sanity-sn1,def_prop(you,[umano]),def_prop(nothing,[astratto,informa,oggetto]),def_prop(sanity,[stato])])
+lf(Bitter Blood Lyrics.txt_4,10,cl4-nil-nil-say-[])
+lf(Bitter Blood Lyrics.txt_5,15,cl5-nil-nil-say-[])
+lf(Bitter Blood Lyrics.txt_6,21,cl6-nil-nil-lift-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Bitter Blood Lyrics.txt_7,28,cl7-nil-nil-wither-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Bitter Blood Lyrics.txt_8,36,cl8-nil-nil-rot-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bitter Blood Lyrics.txt_9,45,cl9-nil-will-burn-[cmod-coord-burn-and,ncmod-comitativo-thought-sn5,ncmod-locativo-hell-sn4,subj-actor-i-sn3,cmod-subord-burn-",ncmod-locativo-hell-sn2,subj-actor-i-sn1,and(thought,all,sn5),def_prop(thought,[astratto]),def_prop(hell,[attivita,evento,luogo]),def_prop(i,[umano]),def_prop(hell,[attivita,evento,luogo]),def_prop(i,[umano])])
+lf(Bitter Blood Lyrics.txt_10,55,cl10-nil-will-seep-[])
+lf(Bitter Blood Lyrics.txt_11,66,cl11-nil-nil-be-[subj-theme_bound-blood-sn1,def_prop(blood,[astratto,body_part,istituzione,umano])])

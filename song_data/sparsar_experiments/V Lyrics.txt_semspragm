@@ -1,0 +1,307 @@
+"POLARITY, DISCOURSE MARKERS"
+
+V Lyrics.txt_1-1  []-positive  []
+V Lyrics.txt_2-3  []-negative  [neg,neg]
+V Lyrics.txt_3-6  []-negative  [neg,neg]
+V Lyrics.txt_4-10  []-suspension  [neg,neg]
+V Lyrics.txt_4-11  []-negative  [fgb,neg]
+V Lyrics.txt_5-16  []-suspension  []
+V Lyrics.txt_6-22  []-negative  [neg,neg]
+V Lyrics.txt_7-29  []-suspension  []
+V Lyrics.txt_8-37  []-negative  [neg,neg]
+V Lyrics.txt_9-46  []-positive  []
+V Lyrics.txt_10-56  []-positive  []
+V Lyrics.txt_11-67  []-positive  [neg]
+V Lyrics.txt_12-79  []-positive  []
+V Lyrics.txt_12-80  [so-result]-suspension  [fgb,neg]
+V Lyrics.txt_13-93  []-positive  []
+V Lyrics.txt_14-107  []-positive  []
+V Lyrics.txt_15-122  []-positive  [neg]
+V Lyrics.txt_16-139  []-negative  [neg]
+V Lyrics.txt_17-156  []-positive  []
+V Lyrics.txt_17-157  []-negative  [neg,neg]
+V Lyrics.txt_18-174  []-negative  [neg,neg]
+V Lyrics.txt_19-193  []-positive  []
+V Lyrics.txt_20-213  []-positive  []
+V Lyrics.txt_21-234  []-negative  [neg]
+V Lyrics.txt_22-259  []-positive  [fhd]
+V Lyrics.txt_23-282  []-negative  [neg,neg]
+V Lyrics.txt_24-306  []-negative  [neg,neg]
+V Lyrics.txt_25-331  []-negative  [neg,neg]
+V Lyrics.txt_26-357  []-suspension  [neg,neg]
+V Lyrics.txt_26-358  []-negative  [fgb,neg]
+V Lyrics.txt_27-385  []-suspension  []
+V Lyrics.txt_28-413  []-negative  [neg,neg]
+V Lyrics.txt_29-442  []-suspension  []
+V Lyrics.txt_30-472  []-negative  [neg,neg]
+V Lyrics.txt_31-503  []-positive  []
+V Lyrics.txt_32-535  []-positive  []
+V Lyrics.txt_33-568  []-positive  [neg]
+V Lyrics.txt_34-602  []-positive  []
+V Lyrics.txt_34-603  [so-result]-suspension  [fgb,neg]
+V Lyrics.txt_35-638  []-positive  []
+V Lyrics.txt_36-674  []-positive  []
+V Lyrics.txt_37-711  []-suspension  []
+V Lyrics.txt_38-749  []-positive  [fgb]
+V Lyrics.txt_39-788  []-positive  []
+V Lyrics.txt_40-828  []-negative  [neg]
+V Lyrics.txt_41-869  []-positive  []
+V Lyrics.txt_41-870  []-negative  [neg]
+V Lyrics.txt_42-912  []-negative  [neg,neg]
+V Lyrics.txt_43-955  []-negative  [neg]
+V Lyrics.txt_44-999  []-positive  []
+V Lyrics.txt_45-1044  [so-result]-negative  [fgb,neg]
+V Lyrics.txt_46-1090  []-suspension  [neg,neg]
+V Lyrics.txt_47-1138  []-negative  [neg]
+V Lyrics.txt_48-1186  []-negative  [neg,neg]
+V Lyrics.txt_49-1236  []-positive  []
+V Lyrics.txt_50-1286  []-positive  []
+V Lyrics.txt_51-1337  []-negative  [neg]
+V Lyrics.txt_52-1389  []-negative  [neg,neg]
+V Lyrics.txt_53-1442  []-negative  [neg,neg]
+V Lyrics.txt_54-1496  []-suspension  [neg,neg]
+V Lyrics.txt_54-1497  []-negative  [fgb,neg]
+V Lyrics.txt_55-1552  []-suspension  []
+V Lyrics.txt_56-1608  []-negative  [neg,neg]
+V Lyrics.txt_57-1665  []-suspension  []
+V Lyrics.txt_58-1723  []-negative  [neg,neg]
+V Lyrics.txt_59-1782  []-positive  []
+V Lyrics.txt_60-1842  []-positive  []
+V Lyrics.txt_61-1903  []-positive  [neg]
+V Lyrics.txt_62-1965  []-positive  []
+V Lyrics.txt_62-1966  [so-result]-suspension  [fgb,neg,neg]
+V Lyrics.txt_63-2029  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+V Lyrics.txt_1-1  [v,Lyrics,by,SwitchMIX]  [title]
+V Lyrics.txt_2-3  [this,shit,man,fuck]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+V Lyrics.txt_3-6  [this,fuck,shit]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+V Lyrics.txt_4-10  [i,will,grab,a,knife]  [provide_expl_just(grab,[external,nonfactive,narration,background,objective]),propose_opin_neg(cut,[external,factive,explanation,background,objective])]
+V Lyrics.txt_4-11  [and,my,wrist,cut]  [reject_expl_just(grab,[external,nonfactive,narration,background,objective]),reject_expl_just(cut,[external,factive,explanation,background,objective]),propose_opin_neg(cut,[external,factive,explanation,background,objective])]
+V Lyrics.txt_5-16  [i,will,leave]  [provide_expl_just(leave,[external,nonfactive,narration,background,objective])]
+V Lyrics.txt_6-22  [i,am,fucking,bitch]  [reject_expl_just(fuck,[external,factive,narration,foreground,objective])]
+V Lyrics.txt_7-29  [i,will,leave]  [provide_expl_just(leave,[external,nonfactive,narration,background,objective])]
+V Lyrics.txt_8-37  [i,do,not,want,this,shit]  [reject_expl_just(want,[external,factive,narration,foreground,objective])]
+V Lyrics.txt_9-46  [over,medicated]  [raise_issue(be,[_454192,factive,statement,_454210,subjective])]
+V Lyrics.txt_10-56  [under,appreciated]  [provide_expl_just(appreciate,[external,factive,narration,foreground,objective])]
+V Lyrics.txt_11-67  [super,hated]  [proposal(be,[_458856,_458862,statement,foreground,_458880])]
+V Lyrics.txt_12-79  [face,your,on,masturbated,i,!]  [provide_expl_just(masturbate,[internal,factive,narration,background,objective]),provide_expl_just(waste-cl14,[internal,factive,narration,background,objective])]
+V Lyrics.txt_12-80  [so,no_more,kids,are,wasted]  [provide_expl_just(masturbate,[internal,factive,narration,background,objective]),provide_expl_just(waste-cl14,[internal,factive,narration,background,objective])]
+V Lyrics.txt_13-93  [figgity-flock]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+V Lyrics.txt_14-107  [all,you,sheep,with,a,Glock]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+V Lyrics.txt_15-122  [make,a,new,album,to,crash,all,the,stocks]  [provide_expl_just(crash,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective])]
+V Lyrics.txt_16-139  [done,with,the,bullshit]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+V Lyrics.txt_17-156  [you,are,something]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+V Lyrics.txt_17-157  [i,am,not,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+V Lyrics.txt_18-174  [no,peace,with,a,lease,bitch,,,buy,em,all,out]  [reject_expl_just(buy,[external,factive,narration,background,objective])]
+V Lyrics.txt_19-193  [sicker,than,a,liver,with,a,pint,of,Guinness,running,down,a,gullet,to,a,bucket]  [provide_expl_just(down,[external,factive,narration,background,objective])]
+V Lyrics.txt_20-213  [filled,with,baby,fishes]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+V Lyrics.txt_21-234  [bitch,you,know,you,love,it,how,i,am,granting,all,your,favorite,wishes]  [reject_expl_just(grant,[external,factive,narration,foreground,objective]),reject_expl_just(bitch,[external,factive,narration,background,objective]),reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(love,[external,factive,narration,background,objective])]
+V Lyrics.txt_22-259  [genie,in,a,beanie,like,a,Jewish,man,with,many,wishes]  [provide_expl_just(wish,[external,factive,narration,background,objective])]
+V Lyrics.txt_23-282  [business,no,not,is,!]  [reject_expl_just(be,[internal,factive,narration,foreground,objective])]
+V Lyrics.txt_24-306  [this,shit,man,fuck]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+V Lyrics.txt_25-331  [this,fuck,shit]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+V Lyrics.txt_26-357  [i,will,grab,a,knife]  [provide_expl_just(grab,[external,nonfactive,narration,background,objective]),provide_expl_just(cut,[external,factive,narration,background,objective])]
+V Lyrics.txt_26-358  [and,my,wrist,cut]  [reject_expl_just(grab,[external,nonfactive,narration,background,objective]),reject_expl_just(cut,[external,factive,narration,background,objective])]
+V Lyrics.txt_27-385  [i,will,leave]  [provide_expl_just(leave,[external,nonfactive,narration,background,objective])]
+V Lyrics.txt_28-413  [i,am,fucking,bitch]  [reject_expl_just(fuck,[external,factive,narration,foreground,objective])]
+V Lyrics.txt_29-442  [i,will,leave]  [provide_expl_just(leave,[external,nonfactive,narration,background,objective])]
+V Lyrics.txt_30-472  [i,do,not,want,this,shit]  [reject_expl_just(want,[external,factive,narration,foreground,objective])]
+V Lyrics.txt_31-503  [over,medicated]  [raise_issue(be,[_469030,factive,statement,_469048,subjective])]
+V Lyrics.txt_32-535  [under,appreciated]  [provide_expl_just(appreciate,[external,factive,narration,foreground,objective])]
+V Lyrics.txt_33-568  [super,hated]  [proposal(be,[_473694,_473700,statement,foreground,_473718])]
+V Lyrics.txt_34-602  [face,your,on,masturbated,i,!]  [provide_expl_just(masturbate,[internal,factive,narration,background,objective]),provide_expl_just(waste-cl40,[internal,factive,narration,background,objective])]
+V Lyrics.txt_34-603  [so,no_more,work,is,wasted]  [provide_expl_just(masturbate,[internal,factive,narration,background,objective]),provide_expl_just(waste-cl40,[internal,factive,narration,background,objective])]
+V Lyrics.txt_35-638  [i,am,super,burnt]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+V Lyrics.txt_36-674  [i,put,in,work]  [provide_expl_just(put,[external,factive,narration,foreground,objective])]
+V Lyrics.txt_37-711  [i,will,call,up,your,next_of_kin]  [provide_expl_just(call,[external,nonfactive,narration,background,objective])]
+V Lyrics.txt_38-749  [and,her,first,make]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+V Lyrics.txt_39-788  [aim,for,your,head]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+V Lyrics.txt_40-828  [you,are,dead]  reject_expl_opin(nil,[])
+V Lyrics.txt_41-869  [i,bet]  [provide_expl_just(bet,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+V Lyrics.txt_41-870  [that,hurt]  [reject_expl_just(bet,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+V Lyrics.txt_42-912  [the,i,game,not,ready,for,am,playing]  [reject_expl_just(play,[external,factive,cause,foreground,objective])]
+V Lyrics.txt_43-955  [no,self-worth]  reject_expl_opin(nil,[])
+V Lyrics.txt_44-999  [i,Nigga,am,futuristic]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+V Lyrics.txt_45-1044  [so,simplistic]  reject_expl_opin(nil,[])
+V Lyrics.txt_46-1090  [force,push,you,in,the,dirt]  [provide_expl_just(push,[external,factive,narration,background,objective])]
+V Lyrics.txt_47-1138  [i,am,on,my,Sith,shit]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+V Lyrics.txt_48-1186  [grab,you,by,your,eyes,you,bitch]  [reject_expl_just(grab,[external,factive,narration,background,objective]),reject_expl_just(bitch,[external,factive,narration,background,objective])]
+V Lyrics.txt_49-1236  [now,you,are,listening]  [provide_expl_just(listen,[external,factive,narration,foreground,objective])]
+V Lyrics.txt_50-1286  [running,with,a,victory]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+V Lyrics.txt_51-1337  [business,my,stop,cannot,you,!]  [reject_expl_just(stop,[internal,nonfactive,narration,background,objective])]
+V Lyrics.txt_52-1389  [this,shit,man,fuck]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+V Lyrics.txt_53-1442  [this,fuck,shit]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+V Lyrics.txt_54-1496  [i,will,grab,a,knife]  [provide_expl_just(grab,[external,nonfactive,narration,background,objective]),provide_expl_just(cut,[external,factive,narration,background,objective])]
+V Lyrics.txt_54-1497  [and,my,wrist,cut]  [reject_expl_just(grab,[external,nonfactive,narration,background,objective]),reject_expl_just(cut,[external,factive,narration,background,objective])]
+V Lyrics.txt_55-1552  [i,will,leave]  [provide_expl_just(leave,[external,nonfactive,narration,background,objective])]
+V Lyrics.txt_56-1608  [i,am,fucking,bitch]  [reject_expl_just(fuck,[external,factive,narration,foreground,objective])]
+V Lyrics.txt_57-1665  [i,will,leave]  [provide_expl_just(leave,[external,nonfactive,narration,background,objective])]
+V Lyrics.txt_58-1723  [i,do,not,want,this,shit]  [reject_expl_just(want,[external,factive,narration,foreground,objective])]
+V Lyrics.txt_59-1782  [over,medicated]  [raise_issue(be,[_485578,factive,statement,_485596,subjective])]
+V Lyrics.txt_60-1842  [under,appreciated]  [provide_expl_just(appreciate,[external,factive,narration,foreground,objective])]
+V Lyrics.txt_61-1903  [super,hated]  [proposal(be,[_490242,_490248,statement,foreground,_490266])]
+V Lyrics.txt_62-1965  [face,your,on,masturbated,i,!]  [provide_expl_just(masturbate,[internal,factive,narration,background,objective]),provide_expl_just(waste-cl73,[internal,factive,narration,background,objective])]
+V Lyrics.txt_62-1966  [so,no_more,cum,is,wasted]  [provide_expl_just(masturbate,[internal,factive,narration,background,objective]),provide_expl_just(waste-cl73,[internal,factive,narration,background,objective])]
+V Lyrics.txt_63-2029  [v]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(V Lyrics.txt_1-1)-[]
+2-(V Lyrics.txt_2-3)-[primary-anality,primary-sex]
+3-(V Lyrics.txt_3-6)-[primary-sex,primary-anality]
+4-(V Lyrics.txt_4-10)-[emotions-aggression]
+5-(V Lyrics.txt_4-11)-[primary-narcissism,emotions-aggression]
+6-(V Lyrics.txt_5-16)-[]
+7-(V Lyrics.txt_6-22)-[primary-sex]
+8-(V Lyrics.txt_7-29)-[]
+9-(V Lyrics.txt_8-37)-[primary-anality]
+10-(V Lyrics.txt_9-46)-[primary-concreteness]
+11-(V Lyrics.txt_10-56)-[primary-depth,emotions-affection]
+12-(V Lyrics.txt_11-67)-[emotions-aggression]
+13-(V Lyrics.txt_12-79)-[primary-narcissism,primary-sex]
+14-(V Lyrics.txt_12-80)-[]
+15-(V Lyrics.txt_13-93)-[]
+16-(V Lyrics.txt_14-107)-[]
+17-(V Lyrics.txt_15-122)-[secondary-instru_behavior]
+18-(V Lyrics.txt_16-139)-[]
+19-(V Lyrics.txt_17-156)-[]
+20-(V Lyrics.txt_17-157)-[]
+21-(V Lyrics.txt_18-174)-[primary-orality,primary-sex,secondary-instru_behavior,primary-concreteness]
+22-(V Lyrics.txt_19-193)-[primary-narcissism,primary-water]
+23-(V Lyrics.txt_20-213)-[]
+24-(V Lyrics.txt_21-234)-[primary-sex,secondary-abstract_tought,emotions-affection]
+25-(V Lyrics.txt_22-259)-[primary-orality,emotions-affection]
+26-(V Lyrics.txt_23-282)-[secondary-instru_behavior]
+27-(V Lyrics.txt_24-306)-[primary-anality,primary-sex]
+28-(V Lyrics.txt_25-331)-[primary-sex,primary-anality]
+29-(V Lyrics.txt_26-357)-[emotions-aggression]
+30-(V Lyrics.txt_26-358)-[primary-narcissism,emotions-aggression]
+31-(V Lyrics.txt_27-385)-[]
+32-(V Lyrics.txt_28-413)-[primary-sex]
+33-(V Lyrics.txt_29-442)-[]
+34-(V Lyrics.txt_30-472)-[primary-anality]
+35-(V Lyrics.txt_31-503)-[primary-concreteness]
+half
+36-(V Lyrics.txt_32-535)-[primary-depth,emotions-affection]
+37-(V Lyrics.txt_33-568)-[emotions-aggression]
+38-(V Lyrics.txt_34-602)-[primary-narcissism,primary-sex]
+39-(V Lyrics.txt_34-603)-[secondary-instru_behavior]
+40-(V Lyrics.txt_35-638)-[primary-fire]
+41-(V Lyrics.txt_36-674)-[secondary-instru_behavior]
+42-(V Lyrics.txt_37-711)-[secondary-social_behavior]
+43-(V Lyrics.txt_38-749)-[secondary-instru_behavior]
+44-(V Lyrics.txt_39-788)-[secondary-instru_behavior,primary-narcissism]
+45-(V Lyrics.txt_40-828)-[primary-passivity]
+46-(V Lyrics.txt_41-869)-[]
+47-(V Lyrics.txt_41-870)-[emotions-aggression]
+48-(V Lyrics.txt_42-912)-[emotions-expressive_beh]
+49-(V Lyrics.txt_43-955)-[]
+50-(V Lyrics.txt_44-999)-[]
+51-(V Lyrics.txt_45-1044)-[]
+52-(V Lyrics.txt_46-1090)-[primary-anality]
+53-(V Lyrics.txt_47-1138)-[primary-anality]
+54-(V Lyrics.txt_48-1186)-[primary-narcissism,primary-sex]
+55-(V Lyrics.txt_49-1236)-[secondary-temporal_repere]
+56-(V Lyrics.txt_50-1286)-[emotions-glory]
+57-(V Lyrics.txt_51-1337)-[secondary-instru_behavior,secondary-restraint]
+58-(V Lyrics.txt_52-1389)-[primary-anality,primary-sex]
+59-(V Lyrics.txt_53-1442)-[primary-sex,primary-anality]
+60-(V Lyrics.txt_54-1496)-[emotions-aggression]
+61-(V Lyrics.txt_54-1497)-[primary-narcissism,emotions-aggression]
+62-(V Lyrics.txt_55-1552)-[]
+63-(V Lyrics.txt_56-1608)-[primary-sex]
+64-(V Lyrics.txt_57-1665)-[]
+65-(V Lyrics.txt_58-1723)-[primary-anality]
+66-(V Lyrics.txt_59-1782)-[primary-concreteness]
+67-(V Lyrics.txt_60-1842)-[primary-depth,emotions-affection]
+68-(V Lyrics.txt_61-1903)-[emotions-aggression]
+69-(V Lyrics.txt_62-1965)-[primary-narcissism,primary-sex]
+70-(V Lyrics.txt_62-1966)-[]
+71-(V Lyrics.txt_63-2029)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(V Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-SwitchMIX-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,v,sn1),def_prop(SwitchMIX,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(V Lyrics.txt_2,3,cl2-nil-nil-be-[ncmod-modal-shit-sn2,subj-theme_bound-you-sn1,and(shit,this,sn2),def_prop(shit,[attivita,umano]),def_prop(you,[umano])])
+lf(V Lyrics.txt_3,6,cl3-nil-nil-be-[ncmod-modal-fuck-sn2,subj-theme_bound-you-sn1,def_prop(fuck,[attivita]),def_prop(you,[umano])])
+lf(V Lyrics.txt_4,10,cl5-nil-nil-cut-[cmod-subord-cut-",subj-agent-you-sn3,def_prop(you,[umano])])
+lf(V Lyrics.txt_4,10,cl4-nil-will-grab-[obj-theme-knife-sn2,subj-agent-i-sn1,def_prop(knife,[oggetto,strumento]),def_prop(i,[umano])])
+lf(V Lyrics.txt_5,16,cl6-nil-will-leave-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(V Lyrics.txt_6,22,cl7-nil-nil-fuck-[obj-theme-bitch-sn2,subj-actor-i-sn1,aux-am-nil,progr-fucking-nil,def_prop(bitch,[animato,stato]),def_prop(i,[umano])])
+lf(V Lyrics.txt_7,29,cl8-nil-will-leave-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(V Lyrics.txt_8,37,cl9-not-nil-want-[obj-tema_unaff-shit-sn2,subj-actor-i-sn1,aux-do-nil,and(shit,this,sn2),def_prop(shit,[attivita,umano]),def_prop(i,[umano])])
+lf(V Lyrics.txt_9,46,cl10-nil-nil-medicate-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(V Lyrics.txt_10,56,cl11-nil-nil-appreciate-[subj-agent-pro-nil])
+lf(V Lyrics.txt_11,67,cl12-nil-nil-hate-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(V Lyrics.txt_12,79,cl14-nil-nil-waste-[adj-(mod)-no_more-nil,subj-theme_aff-kid-sn5,aux-are-nil,def_prop(kid,[animato,sostanza,umano])])
+lf(V Lyrics.txt_12,79,cl13-nil-nil-masturbate-[ncmod-locativo-face-sn2,subj-theme-i-sn1,def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(V Lyrics.txt_13,93,cl15-nil-nil-say-[obj-theme_unaff-figgity-flock-sn1,def_prop(figgity-flock,[nquant])])
+lf(V Lyrics.txt_14,107,cl16-nil-nil-be-[ncmod-comitativo-Glock-sn4,subj-theme_bound-sheep-sn3,subj-theme_bound-sheep-sn2,subj-theme_bound-you-sn1,and(sheep,you,sn2),and(you,all,sn1),def_prop(Glock,[umano]),def_prop(sheep,[animato,umano]),def_prop(sheep,[animato,umano]),def_prop(you,[umano])])
+lf(V Lyrics.txt_15,122,cl18-nil-nil-crash-[obj-theme-stock-sn3,xadj-result-crash-2,and(stock,all,sn3),def_prop(stock,[astratto,oggetto,plant,stato,strumento])])
+lf(V Lyrics.txt_15,122,cl17-nil-nil-make-[obj-goal-album-sn2,subj-agent-you-sn1,and(album,new,sn2),def_prop(album,[attivita,informa,oggetto,strumento]),def_prop(you,[umano])])
+lf(V Lyrics.txt_16,139,cl19-nil-nil-be-[xadj-adj-done-adj1,ncmod-modale-bullshit-sn1,def_prop(done,_495558),def_prop(bullshit,[attivita,informa])])
+lf(V Lyrics.txt_17,156,cl20-not-nil-be-[subj-theme_bound-i-sn3,xcomp-prop-something-sn2,subj-theme_bound-you-sn1,def_prop(i,[umano]),def_prop(something,[astratto,informa,oggetto]),def_prop(you,[umano])])
+lf(V Lyrics.txt_18,174,cl21-nil-nil-buy-[obj2-goal-out-sn3,obj-theme-em-sn2,subj-actor-peace-sn1,and(out,all,sn3),def_prop(out,[istituzione]),def_prop(em,[nquant]),def_prop(peace,[attivita,emotivo,informa,stato])])
+lf(V Lyrics.txt_19,193,nil-nil-nil-down-[ncmod-loc_direct-bucket-sn4,obj-theme-gullet-sn3,ncmod-modal-pint-sn2,subj-agent-liver-sn1,def_prop(bucket,[nquant,oggetto,strumento]),def_prop(gullet,[body_part,oggetto]),def_prop(pint,[nquant]),def_prop(liver,[body_part,edible,oggetto,umano])])
+lf(V Lyrics.txt_20,213,cl22-nil-nil-be-[xadj-adj-filled-adj3,ncmod-comitativo-fish-sn1,and(fish,baby,sn1),def_prop(filled,_496252),def_prop(fish,[animato,edible,oggetto])])
+lf(V Lyrics.txt_21,234,cl26-nil-nil-grant-[subj-agent-wish-sn25,obj-goal-wish-sn21,subj-agent-i-sn20,obj-goal-wish-sn16,obj-theme-how-sn15,subj-agent-i-sn14,obj-theme-wish-sn10,obj-goal-i-sn9,subj-agent-it-sn8,adj-(mod)-love-nil,aux-am-nil,progr-granting-nil,and(wish,all,sn25),and(wish,favorite,sn25),and(wish,all,sn21),and(wish,favorite,sn21),and(wish,all,sn16),and(wish,favorite,sn16),and(wish,all,sn10),and(wish,favorite,sn10),def_prop(wish,[astratto,attivita,emotivo,informa]),def_prop(wish,[astratto,attivita,emotivo,informa]),def_prop(i,[umano]),def_prop(wish,[astratto,attivita,emotivo,informa]),def_prop(how,[manner]),def_prop(i,[umano]),def_prop(wish,[astratto,attivita,emotivo,informa]),def_prop(i,[umano]),def_prop(it,[any])])
+lf(V Lyrics.txt_21,234,cl25-nil-nil-love-[subj-experiencer-it-sn7,subj-experiencer-it-sn5,subj-experiencer-it-sn4,and(it,you,sn4),def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any])])
+lf(V Lyrics.txt_21,234,cl24-nil-nil-know-[subj-tema_nonaff-you-sn2,def_prop(you,[umano])])
+lf(V Lyrics.txt_21,234,cl23-nil-nil-bitch-[subj-actor-you-sn2,subj-actor-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(V Lyrics.txt_22,259,nil-nil-nil-wish-[ncmod-comitativo-many-sn3,ncmod-locativo-beanie-sn2,subj-experiencer-genie-sn1,def_prop(many,[person]),def_prop(beanie,[oggetto,strumento]),def_prop(genie,[umano])])
+lf(V Lyrics.txt_23,282,cl27-not-nil-be-[xcomp-prop-business-sn1,and(business,no,sn1),def_prop(business,[astratto,attivita,istituzione])])
+lf(V Lyrics.txt_24,306,cl28-nil-nil-be-[ncmod-modal-shit-sn2,subj-theme_bound-you-sn1,and(shit,this,sn2),def_prop(shit,[attivita,umano]),def_prop(you,[umano])])
+lf(V Lyrics.txt_25,331,cl29-nil-nil-be-[ncmod-modal-fuck-sn2,subj-theme_bound-you-sn1,def_prop(fuck,[attivita]),def_prop(you,[umano])])
+lf(V Lyrics.txt_26,357,cl31-nil-nil-cut-[cmod-subord-cut-",subj-agent-you-sn3,def_prop(you,[umano])])
+lf(V Lyrics.txt_26,357,cl30-nil-will-grab-[obj-theme-knife-sn2,subj-agent-i-sn1,def_prop(knife,[oggetto,strumento]),def_prop(i,[umano])])
+lf(V Lyrics.txt_27,385,cl32-nil-will-leave-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(V Lyrics.txt_28,413,cl33-nil-nil-fuck-[obj-theme-bitch-sn2,subj-actor-i-sn1,aux-am-nil,progr-fucking-nil,def_prop(bitch,[animato,stato]),def_prop(i,[umano])])
+lf(V Lyrics.txt_29,442,cl34-nil-will-leave-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(V Lyrics.txt_30,472,cl35-not-nil-want-[obj-tema_unaff-shit-sn2,subj-actor-i-sn1,aux-do-nil,and(shit,this,sn2),def_prop(shit,[attivita,umano]),def_prop(i,[umano])])
+lf(V Lyrics.txt_31,503,cl36-nil-nil-medicate-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(V Lyrics.txt_32,535,cl37-nil-nil-appreciate-[subj-agent-pro-nil])
+lf(V Lyrics.txt_33,568,cl38-nil-nil-hate-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(V Lyrics.txt_34,602,cl40-nil-nil-waste-[adj-(mod)-no_more-nil,subj-theme_aff-work-sn5,aux-(is)-nil,def_prop(work,[attivita,cambia,oggetto,strumento])])
+lf(V Lyrics.txt_34,602,cl39-nil-nil-masturbate-[ncmod-locativo-face-sn2,subj-theme-i-sn1,def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(V Lyrics.txt_35,638,cl41-nil-nil-be-[xcomp-prop-super-sn2,subj-theme_bound-i-sn1,def_prop(super,[relat,sociale,umano]),def_prop(i,[umano])])
+lf(V Lyrics.txt_36,674,cl42-nil-nil-put-[iobj-goal-work-sn2,subj-agent-i-sn1,def_prop(work,[attivita,cambia,oggetto,strumento]),def_prop(i,[umano])])
+lf(V Lyrics.txt_37,711,cl43-nil-will-call-[adj-(mod)-up-nil,obj-theme_bound-next_of_kin-sn2,subj-agent-i-sn1,def_prop(next_of_kin,[umano]),def_prop(i,[umano])])
+lf(V Lyrics.txt_38,749,cl44-nil-nil-make-[cmod-subord-make-",subj-agent-you-sn1,def_prop(you,[umano])])
+lf(V Lyrics.txt_39,788,cl45-nil-nil-be-[subj-theme_bound-head-sn2,subj-theme_bound-head-sn1,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano])])
+lf(V Lyrics.txt_40,828,cl46-nil-nil-be-[xcomp-prop-dead-sn2,subj-theme_bound-you-sn1,def_prop(dead,[valutativo]),def_prop(you,[umano])])
+lf(V Lyrics.txt_41,869,cl48-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(V Lyrics.txt_41,869,cl47-nil-nil-bet-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(V Lyrics.txt_42,912,cl49-not-nil-play-[subj-agent-game-sn1,aux-am-nil,progr-playing-nil,and(game,i,sn1),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento])])
+lf(V Lyrics.txt_43,955,cl50-nil-nil-say-[obj-theme_unaff-self-worth-sn1,and(self-worth,no,sn1),def_prop(self-worth,[astratto,nquant,umano])])
+lf(V Lyrics.txt_44,999,cl51-nil-nil-be-[xcomp-prop-futuristic-sn2,subj-theme_bound-Nigga-sn1,and(Nigga,i,sn1),def_prop(futuristic,[evaluative]),def_prop(Nigga,[istituzione,umano])])
+lf(V Lyrics.txt_45,1044,cl52-nil-nil-say-[])
+lf(V Lyrics.txt_46,1090,cl54-nil-nil-push-[ncmod-locativo-dirt-sn3,obj-destination-you-sn2,xadj-result-push-2,def_prop(dirt,[stato]),def_prop(you,[umano])])
+lf(V Lyrics.txt_46,1090,cl53-nil-nil-force-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(V Lyrics.txt_47,1138,cl55-nil-nil-be-[adj-(mod)-shit-nil,ncmod-modale-my-sn2,subj-theme_bound-i-sn1,and(shit,Sith,sn3),def_prop(shit,[attivita,umano]),def_prop(my,[informa,tecno]),def_prop(i,[umano])])
+lf(V Lyrics.txt_48,1186,cl57-nil-nil-bitch-[xcomp-purpose-grab-2,subj-actor-you-sn1,def_prop(you,[umano])])
+lf(V Lyrics.txt_48,1186,cl56-nil-nil-grab-[iobj-theme-eye-sn2,def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(V Lyrics.txt_49,1236,cl58-nil-nil-listen-[subj-agent-you-sn1,aux-are-nil,progr-listening-nil,def_prop(you,[umano])])
+lf(V Lyrics.txt_50,1286,cl59-nil-nil-be-[xadj-adj-running-adj4,ncmod-comitativo-victory-sn1,def_prop(running,_501134),def_prop(victory,[evento])])
+lf(V Lyrics.txt_51,1337,cl60-not-can-stop-[obj-actor-business-sn2,subj-agent-you-sn1,def_prop(business,[astratto,attivita,istituzione]),def_prop(you,[umano])])
+lf(V Lyrics.txt_52,1389,cl61-nil-nil-be-[ncmod-modal-shit-sn2,subj-theme_bound-you-sn1,and(shit,this,sn2),def_prop(shit,[attivita,umano]),def_prop(you,[umano])])
+lf(V Lyrics.txt_53,1442,cl62-nil-nil-be-[ncmod-modal-fuck-sn2,subj-theme_bound-you-sn1,def_prop(fuck,[attivita]),def_prop(you,[umano])])
+lf(V Lyrics.txt_54,1496,cl64-nil-nil-cut-[cmod-subord-cut-",subj-agent-you-sn3,def_prop(you,[umano])])
+lf(V Lyrics.txt_54,1496,cl63-nil-will-grab-[obj-theme-knife-sn2,subj-agent-i-sn1,def_prop(knife,[oggetto,strumento]),def_prop(i,[umano])])
+lf(V Lyrics.txt_55,1552,cl65-nil-will-leave-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(V Lyrics.txt_56,1608,cl66-nil-nil-fuck-[obj-theme-bitch-sn2,subj-actor-i-sn1,aux-am-nil,progr-fucking-nil,def_prop(bitch,[animato,stato]),def_prop(i,[umano])])
+lf(V Lyrics.txt_57,1665,cl67-nil-will-leave-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(V Lyrics.txt_58,1723,cl68-not-nil-want-[obj-tema_unaff-shit-sn2,subj-actor-i-sn1,aux-do-nil,and(shit,this,sn2),def_prop(shit,[attivita,umano]),def_prop(i,[umano])])
+lf(V Lyrics.txt_59,1782,cl69-nil-nil-medicate-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(V Lyrics.txt_60,1842,cl70-nil-nil-appreciate-[subj-agent-pro-nil])
+lf(V Lyrics.txt_61,1903,cl71-nil-nil-hate-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(V Lyrics.txt_62,1965,cl73-nil-nil-waste-[adj-(mod)-no_more-nil,subj-theme_aff-cum-sn5,aux-(is)-nil,def_prop(cum,[istituzione,umano])])
+lf(V Lyrics.txt_62,1965,cl72-nil-nil-masturbate-[ncmod-locativo-face-sn2,subj-theme-i-sn1,def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(V Lyrics.txt_63,2029,cl74-nil-nil-say-[obj-theme_unaff-v-sn1,def_prop(v,[attivita,edible,informa,nquant,oggetto])])

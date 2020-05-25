@@ -1,0 +1,183 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Adult Books Lyrics.txt_1-1  []-positive  []
+Adult Books Lyrics.txt_2-3  []-positive  []
+Adult Books Lyrics.txt_2-4  []-positive  [fgb]
+Adult Books Lyrics.txt_3-7  []-positive  []
+Adult Books Lyrics.txt_4-11  []-negative  [neg]
+Adult Books Lyrics.txt_5-16  []-negative  [neg]
+Adult Books Lyrics.txt_6-22  []-positive  []
+Adult Books Lyrics.txt_7-29  []-positive  []
+Adult Books Lyrics.txt_8-37  []-positive  []
+Adult Books Lyrics.txt_9-46  []-positive  []
+Adult Books Lyrics.txt_10-56  []-positive  []
+Adult Books Lyrics.txt_11-67  []-positive  []
+Adult Books Lyrics.txt_12-79  []-positive  []
+Adult Books Lyrics.txt_13-92  []-positive  [fhd]
+Adult Books Lyrics.txt_14-106  []-negative  []
+Adult Books Lyrics.txt_15-121  []-negative  []
+Adult Books Lyrics.txt_15-122  []-positive  []
+Adult Books Lyrics.txt_16-138  []-positive  []
+Adult Books Lyrics.txt_17-155  []-negative  []
+Adult Books Lyrics.txt_18-173  []-negative  []
+Adult Books Lyrics.txt_18-174  []-positive  []
+Adult Books Lyrics.txt_19-193  []-positive  []
+Adult Books Lyrics.txt_20-213  []-negative  []
+Adult Books Lyrics.txt_21-234  []-positive  []
+Adult Books Lyrics.txt_22-256  []-negative  [neg]
+Adult Books Lyrics.txt_23-279  []-positive  [bkc]
+Adult Books Lyrics.txt_24-303  []-positive  [fgb]
+Adult Books Lyrics.txt_25-328  []-question  []
+Adult Books Lyrics.txt_26-355  [but-advers]-positive  [bkc,fgb]
+Adult Books Lyrics.txt_27-382  []-negative  [neg]
+Adult Books Lyrics.txt_28-410  []-positive  []
+Adult Books Lyrics.txt_29-439  []-positive  []
+Adult Books Lyrics.txt_30-469  []-positive  []
+Adult Books Lyrics.txt_31-500  []-positive  [fhd]
+Adult Books Lyrics.txt_32-532  []-negative  []
+Adult Books Lyrics.txt_33-565  []-negative  []
+Adult Books Lyrics.txt_33-566  []-positive  []
+Adult Books Lyrics.txt_34-600  []-positive  []
+Adult Books Lyrics.txt_35-635  []-negative  []
+Adult Books Lyrics.txt_36-671  []-negative  []
+Adult Books Lyrics.txt_36-672  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Adult Books Lyrics.txt_1-1  [adult,Books,Lyrics,by,x]  [title]
+Adult Books Lyrics.txt_2-3  [many,many,guys]  [provide_expl_just(guy,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_2-4  [and,girls]  [provide_expl_just(guy,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_3-7  [all,real,beauties]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_4-11  [everybody,making,a,stab]  [reject_expl_just(make,[external,factive,cause,foreground,objective])]
+Adult Books Lyrics.txt_5-16  [they,hurt,themselves]  [reject_expl_just(hurt,[external,factive,cause,foreground,objective])]
+Adult Books Lyrics.txt_6-22  [singles,rule,the,world]  [provide_expl_just(single,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_7-29  [feeding,on,fresh,blood]  [provide_expl_just(feed,[external,factive,narration,foreground,objective])]
+Adult Books Lyrics.txt_8-37  [one,track,eye]  [provide_expl_just(track,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_9-46  [below_the_belt]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Adult Books Lyrics.txt_10-56  [all,in,a,line]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_11-67  [all,in,a,line]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_12-79  [they,are,all,in,a,line]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_13-92  [adult,books,like]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_14-106  [i,don-t,understand]  [provide_expl_just(understand,[external,factive,narration,foreground,objective])]
+Adult Books Lyrics.txt_15-121  [Jackie,Susann,meant]  [provide_expl_just(mean,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_15-122  [it,that,way]  [provide_expl_just(mean,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_16-138  [adult,books]  [provide_expl_just(book,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_17-155  [i,don-t,understand]  [provide_expl_just(understand,[external,factive,narration,foreground,objective])]
+Adult Books Lyrics.txt_18-173  [Jackie,Susann,meant]  [provide_expl_just(mean,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_18-174  [it,that,way]  [provide_expl_just(mean,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_19-193  [Clifford,shackles,Jane]  [provide_expl_just(shackle,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_20-213  [throws,her,on,the,floor]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_21-234  [she,says]  [provide_expl_just(say,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_22-256  [no]  reject_expl_opin(nil,[])
+Adult Books Lyrics.txt_23-279  [yes]  [accept_expl_opin(be,[_383388,_383394,setting,_383406,_383412])]
+Adult Books Lyrics.txt_24-303  [and,he,cuts,the,chains]  [provide_expl_just(cut,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_25-328  [Tomata,for,go,people,plenty,do,?]  [provide_expl_just(do,[internal,factive,narration,background,objective]),provide_expl_just(go,[internal,factive,narration,foreground,objective])]
+Adult Books Lyrics.txt_26-355  [yes,but,he,just,goes,for,that,special,girl]  [provide_expl_just(go,[external,factive,adverse,background,objective])]
+Adult Books Lyrics.txt_27-382  [who,says,,,no]  [reject_expl_just(say,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_28-410  [all,in,a,line]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_29-439  [all,in,a,line]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_30-469  [they,are,all,in,a,line]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_31-500  [adult,books,like]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_32-532  [i,don-t,understand]  [provide_expl_just(understand,[external,factive,narration,foreground,objective])]
+Adult Books Lyrics.txt_33-565  [Jackie,Susann,meant]  [provide_expl_just(mean,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_33-566  [it,that,way]  [provide_expl_just(mean,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_34-600  [adult,books]  [provide_expl_just(book,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_35-635  [i,don-t,understand]  [provide_expl_just(understand,[external,factive,narration,foreground,objective])]
+Adult Books Lyrics.txt_36-671  [Jackie,Susann,meant]  [provide_expl_just(mean,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Adult Books Lyrics.txt_36-672  [it,that,way]  [provide_expl_just(mean,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Adult Books Lyrics.txt_1-1)-[]
+2-(Adult Books Lyrics.txt_2-3)-[]
+3-(Adult Books Lyrics.txt_2-4)-[]
+4-(Adult Books Lyrics.txt_3-7)-[secondary-abstract_tought]
+5-(Adult Books Lyrics.txt_4-11)-[emotions-aggression]
+6-(Adult Books Lyrics.txt_5-16)-[emotions-aggression]
+7-(Adult Books Lyrics.txt_6-22)-[]
+8-(Adult Books Lyrics.txt_7-29)-[primary-narcissism]
+9-(Adult Books Lyrics.txt_8-37)-[primary-narcissism]
+10-(Adult Books Lyrics.txt_9-46)-[]
+11-(Adult Books Lyrics.txt_10-56)-[primary-brink]
+12-(Adult Books Lyrics.txt_11-67)-[primary-brink]
+13-(Adult Books Lyrics.txt_12-79)-[primary-brink]
+14-(Adult Books Lyrics.txt_13-92)-[emotions-affection]
+15-(Adult Books Lyrics.txt_14-106)-[secondary-abstract_tought]
+16-(Adult Books Lyrics.txt_15-121)-[secondary-abstract_tought]
+17-(Adult Books Lyrics.txt_15-122)-[]
+18-(Adult Books Lyrics.txt_16-138)-[]
+19-(Adult Books Lyrics.txt_17-155)-[secondary-abstract_tought]
+20-(Adult Books Lyrics.txt_18-173)-[secondary-abstract_tought]
+half
+21-(Adult Books Lyrics.txt_18-174)-[]
+22-(Adult Books Lyrics.txt_19-193)-[]
+23-(Adult Books Lyrics.txt_20-213)-[primary-ascend,primary-brink]
+24-(Adult Books Lyrics.txt_21-234)-[secondary-social_behavior]
+25-(Adult Books Lyrics.txt_22-256)-[]
+26-(Adult Books Lyrics.txt_23-279)-[]
+27-(Adult Books Lyrics.txt_24-303)-[emotions-aggression]
+28-(Adult Books Lyrics.txt_25-328)-[]
+29-(Adult Books Lyrics.txt_26-355)-[]
+30-(Adult Books Lyrics.txt_27-382)-[secondary-social_behavior]
+31-(Adult Books Lyrics.txt_28-410)-[primary-brink]
+32-(Adult Books Lyrics.txt_29-439)-[primary-brink]
+33-(Adult Books Lyrics.txt_30-469)-[primary-brink]
+34-(Adult Books Lyrics.txt_31-500)-[emotions-affection]
+35-(Adult Books Lyrics.txt_32-532)-[secondary-abstract_tought]
+36-(Adult Books Lyrics.txt_33-565)-[secondary-abstract_tought]
+37-(Adult Books Lyrics.txt_33-566)-[]
+38-(Adult Books Lyrics.txt_34-600)-[]
+39-(Adult Books Lyrics.txt_35-635)-[secondary-abstract_tought]
+40-(Adult Books Lyrics.txt_36-671)-[secondary-abstract_tought]
+41-(Adult Books Lyrics.txt_36-672)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Adult Books Lyrics.txt_1,1,cl1-nil-nil-be-[subj-theme_bound-Lyrics-sn1,and(Lyrics,Book,sn1),and(Lyrics,adult,sn1),def_prop(Lyrics,[informa,tecno])])
+lf(Adult Books Lyrics.txt_2,3,cl3-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_2,3,cl2-nil-nil-guy-[subj-agent-many-sn2,subj-agent-many-sn1,and(many,many,sn1),def_prop(many,[_393058]),def_prop(many,_393072)])
+lf(Adult Books Lyrics.txt_3,7,cl4-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_4,11,cl5-nil-nil-make-[obj-goal-stab-sn2,subj-agent-everybody-sn1,def_prop(stab,[attivita]),def_prop(everybody,[umano])])
+lf(Adult Books Lyrics.txt_5,16,cl6-nil-nil-hurt-[obj-theme_unaff-themselves-sn2,subj-experiencer-they-sn1,def_prop(themselves,[umano]),def_prop(they,[umano])])
+lf(Adult Books Lyrics.txt_6,22,cl7-nil-nil-single-[obj-theme-world-sn3,obj-theme-rule-sn2,subj-agent-you-sn1,def_prop(world,[astratto,istituzione,oggetto]),def_prop(rule,[astratto,attivita,informa,oggetto,strumento,tempo]),def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_7,29,cl8-nil-nil-feed-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_8,37,cl9-nil-nil-track-[obj-theme-eye-sn2,subj-agent-one-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(one,[umano])])
+lf(Adult Books Lyrics.txt_9,46,cl10-nil-nil-say-[])
+lf(Adult Books Lyrics.txt_10,56,cl11-nil-nil-be-[ncmod-locativo-line-sn2,subj-theme_bound-you-sn1,def_prop(line,[astratto,attivita,cambia,informa,luogo,oggetto,strumento]),def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_11,67,cl12-nil-nil-be-[ncmod-locativo-line-sn2,subj-theme_bound-you-sn1,def_prop(line,[astratto,attivita,cambia,informa,luogo,oggetto,strumento]),def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_12,79,cl13-nil-nil-be-[xcomp-prop-all-sn2,subj-theme_bound-they-sn1,def_prop(all,[_394222]),def_prop(they,[umano])])
+lf(Adult Books Lyrics.txt_13,92,nil-nil-nil-like-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_14,106,cl14-not-nil-understand-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_15,121,cl16-nil-nil-be-[subj-theme_bound-it-sn2,and(it,way,sn2),def_prop(it,[any])])
+lf(Adult Books Lyrics.txt_15,121,cl15-nil-nil-mean-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_16,138,nil-nil-nil-book-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_17,155,cl17-not-nil-understand-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_18,173,cl19-nil-nil-be-[subj-theme_bound-it-sn2,and(it,way,sn2),def_prop(it,[any])])
+lf(Adult Books Lyrics.txt_18,173,cl18-nil-nil-mean-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_19,193,cl20-nil-nil-shackle-[obj-theme-Jane-sn2,subj-agent-Clifford-sn1,def_prop(Jane,[place,umano]),def_prop(Clifford,[place,umano])])
+lf(Adult Books Lyrics.txt_20,213,cl21-nil-nil-be-[xadj-adj-her-adj1,ncmod-locativo-floor-sn2,subj-theme_bound-throw-sn1,def_prop(her,_395164),def_prop(floor,[astratto,attivita,informa,oggetto,strumento]),def_prop(throw,[astratto,attivita,evento,oggetto,stato,strumento])])
+lf(Adult Books Lyrics.txt_21,234,cl22-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_22,256,cl23-nil-nil-say-[obj-theme_unaff-no-sn1,def_prop(no,[istituzione])])
+lf(Adult Books Lyrics.txt_23,279,cl24-nil-nil-say-[obj-theme_unaff-yes-sn1,def_prop(yes,[attivita,informa])])
+lf(Adult Books Lyrics.txt_24,303,cl25-nil-nil-cut-[cmod-subord-cut-",obj-theme_aff-chain-sn2,subj-agent-he-sn1,def_prop(chain,[nquant,oggetto,strumento]),def_prop(he,[umano])])
+lf(Adult Books Lyrics.txt_25,328,cl27-nil-nil-go-[cmod-subord-do-nil])
+lf(Adult Books Lyrics.txt_25,328,cl26-nil-nil-do-[xcomp-actor-Tomata-sn2,subj-theme_unaff-people-sn1,aux-do-nil,def_prop(Tomata,[istituzione,umano]),def_prop(people,[istituzione])])
+lf(Adult Books Lyrics.txt_26,355,cl28-nil-nil-go-[adj-(mod)-just-nil,subj-agent-girl-sn3,subj-agent-girl-sn2,and(girl,that,sn3),and(girl,special,sn3),and(girl,that,sn2),and(girl,special,sn2),def_prop(girl,[oggetto,strumento]),def_prop(girl,[oggetto,strumento])])
+lf(Adult Books Lyrics.txt_27,382,cl29-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_28,410,cl30-nil-nil-be-[ncmod-locativo-line-sn2,subj-theme_bound-you-sn1,def_prop(line,[astratto,attivita,cambia,informa,luogo,oggetto,strumento]),def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_29,439,cl31-nil-nil-be-[ncmod-locativo-line-sn2,subj-theme_bound-you-sn1,def_prop(line,[astratto,attivita,cambia,informa,luogo,oggetto,strumento]),def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_30,469,cl32-nil-nil-be-[xcomp-prop-all-sn2,subj-theme_bound-they-sn1,def_prop(all,[_396508]),def_prop(they,[umano])])
+lf(Adult Books Lyrics.txt_31,500,nil-nil-nil-like-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_32,532,cl33-not-nil-understand-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_33,565,cl35-nil-nil-be-[subj-theme_bound-it-sn2,and(it,way,sn2),def_prop(it,[any])])
+lf(Adult Books Lyrics.txt_33,565,cl34-nil-nil-mean-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_34,600,nil-nil-nil-book-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_35,635,cl36-not-nil-understand-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Adult Books Lyrics.txt_36,671,cl38-nil-nil-be-[subj-theme_bound-it-sn2,and(it,way,sn2),def_prop(it,[any])])
+lf(Adult Books Lyrics.txt_36,671,cl37-nil-nil-mean-[subj-theme_bound-you-sn1,def_prop(you,[umano])])

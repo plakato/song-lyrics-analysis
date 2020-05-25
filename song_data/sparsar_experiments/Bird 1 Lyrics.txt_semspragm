@@ -1,0 +1,269 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Bird 1 Lyrics.txt_1-1  []-positive  [neg]
+Bird 1 Lyrics.txt_2-3  []-question  [fgb]
+Bird 1 Lyrics.txt_3-6  []-positive  []
+Bird 1 Lyrics.txt_4-10  []-positive  [ack]
+Bird 1 Lyrics.txt_5-15  []-positive  []
+Bird 1 Lyrics.txt_6-21  []-positive  []
+Bird 1 Lyrics.txt_7-28  []-question  [neg]
+Bird 1 Lyrics.txt_8-36  []-positive  [fgb]
+Bird 1 Lyrics.txt_9-47  []-positive  []
+Bird 1 Lyrics.txt_10-57  []-positive  []
+Bird 1 Lyrics.txt_10-58  []-positive  []
+Bird 1 Lyrics.txt_11-69  []-positive  []
+Bird 1 Lyrics.txt_12-81  []-negative  [neg]
+Bird 1 Lyrics.txt_13-94  []-negative  [neg]
+Bird 1 Lyrics.txt_14-108  []-positive  []
+Bird 1 Lyrics.txt_15-123  []-positive  []
+Bird 1 Lyrics.txt_15-124  []-positive  []
+Bird 1 Lyrics.txt_16-140  []-positive  []
+Bird 1 Lyrics.txt_16-141  []-positive  []
+Bird 1 Lyrics.txt_17-158  []-positive  []
+Bird 1 Lyrics.txt_17-159  [if-hypoth]-suspension  [fgb]
+Bird 1 Lyrics.txt_18-177  []-positive  []
+Bird 1 Lyrics.txt_19-196  []-positive  []
+Bird 1 Lyrics.txt_19-197  []-positive  []
+Bird 1 Lyrics.txt_20-217  [then-temp_seq]-positive  []
+Bird 1 Lyrics.txt_20-218  []-positive  []
+Bird 1 Lyrics.txt_21-239  []-positive  []
+Bird 1 Lyrics.txt_22-261  []-positive  []
+Bird 1 Lyrics.txt_23-284  []-positive  []
+Bird 1 Lyrics.txt_24-308  []-positive  []
+Bird 1 Lyrics.txt_25-333  []-positive  []
+Bird 1 Lyrics.txt_26-359  []-positive  []
+Bird 1 Lyrics.txt_27-386  []-positive  [fgb]
+Bird 1 Lyrics.txt_28-414  []-negative  []
+Bird 1 Lyrics.txt_29-443  []-negative  [neg]
+Bird 1 Lyrics.txt_30-473  []-positive  []
+Bird 1 Lyrics.txt_31-504  []-positive  []
+Bird 1 Lyrics.txt_32-538  []-positive  []
+Bird 1 Lyrics.txt_33-571  []-negative  [neg]
+Bird 1 Lyrics.txt_34-605  []-positive  []
+Bird 1 Lyrics.txt_35-640  []-positive  []
+Bird 1 Lyrics.txt_36-676  []-positive  []
+Bird 1 Lyrics.txt_37-713  []-positive  []
+Bird 1 Lyrics.txt_38-751  []-positive  []
+Bird 1 Lyrics.txt_39-790  []-positive  []
+Bird 1 Lyrics.txt_40-830  []-positive  [fgb]
+Bird 1 Lyrics.txt_41-871  []-negative  [neg]
+Bird 1 Lyrics.txt_42-913  []-positive  []
+Bird 1 Lyrics.txt_43-956  []-positive  [fgb]
+Bird 1 Lyrics.txt_44-1000  []-negative  [fgb]
+Bird 1 Lyrics.txt_45-1045  []-negative  [neg,fhd]
+Bird 1 Lyrics.txt_46-1091  []-positive  []
+Bird 1 Lyrics.txt_47-1138  []-negative  [fgb,neg]
+Bird 1 Lyrics.txt_48-1186  []-negative  [neg]
+Bird 1 Lyrics.txt_49-1235  []-positive  []
+Bird 1 Lyrics.txt_50-1285  []-positive  []
+Bird 1 Lyrics.txt_51-1336  []-positive  []
+Bird 1 Lyrics.txt_51-1337  []-negative  [neg]
+Bird 1 Lyrics.txt_52-1389  []-positive  [fgb]
+Bird 1 Lyrics.txt_52-1389  [then-temp_seq]-positive  [fgb]
+Bird 1 Lyrics.txt_53-1442  []-negative  [fgb]
+Bird 1 Lyrics.txt_54-1496  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Bird 1 Lyrics.txt_1-1  [1,bird,Lyrics,by,Underworld]  [title]
+Bird 1 Lyrics.txt_2-3  [ten,and,bit,bat,?]  [provide_expl_just(bat,[internal,factive,narration,foreground,objective])]
+Bird 1 Lyrics.txt_3-6  [white,stick,with,a,red,light]  [provide_expl_just(stick,[external,factive,explanation,background,objective])]
+Bird 1 Lyrics.txt_4-10  [floats,past,her,on,the,right]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Bird 1 Lyrics.txt_5-15  [white,stick,on,the,rock]  [provide_expl_just(stick,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_6-21  [roping,in,the,wind]  [provide_expl_just(rope,[external,factive,narration,foreground,objective])]
+Bird 1 Lyrics.txt_7-28  [hungry,you,are,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Bird 1 Lyrics.txt_8-36  [do,you,know,what,to,eat]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(eat,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_9-47  [floating,in,the,blue]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_10-57  [i,hear]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_10-58  [you,your,voice]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_11-69  [it,comes,out,above,my,head]  [raise_issue(be,[_140868,factive,statement,_140886,subjective])]
+Bird 1 Lyrics.txt_12-81  [close,to,you]  [reject_expl_just(you,[internal,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_13-94  [close,to,you]  [reject_expl_just(you,[internal,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_14-108  [there,is,one,bird,in,my,house]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_15-123  [she,said]  [provide_expl_just(wake,[external,factive,cause,foreground,objective])]
+Bird 1 Lyrics.txt_15-124  [you,woke,up,from,a,dream]  [provide_expl_just(wake,[external,factive,cause,foreground,objective])]
+Bird 1 Lyrics.txt_16-140  [he,heard]  [provide_expl_just(hear,[external,factive,narration,foreground,objective]),provide_expl_just(cass,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_16-141  [Mama,cass]  [provide_expl_just(hear,[external,factive,narration,foreground,objective]),provide_expl_just(cass,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_17-158  [he,felt,better]  [provide_expl_just(feel,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Bird 1 Lyrics.txt_17-159  [if,i,would]  [provide_expl_just(feel,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Bird 1 Lyrics.txt_18-177  [those,things,have,known]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_19-196  [it,damped,his,mood]  [provide_expl_just(damp,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_19-197  [for,a,second]  [provide_expl_just(damp,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_20-217  [then,he,remembered]  [provide_expl_just(remember,[external,factive,narration,foreground,objective])]
+Bird 1 Lyrics.txt_20-218  [where,he,was,.,he,was]  [provide_expl_just(remember,[external,factive,narration,foreground,objective])]
+Bird 1 Lyrics.txt_21-239  [he,regained,his,perspective]  [raise_issue(be,[_157024,factive,statement,_157042,subjective])]
+Bird 1 Lyrics.txt_22-261  [that,felt,a]  [provide_expl_just(feel,[external,factive,narration,foreground,objective])]
+Bird 1 Lyrics.txt_23-284  [lot,better]  [raise_issue(be,[_161688,factive,statement,_161706,subjective])]
+Bird 1 Lyrics.txt_24-308  [it,gets,much,better]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_25-333  [he,laid,down,on,his,bed]  [provide_expl_just(lay,[external,factive,narration,foreground,objective])]
+Bird 1 Lyrics.txt_26-359  [with,the,front,door,open]  [raise_issue(be,[_162798,factive,statement,_162816,subjective])]
+Bird 1 Lyrics.txt_27-386  [and,the,sunlight]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_28-414  [flooding,into,the,room]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_29-443  [he,smelt,tire]  [reject_expl_just(smell,[external,factive,narration,foreground,objective])]
+Bird 1 Lyrics.txt_30-473  [he,laid,back,listening,to,a,fly]  [raise_issue(be,[_164546,factive,statement,_164564,subjective])]
+Bird 1 Lyrics.txt_31-504  [he,saw,washing,hanging]  [provide_expl_just(wash,[external,factive,narration,foreground,objective]),provide_expl_just(see,[external,factive,narration,foreground,objective])]
+Bird 1 Lyrics.txt_32-538  [in,the,sun]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_33-571  [he,caught,a,fleeting]  [reject_expl_just(catch,[external,factive,narration,foreground,objective])]
+Bird 1 Lyrics.txt_34-605  [glimpse,of,a,man]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_35-640  [moving,uphill]  [provide_expl_just(move,[external,factive,cause,foreground,objective]),suggest(move,[external,factive,cause,foreground,objective])]
+Bird 1 Lyrics.txt_36-676  [pursued,by,a,bus]  [provide_expl_just(pursue,[external,factive,narration,foreground,objective])]
+Bird 1 Lyrics.txt_37-713  [he,saw,a,white,church,with,a]  [raise_issue(be,[_168612,factive,statement,_168630,subjective])]
+Bird 1 Lyrics.txt_38-751  [three,blue-domed,roof]  [provide_expl_just(roof,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_39-790  [a,crucifix,on,the,top]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_40-830  [and,an,ant,walked]  [provide_expl_just(walk,[external,factive,narration,foreground,objective])]
+Bird 1 Lyrics.txt_41-871  [along,the,edge,of,his,book]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_42-913  [he,heard,another,bell]  [provide_expl_just(hear,[external,factive,narration,foreground,objective])]
+Bird 1 Lyrics.txt_43-956  [and,a,braying,moustache]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_44-1000  [and,a,moped,started,up]  [indication(start,[external,factive,inception,foreground,objective]),suggest(start,[external,factive,inception,foreground,objective])]
+Bird 1 Lyrics.txt_45-1045  [sounding,like,a,chainsaw]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_46-1091  [of,tiny,firecrackers]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_47-1138  [and,he,smelled,tire,again]  [reject_expl_just(smell,[external,factive,narration,foreground,objective])]
+Bird 1 Lyrics.txt_48-1186  [a,fly,came,dim]  [reject_expl_just(be,[_173888,_173894,_173900,_173906,_173912])]
+Bird 1 Lyrics.txt_49-1235  [along,the,shaft,of,sunlight]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_50-1285  [coming,through,the,open,door]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_51-1336  [he,watched]  [provide_expl_just(watch,[external,factive,narration,foreground,objective]),provide_expl_just(cross,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_51-1337  [it,cross,the,room]  [reject_expl_just(watch,[external,factive,narration,foreground,objective]),reject_expl_just(cross,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_52-1389  [and,get,halfway]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_52-1389  [and,get,halfway,then,it]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Bird 1 Lyrics.txt_53-1442  [turned,around,and,left,,,he,laughed]  [propose_opin_neg(laugh,[external,factive,circumstance,foreground,objective])]
+Bird 1 Lyrics.txt_54-1496  [there,is,one,bird,in,my,house]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Bird 1 Lyrics.txt_1-1)-[primary-height]
+2-(Bird 1 Lyrics.txt_2-3)-[]
+3-(Bird 1 Lyrics.txt_3-6)-[primary-vision]
+4-(Bird 1 Lyrics.txt_4-10)-[primary-ascend,secondary-temporal_repere,secondary-moral_imperative]
+5-(Bird 1 Lyrics.txt_5-15)-[primary-hard]
+6-(Bird 1 Lyrics.txt_6-21)-[secondary-instru_behavior]
+7-(Bird 1 Lyrics.txt_7-28)-[primary-orality]
+8-(Bird 1 Lyrics.txt_8-36)-[secondary-abstract_tought,primary-orality]
+9-(Bird 1 Lyrics.txt_9-47)-[primary-vision]
+10-(Bird 1 Lyrics.txt_10-57)-[primary-sound]
+11-(Bird 1 Lyrics.txt_10-58)-[primary-sound]
+12-(Bird 1 Lyrics.txt_11-69)-[primary-concreteness,primary-height,primary-narcissism]
+13-(Bird 1 Lyrics.txt_12-81)-[primary-concreteness]
+14-(Bird 1 Lyrics.txt_13-94)-[primary-concreteness]
+15-(Bird 1 Lyrics.txt_14-108)-[primary-height]
+16-(Bird 1 Lyrics.txt_15-123)-[secondary-social_behavior]
+17-(Bird 1 Lyrics.txt_15-124)-[primary-counscious,primary-counscious]
+18-(Bird 1 Lyrics.txt_16-140)-[primary-sound]
+19-(Bird 1 Lyrics.txt_16-141)-[]
+20-(Bird 1 Lyrics.txt_17-158)-[]
+21-(Bird 1 Lyrics.txt_17-159)-[]
+22-(Bird 1 Lyrics.txt_18-177)-[secondary-abstract_tought]
+23-(Bird 1 Lyrics.txt_19-196)-[primary-water]
+24-(Bird 1 Lyrics.txt_19-197)-[]
+25-(Bird 1 Lyrics.txt_20-217)-[secondary-temporal_repere]
+26-(Bird 1 Lyrics.txt_20-218)-[primary-concreteness]
+27-(Bird 1 Lyrics.txt_21-239)-[]
+28-(Bird 1 Lyrics.txt_22-261)-[]
+29-(Bird 1 Lyrics.txt_23-284)-[]
+30-(Bird 1 Lyrics.txt_24-308)-[]
+31-(Bird 1 Lyrics.txt_25-333)-[primary-passivity,primary-passivity]
+half
+32-(Bird 1 Lyrics.txt_26-359)-[primary-concreteness,primary-brink,primary-concreteness]
+33-(Bird 1 Lyrics.txt_27-386)-[primary-vision]
+34-(Bird 1 Lyrics.txt_28-414)-[]
+35-(Bird 1 Lyrics.txt_29-443)-[primary-odor]
+36-(Bird 1 Lyrics.txt_30-473)-[primary-passivity,primary-concreteness,primary-ascend]
+37-(Bird 1 Lyrics.txt_31-504)-[primary-vision]
+38-(Bird 1 Lyrics.txt_32-538)-[primary-fire]
+39-(Bird 1 Lyrics.txt_33-571)-[secondary-restraint]
+40-(Bird 1 Lyrics.txt_34-605)-[primary-vision]
+41-(Bird 1 Lyrics.txt_35-640)-[primary-ascend]
+42-(Bird 1 Lyrics.txt_36-676)-[secondary-instru_behavior]
+43-(Bird 1 Lyrics.txt_37-713)-[primary-vision]
+44-(Bird 1 Lyrics.txt_38-751)-[primary-height]
+45-(Bird 1 Lyrics.txt_39-790)-[primary-height]
+46-(Bird 1 Lyrics.txt_40-830)-[]
+47-(Bird 1 Lyrics.txt_41-871)-[primary-concreteness,primary-brink]
+48-(Bird 1 Lyrics.txt_42-913)-[primary-sound,primary-sound]
+49-(Bird 1 Lyrics.txt_43-956)-[]
+50-(Bird 1 Lyrics.txt_44-1000)-[]
+51-(Bird 1 Lyrics.txt_45-1045)-[emotions-affection]
+52-(Bird 1 Lyrics.txt_46-1091)-[]
+53-(Bird 1 Lyrics.txt_47-1138)-[primary-odor,secondary-temporal_repere]
+54-(Bird 1 Lyrics.txt_48-1186)-[primary-ascend,primary-diffusion]
+55-(Bird 1 Lyrics.txt_49-1235)-[primary-concreteness,primary-vision]
+56-(Bird 1 Lyrics.txt_50-1285)-[primary-concreteness,primary-brink]
+57-(Bird 1 Lyrics.txt_51-1336)-[primary-vision]
+58-(Bird 1 Lyrics.txt_51-1337)-[]
+59-(Bird 1 Lyrics.txt_52-1389)-[]
+60-(Bird 1 Lyrics.txt_52-1389)-[secondary-temporal_repere]
+61-(Bird 1 Lyrics.txt_53-1442)-[emotions-positive_affect]
+62-(Bird 1 Lyrics.txt_54-1496)-[primary-height]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Bird 1 Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Underworld-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,1,sn1),def_prop(Underworld,[istituzione]),def_prop(Lyrics,[informa,tecno])])
+lf(Bird 1 Lyrics.txt_2,3,cl2-nil-nil-bat-[subj-actor-ten-sn2,subj-actor-ten-sn1,and(ten,bite,sn1),def_prop(ten,[nquant]),def_prop(ten,[nquant])])
+lf(Bird 1 Lyrics.txt_3,6,cl3-nil-nil-stick-[iobj-goal-light-sn2,subj-agent-white-sn1,and(light,red,sn2),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(white,[astratto,oggetto,strumento])])
+lf(Bird 1 Lyrics.txt_4,10,cl4-nil-nil-be-[xadj-adj-her-adj2,xadj-adj-past-adj1,ncmod-locativo-right-sn2,subj-theme_bound-float-sn1,def_prop(her,_179750),def_prop(past,_179762),def_prop(right,[astratto,attivita,body_part,istituzione,luogo,oggetto,umano]),def_prop(float,[astratto,oggetto,strumento,tempo])])
+lf(Bird 1 Lyrics.txt_5,15,cl5-nil-nil-stick-[ncmod-locativo-rock-sn1,def_prop(rock,[attivita,oggetto,sostanza,umano])])
+lf(Bird 1 Lyrics.txt_6,21,cl6-nil-nil-rope-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_7,28,cl7-nil-nil-be-[xcomp-prop-hungry-sn2,subj-theme_bound-you-sn1,def_prop(hungry,[valutativo]),def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_8,36,cl10-nil-nil-eat-[obj-theme_unaff-what-sn2,xcomp-purpose-know-3,def_prop(what,[oggetto])])
+lf(Bird 1 Lyrics.txt_8,36,cl9-nil-nil-know-[])
+lf(Bird 1 Lyrics.txt_8,36,cl8-nil-nil-do-[subj-theme_unaff-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_9,47,cl11-nil-nil-be-[xadj-adj-floating-adj3,ncmod-locativo-blue-sn1,def_prop(floating,_180464),def_prop(blue,[animato,astratto,istituzione,oggetto,strumento])])
+lf(Bird 1 Lyrics.txt_10,57,cl13-nil-nil-be-[xcomp-prop-voice-sn3,subj-theme_bound-you-sn2,def_prop(voice,[astratto,attivita,evento,informa,relat,umano]),def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_10,57,cl12-nil-nil-hear-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_11,69,cl14-nil-nil-come-[expl-it-nil,adj-(mod)-above-nil,obj-theme_aff-head-sn2,subj-agent-it-sn1,def_prop(above,[istituzione]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(it,[any])])
+lf(Bird 1 Lyrics.txt_12,81,cl15-nil-nil-be-[ncmod-goal-you-sn2,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_13,94,cl16-nil-nil-be-[ncmod-goal-you-sn2,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_14,108,cl17-nil-nil-be-[])
+lf(Bird 1 Lyrics.txt_15,123,cl19-nil-nil-wake-[adj-locative-up-nil,iobj-goal-dream-sn3,subj-actor-you-sn2,def_prop(dream,[astratto,stato]),def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_15,123,cl18-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_16,140,nil-nil-nil-cass-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_16,140,cl20-nil-nil-hear-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_17,158,cl22-nil-would-will-[subj-agent-i-sn4,def_prop(i,[umano])])
+lf(Bird 1 Lyrics.txt_17,158,cl21-nil-nil-feel-[subj-experiencer-he-sn1,def_prop(he,[umano])])
+lf(Bird 1 Lyrics.txt_18,177,cl23-nil-nil-know-[subj-actor-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_19,196,cl25-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_19,196,cl24-nil-nil-damp-[obj-theme-mood-sn2,subj-agent-it-sn1,def_prop(mood,[relat]),def_prop(it,[any])])
+lf(Bird 1 Lyrics.txt_20,217,cl27-nil-nil-be-[subj-theme_bound-he-sn2,def_prop(he,[umano])])
+lf(Bird 1 Lyrics.txt_20,217,cl26-nil-nil-remember-[subj-experiencer-he-sn1,def_prop(he,[umano])])
+lf(Bird 1 Lyrics.txt_21,239,cl28-nil-nil-regain-[obj-theme-perspective-sn2,subj-agent-he-sn1,def_prop(perspective,[astratto]),def_prop(he,[umano])])
+lf(Bird 1 Lyrics.txt_22,261,cl29-nil-nil-feel-[])
+lf(Bird 1 Lyrics.txt_23,284,nil-nil-nil-lot-[xcomp-prop-better-sn2,subj-actor-you-sn1,def_prop(better,[valutativo]),def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_24,308,cl30-nil-nil-get-[xcomp-prop-better-sn2,subj-theme_bound-it-sn1,and(better,much,sn2),def_prop(better,[valutativo]),def_prop(it,[any])])
+lf(Bird 1 Lyrics.txt_25,333,cl31-nil-nil-lay-[adj-(mod)-down-nil,ncmod-modale-be-sn2,subj-experiencer-he-sn1,def_prop(be,[informa,tecno]),def_prop(he,[umano])])
+lf(Bird 1 Lyrics.txt_26,359,cl32-nil-nil-open-[ncmod-comitativo-front-sn2,subj-agent-door-sn1,def_prop(front,[astratto,attivita,cambia,luogo,oggetto,stato,strumento]),def_prop(door,[astratto,oggetto,strumento])])
+lf(Bird 1 Lyrics.txt_27,386,cl33-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_28,414,cl34-nil-nil-be-[xadj-adj-flooding-adj4,ncmod-loc_direct-room-sn1,def_prop(flooding,_183082),def_prop(room,[nquant,oggetto,stato,strumento])])
+lf(Bird 1 Lyrics.txt_29,443,cl35-nil-nil-smell-[xcomp-location-tire-sn2,subj-experiencer-he-sn1,def_prop(tire,[oggetto,strumento]),def_prop(he,[umano])])
+lf(Bird 1 Lyrics.txt_30,473,cl36-nil-nil-lay-[adj-(mod)-back-nil,iobj-goal-fly-sn3,xcomp-prop-listening-sn2,subj-experiencer-he-sn1,def_prop(fly,[animato,attivita,oggetto,strumento]),def_prop(listening,[attivita]),def_prop(he,[umano])])
+lf(Bird 1 Lyrics.txt_31,504,cl39-nil-nil-hang-[])
+lf(Bird 1 Lyrics.txt_31,504,cl38-nil-nil-wash-[])
+lf(Bird 1 Lyrics.txt_31,504,cl37-nil-nil-see-[subj-experiencer-he-sn1,def_prop(he,[umano])])
+lf(Bird 1 Lyrics.txt_32,538,cl40-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_33,571,cl41-nil-nil-catch-[obj-goal-fleeting-sn2,subj-agent-he-sn1,def_prop(fleeting,[istituzione]),def_prop(he,[umano])])
+lf(Bird 1 Lyrics.txt_34,605,cl42-nil-nil-be-[ncmod-specif-man-sn2,subj-theme_bound-you-sn1,def_prop(man,[any]),def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_35,640,cl43-nil-nil-move-[xcomp-prop-uphill-sn2,subj-theme-you-sn1,def_prop(uphill,[oggetto]),def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_36,676,cl44-nil-nil-pursue-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_37,713,cl45-nil-nil-see-[obj-actor-church-sn2,subj-experiencer-he-sn1,and(church,white,sn2),def_prop(church,[istituzione,oggetto,strumento]),def_prop(he,[umano])])
+lf(Bird 1 Lyrics.txt_38,751,cl46-nil-nil-roof-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_39,790,cl47-nil-nil-be-[ncmod-locativo-top-sn2,subj-theme_bound-crucifix-sn1,def_prop(top,[astratto,luogo,oggetto,strumento,tempo]),def_prop(crucifix,[attivita,oggetto,strumento])])
+lf(Bird 1 Lyrics.txt_40,830,cl48-nil-nil-walk-[cmod-subord-walk-",subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_41,871,cl49-nil-nil-be-[ncmod-specif-book-sn2,subj-theme_bound-you-sn1,def_prop(book,[attivita,informa,istituzione,oggetto,strumento]),def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_42,913,cl50-nil-nil-hear-[obj-theme_unaff-bell-sn2,subj-experiencer-he-sn1,and(bell,another,sn2),def_prop(bell,[astratto,evento,oggetto,strumento,tempo]),def_prop(he,[umano])])
+lf(Bird 1 Lyrics.txt_43,956,cl51-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_44,1000,cl52-nil-nil-start-[cmod-subord-start-",subj-agent-mope-sn1,def_prop(mope,[relat,sociale,umano])])
+lf(Bird 1 Lyrics.txt_45,1045,cl53-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_46,1091,cl54-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_47,1138,cl55-nil-nil-smell-[cmod-subord-smell-",xcomp-location-tire-sn2,subj-experiencer-he-sn1,def_prop(tire,[oggetto,strumento]),def_prop(he,[umano])])
+lf(Bird 1 Lyrics.txt_48,1186,cl56-nil-nil-come-[xcomp-prop-dim-sn2,subj-agent-fly-sn1,def_prop(dim,[valutativo]),def_prop(fly,[animato,attivita,oggetto,strumento])])
+lf(Bird 1 Lyrics.txt_49,1235,cl57-nil-nil-be-[ncmod-specif-sunlight-sn2,subj-theme_bound-you-sn1,def_prop(sunlight,[attivita,cambia]),def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_50,1285,cl58-nil-nil-be-[xadj-adj-coming-adj5,ncmod-location-door-sn1,and(door,open,sn1),def_prop(coming,_185692),def_prop(door,[astratto,oggetto,strumento])])
+lf(Bird 1 Lyrics.txt_51,1336,cl60-nil-nil-cross-[obj-goal-room-sn3,subj-agent-it-sn2,def_prop(room,[nquant,oggetto,stato,strumento]),def_prop(it,[any])])
+lf(Bird 1 Lyrics.txt_51,1336,cl59-nil-nil-watch-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_52,1389,cl61-nil-nil-get-[cmod-coord-get-and,adj-modal-it-sn5,xcomp-prop-halfway-sn4,subj-theme_bound-you-sn3,cmod-subord-get-",xcomp-prop-halfway-sn2,subj-theme_bound-you-sn1,def_prop(it,_186112),def_prop(halfway,[evaluative]),def_prop(you,[umano]),def_prop(halfway,[evaluative]),def_prop(you,[umano])])
+lf(Bird 1 Lyrics.txt_53,1442,cl62-nil-nil-laugh-[subj-experiencer-he-sn3,def_prop(he,[umano])])
+lf(Bird 1 Lyrics.txt_54,1496,cl63-nil-nil-be-[])

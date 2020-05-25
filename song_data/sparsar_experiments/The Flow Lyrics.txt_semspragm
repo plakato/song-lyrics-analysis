@@ -1,0 +1,97 @@
+"POLARITY, DISCOURSE MARKERS"
+
+The Flow Lyrics.txt_1-1  []-positive  [neg]
+The Flow Lyrics.txt_2-3  []-positive  []
+The Flow Lyrics.txt_3-6  []-positive  [bkc]
+The Flow Lyrics.txt_4-10  []-negative  [neg]
+The Flow Lyrics.txt_5-15  []-positive  [bkc]
+The Flow Lyrics.txt_6-21  []-positive  []
+The Flow Lyrics.txt_7-28  []-positive  []
+The Flow Lyrics.txt_8-36  []-positive  []
+The Flow Lyrics.txt_9-45  []-positive  []
+The Flow Lyrics.txt_10-55  []-positive  []
+The Flow Lyrics.txt_11-67  []-positive  []
+The Flow Lyrics.txt_12-79  []-positive  [neg]
+The Flow Lyrics.txt_12-80  []-positive  []
+The Flow Lyrics.txt_13-94  []-positive  [neg]
+The Flow Lyrics.txt_13-95  []-positive  []
+The Flow Lyrics.txt_14-110  []-positive  [fgb]
+The Flow Lyrics.txt_14-111  []-positive  []
+The Flow Lyrics.txt_15-126  []-negative  [neg]
+The Flow Lyrics.txt_15-127  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+The Flow Lyrics.txt_1-1  [the,Flow,Lyrics,by,Quiero,club]  [title]
+The Flow Lyrics.txt_2-3  [come,on,girls]  [raise_issue(be,[_83070,factive,statement,_83088,subjective])]
+The Flow Lyrics.txt_3-6  [yeah,microphone,the,through,speak,!]  [provide_expl_just(speak,[internal,factive,narration,foreground,objective])]
+The Flow Lyrics.txt_4-10  [don,t,be,a,fool]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+The Flow Lyrics.txt_5-15  [yeah,blue,color-s,your,remember,!]  [provide_expl_just(remember,[internal,factive,narration,foreground,objective])]
+The Flow Lyrics.txt_6-21  [you,hey,!]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+The Flow Lyrics.txt_7-28  [ooh,ooh,ooh,!]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+The Flow Lyrics.txt_8-36  [you,hey,!]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+The Flow Lyrics.txt_9-45  [ooh,ooh,ooh]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+The Flow Lyrics.txt_10-55  [i,am,the,next,in,the,list,to,become,a,tripulant]  [provide_expl_just(become,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+The Flow Lyrics.txt_11-67  [the,flow,is,coming,down,my,spine]  [raise_issue(be,[_91466,factive,statement,_91484,subjective])]
+The Flow Lyrics.txt_12-79  [i,know,how,to,do,a,fun]  [provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+The Flow Lyrics.txt_12-80  [funk,song]  [provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+The Flow Lyrics.txt_13-94  [i,know,how,to,do,a,fun]  [provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+The Flow Lyrics.txt_13-95  [funk,song]  [provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+The Flow Lyrics.txt_14-110  [and,i,don]  [provide_expl_just(think,[external,factive,narration,background,objective])]
+The Flow Lyrics.txt_14-111  [t,think,of,you,anymore]  [provide_expl_just(think,[external,factive,narration,background,objective])]
+The Flow Lyrics.txt_15-126  [i,no,don]  [reject_expl_just(think,[external,factive,narration,background,objective]),reject_expl_just(don,[external,factive,narration,background,objective])]
+The Flow Lyrics.txt_15-127  [t,think,of,you,anymore]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(don,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(The Flow Lyrics.txt_1-1)-[]
+2-(The Flow Lyrics.txt_2-3)-[]
+3-(The Flow Lyrics.txt_3-6)-[secondary-social_behavior]
+4-(The Flow Lyrics.txt_4-10)-[]
+5-(The Flow Lyrics.txt_5-15)-[primary-vision,primary-vision]
+6-(The Flow Lyrics.txt_6-21)-[]
+7-(The Flow Lyrics.txt_7-28)-[]
+8-(The Flow Lyrics.txt_8-36)-[]
+9-(The Flow Lyrics.txt_9-45)-[]
+half
+10-(The Flow Lyrics.txt_10-55)-[secondary-order]
+11-(The Flow Lyrics.txt_11-67)-[primary-random_movement]
+12-(The Flow Lyrics.txt_12-79)-[secondary-abstract_tought,emotions-positive_affect]
+13-(The Flow Lyrics.txt_12-80)-[emotions-positive_affect]
+14-(The Flow Lyrics.txt_13-94)-[secondary-abstract_tought,emotions-positive_affect]
+15-(The Flow Lyrics.txt_13-95)-[emotions-positive_affect]
+16-(The Flow Lyrics.txt_14-110)-[]
+17-(The Flow Lyrics.txt_14-111)-[secondary-abstract_tought]
+18-(The Flow Lyrics.txt_15-126)-[]
+19-(The Flow Lyrics.txt_15-127)-[secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(The Flow Lyrics.txt_1,1,cl1-nil-nil-club-[arg_mod-agent-Quiero-sn2,subj-patient-Lyrics-sn1,and(Lyrics,Flow,sn1),def_prop(Quiero,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(The Flow Lyrics.txt_2,3,cl2-nil-nil-come-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(The Flow Lyrics.txt_3,6,cl3-nil-nil-speak-[adj-(mod)-yeah-nil,iobj-goal-microphone-sn2,subj-agent-you-sn1,def_prop(microphone,[oggetto,strumento]),def_prop(you,[umano])])
+lf(The Flow Lyrics.txt_4,10,cl4-nil-nil-be-[xcomp-prop-fool-sn2,subj-theme_bound-don-sn1,and(don,don,sn1),def_prop(fool,[attivita,plant,stato,umano]),def_prop(don,[umano])])
+lf(The Flow Lyrics.txt_5,15,cl5-nil-nil-remember-[adj-(mod)-yeah-nil,subj-experiencer-blue-sn1,def_prop(blue,[animato,astratto,istituzione,oggetto,strumento])])
+lf(The Flow Lyrics.txt_6,21,cl6-nil-nil-say-[subj-actor-you-sn2,obj-theme_unaff-hey-sn1,def_prop(you,[umano]),def_prop(hey,[istituzione])])
+lf(The Flow Lyrics.txt_7,28,cl7-nil-nil-be-[xcomp-theme-ooh-sn2,subj-theme_bound-ooh-sn1,and(ooh,ooh,sn1),def_prop(ooh,[istituzione]),def_prop(ooh,[istituzione])])
+lf(The Flow Lyrics.txt_8,36,cl8-nil-nil-say-[subj-actor-you-sn2,obj-theme_unaff-hey-sn1,def_prop(you,[umano]),def_prop(hey,[istituzione])])
+lf(The Flow Lyrics.txt_9,45,cl9-nil-nil-be-[xcomp-theme-ooh-sn2,subj-theme_bound-you-sn1,def_prop(ooh,[istituzione]),def_prop(you,[umano])])
+lf(The Flow Lyrics.txt_10,55,cl11-nil-nil-become-[xcomp-prop-tripulant-sn4,xcomp-purpose-become-3,ncmod-temporale-list-sn3,def_prop(tripulant,[istituzione]),def_prop(list,[attivita,informa])])
+lf(The Flow Lyrics.txt_10,55,cl10-nil-nil-be-[xcomp-prop-next-sn2,subj-theme_bound-i-sn1,def_prop(next,[tempo,misura]),def_prop(i,[umano])])
+lf(The Flow Lyrics.txt_11,67,cl12-nil-nil-come-[adj-(mod)-down-nil,obj-theme_aff-spine-sn2,subj-agent-flow-sn1,aux-(is)-nil,progr-coming-nil,def_prop(spine,[animato,plant]),def_prop(flow,[attivita,evento,tempo])])
+lf(The Flow Lyrics.txt_12,79,cl15-nil-nil-be-[subj-theme_bound-song-sn3,and(song,funk,sn3),def_prop(song,[astratto,attivita,evento,informa,oggetto])])
+lf(The Flow Lyrics.txt_12,79,cl14-nil-nil-do-[xcomp-actor-fun-sn2,xcomp-purpose-do-3,def_prop(fun,[attivita,informa])])
+lf(The Flow Lyrics.txt_12,79,cl13-nil-nil-know-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(The Flow Lyrics.txt_13,94,cl18-nil-nil-be-[subj-theme_bound-song-sn3,and(song,funk,sn3),def_prop(song,[astratto,attivita,evento,informa,oggetto])])
+lf(The Flow Lyrics.txt_13,94,cl17-nil-nil-do-[xcomp-actor-fun-sn2,xcomp-purpose-do-3,def_prop(fun,[attivita,informa])])
+lf(The Flow Lyrics.txt_13,94,cl16-nil-nil-know-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(The Flow Lyrics.txt_14,110,cl20-nil-nil-think-[adj-(mod)-anymore-nil,iobj-theme_unaff-you-sn3,subj-agent-t-sn2,cmod-subord-think-",def_prop(you,[umano]),def_prop(t,[attivita])])
+lf(The Flow Lyrics.txt_14,110,cl19-nil-nil-don-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(The Flow Lyrics.txt_15,126,cl22-nil-nil-think-[adj-(mod)-anymore-nil,iobj-theme_unaff-you-sn4,subj-agent-t-sn3,def_prop(you,[umano]),def_prop(t,[attivita])])
+lf(The Flow Lyrics.txt_15,126,cl21-nil-nil-don-[ncmod-modal-i-sn2,subj-agent-you-sn1,def_prop(i,[umano]),def_prop(you,[umano])])

@@ -1,0 +1,84 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Blood from a loyal hound Lyrics.txt_1-1  []-positive  []
+Blood from a loyal hound Lyrics.txt_2-3  []-suspension  [neg,fgb]
+Blood from a loyal hound Lyrics.txt_3-7  []-positive  []
+Blood from a loyal hound Lyrics.txt_4-13  []-suspension  [fhd,fgb]
+Blood from a loyal hound Lyrics.txt_5-18  []-positive  []
+Blood from a loyal hound Lyrics.txt_6-24  []-positive  []
+Blood from a loyal hound Lyrics.txt_7-31  [but-advers]-negative  [fgb,neg]
+Blood from a loyal hound Lyrics.txt_7-32  []-positive  []
+Blood from a loyal hound Lyrics.txt_8-40  []-negative  [neg,fgb]
+Blood from a loyal hound Lyrics.txt_8-41  []-positive  []
+Blood from a loyal hound Lyrics.txt_9-52  []-suspension  [neg,fgb,fgb,ack]
+Blood from a loyal hound Lyrics.txt_10-63  []-positive  []
+Blood from a loyal hound Lyrics.txt_11-74  []-positive  []
+Blood from a loyal hound Lyrics.txt_12-86  [but-advers]-negative  [fgb,neg]
+Blood from a loyal hound Lyrics.txt_12-87  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Blood from a loyal hound Lyrics.txt_1-1  [blood,from,a,loyal,hound,Lyrics,by,two,Inch,Astronaut]  [title]
+Blood from a loyal hound Lyrics.txt_2-3  [prostrated,on,the,grave,and,hope,approval,lies,beneath]  [propose_opin_neg(lie,[external,factive,explanation,background,objective])]
+Blood from a loyal hound Lyrics.txt_3-7  [sucking,on,all,the,days,we,always,tried,to,keep]  [provide_expl_just(suck,[external,factive,narration,foreground,objective]),provide_expl_just(keep,[external,factive,explanation,background,objective])]
+Blood from a loyal hound Lyrics.txt_4-13  [knotted,like,tentacles,that,stick,and,the,souvenir,of,texture,take]  [provide_expl_just(take,[external,factive,circumstance,background,objective])]
+Blood from a loyal hound Lyrics.txt_5-18  [sip,on,blood]  [provide_expl_just(sip,[external,factive,narration,background,objective])]
+Blood from a loyal hound Lyrics.txt_6-24  [from,a,loyal,hound]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Blood from a loyal hound Lyrics.txt_7-31  [but,i,will,never,make]  [reject_expl_just(make,[external,nonfactive,narration,background,objective]),reject_expl_just(dry,[external,factive,narration,background,objective])]
+Blood from a loyal hound Lyrics.txt_7-32  [you,dry]  [provide_expl_just(make,[external,nonfactive,narration,background,objective]),provide_expl_just(dry,[external,factive,narration,background,objective])]
+Blood from a loyal hound Lyrics.txt_8-40  [one_time,i,had,someone,who,knew,exactly,what]  [reject_expl_just(want,[external,factive,narration,foreground,objective]),reject_expl_just(know,[external,factive,cause,foreground,objective])]
+Blood from a loyal hound Lyrics.txt_8-41  [i,wanted,to,be]  [provide_expl_just(want,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_353082)]
+Blood from a loyal hound Lyrics.txt_9-52  [fell,down,and,hit,my,head,on,an,inch,of,foam,and,bled,right,out]  [propose_opin_neg(hit,[external,factive,circumstance,foreground,objective])]
+Blood from a loyal hound Lyrics.txt_10-63  [sip,on,blood]  [provide_expl_just(sip,[external,factive,narration,background,objective])]
+Blood from a loyal hound Lyrics.txt_11-74  [from,a,loyal,hound]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Blood from a loyal hound Lyrics.txt_12-86  [but,i,will,never,make]  [reject_expl_just(make,[external,nonfactive,narration,background,objective]),reject_expl_just(dry,[external,factive,narration,background,objective])]
+Blood from a loyal hound Lyrics.txt_12-87  [you,dry]  [provide_expl_just(make,[external,nonfactive,narration,background,objective]),provide_expl_just(dry,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Blood from a loyal hound Lyrics.txt_1-1)-[primary-narcissism]
+2-(Blood from a loyal hound Lyrics.txt_2-3)-[secondary-social_behavior,primary-passivity,primary-depth]
+3-(Blood from a loyal hound Lyrics.txt_3-7)-[secondary-instru_behavior]
+4-(Blood from a loyal hound Lyrics.txt_4-13)-[emotions-affection,primary-touch]
+5-(Blood from a loyal hound Lyrics.txt_5-18)-[primary-narcissism]
+6-(Blood from a loyal hound Lyrics.txt_6-24)-[]
+7-(Blood from a loyal hound Lyrics.txt_7-31)-[secondary-instru_behavior]
+half
+8-(Blood from a loyal hound Lyrics.txt_7-32)-[]
+9-(Blood from a loyal hound Lyrics.txt_8-40)-[secondary-abstract_tought]
+10-(Blood from a loyal hound Lyrics.txt_8-41)-[]
+11-(Blood from a loyal hound Lyrics.txt_9-52)-[primary-descent,emotions-aggression,primary-narcissism,primary-water,secondary-moral_imperative,primary-concreteness]
+12-(Blood from a loyal hound Lyrics.txt_10-63)-[primary-narcissism]
+13-(Blood from a loyal hound Lyrics.txt_11-74)-[]
+14-(Blood from a loyal hound Lyrics.txt_12-86)-[secondary-instru_behavior]
+15-(Blood from a loyal hound Lyrics.txt_12-87)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Blood from a loyal hound Lyrics.txt_1,1,cl1-nil-nil-blood-[arg_mod-agent-astronaut-sn3,ncmod-loc_origin-hound-sn2,subj-actor-Lyrics-sn1,and(astronaut,two,sn3),and(astronaut,Inch,sn3),and(hound,loyal,sn2),def_prop(astronaut,[umano]),def_prop(hound,[animato,plant]),def_prop(Lyrics,[informa,tecno])])
+lf(Blood from a loyal hound Lyrics.txt_2,3,cl3-nil-nil-lie-[cmod-coord-lie-and,subj-actor-grave-sn2,subj-actor-approval-sn3,iobj-goal-grave-sn2,and(approval,hope,sn3),def_prop(grave,[valutativo]),def_prop(approval,[attivita,emotivo,informa,stato]),def_prop(grave,[valutativo])])
+lf(Blood from a loyal hound Lyrics.txt_2,3,cl2-nil-nil-prostrate-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(Blood from a loyal hound Lyrics.txt_3,7,cl6-nil-nil-keep-[])
+lf(Blood from a loyal hound Lyrics.txt_3,7,cl5-nil-nil-try-[adj-(mod)-always-nil,xcomp-purpose-suck-2,subj-actor-we-sn1,def_prop(we,[umano])])
+lf(Blood from a loyal hound Lyrics.txt_3,7,cl4-nil-nil-suck-[iobj-goal-days-sn2,def_prop(days,[tempo])])
+lf(Blood from a loyal hound Lyrics.txt_4,13,cl7-nil-nil-take-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Blood from a loyal hound Lyrics.txt_5,18,cl8-nil-nil-sip-[ncmod-locativo-blood-sn2,subj-agent-you-sn1,def_prop(blood,[astratto,body_part,istituzione,umano]),def_prop(you,[umano])])
+lf(Blood from a loyal hound Lyrics.txt_6,24,cl9-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Blood from a loyal hound Lyrics.txt_7,31,cl11-nil-nil-dry-[subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Blood from a loyal hound Lyrics.txt_7,31,cl10-nil-will-make-[subj-agent-you-sn1,neg-never-nil,def_prop(you,[umano])])
+lf(Blood from a loyal hound Lyrics.txt_8,40,cl15-nil-nil-know-[subj-actor-someone-sn2,def_prop(someone,[umano])])
+lf(Blood from a loyal hound Lyrics.txt_8,40,cl14-nil-nil-be-[subj-prop-i-sn6,def_prop(i,[umano])])
+lf(Blood from a loyal hound Lyrics.txt_8,40,cl13-nil-nil-want-[subj-actor-i-sn6,def_prop(i,[umano])])
+lf(Blood from a loyal hound Lyrics.txt_8,40,cl12-nil-nil-have-[adj-(mod)-one_time-nil,xcomp-tema_bound-someone-sn2,subj-experiencer-i-sn1,def_prop(someone,[umano]),def_prop(i,[umano])])
+lf(Blood from a loyal hound Lyrics.txt_9,52,cl17-nil-nil-bleed-[cmod-coord-bleed-and,cmod-coord-hit-and,subj-agent-out-sn7,and(out,right,sn7),def_prop(out,[istituzione])])
+lf(Blood from a loyal hound Lyrics.txt_9,52,cl16-nil-nil-hit-[obj-goal-head-sn3,subj-agent-you-sn2,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Blood from a loyal hound Lyrics.txt_10,63,cl18-nil-nil-sip-[ncmod-locativo-blood-sn2,subj-agent-you-sn1,def_prop(blood,[astratto,body_part,istituzione,umano]),def_prop(you,[umano])])
+lf(Blood from a loyal hound Lyrics.txt_11,74,cl19-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Blood from a loyal hound Lyrics.txt_12,86,cl21-nil-nil-dry-[subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Blood from a loyal hound Lyrics.txt_12,86,cl20-nil-will-make-[subj-agent-you-sn1,neg-never-nil,def_prop(you,[umano])])

@@ -1,0 +1,73 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Another Demo Tape Lyrics.txt_1-1  []-positive  []
+Another Demo Tape Lyrics.txt_2-3  []-positive  []
+Another Demo Tape Lyrics.txt_3-6  []-positive  []
+Another Demo Tape Lyrics.txt_3-7  []-positive  []
+Another Demo Tape Lyrics.txt_4-11  [even_though-conc]-positive  [fgb,neg]
+Another Demo Tape Lyrics.txt_5-18  []-positive  []
+Another Demo Tape Lyrics.txt_6-25  []-positive  [fhd]
+Another Demo Tape Lyrics.txt_7-33  [so-result]-positive  [fgb,fgb,neg]
+Another Demo Tape Lyrics.txt_8-43  []-negative  [neg]
+Another Demo Tape Lyrics.txt_8-44  []-positive  []
+Another Demo Tape Lyrics.txt_9-53  []-positive  []
+Another Demo Tape Lyrics.txt_10-63  [but-advers,when-temp_coinc]-positive  [fgb,fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Another Demo Tape Lyrics.txt_1-1  [another,Demo,Tape,Lyrics,by,Quasimoto]  [title]
+Another Demo Tape Lyrics.txt_2-3  [Madlib]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Another Demo Tape Lyrics.txt_3-6  [everywhere,i,go]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Another Demo Tape Lyrics.txt_3-7  [i,always,end,up,with,a,pocket,full,CD,demo,tapes,after,clubs]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Another Demo Tape Lyrics.txt_4-11  [at,my,shows,even_though,i,sit,back,and,listen,to,em,with,an,open,mind,i,find]  [provide_expl_just(sit,[external,factive,narration,background,objective]),provide_expl_just(listen,[external,factive,narration,background,objective]),propose_opin_neg(find,[external,factive,evidence,background,objective])]
+Another Demo Tape Lyrics.txt_5-18  [not_even,one,of,them,i,that,can,press,rewind]  [provide_expl_just(press,[external,nonfactive,narration,foreground,objective])]
+Another Demo Tape Lyrics.txt_6-25  [even,niggas,in,limos,passin,out,they,demos,claimin,that,they,shits,like]  [provide_expl_just(demos,[external,factive,narration,background,objective]),provide_expl_just(shit,[external,factive,narration,background,objective])]
+Another Demo Tape Lyrics.txt_7-33  [mine,so,we,do,the,6,demo,test,and,roll,it,out,by_the_time,we,pass,the,third]  [propose_opin_neg(roll,[external,factive,circumstance,background,objective]),propose_opin_neg(pass,[external,factive,result,background,objective])]
+Another Demo Tape Lyrics.txt_8-43  [we,song,throw]  [reject_expl_just(throw,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Another Demo Tape Lyrics.txt_8-44  [it,out]  [provide_expl_just(throw,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Another Demo Tape Lyrics.txt_9-53  [time_and_time_again,i,hear,the,same,story]  [provide_expl_just(hear,[external,factive,narration,background,objective])]
+Another Demo Tape Lyrics.txt_10-63  [but,when,i,pop,it,in,me,and,just,laugh,Dilla,do,the,math]  [propose_opin_neg(pop,[external,factive,circumstance,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Another Demo Tape Lyrics.txt_1-1)-[]
+2-(Another Demo Tape Lyrics.txt_2-3)-[]
+3-(Another Demo Tape Lyrics.txt_3-6)-[primary-concreteness]
+4-(Another Demo Tape Lyrics.txt_3-7)-[]
+5-(Another Demo Tape Lyrics.txt_4-11)-[primary-concreteness,primary-concreteness,primary-sound,primary-concreteness,secondary-instru_behavior]
+6-(Another Demo Tape Lyrics.txt_5-18)-[secondary-abstract_tought]
+half
+7-(Another Demo Tape Lyrics.txt_6-25)-[primary-concreteness,secondary-instru_behavior,primary-anality,emotions-affection]
+8-(Another Demo Tape Lyrics.txt_7-33)-[secondary-instru_behavior,primary-random_movement,primary-concreteness]
+9-(Another Demo Tape Lyrics.txt_8-43)-[primary-ascend]
+10-(Another Demo Tape Lyrics.txt_8-44)-[primary-concreteness]
+11-(Another Demo Tape Lyrics.txt_9-53)-[primary-sound]
+12-(Another Demo Tape Lyrics.txt_10-63)-[secondary-temporal_repere,emotions-positive_affect]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Another Demo Tape Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Quasimoto-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,another,sn1),and(Lyrics,Tape,sn1),def_prop(Quasimoto,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Another Demo Tape Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-Madlib-sn1,def_prop(Madlib,[istituzione,umano])])
+lf(Another Demo Tape Lyrics.txt_3,6,cl4-nil-nil-be-[adj-(mod)-up-nil,adj-temporal-end-nil,adj-(mod)-always-nil,ncmod-temporale-club-sn8,xcomp-prop-tape-sn7,xcomp-theme-CD-sn6,ncmod-comitativo-pocket-sn5,subj-theme_bound-i-sn4,and(tape,demo,sn7),and(CD,full,sn6),def_prop(club,[istituzione,oggetto,strumento]),def_prop(tape,[luogo,oggetto,strumento]),def_prop(CD,[informa,nquant,oggetto,strumento,tecno]),def_prop(pocket,[astratto,oggetto,strumento]),def_prop(i,[umano])])
+lf(Another Demo Tape Lyrics.txt_3,6,cl3-nil-nil-go-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Another Demo Tape Lyrics.txt_4,11,cl7-nil-nil-find-[ncmod-comitativo-mind-sn3,ncmod-modale-show-sn2,subj-actor-i-sn1,and(mind,open,sn3),def_prop(mind,[astratto]),def_prop(show,[attivita,informa]),def_prop(i,[umano])])
+lf(Another Demo Tape Lyrics.txt_4,11,cl6-nil-nil-listen-[cmod-subord-find-even_though,cmod-coord-find-and,iobj-goal-em-sn9,subj-agent-you-sn8,savv-result-back-sn7,xcomp-purpose-sit-4,def_prop(em,[nquant]),def_prop(you,[umano]),def_prop(back,[istituzione])])
+lf(Another Demo Tape Lyrics.txt_4,11,cl5-nil-nil-sit-[])
+lf(Another Demo Tape Lyrics.txt_5,18,nil-nil-nil-rewind-[subj-theme_aff-one-sn1,and(one,not_even,sn1),def_prop(one,[umano])])
+lf(Another Demo Tape Lyrics.txt_5,18,cl8-nil-can-press-[subj-agent-one-sn1,and(one,not_even,sn1),def_prop(one,[umano])])
+lf(Another Demo Tape Lyrics.txt_6,25,nil-nil-nil-shit-[obj-theme_aff-claimin-sn4,def_prop(claimin,[istituzione])])
+lf(Another Demo Tape Lyrics.txt_6,25,nil-nil-nil-demos-[obj-theme-claimin-sn4,ncmod-locativo-they-sn3,ncmod-locativo-passin-sn2,subj-agent-nigga-sn1,and(passin,limo,sn2),def_prop(claimin,[istituzione]),def_prop(they,[umano]),def_prop(passin,[istituzione]),def_prop(nigga,[istituzione,umano])])
+lf(Another Demo Tape Lyrics.txt_7,33,cl11-nil-nil-pass-[ncmod-locativo-by_the_time-sn11,obj-goal-third-sn3,subj-theme_unaff-we-sn2,subj-theme_unaff-we-sn1,and(we,mine,sn1),def_prop(by_the_time,[any,evento,tempo]),def_prop(third,[attivita,informa,relat]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Another Demo Tape Lyrics.txt_7,33,cl10-nil-nil-roll-[cmod-subord-pass-so,ncmod-locativo-by_the_time-sn13,subj-agent-it-sn12,subj-agent-it-sn10,def_prop(by_the_time,[any,evento,tempo]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Another Demo Tape Lyrics.txt_7,33,cl9-nil-nil-do-[cmod-coord-pass-2,xcomp-actor-test-sn6,subj-theme_unaff-we-sn5,aux-do-nil,and(test,6,sn6),and(test,demo,sn6),def_prop(test,[animato,attivita]),def_prop(we,[umano])])
+lf(Another Demo Tape Lyrics.txt_8,43,cl13-nil-nil-be-[adj-(mod)-out-nil,subj-theme_bound-it-sn3,def_prop(it,[any])])
+lf(Another Demo Tape Lyrics.txt_8,43,cl12-nil-nil-throw-[ncmod-modal-we-sn2,subj-agent-you-sn1,def_prop(we,[umano]),def_prop(you,[umano])])
+lf(Another Demo Tape Lyrics.txt_9,53,cl14-nil-nil-hear-[adj-(mod)-time_and_time_again-nil,obj-theme_unaff-story-sn2,subj-experiencer-i-sn1,and(story,same,sn2),def_prop(story,[attivita,informa]),def_prop(i,[umano])])
+lf(Another Demo Tape Lyrics.txt_10,63,cl16-nil-nil-do-[cmod-subord-do-when,xcomp-actor-math-sn9,subj-theme_unaff-Dilla-sn8,xcomp-actor-math-sn6,subj-theme_unaff-Dilla-sn5,aux-do-nil,and(Dilla,laugh,sn8),and(Dilla,laugh,sn5),def_prop(math,[attivita,informa]),def_prop(Dilla,[istituzione,umano]),def_prop(math,[attivita,informa]),def_prop(Dilla,[istituzione,umano])])
+lf(Another Demo Tape Lyrics.txt_10,63,cl15-nil-nil-pop-[cmod-coord-do-1,ncmod-locativo-me-sn3,subj-agent-it-sn2,subj-agent-it-sn1,and(it,i,sn1),def_prop(me,[umano]),def_prop(it,[any]),def_prop(it,[any])])

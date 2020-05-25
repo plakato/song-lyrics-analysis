@@ -1,0 +1,66 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Smoke Break (Interlude) Lyrics.txt_1-1  []-suspension  [neg,neg]
+Smoke Break (Interlude) Lyrics.txt_2-3  []-positive  []
+Smoke Break (Interlude) Lyrics.txt_2-4  []-positive  [fhd,neg,fgb,neg]
+Smoke Break (Interlude) Lyrics.txt_2-5  []-positive  []
+Smoke Break (Interlude) Lyrics.txt_2-6  []-positive  [neg]
+Smoke Break (Interlude) Lyrics.txt_3-9  []-positive  []
+Smoke Break (Interlude) Lyrics.txt_3-10  []-positive  []
+Smoke Break (Interlude) Lyrics.txt_4-20  []-positive  []
+Smoke Break (Interlude) Lyrics.txt_5-25  []-suspension  [neg,fgb,neg,neg,neg]
+Smoke Break (Interlude) Lyrics.txt_6-31  []-positive  []
+Smoke Break (Interlude) Lyrics.txt_7-38  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Smoke Break (Interlude) Lyrics.txt_1-1  [smoke,break,Interlude,Lyrics,by,Yung,Trae]  [title]
+Smoke Break (Interlude) Lyrics.txt_2-3  [she,said]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(smell,[external,factive,explanation,background,objective]),provide_expl_just(tell,[external,factive,narration,foreground,objective])]
+Smoke Break (Interlude) Lyrics.txt_2-4  [i,smell,like,weed,and,mistakes]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),propose_opin_neg(smell,[external,factive,explanation,background,objective]),provide_expl_just(tell,[external,factive,narration,foreground,objective])]
+Smoke Break (Interlude) Lyrics.txt_2-5  [,,i,told,her]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(smell,[external,factive,explanation,background,objective]),provide_expl_just(tell,[external,factive,narration,foreground,objective])]
+Smoke Break (Interlude) Lyrics.txt_2-6  [she,my,perfect,distraction]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),propose_opin_neg(smell,[external,factive,explanation,background,objective]),provide_expl_just(tell,[external,factive,narration,foreground,objective])]
+Smoke Break (Interlude) Lyrics.txt_3-9  [she,told,me]  [indication(start,[external,factive,inception,foreground,objective]),suggest(start,[external,factive,inception,foreground,objective]),provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(gain,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Smoke Break (Interlude) Lyrics.txt_3-10  [keep,going,with,the,music,,,cause,a,Nigga,starting,to,gain,a,Lil]  [indication(start,[external,factive,inception,foreground,objective]),suggest(start,[external,factive,inception,foreground,objective]),provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(gain,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Smoke Break (Interlude) Lyrics.txt_4-20  [traction]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Smoke Break (Interlude) Lyrics.txt_5-25  [life-s,a,blur,in,between,me,and,her,smoke,sessions,,,every,smoke,break,i,learn]  [provide_expl_just(learn,[external,factive,narration,background,objective])]
+Smoke Break (Interlude) Lyrics.txt_6-31  [another,life,lesson]  [provide_expl_just(lesson,[external,factive,narration,background,objective])]
+Smoke Break (Interlude) Lyrics.txt_7-38  [she,a,blessing]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Smoke Break (Interlude) Lyrics.txt_1-1)-[primary-fire,emotions-aggression]
+2-(Smoke Break (Interlude) Lyrics.txt_2-3)-[secondary-social_behavior]
+3-(Smoke Break (Interlude) Lyrics.txt_2-4)-[primary-odor,emotions-affection,secondary-abstract_tought]
+4-(Smoke Break (Interlude) Lyrics.txt_2-5)-[secondary-social_behavior]
+5-(Smoke Break (Interlude) Lyrics.txt_2-6)-[]
+half
+6-(Smoke Break (Interlude) Lyrics.txt_3-9)-[secondary-social_behavior]
+7-(Smoke Break (Interlude) Lyrics.txt_3-10)-[primary-sound,secondary-abstract_tought,secondary-instru_behavior]
+8-(Smoke Break (Interlude) Lyrics.txt_4-20)-[]
+9-(Smoke Break (Interlude) Lyrics.txt_5-25)-[primary-diffusion,primary-concreteness,primary-fire,secondary-temporal_repere,primary-fire,emotions-aggression,secondary-abstract_tought]
+10-(Smoke Break (Interlude) Lyrics.txt_6-31)-[secondary-instru_behavior]
+11-(Smoke Break (Interlude) Lyrics.txt_7-38)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Smoke Break (Interlude) Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Trae-sn2,subj-theme_bound-Lyrics-sn1,and(Trae,Yung,sn2),and(Lyrics,break,sn1),and(Lyrics,smoke,sn1),def_prop(Trae,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Smoke Break (Interlude) Lyrics.txt_2,3,cl5-nil-nil-be-[xcomp-prop-distraction-sn9,subj-theme_bound-she-sn8,and(distraction,perfect,sn9),def_prop(distraction,[astratto,attivita]),def_prop(she,[umano])])
+lf(Smoke Break (Interlude) Lyrics.txt_2,3,cl4-nil-nil-tell-[xcomp-prop-her-sn7,subj-agent-i-sn6,def_prop(her,[umano]),def_prop(i,[umano])])
+lf(Smoke Break (Interlude) Lyrics.txt_2,3,cl3-nil-nil-smell-[coord-location-wee_and_mistake-sn5,xcomp-location-mistake-sn4,xcomp-location-wee-sn3,subj-experiencer-i-sn2,def_prop(wee_and_mistake,[tempo,astratto,attivita]),def_prop(mistake,[tempo,astratto,attivita]),def_prop(wee,[tempo,astratto,attivita]),def_prop(i,[umano])])
+lf(Smoke Break (Interlude) Lyrics.txt_2,3,cl2-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Smoke Break (Interlude) Lyrics.txt_3,9,cl11-nil-nil-gain-[xcomp-purpose-go-3])
+lf(Smoke Break (Interlude) Lyrics.txt_3,9,cl10-nil-nil-start-[obj-theme_unaff-Lil-sn9,xcomp-purpose-gain-4,obj-actor-Nigga-sn8,subj-agent-Nigga-sn7,obj-result-Lil-sn6,xcomp-prop-gain-5,def_prop(Lil,[umano]),def_prop(Nigga,[istituzione,umano]),def_prop(Nigga,[istituzione,umano]),def_prop(Lil,[umano])])
+lf(Smoke Break (Interlude) Lyrics.txt_3,9,cl9-nil-nil-cause-[subj-causer-Nigga-sn5,def_prop(Nigga,[istituzione,umano])])
+lf(Smoke Break (Interlude) Lyrics.txt_3,9,cl8-nil-nil-go-[iobj-goal-music-sn4,def_prop(music,[astratto,attivita,informa])])
+lf(Smoke Break (Interlude) Lyrics.txt_3,9,cl7-nil-nil-keep-[subj-experiencer-you-sn3,def_prop(you,[umano])])
+lf(Smoke Break (Interlude) Lyrics.txt_3,9,cl6-nil-nil-tell-[obj-theme_unaff-me-sn2,subj-agent-she-sn1,def_prop(me,[umano]),def_prop(she,[umano])])
+lf(Smoke Break (Interlude) Lyrics.txt_4,20,cl12-nil-nil-say-[obj-theme_unaff-traction-sn1,def_prop(traction,[attivita])])
+lf(Smoke Break (Interlude) Lyrics.txt_5,25,cl13-nil-nil-learn-[obj-theme-i-sn8,obj-theme-break-sn7,obj-theme-smoke-sn6,obj-theme-session-sn5,obj-topic-smoke-sn4,ncmod-relation-me-sn3,subj-agent-blur-sn2,subj-agent-blur-sn1,and(smoke,every,sn6),and(blur,life-s,sn1),def_prop(i,[umano]),def_prop(break,[attivita,evento]),def_prop(smoke,[astratto,attivita,cambia,informa,oggetto,strumento]),def_prop(session,[attivita,informa]),def_prop(smoke,[astratto,attivita,cambia,informa,oggetto,strumento]),def_prop(me,[umano]),def_prop(blur,[astratto]),def_prop(blur,[astratto])])
+lf(Smoke Break (Interlude) Lyrics.txt_6,31,nil-nil-nil-lesson-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Smoke Break (Interlude) Lyrics.txt_7,38,cl14-nil-nil-be-[subj-theme_bound-bless-sn2,subj-theme_bound-bless-sn1,and(bless,she,sn1),def_prop(bless,[istituzione]),def_prop(bless,[istituzione])])

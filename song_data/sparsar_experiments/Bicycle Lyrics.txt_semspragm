@@ -1,0 +1,227 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Bicycle Lyrics.txt_1-1  []-positive  []
+Bicycle Lyrics.txt_2-3  []-negative  []
+Bicycle Lyrics.txt_2-4  [so-result]-positive  [fgb]
+Bicycle Lyrics.txt_3-7  []-positive  []
+Bicycle Lyrics.txt_4-11  []-positive  []
+Bicycle Lyrics.txt_5-16  []-positive  []
+Bicycle Lyrics.txt_6-22  []-negative  []
+Bicycle Lyrics.txt_6-23  [so-result]-positive  [fgb]
+Bicycle Lyrics.txt_7-30  []-positive  []
+Bicycle Lyrics.txt_8-38  []-positive  []
+Bicycle Lyrics.txt_9-47  []-positive  []
+Bicycle Lyrics.txt_10-57  []-positive  []
+Bicycle Lyrics.txt_11-69  []-negative  [neg]
+Bicycle Lyrics.txt_13-95  []-negative  [neg]
+Bicycle Lyrics.txt_14-109  []-positive  []
+Bicycle Lyrics.txt_16-141  []-negative  [fgb,neg]
+Bicycle Lyrics.txt_17-158  []-negative  []
+Bicycle Lyrics.txt_17-159  [so-result]-positive  [fgb]
+Bicycle Lyrics.txt_18-177  []-positive  []
+Bicycle Lyrics.txt_19-196  []-positive  []
+Bicycle Lyrics.txt_20-216  []-positive  [neg]
+Bicycle Lyrics.txt_21-237  []-negative  []
+Bicycle Lyrics.txt_21-238  [so-result]-positive  [fgb]
+Bicycle Lyrics.txt_22-260  []-positive  []
+Bicycle Lyrics.txt_23-283  []-positive  []
+Bicycle Lyrics.txt_24-307  []-positive  [neg]
+Bicycle Lyrics.txt_25-332  []-negative  [bkc,neg]
+Bicycle Lyrics.txt_25-333  []-positive  []
+Bicycle Lyrics.txt_26-359  []-positive  [fgb,fgb]
+Bicycle Lyrics.txt_27-386  [before-temp_prec]-positive  [fgb,fgb]
+Bicycle Lyrics.txt_28-414  []-suspension  [ass,neg,neg]
+Bicycle Lyrics.txt_29-443  []-suspension  []
+Bicycle Lyrics.txt_29-444  []-positive  []
+Bicycle Lyrics.txt_30-474  []-positive  [ack]
+Bicycle Lyrics.txt_31-505  []-positive  []
+Bicycle Lyrics.txt_32-537  []-negative  []
+Bicycle Lyrics.txt_32-538  [so-result]-positive  [fgb]
+Bicycle Lyrics.txt_33-571  []-positive  []
+Bicycle Lyrics.txt_34-605  []-positive  []
+Bicycle Lyrics.txt_35-640  []-positive  []
+Bicycle Lyrics.txt_36-676  []-positive  []
+Bicycle Lyrics.txt_37-713  []-negative  []
+Bicycle Lyrics.txt_37-714  [so-result]-positive  [fgb]
+Bicycle Lyrics.txt_38-752  []-positive  []
+Bicycle Lyrics.txt_39-791  []-positive  []
+Bicycle Lyrics.txt_40-831  []-positive  []
+Bicycle Lyrics.txt_41-872  []-negative  []
+Bicycle Lyrics.txt_41-873  [so-result]-positive  [fgb]
+Bicycle Lyrics.txt_42-915  []-positive  []
+Bicycle Lyrics.txt_43-958  []-positive  []
+Bicycle Lyrics.txt_44-1002  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Bicycle Lyrics.txt_1-1  [bicycle,Lyrics,by,Unknown,Mortal,Orchestra]  [title]
+Bicycle Lyrics.txt_2-3  [my,bicycle,rode]  [provide_expl_just(ride,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_2-4  [so,smooth]  [provide_expl_just(ride,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_3-7  [under,the,clouds]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_4-11  [over,the,stars]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_5-16  [all,of,you,can,eat,my,dust]  [provide_expl_just(eat,[external,nonfactive,narration,foreground,objective])]
+Bicycle Lyrics.txt_6-22  [my,bicycle,rode]  [provide_expl_just(ride,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_6-23  [so,smooth]  [provide_expl_just(ride,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_7-30  [under,the,clouds]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_8-38  [over,the,stars]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_9-47  [all,of,you,can,eat,my,dust]  [provide_expl_just(eat,[external,nonfactive,narration,foreground,objective])]
+Bicycle Lyrics.txt_10-57  [can,i,start,with,a,goodbye]  [provide_expl_just(start,[external,factive,inception,background,objective]),suggest(start,[external,factive,inception,background,objective]),provide_expl_just(can,[external,nonfactive,result,foreground,objective])]
+Bicycle Lyrics.txt_11-69  [you,are,very,busy]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_13-95  [that,wretched,light]  [reject_expl_just(light,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_14-109  [disassociated,by]  [provide_expl_just(disassociate,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_16-141  [and,a,dosage,quite,unwise]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_17-158  [my,bicycle,rode]  [provide_expl_just(ride,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_17-159  [so,smooth]  [provide_expl_just(ride,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_18-177  [under,the,clouds]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_19-196  [over,the,stars]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_20-216  [all,of,you,can,eat,my,dirt]  [provide_expl_just(eat,[external,nonfactive,narration,foreground,objective])]
+Bicycle Lyrics.txt_21-237  [my,bicycle,rode]  [provide_expl_just(ride,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_21-238  [so,smooth]  [provide_expl_just(ride,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_22-260  [under,the,clouds]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_23-283  [over,the,stars]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_24-307  [all,of,you,can,eat,my,dirt]  [provide_expl_just(eat,[external,nonfactive,narration,foreground,objective])]
+Bicycle Lyrics.txt_25-332  [we,oh,cut]  [reject_expl_just(cut,[external,factive,narration,background,objective]),reject_expl_just(size,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_25-333  [you,down,to,size]  [provide_expl_just(cut,[external,factive,narration,background,objective]),provide_expl_just(size,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_26-359  [what,a,difference,between,what,i,saw]  [provide_expl_just(what,[internal,factive,narration,background,objective])]
+Bicycle Lyrics.txt_27-386  [and,what,was,before,my,eyes,.,was,my,eyes,before]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Bicycle Lyrics.txt_28-414  [it,great,no,disease,was]  [suggest(be,[_128652,_128658,statement,background,_128676])]
+Bicycle Lyrics.txt_29-443  [that,will,get]  [provide_expl_just(get,[external,nonfactive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Bicycle Lyrics.txt_29-444  [you,taken,by]  [provide_expl_just(get,[external,nonfactive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Bicycle Lyrics.txt_30-474  [a,squad,car,right,to,the,a,&,amp]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_31-505  [e]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Bicycle Lyrics.txt_32-537  [my,bicycle,rode]  [provide_expl_just(ride,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_32-538  [so,smooth]  [provide_expl_just(ride,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_33-571  [under,the,clouds]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_34-605  [over,the,stars]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_35-640  [all,of,you,can,eat,my,dust]  [provide_expl_just(eat,[external,nonfactive,narration,foreground,objective])]
+Bicycle Lyrics.txt_36-676  [lalalalalalalalalala]  [raise_issue(be,[_134460,factive,statement,_134478,subjective])]
+Bicycle Lyrics.txt_37-713  [my,bicycle,rode]  [provide_expl_just(ride,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_37-714  [so,smooth]  [provide_expl_just(ride,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_38-752  [under,the,clouds]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_39-791  [over,the,stars]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_40-831  [all,of,you,can,eat,my,dust]  [provide_expl_just(eat,[external,nonfactive,narration,foreground,objective])]
+Bicycle Lyrics.txt_41-872  [my,bicycle,rode]  [provide_expl_just(ride,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_41-873  [so,smooth]  [provide_expl_just(ride,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_42-915  [under,the,clouds]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_43-958  [over,the,stars]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bicycle Lyrics.txt_44-1002  [all,of,you,can,eat,my,dust]  [provide_expl_just(eat,[external,nonfactive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Bicycle Lyrics.txt_1-1)-[]
+2-(Bicycle Lyrics.txt_2-3)-[primary-voyage]
+3-(Bicycle Lyrics.txt_2-4)-[primary-touch]
+4-(Bicycle Lyrics.txt_3-7)-[primary-depth,primary-diffusion]
+5-(Bicycle Lyrics.txt_4-11)-[primary-concreteness,primary-vision]
+6-(Bicycle Lyrics.txt_5-16)-[primary-orality]
+7-(Bicycle Lyrics.txt_6-22)-[primary-voyage]
+8-(Bicycle Lyrics.txt_6-23)-[primary-touch]
+9-(Bicycle Lyrics.txt_7-30)-[primary-depth,primary-diffusion]
+10-(Bicycle Lyrics.txt_8-38)-[primary-concreteness,primary-vision]
+11-(Bicycle Lyrics.txt_9-47)-[primary-orality]
+12-(Bicycle Lyrics.txt_10-57)-[primary-vision,emotions-affection]
+13-(Bicycle Lyrics.txt_11-69)-[]
+14-(Bicycle Lyrics.txt_13-95)-[primary-vision]
+15-(Bicycle Lyrics.txt_14-109)-[]
+16-(Bicycle Lyrics.txt_16-141)-[]
+17-(Bicycle Lyrics.txt_17-158)-[primary-voyage]
+18-(Bicycle Lyrics.txt_17-159)-[primary-touch]
+19-(Bicycle Lyrics.txt_18-177)-[primary-depth,primary-diffusion]
+20-(Bicycle Lyrics.txt_19-196)-[primary-concreteness,primary-vision]
+21-(Bicycle Lyrics.txt_20-216)-[primary-orality,primary-anality]
+22-(Bicycle Lyrics.txt_21-237)-[primary-voyage]
+23-(Bicycle Lyrics.txt_21-238)-[primary-touch]
+24-(Bicycle Lyrics.txt_22-260)-[primary-depth,primary-diffusion]
+25-(Bicycle Lyrics.txt_23-283)-[primary-concreteness,primary-vision]
+half
+26-(Bicycle Lyrics.txt_24-307)-[primary-orality,primary-anality]
+27-(Bicycle Lyrics.txt_25-332)-[emotions-aggression]
+28-(Bicycle Lyrics.txt_25-333)-[]
+29-(Bicycle Lyrics.txt_26-359)-[secondary-abstract_tought,primary-concreteness,primary-vision]
+30-(Bicycle Lyrics.txt_27-386)-[primary-narcissism,primary-narcissism]
+31-(Bicycle Lyrics.txt_28-414)-[emotions-glory]
+32-(Bicycle Lyrics.txt_29-443)-[]
+33-(Bicycle Lyrics.txt_29-444)-[]
+34-(Bicycle Lyrics.txt_30-474)-[secondary-moral_imperative]
+35-(Bicycle Lyrics.txt_31-505)-[]
+36-(Bicycle Lyrics.txt_32-537)-[primary-voyage]
+37-(Bicycle Lyrics.txt_32-538)-[primary-touch]
+38-(Bicycle Lyrics.txt_33-571)-[primary-depth,primary-diffusion]
+39-(Bicycle Lyrics.txt_34-605)-[primary-concreteness,primary-vision]
+40-(Bicycle Lyrics.txt_35-640)-[primary-orality]
+41-(Bicycle Lyrics.txt_36-676)-[]
+42-(Bicycle Lyrics.txt_37-713)-[primary-voyage]
+43-(Bicycle Lyrics.txt_37-714)-[primary-touch]
+44-(Bicycle Lyrics.txt_38-752)-[primary-depth,primary-diffusion]
+45-(Bicycle Lyrics.txt_39-791)-[primary-concreteness,primary-vision]
+46-(Bicycle Lyrics.txt_40-831)-[primary-orality]
+47-(Bicycle Lyrics.txt_41-872)-[primary-voyage]
+48-(Bicycle Lyrics.txt_41-873)-[primary-touch]
+49-(Bicycle Lyrics.txt_42-915)-[primary-depth,primary-diffusion]
+50-(Bicycle Lyrics.txt_43-958)-[primary-concreteness,primary-vision]
+51-(Bicycle Lyrics.txt_44-1002)-[primary-orality]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Bicycle Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Unknown-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,bicycle,sn1),def_prop(Unknown,[istituzione]),def_prop(Lyrics,[informa,tecno])])
+lf(Bicycle Lyrics.txt_2,3,cl3-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_2,3,cl2-nil-nil-ride-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_3,7,cl4-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_4,11,cl5-nil-nil-be-[subj-theme_bound-star-sn1,def_prop(star,[astratto,oggetto,umano])])
+lf(Bicycle Lyrics.txt_5,16,cl6-nil-can-eat-[obj-theme_unaff-dust-sn2,subj-agent-all-sn1,def_prop(dust,[sostanza]),def_prop(all,[_142424])])
+lf(Bicycle Lyrics.txt_6,22,cl8-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_6,22,cl7-nil-nil-ride-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_7,30,cl9-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_8,38,cl10-nil-nil-be-[subj-theme_bound-star-sn1,def_prop(star,[astratto,oggetto,umano])])
+lf(Bicycle Lyrics.txt_9,47,cl11-nil-can-eat-[obj-theme_unaff-dust-sn2,subj-agent-all-sn1,def_prop(dust,[sostanza]),def_prop(all,[_142862])])
+lf(Bicycle Lyrics.txt_10,57,cl13-nil-nil-start-[ncmod-actor-goodbye-sn2,xcomp-purpose-start-2,def_prop(goodbye,[attivita,informa])])
+lf(Bicycle Lyrics.txt_10,57,cl12-nil-can-can-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Bicycle Lyrics.txt_11,69,cl14-nil-nil-be-[xcomp-prop-busy-sn2,subj-theme_bound-you-sn1,def_prop(busy,[valutativo]),def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_12,81,cl16-nil-nil-hold-[subj-agent-vision-sn1,aux-are-nil,progr-holding-nil,def_prop(vision,[astratto,evento])])
+lf(Bicycle Lyrics.txt_12,81,cl15-nil-nil-be-[xcomp-prop-vision-sn1,def_prop(vision,[astratto,evento])])
+lf(Bicycle Lyrics.txt_13,95,cl17-nil-nil-light-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_14,109,nil-nil-nil-disassociate-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_15,124,cl19-nil-nil-advise-[subj-actor-combination-sn1,adj-(mod)-ill-nil,aux-were-nil,def_prop(combination,[attivita,istituzione])])
+lf(Bicycle Lyrics.txt_15,124,cl18-nil-nil-be-[xcomp-prop-combination-sn1,def_prop(combination,[attivita,istituzione])])
+lf(Bicycle Lyrics.txt_16,141,cl20-nil-nil-be-[cmod-subord-be-",subj-theme_bound-dosage-sn1,def_prop(dosage,[nquant])])
+lf(Bicycle Lyrics.txt_17,158,cl22-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_17,158,cl21-nil-nil-ride-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_18,177,cl23-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_19,196,cl24-nil-nil-be-[subj-theme_bound-star-sn1,def_prop(star,[astratto,oggetto,umano])])
+lf(Bicycle Lyrics.txt_20,216,cl25-nil-can-eat-[obj-theme_unaff-dirt-sn2,subj-agent-all-sn1,def_prop(dirt,[stato]),def_prop(all,[_144254])])
+lf(Bicycle Lyrics.txt_21,237,cl27-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_21,237,cl26-nil-nil-ride-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_22,260,cl28-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_23,283,cl29-nil-nil-be-[subj-theme_bound-star-sn1,def_prop(star,[astratto,oggetto,umano])])
+lf(Bicycle Lyrics.txt_24,307,cl30-nil-can-eat-[obj-theme_unaff-dirt-sn2,subj-agent-all-sn1,def_prop(dirt,[stato]),def_prop(all,[_144692])])
+lf(Bicycle Lyrics.txt_25,332,cl32-nil-nil-size-[xcomp-prop-down-sn4,subj-agent-you-sn3,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_25,332,cl31-nil-nil-cut-[ncmod-modal-we-sn2,subj-agent-you-sn1,def_prop(we,[umano]),def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_26,359,cl33-nil-nil-be-[ncmod-modal-what-sn3,subj-theme_bound-difference-sn2,subj-theme_bound-difference-sn1,and(difference,what,sn1),def_prop(what,[oggetto]),def_prop(difference,[astratto,relat]),def_prop(difference,[astratto,relat])])
+lf(Bicycle Lyrics.txt_27,386,cl34-nil-nil-be-[cmod-subord-be-",adj-(mod)-before-nil,xcomp-prop-eye-sn2,subj-theme_bound-what-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(what,[oggetto])])
+lf(Bicycle Lyrics.txt_28,414,cl35-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_29,443,cl37-nil-nil-take-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_29,443,cl36-nil-will-get-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_30,474,cl38-nil-nil-be-[xcomp-theme-amp-sn2,subj-theme_bound-car-sn1,and(car,squad,sn1),def_prop(amp,[nquant]),def_prop(car,[oggetto,strumento])])
+lf(Bicycle Lyrics.txt_31,505,cl39-nil-nil-say-[obj-theme_unaff-e-sn1,def_prop(e,[nquant])])
+lf(Bicycle Lyrics.txt_32,537,cl41-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_32,537,cl40-nil-nil-ride-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_33,571,cl42-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_34,605,cl43-nil-nil-be-[subj-theme_bound-star-sn1,def_prop(star,[astratto,oggetto,umano])])
+lf(Bicycle Lyrics.txt_35,640,cl44-nil-can-eat-[obj-theme_unaff-dust-sn2,subj-agent-all-sn1,def_prop(dust,[sostanza]),def_prop(all,[_146178])])
+lf(Bicycle Lyrics.txt_36,676,cl45-nil-nil-say-[obj-theme_unaff-lalalalalalalalalala-sn1,def_prop(lalalalalalalalalala,[istituzione])])
+lf(Bicycle Lyrics.txt_37,713,cl47-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_37,713,cl46-nil-nil-ride-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_38,752,cl48-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_39,791,cl49-nil-nil-be-[subj-theme_bound-star-sn1,def_prop(star,[astratto,oggetto,umano])])
+lf(Bicycle Lyrics.txt_40,831,cl50-nil-can-eat-[obj-theme_unaff-dust-sn2,subj-agent-all-sn1,def_prop(dust,[sostanza]),def_prop(all,[_146694])])
+lf(Bicycle Lyrics.txt_41,872,cl52-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_41,872,cl51-nil-nil-ride-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_42,915,cl53-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bicycle Lyrics.txt_43,958,cl54-nil-nil-be-[subj-theme_bound-star-sn1,def_prop(star,[astratto,oggetto,umano])])
+lf(Bicycle Lyrics.txt_44,1002,cl55-nil-can-eat-[obj-theme_unaff-dust-sn2,subj-agent-all-sn1,def_prop(dust,[sostanza]),def_prop(all,[_147132])])

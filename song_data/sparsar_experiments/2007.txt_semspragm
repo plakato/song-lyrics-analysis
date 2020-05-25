@@ -1,0 +1,268 @@
+"POLARITY, DISCOURSE MARKERS"
+
+2007.txt_1-1  []-positive  []
+2007.txt_2-3  []-positive  []
+2007.txt_3-6  []-positive  []
+2007.txt_3-7  []-positive  []
+2007.txt_4-11  []-positive  []
+2007.txt_4-12  []-negative  [neg,neg]
+2007.txt_5-17  []-suspension  [neg,neg]
+2007.txt_6-23  []-negative  [neg]
+2007.txt_7-30  []-negative  [neg]
+2007.txt_8-38  [though-advers]-positive  [fhd]
+2007.txt_9-47  []-positive  [fgb,neg]
+2007.txt_10-57  []-positive  []
+2007.txt_11-68  []-positive  []
+2007.txt_12-80  []-positive  [fhd]
+2007.txt_13-93  []-positive  []
+2007.txt_14-107  []-negative  [neg]
+2007.txt_15-122  []-positive  []
+2007.txt_16-138  []-negative  [fgb]
+2007.txt_16-138  []-negative  [fgb]
+2007.txt_17-155  []-suspension  [neg,neg]
+2007.txt_18-173  []-negative  []
+2007.txt_19-192  []-positive  []
+2007.txt_20-212  []-positive  []
+2007.txt_20-213  []-positive  []
+2007.txt_21-234  [so-result]-positive  [fgb]
+2007.txt_21-235  []-positive  []
+2007.txt_23-280  [so-result]-negative  [fgb,neg]
+2007.txt_24-304  []-positive  [neg]
+2007.txt_25-329  []-positive  []
+2007.txt_26-355  []-negative  [neg,neg]
+2007.txt_27-382  []-positive  [neg]
+2007.txt_28-410  []-negative  [neg,fgb]
+2007.txt_29-439  []-negative  [neg]
+2007.txt_30-470  []-negative  [neg]
+2007.txt_31-501  []-negative  [neg,fgb]
+2007.txt_32-534  []-positive  []
+2007.txt_33-567  []-positive  []
+2007.txt_34-601  [when-temp_coinc]-suspension  []
+2007.txt_35-636  [so-result]-negative  [fgb,neg]
+2007.txt_36-672  []-suspension  []
+2007.txt_36-673  []-positive  []
+2007.txt_37-710  []-positive  [fgb]
+2007.txt_38-748  []-positive  []
+2007.txt_39-787  []-question  []
+2007.txt_41-868  []-positive  []
+2007.txt_41-869  []-positive  []
+2007.txt_42-911  []-positive  []
+2007.txt_43-954  []-positive  []
+2007.txt_44-999  []-positive  [fhd]
+2007.txt_45-1044  []-positive  []
+2007.txt_45-1045  [but-advers]-positive  [fgb]
+2007.txt_46-1091  []-positive  []
+2007.txt_46-1092  []-negative  [neg,neg]
+2007.txt_47-1139  [so-result,when-temp_coinc]-positive  [fgb]
+2007.txt_48-1187  []-negative  [neg,neg,neg]
+2007.txt_49-1237  []-suspension  []
+2007.txt_50-1287  []-positive  []
+2007.txt_50-1288  []-negative  [neg,neg]
+2007.txt_51-1339  [so-result,when-temp_coinc]-positive  [fgb]
+2007.txt_52-1391  []-negative  [neg,neg,neg]
+2007.txt_53-1445  []-suspension  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+2007.txt_1-1  [2007,by,Aziz]  [title]
+2007.txt_2-3  [Yo,you]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2007.txt_3-6  [better,watch]  [provide_expl_just(watch,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+2007.txt_3-7  [for,the,potholes]  [provide_expl_just(watch,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+2007.txt_4-11  [i,take]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+2007.txt_4-12  [that,L,no,loss,tho]  [reject_expl_just(take,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+2007.txt_5-17  [i,dash,the,blunt,no,Roscoe]  [provide_expl_just(dash,[external,factive,narration,background,objective])]
+2007.txt_6-23  [piff,wholesale,no,Costco]  [reject_expl_just(wholesale,[external,factive,narration,background,objective])]
+2007.txt_7-30  [tryna,keep,the,cost,low]  [reject_expl_just(keep,[external,factive,narration,background,objective])]
+2007.txt_8-38  [need,plaques,like,floss,though]  [provide_expl_just(floss,[external,factive,narration,background,objective])]
+2007.txt_9-47  [and,a,Cadillac,to,drive,slow]  [provide_expl_just(slow,[external,factive,narration,background,objective])]
+2007.txt_10-57  [dinner,plates,five,course]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2007.txt_11-68  [takin,flights,in,Concords]  [provide_expl_just(flight,[external,factive,narration,background,objective])]
+2007.txt_12-80  [mile,high,like,the,Broncos]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+2007.txt_13-93  [i,Niagra,flow,Falls,tho]  [raise_issue(be,[_1968288,factive,statement,_1968306,subjective])]
+2007.txt_14-107  [betta,grab,ya,poncho]  [reject_expl_just(grab,[external,factive,narration,background,objective])]
+2007.txt_15-122  [cause,its,about,to,downpour]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2007.txt_16-138  [and,don-t,Niagra]  [provide_expl_just(don-t,[external,factive,narration,background,objective])]
+2007.txt_16-138  [and,don-t,Niagra,Fall,bro]  [provide_expl_just(don-t,[external,factive,narration,background,objective])]
+2007.txt_17-155  [that,fall,is,long,tho,kinda]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2007.txt_18-173  [don-t,look,down]  [provide_expl_just(look,[external,factive,narration,foreground,objective])]
+2007.txt_19-192  [leaders]  [raise_issue(be,[_1971248,factive,statement,_1971266,subjective])]
+2007.txt_20-212  [leaders,help]  [provide_expl_just(help,[external,factive,narration,background,objective]),provide_expl_just(follow,[external,factive,narration,background,objective])]
+2007.txt_20-213  [you,follow]  [provide_expl_just(help,[external,factive,narration,background,objective]),provide_expl_just(follow,[external,factive,narration,background,objective])]
+2007.txt_21-234  [so,where,i,go,they,all,go,.,all,they,i,go]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+2007.txt_21-235  [go]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+2007.txt_23-280  [Yo,girl,so,hard,to,look,at]  [reject_expl_just(look,[external,factive,narration,background,objective])]
+2007.txt_24-304  [talk,about,an,eye,sore]  [provide_expl_just(talk,[external,factive,narration,background,objective])]
+2007.txt_25-329  [put,my,flow,in,a,large,bowl]  [provide_expl_just(put,[external,factive,narration,foreground,objective])]
+2007.txt_26-355  [could,mix,the,shit,with,hot,sauce]  [reject_expl_just(mix,[external,nonfactive,narration,background,objective])]
+2007.txt_27-382  [please,stop,with,these,knockoffs]  [provide_expl_just(stop,[external,factive,narration,background,objective])]
+2007.txt_28-410  [fake,polo,and,izod]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+2007.txt_29-439  [gotta,skate,im,cuz,bored]  [reject_expl_just(gotta,[external,factive,narration,background,objective]),reject_expl_just(skate,[external,factive,narration,background,objective])]
+2007.txt_30-470  [stick,to,Bein,my,boss]  [reject_expl_just(stick,[external,factive,narration,background,objective])]
+2007.txt_31-501  [weed,and,brew,with,my,boys]  [reject_expl_just(brew,[external,factive,narration,background,objective])]
+2007.txt_32-534  [Yall,deserve,an,encore]  [provide_expl_just(deserve,[external,factive,narration,background,objective])]
+2007.txt_33-567  [only,those,who,been,there]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2007.txt_34-601  [will,be,with,me,when,i,am,on]  [provide_expl_just(be,[external,factive,circumstance,background,objective])]
+2007.txt_35-636  [so,Callin,my,phone,stop]  [reject_expl_just(stop,[external,factive,narration,background,objective])]
+2007.txt_36-672  [get,used,to,the,dial]  [provide_expl_just(use,[external,factive,cause,foreground,objective])]
+2007.txt_36-673  [tones]  [provide_expl_just(use,[external,factive,cause,foreground,objective])]
+2007.txt_37-710  [and,please,form,a,line,bro]  [proposal(be,[_1979420,_1979426,statement,foreground,_1979444])]
+2007.txt_38-748  [above,average,my,norm,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2007.txt_39-787  [bandwagon,?]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+2007.txt_41-868  [lucky,we,saved]  [provide_expl_just(save,[external,factive,cause,foreground,objective])]
+2007.txt_41-869  [ya,spot,dog]  [provide_expl_just(save,[external,factive,cause,foreground,objective])]
+2007.txt_42-911  [it,is,pure,gold,in,rhyme,form]  [raise_issue(be,[_1981524,factive,statement,_1981542,subjective])]
+2007.txt_43-954  [you,gotta,let,my,style,form]  [provide_expl_just(let,[external,factive,narration,background,objective]),provide_expl_just(gotta,[external,factive,narration,background,objective])]
+2007.txt_44-999  [breakin,Denver,Nuggets,like,styrofaum]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+2007.txt_45-1044  [you,write,a,song]  [provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(write,[external,factive,narration,background,objective])]
+2007.txt_45-1045  [but,in,real,life,your,style,is,gone]  [provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(write,[external,factive,narration,background,objective])]
+2007.txt_46-1091  [all,my,niggas,tryna,come,up]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2007.txt_46-1092  [it,is,not,not,easy]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+2007.txt_47-1139  [so,we,just,enjoyin,a,day,when,lifes,easy]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2007.txt_48-1187  [told,you,that,i,am,wifin,the,game,i,is,not,not,cheatin]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(tell,[external,factive,narration,foreground,objective])]
+2007.txt_49-1237  [believe,me,,,believe,me]  [provide_expl_just(believe,[external,factive,narration,background,objective])]
+2007.txt_50-1287  [all,my,niggas,tryna,come,up]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2007.txt_50-1288  [it,is,not,not,easy]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+2007.txt_51-1339  [so,we,just,enjoyin,a,day,when,lifes,easy]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2007.txt_52-1391  [told,you,that,i,am,wifin,the,game,i,is,not,not,cheatin]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(tell,[external,factive,narration,foreground,objective])]
+2007.txt_53-1445  [believe,me,,,believe,me]  [provide_expl_just(believe,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(2007.txt_1-1)-[]
+2-(2007.txt_2-3)-[]
+3-(2007.txt_3-6)-[primary-vision]
+4-(2007.txt_3-7)-[]
+5-(2007.txt_4-11)-[]
+6-(2007.txt_4-12)-[]
+7-(2007.txt_5-17)-[]
+8-(2007.txt_6-23)-[]
+9-(2007.txt_7-30)-[secondary-instru_behavior,secondary-instru_behavior,primary-depth]
+10-(2007.txt_8-38)-[emotions-affection]
+11-(2007.txt_9-47)-[primary-voyage,primary-passivity]
+12-(2007.txt_10-57)-[primary-orality]
+13-(2007.txt_11-68)-[primary-ascend]
+14-(2007.txt_12-80)-[primary-height,emotions-affection]
+15-(2007.txt_13-93)-[]
+16-(2007.txt_14-107)-[]
+17-(2007.txt_15-122)-[secondary-abstract_tought,primary-water]
+18-(2007.txt_16-138)-[]
+19-(2007.txt_16-138)-[]
+20-(2007.txt_17-155)-[primary-descent,primary-concreteness,emotions-affection]
+21-(2007.txt_18-173)-[primary-vision]
+22-(2007.txt_19-192)-[]
+23-(2007.txt_20-212)-[secondary-social_behavior]
+24-(2007.txt_20-213)-[secondary-social_behavior]
+25-(2007.txt_21-234)-[primary-concreteness]
+26-(2007.txt_21-235)-[]
+27-(2007.txt_23-280)-[primary-hard,primary-vision,primary-concreteness]
+28-(2007.txt_24-304)-[secondary-social_behavior,primary-narcissism]
+29-(2007.txt_25-329)-[]
+30-(2007.txt_26-355)-[primary-anality,primary-fire,primary-orality]
+half
+31-(2007.txt_27-382)-[secondary-social_behavior,secondary-restraint]
+32-(2007.txt_28-410)-[]
+33-(2007.txt_29-439)-[]
+34-(2007.txt_30-470)-[]
+35-(2007.txt_31-501)-[primary-orality]
+36-(2007.txt_32-534)-[]
+37-(2007.txt_33-567)-[]
+38-(2007.txt_34-601)-[secondary-temporal_repere]
+39-(2007.txt_35-636)-[secondary-restraint]
+40-(2007.txt_36-672)-[secondary-instru_behavior]
+41-(2007.txt_36-673)-[primary-sound]
+42-(2007.txt_37-710)-[secondary-social_behavior,secondary-order,primary-brink]
+43-(2007.txt_38-748)-[primary-height,secondary-order]
+44-(2007.txt_39-787)-[]
+45-(2007.txt_41-868)-[]
+46-(2007.txt_41-869)-[]
+47-(2007.txt_42-911)-[emotions-glory,secondary-order]
+48-(2007.txt_43-954)-[secondary-order]
+49-(2007.txt_44-999)-[emotions-aggression,emotions-affection]
+50-(2007.txt_45-1044)-[]
+51-(2007.txt_45-1045)-[secondary-abstract_tought]
+52-(2007.txt_46-1091)-[secondary-instru_behavior]
+53-(2007.txt_46-1092)-[]
+54-(2007.txt_47-1139)-[emotions-positive_affect,secondary-temporal_repere]
+55-(2007.txt_48-1187)-[secondary-social_behavior,emotions-expressive_beh]
+56-(2007.txt_49-1237)-[secondary-abstract_tought,secondary-abstract_tought]
+57-(2007.txt_50-1287)-[secondary-instru_behavior]
+58-(2007.txt_50-1288)-[]
+59-(2007.txt_51-1339)-[emotions-positive_affect,secondary-temporal_repere]
+60-(2007.txt_52-1391)-[secondary-social_behavior,emotions-expressive_beh]
+61-(2007.txt_53-1445)-[secondary-abstract_tought,secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(2007.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Aziz-sn2,subj-theme_bound-2007-sn1,def_prop(Aziz,[umano]),def_prop(2007,[date,tempo])])
+lf(2007.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(2007.txt_3,6,cl4-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(2007.txt_3,6,cl3-nil-nil-watch-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(2007.txt_4,11,cl6-nil-nil-be-[xcomp-prop-loss-sn4,xcomp-theme-L-sn3,subj-theme_bound-you-sn2,and(loss,tho,sn4),def_prop(loss,[astratto,attivita,evento,oggetto]),def_prop(L,[umano]),def_prop(you,[umano])])
+lf(2007.txt_4,11,cl5-nil-nil-take-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(2007.txt_5,17,cl7-nil-nil-dash-[obj-theme-Roscoe-sn2,subj-actor-i-sn1,and(Roscoe,blunt,sn2),and(Roscoe,no,sn2),def_prop(Roscoe,[place,umano]),def_prop(i,[umano])])
+lf(2007.txt_6,23,nil-nil-nil-wholesale-[obj-theme-Costco-sn2,subj-actor-piff-sn1,and(Costco,no,sn2),def_prop(Costco,[istituzione,umano]),def_prop(piff,[istituzione])])
+lf(2007.txt_7,30,cl8-nil-nil-keep-[xcomp-prop-low-sn3,obj-goal-coss-sn2,subj-experiencer-tryna-sn1,def_prop(low,[astratto,stato]),def_prop(coss,[nquant]),def_prop(tryna,[istituzione])])
+lf(2007.txt_8,38,nil-nil-nil-floss-[adj-(mod)-though-nil,subj-agent-plaque-sn1,and(plaque,ne,sn1),def_prop(plaque,[body_part,umano])])
+lf(2007.txt_9,47,cl9-nil-nil-slow-[cmod-subord-slow-",iobj-goal-drive-sn2,subj-agent-Cadillac-sn1,def_prop(drive,[astratto,attivita,oggetto,stato,strumento]),def_prop(Cadillac,[istituzione,umano])])
+lf(2007.txt_10,57,cl10-nil-nil-be-[subj-theme_bound-five-sn1,and(five,plate,sn1),and(five,dinner,sn1),def_prop(five,[nquant])])
+lf(2007.txt_11,68,cl11-nil-nil-flight-[ncmod-locativo-female-sn2,subj-actor-takin-sn1,def_prop(female,[animato,umano]),def_prop(takin,[animato])])
+lf(2007.txt_12,80,nil-nil-nil-like-[obj-tema_emot-bronco-sn2,subj-experiencer-high-sn1,and(high,mile,sn1),def_prop(bronco,[animato]),def_prop(high,[astratto,luogo,stato])])
+lf(2007.txt_13,93,cl12-nil-nil-flow-[adj-(mod)-tho-nil,obj-theme-Falls-sn2,subj-actor-i-sn1,and(Falls,Niagra,sn2),def_prop(Falls,[place,umano]),def_prop(i,[umano])])
+lf(2007.txt_14,107,cl13-nil-nil-grab-[obj-theme-poncho-sn3,obj-theme-ya-sn2,subj-agent-betta-sn1,def_prop(poncho,[oggetto,strumento]),def_prop(ya,[legale]),def_prop(betta,[istituzione])])
+lf(2007.txt_15,122,cl14-nil-nil-be-[ncmod-relation-downpour-sn3,subj-theme_bound-its-sn2,subj-theme_bound-its-sn1,and(its,cause,sn1),def_prop(downpour,[attivita,cambia]),def_prop(its,[istituzione]),def_prop(its,[istituzione])])
+lf(2007.txt_16,138,cl15-not-nil-don-t-[cmod-coord-don-t-and,xcomp-theme-bro-sn3,xcomp-theme_aff-Niagra-sn2,cmod-subord-don-t-",xcomp-theme_aff-Niagra-sn1,def_prop(bro,[istituzione]),def_prop(Niagra,[istituzione,umano]),def_prop(Niagra,[istituzione,umano])])
+lf(2007.txt_17,155,cl16-nil-nil-be-[adj-(mod)-kinda-nil,xcomp-prop-tho-sn2,subj-theme_bound-fall-sn1,and(tho,long,sn2),and(fall,that,sn1),def_prop(tho,[istituzione,umano]),def_prop(fall,[attivita,evento,tempo])])
+lf(2007.txt_18,173,cl17-not-nil-look-[adj-subj_disc-down-sn2,subj-agent-you-sn1,aux-do-nil,def_prop(down,[istituzione]),def_prop(you,[umano])])
+lf(2007.txt_19,192,cl18-nil-nil-say-[obj-theme_unaff-leader-sn1,def_prop(leader,[umano])])
+lf(2007.txt_20,212,cl20-nil-nil-follow-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(2007.txt_20,212,cl19-nil-nil-help-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(2007.txt_21,234,cl21-nil-nil-go-[subj-agent-you-sn7,obj-theme-i-sn5,subj-agent-they-sn1,and(they,all,sn1),def_prop(you,[umano]),def_prop(i,[umano]),def_prop(they,[umano])])
+lf(2007.txt_22,256,_1994820-nil-nil-ride-[voice-ride-nil,tense-ride-nil,obl-locat-nigga-sn1,def_prop(nigga,[istituzione,umano])])
+lf(2007.txt_22,256,cl22-nil-nil-be-[voice-ride-nil,tense-ride-nil,xcomp-prop-nigga-sn1,def_prop(nigga,[istituzione,umano])])
+lf(2007.txt_23,280,cl23-nil-nil-look-[adj-(mod)-hard-nil,subj-agent-girl-sn1,and(girl,Yo,sn1),def_prop(girl,[oggetto,strumento])])
+lf(2007.txt_24,304,cl24-nil-nil-talk-[xadj-adj-sore-adj1,obj-theme-sore-sn3,iobj-goal-eye-sn2,subj-actor-you-sn1,def_prop(sore,_1995262),def_prop(sore,[stato]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(2007.txt_25,329,cl25-nil-nil-put-[iobj-goal-bowl-sn3,obj-goal-flow-sn2,subj-agent-you-sn1,and(bowl,large,sn3),def_prop(bowl,[astratto,nquant,oggetto,strumento]),def_prop(flow,[attivita,evento,tempo]),def_prop(you,[umano])])
+lf(2007.txt_26,355,cl26-nil-could-mix-[iobj-goal-sauce-sn3,obj-patient1-shit-sn2,subj-agent-you-sn1,and(sauce,hot,sn3),def_prop(sauce,[edible,oggetto]),def_prop(shit,[attivita,umano]),def_prop(you,[umano])])
+lf(2007.txt_27,382,cl27-nil-nil-stop-[ncmod-comitativo-knockoff-sn2,subj-agent-you-sn1,and(knockoff,these,sn2),def_prop(knockoff,[oggetto,strumento]),def_prop(you,[umano])])
+lf(2007.txt_28,410,cl28-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(2007.txt_29,439,cl29-nil-nil-skate-[])
+lf(2007.txt_29,439,nil-nil-nil-gotta-[xcomp-prop-bored-sn3,obj-theme_aff-cuz-sn2,subj-agent-you-sn1,and(cuz,im,sn2),def_prop(bored,[evaluative]),def_prop(cuz,[istituzione]),def_prop(you,[umano])])
+lf(2007.txt_30,470,cl30-nil-nil-stick-[iobj-goal-Bein-sn3,subj-agent-boss-sn2,subj-agent-boss-sn1,def_prop(Bein,[umano]),def_prop(boss,[umano]),def_prop(boss,[umano])])
+lf(2007.txt_31,501,cl32-nil-nil-brew-[cmod-coord-brew-and,iobj-goal-boy-sn6,iobj-goal-boy-sn3,subj-agent-you-sn2,def_prop(boy,[oggetto,strumento]),def_prop(boy,[oggetto,strumento]),def_prop(you,[umano])])
+lf(2007.txt_31,501,cl31-nil-nil-wee-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(2007.txt_32,534,cl33-nil-nil-deserve-[obj-theme-encore-sn2,subj-agent-Yall-sn1,def_prop(encore,[attivita]),def_prop(Yall,[istituzione,umano])])
+lf(2007.txt_33,567,cl34-nil-nil-be-[subj-theme_bound-that-sn1,and(that,who,sn1),def_prop(that,[oggetto,umano])])
+lf(2007.txt_34,601,cl35-nil-nil-be-[cmod-subord-be-when,subj-theme_bound-you-sn3,ncmod-comitativo-me-sn2,subj-theme_bound-will-sn1,def_prop(you,[umano]),def_prop(me,[umano]),def_prop(will,[astratto,attivita,informa])])
+lf(2007.txt_35,636,cl36-nil-nil-stop-[obj-theme-Callin-sn2,subj-agent-you-sn1,def_prop(Callin,[istituzione,umano]),def_prop(you,[umano])])
+lf(2007.txt_36,672,cl38-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(2007.txt_36,672,cl37-nil-nil-use-[ncmod-loc_direct-dial-sn2,subj-agent-get-sn1,def_prop(dial,[oggetto,strumento]),def_prop(get,[informa,tecno])])
+lf(2007.txt_37,710,cl39-nil-nil-form-[cmod-subord-form-",adj-(mod)-please-nil,subj_top-actor-line-sn2,subj_top-actor-line-sn1,and(line,bro,sn1),def_prop(line,[astratto,attivita,cambia,informa,luogo,oggetto,strumento]),def_prop(line,[astratto,attivita,cambia,informa,luogo,oggetto,strumento])])
+lf(2007.txt_38,748,cl40-nil-nil-be-[ncmod-loc_direct-average-sn2,subj-theme_bound-norm-sn1,def_prop(average,[astratto]),def_prop(norm,[relat])])
+lf(2007.txt_39,787,cl41-nil-nil-say-[obj-theme_unaff-bandwagon-sn1,def_prop(bandwagon,[astratto,oggetto,strumento])])
+lf(2007.txt_40,827,cl42-nil-nil-be-[])
+lf(2007.txt_41,868,cl44-nil-nil-spot-[obj-destination-dog-sn3,subj-agent-ya-sn2,def_prop(dog,[animato,plant,stato,umano]),def_prop(ya,[legale])])
+lf(2007.txt_41,868,cl43-nil-nil-save-[subj-agent-we-sn1,def_prop(we,[umano])])
+lf(2007.txt_42,911,cl45-nil-nil-be-[ncmod-locativo-form-sn3,xcomp-prop-gold-sn2,subj-theme_bound-it-sn1,and(form,rhyme,sn3),and(gold,pure,sn2),def_prop(form,[astratto,attivita,body_part,informa,istituzione,oggetto,strumento,umano]),def_prop(gold,[astratto,oggetto,sostanza]),def_prop(it,[any])])
+lf(2007.txt_43,954,cl46-nil-nil-let-[])
+lf(2007.txt_43,954,nil-nil-nil-gotta-[obj-theme_unaff-style-sn2,xcomp-purpose-let-2,subj-agent-you-sn1,def_prop(style,[animato,astratto,attivita,informa,plant]),def_prop(you,[umano])])
+lf(2007.txt_44,999,nil-nil-nil-like-[obj-tema_emot-styrofaum-sn2,subj-experiencer-nugget-sn1,and(nugget,Denver,sn1),and(nugget,breakin,sn1),def_prop(styrofaum,[istituzione]),def_prop(nugget,[oggetto])])
+lf(2007.txt_45,1044,cl48-nil-nil-go-[iobj-locat-life-sn4,subj-actor-style-sn3,aux-(is)-nil,and(life,real,sn4),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(style,[animato,astratto,attivita,informa,plant])])
+lf(2007.txt_45,1044,cl47-nil-nil-write-[obj-source_information-song-sn2,subj-agent-you-sn1,def_prop(song,[astratto,attivita,evento,informa,oggetto]),def_prop(you,[umano])])
+lf(2007.txt_46,1091,cl50-not-nil-be-[xcomp-prop-easy-sn9,subj-theme_bound-it-sn8,def_prop(easy,[soggettivo]),def_prop(it,[any])])
+lf(2007.txt_46,1091,cl49-nil-nil-come-[adj-(mod)-up-nil,subj-agent-tryna-sn1,and(tryna,all,sn1),and(tryna,nigga,sn1),def_prop(tryna,[istituzione])])
+lf(2007.txt_47,1139,cl51-nil-nil-be-[adj-temporal-day-nil,xcomp-prop-enjoyin-sn2,subj-theme_bound-we-sn1,and(enjoyin,life,sn2),def_prop(day,[tempo]),def_prop(enjoyin,[istituzione]),def_prop(we,[umano])])
+lf(2007.txt_48,1187,cl53-not-nil-be-[subj-theme_bound-cheatin-sn6,xcomp-prop-cheatin-sn5,subj-theme_bound-i-sn4,def_prop(cheatin,[istituzione]),def_prop(cheatin,[istituzione]),def_prop(i,[umano])])
+lf(2007.txt_48,1187,cl52-nil-nil-tell-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(2007.txt_49,1237,cl54-nil-nil-believe-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(2007.txt_50,1287,cl56-not-nil-be-[xcomp-prop-easy-sn9,subj-theme_bound-it-sn8,def_prop(easy,[soggettivo]),def_prop(it,[any])])
+lf(2007.txt_50,1287,cl55-nil-nil-come-[adj-(mod)-up-nil,subj-agent-tryna-sn1,and(tryna,all,sn1),and(tryna,nigga,sn1),def_prop(tryna,[istituzione])])
+lf(2007.txt_51,1339,cl57-nil-nil-be-[adj-temporal-day-nil,xcomp-prop-enjoyin-sn2,subj-theme_bound-we-sn1,and(enjoyin,life,sn2),def_prop(day,[tempo]),def_prop(enjoyin,[istituzione]),def_prop(we,[umano])])
+lf(2007.txt_52,1391,cl59-not-nil-be-[subj-theme_bound-cheatin-sn6,xcomp-prop-cheatin-sn5,subj-theme_bound-i-sn4,def_prop(cheatin,[istituzione]),def_prop(cheatin,[istituzione]),def_prop(i,[umano])])
+lf(2007.txt_52,1391,cl58-nil-nil-tell-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(2007.txt_53,1445,cl60-nil-nil-believe-[subj-actor-you-sn1,def_prop(you,[umano])])

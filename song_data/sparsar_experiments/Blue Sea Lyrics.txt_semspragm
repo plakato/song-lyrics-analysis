@@ -1,0 +1,110 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Blue Sea Lyrics.txt_1-1  []-positive  []
+Blue Sea Lyrics.txt_2-3  []-positive  []
+Blue Sea Lyrics.txt_2-4  []-negative  [neg,ack]
+Blue Sea Lyrics.txt_3-7  []-negative  [fgb,neg]
+Blue Sea Lyrics.txt_4-11  []-negative  [fgb]
+Blue Sea Lyrics.txt_5-17  []-positive  []
+Blue Sea Lyrics.txt_5-18  []-positive  []
+Blue Sea Lyrics.txt_6-24  [if-hypoth]-negative  [fgb,fgb,neg]
+Blue Sea Lyrics.txt_7-31  [if-hypoth]-negative  [fgb,fgb,neg]
+Blue Sea Lyrics.txt_8-39  []-suspension  [neg]
+Blue Sea Lyrics.txt_9-48  []-positive  []
+Blue Sea Lyrics.txt_9-49  []-positive  []
+Blue Sea Lyrics.txt_10-60  []-positive  [ack]
+Blue Sea Lyrics.txt_11-72  [if-hypoth]-negative  [fgb,neg]
+Blue Sea Lyrics.txt_12-84  [if-hypoth]-negative  [fgb,neg]
+Blue Sea Lyrics.txt_13-97  [if-hypoth]-negative  [fgb,neg]
+Blue Sea Lyrics.txt_14-111  [if-hypoth]-negative  [fgb,fgb,neg]
+Blue Sea Lyrics.txt_15-126  [if-hypoth]-negative  [fgb,fgb,neg]
+Blue Sea Lyrics.txt_16-142  []-positive  []
+Blue Sea Lyrics.txt_17-159  []-positive  [ack]
+Blue Sea Lyrics.txt_18-178  [if-hypoth]-negative  [fgb,fgb,neg]
+Blue Sea Lyrics.txt_19-197  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Blue Sea Lyrics.txt_1-1  [blue,Sea,Lyrics,by,Zoot,woman]  [title]
+Blue Sea Lyrics.txt_2-3  [you,say]  [provide_expl_just(say,[external,factive,explanation,background,objective])]
+Blue Sea Lyrics.txt_2-4  [that,something,is,not,right]  [reject_expl_just(say,[external,factive,explanation,background,objective]),propose_opin_neg(say,[external,factive,explanation,background,objective])]
+Blue Sea Lyrics.txt_3-7  [and,i,can,not,tolerate]  [reject_expl_just(tolerate,[external,nonfactive,narration,foreground,objective])]
+Blue Sea Lyrics.txt_4-11  [forget,what,we,don-t,understand,.,we,don-t,understand]  [provide_expl_just(understand,[external,factive,narration,foreground,objective]),provide_expl_just(forget,[external,factive,narration,background,objective])]
+Blue Sea Lyrics.txt_5-17  [we,can,handle]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Blue Sea Lyrics.txt_5-18  [it]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Blue Sea Lyrics.txt_6-24  [if,only,you,and,me,could,cross,the,blue,sea]  [reject_expl_just(cross,[external,nonfactive,narration,background,objective])]
+Blue Sea Lyrics.txt_7-31  [if,only,you,and,me,could,cross,the,blue,sea]  [reject_expl_just(cross,[external,nonfactive,narration,background,objective])]
+Blue Sea Lyrics.txt_8-39  [why,the,promise,break]  [suggest(be,[_127128,_127134,statement,background,_127152])]
+Blue Sea Lyrics.txt_9-48  [dont,i,want,to,let]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(let,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Blue Sea Lyrics.txt_9-49  [you,down]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(let,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Blue Sea Lyrics.txt_10-60  [just,want,to,make,everything,right]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective])]
+Blue Sea Lyrics.txt_11-72  [if,i,lost,it]  [reject_expl_just(lose,[external,factive,narration,foreground,objective])]
+Blue Sea Lyrics.txt_12-84  [if,i,lost,it]  [reject_expl_just(be,[_130552,_130558,_130564,_130570,_130576])]
+Blue Sea Lyrics.txt_13-97  [if,i,lost,you]  [reject_expl_just(lose,[external,factive,narration,foreground,objective])]
+Blue Sea Lyrics.txt_14-111  [if,only,you,and,me,could,cross,the,blue,sea]  [reject_expl_just(cross,[external,nonfactive,narration,background,objective])]
+Blue Sea Lyrics.txt_15-126  [if,only,you,and,me,could,cross,the,blue,sea]  [reject_expl_just(cross,[external,nonfactive,narration,background,objective])]
+Blue Sea Lyrics.txt_16-142  [go,to,the,Other_side]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Blue Sea Lyrics.txt_17-159  [just,want,to,make,everything,right]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective])]
+Blue Sea Lyrics.txt_18-178  [if,only,you,and,me,could,cross,the,blue,sea]  [reject_expl_just(cross,[external,nonfactive,narration,background,objective])]
+Blue Sea Lyrics.txt_19-197  [cross,the,blue,sea]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Blue Sea Lyrics.txt_1-1)-[primary-vision]
+2-(Blue Sea Lyrics.txt_2-3)-[secondary-social_behavior]
+3-(Blue Sea Lyrics.txt_2-4)-[secondary-moral_imperative]
+4-(Blue Sea Lyrics.txt_3-7)-[]
+5-(Blue Sea Lyrics.txt_4-11)-[secondary-instru_behavior,secondary-abstract_tought,secondary-abstract_tought]
+6-(Blue Sea Lyrics.txt_5-17)-[primary-touch]
+7-(Blue Sea Lyrics.txt_5-18)-[]
+8-(Blue Sea Lyrics.txt_6-24)-[primary-vision,primary-water]
+9-(Blue Sea Lyrics.txt_7-31)-[primary-vision,primary-water]
+10-(Blue Sea Lyrics.txt_8-39)-[secondary-abstract_tought,secondary-social_behavior,emotions-aggression]
+11-(Blue Sea Lyrics.txt_9-48)-[]
+half
+12-(Blue Sea Lyrics.txt_9-49)-[]
+13-(Blue Sea Lyrics.txt_10-60)-[secondary-instru_behavior,secondary-moral_imperative]
+14-(Blue Sea Lyrics.txt_11-72)-[]
+15-(Blue Sea Lyrics.txt_12-84)-[]
+16-(Blue Sea Lyrics.txt_13-97)-[]
+17-(Blue Sea Lyrics.txt_14-111)-[primary-vision,primary-water]
+18-(Blue Sea Lyrics.txt_15-126)-[primary-vision,primary-water]
+19-(Blue Sea Lyrics.txt_16-142)-[]
+20-(Blue Sea Lyrics.txt_17-159)-[secondary-instru_behavior,secondary-moral_imperative]
+21-(Blue Sea Lyrics.txt_18-178)-[primary-vision,primary-water]
+22-(Blue Sea Lyrics.txt_19-197)-[primary-vision,primary-water]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Blue Sea Lyrics.txt_1,1,nil-nil-nil-woman-[arg_mod-agent-Zoot-sn2,subj-agent-Lyrics-sn1,and(Lyrics,Sea,sn1),and(Lyrics,blue,sn1),def_prop(Zoot,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Blue Sea Lyrics.txt_2,3,cl2-not-nil-right-[subj-theme-something-sn2,aux-(is)-nil,def_prop(something,[astratto,informa,oggetto])])
+lf(Blue Sea Lyrics.txt_2,3,cl1-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Blue Sea Lyrics.txt_3,7,cl3-not-can-tolerate-[cmod-subord-tolerate-",subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Blue Sea Lyrics.txt_4,11,cl5-not-nil-understand-[aux-do-nil])
+lf(Blue Sea Lyrics.txt_4,11,cl4-nil-nil-forget-[obj-theme-we-sn3,f2-sn1-what-sn2,subj-experiencer-you-sn1,def_prop(we,[umano]),def_prop(what,[oggetto]),def_prop(you,[umano])])
+lf(Blue Sea Lyrics.txt_5,17,cl7-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Blue Sea Lyrics.txt_5,17,cl6-nil-can-handle-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Blue Sea Lyrics.txt_6,24,cl8-nil-could-cross-[adj-(mod)-only-nil,obj-goal-sea-sn4,coord-agent-you_and_me-sn3,subj-agent-me-sn2,subj-agent-you-sn1,and(sea,blue,sn4),def_prop(sea,[attivita,cambia,oggetto]),def_prop(you_and_me,[umano,umano]),def_prop(me,[umano,umano]),def_prop(you,[umano,umano])])
+lf(Blue Sea Lyrics.txt_7,31,cl9-nil-could-cross-[adj-(mod)-only-nil,obj-goal-sea-sn4,coord-agent-you_and_me-sn3,subj-agent-me-sn2,subj-agent-you-sn1,and(sea,blue,sn4),def_prop(sea,[attivita,cambia,oggetto]),def_prop(you_and_me,[umano,umano]),def_prop(me,[umano,umano]),def_prop(you,[umano,umano])])
+lf(Blue Sea Lyrics.txt_8,39,cl10-nil-nil-break-[subj-agent-promise-sn1,def_prop(promise,[astratto,attivita,informa])])
+lf(Blue Sea Lyrics.txt_9,48,cl13-nil-nil-be-[xcomp-prop-down-sn4,subj-theme_bound-you-sn3,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Blue Sea Lyrics.txt_9,48,cl12-nil-nil-let-[subj-tema_nonaff-i-sn1,and(i,dont,sn1),def_prop(i,[umano])])
+lf(Blue Sea Lyrics.txt_9,48,cl11-nil-nil-want-[subj-actor-i-sn1,and(i,dont,sn1),def_prop(i,[umano])])
+lf(Blue Sea Lyrics.txt_10,60,cl15-nil-nil-make-[obj-agent-right-sn2,xadj-result-make-2,and(right,everything,sn2),def_prop(right,[astratto,attivita,body_part,istituzione,luogo,oggetto,umano])])
+lf(Blue Sea Lyrics.txt_10,60,cl14-nil-nil-want-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Blue Sea Lyrics.txt_11,72,cl16-nil-nil-lose-[subj-theme_aff-it-sn2,subj-theme_aff-it-sn1,and(it,i,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Blue Sea Lyrics.txt_12,84,cl17-nil-nil-lose-[subj-theme_aff-it-sn2,subj-theme_aff-it-sn1,and(it,i,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Blue Sea Lyrics.txt_13,97,cl18-nil-nil-lose-[subj-theme_aff-you-sn2,subj-theme_aff-you-sn1,and(you,i,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Blue Sea Lyrics.txt_14,111,cl19-nil-could-cross-[adj-(mod)-only-nil,obj-goal-sea-sn4,coord-agent-you_and_me-sn3,subj-agent-me-sn2,subj-agent-you-sn1,and(sea,blue,sn4),def_prop(sea,[attivita,cambia,oggetto]),def_prop(you_and_me,[umano,umano]),def_prop(me,[umano,umano]),def_prop(you,[umano,umano])])
+lf(Blue Sea Lyrics.txt_15,126,cl20-nil-could-cross-[adj-(mod)-only-nil,obj-goal-sea-sn4,coord-agent-you_and_me-sn3,subj-agent-me-sn2,subj-agent-you-sn1,and(sea,blue,sn4),def_prop(sea,[attivita,cambia,oggetto]),def_prop(you_and_me,[umano,umano]),def_prop(me,[umano,umano]),def_prop(you,[umano,umano])])
+lf(Blue Sea Lyrics.txt_16,142,cl21-nil-nil-go-[iobj-goal-Other_side-sn2,subj-agent-you-sn1,def_prop(Other_side,[astratto,attivita,body_part,edible,informa,luogo,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Blue Sea Lyrics.txt_17,159,cl23-nil-nil-make-[obj-agent-right-sn2,xadj-result-make-2,and(right,everything,sn2),def_prop(right,[astratto,attivita,body_part,istituzione,luogo,oggetto,umano])])
+lf(Blue Sea Lyrics.txt_17,159,cl22-nil-nil-want-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Blue Sea Lyrics.txt_18,178,cl24-nil-could-cross-[adj-(mod)-only-nil,obj-goal-sea-sn4,coord-agent-you_and_me-sn3,subj-agent-me-sn2,subj-agent-you-sn1,and(sea,blue,sn4),def_prop(sea,[attivita,cambia,oggetto]),def_prop(you_and_me,[umano,umano]),def_prop(me,[umano,umano]),def_prop(you,[umano,umano])])
+lf(Blue Sea Lyrics.txt_19,197,cl25-nil-nil-be-[subj-theme_bound-sea-sn1,and(sea,blue,sn1),def_prop(sea,[attivita,cambia,oggetto])])

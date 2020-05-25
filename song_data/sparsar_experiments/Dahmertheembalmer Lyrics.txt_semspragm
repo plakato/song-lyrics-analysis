@@ -1,0 +1,57 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Dahmertheembalmer Lyrics.txt_1-1  []-positive  []
+Dahmertheembalmer Lyrics.txt_2-3  []-positive  [fhd,neg]
+Dahmertheembalmer Lyrics.txt_3-7  [when-temp_coinc]-positive  [fhd]
+Dahmertheembalmer Lyrics.txt_4-12  [when-temp_coinc]-positive  [fhd,neg]
+Dahmertheembalmer Lyrics.txt_5-17  []-positive  [fhd,fgb,neg]
+Dahmertheembalmer Lyrics.txt_6-23  []-positive  [fhd]
+Dahmertheembalmer Lyrics.txt_7-31  []-positive  []
+Dahmertheembalmer Lyrics.txt_7-32  []-positive  [fhd]
+Dahmertheembalmer Lyrics.txt_8-39  []-positive  [fhd]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Dahmertheembalmer Lyrics.txt_1-1  [dahmertheembalmer,Lyrics,by,Blood,Duster]  [title]
+Dahmertheembalmer Lyrics.txt_2-3  [i,like,to,watch,it,gets,me,hard]  [propose_opin_neg(watch,[external,factive,explanation,background,objective]),propose_opin_neg(get,[external,factive,explanation,background,objective])]
+Dahmertheembalmer Lyrics.txt_3-7  [i,like,it,when,you,get,embalmed]  [provide_expl_just(embalm,[external,factive,circumstance,foreground,objective])]
+Dahmertheembalmer Lyrics.txt_4-12  [i,like,it,when,your,lowered,in,dirt]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Dahmertheembalmer Lyrics.txt_5-17  [i,like,to,dig,you,up,and,flirt]  [provide_expl_just(dig,[external,factive,narration,background,objective])]
+Dahmertheembalmer Lyrics.txt_6-23  [i,like,to,take,you,where,you,rest]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(rest,[external,factive,narration,background,objective])]
+Dahmertheembalmer Lyrics.txt_7-31  [it,is,the,place]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Dahmertheembalmer Lyrics.txt_7-32  [i,like,you,best]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Dahmertheembalmer Lyrics.txt_8-39  [like,you,best]  [provide_expl_just(like,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Dahmertheembalmer Lyrics.txt_1-1)-[]
+2-(Dahmertheembalmer Lyrics.txt_2-3)-[emotions-affection,primary-vision,primary-hard]
+3-(Dahmertheembalmer Lyrics.txt_3-7)-[emotions-affection,secondary-temporal_repere]
+4-(Dahmertheembalmer Lyrics.txt_4-12)-[emotions-affection,secondary-temporal_repere,primary-anality]
+half
+5-(Dahmertheembalmer Lyrics.txt_5-17)-[emotions-affection,primary-descent,emotions-affection]
+6-(Dahmertheembalmer Lyrics.txt_6-23)-[emotions-affection,primary-concreteness,primary-passivity]
+7-(Dahmertheembalmer Lyrics.txt_7-31)-[primary-concreteness]
+8-(Dahmertheembalmer Lyrics.txt_7-32)-[emotions-affection]
+9-(Dahmertheembalmer Lyrics.txt_8-39)-[emotions-affection]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Dahmertheembalmer Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Duster-sn2,subj-theme_bound-Lyrics-sn1,and(Duster,Blood,sn2),and(Lyrics,dahmertheembalmer,sn1),def_prop(Duster,[place,attivita,oggetto,strumento,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Dahmertheembalmer Lyrics.txt_2,3,cl3-nil-nil-get-[xcomp-prop-hard-sn4,obj-tema_unaff-me-sn3,obj-tema_unaff-it-sn2,xcomp-purpose-watch-2,subj-agent-i-sn1,def_prop(hard,[valutativo]),def_prop(me,[umano]),def_prop(it,[any]),def_prop(i,[umano])])
+lf(Dahmertheembalmer Lyrics.txt_2,3,cl2-nil-nil-watch-[adj-(mod)-get-nil])
+lf(Dahmertheembalmer Lyrics.txt_3,7,cl5-nil-nil-embalm-[subj-theme-you-sn3,def_prop(you,[umano])])
+lf(Dahmertheembalmer Lyrics.txt_3,7,cl4-nil-nil-get-[cmod-subord-embalm-when,subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Dahmertheembalmer Lyrics.txt_4,12,cl6-nil-nil-be-[xadj-adj-lowered-adj2,xadj-adj-your-adj1,ncmod-locativo-dirt-sn3,subj-theme_bound-it-sn2,subj-theme_bound-it-sn1,and(it,i,sn1),def_prop(lowered,_505510),def_prop(your,_505522),def_prop(dirt,[stato]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Dahmertheembalmer Lyrics.txt_5,17,cl7-nil-nil-dig-[adj-(mod)-up-nil,subj-agent-flirt-sn3,subj-agent-flirt-sn2,subj-agent-you-sn1,and(flirt,you,sn2),and(you,i,sn1),def_prop(flirt,[attivita]),def_prop(flirt,[attivita]),def_prop(you,[umano])])
+lf(Dahmertheembalmer Lyrics.txt_6,23,_505812-nil-nil-rest-[adj-(mod)-take-nil,voice-rest-nil,tense-rest-nil,obl-locat-you-sn2,def_prop(you,[umano])])
+lf(Dahmertheembalmer Lyrics.txt_6,23,cl8-nil-nil-take-[voice-rest-nil,tense-rest-nil,obj-theme_aff-you-sn2,subj-agent-i-sn1,def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Dahmertheembalmer Lyrics.txt_7,31,cl9-nil-nil-be-[subj-theme_bound-you-sn4,subj-theme_bound-you-sn3,xcomp-prop-place-sn2,subj-theme_bound-it-sn1,and(you,i,sn3),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(it,[any])])
+lf(Dahmertheembalmer Lyrics.txt_8,39,nil-nil-nil-be-[])
+lf(Dahmertheembalmer Lyrics.txt_8,39,nil-nil-nil-like-[subj-experiencer-you-sn1,def_prop(you,[umano])])

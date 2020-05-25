@@ -1,0 +1,136 @@
+"POLARITY, DISCOURSE MARKERS"
+
+A Junkie's Blues Lyrics.txt_1-1  []-positive  []
+A Junkie's Blues Lyrics.txt_2-3  []-negative  [neg]
+A Junkie's Blues Lyrics.txt_3-6  []-positive  []
+A Junkie's Blues Lyrics.txt_4-10  [but-advers]-negative  [fgb,neg]
+A Junkie's Blues Lyrics.txt_5-15  []-negative  []
+A Junkie's Blues Lyrics.txt_6-21  []-positive  []
+A Junkie's Blues Lyrics.txt_7-28  []-negative  [neg]
+A Junkie's Blues Lyrics.txt_8-36  []-suspension  [neg]
+A Junkie's Blues Lyrics.txt_9-46  []-positive  []
+A Junkie's Blues Lyrics.txt_10-57  []-positive  [fgb]
+A Junkie's Blues Lyrics.txt_11-68  []-positive  []
+A Junkie's Blues Lyrics.txt_12-80  []-positive  [neg]
+A Junkie's Blues Lyrics.txt_13-93  [else-advers]-positive  [fhd]
+A Junkie's Blues Lyrics.txt_14-107  [so-result]-suspension  [fgb,neg]
+A Junkie's Blues Lyrics.txt_15-122  [so-result]-negative  [fgb,neg]
+A Junkie's Blues Lyrics.txt_16-139  []-suspension  []
+A Junkie's Blues Lyrics.txt_17-156  []-positive  [fgb]
+A Junkie's Blues Lyrics.txt_18-174  []-question  []
+A Junkie's Blues Lyrics.txt_18-174  []-question  []
+A Junkie's Blues Lyrics.txt_18-175  [but-advers,if-hypoth]-negative  [fgb,fgb,fgb,neg]
+A Junkie's Blues Lyrics.txt_19-193  []-question  []
+A Junkie's Blues Lyrics.txt_19-193  []-question  []
+A Junkie's Blues Lyrics.txt_19-194  [if-hypoth]-suspension  [fgb,fgb,fgb,neg,neg]
+A Junkie's Blues Lyrics.txt_20-214  [if-hypoth]-negative  [fgb,fgb,neg]
+A Junkie's Blues Lyrics.txt_21-236  []-question  []
+A Junkie's Blues Lyrics.txt_22-258  [if-hypoth]-question  [neg,neg,fgb,fgb]
+A Junkie's Blues Lyrics.txt_23-281  [if-hypoth]-question  [fgb,fgb]
+A Junkie's Blues Lyrics.txt_24-306  [if-hypoth]-question  [fgb,fgb,bkc]
+A Junkie's Blues Lyrics.txt_25-331  [if-hypoth]-question  [neg,fgb,fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+A Junkie's Blues Lyrics.txt_1-1  [a,Junkie-s,Blues,Lyrics,by,Queensrÿche]  [title]
+A Junkie's Blues Lyrics.txt_2-3  [i,still,have,questions,with,no,answers]  [reject_expl_just(question,[external,factive,cause,foreground,objective])]
+A Junkie's Blues Lyrics.txt_3-6  [i,am,alive]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+A Junkie's Blues Lyrics.txt_4-10  [but,i,am,living,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+A Junkie's Blues Lyrics.txt_5-15  [i,much,time,don-t,have,left]  [provide_expl_just(have,[external,factive,narration,background,objective])]
+A Junkie's Blues Lyrics.txt_6-21  [i,just,know,this]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+A Junkie's Blues Lyrics.txt_7-28  [i,have,lived,a,violent,life]  [reject_expl_just(live,[external,factive,narration,background,objective])]
+A Junkie's Blues Lyrics.txt_8-36  [i,might,as_well,be,dead]  [provide_expl_just(be,[external,factive,narration,background,objective]),propose_opin(might,[external,nonfactive,narration,foreground,objective]),provide_expl_just(might,[external,nonfactive,narration,foreground,objective])]
+A Junkie's Blues Lyrics.txt_9-46  [i,just,want,to,sleep,forever]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(sleep,[external,factive,narration,background,objective])]
+A Junkie's Blues Lyrics.txt_10-57  [and,forget]  [provide_expl_just(forget,[external,factive,narration,background,objective])]
+A Junkie's Blues Lyrics.txt_11-68  [forget]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+A Junkie's Blues Lyrics.txt_12-80  [it,is,more_than,physical,love,unconditional]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+A Junkie's Blues Lyrics.txt_13-93  [anything,else,is,like,a,Band-Aid]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+A Junkie's Blues Lyrics.txt_14-107  [so,you,cover,your,bleeding,wounds]  [suggest(be,[_252518,_252524,statement,background,_252542])]
+A Junkie's Blues Lyrics.txt_15-122  [so,the,dogs,will,not,smell,you,coming]  [reject_expl_just(smell,[external,nonfactive,narration,background,objective])]
+A Junkie's Blues Lyrics.txt_16-139  [there,may,be,time]  [provide_expl_just(be,[external,nonfactive,narration,foreground,objective])]
+A Junkie's Blues Lyrics.txt_17-156  [and]  [proposal(be,[_253678,_253684,statement,foreground,_253702])]
+A Junkie's Blues Lyrics.txt_18-174  [?]  [provide_expl_just(change,[internal,factive,narration,foreground,objective])]
+A Junkie's Blues Lyrics.txt_18-174  [?]  [provide_expl_just(change,[internal,factive,narration,foreground,objective])]
+A Junkie's Blues Lyrics.txt_18-175  [but,what,if,it,never,changes]  [reject_expl_just(change,[internal,factive,narration,foreground,objective])]
+A Junkie's Blues Lyrics.txt_19-193  [?]  [provide_expl_just(be,[internal,factive,narration,background,objective]),provide_expl_just(blame,[internal,factive,narration,foreground,objective])]
+A Junkie's Blues Lyrics.txt_19-193  [?]  [provide_expl_just(be,[internal,factive,narration,background,objective]),provide_expl_just(blame,[internal,factive,narration,foreground,objective])]
+A Junkie's Blues Lyrics.txt_19-194  [and,what,if,i,was,not,to,blame]  [provide_expl_just(be,[internal,factive,narration,background,objective]),provide_expl_just(blame,[internal,factive,narration,foreground,objective])]
+A Junkie's Blues Lyrics.txt_20-214  [what,if,it,never,gets,any,better]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+A Junkie's Blues Lyrics.txt_21-236  [this,than,?]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+A Junkie's Blues Lyrics.txt_22-258  [blame,to,not,was,i,if,what,?]  [proposal(be,[_258528,_258534,statement,foreground,_258552])]
+A Junkie's Blues Lyrics.txt_23-281  [change,could,i,if,what,?]  [provide_expl_just(change,[internal,nonfactive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+A Junkie's Blues Lyrics.txt_24-306  [change,could,i,if,what,,,yeah,?]  [provide_expl_just(change,[internal,nonfactive,narration,background,objective])]
+A Junkie's Blues Lyrics.txt_25-331  [insane,only,am,i,if,what,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(A Junkie's Blues Lyrics.txt_1-1)-[]
+2-(A Junkie's Blues Lyrics.txt_2-3)-[secondary-social_behavior]
+3-(A Junkie's Blues Lyrics.txt_3-6)-[]
+4-(A Junkie's Blues Lyrics.txt_4-10)-[]
+5-(A Junkie's Blues Lyrics.txt_5-15)-[secondary-temporal_repere]
+6-(A Junkie's Blues Lyrics.txt_6-21)-[secondary-abstract_tought]
+7-(A Junkie's Blues Lyrics.txt_7-28)-[emotions-aggression]
+8-(A Junkie's Blues Lyrics.txt_8-36)-[primary-passivity]
+9-(A Junkie's Blues Lyrics.txt_9-46)-[primary-counscious,primary-timelessness]
+10-(A Junkie's Blues Lyrics.txt_10-57)-[secondary-instru_behavior]
+11-(A Junkie's Blues Lyrics.txt_11-68)-[secondary-instru_behavior]
+12-(A Junkie's Blues Lyrics.txt_12-80)-[primary-gen_sensation,emotions-affection]
+13-(A Junkie's Blues Lyrics.txt_13-93)-[emotions-affection]
+14-(A Junkie's Blues Lyrics.txt_14-107)-[emotions-aggression]
+half
+15-(A Junkie's Blues Lyrics.txt_15-122)-[primary-odor]
+16-(A Junkie's Blues Lyrics.txt_16-139)-[secondary-abstract_tought,secondary-temporal_repere]
+17-(A Junkie's Blues Lyrics.txt_17-156)-[]
+18-(A Junkie's Blues Lyrics.txt_18-174)-[]
+19-(A Junkie's Blues Lyrics.txt_18-174)-[]
+20-(A Junkie's Blues Lyrics.txt_18-175)-[]
+21-(A Junkie's Blues Lyrics.txt_19-193)-[]
+22-(A Junkie's Blues Lyrics.txt_19-193)-[]
+23-(A Junkie's Blues Lyrics.txt_19-194)-[emotions-aggression]
+24-(A Junkie's Blues Lyrics.txt_20-214)-[]
+25-(A Junkie's Blues Lyrics.txt_21-236)-[]
+26-(A Junkie's Blues Lyrics.txt_22-258)-[emotions-aggression]
+27-(A Junkie's Blues Lyrics.txt_23-281)-[]
+28-(A Junkie's Blues Lyrics.txt_24-306)-[]
+29-(A Junkie's Blues Lyrics.txt_25-331)-[primary-counscious]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(A Junkie's Blues Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Queensrÿche-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Blue,sn1),def_prop(Queensrÿche,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(A Junkie's Blues Lyrics.txt_2,3,cl2-nil-nil-question-[adj-locative-still-nil,ncmod-modale-answer-sn2,subj-goal-i-sn1,aux-have-nil,and(answer,no,sn2),def_prop(answer,[attivita,informa]),def_prop(i,[umano])])
+lf(A Junkie's Blues Lyrics.txt_3,6,cl3-nil-nil-be-[xcomp-prop-alive-sn2,subj-theme_bound-i-sn1,def_prop(alive,[valutativo]),def_prop(i,[umano])])
+lf(A Junkie's Blues Lyrics.txt_4,10,cl4-nil-nil-be-[xcomp-prop-living-sn2,subj-theme_bound-i-sn1,def_prop(living,[istituzione]),def_prop(i,[umano])])
+lf(A Junkie's Blues Lyrics.txt_5,15,cl5-not-nil-have-[xcomp-prop-left-sn2,subj-experiencer-i-sn1,def_prop(left,[soggettivo]),def_prop(i,[umano])])
+lf(A Junkie's Blues Lyrics.txt_6,21,cl6-nil-nil-know-[xcomp-prop-this-sn2,subj-actor-i-sn1,def_prop(this,[oggetto,umano]),def_prop(i,[umano])])
+lf(A Junkie's Blues Lyrics.txt_7,28,cl7-nil-nil-live-[obj-prop-life-sn2,subj-actor-i-sn1,aux-have-nil,and(life,violent,sn2),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(i,[umano])])
+lf(A Junkie's Blues Lyrics.txt_8,36,cl9-nil-nil-be-[xcomp-prop-dead-sn2,xcomp-purpose-be-2,def_prop(dead,[valutativo])])
+lf(A Junkie's Blues Lyrics.txt_8,36,cl8-nil-might-might-[adj-(mod)-as_well-nil,subj-theme_unaff-i-sn1,def_prop(i,[umano])])
+lf(A Junkie's Blues Lyrics.txt_9,46,cl11-nil-nil-sleep-[])
+lf(A Junkie's Blues Lyrics.txt_9,46,cl10-nil-nil-want-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(A Junkie's Blues Lyrics.txt_10,57,cl12-nil-nil-forget-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(A Junkie's Blues Lyrics.txt_11,68,cl13-nil-nil-say-[obj-theme_unaff-forget-sn1,def_prop(forget,[istituzione])])
+lf(A Junkie's Blues Lyrics.txt_12,80,cl14-nil-nil-be-[xcomp-prop-unconditional-sn3,xcomp-prop-love-sn2,subj-theme_bound-it-sn1,and(love,physical,sn2),def_prop(unconditional,[evaluative]),def_prop(love,[astratto,emotivo,nquant]),def_prop(it,[any])])
+lf(A Junkie's Blues Lyrics.txt_13,93,cl15-nil-nil-like-[xcomp-prop-Band-Aid-sn2,subj-tema_emot-anything-sn1,aux-(is)-nil,def_prop(Band-Aid,[istituzione]),def_prop(anything,[astratto,informa,oggetto])])
+lf(A Junkie's Blues Lyrics.txt_14,107,cl16-nil-nil-cover-[obj-goal-wound-sn2,subj-agent-you-sn1,and(wound,bleeding,sn2),def_prop(wound,[attivita,emotivo,evento,stato]),def_prop(you,[umano])])
+lf(A Junkie's Blues Lyrics.txt_15,122,cl18-nil-nil-come-[subj-prop-you-sn2,def_prop(you,[umano])])
+lf(A Junkie's Blues Lyrics.txt_15,122,cl17-not-will-smell-[subj-experiencer-you-sn2,subj-experiencer-you-sn1,and(you,dog,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(A Junkie's Blues Lyrics.txt_16,139,cl19-nil-may-be-[])
+lf(A Junkie's Blues Lyrics.txt_17,156,cl20-nil-nil-say-[])
+lf(A Junkie's Blues Lyrics.txt_18,174,cl21-nil-nil-change-[])
+lf(A Junkie's Blues Lyrics.txt_19,193,cl23-nil-nil-blame-[])
+lf(A Junkie's Blues Lyrics.txt_19,193,cl22-nil-nil-be-[])
+lf(A Junkie's Blues Lyrics.txt_20,214,2-nil-nil-be-[cmod-subord-get-if,subj-theme_bound-what-sn1,def_prop(what,[oggetto])])
+lf(A Junkie's Blues Lyrics.txt_20,214,cl24-nil-nil-get-[xcomp-prop-better-sn3,subj-theme_bound-it-sn2,and(better,any,sn3),def_prop(better,[valutativo]),def_prop(it,[any])])
+lf(A Junkie's Blues Lyrics.txt_21,236,cl25-nil-nil-say-[obj-theme_unaff-this-sn1,def_prop(this,[oggetto,umano])])
+lf(A Junkie's Blues Lyrics.txt_22,258,cl26-nil-nil-be-[subj-theme_bound-i-sn2,subj-theme_bound-what-sn1,def_prop(i,[umano]),def_prop(what,[oggetto])])
+lf(A Junkie's Blues Lyrics.txt_23,281,2-nil-nil-be-[cmod-subord-change-if,subj-theme_bound-what-sn1,def_prop(what,[oggetto])])
+lf(A Junkie's Blues Lyrics.txt_23,281,cl27-nil-could-change-[subj-agent-i-sn2,def_prop(i,[umano])])
+lf(A Junkie's Blues Lyrics.txt_24,306,cl28-nil-could-change-[])
+lf(A Junkie's Blues Lyrics.txt_25,331,cl29-nil-nil-be-[cmod-subord-be-if,xcomp-prop-insane-sn3,subj-theme_bound-i-sn2,subj-theme_bound-what-sn1,def_prop(insane,[istituzione]),def_prop(i,[umano]),def_prop(what,[oggetto])])

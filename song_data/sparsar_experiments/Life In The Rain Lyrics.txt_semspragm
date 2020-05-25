@@ -1,0 +1,74 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Life In The Rain Lyrics.txt_1-1  []-positive  []
+Life In The Rain Lyrics.txt_2-3  []-positive  []
+Life In The Rain Lyrics.txt_2-4  [if-hypoth]-positive  [fgb]
+Life In The Rain Lyrics.txt_2-5  []-positive  []
+Life In The Rain Lyrics.txt_3-8  []-positive  []
+Life In The Rain Lyrics.txt_3-9  []-positive  [fhd]
+Life In The Rain Lyrics.txt_4-13  []-suspension  [fgb]
+Life In The Rain Lyrics.txt_4-14  []-positive  []
+Life In The Rain Lyrics.txt_4-15  []-positive  [fgb,fgb]
+Life In The Rain Lyrics.txt_5-20  []-negative  [fgb]
+Life In The Rain Lyrics.txt_5-21  []-positive  []
+Life In The Rain Lyrics.txt_6-27  []-positive  []
+Life In The Rain Lyrics.txt_7-34  []-negative  [fgb]
+Life In The Rain Lyrics.txt_7-35  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Life In The Rain Lyrics.txt_1-1  [life,in,the,Rain,Lyrics,by,Quantic]  [title]
+Life In The Rain Lyrics.txt_2-3  [sometimes,i,wonder]  [provide_expl_just(wonder,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+Life In The Rain Lyrics.txt_2-4  [if,i,know]  [provide_expl_just(wonder,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+Life In The Rain Lyrics.txt_2-5  [where,i,am,going,.,i,am,going]  [provide_expl_just(wonder,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+Life In The Rain Lyrics.txt_3-8  [i,go]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Life In The Rain Lyrics.txt_3-9  [for,a,walk,like,this]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Life In The Rain Lyrics.txt_4-13  [and,it,seems]  [provide_expl_just(seem,[external,factive,narration,background,objective]),provide_expl_just(walk,[external,factive,narration,foreground,objective])]
+Life In The Rain Lyrics.txt_4-14  [i,have,been,walking]  [provide_expl_just(seem,[external,factive,narration,background,objective]),provide_expl_just(walk,[external,factive,narration,foreground,objective])]
+Life In The Rain Lyrics.txt_4-15  [for,years,and,years,and,years]  [provide_expl_just(seem,[external,factive,narration,background,objective]),provide_expl_just(walk,[external,factive,narration,foreground,objective])]
+Life In The Rain Lyrics.txt_5-20  [and,i,don-t,know]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_19604)]
+Life In The Rain Lyrics.txt_5-21  [where,i,am,going,.,i,am,going]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_23988)]
+Life In The Rain Lyrics.txt_6-27  [i,hear,the,sound,leading,me,on]  [provide_expl_just(hear,[external,factive,narration,background,objective])]
+Life In The Rain Lyrics.txt_7-34  [and,i,don-t,know]  [provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Life In The Rain Lyrics.txt_7-35  [where,it,is,taking,me,.,it,is,taking,me]  [provide_expl_just(take,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Life In The Rain Lyrics.txt_1-1)-[]
+2-(Life In The Rain Lyrics.txt_2-3)-[secondary-temporal_repere,emotions-glory]
+3-(Life In The Rain Lyrics.txt_2-4)-[secondary-abstract_tought]
+4-(Life In The Rain Lyrics.txt_2-5)-[primary-concreteness]
+5-(Life In The Rain Lyrics.txt_3-8)-[]
+6-(Life In The Rain Lyrics.txt_3-9)-[emotions-affection]
+7-(Life In The Rain Lyrics.txt_4-13)-[primary-vision]
+half
+8-(Life In The Rain Lyrics.txt_4-14)-[]
+9-(Life In The Rain Lyrics.txt_4-15)-[secondary-temporal_repere,secondary-temporal_repere,secondary-temporal_repere]
+10-(Life In The Rain Lyrics.txt_5-20)-[secondary-abstract_tought]
+11-(Life In The Rain Lyrics.txt_5-21)-[primary-concreteness]
+12-(Life In The Rain Lyrics.txt_6-27)-[primary-sound,primary-sound]
+13-(Life In The Rain Lyrics.txt_7-34)-[secondary-abstract_tought]
+14-(Life In The Rain Lyrics.txt_7-35)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Life In The Rain Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Quantic-sn2,subj-theme_bound-life-sn1,def_prop(Quantic,[istituzione,umano]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Life In The Rain Lyrics.txt_2,3,cl4-nil-nil-go-[aux-am-nil,progr-going-nil,subj-agent-i-sn5,def_prop(i,[umano])])
+lf(Life In The Rain Lyrics.txt_2,3,cl3-nil-nil-know-[subj-actor-i-sn4,def_prop(i,[umano])])
+lf(Life In The Rain Lyrics.txt_2,3,cl2-nil-nil-wonder-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Life In The Rain Lyrics.txt_3,8,cl6-nil-nil-be-[xcomp-prop-this-sn3,subj-theme_bound-walk-sn2,def_prop(this,[oggetto,umano]),def_prop(walk,[astratto,attivita,oggetto,strumento])])
+lf(Life In The Rain Lyrics.txt_3,8,cl5-nil-nil-go-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Life In The Rain Lyrics.txt_4,13,cl9-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Life In The Rain Lyrics.txt_4,13,cl8-nil-nil-walk-[subj-actor-you-sn2,cmod-subord-walk-",aux-been-nil,aux-have-nil,def_prop(you,[umano])])
+lf(Life In The Rain Lyrics.txt_4,13,cl7-nil-nil-seem-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Life In The Rain Lyrics.txt_5,20,cl11-nil-nil-go-[aux-am-nil,progr-going-nil,subj-agent-i-sn2,cmod-subord-go-",def_prop(i,[umano])])
+lf(Life In The Rain Lyrics.txt_5,20,cl10-not-nil-know-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Life In The Rain Lyrics.txt_6,27,cl12-nil-nil-hear-[obj-theme-me-sn3,obj-theme_unaff-leading-sn2,subj-experiencer-i-sn1,and(leading,sound,sn2),def_prop(me,[umano]),def_prop(leading,[attivita,informa,oggetto,pubblic,strumento]),def_prop(i,[umano])])
+lf(Life In The Rain Lyrics.txt_7,34,cl14-nil-nil-take-[expl-it-nil,obj-theme_aff-me-sn5,aux-(is)-nil,progr-taking-nil,subj-agent-it-sn2,cmod-subord-take-",def_prop(me,[umano]),def_prop(it,[any])])
+lf(Life In The Rain Lyrics.txt_7,34,cl13-not-nil-know-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])

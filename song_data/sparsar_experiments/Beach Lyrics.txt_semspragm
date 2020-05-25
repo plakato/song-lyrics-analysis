@@ -1,0 +1,326 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Beach Lyrics.txt_1-1  []-positive  [neg]
+Beach Lyrics.txt_2-3  [if-hypoth]-negative  [fgb,fgb]
+Beach Lyrics.txt_2-4  []-positive  []
+Beach Lyrics.txt_3-8  []-positive  []
+Beach Lyrics.txt_3-9  [so-result]-positive  [fgb]
+Beach Lyrics.txt_4-12  [(as)-temp_coinc]-positive  []
+Beach Lyrics.txt_5-17  [if-hypoth]-negative  [fgb,neg]
+Beach Lyrics.txt_6-23  []-positive  []
+Beach Lyrics.txt_7-31  []-positive  []
+Beach Lyrics.txt_8-39  []-negative  []
+Beach Lyrics.txt_9-48  []-negative  [neg]
+Beach Lyrics.txt_10-58  []-positive  []
+Beach Lyrics.txt_11-69  []-positive  []
+Beach Lyrics.txt_12-81  [so-result]-positive  [fgb,fgb]
+Beach Lyrics.txt_13-94  []-positive  []
+Beach Lyrics.txt_14-108  []-positive  []
+Beach Lyrics.txt_15-123  []-negative  [fgb]
+Beach Lyrics.txt_15-124  []-positive  []
+Beach Lyrics.txt_16-139  []-positive  []
+Beach Lyrics.txt_17-156  []-positive  []
+Beach Lyrics.txt_17-157  []-positive  [fhd]
+Beach Lyrics.txt_18-175  []-positive  []
+Beach Lyrics.txt_19-194  []-positive  []
+Beach Lyrics.txt_20-214  []-positive  []
+Beach Lyrics.txt_21-236  []-negative  [neg]
+Beach Lyrics.txt_22-258  []-negative  [neg]
+Beach Lyrics.txt_23-281  []-positive  []
+Beach Lyrics.txt_24-305  []-positive  []
+Beach Lyrics.txt_25-330  []-positive  []
+Beach Lyrics.txt_26-356  []-positive  []
+Beach Lyrics.txt_27-383  []-positive  []
+Beach Lyrics.txt_28-411  []-positive  []
+Beach Lyrics.txt_29-440  []-positive  []
+Beach Lyrics.txt_30-470  []-positive  []
+Beach Lyrics.txt_31-501  []-positive  [fhd]
+Beach Lyrics.txt_32-533  []-positive  []
+Beach Lyrics.txt_33-566  []-positive  [fhd]
+Beach Lyrics.txt_34-600  []-positive  [neg]
+Beach Lyrics.txt_35-635  []-positive  []
+Beach Lyrics.txt_36-671  []-negative  []
+Beach Lyrics.txt_37-708  []-positive  []
+Beach Lyrics.txt_38-746  []-positive  []
+Beach Lyrics.txt_39-785  []-negative  [neg]
+Beach Lyrics.txt_40-825  []-positive  []
+Beach Lyrics.txt_41-866  []-positive  []
+Beach Lyrics.txt_42-908  []-positive  []
+Beach Lyrics.txt_43-951  []-positive  []
+Beach Lyrics.txt_44-995  []-positive  []
+Beach Lyrics.txt_45-1040  []-positive  []
+Beach Lyrics.txt_46-1086  []-positive  []
+Beach Lyrics.txt_47-1133  []-positive  []
+Beach Lyrics.txt_48-1181  []-positive  []
+Beach Lyrics.txt_49-1230  []-positive  []
+Beach Lyrics.txt_50-1280  []-positive  []
+Beach Lyrics.txt_51-1331  []-positive  []
+Beach Lyrics.txt_52-1383  []-positive  []
+Beach Lyrics.txt_53-1436  []-positive  []
+Beach Lyrics.txt_54-1490  []-positive  []
+Beach Lyrics.txt_55-1545  []-positive  []
+Beach Lyrics.txt_56-1602  []-positive  []
+Beach Lyrics.txt_56-1603  []-positive  []
+Beach Lyrics.txt_57-1660  []-positive  []
+Beach Lyrics.txt_58-1718  []-positive  []
+Beach Lyrics.txt_59-1777  []-negative  []
+Beach Lyrics.txt_60-1837  []-positive  []
+Beach Lyrics.txt_61-1898  []-negative  [neg]
+Beach Lyrics.txt_62-1960  []-positive  []
+Beach Lyrics.txt_63-2023  []-negative  [neg]
+Beach Lyrics.txt_64-2088  []-positive  []
+Beach Lyrics.txt_65-2153  []-positive  []
+Beach Lyrics.txt_66-2219  []-negative  [neg]
+Beach Lyrics.txt_67-2286  []-positive  []
+Beach Lyrics.txt_68-2354  []-positive  []
+Beach Lyrics.txt_69-2423  []-positive  []
+Beach Lyrics.txt_70-2494  []-positive  []
+Beach Lyrics.txt_70-2495  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Beach Lyrics.txt_1-1  [beach,Lyrics,by,Underworld]  [title]
+Beach Lyrics.txt_2-3  [if,they,don-t,know,and,they,don-t,know]  [propose_opin_neg(gonna,[external,factive,explanation,background,objective]),propose_opin_neg(find,[external,factive,explanation,background,objective])]
+Beach Lyrics.txt_2-4  [theyre,gonna,find,out,soon_enough]  [provide_expl_just(gonna,[external,factive,explanation,background,objective]),provide_expl_just(find,[external,factive,explanation,background,objective])]
+Beach Lyrics.txt_3-8  [i,am]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_3-9  [so,hot]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_4-12  [as]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Beach Lyrics.txt_5-17  [if,that,hurt]  [reject_expl_just(hurt,[external,factive,cause,foreground,objective])]
+Beach Lyrics.txt_6-23  [did,you,wash,it]  [provide_expl_just(wash,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_7-31  [fester,it,around,some]  [provide_expl_just(fester,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_8-39  [you,don-t,even,have_to]  [provide_expl_just(even,[external,nonfactive,narration,foreground,objective])]
+Beach Lyrics.txt_9-48  [your,own,mind,stuff]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_10-58  [bring,in,the,marines]  [provide_expl_just(bring,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_11-69  [i,have]  [provide_expl_just(have,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_12-81  [heard,so,many,other,things,and,it,was,all,brown]  [provide_expl_just(be,[external,factive,circumstance,foreground,objective])]
+Beach Lyrics.txt_13-94  [with,the,suction,ones]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_14-108  [the,ones,that,suck,it,up]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_15-123  [and,i,don-t,ever,do,the,eye,till]  [provide_expl_just(do,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_15-124  [i,did,that]  [provide_expl_just(do,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_16-139  [thing]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Beach Lyrics.txt_17-156  [i,bet]  [provide_expl_just(bet,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_17-157  [you,like,a,blue,boost]  [provide_expl_just(bet,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_18-175  [a,noose,try]  [provide_expl_just(try,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_19-194  [loosen,the,strap,where]  [provide_expl_just(loosen,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_20-214  [the,two,metal,ends]  [provide_expl_just(end,[external,factive,narration,background,objective]),provide_expl_just(metal,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_21-236  [rest,your,head,against,the,steel]  [reject_expl_just(rest,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_22-258  [blow,in,to,the,tube]  [reject_expl_just(blow,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_23-281  [show,me,your,legs]  [raise_issue(be,[_949246,factive,statement,_949264,subjective])]
+Beach Lyrics.txt_24-305  [me,help]  [provide_expl_just(help,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_25-330  [show]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Beach Lyrics.txt_26-356  [me,a,pink,smile]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_27-383  [walking,up,the,aisle]  [raise_issue(be,[_950932,factive,statement,_950950,subjective])]
+Beach Lyrics.txt_28-411  [show,me,the,things,underneath]  [raise_issue(be,[_951254,factive,statement,_951272,subjective])]
+Beach Lyrics.txt_29-440  [your,seat]  [provide_expl_just(seat,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_30-470  [show,me,your,tiny,plastic,soft,drink]  [raise_issue(be,[_951976,factive,statement,_951994,subjective])]
+Beach Lyrics.txt_31-501  [a,song,like,a]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_32-533  [pig,squealing]  [provide_expl_just(squeal,[external,factive,narration,foreground,objective])]
+Beach Lyrics.txt_33-566  [like,a,train,with,wheels]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_34-600  [in,the,dark,with,the,lights]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_35-635  [off]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Beach Lyrics.txt_36-671  [concealed]  reject_expl_opin(nil,[])
+Beach Lyrics.txt_37-708  [i,am,thinking,of,you,still]  [provide_expl_just(think,[external,factive,narration,foreground,objective])]
+Beach Lyrics.txt_38-746  [white,room]  [provide_expl_just(room,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_39-785  [little,legend]  reject_expl_opin(nil,[])
+Beach Lyrics.txt_40-825  [Fishman]  [raise_issue(be,[_959468,factive,statement,_959486,subjective])]
+Beach Lyrics.txt_41-866  [Nike,man]  [provide_expl_just(man,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_42-908  [red,stripe]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Beach Lyrics.txt_43-951  [blue,Mercedes]  [raise_issue(be,[_960548,factive,statement,_960566,subjective])]
+Beach Lyrics.txt_44-995  [big,dog]  [provide_expl_just(dog,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_45-1040  [Salty,man]  [provide_expl_just(man,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_46-1086  [full,moon,rising]  [raise_issue(be,[_961634,factive,statement,_961652,subjective])]
+Beach Lyrics.txt_47-1133  [Old]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Beach Lyrics.txt_48-1181  [boy]  [raise_issue(be,[_962314,factive,statement,_962332,subjective])]
+Beach Lyrics.txt_49-1230  [Salty,girl]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Beach Lyrics.txt_50-1280  [Bunny,girl]  [raise_issue(be,[_963000,factive,statement,_963018,subjective])]
+Beach Lyrics.txt_51-1331  [Happy,shopper]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Beach Lyrics.txt_52-1383  [Bouncing]  [raise_issue(be,[_963680,factive,statement,_963698,subjective])]
+Beach Lyrics.txt_53-1436  [ball]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Beach Lyrics.txt_54-1490  [City,sun]  [provide_expl_just(sun,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_55-1545  [Think,i,found,the,real,stuff]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(think,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_56-1602  [i,think]  [provide_expl_just(think,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_56-1603  [i,found,the,real]  [provide_expl_just(think,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_57-1660  [stuff]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Beach Lyrics.txt_58-1718  [white,crumbs,across,your,bed]  [provide_expl_just(crumb,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_59-1777  [gray,clouds,cover,Bethnal,green]  [proposal(be,[_978950,_978956,statement,foreground,_978974])]
+Beach Lyrics.txt_60-1837  [white,jeans]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Beach Lyrics.txt_61-1898  [black,top]  reject_expl_opin(nil,[])
+Beach Lyrics.txt_62-1960  [Nice,shape]  [provide_expl_just(shape,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_63-2023  [cracks,a,blue,bitch,till,the,son,come]  [reject_expl_just(crack,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_64-2088  [sliding]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Beach Lyrics.txt_65-2153  [Naked,beneath,the,knee]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_66-2219  [reflect,black,eyes]  [reject_expl_just(reflect,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_67-2286  [your,knee,talking]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_68-2354  [i]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Beach Lyrics.txt_69-2423  [think,i,found,the,real,stuff]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(think,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_70-2494  [i,think]  [provide_expl_just(think,[external,factive,narration,background,objective])]
+Beach Lyrics.txt_70-2495  [i,found,the,real,stuff]  [provide_expl_just(think,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Beach Lyrics.txt_1-1)-[primary-water]
+2-(Beach Lyrics.txt_2-3)-[secondary-abstract_tought,secondary-abstract_tought]
+3-(Beach Lyrics.txt_2-4)-[secondary-instru_behavior,primary-concreteness]
+4-(Beach Lyrics.txt_3-8)-[]
+5-(Beach Lyrics.txt_3-9)-[primary-fire]
+6-(Beach Lyrics.txt_4-12)-[]
+7-(Beach Lyrics.txt_5-17)-[emotions-aggression]
+8-(Beach Lyrics.txt_6-23)-[primary-water]
+9-(Beach Lyrics.txt_7-31)-[]
+10-(Beach Lyrics.txt_8-39)-[]
+11-(Beach Lyrics.txt_9-48)-[]
+12-(Beach Lyrics.txt_10-58)-[]
+13-(Beach Lyrics.txt_11-69)-[]
+14-(Beach Lyrics.txt_12-81)-[primary-sound,primary-vision]
+15-(Beach Lyrics.txt_13-94)-[]
+16-(Beach Lyrics.txt_14-108)-[primary-orality]
+17-(Beach Lyrics.txt_15-123)-[secondary-temporal_repere,primary-narcissism,secondary-temporal_repere]
+18-(Beach Lyrics.txt_15-124)-[]
+19-(Beach Lyrics.txt_16-139)-[]
+20-(Beach Lyrics.txt_17-156)-[]
+21-(Beach Lyrics.txt_17-157)-[emotions-affection,primary-vision]
+22-(Beach Lyrics.txt_18-175)-[secondary-instru_behavior]
+23-(Beach Lyrics.txt_19-194)-[primary-concreteness]
+24-(Beach Lyrics.txt_20-214)-[primary-hard]
+25-(Beach Lyrics.txt_21-236)-[primary-passivity,primary-narcissism,secondary-temporal_repere,primary-hard]
+26-(Beach Lyrics.txt_22-258)-[]
+27-(Beach Lyrics.txt_23-281)-[primary-narcissism]
+28-(Beach Lyrics.txt_24-305)-[secondary-social_behavior]
+29-(Beach Lyrics.txt_25-330)-[]
+30-(Beach Lyrics.txt_26-356)-[primary-vision,emotions-positive_affect]
+31-(Beach Lyrics.txt_27-383)-[primary-brink]
+32-(Beach Lyrics.txt_28-411)-[primary-depth]
+33-(Beach Lyrics.txt_29-440)-[primary-water]
+34-(Beach Lyrics.txt_30-470)-[primary-soft,primary-orality]
+35-(Beach Lyrics.txt_31-501)-[emotions-affection]
+36-(Beach Lyrics.txt_32-533)-[]
+37-(Beach Lyrics.txt_33-566)-[emotions-affection]
+38-(Beach Lyrics.txt_34-600)-[primary-vision]
+half
+39-(Beach Lyrics.txt_35-635)-[primary-concreteness]
+40-(Beach Lyrics.txt_36-671)-[]
+41-(Beach Lyrics.txt_37-708)-[]
+42-(Beach Lyrics.txt_38-746)-[]
+43-(Beach Lyrics.txt_39-785)-[]
+44-(Beach Lyrics.txt_40-825)-[]
+45-(Beach Lyrics.txt_41-866)-[]
+46-(Beach Lyrics.txt_42-908)-[]
+47-(Beach Lyrics.txt_43-951)-[primary-vision]
+48-(Beach Lyrics.txt_44-995)-[]
+49-(Beach Lyrics.txt_45-1040)-[]
+50-(Beach Lyrics.txt_46-1086)-[primary-ascend]
+51-(Beach Lyrics.txt_47-1133)-[]
+52-(Beach Lyrics.txt_48-1181)-[]
+53-(Beach Lyrics.txt_49-1230)-[]
+54-(Beach Lyrics.txt_50-1280)-[]
+55-(Beach Lyrics.txt_51-1331)-[]
+56-(Beach Lyrics.txt_52-1383)-[]
+57-(Beach Lyrics.txt_53-1436)-[]
+58-(Beach Lyrics.txt_54-1490)-[primary-fire]
+59-(Beach Lyrics.txt_55-1545)-[secondary-instru_behavior,secondary-abstract_tought]
+60-(Beach Lyrics.txt_56-1602)-[secondary-abstract_tought]
+61-(Beach Lyrics.txt_56-1603)-[secondary-instru_behavior,secondary-abstract_tought]
+62-(Beach Lyrics.txt_57-1660)-[]
+63-(Beach Lyrics.txt_58-1718)-[primary-concreteness,primary-passivity]
+64-(Beach Lyrics.txt_59-1777)-[primary-vision,primary-diffusion,primary-vision]
+65-(Beach Lyrics.txt_60-1837)-[]
+66-(Beach Lyrics.txt_61-1898)-[primary-height]
+67-(Beach Lyrics.txt_62-1960)-[]
+68-(Beach Lyrics.txt_63-2023)-[primary-vision,primary-sex,secondary-temporal_repere]
+69-(Beach Lyrics.txt_64-2088)-[]
+70-(Beach Lyrics.txt_65-2153)-[primary-depth,primary-narcissism]
+71-(Beach Lyrics.txt_66-2219)-[primary-narcissism]
+72-(Beach Lyrics.txt_67-2286)-[primary-narcissism]
+73-(Beach Lyrics.txt_68-2354)-[]
+74-(Beach Lyrics.txt_69-2423)-[secondary-abstract_tought,secondary-instru_behavior,secondary-abstract_tought]
+75-(Beach Lyrics.txt_70-2494)-[secondary-abstract_tought]
+76-(Beach Lyrics.txt_70-2495)-[secondary-instru_behavior,secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Beach Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Underworld-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,beach,sn1),def_prop(Underworld,[istituzione]),def_prop(Lyrics,[informa,tecno])])
+lf(Beach Lyrics.txt_2,3,cl3-nil-nil-find-[subj-prop-theyre-sn4,def_prop(theyre,[istituzione])])
+lf(Beach Lyrics.txt_2,3,nil-nil-nil-gonna-[adj-(mod)-soon_enough-nil,subj-agent-theyre-sn4,def_prop(soon_enough,[istituzione]),def_prop(theyre,[istituzione])])
+lf(Beach Lyrics.txt_2,3,cl2-not-nil-know-[subj-actor-they-sn3,cmod-coord-find-cl3,subj-actor-they-sn2,subj-actor-they-sn1,aux-do-nil,def_prop(they,[umano]),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Beach Lyrics.txt_3,8,cl4-nil-nil-be-[subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Beach Lyrics.txt_4,12,cl5-nil-nil-say-[])
+lf(Beach Lyrics.txt_5,17,cl6-nil-nil-hurt-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_6,23,cl8-nil-nil-wash-[obj-theme_aff-it-sn2,xcomp-purpose-wash-2,def_prop(it,[any])])
+lf(Beach Lyrics.txt_6,23,cl7-nil-nil-do-[subj-theme_unaff-you-sn1,aux-did-nil,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_7,31,cl9-nil-nil-fester-[obj-theme-some-sn3,subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(some,[umano]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Beach Lyrics.txt_8,39,cl10-not-have_to-even-[subj-agent-you-sn1,adj-(mod)-even-nil,aux-do-nil,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_9,48,cl11-nil-nil-be-[ncmod-modal-mind-sn2,subj-theme_bound-you-sn1,def_prop(mind,[astratto]),def_prop(you,[umano])])
+lf(Beach Lyrics.txt_10,58,cl12-nil-nil-bring-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_11,69,cl13-nil-nil-have-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_12,81,cl14-nil-nil-be-[cmod-coord-be-and,xcomp-prop-brown-sn5,xcomp-prop-all-sn4,subj-theme_bound-it-sn3,def_prop(brown,[astratto]),def_prop(all,[_998854]),def_prop(it,[any])])
+lf(Beach Lyrics.txt_13,94,cl15-nil-nil-be-[ncmod-modale-suction-sn1,def_prop(suction,[attivita,cambia])])
+lf(Beach Lyrics.txt_14,108,cl16-nil-nil-be-[])
+lf(Beach Lyrics.txt_15,123,cl17-not-nil-do-[xcomp-actor-that-sn5,subj-theme_unaff-i-sn4,cmod-subord-do-",xcomp-theme-till-sn3,xcomp-actor-eye-sn2,subj-theme_unaff-i-sn1,aux-did-nil,aux-do-nil,adj-(mod)-ever-nil,def_prop(that,[oggetto,umano]),def_prop(i,[umano]),def_prop(till,[sostanza]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(Beach Lyrics.txt_16,139,cl18-nil-nil-say-[obj-theme_unaff-thing-sn1,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Beach Lyrics.txt_17,156,cl20-nil-nil-be-[xcomp-prop-boost-sn3,subj-theme_bound-you-sn2,def_prop(boost,[attivita]),def_prop(you,[umano])])
+lf(Beach Lyrics.txt_17,156,cl19-nil-nil-bet-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_18,175,cl21-nil-nil-try-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_19,194,cl22-nil-nil-loosen-[obj-patient-strap-sn2,subj-agent-you-sn1,and(strap,where,sn2),def_prop(strap,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Beach Lyrics.txt_20,214,cl24-nil-nil-end-[subj-goal-two-sn1,def_prop(two,[_999930])])
+lf(Beach Lyrics.txt_20,214,cl23-nil-nil-metal-[subj-agent-two-sn1,def_prop(two,[_1000008])])
+lf(Beach Lyrics.txt_21,236,cl25-nil-nil-rest-[iobj-goal-steel-sn3,obj-theme-head-sn2,subj-agent-you-sn1,def_prop(steel,[oggetto,sostanza,strumento]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Beach Lyrics.txt_22,258,cl26-nil-nil-blow-[iobj-goal-tube-sn2,subj-agent-you-sn1,def_prop(tube,[body_part,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Beach Lyrics.txt_23,281,cl27-nil-nil-show-[obj2-paziente-leg-sn3,obj-goal-me-sn2,subj-actor-you-sn1,def_prop(leg,[attivita,body_part,edible,oggetto,strumento,umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Beach Lyrics.txt_24,305,cl28-nil-nil-help-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_25,330,cl29-nil-nil-say-[obj-theme_unaff-show-sn1,def_prop(show,[attivita,informa])])
+lf(Beach Lyrics.txt_26,356,cl30-nil-nil-be-[subj-theme_bound-smile-sn2,subj-theme_bound-smile-sn1,and(smile,pink,sn2),and(smile,pink,sn1),def_prop(smile,[attivita,informa]),def_prop(smile,[attivita,informa])])
+lf(Beach Lyrics.txt_27,383,nil-nil-nil-up-[obj-theme_aff-aisle-sn2,subj-agent-walking-sn1,def_prop(aisle,[oggetto,strumento]),def_prop(walking,[cambia,evento])])
+lf(Beach Lyrics.txt_28,411,cl31-nil-nil-show-[adj-subj_disc-underneath-sn4,obj-theme_aff-thing-sn3,obj-goal-me-sn2,subj-actor-you-sn1,def_prop(underneath,[istituzione]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Beach Lyrics.txt_29,440,cl32-nil-nil-seat-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_30,470,cl33-nil-nil-show-[obj2-paziente-plastic-sn4,obj-goal-me-sn3,subj-actor-drink-sn2,subj-actor-drink-sn1,and(plastic,tiny,sn4),and(drink,soft,sn2),and(drink,you,sn1),and(drink,soft,sn1),def_prop(plastic,[sostanza]),def_prop(me,[umano]),def_prop(drink,[attivita,edible,oggetto]),def_prop(drink,[attivita,edible,oggetto])])
+lf(Beach Lyrics.txt_31,501,nil-nil-nil-like-[subj-experiencer-song-sn1,def_prop(song,[astratto,attivita,evento,informa,oggetto])])
+lf(Beach Lyrics.txt_32,533,cl34-nil-nil-squeal-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_33,566,nil-nil-nil-like-[ncmod-comitativo-wheel-sn3,obj-tema_emot-train-sn2,subj-experiencer-you-sn1,def_prop(wheel,[oggetto,strumento]),def_prop(train,[evento,oggetto,strumento]),def_prop(you,[umano])])
+lf(Beach Lyrics.txt_34,600,cl35-nil-nil-be-[ncmod-comitativo-light-sn2,ncmod-modal-dark-sn1,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(dark,[valutativo])])
+lf(Beach Lyrics.txt_35,635,cl36-nil-nil-say-[])
+lf(Beach Lyrics.txt_36,671,cl37-nil-nil-say-[])
+lf(Beach Lyrics.txt_37,708,cl38-nil-nil-think-[adj-(mod)-still-nil,iobj-theme_unaff-you-sn2,subj-agent-i-sn1,aux-am-nil,progr-thinking-nil,def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Beach Lyrics.txt_38,746,cl39-nil-nil-room-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_39,785,cl40-nil-nil-say-[obj-theme_unaff-legend-sn1,and(legend,little,sn1),def_prop(legend,[attivita,informa])])
+lf(Beach Lyrics.txt_40,825,cl41-nil-nil-say-[obj-theme_unaff-Fishman-sn1,def_prop(Fishman,[umano])])
+lf(Beach Lyrics.txt_41,866,cl42-nil-nil-man-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_42,908,cl43-nil-nil-say-[obj-theme_unaff-stripe-sn1,and(stripe,red,sn1),def_prop(stripe,[astratto,attivita,informa])])
+lf(Beach Lyrics.txt_43,951,cl44-nil-nil-say-[obj-theme_unaff-Mercedes-sn1,and(Mercedes,blue,sn1),def_prop(Mercedes,[place,umano])])
+lf(Beach Lyrics.txt_44,995,cl45-nil-nil-dog-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_45,1040,cl46-nil-nil-man-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_46,1086,cl47-nil-nil-rise-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_47,1133,cl48-nil-nil-say-[obj-theme_unaff-Old-sn1,def_prop(Old,[istituzione])])
+lf(Beach Lyrics.txt_48,1181,cl49-nil-nil-say-[obj-theme_unaff-boy-sn1,def_prop(boy,[oggetto,strumento])])
+lf(Beach Lyrics.txt_49,1230,cl50-nil-nil-say-[obj-theme_unaff-girl-sn1,and(girl,Salty,sn1),def_prop(girl,[oggetto,strumento])])
+lf(Beach Lyrics.txt_50,1280,cl51-nil-nil-say-[obj-theme_unaff-girl-sn1,and(girl,Bunny,sn1),def_prop(girl,[oggetto,strumento])])
+lf(Beach Lyrics.txt_51,1331,cl52-nil-nil-say-[obj-theme_unaff-shopper-sn1,and(shopper,Happy,sn1),def_prop(shopper,[umano])])
+lf(Beach Lyrics.txt_52,1383,cl53-nil-nil-say-[])
+lf(Beach Lyrics.txt_53,1436,cl54-nil-nil-say-[obj-theme_unaff-ball-sn1,def_prop(ball,[astratto,attivita,body_part,evento,istituzione,oggetto,strumento,umano])])
+lf(Beach Lyrics.txt_54,1490,cl55-nil-nil-sun-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_55,1545,cl57-nil-nil-find-[obj-prop-stuff-sn3,xcomp-purpose-find-2,and(stuff,real,sn3),def_prop(stuff,[astratto,attivita,informa,oggetto])])
+lf(Beach Lyrics.txt_55,1545,cl56-nil-nil-think-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Beach Lyrics.txt_56,1602,cl59-nil-nil-find-[ccomp-prop-find-cl59,obj-theme_bound-real-sn3,subj-actor-i-sn2,def_prop(real,[astratto,oggetto]),def_prop(i,[umano])])
+lf(Beach Lyrics.txt_56,1602,cl58-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_57,1660,cl60-nil-nil-say-[obj-theme_unaff-stuff-sn1,def_prop(stuff,[astratto,attivita,informa,oggetto])])
+lf(Beach Lyrics.txt_58,1718,cl61-nil-nil-crumb-[ncmod-modal-be-sn2,subj-theme-white-sn1,def_prop(be,[informa,tecno]),def_prop(white,[astratto,oggetto,strumento])])
+lf(Beach Lyrics.txt_59,1777,cl62-nil-nil-cover-[xcomp-prop-green-sn3,obj-goal-Bethnal-sn2,subj-agent-cloud-sn1,and(cloud,gray,sn1),def_prop(green,[astratto,luogo]),def_prop(Bethnal,[istituzione,umano]),def_prop(cloud,[attivita,cambia,oggetto,stato])])
+lf(Beach Lyrics.txt_60,1837,cl63-nil-nil-say-[obj-theme_unaff-jean-sn1,and(jean,white,sn1),def_prop(jean,[oggetto,strumento])])
+lf(Beach Lyrics.txt_61,1898,cl64-nil-nil-say-[])
+lf(Beach Lyrics.txt_62,1960,cl65-nil-nil-shape-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Beach Lyrics.txt_63,2023,cl67-nil-nil-come-[subj-prop-son-sn3,def_prop(son,[umano])])
+lf(Beach Lyrics.txt_63,2023,cl66-nil-nil-crack-[obj-theme_aff-son-sn3,obj-patient-till-sn2,subj-agent-you-sn1,and(till,blue,sn2),and(till,bitch,sn2),def_prop(son,[umano]),def_prop(till,[sostanza]),def_prop(you,[umano])])
+lf(Beach Lyrics.txt_64,2088,cl68-nil-nil-say-[])
+lf(Beach Lyrics.txt_65,2153,cl69-nil-nil-be-[ncmod-locativo-knee-sn2,subj-theme_bound-Naked-sn1,def_prop(knee,[body_part,oggetto,strumento,umano]),def_prop(Naked,[istituzione,umano])])
+lf(Beach Lyrics.txt_66,2219,cl70-nil-nil-reflect-[obj-theme-eye-sn2,subj-agent-you-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Beach Lyrics.txt_67,2286,cl71-nil-nil-be-[subj-theme_bound-knee-sn1,def_prop(knee,[body_part,oggetto,strumento,umano])])
+lf(Beach Lyrics.txt_68,2354,cl72-nil-nil-say-[obj-theme_unaff-i-sn1,def_prop(i,[umano])])
+lf(Beach Lyrics.txt_69,2423,cl74-nil-nil-find-[obj-prop-stuff-sn3,xcomp-purpose-find-2,and(stuff,real,sn3),def_prop(stuff,[astratto,attivita,informa,oggetto])])
+lf(Beach Lyrics.txt_69,2423,cl73-nil-nil-think-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Beach Lyrics.txt_70,2494,cl76-nil-nil-find-[ccomp-prop-find-cl76,obj-theme_bound-stuff-sn3,subj-actor-i-sn2,and(stuff,real,sn3),def_prop(stuff,[astratto,attivita,informa,oggetto]),def_prop(i,[umano])])
+lf(Beach Lyrics.txt_70,2494,cl75-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])

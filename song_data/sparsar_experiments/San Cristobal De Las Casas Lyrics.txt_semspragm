@@ -1,0 +1,68 @@
+"POLARITY, DISCOURSE MARKERS"
+
+San Cristobal De Las Casas Lyrics.txt_1-1  []-positive  []
+San Cristobal De Las Casas Lyrics.txt_2-3  [if-hypoth]-positive  [fgb,fgb]
+San Cristobal De Las Casas Lyrics.txt_3-7  [then-temp_seq]-positive  []
+San Cristobal De Las Casas Lyrics.txt_4-11  []-positive  []
+San Cristobal De Las Casas Lyrics.txt_5-16  []-negative  []
+San Cristobal De Las Casas Lyrics.txt_6-22  []-negative  [neg]
+San Cristobal De Las Casas Lyrics.txt_7-29  []-positive  []
+San Cristobal De Las Casas Lyrics.txt_8-37  []-negative  [neg]
+San Cristobal De Las Casas Lyrics.txt_9-47  []-positive  []
+San Cristobal De Las Casas Lyrics.txt_10-57  []-negative  [neg]
+San Cristobal De Las Casas Lyrics.txt_11-68  [so-result]-positive  [fgb]
+San Cristobal De Las Casas Lyrics.txt_12-80  []-negative  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+San Cristobal De Las Casas Lyrics.txt_1-1  [san,Cristobal,De,Las,Casas,Lyrics,by,Swirlies]  [title]
+San Cristobal De Las Casas Lyrics.txt_2-3  [if,what,is,known,an,exuberant,excressence,is]  [provide_expl_just(know-cl2,[external,factive,explanation,background,objective])]
+San Cristobal De Las Casas Lyrics.txt_3-7  [then,such_as,shown,can,only,be,a,just,defense]  [provide_expl_just(be,[external,nonfactive,narration,foreground,objective])]
+San Cristobal De Las Casas Lyrics.txt_4-11  [las,Cristobal,de,Casas,san]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+San Cristobal De Las Casas Lyrics.txt_5-16  [after,six,weeks,of,clashes]  [provide_expl_just(clash,[external,factive,narration,background,objective])]
+San Cristobal De Las Casas Lyrics.txt_6-22  [army,bombed,villages]  [reject_expl_just(bomb,[external,factive,narration,foreground,objective])]
+San Cristobal De Las Casas Lyrics.txt_7-29  [in,the,southern,mountains,Zapata,Zapata]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+San Cristobal De Las Casas Lyrics.txt_8-37  [wait,i,was,wrong]  [reject_expl_just(wrong,[external,factive,cause,foreground,objective])]
+San Cristobal De Las Casas Lyrics.txt_9-47  [i,was,shielded,by,my,strength,of,heart]  [provide_expl_just(shield,[external,factive,narration,background,objective])]
+San Cristobal De Las Casas Lyrics.txt_10-57  [down,i,was,doomed]  [reject_expl_just(doom,[external,factive,narration,background,objective])]
+San Cristobal De Las Casas Lyrics.txt_11-68  [i,was,so,dessicated]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+San Cristobal De Las Casas Lyrics.txt_12-80  [each_day,me,divides]  [provide_expl_just(divide,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(San Cristobal De Las Casas Lyrics.txt_1-1)-[]
+2-(San Cristobal De Las Casas Lyrics.txt_2-3)-[secondary-abstract_tought]
+3-(San Cristobal De Las Casas Lyrics.txt_3-7)-[secondary-temporal_repere]
+4-(San Cristobal De Las Casas Lyrics.txt_4-11)-[]
+5-(San Cristobal De Las Casas Lyrics.txt_5-16)-[secondary-temporal_repere]
+6-(San Cristobal De Las Casas Lyrics.txt_6-22)-[emotions-aggression]
+half
+7-(San Cristobal De Las Casas Lyrics.txt_7-29)-[primary-height]
+8-(San Cristobal De Las Casas Lyrics.txt_8-37)-[]
+9-(San Cristobal De Las Casas Lyrics.txt_9-47)-[primary-narcissism]
+10-(San Cristobal De Las Casas Lyrics.txt_10-57)-[]
+11-(San Cristobal De Las Casas Lyrics.txt_11-68)-[]
+12-(San Cristobal De Las Casas Lyrics.txt_12-80)-[secondary-order]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(San Cristobal De Las Casas Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Swirlies-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Casas,sn1),and(Lyrics,san,sn1),def_prop(Swirlies,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(San Cristobal De Las Casas Lyrics.txt_2,3,cl3-nil-nil-be-[subj-actor-excressence-sn1,and(excressence,exuberant,sn1),def_prop(excressence,[istituzione])])
+lf(San Cristobal De Las Casas Lyrics.txt_2,3,cl2-nil-nil-know-[subj-theme_unaff-excressence-sn1,aux-(is)-nil,and(excressence,exuberant,sn1),def_prop(excressence,[istituzione])])
+lf(San Cristobal De Las Casas Lyrics.txt_3,7,cl4-nil-can-be-[xcomp-prop-defense-sn2,subj-theme_bound-such_as-sn1,adj-(mod)-only-nil,def_prop(defense,[attivita,informa,istituzione]),def_prop(such_as,[evaluative])])
+lf(San Cristobal De Las Casas Lyrics.txt_4,11,cl5-nil-nil-be-[ncmod-modal-Casas-sn2,subj-theme_bound-you-sn1,and(Casas,de,sn2),and(Casas,Cristobal,sn2),def_prop(Casas,[place,umano]),def_prop(you,[umano])])
+lf(San Cristobal De Las Casas Lyrics.txt_5,16,nil-nil-nil-clash-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(San Cristobal De Las Casas Lyrics.txt_6,22,cl6-nil-nil-bomb-[obj-theme-village-sn2,subj-agent-army-sn1,def_prop(village,[istituzione,luogo]),def_prop(army,[istituzione])])
+lf(San Cristobal De Las Casas Lyrics.txt_7,29,cl7-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(San Cristobal De Las Casas Lyrics.txt_8,37,cl9-nil-nil-wrong-[])
+lf(San Cristobal De Las Casas Lyrics.txt_8,37,cl8-nil-nil-wait-[subj-actor-i-sn2,subj-actor-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(San Cristobal De Las Casas Lyrics.txt_9,47,cl10-nil-nil-shield-[ncmod-specif-hear-sn3,arg_mod-agent-strength-sn2,subj-theme-i-sn1,aux-was-nil,def_prop(hear,[istituzione]),def_prop(strength,[astratto,stato]),def_prop(i,[umano])])
+lf(San Cristobal De Las Casas Lyrics.txt_10,57,cl11-nil-nil-doom-[subj-theme-i-sn1,aux-was-nil,def_prop(i,[umano])])
+lf(San Cristobal De Las Casas Lyrics.txt_11,68,cl12-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(San Cristobal De Las Casas Lyrics.txt_12,80,cl13-nil-nil-divide-[subj-agent-me-sn1,def_prop(me,[umano])])

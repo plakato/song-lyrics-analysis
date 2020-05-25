@@ -1,0 +1,186 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Resolution Lyrics.txt_1-1  []-positive  []
+Resolution Lyrics.txt_2-3  []-negative  [neg,neg]
+Resolution Lyrics.txt_3-6  []-negative  [neg]
+Resolution Lyrics.txt_4-10  [though-advers]-suspension  [neg]
+Resolution Lyrics.txt_4-11  []-negative  [fgb,neg]
+Resolution Lyrics.txt_5-17  []-suspension  [neg,neg]
+Resolution Lyrics.txt_6-23  []-negative  [neg]
+Resolution Lyrics.txt_7-30  []-negative  [neg]
+Resolution Lyrics.txt_8-38  [so-result]-positive  [fgb]
+Resolution Lyrics.txt_8-39  []-negative  [neg]
+Resolution Lyrics.txt_9-48  []-positive  []
+Resolution Lyrics.txt_10-58  []-positive  []
+Resolution Lyrics.txt_11-69  [so-result]-positive  [fgb]
+Resolution Lyrics.txt_12-81  []-negative  [neg]
+Resolution Lyrics.txt_13-82  []-negative  [neg]
+Resolution Lyrics.txt_13-83  []-suspension  [neg,fgb,neg]
+Resolution Lyrics.txt_14-98  []-positive  [neg,neg]
+Resolution Lyrics.txt_15-113  []-suspension  []
+Resolution Lyrics.txt_16-129  [so-result]-negative  [neg,fgb]
+Resolution Lyrics.txt_17-146  []-suspension  []
+Resolution Lyrics.txt_17-147  []-positive  []
+Resolution Lyrics.txt_18-166  []-suspension  []
+Resolution Lyrics.txt_19-187  []-negative  [neg]
+Resolution Lyrics.txt_20-207  []-negative  [neg]
+Resolution Lyrics.txt_21-228  [so-result]-positive  [fgb]
+Resolution Lyrics.txt_21-229  []-negative  [neg]
+Resolution Lyrics.txt_22-251  []-positive  []
+Resolution Lyrics.txt_23-274  []-positive  []
+Resolution Lyrics.txt_24-298  [so-result]-positive  [fgb]
+Resolution Lyrics.txt_25-323  []-negative  [neg]
+Resolution Lyrics.txt_26-324  []-suspension  [neg]
+Resolution Lyrics.txt_27-351  []-negative  [neg]
+Resolution Lyrics.txt_28-379  []-positive  [neg,neg]
+Resolution Lyrics.txt_29-408  []-negative  [neg]
+Resolution Lyrics.txt_30-438  []-negative  [neg]
+Resolution Lyrics.txt_31-469  [so-result]-positive  [fgb]
+Resolution Lyrics.txt_31-470  []-negative  [neg]
+Resolution Lyrics.txt_32-502  []-positive  []
+Resolution Lyrics.txt_33-535  []-positive  []
+Resolution Lyrics.txt_34-569  [so-result]-positive  [fgb]
+Resolution Lyrics.txt_35-604  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Resolution Lyrics.txt_1-1  [resolution,Lyrics,by,VNV,Nation]  [title]
+Resolution Lyrics.txt_2-3  [no,pride,to,feel,no,waiting,country]  [reject_expl_just(feel,[external,factive,explanation,background,objective]),propose_opin_neg(feel,_142904)]
+Resolution Lyrics.txt_3-6  [no,parades,to,line,your,way]  [reject_expl_just(line,[external,factive,explanation,background,objective]),propose_opin_neg(line,[external,factive,explanation,background,objective])]
+Resolution Lyrics.txt_4-10  [though,your,hands,may,bleed]  [propose_opin(may,[external,nonfactive,narration,foreground,objective]),provide_expl_just(may,[external,nonfactive,narration,foreground,objective])]
+Resolution Lyrics.txt_4-11  [and,your,body,may,lie,broken]  [reject_expl_just(may,[external,nonfactive,narration,foreground,objective])]
+Resolution Lyrics.txt_5-17  [every,storm,must,soon,give,away]  [propose_opin(give,[external,nonfactive,narration,foreground,objective]),provide_expl_just(give,[external,nonfactive,narration,foreground,objective])]
+Resolution Lyrics.txt_6-23  [raise,your,head,up,high]  [reject_expl_just(raise,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_7-30  [raise,your,head,up,high]  [reject_expl_just(raise,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_8-38  [so,the,heavens,hear]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(cry,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_8-39  [you,cry]  [reject_expl_just(hear,[external,factive,narration,background,objective]),reject_expl_just(cry,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_9-48  [light,the,brightest,fire]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_10-58  [from,the,highest,mountain]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_11-69  [whole,world,the,so,knows]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_12-81  [that,your,spirit,can,not,be,broken]  [reject_expl_just(be,[_151816,_151822,_151828,_151834,_151840])]
+Resolution Lyrics.txt_13-82  [the,rage,you,feel]  [reject_expl_just(feel,[external,factive,explanation,background,objective]),propose_opin_neg(feel,_156274),reject_expl_just(consume,[external,factive,explanation,background,objective]),propose_opin_neg(consume,[external,factive,explanation,background,objective]),reject_expl_just(destroy,[external,factive,explanation,background,objective]),propose_opin_neg(destroy,[external,factive,explanation,background,objective])]
+Resolution Lyrics.txt_13-83  [will,consume,you,and,you,destroy]  [propose_opin_neg(feel,[external,factive,explanation,background,objective]),suggest(feel,_161242),propose_opin_neg(consume,[external,factive,explanation,background,objective]),propose_opin_neg(destroy,[external,factive,explanation,background,objective])]
+Resolution Lyrics.txt_14-98  [let,this,rage,inside,you,die]  [provide_expl_just(die,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_15-113  [one,day,,,you,will,find,the,signs,in,every,motion]  [provide_expl_just(find,[external,nonfactive,narration,background,objective])]
+Resolution Lyrics.txt_16-129  [close,your,eyes,so,you,might,see]  [reject_expl_just(see,[external,nonfactive,narration,foreground,objective])]
+Resolution Lyrics.txt_17-146  [i,will,hold]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_17-147  [you,still,every,second,of,every,hour]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_18-166  [let,your,actions,speak,your,will]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(speak,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_19-187  [raise,your,head,up,high]  [reject_expl_just(raise,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_20-207  [raise,your,head,up,high]  [reject_expl_just(raise,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_21-228  [so,the,heavens,hear]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(cry,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_21-229  [you,cry]  [reject_expl_just(hear,[external,factive,narration,background,objective]),reject_expl_just(cry,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_22-251  [light,the,brightest,fire]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_23-274  [from,the,highest,mountain]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_24-298  [whole,world,the,so,knows]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_25-323  [that,your,spirit,can,not,be,broken]  [reject_expl_just(be,[_173234,_173240,_173246,_173252,_173258])]
+Resolution Lyrics.txt_26-324  [give,up,your,fear]  [propose_opin_neg(give,[external,factive,explanation,background,objective])]
+Resolution Lyrics.txt_27-351  [these,senseless,longings]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_28-379  [let,this,pain,inside,you,die]  [provide_expl_just(die,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_29-408  [raise,your,head,up,high]  [reject_expl_just(raise,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_30-438  [raise,your,head,up,high]  [reject_expl_just(raise,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_31-469  [so,the,heavens,hear]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(cry,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_31-470  [you,cry]  [reject_expl_just(hear,[external,factive,narration,background,objective]),reject_expl_just(cry,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_32-502  [light,the,brightest,fire]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_33-535  [from,the,highest,mountain]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_34-569  [whole,world,the,so,knows]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Resolution Lyrics.txt_35-604  [that,your,spirit,can,not,be,broken]  [reject_expl_just(be,[_181746,_181752,_181758,_181764,_181770])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Resolution Lyrics.txt_1-1)-[]
+2-(Resolution Lyrics.txt_2-3)-[emotions-glory,secondary-instru_behavior]
+3-(Resolution Lyrics.txt_3-6)-[primary-brink]
+4-(Resolution Lyrics.txt_4-10)-[primary-narcissism,secondary-abstract_tought]
+5-(Resolution Lyrics.txt_4-11)-[primary-narcissism,secondary-abstract_tought,primary-passivity,emotions-aggression]
+6-(Resolution Lyrics.txt_5-17)-[secondary-temporal_repere,secondary-restraint,secondary-temporal_repere,primary-concreteness]
+7-(Resolution Lyrics.txt_6-23)-[primary-narcissism,primary-height]
+8-(Resolution Lyrics.txt_7-30)-[primary-narcissism,primary-height]
+9-(Resolution Lyrics.txt_8-38)-[primary-height,primary-sound]
+10-(Resolution Lyrics.txt_8-39)-[emotions-expressive_beh]
+11-(Resolution Lyrics.txt_9-48)-[primary-vision,primary-fire]
+12-(Resolution Lyrics.txt_10-58)-[primary-height]
+13-(Resolution Lyrics.txt_11-69)-[secondary-abstract_tought]
+14-(Resolution Lyrics.txt_12-81)-[primary-height,emotions-aggression]
+15-(Resolution Lyrics.txt_13-82)-[emotions-aggression]
+16-(Resolution Lyrics.txt_13-83)-[primary-orality,emotions-aggression]
+17-(Resolution Lyrics.txt_14-98)-[emotions-aggression,primary-concreteness,primary-passivity]
+18-(Resolution Lyrics.txt_15-113)-[secondary-instru_behavior,secondary-temporal_repere]
+19-(Resolution Lyrics.txt_16-129)-[primary-concreteness,primary-narcissism,primary-vision]
+20-(Resolution Lyrics.txt_17-146)-[]
+half
+21-(Resolution Lyrics.txt_17-147)-[secondary-temporal_repere,secondary-temporal_repere,secondary-temporal_repere]
+22-(Resolution Lyrics.txt_18-166)-[secondary-social_behavior]
+23-(Resolution Lyrics.txt_19-187)-[primary-narcissism,primary-height]
+24-(Resolution Lyrics.txt_20-207)-[primary-narcissism,primary-height]
+25-(Resolution Lyrics.txt_21-228)-[primary-height,primary-sound]
+26-(Resolution Lyrics.txt_21-229)-[emotions-expressive_beh]
+27-(Resolution Lyrics.txt_22-251)-[primary-vision,primary-fire]
+28-(Resolution Lyrics.txt_23-274)-[primary-height]
+29-(Resolution Lyrics.txt_24-298)-[secondary-abstract_tought]
+30-(Resolution Lyrics.txt_25-323)-[primary-height,emotions-aggression]
+31-(Resolution Lyrics.txt_26-324)-[emotions-anxiety]
+32-(Resolution Lyrics.txt_27-351)-[]
+33-(Resolution Lyrics.txt_28-379)-[emotions-sadness,primary-concreteness,primary-passivity]
+34-(Resolution Lyrics.txt_29-408)-[primary-narcissism,primary-height]
+35-(Resolution Lyrics.txt_30-438)-[primary-narcissism,primary-height]
+36-(Resolution Lyrics.txt_31-469)-[primary-height,primary-sound]
+37-(Resolution Lyrics.txt_31-470)-[emotions-expressive_beh]
+38-(Resolution Lyrics.txt_32-502)-[primary-vision,primary-fire]
+39-(Resolution Lyrics.txt_33-535)-[primary-height]
+40-(Resolution Lyrics.txt_34-569)-[secondary-abstract_tought]
+41-(Resolution Lyrics.txt_35-604)-[primary-height,emotions-aggression]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Resolution Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Nation-sn2,subj-theme_bound-Lyrics-sn1,and(Nation,VNV,sn2),and(Lyrics,resolution,sn1),def_prop(Nation,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Resolution Lyrics.txt_2,3,cl2-nil-nil-feel-[subj-experiencer-pride-sn1,and(pride,no,sn1),def_prop(pride,[astratto,attivita,emotivo,istituzione])])
+lf(Resolution Lyrics.txt_3,6,cl3-nil-nil-line-[obj-destination-way-sn2,subj-agent-parade-sn1,and(parade,no,sn1),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(parade,[attivita,istituzione])])
+lf(Resolution Lyrics.txt_4,10,cl6-nil-may-lie-[cmod-subord-lie-",xcomp-prop-broken-sn6,subj-actor-body-sn5,def_prop(broken,[evaluative]),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano])])
+lf(Resolution Lyrics.txt_4,10,cl5-nil-nil-bleed-[subj-theme-hand-sn1,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano])])
+lf(Resolution Lyrics.txt_4,10,cl4-nil-may-may-[adj-(mod)-though-nil,subj-theme_unaff-hand-sn1,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano])])
+lf(Resolution Lyrics.txt_5,17,cl7-nil-must-give-[xcomp-prop-away-sn2,subj-actor-storm-sn1,adj-(mod)-soon-nil,and(storm,every,sn1),def_prop(away,[evaluative]),def_prop(storm,[attivita,cambia,stato])])
+lf(Resolution Lyrics.txt_6,23,cl8-nil-nil-raise-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,xcomp-prop-high-sn3,obj-goal-head-sn2,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(high,[misura]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_7,30,cl9-nil-nil-raise-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,xcomp-prop-high-sn3,obj-goal-head-sn2,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(high,[misura]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_8,38,cl11-nil-nil-cry-[subj-experiencer-you-sn2,def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_8,38,cl10-nil-nil-hear-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_9,48,cl12-nil-nil-be-[subj-theme_bound-fire-sn1,and(fire,brightest,sn1),def_prop(fire,[attivita,evento,informa,oggetto,sostanza,strumento])])
+lf(Resolution Lyrics.txt_10,58,cl13-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_11,69,cl14-nil-nil-know-[])
+lf(Resolution Lyrics.txt_12,81,cl15-not-can-break-[ccomp-prop-break-cl15,subj-theme_aff-spirit-sn1,aux-be-nil,def_prop(spirit,[astratto,stato,umano])])
+lf(Resolution Lyrics.txt_13,82,cl18-nil-nil-destroy-[subj-agent-you-sn8,subj-agent-you-sn7,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_13,82,cl17-nil-nil-consume-[cmod-coord-destroy-1,subj-agent-you-sn5,subj-agent-you-sn4,and(you,will,sn4),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_13,82,cl16-nil-nil-feel-[subj-experiencer-you-sn2,subj-experiencer-you-sn1,and(you,rage,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_14,98,cl19-nil-nil-die-[xcomp-prop-inside-sn3,xcomp-prop-rage-sn2,xcomp-purpose-let-2,subj-theme_aff-you-sn1,and(rage,this,sn2),def_prop(inside,[luogo]),def_prop(rage,[stato]),def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_15,113,cl20-nil-will-find-[adj-temporal-day-nil,obj-theme_bound-sign-sn2,subj-actor-you-sn1,and(day,one,sn4),def_prop(day,[tempo]),def_prop(sign,[attivita,informa,stato]),def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_16,129,cl21-nil-might-see-[cmod-subord-see-so,subj-experiencer-you-sn4,def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_17,146,cl24-nil-nil-be-[adj-(mod)-still-nil,subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_17,146,cl23-nil-nil-hold-[xadj-theme-second-sn4,subj-goal-i-sn1,and(second,every,sn4),def_prop(second,[attivita,informa,nquant,relat,tempo,umano]),def_prop(i,[umano])])
+lf(Resolution Lyrics.txt_17,146,cl22-nil-will-will-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Resolution Lyrics.txt_18,166,cl26-nil-will-will-[obj-theme_unaff-action-sn2,xcomp-purpose-let-2,subj-agent-your-sn1,def_prop(action,[astratto,attivita,informa,oggetto,stato,strumento]),def_prop(your,[evaluative])])
+lf(Resolution Lyrics.txt_18,166,cl25-nil-nil-speak-[])
+lf(Resolution Lyrics.txt_19,187,cl27-nil-nil-raise-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,xcomp-prop-high-sn3,obj-goal-head-sn2,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(high,[misura]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_20,207,cl28-nil-nil-raise-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,xcomp-prop-high-sn3,obj-goal-head-sn2,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(high,[misura]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_21,228,cl30-nil-nil-cry-[subj-experiencer-you-sn2,def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_21,228,cl29-nil-nil-hear-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_22,251,cl31-nil-nil-be-[subj-theme_bound-fire-sn1,and(fire,brightest,sn1),def_prop(fire,[attivita,evento,informa,oggetto,sostanza,strumento])])
+lf(Resolution Lyrics.txt_23,274,cl32-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_24,298,cl33-nil-nil-know-[])
+lf(Resolution Lyrics.txt_25,323,cl34-not-can-break-[ccomp-prop-break-cl34,subj-theme_aff-spirit-sn1,aux-be-nil,def_prop(spirit,[astratto,stato,umano])])
+lf(Resolution Lyrics.txt_26,324,cl35-nil-nil-give-[adj-(mod)-up-nil,adj-subj_disc-up-sn3,obj-goal-fear-sn2,subj-actor-you-sn1,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(fear,[emotivo]),def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_27,351,cl36-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_28,379,cl37-nil-nil-die-[xcomp-prop-inside-sn3,xcomp-prop-pain-sn2,xcomp-purpose-let-2,subj-theme_aff-you-sn1,and(pain,this,sn2),def_prop(inside,[luogo]),def_prop(pain,[astratto,emotivo,stato,umano]),def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_29,408,cl38-nil-nil-raise-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,xcomp-prop-high-sn3,obj-goal-head-sn2,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(high,[misura]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_30,438,cl39-nil-nil-raise-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,xcomp-prop-high-sn3,obj-goal-head-sn2,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(high,[misura]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_31,469,cl41-nil-nil-cry-[subj-experiencer-you-sn2,def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_31,469,cl40-nil-nil-hear-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_32,502,cl42-nil-nil-be-[subj-theme_bound-fire-sn1,and(fire,brightest,sn1),def_prop(fire,[attivita,evento,informa,oggetto,sostanza,strumento])])
+lf(Resolution Lyrics.txt_33,535,cl43-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Resolution Lyrics.txt_34,569,cl44-nil-nil-know-[])
+lf(Resolution Lyrics.txt_35,604,cl45-not-can-break-[ccomp-prop-break-cl45,subj-theme_aff-spirit-sn1,aux-be-nil,def_prop(spirit,[astratto,stato,umano])])

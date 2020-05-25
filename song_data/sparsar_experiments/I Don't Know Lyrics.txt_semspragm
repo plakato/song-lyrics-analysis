@@ -1,0 +1,97 @@
+"POLARITY, DISCOURSE MARKERS"
+
+I Don't Know Lyrics.txt_1-1  []-negative  []
+I Don't Know Lyrics.txt_2-3  []-suspension  []
+I Don't Know Lyrics.txt_2-4  []-positive  []
+I Don't Know Lyrics.txt_3-6  []-negative  [neg]
+I Don't Know Lyrics.txt_4-11  []-question  []
+I Don't Know Lyrics.txt_5-16  []-question  [neg]
+I Don't Know Lyrics.txt_6-23  []-question  []
+I Don't Know Lyrics.txt_7-31  []-positive  [fgb]
+I Don't Know Lyrics.txt_8-39  []-positive  [fhd,fgb,fhd]
+I Don't Know Lyrics.txt_9-49  []-positive  []
+I Don't Know Lyrics.txt_9-50  []-positive  []
+I Don't Know Lyrics.txt_10-60  []-positive  []
+I Don't Know Lyrics.txt_11-71  [so-result]-positive  [fgb]
+I Don't Know Lyrics.txt_12-83  []-positive  []
+I Don't Know Lyrics.txt_13-96  []-negative  [neg]
+I Don't Know Lyrics.txt_14-110  []-positive  []
+I Don't Know Lyrics.txt_15-125  []-positive  []
+I Don't Know Lyrics.txt_16-141  []-positive  []
+I Don't Know Lyrics.txt_17-158  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+I Don't Know Lyrics.txt_1-1  [i,don-t,Know,Lyrics,by,Yungbrezzy]  [title]
+I Don't Know Lyrics.txt_2-3  [dont,i,i,?,why,dont,know]  [provide_expl_just(know,[internal,factive,narration,foreground,objective])]
+I Don't Know Lyrics.txt_2-4  [know]  [provide_expl_just(know,[internal,factive,narration,foreground,objective])]
+I Don't Know Lyrics.txt_3-6  [aye,is,it,my,shoe,game,my,swagg,maybe,i,dont]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),reject_expl_just(game,[external,factive,explanation,background,objective]),propose_opin_neg(game,[external,factive,explanation,background,objective])]
+I Don't Know Lyrics.txt_4-11  [know,?]  [provide_expl_just(know,[internal,factive,narration,foreground,objective])]
+I Don't Know Lyrics.txt_5-16  [know,dnt,i,mayabe,talk,my,game,my,it,is,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(know,[internal,factive,narration,foreground,objective])]
+I Don't Know Lyrics.txt_6-23  [know,maybe,eyes,my,i,dont,smile,my,it,is,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(know,[internal,factive,narration,foreground,objective])]
+I Don't Know Lyrics.txt_7-31  [i,cuz,got,cash,and,ball,out,every,where,i,go]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+I Don't Know Lyrics.txt_8-39  [man,i,Ballin,like,a,Big,man,and,she,blowing,me,like,quick,sand]  [provide_expl_just(man,[external,factive,narration,background,objective])]
+I Don't Know Lyrics.txt_9-49  [she,cuz,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective])]
+I Don't Know Lyrics.txt_9-50  [Yungbrezzy,keep,them,3hunna,G-s]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective])]
+I Don't Know Lyrics.txt_10-60  [part-yyyyyyyyyyyyy,every,to,Bitch-s,to,my,with,Roll,i,!]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+I Don't Know Lyrics.txt_11-71  [so,every,where,i]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+I Don't Know Lyrics.txt_12-83  [couple,a,G-s,spend]  [provide_expl_just(spend,[external,factive,narration,background,objective])]
+I Don't Know Lyrics.txt_13-96  [album,Coming,soon,Jan]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+I Don't Know Lyrics.txt_14-110  [3]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+I Don't Know Lyrics.txt_15-125  [more,Coming,Lyrics,Dec]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+I Don't Know Lyrics.txt_16-141  [31]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+I Don't Know Lyrics.txt_17-158  [stay,Updated,GBE,300SBE]  [raise_issue(be,[_718890,factive,statement,_718908,subjective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(I Don't Know Lyrics.txt_1-1)-[]
+2-(I Don't Know Lyrics.txt_2-3)-[secondary-abstract_tought,secondary-abstract_tought]
+3-(I Don't Know Lyrics.txt_2-4)-[secondary-abstract_tought]
+4-(I Don't Know Lyrics.txt_3-6)-[emotions-expressive_beh,secondary-abstract_tought]
+5-(I Don't Know Lyrics.txt_4-11)-[secondary-abstract_tought]
+6-(I Don't Know Lyrics.txt_5-16)-[secondary-abstract_tought,secondary-social_behavior,emotions-expressive_beh]
+7-(I Don't Know Lyrics.txt_6-23)-[secondary-abstract_tought,secondary-abstract_tought,primary-narcissism,emotions-positive_affect]
+8-(I Don't Know Lyrics.txt_7-31)-[primary-concreteness,secondary-temporal_repere,primary-concreteness]
+9-(I Don't Know Lyrics.txt_8-39)-[emotions-affection,emotions-affection,secondary-temporal_repere]
+half
+10-(I Don't Know Lyrics.txt_9-49)-[secondary-abstract_tought]
+11-(I Don't Know Lyrics.txt_9-50)-[secondary-abstract_tought]
+12-(I Don't Know Lyrics.txt_10-60)-[secondary-temporal_repere]
+13-(I Don't Know Lyrics.txt_11-71)-[secondary-temporal_repere,primary-concreteness]
+14-(I Don't Know Lyrics.txt_12-83)-[secondary-instru_behavior]
+15-(I Don't Know Lyrics.txt_13-96)-[secondary-temporal_repere]
+16-(I Don't Know Lyrics.txt_14-110)-[]
+17-(I Don't Know Lyrics.txt_15-125)-[]
+18-(I Don't Know Lyrics.txt_16-141)-[]
+19-(I Don't Know Lyrics.txt_17-158)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(I Don't Know Lyrics.txt_1,1,cl1-not-nil-know-[arg_mod-agent-Yungbrezzy-sn3,obj-theme_unaff-Lyrics-sn2,subj-actor-i-sn1,aux-do-nil,def_prop(Yungbrezzy,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(i,[umano])])
+lf(I Don't Know Lyrics.txt_2,3,cl2-nil-nil-know-[subj-actor-pro-nil,obj-theme_unaff-dont-sn2,subj-actor-i-sn1,and(i,i,sn1),def_prop(dont,[istituzione]),def_prop(i,[umano])])
+lf(I Don't Know Lyrics.txt_3,6,cl4-nil-nil-game-[])
+lf(I Don't Know Lyrics.txt_3,6,cl3-nil-nil-be-[xcomp-prop-dont-sn6,xcomp-theme-i-sn5,adj-subj_disc-maybe-sn4,xcomp-prop-swagg-sn3,adj-subj_disc-aye-sn2,subj-theme_bound-it-sn1,def_prop(dont,[istituzione]),def_prop(i,[umano]),def_prop(maybe,[istituzione]),def_prop(swagg,[istituzione]),def_prop(aye,[istituzione]),def_prop(it,[any])])
+lf(I Don't Know Lyrics.txt_4,11,cl5-nil-nil-know-[subj-actor-pro-nil])
+lf(I Don't Know Lyrics.txt_5,16,cl7-nil-nil-know-[subj-actor-pro-nil,subj-actor-dnt-sn10,def_prop(dnt,[istituzione])])
+lf(I Don't Know Lyrics.txt_5,16,cl6-nil-nil-be-[xcomp-theme-i-sn5,xcomp-theme_aff-mayabe-sn4,xcomp-theme-talk-sn3,xcomp-prop-game-sn2,subj-theme_bound-it-sn1,def_prop(i,[umano]),def_prop(mayabe,[istituzione]),def_prop(talk,[attivita,informa]),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(it,[any])])
+lf(I Don't Know Lyrics.txt_6,23,cl9-nil-nil-know-[])
+lf(I Don't Know Lyrics.txt_6,23,cl8-nil-nil-be-[adj-(mod)-maybe-nil,xcomp-theme-eye-sn4,xcomp-theme-i-sn3,xcomp-prop-smile-sn2,subj-theme_bound-it-sn1,and(i,dont,sn3),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(i,[umano]),def_prop(smile,[attivita,informa]),def_prop(it,[any])])
+lf(I Don't Know Lyrics.txt_7,31,cl10-nil-nil-get-[ncmod-locativo-every-sn5,coord-theme_unaff-cash_and_ball-sn4,obj-theme_unaff-ball-sn3,obj-theme_unaff-cash-sn2,subj-agent-cuz-sn1,and(cuz,i,sn1),def_prop(every,[istituzione]),def_prop(cash_and_ball,[astratto,oggetto,astratto,attivita,body_part,evento,istituzione,oggetto,strumento,umano]),def_prop(ball,[astratto,oggetto,astratto,attivita,body_part,evento,istituzione,oggetto,strumento,umano]),def_prop(cash,[astratto,oggetto,astratto,attivita,body_part,evento,istituzione,oggetto,strumento,umano]),def_prop(cuz,[istituzione])])
+lf(I Don't Know Lyrics.txt_8,39,cl12-nil-nil-blow-[cmod-subord-blow-",obj-prop-me-sn8,xcomp-purpose-blow-5,def_prop(me,[umano])])
+lf(I Don't Know Lyrics.txt_8,39,cl11-nil-nil-man-[obj-theme-man-sn5,obj-theme-Big-sn4,obj-theme-Ballin-sn3,subj-agent-i-sn2,subj-agent-i-sn1,and(i,you,sn1),def_prop(man,[any]),def_prop(Big,[istituzione,umano]),def_prop(Ballin,[istituzione,umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(I Don't Know Lyrics.txt_9,49,cl14-nil-nil-keep-[obj-theme_aff-3hunna-sn5,obj-goal-them-sn4,subj-experiencer-Yungbrezzy-sn3,and(3hunna,G-s,sn5),def_prop(3hunna,[nquant]),def_prop(them,[umano]),def_prop(Yungbrezzy,[istituzione,umano])])
+lf(I Don't Know Lyrics.txt_9,49,cl13-nil-nil-know-[ncmod-modal-she-sn2,subj-actor-you-sn1,def_prop(she,[umano]),def_prop(you,[umano])])
+lf(I Don't Know Lyrics.txt_10,60,cl15-nil-nil-be-[ncmod-locativo-Bitch-s-sn4,ncmod-modal-my-sn3,xcomp-theme-Roll-sn2,subj-theme_bound-i-sn1,def_prop(Bitch-s,[istituzione]),def_prop(my,[informa,tecno]),def_prop(Roll,[place,umano]),def_prop(i,[umano])])
+lf(I Don't Know Lyrics.txt_11,71,cl16-nil-nil-be-[subj-theme_bound-you-sn1,and(you,i,sn1),def_prop(you,[umano])])
+lf(I Don't Know Lyrics.txt_12,83,cl17-nil-nil-spend-[obj-theme-couple-sn2,subj-agent-you-sn1,def_prop(couple,[nquant,oggetto]),def_prop(you,[umano])])
+lf(I Don't Know Lyrics.txt_13,96,cl18-nil-nil-be-[subj-theme_bound-album-sn1,def_prop(album,[attivita,informa,oggetto,strumento])])
+lf(I Don't Know Lyrics.txt_14,110,cl19-nil-nil-say-[obj-theme_unaff-3-sn1,def_prop(3,[nquant])])
+lf(I Don't Know Lyrics.txt_15,125,cl20-nil-nil-be-[ncmod-modal-Lyrics-sn2,subj-theme_bound-you-sn1,def_prop(Lyrics,[informa,tecno]),def_prop(you,[umano])])
+lf(I Don't Know Lyrics.txt_16,141,cl21-nil-nil-say-[obj-theme_unaff-31-sn1,def_prop(31,[nquant])])
+lf(I Don't Know Lyrics.txt_17,158,cl22-nil-nil-update-[obj-theme-GBE-sn2,subj-agent-stay-sn1,def_prop(GBE,[istituzione]),def_prop(stay,[attivita,informa,oggetto,strumento])])

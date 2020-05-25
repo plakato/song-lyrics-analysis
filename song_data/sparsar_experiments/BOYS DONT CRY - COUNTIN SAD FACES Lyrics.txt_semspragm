@@ -1,0 +1,67 @@
+"POLARITY, DISCOURSE MARKERS"
+
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_1-1  []-negative  [neg,neg]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_2-3  []-negative  [neg,neg]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_3-7  []-negative  [neg]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_3-8  []-positive  []
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_4-12  []-negative  [neg,fhd]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_5-17  []-negative  [neg]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_5-18  []-positive  []
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_6-24  []-negative  [neg,fhd]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_7-31  []-negative  [neg]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_8-39  []-positive  []
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_9-48  []-negative  [neg]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_10-58  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_1-1  [boys,DONT,FACES,SAD,Lyrics,COUNTIN,cry,by,Black,Kray]  [title]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_2-3  [fuck,BITCHES,MONEY,COUNTIN,get,SAD,faces]  [reject_expl_just(get,[external,factive,explanation,background,objective]),propose_opin_neg(get,[external,factive,explanation,background,objective]),reject_expl_just(bitch,[external,factive,explanation,background,objective]),propose_opin_neg(bitch,[external,factive,explanation,background,objective])]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_3-7  [fuck,SHIT,COUNT,up,MONEY,BANKROLL,in]  [reject_expl_just(bankroll,[external,factive,explanation,background,objective]),propose_opin_neg(bankroll,[external,factive,explanation,background,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_3-8  [pocket]  [provide_expl_just(bankroll,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_4-12  [smokin,on,MID,BLUNT,got,me,HIGH,like,a,rocket]  [reject_expl_just(get,[external,factive,narration,foreground,objective])]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_5-17  [fuck,SHIT,COUNT,up,MONEY,BANKROLL,in]  [reject_expl_just(bankroll,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_5-18  [pocket]  [provide_expl_just(bankroll,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_6-24  [smokin,on,MID,BLUNT,got,me,HIGH,like,a,rocket]  [reject_expl_just(get,[external,factive,narration,foreground,objective])]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_7-31  [goth,TEARZ,DRIPIN,MAH,FACE,BOYS,down,DONT,cry]  [reject_expl_just(down,[external,factive,narration,background,objective])]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_8-39  [ridin,SCRAPPER,COUNT,PAPER,in,WID,faces]  [provide_expl_just(face,[external,factive,narration,background,objective])]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_9-48  [goth,TEARZ,DRIPIN,MAH,FACE,BOYS,down,DONT,cry]  [reject_expl_just(down,[external,factive,narration,background,objective])]
+BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_10-58  [ridin,SCRAPPER,COUNT,PAPER,in,SAD,faces]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_1-1)-[emotions-expressive_beh]
+2-(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_2-3)-[primary-sex,primary-narcissism]
+3-(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_3-7)-[primary-sex]
+4-(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_3-8)-[]
+5-(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_4-12)-[primary-fire,emotions-affection,primary-hard]
+6-(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_5-17)-[primary-sex]
+half
+7-(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_5-18)-[]
+8-(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_6-24)-[primary-fire,emotions-affection,primary-hard]
+9-(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_7-31)-[emotions-expressive_beh]
+10-(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_8-39)-[primary-narcissism]
+11-(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_9-48)-[emotions-expressive_beh]
+12-(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_10-58)-[primary-narcissism]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Kray-sn2,subj-theme_bound-cry-sn1,and(Kray,Black,sn2),and(cry,DONT,sn1),def_prop(Kray,[umano]),def_prop(cry,[attivita,evento,informa])])
+lf(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_2,3,cl2-nil-nil-get-[])
+lf(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_2,3,nil-nil-nil-bitch-[obj-paziente-face-sn2,xcomp-purpose-get-2,subj-actor-fuck-sn1,and(face,COUNTIN,sn2),and(face,SAD,sn2),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(fuck,[attivita])])
+lf(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_3,7,cl3-nil-nil-be-[subj-theme_bound-you-sn8,def_prop(you,[umano])])
+lf(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_3,7,nil-nil-nil-bankroll-[adj-(mod)-up-nil,subj-agent-money-sn2,subj-agent-money-sn1,and(money,count,sn2),and(money,fuck,sn1),and(money,shit,sn1),def_prop(money,[astratto,oggetto]),def_prop(money,[astratto,oggetto])])
+lf(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_4,12,cl4-nil-nil-get-[xcomp-prop-HIGH-sn4,obj-prop-me-sn3,ncmod-locativo-BLUNT-sn2,subj-agent-smokin-sn1,and(BLUNT,MID,sn2),def_prop(HIGH,[istituzione]),def_prop(me,[umano]),def_prop(BLUNT,[istituzione]),def_prop(smokin,[istituzione])])
+lf(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_5,17,cl5-nil-nil-be-[subj-theme_bound-you-sn8,def_prop(you,[umano])])
+lf(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_5,17,nil-nil-nil-bankroll-[adj-(mod)-up-nil,subj-agent-money-sn2,subj-agent-money-sn1,and(money,count,sn2),and(money,fuck,sn1),and(money,shit,sn1),def_prop(money,[astratto,oggetto]),def_prop(money,[astratto,oggetto])])
+lf(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_6,24,cl6-nil-nil-get-[xcomp-prop-HIGH-sn4,obj-prop-me-sn3,ncmod-locativo-BLUNT-sn2,subj-agent-smokin-sn1,and(BLUNT,MID,sn2),def_prop(HIGH,[istituzione]),def_prop(me,[umano]),def_prop(BLUNT,[istituzione]),def_prop(smokin,[istituzione])])
+lf(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_7,31,nil-nil-nil-down-[obj-theme-cry-sn2,subj-agent-DRIPIN-sn1,and(cry,DONT,sn2),and(DRIPIN,goth,sn1),and(DRIPIN,TEARZ,sn1),def_prop(cry,[attivita,evento,informa]),def_prop(DRIPIN,[istituzione,umano])])
+lf(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_8,39,cl7-nil-nil-face-[obj-actor-WID-sn2,subj-experiencer-ridin-sn1,and(WID,PAPER,sn2),and(WID,SCRAPPER,sn2),def_prop(WID,[istituzione,umano]),def_prop(ridin,[istituzione])])
+lf(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_9,48,nil-nil-nil-down-[obj-theme-cry-sn2,subj-agent-DRIPIN-sn1,and(cry,DONT,sn2),and(DRIPIN,goth,sn1),and(DRIPIN,TEARZ,sn1),def_prop(cry,[attivita,evento,informa]),def_prop(DRIPIN,[istituzione,umano])])
+lf(BOYS DONT CRY - COUNTIN SAD FACES Lyrics.txt_10,58,cl8-nil-nil-be-[xcomp-theme-face-sn2,subj-theme_bound-ridin-sn1,and(face,paper,sn2),and(face,SAD,sn2),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(ridin,[istituzione])])

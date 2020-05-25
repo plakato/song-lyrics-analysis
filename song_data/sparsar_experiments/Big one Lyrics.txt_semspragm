@@ -1,0 +1,69 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Big one Lyrics.txt_1-1  []-positive  []
+Big one Lyrics.txt_2-3  []-positive  []
+Big one Lyrics.txt_3-6  [so-result]-suspension  [fgb]
+Big one Lyrics.txt_4-10  [else-advers]-negative  [fhd,neg]
+Big one Lyrics.txt_5-16  []-positive  []
+Big one Lyrics.txt_6-22  []-negative  [neg]
+Big one Lyrics.txt_7-30  []-positive  []
+Big one Lyrics.txt_8-38  []-positive  []
+Big one Lyrics.txt_9-47  []-positive  []
+Big one Lyrics.txt_10-57  [so-result]-suspension  [fgb]
+Big one Lyrics.txt_11-68  [else-advers]-negative  [fhd,neg]
+Big one Lyrics.txt_12-81  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Big one Lyrics.txt_1-1  [big,one,Lyrics,by,Angel,dust]  [title]
+Big one Lyrics.txt_2-3  [this,one,is,a,big,one]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Big one Lyrics.txt_3-6  [so,i,will,love,you]  [provide_expl_just(love,[external,nonfactive,narration,background,objective])]
+Big one Lyrics.txt_4-10  [like,no_one,else,could,ever,love,you]  [reject_expl_just(like,[external,factive,narration,background,objective]),reject_expl_just(love,[external,nonfactive,narration,background,objective])]
+Big one Lyrics.txt_5-16  [let,me,be,your,big,one,too]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Big one Lyrics.txt_6-22  [don-t,want,to,be,the,lonely,one]  [reject_expl_just(want,[external,factive,narration,foreground,objective])]
+Big one Lyrics.txt_7-30  [let,me,be,your,only_one]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Big one Lyrics.txt_8-38  [let,me,be,your,big]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Big one Lyrics.txt_9-47  [this,one,is,a,big,one]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Big one Lyrics.txt_10-57  [so,i,will,love,you]  [provide_expl_just(love,[external,nonfactive,narration,background,objective])]
+Big one Lyrics.txt_11-68  [like,no_one,else,could,ever,love,you]  [reject_expl_just(like,[external,factive,narration,background,objective]),reject_expl_just(love,[external,nonfactive,narration,background,objective])]
+Big one Lyrics.txt_12-81  [let,me,be,your,big,one,too]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Big one Lyrics.txt_1-1)-[]
+2-(Big one Lyrics.txt_2-3)-[]
+3-(Big one Lyrics.txt_3-6)-[emotions-affection]
+4-(Big one Lyrics.txt_4-10)-[emotions-affection,secondary-temporal_repere,emotions-affection]
+5-(Big one Lyrics.txt_5-16)-[]
+6-(Big one Lyrics.txt_6-22)-[emotions-sadness]
+half
+7-(Big one Lyrics.txt_7-30)-[]
+8-(Big one Lyrics.txt_8-38)-[]
+9-(Big one Lyrics.txt_9-47)-[]
+10-(Big one Lyrics.txt_10-57)-[emotions-affection]
+11-(Big one Lyrics.txt_11-68)-[emotions-affection,secondary-temporal_repere,emotions-affection]
+12-(Big one Lyrics.txt_12-81)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Big one Lyrics.txt_1,1,cl1-nil-nil-dust-[arg_mod-agent-Angel-sn2,subj-agent-Lyrics-sn1,and(Lyrics,one,sn1),and(Lyrics,big,sn1),def_prop(Angel,[place,oggetto]),def_prop(Lyrics,[informa,tecno])])
+lf(Big one Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-one-sn2,subj-theme_bound-one-sn1,and(one,big,sn2),def_prop(one,[umano]),def_prop(one,[umano])])
+lf(Big one Lyrics.txt_3,6,cl3-nil-will-love-[subj-experiencer-you-sn2,subj-experiencer-you-sn1,and(you,i,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Big one Lyrics.txt_4,10,cl4-nil-could-love-[adj-(mod)-ever-nil])
+lf(Big one Lyrics.txt_4,10,nil-nil-nil-like-[adj-subj_disc-else-sn4,obj-tema_emot-you-sn3,subj-experiencer-no_one-sn2,subj-experiencer-no_one-sn1,and(no_one,you,sn1),def_prop(else,[istituzione]),def_prop(you,[umano]),def_prop(no_one,[umano]),def_prop(no_one,[umano])])
+lf(Big one Lyrics.txt_5,16,cl5-nil-nil-be-[xcomp-prop-one-sn2,subj-theme_bound-me-sn1,and(one,big,sn2),def_prop(one,[umano]),def_prop(me,[umano])])
+lf(Big one Lyrics.txt_6,22,cl7-nil-nil-be-[xcomp-prop-one-sn2,xcomp-purpose-be-2,and(one,lonely,sn2),def_prop(one,[umano])])
+lf(Big one Lyrics.txt_6,22,cl6-not-nil-want-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Big one Lyrics.txt_7,30,cl8-nil-nil-be-[xcomp-prop-only_one-sn2,subj-theme_bound-me-sn1,def_prop(only_one,[astratto,nquant]),def_prop(me,[umano])])
+lf(Big one Lyrics.txt_8,38,cl9-nil-nil-be-[xcomp-prop-your-sn2,subj-theme_bound-me-sn1,def_prop(your,[evaluative]),def_prop(me,[umano])])
+lf(Big one Lyrics.txt_9,47,cl10-nil-nil-be-[xcomp-prop-one-sn2,subj-theme_bound-one-sn1,and(one,big,sn2),def_prop(one,[umano]),def_prop(one,[umano])])
+lf(Big one Lyrics.txt_10,57,cl11-nil-will-love-[subj-experiencer-you-sn2,subj-experiencer-you-sn1,and(you,i,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Big one Lyrics.txt_11,68,cl12-nil-could-love-[adj-(mod)-ever-nil])
+lf(Big one Lyrics.txt_11,68,nil-nil-nil-like-[adj-subj_disc-else-sn4,obj-tema_emot-you-sn3,subj-experiencer-no_one-sn2,subj-experiencer-no_one-sn1,and(no_one,you,sn1),def_prop(else,[istituzione]),def_prop(you,[umano]),def_prop(no_one,[umano]),def_prop(no_one,[umano])])
+lf(Big one Lyrics.txt_12,81,cl13-nil-nil-be-[xcomp-prop-one-sn2,subj-theme_bound-me-sn1,and(one,big,sn2),def_prop(one,[umano]),def_prop(me,[umano])])

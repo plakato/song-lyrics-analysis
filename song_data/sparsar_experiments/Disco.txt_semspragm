@@ -1,0 +1,143 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Disco.txt_1-1  []-positive  []
+Disco.txt_2-3  []-question  []
+Disco.txt_3-7  []-positive  []
+Disco.txt_4-11  [when-temp_coinc]-question  []
+Disco.txt_5-12  []-positive  []
+Disco.txt_5-13  []-positive  []
+Disco.txt_6-19  []-positive  [bkc]
+Disco.txt_7-26  []-positive  []
+Disco.txt_7-27  []-suspension  [neg]
+Disco.txt_7-28  []-positive  []
+Disco.txt_8-36  [so-result]-positive  [fgb]
+Disco.txt_8-36  [so-result]-negative  [fgb,neg]
+Disco.txt_9-45  []-negative  [neg]
+Disco.txt_10-55  []-negative  [neg,neg]
+Disco.txt_11-66  []-negative  [neg]
+Disco.txt_12-78  []-positive  []
+Disco.txt_13-91  [before-temp_prec]-positive  []
+Disco.txt_14-105  []-negative  [neg]
+Disco.txt_15-120  [but-advers]-negative  [fgb,neg]
+Disco.txt_16-136  [if-hypoth,so-result]-positive  [fgb,fgb]
+Disco.txt_16-136  [if-hypoth,so-result]-positive  [fgb,fgb]
+Disco.txt_17-153  []-positive  []
+Disco.txt_18-171  []-negative  [neg]
+Disco.txt_19-190  []-negative  [fgb,neg]
+Disco.txt_20-210  []-positive  []
+Disco.txt_21-231  []-positive  []
+Disco.txt_22-255  [when-temp_coinc]-question  []
+Disco.txt_23-278  []-positive  []
+Disco.txt_23-279  []-suspension  [neg]
+Disco.txt_24-303  []-positive  []
+Disco.txt_24-304  []-suspension  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Disco.txt_1-1  [disco,by,Xander,the,Great]  [title]
+Disco.txt_2-3  [think,really,do,?]  [provide_expl_just(do,[internal,factive,narration,background,objective]),provide_expl_just(think,[internal,factive,narration,foreground,objective])]
+Disco.txt_3-7  [that,life,is,only,working]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Disco.txt_4-11  [involved,are,you,when,?]  [proposal(be,[_717206,_717212,statement,foreground,_717230])]
+Disco.txt_5-12  [i,put]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(legs,[external,factive,narration,background,objective])]
+Disco.txt_5-13  [my,legs,up,with,out,you]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(legs,[external,factive,narration,background,objective])]
+Disco.txt_6-19  [yes,blood,is,flowing]  [accept_expl_opin(be,[_718822,_718828,setting,_718840,_718846])]
+Disco.txt_7-26  [u,know,thats,true]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(rip,[external,nonfactive,narration,background,objective]),provide_expl_just(chew,[external,factive,narration,background,objective])]
+Disco.txt_7-27  [i,will,rip]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(rip,[external,nonfactive,narration,background,objective]),provide_expl_just(chew,[external,factive,narration,background,objective])]
+Disco.txt_7-28  [n,chew,u,up]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(rip,[external,nonfactive,narration,background,objective]),provide_expl_just(chew,[external,factive,narration,background,objective])]
+Disco.txt_8-36  [so,tell,me,sumthn]  [provide_expl_just(tell,[external,factive,narration,background,objective])]
+Disco.txt_8-36  [so,tell,me,sumthn,i,dnt,no]  [reject_expl_just(tell,[external,factive,narration,background,objective])]
+Disco.txt_9-45  [il,tell,u,10,things,u,dnt,no]  [reject_expl_just(tell,[external,factive,narration,background,objective])]
+Disco.txt_10-55  [fuck,ur,study,group]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Disco.txt_11-66  [fuck,ur,clubbing,crew]  [reject_expl_just(club,[external,factive,cause,foreground,objective])]
+Disco.txt_12-78  [na]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Disco.txt_13-91  [been,there,before]  [raise_issue(be,[_735764,factive,statement,_735782,subjective])]
+Disco.txt_14-105  [ur,in,the,wrong]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Disco.txt_15-120  [but,i,did,ignore]  [reject_expl_just(ignore,[external,factive,narration,background,objective])]
+Disco.txt_16-136  [so,tell,me,if,i]  [proposal(be,[_736692,_736698,statement,foreground,_736716])]
+Disco.txt_16-136  [so,tell,me,if,i]  [proposal(be,[_737036,_737042,statement,foreground,_737060])]
+Disco.txt_17-153  [ever,belonged]  [provide_expl_just(belong,[external,factive,narration,foreground,objective])]
+Disco.txt_18-171  [to,this,little,rowdy,group,of,yours]  [reject_expl_just(group,[external,factive,narration,background,objective])]
+Disco.txt_19-190  [what,a,lonely,group,of,yours]  [reject_expl_just(group,[external,factive,narration,background,objective])]
+Disco.txt_20-210  [im,on,my_way,home,from,yours]  [provide_expl_just(home,[external,factive,narration,background,objective])]
+Disco.txt_21-231  [do,you,really,think,that,life,is,only,working]  [provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Disco.txt_22-255  [involved,r,u,when,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Disco.txt_23-278  [you,tell,me]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(stop,[external,nonfactive,narration,background,objective])]
+Disco.txt_23-279  [that,life,will,stop,with,out,you]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(stop,[external,nonfactive,narration,background,objective])]
+Disco.txt_24-303  [you,tell,me]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(stop,[external,nonfactive,narration,background,objective])]
+Disco.txt_24-304  [that,life,will,stop,with,out,you]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(stop,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Disco.txt_1-1)-[]
+2-(Disco.txt_2-3)-[secondary-abstract_tought,secondary-abstract_tought]
+3-(Disco.txt_3-7)-[]
+4-(Disco.txt_4-11)-[secondary-temporal_repere]
+5-(Disco.txt_5-12)-[]
+6-(Disco.txt_5-13)-[primary-narcissism,primary-concreteness]
+7-(Disco.txt_6-19)-[primary-narcissism]
+8-(Disco.txt_7-26)-[secondary-abstract_tought,secondary-abstract_tought]
+9-(Disco.txt_7-27)-[emotions-aggression]
+10-(Disco.txt_7-28)-[primary-orality]
+11-(Disco.txt_8-36)-[secondary-social_behavior]
+12-(Disco.txt_8-36)-[secondary-social_behavior]
+13-(Disco.txt_9-45)-[secondary-social_behavior]
+14-(Disco.txt_10-55)-[primary-sex,secondary-instru_behavior]
+15-(Disco.txt_11-66)-[primary-sex]
+half
+16-(Disco.txt_12-78)-[]
+17-(Disco.txt_13-91)-[]
+18-(Disco.txt_14-105)-[]
+19-(Disco.txt_15-120)-[]
+20-(Disco.txt_16-136)-[secondary-social_behavior]
+21-(Disco.txt_16-136)-[secondary-social_behavior]
+22-(Disco.txt_17-153)-[secondary-temporal_repere,secondary-instru_behavior]
+23-(Disco.txt_18-171)-[]
+24-(Disco.txt_19-190)-[emotions-sadness]
+25-(Disco.txt_20-210)-[]
+26-(Disco.txt_21-231)-[secondary-abstract_tought,secondary-abstract_tought]
+27-(Disco.txt_22-255)-[secondary-temporal_repere]
+28-(Disco.txt_23-278)-[secondary-social_behavior]
+29-(Disco.txt_23-279)-[secondary-restraint,primary-concreteness]
+30-(Disco.txt_24-303)-[secondary-social_behavior]
+31-(Disco.txt_24-304)-[secondary-restraint,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Disco.txt_1,1,cl1-nil-nil-be-[xadj-theme-Great-sn3,arg_mod-agent-Xander-sn2,subj-theme_bound-disco-sn1,def_prop(Great,[istituzione,umano]),def_prop(Xander,[istituzione,umano]),def_prop(disco,[oggetto,strumento])])
+lf(Disco.txt_2,3,cl3-nil-nil-think-[])
+lf(Disco.txt_2,3,cl2-nil-nil-do-[aux-do-nil])
+lf(Disco.txt_3,7,cl4-nil-nil-be-[xcomp-prop-working-sn2,subj-theme_bound-life-sn1,and(life,that,sn1),def_prop(working,[oggetto,strumento]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Disco.txt_4,11,cl5-nil-nil-involve-[obj-theme-when-sn2,subj-paziente-you-sn1,aux-are-nil,def_prop(when,[tempo]),def_prop(you,[umano])])
+lf(Disco.txt_5,12,nil-nil-nil-legs-[adj-(mod)-up-nil,ncmod-comitativo-you-sn3,subj-agent-my-sn2,def_prop(you,[umano]),def_prop(my,[informa,tecno])])
+lf(Disco.txt_5,12,cl6-nil-nil-put-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Disco.txt_6,19,cl7-nil-nil-flow-[subj-actor-blood-sn2,subj-actor-blood-sn1,aux-(is)-nil,progr-flowing-nil,and(blood,yes,sn1),def_prop(blood,[astratto,body_part,istituzione,umano]),def_prop(blood,[astratto,body_part,istituzione,umano])])
+lf(Disco.txt_7,26,cl10-nil-nil-chew-[adj-(mod)-up-nil,obj-theme-u-sn6,subj-agent-n-sn5,def_prop(u,[attivita,informa]),def_prop(n,[attivita,informa,luogo])])
+lf(Disco.txt_7,26,cl9-nil-will-rip-[subj-agent-you-sn4,def_prop(you,[umano])])
+lf(Disco.txt_7,26,cl8-nil-nil-know-[obj-theme_unaff-true-sn2,subj-actor-u-sn1,and(true,thats,sn2),def_prop(true,[emotivo]),def_prop(u,[attivita,informa])])
+lf(Disco.txt_8,36,cl11-nil-nil-tell-[cmod-subord-tell-so,obj-theme_aff-dnt-sn8,obj-theme-i-sn7,obj2-paziente-sumthn-sn6,obj-theme_unaff-me-sn5,subj-agent-you-sn4,obj2-paziente-sumthn-sn3,obj-theme_unaff-me-sn2,subj-agent-you-sn1,and(dnt,dnt,sn8),def_prop(dnt,[istituzione]),def_prop(i,[umano]),def_prop(sumthn,[istituzione]),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(sumthn,[istituzione]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Disco.txt_9,45,cl12-nil-nil-tell-[obj2-paziente-dnt-sn3,obj-theme_unaff-thing-sn2,subj-agent-il-sn1,and(dnt,u,sn3),and(dnt,dnt,sn3),and(thing,u,sn2),and(thing,10,sn2),def_prop(dnt,[istituzione]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(il,[informa,tecno])])
+lf(Disco.txt_10,55,cl13-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Disco.txt_11,66,cl14-nil-nil-club-[obj-patient-crow-sn2,subj-agent-ur-sn1,and(ur,fuck,sn1),def_prop(crow,[animato,astratto,evento,oggetto,strumento]),def_prop(ur,[istituzione,umano])])
+lf(Disco.txt_12,78,cl15-nil-nil-say-[obj-theme_unaff-na-sn1,def_prop(na,[informa,tecno])])
+lf(Disco.txt_13,91,cl16-nil-nil-be-[adj-subj_disc-before-sn2,subj-theme_bound-there-sn1,def_prop(before,[istituzione]),def_prop(there,[any])])
+lf(Disco.txt_14,105,cl17-nil-nil-be-[ncmod-modal-wrong-sn2,subj-theme_bound-ur-sn1,def_prop(wrong,[soggettivo]),def_prop(ur,[istituzione,umano])])
+lf(Disco.txt_15,120,cl18-nil-nil-ignore-[subj-agent-you-sn1,aux-did-nil,def_prop(you,[umano])])
+lf(Disco.txt_16,136,cl19-nil-nil-tell-[cmod-subord-tell-so,obj-theme_unaff-me-sn5,subj-agent-you-sn4,obj-theme_unaff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Disco.txt_17,153,cl20-nil-nil-belong-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Disco.txt_18,171,cl21-nil-nil-group-[ncmod-specif-yours-sn3,ncmod-loc_direct-little-sn2,subj-agent-rowdy-sn1,and(little,this,sn2),def_prop(yours,[istituzione]),def_prop(little,[astratto,informa,oggetto]),def_prop(rowdy,[relat,sociale,umano])])
+lf(Disco.txt_19,190,cl22-nil-nil-group-[ncmod-specif-yours-sn3,obj-theme_aff-what-sn2,subj-agent-lonely-sn1,def_prop(yours,[istituzione]),def_prop(what,[oggetto]),def_prop(lonely,[istituzione])])
+lf(Disco.txt_20,210,nil-nil-nil-home-[ncmod-loc_origin-yours-sn3,ncmod-locativo-my_way-sn2,subj-actor-im-sn1,def_prop(yours,[istituzione]),def_prop(my_way,[astratto,attivita,informa,oggetto,stato,strumento,tecno]),def_prop(im,[legale])])
+lf(Disco.txt_21,231,cl25-nil-nil-be-[])
+lf(Disco.txt_21,231,cl24-nil-nil-think-[])
+lf(Disco.txt_21,231,cl23-nil-nil-do-[xcomp-prop-working-sn4,xcomp-actor-life-sn3,adj-subj_disc-really-sn2,subj-theme_unaff-you-sn1,aux-do-nil,and(life,that,sn3),def_prop(working,[oggetto,strumento]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(really,[istituzione]),def_prop(you,[umano])])
+lf(Disco.txt_22,255,cl26-nil-nil-be-[xcomp-theme-involved-sn3,xcomp-theme-when-sn2,subj-theme_bound-r-sn1,and(r,u,sn1),def_prop(involved,[stato]),def_prop(when,[tempo]),def_prop(r,[astratto])])
+lf(Disco.txt_23,278,cl28-nil-will-stop-[ncmod-comitativo-you-sn4,subj-agent-life-sn3,def_prop(you,[umano]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Disco.txt_23,278,cl27-nil-nil-tell-[obj-theme_unaff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Disco.txt_24,303,cl30-nil-will-stop-[ncmod-comitativo-you-sn4,subj-agent-life-sn3,def_prop(you,[umano]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Disco.txt_24,303,cl29-nil-nil-tell-[obj-theme_unaff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])

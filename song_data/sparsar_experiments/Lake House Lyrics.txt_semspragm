@@ -1,0 +1,82 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Lake House Lyrics.txt_1-1  []-positive  []
+Lake House Lyrics.txt_2-3  []-positive  [bkc]
+Lake House Lyrics.txt_3-6  []-negative  [fgb,neg]
+Lake House Lyrics.txt_4-10  []-positive  []
+Lake House Lyrics.txt_5-15  []-positive  []
+Lake House Lyrics.txt_6-21  []-positive  [ack]
+Lake House Lyrics.txt_7-28  []-positive  []
+Lake House Lyrics.txt_8-36  [before-temp_prec]-suspension  [fgb,neg]
+Lake House Lyrics.txt_8-37  []-suspension  []
+Lake House Lyrics.txt_9-46  []-positive  [bkc]
+Lake House Lyrics.txt_10-56  []-negative  [fgb,neg]
+Lake House Lyrics.txt_11-67  []-positive  []
+Lake House Lyrics.txt_12-79  []-positive  []
+Lake House Lyrics.txt_13-92  []-positive  []
+Lake House Lyrics.txt_14-106  [before-temp_prec]-suspension  [fgb,neg]
+Lake House Lyrics.txt_14-107  []-suspension  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Lake House Lyrics.txt_1-1  [lake,House,Lyrics,by,Vivian,Girls]  [title]
+Lake House Lyrics.txt_2-3  [oh,my,lord]  [provide_expl_just(lord,[external,factive,narration,background,objective])]
+Lake House Lyrics.txt_3-6  [what,a,shallow,home]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Lake House Lyrics.txt_4-10  [i,am,wide,awake,out,on,the,lake]  [provide_expl_just(awake-cl4,[external,factive,narration,background,objective])]
+Lake House Lyrics.txt_5-15  [at,3,am,i,sleep,again]  [provide_expl_just(sleep,[external,factive,narration,background,objective])]
+Lake House Lyrics.txt_6-21  [watch,the,tides,rise,right,between,my,eyes]  [provide_expl_just(watch,[external,factive,narration,background,objective])]
+Lake House Lyrics.txt_7-28  [it,is,in,my,head]  [provide_expl_just(head-head,[internal,factive,narration,foreground,objective])]
+Lake House Lyrics.txt_8-36  [well,i,will,be,dead,before]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Lake House Lyrics.txt_8-37  [the,sun,will,rise,again]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Lake House Lyrics.txt_9-46  [oh,my,lord]  [provide_expl_just(lord,[external,factive,narration,background,objective])]
+Lake House Lyrics.txt_10-56  [what,a,shallow,home]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Lake House Lyrics.txt_11-67  [i,am,wide,awake,out,on,the,lake]  [provide_expl_just(awake-cl12,[external,factive,narration,background,objective])]
+Lake House Lyrics.txt_12-79  [at,3,am,i,sleep,again]  [provide_expl_just(sleep,[external,factive,narration,background,objective])]
+Lake House Lyrics.txt_13-92  [it,is,in,my,head]  [provide_expl_just(head-head,[internal,factive,narration,foreground,objective])]
+Lake House Lyrics.txt_14-106  [well,i,will,be,dead,before]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Lake House Lyrics.txt_14-107  [the,sun,will,rise,again]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Lake House Lyrics.txt_1-1)-[primary-water]
+2-(Lake House Lyrics.txt_2-3)-[]
+3-(Lake House Lyrics.txt_3-6)-[]
+4-(Lake House Lyrics.txt_4-10)-[primary-concreteness,primary-counscious,primary-concreteness,primary-water]
+5-(Lake House Lyrics.txt_5-15)-[primary-concreteness,primary-counscious,secondary-temporal_repere]
+6-(Lake House Lyrics.txt_6-21)-[primary-vision,primary-water,primary-ascend,secondary-moral_imperative,primary-concreteness,primary-narcissism]
+7-(Lake House Lyrics.txt_7-28)-[primary-narcissism]
+8-(Lake House Lyrics.txt_8-36)-[primary-passivity]
+half
+9-(Lake House Lyrics.txt_8-37)-[primary-fire,primary-ascend,secondary-temporal_repere]
+10-(Lake House Lyrics.txt_9-46)-[]
+11-(Lake House Lyrics.txt_10-56)-[]
+12-(Lake House Lyrics.txt_11-67)-[primary-concreteness,primary-counscious,primary-concreteness,primary-water]
+13-(Lake House Lyrics.txt_12-79)-[primary-concreteness,primary-counscious,secondary-temporal_repere]
+14-(Lake House Lyrics.txt_13-92)-[primary-narcissism]
+15-(Lake House Lyrics.txt_14-106)-[primary-passivity]
+16-(Lake House Lyrics.txt_14-107)-[primary-fire,primary-ascend,secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Lake House Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Girls-sn2,subj-theme_bound-Lyrics-sn1,and(Girls,Vivian,sn2),and(Lyrics,House,sn1),and(Lyrics,lake,sn1),def_prop(Girls,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Lake House Lyrics.txt_2,3,cl2-nil-nil-lord-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Lake House Lyrics.txt_3,6,cl3-nil-nil-be-[subj-theme_bound-home-sn2,subj-theme_bound-home-sn1,and(home,shallow,sn2),and(home,shallow,sn1),def_prop(home,[luogo,oggetto,stato,strumento]),def_prop(home,[luogo,oggetto,stato,strumento])])
+lf(Lake House Lyrics.txt_4,10,cl4-nil-nil-awake-[adj-(mod)-out-nil,ncmod-locativo-lake-sn2,subj-goal-i-sn1,adj-(mod)-wide-nil,aux-am-nil,def_prop(lake,[oggetto,sostanza]),def_prop(i,[umano])])
+lf(Lake House Lyrics.txt_5,15,cl5-nil-nil-sleep-[adj-(mod)-again-nil,iobj-goal-be-sn2,subj-experiencer-i-sn1,and(be,3,sn2),def_prop(be,[informa,tecno]),def_prop(i,[umano])])
+lf(Lake House Lyrics.txt_6,21,cl6-nil-nil-watch-[ncmod-relation-eye-sn4,xcomp-prop-right-sn3,obj-tema_unaff-rise-sn2,subj-actor-you-sn1,and(rise,tide,sn2),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(right,[soggettivo]),def_prop(rise,[astratto,attivita,evento]),def_prop(you,[umano])])
+lf(Lake House Lyrics.txt_7,28,cl7-nil-nil-be-[ncmod-locativo-head-sn2,subj-theme_bound-it-sn1,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(it,[any])])
+lf(Lake House Lyrics.txt_8,36,cl9-nil-will-rise-[adj-locative-again-nil,subj-agent-sun-sn7,def_prop(sun,[oggetto,umano])])
+lf(Lake House Lyrics.txt_8,36,cl8-nil-will-be-[xcomp-prop-dead-sn2,subj-theme_bound-i-sn1,def_prop(dead,[valutativo]),def_prop(i,[umano])])
+lf(Lake House Lyrics.txt_9,46,cl10-nil-nil-lord-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Lake House Lyrics.txt_10,56,cl11-nil-nil-be-[subj-theme_bound-home-sn2,subj-theme_bound-home-sn1,and(home,shallow,sn2),and(home,shallow,sn1),def_prop(home,[luogo,oggetto,stato,strumento]),def_prop(home,[luogo,oggetto,stato,strumento])])
+lf(Lake House Lyrics.txt_11,67,cl12-nil-nil-awake-[adj-(mod)-out-nil,ncmod-locativo-lake-sn2,subj-goal-i-sn1,adj-(mod)-wide-nil,aux-am-nil,def_prop(lake,[oggetto,sostanza]),def_prop(i,[umano])])
+lf(Lake House Lyrics.txt_12,79,cl13-nil-nil-sleep-[adj-(mod)-again-nil,iobj-goal-be-sn2,subj-experiencer-i-sn1,and(be,3,sn2),def_prop(be,[informa,tecno]),def_prop(i,[umano])])
+lf(Lake House Lyrics.txt_13,92,cl14-nil-nil-be-[ncmod-locativo-head-sn2,subj-theme_bound-it-sn1,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(it,[any])])
+lf(Lake House Lyrics.txt_14,106,cl16-nil-will-rise-[adj-locative-again-nil,subj-agent-sun-sn7,def_prop(sun,[oggetto,umano])])
+lf(Lake House Lyrics.txt_14,106,cl15-nil-will-be-[xcomp-prop-dead-sn2,subj-theme_bound-i-sn1,def_prop(dead,[valutativo]),def_prop(i,[umano])])

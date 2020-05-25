@@ -1,0 +1,88 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Hourglass Lyrics.txt_1-1  []-positive  []
+Hourglass Lyrics.txt_2-3  []-positive  [neg]
+Hourglass Lyrics.txt_3-6  []-negative  []
+Hourglass Lyrics.txt_4-10  []-suspension  []
+Hourglass Lyrics.txt_4-11  []-positive  []
+Hourglass Lyrics.txt_5-16  []-negative  [neg]
+Hourglass Lyrics.txt_5-17  []-negative  [neg,fgb]
+Hourglass Lyrics.txt_6-23  []-negative  [neg]
+Hourglass Lyrics.txt_7-31  []-suspension  []
+Hourglass Lyrics.txt_7-32  []-positive  []
+Hourglass Lyrics.txt_8-40  []-suspension  []
+Hourglass Lyrics.txt_8-41  [then-temp_seq]-positive  []
+Hourglass Lyrics.txt_9-50  []-suspension  []
+Hourglass Lyrics.txt_9-51  [then-temp_seq]-positive  []
+Hourglass Lyrics.txt_10-61  []-positive  []
+Hourglass Lyrics.txt_11-72  []-positive  []
+Hourglass Lyrics.txt_12-84  []-suspension  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Hourglass Lyrics.txt_1-1  [hourglass,Lyrics,by,Viza]  [title]
+Hourglass Lyrics.txt_2-3  [last,night,i,dreamt,of,holy,lands,with,unholy,laws]  [provide_expl_just(dream,[external,factive,narration,foreground,objective])]
+Hourglass Lyrics.txt_3-6  [last,night,i,met,an,acrobat,without,any,arms]  [proposal(be,[_23534,_23540,statement,foreground,_23558])]
+Hourglass Lyrics.txt_4-10  [the,shortest,straw,will,win,her]  [provide_expl_just(win,[external,nonfactive,narration,background,objective]),provide_expl_just(hand,[external,factive,explanation,background,objective])]
+Hourglass Lyrics.txt_4-11  [hand,in,marriage]  [provide_expl_just(win,[external,nonfactive,narration,background,objective]),provide_expl_just(hand,[external,factive,explanation,background,objective])]
+Hourglass Lyrics.txt_5-16  [tonight,i,long]  [reject_expl_just(long,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Hourglass Lyrics.txt_5-17  [for,heavy,hearts,and,fairy,tales]  [reject_expl_just(long,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Hourglass Lyrics.txt_6-23  [tonight,i,turn,over,every,stone,that,you,wore,out]  [reject_expl_just(wear,[external,factive,narration,foreground,objective])]
+Hourglass Lyrics.txt_7-31  [the,shortest,straw,will,win,her]  [provide_expl_just(win,[external,nonfactive,narration,background,objective]),provide_expl_just(hand,[external,factive,narration,background,objective])]
+Hourglass Lyrics.txt_7-32  [hand,in,marriage]  [provide_expl_just(win,[external,nonfactive,narration,background,objective]),provide_expl_just(hand,[external,factive,narration,background,objective])]
+Hourglass Lyrics.txt_8-40  [i,will,find]  [provide_expl_just(find,[external,nonfactive,narration,background,objective]),provide_expl_just(hide,[external,factive,narration,background,objective])]
+Hourglass Lyrics.txt_8-41  [you,,,then,hide,you,in,my,hourglass]  [provide_expl_just(find,[external,nonfactive,narration,background,objective]),provide_expl_just(hide,[external,factive,narration,background,objective])]
+Hourglass Lyrics.txt_9-50  [i,will,find]  [provide_expl_just(find,[external,nonfactive,narration,background,objective]),provide_expl_just(hide,[external,factive,narration,background,objective])]
+Hourglass Lyrics.txt_9-51  [you,,,then,hide,you,in,my,hourglass]  [provide_expl_just(find,[external,nonfactive,narration,background,objective]),provide_expl_just(hide,[external,factive,narration,background,objective])]
+Hourglass Lyrics.txt_10-61  [fickled,seasons]  [provide_expl_just(season,[external,factive,narration,background,objective])]
+Hourglass Lyrics.txt_11-72  [seasoned,demons]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Hourglass Lyrics.txt_12-84  [rumi-s,reasons,got,me,thinking,now]  [provide_expl_just(think,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Hourglass Lyrics.txt_1-1)-[]
+2-(Hourglass Lyrics.txt_2-3)-[primary-counscious,secondary-moral_imperative]
+3-(Hourglass Lyrics.txt_3-6)-[secondary-social_behavior,primary-narcissism]
+4-(Hourglass Lyrics.txt_4-10)-[secondary-instru_behavior]
+5-(Hourglass Lyrics.txt_4-11)-[primary-narcissism,emotions-affection]
+6-(Hourglass Lyrics.txt_5-16)-[secondary-temporal_repere,primary-concreteness]
+7-(Hourglass Lyrics.txt_5-17)-[primary-narcissism,primary-gen_sensation]
+8-(Hourglass Lyrics.txt_6-23)-[secondary-temporal_repere,primary-concreteness,secondary-temporal_repere,primary-hard,primary-concreteness]
+half
+9-(Hourglass Lyrics.txt_7-31)-[secondary-instru_behavior]
+10-(Hourglass Lyrics.txt_7-32)-[primary-narcissism,emotions-affection]
+11-(Hourglass Lyrics.txt_8-40)-[secondary-instru_behavior]
+12-(Hourglass Lyrics.txt_8-41)-[secondary-temporal_repere]
+13-(Hourglass Lyrics.txt_9-50)-[secondary-instru_behavior]
+14-(Hourglass Lyrics.txt_9-51)-[secondary-temporal_repere]
+15-(Hourglass Lyrics.txt_10-61)-[secondary-temporal_repere]
+16-(Hourglass Lyrics.txt_11-72)-[secondary-temporal_repere]
+17-(Hourglass Lyrics.txt_12-84)-[secondary-abstract_tought,secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Hourglass Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Viza-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,hourglass,sn1),def_prop(Viza,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Hourglass Lyrics.txt_2,3,cl2-nil-nil-dream-[adj-temporal-night-nil,iobj-goal-land-sn2,subj-agent-i-sn1,and(night,last,sn4),def_prop(night,[tempo]),def_prop(land,[astratto,oggetto]),def_prop(i,[umano])])
+lf(Hourglass Lyrics.txt_3,6,cl3-nil-nil-meet-[adj-temporal-night-nil,ncmod-modal-arm-sn3,obj-actor-acrobat-sn2,subj-experiencer-i-sn1,and(night,last,sn5),and(arm,any,sn3),def_prop(night,[tempo]),def_prop(arm,[astratto,body_part,oggetto,strumento,umano]),def_prop(acrobat,[umano]),def_prop(i,[umano])])
+lf(Hourglass Lyrics.txt_4,10,cl5-nil-nil-hand-[ncmod-locativo-marriage-sn3,subj-agent-you-sn2,def_prop(marriage,[attivita,istituzione,stato]),def_prop(you,[umano])])
+lf(Hourglass Lyrics.txt_4,10,cl4-nil-will-win-[subj-actor-straw-sn1,and(straw,shortest,sn1),def_prop(straw,[oggetto,sostanza,strumento])])
+lf(Hourglass Lyrics.txt_5,16,cl6-nil-nil-be-[subj-theme_bound-tale-sn5,subj-theme_bound-tale-sn4,and(tale,fairy,sn5),and(tale,fairy,sn4),def_prop(tale,[attivita,evento,informa]),def_prop(tale,[attivita,evento,informa])])
+lf(Hourglass Lyrics.txt_5,16,nil-nil-nil-long-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Hourglass Lyrics.txt_6,23,cl8-nil-nil-wear-[])
+lf(Hourglass Lyrics.txt_6,23,cl7-nil-nil-turn-[adj-locative-over-nil,adj-locative-tonight-nil,obj-theme-stone-sn2,subj-agent-i-sn1,def_prop(stone,[astratto,nquant,oggetto,plant,strumento]),def_prop(i,[umano])])
+lf(Hourglass Lyrics.txt_7,31,cl10-nil-nil-hand-[ncmod-locativo-marriage-sn3,subj-agent-you-sn2,def_prop(marriage,[attivita,istituzione,stato]),def_prop(you,[umano])])
+lf(Hourglass Lyrics.txt_7,31,cl9-nil-will-win-[subj-actor-straw-sn1,and(straw,shortest,sn1),def_prop(straw,[oggetto,sostanza,strumento])])
+lf(Hourglass Lyrics.txt_8,40,cl12-nil-nil-hide-[cmod-subord-be-then,ncmod-locativo-hourglass-sn5,subj-agent-you-sn4,subj-agent-you-sn3,and(you,you,sn3),def_prop(hourglass,[oggetto,strumento]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Hourglass Lyrics.txt_8,40,cl11-nil-will-find-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Hourglass Lyrics.txt_9,50,cl14-nil-nil-hide-[cmod-subord-be-then,ncmod-locativo-hourglass-sn5,subj-agent-you-sn4,subj-agent-you-sn3,and(you,you,sn3),def_prop(hourglass,[oggetto,strumento]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Hourglass Lyrics.txt_9,50,cl13-nil-will-find-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Hourglass Lyrics.txt_10,61,cl15-nil-nil-season-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Hourglass Lyrics.txt_11,72,cl16-nil-nil-say-[obj-theme_unaff-demon-sn1,and(demon,seasoned,sn1),def_prop(demon,[umano])])
+lf(Hourglass Lyrics.txt_12,84,cl18-nil-nil-think-[subj-prop-me-sn2,def_prop(me,[umano])])
+lf(Hourglass Lyrics.txt_12,84,cl17-nil-nil-get-[adj-(mod)-now-nil,obj-theme_unaff-me-sn2,subj-agent-reason-sn1,and(reason,rumi-s,sn1),def_prop(me,[umano]),def_prop(reason,[astratto,attivita,informa])])

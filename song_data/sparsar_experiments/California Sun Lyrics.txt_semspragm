@@ -1,0 +1,297 @@
+"POLARITY, DISCOURSE MARKERS"
+
+California Sun Lyrics.txt_1-1  []-positive  []
+California Sun Lyrics.txt_2-3  []-positive  []
+California Sun Lyrics.txt_3-6  []-question  []
+California Sun Lyrics.txt_4-11  []-positive  [neg]
+California Sun Lyrics.txt_5-16  []-positive  []
+California Sun Lyrics.txt_6-22  []-positive  [fgb]
+California Sun Lyrics.txt_7-29  []-negative  [neg]
+California Sun Lyrics.txt_7-30  []-positive  []
+California Sun Lyrics.txt_8-38  []-positive  []
+California Sun Lyrics.txt_9-47  []-positive  []
+California Sun Lyrics.txt_9-48  []-positive  []
+California Sun Lyrics.txt_10-58  [but-advers,if-hypoth]-positive  [fgb,fgb]
+California Sun Lyrics.txt_11-69  []-positive  [fgb]
+California Sun Lyrics.txt_12-81  []-positive  [neg]
+California Sun Lyrics.txt_13-95  []-suspension  []
+California Sun Lyrics.txt_13-96  [though-advers]-positive  []
+California Sun Lyrics.txt_14-110  []-positive  []
+California Sun Lyrics.txt_15-125  [(as)-temp_coinc]-positive  []
+California Sun Lyrics.txt_16-141  []-positive  []
+California Sun Lyrics.txt_17-158  []-positive  []
+California Sun Lyrics.txt_18-176  []-positive  []
+California Sun Lyrics.txt_18-177  []-negative  []
+California Sun Lyrics.txt_19-196  []-negative  [neg]
+California Sun Lyrics.txt_19-197  []-negative  [neg]
+California Sun Lyrics.txt_20-217  []-negative  [neg]
+California Sun Lyrics.txt_20-218  []-suspension  [neg,neg,neg]
+California Sun Lyrics.txt_21-239  []-suspension  [neg]
+California Sun Lyrics.txt_22-261  []-positive  []
+California Sun Lyrics.txt_23-284  []-positive  []
+California Sun Lyrics.txt_24-308  []-positive  []
+California Sun Lyrics.txt_25-333  []-negative  [neg]
+California Sun Lyrics.txt_25-334  []-positive  []
+California Sun Lyrics.txt_26-361  []-positive  []
+California Sun Lyrics.txt_26-362  []-positive  []
+California Sun Lyrics.txt_26-363  [then-temp_seq]-positive  []
+California Sun Lyrics.txt_27-390  []-suspension  []
+California Sun Lyrics.txt_27-391  []-negative  [neg]
+California Sun Lyrics.txt_28-419  []-suspension  [neg,neg]
+California Sun Lyrics.txt_29-448  []-positive  []
+California Sun Lyrics.txt_29-449  []-positive  []
+California Sun Lyrics.txt_30-479  []-positive  []
+California Sun Lyrics.txt_30-480  []-positive  []
+California Sun Lyrics.txt_31-511  []-positive  []
+California Sun Lyrics.txt_31-512  [but-advers]-positive  [fgb]
+California Sun Lyrics.txt_32-543  []-negative  [neg]
+California Sun Lyrics.txt_32-544  []-positive  [fgb]
+California Sun Lyrics.txt_33-577  [so-result]-positive  [bkc,fgb]
+California Sun Lyrics.txt_34-611  []-positive  []
+California Sun Lyrics.txt_34-612  [so-result]-negative  [fgb,neg]
+California Sun Lyrics.txt_35-648  [so-result]-negative  [fgb,neg]
+California Sun Lyrics.txt_36-684  []-positive  [bkc]
+California Sun Lyrics.txt_37-721  []-question  []
+California Sun Lyrics.txt_37-722  []-positive  []
+California Sun Lyrics.txt_37-723  []-positive  []
+California Sun Lyrics.txt_38-761  []-positive  []
+California Sun Lyrics.txt_39-801  []-positive  []
+California Sun Lyrics.txt_39-802  []-positive  []
+California Sun Lyrics.txt_40-844  []-negative  []
+California Sun Lyrics.txt_40-845  []-positive  []
+California Sun Lyrics.txt_41-886  []-negative  [neg]
+California Sun Lyrics.txt_42-928  []-positive  [fgb,ass]
+California Sun Lyrics.txt_42-929  []-positive  []
+California Sun Lyrics.txt_42-930  [when-temp_coinc]-positive  []
+California Sun Lyrics.txt_43-974  []-positive  []
+California Sun Lyrics.txt_44-1018  []-positive  []
+California Sun Lyrics.txt_45-1063  []-negative  [neg]
+California Sun Lyrics.txt_46-1109  []-positive  []
+California Sun Lyrics.txt_46-1110  [when-temp_coinc]-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+California Sun Lyrics.txt_1-1  [california,Sun,Lyrics,by,VonBock]  [title]
+California Sun Lyrics.txt_2-3  [man]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+California Sun Lyrics.txt_3-6  [that,on,be,to,used,i,day,the,in,back,i_remember,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(use,[internal,factive,explanation,background,objective])]
+California Sun Lyrics.txt_4-11  [fresh,shit]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+California Sun Lyrics.txt_5-16  [now]  [raise_issue(be,[_924412,factive,statement,_924430,subjective])]
+California Sun Lyrics.txt_6-22  [i_mean,even,now,that,i,have]  [provide_expl_just(have,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_7-29  [moved,up,a,couple,years,,,i,could,get,a,little,bit,more]  [reject_expl_just(get,[external,nonfactive,narration,background,objective]),reject_expl_just(know,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_7-30  [,,you,know]  [provide_expl_just(get,[external,nonfactive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_8-38  [that,GDP,Purple,K,OGK]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_9-47  [you,know,whatever,your,linked,up,with,it]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(it,[internal,factive,narration,background,objective])]
+California Sun Lyrics.txt_9-48  [is,all,good,with,me]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(it,[internal,factive,narration,background,objective])]
+California Sun Lyrics.txt_10-58  [but,if,you,got,that,purp]  [proposal(be,[_940064,_940070,statement,foreground,_940088])]
+California Sun Lyrics.txt_11-69  [and,you,see,me]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_12-81  [wave,me,over,,,let,me,get,a,little,trey,puff,on,that]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(wave,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_13-95  [i,might,give]  [provide_expl_just(give,[external,nonfactive,narration,foreground,objective]),provide_expl_just(back,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_13-96  [it,back,though]  [provide_expl_just(give,[external,nonfactive,narration,foreground,objective]),provide_expl_just(back,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_14-110  [aye]  [raise_issue(be,[_944934,factive,statement,_944952,subjective])]
+California Sun Lyrics.txt_15-125  [i,am,low,as,possible,every,aspect]  [provide_expl_just(low,[external,factive,narration,foreground,objective])]
+California Sun Lyrics.txt_16-141  [eyes,low,Hydro,working,on,this,new,project]  [provide_expl_just(low,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_17-158  [sixteen,spat,even,more,thrown,away]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_18-176  [other,i,forget,cuz]  [provide_expl_just(forget,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_18-177  [my,brain-s,blown,away]  [provide_expl_just(forget,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_19-196  [hurricane,head,band,thrown]  [reject_expl_just(throw,[external,factive,cause,foreground,objective])]
+California Sun Lyrics.txt_19-197  [you,in,a,storm]  [reject_expl_just(throw,[external,factive,cause,foreground,objective])]
+California Sun Lyrics.txt_20-217  [i,am,a,category,five,wreck]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(drop,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_20-218  [bout,to,drop,the,bomb]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(drop,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_21-239  [my,storm,search,was,drowned]  [provide_expl_just(drown,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_22-261  [tryna,rise,push,down]  [provide_expl_just(push,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_23-284  [light,tryna,get,clowned]  [provide_expl_just(clown,[external,factive,narration,foreground,objective])]
+California Sun Lyrics.txt_24-308  [i,am,respect,all,in,my,town]  [provide_expl_just(respect,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_25-333  [for,splitting,grams,,,hitting,hands]  [reject_expl_just(hit,[external,factive,cause,foreground,objective]),reject_expl_just(split,[external,factive,cause,foreground,objective])]
+California Sun Lyrics.txt_25-334  [paper,that,is,the,dividends]  [provide_expl_just(hit,[external,factive,cause,foreground,objective]),provide_expl_just(split,[external,factive,cause,foreground,objective])]
+California Sun Lyrics.txt_26-361  [$,20,choice,is,yours]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(roll,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_26-362  [you,take]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(roll,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_26-363  [then,you,roll,it,in]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(roll,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_27-390  [my,methodology,seems,to,be,a,policy]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(seem,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_27-391  [that,is,hesitant]  [reject_expl_just(be,[external,factive,narration,foreground,objective]),reject_expl_just(seem,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_28-419  [low,economy,no,responsibility,i,am,God,just,too,damn,proud,with,this]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_29-448  [i,hold,this,purp]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(firm-cl42,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_29-449  [i,am,firm,with,the,Staines]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(firm-cl42,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_30-479  [relaxing,in,the,sun,,,thank]  [provide_expl_just(thank,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_30-480  [God,for,Cali-s,plants]  [provide_expl_just(thank,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_31-511  [i,am,real,low]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_31-512  [but,i,am,highed,up]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_32-543  [Yeska,bitch,getcha,go]  [reject_expl_just(go,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_32-544  [and,rise,up]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_33-577  [oh,so,low]  [provide_expl_just(low,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_34-611  [california,sun,got,me,feeling]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_34-612  [so,slow]  [reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_35-648  [so,slow]  reject_expl_opin(nil,[])
+California Sun Lyrics.txt_36-684  [oh,Yeah]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+California Sun Lyrics.txt_37-721  [backed,am,i,?]  [provide_expl_just(back,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(live,[internal,factive,narration,background,objective])]
+California Sun Lyrics.txt_37-722  [i,am,vaped]  [provide_expl_just(back,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(live,[internal,factive,narration,background,objective])]
+California Sun Lyrics.txt_37-723  [i,am,living,of,the]  [provide_expl_just(back,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(live,[internal,factive,narration,background,objective])]
+California Sun Lyrics.txt_38-761  [southern,California,is,the,home,where,i,create]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_39-801  [i,gotta,stay,real]  [provide_expl_just(stay,[external,factive,narration,background,objective]),provide_expl_just(respect,[external,factive,narration,background,objective]),provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_39-802  [i,cuz,,,am,the,realest,respect,it]  [provide_expl_just(stay,[external,factive,narration,background,objective]),provide_expl_just(respect,[external,factive,narration,background,objective]),provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_40-844  [he,is,struggling]  [provide_expl_just(struggle,[external,factive,narration,foreground,objective]),provide_expl_just(buy,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_40-845  [Imma,let,you,buy,my,method]  [provide_expl_just(struggle,[external,factive,narration,foreground,objective]),provide_expl_just(buy,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_41-886  [peep,game,peep,the,rhymes,the,with,the,emphasis]  [reject_expl_just(peep,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_42-928  [and,make,sure]  [accept_expl_opin(eye,[external,factive,narration,background,objective]),accept_expl_opin(make,[external,factive,narration,background,objective]),accept_expl_opin(keep,[external,factive,narration,background,objective]),accept_expl_opin(look,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_42-929  [that,you,keep,them,eyes,open]  [provide_expl_just(eye,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_42-930  [when,look,at,this]  [provide_expl_just(eye,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_43-974  [a,1,/,5,to,sip,on]  [provide_expl_just(sip,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_44-1018  [1,/,8,to,get,my,Spliff]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_45-1063  [girl,to,put,my,dick,on]  [reject_expl_just(put,[external,factive,narration,foreground,objective])]
+California Sun Lyrics.txt_46-1109  [i,get]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective])]
+California Sun Lyrics.txt_46-1110  [it,off,when,i,want]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(California Sun Lyrics.txt_1-1)-[]
+2-(California Sun Lyrics.txt_2-3)-[]
+3-(California Sun Lyrics.txt_3-6)-[secondary-instru_behavior,primary-concreteness]
+4-(California Sun Lyrics.txt_4-11)-[primary-anality]
+5-(California Sun Lyrics.txt_5-16)-[secondary-temporal_repere]
+6-(California Sun Lyrics.txt_6-22)-[secondary-temporal_repere]
+7-(California Sun Lyrics.txt_7-29)-[secondary-temporal_repere]
+8-(California Sun Lyrics.txt_7-30)-[secondary-abstract_tought]
+9-(California Sun Lyrics.txt_8-38)-[]
+10-(California Sun Lyrics.txt_9-47)-[secondary-abstract_tought]
+11-(California Sun Lyrics.txt_9-48)-[]
+12-(California Sun Lyrics.txt_10-58)-[]
+13-(California Sun Lyrics.txt_11-69)-[primary-vision]
+14-(California Sun Lyrics.txt_12-81)-[primary-random_movement,primary-concreteness]
+15-(California Sun Lyrics.txt_13-95)-[]
+16-(California Sun Lyrics.txt_13-96)-[primary-concreteness]
+17-(California Sun Lyrics.txt_14-110)-[]
+18-(California Sun Lyrics.txt_15-125)-[primary-depth,secondary-temporal_repere]
+19-(California Sun Lyrics.txt_16-141)-[primary-narcissism,primary-depth]
+20-(California Sun Lyrics.txt_17-158)-[primary-orality,primary-ascend,primary-concreteness]
+21-(California Sun Lyrics.txt_18-176)-[secondary-instru_behavior]
+22-(California Sun Lyrics.txt_18-177)-[primary-narcissism,primary-concreteness]
+23-(California Sun Lyrics.txt_19-196)-[primary-narcissism,primary-ascend]
+24-(California Sun Lyrics.txt_19-197)-[]
+25-(California Sun Lyrics.txt_20-217)-[emotions-aggression]
+26-(California Sun Lyrics.txt_20-218)-[primary-descent]
+27-(California Sun Lyrics.txt_21-239)-[primary-voyage]
+28-(California Sun Lyrics.txt_22-261)-[secondary-instru_behavior,primary-ascend]
+29-(California Sun Lyrics.txt_23-284)-[primary-vision,secondary-instru_behavior,emotions-expressive_beh]
+30-(California Sun Lyrics.txt_24-308)-[secondary-moral_imperative]
+31-(California Sun Lyrics.txt_25-333)-[primary-narcissism]
+32-(California Sun Lyrics.txt_25-334)-[secondary-instru_behavior]
+33-(California Sun Lyrics.txt_26-361)-[secondary-abstract_tought]
+34-(California Sun Lyrics.txt_26-362)-[]
+half
+35-(California Sun Lyrics.txt_26-363)-[secondary-temporal_repere,primary-random_movement]
+36-(California Sun Lyrics.txt_27-390)-[primary-vision,secondary-restraint]
+37-(California Sun Lyrics.txt_27-391)-[]
+38-(California Sun Lyrics.txt_28-419)-[primary-depth,secondary-moral_imperative,primary-water,emotions-glory]
+39-(California Sun Lyrics.txt_29-448)-[]
+40-(California Sun Lyrics.txt_29-449)-[]
+41-(California Sun Lyrics.txt_30-479)-[primary-fire,secondary-social_behavior]
+42-(California Sun Lyrics.txt_30-480)-[secondary-abstract_tought]
+43-(California Sun Lyrics.txt_31-511)-[secondary-abstract_tought,primary-depth]
+44-(California Sun Lyrics.txt_31-512)-[primary-height]
+45-(California Sun Lyrics.txt_32-543)-[primary-sex]
+46-(California Sun Lyrics.txt_32-544)-[primary-ascend]
+47-(California Sun Lyrics.txt_33-577)-[primary-depth]
+48-(California Sun Lyrics.txt_34-611)-[primary-fire]
+49-(California Sun Lyrics.txt_34-612)-[primary-passivity]
+50-(California Sun Lyrics.txt_35-648)-[primary-passivity]
+51-(California Sun Lyrics.txt_36-684)-[]
+52-(California Sun Lyrics.txt_37-721)-[primary-concreteness]
+53-(California Sun Lyrics.txt_37-722)-[]
+54-(California Sun Lyrics.txt_37-723)-[]
+55-(California Sun Lyrics.txt_38-761)-[primary-concreteness]
+56-(California Sun Lyrics.txt_39-801)-[secondary-abstract_tought]
+57-(California Sun Lyrics.txt_39-802)-[secondary-moral_imperative]
+58-(California Sun Lyrics.txt_40-844)-[]
+59-(California Sun Lyrics.txt_40-845)-[secondary-instru_behavior,secondary-order]
+60-(California Sun Lyrics.txt_41-886)-[emotions-expressive_beh]
+61-(California Sun Lyrics.txt_42-928)-[secondary-instru_behavior,secondary-abstract_tought]
+62-(California Sun Lyrics.txt_42-929)-[secondary-abstract_tought,primary-narcissism,primary-concreteness]
+63-(California Sun Lyrics.txt_42-930)-[secondary-temporal_repere,primary-vision,primary-concreteness]
+64-(California Sun Lyrics.txt_43-974)-[]
+65-(California Sun Lyrics.txt_44-1018)-[]
+66-(California Sun Lyrics.txt_45-1063)-[]
+67-(California Sun Lyrics.txt_46-1109)-[]
+68-(California Sun Lyrics.txt_46-1110)-[primary-concreteness,secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(California Sun Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-VonBock-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Sun,sn1),and(Lyrics,california,sn1),def_prop(VonBock,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(California Sun Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-man-sn1,def_prop(man,[any])])
+lf(California Sun Lyrics.txt_3,6,cl4-nil-nil-be-[adj-(mod)-use-nil,ncmod-prop-that-sn3,xcomp-purpose-be-2,def_prop(that,[oggetto,umano])])
+lf(California Sun Lyrics.txt_3,6,cl3-nil-nil-use-[adj-locative-day-nil,adj-locative-back-nil,subj-actor-i-sn2,subj-actor-i-sn1,and(i,i_remember,sn1),def_prop(day,[tempo]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(California Sun Lyrics.txt_4,11,cl5-nil-nil-say-[obj-theme_unaff-shit-sn1,and(shit,fresh,sn1),def_prop(shit,[attivita,umano])])
+lf(California Sun Lyrics.txt_5,16,cl6-nil-nil-say-[])
+lf(California Sun Lyrics.txt_6,22,cl7-nil-nil-have-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(California Sun Lyrics.txt_7,29,cl9-nil-nil-know-[subj-actor-you-sn8,def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_7,29,cl8-nil-could-get-[adj-temporal-years-nil,adj-(mod)-up-nil,obj2-paziente-more-sn4,obj-theme_unaff-bite-sn3,subj-agent-i-sn2,subj-agent-i-sn1,and(bite,little,sn3),and(i,couple,sn1),def_prop(more,[astratto,informa,oggetto]),def_prop(bite,[attivita,edible,evento,oggetto,stato]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(California Sun Lyrics.txt_8,38,cl10-nil-nil-be-[ncmod-modal-K-sn2,subj-theme_bound-you-sn1,and(K,Purple,sn2),def_prop(K,[attivita,informa,nquant,oggetto,strumento]),def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_9,47,cl12-nil-nil-be-[ncmod-comitativo-me-sn7,xcomp-prop-good-sn6,xcomp-prop-all-sn5,subj-theme_bound-you-sn4,xadj-adj-linked-adj2,xadj-adj-your-adj1,ncmod-comitativo-it-sn2,def_prop(me,[umano]),def_prop(good,[valutativo]),def_prop(all,[_983174]),def_prop(you,[umano]),def_prop(linked,_983206),def_prop(your,_983218),def_prop(it,[any])])
+lf(California Sun Lyrics.txt_9,47,cl11-nil-nil-know-[adj-(mod)-up-nil,subj-actor-you-sn1,def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_10,58,cl13-nil-nil-get-[cmod-subord-get-if,obj-theme_unaff-purp-sn2,subj-agent-you-sn1,and(purp,that,sn2),def_prop(purp,[istituzione]),def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_11,69,cl14-nil-nil-see-[cmod-subord-see-",obj-actor-me-sn2,subj-experiencer-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_12,81,cl16-nil-nil-get-[xcomp-agent-puff-sn14,subj-agent-you-sn13,xcomp-agent-puff-sn11,xcomp-agent-me-sn10,subj-agent-you-sn9,def_prop(puff,[attivita,cambia,edible,informa,oggetto]),def_prop(you,[umano]),def_prop(puff,[attivita,cambia,edible,informa,oggetto]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_12,81,cl15-nil-nil-wave-[obj-theme_aff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_13,95,nil-nil-nil-back-[subj-agent-it-sn2,def_prop(it,[any])])
+lf(California Sun Lyrics.txt_13,95,cl17-nil-might-give-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_14,110,cl18-nil-nil-say-[])
+lf(California Sun Lyrics.txt_15,125,cl19-nil-nil-low-[xcomp-prop-aspect-sn2,subj-theme-i-sn1,aux-am-nil,def_prop(aspect,[astratto,relat]),def_prop(i,[umano])])
+lf(California Sun Lyrics.txt_16,141,cl20-nil-nil-low-[xadj-adj-working-adj3,ncmod-locativo-project-sn3,obj-theme-Hydro-sn2,subj-actor-eye-sn1,and(project,this,sn3),and(project,new,sn3),def_prop(working,_984484),def_prop(project,[astratto]),def_prop(Hydro,[istituzione,umano]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(California Sun Lyrics.txt_17,158,cl21-nil-nil-be-[adj-(mod)-even-nil,subj-theme_bound-spit-sn1,and(spit,sixteen,sn1),def_prop(spit,[attivita,oggetto,strumento])])
+lf(California Sun Lyrics.txt_18,176,cl23-nil-nil-be-[xcomp-prop-blown-sn4,subj-theme_bound-brain-s-sn3,def_prop(blown,[evaluative]),def_prop(brain-s,[astratto,body_part,edible,oggetto,umano])])
+lf(California Sun Lyrics.txt_18,176,cl22-nil-nil-forget-[obj-goal-cuz-sn2,subj-experiencer-i-sn1,def_prop(cuz,[istituzione]),def_prop(i,[umano])])
+lf(California Sun Lyrics.txt_19,196,cl25-nil-nil-be-[ncmod-locativo-storm-sn3,subj-theme_bound-you-sn2,def_prop(storm,[attivita,cambia,stato]),def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_19,196,cl24-nil-nil-throw-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_20,217,cl27-nil-nil-drop-[obj-theme-bomb-sn6,subj-actor-bout-sn5,def_prop(bomb,[oggetto,strumento]),def_prop(bout,[attivita,informa,tempo])])
+lf(California Sun Lyrics.txt_20,217,cl26-nil-nil-be-[obj2-benef-wreck-sn3,xcomp-prop-category-sn2,subj-theme_bound-i-sn1,and(wreck,five,sn3),def_prop(wreck,[oggetto,stato,strumento]),def_prop(category,[astratto]),def_prop(i,[umano])])
+lf(California Sun Lyrics.txt_21,239,cl28-nil-nil-drown-[ncmod-modal-storm-sn2,subj-theme-you-sn1,aux-was-nil,def_prop(storm,[attivita,cambia,stato]),def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_22,261,cl29-nil-nil-push-[adj-(mod)-down-nil,subj-agent-rise-sn1,and(rise,tryna,sn1),def_prop(rise,[astratto,attivita,evento])])
+lf(California Sun Lyrics.txt_23,284,cl30-nil-nil-clown-[ncmod-modal-tryna-sn2,subj-actor-you-sn1,def_prop(tryna,[istituzione]),def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_24,308,cl31-nil-nil-respect-[xcomp-prop-all-sn2,subj-cause-i-sn1,aux-am-nil,def_prop(all,[_985946]),def_prop(i,[umano])])
+lf(California Sun Lyrics.txt_25,333,cl34-nil-nil-be-[xcomp-prop-dividend-sn4,subj-theme_bound-paper-sn3,xcomp-goal-hand-sn2,xcomp-purpose-hit-3,def_prop(dividend,[astratto,nquant,oggetto]),def_prop(paper,[attivita,informa,sostanza]),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano])])
+lf(California Sun Lyrics.txt_25,333,cl33-nil-nil-hit-[])
+lf(California Sun Lyrics.txt_25,333,cl32-nil-nil-split-[subj-agent-gram-sn1,def_prop(gram,[nquant])])
+lf(California Sun Lyrics.txt_26,361,cl37-nil-nil-roll-[subj-agent-it-sn7,subj-agent-it-sn6,and(it,you,sn6),def_prop(it,[any]),def_prop(it,[any])])
+lf(California Sun Lyrics.txt_26,361,cl36-nil-nil-take-[subj-agent-you-sn5,def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_26,361,cl35-nil-nil-be-[xcomp-prop-yours-sn2,subj-theme_bound-choice-sn1,and(choice,$,sn1),and(choice,20,sn1),def_prop(yours,[istituzione]),def_prop(choice,[astratto,attivita])])
+lf(California Sun Lyrics.txt_27,390,cl39-nil-nil-be-[xcomp-prop-hesitant-sn5,xcomp-prop-policy-sn2,xcomp-purpose-be-2,def_prop(hesitant,[evaluative]),def_prop(policy,[astratto,attivita,informa])])
+lf(California Sun Lyrics.txt_27,390,cl38-nil-nil-seem-[subj-actor-methodology-sn1,def_prop(methodology,[astratto])])
+lf(California Sun Lyrics.txt_28,419,cl40-nil-nil-be-[xadj-adj-damn-adj4,adj-(mod)-proud-nil,adj-(mod)-too-nil,ncmod-comitativo-this-sn4,xcomp-prop-God-sn3,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(i,economy,sn1),and(i,low,sn1),def_prop(damn,_987116),def_prop(too,[istituzione]),def_prop(this,[oggetto,umano]),def_prop(God,[animato]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(California Sun Lyrics.txt_29,448,cl42-nil-nil-firm-[ncmod-comitativo-Staines-sn5,subj-patient-i-sn4,aux-am-nil,def_prop(Staines,[place,umano]),def_prop(i,[umano])])
+lf(California Sun Lyrics.txt_29,448,cl41-nil-nil-hold-[obj-goal-purp-sn2,subj-agent-i-sn1,and(purp,this,sn2),def_prop(purp,[istituzione]),def_prop(i,[umano])])
+lf(California Sun Lyrics.txt_30,479,cl44-nil-nil-be-[subj-theme_bound-plant-sn4,subj-theme_bound-plant-sn3,and(plant,Cali-s,sn4),and(plant,Cali-s,sn3),def_prop(plant,[any,astratto,oggetto,strumento,umano]),def_prop(plant,[any,astratto,oggetto,strumento,umano])])
+lf(California Sun Lyrics.txt_30,479,cl43-nil-nil-thank-[xadj-adj-relaxing-adj5,ncmod-locativo-sun-sn2,subj-agent-you-sn1,def_prop(relaxing,_987776),def_prop(sun,[oggetto,umano]),def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_31,511,cl45-nil-nil-be-[adj-subj_disc-up-sn5,xcomp-prop-highed-sn4,subj-theme_bound-i-sn3,xcomp-prop-low-sn2,subj-theme_bound-i-sn1,and(low,real,sn2),def_prop(up,[istituzione]),def_prop(highed,[istituzione]),def_prop(i,[umano]),def_prop(low,[astratto,stato]),def_prop(i,[umano])])
+lf(California Sun Lyrics.txt_32,543,cl47-nil-nil-rise-[cmod-subord-rise-",adj-locative-up-nil,adj-subj_disc-up-sn4,subj-agent-you-sn3,adj-(mod)-go-nil,ncmod-modal-bitch-sn2,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(you,[umano]),def_prop(bitch,[animato,stato])])
+lf(California Sun Lyrics.txt_32,543,cl46-nil-nil-go-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_33,577,cl48-nil-nil-low-[subj-actor-oh-sn1,def_prop(oh,[informa,tecno])])
+lf(California Sun Lyrics.txt_34,611,cl51-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_34,611,cl50-nil-nil-feel-[subj-prop-me-sn2,def_prop(me,[umano])])
+lf(California Sun Lyrics.txt_34,611,cl49-nil-nil-get-[obj-theme_unaff-me-sn2,subj-agent-sun-sn1,and(sun,california,sn1),def_prop(me,[umano]),def_prop(sun,[oggetto,umano])])
+lf(California Sun Lyrics.txt_35,648,cl52-nil-nil-slow-[subj-agent-pro-nil])
+lf(California Sun Lyrics.txt_36,684,cl53-nil-nil-say-[obj-theme_unaff-oh-sn1,def_prop(oh,[informa,tecno])])
+lf(California Sun Lyrics.txt_37,721,cl56-nil-nil-live-[subj-actor-i-sn4,aux-am-nil,progr-living-nil,def_prop(i,[umano])])
+lf(California Sun Lyrics.txt_37,721,cl55-nil-nil-be-[xcomp-prop-vaped-sn3,subj-actor-i-sn2,def_prop(vaped,[istituzione]),def_prop(i,[umano])])
+lf(California Sun Lyrics.txt_37,721,cl54-nil-nil-back-[subj-theme-i-sn1,aux-am-nil,def_prop(i,[umano])])
+lf(California Sun Lyrics.txt_38,761,_989248-nil-nil-create-[voice-create-nil,tense-create-nil,obl-locat-home-sn2,def_prop(home,[luogo,oggetto,stato,strumento])])
+lf(California Sun Lyrics.txt_38,761,cl57-nil-nil-be-[voice-create-nil,tense-create-nil,xcomp-prop-home-sn2,subj-theme_bound-California-sn1,and(California,southern,sn1),def_prop(home,[luogo,oggetto,stato,strumento]),def_prop(California,[place,luogo])])
+lf(California Sun Lyrics.txt_39,801,cl60-nil-nil-respect-[subj-experiencer-it-sn8,subj-experiencer-it-sn6,subj-experiencer-it-sn5,and(it,realest,sn5),def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any])])
+lf(California Sun Lyrics.txt_39,801,cl59-nil-nil-be-[subj-theme_bound-cuz-sn3,and(cuz,i,sn3),def_prop(cuz,[istituzione])])
+lf(California Sun Lyrics.txt_39,801,cl58-nil-nil-stay-[])
+lf(California Sun Lyrics.txt_39,801,nil-nil-nil-gotta-[obj-actor-real-sn2,xcomp-purpose-stay-2,subj-agent-i-sn1,def_prop(real,[astratto,oggetto]),def_prop(i,[umano])])
+lf(California Sun Lyrics.txt_40,844,cl62-nil-nil-buy-[xcomp-prop-method-sn4,obj-theme-you-sn3,subj-actor-Imma-sn2,def_prop(method,[astratto]),def_prop(you,[umano]),def_prop(Imma,[istituzione,umano])])
+lf(California Sun Lyrics.txt_40,844,cl61-nil-nil-struggle-[subj-actor1-you-sn1,aux-(is)-nil,progr-struggling-nil,def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_41,886,cl63-nil-nil-peep-[ncmod-modale-emphasis-sn4,obj-theme-rhyme-sn3,xadj-result-peep-2,subj-actor-game-sn2,subj-actor-game-sn1,and(game,you,sn1),def_prop(emphasis,[attivita,informa,stato]),def_prop(rhyme,[attivita,informa]),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento])])
+lf(California Sun Lyrics.txt_42,928,cl67-nil-nil-look-[iobj-locat-this-sn6,cmod-subord-look-",def_prop(this,[oggetto,umano])])
+lf(California Sun Lyrics.txt_42,928,cl66-nil-nil-eye-[])
+lf(California Sun Lyrics.txt_42,928,cl65-nil-nil-keep-[obj-stimulus-open-sn5,xadj-result-eye-2,xcomp-prop-them-sn4,subj-experiencer-you-sn3,def_prop(open,[stato]),def_prop(them,[umano]),def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_42,928,cl64-nil-nil-make-[xcomp-prop-sure-sn2,subj-agent-you-sn1,def_prop(sure,[valutativo]),def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_43,974,cl68-nil-nil-sip-[subj-agent-5-sn2,subj-agent-5-sn1,and(5,1,sn1),def_prop(5,[nquant]),def_prop(5,[nquant])])
+lf(California Sun Lyrics.txt_44,1018,cl69-nil-nil-get-[obj-theme_unaff-Spliff-sn3,subj-agent-8-sn2,subj-agent-8-sn1,and(8,1,sn1),def_prop(Spliff,[istituzione,umano]),def_prop(8,[nquant]),def_prop(8,[nquant])])
+lf(California Sun Lyrics.txt_45,1063,cl70-nil-nil-put-[obj-goal-dick-sn2,subj-agent-girl-sn1,def_prop(dick,[umano]),def_prop(girl,[oggetto,strumento])])
+lf(California Sun Lyrics.txt_46,1109,cl72-nil-nil-want-[cmod-subord-want-when,subj-actor-you-sn4,def_prop(you,[umano])])
+lf(California Sun Lyrics.txt_46,1109,cl71-nil-nil-get-[subj-agent-you-sn1,def_prop(you,[umano])])

@@ -1,0 +1,126 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Ego Lyrics.txt_1-1  []-negative  [neg]
+Ego Lyrics.txt_2-3  []-suspension  []
+Ego Lyrics.txt_2-4  []-negative  [neg]
+Ego Lyrics.txt_3-8  []-positive  []
+Ego Lyrics.txt_4-12  []-suspension  [neg,neg,neg]
+Ego Lyrics.txt_5-17  []-negative  [neg]
+Ego Lyrics.txt_5-18  []-negative  [neg]
+Ego Lyrics.txt_6-24  []-suspension  [neg,neg,neg]
+Ego Lyrics.txt_7-31  []-positive  []
+Ego Lyrics.txt_7-32  []-positive  []
+Ego Lyrics.txt_8-40  []-positive  []
+Ego Lyrics.txt_9-49  []-positive  []
+Ego Lyrics.txt_10-59  []-positive  []
+Ego Lyrics.txt_11-70  []-positive  []
+Ego Lyrics.txt_12-82  []-suspension  []
+Ego Lyrics.txt_12-83  []-negative  [neg]
+Ego Lyrics.txt_13-98  []-negative  [neg]
+Ego Lyrics.txt_14-112  []-suspension  [neg,neg]
+Ego Lyrics.txt_15-127  []-positive  []
+Ego Lyrics.txt_16-144  []-suspension  [neg,neg]
+Ego Lyrics.txt_17-161  []-positive  []
+Ego Lyrics.txt_17-162  []-negative  [neg]
+Ego Lyrics.txt_18-180  []-positive  []
+Ego Lyrics.txt_19-199  []-positive  []
+Ego Lyrics.txt_20-219  []-positive  []
+Ego Lyrics.txt_21-240  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Ego Lyrics.txt_1-1  [ego,Lyrics,by,Zola,Jesus]  [title]
+Ego Lyrics.txt_2-3  [i,used,to,think]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(use,[external,factive,cause,foreground,objective])]
+Ego Lyrics.txt_2-4  [humility,was,everything]  [reject_expl_just(be,[external,factive,narration,foreground,objective]),reject_expl_just(use,[external,factive,cause,foreground,objective])]
+Ego Lyrics.txt_3-8  [the,only,way,through,to,ourselves]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Ego Lyrics.txt_4-12  [i,fall,against,the,ego]  [provide_expl_just(fall,[external,factive,narration,background,objective])]
+Ego Lyrics.txt_5-17  [i,fought]  [reject_expl_just(fight,[external,factive,cause,foreground,objective])]
+Ego Lyrics.txt_5-18  [fear,brought,me,closer,to,the,truth]  [reject_expl_just(fight,[external,factive,cause,foreground,objective])]
+Ego Lyrics.txt_6-24  [i,fall,against,the,ego]  [provide_expl_just(fall,[external,factive,narration,background,objective])]
+Ego Lyrics.txt_7-31  [i,knew]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_416460)]
+Ego Lyrics.txt_7-32  [it,brought,me,closer,to,losin-]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_420844)]
+Ego Lyrics.txt_8-40  [from,first_step,to,last]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Ego Lyrics.txt_9-49  [i,am,rising,from,the,ashes]  [raise_issue(be,[_421718,factive,statement,_421736,subjective])]
+Ego Lyrics.txt_10-59  [from,first_step,to,last]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Ego Lyrics.txt_11-70  [i,am,tender,to,you]  [provide_expl_just(tender,[external,factive,narration,foreground,objective])]
+Ego Lyrics.txt_12-82  [i,used,to,think]  [provide_expl_just(reverence,[external,factive,narration,background,objective]),provide_expl_just(use,[external,factive,cause,foreground,objective])]
+Ego Lyrics.txt_12-83  [that,i,was,bound,to,reverence]  [reject_expl_just(reverence,[external,factive,narration,background,objective]),reject_expl_just(use,[external,factive,cause,foreground,objective])]
+Ego Lyrics.txt_13-98  [the,only,way,through,to,my,hell]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Ego Lyrics.txt_14-112  [i,fell,into,the,ego]  [provide_expl_just(fall,[external,factive,cause,foreground,objective])]
+Ego Lyrics.txt_15-127  [i,feel,it,brought,me,closer,to,my,youth]  [provide_expl_just(bring,[external,factive,narration,foreground,objective]),provide_expl_just(feel,[external,factive,narration,background,objective])]
+Ego Lyrics.txt_16-144  [i,fell,into,the,ego]  [provide_expl_just(fall,[external,factive,cause,foreground,objective])]
+Ego Lyrics.txt_17-161  [i,knew]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_433906)]
+Ego Lyrics.txt_17-162  [it,brought,me,closer,to,hubris]  [reject_expl_just(know,[external,factive,cause,foreground,objective])]
+Ego Lyrics.txt_18-180  [from,first_step,to,last]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Ego Lyrics.txt_19-199  [i,am,rising,from,the,ashes]  [raise_issue(be,[_435072,factive,statement,_435090,subjective])]
+Ego Lyrics.txt_20-219  [from,first_step,to,last]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Ego Lyrics.txt_21-240  [i,am,tender,to,you]  [provide_expl_just(tender,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Ego Lyrics.txt_1-1)-[]
+2-(Ego Lyrics.txt_2-3)-[secondary-instru_behavior,secondary-abstract_tought]
+3-(Ego Lyrics.txt_2-4)-[]
+4-(Ego Lyrics.txt_3-8)-[]
+5-(Ego Lyrics.txt_4-12)-[primary-descent,secondary-temporal_repere]
+6-(Ego Lyrics.txt_5-17)-[emotions-aggression]
+7-(Ego Lyrics.txt_5-18)-[emotions-anxiety,primary-concreteness,secondary-abstract_tought]
+8-(Ego Lyrics.txt_6-24)-[primary-descent,secondary-temporal_repere]
+9-(Ego Lyrics.txt_7-31)-[secondary-abstract_tought]
+10-(Ego Lyrics.txt_7-32)-[primary-concreteness]
+11-(Ego Lyrics.txt_8-40)-[]
+12-(Ego Lyrics.txt_9-49)-[primary-ascend,primary-fire]
+13-(Ego Lyrics.txt_10-59)-[]
+half
+14-(Ego Lyrics.txt_11-70)-[primary-soft]
+15-(Ego Lyrics.txt_12-82)-[secondary-instru_behavior,secondary-abstract_tought]
+16-(Ego Lyrics.txt_12-83)-[secondary-restraint]
+17-(Ego Lyrics.txt_13-98)-[]
+18-(Ego Lyrics.txt_14-112)-[primary-descent]
+19-(Ego Lyrics.txt_15-127)-[primary-concreteness]
+20-(Ego Lyrics.txt_16-144)-[primary-descent]
+21-(Ego Lyrics.txt_17-161)-[secondary-abstract_tought]
+22-(Ego Lyrics.txt_17-162)-[primary-concreteness]
+23-(Ego Lyrics.txt_18-180)-[]
+24-(Ego Lyrics.txt_19-199)-[primary-ascend,primary-fire]
+25-(Ego Lyrics.txt_20-219)-[]
+26-(Ego Lyrics.txt_21-240)-[primary-soft]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Ego Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Jesus-sn2,subj-theme_bound-Lyrics-sn1,and(Jesus,Zola,sn2),and(Lyrics,ego,sn1),def_prop(Jesus,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Ego Lyrics.txt_2,3,cl4-nil-nil-be-[xcomp-prop-everything-sn3,subj-theme_bound-humility-sn2,def_prop(everything,[astratto,informa,oggetto]),def_prop(humility,[astratto,emotivo])])
+lf(Ego Lyrics.txt_2,3,cl3-nil-nil-think-[subj-prop-i-sn1,def_prop(i,[umano])])
+lf(Ego Lyrics.txt_2,3,cl2-nil-nil-use-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Ego Lyrics.txt_3,8,cl5-nil-nil-be-[adj-(mod)-through-nil,ncmod-goal-ourselves-sn3,subj-theme_bound-way-sn2,subj-theme_bound-way-sn1,def_prop(ourselves,[umano]),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(way,[astratto,attivita,oggetto,stato,strumento])])
+lf(Ego Lyrics.txt_4,12,cl6-nil-nil-fall-[ncmod-malefattivo-ego-sn2,subj-agent-i-sn1,def_prop(ego,[astratto,emotivo]),def_prop(i,[umano])])
+lf(Ego Lyrics.txt_5,17,cl8-nil-nil-bring-[obj2-goal-truth-sn5,obj-theme_aff-closer-sn4,obj-theme_aff-me-sn3,subj-agent-fear-sn2,def_prop(truth,[astratto,attivita,informa,stato]),def_prop(closer,[umano]),def_prop(me,[umano]),def_prop(fear,[emotivo])])
+lf(Ego Lyrics.txt_5,17,cl7-nil-nil-fight-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Ego Lyrics.txt_6,24,cl9-nil-nil-fall-[ncmod-malefattivo-ego-sn2,subj-agent-i-sn1,def_prop(ego,[astratto,emotivo]),def_prop(i,[umano])])
+lf(Ego Lyrics.txt_7,31,cl11-nil-nil-bring-[obj2-goal-[]-sn5,obj-theme-closer-sn4,obj-theme_aff-me-sn3,subj-agent-it-sn2,def_prop([],nil),def_prop(closer,[umano]),def_prop(me,[umano]),def_prop(it,[any])])
+lf(Ego Lyrics.txt_7,31,cl10-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Ego Lyrics.txt_8,40,cl12-nil-nil-be-[ncmod-modal-last-sn2,subj-theme_bound-you-sn1,def_prop(last,[tempo,misura]),def_prop(you,[umano])])
+lf(Ego Lyrics.txt_9,49,cl13-nil-nil-rise-[iobj-goal-ash-sn2,subj-agent-i-sn1,aux-am-nil,progr-rising-nil,def_prop(ash,[plant,sostanza]),def_prop(i,[umano])])
+lf(Ego Lyrics.txt_10,59,cl14-nil-nil-be-[ncmod-modal-last-sn2,subj-theme_bound-you-sn1,def_prop(last,[tempo,misura]),def_prop(you,[umano])])
+lf(Ego Lyrics.txt_11,70,cl15-nil-nil-tender-[iobj-goal-you-sn2,subj-theme-i-sn1,aux-am-nil,def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Ego Lyrics.txt_12,82,cl19-nil-nil-reverence-[subj-theme-i-sn2,def_prop(i,[umano])])
+lf(Ego Lyrics.txt_12,82,cl18-nil-nil-bin-[subj-theme-i-sn2,aux-was-nil,def_prop(i,[umano])])
+lf(Ego Lyrics.txt_12,82,cl17-nil-nil-think-[subj-prop-i-sn1,def_prop(i,[umano])])
+lf(Ego Lyrics.txt_12,82,cl16-nil-nil-use-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Ego Lyrics.txt_13,98,cl20-nil-nil-be-[adj-(mod)-through-nil,ncmod-loc_direct-hell-sn3,subj-theme_bound-way-sn2,subj-theme_bound-way-sn1,def_prop(hell,[attivita,evento,luogo]),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(way,[astratto,attivita,oggetto,stato,strumento])])
+lf(Ego Lyrics.txt_14,112,cl21-nil-nil-fall-[iobj-goal-ego-sn2,subj-agent-i-sn1,def_prop(ego,[astratto,emotivo]),def_prop(i,[umano])])
+lf(Ego Lyrics.txt_15,127,cl23-nil-nil-bring-[obj2-goal-youth-sn15,obj2-goal-youth-sn10,obj-theme_aff-closer-sn9,subj-agent-me-sn8,obj2-goal-youth-sn5,obj-theme_aff-closer-sn4,obj-theme_aff-me-sn3,subj-agent-it-sn2,def_prop(youth,[astratto,stato,tempo]),def_prop(youth,[astratto,stato,tempo]),def_prop(closer,[umano]),def_prop(me,[umano]),def_prop(youth,[astratto,stato,tempo]),def_prop(closer,[umano]),def_prop(me,[umano]),def_prop(it,[any])])
+lf(Ego Lyrics.txt_15,127,cl22-nil-nil-feel-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Ego Lyrics.txt_16,144,cl24-nil-nil-fall-[iobj-goal-ego-sn2,subj-agent-i-sn1,def_prop(ego,[astratto,emotivo]),def_prop(i,[umano])])
+lf(Ego Lyrics.txt_17,161,cl26-nil-nil-bring-[obj2-goal-hubris-sn5,obj-theme-closer-sn4,obj-theme_aff-me-sn3,subj-agent-it-sn2,def_prop(hubris,[astratto]),def_prop(closer,[umano]),def_prop(me,[umano]),def_prop(it,[any])])
+lf(Ego Lyrics.txt_17,161,cl25-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Ego Lyrics.txt_18,180,cl27-nil-nil-be-[ncmod-modal-last-sn2,subj-theme_bound-you-sn1,def_prop(last,[tempo,misura]),def_prop(you,[umano])])
+lf(Ego Lyrics.txt_19,199,cl28-nil-nil-rise-[iobj-goal-ash-sn2,subj-agent-i-sn1,aux-am-nil,progr-rising-nil,def_prop(ash,[plant,sostanza]),def_prop(i,[umano])])
+lf(Ego Lyrics.txt_20,219,cl29-nil-nil-be-[ncmod-modal-last-sn2,subj-theme_bound-you-sn1,def_prop(last,[tempo,misura]),def_prop(you,[umano])])
+lf(Ego Lyrics.txt_21,240,cl30-nil-nil-tender-[iobj-goal-you-sn2,subj-theme-i-sn1,aux-am-nil,def_prop(you,[umano]),def_prop(i,[umano])])

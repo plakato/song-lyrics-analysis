@@ -1,0 +1,73 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Dust Lyrics.txt_1-1  []-positive  []
+Dust Lyrics.txt_2-3  []-negative  [neg,fgb]
+Dust Lyrics.txt_3-7  []-positive  []
+Dust Lyrics.txt_3-8  []-positive  [fgb]
+Dust Lyrics.txt_4-13  []-positive  []
+Dust Lyrics.txt_4-14  [so-result]-positive  [fgb]
+Dust Lyrics.txt_5-19  []-negative  [neg]
+Dust Lyrics.txt_6-26  []-positive  []
+Dust Lyrics.txt_6-27  []-positive  []
+Dust Lyrics.txt_6-28  []-positive  []
+Dust Lyrics.txt_7-35  []-suspension  []
+Dust Lyrics.txt_7-36  [because-cause]-negative  [neg]
+Dust Lyrics.txt_8-44  []-negative  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Dust Lyrics.txt_1-1  [dust,Lyrics,by,the,Wrens]  [title]
+Dust Lyrics.txt_2-3  [will,not,somebody,tell,me,what,this,heaven-s,about]  [reject_expl_just(will,[external,nonfactive,narration,background,objective]),reject_expl_just(tell,[external,factive,explanation,background,objective]),propose_opin_neg(tell,[external,factive,explanation,background,objective])]
+Dust Lyrics.txt_3-7  [it,is,been,coming]  [provide_expl_just(notice,[external,factive,circumstance,background,objective])]
+Dust Lyrics.txt_3-8  [for,years,and,i,have,noticed,it,is,almost,here]  [provide_expl_just(notice,[external,factive,circumstance,background,objective])]
+Dust Lyrics.txt_4-13  [you,are,just,one,of,us]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Dust Lyrics.txt_4-14  [so,take,to,the,hills]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Dust Lyrics.txt_5-19  [hide,the,underground,it,almost,time,is]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(hide,[external,factive,narration,background,objective])]
+Dust Lyrics.txt_6-26  [i,got,away]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Dust Lyrics.txt_6-27  [i,keep,all,my,guns,in,an,oak]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Dust Lyrics.txt_6-28  [cabinet]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Dust Lyrics.txt_7-35  [i,will,be,ready]  [provide_expl_just(ready,[external,nonfactive,narration,background,objective]),provide_expl_just(forget,[external,factive,narration,background,objective])]
+Dust Lyrics.txt_7-36  [for,the,next,time,because,i,never,forget]  [reject_expl_just(ready,[external,nonfactive,narration,background,objective]),reject_expl_just(forget,[external,factive,narration,background,objective])]
+Dust Lyrics.txt_8-44  [my,father,bleeds,his,history,in,everyday]  [provide_expl_just(bleed,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Dust Lyrics.txt_1-1)-[]
+2-(Dust Lyrics.txt_2-3)-[secondary-social_behavior,primary-height]
+3-(Dust Lyrics.txt_3-7)-[]
+4-(Dust Lyrics.txt_3-8)-[secondary-temporal_repere,primary-vision,secondary-abstract_tought,primary-concreteness]
+5-(Dust Lyrics.txt_4-13)-[]
+6-(Dust Lyrics.txt_4-14)-[primary-height]
+half
+7-(Dust Lyrics.txt_5-19)-[primary-depth,secondary-abstract_tought,secondary-temporal_repere]
+8-(Dust Lyrics.txt_6-26)-[primary-concreteness]
+9-(Dust Lyrics.txt_6-27)-[emotions-aggression]
+10-(Dust Lyrics.txt_6-28)-[]
+11-(Dust Lyrics.txt_7-35)-[]
+12-(Dust Lyrics.txt_7-36)-[secondary-temporal_repere,secondary-instru_behavior]
+13-(Dust Lyrics.txt_8-44)-[secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Dust Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wrens-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,dust,sn1),def_prop(Wrens,[istituzione]),def_prop(Lyrics,[informa,tecno])])
+lf(Dust Lyrics.txt_2,3,cl3-not-nil-tell-[ccomp-prop-will-nil,obj-theme_aff-me-sn2,xcomp-purpose-will-2,subj-agent-somebody-sn1,def_prop(me,[umano]),def_prop(somebody,[umano])])
+lf(Dust Lyrics.txt_2,3,cl2-nil-will-will-[])
+lf(Dust Lyrics.txt_3,7,cl6-nil-nil-be-[cmod-coord-be-and,subj-theme_bound-here-sn6,xcomp-prop-here-sn5,subj-theme_bound-it-sn4,adj-(mod)-years-nil,def_prop(here,[istituzione]),def_prop(here,[istituzione]),def_prop(it,[any]),def_prop(years,[tempo])])
+lf(Dust Lyrics.txt_3,7,cl5-nil-nil-notice-[ccomp-prop-be-2,subj-actor-i-sn3,aux-have-nil,def_prop(i,[umano])])
+lf(Dust Lyrics.txt_3,7,cl4-nil-nil-come-[subj-agent-you-sn1,aux-been-nil,progr-coming-nil,aux-(is)-nil,def_prop(you,[umano])])
+lf(Dust Lyrics.txt_4,13,cl8-nil-nil-take-[obj2-goal-hill-sn5,subj-agent-you-sn4,def_prop(hill,[oggetto]),def_prop(you,[umano])])
+lf(Dust Lyrics.txt_4,13,cl7-nil-nil-be-[xcomp-prop-one-sn2,subj-theme_bound-you-sn1,def_prop(one,[umano]),def_prop(you,[umano])])
+lf(Dust Lyrics.txt_5,19,cl10-nil-nil-be-[savv-result-time-sn4,xcomp-purpose-be-3,def_prop(time,[tempo])])
+lf(Dust Lyrics.txt_5,19,cl9-nil-nil-hide-[adj-temporal-time-nil,subj-sn1-it-sn3,obj-patient-underground-sn2,subj-agent-you-sn1,def_prop(time,[tempo]),def_prop(it,[any]),def_prop(underground,[istituzione]),def_prop(you,[umano])])
+lf(Dust Lyrics.txt_6,26,cl13-nil-nil-be-[subj-theme_bound-you-sn9,def_prop(you,[umano])])
+lf(Dust Lyrics.txt_6,26,cl12-nil-nil-keep-[iobj-goal-oak-sn5,xcomp-prop-gun-sn4,subj-experiencer-i-sn3,and(gun,all,sn4),def_prop(oak,[plant]),def_prop(gun,[attivita,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(Dust Lyrics.txt_6,26,cl11-nil-nil-get-[xcomp-prop-away-sn2,subj-theme_bound-i-sn1,def_prop(away,[evaluative]),def_prop(i,[umano])])
+lf(Dust Lyrics.txt_7,35,cl15-nil-nil-forget-[cmod-subord-forget-because,adj-(mod)-never-nil,subj-experiencer-i-sn4,def_prop(i,[umano])])
+lf(Dust Lyrics.txt_7,35,cl14-nil-will-ready-[subj-agent-you-sn1,aux-be-nil,def_prop(you,[umano])])
+lf(Dust Lyrics.txt_8,44,nil-nil-nil-bleed-[obj-cause-history-sn2,subj-agent-father-sn1,and(history,everyday,sn2),def_prop(history,[astratto,attivita,informa,tempo]),def_prop(father,[umano])])

@@ -1,0 +1,153 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Bad Idea Lyrics.txt_1-1  []-negative  [neg]
+Bad Idea Lyrics.txt_2-3  []-positive  [fgb]
+Bad Idea Lyrics.txt_2-4  []-positive  []
+Bad Idea Lyrics.txt_3-7  []-negative  [neg]
+Bad Idea Lyrics.txt_4-12  []-negative  []
+Bad Idea Lyrics.txt_5-18  []-negative  [neg]
+Bad Idea Lyrics.txt_6-24  [if-hypoth]-positive  [fgb]
+Bad Idea Lyrics.txt_7-33  []-positive  [fgb]
+Bad Idea Lyrics.txt_7-33  []-suspension  [fgb,fhd,neg]
+Bad Idea Lyrics.txt_8-42  [but-advers,when-temp_coinc]-negative  [fgb,neg]
+Bad Idea Lyrics.txt_9-53  []-negative  [neg]
+Bad Idea Lyrics.txt_9-54  []-positive  []
+Bad Idea Lyrics.txt_10-65  []-positive  []
+Bad Idea Lyrics.txt_11-77  []-negative  []
+Bad Idea Lyrics.txt_11-78  []-positive  []
+Bad Idea Lyrics.txt_12-91  [but-advers]-suspension  [fgb,fhd]
+Bad Idea Lyrics.txt_13-105  []-question  []
+Bad Idea Lyrics.txt_14-119  []-negative  [neg]
+Bad Idea Lyrics.txt_14-120  []-negative  [neg,neg]
+Bad Idea Lyrics.txt_15-135  [when-temp_coinc]-positive  []
+Bad Idea Lyrics.txt_16-151  []-suspension  [fgb,neg,neg,neg]
+Bad Idea Lyrics.txt_17-169  []-negative  []
+Bad Idea Lyrics.txt_18-187  [before-temp_prec]-positive  [bkc]
+Bad Idea Lyrics.txt_18-188  []-positive  []
+Bad Idea Lyrics.txt_19-207  []-positive  []
+Bad Idea Lyrics.txt_20-228  [but-advers]-positive  [fgb,neg,fhd]
+Bad Idea Lyrics.txt_21-249  []-positive  []
+Bad Idea Lyrics.txt_21-250  []-positive  []
+Bad Idea Lyrics.txt_22-272  []-positive  []
+Bad Idea Lyrics.txt_23-295  []-negative  [neg]
+Bad Idea Lyrics.txt_24-319  []-positive  [bkc]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Bad Idea Lyrics.txt_1-1  [bad,Idea,Lyrics,by,Yuna]  [title]
+Bad Idea Lyrics.txt_2-3  [i,this,?,what,is]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(feel,[internal,factive,narration,foreground,objective])]
+Bad Idea Lyrics.txt_2-4  [feel,about,you]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(feel,[internal,factive,narration,foreground,objective])]
+Bad Idea Lyrics.txt_3-7  [hoping,not,to,make,it,an,issue]  [reject_expl_just(hope,[external,factive,narration,foreground,objective]),reject_expl_just(make,[external,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_4-12  [i,don-t,want,to,be,nice,at_all]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Bad Idea Lyrics.txt_5-18  [you,are,only,causing,trouble]  [reject_expl_just(cause,[external,factive,cause,foreground,objective])]
+Bad Idea Lyrics.txt_6-24  [are,you,can,stay,if,you,want,to]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_7-33  [and,being,in,love]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(seem,[external,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_7-33  [and,being,in,love,with,you,seems,like,a,bad,idea]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(seem,[external,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_8-42  [but,when,i,am,not,with,you,i,am,wishing,i,could,have,you,nearer]  [reject_expl_just(have,[external,nonfactive,circumstance,background,objective]),propose_opin_neg(have,[external,nonfactive,circumstance,background,objective])]
+Bad Idea Lyrics.txt_9-53  [please,do,not,allow,me,to,miss]  [reject_expl_just(miss,[external,factive,narration,background,objective]),reject_expl_just(allow,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_9-54  [you]  [provide_expl_just(miss,[external,factive,narration,background,objective]),provide_expl_just(allow,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_10-65  [i,am,trying,my,best,to,keep,my,distance]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,foreground,objective])]
+Bad Idea Lyrics.txt_11-77  [i,don-t,want,to,give]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_11-78  [you,my,heart]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_12-91  [but,it,seems,to,like,you,a,lot]  [provide_expl_just(seem,[external,factive,narration,background,objective]),provide_expl_just(like,[external,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_13-105  [too,,,way,same,the,you,feel,do,?]  [provide_expl_just(feel,[internal,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_14-119  [i,am,never,going,to]  [reject_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+Bad Idea Lyrics.txt_14-120  [,,never,going,to,,,never,going,to]  [reject_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+Bad Idea Lyrics.txt_15-135  [be,that,girl,again,who,trust,you,when,you,are,over]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_16-151  [and,falling,in,love,with,the,wrong,kind,of,boy,who,will,only,break,my,heart,to]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_17-169  [a,million,pieces]  [provide_expl_just(piece,[external,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_18-187  [i,oh,went,through,it,before]  [provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Bad Idea Lyrics.txt_18-188  [i,have,had,enough,heartaches]  [provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Bad Idea Lyrics.txt_19-207  [now,i,am,trying,be,smart,about,it]  [provide_expl_just(try,[external,factive,narration,foreground,objective]),provide_expl_just(smart,[external,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_20-228  [but,you,just,crash,in,like,the,waves]  [provide_expl_just(be,[external,factive,adverse,background,objective])]
+Bad Idea Lyrics.txt_21-249  [i,all,now,think,about,is]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_21-250  [you]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_22-272  [you,near,you,near,you,near,you,near]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_23-295  [such,bad,idea]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Bad Idea Lyrics.txt_24-319  [okay]  [accept_expl_opin(okay,[external,factive,narration,background,objective]),provide_expl_just(okay,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Bad Idea Lyrics.txt_1-1)-[]
+2-(Bad Idea Lyrics.txt_2-3)-[]
+3-(Bad Idea Lyrics.txt_2-4)-[]
+4-(Bad Idea Lyrics.txt_3-7)-[secondary-instru_behavior]
+5-(Bad Idea Lyrics.txt_4-12)-[]
+6-(Bad Idea Lyrics.txt_5-18)-[emotions-anxiety]
+7-(Bad Idea Lyrics.txt_6-24)-[]
+8-(Bad Idea Lyrics.txt_7-33)-[emotions-affection]
+9-(Bad Idea Lyrics.txt_7-33)-[emotions-affection,primary-vision,emotions-affection,secondary-abstract_tought]
+10-(Bad Idea Lyrics.txt_8-42)-[secondary-temporal_repere,primary-concreteness]
+11-(Bad Idea Lyrics.txt_9-53)-[secondary-social_behavior,secondary-social_behavior]
+12-(Bad Idea Lyrics.txt_9-54)-[]
+13-(Bad Idea Lyrics.txt_10-65)-[secondary-instru_behavior,primary-concreteness]
+14-(Bad Idea Lyrics.txt_11-77)-[]
+15-(Bad Idea Lyrics.txt_11-78)-[primary-narcissism]
+half
+16-(Bad Idea Lyrics.txt_12-91)-[primary-vision,emotions-affection]
+17-(Bad Idea Lyrics.txt_13-105)-[]
+18-(Bad Idea Lyrics.txt_14-119)-[]
+19-(Bad Idea Lyrics.txt_14-120)-[]
+20-(Bad Idea Lyrics.txt_15-135)-[secondary-temporal_repere,secondary-temporal_repere,primary-concreteness]
+21-(Bad Idea Lyrics.txt_16-151)-[emotions-affection,emotions-affection,emotions-aggression,primary-narcissism]
+22-(Bad Idea Lyrics.txt_17-169)-[]
+23-(Bad Idea Lyrics.txt_18-187)-[]
+24-(Bad Idea Lyrics.txt_18-188)-[]
+25-(Bad Idea Lyrics.txt_19-207)-[secondary-temporal_repere,secondary-instru_behavior]
+26-(Bad Idea Lyrics.txt_20-228)-[emotions-affection,primary-random_movement]
+27-(Bad Idea Lyrics.txt_21-249)-[secondary-temporal_repere,secondary-abstract_tought]
+28-(Bad Idea Lyrics.txt_21-250)-[]
+29-(Bad Idea Lyrics.txt_22-272)-[primary-concreteness,primary-concreteness,primary-concreteness,primary-concreteness]
+30-(Bad Idea Lyrics.txt_23-295)-[secondary-abstract_tought]
+31-(Bad Idea Lyrics.txt_24-319)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Bad Idea Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Yuna-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Idea,sn1),and(Lyrics,bad,sn1),def_prop(Yuna,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Bad Idea Lyrics.txt_2,3,cl3-nil-nil-feel-[ncmod-subj_disc-you-sn3,def_prop(you,[umano])])
+lf(Bad Idea Lyrics.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-this-sn1,and(this,i,sn1),def_prop(this,[oggetto,umano])])
+lf(Bad Idea Lyrics.txt_3,7,cl5-nil-nil-make-[obj-prop-issue-sn2,xadj-result-hope-2,def_prop(issue,[astratto,attivita,informa,oggetto])])
+lf(Bad Idea Lyrics.txt_3,7,cl4-not-nil-hope-[subj-actor-it-sn1,def_prop(it,[any])])
+lf(Bad Idea Lyrics.txt_4,12,cl7-nil-nil-be-[xcomp-prop-at_all-sn2,xcomp-purpose-be-2,and(at_all,nice,sn2),def_prop(at_all,[informa,tecno])])
+lf(Bad Idea Lyrics.txt_4,12,cl6-not-nil-want-[subj-actor-i-sn1,aux-do-nil,def_prop(i,[umano])])
+lf(Bad Idea Lyrics.txt_5,18,cl8-nil-nil-cause-[obj-tema_eff-trouble-sn2,subj-causer-you-sn1,aux-are-nil,progr-causing-nil,def_prop(trouble,[astratto,attivita,evento,stato]),def_prop(you,[umano])])
+lf(Bad Idea Lyrics.txt_6,24,cl11-nil-nil-want-[cmod-subord-want-if,subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Bad Idea Lyrics.txt_6,24,cl10-nil-nil-stay-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Bad Idea Lyrics.txt_6,24,cl9-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bad Idea Lyrics.txt_7,33,cl13-nil-nil-seem-[xcomp-purpose-be-2,cmod-subord-seem-",iobj-goal-love-sn1,def_prop(love,[astratto,emotivo,nquant])])
+lf(Bad Idea Lyrics.txt_7,33,cl12-nil-nil-be-[cmod-coord-seem-and,ncmod-comitativo-you-sn3,ncmod-prop-love-sn2,def_prop(you,[umano]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Bad Idea Lyrics.txt_8,42,cl16-nil-could-have-[xcomp-prop-nearer-sn5,subj-experiencer-you-sn4,subj-experiencer-you-sn3,and(you,i,sn3),def_prop(nearer,[misura]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Bad Idea Lyrics.txt_8,42,cl15-nil-nil-wish-[cmod-subord-have-when,xcomp-prop-nearer-sn9,obj-theme_unaff-you-sn8,subj-experiencer-i-sn7,aux-am-nil,progr-wishing-nil,def_prop(nearer,[misura]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Bad Idea Lyrics.txt_8,42,cl14-nil-nil-be-[ncmod-comitativo-you-sn2,subj-theme_bound-i-sn1,def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Bad Idea Lyrics.txt_9,53,cl19-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Bad Idea Lyrics.txt_9,53,cl18-nil-nil-miss-[adj-(mod)-be-nil,subj-tema_eff-me-sn1,def_prop(me,[umano])])
+lf(Bad Idea Lyrics.txt_9,53,cl17-not-nil-allow-[adj-(mod)-please-nil,subj_top-theme_unaff-me-sn1,aux-do-nil,def_prop(me,[umano])])
+lf(Bad Idea Lyrics.txt_10,65,cl21-nil-nil-keep-[obj-goal-distance-sn3,xadj-result-keep-3,def_prop(distance,[astratto,emotivo,luogo,tempo])])
+lf(Bad Idea Lyrics.txt_10,65,cl20-nil-nil-try-[adj-(mod)-best-nil,xcomp-prop-my-sn2,subj-actor-i-sn1,aux-am-nil,progr-trying-nil,def_prop(my,[informa,tecno]),def_prop(i,[umano])])
+lf(Bad Idea Lyrics.txt_11,77,cl24-nil-nil-be-[xcomp-prop-hear-sn3,subj-theme_bound-you-sn2,def_prop(hear,[istituzione]),def_prop(you,[umano])])
+lf(Bad Idea Lyrics.txt_11,77,cl23-nil-nil-give-[subj-goal-i-sn1,def_prop(i,[umano])])
+lf(Bad Idea Lyrics.txt_11,77,cl22-not-nil-want-[subj-actor-i-sn1,aux-do-nil,def_prop(i,[umano])])
+lf(Bad Idea Lyrics.txt_12,91,nil-nil-nil-like-[])
+lf(Bad Idea Lyrics.txt_12,91,cl25-nil-nil-seem-[xcomp-tema_emot-lot-sn3,xcomp-prop-you-sn2,xcomp-purpose-like-2,subj-actor-it-sn1,def_prop(lot,[luogo,nquant]),def_prop(you,[umano]),def_prop(it,[any])])
+lf(Bad Idea Lyrics.txt_13,105,cl26-nil-nil-feel-[xcomp-tema_emot-way-sn2,subj-experiencer-you-sn1,aux-do-nil,and(way,same,sn2),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Bad Idea Lyrics.txt_14,119,cl27-nil-nil-go-[adj-(mod)-never-nil,subj-agent-you-sn2,subj-agent-i-sn1,neg-never-nil,aux-am-nil,progr-going-nil,def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Bad Idea Lyrics.txt_15,135,cl28-nil-nil-be-[cmod-subord-be-when,xcomp-prop-over-sn7,subj-theme_bound-you-sn6,adj-subj_disc-again-sn2,xcomp-prop-girl-sn1,and(again,you,sn2),and(again,truss,sn2),and(girl,that,sn1),def_prop(over,[istituzione]),def_prop(you,[umano]),def_prop(again,[istituzione]),def_prop(girl,[oggetto,strumento])])
+lf(Bad Idea Lyrics.txt_16,151,cl30-nil-will-will-[cmod-subord-be-",adj-(mod)-only-nil,obj-theme_aff-hear-sn11,subj-agent-break-sn10,subj-agent-kind-sn2,def_prop(only,[]),def_prop(hear,[istituzione]),def_prop(break,[attivita,evento]),def_prop(kind,[astratto])])
+lf(Bad Idea Lyrics.txt_16,151,cl29-nil-nil-be-[ncmod-comitativo-kind-sn2,ncmod-locativo-love-sn1,def_prop(kind,[astratto]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Bad Idea Lyrics.txt_17,169,cl31-nil-nil-piece-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bad Idea Lyrics.txt_18,187,cl33-nil-nil-have-[xcomp-tema_bound-heartache-sn6,subj-experiencer-i-sn5,def_prop(heartache,[emotivo]),def_prop(i,[umano])])
+lf(Bad Idea Lyrics.txt_18,187,cl32-nil-nil-go-[adj-(mod)-before-nil,ncmod-location-it-sn2,subj-agent-oh-sn1,and(oh,i,sn1),def_prop(it,[any]),def_prop(oh,[informa,tecno])])
+lf(Bad Idea Lyrics.txt_19,207,cl35-nil-nil-smart-[xcomp-purpose-be-2])
+lf(Bad Idea Lyrics.txt_19,207,cl34-nil-nil-try-[adj-(mod)-now-nil,subj-actor-i-sn1,aux-am-nil,progr-trying-nil,def_prop(i,[umano])])
+lf(Bad Idea Lyrics.txt_20,228,cl36-nil-nil-be-[xadj-theme-wave-sn3,xcomp-prop-crash-sn2,subj-theme_bound-you-sn1,def_prop(wave,[astratto,attivita,body_part,cambia,evento,informa,umano]),def_prop(crash,[attivita,evento]),def_prop(you,[umano])])
+lf(Bad Idea Lyrics.txt_21,249,cl38-nil-nil-be-[subj-theme_bound-you-sn4,subj-prop-all-sn1,and(all,i,sn1),def_prop(you,[umano]),def_prop(all,[_905764])])
+lf(Bad Idea Lyrics.txt_21,249,cl37-nil-nil-think-[adj-(mod)-now-nil,subj-agent-all-sn1,and(all,i,sn1),def_prop(all,[_905874])])
+lf(Bad Idea Lyrics.txt_22,272,cl39-nil-nil-be-[subj-theme_bound-you-sn3,subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Bad Idea Lyrics.txt_23,295,cl40-nil-nil-be-[ncmod-modal-bad-sn2,subj-theme_bound-you-sn1,def_prop(bad,[astratto]),def_prop(you,[umano])])
+lf(Bad Idea Lyrics.txt_24,319,cl41-nil-nil-okay-[subj-agent-pro-nil])

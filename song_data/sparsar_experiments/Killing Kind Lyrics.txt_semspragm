@@ -1,0 +1,283 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Killing Kind Lyrics.txt_1-1  []-negative  []
+Killing Kind Lyrics.txt_2-3  []-negative  []
+Killing Kind Lyrics.txt_3-6  [though-advers]-suspension  [neg,fgb]
+Killing Kind Lyrics.txt_4-10  []-positive  [fgb]
+Killing Kind Lyrics.txt_4-11  []-negative  [neg,neg]
+Killing Kind Lyrics.txt_5-16  [when-temp_coinc]-positive  []
+Killing Kind Lyrics.txt_6-22  []-negative  [neg]
+Killing Kind Lyrics.txt_7-30  [so-result]-positive  [fgb]
+Killing Kind Lyrics.txt_7-31  []-positive  []
+Killing Kind Lyrics.txt_8-39  []-suspension  [neg,neg]
+Killing Kind Lyrics.txt_9-48  []-negative  [fgb]
+Killing Kind Lyrics.txt_10-58  []-positive  []
+Killing Kind Lyrics.txt_10-59  []-positive  []
+Killing Kind Lyrics.txt_11-70  []-positive  []
+Killing Kind Lyrics.txt_12-83  []-positive  [bkc]
+Killing Kind Lyrics.txt_13-96  []-positive  [bkc]
+Killing Kind Lyrics.txt_14-110  []-negative  []
+Killing Kind Lyrics.txt_15-125  []-positive  []
+Killing Kind Lyrics.txt_15-126  []-negative  [neg]
+Killing Kind Lyrics.txt_16-142  [when-temp_coinc]-suspension  [neg,neg,neg,neg]
+Killing Kind Lyrics.txt_16-143  []-negative  [neg,neg]
+Killing Kind Lyrics.txt_17-160  []-positive  [fgb]
+Killing Kind Lyrics.txt_17-161  []-positive  []
+Killing Kind Lyrics.txt_18-180  [so-result]-positive  [fgb]
+Killing Kind Lyrics.txt_18-181  []-positive  []
+Killing Kind Lyrics.txt_19-200  []-suspension  [neg,neg]
+Killing Kind Lyrics.txt_20-220  []-negative  [fgb]
+Killing Kind Lyrics.txt_20-220  []-negative  [fgb]
+Killing Kind Lyrics.txt_21-241  []-negative  [neg]
+Killing Kind Lyrics.txt_21-242  []-positive  [fgb]
+Killing Kind Lyrics.txt_22-265  []-positive  []
+Killing Kind Lyrics.txt_23-289  []-positive  [bkc]
+Killing Kind Lyrics.txt_24-313  []-positive  [bkc]
+Killing Kind Lyrics.txt_25-338  []-negative  []
+Killing Kind Lyrics.txt_26-364  []-positive  []
+Killing Kind Lyrics.txt_27-391  []-positive  [neg]
+Killing Kind Lyrics.txt_28-419  []-positive  []
+Killing Kind Lyrics.txt_28-420  [then-temp_seq]-positive  []
+Killing Kind Lyrics.txt_29-449  []-suspension  []
+Killing Kind Lyrics.txt_29-450  []-positive  []
+Killing Kind Lyrics.txt_30-480  []-positive  []
+Killing Kind Lyrics.txt_31-511  []-positive  [neg]
+Killing Kind Lyrics.txt_32-543  []-positive  []
+Killing Kind Lyrics.txt_32-544  [then-temp_seq]-positive  []
+Killing Kind Lyrics.txt_33-577  []-suspension  []
+Killing Kind Lyrics.txt_33-578  []-positive  []
+Killing Kind Lyrics.txt_34-612  []-positive  []
+Killing Kind Lyrics.txt_35-647  []-positive  [neg]
+Killing Kind Lyrics.txt_36-683  []-positive  []
+Killing Kind Lyrics.txt_36-684  [then-temp_seq]-positive  []
+Killing Kind Lyrics.txt_37-721  []-suspension  []
+Killing Kind Lyrics.txt_37-722  []-positive  []
+Killing Kind Lyrics.txt_38-760  []-positive  []
+Killing Kind Lyrics.txt_39-799  []-positive  [neg]
+Killing Kind Lyrics.txt_40-839  []-positive  []
+Killing Kind Lyrics.txt_40-840  [then-temp_seq]-positive  []
+Killing Kind Lyrics.txt_41-881  []-suspension  []
+Killing Kind Lyrics.txt_41-882  []-positive  []
+Killing Kind Lyrics.txt_42-924  []-positive  []
+Killing Kind Lyrics.txt_43-968  []-positive  [bkc]
+Killing Kind Lyrics.txt_44-1012  []-negative  []
+Killing Kind Lyrics.txt_45-1057  []-positive  []
+Killing Kind Lyrics.txt_45-1058  []-positive  []
+Killing Kind Lyrics.txt_46-1104  []-negative  []
+Killing Kind Lyrics.txt_47-1151  []-negative  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Killing Kind Lyrics.txt_1-1  [killing,Kind,Lyrics,by,Wolf,Gang,UK]  [title]
+Killing Kind Lyrics.txt_2-3  [killing,Kind]  reject_expl_opin(nil,[])
+Killing Kind Lyrics.txt_3-6  [two,strike,though,you,are,blackened,and,bruised]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Killing Kind Lyrics.txt_4-10  [and,you,are,feeling,brave]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_4-11  [now,there,is,nothing,to,lose]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_5-16  [when,all,of,the,lights,are,focused,on,you]  [provide_expl_just(focus,[external,factive,narration,foreground,objective])]
+Killing Kind Lyrics.txt_6-22  [there,will,be,no,where,to,hide]  [reject_expl_just(be,[external,nonfactive,narration,background,objective]),reject_expl_just(hide,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_7-30  [so,you,open]  [provide_expl_just(turn,[external,factive,result,background,objective])]
+Killing Kind Lyrics.txt_7-31  [your,eyes,turn,your,back,of,the,city]  [provide_expl_just(turn,[external,factive,result,background,objective])]
+Killing Kind Lyrics.txt_8-39  [never,falter,,,just,keep,walking]  [provide_expl_just(walk,[external,factive,narration,foreground,objective])]
+Killing Kind Lyrics.txt_9-48  [and,into,the,arms,of,the,next,sweet,talker]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_10-58  [lovers,daughter,God,give,me]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(shelter,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_10-59  [shelter]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(shelter,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_11-70  [cause,your,love,is,the,killing,the,kind]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_12-83  [yeah,your,love,is,the,killing,kind]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_13-96  [yeah,your,love,is,the,killing,kind]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_14-110  [the,killing,kind]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_15-125  [you,reach]  [provide_expl_just(reach,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_15-126  [the,point,of,no,return,you,are,on_your_own]  [reject_expl_just(reach,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_16-142  [friday,nights,when,you,came,undone,for,a,little,fun,.,you,came,undone]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_16-143  [for,a,little,fun]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_17-160  [and,you,keep,them,wishing]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(keep,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_17-161  [they,were,in,control]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(keep,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_18-180  [so,we,open]  [provide_expl_just(turn,[external,factive,result,background,objective])]
+Killing Kind Lyrics.txt_18-181  [our,eyes,turn,our,backs,on,the,city]  [provide_expl_just(turn,[external,factive,result,background,objective])]
+Killing Kind Lyrics.txt_19-200  [never,falter,,,just,keep,walking]  [provide_expl_just(walk,[external,factive,narration,foreground,objective])]
+Killing Kind Lyrics.txt_20-220  [and,wait,for,the,arms,of,the,next,sweet,talker]  [provide_expl_just(wait,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_20-220  [and,wait,for,the,arms,of,the,next,sweet,talker]  [provide_expl_just(wait,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_21-241  [we,crossed]  [reject_expl_just(cross,[external,factive,cause,foreground,objective])]
+Killing Kind Lyrics.txt_21-242  [and,God,give,us,shelter]  [provide_expl_just(cross,[external,factive,cause,foreground,objective])]
+Killing Kind Lyrics.txt_22-265  [cause,your,love,is,the,killing,the,kind]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_23-289  [yeah,your,love,is,the,killing,kind]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_24-313  [yeah,your,love,is,the,killing,kind]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_25-338  [the,killing,kind]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_26-364  [run,to,the,lake,now]  [provide_expl_just(run,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_27-391  [jump,in,the,cold,blue]  [provide_expl_just(jump,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_28-419  [we,need,a,vow]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_28-420  [then]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_29-449  [i,will,find]  [provide_expl_just(find,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_29-450  [you]  [provide_expl_just(find,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_30-480  [run,to,the,lake,now]  [provide_expl_just(run,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_31-511  [jump,in,the,cold,blue]  [provide_expl_just(jump,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_32-543  [we,need,a,vow]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_32-544  [then]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_33-577  [i,will,find]  [provide_expl_just(find,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_33-578  [you]  [provide_expl_just(find,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_34-612  [run,to,the,lake,now]  [provide_expl_just(run,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_35-647  [jump,in,the,cold,blue]  [provide_expl_just(jump,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_36-683  [we,need,a,vow]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_36-684  [then]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_37-721  [i,will,find]  [provide_expl_just(find,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_37-722  [you]  [provide_expl_just(find,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_38-760  [run,to,the,lake,now]  [provide_expl_just(run,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_39-799  [jump,in,the,cold,blue]  [provide_expl_just(jump,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_40-839  [we,need,a,vow]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_40-840  [then]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_41-881  [i,will,find]  [provide_expl_just(find,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_41-882  [you]  [provide_expl_just(find,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_42-924  [cause,your,love,is,the,killing,the,kind]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_43-968  [yeah,your,love,is,the,killing,kind]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_44-1012  [the,killing,kind]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_45-1057  [god,give,me]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(shelter,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_45-1058  [shelter]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(shelter,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_46-1104  [the,killing,kind]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Killing Kind Lyrics.txt_47-1151  [the,killing,kind]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Killing Kind Lyrics.txt_1-1)-[]
+2-(Killing Kind Lyrics.txt_2-3)-[]
+3-(Killing Kind Lyrics.txt_3-6)-[emotions-aggression]
+4-(Killing Kind Lyrics.txt_4-10)-[]
+5-(Killing Kind Lyrics.txt_4-11)-[secondary-temporal_repere]
+6-(Killing Kind Lyrics.txt_5-16)-[secondary-temporal_repere,primary-vision]
+7-(Killing Kind Lyrics.txt_6-22)-[primary-concreteness]
+8-(Killing Kind Lyrics.txt_7-30)-[primary-concreteness]
+9-(Killing Kind Lyrics.txt_7-31)-[primary-narcissism,primary-concreteness]
+10-(Killing Kind Lyrics.txt_8-39)-[]
+11-(Killing Kind Lyrics.txt_9-48)-[primary-narcissism,primary-taste,secondary-social_behavior]
+12-(Killing Kind Lyrics.txt_10-58)-[primary-sex]
+13-(Killing Kind Lyrics.txt_10-59)-[secondary-social_behavior]
+14-(Killing Kind Lyrics.txt_11-70)-[secondary-abstract_tought,emotions-affection,emotions-affection]
+15-(Killing Kind Lyrics.txt_12-83)-[emotions-affection,emotions-affection]
+16-(Killing Kind Lyrics.txt_13-96)-[emotions-affection,emotions-affection]
+17-(Killing Kind Lyrics.txt_14-110)-[emotions-affection]
+18-(Killing Kind Lyrics.txt_15-125)-[secondary-instru_behavior]
+19-(Killing Kind Lyrics.txt_15-126)-[primary-concreteness]
+20-(Killing Kind Lyrics.txt_16-142)-[secondary-temporal_repere,emotions-positive_affect]
+21-(Killing Kind Lyrics.txt_16-143)-[emotions-positive_affect]
+22-(Killing Kind Lyrics.txt_17-160)-[secondary-abstract_tought]
+23-(Killing Kind Lyrics.txt_17-161)-[secondary-restraint]
+24-(Killing Kind Lyrics.txt_18-180)-[primary-concreteness]
+25-(Killing Kind Lyrics.txt_18-181)-[primary-narcissism,primary-concreteness]
+26-(Killing Kind Lyrics.txt_19-200)-[]
+27-(Killing Kind Lyrics.txt_20-220)-[primary-narcissism,primary-taste,secondary-social_behavior]
+28-(Killing Kind Lyrics.txt_20-220)-[primary-narcissism,primary-taste,secondary-social_behavior]
+29-(Killing Kind Lyrics.txt_21-241)-[]
+30-(Killing Kind Lyrics.txt_21-242)-[secondary-social_behavior]
+31-(Killing Kind Lyrics.txt_22-265)-[secondary-abstract_tought,emotions-affection,emotions-affection]
+32-(Killing Kind Lyrics.txt_23-289)-[emotions-affection,emotions-affection]
+half
+33-(Killing Kind Lyrics.txt_24-313)-[emotions-affection,emotions-affection]
+34-(Killing Kind Lyrics.txt_25-338)-[emotions-affection]
+35-(Killing Kind Lyrics.txt_26-364)-[primary-water,secondary-temporal_repere]
+36-(Killing Kind Lyrics.txt_27-391)-[primary-ascend,primary-cold,primary-vision]
+37-(Killing Kind Lyrics.txt_28-419)-[]
+38-(Killing Kind Lyrics.txt_28-420)-[secondary-temporal_repere]
+39-(Killing Kind Lyrics.txt_29-449)-[secondary-instru_behavior]
+40-(Killing Kind Lyrics.txt_29-450)-[]
+41-(Killing Kind Lyrics.txt_30-480)-[primary-water,secondary-temporal_repere]
+42-(Killing Kind Lyrics.txt_31-511)-[primary-ascend,primary-cold,primary-vision]
+43-(Killing Kind Lyrics.txt_32-543)-[]
+44-(Killing Kind Lyrics.txt_32-544)-[secondary-temporal_repere]
+45-(Killing Kind Lyrics.txt_33-577)-[secondary-instru_behavior]
+46-(Killing Kind Lyrics.txt_33-578)-[]
+47-(Killing Kind Lyrics.txt_34-612)-[primary-water,secondary-temporal_repere]
+48-(Killing Kind Lyrics.txt_35-647)-[primary-ascend,primary-cold,primary-vision]
+49-(Killing Kind Lyrics.txt_36-683)-[]
+50-(Killing Kind Lyrics.txt_36-684)-[secondary-temporal_repere]
+51-(Killing Kind Lyrics.txt_37-721)-[secondary-instru_behavior]
+52-(Killing Kind Lyrics.txt_37-722)-[]
+53-(Killing Kind Lyrics.txt_38-760)-[primary-water,secondary-temporal_repere]
+54-(Killing Kind Lyrics.txt_39-799)-[primary-ascend,primary-cold,primary-vision]
+55-(Killing Kind Lyrics.txt_40-839)-[]
+56-(Killing Kind Lyrics.txt_40-840)-[secondary-temporal_repere]
+57-(Killing Kind Lyrics.txt_41-881)-[secondary-instru_behavior]
+58-(Killing Kind Lyrics.txt_41-882)-[]
+59-(Killing Kind Lyrics.txt_42-924)-[secondary-abstract_tought,emotions-affection,emotions-affection]
+60-(Killing Kind Lyrics.txt_43-968)-[emotions-affection,emotions-affection]
+61-(Killing Kind Lyrics.txt_44-1012)-[emotions-affection]
+62-(Killing Kind Lyrics.txt_45-1057)-[]
+63-(Killing Kind Lyrics.txt_45-1058)-[secondary-social_behavior]
+64-(Killing Kind Lyrics.txt_46-1104)-[emotions-affection]
+65-(Killing Kind Lyrics.txt_47-1151)-[emotions-affection]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Killing Kind Lyrics.txt_1,1,cl1-nil-nil-gang-[obj-theme-UK-sn3,arg_mod-agent-Wolf-sn2,subj-actor-Lyrics-sn1,and(Lyrics,Kind,sn1),and(Lyrics,killing,sn1),def_prop(UK,[istituzione,umano]),def_prop(Wolf,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Killing Kind Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-Kind-sn1,and(Kind,killing,sn1),def_prop(Kind,[astratto,stato])])
+lf(Killing Kind Lyrics.txt_3,6,cl3-nil-nil-be-[adj-(mod)-though-nil,xcomp-prop-bruised-sn4,subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,and(bruised,blackened,sn4),and(you,strike,sn1),def_prop(bruised,[istituzione]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_4,10,cl5-nil-nil-be-[adj-(mod)-now-nil,xcomp-prop-nothing-sn4,subj-theme_bound-there-sn3,cmod-subord-be-",def_prop(nothing,[astratto,informa,oggetto]),def_prop(there,[any])])
+lf(Killing Kind Lyrics.txt_4,10,cl4-nil-nil-feel-[xcomp-prop-brave-sn2,subj-experiencer-you-sn1,aux-are-nil,progr-feeling-nil,def_prop(brave,[valutativo]),def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_5,16,cl6-nil-nil-focus-[iobj-goal-you-sn3,obj-theme-when-sn2,subj-theme-all-sn1,aux-are-nil,def_prop(you,[umano]),def_prop(when,[tempo]),def_prop(all,[_268138])])
+lf(Killing Kind Lyrics.txt_6,22,cl8-nil-nil-hide-[])
+lf(Killing Kind Lyrics.txt_6,22,cl7-nil-will-be-[])
+lf(Killing Kind Lyrics.txt_7,30,cl10-nil-nil-turn-[xcomp-prop-your-sn3,subj-agent-eye-sn2,def_prop(your,[evaluative]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(Killing Kind Lyrics.txt_7,30,cl9-nil-nil-open-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_8,39,cl11-nil-nil-walk-[adj-(mod)-never-nil,subj-actor-keep-sn2,subj-actor-keep-sn1,and(keep,falter,sn1),def_prop(keep,[oggetto,strumento]),def_prop(keep,[oggetto,strumento])])
+lf(Killing Kind Lyrics.txt_9,48,cl12-nil-nil-be-[cmod-subord-be-",ncmod-specif-talker-sn2,subj-theme_bound-you-sn1,and(talker,next,sn2),and(talker,sweet,sn2),def_prop(talker,[relat,sociale,umano]),def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_10,58,cl14-nil-nil-shelter-[subj-agent-you-sn6,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_10,58,cl13-nil-nil-give-[obj-goal-me-sn3,subj-actor-God-sn2,subj-actor-God-sn1,and(God,daughter,sn1),def_prop(me,[umano]),def_prop(God,[animato]),def_prop(God,[animato])])
+lf(Killing Kind Lyrics.txt_11,70,cl16-nil-nil-be-[xcomp-prop-killing-sn3,xcomp-purpose-be-2,def_prop(killing,[astratto,attivita,evento,oggetto])])
+lf(Killing Kind Lyrics.txt_11,70,cl15-nil-nil-cause-[obj-tema_eff-love-sn2,subj-causer-you-sn1,def_prop(love,[astratto,emotivo,nquant]),def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_12,83,cl17-nil-nil-be-[adj-(mod)-yeah-nil,xcomp-prop-kind-sn2,subj-theme_bound-love-sn1,and(kind,killing,sn2),def_prop(kind,[astratto]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Killing Kind Lyrics.txt_13,96,cl18-nil-nil-be-[adj-(mod)-yeah-nil,xcomp-prop-kind-sn2,subj-theme_bound-love-sn1,and(kind,killing,sn2),def_prop(kind,[astratto]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Killing Kind Lyrics.txt_14,110,cl19-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_15,125,cl21-nil-nil-be-[xcomp-prop-on_your_own-sn3,subj-theme_bound-point-sn2,def_prop(on_your_own,[informa,tecno]),def_prop(point,[astratto,attivita,informa,luogo,nquant,oggetto,relat,strumento,tempo])])
+lf(Killing Kind Lyrics.txt_15,125,cl20-nil-nil-reach-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_16,142,cl23-nil-nil-be-[subj-theme_bound-you-sn9,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_16,142,cl22-nil-nil-come-[adj-(mod)-female-nil,xcomp-prop-undone-sn5,subj-agent-you-sn1,def_prop(female,[tempo]),def_prop(undone,[evaluative]),def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_17,160,cl26-nil-nil-be-[ncmod-locativo-control-sn4,subj-theme_bound-they-sn3,cmod-subord-be-",def_prop(control,[astratto,attivita,informa,oggetto,relat,strumento,umano]),def_prop(they,[umano])])
+lf(Killing Kind Lyrics.txt_17,160,cl25-nil-nil-wish-[subj-benef-you-sn1,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_17,160,cl24-nil-nil-keep-[obj-goal-them-sn2,subj-experiencer-you-sn1,def_prop(them,[umano]),def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_18,180,cl28-nil-nil-turn-[ncmod-locativo-city-sn4,obj-theme-back-sn3,subj-agent-eye-sn2,def_prop(city,[istituzione,luogo]),def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(Killing Kind Lyrics.txt_18,180,cl27-nil-nil-open-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_19,200,cl29-nil-nil-walk-[adj-(mod)-never-nil,subj-actor-keep-sn2,subj-actor-keep-sn1,and(keep,falter,sn1),def_prop(keep,[oggetto,strumento]),def_prop(keep,[oggetto,strumento])])
+lf(Killing Kind Lyrics.txt_20,220,cl30-nil-nil-wait-[cmod-coord-wait-and,subj-actor-you-sn4,cmod-subord-wait-",subj-actor-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_21,241,cl33-nil-nil-shelter-[cmod-subord-shelter-",subj-theme-us-sn3,def_prop(us,[umano])])
+lf(Killing Kind Lyrics.txt_21,241,cl32-nil-nil-give-[obj-goal-us-sn3,subj-actor-God-sn2,def_prop(us,[umano]),def_prop(God,[animato])])
+lf(Killing Kind Lyrics.txt_21,241,cl31-nil-nil-cross-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_22,265,cl35-nil-nil-be-[xcomp-prop-killing-sn3,xcomp-purpose-be-2,def_prop(killing,[astratto,attivita,evento,oggetto])])
+lf(Killing Kind Lyrics.txt_22,265,cl34-nil-nil-cause-[obj-tema_eff-love-sn2,subj-causer-you-sn1,def_prop(love,[astratto,emotivo,nquant]),def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_23,289,cl36-nil-nil-be-[adj-(mod)-yeah-nil,xcomp-prop-kind-sn2,subj-theme_bound-love-sn1,and(kind,killing,sn2),def_prop(kind,[astratto]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Killing Kind Lyrics.txt_24,313,cl37-nil-nil-be-[adj-(mod)-yeah-nil,xcomp-prop-kind-sn2,subj-theme_bound-love-sn1,and(kind,killing,sn2),def_prop(kind,[astratto]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Killing Kind Lyrics.txt_25,338,cl38-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_26,364,cl39-nil-nil-run-[adj-locative-now-nil,iobj-goal-lake-sn2,subj-agent-you-sn1,def_prop(lake,[oggetto,sostanza]),def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_27,391,cl40-nil-nil-jump-[ncmod-locativo-blue-sn2,subj-agent-you-sn1,and(blue,cold,sn2),def_prop(blue,[animato,astratto,istituzione,oggetto,strumento]),def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_28,419,cl42-nil-nil-be-[])
+lf(Killing Kind Lyrics.txt_28,419,cl41-nil-nil-need-[obj-theme-vow-sn2,subj-experiencer-we-sn1,def_prop(vow,[attivita,informa]),def_prop(we,[umano])])
+lf(Killing Kind Lyrics.txt_29,449,cl44-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_29,449,cl43-nil-will-find-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_30,480,cl45-nil-nil-run-[adj-locative-now-nil,iobj-goal-lake-sn2,subj-agent-you-sn1,def_prop(lake,[oggetto,sostanza]),def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_31,511,cl46-nil-nil-jump-[ncmod-locativo-blue-sn2,subj-agent-you-sn1,and(blue,cold,sn2),def_prop(blue,[animato,astratto,istituzione,oggetto,strumento]),def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_32,543,cl48-nil-nil-be-[])
+lf(Killing Kind Lyrics.txt_32,543,cl47-nil-nil-need-[obj-theme-vow-sn2,subj-experiencer-we-sn1,def_prop(vow,[attivita,informa]),def_prop(we,[umano])])
+lf(Killing Kind Lyrics.txt_33,577,cl50-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_33,577,cl49-nil-will-find-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_34,612,cl51-nil-nil-run-[adj-locative-now-nil,iobj-goal-lake-sn2,subj-agent-you-sn1,def_prop(lake,[oggetto,sostanza]),def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_35,647,cl52-nil-nil-jump-[ncmod-locativo-blue-sn2,subj-agent-you-sn1,and(blue,cold,sn2),def_prop(blue,[animato,astratto,istituzione,oggetto,strumento]),def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_36,683,cl54-nil-nil-be-[])
+lf(Killing Kind Lyrics.txt_36,683,cl53-nil-nil-need-[obj-theme-vow-sn2,subj-experiencer-we-sn1,def_prop(vow,[attivita,informa]),def_prop(we,[umano])])
+lf(Killing Kind Lyrics.txt_37,721,cl56-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_37,721,cl55-nil-will-find-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_38,760,cl57-nil-nil-run-[adj-locative-now-nil,iobj-goal-lake-sn2,subj-agent-you-sn1,def_prop(lake,[oggetto,sostanza]),def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_39,799,cl58-nil-nil-jump-[ncmod-locativo-blue-sn2,subj-agent-you-sn1,and(blue,cold,sn2),def_prop(blue,[animato,astratto,istituzione,oggetto,strumento]),def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_40,839,cl60-nil-nil-be-[])
+lf(Killing Kind Lyrics.txt_40,839,cl59-nil-nil-need-[obj-theme-vow-sn2,subj-experiencer-we-sn1,def_prop(vow,[attivita,informa]),def_prop(we,[umano])])
+lf(Killing Kind Lyrics.txt_41,881,cl62-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_41,881,cl61-nil-will-find-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_42,924,cl64-nil-nil-be-[xcomp-prop-killing-sn3,xcomp-purpose-be-2,def_prop(killing,[astratto,attivita,evento,oggetto])])
+lf(Killing Kind Lyrics.txt_42,924,cl63-nil-nil-cause-[obj-tema_eff-love-sn2,subj-causer-you-sn1,def_prop(love,[astratto,emotivo,nquant]),def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_43,968,cl65-nil-nil-be-[adj-(mod)-yeah-nil,xcomp-prop-kind-sn2,subj-theme_bound-love-sn1,and(kind,killing,sn2),def_prop(kind,[astratto]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Killing Kind Lyrics.txt_44,1012,cl66-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_45,1057,cl68-nil-nil-shelter-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_45,1057,cl67-nil-nil-give-[obj-goal-me-sn2,subj-actor-god-sn1,def_prop(me,[umano]),def_prop(god,[umano])])
+lf(Killing Kind Lyrics.txt_46,1104,cl69-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Killing Kind Lyrics.txt_47,1151,cl70-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])

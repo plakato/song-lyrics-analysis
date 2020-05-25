@@ -1,0 +1,74 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Blue Spark Lyrics.txt_1-1  []-positive  []
+Blue Spark Lyrics.txt_2-3  []-positive  []
+Blue Spark Lyrics.txt_3-6  []-positive  []
+Blue Spark Lyrics.txt_3-7  []-positive  []
+Blue Spark Lyrics.txt_4-11  []-positive  []
+Blue Spark Lyrics.txt_5-16  []-positive  []
+Blue Spark Lyrics.txt_5-17  []-positive  []
+Blue Spark Lyrics.txt_6-22  []-negative  [neg,neg]
+Blue Spark Lyrics.txt_7-29  []-positive  [fgb]
+Blue Spark Lyrics.txt_8-38  []-positive  [fgb,bkc]
+Blue Spark Lyrics.txt_9-47  []-positive  []
+Blue Spark Lyrics.txt_10-58  []-negative  [neg,neg]
+Blue Spark Lyrics.txt_11-69  []-positive  []
+Blue Spark Lyrics.txt_11-70  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Blue Spark Lyrics.txt_1-1  [blue,Spark,Lyrics,by,x]  [title]
+Blue Spark Lyrics.txt_2-3  [blue,spark]  [provide_expl_just(spark,[external,factive,narration,background,objective])]
+Blue Spark Lyrics.txt_3-6  [he,waits,in,a,beach]  [provide_expl_just(spark,[external,factive,narration,background,objective]),provide_expl_just(wait,[external,factive,narration,background,objective])]
+Blue Spark Lyrics.txt_3-7  [apartment,blue,spark]  [provide_expl_just(spark,[external,factive,narration,background,objective]),provide_expl_just(wait,[external,factive,narration,background,objective])]
+Blue Spark Lyrics.txt_4-11  [thousands,of,lights,,,thousands,of,people]  [provide_expl_just(people,[external,factive,narration,background,objective])]
+Blue Spark Lyrics.txt_5-16  [she,is,forgotten]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Blue Spark Lyrics.txt_5-17  [him,for,the,bodies,around,her]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Blue Spark Lyrics.txt_6-22  [blue,blue,exchange,shock,shock,exchange,blue,spark]  [reject_expl_just(spark,[external,factive,narration,background,objective])]
+Blue Spark Lyrics.txt_7-29  [what,goes,between,the,eyes,downtown,,,blue,spark]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(spark,[external,factive,narration,background,objective])]
+Blue Spark Lyrics.txt_8-38  [loudspeakers,and,search,oh,lights,the,boulevard]  [provide_expl_just(light,[external,factive,narration,background,objective])]
+Blue Spark Lyrics.txt_9-47  [she,comes,home,later,just,to,give,him]  [provide_expl_just(give,[external,factive,narration,background,objective])]
+Blue Spark Lyrics.txt_10-58  [blue,blue,exchange,shock,shock,exchange,blue,spark]  [reject_expl_just(spark,[external,factive,narration,background,objective])]
+Blue Spark Lyrics.txt_11-69  [blue,spark]  [provide_expl_just(spark,[external,factive,narration,background,objective])]
+Blue Spark Lyrics.txt_11-70  [blue,spark]  [provide_expl_just(spark,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Blue Spark Lyrics.txt_1-1)-[primary-vision]
+2-(Blue Spark Lyrics.txt_2-3)-[primary-vision,primary-fire]
+3-(Blue Spark Lyrics.txt_3-6)-[primary-water]
+4-(Blue Spark Lyrics.txt_3-7)-[primary-vision,primary-fire]
+5-(Blue Spark Lyrics.txt_4-11)-[primary-vision]
+6-(Blue Spark Lyrics.txt_5-16)-[]
+7-(Blue Spark Lyrics.txt_5-17)-[primary-narcissism]
+half
+8-(Blue Spark Lyrics.txt_6-22)-[primary-vision,primary-vision,primary-vision,primary-fire]
+9-(Blue Spark Lyrics.txt_7-29)-[primary-concreteness,primary-narcissism,primary-vision,primary-fire]
+10-(Blue Spark Lyrics.txt_8-38)-[primary-voyage,primary-vision]
+11-(Blue Spark Lyrics.txt_9-47)-[]
+12-(Blue Spark Lyrics.txt_10-58)-[primary-vision,primary-vision,primary-vision,primary-fire]
+13-(Blue Spark Lyrics.txt_11-69)-[primary-vision,primary-fire]
+14-(Blue Spark Lyrics.txt_11-70)-[primary-vision,primary-fire]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Blue Spark Lyrics.txt_1,1,cl1-nil-nil-be-[subj-theme_bound-Lyrics-sn1,and(Lyrics,Spark,sn1),and(Lyrics,blue,sn1),def_prop(Lyrics,[informa,tecno])])
+lf(Blue Spark Lyrics.txt_2,3,cl2-nil-nil-spark-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Blue Spark Lyrics.txt_3,6,cl4-nil-nil-spark-[subj-agent-apartment-sn3,iobj-goal-beach-sn2,def_prop(apartment,[oggetto,strumento]),def_prop(beach,[oggetto])])
+lf(Blue Spark Lyrics.txt_3,6,cl3-nil-nil-wait-[subj-actor-he-sn1,def_prop(he,[umano])])
+lf(Blue Spark Lyrics.txt_4,11,cl5-nil-nil-people-[])
+lf(Blue Spark Lyrics.txt_5,16,cl6-nil-nil-be-[xcomp-prop-her-sn5,subj-theme_bound-body-sn4,subj-theme_bound-body-sn3,xcomp-prop-forgotten-sn2,subj-theme_bound-she-sn1,and(body,him,sn3),def_prop(her,[umano]),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano]),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano]),def_prop(forgotten,[evaluative]),def_prop(she,[umano])])
+lf(Blue Spark Lyrics.txt_6,22,cl7-nil-nil-spark-[subj-agent-shock-sn1,and(shock,shock,sn1),and(shock,blue,sn1),def_prop(shock,[attivita,evento,stato])])
+lf(Blue Spark Lyrics.txt_7,29,cl9-nil-nil-spark-[ncmod-relation-eye-sn2,def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(Blue Spark Lyrics.txt_7,29,cl8-nil-nil-go-[xcomp-prop-downtown-sn3,subj-agent-what-sn1,def_prop(downtown,[luogo]),def_prop(what,[oggetto])])
+lf(Blue Spark Lyrics.txt_8,38,cl10-nil-nil-light-[obj-theme-boulevard-sn2,subj-actor-oh-sn1,and(oh,search,sn1),and(oh,loudspeaker,sn1),def_prop(boulevard,[oggetto,strumento]),def_prop(oh,[informa,tecno])])
+lf(Blue Spark Lyrics.txt_9,47,cl12-nil-nil-give-[obj-goal-him-sn3,xcomp-purpose-give-3,def_prop(him,[umano])])
+lf(Blue Spark Lyrics.txt_9,47,cl11-nil-nil-come-[adj-(mod)-just-nil,adj-(mod)-home-nil,xcomp-prop-later-sn2,subj-agent-she-sn1,def_prop(later,[evaluative]),def_prop(she,[umano])])
+lf(Blue Spark Lyrics.txt_10,58,cl13-nil-nil-spark-[subj-agent-shock-sn1,and(shock,shock,sn1),and(shock,blue,sn1),def_prop(shock,[attivita,evento,stato])])
+lf(Blue Spark Lyrics.txt_11,69,cl14-nil-nil-spark-[subj-agent-you-sn2,subj-agent-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])

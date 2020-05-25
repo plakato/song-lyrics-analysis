@@ -1,0 +1,104 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Atom Lyrics.txt_1-1  []-positive  []
+Atom Lyrics.txt_2-3  []-positive  []
+Atom Lyrics.txt_3-6  []-question  []
+Atom Lyrics.txt_3-7  []-positive  []
+Atom Lyrics.txt_4-11  []-positive  []
+Atom Lyrics.txt_5-16  []-positive  [neg]
+Atom Lyrics.txt_6-22  []-suspension  [fgb]
+Atom Lyrics.txt_7-29  []-positive  [neg]
+Atom Lyrics.txt_7-30  []-positive  []
+Atom Lyrics.txt_8-38  []-positive  []
+Atom Lyrics.txt_9-47  []-positive  []
+Atom Lyrics.txt_10-57  []-positive  []
+Atom Lyrics.txt_10-57  []-positive  []
+Atom Lyrics.txt_10-58  []-positive  [fgb]
+Atom Lyrics.txt_10-58  []-positive  [fgb]
+Atom Lyrics.txt_11-68  []-positive  []
+Atom Lyrics.txt_12-80  []-positive  []
+Atom Lyrics.txt_13-93  []-positive  []
+Atom Lyrics.txt_14-107  []-positive  []
+Atom Lyrics.txt_14-107  []-positive  []
+Atom Lyrics.txt_14-108  []-positive  [fgb]
+Atom Lyrics.txt_14-108  []-positive  [fgb]
+Atom Lyrics.txt_15-122  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Atom Lyrics.txt_1-1  [atom,Lyrics,by,Swedish,House,Mafia]  [title]
+Atom Lyrics.txt_2-3  [instrumental]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Atom Lyrics.txt_3-6  [can,people,?]  [provide_expl_just(can,[internal,nonfactive,narration,background,objective]),provide_expl_just(hear,[internal,factive,narration,foreground,objective])]
+Atom Lyrics.txt_3-7  [you,hear,me]  [provide_expl_just(can,[internal,nonfactive,narration,background,objective]),provide_expl_just(hear,[internal,factive,narration,foreground,objective])]
+Atom Lyrics.txt_4-11  [here,is,a,message,i,am,sending,out]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Atom Lyrics.txt_5-16  [i,have,got,the,answer,to,all,your,problems]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Atom Lyrics.txt_6-22  [and,tonight,i,will,be,singing,it,loud]  [provide_expl_just(singe,[external,nonfactive,narration,background,objective])]
+Atom Lyrics.txt_7-29  [just,surrender]  [provide_expl_just(surrender,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Atom Lyrics.txt_7-30  [yourself,to,the,rhythm]  [provide_expl_just(surrender,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Atom Lyrics.txt_8-38  [with,your,hands,up,in,the,sky]  [raise_issue(be,[_55654,factive,statement,_55672,subjective])]
+Atom Lyrics.txt_9-47  [feel,the,energy,deep,inside,your,system]  [provide_expl_just(feel,[external,factive,narration,background,objective])]
+Atom Lyrics.txt_10-57  [!]  [provide_expl_just(leave,[internal,factive,narration,foreground,objective])]
+Atom Lyrics.txt_10-57  [!]  [provide_expl_just(leave,[internal,factive,narration,foreground,objective])]
+Atom Lyrics.txt_10-58  [and,this,world,leave]  [provide_expl_just(leave,[internal,factive,narration,foreground,objective])]
+Atom Lyrics.txt_10-58  [and,this,world,leave,behind]  [provide_expl_just(leave,[internal,factive,narration,foreground,objective])]
+Atom Lyrics.txt_11-68  [leave,the,world,behind,you]  [provide_expl_just(leave,[external,factive,narration,background,objective])]
+Atom Lyrics.txt_12-80  [leave,the,world,behind,you]  [provide_expl_just(leave,[external,factive,narration,background,objective])]
+Atom Lyrics.txt_13-93  [leave,the,world,behind,you]  [provide_expl_just(leave,[external,factive,narration,background,objective])]
+Atom Lyrics.txt_14-107  [!]  [provide_expl_just(leave,[internal,factive,narration,foreground,objective])]
+Atom Lyrics.txt_14-107  [!]  [provide_expl_just(leave,[internal,factive,narration,foreground,objective])]
+Atom Lyrics.txt_14-108  [and,this,world,leave]  [provide_expl_just(leave,[internal,factive,narration,foreground,objective])]
+Atom Lyrics.txt_14-108  [and,this,world,leave,behind]  [provide_expl_just(leave,[internal,factive,narration,foreground,objective])]
+Atom Lyrics.txt_15-122  [instrumental]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Atom Lyrics.txt_1-1)-[primary-concreteness]
+2-(Atom Lyrics.txt_2-3)-[]
+3-(Atom Lyrics.txt_3-6)-[]
+4-(Atom Lyrics.txt_3-7)-[primary-sound]
+5-(Atom Lyrics.txt_4-11)-[primary-concreteness,secondary-social_behavior,primary-concreteness]
+6-(Atom Lyrics.txt_5-16)-[secondary-social_behavior,secondary-abstract_tought]
+7-(Atom Lyrics.txt_6-22)-[secondary-temporal_repere,primary-sound]
+8-(Atom Lyrics.txt_7-29)-[]
+9-(Atom Lyrics.txt_7-30)-[primary-sound]
+10-(Atom Lyrics.txt_8-38)-[primary-narcissism,primary-height]
+11-(Atom Lyrics.txt_9-47)-[primary-depth,primary-concreteness,secondary-order]
+half
+12-(Atom Lyrics.txt_10-57)-[]
+13-(Atom Lyrics.txt_10-57)-[]
+14-(Atom Lyrics.txt_10-58)-[]
+15-(Atom Lyrics.txt_10-58)-[primary-concreteness]
+16-(Atom Lyrics.txt_11-68)-[primary-concreteness]
+17-(Atom Lyrics.txt_12-80)-[primary-concreteness]
+18-(Atom Lyrics.txt_13-93)-[primary-concreteness]
+19-(Atom Lyrics.txt_14-107)-[]
+20-(Atom Lyrics.txt_14-107)-[]
+21-(Atom Lyrics.txt_14-108)-[]
+22-(Atom Lyrics.txt_14-108)-[primary-concreteness]
+23-(Atom Lyrics.txt_15-122)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Atom Lyrics.txt_1,1,cl1-nil-nil-be-[xcomp-theme-Mafia-sn3,arg_mod-agent-House-sn2,subj-theme_bound-Lyrics-sn1,and(House,Swedish,sn2),and(Lyrics,atom,sn1),def_prop(Mafia,[istituzione]),def_prop(House,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Atom Lyrics.txt_2,3,cl2-nil-nil-say-[])
+lf(Atom Lyrics.txt_3,6,cl4-nil-nil-hear-[obj-theme_unaff-me-sn3,subj-experiencer-you-sn2,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Atom Lyrics.txt_3,6,cl3-nil-can-can-[subj-actor-people-sn1,def_prop(people,[istituzione])])
+lf(Atom Lyrics.txt_4,11,cl5-nil-nil-be-[xcomp-prop-message-sn1,def_prop(message,[attivita,informa])])
+lf(Atom Lyrics.txt_5,16,cl6-nil-nil-get-[obj-theme_unaff-answer-sn2,subj-agent-i-sn1,aux-have-nil,def_prop(answer,[attivita,informa]),def_prop(i,[umano])])
+lf(Atom Lyrics.txt_6,22,cl7-nil-will-singe-[cmod-subord-singe-",xcomp-prop-loud-sn3,subj-agent-it-sn2,subj-agent-it-sn1,aux-be-nil,progr-singing-nil,and(it,i,sn1),def_prop(loud,[evaluative]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Atom Lyrics.txt_7,29,cl9-nil-nil-be-[ncmod-locativo-rhythm-sn3,subj-theme_bound-yourself-sn2,def_prop(rhythm,[astratto,attivita,informa]),def_prop(yourself,[istituzione])])
+lf(Atom Lyrics.txt_7,29,cl8-nil-nil-surrender-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Atom Lyrics.txt_8,38,nil-nil-nil-up-[ncmod-locativo-sky-sn2,subj-theme_aff-you-sn1,def_prop(sky,[oggetto]),def_prop(you,[umano])])
+lf(Atom Lyrics.txt_9,47,cl10-nil-nil-feel-[xcomp-prop-inside-sn4,xcomp-tema_emot-energy-sn3,subj-experiencer-system-sn2,subj-experiencer-system-sn1,and(inside,deep,sn4),def_prop(inside,[luogo]),def_prop(energy,[astratto,attivita,cambia,stato]),def_prop(system,[astratto,body_part,oggetto,sostanza,strumento,umano]),def_prop(system,[astratto,body_part,oggetto,sostanza,strumento,umano])])
+lf(Atom Lyrics.txt_10,57,cl11-nil-nil-leave-[cmod-coord-leave-and,subj-theme-world-sn2,cmod-subord-leave-",subj-theme-you-sn1,and(world,this,sn2),def_prop(world,[astratto,istituzione,oggetto]),def_prop(you,[umano])])
+lf(Atom Lyrics.txt_11,68,cl12-nil-nil-leave-[ncmod-locativo-you-sn3,obj-theme-world-sn2,subj-theme-you-sn1,def_prop(you,[umano]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(you,[umano])])
+lf(Atom Lyrics.txt_12,80,cl13-nil-nil-leave-[ncmod-locativo-you-sn3,obj-theme-world-sn2,subj-theme-you-sn1,def_prop(you,[umano]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(you,[umano])])
+lf(Atom Lyrics.txt_13,93,cl14-nil-nil-leave-[ncmod-locativo-you-sn3,obj-theme-world-sn2,subj-theme-you-sn1,def_prop(you,[umano]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(you,[umano])])
+lf(Atom Lyrics.txt_14,107,cl15-nil-nil-leave-[cmod-coord-leave-and,subj-theme-world-sn2,cmod-subord-leave-",subj-theme-you-sn1,and(world,this,sn2),def_prop(world,[astratto,istituzione,oggetto]),def_prop(you,[umano])])
+lf(Atom Lyrics.txt_15,122,cl16-nil-nil-say-[])

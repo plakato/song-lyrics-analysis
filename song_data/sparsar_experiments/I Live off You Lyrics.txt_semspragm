@@ -1,0 +1,98 @@
+"POLARITY, DISCOURSE MARKERS"
+
+I Live off You Lyrics.txt_1-1  []-positive  []
+I Live off You Lyrics.txt_1-2  []-positive  []
+I Live off You Lyrics.txt_2-4  []-positive  []
+I Live off You Lyrics.txt_3-7  []-positive  [fgb]
+I Live off You Lyrics.txt_4-11  []-positive  [fgb]
+I Live off You Lyrics.txt_5-16  []-positive  []
+I Live off You Lyrics.txt_6-22  []-positive  []
+I Live off You Lyrics.txt_7-31  []-positive  []
+I Live off You Lyrics.txt_8-41  []-positive  []
+I Live off You Lyrics.txt_9-50  []-positive  []
+I Live off You Lyrics.txt_10-60  []-negative  [neg]
+I Live off You Lyrics.txt_11-71  [while-temp_coinc]-negative  [neg]
+I Live off You Lyrics.txt_12-83  [(as)-temp_coinc]-positive  []
+I Live off You Lyrics.txt_13-96  []-positive  [fgb]
+I Live off You Lyrics.txt_14-110  []-positive  []
+I Live off You Lyrics.txt_15-127  []-positive  []
+I Live off You Lyrics.txt_16-145  []-positive  []
+I Live off You Lyrics.txt_17-162  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+I Live off You Lyrics.txt_1-1  [i,live,off,you]  [title]
+I Live off You Lyrics.txt_1-2  [Lyrics,by,X-Ray,Spex]  [provide_expl_just(live,[external,factive,narration,background,objective]),raise_issue(be,[_1753318,factive,statement,_1753336,subjective])]
+I Live off You Lyrics.txt_2-4  [i,LIVE,off,you]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+I Live off You Lyrics.txt_3-7  [and,you,LIVE,of,me]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+I Live off You Lyrics.txt_4-11  [and,the,WHOLE,WORLD]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+I Live off You Lyrics.txt_5-16  [lives,off,of,everybody]  [provide_expl_just(live,[external,factive,narration,background,objective])]
+I Live off You Lyrics.txt_6-22  [see,we,GOTTA,be,exploited]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(GOTTA,[external,factive,narration,background,objective]),provide_expl_just(exploit,[external,factive,narration,background,objective])]
+I Live off You Lyrics.txt_7-31  [see,we,GOTTA,be,exploited]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(GOTTA,[external,factive,narration,background,objective]),provide_expl_just(exploit,[external,factive,narration,background,objective])]
+I Live off You Lyrics.txt_8-41  [be,somebody,be,somebody]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+I Live off You Lyrics.txt_9-50  [be,somebody]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+I Live off You Lyrics.txt_10-60  [the,CAT,EATS,the,rat]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+I Live off You Lyrics.txt_11-71  [while,the,PIMP,BEATS,the,whore]  [reject_expl_just(beat,[external,factive,narration,background,objective])]
+I Live off You Lyrics.txt_12-83  [as,she,just,SCREAMS,out]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+I Live off You Lyrics.txt_13-96  [for,more,and,more]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+I Live off You Lyrics.txt_14-110  [see,we,GOTTA,be,exploited]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(GOTTA,[external,factive,narration,background,objective]),provide_expl_just(exploit,[external,factive,narration,background,objective])]
+I Live off You Lyrics.txt_15-127  [see,we,GOTTA,be,exploited]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(GOTTA,[external,factive,narration,background,objective]),provide_expl_just(exploit,[external,factive,narration,background,objective])]
+I Live off You Lyrics.txt_16-145  [be,somebody,be,somebody]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+I Live off You Lyrics.txt_17-162  [be,somebody]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(I Live off You Lyrics.txt_1-1)-[primary-concreteness]
+2-(I Live off You Lyrics.txt_1-2)-[]
+3-(I Live off You Lyrics.txt_2-4)-[primary-concreteness]
+4-(I Live off You Lyrics.txt_3-7)-[]
+5-(I Live off You Lyrics.txt_4-11)-[]
+6-(I Live off You Lyrics.txt_5-16)-[primary-concreteness]
+7-(I Live off You Lyrics.txt_6-22)-[primary-vision,emotions-aggression]
+8-(I Live off You Lyrics.txt_7-31)-[primary-vision,emotions-aggression]
+9-(I Live off You Lyrics.txt_8-41)-[]
+half
+10-(I Live off You Lyrics.txt_9-50)-[]
+11-(I Live off You Lyrics.txt_10-60)-[]
+12-(I Live off You Lyrics.txt_11-71)-[secondary-temporal_repere,primary-sex]
+13-(I Live off You Lyrics.txt_12-83)-[primary-concreteness]
+14-(I Live off You Lyrics.txt_13-96)-[]
+15-(I Live off You Lyrics.txt_14-110)-[primary-vision,emotions-aggression]
+16-(I Live off You Lyrics.txt_15-127)-[primary-vision,emotions-aggression]
+17-(I Live off You Lyrics.txt_16-145)-[]
+18-(I Live off You Lyrics.txt_17-162)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(I Live off You Lyrics.txt_1,1,cl2-nil-nil-be-[arg_mod-agent-Spex-sn4,subj-theme_bound-Lyrics-sn3,and(Spex,X-Ray,sn4),def_prop(Spex,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(I Live off You Lyrics.txt_1,1,cl1-nil-nil-live-[iobj-goal-you-sn2,subj-actor-i-sn1,def_prop(you,[umano]),def_prop(i,[umano])])
+lf(I Live off You Lyrics.txt_2,4,cl3-nil-nil-be-[xadj-adj-LIVE-adj1,ncmod-locativo-you-sn2,subj-theme_bound-i-sn1,def_prop(LIVE,_1763936),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(I Live off You Lyrics.txt_3,7,cl4-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(I Live off You Lyrics.txt_4,11,cl5-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(I Live off You Lyrics.txt_5,16,cl6-nil-nil-live-[adj-(mod)-off-nil,adj-subj_disc-off-sn3,ncmod-specif-everybody-sn2,subj-actor-you-sn1,def_prop(off,[istituzione]),def_prop(off,[istituzione]),def_prop(everybody,[umano]),def_prop(you,[umano])])
+lf(I Live off You Lyrics.txt_6,22,cl8-nil-nil-exploit-[])
+lf(I Live off You Lyrics.txt_6,22,nil-nil-nil-GOTTA-[])
+lf(I Live off You Lyrics.txt_6,22,cl7-nil-nil-see-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(I Live off You Lyrics.txt_7,31,cl10-nil-nil-exploit-[])
+lf(I Live off You Lyrics.txt_7,31,nil-nil-nil-GOTTA-[])
+lf(I Live off You Lyrics.txt_7,31,cl9-nil-nil-see-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(I Live off You Lyrics.txt_8,41,cl11-nil-nil-be-[xcomp-prop-somebody-sn2,xcomp-purpose-be-3,xcomp-prop-somebody-sn1,def_prop(somebody,[umano]),def_prop(somebody,[umano])])
+lf(I Live off You Lyrics.txt_9,50,cl12-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(I Live off You Lyrics.txt_10,60,cl13-nil-nil-be-[subj-theme_bound-rat-sn2,subj-theme_bound-rat-sn1,and(rat,EATS,sn1),def_prop(rat,[animato,oggetto,strumento,umano]),def_prop(rat,[animato,oggetto,strumento,umano])])
+lf(I Live off You Lyrics.txt_11,71,cl14-nil-nil-beat-[obj-theme_aff-whore-sn2,subj-agent-pimp-sn1,def_prop(whore,[umano]),def_prop(pimp,[umano])])
+lf(I Live off You Lyrics.txt_12,83,cl15-nil-nil-be-[xcomp-prop-scream-sn2,subj-theme_bound-she-sn1,def_prop(scream,[attivita,informa]),def_prop(she,[umano])])
+lf(I Live off You Lyrics.txt_13,96,cl16-nil-nil-be-[subj-theme_bound-more-sn2,subj-theme_bound-more-sn1,and(more,you,sn1),def_prop(more,[astratto,informa,oggetto]),def_prop(more,[astratto,informa,oggetto])])
+lf(I Live off You Lyrics.txt_14,110,cl18-nil-nil-exploit-[])
+lf(I Live off You Lyrics.txt_14,110,nil-nil-nil-GOTTA-[])
+lf(I Live off You Lyrics.txt_14,110,cl17-nil-nil-see-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(I Live off You Lyrics.txt_15,127,cl20-nil-nil-exploit-[])
+lf(I Live off You Lyrics.txt_15,127,nil-nil-nil-GOTTA-[])
+lf(I Live off You Lyrics.txt_15,127,cl19-nil-nil-see-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(I Live off You Lyrics.txt_16,145,cl21-nil-nil-be-[xcomp-prop-somebody-sn2,xcomp-purpose-be-3,xcomp-prop-somebody-sn1,def_prop(somebody,[umano]),def_prop(somebody,[umano])])
+lf(I Live off You Lyrics.txt_17,162,cl22-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])

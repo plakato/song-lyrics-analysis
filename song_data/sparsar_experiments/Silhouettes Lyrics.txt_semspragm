@@ -1,0 +1,167 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Silhouettes Lyrics.txt_1-1  []-positive  []
+Silhouettes Lyrics.txt_2-3  []-positive  []
+Silhouettes Lyrics.txt_2-4  []-negative  [neg]
+Silhouettes Lyrics.txt_3-7  []-positive  []
+Silhouettes Lyrics.txt_4-11  []-positive  []
+Silhouettes Lyrics.txt_5-16  [but-advers]-negative  [fgb,neg,neg]
+Silhouettes Lyrics.txt_6-23  []-positive  []
+Silhouettes Lyrics.txt_7-30  []-positive  []
+Silhouettes Lyrics.txt_8-38  [so-result]-negative  [fgb,neg]
+Silhouettes Lyrics.txt_9-47  []-positive  []
+Silhouettes Lyrics.txt_10-58  [before-temp_prec]-positive  []
+Silhouettes Lyrics.txt_11-69  []-negative  [fgb,neg]
+Silhouettes Lyrics.txt_12-81  []-positive  []
+Silhouettes Lyrics.txt_12-82  []-positive  []
+Silhouettes Lyrics.txt_13-95  []-negative  [fgb,neg]
+Silhouettes Lyrics.txt_14-109  []-positive  []
+Silhouettes Lyrics.txt_15-124  []-positive  []
+Silhouettes Lyrics.txt_16-140  [when-temp_coinc]-suspension  [neg,neg]
+Silhouettes Lyrics.txt_17-157  []-positive  []
+Silhouettes Lyrics.txt_17-158  []-negative  [fgb,neg]
+Silhouettes Lyrics.txt_18-177  [so-result]-suspension  [fgb]
+Silhouettes Lyrics.txt_19-197  []-suspension  [bkc,neg]
+Silhouettes Lyrics.txt_19-198  [if-hypoth]-positive  [fhd,fgb]
+Silhouettes Lyrics.txt_20-217  []-suspension  [neg]
+Silhouettes Lyrics.txt_20-218  [then-temp_seq]-suspension  []
+Silhouettes Lyrics.txt_21-239  []-positive  [ass]
+Silhouettes Lyrics.txt_21-240  []-negative  [neg,ass]
+Silhouettes Lyrics.txt_21-241  []-positive  []
+Silhouettes Lyrics.txt_22-261  []-positive  [ass]
+Silhouettes Lyrics.txt_22-262  []-negative  [neg,ass]
+Silhouettes Lyrics.txt_23-285  []-positive  []
+Silhouettes Lyrics.txt_24-309  []-negative  [fgb,neg]
+Silhouettes Lyrics.txt_25-334  []-positive  []
+Silhouettes Lyrics.txt_25-335  []-positive  []
+Silhouettes Lyrics.txt_26-361  []-negative  [fgb,neg]
+Silhouettes Lyrics.txt_27-388  []-positive  []
+Silhouettes Lyrics.txt_28-416  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Silhouettes Lyrics.txt_1-1  [silhouettes,Lyrics,by,Swimming,with,Dolphins]  [title]
+Silhouettes Lyrics.txt_2-3  [i,know]  [provide_expl_just(know,[external,factive,explanation,background,objective]),suggest(know,_1363396),provide_expl_just(admit,[external,nonfactive,narration,background,objective])]
+Silhouettes Lyrics.txt_2-4  [you,will,not,admit,this]  [reject_expl_just(know,[external,factive,explanation,background,objective]),propose_opin_neg(know,_1368048),reject_expl_just(admit,[external,nonfactive,narration,background,objective])]
+Silhouettes Lyrics.txt_3-7  [i_am_just,a,silhouette,to,you]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Silhouettes Lyrics.txt_4-11  [you,found,comfort,with,my,distance]  [provide_expl_just(find,[external,factive,narration,foreground,objective])]
+Silhouettes Lyrics.txt_5-16  [but,you,never,let,me,stray,out_of,your,view]  [reject_expl_just(stray,[external,factive,narration,background,objective])]
+Silhouettes Lyrics.txt_6-23  [who,really,the,past,needs]  [provide_expl_just(need,[external,factive,narration,background,objective])]
+Silhouettes Lyrics.txt_7-30  [with,the,allure,of,something,new]  [provide_expl_just(allure,[internal,factive,narration,background,objective])]
+Silhouettes Lyrics.txt_8-38  [so,we,split,apart,at_last]  [reject_expl_just(split,[external,factive,cause,foreground,objective])]
+Silhouettes Lyrics.txt_9-47  [went,back,to,places,that,i,knew]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_1375900)]
+Silhouettes Lyrics.txt_10-58  [before,you]  [raise_issue(be,[_1376162,factive,statement,_1376180,subjective])]
+Silhouettes Lyrics.txt_11-69  [and,you,never,have_to,see]  [reject_expl_just(see,[external,nonfactive,narration,foreground,objective])]
+Silhouettes Lyrics.txt_12-81  [the,light,that,wraps]  [provide_expl_just(wrap,[external,factive,narration,background,objective])]
+Silhouettes Lyrics.txt_12-82  [itself,around,me]  [provide_expl_just(wrap,[external,factive,narration,background,objective])]
+Silhouettes Lyrics.txt_13-95  [and,i,never,have_to,know]  [reject_expl_just(know,[external,nonfactive,narration,foreground,objective])]
+Silhouettes Lyrics.txt_14-109  [the,faces,there]  [provide_expl_just(there,[external,factive,narration,background,objective])]
+Silhouettes Lyrics.txt_15-124  [the,places,you,go]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Silhouettes Lyrics.txt_16-140  [when,i,can,not,bear,the,resistance]  [propose_opin(bear,[external,nonfactive,narration,foreground,objective]),provide_expl_just(bear,[external,nonfactive,narration,foreground,objective])]
+Silhouettes Lyrics.txt_17-157  [i,bend,in,shapes]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_1383142)]
+Silhouettes Lyrics.txt_17-158  [and,ways,i,never,knew]  [reject_expl_just(know,[external,factive,cause,foreground,objective])]
+Silhouettes Lyrics.txt_18-177  [so,i,will,try,to,postpone,my,existence]  [provide_expl_just(postpone,[external,factive,narration,background,objective]),provide_expl_just(try,[external,nonfactive,narration,background,objective])]
+Silhouettes Lyrics.txt_19-197  [yeah,i,will,stop]  [provide_expl_just(ask,[external,factive,narration,background,objective])]
+Silhouettes Lyrics.txt_19-198  [or,start,my,heart,if,you,ask,me,to]  [provide_expl_just(ask,[external,factive,narration,background,objective])]
+Silhouettes Lyrics.txt_20-217  [i,will,stop,my,heart]  [provide_expl_just(stop,[external,nonfactive,narration,background,objective]),provide_expl_just(wait,[external,nonfactive,narration,background,objective])]
+Silhouettes Lyrics.txt_20-218  [then,i,will,wait,for,you]  [provide_expl_just(stop,[external,nonfactive,narration,background,objective]),provide_expl_just(wait,[external,nonfactive,narration,background,objective])]
+Silhouettes Lyrics.txt_21-239  [i,was,sure]  [accept_expl_opin(love,[internal,factive,narration,background,objective])]
+Silhouettes Lyrics.txt_21-240  [i,never,would,be,sure]  [reject_expl_just(love,[internal,factive,narration,background,objective]),accept_expl_opin(love,[internal,factive,narration,background,objective])]
+Silhouettes Lyrics.txt_21-241  [we,were,in,love]  [provide_expl_just(love,[internal,factive,narration,background,objective])]
+Silhouettes Lyrics.txt_22-261  [i,am,sure]  [accept_expl_opin(be,[external,nonfactive,narration,background,objective])]
+Silhouettes Lyrics.txt_22-262  [i,never,would,be,sure,of,love,to,come]  [reject_expl_just(be,[external,nonfactive,narration,background,objective]),accept_expl_opin(be,[external,nonfactive,narration,background,objective])]
+Silhouettes Lyrics.txt_23-285  [after,you]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Silhouettes Lyrics.txt_24-309  [and,you,never,have_to,see]  [reject_expl_just(be,[_1390914,_1390920,_1390926,_1390932,_1390938])]
+Silhouettes Lyrics.txt_25-334  [the,light,that,wraps]  [provide_expl_just(wrap,[external,factive,narration,background,objective])]
+Silhouettes Lyrics.txt_25-335  [itself,around,me]  [provide_expl_just(wrap,[external,factive,narration,background,objective])]
+Silhouettes Lyrics.txt_26-361  [and,i,never,have_to,know]  [reject_expl_just(know,[external,nonfactive,narration,foreground,objective])]
+Silhouettes Lyrics.txt_27-388  [the,faces,there]  [provide_expl_just(there,[external,factive,narration,background,objective])]
+Silhouettes Lyrics.txt_28-416  [the,places,you,go]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Silhouettes Lyrics.txt_1-1)-[]
+2-(Silhouettes Lyrics.txt_2-3)-[secondary-abstract_tought]
+3-(Silhouettes Lyrics.txt_2-4)-[secondary-social_behavior]
+4-(Silhouettes Lyrics.txt_3-7)-[]
+5-(Silhouettes Lyrics.txt_4-11)-[secondary-instru_behavior,primary-gen_sensation,primary-concreteness]
+6-(Silhouettes Lyrics.txt_5-16)-[primary-voyage,primary-vision]
+7-(Silhouettes Lyrics.txt_6-23)-[secondary-abstract_tought,secondary-temporal_repere]
+8-(Silhouettes Lyrics.txt_7-30)-[primary-sex]
+9-(Silhouettes Lyrics.txt_8-38)-[primary-concreteness]
+10-(Silhouettes Lyrics.txt_9-47)-[primary-concreteness,primary-concreteness,secondary-abstract_tought]
+11-(Silhouettes Lyrics.txt_10-58)-[]
+12-(Silhouettes Lyrics.txt_11-69)-[primary-vision]
+13-(Silhouettes Lyrics.txt_12-81)-[primary-vision]
+14-(Silhouettes Lyrics.txt_12-82)-[]
+15-(Silhouettes Lyrics.txt_13-95)-[secondary-abstract_tought]
+16-(Silhouettes Lyrics.txt_14-109)-[primary-narcissism]
+17-(Silhouettes Lyrics.txt_15-124)-[primary-concreteness]
+18-(Silhouettes Lyrics.txt_16-140)-[secondary-temporal_repere]
+half
+19-(Silhouettes Lyrics.txt_17-157)-[]
+20-(Silhouettes Lyrics.txt_17-158)-[secondary-abstract_tought]
+21-(Silhouettes Lyrics.txt_18-177)-[secondary-instru_behavior]
+22-(Silhouettes Lyrics.txt_19-197)-[secondary-restraint]
+23-(Silhouettes Lyrics.txt_19-198)-[primary-vision,primary-narcissism,secondary-social_behavior]
+24-(Silhouettes Lyrics.txt_20-217)-[secondary-restraint,primary-narcissism]
+25-(Silhouettes Lyrics.txt_20-218)-[secondary-temporal_repere]
+26-(Silhouettes Lyrics.txt_21-239)-[secondary-abstract_tought]
+27-(Silhouettes Lyrics.txt_21-240)-[secondary-abstract_tought]
+28-(Silhouettes Lyrics.txt_21-241)-[emotions-affection]
+29-(Silhouettes Lyrics.txt_22-261)-[secondary-abstract_tought]
+30-(Silhouettes Lyrics.txt_22-262)-[secondary-abstract_tought,emotions-affection]
+31-(Silhouettes Lyrics.txt_23-285)-[]
+32-(Silhouettes Lyrics.txt_24-309)-[primary-vision]
+33-(Silhouettes Lyrics.txt_25-334)-[primary-vision]
+34-(Silhouettes Lyrics.txt_25-335)-[]
+35-(Silhouettes Lyrics.txt_26-361)-[secondary-abstract_tought]
+36-(Silhouettes Lyrics.txt_27-388)-[primary-narcissism]
+37-(Silhouettes Lyrics.txt_28-416)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Silhouettes Lyrics.txt_1,1,cl1-nil-nil-swim-[ncmod-comitativo-Dolphin-sn2,subj-theme-Lyrics-sn1,and(Lyrics,silhouette,sn1),def_prop(Dolphin,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Silhouettes Lyrics.txt_2,3,cl3-not-will-admit-[ccomp-prop-admit-cl3,xcomp-prop-this-sn3,subj-actor-you-sn2,def_prop(this,[oggetto,umano]),def_prop(you,[umano])])
+lf(Silhouettes Lyrics.txt_2,3,cl2-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Silhouettes Lyrics.txt_3,7,cl4-nil-nil-be-[ncmod-goal-you-sn3,subj-theme_bound-silhouette-sn2,subj-theme_bound-silhouette-sn1,and(silhouette,i_am_just,sn1),def_prop(you,[umano]),def_prop(silhouette,[luogo,oggetto,strumento]),def_prop(silhouette,[luogo,oggetto,strumento])])
+lf(Silhouettes Lyrics.txt_4,11,cl5-nil-nil-find-[ncmod-comitativo-distance-sn3,obj-theme_bound-comfort-sn2,subj-actor-you-sn1,def_prop(distance,[astratto,emotivo,luogo,tempo]),def_prop(comfort,[emotivo,stato]),def_prop(you,[umano])])
+lf(Silhouettes Lyrics.txt_5,16,cl6-nil-nil-stray-[adj-(mod)-never-nil,obj-theme_unaff-me-sn2,xcomp-purpose-let-2,subj-theme-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Silhouettes Lyrics.txt_6,23,cl7-nil-nil-need-[obj-theme-who-sn2,subj-experiencer-past-sn1,def_prop(who,[umano]),def_prop(past,[attivita,informa,tempo])])
+lf(Silhouettes Lyrics.txt_7,30,cl8-nil-nil-be-[ncmod-comitativo-allure-sn1,def_prop(allure,[astratto])])
+lf(Silhouettes Lyrics.txt_8,38,cl9-nil-nil-split-[obj-patient-at_last-sn2,subj-agent-we-sn1,and(at_last,apart,sn2),def_prop(at_last,[informa,tecno]),def_prop(we,[umano])])
+lf(Silhouettes Lyrics.txt_9,47,cl11-nil-nil-know-[obj-theme_unaff-place-sn2,def_prop(place,[astratto,attivita,informa,luogo,stato])])
+lf(Silhouettes Lyrics.txt_9,47,cl10-nil-nil-go-[adj-(mod)-back-nil,adj-subj_disc-back-sn3,iobj-goal-place-sn2,subj-agent-you-sn1,def_prop(back,[istituzione]),def_prop(back,[istituzione]),def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(you,[umano])])
+lf(Silhouettes Lyrics.txt_10,58,cl12-nil-nil-say-[])
+lf(Silhouettes Lyrics.txt_11,69,cl13-nil-have_to-see-[cmod-subord-see-",subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Silhouettes Lyrics.txt_12,81,cl15-nil-nil-be-[xcomp-prop-me-sn3,subj-theme_bound-itself-sn2,def_prop(me,[umano]),def_prop(itself,[any])])
+lf(Silhouettes Lyrics.txt_12,81,cl14-nil-nil-wrap-[subj-agent-light-sn1,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(Silhouettes Lyrics.txt_13,95,cl16-nil-have_to-know-[cmod-subord-know-",subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Silhouettes Lyrics.txt_14,109,nil-nil-nil-there-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Silhouettes Lyrics.txt_15,124,cl17-nil-nil-go-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,place,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Silhouettes Lyrics.txt_16,140,cl18-not-can-bear-[obj-goal-resistance-sn3,obj-theme-when-sn2,subj-agent-i-sn1,def_prop(resistance,[astratto,attivita,cambia]),def_prop(when,[tempo]),def_prop(i,[umano])])
+lf(Silhouettes Lyrics.txt_17,157,cl21-nil-nil-know-[cmod-subord-know-",adj-(mod)-never-nil,adj-(mod)-ways-nil,subj-actor-i-sn2,def_prop(i,[umano])])
+lf(Silhouettes Lyrics.txt_17,157,cl20-nil-nil-shape-[subj-theme-i-sn1,def_prop(i,[umano])])
+lf(Silhouettes Lyrics.txt_17,157,cl19-nil-nil-bend-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Silhouettes Lyrics.txt_18,177,cl23-nil-nil-postpone-[obj-theme-existence-sn2,xcomp-purpose-postpone-2,def_prop(existence,[luogo,stato])])
+lf(Silhouettes Lyrics.txt_18,177,cl22-nil-will-try-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Silhouettes Lyrics.txt_19,197,cl25-nil-nil-ask-[cmod-subord-ask-",cmod-subord-ask-if,obj-theme_unaff-me-sn9,subj-actor-you-sn8,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Silhouettes Lyrics.txt_19,197,cl24-nil-will-stop-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Silhouettes Lyrics.txt_20,217,cl27-nil-will-wait-[subj-actor-you-sn6,subj-actor-you-sn5,and(you,i,sn5),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Silhouettes Lyrics.txt_20,217,cl26-nil-will-stop-[obj-actor-hear-sn2,subj-agent-i-sn1,def_prop(hear,[istituzione]),def_prop(i,[umano])])
+lf(Silhouettes Lyrics.txt_21,239,cl28-nil-would-be-[ncmod-locativo-love-sn8,subj-theme_bound-we-sn7,xcomp-prop-sure-sn4,subj-theme_bound-i-sn3,xcomp-prop-sure-sn2,subj-theme_bound-i-sn1,def_prop(love,[astratto,emotivo,nquant]),def_prop(we,[umano]),def_prop(sure,[valutativo]),def_prop(i,[umano]),def_prop(sure,[istituzione]),def_prop(i,[umano])])
+lf(Silhouettes Lyrics.txt_22,261,cl30-nil-nil-come-[subj-prop-sure-sn4,def_prop(sure,[valutativo])])
+lf(Silhouettes Lyrics.txt_22,261,cl29-nil-would-be-[adj-(mod)-never-nil,xcomp-prop-sure-sn4,subj-theme_bound-i-sn3,xcomp-prop-sure-sn2,subj-theme_bound-i-sn1,def_prop(sure,[valutativo]),def_prop(i,[umano]),def_prop(sure,[istituzione]),def_prop(i,[umano])])
+lf(Silhouettes Lyrics.txt_23,285,cl31-nil-nil-say-[obj-theme_unaff-you-sn1,def_prop(you,[umano])])
+lf(Silhouettes Lyrics.txt_24,309,cl32-nil-have_to-see-[cmod-subord-see-",subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Silhouettes Lyrics.txt_25,334,cl34-nil-nil-be-[xcomp-prop-me-sn3,subj-theme_bound-itself-sn2,def_prop(me,[umano]),def_prop(itself,[any])])
+lf(Silhouettes Lyrics.txt_25,334,cl33-nil-nil-wrap-[subj-agent-light-sn1,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(Silhouettes Lyrics.txt_26,361,cl35-nil-have_to-know-[cmod-subord-know-",subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Silhouettes Lyrics.txt_27,388,nil-nil-nil-there-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Silhouettes Lyrics.txt_28,416,cl36-nil-nil-go-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,place,sn1),def_prop(you,[umano]),def_prop(you,[umano])])

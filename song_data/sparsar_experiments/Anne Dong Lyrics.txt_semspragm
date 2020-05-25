@@ -1,0 +1,85 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Anne Dong Lyrics.txt_1-1  []-positive  []
+Anne Dong Lyrics.txt_2-3  []-negative  [neg]
+Anne Dong Lyrics.txt_3-6  [(as)-temp_coinc]-negative  [neg]
+Anne Dong Lyrics.txt_4-10  [while-temp_coinc]-negative  [neg]
+Anne Dong Lyrics.txt_5-15  []-positive  []
+Anne Dong Lyrics.txt_6-21  []-positive  []
+Anne Dong Lyrics.txt_7-29  []-negative  [neg]
+Anne Dong Lyrics.txt_9-48  []-positive  [fgb]
+Anne Dong Lyrics.txt_9-48  []-positive  [fgb]
+Anne Dong Lyrics.txt_10-60  [but-advers]-positive  [fgb]
+Anne Dong Lyrics.txt_11-71  []-positive  []
+Anne Dong Lyrics.txt_12-83  [so-result]-positive  [fgb]
+Anne Dong Lyrics.txt_13-96  []-positive  []
+Anne Dong Lyrics.txt_13-97  []-positive  []
+Anne Dong Lyrics.txt_14-110  []-negative  [neg,neg]
+Anne Dong Lyrics.txt_15-125  []-positive  [bkc]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Anne Dong Lyrics.txt_1-1  [Anne,Dong,Lyrics,by,Xiu,Xiu]  [title]
+Anne Dong Lyrics.txt_2-3  [my,face,grab]  [reject_expl_just(grab,[external,factive,narration,background,objective])]
+Anne Dong Lyrics.txt_3-6  [as,hard,as,it,is,funny,to,you]  [reject_expl_just(you,[internal,factive,narration,background,objective])]
+Anne Dong Lyrics.txt_4-10  [while,i,pretend]  [reject_expl_just(pretend,[external,factive,narration,background,objective])]
+Anne Dong Lyrics.txt_5-15  [i,am,your,real,dad]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Anne Dong Lyrics.txt_6-21  [how,is,anne-s,cough,today,Sheryl,miss]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(miss,[external,factive,narration,background,objective])]
+Anne Dong Lyrics.txt_7-29  [i,pretend,to,ask]  [reject_expl_just(ask,[external,factive,narration,background,objective]),reject_expl_just(pretend,[external,factive,narration,background,objective])]
+Anne Dong Lyrics.txt_9-48  [and,can,only,stand,to,be,around,me]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Anne Dong Lyrics.txt_9-48  [and,can,only,stand,to,be,around,me,for,about,30,seconds]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Anne Dong Lyrics.txt_10-60  [but,whose,picture,i,wear]  [provide_expl_just(wear,[external,factive,narration,background,objective])]
+Anne Dong Lyrics.txt_11-71  [in,a,pin,inside,my,coat]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Anne Dong Lyrics.txt_12-83  [so,,,who,is,this,picture,.,is,this,picture]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Anne Dong Lyrics.txt_13-96  [that,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Anne Dong Lyrics.txt_13-97  [you,Anne]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Anne Dong Lyrics.txt_14-110  [you,are,not,coming,to,my,birthday,not]  [reject_expl_just(birthday,[internal,factive,narration,background,objective])]
+Anne Dong Lyrics.txt_15-125  [i,oh,know]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Anne Dong Lyrics.txt_1-1)-[]
+2-(Anne Dong Lyrics.txt_2-3)-[primary-narcissism]
+3-(Anne Dong Lyrics.txt_3-6)-[primary-hard,emotions-positive_affect]
+4-(Anne Dong Lyrics.txt_4-10)-[secondary-temporal_repere]
+5-(Anne Dong Lyrics.txt_5-15)-[secondary-abstract_tought]
+6-(Anne Dong Lyrics.txt_6-21)-[primary-orality,secondary-temporal_repere]
+7-(Anne Dong Lyrics.txt_7-29)-[secondary-social_behavior]
+8-(Anne Dong Lyrics.txt_9-48)-[]
+half
+9-(Anne Dong Lyrics.txt_9-48)-[]
+10-(Anne Dong Lyrics.txt_10-60)-[primary-vision]
+11-(Anne Dong Lyrics.txt_11-71)-[primary-concreteness]
+12-(Anne Dong Lyrics.txt_12-83)-[primary-vision,primary-vision]
+13-(Anne Dong Lyrics.txt_13-96)-[]
+14-(Anne Dong Lyrics.txt_13-97)-[]
+15-(Anne Dong Lyrics.txt_14-110)-[]
+16-(Anne Dong Lyrics.txt_15-125)-[secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Anne Dong Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Xiu-sn2,subj-theme_bound-Lyrics-sn1,and(Xiu,Xiu,sn2),and(Lyrics,Dong,sn1),and(Lyrics,Anne,sn1),def_prop(Xiu,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Anne Dong Lyrics.txt_2,3,cl2-nil-nil-grab-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Anne Dong Lyrics.txt_3,6,cl3-nil-nil-be-[xadj-adj-hard-adj1,ncmod-goal-you-sn3,xcomp-prop-funny-sn2,subj-theme_bound-it-sn1,def_prop(hard,_20620),def_prop(you,[umano]),def_prop(funny,[istituzione]),def_prop(it,[any])])
+lf(Anne Dong Lyrics.txt_4,10,cl4-nil-nil-pretend-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Anne Dong Lyrics.txt_5,15,cl5-nil-nil-be-[xcomp-prop-dad-sn2,subj-theme_bound-i-sn1,and(dad,real,sn2),def_prop(dad,[umano]),def_prop(i,[umano])])
+lf(Anne Dong Lyrics.txt_6,21,cl7-nil-nil-miss-[subj-experiencer-pro-nil,subj-experiencer-Sheryl-sn9,adj-temporal-today-nil,subj-experiencer-Sheryl-sn7,subj-experiencer-Sheryl-sn3,subj-experiencer-Sheryl-sn2,and(Sheryl,cough,sn2),and(Sheryl,anne-s,sn2),def_prop(Sheryl,[umano]),def_prop(Sheryl,[umano]),def_prop(Sheryl,[umano]),def_prop(Sheryl,[umano])])
+lf(Anne Dong Lyrics.txt_6,21,cl6-nil-nil-be-[xcomp-theme-how-sn1,def_prop(how,[manner])])
+lf(Anne Dong Lyrics.txt_7,29,cl9-nil-nil-ask-[subj-prop-i-sn1,def_prop(i,[umano])])
+lf(Anne Dong Lyrics.txt_7,29,cl8-nil-nil-pretend-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Anne Dong Lyrics.txt_8,38,_21404-nil-nil-bug-[voice-bug-nil,tense-bug-nil,obl-locat-daughter-sn1,def_prop(daughter,[umano])])
+lf(Anne Dong Lyrics.txt_8,38,cl10-nil-nil-be-[voice-bug-nil,tense-bug-nil,xcomp-prop-daughter-sn1,def_prop(daughter,[umano])])
+lf(Anne Dong Lyrics.txt_9,48,cl12-nil-nil-be-[cmod-coord-be-and,xcomp-prop-me-sn7,xcomp-purpose-be-3,cmod-subord-be-",ncmod-modal-around-sn4,xcomp-prop-me-sn2,xcomp-purpose-be-2,def_prop(me,[umano]),def_prop(around,[]),def_prop(me,[umano])])
+lf(Anne Dong Lyrics.txt_9,48,cl11-nil-can-stand-[adj-(mod)-around-nil,subj-experiencer-you-sn6,subj-experiencer-you-sn1,def_prop(around,[]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Anne Dong Lyrics.txt_10,60,cl13-nil-nil-wear-[subj-experiencer-i-sn1,and(i,picture,sn1),def_prop(i,[umano])])
+lf(Anne Dong Lyrics.txt_11,71,cl14-nil-nil-be-[ncmod-locativo-pin-sn2,subj-theme_bound-coat-sn1,and(coat,inside,sn1),def_prop(pin,[body_part,oggetto,strumento,umano]),def_prop(coat,[animato,oggetto,strumento])])
+lf(Anne Dong Lyrics.txt_12,83,cl15-nil-nil-be-[xcomp-prop-picture-sn2,subj-theme_bound-who-sn1,and(picture,this,sn2),def_prop(picture,[astratto,attivita,informa,oggetto,stato,strumento]),def_prop(who,[umano])])
+lf(Anne Dong Lyrics.txt_13,96,cl16-nil-nil-be-[xcomp-prop-Anne-sn3,subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,def_prop(Anne,[place,umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Anne Dong Lyrics.txt_14,110,cl17-not-nil-be-[ncmod-modal-birthday-sn3,xcomp-prop-coming-sn2,subj-theme_bound-you-sn1,neg-not-nil,def_prop(birthday,[tempo]),def_prop(coming,[astratto,cambia,evento]),def_prop(you,[umano])])
+lf(Anne Dong Lyrics.txt_15,125,cl18-nil-nil-know-[ncmod-modal-i-sn2,subj-actor-you-sn1,def_prop(i,[umano]),def_prop(you,[umano])])

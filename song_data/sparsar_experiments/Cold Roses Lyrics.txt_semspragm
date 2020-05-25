@@ -1,0 +1,172 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Cold Roses Lyrics.txt_1-1  []-negative  [neg,fgb]
+Cold Roses Lyrics.txt_2-3  []-positive  [neg,fgb]
+Cold Roses Lyrics.txt_3-6  []-positive  []
+Cold Roses Lyrics.txt_4-10  []-negative  []
+Cold Roses Lyrics.txt_4-11  []-positive  []
+Cold Roses Lyrics.txt_5-16  []-negative  []
+Cold Roses Lyrics.txt_6-22  []-positive  []
+Cold Roses Lyrics.txt_7-29  []-positive  []
+Cold Roses Lyrics.txt_7-30  []-positive  []
+Cold Roses Lyrics.txt_8-38  []-negative  []
+Cold Roses Lyrics.txt_8-39  []-positive  []
+Cold Roses Lyrics.txt_9-48  []-negative  [fgb]
+Cold Roses Lyrics.txt_9-49  []-positive  []
+Cold Roses Lyrics.txt_10-59  []-positive  []
+Cold Roses Lyrics.txt_10-60  []-negative  [fgb]
+Cold Roses Lyrics.txt_11-71  []-negative  []
+Cold Roses Lyrics.txt_11-72  []-negative  [fgb,neg]
+Cold Roses Lyrics.txt_12-84  []-negative  [neg]
+Cold Roses Lyrics.txt_13-97  [but-advers]-negative  [neg,fgb]
+Cold Roses Lyrics.txt_14-112  []-negative  [neg]
+Cold Roses Lyrics.txt_15-127  []-negative  [fgb]
+Cold Roses Lyrics.txt_15-128  []-positive  []
+Cold Roses Lyrics.txt_16-144  []-negative  []
+Cold Roses Lyrics.txt_17-161  []-positive  [fgb,neg,fhd]
+Cold Roses Lyrics.txt_18-179  [but-advers]-negative  [fgb,neg]
+Cold Roses Lyrics.txt_19-199  []-negative  [fgb]
+Cold Roses Lyrics.txt_19-200  []-positive  []
+Cold Roses Lyrics.txt_20-220  []-negative  [fgb]
+Cold Roses Lyrics.txt_20-221  []-positive  [fgb]
+Cold Roses Lyrics.txt_21-242  []-positive  []
+Cold Roses Lyrics.txt_21-243  []-negative  [fgb]
+Cold Roses Lyrics.txt_22-265  []-negative  []
+Cold Roses Lyrics.txt_22-266  []-negative  [fgb,neg]
+Cold Roses Lyrics.txt_23-289  []-negative  [neg]
+Cold Roses Lyrics.txt_24-313  []-negative  [neg]
+Cold Roses Lyrics.txt_25-338  []-negative  [neg]
+Cold Roses Lyrics.txt_26-364  []-negative  [neg]
+Cold Roses Lyrics.txt_27-391  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Cold Roses Lyrics.txt_1-1  [cold,Roses,Lyrics,by,Ryan,the,Cardinals,and,Adams]  [title]
+Cold Roses Lyrics.txt_2-3  [the,mirrors,in,the,room,go,black,and,blue]  [propose_opin_neg(go,[external,factive,explanation,background,objective])]
+Cold Roses Lyrics.txt_3-6  [on,a,Sunday,morning,in,her,Saturday,shoes]  [provide_expl_just(shoe,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_4-10  [we,don-t,choose,who,we,love,.]  [provide_expl_just(choose,[external,factive,cause,foreground,objective]),suggest(choose,[external,factive,cause,foreground,objective])]
+Cold Roses Lyrics.txt_4-11  [we,love]  [provide_expl_just(choose,[external,factive,cause,foreground,objective]),suggest(choose,[external,factive,cause,foreground,objective])]
+Cold Roses Lyrics.txt_5-16  [we,don-t,choose]  [provide_expl_just(choose,[external,factive,cause,foreground,objective]),suggest(choose,[external,factive,cause,foreground,objective])]
+Cold Roses Lyrics.txt_6-22  [the,lights,over,the,Midway,melt,on,the,street]  [provide_expl_just(melt,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_7-29  [in,a,Sunday,shoes,with,her,Saturday]  [provide_expl_just(shoe,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_7-30  [feet]  [provide_expl_just(shoe,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_8-38  [she,don-t,love,who,she,choose,.]  [provide_expl_just(love,[external,factive,narration,foreground,objective]),provide_expl_just(choose,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_8-39  [she,choose]  [provide_expl_just(love,[external,factive,narration,foreground,objective]),provide_expl_just(choose,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_9-48  [she,don-t,need,what,she,use,.]  [provide_expl_just(need,[external,factive,narration,foreground,objective]),provide_expl_just(use,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_9-49  [she,use]  [provide_expl_just(need,[external,factive,narration,foreground,objective]),provide_expl_just(use,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_10-59  [daylight,comes]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_10-60  [and,exposes]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_11-71  [saturday-s,bruises]  [provide_expl_just(bruise,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_11-72  [and,cold,roses]  [reject_expl_just(bruise,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_12-84  [cold,roses]  reject_expl_opin(nil,[])
+Cold Roses Lyrics.txt_13-97  [nothing,but,the,sunlight,will,help,you,grow]  [reject_expl_just(grow,[external,factive,adverse,background,objective]),provide_expl_just(grow,[external,factive,adverse,background,objective])]
+Cold Roses Lyrics.txt_14-112  [from,underneath,your,bed,you,can,not,see,the,window]  [reject_expl_just(see,[external,nonfactive,narration,foreground,objective])]
+Cold Roses Lyrics.txt_15-127  [we,don-t,choose,what,we,see,.]  [provide_expl_just(choose,[external,factive,cause,foreground,objective]),suggest(choose,[external,factive,cause,foreground,objective])]
+Cold Roses Lyrics.txt_15-128  [we,see]  [provide_expl_just(choose,[external,factive,cause,foreground,objective]),suggest(choose,[external,factive,cause,foreground,objective])]
+Cold Roses Lyrics.txt_16-144  [we,don-t,choose]  [provide_expl_just(choose,[external,factive,cause,foreground,objective]),suggest(choose,[external,factive,cause,foreground,objective])]
+Cold Roses Lyrics.txt_17-161  [fortunate,and,angry,just,a,child,like]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_18-179  [all,that,money,buys,you,medicine,but,can,not,buy,you,time]  [reject_expl_just(buy,[external,nonfactive,narration,foreground,objective]),reject_expl_just(medicine,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_19-199  [we,don-t,choose,what,we,love,.]  [provide_expl_just(choose,[external,factive,cause,foreground,objective]),suggest(choose,[external,factive,cause,foreground,objective])]
+Cold Roses Lyrics.txt_19-200  [we,love]  [provide_expl_just(choose,[external,factive,cause,foreground,objective]),suggest(choose,[external,factive,cause,foreground,objective])]
+Cold Roses Lyrics.txt_20-220  [and,she,don-t,need]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Cold Roses Lyrics.txt_20-221  [what,she,got,.,she,got]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Cold Roses Lyrics.txt_21-242  [daylight,comes]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_21-243  [and,exposes]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_22-265  [saturday-s,bruises]  [provide_expl_just(bruise,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_22-266  [and,cold,roses]  [reject_expl_just(bruise,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Cold Roses Lyrics.txt_23-289  [cold,roses]  reject_expl_opin(nil,[])
+Cold Roses Lyrics.txt_24-313  [cold,roses]  reject_expl_opin(nil,[])
+Cold Roses Lyrics.txt_25-338  [cold,roses]  reject_expl_opin(nil,[])
+Cold Roses Lyrics.txt_26-364  [cold,roses]  reject_expl_opin(nil,[])
+Cold Roses Lyrics.txt_27-391  [cold,roses]  reject_expl_opin(nil,[])
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Cold Roses Lyrics.txt_1-1)-[primary-cold]
+2-(Cold Roses Lyrics.txt_2-3)-[primary-vision]
+3-(Cold Roses Lyrics.txt_3-6)-[]
+4-(Cold Roses Lyrics.txt_4-10)-[secondary-abstract_tought,emotions-affection]
+5-(Cold Roses Lyrics.txt_4-11)-[emotions-affection]
+6-(Cold Roses Lyrics.txt_5-16)-[secondary-abstract_tought]
+7-(Cold Roses Lyrics.txt_6-22)-[primary-vision,primary-concreteness,primary-fire,primary-brink]
+8-(Cold Roses Lyrics.txt_7-29)-[]
+9-(Cold Roses Lyrics.txt_7-30)-[primary-narcissism]
+10-(Cold Roses Lyrics.txt_8-38)-[emotions-affection,secondary-abstract_tought]
+11-(Cold Roses Lyrics.txt_8-39)-[secondary-abstract_tought]
+12-(Cold Roses Lyrics.txt_9-48)-[secondary-instru_behavior]
+13-(Cold Roses Lyrics.txt_9-49)-[secondary-instru_behavior]
+14-(Cold Roses Lyrics.txt_10-59)-[]
+15-(Cold Roses Lyrics.txt_10-60)-[]
+16-(Cold Roses Lyrics.txt_11-71)-[]
+17-(Cold Roses Lyrics.txt_11-72)-[primary-cold]
+18-(Cold Roses Lyrics.txt_12-84)-[primary-cold]
+19-(Cold Roses Lyrics.txt_13-97)-[primary-vision,secondary-social_behavior,primary-height]
+half
+20-(Cold Roses Lyrics.txt_14-112)-[primary-depth,primary-passivity,primary-vision,primary-brink]
+21-(Cold Roses Lyrics.txt_15-127)-[secondary-abstract_tought,primary-vision]
+22-(Cold Roses Lyrics.txt_15-128)-[primary-vision]
+23-(Cold Roses Lyrics.txt_16-144)-[secondary-abstract_tought]
+24-(Cold Roses Lyrics.txt_17-161)-[emotions-aggression,primary-cold,emotions-affection]
+25-(Cold Roses Lyrics.txt_18-179)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior,secondary-temporal_repere]
+26-(Cold Roses Lyrics.txt_19-199)-[secondary-abstract_tought,emotions-affection]
+27-(Cold Roses Lyrics.txt_19-200)-[emotions-affection]
+28-(Cold Roses Lyrics.txt_20-220)-[]
+29-(Cold Roses Lyrics.txt_20-221)-[]
+30-(Cold Roses Lyrics.txt_21-242)-[]
+31-(Cold Roses Lyrics.txt_21-243)-[]
+32-(Cold Roses Lyrics.txt_22-265)-[]
+33-(Cold Roses Lyrics.txt_22-266)-[primary-cold]
+34-(Cold Roses Lyrics.txt_23-289)-[primary-cold]
+35-(Cold Roses Lyrics.txt_24-313)-[primary-cold]
+36-(Cold Roses Lyrics.txt_25-338)-[primary-cold]
+37-(Cold Roses Lyrics.txt_26-364)-[primary-cold]
+38-(Cold Roses Lyrics.txt_27-391)-[primary-cold]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Cold Roses Lyrics.txt_1,1,cl1-nil-nil-be-[coord-theme-Cardinal_and_Adams-sn5,xcomp-theme-Adams-sn4,xcomp-theme-Cardinal-sn3,arg_mod-agent-Ryan-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Roses,sn1),and(Lyrics,cold,sn1),def_prop(Cardinal_and_Adams,[place,umano,place,oggetto,umano]),def_prop(Adams,[place,umano,place,oggetto,umano]),def_prop(Cardinal,[place,umano,place,oggetto,umano]),def_prop(Ryan,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Cold Roses Lyrics.txt_2,3,cl2-nil-nil-go-[coord-prop-black_and_blue-sn5,xcomp-prop-blue-sn4,xcomp-prop-black-sn3,iobj-locat-room-sn2,subj-agent-mirror-sn1,def_prop(black_and_blue,[estens,animato,astratto,istituzione,oggetto,strumento]),def_prop(blue,[estens,animato,astratto,istituzione,oggetto,strumento]),def_prop(black,[estens,animato,astratto,istituzione,oggetto,strumento]),def_prop(room,[nquant,oggetto,stato,strumento]),def_prop(mirror,[astratto,oggetto,strumento])])
+lf(Cold Roses Lyrics.txt_3,6,cl3-nil-nil-shoe-[adj-temporal-Saturday-nil,adj-temporal-morning-nil,ncmod-temporale-Sunday-sn1,def_prop(Saturday,[tempo]),def_prop(Sunday,[tempo])])
+lf(Cold Roses Lyrics.txt_4,10,cl5-nil-nil-love-[subj-experiencer-you-sn3,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_4,10,cl4-not-nil-choose-[subj-actor-we-sn1,aux-do-nil,def_prop(we,[umano])])
+lf(Cold Roses Lyrics.txt_5,16,cl6-not-nil-choose-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_6,22,cl7-nil-nil-melt-[adj-(mod)-over-nil,ncmod-locativo-street-sn3,subj-material-Midway-sn2,subj-material-Midway-sn1,and(Midway,light,sn1),def_prop(street,[oggetto,stato,strumento]),def_prop(Midway,[place,attivita]),def_prop(Midway,[place,attivita])])
+lf(Cold Roses Lyrics.txt_7,29,cl9-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_7,29,cl8-nil-nil-shoe-[ncmod-modal-Saturday-sn2,subj-theme-you-sn1,def_prop(Saturday,[tempo]),def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_8,38,cl11-nil-nil-choose-[subj-actor-you-sn3,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_8,38,cl10-not-nil-love-[subj-experiencer-she-sn1,aux-do-nil,def_prop(she,[umano])])
+lf(Cold Roses Lyrics.txt_9,48,cl13-nil-nil-use-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_9,48,cl12-not-nil-need-[subj-experiencer-she-sn1,aux-do-nil,def_prop(she,[umano])])
+lf(Cold Roses Lyrics.txt_10,59,cl15-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_10,59,cl14-nil-nil-come-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_11,71,cl16-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_11,71,nil-nil-nil-bruise-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_12,84,cl17-nil-nil-say-[obj-theme_unaff-ros-sn1,and(ros,cold,sn1),def_prop(ros,[informa,pubblic,tecno])])
+lf(Cold Roses Lyrics.txt_13,97,cl19-nil-nil-grow-[subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,and(you,nothing,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_13,97,cl18-nil-will-help-[cmod-subord-grow-but,subj-agent-you-sn4,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_14,112,cl20-not-can-see-[obj-theme_aff-window-sn3,ncmod-modal-be-sn2,subj-experiencer-you-sn1,and(be,underneath,sn2),def_prop(window,[oggetto,strumento,tempo]),def_prop(be,[informa,tecno]),def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_15,127,cl22-nil-nil-see-[subj-experiencer-you-sn3,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_15,127,cl21-not-nil-choose-[subj-actor-we-sn1,aux-do-nil,def_prop(we,[umano])])
+lf(Cold Roses Lyrics.txt_16,144,cl23-not-nil-choose-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_17,161,nil-nil-nil-like-[subj-experiencer-child-sn1,def_prop(child,[any,attivita,body_part,oggetto,strumento,umano])])
+lf(Cold Roses Lyrics.txt_18,179,nil-nil-nil-medicine-[subj-agent-you-sn7,subj-agent-you-sn5,subj-agent-you-sn4,and(you,all,sn4),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_18,179,nil-not-can-buy-[ccomp-prop-buy-nil,subj-actor-you-sn2,subj-actor-money-sn1,def_prop(you,[umano]),def_prop(money,[astratto,oggetto])])
+lf(Cold Roses Lyrics.txt_19,199,cl25-nil-nil-love-[subj-experiencer-you-sn3,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_19,199,cl24-not-nil-choose-[subj-actor-we-sn1,aux-do-nil,def_prop(we,[umano])])
+lf(Cold Roses Lyrics.txt_20,220,cl27-nil-nil-get-[subj-agent-she-sn2,cmod-subord-get-",def_prop(she,[umano])])
+lf(Cold Roses Lyrics.txt_20,220,cl26-not-nil-need-[subj-experiencer-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_21,242,cl29-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_21,242,cl28-nil-nil-come-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_22,265,cl30-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_22,265,nil-nil-nil-bruise-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Cold Roses Lyrics.txt_23,289,cl31-nil-nil-say-[obj-theme_unaff-ros-sn1,and(ros,cold,sn1),def_prop(ros,[informa,pubblic,tecno])])
+lf(Cold Roses Lyrics.txt_24,313,cl32-nil-nil-say-[obj-theme_unaff-ros-sn1,and(ros,cold,sn1),def_prop(ros,[informa,pubblic,tecno])])
+lf(Cold Roses Lyrics.txt_25,338,cl33-nil-nil-say-[obj-theme_unaff-ros-sn1,and(ros,cold,sn1),def_prop(ros,[informa,pubblic,tecno])])
+lf(Cold Roses Lyrics.txt_26,364,cl34-nil-nil-say-[obj-theme_unaff-ros-sn1,and(ros,cold,sn1),def_prop(ros,[informa,pubblic,tecno])])
+lf(Cold Roses Lyrics.txt_27,391,cl35-nil-nil-say-[obj-theme_unaff-ros-sn1,and(ros,cold,sn1),def_prop(ros,[informa,pubblic,tecno])])

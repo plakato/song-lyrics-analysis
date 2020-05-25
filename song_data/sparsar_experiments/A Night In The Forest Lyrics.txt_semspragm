@@ -1,0 +1,95 @@
+"POLARITY, DISCOURSE MARKERS"
+
+A Night In The Forest Lyrics.txt_1-1  []-positive  []
+A Night In The Forest Lyrics.txt_2-3  []-negative  [neg]
+A Night In The Forest Lyrics.txt_3-6  []-positive  []
+A Night In The Forest Lyrics.txt_4-10  []-positive  []
+A Night In The Forest Lyrics.txt_5-15  []-negative  [neg]
+A Night In The Forest Lyrics.txt_6-21  []-negative  [neg]
+A Night In The Forest Lyrics.txt_7-28  []-positive  []
+A Night In The Forest Lyrics.txt_7-29  []-negative  [neg]
+A Night In The Forest Lyrics.txt_8-37  []-positive  []
+A Night In The Forest Lyrics.txt_9-46  []-negative  [neg]
+A Night In The Forest Lyrics.txt_10-56  []-positive  []
+A Night In The Forest Lyrics.txt_11-67  []-suspension  []
+A Night In The Forest Lyrics.txt_12-79  []-positive  []
+A Night In The Forest Lyrics.txt_13-93  []-positive  [neg]
+A Night In The Forest Lyrics.txt_14-107  [(as)-temp_coinc]-positive  []
+A Night In The Forest Lyrics.txt_15-122  []-positive  []
+A Night In The Forest Lyrics.txt_16-138  []-positive  []
+A Night In The Forest Lyrics.txt_17-155  []-suspension  []
+A Night In The Forest Lyrics.txt_18-173  []-negative  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+A Night In The Forest Lyrics.txt_1-1  [a,Night,in,the,Forest,Lyrics,by,666]  [title]
+A Night In The Forest Lyrics.txt_2-3  [in,the,deep,of,lonely,forests]  [reject_expl_just(forest,[external,factive,narration,background,objective])]
+A Night In The Forest Lyrics.txt_3-6  [where,the,life,ends]  [provide_expl_just(end,[external,factive,narration,background,objective])]
+A Night In The Forest Lyrics.txt_4-10  [far,away,from,living,beings]  [provide_expl_just(live,[external,factive,narration,foreground,objective])]
+A Night In The Forest Lyrics.txt_5-15  [where,the,darkness,touches,me]  [reject_expl_just(touch,[external,factive,narration,background,objective])]
+A Night In The Forest Lyrics.txt_6-21  [the,song,of,evil,souls,is,heard]  [reject_expl_just(hear,[external,factive,narration,foreground,objective])]
+A Night In The Forest Lyrics.txt_7-28  [i,feel]  [provide_expl_just(feel,[external,factive,narration,background,objective])]
+A Night In The Forest Lyrics.txt_7-29  [the,other,world,is,close]  [reject_expl_just(feel,[external,factive,narration,background,objective])]
+A Night In The Forest Lyrics.txt_8-37  [where,i,belong]  [provide_expl_just(belong,[external,factive,narration,background,objective])]
+A Night In The Forest Lyrics.txt_9-46  [during,my,damned,wandering]  [reject_expl_just(damn,[internal,factive,narration,background,objective])]
+A Night In The Forest Lyrics.txt_10-56  [the,end,has,already,gleamed,in,front,of,me]  [provide_expl_just(gleam,[external,factive,narration,background,objective])]
+A Night In The Forest Lyrics.txt_11-67  [a,voice,bursts,forth,from,the,deep,silence,inside]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+A Night In The Forest Lyrics.txt_12-79  [the,Satan,is,calling,me,to,follow,him]  [provide_expl_just(follow,[external,factive,narration,background,objective]),provide_expl_just(call,[external,factive,narration,foreground,objective])]
+A Night In The Forest Lyrics.txt_13-93  [i,do,this,with,a,cold,heart]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+A Night In The Forest Lyrics.txt_14-107  [as,i,arrived,to,the,end,of,my,road]  [raise_issue(be,[_310100,factive,statement,_310118,subjective])]
+A Night In The Forest Lyrics.txt_15-122  [i,step,over,the,gate]  [provide_expl_just(step,[external,factive,narration,background,objective])]
+A Night In The Forest Lyrics.txt_16-138  [which,leads,to,the,infinite]  [provide_expl_just(lead,[external,factive,narration,background,objective])]
+A Night In The Forest Lyrics.txt_17-155  [where,my,eyes,may,open]  [raise_issue(be,[_311210,_311216,statement,_311228,_311234])]
+A Night In The Forest Lyrics.txt_18-173  [and,my,hatred,may,fulfill,itself]  [reject_expl_just(fulfill,[external,nonfactive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(A Night In The Forest Lyrics.txt_1-1)-[]
+2-(A Night In The Forest Lyrics.txt_2-3)-[primary-depth,emotions-sadness]
+3-(A Night In The Forest Lyrics.txt_3-6)-[primary-concreteness]
+4-(A Night In The Forest Lyrics.txt_4-10)-[primary-concreteness,primary-concreteness]
+5-(A Night In The Forest Lyrics.txt_5-15)-[primary-concreteness,primary-touch]
+6-(A Night In The Forest Lyrics.txt_6-21)-[primary-sound]
+7-(A Night In The Forest Lyrics.txt_7-28)-[]
+8-(A Night In The Forest Lyrics.txt_7-29)-[primary-concreteness]
+9-(A Night In The Forest Lyrics.txt_8-37)-[primary-concreteness,secondary-instru_behavior]
+half
+10-(A Night In The Forest Lyrics.txt_9-46)-[]
+11-(A Night In The Forest Lyrics.txt_10-56)-[secondary-temporal_repere,primary-vision,primary-concreteness]
+12-(A Night In The Forest Lyrics.txt_11-67)-[primary-sound,primary-depth,primary-passivity,primary-concreteness]
+13-(A Night In The Forest Lyrics.txt_12-79)-[secondary-social_behavior]
+14-(A Night In The Forest Lyrics.txt_13-93)-[primary-cold,primary-narcissism]
+15-(A Night In The Forest Lyrics.txt_14-107)-[primary-brink]
+16-(A Night In The Forest Lyrics.txt_15-122)-[primary-brink,primary-concreteness,primary-brink]
+17-(A Night In The Forest Lyrics.txt_16-138)-[]
+18-(A Night In The Forest Lyrics.txt_17-155)-[primary-concreteness,primary-narcissism,secondary-abstract_tought,primary-concreteness]
+19-(A Night In The Forest Lyrics.txt_18-173)-[emotions-aggression,secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(A Night In The Forest Lyrics.txt_1,1,cl1-nil-nil-be-[iobj-scale-666-sn4,xcomp-theme-Lyrics-sn3,ncmod-locativo-Forest-sn2,subj-theme_bound-Night-sn1,def_prop(666,[nquant]),def_prop(Lyrics,[informa,tecno]),def_prop(Forest,[place,umano]),def_prop(Night,[tempo])])
+lf(A Night In The Forest Lyrics.txt_2,3,cl2-nil-nil-forest-[ncmod-specif-lonely-sn2,subj-actor-you-sn1,def_prop(lonely,[estens]),def_prop(you,[umano])])
+lf(A Night In The Forest Lyrics.txt_3,6,cl3-nil-nil-end-[obl-modal-where-sn2,subj-agent-life-sn1,def_prop(where,[luogo]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(A Night In The Forest Lyrics.txt_4,10,cl4-nil-nil-live-[subj-agent-being-sn1,def_prop(being,[stato])])
+lf(A Night In The Forest Lyrics.txt_5,15,nil-nil-nil-touch-[obj-theme-me-sn3,obl-modal-where-sn2,subj-agent-darkness-sn1,def_prop(me,[umano]),def_prop(where,[luogo]),def_prop(darkness,[astratto,luogo])])
+lf(A Night In The Forest Lyrics.txt_6,21,cl5-nil-nil-hear-[iobj-goal-soul-sn2,subj-theme_unaff-you-sn1,aux-(is)-nil,and(soul,evil,sn2),def_prop(soul,[attivita,emotivo,informa,umano]),def_prop(you,[umano])])
+lf(A Night In The Forest Lyrics.txt_7,28,cl7-nil-nil-close-[subj-goal-world-sn2,aux-(is)-nil,and(world,other,sn2),def_prop(world,[astratto,istituzione,oggetto])])
+lf(A Night In The Forest Lyrics.txt_7,28,cl6-nil-nil-feel-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(A Night In The Forest Lyrics.txt_8,37,cl8-nil-nil-belong-[obl-modal-where-sn2,subj-actor-i-sn1,def_prop(where,[luogo]),def_prop(i,[umano])])
+lf(A Night In The Forest Lyrics.txt_9,46,cl9-nil-nil-be-[xadj-adj-wandering-adj1,ncmod-modal-damn-sn1,def_prop(wandering,_313218),def_prop(damn,[astratto])])
+lf(A Night In The Forest Lyrics.txt_10,56,cl10-nil-nil-gleam-[ncmod-locativo-front-sn2,subj-actor-end-sn1,adj-(mod)-already-nil,aux-has-nil,def_prop(front,[astratto,attivita,cambia,luogo,oggetto,stato,strumento]),def_prop(end,[tempo])])
+lf(A Night In The Forest Lyrics.txt_11,67,cl11-nil-nil-be-[xadj-adj-inside-adj2,adj-(mod)-forth-nil,ncmod-modal-silence-sn2,subj-theme_bound-burst-sn1,and(silence,deep,sn2),and(burst,voice,sn1),def_prop(inside,_313576),def_prop(silence,[astratto,stato]),def_prop(burst,[attivita])])
+lf(A Night In The Forest Lyrics.txt_12,79,cl13-nil-nil-follow-[obj-theme_unaff-him-sn3,xcomp-purpose-follow-2,def_prop(him,[umano])])
+lf(A Night In The Forest Lyrics.txt_12,79,cl12-nil-nil-call-[obj-theme_bound-me-sn2,subj-agent-Satan-sn1,aux-(is)-nil,progr-calling-nil,def_prop(me,[umano]),def_prop(Satan,[umano])])
+lf(A Night In The Forest Lyrics.txt_13,93,cl14-nil-nil-do-[ncmod-comitativo-hear-sn3,xcomp-prop-this-sn2,subj-theme_unaff-i-sn1,aux-do-nil,and(hear,cold,sn3),def_prop(hear,[istituzione]),def_prop(this,[oggetto,umano]),def_prop(i,[umano])])
+lf(A Night In The Forest Lyrics.txt_14,107,cl15-nil-nil-arrive-[ncmod-modal-end-sn2,subj-agent-i-sn1,def_prop(end,[tempo]),def_prop(i,[umano])])
+lf(A Night In The Forest Lyrics.txt_15,122,cl16-nil-nil-step-[obj-theme_aff-gate-sn2,subj-agent-i-sn1,def_prop(gate,[astratto,oggetto,strumento]),def_prop(i,[umano])])
+lf(A Night In The Forest Lyrics.txt_16,138,cl17-nil-nil-lead-[iobj-goal-infinite-sn2,subj-agent-which-sn1,def_prop(infinite,[istituzione]),def_prop(which,[_314404])])
+lf(A Night In The Forest Lyrics.txt_17,155,cl18-nil-may-open-[obl-modal-where-sn2,subj-agent-eye-sn1,def_prop(where,[luogo]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(A Night In The Forest Lyrics.txt_18,173,cl19-nil-may-fulfill-[cmod-subord-fulfill-",subj-agent-itself-sn2,subj-agent-itself-sn1,and(itself,hatred,sn1),def_prop(itself,[any]),def_prop(itself,[any])])

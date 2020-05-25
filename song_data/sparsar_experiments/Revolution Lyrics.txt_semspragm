@@ -1,0 +1,123 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Revolution Lyrics.txt_1-1  []-positive  []
+Revolution Lyrics.txt_2-3  []-positive  []
+Revolution Lyrics.txt_3-6  []-positive  []
+Revolution Lyrics.txt_4-10  []-negative  [neg,fgb]
+Revolution Lyrics.txt_5-15  []-positive  [neg]
+Revolution Lyrics.txt_6-22  []-negative  [neg,neg]
+Revolution Lyrics.txt_6-23  []-positive  []
+Revolution Lyrics.txt_7-31  []-negative  [neg]
+Revolution Lyrics.txt_7-32  []-positive  []
+Revolution Lyrics.txt_8-40  []-positive  [neg]
+Revolution Lyrics.txt_9-51  []-positive  [neg,neg]
+Revolution Lyrics.txt_10-63  []-positive  []
+Revolution Lyrics.txt_11-74  []-negative  [neg]
+Revolution Lyrics.txt_12-86  []-negative  [neg,neg]
+Revolution Lyrics.txt_13-101  []-positive  []
+Revolution Lyrics.txt_14-115  []-negative  [neg]
+Revolution Lyrics.txt_14-116  [when-temp_coinc]-negative  [neg]
+Revolution Lyrics.txt_15-131  []-positive  []
+Revolution Lyrics.txt_16-148  []-positive  []
+Revolution Lyrics.txt_17-165  []-positive  [neg]
+Revolution Lyrics.txt_18-185  []-positive  [neg,neg]
+Revolution Lyrics.txt_19-206  []-positive  []
+Revolution Lyrics.txt_20-226  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Revolution Lyrics.txt_1-1  [revolution,Lyrics,by,World,Wide,Message,Tribe]  [title]
+Revolution Lyrics.txt_2-3  [Comin,on,strong,with,a,new,direction]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Revolution Lyrics.txt_3-6  [take,a,new,life,with,a,total,affection]  [provide_expl_just(take,[external,factive,explanation,background,objective])]
+Revolution Lyrics.txt_4-10  [mind,and,soul,living,on_the_edge]  [reject_expl_just(live,[external,factive,narration,foreground,objective])]
+Revolution Lyrics.txt_5-15  [see,you,Comin,on,cos,your,life,is,dead]  [provide_expl_just(co,[internal,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Revolution Lyrics.txt_6-22  [i,never,did,go,cos,i,did,never]  [reject_expl_just(go,[external,factive,narration,background,objective]),reject_expl_just(see,[external,factive,narration,background,objective]),reject_expl_just(do,[external,factive,narration,background,objective])]
+Revolution Lyrics.txt_6-23  [see]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,background,objective])]
+Revolution Lyrics.txt_7-31  [m,i,now,gonna,fight,til,the,day]  [reject_expl_just(gonna,[external,factive,narration,background,objective]),reject_expl_just(go,[external,factive,narration,background,objective])]
+Revolution Lyrics.txt_7-32  [i,go,free]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Revolution Lyrics.txt_8-40  [give,it,all,you,got,,,take,a,big,shot]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Revolution Lyrics.txt_9-51  [step,it,up,,,live,it,up,fight,til,you,drop]  [provide_expl_just(step,[external,factive,narration,background,objective]),provide_expl_just(live,[external,factive,narration,background,objective]),provide_expl_just(drop,[external,factive,narration,background,objective])]
+Revolution Lyrics.txt_10-63  [i,can,feel,the,power,Comin,down,on,me]  [provide_expl_just(feel,[external,nonfactive,narration,foreground,objective])]
+Revolution Lyrics.txt_11-74  [fight,for,the,Son,with,a,new,foundation]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Revolution Lyrics.txt_12-86  [shout,to,the,world,cos,you,gonna,never,stop]  [reject_expl_just(stop,[external,factive,narration,background,objective]),reject_expl_just(shout,[external,factive,narration,background,objective]),reject_expl_just(gonna,[external,factive,narration,background,objective])]
+Revolution Lyrics.txt_13-101  [come,to,the,rock,with,a,big,revolution]  [raise_issue(be,[_165480,factive,statement,_165498,subjective])]
+Revolution Lyrics.txt_14-115  [never,look,back]  [reject_expl_just(look,[external,factive,narration,background,objective]),reject_expl_just(take,[external,factive,narration,background,objective])]
+Revolution Lyrics.txt_14-116  [when,you,take,a,big,knock]  [reject_expl_just(look,[external,factive,narration,background,objective]),reject_expl_just(take,[external,factive,narration,background,objective])]
+Revolution Lyrics.txt_15-131  [back,to,the,wall,run,with,the,mob]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(wall,[external,factive,narration,background,objective])]
+Revolution Lyrics.txt_16-148  [every,tick,takin,give,a,stick,to,the,dog]  [provide_expl_just(give,[external,factive,narration,background,objective])]
+Revolution Lyrics.txt_17-165  [give,it,all,you,got,,,take,a,big,shot]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Revolution Lyrics.txt_18-185  [step,it,up,,,line,it,up,fight,til,you,drop]  [provide_expl_just(step,[external,factive,narration,background,objective]),provide_expl_just(line,[external,factive,narration,background,objective]),provide_expl_just(drop,[external,factive,narration,background,objective])]
+Revolution Lyrics.txt_19-206  [i,can,feel,the,power,Comin,down,on,me]  [provide_expl_just(feel,[external,nonfactive,narration,foreground,objective])]
+Revolution Lyrics.txt_20-226  [i,can,feel,the,power,Comin,down,on,me]  [raise_issue(be,[_173964,factive,statement,_173982,subjective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Revolution Lyrics.txt_1-1)-[]
+2-(Revolution Lyrics.txt_2-3)-[]
+3-(Revolution Lyrics.txt_3-6)-[]
+4-(Revolution Lyrics.txt_4-10)-[]
+5-(Revolution Lyrics.txt_5-15)-[primary-vision,primary-passivity]
+6-(Revolution Lyrics.txt_6-22)-[]
+7-(Revolution Lyrics.txt_6-23)-[primary-vision]
+8-(Revolution Lyrics.txt_7-31)-[secondary-temporal_repere,emotions-aggression]
+9-(Revolution Lyrics.txt_7-32)-[]
+10-(Revolution Lyrics.txt_8-40)-[emotions-aggression]
+11-(Revolution Lyrics.txt_9-51)-[primary-brink,emotions-aggression,primary-descent]
+half
+12-(Revolution Lyrics.txt_10-63)-[]
+13-(Revolution Lyrics.txt_11-74)-[emotions-aggression]
+14-(Revolution Lyrics.txt_12-86)-[emotions-expressive_beh,secondary-restraint]
+15-(Revolution Lyrics.txt_13-101)-[primary-hard]
+16-(Revolution Lyrics.txt_14-115)-[primary-vision,primary-concreteness]
+17-(Revolution Lyrics.txt_14-116)-[secondary-temporal_repere]
+18-(Revolution Lyrics.txt_15-131)-[primary-concreteness,primary-brink,primary-chaos]
+19-(Revolution Lyrics.txt_16-148)-[secondary-temporal_repere]
+20-(Revolution Lyrics.txt_17-165)-[emotions-aggression]
+21-(Revolution Lyrics.txt_18-185)-[primary-brink,primary-brink,emotions-aggression,primary-descent]
+22-(Revolution Lyrics.txt_19-206)-[]
+23-(Revolution Lyrics.txt_20-226)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Revolution Lyrics.txt_1,1,nil-nil-nil-Message-[obj-theme-Tribe-sn3,arg_mod-agent-Wide-sn2,subj-agent-Lyrics-sn1,and(Wide,World,sn2),and(Lyrics,revolution,sn1),def_prop(Tribe,[umano]),def_prop(Wide,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Revolution Lyrics.txt_2,3,cl1-nil-nil-be-[ncmod-comitativo-direction-sn3,ncmod-locativo-strong-sn2,subj-theme_bound-Comin-sn1,and(direction,new,sn3),def_prop(direction,[astratto,attivita,informa,luogo,relat]),def_prop(strong,[istituzione]),def_prop(Comin,[istituzione,umano])])
+lf(Revolution Lyrics.txt_3,6,cl2-nil-nil-take-[ncmod-modal-affection-sn3,obj-theme_aff-life-sn2,subj-agent-you-sn1,and(affection,total,sn3),and(life,new,sn2),def_prop(affection,[emotivo]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(you,[umano])])
+lf(Revolution Lyrics.txt_4,10,cl3-nil-nil-live-[obj-prop-on_the_edge-sn4,coord-actor-mind_and_soul-sn3,subj-actor-soul-sn2,subj-actor-mind-sn1,def_prop(on_the_edge,[astratto,informa,luogo,oggetto,strumento,tecno]),def_prop(mind_and_soul,[astratto,attivita,emotivo,informa,umano]),def_prop(soul,[astratto,attivita,emotivo,informa,umano]),def_prop(mind,[astratto,attivita,emotivo,informa,umano])])
+lf(Revolution Lyrics.txt_5,15,cl5-nil-nil-be-[subj-theme_bound-dead-sn10,xcomp-prop-dead-sn7,subj-theme_bound-life-sn6,ncmod-modale-co-sn4,def_prop(dead,[valutativo]),def_prop(dead,[valutativo]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(co,[informa,tecno])])
+lf(Revolution Lyrics.txt_5,15,cl4-nil-nil-see-[obj-actor-Comin-sn3,subj-experiencer-you-sn2,subj-experiencer-you-sn1,and(you,you,sn1),def_prop(Comin,[istituzione,umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Revolution Lyrics.txt_6,22,_175812-nil-nil-do-[voice-do-nil,tense-do-nil])
+lf(Revolution Lyrics.txt_6,22,cl7-nil-nil-see-[subj-experiencer-you-sn5,voice-do-nil,tense-do-nil,def_prop(you,[umano])])
+lf(Revolution Lyrics.txt_6,22,cl6-nil-nil-go-[adj-(mod)-never-nil,voice-do-nil,tense-do-nil,obj-theme_aff-co-sn2,subj-agent-i-sn1,aux-did-nil,def_prop(co,[informa,tecno]),def_prop(i,[umano])])
+lf(Revolution Lyrics.txt_7,31,cl8-nil-nil-go-[xcomp-prop-free-sn9,subj-agent-i-sn8,def_prop(free,[valutativo]),def_prop(i,[umano])])
+lf(Revolution Lyrics.txt_7,31,nil-nil-nil-gonna-[adj-temporal-day-nil,adj-(mod)-now-nil,obj-theme_aff-til-sn2,subj-agent-i-sn1,and(til,fight,sn2),and(i,m,sn1),def_prop(day,[tempo]),def_prop(til,[informa,tecno]),def_prop(i,[umano])])
+lf(Revolution Lyrics.txt_8,40,cl11-nil-nil-take-[obj-theme-shoot-sn4,xcomp-purpose-take-3,and(shoot,big,sn4),def_prop(shoot,[attivita,informa,plant])])
+lf(Revolution Lyrics.txt_8,40,cl10-nil-nil-get-[subj-agent-all-sn3,subj-agent-you-sn6,def_prop(all,[_176688]),def_prop(you,[umano])])
+lf(Revolution Lyrics.txt_8,40,cl9-nil-nil-give-[obj-goal-all-sn3,subj-actor-it-sn2,subj-actor-it-sn1,and(it,you,sn1),def_prop(all,[_176834]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Revolution Lyrics.txt_9,51,cl14-nil-nil-drop-[subj-actor-pro-nil,subj-actor-til-sn19,adj-locative-up-nil,subj-actor-til-sn17,subj-actor-til-sn10,subj-actor-til-sn9,and(til,fight,sn9),def_prop(til,[informa,tecno]),def_prop(til,[informa,tecno]),def_prop(til,[informa,tecno]),def_prop(til,[informa,tecno])])
+lf(Revolution Lyrics.txt_9,51,cl13-nil-nil-live-[subj-actor-it-sn6,def_prop(it,[any])])
+lf(Revolution Lyrics.txt_9,51,cl12-nil-nil-step-[subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Revolution Lyrics.txt_10,63,cl15-nil-can-feel-[xadj-adj-down-adj1,iobj-goal-me-sn4,xcomp-prop-Comin-sn3,xcomp-tema_emot-power-sn2,subj-experiencer-i-sn1,def_prop(down,_177482),def_prop(me,[umano]),def_prop(Comin,[istituzione,umano]),def_prop(power,[astratto,attivita,cambia,umano]),def_prop(i,[umano])])
+lf(Revolution Lyrics.txt_11,74,cl16-nil-nil-be-[ncmod-comitativo-foundation-sn3,subj-theme_bound-Son-sn2,subj-theme_bound-Son-sn1,and(foundation,new,sn3),and(Son,fight,sn1),def_prop(foundation,[astratto,istituzione,oggetto,relat,strumento]),def_prop(Son,[place,umano]),def_prop(Son,[place,umano])])
+lf(Revolution Lyrics.txt_12,86,nil-nil-nil-gonna-[])
+lf(Revolution Lyrics.txt_12,86,cl18-nil-nil-stop-[ncmod-loc_direct-world-sn2,def_prop(world,[astratto,istituzione,oggetto])])
+lf(Revolution Lyrics.txt_12,86,cl17-nil-nil-shout-[subj-sn1-co-sn3,subj-agent-you-sn1,def_prop(co,[informa,tecno]),def_prop(you,[umano])])
+lf(Revolution Lyrics.txt_13,101,cl19-nil-nil-come-[iobj-goal-revolution-sn2,subj-agent-you-sn1,and(revolution,big,sn2),def_prop(revolution,[attivita,evento]),def_prop(you,[umano])])
+lf(Revolution Lyrics.txt_14,115,cl21-nil-nil-take-[obj-theme_aff-knock-sn6,subj-agent-you-sn5,and(knock,big,sn6),def_prop(knock,[astratto,attivita,evento]),def_prop(you,[umano])])
+lf(Revolution Lyrics.txt_14,115,cl20-nil-nil-look-[adj-subj_disc-back-sn2,subj-agent-you-sn1,def_prop(back,[istituzione]),def_prop(you,[umano])])
+lf(Revolution Lyrics.txt_15,131,cl23-nil-nil-wall-[adj-(mod)-back-nil,ncmod-comitativo-mob-sn1,def_prop(mob,[istituzione])])
+lf(Revolution Lyrics.txt_15,131,cl22-nil-nil-run-[])
+lf(Revolution Lyrics.txt_16,148,cl24-nil-nil-give-[obj-goal-stick-sn2,subj-actor-takin-sn1,and(takin,tick,sn1),and(takin,every,sn1),def_prop(stick,[attivita,oggetto,plant,strumento]),def_prop(takin,[animato])])
+lf(Revolution Lyrics.txt_17,165,cl27-nil-nil-take-[obj-theme-shoot-sn4,xcomp-purpose-take-3,and(shoot,big,sn4),def_prop(shoot,[attivita,informa,plant])])
+lf(Revolution Lyrics.txt_17,165,cl26-nil-nil-get-[subj-agent-all-sn3,subj-agent-you-sn6,def_prop(all,[_178946]),def_prop(you,[umano])])
+lf(Revolution Lyrics.txt_17,165,cl25-nil-nil-give-[obj-goal-all-sn3,subj-actor-it-sn2,subj-actor-it-sn1,and(it,you,sn1),def_prop(all,[_179092]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Revolution Lyrics.txt_18,185,cl30-nil-nil-drop-[subj-actor-pro-nil,subj-actor-til-sn19,adj-locative-up-nil,subj-actor-til-sn17,subj-actor-til-sn10,subj-actor-til-sn9,and(til,fight,sn9),def_prop(til,[informa,tecno]),def_prop(til,[informa,tecno]),def_prop(til,[informa,tecno]),def_prop(til,[informa,tecno])])
+lf(Revolution Lyrics.txt_18,185,cl29-nil-nil-line-[subj-agent-it-sn6,def_prop(it,[any])])
+lf(Revolution Lyrics.txt_18,185,cl28-nil-nil-step-[subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Revolution Lyrics.txt_19,206,cl31-nil-can-feel-[xadj-adj-down-adj2,iobj-goal-me-sn4,xcomp-prop-Comin-sn3,xcomp-tema_emot-power-sn2,subj-experiencer-i-sn1,def_prop(down,_179740),def_prop(me,[umano]),def_prop(Comin,[istituzione,umano]),def_prop(power,[astratto,attivita,cambia,umano]),def_prop(i,[umano])])
+lf(Revolution Lyrics.txt_20,226,cl32-nil-can-feel-[xadj-adj-down-adj3,iobj-goal-me-sn4,xcomp-prop-Comin-sn3,xcomp-tema_emot-power-sn2,subj-experiencer-i-sn1,def_prop(down,_179980),def_prop(me,[umano]),def_prop(Comin,[istituzione,umano]),def_prop(power,[astratto,attivita,cambia,umano]),def_prop(i,[umano])])

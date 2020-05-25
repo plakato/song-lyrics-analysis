@@ -1,0 +1,71 @@
+"POLARITY, DISCOURSE MARKERS"
+
+SportsCenter Lyrics.txt_1-1  []-positive  []
+SportsCenter Lyrics.txt_2-3  []-positive  []
+SportsCenter Lyrics.txt_3-6  []-positive  [fgb]
+SportsCenter Lyrics.txt_4-10  []-positive  []
+SportsCenter Lyrics.txt_5-15  []-positive  [fgb]
+SportsCenter Lyrics.txt_6-21  []-positive  []
+SportsCenter Lyrics.txt_7-28  []-positive  []
+SportsCenter Lyrics.txt_8-36  [while-temp_coinc]-positive  []
+SportsCenter Lyrics.txt_9-45  []-positive  []
+SportsCenter Lyrics.txt_10-55  []-positive  [fgb]
+SportsCenter Lyrics.txt_11-66  []-positive  []
+SportsCenter Lyrics.txt_12-79  []-positive  []
+SportsCenter Lyrics.txt_13-92  [but-advers]-suspension  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+SportsCenter Lyrics.txt_1-1  [sportscenter,Lyrics,by,QUARTERBACKS]  [title]
+SportsCenter Lyrics.txt_2-3  [i,called,my]  [provide_expl_just(call,[external,factive,narration,foreground,objective])]
+SportsCenter Lyrics.txt_3-6  [father,and]  [proposal(be,[_456844,_456850,statement,foreground,_456868])]
+SportsCenter Lyrics.txt_4-10  [i,drank,some]  [provide_expl_just(drink,[external,factive,narration,foreground,objective])]
+SportsCenter Lyrics.txt_5-15  [Budweiser,and]  [proposal(be,[_457530,_457536,statement,foreground,_457554])]
+SportsCenter Lyrics.txt_6-21  [i,watched,too]  [provide_expl_just(watch,[external,factive,narration,foreground,objective])]
+SportsCenter Lyrics.txt_7-28  [much,SportsCenter]  [raise_issue(be,[_458216,factive,statement,_458234,subjective])]
+SportsCenter Lyrics.txt_8-36  [while,i,waited,for]  [provide_expl_just(wait,[external,factive,narration,foreground,objective])]
+SportsCenter Lyrics.txt_9-45  [that,warmer,weather]  [provide_expl_just(weather,[external,factive,narration,background,objective])]
+SportsCenter Lyrics.txt_10-55  [and,it,came]  [proposal(be,[_459302,_459308,statement,foreground,_459326])]
+SportsCenter Lyrics.txt_11-66  [lke,it,does,always]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+SportsCenter Lyrics.txt_12-79  [it,always,comes]  [raise_issue(be,[_460438,factive,statement,_460456,subjective])]
+SportsCenter Lyrics.txt_13-92  [but,you,have_to,wait]  [provide_expl_just(wait,[external,nonfactive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(SportsCenter Lyrics.txt_1-1)-[]
+2-(SportsCenter Lyrics.txt_2-3)-[secondary-social_behavior]
+3-(SportsCenter Lyrics.txt_3-6)-[]
+4-(SportsCenter Lyrics.txt_4-10)-[primary-orality]
+5-(SportsCenter Lyrics.txt_5-15)-[]
+6-(SportsCenter Lyrics.txt_6-21)-[primary-vision]
+half
+7-(SportsCenter Lyrics.txt_7-28)-[]
+8-(SportsCenter Lyrics.txt_8-36)-[secondary-temporal_repere]
+9-(SportsCenter Lyrics.txt_9-45)-[primary-fire]
+10-(SportsCenter Lyrics.txt_10-55)-[]
+11-(SportsCenter Lyrics.txt_11-66)-[]
+12-(SportsCenter Lyrics.txt_12-79)-[]
+13-(SportsCenter Lyrics.txt_13-92)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(SportsCenter Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-quarterback-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,sportscenter,sn1),def_prop(quarterback,[attivita,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(SportsCenter Lyrics.txt_2,3,cl2-nil-nil-call-[xcomp-prop-my-sn2,subj-agent-i-sn1,def_prop(my,[informa,tecno]),def_prop(i,[umano])])
+lf(SportsCenter Lyrics.txt_3,6,cl3-nil-nil-say-[obj-theme_unaff-father-sn1,def_prop(father,[umano])])
+lf(SportsCenter Lyrics.txt_4,10,cl4-nil-nil-drink-[obj-goal-some-sn2,subj-agent-i-sn1,def_prop(some,[umano]),def_prop(i,[umano])])
+lf(SportsCenter Lyrics.txt_5,15,cl5-nil-nil-say-[obj-theme_unaff-Budweiser-sn1,def_prop(Budweiser,[istituzione,umano])])
+lf(SportsCenter Lyrics.txt_6,21,cl6-nil-nil-watch-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(SportsCenter Lyrics.txt_7,28,cl7-nil-nil-say-[obj-theme_unaff-SportsCenter-sn1,and(SportsCenter,much,sn1),def_prop(SportsCenter,[istituzione,umano])])
+lf(SportsCenter Lyrics.txt_8,36,cl8-nil-nil-wait-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(SportsCenter Lyrics.txt_9,45,cl9-nil-nil-weather-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(SportsCenter Lyrics.txt_10,55,cl10-nil-nil-come-[cmod-subord-come-",subj-agent-you-sn1,def_prop(you,[umano])])
+lf(SportsCenter Lyrics.txt_11,66,cl12-nil-nil-do-[adj-(mod)-always-nil,aux-does-nil])
+lf(SportsCenter Lyrics.txt_11,66,cl11-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(SportsCenter Lyrics.txt_12,79,cl13-nil-nil-come-[expl-it-nil,subj-agent-it-sn1,def_prop(it,[any])])
+lf(SportsCenter Lyrics.txt_13,92,cl14-nil-have_to-wait-[subj-actor-you-sn1,def_prop(you,[umano])])

@@ -1,0 +1,237 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Destroyer Lyrics.txt_1-1  []-suspension  [neg,neg]
+Destroyer Lyrics.txt_2-3  []-negative  [neg]
+Destroyer Lyrics.txt_3-6  []-positive  []
+Destroyer Lyrics.txt_4-10  []-positive  []
+Destroyer Lyrics.txt_5-15  []-suspension  [neg]
+Destroyer Lyrics.txt_6-21  []-positive  []
+Destroyer Lyrics.txt_6-22  []-positive  []
+Destroyer Lyrics.txt_6-23  []-positive  []
+Destroyer Lyrics.txt_6-24  []-positive  []
+Destroyer Lyrics.txt_7-31  [but-advers]-negative  [fgb,neg]
+Destroyer Lyrics.txt_8-39  []-positive  []
+Destroyer Lyrics.txt_8-40  []-positive  []
+Destroyer Lyrics.txt_9-49  []-negative  [neg]
+Destroyer Lyrics.txt_10-59  [when-temp_coinc]-negative  [fgb]
+Destroyer Lyrics.txt_11-70  []-negative  []
+Destroyer Lyrics.txt_11-71  []-positive  []
+Destroyer Lyrics.txt_12-83  []-positive  []
+Destroyer Lyrics.txt_13-96  []-suspension  [neg,neg,neg]
+Destroyer Lyrics.txt_14-110  []-positive  []
+Destroyer Lyrics.txt_15-125  []-positive  []
+Destroyer Lyrics.txt_16-142  []-positive  [neg]
+Destroyer Lyrics.txt_17-159  []-positive  []
+Destroyer Lyrics.txt_18-177  []-positive  []
+Destroyer Lyrics.txt_19-197  []-positive  [fgb]
+Destroyer Lyrics.txt_20-217  [(as)-temp_coinc]-positive  []
+Destroyer Lyrics.txt_21-238  []-negative  []
+Destroyer Lyrics.txt_22-261  [then-temp_seq]-positive  []
+Destroyer Lyrics.txt_23-284  []-positive  []
+Destroyer Lyrics.txt_24-308  []-positive  []
+Destroyer Lyrics.txt_25-333  []-suspension  [neg,neg,neg]
+Destroyer Lyrics.txt_26-359  []-positive  []
+Destroyer Lyrics.txt_27-386  []-suspension  [neg,neg,neg]
+Destroyer Lyrics.txt_28-414  []-positive  []
+Destroyer Lyrics.txt_29-443  []-suspension  []
+Destroyer Lyrics.txt_30-473  []-suspension  []
+Destroyer Lyrics.txt_31-504  []-positive  []
+Destroyer Lyrics.txt_32-536  []-positive  [fgb]
+Destroyer Lyrics.txt_33-569  []-negative  []
+Destroyer Lyrics.txt_34-603  []-positive  [neg]
+Destroyer Lyrics.txt_35-639  []-negative  []
+Destroyer Lyrics.txt_36-676  []-positive  []
+Destroyer Lyrics.txt_37-713  []-negative  [neg,neg]
+Destroyer Lyrics.txt_38-751  []-negative  [neg]
+Destroyer Lyrics.txt_39-790  []-suspension  [neg,neg,neg]
+Destroyer Lyrics.txt_40-830  []-positive  []
+Destroyer Lyrics.txt_41-871  []-suspension  [neg,neg,neg]
+Destroyer Lyrics.txt_42-913  []-positive  [bkc]
+Destroyer Lyrics.txt_43-956  []-positive  [bkc]
+Destroyer Lyrics.txt_44-1000  []-positive  [neg]
+Destroyer Lyrics.txt_44-1001  []-positive  []
+Destroyer Lyrics.txt_45-1047  []-suspension  [neg,neg]
+Destroyer Lyrics.txt_46-1094  []-negative  [neg]
+Destroyer Lyrics.txt_47-1141  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Destroyer Lyrics.txt_1-1  [destroyer,Lyrics,by,Twisted,Sister]  [title]
+Destroyer Lyrics.txt_2-3  [destroyer]  reject_expl_opin(nil,[])
+Destroyer Lyrics.txt_3-6  [he,spent,his,life]  [raise_issue(be,[_669796,factive,statement,_669814,subjective])]
+Destroyer Lyrics.txt_4-10  [a,silent,sentinel]  [provide_expl_just(sentinel,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_5-15  [for,all,to,fear]  [provide_expl_just(fear,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_6-21  [he,walks]  [provide_expl_just(walk,[external,factive,narration,background,objective]),provide_expl_just(talk,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_6-22  [he,talks]  [provide_expl_just(walk,[external,factive,narration,background,objective]),provide_expl_just(talk,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_6-23  [he,thinks]  [provide_expl_just(walk,[external,factive,narration,background,objective]),provide_expl_just(talk,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_6-24  [he,feels]  [provide_expl_just(walk,[external,factive,narration,background,objective]),provide_expl_just(talk,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_7-31  [but,no_one,dare,go,near]  [reject_expl_just(go,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_8-39  [he,takes,in,all]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_8-40  [he,sees]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_9-49  [nothing,his,escapes,gaze]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_10-59  [and,when,he,strikes]  [provide_expl_just(strike,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_11-70  [he,strikes]  [provide_expl_just(strike,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_11-71  [for]  [provide_expl_just(strike,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_12-83  [a,glorious,sight]  [provide_expl_just(sight,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_13-96  [destroyer,Destroyer,Destroyer]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_14-110  [he,is,in,town]  [provide_expl_just(town,[internal,factive,narration,background,objective])]
+Destroyer Lyrics.txt_15-125  [he,came,to,be]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_16-142  [from,a,grand,mistake]  [provide_expl_just(mistake,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_17-159  [a,mystical,charade]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_18-177  [created,to,decide,the,good]  [provide_expl_just(create,[external,factive,cause,foreground,objective])]
+Destroyer Lyrics.txt_19-197  [and,bring,repercussive,aid]  [provide_expl_just(bring,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_20-217  [as,awareness,his,filled,fame]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_21-238  [he,examined,those,who,leered]  [provide_expl_just(leer,[external,factive,narration,foreground,objective])]
+Destroyer Lyrics.txt_22-261  [then,he,cleaved,the,air]  [provide_expl_just(cleave,[external,factive,cause,foreground,objective])]
+Destroyer Lyrics.txt_23-284  [with,his,fiery,stare]  [provide_expl_just(stare,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_24-308  [rend,all,those,there]  [provide_expl_just(rend,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_25-333  [destroyer,Destroyer,Destroyer]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_26-359  [he,is,in,town]  [provide_expl_just(town,[internal,factive,narration,background,objective])]
+Destroyer Lyrics.txt_27-386  [destroyer,Destroyer,Destroyer]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_28-414  [he,is,in,town]  [provide_expl_just(town,[internal,factive,narration,background,objective])]
+Destroyer Lyrics.txt_29-443  [a,day,will,come]  [raise_issue(be,[_719308,_719314,statement,_719326,_719332])]
+Destroyer Lyrics.txt_30-473  [you,will,be,drawn,into]  [provide_expl_just(draw,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_31-504  [the,center,of,your,town]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_32-536  [and,come,upon,a,mass,of,steel]  [proposal(be,[_720624,_720630,statement,foreground,_720648])]
+Destroyer Lyrics.txt_33-569  [that,cracks,the,very,ground]  [provide_expl_just(crack,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_34-603  [prepare,to,meet,your,judge]  [provide_expl_just(meet,[external,factive,narration,background,objective]),provide_expl_just(prepare,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_35-639  [don-t,think,to,run,away]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,foreground,objective])]
+Destroyer Lyrics.txt_36-676  [just,your,face,pray]  [provide_expl_just(pray,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_37-713  [holds,no,disgrace]  [reject_expl_just(disgrace,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_38-751  [for,the,deadly,ace]  [reject_expl_just(ace,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_39-790  [destroyer,Destroyer,Destroyer]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_40-830  [he,is,in,town]  [provide_expl_just(town,[internal,factive,narration,background,objective])]
+Destroyer Lyrics.txt_41-871  [destroyer,Destroyer,Destroyer]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_42-913  [he,oh,is,in,town]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_43-956  [yeah,,,he,is,in,town]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_44-1000  [you,better,stay,out_of,his,fuckin]  [provide_expl_just(stay,[external,factive,narration,background,objective]),provide_expl_just(better,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_44-1001  [way]  [provide_expl_just(stay,[external,factive,narration,background,objective]),provide_expl_just(better,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_45-1047  [he,is,gonna,kick,your,ass]  [provide_expl_just(kick,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Destroyer Lyrics.txt_46-1094  [destroyer]  reject_expl_opin(nil,[])
+Destroyer Lyrics.txt_47-1141  [destroyer]  reject_expl_opin(nil,[])
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Destroyer Lyrics.txt_1-1)-[emotions-aggression]
+2-(Destroyer Lyrics.txt_2-3)-[emotions-aggression]
+3-(Destroyer Lyrics.txt_3-6)-[secondary-instru_behavior]
+4-(Destroyer Lyrics.txt_4-10)-[primary-passivity]
+5-(Destroyer Lyrics.txt_5-15)-[emotions-anxiety]
+6-(Destroyer Lyrics.txt_6-21)-[]
+7-(Destroyer Lyrics.txt_6-22)-[secondary-social_behavior]
+8-(Destroyer Lyrics.txt_6-23)-[secondary-abstract_tought]
+9-(Destroyer Lyrics.txt_6-24)-[]
+10-(Destroyer Lyrics.txt_7-31)-[primary-concreteness]
+11-(Destroyer Lyrics.txt_8-39)-[]
+12-(Destroyer Lyrics.txt_8-40)-[primary-vision]
+13-(Destroyer Lyrics.txt_9-49)-[primary-vision]
+14-(Destroyer Lyrics.txt_10-59)-[secondary-temporal_repere,emotions-aggression]
+15-(Destroyer Lyrics.txt_11-70)-[emotions-aggression]
+16-(Destroyer Lyrics.txt_11-71)-[]
+17-(Destroyer Lyrics.txt_12-83)-[primary-vision]
+18-(Destroyer Lyrics.txt_13-96)-[emotions-aggression]
+19-(Destroyer Lyrics.txt_14-110)-[]
+20-(Destroyer Lyrics.txt_15-125)-[]
+21-(Destroyer Lyrics.txt_16-142)-[secondary-abstract_tought]
+22-(Destroyer Lyrics.txt_17-159)-[]
+23-(Destroyer Lyrics.txt_18-177)-[secondary-abstract_tought]
+24-(Destroyer Lyrics.txt_19-197)-[secondary-social_behavior]
+25-(Destroyer Lyrics.txt_20-217)-[primary-gen_sensation,emotions-glory]
+26-(Destroyer Lyrics.txt_21-238)-[secondary-abstract_tought,primary-sex]
+half
+27-(Destroyer Lyrics.txt_22-261)-[secondary-temporal_repere]
+28-(Destroyer Lyrics.txt_23-284)-[primary-fire,primary-vision]
+29-(Destroyer Lyrics.txt_24-308)-[]
+30-(Destroyer Lyrics.txt_25-333)-[emotions-aggression]
+31-(Destroyer Lyrics.txt_26-359)-[]
+32-(Destroyer Lyrics.txt_27-386)-[emotions-aggression]
+33-(Destroyer Lyrics.txt_28-414)-[]
+34-(Destroyer Lyrics.txt_29-443)-[]
+35-(Destroyer Lyrics.txt_30-473)-[]
+36-(Destroyer Lyrics.txt_31-504)-[primary-concreteness]
+37-(Destroyer Lyrics.txt_32-536)-[primary-hard]
+38-(Destroyer Lyrics.txt_33-569)-[]
+39-(Destroyer Lyrics.txt_34-603)-[secondary-instru_behavior,secondary-social_behavior,secondary-abstract_tought]
+40-(Destroyer Lyrics.txt_35-639)-[secondary-abstract_tought,primary-concreteness]
+41-(Destroyer Lyrics.txt_36-676)-[primary-narcissism]
+42-(Destroyer Lyrics.txt_37-713)-[]
+43-(Destroyer Lyrics.txt_38-751)-[primary-passivity]
+44-(Destroyer Lyrics.txt_39-790)-[emotions-aggression]
+45-(Destroyer Lyrics.txt_40-830)-[]
+46-(Destroyer Lyrics.txt_41-871)-[emotions-aggression]
+47-(Destroyer Lyrics.txt_42-913)-[]
+48-(Destroyer Lyrics.txt_43-956)-[]
+49-(Destroyer Lyrics.txt_44-1000)-[primary-sex]
+50-(Destroyer Lyrics.txt_44-1001)-[]
+51-(Destroyer Lyrics.txt_45-1047)-[emotions-aggression]
+52-(Destroyer Lyrics.txt_46-1094)-[emotions-aggression]
+53-(Destroyer Lyrics.txt_47-1141)-[emotions-aggression]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Destroyer Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Sister-sn2,subj-theme_bound-Lyrics-sn1,and(Sister,Twisted,sn2),and(Lyrics,destroyer,sn1),def_prop(Sister,[umano,relazionale]),def_prop(Lyrics,[informa,tecno])])
+lf(Destroyer Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-destroyer-sn1,def_prop(destroyer,[oggetto,strumento,umano])])
+lf(Destroyer Lyrics.txt_3,6,cl3-nil-nil-spend-[obj-theme_unaff-life-sn2,subj-agent-he-sn1,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(he,[umano])])
+lf(Destroyer Lyrics.txt_4,10,nil-nil-nil-sentinel-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_5,15,cl4-nil-nil-fear-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_6,21,cl8-nil-nil-feel-[subj-experiencer-you-sn4,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_6,21,cl7-nil-nil-think-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_6,21,cl6-nil-nil-talk-[subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_6,21,cl5-nil-nil-walk-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_7,31,cl9-nil-nil-go-[xcomp-prop-near-sn2,subj-agent-dare-sn1,and(dare,no_one,sn1),def_prop(near,[misura]),def_prop(dare,[attivita,informa])])
+lf(Destroyer Lyrics.txt_8,39,cl11-nil-nil-see-[subj-experiencer-you-sn3,iobj-goal-all-sn2,def_prop(you,[umano]),def_prop(all,[entity])])
+lf(Destroyer Lyrics.txt_8,39,cl10-nil-nil-take-[subj-agent-he-sn1,def_prop(he,[umano])])
+lf(Destroyer Lyrics.txt_9,49,cl12-nil-nil-be-[ncmod-modal-escape-sn2,subj-theme_bound-you-sn1,def_prop(escape,[attivita,evento,plant]),def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_10,59,cl13-nil-nil-strike-[cmod-subord-strike-",cmod-subord-strike-when,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_11,70,cl15-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Destroyer Lyrics.txt_11,70,cl14-nil-nil-strike-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_12,83,cl16-nil-nil-sight-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_13,96,cl17-nil-nil-be-[ncmod-modal-destroyer-sn2,subj-theme_bound-you-sn1,def_prop(destroyer,[oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_14,110,cl18-nil-nil-be-[ncmod-locativo-town-sn2,subj-theme_bound-he-sn1,def_prop(town,[istituzione,luogo]),def_prop(he,[umano])])
+lf(Destroyer Lyrics.txt_15,125,cl20-nil-nil-be-[subj-prop-he-sn1,def_prop(he,[umano])])
+lf(Destroyer Lyrics.txt_15,125,cl19-nil-nil-come-[subj-agent-he-sn1,def_prop(he,[umano])])
+lf(Destroyer Lyrics.txt_16,142,cl21-nil-nil-mistake-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_17,159,cl22-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_18,177,cl24-nil-nil-decide-[obj-prop-good-sn2,xcomp-purpose-decide-2,def_prop(good,[valutativo])])
+lf(Destroyer Lyrics.txt_18,177,cl23-nil-nil-create-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_19,197,cl25-nil-nil-bring-[cmod-subord-bring-",subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_20,217,cl26-nil-nil-be-[xcomp-prop-fame-sn2,subj-theme_bound-awareness-sn1,def_prop(fame,[stato]),def_prop(awareness,[astratto])])
+lf(Destroyer Lyrics.txt_21,238,cl28-nil-nil-leer-[])
+lf(Destroyer Lyrics.txt_21,238,cl27-nil-nil-examine-[xcomp-prop-that-sn3,subj-agent-he-sn2,def_prop(that,[oggetto,umano]),def_prop(he,[umano])])
+lf(Destroyer Lyrics.txt_22,261,cl29-nil-nil-cleave-[obj-theme-air-sn2,subj-actor-he-sn1,def_prop(air,[astratto,attivita,informa,luogo,sostanza]),def_prop(he,[umano])])
+lf(Destroyer Lyrics.txt_23,284,cl30-nil-nil-stare-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_24,308,cl31-nil-nil-rend-[obj-theme-there-sn3,obj-theme-all-sn2,subj-agent-you-sn1,and(there,those,sn3),def_prop(there,[any]),def_prop(all,[_737554]),def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_25,333,cl32-nil-nil-be-[ncmod-modal-destroyer-sn2,subj-theme_bound-you-sn1,def_prop(destroyer,[oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_26,359,cl33-nil-nil-be-[ncmod-locativo-town-sn2,subj-theme_bound-he-sn1,def_prop(town,[istituzione,luogo]),def_prop(he,[umano])])
+lf(Destroyer Lyrics.txt_27,386,cl34-nil-nil-be-[ncmod-modal-destroyer-sn2,subj-theme_bound-you-sn1,def_prop(destroyer,[oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_28,414,cl35-nil-nil-be-[ncmod-locativo-town-sn2,subj-theme_bound-he-sn1,def_prop(town,[istituzione,luogo]),def_prop(he,[umano])])
+lf(Destroyer Lyrics.txt_29,443,cl36-nil-nil-come-[subj-agent-will-sn1,def_prop(will,[astratto,attivita,informa])])
+lf(Destroyer Lyrics.txt_30,473,cl37-nil-will-draw-[subj-goal-you-sn1,aux-be-nil,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_31,504,cl38-nil-nil-be-[ncmod-specif-town-sn2,subj-theme_bound-you-sn1,def_prop(town,[istituzione,luogo]),def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_32,536,cl39-nil-nil-come-[cmod-subord-come-",iobj-goal-steel-sn2,subj-agent-you-sn1,def_prop(steel,[oggetto,sostanza,strumento]),def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_33,569,cl40-nil-nil-crack-[obj-patient-ground-sn2,subj-agent-that-sn1,def_prop(ground,[astratto,luogo,oggetto,strumento]),def_prop(that,[oggetto,umano])])
+lf(Destroyer Lyrics.txt_34,603,cl42-nil-nil-meet-[obj-actor-judge-sn2,xcomp-purpose-meet-2,def_prop(judge,[umano])])
+lf(Destroyer Lyrics.txt_34,603,cl41-nil-nil-prepare-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_35,639,cl44-nil-nil-run-[obj-theme_unaff-away-sn2,xadj-result-run-2,def_prop(away,[evaluative])])
+lf(Destroyer Lyrics.txt_35,639,cl43-not-nil-think-[subj-agent-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_36,676,cl45-nil-nil-pray-[adj-(mod)-just-nil,subj-experiencer-face-sn1,def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano])])
+lf(Destroyer Lyrics.txt_37,713,cl46-nil-nil-disgrace-[subj-agent-no-sn2,subj-agent-no-sn1,and(no,hold,sn1),def_prop(no,[istituzione]),def_prop(no,[istituzione])])
+lf(Destroyer Lyrics.txt_38,751,nil-nil-nil-ace-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_39,790,cl47-nil-nil-be-[ncmod-modal-destroyer-sn2,subj-theme_bound-you-sn1,def_prop(destroyer,[oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_40,830,cl48-nil-nil-be-[ncmod-locativo-town-sn2,subj-theme_bound-he-sn1,def_prop(town,[istituzione,luogo]),def_prop(he,[umano])])
+lf(Destroyer Lyrics.txt_41,871,cl49-nil-nil-be-[ncmod-modal-destroyer-sn2,subj-theme_bound-you-sn1,def_prop(destroyer,[oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_42,913,cl50-nil-nil-be-[ncmod-locativo-town-sn2,subj-theme_bound-oh-sn1,and(oh,he,sn1),def_prop(town,[istituzione,luogo]),def_prop(oh,[informa,tecno])])
+lf(Destroyer Lyrics.txt_43,956,cl51-nil-nil-be-[adj-(mod)-yeah-nil,ncmod-locativo-town-sn2,subj-theme_bound-he-sn1,def_prop(town,[istituzione,luogo]),def_prop(he,[umano])])
+lf(Destroyer Lyrics.txt_44,1000,cl53-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_44,1000,cl52-nil-nil-stay-[iobj-goal-fuckin-sn2,def_prop(fuckin,[istituzione])])
+lf(Destroyer Lyrics.txt_44,1000,nil-nil-nil-better-[xcomp-purpose-stay-2,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Destroyer Lyrics.txt_45,1047,cl55-nil-nil-kick-[obj-theme-ass-sn2,xadj-result-kick-2,def_prop(ass,[animato,attivita,body_part,umano])])
+lf(Destroyer Lyrics.txt_45,1047,cl54-nil-nil-be-[subj-theme_bound-he-sn1,def_prop(he,[umano])])
+lf(Destroyer Lyrics.txt_46,1094,cl56-nil-nil-say-[obj-theme_unaff-destroyer-sn1,def_prop(destroyer,[oggetto,strumento,umano])])
+lf(Destroyer Lyrics.txt_47,1141,cl57-nil-nil-say-[obj-theme_unaff-destroyer-sn1,def_prop(destroyer,[oggetto,strumento,umano])])

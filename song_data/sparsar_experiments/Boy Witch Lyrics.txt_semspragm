@@ -1,0 +1,61 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Boy Witch Lyrics.txt_1-1  []-positive  []
+Boy Witch Lyrics.txt_2-3  [if-hypoth]-positive  [fgb]
+Boy Witch Lyrics.txt_2-4  []-positive  []
+Boy Witch Lyrics.txt_2-5  [(as)-temp_coinc]-negative  [neg]
+Boy Witch Lyrics.txt_3-7  []-suspension  [neg]
+Boy Witch Lyrics.txt_4-12  [if-hypoth]-positive  [fgb]
+Boy Witch Lyrics.txt_4-13  []-negative  [neg]
+Boy Witch Lyrics.txt_5-19  []-positive  [fhd,neg]
+Boy Witch Lyrics.txt_6-26  []-positive  [neg,neg]
+Boy Witch Lyrics.txt_7-33  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Boy Witch Lyrics.txt_1-1  [boy,Witch,Lyrics,by,Unknown,Mortal,Orchestra]  [title]
+Boy Witch Lyrics.txt_2-3  [if,he,was]  [provide_expl_just(can,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Boy Witch Lyrics.txt_2-4  [a,girl,could]  [provide_expl_just(can,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Boy Witch Lyrics.txt_2-5  [she,be,as,evil,as,a,boy]  [reject_expl_just(can,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Boy Witch Lyrics.txt_3-7  [would,she,scramble,in,the,dark,for,his,eyes]  [provide_expl_just(scramble,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Boy Witch Lyrics.txt_4-12  [if,she,finds]  [provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(like,[external,factive,narration,background,objective])]
+Boy Witch Lyrics.txt_4-13  [that,his,eyes,give,out,nothing,that,she,likes]  [reject_expl_just(find,[external,factive,narration,background,objective]),reject_expl_just(give,[external,factive,narration,background,objective]),reject_expl_just(like,[external,factive,narration,background,objective])]
+Boy Witch Lyrics.txt_5-19  [like,a,candle,in,the,dark,she,makes,light]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(like,[external,factive,narration,background,objective])]
+Boy Witch Lyrics.txt_6-26  [he,is,in,love,with,a,girl,in,her,cold,void]  [provide_expl_just(girl,[internal,factive,narration,background,objective])]
+Boy Witch Lyrics.txt_7-33  [make,him,shout]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(shout,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Boy Witch Lyrics.txt_1-1)-[]
+2-(Boy Witch Lyrics.txt_2-3)-[]
+3-(Boy Witch Lyrics.txt_2-4)-[]
+4-(Boy Witch Lyrics.txt_2-5)-[]
+5-(Boy Witch Lyrics.txt_3-7)-[primary-narcissism]
+half
+6-(Boy Witch Lyrics.txt_4-12)-[secondary-instru_behavior]
+7-(Boy Witch Lyrics.txt_4-13)-[primary-narcissism,primary-concreteness,emotions-affection]
+8-(Boy Witch Lyrics.txt_5-19)-[emotions-affection,primary-fire,secondary-instru_behavior,primary-vision]
+9-(Boy Witch Lyrics.txt_6-26)-[emotions-affection,primary-cold,primary-unknow]
+10-(Boy Witch Lyrics.txt_7-33)-[secondary-instru_behavior,emotions-expressive_beh]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Boy Witch Lyrics.txt_1,1,nil-nil-nil-witch-[xadj-theme-orchestra-sn4,arg_mod-agent-Unknown-sn3,obj-theme-Lyrics-sn2,subj-actor-boy-sn1,def_prop(orchestra,[istituzione,oggetto,strumento]),def_prop(Unknown,[istituzione]),def_prop(Lyrics,[informa,tecno]),def_prop(boy,[oggetto,strumento])])
+lf(Boy Witch Lyrics.txt_2,3,cl2-nil-could-can-[adj-(mod)-boy-nil,xadj-theme-boy-sn5,xcomp-prop-evil-sn4,subj-actor-you-sn2,def_prop(boy,[oggetto,strumento]),def_prop(boy,[oggetto,strumento]),def_prop(evil,[astratto,attivita]),def_prop(you,[umano])])
+lf(Boy Witch Lyrics.txt_2,3,cl1-nil-nil-be-[subj-theme_bound-she-sn3,subj-theme_bound-you-sn1,def_prop(she,[umano]),def_prop(you,[umano])])
+lf(Boy Witch Lyrics.txt_3,7,cl4-nil-nil-scramble-[ncmod-beneficiary-dark-sn2,xcomp-purpose-scramble-2,def_prop(dark,[valutativo])])
+lf(Boy Witch Lyrics.txt_3,7,cl3-nil-would-will-[subj-agent-she-sn1,def_prop(she,[umano])])
+lf(Boy Witch Lyrics.txt_4,12,cl7-nil-nil-like-[obj-tema_emot-nothing-sn3,def_prop(nothing,[astratto,informa,oggetto])])
+lf(Boy Witch Lyrics.txt_4,12,cl6-nil-nil-give-[ncmod-locativo-nothing-sn3,subj-actor-eye-sn2,def_prop(nothing,[astratto,informa,oggetto]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(Boy Witch Lyrics.txt_4,12,cl5-nil-nil-find-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Boy Witch Lyrics.txt_5,19,cl8-nil-nil-make-[])
+lf(Boy Witch Lyrics.txt_5,19,nil-nil-nil-like-[xcomp-result-light-sn5,xcomp-prop-make-cl8,subj-sn1-she-sn4,ncmod-modal-dark-sn3,obj-tema_emot-candle-sn2,subj-experiencer-you-sn1,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(she,[umano]),def_prop(dark,[valutativo]),def_prop(candle,[nquant,oggetto,strumento]),def_prop(you,[umano])])
+lf(Boy Witch Lyrics.txt_6,26,cl9-nil-nil-be-[ncmod-locativo-void-sn4,ncmod-comitativo-girl-sn3,ncmod-locativo-love-sn2,subj-theme_bound-he-sn1,and(void,cold,sn4),def_prop(void,[astratto]),def_prop(girl,[oggetto,strumento]),def_prop(love,[astratto,emotivo,nquant]),def_prop(he,[umano])])
+lf(Boy Witch Lyrics.txt_7,33,cl11-nil-nil-shout-[])
+lf(Boy Witch Lyrics.txt_7,33,cl10-nil-nil-make-[obj-goal-him-sn2,subj-agent-you-sn1,def_prop(him,[umano]),def_prop(you,[umano])])

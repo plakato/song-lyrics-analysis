@@ -1,0 +1,155 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Before we go Lyrics.txt_1-1  [before-temp_prec]-positive  []
+Before we go Lyrics.txt_2-3  []-positive  []
+Before we go Lyrics.txt_3-6  []-negative  [neg]
+Before we go Lyrics.txt_4-10  []-negative  [neg]
+Before we go Lyrics.txt_5-15  []-negative  [neg]
+Before we go Lyrics.txt_6-22  []-positive  []
+Before we go Lyrics.txt_6-23  []-negative  [fgb,neg]
+Before we go Lyrics.txt_7-30  []-negative  [neg]
+Before we go Lyrics.txt_8-38  [before-temp_prec]-positive  []
+Before we go Lyrics.txt_8-39  []-positive  []
+Before we go Lyrics.txt_8-40  []-positive  []
+Before we go Lyrics.txt_9-49  [before-temp_prec]-question  []
+Before we go Lyrics.txt_9-50  []-positive  []
+Before we go Lyrics.txt_9-51  []-negative  [fhd,neg]
+Before we go Lyrics.txt_10-61  []-positive  []
+Before we go Lyrics.txt_11-72  [if-hypoth]-positive  [fgb]
+Before we go Lyrics.txt_12-84  []-positive  []
+Before we go Lyrics.txt_13-97  []-positive  []
+Before we go Lyrics.txt_14-111  []-positive  []
+Before we go Lyrics.txt_15-127  []-negative  [fgb,neg]
+Before we go Lyrics.txt_16-144  []-negative  [neg]
+Before we go Lyrics.txt_17-162  []-positive  [neg]
+Before we go Lyrics.txt_18-180  []-positive  []
+Before we go Lyrics.txt_19-199  []-negative  [neg,fgb]
+Before we go Lyrics.txt_20-219  []-suspension  [neg,neg]
+Before we go Lyrics.txt_21-240  []-negative  [fgb,neg]
+Before we go Lyrics.txt_22-263  []-negative  [neg]
+Before we go Lyrics.txt_23-286  [before-temp_prec]-positive  []
+Before we go Lyrics.txt_23-287  []-positive  []
+Before we go Lyrics.txt_23-288  []-positive  []
+Before we go Lyrics.txt_24-312  [before-temp_prec]-question  []
+Before we go Lyrics.txt_24-313  []-positive  []
+Before we go Lyrics.txt_24-314  []-negative  [fhd,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Before we go Lyrics.txt_1-1  [before,we,go,Lyrics,by,ZSK]  [title]
+Before we go Lyrics.txt_2-3  [1,strophe]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Before we go Lyrics.txt_3-6  [to,the,world,it,is,an,insult]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Before we go Lyrics.txt_4-10  [to,plea,for,peace,without,meaning,it]  [reject_expl_just(mean,[external,factive,narration,foreground,objective])]
+Before we go Lyrics.txt_5-15  [why,can,not,we,keep,the,distance]  [reject_expl_just(keep,[external,factive,narration,background,objective])]
+Before we go Lyrics.txt_6-22  [between,our,friend]  [provide_expl_just(friend,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Before we go Lyrics.txt_6-23  [and,enemies]  [reject_expl_just(friend,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Before we go Lyrics.txt_7-30  [refrain]  reject_expl_opin(nil,[])
+Before we go Lyrics.txt_8-38  [before,we,go]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(head,[external,factive,narration,background,objective])]
+Before we go Lyrics.txt_8-39  [we,keep]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(head,[external,factive,narration,background,objective])]
+Before we go Lyrics.txt_8-40  [our,heads,up]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(head,[external,factive,narration,background,objective])]
+Before we go Lyrics.txt_9-49  [are,go,we,before,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(go,[internal,factive,narration,foreground,objective]),provide_expl_just(ready,[internal,factive,narration,background,objective])]
+Before we go Lyrics.txt_9-50  [you,ready]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(go,[internal,factive,narration,foreground,objective]),provide_expl_just(ready,[internal,factive,narration,background,objective])]
+Before we go Lyrics.txt_9-51  [or,not]  [reject_expl_just(be,[internal,factive,narration,foreground,objective]),reject_expl_just(go,[internal,factive,narration,foreground,objective]),reject_expl_just(ready,[internal,factive,narration,background,objective])]
+Before we go Lyrics.txt_10-61  [to,leave,a,footprint,in,your,book]  [provide_expl_just(leave,[external,factive,narration,background,objective])]
+Before we go Lyrics.txt_11-72  [something,important,if,you,could]  [provide_expl_just(can,[external,nonfactive,narration,background,objective])]
+Before we go Lyrics.txt_12-84  [footprint,in,your,book]  [provide_expl_just(book,[external,factive,narration,background,objective])]
+Before we go Lyrics.txt_13-97  [2,strophe]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Before we go Lyrics.txt_14-111  [now,it,is,time,that,you,stand,up]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(stand,[external,factive,narration,background,objective])]
+Before we go Lyrics.txt_15-127  [and,face,the,fear,that,controls,us]  [reject_expl_just(face,[external,factive,narration,background,objective]),reject_expl_just(control,[external,factive,narration,background,objective])]
+Before we go Lyrics.txt_16-144  [why,can,not,we,find,the,answer]  [reject_expl_just(find,[external,factive,narration,background,objective]),reject_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Before we go Lyrics.txt_17-162  [to,put,an,end,to,the,agony]  [provide_expl_just(put,[external,factive,narration,foreground,objective])]
+Before we go Lyrics.txt_18-180  [this,a,movement]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Before we go Lyrics.txt_19-199  [for,the,angry,and,kids,dedicated]  [reject_expl_just(dedicate,[external,factive,circumstance,foreground,objective]),propose_opin_neg(dedicate,[external,factive,circumstance,foreground,objective])]
+Before we go Lyrics.txt_20-219  [we,will,not,pass,the,chance]  [suggest(be,[_891246,_891252,statement,background,_891270])]
+Before we go Lyrics.txt_21-240  [where,we,change,what,we,can,not,stand]  [reject_expl_just(change,[external,factive,narration,background,objective]),reject_expl_just(stand,[external,nonfactive,narration,foreground,objective])]
+Before we go Lyrics.txt_22-263  [refrain]  reject_expl_opin(nil,[])
+Before we go Lyrics.txt_23-286  [before,we,go]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(head,[external,factive,narration,background,objective])]
+Before we go Lyrics.txt_23-287  [we,keep]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(head,[external,factive,narration,background,objective])]
+Before we go Lyrics.txt_23-288  [our,heads,up]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(head,[external,factive,narration,background,objective])]
+Before we go Lyrics.txt_24-312  [are,go,we,before,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(go,[internal,factive,narration,foreground,objective]),provide_expl_just(ready,[internal,factive,narration,background,objective])]
+Before we go Lyrics.txt_24-313  [you,ready]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(go,[internal,factive,narration,foreground,objective]),provide_expl_just(ready,[internal,factive,narration,background,objective])]
+Before we go Lyrics.txt_24-314  [or,not]  [reject_expl_just(be,[internal,factive,narration,foreground,objective]),reject_expl_just(go,[internal,factive,narration,foreground,objective]),reject_expl_just(ready,[internal,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Before we go Lyrics.txt_1-1)-[]
+2-(Before we go Lyrics.txt_2-3)-[]
+3-(Before we go Lyrics.txt_3-6)-[emotions-aggression]
+4-(Before we go Lyrics.txt_4-10)-[primary-orality]
+5-(Before we go Lyrics.txt_5-15)-[secondary-abstract_tought,primary-concreteness]
+6-(Before we go Lyrics.txt_6-22)-[primary-concreteness,emotions-affection]
+7-(Before we go Lyrics.txt_6-23)-[emotions-aggression]
+8-(Before we go Lyrics.txt_7-30)-[]
+9-(Before we go Lyrics.txt_8-38)-[]
+10-(Before we go Lyrics.txt_8-39)-[]
+11-(Before we go Lyrics.txt_8-40)-[primary-narcissism]
+12-(Before we go Lyrics.txt_9-49)-[]
+13-(Before we go Lyrics.txt_9-50)-[]
+14-(Before we go Lyrics.txt_9-51)-[]
+15-(Before we go Lyrics.txt_10-61)-[]
+16-(Before we go Lyrics.txt_11-72)-[secondary-abstract_tought]
+half
+17-(Before we go Lyrics.txt_12-84)-[]
+18-(Before we go Lyrics.txt_13-97)-[]
+19-(Before we go Lyrics.txt_14-111)-[secondary-temporal_repere,secondary-temporal_repere]
+20-(Before we go Lyrics.txt_15-127)-[primary-narcissism,emotions-anxiety,secondary-restraint]
+21-(Before we go Lyrics.txt_16-144)-[secondary-abstract_tought,secondary-instru_behavior,secondary-social_behavior]
+22-(Before we go Lyrics.txt_17-162)-[secondary-temporal_repere]
+23-(Before we go Lyrics.txt_18-180)-[]
+24-(Before we go Lyrics.txt_19-199)-[emotions-aggression]
+25-(Before we go Lyrics.txt_20-219)-[primary-chaos]
+26-(Before we go Lyrics.txt_21-240)-[primary-concreteness]
+27-(Before we go Lyrics.txt_22-263)-[]
+28-(Before we go Lyrics.txt_23-286)-[]
+29-(Before we go Lyrics.txt_23-287)-[]
+30-(Before we go Lyrics.txt_23-288)-[primary-narcissism]
+31-(Before we go Lyrics.txt_24-312)-[]
+32-(Before we go Lyrics.txt_24-313)-[]
+33-(Before we go Lyrics.txt_24-314)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Before we go Lyrics.txt_1,1,cl1-nil-nil-go-[adj-(mod)-before-nil,arg_mod-agent-ZSK-sn3,obj-theme_aff-Lyrics-sn2,subj-agent-we-sn1,def_prop(ZSK,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(we,[umano])])
+lf(Before we go Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-strophe-sn1,and(strophe,1,sn1),def_prop(strophe,[attivita,informa])])
+lf(Before we go Lyrics.txt_3,6,cl3-nil-nil-be-[xcomp-prop-insult-sn3,ncmod-loc_direct-world-sn2,subj-theme_bound-it-sn1,def_prop(insult,[attivita]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(it,[any])])
+lf(Before we go Lyrics.txt_4,10,cl4-nil-nil-mean-[adj-(mod)-without-nil,obj-theme-it-sn3,obj2-goal-plea-sn2,subj-theme_bound-peace-sn1,def_prop(it,[any]),def_prop(plea,[attivita,informa]),def_prop(peace,[attivita,emotivo,informa,stato])])
+lf(Before we go Lyrics.txt_5,15,cl6-nil-nil-keep-[obj-goal-distance-sn2,xadj-result-keep-2,def_prop(distance,[astratto,emotivo,luogo,tempo])])
+lf(Before we go Lyrics.txt_5,15,cl5-not-can-can-[subj-actor-we-sn1,def_prop(we,[umano])])
+lf(Before we go Lyrics.txt_6,22,cl7-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Before we go Lyrics.txt_6,22,nil-nil-nil-friend-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Before we go Lyrics.txt_7,30,cl8-nil-nil-say-[obj-theme_unaff-refrain-sn1,def_prop(refrain,[attivita,informa])])
+lf(Before we go Lyrics.txt_8,38,cl11-nil-nil-head-[subj-actor-our-sn5,def_prop(our,[evaluative])])
+lf(Before we go Lyrics.txt_8,38,cl10-nil-nil-keep-[subj-experiencer-you-sn4,def_prop(you,[umano])])
+lf(Before we go Lyrics.txt_8,38,cl9-nil-nil-go-[subj-agent-we-sn1,def_prop(we,[umano])])
+lf(Before we go Lyrics.txt_9,49,nil-nil-nil-ready-[cmod-subord-ready-",subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Before we go Lyrics.txt_9,49,cl13-nil-nil-be-[subj-theme_bound-pro-nil,adj-(mod)-go-nil,subj-prop-we-sn1,def_prop(we,[umano])])
+lf(Before we go Lyrics.txt_9,49,cl12-nil-nil-go-[adj-(mod)-before-nil,subj-agent-we-sn1,def_prop(we,[umano])])
+lf(Before we go Lyrics.txt_10,61,cl14-nil-nil-leave-[ncmod-locativo-book-sn2,subj-theme-footprint-sn1,def_prop(book,[attivita,informa,istituzione,oggetto,strumento]),def_prop(footprint,[astratto,attivita,informa])])
+lf(Before we go Lyrics.txt_11,72,cl15-nil-could-can-[cmod-subord-can-if,subj-actor-you-sn3,def_prop(you,[umano])])
+lf(Before we go Lyrics.txt_12,84,cl16-nil-nil-book-[ncmod-modal-your-sn2,subj-agent-footprint-sn1,def_prop(your,[evaluative]),def_prop(footprint,[astratto,attivita,informa])])
+lf(Before we go Lyrics.txt_13,97,cl17-nil-nil-say-[obj-theme_unaff-strophe-sn1,and(strophe,2,sn1),def_prop(strophe,[attivita,informa])])
+lf(Before we go Lyrics.txt_14,111,cl19-nil-nil-stand-[obj-tema_emot-time-sn2,def_prop(time,[tempo])])
+lf(Before we go Lyrics.txt_14,111,cl18-nil-nil-be-[adj-(mod)-now-nil,xcomp-prop-time-sn2,subj-theme_bound-it-sn1,def_prop(time,[tempo]),def_prop(it,[any])])
+lf(Before we go Lyrics.txt_15,127,cl21-nil-nil-control-[cmod-subord-face-"])
+lf(Before we go Lyrics.txt_15,127,cl20-nil-nil-face-[obj-actor-fear-sn2,subj-experiencer-you-sn1,def_prop(fear,[emotivo]),def_prop(you,[umano])])
+lf(Before we go Lyrics.txt_16,144,cl23-nil-nil-find-[obj-prop-answer-sn2,xcomp-purpose-find-2,def_prop(answer,[attivita,informa])])
+lf(Before we go Lyrics.txt_16,144,cl22-not-can-can-[subj-actor-we-sn1,def_prop(we,[umano])])
+lf(Before we go Lyrics.txt_17,162,cl24-nil-nil-put-[iobj-goal-agony-sn2,subj-agent-you-sn1,def_prop(agony,[emotivo,stato]),def_prop(you,[umano])])
+lf(Before we go Lyrics.txt_18,180,cl25-nil-nil-be-[subj-theme_bound-movement-sn1,def_prop(movement,[attivita,evento,informa,istituzione,oggetto,strumento])])
+lf(Before we go Lyrics.txt_19,199,cl26-nil-nil-dedicate-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Before we go Lyrics.txt_20,219,cl27-not-will-pass-[obj-goal-chance-sn2,subj-theme_unaff-we-sn1,def_prop(chance,[attivita]),def_prop(we,[umano])])
+lf(Before we go Lyrics.txt_21,240,cl29-not-can-stand-[obl-modal-where-sn2,def_prop(where,[luogo])])
+lf(Before we go Lyrics.txt_21,240,cl28-nil-nil-change-[subj-agent-we-sn1,def_prop(we,[umano])])
+lf(Before we go Lyrics.txt_22,263,cl30-nil-nil-say-[obj-theme_unaff-refrain-sn1,def_prop(refrain,[attivita,informa])])
+lf(Before we go Lyrics.txt_23,286,cl33-nil-nil-head-[subj-actor-our-sn5,def_prop(our,[evaluative])])
+lf(Before we go Lyrics.txt_23,286,cl32-nil-nil-keep-[subj-experiencer-you-sn4,def_prop(you,[umano])])
+lf(Before we go Lyrics.txt_23,286,cl31-nil-nil-go-[subj-agent-we-sn1,def_prop(we,[umano])])
+lf(Before we go Lyrics.txt_24,312,nil-nil-nil-ready-[cmod-subord-ready-",subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Before we go Lyrics.txt_24,312,cl35-nil-nil-be-[subj-theme_bound-pro-nil,adj-(mod)-go-nil,subj-prop-we-sn1,def_prop(we,[umano])])
+lf(Before we go Lyrics.txt_24,312,cl34-nil-nil-go-[adj-(mod)-before-nil,subj-agent-we-sn1,def_prop(we,[umano])])

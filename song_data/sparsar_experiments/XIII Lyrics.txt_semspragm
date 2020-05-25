@@ -1,0 +1,82 @@
+"POLARITY, DISCOURSE MARKERS"
+
+XIII Lyrics.txt_1-1  []-positive  []
+XIII Lyrics.txt_2-3  []-negative  [neg]
+XIII Lyrics.txt_3-6  []-negative  []
+XIII Lyrics.txt_3-7  []-positive  []
+XIII Lyrics.txt_4-11  []-negative  [neg]
+XIII Lyrics.txt_4-12  []-positive  [fgb]
+XIII Lyrics.txt_5-17  []-suspension  [neg,fgb,neg]
+XIII Lyrics.txt_6-23  []-suspension  [neg,neg]
+XIII Lyrics.txt_6-24  []-negative  [neg]
+XIII Lyrics.txt_7-31  []-negative  [neg]
+XIII Lyrics.txt_7-32  []-negative  [neg]
+XIII Lyrics.txt_8-40  [so-result]-negative  [fgb,neg]
+XIII Lyrics.txt_8-41  [because-cause]-suspension  []
+XIII Lyrics.txt_9-50  [before-temp_prec]-positive  []
+XIII Lyrics.txt_10-60  [when-temp_coinc]-positive  []
+XIII Lyrics.txt_10-61  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+XIII Lyrics.txt_1-1  [xiii,Lyrics,by,Sworn,in]  [title]
+XIII Lyrics.txt_2-3  [i,have,built,myself,a,stage,to,plea]  [reject_expl_just(build,[external,factive,explanation,background,objective]),propose_opin_neg(build,[external,factive,explanation,background,objective])]
+XIII Lyrics.txt_3-6  [the,curtains,closed]  [provide_expl_just(close,[external,factive,narration,foreground,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+XIII Lyrics.txt_3-7  [it,is,only,me]  [provide_expl_just(close,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+XIII Lyrics.txt_4-11  [it,is,me,to,beg,only]  [reject_expl_just(plead,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+XIII Lyrics.txt_4-12  [and,to,plead]  [provide_expl_just(plead,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+XIII Lyrics.txt_5-17  [left,for,dead,and,left,to,bleed]  [provide_expl_just(bleed,[external,factive,narration,foreground,objective])]
+XIII Lyrics.txt_6-23  [thirteen,struck,dead]  [provide_expl_just(strike,[external,factive,cause,foreground,objective])]
+XIII Lyrics.txt_6-24  [,,unlucky,at_best]  [reject_expl_just(strike,[external,factive,cause,foreground,objective])]
+XIII Lyrics.txt_7-31  [i,will,never,rest]  [reject_expl_just(will,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+XIII Lyrics.txt_7-32  [,,in,hell,i,am,just,a,guest]  [reject_expl_just(will,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+XIII Lyrics.txt_8-40  [so,listen,closely]  [reject_expl_just(listen,[external,factive,narration,background,objective]),reject_expl_just(say,[external,nonfactive,narration,background,objective])]
+XIII Lyrics.txt_8-41  [because,i,will,only,say]  [provide_expl_just(listen,[external,factive,narration,background,objective]),provide_expl_just(say,[external,nonfactive,narration,background,objective])]
+XIII Lyrics.txt_9-50  [it,once,before,departing]  [provide_expl_just(depart,[external,factive,narration,foreground,objective])]
+XIII Lyrics.txt_10-60  [when,the,show,ends]  [provide_expl_just(end,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+XIII Lyrics.txt_10-61  [it,is,really,only,starting]  [provide_expl_just(end,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(XIII Lyrics.txt_1-1)-[]
+2-(XIII Lyrics.txt_2-3)-[secondary-instru_behavior]
+3-(XIII Lyrics.txt_3-6)-[primary-diffusion,primary-concreteness]
+4-(XIII Lyrics.txt_3-7)-[]
+5-(XIII Lyrics.txt_4-11)-[]
+6-(XIII Lyrics.txt_4-12)-[secondary-social_behavior]
+7-(XIII Lyrics.txt_5-17)-[primary-passivity]
+8-(XIII Lyrics.txt_6-23)-[emotions-aggression,primary-passivity]
+half
+9-(XIII Lyrics.txt_6-24)-[]
+10-(XIII Lyrics.txt_7-31)-[primary-passivity]
+11-(XIII Lyrics.txt_7-32)-[secondary-social_behavior]
+12-(XIII Lyrics.txt_8-40)-[primary-sound]
+13-(XIII Lyrics.txt_8-41)-[secondary-social_behavior]
+14-(XIII Lyrics.txt_9-50)-[secondary-temporal_repere]
+15-(XIII Lyrics.txt_10-60)-[secondary-temporal_repere]
+16-(XIII Lyrics.txt_10-61)-[secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(XIII Lyrics.txt_1,1,cl1-nil-nil-swear-[subj-agent-Lyrics-sn1,and(Lyrics,xiii,sn1),def_prop(Lyrics,[informa,tecno])])
+lf(XIII Lyrics.txt_2,3,cl2-nil-nil-build-[adj-temporal-stage-nil,ncmod-relation-plea-sn3,obj-theme_aff-myself-sn2,subj-agent-i-sn1,aux-have-nil,def_prop(stage,[tempo]),def_prop(plea,[attivita,informa]),def_prop(myself,[umano]),def_prop(i,[umano])])
+lf(XIII Lyrics.txt_3,6,cl4-nil-nil-be-[xcomp-prop-me-sn3,subj-theme_bound-it-sn2,def_prop(me,[umano]),def_prop(it,[any])])
+lf(XIII Lyrics.txt_3,6,cl3-nil-nil-close-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(XIII Lyrics.txt_4,11,cl6-nil-nil-plead-[subj-agent-you-sn4,def_prop(you,[umano])])
+lf(XIII Lyrics.txt_4,11,cl5-nil-nil-be-[adj-(mod)-only-nil,xcomp-prop-me-sn2,subj-theme_bound-it-sn1,def_prop(me,[umano]),def_prop(it,[any])])
+lf(XIII Lyrics.txt_5,17,cl7-nil-nil-bleed-[subj-agent-pro-nil])
+lf(XIII Lyrics.txt_6,23,cl9-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(XIII Lyrics.txt_6,23,cl8-nil-nil-strike-[xcomp-prop-dead-sn2,subj-agent-thirteen-sn1,def_prop(dead,[valutativo]),def_prop(thirteen,[nquant])])
+lf(XIII Lyrics.txt_7,31,cl11-nil-nil-be-[adj-(mod)-just-nil,xcomp-prop-guess-sn7,ncmod-locativo-hell-sn6,subj-theme_bound-i-sn5,def_prop(guess,[astratto,attivita,informa]),def_prop(hell,[attivita,evento,luogo]),def_prop(i,[umano])])
+lf(XIII Lyrics.txt_7,31,cl10-nil-will-will-[obj-theme_aff-res-sn2,subj-agent-i-sn1,def_prop(res,[informa,tecno]),def_prop(i,[umano])])
+lf(XIII Lyrics.txt_8,40,cl13-nil-will-say-[subj-actor-i-sn5,def_prop(i,[umano])])
+lf(XIII Lyrics.txt_8,40,cl12-nil-nil-listen-[adj-subj_disc-closely-sn2,subj-agent-you-sn1,def_prop(closely,[istituzione]),def_prop(you,[umano])])
+lf(XIII Lyrics.txt_9,50,cl14-nil-nil-depart-[subj-theme-it-sn1,def_prop(it,[any])])
+lf(XIII Lyrics.txt_10,60,cl16-nil-nil-be-[xcomp-prop-starting-sn4,subj-theme_bound-it-sn3,def_prop(starting,[evento]),def_prop(it,[any])])
+lf(XIII Lyrics.txt_10,60,cl15-nil-nil-end-[obj-theme-when-sn2,subj-agent-show-sn1,def_prop(when,[tempo]),def_prop(show,[attivita,informa])])

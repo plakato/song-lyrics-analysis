@@ -1,0 +1,106 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Free Me Lyrics.txt_1-1  []-positive  []
+Free Me Lyrics.txt_2-3  []-positive  []
+Free Me Lyrics.txt_3-6  []-negative  [neg,fgb,neg]
+Free Me Lyrics.txt_4-11  []-positive  []
+Free Me Lyrics.txt_5-16  []-positive  [fgb]
+Free Me Lyrics.txt_6-23  []-positive  []
+Free Me Lyrics.txt_7-30  []-negative  [neg]
+Free Me Lyrics.txt_8-38  []-positive  []
+Free Me Lyrics.txt_9-47  []-negative  []
+Free Me Lyrics.txt_9-48  []-positive  []
+Free Me Lyrics.txt_10-58  []-positive  []
+Free Me Lyrics.txt_11-69  []-positive  []
+Free Me Lyrics.txt_12-81  []-positive  []
+Free Me Lyrics.txt_13-94  []-negative  [neg,fgb,neg]
+Free Me Lyrics.txt_14-109  []-positive  []
+Free Me Lyrics.txt_15-124  []-positive  [fgb]
+Free Me Lyrics.txt_16-141  []-positive  []
+Free Me Lyrics.txt_17-158  []-negative  [neg]
+Free Me Lyrics.txt_18-176  []-positive  []
+Free Me Lyrics.txt_19-195  []-negative  []
+Free Me Lyrics.txt_19-196  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Free Me Lyrics.txt_1-1  [free,me,Lyrics,by,Xilent]  [title]
+Free Me Lyrics.txt_2-3  [your,touch]  [provide_expl_just(touch,[external,factive,narration,background,objective])]
+Free Me Lyrics.txt_3-6  [took,away,my,darkest,fears,and,doubts]  [reject_expl_just(take,[external,factive,narration,foreground,objective]),reject_expl_just(doubt,[external,factive,narration,background,objective])]
+Free Me Lyrics.txt_4-11  [your,voice]  [provide_expl_just(voice,[external,factive,narration,background,objective])]
+Free Me Lyrics.txt_5-16  [whispers,in,my,ear,and,shouts,out_loud]  [provide_expl_just(shout,[external,factive,circumstance,background,objective])]
+Free Me Lyrics.txt_6-23  [free,me]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Free Me Lyrics.txt_7-30  [from,the,shadows,in,your,head]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Free Me Lyrics.txt_8-38  [please,see]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Free Me Lyrics.txt_9-47  [that,you,were,always,meant]  [provide_expl_just(mean,[external,factive,narration,background,objective])]
+Free Me Lyrics.txt_9-48  [for,me]  [provide_expl_just(mean,[external,factive,narration,background,objective])]
+Free Me Lyrics.txt_10-58  [free,me]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Free Me Lyrics.txt_11-69  [free,me]  [raise_issue(be,[_620540,factive,statement,_620558,subjective])]
+Free Me Lyrics.txt_12-81  [your,touch]  [provide_expl_just(touch,[external,factive,narration,background,objective])]
+Free Me Lyrics.txt_13-94  [took,away,my,darkest,fears,and,doubts]  [reject_expl_just(take,[external,factive,narration,foreground,objective]),reject_expl_just(doubt,[external,factive,narration,background,objective])]
+Free Me Lyrics.txt_14-109  [your,voice]  [provide_expl_just(voice,[external,factive,narration,background,objective])]
+Free Me Lyrics.txt_15-124  [whispers,in,my,ear,and,shouts,out_loud]  [provide_expl_just(shout,[external,factive,circumstance,background,objective])]
+Free Me Lyrics.txt_16-141  [free,me]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Free Me Lyrics.txt_17-158  [from,the,shadows,in,your,head]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Free Me Lyrics.txt_18-176  [please,see]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Free Me Lyrics.txt_19-195  [that,you,were,always,meant]  [provide_expl_just(mean,[external,factive,narration,background,objective])]
+Free Me Lyrics.txt_19-196  [for,me]  [provide_expl_just(mean,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Free Me Lyrics.txt_1-1)-[]
+2-(Free Me Lyrics.txt_2-3)-[primary-touch]
+3-(Free Me Lyrics.txt_3-6)-[primary-concreteness,emotions-anxiety,emotions-aggression]
+4-(Free Me Lyrics.txt_4-11)-[primary-sound]
+5-(Free Me Lyrics.txt_5-16)-[primary-soft,primary-sound,emotions-expressive_beh]
+6-(Free Me Lyrics.txt_6-23)-[]
+7-(Free Me Lyrics.txt_7-30)-[primary-diffusion,primary-narcissism]
+8-(Free Me Lyrics.txt_8-38)-[secondary-social_behavior,primary-vision]
+9-(Free Me Lyrics.txt_9-47)-[secondary-abstract_tought]
+10-(Free Me Lyrics.txt_9-48)-[]
+half
+11-(Free Me Lyrics.txt_10-58)-[]
+12-(Free Me Lyrics.txt_11-69)-[]
+13-(Free Me Lyrics.txt_12-81)-[primary-touch]
+14-(Free Me Lyrics.txt_13-94)-[primary-concreteness,emotions-anxiety,emotions-aggression]
+15-(Free Me Lyrics.txt_14-109)-[primary-sound]
+16-(Free Me Lyrics.txt_15-124)-[primary-soft,primary-sound,emotions-expressive_beh]
+17-(Free Me Lyrics.txt_16-141)-[]
+18-(Free Me Lyrics.txt_17-158)-[primary-diffusion,primary-narcissism]
+19-(Free Me Lyrics.txt_18-176)-[secondary-social_behavior,primary-vision]
+20-(Free Me Lyrics.txt_19-195)-[secondary-abstract_tought]
+21-(Free Me Lyrics.txt_19-196)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Free Me Lyrics.txt_1,1,cl1-nil-nil-be-[xadj-adj-free-adj1,arg_mod-agent-Xilent-sn3,subj-theme_bound-Lyrics-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,me,sn1),def_prop(free,_624652),def_prop(Xilent,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(Lyrics,[informa,tecno])])
+lf(Free Me Lyrics.txt_2,3,cl2-nil-nil-touch-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Free Me Lyrics.txt_3,6,cl4-nil-nil-doubt-[cmod-coord-take-nil])
+lf(Free Me Lyrics.txt_3,6,cl3-nil-nil-take-[obj-theme_aff-fear-sn2,subj-agent-you-sn1,and(fear,away,sn2),and(fear,darkest,sn2),def_prop(fear,[emotivo]),def_prop(you,[umano])])
+lf(Free Me Lyrics.txt_4,11,cl5-nil-nil-voice-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Free Me Lyrics.txt_5,16,cl7-nil-nil-shout-[cmod-coord-shout-and,adj-(mod)-out_loud-nil,subj-agent-pro-nil,ncmod-locativo-ear-sn2,def_prop(out_loud,[istituzione]),def_prop(ear,[astratto,body_part,plant,umano])])
+lf(Free Me Lyrics.txt_5,16,cl6-nil-nil-whisper-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Free Me Lyrics.txt_6,23,cl8-nil-nil-say-[obj-theme_unaff-me-sn1,and(me,free,sn1),def_prop(me,[umano])])
+lf(Free Me Lyrics.txt_7,30,cl9-nil-nil-be-[ncmod-locativo-head-sn2,ncmod-loc_origin-shadow-sn1,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(shadow,[astratto,emotivo,stato,umano])])
+lf(Free Me Lyrics.txt_8,38,cl10-nil-nil-see-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Free Me Lyrics.txt_9,47,cl12-nil-nil-be-[subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Free Me Lyrics.txt_9,47,cl11-nil-nil-mean-[ccomp-prop-mean-cl11,subj-theme_bound-you-sn1,adj-(mod)-always-nil,aux-were-nil,def_prop(you,[umano])])
+lf(Free Me Lyrics.txt_10,58,cl13-nil-nil-say-[obj-theme_unaff-me-sn1,and(me,free,sn1),def_prop(me,[umano])])
+lf(Free Me Lyrics.txt_11,69,cl14-nil-nil-say-[obj-theme_unaff-me-sn1,and(me,free,sn1),def_prop(me,[umano])])
+lf(Free Me Lyrics.txt_12,81,cl15-nil-nil-touch-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Free Me Lyrics.txt_13,94,cl17-nil-nil-doubt-[cmod-coord-take-nil])
+lf(Free Me Lyrics.txt_13,94,cl16-nil-nil-take-[obj-theme_aff-fear-sn2,subj-agent-you-sn1,and(fear,away,sn2),and(fear,darkest,sn2),def_prop(fear,[emotivo]),def_prop(you,[umano])])
+lf(Free Me Lyrics.txt_14,109,cl18-nil-nil-voice-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Free Me Lyrics.txt_15,124,cl20-nil-nil-shout-[cmod-coord-shout-and,adj-(mod)-out_loud-nil,subj-agent-pro-nil,ncmod-locativo-ear-sn2,def_prop(out_loud,[istituzione]),def_prop(ear,[astratto,body_part,plant,umano])])
+lf(Free Me Lyrics.txt_15,124,cl19-nil-nil-whisper-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Free Me Lyrics.txt_16,141,cl21-nil-nil-say-[obj-theme_unaff-me-sn1,and(me,free,sn1),def_prop(me,[umano])])
+lf(Free Me Lyrics.txt_17,158,cl22-nil-nil-be-[ncmod-locativo-head-sn2,ncmod-loc_origin-shadow-sn1,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(shadow,[astratto,emotivo,stato,umano])])
+lf(Free Me Lyrics.txt_18,176,cl23-nil-nil-see-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Free Me Lyrics.txt_19,195,cl25-nil-nil-be-[subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Free Me Lyrics.txt_19,195,cl24-nil-nil-mean-[ccomp-prop-mean-cl24,subj-theme_bound-you-sn1,adj-(mod)-always-nil,aux-were-nil,def_prop(you,[umano])])

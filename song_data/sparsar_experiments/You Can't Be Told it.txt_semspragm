@@ -1,0 +1,102 @@
+"POLARITY, DISCOURSE MARKERS"
+
+You Can't Be Told it.txt_1-1  []-negative  [neg]
+You Can't Be Told it.txt_1-2  []-positive  []
+You Can't Be Told it.txt_2-4  []-suspension  [neg,fgb,neg]
+You Can't Be Told it.txt_3-7  []-negative  [neg]
+You Can't Be Told it.txt_3-8  []-positive  []
+You Can't Be Told it.txt_4-12  []-suspension  []
+You Can't Be Told it.txt_4-13  []-positive  []
+You Can't Be Told it.txt_5-18  []-negative  [neg]
+You Can't Be Told it.txt_6-24  []-positive  []
+You Can't Be Told it.txt_7-31  []-negative  [neg]
+You Can't Be Told it.txt_7-32  []-positive  []
+You Can't Be Told it.txt_8-40  []-positive  []
+You Can't Be Told it.txt_9-49  []-negative  [neg]
+You Can't Be Told it.txt_10-59  []-positive  []
+You Can't Be Told it.txt_11-70  []-suspension  [neg,neg]
+You Can't Be Told it.txt_12-82  []-positive  []
+You Can't Be Told it.txt_13-95  []-positive  [fgb]
+You Can't Be Told it.txt_14-109  []-positive  [fgb,neg]
+You Can't Be Told it.txt_15-124  []-positive  []
+You Can't Be Told it.txt_16-140  []-positive  []
+You Can't Be Told it.txt_17-157  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+You Can't Be Told it.txt_1-1  [you,can,not,be,told]  [title]
+You Can't Be Told it.txt_1-2  [it,by,Swirlies]  [provide_expl_just(be,[external,factive,narration,background,objective]),indication(tell,[external,nonfactive,setting,foreground,objective])]
+You Can't Be Told it.txt_2-4  [restless,and,numb]  [provide_expl_just(numb,[external,factive,narration,background,objective])]
+You Can't Be Told it.txt_3-7  [you,can,not,be,told]  [reject_expl_just(tell,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+You Can't Be Told it.txt_3-8  [it]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+You Can't Be Told it.txt_4-12  [you,must,behold]  [provide_expl_just(behold,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+You Can't Be Told it.txt_4-13  [it]  [provide_expl_just(behold,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+You Can't Be Told it.txt_5-18  [to,not,it,forget]  [reject_expl_just(forget,[external,factive,narration,background,objective])]
+You Can't Be Told it.txt_6-24  [revelation]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+You Can't Be Told it.txt_7-31  [you,can,not,control]  [reject_expl_just(control,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+You Can't Be Told it.txt_7-32  [it]  [provide_expl_just(control,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+You Can't Be Told it.txt_8-40  [disobeyance,returns]  [provide_expl_just(return,[external,factive,narration,background,objective])]
+You Can't Be Told it.txt_9-49  [learning,you,will,never,learn]  [reject_expl_just(learn,[external,nonfactive,narration,background,objective])]
+You Can't Be Told it.txt_10-59  [i,keep,telling,myself]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
+You Can't Be Told it.txt_11-70  [do,not,be,mortified]  [provide_expl_just(mortify,[external,factive,narration,background,objective])]
+You Can't Be Told it.txt_12-82  [by,the,unsolidified]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+You Can't Be Told it.txt_13-95  [just,grin,and,it,bear]  [provide_expl_just(bear,[external,factive,narration,background,objective])]
+You Can't Be Told it.txt_14-109  [learned,and,unlearned]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+You Can't Be Told it.txt_15-124  [acts,of,controlling]  [provide_expl_just(control,[external,factive,cause,foreground,objective])]
+You Can't Be Told it.txt_16-140  [methods,of,compensation]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+You Can't Be Told it.txt_17-157  [methods,of,control]  [provide_expl_just(control,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(You Can't Be Told it.txt_1-1)-[secondary-social_behavior]
+2-(You Can't Be Told it.txt_1-2)-[]
+3-(You Can't Be Told it.txt_2-4)-[primary-cold]
+4-(You Can't Be Told it.txt_3-7)-[secondary-social_behavior]
+5-(You Can't Be Told it.txt_3-8)-[]
+6-(You Can't Be Told it.txt_4-12)-[secondary-restraint,primary-vision]
+7-(You Can't Be Told it.txt_4-13)-[]
+8-(You Can't Be Told it.txt_5-18)-[secondary-instru_behavior]
+9-(You Can't Be Told it.txt_6-24)-[]
+10-(You Can't Be Told it.txt_7-31)-[secondary-restraint]
+half
+11-(You Can't Be Told it.txt_7-32)-[]
+12-(You Can't Be Told it.txt_8-40)-[]
+13-(You Can't Be Told it.txt_9-49)-[secondary-abstract_tought]
+14-(You Can't Be Told it.txt_10-59)-[]
+15-(You Can't Be Told it.txt_11-70)-[]
+16-(You Can't Be Told it.txt_12-82)-[]
+17-(You Can't Be Told it.txt_13-95)-[emotions-positive_affect]
+18-(You Can't Be Told it.txt_14-109)-[secondary-abstract_tought]
+19-(You Can't Be Told it.txt_15-124)-[]
+20-(You Can't Be Told it.txt_16-140)-[secondary-order]
+21-(You Can't Be Told it.txt_17-157)-[secondary-order,secondary-restraint]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(You Can't Be Told it.txt_1,1,cl2-nil-nil-be-[arg_mod-agent-Swirlies-sn3,subj-actor-it-sn2,voice-tell-cl1,def_prop(Swirlies,[istituzione,umano]),def_prop(it,[any])])
+lf(You Can't Be Told it.txt_1,1,cl1-not-can-tell-[subj-theme_unaff-you-sn1,aux-be-nil,def_prop(you,[umano])])
+lf(You Can't Be Told it.txt_2,4,cl3-nil-nil-numb-[subj-agent-pro-nil])
+lf(You Can't Be Told it.txt_3,7,cl5-nil-nil-be-[subj-actor-you-sn2,voice-tell-cl4,def_prop(you,[umano])])
+lf(You Can't Be Told it.txt_3,7,cl4-not-can-tell-[subj-theme_unaff-you-sn1,aux-be-nil,def_prop(you,[umano])])
+lf(You Can't Be Told it.txt_4,12,cl7-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(You Can't Be Told it.txt_4,12,cl6-nil-must-behold-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(You Can't Be Told it.txt_5,18,cl8-nil-nil-forget-[subj-experiencer-it-sn1,def_prop(it,[any])])
+lf(You Can't Be Told it.txt_6,24,cl9-nil-nil-say-[obj-theme_unaff-revelation-sn1,def_prop(revelation,[astratto,attivita,informa])])
+lf(You Can't Be Told it.txt_7,31,cl11-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(You Can't Be Told it.txt_7,31,cl10-not-can-control-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(You Can't Be Told it.txt_8,40,cl12-nil-nil-return-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(You Can't Be Told it.txt_9,49,cl13-nil-will-learn-[subj-topic-you-sn1,subj-agent-you-sn1,neg-never-nil,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(You Can't Be Told it.txt_10,59,cl14-nil-nil-keep-[obj-goal-myself-sn2,subj-experiencer-i-sn1,and(myself,telling,sn2),def_prop(myself,[umano]),def_prop(i,[umano])])
+lf(You Can't Be Told it.txt_11,70,cl15-not-nil-mortify-[subj-theme-you-sn1,aux-be-nil,aux-do-nil,def_prop(you,[umano])])
+lf(You Can't Be Told it.txt_12,82,cl16-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(You Can't Be Told it.txt_13,95,cl17-nil-nil-bear-[subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(You Can't Be Told it.txt_14,109,cl18-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(You Can't Be Told it.txt_15,124,cl19-nil-nil-control-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(You Can't Be Told it.txt_16,140,cl20-nil-nil-be-[ncmod-specif-compensation-sn2,subj-theme_bound-you-sn1,def_prop(compensation,[astratto,attivita,oggetto]),def_prop(you,[umano])])
+lf(You Can't Be Told it.txt_17,157,cl21-nil-nil-control-[subj-agent-you-sn1,def_prop(you,[umano])])

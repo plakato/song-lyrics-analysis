@@ -1,0 +1,231 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Baseline Lyrics.txt_1-1  []-positive  []
+Baseline Lyrics.txt_2-3  []-positive  [neg,neg]
+Baseline Lyrics.txt_3-6  []-negative  [neg]
+Baseline Lyrics.txt_4-10  []-negative  [neg]
+Baseline Lyrics.txt_5-15  []-negative  [neg]
+Baseline Lyrics.txt_6-21  []-positive  []
+Baseline Lyrics.txt_6-22  []-positive  []
+Baseline Lyrics.txt_7-29  []-positive  []
+Baseline Lyrics.txt_8-38  []-positive  [fgb,fgb,fgb,fgb]
+Baseline Lyrics.txt_8-38  []-positive  [fgb,fgb,fgb,fgb]
+Baseline Lyrics.txt_9-48  []-negative  [neg]
+Baseline Lyrics.txt_10-58  []-positive  []
+Baseline Lyrics.txt_10-59  []-positive  [fhd]
+Baseline Lyrics.txt_11-70  []-positive  [bkc]
+Baseline Lyrics.txt_12-82  []-positive  [neg,fhd]
+Baseline Lyrics.txt_13-96  [when-temp_coinc]-positive  [neg]
+Baseline Lyrics.txt_14-111  [if-hypoth]-negative  [fgb,neg]
+Baseline Lyrics.txt_15-128  []-negative  [neg]
+Baseline Lyrics.txt_16-144  []-negative  []
+Baseline Lyrics.txt_16-145  []-positive  [fhd]
+Baseline Lyrics.txt_17-162  []-negative  []
+Baseline Lyrics.txt_18-180  []-positive  [fgb]
+Baseline Lyrics.txt_19-199  []-negative  []
+Baseline Lyrics.txt_20-219  []-positive  [fgb]
+Baseline Lyrics.txt_21-240  []-positive  [neg]
+Baseline Lyrics.txt_22-262  []-negative  [neg]
+Baseline Lyrics.txt_23-285  []-positive  [neg]
+Baseline Lyrics.txt_24-309  []-positive  [fgb]
+Baseline Lyrics.txt_25-334  [but-advers]-negative  [fgb]
+Baseline Lyrics.txt_25-335  []-positive  [fgb]
+Baseline Lyrics.txt_26-361  []-positive  [neg]
+Baseline Lyrics.txt_26-362  []-positive  [fgb]
+Baseline Lyrics.txt_27-389  [or_else-advers]-positive  [neg]
+Baseline Lyrics.txt_28-419  []-suspension  [fhd,neg]
+Baseline Lyrics.txt_28-420  []-positive  []
+Baseline Lyrics.txt_29-450  []-negative  [neg,neg,neg,neg,neg,neg]
+Baseline Lyrics.txt_29-451  []-positive  []
+Baseline Lyrics.txt_30-481  []-positive  [fgb]
+Baseline Lyrics.txt_31-515  []-negative  []
+Baseline Lyrics.txt_32-547  []-positive  [fgb]
+Baseline Lyrics.txt_33-580  []-negative  []
+Baseline Lyrics.txt_34-614  []-positive  [fgb]
+Baseline Lyrics.txt_35-649  []-suspension  [fgb]
+Baseline Lyrics.txt_36-685  []-suspension  [fgb]
+Baseline Lyrics.txt_37-722  []-suspension  [fgb]
+Baseline Lyrics.txt_38-760  []-suspension  [fgb]
+Baseline Lyrics.txt_39-799  []-suspension  [fgb]
+Baseline Lyrics.txt_40-839  []-negative  []
+Baseline Lyrics.txt_41-880  []-positive  [fgb]
+Baseline Lyrics.txt_42-922  []-negative  []
+Baseline Lyrics.txt_43-965  []-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Baseline Lyrics.txt_1-1  [baseline,Lyrics,by,Quarashi]  [title]
+Baseline Lyrics.txt_2-3  [i,give,a,shit,about,the,kick]  [propose_opin_neg(give,[external,factive,explanation,background,objective])]
+Baseline Lyrics.txt_3-6  [that,is,been,coming,from,the,underground,spot]  [reject_expl_just(be,[_337518,_337524,_337530,_337536,_337542])]
+Baseline Lyrics.txt_4-10  [beating,the,pop,up]  [reject_expl_just(beat,[external,factive,cause,foreground,objective])]
+Baseline Lyrics.txt_5-15  [the,fuck,up,that,lays,all,around]  [reject_expl_just(lay,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_6-21  [now,give,me]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(sound,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_6-22  [sound,from,the,Other_side]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(sound,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_7-29  [every_night,it,is,gonna,go,on]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_8-38  [and,flow,on,and,on,and,on,and,on]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_8-38  [and,flow,on,and,on,and,on,and,on]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_9-48  [mister,son,of,a,gun,i,got,a,run,now]  [reject_expl_just(get,[external,factive,narration,foreground,objective])]
+Baseline Lyrics.txt_10-58  [my,time,is,over,run]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_10-59  [you,over,like,a,Range,Rover]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_11-70  [my,God,incredible,superstar,oh]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_12-82  [some,lyrics,throw,make,them,run,like,a,super,car]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_13-96  [when,you,know,where,i,am,at,,,your,fatter,than,fat]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(fat,[internal,factive,narration,background,objective])]
+Baseline Lyrics.txt_14-111  [cause,help,me,God,if,i,is,not,the,cool,cat]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(cause,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_15-128  [unequal,,,it,is,not_even,legal]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_16-144  [i,am,chased,by,the,rap]  [provide_expl_just(chase,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_16-145  [police,like,Bugsy,Seagel]  [provide_expl_just(chase,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_17-162  [baseline,baseline,we,have,got,fools,from,the,base]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_18-180  [and,their,giving,me,baseline,baseline,baseline]  [provide_expl_just(give,[external,factive,narration,foreground,objective])]
+Baseline Lyrics.txt_19-199  [baseline,baseline,we,have,got,fools,from,the,base]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_20-219  [and,their,giving,me,baseline,baseline,baseline]  [provide_expl_just(give,[external,factive,narration,foreground,objective])]
+Baseline Lyrics.txt_21-240  [now,we,have,back,in,the,game]  [provide_expl_just(have,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_22-262  [the,Quarashi,it,pain,is,plain]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_23-285  [i,see,the,suckers,fall,out]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_24-309  [and,the,fuckers,call,out,,,pick,me,up]  [provide_expl_just(pick,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_25-334  [but,they,don-t,know]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_359524)]
+Baseline Lyrics.txt_25-335  [what,it,is,about,it,is,about]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_363908)]
+Baseline Lyrics.txt_26-361  [i,do,my,shit,on,the,Mic]  [provide_expl_just(please,[external,factive,narration,foreground,objective])]
+Baseline Lyrics.txt_26-362  [and,i,am,pleasing,the,crowd]  [provide_expl_just(please,[external,factive,narration,foreground,objective])]
+Baseline Lyrics.txt_27-389  [jump,back,,,get,back,or_else,your,getting,a,smack,on,your,face]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(jump,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_28-419  [just,like,your,daddy,used,to,smack]  [provide_expl_just(smack,[external,factive,narration,background,objective]),provide_expl_just(use,[external,factive,cause,foreground,objective])]
+Baseline Lyrics.txt_28-420  [you,way,back,in,the,days]  [provide_expl_just(smack,[external,factive,narration,background,objective]),provide_expl_just(use,[external,factive,cause,foreground,objective])]
+Baseline Lyrics.txt_29-450  [this,is,not,no,silly,ass,game,not]  [reject_expl_just(play,[external,factive,cause,foreground,objective])]
+Baseline Lyrics.txt_29-451  [i,am,playing]  [provide_expl_just(play,[external,factive,cause,foreground,objective])]
+Baseline Lyrics.txt_30-481  [hear,what,i,am,saying,,,now,start,praying,.,i,am,saying,,,now,start,praying]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(pray,[external,factive,narration,foreground,objective]),provide_expl_just(hear,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_31-515  [baseline,baseline,we,have,got,fools,from,the,base]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_32-547  [and,their,giving,me,baseline,baseline,baseline]  [provide_expl_just(give,[external,factive,narration,foreground,objective])]
+Baseline Lyrics.txt_33-580  [baseline,baseline,we,have,got,fools,from,the,base]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_34-614  [and,their,giving,me,baseline,baseline,baseline]  [provide_expl_just(give,[external,factive,narration,foreground,objective])]
+Baseline Lyrics.txt_35-649  [what,we,have,is,breaking,us,down]  [suggest(be,[_370370,_370376,statement,background,_370394])]
+Baseline Lyrics.txt_36-685  [what,we,had,is,breaking,us,down]  [suggest(be,[_370698,_370704,statement,background,_370722])]
+Baseline Lyrics.txt_37-722  [what,we,had,is,breaking,us,down]  [suggest(be,[_371026,_371032,statement,background,_371050])]
+Baseline Lyrics.txt_38-760  [what,we,had,is,breaking,us,down]  [suggest(be,[_371354,_371360,statement,background,_371378])]
+Baseline Lyrics.txt_39-799  [what,we,had,is,breaking,us,down]  [suggest(be,[_371682,_371688,statement,background,_371706])]
+Baseline Lyrics.txt_40-839  [baseline,baseline,we,have,got,fools,from,the,base]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_41-880  [and,their,giving,me,baseline,baseline,baseline]  [provide_expl_just(give,[external,factive,narration,foreground,objective])]
+Baseline Lyrics.txt_42-922  [baseline,baseline,we,have,got,fools,from,the,base]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Baseline Lyrics.txt_43-965  [and,their,giving,me,baseline,baseline,baseline]  [provide_expl_just(give,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Baseline Lyrics.txt_1-1)-[]
+2-(Baseline Lyrics.txt_2-3)-[primary-anality,emotions-aggression]
+3-(Baseline Lyrics.txt_3-6)-[primary-depth]
+4-(Baseline Lyrics.txt_4-10)-[]
+5-(Baseline Lyrics.txt_5-15)-[primary-sex,primary-passivity]
+6-(Baseline Lyrics.txt_6-21)-[secondary-temporal_repere]
+7-(Baseline Lyrics.txt_6-22)-[primary-sound]
+8-(Baseline Lyrics.txt_7-29)-[]
+9-(Baseline Lyrics.txt_8-38)-[]
+10-(Baseline Lyrics.txt_8-38)-[]
+11-(Baseline Lyrics.txt_9-48)-[primary-diffusion,emotions-aggression,secondary-temporal_repere]
+12-(Baseline Lyrics.txt_10-58)-[secondary-temporal_repere,primary-concreteness]
+13-(Baseline Lyrics.txt_10-59)-[primary-concreteness,emotions-affection]
+14-(Baseline Lyrics.txt_11-70)-[primary-unknow]
+15-(Baseline Lyrics.txt_12-82)-[primary-ascend,secondary-instru_behavior,secondary-abstract_tought,emotions-affection]
+16-(Baseline Lyrics.txt_13-96)-[secondary-temporal_repere,secondary-abstract_tought,primary-concreteness,primary-concreteness,primary-orality]
+17-(Baseline Lyrics.txt_14-111)-[secondary-abstract_tought,secondary-social_behavior,primary-cold]
+18-(Baseline Lyrics.txt_15-128)-[secondary-moral_imperative]
+19-(Baseline Lyrics.txt_16-144)-[primary-voyage]
+20-(Baseline Lyrics.txt_16-145)-[secondary-restraint,emotions-affection]
+21-(Baseline Lyrics.txt_17-162)-[primary-descent]
+22-(Baseline Lyrics.txt_18-180)-[]
+23-(Baseline Lyrics.txt_19-199)-[primary-descent]
+24-(Baseline Lyrics.txt_20-219)-[]
+25-(Baseline Lyrics.txt_21-240)-[secondary-temporal_repere,primary-concreteness,emotions-expressive_beh]
+half
+26-(Baseline Lyrics.txt_22-262)-[emotions-sadness]
+27-(Baseline Lyrics.txt_23-285)-[primary-vision,primary-descent,primary-concreteness]
+28-(Baseline Lyrics.txt_24-309)-[secondary-social_behavior,primary-concreteness,secondary-instru_behavior]
+29-(Baseline Lyrics.txt_25-334)-[secondary-abstract_tought]
+30-(Baseline Lyrics.txt_25-335)-[]
+31-(Baseline Lyrics.txt_26-361)-[primary-anality]
+32-(Baseline Lyrics.txt_26-362)-[primary-chaos]
+33-(Baseline Lyrics.txt_27-389)-[primary-ascend,primary-concreteness,primary-concreteness,primary-narcissism]
+34-(Baseline Lyrics.txt_28-419)-[emotions-affection,secondary-instru_behavior]
+35-(Baseline Lyrics.txt_28-420)-[primary-concreteness]
+36-(Baseline Lyrics.txt_29-450)-[emotions-expressive_beh]
+37-(Baseline Lyrics.txt_29-451)-[]
+38-(Baseline Lyrics.txt_30-481)-[primary-sound,secondary-temporal_repere,primary-vision,secondary-temporal_repere,primary-vision]
+39-(Baseline Lyrics.txt_31-515)-[primary-descent]
+40-(Baseline Lyrics.txt_32-547)-[]
+41-(Baseline Lyrics.txt_33-580)-[primary-descent]
+42-(Baseline Lyrics.txt_34-614)-[]
+43-(Baseline Lyrics.txt_35-649)-[]
+44-(Baseline Lyrics.txt_36-685)-[]
+45-(Baseline Lyrics.txt_37-722)-[]
+46-(Baseline Lyrics.txt_38-760)-[]
+47-(Baseline Lyrics.txt_39-799)-[]
+48-(Baseline Lyrics.txt_40-839)-[primary-descent]
+49-(Baseline Lyrics.txt_41-880)-[]
+50-(Baseline Lyrics.txt_42-922)-[primary-descent]
+51-(Baseline Lyrics.txt_43-965)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Baseline Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Quarashi-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,baseline,sn1),def_prop(Quarashi,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Baseline Lyrics.txt_2,3,cl2-nil-nil-give-[ncmod-subj_disc-kick-sn3,obj-goal-shit-sn2,subj-actor-i-sn1,def_prop(kick,[astratto,attivita]),def_prop(shit,[attivita,umano]),def_prop(i,[umano])])
+lf(Baseline Lyrics.txt_3,6,cl3-nil-nil-come-[iobj-goal-spot-sn1,aux-been-nil,progr-coming-nil,aux-(is)-nil,and(spot,underground,sn1),def_prop(spot,[astratto,attivita,informa,nquant,oggetto,strumento])])
+lf(Baseline Lyrics.txt_4,10,cl4-nil-nil-beat-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Baseline Lyrics.txt_5,15,cl5-nil-nil-lay-[obj-theme_aff-around-sn3,subj-experiencer-that-sn2,subj-experiencer-that-sn1,and(around,all,sn3),and(that,fuck,sn1),def_prop(around,[]),def_prop(that,[oggetto,umano]),def_prop(that,[oggetto,umano])])
+lf(Baseline Lyrics.txt_6,21,cl7-nil-nil-sound-[ncmod-loc_origin-Other_side-sn5,subj-experiencer-you-sn4,def_prop(Other_side,[astratto,attivita,body_part,edible,informa,luogo,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Baseline Lyrics.txt_6,21,cl6-nil-nil-give-[subj_top-actor-me-sn1,def_prop(me,[umano])])
+lf(Baseline Lyrics.txt_7,29,cl9-nil-nil-go-[subj-prop-it-sn1,def_prop(it,[any])])
+lf(Baseline Lyrics.txt_7,29,cl8-nil-nil-be-[adj-(mod)-every_night-nil,subj-theme_bound-it-sn1,def_prop(it,[any])])
+lf(Baseline Lyrics.txt_8,38,cl11-nil-nil-be-[cmod-coord-be-and,cmod-subord-be-",cmod-subord-flow-"])
+lf(Baseline Lyrics.txt_8,38,cl10-nil-nil-flow-[adj-(mod)-be-nil,subj-actor-you-sn2,subj-actor-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Baseline Lyrics.txt_9,48,cl12-nil-nil-get-[adj-(mod)-now-nil,obj-theme_unaff-run-sn2,subj-agent-son-sn1,and(son,mister,sn1),def_prop(run,[astratto,attivita,evento,nquant,stato,tempo]),def_prop(son,[umano])])
+lf(Baseline Lyrics.txt_10,58,cl14-nil-nil-be-[xcomp-theme-Rover-sn4,xcomp-prop-Range-sn3,subj-actor-you-sn2,def_prop(Rover,[place,umano]),def_prop(Range,[place,umano]),def_prop(you,[umano])])
+lf(Baseline Lyrics.txt_10,58,cl13-nil-nil-run-[subj-agent-you-sn1,adj-(mod)-over-nil,aux-(is)-nil,def_prop(you,[umano])])
+lf(Baseline Lyrics.txt_11,70,cl15-nil-nil-be-[ncmod-modal-oh-sn3,subj-theme_bound-superstar-sn2,subj-theme_bound-superstar-sn1,and(superstar,incredible,sn2),and(superstar,you,sn1),and(superstar,incredible,sn1),def_prop(oh,[informa,tecno]),def_prop(superstar,[umano]),def_prop(superstar,[umano])])
+lf(Baseline Lyrics.txt_12,82,cl17-nil-nil-run-[obj-theme_unaff-car-sn3,xadj-result-run-2,def_prop(car,[oggetto,strumento])])
+lf(Baseline Lyrics.txt_12,82,cl16-nil-nil-make-[obj-goal-them-sn2,subj-agent-throw-sn1,and(throw,lyric,sn1),and(throw,some,sn1),def_prop(them,[umano]),def_prop(throw,[astratto,attivita,evento,oggetto,stato,strumento])])
+lf(Baseline Lyrics.txt_13,96,cl19-nil-nil-be-[])
+lf(Baseline Lyrics.txt_13,96,cl18-nil-nil-know-[obj-theme-when-sn2,subj-actor-you-sn1,def_prop(when,[tempo]),def_prop(you,[umano])])
+lf(Baseline Lyrics.txt_14,111,cl22-nil-nil-be-[cmod-subord-be-if,subj-theme_bound-cat-sn6,xcomp-prop-cat-sn5,subj-theme_bound-i-sn4,and(cat,cool,sn6),and(cat,cool,sn5),def_prop(cat,[animato,attivita,oggetto,plant,sostanza,strumento,umano]),def_prop(cat,[animato,attivita,oggetto,plant,sostanza,strumento,umano]),def_prop(i,[umano])])
+lf(Baseline Lyrics.txt_14,111,cl21-nil-nil-help-[])
+lf(Baseline Lyrics.txt_14,111,cl20-nil-nil-cause-[obj2-goal-God-sn3,obj-tema_eff-me-sn2,subj-causer-you-sn1,def_prop(God,[animato]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Baseline Lyrics.txt_15,128,cl23-nil-nil-be-[xcomp-prop-legal-sn2,subj-theme_bound-it-sn1,and(legal,not_even,sn2),def_prop(legal,[stato]),def_prop(it,[any])])
+lf(Baseline Lyrics.txt_16,144,cl25-nil-nil-be-[xcomp-prop-Seagel-sn4,subj-actor-police-sn3,def_prop(Seagel,[istituzione,umano]),def_prop(police,[istituzione])])
+lf(Baseline Lyrics.txt_16,144,cl24-nil-nil-chase-[arg_mod-agent-rap-sn2,subj-theme_unaff-i-sn1,aux-am-nil,def_prop(rap,_377558),def_prop(i,[umano])])
+lf(Baseline Lyrics.txt_17,162,cl26-nil-nil-get-[ncmod-modal-base-sn4,obj-theme_unaff-fool-sn3,subj-agent-we-sn2,subj-agent-we-sn1,aux-have-nil,and(we,baseline,sn1),def_prop(base,[valutativo]),def_prop(fool,[attivita,plant,stato,umano]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Baseline Lyrics.txt_18,180,cl27-nil-nil-give-[cmod-subord-give-",obj2-paziente-baseline-sn3,obj-goal-baseline-sn2,subj-actor-their-sn1,def_prop(baseline,[luogo,relat]),def_prop(baseline,[luogo,relat]),def_prop(their,[evaluative])])
+lf(Baseline Lyrics.txt_19,199,cl28-nil-nil-get-[ncmod-modal-base-sn4,obj-theme_unaff-fool-sn3,subj-agent-we-sn2,subj-agent-we-sn1,aux-have-nil,and(we,baseline,sn1),def_prop(base,[valutativo]),def_prop(fool,[attivita,plant,stato,umano]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Baseline Lyrics.txt_20,219,cl29-nil-nil-give-[cmod-subord-give-",obj2-paziente-baseline-sn3,obj-goal-baseline-sn2,subj-actor-their-sn1,def_prop(baseline,[luogo,relat]),def_prop(baseline,[luogo,relat]),def_prop(their,[evaluative])])
+lf(Baseline Lyrics.txt_21,240,cl30-nil-nil-have-[adj-(mod)-now-nil,ncmod-locativo-game-sn3,xcomp-prop-back-sn2,subj-experiencer-we-sn1,def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(we,[umano])])
+lf(Baseline Lyrics.txt_22,262,cl31-nil-nil-be-[xcomp-prop-plain-sn2,subj-theme_bound-pain-sn1,and(pain,it,sn1),def_prop(plain,[oggetto]),def_prop(pain,[astratto,emotivo,stato,umano])])
+lf(Baseline Lyrics.txt_23,285,cl32-nil-nil-see-[adj-(mod)-out-nil,obj-actor-fall-sn2,subj-experiencer-i-sn1,and(fall,sucker,sn2),def_prop(fall,[attivita,evento,tempo]),def_prop(i,[umano])])
+lf(Baseline Lyrics.txt_24,309,cl33-nil-nil-pick-[cmod-subord-pick-",adj-(mod)-up-nil,adj-(mod)-out-nil,obj-goal-me-sn2,subj-agent-call-sn1,and(call,fucker,sn1),def_prop(me,[umano]),def_prop(call,[attivita,informa])])
+lf(Baseline Lyrics.txt_25,334,cl35-nil-nil-be-[subj-theme_bound-it-sn2,def_prop(it,[any])])
+lf(Baseline Lyrics.txt_25,334,cl34-not-nil-know-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Baseline Lyrics.txt_26,361,cl37-nil-nil-please-[cmod-subord-please-",obj-experiencer-crowd-sn7,subj-tema_emot-i-sn6,ncmod-locativo-Mic-sn3,aux-am-nil,progr-pleasing-nil,def_prop(crowd,[istituzione]),def_prop(i,[umano]),def_prop(Mic,[istituzione,umano])])
+lf(Baseline Lyrics.txt_26,361,cl36-nil-nil-do-[xcomp-actor-shit-sn2,subj-theme_unaff-i-sn1,aux-do-nil,def_prop(shit,[attivita,umano]),def_prop(i,[umano])])
+lf(Baseline Lyrics.txt_27,389,cl39-nil-nil-get-[ncmod-locativo-face-sn14,xcomp-prop-smack-sn13,xcomp-prop-your-sn12,adj-subj_disc-or_else-sn11,subj-theme_bound-your-sn10,adj-(mod)-or_else-nil,ncmod-locativo-face-sn5,obj-paziente-smack-sn4,xcomp-purpose-get-3,xcomp-prop-your-sn3,and(or_else,back,sn11),and(or_else,back,sn11),and(or_else,back,sn8),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(smack,[attivita,oggetto,strumento]),def_prop(your,[evaluative]),def_prop(or_else,[informa,tecno]),def_prop(your,[istituzione]),def_prop(or_else,[informa,tecno]),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(smack,[attivita,oggetto,strumento]),def_prop(your,[evaluative])])
+lf(Baseline Lyrics.txt_27,389,cl38-nil-nil-jump-[xcomp-prop-back-sn2,subj-agent-you-sn1,def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Baseline Lyrics.txt_28,419,cl42-nil-nil-be-[adj-temporal-days-nil,adj-(mod)-back-nil,xcomp-prop-way-sn6,subj-theme_bound-you-sn5,def_prop(days,[tempo]),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Baseline Lyrics.txt_28,419,cl41-nil-nil-smack-[subj-theme-daddy-sn1,def_prop(daddy,[relat,sociale,umano])])
+lf(Baseline Lyrics.txt_28,419,cl40-nil-nil-use-[adj-locative-just-nil,subj-actor-daddy-sn1,def_prop(daddy,[relat,sociale,umano])])
+lf(Baseline Lyrics.txt_29,450,cl44-nil-nil-play-[subj-agent-you-sn6,aux-am-nil,progr-playing-nil,def_prop(you,[umano])])
+lf(Baseline Lyrics.txt_29,450,cl43-not-nil-be-[xcomp-prop-game-sn2,subj-theme_bound-this-sn1,neg-not-nil,and(game,no,sn2),and(game,silly,sn2),and(game,ass,sn2),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(this,[oggetto,umano])])
+lf(Baseline Lyrics.txt_30,481,cl47-nil-nil-pray-[adj-subj_disc-now-sn12,subj-experiencer-you-sn11,subj-theme-i-sn7,def_prop(now,[istituzione]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Baseline Lyrics.txt_30,481,cl46-nil-nil-say-[adj-locative-now-nil,subj-agent-you-sn9,subj-actor-i-sn7,aux-am-nil,progr-saying-nil,def_prop(now,[istituzione]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Baseline Lyrics.txt_30,481,cl45-nil-nil-hear-[subj-experiencer-star-sn2,subj-experiencer-star-sn1,and(star,you,sn1),def_prop(star,[astratto,oggetto,umano]),def_prop(star,[astratto,oggetto,umano])])
+lf(Baseline Lyrics.txt_31,515,cl48-nil-nil-get-[ncmod-modal-base-sn4,obj-theme_unaff-fool-sn3,subj-agent-we-sn2,subj-agent-we-sn1,aux-have-nil,and(we,baseline,sn1),def_prop(base,[valutativo]),def_prop(fool,[attivita,plant,stato,umano]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Baseline Lyrics.txt_32,547,cl49-nil-nil-give-[cmod-subord-give-",obj2-paziente-baseline-sn3,obj-goal-baseline-sn2,subj-actor-their-sn1,def_prop(baseline,[luogo,relat]),def_prop(baseline,[luogo,relat]),def_prop(their,[evaluative])])
+lf(Baseline Lyrics.txt_33,580,cl50-nil-nil-get-[ncmod-modal-base-sn4,obj-theme_unaff-fool-sn3,subj-agent-we-sn2,subj-agent-we-sn1,aux-have-nil,and(we,baseline,sn1),def_prop(base,[valutativo]),def_prop(fool,[attivita,plant,stato,umano]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Baseline Lyrics.txt_34,614,cl51-nil-nil-give-[cmod-subord-give-",obj2-paziente-baseline-sn3,obj-goal-baseline-sn2,subj-actor-their-sn1,def_prop(baseline,[luogo,relat]),def_prop(baseline,[luogo,relat]),def_prop(their,[evaluative])])
+lf(Baseline Lyrics.txt_35,649,cl52-nil-nil-break-[xcomp-prop-down-sn4,obj-theme-us-sn3,obj-theme_aff-what-sn2,subj-agent-we-sn1,aux-(is)-nil,aux-have-nil,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(us,[umano]),def_prop(what,[oggetto]),def_prop(we,[umano])])
+lf(Baseline Lyrics.txt_36,685,cl53-nil-nil-break-[xcomp-prop-down-sn4,xcomp-prop-us-sn3,obj-theme_aff-what-sn2,subj-theme_aff-we-sn1,aux-(is)-nil,aux-had-nil,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(us,[umano]),def_prop(what,[oggetto]),def_prop(we,[umano])])
+lf(Baseline Lyrics.txt_37,722,cl54-nil-nil-break-[xcomp-prop-down-sn4,xcomp-prop-us-sn3,obj-theme_aff-what-sn2,subj-theme_aff-we-sn1,aux-(is)-nil,aux-had-nil,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(us,[umano]),def_prop(what,[oggetto]),def_prop(we,[umano])])
+lf(Baseline Lyrics.txt_38,760,cl55-nil-nil-break-[xcomp-prop-down-sn4,xcomp-prop-us-sn3,obj-theme_aff-what-sn2,subj-theme_aff-we-sn1,aux-(is)-nil,aux-had-nil,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(us,[umano]),def_prop(what,[oggetto]),def_prop(we,[umano])])
+lf(Baseline Lyrics.txt_39,799,cl56-nil-nil-break-[xcomp-prop-down-sn4,xcomp-prop-us-sn3,obj-theme_aff-what-sn2,subj-theme_aff-we-sn1,aux-(is)-nil,aux-had-nil,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(us,[umano]),def_prop(what,[oggetto]),def_prop(we,[umano])])
+lf(Baseline Lyrics.txt_40,839,cl57-nil-nil-get-[ncmod-modal-base-sn4,obj-theme_unaff-fool-sn3,subj-agent-we-sn2,subj-agent-we-sn1,aux-have-nil,and(we,baseline,sn1),def_prop(base,[valutativo]),def_prop(fool,[attivita,plant,stato,umano]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Baseline Lyrics.txt_41,880,cl58-nil-nil-give-[cmod-subord-give-",obj2-paziente-baseline-sn3,obj-goal-baseline-sn2,subj-actor-their-sn1,def_prop(baseline,[luogo,relat]),def_prop(baseline,[luogo,relat]),def_prop(their,[evaluative])])
+lf(Baseline Lyrics.txt_42,922,cl59-nil-nil-get-[ncmod-modal-base-sn4,obj-theme_unaff-fool-sn3,subj-agent-we-sn2,subj-agent-we-sn1,aux-have-nil,and(we,baseline,sn1),def_prop(base,[valutativo]),def_prop(fool,[attivita,plant,stato,umano]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Baseline Lyrics.txt_43,965,cl60-nil-nil-give-[cmod-subord-give-",obj2-paziente-baseline-sn3,obj-goal-baseline-sn2,subj-actor-their-sn1,def_prop(baseline,[luogo,relat]),def_prop(baseline,[luogo,relat]),def_prop(their,[evaluative])])

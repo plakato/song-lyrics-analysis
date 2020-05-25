@@ -1,0 +1,97 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Avon Lyrics.txt_1-1  []-positive  []
+Avon Lyrics.txt_2-3  []-positive  []
+Avon Lyrics.txt_2-4  []-positive  []
+Avon Lyrics.txt_3-7  []-positive  []
+Avon Lyrics.txt_4-11  []-negative  [fgb]
+Avon Lyrics.txt_5-16  []-positive  []
+Avon Lyrics.txt_6-22  []-positive  []
+Avon Lyrics.txt_7-29  []-positive  []
+Avon Lyrics.txt_8-37  []-negative  [neg]
+Avon Lyrics.txt_9-46  []-suspension  []
+Avon Lyrics.txt_10-57  []-positive  []
+Avon Lyrics.txt_11-68  []-positive  []
+Avon Lyrics.txt_12-80  []-positive  []
+Avon Lyrics.txt_13-94  []-positive  []
+Avon Lyrics.txt_14-108  []-positive  []
+Avon Lyrics.txt_15-123  []-negative  [neg]
+Avon Lyrics.txt_16-139  []-positive  []
+Avon Lyrics.txt_17-156  []-negative  [neg]
+Avon Lyrics.txt_18-174  []-suspension  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Avon Lyrics.txt_1-1  [Avon,Lyrics,by,queens,of,the,Stone,age]  [title]
+Avon Lyrics.txt_2-3  [i,see]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Avon Lyrics.txt_2-4  [you,go]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Avon Lyrics.txt_3-7  [through,a,park,in,a,haze]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Avon Lyrics.txt_4-11  [and,i,don-t,listen]  [provide_expl_just(listen,[external,factive,narration,foreground,objective])]
+Avon Lyrics.txt_5-16  [for,traffic,going,the,same,way]  [raise_issue(be,[_284748,factive,statement,_284766,subjective])]
+Avon Lyrics.txt_6-22  [a,simple,system]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Avon Lyrics.txt_7-29  [i,string,them,up]  [provide_expl_just(string,[external,factive,narration,background,objective])]
+Avon Lyrics.txt_8-37  [i,cut,them,down]  [reject_expl_just(cut,[external,factive,narration,background,objective])]
+Avon Lyrics.txt_9-46  [dare,i,say]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(dare,[external,nonfactive,narration,foreground,objective])]
+Avon Lyrics.txt_10-57  [to,to,to,to,tox3]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Avon Lyrics.txt_11-68  [a,perfect,vision]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Avon Lyrics.txt_12-80  [some,simple,ways,to,let,you,know]  [provide_expl_just(let,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Avon Lyrics.txt_13-94  [free,range,humans,all,cooped,up]  [provide_expl_just(cooped,[external,factive,narration,background,objective])]
+Avon Lyrics.txt_14-108  [naked,clone,is,playing]  [provide_expl_just(play,[external,factive,cause,foreground,objective])]
+Avon Lyrics.txt_15-123  [lame]  reject_expl_opin(nil,[])
+Avon Lyrics.txt_16-139  [i,string,them,up]  [provide_expl_just(string,[external,factive,narration,background,objective])]
+Avon Lyrics.txt_17-156  [i,cut,them,down]  [reject_expl_just(cut,[external,factive,narration,background,objective])]
+Avon Lyrics.txt_18-174  [dare,i,say]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(dare,[external,nonfactive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Avon Lyrics.txt_1-1)-[]
+2-(Avon Lyrics.txt_2-3)-[primary-vision]
+3-(Avon Lyrics.txt_2-4)-[]
+4-(Avon Lyrics.txt_3-7)-[primary-diffusion]
+5-(Avon Lyrics.txt_4-11)-[primary-sound]
+6-(Avon Lyrics.txt_5-16)-[]
+7-(Avon Lyrics.txt_6-22)-[secondary-order,secondary-order]
+8-(Avon Lyrics.txt_7-29)-[secondary-abstract_tought]
+9-(Avon Lyrics.txt_8-37)-[emotions-aggression,secondary-abstract_tought]
+half
+10-(Avon Lyrics.txt_9-46)-[secondary-social_behavior]
+11-(Avon Lyrics.txt_10-57)-[]
+12-(Avon Lyrics.txt_11-68)-[primary-vision]
+13-(Avon Lyrics.txt_12-80)-[secondary-order,secondary-abstract_tought]
+14-(Avon Lyrics.txt_13-94)-[]
+15-(Avon Lyrics.txt_14-108)-[primary-sex]
+16-(Avon Lyrics.txt_15-123)-[]
+17-(Avon Lyrics.txt_16-139)-[secondary-abstract_tought]
+18-(Avon Lyrics.txt_17-156)-[emotions-aggression,secondary-abstract_tought]
+19-(Avon Lyrics.txt_18-174)-[secondary-social_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Avon Lyrics.txt_1,1,cl1-nil-nil-be-[adj-temporal-age-nil,ncmod-specif-Stone-sn3,arg_mod-agent-queen-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Avon,sn1),def_prop(Stone,[place,umano]),def_prop(queen,[animato,oggetto,plant,strumento,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Avon Lyrics.txt_2,3,cl3-nil-nil-go-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Avon Lyrics.txt_2,3,cl2-nil-nil-see-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Avon Lyrics.txt_3,7,cl4-nil-nil-be-[ncmod-temporale-haze-sn2,ncmod-location-park-sn1,def_prop(haze,[attivita,cambia]),def_prop(park,[luogo,oggetto,strumento])])
+lf(Avon Lyrics.txt_4,11,cl5-not-nil-listen-[cmod-subord-listen-",subj-agent-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Avon Lyrics.txt_5,16,cl6-nil-nil-go-[obj-theme_aff-way-sn2,subj-agent-traffic-sn1,and(way,same,sn2),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(traffic,[attivita,informa,istituzione])])
+lf(Avon Lyrics.txt_6,22,cl7-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Avon Lyrics.txt_7,29,cl8-nil-nil-string-[obj-theme-them-sn2,subj-agent-i-sn1,def_prop(them,[umano]),def_prop(i,[umano])])
+lf(Avon Lyrics.txt_8,37,cl9-nil-nil-cut-[xcomp-prop-down-sn3,obj-theme_aff-them-sn2,subj-agent-i-sn1,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(them,[umano]),def_prop(i,[umano])])
+lf(Avon Lyrics.txt_9,46,cl11-nil-nil-say-[subj-prop-i-sn1,def_prop(i,[umano])])
+lf(Avon Lyrics.txt_9,46,cl10-nil-dare-dare-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Avon Lyrics.txt_10,57,cl12-nil-nil-be-[ncmod-locativo-tox3-sn1,def_prop(tox3,[istituzione])])
+lf(Avon Lyrics.txt_11,68,cl13-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Avon Lyrics.txt_12,80,cl15-nil-nil-know-[obj-theme_unaff-you-sn2,xadj-result-let-2,subj-actor-ways-sn1,and(ways,some,sn1),and(ways,simple,sn1),def_prop(you,[umano]),def_prop(ways,[oggetto,strumento])])
+lf(Avon Lyrics.txt_12,80,cl14-nil-nil-let-[])
+lf(Avon Lyrics.txt_13,94,nil-nil-nil-cooped-[adj-(mod)-up-nil,subj-agent-range-sn1,and(range,humans,sn1),and(range,all,sn1),def_prop(range,[istituzione,luogo,nquant,oggetto,strumento])])
+lf(Avon Lyrics.txt_14,108,cl16-nil-nil-play-[subj-agent-you-sn1,aux-(is)-nil,progr-playing-nil,def_prop(you,[umano])])
+lf(Avon Lyrics.txt_15,123,cl17-nil-nil-say-[])
+lf(Avon Lyrics.txt_16,139,cl18-nil-nil-string-[obj-theme-them-sn2,subj-agent-i-sn1,def_prop(them,[umano]),def_prop(i,[umano])])
+lf(Avon Lyrics.txt_17,156,cl19-nil-nil-cut-[xcomp-prop-down-sn3,obj-theme_aff-them-sn2,subj-agent-i-sn1,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(them,[umano]),def_prop(i,[umano])])
+lf(Avon Lyrics.txt_18,174,cl21-nil-nil-say-[subj-prop-i-sn1,def_prop(i,[umano])])
+lf(Avon Lyrics.txt_18,174,cl20-nil-dare-dare-[subj-actor-i-sn1,def_prop(i,[umano])])

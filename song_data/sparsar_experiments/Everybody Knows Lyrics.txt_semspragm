@@ -1,0 +1,113 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Everybody Knows Lyrics.txt_1-1  []-positive  []
+Everybody Knows Lyrics.txt_2-3  []-negative  [neg]
+Everybody Knows Lyrics.txt_3-6  []-positive  []
+Everybody Knows Lyrics.txt_4-10  []-positive  []
+Everybody Knows Lyrics.txt_5-15  []-negative  [neg]
+Everybody Knows Lyrics.txt_6-21  []-positive  []
+Everybody Knows Lyrics.txt_7-28  []-negative  [neg]
+Everybody Knows Lyrics.txt_8-36  []-positive  []
+Everybody Knows Lyrics.txt_9-45  []-negative  [neg,neg]
+Everybody Knows Lyrics.txt_10-55  []-positive  []
+Everybody Knows Lyrics.txt_11-66  []-positive  []
+Everybody Knows Lyrics.txt_11-67  []-positive  []
+Everybody Knows Lyrics.txt_11-68  []-positive  []
+Everybody Knows Lyrics.txt_12-79  []-negative  [neg]
+Everybody Knows Lyrics.txt_13-92  []-positive  [bkc]
+Everybody Knows Lyrics.txt_14-106  []-positive  []
+Everybody Knows Lyrics.txt_15-121  [before-temp_prec]-positive  []
+Everybody Knows Lyrics.txt_16-137  []-positive  []
+Everybody Knows Lyrics.txt_16-138  []-positive  []
+Everybody Knows Lyrics.txt_17-155  [so-result]-negative  [fgb,neg]
+Everybody Knows Lyrics.txt_18-173  []-positive  [neg]
+Everybody Knows Lyrics.txt_19-192  []-positive  []
+Everybody Knows Lyrics.txt_20-212  []-negative  [neg]
+Everybody Knows Lyrics.txt_21-233  []-positive  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Everybody Knows Lyrics.txt_1-1  [everybody,Knows,Lyrics,by,Wooden,Shjips]  [title]
+Everybody Knows Lyrics.txt_2-3  [in,the,bloody,moon]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_3-6  [whistling,for,the,road]  [provide_expl_just(whistle,[external,factive,narration,foreground,objective])]
+Everybody Knows Lyrics.txt_4-10  [the,honest,seen,view]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_5-15  [the,longing]  reject_expl_opin(nil,[])
+Everybody Knows Lyrics.txt_6-21  [for,home]  [provide_expl_just(home,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_7-28  [we,are,only,alone]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_8-36  [we,are,good]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_9-45  [the,riders,not,to,lose]  [reject_expl_just(lose,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_10-55  [the,farmer,to,the,two]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_11-66  [we,are,going]  [provide_expl_just(go,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_11-67  [past,is]  [provide_expl_just(go,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_11-68  [you]  [provide_expl_just(go,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_12-79  [stinging,through,the,years]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_13-92  [oh,day,way,seen]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_14-106  [one,buddy]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Everybody Knows Lyrics.txt_15-121  [only,left,before]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_16-137  [i,see]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_16-138  [you,next,to,me]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_17-155  [takes,so,alone]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_18-173  [it,is,falling,to,a]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_19-192  [steer]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Everybody Knows Lyrics.txt_20-212  [it,is,scent,in,Existance]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Everybody Knows Lyrics.txt_21-233  [all,lonely]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Everybody Knows Lyrics.txt_1-1)-[]
+2-(Everybody Knows Lyrics.txt_2-3)-[emotions-aggression]
+3-(Everybody Knows Lyrics.txt_3-6)-[primary-brink]
+4-(Everybody Knows Lyrics.txt_4-10)-[secondary-moral_imperative,primary-vision,primary-vision]
+5-(Everybody Knows Lyrics.txt_5-15)-[]
+6-(Everybody Knows Lyrics.txt_6-21)-[]
+7-(Everybody Knows Lyrics.txt_7-28)-[]
+8-(Everybody Knows Lyrics.txt_8-36)-[]
+9-(Everybody Knows Lyrics.txt_9-45)-[primary-voyage]
+10-(Everybody Knows Lyrics.txt_10-55)-[]
+11-(Everybody Knows Lyrics.txt_11-66)-[]
+12-(Everybody Knows Lyrics.txt_11-67)-[secondary-temporal_repere]
+half
+13-(Everybody Knows Lyrics.txt_11-68)-[]
+14-(Everybody Knows Lyrics.txt_12-79)-[secondary-temporal_repere]
+15-(Everybody Knows Lyrics.txt_13-92)-[primary-vision]
+16-(Everybody Knows Lyrics.txt_14-106)-[]
+17-(Everybody Knows Lyrics.txt_15-121)-[]
+18-(Everybody Knows Lyrics.txt_16-137)-[primary-vision]
+19-(Everybody Knows Lyrics.txt_16-138)-[]
+20-(Everybody Knows Lyrics.txt_17-155)-[]
+21-(Everybody Knows Lyrics.txt_18-173)-[]
+22-(Everybody Knows Lyrics.txt_19-192)-[]
+23-(Everybody Knows Lyrics.txt_20-212)-[primary-odor]
+24-(Everybody Knows Lyrics.txt_21-233)-[emotions-sadness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Everybody Knows Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Shjips-sn3,subj-theme_bound-Lyrics-sn2,subj-theme_bound-Lyrics-sn1,and(Shjips,Wooden,sn3),and(Lyrics,Knows,sn2),and(Lyrics,everybody,sn1),def_prop(Shjips,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(Lyrics,[informa,tecno])])
+lf(Everybody Knows Lyrics.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Everybody Knows Lyrics.txt_3,6,cl3-nil-nil-whistle-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Everybody Knows Lyrics.txt_4,10,cl4-nil-nil-see-[obj-actor-view-sn2,subj-experiencer-honest-sn1,def_prop(view,[astratto,attivita,luogo]),def_prop(honest,[istituzione])])
+lf(Everybody Knows Lyrics.txt_5,15,cl5-nil-nil-say-[obj-theme_unaff-long-sn1,def_prop(long,[tempo])])
+lf(Everybody Knows Lyrics.txt_6,21,nil-nil-nil-home-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Everybody Knows Lyrics.txt_7,28,cl6-nil-nil-be-[xcomp-prop-alone-sn2,subj-theme_bound-we-sn1,def_prop(alone,[valutativo]),def_prop(we,[umano])])
+lf(Everybody Knows Lyrics.txt_8,36,cl7-nil-nil-be-[xcomp-prop-good-sn2,subj-theme_bound-we-sn1,def_prop(good,[valutativo]),def_prop(we,[umano])])
+lf(Everybody Knows Lyrics.txt_9,45,cl8-nil-nil-lose-[subj-theme_aff-rider-sn1,def_prop(rider,[attivita,informa,umano])])
+lf(Everybody Knows Lyrics.txt_10,55,cl9-nil-nil-be-[ncmod-goal-two-sn2,subj-theme_bound-farmer-sn1,def_prop(two,[legale]),def_prop(farmer,[oggetto,stato,strumento,umano])])
+lf(Everybody Knows Lyrics.txt_11,66,cl11-nil-nil-be-[subj-theme_bound-you-sn3,subj-theme_bound-you-sn2,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Everybody Knows Lyrics.txt_11,66,cl10-nil-nil-go-[subj-agent-you-sn1,aux-are-nil,progr-going-nil,def_prop(you,[umano])])
+lf(Everybody Knows Lyrics.txt_12,79,cl12-nil-nil-be-[xadj-adj-stinging-adj1,ncmod-modal-years-sn1,def_prop(stinging,_891256),def_prop(years,[tempo])])
+lf(Everybody Knows Lyrics.txt_13,92,cl13-nil-nil-see-[adj-temporal-day-nil,subj-experiencer-way-sn2,subj-experiencer-way-sn1,and(way,oh,sn1),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(way,[astratto,attivita,oggetto,stato,strumento])])
+lf(Everybody Knows Lyrics.txt_14,106,cl14-nil-nil-say-[obj-theme_unaff-buddy-sn1,and(buddy,one,sn1),def_prop(buddy,[umano])])
+lf(Everybody Knows Lyrics.txt_15,121,cl15-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Everybody Knows Lyrics.txt_16,137,cl17-nil-nil-be-[ncmod-goal-me-sn4,xcomp-prop-next-sn3,subj-theme_bound-you-sn2,def_prop(me,[umano]),def_prop(next,[tempo,misura]),def_prop(you,[umano])])
+lf(Everybody Knows Lyrics.txt_16,137,cl16-nil-nil-see-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Everybody Knows Lyrics.txt_17,155,cl18-nil-nil-be-[subj-theme_bound-take-sn1,def_prop(take,[attivita])])
+lf(Everybody Knows Lyrics.txt_18,173,cl19-nil-nil-be-[xcomp-prop-falling-sn2,subj-theme_bound-it-sn1,def_prop(falling,[evento]),def_prop(it,[any])])
+lf(Everybody Knows Lyrics.txt_19,192,cl20-nil-nil-say-[obj-theme_unaff-steer-sn1,def_prop(steer,[animato,attivita,informa])])
+lf(Everybody Knows Lyrics.txt_20,212,cl21-nil-nil-be-[ncmod-locativo-Existance-sn3,xcomp-prop-scent-sn2,subj-theme_bound-it-sn1,def_prop(Existance,[istituzione,umano]),def_prop(scent,[astratto]),def_prop(it,[any])])
+lf(Everybody Knows Lyrics.txt_21,233,cl22-nil-nil-say-[obj-theme_unaff-all-sn1,def_prop(all,[_892386])])

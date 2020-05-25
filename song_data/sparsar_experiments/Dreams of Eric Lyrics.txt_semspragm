@@ -1,0 +1,93 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Dreams of Eric Lyrics.txt_1-1  []-positive  []
+Dreams of Eric Lyrics.txt_2-3  []-positive  []
+Dreams of Eric Lyrics.txt_3-6  []-positive  []
+Dreams of Eric Lyrics.txt_4-10  [while-temp_coinc]-negative  []
+Dreams of Eric Lyrics.txt_5-16  []-negative  [neg]
+Dreams of Eric Lyrics.txt_6-22  []-positive  []
+Dreams of Eric Lyrics.txt_7-29  [while-temp_coinc]-positive  []
+Dreams of Eric Lyrics.txt_8-37  []-suspension  [neg,fgb]
+Dreams of Eric Lyrics.txt_9-47  []-positive  []
+Dreams of Eric Lyrics.txt_10-57  []-negative  []
+Dreams of Eric Lyrics.txt_11-69  []-negative  [neg]
+Dreams of Eric Lyrics.txt_12-81  [if-hypoth]-positive  [fhd,fgb]
+Dreams of Eric Lyrics.txt_13-94  []-positive  []
+Dreams of Eric Lyrics.txt_14-108  []-positive  []
+Dreams of Eric Lyrics.txt_15-123  [but-advers]-negative  [fgb,neg]
+Dreams of Eric Lyrics.txt_16-139  []-negative  [neg]
+Dreams of Eric Lyrics.txt_17-156  []-positive  []
+Dreams of Eric Lyrics.txt_18-174  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Dreams of Eric Lyrics.txt_1-1  [dreams,of,Eric,Lyrics,by,AKA,Yung,Neptune,YUNG,JZ7]  [title]
+Dreams of Eric Lyrics.txt_2-3  [registered,arsonist]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Dreams of Eric Lyrics.txt_3-6  [carvin,up,the,parthenon]  [raise_issue(be,[_1573524,factive,statement,_1573542,subjective])]
+Dreams of Eric Lyrics.txt_4-10  [of,beats,while,he,weeps]  [provide_expl_just(beat,[external,factive,narration,background,objective]),provide_expl_just(weep,[external,factive,narration,background,objective])]
+Dreams of Eric Lyrics.txt_5-16  [sheep,she,the,covered,in,skeet]  [reject_expl_just(be,[_1574396,_1574402,_1574408,_1574414,_1574420])]
+Dreams of Eric Lyrics.txt_6-22  [crackin,famous,jokes]  [provide_expl_just(joke,[external,factive,narration,background,objective])]
+Dreams of Eric Lyrics.txt_7-29  [while,the,actor-s-daughter,spoke]  [provide_expl_just(speak,[external,factive,narration,foreground,objective])]
+Dreams of Eric Lyrics.txt_8-37  [choke,the,yoke,joke,and,blew]  [provide_expl_just(choke,[external,factive,narration,background,objective])]
+Dreams of Eric Lyrics.txt_9-47  [a,toke,oz]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Dreams of Eric Lyrics.txt_10-57  [she,didn-t,come,with]  [provide_expl_just(didn-t,[external,factive,narration,foreground,objective])]
+Dreams of Eric Lyrics.txt_11-69  [the,tire,cuz,exploded]  [reject_expl_just(explode,[external,factive,narration,foreground,objective])]
+Dreams of Eric Lyrics.txt_12-81  [or,if,it,did,she]  [provide_expl_just(do,[external,factive,narration,background,objective])]
+Dreams of Eric Lyrics.txt_13-94  [hit,the,road,with,her,head]  [provide_expl_just(hit,[external,factive,cause,foreground,objective])]
+Dreams of Eric Lyrics.txt_14-108  [at_least,i,was,told,this]  [provide_expl_just(tell,[external,factive,narration,background,objective])]
+Dreams of Eric Lyrics.txt_15-123  [heartbroke,but,my,chode]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Dreams of Eric Lyrics.txt_16-139  [another,girl-s,did,erode]  [reject_expl_just(erode,[external,factive,narration,background,objective])]
+Dreams of Eric Lyrics.txt_17-156  [gullet,throats]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Dreams of Eric Lyrics.txt_18-174  [explodeddd,did]  [provide_expl_just(do,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Dreams of Eric Lyrics.txt_1-1)-[primary-counscious]
+2-(Dreams of Eric Lyrics.txt_2-3)-[]
+3-(Dreams of Eric Lyrics.txt_3-6)-[]
+4-(Dreams of Eric Lyrics.txt_4-10)-[emotions-aggression,secondary-temporal_repere,emotions-sadness]
+5-(Dreams of Eric Lyrics.txt_5-16)-[]
+6-(Dreams of Eric Lyrics.txt_6-22)-[emotions-glory,emotions-positive_affect]
+7-(Dreams of Eric Lyrics.txt_7-29)-[secondary-temporal_repere,secondary-social_behavior]
+8-(Dreams of Eric Lyrics.txt_8-37)-[primary-orality,emotions-positive_affect]
+9-(Dreams of Eric Lyrics.txt_9-47)-[]
+half
+10-(Dreams of Eric Lyrics.txt_10-57)-[]
+11-(Dreams of Eric Lyrics.txt_11-69)-[]
+12-(Dreams of Eric Lyrics.txt_12-81)-[]
+13-(Dreams of Eric Lyrics.txt_13-94)-[emotions-aggression,primary-brink,primary-narcissism]
+14-(Dreams of Eric Lyrics.txt_14-108)-[secondary-social_behavior]
+15-(Dreams of Eric Lyrics.txt_15-123)-[]
+16-(Dreams of Eric Lyrics.txt_16-139)-[]
+17-(Dreams of Eric Lyrics.txt_17-156)-[primary-orality]
+18-(Dreams of Eric Lyrics.txt_18-174)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Dreams of Eric Lyrics.txt_1,1,cl1-nil-nil-be-[xcomp-theme-JZ7-sn4,xcomp-theme-YUNG-sn3,arg_mod-agent-Yung-sn2,subj-theme_bound-Lyrics-sn1,and(YUNG,Neptune,sn3),and(Lyrics,dream,sn1),def_prop(JZ7,[istituzione,umano]),def_prop(YUNG,[istituzione,umano]),def_prop(Yung,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Dreams of Eric Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-arsonist-sn1,and(arsonist,registered,sn1),def_prop(arsonist,[umano])])
+lf(Dreams of Eric Lyrics.txt_3,6,nil-nil-nil-up-[obj-theme_aff-parthenon-sn2,subj-agent-carvin-sn1,def_prop(parthenon,[istituzione,umano]),def_prop(carvin,[istituzione])])
+lf(Dreams of Eric Lyrics.txt_4,10,cl4-nil-nil-weep-[cmod-subord-weep-while,subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Dreams of Eric Lyrics.txt_4,10,cl3-nil-nil-beat-[subj-agent-pro-nil])
+lf(Dreams of Eric Lyrics.txt_5,16,cl5-nil-nil-cover-[iobj-goal-skeet-sn2,subj-agent-she-sn1,and(she,sheep,sn1),def_prop(skeet,[attivita]),def_prop(she,[umano])])
+lf(Dreams of Eric Lyrics.txt_6,22,cl6-nil-nil-joke-[subj-actor1-you-sn1,def_prop(you,[umano])])
+lf(Dreams of Eric Lyrics.txt_7,29,cl7-nil-nil-speak-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Dreams of Eric Lyrics.txt_8,37,cl9-nil-nil-blow-[cmod-coord-choke-nil])
+lf(Dreams of Eric Lyrics.txt_8,37,cl8-nil-nil-choke-[obj-theme-joke-sn3,obj-goal-yoke-sn2,subj-agent-you-sn1,def_prop(joke,[astratto,attivita,informa]),def_prop(yoke,[istituzione,nquant,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Dreams of Eric Lyrics.txt_9,47,cl10-nil-nil-be-[subj-theme_bound-oz-sn2,subj-theme_bound-oz-sn1,and(oz,you,sn1),def_prop(oz,[informa,tecno]),def_prop(oz,[informa,tecno])])
+lf(Dreams of Eric Lyrics.txt_10,57,cl12-nil-nil-come-[])
+lf(Dreams of Eric Lyrics.txt_10,57,cl11-not-nil-didn-t-[subj-agent-she-sn1,def_prop(she,[umano])])
+lf(Dreams of Eric Lyrics.txt_11,69,cl13-nil-nil-explode-[ncmod-modal-tire-sn2,subj-agent-you-sn1,def_prop(tire,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Dreams of Eric Lyrics.txt_12,81,cl14-nil-nil-do-[cmod-subord-do-",cmod-subord-do-if,subj-theme_unaff-she-sn2,subj-theme_unaff-she-sn1,aux-did-nil,and(she,it,sn1),def_prop(she,[umano]),def_prop(she,[umano])])
+lf(Dreams of Eric Lyrics.txt_13,94,cl15-nil-nil-hit-[ncmod-comitativo-head-sn3,obj-goal-road-sn2,subj-agent-you-sn1,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(road,[attivita,oggetto,strumento]),def_prop(you,[umano])])
+lf(Dreams of Eric Lyrics.txt_14,108,cl16-nil-nil-tell-[xcomp-prop-this-sn2,subj-theme_unaff-i-sn1,aux-was-nil,def_prop(this,[oggetto,umano]),def_prop(i,[umano])])
+lf(Dreams of Eric Lyrics.txt_15,123,cl17-nil-nil-be-[subj-theme_bound-chode-sn2,subj-theme_bound-chode-sn1,def_prop(chode,[istituzione]),def_prop(chode,[istituzione])])
+lf(Dreams of Eric Lyrics.txt_16,139,cl18-nil-nil-erode-[subj-agent-you-sn1,aux-did-nil,def_prop(you,[umano])])
+lf(Dreams of Eric Lyrics.txt_17,156,cl19-nil-nil-say-[obj-theme_unaff-throat-sn1,and(throat,gullet,sn1),def_prop(throat,[body_part,oggetto,strumento,umano])])
+lf(Dreams of Eric Lyrics.txt_18,174,cl20-nil-nil-do-[subj-theme_unaff-you-sn1,aux-did-nil,def_prop(you,[umano])])

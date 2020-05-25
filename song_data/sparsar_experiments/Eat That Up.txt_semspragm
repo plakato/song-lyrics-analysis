@@ -1,0 +1,306 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Eat That Up.txt_1-1  []-positive  [neg]
+Eat That Up.txt_2-3  []-suspension  [fgb]
+Eat That Up.txt_2-4  []-negative  [neg]
+Eat That Up.txt_3-8  [if-hypoth]-positive  [fgb]
+Eat That Up.txt_3-8  [if-hypoth]-positive  [fgb,neg]
+Eat That Up.txt_4-13  [but-advers]-negative  [fgb,neg]
+Eat That Up.txt_5-18  [when-temp_coinc]-negative  []
+Eat That Up.txt_6-24  [so-result]-positive  [fgb,fgb]
+Eat That Up.txt_7-33  []-negative  []
+Eat That Up.txt_7-34  []-positive  []
+Eat That Up.txt_8-42  []-negative  [neg]
+Eat That Up.txt_8-43  []-positive  []
+Eat That Up.txt_8-44  []-positive  []
+Eat That Up.txt_9-53  []-positive  []
+Eat That Up.txt_9-54  []-positive  [fgb]
+Eat That Up.txt_10-64  []-negative  [neg]
+Eat That Up.txt_10-65  []-negative  [neg]
+Eat That Up.txt_11-75  []-positive  []
+Eat That Up.txt_11-76  []-positive  [fgb]
+Eat That Up.txt_12-89  []-negative  [neg]
+Eat That Up.txt_12-90  []-negative  [neg]
+Eat That Up.txt_13-102  []-positive  []
+Eat That Up.txt_13-103  []-positive  [fgb]
+Eat That Up.txt_14-118  []-positive  []
+Eat That Up.txt_15-135  []-positive  []
+Eat That Up.txt_16-152  [but-advers]-negative  [fgb]
+Eat That Up.txt_16-153  []-positive  []
+Eat That Up.txt_17-171  []-negative  [neg]
+Eat That Up.txt_18-189  [so-result]-positive  [fgb,fgb]
+Eat That Up.txt_19-210  []-negative  []
+Eat That Up.txt_19-211  []-positive  []
+Eat That Up.txt_20-231  []-negative  [neg]
+Eat That Up.txt_20-232  []-positive  []
+Eat That Up.txt_20-233  []-positive  []
+Eat That Up.txt_21-254  []-positive  []
+Eat That Up.txt_21-255  []-positive  [fgb]
+Eat That Up.txt_22-277  []-negative  [neg]
+Eat That Up.txt_22-278  []-negative  [neg]
+Eat That Up.txt_23-300  []-positive  []
+Eat That Up.txt_23-301  []-positive  [fgb]
+Eat That Up.txt_24-326  []-negative  [neg]
+Eat That Up.txt_24-327  []-negative  [neg]
+Eat That Up.txt_25-351  []-positive  []
+Eat That Up.txt_25-352  []-positive  [fgb]
+Eat That Up.txt_26-379  []-negative  [neg,neg]
+Eat That Up.txt_26-380  []-negative  [neg,neg]
+Eat That Up.txt_26-381  []-negative  [neg,neg]
+Eat That Up.txt_27-406  []-positive  []
+Eat That Up.txt_27-407  []-positive  [ack]
+Eat That Up.txt_28-435  []-positive  []
+Eat That Up.txt_28-436  []-positive  []
+Eat That Up.txt_29-466  []-positive  []
+Eat That Up.txt_30-497  []-negative  []
+Eat That Up.txt_30-498  []-negative  []
+Eat That Up.txt_30-499  []-negative  []
+Eat That Up.txt_31-528  [so-result]-suspension  [fgb,neg]
+Eat That Up.txt_31-529  []-positive  []
+Eat That Up.txt_31-530  []-positive  []
+Eat That Up.txt_32-562  []-negative  [neg,neg]
+Eat That Up.txt_32-563  []-positive  []
+Eat That Up.txt_33-597  []-positive  []
+Eat That Up.txt_33-598  []-positive  []
+Eat That Up.txt_34-632  []-negative  [neg,neg]
+Eat That Up.txt_34-633  []-negative  [neg,neg]
+Eat That Up.txt_34-634  []-negative  [neg,neg]
+Eat That Up.txt_35-667  []-positive  []
+Eat That Up.txt_35-668  []-positive  []
+Eat That Up.txt_36-704  []-positive  []
+Eat That Up.txt_36-705  []-positive  []
+Eat That Up.txt_37-743  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Eat That Up.txt_1-1  [eat,that,up,by,two,Door,Cinema,club]  [title]
+Eat That Up.txt_2-3  [well,you,would,look]  [provide_expl_just(look,[external,nonfactive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Eat That Up.txt_2-4  [a,little,better,don-t,you,know]  [reject_expl_just(look,[external,nonfactive,narration,background,objective]),reject_expl_just(don-t,[external,factive,narration,background,objective]),reject_expl_just(know,[external,factive,narration,background,objective])]
+Eat That Up.txt_3-8  [if,you,just,wore]  [proposal(be,[_909214,_909220,statement,foreground,_909238])]
+Eat That Up.txt_3-8  [if,you,just,wore,less,make-up]  [proposal(be,[_909564,_909570,statement,foreground,_909588])]
+Eat That Up.txt_4-13  [but,it,is,hard,to,realize]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_5-18  [when,you,are,sky,high,fighting,off,the,spaceships]  [provide_expl_just(sky,[external,factive,narration,foreground,objective])]
+Eat That Up.txt_6-24  [and,so,you,are,drinking,in,your,room,all,it,to,make,go]  [provide_expl_just(make,[external,factive,narration,background,objective]),proposal(be,[_910874,_910880,statement,foreground,_910898])]
+Eat That Up.txt_7-33  [it,didn-t,end,too_soon]  [provide_expl_just(didn-t,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Eat That Up.txt_7-34  [you,have,got,the,next,one]  [provide_expl_just(didn-t,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Eat That Up.txt_8-42  [you,are,holding,on,too,long]  [reject_expl_just(hold,[external,factive,narration,foreground,objective]),reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(go,[external,factive,narration,background,objective])]
+Eat That Up.txt_8-43  [,,you,have,gotta]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Eat That Up.txt_8-44  [let,go]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Eat That Up.txt_9-53  [your,other,love,is,gone]  [provide_expl_just(go-cl16,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Eat That Up.txt_9-54  [and,you,know]  [provide_expl_just(go-cl16,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Eat That Up.txt_10-64  [it,is,late,too]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_10-65  [,,it,is,late,too]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_11-75  [you,have,got,another]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+Eat That Up.txt_11-76  [one,coming,and,it,is,gonna,to,be,the,same]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+Eat That Up.txt_12-89  [it,is,late,too]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_12-90  [,,it,is,late,too]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_13-102  [you,have,got,another]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+Eat That Up.txt_13-103  [one,coming,and,it,is,gonna,to,be,the,same]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+Eat That Up.txt_14-118  [i,tried,to,find,a,quiet,place,that,we,could,go]  [provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,foreground,objective]),provide_expl_just(go,[external,nonfactive,narration,background,objective])]
+Eat That Up.txt_15-135  [to,help,you,make,decisions]  [provide_expl_just(help,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective])]
+Eat That Up.txt_16-152  [but,i,didn-t,find]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(easy,[external,factive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,background,objective])]
+Eat That Up.txt_16-153  [it,easy,to,tell,them,apart]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(easy,[external,factive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,background,objective])]
+Eat That Up.txt_17-171  [with,double,vision]  [reject_expl_just(double,[external,factive,narration,background,objective])]
+Eat That Up.txt_18-189  [and,so,you,are,drinking,in,your,room,all,it,to,make,go]  [provide_expl_just(make,[external,factive,narration,background,objective]),proposal(be,[_930964,_930970,statement,foreground,_930988])]
+Eat That Up.txt_19-210  [it,didn-t,end,too_soon]  [provide_expl_just(didn-t,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Eat That Up.txt_19-211  [you,have,got,the,next,one]  [provide_expl_just(didn-t,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Eat That Up.txt_20-231  [you,are,holding,on,too,long]  [reject_expl_just(hold,[external,factive,narration,foreground,objective]),reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(go,[external,factive,narration,background,objective])]
+Eat That Up.txt_20-232  [,,you,have,gotta]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Eat That Up.txt_20-233  [let,go]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Eat That Up.txt_21-254  [your,other,love,is,gone]  [provide_expl_just(go-cl42,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Eat That Up.txt_21-255  [and,you,know]  [provide_expl_just(go-cl42,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Eat That Up.txt_22-277  [it,is,late,too]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_22-278  [,,it,is,late,too]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_23-300  [you,have,got,another]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+Eat That Up.txt_23-301  [one,coming,and,it,is,gonna,to,be,the,same]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+Eat That Up.txt_24-326  [it,is,late,too]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_24-327  [,,it,is,late,too]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_25-351  [you,have,got,another]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+Eat That Up.txt_25-352  [one,coming,and,it,is,gonna,to,be,the,same]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+Eat That Up.txt_26-379  [it,is,not,the,same,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_26-380  [,,it,is,not,not,the,same]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_26-381  [,,it,is,not,not,the,same]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_27-406  [you,are,gonna,tell,me]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_27-407  [that,i,am,right,,]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_28-435  [you,know]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_28-436  [you,are,gonna,come,back,down]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_29-466  [yourself,where,you,are,again,.,find]  [provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_30-497  [you,didn-t,know]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Eat That Up.txt_30-498  [you,didn-t,know]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Eat That Up.txt_30-499  [you,didn-t,know]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Eat That Up.txt_31-528  [so,don-t,pretend]  [provide_expl_just(pretend,[external,factive,cause,foreground,objective]),provide_expl_just(see,[external,factive,narration,foreground,objective])]
+Eat That Up.txt_31-529  [you,saw]  [provide_expl_just(pretend,[external,factive,cause,foreground,objective]),provide_expl_just(see,[external,factive,narration,foreground,objective])]
+Eat That Up.txt_31-530  [it,now]  [provide_expl_just(pretend,[external,factive,cause,foreground,objective]),provide_expl_just(see,[external,factive,narration,foreground,objective])]
+Eat That Up.txt_32-562  [it,is,not,something,not]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(happen,[external,factive,narration,background,objective])]
+Eat That Up.txt_32-563  [you,had,want,to,happen]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(happen,[external,factive,narration,background,objective])]
+Eat That Up.txt_33-597  [now,you,know,who,you,are,again,.]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_33-598  [you,are,again]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_34-632  [it,is,not,the,same,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_34-633  [,,it,is,not,not,the,same]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_34-634  [,,it,is,not,not,the,same]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_35-667  [you,are,gonna,tell,me]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_35-668  [that,i,am]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_36-704  [you,know]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_36-705  [you,are,gonna,come,back,down]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Eat That Up.txt_37-743  [yourself,where,you,are,again,.,find]  [provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Eat That Up.txt_1-1)-[primary-orality]
+2-(Eat That Up.txt_2-3)-[primary-vision]
+3-(Eat That Up.txt_2-4)-[secondary-abstract_tought]
+4-(Eat That Up.txt_3-8)-[]
+5-(Eat That Up.txt_3-8)-[]
+6-(Eat That Up.txt_4-13)-[primary-hard]
+7-(Eat That Up.txt_5-18)-[secondary-temporal_repere,primary-height,primary-height,primary-concreteness]
+8-(Eat That Up.txt_6-24)-[secondary-instru_behavior]
+9-(Eat That Up.txt_7-33)-[]
+10-(Eat That Up.txt_7-34)-[]
+11-(Eat That Up.txt_8-42)-[primary-concreteness]
+12-(Eat That Up.txt_8-43)-[]
+13-(Eat That Up.txt_8-44)-[]
+14-(Eat That Up.txt_9-53)-[emotions-affection]
+15-(Eat That Up.txt_9-54)-[secondary-abstract_tought]
+16-(Eat That Up.txt_10-64)-[]
+17-(Eat That Up.txt_10-65)-[]
+18-(Eat That Up.txt_11-75)-[]
+19-(Eat That Up.txt_11-76)-[]
+20-(Eat That Up.txt_12-89)-[]
+21-(Eat That Up.txt_12-90)-[]
+22-(Eat That Up.txt_13-102)-[]
+23-(Eat That Up.txt_13-103)-[]
+24-(Eat That Up.txt_14-118)-[secondary-instru_behavior,secondary-instru_behavior,primary-passivity,primary-concreteness]
+25-(Eat That Up.txt_15-135)-[secondary-social_behavior,secondary-instru_behavior]
+26-(Eat That Up.txt_16-152)-[secondary-instru_behavior]
+27-(Eat That Up.txt_16-153)-[secondary-social_behavior,secondary-abstract_tought,primary-concreteness]
+28-(Eat That Up.txt_17-171)-[primary-vision]
+29-(Eat That Up.txt_18-189)-[secondary-instru_behavior]
+30-(Eat That Up.txt_19-210)-[]
+31-(Eat That Up.txt_19-211)-[]
+32-(Eat That Up.txt_20-231)-[primary-concreteness]
+33-(Eat That Up.txt_20-232)-[]
+34-(Eat That Up.txt_20-233)-[]
+35-(Eat That Up.txt_21-254)-[emotions-affection]
+half
+36-(Eat That Up.txt_21-255)-[secondary-abstract_tought]
+37-(Eat That Up.txt_22-277)-[]
+38-(Eat That Up.txt_22-278)-[]
+39-(Eat That Up.txt_23-300)-[]
+40-(Eat That Up.txt_23-301)-[]
+41-(Eat That Up.txt_24-326)-[]
+42-(Eat That Up.txt_24-327)-[]
+43-(Eat That Up.txt_25-351)-[]
+44-(Eat That Up.txt_25-352)-[]
+45-(Eat That Up.txt_26-379)-[]
+46-(Eat That Up.txt_26-380)-[]
+47-(Eat That Up.txt_26-381)-[]
+48-(Eat That Up.txt_27-406)-[secondary-social_behavior]
+49-(Eat That Up.txt_27-407)-[secondary-moral_imperative]
+50-(Eat That Up.txt_28-435)-[secondary-abstract_tought]
+51-(Eat That Up.txt_28-436)-[primary-concreteness]
+52-(Eat That Up.txt_29-466)-[primary-concreteness,secondary-temporal_repere,secondary-instru_behavior]
+53-(Eat That Up.txt_30-497)-[secondary-abstract_tought]
+54-(Eat That Up.txt_30-498)-[secondary-abstract_tought]
+55-(Eat That Up.txt_30-499)-[secondary-abstract_tought]
+56-(Eat That Up.txt_31-528)-[]
+57-(Eat That Up.txt_31-529)-[primary-vision]
+58-(Eat That Up.txt_31-530)-[secondary-temporal_repere]
+59-(Eat That Up.txt_32-562)-[]
+60-(Eat That Up.txt_32-563)-[]
+61-(Eat That Up.txt_33-597)-[secondary-temporal_repere,secondary-abstract_tought,secondary-temporal_repere]
+62-(Eat That Up.txt_33-598)-[secondary-temporal_repere]
+63-(Eat That Up.txt_34-632)-[]
+64-(Eat That Up.txt_34-633)-[]
+65-(Eat That Up.txt_34-634)-[]
+66-(Eat That Up.txt_35-667)-[secondary-social_behavior]
+67-(Eat That Up.txt_35-668)-[]
+68-(Eat That Up.txt_36-704)-[secondary-abstract_tought]
+69-(Eat That Up.txt_36-705)-[primary-concreteness]
+70-(Eat That Up.txt_37-743)-[primary-concreteness,secondary-temporal_repere,secondary-instru_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Eat That Up.txt_1,1,cl1-nil-nil-eat-[xadj-adj-that-adj1,adj-(mod)-up-nil,arg_mod-agent-Door-sn2,subj-agent-club-sn1,and(Door,two,sn2),and(club,cinema,sn1),def_prop(that,_984102),def_prop(Door,[place,umano]),def_prop(club,[istituzione,oggetto,strumento])])
+lf(Eat That Up.txt_2,3,cl4-nil-nil-know-[subj-actor-pro-nil,subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Eat That Up.txt_2,3,cl3-not-nil-don-t-[subj-agent-better-sn4,and(better,little,sn4),def_prop(better,[astratto])])
+lf(Eat That Up.txt_2,3,cl2-nil-would-look-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Eat That Up.txt_3,8,nil-nil-nil-make-up-[adj-(mod)-just-nil,obj-theme_unaff-less-sn4,xcomp-purpose-wear-2,subj-agent-you-sn3,def_prop(just,[informa,tecno]),def_prop(less,[astratto,informa,oggetto]),def_prop(you,[umano])])
+lf(Eat That Up.txt_3,8,cl5-nil-nil-wear-[cmod-subord-wear-if,adj-subj_disc-just-sn2,subj-experiencer-you-sn1,def_prop(just,[informa,tecno]),def_prop(you,[umano])])
+lf(Eat That Up.txt_4,13,cl6-nil-nil-be-[xcomp-prop-hard-sn2,subj-theme_bound-it-sn1,def_prop(hard,[istituzione]),def_prop(it,[any])])
+lf(Eat That Up.txt_5,18,cl7-nil-nil-sky-[xadj-adj-fighting-adj2,ncmod-locativo-spaceship-sn4,xcomp-prop-high-sn3,obj-theme-when-sn2,subj-actor-you-sn1,aux-are-nil,def_prop(fighting,_985022),def_prop(spaceship,[oggetto,strumento]),def_prop(high,[misura]),def_prop(when,[tempo]),def_prop(you,[umano])])
+lf(Eat That Up.txt_6,24,cl10-nil-nil-go-[])
+lf(Eat That Up.txt_6,24,cl9-nil-nil-make-[cmod-subord-go-",cmod-subord-go-so])
+lf(Eat That Up.txt_6,24,cl8-nil-nil-drink-[obj-theme-it-sn3,ncmod-locativo-room-sn2,subj-agent-you-sn1,aux-are-nil,progr-drinking-nil,and(it,all,sn3),def_prop(it,[any]),def_prop(room,[nquant,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Eat That Up.txt_7,33,cl12-nil-nil-get-[obj-theme_unaff-one-sn5,subj-agent-you-sn4,aux-have-nil,and(one,next,sn5),def_prop(one,[umano]),def_prop(you,[umano])])
+lf(Eat That Up.txt_7,33,cl11-not-nil-didn-t-[xcomp-theme_aff-too_soon-sn2,subj-agent-it-sn1,def_prop(too_soon,[istituzione]),def_prop(it,[any])])
+lf(Eat That Up.txt_8,42,cl15-nil-nil-go-[subj-agent-you-sn4,xadj-adj-long-adj3,ncmod-locativo-too-sn2,def_prop(you,[umano]),def_prop(long,_985824),def_prop(too,[istituzione])])
+lf(Eat That Up.txt_8,42,cl14-nil-nil-have-[subj-experiencer-you-sn3,def_prop(you,[umano])])
+lf(Eat That Up.txt_8,42,cl13-nil-nil-hold-[subj-agent-you-sn1,aux-are-nil,progr-holding-nil,def_prop(you,[umano])])
+lf(Eat That Up.txt_9,53,cl17-nil-nil-know-[cmod-subord-know-",subj-actor-you-sn3,adj-(mod)-go-nil,ncmod-modal-other-sn2,def_prop(you,[umano]),def_prop(other,[umano])])
+lf(Eat That Up.txt_9,53,cl16-nil-nil-go-[subj-actor-you-sn1,aux-(is)-nil,def_prop(you,[umano])])
+lf(Eat That Up.txt_10,64,cl18-nil-nil-be-[xcomp-prop-late-sn6,subj-theme_bound-it-sn5,xcomp-prop-late-sn2,subj-theme_bound-it-sn1,def_prop(late,[evaluative]),def_prop(it,[any]),def_prop(late,[evaluative]),def_prop(it,[any])])
+lf(Eat That Up.txt_11,75,cl21-nil-nil-be-[expl-it-nil,subj-theme_bound-it-sn4,def_prop(it,[any])])
+lf(Eat That Up.txt_11,75,cl20-nil-nil-come-[cmod-coord-be-and,obj-prop-same-sn5,xcomp-purpose-be-cl21,subj-agent-one-sn3,def_prop(same,[deittico]),def_prop(one,[umano])])
+lf(Eat That Up.txt_11,75,cl19-nil-nil-get-[xcomp-prop-another-sn2,subj-theme_bound-you-sn1,aux-have-nil,def_prop(another,[evaluative]),def_prop(you,[umano])])
+lf(Eat That Up.txt_12,89,cl22-nil-nil-be-[xcomp-prop-late-sn6,subj-theme_bound-it-sn5,xcomp-prop-late-sn2,subj-theme_bound-it-sn1,def_prop(late,[evaluative]),def_prop(it,[any]),def_prop(late,[evaluative]),def_prop(it,[any])])
+lf(Eat That Up.txt_13,102,cl25-nil-nil-be-[expl-it-nil,subj-theme_bound-it-sn4,def_prop(it,[any])])
+lf(Eat That Up.txt_13,102,cl24-nil-nil-come-[cmod-coord-be-and,obj-prop-same-sn5,xcomp-purpose-be-cl25,subj-agent-one-sn3,def_prop(same,[deittico]),def_prop(one,[umano])])
+lf(Eat That Up.txt_13,102,cl23-nil-nil-get-[xcomp-prop-another-sn2,subj-theme_bound-you-sn1,aux-have-nil,def_prop(another,[evaluative]),def_prop(you,[umano])])
+lf(Eat That Up.txt_14,118,cl28-nil-could-go-[subj-agent-you-sn4,def_prop(you,[umano])])
+lf(Eat That Up.txt_14,118,cl27-nil-nil-find-[obj-prop-place-sn2,xcomp-purpose-find-2,and(place,that,sn2),def_prop(place,[astratto,attivita,informa,luogo,stato])])
+lf(Eat That Up.txt_14,118,cl26-nil-nil-try-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Eat That Up.txt_15,135,cl30-nil-nil-make-[obj-theme_unaff-decision-sn2,xadj-result-help-2,subj-agent-you-sn1,def_prop(decision,[astratto,attivita,evento]),def_prop(you,[umano])])
+lf(Eat That Up.txt_15,135,cl29-nil-nil-help-[])
+lf(Eat That Up.txt_16,152,cl32-nil-nil-tell-[])
+lf(Eat That Up.txt_16,152,nil-nil-nil-easy-[obj-paziente-them-sn3,xcomp-purpose-tell-cl32,subj-agent-it-sn2,def_prop(them,[umano]),def_prop(it,[any])])
+lf(Eat That Up.txt_16,152,cl31-not-nil-find-[subj-actor-you-sn1,aux-did-nil,def_prop(you,[umano])])
+lf(Eat That Up.txt_17,171,cl33-nil-nil-double-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Eat That Up.txt_18,189,cl36-nil-nil-go-[])
+lf(Eat That Up.txt_18,189,cl35-nil-nil-make-[cmod-subord-go-",cmod-subord-go-so])
+lf(Eat That Up.txt_18,189,cl34-nil-nil-drink-[obj-theme-it-sn3,ncmod-locativo-room-sn2,subj-agent-you-sn1,aux-are-nil,progr-drinking-nil,and(it,all,sn3),def_prop(it,[any]),def_prop(room,[nquant,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Eat That Up.txt_19,210,cl38-nil-nil-get-[obj-theme_unaff-one-sn5,subj-agent-you-sn4,aux-have-nil,and(one,next,sn5),def_prop(one,[umano]),def_prop(you,[umano])])
+lf(Eat That Up.txt_19,210,cl37-not-nil-didn-t-[xcomp-theme_aff-too_soon-sn2,subj-agent-it-sn1,def_prop(too_soon,[istituzione]),def_prop(it,[any])])
+lf(Eat That Up.txt_20,231,cl41-nil-nil-go-[subj-agent-you-sn4,xadj-adj-long-adj4,ncmod-locativo-too-sn2,def_prop(you,[umano]),def_prop(long,_988956),def_prop(too,[istituzione])])
+lf(Eat That Up.txt_20,231,cl40-nil-nil-have-[subj-experiencer-you-sn3,def_prop(you,[umano])])
+lf(Eat That Up.txt_20,231,cl39-nil-nil-hold-[subj-agent-you-sn1,aux-are-nil,progr-holding-nil,def_prop(you,[umano])])
+lf(Eat That Up.txt_21,254,cl43-nil-nil-know-[cmod-subord-know-",subj-actor-you-sn3,adj-(mod)-go-nil,ncmod-modal-other-sn2,def_prop(you,[umano]),def_prop(other,[umano])])
+lf(Eat That Up.txt_21,254,cl42-nil-nil-go-[subj-actor-you-sn1,aux-(is)-nil,def_prop(you,[umano])])
+lf(Eat That Up.txt_22,277,cl44-nil-nil-be-[xcomp-prop-late-sn6,subj-theme_bound-it-sn5,xcomp-prop-late-sn2,subj-theme_bound-it-sn1,def_prop(late,[evaluative]),def_prop(it,[any]),def_prop(late,[evaluative]),def_prop(it,[any])])
+lf(Eat That Up.txt_23,300,cl47-nil-nil-be-[expl-it-nil,subj-theme_bound-it-sn4,def_prop(it,[any])])
+lf(Eat That Up.txt_23,300,cl46-nil-nil-come-[cmod-coord-be-and,obj-prop-same-sn5,xcomp-purpose-be-cl47,subj-agent-one-sn3,def_prop(same,[deittico]),def_prop(one,[umano])])
+lf(Eat That Up.txt_23,300,cl45-nil-nil-get-[xcomp-prop-another-sn2,subj-theme_bound-you-sn1,aux-have-nil,def_prop(another,[evaluative]),def_prop(you,[umano])])
+lf(Eat That Up.txt_24,326,cl48-nil-nil-be-[xcomp-prop-late-sn6,subj-theme_bound-it-sn5,xcomp-prop-late-sn2,subj-theme_bound-it-sn1,def_prop(late,[evaluative]),def_prop(it,[any]),def_prop(late,[evaluative]),def_prop(it,[any])])
+lf(Eat That Up.txt_25,351,cl51-nil-nil-be-[expl-it-nil,subj-theme_bound-it-sn4,def_prop(it,[any])])
+lf(Eat That Up.txt_25,351,cl50-nil-nil-come-[cmod-coord-be-and,obj-prop-same-sn5,xcomp-purpose-be-cl51,subj-agent-one-sn3,def_prop(same,[deittico]),def_prop(one,[umano])])
+lf(Eat That Up.txt_25,351,cl49-nil-nil-get-[xcomp-prop-another-sn2,subj-theme_bound-you-sn1,aux-have-nil,def_prop(another,[evaluative]),def_prop(you,[umano])])
+lf(Eat That Up.txt_26,379,cl52-not-nil-be-[xcomp-prop-same-sn6,subj-theme_bound-it-sn5,xcomp-prop-same-sn4,subj-theme_bound-it-sn3,xcomp-prop-same-sn2,subj-theme_bound-it-sn1,def_prop(same,[deittico]),def_prop(it,[any]),def_prop(same,[deittico]),def_prop(it,[any]),def_prop(same,[deittico]),def_prop(it,[any])])
+lf(Eat That Up.txt_27,406,cl54-nil-nil-tell-[obj-paziente-me-sn2,xcomp-purpose-tell-2,def_prop(me,[umano])])
+lf(Eat That Up.txt_27,406,cl53-nil-nil-be-[subj-theme_bound-i-sn3,subj-theme_bound-you-sn1,def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Eat That Up.txt_28,435,cl57-nil-nil-come-[])
+lf(Eat That Up.txt_28,435,cl56-nil-nil-be-[adj-(mod)-back-nil,xcomp-prop-down-sn3,xcomp-purpose-come-2,subj-theme_bound-you-sn2,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Eat That Up.txt_28,435,cl55-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Eat That Up.txt_29,466,cl59-nil-nil-be-[])
+lf(Eat That Up.txt_29,466,cl58-nil-nil-find-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Eat That Up.txt_30,497,cl60-not-nil-know-[subj-actor-you-sn3,subj-actor-you-sn2,subj-actor-you-sn1,aux-did-nil,def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Eat That Up.txt_31,528,cl63-nil-nil-be-[subj-theme_bound-it-sn3,def_prop(it,[any])])
+lf(Eat That Up.txt_31,528,cl62-nil-nil-see-[subj-experiencer-you-sn2,def_prop(you,[umano])])
+lf(Eat That Up.txt_31,528,cl61-not-nil-pretend-[subj-agent-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Eat That Up.txt_32,562,cl66-nil-nil-happen-[subj-prop-you-sn3,def_prop(you,[umano])])
+lf(Eat That Up.txt_32,562,cl65-nil-nil-want-[subj-actor-you-sn3,aux-had-nil,def_prop(you,[umano])])
+lf(Eat That Up.txt_32,562,cl64-not-nil-be-[xcomp-prop-something-sn2,subj-theme_bound-it-sn1,def_prop(something,[astratto,informa,oggetto]),def_prop(it,[any])])
+lf(Eat That Up.txt_33,597,cl68-nil-nil-be-[adj-(mod)-again-nil,subj-theme_bound-you-sn5,def_prop(again,[istituzione]),def_prop(you,[umano])])
+lf(Eat That Up.txt_33,597,cl67-nil-nil-know-[adj-(mod)-now-nil,subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Eat That Up.txt_34,632,cl69-not-nil-be-[xcomp-prop-same-sn6,subj-theme_bound-it-sn5,xcomp-prop-same-sn4,subj-theme_bound-it-sn3,xcomp-prop-same-sn2,subj-theme_bound-it-sn1,def_prop(same,[deittico]),def_prop(it,[any]),def_prop(same,[deittico]),def_prop(it,[any]),def_prop(same,[deittico]),def_prop(it,[any])])
+lf(Eat That Up.txt_35,667,cl71-nil-nil-tell-[obj-paziente-me-sn2,xcomp-purpose-tell-2,def_prop(me,[umano])])
+lf(Eat That Up.txt_35,667,cl70-nil-nil-be-[subj-theme_bound-i-sn3,subj-theme_bound-you-sn1,def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Eat That Up.txt_36,704,cl74-nil-nil-come-[])
+lf(Eat That Up.txt_36,704,cl73-nil-nil-be-[adj-(mod)-back-nil,xcomp-prop-down-sn3,xcomp-purpose-come-2,subj-theme_bound-you-sn2,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Eat That Up.txt_36,704,cl72-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Eat That Up.txt_37,743,cl76-nil-nil-be-[])
+lf(Eat That Up.txt_37,743,cl75-nil-nil-find-[subj-actor-you-sn1,def_prop(you,[umano])])

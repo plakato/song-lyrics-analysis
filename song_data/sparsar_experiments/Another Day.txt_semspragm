@@ -1,0 +1,150 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Another Day.txt_1-1  []-positive  []
+Another Day.txt_2-3  []-positive  []
+Another Day.txt_3-6  []-positive  [fgb]
+Another Day.txt_4-10  []-negative  []
+Another Day.txt_4-11  []-positive  []
+Another Day.txt_5-16  []-suspension  [neg,fgb,neg]
+Another Day.txt_6-22  []-negative  [neg]
+Another Day.txt_7-30  []-negative  [neg,neg]
+Another Day.txt_8-38  []-positive  []
+Another Day.txt_8-39  []-positive  []
+Another Day.txt_9-48  []-positive  [neg]
+Another Day.txt_10-59  []-suspension  [fgb]
+Another Day.txt_12-82  [when-temp_coinc]-positive  []
+Another Day.txt_13-95  []-suspension  [fgb]
+Another Day.txt_14-110  []-negative  [neg]
+Another Day.txt_15-126  []-positive  []
+Another Day.txt_16-142  []-negative  [neg]
+Another Day.txt_17-159  []-suspension  []
+Another Day.txt_18-177  [but-advers]-positive  [fgb]
+Another Day.txt_18-178  []-positive  []
+Another Day.txt_19-196  []-negative  [neg,neg,neg]
+Another Day.txt_20-216  [but-advers,when-temp_coinc]-positive  [fgb]
+Another Day.txt_21-237  []-positive  [fgb]
+Another Day.txt_22-259  [when-temp_coinc]-suspension  []
+Another Day.txt_23-283  []-suspension  [fgb]
+Another Day.txt_24-308  []-negative  [neg]
+Another Day.txt_25-334  []-positive  [fgb]
+Another Day.txt_25-335  []-positive  []
+Another Day.txt_26-361  []-positive  [fgb]
+Another Day.txt_27-388  []-negative  [neg]
+Another Day.txt_28-417  []-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Another Day.txt_1-1  [another,Day,by,Volbeat]  [title]
+Another Day.txt_2-3  [jumping,on,the,next,train]  [provide_expl_just(jump,[external,factive,narration,foreground,objective])]
+Another Day.txt_3-6  [and,for,a,moment]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Another Day.txt_4-10  [i,just,don-t,know,where,i,am,.]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_83714)]
+Another Day.txt_4-11  [i,am]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_83800)]
+Another Day.txt_5-16  [sick,and,tired,of,seeing,good,people]  [provide_expl_just(see,[external,factive,narration,foreground,objective])]
+Another Day.txt_6-22  [bending,over,for,the,system,that,i,hate]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(hate,[external,factive,narration,background,objective])]
+Another Day.txt_7-30  [never,meant,to,break,your,heart]  [reject_expl_just(be,[_84038,_84044,_84050,_84056,_84062])]
+Another Day.txt_8-38  [but_for,a,moment,i,just,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+Another Day.txt_8-39  [i,have]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+Another Day.txt_9-48  [give,me,time,to,cope,my,mind]  [provide_expl_just(give,[external,factive,narration,background,objective])]
+Another Day.txt_10-59  [and,finding,faults,for,the,reason]  [provide_expl_just(find,[external,factive,narration,foreground,objective])]
+Another Day.txt_12-82  [most,leave,when,i,am,going,strong]  [provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+Another Day.txt_13-95  [lead,me,away,and,i,shall,call,love,on,you]  [provide_expl_just(call,[external,nonfactive,narration,background,objective])]
+Another Day.txt_14-110  [leave,me,the,way,that,i,still,burn,over,you,.]  [reject_expl_just(leave,[external,factive,narration,background,objective]),reject_expl_just(burn,[external,factive,narration,background,objective])]
+Another Day.txt_15-126  [i,have,been,aware]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Another Day.txt_16-142  [sitting,here,in,county,jail]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Another Day.txt_17-159  [i,should,have,been,with,you]  [provide_expl_just(you,[internal,factive,narration,background,objective])]
+Another Day.txt_18-177  [but,that,is,just]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Another Day.txt_18-178  [how,i,am]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Another Day.txt_19-196  [is,not,no_one,to,go,my,bail]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Another Day.txt_20-216  [but,at_least,i,know,just,when]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Another Day.txt_21-237  [and,how,i,leave]  [provide_expl_just(leave,[external,factive,narration,background,objective])]
+Another Day.txt_22-259  [must,leave,when,i,am,going,strong]  [provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+Another Day.txt_23-283  [lead,me,away,and,i,shall,call,love,on,you]  [provide_expl_just(call,[external,nonfactive,narration,background,objective])]
+Another Day.txt_24-308  [leave,me,the,way,that,i,still,burn,over,you,.]  [reject_expl_just(leave,[external,factive,narration,background,objective]),reject_expl_just(burn,[external,factive,narration,background,objective])]
+Another Day.txt_25-334  [well,i,have,been,waiting]  [provide_expl_just(wait,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Another Day.txt_25-335  [for,years]  [provide_expl_just(wait,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Another Day.txt_26-361  [and,i,still,call,love,on,you]  [provide_expl_just(call,[external,factive,narration,background,objective])]
+Another Day.txt_27-388  [leave,me,the,way,that,i,still,burn,over,you,.]  [reject_expl_just(leave,[external,factive,narration,background,objective]),reject_expl_just(burn,[external,factive,narration,background,objective])]
+Another Day.txt_28-417  [well,i,have,been,aware]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Another Day.txt_1-1)-[]
+2-(Another Day.txt_2-3)-[]
+3-(Another Day.txt_3-6)-[secondary-temporal_repere]
+4-(Another Day.txt_4-10)-[secondary-abstract_tought,primary-concreteness]
+5-(Another Day.txt_4-11)-[]
+6-(Another Day.txt_5-16)-[primary-vision]
+7-(Another Day.txt_6-22)-[primary-concreteness,secondary-order,emotions-aggression]
+8-(Another Day.txt_7-30)-[secondary-abstract_tought,emotions-aggression,primary-narcissism]
+9-(Another Day.txt_8-38)-[secondary-temporal_repere,secondary-abstract_tought]
+10-(Another Day.txt_8-39)-[]
+11-(Another Day.txt_9-48)-[secondary-temporal_repere]
+12-(Another Day.txt_10-59)-[secondary-abstract_tought]
+13-(Another Day.txt_12-82)-[secondary-temporal_repere]
+14-(Another Day.txt_13-95)-[primary-concreteness,secondary-social_behavior,emotions-affection]
+15-(Another Day.txt_14-110)-[primary-fire,primary-concreteness]
+half
+16-(Another Day.txt_15-126)-[primary-gen_sensation]
+17-(Another Day.txt_16-142)-[primary-concreteness,secondary-instru_behavior,secondary-restraint]
+18-(Another Day.txt_17-159)-[secondary-moral_imperative]
+19-(Another Day.txt_18-177)-[]
+20-(Another Day.txt_18-178)-[]
+21-(Another Day.txt_19-196)-[]
+22-(Another Day.txt_20-216)-[secondary-abstract_tought,secondary-temporal_repere]
+23-(Another Day.txt_21-237)-[]
+24-(Another Day.txt_22-259)-[secondary-restraint,secondary-temporal_repere]
+25-(Another Day.txt_23-283)-[primary-concreteness,secondary-social_behavior,emotions-affection]
+26-(Another Day.txt_24-308)-[primary-fire,primary-concreteness]
+27-(Another Day.txt_25-334)-[]
+28-(Another Day.txt_25-335)-[secondary-temporal_repere]
+29-(Another Day.txt_26-361)-[secondary-social_behavior,emotions-affection]
+30-(Another Day.txt_27-388)-[primary-fire,primary-concreteness]
+31-(Another Day.txt_28-417)-[primary-gen_sensation]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Another Day.txt_1,1,cl1-nil-nil-be-[adj-(mod)-Day-nil,arg_mod-agent-Volbeat-sn1,and(Day,another,sn2),def_prop(Day,[tempo]),def_prop(Volbeat,[istituzione,umano])])
+lf(Another Day.txt_2,3,cl2-nil-nil-jump-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Another Day.txt_3,6,cl3-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Another Day.txt_4,10,cl5-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Another Day.txt_4,10,cl4-not-nil-know-[subj-actor-i-sn1,aux-do-nil,def_prop(i,[umano])])
+lf(Another Day.txt_5,16,cl6-nil-nil-see-[subj-agent-people-sn1,and(people,good,sn1),def_prop(people,[istituzione])])
+lf(Another Day.txt_6,22,cl8-nil-nil-hate-[xadj-adj-bending-adj1,cmod-subord-be-nil,obj-theme-system-sn1,def_prop(bending,_98660),def_prop(system,[astratto,body_part,oggetto,sostanza,strumento,umano])])
+lf(Another Day.txt_6,22,cl7-nil-nil-be-[adj-(mod)-over-nil,subj-theme_bound-system-sn1,def_prop(system,[astratto,body_part,oggetto,sostanza,strumento,umano])])
+lf(Another Day.txt_7,30,cl9-nil-nil-break-[adj-locative-never-nil,subj-agent-hear-sn1,def_prop(hear,[istituzione])])
+lf(Another Day.txt_8,38,cl11-nil-nil-have-[subj-experiencer-you-sn4,def_prop(you,[umano])])
+lf(Another Day.txt_8,38,cl10-nil-nil-know-[adj-(mod)-just-nil,ncmod-eccettuativo-moment-sn2,subj-actor-i-sn1,def_prop(moment,[astratto,attivita,cambia,tempo]),def_prop(i,[umano])])
+lf(Another Day.txt_9,48,cl13-nil-nil-cope-[ncmod-modal-time-sn5,obj-theme-mind-sn3,xcomp-purpose-cope-2,def_prop(time,[tempo]),def_prop(mind,[astratto])])
+lf(Another Day.txt_9,48,cl12-nil-nil-give-[adj-temporal-time-nil,obj-goal-me-sn2,subj-actor-you-sn1,def_prop(time,[tempo]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Another Day.txt_10,59,cl14-nil-nil-find-[cmod-subord-find-",obj-theme_bound-fault-sn2,subj-actor-reason-sn1,def_prop(fault,[astratto,attivita,evento,oggetto]),def_prop(reason,[astratto,attivita,informa])])
+lf(Another Day.txt_11,70,cl15-nil-nil-be-[ncmod-locativo-why-sn1,def_prop(why,[astratto])])
+lf(Another Day.txt_12,82,cl16-nil-nil-go-[cmod-subord-go-when,xcomp-prop-strong-sn4,subj-agent-i-sn3,aux-am-nil,progr-going-nil,def_prop(strong,[valutativo]),def_prop(i,[umano])])
+lf(Another Day.txt_13,95,cl18-nil-shall-call-[cmod-coord-call-and,xcomp-agent-love-sn8,subj-agent-you-sn7,xcomp-prop-love-sn5,subj-agent-i-sn4,def_prop(love,[astratto,emotivo,nquant]),def_prop(you,[umano]),def_prop(love,[astratto,emotivo,nquant]),def_prop(i,[umano])])
+lf(Another Day.txt_13,95,cl17-nil-nil-lead-[xcomp-prop-away-sn3,obj-theme_unaff-me-sn2,subj-agent-you-sn1,def_prop(away,[evaluative]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Another Day.txt_14,110,cl20-nil-nil-burn-[obj-theme-way-sn3,def_prop(way,[astratto,attivita,oggetto,stato,strumento])])
+lf(Another Day.txt_14,110,cl19-nil-nil-leave-[obj2-paziente-way-sn3,obj-theme-me-sn2,subj-theme-you-sn1,def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Another Day.txt_15,126,cl21-nil-nil-be-[xcomp-prop-aware-sn2,subj-theme_bound-i-sn1,def_prop(aware,[stato]),def_prop(i,[umano])])
+lf(Another Day.txt_16,142,cl22-nil-nil-be-[xadj-adj-sitting-adj2,adj-(mod)-here-nil,ncmod-locativo-jail-sn1,and(jail,county,sn1),def_prop(sitting,_100738),def_prop(jail,[oggetto,strumento])])
+lf(Another Day.txt_17,159,cl23-nil-should-be-[ncmod-comitativo-you-sn2,subj-theme_bound-i-sn1,def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Another Day.txt_18,177,cl24-nil-nil-be-[xcomp-theme-how-sn3,subj-theme_bound-i-sn2,xcomp-prop-just-sn1,def_prop(how,[manner]),def_prop(i,[umano]),def_prop(just,[informa,tecno])])
+lf(Another Day.txt_19,196,cl25-not-nil-be-[xcomp-prop-bail-sn2,xcomp-purpose-go-2,subj-theme_bound-no_one-sn1,def_prop(bail,[astratto,oggetto]),def_prop(no_one,[umano])])
+lf(Another Day.txt_20,216,cl26-nil-nil-know-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Another Day.txt_21,237,cl27-nil-nil-leave-[cmod-subord-leave-",obj-theme-how-sn2,subj-theme-i-sn1,def_prop(how,[manner]),def_prop(i,[umano])])
+lf(Another Day.txt_22,259,cl29-nil-nil-go-[cmod-subord-go-when,xcomp-agent-strong-sn5,subj-agent-you-sn4,xcomp-prop-strong-sn3,subj-agent-i-sn2,aux-am-nil,progr-going-nil,def_prop(strong,[valutativo]),def_prop(you,[umano]),def_prop(strong,[valutativo]),def_prop(i,[umano])])
+lf(Another Day.txt_22,259,cl28-nil-must-leave-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(Another Day.txt_23,283,cl31-nil-shall-call-[cmod-coord-call-and,xcomp-agent-love-sn8,subj-agent-you-sn7,xcomp-prop-love-sn5,subj-agent-i-sn4,def_prop(love,[astratto,emotivo,nquant]),def_prop(you,[umano]),def_prop(love,[astratto,emotivo,nquant]),def_prop(i,[umano])])
+lf(Another Day.txt_23,283,cl30-nil-nil-lead-[xcomp-prop-away-sn3,obj-theme_unaff-me-sn2,subj-agent-you-sn1,def_prop(away,[evaluative]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Another Day.txt_24,308,cl33-nil-nil-burn-[obj-theme-way-sn3,def_prop(way,[astratto,attivita,oggetto,stato,strumento])])
+lf(Another Day.txt_24,308,cl32-nil-nil-leave-[obj2-paziente-way-sn3,obj-theme-me-sn2,subj-theme-you-sn1,def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Another Day.txt_25,334,cl35-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Another Day.txt_25,334,cl34-nil-nil-wait-[subj-actor-i-sn1,aux-been-nil,aux-have-nil,def_prop(i,[umano])])
+lf(Another Day.txt_26,361,cl36-nil-nil-call-[cmod-subord-call-",adj-(mod)-still-nil,obj-theme_bound-love-sn2,subj-agent-i-sn1,def_prop(love,[astratto,emotivo,nquant]),def_prop(i,[umano])])
+lf(Another Day.txt_27,388,cl38-nil-nil-burn-[obj-theme-way-sn3,def_prop(way,[astratto,attivita,oggetto,stato,strumento])])
+lf(Another Day.txt_27,388,cl37-nil-nil-leave-[obj2-paziente-way-sn3,obj-theme-me-sn2,subj-theme-you-sn1,def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Another Day.txt_28,417,cl39-nil-nil-be-[xcomp-prop-aware-sn2,subj-theme_bound-i-sn1,def_prop(aware,[stato]),def_prop(i,[umano])])

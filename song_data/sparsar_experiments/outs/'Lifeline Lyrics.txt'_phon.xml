@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Poem_Level title="Lifeline Lyrics.txt" author="poems">
+<Stanza_levels>
+<Stanza_level no="0">
+<Stats_Stanza  
+	line_durations_msec="[1244.27,1344,1760]"
+	total_syllable_length_msec="4348.27"
+	mean_line_length_val="1449.4233333333334"
+	standard_deviation_val="273.5505760062174"
+	skewness_val="0.4922236815838156"
+	kurtosis_val="-2.0">
+</Stats_Stanza>
+<Metrical_Scheme_Stanza>
+<Line_verse no="0"
+	number_of_feet_no="2"	line_syllables="[one/[hh_w_ah_n],chance/[ch_ae_n_s],with/[w_ah_dh],you/[y_uw]]"
+	total_syllable_length_no="4"
+	rhetorical_devices="[1-[]]"
+	metrical_structure_val="[1,0,1,0]"></Line_verse>
+<Line_verse no="1"
+	number_of_feet_no="5"	line_syllables="[all/[ao_l],you/[y_uw],have/[hh_ae_v],to/[t_uw],do/[d_uw],(is)/[ih_z],call/[k_ao_l],my/[m_ay],name/[n_ey_m]]"
+	total_syllable_length_no="9"
+	rhetorical_devices="[2-[]]"
+	metrical_structure_val="[1,0,1,0,1,0,1,0,1]"></Line_verse>
+<Line_verse no="2"
+	number_of_feet_no="5"	line_syllables="[when/[w_eh_n],my/[m_ay],light/[l_ay_t],goes/[g_ow_z],out/[aw_t],(is)/[ih_z],when/[w_eh_n],I/[ay],need/[n_iy_d],you/[y_uw],most/[m_ow_s_t]]"
+	total_syllable_length_no="11"
+	rhetorical_devices="[3-[]]"
+	metrical_structure_val="[0,0,1,1,0,1,0,0,1,0,1]"></Line_verse>
+</Metrical_Scheme_Stanza>
+</Stanza_level>
+<Stanza_level no="1">
+<Stats_Stanza  
+	line_durations_msec="[976,1463.21,1950.42]"
+	total_syllable_length_msec="4389.63"
+	mean_line_length_val="1463.21"
+	standard_deviation_val="487.21000000000004"
+	skewness_val="0.0"
+	kurtosis_val="-2.0">
+</Stats_Stanza>
+<Metrical_Scheme_Stanza>
+<Line_verse no="4"
+	number_of_feet_no="2"	line_syllables="[youve/[y_uw_v],got/[g_aa_t],a/[ey],hold/[hh_ow_l_d],on/[aa_n],me/[m_iy]]"
+	total_syllable_length_no="6"
+	rhetorical_devices="[5-[]]"
+	metrical_structure_val="[0,1,0,1,0,0]"></Line_verse>
+<Line_verse no="5"
+	number_of_feet_no="4"	line_syllables="[you/[y_uw],will/[w_ih_l],always/[ao_l,w_iy_z],see/[s_iy],when/[hh_w_ih_n],I/[ay],go/[g_ow],wrong/[r_ao_ng]]"
+	total_syllable_length_no="9"
+	rhetorical_devices="[6-[]]"
+	metrical_structure_val="[0,1,1,0,0,1,0,0,1]"></Line_verse>
+<Line_verse no="6"
+	number_of_feet_no="6"	line_syllables="[when/[hh_w_ih_n],my/[m_ay],light/[l_ay_t],goes/[g_ow_z],out/[aw_t],(is)/[ah_z],when/[hh_w_ih_n],I/[ay],need/[n_iy_d],you/[y_uw],most/[m_ow_s]]"
+	total_syllable_length_no="11"
+	rhetorical_devices="[7-[]]"
+	metrical_structure_val="[1,0,1,1,0,0,1,0,1,0,1]"></Line_verse>
+</Metrical_Scheme_Stanza>
+</Stanza_level>
+</Stanza_levels>
+<General_Stats>
+	<Prosodic_Measures_in_msecs
+	mean_line_length_val="1456.3166666666666"
+	standard_deviation_val="353.46629591329736"
+	skewness_val="0.12170873390556582"
+	kurtosis_val="-1.4174637217555848">
+</Prosodic_Measures_in_msecs>
+	<Metrical_Structures
+	mean_line_length_in_no_of_feet_val="4"
+	standard_deviation_val="1.6733200530681511"
+	skewness_val="-0.2561204162859415"
+	kurtosis_val="-1.7244897959183674">
+</Metrical_Structures>
+	<Rhetorical_Metrical_Devices
+	Absolute_Count_of_Rhyming_Devices_val="91"
+	Ratio_of_Absolute_Count_by_No_of_Stanzas_val="0.041666666666666664"
+	Ratio_of_RhDevs_Absolute_Count_by_Corrected_No_of_Verses_val=" 18.2"
+	Ratio_of_RhDevs_Absolute_Count_by_Repetition_Rate_val="187.2"
+	Ratio_of_RhDevs_Absolute_Count_by_Rare_Word_Repetition_Rate_val=" 99.02941176470588"
+	Ratio_of_RhDevs_Absolute_Count_by_No_Tokens_val="23.904572186687872">
+</Rhetorical_Metrical_Devices>
+</General_Stats>
+<General_Rhetoric_Devices>
+	<All_Rhyming_Schemes  
+	Stanza-based_Rhyme_Schemes="[1-[3-b,4-c,5-a],2-[7-d,8-b,9-a]]"
+	Different_Rhyme_Schemes="[b,c,a,d,b,a]"
+	Number_of_Different_Rhyme_Schemes_no="4"
+	Multiplier_Factor_no="2"
+	Different_Stanzas_RSs_no="[2]"
+	Different_Rhyme_Types_no="[4]">
+</All_Rhyming_Schemes>
+	<All_Rhyming_Words>
+	<Line_Ending_Rhymes words="[a-[5-m_ow1_s_t,9-m_ow1_s],6-stanza,b-[8-r_ao1_ng],b-[3-y_uw],c-[4-n_ey1_m],d-[7-m_iy]]">
+</Line_Ending_Rhymes>
+	<Line_Middle_Rhymes words="[4-[5-n_iy1_d,8-hh_w_ih1_n,8-s_iy1,8-w_ih1_l],3-[4-k_ao1_l,5-g_ow1_z,7-hh_ow1_l_d],2-[5-l_ay1_t,9-l_ay1_t],2-[9-hh_w_ih1_n,9-n_iy1_d],2-[7-hh_ow1_l_d,8-ao1_l_w_iy_z],2-[3-ch_ae1_n_s,4-hh_ae1_v],2-[5-aw1_t,9-aw1_t]]">
+</Line_Middle_Rhymes>
+	<Consonances_Assonances words="[[aw1_t-aw1_t-[aw1,t]]-5/9,[ay-ay-ay]-5/8,[ay-ay-ay]-5/9,[ay-ay-ay]-8/9,[g_aa1_t-g_ow1-[1-[g]-[g],cv-[g,ow]]]-7/8,[g_aa1_t-g_ow1_z-[1-[g]-[g],cvc-[g,ow,z]]]-7/9,[g_ow1-g_ow1_z-[1-[g]-[g],cvc-[g,ow,z]]]-8/9,[g_ow1_z-g_aa1_t-[1-[g]-[g],cvc-[g,aa,t]]]-5/7,[g_ow1_z-g_ow1-[1-[g]-[g],cv-[g,ow]]]-5/8,[g_ow1_z-g_ow1_z-[g,ow1,z]]-5/9,[hh_ae1_v-hh_ow1_l_d-[2-[h,h]-[h,h],cvcc-[hh,ow,l,d]]]-4/7,[hh_ae1_v-hh_w_ih1_n-[2-[h,h]-[h,h],vvc-[w,ih,n]]]-4/8,[hh_ae1_v-hh_w_ih1_n-[2-[h,h]-[h,h],vvc-[w,ih,n]]]-4/9,[hh_ow1_l_d-hh_w_ih1_n-[2-[h,h]-[h,h],vvc-[w,ih,n]]]-7/8,[hh_ow1_l_d-hh_w_ih1_n-[2-[h,h]-[h,h],vvc-[w,ih,n]]]-7/9,[hh_w_ah1_n-hh_ae1_v-[2-[h,h]-[h,h],cvc-[hh,ae,v]]]-3/4,[hh_w_ah1_n-hh_ow1_l_d-[2-[h,h]-[h,h],cvcc-[hh,ow,l,d]]]-3/7,[hh_w_ah1_n-hh_w_ih1_n-[2-[h,h]-[h,h],vvc-[w,ih,n]]]-3/8,[hh_w_ah1_n-hh_w_ih1_n-[2-[h,h]-[h,h],vvc-[w,ih,n]]]-3/9,[hh_w_ih1_n-hh_w_ih1_n-[hh,w,ih1,n]]-8/9,[hh_w_ih1_n-hh_w_ih1_n-[hh,w,ih1,n]]-9/9,[l_ay1_t-l_ay1_t-[l,ay1,t]]-5/9,[m_ay-m_ay-[m,ay]]-4/5,[m_ay-m_ay-[m,ay]]-4/9,[m_ay-m_ay-[m,ay]]-5/9,[m_ay-m_iy-[1-[m]-[m],cv-[m,iy]]]-4/7,[m_ay-m_iy-[1-[m]-[m],cv-[m,iy]]]-5/7,[m_ay-m_ow1_s-[1-[m]-[m],cvc-[m,ow,s]]]-4/9,[m_ay-m_ow1_s-[1-[m]-[m],cvc-[m,ow,s]]]-5/9,[m_ay-m_ow1_s-[1-[m]-[m],cvc-[m,ow,s]]]-9/9,[m_ay-m_ow1_s_t-[1-[m]-[m],cvcc-[m,ow,s,t]]]-4/5,[m_ay-m_ow1_s_t-[1-[m]-[m],cvcc-[m,ow,s,t]]]-5/5,[m_iy-m_ay-[1-[m]-[m],cv-[m,ay]]]-7/9,[m_iy-m_ow1_s-[1-[m]-[m],cvc-[m,ow,s]]]-7/9,[n_ey1_m-n_iy1_d-[1-[n]-[n],cvc-[n,iy,d]]]-4/5,[n_ey1_m-n_iy1_d-[1-[n]-[n],cvc-[n,iy,d]]]-4/9,[n_iy1_d-n_iy1_d-[n,iy1,d]]-5/9,[w_ah_dh-w_eh_n-[1-[w]-[w],vvc-[w,eh,n]]]-3/5,[w_ah_dh-w_ih1_l-[1-[w]-[w],vvc-[w,ih,l]]]-3/8,[w_eh_n-w_eh_n-[w,eh,n]]-5/5,[w_eh_n-w_ih1_l-[1-[w]-[w],vvc-[w,ih,l]]]-5/8,[y_uw-y_uw-[y,uw]]-3/4,[y_uw-y_uw-[y,uw]]-3/5,[y_uw-y_uw-[y,uw]]-3/8,[y_uw-y_uw-[y,uw]]-3/9,[y_uw-y_uw-[y,uw]]-4/5,[y_uw-y_uw-[y,uw]]-4/8,[y_uw-y_uw-[y,uw]]-4/9,[y_uw-y_uw-[y,uw]]-5/8,[y_uw-y_uw-[y,uw]]-5/9,[y_uw-y_uw-[y,uw]]-8/9,[y_uw-y_uw_v-[1-[y]-[y],vvc-[y,uw,v]]]-3/7,[y_uw-y_uw_v-[1-[y]-[y],vvc-[y,uw,v]]]-4/7,[y_uw-y_uw_v-[1-[y]-[y],vvc-[y,uw,v]]]-5/7,[y_uw_v-y_uw-[1-[y]-[y],vv-[y,uw]]]-7/8,[y_uw_v-y_uw-[1-[y]-[y],vv-[y,uw]]]-7/9]">
+</Consonances_Assonances>
+	<Word_Repetitions words="[you,you,you,you,you,you,when,when,when,when,when,out,out,need,need,my,my,my,most,most,light,light,i,i,i,goes,goes]">
+</Word_Repetitions>
+</All_Rhyming_Words>
+</General_Rhetoric_Devices>
+</Poem_Level>

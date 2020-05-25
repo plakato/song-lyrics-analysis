@@ -1,0 +1,121 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Ghost Mountain Lyrics.txt_1-1  []-positive  []
+Ghost Mountain Lyrics.txt_2-3  [when-temp_coinc]-positive  []
+Ghost Mountain Lyrics.txt_2-4  []-positive  []
+Ghost Mountain Lyrics.txt_3-7  [but-advers]-negative  [fgb,neg]
+Ghost Mountain Lyrics.txt_4-12  [so-result,then-temp_seq]-positive  [fgb]
+Ghost Mountain Lyrics.txt_4-13  []-positive  []
+Ghost Mountain Lyrics.txt_5-19  [then-temp_seq]-negative  [neg,fgb]
+Ghost Mountain Lyrics.txt_6-25  []-positive  []
+Ghost Mountain Lyrics.txt_7-32  []-positive  []
+Ghost Mountain Lyrics.txt_8-40  [but-advers]-negative  [fgb]
+Ghost Mountain Lyrics.txt_8-41  [when-temp_coinc]-positive  []
+Ghost Mountain Lyrics.txt_9-50  []-positive  []
+Ghost Mountain Lyrics.txt_9-51  []-negative  [neg]
+Ghost Mountain Lyrics.txt_10-61  []-positive  []
+Ghost Mountain Lyrics.txt_11-72  [but-advers,so-result]-positive  [fgb,fgb]
+Ghost Mountain Lyrics.txt_12-85  []-positive  [fgb]
+Ghost Mountain Lyrics.txt_13-98  [so-result]-positive  [fgb]
+Ghost Mountain Lyrics.txt_14-112  []-negative  [neg,fgb]
+Ghost Mountain Lyrics.txt_15-127  []-positive  []
+Ghost Mountain Lyrics.txt_16-143  [but-advers]-positive  [fgb,fgb]
+Ghost Mountain Lyrics.txt_17-160  []-question  []
+Ghost Mountain Lyrics.txt_18-178  []-negative  [neg]
+Ghost Mountain Lyrics.txt_19-197  []-positive  []
+Ghost Mountain Lyrics.txt_19-198  []-positive  []
+Ghost Mountain Lyrics.txt_20-218  [so-result]-negative  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Ghost Mountain Lyrics.txt_1-1  [ghost,Mountain,Lyrics,by,the,Unicorns]  [title]
+Ghost Mountain Lyrics.txt_2-3  [when,we,climbed,to,the,peak]  [provide_expl_just(plant,[external,factive,narration,foreground,objective])]
+Ghost Mountain Lyrics.txt_2-4  [we,planted,a,flag]  [provide_expl_just(plant,[external,factive,narration,foreground,objective])]
+Ghost Mountain Lyrics.txt_3-7  [the,we,moment,but,had,i,felt,bad]  [reject_expl_just(have,[external,factive,narration,foreground,objective])]
+Ghost Mountain Lyrics.txt_4-12  [then,night,came,so,we,got,into,our]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(come,[external,factive,result,foreground,objective])]
+Ghost Mountain Lyrics.txt_4-13  [sleeping,bags]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(come,[external,factive,result,foreground,objective])]
+Ghost Mountain Lyrics.txt_5-19  [then,someone,told,a,story,about,something,dead,and,gory]  [reject_expl_just(tell,[external,factive,narration,foreground,objective])]
+Ghost Mountain Lyrics.txt_6-25  [there,was,heat]  [provide_expl_just(heat,[external,factive,narration,background,objective])]
+Ghost Mountain Lyrics.txt_7-32  [from,the,fire]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Ghost Mountain Lyrics.txt_8-40  [but,i,still,froze]  [provide_expl_just(freeze,[external,factive,cause,foreground,objective])]
+Ghost Mountain Lyrics.txt_8-41  [when,i,saw,the,ghost]  [provide_expl_just(freeze,[external,factive,cause,foreground,objective])]
+Ghost Mountain Lyrics.txt_9-50  [i,told,the,gang]  [provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(welcome,[external,factive,narration,background,objective])]
+Ghost Mountain Lyrics.txt_9-51  [we,were,not,welcome]  [reject_expl_just(tell,[external,factive,narration,foreground,objective]),reject_expl_just(welcome,[external,factive,narration,background,objective])]
+Ghost Mountain Lyrics.txt_10-61  [the,made,that,ghost,clear]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Ghost Mountain Lyrics.txt_11-72  [so,we,stepped,back,but,it,was,drawing,near]  [provide_expl_just(step,[external,factive,narration,foreground,objective]),provide_expl_just(draw,[external,factive,narration,background,objective])]
+Ghost Mountain Lyrics.txt_12-85  [and,it,lunged,for,our,throats]  [proposal(be,[_408206,_408212,statement,foreground,_408230])]
+Ghost Mountain Lyrics.txt_13-98  [so,we,packed,our,things,made,tracks]  [provide_expl_just(pack,[external,factive,narration,foreground,objective])]
+Ghost Mountain Lyrics.txt_14-112  [undid,our,even,furled,our,flag,footprints,and]  [reject_expl_just(undo,[external,factive,narration,background,objective])]
+Ghost Mountain Lyrics.txt_15-127  [gone,were,we,!]  [provide_expl_just(go,[internal,factive,narration,background,objective])]
+Ghost Mountain Lyrics.txt_16-143  [but,what,was,on,the,top,of,the,mountain]  [provide_expl_just(what,[internal,factive,narration,background,objective])]
+Ghost Mountain Lyrics.txt_17-160  [top,mountain,the,?]  [provide_expl_just(top,[internal,factive,narration,foreground,objective])]
+Ghost Mountain Lyrics.txt_18-178  [nothing,sweet,!]  reject_expl_opin(nil,[])
+Ghost Mountain Lyrics.txt_19-197  [i,made]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Ghost Mountain Lyrics.txt_19-198  [it,up]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Ghost Mountain Lyrics.txt_20-218  [so,we,would,make,it,down,with,no,claim,on,Ghost,Mountain]  [reject_expl_just(make,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Ghost Mountain Lyrics.txt_1-1)-[]
+2-(Ghost Mountain Lyrics.txt_2-3)-[secondary-temporal_repere,primary-ascend,primary-height]
+3-(Ghost Mountain Lyrics.txt_2-4)-[]
+4-(Ghost Mountain Lyrics.txt_3-7)-[secondary-temporal_repere]
+5-(Ghost Mountain Lyrics.txt_4-12)-[secondary-temporal_repere]
+6-(Ghost Mountain Lyrics.txt_4-13)-[]
+7-(Ghost Mountain Lyrics.txt_5-19)-[secondary-temporal_repere,secondary-social_behavior,primary-passivity]
+8-(Ghost Mountain Lyrics.txt_6-25)-[primary-fire]
+9-(Ghost Mountain Lyrics.txt_7-32)-[primary-fire]
+10-(Ghost Mountain Lyrics.txt_8-40)-[primary-cold]
+11-(Ghost Mountain Lyrics.txt_8-41)-[secondary-temporal_repere,primary-vision]
+12-(Ghost Mountain Lyrics.txt_9-50)-[secondary-social_behavior]
+half
+13-(Ghost Mountain Lyrics.txt_9-51)-[emotions-affection]
+14-(Ghost Mountain Lyrics.txt_10-61)-[primary-counscious]
+15-(Ghost Mountain Lyrics.txt_11-72)-[primary-concreteness,primary-concreteness]
+16-(Ghost Mountain Lyrics.txt_12-85)-[primary-orality]
+17-(Ghost Mountain Lyrics.txt_13-98)-[primary-counscious]
+18-(Ghost Mountain Lyrics.txt_14-112)-[]
+19-(Ghost Mountain Lyrics.txt_15-127)-[]
+20-(Ghost Mountain Lyrics.txt_16-143)-[primary-height,primary-height]
+21-(Ghost Mountain Lyrics.txt_17-160)-[primary-height,primary-height]
+22-(Ghost Mountain Lyrics.txt_18-178)-[primary-taste]
+23-(Ghost Mountain Lyrics.txt_19-197)-[primary-counscious]
+24-(Ghost Mountain Lyrics.txt_19-198)-[]
+25-(Ghost Mountain Lyrics.txt_20-218)-[secondary-instru_behavior,secondary-instru_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Ghost Mountain Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-unicorn-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Mountain,sn1),and(Lyrics,ghost,sn1),def_prop(unicorn,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Ghost Mountain Lyrics.txt_2,3,cl3-nil-nil-plant-[obj-theme-flag-sn5,subj-agent-we-sn4,ncmod-loc_direct-peak-sn3,def_prop(flag,[animato,attivita,informa,oggetto,strumento]),def_prop(we,[umano]),def_prop(peak,[luogo])])
+lf(Ghost Mountain Lyrics.txt_2,3,cl2-nil-nil-climb-[obj-theme-when-sn2,subj-agent-we-sn1,def_prop(when,[tempo]),def_prop(we,[umano])])
+lf(Ghost Mountain Lyrics.txt_3,7,cl5-nil-nil-feel-[xcomp-tema_emot-bad-sn5,xcomp-tema_emot-bad-sn4,subj-experiencer-i-sn3,def_prop(bad,[astratto]),def_prop(bad,[astratto]),def_prop(i,[umano])])
+lf(Ghost Mountain Lyrics.txt_3,7,cl4-nil-nil-have-[subj-experiencer-moment-sn1,and(moment,we,sn1),def_prop(moment,[astratto,attivita,cambia,tempo])])
+lf(Ghost Mountain Lyrics.txt_4,12,cl8-nil-nil-sleep-[subj-experiencer-we-sn5,subj-experiencer-bag-sn7,def_prop(we,[umano]),def_prop(bag,[nquant,oggetto,strumento,umano])])
+lf(Ghost Mountain Lyrics.txt_4,12,cl7-nil-nil-get-[cmod-subord-sleep-so,ncmod-modal-our-sn6,subj-agent-our-sn4,subj-agent-we-sn3,def_prop(our,[evaluative]),def_prop(our,[evaluative]),def_prop(we,[umano])])
+lf(Ghost Mountain Lyrics.txt_4,12,cl6-nil-nil-come-[iobj-goal-our-sn4,adj-subj_disc-night-sn2,subj-agent-you-sn1,def_prop(our,[evaluative]),def_prop(night,[tempo]),def_prop(you,[umano])])
+lf(Ghost Mountain Lyrics.txt_5,19,cl9-nil-nil-tell-[coord-prop-dead_and_gory-sn5,xcomp-prop-gory-sn4,xcomp-prop-dead-sn3,obj-theme_unaff-story-sn2,subj-agent-someone-sn1,def_prop(dead_and_gory,[valutativo,evaluative]),def_prop(gory,[valutativo,evaluative]),def_prop(dead,[valutativo,evaluative]),def_prop(story,[attivita,informa]),def_prop(someone,[umano])])
+lf(Ghost Mountain Lyrics.txt_6,25,cl10-nil-nil-heat-[subj-goal-you-sn1,aux-was-nil,def_prop(you,[umano])])
+lf(Ghost Mountain Lyrics.txt_7,32,cl11-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Ghost Mountain Lyrics.txt_8,40,cl13-nil-nil-see-[obj-actor-ghost-sn5,subj-experiencer-i-sn4,def_prop(ghost,[astratto,umano]),def_prop(i,[umano])])
+lf(Ghost Mountain Lyrics.txt_8,40,cl12-nil-nil-freeze-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Ghost Mountain Lyrics.txt_9,50,cl15-not-nil-welcome-[subj-theme_unaff-you-sn3,aux-were-nil,def_prop(you,[umano])])
+lf(Ghost Mountain Lyrics.txt_9,50,cl14-nil-nil-tell-[obj-theme_unaff-gang-sn2,subj-actor-i-sn1,def_prop(gang,[istituzione,oggetto,strumento]),def_prop(i,[umano])])
+lf(Ghost Mountain Lyrics.txt_10,61,cl16-nil-nil-be-[ncmod-modal-ghost-sn2,subj-theme_bound-you-sn1,def_prop(ghost,[astratto,umano]),def_prop(you,[umano])])
+lf(Ghost Mountain Lyrics.txt_11,72,cl18-nil-nil-draw-[aux-was-nil,progr-drawing-nil])
+lf(Ghost Mountain Lyrics.txt_11,72,cl17-nil-nil-step-[subj-agent-we-sn1,def_prop(we,[umano])])
+lf(Ghost Mountain Lyrics.txt_12,85,cl19-nil-nil-lunge-[cmod-subord-lunge-",subj-agent-throat-sn2,subj-agent-throat-sn1,def_prop(throat,[body_part,oggetto,strumento,umano]),def_prop(throat,[body_part,oggetto,strumento,umano])])
+lf(Ghost Mountain Lyrics.txt_13,98,cl20-nil-nil-pack-[obj-destination-thing-sn2,subj-agent-we-sn1,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(we,[umano])])
+lf(Ghost Mountain Lyrics.txt_14,112,nil-nil-nil-undo-[obj-theme-footprint-sn2,subj-agent-you-sn1,def_prop(footprint,[astratto,attivita,informa]),def_prop(you,[umano])])
+lf(Ghost Mountain Lyrics.txt_15,127,cl21-nil-nil-go-[subj-actor-we-sn1,aux-were-nil,def_prop(we,[umano])])
+lf(Ghost Mountain Lyrics.txt_16,143,cl22-nil-nil-be-[])
+lf(Ghost Mountain Lyrics.txt_17,160,cl23-nil-nil-top-[subj-agent-mountain-sn1,def_prop(mountain,[oggetto])])
+lf(Ghost Mountain Lyrics.txt_18,178,cl24-nil-nil-say-[])
+lf(Ghost Mountain Lyrics.txt_19,197,cl26-nil-nil-be-[subj-theme_bound-it-sn2,def_prop(it,[any])])
+lf(Ghost Mountain Lyrics.txt_19,197,cl25-nil-nil-make-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Ghost Mountain Lyrics.txt_20,218,cl27-nil-would-make-[iobj-goal-claim-sn4,xcomp-prop-down-sn3,subj-agent-it-sn2,subj-agent-it-sn1,and(it,we,sn1),def_prop(claim,[astratto,attivita,informa]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(it,[any]),def_prop(it,[any])])

@@ -1,0 +1,356 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Django Lyrics.txt_1-1  []-positive  []
+Django Lyrics.txt_2-3  []-suspension  [fgb,neg,neg,neg]
+Django Lyrics.txt_3-6  []-negative  [neg]
+Django Lyrics.txt_4-10  []-negative  [neg]
+Django Lyrics.txt_5-15  []-positive  [fgb]
+Django Lyrics.txt_5-16  []-positive  []
+Django Lyrics.txt_5-17  [then-temp_seq]-positive  []
+Django Lyrics.txt_6-24  []-positive  []
+Django Lyrics.txt_7-31  []-positive  []
+Django Lyrics.txt_8-39  []-suspension  [neg,neg]
+Django Lyrics.txt_8-40  []-negative  [neg]
+Django Lyrics.txt_8-41  []-positive  []
+Django Lyrics.txt_9-50  []-positive  []
+Django Lyrics.txt_9-51  []-positive  []
+Django Lyrics.txt_10-61  []-positive  []
+Django Lyrics.txt_10-62  []-positive  []
+Django Lyrics.txt_11-72  []-positive  []
+Django Lyrics.txt_12-84  []-negative  [neg,neg]
+Django Lyrics.txt_13-97  []-suspension  [fgb,neg,fhd]
+Django Lyrics.txt_13-98  []-positive  []
+Django Lyrics.txt_14-112  []-positive  []
+Django Lyrics.txt_15-127  []-suspension  [neg,neg,neg]
+Django Lyrics.txt_16-143  []-positive  []
+Django Lyrics.txt_16-144  [so-result]-negative  [fgb]
+Django Lyrics.txt_17-162  []-negative  [neg,neg]
+Django Lyrics.txt_18-181  []-positive  []
+Django Lyrics.txt_19-200  []-negative  [neg,neg]
+Django Lyrics.txt_19-201  []-positive  [neg,fgb]
+Django Lyrics.txt_20-221  []-negative  [neg]
+Django Lyrics.txt_21-242  []-negative  [neg,neg]
+Django Lyrics.txt_22-264  []-positive  []
+Django Lyrics.txt_22-265  []-positive  [fgb]
+Django Lyrics.txt_22-266  []-negative  [neg]
+Django Lyrics.txt_22-267  []-positive  []
+Django Lyrics.txt_23-290  []-positive  []
+Django Lyrics.txt_23-291  []-positive  []
+Django Lyrics.txt_24-315  []-positive  []
+Django Lyrics.txt_24-316  []-positive  []
+Django Lyrics.txt_25-341  []-positive  []
+Django Lyrics.txt_25-342  []-positive  []
+Django Lyrics.txt_26-368  []-positive  []
+Django Lyrics.txt_27-395  []-positive  []
+Django Lyrics.txt_28-423  []-positive  []
+Django Lyrics.txt_29-452  []-positive  []
+Django Lyrics.txt_29-453  []-positive  []
+Django Lyrics.txt_30-483  []-positive  []
+Django Lyrics.txt_30-484  []-positive  []
+Django Lyrics.txt_31-515  []-positive  []
+Django Lyrics.txt_31-516  []-positive  []
+Django Lyrics.txt_32-548  []-positive  []
+Django Lyrics.txt_33-581  []-positive  []
+Django Lyrics.txt_34-615  []-negative  []
+Django Lyrics.txt_35-653  []-positive  []
+Django Lyrics.txt_36-690  [since-cause]-positive  []
+Django Lyrics.txt_37-727  []-positive  []
+Django Lyrics.txt_38-765  [when-temp_coinc]-positive  []
+Django Lyrics.txt_38-766  []-positive  []
+Django Lyrics.txt_39-805  [but-advers]-negative  [neg,fgb]
+Django Lyrics.txt_40-845  []-positive  []
+Django Lyrics.txt_40-846  []-positive  []
+Django Lyrics.txt_41-887  []-positive  []
+Django Lyrics.txt_42-929  []-suspension  []
+Django Lyrics.txt_43-972  []-acceptance  [neg,ass]
+Django Lyrics.txt_43-973  []-suspension  []
+Django Lyrics.txt_44-1018  [when-temp_coinc]-suspension  [fgb]
+Django Lyrics.txt_45-1065  []-negative  [neg]
+Django Lyrics.txt_46-1111  []-positive  []
+Django Lyrics.txt_47-1158  [if-hypoth]-suspension  [fgb,fgb,neg]
+Django Lyrics.txt_48-1211  []-positive  []
+Django Lyrics.txt_49-1260  []-positive  [neg,neg]
+Django Lyrics.txt_50-1310  []-positive  [neg]
+Django Lyrics.txt_51-1362  []-positive  []
+Django Lyrics.txt_52-1416  []-positive  [fhd,neg]
+Django Lyrics.txt_53-1469  []-negative  [neg,fhd]
+Django Lyrics.txt_54-1523  []-negative  [neg,fgb,neg]
+Django Lyrics.txt_55-1578  []-positive  []
+Django Lyrics.txt_55-1579  []-positive  []
+Django Lyrics.txt_55-1580  []-positive  []
+Django Lyrics.txt_55-1581  []-positive  []
+Django Lyrics.txt_56-1636  []-positive  []
+Django Lyrics.txt_56-1637  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Django Lyrics.txt_1-1  [Django,Lyrics,by,Antonym]  [title]
+Django Lyrics.txt_2-3  [stranded,and,Abandoned,in,the,desert,no,horizon]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Django Lyrics.txt_3-6  [taking,selfies,in,the,sand,no]  [reject_expl_just(take,[external,factive,narration,foreground,objective])]
+Django Lyrics.txt_4-10  [no,instagram,cuz,verizon,network]  [reject_expl_just(network,[external,factive,explanation,background,objective]),propose_opin_neg(network,[external,factive,explanation,background,objective])]
+Django Lyrics.txt_5-15  [come,and,find]  [provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(networth,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_5-16  [my,networth]  [provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(networth,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_5-17  [then,call]  [provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(networth,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_6-24  [up,Mr]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Django Lyrics.txt_7-31  [Wentworth]  [raise_issue(be,[_1490638,factive,statement,_1490656,subjective])]
+Django Lyrics.txt_8-39  [killing,this,western,ass,beat]  [provide_expl_just(beat,[external,factive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_8-40  [it,gives,me,extra,dick]  [reject_expl_just(beat,[external,factive,narration,background,objective]),reject_expl_just(give,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_8-41  [girth]  [provide_expl_just(beat,[external,factive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_9-50  [i,tell]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Django Lyrics.txt_9-51  [my,boys,get,the,coffins,ready,out,the,car]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Django Lyrics.txt_10-61  [i,am,up_to,par]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_10-62  [,,with,people,my,age,twice,rap,wise,i,am,goin,far]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_11-72  [pop,the,cigars,watch,some,Eastwood]  [provide_expl_just(watch,[external,factive,narration,background,objective])]
+Django Lyrics.txt_12-84  [made,a,beat,grab,the,guitars]  [reject_expl_just(make,[external,factive,cause,foreground,objective])]
+Django Lyrics.txt_13-97  [bars,and,bars,kill,em,all,like]  [provide_expl_just(kill,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_13-98  [there,are,two,Anton,Bouffards]  [provide_expl_just(kill,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_14-112  [my,cowboy,tilt,hat,down]  [provide_expl_just(tilt,[external,factive,narration,background,objective])]
+Django Lyrics.txt_15-127  [leave,you,with,your,gun,entry,to,hell,no,pat,down]  [provide_expl_just(leave,[external,factive,narration,background,objective])]
+Django Lyrics.txt_16-143  [still,gotta]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(earn,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective])]
+Django Lyrics.txt_16-144  [earn,your,way,so,back,down,don-t]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(earn,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective])]
+Django Lyrics.txt_17-162  [my,last,round,,,is,not,nobody,hearing,that,sound]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(sound,[external,factive,narration,background,objective])]
+Django Lyrics.txt_18-181  [bang,echo,through,the,canyon]  [provide_expl_just(echo,[external,factive,narration,background,objective])]
+Django Lyrics.txt_19-200  [scared,i,will,rob]  [reject_expl_just(bring,[external,factive,narration,background,objective]),reject_expl_just(rob,[external,nonfactive,narration,background,objective])]
+Django Lyrics.txt_19-201  [you,on,this,deal,bring,a,friend,rob,your,companion,and,you]  [provide_expl_just(bring,[external,factive,narration,background,objective]),provide_expl_just(rob,[external,nonfactive,narration,background,objective])]
+Django Lyrics.txt_20-221  [whatever,a,stranger,strangles,ropes]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_21-242  [you,can,not,untangle]  [reject_expl_just(untangle,[external,nonfactive,narration,foreground,objective])]
+Django Lyrics.txt_22-264  [you,cuz,are,straped]  [provide_expl_just(strap,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective])]
+Django Lyrics.txt_22-265  [and,tied,onto,the,tracks,i,make]  [provide_expl_just(strap,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective])]
+Django Lyrics.txt_22-266  [the,mother,fucking]  [reject_expl_just(strap,[external,factive,narration,background,objective]),reject_expl_just(make,[external,factive,narration,background,objective])]
+Django Lyrics.txt_22-267  [train,go]  [provide_expl_just(strap,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective])]
+Django Lyrics.txt_23-290  [i,make]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Django Lyrics.txt_23-291  [the,train,go]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Django Lyrics.txt_24-315  [i,make]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Django Lyrics.txt_24-316  [the,train,go]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Django Lyrics.txt_25-341  [i,make]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Django Lyrics.txt_25-342  [the,train,go]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Django Lyrics.txt_26-368  [they,call,me,Django]  [provide_expl_just(call,[external,factive,narration,background,objective])]
+Django Lyrics.txt_27-395  [they,call,me,Django]  [provide_expl_just(call,[external,factive,narration,background,objective])]
+Django Lyrics.txt_28-423  [they,call,me,Django]  [provide_expl_just(call,[external,factive,narration,background,objective])]
+Django Lyrics.txt_29-452  [i,make]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Django Lyrics.txt_29-453  [the,train,go]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Django Lyrics.txt_30-483  [i,make]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Django Lyrics.txt_30-484  [that,train,go]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Django Lyrics.txt_31-515  [i,make]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Django Lyrics.txt_31-516  [that,train,go]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Django Lyrics.txt_32-548  [they,call,me,Django]  [provide_expl_just(call,[external,factive,narration,background,objective])]
+Django Lyrics.txt_33-581  [they,call,me,Django]  [provide_expl_just(call,[external,factive,narration,background,objective])]
+Django Lyrics.txt_34-615  [don-t,pronounce,the,D,that,is,me,i,make,the,motherfuckin,train,go]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(pronounce,[external,factive,narration,foreground,objective])]
+Django Lyrics.txt_35-653  [im,about,to,go,Stephen,curry,on,the,Knicks]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(curry,[external,factive,narration,background,objective])]
+Django Lyrics.txt_36-690  [in,here,since,there,think]  [provide_expl_just(think,[external,factive,narration,background,objective])]
+Django Lyrics.txt_37-727  [heaven,heard,me]  [provide_expl_just(hear,[external,factive,narration,foreground,objective])]
+Django Lyrics.txt_38-765  [when,i,said]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(bless,[external,factive,narration,background,objective])]
+Django Lyrics.txt_38-766  [reverend,worrdy,bless,me]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(bless,[external,factive,narration,background,objective])]
+Django Lyrics.txt_39-805  [nobody,but,the,one,who,is,next]  [reject_expl_just(be,[external,factive,adverse,background,objective]),provide_expl_just(be,[external,factive,adverse,background,objective])]
+Django Lyrics.txt_40-845  [the,one,whos,the,best,spit,fast,til]  [provide_expl_just(spit,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_40-846  [i,am,outta,saliva,whos,tests]  [provide_expl_just(spit,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_41-887  [the,the,teacher,preacher]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_42-929  [the,i,reason,these,other,rappers,am,putting,this,rap,in,religious,context]  [provide_expl_just(put,[external,factive,narration,foreground,objective])]
+Django Lyrics.txt_43-972  [now,slow,down,wow]  [accept_expl_opin(go,[external,factive,narration,foreground,objective]),accept_expl_opin(wow,[external,factive,narration,background,objective]),accept_expl_opin(keep,[external,factive,narration,background,objective])]
+Django Lyrics.txt_43-973  [nah,nah,keep,going,freethrowing,one,point,at_a_time]  [provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(wow,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective])]
+Django Lyrics.txt_44-1018  [on,point,when,i,rhyme,ointment,once,the,coin,flips,in,the,air,jump,up,and]  [provide_expl_just(jump,[external,factive,narration,background,objective]),provide_expl_just(flip,[external,factive,narration,background,objective]),provide_expl_just(rhyme,[external,factive,narration,background,objective])]
+Django Lyrics.txt_45-1065  [your,dime,steal]  [reject_expl_just(be,[_1530740,_1530746,_1530752,_1530758,_1530764])]
+Django Lyrics.txt_46-1111  [dont,i,feel,your,kind,different,species]  [provide_expl_just(feel,[external,factive,narration,background,objective])]
+Django Lyrics.txt_47-1158  [and,if,you,don-t,feel,my,rap,you,can,eat,dog,crap,followed,by,a,5,course,meal]  [provide_expl_just(rap,[external,factive,narration,background,objective]),provide_expl_just(follow,[external,factive,narration,foreground,objective]),propose_opin_neg(follow,[external,factive,result,foreground,objective]),propose_opin(eat,[external,nonfactive,hypothesis,foreground,objective])]
+Django Lyrics.txt_48-1211  [of,human,feces]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_49-1260  [leave,you,all,alone,in,the,desert]  [provide_expl_just(leave,[external,factive,narration,background,objective])]
+Django Lyrics.txt_50-1310  [now,there,is,only,dust,that,forms,the,shape,of,my,gun,on,the,dresser]  [proposal(be,[_1537506,_1537512,statement,foreground,_1537530])]
+Django Lyrics.txt_51-1362  [it,is,now,on,my,waist,helping,me,to,impress,her]  [provide_expl_just(impress,[external,factive,narration,background,objective]),provide_expl_just(help,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_52-1416  [i,walk,into,the,room,like,hey,Lil,troublemaker]  [provide_expl_just(walk,[external,factive,narration,background,objective])]
+Django Lyrics.txt_53-1469  [rip,you,off,on,the,deal,like,a,bandaid]  [reject_expl_just(rip,[external,factive,narration,background,objective])]
+Django Lyrics.txt_54-1523  [break,into,your,mansion,and,your,housemaid,steal]  [reject_expl_just(be,[_1539592,_1539598,_1539604,_1539610,_1539616])]
+Django Lyrics.txt_55-1578  [i,call]  [provide_expl_just(call,[external,factive,narration,background,objective]),provide_expl_just(rap,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_55-1579  [my,rap,an,art]  [provide_expl_just(call,[external,factive,narration,background,objective]),provide_expl_just(rap,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_55-1580  [that,is,short]  [provide_expl_just(call,[external,factive,narration,background,objective]),provide_expl_just(rap,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_55-1581  [for,artillery]  [provide_expl_just(call,[external,factive,narration,background,objective]),provide_expl_just(rap,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Django Lyrics.txt_56-1636  [i,count]  [provide_expl_just(count,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective])]
+Django Lyrics.txt_56-1637  [two,guns,feel,the,wrath,of,my,weaponry]  [reject_expl_just(count,[external,factive,narration,background,objective]),reject_expl_just(feel,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Django Lyrics.txt_1-1)-[]
+2-(Django Lyrics.txt_2-3)-[primary-voyage,primary-brink]
+3-(Django Lyrics.txt_3-6)-[]
+4-(Django Lyrics.txt_4-10)-[]
+5-(Django Lyrics.txt_5-15)-[secondary-instru_behavior]
+6-(Django Lyrics.txt_5-16)-[]
+7-(Django Lyrics.txt_5-17)-[secondary-temporal_repere,secondary-social_behavior]
+8-(Django Lyrics.txt_6-24)-[]
+9-(Django Lyrics.txt_7-31)-[]
+10-(Django Lyrics.txt_8-39)-[primary-concreteness,emotions-aggression]
+11-(Django Lyrics.txt_8-40)-[]
+12-(Django Lyrics.txt_8-41)-[]
+13-(Django Lyrics.txt_9-50)-[secondary-social_behavior]
+14-(Django Lyrics.txt_9-51)-[primary-concreteness]
+15-(Django Lyrics.txt_10-61)-[]
+16-(Django Lyrics.txt_10-62)-[primary-concreteness]
+17-(Django Lyrics.txt_11-72)-[primary-vision]
+18-(Django Lyrics.txt_12-84)-[primary-counscious,emotions-aggression,emotions-expressive_beh]
+19-(Django Lyrics.txt_13-97)-[secondary-restraint,secondary-restraint,emotions-aggression,emotions-affection]
+20-(Django Lyrics.txt_13-98)-[]
+21-(Django Lyrics.txt_14-112)-[]
+22-(Django Lyrics.txt_15-127)-[emotions-aggression,primary-brink,emotions-affection]
+23-(Django Lyrics.txt_16-143)-[]
+24-(Django Lyrics.txt_16-144)-[secondary-instru_behavior,primary-concreteness]
+25-(Django Lyrics.txt_17-162)-[primary-concreteness,primary-sound]
+26-(Django Lyrics.txt_18-181)-[primary-sound,primary-sound,primary-depth]
+27-(Django Lyrics.txt_19-200)-[emotions-anxiety,emotions-aggression]
+28-(Django Lyrics.txt_19-201)-[emotions-affection,emotions-aggression]
+29-(Django Lyrics.txt_20-221)-[primary-unknow,emotions-aggression]
+30-(Django Lyrics.txt_21-242)-[]
+31-(Django Lyrics.txt_22-264)-[]
+32-(Django Lyrics.txt_22-265)-[secondary-instru_behavior]
+33-(Django Lyrics.txt_22-266)-[]
+34-(Django Lyrics.txt_22-267)-[]
+35-(Django Lyrics.txt_23-290)-[secondary-instru_behavior]
+36-(Django Lyrics.txt_23-291)-[]
+37-(Django Lyrics.txt_24-315)-[secondary-instru_behavior]
+38-(Django Lyrics.txt_24-316)-[]
+39-(Django Lyrics.txt_25-341)-[secondary-instru_behavior]
+40-(Django Lyrics.txt_25-342)-[]
+half
+41-(Django Lyrics.txt_26-368)-[secondary-social_behavior]
+42-(Django Lyrics.txt_27-395)-[secondary-social_behavior]
+43-(Django Lyrics.txt_28-423)-[secondary-social_behavior]
+44-(Django Lyrics.txt_29-452)-[secondary-instru_behavior]
+45-(Django Lyrics.txt_29-453)-[]
+46-(Django Lyrics.txt_30-483)-[secondary-instru_behavior]
+47-(Django Lyrics.txt_30-484)-[]
+48-(Django Lyrics.txt_31-515)-[secondary-instru_behavior]
+49-(Django Lyrics.txt_31-516)-[]
+50-(Django Lyrics.txt_32-548)-[secondary-social_behavior]
+51-(Django Lyrics.txt_33-581)-[secondary-social_behavior]
+52-(Django Lyrics.txt_34-615)-[secondary-instru_behavior]
+53-(Django Lyrics.txt_35-653)-[]
+54-(Django Lyrics.txt_36-690)-[primary-concreteness,secondary-abstract_tought]
+55-(Django Lyrics.txt_37-727)-[primary-height,primary-sound]
+56-(Django Lyrics.txt_38-765)-[secondary-temporal_repere,secondary-social_behavior]
+57-(Django Lyrics.txt_38-766)-[]
+58-(Django Lyrics.txt_39-805)-[]
+59-(Django Lyrics.txt_40-845)-[primary-orality,primary-orality]
+60-(Django Lyrics.txt_40-846)-[primary-concreteness,primary-orality,secondary-instru_behavior]
+61-(Django Lyrics.txt_41-887)-[secondary-social_behavior,secondary-social_behavior]
+62-(Django Lyrics.txt_42-929)-[secondary-abstract_tought]
+63-(Django Lyrics.txt_43-972)-[secondary-temporal_repere,primary-passivity]
+64-(Django Lyrics.txt_43-973)-[primary-concreteness]
+65-(Django Lyrics.txt_44-1018)-[primary-concreteness,secondary-temporal_repere,secondary-temporal_repere,primary-ascend]
+66-(Django Lyrics.txt_45-1065)-[primary-diffusion,emotions-aggression]
+67-(Django Lyrics.txt_46-1111)-[emotions-affection,secondary-abstract_tought]
+68-(Django Lyrics.txt_47-1158)-[primary-orality,secondary-social_behavior,primary-orality]
+69-(Django Lyrics.txt_48-1211)-[primary-sound,primary-anality]
+70-(Django Lyrics.txt_49-1260)-[primary-voyage]
+71-(Django Lyrics.txt_50-1310)-[secondary-temporal_repere,secondary-order,emotions-aggression]
+72-(Django Lyrics.txt_51-1362)-[secondary-temporal_repere,primary-sex,primary-gen_sensation]
+73-(Django Lyrics.txt_52-1416)-[emotions-affection]
+74-(Django Lyrics.txt_53-1469)-[emotions-aggression,primary-concreteness,emotions-affection]
+75-(Django Lyrics.txt_54-1523)-[emotions-aggression,emotions-aggression]
+76-(Django Lyrics.txt_55-1578)-[secondary-social_behavior]
+77-(Django Lyrics.txt_55-1579)-[emotions-expressive_beh]
+78-(Django Lyrics.txt_55-1580)-[]
+79-(Django Lyrics.txt_55-1581)-[]
+80-(Django Lyrics.txt_56-1636)-[secondary-instru_behavior]
+81-(Django Lyrics.txt_56-1637)-[emotions-aggression,emotions-aggression,emotions-aggression]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Django Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-antonym-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Django,sn1),def_prop(antonym,[attivita,informa]),def_prop(Lyrics,[informa,tecno])])
+lf(Django Lyrics.txt_2,3,cl2-nil-nil-be-[xadj-adj-stranded-adj1,ncmod-locativo-horizon-sn1,and(horizon,desert,sn1),and(horizon,no,sn1),def_prop(stranded,_1551192),def_prop(horizon,[astratto,luogo])])
+lf(Django Lyrics.txt_3,6,cl3-nil-nil-take-[obj-theme-no-sn4,ncmod-locativo-sand-sn3,obj-theme_aff-selfies-sn2,subj-agent-you-sn1,def_prop(no,[istituzione]),def_prop(sand,[sostanza]),def_prop(selfies,[istituzione]),def_prop(you,[umano])])
+lf(Django Lyrics.txt_4,10,nil-nil-nil-network-[ncmod-modal-cuz-sn2,subj-agent-you-sn1,def_prop(cuz,[istituzione]),def_prop(you,[umano])])
+lf(Django Lyrics.txt_5,15,cl6-nil-nil-be-[subj-theme_bound-call-sn3,def_prop(call,[attivita,informa])])
+lf(Django Lyrics.txt_5,15,nil-nil-nil-networth-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Django Lyrics.txt_5,15,cl5-nil-nil-find-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Django Lyrics.txt_5,15,cl4-nil-nil-come-[adj-(mod)-networth-nil,cmod-coord-find-nil])
+lf(Django Lyrics.txt_6,24,cl7-nil-nil-say-[])
+lf(Django Lyrics.txt_7,31,cl8-nil-nil-say-[obj-theme_unaff-Wentworth-sn1,def_prop(Wentworth,[place,umano])])
+lf(Django Lyrics.txt_8,39,cl11-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(Django Lyrics.txt_8,39,cl10-nil-nil-give-[obj2-paziente-dick-sn4,obj-goal-me-sn3,subj-actor-it-sn2,and(dick,extra,sn4),def_prop(dick,[umano]),def_prop(me,[umano]),def_prop(it,[any])])
+lf(Django Lyrics.txt_8,39,cl9-nil-nil-beat-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Django Lyrics.txt_9,50,cl13-nil-nil-get-[ncmod-locativo-car-sn5,xcomp-prop-ready-sn4,obj-theme_unaff-coffin-sn3,subj-agent-boy-sn2,def_prop(car,[oggetto,strumento]),def_prop(ready,[telico]),def_prop(coffin,[oggetto,strumento]),def_prop(boy,[oggetto,strumento])])
+lf(Django Lyrics.txt_9,50,cl12-nil-nil-tell-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Django Lyrics.txt_10,61,cl14-nil-nil-be-[adj-(mod)-twice-nil,xcomp-prop-far-sn8,xcomp-theme-i-sn7,xcomp-prop-wise-sn6,xcomp-prop-age-sn5,ncmod-comitativo-people-sn4,subj-theme_bound-rap-sn3,ncmod-modal-par-sn2,subj-theme_bound-i-sn1,and(far,goin,sn8),def_prop(far,[]),def_prop(i,[umano]),def_prop(wise,[soggettivo]),def_prop(age,[tempo]),def_prop(people,[istituzione]),def_prop(rap,[attivita,evento,informa]),def_prop(par,[nquant]),def_prop(i,[umano])])
+lf(Django Lyrics.txt_11,72,cl15-nil-nil-watch-[obj-tema_unaff-Eastwood-sn2,subj-actor-cigar-sn1,and(Eastwood,some,sn2),def_prop(Eastwood,[istituzione,umano]),def_prop(cigar,[oggetto,strumento])])
+lf(Django Lyrics.txt_12,84,cl16-nil-nil-make-[obj-theme_aff-guitar-sn3,obj-goal-grab-sn2,subj-agent-you-sn1,and(grab,beat,sn2),def_prop(guitar,[oggetto,strumento]),def_prop(grab,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Django Lyrics.txt_13,97,cl18-nil-nil-be-[xcomp-prop-female-sn7,subj-theme_bound-there-sn6,and(female,two,sn7),and(female,Anton,sn7),def_prop(female,[animato,umano]),def_prop(there,[istituzione])])
+lf(Django Lyrics.txt_13,97,cl17-nil-nil-kill-[obj-theme-all-sn5,obj-theme_aff-em-sn4,coord-agent-bar_and_bar-sn3,subj-agent-bar-sn2,subj-agent-bar-sn1,def_prop(all,[_1553542]),def_prop(em,[nquant]),def_prop(bar_and_bar,[nquant,oggetto,strumento,nquant,oggetto,strumento]),def_prop(bar,[nquant,oggetto,strumento,nquant,oggetto,strumento]),def_prop(bar,[nquant,oggetto,strumento,nquant,oggetto,strumento])])
+lf(Django Lyrics.txt_14,112,cl19-nil-nil-tilt-[xcomp-prop-down-sn3,obj-patient-hat-sn2,subj-agent-you-sn1,and(hat,cowboy,sn2),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(hat,[attivita,oggetto,strumento]),def_prop(you,[umano])])
+lf(Django Lyrics.txt_15,127,cl20-nil-nil-leave-[obj2-paziente-down-sn5,obj-theme-entry-sn4,ncmod-comitativo-gun-sn3,subj-theme-you-sn2,subj-theme-you-sn1,and(down,no,sn5),and(down,pat,sn5),and(you,you,sn1),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(entry,[astratto,attivita,informa,oggetto]),def_prop(gun,[attivita,oggetto,strumento,umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Django Lyrics.txt_16,143,cl22-not-nil-don-t-[cmod-subord-gotta-so,subj-agent-down-sn6,and(down,back,sn6),def_prop(down,[animato,attivita,body_part,oggetto,umano])])
+lf(Django Lyrics.txt_16,143,cl21-nil-nil-earn-[obj-theme-way-sn3,subj-agent-you-sn2,def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Django Lyrics.txt_16,143,nil-nil-nil-gotta-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Django Lyrics.txt_17,162,cl24-nil-nil-sound-[xcomp-theme_unaff-that-sn3,xcomp-purpose-hear-3,def_prop(that,[oggetto,umano])])
+lf(Django Lyrics.txt_17,162,cl23-not-nil-be-[xcomp-prop-nobody-sn2,subj-theme_bound-round-sn1,def_prop(nobody,[umano]),def_prop(round,[attivita,edible,informa,oggetto,strumento])])
+lf(Django Lyrics.txt_18,181,cl25-nil-nil-echo-[ncmod-location-canyon-sn2,subj-theme-bang-sn1,def_prop(canyon,[oggetto]),def_prop(bang,[body_part,emotivo,evento,umano])])
+lf(Django Lyrics.txt_19,200,cl27-nil-nil-bring-[obj-goal-friend-sn4,xcomp-purpose-bring-3,ncmod-locativo-deal-sn3,and(deal,this,sn3),def_prop(friend,[umano]),def_prop(deal,[attivita,evento,nquant,sostanza])])
+lf(Django Lyrics.txt_19,200,cl26-nil-will-rob-[coord-theme_aff-companion_and_you-sn7,obj-theme_aff-you-sn6,obj-theme_aff-companion-sn5,subj-agent-you-sn2,subj-agent-i-sn1,def_prop(companion_and_you,[umano,umano]),def_prop(you,[umano,umano]),def_prop(companion,[umano,umano]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Django Lyrics.txt_20,221,cl28-nil-nil-be-[subj-theme_bound-strangle-sn1,def_prop(strangle,[istituzione])])
+lf(Django Lyrics.txt_21,242,cl29-not-can-untangle-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Django Lyrics.txt_22,264,cl33-nil-nil-go-[subj-actor-you-sn6,def_prop(you,[umano])])
+lf(Django Lyrics.txt_22,264,cl32-nil-nil-fuck-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Django Lyrics.txt_22,264,cl31-nil-nil-make-[cmod-subord-strap-",xadj-adj-tied-adj2,ncmod-loc_direct-track-sn4,subj-agent-i-sn3,def_prop(tied,_1555794),def_prop(track,[attivita,oggetto,strumento]),def_prop(i,[umano])])
+lf(Django Lyrics.txt_22,264,cl30-nil-nil-strap-[ncmod-modal-you-sn2,subj-theme-you-sn1,aux-are-nil,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Django Lyrics.txt_23,290,cl35-nil-nil-go-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Django Lyrics.txt_23,290,cl34-nil-nil-make-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Django Lyrics.txt_24,315,cl37-nil-nil-go-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Django Lyrics.txt_24,315,cl36-nil-nil-make-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Django Lyrics.txt_25,341,cl39-nil-nil-go-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Django Lyrics.txt_25,341,cl38-nil-nil-make-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Django Lyrics.txt_26,368,cl40-nil-nil-call-[obj-prop-Django-sn3,obj-theme_bound-me-sn2,subj-agent-they-sn1,def_prop(Django,[istituzione,umano]),def_prop(me,[umano]),def_prop(they,[umano])])
+lf(Django Lyrics.txt_27,395,cl41-nil-nil-call-[obj-prop-Django-sn3,obj-theme_bound-me-sn2,subj-agent-they-sn1,def_prop(Django,[istituzione,umano]),def_prop(me,[umano]),def_prop(they,[umano])])
+lf(Django Lyrics.txt_28,423,cl42-nil-nil-call-[obj-prop-Django-sn3,obj-theme_bound-me-sn2,subj-agent-they-sn1,def_prop(Django,[istituzione,umano]),def_prop(me,[umano]),def_prop(they,[umano])])
+lf(Django Lyrics.txt_29,452,cl44-nil-nil-go-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Django Lyrics.txt_29,452,cl43-nil-nil-make-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Django Lyrics.txt_30,483,cl46-nil-nil-go-[subj-agent-train-sn2,def_prop(train,[evento,oggetto,strumento])])
+lf(Django Lyrics.txt_30,483,cl45-nil-nil-make-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Django Lyrics.txt_31,515,cl48-nil-nil-go-[subj-agent-train-sn2,def_prop(train,[evento,oggetto,strumento])])
+lf(Django Lyrics.txt_31,515,cl47-nil-nil-make-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Django Lyrics.txt_32,548,cl49-nil-nil-call-[obj-prop-Django-sn3,obj-theme_bound-me-sn2,subj-agent-they-sn1,def_prop(Django,[istituzione,umano]),def_prop(me,[umano]),def_prop(they,[umano])])
+lf(Django Lyrics.txt_33,581,cl50-nil-nil-call-[obj-prop-Django-sn3,obj-theme_bound-me-sn2,subj-agent-they-sn1,def_prop(Django,[istituzione,umano]),def_prop(me,[umano]),def_prop(they,[umano])])
+lf(Django Lyrics.txt_34,615,cl54-nil-nil-go-[subj-agent-pro-nil,xcomp-agent-train-sn11,subj-agent-you-sn10,subj-prop-train-sn5,obj-prop-me-sn3,xcomp-purpose-be-4,and(train,motherfuckin,sn11),and(train,motherfuckin,sn5),def_prop(train,[evento,oggetto,strumento]),def_prop(you,[umano]),def_prop(train,[evento,oggetto,strumento]),def_prop(me,[umano])])
+lf(Django Lyrics.txt_34,615,cl53-nil-nil-make-[xcomp-agent-train-sn8,subj-agent-you-sn7,xcomp-prop-train-sn5,subj-agent-i-sn4,and(train,motherfuckin,sn8),and(train,motherfuckin,sn5),def_prop(train,[evento,oggetto,strumento]),def_prop(you,[umano]),def_prop(train,[evento,oggetto,strumento]),def_prop(i,[umano])])
+lf(Django Lyrics.txt_34,615,cl52-nil-nil-be-[])
+lf(Django Lyrics.txt_34,615,cl51-not-nil-pronounce-[obj-theme-D-sn2,subj-agent-you-sn1,aux-do-nil,def_prop(D,[istituzione,umano]),def_prop(you,[umano])])
+lf(Django Lyrics.txt_35,653,cl56-nil-nil-curry-[subj-prop-Stephen-sn2,xcomp-purpose-go-2,subj-patient-im-sn1,def_prop(Stephen,[place,umano]),def_prop(im,[legale])])
+lf(Django Lyrics.txt_35,653,cl55-nil-nil-go-[ncmod-locativo-female-sn3,def_prop(female,[animato,umano])])
+lf(Django Lyrics.txt_36,690,cl57-nil-nil-think-[cmod-coord-think-since,subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Django Lyrics.txt_37,727,cl58-nil-nil-hear-[obj-theme_unaff-me-sn2,subj-experiencer-heaven-sn1,def_prop(me,[umano]),def_prop(heaven,[luogo])])
+lf(Django Lyrics.txt_38,765,nil-nil-nil-bless-[obj-theme-me-sn4,subj-agent-worrdy-sn3,and(worrdy,reverend,sn3),def_prop(me,[umano]),def_prop(worrdy,[istituzione])])
+lf(Django Lyrics.txt_38,765,cl59-nil-nil-say-[obj-theme-when-sn2,subj-actor-i-sn1,def_prop(when,[tempo]),def_prop(i,[umano])])
+lf(Django Lyrics.txt_39,805,cl60-nil-nil-be-[cmod-subord-be-but,xcomp-prop-next-sn3,subj-theme_bound-who-sn2,and(who,one,sn2),def_prop(next,[tempo,misura]),def_prop(who,[umano])])
+lf(Django Lyrics.txt_40,845,cl62-nil-nil-be-[xcomp-prop-test-sn5,subj-theme_bound-i-sn4,and(test,outta,sn5),and(test,who,sn5),def_prop(test,[animato,attivita]),def_prop(i,[umano])])
+lf(Django Lyrics.txt_40,845,cl61-nil-nil-spit-[obj-theme_unaff-til-sn2,subj-agent-who-sn1,and(til,fast,sn2),and(who,one,sn1),and(who,best,sn1),def_prop(til,[informa,tecno]),def_prop(who,[umano])])
+lf(Django Lyrics.txt_41,887,cl63-nil-nil-be-[ncmod-modal-teacher-sn2,subj-theme_bound-you-sn1,def_prop(teacher,[astratto,umano]),def_prop(you,[umano])])
+lf(Django Lyrics.txt_42,929,cl64-nil-nil-put-[iobj-goal-context-sn4,obj-goal-rap-sn3,subj-agent-rapper-sn2,subj-agent-rapper-sn1,aux-am-nil,progr-putting-nil,and(context,religious,sn4),and(rap,this,sn3),and(rapper,these,sn2),and(rapper,these,sn1),def_prop(context,[attivita,informa,stato]),def_prop(rap,[attivita,evento,informa]),def_prop(rapper,[umano]),def_prop(rapper,[umano])])
+lf(Django Lyrics.txt_43,972,cl66-nil-nil-go-[])
+lf(Django Lyrics.txt_43,972,cl65-nil-nil-keep-[adj-(mod)-at_a_time-nil,obj-prop-one-sn6,xadj-result-go-cl66,subj-experiencer-nah-sn5,and(one,freethrowing,sn6),and(one,one,sn6),and(nah,nah,sn5),def_prop(one,[umano]),def_prop(nah,[istituzione])])
+lf(Django Lyrics.txt_43,972,nil-nil-nil-wow-[subj-actor-pro-nil])
+lf(Django Lyrics.txt_44,1018,cl69-nil-nil-jump-[])
+lf(Django Lyrics.txt_44,1018,cl68-nil-nil-flip-[adj-(mod)-up-nil,ncmod-locativo-air-sn3,iobj-goal-point-sn2,subj-actor-coin-sn1,def_prop(air,[astratto,attivita,informa,luogo,sostanza]),def_prop(point,[astratto,attivita,informa,luogo,nquant,oggetto,relat,strumento,tempo]),def_prop(coin,[astratto,oggetto])])
+lf(Django Lyrics.txt_44,1018,cl67-nil-nil-rhyme-[cmod-subord-jump-when,adj-(mod)-once-nil,obj-patient1-ointment-sn6,subj-agent-i-sn5,def_prop(ointment,[oggetto,strumento]),def_prop(i,[umano])])
+lf(Django Lyrics.txt_45,1065,cl70-nil-nil-steal-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Django Lyrics.txt_46,1111,cl71-nil-nil-feel-[xcomp-tema_emot-kind-sn2,subj-experiencer-i-sn1,and(i,dont,sn1),def_prop(kind,[astratto]),def_prop(i,[umano])])
+lf(Django Lyrics.txt_47,1158,cl75-nil-nil-follow-[cmod-subord-follow-",cmod-subord-follow-if,iobj-scale-5-sn28,iobj-scale-5-sn26,iobj-scale-5-sn22,obj-theme_unaff-crap-sn21,iobj-prop-5-sn17,iobj-prop-5-sn11,and(crap,dog,sn21),def_prop(5,_1561120),def_prop(5,_1561132),def_prop(5,_1561144),def_prop(crap,[sostanza]),def_prop(5,[nquant]),def_prop(5,[nquant])])
+lf(Django Lyrics.txt_47,1158,cl74-nil-can-eat-[xmod-prop-follow-6,obj-theme_unaff-crap-sn16,subj-agent-meal-sn15,obj-theme_unaff-crap-sn10,subj-agent-you-sn9,and(crap,dog,sn16),and(meal,course,sn15),and(crap,dog,sn10),def_prop(crap,[sostanza]),def_prop(meal,[edible,oggetto,tempo]),def_prop(crap,[sostanza]),def_prop(you,[umano])])
+lf(Django Lyrics.txt_47,1158,cl73-nil-nil-rap-[xmod-prop-follow-3,iobj-scale-5-sn5,obj-theme-crap-sn4,subj-actor-you-sn3,subj-actor-my-sn2,and(crap,dog,sn4),def_prop(5,[nquant]),def_prop(crap,[sostanza]),def_prop(you,[umano]),def_prop(my,[informa,tecno])])
+lf(Django Lyrics.txt_47,1158,cl72-not-nil-feel-[subj-experiencer-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Django Lyrics.txt_48,1211,cl76-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Django Lyrics.txt_49,1260,cl77-nil-nil-leave-[adj-(mod)-alone-nil,adj-subj_disc-alone-sn5,ncmod-locativo-desert-sn4,obj-theme-all-sn3,subj-theme-you-sn2,subj-theme-you-sn1,and(you,you,sn1),def_prop(alone,[istituzione]),def_prop(alone,[istituzione]),def_prop(desert,[luogo]),def_prop(all,[_1562088]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Django Lyrics.txt_50,1310,cl79-nil-nil-form-[iobj-goal-dresser-sn4,subj-actor-dust-sn2,def_prop(dresser,[oggetto,strumento,umano]),def_prop(dust,[sostanza])])
+lf(Django Lyrics.txt_50,1310,cl78-nil-nil-be-[adj-(mod)-now-nil,xcomp-prop-dust-sn2,subj-theme_bound-there-sn1,def_prop(dust,[sostanza]),def_prop(there,[any])])
+lf(Django Lyrics.txt_51,1362,cl82-nil-nil-impress-[obj-theme_unaff-me-sn4,xadj-result-help-3,ncmod-locativo-waist-sn3,def_prop(me,[umano]),def_prop(waist,[body_part,umano])])
+lf(Django Lyrics.txt_51,1362,cl81-nil-nil-help-[obj-goal-her-sn5,xcomp-purpose-impress-4,def_prop(her,[umano])])
+lf(Django Lyrics.txt_51,1362,cl80-nil-nil-be-[xcomp-prop-now-sn2,subj-theme_bound-it-sn1,def_prop(now,[istituzione]),def_prop(it,[any])])
+lf(Django Lyrics.txt_52,1416,cl83-nil-nil-walk-[xadj-theme-troublemaker-sn3,iobj-goal-room-sn2,subj-agent-i-sn1,and(troublemaker,Lil,sn3),def_prop(troublemaker,[umano]),def_prop(room,[nquant,oggetto,stato,strumento]),def_prop(i,[umano])])
+lf(Django Lyrics.txt_53,1469,cl84-nil-nil-rip-[adj-(mod)-off-nil,adj-subj_disc-off-sn4,ncmod-locativo-deal-sn3,subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(off,[istituzione]),def_prop(off,[istituzione]),def_prop(deal,[attivita,evento,nquant,sostanza]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Django Lyrics.txt_54,1523,cl85-nil-nil-steal-[obj-theme-housemaid-sn3,iobj-goal-mansion-sn2,subj-agent-you-sn1,def_prop(housemaid,[stato]),def_prop(mansion,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Django Lyrics.txt_55,1578,cl88-nil-nil-be-[subj-theme_bound-you-sn5,xcomp-prop-short-sn4,def_prop(you,[umano]),def_prop(short,[oggetto,strumento])])
+lf(Django Lyrics.txt_55,1578,cl87-nil-nil-rap-[obj-theme-art-sn3,subj-actor-my-sn2,def_prop(art,[astratto,attivita,oggetto,strumento]),def_prop(my,[informa,tecno])])
+lf(Django Lyrics.txt_55,1578,cl86-nil-nil-call-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Django Lyrics.txt_56,1636,cl90-nil-nil-feel-[xcomp-tema_emot-wrath-sn3,subj-experiencer-gun-sn2,and(gun,two,sn2),def_prop(wrath,[attivita,emotivo]),def_prop(gun,[attivita,oggetto,strumento,umano])])
+lf(Django Lyrics.txt_56,1636,cl89-nil-nil-count-[subj-actor-you-sn1,def_prop(you,[umano])])

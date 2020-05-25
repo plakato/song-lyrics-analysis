@@ -1,0 +1,244 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Back To Back Lyrics.txt_1-1  []-positive  [neg]
+Back To Back Lyrics.txt_2-3  []-negative  []
+Back To Back Lyrics.txt_3-6  []-positive  []
+Back To Back Lyrics.txt_4-10  []-positive  [neg]
+Back To Back Lyrics.txt_5-15  []-negative  [neg]
+Back To Back Lyrics.txt_6-21  []-positive  []
+Back To Back Lyrics.txt_7-28  [but-advers,yet-conc]-negative  [fgb,neg,neg]
+Back To Back Lyrics.txt_8-36  []-positive  []
+Back To Back Lyrics.txt_8-37  []-negative  [neg]
+Back To Back Lyrics.txt_9-46  [but-advers]-positive  [fgb]
+Back To Back Lyrics.txt_9-47  []-suspension  []
+Back To Back Lyrics.txt_10-57  []-positive  [neg]
+Back To Back Lyrics.txt_11-68  []-negative  [neg]
+Back To Back Lyrics.txt_12-80  []-positive  []
+Back To Back Lyrics.txt_12-81  [but-advers]-suspension  [fgb]
+Back To Back Lyrics.txt_13-93  []-negative  [neg]
+Back To Back Lyrics.txt_14-107  []-positive  []
+Back To Back Lyrics.txt_15-122  []-negative  [neg]
+Back To Back Lyrics.txt_16-138  []-positive  [fhd]
+Back To Back Lyrics.txt_16-139  []-positive  []
+Back To Back Lyrics.txt_17-155  []-positive  []
+Back To Back Lyrics.txt_18-173  []-positive  []
+Back To Back Lyrics.txt_18-174  []-positive  []
+Back To Back Lyrics.txt_19-193  []-positive  []
+Back To Back Lyrics.txt_19-194  []-negative  [fgb,neg]
+Back To Back Lyrics.txt_20-214  []-positive  []
+Back To Back Lyrics.txt_21-235  []-negative  [neg,neg]
+Back To Back Lyrics.txt_22-257  []-negative  [neg]
+Back To Back Lyrics.txt_23-280  []-positive  []
+Back To Back Lyrics.txt_24-304  []-positive  [fgb]
+Back To Back Lyrics.txt_25-329  []-positive  []
+Back To Back Lyrics.txt_25-330  []-negative  [fgb,neg]
+Back To Back Lyrics.txt_26-356  [unless-cond]-positive  []
+Back To Back Lyrics.txt_27-357  [(as)-temp_coinc]-negative  [neg]
+Back To Back Lyrics.txt_28-385  []-positive  [fgb]
+Back To Back Lyrics.txt_29-414  []-positive  [fgb]
+Back To Back Lyrics.txt_30-444  []-positive  [neg]
+Back To Back Lyrics.txt_31-475  []-negative  [neg]
+Back To Back Lyrics.txt_32-507  []-positive  []
+Back To Back Lyrics.txt_33-540  [but-advers,yet-conc]-negative  [fgb,neg,neg]
+Back To Back Lyrics.txt_34-574  []-positive  []
+Back To Back Lyrics.txt_35-609  []-suspension  [neg]
+Back To Back Lyrics.txt_35-610  []-positive  []
+Back To Back Lyrics.txt_36-647  [but-advers]-positive  [fgb]
+Back To Back Lyrics.txt_37-684  []-positive  []
+Back To Back Lyrics.txt_37-685  []-suspension  []
+Back To Back Lyrics.txt_38-724  []-negative  [neg]
+Back To Back Lyrics.txt_39-763  []-positive  []
+Back To Back Lyrics.txt_39-764  [but-advers]-suspension  [fgb]
+Back To Back Lyrics.txt_40-803  []-positive  []
+Back To Back Lyrics.txt_41-844  []-suspension  [fgb,neg]
+Back To Back Lyrics.txt_42-886  []-negative  [neg]
+Back To Back Lyrics.txt_43-929  []-positive  [fhd]
+Back To Back Lyrics.txt_43-930  []-positive  []
+Back To Back Lyrics.txt_44-973  []-positive  []
+Back To Back Lyrics.txt_45-1018  []-positive  []
+Back To Back Lyrics.txt_45-1019  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Back To Back Lyrics.txt_1-1  [back,to,back,Lyrics,by,Underdog]  [title]
+Back To Back Lyrics.txt_2-3  [trapped]  reject_expl_opin(nil,[])
+Back To Back Lyrics.txt_3-6  [encircled]  [raise_issue(be,[_597148,factive,statement,_597166,subjective])]
+Back To Back Lyrics.txt_4-10  [you,feel,the,threat]  [provide_expl_just(feel,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_5-15  [you,are,tired]  reject_expl_opin(nil,[])
+Back To Back Lyrics.txt_6-21  [you,are,down]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_7-28  [but,you,are,beaten,yet,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_8-36  [they,have,got]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(back,[external,factive,narration,foreground,objective])]
+Back To Back Lyrics.txt_8-37  [you,backed,up,against,a,wall]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(back,[external,factive,narration,foreground,objective])]
+Back To Back Lyrics.txt_9-46  [but,you,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Back To Back Lyrics.txt_9-47  [i,will,be,there]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Back To Back Lyrics.txt_10-57  [to,catch,your,fall]  [provide_expl_just(catch,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_11-68  [you,are,the,underdog]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_12-80  [you,are,down]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Back To Back Lyrics.txt_12-81  [but,you,will,be,back]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Back To Back Lyrics.txt_13-93  [in,times,of,trouble,in,my_way]  [reject_expl_just(trouble,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_14-107  [i,have,got,your,back]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_15-122  [you,are,the,underdog]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_16-138  [you,are,just,like]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_16-139  [me]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_17-155  [there,is,something,deep,inside]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_18-173  [that,tells]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(free,[external,factive,narration,foreground,objective])]
+Back To Back Lyrics.txt_18-174  [you,to,be,free]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(free,[external,factive,narration,foreground,objective])]
+Back To Back Lyrics.txt_19-193  [we,stand]  [provide_expl_just(stand,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_19-194  [and,fight]  [reject_expl_just(stand,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_20-214  [back,to,back]  [provide_expl_just(back,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_21-235  [we,take,no,shit]  [reject_expl_just(take,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_22-257  [we,stay,tight]  [reject_expl_just(stay,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_23-280  [we,stick,together]  [provide_expl_just(stick,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_24-304  [and,deal,with,it]  [proposal(be,[_622142,_622148,statement,foreground,_622166])]
+Back To Back Lyrics.txt_25-329  [we,use,our,heads]  [provide_expl_just(use,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_25-330  [and,not,our,fists]  [reject_expl_just(use,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_26-356  [unless,there,are,pushed]  [raise_issue(be,[_623766,factive,statement,_623784,subjective])]
+Back To Back Lyrics.txt_27-357  [as,one,we,fight]  [reject_expl_just(fight,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_28-385  [and,we,win]  [provide_expl_just(win,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_29-414  [caught,and,cornered]  [provide_expl_just(catch,[external,factive,narration,foreground,objective])]
+Back To Back Lyrics.txt_30-444  [you,feel,the,threat]  [provide_expl_just(feel,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_31-475  [you,are,tired]  reject_expl_opin(nil,[])
+Back To Back Lyrics.txt_32-507  [you,are,down]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_33-540  [but,you,are,beaten,yet,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_34-574  [they,are,clawing,at,your,heels]  [provide_expl_just(claw,[external,factive,cause,foreground,objective])]
+Back To Back Lyrics.txt_35-609  [they,are,trying,to,drag]  [provide_expl_just(drag,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_35-610  [you,down]  [provide_expl_just(drag,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_36-647  [but,you,have,faith]  [provide_expl_just(have,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_37-684  [you,know]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_37-685  [i,will,come,around]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_38-724  [you,are,the,underdog]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_39-763  [you,are,down]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Back To Back Lyrics.txt_39-764  [but,you,will,be,back]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Back To Back Lyrics.txt_40-803  [just,let,yourself,go]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_41-844  [and,i,will,pick,up,the,slack]  [provide_expl_just(pick,[external,nonfactive,narration,background,objective])]
+Back To Back Lyrics.txt_42-886  [you,are,the,underdog]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_43-929  [you,are,just,like]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_43-930  [me]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_44-973  [there,is,something,deep,inside]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Back To Back Lyrics.txt_45-1018  [that,tells]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(free,[external,factive,narration,foreground,objective])]
+Back To Back Lyrics.txt_45-1019  [you,to,be,free]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(free,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Back To Back Lyrics.txt_1-1)-[primary-concreteness,primary-concreteness]
+2-(Back To Back Lyrics.txt_2-3)-[]
+3-(Back To Back Lyrics.txt_3-6)-[]
+4-(Back To Back Lyrics.txt_4-10)-[emotions-aggression]
+5-(Back To Back Lyrics.txt_5-15)-[]
+6-(Back To Back Lyrics.txt_6-21)-[]
+7-(Back To Back Lyrics.txt_7-28)-[emotions-aggression]
+8-(Back To Back Lyrics.txt_8-36)-[]
+9-(Back To Back Lyrics.txt_8-37)-[primary-concreteness,secondary-temporal_repere,primary-brink]
+10-(Back To Back Lyrics.txt_9-46)-[secondary-abstract_tought]
+11-(Back To Back Lyrics.txt_9-47)-[]
+12-(Back To Back Lyrics.txt_10-57)-[secondary-restraint,primary-descent]
+13-(Back To Back Lyrics.txt_11-68)-[]
+14-(Back To Back Lyrics.txt_12-80)-[]
+15-(Back To Back Lyrics.txt_12-81)-[primary-concreteness]
+16-(Back To Back Lyrics.txt_13-93)-[secondary-temporal_repere,emotions-anxiety]
+17-(Back To Back Lyrics.txt_14-107)-[primary-concreteness]
+18-(Back To Back Lyrics.txt_15-122)-[]
+19-(Back To Back Lyrics.txt_16-138)-[emotions-affection]
+20-(Back To Back Lyrics.txt_16-139)-[]
+21-(Back To Back Lyrics.txt_17-155)-[primary-depth,primary-concreteness]
+22-(Back To Back Lyrics.txt_18-173)-[secondary-social_behavior]
+23-(Back To Back Lyrics.txt_18-174)-[]
+24-(Back To Back Lyrics.txt_19-193)-[]
+25-(Back To Back Lyrics.txt_19-194)-[emotions-aggression]
+26-(Back To Back Lyrics.txt_20-214)-[primary-concreteness,primary-concreteness]
+27-(Back To Back Lyrics.txt_21-235)-[primary-anality]
+28-(Back To Back Lyrics.txt_22-257)-[]
+half
+29-(Back To Back Lyrics.txt_23-280)-[]
+30-(Back To Back Lyrics.txt_24-304)-[]
+31-(Back To Back Lyrics.txt_25-329)-[secondary-instru_behavior,primary-narcissism]
+32-(Back To Back Lyrics.txt_25-330)-[]
+33-(Back To Back Lyrics.txt_26-356)-[]
+34-(Back To Back Lyrics.txt_27-357)-[emotions-aggression]
+35-(Back To Back Lyrics.txt_28-385)-[secondary-instru_behavior]
+36-(Back To Back Lyrics.txt_29-414)-[secondary-restraint,primary-concreteness]
+37-(Back To Back Lyrics.txt_30-444)-[emotions-aggression]
+38-(Back To Back Lyrics.txt_31-475)-[]
+39-(Back To Back Lyrics.txt_32-507)-[]
+40-(Back To Back Lyrics.txt_33-540)-[emotions-aggression]
+41-(Back To Back Lyrics.txt_34-574)-[primary-concreteness,primary-narcissism]
+42-(Back To Back Lyrics.txt_35-609)-[secondary-instru_behavior]
+43-(Back To Back Lyrics.txt_35-610)-[]
+44-(Back To Back Lyrics.txt_36-647)-[]
+45-(Back To Back Lyrics.txt_37-684)-[secondary-abstract_tought]
+46-(Back To Back Lyrics.txt_37-685)-[]
+47-(Back To Back Lyrics.txt_38-724)-[]
+48-(Back To Back Lyrics.txt_39-763)-[]
+49-(Back To Back Lyrics.txt_39-764)-[primary-concreteness]
+50-(Back To Back Lyrics.txt_40-803)-[]
+51-(Back To Back Lyrics.txt_41-844)-[secondary-instru_behavior,primary-passivity]
+52-(Back To Back Lyrics.txt_42-886)-[]
+53-(Back To Back Lyrics.txt_43-929)-[emotions-affection]
+54-(Back To Back Lyrics.txt_43-930)-[]
+55-(Back To Back Lyrics.txt_44-973)-[primary-depth,primary-concreteness]
+56-(Back To Back Lyrics.txt_45-1018)-[secondary-social_behavior]
+57-(Back To Back Lyrics.txt_45-1019)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Back To Back Lyrics.txt_1,1,nil-nil-nil-back-[arg_mod-agent-underdog-sn2,subj-agent-Lyrics-sn1,def_prop(underdog,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Back To Back Lyrics.txt_2,3,cl1-nil-nil-say-[])
+lf(Back To Back Lyrics.txt_3,6,cl2-nil-nil-say-[])
+lf(Back To Back Lyrics.txt_4,10,cl3-nil-nil-feel-[xcomp-tema_emot-threat-sn2,subj-experiencer-you-sn1,def_prop(threat,[attivita,informa]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_5,15,cl4-nil-nil-tire-[subj-theme-you-sn1,aux-are-nil,def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_6,21,cl5-nil-nil-be-[xcomp-prop-down-sn2,subj-theme_bound-you-sn1,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_7,28,cl6-nil-nil-be-[xcomp-prop-yet-sn2,subj-theme_bound-you-sn1,and(yet,beaten,sn2),def_prop(yet,[istituzione]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_8,36,cl8-nil-nil-back-[ncmod-malefattivo-wall-sn3,subj-agent-you-sn2,def_prop(wall,[body_part,oggetto,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_8,36,cl7-nil-nil-get-[subj-experiencer-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_9,46,cl10-nil-will-be-[xcomp-prop-there-sn3,subj-theme_bound-i-sn2,def_prop(there,[any]),def_prop(i,[umano])])
+lf(Back To Back Lyrics.txt_9,46,cl9-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_10,57,cl11-nil-nil-catch-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_11,68,cl12-nil-nil-be-[xcomp-prop-underdog-sn2,subj-theme_bound-you-sn1,def_prop(underdog,[umano]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_12,80,cl13-nil-will-be-[xcomp-prop-back-sn4,subj-theme_bound-you-sn3,xcomp-prop-down-sn2,subj-theme_bound-you-sn1,def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(you,[umano]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_13,93,cl14-nil-nil-trouble-[adj-locative-times-nil,ncmod-locativo-my_way-sn2,subj-agent-you-sn1,def_prop(times,[tempo]),def_prop(my_way,[astratto,attivita,informa,oggetto,stato,strumento,tecno]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_14,107,cl15-nil-nil-get-[xcomp-prop-your-sn2,subj-theme_bound-i-sn1,aux-have-nil,def_prop(your,[evaluative]),def_prop(i,[umano])])
+lf(Back To Back Lyrics.txt_15,122,cl16-nil-nil-be-[xcomp-prop-underdog-sn2,subj-theme_bound-you-sn1,def_prop(underdog,[umano]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_16,138,cl17-nil-nil-be-[subj-theme_bound-you-sn3,xcomp-prop-just-sn2,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(just,[informa,tecno]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_17,155,cl18-nil-nil-be-[xcomp-prop-inside-sn2,subj-theme_bound-there-sn1,and(inside,something,sn2),and(inside,deep,sn2),def_prop(inside,[luogo]),def_prop(there,[any])])
+lf(Back To Back Lyrics.txt_18,173,cl20-nil-nil-free-[subj-agent-you-sn2,aux-be-nil,def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_18,173,cl19-nil-nil-tell-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_19,193,cl22-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_19,193,cl21-nil-nil-stand-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_20,214,nil-nil-nil-back-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_21,235,cl23-nil-nil-take-[obj-theme_aff-shit-sn2,subj-agent-we-sn1,and(shit,no,sn2),def_prop(shit,[attivita,umano]),def_prop(we,[umano])])
+lf(Back To Back Lyrics.txt_22,257,cl24-nil-nil-stay-[xcomp-prop-tight-sn2,subj-agent-we-sn1,def_prop(tight,[evaluative]),def_prop(we,[umano])])
+lf(Back To Back Lyrics.txt_23,280,cl25-nil-nil-stick-[xcomp-prop-together-sn2,subj-agent-we-sn1,def_prop(together,[evaluative]),def_prop(we,[umano])])
+lf(Back To Back Lyrics.txt_24,304,cl26-nil-nil-deal-[cmod-subord-deal-",iobj-goal-it-sn2,subj-agent-you-sn1,def_prop(it,[any]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_25,329,cl28-not-nil-be-[cmod-subord-be-",subj-theme_bound-fist-sn5,def_prop(fist,[body_part,umano])])
+lf(Back To Back Lyrics.txt_25,329,cl27-nil-nil-use-[obj-theme_unaff-head-sn2,subj-agent-we-sn1,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(we,[umano])])
+lf(Back To Back Lyrics.txt_26,356,cl29-nil-nil-push-[cmod-subord-push-",subj-theme-you-sn1,aux-are-nil,def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_27,357,cl30-nil-nil-fight-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_28,385,cl31-nil-nil-win-[cmod-subord-win-",subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_29,414,cl32-nil-nil-catch-[cmod-subord-catch-",subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_30,444,cl33-nil-nil-feel-[xcomp-tema_emot-threat-sn2,subj-experiencer-you-sn1,def_prop(threat,[attivita,informa]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_31,475,cl34-nil-nil-tire-[subj-theme-you-sn1,aux-are-nil,def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_32,507,cl35-nil-nil-be-[xcomp-prop-down-sn2,subj-theme_bound-you-sn1,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_33,540,cl36-nil-nil-be-[xcomp-prop-yet-sn2,subj-theme_bound-you-sn1,and(yet,beaten,sn2),def_prop(yet,[istituzione]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_34,574,cl37-nil-nil-claw-[ncmod-locativo-heel-sn2,subj-actor-they-sn1,aux-are-nil,progr-clawing-nil,def_prop(heel,[body_part,edible,oggetto,strumento,umano]),def_prop(they,[umano])])
+lf(Back To Back Lyrics.txt_35,609,cl40-nil-nil-be-[xcomp-prop-down-sn3,subj-theme_bound-you-sn2,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_35,609,cl39-nil-nil-drag-[subj-theme-they-sn1,def_prop(they,[umano])])
+lf(Back To Back Lyrics.txt_35,609,cl38-nil-nil-try-[subj-actor-they-sn1,aux-are-nil,progr-trying-nil,def_prop(they,[umano])])
+lf(Back To Back Lyrics.txt_36,647,cl41-nil-nil-have-[xcomp-tema_bound-faith-sn2,subj-experiencer-you-sn1,def_prop(faith,[astratto,attivita]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_37,684,cl44-nil-nil-come-[subj-prop-i-sn2,def_prop(i,[umano])])
+lf(Back To Back Lyrics.txt_37,684,cl43-nil-will-will-[adj-(mod)-around-nil,subj-agent-i-sn2,def_prop(i,[umano])])
+lf(Back To Back Lyrics.txt_37,684,cl42-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_38,724,cl45-nil-nil-be-[xcomp-prop-underdog-sn2,subj-theme_bound-you-sn1,def_prop(underdog,[umano]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_39,763,cl46-nil-will-be-[xcomp-prop-back-sn4,subj-theme_bound-you-sn3,xcomp-prop-down-sn2,subj-theme_bound-you-sn1,def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(you,[umano]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_40,803,cl47-nil-nil-go-[adj-(mod)-just-nil,subj-agent-yourself-sn1,def_prop(yourself,[istituzione])])
+lf(Back To Back Lyrics.txt_41,844,cl48-nil-will-pick-[cmod-subord-pick-",obj-goal-slack-sn2,subj-agent-i-sn1,def_prop(slack,[astratto,oggetto,sostanza,strumento]),def_prop(i,[umano])])
+lf(Back To Back Lyrics.txt_42,886,cl49-nil-nil-be-[xcomp-prop-underdog-sn2,subj-theme_bound-you-sn1,def_prop(underdog,[umano]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_43,929,cl50-nil-nil-be-[subj-theme_bound-you-sn3,xcomp-prop-just-sn2,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(just,[informa,tecno]),def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_44,973,cl51-nil-nil-be-[xcomp-prop-inside-sn2,subj-theme_bound-there-sn1,and(inside,something,sn2),and(inside,deep,sn2),def_prop(inside,[luogo]),def_prop(there,[any])])
+lf(Back To Back Lyrics.txt_45,1018,cl53-nil-nil-free-[subj-agent-you-sn2,aux-be-nil,def_prop(you,[umano])])
+lf(Back To Back Lyrics.txt_45,1018,cl52-nil-nil-tell-[subj-agent-you-sn1,def_prop(you,[umano])])

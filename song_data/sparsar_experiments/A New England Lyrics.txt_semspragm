@@ -1,0 +1,244 @@
+"POLARITY, DISCOURSE MARKERS"
+
+A New England Lyrics.txt_1-1  []-positive  []
+A New England Lyrics.txt_2-3  [when-temp_coinc]-positive  []
+A New England Lyrics.txt_2-4  []-positive  []
+A New England Lyrics.txt_3-7  []-positive  []
+A New England Lyrics.txt_3-8  [but-advers]-negative  [fgb,neg,neg]
+A New England Lyrics.txt_4-11  []-positive  []
+A New England Lyrics.txt_4-12  [when-temp_coinc]-suspension  []
+A New England Lyrics.txt_4-13  []-positive  []
+A New England Lyrics.txt_5-19  [but-advers]-positive  [fgb]
+A New England Lyrics.txt_6-25  []-positive  []
+A New England Lyrics.txt_7-32  []-positive  []
+A New England Lyrics.txt_7-33  [(as)-temp_coinc,then-temp_seq]-positive  []
+A New England Lyrics.txt_8-40  [though-advers]-positive  []
+A New England Lyrics.txt_8-41  []-positive  []
+A New England Lyrics.txt_9-50  []-positive  []
+A New England Lyrics.txt_9-51  []-positive  []
+A New England Lyrics.txt_10-61  []-suspension  [neg]
+A New England Lyrics.txt_10-62  []-positive  []
+A New England Lyrics.txt_11-73  []-positive  [neg]
+A New England Lyrics.txt_11-74  []-positive  []
+A New England Lyrics.txt_12-87  []-negative  []
+A New England Lyrics.txt_13-101  []-negative  [neg]
+A New England Lyrics.txt_13-102  []-positive  []
+A New England Lyrics.txt_14-116  []-positive  []
+A New England Lyrics.txt_14-117  []-positive  []
+A New England Lyrics.txt_15-132  []-negative  []
+A New England Lyrics.txt_16-149  []-negative  [neg]
+A New England Lyrics.txt_16-150  []-positive  []
+A New England Lyrics.txt_17-167  []-positive  []
+A New England Lyrics.txt_17-168  []-positive  []
+A New England Lyrics.txt_18-186  []-positive  []
+A New England Lyrics.txt_18-187  []-positive  []
+A New England Lyrics.txt_19-206  [but-advers]-negative  [fgb,neg]
+A New England Lyrics.txt_20-226  []-negative  [neg,fgb]
+A New England Lyrics.txt_21-247  []-positive  []
+A New England Lyrics.txt_22-269  []-positive  []
+A New England Lyrics.txt_23-293  []-positive  []
+A New England Lyrics.txt_23-294  [but-advers]-positive  [fgb]
+A New England Lyrics.txt_24-318  []-negative  [neg]
+A New England Lyrics.txt_25-345  []-positive  []
+A New England Lyrics.txt_25-346  []-positive  []
+A New England Lyrics.txt_25-347  []-positive  []
+A New England Lyrics.txt_26-372  []-negative  []
+A New England Lyrics.txt_27-400  []-negative  [neg]
+A New England Lyrics.txt_27-401  []-positive  []
+A New England Lyrics.txt_28-429  []-positive  []
+A New England Lyrics.txt_28-430  []-positive  []
+A New England Lyrics.txt_29-459  []-negative  []
+A New England Lyrics.txt_30-490  []-negative  [neg]
+A New England Lyrics.txt_30-491  []-positive  []
+A New England Lyrics.txt_31-522  []-positive  []
+A New England Lyrics.txt_31-523  []-positive  []
+A New England Lyrics.txt_32-555  []-positive  []
+A New England Lyrics.txt_33-588  []-positive  []
+A New England Lyrics.txt_34-622  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+A New England Lyrics.txt_1-1  [a,New,England,Lyrics,by,Billy,Bragg]  [title]
+A New England Lyrics.txt_2-3  [i,was,twenty,one,years,when,i,wrote,this,song,.]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+A New England Lyrics.txt_2-4  [i,wrote,this,song]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+A New England Lyrics.txt_3-7  [i,am,twenty,two,now]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+A New England Lyrics.txt_3-8  [but,i,will,not,be,for,long]  [reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+A New England Lyrics.txt_4-11  [people,ask]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(ask,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+A New England Lyrics.txt_4-12  [when,will]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(ask,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+A New England Lyrics.txt_4-13  [you,grow,up_to,be,a,man]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(ask,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+A New England Lyrics.txt_5-19  [all,the,i,girls,but,loved,at,school]  [proposal(be,[_403024,_403030,statement,foreground,_403048])]
+A New England Lyrics.txt_6-25  [prams,are,already,pushing]  [provide_expl_just(push,[external,factive,cause,foreground,objective])]
+A New England Lyrics.txt_7-32  [i,loved]  [provide_expl_just(love,[external,factive,narration,foreground,objective])]
+A New England Lyrics.txt_7-33  [you,then,as,i,love,you,still]  [provide_expl_just(love,[external,factive,narration,foreground,objective])]
+A New England Lyrics.txt_8-40  [though,i,put]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_8-41  [you,on,a,pedestal]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_9-50  [they,put]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_9-51  [you,on,the,pill]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_10-61  [i,don-t,feel,bad,about,letting]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_10-62  [you,go]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_11-73  [just,feel,i,sad,about,letting]  [provide_expl_just(sad,[external,factive,narration,background,objective]),provide_expl_just(let,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_11-74  [you,know]  [provide_expl_just(sad,[external,factive,narration,background,objective]),provide_expl_just(let,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_12-87  [i,don-t,want,to,change,the,world]  [provide_expl_just(change,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,foreground,objective])]
+A New England Lyrics.txt_13-101  [i,am,not,looking]  [reject_expl_just(look,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_13-102  [for,a,new,England]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_14-116  [i,am,just,looking]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_14-117  [for,another,girl]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_15-132  [i,don-t,want,to,change,the,world]  [provide_expl_just(change,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_16-149  [i,am,not,looking]  [reject_expl_just(look,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_16-150  [for,a,new,England]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_17-167  [i,am,just,looking]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_17-168  [for,another,girl]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_18-186  [i,loved,the,words]  [provide_expl_just(write,[external,factive,narration,foreground,objective])]
+A New England Lyrics.txt_18-187  [you,wrote,to,me]  [provide_expl_just(write,[external,factive,narration,foreground,objective])]
+A New England Lyrics.txt_19-206  [but,that,was,bloody,yesterday]  [reject_expl_just(be,[_426340,_426346,_426352,_426358,_426364])]
+A New England Lyrics.txt_20-226  [i,can,not,survive,on,what,you,send]  [reject_expl_just(survive,[external,nonfactive,narration,foreground,objective])]
+A New England Lyrics.txt_21-247  [every,time,you,need,a,friend]  [provide_expl_just(need,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_22-269  [i,saw,two,shooting,stars,last,night]  [provide_expl_just(see,[external,factive,narration,foreground,objective])]
+A New England Lyrics.txt_23-293  [i,wished,on,them]  [provide_expl_just(wish,[external,factive,narration,foreground,objective]),provide_expl_just(them,[internal,factive,narration,background,objective])]
+A New England Lyrics.txt_23-294  [but,they,were,only,satellites]  [provide_expl_just(wish,[external,factive,narration,foreground,objective]),provide_expl_just(them,[internal,factive,narration,background,objective])]
+A New England Lyrics.txt_24-318  [is,it,wrong,to,wish,on,space,hardware]  [reject_expl_just(wrong,[external,factive,narration,background,objective]),reject_expl_just(wish,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_25-345  [i,i_wish,wish]  [provide_expl_just(wish,[external,factive,narration,background,objective]),provide_expl_just(care,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_25-346  [i,wish]  [provide_expl_just(wish,[external,factive,narration,background,objective]),provide_expl_just(care,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_25-347  [you,had,care]  [provide_expl_just(wish,[external,factive,narration,background,objective]),provide_expl_just(care,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_26-372  [i,don-t,want,to,change,the,world]  [provide_expl_just(change,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,foreground,objective])]
+A New England Lyrics.txt_27-400  [i,am,not,looking]  [reject_expl_just(look,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_27-401  [for,a,new,England]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_28-429  [i,am,just,looking]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_28-430  [for,another,girl]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_29-459  [i,don-t,want,to,change,the,world]  [provide_expl_just(change,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_30-490  [i,am,not,looking]  [reject_expl_just(look,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_30-491  [for,a,new,England]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_31-522  [i,am,just,looking]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_31-523  [for,another,girl]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A New England Lyrics.txt_32-555  [looking,for,another,girl]  [raise_issue(be,[_438676,factive,statement,_438694,subjective])]
+A New England Lyrics.txt_33-588  [looking,for,another,girl]  [provide_expl_just(look,[external,factive,narration,foreground,objective])]
+A New England Lyrics.txt_34-622  [looking,for,another,girl]  [raise_issue(be,[_439386,factive,statement,_439404,subjective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(A New England Lyrics.txt_1-1)-[]
+2-(A New England Lyrics.txt_2-3)-[secondary-temporal_repere,secondary-temporal_repere]
+3-(A New England Lyrics.txt_2-4)-[]
+4-(A New England Lyrics.txt_3-7)-[secondary-temporal_repere]
+5-(A New England Lyrics.txt_3-8)-[primary-concreteness]
+6-(A New England Lyrics.txt_4-11)-[secondary-social_behavior]
+7-(A New England Lyrics.txt_4-12)-[secondary-temporal_repere]
+8-(A New England Lyrics.txt_4-13)-[primary-height]
+9-(A New England Lyrics.txt_5-19)-[emotions-affection,primary-concreteness]
+10-(A New England Lyrics.txt_6-25)-[secondary-temporal_repere]
+11-(A New England Lyrics.txt_7-32)-[emotions-affection]
+12-(A New England Lyrics.txt_7-33)-[secondary-temporal_repere,emotions-affection]
+13-(A New England Lyrics.txt_8-40)-[]
+14-(A New England Lyrics.txt_8-41)-[]
+15-(A New England Lyrics.txt_9-50)-[]
+16-(A New England Lyrics.txt_9-51)-[]
+17-(A New England Lyrics.txt_10-61)-[]
+18-(A New England Lyrics.txt_10-62)-[]
+19-(A New England Lyrics.txt_11-73)-[emotions-sadness]
+20-(A New England Lyrics.txt_11-74)-[secondary-abstract_tought]
+21-(A New England Lyrics.txt_12-87)-[]
+22-(A New England Lyrics.txt_13-101)-[]
+23-(A New England Lyrics.txt_13-102)-[]
+24-(A New England Lyrics.txt_14-116)-[]
+25-(A New England Lyrics.txt_14-117)-[]
+26-(A New England Lyrics.txt_15-132)-[]
+27-(A New England Lyrics.txt_16-149)-[]
+half
+28-(A New England Lyrics.txt_16-150)-[]
+29-(A New England Lyrics.txt_17-167)-[]
+30-(A New England Lyrics.txt_17-168)-[]
+31-(A New England Lyrics.txt_18-186)-[emotions-affection]
+32-(A New England Lyrics.txt_18-187)-[]
+33-(A New England Lyrics.txt_19-206)-[emotions-aggression,secondary-temporal_repere]
+34-(A New England Lyrics.txt_20-226)-[]
+35-(A New England Lyrics.txt_21-247)-[secondary-temporal_repere,secondary-temporal_repere,emotions-affection]
+36-(A New England Lyrics.txt_22-269)-[primary-vision,primary-vision]
+37-(A New England Lyrics.txt_23-293)-[secondary-abstract_tought]
+38-(A New England Lyrics.txt_23-294)-[]
+39-(A New England Lyrics.txt_24-318)-[primary-concreteness]
+40-(A New England Lyrics.txt_25-345)-[]
+41-(A New England Lyrics.txt_25-346)-[]
+42-(A New England Lyrics.txt_25-347)-[]
+43-(A New England Lyrics.txt_26-372)-[]
+44-(A New England Lyrics.txt_27-400)-[]
+45-(A New England Lyrics.txt_27-401)-[]
+46-(A New England Lyrics.txt_28-429)-[]
+47-(A New England Lyrics.txt_28-430)-[]
+48-(A New England Lyrics.txt_29-459)-[]
+49-(A New England Lyrics.txt_30-490)-[]
+50-(A New England Lyrics.txt_30-491)-[]
+51-(A New England Lyrics.txt_31-522)-[]
+52-(A New England Lyrics.txt_31-523)-[]
+53-(A New England Lyrics.txt_32-555)-[]
+54-(A New England Lyrics.txt_33-588)-[]
+55-(A New England Lyrics.txt_34-622)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(A New England Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Bragg-sn2,subj-theme_bound-Lyrics-sn1,and(Bragg,Billy,sn2),and(Lyrics,England,sn1),def_prop(Bragg,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(A New England Lyrics.txt_2,3,cl3-nil-nil-write-[obj-source_information-song-sn9,subj-agent-i-sn8,and(song,this,sn9),def_prop(song,[astratto,attivita,evento,informa,oggetto]),def_prop(i,[umano])])
+lf(A New England Lyrics.txt_2,3,cl2-nil-nil-be-[adj-temporal-years-nil,xcomp-prop-twenty-sn2,subj-theme_bound-i-sn1,and(twenty,twenty,sn2),def_prop(twenty,[nquant]),def_prop(i,[umano])])
+lf(A New England Lyrics.txt_3,7,cl4-not-will-be-[subj-theme_bound-i-sn5,adj-(mod)-now-nil,xcomp-prop-twenty-sn2,subj-theme_bound-i-sn1,and(twenty,twenty,sn2),def_prop(i,[umano]),def_prop(twenty,[nquant]),def_prop(i,[umano])])
+lf(A New England Lyrics.txt_4,11,cl8-nil-nil-be-[])
+lf(A New England Lyrics.txt_4,11,cl7-nil-nil-grow-[obj-prop-man-sn4,xadj-result-be-2,subj-theme_bound-you-sn3,def_prop(man,[any]),def_prop(you,[umano])])
+lf(A New England Lyrics.txt_4,11,cl6-nil-will-will-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_4,11,cl5-nil-nil-ask-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_5,19,cl9-nil-nil-love-[ncmod-clock_cal-school-sn2,subj-experiencer-girl-sn1,and(girl,all,sn1),def_prop(school,[astratto,istituzione,oggetto,strumento,tempo]),def_prop(girl,[oggetto,strumento])])
+lf(A New England Lyrics.txt_6,25,cl10-nil-nil-push-[subj-agent-you-sn1,adj-(mod)-already-nil,aux-are-nil,progr-pushing-nil,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_7,32,cl11-nil-nil-love-[cmod-subord-love-then,adj-(mod)-still-nil,subj-experiencer-you-sn4,subj-experiencer-you-sn3,subj-experiencer-you-sn1,and(you,i,sn3),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(A New England Lyrics.txt_8,40,cl13-nil-nil-be-[ncmod-locativo-pedestal-sn5,subj-theme_bound-you-sn4,def_prop(pedestal,[oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(A New England Lyrics.txt_8,40,cl12-nil-nil-put-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(A New England Lyrics.txt_9,50,cl15-nil-nil-be-[ncmod-locativo-pill-sn3,subj-theme_bound-you-sn2,def_prop(pill,[astratto,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(A New England Lyrics.txt_9,50,cl14-nil-nil-put-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_10,61,cl17-nil-nil-go-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_10,61,cl16-not-nil-feel-[xcomp-prop-bad-sn2,subj-experiencer-i-sn1,aux-do-nil,def_prop(bad,[soggettivo]),def_prop(i,[umano])])
+lf(A New England Lyrics.txt_11,73,cl19-nil-nil-know-[subj-actor-you-sn3,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_11,73,cl18-nil-nil-let-[adj-(mod)-know-nil,subj-theme-i-sn1,and(i,feel,sn1),def_prop(i,[umano])])
+lf(A New England Lyrics.txt_11,73,nil-nil-nil-sad-[subj-agent-i-sn1,and(i,feel,sn1),def_prop(i,[umano])])
+lf(A New England Lyrics.txt_12,87,cl21-nil-nil-change-[obj-theme_aff-world-sn2,xadj-result-change-2,def_prop(world,[astratto,istituzione,oggetto])])
+lf(A New England Lyrics.txt_12,87,cl20-not-nil-want-[subj-actor-i-sn1,aux-do-nil,def_prop(i,[umano])])
+lf(A New England Lyrics.txt_13,101,cl23-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_13,101,cl22-not-nil-look-[subj-agent-you-sn1,aux-am-nil,progr-looking-nil,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_14,116,cl25-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_14,116,cl24-nil-nil-look-[subj-agent-you-sn1,aux-am-nil,progr-looking-nil,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_15,132,cl27-nil-nil-change-[obj-theme_aff-world-sn2,xadj-result-change-2,def_prop(world,[astratto,istituzione,oggetto])])
+lf(A New England Lyrics.txt_15,132,cl26-not-nil-want-[subj-actor-i-sn1,aux-do-nil,def_prop(i,[umano])])
+lf(A New England Lyrics.txt_16,149,cl29-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_16,149,cl28-not-nil-look-[subj-agent-you-sn1,aux-am-nil,progr-looking-nil,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_17,167,cl31-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_17,167,cl30-nil-nil-look-[subj-agent-you-sn1,aux-am-nil,progr-looking-nil,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_18,186,cl33-nil-nil-write-[obj2-goal-me-sn4,subj-agent-you-sn3,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(A New England Lyrics.txt_18,186,cl32-nil-nil-love-[obj-theme_unaff-word-sn2,subj-experiencer-i-sn1,def_prop(word,[attivita,informa,nquant]),def_prop(i,[umano])])
+lf(A New England Lyrics.txt_19,206,cl34-nil-nil-be-[xcomp-prop-yesterday-sn2,subj-theme_bound-that-sn1,and(yesterday,bloody,sn2),def_prop(yesterday,[tempo]),def_prop(that,[oggetto,umano])])
+lf(A New England Lyrics.txt_20,226,cl35-not-can-survive-[iobj-goal-what-sn2,subj-agent-i-sn1,def_prop(what,[oggetto]),def_prop(i,[umano])])
+lf(A New England Lyrics.txt_21,247,cl36-nil-nil-need-[obj-theme-friend-sn2,subj-experiencer-you-sn1,def_prop(friend,[umano]),def_prop(you,[umano])])
+lf(A New England Lyrics.txt_22,269,cl38-nil-nil-shoot-[obj-theme_aff-star-sn3,xcomp-purpose-shoot-2,def_prop(star,[astratto,oggetto,umano])])
+lf(A New England Lyrics.txt_22,269,cl37-nil-nil-see-[adj-temporal-night-nil,obj-actor-two-sn2,subj-experiencer-i-sn1,and(night,last,sn4),def_prop(night,[tempo]),def_prop(two,[_444868]),def_prop(i,[umano])])
+lf(A New England Lyrics.txt_23,293,cl40-nil-nil-be-[xcomp-prop-satellite-sn4,subj-theme_bound-they-sn3,ncmod-locativo-them-sn2,def_prop(satellite,[oggetto,strumento,umano]),def_prop(they,[umano]),def_prop(them,[umano])])
+lf(A New England Lyrics.txt_23,293,cl39-nil-nil-wish-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(A New England Lyrics.txt_24,318,cl43-nil-nil-wish-[iobj-goal-hardware-sn2,def_prop(hardware,[oggetto,strumento])])
+lf(A New England Lyrics.txt_24,318,cl42-nil-nil-wrong-[xadj-result-wish-3])
+lf(A New England Lyrics.txt_24,318,cl41-nil-nil-be-[subj-theme_bound-it-sn1,def_prop(it,[any])])
+lf(A New England Lyrics.txt_25,345,cl45-nil-nil-care-[subj-experiencer-you-sn4,aux-had-nil,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_25,345,cl44-nil-nil-wish-[subj-experiencer-you-sn3,ncmod-modal-i-sn2,subj-experiencer-you-sn1,def_prop(you,[umano]),def_prop(i,[umano]),def_prop(you,[umano])])
+lf(A New England Lyrics.txt_26,372,cl47-nil-nil-change-[obj-theme_aff-world-sn2,xadj-result-change-2,def_prop(world,[astratto,istituzione,oggetto])])
+lf(A New England Lyrics.txt_26,372,cl46-not-nil-want-[subj-actor-i-sn1,aux-do-nil,def_prop(i,[umano])])
+lf(A New England Lyrics.txt_27,400,cl49-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_27,400,cl48-not-nil-look-[subj-agent-you-sn1,aux-am-nil,progr-looking-nil,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_28,429,cl51-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_28,429,cl50-nil-nil-look-[subj-agent-you-sn1,aux-am-nil,progr-looking-nil,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_29,459,cl53-nil-nil-change-[obj-theme_aff-world-sn2,xadj-result-change-2,def_prop(world,[astratto,istituzione,oggetto])])
+lf(A New England Lyrics.txt_29,459,cl52-not-nil-want-[subj-actor-i-sn1,aux-do-nil,def_prop(i,[umano])])
+lf(A New England Lyrics.txt_30,490,cl55-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_30,490,cl54-not-nil-look-[subj-agent-you-sn1,aux-am-nil,progr-looking-nil,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_31,522,cl57-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_31,522,cl56-nil-nil-look-[subj-agent-you-sn1,aux-am-nil,progr-looking-nil,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_32,555,cl58-nil-nil-look-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_33,588,cl59-nil-nil-look-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(A New England Lyrics.txt_34,622,cl60-nil-nil-look-[subj-agent-you-sn1,def_prop(you,[umano])])

@@ -1,0 +1,111 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Let's Submerge Lyrics.txt_1-1  []-positive  []
+Let's Submerge Lyrics.txt_2-3  []-positive  [neg]
+Let's Submerge Lyrics.txt_2-4  []-positive  [fgb]
+Let's Submerge Lyrics.txt_3-6  []-negative  [fgb,neg]
+Let's Submerge Lyrics.txt_4-10  []-suspension  [neg]
+Let's Submerge Lyrics.txt_5-16  []-positive  [neg]
+Let's Submerge Lyrics.txt_6-22  []-positive  []
+Let's Submerge Lyrics.txt_6-23  []-positive  []
+Let's Submerge Lyrics.txt_7-29  []-negative  [neg]
+Let's Submerge Lyrics.txt_8-37  []-negative  []
+Let's Submerge Lyrics.txt_9-46  []-positive  []
+Let's Submerge Lyrics.txt_10-56  []-negative  [neg]
+Let's Submerge Lyrics.txt_11-67  []-suspension  [neg,neg]
+Let's Submerge Lyrics.txt_12-79  []-positive  []
+Let's Submerge Lyrics.txt_13-93  [if-hypoth]-positive  [fgb]
+Let's Submerge Lyrics.txt_14-107  []-positive  []
+Let's Submerge Lyrics.txt_15-122  []-positive  []
+Let's Submerge Lyrics.txt_16-139  []-positive  []
+Let's Submerge Lyrics.txt_17-156  []-positive  []
+Let's Submerge Lyrics.txt_18-174  []-negative  [neg]
+Let's Submerge Lyrics.txt_19-193  [if-hypoth]-positive  [fgb]
+Let's Submerge Lyrics.txt_20-213  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Let's Submerge Lyrics.txt_1-1  [let-s,Submerge,Lyrics,by,X-Ray,Spex]  [title]
+Let's Submerge Lyrics.txt_2-3  [it,is,dark]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Let's Submerge Lyrics.txt_2-4  [and,eerie]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Let's Submerge Lyrics.txt_3-6  [and,it,is,late,really]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Let's Submerge Lyrics.txt_4-10  [come,on,kids,don-t,hesitate]  [propose_opin_neg(come,[external,factive,result,background,objective]),provide_expl_just(hesitate,[external,factive,cause,foreground,objective])]
+Let's Submerge Lyrics.txt_5-16  [we,are,going,down,to,the,underground]  [provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+Let's Submerge Lyrics.txt_6-22  [we,are,going,down]  [raise_issue(be,[_709352,factive,statement,_709370,subjective])]
+Let's Submerge Lyrics.txt_6-23  [we,are,going,down]  [raise_issue(be,[_709680,factive,statement,_709698,subjective])]
+Let's Submerge Lyrics.txt_7-29  [to,the,underground]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Let's Submerge Lyrics.txt_8-37  [dagger,glares,from,Richard,Hell]  [provide_expl_just(glare,[external,factive,narration,background,objective])]
+Let's Submerge Lyrics.txt_9-46  [the,hades,ladies,are,dressed]  [raise_issue(be,[_710688,factive,statement,_710706,subjective])]
+Let's Submerge Lyrics.txt_10-56  [to,kill]  reject_expl_opin(nil,[])
+Let's Submerge Lyrics.txt_11-67  [tension,heightening,heating,frightening]  [provide_expl_just(heighten,[external,factive,narration,foreground,objective])]
+Let's Submerge Lyrics.txt_12-79  [thunder,rolls,as_fast_as,lightening]  [provide_expl_just(lighten,[external,factive,narration,foreground,objective]),provide_expl_just(thunder,[external,factive,narration,background,objective])]
+Let's Submerge Lyrics.txt_13-93  [if,you,have,got,the,urge]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Let's Submerge Lyrics.txt_14-107  [the,subterranean,is,a,bottomless,pit]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Let's Submerge Lyrics.txt_15-122  [come,on,let-s,submerge]  [provide_expl_just(submerge,[external,factive,narration,background,objective])]
+Let's Submerge Lyrics.txt_16-139  [the,vinyl,vultures,are,after,it]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+Let's Submerge Lyrics.txt_17-156  [moulten,lava,sulphur,vapours]  [provide_expl_just(sulphur,[external,factive,narration,background,objective])]
+Let's Submerge Lyrics.txt_18-174  [smoulder,on,to,obligerate,us]  [reject_expl_just(smoulder,[external,factive,narration,background,objective])]
+Let's Submerge Lyrics.txt_19-193  [if,you,have,got,the,urge]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Let's Submerge Lyrics.txt_20-213  [come,on,let-s,submerge]  [provide_expl_just(submerge,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Let's Submerge Lyrics.txt_1-1)-[]
+2-(Let's Submerge Lyrics.txt_2-3)-[]
+3-(Let's Submerge Lyrics.txt_2-4)-[]
+4-(Let's Submerge Lyrics.txt_3-6)-[secondary-abstract_tought]
+5-(Let's Submerge Lyrics.txt_4-10)-[]
+6-(Let's Submerge Lyrics.txt_5-16)-[primary-depth]
+7-(Let's Submerge Lyrics.txt_6-22)-[]
+8-(Let's Submerge Lyrics.txt_6-23)-[]
+9-(Let's Submerge Lyrics.txt_7-29)-[primary-depth]
+10-(Let's Submerge Lyrics.txt_8-37)-[primary-vision]
+11-(Let's Submerge Lyrics.txt_9-46)-[]
+half
+12-(Let's Submerge Lyrics.txt_10-56)-[emotions-aggression]
+13-(Let's Submerge Lyrics.txt_11-67)-[]
+14-(Let's Submerge Lyrics.txt_12-79)-[primary-random_movement]
+15-(Let's Submerge Lyrics.txt_13-93)-[]
+16-(Let's Submerge Lyrics.txt_14-107)-[primary-depth]
+17-(Let's Submerge Lyrics.txt_15-122)-[]
+18-(Let's Submerge Lyrics.txt_16-139)-[]
+19-(Let's Submerge Lyrics.txt_17-156)-[primary-diffusion]
+20-(Let's Submerge Lyrics.txt_18-174)-[primary-fire]
+21-(Let's Submerge Lyrics.txt_19-193)-[]
+22-(Let's Submerge Lyrics.txt_20-213)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Let's Submerge Lyrics.txt_1,1,cl1-nil-nil-submerge-[arg_mod-agent-Spex-sn3,obj-theme-Lyrics-sn2,subj-agent-let-s-sn1,and(Spex,X-Ray,sn3),def_prop(Spex,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(let-s,[attivita])])
+lf(Let's Submerge Lyrics.txt_2,3,cl2-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn3,xcomp-prop-dark-sn2,subj-theme_bound-it-sn1,def_prop(you,[umano]),def_prop(dark,[astratto,stato]),def_prop(it,[any])])
+lf(Let's Submerge Lyrics.txt_3,6,cl3-nil-nil-be-[cmod-subord-be-",xcomp-prop-late-sn2,subj-theme_bound-it-sn1,def_prop(late,[evaluative]),def_prop(it,[any])])
+lf(Let's Submerge Lyrics.txt_4,10,_-nil-nil-come-[ncmod-prop-kid-sn2,def_prop(kid,[animato,sostanza,umano])])
+lf(Let's Submerge Lyrics.txt_4,10,cl5-not-nil-hesitate-[xmod-prop-come-2,subj-agent-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Let's Submerge Lyrics.txt_4,10,cl4-nil-nil-come-[ncmod-prop-kid-sn2,def_prop(kid,[animato,sostanza,umano])])
+lf(Let's Submerge Lyrics.txt_5,16,cl6-nil-nil-go-[adj-(mod)-down-nil,iobj-goal-underground-sn2,subj-agent-we-sn1,aux-are-nil,progr-going-nil,def_prop(underground,[istituzione]),def_prop(we,[umano])])
+lf(Let's Submerge Lyrics.txt_6,22,cl7-nil-nil-go-[subj-agent-we-sn4,subj-agent-we-sn1,aux-are-nil,progr-going-nil,def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Let's Submerge Lyrics.txt_7,29,cl8-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Let's Submerge Lyrics.txt_8,37,cl9-nil-nil-glare-[ncmod-loc_origin-Hell-sn2,subj-agent-dagger-sn1,and(Hell,Richard,sn2),def_prop(Hell,[place,astratto,luogo]),def_prop(dagger,[attivita,informa,oggetto,strumento])])
+lf(Let's Submerge Lyrics.txt_9,46,cl10-nil-nil-dress-[ncmod-modal-hades-sn2,subj-theme-you-sn1,aux-are-nil,def_prop(hades,[istituzione,umano]),def_prop(you,[umano])])
+lf(Let's Submerge Lyrics.txt_10,56,cl11-nil-nil-kill-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Let's Submerge Lyrics.txt_11,67,cl12-nil-nil-heighten-[xcomp-prop-heating-sn2,subj-agent-tension-sn1,def_prop(heating,[attivita]),def_prop(tension,[attivita,cambia,stato])])
+lf(Let's Submerge Lyrics.txt_12,79,cl14-nil-nil-lighten-[subj-patient-as_fast_as-sn2,and(as_fast_as,roll,sn2),def_prop(as_fast_as,[attivita])])
+lf(Let's Submerge Lyrics.txt_12,79,cl13-nil-nil-thunder-[obj-theme-as_fast_as-sn2,subj-agent-you-sn1,and(as_fast_as,roll,sn2),def_prop(as_fast_as,[attivita]),def_prop(you,[umano])])
+lf(Let's Submerge Lyrics.txt_13,93,cl15-nil-nil-get-[obj-theme_unaff-urge-sn2,subj-agent-you-sn1,aux-have-nil,def_prop(urge,[astratto,emotivo,informa]),def_prop(you,[umano])])
+lf(Let's Submerge Lyrics.txt_14,107,cl16-nil-nil-be-[xcomp-prop-pit-sn2,subj-theme_bound-subterranean-sn1,and(pit,bottomless,sn2),def_prop(pit,[astratto,oggetto,strumento]),def_prop(subterranean,[istituzione])])
+lf(Let's Submerge Lyrics.txt_15,122,_-nil-nil-come-[ncmod-prop-let-s-sn1,def_prop(let-s,[attivita])])
+lf(Let's Submerge Lyrics.txt_15,122,cl18-nil-nil-submerge-[xmod-prop-come-2])
+lf(Let's Submerge Lyrics.txt_15,122,cl17-nil-nil-come-[ncmod-prop-let-s-sn1,def_prop(let-s,[attivita])])
+lf(Let's Submerge Lyrics.txt_16,139,cl19-nil-nil-be-[ncmod-temporale-it-sn2,subj-theme_bound-vulture-sn1,and(vulture,vinyl,sn1),def_prop(it,[any]),def_prop(vulture,[animato])])
+lf(Let's Submerge Lyrics.txt_17,156,nil-nil-nil-sulphur-[obj-theme_aff-vapour-sn2,subj-agent-lava-sn1,and(lava,moulten,sn1),def_prop(vapour,[attivita,sostanza]),def_prop(lava,[sostanza])])
+lf(Let's Submerge Lyrics.txt_18,174,cl20-nil-nil-smoulder-[obj-theme-us-sn3,ncmod-locativo-obligerate-sn2,subj-actor-you-sn1,def_prop(us,[umano]),def_prop(obligerate,[istituzione]),def_prop(you,[umano])])
+lf(Let's Submerge Lyrics.txt_19,193,cl21-nil-nil-get-[obj-theme_unaff-urge-sn2,subj-agent-you-sn1,aux-have-nil,def_prop(urge,[astratto,emotivo,informa]),def_prop(you,[umano])])
+lf(Let's Submerge Lyrics.txt_20,213,_-nil-nil-come-[ncmod-prop-let-s-sn1,def_prop(let-s,[attivita])])
+lf(Let's Submerge Lyrics.txt_20,213,cl23-nil-nil-submerge-[xmod-prop-come-2])
+lf(Let's Submerge Lyrics.txt_20,213,cl22-nil-nil-come-[ncmod-prop-let-s-sn1,def_prop(let-s,[attivita])])

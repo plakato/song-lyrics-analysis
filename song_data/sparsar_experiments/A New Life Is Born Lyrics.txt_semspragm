@@ -1,0 +1,74 @@
+"POLARITY, DISCOURSE MARKERS"
+
+A New Life Is Born Lyrics.txt_1-1  []-positive  []
+A New Life Is Born Lyrics.txt_2-3  [when-temp_coinc]-suspension  []
+A New Life Is Born Lyrics.txt_3-6  [when-temp_coinc]-positive  []
+A New Life Is Born Lyrics.txt_4-10  []-positive  []
+A New Life Is Born Lyrics.txt_5-15  []-negative  [neg]
+A New Life Is Born Lyrics.txt_6-21  []-negative  [neg]
+A New Life Is Born Lyrics.txt_7-28  []-negative  [neg]
+A New Life Is Born Lyrics.txt_8-36  []-positive  []
+A New Life Is Born Lyrics.txt_9-45  []-positive  []
+A New Life Is Born Lyrics.txt_10-55  []-positive  []
+A New Life Is Born Lyrics.txt_11-66  []-negative  [neg]
+A New Life Is Born Lyrics.txt_12-78  []-positive  []
+A New Life Is Born Lyrics.txt_13-91  []-positive  []
+A New Life Is Born Lyrics.txt_14-105  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+A New Life Is Born Lyrics.txt_1-1  [a,New,Life,Born,is,Lyrics,by,queen]  [title]
+A New Life Is Born Lyrics.txt_2-3  [when,love,breaks,up]  [raise_issue(be,[_430796,_430802,statement,_430814,_430820])]
+A New Life Is Born Lyrics.txt_3-6  [when,the,dawn,lights,wakes,up]  [provide_expl_just(wake,[external,factive,explanation,background,objective])]
+A New Life Is Born Lyrics.txt_4-10  [a,new,life,is,born]  [provide_expl_just(bear,[external,factive,narration,background,objective])]
+A New Life Is Born Lyrics.txt_5-15  [there,is,no,waters,blowing,down]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+A New Life Is Born Lyrics.txt_6-21  [there,is,no,rain,to,the,sea]  [reject_expl_just(sea,[internal,factive,narration,background,objective])]
+A New Life Is Born Lyrics.txt_7-28  [get,lonely]  reject_expl_opin(nil,[])
+A New Life Is Born Lyrics.txt_8-36  [dee-dee,dee]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+A New Life Is Born Lyrics.txt_9-45  [dah,day,dah]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+A New Life Is Born Lyrics.txt_10-55  [dee-dee,dee,by,the,sea]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+A New Life Is Born Lyrics.txt_11-66  [there,is,muddy,waters]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+A New Life Is Born Lyrics.txt_12-78  [in,my,hands]  [provide_expl_just(hand,[external,factive,narration,background,objective])]
+A New Life Is Born Lyrics.txt_13-91  [across,the]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+A New Life Is Born Lyrics.txt_14-105  [dah,dah,dah]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(A New Life Is Born Lyrics.txt_1-1)-[]
+2-(A New Life Is Born Lyrics.txt_2-3)-[secondary-temporal_repere,emotions-affection,emotions-aggression]
+3-(A New Life Is Born Lyrics.txt_3-6)-[secondary-temporal_repere,primary-ascend,primary-vision,primary-counscious]
+4-(A New Life Is Born Lyrics.txt_4-10)-[]
+5-(A New Life Is Born Lyrics.txt_5-15)-[primary-water]
+6-(A New Life Is Born Lyrics.txt_6-21)-[primary-water,primary-water]
+7-(A New Life Is Born Lyrics.txt_7-28)-[emotions-sadness]
+half
+8-(A New Life Is Born Lyrics.txt_8-36)-[]
+9-(A New Life Is Born Lyrics.txt_9-45)-[]
+10-(A New Life Is Born Lyrics.txt_10-55)-[primary-water]
+11-(A New Life Is Born Lyrics.txt_11-66)-[primary-anality,primary-water]
+12-(A New Life Is Born Lyrics.txt_12-78)-[primary-narcissism]
+13-(A New Life Is Born Lyrics.txt_13-91)-[primary-concreteness]
+14-(A New Life Is Born Lyrics.txt_14-105)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(A New Life Is Born Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-queen-sn3,xcomp-prop-Lyrics-sn2,subj-theme_bound-Life-sn1,and(Lyrics,Born,sn2),and(Life,New,sn1),def_prop(queen,[animato,oggetto,plant,strumento,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(Life,[place,umano])])
+lf(A New Life Is Born Lyrics.txt_2,3,nil-nil-nil-break-[obj-theme-when-sn2,subj-agent-love-sn1,def_prop(when,[tempo]),def_prop(love,[astratto,emotivo,nquant])])
+lf(A New Life Is Born Lyrics.txt_3,6,cl2-nil-nil-wake-[adj-locative-up-nil,obj-theme-when-sn2,subj-actor-light-sn1,def_prop(when,[tempo]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(A New Life Is Born Lyrics.txt_4,10,cl3-nil-nil-bear-[subj-goal-you-sn1,aux-(is)-nil,def_prop(you,[umano])])
+lf(A New Life Is Born Lyrics.txt_5,15,cl4-nil-nil-be-[adj-(mod)-down-nil,xcomp-prop-water-sn2,subj-theme_bound-there-sn1,and(water,no,sn2),def_prop(water,[edible,oggetto,sostanza]),def_prop(there,[any])])
+lf(A New Life Is Born Lyrics.txt_6,21,cl5-nil-nil-be-[ncmod-loc_direct-sea-sn3,xcomp-prop-rain-sn2,subj-theme_bound-there-sn1,and(rain,no,sn2),def_prop(sea,[attivita,cambia,oggetto]),def_prop(rain,[astratto,attivita,cambia,sostanza]),def_prop(there,[any])])
+lf(A New Life Is Born Lyrics.txt_7,28,cl6-nil-nil-say-[obj-theme_unaff-get-sn1,def_prop(get,[informa,tecno])])
+lf(A New Life Is Born Lyrics.txt_8,36,cl7-nil-nil-be-[subj-theme_bound-dee-sn2,subj-theme_bound-dee-sn1,and(dee,you,sn1),def_prop(dee,[istituzione]),def_prop(dee,[istituzione])])
+lf(A New Life Is Born Lyrics.txt_9,45,cl8-nil-nil-be-[adj-temporal-day-nil,subj-theme_bound-dah-sn2,subj-theme_bound-dah-sn1,and(dah,dah,sn1),def_prop(dah,[attivita,informa]),def_prop(dah,[attivita,informa])])
+lf(A New Life Is Born Lyrics.txt_10,55,cl9-nil-nil-be-[arg_mod-agent-sea-sn2,subj-theme_bound-dee-sn1,and(dee,dee-dee,sn1),def_prop(sea,[attivita,cambia,oggetto]),def_prop(dee,[istituzione])])
+lf(A New Life Is Born Lyrics.txt_11,66,cl10-nil-nil-be-[xcomp-prop-water-sn2,subj-theme_bound-there-sn1,and(water,muddy,sn2),def_prop(water,[edible,oggetto,sostanza]),def_prop(there,[any])])
+lf(A New Life Is Born Lyrics.txt_12,78,cl11-nil-nil-hand-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(A New Life Is Born Lyrics.txt_13,91,cl12-nil-nil-say-[])
+lf(A New Life Is Born Lyrics.txt_14,105,cl13-nil-nil-be-[ncmod-modal-dah-sn2,subj-theme_bound-you-sn1,def_prop(dah,[attivita,informa]),def_prop(you,[umano])])

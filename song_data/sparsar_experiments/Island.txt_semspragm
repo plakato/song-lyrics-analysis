@@ -1,0 +1,181 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Island.txt_1-1  []-positive  []
+Island.txt_2-3  []-positive  []
+Island.txt_3-6  []-positive  []
+Island.txt_3-7  []-positive  []
+Island.txt_4-11  []-negative  [neg]
+Island.txt_5-16  []-positive  [fgb]
+Island.txt_6-23  []-suspension  [fgb]
+Island.txt_6-24  []-suspension  [fgb]
+Island.txt_7-30  [when-temp_coinc]-positive  [neg]
+Island.txt_8-40  []-positive  [fgb]
+Island.txt_8-41  []-positive  [fgb]
+Island.txt_9-50  [when-temp_coinc]-positive  []
+Island.txt_10-60  []-positive  []
+Island.txt_10-61  []-positive  []
+Island.txt_11-72  []-positive  []
+Island.txt_12-84  []-positive  []
+Island.txt_13-97  []-positive  []
+Island.txt_14-111  []-positive  []
+Island.txt_15-126  []-positive  []
+Island.txt_16-142  []-positive  []
+Island.txt_17-159  []-positive  []
+Island.txt_18-177  []-negative  [neg]
+Island.txt_19-196  []-positive  []
+Island.txt_20-216  []-positive  []
+Island.txt_21-237  []-positive  []
+Island.txt_22-259  []-negative  [neg]
+Island.txt_23-282  []-positive  []
+Island.txt_23-283  []-positive  []
+Island.txt_24-307  []-positive  [fgb]
+Island.txt_25-333  []-positive  [fgb]
+Island.txt_26-359  []-positive  []
+Island.txt_27-386  []-positive  []
+Island.txt_27-387  []-positive  []
+Island.txt_28-415  []-positive  []
+Island.txt_29-445  []-positive  []
+Island.txt_30-475  []-positive  []
+Island.txt_31-506  []-positive  []
+Island.txt_32-538  []-positive  []
+Island.txt_33-571  []-negative  [neg]
+Island.txt_34-605  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Island.txt_1-1  [island,by,Volcano,Choir]  [title]
+Island.txt_2-3  [you,Owen,are,home]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Island.txt_3-6  [the,sun,set]  [provide_expl_just(set,[external,factive,cause,foreground,objective])]
+Island.txt_3-7  [it,on,to,the,sky]  [provide_expl_just(set,[external,factive,cause,foreground,objective])]
+Island.txt_4-11  [with,a,long,catapult]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Island.txt_5-16  [and,the,salt,that,he,put,to,the,side]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(put,[external,factive,narration,foreground,objective])]
+Island.txt_6-23  [the,the,he,songs,tones,and,he,would,push]  [provide_expl_just(push,[external,nonfactive,narration,background,objective])]
+Island.txt_6-24  [and,would,push,to,the,side]  [provide_expl_just(push,[external,nonfactive,narration,background,objective])]
+Island.txt_7-30  [all,it,when,went,a,fuck,in,the,snow,that,gets,pushed,to,the,side]  [provide_expl_just(push,[external,factive,cause,foreground,objective]),provide_expl_just(go,[external,factive,narration,foreground,objective])]
+Island.txt_8-40  [well,your,heart,is,a,Bush]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Island.txt_8-41  [and,it,is,talking,too,with,some,size]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Island.txt_9-50  [when,you,already,all,of,the,soot,put,inside]  [provide_expl_just(put,[external,factive,narration,foreground,objective])]
+Island.txt_10-60  [they,were,already]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(push,[external,factive,narration,background,objective])]
+Island.txt_10-61  [smushed,with,a,calm,steady,push,to,the,side]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(push,[external,factive,narration,background,objective])]
+Island.txt_11-72  [all,that,your,heart,finds]  [provide_expl_just(find,[external,factive,narration,background,objective])]
+Island.txt_12-84  [on,with,your,wife,own]  [provide_expl_just(own,[external,factive,narration,background,objective])]
+Island.txt_13-97  [sign]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Island.txt_14-111  [up]  [raise_issue(be,[_702290,factive,statement,_702308,subjective])]
+Island.txt_15-126  [all]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Island.txt_16-142  [your]  [raise_issue(be,[_702970,factive,statement,_702988,subjective])]
+Island.txt_17-159  [relatives]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Island.txt_18-177  [only,a,harbor,mind]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Island.txt_19-196  [in,turpentine]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Island.txt_20-216  [i,am,the,reaper,Bahn]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Island.txt_21-237  [the,arrival,calm]  [provide_expl_just(calm,[external,factive,narration,background,objective])]
+Island.txt_22-259  [tear,it,to,the,night]  [reject_expl_just(tear,[external,factive,narration,background,objective])]
+Island.txt_23-282  [heart,is,said]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Island.txt_23-283  [you,boy]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Island.txt_24-307  [come,and,serve,it,with,an,omelette]  [provide_expl_just(come,[external,factive,result,background,objective]),provide_expl_just(serve,[external,factive,circumstance,background,objective])]
+Island.txt_25-333  [and,you,are,on,it]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Island.txt_26-359  [with,the,carpet]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Island.txt_27-386  [you,solved]  [provide_expl_just(solve,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Island.txt_27-387  [it]  [provide_expl_just(solve,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Island.txt_28-415  [said,you,are,corporate]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Island.txt_29-445  [your,orbit,set]  [provide_expl_just(set,[external,factive,cause,foreground,objective])]
+Island.txt_30-475  [your,coffin,set]  [provide_expl_just(set,[external,factive,cause,foreground,objective])]
+Island.txt_31-506  [its,often,said]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Island.txt_32-538  [that,your,old,fits]  [provide_expl_just(fit,[external,factive,narration,background,objective])]
+Island.txt_33-571  [your,old,tits,are]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Island.txt_34-605  [on,your,hard_drive]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Island.txt_1-1)-[]
+2-(Island.txt_2-3)-[]
+3-(Island.txt_3-6)-[primary-fire]
+4-(Island.txt_3-7)-[primary-height]
+5-(Island.txt_4-11)-[primary-concreteness]
+6-(Island.txt_5-16)-[primary-orality,primary-concreteness]
+7-(Island.txt_6-23)-[primary-sound]
+8-(Island.txt_6-24)-[primary-concreteness]
+9-(Island.txt_7-30)-[secondary-temporal_repere,primary-sex,primary-cold,primary-concreteness]
+10-(Island.txt_8-40)-[primary-narcissism]
+11-(Island.txt_8-41)-[]
+12-(Island.txt_9-50)-[secondary-temporal_repere,secondary-temporal_repere,primary-concreteness]
+13-(Island.txt_10-60)-[secondary-temporal_repere]
+14-(Island.txt_10-61)-[primary-passivity,primary-concreteness]
+15-(Island.txt_11-72)-[primary-narcissism,secondary-instru_behavior]
+16-(Island.txt_12-84)-[]
+17-(Island.txt_13-97)-[]
+18-(Island.txt_14-111)-[]
+19-(Island.txt_15-126)-[]
+20-(Island.txt_16-142)-[]
+half
+21-(Island.txt_17-159)-[]
+22-(Island.txt_18-177)-[]
+23-(Island.txt_19-196)-[]
+24-(Island.txt_20-216)-[]
+25-(Island.txt_21-237)-[primary-passivity]
+26-(Island.txt_22-259)-[primary-orality]
+27-(Island.txt_23-282)-[primary-narcissism,secondary-social_behavior]
+28-(Island.txt_23-283)-[]
+29-(Island.txt_24-307)-[]
+30-(Island.txt_25-333)-[]
+31-(Island.txt_26-359)-[]
+32-(Island.txt_27-386)-[]
+33-(Island.txt_27-387)-[]
+34-(Island.txt_28-415)-[secondary-social_behavior]
+35-(Island.txt_29-445)-[primary-random_movement]
+36-(Island.txt_30-475)-[]
+37-(Island.txt_31-506)-[secondary-temporal_repere,secondary-social_behavior]
+38-(Island.txt_32-538)-[secondary-temporal_repere]
+39-(Island.txt_33-571)-[secondary-temporal_repere,primary-orality]
+40-(Island.txt_34-605)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Island.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-choir-sn2,subj-theme_bound-island-sn1,and(choir,Volcano,sn2),def_prop(choir,[istituzione,oggetto,strumento]),def_prop(island,[oggetto,strumento])])
+lf(Island.txt_2,3,cl2-nil-nil-be-[xcomp-prop-home-sn2,subj-theme_bound-Owen-sn1,and(Owen,you,sn1),def_prop(home,[luogo]),def_prop(Owen,[place,umano])])
+lf(Island.txt_3,6,cl4-nil-nil-be-[ncmod-loc_direct-sky-sn3,subj-theme_bound-it-sn2,def_prop(sky,[oggetto]),def_prop(it,[any])])
+lf(Island.txt_3,6,cl3-nil-nil-set-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Island.txt_4,11,cl5-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Island.txt_5,16,cl7-nil-nil-put-[cmod-subord-be-",iobj-goal-side-sn3,def_prop(side,[astratto,attivita,body_part,edible,informa,luogo,oggetto,strumento,umano])])
+lf(Island.txt_5,16,cl6-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Island.txt_6,23,cl8-nil-would-push-[cmod-subord-push-",ncmod-goal-side-sn8,subj-agent-you-sn7,subj-agent-he-sn2,subj-agent-he-sn1,and(he,tone,sn1),def_prop(side,[astratto,attivita,body_part,edible,informa,luogo,oggetto,strumento,umano]),def_prop(you,[umano]),def_prop(he,[umano]),def_prop(he,[umano])])
+lf(Island.txt_7,30,cl11-nil-nil-get-[subj-agent-snow-sn5,def_prop(snow,_715318)])
+lf(Island.txt_7,30,cl10-nil-nil-push-[])
+lf(Island.txt_7,30,cl9-nil-nil-go-[iobj-goal-side-sn3,xmod-prop-push-cl10,obj-theme_aff-fuck-sn2,subj-agent-it-sn1,and(it,all,sn1),def_prop(side,[astratto,attivita,body_part,edible,informa,luogo,oggetto,strumento,umano]),def_prop(fuck,[attivita]),def_prop(it,[any])])
+lf(Island.txt_8,40,cl12-nil-nil-be-[expl-it-nil,cmod-coord-be-and,ncmod-comitativo-size-sn8,xcomp-prop-talking-sn7,xcomp-purpose-be-2,subj-theme_bound-it-sn6,adj-(mod)-well-nil,xcomp-prop-Bush-sn2,subj-theme_bound-hear-sn1,and(size,some,sn8),def_prop(size,[astratto,sostanza,stato]),def_prop(talking,[attivita,informa]),def_prop(it,[any]),def_prop(Bush,[place,umano]),def_prop(hear,[istituzione])])
+lf(Island.txt_9,50,cl13-nil-nil-put-[xcomp-prop-inside-sn4,obj-goal-all-sn3,obj-theme-when-sn2,subj-agent-you-sn1,def_prop(inside,[luogo]),def_prop(all,[_716070]),def_prop(when,[tempo]),def_prop(you,[umano])])
+lf(Island.txt_10,60,cl15-nil-nil-push-[ncmod-goal-side-sn5,ncmod-comitativo-steady-sn4,subj-agent-smushed-sn3,and(steady,calm,sn4),def_prop(side,[astratto,attivita,body_part,edible,informa,luogo,oggetto,strumento,umano]),def_prop(steady,[relat,sociale,umano]),def_prop(smushed,[istituzione])])
+lf(Island.txt_10,60,cl14-nil-nil-be-[xcomp-prop-already-sn2,subj-theme_bound-they-sn1,def_prop(already,[istituzione]),def_prop(they,[umano])])
+lf(Island.txt_11,72,cl16-nil-nil-find-[ccomp-prop-find-cl16,subj-actor-hear-sn1,def_prop(hear,[istituzione])])
+lf(Island.txt_12,84,nil-nil-nil-own-[obj-theme-wife-sn2,ncmod-modal-your-sn1,def_prop(wife,[umano]),def_prop(your,[evaluative])])
+lf(Island.txt_13,97,cl17-nil-nil-say-[obj-theme_unaff-sign-sn1,def_prop(sign,[attivita,informa,stato])])
+lf(Island.txt_14,111,cl18-nil-nil-say-[])
+lf(Island.txt_15,126,cl19-nil-nil-say-[obj-theme_unaff-all-sn1,def_prop(all,[_716864])])
+lf(Island.txt_16,142,cl20-nil-nil-say-[])
+lf(Island.txt_17,159,cl21-nil-nil-say-[obj-theme_unaff-relative-sn1,def_prop(relative,[animato,umano])])
+lf(Island.txt_18,177,cl22-nil-nil-be-[adj-(mod)-only-nil,subj-theme_bound-mind-sn2,subj-theme_bound-mind-sn1,and(mind,harbor,sn1),def_prop(mind,[astratto]),def_prop(mind,[astratto])])
+lf(Island.txt_19,196,cl23-nil-nil-say-[])
+lf(Island.txt_20,216,cl24-nil-nil-be-[obj2-benef-Bahn-sn3,xcomp-prop-reaper-sn2,subj-theme_bound-i-sn1,def_prop(Bahn,[istituzione,umano]),def_prop(reaper,[informa,relat,sociale,tecno,umano]),def_prop(i,[umano])])
+lf(Island.txt_21,237,cl25-nil-nil-calm-[subj-cause-you-sn1,def_prop(you,[umano])])
+lf(Island.txt_22,259,cl26-nil-nil-tear-[ncmod-modal-night-sn3,subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(night,[tempo]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Island.txt_23,282,cl28-nil-nil-be-[xcomp-prop-boy-sn3,subj-actor-you-sn2,def_prop(boy,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Island.txt_23,282,cl27-nil-nil-say-[subj-theme_unaff-you-sn1,aux-(is)-nil,def_prop(you,[umano])])
+lf(Island.txt_24,307,cl30-nil-nil-serve-[subj-theme_bound-it-sn2,subj-theme_bound-it-sn1,and(it,you,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Island.txt_24,307,cl29-nil-nil-come-[cmod-coord-serve-and,iobj-goal-omelette-sn3,subj-agent-pro-nil,def_prop(omelette,[edible])])
+lf(Island.txt_25,333,cl31-nil-nil-be-[cmod-subord-be-",ncmod-locativo-it-sn2,subj-theme_bound-you-sn1,def_prop(it,[any]),def_prop(you,[umano])])
+lf(Island.txt_26,359,cl32-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Island.txt_27,386,cl34-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Island.txt_27,386,cl33-nil-nil-solve-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Island.txt_28,415,cl36-nil-nil-be-[xcomp-prop-corporate-sn3,xcomp-purpose-be-2,def_prop(corporate,[legale])])
+lf(Island.txt_28,415,cl35-nil-nil-say-[subj-actor-you-sn2,subj-actor-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Island.txt_29,445,cl37-nil-nil-set-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Island.txt_30,475,cl38-nil-nil-set-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Island.txt_31,506,cl39-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Island.txt_32,538,cl40-nil-nil-fit-[subj-agent-old-sn1,def_prop(old,[tempo])])
+lf(Island.txt_33,571,cl41-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Island.txt_34,605,cl42-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])

@@ -1,0 +1,67 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Find the Way Lyrics.txt_1-1  []-positive  []
+Find the Way Lyrics.txt_2-3  []-positive  [bkc,bkc]
+Find the Way Lyrics.txt_3-6  []-positive  [bkc,bkc]
+Find the Way Lyrics.txt_4-10  []-positive  []
+Find the Way Lyrics.txt_5-15  []-negative  []
+Find the Way Lyrics.txt_5-16  [but-advers]-suspension  [fgb]
+Find the Way Lyrics.txt_6-22  []-positive  []
+Find the Way Lyrics.txt_7-30  []-suspension  [fgb,bkc]
+Find the Way Lyrics.txt_8-38  []-positive  []
+Find the Way Lyrics.txt_9-47  []-positive  [bkc,bkc]
+Find the Way Lyrics.txt_10-57  []-positive  []
+Find the Way Lyrics.txt_11-68  []-positive  [bkc,bkc]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Find the Way Lyrics.txt_1-1  [Way,find,the,Lyrics,by,Ty,Infinite]  [title]
+Find the Way Lyrics.txt_2-3  [yeah,,,yeah,!]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Find the Way Lyrics.txt_3-6  [yeah,,,yeah,Yo,!]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Find the Way Lyrics.txt_4-10  [Yo,,,uhn,!]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Find the Way Lyrics.txt_5-15  [this,castle,is,collapsing,quick]  [provide_expl_just(collapse,[external,factive,narration,foreground,objective]),provide_expl_just(find,[external,nonfactive,narration,background,objective])]
+Find the Way Lyrics.txt_5-16  [but,i,will,somehow,find,my_way]  [provide_expl_just(collapse,[external,factive,narration,foreground,objective]),provide_expl_just(find,[external,nonfactive,narration,background,objective])]
+Find the Way Lyrics.txt_6-22  [realign,the,scattered,bricks,i,am,built,for,this]  [provide_expl_just(realign,[external,factive,narration,background,objective])]
+Find the Way Lyrics.txt_7-30  [and,i,promise,it,will,be,okay]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Find the Way Lyrics.txt_8-38  [uhn,!]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Find the Way Lyrics.txt_9-47  [Yo,,,yeah,,,yeah,!]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Find the Way Lyrics.txt_10-57  [uhn,,,uhn,!]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Find the Way Lyrics.txt_11-68  [yeah,,,yeah,!]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Find the Way Lyrics.txt_1-1)-[secondary-instru_behavior]
+2-(Find the Way Lyrics.txt_2-3)-[]
+3-(Find the Way Lyrics.txt_3-6)-[]
+4-(Find the Way Lyrics.txt_4-10)-[]
+5-(Find the Way Lyrics.txt_5-15)-[emotions-glory,secondary-temporal_repere]
+6-(Find the Way Lyrics.txt_5-16)-[secondary-instru_behavior]
+half
+7-(Find the Way Lyrics.txt_6-22)-[secondary-instru_behavior]
+8-(Find the Way Lyrics.txt_7-30)-[secondary-social_behavior]
+9-(Find the Way Lyrics.txt_8-38)-[]
+10-(Find the Way Lyrics.txt_9-47)-[]
+11-(Find the Way Lyrics.txt_10-57)-[]
+12-(Find the Way Lyrics.txt_11-68)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Find the Way Lyrics.txt_1,1,cl1-nil-nil-find-[xadj-adj-Infinite-adj1,arg_mod-agent-Ty-sn2,subj-actor-Lyrics-sn1,and(Lyrics,Way,sn1),def_prop(Infinite,_57604),def_prop(Ty,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Find the Way Lyrics.txt_2,3,cl2-nil-nil-be-[])
+lf(Find the Way Lyrics.txt_3,6,cl3-nil-nil-be-[subj-theme_bound-Yo-sn1,def_prop(Yo,[umano])])
+lf(Find the Way Lyrics.txt_4,10,cl4-nil-nil-be-[xcomp-prop-Yo-sn1,and(Yo,uhn,sn1),def_prop(Yo,[umano])])
+lf(Find the Way Lyrics.txt_5,15,cl6-nil-will-find-[xcomp-prop-my_way-sn5,subj-actor-i-sn4,adj-(mod)-somehow-nil,def_prop(my_way,[astratto,attivita,informa,oggetto,stato,strumento,tecno]),def_prop(i,[umano])])
+lf(Find the Way Lyrics.txt_5,15,cl5-nil-nil-collapse-[xcomp-prop-quick-sn2,subj-agent-castle-sn1,aux-(is)-nil,progr-collapsing-nil,and(castle,this,sn1),def_prop(quick,[valutativo]),def_prop(castle,[attivita,oggetto,strumento])])
+lf(Find the Way Lyrics.txt_6,22,cl7-nil-nil-build-[subj-tema_aff-brick-sn2,aux-am-nil,and(brick,scattered,sn2),def_prop(brick,[oggetto,strumento,umano])])
+lf(Find the Way Lyrics.txt_6,22,nil-nil-nil-realign-[obj-theme-i-sn3,obj-experiencer-brick-sn2,subj-cause-you-sn1,and(brick,scattered,sn2),def_prop(i,[umano]),def_prop(brick,[oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Find the Way Lyrics.txt_7,30,cl8-nil-will-be-[cmod-subord-be-",xcomp-prop-okay-sn4,xcomp-theme-it-sn3,xcomp-prop-promise-sn2,subj-theme_bound-i-sn1,def_prop(okay,[attivita,informa]),def_prop(it,[any]),def_prop(promise,[astratto,attivita,informa]),def_prop(i,[umano])])
+lf(Find the Way Lyrics.txt_8,38,cl9-nil-nil-say-[obj-theme_unaff-uhn-sn1,def_prop(uhn,[istituzione])])
+lf(Find the Way Lyrics.txt_9,47,cl10-nil-nil-be-[])
+lf(Find the Way Lyrics.txt_10,57,cl11-nil-nil-be-[xcomp-prop-uhn-sn1,and(uhn,uhn,sn1),def_prop(uhn,[istituzione])])
+lf(Find the Way Lyrics.txt_11,68,cl12-nil-nil-be-[])

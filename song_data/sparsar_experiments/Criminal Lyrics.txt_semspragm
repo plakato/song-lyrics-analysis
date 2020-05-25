@@ -1,0 +1,235 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Criminal Lyrics.txt_1-1  []-negative  [neg]
+Criminal Lyrics.txt_2-3  []-positive  []
+Criminal Lyrics.txt_2-4  []-positive  []
+Criminal Lyrics.txt_2-5  []-negative  [neg]
+Criminal Lyrics.txt_2-6  []-positive  []
+Criminal Lyrics.txt_2-7  []-positive  []
+Criminal Lyrics.txt_3-9  []-positive  []
+Criminal Lyrics.txt_4-14  []-positive  []
+Criminal Lyrics.txt_4-15  []-positive  []
+Criminal Lyrics.txt_5-20  []-negative  [neg,neg]
+Criminal Lyrics.txt_5-21  []-positive  [bkc]
+Criminal Lyrics.txt_6-27  []-negative  []
+Criminal Lyrics.txt_6-28  []-negative  [fgb,neg]
+Criminal Lyrics.txt_6-29  []-positive  []
+Criminal Lyrics.txt_6-30  []-positive  [fgb]
+Criminal Lyrics.txt_7-37  []-positive  [neg,fgb,neg]
+Criminal Lyrics.txt_8-46  []-negative  [neg]
+Criminal Lyrics.txt_8-47  [but-advers]-positive  [fgb]
+Criminal Lyrics.txt_9-56  []-positive  [neg]
+Criminal Lyrics.txt_10-66  []-positive  []
+Criminal Lyrics.txt_10-67  []-positive  []
+Criminal Lyrics.txt_10-68  []-positive  []
+Criminal Lyrics.txt_11-79  []-negative  [neg,neg]
+Criminal Lyrics.txt_11-80  [since-cause]-positive  []
+Criminal Lyrics.txt_12-92  []-positive  [bkc]
+Criminal Lyrics.txt_12-93  []-negative  [neg]
+Criminal Lyrics.txt_12-94  []-positive  []
+Criminal Lyrics.txt_13-107  []-negative  []
+Criminal Lyrics.txt_14-122  []-negative  []
+Criminal Lyrics.txt_14-123  []-negative  [fgb,neg]
+Criminal Lyrics.txt_14-124  []-positive  []
+Criminal Lyrics.txt_14-125  []-positive  [fgb]
+Criminal Lyrics.txt_15-140  []-positive  [neg,fgb,neg]
+Criminal Lyrics.txt_16-157  []-negative  [neg]
+Criminal Lyrics.txt_16-158  [but-advers]-positive  [fgb]
+Criminal Lyrics.txt_17-175  []-positive  [neg,bkc]
+Criminal Lyrics.txt_18-193  []-negative  [neg]
+Criminal Lyrics.txt_19-212  [so-result]-positive  [fgb]
+Criminal Lyrics.txt_19-213  []-negative  [neg,neg]
+Criminal Lyrics.txt_19-214  []-positive  []
+Criminal Lyrics.txt_20-234  []-positive  [bkc,fgb]
+Criminal Lyrics.txt_20-235  [so-result]-positive  [fgb]
+Criminal Lyrics.txt_20-236  []-positive  []
+Criminal Lyrics.txt_21-257  []-negative  []
+Criminal Lyrics.txt_21-258  []-negative  [fgb,neg]
+Criminal Lyrics.txt_21-259  []-positive  []
+Criminal Lyrics.txt_22-281  []-positive  [neg,fgb,neg]
+Criminal Lyrics.txt_23-305  []-negative  [neg]
+Criminal Lyrics.txt_23-306  [but-advers]-positive  [fgb]
+Criminal Lyrics.txt_24-330  []-positive  [neg]
+Criminal Lyrics.txt_25-355  []-negative  [neg,bkc]
+Criminal Lyrics.txt_26-382  []-negative  [neg]
+Criminal Lyrics.txt_27-409  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Criminal Lyrics.txt_1-1  [criminal,Lyrics,by,Tyler,Farr]  [title]
+Criminal Lyrics.txt_2-3  [i,thought]  [provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(lock,[external,factive,cause,foreground,objective])]
+Criminal Lyrics.txt_2-4  [i,had]  [provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(lock,[external,factive,cause,foreground,objective])]
+Criminal Lyrics.txt_2-5  [it,locked,up,tight]  [reject_expl_just(have,[external,factive,narration,foreground,objective]),reject_expl_just(lock,[external,factive,cause,foreground,objective])]
+Criminal Lyrics.txt_2-6  [,,had]  [provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(lock,[external,factive,cause,foreground,objective])]
+Criminal Lyrics.txt_2-7  [the,only,key,to,my,life]  [provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(lock,[external,factive,cause,foreground,objective])]
+Criminal Lyrics.txt_3-9  [thought,i,built,the,walls,high,enough]  [provide_expl_just(think,[external,factive,narration,foreground,objective])]
+Criminal Lyrics.txt_4-14  [i,was,king,of,the,neon]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(wear,[external,factive,narration,foreground,objective])]
+Criminal Lyrics.txt_4-15  [lights,,,wore,the,crown,on,Friday,nights]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(wear,[external,factive,narration,foreground,objective])]
+Criminal Lyrics.txt_5-20  [i,was,winning,the,losing,fight,til]  [accept_expl_opin(win,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_5-21  [you,showed,up,yeah]  [accept_expl_opin(win,[external,factive,narration,background,objective]),provide_expl_just(win,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_6-27  [you,kicked,my,door,in]  [provide_expl_just(kick,[external,factive,cause,foreground,objective]),provide_expl_just(heart,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_6-28  [and,stole]  [reject_expl_just(kick,[external,factive,cause,foreground,objective]),reject_expl_just(heart,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_6-29  [my,heart,away]  [provide_expl_just(kick,[external,factive,cause,foreground,objective]),provide_expl_just(heart,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_6-30  [and]  [provide_expl_just(kick,[external,factive,cause,foreground,objective]),provide_expl_just(heart,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_7-37  [took,all,my,lonely,nights,and,ran,off,with,my,bad,days]  [provide_expl_just(run,[external,factive,cause,foreground,objective])]
+Criminal Lyrics.txt_8-46  [you,girl,didn-t,leave,nothing]  [reject_expl_just(leave,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_8-47  [but,the,wonderful]  [provide_expl_just(leave,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_9-56  [you,are,a,beautiful,criminal]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_10-66  [you,howed,get,away,with,this]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Criminal Lyrics.txt_10-67  [,,i,thought]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Criminal Lyrics.txt_10-68  [it,was,just,a,kiss]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Criminal Lyrics.txt_11-79  [i,is,not,not]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(lay,[external,factive,narration,foreground,objective])]
+Criminal Lyrics.txt_11-80  [been,the,same,since,you,laid,it,on,me]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(lay,[external,factive,narration,foreground,objective])]
+Criminal Lyrics.txt_12-92  [yeah,baby]  [provide_expl_just(baby,[external,factive,narration,background,objective]),provide_expl_just(wreck,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_12-93  [you,wrecked,this,place,with,just]  [reject_expl_just(baby,[external,factive,narration,background,objective]),reject_expl_just(wreck,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_12-94  [a,smile,on,pretty,your,face]  [provide_expl_just(baby,[external,factive,narration,background,objective]),provide_expl_just(wreck,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_13-107  [it,is,all,changed,didn-t,leave,a,trace,of,the,old,me,,,baby]  [provide_expl_just(leave,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_14-122  [you,kicked,my,door,in]  [provide_expl_just(kick,[external,factive,cause,foreground,objective]),provide_expl_just(heart,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_14-123  [and,stole]  [reject_expl_just(kick,[external,factive,cause,foreground,objective]),reject_expl_just(heart,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_14-124  [my,heart,away]  [provide_expl_just(kick,[external,factive,cause,foreground,objective]),provide_expl_just(heart,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_14-125  [and]  [provide_expl_just(kick,[external,factive,cause,foreground,objective]),provide_expl_just(heart,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_15-140  [took,all,my,lonely,nights,and,ran,off,with,my,bad,days]  [provide_expl_just(run,[external,factive,cause,foreground,objective])]
+Criminal Lyrics.txt_16-157  [you,girl,didn-t,leave,nothing]  [reject_expl_just(leave,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_16-158  [but,the,wonderful]  [provide_expl_just(leave,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_17-175  [you,are,a,beautiful,criminal,yeah]  [accept_expl_opin(be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_18-193  [you,are,a,criminal]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_19-212  [so,take,it,all,girl]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(stop,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_19-213  [,,i,will,not,stop]  [reject_expl_just(take,[external,factive,narration,background,objective]),reject_expl_just(stop,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_19-214  [you]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(stop,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_20-234  [oh,and,i,am]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Criminal Lyrics.txt_20-235  [so,glad,that,i,caught,you,now,i,got]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Criminal Lyrics.txt_20-236  [you]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Criminal Lyrics.txt_21-257  [you,kicked,my,door,in]  [provide_expl_just(kick,[external,factive,cause,foreground,objective]),provide_expl_just(heart,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_21-258  [and,stole]  [reject_expl_just(kick,[external,factive,cause,foreground,objective]),reject_expl_just(heart,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_21-259  [my,heart,away]  [provide_expl_just(kick,[external,factive,cause,foreground,objective]),provide_expl_just(heart,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_22-281  [took,all,my,lonely,nights,and,ran,off,with,my,bad,days]  [provide_expl_just(run,[external,factive,cause,foreground,objective])]
+Criminal Lyrics.txt_23-305  [you,didn-t,leave,nothing]  [reject_expl_just(leave,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_23-306  [but,the,wonderful]  [provide_expl_just(leave,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_24-330  [you,are,a,beautiful,criminal]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_25-355  [baby,you,are,a,criminal,,,yeah]  [accept_expl_opin(be,[external,factive,narration,background,objective]),accept_expl_opin(baby,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_26-382  [you,are,a,criminal]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Criminal Lyrics.txt_27-409  [you,are,a,criminal]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Criminal Lyrics.txt_1-1)-[]
+2-(Criminal Lyrics.txt_2-3)-[secondary-abstract_tought]
+3-(Criminal Lyrics.txt_2-4)-[]
+4-(Criminal Lyrics.txt_2-5)-[secondary-restraint]
+5-(Criminal Lyrics.txt_2-6)-[]
+6-(Criminal Lyrics.txt_2-7)-[]
+7-(Criminal Lyrics.txt_3-9)-[secondary-abstract_tought,secondary-instru_behavior,primary-brink,primary-height]
+8-(Criminal Lyrics.txt_4-14)-[]
+9-(Criminal Lyrics.txt_4-15)-[primary-vision,emotions-glory]
+10-(Criminal Lyrics.txt_5-20)-[secondary-instru_behavior,emotions-aggression]
+11-(Criminal Lyrics.txt_5-21)-[]
+12-(Criminal Lyrics.txt_6-27)-[emotions-aggression,primary-brink]
+13-(Criminal Lyrics.txt_6-28)-[emotions-aggression]
+14-(Criminal Lyrics.txt_6-29)-[primary-narcissism,primary-concreteness]
+15-(Criminal Lyrics.txt_6-30)-[]
+16-(Criminal Lyrics.txt_7-37)-[emotions-sadness,primary-concreteness]
+17-(Criminal Lyrics.txt_8-46)-[]
+18-(Criminal Lyrics.txt_8-47)-[emotions-glory]
+19-(Criminal Lyrics.txt_9-56)-[primary-gen_sensation]
+20-(Criminal Lyrics.txt_10-66)-[primary-concreteness]
+21-(Criminal Lyrics.txt_10-67)-[secondary-abstract_tought]
+22-(Criminal Lyrics.txt_10-68)-[primary-sex]
+23-(Criminal Lyrics.txt_11-79)-[]
+24-(Criminal Lyrics.txt_11-80)-[primary-passivity]
+25-(Criminal Lyrics.txt_12-92)-[]
+26-(Criminal Lyrics.txt_12-93)-[emotions-aggression,primary-concreteness]
+half
+27-(Criminal Lyrics.txt_12-94)-[emotions-positive_affect,primary-gen_sensation,primary-narcissism]
+28-(Criminal Lyrics.txt_13-107)-[secondary-temporal_repere]
+29-(Criminal Lyrics.txt_14-122)-[emotions-aggression,primary-brink]
+30-(Criminal Lyrics.txt_14-123)-[emotions-aggression]
+31-(Criminal Lyrics.txt_14-124)-[primary-narcissism,primary-concreteness]
+32-(Criminal Lyrics.txt_14-125)-[]
+33-(Criminal Lyrics.txt_15-140)-[emotions-sadness,primary-concreteness]
+34-(Criminal Lyrics.txt_16-157)-[]
+35-(Criminal Lyrics.txt_16-158)-[emotions-glory]
+36-(Criminal Lyrics.txt_17-175)-[primary-gen_sensation]
+37-(Criminal Lyrics.txt_18-193)-[]
+38-(Criminal Lyrics.txt_19-212)-[]
+39-(Criminal Lyrics.txt_19-213)-[secondary-restraint]
+40-(Criminal Lyrics.txt_19-214)-[]
+41-(Criminal Lyrics.txt_20-234)-[]
+42-(Criminal Lyrics.txt_20-235)-[emotions-positive_affect,secondary-restraint,secondary-temporal_repere]
+43-(Criminal Lyrics.txt_20-236)-[]
+44-(Criminal Lyrics.txt_21-257)-[emotions-aggression,primary-brink]
+45-(Criminal Lyrics.txt_21-258)-[emotions-aggression]
+46-(Criminal Lyrics.txt_21-259)-[primary-narcissism,primary-concreteness]
+47-(Criminal Lyrics.txt_22-281)-[emotions-sadness,primary-concreteness]
+48-(Criminal Lyrics.txt_23-305)-[]
+49-(Criminal Lyrics.txt_23-306)-[emotions-glory]
+50-(Criminal Lyrics.txt_24-330)-[primary-gen_sensation]
+51-(Criminal Lyrics.txt_25-355)-[]
+52-(Criminal Lyrics.txt_26-382)-[]
+53-(Criminal Lyrics.txt_27-409)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Criminal Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Farr-sn2,subj-theme_bound-Lyrics-sn1,and(Farr,Tyler,sn2),and(Lyrics,criminal,sn1),def_prop(Farr,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Criminal Lyrics.txt_2,3,cl5-nil-nil-key-[adj-(mod)-only-nil,iobj-goal-life-sn6,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Criminal Lyrics.txt_2,3,cl4-nil-nil-lock-[adj-(mod)-up-nil,xcomp-prop-tight-sn4,subj-agent-it-sn3,def_prop(tight,[evaluative]),def_prop(it,[any])])
+lf(Criminal Lyrics.txt_2,3,cl3-nil-nil-have-[subj-experiencer-pro-nil,subj-experiencer-i-sn2,def_prop(i,[umano])])
+lf(Criminal Lyrics.txt_2,3,cl2-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_3,9,cl7-nil-nil-build-[obj-theme_aff-wall-sn3,xcomp-purpose-build-2,def_prop(wall,[body_part,oggetto,stato,strumento,umano])])
+lf(Criminal Lyrics.txt_3,9,cl6-nil-nil-think-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Criminal Lyrics.txt_4,14,cl9-nil-nil-wear-[ncmod-temporale-female-sn5,obj-theme_unaff-crown-sn4,subj-experiencer-light-sn3,ncmod-specif-neon-sn2,and(female,Friday,sn5),def_prop(female,[tempo]),def_prop(crown,[astratto,body_part,oggetto,plant,strumento,umano]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(neon,[sostanza])])
+lf(Criminal Lyrics.txt_4,14,cl8-nil-nil-be-[subj-theme_bound-i-sn1,aux-was-nil,progr-king-nil,def_prop(i,[umano])])
+lf(Criminal Lyrics.txt_5,20,cl11-nil-nil-show-[adj-locative-yeah-nil,adj-locative-up-nil,subj-actor-you-sn6,def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_5,20,cl10-nil-nil-win-[obj-theme_unaff-til-sn2,subj-actor-i-sn1,aux-was-nil,progr-winning-nil,and(til,losing,sn2),and(til,fight,sn2),def_prop(til,[informa,tecno]),def_prop(i,[umano])])
+lf(Criminal Lyrics.txt_6,27,cl14-nil-nil-be-[])
+lf(Criminal Lyrics.txt_6,27,nil-nil-nil-heart-[xcomp-prop-away-sn7,subj-agent-my-sn6,def_prop(away,[evaluative]),def_prop(my,[informa,tecno])])
+lf(Criminal Lyrics.txt_6,27,cl13-nil-nil-steal-[subj-agent-you-sn5,def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_6,27,cl12-nil-nil-kick-[obj-theme-door-sn2,subj-actor-you-sn1,def_prop(door,[astratto,oggetto,strumento]),def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_7,37,cl16-nil-nil-run-[cmod-coord-run-and,iobj-goal-bad-sn13,adj-locative-days-nil,adj-locative-off-nil,iobj-goal-bad-sn7,subj-agent-you-sn6,def_prop(bad,[astratto]),def_prop(days,[tempo]),def_prop(off,[istituzione]),def_prop(bad,[astratto]),def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_7,37,cl15-nil-nil-take-[obj-theme_aff-female-sn2,subj-agent-you-sn1,and(female,all,sn2),and(female,lonely,sn2),def_prop(female,[tempo]),def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_8,46,cl18-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_8,46,cl17-not-nil-leave-[obj-theme-nothing-sn2,subj-theme-girl-sn1,aux-did-nil,and(girl,you,sn1),def_prop(nothing,[astratto,informa,oggetto]),def_prop(girl,[oggetto,strumento])])
+lf(Criminal Lyrics.txt_9,56,cl19-nil-nil-be-[xcomp-prop-criminal-sn2,subj-theme_bound-you-sn1,and(criminal,beautiful,sn2),def_prop(criminal,[umano]),def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_10,66,cl22-nil-nil-be-[adj-(mod)-just-nil,xcomp-prop-kiss-sn7,subj-theme_bound-it-sn6,def_prop(kiss,[attivita,edible,oggetto]),def_prop(it,[any])])
+lf(Criminal Lyrics.txt_10,66,cl21-nil-nil-think-[subj-agent-you-sn5,def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_10,66,cl20-nil-nil-get-[adj-(mod)-away-nil,ncmod-comitativo-this-sn2,subj-theme_bound-howed-sn1,and(howed,you,sn1),def_prop(this,[oggetto,umano]),def_prop(howed,[istituzione])])
+lf(Criminal Lyrics.txt_11,79,cl24-nil-nil-lay-[cmod-subord-lay-since,ncmod-locativo-me-sn5,subj-experiencer-it-sn4,subj-experiencer-it-sn3,and(it,you,sn3),def_prop(me,[umano]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Criminal Lyrics.txt_11,79,cl23-not-nil-be-[subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Criminal Lyrics.txt_12,92,cl27-nil-nil-be-[ncmod-locativo-face-sn7,subj-theme_bound-smile-sn6,def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(smile,[attivita,informa])])
+lf(Criminal Lyrics.txt_12,92,cl26-nil-nil-wreck-[ncmod-modal-just-sn4,obj-theme_aff-place-sn3,subj-agent-you-sn2,and(place,this,sn3),def_prop(just,[informa,tecno]),def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_12,92,cl25-nil-nil-baby-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_13,107,cl29-not-nil-leave-[obj2-paziente-me-sn10,xcomp-prop-trace-sn9,subj-theme-baby-sn8,obj-theme-baby-sn5,obj2-paziente-me-sn4,xcomp-prop-trace-sn3,subj-theme-change-sn2,aux-did-nil,and(change,all,sn2),def_prop(me,[umano]),def_prop(trace,[attivita,informa,nquant,oggetto,strumento]),def_prop(baby,[animato,any,attivita,plant]),def_prop(baby,[animato,any,attivita,plant]),def_prop(me,[umano]),def_prop(trace,[attivita,informa,nquant,oggetto,strumento]),def_prop(change,[astratto,attivita,cambia,evento,oggetto,relat,strumento])])
+lf(Criminal Lyrics.txt_13,107,cl28-nil-nil-be-[subj-theme_bound-it-sn1,def_prop(it,[any])])
+lf(Criminal Lyrics.txt_14,122,cl32-nil-nil-be-[])
+lf(Criminal Lyrics.txt_14,122,nil-nil-nil-heart-[xcomp-prop-away-sn7,subj-agent-my-sn6,def_prop(away,[evaluative]),def_prop(my,[informa,tecno])])
+lf(Criminal Lyrics.txt_14,122,cl31-nil-nil-steal-[subj-agent-you-sn5,def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_14,122,cl30-nil-nil-kick-[obj-theme-door-sn2,subj-actor-you-sn1,def_prop(door,[astratto,oggetto,strumento]),def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_15,140,cl34-nil-nil-run-[cmod-coord-run-and,iobj-goal-bad-sn13,adj-locative-days-nil,adj-locative-off-nil,iobj-goal-bad-sn7,subj-agent-you-sn6,def_prop(bad,[astratto]),def_prop(days,[tempo]),def_prop(off,[istituzione]),def_prop(bad,[astratto]),def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_15,140,cl33-nil-nil-take-[obj-theme_aff-female-sn2,subj-agent-you-sn1,and(female,all,sn2),and(female,lonely,sn2),def_prop(female,[tempo]),def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_16,157,cl36-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_16,157,cl35-not-nil-leave-[obj-theme-nothing-sn2,subj-theme-girl-sn1,aux-did-nil,and(girl,you,sn1),def_prop(nothing,[astratto,informa,oggetto]),def_prop(girl,[oggetto,strumento])])
+lf(Criminal Lyrics.txt_17,175,cl37-nil-nil-be-[adj-(mod)-yeah-nil,xcomp-prop-criminal-sn2,subj-theme_bound-you-sn1,and(criminal,beautiful,sn2),def_prop(criminal,[umano]),def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_18,193,cl38-nil-nil-be-[xcomp-prop-criminal-sn2,subj-theme_bound-you-sn1,def_prop(criminal,[umano]),def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_19,212,cl41-nil-nil-be-[subj-theme_bound-you-sn7,def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_19,212,cl40-not-will-stop-[subj-agent-you-sn6,def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_19,212,cl39-nil-nil-take-[expl-it-nil,obj-theme_aff-girl-sn3,subj-agent-it-sn2,subj-agent-it-sn1,and(girl,all,sn3),and(it,you,sn1),def_prop(girl,[oggetto,strumento]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Criminal Lyrics.txt_20,234,cl44-nil-nil-get-[subj-theme_bound-i-sn4,def_prop(i,[umano])])
+lf(Criminal Lyrics.txt_20,234,cl43-nil-nil-catch-[])
+lf(Criminal Lyrics.txt_20,234,cl42-nil-nil-be-[subj-theme_bound-you-sn5,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(i,you,sn1),def_prop(you,[umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Criminal Lyrics.txt_21,257,nil-nil-nil-heart-[xcomp-prop-away-sn7,subj-agent-my-sn6,def_prop(away,[evaluative]),def_prop(my,[informa,tecno])])
+lf(Criminal Lyrics.txt_21,257,cl46-nil-nil-steal-[subj-agent-you-sn5,def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_21,257,cl45-nil-nil-kick-[obj-theme-door-sn2,subj-actor-you-sn1,def_prop(door,[astratto,oggetto,strumento]),def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_22,281,cl48-nil-nil-run-[cmod-coord-run-and,iobj-goal-bad-sn13,adj-locative-days-nil,adj-locative-off-nil,iobj-goal-bad-sn7,subj-agent-you-sn6,def_prop(bad,[astratto]),def_prop(days,[tempo]),def_prop(off,[istituzione]),def_prop(bad,[astratto]),def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_22,281,cl47-nil-nil-take-[obj-theme_aff-female-sn2,subj-agent-you-sn1,and(female,all,sn2),and(female,lonely,sn2),def_prop(female,[tempo]),def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_23,305,cl50-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_23,305,cl49-not-nil-leave-[obj-theme-nothing-sn2,subj-theme-you-sn1,aux-did-nil,def_prop(nothing,[astratto,informa,oggetto]),def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_24,330,cl51-nil-nil-be-[xcomp-prop-criminal-sn2,subj-theme_bound-you-sn1,and(criminal,beautiful,sn2),def_prop(criminal,[umano]),def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_25,355,cl53-nil-nil-be-[ncmod-modal-yeah-sn5,xcomp-prop-criminal-sn3,xcomp-purpose-be-2,def_prop(yeah,[istituzione]),def_prop(criminal,[umano])])
+lf(Criminal Lyrics.txt_25,355,cl52-nil-nil-baby-[adj-(mod)-yeah-nil,subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(yeah,[istituzione]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_26,382,cl54-nil-nil-be-[xcomp-prop-criminal-sn2,subj-theme_bound-you-sn1,def_prop(criminal,[umano]),def_prop(you,[umano])])
+lf(Criminal Lyrics.txt_27,409,cl55-nil-nil-be-[xcomp-prop-criminal-sn2,subj-theme_bound-you-sn1,def_prop(criminal,[umano]),def_prop(you,[umano])])

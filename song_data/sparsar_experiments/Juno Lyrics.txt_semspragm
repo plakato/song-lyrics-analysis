@@ -1,0 +1,84 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Juno Lyrics.txt_1-1  []-positive  []
+Juno Lyrics.txt_2-3  []-suspension  []
+Juno Lyrics.txt_3-7  []-negative  []
+Juno Lyrics.txt_4-11  []-positive  [fgb]
+Juno Lyrics.txt_4-12  []-positive  []
+Juno Lyrics.txt_4-13  []-positive  []
+Juno Lyrics.txt_5-19  []-suspension  [neg]
+Juno Lyrics.txt_6-25  []-negative  [neg]
+Juno Lyrics.txt_7-32  []-negative  [neg]
+Juno Lyrics.txt_8-40  [but-advers,when-temp_coinc]-positive  [fgb]
+Juno Lyrics.txt_9-49  []-negative  [neg]
+Juno Lyrics.txt_10-59  []-positive  []
+Juno Lyrics.txt_11-70  []-positive  [fgb]
+Juno Lyrics.txt_11-71  []-positive  []
+Juno Lyrics.txt_12-83  [when-temp_coinc]-negative  [neg]
+Juno Lyrics.txt_13-96  [before-temp_prec]-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Juno Lyrics.txt_1-1  [Juno,Lyrics,by,Wolfgun]  [title]
+Juno Lyrics.txt_2-3  [the,troubles,that,we,know,are,hidden,under,starlight]  [provide_expl_just(hide,[external,factive,explanation,background,objective]),provide_expl_just(know,[external,factive,explanation,background,objective]),suggest(know,_124988)]
+Juno Lyrics.txt_3-7  [buried,in,its,glow]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Juno Lyrics.txt_4-11  [and,i,have,tried,to,let]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Juno Lyrics.txt_4-12  [you,know]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Juno Lyrics.txt_4-13  [that,everything,is,alright]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Juno Lyrics.txt_5-19  [sunken,under,shadows]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Juno Lyrics.txt_6-25  [a,war,between,the,stars]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Juno Lyrics.txt_7-32  [a,tempest,through,the,years]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Juno Lyrics.txt_8-40  [but,when,the,dawn,had,come]  [proposal(be,[_142484,_142490,statement,foreground,_142508])]
+Juno Lyrics.txt_9-49  [we,laid,to,rest,our,fears]  [reject_expl_just(lay,[external,factive,narration,foreground,objective])]
+Juno Lyrics.txt_10-59  [i,saw,the,end,of,days]  [raise_issue(be,[_143104,factive,statement,_143122,subjective])]
+Juno Lyrics.txt_11-70  [and,watched]  [provide_expl_just(watch,[external,factive,narration,foreground,objective])]
+Juno Lyrics.txt_11-71  [the,lights,arise]  [provide_expl_just(watch,[external,factive,narration,foreground,objective])]
+Juno Lyrics.txt_12-83  [when,Titan,fell,from,heaven]  [reject_expl_just(fall,[external,factive,cause,foreground,objective])]
+Juno Lyrics.txt_13-96  [and,stood,before,our,eyes]  [provide_expl_just(stand,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Juno Lyrics.txt_1-1)-[]
+2-(Juno Lyrics.txt_2-3)-[emotions-anxiety,secondary-abstract_tought,primary-depth,primary-vision]
+3-(Juno Lyrics.txt_3-7)-[primary-descent,primary-vision]
+4-(Juno Lyrics.txt_4-11)-[secondary-instru_behavior]
+5-(Juno Lyrics.txt_4-12)-[secondary-abstract_tought]
+6-(Juno Lyrics.txt_4-13)-[]
+7-(Juno Lyrics.txt_5-19)-[primary-descent,primary-depth,primary-diffusion]
+8-(Juno Lyrics.txt_6-25)-[emotions-aggression,primary-concreteness,primary-vision]
+half
+9-(Juno Lyrics.txt_7-32)-[secondary-temporal_repere]
+10-(Juno Lyrics.txt_8-40)-[secondary-temporal_repere,primary-ascend]
+11-(Juno Lyrics.txt_9-49)-[primary-passivity,primary-passivity,emotions-anxiety]
+12-(Juno Lyrics.txt_10-59)-[primary-vision]
+13-(Juno Lyrics.txt_11-70)-[primary-vision]
+14-(Juno Lyrics.txt_11-71)-[primary-vision,primary-ascend]
+15-(Juno Lyrics.txt_12-83)-[secondary-temporal_repere,primary-descent,primary-height]
+16-(Juno Lyrics.txt_13-96)-[primary-narcissism]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Juno Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wolfgun-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Juno,sn1),def_prop(Wolfgun,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Juno Lyrics.txt_2,3,cl3-nil-nil-know-[obj-theme_unaff-trouble-sn1,def_prop(trouble,[astratto,attivita,evento,stato])])
+lf(Juno Lyrics.txt_2,3,cl2-nil-nil-hide-[ncmod-modal-starlight-sn2,subj-patient-trouble-sn1,aux-are-nil,def_prop(starlight,[attivita,cambia]),def_prop(trouble,[astratto,attivita,evento,stato])])
+lf(Juno Lyrics.txt_3,7,cl4-nil-nil-be-[xadj-adj-buried-adj1,ncmod-temporale-glow-sn1,def_prop(buried,_145452),def_prop(glow,[attivita,cambia,emotivo])])
+lf(Juno Lyrics.txt_4,11,cl8-nil-nil-be-[adj-(mod)-alright-nil,subj-theme_bound-everything-sn3,cmod-subord-be-",def_prop(everything,[astratto,informa,oggetto])])
+lf(Juno Lyrics.txt_4,11,cl7-nil-nil-know-[subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Juno Lyrics.txt_4,11,cl6-nil-nil-let-[adj-(mod)-know-nil,subj-tema_nonaff-i-sn1,def_prop(i,[umano])])
+lf(Juno Lyrics.txt_4,11,cl5-nil-nil-try-[subj-actor-i-sn1,aux-have-nil,def_prop(i,[umano])])
+lf(Juno Lyrics.txt_5,19,cl9-nil-nil-be-[xadj-adj-sunken-adj2,ncmod-stato-shadow-sn1,def_prop(sunken,_145968),def_prop(shadow,[astratto,emotivo,stato,umano])])
+lf(Juno Lyrics.txt_6,25,cl10-nil-nil-be-[ncmod-relation-star-sn2,subj-theme_bound-you-sn1,def_prop(star,[astratto,oggetto,umano]),def_prop(you,[umano])])
+lf(Juno Lyrics.txt_7,32,cl11-nil-nil-be-[ncmod-modal-years-sn2,subj-theme_bound-tempest-sn1,def_prop(years,[tempo]),def_prop(tempest,[attivita,cambia])])
+lf(Juno Lyrics.txt_8,40,cl12-nil-nil-come-[cmod-subord-come-when,subj-agent-you-sn1,aux-had-nil,def_prop(you,[umano])])
+lf(Juno Lyrics.txt_9,49,cl13-nil-nil-lay-[xadj-theme-fear-sn3,iobj-goal-res-sn2,subj-experiencer-we-sn1,def_prop(fear,[emotivo]),def_prop(res,[informa,tecno]),def_prop(we,[umano])])
+lf(Juno Lyrics.txt_10,59,cl14-nil-nil-see-[obj-actor-end-sn2,subj-experiencer-i-sn1,def_prop(end,[tempo]),def_prop(i,[umano])])
+lf(Juno Lyrics.txt_11,70,cl16-nil-nil-arise-[subj-theme-light-sn2,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(Juno Lyrics.txt_11,70,cl15-nil-nil-watch-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Juno Lyrics.txt_12,83,cl17-nil-nil-fall-[iobj-goal-heaven-sn3,obj-theme-when-sn2,subj-agent-Titan-sn1,def_prop(heaven,[luogo]),def_prop(when,[tempo]),def_prop(Titan,[oggetto,umano])])
+lf(Juno Lyrics.txt_13,96,cl18-nil-nil-stand-[cmod-subord-stand-",adj-(mod)-before-nil,adj-subj_disc-before-sn3,obj-tema_emot-eye-sn2,subj-experiencer-you-sn1,def_prop(before,[istituzione]),def_prop(before,[istituzione]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(you,[umano])])

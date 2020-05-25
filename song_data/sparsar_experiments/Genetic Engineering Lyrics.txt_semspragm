@@ -1,0 +1,95 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Genetic Engineering Lyrics.txt_1-1  []-positive  []
+Genetic Engineering Lyrics.txt_2-3  []-positive  []
+Genetic Engineering Lyrics.txt_3-6  []-negative  [neg]
+Genetic Engineering Lyrics.txt_4-10  []-positive  []
+Genetic Engineering Lyrics.txt_4-11  []-negative  [neg]
+Genetic Engineering Lyrics.txt_5-16  []-positive  [neg]
+Genetic Engineering Lyrics.txt_6-22  [(as)-temp_coinc]-negative  []
+Genetic Engineering Lyrics.txt_7-29  []-positive  []
+Genetic Engineering Lyrics.txt_8-37  []-negative  [neg]
+Genetic Engineering Lyrics.txt_9-46  []-positive  []
+Genetic Engineering Lyrics.txt_9-47  [so-result]-positive  [fgb]
+Genetic Engineering Lyrics.txt_10-56  []-suspension  []
+Genetic Engineering Lyrics.txt_11-69  [when-temp_coinc]-positive  []
+Genetic Engineering Lyrics.txt_12-81  []-suspension  [neg]
+Genetic Engineering Lyrics.txt_13-94  []-positive  []
+Genetic Engineering Lyrics.txt_14-108  []-positive  []
+Genetic Engineering Lyrics.txt_15-123  []-positive  []
+Genetic Engineering Lyrics.txt_16-139  []-suspension  [fgb]
+Genetic Engineering Lyrics.txt_16-140  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Genetic Engineering Lyrics.txt_1-1  [genetic,Engineering,Lyrics,by,X-Ray,Spex]  [title]
+Genetic Engineering Lyrics.txt_2-3  [genetic,engineering]  [provide_expl_just(engineer,[external,factive,narration,foreground,objective])]
+Genetic Engineering Lyrics.txt_3-6  [an,unknown,life-force,could,create]  [reject_expl_just(be,[_835260,_835266,_835272,_835278,_835284])]
+Genetic Engineering Lyrics.txt_4-10  [that,could,us]  [provide_expl_just(can,[external,nonfactive,narration,background,objective]),provide_expl_just(exterminate,[external,factive,narration,background,objective])]
+Genetic Engineering Lyrics.txt_4-11  [exterminate]  [reject_expl_just(can,[external,nonfactive,narration,background,objective]),reject_expl_just(exterminate,[external,factive,narration,background,objective])]
+Genetic Engineering Lyrics.txt_5-16  [the,perfect,race,could,create]  [proposal(be,[_836672,_836678,statement,foreground,_836696])]
+Genetic Engineering Lyrics.txt_6-22  [as,our,subordinated,slave]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Genetic Engineering Lyrics.txt_7-29  [his,expertise,proficiency]  [provide_expl_just(expertise,[external,factive,narration,background,objective])]
+Genetic Engineering Lyrics.txt_8-37  [our,grave,will,surely,dig]  [reject_expl_just(dig,[external,nonfactive,narration,background,objective])]
+Genetic Engineering Lyrics.txt_9-46  [it,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Genetic Engineering Lyrics.txt_9-47  [so,very,tempting]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Genetic Engineering Lyrics.txt_10-56  [will,he,let,us,exist]  [provide_expl_just(let,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(exist,[external,factive,narration,background,objective])]
+Genetic Engineering Lyrics.txt_11-69  [when,he,becomes,the,creator]  [provide_expl_just(become,[external,factive,narration,background,objective])]
+Genetic Engineering Lyrics.txt_12-81  [will,biologists,resist]  [provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Genetic Engineering Lyrics.txt_13-94  [bionic,man,is,jumping]  [provide_expl_just(jump,[external,factive,narration,foreground,objective])]
+Genetic Engineering Lyrics.txt_14-108  [through,the,television,set]  [provide_expl_just(set,[external,factive,cause,foreground,objective])]
+Genetic Engineering Lyrics.txt_15-123  [he,is,about,to,materialise]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Genetic Engineering Lyrics.txt_16-139  [and,guess]  [provide_expl_just(guess,[external,factive,narration,background,objective])]
+Genetic Engineering Lyrics.txt_16-140  [who,is,coming,next]  [provide_expl_just(guess,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Genetic Engineering Lyrics.txt_1-1)-[]
+2-(Genetic Engineering Lyrics.txt_2-3)-[]
+3-(Genetic Engineering Lyrics.txt_3-6)-[primary-unknow]
+4-(Genetic Engineering Lyrics.txt_4-10)-[]
+5-(Genetic Engineering Lyrics.txt_4-11)-[emotions-aggression]
+6-(Genetic Engineering Lyrics.txt_5-16)-[]
+7-(Genetic Engineering Lyrics.txt_6-22)-[]
+8-(Genetic Engineering Lyrics.txt_7-29)-[]
+9-(Genetic Engineering Lyrics.txt_8-37)-[secondary-abstract_tought,primary-descent]
+half
+10-(Genetic Engineering Lyrics.txt_9-46)-[]
+11-(Genetic Engineering Lyrics.txt_9-47)-[]
+12-(Genetic Engineering Lyrics.txt_10-56)-[]
+13-(Genetic Engineering Lyrics.txt_11-69)-[secondary-temporal_repere]
+14-(Genetic Engineering Lyrics.txt_12-81)-[secondary-restraint]
+15-(Genetic Engineering Lyrics.txt_13-94)-[]
+16-(Genetic Engineering Lyrics.txt_14-108)-[]
+17-(Genetic Engineering Lyrics.txt_15-123)-[]
+18-(Genetic Engineering Lyrics.txt_16-139)-[secondary-abstract_tought]
+19-(Genetic Engineering Lyrics.txt_16-140)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Genetic Engineering Lyrics.txt_1,1,cl1-nil-nil-x-ray-[obj-theme-Spex-sn2,subj-agent-Lyrics-sn1,and(Lyrics,engineer,sn1),and(Lyrics,genetic,sn1),def_prop(Spex,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Genetic Engineering Lyrics.txt_2,3,cl2-nil-nil-engineer-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Genetic Engineering Lyrics.txt_3,6,cl3-nil-could-create-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Genetic Engineering Lyrics.txt_4,10,cl5-nil-nil-exterminate-[subj-agent-pro-nil])
+lf(Genetic Engineering Lyrics.txt_4,10,cl4-nil-could-can-[obj-theme-us-sn1,def_prop(us,[umano])])
+lf(Genetic Engineering Lyrics.txt_5,16,cl6-nil-could-create-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Genetic Engineering Lyrics.txt_6,22,cl7-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Genetic Engineering Lyrics.txt_7,29,nil-nil-nil-expertise-[obj-theme_aff-proficiency-sn2,subj-agent-his-sn1,def_prop(proficiency,[astratto]),def_prop(his,[umano])])
+lf(Genetic Engineering Lyrics.txt_8,37,cl8-nil-will-dig-[subj-agent-you-sn1,adj-(mod)-surely-nil,def_prop(you,[umano])])
+lf(Genetic Engineering Lyrics.txt_9,46,cl9-nil-nil-be-[subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Genetic Engineering Lyrics.txt_10,56,cl12-nil-nil-exist-[obj-theme_unaff-us-sn2,xcomp-purpose-let-2,def_prop(us,[umano])])
+lf(Genetic Engineering Lyrics.txt_10,56,cl11-nil-nil-let-[])
+lf(Genetic Engineering Lyrics.txt_10,56,cl10-nil-will-will-[subj-agent-he-sn1,def_prop(he,[umano])])
+lf(Genetic Engineering Lyrics.txt_11,69,nil-nil-nil-become-[xcomp-prop-creator-sn3,xcomp-theme-when-sn2,subj-theme_bound-he-sn1,def_prop(creator,[umano]),def_prop(when,[tempo]),def_prop(he,[umano])])
+lf(Genetic Engineering Lyrics.txt_12,81,cl13-nil-will-will-[subj-agent-biologist-sn1,def_prop(biologist,[umano])])
+lf(Genetic Engineering Lyrics.txt_13,94,cl14-nil-nil-jump-[subj-agent-you-sn1,aux-(is)-nil,progr-jumping-nil,def_prop(you,[umano])])
+lf(Genetic Engineering Lyrics.txt_14,108,cl15-nil-nil-set-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Genetic Engineering Lyrics.txt_15,123,cl16-nil-nil-be-[subj-theme_bound-he-sn1,def_prop(he,[umano])])
+lf(Genetic Engineering Lyrics.txt_16,139,cl17-nil-nil-come-[xcomp-prop-next-sn3,subj-agent-who-sn2,aux-(is)-nil,progr-coming-nil,def_prop(next,[tempo,misura]),def_prop(who,[umano])])
+lf(Genetic Engineering Lyrics.txt_16,139,nil-nil-nil-guess-[subj-experiencer-you-sn1,def_prop(you,[umano])])

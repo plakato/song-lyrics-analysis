@@ -61,6 +61,8 @@ SPARSAR
             - some special characters prohibited
         - unknown errors sometimes
             - ERROR: assignargument/8: Undefined procedure: ovls/6
+            - ERROR: length/2: Type error: `list' expected, found `sn' (an atom)
+                - internal SPARSAR problem
             - ERROR: atomic_list_concat/3: Arguments are not sufficiently instantiated
             - atomic_list_concat/3: Type error: `atom' expected, found `[]' (an empty_list)
                 - didn't know contraction "I'mma"
@@ -169,8 +171,11 @@ TASKS FOR NEXT WEEK
     - prerobit matice aby brali iba konce riadkov (poslednych X fonem)
     - podfarbit rymujuce verse stejnou farbou
     - ako pocitat entropiu
-        - pocet/podiel jednotkovych ostrovov mimo diagonalu (success rate 74,627%, guessed 50/67 images)
-        - najvacsi biely stvorec/obdlznik (success rate 67,164%, guessed 45/67 images)
+        1) pocet/podiel jednotkovych ostrovov mimo diagonalu (success rate 74,627%, guessed 50/67 images)
+        2) najvacsi biely stvorec/obdlznik (success rate 67,164%, guessed 45/67 images)
+        3) najvzdialenejsi cierny sused od diagonaly (success rate 55,224%, guessed 37/67 images)
+        1)+2) success rate 76,12%, guessed 51/67 images
+        1)+3) success rate 77,612%, guessed 52/67 images
         - skusit vlastne napady
         + vyhodnotenie (cca 50 pesniciek)
             - ked tomu dame pary, ako urci poskodenu
@@ -191,4 +196,13 @@ TASKS FOR NEXT WEEK
 EVALUACIA PESNICKY
     - skusit to nahodne prehadzat a ci sa struktura zhorsi
 
-
+-------------------------------------------------------------------------------------------------------------------
+18.5.2020
+TASKS FOR NEXT WEEK
+    - normalizovat SPARSAR schemy na pismenka podla abecedy
+    - najvzdialenejsi najblizsi sused priamo z pismenok, najvacsi # bilych pixlov od diagonaly vpravo nez cierny
+    - konvolucne siete na obrazky (vystupna funkcia (glob. priemer, max) musi byt jedno, kolkoje vystupnych neuronov)
+    - 1D konvoluce, devatovana konvoluce (hladanie ob-vers, ob 2 verse)
+    - namiesto s dat 0, -1 rozlisi ak su rozne
+    - pole vzdialenosti dalsieho suseda lepsie ako vstup lebo netreba normalizovat pismenka..?
+    - spustat SPARSAR cez noc

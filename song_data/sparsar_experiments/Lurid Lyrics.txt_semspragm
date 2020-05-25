@@ -1,0 +1,189 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Lurid Lyrics.txt_1-1  []-negative  [neg]
+Lurid Lyrics.txt_2-3  []-negative  [neg]
+Lurid Lyrics.txt_3-7  []-negative  [neg,fgb]
+Lurid Lyrics.txt_4-12  []-positive  []
+Lurid Lyrics.txt_4-13  []-negative  [neg,fgb]
+Lurid Lyrics.txt_5-20  []-negative  [neg]
+Lurid Lyrics.txt_5-21  []-positive  []
+Lurid Lyrics.txt_6-27  []-positive  []
+Lurid Lyrics.txt_7-34  []-positive  []
+Lurid Lyrics.txt_8-42  []-positive  []
+Lurid Lyrics.txt_9-51  [then-temp_seq]-positive  [neg]
+Lurid Lyrics.txt_10-62  []-negative  []
+Lurid Lyrics.txt_11-73  []-positive  []
+Lurid Lyrics.txt_12-85  [then-temp_seq]-positive  [fgb]
+Lurid Lyrics.txt_13-99  []-negative  [neg,neg]
+Lurid Lyrics.txt_14-113  []-positive  [neg]
+Lurid Lyrics.txt_15-129  []-positive  []
+Lurid Lyrics.txt_15-130  []-positive  [neg]
+Lurid Lyrics.txt_16-147  [but-advers]-suspension  [fgb,neg,neg,neg]
+Lurid Lyrics.txt_17-164  []-positive  []
+Lurid Lyrics.txt_17-165  []-positive  [fgb]
+Lurid Lyrics.txt_18-183  []-negative  [neg,neg]
+Lurid Lyrics.txt_19-202  []-negative  []
+Lurid Lyrics.txt_20-222  []-negative  [neg]
+Lurid Lyrics.txt_21-243  []-negative  [neg,neg]
+Lurid Lyrics.txt_22-266  []-positive  [neg,neg]
+Lurid Lyrics.txt_23-290  [then-temp_seq]-positive  [neg,neg]
+Lurid Lyrics.txt_24-314  [then-temp_seq]-suspension  [neg,neg]
+Lurid Lyrics.txt_25-341  [though-advers]-negative  [fhd]
+Lurid Lyrics.txt_26-368  []-negative  [fgb]
+Lurid Lyrics.txt_27-397  []-positive  []
+Lurid Lyrics.txt_28-425  []-suspension  [bkc]
+Lurid Lyrics.txt_29-455  [if-hypoth,then-temp_seq]-suspension  [fgb]
+Lurid Lyrics.txt_30-485  []-positive  []
+Lurid Lyrics.txt_31-516  []-negative  [neg,neg,neg]
+Lurid Lyrics.txt_32-549  []-negative  []
+Lurid Lyrics.txt_32-550  []-positive  [neg,neg]
+Lurid Lyrics.txt_33-583  [so-result]-suspension  [neg,fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Lurid Lyrics.txt_1-1  [lurid,Lyrics,by,Yung,Dori]  [title]
+Lurid Lyrics.txt_2-3  [there,is,a,knife,up,in,my,spine,got,a,razor,in,my,pocket]  [reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_3-7  [counting,fifties,in,my,grave,,,pimp,mctombstone,what,they,call,me]  [reject_expl_just(count,[external,factive,narration,foreground,objective]),reject_expl_just(call,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_4-12  [now,i,am,laying,in,the,rain]  [provide_expl_just(smoke,[external,factive,narration,foreground,objective]),provide_expl_just(spray,[external,factive,cause,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_4-13  [smoking,weed,up,and,i,am,spraying]  [reject_expl_just(smoke,[external,factive,narration,foreground,objective]),reject_expl_just(spray,[external,factive,cause,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_5-20  [thirty,shots,to,any,bitches,tryna,claim]  [reject_expl_just(claim,[external,factive,narration,background,objective]),reject_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Lurid Lyrics.txt_5-21  [that,they,can,bang]  [provide_expl_just(claim,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Lurid Lyrics.txt_6-27  [bang]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Lurid Lyrics.txt_7-34  [bang]  [raise_issue(be,[_980832,factive,statement,_980850,subjective])]
+Lurid Lyrics.txt_8-42  [bang]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Lurid Lyrics.txt_9-51  [take,a,shot,then,you,praying]  [provide_expl_just(pray,[external,factive,narration,foreground,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_10-62  [mangled,corpse,up,in,the,mud,,,decomposing,into,grains]  [proposal(be,[_982228,_982234,statement,foreground,_982252])]
+Lurid Lyrics.txt_11-73  [the,legendary,outcome,of,my,journey,to,the,fame]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_12-85  [seek,out,riches,and,new,visions,venture,farther,then,these,lames]  [provide_expl_just(seek,[external,factive,narration,background,objective]),provide_expl_just(venture,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_13-99  [fuck,niggas,hate]  [reject_expl_just(hate,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_14-113  [real,ones,just,grind,to,get,the,cake]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(grind,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_15-129  [i,am,the,one,they]  [provide_expl_just(chase,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_15-130  [try,to,chase]  [provide_expl_just(chase,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_16-147  [but,this,shit,never,was,a,race]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Lurid Lyrics.txt_17-164  [i,take,my,time]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_17-165  [and,get,it,straight]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_18-183  [i,smack,a,pussy,in,the,face]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_19-202  [don-t,share,a,crumb,from,off,my,plate]  [provide_expl_just(share,[external,factive,narration,foreground,objective])]
+Lurid Lyrics.txt_20-222  [i,never,slither,with,a,snake]  [reject_expl_just(slither,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_21-243  [cause,you,all,fake,i,time,don-t,got,for,a,fool]  [reject_expl_just(cause,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,foreground,objective])]
+Lurid Lyrics.txt_22-266  [running,all,scheming,day,round,you,fucking,mook]  [provide_expl_just(run,[external,factive,cause,foreground,objective])]
+Lurid Lyrics.txt_23-290  [your,get,self,a,pack,smoke,a,little,then,you,flip,the,rest]  [provide_expl_just(flip,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_24-314  [a,trap,get,line,then,tell,them,chill,with,the,text]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(chill,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_25-341  [i,hotboys,don-t,like,though,be,easy]  [provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Lurid Lyrics.txt_26-368  [don-t,think,what,you,see,is,real,on,the,T,.,you,see,is,real,on,the,T]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,foreground,objective])]
+Lurid Lyrics.txt_27-397  [V]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Lurid Lyrics.txt_28-425  [the,police,yes,will,run,up,in,your,residence]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Lurid Lyrics.txt_29-455  [if,you,off,point,then,you,caught,with,the,evidence]  [provide_expl_just(catch,[external,factive,narration,foreground,objective])]
+Lurid Lyrics.txt_30-485  [i,be,10,steps,up,ahead,where,the,felons,is,.,the,felons,is]  [raise_issue(be,[_999608,factive,statement,_999626,subjective])]
+Lurid Lyrics.txt_31-516  [never,will,snitch,cause,that,be,the,sucker,shit]  [reject_expl_just(snitch,[external,nonfactive,narration,background,objective]),reject_expl_just(shit,[internal,factive,narration,background,objective])]
+Lurid Lyrics.txt_32-549  [still,smoking]  [provide_expl_just(smoke,[external,factive,narration,foreground,objective])]
+Lurid Lyrics.txt_32-550  [building,empires,with,my,fucking,bitch]  [provide_expl_just(smoke,[external,factive,narration,foreground,objective])]
+Lurid Lyrics.txt_33-583  [run,up,on,me,you,will,die,so,bloody,quick]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(die,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Lurid Lyrics.txt_1-1)-[]
+2-(Lurid Lyrics.txt_2-3)-[emotions-aggression,primary-random_movement]
+3-(Lurid Lyrics.txt_3-7)-[secondary-social_behavior]
+4-(Lurid Lyrics.txt_4-12)-[secondary-temporal_repere,primary-passivity,primary-water]
+5-(Lurid Lyrics.txt_4-13)-[]
+6-(Lurid Lyrics.txt_5-20)-[emotions-aggression,primary-sex,secondary-instru_behavior,secondary-instru_behavior]
+7-(Lurid Lyrics.txt_5-21)-[primary-sound]
+8-(Lurid Lyrics.txt_6-27)-[primary-sound]
+9-(Lurid Lyrics.txt_7-34)-[primary-sound]
+10-(Lurid Lyrics.txt_8-42)-[primary-sound]
+11-(Lurid Lyrics.txt_9-51)-[emotions-aggression,secondary-temporal_repere]
+12-(Lurid Lyrics.txt_10-62)-[primary-narcissism,primary-anality,primary-orality]
+13-(Lurid Lyrics.txt_11-73)-[primary-voyage,emotions-glory]
+14-(Lurid Lyrics.txt_12-85)-[primary-vision,primary-concreteness,emotions-glory,primary-vision,primary-concreteness,secondary-temporal_repere]
+15-(Lurid Lyrics.txt_13-99)-[primary-sex,emotions-aggression]
+16-(Lurid Lyrics.txt_14-113)-[secondary-abstract_tought,emotions-positive_affect,primary-orality]
+17-(Lurid Lyrics.txt_15-129)-[]
+18-(Lurid Lyrics.txt_15-130)-[secondary-instru_behavior,primary-voyage]
+19-(Lurid Lyrics.txt_16-147)-[primary-anality]
+half
+20-(Lurid Lyrics.txt_17-164)-[secondary-temporal_repere]
+21-(Lurid Lyrics.txt_17-165)-[primary-concreteness]
+22-(Lurid Lyrics.txt_18-183)-[primary-narcissism]
+23-(Lurid Lyrics.txt_19-202)-[secondary-social_behavior,primary-concreteness]
+24-(Lurid Lyrics.txt_20-222)-[]
+25-(Lurid Lyrics.txt_21-243)-[secondary-abstract_tought,secondary-temporal_repere]
+26-(Lurid Lyrics.txt_22-266)-[primary-concreteness]
+27-(Lurid Lyrics.txt_23-290)-[secondary-instru_behavior,primary-fire,secondary-temporal_repere,primary-passivity]
+28-(Lurid Lyrics.txt_24-314)-[primary-brink,secondary-temporal_repere,secondary-social_behavior,secondary-abstract_tought,primary-cold]
+29-(Lurid Lyrics.txt_25-341)-[emotions-affection]
+30-(Lurid Lyrics.txt_26-368)-[secondary-abstract_tought,primary-vision,secondary-abstract_tought,primary-vision,secondary-abstract_tought]
+31-(Lurid Lyrics.txt_27-397)-[]
+32-(Lurid Lyrics.txt_28-425)-[secondary-restraint]
+33-(Lurid Lyrics.txt_29-455)-[primary-concreteness,primary-concreteness,secondary-temporal_repere,secondary-restraint,secondary-abstract_tought]
+34-(Lurid Lyrics.txt_30-485)-[primary-brink,primary-concreteness,primary-concreteness]
+35-(Lurid Lyrics.txt_31-516)-[secondary-abstract_tought,primary-orality,primary-anality]
+36-(Lurid Lyrics.txt_32-549)-[]
+37-(Lurid Lyrics.txt_32-550)-[emotions-glory,primary-sex]
+38-(Lurid Lyrics.txt_33-583)-[primary-passivity,emotions-aggression,secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Lurid Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Dori-sn2,subj-theme_bound-Lyrics-sn1,and(Dori,Yung,sn2),and(Lyrics,lurid,sn1),def_prop(Dori,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Lurid Lyrics.txt_2,3,cl3-nil-nil-get-[iobj-goal-pocket-sn5,obj-paziente-razor-sn4,xcomp-purpose-get-3,iobj-goal-spine-sn3,def_prop(pocket,[astratto,oggetto,strumento]),def_prop(razor,[oggetto,strumento]),def_prop(spine,[animato,plant])])
+lf(Lurid Lyrics.txt_2,3,cl2-nil-nil-be-[adj-(mod)-up-nil,xcomp-prop-knife-sn2,subj-theme_bound-there-sn1,def_prop(knife,[oggetto,strumento]),def_prop(there,[any])])
+lf(Lurid Lyrics.txt_3,7,_1002798-nil-nil-call-[voice-call-nil,tense-call-nil,obl-goal-pimp-sn4,def_prop(pimp,_1002866)])
+lf(Lurid Lyrics.txt_3,7,cl4-nil-nil-count-[voice-call-nil,tense-call-nil,iobj-goal-grave-sn3,obj-theme-fifty-sn2,subj-actor-mctombstone-sn1,and(mctombstone,pimp,sn1),def_prop(grave,[oggetto,strumento,tempo]),def_prop(fifty,[nquant]),def_prop(mctombstone,[istituzione])])
+lf(Lurid Lyrics.txt_4,12,cl8-nil-nil-be-[cmod-coord-smoke-and])
+lf(Lurid Lyrics.txt_4,12,cl7-nil-nil-spray-[aux-am-nil,progr-spraying-nil,subj-agent-i-sn7,ncmod-locativo-rain-sn2,def_prop(i,[umano]),def_prop(rain,[astratto,attivita,cambia,sostanza])])
+lf(Lurid Lyrics.txt_4,12,cl6-nil-nil-smoke-[adj-(mod)-up-nil,obj-theme-wee-sn5,subj-agent-you-sn4,def_prop(wee,[tempo]),def_prop(you,[umano])])
+lf(Lurid Lyrics.txt_4,12,cl5-nil-nil-lay-[adj-(mod)-now-nil,subj-experiencer-i-sn1,aux-am-nil,progr-laying-nil,def_prop(i,[umano])])
+lf(Lurid Lyrics.txt_5,20,cl10-nil-can-can-[obj-theme-bang-sn7,subj-actor-they-sn6,def_prop(bang,[body_part,emotivo,evento,umano]),def_prop(they,[umano])])
+lf(Lurid Lyrics.txt_5,20,cl9-nil-nil-claim-[obj-theme-tryna-sn3,ncmod-loc_direct-bitch-sn2,subj-experiencer-shot-sn1,and(bitch,any,sn2),and(shot,thirty,sn1),def_prop(tryna,[istituzione]),def_prop(bitch,[animato,stato]),def_prop(shot,[attivita,informa,oggetto,stato,strumento,umano])])
+lf(Lurid Lyrics.txt_6,27,cl11-nil-nil-say-[obj-theme_unaff-bang-sn1,def_prop(bang,[body_part,emotivo,evento,umano])])
+lf(Lurid Lyrics.txt_7,34,cl12-nil-nil-say-[obj-theme_unaff-bang-sn1,def_prop(bang,[body_part,emotivo,evento,umano])])
+lf(Lurid Lyrics.txt_8,42,cl13-nil-nil-say-[obj-theme_unaff-bang-sn1,def_prop(bang,[body_part,emotivo,evento,umano])])
+lf(Lurid Lyrics.txt_9,51,cl15-nil-nil-pray-[adj-(mod)-arb-nil])
+lf(Lurid Lyrics.txt_9,51,cl14-nil-nil-take-[obj-theme_aff-shoot-sn2,subj-agent-you-sn1,def_prop(shoot,[attivita,informa,plant]),def_prop(you,[umano])])
+lf(Lurid Lyrics.txt_10,62,cl16-nil-nil-decompose-[adj-(mod)-up-nil,ncmod-loc_direct-grain-sn3,ncmod-locativo-mud-sn2,subj-theme-corpse-sn1,and(corpse,mangled,sn1),def_prop(grain,[astratto,edible,nquant,oggetto,plant]),def_prop(mud,[attivita,informa,sostanza]),def_prop(corpse,[body_part,oggetto])])
+lf(Lurid Lyrics.txt_11,73,cl17-nil-nil-be-[ncmod-relation-fame-sn2,subj-theme_bound-outcome-sn1,and(outcome,legendary,sn1),def_prop(fame,[stato]),def_prop(outcome,[evento])])
+lf(Lurid Lyrics.txt_12,85,cl19-nil-nil-venture-[ncmod-locativo-riches_and_vision-[sn2,sn3],def_prop(riches_and_vision,[oggetto,astratto,evento])])
+lf(Lurid Lyrics.txt_12,85,cl18-nil-nil-seek-[xcomp-prop-farther-sn4,subj-actor-you-sn1,def_prop(farther,[evaluative]),def_prop(you,[umano])])
+lf(Lurid Lyrics.txt_13,99,cl20-nil-nil-hate-[ncmod-modal-fuck-sn2,subj-actor-you-sn1,def_prop(fuck,[attivita]),def_prop(you,[umano])])
+lf(Lurid Lyrics.txt_14,113,cl22-nil-nil-get-[xadj-adj-real-adj1,obj-result-cake-sn1,xcomp-prop-get-2,def_prop(real,_1005180),def_prop(cake,[edible,oggetto,strumento])])
+lf(Lurid Lyrics.txt_14,113,cl21-nil-nil-grind-[adj-(mod)-just-nil])
+lf(Lurid Lyrics.txt_15,129,cl25-nil-nil-chase-[subj-tema_nonaff-you-sn4,def_prop(you,[umano])])
+lf(Lurid Lyrics.txt_15,129,cl24-nil-nil-try-[subj-actor-you-sn4,def_prop(you,[umano])])
+lf(Lurid Lyrics.txt_15,129,cl23-nil-nil-be-[xcomp-prop-they-sn2,subj-theme_bound-i-sn1,and(they,one,sn2),def_prop(they,[umano]),def_prop(i,[umano])])
+lf(Lurid Lyrics.txt_16,147,cl26-nil-nil-be-[adj-(mod)-never-nil,xcomp-prop-race-sn2,subj-theme_bound-shit-sn1,and(shit,this,sn1),def_prop(race,[evento,istituzione]),def_prop(shit,[attivita,umano])])
+lf(Lurid Lyrics.txt_17,164,cl28-nil-nil-get-[cmod-subord-get-",xcomp-prop-straight-sn5,subj-theme_bound-it-sn4,subj-theme_bound-it-sn3,and(it,you,sn3),def_prop(straight,[istituzione]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Lurid Lyrics.txt_17,164,cl27-nil-nil-take-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Lurid Lyrics.txt_18,183,cl29-nil-nil-be-[ncmod-locativo-face-sn4,subj-theme_bound-pussy-sn3,subj-theme_bound-pussy-sn2,subj-theme_bound-smack-sn1,and(pussy,smack,sn2),and(smack,i,sn1),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(pussy,[animato,body_part,oggetto]),def_prop(pussy,[animato,body_part,oggetto]),def_prop(smack,[attivita,oggetto,strumento])])
+lf(Lurid Lyrics.txt_19,202,cl30-not-nil-share-[ncmod-loc_origin-plate-sn3,obj-theme-crumb-sn2,subj-agent-you-sn1,aux-do-nil,def_prop(plate,[body_part,edible,nquant,oggetto,strumento,umano]),def_prop(crumb,[edible,nquant,oggetto,umano]),def_prop(you,[umano])])
+lf(Lurid Lyrics.txt_20,222,cl31-nil-nil-slither-[adj-(mod)-never-nil,ncmod-comitativo-snake-sn2,subj-theme-i-sn1,def_prop(snake,[animato,oggetto,plant,strumento,umano]),def_prop(i,[umano])])
+lf(Lurid Lyrics.txt_21,243,cl33-not-nil-get-[aux-do-nil])
+lf(Lurid Lyrics.txt_21,243,cl32-nil-nil-cause-[obj-theme-i-sn4,obj-tema_eff-all-sn3,subj-causer-you-sn2,subj-causer-you-sn1,and(you,you,sn1),def_prop(i,[umano]),def_prop(all,[_1006846]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Lurid Lyrics.txt_22,266,cl35-nil-nil-fuck-[obj-prop-mook-sn4,xcomp-purpose-fuck-2,def_prop(mook,[istituzione])])
+lf(Lurid Lyrics.txt_22,266,cl34-nil-nil-run-[subj-sn1-you-sn3,obj-theme_aff-day-sn2,subj-theme_aff-you-sn1,and(day,round,sn2),and(day,all,sn2),def_prop(you,[umano]),def_prop(day,[tempo]),def_prop(you,[umano])])
+lf(Lurid Lyrics.txt_23,290,cl36-nil-nil-flip-[obj-theme-res-sn9,subj-actor-you-sn8,def_prop(res,[informa,tecno]),def_prop(you,[umano])])
+lf(Lurid Lyrics.txt_24,314,cl39-nil-nil-chill-[cmod-subord-chill-then,ncmod-modale-text-sn10,ncmod-modale-text-sn9,subj-agent-you-sn8,ncmod-modale-text-sn7,subj-agent-them-sn6,ncmod-modale-text-sn5,def_prop(text,[attivita,informa]),def_prop(text,[attivita,informa]),def_prop(you,[umano]),def_prop(text,[attivita,informa]),def_prop(them,[umano]),def_prop(text,[attivita,informa])])
+lf(Lurid Lyrics.txt_24,314,cl38-nil-nil-tell-[subj-agent-them-sn4,def_prop(them,[umano])])
+lf(Lurid Lyrics.txt_24,314,cl37-nil-nil-get-[obj-theme_unaff-line-sn2,subj-agent-you-sn1,and(line,trap,sn2),def_prop(line,[astratto,attivita,cambia,informa,luogo,oggetto,strumento]),def_prop(you,[umano])])
+lf(Lurid Lyrics.txt_25,341,cl41-nil-nil-be-[])
+lf(Lurid Lyrics.txt_25,341,cl40-not-nil-don-t-[adj-(mod)-though-nil,xcomp-prop-easy-sn2,xcomp-purpose-be-cl41,subj-agent-hotboys-sn1,and(hotboys,i,sn1),def_prop(easy,[soggettivo]),def_prop(hotboys,[istituzione])])
+lf(Lurid Lyrics.txt_26,368,cl44-nil-nil-be-[ncmod-locativo-T-sn5,def_prop(T,[istituzione,umano])])
+lf(Lurid Lyrics.txt_26,368,cl43-nil-nil-see-[xcomp-result-real-sn4,xcomp-prop-be-5,def_prop(real,[astratto,oggetto])])
+lf(Lurid Lyrics.txt_26,368,cl42-not-nil-think-[obj-theme-you-sn3,f2-sn1-what-sn2,subj-agent-you-sn1,aux-do-nil,def_prop(you,[umano]),def_prop(what,[oggetto]),def_prop(you,[umano])])
+lf(Lurid Lyrics.txt_27,397,cl45-nil-nil-say-[obj-theme_unaff-V-sn1,def_prop(V,[attivita,edible,informa,nquant,oggetto])])
+lf(Lurid Lyrics.txt_28,425,_-nil-nil-run-[iobj-goal-residence-sn2,xmod-prop-run-2,def_prop(residence,[luogo,oggetto,strumento])])
+lf(Lurid Lyrics.txt_28,425,cl47-nil-nil-run-[iobj-goal-residence-sn2,xmod-prop-run-2,def_prop(residence,[luogo,oggetto,strumento])])
+lf(Lurid Lyrics.txt_28,425,cl46-nil-will-will-[adj-(mod)-up-nil,subj-agent-yes-sn1,and(yes,police,sn1),def_prop(yes,[attivita,informa])])
+lf(Lurid Lyrics.txt_29,455,cl48-nil-nil-catch-[ncmod-comitativo-evidence-sn4,obj-theme-you-sn3,ncmod-locativo-point-sn2,subj-agent-you-sn1,def_prop(evidence,[astratto,attivita,informa]),def_prop(you,[umano]),def_prop(point,[astratto,attivita,informa,luogo,nquant,oggetto,relat,strumento,tempo]),def_prop(you,[umano])])
+lf(Lurid Lyrics.txt_30,485,cl49-nil-nil-be-[obl-locat-be-sn1,xadj-adj-ahead-adj2,adj-(mod)-up-nil,xcomp-prop-step-sn2,xcomp-purpose-be-2,subj-theme_bound-i-sn1,and(step,10,sn2),def_prop(ahead,_1009236),def_prop(step,[attivita,nquant,oggetto,strumento]),def_prop(i,[umano])])
+lf(Lurid Lyrics.txt_31,516,cl51-nil-nil-be-[])
+lf(Lurid Lyrics.txt_31,516,cl50-nil-will-snitch-[adj-(mod)-never-nil,subj_top-actor-cause-sn1,def_prop(cause,[attivita,evento,informa])])
+lf(Lurid Lyrics.txt_32,549,cl53-nil-nil-fuck-[obj-theme-bitch-sn4,iobj-goal-my-sn3,subj-actor-empire-sn2,and(empire,build,sn2),def_prop(bitch,[animato,stato]),def_prop(my,[informa,tecno]),def_prop(empire,[istituzione,luogo])])
+lf(Lurid Lyrics.txt_32,549,cl52-nil-nil-smoke-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Lurid Lyrics.txt_33,583,cl55-nil-will-die-[ncmod-locativo-me-sn2,def_prop(me,[umano])])
+lf(Lurid Lyrics.txt_33,583,cl54-nil-nil-run-[adj-locative-up-nil,subj-sn1-you-sn3,subj-agent-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])

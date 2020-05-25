@@ -1,0 +1,171 @@
+"POLARITY, DISCOURSE MARKERS"
+
+First World Problem Lyrics.txt_1-1  []-negative  [neg]
+First World Problem Lyrics.txt_2-3  [when-temp_coinc]-positive  []
+First World Problem Lyrics.txt_3-6  []-positive  []
+First World Problem Lyrics.txt_3-7  []-positive  []
+First World Problem Lyrics.txt_4-11  []-positive  [fgb]
+First World Problem Lyrics.txt_5-16  []-positive  []
+First World Problem Lyrics.txt_6-24  []-question  []
+First World Problem Lyrics.txt_7-31  []-positive  []
+First World Problem Lyrics.txt_7-32  [yet-conc]-positive  [fgb]
+First World Problem Lyrics.txt_8-40  []-positive  []
+First World Problem Lyrics.txt_8-41  []-positive  []
+First World Problem Lyrics.txt_8-42  []-negative  [neg]
+First World Problem Lyrics.txt_9-51  []-positive  []
+First World Problem Lyrics.txt_10-62  []-positive  []
+First World Problem Lyrics.txt_10-63  []-negative  [fhd,neg]
+First World Problem Lyrics.txt_11-73  []-positive  []
+First World Problem Lyrics.txt_11-74  []-positive  []
+First World Problem Lyrics.txt_11-74  [(as)-temp_coinc]-positive  [neg]
+First World Problem Lyrics.txt_12-86  []-positive  []
+First World Problem Lyrics.txt_13-99  []-negative  [neg]
+First World Problem Lyrics.txt_13-100  [but-advers]-negative  [fgb,neg]
+First World Problem Lyrics.txt_14-114  []-positive  []
+First World Problem Lyrics.txt_15-129  []-positive  []
+First World Problem Lyrics.txt_15-130  [yet-conc]-positive  [fgb]
+First World Problem Lyrics.txt_16-146  []-positive  []
+First World Problem Lyrics.txt_16-147  []-positive  []
+First World Problem Lyrics.txt_16-148  []-negative  [neg]
+First World Problem Lyrics.txt_17-165  []-positive  []
+First World Problem Lyrics.txt_18-184  []-positive  []
+First World Problem Lyrics.txt_18-185  []-negative  [fhd,neg]
+First World Problem Lyrics.txt_19-203  []-positive  []
+First World Problem Lyrics.txt_19-204  [yet-conc]-positive  [fgb]
+First World Problem Lyrics.txt_20-224  []-positive  []
+First World Problem Lyrics.txt_20-225  []-positive  []
+First World Problem Lyrics.txt_20-226  []-negative  [neg]
+First World Problem Lyrics.txt_21-247  []-negative  [neg]
+First World Problem Lyrics.txt_22-269  []-negative  [neg]
+First World Problem Lyrics.txt_23-292  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+First World Problem Lyrics.txt_1-1  [first,World,Problem,Lyrics,by,Unknown,Mortal,Orchestra]  [title]
+First World Problem Lyrics.txt_2-3  [when,i,woke]  [provide_expl_just(wake,[external,factive,cause,foreground,objective])]
+First World Problem Lyrics.txt_3-6  [i,found,my,phone,in,the,bed]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_3-7  [clothes]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_4-11  [and,the,curtain,glowed,crimson,through,the,window]  [proposal(be,[_57024,_57030,statement,foreground,_57048])]
+First World Problem Lyrics.txt_5-16  [to,think,of,her,was,to,want,her]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective])]
+First World Problem Lyrics.txt_6-24  [too,me,you,want,would,?]  [provide_expl_just(want,[internal,nonfactive,narration,background,objective])]
+First World Problem Lyrics.txt_7-31  [you,have,got]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_7-32  [it,all,and,yet]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_8-40  [you,are,betting,all]  [provide_expl_just(bet,[external,factive,narration,foreground,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_8-41  [you,have,on,a,first_world]  [provide_expl_just(bet,[external,factive,narration,foreground,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_8-42  [problem]  [reject_expl_just(bet,[external,factive,narration,foreground,objective]),reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_9-51  [you,have,got,to,understand]  [provide_expl_just(understand,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_10-62  [that,i,could,be,your,man]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+First World Problem Lyrics.txt_10-63  [or,a,first_world,problem]  [reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+First World Problem Lyrics.txt_11-73  [i,know]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+First World Problem Lyrics.txt_11-74  [that,i,was,better]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+First World Problem Lyrics.txt_11-74  [that,i,was,better,as,a,loser]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+First World Problem Lyrics.txt_12-86  [she,is,birthday,eating,cake,inside,the,disco]  [raise_issue(be,[_71050,factive,statement,_71068,subjective])]
+First World Problem Lyrics.txt_13-99  [i,may,be,lost]  [reject_expl_just(lose-cl21,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_13-100  [but,i,am,a,lost,man]  [reject_expl_just(lose-cl21,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_14-114  [in,love,with,you]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_15-129  [you,have,got]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_15-130  [it,all,and,yet]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_16-146  [you,are,betting,all]  [provide_expl_just(bet,[external,factive,narration,foreground,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_16-147  [you,have,on,a,first_world]  [provide_expl_just(bet,[external,factive,narration,foreground,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_16-148  [problem]  [reject_expl_just(bet,[external,factive,narration,foreground,objective]),reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_17-165  [you,have,got,to,understand]  [provide_expl_just(understand,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_18-184  [that,i,could,be,your,man]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+First World Problem Lyrics.txt_18-185  [or,a,first_world,problem]  [reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+First World Problem Lyrics.txt_19-203  [you,have,got]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_19-204  [it,all,and,yet]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_20-224  [you,are,betting,all]  [provide_expl_just(bet,[external,factive,narration,foreground,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_20-225  [you,have,on,a,first_world]  [provide_expl_just(bet,[external,factive,narration,foreground,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_20-226  [problem]  [reject_expl_just(bet,[external,factive,narration,foreground,objective]),reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+First World Problem Lyrics.txt_21-247  [first_world,problem]  reject_expl_opin(nil,[])
+First World Problem Lyrics.txt_22-269  [first_world,problem]  reject_expl_opin(nil,[])
+First World Problem Lyrics.txt_23-292  [first_world,problem]  reject_expl_opin(nil,[])
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(First World Problem Lyrics.txt_1-1)-[]
+2-(First World Problem Lyrics.txt_2-3)-[secondary-temporal_repere,primary-counscious]
+3-(First World Problem Lyrics.txt_3-6)-[secondary-instru_behavior,primary-passivity]
+4-(First World Problem Lyrics.txt_3-7)-[]
+5-(First World Problem Lyrics.txt_4-11)-[primary-diffusion,primary-vision,primary-vision,primary-brink]
+6-(First World Problem Lyrics.txt_5-16)-[secondary-abstract_tought]
+7-(First World Problem Lyrics.txt_6-24)-[]
+8-(First World Problem Lyrics.txt_7-31)-[]
+9-(First World Problem Lyrics.txt_7-32)-[]
+10-(First World Problem Lyrics.txt_8-40)-[]
+11-(First World Problem Lyrics.txt_8-41)-[]
+12-(First World Problem Lyrics.txt_8-42)-[secondary-abstract_tought]
+13-(First World Problem Lyrics.txt_9-51)-[secondary-abstract_tought]
+14-(First World Problem Lyrics.txt_10-62)-[]
+15-(First World Problem Lyrics.txt_10-63)-[secondary-abstract_tought]
+16-(First World Problem Lyrics.txt_11-73)-[secondary-abstract_tought]
+17-(First World Problem Lyrics.txt_11-74)-[]
+18-(First World Problem Lyrics.txt_11-74)-[]
+19-(First World Problem Lyrics.txt_12-86)-[primary-orality,primary-concreteness]
+half
+20-(First World Problem Lyrics.txt_13-99)-[secondary-abstract_tought]
+21-(First World Problem Lyrics.txt_13-100)-[]
+22-(First World Problem Lyrics.txt_14-114)-[emotions-affection]
+23-(First World Problem Lyrics.txt_15-129)-[]
+24-(First World Problem Lyrics.txt_15-130)-[]
+25-(First World Problem Lyrics.txt_16-146)-[]
+26-(First World Problem Lyrics.txt_16-147)-[]
+27-(First World Problem Lyrics.txt_16-148)-[secondary-abstract_tought]
+28-(First World Problem Lyrics.txt_17-165)-[secondary-abstract_tought]
+29-(First World Problem Lyrics.txt_18-184)-[]
+30-(First World Problem Lyrics.txt_18-185)-[secondary-abstract_tought]
+31-(First World Problem Lyrics.txt_19-203)-[]
+32-(First World Problem Lyrics.txt_19-204)-[]
+33-(First World Problem Lyrics.txt_20-224)-[]
+34-(First World Problem Lyrics.txt_20-225)-[]
+35-(First World Problem Lyrics.txt_20-226)-[secondary-abstract_tought]
+36-(First World Problem Lyrics.txt_21-247)-[secondary-abstract_tought]
+37-(First World Problem Lyrics.txt_22-269)-[secondary-abstract_tought]
+38-(First World Problem Lyrics.txt_23-292)-[secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(First World Problem Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Unknown-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Problem,sn1),and(Lyrics,first,sn1),def_prop(Unknown,[istituzione]),def_prop(Lyrics,[informa,tecno])])
+lf(First World Problem Lyrics.txt_2,3,cl2-nil-nil-wake-[obj-theme-when-sn2,subj-actor-i-sn1,def_prop(when,[tempo]),def_prop(i,[umano])])
+lf(First World Problem Lyrics.txt_3,6,cl4-nil-nil-be-[subj-theme_bound-you-sn6,def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_3,6,cl3-nil-nil-find-[iobj-goal-be-sn3,obj-theme_bound-phone-sn2,subj-actor-i-sn1,def_prop(be,[informa,tecno]),def_prop(phone,[attivita,informa]),def_prop(i,[umano])])
+lf(First World Problem Lyrics.txt_4,11,cl5-nil-nil-glow-[cmod-subord-glow-",ncmod-location-window-sn3,xcomp-prop-crimson-sn2,subj-theme-curtain-sn1,def_prop(window,[oggetto,strumento,tempo]),def_prop(crimson,[astratto]),def_prop(curtain,[oggetto,strumento])])
+lf(First World Problem Lyrics.txt_5,16,cl8-nil-nil-want-[])
+lf(First World Problem Lyrics.txt_5,16,cl7-nil-nil-be-[xcomp-purpose-think-2,subj-theme_bound-her-sn1,def_prop(her,[umano])])
+lf(First World Problem Lyrics.txt_5,16,cl6-nil-nil-think-[iobj-theme_unaff-her-sn2,def_prop(her,[umano])])
+lf(First World Problem Lyrics.txt_6,24,cl9-nil-would-want-[obj-tema_unaff-me-sn2,subj-actor-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_7,31,cl11-nil-nil-be-[xcomp-prop-all-sn3,subj-theme_bound-it-sn2,def_prop(all,[_85546]),def_prop(it,[any])])
+lf(First World Problem Lyrics.txt_7,31,cl10-nil-nil-get-[subj-agent-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_8,40,cl14-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_8,40,cl13-nil-nil-have-[ncmod-locativo-first_world-sn4,subj-experiencer-you-sn3,def_prop(first_world,[astratto,istituzione,oggetto]),def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_8,40,cl12-nil-nil-bet-[obj-asset-all-sn2,subj-agent-you-sn1,aux-are-nil,progr-betting-nil,def_prop(all,[_85996]),def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_9,51,cl16-nil-nil-understand-[subj-prop-you-sn1,def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_9,51,cl15-nil-nil-get-[subj-agent-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_10,62,cl17-nil-could-be-[cmod-subord-be-",xcomp-prop-problem-sn6,subj-theme_bound-first_world-sn5,xcomp-prop-man-sn2,subj-theme_bound-i-sn1,def_prop(problem,[attivita,informa,stato]),def_prop(first_world,[astratto,istituzione,oggetto]),def_prop(man,[any]),def_prop(i,[umano])])
+lf(First World Problem Lyrics.txt_11,73,cl19-nil-nil-be-[xcomp-prop-better-sn5,subj-theme_bound-i-sn4,xcomp-prop-better-sn3,subj-theme_bound-i-sn2,def_prop(better,[valutativo]),def_prop(i,[umano]),def_prop(better,[valutativo]),def_prop(i,[umano])])
+lf(First World Problem Lyrics.txt_11,73,cl18-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_12,86,cl20-nil-nil-eat-[xcomp-prop-inside-sn3,obj-theme_unaff-cake-sn2,subj-agent-she-sn1,aux-(is)-nil,progr-eating-nil,def_prop(inside,[luogo]),def_prop(cake,[edible,oggetto,strumento]),def_prop(she,[umano])])
+lf(First World Problem Lyrics.txt_13,99,cl22-nil-nil-be-[xcomp-prop-man-sn3,subj-actor-i-sn2,voice-lose-cl21,and(man,lost,sn3),def_prop(man,[any]),def_prop(i,[umano])])
+lf(First World Problem Lyrics.txt_13,99,cl21-nil-may-lose-[subj-theme_unaff-you-sn1,aux-be-nil,def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_14,114,cl23-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_15,129,cl25-nil-nil-be-[xcomp-prop-all-sn3,subj-theme_bound-it-sn2,def_prop(all,[_87294]),def_prop(it,[any])])
+lf(First World Problem Lyrics.txt_15,129,cl24-nil-nil-get-[subj-agent-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_16,146,cl28-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_16,146,cl27-nil-nil-have-[ncmod-locativo-first_world-sn4,subj-experiencer-you-sn3,def_prop(first_world,[astratto,istituzione,oggetto]),def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_16,146,cl26-nil-nil-bet-[obj-asset-all-sn2,subj-agent-you-sn1,aux-are-nil,progr-betting-nil,def_prop(all,[_87744]),def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_17,165,cl30-nil-nil-understand-[subj-prop-you-sn1,def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_17,165,cl29-nil-nil-get-[subj-agent-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_18,184,cl31-nil-could-be-[cmod-subord-be-",xcomp-prop-problem-sn6,subj-theme_bound-first_world-sn5,xcomp-prop-man-sn2,subj-theme_bound-i-sn1,def_prop(problem,[attivita,informa,stato]),def_prop(first_world,[astratto,istituzione,oggetto]),def_prop(man,[any]),def_prop(i,[umano])])
+lf(First World Problem Lyrics.txt_19,203,cl33-nil-nil-be-[xcomp-prop-all-sn3,subj-theme_bound-it-sn2,def_prop(all,[_88260]),def_prop(it,[any])])
+lf(First World Problem Lyrics.txt_19,203,cl32-nil-nil-get-[subj-agent-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_20,224,cl36-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_20,224,cl35-nil-nil-have-[ncmod-locativo-first_world-sn4,subj-experiencer-you-sn3,def_prop(first_world,[astratto,istituzione,oggetto]),def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_20,224,cl34-nil-nil-bet-[obj-asset-all-sn2,subj-agent-you-sn1,aux-are-nil,progr-betting-nil,def_prop(all,[_88710]),def_prop(you,[umano])])
+lf(First World Problem Lyrics.txt_21,247,cl37-nil-nil-say-[obj-theme_unaff-problem-sn1,and(problem,first_world,sn1),def_prop(problem,[attivita,informa,stato])])
+lf(First World Problem Lyrics.txt_22,269,cl38-nil-nil-say-[obj-theme_unaff-problem-sn1,and(problem,first_world,sn1),def_prop(problem,[attivita,informa,stato])])
+lf(First World Problem Lyrics.txt_23,292,cl39-nil-nil-say-[obj-theme_unaff-problem-sn1,and(problem,first_world,sn1),def_prop(problem,[attivita,informa,stato])])

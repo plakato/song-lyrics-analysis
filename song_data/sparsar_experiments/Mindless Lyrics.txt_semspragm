@@ -1,0 +1,256 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Mindless Lyrics.txt_1-1  []-negative  [neg]
+Mindless Lyrics.txt_2-3  []-positive  [neg]
+Mindless Lyrics.txt_3-6  []-negative  [neg]
+Mindless Lyrics.txt_4-10  []-positive  []
+Mindless Lyrics.txt_5-15  []-negative  [neg]
+Mindless Lyrics.txt_6-21  []-negative  [neg]
+Mindless Lyrics.txt_6-22  []-positive  [fgb]
+Mindless Lyrics.txt_6-23  []-negative  [fgb,fgb,neg]
+Mindless Lyrics.txt_7-29  []-negative  [neg]
+Mindless Lyrics.txt_7-30  []-negative  [neg]
+Mindless Lyrics.txt_8-37  []-positive  []
+Mindless Lyrics.txt_9-46  []-negative  []
+Mindless Lyrics.txt_10-56  []-negative  [neg]
+Mindless Lyrics.txt_11-67  []-negative  [neg]
+Mindless Lyrics.txt_12-79  []-negative  [neg]
+Mindless Lyrics.txt_12-80  []-negative  [neg,neg]
+Mindless Lyrics.txt_13-92  []-negative  [neg]
+Mindless Lyrics.txt_13-93  []-positive  []
+Mindless Lyrics.txt_13-94  []-positive  []
+Mindless Lyrics.txt_14-108  []-suspension  [neg,neg]
+Mindless Lyrics.txt_15-124  []-positive  []
+Mindless Lyrics.txt_16-141  []-positive  []
+Mindless Lyrics.txt_16-142  []-negative  [fgb]
+Mindless Lyrics.txt_17-159  []-negative  [fgb]
+Mindless Lyrics.txt_17-160  []-negative  [neg]
+Mindless Lyrics.txt_18-178  []-negative  [neg]
+Mindless Lyrics.txt_18-179  []-negative  [fgb,neg]
+Mindless Lyrics.txt_19-198  [if-hypoth]-suspension  [neg,fgb,neg]
+Mindless Lyrics.txt_20-220  [but-advers]-negative  [neg,fgb,neg,neg]
+Mindless Lyrics.txt_21-243  [while-temp_coinc]-positive  []
+Mindless Lyrics.txt_21-244  []-negative  [neg]
+Mindless Lyrics.txt_22-266  []-negative  [neg]
+Mindless Lyrics.txt_22-267  []-negative  [neg,neg]
+Mindless Lyrics.txt_23-289  []-negative  [neg]
+Mindless Lyrics.txt_23-290  []-positive  []
+Mindless Lyrics.txt_23-291  []-positive  []
+Mindless Lyrics.txt_24-315  []-suspension  [neg,neg]
+Mindless Lyrics.txt_25-341  []-positive  []
+Mindless Lyrics.txt_26-368  []-positive  [neg]
+Mindless Lyrics.txt_27-395  []-negative  [neg]
+Mindless Lyrics.txt_28-423  []-negative  [neg]
+Mindless Lyrics.txt_29-452  []-question  []
+Mindless Lyrics.txt_29-453  []-positive  [ack]
+Mindless Lyrics.txt_30-483  []-positive  [fgb,neg]
+Mindless Lyrics.txt_31-514  []-negative  [neg]
+Mindless Lyrics.txt_31-515  []-negative  [fgb,neg]
+Mindless Lyrics.txt_32-547  []-negative  [neg]
+Mindless Lyrics.txt_33-580  []-question  [fgb]
+Mindless Lyrics.txt_34-614  []-positive  [fhd,neg]
+Mindless Lyrics.txt_34-615  []-negative  [fgb,neg,neg,neg]
+Mindless Lyrics.txt_35-650  [if-hypoth]-suspension  [fgb,neg,neg,neg,neg]
+Mindless Lyrics.txt_36-687  []-negative  [neg]
+Mindless Lyrics.txt_37-724  []-negative  [neg]
+Mindless Lyrics.txt_37-725  [if-hypoth]-positive  [fgb]
+Mindless Lyrics.txt_37-726  []-positive  []
+Mindless Lyrics.txt_37-727  [but-advers]-positive  [fgb]
+Mindless Lyrics.txt_37-728  []-negative  [neg]
+Mindless Lyrics.txt_38-768  []-positive  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Mindless Lyrics.txt_1-1  [mindless,Lyrics,by,Sworn,in]  [title]
+Mindless Lyrics.txt_2-3  [we,are,all,mindless,mother,fuckers]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Mindless Lyrics.txt_3-6  [shit]  reject_expl_opin(nil,[])
+Mindless Lyrics.txt_4-10  [i,am,stuck,in,my,head]  [provide_expl_just(stick,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_5-15  [dead,again]  reject_expl_opin(nil,[])
+Mindless Lyrics.txt_6-21  [i,have,lost]  [reject_expl_just(lose,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_6-22  [what,is,real]  [provide_expl_just(lose,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_6-23  [and,what,is,pretend]  [reject_expl_just(lose,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_7-29  [i,have,lost]  [reject_expl_just(lose,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_7-30  [everything,lost,it,all]  [reject_expl_just(lose,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_8-37  [i,left,my,sanity,behind]  [provide_expl_just(leave,[external,factive,narration,foreground,objective])]
+Mindless Lyrics.txt_9-46  [inside,the,holes,in,my,dry,wall]  [provide_expl_just(dry,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_10-56  [i,have,lost,everything]  [reject_expl_just(lose,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_11-67  [i,lost,it,all]  [reject_expl_just(lose,[external,factive,narration,foreground,objective])]
+Mindless Lyrics.txt_12-79  [i,have,lost,my,head]  [reject_expl_just(lose,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_12-80  [i,have,lost,my,mind]  [reject_expl_just(lose,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_13-92  [it,is,nothing,that,i,want,you,to,find,.]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(find,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_13-93  [i,want]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_13-94  [you,to,find]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_14-108  [with,each,passing,day,i,continue,to,rot]  [provide_expl_just(rot,[external,factive,narration,background,objective]),provide_expl_just(continue,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_15-124  [trying,my,best,to,retain,my,own,thoughts]  [provide_expl_just(retain,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,foreground,objective])]
+Mindless Lyrics.txt_16-141  [i,have,built,my,cage]  [provide_expl_just(build,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_16-142  [and,i,am,trapped,inside,it]  [provide_expl_just(build,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_17-159  [screaming,and,crying,only,makes]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_17-160  [it,worse]  [reject_expl_just(make,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_18-178  [i,can,not,associate]  [reject_expl_just(associate,[external,nonfactive,narration,foreground,objective])]
+Mindless Lyrics.txt_18-179  [and,i,will,not,even,try]  [reject_expl_just(associate,[external,nonfactive,narration,foreground,objective])]
+Mindless Lyrics.txt_19-198  [don-t,give,a,fuck,if,i,am,left,here,to,die]  [provide_expl_just(give,[external,factive,narration,foreground,objective]),provide_expl_just(leave-cl28,[external,factive,narration,background,objective]),provide_expl_just(die,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_20-220  [drag,me,away,but,there,is,no,soul,to,sell]  [reject_expl_just(sell,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(drag,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_21-243  [while,you,have,been,calling,me]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Mindless Lyrics.txt_21-244  [i,have,been,in,hell]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Mindless Lyrics.txt_22-266  [i,have,lost,my,head]  [reject_expl_just(lose,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_22-267  [i,have,lost,my,mind]  [reject_expl_just(lose,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_23-289  [it,is,nothing,that,i,want,you,to,find,.]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(find,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_23-290  [i,want]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_23-291  [you,to,find]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_24-315  [with,each,passing,day,i,continue,to,rot]  [provide_expl_just(rot,[external,factive,narration,background,objective]),provide_expl_just(continue,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_25-341  [trying,my,best,to,retain,my,own,thoughts]  [provide_expl_just(retain,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,foreground,objective])]
+Mindless Lyrics.txt_26-368  [all,of,the,thoughts,in,my,head,sing,to,the,tune,of,your,death]  [provide_expl_just(sing,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_27-395  [hanging,from,a,fucking,rope]  [reject_expl_just(hang,[external,factive,narration,foreground,objective])]
+Mindless Lyrics.txt_28-423  [the,noose,is,tied,tight]  [reject_expl_just(tie,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_29-452  [how,is,this,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(end,[internal,factive,narration,foreground,objective])]
+Mindless Lyrics.txt_29-453  [it,ends,right]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(end,[internal,factive,narration,foreground,objective])]
+Mindless Lyrics.txt_30-483  [one,more,step,and,i,go,down,to,hell]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_31-514  [one,more,fucking,step]  [reject_expl_just(go,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_31-515  [and,down,to,hell,i,go]  [reject_expl_just(go,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_32-547  [down,to,hell,i,go]  [reject_expl_just(go,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_33-580  [what,?]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Mindless Lyrics.txt_34-614  [i,like,to,think,i,am,insane]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_34-615  [and,that,is,not,the,worst,part,not]  [reject_expl_just(think,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_35-650  [cause,if,i,have,lost,my,fucking,mind,i,will,surely,lose,my,heart]  [propose_opin(fuck,[external,nonfactive,hypothesis,foreground,objective])]
+Mindless Lyrics.txt_36-687  [fuck]  reject_expl_opin(nil,[])
+Mindless Lyrics.txt_37-724  [i,had,be,lying]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,foreground,objective]),reject_expl_just(have,[external,factive,narration,foreground,objective]),reject_expl_just(lie,[external,factive,narration,background,objective]),reject_expl_just(say,[external,factive,narration,foreground,objective]),reject_expl_just(full,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_37-725  [if,i,said]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(lie,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(full,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_37-726  [i,want,to,be,this,way]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(lie,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(full,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_37-727  [but,it,is]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(lie,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(full,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_37-728  [a,world,full,of,liars]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,foreground,objective]),reject_expl_just(have,[external,factive,narration,foreground,objective]),reject_expl_just(lie,[external,factive,narration,background,objective]),reject_expl_just(say,[external,factive,narration,foreground,objective]),reject_expl_just(full,[external,factive,narration,background,objective])]
+Mindless Lyrics.txt_38-768  [i,am,just,playing,the,game]  [provide_expl_just(play,[external,factive,cause,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Mindless Lyrics.txt_1-1)-[]
+2-(Mindless Lyrics.txt_2-3)-[]
+3-(Mindless Lyrics.txt_3-6)-[primary-anality]
+4-(Mindless Lyrics.txt_4-10)-[primary-narcissism]
+5-(Mindless Lyrics.txt_5-15)-[primary-passivity,secondary-temporal_repere]
+6-(Mindless Lyrics.txt_6-21)-[]
+7-(Mindless Lyrics.txt_6-22)-[secondary-abstract_tought]
+8-(Mindless Lyrics.txt_6-23)-[]
+9-(Mindless Lyrics.txt_7-29)-[]
+10-(Mindless Lyrics.txt_7-30)-[]
+11-(Mindless Lyrics.txt_8-37)-[primary-concreteness]
+12-(Mindless Lyrics.txt_9-46)-[primary-concreteness,primary-depth,primary-brink]
+13-(Mindless Lyrics.txt_10-56)-[]
+14-(Mindless Lyrics.txt_11-67)-[]
+15-(Mindless Lyrics.txt_12-79)-[primary-narcissism]
+16-(Mindless Lyrics.txt_12-80)-[]
+17-(Mindless Lyrics.txt_13-92)-[secondary-instru_behavior]
+18-(Mindless Lyrics.txt_13-93)-[]
+19-(Mindless Lyrics.txt_13-94)-[secondary-instru_behavior]
+20-(Mindless Lyrics.txt_14-108)-[primary-anality]
+21-(Mindless Lyrics.txt_15-124)-[secondary-instru_behavior,secondary-abstract_tought]
+22-(Mindless Lyrics.txt_16-141)-[secondary-instru_behavior,secondary-restraint]
+23-(Mindless Lyrics.txt_16-142)-[primary-concreteness]
+24-(Mindless Lyrics.txt_17-159)-[secondary-instru_behavior]
+25-(Mindless Lyrics.txt_17-160)-[]
+26-(Mindless Lyrics.txt_18-178)-[]
+27-(Mindless Lyrics.txt_18-179)-[secondary-instru_behavior]
+28-(Mindless Lyrics.txt_19-198)-[primary-sex,primary-concreteness,primary-passivity]
+29-(Mindless Lyrics.txt_20-220)-[primary-concreteness,secondary-instru_behavior]
+half
+30-(Mindless Lyrics.txt_21-243)-[secondary-temporal_repere]
+31-(Mindless Lyrics.txt_21-244)-[]
+32-(Mindless Lyrics.txt_22-266)-[primary-narcissism]
+33-(Mindless Lyrics.txt_22-267)-[]
+34-(Mindless Lyrics.txt_23-289)-[secondary-instru_behavior]
+35-(Mindless Lyrics.txt_23-290)-[]
+36-(Mindless Lyrics.txt_23-291)-[secondary-instru_behavior]
+37-(Mindless Lyrics.txt_24-315)-[primary-anality]
+38-(Mindless Lyrics.txt_25-341)-[secondary-instru_behavior,secondary-abstract_tought]
+39-(Mindless Lyrics.txt_26-368)-[secondary-abstract_tought,primary-narcissism,emotions-expressive_beh,primary-sound,primary-passivity]
+40-(Mindless Lyrics.txt_27-395)-[]
+41-(Mindless Lyrics.txt_28-423)-[]
+42-(Mindless Lyrics.txt_29-452)-[]
+43-(Mindless Lyrics.txt_29-453)-[secondary-moral_imperative]
+44-(Mindless Lyrics.txt_30-483)-[primary-brink]
+45-(Mindless Lyrics.txt_31-514)-[primary-brink]
+46-(Mindless Lyrics.txt_31-515)-[]
+47-(Mindless Lyrics.txt_32-547)-[]
+48-(Mindless Lyrics.txt_33-580)-[]
+49-(Mindless Lyrics.txt_34-614)-[emotions-affection,secondary-abstract_tought,primary-counscious]
+50-(Mindless Lyrics.txt_34-615)-[]
+51-(Mindless Lyrics.txt_35-650)-[secondary-abstract_tought,secondary-abstract_tought,primary-narcissism]
+52-(Mindless Lyrics.txt_36-687)-[primary-sex]
+53-(Mindless Lyrics.txt_37-724)-[]
+54-(Mindless Lyrics.txt_37-725)-[secondary-social_behavior]
+55-(Mindless Lyrics.txt_37-726)-[]
+56-(Mindless Lyrics.txt_37-727)-[]
+57-(Mindless Lyrics.txt_37-728)-[]
+58-(Mindless Lyrics.txt_38-768)-[emotions-expressive_beh]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Mindless Lyrics.txt_1,1,cl1-nil-nil-swear-[subj-agent-Lyrics-sn1,and(Lyrics,mindless,sn1),def_prop(Lyrics,[informa,tecno])])
+lf(Mindless Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-fucker-sn2,subj-theme_bound-we-sn1,and(fucker,all,sn2),and(fucker,mindless,sn2),and(fucker,mother,sn2),def_prop(fucker,[umano]),def_prop(we,[umano])])
+lf(Mindless Lyrics.txt_3,6,cl3-nil-nil-say-[obj-theme_unaff-shit-sn1,def_prop(shit,[attivita,umano])])
+lf(Mindless Lyrics.txt_4,10,cl4-nil-nil-stick-[ncmod-locativo-head-sn2,subj-agent-i-sn1,aux-am-nil,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_5,15,cl5-nil-nil-say-[obj-theme_unaff-again-sn1,and(again,dead,sn1),def_prop(again,[istituzione])])
+lf(Mindless Lyrics.txt_6,21,cl7-nil-nil-be-[cmod-subord-be-",xcomp-prop-pretend-sn5,subj-theme_bound-what-sn4,xcomp-prop-real-sn3,subj-theme_bound-what-sn2,def_prop(pretend,[evaluative]),def_prop(what,[oggetto]),def_prop(real,[astratto,oggetto]),def_prop(what,[oggetto])])
+lf(Mindless Lyrics.txt_6,21,cl6-nil-nil-lose-[subj-theme_aff-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(Mindless Lyrics.txt_7,29,cl8-nil-nil-lose-[obj-theme_unaff-all-sn3,subj-theme_aff-everything-sn2,subj-theme_aff-you-sn1,aux-have-nil,and(all,it,sn3),def_prop(all,[_1977366]),def_prop(everything,[astratto,informa,oggetto]),def_prop(you,[umano])])
+lf(Mindless Lyrics.txt_8,37,cl9-nil-nil-leave-[obj-theme-sanity-sn2,subj-theme-i-sn1,def_prop(sanity,[stato]),def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_9,46,cl10-nil-nil-dry-[xadj-adj-inside-adj1,obj-theme-wall-sn3,iobj-goal-my-sn2,subj-actor-hole-sn1,def_prop(inside,_1977656),def_prop(wall,[body_part,oggetto,stato,strumento,umano]),def_prop(my,[informa,tecno]),def_prop(hole,[astratto,oggetto,stato,strumento])])
+lf(Mindless Lyrics.txt_10,56,cl11-nil-nil-lose-[obj-theme_unaff-everything-sn2,subj-theme_aff-i-sn1,aux-have-nil,def_prop(everything,[astratto,informa,oggetto]),def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_11,67,cl12-nil-nil-lose-[obj-theme_unaff-all-sn2,subj-theme_aff-i-sn1,and(all,it,sn2),def_prop(all,[_1978010]),def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_12,79,cl13-nil-nil-lose-[obj-theme_unaff-mind-sn6,subj-theme_aff-i-sn5,obj-theme_unaff-head-sn2,subj-theme_aff-i-sn1,aux-have-nil,def_prop(mind,[astratto]),def_prop(i,[umano]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_13,92,cl16-nil-nil-find-[subj-actor-you-sn6,adj-(mod)-want-nil,def_prop(you,[umano])])
+lf(Mindless Lyrics.txt_13,92,cl15-nil-nil-want-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Mindless Lyrics.txt_13,92,cl14-nil-nil-be-[xcomp-prop-nothing-sn2,subj-theme_bound-it-sn1,def_prop(nothing,[astratto,informa,oggetto]),def_prop(it,[any])])
+lf(Mindless Lyrics.txt_14,108,cl18-nil-nil-rot-[subj-patient-i-sn1,ncmod-comitativo-each-sn2,def_prop(i,[umano]),def_prop(each,[person])])
+lf(Mindless Lyrics.txt_14,108,cl17-nil-nil-continue-[adj-temporal-day-nil,subj-agent-i-sn1,and(day,passing,sn3),def_prop(day,[tempo]),def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_15,124,cl20-nil-nil-retain-[obj-theme-thought-sn3,xcomp-purpose-retain-3,and(thought,own,sn3),def_prop(thought,[astratto])])
+lf(Mindless Lyrics.txt_15,124,cl19-nil-nil-try-[adj-(mod)-best-nil,adj-subj_disc-best-sn4,xcomp-prop-my-sn2,subj-actor-you-sn1,def_prop(best,[istituzione]),def_prop(best,[istituzione]),def_prop(my,[informa,tecno]),def_prop(you,[umano])])
+lf(Mindless Lyrics.txt_16,141,cl22-nil-nil-trap-[cmod-subord-trap-",adj-locative-it-nil,subj-theme-i-sn5,aux-am-nil,and(it,inside,sn6),def_prop(it,[any]),def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_16,141,cl21-nil-nil-build-[obj-theme_aff-cage-sn2,subj-agent-i-sn1,aux-have-nil,def_prop(cage,[oggetto,stato,strumento]),def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_17,159,cl24-nil-nil-be-[xcomp-prop-worse-sn3,subj-theme_bound-it-sn2,def_prop(worse,[astratto]),def_prop(it,[any])])
+lf(Mindless Lyrics.txt_17,159,cl23-nil-nil-make-[subj-agent-pro-nil])
+lf(Mindless Lyrics.txt_18,178,cl26-not-will-will-[obj-theme_aff-try-sn3,subj-agent-i-sn2,def_prop(try,[attivita,legale]),def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_18,178,cl25-not-can-associate-[])
+lf(Mindless Lyrics.txt_19,198,cl29-nil-nil-die-[cmod-subord-die-if])
+lf(Mindless Lyrics.txt_19,198,cl28-nil-nil-leave-[subj-agent-you-sn6,subj-theme-i-sn3,aux-am-nil,def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_19,198,cl27-not-nil-give-[obj-goal-fuck-sn2,subj-actor-you-sn1,aux-do-nil,def_prop(fuck,[attivita]),def_prop(you,[umano])])
+lf(Mindless Lyrics.txt_20,220,_1980146-nil-nil-sell-[cmod-subord-be-but,subj-theme-soul-sn9,voice-sell-nil,tense-sell-nil,subj-theme-soul-sn7,subj-theme-there-sn4,and(soul,no,sn9),and(soul,no,sn7),def_prop(soul,[attivita,emotivo,informa,umano]),def_prop(soul,[attivita,emotivo,informa,umano]),def_prop(there,[any])])
+lf(Mindless Lyrics.txt_20,220,cl31-nil-nil-be-[voice-sell-nil,tense-sell-nil,subj-theme_bound-soul-sn7,xcomp-prop-soul-sn5,subj-theme_bound-there-sn4,and(soul,no,sn7),and(soul,no,sn5),def_prop(soul,[attivita,emotivo,informa,umano]),def_prop(soul,[attivita,emotivo,informa,umano]),def_prop(there,[any])])
+lf(Mindless Lyrics.txt_20,220,cl30-nil-nil-drag-[voice-sell-nil,tense-sell-nil,xcomp-prop-away-sn3,obj-theme-me-sn2,subj-actor-you-sn1,def_prop(away,[evaluative]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Mindless Lyrics.txt_21,243,cl33-nil-nil-be-[ncmod-locativo-hell-sn4,subj-theme_bound-i-sn3,def_prop(hell,[attivita,evento,luogo]),def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_21,243,cl32-nil-nil-call-[obj-theme_bound-me-sn2,subj-agent-you-sn1,aux-been-nil,aux-have-nil,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Mindless Lyrics.txt_22,266,cl34-nil-nil-lose-[obj-theme_unaff-mind-sn6,subj-theme_aff-i-sn5,obj-theme_unaff-head-sn2,subj-theme_aff-i-sn1,aux-have-nil,def_prop(mind,[astratto]),def_prop(i,[umano]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_23,289,cl37-nil-nil-find-[subj-actor-you-sn6,adj-(mod)-want-nil,def_prop(you,[umano])])
+lf(Mindless Lyrics.txt_23,289,cl36-nil-nil-want-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Mindless Lyrics.txt_23,289,cl35-nil-nil-be-[xcomp-prop-nothing-sn2,subj-theme_bound-it-sn1,def_prop(nothing,[astratto,informa,oggetto]),def_prop(it,[any])])
+lf(Mindless Lyrics.txt_24,315,cl39-nil-nil-rot-[subj-patient-i-sn1,ncmod-comitativo-each-sn2,def_prop(i,[umano]),def_prop(each,[person])])
+lf(Mindless Lyrics.txt_24,315,cl38-nil-nil-continue-[adj-temporal-day-nil,subj-agent-i-sn1,and(day,passing,sn3),def_prop(day,[tempo]),def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_25,341,cl41-nil-nil-retain-[obj-theme-thought-sn3,xcomp-purpose-retain-3,and(thought,own,sn3),def_prop(thought,[astratto])])
+lf(Mindless Lyrics.txt_25,341,cl40-nil-nil-try-[adj-(mod)-best-nil,adj-subj_disc-best-sn4,xcomp-prop-my-sn2,subj-actor-you-sn1,def_prop(best,[istituzione]),def_prop(best,[istituzione]),def_prop(my,[informa,tecno]),def_prop(you,[umano])])
+lf(Mindless Lyrics.txt_26,368,cl42-nil-nil-sing-[iobj-goal-tune-sn2,subj-agent-all-sn1,and(all,head,sn1),def_prop(tune,[astratto,attivita,informa]),def_prop(all,[_1982332])])
+lf(Mindless Lyrics.txt_27,395,cl43-nil-nil-hang-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Mindless Lyrics.txt_28,423,cl44-nil-nil-tie-[xcomp-prop-tight-sn2,subj-patient1-noose-sn1,aux-(is)-nil,def_prop(tight,[evaluative]),def_prop(noose,[oggetto,strumento])])
+lf(Mindless Lyrics.txt_29,452,cl46-nil-nil-end-[xcomp-prop-right-sn3,subj-agent-it-sn2,def_prop(right,[soggettivo]),def_prop(it,[any])])
+lf(Mindless Lyrics.txt_29,452,cl45-nil-nil-be-[subj-theme_bound-this-sn1,def_prop(this,[oggetto,umano])])
+lf(Mindless Lyrics.txt_30,483,cl47-nil-nil-go-[xadj-adj-down-adj2,iobj-goal-hell-sn4,coord-agent-step_and_i-sn3,subj-agent-i-sn2,subj-agent-step-sn1,def_prop(down,_1982892),def_prop(hell,[attivita,evento,luogo]),def_prop(step_and_i,[attivita,nquant,oggetto,strumento,umano]),def_prop(i,[attivita,nquant,oggetto,strumento,umano]),def_prop(step,[attivita,nquant,oggetto,strumento,umano])])
+lf(Mindless Lyrics.txt_31,514,cl49-nil-nil-go-[cmod-subord-go-",xadj-adj-down-adj3,iobj-goal-hell-sn5,subj-agent-i-sn4,def_prop(down,_1983174),def_prop(hell,[attivita,evento,luogo]),def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_31,514,cl48-nil-nil-fuck-[obj-theme-step-sn2,subj-actor-one-sn1,and(one,one,sn1),def_prop(step,[attivita,nquant,oggetto,strumento]),def_prop(one,[umano])])
+lf(Mindless Lyrics.txt_32,547,cl50-nil-nil-go-[xadj-adj-down-adj4,iobj-goal-hell-sn2,subj-agent-i-sn1,def_prop(down,_1983476),def_prop(hell,[attivita,evento,luogo]),def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_33,580,cl51-nil-nil-say-[])
+lf(Mindless Lyrics.txt_34,614,cl53-not-nil-be-[xcomp-prop-part-sn4,xcomp-prop-insane-sn3,xcomp-prop-i-sn2,xcomp-purpose-think-2,subj-theme_bound-i-sn1,neg-not-nil,and(part,worst,sn4),def_prop(part,[astratto,attivita,body_part,informa,oggetto,relat,strumento,umano]),def_prop(insane,[evaluative]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_34,614,cl52-nil-nil-think-[cmod-subord-think-",adj-(mod)-be-nil])
+lf(Mindless Lyrics.txt_35,650,cl55-nil-nil-fuck-[obj-theme-hear-sn5,obj-theme-i-sn4,obj-theme-mind-sn3,subj-actor-my-sn2,subj-actor-my-sn1,and(my,cause,sn1),def_prop(hear,[istituzione]),def_prop(i,[umano]),def_prop(mind,[astratto]),def_prop(my,[informa,tecno]),def_prop(my,[informa,tecno])])
+lf(Mindless Lyrics.txt_35,650,cl54-nil-will-lose-[cmod-subord-fuck-if,subj-theme_aff-you-sn9,adj-(mod)-surely-nil,aux-have-nil,def_prop(you,[umano])])
+lf(Mindless Lyrics.txt_36,687,cl56-nil-nil-say-[obj-theme_unaff-fuck-sn1,def_prop(fuck,[attivita])])
+lf(Mindless Lyrics.txt_37,724,nil-nil-nil-full-[ncmod-specif-liar-sn8,subj-actor-world-sn7,def_prop(liar,[umano]),def_prop(world,[astratto,istituzione,oggetto])])
+lf(Mindless Lyrics.txt_37,724,cl61-nil-nil-be-[subj-theme_bound-it-sn6,def_prop(it,[any])])
+lf(Mindless Lyrics.txt_37,724,cl60-nil-nil-want-[obj-prop-way-sn4,xcomp-purpose-be-2,subj-actor-i-sn3,and(way,this,sn4),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_37,724,cl59-nil-nil-say-[subj-actor-i-sn2,def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_37,724,cl58-nil-nil-lie-[subj-prop-i-sn1,def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_37,724,cl57-nil-nil-have-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Mindless Lyrics.txt_38,768,cl62-nil-nil-play-[obj-goal-game-sn2,subj-agent-i-sn1,aux-am-nil,progr-playing-nil,def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(i,[umano])])

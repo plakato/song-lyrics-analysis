@@ -1,0 +1,196 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Enemy Lyrics.txt_1-1  []-negative  [neg]
+Enemy Lyrics.txt_2-3  []-positive  []
+Enemy Lyrics.txt_3-6  []-negative  []
+Enemy Lyrics.txt_4-10  []-question  [fgb]
+Enemy Lyrics.txt_5-15  []-positive  []
+Enemy Lyrics.txt_6-22  []-suspension  [neg,neg,neg]
+Enemy Lyrics.txt_6-23  [so-result]-negative  [neg,fgb]
+Enemy Lyrics.txt_7-30  [but-advers]-positive  [fgb]
+Enemy Lyrics.txt_7-30  [but-advers]-positive  [fgb]
+Enemy Lyrics.txt_8-38  []-positive  []
+Enemy Lyrics.txt_9-51  [but-advers]-negative  [fgb]
+Enemy Lyrics.txt_9-52  []-positive  []
+Enemy Lyrics.txt_10-61  [as_if-hypoth]-negative  [fgb]
+Enemy Lyrics.txt_11-74  []-negative  [neg]
+Enemy Lyrics.txt_12-87  []-negative  []
+Enemy Lyrics.txt_13-100  []-positive  []
+Enemy Lyrics.txt_13-101  []-positive  []
+Enemy Lyrics.txt_14-115  []-positive  []
+Enemy Lyrics.txt_15-130  []-negative  [neg,fhd]
+Enemy Lyrics.txt_16-146  []-positive  []
+Enemy Lyrics.txt_16-147  []-positive  []
+Enemy Lyrics.txt_17-164  []-positive  []
+Enemy Lyrics.txt_18-182  []-negative  [neg,fhd]
+Enemy Lyrics.txt_19-201  []-negative  []
+Enemy Lyrics.txt_19-202  []-positive  []
+Enemy Lyrics.txt_20-222  []-question  [fgb]
+Enemy Lyrics.txt_21-243  []-positive  []
+Enemy Lyrics.txt_22-265  []-negative  [neg]
+Enemy Lyrics.txt_23-288  []-positive  []
+Enemy Lyrics.txt_24-316  [but-advers]-negative  [fgb]
+Enemy Lyrics.txt_24-317  []-positive  []
+Enemy Lyrics.txt_25-341  [as_if-hypoth]-negative  [fgb]
+Enemy Lyrics.txt_26-369  []-negative  [neg]
+Enemy Lyrics.txt_27-397  []-negative  []
+Enemy Lyrics.txt_28-425  []-positive  []
+Enemy Lyrics.txt_28-426  []-positive  []
+Enemy Lyrics.txt_29-455  []-positive  []
+Enemy Lyrics.txt_30-485  []-negative  [neg,fhd]
+Enemy Lyrics.txt_31-516  []-positive  []
+Enemy Lyrics.txt_31-517  []-positive  []
+Enemy Lyrics.txt_32-549  []-positive  []
+Enemy Lyrics.txt_33-582  []-negative  [neg,fhd]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Enemy Lyrics.txt_1-1  [enemy,Lyrics,by,XOV]  [title]
+Enemy Lyrics.txt_2-3  [in,an,open,fire]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Enemy Lyrics.txt_3-6  [i,don-t,understand]  [provide_expl_just(understand,[external,factive,narration,foreground,objective])]
+Enemy Lyrics.txt_4-10  [here,happened,what,?]  [provide_expl_just(happen,[internal,factive,narration,foreground,objective])]
+Enemy Lyrics.txt_5-15  [thought,we,were,friends]  [provide_expl_just(think,[external,factive,narration,foreground,objective])]
+Enemy Lyrics.txt_6-22  [i,it,no,i,will,not,deny]  [provide_expl_just(fall,[external,factive,cause,foreground,objective])]
+Enemy Lyrics.txt_6-23  [fell,so,deep]  [reject_expl_just(fall,[external,factive,cause,foreground,objective])]
+Enemy Lyrics.txt_7-30  [but,you,ran,away]  [provide_expl_just(run,[external,factive,adverse,foreground,objective])]
+Enemy Lyrics.txt_7-30  [but,you,ran,away,,,so_far,from,me]  [provide_expl_just(run,[external,factive,adverse,foreground,objective])]
+Enemy Lyrics.txt_8-38  [now,that,things,have,changed,you,wanna,know,me]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(change,[external,factive,narration,background,objective])]
+Enemy Lyrics.txt_9-51  [but,you,don-t,know,me]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_231418)]
+Enemy Lyrics.txt_9-52  [you,know,the,old,me]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_235802)]
+Enemy Lyrics.txt_10-61  [don-t,come,up_to,me,talk,we,as_if,and,are,homies]  [provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Enemy Lyrics.txt_11-74  [cause,we,is,not,homies]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(cause,[external,factive,narration,background,objective])]
+Enemy Lyrics.txt_12-87  [you,nah,don-t,know,me]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_241524)]
+Enemy Lyrics.txt_13-100  [every,i_remember,word,every,word]  [provide_expl_just(word,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Enemy Lyrics.txt_13-101  [you,said]  [provide_expl_just(word,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Enemy Lyrics.txt_14-115  [everything,everything,i_remember,you,did]  [provide_expl_just(do,[external,factive,narration,background,objective])]
+Enemy Lyrics.txt_15-130  [i,don-t,wanna,be,your,enemy,or,your,friend]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Enemy Lyrics.txt_16-146  [every,i_remember,word,every,word]  [provide_expl_just(word,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Enemy Lyrics.txt_16-147  [you,said]  [provide_expl_just(word,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Enemy Lyrics.txt_17-164  [everything,everything,i_remember,you,did]  [provide_expl_just(do,[external,factive,narration,background,objective])]
+Enemy Lyrics.txt_18-182  [i,don-t,wanna,be,your,enemy,or,your,friend]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Enemy Lyrics.txt_19-201  [i,brother,don-t,buy]  [provide_expl_just(buy,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Enemy Lyrics.txt_19-202  [it]  [provide_expl_just(buy,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Enemy Lyrics.txt_20-222  [me,from,want,you,what,?]  [provide_expl_just(want,[internal,factive,narration,foreground,objective])]
+Enemy Lyrics.txt_21-243  [just,stay,away]  [provide_expl_just(stay,[external,factive,narration,background,objective])]
+Enemy Lyrics.txt_22-265  [no,apology]  reject_expl_opin(nil,[])
+Enemy Lyrics.txt_23-288  [now,that,things,have,changed,you,wanna,know,me]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(change,[external,factive,narration,background,objective])]
+Enemy Lyrics.txt_24-316  [but,you,don-t,know,me]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_265882)]
+Enemy Lyrics.txt_24-317  [you,know,the,old,me]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_270266)]
+Enemy Lyrics.txt_25-341  [don-t,come,up_to,me,talk,we,as_if,and,are,homies]  [provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Enemy Lyrics.txt_26-369  [cause,we,is,not,homies]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(cause,[external,factive,narration,background,objective])]
+Enemy Lyrics.txt_27-397  [you,nah,don-t,know,me]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_275988)]
+Enemy Lyrics.txt_28-425  [every,i_remember,word,every,word]  [provide_expl_just(word,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Enemy Lyrics.txt_28-426  [you,said]  [provide_expl_just(word,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Enemy Lyrics.txt_29-455  [everything,everything,i_remember,you,did]  [provide_expl_just(do,[external,factive,narration,background,objective])]
+Enemy Lyrics.txt_30-485  [i,don-t,wanna,be,your,enemy,or,your,friend]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Enemy Lyrics.txt_31-516  [every,i_remember,word,every,word]  [provide_expl_just(word,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Enemy Lyrics.txt_31-517  [you,said]  [provide_expl_just(word,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Enemy Lyrics.txt_32-549  [everything,everything,i_remember,you,did]  [provide_expl_just(do,[external,factive,narration,background,objective])]
+Enemy Lyrics.txt_33-582  [i,don-t,wanna,be,your,enemy,or,your,friend]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Enemy Lyrics.txt_1-1)-[emotions-aggression]
+2-(Enemy Lyrics.txt_2-3)-[primary-concreteness,primary-fire]
+3-(Enemy Lyrics.txt_3-6)-[secondary-abstract_tought]
+4-(Enemy Lyrics.txt_4-10)-[primary-concreteness]
+5-(Enemy Lyrics.txt_5-15)-[secondary-abstract_tought,emotions-affection]
+6-(Enemy Lyrics.txt_6-22)-[]
+7-(Enemy Lyrics.txt_6-23)-[primary-descent,primary-depth]
+8-(Enemy Lyrics.txt_7-30)-[primary-concreteness]
+9-(Enemy Lyrics.txt_7-30)-[primary-concreteness]
+10-(Enemy Lyrics.txt_8-38)-[secondary-temporal_repere,secondary-abstract_tought]
+11-(Enemy Lyrics.txt_9-51)-[secondary-abstract_tought]
+12-(Enemy Lyrics.txt_9-52)-[secondary-abstract_tought,secondary-temporal_repere]
+13-(Enemy Lyrics.txt_10-61)-[secondary-social_behavior]
+14-(Enemy Lyrics.txt_11-74)-[secondary-abstract_tought]
+15-(Enemy Lyrics.txt_12-87)-[secondary-abstract_tought]
+16-(Enemy Lyrics.txt_13-100)-[secondary-temporal_repere,secondary-temporal_repere]
+17-(Enemy Lyrics.txt_13-101)-[secondary-social_behavior]
+18-(Enemy Lyrics.txt_14-115)-[]
+19-(Enemy Lyrics.txt_15-130)-[emotions-aggression,emotions-affection]
+20-(Enemy Lyrics.txt_16-146)-[secondary-temporal_repere,secondary-temporal_repere]
+21-(Enemy Lyrics.txt_16-147)-[secondary-social_behavior]
+half
+22-(Enemy Lyrics.txt_17-164)-[]
+23-(Enemy Lyrics.txt_18-182)-[emotions-aggression,emotions-affection]
+24-(Enemy Lyrics.txt_19-201)-[primary-orality,secondary-instru_behavior]
+25-(Enemy Lyrics.txt_19-202)-[]
+26-(Enemy Lyrics.txt_20-222)-[]
+27-(Enemy Lyrics.txt_21-243)-[primary-concreteness]
+28-(Enemy Lyrics.txt_22-265)-[]
+29-(Enemy Lyrics.txt_23-288)-[secondary-temporal_repere,secondary-abstract_tought]
+30-(Enemy Lyrics.txt_24-316)-[secondary-abstract_tought]
+31-(Enemy Lyrics.txt_24-317)-[secondary-abstract_tought,secondary-temporal_repere]
+32-(Enemy Lyrics.txt_25-341)-[secondary-social_behavior]
+33-(Enemy Lyrics.txt_26-369)-[secondary-abstract_tought]
+34-(Enemy Lyrics.txt_27-397)-[secondary-abstract_tought]
+35-(Enemy Lyrics.txt_28-425)-[secondary-temporal_repere,secondary-temporal_repere]
+36-(Enemy Lyrics.txt_28-426)-[secondary-social_behavior]
+37-(Enemy Lyrics.txt_29-455)-[]
+38-(Enemy Lyrics.txt_30-485)-[emotions-aggression,emotions-affection]
+39-(Enemy Lyrics.txt_31-516)-[secondary-temporal_repere,secondary-temporal_repere]
+40-(Enemy Lyrics.txt_31-517)-[secondary-social_behavior]
+41-(Enemy Lyrics.txt_32-549)-[]
+42-(Enemy Lyrics.txt_33-582)-[emotions-aggression,emotions-affection]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Enemy Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-XOV-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,enemy,sn1),def_prop(XOV,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Enemy Lyrics.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_3,6,cl3-not-nil-understand-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_4,10,cl4-nil-nil-happen-[subj-theme_unaff-what-sn1,def_prop(what,[oggetto])])
+lf(Enemy Lyrics.txt_5,15,cl6-nil-nil-be-[xcomp-prop-friend-sn3,xcomp-purpose-be-2,def_prop(friend,[umano])])
+lf(Enemy Lyrics.txt_5,15,cl5-nil-nil-think-[subj-agent-we-sn2,subj-agent-we-sn1,and(we,you,sn1),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Enemy Lyrics.txt_6,22,cl8-nil-nil-fall-[subj-agent-you-sn7,def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_6,22,cl7-not-will-deny-[subj-actor-i-sn2,subj-actor-i-sn1,and(i,no,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Enemy Lyrics.txt_7,30,cl9-nil-nil-run-[cmod-subord-run-but,iobj-goal-me-sn6,xcomp-prop-away-sn4,subj-agent-you-sn3,xcomp-prop-away-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(away,[evaluative]),def_prop(you,[umano]),def_prop(away,[evaluative]),def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_8,38,cl11-nil-nil-know-[obj-theme_unaff-me-sn10,subj-actor-you-sn9,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_8,38,nil-nil-nil-wanna-[obj-prop-me-sn8,xcomp-purpose-know-5,subj-agent-you-sn7,obj-theme_unaff-me-sn6,xcomp-purpose-know-4,subj-agent-you-sn5,adj-(mod)-now-nil,obj-theme_unaff-me-sn3,xcomp-purpose-know-cl11,subj-agent-you-sn2,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_8,38,cl10-nil-nil-change-[subj-agent-thing-sn1,aux-have-nil,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Enemy Lyrics.txt_9,51,cl12-not-nil-know-[obj-theme_unaff-me-sn4,subj-actor-you-sn3,obj-theme_unaff-me-sn2,subj-actor-you-sn1,aux-do-nil,and(me,old,sn4),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_10,61,_-nil-nil-come-[ncmod-prop-me-sn2,def_prop(me,[umano])])
+lf(Enemy Lyrics.txt_10,61,cl15-nil-nil-be-[xmod-prop-come-4])
+lf(Enemy Lyrics.txt_10,61,cl14-nil-nil-come-[ncmod-prop-me-sn2,def_prop(me,[umano])])
+lf(Enemy Lyrics.txt_10,61,cl13-not-nil-don-t-[xcomp-prop-homies-sn3,subj-agent-as_if-sn1,and(as_if,talk,sn1),def_prop(homies,[evaluative]),def_prop(as_if,[istituzione,umano])])
+lf(Enemy Lyrics.txt_11,74,cl17-nil-nil-be-[xcomp-prop-homies-sn3,xcomp-purpose-be-2,def_prop(homies,[istituzione])])
+lf(Enemy Lyrics.txt_11,74,cl16-nil-nil-cause-[subj-causer-we-sn2,subj-causer-we-sn1,and(we,you,sn1),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Enemy Lyrics.txt_12,87,cl18-not-nil-know-[obj-theme_unaff-me-sn2,subj-actor-nah-sn1,aux-do-nil,and(nah,you,sn1),def_prop(me,[umano]),def_prop(nah,[istituzione])])
+lf(Enemy Lyrics.txt_13,100,cl20-nil-nil-say-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_13,100,cl19-nil-nil-word-[subj-agent-every-sn2,subj-agent-every-sn1,and(every,word,sn1),and(every,every,sn1),def_prop(every,[evaluative]),def_prop(every,_283592)])
+lf(Enemy Lyrics.txt_14,115,cl21-nil-nil-do-[subj-theme_unaff-you-sn2,subj-theme_unaff-you-sn1,aux-did-nil,and(you,i_remember,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_15,130,cl22-nil-nil-be-[coord-prop-enemy_or_friend-sn20,xcomp-prop-friend-sn19,xcomp-prop-enemy-sn18,subj-theme_bound-i-sn1,def_prop(enemy_or_friend,[istituzione,umano,umano]),def_prop(friend,[istituzione,umano,umano]),def_prop(enemy,[istituzione,umano,umano]),def_prop(i,[umano])])
+lf(Enemy Lyrics.txt_16,146,cl24-nil-nil-say-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_16,146,cl23-nil-nil-word-[subj-agent-every-sn2,subj-agent-every-sn1,and(every,word,sn1),and(every,every,sn1),def_prop(every,[evaluative]),def_prop(every,_284174)])
+lf(Enemy Lyrics.txt_17,164,cl25-nil-nil-do-[subj-theme_unaff-you-sn2,subj-theme_unaff-you-sn1,aux-did-nil,and(you,i_remember,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_18,182,cl26-nil-nil-be-[coord-prop-enemy_or_friend-sn20,xcomp-prop-friend-sn19,xcomp-prop-enemy-sn18,subj-theme_bound-i-sn1,def_prop(enemy_or_friend,[istituzione,umano,umano]),def_prop(friend,[istituzione,umano,umano]),def_prop(enemy,[istituzione,umano,umano]),def_prop(i,[umano])])
+lf(Enemy Lyrics.txt_19,201,cl28-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_19,201,cl27-not-nil-buy-[ncmod-modal-i-sn2,subj-actor-you-sn1,aux-do-nil,def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_20,222,cl29-nil-nil-want-[ncmod-loc_origin-me-sn3,obj-tema_unaff-what-sn2,subj-actor-you-sn1,def_prop(me,[umano]),def_prop(what,[oggetto]),def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_21,243,cl30-nil-nil-stay-[subj_top-agent-away-sn1,def_prop(away,[evaluative])])
+lf(Enemy Lyrics.txt_22,265,cl31-nil-nil-say-[obj-theme_unaff-apology-sn1,and(apology,no,sn1),def_prop(apology,[astratto,attivita,informa])])
+lf(Enemy Lyrics.txt_23,288,cl33-nil-nil-know-[obj-theme_unaff-me-sn10,subj-actor-you-sn9,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_23,288,nil-nil-nil-wanna-[obj-prop-me-sn8,xcomp-purpose-know-5,subj-agent-you-sn7,obj-theme_unaff-me-sn6,xcomp-purpose-know-4,subj-agent-you-sn5,adj-(mod)-now-nil,obj-theme_unaff-me-sn3,xcomp-purpose-know-cl33,subj-agent-you-sn2,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_23,288,cl32-nil-nil-change-[subj-agent-thing-sn1,aux-have-nil,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Enemy Lyrics.txt_24,316,cl34-not-nil-know-[obj-theme_unaff-me-sn4,subj-actor-you-sn3,obj-theme_unaff-me-sn2,subj-actor-you-sn1,aux-do-nil,and(me,old,sn4),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_25,341,_-nil-nil-come-[ncmod-prop-me-sn2,def_prop(me,[umano])])
+lf(Enemy Lyrics.txt_25,341,cl37-nil-nil-be-[xmod-prop-come-4])
+lf(Enemy Lyrics.txt_25,341,cl36-nil-nil-come-[ncmod-prop-me-sn2,def_prop(me,[umano])])
+lf(Enemy Lyrics.txt_25,341,cl35-not-nil-don-t-[xcomp-prop-homies-sn3,subj-agent-as_if-sn1,and(as_if,talk,sn1),def_prop(homies,[evaluative]),def_prop(as_if,[istituzione,umano])])
+lf(Enemy Lyrics.txt_26,369,cl39-nil-nil-be-[xcomp-prop-homies-sn3,xcomp-purpose-be-2,def_prop(homies,[istituzione])])
+lf(Enemy Lyrics.txt_26,369,cl38-nil-nil-cause-[subj-causer-we-sn2,subj-causer-we-sn1,and(we,you,sn1),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Enemy Lyrics.txt_27,397,cl40-not-nil-know-[obj-theme_unaff-me-sn2,subj-actor-nah-sn1,aux-do-nil,and(nah,you,sn1),def_prop(me,[umano]),def_prop(nah,[istituzione])])
+lf(Enemy Lyrics.txt_28,425,cl42-nil-nil-say-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_28,425,cl41-nil-nil-word-[subj-agent-every-sn2,subj-agent-every-sn1,and(every,word,sn1),and(every,every,sn1),def_prop(every,[evaluative]),def_prop(every,_286824)])
+lf(Enemy Lyrics.txt_29,455,cl43-nil-nil-do-[subj-theme_unaff-you-sn2,subj-theme_unaff-you-sn1,aux-did-nil,and(you,i_remember,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_30,485,cl44-nil-nil-be-[coord-prop-enemy_or_friend-sn20,xcomp-prop-friend-sn19,xcomp-prop-enemy-sn18,subj-theme_bound-i-sn1,def_prop(enemy_or_friend,[istituzione,umano,umano]),def_prop(friend,[istituzione,umano,umano]),def_prop(enemy,[istituzione,umano,umano]),def_prop(i,[umano])])
+lf(Enemy Lyrics.txt_31,516,cl46-nil-nil-say-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_31,516,cl45-nil-nil-word-[subj-agent-every-sn2,subj-agent-every-sn1,and(every,word,sn1),and(every,every,sn1),def_prop(every,[evaluative]),def_prop(every,_287406)])
+lf(Enemy Lyrics.txt_32,549,cl47-nil-nil-do-[subj-theme_unaff-you-sn2,subj-theme_unaff-you-sn1,aux-did-nil,and(you,i_remember,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Enemy Lyrics.txt_33,582,cl48-nil-nil-be-[coord-prop-enemy_or_friend-sn20,xcomp-prop-friend-sn19,xcomp-prop-enemy-sn18,subj-theme_bound-i-sn1,def_prop(enemy_or_friend,[istituzione,umano,umano]),def_prop(friend,[istituzione,umano,umano]),def_prop(enemy,[istituzione,umano,umano]),def_prop(i,[umano])])

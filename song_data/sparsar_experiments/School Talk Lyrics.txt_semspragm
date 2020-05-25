@@ -1,0 +1,95 @@
+"POLARITY, DISCOURSE MARKERS"
+
+School Talk Lyrics.txt_1-1  []-positive  []
+School Talk Lyrics.txt_2-3  []-positive  []
+School Talk Lyrics.txt_3-6  []-negative  [neg,neg]
+School Talk Lyrics.txt_4-10  []-positive  []
+School Talk Lyrics.txt_5-15  []-positive  []
+School Talk Lyrics.txt_6-21  []-positive  [neg]
+School Talk Lyrics.txt_7-29  []-negative  [neg]
+School Talk Lyrics.txt_8-37  []-positive  [fhd,neg]
+School Talk Lyrics.txt_9-46  []-negative  [neg,neg]
+School Talk Lyrics.txt_10-56  []-negative  [neg]
+School Talk Lyrics.txt_11-67  []-negative  []
+School Talk Lyrics.txt_12-79  []-negative  [neg]
+School Talk Lyrics.txt_13-92  []-positive  [fhd]
+School Talk Lyrics.txt_14-106  []-negative  [neg]
+School Talk Lyrics.txt_15-121  []-negative  [neg,neg]
+School Talk Lyrics.txt_16-137  []-positive  []
+School Talk Lyrics.txt_16-138  []-positive  []
+School Talk Lyrics.txt_17-155  []-positive  []
+School Talk Lyrics.txt_18-173  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+School Talk Lyrics.txt_1-1  [school,Talk,Lyrics,by,Yung,Kwon]  [title]
+School Talk Lyrics.txt_2-3  [chillin,in,da,library]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+School Talk Lyrics.txt_3-6  [school,is,not,my,primary,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+School Talk Lyrics.txt_4-10  [mrs]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+School Talk Lyrics.txt_5-15  [Blindenboker,bitchin-]  [raise_issue(be,[_142186,factive,statement,_142204,subjective])]
+School Talk Lyrics.txt_6-21  [cause,he,stank,pussy,itchin-]  [provide_expl_just(stink,[external,factive,narration,foreground,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+School Talk Lyrics.txt_7-29  [these,carpets,are,shit]  [reject_expl_just(shit,[external,factive,narration,background,objective])]
+School Talk Lyrics.txt_8-37  [they,smell,like,shit]  [provide_expl_just(smell,[external,factive,narration,background,objective])]
+School Talk Lyrics.txt_9-46  [bout,to,throw,a,fit]  [reject_expl_just(throw,[external,factive,narration,background,objective])]
+School Talk Lyrics.txt_10-56  [bells,bout,to,ring,in,a,bit]  [reject_expl_just(ring,[external,factive,narration,background,objective])]
+School Talk Lyrics.txt_11-67  [ery,one-s,playin,games]  [provide_expl_just(game,[external,factive,narration,background,objective])]
+School Talk Lyrics.txt_12-79  [i,don-t,play,no,games]  [reject_expl_just(play,[external,factive,cause,foreground,objective])]
+School Talk Lyrics.txt_13-92  [i,ball,like,Lebron,James]  [provide_expl_just(ball,[external,factive,narration,background,objective])]
+School Talk Lyrics.txt_14-106  [i,no,don-t]  [reject_expl_just(don-t,[external,factive,narration,background,objective])]
+School Talk Lyrics.txt_15-121  [dis,school,sucks,dick]  [reject_expl_just(suck,[external,factive,narration,background,objective])]
+School Talk Lyrics.txt_16-137  [i,poke]  [provide_expl_just(poke,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+School Talk Lyrics.txt_16-138  [it,with,a,stick]  [provide_expl_just(poke,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+School Talk Lyrics.txt_17-155  [all,day]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+School Talk Lyrics.txt_18-173  [ery,day]  [raise_issue(be,[_148180,factive,statement,_148198,subjective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(School Talk Lyrics.txt_1-1)-[]
+2-(School Talk Lyrics.txt_2-3)-[primary-cold]
+3-(School Talk Lyrics.txt_3-6)-[]
+4-(School Talk Lyrics.txt_4-10)-[]
+5-(School Talk Lyrics.txt_5-15)-[]
+6-(School Talk Lyrics.txt_6-21)-[secondary-abstract_tought]
+7-(School Talk Lyrics.txt_7-29)-[primary-anality]
+8-(School Talk Lyrics.txt_8-37)-[primary-odor,emotions-affection,primary-anality]
+9-(School Talk Lyrics.txt_9-46)-[primary-ascend]
+half
+10-(School Talk Lyrics.txt_10-56)-[primary-sound,primary-sound]
+11-(School Talk Lyrics.txt_11-67)-[emotions-expressive_beh,emotions-expressive_beh]
+12-(School Talk Lyrics.txt_12-79)-[emotions-expressive_beh,emotions-expressive_beh]
+13-(School Talk Lyrics.txt_13-92)-[emotions-affection]
+14-(School Talk Lyrics.txt_14-106)-[]
+15-(School Talk Lyrics.txt_15-121)-[primary-orality]
+16-(School Talk Lyrics.txt_16-137)-[]
+17-(School Talk Lyrics.txt_16-138)-[]
+18-(School Talk Lyrics.txt_17-155)-[]
+19-(School Talk Lyrics.txt_18-173)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(School Talk Lyrics.txt_1,1,cl1-nil-nil-talk-[arg_mod-agent-Kwon-sn3,obj-theme_aff-Lyrics-sn2,subj-actor-school-sn1,and(Kwon,Yung,sn3),def_prop(Kwon,[umano]),def_prop(Lyrics,[informa,tecno]),def_prop(school,[astratto,istituzione,oggetto,strumento,tempo])])
+lf(School Talk Lyrics.txt_2,3,cl2-nil-nil-be-[ncmod-locativo-library-sn2,subj-theme_bound-chillin-sn1,and(library,da,sn2),def_prop(library,[istituzione,oggetto,strumento]),def_prop(chillin,[istituzione])])
+lf(School Talk Lyrics.txt_3,6,cl3-not-nil-be-[xcomp-prop-primary-sn2,subj-theme_bound-school-sn1,neg-not-nil,def_prop(primary,[animato,attivita]),def_prop(school,[astratto,istituzione,oggetto,strumento,tempo])])
+lf(School Talk Lyrics.txt_4,10,cl4-nil-nil-say-[obj-theme_unaff-mr-sn1,def_prop(mr,[informa,tecno])])
+lf(School Talk Lyrics.txt_5,15,cl5-nil-nil-say-[obj-theme_unaff-[]-sn1,def_prop([],nil)])
+lf(School Talk Lyrics.txt_6,21,cl7-nil-nil-stink-[obj-location-[]-sn3,xcomp-purpose-stink-2,def_prop([],nil)])
+lf(School Talk Lyrics.txt_6,21,cl6-nil-nil-cause-[subj-causer-he-sn2,subj-causer-he-sn1,and(he,you,sn1),def_prop(he,[umano]),def_prop(he,[umano])])
+lf(School Talk Lyrics.txt_7,29,cl8-nil-nil-shit-[subj-theme_aff-you-sn1,aux-are-nil,def_prop(you,[umano])])
+lf(School Talk Lyrics.txt_8,37,cl9-nil-nil-smell-[xcomp-location-shit-sn2,subj-experiencer-they-sn1,def_prop(shit,[attivita,umano]),def_prop(they,[umano])])
+lf(School Talk Lyrics.txt_9,46,cl10-nil-nil-throw-[obj-theme_unaff-fit-sn2,subj-agent-bout-sn1,def_prop(fit,[valutativo]),def_prop(bout,[attivita,informa,tempo])])
+lf(School Talk Lyrics.txt_10,56,cl11-nil-nil-ring-[ncmod-locativo-bite-sn2,subj-agent-bout-sn1,and(bout,bell,sn1),def_prop(bite,[attivita,edible,evento,oggetto,stato]),def_prop(bout,[attivita,informa,tempo])])
+lf(School Talk Lyrics.txt_11,67,cl12-nil-nil-game-[ncmod-modal-one-s-sn2,subj-actor-you-sn1,def_prop(one-s,[astratto,nquant]),def_prop(you,[umano])])
+lf(School Talk Lyrics.txt_12,79,cl13-not-nil-play-[obj-goal-game-sn2,subj-agent-i-sn1,aux-do-nil,and(game,no,sn2),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(i,[umano])])
+lf(School Talk Lyrics.txt_13,92,cl14-nil-nil-ball-[obj-theme-James-sn2,subj-actor-i-sn1,def_prop(James,[place,umano]),def_prop(i,[umano])])
+lf(School Talk Lyrics.txt_14,106,cl15-not-nil-don-t-[ncmod-modal-i-sn2,subj-agent-you-sn1,def_prop(i,[umano]),def_prop(you,[umano])])
+lf(School Talk Lyrics.txt_15,121,cl16-nil-nil-suck-[obj-theme-dick-sn2,subj-agent-school-sn1,and(school,di,sn1),def_prop(dick,[umano]),def_prop(school,[astratto,istituzione,oggetto,strumento,tempo])])
+lf(School Talk Lyrics.txt_16,137,cl18-nil-nil-be-[ncmod-comitativo-stick-sn3,subj-theme_bound-it-sn2,def_prop(stick,[attivita,oggetto,plant,strumento]),def_prop(it,[any])])
+lf(School Talk Lyrics.txt_16,137,cl17-nil-nil-poke-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(School Talk Lyrics.txt_17,155,cl19-nil-nil-say-[])
+lf(School Talk Lyrics.txt_18,173,cl20-nil-nil-say-[])

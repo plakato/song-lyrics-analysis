@@ -1,0 +1,89 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Blacks Lyrics.txt_1-1  []-negative  []
+Blacks Lyrics.txt_2-3  []-positive  []
+Blacks Lyrics.txt_3-6  []-positive  []
+Blacks Lyrics.txt_3-7  []-positive  []
+Blacks Lyrics.txt_4-11  []-question  []
+Blacks Lyrics.txt_5-17  []-positive  []
+Blacks Lyrics.txt_6-23  []-positive  []
+Blacks Lyrics.txt_7-30  []-positive  []
+Blacks Lyrics.txt_8-38  []-positive  [bkc]
+Blacks Lyrics.txt_8-39  []-negative  [neg]
+Blacks Lyrics.txt_9-48  []-positive  []
+Blacks Lyrics.txt_10-58  []-positive  [neg]
+Blacks Lyrics.txt_11-70  []-positive  []
+Blacks Lyrics.txt_11-71  []-positive  []
+Blacks Lyrics.txt_12-83  []-positive  []
+Blacks Lyrics.txt_13-96  []-question  []
+Blacks Lyrics.txt_14-111  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Blacks Lyrics.txt_1-1  [blacks,Lyrics,by,Xiu,Xiu]  [title]
+Blacks Lyrics.txt_2-3  [i,have,only,got,one,bra,to,my,name]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Blacks Lyrics.txt_3-6  [he,said]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Blacks Lyrics.txt_3-7  [it,is,alright]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Blacks Lyrics.txt_4-11  [it,hear,did,he,,,that,he,hear,did,?]  [provide_expl_just(hear,[internal,factive,narration,background,objective]),provide_expl_just(do,[internal,factive,narration,background,objective])]
+Blacks Lyrics.txt_5-17  [that,is,enough]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Blacks Lyrics.txt_6-23  [that,is,enough,of,even,trying]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Blacks Lyrics.txt_7-30  [that,is,enough]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Blacks Lyrics.txt_8-38  [i,oh,wish]  [provide_expl_just(wish,[external,factive,narration,background,objective]),provide_expl_just(matter,[external,factive,narration,background,objective])]
+Blacks Lyrics.txt_8-39  [it,didn-t,matter]  [reject_expl_just(wish,[external,factive,narration,background,objective]),reject_expl_just(matter,[external,factive,narration,background,objective])]
+Blacks Lyrics.txt_9-48  [he,told,his,son]  [provide_expl_just(tell,[external,factive,narration,foreground,objective])]
+Blacks Lyrics.txt_10-58  [he,wants,to,kill,himself]  [provide_expl_just(kill,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective])]
+Blacks Lyrics.txt_11-70  [he,said]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Blacks Lyrics.txt_11-71  [it,is,alright]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Blacks Lyrics.txt_12-83  [i,have,had,enough,of,this,life]  [raise_issue(be,[_604842,factive,statement,_604860,subjective])]
+Blacks Lyrics.txt_13-96  [it,hear,did,he,,,that,he,hear,did,?]  [provide_expl_just(hear,[internal,factive,narration,background,objective]),provide_expl_just(do,[internal,factive,narration,background,objective])]
+Blacks Lyrics.txt_14-111  [i,have,had,enough,of,this,life]  [provide_expl_just(have,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Blacks Lyrics.txt_1-1)-[]
+2-(Blacks Lyrics.txt_2-3)-[]
+3-(Blacks Lyrics.txt_3-6)-[secondary-social_behavior]
+4-(Blacks Lyrics.txt_3-7)-[]
+5-(Blacks Lyrics.txt_4-11)-[primary-sound,primary-sound]
+6-(Blacks Lyrics.txt_5-17)-[]
+7-(Blacks Lyrics.txt_6-23)-[secondary-instru_behavior]
+8-(Blacks Lyrics.txt_7-30)-[]
+half
+9-(Blacks Lyrics.txt_8-38)-[]
+10-(Blacks Lyrics.txt_8-39)-[]
+11-(Blacks Lyrics.txt_9-48)-[secondary-social_behavior]
+12-(Blacks Lyrics.txt_10-58)-[emotions-aggression]
+13-(Blacks Lyrics.txt_11-70)-[secondary-social_behavior]
+14-(Blacks Lyrics.txt_11-71)-[]
+15-(Blacks Lyrics.txt_12-83)-[]
+16-(Blacks Lyrics.txt_13-96)-[primary-sound,primary-sound]
+17-(Blacks Lyrics.txt_14-111)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Blacks Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Xiu-sn2,subj-theme_bound-Lyrics-sn1,and(Xiu,Xiu,sn2),and(Lyrics,black,sn1),def_prop(Xiu,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Blacks Lyrics.txt_2,3,cl2-nil-nil-get-[iobj-paziente-name-sn3,obj-theme_unaff-bra-sn2,subj-agent-i-sn1,aux-have-nil,and(bra,one,sn2),def_prop(name,[attivita,informa,stato,umano]),def_prop(bra,[oggetto,strumento]),def_prop(i,[umano])])
+lf(Blacks Lyrics.txt_3,6,cl4-nil-nil-be-[subj-theme_bound-it-sn2,def_prop(it,[any])])
+lf(Blacks Lyrics.txt_3,6,cl3-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Blacks Lyrics.txt_4,11,cl6-nil-nil-do-[subj-theme_unaff-it-sn4,xcomp-theme_unaff-it-sn3,xcomp-purpose-hear-3,subj-theme_unaff-he-sn2,aux-did-nil,def_prop(it,[any]),def_prop(it,[any]),def_prop(he,[umano])])
+lf(Blacks Lyrics.txt_4,11,cl5-nil-nil-hear-[subj-experiencer-it-sn6,subj-experiencer-it-sn5,subj-tema_nonaff-it-sn4,subj-experiencer-he-sn1,aux-did-nil,and(it,he,sn5),def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any]),def_prop(he,[umano])])
+lf(Blacks Lyrics.txt_5,17,cl7-nil-nil-be-[xcomp-prop-enough-sn1,def_prop(enough,[astratto,informa,oggetto])])
+lf(Blacks Lyrics.txt_6,23,cl8-nil-nil-be-[xcomp-prop-enough-sn1,def_prop(enough,[astratto,informa,oggetto])])
+lf(Blacks Lyrics.txt_7,30,cl9-nil-nil-be-[xcomp-prop-enough-sn1,def_prop(enough,[astratto,informa,oggetto])])
+lf(Blacks Lyrics.txt_8,38,cl11-not-nil-matter-[aux-did-nil])
+lf(Blacks Lyrics.txt_8,38,cl10-nil-nil-wish-[ncmod-modal-i-sn2,subj-experiencer-you-sn1,def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Blacks Lyrics.txt_9,48,cl12-nil-nil-tell-[obj-theme_unaff-son-sn2,subj-agent-he-sn1,def_prop(son,[umano]),def_prop(he,[umano])])
+lf(Blacks Lyrics.txt_10,58,cl14-nil-nil-kill-[obj-theme_aff-himself-sn2,xcomp-purpose-kill-2,def_prop(himself,[umano])])
+lf(Blacks Lyrics.txt_10,58,cl13-nil-nil-want-[subj-actor-he-sn1,def_prop(he,[umano])])
+lf(Blacks Lyrics.txt_11,70,cl16-nil-nil-be-[subj-theme_bound-it-sn2,def_prop(it,[any])])
+lf(Blacks Lyrics.txt_11,70,cl15-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Blacks Lyrics.txt_12,83,cl17-nil-nil-have-[adj-(mod)-enough-nil,ncmod-specif-life-sn2,subj-experiencer-i-sn1,and(life,this,sn2),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(i,[umano])])
+lf(Blacks Lyrics.txt_13,96,cl19-nil-nil-do-[subj-theme_unaff-it-sn4,xcomp-theme_unaff-it-sn3,xcomp-purpose-hear-3,subj-theme_unaff-he-sn2,aux-did-nil,def_prop(it,[any]),def_prop(it,[any]),def_prop(he,[umano])])
+lf(Blacks Lyrics.txt_13,96,cl18-nil-nil-hear-[subj-experiencer-it-sn6,subj-experiencer-it-sn5,subj-tema_nonaff-it-sn4,subj-experiencer-he-sn1,aux-did-nil,and(it,he,sn5),def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any]),def_prop(he,[umano])])
+lf(Blacks Lyrics.txt_14,111,cl20-nil-nil-have-[adj-(mod)-enough-nil,ncmod-specif-life-sn2,subj-experiencer-i-sn1,and(life,this,sn2),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(i,[umano])])

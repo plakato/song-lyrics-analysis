@@ -1,0 +1,74 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Conquer the world - bonus track Lyrics.txt_1-1  []-positive  []
+Conquer the world - bonus track Lyrics.txt_2-3  [so-result]-positive  [fgb]
+Conquer the world - bonus track Lyrics.txt_3-6  [but-advers]-positive  [fgb]
+Conquer the world - bonus track Lyrics.txt_4-10  []-negative  [neg]
+Conquer the world - bonus track Lyrics.txt_5-15  [but-advers]-positive  [fgb]
+Conquer the world - bonus track Lyrics.txt_6-21  []-negative  [neg]
+Conquer the world - bonus track Lyrics.txt_7-28  []-positive  []
+Conquer the world - bonus track Lyrics.txt_8-36  []-negative  [neg]
+Conquer the world - bonus track Lyrics.txt_9-45  []-positive  [neg,fgb]
+Conquer the world - bonus track Lyrics.txt_10-55  []-positive  []
+Conquer the world - bonus track Lyrics.txt_10-56  [if-hypoth]-negative  [fgb,neg]
+Conquer the world - bonus track Lyrics.txt_10-57  []-negative  [neg]
+Conquer the world - bonus track Lyrics.txt_11-68  []-negative  [neg]
+Conquer the world - bonus track Lyrics.txt_12-80  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Conquer the world - bonus track Lyrics.txt_1-1  [conquer,the,world,bonus,track,Lyrics,by,Russian,red]  [title]
+Conquer the world - bonus track Lyrics.txt_2-3  [we,were,so,young]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Conquer the world - bonus track Lyrics.txt_3-6  [but,life,is,a,murderer]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Conquer the world - bonus track Lyrics.txt_4-10  [we,stayed,very,long]  [reject_expl_just(stay,[external,factive,narration,foreground,objective])]
+Conquer the world - bonus track Lyrics.txt_5-15  [but,light,is,a,vanishing,hope]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Conquer the world - bonus track Lyrics.txt_6-21  [i,had,in,mind]  [reject_expl_just(be,[_205382,_205388,_205394,_205400,_205406])]
+Conquer the world - bonus track Lyrics.txt_7-28  [to,conquer,the,world,by,your,side]  [provide_expl_just(conquer,[external,factive,narration,background,objective])]
+Conquer the world - bonus track Lyrics.txt_8-36  [conducts,very,strange,lately]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Conquer the world - bonus track Lyrics.txt_9-45  [cause,heaven-s,in,danger,for,the,rest,and,you]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Conquer the world - bonus track Lyrics.txt_10-55  [it,is,all,true]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(die,[external,factive,narration,background,objective]),provide_expl_just(lose,[external,factive,narration,background,objective])]
+Conquer the world - bonus track Lyrics.txt_10-56  [if,we,die]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(die,[external,factive,narration,background,objective]),reject_expl_just(lose,[external,factive,narration,background,objective])]
+Conquer the world - bonus track Lyrics.txt_10-57  [i,lose]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(die,[external,factive,narration,background,objective]),reject_expl_just(lose,[external,factive,narration,background,objective])]
+Conquer the world - bonus track Lyrics.txt_11-68  [i,had,in,mind]  [reject_expl_just(be,[_209274,_209280,_209286,_209292,_209298])]
+Conquer the world - bonus track Lyrics.txt_12-80  [to,conquer,the,world,by,your,side]  [provide_expl_just(conquer,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Conquer the world - bonus track Lyrics.txt_1-1)-[emotions-glory]
+2-(Conquer the world - bonus track Lyrics.txt_2-3)-[]
+3-(Conquer the world - bonus track Lyrics.txt_3-6)-[emotions-aggression]
+4-(Conquer the world - bonus track Lyrics.txt_4-10)-[primary-concreteness]
+5-(Conquer the world - bonus track Lyrics.txt_5-15)-[primary-vision]
+6-(Conquer the world - bonus track Lyrics.txt_6-21)-[]
+7-(Conquer the world - bonus track Lyrics.txt_7-28)-[emotions-glory,primary-concreteness]
+half
+8-(Conquer the world - bonus track Lyrics.txt_8-36)-[secondary-social_behavior,primary-unknow]
+9-(Conquer the world - bonus track Lyrics.txt_9-45)-[secondary-abstract_tought,primary-height,primary-passivity]
+10-(Conquer the world - bonus track Lyrics.txt_10-55)-[secondary-abstract_tought]
+11-(Conquer the world - bonus track Lyrics.txt_10-56)-[primary-passivity]
+12-(Conquer the world - bonus track Lyrics.txt_10-57)-[]
+13-(Conquer the world - bonus track Lyrics.txt_11-68)-[]
+14-(Conquer the world - bonus track Lyrics.txt_12-80)-[emotions-glory,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Conquer the world - bonus track Lyrics.txt_1,1,cl1-nil-nil-conquer-[xadj-adj-red-adj1,arg_mod-agent-Russian-sn4,obj-theme-track-sn3,obj-theme-world-sn2,subj-agent-Lyrics-sn1,and(track,bonus,sn3),def_prop(red,_210182),def_prop(Russian,[attivita,informa,umano]),def_prop(track,[attivita,oggetto,strumento]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(Lyrics,[informa,tecno])])
+lf(Conquer the world - bonus track Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-young-sn2,subj-theme_bound-we-sn1,def_prop(young,[valutativo]),def_prop(we,[umano])])
+lf(Conquer the world - bonus track Lyrics.txt_3,6,cl3-nil-nil-be-[xcomp-prop-murderer-sn2,subj-theme_bound-life-sn1,def_prop(murderer,[umano]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Conquer the world - bonus track Lyrics.txt_4,10,cl4-nil-nil-stay-[obj-theme_unaff-long-sn2,subj-agent-we-sn1,def_prop(long,[misura]),def_prop(we,[umano])])
+lf(Conquer the world - bonus track Lyrics.txt_5,15,cl5-nil-nil-be-[xcomp-prop-hope-sn2,subj-theme_bound-light-sn1,and(hope,vanishing,sn2),def_prop(hope,[astratto,emotivo,umano]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(Conquer the world - bonus track Lyrics.txt_6,21,cl6-nil-nil-have-[ncmod-locativo-mind-sn2,subj-experiencer-i-sn1,def_prop(mind,[astratto]),def_prop(i,[umano])])
+lf(Conquer the world - bonus track Lyrics.txt_7,28,cl7-nil-nil-conquer-[arg_mod-agent-side-sn2,subj-agent-world-sn1,def_prop(side,[astratto,attivita,body_part,edible,informa,luogo,oggetto,strumento,umano]),def_prop(world,[astratto,istituzione,oggetto])])
+lf(Conquer the world - bonus track Lyrics.txt_8,36,cl8-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Conquer the world - bonus track Lyrics.txt_9,45,cl9-nil-nil-be-[coord-theme_bound-res_and_you-sn6,subj-theme_bound-you-sn5,subj-theme_bound-res-sn4,coord-theme_bound-res_and_you-sn3,subj-theme_bound-you-sn2,subj-theme_bound-res-sn1,def_prop(res_and_you,[informa,tecno,umano]),def_prop(you,[informa,tecno,umano]),def_prop(res,[informa,tecno,umano]),def_prop(res_and_you,[informa,tecno,umano]),def_prop(you,[informa,tecno,umano]),def_prop(res,[informa,tecno,umano])])
+lf(Conquer the world - bonus track Lyrics.txt_10,55,cl12-nil-nil-lose-[subj-theme_aff-you-sn5,def_prop(you,[umano])])
+lf(Conquer the world - bonus track Lyrics.txt_10,55,cl11-nil-nil-die-[subj-theme_aff-we-sn4,def_prop(we,[umano])])
+lf(Conquer the world - bonus track Lyrics.txt_10,55,cl10-nil-nil-be-[xcomp-prop-true-sn3,xcomp-prop-all-sn2,subj-theme_bound-it-sn1,def_prop(true,[emotivo]),def_prop(all,[_211850]),def_prop(it,[any])])
+lf(Conquer the world - bonus track Lyrics.txt_11,68,cl13-nil-nil-have-[ncmod-locativo-mind-sn2,subj-experiencer-i-sn1,def_prop(mind,[astratto]),def_prop(i,[umano])])
+lf(Conquer the world - bonus track Lyrics.txt_12,80,cl14-nil-nil-conquer-[arg_mod-agent-side-sn2,subj-agent-world-sn1,def_prop(side,[astratto,attivita,body_part,edible,informa,luogo,oggetto,strumento,umano]),def_prop(world,[astratto,istituzione,oggetto])])

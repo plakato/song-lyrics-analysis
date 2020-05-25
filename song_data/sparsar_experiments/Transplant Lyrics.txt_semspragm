@@ -1,0 +1,84 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Transplant Lyrics.txt_1-1  []-positive  []
+Transplant Lyrics.txt_2-3  []-positive  [fhd]
+Transplant Lyrics.txt_3-7  []-suspension  []
+Transplant Lyrics.txt_3-8  []-suspension  [neg]
+Transplant Lyrics.txt_4-11  [but-advers]-negative  [neg,fgb]
+Transplant Lyrics.txt_5-17  []-positive  [bkc]
+Transplant Lyrics.txt_5-18  [but-advers]-suspension  [fgb,neg]
+Transplant Lyrics.txt_6-24  [if-hypoth]-negative  [fgb]
+Transplant Lyrics.txt_7-31  []-positive  []
+Transplant Lyrics.txt_8-39  []-negative  [neg]
+Transplant Lyrics.txt_9-48  []-positive  [fgb,fgb]
+Transplant Lyrics.txt_10-59  []-positive  [fgb]
+Transplant Lyrics.txt_11-70  []-negative  [neg]
+Transplant Lyrics.txt_12-82  [when-temp_coinc]-negative  [neg]
+Transplant Lyrics.txt_13-95  []-positive  [fhd]
+Transplant Lyrics.txt_13-96  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Transplant Lyrics.txt_1-1  [transplant,Lyrics,by,Yung,Chibi]  [title]
+Transplant Lyrics.txt_2-3  [trickle,me,down,i,am,like,water]  [provide_expl_just(like,[external,factive,narration,foreground,objective]),provide_expl_just(trickle,[external,factive,explanation,background,objective])]
+Transplant Lyrics.txt_3-7  [i,will,be,your,birth]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Transplant Lyrics.txt_3-8  [i,will,be,your,slaughter]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Transplant Lyrics.txt_4-11  [i,no,but,don-t,have,much,to,say]  [reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(say,[external,factive,narration,background,objective])]
+Transplant Lyrics.txt_5-17  [yes,i,am,here]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(decay,[external,nonfactive,narration,background,objective])]
+Transplant Lyrics.txt_5-18  [but,i,will,decay]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(decay,[external,nonfactive,narration,background,objective])]
+Transplant Lyrics.txt_6-24  [if,you,don-t,leave,me]  [provide_expl_just(leave,[external,factive,narration,foreground,objective])]
+Transplant Lyrics.txt_7-31  [i,have,heard,stories,of,purgatories]  [provide_expl_just(hear,[external,factive,narration,background,objective])]
+Transplant Lyrics.txt_8-39  [they,rip,your,soul,out_of,its,place]  [reject_expl_just(rip,[external,factive,narration,background,objective])]
+Transplant Lyrics.txt_9-48  [what,you,have,missed,what,you,have,gained]  [provide_expl_just(miss,[external,factive,narration,background,objective]),provide_expl_just(gain,[external,factive,narration,background,objective])]
+Transplant Lyrics.txt_10-59  [and,i,have,forgotten]  [provide_expl_just(forget,[external,factive,narration,background,objective])]
+Transplant Lyrics.txt_11-70  [that,i,am,rotten]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Transplant Lyrics.txt_12-82  [when,i,am,lost,within,your,space]  [reject_expl_just(lose,[external,factive,narration,background,objective])]
+Transplant Lyrics.txt_13-95  [my,heart,feels,like,its]  [provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(replace,[external,factive,narration,foreground,objective])]
+Transplant Lyrics.txt_13-96  [been,replaced]  [provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(replace,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Transplant Lyrics.txt_1-1)-[]
+2-(Transplant Lyrics.txt_2-3)-[primary-water,emotions-affection,primary-water]
+3-(Transplant Lyrics.txt_3-7)-[]
+4-(Transplant Lyrics.txt_3-8)-[emotions-aggression]
+5-(Transplant Lyrics.txt_4-11)-[secondary-social_behavior]
+6-(Transplant Lyrics.txt_5-17)-[primary-concreteness]
+7-(Transplant Lyrics.txt_5-18)-[primary-passivity]
+8-(Transplant Lyrics.txt_6-24)-[]
+half
+9-(Transplant Lyrics.txt_7-31)-[primary-sound]
+10-(Transplant Lyrics.txt_8-39)-[emotions-aggression,primary-concreteness]
+11-(Transplant Lyrics.txt_9-48)-[secondary-instru_behavior]
+12-(Transplant Lyrics.txt_10-59)-[]
+13-(Transplant Lyrics.txt_11-70)-[primary-anality]
+14-(Transplant Lyrics.txt_12-82)-[secondary-temporal_repere,primary-concreteness,primary-concreteness]
+15-(Transplant Lyrics.txt_13-95)-[primary-narcissism,emotions-affection]
+16-(Transplant Lyrics.txt_13-96)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Transplant Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Chibi-sn2,subj-theme_bound-Lyrics-sn1,and(Chibi,Yung,sn2),and(Lyrics,transplant,sn1),def_prop(Chibi,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Transplant Lyrics.txt_2,3,cl3-nil-nil-like-[obj-result-water-sn4,xcomp-prop-like-3,aux-am-nil,def_prop(water,[edible,oggetto,sostanza])])
+lf(Transplant Lyrics.txt_2,3,cl2-nil-nil-trickle-[subj-sn1-i-sn3,obj-theme-down-sn2,subj-agent-you-sn1,and(down,me,sn2),def_prop(i,[umano]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Transplant Lyrics.txt_3,7,cl4-nil-will-be-[xcomp-prop-slaughter-sn6,subj-theme_bound-i-sn5,xcomp-prop-birth-sn2,subj-theme_bound-i-sn1,def_prop(slaughter,[attivita]),def_prop(i,[umano]),def_prop(birth,[evento,tempo]),def_prop(i,[umano])])
+lf(Transplant Lyrics.txt_4,11,cl6-nil-nil-say-[subj-prop-no-sn1,and(no,i,sn1),def_prop(no,[istituzione])])
+lf(Transplant Lyrics.txt_4,11,cl5-not-nil-have-[xcomp-tema_bound-much-sn2,subj-experiencer-no-sn1,and(no,i,sn1),def_prop(much,[nquant]),def_prop(no,[istituzione])])
+lf(Transplant Lyrics.txt_5,17,cl8-nil-will-decay-[subj-actor-i-sn5,def_prop(i,[umano])])
+lf(Transplant Lyrics.txt_5,17,cl7-nil-nil-be-[xcomp-prop-here-sn3,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(i,yes,sn1),def_prop(here,[istituzione]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Transplant Lyrics.txt_6,24,cl9-not-nil-leave-[obj-theme-me-sn2,subj-theme-you-sn1,aux-do-nil,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Transplant Lyrics.txt_7,31,cl10-nil-nil-hear-[obj-theme_unaff-story-sn2,subj-experiencer-i-sn1,aux-have-nil,def_prop(story,[attivita,informa]),def_prop(i,[umano])])
+lf(Transplant Lyrics.txt_8,39,cl11-nil-nil-rip-[obj-patient-soul-sn2,subj-agent-they-sn1,def_prop(soul,[attivita,emotivo,informa,umano]),def_prop(they,[umano])])
+lf(Transplant Lyrics.txt_9,48,cl13-nil-nil-gain-[aux-have-nil])
+lf(Transplant Lyrics.txt_9,48,cl12-nil-nil-miss-[obj-tema_eff-what-sn2,subj-experiencer-you-sn1,aux-have-nil,def_prop(what,[oggetto]),def_prop(you,[umano])])
+lf(Transplant Lyrics.txt_10,59,cl14-nil-nil-forget-[cmod-subord-forget-",subj-experiencer-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(Transplant Lyrics.txt_11,70,cl15-nil-nil-be-[xcomp-prop-rotten-sn2,subj-theme_bound-i-sn1,def_prop(rotten,[evaluative]),def_prop(i,[umano])])
+lf(Transplant Lyrics.txt_12,82,cl16-nil-nil-lose-[ncmod-durata-space-sn3,obj-theme-when-sn2,subj-theme_unaff-i-sn1,aux-am-nil,def_prop(space,[any,astratto,attivita,informa,luogo]),def_prop(when,[tempo]),def_prop(i,[umano])])
+lf(Transplant Lyrics.txt_13,95,cl18-nil-nil-replace-[subj-agent-you-sn5,def_prop(you,[umano])])
+lf(Transplant Lyrics.txt_13,95,cl17-nil-nil-feel-[xcomp-tema_emot-its-sn2,subj-experiencer-hear-sn1,def_prop(its,[istituzione]),def_prop(hear,[istituzione])])

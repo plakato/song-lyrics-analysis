@@ -1,0 +1,169 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Highlights Lyrics.txt_1-1  []-positive  []
+Highlights Lyrics.txt_2-3  []-positive  []
+Highlights Lyrics.txt_3-6  []-positive  []
+Highlights Lyrics.txt_4-10  []-negative  [neg]
+Highlights Lyrics.txt_4-11  []-negative  [fgb,neg]
+Highlights Lyrics.txt_5-15  []-positive  []
+Highlights Lyrics.txt_6-21  [while-temp_coinc]-positive  []
+Highlights Lyrics.txt_7-28  []-positive  []
+Highlights Lyrics.txt_7-29  []-positive  []
+Highlights Lyrics.txt_7-30  [(as)-temp_coinc]-negative  [neg,neg,neg,neg]
+Highlights Lyrics.txt_8-38  []-suspension  [neg,neg]
+Highlights Lyrics.txt_8-39  []-positive  [fgb]
+Highlights Lyrics.txt_8-40  []-positive  []
+Highlights Lyrics.txt_9-49  [(as)-temp_coinc]-positive  []
+Highlights Lyrics.txt_10-59  []-negative  []
+Highlights Lyrics.txt_11-70  []-negative  [neg]
+Highlights Lyrics.txt_11-71  [while-temp_coinc]-positive  []
+Highlights Lyrics.txt_12-83  [when-temp_coinc]-negative  []
+Highlights Lyrics.txt_13-97  []-positive  [bkc]
+Highlights Lyrics.txt_14-113  []-negative  [neg,neg]
+Highlights Lyrics.txt_15-128  [if-hypoth,then-temp_seq]-positive  [fgb,neg]
+Highlights Lyrics.txt_16-146  []-negative  [neg]
+Highlights Lyrics.txt_17-164  []-negative  []
+Highlights Lyrics.txt_17-165  []-positive  [fgb]
+Highlights Lyrics.txt_17-166  []-positive  []
+Highlights Lyrics.txt_18-185  []-negative  []
+Highlights Lyrics.txt_18-186  [even_though-conc]-suspension  [neg,neg]
+Highlights Lyrics.txt_19-205  []-negative  [neg]
+Highlights Lyrics.txt_20-225  []-positive  []
+Highlights Lyrics.txt_20-226  []-positive  []
+Highlights Lyrics.txt_21-247  [but-advers]-negative  [fgb,neg]
+Highlights Lyrics.txt_22-270  []-negative  [neg,neg]
+Highlights Lyrics.txt_23-294  []-positive  []
+Highlights Lyrics.txt_23-295  []-negative  [neg]
+Highlights Lyrics.txt_24-320  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Highlights Lyrics.txt_1-1  [highlights,Lyrics,by,XP]  [title]
+Highlights Lyrics.txt_2-3  [xp-s,living,the,lavish,life]  [provide_expl_just(live,[external,factive,narration,foreground,objective])]
+Highlights Lyrics.txt_3-6  [with,his,happy,wife]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_4-10  [except,he,is,not,married]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_4-11  [and,he,is,a,kinda,ugly,kid]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_5-15  [who,is,only,living,half,a,life]  [provide_expl_just(live,[external,factive,narration,foreground,objective])]
+Highlights Lyrics.txt_6-21  [while,this,is,true]  [provide_expl_just(true,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_7-28  [i,bet]  [provide_expl_just(bet,[external,factive,narration,background,objective]),provide_expl_just(bubble,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_7-29  [you,bubble,gum]  [provide_expl_just(bet,[external,factive,narration,background,objective]),provide_expl_just(bubble,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_7-30  [pussy,ass,rappers,are,not,not,half,as,nice]  [reject_expl_just(bet,[external,factive,narration,background,objective]),reject_expl_just(bubble,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_8-38  [i,might,grab,a,knife]  [propose_opin(grab,[external,nonfactive,narration,foreground,objective]),provide_expl_just(grab,[external,nonfactive,narration,foreground,objective]),provide_expl_just(watch,[external,factive,narration,background,objective]),provide_expl_just(ignite,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_8-39  [and,watch]  [provide_expl_just(grab,[external,nonfactive,narration,foreground,objective]),provide_expl_just(watch,[external,factive,narration,background,objective]),provide_expl_just(ignite,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_8-40  [the,passion,ignite]  [provide_expl_just(grab,[external,nonfactive,narration,foreground,objective]),provide_expl_just(watch,[external,factive,narration,background,objective]),provide_expl_just(ignite,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_9-49  [as,i,say,good-bye,to,tonight]  [provide_expl_just(say,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_10-59  [i,i_remember,got,suspended,on,my,birthday]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Highlights Lyrics.txt_11-70  [my,worst,day,,,they,called,my,mom]  [reject_expl_just(call,[external,factive,narration,foreground,objective])]
+Highlights Lyrics.txt_11-71  [while,she,was,at,her,workplace]  [provide_expl_just(call,[external,factive,narration,foreground,objective])]
+Highlights Lyrics.txt_12-83  [i_remember,when,they,said,my,granny,passed,away]  [propose_opin_neg(pass,[external,factive,circumstance,foreground,objective])]
+Highlights Lyrics.txt_13-97  [last_word,to,say,that,i,was,always,gonna,be,okay]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Highlights Lyrics.txt_14-113  [at,her,her,funeral,i,could,not,even,cry]  [reject_expl_just(can,[external,nonfactive,narration,background,objective])]
+Highlights Lyrics.txt_15-128  [cause,if,sky,is,the,limit,then,she,destined,to,fly]  [proposal(be,[_146370,_146376,statement,foreground,_146394])]
+Highlights Lyrics.txt_16-146  [see,the,fact,that,i,am,a,rapper,doesn-t,mean,i,am,just,good,with,words]  [reject_expl_just(see,[external,factive,narration,background,objective]),reject_expl_just(rapper,[internal,factive,narration,background,objective])]
+Highlights Lyrics.txt_17-164  [it,means]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(mean,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_17-165  [i,have,a,message,and,something]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(mean,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_17-166  [i,wanna,show,the,world]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(mean,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_18-185  [it,means]  [provide_expl_just(mean,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_18-186  [that,even_though,i,am,a,little,unsure]  [provide_expl_just(mean,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_19-205  [maybe,theres,a,little,something,that,i,wanna,show,theses,girls]  [reject_expl_just(wanna,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_20-225  [every,rapper,raps,how]  [provide_expl_just(rap,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_20-226  [they,the,nicest]  [provide_expl_just(rap,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_21-247  [but,knowledge,doesn-t,come,with,a,tag,that,shit,is,priceless]  [reject_expl_just(doesn-t,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_22-270  [i,don-t,really,wanna,worry,bout,how_long,i,might,live]  [reject_expl_just(worry,[external,factive,narration,background,objective]),reject_expl_just(live,[external,nonfactive,narration,foreground,objective])]
+Highlights Lyrics.txt_23-294  [i,just,wanna]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(give,[external,nonfactive,narration,foreground,objective]),provide_expl_just(worry,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_23-295  [worry,about,the,impression,i,might,give]  [reject_expl_just(wanna,[external,factive,narration,background,objective]),reject_expl_just(give,[external,nonfactive,narration,foreground,objective]),reject_expl_just(worry,[external,factive,narration,background,objective])]
+Highlights Lyrics.txt_24-320  [i,don-t,even,fucking,know,man]  [reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(fuck,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Highlights Lyrics.txt_1-1)-[]
+2-(Highlights Lyrics.txt_2-3)-[]
+3-(Highlights Lyrics.txt_3-6)-[emotions-positive_affect]
+4-(Highlights Lyrics.txt_4-10)-[secondary-abstract_tought,emotions-affection]
+5-(Highlights Lyrics.txt_4-11)-[emotions-affection]
+6-(Highlights Lyrics.txt_5-15)-[]
+7-(Highlights Lyrics.txt_6-21)-[secondary-temporal_repere,secondary-abstract_tought]
+8-(Highlights Lyrics.txt_7-28)-[]
+9-(Highlights Lyrics.txt_7-29)-[primary-water,primary-orality]
+10-(Highlights Lyrics.txt_7-30)-[]
+11-(Highlights Lyrics.txt_8-38)-[emotions-aggression]
+12-(Highlights Lyrics.txt_8-39)-[primary-vision]
+13-(Highlights Lyrics.txt_8-40)-[primary-fire]
+14-(Highlights Lyrics.txt_9-49)-[secondary-social_behavior,secondary-temporal_repere]
+15-(Highlights Lyrics.txt_10-59)-[]
+16-(Highlights Lyrics.txt_11-70)-[secondary-social_behavior]
+17-(Highlights Lyrics.txt_11-71)-[secondary-temporal_repere,primary-concreteness]
+half
+18-(Highlights Lyrics.txt_12-83)-[secondary-temporal_repere,secondary-social_behavior,primary-concreteness]
+19-(Highlights Lyrics.txt_13-97)-[secondary-social_behavior]
+20-(Highlights Lyrics.txt_14-113)-[primary-concreteness,emotions-expressive_beh]
+21-(Highlights Lyrics.txt_15-128)-[secondary-abstract_tought,primary-height,secondary-restraint,secondary-temporal_repere,primary-ascend]
+22-(Highlights Lyrics.txt_16-146)-[primary-vision,secondary-abstract_tought]
+23-(Highlights Lyrics.txt_17-164)-[]
+24-(Highlights Lyrics.txt_17-165)-[secondary-social_behavior]
+25-(Highlights Lyrics.txt_17-166)-[]
+26-(Highlights Lyrics.txt_18-185)-[]
+27-(Highlights Lyrics.txt_18-186)-[]
+28-(Highlights Lyrics.txt_19-205)-[secondary-abstract_tought]
+29-(Highlights Lyrics.txt_20-225)-[secondary-temporal_repere]
+30-(Highlights Lyrics.txt_20-226)-[]
+31-(Highlights Lyrics.txt_21-247)-[primary-anality]
+32-(Highlights Lyrics.txt_22-270)-[secondary-abstract_tought,emotions-anxiety]
+33-(Highlights Lyrics.txt_23-294)-[]
+34-(Highlights Lyrics.txt_23-295)-[emotions-anxiety]
+35-(Highlights Lyrics.txt_24-320)-[secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Highlights Lyrics.txt_1,1,cl1-nil-nil-highlight-[iobj-modale-XP-sn2,subj-agent-Lyrics-sn1,def_prop(XP,[informa,tecno]),def_prop(Lyrics,[informa,tecno])])
+lf(Highlights Lyrics.txt_2,3,cl2-nil-nil-live-[obj-prop-life-sn2,subj-actor-xp-s-sn1,and(life,lavish,sn2),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(xp-s,[istituzione])])
+lf(Highlights Lyrics.txt_3,6,cl3-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Highlights Lyrics.txt_4,10,cl4-not-nil-be-[cmod-subord-be-",adj-(mod)-kinda-nil,xcomp-prop-ky-sn4,subj-theme_bound-he-sn3,xcomp-theme-married-sn2,ncmod-eccettuativo-he-sn1,and(ky,ugly,sn4),def_prop(ky,[informa,tecno]),def_prop(he,[umano]),def_prop(married,[evaluative]),def_prop(he,[umano])])
+lf(Highlights Lyrics.txt_5,15,cl5-nil-nil-live-[xcomp-prop-half-sn2,subj-actor-who-sn1,aux-(is)-nil,progr-living-nil,def_prop(half,[valutativo]),def_prop(who,[umano])])
+lf(Highlights Lyrics.txt_6,21,cl6-nil-nil-true-[subj-theme-you-sn1,aux-(is)-nil,def_prop(you,[umano])])
+lf(Highlights Lyrics.txt_7,28,cl9-not-nil-be-[xcomp-prop-half-sn5,subj-theme_bound-rapper-sn4,and(rapper,ass,sn4),and(rapper,pussy,sn4),def_prop(half,[valutativo]),def_prop(rapper,[umano])])
+lf(Highlights Lyrics.txt_7,28,cl8-nil-nil-bubble-[obj-theme-gum-sn3,subj-actor-you-sn2,def_prop(gum,[sostanza]),def_prop(you,[umano])])
+lf(Highlights Lyrics.txt_7,28,cl7-nil-nil-bet-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Highlights Lyrics.txt_8,38,cl12-nil-nil-ignite-[subj-agent-you-sn4,def_prop(you,[umano])])
+lf(Highlights Lyrics.txt_8,38,cl11-nil-nil-watch-[subj-actor-you-sn3,def_prop(you,[umano])])
+lf(Highlights Lyrics.txt_8,38,cl10-nil-might-grab-[obj-theme-knife-sn2,subj-agent-i-sn1,def_prop(knife,[oggetto,strumento]),def_prop(i,[umano])])
+lf(Highlights Lyrics.txt_9,49,cl13-nil-nil-say-[iobj-goal-tonight-sn3,obj-theme_unaff-bye-sn2,subj-actor-i-sn1,def_prop(tonight,[istituzione]),def_prop(bye,[attivita,informa]),def_prop(i,[umano])])
+lf(Highlights Lyrics.txt_10,59,cl14-nil-nil-get-[ncmod-temporale-birthday-sn3,xcomp-prop-suspended-sn2,subj-theme_bound-i_remember-sn1,and(i_remember,i,sn1),def_prop(birthday,[tempo]),def_prop(suspended,[evaluative]),def_prop(i_remember,[attivita,informa])])
+lf(Highlights Lyrics.txt_11,70,cl16-nil-nil-be-[ncmod-locativo-workplace-sn9,subj-theme_bound-she-sn8,def_prop(workplace,[oggetto,strumento]),def_prop(she,[umano])])
+lf(Highlights Lyrics.txt_11,70,cl15-nil-nil-call-[adj-temporal-day-nil,obj-theme_bound-mom-sn3,subj-agent-they-sn2,subj-agent-they-sn1,and(they,worst,sn1),def_prop(mom,[umano]),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Highlights Lyrics.txt_12,83,cl18-nil-nil-pass-[xcomp-prop-away-sn3,subj-theme_unaff-granny-sn2,subj-theme_unaff-granny-sn1,def_prop(away,[evaluative]),def_prop(granny,[plant,umano]),def_prop(granny,[plant,umano])])
+lf(Highlights Lyrics.txt_12,83,cl17-nil-nil-say-[cmod-subord-pass-when,subj-actor-you-sn9,def_prop(you,[umano])])
+lf(Highlights Lyrics.txt_13,97,cl20-nil-nil-be-[xcomp-prop-okay-sn2,xcomp-purpose-be-2,subj-theme_bound-i-sn1,adj-(mod)-always-nil,def_prop(okay,[attivita,informa]),def_prop(i,[umano])])
+lf(Highlights Lyrics.txt_13,97,cl19-nil-nil-say-[subj-actor-last_word-sn4,subj-actor-last_word-sn3,and(last_word,i,sn3),def_prop(last_word,[attivita,informa]),def_prop(last_word,[attivita,informa])])
+lf(Highlights Lyrics.txt_14,113,cl21-not-could-can-[obj-prop-cry-sn3,ncmod-modal-funeral-sn2,subj-actor-i-sn1,def_prop(cry,[attivita,evento,informa]),def_prop(funeral,[evento]),def_prop(i,[umano])])
+lf(Highlights Lyrics.txt_15,128,cl24-nil-nil-fly-[subj-locative-she-sn5,subj-locative-she-sn4,def_prop(she,[umano]),def_prop(she,[umano])])
+lf(Highlights Lyrics.txt_15,128,cl23-nil-nil-destine-[])
+lf(Highlights Lyrics.txt_15,128,cl22-nil-nil-be-[cmod-subord-destined-2,xcomp-prop-limit-sn3,subj-theme_bound-sky-sn2,def_prop(limit,[astratto,luogo,nquant]),def_prop(sky,[oggetto])])
+lf(Highlights Lyrics.txt_16,146,cl26-nil-nil-be-[])
+lf(Highlights Lyrics.txt_16,146,cl25-nil-nil-see-[obj-actor-fact-sn2,subj-experiencer-you-sn1,def_prop(fact,[astratto,attivita,informa,stato]),def_prop(you,[umano])])
+lf(Highlights Lyrics.txt_17,164,cl29-nil-nil-show-[])
+lf(Highlights Lyrics.txt_17,164,nil-nil-nil-wanna-[obj-goal-world-sn6,xcomp-purpose-show-2,subj-agent-i-sn5,def_prop(world,[astratto,istituzione,oggetto]),def_prop(i,[umano])])
+lf(Highlights Lyrics.txt_17,164,cl28-nil-nil-have-[xcomp-theme-something-sn4,xcomp-tema_bound-message-sn3,subj-experiencer-i-sn2,def_prop(something,[astratto,informa,oggetto]),def_prop(message,[attivita,informa]),def_prop(i,[umano])])
+lf(Highlights Lyrics.txt_17,164,cl27-nil-nil-mean-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Highlights Lyrics.txt_18,185,cl31-nil-nil-be-[cmod-subord-be-even_though,xcomp-prop-unsure-sn3,subj-theme_bound-i-sn2,and(unsure,little,sn3),def_prop(unsure,[istituzione]),def_prop(i,[umano])])
+lf(Highlights Lyrics.txt_18,185,cl30-nil-nil-mean-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Highlights Lyrics.txt_19,205,nil-nil-nil-wanna-[obj-theme_aff-something-sn3,obj-theme_aff-something-sn2,and(something,little,sn2),def_prop(something,[astratto,informa,oggetto]),def_prop(something,[astratto,informa,oggetto])])
+lf(Highlights Lyrics.txt_19,205,cl32-nil-nil-be-[adj-(mod)-maybe-nil,subj-theme_bound-something-sn3,subj-theme_bound-something-sn2,subj-theme_bound-little-sn1,and(something,little,sn2),and(little,there,sn1),def_prop(something,[astratto,informa,oggetto]),def_prop(something,[astratto,informa,oggetto]),def_prop(little,[astratto,informa,oggetto])])
+lf(Highlights Lyrics.txt_20,225,cl33-nil-nil-be-[xcomp-prop-nicest-sn3,subj-theme_bound-they-sn2,def_prop(nicest,[istituzione]),def_prop(they,[umano])])
+lf(Highlights Lyrics.txt_20,225,nil-nil-nil-rap-[subj-actor-rapper-sn1,and(rapper,every,sn1),def_prop(rapper,[umano])])
+lf(Highlights Lyrics.txt_21,247,_-nil-nil-come-[iobj-goal-tag-sn2,xmod-prop-come-2,and(tag,that,sn2),def_prop(tag,[attivita,informa])])
+lf(Highlights Lyrics.txt_21,247,cl35-nil-nil-come-[iobj-goal-tag-sn2,xmod-prop-come-2,and(tag,that,sn2),def_prop(tag,[attivita,informa])])
+lf(Highlights Lyrics.txt_21,247,cl34-not-nil-doesn-t-[subj-agent-knowledge-sn1,def_prop(knowledge,[astratto,informa,tecno])])
+lf(Highlights Lyrics.txt_22,270,cl37-nil-might-live-[obj-experiencer-bout-sn2,xcomp-purpose-worry-2,subj-actor-i-sn1,def_prop(bout,[attivita,informa,tempo]),def_prop(i,[umano])])
+lf(Highlights Lyrics.txt_22,270,cl36-nil-nil-worry-[])
+lf(Highlights Lyrics.txt_23,294,cl39-nil-might-give-[])
+lf(Highlights Lyrics.txt_23,294,cl38-nil-nil-worry-[obj-theme-i-sn5,subj-causer_emot-you-sn3,def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Highlights Lyrics.txt_23,294,nil-nil-nil-wanna-[ncmod-subj_disc-impression-sn4,subj-agent-i-sn1,def_prop(impression,[astratto,attivita,informa,oggetto,strumento]),def_prop(i,[umano])])
+lf(Highlights Lyrics.txt_24,320,cl41-nil-nil-know-[obj-theme_unaff-man-sn2,xadj-result-know-2,def_prop(man,[any])])
+lf(Highlights Lyrics.txt_24,320,cl40-not-nil-fuck-[subj-actor-i-sn1,adj-(mod)-even-nil,aux-do-nil,def_prop(i,[umano])])

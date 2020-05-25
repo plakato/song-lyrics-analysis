@@ -1,0 +1,82 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Carnival Lyrics.txt_1-1  []-positive  []
+Carnival Lyrics.txt_2-3  []-negative  []
+Carnival Lyrics.txt_3-7  []-positive  []
+Carnival Lyrics.txt_4-11  []-negative  [neg]
+Carnival Lyrics.txt_5-16  []-positive  []
+Carnival Lyrics.txt_6-23  []-negative  [neg,neg]
+Carnival Lyrics.txt_7-31  []-positive  []
+Carnival Lyrics.txt_8-39  []-negative  [neg,neg]
+Carnival Lyrics.txt_9-49  []-positive  []
+Carnival Lyrics.txt_10-59  []-positive  []
+Carnival Lyrics.txt_11-70  []-suspension  []
+Carnival Lyrics.txt_12-82  []-positive  []
+Carnival Lyrics.txt_13-95  []-suspension  []
+Carnival Lyrics.txt_14-109  []-positive  [fgb]
+Carnival Lyrics.txt_15-124  []-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Carnival Lyrics.txt_1-1  [carnival,Lyrics,by,Zodiac]  [title]
+Carnival Lyrics.txt_2-3  [take,your,turn,don-t,you,Turn,around]  [provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Carnival Lyrics.txt_3-7  [the,Future,Change,has,come]  [raise_issue(be,[_68580,factive,statement,_68598,subjective])]
+Carnival Lyrics.txt_4-11  [don-t,you,Mind,your,Destination]  [reject_expl_just(don-t,[external,factive,explanation,background,objective]),propose_opin_neg(don-t,[external,factive,explanation,background,objective])]
+Carnival Lyrics.txt_5-16  [Way,your,on,be,better,you,!]  [provide_expl_just(better,[internal,factive,narration,background,objective]),provide_expl_just(you,[internal,factive,narration,background,objective])]
+Carnival Lyrics.txt_6-23  [don-t,you,be,Afraid,to,Call,me,a,fool]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(don-t,[external,factive,narration,background,objective])]
+Carnival Lyrics.txt_7-31  [now,that,Shaken,be,your,hand]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Carnival Lyrics.txt_8-39  [don-t,you,be,Afraid,to,Call,me,a,fool]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(don-t,[external,factive,narration,background,objective])]
+Carnival Lyrics.txt_9-49  [now,that,Shaken,be,your,hand]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Carnival Lyrics.txt_10-59  [carnival,of,Broken,hearts]  [provide_expl_just(hearts,[external,factive,narration,background,objective])]
+Carnival Lyrics.txt_11-70  [mine,you,Give,will,i,time,your,me,give,!]  [provide_expl_just(give,[internal,nonfactive,narration,background,objective])]
+Carnival Lyrics.txt_12-82  [carnival,of,Broken,hearts]  [provide_expl_just(hearts,[external,factive,narration,background,objective])]
+Carnival Lyrics.txt_13-95  [mine,you,Give,will,i,time,your,me,give,!]  [provide_expl_just(give,[internal,nonfactive,narration,background,objective])]
+Carnival Lyrics.txt_14-109  [time,for,Spinning,round,and,round]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Carnival Lyrics.txt_15-124  [time,for,Spinning,round,and,round]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Carnival Lyrics.txt_1-1)-[]
+2-(Carnival Lyrics.txt_2-3)-[]
+3-(Carnival Lyrics.txt_3-7)-[]
+4-(Carnival Lyrics.txt_4-11)-[]
+5-(Carnival Lyrics.txt_5-16)-[]
+6-(Carnival Lyrics.txt_6-23)-[]
+7-(Carnival Lyrics.txt_7-31)-[secondary-temporal_repere,primary-narcissism]
+half
+8-(Carnival Lyrics.txt_8-39)-[]
+9-(Carnival Lyrics.txt_9-49)-[secondary-temporal_repere,primary-narcissism]
+10-(Carnival Lyrics.txt_10-59)-[primary-narcissism]
+11-(Carnival Lyrics.txt_11-70)-[secondary-temporal_repere]
+12-(Carnival Lyrics.txt_12-82)-[primary-narcissism]
+13-(Carnival Lyrics.txt_13-95)-[secondary-temporal_repere]
+14-(Carnival Lyrics.txt_14-109)-[secondary-temporal_repere,primary-concreteness,primary-concreteness]
+15-(Carnival Lyrics.txt_15-124)-[secondary-temporal_repere,primary-concreteness,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Carnival Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Zodiac-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,carnival,sn1),def_prop(Zodiac,[istituzione]),def_prop(Lyrics,[informa,tecno])])
+lf(Carnival Lyrics.txt_2,3,cl3-not-nil-don-t-[xcomp-theme_aff-around-sn9,xcomp-theme_aff-around-sn5,subj-agent-turn-sn4,and(around,Turn,sn9),and(around,Turn,sn5),def_prop(around,[]),def_prop(around,[]),def_prop(turn,[attivita,evento,tempo])])
+lf(Carnival Lyrics.txt_2,3,cl2-nil-nil-take-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Carnival Lyrics.txt_3,7,cl4-nil-nil-come-[subj-agent-change-sn2,subj-agent-change-sn1,aux-has-nil,and(change,Future,sn1),def_prop(change,[astratto,attivita,cambia,evento,oggetto,relat,strumento]),def_prop(change,[astratto,attivita,cambia,evento,oggetto,relat,strumento])])
+lf(Carnival Lyrics.txt_4,11,cl5-not-nil-don-t-[xcomp-theme-Destination-sn3,xcomp-theme_aff-Mind-sn2,subj-agent-you-sn1,def_prop(Destination,[istituzione]),def_prop(Mind,[body_part]),def_prop(you,[umano])])
+lf(Carnival Lyrics.txt_5,16,cl6-nil-nil-be-[])
+lf(Carnival Lyrics.txt_5,16,nil-nil-nil-better-[ncmod-prop-Way-sn2,xcomp-purpose-be-cl6,subj-agent-you-sn1,def_prop(Way,[place,umano]),def_prop(you,[umano])])
+lf(Carnival Lyrics.txt_6,23,cl8-nil-nil-be-[ncmod-locativo-Call-sn3,xcomp-prop-Afraid-sn2,xcomp-purpose-be-2,def_prop(Call,[place,astratto]),def_prop(Afraid,[istituzione])])
+lf(Carnival Lyrics.txt_6,23,cl7-not-nil-don-t-[xcomp-prop-fool-sn5,xcomp-theme-me-sn4,subj-agent-you-sn1,def_prop(fool,[attivita,plant,stato,umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Carnival Lyrics.txt_7,31,cl9-nil-nil-be-[adj-(mod)-now-nil,xcomp-prop-hand-sn1,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano])])
+lf(Carnival Lyrics.txt_8,39,cl11-nil-nil-be-[ncmod-locativo-Call-sn3,xcomp-prop-Afraid-sn2,xcomp-purpose-be-2,def_prop(Call,[place,astratto]),def_prop(Afraid,[istituzione])])
+lf(Carnival Lyrics.txt_8,39,cl10-not-nil-don-t-[xcomp-prop-fool-sn5,xcomp-theme-me-sn4,subj-agent-you-sn1,def_prop(fool,[attivita,plant,stato,umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Carnival Lyrics.txt_9,49,cl12-nil-nil-be-[adj-(mod)-now-nil,xcomp-prop-hand-sn1,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano])])
+lf(Carnival Lyrics.txt_10,59,nil-nil-nil-hearts-[ncmod-specif-Broken-sn2,subj-agent-you-sn1,def_prop(Broken,[istituzione,umano]),def_prop(you,[umano])])
+lf(Carnival Lyrics.txt_11,70,cl13-nil-will-give-[obj-goal-mine-sn8,subj-actor-you-sn7,obj-goal-mine-sn5,subj-actor-you-sn4,subj-actor-you-sn3,subj-actor-me-sn1,and(you,i,sn3),def_prop(mine,[oggetto,strumento]),def_prop(you,[umano]),def_prop(mine,[oggetto,strumento]),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(me,[umano])])
+lf(Carnival Lyrics.txt_12,82,nil-nil-nil-hearts-[ncmod-specif-Broken-sn2,subj-agent-you-sn1,def_prop(Broken,[istituzione,umano]),def_prop(you,[umano])])
+lf(Carnival Lyrics.txt_13,95,cl14-nil-will-give-[obj-goal-mine-sn8,subj-actor-you-sn7,obj-goal-mine-sn5,subj-actor-you-sn4,subj-actor-you-sn3,subj-actor-me-sn1,and(you,i,sn3),def_prop(mine,[oggetto,strumento]),def_prop(you,[umano]),def_prop(mine,[oggetto,strumento]),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(me,[umano])])
+lf(Carnival Lyrics.txt_14,109,cl15-nil-nil-be-[subj-theme_bound-Spinning-sn1,def_prop(Spinning,[attivita])])
+lf(Carnival Lyrics.txt_15,124,cl16-nil-nil-be-[subj-theme_bound-Spinning-sn1,def_prop(Spinning,[attivita])])

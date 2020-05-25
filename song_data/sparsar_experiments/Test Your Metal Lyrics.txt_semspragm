@@ -1,0 +1,177 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Test Your Metal Lyrics.txt_1-1  []-positive  [neg]
+Test Your Metal Lyrics.txt_2-3  []-positive  []
+Test Your Metal Lyrics.txt_3-6  []-positive  [fgb]
+Test Your Metal Lyrics.txt_4-11  []-positive  []
+Test Your Metal Lyrics.txt_4-12  [but-advers]-positive  [fgb]
+Test Your Metal Lyrics.txt_5-17  []-negative  []
+Test Your Metal Lyrics.txt_5-18  []-negative  [neg]
+Test Your Metal Lyrics.txt_5-19  []-positive  [fgb]
+Test Your Metal Lyrics.txt_6-25  []-positive  []
+Test Your Metal Lyrics.txt_7-32  []-positive  []
+Test Your Metal Lyrics.txt_7-33  []-positive  []
+Test Your Metal Lyrics.txt_8-41  [but-advers]-negative  [fgb,neg]
+Test Your Metal Lyrics.txt_8-42  []-positive  []
+Test Your Metal Lyrics.txt_8-43  []-positive  [fgb]
+Test Your Metal Lyrics.txt_8-44  []-positive  []
+Test Your Metal Lyrics.txt_9-53  []-negative  [neg]
+Test Your Metal Lyrics.txt_9-54  []-negative  [neg]
+Test Your Metal Lyrics.txt_9-55  [but-advers]-positive  [fgb]
+Test Your Metal Lyrics.txt_10-65  []-positive  []
+Test Your Metal Lyrics.txt_11-76  []-positive  []
+Test Your Metal Lyrics.txt_12-88  []-positive  []
+Test Your Metal Lyrics.txt_13-101  [when-temp_coinc]-positive  [fgb,neg]
+Test Your Metal Lyrics.txt_14-121  []-positive  []
+Test Your Metal Lyrics.txt_15-136  []-positive  []
+Test Your Metal Lyrics.txt_15-137  []-negative  [neg,neg]
+Test Your Metal Lyrics.txt_16-154  []-suspension  [neg,neg]
+Test Your Metal Lyrics.txt_17-174  []-positive  []
+Test Your Metal Lyrics.txt_17-175  []-positive  []
+Test Your Metal Lyrics.txt_18-194  []-negative  [neg,fgb]
+Test Your Metal Lyrics.txt_19-217  []-positive  []
+Test Your Metal Lyrics.txt_20-237  []-positive  []
+Test Your Metal Lyrics.txt_21-258  []-positive  []
+Test Your Metal Lyrics.txt_22-280  []-positive  []
+Test Your Metal Lyrics.txt_23-303  []-positive  []
+Test Your Metal Lyrics.txt_24-327  []-positive  []
+Test Your Metal Lyrics.txt_25-352  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Test Your Metal Lyrics.txt_1-1  [test,your,Metal,Lyrics,by,unleash,the,Archers]  [title]
+Test Your Metal Lyrics.txt_2-3  [test,your,metal]  [provide_expl_just(metal,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_3-6  [you,been,around,town,with,an,original,sound,and,everyone,knows,who,you,are,.,you,are]  [provide_expl_just(be,[external,factive,circumstance,background,objective])]
+Test Your Metal Lyrics.txt_4-11  [all,you,got,really,is,your,name]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(love,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_4-12  [but,everybody,loves,you,the,same]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(love,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_5-17  [the,party,don-t,start,till]  [indication(start,[external,factive,inception,foreground,objective]),suggest(start,[external,factive,inception,foreground,objective]),provide_expl_just(walk,[external,factive,narration,background,objective]),provide_expl_just(wait,[external,factive,narration,foreground,objective])]
+Test Your Metal Lyrics.txt_5-18  [you,walk,in,the,bar]  [reject_expl_just(start,[external,factive,inception,foreground,objective]),indication(start,[external,factive,inception,foreground,objective]),reject_expl_just(walk,[external,factive,narration,background,objective]),reject_expl_just(wait,[external,factive,narration,foreground,objective])]
+Test Your Metal Lyrics.txt_5-19  [and,the,crowd,is,waiting,on]  [indication(start,[external,factive,inception,foreground,objective]),suggest(start,[external,factive,inception,foreground,objective]),provide_expl_just(walk,[external,factive,narration,background,objective]),provide_expl_just(wait,[external,factive,narration,foreground,objective])]
+Test Your Metal Lyrics.txt_6-25  [you]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Test Your Metal Lyrics.txt_7-32  [they,as_soon_as,hit]  [provide_expl_just(hit,[external,factive,cause,foreground,objective])]
+Test Your Metal Lyrics.txt_7-33  [the,lights,take,flight]  [provide_expl_just(hit,[external,factive,cause,foreground,objective])]
+Test Your Metal Lyrics.txt_8-41  [but,there,is,not]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(place,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_8-42  [many,places]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(place,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_8-43  [and,all,the,faces,stay,the,same]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(place,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_8-44  [you,can,play]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(place,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_9-53  [i,am,not,trying,to,say]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(try,[external,factive,narration,foreground,objective]),reject_expl_just(say,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_9-54  [this,town,is,lame]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(try,[external,factive,narration,foreground,objective]),reject_expl_just(say,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_9-55  [but,it,time,is]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,foreground,objective]),provide_expl_just(say,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_10-65  [test,your,metal]  [provide_expl_just(metal,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_11-76  [hot,city,nights,,,under,city,lights]  [provide_expl_just(light,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_12-88  [we,are,the,night]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_13-101  [trust,me,when,i,say,to,hit,the,road,and,escape,,,can,you,hear,them,calling,for]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(hit,[external,factive,cause,foreground,objective]),provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(call,[external,factive,narration,foreground,objective]),provide_expl_just(trust,[external,factive,narration,background,objective]),propose_opin_neg(can,[external,nonfactive,circumstance,foreground,objective])]
+Test Your Metal Lyrics.txt_14-121  [you]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Test Your Metal Lyrics.txt_15-136  [just,try,to,take]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_15-137  [it,day_by_day,the,next,town,is,not,not,so_far,away]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(try,[external,factive,narration,background,objective]),reject_expl_just(take,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_16-154  [there,is,a,outside,world,lets,take,a,ride,i,am,not,gonna,say,it,again]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_17-174  [now,is,the,only,chance]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(rock,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_17-175  [you,got,to,rock]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(rock,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_18-194  [don-t,let,your,dreams,get,away,scream,it,is,,,get,up,go,forth,and,make,them]  [reject_expl_just(make,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(let,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_19-217  [time]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Test Your Metal Lyrics.txt_20-237  [test,your,metal]  [provide_expl_just(metal,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_21-258  [hot,city,nights,,,under,city,lights]  [provide_expl_just(light,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_22-280  [we,are,the,night]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_23-303  [test,your,metal]  [provide_expl_just(metal,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_24-327  [hot,city,nights,,,under,city,lights]  [provide_expl_just(light,[external,factive,narration,background,objective])]
+Test Your Metal Lyrics.txt_25-352  [we,are,the,night]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Test Your Metal Lyrics.txt_1-1)-[secondary-instru_behavior]
+2-(Test Your Metal Lyrics.txt_2-3)-[secondary-instru_behavior,primary-hard]
+3-(Test Your Metal Lyrics.txt_3-6)-[primary-sound,secondary-abstract_tought]
+4-(Test Your Metal Lyrics.txt_4-11)-[secondary-abstract_tought]
+5-(Test Your Metal Lyrics.txt_4-12)-[emotions-affection]
+6-(Test Your Metal Lyrics.txt_5-17)-[primary-vision,secondary-temporal_repere]
+7-(Test Your Metal Lyrics.txt_5-18)-[secondary-restraint]
+8-(Test Your Metal Lyrics.txt_5-19)-[primary-chaos]
+9-(Test Your Metal Lyrics.txt_6-25)-[]
+10-(Test Your Metal Lyrics.txt_7-32)-[emotions-aggression]
+11-(Test Your Metal Lyrics.txt_7-33)-[primary-vision,primary-ascend]
+12-(Test Your Metal Lyrics.txt_8-41)-[]
+13-(Test Your Metal Lyrics.txt_8-42)-[primary-concreteness]
+14-(Test Your Metal Lyrics.txt_8-43)-[primary-narcissism]
+15-(Test Your Metal Lyrics.txt_8-44)-[emotions-expressive_beh]
+16-(Test Your Metal Lyrics.txt_9-53)-[secondary-instru_behavior,secondary-social_behavior]
+17-(Test Your Metal Lyrics.txt_9-54)-[]
+18-(Test Your Metal Lyrics.txt_9-55)-[secondary-temporal_repere]
+half
+19-(Test Your Metal Lyrics.txt_10-65)-[secondary-instru_behavior,primary-hard]
+20-(Test Your Metal Lyrics.txt_11-76)-[primary-fire,primary-depth,primary-vision]
+21-(Test Your Metal Lyrics.txt_12-88)-[]
+22-(Test Your Metal Lyrics.txt_13-101)-[secondary-temporal_repere,secondary-social_behavior,emotions-aggression,primary-brink,primary-sound,secondary-abstract_tought]
+23-(Test Your Metal Lyrics.txt_14-121)-[]
+24-(Test Your Metal Lyrics.txt_15-136)-[secondary-instru_behavior]
+25-(Test Your Metal Lyrics.txt_15-137)-[primary-concreteness]
+26-(Test Your Metal Lyrics.txt_16-154)-[primary-concreteness,primary-voyage,secondary-social_behavior,secondary-temporal_repere]
+27-(Test Your Metal Lyrics.txt_17-174)-[secondary-temporal_repere,primary-chaos]
+28-(Test Your Metal Lyrics.txt_17-175)-[primary-hard]
+29-(Test Your Metal Lyrics.txt_18-194)-[primary-counscious,primary-concreteness,emotions-expressive_beh,secondary-instru_behavior,secondary-abstract_tought]
+30-(Test Your Metal Lyrics.txt_19-217)-[secondary-temporal_repere]
+31-(Test Your Metal Lyrics.txt_20-237)-[secondary-instru_behavior,primary-hard]
+32-(Test Your Metal Lyrics.txt_21-258)-[primary-fire,primary-depth,primary-vision]
+33-(Test Your Metal Lyrics.txt_22-280)-[]
+34-(Test Your Metal Lyrics.txt_23-303)-[secondary-instru_behavior,primary-hard]
+35-(Test Your Metal Lyrics.txt_24-327)-[primary-fire,primary-depth,primary-vision]
+36-(Test Your Metal Lyrics.txt_25-352)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Test Your Metal Lyrics.txt_1,1,cl1-nil-nil-unleash-[obj-theme-female-sn2,subj-agent-test-sn1,and(test,Lyrics,sn1),def_prop(female,[animato,umano]),def_prop(test,[animato,attivita])])
+lf(Test Your Metal Lyrics.txt_2,3,cl2-nil-nil-metal-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_3,6,cl4-nil-nil-be-[xcomp-theme-you-sn5,ncmod-comitativo-sound-sn3,xcomp-theme-town-sn2,subj-theme_bound-you-sn1,and(sound,original,sn3),def_prop(you,[umano]),def_prop(sound,[astratto,attivita,cambia,evento,oggetto]),def_prop(town,[istituzione,luogo]),def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_3,6,cl3-nil-nil-know-[cmod-coord-be-and,subj-actor-you-sn6,def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_4,11,cl6-nil-nil-love-[obj-theme_unaff-same-sn7,subj-experiencer-you-sn6,subj-experiencer-you-sn5,and(you,everybody,sn5),def_prop(same,[deittico]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_4,11,cl5-nil-nil-be-[xcomp-prop-name-sn2,subj-theme_bound-all-sn1,def_prop(name,[attivita,informa,stato,umano]),def_prop(all,[_668110])])
+lf(Test Your Metal Lyrics.txt_5,17,cl9-nil-nil-wait-[cmod-subord-wait-",subj-actor-you-sn5,ncmod-locativo-bar-sn4,aux-(is)-nil,progr-waiting-nil,def_prop(you,[umano]),def_prop(bar,[nquant,oggetto,strumento])])
+lf(Test Your Metal Lyrics.txt_5,17,cl8-nil-nil-walk-[subj-actor-you-sn3,def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_5,17,cl7-not-nil-start-[obj-actor-till-sn2,subj-agent-party-sn1,aux-do-nil,def_prop(till,[sostanza]),def_prop(party,[evento,istituzione,umano])])
+lf(Test Your Metal Lyrics.txt_6,25,cl10-nil-nil-say-[obj-theme_unaff-you-sn1,def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_7,32,cl12-nil-nil-take-[obj-theme_aff-flight-sn4,subj-agent-light-sn3,def_prop(flight,[astratto,attivita,istituzione,oggetto,strumento]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(Test Your Metal Lyrics.txt_7,32,cl11-nil-nil-hit-[ncmod-modal-they-sn2,subj-agent-you-sn1,def_prop(they,[umano]),def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_8,41,cl16-nil-can-play-[subj-agent-you-sn6,def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_8,41,cl15-nil-nil-stay-[cmod-subord-place-",obj-theme_unaff-same-sn4,subj-agent-face-sn3,and(face,all,sn3),def_prop(same,[deittico]),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano])])
+lf(Test Your Metal Lyrics.txt_8,41,cl14-nil-nil-place-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_8,41,cl13-nil-nil-be-[subj-theme_bound-there-sn1,def_prop(there,[any])])
+lf(Test Your Metal Lyrics.txt_9,53,cl19-nil-nil-be-[adj-subj_disc-time-sn6,subj-theme_bound-it-sn5,xcomp-prop-lame-sn3,subj-theme_bound-town-sn2,and(town,this,sn2),def_prop(time,[tempo]),def_prop(it,[any]),def_prop(lame,[oggetto,strumento]),def_prop(town,[istituzione,luogo])])
+lf(Test Your Metal Lyrics.txt_9,53,cl18-nil-nil-say-[subj-prop-i-sn1,def_prop(i,[umano])])
+lf(Test Your Metal Lyrics.txt_9,53,cl17-not-nil-try-[subj-actor-i-sn1,aux-am-nil,progr-trying-nil,def_prop(i,[umano])])
+lf(Test Your Metal Lyrics.txt_10,65,cl20-nil-nil-metal-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_11,76,cl21-nil-nil-light-[adj-locative-female-nil,ncmod-stato-city-sn2,subj-actor-city-sn1,and(city,hot,sn1),def_prop(city,[istituzione,luogo]),def_prop(city,[istituzione,luogo])])
+lf(Test Your Metal Lyrics.txt_12,88,cl22-nil-nil-be-[xcomp-prop-night-sn2,subj-theme_bound-we-sn1,def_prop(night,[tempo]),def_prop(we,[umano])])
+lf(Test Your Metal Lyrics.txt_13,101,cl29-nil-nil-call-[subj-goal-them-sn4,obj-result-them-sn4,xcomp-prop-hear-5,def_prop(them,[umano]),def_prop(them,[umano])])
+lf(Test Your Metal Lyrics.txt_13,101,cl28-nil-nil-hear-[])
+lf(Test Your Metal Lyrics.txt_13,101,cl27-nil-can-can-[])
+lf(Test Your Metal Lyrics.txt_13,101,cl26-nil-nil-escape-[cmod-coord-nil-nil,subj-agent-you-sn10,subj-agent-you-sn9,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_13,101,cl25-nil-nil-hit-[adj-(mod)-escape-nil])
+lf(Test Your Metal Lyrics.txt_13,101,cl24-nil-nil-say-[cmod-coord-nil-nil,obj-goal-road-sn8,xcomp-purpose-can-cl27,subj-actor-i-sn7,obj-goal-road-sn6,xcomp-purpose-hit-2,subj-actor-i-sn5,def_prop(road,[attivita,oggetto,strumento]),def_prop(i,[umano]),def_prop(road,[attivita,oggetto,strumento]),def_prop(i,[umano])])
+lf(Test Your Metal Lyrics.txt_13,101,cl23-nil-nil-trust-[cmod-subord-hit-2,subj-sn1-you-sn3,obj-cause-me-sn2,subj-agent-you-sn1,def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_14,121,cl30-nil-nil-say-[obj-theme_unaff-you-sn1,def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_15,136,cl33-not-nil-be-[adj-(mod)-so_far-nil,adj-(mod)-day_by_day-nil,xcomp-prop-away-sn4,subj-theme_bound-town-sn3,subj-theme_bound-town-sn2,neg-not-nil,and(town,next,sn3),and(town,next,sn2),def_prop(away,[evaluative]),def_prop(town,[istituzione,luogo]),def_prop(town,[istituzione,luogo])])
+lf(Test Your Metal Lyrics.txt_15,136,cl32-nil-nil-take-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_15,136,cl31-nil-nil-try-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_16,154,cl36-nil-nil-say-[adj-subj_disc-again-sn17,subj-actor-it-sn16,subj-actor-it-sn15,subj-prop-it-sn13,and(it,i,sn15),def_prop(again,[istituzione]),def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Test Your Metal Lyrics.txt_16,154,cl35-nil-nil-take-[expl-it-nil,xcomp-prop-ride-sn5,subj-agent-it-sn4,xcomp-prop-ride-sn3,subj-agent-let-sn2,and(let,outside,sn2),def_prop(ride,[oggetto,strumento]),def_prop(it,[any]),def_prop(ride,[oggetto,strumento]),def_prop(let,[attivita])])
+lf(Test Your Metal Lyrics.txt_16,154,cl34-not-nil-be-[adj-(mod)-again-nil,subj-theme_bound-it-sn13,xcomp-prop-it-sn11,xcomp-purpose-say-6,subj-theme_bound-i-sn10,xcomp-prop-it-sn8,xcomp-purpose-say-5,xcomp-prop-ride-sn7,subj-theme_bound-i-sn6,subj-theme_bound-there-sn1,def_prop(again,[istituzione]),def_prop(it,[any]),def_prop(it,[any]),def_prop(i,[umano]),def_prop(it,[any]),def_prop(ride,[oggetto,strumento]),def_prop(i,[umano]),def_prop(there,[any])])
+lf(Test Your Metal Lyrics.txt_17,174,cl39-nil-nil-rock-[subj-patient-you-sn2,def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_17,174,cl38-nil-nil-get-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_17,174,cl37-nil-nil-be-[xcomp-prop-chance-sn1,def_prop(chance,[attivita])])
+lf(Test Your Metal Lyrics.txt_18,194,cl44-nil-nil-make-[cmod-coord-be-and,subj-agent-dream-sn1,xcomp-agent-them-sn10,subj-agent-you-sn9,obj-paziente-away-sn2,xadj-result-get-8,def_prop(dream,[astratto,stato]),def_prop(them,[umano]),def_prop(you,[umano]),def_prop(away,[evaluative])])
+lf(Test Your Metal Lyrics.txt_18,194,cl43-nil-nil-go-[])
+lf(Test Your Metal Lyrics.txt_18,194,cl42-nil-nil-be-[subj-theme_bound-dream-sn1,subj-theme_bound-scream-sn5,def_prop(dream,[astratto,stato]),def_prop(scream,[attivita,informa])])
+lf(Test Your Metal Lyrics.txt_18,194,cl41-nil-nil-get-[adj-(mod)-forth-nil,adj-(mod)-up-nil,subj-theme_bound-you-sn6,def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_18,194,cl40-not-nil-let-[subj-actor-dream-sn1,aux-do-nil,def_prop(dream,[astratto,stato])])
+lf(Test Your Metal Lyrics.txt_19,217,cl45-nil-nil-say-[])
+lf(Test Your Metal Lyrics.txt_20,237,cl46-nil-nil-metal-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_21,258,cl47-nil-nil-light-[adj-locative-female-nil,ncmod-stato-city-sn2,subj-actor-city-sn1,and(city,hot,sn1),def_prop(city,[istituzione,luogo]),def_prop(city,[istituzione,luogo])])
+lf(Test Your Metal Lyrics.txt_22,280,cl48-nil-nil-be-[xcomp-prop-night-sn2,subj-theme_bound-we-sn1,def_prop(night,[tempo]),def_prop(we,[umano])])
+lf(Test Your Metal Lyrics.txt_23,303,cl49-nil-nil-metal-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Test Your Metal Lyrics.txt_24,327,cl50-nil-nil-light-[adj-locative-female-nil,ncmod-stato-city-sn2,subj-actor-city-sn1,and(city,hot,sn1),def_prop(city,[istituzione,luogo]),def_prop(city,[istituzione,luogo])])
+lf(Test Your Metal Lyrics.txt_25,352,cl51-nil-nil-be-[xcomp-prop-night-sn2,subj-theme_bound-we-sn1,def_prop(night,[tempo]),def_prop(we,[umano])])

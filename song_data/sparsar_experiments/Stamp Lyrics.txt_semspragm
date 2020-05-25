@@ -1,0 +1,157 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Stamp Lyrics.txt_1-1  []-negative  [neg]
+Stamp Lyrics.txt_2-3  []-positive  [neg]
+Stamp Lyrics.txt_3-6  [(as)-temp_coinc]-positive  []
+Stamp Lyrics.txt_3-7  []-positive  []
+Stamp Lyrics.txt_4-11  []-negative  [neg]
+Stamp Lyrics.txt_5-16  []-negative  [fgb,neg]
+Stamp Lyrics.txt_6-23  [while-temp_coinc]-negative  [neg]
+Stamp Lyrics.txt_7-32  []-negative  [neg]
+Stamp Lyrics.txt_7-33  []-positive  []
+Stamp Lyrics.txt_8-41  []-negative  [neg]
+Stamp Lyrics.txt_9-50  []-positive  [fgb]
+Stamp Lyrics.txt_9-51  []-negative  [neg]
+Stamp Lyrics.txt_10-62  []-negative  [fgb,neg]
+Stamp Lyrics.txt_11-74  []-positive  [fgb]
+Stamp Lyrics.txt_12-86  []-negative  [fgb,neg]
+Stamp Lyrics.txt_13-99  []-positive  [fgb]
+Stamp Lyrics.txt_14-113  []-negative  [fgb,neg]
+Stamp Lyrics.txt_15-128  []-positive  [fgb]
+Stamp Lyrics.txt_15-129  []-suspension  []
+Stamp Lyrics.txt_16-145  []-positive  []
+Stamp Lyrics.txt_17-162  []-suspension  []
+Stamp Lyrics.txt_18-181  [but-advers]-negative  [fgb]
+Stamp Lyrics.txt_19-200  []-positive  [fgb]
+Stamp Lyrics.txt_19-201  []-suspension  []
+Stamp Lyrics.txt_20-221  []-positive  []
+Stamp Lyrics.txt_21-242  []-suspension  []
+Stamp Lyrics.txt_22-265  [but-advers]-negative  [fgb]
+Stamp Lyrics.txt_23-288  []-positive  [fgb]
+Stamp Lyrics.txt_23-289  []-suspension  []
+Stamp Lyrics.txt_24-313  [but-advers]-positive  [fgb]
+Stamp Lyrics.txt_25-338  []-negative  []
+Stamp Lyrics.txt_25-339  []-positive  []
+Stamp Lyrics.txt_26-365  []-negative  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Stamp Lyrics.txt_1-1  [stamp,Lyrics,by,the,Rural,Alberta,advantage]  [title]
+Stamp Lyrics.txt_2-3  [send,it,off,with,a,stamp]  [propose_opin_neg(send,[external,factive,explanation,background,objective])]
+Stamp Lyrics.txt_3-6  [as,the,winter,locks,in,the,branches]  [provide_expl_just(lock,[external,factive,explanation,background,objective]),provide_expl_just(love,[external,factive,explanation,background,objective])]
+Stamp Lyrics.txt_3-7  [above,you,higher,than,where,we,have,loved,.,we,have,loved]  [provide_expl_just(lock,[external,factive,explanation,background,objective]),provide_expl_just(love,[external,factive,explanation,background,objective])]
+Stamp Lyrics.txt_4-11  [it,is,never,coming,back]  [reject_expl_just(be,[_71602,_71608,_71614,_71620,_71626])]
+Stamp Lyrics.txt_5-16  [and,the,hardest,thing,about,this_love,is,that,you,are,never,coming,back]  [reject_expl_just(be,[_71824,_71830,_71836,_71842,_71848])]
+Stamp Lyrics.txt_6-23  [hold,me,close,while,you,can]  [reject_expl_just(hold,[external,factive,narration,foreground,objective]),reject_expl_just(close,[external,factive,narration,background,objective]),reject_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Stamp Lyrics.txt_7-32  [it,is,hard,to,remember]  [reject_expl_just(hold,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Stamp Lyrics.txt_7-33  [the,end,of,December,holding,onto,the,past]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Stamp Lyrics.txt_8-41  [you,are,never,coming,back]  [reject_expl_just(be,[_74014,_74020,_74026,_74032,_74038])]
+Stamp Lyrics.txt_9-50  [and,the,hardest,thing,about,this_love,is,that]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(go,[external,nonfactive,narration,foreground,objective]),provide_expl_just(last,[external,factive,narration,background,objective])]
+Stamp Lyrics.txt_9-51  [it,is,never,going,to,last]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(go,[external,nonfactive,narration,foreground,objective]),reject_expl_just(last,[external,factive,narration,background,objective])]
+Stamp Lyrics.txt_10-62  [and,the,hardest,thing,about,this_love,is,that,you,are,never,coming,back]  [reject_expl_just(be,[_76044,_76050,_76056,_76062,_76068])]
+Stamp Lyrics.txt_11-74  [and,our,love-s,waiting,tonight]  [provide_expl_just(wait,[external,factive,narration,foreground,objective])]
+Stamp Lyrics.txt_12-86  [and,our,love-s,wasted,tonight]  [reject_expl_just(be,[_76660,_76666,_76672,_76678,_76684])]
+Stamp Lyrics.txt_13-99  [and,our,love-s,waiting,tonight]  [provide_expl_just(wait,[external,factive,narration,foreground,objective])]
+Stamp Lyrics.txt_14-113  [and,our,love-s,wasted,tonight]  [reject_expl_just(be,[_77276,_77282,_77288,_77294,_77300])]
+Stamp Lyrics.txt_15-128  [well,hold,young,lovers]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Stamp Lyrics.txt_15-129  [you,will]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Stamp Lyrics.txt_16-145  [find,another,your]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Stamp Lyrics.txt_17-162  [heart,will,sing,too]  [provide_expl_just(heart,[external,factive,narration,background,objective]),provide_expl_just(sing,[external,nonfactive,narration,background,objective])]
+Stamp Lyrics.txt_18-181  [but,i,don-t,need,you]  [provide_expl_just(need,[external,factive,narration,foreground,objective])]
+Stamp Lyrics.txt_19-200  [well,hold,young,lovers]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Stamp Lyrics.txt_19-201  [you,will]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Stamp Lyrics.txt_20-221  [find,another,your]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Stamp Lyrics.txt_21-242  [heart,will,sing,too]  [provide_expl_just(heart,[external,factive,narration,background,objective]),provide_expl_just(sing,[external,nonfactive,narration,background,objective])]
+Stamp Lyrics.txt_22-265  [but,i,don-t,need,you]  [provide_expl_just(need,[external,factive,narration,foreground,objective])]
+Stamp Lyrics.txt_23-288  [and,hold,on,lover]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Stamp Lyrics.txt_23-289  [,,you,will]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Stamp Lyrics.txt_24-313  [find,another,but]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Stamp Lyrics.txt_25-338  [i,don-t,need]  [provide_expl_just(need,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Stamp Lyrics.txt_25-339  [you]  [provide_expl_just(need,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Stamp Lyrics.txt_26-365  [and,i,will,not,need,to]  [reject_expl_just(need,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Stamp Lyrics.txt_1-1)-[]
+2-(Stamp Lyrics.txt_2-3)-[primary-concreteness]
+3-(Stamp Lyrics.txt_3-6)-[primary-cold,secondary-restraint,primary-height]
+4-(Stamp Lyrics.txt_3-7)-[primary-height,primary-height,primary-concreteness,emotions-affection,emotions-affection]
+5-(Stamp Lyrics.txt_4-11)-[primary-concreteness]
+6-(Stamp Lyrics.txt_5-16)-[primary-concreteness]
+7-(Stamp Lyrics.txt_6-23)-[primary-concreteness,secondary-temporal_repere]
+8-(Stamp Lyrics.txt_7-32)-[primary-hard]
+9-(Stamp Lyrics.txt_7-33)-[secondary-temporal_repere]
+10-(Stamp Lyrics.txt_8-41)-[primary-concreteness]
+11-(Stamp Lyrics.txt_9-50)-[]
+12-(Stamp Lyrics.txt_9-51)-[]
+13-(Stamp Lyrics.txt_10-62)-[primary-concreteness]
+14-(Stamp Lyrics.txt_11-74)-[secondary-temporal_repere]
+15-(Stamp Lyrics.txt_12-86)-[secondary-temporal_repere]
+16-(Stamp Lyrics.txt_13-99)-[secondary-temporal_repere]
+half
+17-(Stamp Lyrics.txt_14-113)-[secondary-temporal_repere]
+18-(Stamp Lyrics.txt_15-128)-[primary-sex]
+19-(Stamp Lyrics.txt_15-129)-[]
+20-(Stamp Lyrics.txt_16-145)-[secondary-instru_behavior]
+21-(Stamp Lyrics.txt_17-162)-[primary-narcissism,emotions-expressive_beh]
+22-(Stamp Lyrics.txt_18-181)-[]
+23-(Stamp Lyrics.txt_19-200)-[primary-sex]
+24-(Stamp Lyrics.txt_19-201)-[]
+25-(Stamp Lyrics.txt_20-221)-[secondary-instru_behavior]
+26-(Stamp Lyrics.txt_21-242)-[primary-narcissism,emotions-expressive_beh]
+27-(Stamp Lyrics.txt_22-265)-[]
+28-(Stamp Lyrics.txt_23-288)-[primary-sex]
+29-(Stamp Lyrics.txt_23-289)-[]
+30-(Stamp Lyrics.txt_24-313)-[secondary-instru_behavior]
+31-(Stamp Lyrics.txt_25-338)-[]
+32-(Stamp Lyrics.txt_25-339)-[]
+33-(Stamp Lyrics.txt_26-365)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Stamp Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Rural-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,stamp,sn1),def_prop(Rural,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Stamp Lyrics.txt_2,3,cl2-nil-nil-send-[adj-(mod)-off-nil,adj-subj_disc-off-sn4,ncmod-comitativo-stamp-sn3,subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(off,[istituzione]),def_prop(off,[istituzione]),def_prop(stamp,[attivita,informa,istituzione,oggetto,strumento]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Stamp Lyrics.txt_3,6,cl4-nil-nil-love-[aux-have-nil,xcomp-prop-higher-sn5,ncmod-loc_direct-you-sn4,subj-experiencer-we-sn3,ncmod-locativo-branch-sn2,def_prop(higher,[valutativo]),def_prop(you,[umano]),def_prop(we,[umano]),def_prop(branch,[astratto,istituzione,oggetto,plant])])
+lf(Stamp Lyrics.txt_3,6,cl3-nil-nil-lock-[subj-agent-winter-sn1,def_prop(winter,[tempo])])
+lf(Stamp Lyrics.txt_4,11,cl5-nil-nil-come-[expl-it-nil,xcomp-prop-back-sn2,subj-agent-it-sn1,neg-never-nil,aux-(is)-nil,progr-coming-nil,def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(it,[any])])
+lf(Stamp Lyrics.txt_5,16,cl7-nil-nil-come-[cmod-subord-come-",xcomp-agent-back-sn6,subj-agent-you-sn5,xcomp-prop-back-sn4,subj-agent-you-sn3,neg-never-nil,aux-are-nil,progr-coming-nil,def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(you,[umano]),def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Stamp Lyrics.txt_5,16,cl6-nil-nil-be-[subj-theme_bound-thing-sn1,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Stamp Lyrics.txt_6,23,cl10-nil-can-can-[cmod-subord-can-while,subj-actor-pro-nil,subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Stamp Lyrics.txt_6,23,cl9-nil-nil-close-[])
+lf(Stamp Lyrics.txt_6,23,cl8-nil-nil-hold-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Stamp Lyrics.txt_7,32,cl12-nil-nil-hold-[ncmod-modal-past-sn4,subj-actor-end-sn3,def_prop(past,[attivita,informa,tempo]),def_prop(end,[tempo])])
+lf(Stamp Lyrics.txt_7,32,cl11-nil-nil-be-[xcomp-prop-hard-sn2,subj-theme_bound-it-sn1,def_prop(hard,[istituzione]),def_prop(it,[any])])
+lf(Stamp Lyrics.txt_8,41,cl13-nil-nil-come-[xcomp-prop-back-sn2,subj-agent-you-sn1,neg-never-nil,aux-are-nil,progr-coming-nil,def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Stamp Lyrics.txt_9,50,cl16-nil-nil-last-[cmod-subord-last-"])
+lf(Stamp Lyrics.txt_9,50,cl15-nil-nil-go-[subj-agent-it-sn4,neg-never-nil,aux-(is)-nil,progr-going-nil,def_prop(it,[any])])
+lf(Stamp Lyrics.txt_9,50,cl14-nil-nil-be-[xcomp-prop-that-sn2,subj-theme_bound-thing-sn1,def_prop(that,[oggetto,umano]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Stamp Lyrics.txt_10,62,cl18-nil-nil-come-[cmod-subord-come-",xcomp-agent-back-sn6,subj-agent-you-sn5,xcomp-prop-back-sn4,subj-agent-you-sn3,neg-never-nil,aux-are-nil,progr-coming-nil,def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(you,[umano]),def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Stamp Lyrics.txt_10,62,cl17-nil-nil-be-[subj-theme_bound-thing-sn1,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Stamp Lyrics.txt_11,74,cl19-nil-nil-wait-[cmod-subord-wait-",adj-(mod)-tonight-nil,subj-actor-love-s-sn1,def_prop(love-s,[astratto,emotivo,nquant])])
+lf(Stamp Lyrics.txt_12,86,cl20-nil-nil-waste-[cmod-subord-waste-",obj-theme_aff-tonight-sn2,subj-agent-love-s-sn1,def_prop(tonight,[tempo]),def_prop(love-s,[astratto,emotivo,nquant])])
+lf(Stamp Lyrics.txt_13,99,cl21-nil-nil-wait-[cmod-subord-wait-",adj-(mod)-tonight-nil,subj-actor-love-s-sn1,def_prop(love-s,[astratto,emotivo,nquant])])
+lf(Stamp Lyrics.txt_14,113,cl22-nil-nil-waste-[cmod-subord-waste-",obj-theme_aff-tonight-sn2,subj-agent-love-s-sn1,def_prop(tonight,[tempo]),def_prop(love-s,[astratto,emotivo,nquant])])
+lf(Stamp Lyrics.txt_15,128,cl24-nil-will-will-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Stamp Lyrics.txt_15,128,cl23-nil-nil-hold-[adj-(mod)-well-nil,subj_top-agent-lover-sn1,and(lover,young,sn1),def_prop(lover,[umano])])
+lf(Stamp Lyrics.txt_16,145,cl25-nil-nil-be-[subj-theme_bound-find-sn1,and(find,find,sn1),def_prop(find,[astratto,evento,stato])])
+lf(Stamp Lyrics.txt_17,162,cl26-nil-will-sing-[])
+lf(Stamp Lyrics.txt_17,162,nil-nil-nil-heart-[adj-subj_disc-too-sn2,subj-agent-you-sn1,def_prop(too,[istituzione]),def_prop(you,[umano])])
+lf(Stamp Lyrics.txt_18,181,cl27-not-nil-need-[subj-experiencer-you-sn2,subj-experiencer-you-sn1,aux-do-nil,and(you,i,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Stamp Lyrics.txt_19,200,cl29-nil-will-will-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Stamp Lyrics.txt_19,200,cl28-nil-nil-hold-[adj-(mod)-well-nil,subj_top-agent-lover-sn1,and(lover,young,sn1),def_prop(lover,[umano])])
+lf(Stamp Lyrics.txt_20,221,cl30-nil-nil-be-[subj-theme_bound-find-sn1,and(find,find,sn1),def_prop(find,[astratto,evento,stato])])
+lf(Stamp Lyrics.txt_21,242,cl31-nil-will-sing-[])
+lf(Stamp Lyrics.txt_21,242,nil-nil-nil-heart-[adj-subj_disc-too-sn2,subj-agent-you-sn1,def_prop(too,[istituzione]),def_prop(you,[umano])])
+lf(Stamp Lyrics.txt_22,265,cl32-not-nil-need-[subj-experiencer-you-sn2,subj-experiencer-you-sn1,aux-do-nil,and(you,i,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Stamp Lyrics.txt_23,288,cl34-nil-will-will-[subj-agent-you-sn3,cmod-subord-will-",ncmod-locativo-lover-sn2,def_prop(you,[umano]),def_prop(lover,[umano])])
+lf(Stamp Lyrics.txt_23,288,cl33-nil-nil-hold-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Stamp Lyrics.txt_24,313,cl35-nil-nil-be-[subj-theme_bound-find-sn1,and(find,find,sn1),def_prop(find,[astratto,evento,stato])])
+lf(Stamp Lyrics.txt_25,338,cl37-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Stamp Lyrics.txt_25,338,cl36-not-nil-need-[subj-experiencer-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Stamp Lyrics.txt_26,365,cl38-not-will-need-[cmod-subord-need-",subj-experiencer-you-sn1,def_prop(you,[umano])])

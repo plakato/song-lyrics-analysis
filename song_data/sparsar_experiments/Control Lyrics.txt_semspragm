@@ -1,0 +1,146 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Control Lyrics.txt_1-1  []-positive  []
+Control Lyrics.txt_2-3  []-positive  []
+Control Lyrics.txt_3-6  []-positive  []
+Control Lyrics.txt_4-10  []-positive  []
+Control Lyrics.txt_5-15  []-positive  []
+Control Lyrics.txt_6-21  []-positive  [fgb]
+Control Lyrics.txt_7-28  []-negative  [neg]
+Control Lyrics.txt_7-29  []-positive  [neg]
+Control Lyrics.txt_8-37  []-negative  [neg]
+Control Lyrics.txt_9-47  []-negative  [fhd,neg]
+Control Lyrics.txt_10-61  []-positive  [neg]
+Control Lyrics.txt_11-72  [while-temp_coinc]-positive  []
+Control Lyrics.txt_12-84  []-negative  [neg]
+Control Lyrics.txt_12-85  []-negative  [neg]
+Control Lyrics.txt_13-98  []-suspension  [neg]
+Control Lyrics.txt_14-112  []-positive  []
+Control Lyrics.txt_15-127  []-suspension  [neg]
+Control Lyrics.txt_16-144  []-suspension  [neg]
+Control Lyrics.txt_16-145  []-suspension  [neg]
+Control Lyrics.txt_17-162  []-negative  [neg]
+Control Lyrics.txt_17-163  []-positive  [fgb,bkc]
+Control Lyrics.txt_17-164  []-negative  [neg]
+Control Lyrics.txt_18-184  [before-temp_prec]-positive  [bkc,neg]
+Control Lyrics.txt_19-204  []-positive  [neg]
+Control Lyrics.txt_20-224  [while-temp_coinc]-positive  []
+Control Lyrics.txt_21-245  []-negative  [neg]
+Control Lyrics.txt_21-246  []-negative  [neg]
+Control Lyrics.txt_22-268  []-suspension  [neg]
+Control Lyrics.txt_23-291  []-positive  []
+Control Lyrics.txt_24-315  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Control Lyrics.txt_1-1  [control,Lyrics,by,quill]  [title]
+Control Lyrics.txt_2-3  [from,the,Album]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Control Lyrics.txt_3-6  [Ihooray,!]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Control Lyrics.txt_4-10  [it,is,a,Deathtrip]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Control Lyrics.txt_5-15  [control]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Control Lyrics.txt_6-21  [what,is,controlling,this,feeling,my,brain]  [provide_expl_just(control,[external,factive,cause,foreground,objective])]
+Control Lyrics.txt_7-28  [hallucination,am]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(go,[external,factive,narration,foreground,objective])]
+Control Lyrics.txt_7-29  [i,going,insane]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,foreground,objective])]
+Control Lyrics.txt_8-37  [who,is,this,fool,inside,of,me,,,i,don-t,know]  [reject_expl_just(know,[external,factive,cause,foreground,objective])]
+Control Lyrics.txt_9-47  [seems,like,i,am,stuck,here,there,is,nowhere,to,go]  [reject_expl_just(there_be,[external,factive,narration,background,objective]),reject_expl_just(go,[external,factive,narration,background,objective]),reject_expl_just(seem,[external,factive,narration,background,objective]),reject_expl_just(stick,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Control Lyrics.txt_10-61  [i,let,myself,go,crazy]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Control Lyrics.txt_11-72  [while,staring,at,the,sun]  [provide_expl_just(stare,[external,factive,narration,foreground,objective])]
+Control Lyrics.txt_12-84  [never,thought,of,retribution]  [reject_expl_just(think,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Control Lyrics.txt_12-85  [,,no]  [reject_expl_just(think,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Control Lyrics.txt_13-98  [inside,this,never,ending,spinning,wheel]  [provide_expl_just(spin,[external,factive,cause,foreground,objective])]
+Control Lyrics.txt_14-112  [i,control,myself]  [provide_expl_just(control,[external,factive,narration,background,objective])]
+Control Lyrics.txt_15-127  [is,a,reason,there,for,going,insane]  [provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Control Lyrics.txt_16-144  [my,own,creator,is,who,i,will,blame,.]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(blame,[external,nonfactive,narration,background,objective])]
+Control Lyrics.txt_16-145  [i,will,blame]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(blame,[external,nonfactive,narration,background,objective])]
+Control Lyrics.txt_17-162  [i,twist]  [reject_expl_just(twist,[external,factive,narration,background,objective]),reject_expl_just(turn,[external,factive,result,background,objective]),propose_opin_neg(turn,[external,factive,result,background,objective]),reject_expl_just(lord,[external,factive,narration,background,objective]),reject_expl_just(need,[external,factive,narration,background,objective])]
+Control Lyrics.txt_17-163  [and,turn,yeah,lord,knows]  [provide_expl_just(twist,[external,factive,narration,background,objective]),provide_expl_just(turn,[external,factive,result,background,objective]),provide_expl_just(lord,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Control Lyrics.txt_17-164  [i,need,a,break]  [reject_expl_just(twist,[external,factive,narration,background,objective]),reject_expl_just(turn,[external,factive,result,background,objective]),propose_opin_neg(turn,[external,factive,result,background,objective]),reject_expl_just(lord,[external,factive,narration,background,objective]),reject_expl_just(need,[external,factive,narration,background,objective])]
+Control Lyrics.txt_18-184  [invite,the,healer,yeah,before,it,is,too,late]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(invite,[external,factive,narration,background,objective])]
+Control Lyrics.txt_19-204  [i,let,myself,go,crazy]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Control Lyrics.txt_20-224  [while,staring,at,the,sun]  [provide_expl_just(stare,[external,factive,narration,foreground,objective])]
+Control Lyrics.txt_21-245  [never,thought,of,retribution]  [reject_expl_just(think,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Control Lyrics.txt_21-246  [,,no]  [reject_expl_just(think,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Control Lyrics.txt_22-268  [inside,this,never,ending,spinning,wheel]  [provide_expl_just(spin,[external,factive,cause,foreground,objective])]
+Control Lyrics.txt_23-291  [i,control,myself]  [provide_expl_just(control,[external,factive,narration,background,objective])]
+Control Lyrics.txt_24-315  [i,control,myself]  [provide_expl_just(control,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Control Lyrics.txt_1-1)-[secondary-restraint]
+2-(Control Lyrics.txt_2-3)-[]
+3-(Control Lyrics.txt_3-6)-[]
+4-(Control Lyrics.txt_4-10)-[]
+5-(Control Lyrics.txt_5-15)-[secondary-restraint]
+6-(Control Lyrics.txt_6-21)-[primary-narcissism]
+7-(Control Lyrics.txt_7-28)-[]
+8-(Control Lyrics.txt_7-29)-[primary-counscious]
+9-(Control Lyrics.txt_8-37)-[primary-concreteness,secondary-abstract_tought]
+10-(Control Lyrics.txt_9-47)-[primary-vision,emotions-affection,primary-concreteness]
+11-(Control Lyrics.txt_10-61)-[primary-counscious]
+12-(Control Lyrics.txt_11-72)-[secondary-temporal_repere,primary-concreteness,primary-fire]
+13-(Control Lyrics.txt_12-84)-[secondary-abstract_tought]
+14-(Control Lyrics.txt_12-85)-[]
+15-(Control Lyrics.txt_13-98)-[primary-concreteness]
+half
+16-(Control Lyrics.txt_14-112)-[secondary-restraint]
+17-(Control Lyrics.txt_15-127)-[secondary-abstract_tought,primary-counscious]
+18-(Control Lyrics.txt_16-144)-[emotions-aggression]
+19-(Control Lyrics.txt_16-145)-[emotions-aggression]
+20-(Control Lyrics.txt_17-162)-[primary-random_movement]
+21-(Control Lyrics.txt_17-163)-[secondary-abstract_tought]
+22-(Control Lyrics.txt_17-164)-[emotions-aggression]
+23-(Control Lyrics.txt_18-184)-[secondary-social_behavior]
+24-(Control Lyrics.txt_19-204)-[primary-counscious]
+25-(Control Lyrics.txt_20-224)-[secondary-temporal_repere,primary-concreteness,primary-fire]
+26-(Control Lyrics.txt_21-245)-[secondary-abstract_tought]
+27-(Control Lyrics.txt_21-246)-[]
+28-(Control Lyrics.txt_22-268)-[primary-concreteness]
+29-(Control Lyrics.txt_23-291)-[secondary-restraint]
+30-(Control Lyrics.txt_24-315)-[secondary-restraint]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Control Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-quill-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,control,sn1),def_prop(quill,[animato,oggetto,strumento]),def_prop(Lyrics,[informa,tecno])])
+lf(Control Lyrics.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Control Lyrics.txt_3,6,cl3-nil-nil-say-[obj-theme_unaff-Ihooray-sn1,def_prop(Ihooray,[istituzione])])
+lf(Control Lyrics.txt_4,10,cl4-nil-nil-be-[xcomp-prop-Deathtrip-sn2,subj-theme_bound-it-sn1,def_prop(Deathtrip,[istituzione,umano]),def_prop(it,[any])])
+lf(Control Lyrics.txt_5,15,cl5-nil-nil-say-[obj-theme_unaff-control-sn1,def_prop(control,[astratto,attivita,informa,oggetto,relat,strumento,umano])])
+lf(Control Lyrics.txt_6,21,cl6-nil-nil-control-[aux-(is)-nil,progr-controlling-nil])
+lf(Control Lyrics.txt_7,28,cl8-nil-nil-go-[xcomp-prop-insane-sn3,subj-agent-i-sn2,def_prop(insane,[evaluative]),def_prop(i,[umano])])
+lf(Control Lyrics.txt_7,28,cl7-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Control Lyrics.txt_8,37,cl10-not-nil-know-[subj-actor-i-sn7,aux-do-nil,def_prop(i,[umano])])
+lf(Control Lyrics.txt_8,37,cl9-nil-nil-be-[xcomp-prop-inside-sn3,subj-theme_bound-fool-sn2,subj-theme_bound-fool-sn1,and(fool,this,sn2),and(fool,this,sn1),def_prop(inside,[luogo]),def_prop(fool,[attivita,plant,stato,umano]),def_prop(fool,[attivita,plant,stato,umano])])
+lf(Control Lyrics.txt_9,47,4-nil-nil-go-[subj-agent-go-4,subj-agent-you-sn7,subj-prop-there-sn6,def_prop(you,[umano]),def_prop(there,[any])])
+lf(Control Lyrics.txt_9,47,cl13-nil-nil-be-[])
+lf(Control Lyrics.txt_9,47,cl12-nil-nil-stick-[aux-am-nil])
+lf(Control Lyrics.txt_9,47,cl11-nil-nil-seem-[subj-actor-i-sn2,subj-actor-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Control Lyrics.txt_10,61,cl14-nil-nil-go-[xcomp-prop-crazy-sn3,obj-theme_unaff-myself-sn2,xcomp-purpose-let-2,subj-agent-i-sn1,def_prop(crazy,[valutativo]),def_prop(myself,[umano]),def_prop(i,[umano])])
+lf(Control Lyrics.txt_11,72,cl15-nil-nil-stare-[iobj-goal-sun-sn2,subj-agent-you-sn1,def_prop(sun,[oggetto,umano]),def_prop(you,[umano])])
+lf(Control Lyrics.txt_12,84,cl17-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Control Lyrics.txt_12,84,cl16-nil-nil-think-[iobj-theme_unaff-retribution-sn2,subj-agent-you-sn1,def_prop(retribution,[astratto,attivita,oggetto]),def_prop(you,[umano])])
+lf(Control Lyrics.txt_13,98,cl18-nil-nil-spin-[subj-agent-wheel-sn1,def_prop(wheel,[oggetto,strumento])])
+lf(Control Lyrics.txt_14,112,cl19-nil-nil-control-[obj-theme_unaff-myself-sn2,subj-agent-i-sn1,def_prop(myself,[umano]),def_prop(i,[umano])])
+lf(Control Lyrics.txt_15,127,cl21-nil-nil-go-[obj-prop-insane-sn3,xcomp-purpose-go-4,def_prop(insane,[evaluative])])
+lf(Control Lyrics.txt_15,127,cl20-nil-nil-be-[adj-subj_disc-there-sn2,subj-theme_bound-reason-sn1,def_prop(there,[istituzione]),def_prop(reason,[astratto,attivita,informa])])
+lf(Control Lyrics.txt_16,144,cl23-nil-will-blame-[subj-agent-you-sn6,def_prop(you,[umano])])
+lf(Control Lyrics.txt_16,144,cl22-nil-nil-be-[subj-theme_bound-creator-sn1,and(creator,own,sn1),def_prop(creator,[umano])])
+lf(Control Lyrics.txt_17,162,cl28-nil-nil-need-[obj-theme-break-sn7,subj-experiencer-i-sn6,cmod-subord-need-",def_prop(break,[attivita,evento]),def_prop(i,[umano])])
+lf(Control Lyrics.txt_17,162,cl27-nil-nil-know-[])
+lf(Control Lyrics.txt_17,162,cl26-nil-nil-lord-[])
+lf(Control Lyrics.txt_17,162,cl25-nil-nil-turn-[adj-subj_disc-yeah-sn3,subj-agent-you-sn2,def_prop(yeah,[istituzione]),def_prop(you,[umano])])
+lf(Control Lyrics.txt_17,162,cl24-nil-nil-twist-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Control Lyrics.txt_18,184,cl30-nil-nil-be-[xcomp-result-late-sn4,xcomp-purpose-be-3,def_prop(late,[evaluative])])
+lf(Control Lyrics.txt_18,184,cl29-nil-nil-invite-[adj-(mod)-too-nil,adj-(mod)-before-nil,adj-subj_disc-too-sn6,adj-subj_disc-before-sn5,subj-sn1-it-sn3,obj-theme-healer-sn2,subj-agent-you-sn1,and(before,yeah,sn8),and(before,yeah,sn5),and(before,yeah,sn5),def_prop(too,[istituzione]),def_prop(before,[istituzione]),def_prop(too,[istituzione]),def_prop(before,[istituzione]),def_prop(it,[any]),def_prop(healer,[relat,sociale,umano]),def_prop(you,[umano])])
+lf(Control Lyrics.txt_19,204,cl31-nil-nil-go-[xcomp-prop-crazy-sn3,obj-theme_unaff-myself-sn2,xcomp-purpose-let-2,subj-agent-i-sn1,def_prop(crazy,[valutativo]),def_prop(myself,[umano]),def_prop(i,[umano])])
+lf(Control Lyrics.txt_20,224,cl32-nil-nil-stare-[iobj-goal-sun-sn2,subj-agent-you-sn1,def_prop(sun,[oggetto,umano]),def_prop(you,[umano])])
+lf(Control Lyrics.txt_21,245,cl34-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Control Lyrics.txt_21,245,cl33-nil-nil-think-[iobj-theme_unaff-retribution-sn2,subj-agent-you-sn1,def_prop(retribution,[astratto,attivita,oggetto]),def_prop(you,[umano])])
+lf(Control Lyrics.txt_22,268,cl35-nil-nil-spin-[subj-agent-wheel-sn1,def_prop(wheel,[oggetto,strumento])])
+lf(Control Lyrics.txt_23,291,cl36-nil-nil-control-[obj-theme_unaff-myself-sn2,subj-agent-i-sn1,def_prop(myself,[umano]),def_prop(i,[umano])])
+lf(Control Lyrics.txt_24,315,cl37-nil-nil-control-[obj-theme_unaff-myself-sn2,subj-agent-i-sn1,def_prop(myself,[umano]),def_prop(i,[umano])])

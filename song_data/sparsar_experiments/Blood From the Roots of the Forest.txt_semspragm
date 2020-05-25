@@ -1,0 +1,131 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Blood From the Roots of the Forest.txt_1-1  []-negative  []
+Blood From the Roots of the Forest.txt_2-3  []-negative  [neg]
+Blood From the Roots of the Forest.txt_3-6  [(as)-temp_coinc,so-result]-positive  [fgb,neg]
+Blood From the Roots of the Forest.txt_4-10  []-suspension  [neg,neg]
+Blood From the Roots of the Forest.txt_5-15  [yet-conc]-positive  []
+Blood From the Roots of the Forest.txt_6-21  []-positive  []
+Blood From the Roots of the Forest.txt_6-22  []-suspension  []
+Blood From the Roots of the Forest.txt_7-29  []-negative  []
+Blood From the Roots of the Forest.txt_8-37  [so-result,when-temp_coinc]-suspension  [fgb,neg,fhd,neg]
+Blood From the Roots of the Forest.txt_9-46  []-suspension  [neg]
+Blood From the Roots of the Forest.txt_10-56  []-negative  []
+Blood From the Roots of the Forest.txt_11-67  []-positive  [fhd]
+Blood From the Roots of the Forest.txt_12-79  [but-advers]-positive  [fgb]
+Blood From the Roots of the Forest.txt_13-92  [so-result]-suspension  [neg,fgb,neg,neg]
+Blood From the Roots of the Forest.txt_14-106  []-positive  []
+Blood From the Roots of the Forest.txt_15-121  []-positive  []
+Blood From the Roots of the Forest.txt_16-137  []-negative  []
+Blood From the Roots of the Forest.txt_17-154  []-negative  []
+Blood From the Roots of the Forest.txt_18-173  []-positive  []
+Blood From the Roots of the Forest.txt_19-192  []-positive  []
+Blood From the Roots of the Forest.txt_20-212  []-positive  []
+Blood From the Roots of the Forest.txt_21-234  []-positive  [neg]
+Blood From the Roots of the Forest.txt_22-257  []-negative  [neg]
+Blood From the Roots of the Forest.txt_23-280  [though-advers]-positive  []
+Blood From the Roots of the Forest.txt_24-304  []-negative  [neg]
+Blood From the Roots of the Forest.txt_25-329  []-positive  []
+Blood From the Roots of the Forest.txt_25-329  []-positive  []
+Blood From the Roots of the Forest.txt_25-330  [but-advers]-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Blood From the Roots of the Forest.txt_1-1  [blood,from,the,roots,of,the,forest,by,Xasthur]  [title]
+Blood From the Roots of the Forest.txt_2-3  [Elizabeth,christened,no,paler,a,rose]  [reject_expl_just(christen,[external,factive,narration,foreground,objective])]
+Blood From the Roots of the Forest.txt_3-6  [grew,so,dark,as,this,sylph]  [provide_expl_just(grow,[external,factive,cause,foreground,objective])]
+Blood From the Roots of the Forest.txt_4-10  [more,none,cold,in,repose]  [provide_expl_just(repose,[external,factive,narration,background,objective])]
+Blood From the Roots of the Forest.txt_5-15  [yet,her,beauty,spun,webs]  [provide_expl_just(span,[external,factive,narration,foreground,objective])]
+Blood From the Roots of the Forest.txt_6-21  [round,hearts]  [provide_expl_just(hearts,[external,factive,narration,background,objective]),provide_expl_just(betroth,[external,nonfactive,narration,background,objective])]
+Blood From the Roots of the Forest.txt_6-22  [a,glance,would,betroth]  [provide_expl_just(hearts,[external,factive,narration,background,objective]),provide_expl_just(betroth,[external,nonfactive,narration,background,objective])]
+Blood From the Roots of the Forest.txt_7-29  [she,feared,the,light]  [provide_expl_just(fear,[external,factive,narration,foreground,objective])]
+Blood From the Roots of the Forest.txt_8-37  [so,when,she,fell,like,a,sinner,to,vice]  [provide_expl_just(fall,[external,factive,cause,foreground,objective])]
+Blood From the Roots of the Forest.txt_9-46  [under,austere,puritanical,rule]  [provide_expl_just(rule,[external,factive,narration,background,objective])]
+Blood From the Roots of the Forest.txt_10-56  [she,sacrificed]  reject_expl_opin(nil,[])
+Blood From the Roots of the Forest.txt_11-67  [mandragora,like,virgins,to,rats,in,the,wall]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Blood From the Roots of the Forest.txt_12-79  [but,after,whipangels,prisoners,thralled,licked]  [provide_expl_just(lick,[external,factive,narration,foreground,objective])]
+Blood From the Roots of the Forest.txt_13-92  [never,were,her,dreams,so,maniacally,cruel]  [suggest(be,[_1348974,_1348980,statement,background,_1348998])]
+Blood From the Roots of the Forest.txt_14-106  [for,ravens,winged,her,nightly,flights]  [provide_expl_just(wing,[external,factive,narration,foreground,objective])]
+Blood From the Roots of the Forest.txt_15-121  [of,erotica]  [raise_issue(be,[_1349660,factive,statement,_1349678,subjective])]
+Blood From the Roots of the Forest.txt_16-137  [half,spurned,from,the,pulpit]  [provide_expl_just(spurn,[external,factive,cause,foreground,objective])]
+Blood From the Roots of the Forest.txt_17-154  [torments,to,occur]  [provide_expl_just(torment,[external,factive,narration,background,objective]),provide_expl_just(occur,[external,factive,narration,background,objective])]
+Blood From the Roots of the Forest.txt_18-173  [half,learnt,from,the,cabal,of,demons]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Blood From the Roots of the Forest.txt_19-192  [in,her]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Blood From the Roots of the Forest.txt_20-212  [her,walk,went,to,voodoo]  [provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(voodoo,[external,factive,narration,background,objective])]
+Blood From the Roots of the Forest.txt_21-234  [to,see,her,own,shadow,adored]  [provide_expl_just(adore,[external,factive,narration,foreground,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Blood From the Roots of the Forest.txt_22-257  [at,mass,without,flaw]  [reject_expl_just(flaw,[external,factive,narration,background,objective])]
+Blood From the Roots of the Forest.txt_23-280  [though,inwards,she,abhored]  [provide_expl_just(abhor,[external,factive,narration,foreground,objective])]
+Blood From the Roots of the Forest.txt_24-304  [not,her,coven,of,suitors]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Blood From the Roots of the Forest.txt_25-329  [!]  [provide_expl_just(lord,[internal,factive,narration,foreground,objective])]
+Blood From the Roots of the Forest.txt_25-329  [!]  [provide_expl_just(lord,[internal,factive,narration,foreground,objective])]
+Blood From the Roots of the Forest.txt_25-330  [but,the,stare,of,their,lord]  [provide_expl_just(lord,[internal,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Blood From the Roots of the Forest.txt_1-1)-[primary-narcissism,primary-depth]
+2-(Blood From the Roots of the Forest.txt_2-3)-[]
+3-(Blood From the Roots of the Forest.txt_3-6)-[primary-height]
+4-(Blood From the Roots of the Forest.txt_4-10)-[primary-cold,primary-passivity]
+5-(Blood From the Roots of the Forest.txt_5-15)-[primary-gen_sensation]
+6-(Blood From the Roots of the Forest.txt_6-21)-[primary-concreteness,primary-narcissism]
+7-(Blood From the Roots of the Forest.txt_6-22)-[primary-vision]
+8-(Blood From the Roots of the Forest.txt_7-29)-[emotions-anxiety,primary-vision]
+9-(Blood From the Roots of the Forest.txt_8-37)-[secondary-temporal_repere,primary-descent,emotions-affection]
+10-(Blood From the Roots of the Forest.txt_9-46)-[primary-depth]
+11-(Blood From the Roots of the Forest.txt_10-56)-[]
+12-(Blood From the Roots of the Forest.txt_11-67)-[emotions-affection,primary-brink]
+13-(Blood From the Roots of the Forest.txt_12-79)-[primary-orality]
+14-(Blood From the Roots of the Forest.txt_13-92)-[primary-counscious,emotions-aggression]
+half
+15-(Blood From the Roots of the Forest.txt_14-106)-[primary-ascend,primary-ascend]
+16-(Blood From the Roots of the Forest.txt_15-121)-[primary-sex]
+17-(Blood From the Roots of the Forest.txt_16-137)-[emotions-aggression]
+18-(Blood From the Roots of the Forest.txt_17-154)-[emotions-aggression]
+19-(Blood From the Roots of the Forest.txt_18-173)-[secondary-abstract_tought]
+20-(Blood From the Roots of the Forest.txt_19-192)-[]
+21-(Blood From the Roots of the Forest.txt_20-212)-[]
+22-(Blood From the Roots of the Forest.txt_21-234)-[primary-vision,primary-diffusion]
+23-(Blood From the Roots of the Forest.txt_22-257)-[primary-concreteness]
+24-(Blood From the Roots of the Forest.txt_23-280)-[emotions-aggression]
+25-(Blood From the Roots of the Forest.txt_24-304)-[]
+26-(Blood From the Roots of the Forest.txt_25-329)-[]
+27-(Blood From the Roots of the Forest.txt_25-329)-[]
+28-(Blood From the Roots of the Forest.txt_25-330)-[primary-vision]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Blood From the Roots of the Forest.txt_1,1,cl1-nil-nil-blood-[arg_mod-agent-Xasthur-sn3,ncmod-loc_origin-root-sn2,subj-agent-you-sn1,def_prop(Xasthur,[istituzione,umano]),def_prop(root,[attivita,body_part,informa,nquant,plant,umano]),def_prop(you,[umano])])
+lf(Blood From the Roots of the Forest.txt_2,3,cl2-nil-nil-christen-[xcomp-prop-paler-sn2,subj-actor-Elizabeth-sn1,and(paler,no,sn2),def_prop(paler,[istituzione]),def_prop(Elizabeth,[place,umano])])
+lf(Blood From the Roots of the Forest.txt_3,6,cl3-nil-nil-grow-[obj-theme-sylph-sn2,subj-theme_bound-you-sn1,def_prop(sylph,[umano]),def_prop(you,[umano])])
+lf(Blood From the Roots of the Forest.txt_4,10,cl4-nil-nil-repose-[ncmod-modal-none-sn2,subj-actor-you-sn1,def_prop(none,[_1360278]),def_prop(you,[umano])])
+lf(Blood From the Roots of the Forest.txt_5,15,cl5-nil-nil-span-[adj-(mod)-yet-nil,obj-theme1-web-sn2,subj-agent-beauty-sn1,def_prop(web,[animato,oggetto,strumento]),def_prop(beauty,[astratto,umano])])
+lf(Blood From the Roots of the Forest.txt_6,21,cl6-nil-would-betroth-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Blood From the Roots of the Forest.txt_6,21,nil-nil-nil-hearts-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Blood From the Roots of the Forest.txt_7,29,cl7-nil-nil-fear-[obj-causer_emot-light-sn2,subj-experiencer-she-sn1,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(she,[umano])])
+lf(Blood From the Roots of the Forest.txt_8,37,cl8-nil-nil-fall-[cmod-subord-fall-when,obj-theme_aff-sinner-sn2,subj-agent-she-sn1,and(sinner,vice,sn2),def_prop(sinner,[umano]),def_prop(she,[umano])])
+lf(Blood From the Roots of the Forest.txt_9,46,cl9-nil-nil-rule-[ncmod-modal-austere-sn2,subj-agent-puritanical-sn1,def_prop(austere,[evaluative]),def_prop(puritanical,[evaluative])])
+lf(Blood From the Roots of the Forest.txt_10,56,cl10-nil-nil-sacrifice-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Blood From the Roots of the Forest.txt_11,67,cl11-nil-nil-be-[ncmod-locativo-wall-sn4,ncmod-goal-rat-sn3,subj-theme_bound-virgin-sn2,subj-theme_bound-virgin-sn1,and(virgin,mandragora,sn1),def_prop(wall,[body_part,oggetto,stato,strumento,umano]),def_prop(rat,[animato,oggetto,strumento,umano]),def_prop(virgin,[plant,umano]),def_prop(virgin,[plant,umano])])
+lf(Blood From the Roots of the Forest.txt_12,79,cl12-nil-nil-lick-[ncmod-temporale-whipangels-sn2,subj-agent-prisoner-sn1,def_prop(whipangels,[istituzione]),def_prop(prisoner,[attivita,umano])])
+lf(Blood From the Roots of the Forest.txt_13,92,cl13-nil-nil-be-[xcomp-theme-cruel-sn4,adj-subj_disc-maniacally-sn3,adj-subj_disc-never-sn2,subj-theme_bound-dream-sn1,def_prop(cruel,[evaluative]),def_prop(maniacally,[istituzione]),def_prop(never,[istituzione]),def_prop(dream,[astratto,stato])])
+lf(Blood From the Roots of the Forest.txt_14,106,cl14-nil-nil-wing-[obj-theme-flight-sn2,subj-agent-raven-sn1,and(flight,nightly,sn2),def_prop(flight,[astratto,attivita,istituzione,oggetto,strumento]),def_prop(raven,[animato])])
+lf(Blood From the Roots of the Forest.txt_15,121,cl15-nil-nil-say-[ncmod-specif-erotica-sn1,def_prop(erotica,[informa,tecno])])
+lf(Blood From the Roots of the Forest.txt_16,137,cl16-nil-nil-spurn-[ncmod-loc_origin-pulpit-sn2,subj-theme-half-sn1,def_prop(pulpit,[oggetto,strumento]),def_prop(half,[valutativo])])
+lf(Blood From the Roots of the Forest.txt_17,154,cl18-nil-nil-occur-[])
+lf(Blood From the Roots of the Forest.txt_17,154,cl17-nil-nil-torment-[subj-cause-you-sn1,def_prop(you,[umano])])
+lf(Blood From the Roots of the Forest.txt_18,173,cl19-nil-nil-be-[ncmod-loc_origin-cabal-sn1,def_prop(cabal,[istituzione])])
+lf(Blood From the Roots of the Forest.txt_19,192,cl20-nil-nil-say-[ncmod-locativo-her-sn1,def_prop(her,[umano])])
+lf(Blood From the Roots of the Forest.txt_20,212,nil-nil-nil-voodoo-[subj-theme-walk-sn1,def_prop(walk,[astratto,attivita,oggetto,strumento])])
+lf(Blood From the Roots of the Forest.txt_20,212,cl21-nil-nil-go-[subj-agent-walk-sn1,def_prop(walk,[astratto,attivita,oggetto,strumento])])
+lf(Blood From the Roots of the Forest.txt_21,234,cl23-nil-nil-adore-[subj-agent-shadow-sn1,and(shadow,own,sn1),def_prop(shadow,[astratto,emotivo,stato,umano])])
+lf(Blood From the Roots of the Forest.txt_21,234,cl22-nil-nil-see-[subj-actor-shadow-sn1,and(shadow,own,sn1),def_prop(shadow,[astratto,emotivo,stato,umano])])
+lf(Blood From the Roots of the Forest.txt_22,257,nil-nil-nil-flaw-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Blood From the Roots of the Forest.txt_23,280,cl24-nil-nil-abhor-[subj-actor-she-sn1,def_prop(she,[umano])])
+lf(Blood From the Roots of the Forest.txt_24,304,cl25-not-nil-be-[subj-theme_bound-coven-sn1,def_prop(coven,[istituzione])])
+lf(Blood From the Roots of the Forest.txt_25,329,cl26-nil-nil-lord-[ncmod-specif-their-sn2,subj-agent-you-sn1,def_prop(their,[evaluative]),def_prop(you,[umano])])

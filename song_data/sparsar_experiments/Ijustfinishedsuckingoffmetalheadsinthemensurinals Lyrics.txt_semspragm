@@ -1,0 +1,48 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_1-1  []-positive  []
+Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_2-3  []-positive  []
+Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_3-6  []-positive  []
+Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_4-11  []-positive  []
+Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_4-12  []-positive  []
+Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_5-18  []-positive  []
+Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_6-24  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_1-1  [ijustfinishedsuckingoffmetalheadsinthemensurinals,Lyrics,by,Blood,Duster]  [title]
+Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_2-3  [i,have,been,in,the,urinals,all,night]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_3-6  [sucking,off,metal-heads,is,a,delight,such]  [provide_expl_just(suck,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_4-11  [i,love,to,taste]  [provide_expl_just(run,[external,factive,cause,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective])]
+Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_4-12  [the,sperm,running,down,ma,neck]  [provide_expl_just(run,[external,factive,cause,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective])]
+Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_5-18  [just_before,i,go,onstage]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_6-24  [it,is,better,than,a,Becks]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_1-1)-[]
+2-(Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_2-3)-[]
+3-(Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_3-6)-[primary-concreteness,emotions-positive_affect]
+half
+4-(Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_4-11)-[emotions-affection,primary-taste]
+5-(Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_4-12)-[primary-narcissism]
+6-(Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_5-18)-[]
+7-(Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_6-24)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Duster-sn2,subj-theme_bound-Lyrics-sn1,and(Duster,Blood,sn2),and(Lyrics,ijustfinishedsuckingoffmetalheadsinthemensurinals,sn1),def_prop(Duster,[place,attivita,oggetto,strumento,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_2,3,cl2-nil-nil-be-[adj-temporal-night-nil,ncmod-locativo-urinal-sn2,subj-theme_bound-i-sn1,and(night,all,sn3),def_prop(night,[tempo]),def_prop(urinal,[oggetto,strumento]),def_prop(i,[umano])])
+lf(Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_3,6,cl4-nil-nil-be-[adj-(mod)-such-nil,xcomp-purpose-suck-2,subj-theme_bound-delight-sn1,def_prop(delight,[emotivo])])
+lf(Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_3,6,cl3-nil-nil-suck-[ncmod-theme-metal-heads-sn2,def_prop(metal-heads,[umano])])
+lf(Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_4,11,cl7-nil-nil-run-[obj-theme_aff-neck-sn4,obj-theme_aff-ma-sn3,subj-theme_aff-sperm-sn2,and(ma,down,sn3),def_prop(neck,[body_part,edible,oggetto,strumento,umano]),def_prop(ma,[umano]),def_prop(sperm,[body_part,umano])])
+lf(Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_4,11,cl6-nil-nil-taste-[subj-prop-i-sn1,def_prop(i,[umano])])
+lf(Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_4,11,cl5-nil-nil-love-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_5,18,cl8-nil-nil-go-[xcomp-prop-onstage-sn2,subj-agent-i-sn1,def_prop(onstage,[istituzione,umano]),def_prop(i,[umano])])
+lf(Ijustfinishedsuckingoffmetalheadsinthemensurinals Lyrics.txt_6,24,cl9-nil-nil-be-[xcomp-prop-better-sn2,subj-theme_bound-it-sn1,def_prop(better,[valutativo]),def_prop(it,[any])])

@@ -1,0 +1,60 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Jello and Juggernauts Lyrics.txt_1-1  []-positive  [fgb]
+Jello and Juggernauts Lyrics.txt_2-3  []-positive  [fhd]
+Jello and Juggernauts Lyrics.txt_3-6  []-negative  []
+Jello and Juggernauts Lyrics.txt_3-7  []-positive  []
+Jello and Juggernauts Lyrics.txt_4-12  []-negative  [neg,fgb,neg]
+Jello and Juggernauts Lyrics.txt_5-17  []-positive  [fgb,neg]
+Jello and Juggernauts Lyrics.txt_6-23  [when-temp_coinc]-positive  []
+Jello and Juggernauts Lyrics.txt_7-30  []-question  []
+Jello and Juggernauts Lyrics.txt_8-39  []-negative  [neg,fgb,neg]
+Jello and Juggernauts Lyrics.txt_9-48  []-positive  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Jello and Juggernauts Lyrics.txt_1-1  [jello,and,Juggernauts,Lyrics,by,Unknown,Mortal,Orchestra]  [title]
+Jello and Juggernauts Lyrics.txt_2-3  [looks,like,a,bag,of,cheetos,exploded]  [provide_expl_just(like,[external,factive,explanation,background,objective])]
+Jello and Juggernauts Lyrics.txt_3-6  [they,don-t,wear,plate,armor,just,to,stand]  [propose_opin_neg(pace,[external,factive,explanation,background,objective]),provide_expl_just(wear,[external,factive,narration,foreground,objective]),propose_opin_neg(stand,[external,factive,explanation,background,objective])]
+Jello and Juggernauts Lyrics.txt_3-7  [twenty,paces,away]  [provide_expl_just(pace,[external,factive,explanation,background,objective]),provide_expl_just(wear,[external,factive,narration,foreground,objective]),provide_expl_just(stand,[external,factive,explanation,background,objective])]
+Jello and Juggernauts Lyrics.txt_4-12  [fears,and,judgements,i,will,never,understand]  [reject_expl_just(understand,[external,nonfactive,narration,background,objective])]
+Jello and Juggernauts Lyrics.txt_5-17  [jello,and,Juggernauts,quicken,my,heavy,hand]  [provide_expl_just(quicken,[external,factive,narration,background,objective])]
+Jello and Juggernauts Lyrics.txt_6-23  [when,is,the,pen,mightier,than,the,sword]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Jello and Juggernauts Lyrics.txt_7-30  [floor,the,off,up,getting,for,ambitious,you,are,?]  [provide_expl_just(get,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Jello and Juggernauts Lyrics.txt_8-39  [fears,and,judgements,i,will,never,understand]  [reject_expl_just(understand,[external,nonfactive,narration,background,objective])]
+Jello and Juggernauts Lyrics.txt_9-48  [jello,and,Juggernauts,quicken,my,heavy,hand]  [provide_expl_just(quicken,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Jello and Juggernauts Lyrics.txt_1-1)-[]
+2-(Jello and Juggernauts Lyrics.txt_2-3)-[primary-vision,emotions-affection]
+3-(Jello and Juggernauts Lyrics.txt_3-6)-[primary-narcissism]
+4-(Jello and Juggernauts Lyrics.txt_3-7)-[primary-concreteness]
+5-(Jello and Juggernauts Lyrics.txt_4-12)-[emotions-anxiety,secondary-abstract_tought]
+half
+6-(Jello and Juggernauts Lyrics.txt_5-17)-[secondary-temporal_repere,primary-narcissism]
+7-(Jello and Juggernauts Lyrics.txt_6-23)-[secondary-temporal_repere,emotions-aggression]
+8-(Jello and Juggernauts Lyrics.txt_7-30)-[primary-brink,primary-concreteness]
+9-(Jello and Juggernauts Lyrics.txt_8-39)-[emotions-anxiety,secondary-abstract_tought]
+10-(Jello and Juggernauts Lyrics.txt_9-48)-[secondary-temporal_repere,primary-narcissism]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Jello and Juggernauts Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Unknown-sn3,subj-theme_bound-Lyrics-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,female,sn1),and(Lyrics,jello,sn1),def_prop(Unknown,[istituzione]),def_prop(Lyrics,[informa,tecno]),def_prop(Lyrics,[informa,tecno])])
+lf(Jello and Juggernauts Lyrics.txt_2,3,nil-nil-nil-like-[xcomp-prop-exploded-sn3,obj-tema_emot-bag-sn2,subj-experiencer-look-sn1,and(bag,cheetos,sn2),def_prop(exploded,[evaluative]),def_prop(bag,[nquant,oggetto,strumento,umano]),def_prop(look,[astratto,attivita])])
+lf(Jello and Juggernauts Lyrics.txt_3,6,cl4-nil-nil-pace-[xcomp-prop-away-sn6,subj-agent-twenty-sn5,def_prop(away,[evaluative]),def_prop(twenty,[nquant])])
+lf(Jello and Juggernauts Lyrics.txt_3,6,cl3-nil-nil-stand-[subj-locativo-armor-sn2,and(armor,plate,sn2),def_prop(armor,[animato,istituzione,oggetto,strumento])])
+lf(Jello and Juggernauts Lyrics.txt_3,6,cl2-not-nil-wear-[adj-(mod)-just-nil,obj-theme_unaff-armor-sn2,subj-experiencer-they-sn1,aux-do-nil,and(armor,plate,sn2),def_prop(armor,[animato,istituzione,oggetto,strumento]),def_prop(they,[umano])])
+lf(Jello and Juggernauts Lyrics.txt_4,12,cl5-nil-will-understand-[subj-actor-i-sn2,subj-actor-i-sn1,neg-never-nil,and(i,judgement,sn1),and(i,fear,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Jello and Juggernauts Lyrics.txt_5,17,cl6-nil-nil-quicken-[])
+lf(Jello and Juggernauts Lyrics.txt_6,23,cl7-nil-nil-be-[xcomp-prop-mightier-sn3,xcomp-theme-when-sn2,subj-theme_bound-pen-sn1,def_prop(mightier,[evaluative]),def_prop(when,[tempo]),def_prop(pen,[animato,oggetto,strumento])])
+lf(Jello and Juggernauts Lyrics.txt_7,30,cl9-nil-nil-get-[adj-(mod)-be-nil,cmod-subord-be-nil,ncmod-locativo-floor-sn4,obj-paziente-up-sn3,xcomp-purpose-get-4,def_prop(floor,[astratto,attivita,informa,oggetto,strumento]),def_prop(up,[istituzione])])
+lf(Jello and Juggernauts Lyrics.txt_7,30,cl8-nil-nil-be-[xcomp-prop-ambitious-sn2,subj-theme_bound-you-sn1,def_prop(ambitious,[evaluative]),def_prop(you,[umano])])
+lf(Jello and Juggernauts Lyrics.txt_8,39,cl10-nil-will-understand-[subj-actor-i-sn2,subj-actor-i-sn1,neg-never-nil,and(i,judgement,sn1),and(i,fear,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Jello and Juggernauts Lyrics.txt_9,48,cl11-nil-nil-quicken-[])

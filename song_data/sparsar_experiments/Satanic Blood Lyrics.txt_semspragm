@@ -1,0 +1,86 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Satanic Blood Lyrics.txt_1-1  []-positive  []
+Satanic Blood Lyrics.txt_2-3  []-positive  []
+Satanic Blood Lyrics.txt_3-6  []-positive  []
+Satanic Blood Lyrics.txt_4-10  []-positive  []
+Satanic Blood Lyrics.txt_5-15  []-negative  [neg]
+Satanic Blood Lyrics.txt_6-21  []-positive  []
+Satanic Blood Lyrics.txt_7-28  []-positive  []
+Satanic Blood Lyrics.txt_8-36  []-positive  []
+Satanic Blood Lyrics.txt_9-45  []-negative  [neg]
+Satanic Blood Lyrics.txt_10-55  []-positive  []
+Satanic Blood Lyrics.txt_11-66  []-positive  []
+Satanic Blood Lyrics.txt_12-78  []-positive  []
+Satanic Blood Lyrics.txt_13-91  []-positive  []
+Satanic Blood Lyrics.txt_14-105  []-positive  []
+Satanic Blood Lyrics.txt_15-120  []-positive  []
+Satanic Blood Lyrics.txt_16-136  []-positive  []
+Satanic Blood Lyrics.txt_17-153  []-negative  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Satanic Blood Lyrics.txt_1-1  [satanic,Blood,Lyrics,by,VON]  [title]
+Satanic Blood Lyrics.txt_2-3  [praise,Satan]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Satanic Blood Lyrics.txt_3-6  [satan,fertile]  [raise_issue(be,[_31974,factive,statement,_31992,subjective])]
+Satanic Blood Lyrics.txt_4-10  [woman-s,egg]  [provide_expl_just(egg,[external,factive,narration,background,objective])]
+Satanic Blood Lyrics.txt_5-15  [need,to,cut]  [reject_expl_just(cut,[external,factive,narration,background,objective])]
+Satanic Blood Lyrics.txt_6-21  [her,own,skin]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Satanic Blood Lyrics.txt_7-28  [son,of,Satan]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Satanic Blood Lyrics.txt_8-36  [within,womb]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Satanic Blood Lyrics.txt_9-45  [need,to,cut]  [reject_expl_just(cut,[external,factive,narration,background,objective])]
+Satanic Blood Lyrics.txt_10-55  [her,own,skin]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Satanic Blood Lyrics.txt_11-66  [with,a,razor]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Satanic Blood Lyrics.txt_12-78  [a,word,spells]  [provide_expl_just(spell,[external,factive,narration,background,objective])]
+Satanic Blood Lyrics.txt_13-91  [within,the,chest]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Satanic Blood Lyrics.txt_14-105  [a,single,word]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Satanic Blood Lyrics.txt_15-120  [carved,in,deep]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Satanic Blood Lyrics.txt_16-136  [through,the,skin]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Satanic Blood Lyrics.txt_17-153  [bleeds,the,word]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Satanic Blood Lyrics.txt_1-1)-[]
+2-(Satanic Blood Lyrics.txt_2-3)-[]
+3-(Satanic Blood Lyrics.txt_3-6)-[]
+4-(Satanic Blood Lyrics.txt_4-10)-[primary-orality]
+5-(Satanic Blood Lyrics.txt_5-15)-[emotions-aggression]
+6-(Satanic Blood Lyrics.txt_6-21)-[primary-narcissism]
+7-(Satanic Blood Lyrics.txt_7-28)-[]
+8-(Satanic Blood Lyrics.txt_8-36)-[primary-concreteness,primary-sex]
+half
+9-(Satanic Blood Lyrics.txt_9-45)-[emotions-aggression]
+10-(Satanic Blood Lyrics.txt_10-55)-[primary-narcissism]
+11-(Satanic Blood Lyrics.txt_11-66)-[]
+12-(Satanic Blood Lyrics.txt_12-78)-[]
+13-(Satanic Blood Lyrics.txt_13-91)-[primary-concreteness,primary-narcissism]
+14-(Satanic Blood Lyrics.txt_14-105)-[emotions-expressive_beh]
+15-(Satanic Blood Lyrics.txt_15-120)-[primary-depth]
+16-(Satanic Blood Lyrics.txt_16-136)-[primary-narcissism]
+17-(Satanic Blood Lyrics.txt_17-153)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Satanic Blood Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-von-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Blood,sn1),and(Lyrics,satanic,sn1),def_prop(von,[legale]),def_prop(Lyrics,[informa,tecno])])
+lf(Satanic Blood Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-Satan-sn1,and(Satan,praise,sn1),def_prop(Satan,[umano])])
+lf(Satanic Blood Lyrics.txt_3,6,cl3-nil-nil-say-[obj-theme_unaff-satan-sn1,def_prop(satan,[informa,tecno])])
+lf(Satanic Blood Lyrics.txt_4,10,cl4-nil-nil-egg-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Satanic Blood Lyrics.txt_5,15,cl5-nil-nil-cut-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Satanic Blood Lyrics.txt_6,21,cl6-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Satanic Blood Lyrics.txt_7,28,cl7-nil-nil-be-[ncmod-specif-Satan-sn2,subj-theme_bound-you-sn1,def_prop(Satan,[umano]),def_prop(you,[umano])])
+lf(Satanic Blood Lyrics.txt_8,36,cl8-nil-nil-say-[ncmod-modal-womb-sn1,def_prop(womb,[body_part,oggetto])])
+lf(Satanic Blood Lyrics.txt_9,45,cl9-nil-nil-cut-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Satanic Blood Lyrics.txt_10,55,cl10-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Satanic Blood Lyrics.txt_11,66,cl11-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Satanic Blood Lyrics.txt_12,78,cl12-nil-nil-spell-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Satanic Blood Lyrics.txt_13,91,cl13-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Satanic Blood Lyrics.txt_14,105,cl14-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Satanic Blood Lyrics.txt_15,120,cl15-nil-nil-be-[xadj-adj-carved-adj1,ncmod-locativo-deep-sn1,def_prop(carved,_40378),def_prop(deep,[oggetto,tempo])])
+lf(Satanic Blood Lyrics.txt_16,136,cl16-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Satanic Blood Lyrics.txt_17,153,cl17-nil-nil-be-[subj-theme_bound-word-sn2,subj-theme_bound-word-sn1,and(word,bleed,sn1),def_prop(word,[attivita,informa,nquant]),def_prop(word,[attivita,informa,nquant])])

@@ -1,0 +1,75 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Surrogate Duck Mother Lyrics.txt_1-1  []-positive  []
+Surrogate Duck Mother Lyrics.txt_2-3  []-positive  []
+Surrogate Duck Mother Lyrics.txt_3-6  []-suspension  []
+Surrogate Duck Mother Lyrics.txt_3-7  []-positive  []
+Surrogate Duck Mother Lyrics.txt_4-11  []-positive  []
+Surrogate Duck Mother Lyrics.txt_5-16  []-suspension  []
+Surrogate Duck Mother Lyrics.txt_5-17  []-positive  []
+Surrogate Duck Mother Lyrics.txt_6-23  []-suspension  [neg,neg]
+Surrogate Duck Mother Lyrics.txt_7-30  []-suspension  []
+Surrogate Duck Mother Lyrics.txt_8-38  []-negative  [neg]
+Surrogate Duck Mother Lyrics.txt_9-47  []-negative  [neg]
+Surrogate Duck Mother Lyrics.txt_10-58  []-positive  [fgb]
+Surrogate Duck Mother Lyrics.txt_10-59  []-positive  []
+Surrogate Duck Mother Lyrics.txt_11-70  [but-advers]-suspension  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Surrogate Duck Mother Lyrics.txt_1-1  [surrogate,Duck,Mother,Lyrics,by,Rushad,Eggleston]  [title]
+Surrogate Duck Mother Lyrics.txt_2-3  [surrogate,duck,mother]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Surrogate Duck Mother Lyrics.txt_3-6  [you,will,be,keeping]  [provide_expl_just(keep,[external,nonfactive,narration,background,objective]),provide_expl_just(warm,[external,factive,narration,background,objective])]
+Surrogate Duck Mother Lyrics.txt_3-7  [me,warm,every_night]  [provide_expl_just(keep,[external,nonfactive,narration,background,objective]),provide_expl_just(warm,[external,factive,narration,background,objective])]
+Surrogate Duck Mother Lyrics.txt_4-11  [surrogate,wildebeast,mother]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Surrogate Duck Mother Lyrics.txt_5-16  [you,will,be,keeping]  [provide_expl_just(keep,[external,nonfactive,narration,background,objective]),provide_expl_just(warm,[external,factive,narration,background,objective])]
+Surrogate Duck Mother Lyrics.txt_5-17  [me,warm,every_night]  [provide_expl_just(keep,[external,nonfactive,narration,background,objective]),provide_expl_just(warm,[external,factive,narration,background,objective])]
+Surrogate Duck Mother Lyrics.txt_6-23  [sadly,false,brontosaurus]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Surrogate Duck Mother Lyrics.txt_7-30  [you,will,always,exist,in,my,heart]  [provide_expl_just(exist,[external,nonfactive,narration,background,objective])]
+Surrogate Duck Mother Lyrics.txt_8-38  [soon,i,will,be,living,on,Neptune]  [reject_expl_just(live,[external,nonfactive,narration,background,objective])]
+Surrogate Duck Mother Lyrics.txt_9-47  [cuz,this,world-s,crowded,just,too,for,me]  [reject_expl_just(crowd,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Surrogate Duck Mother Lyrics.txt_10-58  [i,heard,what,they,said,about,pluto,.]  [provide_expl_just(hear,[external,factive,narration,foreground,objective])]
+Surrogate Duck Mother Lyrics.txt_10-59  [they,said,about,pluto]  [provide_expl_just(hear,[external,factive,narration,foreground,objective])]
+Surrogate Duck Mother Lyrics.txt_11-70  [but,it,will,always,be,my,number,nine]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Surrogate Duck Mother Lyrics.txt_1-1)-[]
+2-(Surrogate Duck Mother Lyrics.txt_2-3)-[]
+3-(Surrogate Duck Mother Lyrics.txt_3-6)-[]
+4-(Surrogate Duck Mother Lyrics.txt_3-7)-[primary-fire]
+5-(Surrogate Duck Mother Lyrics.txt_4-11)-[]
+6-(Surrogate Duck Mother Lyrics.txt_5-16)-[]
+7-(Surrogate Duck Mother Lyrics.txt_5-17)-[primary-fire]
+half
+8-(Surrogate Duck Mother Lyrics.txt_6-23)-[emotions-sadness]
+9-(Surrogate Duck Mother Lyrics.txt_7-30)-[primary-narcissism]
+10-(Surrogate Duck Mother Lyrics.txt_8-38)-[secondary-temporal_repere]
+11-(Surrogate Duck Mother Lyrics.txt_9-47)-[primary-chaos]
+12-(Surrogate Duck Mother Lyrics.txt_10-58)-[primary-sound,secondary-social_behavior]
+13-(Surrogate Duck Mother Lyrics.txt_10-59)-[secondary-social_behavior]
+14-(Surrogate Duck Mother Lyrics.txt_11-70)-[primary-cold]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Surrogate Duck Mother Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Eggleston-sn2,subj-theme_bound-Lyrics-sn1,and(Eggleston,Rushad,sn2),and(Lyrics,surrogate,sn1),and(Lyrics,Mother,sn1),def_prop(Eggleston,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Surrogate Duck Mother Lyrics.txt_2,3,cl2-nil-nil-be-[ncmod-modal-duck-sn2,subj-theme_bound-you-sn1,def_prop(duck,[animato,edible,nquant,oggetto,strumento]),def_prop(you,[umano])])
+lf(Surrogate Duck Mother Lyrics.txt_3,6,cl4-nil-nil-warm-[subj-actor-me-sn2,def_prop(me,[umano])])
+lf(Surrogate Duck Mother Lyrics.txt_3,6,cl3-nil-will-keep-[subj-experiencer-you-sn1,aux-be-nil,progr-keeping-nil,def_prop(you,[umano])])
+lf(Surrogate Duck Mother Lyrics.txt_4,11,cl5-nil-nil-be-[ncmod-modal-wildebeast-sn2,subj-theme_bound-you-sn1,def_prop(wildebeast,[istituzione]),def_prop(you,[umano])])
+lf(Surrogate Duck Mother Lyrics.txt_5,16,cl7-nil-nil-warm-[subj-actor-me-sn2,def_prop(me,[umano])])
+lf(Surrogate Duck Mother Lyrics.txt_5,16,cl6-nil-will-keep-[subj-experiencer-you-sn1,aux-be-nil,progr-keeping-nil,def_prop(you,[umano])])
+lf(Surrogate Duck Mother Lyrics.txt_6,23,cl8-nil-nil-be-[adj-(mod)-sadly-nil,subj-theme_bound-brontosaurus-sn1,and(brontosaurus,false,sn1),def_prop(brontosaurus,[animato])])
+lf(Surrogate Duck Mother Lyrics.txt_7,30,cl9-nil-will-exist-[iobj-locat-hear-sn2,subj-theme_bound-you-sn1,adj-(mod)-always-nil,def_prop(hear,[istituzione]),def_prop(you,[umano])])
+lf(Surrogate Duck Mother Lyrics.txt_8,38,cl10-nil-will-live-[adj-(mod)-soon-nil,iobj-goal-Neptune-sn2,subj-actor-i-sn1,aux-be-nil,progr-living-nil,def_prop(Neptune,[place,oggetto,umano]),def_prop(i,[umano])])
+lf(Surrogate Duck Mother Lyrics.txt_9,47,_882816-nil-nil-crowd-[cmod-subord-be-nil,subj-actor-you-sn8,voice-crowd-nil,tense-crowd-nil,def_prop(you,[umano])])
+lf(Surrogate Duck Mother Lyrics.txt_9,47,cl11-nil-nil-be-[voice-crowd-nil,tense-crowd-nil,subj-theme_bound-me-sn2,subj-theme_bound-me-sn1,and(me,cuz,sn1),def_prop(me,[umano]),def_prop(me,[umano])])
+lf(Surrogate Duck Mother Lyrics.txt_10,58,cl13-nil-nil-say-[ncmod-subj_disc-pluto-sn5,subj-actor-they-sn4,ncmod-subj_disc-pluto-sn3,def_prop(pluto,[istituzione,umano]),def_prop(they,[umano]),def_prop(pluto,[istituzione,umano])])
+lf(Surrogate Duck Mother Lyrics.txt_10,58,cl12-nil-nil-hear-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Surrogate Duck Mother Lyrics.txt_11,70,cl14-nil-will-be-[obj2-benef-nine-sn3,xcomp-prop-number-sn2,subj-theme_bound-it-sn1,adj-(mod)-always-nil,def_prop(nine,[nquant]),def_prop(number,[astratto,attivita,informa,nquant,oggetto,strumento]),def_prop(it,[any])])

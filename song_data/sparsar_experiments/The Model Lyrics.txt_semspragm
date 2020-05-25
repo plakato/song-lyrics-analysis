@@ -1,0 +1,107 @@
+"POLARITY, DISCOURSE MARKERS"
+
+The Model Lyrics.txt_1-1  []-positive  []
+The Model Lyrics.txt_2-3  []-positive  []
+The Model Lyrics.txt_2-4  []-positive  [fgb]
+The Model Lyrics.txt_3-7  []-positive  [fhd]
+The Model Lyrics.txt_3-8  []-negative  [neg]
+The Model Lyrics.txt_4-13  []-positive  [neg]
+The Model Lyrics.txt_4-14  []-positive  []
+The Model Lyrics.txt_5-20  []-negative  [neg]
+The Model Lyrics.txt_6-27  []-positive  []
+The Model Lyrics.txt_7-35  []-positive  [fgb]
+The Model Lyrics.txt_8-43  []-positive  [neg]
+The Model Lyrics.txt_8-44  []-positive  [fgb]
+The Model Lyrics.txt_9-53  []-positive  []
+The Model Lyrics.txt_9-54  []-suspension  []
+The Model Lyrics.txt_10-64  []-positive  []
+The Model Lyrics.txt_10-65  []-positive  []
+The Model Lyrics.txt_11-76  []-positive  []
+The Model Lyrics.txt_11-77  []-positive  []
+The Model Lyrics.txt_12-89  []-positive  []
+The Model Lyrics.txt_13-102  []-positive  []
+The Model Lyrics.txt_13-103  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+The Model Lyrics.txt_1-1  [the,Model,Lyrics,by,Zoot,woman]  [title]
+The Model Lyrics.txt_2-3  [she,is,a,model]  [provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(look,[external,factive,narration,foreground,objective])]
+The Model Lyrics.txt_2-4  [and,she,is,looking,good]  [provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(look,[external,factive,narration,foreground,objective])]
+The Model Lyrics.txt_3-7  [i,had,like,to,take,her,home]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+The Model Lyrics.txt_3-8  [that,is,understood]  [reject_expl_just(take,[external,factive,narration,background,objective]),reject_expl_just(have,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+The Model Lyrics.txt_4-13  [she,plays,hard,to,get]  [provide_expl_just(smile,[external,factive,narration,background,objective]),provide_expl_just(play,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+The Model Lyrics.txt_4-14  [she,smiles,from_time_to_time]  [provide_expl_just(smile,[external,factive,narration,background,objective]),provide_expl_just(play,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+The Model Lyrics.txt_5-20  [it,only,takes,a,camera,to,change,her,mind]  [reject_expl_just(change,[external,factive,narration,background,objective]),reject_expl_just(take,[external,factive,narration,background,objective])]
+The Model Lyrics.txt_6-27  [she,is,going,out,to,nightclubs,drinking,just,champagne]  [provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+The Model Lyrics.txt_7-35  [and,she,has,been,checking,nearly,all,the,men]  [proposal(be,[_456338,_456344,statement,foreground,_456362])]
+The Model Lyrics.txt_8-43  [she,is,playing,her,game]  [provide_expl_just(play,[external,factive,cause,foreground,objective])]
+The Model Lyrics.txt_8-44  [and,you,can,hear,them,say]  [provide_expl_just(play,[external,factive,cause,foreground,objective])]
+The Model Lyrics.txt_9-53  [she,is,looking,good]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(pay,[external,nonfactive,narration,background,objective])]
+The Model Lyrics.txt_9-54  [we,beauty,for,will,pay]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(pay,[external,nonfactive,narration,background,objective])]
+The Model Lyrics.txt_10-64  [she,is,posing]  [provide_expl_just(pose,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+The Model Lyrics.txt_10-65  [for,consumer,products,now_and_then]  [provide_expl_just(pose,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+The Model Lyrics.txt_11-76  [every,she,camera,for,gives,the,best]  [provide_expl_just(give,[external,factive,narration,background,objective])]
+The Model Lyrics.txt_11-77  [she,can]  [provide_expl_just(give,[external,factive,narration,background,objective])]
+The Model Lyrics.txt_12-89  [i,saw,her,on,the,cover,of,a,magazine]  [provide_expl_just(see,[external,factive,narration,foreground,objective])]
+The Model Lyrics.txt_13-102  [now,she,is,a,big,success]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(meet,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+The Model Lyrics.txt_13-103  [i,want,to,meet,her,again]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(meet,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(The Model Lyrics.txt_1-1)-[]
+2-(The Model Lyrics.txt_2-3)-[secondary-abstract_tought]
+3-(The Model Lyrics.txt_2-4)-[]
+4-(The Model Lyrics.txt_3-7)-[emotions-affection]
+5-(The Model Lyrics.txt_3-8)-[secondary-abstract_tought]
+6-(The Model Lyrics.txt_4-13)-[emotions-expressive_beh,primary-hard]
+7-(The Model Lyrics.txt_4-14)-[emotions-positive_affect]
+8-(The Model Lyrics.txt_5-20)-[]
+9-(The Model Lyrics.txt_6-27)-[primary-concreteness,primary-orality]
+10-(The Model Lyrics.txt_7-35)-[primary-concreteness]
+half
+11-(The Model Lyrics.txt_8-43)-[emotions-expressive_beh]
+12-(The Model Lyrics.txt_8-44)-[primary-sound,secondary-abstract_tought,secondary-social_behavior]
+13-(The Model Lyrics.txt_9-53)-[]
+14-(The Model Lyrics.txt_9-54)-[primary-gen_sensation,secondary-instru_behavior]
+15-(The Model Lyrics.txt_10-64)-[]
+16-(The Model Lyrics.txt_10-65)-[primary-orality,secondary-instru_behavior]
+17-(The Model Lyrics.txt_11-76)-[secondary-temporal_repere]
+18-(The Model Lyrics.txt_11-77)-[]
+19-(The Model Lyrics.txt_12-89)-[primary-vision]
+20-(The Model Lyrics.txt_13-102)-[secondary-temporal_repere,secondary-instru_behavior]
+21-(The Model Lyrics.txt_13-103)-[secondary-social_behavior,secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(The Model Lyrics.txt_1,1,nil-nil-nil-woman-[arg_mod-agent-Zoot-sn2,subj-agent-Lyrics-sn1,and(Lyrics,Model,sn1),def_prop(Zoot,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(The Model Lyrics.txt_2,3,cl2-nil-nil-look-[cmod-subord-look-",xcomp-prop-good-sn4,subj-agent-she-sn3,aux-(is)-nil,progr-looking-nil,def_prop(good,[valutativo]),def_prop(she,[umano])])
+lf(The Model Lyrics.txt_2,3,cl1-nil-nil-be-[xcomp-prop-model-sn2,subj-theme_bound-she-sn1,def_prop(model,[astratto,attivita,oggetto,strumento,umano]),def_prop(she,[umano])])
+lf(The Model Lyrics.txt_3,7,cl5-nil-nil-be-[xcomp-prop-understood-sn5,xcomp-theme-home-sn2,xcomp-purpose-take-3,def_prop(understood,[evaluative]),def_prop(home,[luogo,oggetto,stato,strumento])])
+lf(The Model Lyrics.txt_3,7,cl4-nil-nil-take-[])
+lf(The Model Lyrics.txt_3,7,cl3-nil-nil-have-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(The Model Lyrics.txt_4,13,cl8-nil-nil-smile-[adj-(mod)-from_time_to_time-nil,subj-actor-she-sn3,def_prop(she,[umano])])
+lf(The Model Lyrics.txt_4,13,cl7-nil-nil-get-[subj-paziente-she-sn1,def_prop(she,[umano])])
+lf(The Model Lyrics.txt_4,13,cl6-nil-nil-play-[adj-(mod)-hard-nil,subj-agent-she-sn1,def_prop(she,[umano])])
+lf(The Model Lyrics.txt_5,20,cl10-nil-nil-change-[obj-theme_aff-mind-sn3,xadj-result-change-2,def_prop(mind,[astratto])])
+lf(The Model Lyrics.txt_5,20,cl9-nil-nil-take-[expl-it-nil,adj-(mod)-only-nil,obj-theme_aff-camera-sn2,subj-agent-it-sn1,def_prop(camera,[oggetto,strumento]),def_prop(it,[any])])
+lf(The Model Lyrics.txt_6,27,cl12-nil-nil-drink-[obj-goal-champagne-sn3,xcomp-purpose-drink-3,iobj-goal-nightclub-sn2,def_prop(champagne,[edible,oggetto]),def_prop(nightclub,[oggetto,strumento])])
+lf(The Model Lyrics.txt_6,27,cl11-nil-nil-go-[adj-(mod)-out-nil,subj-agent-she-sn1,aux-(is)-nil,progr-going-nil,def_prop(she,[umano])])
+lf(The Model Lyrics.txt_7,35,cl13-nil-nil-check-[cmod-subord-check-",adj-(mod)-nearly-nil,obj-destination-man-sn2,subj-agent-she-sn1,aux-been-nil,aux-has-nil,and(man,all,sn2),def_prop(man,[any]),def_prop(she,[umano])])
+lf(The Model Lyrics.txt_8,43,cl15-nil-can-hear-[cmod-subord-hear-",obj-theme-say-sn7,obj-theme_unaff-them-sn6,subj-experiencer-you-sn5,def_prop(say,[stato]),def_prop(them,[umano]),def_prop(you,[umano])])
+lf(The Model Lyrics.txt_8,43,cl14-nil-nil-play-[obj-goal-game-sn2,subj-agent-she-sn1,aux-(is)-nil,progr-playing-nil,def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(she,[umano])])
+lf(The Model Lyrics.txt_9,53,cl17-nil-will-pay-[subj-agent-beauty-sn3,and(beauty,we,sn3),def_prop(beauty,[astratto,umano])])
+lf(The Model Lyrics.txt_9,53,cl16-nil-nil-look-[xcomp-prop-good-sn2,subj-agent-she-sn1,aux-(is)-nil,progr-looking-nil,def_prop(good,[valutativo]),def_prop(she,[umano])])
+lf(The Model Lyrics.txt_10,64,cl19-nil-nil-be-[adj-(mod)-now_and_then-nil,subj-theme_bound-product-sn2,and(product,consumer,sn2),def_prop(product,[astratto,attivita,cambia,oggetto,sostanza,strumento])])
+lf(The Model Lyrics.txt_10,64,cl18-nil-nil-pose-[subj-agent-you-sn1,aux-(is)-nil,progr-posing-nil,def_prop(you,[umano])])
+lf(The Model Lyrics.txt_11,76,cl21-nil-can-can-[subj-actor-pro-nil])
+lf(The Model Lyrics.txt_11,76,cl20-nil-nil-give-[subj-actor-camera-sn1,and(camera,she,sn1),and(camera,every,sn1),def_prop(camera,[oggetto,strumento])])
+lf(The Model Lyrics.txt_12,89,cl22-nil-nil-see-[iobj-locat-cover-sn3,xcomp-prop-her-sn2,subj-experiencer-i-sn1,def_prop(cover,[attivita,oggetto,strumento]),def_prop(her,[umano]),def_prop(i,[umano])])
+lf(The Model Lyrics.txt_13,102,cl25-nil-nil-meet-[])
+lf(The Model Lyrics.txt_13,102,cl24-nil-nil-want-[obj-actor-again-sn5,xcomp-purpose-meet-cl25,subj-actor-i-sn4,def_prop(again,[istituzione]),def_prop(i,[umano])])
+lf(The Model Lyrics.txt_13,102,cl23-nil-nil-be-[adj-(mod)-now-nil,xcomp-prop-success-sn2,subj-theme_bound-she-sn1,and(success,big,sn2),def_prop(success,[attivita,evento,stato]),def_prop(she,[umano])])

@@ -1,0 +1,210 @@
+"POLARITY, DISCOURSE MARKERS"
+
+K Y Re.txt_1-1  []-positive  []
+K Y Re.txt_2-3  []-positive  []
+K Y Re.txt_3-6  []-positive  []
+K Y Re.txt_4-10  []-positive  []
+K Y Re.txt_5-15  []-negative  [neg]
+K Y Re.txt_6-21  []-positive  []
+K Y Re.txt_7-28  []-positive  []
+K Y Re.txt_8-36  []-negative  [neg]
+K Y Re.txt_9-45  []-positive  []
+K Y Re.txt_10-55  []-positive  []
+K Y Re.txt_11-66  []-negative  [neg]
+K Y Re.txt_12-78  []-positive  [fgb]
+K Y Re.txt_13-91  []-positive  [neg]
+K Y Re.txt_14-105  []-positive  []
+K Y Re.txt_15-120  []-negative  []
+K Y Re.txt_16-136  []-positive  []
+K Y Re.txt_17-153  []-positive  []
+K Y Re.txt_18-171  []-positive  [neg]
+K Y Re.txt_19-190  []-negative  [fgb,neg,fhd]
+K Y Re.txt_20-210  []-positive  []
+K Y Re.txt_21-231  []-positive  []
+K Y Re.txt_22-253  []-negative  []
+K Y Re.txt_23-276  []-negative  [neg]
+K Y Re.txt_24-300  []-positive  [fgb]
+K Y Re.txt_25-325  []-positive  []
+K Y Re.txt_26-351  []-positive  []
+K Y Re.txt_27-378  []-negative  []
+K Y Re.txt_28-406  []-suspension  [neg,neg]
+K Y Re.txt_29-435  []-suspension  [fgb]
+K Y Re.txt_30-465  []-negative  [neg]
+K Y Re.txt_31-496  []-negative  [neg]
+K Y Re.txt_32-528  []-positive  []
+K Y Re.txt_33-561  []-positive  []
+K Y Re.txt_34-595  []-question  []
+K Y Re.txt_35-630  []-positive  []
+K Y Re.txt_36-666  []-positive  []
+K Y Re.txt_37-703  []-positive  []
+K Y Re.txt_38-741  []-negative  [neg]
+K Y Re.txt_39-780  []-positive  []
+K Y Re.txt_40-820  []-positive  [fgb]
+K Y Re.txt_41-861  []-positive  []
+K Y Re.txt_42-903  []-positive  []
+K Y Re.txt_43-946  []-positive  []
+K Y Re.txt_44-990  []-negative  [neg]
+K Y Re.txt_45-1035  []-positive  []
+K Y Re.txt_46-1081  []-positive  []
+K Y Re.txt_47-1128  []-positive  []
+K Y Re.txt_48-1176  []-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+K Y Re.txt_1-1  [k,Y,Re,by,Rx]  [title]
+K Y Re.txt_2-3  [Doo,do,do,do,Doo]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+K Y Re.txt_3-6  [do,do,do,do,Doo,do,do,do,Doo]  [raise_issue(be,[_404202,factive,statement,_404220,subjective])]
+K Y Re.txt_4-10  [lip,ammunition]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+K Y Re.txt_5-15  [verbal,salt,on,the,wound]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+K Y Re.txt_6-21  [the,lick,of,spit]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+K Y Re.txt_7-28  [frontal,insertion]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+K Y Re.txt_8-36  [through,the,hole]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+K Y Re.txt_9-45  [from,without,within]  [provide_expl_just(without,[internal,factive,narration,background,objective])]
+K Y Re.txt_10-55  [mr]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+K Y Re.txt_11-66  [Distraction]  reject_expl_opin(nil,[])
+K Y Re.txt_12-78  [what,a,heart]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+K Y Re.txt_13-91  [open,the,valve,kiss,of,death]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+K Y Re.txt_14-105  [the,spreadsheet,show]  [raise_issue(be,[_408514,factive,statement,_408532,subjective])]
+K Y Re.txt_15-120  [buried,fire,blaze,the,dailys,in]  [provide_expl_just(blaze,[external,factive,narration,background,objective])]
+K Y Re.txt_16-136  [distinct,reaction]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+K Y Re.txt_17-153  [of,a,large,non-cultured,slob]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+K Y Re.txt_18-171  [bring,on,deficit,concoction]  [provide_expl_just(bring,[external,factive,narration,background,objective])]
+K Y Re.txt_19-190  [what,a,best_friend,blow,out,like,the,wind]  [reject_expl_just(out,[external,factive,narration,background,objective])]
+K Y Re.txt_20-210  [simple,deduction]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+K Y Re.txt_21-231  [from,the,top]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+K Y Re.txt_22-253  [in,pieces,took,away]  [provide_expl_just(take,[external,factive,narration,foreground,objective])]
+K Y Re.txt_23-276  [skimming,little,mother]  [reject_expl_just(be,[_412138,_412144,_412150,_412156,_412162])]
+K Y Re.txt_24-300  [foam,the,greem,froth,on,face,and,chin]  [provide_expl_just(foam,[external,factive,narration,background,objective])]
+K Y Re.txt_25-325  [the,smell,remains,the,same]  [provide_expl_just(remain,[external,factive,narration,background,objective])]
+K Y Re.txt_26-351  [co-independent]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+K Y Re.txt_27-378  [weezing,choking,on,the,bone]  [proposal(be,[_413642,_413648,statement,foreground,_413666])]
+K Y Re.txt_28-406  [diversion,scheming]  [provide_expl_just(scheme,[external,factive,narration,foreground,objective])]
+K Y Re.txt_29-435  [away,inside,what,cannot,hide,.,hide]  [suggest(be,[_414364,_414370,statement,background,_414388])]
+K Y Re.txt_30-465  [bitter,pocket,sweets]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+K Y Re.txt_31-496  [over-coated,bloated]  reject_expl_opin(nil,[])
+K Y Re.txt_32-528  [kissing,from,behind]  [raise_issue(be,[_415092,factive,statement,_415110,subjective])]
+K Y Re.txt_33-561  [the,red,hot,chocolate]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+K Y Re.txt_34-595  [meat,the,burned,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+K Y Re.txt_35-630  [even,dried]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+K Y Re.txt_36-666  [the,smell,remains,the,same]  [provide_expl_just(remain,[external,factive,narration,background,objective])]
+K Y Re.txt_37-703  [darkest,corner,of,the,house]  [provide_expl_just(corner,[external,factive,narration,background,objective])]
+K Y Re.txt_38-741  [the,smell,of,you,the,drain,is]  [reject_expl_just(drain,[internal,factive,narration,background,objective])]
+K Y Re.txt_39-780  [out_of,order,bleaching,promises]  [provide_expl_just(bleach,[external,factive,narration,foreground,objective])]
+K Y Re.txt_40-820  [to,dust,and,clean,them,out]  [provide_expl_just(dust,[external,factive,narration,background,objective])]
+K Y Re.txt_41-861  [the,smell,remains,the,same]  [provide_expl_just(remain,[external,factive,narration,background,objective])]
+K Y Re.txt_42-903  [Doo,do,do,do,Doo]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+K Y Re.txt_43-946  [do,do,do,do,Doo,do,do,do,Doo]  [raise_issue(be,[_419616,factive,statement,_419634,subjective])]
+K Y Re.txt_44-990  [denial]  reject_expl_opin(nil,[])
+K Y Re.txt_45-1035  [darkest,corner]  [provide_expl_just(corner,[external,factive,narration,background,objective])]
+K Y Re.txt_46-1081  [Doo,do,do,do,Doo]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+K Y Re.txt_47-1128  [do,do,do,do,Doo,do,do,do,Doo]  [raise_issue(be,[_420870,factive,statement,_420888,subjective])]
+K Y Re.txt_48-1176  [and,the,smell,remains,the,same]  [provide_expl_just(remain,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(K Y Re.txt_1-1)-[]
+2-(K Y Re.txt_2-3)-[]
+3-(K Y Re.txt_3-6)-[]
+4-(K Y Re.txt_4-10)-[primary-orality]
+5-(K Y Re.txt_5-15)-[primary-orality,emotions-aggression]
+6-(K Y Re.txt_6-21)-[primary-orality,primary-orality]
+7-(K Y Re.txt_7-28)-[primary-concreteness]
+8-(K Y Re.txt_8-36)-[primary-depth]
+9-(K Y Re.txt_9-45)-[primary-concreteness]
+10-(K Y Re.txt_10-55)-[]
+11-(K Y Re.txt_11-66)-[]
+12-(K Y Re.txt_12-78)-[primary-narcissism]
+13-(K Y Re.txt_13-91)-[primary-concreteness,primary-sex,primary-passivity]
+14-(K Y Re.txt_14-105)-[]
+15-(K Y Re.txt_15-120)-[primary-descent,primary-fire,primary-fire,secondary-temporal_repere]
+16-(K Y Re.txt_16-136)-[secondary-abstract_tought]
+17-(K Y Re.txt_17-153)-[]
+18-(K Y Re.txt_18-171)-[]
+19-(K Y Re.txt_19-190)-[primary-concreteness,emotions-affection,secondary-instru_behavior]
+20-(K Y Re.txt_20-210)-[secondary-order]
+21-(K Y Re.txt_21-231)-[primary-height]
+22-(K Y Re.txt_22-253)-[primary-concreteness]
+23-(K Y Re.txt_23-276)-[]
+24-(K Y Re.txt_24-300)-[primary-water,primary-narcissism,primary-narcissism]
+half
+25-(K Y Re.txt_25-325)-[primary-odor]
+26-(K Y Re.txt_26-351)-[]
+27-(K Y Re.txt_27-378)-[primary-narcissism]
+28-(K Y Re.txt_28-406)-[]
+29-(K Y Re.txt_29-435)-[primary-concreteness,primary-concreteness]
+30-(K Y Re.txt_30-465)-[primary-taste,primary-taste]
+31-(K Y Re.txt_31-496)-[]
+32-(K Y Re.txt_32-528)-[primary-concreteness]
+33-(K Y Re.txt_33-561)-[primary-fire]
+34-(K Y Re.txt_34-595)-[primary-orality,primary-fire]
+35-(K Y Re.txt_35-630)-[]
+36-(K Y Re.txt_36-666)-[primary-odor]
+37-(K Y Re.txt_37-703)-[primary-concreteness]
+38-(K Y Re.txt_38-741)-[primary-odor]
+39-(K Y Re.txt_39-780)-[secondary-order,secondary-social_behavior]
+40-(K Y Re.txt_40-820)-[secondary-abstract_tought,primary-concreteness]
+41-(K Y Re.txt_41-861)-[primary-odor]
+42-(K Y Re.txt_42-903)-[]
+43-(K Y Re.txt_43-946)-[]
+44-(K Y Re.txt_44-990)-[]
+45-(K Y Re.txt_45-1035)-[primary-concreteness]
+46-(K Y Re.txt_46-1081)-[]
+47-(K Y Re.txt_47-1128)-[]
+48-(K Y Re.txt_48-1176)-[primary-odor]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(K Y Re.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Rx-sn2,subj-theme_bound-Re-sn1,and(Re,Y,sn1),and(Re,k,sn1),def_prop(Rx,[attivita,informa,tecno]),def_prop(Re,[astratto,sostanza,umano])])
+lf(K Y Re.txt_2,3,cl2-nil-nil-do-[xcomp-actor-Doo-sn2,subj-theme_unaff-Doo-sn1,aux-do-nil,def_prop(Doo,[istituzione,umano]),def_prop(Doo,[istituzione,umano])])
+lf(K Y Re.txt_3,6,cl3-nil-nil-do-[aux-do-nil,subj-actor-Doo-sn2,xcomp-actor-Doo-sn2,subj-theme_unaff-Doo-sn1,def_prop(Doo,[istituzione,umano]),def_prop(Doo,[istituzione,umano]),def_prop(Doo,[istituzione,umano])])
+lf(K Y Re.txt_4,10,cl4-nil-nil-say-[obj-theme_unaff-ammunition-sn1,and(ammunition,lip,sn1),def_prop(ammunition,[attivita,informa,oggetto,sostanza,strumento])])
+lf(K Y Re.txt_5,15,cl5-nil-nil-be-[ncmod-modale-wind-sn2,subj-theme_bound-salt-sn1,and(salt,verbal,sn1),def_prop(wind,[attivita,cambia,informa]),def_prop(salt,[astratto,edible,oggetto,sostanza])])
+lf(K Y Re.txt_6,21,cl6-nil-nil-be-[ncmod-specif-spit-sn2,subj-theme_bound-you-sn1,def_prop(spit,[attivita,oggetto,strumento]),def_prop(you,[umano])])
+lf(K Y Re.txt_7,28,cl7-nil-nil-say-[obj-theme_unaff-insertion-sn1,and(insertion,frontal,sn1),def_prop(insertion,[attivita])])
+lf(K Y Re.txt_8,36,cl8-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(K Y Re.txt_9,45,cl9-nil-nil-be-[ncmod-loc_origin-without-sn1,def_prop(without,[istituzione])])
+lf(K Y Re.txt_10,55,cl10-nil-nil-say-[])
+lf(K Y Re.txt_11,66,cl11-nil-nil-say-[obj-theme_unaff-distraction-sn1,def_prop(distraction,[astratto,attivita])])
+lf(K Y Re.txt_12,78,cl12-nil-nil-be-[subj-theme_bound-hear-sn2,subj-theme_bound-hear-sn1,and(hear,what,sn1),def_prop(hear,[istituzione]),def_prop(hear,[istituzione])])
+lf(K Y Re.txt_13,91,cl13-nil-nil-be-[ncmod-specif-death-sn2,subj-theme_bound-kiss-sn1,and(kiss,open,sn1),def_prop(death,[animato,attivita,cambia,evento,informa,stato,tempo]),def_prop(kiss,[attivita,edible,oggetto])])
+lf(K Y Re.txt_14,105,cl14-nil-nil-show-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(K Y Re.txt_15,120,cl15-nil-nil-blaze-[])
+lf(K Y Re.txt_16,136,cl16-nil-nil-say-[obj-theme_unaff-reaction-sn1,and(reaction,distinct,sn1),def_prop(reaction,[astratto,attivita,cambia])])
+lf(K Y Re.txt_17,153,cl17-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(K Y Re.txt_18,171,cl18-nil-nil-bring-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(K Y Re.txt_19,190,nil-nil-nil-out-[obj-theme-wind-sn3,obj-theme-what-sn2,subj-actor-blow-sn1,and(blow,best_friend,sn1),def_prop(wind,[attivita,cambia,informa]),def_prop(what,[oggetto]),def_prop(blow,[attivita])])
+lf(K Y Re.txt_20,210,cl19-nil-nil-say-[obj-theme_unaff-deduction-sn1,and(deduction,simple,sn1),def_prop(deduction,[astratto,oggetto])])
+lf(K Y Re.txt_21,231,cl20-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(K Y Re.txt_22,253,cl21-nil-nil-take-[obj-theme-away-sn2,ncmod-locativo-piece-sn1,def_prop(away,[evaluative]),def_prop(piece,[astratto,attivita,edible,evento,informa,oggetto,strumento])])
+lf(K Y Re.txt_23,276,cl22-nil-nil-skim-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(K Y Re.txt_24,300,cl23-nil-nil-foam-[ncmod-locativo-face_and_chin-[sn3,sn4],obj-theme-froth-sn2,subj-actor-you-sn1,and(froth,greem,sn2),def_prop(face_and_chin,[astratto,attivita,body_part,oggetto,strumento,umano,body_part,umano]),def_prop(froth,[luogo]),def_prop(you,[umano])])
+lf(K Y Re.txt_25,325,cl24-nil-nil-remain-[obj2-goal-same-sn2,subj-theme_bound-smell-sn1,def_prop(same,[deittico]),def_prop(smell,[astratto,attivita])])
+lf(K Y Re.txt_26,351,cl25-nil-nil-say-[])
+lf(K Y Re.txt_27,378,cl26-nil-nil-choke-[ncmod-locativo-bone-sn2,subj-agent-weezing-sn1,def_prop(bone,[astratto,body_part,sostanza,umano]),def_prop(weezing,[istituzione])])
+lf(K Y Re.txt_28,406,cl27-nil-nil-scheme-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(K Y Re.txt_29,435,cl28-not-can-hide-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(K Y Re.txt_30,465,cl29-nil-nil-be-[ncmod-modal-pocket-sn2,subj-theme_bound-you-sn1,def_prop(pocket,[astratto,oggetto,strumento]),def_prop(you,[umano])])
+lf(K Y Re.txt_31,496,cl30-nil-nil-say-[])
+lf(K Y Re.txt_32,528,cl31-nil-nil-kiss-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(K Y Re.txt_33,561,cl32-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(K Y Re.txt_34,595,cl33-nil-nil-be-[subj-theme_bound-meat-sn1,and(meat,burned,sn1),def_prop(meat,[astratto,edible,oggetto])])
+lf(K Y Re.txt_35,630,cl34-nil-nil-say-[obj-theme_unaff-dried-sn1,def_prop(dried,[istituzione])])
+lf(K Y Re.txt_36,666,cl35-nil-nil-remain-[obj2-goal-same-sn2,subj-theme_bound-smell-sn1,def_prop(same,[deittico]),def_prop(smell,[astratto,attivita])])
+lf(K Y Re.txt_37,703,cl36-nil-nil-corner-[ncmod-specif-house-sn2,subj-agent-darkest-sn1,def_prop(house,[attivita,istituzione,oggetto,strumento]),def_prop(darkest,[evaluative])])
+lf(K Y Re.txt_38,741,cl37-nil-nil-be-[ncmod-specif-drain-sn2,subj-theme_bound-you-sn1,and(drain,you,sn2),def_prop(drain,[attivita,oggetto,strumento]),def_prop(you,[umano])])
+lf(K Y Re.txt_39,780,cl38-nil-nil-bleach-[ncmod-locativo-order-sn2,subj-actor-promise-sn1,def_prop(order,[astratto,attivita,informa,stato]),def_prop(promise,[astratto,attivita,informa])])
+lf(K Y Re.txt_40,820,cl39-nil-nil-dust-[cmod-subord-dust-",subj-agent-them-sn1,def_prop(them,[umano])])
+lf(K Y Re.txt_41,861,cl40-nil-nil-remain-[obj2-goal-same-sn2,subj-theme_bound-smell-sn1,def_prop(same,[deittico]),def_prop(smell,[astratto,attivita])])
+lf(K Y Re.txt_42,903,cl41-nil-nil-do-[xcomp-actor-Doo-sn2,subj-theme_unaff-Doo-sn1,aux-do-nil,def_prop(Doo,[istituzione,umano]),def_prop(Doo,[istituzione,umano])])
+lf(K Y Re.txt_43,946,cl42-nil-nil-do-[aux-do-nil,subj-actor-Doo-sn2,xcomp-actor-Doo-sn2,subj-theme_unaff-Doo-sn1,def_prop(Doo,[istituzione,umano]),def_prop(Doo,[istituzione,umano]),def_prop(Doo,[istituzione,umano])])
+lf(K Y Re.txt_44,990,cl43-nil-nil-say-[obj-theme_unaff-denial-sn1,def_prop(denial,[attivita,informa])])
+lf(K Y Re.txt_45,1035,cl44-nil-nil-corner-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(K Y Re.txt_46,1081,cl45-nil-nil-do-[xcomp-actor-Doo-sn2,subj-theme_unaff-Doo-sn1,aux-do-nil,def_prop(Doo,[istituzione,umano]),def_prop(Doo,[istituzione,umano])])
+lf(K Y Re.txt_47,1128,cl46-nil-nil-do-[aux-do-nil,subj-actor-Doo-sn2,xcomp-actor-Doo-sn2,subj-theme_unaff-Doo-sn1,def_prop(Doo,[istituzione,umano]),def_prop(Doo,[istituzione,umano]),def_prop(Doo,[istituzione,umano])])
+lf(K Y Re.txt_48,1176,cl47-nil-nil-remain-[cmod-subord-remain-",obj2-goal-same-sn2,subj-theme_bound-smell-sn1,def_prop(same,[deittico]),def_prop(smell,[astratto,attivita])])

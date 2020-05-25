@@ -1,0 +1,93 @@
+"POLARITY, DISCOURSE MARKERS"
+
+A Very Important Thing To Do Lyrics.txt_1-1  []-positive  []
+A Very Important Thing To Do Lyrics.txt_2-3  []-positive  []
+A Very Important Thing To Do Lyrics.txt_3-7  []-positive  []
+A Very Important Thing To Do Lyrics.txt_4-11  []-positive  []
+A Very Important Thing To Do Lyrics.txt_4-12  []-positive  []
+A Very Important Thing To Do Lyrics.txt_5-17  []-negative  [neg,fgb,fgb,fgb]
+A Very Important Thing To Do Lyrics.txt_6-26  []-negative  [neg]
+A Very Important Thing To Do Lyrics.txt_7-33  []-positive  []
+A Very Important Thing To Do Lyrics.txt_7-34  []-positive  []
+A Very Important Thing To Do Lyrics.txt_8-42  []-positive  []
+A Very Important Thing To Do Lyrics.txt_9-52  []-positive  []
+A Very Important Thing To Do Lyrics.txt_10-62  [when-temp_coinc]-positive  [fgb]
+A Very Important Thing To Do Lyrics.txt_11-73  [then-temp_seq]-suspension  []
+A Very Important Thing To Do Lyrics.txt_12-85  []-negative  [neg]
+A Very Important Thing To Do Lyrics.txt_13-98  []-positive  []
+A Very Important Thing To Do Lyrics.txt_14-112  []-positive  []
+A Very Important Thing To Do Lyrics.txt_15-127  []-positive  []
+A Very Important Thing To Do Lyrics.txt_16-143  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+A Very Important Thing To Do Lyrics.txt_1-1  [a,very,Important,Thing,to,do,Lyrics,by,Zooey,Deschanel]  [title]
+A Very Important Thing To Do Lyrics.txt_2-3  [come,one,,,come,two,,,come,all]  [provide_expl_just(come,[external,factive,result,background,objective])]
+A Very Important Thing To Do Lyrics.txt_3-7  [everyone,heed,the,call]  [provide_expl_just(heed,[external,factive,narration,foreground,objective])]
+A Very Important Thing To Do Lyrics.txt_4-11  [a,is,there,!]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(do,[internal,factive,narration,background,objective])]
+A Very Important Thing To Do Lyrics.txt_4-12  [very,important,thing,to,do]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(do,[internal,factive,narration,background,objective])]
+A Very Important Thing To Do Lyrics.txt_5-17  [drop,what,you,are,doing,and,come,.,you,are,doing,and,come]  [reject_expl_just(do,[external,factive,narration,foreground,objective]),reject_expl_just(come,[external,factive,result,background,objective]),propose_opin_neg(come,[external,factive,result,background,objective])]
+A Very Important Thing To Do Lyrics.txt_6-26  [bumbadee,bumbadee,bum]  [reject_expl_just(bum,[external,factive,narration,background,objective])]
+A Very Important Thing To Do Lyrics.txt_7-33  [a,is,there,!]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(do,[internal,factive,narration,background,objective])]
+A Very Important Thing To Do Lyrics.txt_7-34  [very,important,thing,to,do]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(do,[internal,factive,narration,background,objective])]
+A Very Important Thing To Do Lyrics.txt_8-42  [it,time,is,to,gather,round]  [provide_expl_just(gather,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A Very Important Thing To Do Lyrics.txt_9-52  [the,work,has,just,begun]  [provide_expl_just(have,[external,factive,narration,foreground,objective])]
+A Very Important Thing To Do Lyrics.txt_10-62  [and,when,it,is,done]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+A Very Important Thing To Do Lyrics.txt_11-73  [then,you,will,have,found]  [provide_expl_just(find,[external,nonfactive,narration,background,objective])]
+A Very Important Thing To Do Lyrics.txt_12-85  [that,you,have,had,some,fun]  [reject_expl_just(have,[external,factive,narration,foreground,objective])]
+A Very Important Thing To Do Lyrics.txt_13-98  [with,a]  [raise_issue(be,[_469354,factive,statement,_469372,subjective])]
+A Very Important Thing To Do Lyrics.txt_14-112  [monumentu-ous]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+A Very Important Thing To Do Lyrics.txt_15-127  [consequentu-ous]  [raise_issue(be,[_470034,factive,statement,_470052,subjective])]
+A Very Important Thing To Do Lyrics.txt_16-143  [do,to,thing,important,very,!]  [provide_expl_just(do,[internal,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(A Very Important Thing To Do Lyrics.txt_1-1)-[]
+2-(A Very Important Thing To Do Lyrics.txt_2-3)-[]
+3-(A Very Important Thing To Do Lyrics.txt_3-7)-[secondary-social_behavior]
+4-(A Very Important Thing To Do Lyrics.txt_4-11)-[]
+5-(A Very Important Thing To Do Lyrics.txt_4-12)-[secondary-abstract_tought]
+6-(A Very Important Thing To Do Lyrics.txt_5-17)-[primary-descent]
+7-(A Very Important Thing To Do Lyrics.txt_6-26)-[]
+8-(A Very Important Thing To Do Lyrics.txt_7-33)-[]
+9-(A Very Important Thing To Do Lyrics.txt_7-34)-[secondary-abstract_tought]
+half
+10-(A Very Important Thing To Do Lyrics.txt_8-42)-[secondary-temporal_repere,primary-concreteness]
+11-(A Very Important Thing To Do Lyrics.txt_9-52)-[secondary-instru_behavior]
+12-(A Very Important Thing To Do Lyrics.txt_10-62)-[secondary-temporal_repere]
+13-(A Very Important Thing To Do Lyrics.txt_11-73)-[secondary-temporal_repere,secondary-instru_behavior]
+14-(A Very Important Thing To Do Lyrics.txt_12-85)-[emotions-positive_affect]
+15-(A Very Important Thing To Do Lyrics.txt_13-98)-[]
+16-(A Very Important Thing To Do Lyrics.txt_14-112)-[]
+17-(A Very Important Thing To Do Lyrics.txt_15-127)-[]
+18-(A Very Important Thing To Do Lyrics.txt_16-143)-[secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(A Very Important Thing To Do Lyrics.txt_1,1,cl1-nil-nil-do-[arg_mod-agent-Deschanel-sn4,xcomp-actor-Lyrics-sn3,subj-theme_unaff-thing-sn2,subj-theme_unaff-thing-sn1,aux-do-nil,and(Deschanel,Zooey,sn4),and(thing,Important,sn2),and(thing,Important,sn1),def_prop(Deschanel,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(A Very Important Thing To Do Lyrics.txt_2,3,cl2-nil-nil-come-[obj-result-all-sn3,xcomp-prop-come-4,obj-prop-two-sn2,xcomp-purpose-come-3,subj-agent-one-sn1,def_prop(all,[_471358]),def_prop(two,[_471376]),def_prop(one,[umano])])
+lf(A Very Important Thing To Do Lyrics.txt_3,7,cl3-nil-nil-heed-[obj-theme-call-sn2,subj-agent-everyone-sn1,def_prop(call,[attivita,informa]),def_prop(everyone,[umano])])
+lf(A Very Important Thing To Do Lyrics.txt_4,11,cl5-nil-nil-do-[subj-theme_unaff-you-sn2,aux-do-nil,def_prop(you,[umano])])
+lf(A Very Important Thing To Do Lyrics.txt_4,11,cl4-nil-nil-be-[subj-theme_bound-there-sn1,def_prop(there,[any])])
+lf(A Very Important Thing To Do Lyrics.txt_5,17,cl8-nil-nil-come-[subj-agent-come-cl8,subj-agent-pro-nil])
+lf(A Very Important Thing To Do Lyrics.txt_5,17,cl7-nil-nil-do-[aux-are-nil,progr-doing-nil])
+lf(A Very Important Thing To Do Lyrics.txt_5,17,cl6-nil-nil-drop-[obj-theme-you-sn3,f2-sn1-what-sn2,subj-actor-you-sn1,def_prop(you,[umano]),def_prop(what,[oggetto]),def_prop(you,[umano])])
+lf(A Very Important Thing To Do Lyrics.txt_6,26,cl9-nil-nil-bum-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(A Very Important Thing To Do Lyrics.txt_7,33,cl11-nil-nil-do-[subj-theme_unaff-you-sn2,aux-do-nil,def_prop(you,[umano])])
+lf(A Very Important Thing To Do Lyrics.txt_7,33,cl10-nil-nil-be-[subj-theme_bound-there-sn1,def_prop(there,[any])])
+lf(A Very Important Thing To Do Lyrics.txt_8,42,cl13-nil-nil-gather-[obj-goal-round-sn2,xcomp-purpose-gather-2,def_prop(round,[attivita,edible,informa,oggetto,strumento])])
+lf(A Very Important Thing To Do Lyrics.txt_8,42,cl12-nil-nil-be-[adj-temporal-time-nil,subj-theme_bound-it-sn1,def_prop(it,[any])])
+lf(A Very Important Thing To Do Lyrics.txt_9,52,cl14-nil-nil-have-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(A Very Important Thing To Do Lyrics.txt_10,62,cl15-nil-nil-be-[cmod-subord-be-",cmod-subord-be-when,xcomp-prop-done-sn2,subj-theme_bound-it-sn1,def_prop(done,[evaluative]),def_prop(it,[any])])
+lf(A Very Important Thing To Do Lyrics.txt_11,73,cl16-nil-will-find-[subj-actor-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(A Very Important Thing To Do Lyrics.txt_12,85,cl17-nil-nil-have-[xcomp-tema_bound-fun-sn2,subj-experiencer-you-sn1,and(fun,some,sn2),def_prop(fun,[attivita,informa]),def_prop(you,[umano])])
+lf(A Very Important Thing To Do Lyrics.txt_13,98,cl18-nil-nil-say-[])
+lf(A Very Important Thing To Do Lyrics.txt_14,112,cl19-nil-nil-say-[obj-theme_unaff-monumentu-sn1,def_prop(monumentu,[istituzione])])
+lf(A Very Important Thing To Do Lyrics.txt_15,127,cl20-nil-nil-say-[obj-theme_unaff-consequentu-sn1,def_prop(consequentu,[istituzione])])
+lf(A Very Important Thing To Do Lyrics.txt_16,143,cl21-nil-nil-do-[subj-theme_unaff-thing-sn1,aux-do-nil,and(thing,important,sn1),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])

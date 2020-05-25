@@ -1,0 +1,172 @@
+"POLARITY, DISCOURSE MARKERS"
+
+#1 Fan Lyrics.txt_1-1  []-positive  []
+#1 Fan Lyrics.txt_2-3  []-positive  []
+#1 Fan Lyrics.txt_3-6  []-positive  [fgb]
+#1 Fan Lyrics.txt_4-10  []-positive  []
+#1 Fan Lyrics.txt_5-15  []-positive  [fgb,bkc]
+#1 Fan Lyrics.txt_6-16  []-positive  [bkc]
+#1 Fan Lyrics.txt_7-17  []-positive  [bkc]
+#1 Fan Lyrics.txt_8-25  []-question  []
+#1 Fan Lyrics.txt_9-34  []-positive  []
+#1 Fan Lyrics.txt_9-35  []-positive  []
+#1 Fan Lyrics.txt_10-44  []-negative  []
+#1 Fan Lyrics.txt_11-55  []-positive  []
+#1 Fan Lyrics.txt_12-67  []-positive  []
+#1 Fan Lyrics.txt_12-68  [since-cause]-positive  []
+#1 Fan Lyrics.txt_13-80  []-positive  []
+#1 Fan Lyrics.txt_14-94  []-positive  []
+#1 Fan Lyrics.txt_14-95  []-negative  [neg]
+#1 Fan Lyrics.txt_15-110  []-positive  []
+#1 Fan Lyrics.txt_16-126  []-positive  []
+#1 Fan Lyrics.txt_16-127  []-positive  [neg]
+#1 Fan Lyrics.txt_17-144  []-positive  []
+#1 Fan Lyrics.txt_17-145  []-negative  [neg,neg]
+#1 Fan Lyrics.txt_18-163  []-positive  []
+#1 Fan Lyrics.txt_18-164  []-positive  []
+#1 Fan Lyrics.txt_19-183  []-positive  []
+#1 Fan Lyrics.txt_20-203  []-positive  []
+#1 Fan Lyrics.txt_21-224  []-question  []
+#1 Fan Lyrics.txt_22-246  []-negative  [neg]
+#1 Fan Lyrics.txt_23-269  []-positive  []
+#1 Fan Lyrics.txt_23-270  []-positive  []
+#1 Fan Lyrics.txt_24-294  []-negative  [fgb]
+#1 Fan Lyrics.txt_25-320  []-positive  [fgb]
+#1 Fan Lyrics.txt_26-346  []-negative  [fgb,neg]
+#1 Fan Lyrics.txt_26-347  []-suspension  []
+#1 Fan Lyrics.txt_27-374  [so-result]-positive  [fgb,ass]
+#1 Fan Lyrics.txt_27-375  [so-result]-positive  [fgb]
+#1 Fan Lyrics.txt_28-402  []-positive  []
+#1 Fan Lyrics.txt_28-403  []-positive  []
+#1 Fan Lyrics.txt_29-431  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+#1 Fan Lyrics.txt_1-1  [Fan,Lyrics,1,by,Voltaire]  [title]
+#1 Fan Lyrics.txt_2-3  [i,hear,your,voice]  [provide_expl_just(hear,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_3-6  [and,the,world,goes,away]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_4-10  [i,see,your,face]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_5-15  [and,this,place,is,okay]  [accept_expl_opin(be,[_159282,_159288,_159294,_159300,_159306])]
+#1 Fan Lyrics.txt_6-16  [oh,for,just,a,moment,of,your,time]  [accept_expl_opin(be,[_159628,_159634,setting,_159646,_159652])]
+#1 Fan Lyrics.txt_7-17  [oh,now,thated,be,sublime]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_8-25  [me,you,hear,do,?]  [provide_expl_just(hear,[internal,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_9-34  [i,am,here]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_9-35  [for,you]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_10-44  [you,don-t,see,me]  [provide_expl_just(see,[external,factive,narration,foreground,objective])]
+#1 Fan Lyrics.txt_11-55  [i,am,way,in,the,back,of,the,ballroom]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_12-67  [i,have,been,here]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+#1 Fan Lyrics.txt_12-68  [since,last,night,at,nine]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+#1 Fan Lyrics.txt_13-80  [i,was,the,first,in,the,line]  [raise_issue(be,[_164404,factive,statement,_164422,subjective])]
+#1 Fan Lyrics.txt_14-94  [you,make]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(cry,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_14-95  [me,cry,more_than]  [reject_expl_just(make,[external,factive,narration,background,objective]),reject_expl_just(cry,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_15-110  [anyone,i,have,ever,met,in,my,whole,life]  [provide_expl_just(have,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_16-126  [you,made,me]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+#1 Fan Lyrics.txt_16-127  [smile,despite,myself]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+#1 Fan Lyrics.txt_17-144  [i,you,i,live]  [provide_expl_just(live,[external,factive,narration,background,objective]),provide_expl_just(lie,[external,nonfactive,narration,background,objective])]
+#1 Fan Lyrics.txt_17-145  [for,would,not,lie]  [reject_expl_just(live,[external,factive,narration,background,objective]),reject_expl_just(lie,[external,nonfactive,narration,background,objective])]
+#1 Fan Lyrics.txt_18-163  [you,made,me]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+#1 Fan Lyrics.txt_18-164  [love,you,more_than,i]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+#1 Fan Lyrics.txt_19-183  [myself,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_20-203  [corner,cafe,random,meeting]  [provide_expl_just(meet,[external,factive,narration,foreground,objective])]
+#1 Fan Lyrics.txt_21-224  [you,really,there,that,is,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+#1 Fan Lyrics.txt_22-246  [scrape,me,off,the,ceiling]  [reject_expl_just(scrape,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_23-269  [i,have,waited,my]  [provide_expl_just(wait,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_23-270  [whole,life,for,this,day]  [provide_expl_just(wait,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_24-294  [now,,,i,don-t,know,what,to,say]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_176414)]
+#1 Fan Lyrics.txt_25-320  [you,are,the,sky,and,the,sea]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_26-346  [and,i,am,content,to,not]  [reject_expl_just(content,[external,factive,narration,background,objective]),reject_expl_just(know,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_26-347  [know,why]  [provide_expl_just(content,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_27-374  [you,are,so,great]  [accept_expl_opin(be,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_27-375  [i,am,so,plain]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_28-402  [i,am]  [provide_expl_just(flame,[internal,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_28-403  [that,moth,to,your,flame]  [provide_expl_just(flame,[internal,factive,narration,background,objective])]
+#1 Fan Lyrics.txt_29-431  [Wish,i,was,good,enough,for,you]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(wish,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(#1 Fan Lyrics.txt_1-1)-[]
+2-(#1 Fan Lyrics.txt_2-3)-[primary-sound,primary-sound]
+3-(#1 Fan Lyrics.txt_3-6)-[primary-concreteness]
+4-(#1 Fan Lyrics.txt_4-10)-[primary-vision,primary-narcissism]
+5-(#1 Fan Lyrics.txt_5-15)-[primary-concreteness]
+6-(#1 Fan Lyrics.txt_6-16)-[secondary-temporal_repere,secondary-temporal_repere]
+7-(#1 Fan Lyrics.txt_7-17)-[secondary-temporal_repere,emotions-glory]
+8-(#1 Fan Lyrics.txt_8-25)-[primary-sound]
+9-(#1 Fan Lyrics.txt_9-34)-[primary-concreteness]
+10-(#1 Fan Lyrics.txt_9-35)-[]
+11-(#1 Fan Lyrics.txt_10-44)-[primary-vision]
+12-(#1 Fan Lyrics.txt_11-55)-[primary-concreteness]
+13-(#1 Fan Lyrics.txt_12-67)-[primary-concreteness]
+14-(#1 Fan Lyrics.txt_12-68)-[primary-concreteness]
+15-(#1 Fan Lyrics.txt_13-80)-[primary-brink]
+16-(#1 Fan Lyrics.txt_14-94)-[secondary-instru_behavior]
+17-(#1 Fan Lyrics.txt_14-95)-[emotions-expressive_beh]
+18-(#1 Fan Lyrics.txt_15-110)-[secondary-temporal_repere,secondary-social_behavior]
+19-(#1 Fan Lyrics.txt_16-126)-[primary-counscious]
+half
+20-(#1 Fan Lyrics.txt_16-127)-[emotions-positive_affect]
+21-(#1 Fan Lyrics.txt_17-144)-[]
+22-(#1 Fan Lyrics.txt_17-145)-[primary-passivity]
+23-(#1 Fan Lyrics.txt_18-163)-[primary-counscious]
+24-(#1 Fan Lyrics.txt_18-164)-[emotions-affection]
+25-(#1 Fan Lyrics.txt_19-183)-[emotions-affection]
+26-(#1 Fan Lyrics.txt_20-203)-[primary-concreteness,primary-orality,primary-chaos]
+27-(#1 Fan Lyrics.txt_21-224)-[secondary-abstract_tought]
+28-(#1 Fan Lyrics.txt_22-246)-[primary-concreteness]
+29-(#1 Fan Lyrics.txt_23-269)-[]
+30-(#1 Fan Lyrics.txt_23-270)-[]
+31-(#1 Fan Lyrics.txt_24-294)-[secondary-temporal_repere,secondary-abstract_tought,secondary-social_behavior]
+32-(#1 Fan Lyrics.txt_25-320)-[primary-height,primary-water]
+33-(#1 Fan Lyrics.txt_26-346)-[]
+34-(#1 Fan Lyrics.txt_26-347)-[secondary-abstract_tought,secondary-abstract_tought]
+35-(#1 Fan Lyrics.txt_27-374)-[emotions-glory]
+36-(#1 Fan Lyrics.txt_27-375)-[]
+37-(#1 Fan Lyrics.txt_28-402)-[]
+38-(#1 Fan Lyrics.txt_28-403)-[primary-fire]
+39-(#1 Fan Lyrics.txt_29-431)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(#1 Fan Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Voltaire-sn2,subj-theme_bound-1-sn1,and(1,Lyrics,sn1),def_prop(Voltaire,[place,umano]),def_prop(1,[nquant])])
+lf(#1 Fan Lyrics.txt_2,3,cl2-nil-nil-hear-[obj-theme_unaff-voice-sn2,subj-experiencer-i-sn1,def_prop(voice,[astratto,attivita,evento,informa,relat,umano]),def_prop(i,[umano])])
+lf(#1 Fan Lyrics.txt_3,6,cl3-nil-nil-go-[cmod-subord-go-",xcomp-prop-away-sn2,subj-agent-world-sn1,def_prop(away,[evaluative]),def_prop(world,[astratto,istituzione,oggetto])])
+lf(#1 Fan Lyrics.txt_4,10,cl4-nil-nil-see-[obj-actor-face-sn2,subj-experiencer-i-sn1,def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(#1 Fan Lyrics.txt_5,15,cl5-nil-nil-okay-[cmod-subord-okay-",subj-theme-you-sn1,aux-(is)-nil,def_prop(you,[umano])])
+lf(#1 Fan Lyrics.txt_6,16,cl6-nil-nil-time-[adj-locative-just-nil,subj-agent-moment-sn2,def_prop(moment,[astratto,attivita,cambia,tempo])])
+lf(#1 Fan Lyrics.txt_7,17,cl7-nil-nil-be-[adj-(mod)-now-nil,subj-theme_bound-thated-sn2,subj-theme_bound-thated-sn1,and(thated,oh,sn1),def_prop(thated,[istituzione]),def_prop(thated,[istituzione])])
+lf(#1 Fan Lyrics.txt_8,25,cl8-nil-nil-hear-[obj-theme_unaff-me-sn2,subj-experiencer-you-sn1,aux-do-nil,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(#1 Fan Lyrics.txt_9,34,cl9-nil-nil-be-[subj-theme_bound-you-sn3,xcomp-prop-here-sn2,subj-theme_bound-i-sn1,def_prop(you,[umano]),def_prop(here,[istituzione]),def_prop(i,[umano])])
+lf(#1 Fan Lyrics.txt_10,44,cl10-not-nil-see-[obj-actor-me-sn2,subj-experiencer-you-sn1,aux-do-nil,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(#1 Fan Lyrics.txt_11,55,cl11-nil-nil-be-[xcomp-prop-way-sn2,subj-theme_bound-i-sn1,def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(i,[umano])])
+lf(#1 Fan Lyrics.txt_12,67,cl12-nil-nil-be-[cmod-subord-be-",adj-temporal-night-nil,ncmod-modale-nine-sn3,xcomp-prop-here-sn2,subj-theme_bound-i-sn1,and(night,last,sn4),def_prop(night,[tempo]),def_prop(nine,[nquant]),def_prop(here,[istituzione]),def_prop(i,[umano])])
+lf(#1 Fan Lyrics.txt_13,80,cl13-nil-nil-be-[xcomp-prop-first-sn2,subj-theme_bound-i-sn1,def_prop(first,[istituzione]),def_prop(i,[umano])])
+lf(#1 Fan Lyrics.txt_14,94,cl15-nil-nil-cry-[subj-experiencer-me-sn2,def_prop(me,[umano])])
+lf(#1 Fan Lyrics.txt_14,94,cl14-nil-nil-make-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(#1 Fan Lyrics.txt_15,110,cl16-nil-nil-have-[xcomp-prop-meet-sn3,subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,anyone,sn1),def_prop(meet,[evento]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(#1 Fan Lyrics.txt_16,126,cl18-nil-nil-smile-[ncmod-modal-myself-sn4,subj-actor-you-sn3,def_prop(myself,[umano]),def_prop(you,[umano])])
+lf(#1 Fan Lyrics.txt_16,126,cl17-nil-nil-make-[obj-goal-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(#1 Fan Lyrics.txt_17,144,cl20-not-would-lie-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(#1 Fan Lyrics.txt_17,144,cl19-nil-nil-live-[subj-actor-i-sn2,subj-actor-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(#1 Fan Lyrics.txt_18,163,cl22-nil-nil-love-[obj-theme_unaff-i-sn5,subj-experiencer-you-sn4,subj-experiencer-you-sn3,and(you,you,sn3),def_prop(i,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(#1 Fan Lyrics.txt_18,163,cl21-nil-nil-make-[obj-goal-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(#1 Fan Lyrics.txt_19,183,cl23-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(#1 Fan Lyrics.txt_20,203,cl24-nil-nil-meet-[subj-experiencer-random-sn2,subj-experiencer-random-sn1,and(random,cafe,sn1),and(random,corner,sn1),def_prop(random,[informa,tecno]),def_prop(random,[informa,tecno])])
+lf(#1 Fan Lyrics.txt_21,224,cl25-nil-nil-be-[xcomp-prop-there-sn1,def_prop(there,[any])])
+lf(#1 Fan Lyrics.txt_22,246,cl26-nil-nil-scrape-[iobj-goal-ceiling-sn3,obj-theme-me-sn2,subj-agent-you-sn1,def_prop(ceiling,[astratto,attivita,informa,oggetto,strumento]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(#1 Fan Lyrics.txt_23,269,cl28-nil-nil-be-[adj-temporal-day-nil,subj-theme_bound-life-sn3,and(day,this,sn4),and(life,whole,sn3),def_prop(day,[tempo]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(#1 Fan Lyrics.txt_23,269,cl27-nil-nil-wait-[xcomp-prop-my-sn2,subj-actor-i-sn1,aux-have-nil,def_prop(my,[informa,tecno]),def_prop(i,[umano])])
+lf(#1 Fan Lyrics.txt_24,294,cl30-nil-nil-say-[])
+lf(#1 Fan Lyrics.txt_24,294,cl29-not-nil-know-[subj-actor-i-sn1,aux-do-nil,def_prop(i,[umano])])
+lf(#1 Fan Lyrics.txt_25,320,cl31-nil-nil-be-[coord-prop-sky_and_sea-sn4,xcomp-prop-sea-sn3,xcomp-prop-sky-sn2,subj-theme_bound-you-sn1,def_prop(sky_and_sea,[oggetto,attivita,cambia,oggetto]),def_prop(sea,[oggetto,attivita,cambia,oggetto]),def_prop(sky,[oggetto,attivita,cambia,oggetto]),def_prop(you,[umano])])
+lf(#1 Fan Lyrics.txt_26,346,cl33-nil-nil-know-[obj-theme-why-sn3,subj-actor-you-sn2,cmod-subord-know-",def_prop(why,[astratto]),def_prop(you,[umano])])
+lf(#1 Fan Lyrics.txt_26,346,cl32-nil-nil-content-[subj-experiencer-i-sn1,aux-am-nil,def_prop(i,[umano])])
+lf(#1 Fan Lyrics.txt_27,374,cl34-nil-nil-be-[xcomp-prop-plain-sn4,subj-theme_bound-i-sn3,xcomp-prop-great-sn2,subj-theme_bound-you-sn1,def_prop(plain,[oggetto]),def_prop(i,[umano]),def_prop(great,[istituzione,umano]),def_prop(you,[umano])])
+lf(#1 Fan Lyrics.txt_28,402,cl35-nil-nil-be-[ncmod-relation-flame-sn4,xcomp-theme-moth-sn3,subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,def_prop(flame,[attivita]),def_prop(moth,[animato]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(#1 Fan Lyrics.txt_29,431,cl37-nil-nil-be-[xcomp-prop-enough-sn3,xcomp-purpose-be-2,and(enough,good,sn3),def_prop(enough,[astratto,informa,oggetto])])
+lf(#1 Fan Lyrics.txt_29,431,cl36-nil-nil-wish-[subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])

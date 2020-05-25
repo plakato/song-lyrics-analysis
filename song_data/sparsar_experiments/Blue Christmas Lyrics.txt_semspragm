@@ -1,0 +1,69 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Blue Christmas Lyrics.txt_1-1  []-positive  []
+Blue Christmas Lyrics.txt_2-3  []-suspension  []
+Blue Christmas Lyrics.txt_3-6  []-suspension  []
+Blue Christmas Lyrics.txt_3-7  [so-result]-positive  [fgb]
+Blue Christmas Lyrics.txt_4-10  []-positive  []
+Blue Christmas Lyrics.txt_5-15  [if-hypoth]-negative  [neg,fgb,neg,neg]
+Blue Christmas Lyrics.txt_6-21  [when-temp_coinc]-positive  [neg]
+Blue Christmas Lyrics.txt_7-28  []-positive  []
+Blue Christmas Lyrics.txt_7-29  [when-temp_coinc]-positive  []
+Blue Christmas Lyrics.txt_8-37  []-suspension  [ack]
+Blue Christmas Lyrics.txt_9-46  [but-advers]-suspension  [fgb]
+Blue Christmas Lyrics.txt_10-56  []-suspension  [ack]
+Blue Christmas Lyrics.txt_11-67  [but-advers]-suspension  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Blue Christmas Lyrics.txt_1-1  [blue,Christmas,Lyrics,by,Tyler,Farr]  [title]
+Blue Christmas Lyrics.txt_2-3  [i,will,have,a,Blue,Christmas,without,you]  [provide_expl_just(you,[internal,nonfactive,narration,background,objective])]
+Blue Christmas Lyrics.txt_3-6  [i,will,be]  [provide_expl_just(blue,[internal,nonfactive,narration,background,objective])]
+Blue Christmas Lyrics.txt_3-7  [so,just,blue,thinking,about,you]  [provide_expl_just(blue,[internal,nonfactive,narration,background,objective])]
+Blue Christmas Lyrics.txt_4-10  [decorations,of,red,on,a,green,Christmas,tree]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Blue Christmas Lyrics.txt_5-15  [will,not,be,the,same,dear,if,you,are,not,not,here,with,me]  [reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+Blue Christmas Lyrics.txt_6-21  [when,those,blue,snowflakes,start,falling]  [provide_expl_just(fall,[external,factive,cause,foreground,objective])]
+Blue Christmas Lyrics.txt_7-28  [that,is]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(call,[external,factive,narration,foreground,objective])]
+Blue Christmas Lyrics.txt_7-29  [when,those,blue,memories,start,calling]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(call,[external,factive,narration,foreground,objective])]
+Blue Christmas Lyrics.txt_8-37  [you,will,be,doin,all_right,with,your,Christmas,of,white]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Blue Christmas Lyrics.txt_9-46  [but,i,will,have,a,blue,blue,blue,blue,Christmas]  [provide_expl_just(have,[external,nonfactive,narration,background,objective])]
+Blue Christmas Lyrics.txt_10-56  [you,will,be,doin,all_right,with,your,Christmas,of,white]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Blue Christmas Lyrics.txt_11-67  [but,i,will,have,a,blue,blue,blue,blue,Christmas]  [provide_expl_just(have,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Blue Christmas Lyrics.txt_1-1)-[primary-vision]
+2-(Blue Christmas Lyrics.txt_2-3)-[]
+3-(Blue Christmas Lyrics.txt_3-6)-[]
+4-(Blue Christmas Lyrics.txt_3-7)-[primary-vision]
+5-(Blue Christmas Lyrics.txt_4-10)-[primary-vision,primary-height]
+6-(Blue Christmas Lyrics.txt_5-15)-[emotions-affection,primary-concreteness]
+half
+7-(Blue Christmas Lyrics.txt_6-21)-[secondary-temporal_repere,primary-vision,primary-vision]
+8-(Blue Christmas Lyrics.txt_7-28)-[]
+9-(Blue Christmas Lyrics.txt_7-29)-[secondary-temporal_repere,primary-vision,primary-vision]
+10-(Blue Christmas Lyrics.txt_8-37)-[]
+11-(Blue Christmas Lyrics.txt_9-46)-[primary-vision,primary-vision,primary-vision,primary-vision]
+12-(Blue Christmas Lyrics.txt_10-56)-[]
+13-(Blue Christmas Lyrics.txt_11-67)-[primary-vision,primary-vision,primary-vision,primary-vision]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Blue Christmas Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Farr-sn2,subj-theme_bound-Lyrics-sn1,and(Farr,Tyler,sn2),and(Lyrics,Christmas,sn1),and(Lyrics,blue,sn1),def_prop(Farr,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Blue Christmas Lyrics.txt_2,3,cl2-nil-will-have-[ncmod-modal-you-sn4,xcomp-prop-Christmas-sn3,xcomp-tema_bound-Blue-sn2,subj-experiencer-i-sn1,def_prop(you,[umano]),def_prop(Christmas,[place,tempo]),def_prop(Blue,[place,informa,tecno,umano]),def_prop(i,[umano])])
+lf(Blue Christmas Lyrics.txt_3,6,cl3-nil-will-be-[ncmod-modal-blue-sn4,ncmod-subj_disc-you-sn3,subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,def_prop(blue,[animato,astratto,istituzione,oggetto,strumento]),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Blue Christmas Lyrics.txt_4,10,cl4-nil-nil-be-[ncmod-locativo-tree-sn2,subj-theme_bound-decoration-sn1,and(tree,green,sn2),and(tree,Christmas,sn2),def_prop(tree,[astratto,plant]),def_prop(decoration,[attivita,informa,oggetto,strumento])])
+lf(Blue Christmas Lyrics.txt_5,15,cl5-not-will-be-[cmod-subord-be-if,adj-(mod)-here-nil,ncmod-comitativo-me-sn3,subj-theme_bound-you-sn2,subj-theme_bound-dear-sn1,and(dear,same,sn1),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(dear,[relat,sociale,umano])])
+lf(Blue Christmas Lyrics.txt_6,21,cl6-nil-nil-fall-[ncmod-modal-snowflake-sn2,subj-agent-you-sn1,def_prop(snowflake,[attivita,cambia]),def_prop(you,[umano])])
+lf(Blue Christmas Lyrics.txt_7,28,cl8-nil-nil-call-[ncmod-modal-memory-sn3,subj-agent-you-sn2,def_prop(memory,[astratto,oggetto,strumento]),def_prop(you,[umano])])
+lf(Blue Christmas Lyrics.txt_7,28,cl7-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Blue Christmas Lyrics.txt_8,37,cl9-nil-will-be-[adj-(mod)-all_right-nil,ncmod-modal-Christmas-sn3,xcomp-prop-doin-sn2,subj-theme_bound-you-sn1,def_prop(Christmas,[place,tempo]),def_prop(doin,[istituzione]),def_prop(you,[umano])])
+lf(Blue Christmas Lyrics.txt_9,46,cl10-nil-will-have-[xcomp-prop-Christmas-sn3,xcomp-tema_bound-blue-sn2,subj-experiencer-i-sn1,and(Christmas,blue,sn3),and(blue,blue,sn2),def_prop(Christmas,[place,tempo]),def_prop(blue,_59116),def_prop(i,[umano])])
+lf(Blue Christmas Lyrics.txt_10,56,cl11-nil-will-be-[adj-(mod)-all_right-nil,ncmod-modal-Christmas-sn3,xcomp-prop-doin-sn2,subj-theme_bound-you-sn1,def_prop(Christmas,[place,tempo]),def_prop(doin,[istituzione]),def_prop(you,[umano])])
+lf(Blue Christmas Lyrics.txt_11,67,cl12-nil-will-have-[xcomp-theme-blue-sn3,xcomp-tema_bound-blue-sn2,subj-experiencer-i-sn1,def_prop(blue,[animato,astratto,istituzione,oggetto,strumento]),def_prop(blue,[animato,astratto,istituzione,oggetto,strumento]),def_prop(i,[umano])])

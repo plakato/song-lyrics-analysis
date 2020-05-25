@@ -55,10 +55,13 @@ def choose_original(original, shuffled):
     shuffled_islands = count_lonely_black_pixels(shuffled)
     original_white_square = get_size_of_the_largest_white_square(original)
     shuffled_white_square = get_size_of_the_largest_white_square(shuffled)
-    return (original_islands < shuffled_islands)
-    # return (original_white_square > shuffled_white_square)
-    # return (shuffled_islands - original_islands) + (original_white_square -
-    #                                                 shuffled_white_square) > 0
+    original_furthest_black = max(get_distances_to_closest_blacks(original))
+    shuffled_furthest_black = max(get_distances_to_closest_blacks(shuffled))
+    if original_islands != shuffled_islands:
+        result = original_islands < shuffled_islands
+    else:
+        result = original_white_square < shuffled_white_square
+    return result
 
 # Count islands on half of matrix (the other half is symmetrical).
 def count_lonely_black_pixels(data):
@@ -111,11 +114,27 @@ def get_size_of_the_largest_white_square(data):
     return max(map(max, sum_matrix))
 
 
+# Return list of distances from diagonal to closest black pixel to the right.
+def get_distances_to_closest_blacks(matrix):
+    res = []
+    i = 0
+    while i < len(matrix):
+        y = i
+        while y < len(matrix):
+            if y + 1 == len(matrix) or matrix[i][y + 1] == 1:
+                res.append(y-i)
+                break
+            y += 1
+        i += 1
+    return res
+
+
 def is_song(matrix):
     pass
+
 
 if __name__ == '__main__':
     path = 'sparsar_experiments/rhymes/'
     shuffled_path = '\'shuffled0_'
     test_pairs(path, shuffled_path)
-    test_individual(path, shuffled_path)
+    # test_individual(path, shuffled_path)

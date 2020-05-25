@@ -1,0 +1,47 @@
+"POLARITY, DISCOURSE MARKERS"
+
+8======D Lyrics.txt_1-1  []-positive  []
+8======D Lyrics.txt_2-3  []-positive  []
+8======D Lyrics.txt_3-7  []-positive  []
+8======D Lyrics.txt_3-8  []-positive  []
+8======D Lyrics.txt_3-9  [(as)-temp_coinc]-positive  []
+8======D Lyrics.txt_4-13  []-positive  []
+8======D Lyrics.txt_5-18  []-negative  [neg,fhd]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+8======D Lyrics.txt_1-1  [8,=,=,D,Lyrics,by,Yung,69]  [title]
+8======D Lyrics.txt_2-3  [i,go,to,sleep,with,a,bottle,of,Jim,beam]  [provide_expl_just(go,[external,factive,explanation,background,objective]),provide_expl_just(sleep,[external,factive,explanation,background,objective])]
+8======D Lyrics.txt_3-7  [next,think]  [provide_expl_just(wake,[external,factive,explanation,background,objective]),provide_expl_just(think,[external,factive,explanation,background,objective]),suggest(think,_681782),provide_expl_just(know,[external,factive,explanation,background,objective]),suggest(know,_685976)]
+8======D Lyrics.txt_3-8  [you,know]  [provide_expl_just(wake,[external,factive,explanation,background,objective]),provide_expl_just(think,[external,factive,explanation,background,objective]),suggest(think,_690692),provide_expl_just(know,[external,factive,explanation,background,objective]),suggest(know,_694886)]
+8======D Lyrics.txt_3-9  [i,wake,up,as,James,Dean]  [provide_expl_just(wake,[external,factive,explanation,background,objective]),provide_expl_just(think,[external,factive,explanation,background,objective]),suggest(think,_699602),provide_expl_just(know,[external,factive,explanation,background,objective]),suggest(know,_703796)]
+8======D Lyrics.txt_4-13  [other,rappers,go,flying,off,the,triple,balance,beam]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+8======D Lyrics.txt_5-18  [this,motherfucker,Martin,cuz,just,like,had,a,dream]  [reject_expl_just(have,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(8======D Lyrics.txt_1-1)-[]
+2-(8======D Lyrics.txt_2-3)-[primary-counscious,primary-vision]
+3-(8======D Lyrics.txt_3-7)-[secondary-abstract_tought]
+half
+4-(8======D Lyrics.txt_3-8)-[secondary-abstract_tought]
+5-(8======D Lyrics.txt_3-9)-[primary-counscious]
+6-(8======D Lyrics.txt_4-13)-[primary-concreteness,primary-voyage,secondary-order,primary-vision]
+7-(8======D Lyrics.txt_5-18)-[emotions-affection,primary-counscious]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(8======D Lyrics.txt_1,1,cl1-nil-nil-be-[xcomp-theme-69-sn3,arg_mod-agent-Yung-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,8,sn1),def_prop(69,[nquant]),def_prop(Yung,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(8======D Lyrics.txt_2,3,cl3-nil-nil-sleep-[iobj-goal-bottle-sn13,def_prop(bottle,[nquant,oggetto,strumento])])
+lf(8======D Lyrics.txt_2,3,cl2-nil-nil-go-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(8======D Lyrics.txt_3,7,cl6-nil-nil-wake-[adj-locative-up-nil,xcomp-theme_aff-Dean-sn4,subj-actor-i-sn3,def_prop(Dean,[place,umano]),def_prop(i,[umano])])
+lf(8======D Lyrics.txt_3,7,cl5-nil-nil-know-[subj-actor-you-sn2,def_prop(you,[umano])])
+lf(8======D Lyrics.txt_3,7,cl4-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(8======D Lyrics.txt_4,13,cl7-nil-nil-go-[ncmod-locativo-beam-sn3,xcomp-prop-flying-sn2,subj-agent-rapper-sn1,and(beam,triple,sn3),and(beam,balance,sn3),and(rapper,other,sn1),def_prop(beam,[astratto,attivita,cambia,oggetto,strumento]),def_prop(flying,[cambia,evento]),def_prop(rapper,[umano])])
+lf(8======D Lyrics.txt_5,18,cl8-nil-nil-have-[adj-(mod)-just-nil,xcomp-tema_bound-dream-sn2,subj-experiencer-Martin-sn1,and(just,cuz,sn5),and(Martin,motherfucker,sn1),and(Martin,this,sn1),def_prop(just,[informa,tecno]),def_prop(dream,[astratto,stato]),def_prop(Martin,[place,umano])])

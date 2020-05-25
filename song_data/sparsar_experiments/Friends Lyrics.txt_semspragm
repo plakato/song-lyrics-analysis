@@ -1,0 +1,165 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Friends Lyrics.txt_1-1  []-positive  []
+Friends Lyrics.txt_2-3  []-negative  [neg]
+Friends Lyrics.txt_3-7  []-positive  [neg]
+Friends Lyrics.txt_4-12  []-negative  [neg,fgb,neg]
+Friends Lyrics.txt_5-17  []-suspension  []
+Friends Lyrics.txt_6-23  []-positive  []
+Friends Lyrics.txt_7-30  []-negative  [neg]
+Friends Lyrics.txt_8-39  []-positive  []
+Friends Lyrics.txt_9-48  []-negative  [neg]
+Friends Lyrics.txt_9-49  []-negative  [neg]
+Friends Lyrics.txt_10-59  []-positive  [neg]
+Friends Lyrics.txt_11-70  []-positive  [neg]
+Friends Lyrics.txt_12-82  []-positive  [neg]
+Friends Lyrics.txt_13-95  []-positive  []
+Friends Lyrics.txt_14-109  []-positive  []
+Friends Lyrics.txt_15-124  []-negative  [neg]
+Friends Lyrics.txt_15-125  []-negative  [neg]
+Friends Lyrics.txt_16-141  []-positive  []
+Friends Lyrics.txt_16-142  []-positive  []
+Friends Lyrics.txt_17-159  []-positive  []
+Friends Lyrics.txt_18-177  []-suspension  [neg]
+Friends Lyrics.txt_19-196  []-positive  []
+Friends Lyrics.txt_20-217  []-positive  [neg]
+Friends Lyrics.txt_21-238  []-positive  [neg]
+Friends Lyrics.txt_22-260  []-suspension  []
+Friends Lyrics.txt_23-284  []-positive  []
+Friends Lyrics.txt_23-285  []-positive  []
+Friends Lyrics.txt_24-309  []-positive  []
+Friends Lyrics.txt_25-335  []-negative  [neg]
+Friends Lyrics.txt_25-336  []-positive  []
+Friends Lyrics.txt_25-337  []-negative  [neg]
+Friends Lyrics.txt_26-363  []-suspension  [neg]
+Friends Lyrics.txt_27-390  []-positive  []
+Friends Lyrics.txt_28-419  []-positive  [neg]
+Friends Lyrics.txt_29-448  []-positive  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Friends Lyrics.txt_1-1  [friends,Lyrics,by,Rusty]  [title]
+Friends Lyrics.txt_2-3  [conversations,take,to,long]  [reject_expl_just(take,[external,factive,explanation,background,objective]),propose_opin_neg(take,[external,factive,explanation,background,objective]),reject_expl_just(long,[external,factive,explanation,background,objective]),propose_opin_neg(long,[external,factive,explanation,background,objective])]
+Friends Lyrics.txt_3-7  [all,you,say,is,wrong]  [propose_opin_neg(say,[external,factive,explanation,background,objective]),propose_opin_neg(wrong,[external,factive,explanation,background,objective])]
+Friends Lyrics.txt_4-12  [your,paranoid,and,shit]  [reject_expl_just(shit,[external,factive,narration,background,objective])]
+Friends Lyrics.txt_5-17  [i,will,take,no_more,of,it]  [provide_expl_just(take,[external,nonfactive,narration,background,objective])]
+Friends Lyrics.txt_6-23  [maybe,i,am,the,same]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Friends Lyrics.txt_7-30  [i,could,be,me,to,blame]  [reject_expl_just(blame,[external,factive,narration,background,objective]),reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+Friends Lyrics.txt_8-39  [you,justify,your,need]  [provide_expl_just(justify,[external,factive,narration,background,objective])]
+Friends Lyrics.txt_9-48  [with,every,lie]  [reject_expl_just(lie,[external,factive,narration,background,objective]),reject_expl_just(bleed,[external,factive,narration,foreground,objective])]
+Friends Lyrics.txt_9-49  [you,bleed]  [reject_expl_just(lie,[external,factive,narration,background,objective]),reject_expl_just(bleed,[external,factive,narration,foreground,objective])]
+Friends Lyrics.txt_10-59  [all,my,friends,are,lying]  [provide_expl_just(lie,[external,factive,cause,foreground,objective])]
+Friends Lyrics.txt_11-70  [all,my,friends,are,dying]  [provide_expl_just(die,[external,factive,narration,foreground,objective])]
+Friends Lyrics.txt_12-82  [your,theories,make,me,ill]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+Friends Lyrics.txt_13-95  [you,i_wish,had,just,sit,still]  [provide_expl_just(sit,[external,factive,narration,background,objective])]
+Friends Lyrics.txt_14-109  [you,satisfy,your,need]  [provide_expl_just(satisfy,[external,factive,narration,background,objective])]
+Friends Lyrics.txt_15-124  [with,every,lie]  [reject_expl_just(lie,[external,factive,narration,background,objective]),reject_expl_just(bleed,[external,factive,narration,foreground,objective])]
+Friends Lyrics.txt_15-125  [you,bleed]  [reject_expl_just(lie,[external,factive,narration,background,objective]),reject_expl_just(bleed,[external,factive,narration,foreground,objective])]
+Friends Lyrics.txt_16-141  [i,gave]  [provide_expl_just(give,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Friends Lyrics.txt_16-142  [you,a,hit]  [provide_expl_just(give,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Friends Lyrics.txt_17-159  [we,share,more,of,it]  [provide_expl_just(share,[external,factive,narration,background,objective])]
+Friends Lyrics.txt_18-177  [maybe,i,will,drown]  [provide_expl_just(drown,[external,nonfactive,narration,background,objective])]
+Friends Lyrics.txt_19-196  [it,is,me,who,brought,you,down]  [provide_expl_just(bring,[external,factive,narration,foreground,objective])]
+Friends Lyrics.txt_20-217  [all,my,friends,are,lying]  [provide_expl_just(lie,[external,factive,cause,foreground,objective])]
+Friends Lyrics.txt_21-238  [all,my,friends,are,dying]  [provide_expl_just(die,[external,factive,narration,foreground,objective])]
+Friends Lyrics.txt_22-260  [you,used,to,be,my,friend]  [provide_expl_just(use,[external,factive,cause,foreground,objective])]
+Friends Lyrics.txt_23-284  [i,think]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Friends Lyrics.txt_23-285  [that,is,gonna,end]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Friends Lyrics.txt_24-309  [how_long,can,try]  [provide_expl_just(can,[external,nonfactive,narration,foreground,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Friends Lyrics.txt_25-335  [i,am,scared]  [reject_expl_just(scare,[external,factive,narration,background,objective]),reject_expl_just(gonna,[external,factive,narration,background,objective]),reject_expl_just(die,[external,factive,narration,background,objective])]
+Friends Lyrics.txt_25-336  [your,gonna]  [provide_expl_just(scare,[external,factive,narration,background,objective]),provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(die,[external,factive,narration,background,objective])]
+Friends Lyrics.txt_25-337  [die]  [reject_expl_just(scare,[external,factive,narration,background,objective]),reject_expl_just(gonna,[external,factive,narration,background,objective]),reject_expl_just(die,[external,factive,narration,background,objective])]
+Friends Lyrics.txt_26-363  [maybe,i,will,drown]  [provide_expl_just(drown,[external,nonfactive,narration,background,objective])]
+Friends Lyrics.txt_27-390  [it,is,me,who,brought,you,down]  [provide_expl_just(bring,[external,factive,narration,foreground,objective])]
+Friends Lyrics.txt_28-419  [all,my,friends,are,lying,down]  [provide_expl_just(lie,[external,factive,cause,foreground,objective])]
+Friends Lyrics.txt_29-448  [all,my,friends,are,dying]  [provide_expl_just(die,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Friends Lyrics.txt_1-1)-[emotions-affection]
+2-(Friends Lyrics.txt_2-3)-[primary-concreteness]
+3-(Friends Lyrics.txt_3-7)-[secondary-social_behavior]
+4-(Friends Lyrics.txt_4-12)-[primary-counscious,primary-anality]
+5-(Friends Lyrics.txt_5-17)-[]
+6-(Friends Lyrics.txt_6-23)-[secondary-abstract_tought]
+7-(Friends Lyrics.txt_7-30)-[emotions-aggression]
+8-(Friends Lyrics.txt_8-39)-[]
+9-(Friends Lyrics.txt_9-48)-[secondary-temporal_repere,primary-passivity]
+10-(Friends Lyrics.txt_9-49)-[]
+11-(Friends Lyrics.txt_10-59)-[emotions-affection]
+12-(Friends Lyrics.txt_11-70)-[emotions-affection,primary-passivity]
+13-(Friends Lyrics.txt_12-82)-[secondary-instru_behavior]
+14-(Friends Lyrics.txt_13-95)-[]
+15-(Friends Lyrics.txt_14-109)-[emotions-positive_affect]
+16-(Friends Lyrics.txt_15-124)-[secondary-temporal_repere,primary-passivity]
+17-(Friends Lyrics.txt_15-125)-[]
+half
+18-(Friends Lyrics.txt_16-141)-[]
+19-(Friends Lyrics.txt_16-142)-[emotions-aggression]
+20-(Friends Lyrics.txt_17-159)-[secondary-social_behavior]
+21-(Friends Lyrics.txt_18-177)-[secondary-abstract_tought]
+22-(Friends Lyrics.txt_19-196)-[]
+23-(Friends Lyrics.txt_20-217)-[emotions-affection]
+24-(Friends Lyrics.txt_21-238)-[emotions-affection,primary-passivity]
+25-(Friends Lyrics.txt_22-260)-[secondary-instru_behavior,emotions-affection]
+26-(Friends Lyrics.txt_23-284)-[secondary-abstract_tought]
+27-(Friends Lyrics.txt_23-285)-[]
+28-(Friends Lyrics.txt_24-309)-[secondary-instru_behavior]
+29-(Friends Lyrics.txt_25-335)-[emotions-anxiety]
+30-(Friends Lyrics.txt_25-336)-[]
+31-(Friends Lyrics.txt_25-337)-[primary-passivity]
+32-(Friends Lyrics.txt_26-363)-[secondary-abstract_tought]
+33-(Friends Lyrics.txt_27-390)-[]
+34-(Friends Lyrics.txt_28-419)-[emotions-affection]
+35-(Friends Lyrics.txt_29-448)-[emotions-affection,primary-passivity]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Friends Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Rusty-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,friend,sn1),def_prop(Rusty,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Friends Lyrics.txt_2,3,nil-nil-nil-long-[subj-prop-conversation-sn1,def_prop(conversation,[attivita,informa])])
+lf(Friends Lyrics.txt_2,3,cl2-nil-nil-take-[subj-agent-conversation-sn1,def_prop(conversation,[attivita,informa])])
+lf(Friends Lyrics.txt_3,7,cl4-nil-nil-wrong-[subj-theme_aff-you-sn2,def_prop(you,[umano])])
+lf(Friends Lyrics.txt_3,7,cl3-nil-nil-say-[subj-actor-you-sn2,subj-actor-you-sn1,and(you,all,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Friends Lyrics.txt_4,12,cl5-nil-nil-shit-[subj-agent-paranoid-sn1,def_prop(paranoid,[umano])])
+lf(Friends Lyrics.txt_5,17,cl6-nil-will-take-[expl-it-nil,adj-(mod)-no_more-nil,ncmod-specif-it-sn2,subj-agent-i-sn1,def_prop(it,[any]),def_prop(i,[umano])])
+lf(Friends Lyrics.txt_6,23,cl7-nil-nil-be-[xcomp-prop-same-sn2,subj-theme_bound-i-sn1,def_prop(same,[deittico]),def_prop(i,[umano])])
+lf(Friends Lyrics.txt_7,30,cl9-nil-nil-blame-[subj-theme-me-sn2,def_prop(me,[umano])])
+lf(Friends Lyrics.txt_7,30,cl8-nil-could-be-[xcomp-prop-me-sn2,subj-theme_bound-i-sn1,def_prop(me,[umano]),def_prop(i,[umano])])
+lf(Friends Lyrics.txt_8,39,cl10-nil-nil-justify-[obj-theme-ne-sn2,subj-agent-you-sn1,def_prop(ne,[informa,legale,tecno]),def_prop(you,[umano])])
+lf(Friends Lyrics.txt_9,48,cl12-nil-nil-bleed-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Friends Lyrics.txt_9,48,cl11-nil-nil-lie-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Friends Lyrics.txt_10,59,cl13-nil-nil-lie-[subj-actor-you-sn1,aux-are-nil,progr-lying-nil,def_prop(you,[umano])])
+lf(Friends Lyrics.txt_11,70,cl14-nil-nil-die-[subj-theme_aff-you-sn1,aux-are-nil,progr-dying-nil,def_prop(you,[umano])])
+lf(Friends Lyrics.txt_12,82,cl15-nil-nil-make-[xcomp-prop-ill-sn3,obj-goal-me-sn2,subj-agent-theory-sn1,def_prop(ill,[stato]),def_prop(me,[umano]),def_prop(theory,[astratto])])
+lf(Friends Lyrics.txt_13,95,cl16-nil-nil-sit-[adj-(mod)-still-nil,subj-actor-i_wish-sn1,aux-had-nil,and(i_wish,you,sn1),def_prop(i_wish,[astratto,attivita,emotivo,informa])])
+lf(Friends Lyrics.txt_14,109,cl17-nil-nil-satisfy-[obj-experiencer-ne-sn2,subj-agent-you-sn1,def_prop(ne,[informa,legale,tecno]),def_prop(you,[umano])])
+lf(Friends Lyrics.txt_15,124,cl19-nil-nil-bleed-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Friends Lyrics.txt_15,124,cl18-nil-nil-lie-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Friends Lyrics.txt_16,141,cl21-nil-nil-be-[xcomp-prop-hit-sn3,subj-theme_bound-you-sn2,def_prop(hit,[attivita,oggetto,strumento]),def_prop(you,[umano])])
+lf(Friends Lyrics.txt_16,141,cl20-nil-nil-give-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Friends Lyrics.txt_17,159,cl22-nil-nil-share-[obj-theme-more-sn2,subj-agent-we-sn1,def_prop(more,[astratto,informa,oggetto]),def_prop(we,[umano])])
+lf(Friends Lyrics.txt_18,177,cl23-nil-will-drown-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Friends Lyrics.txt_19,196,cl25-nil-nil-bring-[subj-agent-me-sn2,def_prop(me,[umano])])
+lf(Friends Lyrics.txt_19,196,cl24-nil-nil-be-[xcomp-prop-me-sn2,subj-theme_bound-it-sn1,def_prop(me,[umano]),def_prop(it,[any])])
+lf(Friends Lyrics.txt_20,217,cl26-nil-nil-lie-[subj-actor-you-sn1,aux-are-nil,progr-lying-nil,def_prop(you,[umano])])
+lf(Friends Lyrics.txt_21,238,cl27-nil-nil-die-[subj-theme_aff-you-sn1,aux-are-nil,progr-dying-nil,def_prop(you,[umano])])
+lf(Friends Lyrics.txt_22,260,cl29-nil-nil-be-[xcomp-prop-friend-sn2,xcomp-purpose-be-2,def_prop(friend,[umano])])
+lf(Friends Lyrics.txt_22,260,cl28-nil-nil-use-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Friends Lyrics.txt_23,284,cl31-nil-nil-be-[xcomp-prop-end-sn2,def_prop(end,[tempo])])
+lf(Friends Lyrics.txt_23,284,cl30-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Friends Lyrics.txt_24,309,cl33-nil-nil-try-[])
+lf(Friends Lyrics.txt_24,309,cl32-nil-can-can-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Friends Lyrics.txt_25,335,cl35-nil-nil-die-[subj-theme_aff-you-sn3,def_prop(you,[umano])])
+lf(Friends Lyrics.txt_25,335,nil-nil-nil-gonna-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Friends Lyrics.txt_25,335,cl34-nil-nil-scare-[subj-experiencer-you-sn1,aux-am-nil,def_prop(you,[umano])])
+lf(Friends Lyrics.txt_26,363,cl36-nil-will-drown-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Friends Lyrics.txt_27,390,cl38-nil-nil-bring-[subj-agent-me-sn2,def_prop(me,[umano])])
+lf(Friends Lyrics.txt_27,390,cl37-nil-nil-be-[xcomp-prop-me-sn2,subj-theme_bound-it-sn1,def_prop(me,[umano]),def_prop(it,[any])])
+lf(Friends Lyrics.txt_28,419,cl39-nil-nil-lie-[adj-(mod)-down-nil,subj-actor-friend-sn1,aux-are-nil,progr-lying-nil,and(friend,all,sn1),def_prop(friend,[umano])])
+lf(Friends Lyrics.txt_29,448,cl40-nil-nil-die-[subj-theme_aff-you-sn1,aux-are-nil,progr-dying-nil,def_prop(you,[umano])])

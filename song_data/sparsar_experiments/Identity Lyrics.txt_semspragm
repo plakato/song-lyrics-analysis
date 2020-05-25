@@ -1,0 +1,110 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Identity Lyrics.txt_1-1  []-positive  []
+Identity Lyrics.txt_2-3  []-suspension  [neg,neg]
+Identity Lyrics.txt_3-8  []-positive  []
+Identity Lyrics.txt_4-12  [when-temp_coinc]-positive  []
+Identity Lyrics.txt_5-17  []-positive  []
+Identity Lyrics.txt_6-24  []-positive  []
+Identity Lyrics.txt_7-32  []-positive  []
+Identity Lyrics.txt_8-40  []-positive  []
+Identity Lyrics.txt_9-49  []-positive  []
+Identity Lyrics.txt_10-59  []-positive  []
+Identity Lyrics.txt_11-71  [when-temp_coinc]-positive  []
+Identity Lyrics.txt_11-72  []-positive  []
+Identity Lyrics.txt_12-84  []-positive  [neg]
+Identity Lyrics.txt_13-99  [when-temp_coinc]-positive  []
+Identity Lyrics.txt_14-113  []-positive  [neg]
+Identity Lyrics.txt_15-128  []-positive  []
+Identity Lyrics.txt_16-145  []-negative  [fgb,neg]
+Identity Lyrics.txt_17-162  []-positive  []
+Identity Lyrics.txt_18-180  []-positive  []
+Identity Lyrics.txt_19-199  [before-temp_prec]-positive  []
+Identity Lyrics.txt_20-219  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Identity Lyrics.txt_1-1  [identity,Lyrics,by,X-Ray,Spex]  [title]
+Identity Lyrics.txt_2-3  [identity,is,the,crisis,can,not,you,see]  [propose_opin(can,[external,nonfactive,narration,foreground,objective]),provide_expl_just(can,[external,nonfactive,narration,foreground,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),propose_opin_neg(see,[external,factive,explanation,background,objective])]
+Identity Lyrics.txt_3-8  [identity,identity]  [raise_issue(be,[_31988,factive,statement,_32006,subjective])]
+Identity Lyrics.txt_4-12  [when,you,look,in,the,mirror]  [provide_expl_just(look,[external,factive,narration,background,objective])]
+Identity Lyrics.txt_5-17  [do,you,see,yourself]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Identity Lyrics.txt_6-24  [do,you,see,yourself]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Identity Lyrics.txt_7-32  [on,the,T]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Identity Lyrics.txt_8-40  [V]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Identity Lyrics.txt_9-49  [screen]  [raise_issue(be,[_32504,factive,statement,_32522,subjective])]
+Identity Lyrics.txt_10-59  [do,you,see,yourself,in,the,magazine]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Identity Lyrics.txt_11-71  [when,you,see]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Identity Lyrics.txt_11-72  [yourself]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Identity Lyrics.txt_12-84  [does,it,make,you,scream]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(scream,[external,factive,narration,background,objective])]
+Identity Lyrics.txt_13-99  [when,you,look,in,the,mirror]  [provide_expl_just(look,[external,factive,narration,background,objective])]
+Identity Lyrics.txt_14-113  [do,you,smash,it,quick]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Identity Lyrics.txt_15-128  [do,you,take,the,glass]  [provide_expl_just(take,[external,factive,narration,background,objective])]
+Identity Lyrics.txt_16-145  [and,your,wrists,slash]  [reject_expl_just(slash,[external,factive,narration,background,objective])]
+Identity Lyrics.txt_17-162  [did,you,do_it,for,fame]  [provide_expl_just(do,[external,factive,narration,background,objective])]
+Identity Lyrics.txt_18-180  [did,you,do_it,in,a,fit]  [provide_expl_just(do,[external,factive,narration,background,objective])]
+Identity Lyrics.txt_19-199  [did,you,do_it,before]  [provide_expl_just(do,[external,factive,narration,background,objective])]
+Identity Lyrics.txt_20-219  [you,read,about,it]  [provide_expl_just(read,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Identity Lyrics.txt_1-1)-[]
+2-(Identity Lyrics.txt_2-3)-[emotions-anxiety,primary-vision]
+3-(Identity Lyrics.txt_3-8)-[]
+4-(Identity Lyrics.txt_4-12)-[secondary-temporal_repere,primary-vision]
+5-(Identity Lyrics.txt_5-17)-[primary-vision]
+6-(Identity Lyrics.txt_6-24)-[primary-vision]
+7-(Identity Lyrics.txt_7-32)-[]
+8-(Identity Lyrics.txt_8-40)-[]
+9-(Identity Lyrics.txt_9-49)-[primary-diffusion]
+10-(Identity Lyrics.txt_10-59)-[primary-vision]
+half
+11-(Identity Lyrics.txt_11-71)-[secondary-temporal_repere,primary-vision]
+12-(Identity Lyrics.txt_11-72)-[]
+13-(Identity Lyrics.txt_12-84)-[secondary-instru_behavior,emotions-expressive_beh]
+14-(Identity Lyrics.txt_13-99)-[secondary-temporal_repere,primary-vision]
+15-(Identity Lyrics.txt_14-113)-[emotions-aggression,secondary-temporal_repere]
+16-(Identity Lyrics.txt_15-128)-[primary-hard]
+17-(Identity Lyrics.txt_16-145)-[primary-narcissism]
+18-(Identity Lyrics.txt_17-162)-[emotions-glory]
+19-(Identity Lyrics.txt_18-180)-[]
+20-(Identity Lyrics.txt_19-199)-[]
+21-(Identity Lyrics.txt_20-219)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Identity Lyrics.txt_1,1,cl1-nil-nil-x-ray-[obj-theme-Spex-sn2,subj-agent-Lyrics-sn1,and(Lyrics,identity,sn1),def_prop(Spex,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Identity Lyrics.txt_2,3,cl4-not-nil-see-[subj-experiencer-pro-nil,subj-experiencer-you-sn5,subj-experiencer-you-sn4,subj-actor-you-sn3,def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Identity Lyrics.txt_2,3,cl3-nil-can-can-[subj-actor-you-sn3,subj-actor-crisis-sn2,def_prop(you,[umano]),def_prop(crisis,[evento,stato])])
+lf(Identity Lyrics.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-identity-sn1,def_prop(identity,[astratto,relat])])
+lf(Identity Lyrics.txt_3,8,cl5-nil-nil-say-[obj-theme_unaff-identity-sn1,and(identity,identity,sn1),def_prop(identity,[astratto,relat])])
+lf(Identity Lyrics.txt_4,12,cl6-nil-nil-look-[iobj-goal-mirror-sn3,xcomp-theme-when-sn2,subj-agent-you-sn1,def_prop(mirror,[astratto,oggetto,strumento]),def_prop(when,[tempo]),def_prop(you,[umano])])
+lf(Identity Lyrics.txt_5,17,cl8-nil-nil-see-[obj-actor-yourself-sn2,xcomp-purpose-see-2,def_prop(yourself,[istituzione])])
+lf(Identity Lyrics.txt_5,17,cl7-nil-nil-do-[subj-theme_unaff-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Identity Lyrics.txt_6,24,cl10-nil-nil-see-[obj-actor-yourself-sn2,xcomp-purpose-see-2,def_prop(yourself,[istituzione])])
+lf(Identity Lyrics.txt_6,24,cl9-nil-nil-do-[subj-theme_unaff-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Identity Lyrics.txt_7,32,cl11-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Identity Lyrics.txt_8,40,cl12-nil-nil-say-[obj-theme_unaff-V-sn1,def_prop(V,[attivita,edible,informa,nquant,oggetto])])
+lf(Identity Lyrics.txt_9,49,cl13-nil-nil-say-[obj-theme_unaff-screen-sn1,def_prop(screen,[oggetto,strumento])])
+lf(Identity Lyrics.txt_10,59,cl15-nil-nil-see-[iobj-goal-magazine-sn3,obj-actor-yourself-sn2,xcomp-purpose-see-2,def_prop(magazine,[attivita,informa,istituzione,oggetto,strumento]),def_prop(yourself,[istituzione])])
+lf(Identity Lyrics.txt_10,59,cl14-nil-nil-do-[subj-theme_unaff-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Identity Lyrics.txt_11,71,cl17-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Identity Lyrics.txt_11,71,cl16-nil-nil-see-[obj-theme-when-sn2,subj-experiencer-you-sn1,def_prop(when,[tempo]),def_prop(you,[umano])])
+lf(Identity Lyrics.txt_12,84,cl20-nil-nil-scream-[obj-agent-you-sn2,xcomp-purpose-make-3,def_prop(you,[umano])])
+lf(Identity Lyrics.txt_12,84,cl19-nil-nil-make-[])
+lf(Identity Lyrics.txt_12,84,cl18-nil-nil-do-[subj-theme_unaff-it-sn1,aux-does-nil,def_prop(it,[any])])
+lf(Identity Lyrics.txt_13,99,cl21-nil-nil-look-[iobj-goal-mirror-sn3,xcomp-theme-when-sn2,subj-agent-you-sn1,def_prop(mirror,[astratto,oggetto,strumento]),def_prop(when,[tempo]),def_prop(you,[umano])])
+lf(Identity Lyrics.txt_14,113,cl22-nil-nil-do-[xcomp-prop-quick-sn4,xcomp-actor-it-sn3,adj-subj_disc-smash-sn2,subj-theme_unaff-you-sn1,aux-do-nil,def_prop(quick,[valutativo]),def_prop(it,[any]),def_prop(smash,[istituzione]),def_prop(you,[umano])])
+lf(Identity Lyrics.txt_15,128,cl24-nil-nil-take-[obj-theme-glass-sn2,xcomp-purpose-take-2,def_prop(glass,[nquant,oggetto,sostanza,strumento])])
+lf(Identity Lyrics.txt_15,128,cl23-nil-nil-do-[subj-theme_unaff-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Identity Lyrics.txt_16,145,cl25-nil-nil-slash-[cmod-subord-slash-",subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Identity Lyrics.txt_17,162,cl26-nil-nil-do-[xcomp-theme-fame-sn3,xcomp-actor-do_it-sn2,subj-theme_unaff-you-sn1,aux-did-nil,def_prop(fame,[stato]),def_prop(do_it,[attivita,informa]),def_prop(you,[umano])])
+lf(Identity Lyrics.txt_18,180,cl27-nil-nil-do-[xcomp-actor-do_it-sn2,subj-theme_unaff-you-sn1,aux-did-nil,def_prop(do_it,[attivita,informa]),def_prop(you,[umano])])
+lf(Identity Lyrics.txt_19,199,cl28-nil-nil-do-[adj-subj_disc-before-sn3,xcomp-actor-do_it-sn2,subj-theme_unaff-you-sn1,aux-did-nil,def_prop(before,[istituzione]),def_prop(do_it,[attivita,informa]),def_prop(you,[umano])])
+lf(Identity Lyrics.txt_20,219,cl29-nil-nil-read-[iobj-goal-it-sn2,subj-agent-you-sn1,def_prop(it,[any]),def_prop(you,[umano])])

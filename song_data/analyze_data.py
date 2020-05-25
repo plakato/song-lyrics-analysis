@@ -1,5 +1,4 @@
 import json
-import pycld2 as cld2
 
 
 def filter_unique(input_file, output_file):

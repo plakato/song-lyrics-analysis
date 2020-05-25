@@ -1,0 +1,94 @@
+"POLARITY, DISCOURSE MARKERS"
+
+We are Elite Lyrics.txt_1-1  []-positive  []
+We are Elite Lyrics.txt_1-2  []-positive  []
+We are Elite Lyrics.txt_2-3  []-positive  []
+We are Elite Lyrics.txt_3-6  []-negative  [neg,neg]
+We are Elite Lyrics.txt_4-11  []-positive  [neg,fhd]
+We are Elite Lyrics.txt_5-16  []-positive  [fhd,neg]
+We are Elite Lyrics.txt_6-22  []-positive  []
+We are Elite Lyrics.txt_7-29  []-positive  []
+We are Elite Lyrics.txt_8-37  []-positive  [fgb]
+We are Elite Lyrics.txt_9-47  []-negative  [neg]
+We are Elite Lyrics.txt_10-57  []-positive  []
+We are Elite Lyrics.txt_11-68  []-negative  [neg]
+We are Elite Lyrics.txt_12-82  []-negative  [neg]
+We are Elite Lyrics.txt_13-95  []-positive  []
+We are Elite Lyrics.txt_15-124  []-positive  [bkc]
+We are Elite Lyrics.txt_16-140  []-negative  [neg,neg]
+We are Elite Lyrics.txt_16-141  []-positive  []
+We are Elite Lyrics.txt_17-158  []-suspension  [fgb,neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+We are Elite Lyrics.txt_1-1  [we,are,Elite,Lyrics,by,Yung]  [title]
+We are Elite Lyrics.txt_1-2  [69,&,0ld,420]  [raise_issue(be,[_803020,factive,statement,_803038,subjective])]
+We are Elite Lyrics.txt_2-3  [im,top,5]  [provide_expl_just(top,[external,factive,explanation,background,objective])]
+We are Elite Lyrics.txt_3-6  [bitch,you,is,even,not,top,25]  [reject_expl_just(top,[external,factive,explanation,background,objective]),propose_opin_neg(top,[external,factive,explanation,background,objective]),reject_expl_just(bitch,[external,factive,explanation,background,objective]),propose_opin_neg(bitch,[external,factive,explanation,background,objective])]
+We are Elite Lyrics.txt_4-11  [taking,out,the,trash,like,listening,to,ab-soul]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+We are Elite Lyrics.txt_5-16  [or,even,worse,listening,to,j,cole]  [provide_expl_just(listen,[external,factive,narration,foreground,objective])]
+We are Elite Lyrics.txt_6-22  [69,Yung,about,to]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+We are Elite Lyrics.txt_7-29  [sixty,nine]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+We are Elite Lyrics.txt_8-37  [with,ur,m0m,after,we,wine,and,dine]  [provide_expl_just(wine,[external,factive,narration,background,objective]),provide_expl_just(dine,[external,factive,narration,background,objective])]
+We are Elite Lyrics.txt_9-47  [waddup,BROKE,NEGUS]  [reject_expl_just(break,[external,factive,cause,foreground,objective])]
+We are Elite Lyrics.txt_10-57  [ya,Boi,0ld,420,in,the,house]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+We are Elite Lyrics.txt_11-68  [gonna,tear,this,biotch,up,ya,hear]  [reject_expl_just(gonna,[external,factive,narration,background,objective]),reject_expl_just(tear,[external,factive,narration,background,objective]),reject_expl_just(hear,[external,factive,narration,background,objective])]
+We are Elite Lyrics.txt_12-82  [chillaxen,in,the,cut]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+We are Elite Lyrics.txt_13-95  [word,up]  [provide_expl_just(word,[external,factive,narration,background,objective])]
+We are Elite Lyrics.txt_15-124  [yeah,,,Fararri,in,the,back,lot]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+We are Elite Lyrics.txt_16-140  [hellicopter,bout,cop,up,in,the,stash]  [reject_expl_just(cop,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+We are Elite Lyrics.txt_16-141  [spot]  [provide_expl_just(cop,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+We are Elite Lyrics.txt_17-158  [got,your,girl,and,she,chillin,on,my,black,cock]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(We are Elite Lyrics.txt_1-1)-[]
+2-(We are Elite Lyrics.txt_1-2)-[]
+3-(We are Elite Lyrics.txt_2-3)-[primary-height]
+4-(We are Elite Lyrics.txt_3-6)-[primary-sex,primary-height]
+5-(We are Elite Lyrics.txt_4-11)-[primary-concreteness,emotions-affection]
+6-(We are Elite Lyrics.txt_5-16)-[]
+7-(We are Elite Lyrics.txt_6-22)-[]
+8-(We are Elite Lyrics.txt_7-29)-[]
+9-(We are Elite Lyrics.txt_8-37)-[secondary-instru_behavior,primary-orality]
+half
+10-(We are Elite Lyrics.txt_9-47)-[]
+11-(We are Elite Lyrics.txt_10-57)-[]
+12-(We are Elite Lyrics.txt_11-68)-[primary-orality,primary-sound]
+13-(We are Elite Lyrics.txt_12-82)-[emotions-aggression]
+14-(We are Elite Lyrics.txt_13-95)-[]
+15-(We are Elite Lyrics.txt_15-124)-[primary-concreteness]
+16-(We are Elite Lyrics.txt_16-140)-[]
+17-(We are Elite Lyrics.txt_16-141)-[]
+18-(We are Elite Lyrics.txt_17-158)-[primary-cold]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(We are Elite Lyrics.txt_1,1,cl1-nil-nil-be-[subj-theme_bound-69-sn4,arg_mod-agent-Yung-sn3,xcomp-prop-Lyrics-sn2,subj-theme_bound-we-sn1,and(Lyrics,Elite,sn2),def_prop(69,[nquant]),def_prop(Yung,[umano]),def_prop(Lyrics,[informa,tecno]),def_prop(we,[umano])])
+lf(We are Elite Lyrics.txt_2,3,cl2-nil-nil-top-[obj-source-5-sn2,subj-agent-im-sn1,def_prop(5,[nquant]),def_prop(im,[legale])])
+lf(We are Elite Lyrics.txt_3,6,cl4-nil-nil-top-[obj-source-25-sn3,xcomp-purpose-top-2,def_prop(25,[nquant])])
+lf(We are Elite Lyrics.txt_3,6,cl3-nil-nil-bitch-[subj-actor-you-sn2,subj-actor-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(We are Elite Lyrics.txt_4,11,nil-nil-nil-like-[ncmod-goal-ab-soul-sn4,xcomp-agent-listening-sn3,ncmod-locativo-trash-sn2,subj-agent-you-sn1,def_prop(ab-soul,[attivita,emotivo,informa,umano]),def_prop(listening,[attivita]),def_prop(trash,[istituzione,oggetto,strumento]),def_prop(you,[umano])])
+lf(We are Elite Lyrics.txt_5,16,cl5-nil-nil-listen-[cmod-subord-listen-",iobj-goal-cole-sn2,subj-agent-worse-sn1,and(cole,j,sn2),def_prop(cole,[edible,plant]),def_prop(worse,[astratto])])
+lf(We are Elite Lyrics.txt_6,22,cl6-nil-nil-be-[subj-theme_bound-Yung-sn1,and(Yung,69,sn1),def_prop(Yung,[umano])])
+lf(We are Elite Lyrics.txt_7,29,cl7-nil-nil-say-[obj-theme_unaff-sixty-sn1,and(sixty,sixty,sn1),def_prop(sixty,[nquant])])
+lf(We are Elite Lyrics.txt_8,37,cl9-nil-nil-dine-[cmod-subord-dine-after,subj-agent-pro-nil])
+lf(We are Elite Lyrics.txt_8,37,cl8-nil-nil-wine-[subj-actor-we-sn3,def_prop(we,[umano])])
+lf(We are Elite Lyrics.txt_9,47,cl10-nil-nil-break-[obj-theme_aff-negus-sn2,subj-agent-waddup-sn1,def_prop(negus,[edible,oggetto]),def_prop(waddup,[istituzione])])
+lf(We are Elite Lyrics.txt_10,57,cl11-nil-nil-be-[ncmod-locativo-house-sn2,subj-theme_bound-0ld-sn1,and(0ld,Boi,sn1),and(0ld,0ld,sn1),def_prop(house,[attivita,istituzione,oggetto,strumento]),def_prop(0ld,[nquant])])
+lf(We are Elite Lyrics.txt_11,68,cl13-nil-nil-hear-[])
+lf(We are Elite Lyrics.txt_11,68,cl12-nil-nil-tear-[])
+lf(We are Elite Lyrics.txt_11,68,nil-nil-nil-gonna-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,obj-theme-ya-sn3,obj-theme_aff-biotch-sn2,subj-agent-you-sn1,and(biotch,this,sn2),def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(ya,[legale]),def_prop(biotch,[istituzione]),def_prop(you,[umano])])
+lf(We are Elite Lyrics.txt_12,82,cl14-nil-nil-be-[ncmod-locativo-cut-sn2,subj-theme_bound-chillaxen-sn1,def_prop(cut,[astratto,attivita,edible,informa,oggetto,stato,strumento]),def_prop(chillaxen,[istituzione])])
+lf(We are Elite Lyrics.txt_13,95,cl15-nil-nil-word-[adj-subj_disc-up-sn2,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(you,[umano])])
+lf(We are Elite Lyrics.txt_14,109,cl16-nil-nil-be-[])
+lf(We are Elite Lyrics.txt_15,124,cl17-nil-nil-be-[adj-(mod)-yeah-nil,ncmod-locativo-lot-sn2,subj-theme_bound-Fararri-sn1,and(lot,back,sn2),def_prop(lot,[luogo,nquant]),def_prop(Fararri,[istituzione,umano])])
+lf(We are Elite Lyrics.txt_16,140,cl19-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(We are Elite Lyrics.txt_16,140,cl18-nil-nil-cop-[adj-(mod)-up-nil,ncmod-locativo-stash-sn2,subj-actor-bout-sn1,and(bout,hellicopter,sn1),def_prop(stash,[oggetto]),def_prop(bout,[attivita,informa,tempo])])
+lf(We are Elite Lyrics.txt_17,158,cl20-nil-nil-get-[cmod-subord-get-",ncmod-locativo-black-sn7,obj-theme_unaff-girl-sn2,subj-agent-you-sn1,def_prop(black,[astratto,oggetto,strumento]),def_prop(girl,[oggetto,strumento]),def_prop(you,[umano])])

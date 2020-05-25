@@ -5,18 +5,22 @@ from analyze_data import save_dataset
 import json
 import re
 import numpy as np
+import pycld2 as cld2
 
 
 # Keep only is_music
 # Add "lang", "very_short"
 # Keep only useful attributes
+# Remove SPARSAR prohibited characters.
+# Add song ID.
 def create_clean_dataset(input_file, output_file):
     with open(input_file) as input:
         data = json.load(input)
         new_data = []
+        idx = 0
         selected_attr = ['lyrics', 'title', 'album', 'genre', 'artist', 'url', 'rg_artist_id', 'rg_type', 'rg_tag_id', 'rg_song_id', 'rg_album_id', 'rg_created', 'has_featured_video', 'has_verified_callout', 'has_featured_annotation']
         for song in data:
-            if song['is_music'] != 'true':
+            if 'is_music' in song and (song['is_music'] != 'true'):
                 continue
             try:
                 lyrics = ''.join(song['lyrics'])
@@ -28,9 +32,17 @@ def create_clean_dataset(input_file, output_file):
             if len(song['lyrics']) < 10:
                 very_short = True
             new_song = { attr: song[attr] for attr in selected_attr }
+            # Replace SPARSAR prohibited characters in the lyrics.
+            for i in range(len(song['lyrics'])):
+                new_song['lyrics'][i] = song['lyrics'][i]\
+                    .replace('’', "'") \
+                    .replace('"', '')
             new_song['very_short'] = very_short
             new_song['lang'] = lang
+            new_song['id'] = idx
+            new_song['title'] = song['title'].replace('/', '')
             new_data.append(new_song)
+            idx += 1
     # Print new data.
     with open(output_file, 'w+') as output:
         output.write('[\n')
@@ -166,3 +178,5 @@ def clean_all_songs(file):
 
 # create_individual_files('data/shuffled_lyrics/100ENlyrics_cleaned'
 #                         '.json')
+create_clean_dataset('data/ENlyrics_cleaned.json',
+                     'data/ENlyrics_cleaned2.json')

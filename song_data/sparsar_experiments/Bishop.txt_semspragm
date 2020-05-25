@@ -1,0 +1,161 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Bishop.txt_1-1  []-positive  []
+Bishop.txt_2-3  []-negative  [neg]
+Bishop.txt_3-6  []-positive  []
+Bishop.txt_4-10  []-suspension  [neg,neg]
+Bishop.txt_5-15  []-negative  [neg]
+Bishop.txt_6-21  []-negative  [neg]
+Bishop.txt_7-28  [(as)-temp_coinc]-positive  [fgb,neg]
+Bishop.txt_8-36  []-positive  [fgb]
+Bishop.txt_9-46  []-positive  []
+Bishop.txt_10-56  [when-temp_coinc]-positive  [neg]
+Bishop.txt_11-67  []-negative  []
+Bishop.txt_11-68  []-positive  []
+Bishop.txt_12-80  []-negative  [neg]
+Bishop.txt_13-93  [(as)-temp_coinc]-negative  [neg]
+Bishop.txt_13-93  [(as)-temp_coinc]-negative  [neg]
+Bishop.txt_14-108  []-positive  [neg,neg]
+Bishop.txt_15-123  []-negative  [fgb,neg]
+Bishop.txt_16-139  []-negative  [neg]
+Bishop.txt_17-156  [(as)-temp_coinc]-positive  [fgb,neg]
+Bishop.txt_18-174  []-negative  [fgb]
+Bishop.txt_19-194  []-positive  []
+Bishop.txt_20-214  []-negative  [neg]
+Bishop.txt_21-236  []-question  [neg]
+Bishop.txt_22-259  []-positive  []
+Bishop.txt_23-282  []-negative  [neg]
+Bishop.txt_23-283  []-positive  []
+Bishop.txt_24-307  []-positive  []
+Bishop.txt_25-332  []-positive  []
+Bishop.txt_26-358  []-positive  []
+Bishop.txt_27-385  []-positive  []
+Bishop.txt_28-413  []-positive  []
+Bishop.txt_29-442  []-positive  []
+Bishop.txt_30-472  []-positive  []
+Bishop.txt_31-503  []-positive  []
+Bishop.txt_32-535  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Bishop.txt_1-1  [bishop,by,Xiu,Xiu]  [title]
+Bishop.txt_2-3  [this,blue,dot,of,sickly,light]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Bishop.txt_3-6  [that,is,daytime,in,your,embarassed,town]  [provide_expl_just(town,[internal,factive,narration,background,objective])]
+Bishop.txt_4-10  [burns,a,hole,in,the,fading,yellow,ribbon]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Bishop.txt_5-15  [on,your,fading,wine,colored,Cavalier]  [reject_expl_just(fade,[external,factive,narration,foreground,objective])]
+Bishop.txt_6-21  [the,mine,has,fallen,down,on,you]  [reject_expl_just(fall,[external,factive,narration,background,objective])]
+Bishop.txt_7-28  [as,you,dug,a,well,of,death]  [provide_expl_just(dig,[external,factive,narration,foreground,objective])]
+Bishop.txt_8-36  [milk,and,water,sugar]  [provide_expl_just(milk,[external,factive,narration,background,objective]),provide_expl_just(sugar,[external,factive,narration,background,objective])]
+Bishop.txt_9-46  [in,brief,sympathy,with,them]  [provide_expl_just(brief,[external,factive,narration,background,objective])]
+Bishop.txt_10-56  [when,we,see,the,hate,in,your,eyes]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Bishop.txt_11-67  [it,doesn-t,make,us]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Bishop.txt_11-68  [better,men]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Bishop.txt_12-80  [the,mine,has,crushed,your,brother]  [reject_expl_just(crush,[external,factive,narration,background,objective])]
+Bishop.txt_13-93  [as,he,ruined,our,rotting]  [reject_expl_just(ruin,[external,factive,narration,foreground,objective])]
+Bishop.txt_13-93  [as,he,ruined,our,rotting,sky]  [reject_expl_just(ruin,[external,factive,narration,foreground,objective])]
+Bishop.txt_14-108  [a,white,hot,blast,of,black,hot,powder]  [provide_expl_just(blast,[external,factive,narration,background,objective])]
+Bishop.txt_15-123  [and,you,lapse,into,a,real,boy]  [reject_expl_just(lapse,[external,factive,narration,background,objective])]
+Bishop.txt_16-139  [the,mine,has,fallen,down,on,you]  [reject_expl_just(fall,[external,factive,narration,background,objective])]
+Bishop.txt_17-156  [as,you,dug,a,well,of,death]  [provide_expl_just(dig,[external,factive,narration,foreground,objective])]
+Bishop.txt_18-174  [tears,and,water,flow,sugar]  [provide_expl_just(tear,[external,factive,narration,background,objective]),provide_expl_just(sugar,[external,factive,narration,background,objective])]
+Bishop.txt_19-194  [in,briefest,sympathy,with,them]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bishop.txt_20-214  [should,you,be,ashamed,for,more_than,that]  [reject_expl_just(shall,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Bishop.txt_21-236  [silly,you,raped,daddy,your,that,than,?]  [provide_expl_just(rape,[internal,factive,narration,background,objective])]
+Bishop.txt_22-259  [my,head,on,the,refrigerator,leaning]  [provide_expl_just(lean,[external,factive,narration,foreground,objective])]
+Bishop.txt_23-282  [the,stupid,we,world,crying]  [reject_expl_just(cry,[external,factive,narration,foreground,objective]),reject_expl_just(share,[external,factive,narration,background,objective])]
+Bishop.txt_23-283  [for,share]  [provide_expl_just(cry,[external,factive,narration,foreground,objective]),provide_expl_just(share,[external,factive,narration,background,objective])]
+Bishop.txt_24-307  [walla,Walla,Walla,Walla,Walla,Walla,Hey]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bishop.txt_25-332  [walla,Walla,Walla,Walla,Hey,Hey]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bishop.txt_26-358  [walla,Walla,Walla,Walla,Walla,Walla,Hey]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bishop.txt_27-385  [walla,Walla,Hey,Hey,Hey]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bishop.txt_28-413  [walla,Walla,Walla,Walla,Walla,Walla,Hey]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bishop.txt_29-442  [walla,Walla,Hey,Hey,Hey]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bishop.txt_30-472  [walla,Walla,Hey]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bishop.txt_31-503  [walla,Walla,Hey]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bishop.txt_32-535  [Hey,Hey,HEY,hey]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Bishop.txt_1-1)-[]
+2-(Bishop.txt_2-3)-[primary-vision,primary-vision]
+3-(Bishop.txt_3-6)-[]
+4-(Bishop.txt_4-10)-[primary-fire,primary-depth,primary-diffusion,primary-vision]
+5-(Bishop.txt_5-15)-[primary-diffusion,secondary-instru_behavior,primary-vision]
+6-(Bishop.txt_6-21)-[primary-descent]
+7-(Bishop.txt_7-28)-[primary-descent,primary-passivity]
+8-(Bishop.txt_8-36)-[primary-orality,primary-water,primary-orality]
+9-(Bishop.txt_9-46)-[secondary-temporal_repere,emotions-affection,secondary-abstract_tought]
+10-(Bishop.txt_10-56)-[secondary-temporal_repere,primary-vision,emotions-aggression,primary-narcissism]
+11-(Bishop.txt_11-67)-[secondary-instru_behavior]
+12-(Bishop.txt_11-68)-[]
+13-(Bishop.txt_12-80)-[emotions-aggression,primary-orality]
+14-(Bishop.txt_13-93)-[primary-chaos,primary-anality]
+15-(Bishop.txt_13-93)-[primary-chaos,primary-anality,primary-height]
+16-(Bishop.txt_14-108)-[primary-fire,primary-fire,primary-fire]
+17-(Bishop.txt_15-123)-[primary-orality,secondary-abstract_tought]
+half
+18-(Bishop.txt_16-139)-[primary-descent]
+19-(Bishop.txt_17-156)-[primary-descent,primary-passivity]
+20-(Bishop.txt_18-174)-[primary-orality,primary-water,primary-orality]
+21-(Bishop.txt_19-194)-[emotions-affection,secondary-abstract_tought]
+22-(Bishop.txt_20-214)-[secondary-moral_imperative]
+23-(Bishop.txt_21-236)-[primary-sex]
+24-(Bishop.txt_22-259)-[primary-narcissism]
+25-(Bishop.txt_23-282)-[]
+26-(Bishop.txt_23-283)-[secondary-social_behavior]
+27-(Bishop.txt_24-307)-[primary-brink]
+28-(Bishop.txt_25-332)-[primary-brink]
+29-(Bishop.txt_26-358)-[primary-brink]
+30-(Bishop.txt_27-385)-[primary-brink]
+31-(Bishop.txt_28-413)-[primary-brink]
+32-(Bishop.txt_29-442)-[primary-brink]
+33-(Bishop.txt_30-472)-[primary-brink]
+34-(Bishop.txt_31-503)-[primary-brink]
+35-(Bishop.txt_32-535)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Bishop.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Xiu-sn2,subj-theme_bound-bishop-sn1,and(Xiu,Xiu,sn2),def_prop(Xiu,[istituzione,umano]),def_prop(bishop,[edible,oggetto,strumento,umano])])
+lf(Bishop.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-dot-sn2,subj-theme_bound-dot-sn1,and(dot,blue,sn2),and(dot,this,sn1),and(dot,blue,sn1),def_prop(dot,[attivita,informa,oggetto,strumento]),def_prop(dot,[attivita,informa,oggetto,strumento])])
+lf(Bishop.txt_3,6,cl3-nil-nil-be-[ncmod-locativo-town-sn2,xcomp-prop-daytime-sn1,and(town,embarassed,sn2),def_prop(town,[istituzione,luogo]),def_prop(daytime,[tempo])])
+lf(Bishop.txt_4,10,cl4-nil-nil-be-[subj-theme_bound-ribbon-sn3,subj-theme_bound-ribbon-sn2,subj-theme_bound-hole-sn1,and(ribbon,yellow,sn3),and(ribbon,hole,sn2),and(hole,burn,sn1),def_prop(ribbon,[oggetto,strumento]),def_prop(ribbon,[oggetto,strumento]),def_prop(hole,[astratto,oggetto,stato,strumento])])
+lf(Bishop.txt_5,15,cl5-nil-nil-fade-[obj-theme-Cavalier-sn3,ncmod-modal-your-sn2,subj-experiencer-wine-sn1,and(Cavalier,colored,sn3),def_prop(Cavalier,[place,umano]),def_prop(your,[evaluative]),def_prop(wine,[astratto,edible,oggetto])])
+lf(Bishop.txt_6,21,cl6-nil-nil-fall-[adj-locative-down-nil,ncmod-locativo-you-sn2,subj-agent-mine-sn1,aux-has-nil,def_prop(you,[umano]),def_prop(mine,[oggetto,strumento])])
+lf(Bishop.txt_7,28,cl7-nil-nil-dig-[adj-(mod)-well-nil,ncmod-specif-death-sn2,subj-agent-you-sn1,def_prop(death,[animato,attivita,cambia,evento,informa,stato,tempo]),def_prop(you,[umano])])
+lf(Bishop.txt_8,36,cl9-nil-nil-sugar-[cmod-coord-sugar-and,subj-actor-pro-nil,subj-actor-water-sn2,def_prop(water,[edible,oggetto,sostanza])])
+lf(Bishop.txt_8,36,cl8-nil-nil-milk-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bishop.txt_9,46,cl10-nil-nil-brief-[ncmod-comitativo-them-sn2,subj-agent-you-sn1,def_prop(them,[umano]),def_prop(you,[umano])])
+lf(Bishop.txt_10,56,cl11-nil-nil-see-[iobj-goal-eye-sn4,obj-actor-hate-sn3,obj-theme-when-sn2,subj-experiencer-we-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(hate,[emotivo]),def_prop(when,[tempo]),def_prop(we,[umano])])
+lf(Bishop.txt_11,67,nil-nil-nil-better-[obj-theme-man-sn4,subj-agent-you-sn3,def_prop(man,[any]),def_prop(you,[umano])])
+lf(Bishop.txt_11,67,cl12-not-nil-make-[obj-goal-us-sn2,subj-agent-it-sn1,aux-does-nil,def_prop(us,[umano]),def_prop(it,[any])])
+lf(Bishop.txt_12,80,cl13-nil-nil-crush-[obj-patient-brother-sn2,subj-agent-mine-sn1,aux-has-nil,def_prop(brother,[umano]),def_prop(mine,[oggetto,strumento])])
+lf(Bishop.txt_13,93,cl14-nil-nil-ruin-[obj-patient-sky-sn5,xcomp-purpose-rot-2,xcomp-prop-our-sn4,subj-agent-he-sn3,xcomp-prop-our-sn2,subj-agent-he-sn1,def_prop(sky,[oggetto]),def_prop(our,[evaluative]),def_prop(he,[umano]),def_prop(our,[evaluative]),def_prop(he,[umano])])
+lf(Bishop.txt_14,108,cl15-nil-nil-blast-[ncmod-specif-powder-sn2,subj-actor-hot-sn1,and(powder,black,sn2),and(powder,hot,sn2),and(hot,white,sn1),def_prop(powder,[oggetto,sostanza,strumento]),def_prop(hot,[valutativo])])
+lf(Bishop.txt_15,123,cl16-nil-nil-lapse-[])
+lf(Bishop.txt_16,139,cl17-nil-nil-fall-[adj-locative-down-nil,ncmod-locativo-you-sn2,subj-agent-mine-sn1,aux-has-nil,def_prop(you,[umano]),def_prop(mine,[oggetto,strumento])])
+lf(Bishop.txt_17,156,cl18-nil-nil-dig-[adj-(mod)-well-nil,ncmod-specif-death-sn2,subj-agent-you-sn1,def_prop(death,[animato,attivita,cambia,evento,informa,stato,tempo]),def_prop(you,[umano])])
+lf(Bishop.txt_18,174,cl20-nil-nil-sugar-[cmod-coord-sugar-and,subj-actor-flow-sn1,and(flow,water,sn1),def_prop(flow,[attivita,evento,tempo])])
+lf(Bishop.txt_18,174,cl19-nil-nil-tear-[subj-agent-pro-nil])
+lf(Bishop.txt_19,194,cl21-nil-nil-be-[ncmod-comitativo-them-sn2,subj-theme_bound-you-sn1,def_prop(them,[umano]),def_prop(you,[umano])])
+lf(Bishop.txt_20,214,cl22-nil-nil-be-[])
+lf(Bishop.txt_20,214,nil-nil-should-shall-[obj-theme-that-sn3,obj-prop-ashamed-sn2,xcomp-purpose-be-2,subj-theme_unaff-you-sn1,def_prop(that,[oggetto,umano]),def_prop(ashamed,[evaluative]),def_prop(you,[umano])])
+lf(Bishop.txt_21,236,cl24-nil-nil-be-[])
+lf(Bishop.txt_21,236,cl23-nil-nil-rape-[obj-theme-silly-sn3,subj-agent-you-sn2,subj-agent-you-sn1,and(you,daddy,sn1),def_prop(silly,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Bishop.txt_22,259,cl25-nil-nil-lean-[ncmod-locativo-refrigerator-sn2,subj-actor-you-sn1,def_prop(refrigerator,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Bishop.txt_23,282,cl27-nil-nil-share-[subj-agent-you-sn3,adj-(mod)-cry-nil,ncmod-modal-we-sn2,def_prop(you,[umano]),def_prop(we,[umano])])
+lf(Bishop.txt_23,282,cl26-nil-nil-cry-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Bishop.txt_24,307,cl28-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bishop.txt_25,332,cl29-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bishop.txt_26,358,cl30-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bishop.txt_27,385,cl31-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bishop.txt_28,413,cl32-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bishop.txt_29,442,cl33-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bishop.txt_30,472,cl34-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bishop.txt_31,503,cl35-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bishop.txt_32,535,cl36-nil-nil-be-[ncmod-modal-Hey-sn2,subj-theme_bound-you-sn1,and(Hey,Hey,sn2),def_prop(Hey,[umano]),def_prop(you,[umano])])

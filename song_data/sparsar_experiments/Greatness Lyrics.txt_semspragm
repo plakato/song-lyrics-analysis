@@ -1,0 +1,54 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Greatness Lyrics.txt_1-1  []-positive  []
+Greatness Lyrics.txt_2-3  []-positive  []
+Greatness Lyrics.txt_3-6  []-positive  []
+Greatness Lyrics.txt_4-10  []-positive  []
+Greatness Lyrics.txt_5-15  []-positive  []
+Greatness Lyrics.txt_5-16  []-positive  [fgb]
+Greatness Lyrics.txt_6-22  []-positive  [neg]
+Greatness Lyrics.txt_7-29  []-positive  []
+Greatness Lyrics.txt_8-37  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Greatness Lyrics.txt_1-1  [greatness,Lyrics,by,vision]  [title]
+Greatness Lyrics.txt_2-3  [some,are,born,to,greatness]  [provide_expl_just(bear,[external,factive,narration,foreground,objective])]
+Greatness Lyrics.txt_3-6  [their,lives,are,humble]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Greatness Lyrics.txt_4-10  [their,ambition,modest]  [provide_expl_just(ambition,[external,factive,explanation,background,objective])]
+Greatness Lyrics.txt_5-15  [some,are,born,to,greatness]  [provide_expl_just(bear-cl4,[external,factive,narration,background,objective]),provide_expl_just(achieve,[external,factive,narration,background,objective])]
+Greatness Lyrics.txt_5-16  [and,some,achieve,it]  [provide_expl_just(bear-cl4,[external,factive,narration,background,objective]),provide_expl_just(achieve,[external,factive,narration,background,objective])]
+Greatness Lyrics.txt_6-22  [for,a,precious,few,,,their,lives,are,humble]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Greatness Lyrics.txt_7-29  [their,ambition,modest]  [provide_expl_just(ambition,[external,factive,narration,background,objective])]
+Greatness Lyrics.txt_8-37  [x]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Greatness Lyrics.txt_1-1)-[primary-vision]
+2-(Greatness Lyrics.txt_2-3)-[]
+3-(Greatness Lyrics.txt_3-6)-[]
+4-(Greatness Lyrics.txt_4-10)-[]
+half
+5-(Greatness Lyrics.txt_5-15)-[]
+6-(Greatness Lyrics.txt_5-16)-[secondary-instru_behavior]
+7-(Greatness Lyrics.txt_6-22)-[]
+8-(Greatness Lyrics.txt_7-29)-[]
+9-(Greatness Lyrics.txt_8-37)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Greatness Lyrics.txt_1,1,cl1-nil-nil-be-[subj-theme_bound-Lyrics-sn1,and(Lyrics,greatness,sn1),def_prop(Lyrics,[informa,tecno])])
+lf(Greatness Lyrics.txt_2,3,cl2-nil-nil-bear-[iobj-goal-greatness-sn2,subj-goal-some-sn1,aux-are-nil,def_prop(greatness,[astratto]),def_prop(some,[umano])])
+lf(Greatness Lyrics.txt_3,6,cl3-nil-nil-be-[xcomp-prop-humble-sn2,subj-theme_bound-life-sn1,def_prop(humble,[evaluative]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Greatness Lyrics.txt_4,10,nil-nil-nil-ambition-[xcomp-prop-modest-sn2,subj-agent-their-sn1,def_prop(modest,[evaluative]),def_prop(their,[evaluative])])
+lf(Greatness Lyrics.txt_5,15,cl5-nil-nil-achieve-[cmod-subord-achieve-",subj-agent-it-sn4,subj-agent-it-sn3,ncmod-locativo-greatness-sn2,and(it,some,sn3),def_prop(it,[any]),def_prop(it,[any]),def_prop(greatness,[astratto])])
+lf(Greatness Lyrics.txt_5,15,cl4-nil-nil-bear-[subj-goal-some-sn1,aux-are-nil,def_prop(some,[umano])])
+lf(Greatness Lyrics.txt_6,22,cl6-nil-nil-be-[xcomp-prop-humble-sn4,xcomp-theme-life-sn3,xcomp-prop-few-sn2,subj-theme_bound-precious-sn1,def_prop(humble,[evaluative]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(few,[umano,oggetto]),def_prop(precious,[valutativo])])
+lf(Greatness Lyrics.txt_7,29,nil-nil-nil-ambition-[xcomp-prop-modest-sn2,subj-agent-their-sn1,def_prop(modest,[evaluative]),def_prop(their,[evaluative])])
+lf(Greatness Lyrics.txt_8,37,cl7-nil-nil-say-[])

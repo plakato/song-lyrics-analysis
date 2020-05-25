@@ -1,0 +1,261 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Amy's Song Lyrics.txt_1-1  []-positive  []
+Amy's Song Lyrics.txt_2-3  []-positive  []
+Amy's Song Lyrics.txt_3-6  []-positive  [fgb]
+Amy's Song Lyrics.txt_4-10  []-question  []
+Amy's Song Lyrics.txt_5-15  []-question  []
+Amy's Song Lyrics.txt_6-21  []-question  []
+Amy's Song Lyrics.txt_7-28  []-positive  []
+Amy's Song Lyrics.txt_8-36  []-positive  []
+Amy's Song Lyrics.txt_8-37  []-positive  []
+Amy's Song Lyrics.txt_9-46  []-suspension  [neg]
+Amy's Song Lyrics.txt_10-56  []-positive  []
+Amy's Song Lyrics.txt_10-57  []-positive  []
+Amy's Song Lyrics.txt_11-68  []-negative  [fgb,neg]
+Amy's Song Lyrics.txt_12-80  []-negative  [neg]
+Amy's Song Lyrics.txt_13-93  []-suspension  []
+Amy's Song Lyrics.txt_14-108  []-negative  [neg]
+Amy's Song Lyrics.txt_15-123  []-negative  [neg,fhd]
+Amy's Song Lyrics.txt_16-139  []-negative  [fhd]
+Amy's Song Lyrics.txt_17-156  []-negative  [neg]
+Amy's Song Lyrics.txt_18-174  [when-temp_coinc]-negative  [neg]
+Amy's Song Lyrics.txt_19-193  []-positive  []
+Amy's Song Lyrics.txt_20-213  []-question  []
+Amy's Song Lyrics.txt_21-234  []-positive  []
+Amy's Song Lyrics.txt_22-256  []-positive  []
+Amy's Song Lyrics.txt_23-279  []-positive  [fhd]
+Amy's Song Lyrics.txt_24-303  []-positive  [bkc,neg]
+Amy's Song Lyrics.txt_25-328  []-positive  []
+Amy's Song Lyrics.txt_26-354  []-positive  []
+Amy's Song Lyrics.txt_27-381  []-negative  [neg]
+Amy's Song Lyrics.txt_28-409  []-negative  [neg]
+Amy's Song Lyrics.txt_29-438  []-negative  [neg,fhd]
+Amy's Song Lyrics.txt_30-468  []-negative  [fhd]
+Amy's Song Lyrics.txt_31-499  []-negative  [neg]
+Amy's Song Lyrics.txt_32-531  [when-temp_coinc]-negative  [neg]
+Amy's Song Lyrics.txt_33-564  []-positive  []
+Amy's Song Lyrics.txt_34-598  []-question  []
+Amy's Song Lyrics.txt_35-633  [when-temp_coinc]-positive  []
+Amy's Song Lyrics.txt_36-669  []-negative  [fgb,neg]
+Amy's Song Lyrics.txt_37-707  []-negative  [fgb,neg]
+Amy's Song Lyrics.txt_38-745  []-positive  []
+Amy's Song Lyrics.txt_39-784  []-positive  []
+Amy's Song Lyrics.txt_40-824  []-positive  [fgb]
+Amy's Song Lyrics.txt_41-865  []-positive  []
+Amy's Song Lyrics.txt_41-866  [when-temp_coinc]-negative  []
+Amy's Song Lyrics.txt_42-908  []-negative  [fgb]
+Amy's Song Lyrics.txt_43-952  []-negative  [neg]
+Amy's Song Lyrics.txt_44-996  []-negative  [neg,fhd]
+Amy's Song Lyrics.txt_45-1041  []-negative  [fhd]
+Amy's Song Lyrics.txt_46-1087  []-negative  [neg]
+Amy's Song Lyrics.txt_47-1134  [when-temp_coinc]-negative  [neg]
+Amy's Song Lyrics.txt_48-1182  []-positive  []
+Amy's Song Lyrics.txt_49-1231  []-question  []
+Amy's Song Lyrics.txt_50-1281  []-question  []
+Amy's Song Lyrics.txt_51-1332  []-question  []
+Amy's Song Lyrics.txt_52-1384  []-question  []
+Amy's Song Lyrics.txt_53-1437  []-positive  []
+Amy's Song Lyrics.txt_54-1491  []-positive  [bkc]
+Amy's Song Lyrics.txt_55-1546  []-positive  []
+Amy's Song Lyrics.txt_56-1602  []-positive  [bkc]
+Amy's Song Lyrics.txt_57-1659  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Amy's Song Lyrics.txt_1-1  [amy-s,Song,Lyrics,by,Switchfoot]  [title]
+Amy's Song Lyrics.txt_2-3  [amy-s,gone]  [provide_expl_just(go,[external,factive,narration,foreground,objective])]
+Amy's Song Lyrics.txt_3-6  [and,time,rolls,on]  [provide_expl_just(roll,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_4-10  [how_far,?]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_5-15  [fast,how,?]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_6-21  [how_long,?]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_7-28  [the,last,time,we,saw,Amy]  [provide_expl_just(see,[external,factive,narration,foreground,objective])]
+Amy's Song Lyrics.txt_8-36  [she,was,headed]  [provide_expl_just(head,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_8-37  [for,the,shore]  [provide_expl_just(head,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_9-46  [fighting,off,the,volatile,gray,skies]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_10-56  [she,said,now]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(begin,[external,factive,inception,background,objective])]
+Amy's Song Lyrics.txt_10-57  [begins,forever]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(begin,[external,factive,inception,background,objective])]
+Amy's Song Lyrics.txt_11-68  [and,that,no_one,knows,their,time]  [reject_expl_just(know,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_12-80  [we,bid,farewell,not,knowing]  [reject_expl_just(bid,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_13-93  [that,might,be,our,last,good-bye]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(might,[external,nonfactive,narration,foreground,objective])]
+Amy's Song Lyrics.txt_14-108  [Amy,was,a,fighter]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Amy's Song Lyrics.txt_15-123  [she,cut,like,Cassius,clay]  [reject_expl_just(cut,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_16-139  [she,burned,like,a,fire]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_17-156  [despite,these,rains]  [reject_expl_just(rain,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_18-174  [when,time,was,a,question]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Amy's Song Lyrics.txt_19-193  [she,only,knew,one,song]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_352176)]
+Amy's Song Lyrics.txt_20-213  [how_long,,,fast,how,how_far,singing,is,she,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Amy's Song Lyrics.txt_21-234  [salvation,is,a,fire]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_22-256  [in,the,midnight,of,the,soul]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_23-279  [it,lights,up,like,a,can,of,gasoline]  [provide_expl_just(light,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_24-303  [yeah,,,she,a,freedom,is,fighter]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_25-328  [she,is,a,stand,up,kind,of,girl]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_26-354  [she,is,out,to,start,a,fire]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_27-381  [in,a,bar,plastic,code,world]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_28-409  [Amy,was,a,fighter]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Amy's Song Lyrics.txt_29-438  [she,cut,like,Cassius,clay]  [reject_expl_just(cut,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_30-468  [she,burned,like,a,fire]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_31-499  [despite,these,rains]  [reject_expl_just(rain,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_32-531  [when,time,was,a,question]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Amy's Song Lyrics.txt_33-564  [she,only,knew,one,song]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_362444)]
+Amy's Song Lyrics.txt_34-598  [how_long,,,fast,how,how_far,singing,is,she,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Amy's Song Lyrics.txt_35-633  [when,everything,stops,moving]  [provide_expl_just(move,[external,factive,cause,foreground,objective]),suggest(move,[external,factive,cause,foreground,objective])]
+Amy's Song Lyrics.txt_36-669  [and,i,stop,to,catch,my,breath]  [reject_expl_just(catch,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_37-707  [and,ride,my,train,of,thought]  [reject_expl_just(think,[external,factive,narration,foreground,objective])]
+Amy's Song Lyrics.txt_38-745  [all_the_way,round]  [provide_expl_just(round,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_39-784  [my,thoughts,return,to,Amy]  [provide_expl_just(return,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_40-824  [the,she,fire,and,is,begun]  [provide_expl_just(begin-cl40,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_41-865  [she,came]  [provide_expl_just(freeze,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_41-866  [when,we,were,freezing]  [provide_expl_just(freeze,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_42-908  [and,left,us,burning,up]  [provide_expl_just(burn,[external,factive,cause,foreground,objective])]
+Amy's Song Lyrics.txt_43-952  [Amy,was,a,fighter]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Amy's Song Lyrics.txt_44-996  [she,cut,like,Cassius,clay]  [reject_expl_just(cut,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_45-1041  [she,burned,like,a,fire]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_46-1087  [despite,these,rains]  [reject_expl_just(rain,[external,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_47-1134  [when,time,was,a,question]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Amy's Song Lyrics.txt_48-1182  [she,only,knew,one,song]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_373248)]
+Amy's Song Lyrics.txt_49-1231  [how_long,,,fast,how,how_far,singing,is,she,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Amy's Song Lyrics.txt_50-1281  [how_long,?]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_51-1332  [how_long,?]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_52-1384  [how_long,?]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Amy's Song Lyrics.txt_53-1437  [the,last,time,we,saw,Amy]  [provide_expl_just(see,[external,factive,narration,foreground,objective])]
+Amy's Song Lyrics.txt_54-1491  [the,last,time,we,saw,Amy,yeah]  [accept_expl_opin(be,[_375808,_375814,_375820,_375826,_375832])]
+Amy's Song Lyrics.txt_55-1546  [the,last,time,we,saw,Amy]  [provide_expl_just(see,[external,factive,narration,foreground,objective])]
+Amy's Song Lyrics.txt_56-1602  [the,last,time,we,saw,Amy,yeah]  [accept_expl_opin(be,[_376586,_376592,_376598,_376604,_376610])]
+Amy's Song Lyrics.txt_57-1659  [the,last,time,we,saw,Amy]  [provide_expl_just(see,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Amy's Song Lyrics.txt_1-1)-[]
+2-(Amy's Song Lyrics.txt_2-3)-[]
+3-(Amy's Song Lyrics.txt_3-6)-[secondary-temporal_repere,primary-random_movement]
+4-(Amy's Song Lyrics.txt_4-10)-[]
+5-(Amy's Song Lyrics.txt_5-15)-[primary-orality]
+6-(Amy's Song Lyrics.txt_6-21)-[]
+7-(Amy's Song Lyrics.txt_7-28)-[secondary-temporal_repere,primary-vision]
+8-(Amy's Song Lyrics.txt_8-36)-[primary-narcissism]
+9-(Amy's Song Lyrics.txt_8-37)-[primary-water]
+10-(Amy's Song Lyrics.txt_9-46)-[primary-concreteness,primary-vision]
+11-(Amy's Song Lyrics.txt_10-56)-[secondary-social_behavior,secondary-temporal_repere]
+12-(Amy's Song Lyrics.txt_10-57)-[primary-timelessness]
+13-(Amy's Song Lyrics.txt_11-68)-[secondary-abstract_tought,secondary-temporal_repere]
+14-(Amy's Song Lyrics.txt_12-80)-[secondary-instru_behavior,emotions-affection]
+15-(Amy's Song Lyrics.txt_13-93)-[]
+16-(Amy's Song Lyrics.txt_14-108)-[emotions-aggression]
+17-(Amy's Song Lyrics.txt_15-123)-[emotions-aggression,emotions-affection]
+18-(Amy's Song Lyrics.txt_16-139)-[primary-fire,emotions-affection,primary-fire]
+19-(Amy's Song Lyrics.txt_17-156)-[primary-water]
+20-(Amy's Song Lyrics.txt_18-174)-[secondary-temporal_repere,secondary-temporal_repere]
+21-(Amy's Song Lyrics.txt_19-193)-[secondary-abstract_tought]
+22-(Amy's Song Lyrics.txt_20-213)-[primary-orality]
+23-(Amy's Song Lyrics.txt_21-234)-[primary-fire]
+24-(Amy's Song Lyrics.txt_22-256)-[]
+25-(Amy's Song Lyrics.txt_23-279)-[primary-vision,emotions-affection]
+26-(Amy's Song Lyrics.txt_24-303)-[emotions-aggression]
+27-(Amy's Song Lyrics.txt_25-328)-[emotions-affection]
+28-(Amy's Song Lyrics.txt_26-354)-[primary-concreteness,primary-vision,primary-fire]
+29-(Amy's Song Lyrics.txt_27-381)-[secondary-restraint]
+30-(Amy's Song Lyrics.txt_28-409)-[emotions-aggression]
+half
+31-(Amy's Song Lyrics.txt_29-438)-[emotions-aggression,emotions-affection]
+32-(Amy's Song Lyrics.txt_30-468)-[primary-fire,emotions-affection,primary-fire]
+33-(Amy's Song Lyrics.txt_31-499)-[primary-water]
+34-(Amy's Song Lyrics.txt_32-531)-[secondary-temporal_repere,secondary-temporal_repere]
+35-(Amy's Song Lyrics.txt_33-564)-[secondary-abstract_tought]
+36-(Amy's Song Lyrics.txt_34-598)-[primary-orality]
+37-(Amy's Song Lyrics.txt_35-633)-[secondary-temporal_repere,secondary-restraint]
+38-(Amy's Song Lyrics.txt_36-669)-[secondary-restraint,secondary-restraint,primary-odor]
+39-(Amy's Song Lyrics.txt_37-707)-[primary-voyage,secondary-abstract_tought]
+40-(Amy's Song Lyrics.txt_38-745)-[primary-concreteness]
+41-(Amy's Song Lyrics.txt_39-784)-[secondary-abstract_tought]
+42-(Amy's Song Lyrics.txt_40-824)-[primary-fire]
+43-(Amy's Song Lyrics.txt_41-865)-[]
+44-(Amy's Song Lyrics.txt_41-866)-[secondary-temporal_repere]
+45-(Amy's Song Lyrics.txt_42-908)-[]
+46-(Amy's Song Lyrics.txt_43-952)-[emotions-aggression]
+47-(Amy's Song Lyrics.txt_44-996)-[emotions-aggression,emotions-affection]
+48-(Amy's Song Lyrics.txt_45-1041)-[primary-fire,emotions-affection,primary-fire]
+49-(Amy's Song Lyrics.txt_46-1087)-[primary-water]
+50-(Amy's Song Lyrics.txt_47-1134)-[secondary-temporal_repere,secondary-temporal_repere]
+51-(Amy's Song Lyrics.txt_48-1182)-[secondary-abstract_tought]
+52-(Amy's Song Lyrics.txt_49-1231)-[primary-orality]
+53-(Amy's Song Lyrics.txt_50-1281)-[]
+54-(Amy's Song Lyrics.txt_51-1332)-[]
+55-(Amy's Song Lyrics.txt_52-1384)-[]
+56-(Amy's Song Lyrics.txt_53-1437)-[secondary-temporal_repere,primary-vision]
+57-(Amy's Song Lyrics.txt_54-1491)-[secondary-temporal_repere,primary-vision]
+58-(Amy's Song Lyrics.txt_55-1546)-[secondary-temporal_repere,primary-vision]
+59-(Amy's Song Lyrics.txt_56-1602)-[secondary-temporal_repere,primary-vision]
+60-(Amy's Song Lyrics.txt_57-1659)-[secondary-temporal_repere,primary-vision]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Amy's Song Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Switchfoot-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,amy-s,sn1),def_prop(Switchfoot,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Amy's Song Lyrics.txt_2,3,cl2-nil-nil-go-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Amy's Song Lyrics.txt_3,6,cl3-nil-nil-roll-[cmod-subord-roll-",subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Amy's Song Lyrics.txt_4,10,cl4-nil-nil-say-[obj-theme_unaff-how_far-sn1,def_prop(how_far,[umano])])
+lf(Amy's Song Lyrics.txt_5,15,cl5-nil-nil-say-[obj-theme_unaff-fast-sn1,def_prop(fast,[valutativo])])
+lf(Amy's Song Lyrics.txt_6,21,cl6-nil-nil-say-[])
+lf(Amy's Song Lyrics.txt_7,28,cl7-nil-nil-see-[obj-actor-Amy-sn3,subj-experiencer-we-sn2,subj-experiencer-we-sn1,and(we,last,sn1),def_prop(Amy,[place,umano]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Amy's Song Lyrics.txt_8,36,cl9-nil-nil-be-[subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Amy's Song Lyrics.txt_8,36,cl8-nil-nil-head-[subj-theme_unaff-you-sn1,aux-was-nil,def_prop(you,[umano])])
+lf(Amy's Song Lyrics.txt_9,46,cl10-nil-nil-be-[xadj-adj-fighting-adj1,ncmod-locativo-(volatile)-sn2,subj-theme_bound-sky-sn1,and(sky,gray,sn1),def_prop(fighting,_379142),def_prop(volatile,[sostanza]),def_prop(sky,[oggetto])])
+lf(Amy's Song Lyrics.txt_10,56,nil-nil-nil-begin-[adj-subj_disc-forever-sn5,subj-actor-you-sn4,def_prop(forever,[istituzione]),def_prop(you,[umano])])
+lf(Amy's Song Lyrics.txt_10,56,cl11-nil-nil-say-[subj-actor-she-sn1,def_prop(she,[umano])])
+lf(Amy's Song Lyrics.txt_11,68,cl12-nil-nil-know-[subj-actor-no_one-sn1,def_prop(no_one,[umano])])
+lf(Amy's Song Lyrics.txt_12,80,cl13-nil-nil-bid-[xcomp-prop-knowing-sn3,obj-theme-farewell-sn2,subj-actor-we-sn1,def_prop(knowing,[astratto]),def_prop(farewell,[attivita,informa]),def_prop(we,[umano])])
+lf(Amy's Song Lyrics.txt_13,93,cl15-nil-nil-be-[xcomp-prop-lass-sn2,xcomp-purpose-be-2,def_prop(lass,[umano])])
+lf(Amy's Song Lyrics.txt_13,93,cl14-nil-might-might-[subj-theme_unaff-that-sn1,def_prop(that,[oggetto,umano])])
+lf(Amy's Song Lyrics.txt_14,108,cl16-nil-nil-be-[xcomp-prop-fighter-sn2,subj-theme_bound-Amy-sn1,def_prop(fighter,[oggetto,strumento]),def_prop(Amy,[place,umano])])
+lf(Amy's Song Lyrics.txt_15,123,cl17-nil-nil-cut-[obj-theme_aff-clay-sn2,subj-agent-she-sn1,def_prop(clay,[sostanza]),def_prop(she,[umano])])
+lf(Amy's Song Lyrics.txt_16,139,nil-nil-nil-like-[obj-tema_emot-fire-sn2,subj-experiencer-burn-sn1,and(burn,she,sn1),def_prop(fire,[attivita,evento,informa,oggetto,sostanza,strumento]),def_prop(burn,[astratto,attivita,stato])])
+lf(Amy's Song Lyrics.txt_17,156,cl18-nil-nil-rain-[subj-form-you-sn1,def_prop(you,[umano])])
+lf(Amy's Song Lyrics.txt_18,174,cl19-nil-nil-be-[xcomp-prop-question-sn3,xcomp-theme-when-sn2,subj-theme_bound-time-sn1,def_prop(question,[attivita,informa]),def_prop(when,[tempo]),def_prop(time,[tempo])])
+lf(Amy's Song Lyrics.txt_19,193,cl20-nil-nil-know-[adj-(mod)-only-nil,obj-theme_unaff-song-sn2,subj-actor-she-sn1,and(song,one,sn2),def_prop(song,[astratto,attivita,evento,informa,oggetto]),def_prop(she,[umano])])
+lf(Amy's Song Lyrics.txt_20,213,cl21-nil-nil-be-[xcomp-prop-how_far-sn2,subj-theme_bound-she-sn1,and(how_far,singing,sn2),def_prop(how_far,[umano]),def_prop(she,[umano])])
+lf(Amy's Song Lyrics.txt_21,234,cl22-nil-nil-be-[xcomp-prop-fire-sn2,subj-theme_bound-salvation-sn1,def_prop(fire,[attivita,evento,informa,oggetto,sostanza,strumento]),def_prop(salvation,[attivita,stato])])
+lf(Amy's Song Lyrics.txt_22,256,cl23-nil-nil-be-[ncmod-specif-soul-sn2,subj-theme_bound-you-sn1,def_prop(soul,[attivita,emotivo,informa,umano]),def_prop(you,[umano])])
+lf(Amy's Song Lyrics.txt_23,279,cl24-nil-nil-light-[adj-locative-up-nil,obj-theme-can-sn2,subj-actor-it-sn1,def_prop(can,[attivita,body_part,informa,nquant,oggetto,strumento,umano]),def_prop(it,[any])])
+lf(Amy's Song Lyrics.txt_24,303,cl25-nil-nil-be-[adj-(mod)-yeah-nil,xcomp-prop-fighter-sn2,subj-theme_bound-she-sn1,and(fighter,freedom,sn2),def_prop(fighter,[oggetto,strumento]),def_prop(she,[umano])])
+lf(Amy's Song Lyrics.txt_25,328,cl26-nil-nil-be-[xcomp-prop-kind-sn3,xcomp-prop-stand-sn2,subj-theme_bound-she-sn1,def_prop(kind,[valutativo]),def_prop(stand,[attivita,evento,luogo,oggetto,strumento]),def_prop(she,[umano])])
+lf(Amy's Song Lyrics.txt_26,354,cl27-nil-nil-be-[xadj-theme-fire-sn3,xcomp-prop-out-sn2,subj-theme_bound-she-sn1,def_prop(fire,[attivita,evento,informa,oggetto,sostanza,strumento]),def_prop(out,[istituzione]),def_prop(she,[umano])])
+lf(Amy's Song Lyrics.txt_27,381,cl28-nil-nil-be-[ncmod-locativo-bar-sn2,subj-theme_bound-world-sn1,and(world,code,sn1),and(world,plastic,sn1),def_prop(bar,[nquant,oggetto,strumento]),def_prop(world,[astratto,istituzione,oggetto])])
+lf(Amy's Song Lyrics.txt_28,409,cl29-nil-nil-be-[xcomp-prop-fighter-sn2,subj-theme_bound-Amy-sn1,def_prop(fighter,[oggetto,strumento]),def_prop(Amy,[place,umano])])
+lf(Amy's Song Lyrics.txt_29,438,cl30-nil-nil-cut-[obj-theme_aff-clay-sn2,subj-agent-she-sn1,def_prop(clay,[sostanza]),def_prop(she,[umano])])
+lf(Amy's Song Lyrics.txt_30,468,nil-nil-nil-like-[obj-tema_emot-fire-sn2,subj-experiencer-burn-sn1,and(burn,she,sn1),def_prop(fire,[attivita,evento,informa,oggetto,sostanza,strumento]),def_prop(burn,[astratto,attivita,stato])])
+lf(Amy's Song Lyrics.txt_31,499,cl31-nil-nil-rain-[subj-form-you-sn1,def_prop(you,[umano])])
+lf(Amy's Song Lyrics.txt_32,531,cl32-nil-nil-be-[xcomp-prop-question-sn3,xcomp-theme-when-sn2,subj-theme_bound-time-sn1,def_prop(question,[attivita,informa]),def_prop(when,[tempo]),def_prop(time,[tempo])])
+lf(Amy's Song Lyrics.txt_33,564,cl33-nil-nil-know-[adj-(mod)-only-nil,obj-theme_unaff-song-sn2,subj-actor-she-sn1,and(song,one,sn2),def_prop(song,[astratto,attivita,evento,informa,oggetto]),def_prop(she,[umano])])
+lf(Amy's Song Lyrics.txt_34,598,cl34-nil-nil-be-[xcomp-prop-how_far-sn2,subj-theme_bound-she-sn1,and(how_far,singing,sn2),def_prop(how_far,[umano]),def_prop(she,[umano])])
+lf(Amy's Song Lyrics.txt_35,633,cl35-nil-nil-move-[obj-theme-when-sn2,subj-theme-stop-sn1,and(stop,everything,sn1),def_prop(when,[tempo]),def_prop(stop,[attivita,evento,luogo,oggetto,strumento])])
+lf(Amy's Song Lyrics.txt_36,669,cl37-nil-nil-catch-[cmod-subord-catch-",obj-goal-breath-sn2,xcomp-purpose-catch-2,def_prop(breath,[attivita,cambia,sostanza,tempo])])
+lf(Amy's Song Lyrics.txt_36,669,cl36-nil-nil-stop-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Amy's Song Lyrics.txt_37,707,cl38-nil-nil-think-[cmod-subord-think-",obj-theme-train-sn2,subj-agent-ride-sn1,def_prop(train,[evento,oggetto,strumento]),def_prop(ride,[oggetto,strumento])])
+lf(Amy's Song Lyrics.txt_38,745,nil-nil-nil-round-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Amy's Song Lyrics.txt_39,784,cl39-nil-nil-return-[iobj-goal-Amy-sn2,subj-agent-thought-sn1,def_prop(Amy,[place,umano]),def_prop(thought,[astratto])])
+lf(Amy's Song Lyrics.txt_40,824,cl40-nil-nil-begin-[subj-theme_aff-fire-sn1,aux-(is)-nil,and(fire,she,sn1),def_prop(fire,[attivita,evento,informa,oggetto,sostanza,strumento])])
+lf(Amy's Song Lyrics.txt_41,865,cl42-nil-nil-freeze-[subj-agent-we-sn2,aux-were-nil,progr-freezing-nil,def_prop(we,[umano])])
+lf(Amy's Song Lyrics.txt_41,865,cl41-nil-nil-come-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Amy's Song Lyrics.txt_42,908,cl44-nil-nil-burn-[cmod-subord-burn-",obj-prop-up-sn3,xadj-result-burn-2,def_prop(up,[istituzione])])
+lf(Amy's Song Lyrics.txt_42,908,cl43-nil-nil-leave-[adj-(mod)-up-nil,obj-theme-us-sn2,subj-theme-you-sn1,def_prop(up,[istituzione]),def_prop(us,[umano]),def_prop(you,[umano])])
+lf(Amy's Song Lyrics.txt_43,952,cl45-nil-nil-be-[xcomp-prop-fighter-sn2,subj-theme_bound-Amy-sn1,def_prop(fighter,[oggetto,strumento]),def_prop(Amy,[place,umano])])
+lf(Amy's Song Lyrics.txt_44,996,cl46-nil-nil-cut-[obj-theme_aff-clay-sn2,subj-agent-she-sn1,def_prop(clay,[sostanza]),def_prop(she,[umano])])
+lf(Amy's Song Lyrics.txt_45,1041,nil-nil-nil-like-[obj-tema_emot-fire-sn2,subj-experiencer-burn-sn1,and(burn,she,sn1),def_prop(fire,[attivita,evento,informa,oggetto,sostanza,strumento]),def_prop(burn,[astratto,attivita,stato])])
+lf(Amy's Song Lyrics.txt_46,1087,cl47-nil-nil-rain-[subj-form-you-sn1,def_prop(you,[umano])])
+lf(Amy's Song Lyrics.txt_47,1134,cl48-nil-nil-be-[xcomp-prop-question-sn3,xcomp-theme-when-sn2,subj-theme_bound-time-sn1,def_prop(question,[attivita,informa]),def_prop(when,[tempo]),def_prop(time,[tempo])])
+lf(Amy's Song Lyrics.txt_48,1182,cl49-nil-nil-know-[adj-(mod)-only-nil,obj-theme_unaff-song-sn2,subj-actor-she-sn1,and(song,one,sn2),def_prop(song,[astratto,attivita,evento,informa,oggetto]),def_prop(she,[umano])])
+lf(Amy's Song Lyrics.txt_49,1231,cl50-nil-nil-be-[xcomp-prop-how_far-sn2,subj-theme_bound-she-sn1,and(how_far,singing,sn2),def_prop(how_far,[umano]),def_prop(she,[umano])])
+lf(Amy's Song Lyrics.txt_50,1281,cl51-nil-nil-say-[])
+lf(Amy's Song Lyrics.txt_51,1332,cl52-nil-nil-say-[])
+lf(Amy's Song Lyrics.txt_52,1384,cl53-nil-nil-say-[])
+lf(Amy's Song Lyrics.txt_53,1437,cl54-nil-nil-see-[obj-actor-Amy-sn3,subj-experiencer-we-sn2,subj-experiencer-we-sn1,and(we,last,sn1),def_prop(Amy,[place,umano]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Amy's Song Lyrics.txt_54,1491,cl55-nil-nil-see-[obj-actor-Amy-sn3,subj-experiencer-we-sn2,subj-experiencer-we-sn1,and(we,last,sn1),def_prop(Amy,[place,umano]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Amy's Song Lyrics.txt_55,1546,cl56-nil-nil-see-[obj-actor-Amy-sn3,subj-experiencer-we-sn2,subj-experiencer-we-sn1,and(we,last,sn1),def_prop(Amy,[place,umano]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Amy's Song Lyrics.txt_56,1602,cl57-nil-nil-see-[obj-actor-Amy-sn3,subj-experiencer-we-sn2,subj-experiencer-we-sn1,and(we,last,sn1),def_prop(Amy,[place,umano]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Amy's Song Lyrics.txt_57,1659,cl58-nil-nil-see-[obj-actor-Amy-sn3,subj-experiencer-we-sn2,subj-experiencer-we-sn1,and(we,last,sn1),def_prop(Amy,[place,umano]),def_prop(we,[umano]),def_prop(we,[umano])])

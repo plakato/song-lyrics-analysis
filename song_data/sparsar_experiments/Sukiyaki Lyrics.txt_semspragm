@@ -1,0 +1,193 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Sukiyaki Lyrics.txt_1-1  []-positive  []
+Sukiyaki Lyrics.txt_2-3  []-positive  []
+Sukiyaki Lyrics.txt_3-6  []-positive  []
+Sukiyaki Lyrics.txt_3-7  []-positive  [neg,fgb]
+Sukiyaki Lyrics.txt_4-11  []-positive  []
+Sukiyaki Lyrics.txt_4-12  []-positive  []
+Sukiyaki Lyrics.txt_5-17  [so-result]-negative  [fgb,fgb,neg]
+Sukiyaki Lyrics.txt_6-24  []-positive  []
+Sukiyaki Lyrics.txt_6-25  []-negative  [fgb,neg]
+Sukiyaki Lyrics.txt_7-32  []-suspension  [neg,neg]
+Sukiyaki Lyrics.txt_8-41  [so-result]-positive  [fgb]
+Sukiyaki Lyrics.txt_9-50  []-positive  []
+Sukiyaki Lyrics.txt_9-51  []-positive  []
+Sukiyaki Lyrics.txt_10-61  [but-advers]-positive  [fgb]
+Sukiyaki Lyrics.txt_11-72  []-negative  []
+Sukiyaki Lyrics.txt_12-84  []-positive  [fgb]
+Sukiyaki Lyrics.txt_13-98  []-positive  []
+Sukiyaki Lyrics.txt_14-112  []-negative  [fgb]
+Sukiyaki Lyrics.txt_15-129  [if-hypoth]-positive  [fgb]
+Sukiyaki Lyrics.txt_16-145  []-negative  []
+Sukiyaki Lyrics.txt_17-162  []-suspension  []
+Sukiyaki Lyrics.txt_17-163  []-positive  [fgb]
+Sukiyaki Lyrics.txt_18-181  []-positive  []
+Sukiyaki Lyrics.txt_19-201  [but-advers]-negative  [fgb,fgb,neg]
+Sukiyaki Lyrics.txt_20-221  []-positive  []
+Sukiyaki Lyrics.txt_21-243  []-negative  [fgb]
+Sukiyaki Lyrics.txt_21-244  []-positive  []
+Sukiyaki Lyrics.txt_22-266  []-positive  []
+Sukiyaki Lyrics.txt_22-267  [but-advers]-positive  [fgb,fgb]
+Sukiyaki Lyrics.txt_23-291  [since-cause]-positive  []
+Sukiyaki Lyrics.txt_24-316  []-negative  [neg]
+Sukiyaki Lyrics.txt_25-341  []-positive  []
+Sukiyaki Lyrics.txt_25-342  []-positive  []
+Sukiyaki Lyrics.txt_26-368  [if-hypoth]-positive  [fgb]
+Sukiyaki Lyrics.txt_27-395  []-negative  []
+Sukiyaki Lyrics.txt_28-423  []-suspension  []
+Sukiyaki Lyrics.txt_28-424  []-positive  [fgb]
+Sukiyaki Lyrics.txt_29-453  []-positive  []
+Sukiyaki Lyrics.txt_30-484  [but-advers]-negative  [fgb,fgb,neg]
+Sukiyaki Lyrics.txt_31-515  []-positive  []
+Sukiyaki Lyrics.txt_32-548  []-positive  [bkc]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Sukiyaki Lyrics.txt_1-1  [sukiyaki,Lyrics,by,4,P]  [title]
+Sukiyaki Lyrics.txt_2-3  [M]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Sukiyaki Lyrics.txt_3-6  [it,is,all,because_of,you]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Sukiyaki Lyrics.txt_3-7  [,,i,am,feeling,sad,and,blue]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Sukiyaki Lyrics.txt_4-11  [you,went,away]  [provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Sukiyaki Lyrics.txt_4-12  [,,now,my,life,is,a,rainy,day,just]  [provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Sukiyaki Lyrics.txt_5-17  [and,i,love,you,so,,,how_much,you,will,never,know]  [reject_expl_just(love,[external,factive,narration,background,objective]),reject_expl_just(know,[external,nonfactive,narration,background,objective])]
+Sukiyaki Lyrics.txt_6-24  [you,have,gone,away]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,foreground,objective])]
+Sukiyaki Lyrics.txt_6-25  [and,left,me,lonely]  [reject_expl_just(go,[external,factive,narration,background,objective]),reject_expl_just(leave,[external,factive,narration,foreground,objective])]
+Sukiyaki Lyrics.txt_7-32  [untouchable,memories,seem,to,keep,haunting,me]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(seem,[external,factive,narration,background,objective])]
+Sukiyaki Lyrics.txt_8-41  [of,a,love,so,true]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Sukiyaki Lyrics.txt_9-50  [that,it,once,turned,all,my,gray]  [provide_expl_just(turn,[external,factive,cause,foreground,objective])]
+Sukiyaki Lyrics.txt_9-51  [skies,blue]  [provide_expl_just(turn,[external,factive,cause,foreground,objective])]
+Sukiyaki Lyrics.txt_10-61  [but,you,disappeared]  [provide_expl_just(disappear,[external,factive,narration,foreground,objective])]
+Sukiyaki Lyrics.txt_11-72  [now,my,eyes,are,filled,with,tears]  [proposal(be,[_437650,_437656,statement,foreground,_437674])]
+Sukiyaki Lyrics.txt_12-84  [and,i,am,wishing,you,were,here,with,me]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Sukiyaki Lyrics.txt_13-98  [soaked,with_love,my,thoughts,of,you,are]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Sukiyaki Lyrics.txt_14-112  [now,that,you,are,gone,i,just,don-t,know,what,to,do]  [provide_expl_just(go-cl21,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Sukiyaki Lyrics.txt_15-129  [if,only,you,were,here]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Sukiyaki Lyrics.txt_16-145  [you,had,wash,away,my,tears]  [provide_expl_just(wash,[external,factive,narration,background,objective])]
+Sukiyaki Lyrics.txt_17-162  [the,sun,would,shine]  [provide_expl_just(shine,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Sukiyaki Lyrics.txt_17-163  [and,once_again]  [provide_expl_just(shine,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Sukiyaki Lyrics.txt_18-181  [you,had,be,mine,all,mine]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Sukiyaki Lyrics.txt_19-201  [but,in,reality,you,and,i,will,never,be]  [reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+Sukiyaki Lyrics.txt_20-221  [cause,you,took,your,love,away,from,me]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Sukiyaki Lyrics.txt_21-243  [i,girl,don-t,know,what,i,did,.]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_448460)]
+Sukiyaki Lyrics.txt_21-244  [i,did]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_452844)]
+Sukiyaki Lyrics.txt_22-266  [to,make,you,leave,me]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_457466)]
+Sukiyaki Lyrics.txt_22-267  [but,what,i,do,know,.,i,do,know]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_462106)]
+Sukiyaki Lyrics.txt_23-291  [is,that,since,you,have,been,gone]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Sukiyaki Lyrics.txt_24-316  [there,is,such,an,emptiness,inside]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Sukiyaki Lyrics.txt_25-341  [i,am,wishing]  [raise_issue(be,[_463320,factive,statement,_463338,subjective])]
+Sukiyaki Lyrics.txt_25-342  [you,had,come,back,to,me]  [raise_issue(be,[_463648,factive,statement,_463666,subjective])]
+Sukiyaki Lyrics.txt_26-368  [if,only,you,were,here]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Sukiyaki Lyrics.txt_27-395  [you,had,wash,away,my,tears]  [provide_expl_just(wash,[external,factive,narration,background,objective])]
+Sukiyaki Lyrics.txt_28-423  [the,sun,would,shine]  [provide_expl_just(shine,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Sukiyaki Lyrics.txt_28-424  [and,once_again]  [provide_expl_just(shine,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Sukiyaki Lyrics.txt_29-453  [you,had,be,mine,all,mine]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Sukiyaki Lyrics.txt_30-484  [but,in,reality,you,and,i,will,never,be]  [reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+Sukiyaki Lyrics.txt_31-515  [cause,you,took,your,love,away,from,me]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Sukiyaki Lyrics.txt_32-548  [oh,baby,you,took,your,love,away,from,me]  [accept_expl_opin(be,[_468504,_468510,setting,_468522,_468528])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Sukiyaki Lyrics.txt_1-1)-[]
+2-(Sukiyaki Lyrics.txt_2-3)-[]
+3-(Sukiyaki Lyrics.txt_3-6)-[]
+4-(Sukiyaki Lyrics.txt_3-7)-[emotions-sadness,primary-vision]
+5-(Sukiyaki Lyrics.txt_4-11)-[primary-concreteness]
+6-(Sukiyaki Lyrics.txt_4-12)-[secondary-temporal_repere,primary-water]
+7-(Sukiyaki Lyrics.txt_5-17)-[emotions-affection,secondary-abstract_tought]
+8-(Sukiyaki Lyrics.txt_6-24)-[primary-concreteness]
+9-(Sukiyaki Lyrics.txt_6-25)-[emotions-sadness]
+10-(Sukiyaki Lyrics.txt_7-32)-[primary-vision]
+11-(Sukiyaki Lyrics.txt_8-41)-[emotions-affection,secondary-abstract_tought]
+12-(Sukiyaki Lyrics.txt_9-50)-[secondary-temporal_repere,primary-vision]
+13-(Sukiyaki Lyrics.txt_9-51)-[primary-vision]
+14-(Sukiyaki Lyrics.txt_10-61)-[]
+15-(Sukiyaki Lyrics.txt_11-72)-[secondary-temporal_repere,primary-narcissism,primary-orality]
+16-(Sukiyaki Lyrics.txt_12-84)-[primary-concreteness]
+17-(Sukiyaki Lyrics.txt_13-98)-[primary-water,secondary-abstract_tought]
+18-(Sukiyaki Lyrics.txt_14-112)-[secondary-temporal_repere,secondary-abstract_tought]
+19-(Sukiyaki Lyrics.txt_15-129)-[primary-concreteness]
+20-(Sukiyaki Lyrics.txt_16-145)-[primary-water,primary-concreteness,primary-orality]
+half
+21-(Sukiyaki Lyrics.txt_17-162)-[primary-fire,primary-vision]
+22-(Sukiyaki Lyrics.txt_17-163)-[]
+23-(Sukiyaki Lyrics.txt_18-181)-[]
+24-(Sukiyaki Lyrics.txt_19-201)-[secondary-abstract_tought]
+25-(Sukiyaki Lyrics.txt_20-221)-[secondary-abstract_tought,emotions-affection,primary-concreteness]
+26-(Sukiyaki Lyrics.txt_21-243)-[secondary-abstract_tought]
+27-(Sukiyaki Lyrics.txt_21-244)-[]
+28-(Sukiyaki Lyrics.txt_22-266)-[secondary-instru_behavior]
+29-(Sukiyaki Lyrics.txt_22-267)-[secondary-abstract_tought,secondary-abstract_tought]
+30-(Sukiyaki Lyrics.txt_23-291)-[]
+31-(Sukiyaki Lyrics.txt_24-316)-[primary-concreteness]
+32-(Sukiyaki Lyrics.txt_25-341)-[]
+33-(Sukiyaki Lyrics.txt_25-342)-[primary-concreteness]
+34-(Sukiyaki Lyrics.txt_26-368)-[primary-concreteness]
+35-(Sukiyaki Lyrics.txt_27-395)-[primary-water,primary-concreteness,primary-orality]
+36-(Sukiyaki Lyrics.txt_28-423)-[primary-fire,primary-vision]
+37-(Sukiyaki Lyrics.txt_28-424)-[]
+38-(Sukiyaki Lyrics.txt_29-453)-[]
+39-(Sukiyaki Lyrics.txt_30-484)-[secondary-abstract_tought]
+40-(Sukiyaki Lyrics.txt_31-515)-[secondary-abstract_tought,emotions-affection,primary-concreteness]
+41-(Sukiyaki Lyrics.txt_32-548)-[emotions-affection,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Sukiyaki Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-P-sn2,subj-theme_bound-Lyrics-sn1,and(P,4,sn2),and(Lyrics,sukiyaki,sn1),def_prop(P,[place,attivita,informa]),def_prop(Lyrics,[informa,tecno])])
+lf(Sukiyaki Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-M-sn1,def_prop(M,[astratto,attivita,informa,nquant,oggetto])])
+lf(Sukiyaki Lyrics.txt_3,6,cl4-nil-nil-feel-[coord-prop-sad_and_blue-sn7,xcomp-prop-blue-sn6,xcomp-prop-sad-sn5,subj-experiencer-i-sn4,ncmod-modal-you-sn3,aux-am-nil,progr-feeling-nil,def_prop(sad_and_blue,[informa,tecno,animato,astratto,istituzione,oggetto,strumento]),def_prop(blue,[informa,tecno,animato,astratto,istituzione,oggetto,strumento]),def_prop(sad,[informa,tecno,animato,astratto,istituzione,oggetto,strumento]),def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_3,6,cl3-nil-nil-be-[xcomp-prop-all-sn2,subj-theme_bound-it-sn1,def_prop(all,[_470068]),def_prop(it,[any])])
+lf(Sukiyaki Lyrics.txt_4,11,cl6-nil-nil-be-[adj-(mod)-just-nil,adj-(mod)-now-nil,xcomp-prop-day-sn4,subj-theme_bound-life-sn3,and(day,rainy,sn4),def_prop(day,[tempo]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Sukiyaki Lyrics.txt_4,11,cl5-nil-nil-go-[xcomp-prop-away-sn2,subj-agent-you-sn1,def_prop(away,[evaluative]),def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_5,17,cl8-nil-will-know-[cmod-subord-know-",subj-actor-you-sn4,cmod-subord-love-nil,neg-never-nil,def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_5,17,cl7-nil-nil-love-[subj-experiencer-you-sn2,subj-experiencer-you-sn1,and(you,i,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_6,24,cl10-nil-nil-leave-[cmod-subord-leave-",xcomp-prop-lonely-sn5,xcomp-prop-me-sn4,subj-theme-you-sn3,def_prop(lonely,[estens]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_6,24,cl9-nil-nil-go-[xcomp-prop-away-sn2,subj-agent-you-sn1,aux-have-nil,def_prop(away,[evaluative]),def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_7,32,cl12-nil-nil-keep-[obj-goal-me-sn2,xadj-result-keep-2,and(me,haunting,sn2),def_prop(me,[umano])])
+lf(Sukiyaki Lyrics.txt_7,32,cl11-nil-nil-seem-[subj-actor-memory-sn1,and(memory,untouchable,sn1),def_prop(memory,[astratto,oggetto,strumento])])
+lf(Sukiyaki Lyrics.txt_8,41,cl13-nil-nil-be-[xadj-adj-true-adj1,ncmod-specif-love-sn1,def_prop(true,_471272),def_prop(love,[astratto,emotivo,nquant])])
+lf(Sukiyaki Lyrics.txt_9,50,cl15-nil-nil-be-[xcomp-prop-blue-sn6,subj-theme_bound-sky-sn5,def_prop(blue,[animato,astratto,istituzione,oggetto,strumento]),def_prop(sky,[oggetto])])
+lf(Sukiyaki Lyrics.txt_9,50,cl14-nil-nil-turn-[obj-theme-all-sn2,subj-agent-it-sn1,def_prop(all,[_471534]),def_prop(it,[any])])
+lf(Sukiyaki Lyrics.txt_10,61,cl16-nil-nil-disappear-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_11,72,cl17-nil-nil-fill-[adj-(mod)-now-nil,iobj-goal-tear-sn2,subj-goal-eye-sn1,aux-are-nil,def_prop(tear,[attivita,body_part,umano]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(Sukiyaki Lyrics.txt_12,84,cl19-nil-nil-be-[cmod-subord-be-",ncmod-comitativo-me-sn8,adj-(mod)-here-nil,ncmod-comitativo-me-sn5,ncmod-comitativo-me-sn3,subj-theme_bound-you-sn2,def_prop(me,[umano]),def_prop(here,[istituzione]),def_prop(me,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_12,84,cl18-nil-nil-wish-[ccomp-prop-be-cl19,subj-experiencer-i-sn1,aux-am-nil,progr-wishing-nil,def_prop(i,[umano])])
+lf(Sukiyaki Lyrics.txt_13,98,cl20-nil-nil-be-[adj-(mod)-with_love-nil,subj-theme_bound-thought-sn1,def_prop(thought,[astratto])])
+lf(Sukiyaki Lyrics.txt_14,112,cl23-nil-nil-do-[aux-do-nil])
+lf(Sukiyaki Lyrics.txt_14,112,cl22-not-nil-know-[subj-agent-what-sn12,subj-agent-you-sn11,subj-agent-what-sn9,subj-agent-you-sn8,subj-actor-i-sn6,subj-actor-i-sn2,aux-do-nil,def_prop(what,[oggetto]),def_prop(you,[umano]),def_prop(what,[oggetto]),def_prop(you,[umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Sukiyaki Lyrics.txt_14,112,cl21-nil-nil-go-[subj-actor-you-sn1,aux-are-nil,def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_15,129,cl24-nil-nil-be-[xcomp-prop-here-sn2,subj-theme_bound-you-sn1,def_prop(here,[istituzione]),def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_16,145,cl25-nil-nil-wash-[obj-theme_aff-tear-sn2,subj-actor-you-sn1,aux-had-nil,and(tear,away,sn2),def_prop(tear,[attivita,body_part,umano]),def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_17,162,cl27-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_17,162,cl26-nil-would-shine-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_18,181,cl29-nil-nil-be-[xcomp-prop-mine-sn2,xcomp-purpose-be-2,def_prop(mine,[oggetto,strumento])])
+lf(Sukiyaki Lyrics.txt_18,181,cl28-nil-nil-have-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_19,201,cl30-nil-will-be-[ncmod-locativo-reality-sn4,coord-theme_bound-you_and_i-sn3,subj-theme_bound-i-sn2,subj-theme_bound-you-sn1,neg-never-nil,def_prop(reality,[astratto,stato]),def_prop(you_and_i,[umano,umano]),def_prop(i,[umano,umano]),def_prop(you,[umano,umano])])
+lf(Sukiyaki Lyrics.txt_20,221,cl32-nil-nil-take-[ncmod-modal-away-sn6,ncmod-loc_origin-me-sn4,obj-theme-love-sn3,xcomp-purpose-take-2,def_prop(away,[istituzione]),def_prop(me,[umano]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Sukiyaki Lyrics.txt_20,221,cl31-nil-nil-cause-[adj-locative-away-nil,subj-causer-you-sn2,subj-causer-you-sn1,and(you,you,sn1),def_prop(away,[istituzione]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_21,243,cl34-nil-nil-do-[subj-theme_unaff-you-sn4,aux-did-nil,def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_21,243,cl33-not-nil-know-[subj-actor-girl-sn1,aux-do-nil,and(girl,i,sn1),def_prop(girl,[oggetto,strumento])])
+lf(Sukiyaki Lyrics.txt_22,266,cl37-nil-nil-know-[aux-do-nil,subj-actor-i-sn3,def_prop(i,[umano])])
+lf(Sukiyaki Lyrics.txt_22,266,cl36-nil-nil-leave-[obj-agent-me-sn2,xcomp-purpose-make-2,subj-theme-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_22,266,cl35-nil-nil-make-[])
+lf(Sukiyaki Lyrics.txt_23,291,cl39-nil-nil-go-[cmod-subord-go-since,subj-actor-you-sn1,aux-been-nil,aux-have-nil,def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_23,291,cl38-nil-nil-be-[])
+lf(Sukiyaki Lyrics.txt_24,316,cl40-nil-nil-be-[xcomp-prop-emptiness-sn2,subj-theme_bound-there-sn1,and(emptiness,such,sn2),def_prop(emptiness,[stato]),def_prop(there,[any])])
+lf(Sukiyaki Lyrics.txt_25,341,cl42-nil-nil-come-[adj-(mod)-back-nil,iobj-goal-me-sn3,subj-agent-you-sn2,aux-had-nil,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_25,341,cl41-nil-nil-wish-[subj-experiencer-you-sn1,aux-am-nil,progr-wishing-nil,def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_26,368,cl43-nil-nil-be-[xcomp-prop-here-sn2,subj-theme_bound-you-sn1,def_prop(here,[istituzione]),def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_27,395,cl44-nil-nil-wash-[obj-theme_aff-tear-sn2,subj-actor-you-sn1,aux-had-nil,and(tear,away,sn2),def_prop(tear,[attivita,body_part,umano]),def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_28,423,cl46-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_28,423,cl45-nil-would-shine-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_29,453,cl48-nil-nil-be-[xcomp-prop-mine-sn2,xcomp-purpose-be-2,def_prop(mine,[oggetto,strumento])])
+lf(Sukiyaki Lyrics.txt_29,453,cl47-nil-nil-have-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_30,484,cl49-nil-will-be-[ncmod-locativo-reality-sn4,coord-theme_bound-you_and_i-sn3,subj-theme_bound-i-sn2,subj-theme_bound-you-sn1,neg-never-nil,def_prop(reality,[astratto,stato]),def_prop(you_and_i,[umano,umano]),def_prop(i,[umano,umano]),def_prop(you,[umano,umano])])
+lf(Sukiyaki Lyrics.txt_31,515,cl51-nil-nil-take-[ncmod-modal-away-sn6,ncmod-loc_origin-me-sn4,obj-theme-love-sn3,xcomp-purpose-take-2,def_prop(away,[istituzione]),def_prop(me,[umano]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Sukiyaki Lyrics.txt_31,515,cl50-nil-nil-cause-[adj-locative-away-nil,subj-causer-you-sn2,subj-causer-you-sn1,and(you,you,sn1),def_prop(away,[istituzione]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Sukiyaki Lyrics.txt_32,548,cl52-nil-nil-take-[adj-(mod)-away-nil,ncmod-loc_origin-me-sn4,obj-theme_aff-love-sn3,subj-agent-you-sn2,subj-agent-you-sn1,and(you,oh,sn1),def_prop(me,[umano]),def_prop(love,[astratto,emotivo,nquant]),def_prop(you,[umano]),def_prop(you,[umano])])

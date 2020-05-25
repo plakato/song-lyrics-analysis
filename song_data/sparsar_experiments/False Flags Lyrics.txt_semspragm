@@ -1,0 +1,78 @@
+"POLARITY, DISCOURSE MARKERS"
+
+False Flags Lyrics.txt_1-1  []-negative  [neg]
+False Flags Lyrics.txt_2-3  [if-hypoth]-positive  [fgb]
+False Flags Lyrics.txt_2-4  []-positive  []
+False Flags Lyrics.txt_2-5  []-negative  []
+False Flags Lyrics.txt_3-9  []-suspension  [neg]
+False Flags Lyrics.txt_3-10  []-positive  []
+False Flags Lyrics.txt_4-14  []-positive  [neg]
+False Flags Lyrics.txt_5-19  []-negative  [neg,neg]
+False Flags Lyrics.txt_6-25  []-suspension  [neg,neg]
+False Flags Lyrics.txt_7-32  []-positive  [fgb]
+False Flags Lyrics.txt_8-40  []-negative  [neg]
+False Flags Lyrics.txt_9-49  []-negative  [neg]
+False Flags Lyrics.txt_9-50  [but-advers]-negative  [fgb,neg]
+False Flags Lyrics.txt_10-59  []-negative  [neg]
+False Flags Lyrics.txt_11-70  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+False Flags Lyrics.txt_1-1  [false,Flags,Lyrics,by,United,Nations]  [title]
+False Flags Lyrics.txt_2-3  [if,we,were,being_honest]  [provide_expl_just(take,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_80168)]
+False Flags Lyrics.txt_2-4  [i,you,i,had,tell]  [provide_expl_just(take,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_85384)]
+False Flags Lyrics.txt_2-5  [don-t,know,how_much,more,i,had,take]  [propose_opin_neg(take,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_90600)]
+False Flags Lyrics.txt_3-9  [every,morning,,,thinking,of,the,junk,i,could,be,shooting,into,my,veins]  [provide_expl_just(shoot,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+False Flags Lyrics.txt_3-10  [,]  [provide_expl_just(shoot,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+False Flags Lyrics.txt_4-14  [laughing,at,this,black,joke]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+False Flags Lyrics.txt_5-19  [the,joke,it,is,not,funny,anymore,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+False Flags Lyrics.txt_6-25  [the,violent,defilement,of,the,weak,animals]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+False Flags Lyrics.txt_7-32  [and,the,silent,compliant,approval,of,the,powerful]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+False Flags Lyrics.txt_8-40  [please,don-t,take,these,things,too,seriously]  [reject_expl_just(take,[external,factive,narration,foreground,objective])]
+False Flags Lyrics.txt_9-49  [they,are,nothing]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+False Flags Lyrics.txt_9-50  [but,false,flags]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+False Flags Lyrics.txt_10-59  [sorry]  reject_expl_opin(nil,[])
+False Flags Lyrics.txt_11-70  [sucker]  reject_expl_opin(nil,[])
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(False Flags Lyrics.txt_1-1)-[]
+2-(False Flags Lyrics.txt_2-3)-[]
+3-(False Flags Lyrics.txt_2-4)-[secondary-social_behavior]
+4-(False Flags Lyrics.txt_2-5)-[secondary-abstract_tought]
+5-(False Flags Lyrics.txt_3-9)-[secondary-temporal_repere,primary-narcissism]
+6-(False Flags Lyrics.txt_3-10)-[]
+7-(False Flags Lyrics.txt_4-14)-[primary-concreteness,emotions-positive_affect]
+half
+8-(False Flags Lyrics.txt_5-19)-[emotions-positive_affect,emotions-positive_affect]
+9-(False Flags Lyrics.txt_6-25)-[emotions-aggression]
+10-(False Flags Lyrics.txt_7-32)-[primary-passivity,secondary-social_behavior]
+11-(False Flags Lyrics.txt_8-40)-[secondary-social_behavior]
+12-(False Flags Lyrics.txt_9-49)-[]
+13-(False Flags Lyrics.txt_9-50)-[]
+14-(False Flags Lyrics.txt_10-59)-[emotions-sadness]
+15-(False Flags Lyrics.txt_11-70)-[primary-orality]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(False Flags Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Nations-sn2,subj-theme_bound-Lyrics-sn1,and(Nations,United,sn2),and(Lyrics,flag,sn1),and(Lyrics,false,sn1),def_prop(Nations,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(False Flags Lyrics.txt_2,3,cl5-nil-nil-take-[aux-had-nil])
+lf(False Flags Lyrics.txt_2,3,cl4-not-nil-know-[adj-(mod)-more-nil,adj-subj_disc-more-sn9,fint-prop-how_much-sn8,xadj-result-take-2,obj-theme_unaff-i-sn7,subj-actor-you-sn6,aux-do-nil,def_prop(more,[astratto,informa,oggetto]),def_prop(more,[astratto,informa,oggetto]),def_prop(how_much,[quant,attivita,stato]),def_prop(i,[umano]),def_prop(you,[umano])])
+lf(False Flags Lyrics.txt_2,3,cl3-nil-nil-tell-[subj-agent-i-sn3,subj-agent-i-sn2,aux-had-nil,and(i,you,sn2),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(False Flags Lyrics.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(False Flags Lyrics.txt_3,9,cl7-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(False Flags Lyrics.txt_3,9,cl6-nil-could-shoot-[adj-temporal-morning-nil,iobj-goal-vein-sn2,subj-agent-think-sn1,aux-be-nil,progr-shooting-nil,and(morning,every,sn7),def_prop(morning,[tempo]),def_prop(vein,[animato,attivita,body_part,informa,oggetto,plant,umano]),def_prop(think,[astratto])])
+lf(False Flags Lyrics.txt_4,14,cl8-nil-nil-be-[subj-theme_bound-joke-sn1,def_prop(joke,[astratto,attivita,informa])])
+lf(False Flags Lyrics.txt_5,19,cl9-not-nil-be-[xcomp-prop-anymore-sn3,subj-theme_bound-it-sn2,subj-theme_bound-it-sn1,and(anymore,funny,sn3),and(it,joke,sn1),def_prop(anymore,[istituzione]),def_prop(it,[any]),def_prop(it,[any])])
+lf(False Flags Lyrics.txt_6,25,cl10-nil-nil-be-[ncmod-specif-animal-sn2,subj-theme_bound-you-sn1,and(animal,weak,sn2),def_prop(animal,[any]),def_prop(you,[umano])])
+lf(False Flags Lyrics.txt_7,32,cl11-nil-nil-be-[cmod-subord-be-",ncmod-specif-powerful-sn2,subj-theme_bound-you-sn1,def_prop(powerful,[valutativo]),def_prop(you,[umano])])
+lf(False Flags Lyrics.txt_8,40,cl12-not-nil-take-[adj-(mod)-seriously-nil,adj-(mod)-please-nil,subj_top-agent-thing-sn1,aux-do-nil,and(seriously,too,sn4),and(thing,these,sn1),def_prop(seriously,[istituzione]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(False Flags Lyrics.txt_9,49,cl13-nil-nil-be-[subj-theme_bound-you-sn3,xcomp-prop-nothing-sn2,subj-theme_bound-they-sn1,def_prop(you,[umano]),def_prop(nothing,[astratto,informa,oggetto]),def_prop(they,[umano])])
+lf(False Flags Lyrics.txt_10,59,cl14-nil-nil-say-[])
+lf(False Flags Lyrics.txt_11,70,cl15-nil-nil-say-[obj-theme_unaff-sucker-sn1,def_prop(sucker,[animato,edible,oggetto,plant,umano])])

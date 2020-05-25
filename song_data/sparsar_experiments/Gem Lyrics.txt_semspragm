@@ -1,0 +1,120 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Gem Lyrics.txt_1-1  []-positive  []
+Gem Lyrics.txt_2-3  []-negative  [neg]
+Gem Lyrics.txt_3-6  []-negative  [neg]
+Gem Lyrics.txt_4-11  []-negative  [neg]
+Gem Lyrics.txt_4-12  [so-result]-positive  [fgb]
+Gem Lyrics.txt_5-17  []-suspension  []
+Gem Lyrics.txt_6-24  []-positive  []
+Gem Lyrics.txt_7-31  []-suspension  [neg,neg]
+Gem Lyrics.txt_8-39  []-positive  []
+Gem Lyrics.txt_9-48  []-suspension  []
+Gem Lyrics.txt_10-58  []-suspension  []
+Gem Lyrics.txt_11-69  []-positive  []
+Gem Lyrics.txt_12-81  []-negative  [neg]
+Gem Lyrics.txt_13-94  []-positive  []
+Gem Lyrics.txt_14-109  []-positive  []
+Gem Lyrics.txt_15-124  []-positive  []
+Gem Lyrics.txt_16-140  []-positive  []
+Gem Lyrics.txt_17-157  []-suspension  []
+Gem Lyrics.txt_18-176  []-suspension  []
+Gem Lyrics.txt_19-195  []-suspension  []
+Gem Lyrics.txt_20-215  []-suspension  []
+Gem Lyrics.txt_21-236  []-suspension  []
+Gem Lyrics.txt_22-258  []-suspension  []
+Gem Lyrics.txt_23-282  []-suspension  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Gem Lyrics.txt_1-1  [gem,Lyrics,by,Zoot,woman]  [title]
+Gem Lyrics.txt_2-3  [cross,the,road,to,meet,me]  [reject_expl_just(meet,[external,factive,explanation,background,objective]),propose_opin_neg(meet,[external,factive,explanation,background,objective])]
+Gem Lyrics.txt_3-6  [thought,you,had,never,see]  [reject_expl_just(see,[external,factive,narration,background,objective]),reject_expl_just(think,[external,factive,narration,foreground,objective])]
+Gem Lyrics.txt_4-11  [you,opened,up,my,mind]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Gem Lyrics.txt_4-12  [so]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Gem Lyrics.txt_5-17  [i,am,waiting,to,believe]  [provide_expl_just(believe,[external,factive,narration,background,objective]),provide_expl_just(wait,[external,factive,narration,foreground,objective])]
+Gem Lyrics.txt_6-24  [all,audition,emotion]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Gem Lyrics.txt_7-31  [never,doubt,follow]  [provide_expl_just(follow,[external,factive,narration,background,objective])]
+Gem Lyrics.txt_8-39  [show,me,one,direction]  [raise_issue(be,[_26748,factive,statement,_26766,subjective])]
+Gem Lyrics.txt_9-48  [i,cannot,be,without]  [provide_expl_just(be,[external,nonfactive,narration,foreground,objective])]
+Gem Lyrics.txt_10-58  [heard,enough,to,reason]  [raise_issue(be,[_26892,_26898,statement,_26910,_26916])]
+Gem Lyrics.txt_11-69  [muted,every,sense]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Gem Lyrics.txt_12-81  [through,the,interference]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Gem Lyrics.txt_13-94  [i,am,ready,to,receive]  [provide_expl_just(receive,[external,factive,narration,background,objective]),provide_expl_just(ready,[external,factive,narration,foreground,objective])]
+Gem Lyrics.txt_14-109  [a,glimmer,of,white,promise]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Gem Lyrics.txt_15-124  [found,in,you,a,gem]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Gem Lyrics.txt_16-140  [my,intuition,call]  [provide_expl_just(call,[external,factive,narration,background,objective])]
+Gem Lyrics.txt_17-157  [i,am,ready,to,believe]  [provide_expl_just(believe,[external,factive,narration,background,objective]),provide_expl_just(ready,[external,factive,narration,foreground,objective])]
+Gem Lyrics.txt_18-176  [ready,to,believe]  [provide_expl_just(believe,[external,factive,narration,background,objective])]
+Gem Lyrics.txt_19-195  [ready,to,believe]  [provide_expl_just(believe,[external,factive,narration,background,objective])]
+Gem Lyrics.txt_20-215  [ready,to,believe]  [provide_expl_just(believe,[external,factive,narration,background,objective])]
+Gem Lyrics.txt_21-236  [ready,to,believe]  [provide_expl_just(believe,[external,factive,narration,background,objective])]
+Gem Lyrics.txt_22-258  [i,am,ready,to,believe]  [provide_expl_just(believe,[external,factive,narration,background,objective]),provide_expl_just(ready,[external,factive,narration,foreground,objective])]
+Gem Lyrics.txt_23-282  [i,am,ready,to,believe]  [provide_expl_just(believe,[external,factive,narration,background,objective]),provide_expl_just(ready,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Gem Lyrics.txt_1-1)-[]
+2-(Gem Lyrics.txt_2-3)-[primary-brink,secondary-social_behavior]
+3-(Gem Lyrics.txt_3-6)-[secondary-abstract_tought,primary-vision]
+4-(Gem Lyrics.txt_4-11)-[primary-concreteness]
+5-(Gem Lyrics.txt_4-12)-[]
+6-(Gem Lyrics.txt_5-17)-[secondary-abstract_tought]
+7-(Gem Lyrics.txt_6-24)-[primary-sound]
+8-(Gem Lyrics.txt_7-31)-[emotions-aggression,secondary-social_behavior]
+9-(Gem Lyrics.txt_8-39)-[]
+10-(Gem Lyrics.txt_9-48)-[]
+11-(Gem Lyrics.txt_10-58)-[primary-sound,secondary-abstract_tought]
+12-(Gem Lyrics.txt_11-69)-[secondary-temporal_repere]
+half
+13-(Gem Lyrics.txt_12-81)-[]
+14-(Gem Lyrics.txt_13-94)-[]
+15-(Gem Lyrics.txt_14-109)-[secondary-social_behavior]
+16-(Gem Lyrics.txt_15-124)-[secondary-instru_behavior]
+17-(Gem Lyrics.txt_16-140)-[secondary-social_behavior]
+18-(Gem Lyrics.txt_17-157)-[secondary-abstract_tought]
+19-(Gem Lyrics.txt_18-176)-[secondary-abstract_tought]
+20-(Gem Lyrics.txt_19-195)-[secondary-abstract_tought]
+21-(Gem Lyrics.txt_20-215)-[secondary-abstract_tought]
+22-(Gem Lyrics.txt_21-236)-[secondary-abstract_tought]
+23-(Gem Lyrics.txt_22-258)-[secondary-abstract_tought]
+24-(Gem Lyrics.txt_23-282)-[secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Gem Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-woman-sn2,subj-theme_bound-Lyrics-sn1,and(woman,Zoot,sn2),and(Lyrics,gem,sn1),def_prop(woman,[any]),def_prop(Lyrics,[informa,tecno])])
+lf(Gem Lyrics.txt_2,3,cl2-nil-nil-meet-[obj-actor-me-sn2,subj-experiencer-road-sn1,def_prop(me,[umano]),def_prop(road,[attivita,oggetto,strumento])])
+lf(Gem Lyrics.txt_3,6,cl4-nil-nil-see-[neg-never-nil,subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Gem Lyrics.txt_3,6,cl3-nil-nil-think-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Gem Lyrics.txt_4,11,cl6-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Gem Lyrics.txt_4,11,cl5-nil-nil-open-[adj-(mod)-up-nil,obj-goal-mind-sn2,subj-agent-you-sn1,def_prop(mind,[astratto]),def_prop(you,[umano])])
+lf(Gem Lyrics.txt_5,17,cl8-nil-nil-believe-[])
+lf(Gem Lyrics.txt_5,17,cl7-nil-nil-wait-[subj-actor-i-sn1,aux-am-nil,progr-waiting-nil,def_prop(i,[umano])])
+lf(Gem Lyrics.txt_6,24,cl9-nil-nil-be-[ncmod-modal-audition-sn2,subj-theme_bound-you-sn1,def_prop(audition,[attivita]),def_prop(you,[umano])])
+lf(Gem Lyrics.txt_7,31,cl10-nil-nil-follow-[subj-agent-doubt-sn1,def_prop(doubt,[astratto])])
+lf(Gem Lyrics.txt_8,39,cl11-nil-nil-show-[obj2-paziente-direction-sn3,obj-goal-me-sn2,subj-actor-you-sn1,and(direction,one,sn3),def_prop(direction,[astratto,attivita,informa,luogo,relat]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Gem Lyrics.txt_9,48,cl12-not-can-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Gem Lyrics.txt_10,58,cl13-nil-nil-reason-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Gem Lyrics.txt_11,69,cl14-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Gem Lyrics.txt_12,81,cl15-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Gem Lyrics.txt_13,94,cl17-nil-nil-receive-[subj-tema_nonaff-i-sn1,def_prop(i,[umano])])
+lf(Gem Lyrics.txt_13,94,cl16-nil-nil-ready-[subj-theme-i-sn1,aux-am-nil,def_prop(i,[umano])])
+lf(Gem Lyrics.txt_14,109,cl18-nil-nil-be-[subj-theme_bound-promise-sn2,subj-theme_bound-promise-sn1,and(promise,glimmer,sn1),def_prop(promise,[astratto,attivita,informa]),def_prop(promise,[astratto,attivita,informa])])
+lf(Gem Lyrics.txt_15,124,cl19-nil-nil-be-[subj-theme_bound-gem-sn1,def_prop(gem,[oggetto,sostanza,strumento])])
+lf(Gem Lyrics.txt_16,140,cl20-nil-nil-call-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Gem Lyrics.txt_17,157,cl22-nil-nil-believe-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Gem Lyrics.txt_17,157,cl21-nil-nil-ready-[subj-theme-i-sn1,aux-am-nil,def_prop(i,[umano])])
+lf(Gem Lyrics.txt_18,176,cl23-nil-nil-believe-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Gem Lyrics.txt_19,195,cl24-nil-nil-believe-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Gem Lyrics.txt_20,215,cl25-nil-nil-believe-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Gem Lyrics.txt_21,236,cl26-nil-nil-believe-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Gem Lyrics.txt_22,258,cl28-nil-nil-believe-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Gem Lyrics.txt_22,258,cl27-nil-nil-ready-[subj-theme-i-sn1,aux-am-nil,def_prop(i,[umano])])
+lf(Gem Lyrics.txt_23,282,cl30-nil-nil-believe-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Gem Lyrics.txt_23,282,cl29-nil-nil-ready-[subj-theme-i-sn1,aux-am-nil,def_prop(i,[umano])])

@@ -1,0 +1,111 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Ruins Lyrics.txt_1-1  []-negative  []
+Ruins Lyrics.txt_2-3  []-suspension  []
+Ruins Lyrics.txt_2-4  []-positive  []
+Ruins Lyrics.txt_3-7  []-positive  []
+Ruins Lyrics.txt_4-11  []-negative  [fgb,neg]
+Ruins Lyrics.txt_5-16  []-suspension  [neg]
+Ruins Lyrics.txt_5-17  []-suspension  []
+Ruins Lyrics.txt_6-22  []-positive  [neg]
+Ruins Lyrics.txt_7-29  []-negative  []
+Ruins Lyrics.txt_8-38  []-positive  [neg]
+Ruins Lyrics.txt_9-47  []-positive  []
+Ruins Lyrics.txt_9-48  []-positive  [neg]
+Ruins Lyrics.txt_10-58  []-negative  []
+Ruins Lyrics.txt_10-59  []-negative  [neg]
+Ruins Lyrics.txt_11-70  []-negative  []
+Ruins Lyrics.txt_12-82  [so-result]-positive  [fgb,neg]
+Ruins Lyrics.txt_13-96  []-positive  []
+Ruins Lyrics.txt_14-111  []-negative  [neg,neg]
+Ruins Lyrics.txt_15-126  []-positive  []
+Ruins Lyrics.txt_15-127  []-negative  [neg]
+Ruins Lyrics.txt_15-128  [so-result]-positive  [fgb]
+Ruins Lyrics.txt_16-143  []-positive  []
+Ruins Lyrics.txt_17-160  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Ruins Lyrics.txt_1-1  [ruins,Lyrics,by,Wooden,Shjips]  [title]
+Ruins Lyrics.txt_2-3  [under_my_skin,chases]  [provide_expl_just(chase,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Ruins Lyrics.txt_2-4  [after_all,the,blues]  [provide_expl_just(chase,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Ruins Lyrics.txt_3-7  [look,out,for,the,king,in,the]  [provide_expl_just(look,[external,factive,narration,background,objective])]
+Ruins Lyrics.txt_4-11  [writers,and,lost]  [reject_expl_just(lose,[external,factive,narration,foreground,objective])]
+Ruins Lyrics.txt_5-16  [this,will,be,uncertain]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Ruins Lyrics.txt_5-17  [this,will,be,ruins]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Ruins Lyrics.txt_6-22  [born,in,the,light,,,cast,a,shadow,of,our,love]  [provide_expl_just(bear,[external,factive,narration,foreground,objective])]
+Ruins Lyrics.txt_7-29  [thinking,the,sun,,,blurring]  [provide_expl_just(think,[external,factive,narration,foreground,objective])]
+Ruins Lyrics.txt_8-38  [innocence,of,tired]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Ruins Lyrics.txt_9-47  [all,we,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Ruins Lyrics.txt_9-48  [you,all,wrong]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Ruins Lyrics.txt_10-58  [out_of,the,night,,,was,so_long]  [provide_expl_just(recall,[external,nonfactive,narration,foreground,objective])]
+Ruins Lyrics.txt_10-59  [i,can,not,recall]  [reject_expl_just(recall,[external,nonfactive,narration,foreground,objective])]
+Ruins Lyrics.txt_11-70  [chasing,after,night,,,at,the,end]  [provide_expl_just(chase,[external,factive,narration,foreground,objective])]
+Ruins Lyrics.txt_12-82  [of,so,to,fall]  [provide_expl_just(fall,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Ruins Lyrics.txt_13-96  [did,you,know,so_much,home]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,background,objective])]
+Ruins Lyrics.txt_14-111  [lost,the,purpose,execution]  [reject_expl_just(lose,[external,factive,narration,foreground,objective])]
+Ruins Lyrics.txt_15-126  [every,knows]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Ruins Lyrics.txt_15-127  [,,would,not,be]  [reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+Ruins Lyrics.txt_15-128  [so,easy]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Ruins Lyrics.txt_16-143  [we,have,only,hold]  [provide_expl_just(hold,[external,factive,narration,background,objective])]
+Ruins Lyrics.txt_17-160  [a,dream]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Ruins Lyrics.txt_1-1)-[primary-chaos]
+2-(Ruins Lyrics.txt_2-3)-[primary-voyage]
+3-(Ruins Lyrics.txt_2-4)-[primary-vision]
+4-(Ruins Lyrics.txt_3-7)-[primary-vision,primary-concreteness]
+5-(Ruins Lyrics.txt_4-11)-[]
+6-(Ruins Lyrics.txt_5-16)-[primary-diffusion]
+7-(Ruins Lyrics.txt_5-17)-[primary-chaos]
+8-(Ruins Lyrics.txt_6-22)-[primary-vision,primary-diffusion,emotions-affection]
+9-(Ruins Lyrics.txt_7-29)-[primary-fire]
+10-(Ruins Lyrics.txt_8-38)-[]
+11-(Ruins Lyrics.txt_9-47)-[secondary-abstract_tought]
+half
+12-(Ruins Lyrics.txt_9-48)-[]
+13-(Ruins Lyrics.txt_10-58)-[]
+14-(Ruins Lyrics.txt_10-59)-[]
+15-(Ruins Lyrics.txt_11-70)-[primary-concreteness]
+16-(Ruins Lyrics.txt_12-82)-[primary-descent]
+17-(Ruins Lyrics.txt_13-96)-[secondary-abstract_tought]
+18-(Ruins Lyrics.txt_14-111)-[secondary-abstract_tought]
+19-(Ruins Lyrics.txt_15-126)-[secondary-temporal_repere,secondary-abstract_tought]
+20-(Ruins Lyrics.txt_15-127)-[]
+21-(Ruins Lyrics.txt_15-128)-[]
+22-(Ruins Lyrics.txt_16-143)-[]
+23-(Ruins Lyrics.txt_17-160)-[primary-counscious]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Ruins Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Shjips-sn2,subj-theme_bound-Lyrics-sn1,and(Shjips,Wooden,sn2),and(Lyrics,ruin,sn1),def_prop(Shjips,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Ruins Lyrics.txt_2,3,cl3-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Ruins Lyrics.txt_2,3,cl2-nil-nil-chase-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Ruins Lyrics.txt_3,7,cl4-nil-nil-look-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Ruins Lyrics.txt_4,11,cl5-nil-nil-lose-[subj-theme_aff-writer-sn1,def_prop(writer,[astratto,attivita,informa,stato,umano])])
+lf(Ruins Lyrics.txt_5,16,cl6-nil-will-be-[xcomp-prop-ruin-sn4,subj-theme_bound-this-sn3,xcomp-prop-uncertain-sn2,subj-theme_bound-this-sn1,def_prop(ruin,[evento,oggetto,stato,strumento]),def_prop(this,[oggetto,umano]),def_prop(uncertain,[evaluative]),def_prop(this,[oggetto,umano])])
+lf(Ruins Lyrics.txt_6,22,cl7-nil-nil-bear-[ncmod-locativo-light-sn2,subj-agent-shadow-sn1,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(shadow,[astratto,emotivo,stato,umano])])
+lf(Ruins Lyrics.txt_7,29,cl9-nil-nil-blur-[obj-prop-sun-sn2,xcomp-purpose-think-2,subj-agent-you-sn1,def_prop(sun,[oggetto,umano]),def_prop(you,[umano])])
+lf(Ruins Lyrics.txt_7,29,cl8-nil-nil-think-[])
+lf(Ruins Lyrics.txt_8,38,cl10-nil-nil-be-[ncmod-specif-tired-sn2,subj-theme_bound-you-sn1,def_prop(tired,[emotivo]),def_prop(you,[umano])])
+lf(Ruins Lyrics.txt_9,47,cl12-nil-nil-be-[xcomp-prop-all-sn4,subj-theme_bound-you-sn3,def_prop(all,[_534322]),def_prop(you,[umano])])
+lf(Ruins Lyrics.txt_9,47,cl11-nil-nil-know-[xadj-adj-wrong-adj2,ncmod-modal-all-sn2,subj-actor-you-sn1,def_prop(wrong,_534450),def_prop(all,[_534466]),def_prop(you,[umano])])
+lf(Ruins Lyrics.txt_10,58,cl14-not-can-recall-[subj-agent-you-sn3,ncmod-modal-night-sn1,def_prop(you,[umano]),def_prop(night,[tempo])])
+lf(Ruins Lyrics.txt_10,58,cl13-nil-nil-be-[xcomp-theme-so_long-sn2,def_prop(so_long,[informa,tecno])])
+lf(Ruins Lyrics.txt_11,70,cl15-nil-nil-chase-[ncmod-clock_cal-end-sn3,ncmod-temporale-night-sn2,subj-agent-you-sn1,def_prop(end,[tempo]),def_prop(night,[tempo]),def_prop(you,[umano])])
+lf(Ruins Lyrics.txt_12,82,cl17-nil-nil-be-[])
+lf(Ruins Lyrics.txt_12,82,cl16-nil-nil-fall-[])
+lf(Ruins Lyrics.txt_13,96,cl19-nil-nil-know-[obj-theme_unaff-home-sn2,xadj-result-know-2,and(home,so_much,sn2),def_prop(home,[luogo,oggetto,stato,strumento])])
+lf(Ruins Lyrics.txt_13,96,cl18-nil-nil-do-[subj-theme_unaff-you-sn1,aux-did-nil,def_prop(you,[umano])])
+lf(Ruins Lyrics.txt_14,111,cl20-nil-nil-lose-[obj-theme-execution-sn3,obj-theme_unaff-purpose-sn2,subj-theme_aff-you-sn1,def_prop(execution,[attivita,informa]),def_prop(purpose,[astratto]),def_prop(you,[umano])])
+lf(Ruins Lyrics.txt_15,126,cl22-not-would-be-[subj-theme_bound-you-sn3,subj-theme_bound-you-sn2,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Ruins Lyrics.txt_15,126,cl21-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Ruins Lyrics.txt_16,143,cl23-nil-nil-hold-[subj-agent-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(Ruins Lyrics.txt_17,160,cl24-nil-nil-say-[obj-theme_unaff-dream-sn1,def_prop(dream,[astratto,stato])])

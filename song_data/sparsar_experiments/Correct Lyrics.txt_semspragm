@@ -1,0 +1,333 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Correct Lyrics.txt_1-1  []-positive  []
+Correct Lyrics.txt_2-3  []-positive  [bkc]
+Correct Lyrics.txt_3-6  []-positive  [fgb]
+Correct Lyrics.txt_3-7  []-positive  []
+Correct Lyrics.txt_4-12  []-positive  [bkc]
+Correct Lyrics.txt_5-17  []-negative  [neg]
+Correct Lyrics.txt_6-23  []-positive  [bkc,bkc]
+Correct Lyrics.txt_7-30  []-negative  [neg,neg]
+Correct Lyrics.txt_8-38  []-suspension  [neg]
+Correct Lyrics.txt_8-39  []-positive  []
+Correct Lyrics.txt_9-48  []-suspension  [neg]
+Correct Lyrics.txt_10-58  []-question  [fgb]
+Correct Lyrics.txt_10-59  []-positive  []
+Correct Lyrics.txt_11-70  [(as)-temp_coinc]-suspension  []
+Correct Lyrics.txt_12-82  []-positive  []
+Correct Lyrics.txt_13-95  []-negative  [neg]
+Correct Lyrics.txt_14-110  []-positive  []
+Correct Lyrics.txt_15-125  []-positive  []
+Correct Lyrics.txt_15-126  []-negative  [neg]
+Correct Lyrics.txt_16-142  []-negative  [neg]
+Correct Lyrics.txt_17-159  []-negative  []
+Correct Lyrics.txt_18-177  []-suspension  [neg,neg]
+Correct Lyrics.txt_19-196  []-suspension  [neg,fhd,neg]
+Correct Lyrics.txt_19-197  []-negative  [neg]
+Correct Lyrics.txt_20-218  []-positive  []
+Correct Lyrics.txt_20-219  []-negative  [neg,neg,fgb]
+Correct Lyrics.txt_21-240  []-positive  []
+Correct Lyrics.txt_22-262  []-positive  [fgb,fgb]
+Correct Lyrics.txt_23-285  []-negative  []
+Correct Lyrics.txt_23-286  []-positive  []
+Correct Lyrics.txt_24-310  []-positive  []
+Correct Lyrics.txt_25-335  []-positive  [fgb]
+Correct Lyrics.txt_25-336  []-positive  []
+Correct Lyrics.txt_26-362  []-negative  [neg,neg]
+Correct Lyrics.txt_27-389  []-suspension  [neg]
+Correct Lyrics.txt_27-390  []-positive  []
+Correct Lyrics.txt_28-418  []-positive  [bkc]
+Correct Lyrics.txt_28-419  []-negative  [neg]
+Correct Lyrics.txt_29-448  [but-advers]-negative  [fgb,neg]
+Correct Lyrics.txt_30-478  []-positive  []
+Correct Lyrics.txt_31-509  [when-temp_coinc]-negative  []
+Correct Lyrics.txt_32-543  []-negative  [neg,fgb]
+Correct Lyrics.txt_33-578  [when-temp_coinc]-question  [neg]
+Correct Lyrics.txt_33-579  [yet-conc]-suspension  [neg,neg]
+Correct Lyrics.txt_34-613  [yet-conc]-negative  [fgb,neg,neg]
+Correct Lyrics.txt_35-649  [but-advers]-positive  [fgb]
+Correct Lyrics.txt_35-650  []-negative  [neg]
+Correct Lyrics.txt_35-650  []-negative  [neg]
+Correct Lyrics.txt_36-686  []-question  []
+Correct Lyrics.txt_36-687  [but-advers]-positive  [fgb,neg]
+Correct Lyrics.txt_36-688  []-negative  [neg,fgb]
+Correct Lyrics.txt_37-726  []-positive  []
+Correct Lyrics.txt_37-727  []-positive  []
+Correct Lyrics.txt_37-728  []-positive  []
+Correct Lyrics.txt_38-766  []-negative  [neg,fhd,fgb]
+Correct Lyrics.txt_39-806  []-suspension  [neg,neg,bkc]
+Correct Lyrics.txt_40-847  []-positive  []
+Correct Lyrics.txt_40-848  []-positive  []
+Correct Lyrics.txt_41-890  []-positive  []
+Correct Lyrics.txt_41-891  []-positive  []
+Correct Lyrics.txt_41-892  []-positive  []
+Correct Lyrics.txt_42-935  []-positive  [neg,fhd]
+Correct Lyrics.txt_42-936  []-negative  [neg]
+Correct Lyrics.txt_43-980  []-positive  []
+Correct Lyrics.txt_44-1024  []-suspension  []
+Correct Lyrics.txt_44-1025  []-negative  [neg]
+Correct Lyrics.txt_45-1071  [so-result,when-temp_coinc]-negative  [fgb,fhd,neg,neg]
+Correct Lyrics.txt_46-1120  []-positive  []
+Correct Lyrics.txt_46-1121  []-negative  [fgb,neg]
+Correct Lyrics.txt_48-1218  []-positive  []
+Correct Lyrics.txt_49-1267  []-negative  [neg,neg]
+Correct Lyrics.txt_50-1317  []-suspension  [neg]
+Correct Lyrics.txt_50-1318  []-positive  []
+Correct Lyrics.txt_51-1369  []-positive  [bkc,bkc]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Correct Lyrics.txt_1-1  [correct,Lyrics,by,Quentin,Miller]  [title]
+Correct Lyrics.txt_2-3  [yeah]  [accept_expl_opin(say,[external,factive,narration,foreground,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Correct Lyrics.txt_3-6  [this,what,you,have,all,been,waiting]  [provide_expl_just(wait,[external,factive,narration,foreground,objective])]
+Correct Lyrics.txt_3-7  [for]  [provide_expl_just(wait,[external,factive,narration,foreground,objective])]
+Correct Lyrics.txt_4-12  [Ha-ha,ha]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_5-17  [email,this,shit,out]  [reject_expl_just(email,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_6-23  [yeah,,,yeah]  [accept_expl_opin(be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_7-30  [this,is,not,politically_correct,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_8-38  [this,might,offend]  [propose_opin(offend,[external,nonfactive,narration,foreground,objective]),provide_expl_just(offend,[external,nonfactive,narration,foreground,objective]),provide_expl_just(connect,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_8-39  [my,political,connects]  [provide_expl_just(offend,[external,nonfactive,narration,foreground,objective]),provide_expl_just(connect,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_9-48  [make,hip-hop,fans,literally,upset]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_10-58  [happens,what,?]  [provide_expl_just(happen,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Correct Lyrics.txt_10-59  [next]  [provide_expl_just(happen,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Correct Lyrics.txt_11-70  [your,guess,is,as,good,as,my,guess]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_12-82  [soul,searching,they,took,the,soul,from,me]  [provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Correct Lyrics.txt_13-95  [old,powers,that,be,they,lost,control,of,me]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_14-110  [a,new,Quentin,i,am,different,too]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_15-125  [the,old,one,is]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,foreground,objective])]
+Correct Lyrics.txt_15-126  [,,long,gone]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(go,[external,factive,narration,foreground,objective])]
+Correct Lyrics.txt_16-142  [new,beat,different,song,sung]  [reject_expl_just(beat,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_17-159  [you,don-t,wanna,have,the,bars,bruh]  [provide_expl_just(have,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_18-177  [we,can,box,',till,your,arms,numb]  [propose_opin(box,[external,nonfactive,narration,foreground,objective]),provide_expl_just(box,[external,nonfactive,narration,foreground,objective])]
+Correct Lyrics.txt_19-196  [i,push,my,whip,like,a,drop]  [provide_expl_just(push,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_19-197  [',till,that,drop,comes]  [reject_expl_just(push,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_20-218  [i,found,out]  [provide_expl_just(stop,[external,nonfactive,narration,foreground,objective])]
+Correct Lyrics.txt_20-219  [that,you,niggas,can,not,stop,what,God,plotted]  [reject_expl_just(stop,[external,nonfactive,narration,foreground,objective])]
+Correct Lyrics.txt_21-240  [the,boy,poppin-]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_22-262  [more,money,and,girls,and,options,clothes,more]  [provide_expl_just(clothe,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_23-285  [at_all,times,keep]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_23-286  [it,a,hundred_thousand]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_24-310  [sung,song,worldwide,,,made,in,my,momma,housing]  [provide_expl_just(house,[external,factive,narration,foreground,objective])]
+Correct Lyrics.txt_25-335  [making,hip-hop,history,that,is,what,i,am,about]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Correct Lyrics.txt_25-336  [i,am,about]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Correct Lyrics.txt_26-362  [this,is,not,politically_correct,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_27-389  [this,might,offend]  [propose_opin(offend,[external,nonfactive,narration,foreground,objective]),provide_expl_just(offend,[external,nonfactive,narration,foreground,objective]),provide_expl_just(connect,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_27-390  [my,political,connects]  [provide_expl_just(offend,[external,nonfactive,narration,foreground,objective]),provide_expl_just(connect,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_28-418  [yeah,,,i,see]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_28-419  [they,are,literally,upset]  [reject_expl_just(see,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_29-448  [but,i,is,the,Nigga,that,you,physically,could,check,.,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_30-478  [plus,i,am,who,they,lyrically,respect]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_31-509  [cause,they,was,sleeping,on,me,when,i,didn-t,even,rest]  [provide_expl_just(didn-t,[external,factive,narration,foreground,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_32-543  [is,not,impressed,by,,,what,you,can,bench,press,.,you,can,bench,press]  [reject_expl_just(press,[external,factive,narration,background,objective]),reject_expl_just(impress,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_33-578  [when,game,the,know,you,how,?]  [provide_expl_just(know,[internal,factive,narration,foreground,objective])]
+Correct Lyrics.txt_33-579  [you,is,not,ride,the,bench,yet]  [provide_expl_just(know,[internal,factive,narration,foreground,objective])]
+Correct Lyrics.txt_34-613  [these,cause,niggas,counting,what,we,is,not,even,spent,yet,.,we,is,even,spent,yet,not]  [reject_expl_just(count,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_35-649  [but,check,positive,pregnancy,tests,i,know]  [proposal(be,[_437546,_437552,statement,foreground,_437570])]
+Correct Lyrics.txt_35-650  [you,heard,bout]  [reject_expl_just(be,[_437768,_437774,_437780,_437786,_437792])]
+Correct Lyrics.txt_35-650  [you,heard,bout,the,kid]  [reject_expl_just(be,[_437990,_437996,_438002,_438008,_438014])]
+Correct Lyrics.txt_36-686  [?]  [provide_expl_just(hear,[internal,factive,narration,background,objective]),provide_expl_just(care,[internal,nonfactive,narration,background,objective]),provide_expl_just(do,[internal,factive,narration,background,objective])]
+Correct Lyrics.txt_36-687  [but,i,could,care,less]  [provide_expl_just(hear,[internal,factive,narration,background,objective]),provide_expl_just(care,[internal,nonfactive,narration,background,objective]),provide_expl_just(do,[internal,factive,narration,background,objective])]
+Correct Lyrics.txt_36-688  [bout,what,you,heard,i,done,did,,,ya,dig,i,done,did,ya,dig]  [reject_expl_just(hear,[internal,factive,narration,background,objective]),reject_expl_just(care,[internal,nonfactive,narration,background,objective]),reject_expl_just(do,[internal,factive,narration,background,objective])]
+Correct Lyrics.txt_37-726  [that,is,food]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_37-727  [for,thought]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_37-728  [i,get,my,words,out,the,fridge]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_38-766  [this,i,shit,we,getting,too,old,for,feel,like,Murtaugh,and,Riggs]  [reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(feel,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_39-806  [i,was,taught,to,conceal,my,lethal,weapon,in,uh]  [provide_expl_just(conceal,[external,factive,narration,background,objective]),provide_expl_just(teach,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_40-847  [they,look,that,gifted]  [provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(present-cl65,[external,factive,narration,background,objective]),provide_expl_just(gift,[external,factive,narration,foreground,objective])]
+Correct Lyrics.txt_40-848  [cause,we,was,present]  [provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(present-cl65,[external,factive,narration,background,objective]),provide_expl_just(gift,[external,factive,narration,foreground,objective])]
+Correct Lyrics.txt_41-890  [i,told,Quentin]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(progress,[external,factive,narration,foreground,objective])]
+Correct Lyrics.txt_41-891  [we,got]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(progress,[external,factive,narration,foreground,objective])]
+Correct Lyrics.txt_41-892  [',em,,,just,gotta,keep,progressing]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(progress,[external,factive,narration,foreground,objective])]
+Correct Lyrics.txt_42-935  [they,wanna,heal,a,stuffy,nose,like]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(heal,[external,factive,narration,background,objective]),provide_expl_just(congested,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_42-936  [he,congested]  [reject_expl_just(wanna,[external,factive,narration,background,objective]),reject_expl_just(heal,[external,factive,narration,background,objective]),reject_expl_just(congested,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_43-980  [now,the,method,peep]  [provide_expl_just(peep,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_44-1024  [they,will,try,to,say]  [provide_expl_just(see,[external,factive,narration,foreground,objective]),provide_expl_just(try,[external,nonfactive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_44-1025  [they,is,not,see,them,text-s]  [reject_expl_just(see,[external,factive,narration,foreground,objective]),reject_expl_just(try,[external,nonfactive,narration,background,objective]),reject_expl_just(say,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_45-1071  [so,when,it,happens,they,will,act,like,they,is,not,not,recieved,the,message]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(they,[internal,factive,narration,background,objective]),reject_expl_just(act,[external,nonfactive,narration,background,objective])]
+Correct Lyrics.txt_46-1120  [just,keep,left]  [provide_expl_just(exit,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,foreground,objective])]
+Correct Lyrics.txt_46-1121  [and,proceed,to,exit]  [reject_expl_just(exit,[external,factive,narration,background,objective]),reject_expl_just(leave,[external,factive,narration,foreground,objective])]
+Correct Lyrics.txt_48-1218  [we,blessed]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Correct Lyrics.txt_49-1267  [this,is,not,politically_correct,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_50-1317  [this,might,offend]  [propose_opin(offend,[external,nonfactive,narration,foreground,objective]),provide_expl_just(offend,[external,nonfactive,narration,foreground,objective]),provide_expl_just(connect,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_50-1318  [my,political,connects]  [provide_expl_just(offend,[external,nonfactive,narration,foreground,objective]),provide_expl_just(connect,[external,factive,narration,background,objective])]
+Correct Lyrics.txt_51-1369  [yeah,,,yeah]  [accept_expl_opin(be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Correct Lyrics.txt_1-1)-[secondary-moral_imperative]
+2-(Correct Lyrics.txt_2-3)-[]
+3-(Correct Lyrics.txt_3-6)-[]
+4-(Correct Lyrics.txt_3-7)-[]
+5-(Correct Lyrics.txt_4-12)-[]
+6-(Correct Lyrics.txt_5-17)-[primary-anality,primary-concreteness]
+7-(Correct Lyrics.txt_6-23)-[]
+8-(Correct Lyrics.txt_7-30)-[]
+9-(Correct Lyrics.txt_8-38)-[emotions-aggression]
+10-(Correct Lyrics.txt_8-39)-[]
+11-(Correct Lyrics.txt_9-48)-[secondary-instru_behavior]
+12-(Correct Lyrics.txt_10-58)-[]
+13-(Correct Lyrics.txt_10-59)-[]
+14-(Correct Lyrics.txt_11-70)-[secondary-abstract_tought,secondary-abstract_tought]
+15-(Correct Lyrics.txt_12-82)-[]
+16-(Correct Lyrics.txt_13-95)-[secondary-temporal_repere,secondary-restraint]
+17-(Correct Lyrics.txt_14-110)-[secondary-abstract_tought]
+18-(Correct Lyrics.txt_15-125)-[secondary-temporal_repere]
+19-(Correct Lyrics.txt_15-126)-[primary-concreteness]
+20-(Correct Lyrics.txt_16-142)-[emotions-aggression,secondary-abstract_tought,emotions-expressive_beh]
+21-(Correct Lyrics.txt_17-159)-[secondary-restraint]
+22-(Correct Lyrics.txt_18-177)-[secondary-temporal_repere,primary-narcissism,primary-cold]
+23-(Correct Lyrics.txt_19-196)-[emotions-aggression,emotions-affection,primary-descent]
+24-(Correct Lyrics.txt_19-197)-[secondary-temporal_repere,primary-descent]
+25-(Correct Lyrics.txt_20-218)-[secondary-instru_behavior,primary-concreteness]
+26-(Correct Lyrics.txt_20-219)-[secondary-restraint]
+27-(Correct Lyrics.txt_21-240)-[]
+28-(Correct Lyrics.txt_22-262)-[secondary-instru_behavior]
+29-(Correct Lyrics.txt_23-285)-[secondary-temporal_repere]
+30-(Correct Lyrics.txt_23-286)-[]
+31-(Correct Lyrics.txt_24-310)-[emotions-expressive_beh,primary-counscious]
+32-(Correct Lyrics.txt_25-335)-[secondary-abstract_tought]
+33-(Correct Lyrics.txt_25-336)-[]
+34-(Correct Lyrics.txt_26-362)-[]
+35-(Correct Lyrics.txt_27-389)-[emotions-aggression]
+36-(Correct Lyrics.txt_27-390)-[]
+37-(Correct Lyrics.txt_28-418)-[primary-vision]
+half
+38-(Correct Lyrics.txt_28-419)-[]
+39-(Correct Lyrics.txt_29-448)-[primary-gen_sensation]
+40-(Correct Lyrics.txt_30-478)-[secondary-moral_imperative]
+41-(Correct Lyrics.txt_31-509)-[secondary-abstract_tought,secondary-temporal_repere,primary-passivity]
+42-(Correct Lyrics.txt_32-543)-[primary-gen_sensation]
+43-(Correct Lyrics.txt_33-578)-[secondary-temporal_repere,emotions-expressive_beh,secondary-abstract_tought]
+44-(Correct Lyrics.txt_33-579)-[primary-voyage]
+45-(Correct Lyrics.txt_34-613)-[secondary-abstract_tought,secondary-instru_behavior,secondary-instru_behavior]
+46-(Correct Lyrics.txt_35-649)-[primary-sex,secondary-instru_behavior,secondary-abstract_tought]
+47-(Correct Lyrics.txt_35-650)-[primary-sound]
+48-(Correct Lyrics.txt_35-650)-[primary-sound]
+49-(Correct Lyrics.txt_36-686)-[]
+50-(Correct Lyrics.txt_36-687)-[]
+51-(Correct Lyrics.txt_36-688)-[primary-sound,primary-descent,primary-descent]
+52-(Correct Lyrics.txt_37-726)-[primary-orality]
+53-(Correct Lyrics.txt_37-727)-[secondary-abstract_tought]
+54-(Correct Lyrics.txt_37-728)-[primary-concreteness]
+55-(Correct Lyrics.txt_38-766)-[primary-anality,secondary-temporal_repere,emotions-affection]
+56-(Correct Lyrics.txt_39-806)-[secondary-social_behavior,emotions-aggression]
+57-(Correct Lyrics.txt_40-847)-[primary-vision,secondary-social_behavior]
+58-(Correct Lyrics.txt_40-848)-[secondary-abstract_tought,secondary-temporal_repere]
+59-(Correct Lyrics.txt_41-890)-[secondary-social_behavior]
+60-(Correct Lyrics.txt_41-891)-[]
+61-(Correct Lyrics.txt_41-892)-[]
+62-(Correct Lyrics.txt_42-935)-[primary-odor,emotions-affection]
+63-(Correct Lyrics.txt_42-936)-[]
+64-(Correct Lyrics.txt_43-980)-[secondary-temporal_repere,secondary-order]
+65-(Correct Lyrics.txt_44-1024)-[secondary-instru_behavior,secondary-social_behavior]
+66-(Correct Lyrics.txt_44-1025)-[primary-vision,secondary-abstract_tought]
+67-(Correct Lyrics.txt_45-1071)-[secondary-temporal_repere,emotions-affection,secondary-social_behavior]
+68-(Correct Lyrics.txt_46-1120)-[]
+69-(Correct Lyrics.txt_46-1121)-[]
+70-(Correct Lyrics.txt_48-1218)-[]
+71-(Correct Lyrics.txt_49-1267)-[]
+72-(Correct Lyrics.txt_50-1317)-[emotions-aggression]
+73-(Correct Lyrics.txt_50-1318)-[]
+74-(Correct Lyrics.txt_51-1369)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Correct Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Miller-sn2,subj-theme_bound-Lyrics-sn1,and(Miller,Quentin,sn2),and(Lyrics,correct,sn1),def_prop(Miller,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Correct Lyrics.txt_2,3,cl2-nil-nil-say-[])
+lf(Correct Lyrics.txt_3,6,cl4-nil-nil-be-[subj-theme_bound-pro-nil,voice-have-nil,tense-have-nil])
+lf(Correct Lyrics.txt_3,6,_471014-nil-nil-have-[voice-have-nil,tense-have-nil,obl-locat-this-sn4,def_prop(this,_471082)])
+lf(Correct Lyrics.txt_3,6,cl3-nil-nil-wait-[voice-have-nil,tense-have-nil,subj-actor-all-sn2,subj-actor-all-sn1,aux-been-nil,progr-waiting-nil,and(all,this,sn1),def_prop(all,[_471262]),def_prop(all,[_471280])])
+lf(Correct Lyrics.txt_4,12,cl5-nil-nil-be-[ncmod-modal-ha-ha-sn2,subj-theme_bound-you-sn1,def_prop(ha-ha,[attivita,informa,oggetto,strumento]),def_prop(you,[umano])])
+lf(Correct Lyrics.txt_5,17,nil-nil-nil-email-[adj-(mod)-out-nil,adj-subj_disc-out-sn3,obj-theme_aff-shit-sn2,subj-agent-you-sn1,and(shit,this,sn2),def_prop(out,[istituzione]),def_prop(out,[istituzione]),def_prop(shit,[attivita,umano]),def_prop(you,[umano])])
+lf(Correct Lyrics.txt_6,23,cl6-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Correct Lyrics.txt_7,30,cl7-not-nil-be-[xcomp-prop-politically_correct-sn2,subj-theme_bound-this-sn1,def_prop(politically_correct,[evaluative]),def_prop(this,[oggetto,umano])])
+lf(Correct Lyrics.txt_8,38,cl9-nil-nil-connect-[ccomp-prop-connect-cl9,subj-actor-political-sn2,def_prop(political,[istituzione])])
+lf(Correct Lyrics.txt_8,38,cl8-nil-might-offend-[subj-cause-you-sn1,def_prop(you,[umano])])
+lf(Correct Lyrics.txt_9,48,cl10-nil-nil-make-[adj-(mod)-literally-nil,adj-subj_disc-literally-sn4,xcomp-prop-upset-sn3,obj-goal-fan-sn2,subj-agent-you-sn1,and(fan,hop,sn2),def_prop(literally,[istituzione]),def_prop(literally,[istituzione]),def_prop(upset,[attivita,oggetto,strumento]),def_prop(fan,[oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Correct Lyrics.txt_10,58,cl12-nil-nil-be-[subj-theme_bound-next-sn2,def_prop(next,[tempo,misura])])
+lf(Correct Lyrics.txt_10,58,cl11-nil-nil-happen-[subj-theme_unaff-what-sn1,def_prop(what,[oggetto])])
+lf(Correct Lyrics.txt_11,70,cl13-nil-nil-be-[adj-(mod)-guess-nil,xcomp-prop-good-sn2,subj-theme_bound-guess-sn1,def_prop(guess,[astratto,attivita,informa]),def_prop(good,[valutativo]),def_prop(guess,[astratto,attivita,informa])])
+lf(Correct Lyrics.txt_12,82,cl14-nil-nil-take-[ncmod-loc_origin-me-sn4,obj-theme_aff-soul-sn3,subj-agent-they-sn2,subj-agent-they-sn1,and(they,searching,sn1),and(they,soul,sn1),def_prop(me,[umano]),def_prop(soul,[attivita,emotivo,informa,umano]),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Correct Lyrics.txt_13,95,cl16-nil-nil-lose-[obj-theme_unaff-control-sn3,subj-theme_aff-they-sn2,subj-theme_aff-they-sn1,and(they,power,sn1),and(they,old,sn1),def_prop(control,[astratto,attivita,informa,oggetto,relat,strumento,umano]),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Correct Lyrics.txt_13,95,cl15-nil-nil-be-[])
+lf(Correct Lyrics.txt_14,110,cl17-nil-nil-be-[xcomp-prop-different-sn3,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(i,Quentin,sn1),and(i,new,sn1),def_prop(different,[valutativo]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Correct Lyrics.txt_15,125,cl19-nil-nil-go-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Correct Lyrics.txt_15,125,cl18-nil-nil-be-[subj-theme_bound-one-sn2,subj-theme_bound-one-sn1,and(one,old,sn1),def_prop(one,[umano]),def_prop(one,[umano])])
+lf(Correct Lyrics.txt_16,142,cl20-nil-nil-beat-[obj-theme_aff-song-sn2,subj-agent-new-sn1,and(song,different,sn2),def_prop(song,[astratto,attivita,evento,informa,oggetto]),def_prop(new,[evaluative])])
+lf(Correct Lyrics.txt_17,159,cl21-nil-nil-have-[xcomp-tema_bound-bruh-sn10,subj-experiencer-you-sn1,and(bruh,bar,sn10),def_prop(bruh,[istituzione]),def_prop(you,[umano])])
+lf(Correct Lyrics.txt_18,177,cl22-nil-can-box-[obj-theme-arm-sn3,obj-theme-till-sn2,subj-actor-we-sn1,def_prop(arm,[astratto,body_part,oggetto,strumento,umano]),def_prop(till,[sostanza]),def_prop(we,[umano])])
+lf(Correct Lyrics.txt_19,196,cl25-nil-nil-come-[])
+lf(Correct Lyrics.txt_19,196,cl24-nil-nil-be-[subj-theme_bound-you-sn6,def_prop(you,[umano])])
+lf(Correct Lyrics.txt_19,196,cl23-nil-nil-push-[obj-theme_aff-drop-sn3,obj-theme-whip-sn2,subj-agent-i-sn1,def_prop(drop,[astratto,attivita,evento,luogo,nquant,oggetto,strumento]),def_prop(whip,[astratto,attivita,edible,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(Correct Lyrics.txt_20,218,cl27-not-can-stop-[subj-agent-nigga-sn2,and(nigga,God,sn2),def_prop(nigga,[istituzione,umano])])
+lf(Correct Lyrics.txt_20,218,cl26-nil-nil-find-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Correct Lyrics.txt_21,240,cl28-nil-nil-be-[ncmod-modal-boy-sn2,subj-theme_bound-you-sn1,def_prop(boy,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Correct Lyrics.txt_22,262,cl29-nil-nil-clothe-[coord-agent-money_and_girl_and_option-sn4,coord-agent-girl_and_option-sn5,subj-agent-option-sn3,subj-agent-girl-sn2,subj-agent-money-sn1,def_prop(money_and_girl_and_option,[astratto,oggetto,oggetto,strumento,astratto,oggetto]),def_prop(girl_and_option,[astratto,oggetto,oggetto,strumento,astratto,oggetto]),def_prop(option,[astratto,oggetto,oggetto,strumento,astratto,oggetto]),def_prop(girl,[astratto,oggetto,oggetto,strumento,astratto,oggetto]),def_prop(money,[astratto,oggetto,oggetto,strumento,astratto,oggetto])])
+lf(Correct Lyrics.txt_23,285,cl31-nil-nil-be-[xcomp-prop-hundred_thousand-sn3,subj-theme_bound-it-sn2,def_prop(hundred_thousand,[nquant]),def_prop(it,[any])])
+lf(Correct Lyrics.txt_23,285,cl30-nil-nil-keep-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Correct Lyrics.txt_24,310,cl32-nil-nil-house-[xadj-adj-made-adj1,iobj-goal-momma-sn2,subj-goal-worldwide-sn1,and(worldwide,song,sn1),and(worldwide,sung,sn1),def_prop(made,_475228),def_prop(momma,[umano]),def_prop(worldwide,[legale])])
+lf(Correct Lyrics.txt_25,335,cl34-nil-nil-be-[subj-theme_bound-you-sn4,xcomp-prop-history-sn1,xcomp-purpose-make-2,and(history,hop,sn1),def_prop(you,[umano]),def_prop(history,[astratto,attivita,informa,tempo])])
+lf(Correct Lyrics.txt_25,335,cl33-nil-nil-make-[])
+lf(Correct Lyrics.txt_26,362,cl35-not-nil-be-[xcomp-prop-politically_correct-sn2,subj-theme_bound-this-sn1,def_prop(politically_correct,[evaluative]),def_prop(this,[oggetto,umano])])
+lf(Correct Lyrics.txt_27,389,cl37-nil-nil-connect-[ccomp-prop-connect-cl37,subj-actor-political-sn2,def_prop(political,[istituzione])])
+lf(Correct Lyrics.txt_27,389,cl36-nil-might-offend-[subj-cause-you-sn1,def_prop(you,[umano])])
+lf(Correct Lyrics.txt_28,418,cl39-nil-nil-upset-[subj-experiencer-they-sn4,adj-(mod)-literally-nil,aux-are-nil,def_prop(they,[umano])])
+lf(Correct Lyrics.txt_28,418,cl38-nil-nil-see-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Correct Lyrics.txt_29,448,cl40-nil-nil-be-[xcomp-theme-that-sn3,xcomp-prop-Nigga-sn2,subj-theme_bound-i-sn1,def_prop(that,[oggetto,umano]),def_prop(Nigga,[istituzione,umano]),def_prop(i,[umano])])
+lf(Correct Lyrics.txt_30,478,cl41-nil-nil-be-[subj-theme_bound-i-sn1,and(i,they,sn1),def_prop(i,[umano])])
+lf(Correct Lyrics.txt_31,509,cl44-not-nil-didn-t-[cmod-subord-didn-t-when,xcomp-theme_aff-res-sn21,xcomp-theme_aff-res-sn20,subj-agent-i-sn19,ncmod-locativo-me-sn17,def_prop(res,[informa,tecno]),def_prop(res,[informa,tecno]),def_prop(i,[umano]),def_prop(me,[umano])])
+lf(Correct Lyrics.txt_31,509,cl43-nil-nil-sleep-[])
+lf(Correct Lyrics.txt_31,509,cl42-nil-nil-cause-[subj-causer-they-sn2,subj-causer-they-sn1,and(they,you,sn1),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Correct Lyrics.txt_32,543,nil-nil-nil-press-[adj-(mod)-bench-nil])
+lf(Correct Lyrics.txt_32,543,cl46-nil-can-bench-[obj-goal-what-sn2,xcomp-purpose-impress-2,subj-actor-you-sn1,def_prop(what,[oggetto]),def_prop(you,[umano])])
+lf(Correct Lyrics.txt_32,543,cl45-nil-nil-impress-[])
+lf(Correct Lyrics.txt_33,578,cl48-not-nil-ride-[adj-(mod)-yet-nil,obj-theme_unaff-bench-sn6,subj-agent-you-sn5,aux-(is)-nil,def_prop(bench,[istituzione,oggetto,strumento]),def_prop(you,[umano])])
+lf(Correct Lyrics.txt_33,578,cl47-nil-nil-know-[obj-theme-when-sn4,obj-theme_unaff-game-sn3,subj-actor-you-sn2,obj-theme-how-sn1,def_prop(when,[tempo]),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(you,[umano]),def_prop(how,[manner])])
+lf(Correct Lyrics.txt_34,613,cl50-not-nil-be-[xcomp-prop-yet-sn4,xcomp-theme-we-sn3,xcomp-prop-what-sn2,xcomp-purpose-count-2,subj-theme_bound-nigga-sn1,and(yet,spent,sn4),and(nigga,these,sn1),def_prop(yet,[istituzione]),def_prop(we,[umano]),def_prop(what,[oggetto]),def_prop(nigga,[istituzione,umano])])
+lf(Correct Lyrics.txt_34,613,cl49-nil-nil-count-[])
+lf(Correct Lyrics.txt_35,649,cl52-nil-nil-hear-[obj-theme_unaff-bout-sn8,subj-experiencer-you-sn7,obj-theme_unaff-bout-sn6,subj-experiencer-you-sn5,def_prop(bout,[attivita,informa,tempo]),def_prop(you,[umano]),def_prop(bout,[attivita,informa,tempo]),def_prop(you,[umano])])
+lf(Correct Lyrics.txt_35,649,cl51-nil-nil-know-[obj-theme-i-sn4,obj-theme-test-sn3,obj-theme_unaff-pregnancy-sn2,subj-actor-check-sn1,and(pregnancy,positive,sn2),def_prop(i,[umano]),def_prop(test,[animato,attivita]),def_prop(pregnancy,[stato]),def_prop(check,[astratto,attivita,informa,oggetto,strumento])])
+lf(Correct Lyrics.txt_36,686,cl56-nil-nil-hear-[subj-experiencer-i-sn3,def_prop(i,[umano])])
+lf(Correct Lyrics.txt_36,686,cl55-nil-nil-dig-[obj-destination-ya-sn8,subj-agent-i-sn3,def_prop(ya,[legale]),def_prop(i,[umano])])
+lf(Correct Lyrics.txt_36,686,cl54-nil-nil-do-[aux-did-nil])
+lf(Correct Lyrics.txt_36,686,cl53-nil-could-care-[obj-theme_aff-less-sn2,subj-experiencer-i-sn1,def_prop(less,[astratto,informa,oggetto]),def_prop(i,[umano])])
+lf(Correct Lyrics.txt_37,726,cl59-nil-nil-get-[ncmod-locativo-fridge-sn5,obj-theme_unaff-word-sn4,subj-agent-i-sn3,def_prop(fridge,[oggetto,strumento]),def_prop(word,[attivita,informa,nquant]),def_prop(i,[umano])])
+lf(Correct Lyrics.txt_37,726,cl58-nil-nil-think-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Correct Lyrics.txt_37,726,cl57-nil-nil-be-[xcomp-prop-food-sn1,def_prop(food,[any,astratto,edible,oggetto])])
+lf(Correct Lyrics.txt_38,766,cl61-nil-nil-feel-[adj-(mod)-too-nil,xcomp-paziente-Murtaugh_and_Riggs-[sn3,sn4],xcomp-purpose-get-2,subj-experiencer-we-sn2,subj-experiencer-we-sn1,and(we,shit,sn1),and(we,this,sn1),def_prop(Murtaugh_and_Riggs,[istituzione,umano,place,umano]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Correct Lyrics.txt_38,766,cl60-nil-nil-get-[xadj-adj-old-adj2,cmod-subord-feel-nil,def_prop(old,_478982)])
+lf(Correct Lyrics.txt_39,806,cl63-nil-nil-conceal-[ncmod-locativo-uh-sn3,obj-patient-weapon-sn2,xcomp-purpose-conceal-2,and(weapon,lethal,sn2),def_prop(uh,[istituzione,umano]),def_prop(weapon,[attivita,informa,oggetto,strumento])])
+lf(Correct Lyrics.txt_39,806,cl62-nil-nil-teach-[subj-actor-i-sn1,aux-was-nil,def_prop(i,[umano])])
+lf(Correct Lyrics.txt_40,847,cl66-nil-nil-gift-[subj-agent-they-sn1,def_prop(they,[umano])])
+lf(Correct Lyrics.txt_40,847,cl65-nil-nil-present-[subj-theme_bound-we-sn3,subj-theme_bound-we-sn2,aux-was-nil,and(we,cause,sn2),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Correct Lyrics.txt_40,847,cl64-nil-nil-look-[subj-agent-they-sn1,def_prop(they,[umano])])
+lf(Correct Lyrics.txt_41,890,cl69-nil-nil-progress-[])
+lf(Correct Lyrics.txt_41,890,nil-nil-nil-gotta-[adj-(mod)-just-nil,obj-theme_aff-keep-sn5,subj-agent-em-sn4,def_prop(keep,[oggetto,strumento]),def_prop(em,[nquant])])
+lf(Correct Lyrics.txt_41,890,cl68-nil-nil-get-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Correct Lyrics.txt_41,890,cl67-nil-nil-tell-[obj-theme_unaff-Quentin-sn2,subj-agent-i-sn1,def_prop(Quentin,[place,umano]),def_prop(i,[umano])])
+lf(Correct Lyrics.txt_42,935,nil-nil-nil-congested-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Correct Lyrics.txt_42,935,cl70-nil-nil-heal-[])
+lf(Correct Lyrics.txt_42,935,nil-nil-nil-wanna-[obj-patient-nose-sn2,xcomp-purpose-heal-2,subj-agent-they-sn1,and(nose,stuffy,sn2),def_prop(nose,[astratto,body_part,nquant,oggetto,strumento,umano]),def_prop(they,[umano])])
+lf(Correct Lyrics.txt_43,980,cl71-nil-nil-peep-[subj-actor-method-sn1,def_prop(method,[astratto])])
+lf(Correct Lyrics.txt_44,1024,cl74-not-nil-see-[obj-theme-text-s-sn4,obj-theme_aff-them-sn3,subj-actor-they-sn2,aux-(is)-nil,def_prop(text-s,[attivita,informa]),def_prop(them,[umano]),def_prop(they,[umano])])
+lf(Correct Lyrics.txt_44,1024,cl73-nil-nil-say-[subj-prop-they-sn1,def_prop(they,[umano])])
+lf(Correct Lyrics.txt_44,1024,cl72-nil-will-try-[subj-actor-they-sn1,def_prop(they,[umano])])
+lf(Correct Lyrics.txt_45,1071,cl77-not-nil-be-[cmod-subord-be-when,xcomp-prop-recieved-sn13,subj-theme_bound-message-sn12,xadj-theme-message-sn11,xcomp-prop-recieved-sn10,subj-theme_bound-they-sn9,adj-(mod)-message-nil,xadj-theme-message-sn8,xcomp-prop-recieved-sn7,subj-theme_bound-they-sn6,xadj-theme-message-sn5,def_prop(recieved,[istituzione]),def_prop(message,[attivita,informa]),def_prop(message,[attivita,informa]),def_prop(recieved,[istituzione]),def_prop(they,[umano]),def_prop(message,[attivita,informa]),def_prop(message,[attivita,informa]),def_prop(recieved,[istituzione]),def_prop(they,[umano]),def_prop(message,[attivita,informa])])
+lf(Correct Lyrics.txt_45,1071,cl76-nil-will-act-[xcomp-prop-recieved-sn4,xcomp-purpose-be-cl77,subj-actor-they-sn3,subj-actor-they-sn2,def_prop(recieved,[istituzione]),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Correct Lyrics.txt_45,1071,cl75-nil-nil-happen-[subj-theme_unaff-it-sn1,def_prop(it,[any])])
+lf(Correct Lyrics.txt_46,1120,cl80-nil-nil-exit-[cmod-subord-exit-",subj-location-you-sn2,def_prop(you,[umano])])
+lf(Correct Lyrics.txt_46,1120,cl79-nil-nil-proceed-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Correct Lyrics.txt_46,1120,cl78-nil-nil-leave-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(Correct Lyrics.txt_47,1169,_481620-nil-nil-compete-[iobj-goal-legend-sn3,voice-compete-nil,tense-compete-nil,obl-locat-season-sn1,def_prop(legend,[attivita,informa]),def_prop(season,[tempo])])
+lf(Correct Lyrics.txt_47,1169,cl81-nil-nil-be-[voice-compete-nil,tense-compete-nil,xcomp-prop-season-sn1,def_prop(season,[tempo])])
+lf(Correct Lyrics.txt_48,1218,cl82-nil-nil-say-[obj-theme_unaff-we-sn1,def_prop(we,[umano])])
+lf(Correct Lyrics.txt_49,1267,cl83-not-nil-be-[xcomp-prop-politically_correct-sn2,subj-theme_bound-this-sn1,def_prop(politically_correct,[evaluative]),def_prop(this,[oggetto,umano])])
+lf(Correct Lyrics.txt_50,1317,cl85-nil-nil-connect-[ccomp-prop-connect-cl85,subj-actor-political-sn2,def_prop(political,[istituzione])])
+lf(Correct Lyrics.txt_50,1317,cl84-nil-might-offend-[subj-cause-you-sn1,def_prop(you,[umano])])
+lf(Correct Lyrics.txt_51,1369,cl86-nil-nil-be-[subj-theme_bound-pro-nil])

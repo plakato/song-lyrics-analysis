@@ -1,0 +1,245 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Boys.txt_1-1  []-positive  []
+Boys.txt_2-3  []-negative  [neg]
+Boys.txt_3-6  []-positive  []
+Boys.txt_4-10  []-positive  []
+Boys.txt_5-15  []-positive  []
+Boys.txt_6-21  []-negative  [fgb]
+Boys.txt_7-28  []-negative  [neg]
+Boys.txt_8-37  []-negative  [neg]
+Boys.txt_9-46  []-negative  [neg]
+Boys.txt_10-56  []-negative  [neg]
+Boys.txt_11-68  []-suspension  []
+Boys.txt_11-69  []-positive  []
+Boys.txt_12-81  []-negative  []
+Boys.txt_12-82  []-suspension  []
+Boys.txt_13-95  []-negative  []
+Boys.txt_13-96  []-suspension  []
+Boys.txt_14-110  []-negative  [neg]
+Boys.txt_15-125  []-negative  [fgb]
+Boys.txt_15-126  []-positive  []
+Boys.txt_16-142  []-positive  []
+Boys.txt_16-143  [when-temp_coinc]-positive  []
+Boys.txt_17-161  []-negative  []
+Boys.txt_17-162  []-positive  [fgb]
+Boys.txt_18-181  []-suspension  [neg,neg,neg]
+Boys.txt_19-201  []-positive  []
+Boys.txt_19-202  []-positive  []
+Boys.txt_20-222  []-negative  []
+Boys.txt_21-243  [but-advers]-positive  [fgb]
+Boys.txt_22-265  []-positive  []
+Boys.txt_23-288  [but-advers]-positive  [fgb]
+Boys.txt_24-312  []-negative  [neg]
+Boys.txt_25-337  [but-advers]-positive  [fgb]
+Boys.txt_26-363  []-positive  []
+Boys.txt_27-390  [but-advers]-positive  [fgb]
+Boys.txt_28-418  []-positive  []
+Boys.txt_28-419  []-positive  []
+Boys.txt_29-447  []-negative  [fgb]
+Boys.txt_29-448  []-positive  []
+Boys.txt_30-478  []-positive  []
+Boys.txt_30-479  []-positive  [fgb]
+Boys.txt_31-510  []-positive  []
+Boys.txt_31-511  []-positive  [fgb]
+Boys.txt_32-544  []-suspension  [neg,neg,neg]
+Boys.txt_33-578  []-positive  []
+Boys.txt_34-613  []-positive  []
+Boys.txt_35-649  []-positive  []
+Boys.txt_36-685  [but-advers]-positive  [fgb]
+Boys.txt_37-722  []-positive  []
+Boys.txt_38-760  [but-advers]-positive  [fgb]
+Boys.txt_39-799  []-negative  [neg]
+Boys.txt_40-839  [but-advers]-positive  [fgb]
+Boys.txt_41-880  []-positive  []
+Boys.txt_42-922  [but-advers]-positive  [fgb]
+Boys.txt_43-965  []-positive  []
+Boys.txt_43-966  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Boys.txt_1-1  [boys,by,the,Wrens]  [title]
+Boys.txt_2-3  [you,boys,will,not,remember]  [reject_expl_just(remember,[external,nonfactive,narration,background,objective])]
+Boys.txt_3-6  [from,the,minute]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Boys.txt_4-10  [you,walked,into,the,room]  [provide_expl_just(walk,[external,factive,narration,foreground,objective])]
+Boys.txt_5-15  [every,letter,started,brokenhearted]  [indication(start,[external,factive,inception,foreground,objective]),suggest(start,[external,factive,inception,foreground,objective])]
+Boys.txt_6-21  [and,ended,way,too_soon]  [provide_expl_just(end,[external,factive,cause,foreground,objective])]
+Boys.txt_7-28  [lived,through,underrated]  [reject_expl_just(live,[external,factive,narration,foreground,objective])]
+Boys.txt_8-37  [getting,jaded]  reject_expl_opin(nil,[])
+Boys.txt_9-46  [to,wind,up,with,no_one]  [reject_expl_just(win,[external,factive,narration,background,objective])]
+Boys.txt_10-56  [hiding,in,new,places,getting,wasted]  [reject_expl_just(get,[external,factive,narration,foreground,objective])]
+Boys.txt_11-68  [singing,i,guess]  [provide_expl_just(guess,[external,factive,narration,background,objective])]
+Boys.txt_11-69  [we,are,done]  [provide_expl_just(guess,[external,factive,narration,background,objective])]
+Boys.txt_12-81  [i,don-t,want]  [provide_expl_just(want,[external,factive,narration,foreground,objective]),provide_expl_just(wonder,[external,factive,narration,background,objective])]
+Boys.txt_12-82  [you,to,wonder,why]  [provide_expl_just(want,[external,factive,narration,foreground,objective]),provide_expl_just(wonder,[external,factive,narration,background,objective])]
+Boys.txt_13-95  [i,don-t,want]  [provide_expl_just(want,[external,factive,narration,foreground,objective]),provide_expl_just(wonder,[external,factive,narration,background,objective])]
+Boys.txt_13-96  [you,to,wonder,why]  [provide_expl_just(want,[external,factive,narration,foreground,objective]),provide_expl_just(wonder,[external,factive,narration,background,objective])]
+Boys.txt_14-110  [will,not,do,any,good]  [reject_expl_just(do,[external,nonfactive,narration,background,objective])]
+Boys.txt_15-125  [you,don-t,know,what,you,got,into]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_1670204)]
+Boys.txt_15-126  [you,got,into]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_1674588)]
+Boys.txt_16-142  [until,you,know]  [provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Boys.txt_16-143  [when,it,is,all,gone,,,gone]  [provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Boys.txt_17-161  [i,don-t,feel,the,need,to,try]  [provide_expl_just(explain,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,foreground,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Boys.txt_17-162  [and,explain]  [provide_expl_just(explain,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,foreground,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Boys.txt_18-181  [excuses,sounding,insane]  [provide_expl_just(excuse,[external,factive,narration,background,objective]),provide_expl_just(sound,[external,factive,narration,foreground,objective])]
+Boys.txt_19-201  [you,are,gonna,find]  [provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Boys.txt_19-202  [you,are,gonna,find]  [provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Boys.txt_20-222  [i,have,been,knocked,down]  [provide_expl_just(knock,[external,factive,narration,background,objective])]
+Boys.txt_21-243  [but,i,have,stood,up]  [provide_expl_just(stand,[external,factive,narration,background,objective])]
+Boys.txt_22-265  [down,off,of,the,ground]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Boys.txt_23-288  [but,i,have,stood,up]  [provide_expl_just(stand,[external,factive,narration,background,objective])]
+Boys.txt_24-312  [lost,without,a,sound]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Boys.txt_25-337  [but,i,have,stood,up]  [provide_expl_just(stand,[external,factive,narration,background,objective])]
+Boys.txt_26-363  [to,faced,another,round]  [provide_expl_just(face,[external,factive,narration,foreground,objective])]
+Boys.txt_27-390  [but,i,have,stood,up]  [provide_expl_just(stand,[external,factive,narration,background,objective])]
+Boys.txt_28-418  [you,want,me]  [provide_expl_just(want,[external,factive,narration,background,objective])]
+Boys.txt_28-419  [you,want,me]  [provide_expl_just(want,[external,factive,narration,background,objective])]
+Boys.txt_29-447  [i,don-t,know,what,you,got,on,me,.]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_1705464)]
+Boys.txt_29-448  [you,got,on,me]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_1709848)]
+Boys.txt_30-478  [even,in,just,you,wait]  [provide_expl_just(wait,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Boys.txt_30-479  [and,see]  [provide_expl_just(wait,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Boys.txt_31-510  [dont,i,feel,the,need,to,try]  [provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(explain,[external,factive,narration,background,objective])]
+Boys.txt_31-511  [and,explain]  [provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(explain,[external,factive,narration,background,objective])]
+Boys.txt_32-544  [excuses,sounding,insane]  [provide_expl_just(excuse,[external,factive,narration,background,objective]),provide_expl_just(sound,[external,factive,narration,foreground,objective])]
+Boys.txt_33-578  [you,are,going,to,find]  [provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+Boys.txt_34-613  [you,are,going,to,find]  [provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+Boys.txt_35-649  [i,am,feeling,down]  [provide_expl_just(feel,[external,factive,narration,foreground,objective])]
+Boys.txt_36-685  [but,i,have,stood,up]  [provide_expl_just(stand,[external,factive,narration,background,objective])]
+Boys.txt_37-722  [down,off,of,the,ground]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Boys.txt_38-760  [but,i,have,stood,up]  [provide_expl_just(stand,[external,factive,narration,background,objective])]
+Boys.txt_39-799  [lost,without,a,sound]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Boys.txt_40-839  [but,i,have,stood,up]  [provide_expl_just(stand,[external,factive,narration,background,objective])]
+Boys.txt_41-880  [to,face,another,round]  [provide_expl_just(face,[external,factive,narration,background,objective])]
+Boys.txt_42-922  [but,i,have,stood,up]  [provide_expl_just(stand,[external,factive,narration,background,objective])]
+Boys.txt_43-965  [you,want,me]  [provide_expl_just(want,[external,factive,narration,background,objective])]
+Boys.txt_43-966  [you,want,me]  [provide_expl_just(want,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Boys.txt_1-1)-[]
+2-(Boys.txt_2-3)-[]
+3-(Boys.txt_3-6)-[secondary-temporal_repere]
+4-(Boys.txt_4-10)-[]
+5-(Boys.txt_5-15)-[secondary-temporal_repere]
+6-(Boys.txt_6-21)-[]
+7-(Boys.txt_7-28)-[]
+8-(Boys.txt_8-37)-[]
+9-(Boys.txt_9-46)-[secondary-instru_behavior]
+10-(Boys.txt_10-56)-[primary-concreteness]
+11-(Boys.txt_11-68)-[secondary-abstract_tought]
+12-(Boys.txt_11-69)-[]
+13-(Boys.txt_12-81)-[]
+14-(Boys.txt_12-82)-[emotions-glory,secondary-abstract_tought]
+15-(Boys.txt_13-95)-[]
+16-(Boys.txt_13-96)-[emotions-glory,secondary-abstract_tought]
+17-(Boys.txt_14-110)-[]
+18-(Boys.txt_15-125)-[secondary-abstract_tought]
+19-(Boys.txt_15-126)-[]
+20-(Boys.txt_16-142)-[secondary-abstract_tought]
+21-(Boys.txt_16-143)-[secondary-temporal_repere]
+22-(Boys.txt_17-161)-[secondary-instru_behavior]
+23-(Boys.txt_17-162)-[secondary-social_behavior]
+24-(Boys.txt_18-181)-[secondary-social_behavior,primary-counscious]
+25-(Boys.txt_19-201)-[secondary-instru_behavior]
+26-(Boys.txt_19-202)-[secondary-instru_behavior]
+27-(Boys.txt_20-222)-[]
+half
+28-(Boys.txt_21-243)-[]
+29-(Boys.txt_22-265)-[primary-concreteness]
+30-(Boys.txt_23-288)-[]
+31-(Boys.txt_24-312)-[primary-sound]
+32-(Boys.txt_25-337)-[]
+33-(Boys.txt_26-363)-[primary-narcissism,primary-concreteness]
+34-(Boys.txt_27-390)-[]
+35-(Boys.txt_28-418)-[]
+36-(Boys.txt_28-419)-[]
+37-(Boys.txt_29-447)-[secondary-abstract_tought]
+38-(Boys.txt_29-448)-[]
+39-(Boys.txt_30-478)-[]
+40-(Boys.txt_30-479)-[primary-vision]
+41-(Boys.txt_31-510)-[secondary-instru_behavior]
+42-(Boys.txt_31-511)-[secondary-social_behavior]
+43-(Boys.txt_32-544)-[secondary-social_behavior,primary-counscious]
+44-(Boys.txt_33-578)-[secondary-instru_behavior]
+45-(Boys.txt_34-613)-[secondary-instru_behavior]
+46-(Boys.txt_35-649)-[]
+47-(Boys.txt_36-685)-[]
+48-(Boys.txt_37-722)-[primary-concreteness]
+49-(Boys.txt_38-760)-[]
+50-(Boys.txt_39-799)-[primary-sound]
+51-(Boys.txt_40-839)-[]
+52-(Boys.txt_41-880)-[primary-narcissism,primary-concreteness]
+53-(Boys.txt_42-922)-[]
+54-(Boys.txt_43-965)-[]
+55-(Boys.txt_43-966)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Boys.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wrens-sn2,subj-theme_bound-boy-sn1,def_prop(Wrens,[istituzione]),def_prop(boy,[oggetto,strumento])])
+lf(Boys.txt_2,3,cl2-not-will-remember-[ncmod-modal-you-sn2,subj-experiencer-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Boys.txt_3,6,cl3-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Boys.txt_4,10,cl4-nil-nil-walk-[iobj-goal-room-sn2,subj-agent-you-sn1,def_prop(room,[nquant,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Boys.txt_5,15,cl5-nil-nil-start-[xcomp-prop-brokenhearted-sn2,subj-agent-letter-sn1,and(letter,every,sn1),def_prop(brokenhearted,[evaluative]),def_prop(letter,[attivita,informa,umano])])
+lf(Boys.txt_6,21,cl6-nil-nil-end-[cmod-subord-end-",adj-subj_disc-too_soon-sn3,obj-goal-way-sn2,subj-agent-you-sn1,def_prop(too_soon,[istituzione]),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Boys.txt_7,28,cl8-nil-nil-underrate-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(Boys.txt_7,28,cl7-nil-nil-live-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Boys.txt_8,37,cl9-nil-nil-get-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Boys.txt_9,46,cl10-nil-nil-win-[adj-locative-up-nil,ncmod-comitativo-no_one-sn2,subj-agent-you-sn1,def_prop(no_one,[umano]),def_prop(you,[umano])])
+lf(Boys.txt_10,56,cl12-nil-nil-get-[xcomp-purpose-hide-2,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Boys.txt_10,56,cl11-nil-nil-hide-[xadj-adj-wasted-adj1,ncmod-prop-place-sn2,and(place,new,sn2),def_prop(wasted,_1733312),def_prop(place,[astratto,attivita,informa,luogo,stato])])
+lf(Boys.txt_11,68,cl13-nil-nil-do-[subj-actor-we-sn2,aux-are-nil,def_prop(we,[umano])])
+lf(Boys.txt_11,68,nil-nil-nil-guess-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Boys.txt_12,81,cl15-nil-nil-wonder-[obj-theme-why-sn3,subj-experiencer-you-sn2,def_prop(why,[astratto]),def_prop(you,[umano])])
+lf(Boys.txt_12,81,cl14-not-nil-want-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Boys.txt_13,95,cl17-nil-nil-wonder-[obj-theme-why-sn3,subj-experiencer-you-sn2,def_prop(why,[astratto]),def_prop(you,[umano])])
+lf(Boys.txt_13,95,cl16-not-nil-want-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Boys.txt_14,110,cl18-not-will-do-[subj-theme_bound-good-sn1,aux-do-nil,and(good,any,sn1),def_prop(good,[valutativo])])
+lf(Boys.txt_15,125,cl20-nil-nil-get-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Boys.txt_15,125,cl19-not-nil-know-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Boys.txt_16,142,cl23-nil-nil-go-[subj-prop-it-sn2,def_prop(it,[any])])
+lf(Boys.txt_16,142,cl22-nil-nil-be-[xcomp-prop-all-sn3,subj-theme_bound-it-sn2,def_prop(all,[_1734404]),def_prop(it,[any])])
+lf(Boys.txt_16,142,cl21-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Boys.txt_17,161,cl26-nil-nil-explain-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Boys.txt_17,161,cl25-nil-nil-try-[subj-tema_nonaff-ne-sn2,def_prop(ne,[informa,legale,tecno])])
+lf(Boys.txt_17,161,cl24-not-nil-feel-[xcomp-tema_emot-ne-sn2,subj-experiencer-i-sn1,aux-do-nil,def_prop(ne,[informa,legale,tecno]),def_prop(i,[umano])])
+lf(Boys.txt_18,181,cl28-nil-nil-sound-[])
+lf(Boys.txt_18,181,cl27-nil-nil-excuse-[xcomp-prop-insane-sn11,subj-agent-you-sn1,def_prop(insane,[evaluative]),def_prop(you,[umano])])
+lf(Boys.txt_19,201,cl30-nil-nil-find-[subj-prop-you-sn2,subj-prop-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Boys.txt_19,201,cl29-nil-nil-be-[subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Boys.txt_20,222,cl31-nil-nil-knock-[subj-theme_aff-i-sn1,aux-been-nil,aux-have-nil,def_prop(i,[umano])])
+lf(Boys.txt_21,243,cl32-nil-nil-stand-[subj-experiencer-i-sn1,aux-have-nil,def_prop(i,[umano])])
+lf(Boys.txt_22,265,cl33-nil-nil-be-[xadj-adj-down-adj2,adj-(mod)-off-nil,ncmod-specif-ground-sn1,def_prop(down,_1735516),def_prop(ground,[astratto,luogo,oggetto,strumento])])
+lf(Boys.txt_23,288,cl34-nil-nil-stand-[subj-experiencer-i-sn1,aux-have-nil,def_prop(i,[umano])])
+lf(Boys.txt_24,312,cl35-nil-nil-be-[xadj-adj-lost-adj3,ncmod-privation-sound-sn1,def_prop(lost,_1735738),def_prop(sound,[astratto,attivita,cambia,evento,oggetto])])
+lf(Boys.txt_25,337,cl36-nil-nil-stand-[subj-experiencer-i-sn1,aux-have-nil,def_prop(i,[umano])])
+lf(Boys.txt_26,363,cl37-nil-nil-face-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Boys.txt_27,390,cl38-nil-nil-stand-[subj-experiencer-i-sn1,aux-have-nil,def_prop(i,[umano])])
+lf(Boys.txt_28,418,cl39-nil-nil-want-[obj-tema_unaff-me-sn4,subj-actor-you-sn3,obj-tema_unaff-me-sn2,subj-actor-you-sn1,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Boys.txt_29,447,cl41-nil-nil-get-[ncmod-locativo-me-sn5,subj-experiencer-you-sn4,ncmod-locativo-me-sn3,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano])])
+lf(Boys.txt_29,447,cl40-not-nil-know-[subj-actor-i-sn1,aux-do-nil,def_prop(i,[umano])])
+lf(Boys.txt_30,478,cl43-nil-nil-see-[subj-experiencer-you-sn4,def_prop(you,[umano])])
+lf(Boys.txt_30,478,cl42-nil-nil-wait-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Boys.txt_31,510,cl46-nil-nil-explain-[subj-agent-you-sn4,def_prop(you,[umano])])
+lf(Boys.txt_31,510,cl45-nil-nil-try-[subj-tema_nonaff-ne-sn2,def_prop(ne,[informa,legale,tecno])])
+lf(Boys.txt_31,510,cl44-nil-nil-feel-[xcomp-tema_emot-ne-sn2,subj-experiencer-i-sn1,and(i,dont,sn1),def_prop(ne,[informa,legale,tecno]),def_prop(i,[umano])])
+lf(Boys.txt_32,544,cl48-nil-nil-sound-[])
+lf(Boys.txt_32,544,cl47-nil-nil-excuse-[xcomp-prop-insane-sn11,subj-agent-you-sn1,def_prop(insane,[evaluative]),def_prop(you,[umano])])
+lf(Boys.txt_33,578,cl50-nil-nil-find-[subj-prop-you-sn1,def_prop(you,[umano])])
+lf(Boys.txt_33,578,cl49-nil-nil-go-[subj-agent-you-sn1,aux-are-nil,progr-going-nil,def_prop(you,[umano])])
+lf(Boys.txt_34,613,cl52-nil-nil-find-[subj-prop-you-sn1,def_prop(you,[umano])])
+lf(Boys.txt_34,613,cl51-nil-nil-go-[subj-agent-you-sn1,aux-are-nil,progr-going-nil,def_prop(you,[umano])])
+lf(Boys.txt_35,649,cl53-nil-nil-feel-[subj-experiencer-i-sn1,aux-am-nil,progr-feeling-nil,def_prop(i,[umano])])
+lf(Boys.txt_36,685,cl54-nil-nil-stand-[subj-experiencer-i-sn1,aux-have-nil,def_prop(i,[umano])])
+lf(Boys.txt_37,722,cl55-nil-nil-be-[xadj-adj-down-adj4,adj-(mod)-off-nil,ncmod-specif-ground-sn1,def_prop(down,_1737804),def_prop(ground,[astratto,luogo,oggetto,strumento])])
+lf(Boys.txt_38,760,cl56-nil-nil-stand-[subj-experiencer-i-sn1,aux-have-nil,def_prop(i,[umano])])
+lf(Boys.txt_39,799,cl57-nil-nil-be-[xadj-adj-lost-adj5,ncmod-privation-sound-sn1,def_prop(lost,_1738026),def_prop(sound,[astratto,attivita,cambia,evento,oggetto])])
+lf(Boys.txt_40,839,cl58-nil-nil-stand-[subj-experiencer-i-sn1,aux-have-nil,def_prop(i,[umano])])
+lf(Boys.txt_41,880,cl59-nil-nil-face-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Boys.txt_42,922,cl60-nil-nil-stand-[subj-experiencer-i-sn1,aux-have-nil,def_prop(i,[umano])])
+lf(Boys.txt_43,965,cl61-nil-nil-want-[obj-tema_unaff-me-sn4,subj-actor-you-sn3,obj-tema_unaff-me-sn2,subj-actor-you-sn1,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])

@@ -1,0 +1,70 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Abysmal Depths Are Flooded Lyrics.txt_1-1  []-negative  [neg]
+Abysmal Depths Are Flooded Lyrics.txt_2-3  []-suspension  [neg,neg]
+Abysmal Depths Are Flooded Lyrics.txt_3-6  []-suspension  [neg,neg,neg]
+Abysmal Depths Are Flooded Lyrics.txt_4-10  []-suspension  [neg]
+Abysmal Depths Are Flooded Lyrics.txt_6-22  []-negative  []
+Abysmal Depths Are Flooded Lyrics.txt_7-29  []-suspension  [neg,neg]
+Abysmal Depths Are Flooded Lyrics.txt_7-30  []-positive  []
+Abysmal Depths Are Flooded Lyrics.txt_8-38  []-positive  []
+Abysmal Depths Are Flooded Lyrics.txt_9-47  []-negative  [neg]
+Abysmal Depths Are Flooded Lyrics.txt_10-57  []-suspension  [neg]
+Abysmal Depths Are Flooded Lyrics.txt_11-68  [(as)-temp_coinc]-suspension  [neg]
+Abysmal Depths Are Flooded Lyrics.txt_12-81  [when-temp_coinc]-question  [neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Abysmal Depths Are Flooded Lyrics.txt_1-1  [abysmal,Depths,are,Flooded,Lyrics,by,Xasthur]  [title]
+Abysmal Depths Are Flooded Lyrics.txt_2-3  [for,i,dug,a,mass,grave,in,abysmal,depths]  [provide_expl_just(dig,[external,factive,narration,foreground,objective])]
+Abysmal Depths Are Flooded Lyrics.txt_3-6  [wasted,human,race,this,for,shall,never,be,reborn,again]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Abysmal Depths Are Flooded Lyrics.txt_4-10  [cold,burial,their,blood,stains,the,snow]  [propose_opin_neg(stain,[external,factive,explanation,background,objective])]
+Abysmal Depths Are Flooded Lyrics.txt_6-22  [after,i,have,shattered,your,mirrors,forever]  [provide_expl_just(shatter,[external,factive,narration,background,objective])]
+Abysmal Depths Are Flooded Lyrics.txt_7-29  [i,will,not,be,kind,in,the,torture]  [provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(desire,[external,factive,narration,background,objective])]
+Abysmal Depths Are Flooded Lyrics.txt_7-30  [you,desire]  [provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(desire,[external,factive,narration,background,objective])]
+Abysmal Depths Are Flooded Lyrics.txt_8-38  [walking,through,genocidal,remnants]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Abysmal Depths Are Flooded Lyrics.txt_9-47  [with,a,hate,heart,filled]  [reject_expl_just(fill,[external,factive,narration,foreground,objective])]
+Abysmal Depths Are Flooded Lyrics.txt_10-57  [stabbing,even,at,the,tears,of,withering,corpses]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Abysmal Depths Are Flooded Lyrics.txt_11-68  [will,there,even,be,a,word,known,as,death,anymore]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Abysmal Depths Are Flooded Lyrics.txt_12-81  [kill,to,nothing,is,left,when,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(kill,[internal,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Abysmal Depths Are Flooded Lyrics.txt_1-1)-[]
+2-(Abysmal Depths Are Flooded Lyrics.txt_2-3)-[primary-descent,primary-depth]
+3-(Abysmal Depths Are Flooded Lyrics.txt_3-6)-[primary-sound,secondary-temporal_repere]
+4-(Abysmal Depths Are Flooded Lyrics.txt_4-10)-[primary-cold,primary-descent,primary-narcissism,primary-cold]
+5-(Abysmal Depths Are Flooded Lyrics.txt_6-22)-[emotions-aggression,primary-timelessness]
+6-(Abysmal Depths Are Flooded Lyrics.txt_7-29)-[emotions-affection,emotions-aggression]
+half
+7-(Abysmal Depths Are Flooded Lyrics.txt_7-30)-[]
+8-(Abysmal Depths Are Flooded Lyrics.txt_8-38)-[]
+9-(Abysmal Depths Are Flooded Lyrics.txt_9-47)-[emotions-aggression,primary-narcissism]
+10-(Abysmal Depths Are Flooded Lyrics.txt_10-57)-[primary-concreteness,primary-orality,primary-narcissism]
+11-(Abysmal Depths Are Flooded Lyrics.txt_11-68)-[secondary-abstract_tought,primary-passivity]
+12-(Abysmal Depths Are Flooded Lyrics.txt_12-81)-[emotions-aggression,secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Abysmal Depths Are Flooded Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Xasthur-sn3,xcomp-prop-Lyrics-sn2,subj-theme_bound-depth-sn1,and(Lyrics,Flooded,sn2),and(depth,abysmal,sn1),def_prop(Xasthur,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(depth,[astratto,luogo,stato])])
+lf(Abysmal Depths Are Flooded Lyrics.txt_2,3,cl2-nil-nil-dig-[iobj-goal-depth-sn3,obj-destination-grave-sn2,subj-agent-i-sn1,and(depth,abysmal,sn3),and(grave,mass,sn2),def_prop(depth,[astratto,luogo,stato]),def_prop(grave,[oggetto,strumento,tempo]),def_prop(i,[umano])])
+lf(Abysmal Depths Are Flooded Lyrics.txt_3,6,cl3-nil-shall-be-[xcomp-prop-again-sn2,subj-theme_bound-this-sn1,neg-never-nil,and(again,reborn,sn2),and(this,race,sn1),and(this,human,sn1),and(this,wasted,sn1),def_prop(again,[istituzione]),def_prop(this,[oggetto,umano])])
+lf(Abysmal Depths Are Flooded Lyrics.txt_4,10,cl4-nil-nil-stain-[obj-theme-snow-sn3,subj-agent-blood-sn2,subj-agent-blood-sn1,def_prop(snow,[attivita,cambia,sostanza]),def_prop(blood,[astratto,body_part,istituzione,umano]),def_prop(blood,[astratto,body_part,istituzione,umano])])
+lf(Abysmal Depths Are Flooded Lyrics.txt_5,15,cl6-nil-will-see-[subj-experiencer-eye-sn1,neg-never-nil,def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(Abysmal Depths Are Flooded Lyrics.txt_5,15,cl5-nil-nil-be-[xcomp-prop-eye-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(Abysmal Depths Are Flooded Lyrics.txt_6,22,cl7-nil-nil-shatter-[adj-(mod)-forever-nil,obj-patient-mirror-sn2,subj-agent-i-sn1,aux-have-nil,def_prop(mirror,[astratto,oggetto,strumento]),def_prop(i,[umano])])
+lf(Abysmal Depths Are Flooded Lyrics.txt_7,29,cl9-nil-nil-desire-[subj-experiencer-you-sn4,ncmod-locativo-torture-sn3,def_prop(you,[umano]),def_prop(torture,[attivita,stato])])
+lf(Abysmal Depths Are Flooded Lyrics.txt_7,29,cl8-not-will-be-[xcomp-prop-kind-sn2,subj-theme_bound-i-sn1,def_prop(kind,[valutativo]),def_prop(i,[umano])])
+lf(Abysmal Depths Are Flooded Lyrics.txt_8,38,cl10-nil-nil-be-[xadj-adj-walking-adj1,ncmod-location-remnant-sn1,and(remnant,genocidal,sn1),def_prop(walking,_388432),def_prop(remnant,[nquant,oggetto,strumento])])
+lf(Abysmal Depths Are Flooded Lyrics.txt_9,47,cl11-nil-nil-fill-[iobj-goal-hate-sn2,subj-agent-hear-sn1,def_prop(hate,[emotivo]),def_prop(hear,[istituzione])])
+lf(Abysmal Depths Are Flooded Lyrics.txt_10,57,cl12-nil-nil-be-[adj-(mod)-even-nil,ncmod-locativo-tear-sn1,def_prop(tear,[attivita,body_part,umano])])
+lf(Abysmal Depths Are Flooded Lyrics.txt_11,68,cl14-nil-nil-be-[ncmod-modal-anymore-sn12,xcomp-prop-word-sn4,xcomp-purpose-be-3,def_prop(anymore,[istituzione]),def_prop(word,[attivita,informa,nquant])])
+lf(Abysmal Depths Are Flooded Lyrics.txt_11,68,cl13-nil-will-will-[adj-subj_disc-even-sn3,obj-theme_aff-there-sn2,subj-agent-death-sn1,def_prop(even,[]),def_prop(there,[any]),def_prop(death,[animato,attivita,cambia,evento,informa,stato,tempo])])
+lf(Abysmal Depths Are Flooded Lyrics.txt_12,81,cl16-nil-nil-kill-[subj-tema_aff-nothing-sn3,def_prop(nothing,[astratto,informa,oggetto])])
+lf(Abysmal Depths Are Flooded Lyrics.txt_12,81,cl15-nil-nil-be-[xcomp-prop-nothing-sn3,adj-sn1-when-sn2,subj-theme_bound-leave-sn1,def_prop(nothing,[astratto,informa,oggetto]),def_prop(when,[tempo]),def_prop(leave,[attivita,informa,tempo])])

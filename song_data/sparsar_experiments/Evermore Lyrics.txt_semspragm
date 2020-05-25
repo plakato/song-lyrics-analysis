@@ -1,0 +1,83 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Evermore Lyrics.txt_1-1  []-positive  []
+Evermore Lyrics.txt_2-3  []-suspension  [neg,neg]
+Evermore Lyrics.txt_3-6  []-negative  [neg]
+Evermore Lyrics.txt_4-10  []-positive  [fgb]
+Evermore Lyrics.txt_5-15  []-positive  [fgb]
+Evermore Lyrics.txt_6-21  []-positive  []
+Evermore Lyrics.txt_7-28  []-positive  []
+Evermore Lyrics.txt_8-37  []-positive  [fgb]
+Evermore Lyrics.txt_9-46  []-positive  []
+Evermore Lyrics.txt_10-56  [before-temp_prec]-positive  []
+Evermore Lyrics.txt_11-67  []-positive  [bkc]
+Evermore Lyrics.txt_11-68  []-positive  []
+Evermore Lyrics.txt_12-79  [if-hypoth]-negative  [fgb,neg]
+Evermore Lyrics.txt_12-79  [if-hypoth]-negative  [fgb,neg,neg]
+Evermore Lyrics.txt_13-93  []-positive  []
+Evermore Lyrics.txt_14-107  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Evermore Lyrics.txt_1-1  [evermore,Lyrics,by,quill]  [title]
+Evermore Lyrics.txt_2-3  [in,my,space,no,rockets,ride]  [provide_expl_just(rocket,[external,factive,narration,background,objective])]
+Evermore Lyrics.txt_3-6  [only,echoes,of,a,laughter,in,my,space]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Evermore Lyrics.txt_4-10  [well,,,inside,myself,a,river,screams]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Evermore Lyrics.txt_5-15  [and,the,rapid-flowing,water]  [provide_expl_just(water,[external,factive,narration,background,objective])]
+Evermore Lyrics.txt_6-21  [my,fills,head]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Evermore Lyrics.txt_7-28  [how_long,until,it,time,is,to,leave]  [provide_expl_just(leave,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Evermore Lyrics.txt_8-37  [how_far,to,what,i,plead,for]  [provide_expl_just(what,[internal,factive,narration,background,objective])]
+Evermore Lyrics.txt_9-46  [how_many,days,to,evermore]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Evermore Lyrics.txt_10-56  [is,it,grand,,,the,sight,before,you]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Evermore Lyrics.txt_11-67  [yeah,the,valley,of,salvation,,,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Evermore Lyrics.txt_11-68  [it,grand]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Evermore Lyrics.txt_12-79  [if,you,are,long]  [reject_expl_just(go,[external,factive,narration,foreground,objective])]
+Evermore Lyrics.txt_12-79  [if,you,are,long,gone,out,in,nowhere]  [reject_expl_just(go,[external,factive,narration,foreground,objective])]
+Evermore Lyrics.txt_13-93  [you,still,can,pick,up,all,the,pieces]  [raise_issue(be,[_239148,factive,statement,_239166,subjective])]
+Evermore Lyrics.txt_14-107  [you,thou,are,long,gone]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(go,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Evermore Lyrics.txt_1-1)-[]
+2-(Evermore Lyrics.txt_2-3)-[primary-concreteness,primary-voyage]
+3-(Evermore Lyrics.txt_3-6)-[primary-sound,emotions-positive_affect,primary-concreteness]
+4-(Evermore Lyrics.txt_4-10)-[primary-concreteness,primary-water,emotions-expressive_beh]
+5-(Evermore Lyrics.txt_5-15)-[primary-water]
+6-(Evermore Lyrics.txt_6-21)-[primary-narcissism]
+7-(Evermore Lyrics.txt_7-28)-[secondary-temporal_repere]
+8-(Evermore Lyrics.txt_8-37)-[secondary-social_behavior]
+half
+9-(Evermore Lyrics.txt_9-46)-[]
+10-(Evermore Lyrics.txt_10-56)-[primary-vision]
+11-(Evermore Lyrics.txt_11-67)-[primary-depth]
+12-(Evermore Lyrics.txt_11-68)-[]
+13-(Evermore Lyrics.txt_12-79)-[primary-concreteness]
+14-(Evermore Lyrics.txt_12-79)-[primary-concreteness,primary-concreteness]
+15-(Evermore Lyrics.txt_13-93)-[secondary-instru_behavior]
+16-(Evermore Lyrics.txt_14-107)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Evermore Lyrics.txt_1,1,cl1-nil-nil-be-[subj-theme_bound-Lyrics-sn1,def_prop(Lyrics,[informa,tecno])])
+lf(Evermore Lyrics.txt_2,3,cl2-nil-nil-rocket-[])
+lf(Evermore Lyrics.txt_3,6,cl3-nil-nil-be-[ncmod-locativo-space-sn2,subj-theme_bound-echo-sn1,def_prop(space,[any,astratto,attivita,informa,luogo]),def_prop(echo,[astratto,attivita,informa])])
+lf(Evermore Lyrics.txt_4,10,cl4-nil-nil-be-[adj-(mod)-well-nil,subj-theme_bound-scream-sn3,subj-theme_bound-scream-sn2,subj-theme_bound-river-sn1,and(scream,river,sn2),and(river,myself,sn1),def_prop(scream,[attivita,informa]),def_prop(scream,[attivita,informa]),def_prop(river,[oggetto])])
+lf(Evermore Lyrics.txt_5,15,cl5-nil-nil-water-[cmod-subord-water-",subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Evermore Lyrics.txt_6,21,cl6-nil-nil-be-[ncmod-modal-fill-sn2,subj-theme_bound-you-sn1,def_prop(fill,[nquant]),def_prop(you,[umano])])
+lf(Evermore Lyrics.txt_7,28,cl8-nil-nil-leave-[ncmod-durata-it-sn1,def_prop(it,[any])])
+lf(Evermore Lyrics.txt_7,28,cl7-nil-nil-be-[adj-temporal-time-nil])
+lf(Evermore Lyrics.txt_8,37,cl9-nil-nil-be-[ncmod-loc_direct-what-sn2,subj-theme_bound-how_far-sn1,def_prop(what,[oggetto]),def_prop(how_far,[umano])])
+lf(Evermore Lyrics.txt_9,46,cl10-nil-nil-be-[adj-temporal-days-nil,ncmod-locativo-evermore-sn1,def_prop(evermore,[istituzione])])
+lf(Evermore Lyrics.txt_10,56,cl11-nil-nil-be-[xcomp-theme-you-sn3,xcomp-prop-grand-sn2,subj-theme_bound-sight-sn1,and(grand,it,sn2),def_prop(you,[umano]),def_prop(grand,[nquant]),def_prop(sight,[astratto,attivita,informa,nquant,oggetto,strumento])])
+lf(Evermore Lyrics.txt_11,67,cl12-nil-nil-be-[xcomp-prop-grand-sn5,subj-theme_bound-it-sn4,adj-(mod)-yeah-nil,subj-theme_bound-valley-sn1,def_prop(grand,[nquant]),def_prop(it,[any]),def_prop(valley,[oggetto])])
+lf(Evermore Lyrics.txt_12,79,cl14-nil-nil-go-[cmod-subord-go-if,ncmod-prop-nowhere-sn5,xmod-prop-go-3,def_prop(nowhere,[istituzione])])
+lf(Evermore Lyrics.txt_12,79,cl13-nil-nil-be-[xcomp-prop-long-sn4,subj-theme_bound-you-sn3,xcomp-prop-long-sn2,subj-theme_bound-you-sn1,def_prop(long,[misura]),def_prop(you,[umano]),def_prop(long,[misura]),def_prop(you,[umano])])
+lf(Evermore Lyrics.txt_13,93,cl15-nil-can-pick-[adj-(mod)-up-nil,adj-(mod)-still-nil,obj-goal-piece-sn2,subj-agent-you-sn1,and(piece,all,sn2),def_prop(piece,[astratto,attivita,edible,evento,informa,oggetto,strumento]),def_prop(you,[umano])])
+lf(Evermore Lyrics.txt_14,107,cl17-nil-nil-go-[subj-prop-thou-sn1,and(thou,you,sn1),def_prop(thou,[umano])])
+lf(Evermore Lyrics.txt_14,107,cl16-nil-nil-be-[xcomp-prop-long-sn2,subj-theme_bound-thou-sn1,and(thou,you,sn1),def_prop(long,[misura]),def_prop(thou,[umano])])

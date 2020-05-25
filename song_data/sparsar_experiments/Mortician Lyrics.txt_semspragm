@@ -1,0 +1,58 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Mortician Lyrics.txt_1-1  []-positive  []
+Mortician Lyrics.txt_2-3  []-positive  []
+Mortician Lyrics.txt_3-6  []-negative  [neg]
+Mortician Lyrics.txt_4-10  []-positive  []
+Mortician Lyrics.txt_5-15  []-positive  [neg,neg]
+Mortician Lyrics.txt_6-21  []-negative  []
+Mortician Lyrics.txt_7-28  []-negative  [fgb,neg]
+Mortician Lyrics.txt_8-36  [(as)-temp_coinc]-negative  [neg]
+Mortician Lyrics.txt_8-37  []-negative  [neg]
+Mortician Lyrics.txt_9-46  []-negative  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Mortician Lyrics.txt_1-1  [mortician,Lyrics,by,Blood,Duster]  [title]
+Mortician Lyrics.txt_2-3  [i,love,necrophilia]  [provide_expl_just(love,[external,factive,explanation,background,objective])]
+Mortician Lyrics.txt_3-6  [the,rotten,flesh,slice]  [reject_expl_just(slice,[external,factive,narration,background,objective])]
+Mortician Lyrics.txt_4-10  [suck,on,the,entrails]  [provide_expl_just(suck,[external,factive,narration,background,objective])]
+Mortician Lyrics.txt_5-15  [the,sweet,scent,of,death]  [provide_expl_just(scent,[external,factive,narration,background,objective])]
+Mortician Lyrics.txt_6-21  [ripping,back,the,meat]  [provide_expl_just(rip,[external,factive,cause,foreground,objective])]
+Mortician Lyrics.txt_7-28  [and,fucking,whats,within]  [reject_expl_just(fuck,[external,factive,narration,foreground,objective])]
+Mortician Lyrics.txt_8-36  [you,shit,as]  [reject_expl_just(shit,[external,factive,narration,background,objective]),reject_expl_just(fuck,[external,factive,narration,background,objective])]
+Mortician Lyrics.txt_8-37  [i,fuck]  [reject_expl_just(shit,[external,factive,narration,background,objective]),reject_expl_just(fuck,[external,factive,narration,background,objective])]
+Mortician Lyrics.txt_9-46  [and,i,cum,with,a,grin]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Mortician Lyrics.txt_1-1)-[]
+2-(Mortician Lyrics.txt_2-3)-[emotions-affection]
+3-(Mortician Lyrics.txt_3-6)-[primary-anality,primary-narcissism]
+4-(Mortician Lyrics.txt_4-10)-[primary-orality,primary-orality]
+5-(Mortician Lyrics.txt_5-15)-[primary-taste,primary-odor,primary-passivity]
+half
+6-(Mortician Lyrics.txt_6-21)-[primary-concreteness,primary-orality]
+7-(Mortician Lyrics.txt_7-28)-[primary-concreteness]
+8-(Mortician Lyrics.txt_8-36)-[primary-anality]
+9-(Mortician Lyrics.txt_8-37)-[primary-sex]
+10-(Mortician Lyrics.txt_9-46)-[emotions-positive_affect]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Mortician Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Duster-sn2,subj-theme_bound-Lyrics-sn1,and(Duster,Blood,sn2),and(Lyrics,mortician,sn1),def_prop(Duster,[place,attivita,oggetto,strumento,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Mortician Lyrics.txt_2,3,cl2-nil-nil-love-[obj-theme_unaff-necrophilia-sn2,subj-experiencer-i-sn1,def_prop(necrophilia,[astratto,informa]),def_prop(i,[umano])])
+lf(Mortician Lyrics.txt_3,6,cl3-nil-nil-slice-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Mortician Lyrics.txt_4,10,cl4-nil-nil-suck-[iobj-goal-entrails-sn2,subj-agent-you-sn1,def_prop(entrails,[body_part,oggetto]),def_prop(you,[umano])])
+lf(Mortician Lyrics.txt_5,15,cl5-nil-nil-scent-[iobj-goal-death-sn2,subj-actor-sweet-sn1,def_prop(death,[animato,attivita,cambia,evento,informa,stato,tempo]),def_prop(sweet,[astratto,edible,oggetto])])
+lf(Mortician Lyrics.txt_6,21,cl6-nil-nil-rip-[xcomp-prop-back-sn3,subj-agent-meat-sn2,subj-agent-meat-sn1,and(meat,you,sn1),def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(meat,[astratto,edible,oggetto]),def_prop(meat,[astratto,edible,oggetto])])
+lf(Mortician Lyrics.txt_7,28,cl7-nil-nil-fuck-[cmod-subord-fuck-",subj-actor-whats-sn1,def_prop(whats,[istituzione])])
+lf(Mortician Lyrics.txt_8,36,cl9-nil-nil-fuck-[subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Mortician Lyrics.txt_8,36,cl8-nil-nil-shit-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Mortician Lyrics.txt_9,46,cl10-nil-nil-be-[cmod-subord-be-",ncmod-modale-grin-sn3,xcomp-prop-cum-sn2,subj-theme_bound-i-sn1,def_prop(grin,[attivita,informa]),def_prop(cum,[istituzione,umano]),def_prop(i,[umano])])

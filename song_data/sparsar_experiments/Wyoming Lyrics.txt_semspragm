@@ -1,0 +1,271 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Wyoming Lyrics.txt_1-1  []-positive  []
+Wyoming Lyrics.txt_2-3  []-positive  []
+Wyoming Lyrics.txt_3-6  []-positive  []
+Wyoming Lyrics.txt_3-7  []-negative  [neg]
+Wyoming Lyrics.txt_3-8  []-positive  [neg]
+Wyoming Lyrics.txt_4-12  []-positive  []
+Wyoming Lyrics.txt_4-13  []-positive  []
+Wyoming Lyrics.txt_4-14  [so-result]-positive  [fgb]
+Wyoming Lyrics.txt_5-19  [but-advers]-positive  [fgb]
+Wyoming Lyrics.txt_5-19  [but-advers]-positive  [fgb]
+Wyoming Lyrics.txt_6-25  []-question  []
+Wyoming Lyrics.txt_7-32  []-positive  []
+Wyoming Lyrics.txt_7-33  []-positive  []
+Wyoming Lyrics.txt_8-41  []-positive  []
+Wyoming Lyrics.txt_9-51  [so-result]-positive  [fgb]
+Wyoming Lyrics.txt_10-61  []-positive  []
+Wyoming Lyrics.txt_10-62  []-suspension  [neg,neg]
+Wyoming Lyrics.txt_11-74  []-negative  []
+Wyoming Lyrics.txt_12-88  [so-result]-positive  [fgb,neg]
+Wyoming Lyrics.txt_12-89  []-positive  []
+Wyoming Lyrics.txt_13-105  [if-hypoth]-negative  [fgb,neg]
+Wyoming Lyrics.txt_14-120  []-negative  [neg]
+Wyoming Lyrics.txt_15-136  []-negative  [neg,neg]
+Wyoming Lyrics.txt_16-152  []-positive  [fgb]
+Wyoming Lyrics.txt_17-170  []-positive  []
+Wyoming Lyrics.txt_18-188  []-positive  [fgb]
+Wyoming Lyrics.txt_19-207  []-positive  [neg]
+Wyoming Lyrics.txt_19-208  [but-advers]-negative  [fgb,neg]
+Wyoming Lyrics.txt_20-227  []-positive  []
+Wyoming Lyrics.txt_20-228  [when-temp_coinc]-negative  [neg]
+Wyoming Lyrics.txt_21-249  []-negative  []
+Wyoming Lyrics.txt_22-271  [so-result]-positive  [fgb]
+Wyoming Lyrics.txt_23-294  []-positive  []
+Wyoming Lyrics.txt_23-295  []-suspension  [neg,neg]
+Wyoming Lyrics.txt_24-320  []-negative  []
+Wyoming Lyrics.txt_25-347  [so-result]-positive  [fgb,neg]
+Wyoming Lyrics.txt_25-348  []-positive  []
+Wyoming Lyrics.txt_26-377  [if-hypoth]-negative  [fgb,neg]
+Wyoming Lyrics.txt_27-405  []-negative  [neg]
+Wyoming Lyrics.txt_28-434  []-positive  []
+Wyoming Lyrics.txt_29-463  []-positive  []
+Wyoming Lyrics.txt_30-494  []-positive  []
+Wyoming Lyrics.txt_31-525  []-positive  [neg,fhd,neg]
+Wyoming Lyrics.txt_32-557  [when-temp_coinc]-negative  []
+Wyoming Lyrics.txt_32-558  []-positive  []
+Wyoming Lyrics.txt_32-559  []-negative  [fgb,neg]
+Wyoming Lyrics.txt_33-593  []-question  []
+Wyoming Lyrics.txt_33-593  []-question  []
+Wyoming Lyrics.txt_33-594  [when-temp_coinc]-positive  [fgb]
+Wyoming Lyrics.txt_34-628  []-negative  []
+Wyoming Lyrics.txt_35-663  []-positive  []
+Wyoming Lyrics.txt_36-701  []-positive  []
+Wyoming Lyrics.txt_36-702  []-positive  [fgb]
+Wyoming Lyrics.txt_37-739  []-negative  [neg,neg]
+Wyoming Lyrics.txt_37-740  []-positive  []
+Wyoming Lyrics.txt_38-778  [so-result]-positive  [fgb,neg]
+Wyoming Lyrics.txt_39-818  []-positive  [fgb,fhd,fhd]
+Wyoming Lyrics.txt_40-859  []-negative  [neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Wyoming Lyrics.txt_1-1  [wyoming,Lyrics,by,two,o-clock,courage]  [title]
+Wyoming Lyrics.txt_2-3  [rewind,the,moons,to,where,this,all,started]  [provide_expl_just(rewind,[external,factive,explanation,background,objective])]
+Wyoming Lyrics.txt_3-6  [i,knew]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_895464),provide_expl_just(lose,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_3-7  [i,had,lose]  [reject_expl_just(know,[external,factive,cause,foreground,objective]),reject_expl_just(lose,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_3-8  [you,to,the,first,shot,,,it,is,just,my,luck]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_900556),provide_expl_just(lose,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_4-12  [i,gave]  [provide_expl_just(give,[external,factive,narration,foreground,objective]),provide_expl_just(wing,[external,factive,narration,background,objective]),provide_expl_just(revise,[external,nonfactive,narration,background,objective])]
+Wyoming Lyrics.txt_4-13  [you,wings]  [provide_expl_just(give,[external,factive,narration,foreground,objective]),provide_expl_just(wing,[external,factive,narration,background,objective]),provide_expl_just(revise,[external,nonfactive,narration,background,objective])]
+Wyoming Lyrics.txt_4-14  [so,i,could,revise,it]  [provide_expl_just(give,[external,factive,narration,foreground,objective]),provide_expl_just(wing,[external,factive,narration,background,objective]),provide_expl_just(revise,[external,nonfactive,narration,background,objective])]
+Wyoming Lyrics.txt_5-19  [but,you,told,me]  [provide_expl_just(tell,[external,factive,adverse,foreground,objective])]
+Wyoming Lyrics.txt_5-19  [but,you,told,me,that,a,pen,has,always,been,enough]  [provide_expl_just(tell,[external,factive,adverse,foreground,objective])]
+Wyoming Lyrics.txt_6-25  [honestly,?]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Wyoming Lyrics.txt_7-32  [i,think]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Wyoming Lyrics.txt_7-33  [you,made,it,up]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Wyoming Lyrics.txt_8-41  [cause,all_along,i,have,been,just,writing,you,this,song]  [provide_expl_just(write,[external,factive,narration,foreground,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_9-51  [so,set,it,off,,,Here_we_go]  [provide_expl_just(set,[external,factive,cause,foreground,objective])]
+Wyoming Lyrics.txt_10-61  [we,have,gotten,to,sleeping,in,our,clothes]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_10-62  [,,not,cause,were,cold]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_11-74  [cause,we,don-t,know,who,will,be,there,in,the,morning,.,will,be,there,in,the,morning]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_12-88  [so,set,it,off,,,my,heart,is,shot]  [provide_expl_just(set,[external,factive,cause,foreground,objective]),provide_expl_just(shoot,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,foreground,objective])]
+Wyoming Lyrics.txt_12-89  [this,is,me,giving,all,i,have,got]  [provide_expl_just(set,[external,factive,cause,foreground,objective]),provide_expl_just(shoot,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,foreground,objective])]
+Wyoming Lyrics.txt_13-105  [god,let,it,be,enough,,,cause,if,it,is,not,this,is,me,giving,up]  [reject_expl_just(be,[external,nonfactive,hypothesis,background,objective])]
+Wyoming Lyrics.txt_14-120  [writing,another,useless,melody,that,goes]  [reject_expl_just(write,[external,factive,narration,foreground,objective]),reject_expl_just(go,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_15-136  [another,late,she,evening,is,faded,casually]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_16-152  [wearing,it,well,cause,she,is,a,lady]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(wear,[external,factive,narration,foreground,objective])]
+Wyoming Lyrics.txt_17-170  [under,the,sultry,matte,of,summer]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_18-188  [and,the,allusion,of,Great,Gatsby]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_19-207  [she,saying,is,sick,of,me]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_19-208  [but,she,is,lying,on,my,floor]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_20-227  [she,is,a,six]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(take,[external,nonfactive,narration,foreground,objective])]
+Wyoming Lyrics.txt_20-228  [for,me,when,i,can,not,take,more_than,a,four]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(take,[external,nonfactive,narration,foreground,objective])]
+Wyoming Lyrics.txt_21-249  [she,still,means,so_much,more_than]  [provide_expl_just(mean,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_22-271  [so,set,it,off,,,Here_we_go]  [provide_expl_just(set,[external,factive,cause,foreground,objective])]
+Wyoming Lyrics.txt_23-294  [we,have,gotten,to,sleeping,in,our,clothes]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_23-295  [,,not,cause,were,cold]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_24-320  [cause,we,don-t,know,who,will,be,there,in,the,morning,.,will,be,there,in,the,morning]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_25-347  [so,set,it,off,,,my,heart,is,shot]  [provide_expl_just(set,[external,factive,cause,foreground,objective]),provide_expl_just(shoot,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,foreground,objective])]
+Wyoming Lyrics.txt_25-348  [this,is,me,giving,all,i,have,got]  [provide_expl_just(set,[external,factive,cause,foreground,objective]),provide_expl_just(shoot,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,foreground,objective])]
+Wyoming Lyrics.txt_26-377  [god,let,it,be,enough,,,cause,if,it,is,not,this,is,me,giving,up]  [reject_expl_just(be,[external,nonfactive,hypothesis,background,objective])]
+Wyoming Lyrics.txt_27-405  [writing,another,useless,melody,that,goes]  [reject_expl_just(write,[external,factive,narration,foreground,objective]),reject_expl_just(go,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_28-434  [the,our,way,story,does]  [raise_issue(be,[_934040,factive,statement,_934058,subjective])]
+Wyoming Lyrics.txt_29-463  [writing,poetry,in,the,back,of,my,car,,,smoking,cigarettes,with,the,dome,light]  [provide_expl_just(smoke,[external,factive,narration,foreground,objective])]
+Wyoming Lyrics.txt_30-494  [on]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Wyoming Lyrics.txt_31-525  [the,wind,graceful,on,the,paint-job,inside,hazy,like,a,dive,bar]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_32-557  [when,it,comes,to,stopping,my,heart]  [provide_expl_just(stop,[external,factive,narration,foreground,objective]),provide_expl_just(catch,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_32-558  [she,catches,each]  [provide_expl_just(stop,[external,factive,narration,foreground,objective]),provide_expl_just(catch,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_32-559  [and,every,beat,on_time]  [reject_expl_just(stop,[external,factive,narration,foreground,objective]),reject_expl_just(catch,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_33-593  [?]  [provide_expl_just(pick,[internal,factive,narration,background,objective])]
+Wyoming Lyrics.txt_33-593  [?]  [provide_expl_just(pick,[internal,factive,narration,background,objective])]
+Wyoming Lyrics.txt_33-594  [and,when,it,comes,to,picking,winners]  [provide_expl_just(pick,[internal,factive,narration,background,objective])]
+Wyoming Lyrics.txt_34-628  [i,don-t,ever,take,the,line]  [provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Wyoming Lyrics.txt_35-663  [cause,i,am,flattened,by,everything,,,she,is,beautiful]  [provide_expl_just(flatten,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_36-701  [i,have,got,the,spins]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_36-702  [and,of,all,the,things,she,ever,did]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_37-739  [this,will,not,fix]  [reject_expl_just(fix,[external,nonfactive,narration,background,objective]),reject_expl_just(help,[external,factive,narration,foreground,objective])]
+Wyoming Lyrics.txt_37-740  [itself,without,me,helping,it]  [provide_expl_just(fix,[external,nonfactive,narration,background,objective]),provide_expl_just(help,[external,factive,narration,foreground,objective])]
+Wyoming Lyrics.txt_38-778  [so,this,is,just,another,useless,melody,that,goes,the,our,way,story,it,does]  [provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_39-818  [say,what,you,had,like,about,us,.,you,had,like,about,us]  [provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(say,[external,factive,narration,background,objective])]
+Wyoming Lyrics.txt_40-859  [this,just,means,a,little,more,no,so_much,more]  [reject_expl_just(mean,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Wyoming Lyrics.txt_1-1)-[]
+2-(Wyoming Lyrics.txt_2-3)-[primary-concreteness]
+3-(Wyoming Lyrics.txt_3-6)-[secondary-abstract_tought]
+4-(Wyoming Lyrics.txt_3-7)-[]
+5-(Wyoming Lyrics.txt_3-8)-[emotions-aggression]
+6-(Wyoming Lyrics.txt_4-12)-[]
+7-(Wyoming Lyrics.txt_4-13)-[primary-ascend]
+8-(Wyoming Lyrics.txt_4-14)-[]
+9-(Wyoming Lyrics.txt_5-19)-[secondary-social_behavior]
+10-(Wyoming Lyrics.txt_5-19)-[secondary-social_behavior]
+11-(Wyoming Lyrics.txt_6-25)-[secondary-moral_imperative]
+12-(Wyoming Lyrics.txt_7-32)-[secondary-abstract_tought]
+13-(Wyoming Lyrics.txt_7-33)-[primary-counscious]
+14-(Wyoming Lyrics.txt_8-41)-[secondary-abstract_tought]
+15-(Wyoming Lyrics.txt_9-51)-[primary-concreteness]
+16-(Wyoming Lyrics.txt_10-61)-[]
+17-(Wyoming Lyrics.txt_10-62)-[secondary-abstract_tought,primary-cold]
+18-(Wyoming Lyrics.txt_11-74)-[secondary-abstract_tought,secondary-abstract_tought]
+19-(Wyoming Lyrics.txt_12-88)-[primary-concreteness,primary-narcissism,emotions-aggression]
+20-(Wyoming Lyrics.txt_12-89)-[]
+21-(Wyoming Lyrics.txt_13-105)-[secondary-abstract_tought]
+22-(Wyoming Lyrics.txt_14-120)-[primary-sound]
+23-(Wyoming Lyrics.txt_15-136)-[primary-diffusion]
+24-(Wyoming Lyrics.txt_16-152)-[secondary-abstract_tought]
+25-(Wyoming Lyrics.txt_17-170)-[primary-depth,primary-fire]
+26-(Wyoming Lyrics.txt_18-188)-[]
+27-(Wyoming Lyrics.txt_19-207)-[]
+28-(Wyoming Lyrics.txt_19-208)-[primary-brink]
+29-(Wyoming Lyrics.txt_20-227)-[]
+half
+30-(Wyoming Lyrics.txt_20-228)-[secondary-temporal_repere]
+31-(Wyoming Lyrics.txt_21-249)-[]
+32-(Wyoming Lyrics.txt_22-271)-[primary-concreteness]
+33-(Wyoming Lyrics.txt_23-294)-[]
+34-(Wyoming Lyrics.txt_23-295)-[secondary-abstract_tought,primary-cold]
+35-(Wyoming Lyrics.txt_24-320)-[secondary-abstract_tought,secondary-abstract_tought]
+36-(Wyoming Lyrics.txt_25-347)-[primary-concreteness,primary-narcissism,emotions-aggression]
+37-(Wyoming Lyrics.txt_25-348)-[]
+38-(Wyoming Lyrics.txt_26-377)-[secondary-abstract_tought]
+39-(Wyoming Lyrics.txt_27-405)-[primary-sound]
+40-(Wyoming Lyrics.txt_28-434)-[]
+41-(Wyoming Lyrics.txt_29-463)-[emotions-expressive_beh,primary-concreteness,primary-height,primary-vision]
+42-(Wyoming Lyrics.txt_30-494)-[]
+43-(Wyoming Lyrics.txt_31-525)-[secondary-instru_behavior,primary-concreteness,primary-diffusion,emotions-affection,primary-descent,secondary-restraint]
+44-(Wyoming Lyrics.txt_32-557)-[secondary-temporal_repere,primary-narcissism]
+45-(Wyoming Lyrics.txt_32-558)-[secondary-restraint]
+46-(Wyoming Lyrics.txt_32-559)-[secondary-temporal_repere,emotions-aggression]
+47-(Wyoming Lyrics.txt_33-593)-[]
+48-(Wyoming Lyrics.txt_33-593)-[]
+49-(Wyoming Lyrics.txt_33-594)-[secondary-temporal_repere]
+50-(Wyoming Lyrics.txt_34-628)-[secondary-temporal_repere,primary-brink]
+51-(Wyoming Lyrics.txt_35-663)-[secondary-abstract_tought,primary-gen_sensation]
+52-(Wyoming Lyrics.txt_36-701)-[primary-random_movement]
+53-(Wyoming Lyrics.txt_36-702)-[secondary-temporal_repere]
+54-(Wyoming Lyrics.txt_37-739)-[]
+55-(Wyoming Lyrics.txt_37-740)-[]
+56-(Wyoming Lyrics.txt_38-778)-[primary-sound]
+57-(Wyoming Lyrics.txt_39-818)-[secondary-social_behavior,emotions-affection,emotions-affection]
+58-(Wyoming Lyrics.txt_40-859)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Wyoming Lyrics.txt_1,1,cl1-nil-nil-be-[adj-(mod)-courage-nil,arg_mod-agent-two-sn2,subj-theme_bound-Lyrics-sn1,and(courage,o-clock,sn4),and(Lyrics,wyoming,sn1),def_prop(courage,[astratto]),def_prop(two,[person]),def_prop(Lyrics,[informa,tecno])])
+lf(Wyoming Lyrics.txt_2,3,nil-nil-nil-rewind-[ncmod-loc_direct-where-sn3,obj-theme_aff-moon-sn2,subj-agent-you-sn1,def_prop(where,[luogo]),def_prop(moon,[oggetto]),def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_3,6,cl4-nil-nil-be-[xadj-adj-shot-adj1,xcomp-prop-luck-sn6,xcomp-theme-it-sn5,ncmod-locativo-first-sn4,subj-theme_bound-you-sn3,def_prop(shot,_949120),def_prop(luck,[attivita,cambia]),def_prop(it,[any]),def_prop(first,[istituzione]),def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_3,6,cl3-nil-nil-lose-[subj-theme_aff-you-sn2,aux-had-nil,def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_3,6,cl2-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_4,12,cl7-nil-could-revise-[subj-agent-it-sn4,subj-agent-it-sn3,and(it,i,sn3),def_prop(it,[any]),def_prop(it,[any])])
+lf(Wyoming Lyrics.txt_4,12,cl6-nil-nil-wing-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_4,12,cl5-nil-nil-give-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_5,19,cl8-nil-nil-tell-[cmod-subord-tell-but,ccomp-prop-tell-cl8,obj-theme_unaff-me-sn4,subj-agent-you-sn3,obj-theme_unaff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_6,25,cl9-nil-nil-say-[])
+lf(Wyoming Lyrics.txt_7,32,cl11-nil-nil-make-[subj-agent-it-sn3,subj-agent-it-sn2,and(it,you,sn2),def_prop(it,[any]),def_prop(it,[any])])
+lf(Wyoming Lyrics.txt_7,32,cl10-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_8,41,cl13-nil-nil-write-[subj-agent-song-sn9,obj-source_information-song-sn7,subj-agent-i-sn6,aux-been-nil,aux-have-nil,and(song,this,sn9),and(song,this,sn7),def_prop(song,[astratto,attivita,evento,informa,oggetto]),def_prop(song,[astratto,attivita,evento,informa,oggetto]),def_prop(i,[umano])])
+lf(Wyoming Lyrics.txt_8,41,cl12-nil-nil-cause-[subj-causer-you-sn2,subj-causer-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_9,51,cl14-nil-nil-set-[obj-goal-Here_we_go-sn3,subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(Here_we_go,[astratto,attivita,tempo,umano]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Wyoming Lyrics.txt_10,61,cl17-not-nil-be-[xcomp-prop-cold-sn6,subj-theme_bound-cause-sn5,xcomp-purpose-sleep-3,def_prop(cold,[valutativo]),def_prop(cause,[attivita,evento,informa])])
+lf(Wyoming Lyrics.txt_10,61,cl16-nil-nil-sleep-[iobj-goal-cloth-sn2,def_prop(cloth,[oggetto,strumento])])
+lf(Wyoming Lyrics.txt_10,61,cl15-nil-nil-get-[subj-theme_bound-we-sn1,aux-have-nil,def_prop(we,[umano])])
+lf(Wyoming Lyrics.txt_11,74,cl20-nil-will-be-[adj-temporal-morning-nil,subj-theme_bound-there-sn8,xcomp-prop-there-sn5,xcomp-theme_unaff-who-sn3,xcomp-purpose-know-4,def_prop(morning,[tempo]),def_prop(there,[any]),def_prop(there,[any]),def_prop(who,[umano])])
+lf(Wyoming Lyrics.txt_11,74,cl19-nil-nil-know-[])
+lf(Wyoming Lyrics.txt_11,74,cl18-nil-nil-cause-[subj-causer-we-sn2,subj-causer-we-sn1,and(we,you,sn1),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Wyoming Lyrics.txt_12,88,cl25-nil-nil-get-[aux-have-nil])
+lf(Wyoming Lyrics.txt_12,88,cl24-nil-nil-give-[obj-theme-i-sn10,xcomp-prop-all-sn9,xcomp-prop-me-sn8,subj-actor-this-sn7,def_prop(i,[umano]),def_prop(all,[_951604]),def_prop(me,[umano]),def_prop(this,[oggetto,umano])])
+lf(Wyoming Lyrics.txt_12,88,cl23-nil-nil-be-[])
+lf(Wyoming Lyrics.txt_12,88,cl22-nil-nil-shoot-[subj-theme_aff-pro-nil,aux-(is)-nil,subj-theme_aff-hear-sn4,def_prop(hear,[istituzione])])
+lf(Wyoming Lyrics.txt_12,88,cl21-nil-nil-set-[subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Wyoming Lyrics.txt_13,105,cl27-nil-nil-give-[subj-goal-me-sn6,def_prop(me,[umano])])
+lf(Wyoming Lyrics.txt_13,105,cl26-not-nil-be-[subj-theme_bound-it-sn10,cmod-subord-give-cl27,subj-theme_bound-it-sn9,adj-(mod)-up-nil,xcomp-prop-me-sn6,subj-theme_bound-this-sn5,subj-theme_bound-this-sn4,xcomp-prop-enough-sn3,xcomp-theme-it-sn2,subj-theme_bound-god-sn1,and(this,cause,sn4),def_prop(it,[any]),def_prop(it,[any]),def_prop(me,[umano]),def_prop(this,[oggetto,umano]),def_prop(this,[oggetto,umano]),def_prop(enough,[astratto,informa,oggetto]),def_prop(it,[any]),def_prop(god,[umano])])
+lf(Wyoming Lyrics.txt_14,120,cl29-nil-nil-go-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_14,120,cl28-nil-nil-write-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_15,136,cl30-nil-nil-be-[adj-(mod)-casually-nil,xcomp-prop-faded-sn2,subj-theme_bound-evening-sn1,and(evening,she,sn1),and(evening,late,sn1),and(evening,another,sn1),def_prop(faded,[evaluative]),def_prop(evening,[tempo])])
+lf(Wyoming Lyrics.txt_16,152,cl32-nil-nil-be-[subj-theme_bound-lady-sn9,xcomp-prop-lady-sn8,subj-theme_bound-she-sn7,def_prop(lady,[plant,umano]),def_prop(lady,[plant,umano]),def_prop(she,[umano])])
+lf(Wyoming Lyrics.txt_16,152,cl31-nil-nil-wear-[obj-theme_unaff-cause-sn3,subj-experiencer-it-sn2,subj-experiencer-it-sn1,and(it,you,sn1),def_prop(cause,[attivita,evento,informa]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Wyoming Lyrics.txt_17,170,cl33-nil-nil-be-[ncmod-specif-summer-sn2,subj-theme_bound-you-sn1,def_prop(summer,[tempo]),def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_18,188,cl34-nil-nil-be-[cmod-subord-be-",ncmod-specif-Gatsby-sn2,subj-theme_bound-you-sn1,and(Gatsby,Great,sn2),def_prop(Gatsby,[istituzione,umano]),def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_19,207,cl35-nil-nil-be-[ncmod-locativo-floor-sn7,xcomp-prop-lying-sn6,subj-theme_bound-she-sn5,xcomp-prop-sick-sn2,subj-theme_bound-say-sn1,and(say,she,sn1),def_prop(floor,[astratto,attivita,informa,oggetto,strumento]),def_prop(lying,[attivita]),def_prop(she,[umano]),def_prop(sick,[istituzione]),def_prop(say,[stato])])
+lf(Wyoming Lyrics.txt_20,227,cl37-not-can-take-[cmod-subord-take-when,adj-(mod)-more_than-nil,obj-theme_aff-four-sn5,subj-agent-i-sn4,def_prop(four,[nquant]),def_prop(i,[umano])])
+lf(Wyoming Lyrics.txt_20,227,cl36-nil-nil-be-[xcomp-prop-six-sn2,subj-theme_bound-she-sn1,def_prop(six,[nquant]),def_prop(she,[umano])])
+lf(Wyoming Lyrics.txt_21,249,cl38-nil-nil-mean-[obj-theme_aff-more_than-sn2,subj-theme_bound-she-sn1,and(more_than,so_much,sn2),def_prop(more_than,[nquant]),def_prop(she,[umano])])
+lf(Wyoming Lyrics.txt_22,271,cl39-nil-nil-set-[obj-goal-Here_we_go-sn3,subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(Here_we_go,[astratto,attivita,tempo,umano]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Wyoming Lyrics.txt_23,294,cl42-not-nil-be-[xcomp-prop-cold-sn6,subj-theme_bound-cause-sn5,xcomp-purpose-sleep-3,def_prop(cold,[valutativo]),def_prop(cause,[attivita,evento,informa])])
+lf(Wyoming Lyrics.txt_23,294,cl41-nil-nil-sleep-[iobj-goal-cloth-sn2,def_prop(cloth,[oggetto,strumento])])
+lf(Wyoming Lyrics.txt_23,294,cl40-nil-nil-get-[subj-theme_bound-we-sn1,aux-have-nil,def_prop(we,[umano])])
+lf(Wyoming Lyrics.txt_24,320,cl45-nil-will-be-[adj-temporal-morning-nil,subj-theme_bound-there-sn8,xcomp-prop-there-sn5,xcomp-theme_unaff-who-sn3,xcomp-purpose-know-4,def_prop(morning,[tempo]),def_prop(there,[any]),def_prop(there,[any]),def_prop(who,[umano])])
+lf(Wyoming Lyrics.txt_24,320,cl44-nil-nil-know-[])
+lf(Wyoming Lyrics.txt_24,320,cl43-nil-nil-cause-[subj-causer-we-sn2,subj-causer-we-sn1,and(we,you,sn1),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Wyoming Lyrics.txt_25,347,cl50-nil-nil-get-[aux-have-nil])
+lf(Wyoming Lyrics.txt_25,347,cl49-nil-nil-give-[obj-theme-i-sn10,xcomp-prop-all-sn9,xcomp-prop-me-sn8,subj-actor-this-sn7,def_prop(i,[umano]),def_prop(all,[_955088]),def_prop(me,[umano]),def_prop(this,[oggetto,umano])])
+lf(Wyoming Lyrics.txt_25,347,cl48-nil-nil-be-[])
+lf(Wyoming Lyrics.txt_25,347,cl47-nil-nil-shoot-[subj-theme_aff-pro-nil,aux-(is)-nil,subj-theme_aff-hear-sn4,def_prop(hear,[istituzione])])
+lf(Wyoming Lyrics.txt_25,347,cl46-nil-nil-set-[subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Wyoming Lyrics.txt_26,377,cl52-nil-nil-give-[subj-goal-me-sn6,def_prop(me,[umano])])
+lf(Wyoming Lyrics.txt_26,377,cl51-not-nil-be-[subj-theme_bound-it-sn10,cmod-subord-give-cl52,subj-theme_bound-it-sn9,adj-(mod)-up-nil,xcomp-prop-me-sn6,subj-theme_bound-this-sn5,subj-theme_bound-this-sn4,xcomp-prop-enough-sn3,xcomp-theme-it-sn2,subj-theme_bound-god-sn1,and(this,cause,sn4),def_prop(it,[any]),def_prop(it,[any]),def_prop(me,[umano]),def_prop(this,[oggetto,umano]),def_prop(this,[oggetto,umano]),def_prop(enough,[astratto,informa,oggetto]),def_prop(it,[any]),def_prop(god,[umano])])
+lf(Wyoming Lyrics.txt_27,405,cl54-nil-nil-go-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_27,405,cl53-nil-nil-write-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_28,434,cl55-nil-nil-do-[ncmod-modal-way-sn2,subj-theme_unaff-you-sn1,aux-does-nil,def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_29,463,cl57-nil-nil-smoke-[obj-theme-cigarette-sn4,obj-prop-poetry-sn2,xcomp-purpose-write-2,subj-agent-you-sn1,def_prop(cigarette,[oggetto,strumento]),def_prop(poetry,[attivita,informa]),def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_29,463,cl56-nil-nil-write-[xadj-adj-light-adj2,ncmod-comitativo-dome-sn5,ncmod-locativo-back-sn3,def_prop(light,_956498),def_prop(dome,[astratto,oggetto,strumento]),def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano])])
+lf(Wyoming Lyrics.txt_30,494,cl58-nil-nil-say-[])
+lf(Wyoming Lyrics.txt_31,525,nil-nil-nil-like-[obj-theme-bar-sn5,obj-theme_aff-dive-sn4,obj-theme-hazy-sn3,ncmod-locativo-paint-job-sn2,subj-experiencer-wind-sn1,and(hazy,inside,sn3),def_prop(bar,[nquant,oggetto,strumento]),def_prop(dive,[attivita]),def_prop(hazy,[istituzione,umano]),def_prop(paint-job,[attivita,informa,oggetto,strumento]),def_prop(wind,[attivita,cambia,informa])])
+lf(Wyoming Lyrics.txt_32,557,cl61-nil-nil-be-[cmod-subord-be-",xcomp-prop-on_time-sn9,subj-theme_bound-beat-sn8,and(beat,every,sn8),def_prop(on_time,[any,evento,informa,tecno,tempo]),def_prop(beat,[astratto,attivita,cambia,evento,luogo])])
+lf(Wyoming Lyrics.txt_32,557,nil-nil-nil-catch-[obj-goal-each-sn7,subj-agent-she-sn6,def_prop(each,[_957190]),def_prop(she,[umano])])
+lf(Wyoming Lyrics.txt_32,557,cl60-nil-nil-stop-[obj-result-hear-sn3,xcomp-purpose-stop-2,def_prop(hear,[istituzione])])
+lf(Wyoming Lyrics.txt_32,557,cl59-nil-nil-come-[expl-it-nil,adj-sn1-when-sn2,subj-agent-it-sn1,def_prop(when,[tempo]),def_prop(it,[any])])
+lf(Wyoming Lyrics.txt_33,593,cl63-nil-nil-pick-[])
+lf(Wyoming Lyrics.txt_33,593,cl62-nil-nil-come-[expl-it-nil,cmod-subord-pick-",obj-result-winner-sn3,xcomp-prop-pick-cl63,adj-sn1-when-sn2,subj-agent-it-sn1,def_prop(winner,[luogo,umano]),def_prop(when,[tempo]),def_prop(it,[any])])
+lf(Wyoming Lyrics.txt_34,628,cl64-not-nil-take-[obj-theme_aff-line-sn2,subj-agent-i-sn1,adj-(mod)-ever-nil,aux-do-nil,def_prop(line,[astratto,attivita,cambia,informa,luogo,oggetto,strumento]),def_prop(i,[umano])])
+lf(Wyoming Lyrics.txt_35,663,cl67-nil-nil-be-[subj-theme_bound-beautiful-sn7,xcomp-prop-beautiful-sn6,subj-actor-she-sn5,xcomp-purpose-flatten-4,def_prop(beautiful,[valutativo]),def_prop(beautiful,[valutativo]),def_prop(she,[umano])])
+lf(Wyoming Lyrics.txt_35,663,cl66-nil-nil-flatten-[iobj-patient-everything-sn3,def_prop(everything,[astratto,informa,oggetto])])
+lf(Wyoming Lyrics.txt_35,663,cl65-nil-nil-cause-[subj-causer-i-sn2,subj-causer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Wyoming Lyrics.txt_36,701,cl69-nil-nil-do-[cmod-subord-do-",adj-(mod)-ever-nil,ncmod-specif-thing-sn4,subj-theme_unaff-she-sn3,aux-did-nil,and(thing,all,sn4),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(she,[umano])])
+lf(Wyoming Lyrics.txt_36,701,cl68-nil-nil-get-[obj-theme_unaff-spin-sn2,subj-agent-i-sn1,aux-have-nil,def_prop(spin,[attivita,evento]),def_prop(i,[umano])])
+lf(Wyoming Lyrics.txt_37,739,cl71-nil-nil-help-[obj-theme-it-sn4,ncmod-modal-me-sn3,subj-agent-itself-sn2,def_prop(it,[any]),def_prop(me,[umano]),def_prop(itself,[any])])
+lf(Wyoming Lyrics.txt_37,739,cl70-not-will-fix-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_38,778,cl73-nil-nil-do-[subj-actor-this-sn1,aux-does-nil,def_prop(this,[oggetto,umano])])
+lf(Wyoming Lyrics.txt_38,778,cl72-nil-nil-be-[xcomp-prop-it-sn2,subj-theme_bound-this-sn1,and(it,melody,sn2),and(it,useless,sn2),and(it,another,sn2),def_prop(it,[any]),def_prop(this,[oggetto,umano])])
+lf(Wyoming Lyrics.txt_39,818,cl75-nil-nil-have-[adj-(mod)-say-nil,ncmod-prop-us-sn4,xmod-prop-have-4,def_prop(us,[umano])])
+lf(Wyoming Lyrics.txt_39,818,cl74-nil-nil-say-[obj-theme-you-sn3,f2-sn1-what-sn2,subj-actor-you-sn1,def_prop(you,[umano]),def_prop(what,[oggetto]),def_prop(you,[umano])])
+lf(Wyoming Lyrics.txt_40,859,cl76-nil-nil-mean-[obj-theme-more-sn3,obj-theme_aff-little-sn2,subj-theme_bound-more-sn1,and(more,so_much,sn1),def_prop(more,[astratto,informa,oggetto]),def_prop(little,[astratto,informa,oggetto]),def_prop(more,[astratto,informa,oggetto])])

@@ -1,0 +1,74 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Love Song For The Dead Che Lyrics.txt_1-1  []-positive  [neg]
+Love Song For The Dead Che Lyrics.txt_2-3  []-positive  []
+Love Song For The Dead Che Lyrics.txt_3-6  []-positive  []
+Love Song For The Dead Che Lyrics.txt_4-10  []-negative  [neg]
+Love Song For The Dead Che Lyrics.txt_5-15  []-positive  [fgb]
+Love Song For The Dead Che Lyrics.txt_6-21  []-positive  []
+Love Song For The Dead Che Lyrics.txt_7-28  []-negative  [neg,neg]
+Love Song For The Dead Che Lyrics.txt_8-36  []-suspension  []
+Love Song For The Dead Che Lyrics.txt_8-37  []-positive  []
+Love Song For The Dead Che Lyrics.txt_9-46  [(as)-temp_coinc]-positive  []
+Love Song For The Dead Che Lyrics.txt_10-56  []-positive  []
+Love Song For The Dead Che Lyrics.txt_10-57  []-positive  [fgb]
+Love Song For The Dead Che Lyrics.txt_11-68  []-negative  [neg]
+Love Song For The Dead Che Lyrics.txt_12-80  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Love Song For The Dead Che Lyrics.txt_1-1  [love,Song,Dead,Che,for,the,Lyrics,by,United,states,of,America]  [title]
+Love Song For The Dead Che Lyrics.txt_2-3  [a,the,dawn,of,an,ordinary,Sunday]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Love Song For The Dead Che Lyrics.txt_3-6  [i_remember,the,taste,of,you,sweet,in,my,mouth]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Love Song For The Dead Che Lyrics.txt_4-10  [late,in,the,year]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Love Song For The Dead Che Lyrics.txt_5-15  [and,in,the,stillness,of,the,Oriente,rainfall]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Love Song For The Dead Che Lyrics.txt_6-21  [i_remember,the,warmth,of,you,,,still,in,my,arms]  [provide_expl_just(still,[external,factive,narration,background,objective])]
+Love Song For The Dead Che Lyrics.txt_7-28  [late,,,late,in,the,year]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Love Song For The Dead Che Lyrics.txt_8-36  [i,will,bring,to,you]  [provide_expl_just(bring,[external,nonfactive,narration,background,objective]),provide_expl_just(flower,[external,factive,narration,background,objective])]
+Love Song For The Dead Che Lyrics.txt_8-37  [flowers,in,the,night]  [provide_expl_just(bring,[external,nonfactive,narration,background,objective]),provide_expl_just(flower,[external,factive,narration,background,objective])]
+Love Song For The Dead Che Lyrics.txt_9-46  [soft,as,fingers,touch,you-love,trembling]  [provide_expl_just(tremble,[external,factive,narration,foreground,objective])]
+Love Song For The Dead Che Lyrics.txt_10-56  [i,can,offer]  [provide_expl_just(offer,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Love Song For The Dead Che Lyrics.txt_10-57  [you,wine,and,candlelight]  [provide_expl_just(offer,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Love Song For The Dead Che Lyrics.txt_11-68  [late,in,the,year]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Love Song For The Dead Che Lyrics.txt_12-80  [late,in,the,year]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Love Song For The Dead Che Lyrics.txt_1-1)-[emotions-affection]
+2-(Love Song For The Dead Che Lyrics.txt_2-3)-[primary-ascend]
+3-(Love Song For The Dead Che Lyrics.txt_3-6)-[primary-taste,primary-taste,primary-orality]
+4-(Love Song For The Dead Che Lyrics.txt_4-10)-[secondary-temporal_repere]
+5-(Love Song For The Dead Che Lyrics.txt_5-15)-[primary-passivity,primary-water]
+6-(Love Song For The Dead Che Lyrics.txt_6-21)-[primary-fire,primary-narcissism]
+7-(Love Song For The Dead Che Lyrics.txt_7-28)-[secondary-temporal_repere]
+half
+8-(Love Song For The Dead Che Lyrics.txt_8-36)-[]
+9-(Love Song For The Dead Che Lyrics.txt_8-37)-[]
+10-(Love Song For The Dead Che Lyrics.txt_9-46)-[primary-soft,primary-touch]
+11-(Love Song For The Dead Che Lyrics.txt_10-56)-[secondary-social_behavior]
+12-(Love Song For The Dead Che Lyrics.txt_10-57)-[secondary-instru_behavior]
+13-(Love Song For The Dead Che Lyrics.txt_11-68)-[secondary-temporal_repere]
+14-(Love Song For The Dead Che Lyrics.txt_12-80)-[secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Love Song For The Dead Che Lyrics.txt_1,1,cl1-nil-nil-be-[ncmod-specif-America-sn4,arg_mod-agent-state-sn3,subj-theme_bound-Lyrics-sn2,subj-theme_bound-Lyrics-sn1,and(state,United,sn3),and(Lyrics,Che,sn2),and(Lyrics,Dead,sn2),and(Lyrics,Song,sn1),def_prop(America,[place,oggetto]),def_prop(state,[any,attivita,informa,istituzione,luogo,stato,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(Lyrics,[informa,tecno])])
+lf(Love Song For The Dead Che Lyrics.txt_2,3,cl2-nil-nil-be-[])
+lf(Love Song For The Dead Che Lyrics.txt_3,6,cl3-nil-nil-be-[ncmod-locativo-mouth-sn3,subj-theme_bound-taste-sn2,subj-theme_bound-taste-sn1,and(taste,i_remember,sn1),def_prop(mouth,[body_part,oggetto,strumento,umano]),def_prop(taste,[astratto,attivita,edible,evento,oggetto]),def_prop(taste,[astratto,attivita,edible,evento,oggetto])])
+lf(Love Song For The Dead Che Lyrics.txt_4,10,cl4-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Love Song For The Dead Che Lyrics.txt_5,15,cl5-nil-nil-be-[cmod-subord-be-",ncmod-locativo-stillness-sn2,subj-theme_bound-rainfall-sn1,def_prop(stillness,[stato]),def_prop(rainfall,[evento])])
+lf(Love Song For The Dead Che Lyrics.txt_6,21,nil-nil-nil-still-[ncmod-locativo-arm-sn3,subj-theme-warmth-sn2,subj-theme-warmth-sn1,and(warmth,i_remember,sn1),def_prop(arm,[astratto,body_part,oggetto,strumento,umano]),def_prop(warmth,[astratto]),def_prop(warmth,[astratto])])
+lf(Love Song For The Dead Che Lyrics.txt_7,28,cl6-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Love Song For The Dead Che Lyrics.txt_8,36,cl8-nil-nil-flower-[adj-temporal-night-nil,adj-subj_disc-night-sn4,subj-actor-you-sn3,ncmod-goal-you-sn2,def_prop(night,[tempo]),def_prop(night,[tempo]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Love Song For The Dead Che Lyrics.txt_8,36,cl7-nil-will-bring-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Love Song For The Dead Che Lyrics.txt_9,46,cl9-nil-nil-tremble-[])
+lf(Love Song For The Dead Che Lyrics.txt_10,56,cl11-nil-nil-be-[coord-prop-wine_and_candlelight-sn5,xcomp-prop-candlelight-sn4,xcomp-prop-wine-sn3,subj-theme_bound-you-sn2,def_prop(wine_and_candlelight,[astratto,edible,oggetto,attivita,cambia]),def_prop(candlelight,[astratto,edible,oggetto,attivita,cambia]),def_prop(wine,[astratto,edible,oggetto,attivita,cambia]),def_prop(you,[umano])])
+lf(Love Song For The Dead Che Lyrics.txt_10,56,cl10-nil-can-offer-[subj-source-you-sn1,def_prop(you,[umano])])
+lf(Love Song For The Dead Che Lyrics.txt_11,68,cl12-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Love Song For The Dead Che Lyrics.txt_12,80,cl13-nil-nil-be-[subj-theme_bound-pro-nil])

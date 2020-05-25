@@ -1,0 +1,82 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Adanoi Lyrics.txt_1-1  []-positive  []
+Adanoi Lyrics.txt_2-3  []-suspension  []
+Adanoi Lyrics.txt_3-7  []-positive  []
+Adanoi Lyrics.txt_4-11  []-positive  []
+Adanoi Lyrics.txt_4-12  []-negative  [neg]
+Adanoi Lyrics.txt_5-17  []-positive  []
+Adanoi Lyrics.txt_6-24  []-suspension  [neg]
+Adanoi Lyrics.txt_7-31  []-positive  [bkc]
+Adanoi Lyrics.txt_8-39  []-suspension  [neg]
+Adanoi Lyrics.txt_9-48  []-positive  [fgb]
+Adanoi Lyrics.txt_10-59  []-suspension  []
+Adanoi Lyrics.txt_10-60  [so-result]-positive  [fgb]
+Adanoi Lyrics.txt_11-71  []-suspension  []
+Adanoi Lyrics.txt_11-72  []-positive  []
+Adanoi Lyrics.txt_12-85  []-negative  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Adanoi Lyrics.txt_1-1  [adanoi,Lyrics,by,the,Wrens]  [title]
+Adanoi Lyrics.txt_2-3  [you,ought,to,know]  [provide_expl_just(know,[external,factive,explanation,background,objective]),suggest(know,_746276),provide_expl_just(ought,[external,nonfactive,narration,foreground,objective])]
+Adanoi Lyrics.txt_3-7  [that,everyone,is,inside,asleep,a,church]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Adanoi Lyrics.txt_4-11  [it,is,a,social,setting,let]  [provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(erase,[external,factive,explanation,background,objective])]
+Adanoi Lyrics.txt_4-12  [it,erase]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),reject_expl_just(erase,[external,factive,explanation,background,objective]),propose_opin_neg(erase,[external,factive,explanation,background,objective])]
+Adanoi Lyrics.txt_5-17  [stick,it,to,the,skin,take,a,spike]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(stick,[external,factive,narration,background,objective])]
+Adanoi Lyrics.txt_6-24  [here,is,an,eye,hole,through,the,wrists]  [provide_expl_just(wrist,[internal,factive,narration,background,objective])]
+Adanoi Lyrics.txt_7-31  [melech,halom,ba,ray,pre,ha,goffen,adanoi]  [provide_expl_just(ray,[external,factive,narration,background,objective])]
+Adanoi Lyrics.txt_8-39  [all,the,doubts,take,wear,the,ideas]  [provide_expl_just(wear,[external,factive,narration,background,objective])]
+Adanoi Lyrics.txt_9-48  [call,it,a,faith,and,it,is,the,finest,sunken,show,you,are,in]  [provide_expl_just(call,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Adanoi Lyrics.txt_10-59  [i,will,head,the,concept]  [provide_expl_just(head,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Adanoi Lyrics.txt_10-60  [so,kiss,my,behind]  [provide_expl_just(head,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Adanoi Lyrics.txt_11-71  [i,will,take]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(take,[external,nonfactive,narration,background,objective])]
+Adanoi Lyrics.txt_11-72  [you,where,you,want,to,be,my,son,.,you,want,to,be,my,son]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(take,[external,nonfactive,narration,background,objective])]
+Adanoi Lyrics.txt_12-85  [murray,passed,out,five,miles,from,the,border]  [provide_expl_just(pass,[external,factive,cause,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Adanoi Lyrics.txt_1-1)-[]
+2-(Adanoi Lyrics.txt_2-3)-[secondary-moral_imperative,secondary-abstract_tought]
+3-(Adanoi Lyrics.txt_3-7)-[primary-concreteness,primary-counscious]
+4-(Adanoi Lyrics.txt_4-11)-[secondary-social_behavior]
+5-(Adanoi Lyrics.txt_4-12)-[]
+6-(Adanoi Lyrics.txt_5-17)-[primary-narcissism]
+7-(Adanoi Lyrics.txt_6-24)-[primary-concreteness,primary-narcissism,primary-depth,primary-narcissism]
+half
+8-(Adanoi Lyrics.txt_7-31)-[primary-vision,primary-vision]
+9-(Adanoi Lyrics.txt_8-39)-[emotions-aggression,secondary-abstract_tought]
+10-(Adanoi Lyrics.txt_9-48)-[secondary-social_behavior,primary-descent]
+11-(Adanoi Lyrics.txt_10-59)-[primary-narcissism,secondary-abstract_tought]
+12-(Adanoi Lyrics.txt_10-60)-[primary-sex,primary-concreteness]
+13-(Adanoi Lyrics.txt_11-71)-[]
+14-(Adanoi Lyrics.txt_11-72)-[primary-concreteness]
+15-(Adanoi Lyrics.txt_12-85)-[primary-concreteness,primary-brink]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Adanoi Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wrens-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,adanoi,sn1),def_prop(Wrens,[istituzione]),def_prop(Lyrics,[informa,tecno])])
+lf(Adanoi Lyrics.txt_2,3,cl3-nil-nil-know-[subj-tema_nonaff-you-sn1,def_prop(you,[umano])])
+lf(Adanoi Lyrics.txt_2,3,cl2-nil-ought-ought-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Adanoi Lyrics.txt_3,7,cl4-nil-nil-be-[xcomp-prop-inside-sn2,subj-theme_bound-everyone-sn1,def_prop(inside,[luogo]),def_prop(everyone,[umano])])
+lf(Adanoi Lyrics.txt_4,11,cl6-nil-nil-erase-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Adanoi Lyrics.txt_4,11,cl5-nil-nil-be-[xcomp-prop-let-sn2,subj-theme_bound-it-sn1,and(let,social,sn2),and(let,setting,sn2),def_prop(let,[attivita]),def_prop(it,[any])])
+lf(Adanoi Lyrics.txt_5,17,cl8-nil-nil-take-[obj-prop-spike-sn4,xcomp-purpose-take-4,obj2-goal-skin-sn3,def_prop(spike,[evento,oggetto,plant,strumento]),def_prop(skin,[body_part,oggetto,sostanza,stato,strumento,umano])])
+lf(Adanoi Lyrics.txt_5,17,cl7-nil-nil-stick-[subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Adanoi Lyrics.txt_6,24,cl9-nil-nil-be-[ncmod-relation-wrist-sn3,xcomp-theme_aff-hole-sn2,xcomp-prop-eye-sn1,def_prop(wrist,[body_part,umano]),def_prop(hole,[astratto,oggetto,stato,strumento]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(Adanoi Lyrics.txt_7,31,cl10-nil-nil-ray-[obj-theme-ha-sn3,obj-theme-pre-sn2,subj-agent-ba-sn1,and(ba,melech,sn1),and(ba,halom,sn1),def_prop(ha,[astratto]),def_prop(pre,[informa,tecno]),def_prop(ba,[informa,tecno])])
+lf(Adanoi Lyrics.txt_8,39,cl11-nil-nil-wear-[obj-theme_unaff-idea-sn2,subj-experiencer-take-sn1,and(take,doubt,sn1),and(take,all,sn1),def_prop(idea,[astratto]),def_prop(take,[attivita])])
+lf(Adanoi Lyrics.txt_9,48,cl13-nil-nil-be-[subj-theme_bound-you-sn7,xcomp-prop-show-sn6,subj-theme_bound-it-sn5,and(show,finest,sn6),and(show,sunken,sn6),def_prop(you,[umano]),def_prop(show,[attivita,informa]),def_prop(it,[any])])
+lf(Adanoi Lyrics.txt_9,48,cl12-nil-nil-call-[obj-theme_bound-faith-sn3,subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(faith,[astratto,attivita]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Adanoi Lyrics.txt_10,59,cl15-nil-nil-be-[xcomp-prop-my-sn4,subj-theme_bound-kiss-sn3,def_prop(my,[informa,tecno]),def_prop(kiss,[attivita,edible,oggetto])])
+lf(Adanoi Lyrics.txt_10,59,cl14-nil-will-head-[obj-theme_unaff-concept-sn2,subj-actor-i-sn1,def_prop(concept,[astratto]),def_prop(i,[umano])])
+lf(Adanoi Lyrics.txt_11,71,cl18-nil-nil-be-[])
+lf(Adanoi Lyrics.txt_11,71,cl17-nil-nil-want-[obj-result-son-sn5,xcomp-prop-be-2,obj-theme-you-sn4,f2-sn2-where-sn3,subj-actor-you-sn2,def_prop(son,[umano]),def_prop(you,[umano]),def_prop(where,[luogo]),def_prop(you,[umano])])
+lf(Adanoi Lyrics.txt_11,71,cl16-nil-will-take-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Adanoi Lyrics.txt_12,85,cl19-nil-nil-pass-[iobj-goal-border-sn3,ncmod-modal-mile-sn2,subj-theme_unaff-murray-sn1,and(mile,five,sn2),def_prop(border,[oggetto,strumento]),def_prop(mile,[evento,nquant]),def_prop(murray,[istituzione,umano])])

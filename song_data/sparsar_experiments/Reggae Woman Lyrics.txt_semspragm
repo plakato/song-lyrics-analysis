@@ -1,0 +1,202 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Reggae Woman Lyrics.txt_1-1  []-positive  []
+Reggae Woman Lyrics.txt_2-3  []-negative  [bkc,neg]
+Reggae Woman Lyrics.txt_3-6  []-positive  [bkc,bkc,bkc,bkc,bkc]
+Reggae Woman Lyrics.txt_4-10  [so-result]-negative  [fgb,neg]
+Reggae Woman Lyrics.txt_5-16  []-positive  []
+Reggae Woman Lyrics.txt_5-17  [so-result]-suspension  [fgb,neg,fgb,neg]
+Reggae Woman Lyrics.txt_6-23  []-suspension  []
+Reggae Woman Lyrics.txt_7-31  []-negative  [neg,fgb]
+Reggae Woman Lyrics.txt_8-40  [if-hypoth]-positive  [fgb]
+Reggae Woman Lyrics.txt_9-50  [if-hypoth]-positive  [fgb]
+Reggae Woman Lyrics.txt_10-61  [else-advers]-negative  [fhd,neg]
+Reggae Woman Lyrics.txt_11-73  []-positive  [fgb]
+Reggae Woman Lyrics.txt_12-85  []-positive  [bkc,bkc,bkc,bkc,bkc]
+Reggae Woman Lyrics.txt_13-98  []-positive  [bkc,bkc,bkc,bkc,bkc]
+Reggae Woman Lyrics.txt_14-112  []-positive  [fgb]
+Reggae Woman Lyrics.txt_15-128  []-suspension  []
+Reggae Woman Lyrics.txt_15-129  []-negative  [neg]
+Reggae Woman Lyrics.txt_15-130  []-negative  [neg]
+Reggae Woman Lyrics.txt_16-146  [so-result]-negative  [bkc,fgb,neg]
+Reggae Woman Lyrics.txt_17-164  []-suspension  [fgb]
+Reggae Woman Lyrics.txt_18-184  [if-hypoth]-positive  [fgb]
+Reggae Woman Lyrics.txt_19-204  [if-hypoth]-positive  [fgb]
+Reggae Woman Lyrics.txt_20-225  [else-advers]-negative  [fhd,neg]
+Reggae Woman Lyrics.txt_21-247  []-positive  [fgb]
+Reggae Woman Lyrics.txt_22-269  []-positive  []
+Reggae Woman Lyrics.txt_23-292  []-negative  [bkc,neg]
+Reggae Woman Lyrics.txt_24-316  []-positive  [bkc,bkc,bkc,bkc,bkc]
+Reggae Woman Lyrics.txt_25-341  [so-result]-negative  [fgb,neg]
+Reggae Woman Lyrics.txt_26-368  []-positive  []
+Reggae Woman Lyrics.txt_26-369  [so-result]-suspension  [fgb,neg,fgb,neg]
+Reggae Woman Lyrics.txt_27-396  [so-result]-negative  [bkc,fgb,neg]
+Reggae Woman Lyrics.txt_28-425  []-suspension  [fgb]
+Reggae Woman Lyrics.txt_29-456  [if-hypoth]-positive  [fgb]
+Reggae Woman Lyrics.txt_30-487  [if-hypoth]-positive  [fgb]
+Reggae Woman Lyrics.txt_31-519  [else-advers]-negative  [fhd,neg]
+Reggae Woman Lyrics.txt_32-552  []-positive  [fgb]
+Reggae Woman Lyrics.txt_33-585  [if-hypoth]-positive  [bkc,fgb]
+Reggae Woman Lyrics.txt_34-620  [if-hypoth]-positive  [fgb]
+Reggae Woman Lyrics.txt_35-656  [else-advers]-negative  [fhd,neg]
+Reggae Woman Lyrics.txt_36-693  []-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Reggae Woman Lyrics.txt_1-1  [reggae,Woman,Lyrics,by,Xazz]  [title]
+Reggae Woman Lyrics.txt_2-3  [la,la,la,oh,lie]  [reject_expl_just(lie,[external,factive,explanation,background,objective]),propose_opin_neg(lie,[external,factive,explanation,background,objective])]
+Reggae Woman Lyrics.txt_3-6  [oh,yeah,yeah,yeah,yeah]  [accept_expl_opin(be,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Reggae Woman Lyrics.txt_4-10  [reggae,woman,,,why,you,making,me,so,sad]  [reject_expl_just(make,[external,factive,cause,foreground,objective])]
+Reggae Woman Lyrics.txt_5-16  [all,i,need,is]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Reggae Woman Lyrics.txt_5-17  [you,to,be,here,and,this,life,will,not,be,so,bad]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Reggae Woman Lyrics.txt_6-23  [reggae,woman,,,why,you,bring,me,down,with,you]  [provide_expl_just(bring,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Reggae Woman Lyrics.txt_7-31  [put,aside,your,negative,thoughts,and,this,life,will,start,anew]  [reject_expl_just(put,[external,factive,narration,foreground,objective]),reject_expl_just(start,[external,nonfactive,inception,background,objective]),provide_expl_just(start,[external,nonfactive,inception,background,objective])]
+Reggae Woman Lyrics.txt_8-40  [sing,if,you,wanna,sing]  [proposal(be,[_584380,_584386,statement,foreground,_584404])]
+Reggae Woman Lyrics.txt_9-50  [dance,if,you,wanna,dance]  [proposal(be,[_584730,_584736,statement,foreground,_584754])]
+Reggae Woman Lyrics.txt_10-61  [live,your,life,like,you,have,got,nothing,else,to,do]  [reject_expl_just(do,[external,factive,narration,foreground,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
+Reggae Woman Lyrics.txt_11-73  [and,this,world,is,in,your,hands]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Reggae Woman Lyrics.txt_12-85  [oh,yeah,yeah,yeah,yeah]  [accept_expl_opin(be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Reggae Woman Lyrics.txt_13-98  [oh,yeah,yeah,yeah,yeah]  [accept_expl_opin(be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Reggae Woman Lyrics.txt_14-112  [reggae,woman,,,what,you,doing,with,your,life]  [provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Reggae Woman Lyrics.txt_15-128  [come,with,me,we,will,be,together]  [provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(cause,[external,nonfactive,narration,background,objective])]
+Reggae Woman Lyrics.txt_15-129  [,,i,will,not,cause]  [reject_expl_just(be,[external,nonfactive,narration,background,objective]),reject_expl_just(cause,[external,nonfactive,narration,background,objective])]
+Reggae Woman Lyrics.txt_15-130  [you,any,strife]  [reject_expl_just(be,[external,nonfactive,narration,background,objective]),reject_expl_just(cause,[external,nonfactive,narration,background,objective])]
+Reggae Woman Lyrics.txt_16-146  [oh,reggae,woman,why,you,making,me,so,mad]  [reject_expl_just(make,[external,factive,cause,foreground,objective])]
+Reggae Woman Lyrics.txt_17-164  [come,with,me,and,we,will,be,happy,,,the,best,life,you,have,ever,had]  [provide_expl_just(come,[external,factive,result,background,objective]),provide_expl_just(have,[external,factive,circumstance,foreground,objective])]
+Reggae Woman Lyrics.txt_18-184  [sing,if,you,wanna,sing]  [proposal(be,[_591068,_591074,statement,foreground,_591092])]
+Reggae Woman Lyrics.txt_19-204  [dance,if,you,wanna,dance]  [proposal(be,[_591418,_591424,statement,foreground,_591442])]
+Reggae Woman Lyrics.txt_20-225  [live,your,life,like,you,have,got,nothing,else,to,do]  [reject_expl_just(do,[external,factive,narration,foreground,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
+Reggae Woman Lyrics.txt_21-247  [and,this,world,is,in,your,hands]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Reggae Woman Lyrics.txt_22-269  [instrumental]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Reggae Woman Lyrics.txt_23-292  [la,la,la,oh,lie]  [reject_expl_just(lie,[external,factive,narration,background,objective])]
+Reggae Woman Lyrics.txt_24-316  [oh,yeah,yeah,yeah,yeah]  [accept_expl_opin(be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Reggae Woman Lyrics.txt_25-341  [reggae,woman,,,why,you,making,me,so,sad]  [reject_expl_just(make,[external,factive,cause,foreground,objective])]
+Reggae Woman Lyrics.txt_26-368  [all,i,need,is]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Reggae Woman Lyrics.txt_26-369  [you,to,be,here,and,this,life,will,not,be,so,bad]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Reggae Woman Lyrics.txt_27-396  [oh,reggae,woman,why,you,making,me,so,mad]  [reject_expl_just(make,[external,factive,cause,foreground,objective])]
+Reggae Woman Lyrics.txt_28-425  [come,with,me,and,we,will,be,happy,,,the,best,life,you,have,ever,had]  [provide_expl_just(come,[external,factive,result,background,objective]),provide_expl_just(have,[external,factive,circumstance,foreground,objective])]
+Reggae Woman Lyrics.txt_29-456  [sing,if,you,wanna,sing]  [proposal(be,[_597336,_597342,statement,foreground,_597360])]
+Reggae Woman Lyrics.txt_30-487  [dance,if,you,wanna,dance]  [proposal(be,[_597686,_597692,statement,foreground,_597710])]
+Reggae Woman Lyrics.txt_31-519  [live,your,life,like,you,have,got,nothing,else,to,do]  [reject_expl_just(do,[external,factive,narration,foreground,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
+Reggae Woman Lyrics.txt_32-552  [and,this,world,is,in,your,hands]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Reggae Woman Lyrics.txt_33-585  [oh,,,sing,if,you,wanna,sing]  [accept_expl_opin(be,[_599082,_599088,setting,_599100,_599106])]
+Reggae Woman Lyrics.txt_34-620  [dance,if,you,wanna,dance]  [proposal(be,[_599432,_599438,statement,foreground,_599456])]
+Reggae Woman Lyrics.txt_35-656  [live,your,life,like,you,have,got,nothing,else,to,do]  [reject_expl_just(do,[external,factive,narration,foreground,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
+Reggae Woman Lyrics.txt_36-693  [and,this,world,is,in,your,hands]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Reggae Woman Lyrics.txt_1-1)-[]
+2-(Reggae Woman Lyrics.txt_2-3)-[primary-passivity]
+3-(Reggae Woman Lyrics.txt_3-6)-[]
+4-(Reggae Woman Lyrics.txt_4-10)-[secondary-abstract_tought,emotions-sadness]
+5-(Reggae Woman Lyrics.txt_5-16)-[]
+6-(Reggae Woman Lyrics.txt_5-17)-[primary-concreteness]
+7-(Reggae Woman Lyrics.txt_6-23)-[secondary-abstract_tought]
+8-(Reggae Woman Lyrics.txt_7-31)-[primary-concreteness,secondary-abstract_tought,primary-vision]
+9-(Reggae Woman Lyrics.txt_8-40)-[emotions-expressive_beh,emotions-expressive_beh]
+10-(Reggae Woman Lyrics.txt_9-50)-[emotions-expressive_beh,emotions-expressive_beh]
+11-(Reggae Woman Lyrics.txt_10-61)-[emotions-affection]
+12-(Reggae Woman Lyrics.txt_11-73)-[primary-narcissism]
+13-(Reggae Woman Lyrics.txt_12-85)-[]
+14-(Reggae Woman Lyrics.txt_13-98)-[]
+15-(Reggae Woman Lyrics.txt_14-112)-[]
+16-(Reggae Woman Lyrics.txt_15-128)-[]
+17-(Reggae Woman Lyrics.txt_15-129)-[secondary-abstract_tought]
+18-(Reggae Woman Lyrics.txt_15-130)-[emotions-aggression]
+19-(Reggae Woman Lyrics.txt_16-146)-[secondary-abstract_tought,primary-counscious]
+20-(Reggae Woman Lyrics.txt_17-164)-[emotions-positive_affect,secondary-temporal_repere]
+half
+21-(Reggae Woman Lyrics.txt_18-184)-[emotions-expressive_beh,emotions-expressive_beh]
+22-(Reggae Woman Lyrics.txt_19-204)-[emotions-expressive_beh,emotions-expressive_beh]
+23-(Reggae Woman Lyrics.txt_20-225)-[emotions-affection]
+24-(Reggae Woman Lyrics.txt_21-247)-[primary-narcissism]
+25-(Reggae Woman Lyrics.txt_22-269)-[]
+26-(Reggae Woman Lyrics.txt_23-292)-[primary-passivity]
+27-(Reggae Woman Lyrics.txt_24-316)-[]
+28-(Reggae Woman Lyrics.txt_25-341)-[secondary-abstract_tought,emotions-sadness]
+29-(Reggae Woman Lyrics.txt_26-368)-[]
+30-(Reggae Woman Lyrics.txt_26-369)-[primary-concreteness]
+31-(Reggae Woman Lyrics.txt_27-396)-[secondary-abstract_tought,primary-counscious]
+32-(Reggae Woman Lyrics.txt_28-425)-[emotions-positive_affect,secondary-temporal_repere]
+33-(Reggae Woman Lyrics.txt_29-456)-[emotions-expressive_beh,emotions-expressive_beh]
+34-(Reggae Woman Lyrics.txt_30-487)-[emotions-expressive_beh,emotions-expressive_beh]
+35-(Reggae Woman Lyrics.txt_31-519)-[emotions-affection]
+36-(Reggae Woman Lyrics.txt_32-552)-[primary-narcissism]
+37-(Reggae Woman Lyrics.txt_33-585)-[emotions-expressive_beh,emotions-expressive_beh]
+38-(Reggae Woman Lyrics.txt_34-620)-[emotions-expressive_beh,emotions-expressive_beh]
+39-(Reggae Woman Lyrics.txt_35-656)-[emotions-affection]
+40-(Reggae Woman Lyrics.txt_36-693)-[primary-narcissism]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Reggae Woman Lyrics.txt_1,1,nil-nil-nil-Woman-[arg_mod-agent-Xazz-sn3,obj-theme_aff-Lyrics-sn2,subj-agent-reggae-sn1,def_prop(Xazz,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(reggae,[attivita,informa])])
+lf(Reggae Woman Lyrics.txt_2,3,cl1-nil-nil-lie-[ncmod-modal-la-sn2,subj-actor-you-sn1,and(la,la,sn2),def_prop(la,[attivita,informa]),def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_3,6,cl2-nil-nil-be-[subj-theme_bound-oh-sn1,def_prop(oh,[informa,tecno])])
+lf(Reggae Woman Lyrics.txt_4,10,cl4-nil-nil-be-[subj-theme_bound-woman-sn1,and(woman,reggae,sn1),def_prop(woman,[any])])
+lf(Reggae Woman Lyrics.txt_4,10,cl3-nil-nil-make-[])
+lf(Reggae Woman Lyrics.txt_5,16,cl6-not-will-be-[cmod-coord-need-and,subj-theme_bound-life-sn6,adj-subj_disc-here-sn5,subj-theme_bound-you-sn4,subj-prop-i-sn2,and(life,this,sn6),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(here,[istituzione]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Reggae Woman Lyrics.txt_5,16,cl5-nil-nil-need-[subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,all,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Reggae Woman Lyrics.txt_6,23,cl8-nil-nil-be-[subj-theme_bound-woman-sn1,and(woman,reggae,sn1),def_prop(woman,[any])])
+lf(Reggae Woman Lyrics.txt_6,23,cl7-nil-nil-bring-[ncmod-comitativo-you-sn5,def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_7,31,cl10-nil-will-start-[cmod-coord-start-and,adj-locative-anew-nil,subj-agent-pro-nil,subj-agent-life-sn6,and(life,this,sn6),def_prop(anew,[istituzione]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Reggae Woman Lyrics.txt_7,31,cl9-nil-nil-put-[adj-(mod)-aside-nil,obj-goal-thought-sn2,subj-agent-you-sn1,and(thought,negative,sn2),def_prop(thought,[astratto]),def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_8,40,nil-nil-nil-wanna-[cmod-subord-sing-if,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_8,40,cl11-nil-nil-sing-[subj-actor-you-sn1,subj-agent-pro-nil,def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_9,50,nil-nil-nil-wanna-[cmod-subord-dance-if,subj-agent-dance-sn4,obj-theme_aff-dance-sn3,subj-agent-you-sn2,def_prop(dance,[attivita,evento,informa,istituzione]),def_prop(dance,[attivita,evento,informa,istituzione]),def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_9,50,cl12-nil-nil-dance-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_10,61,cl14-nil-nil-do-[adj-(mod)-get-nil,aux-do-nil,subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_10,61,cl13-nil-nil-get-[adj-(mod)-else-nil,obj-theme_unaff-nothing-sn3,subj-agent-you-sn2,subj-agent-you-sn1,aux-have-nil,and(you,life,sn1),and(you,live,sn1),def_prop(nothing,[astratto,informa,oggetto]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_11,73,cl15-nil-nil-be-[cmod-subord-be-",ncmod-locativo-hand-sn2,subj-theme_bound-world-sn1,and(world,this,sn1),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(world,[astratto,istituzione,oggetto])])
+lf(Reggae Woman Lyrics.txt_12,85,cl16-nil-nil-be-[subj-theme_bound-oh-sn1,def_prop(oh,[informa,tecno])])
+lf(Reggae Woman Lyrics.txt_13,98,cl17-nil-nil-be-[subj-theme_bound-oh-sn1,def_prop(oh,[informa,tecno])])
+lf(Reggae Woman Lyrics.txt_14,112,cl19-nil-nil-be-[subj-theme_bound-woman-sn1,and(woman,reggae,sn1),def_prop(woman,[any])])
+lf(Reggae Woman Lyrics.txt_14,112,cl18-nil-nil-do-[ncmod-comitativo-life-sn3,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Reggae Woman Lyrics.txt_15,128,_-nil-nil-come-[iobj-goal-me-sn2,def_prop(me,[umano])])
+lf(Reggae Woman Lyrics.txt_15,128,cl22-not-will-cause-[subj-causer-you-sn4,def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_15,128,cl21-nil-will-be-[xcomp-prop-strife-sn6,subj-theme_bound-you-sn5,xcomp-prop-together-sn3,xmod-prop-come-2,subj-theme_bound-we-sn1,and(strife,any,sn6),def_prop(strife,[attivita]),def_prop(you,[umano]),def_prop(together,[evaluative]),def_prop(we,[umano])])
+lf(Reggae Woman Lyrics.txt_15,128,cl20-nil-nil-come-[iobj-goal-me-sn2,def_prop(me,[umano])])
+lf(Reggae Woman Lyrics.txt_16,146,cl24-nil-nil-be-[subj-theme_bound-woman-sn2,subj-theme_bound-woman-sn1,and(woman,reggae,sn2),and(woman,reggae,sn1),def_prop(woman,[any]),def_prop(woman,[any])])
+lf(Reggae Woman Lyrics.txt_16,146,cl23-nil-nil-make-[])
+lf(Reggae Woman Lyrics.txt_17,164,cl27-nil-nil-have-[cmod-coord-have-and,ncmod-comitativo-me-sn2,adj-(mod)-ever-nil,def_prop(me,[umano])])
+lf(Reggae Woman Lyrics.txt_17,164,cl26-nil-will-be-[xcomp-prop-happy-sn5,subj-theme_bound-we-sn4,def_prop(happy,[emotivo]),def_prop(we,[umano])])
+lf(Reggae Woman Lyrics.txt_17,164,cl25-nil-nil-come-[obj-theme-life-sn3,subj-agent-you-sn1,and(life,best,sn3),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_18,184,nil-nil-nil-wanna-[cmod-subord-sing-if,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_18,184,cl28-nil-nil-sing-[subj-actor-you-sn1,subj-agent-pro-nil,def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_19,204,nil-nil-nil-wanna-[cmod-subord-dance-if,subj-agent-dance-sn4,obj-theme_aff-dance-sn3,subj-agent-you-sn2,def_prop(dance,[attivita,evento,informa,istituzione]),def_prop(dance,[attivita,evento,informa,istituzione]),def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_19,204,cl29-nil-nil-dance-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_20,225,cl31-nil-nil-do-[adj-(mod)-get-nil,aux-do-nil,subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_20,225,cl30-nil-nil-get-[adj-(mod)-else-nil,obj-theme_unaff-nothing-sn3,subj-agent-you-sn2,subj-agent-you-sn1,aux-have-nil,and(you,life,sn1),and(you,live,sn1),def_prop(nothing,[astratto,informa,oggetto]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_21,247,cl32-nil-nil-be-[cmod-subord-be-",ncmod-locativo-hand-sn2,subj-theme_bound-world-sn1,and(world,this,sn1),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(world,[astratto,istituzione,oggetto])])
+lf(Reggae Woman Lyrics.txt_22,269,cl33-nil-nil-say-[])
+lf(Reggae Woman Lyrics.txt_23,292,cl34-nil-nil-lie-[ncmod-modal-la-sn2,subj-actor-you-sn1,and(la,la,sn2),def_prop(la,[attivita,informa]),def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_24,316,cl35-nil-nil-be-[subj-theme_bound-oh-sn1,def_prop(oh,[informa,tecno])])
+lf(Reggae Woman Lyrics.txt_25,341,cl37-nil-nil-be-[subj-theme_bound-woman-sn1,and(woman,reggae,sn1),def_prop(woman,[any])])
+lf(Reggae Woman Lyrics.txt_25,341,cl36-nil-nil-make-[])
+lf(Reggae Woman Lyrics.txt_26,368,cl39-not-will-be-[cmod-coord-need-and,subj-theme_bound-life-sn6,adj-subj_disc-here-sn5,subj-theme_bound-you-sn4,subj-prop-i-sn2,and(life,this,sn6),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(here,[istituzione]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Reggae Woman Lyrics.txt_26,368,cl38-nil-nil-need-[subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,all,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Reggae Woman Lyrics.txt_27,396,cl41-nil-nil-be-[subj-theme_bound-woman-sn2,subj-theme_bound-woman-sn1,and(woman,reggae,sn2),and(woman,reggae,sn1),def_prop(woman,[any]),def_prop(woman,[any])])
+lf(Reggae Woman Lyrics.txt_27,396,cl40-nil-nil-make-[])
+lf(Reggae Woman Lyrics.txt_28,425,cl44-nil-nil-have-[cmod-coord-have-and,ncmod-comitativo-me-sn2,adj-(mod)-ever-nil,def_prop(me,[umano])])
+lf(Reggae Woman Lyrics.txt_28,425,cl43-nil-will-be-[xcomp-prop-happy-sn5,subj-theme_bound-we-sn4,def_prop(happy,[emotivo]),def_prop(we,[umano])])
+lf(Reggae Woman Lyrics.txt_28,425,cl42-nil-nil-come-[obj-theme-life-sn3,subj-agent-you-sn1,and(life,best,sn3),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_29,456,nil-nil-nil-wanna-[cmod-subord-sing-if,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_29,456,cl45-nil-nil-sing-[subj-actor-you-sn1,subj-agent-pro-nil,def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_30,487,nil-nil-nil-wanna-[cmod-subord-dance-if,subj-agent-dance-sn4,obj-theme_aff-dance-sn3,subj-agent-you-sn2,def_prop(dance,[attivita,evento,informa,istituzione]),def_prop(dance,[attivita,evento,informa,istituzione]),def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_30,487,cl46-nil-nil-dance-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_31,519,cl48-nil-nil-do-[adj-(mod)-get-nil,aux-do-nil,subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_31,519,cl47-nil-nil-get-[adj-(mod)-else-nil,obj-theme_unaff-nothing-sn3,subj-agent-you-sn2,subj-agent-you-sn1,aux-have-nil,and(you,life,sn1),and(you,live,sn1),def_prop(nothing,[astratto,informa,oggetto]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_32,552,cl49-nil-nil-be-[cmod-subord-be-",ncmod-locativo-hand-sn2,subj-theme_bound-world-sn1,and(world,this,sn1),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(world,[astratto,istituzione,oggetto])])
+lf(Reggae Woman Lyrics.txt_33,585,nil-nil-nil-wanna-[cmod-subord-sing-if,subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_33,585,cl50-nil-nil-sing-[subj-actor-you-sn2,subj-agent-oh-sn1,def_prop(you,[umano]),def_prop(oh,[informa,tecno])])
+lf(Reggae Woman Lyrics.txt_34,620,nil-nil-nil-wanna-[cmod-subord-dance-if,subj-agent-dance-sn4,obj-theme_aff-dance-sn3,subj-agent-you-sn2,def_prop(dance,[attivita,evento,informa,istituzione]),def_prop(dance,[attivita,evento,informa,istituzione]),def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_34,620,cl51-nil-nil-dance-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_35,656,cl53-nil-nil-do-[adj-(mod)-get-nil,aux-do-nil,subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_35,656,cl52-nil-nil-get-[adj-(mod)-else-nil,obj-theme_unaff-nothing-sn3,subj-agent-you-sn2,subj-agent-you-sn1,aux-have-nil,and(you,life,sn1),and(you,live,sn1),def_prop(nothing,[astratto,informa,oggetto]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Reggae Woman Lyrics.txt_36,693,cl54-nil-nil-be-[cmod-subord-be-",ncmod-locativo-hand-sn2,subj-theme_bound-world-sn1,and(world,this,sn1),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(world,[astratto,istituzione,oggetto])])

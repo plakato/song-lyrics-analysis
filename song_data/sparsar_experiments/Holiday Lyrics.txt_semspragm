@@ -1,0 +1,292 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Holiday Lyrics.txt_1-1  []-positive  []
+Holiday Lyrics.txt_2-3  []-negative  [neg]
+Holiday Lyrics.txt_2-4  []-positive  []
+Holiday Lyrics.txt_3-7  []-negative  [neg]
+Holiday Lyrics.txt_3-8  [but-advers]-positive  [fgb,fgb]
+Holiday Lyrics.txt_4-13  []-positive  []
+Holiday Lyrics.txt_4-14  [when-temp_coinc]-positive  []
+Holiday Lyrics.txt_5-19  []-positive  []
+Holiday Lyrics.txt_5-20  []-positive  [fgb]
+Holiday Lyrics.txt_5-21  []-negative  [neg]
+Holiday Lyrics.txt_6-26  []-negative  [neg,fhd]
+Holiday Lyrics.txt_6-27  []-positive  []
+Holiday Lyrics.txt_7-34  []-positive  []
+Holiday Lyrics.txt_8-42  []-positive  [fgb]
+Holiday Lyrics.txt_9-51  []-question  [neg]
+Holiday Lyrics.txt_10-61  []-positive  [fhd]
+Holiday Lyrics.txt_11-73  []-negative  [neg]
+Holiday Lyrics.txt_12-85  []-suspension  [neg]
+Holiday Lyrics.txt_12-86  []-positive  []
+Holiday Lyrics.txt_13-99  [since-cause]-positive  []
+Holiday Lyrics.txt_14-115  [so-result]-positive  [fgb,neg]
+Holiday Lyrics.txt_14-116  []-positive  [neg]
+Holiday Lyrics.txt_15-130  [but-advers]-suspension  [fgb,neg,neg]
+Holiday Lyrics.txt_16-146  []-question  []
+Holiday Lyrics.txt_16-146  []-question  []
+Holiday Lyrics.txt_16-147  [so-result]-suspension  [fgb]
+Holiday Lyrics.txt_16-147  [so-result]-negative  [fgb,neg]
+Holiday Lyrics.txt_17-163  []-positive  []
+Holiday Lyrics.txt_17-164  [(as)-temp_coinc]-positive  []
+Holiday Lyrics.txt_17-165  [(as)-temp_coinc]-positive  []
+Holiday Lyrics.txt_18-183  []-positive  []
+Holiday Lyrics.txt_19-202  []-negative  [neg]
+Holiday Lyrics.txt_19-203  [when-temp_coinc]-positive  []
+Holiday Lyrics.txt_20-224  []-negative  [neg]
+Holiday Lyrics.txt_20-225  [so-result]-suspension  [fgb]
+Holiday Lyrics.txt_21-246  []-positive  [bkc]
+Holiday Lyrics.txt_22-268  []-question  [neg]
+Holiday Lyrics.txt_23-291  []-positive  [fhd]
+Holiday Lyrics.txt_24-316  []-negative  [neg]
+Holiday Lyrics.txt_25-341  []-suspension  [neg]
+Holiday Lyrics.txt_25-342  []-positive  []
+Holiday Lyrics.txt_26-368  [since-cause]-positive  []
+Holiday Lyrics.txt_27-397  [so-result]-positive  [fgb]
+Holiday Lyrics.txt_28-425  []-negative  [neg,fhd]
+Holiday Lyrics.txt_29-454  []-positive  [fgb]
+Holiday Lyrics.txt_29-455  []-positive  []
+Holiday Lyrics.txt_29-456  []-positive  []
+Holiday Lyrics.txt_30-486  []-question  []
+Holiday Lyrics.txt_31-517  []-positive  []
+Holiday Lyrics.txt_31-518  []-negative  [neg]
+Holiday Lyrics.txt_32-550  []-question  []
+Holiday Lyrics.txt_33-583  []-positive  []
+Holiday Lyrics.txt_33-584  []-negative  [neg]
+Holiday Lyrics.txt_34-619  []-question  [neg]
+Holiday Lyrics.txt_35-654  []-negative  [fhd,neg,neg]
+Holiday Lyrics.txt_36-691  []-negative  [neg]
+Holiday Lyrics.txt_36-692  []-positive  []
+Holiday Lyrics.txt_37-730  [since-cause]-positive  []
+Holiday Lyrics.txt_38-770  []-positive  [neg]
+Holiday Lyrics.txt_39-809  []-suspension  [neg,neg]
+Holiday Lyrics.txt_39-810  []-positive  [fgb]
+Holiday Lyrics.txt_39-811  []-positive  []
+Holiday Lyrics.txt_40-851  []-positive  []
+Holiday Lyrics.txt_41-894  [so-result]-positive  [fgb,neg]
+Holiday Lyrics.txt_41-895  []-positive  [neg]
+Holiday Lyrics.txt_42-936  [but-advers]-suspension  [fgb,neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Holiday Lyrics.txt_1-1  [holiday,Lyrics,by,Swimming,with,Dolphins]  [title]
+Holiday Lyrics.txt_2-3  [i,was,not,looking]  [reject_expl_just(look,[external,factive,narration,background,objective]),reject_expl_just(do,[external,factive,narration,foreground,objective])]
+Holiday Lyrics.txt_2-4  [for,things,to,do]  [provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Holiday Lyrics.txt_3-7  [i,was,not,looking]  [reject_expl_just(find,[external,factive,narration,foreground,objective]),reject_expl_just(look,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_3-8  [for,something,new,but,that,is,what,i,found,you,.,i,found,you]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_4-13  [that,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_4-14  [when,i,found,you]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_5-19  [you,took,my,hand]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(slow,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_5-20  [and,we,took]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(slow,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_5-21  [it,slow]  [reject_expl_just(take,[external,factive,narration,foreground,objective]),reject_expl_just(slow,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_6-26  [we,fell,together,like]  [reject_expl_just(fall,[external,factive,cause,foreground,objective])]
+Holiday Lyrics.txt_6-27  [flakes,of,snow,on,a,blanket,down,below]  [provide_expl_just(fall,[external,factive,cause,foreground,objective])]
+Holiday Lyrics.txt_7-34  [on,a,blanket,down,below]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_8-42  [and,you,said]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Holiday Lyrics.txt_9-51  [strange,anything,feel,does,?]  [provide_expl_just(feel,[internal,factive,narration,background,objective])]
+Holiday Lyrics.txt_10-61  [cause,you,are,like,a,perfect,dream,&,amp]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_11-73  [i,am,afraid,to,awake]  [reject_expl_just(be,[_299852,_299858,_299864,_299870,_299876])]
+Holiday Lyrics.txt_12-85  [i,will,lose]  [provide_expl_just(lose,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_12-86  [it,all,somehow]  [provide_expl_just(lose,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_13-99  [cause,every,since,you,came,i,have,been,living,in,a,holiday,a,holiday]  [provide_expl_just(live,[external,factive,narration,foreground,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_14-115  [so,i,dream,a,little]  [provide_expl_just(dream,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_14-116  [more,dream,a,little,more]  [provide_expl_just(dream,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_15-130  [but,i,can,not,shake,this,feeling]  [propose_opin(shake,[external,nonfactive,narration,foreground,objective]),provide_expl_just(shake,[external,nonfactive,narration,foreground,objective])]
+Holiday Lyrics.txt_16-146  [?]  [provide_expl_just(do,[internal,factive,narration,background,objective])]
+Holiday Lyrics.txt_16-146  [?]  [provide_expl_just(do,[internal,factive,narration,background,objective])]
+Holiday Lyrics.txt_16-147  [so,me,why,did,tell,get,you,feet]  [provide_expl_just(do,[internal,factive,narration,background,objective])]
+Holiday Lyrics.txt_16-147  [so,me,why,did,tell,get,you,feet,cold]  [reject_expl_just(do,[internal,factive,narration,background,objective])]
+Holiday Lyrics.txt_17-163  [i,know]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_17-164  [intentions,are,as,good]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_17-165  [even,good,things,just,gold,as,get,old]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_18-183  [even,good,things,just,get,old]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_19-202  [i,never,know]  [reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(act,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_19-203  [when,to,act,real,tough]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(act,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_20-224  [you,never,thought]  [reject_expl_just(think,[external,factive,narration,foreground,objective]),reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+Holiday Lyrics.txt_20-225  [that,i,would,good,enough,so,i,just,kept,giving,up]  [provide_expl_just(think,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Holiday Lyrics.txt_21-246  [yeah,we,are,giving,up,always]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_22-268  [strange,anything,feel,does,?]  [provide_expl_just(feel,[internal,factive,narration,background,objective])]
+Holiday Lyrics.txt_23-291  [cause,you,are,like,a,perfect,dream,&,amp]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_24-316  [i,am,afraid,to,awake]  [reject_expl_just(be,[_344896,_344902,_344908,_344914,_344920])]
+Holiday Lyrics.txt_25-341  [i,will,lose]  [provide_expl_just(lose,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_25-342  [it,all,somehow]  [provide_expl_just(lose,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_26-368  [cause,every,since,you,came,i,have,been,living,in,a,holiday,a,holiday]  [provide_expl_just(live,[external,factive,narration,foreground,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_27-397  [so,i,am,standing,at,your,door]  [proposal(be,[_347574,_347580,statement,foreground,_347598])]
+Holiday Lyrics.txt_28-425  [tears,falling,like,the,rain]  [reject_expl_just(fall,[external,factive,cause,foreground,objective])]
+Holiday Lyrics.txt_29-454  [and,i,am,calling,out,your,name]  [provide_expl_just(call,[external,factive,narration,foreground,objective]),provide_expl_just(hear,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_29-455  [cause,i,know]  [provide_expl_just(call,[external,factive,narration,foreground,objective]),provide_expl_just(hear,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_29-456  [you,hear,me]  [provide_expl_just(call,[external,factive,narration,foreground,objective]),provide_expl_just(hear,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_30-486  [me,you,remember,do,?]  [provide_expl_just(remember,[internal,factive,narration,background,objective])]
+Holiday Lyrics.txt_31-517  [i,am,the,one,you]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,nonfactive,narration,background,objective])]
+Holiday Lyrics.txt_31-518  [could,never,leave]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(leave,[external,nonfactive,narration,background,objective])]
+Holiday Lyrics.txt_32-550  [me,remember,?]  [provide_expl_just(remember,[internal,factive,narration,foreground,objective])]
+Holiday Lyrics.txt_33-583  [i,am,the,one,you,thought]  [provide_expl_just(leave,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,foreground,objective])]
+Holiday Lyrics.txt_33-584  [you,could,never,leave]  [reject_expl_just(leave,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(think,[external,factive,narration,foreground,objective])]
+Holiday Lyrics.txt_34-619  [strange,anything,feel,does,?]  [provide_expl_just(feel,[internal,factive,narration,background,objective])]
+Holiday Lyrics.txt_35-654  [cause,you,are,like,a,perfect,dream,that,i,can,not,seem,to,escape]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(cause,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_36-691  [i,wanna,lost]  [reject_expl_just(wanna,[external,factive,narration,background,objective]),reject_expl_just(lose,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_36-692  [it,all,somehow]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(lose,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_37-730  [cause,every,since,you,came,i,have,been,living,in,a,holiday,a,holiday]  [provide_expl_just(live,[external,factive,narration,foreground,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_38-770  [now,,,every,flame,just,goes,cold]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_39-809  [no_one,that,i,hold,can,all,the,summers,fade]  [provide_expl_just(fade,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_39-810  [and,make,me]  [provide_expl_just(fade,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_39-811  [feel,quite,the,same]  [provide_expl_just(fade,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_40-851  [cause,ever_since,you,came,i,have,been,living,in,a,holiday,a,holiday]  [provide_expl_just(live,[external,factive,narration,foreground,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_41-894  [so,i,dream,a,little]  [provide_expl_just(dream,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_41-895  [more,dream,a,little,more]  [provide_expl_just(dream,[external,factive,narration,background,objective])]
+Holiday Lyrics.txt_42-936  [but,i,can,not,shake,this,feeling]  [propose_opin(shake,[external,nonfactive,narration,foreground,objective]),provide_expl_just(shake,[external,nonfactive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Holiday Lyrics.txt_1-1)-[]
+2-(Holiday Lyrics.txt_2-3)-[]
+3-(Holiday Lyrics.txt_2-4)-[]
+4-(Holiday Lyrics.txt_3-7)-[]
+5-(Holiday Lyrics.txt_3-8)-[secondary-instru_behavior,secondary-instru_behavior]
+6-(Holiday Lyrics.txt_4-13)-[]
+7-(Holiday Lyrics.txt_4-14)-[secondary-temporal_repere,secondary-instru_behavior]
+8-(Holiday Lyrics.txt_5-19)-[primary-narcissism]
+9-(Holiday Lyrics.txt_5-20)-[]
+10-(Holiday Lyrics.txt_5-21)-[primary-passivity]
+11-(Holiday Lyrics.txt_6-26)-[primary-descent,emotions-affection]
+12-(Holiday Lyrics.txt_6-27)-[primary-cold,primary-depth]
+13-(Holiday Lyrics.txt_7-34)-[primary-depth]
+14-(Holiday Lyrics.txt_8-42)-[secondary-social_behavior]
+15-(Holiday Lyrics.txt_9-51)-[primary-unknow]
+16-(Holiday Lyrics.txt_10-61)-[secondary-abstract_tought,emotions-affection,primary-counscious]
+17-(Holiday Lyrics.txt_11-73)-[emotions-anxiety,primary-counscious]
+18-(Holiday Lyrics.txt_12-85)-[]
+19-(Holiday Lyrics.txt_12-86)-[]
+20-(Holiday Lyrics.txt_13-99)-[secondary-abstract_tought,secondary-temporal_repere]
+21-(Holiday Lyrics.txt_14-115)-[primary-counscious]
+22-(Holiday Lyrics.txt_14-116)-[primary-counscious]
+23-(Holiday Lyrics.txt_15-130)-[primary-random_movement]
+24-(Holiday Lyrics.txt_16-146)-[]
+25-(Holiday Lyrics.txt_16-146)-[]
+26-(Holiday Lyrics.txt_16-147)-[secondary-abstract_tought,secondary-social_behavior,primary-narcissism]
+27-(Holiday Lyrics.txt_16-147)-[secondary-abstract_tought,secondary-social_behavior,primary-narcissism,primary-cold]
+28-(Holiday Lyrics.txt_17-163)-[secondary-abstract_tought]
+29-(Holiday Lyrics.txt_17-164)-[]
+30-(Holiday Lyrics.txt_17-165)-[emotions-glory,secondary-temporal_repere]
+31-(Holiday Lyrics.txt_18-183)-[secondary-temporal_repere]
+32-(Holiday Lyrics.txt_19-202)-[secondary-abstract_tought]
+33-(Holiday Lyrics.txt_19-203)-[secondary-temporal_repere,secondary-abstract_tought]
+half
+34-(Holiday Lyrics.txt_20-224)-[secondary-abstract_tought]
+35-(Holiday Lyrics.txt_20-225)-[]
+36-(Holiday Lyrics.txt_21-246)-[]
+37-(Holiday Lyrics.txt_22-268)-[primary-unknow]
+38-(Holiday Lyrics.txt_23-291)-[secondary-abstract_tought,emotions-affection,primary-counscious]
+39-(Holiday Lyrics.txt_24-316)-[emotions-anxiety,primary-counscious]
+40-(Holiday Lyrics.txt_25-341)-[]
+41-(Holiday Lyrics.txt_25-342)-[]
+42-(Holiday Lyrics.txt_26-368)-[secondary-abstract_tought,secondary-temporal_repere]
+43-(Holiday Lyrics.txt_27-397)-[primary-concreteness,primary-brink]
+44-(Holiday Lyrics.txt_28-425)-[primary-orality,emotions-affection,primary-water]
+45-(Holiday Lyrics.txt_29-454)-[primary-concreteness]
+46-(Holiday Lyrics.txt_29-455)-[secondary-abstract_tought,secondary-abstract_tought]
+47-(Holiday Lyrics.txt_29-456)-[primary-sound]
+48-(Holiday Lyrics.txt_30-486)-[]
+49-(Holiday Lyrics.txt_31-517)-[]
+50-(Holiday Lyrics.txt_31-518)-[]
+51-(Holiday Lyrics.txt_32-550)-[]
+52-(Holiday Lyrics.txt_33-583)-[secondary-abstract_tought]
+53-(Holiday Lyrics.txt_33-584)-[]
+54-(Holiday Lyrics.txt_34-619)-[primary-unknow]
+55-(Holiday Lyrics.txt_35-654)-[secondary-abstract_tought,emotions-affection,primary-counscious,primary-vision]
+56-(Holiday Lyrics.txt_36-691)-[]
+57-(Holiday Lyrics.txt_36-692)-[]
+58-(Holiday Lyrics.txt_37-730)-[secondary-abstract_tought,secondary-temporal_repere]
+59-(Holiday Lyrics.txt_38-770)-[secondary-temporal_repere,secondary-temporal_repere,primary-fire,primary-cold]
+60-(Holiday Lyrics.txt_39-809)-[primary-diffusion]
+61-(Holiday Lyrics.txt_39-810)-[secondary-instru_behavior]
+62-(Holiday Lyrics.txt_39-811)-[]
+63-(Holiday Lyrics.txt_40-851)-[secondary-abstract_tought]
+64-(Holiday Lyrics.txt_41-894)-[primary-counscious]
+65-(Holiday Lyrics.txt_41-895)-[primary-counscious]
+66-(Holiday Lyrics.txt_42-936)-[primary-random_movement]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Holiday Lyrics.txt_1,1,cl1-nil-nil-be-[adj-temporal-holiday-nil,ncmod-comitativo-Dolphin-sn3,arg_mod-agent-Swimming-sn2,subj-theme_bound-Lyrics-sn1,def_prop(Dolphin,[place,umano]),def_prop(Swimming,[attivita,informa]),def_prop(Lyrics,[informa,tecno])])
+lf(Holiday Lyrics.txt_2,3,cl3-nil-nil-do-[subj-theme_unaff-you-sn2,aux-do-nil,def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_2,3,cl2-not-nil-look-[subj-agent-you-sn1,aux-was-nil,progr-looking-nil,def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_3,7,cl6-nil-nil-find-[obj-theme-you-sn6,obj-theme_bound-i-sn5,subj-actor-new-sn2,and(new,something,sn2),def_prop(you,[umano]),def_prop(i,[umano]),def_prop(new,[istituzione])])
+lf(Holiday Lyrics.txt_3,7,cl5-nil-nil-be-[cmod-subord-find-but,subj-theme_bound-you-sn8,def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_3,7,cl4-not-nil-look-[subj-agent-you-sn1,aux-was-nil,progr-looking-nil,def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_4,13,cl8-nil-nil-find-[subj-actor-you-sn3,subj-actor-you-sn2,and(you,i,sn2),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_4,13,cl7-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_5,19,cl10-nil-nil-slow-[subj-agent-you-sn6,cmod-subord-slow-",def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_5,19,cl9-nil-nil-take-[subj-agent-you-sn5,obj-theme_aff-hand-sn2,subj-agent-you-sn1,def_prop(you,[umano]),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_6,26,cl12-nil-nil-flake-[xcomp-prop-below-sn6,iobj-goal-blanket-sn5,ncmod-specif-snow-sn4,subj-actor-you-sn3,and(below,down,sn6),def_prop(below,[istituzione]),def_prop(blanket,[oggetto,strumento]),def_prop(snow,[attivita,cambia,sostanza]),def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_6,26,cl11-nil-nil-fall-[xcomp-prop-together-sn2,subj-agent-we-sn1,def_prop(together,[evaluative]),def_prop(we,[umano])])
+lf(Holiday Lyrics.txt_7,34,cl13-nil-nil-be-[ncmod-locativo-blanket-sn2,subj-theme_bound-below-sn1,and(below,down,sn1),def_prop(blanket,[oggetto,strumento]),def_prop(below,[istituzione])])
+lf(Holiday Lyrics.txt_8,42,cl14-nil-nil-say-[cmod-subord-say-",subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_9,51,cl15-nil-nil-feel-[xcomp-tema_emot-strange-sn2,subj-experiencer-anything-sn1,aux-does-nil,def_prop(strange,[valutativo]),def_prop(anything,[astratto,informa,oggetto])])
+lf(Holiday Lyrics.txt_10,61,cl17-nil-nil-be-[xcomp-prop-dream-sn3,xcomp-purpose-be-2,def_prop(dream,[astratto,stato])])
+lf(Holiday Lyrics.txt_10,61,cl16-nil-nil-cause-[subj-causer-you-sn2,subj-causer-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_11,73,cl18-nil-nil-be-[ncmod-modal-awake-sn3,xcomp-prop-afraid-sn2,subj-theme_bound-i-sn1,def_prop(awake,[evaluative]),def_prop(afraid,[valutativo]),def_prop(i,[umano])])
+lf(Holiday Lyrics.txt_12,85,cl20-nil-nil-be-[xcomp-prop-somehow-sn3,subj-theme_bound-it-sn2,and(somehow,all,sn3),def_prop(somehow,[istituzione]),def_prop(it,[any])])
+lf(Holiday Lyrics.txt_12,85,cl19-nil-will-lose-[subj-theme_aff-you-sn1,def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_13,99,cl23-nil-nil-live-[xadj-theme-holiday-sn8,savv-result-holiday-sn4,xcomp-prop-live-5,aux-been-nil,aux-have-nil,def_prop(holiday,[tempo]),def_prop(holiday,[tempo])])
+lf(Holiday Lyrics.txt_13,99,cl22-nil-nil-come-[subj-agent-you-sn10,subj-agent-you-sn9,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_13,99,cl21-nil-nil-cause-[adj-locative-holiday-nil,obj-theme-holiday-sn5,subj-sn1-i-sn3,obj-tema_eff-female-sn2,subj-causer-you-sn1,def_prop(holiday,[tempo]),def_prop(holiday,[tempo]),def_prop(i,[umano]),def_prop(female,[animato,umano]),def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_14,115,cl24-nil-nil-dream-[obj-theme-more-sn4,subj-agent-more-sn3,obj-theme-little-sn2,subj-agent-i-sn1,and(more,little,sn4),def_prop(more,[astratto,informa,oggetto]),def_prop(more,[astratto,informa,oggetto]),def_prop(little,[astratto,informa,oggetto]),def_prop(i,[umano])])
+lf(Holiday Lyrics.txt_15,130,cl25-not-can-shake-[obj-patient-feel-sn2,subj-agent-i-sn1,and(feel,this,sn2),def_prop(feel,[astratto,attivita]),def_prop(i,[umano])])
+lf(Holiday Lyrics.txt_16,146,cl27-nil-nil-do-[cmod-subord-do-so,subj-theme_unaff-me-sn10,aux-did-nil,subj-theme_unaff-me-sn4,def_prop(me,_402534),def_prop(me,_402546)])
+lf(Holiday Lyrics.txt_16,146,cl26-nil-nil-get-[subj-agent-cold-sn8,subj-agent-cold-sn7,subj-agent-you-sn6,subj-agent-you-sn2,subj-agent-you-sn1,and(cold,you,sn7),and(you,me,sn6),and(you,me,sn1),def_prop(cold,[valutativo]),def_prop(cold,[valutativo]),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_17,163,cl30-nil-nil-get-[xcomp-prop-old-sn5,subj-theme_bound-gold-sn4,and(gold,thing,sn4),and(gold,good,sn4),def_prop(old,[estens]),def_prop(gold,[astratto,oggetto,sostanza])])
+lf(Holiday Lyrics.txt_17,163,cl29-nil-nil-be-[xcomp-prop-good-sn3,subj-theme_bound-intention-sn2,def_prop(good,[valutativo]),def_prop(intention,[astratto,attivita])])
+lf(Holiday Lyrics.txt_17,163,cl28-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_18,183,cl31-nil-nil-get-[xcomp-prop-old-sn2,subj-theme_bound-just-sn1,and(just,good,sn1),and(just,thing,sn1),def_prop(old,[estens]),def_prop(just,[informa,tecno])])
+lf(Holiday Lyrics.txt_19,202,cl34-nil-nil-be-[cmod-subord-be-when,subj-theme_bound-real-sn4,def_prop(real,[astratto,oggetto])])
+lf(Holiday Lyrics.txt_19,202,cl33-nil-nil-act-[])
+lf(Holiday Lyrics.txt_19,202,cl32-nil-nil-know-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Holiday Lyrics.txt_20,224,cl36-nil-would-will-[obj2-recipient-up-sn7,obj-theme-i-sn6,obj-theme_aff-enough-sn5,subj-agent-i-sn4,and(up,kept,sn7),and(up,giving,sn7),and(enough,good,sn5),def_prop(up,[istituzione]),def_prop(i,[umano]),def_prop(enough,[astratto,informa,oggetto]),def_prop(i,[umano])])
+lf(Holiday Lyrics.txt_20,224,cl35-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_21,246,cl37-nil-nil-be-[xcomp-prop-up-sn2,subj-theme_bound-we-sn1,and(up,giving,sn2),def_prop(up,[istituzione]),def_prop(we,[umano])])
+lf(Holiday Lyrics.txt_22,268,cl38-nil-nil-feel-[xcomp-tema_emot-strange-sn2,subj-experiencer-anything-sn1,aux-does-nil,def_prop(strange,[valutativo]),def_prop(anything,[astratto,informa,oggetto])])
+lf(Holiday Lyrics.txt_23,291,cl40-nil-nil-be-[xcomp-prop-dream-sn3,xcomp-purpose-be-2,def_prop(dream,[astratto,stato])])
+lf(Holiday Lyrics.txt_23,291,cl39-nil-nil-cause-[subj-causer-you-sn2,subj-causer-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_24,316,cl41-nil-nil-be-[ncmod-modal-awake-sn3,xcomp-prop-afraid-sn2,subj-theme_bound-i-sn1,def_prop(awake,[evaluative]),def_prop(afraid,[valutativo]),def_prop(i,[umano])])
+lf(Holiday Lyrics.txt_25,341,cl43-nil-nil-be-[xcomp-prop-somehow-sn3,subj-theme_bound-it-sn2,and(somehow,all,sn3),def_prop(somehow,[istituzione]),def_prop(it,[any])])
+lf(Holiday Lyrics.txt_25,341,cl42-nil-will-lose-[subj-theme_aff-you-sn1,def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_26,368,cl46-nil-nil-live-[xadj-theme-holiday-sn8,savv-result-holiday-sn4,xcomp-prop-live-5,aux-been-nil,aux-have-nil,def_prop(holiday,[tempo]),def_prop(holiday,[tempo])])
+lf(Holiday Lyrics.txt_26,368,cl45-nil-nil-come-[subj-agent-you-sn10,subj-agent-you-sn9,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_26,368,cl44-nil-nil-cause-[adj-locative-holiday-nil,obj-theme-holiday-sn5,subj-sn1-i-sn3,obj-tema_eff-female-sn2,subj-causer-you-sn1,def_prop(holiday,[tempo]),def_prop(holiday,[tempo]),def_prop(i,[umano]),def_prop(female,[animato,umano]),def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_27,397,cl47-nil-nil-stand-[iobj-locative-door-sn2,subj-experiencer-i-sn1,aux-am-nil,progr-standing-nil,def_prop(door,[astratto,oggetto,strumento]),def_prop(i,[umano])])
+lf(Holiday Lyrics.txt_28,425,cl48-nil-nil-fall-[obj-theme_aff-rain-sn2,subj-agent-tear-sn1,def_prop(rain,[astratto,attivita,cambia,sostanza]),def_prop(tear,[attivita,body_part,umano])])
+lf(Holiday Lyrics.txt_29,454,cl51-nil-nil-hear-[obj-theme_unaff-me-sn9,subj-experiencer-you-sn8,cmod-subord-hear-",ncmod-locativo-name-sn2,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(name,[attivita,informa,stato,umano])])
+lf(Holiday Lyrics.txt_29,454,cl50-nil-nil-know-[subj-actor-i-sn6,subj-actor-i-sn5,and(i,cause,sn5),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Holiday Lyrics.txt_29,454,cl49-nil-nil-call-[subj-agent-i-sn1,aux-am-nil,progr-calling-nil,def_prop(i,[umano])])
+lf(Holiday Lyrics.txt_30,486,cl52-nil-nil-remember-[obj-theme_unaff-me-sn2,subj-experiencer-you-sn1,aux-do-nil,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_31,517,cl54-nil-could-leave-[subj-theme-you-sn4,neg-never-nil,def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_31,517,cl53-nil-nil-be-[xcomp-prop-you-sn2,subj-theme_bound-i-sn1,and(you,one,sn2),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Holiday Lyrics.txt_32,550,cl55-nil-nil-remember-[subj-experiencer-me-sn1,def_prop(me,[umano])])
+lf(Holiday Lyrics.txt_33,583,cl58-nil-could-leave-[subj-theme-you-sn4,neg-never-nil,def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_33,583,cl57-nil-nil-think-[adj-(mod)-leave-nil,subj-prop-you-sn2,and(you,one,sn2),def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_33,583,cl56-nil-nil-be-[xcomp-prop-you-sn2,subj-theme_bound-i-sn1,and(you,one,sn2),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Holiday Lyrics.txt_34,619,cl59-nil-nil-feel-[xcomp-tema_emot-strange-sn2,subj-experiencer-anything-sn1,aux-does-nil,def_prop(strange,[valutativo]),def_prop(anything,[astratto,informa,oggetto])])
+lf(Holiday Lyrics.txt_35,654,cl61-nil-nil-be-[xcomp-prop-dream-sn3,xcomp-purpose-be-2,and(dream,that,sn3),def_prop(dream,[astratto,stato])])
+lf(Holiday Lyrics.txt_35,654,cl60-nil-nil-cause-[subj-causer-you-sn2,subj-causer-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_36,691,cl63-nil-nil-be-[xcomp-prop-somehow-sn3,subj-theme_bound-it-sn2,and(somehow,all,sn3),def_prop(somehow,[istituzione]),def_prop(it,[any])])
+lf(Holiday Lyrics.txt_36,691,cl62-nil-nil-lose-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Holiday Lyrics.txt_36,691,nil-nil-nil-wanna-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Holiday Lyrics.txt_37,730,cl66-nil-nil-live-[xadj-theme-holiday-sn8,savv-result-holiday-sn4,xcomp-prop-live-5,aux-been-nil,aux-have-nil,def_prop(holiday,[tempo]),def_prop(holiday,[tempo])])
+lf(Holiday Lyrics.txt_37,730,cl65-nil-nil-come-[subj-agent-you-sn10,subj-agent-you-sn9,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_37,730,cl64-nil-nil-cause-[adj-locative-holiday-nil,obj-theme-holiday-sn5,subj-sn1-i-sn3,obj-tema_eff-female-sn2,subj-causer-you-sn1,def_prop(holiday,[tempo]),def_prop(holiday,[tempo]),def_prop(i,[umano]),def_prop(female,[animato,umano]),def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_38,770,cl67-nil-nil-go-[adj-(mod)-just-nil,adj-(mod)-now-nil,xcomp-prop-cold-sn2,subj-agent-flame-sn1,and(flame,every,sn1),def_prop(cold,[valutativo]),def_prop(flame,[attivita])])
+lf(Holiday Lyrics.txt_39,809,cl70-nil-nil-feel-[subj-experiencer-same-sn9,subj-experiencer-same-sn8,and(same,you,sn8),def_prop(same,[deittico]),def_prop(same,[deittico])])
+lf(Holiday Lyrics.txt_39,809,cl69-nil-nil-make-[cmod-subord-feel-",obj-goal-me-sn7,subj-agent-you-sn6,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_39,809,cl68-nil-nil-fade-[subj-experiencer-female-sn2,subj-experiencer-female-sn1,and(female,all,sn2),and(female,all,sn1),def_prop(female,[tempo]),def_prop(female,[tempo])])
+lf(Holiday Lyrics.txt_40,851,cl73-nil-nil-live-[adj-temporal-holiday-nil,subj-actor-holiday-sn9,xadj-theme-holiday-sn8,subj-actor-i-sn5,aux-been-nil,aux-have-nil,def_prop(holiday,[tempo]),def_prop(holiday,[tempo]),def_prop(holiday,[tempo]),def_prop(i,[umano])])
+lf(Holiday Lyrics.txt_40,851,cl72-nil-nil-come-[subj-prop-you-sn2,def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_40,851,cl71-nil-nil-cause-[adj-locative-ever_since-nil,subj-causer-you-sn2,subj-causer-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Holiday Lyrics.txt_41,894,cl74-nil-nil-dream-[obj-theme-more-sn4,subj-agent-more-sn3,obj-theme-little-sn2,subj-agent-i-sn1,and(more,little,sn4),def_prop(more,[astratto,informa,oggetto]),def_prop(more,[astratto,informa,oggetto]),def_prop(little,[astratto,informa,oggetto]),def_prop(i,[umano])])
+lf(Holiday Lyrics.txt_42,936,cl75-not-can-shake-[obj-patient-feel-sn2,subj-agent-i-sn1,and(feel,this,sn2),def_prop(feel,[astratto,attivita]),def_prop(i,[umano])])

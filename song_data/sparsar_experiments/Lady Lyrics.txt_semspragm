@@ -1,0 +1,241 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Lady Lyrics.txt_1-1  []-positive  []
+Lady Lyrics.txt_2-3  [when-temp_coinc]-positive  []
+Lady Lyrics.txt_3-6  []-positive  []
+Lady Lyrics.txt_4-10  []-positive  []
+Lady Lyrics.txt_4-11  []-positive  []
+Lady Lyrics.txt_5-16  []-negative  [fgb,neg]
+Lady Lyrics.txt_5-16  []-negative  [fgb,neg]
+Lady Lyrics.txt_6-22  [while-temp_coinc]-positive  [fgb]
+Lady Lyrics.txt_7-29  []-negative  [neg]
+Lady Lyrics.txt_7-30  []-negative  [neg]
+Lady Lyrics.txt_8-39  []-negative  [fgb,neg]
+Lady Lyrics.txt_9-48  []-positive  []
+Lady Lyrics.txt_10-58  []-positive  []
+Lady Lyrics.txt_11-69  []-positive  []
+Lady Lyrics.txt_12-81  []-positive  [fgb]
+Lady Lyrics.txt_13-94  []-positive  []
+Lady Lyrics.txt_14-108  []-positive  []
+Lady Lyrics.txt_15-123  []-positive  [fgb,ack]
+Lady Lyrics.txt_16-139  []-positive  [neg]
+Lady Lyrics.txt_17-156  []-positive  []
+Lady Lyrics.txt_17-157  []-positive  []
+Lady Lyrics.txt_18-175  []-negative  [neg,neg]
+Lady Lyrics.txt_19-194  []-positive  [fgb]
+Lady Lyrics.txt_20-214  []-positive  []
+Lady Lyrics.txt_20-215  []-acceptance  [fgb,neg,ack]
+Lady Lyrics.txt_20-215  []-acceptance  [fgb,neg,ack,fgb]
+Lady Lyrics.txt_21-235  []-positive  []
+Lady Lyrics.txt_22-257  []-positive  [fgb]
+Lady Lyrics.txt_23-280  []-positive  [fgb]
+Lady Lyrics.txt_23-280  []-positive  [fgb]
+Lady Lyrics.txt_24-305  []-suspension  []
+Lady Lyrics.txt_24-306  []-positive  []
+Lady Lyrics.txt_25-331  []-positive  [fgb]
+Lady Lyrics.txt_26-357  []-positive  []
+Lady Lyrics.txt_27-384  []-positive  []
+Lady Lyrics.txt_28-412  []-positive  []
+Lady Lyrics.txt_29-441  []-positive  [fgb]
+Lady Lyrics.txt_29-441  []-positive  [fgb]
+Lady Lyrics.txt_31-503  []-positive  []
+Lady Lyrics.txt_32-535  []-negative  [fgb,neg,neg]
+Lady Lyrics.txt_32-536  []-positive  []
+Lady Lyrics.txt_33-569  []-positive  [fgb]
+Lady Lyrics.txt_34-603  []-positive  []
+Lady Lyrics.txt_35-640  [but-advers]-negative  [fgb,neg]
+Lady Lyrics.txt_36-676  [so-result]-negative  [fgb,neg]
+Lady Lyrics.txt_37-713  []-suspension  [fgb,neg,neg]
+Lady Lyrics.txt_38-752  [though-advers]-positive  []
+Lady Lyrics.txt_39-791  []-positive  [fhd]
+Lady Lyrics.txt_40-831  []-negative  [neg]
+Lady Lyrics.txt_41-872  []-positive  []
+Lady Lyrics.txt_42-915  []-negative  [neg]
+Lady Lyrics.txt_43-958  []-negative  [fgb,neg,neg]
+Lady Lyrics.txt_44-1002  []-positive  [neg]
+Lady Lyrics.txt_45-1047  []-positive  []
+Lady Lyrics.txt_46-1093  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Lady Lyrics.txt_1-1  [lady,Lyrics,by,two,Gallants]  [title]
+Lady Lyrics.txt_2-3  [once,when,i,was,daily,growing]  [provide_expl_just(be,[external,factive,circumstance,foreground,objective])]
+Lady Lyrics.txt_3-6  [dressed,in,red,from_head_to_toe]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_4-10  [you,were,all,the,thoughts]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_4-11  [i,was,knowing]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_5-16  [and,the,sun,gave,shine,no,care]  [reject_expl_just(be,[_793936,_793942,_793948,_793954,_793960])]
+Lady Lyrics.txt_5-16  [and,the,sun,gave,shine,no,care,the,season]  [reject_expl_just(be,[_794158,_794164,_794170,_794176,_794182])]
+Lady Lyrics.txt_6-22  [while,i,learned,my,two,one,three-s,and]  [provide_expl_just(learn,[external,factive,narration,foreground,objective])]
+Lady Lyrics.txt_7-29  [you,fell,in,to,teach,me]  [reject_expl_just(teach,[external,factive,narration,background,objective]),reject_expl_just(fall,[external,factive,cause,foreground,objective])]
+Lady Lyrics.txt_7-30  [treason]  [reject_expl_just(teach,[external,factive,narration,background,objective]),reject_expl_just(fall,[external,factive,cause,foreground,objective])]
+Lady Lyrics.txt_8-39  [and,now,i,spend,my,busy]  [reject_expl_just(spend,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_9-48  [jumping,on,the,monkey,show]  [provide_expl_just(jump,[external,factive,narration,foreground,objective])]
+Lady Lyrics.txt_10-58  [jumping,on,the,monkey,show]  [raise_issue(be,[_796440,factive,statement,_796458,subjective])]
+Lady Lyrics.txt_11-69  [a,i,face,searching,for,know]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_12-81  [and,i,just,walk,for,hours]  [provide_expl_just(walk,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_13-94  [down,the,red-brick,march,of,Market,Street]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_14-108  [of,Market,Street]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_15-123  [she,Lady,and,is,all_right,with,me]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_16-139  [done,borrowed,all,my,empathy]  [provide_expl_just(borrow,[external,factive,cause,foreground,objective])]
+Lady Lyrics.txt_17-156  [now,you,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Lady Lyrics.txt_17-157  [she,got,the,best,of,me]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Lady Lyrics.txt_18-175  [cause,she,is,not,lying,next,to,me]  [reject_expl_just(lie,[external,factive,cause,foreground,objective])]
+Lady Lyrics.txt_19-194  [and,all,things,fine,,,sweet,day,beginning]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_20-214  [i,got,up]  [provide_expl_just(fall,[external,factive,cause,foreground,objective])]
+Lady Lyrics.txt_20-215  [and,fell,right]  [provide_expl_just(fall,[external,factive,cause,foreground,objective])]
+Lady Lyrics.txt_20-215  [and,fell,right,in,and]  [provide_expl_just(fall,[external,factive,cause,foreground,objective])]
+Lady Lyrics.txt_21-235  [climbed,up_to,where,you,was,living]  [provide_expl_just(climb,[external,factive,narration,foreground,objective])]
+Lady Lyrics.txt_22-257  [and,you,stood,in,the,backdoor,yawning]  [proposal(be,[_815440,_815446,statement,foreground,_815464])]
+Lady Lyrics.txt_23-280  [and,i,caught]  [provide_expl_just(ease,[external,factive,circumstance,background,objective])]
+Lady Lyrics.txt_23-280  [and,i,caught,where,you,ease,me,on,.,you,ease,me,on]  [provide_expl_just(ease,[external,factive,circumstance,background,objective])]
+Lady Lyrics.txt_24-305  [you,are,the,reason]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(wake,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_24-306  [i,each,morning,wake]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(wake,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_25-331  [and,sunshine,plays,the,puddles]  [provide_expl_just(play,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_26-357  [through,the,mornings,evenings,afternoons]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_27-384  [evenings,,,afternoons]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_28-412  [i,count,my,thoughts,with,coffee-spoons]  [provide_expl_just(count,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_29-441  [and,something,reeks,of,Heaven]  [provide_expl_just(reek,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_29-441  [and,something,reeks,of,Heaven,']  [provide_expl_just(reek,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_31-503  [where,the,hobos,sleep]  [provide_expl_just(sleep,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_32-535  [and,laugh,about,the,pains]  [reject_expl_just(laugh,[external,factive,narration,background,objective]),reject_expl_just(keep,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_32-536  [i,keep]  [provide_expl_just(laugh,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_33-569  [she,Lady,and,is,a,friend,of,mine]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_34-603  [cause,i,know,how,to,take,my,time]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_35-640  [but,i,can,not,say,that,without,lyin-]  [reject_expl_just(say,[external,nonfactive,narration,foreground,objective])]
+Lady Lyrics.txt_36-676  [so,i,will,try,not,to,try,next,time]  [reject_expl_just(try,[external,nonfactive,narration,background,objective])]
+Lady Lyrics.txt_37-713  [and,i,got,no_one,to,bear,my,burden]  [provide_expl_just(bear,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_38-752  [though,i,could,pay,with,sips,of,wine]  [provide_expl_just(pay,[external,nonfactive,narration,background,objective])]
+Lady Lyrics.txt_39-791  [all,men,like,me,just,tuck,their,shirts,in]  [provide_expl_just(tuck,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_40-831  [too,busy,runnin,out_of]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_41-872  [do,my,best,to,do_without,still]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Lady Lyrics.txt_42-915  [too,busy,runnin,out_of,time]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_43-958  [i,Lady,well,can,not,take,no,rest]  [reject_expl_just(take,[external,nonfactive,narration,foreground,objective])]
+Lady Lyrics.txt_44-1002  [with,all,this,weight,across,my,chest]  [provide_expl_just(weight,[external,factive,narration,background,objective])]
+Lady Lyrics.txt_45-1047  [yesterday,i,loved,the,best]  [provide_expl_just(love,[external,factive,narration,foreground,objective])]
+Lady Lyrics.txt_46-1093  [done,borrowed,too_much,happiness]  [provide_expl_just(borrow,[external,factive,cause,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Lady Lyrics.txt_1-1)-[]
+2-(Lady Lyrics.txt_2-3)-[secondary-temporal_repere,secondary-temporal_repere,secondary-temporal_repere]
+3-(Lady Lyrics.txt_3-6)-[]
+4-(Lady Lyrics.txt_4-10)-[secondary-abstract_tought]
+5-(Lady Lyrics.txt_4-11)-[]
+6-(Lady Lyrics.txt_5-16)-[primary-fire,primary-vision]
+7-(Lady Lyrics.txt_5-16)-[primary-fire,primary-vision,secondary-temporal_repere]
+8-(Lady Lyrics.txt_6-22)-[secondary-temporal_repere,secondary-abstract_tought]
+9-(Lady Lyrics.txt_7-29)-[primary-descent,secondary-social_behavior]
+10-(Lady Lyrics.txt_7-30)-[]
+11-(Lady Lyrics.txt_8-39)-[secondary-temporal_repere,secondary-instru_behavior]
+12-(Lady Lyrics.txt_9-48)-[]
+13-(Lady Lyrics.txt_10-58)-[]
+14-(Lady Lyrics.txt_11-69)-[primary-narcissism,secondary-abstract_tought]
+15-(Lady Lyrics.txt_12-81)-[secondary-temporal_repere]
+16-(Lady Lyrics.txt_13-94)-[]
+17-(Lady Lyrics.txt_14-108)-[]
+18-(Lady Lyrics.txt_15-123)-[]
+19-(Lady Lyrics.txt_16-139)-[secondary-social_behavior]
+20-(Lady Lyrics.txt_17-156)-[secondary-temporal_repere,secondary-abstract_tought]
+21-(Lady Lyrics.txt_17-157)-[]
+22-(Lady Lyrics.txt_18-175)-[secondary-abstract_tought]
+23-(Lady Lyrics.txt_19-194)-[primary-taste]
+24-(Lady Lyrics.txt_20-214)-[]
+25-(Lady Lyrics.txt_20-215)-[primary-descent,secondary-moral_imperative]
+26-(Lady Lyrics.txt_20-215)-[primary-descent,secondary-moral_imperative]
+27-(Lady Lyrics.txt_21-235)-[primary-ascend,primary-concreteness]
+half
+28-(Lady Lyrics.txt_22-257)-[]
+29-(Lady Lyrics.txt_23-280)-[secondary-restraint]
+30-(Lady Lyrics.txt_23-280)-[secondary-restraint,primary-concreteness,primary-passivity,primary-passivity]
+31-(Lady Lyrics.txt_24-305)-[secondary-abstract_tought]
+32-(Lady Lyrics.txt_24-306)-[primary-counscious]
+33-(Lady Lyrics.txt_25-331)-[primary-vision,emotions-expressive_beh]
+34-(Lady Lyrics.txt_26-357)-[]
+35-(Lady Lyrics.txt_27-384)-[]
+36-(Lady Lyrics.txt_28-412)-[secondary-instru_behavior,secondary-abstract_tought]
+37-(Lady Lyrics.txt_29-441)-[primary-anality]
+38-(Lady Lyrics.txt_29-441)-[primary-anality]
+39-(Lady Lyrics.txt_31-503)-[primary-concreteness,primary-counscious]
+40-(Lady Lyrics.txt_32-535)-[emotions-positive_affect,emotions-sadness]
+41-(Lady Lyrics.txt_32-536)-[]
+42-(Lady Lyrics.txt_33-569)-[emotions-affection]
+43-(Lady Lyrics.txt_34-603)-[secondary-abstract_tought,secondary-abstract_tought,secondary-temporal_repere]
+44-(Lady Lyrics.txt_35-640)-[secondary-social_behavior]
+45-(Lady Lyrics.txt_36-676)-[secondary-instru_behavior,secondary-instru_behavior,secondary-temporal_repere]
+46-(Lady Lyrics.txt_37-713)-[secondary-instru_behavior]
+47-(Lady Lyrics.txt_38-752)-[secondary-instru_behavior,secondary-instru_behavior]
+48-(Lady Lyrics.txt_39-791)-[emotions-affection]
+49-(Lady Lyrics.txt_40-831)-[]
+50-(Lady Lyrics.txt_41-872)-[]
+51-(Lady Lyrics.txt_42-915)-[secondary-temporal_repere]
+52-(Lady Lyrics.txt_43-958)-[primary-passivity]
+53-(Lady Lyrics.txt_44-1002)-[secondary-abstract_tought,primary-concreteness,primary-narcissism]
+54-(Lady Lyrics.txt_45-1047)-[secondary-temporal_repere,emotions-affection]
+55-(Lady Lyrics.txt_46-1093)-[secondary-social_behavior,emotions-positive_affect]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Lady Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Gallants-sn2,subj-theme_bound-Lyrics-sn1,and(Gallants,two,sn2),and(Lyrics,lady,sn1),def_prop(Gallants,[istituzione]),def_prop(Lyrics,[informa,tecno])])
+lf(Lady Lyrics.txt_2,3,cl2-nil-nil-be-[cmod-subord-be-when,xcomp-prop-daily-sn4,subj-theme_bound-i-sn3,def_prop(daily,[attivita,informa]),def_prop(i,[umano])])
+lf(Lady Lyrics.txt_3,6,cl3-nil-nil-be-[xadj-adj-dressed-adj1,ncmod-locativo-from_head_to_toe-sn1,and(from_head_to_toe,red,sn1),def_prop(dressed,_833392),def_prop(from_head_to_toe,[animato,astratto,attivita,body_part,cambia,evento,informa,istituzione,luogo,misura,nquant,oggetto,plant,relat,sociale,stato,strumento,umano])])
+lf(Lady Lyrics.txt_4,10,cl5-nil-nil-know-[subj-actor-you-sn4,aux-was-nil,progr-knowing-nil,def_prop(you,[umano])])
+lf(Lady Lyrics.txt_4,10,cl4-nil-nil-be-[xcomp-prop-thought-sn2,subj-theme_bound-you-sn1,and(thought,all,sn2),def_prop(thought,[astratto]),def_prop(you,[umano])])
+lf(Lady Lyrics.txt_5,16,cl6-nil-nil-give-[cmod-coord-give-and,adj-temporal-season-nil,obj2-paziente-care-sn7,obj-goal-shine-sn6,subj-actor-sun-sn5,cmod-subord-give-",obj2-paziente-care-sn3,obj-goal-shine-sn2,subj-actor-sun-sn1,and(care,no,sn7),and(care,no,sn3),def_prop(season,[tempo]),def_prop(care,[attivita,emotivo]),def_prop(shine,[astratto]),def_prop(sun,[oggetto,umano]),def_prop(care,[attivita,emotivo]),def_prop(shine,[astratto]),def_prop(sun,[oggetto,umano])])
+lf(Lady Lyrics.txt_6,22,cl7-nil-nil-learn-[obj-theme-three-s-sn3,obj-topic-one-sn2,subj-agent-i-sn1,def_prop(three-s,[nquant]),def_prop(one,[umano]),def_prop(i,[umano])])
+lf(Lady Lyrics.txt_7,29,cl10-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Lady Lyrics.txt_7,29,cl9-nil-nil-teach-[obj-actor-me-sn2,xcomp-purpose-teach-2,def_prop(me,[umano])])
+lf(Lady Lyrics.txt_7,29,cl8-nil-nil-fall-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Lady Lyrics.txt_8,39,cl11-nil-nil-spend-[cmod-subord-spend-",xcomp-prop-busy-sn3,xcomp-prop-my-sn2,subj-agent-i-sn1,def_prop(busy,[valutativo]),def_prop(my,[informa,tecno]),def_prop(i,[umano])])
+lf(Lady Lyrics.txt_9,48,cl12-nil-nil-jump-[ncmod-locativo-monkey-sn2,subj-agent-show-sn1,def_prop(monkey,[animato]),def_prop(show,[attivita,informa])])
+lf(Lady Lyrics.txt_10,58,cl13-nil-nil-jump-[ncmod-locativo-monkey-sn2,subj-agent-show-sn1,def_prop(monkey,[animato]),def_prop(show,[attivita,informa])])
+lf(Lady Lyrics.txt_11,69,cl14-nil-nil-know-[subj-actor-face-sn1,and(face,i,sn1),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano])])
+lf(Lady Lyrics.txt_12,81,cl15-nil-nil-walk-[cmod-subord-walk-",subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Lady Lyrics.txt_13,94,cl16-nil-nil-be-[ncmod-specif-Street-sn2,subj-theme_bound-you-sn1,and(Street,Market,sn2),def_prop(Street,[place,umano]),def_prop(you,[umano])])
+lf(Lady Lyrics.txt_14,108,cl17-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Lady Lyrics.txt_15,123,cl18-nil-nil-be-[ncmod-comitativo-me-sn3,xcomp-prop-all_right-sn2,subj-theme_bound-Lady-sn1,and(Lady,she,sn1),def_prop(me,[umano]),def_prop(all_right,[astratto,attivita,body_part,cambia,evento,istituzione,luogo,oggetto,strumento,umano]),def_prop(Lady,[umano])])
+lf(Lady Lyrics.txt_16,139,cl19-nil-nil-borrow-[obj-goal-empathy-sn2,subj-agent-done-sn1,and(empathy,all,sn2),def_prop(empathy,[emotivo]),def_prop(done,[evaluative])])
+lf(Lady Lyrics.txt_17,156,cl21-nil-nil-get-[obj-theme_unaff-best-sn5,subj-agent-she-sn4,def_prop(best,[attivita,umano]),def_prop(she,[umano])])
+lf(Lady Lyrics.txt_17,156,cl20-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Lady Lyrics.txt_18,175,cl22-not-nil-lie-[adj-(mod)-next-nil,iobj-goal-me-sn3,subj-actor-she-sn2,subj-actor-she-sn1,aux-(is)-nil,progr-lying-nil,and(she,cause,sn1),def_prop(me,[umano]),def_prop(she,[umano]),def_prop(she,[umano])])
+lf(Lady Lyrics.txt_19,194,cl23-nil-nil-be-[cmod-subord-be-",adj-temporal-day-nil,subj-theme_bound-beginning-sn2,subj-theme_bound-beginning-sn1,and(day,sweet,sn5),and(beginning,thing,sn1),and(beginning,all,sn1),def_prop(day,[tempo]),def_prop(beginning,[tempo]),def_prop(beginning,[tempo])])
+lf(Lady Lyrics.txt_20,214,cl25-nil-nil-fall-[cmod-coord-fall-and,xcomp-prop-right-sn7,subj-agent-you-sn6,cmod-subord-fall-",xcomp-prop-right-sn5,subj-agent-you-sn4,def_prop(right,[soggettivo]),def_prop(you,[umano]),def_prop(right,[soggettivo]),def_prop(you,[umano])])
+lf(Lady Lyrics.txt_20,214,cl24-nil-nil-get-[subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Lady Lyrics.txt_21,235,cl26-nil-nil-climb-[iobj-goal-where-sn2,subj-agent-you-sn1,def_prop(where,[luogo]),def_prop(you,[umano])])
+lf(Lady Lyrics.txt_22,257,cl27-nil-nil-stand-[cmod-subord-stand-",iobj-locative-yawning-sn2,subj-experiencer-you-sn1,and(yawning,backdoor,sn2),def_prop(yawning,[istituzione]),def_prop(you,[umano])])
+lf(Lady Lyrics.txt_23,280,cl29-nil-nil-ease-[obj-prop-me-sn5,obj-goal-you-sn4,obj-goal-where-sn3,xcomp-purpose-catch-2,subj-actor-i-sn2,cmod-subord-ease-",def_prop(me,[umano]),def_prop(you,[umano]),def_prop(where,[luogo]),def_prop(i,[umano])])
+lf(Lady Lyrics.txt_23,280,cl28-nil-nil-catch-[cmod-coord-ease-and,subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Lady Lyrics.txt_24,305,cl31-nil-nil-wake-[subj-actor-i-sn3,def_prop(i,[umano])])
+lf(Lady Lyrics.txt_24,305,cl30-nil-nil-be-[xcomp-prop-reason-sn2,subj-theme_bound-you-sn1,def_prop(reason,[astratto,attivita,informa]),def_prop(you,[umano])])
+lf(Lady Lyrics.txt_25,331,cl32-nil-nil-play-[cmod-subord-play-",obj-goal-puddle-sn2,subj-agent-sunshine-sn1,def_prop(puddle,[sostanza]),def_prop(sunshine,[evento])])
+lf(Lady Lyrics.txt_26,357,cl33-nil-nil-be-[adj-(mod)-female-nil,ncmod-modal-female-sn1,def_prop(female,[tempo]),def_prop(female,[tempo])])
+lf(Lady Lyrics.txt_27,384,cl34-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Lady Lyrics.txt_28,412,cl35-nil-nil-count-[ncmod-comitativo-coffee-spoons-sn3,obj-theme-thought-sn2,subj-actor-i-sn1,def_prop(coffee-spoons,[umano]),def_prop(thought,[astratto]),def_prop(i,[umano])])
+lf(Lady Lyrics.txt_29,441,cl36-nil-nil-reek-[cmod-coord-reek-and,iobj-goal-Heaven-sn4,subj-agent-something-sn3,cmod-subord-reek-",iobj-goal-Heaven-sn2,subj-agent-something-sn1,def_prop(Heaven,[istituzione]),def_prop(something,[astratto,informa,oggetto]),def_prop(Heaven,[istituzione]),def_prop(something,[astratto,informa,oggetto])])
+lf(Lady Lyrics.txt_30,471,_838178-nil-nil-sleep-[subj-agent-hobo-sn6,subj-agent-you-sn5,voice-sleep-nil,tense-sleep-nil,obl-locat-highway-sn1,and(highway,Neath,sn1),def_prop(hobo,[relat,sociale,umano]),def_prop(you,[umano]),def_prop(highway,[oggetto,strumento])])
+lf(Lady Lyrics.txt_30,471,cl37-nil-nil-be-[voice-sleep-nil,tense-sleep-nil,xcomp-prop-highway-sn1,and(highway,Neath,sn1),def_prop(highway,[oggetto,strumento])])
+lf(Lady Lyrics.txt_31,503,cl38-nil-nil-sleep-[obl-modal-where-sn2,subj-experiencer-hobo-sn1,def_prop(where,[luogo]),def_prop(hobo,[relat,sociale,umano])])
+lf(Lady Lyrics.txt_32,535,cl40-nil-nil-keep-[subj-experiencer-you-sn3,cmod-subord-keep-",ncmod-subj_disc-pains-sn2,def_prop(you,[umano]),def_prop(pains,[attivita,legale])])
+lf(Lady Lyrics.txt_32,535,cl39-nil-nil-laugh-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Lady Lyrics.txt_33,569,cl41-nil-nil-be-[xcomp-prop-friend-sn2,subj-theme_bound-Lady-sn1,and(Lady,she,sn1),def_prop(friend,[umano]),def_prop(Lady,[umano])])
+lf(Lady Lyrics.txt_34,603,cl44-nil-nil-take-[obj-theme_unaff-how-sn3,xcomp-purpose-know-3,def_prop(how,[manner])])
+lf(Lady Lyrics.txt_34,603,cl43-nil-nil-know-[fint-result-how-sn4,xcomp-prop-take-4,def_prop(how,[manner])])
+lf(Lady Lyrics.txt_34,603,cl42-nil-nil-cause-[adj-locative-time-nil,adj-subj_disc-time-sn5,subj-causer-i-sn2,subj-causer-i-sn1,and(i,you,sn1),def_prop(time,[tempo]),def_prop(time,[tempo]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Lady Lyrics.txt_35,640,cl45-not-can-say-[ccomp-prop-say-cl45,ncmod-prop-[]-sn2,subj-actor-i-sn1,def_prop([],nil),def_prop(i,[umano])])
+lf(Lady Lyrics.txt_36,676,cl46-not-will-try-[adj-temporal-time-nil,subj-tema_nonaff-i-sn1,subj-actor-i-sn1,and(time,next,sn2),def_prop(time,[tempo]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Lady Lyrics.txt_37,713,cl48-nil-nil-bear-[cmod-subord-bear-",obj-goal-burden-sn3,xcomp-purpose-bear-2,def_prop(burden,[astratto])])
+lf(Lady Lyrics.txt_37,713,cl47-nil-nil-get-[obj-theme_unaff-no_one-sn2,subj-agent-i-sn1,def_prop(no_one,[umano]),def_prop(i,[umano])])
+lf(Lady Lyrics.txt_38,752,cl49-nil-could-pay-[adj-(mod)-though-nil,iobj-goal-sip-sn2,subj-agent-i-sn1,def_prop(sip,[attivita]),def_prop(i,[umano])])
+lf(Lady Lyrics.txt_39,791,cl50-nil-nil-tuck-[adj-(mod)-just-nil,obj-theme-shirt-sn3,subj-agent-me-sn2,subj-agent-me-sn1,and(me,man,sn1),and(me,all,sn1),def_prop(shirt,[oggetto,strumento]),def_prop(me,[umano]),def_prop(me,[umano])])
+lf(Lady Lyrics.txt_40,831,cl51-nil-nil-be-[adj-(mod)-too-nil,subj-theme_bound-runnin-sn1,and(runnin,busy,sn1),def_prop(runnin,[istituzione])])
+lf(Lady Lyrics.txt_41,872,cl52-nil-nil-do-[xcomp-theme-still-sn3,xcomp-purpose-do-2,adj-subj_disc-best-sn2,subj-theme_bound-my-sn1,aux-do-nil,def_prop(still,[istituzione]),def_prop(best,[istituzione]),def_prop(my,[informa,tecno])])
+lf(Lady Lyrics.txt_42,915,cl53-nil-nil-be-[adj-(mod)-too-nil,ncmod-modal-time-sn2,subj-theme_bound-runnin-sn1,and(runnin,busy,sn1),def_prop(time,[tempo]),def_prop(runnin,[istituzione])])
+lf(Lady Lyrics.txt_43,958,cl54-not-can-take-[adj-(mod)-well-nil,obj-theme_aff-res-sn2,subj-agent-Lady-sn1,and(res,no,sn2),and(Lady,i,sn1),def_prop(res,[informa,tecno]),def_prop(Lady,[umano])])
+lf(Lady Lyrics.txt_44,1002,cl55-nil-nil-weight-[ncmod-modal-chess-sn2,subj-theme_unaff-you-sn1,def_prop(chess,[attivita,plant]),def_prop(you,[umano])])
+lf(Lady Lyrics.txt_45,1047,cl56-nil-nil-love-[obj-theme_unaff-best-sn2,subj-experiencer-i-sn1,def_prop(best,[valutativo]),def_prop(i,[umano])])
+lf(Lady Lyrics.txt_46,1093,cl57-nil-nil-borrow-[obj-goal-happiness-sn2,subj-agent-done-sn1,and(happiness,too_much,sn2),def_prop(happiness,[emotivo,stato]),def_prop(done,[evaluative])])

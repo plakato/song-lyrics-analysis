@@ -1,0 +1,67 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Funky Mississippi Lyrics.txt_1-1  []-positive  []
+Funky Mississippi Lyrics.txt_2-3  []-positive  []
+Funky Mississippi Lyrics.txt_3-7  []-negative  [neg]
+Funky Mississippi Lyrics.txt_4-11  []-negative  [neg]
+Funky Mississippi Lyrics.txt_5-17  [but-advers]-negative  [fgb,neg]
+Funky Mississippi Lyrics.txt_6-24  []-negative  [fgb,neg]
+Funky Mississippi Lyrics.txt_6-25  []-negative  [neg]
+Funky Mississippi Lyrics.txt_7-33  []-positive  []
+Funky Mississippi Lyrics.txt_8-42  []-positive  []
+Funky Mississippi Lyrics.txt_9-51  []-positive  []
+Funky Mississippi Lyrics.txt_10-61  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Funky Mississippi Lyrics.txt_1-1  [funky,Mississippi,Lyrics,by,Rufus,Thomas]  [title]
+Funky Mississippi Lyrics.txt_2-3  [everybody,expect,me,to,make,a,new,dance]  [provide_expl_just(make,[external,factive,explanation,background,objective]),provide_expl_just(expect,[external,factive,explanation,background,objective])]
+Funky Mississippi Lyrics.txt_3-7  [i,is,not,gonna,do_it,this_time]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Funky Mississippi Lyrics.txt_4-11  [i,am,scared,to,take,a,chance]  [reject_expl_just(take,[external,factive,narration,background,objective]),reject_expl_just(scare,[external,factive,narration,foreground,objective])]
+Funky Mississippi Lyrics.txt_5-17  [but,i,am,gonna,get,serious]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Funky Mississippi Lyrics.txt_6-24  [and,i,is,not,gonna,give]  [reject_expl_just(jive,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Funky Mississippi Lyrics.txt_6-25  [no,jive]  [reject_expl_just(jive,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Funky Mississippi Lyrics.txt_7-33  [i,want,to,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective])]
+Funky Mississippi Lyrics.txt_8-42  [i,am,the,funkiest,man,alive]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Funky Mississippi Lyrics.txt_9-51  [one,o-clock,in,the,morning,i,am,funky]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Funky Mississippi Lyrics.txt_10-61  [two,o-clock,,,etc,etc]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Funky Mississippi Lyrics.txt_1-1)-[emotions-positive_affect]
+2-(Funky Mississippi Lyrics.txt_2-3)-[secondary-instru_behavior,emotions-expressive_beh]
+3-(Funky Mississippi Lyrics.txt_3-7)-[]
+4-(Funky Mississippi Lyrics.txt_4-11)-[emotions-anxiety,primary-chaos]
+5-(Funky Mississippi Lyrics.txt_5-17)-[]
+half
+6-(Funky Mississippi Lyrics.txt_6-24)-[]
+7-(Funky Mississippi Lyrics.txt_6-25)-[]
+8-(Funky Mississippi Lyrics.txt_7-33)-[secondary-abstract_tought]
+9-(Funky Mississippi Lyrics.txt_8-42)-[]
+10-(Funky Mississippi Lyrics.txt_9-51)-[emotions-positive_affect]
+11-(Funky Mississippi Lyrics.txt_10-61)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Funky Mississippi Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Thomas-sn2,subj-theme_bound-Lyrics-sn1,and(Thomas,Rufus,sn2),and(Lyrics,Mississippi,sn1),and(Lyrics,funky,sn1),def_prop(Thomas,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Funky Mississippi Lyrics.txt_2,3,cl3-nil-nil-make-[obj-agent-dance-sn3,xadj-result-make-2,and(dance,new,sn3),def_prop(dance,[attivita,evento,informa,istituzione])])
+lf(Funky Mississippi Lyrics.txt_2,3,cl2-nil-nil-expect-[obj-theme_unaff-me-sn2,subj-experiencer-everybody-sn1,def_prop(me,[umano]),def_prop(everybody,[umano])])
+lf(Funky Mississippi Lyrics.txt_3,7,cl4-not-nil-be-[xcomp-prop-this_time-sn2,subj-theme_bound-i-sn1,and(this_time,do_it,sn2),def_prop(this_time,[any,evento,tempo]),def_prop(i,[umano])])
+lf(Funky Mississippi Lyrics.txt_4,11,cl6-nil-nil-take-[obj-theme-chance-sn2,xcomp-purpose-take-2,def_prop(chance,[attivita])])
+lf(Funky Mississippi Lyrics.txt_4,11,cl5-nil-nil-scare-[subj-experiencer-i-sn1,aux-am-nil,def_prop(i,[umano])])
+lf(Funky Mississippi Lyrics.txt_5,17,cl8-nil-nil-get-[obj-paziente-serious-sn2,xcomp-purpose-get-2,def_prop(serious,[evaluative])])
+lf(Funky Mississippi Lyrics.txt_5,17,cl7-nil-nil-be-[subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Funky Mississippi Lyrics.txt_6,24,cl11-nil-nil-jive-[subj-actor-you-sn2,cmod-subord-jive-",def_prop(you,[umano])])
+lf(Funky Mississippi Lyrics.txt_6,24,cl10-nil-nil-give-[adj-(mod)-jive-nil,subj-goal-i-sn1,def_prop(i,[umano])])
+lf(Funky Mississippi Lyrics.txt_6,24,cl9-not-nil-be-[subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Funky Mississippi Lyrics.txt_7,33,cl13-nil-nil-know-[subj-tema_nonaff-i-sn1,def_prop(i,[umano])])
+lf(Funky Mississippi Lyrics.txt_7,33,cl12-nil-nil-want-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Funky Mississippi Lyrics.txt_8,42,cl14-nil-nil-be-[xcomp-prop-alive-sn3,xcomp-prop-man-sn2,subj-theme_bound-i-sn1,and(man,funkiest,sn2),def_prop(alive,[valutativo]),def_prop(man,[any]),def_prop(i,[umano])])
+lf(Funky Mississippi Lyrics.txt_9,51,cl15-nil-nil-be-[xcomp-prop-funky-sn3,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(i,one,sn1),def_prop(funky,[informa,tecno]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Funky Mississippi Lyrics.txt_10,61,cl16-nil-nil-be-[adj-(mod)-o-clock-nil,subj-theme_bound-etc-sn2,subj-theme_bound-etc-sn1,and(etc,two,sn1),def_prop(etc,[legale]),def_prop(etc,[legale])])

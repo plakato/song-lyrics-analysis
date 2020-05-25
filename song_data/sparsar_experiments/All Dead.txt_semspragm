@@ -1,0 +1,179 @@
+"POLARITY, DISCOURSE MARKERS"
+
+All Dead.txt_1-1  []-positive  [neg]
+All Dead.txt_2-3  []-positive  []
+All Dead.txt_3-6  []-positive  []
+All Dead.txt_4-10  []-negative  [neg]
+All Dead.txt_5-15  []-positive  [fgb]
+All Dead.txt_6-23  []-suspension  []
+All Dead.txt_7-30  [so-result]-negative  [fgb]
+All Dead.txt_8-38  []-positive  []
+All Dead.txt_9-47  []-positive  []
+All Dead.txt_10-57  []-positive  [neg,neg]
+All Dead.txt_11-68  []-positive  []
+All Dead.txt_12-80  []-positive  [neg,neg]
+All Dead.txt_13-93  []-negative  [fgb,neg]
+All Dead.txt_14-94  []-positive  []
+All Dead.txt_15-109  []-positive  [neg]
+All Dead.txt_16-125  []-positive  [fgb]
+All Dead.txt_17-142  []-positive  [neg]
+All Dead.txt_18-160  []-positive  [neg,neg]
+All Dead.txt_19-179  []-positive  []
+All Dead.txt_20-199  []-positive  [neg,neg]
+All Dead.txt_21-220  []-negative  [fgb,neg]
+All Dead.txt_22-221  []-positive  []
+All Dead.txt_23-244  []-positive  [neg]
+All Dead.txt_24-268  []-positive  [fgb]
+All Dead.txt_25-293  []-positive  [neg]
+All Dead.txt_26-319  []-positive  []
+All Dead.txt_27-346  [while-temp_coinc]-positive  []
+All Dead.txt_28-374  [but-advers]-suspension  [fgb]
+All Dead.txt_29-403  []-positive  []
+All Dead.txt_29-404  [but-advers]-positive  [fgb]
+All Dead.txt_30-433  []-positive  [neg,neg]
+All Dead.txt_31-464  [but-advers]-negative  [fgb,neg,neg]
+All Dead.txt_32-496  []-positive  []
+All Dead.txt_33-529  []-positive  [neg,neg]
+All Dead.txt_34-563  [but-advers]-positive  [fgb]
+All Dead.txt_35-598  []-negative  []
+All Dead.txt_36-634  []-negative  [neg]
+All Dead.txt_37-671  []-positive  [fgb]
+All Dead.txt_38-709  []-positive  [neg]
+All Dead.txt_39-748  []-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+All Dead.txt_1-1  [all,Dead,by,queen]  [title]
+All Dead.txt_2-3  [she,came,without,a,farthing]  [raise_issue(be,[_592266,factive,statement,_592284,subjective])]
+All Dead.txt_3-6  [a,babe,without,a,name]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+All Dead.txt_4-10  [so_much,ado,about,nothing]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+All Dead.txt_5-15  [is,what,she,had,try,to,say,.,she,had,try,to,say]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+All Dead.txt_6-23  [so_much,my,ado,lover]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+All Dead.txt_7-30  [many,we,games,so,played]  [provide_expl_just(play,[external,factive,cause,foreground,objective])]
+All Dead.txt_8-38  [through,every,fleeted,summer]  [provide_expl_just(summer,[external,factive,narration,background,objective])]
+All Dead.txt_9-47  [through,precious,every,day]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+All Dead.txt_10-57  [all,dead,all,dead]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+All Dead.txt_11-68  [all,the,dreams,we,had]  [provide_expl_just(have,[external,factive,narration,foreground,objective])]
+All Dead.txt_12-80  [all,dead,all,dead]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+All Dead.txt_13-93  [and,alone,i,am,spared]  [reject_expl_just(be,[_598246,_598252,_598258,_598264,_598270])]
+All Dead.txt_14-94  [my,sweeter,half,instead]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+All Dead.txt_15-109  [all,dead]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+All Dead.txt_16-125  [and,gone]  [proposal(be,[_599514,_599520,statement,foreground,_599538])]
+All Dead.txt_17-142  [all,dead]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+All Dead.txt_18-160  [all,dead,all,dead]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+All Dead.txt_19-179  [all,the,dreams,we,had]  [provide_expl_just(have,[external,factive,narration,foreground,objective])]
+All Dead.txt_20-199  [all,dead,all,dead]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+All Dead.txt_21-220  [and,alone,i,am,spared]  [reject_expl_just(be,[_601712,_601718,_601724,_601730,_601736])]
+All Dead.txt_22-221  [my,sweeter,half,instead]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+All Dead.txt_23-244  [all,dead]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+All Dead.txt_24-268  [and,gone]  [proposal(be,[_602980,_602986,statement,foreground,_603004])]
+All Dead.txt_25-293  [all,dead]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+All Dead.txt_26-319  [her,ways,are,always,with,me]  [provide_expl_just(me,[internal,factive,narration,background,objective])]
+All Dead.txt_27-346  [i,wander,all,the,while]  [provide_expl_just(wander,[external,factive,narration,background,objective])]
+All Dead.txt_28-374  [but,please,you,must,forgive,me]  [provide_expl_just(forgive,[external,nonfactive,narration,foreground,objective])]
+All Dead.txt_29-403  [i,am,old]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+All Dead.txt_29-404  [but,still,a,child]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+All Dead.txt_30-433  [all,dead,all,dead]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+All Dead.txt_31-464  [but,i,should,not,grieve]  [reject_expl_just(grieve,[external,nonfactive,narration,foreground,objective])]
+All Dead.txt_32-496  [in,time,it,comes,to,everyone]  [raise_issue(be,[_606982,factive,statement,_607000,subjective])]
+All Dead.txt_33-529  [all,dead,all,dead]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+All Dead.txt_34-563  [but,in,hope,i,breathe]  [provide_expl_just(breathe,[external,factive,narration,background,objective])]
+All Dead.txt_35-598  [of,course,i,don-t,believe]  [provide_expl_just(believe,[external,factive,narration,foreground,objective])]
+All Dead.txt_36-634  [you,are,dead]  reject_expl_opin(nil,[])
+All Dead.txt_37-671  [and,gone]  [provide_expl_just(go,[external,factive,narration,foreground,objective])]
+All Dead.txt_38-709  [all,dead]  [proposal(be,[_610056,_610062,statement,foreground,_610080])]
+All Dead.txt_39-748  [and,gone]  [provide_expl_just(go,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(All Dead.txt_1-1)-[]
+2-(All Dead.txt_2-3)-[]
+3-(All Dead.txt_3-6)-[]
+4-(All Dead.txt_4-10)-[]
+5-(All Dead.txt_5-15)-[secondary-instru_behavior,secondary-social_behavior,secondary-instru_behavior,secondary-social_behavior]
+6-(All Dead.txt_6-23)-[primary-sex]
+7-(All Dead.txt_7-30)-[emotions-expressive_beh,emotions-expressive_beh]
+8-(All Dead.txt_8-38)-[secondary-temporal_repere]
+9-(All Dead.txt_9-47)-[secondary-temporal_repere]
+10-(All Dead.txt_10-57)-[primary-passivity,primary-passivity]
+11-(All Dead.txt_11-68)-[primary-counscious]
+12-(All Dead.txt_12-80)-[primary-passivity,primary-passivity]
+13-(All Dead.txt_13-93)-[]
+14-(All Dead.txt_14-94)-[primary-taste]
+15-(All Dead.txt_15-109)-[primary-passivity]
+16-(All Dead.txt_16-125)-[]
+17-(All Dead.txt_17-142)-[primary-passivity]
+18-(All Dead.txt_18-160)-[primary-passivity,primary-passivity]
+19-(All Dead.txt_19-179)-[primary-counscious]
+20-(All Dead.txt_20-199)-[primary-passivity,primary-passivity]
+half
+21-(All Dead.txt_21-220)-[]
+22-(All Dead.txt_22-221)-[primary-taste]
+23-(All Dead.txt_23-244)-[primary-passivity]
+24-(All Dead.txt_24-268)-[]
+25-(All Dead.txt_25-293)-[primary-passivity]
+26-(All Dead.txt_26-319)-[]
+27-(All Dead.txt_27-346)-[primary-voyage,secondary-temporal_repere]
+28-(All Dead.txt_28-374)-[secondary-social_behavior,secondary-restraint,secondary-social_behavior]
+29-(All Dead.txt_29-403)-[secondary-temporal_repere]
+30-(All Dead.txt_29-404)-[primary-cold]
+31-(All Dead.txt_30-433)-[primary-passivity,primary-passivity]
+32-(All Dead.txt_31-464)-[secondary-moral_imperative,emotions-sadness]
+33-(All Dead.txt_32-496)-[secondary-temporal_repere]
+34-(All Dead.txt_33-529)-[primary-passivity,primary-passivity]
+35-(All Dead.txt_34-563)-[primary-odor]
+36-(All Dead.txt_35-598)-[secondary-abstract_tought]
+37-(All Dead.txt_36-634)-[primary-passivity]
+38-(All Dead.txt_37-671)-[]
+39-(All Dead.txt_38-709)-[primary-passivity]
+40-(All Dead.txt_39-748)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(All Dead.txt_1,1,cl1-nil-nil-queen-[subj-actor-all-sn1,def_prop(all,[_611350])])
+lf(All Dead.txt_2,3,cl2-nil-nil-come-[ncmod-modal-farthing-sn2,subj-agent-she-sn1,def_prop(farthing,[astratto,oggetto]),def_prop(she,[umano])])
+lf(All Dead.txt_3,6,cl3-nil-nil-be-[ncmod-privation-name-sn2,subj-theme_bound-babe-sn1,def_prop(name,[attivita,informa,stato,umano]),def_prop(babe,[relat,sociale,umano])])
+lf(All Dead.txt_4,10,cl4-nil-nil-be-[ncmod-subj_disc-nothing-sn2,subj-theme_bound-ado-sn1,and(ado,so_much,sn1),def_prop(nothing,[astratto,informa,oggetto]),def_prop(ado,[attivita,informa])])
+lf(All Dead.txt_5,15,cl7-nil-nil-say-[])
+lf(All Dead.txt_5,15,cl6-nil-nil-try-[aux-had-nil])
+lf(All Dead.txt_5,15,cl5-nil-nil-be-[f2-sn1-what-sn2,subj-theme_bound-she-sn1,def_prop(what,[oggetto]),def_prop(she,[umano])])
+lf(All Dead.txt_6,23,cl8-nil-nil-be-[ncmod-modal-ado-sn2,subj-theme_bound-you-sn1,def_prop(ado,[attivita,informa]),def_prop(you,[umano])])
+lf(All Dead.txt_7,30,cl9-nil-nil-play-[subj-agent-game-sn1,and(game,we,sn1),and(game,many,sn1),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento])])
+lf(All Dead.txt_8,38,cl10-nil-nil-summer-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(All Dead.txt_9,47,cl11-nil-nil-be-[ncmod-modal-every-sn2,subj-theme_bound-you-sn1,def_prop(every,[evaluative]),def_prop(you,[umano])])
+lf(All Dead.txt_10,57,cl12-nil-nil-be-[subj-theme_bound-all-sn1,and(all,dead,sn1),and(all,all,sn1),def_prop(all,[_612530])])
+lf(All Dead.txt_11,68,cl13-nil-nil-have-[subj-experiencer-we-sn2,subj-experiencer-we-sn1,and(we,dream,sn1),and(we,all,sn1),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(All Dead.txt_12,80,cl14-nil-nil-be-[subj-theme_bound-all-sn1,and(all,dead,sn1),and(all,all,sn1),def_prop(all,[_612778])])
+lf(All Dead.txt_13,93,cl15-nil-nil-spare-[cmod-subord-spare-",subj-theme-i-sn1,aux-am-nil,def_prop(i,[umano])])
+lf(All Dead.txt_14,94,cl16-nil-nil-be-[adj-(mod)-instead-nil,subj-theme_bound-half-sn1,and(half,sweeter,sn1),def_prop(half,[tempo])])
+lf(All Dead.txt_15,109,cl17-nil-nil-say-[obj-theme_unaff-all-sn1,def_prop(all,[_613080])])
+lf(All Dead.txt_16,125,cl18-nil-nil-go-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(All Dead.txt_17,142,cl19-nil-nil-say-[obj-theme_unaff-all-sn1,def_prop(all,[_613236])])
+lf(All Dead.txt_18,160,cl20-nil-nil-be-[subj-theme_bound-all-sn1,and(all,dead,sn1),and(all,all,sn1),def_prop(all,[_613342])])
+lf(All Dead.txt_19,179,cl21-nil-nil-have-[subj-experiencer-we-sn2,subj-experiencer-we-sn1,and(we,dream,sn1),and(we,all,sn1),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(All Dead.txt_20,199,cl22-nil-nil-be-[subj-theme_bound-all-sn1,and(all,dead,sn1),and(all,all,sn1),def_prop(all,[_613590])])
+lf(All Dead.txt_21,220,cl23-nil-nil-spare-[cmod-subord-spare-",subj-theme-i-sn1,aux-am-nil,def_prop(i,[umano])])
+lf(All Dead.txt_22,221,cl24-nil-nil-be-[adj-(mod)-instead-nil,subj-theme_bound-half-sn1,and(half,sweeter,sn1),def_prop(half,[tempo])])
+lf(All Dead.txt_23,244,cl25-nil-nil-say-[obj-theme_unaff-all-sn1,def_prop(all,[_613892])])
+lf(All Dead.txt_24,268,cl26-nil-nil-go-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(All Dead.txt_25,293,cl27-nil-nil-say-[obj-theme_unaff-all-sn1,def_prop(all,[_614048])])
+lf(All Dead.txt_26,319,cl28-nil-nil-be-[ncmod-comitativo-me-sn3,xcomp-prop-always-sn2,subj-theme_bound-ways-sn1,def_prop(me,[umano]),def_prop(always,[istituzione]),def_prop(ways,[oggetto,strumento])])
+lf(All Dead.txt_27,346,cl29-nil-nil-wander-[obj-theme_aff-while-sn2,subj-actor-i-sn1,and(while,all,sn2),def_prop(while,[tempo]),def_prop(i,[umano])])
+lf(All Dead.txt_28,374,cl30-nil-must-forgive-[obj-theme-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(All Dead.txt_29,403,cl31-nil-nil-be-[subj-theme_bound-child-sn3,xcomp-prop-old-sn2,subj-theme_bound-i-sn1,def_prop(child,[any,attivita,body_part,oggetto,strumento,umano]),def_prop(old,[estens]),def_prop(i,[umano])])
+lf(All Dead.txt_30,433,cl32-nil-nil-be-[subj-theme_bound-all-sn1,and(all,dead,sn1),and(all,all,sn1),def_prop(all,[_614732])])
+lf(All Dead.txt_31,464,cl33-not-should-grieve-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(All Dead.txt_32,496,cl34-nil-nil-come-[expl-it-nil,adj-temporal-time-nil,iobj-goal-everyone-sn2,subj-agent-it-sn1,def_prop(time,[tempo]),def_prop(everyone,[umano]),def_prop(it,[any])])
+lf(All Dead.txt_33,529,cl35-nil-nil-be-[subj-theme_bound-all-sn1,and(all,dead,sn1),and(all,all,sn1),def_prop(all,[_615084])])
+lf(All Dead.txt_34,563,cl36-nil-nil-breathe-[ncmod-locativo-hope-sn2,subj-experiencer-i-sn1,def_prop(hope,[astratto,emotivo,umano]),def_prop(i,[umano])])
+lf(All Dead.txt_35,598,cl37-not-nil-believe-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(All Dead.txt_36,634,cl38-nil-nil-be-[xcomp-prop-dead-sn2,subj-theme_bound-you-sn1,def_prop(dead,[valutativo]),def_prop(you,[umano])])
+lf(All Dead.txt_37,671,cl39-nil-nil-go-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(All Dead.txt_38,709,cl40-nil-nil-say-[obj-theme_unaff-all-sn1,def_prop(all,[_615576])])
+lf(All Dead.txt_39,748,cl41-nil-nil-go-[subj-agent-you-sn1,def_prop(you,[umano])])

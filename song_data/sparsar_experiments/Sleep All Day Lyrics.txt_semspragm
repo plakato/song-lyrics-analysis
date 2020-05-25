@@ -1,0 +1,170 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Sleep All Day Lyrics.txt_1-1  []-positive  []
+Sleep All Day Lyrics.txt_2-3  []-negative  [fgb,neg]
+Sleep All Day Lyrics.txt_3-6  []-negative  [fgb,neg]
+Sleep All Day Lyrics.txt_4-10  []-positive  []
+Sleep All Day Lyrics.txt_4-11  [if-hypoth]-positive  [fgb]
+Sleep All Day Lyrics.txt_5-16  []-suspension  [neg]
+Sleep All Day Lyrics.txt_6-23  [so-result]-positive  [fgb]
+Sleep All Day Lyrics.txt_7-30  []-suspension  [fgb]
+Sleep All Day Lyrics.txt_7-30  []-suspension  [fgb]
+Sleep All Day Lyrics.txt_8-38  [if-hypoth]-positive  [fgb,fgb]
+Sleep All Day Lyrics.txt_9-48  [then-temp_seq]-suspension  []
+Sleep All Day Lyrics.txt_10-59  []-negative  [fgb,neg]
+Sleep All Day Lyrics.txt_11-70  [but-advers]-positive  [fgb]
+Sleep All Day Lyrics.txt_12-82  []-positive  []
+Sleep All Day Lyrics.txt_12-83  []-negative  [neg]
+Sleep All Day Lyrics.txt_13-96  []-positive  [fgb,neg]
+Sleep All Day Lyrics.txt_14-111  [if-hypoth,so-result]-positive  [fgb,fgb]
+Sleep All Day Lyrics.txt_15-127  [then-temp_seq]-suspension  []
+Sleep All Day Lyrics.txt_16-144  [if-hypoth]-positive  [fgb,fgb]
+Sleep All Day Lyrics.txt_17-162  [then-temp_seq]-suspension  []
+Sleep All Day Lyrics.txt_18-181  [so-result]-positive  [fgb]
+Sleep All Day Lyrics.txt_19-200  []-suspension  [fgb]
+Sleep All Day Lyrics.txt_19-200  []-suspension  [fgb]
+Sleep All Day Lyrics.txt_20-220  [if-hypoth,so-result]-positive  [fgb,fgb]
+Sleep All Day Lyrics.txt_21-242  [then-temp_seq]-suspension  []
+Sleep All Day Lyrics.txt_22-265  []-negative  [fgb,neg]
+Sleep All Day Lyrics.txt_23-288  []-negative  [fgb,neg]
+Sleep All Day Lyrics.txt_24-312  []-positive  []
+Sleep All Day Lyrics.txt_24-313  []-negative  [neg]
+Sleep All Day Lyrics.txt_25-338  []-positive  [fgb]
+Sleep All Day Lyrics.txt_25-338  []-positive  [fgb]
+Sleep All Day Lyrics.txt_26-364  [so-result]-positive  [fgb]
+Sleep All Day Lyrics.txt_27-391  []-suspension  [fgb]
+Sleep All Day Lyrics.txt_27-391  []-suspension  [fgb]
+Sleep All Day Lyrics.txt_28-419  [if-hypoth]-positive  [fgb,fgb]
+Sleep All Day Lyrics.txt_29-449  [then-temp_seq]-suspension  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Sleep All Day Lyrics.txt_1-1  [all,sleep,Day,Lyrics,by,the,Rural,Alberta,advantage]  [title]
+Sleep All Day Lyrics.txt_2-3  [well,i,all,day,should,not,sleep]  [reject_expl_just(sleep,[external,nonfactive,narration,foreground,objective])]
+Sleep All Day Lyrics.txt_3-6  [and,waste,the,afternoon]  [reject_expl_just(waste,[external,factive,narration,background,objective])]
+Sleep All Day Lyrics.txt_4-10  [i,Cuz,know]  [provide_expl_just(know,[external,factive,explanation,background,objective]),suggest(know,_721932),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Sleep All Day Lyrics.txt_4-11  [if,i,am,up,all,night]  [provide_expl_just(know,[external,factive,explanation,background,objective]),suggest(know,_726820),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Sleep All Day Lyrics.txt_5-16  [you,will,be,going,to,bed,soon]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(go,[external,nonfactive,narration,background,objective])]
+Sleep All Day Lyrics.txt_6-23  [so,wipe,the,sleep,from,your,eyes]  [provide_expl_just(wipe,[external,factive,narration,background,objective])]
+Sleep All Day Lyrics.txt_7-30  [and,i,will,wipe,them,out_of,mine]  [provide_expl_just(wipe,[external,nonfactive,narration,background,objective])]
+Sleep All Day Lyrics.txt_7-30  [and,i,will,wipe,them,out_of,mine,,,too]  [provide_expl_just(wipe,[external,nonfactive,narration,background,objective])]
+Sleep All Day Lyrics.txt_8-38  [and,if,we,try,to,hold,on]  [proposal(be,[_729674,_729680,statement,foreground,_729698])]
+Sleep All Day Lyrics.txt_9-48  [then,i,will,try,to,hold,on,to,you]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(try,[external,nonfactive,narration,background,objective])]
+Sleep All Day Lyrics.txt_10-59  [well,i,all,day,should,not,sleep]  [reject_expl_just(be,[_730546,_730552,_730558,_730564,_730570])]
+Sleep All Day Lyrics.txt_11-70  [but,it,is,half_past,noon]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Sleep All Day Lyrics.txt_12-82  [i,Cuz,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Sleep All Day Lyrics.txt_12-83  [we,are,taking,a,break]  [reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(take,[external,factive,narration,foreground,objective])]
+Sleep All Day Lyrics.txt_13-96  [and,i,know,you,are,leaving,me,soon]  [provide_expl_just(leave,[external,factive,narration,foreground,objective])]
+Sleep All Day Lyrics.txt_14-111  [so,if,you,try,to,be,nice]  [proposal(be,[_736952,_736958,statement,foreground,_736976])]
+Sleep All Day Lyrics.txt_15-127  [then,i,will,try,to,be,nice,to,you]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(try,[external,nonfactive,narration,background,objective])]
+Sleep All Day Lyrics.txt_16-144  [and,if,you,try,to,hold,on]  [proposal(be,[_738196,_738202,statement,foreground,_738220])]
+Sleep All Day Lyrics.txt_17-162  [then,i,will,try,to,hold,on,to,you]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(try,[external,nonfactive,narration,background,objective])]
+Sleep All Day Lyrics.txt_18-181  [so,wipe,the,sleep,from,your,eyes]  [provide_expl_just(wipe,[external,factive,narration,background,objective])]
+Sleep All Day Lyrics.txt_19-200  [and,i,will,wipe,them,out_of,mine]  [provide_expl_just(wipe,[external,nonfactive,narration,background,objective])]
+Sleep All Day Lyrics.txt_19-200  [and,i,will,wipe,them,out_of,mine,,,too]  [provide_expl_just(wipe,[external,nonfactive,narration,background,objective])]
+Sleep All Day Lyrics.txt_20-220  [so,if,you,try,to,be,nice]  [proposal(be,[_740378,_740384,statement,foreground,_740402])]
+Sleep All Day Lyrics.txt_21-242  [then,i,will,try,to,be,nice,to,you]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(try,[external,nonfactive,narration,background,objective])]
+Sleep All Day Lyrics.txt_22-265  [and,i,all,day,should,not,sleep]  [reject_expl_just(be,[_741486,_741492,_741498,_741504,_741510])]
+Sleep All Day Lyrics.txt_23-288  [and,waste,the,time,with,you]  [reject_expl_just(waste,[external,factive,narration,background,objective])]
+Sleep All Day Lyrics.txt_24-312  [i,Cuz,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Sleep All Day Lyrics.txt_24-313  [we,are,taking,a,break]  [reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(take,[external,factive,narration,foreground,objective])]
+Sleep All Day Lyrics.txt_25-338  [and,i,know,we,both,need]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Sleep All Day Lyrics.txt_25-338  [and,i,know,we,both,need,room]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Sleep All Day Lyrics.txt_26-364  [so,wipe,the,sleep,from,your,eyes]  [provide_expl_just(wipe,[external,factive,narration,background,objective])]
+Sleep All Day Lyrics.txt_27-391  [and,i,will,wipe,them,out_of,mine]  [provide_expl_just(wipe,[external,nonfactive,narration,background,objective])]
+Sleep All Day Lyrics.txt_27-391  [and,i,will,wipe,them,out_of,mine,,,too]  [provide_expl_just(wipe,[external,nonfactive,narration,background,objective])]
+Sleep All Day Lyrics.txt_28-419  [and,if,you,try,to,hold,on]  [proposal(be,[_757130,_757136,statement,foreground,_757154])]
+Sleep All Day Lyrics.txt_29-449  [then,i,will,try,to,hold,on,to,you]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(try,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Sleep All Day Lyrics.txt_1-1)-[primary-counscious]
+2-(Sleep All Day Lyrics.txt_2-3)-[secondary-moral_imperative,primary-counscious]
+3-(Sleep All Day Lyrics.txt_3-6)-[]
+4-(Sleep All Day Lyrics.txt_4-10)-[secondary-abstract_tought]
+5-(Sleep All Day Lyrics.txt_4-11)-[]
+6-(Sleep All Day Lyrics.txt_5-16)-[primary-passivity,secondary-temporal_repere]
+7-(Sleep All Day Lyrics.txt_6-23)-[primary-counscious,primary-narcissism]
+8-(Sleep All Day Lyrics.txt_7-30)-[secondary-abstract_tought]
+9-(Sleep All Day Lyrics.txt_7-30)-[secondary-abstract_tought]
+10-(Sleep All Day Lyrics.txt_8-38)-[secondary-instru_behavior]
+11-(Sleep All Day Lyrics.txt_9-48)-[secondary-temporal_repere,secondary-instru_behavior]
+12-(Sleep All Day Lyrics.txt_10-59)-[secondary-moral_imperative,primary-counscious]
+13-(Sleep All Day Lyrics.txt_11-70)-[]
+14-(Sleep All Day Lyrics.txt_12-82)-[secondary-abstract_tought]
+15-(Sleep All Day Lyrics.txt_12-83)-[emotions-aggression]
+16-(Sleep All Day Lyrics.txt_13-96)-[secondary-abstract_tought,secondary-temporal_repere]
+17-(Sleep All Day Lyrics.txt_14-111)-[secondary-instru_behavior]
+18-(Sleep All Day Lyrics.txt_15-127)-[secondary-temporal_repere,secondary-instru_behavior]
+half
+19-(Sleep All Day Lyrics.txt_16-144)-[secondary-instru_behavior]
+20-(Sleep All Day Lyrics.txt_17-162)-[secondary-temporal_repere,secondary-instru_behavior]
+21-(Sleep All Day Lyrics.txt_18-181)-[primary-counscious,primary-narcissism]
+22-(Sleep All Day Lyrics.txt_19-200)-[secondary-abstract_tought]
+23-(Sleep All Day Lyrics.txt_19-200)-[secondary-abstract_tought]
+24-(Sleep All Day Lyrics.txt_20-220)-[secondary-instru_behavior]
+25-(Sleep All Day Lyrics.txt_21-242)-[secondary-temporal_repere,secondary-instru_behavior]
+26-(Sleep All Day Lyrics.txt_22-265)-[secondary-moral_imperative,primary-counscious]
+27-(Sleep All Day Lyrics.txt_23-288)-[secondary-temporal_repere]
+28-(Sleep All Day Lyrics.txt_24-312)-[secondary-abstract_tought]
+29-(Sleep All Day Lyrics.txt_24-313)-[emotions-aggression]
+30-(Sleep All Day Lyrics.txt_25-338)-[secondary-abstract_tought]
+31-(Sleep All Day Lyrics.txt_25-338)-[secondary-abstract_tought]
+32-(Sleep All Day Lyrics.txt_26-364)-[primary-counscious,primary-narcissism]
+33-(Sleep All Day Lyrics.txt_27-391)-[secondary-abstract_tought]
+34-(Sleep All Day Lyrics.txt_27-391)-[secondary-abstract_tought]
+35-(Sleep All Day Lyrics.txt_28-419)-[secondary-instru_behavior]
+36-(Sleep All Day Lyrics.txt_29-449)-[secondary-temporal_repere,secondary-instru_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Sleep All Day Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Rural-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,all,sn1),def_prop(Rural,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Sleep All Day Lyrics.txt_2,3,cl2-not-should-sleep-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Sleep All Day Lyrics.txt_3,6,cl3-nil-nil-waste-[cmod-subord-waste-",obj-theme_aff-afternoon-sn2,subj-agent-you-sn1,def_prop(afternoon,[tempo]),def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_4,10,cl5-nil-nil-be-[adj-subj_disc-night-sn5,adj-subj_disc-up-sn4,subj-theme_bound-i-sn3,and(night,all,sn5),def_prop(night,[tempo]),def_prop(up,[istituzione]),def_prop(i,[umano])])
+lf(Sleep All Day Lyrics.txt_4,10,cl4-nil-nil-know-[ncmod-modal-i-sn2,subj-actor-you-sn1,def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_5,16,cl7-nil-nil-be-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_5,16,cl6-nil-will-go-[adj-(mod)-soon-nil,subj-agent-you-sn1,aux-be-nil,progr-going-nil,def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_6,23,cl8-nil-nil-wipe-[iobj-goal-eye-sn3,obj-theme_aff-sleep-sn2,subj-agent-you-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(sleep,[stato,tempo]),def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_7,30,cl9-nil-will-wipe-[cmod-coord-wipe-and,iobj-goal-mine-sn6,obj-theme_aff-them-sn5,subj-agent-i-sn4,cmod-subord-wipe-",iobj-goal-mine-sn3,obj-theme_aff-them-sn2,subj-agent-i-sn1,def_prop(mine,[oggetto,strumento]),def_prop(them,[umano]),def_prop(i,[umano]),def_prop(mine,[oggetto,strumento]),def_prop(them,[umano]),def_prop(i,[umano])])
+lf(Sleep All Day Lyrics.txt_8,38,cl11-nil-nil-hold-[])
+lf(Sleep All Day Lyrics.txt_8,38,cl10-nil-nil-try-[cmod-subord-hold-",cmod-subord-hold-if,subj-actor-we-sn1,def_prop(we,[umano])])
+lf(Sleep All Day Lyrics.txt_9,48,cl13-nil-nil-hold-[ncmod-goal-you-sn2,def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_9,48,cl12-nil-will-try-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Sleep All Day Lyrics.txt_10,59,cl14-not-should-sleep-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Sleep All Day Lyrics.txt_11,70,cl15-nil-nil-be-[xcomp-prop-half_pass-sn2,subj-theme_bound-it-sn1,def_prop(half_pass,[attivita,evento,informa,oggetto,stato,tempo]),def_prop(it,[any])])
+lf(Sleep All Day Lyrics.txt_12,82,cl17-nil-nil-take-[obj-theme_aff-break-sn4,subj-agent-we-sn3,aux-are-nil,progr-taking-nil,def_prop(break,[attivita,evento]),def_prop(we,[umano])])
+lf(Sleep All Day Lyrics.txt_12,82,cl16-nil-nil-know-[ncmod-modal-i-sn2,subj-actor-you-sn1,def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_13,96,cl19-nil-nil-leave-[cmod-subord-leave-",subj-theme-me-sn6,obj-theme-me-sn3,subj-theme-you-sn2,aux-are-nil,progr-leaving-nil,def_prop(me,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_13,96,cl18-nil-nil-know-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Sleep All Day Lyrics.txt_14,111,cl21-nil-nil-be-[])
+lf(Sleep All Day Lyrics.txt_14,111,cl20-nil-nil-try-[cmod-subord-be-if,obj-prop-nice-sn2,xcomp-purpose-be-cl21,subj-actor-you-sn1,def_prop(nice,[valutativo]),def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_15,127,cl23-nil-nil-be-[ncmod-goal-you-sn3,xcomp-prop-nice-sn2,xcomp-purpose-be-2,def_prop(you,[umano]),def_prop(nice,[valutativo])])
+lf(Sleep All Day Lyrics.txt_15,127,cl22-nil-will-try-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Sleep All Day Lyrics.txt_16,144,cl25-nil-nil-hold-[])
+lf(Sleep All Day Lyrics.txt_16,144,cl24-nil-nil-try-[cmod-subord-hold-",cmod-subord-hold-if,subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_17,162,cl27-nil-nil-hold-[ncmod-goal-you-sn2,def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_17,162,cl26-nil-will-try-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Sleep All Day Lyrics.txt_18,181,cl28-nil-nil-wipe-[iobj-goal-eye-sn3,obj-theme_aff-sleep-sn2,subj-agent-you-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(sleep,[stato,tempo]),def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_19,200,cl29-nil-will-wipe-[cmod-coord-wipe-and,iobj-goal-mine-sn6,obj-theme_aff-them-sn5,subj-agent-i-sn4,cmod-subord-wipe-",iobj-goal-mine-sn3,obj-theme_aff-them-sn2,subj-agent-i-sn1,def_prop(mine,[oggetto,strumento]),def_prop(them,[umano]),def_prop(i,[umano]),def_prop(mine,[oggetto,strumento]),def_prop(them,[umano]),def_prop(i,[umano])])
+lf(Sleep All Day Lyrics.txt_20,220,cl31-nil-nil-be-[])
+lf(Sleep All Day Lyrics.txt_20,220,cl30-nil-nil-try-[cmod-subord-be-if,obj-prop-nice-sn2,xcomp-purpose-be-cl31,subj-actor-you-sn1,def_prop(nice,[valutativo]),def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_21,242,cl33-nil-nil-be-[ncmod-goal-you-sn3,xcomp-prop-nice-sn2,xcomp-purpose-be-2,def_prop(you,[umano]),def_prop(nice,[valutativo])])
+lf(Sleep All Day Lyrics.txt_21,242,cl32-nil-will-try-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Sleep All Day Lyrics.txt_22,265,cl34-not-should-sleep-[cmod-subord-sleep-",subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Sleep All Day Lyrics.txt_23,288,cl35-nil-nil-waste-[cmod-subord-waste-",obj-theme_aff-time-sn2,subj-agent-you-sn1,def_prop(time,[tempo]),def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_24,312,cl37-nil-nil-take-[obj-theme_aff-break-sn4,subj-agent-we-sn3,aux-are-nil,progr-taking-nil,def_prop(break,[attivita,evento]),def_prop(we,[umano])])
+lf(Sleep All Day Lyrics.txt_24,312,cl36-nil-nil-know-[ncmod-modal-i-sn2,subj-actor-you-sn1,def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_25,338,cl38-nil-nil-know-[cmod-coord-know-and,obj-theme-room-sn8,obj-theme_unaff-ne-sn7,subj-actor-we-sn6,subj-actor-we-sn5,cmod-subord-know-",obj-theme_unaff-ne-sn3,subj-actor-we-sn2,subj-actor-we-sn1,and(ne,both,sn7),and(we,i,sn5),and(ne,both,sn3),and(we,i,sn1),def_prop(room,[nquant,oggetto,stato,strumento]),def_prop(ne,[informa,legale,tecno]),def_prop(we,[umano]),def_prop(we,[umano]),def_prop(ne,[informa,legale,tecno]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Sleep All Day Lyrics.txt_26,364,cl39-nil-nil-wipe-[iobj-goal-eye-sn3,obj-theme_aff-sleep-sn2,subj-agent-you-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(sleep,[stato,tempo]),def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_27,391,cl40-nil-will-wipe-[cmod-coord-wipe-and,iobj-goal-mine-sn6,obj-theme_aff-them-sn5,subj-agent-i-sn4,cmod-subord-wipe-",iobj-goal-mine-sn3,obj-theme_aff-them-sn2,subj-agent-i-sn1,def_prop(mine,[oggetto,strumento]),def_prop(them,[umano]),def_prop(i,[umano]),def_prop(mine,[oggetto,strumento]),def_prop(them,[umano]),def_prop(i,[umano])])
+lf(Sleep All Day Lyrics.txt_28,419,cl42-nil-nil-hold-[])
+lf(Sleep All Day Lyrics.txt_28,419,cl41-nil-nil-try-[cmod-subord-hold-",cmod-subord-hold-if,subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_29,449,cl44-nil-nil-hold-[ncmod-goal-you-sn2,def_prop(you,[umano])])
+lf(Sleep All Day Lyrics.txt_29,449,cl43-nil-will-try-[subj-actor-i-sn1,def_prop(i,[umano])])

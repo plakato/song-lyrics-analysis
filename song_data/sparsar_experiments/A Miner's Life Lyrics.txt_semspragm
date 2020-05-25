@@ -1,0 +1,113 @@
+"POLARITY, DISCOURSE MARKERS"
+
+A Miner's Life Lyrics.txt_1-1  []-positive  []
+A Miner's Life Lyrics.txt_2-3  []-suspension  [fhd,neg,neg]
+A Miner's Life Lyrics.txt_3-6  []-negative  [neg]
+A Miner's Life Lyrics.txt_4-10  []-suspension  [neg,neg,neg]
+A Miner's Life Lyrics.txt_5-17  []-positive  [fgb]
+A Miner's Life Lyrics.txt_6-23  []-negative  [neg]
+A Miner's Life Lyrics.txt_7-30  []-negative  [neg]
+A Miner's Life Lyrics.txt_8-38  []-positive  []
+A Miner's Life Lyrics.txt_9-47  []-positive  [fgb]
+A Miner's Life Lyrics.txt_10-57  []-positive  []
+A Miner's Life Lyrics.txt_10-58  []-negative  [fgb]
+A Miner's Life Lyrics.txt_10-59  []-positive  []
+A Miner's Life Lyrics.txt_11-69  [when-temp_coinc]-question  [fgb]
+A Miner's Life Lyrics.txt_11-70  []-positive  []
+A Miner's Life Lyrics.txt_12-83  []-suspension  [neg,fgb,neg,fgb,neg]
+A Miner's Life Lyrics.txt_13-96  []-positive  [bkc]
+A Miner's Life Lyrics.txt_13-97  []-positive  [fgb]
+A Miner's Life Lyrics.txt_14-111  []-negative  [neg]
+A Miner's Life Lyrics.txt_15-126  []-negative  []
+A Miner's Life Lyrics.txt_15-127  [when-temp_coinc]-positive  []
+A Miner's Life Lyrics.txt_16-143  []-positive  [fgb]
+A Miner's Life Lyrics.txt_17-161  []-positive  [bkc]
+A Miner's Life Lyrics.txt_17-162  []-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+A Miner's Life Lyrics.txt_1-1  [a,Miner-s,Life,Lyrics,by,Billy,Bragg]  [title]
+A Miner's Life Lyrics.txt_2-3  [a,miner-s,life,is,like,a,sailor,on,board,a,ship,to,cross,the,waves]  [propose_opin_neg(like-cl2,[external,factive,explanation,background,objective])]
+A Miner's Life Lyrics.txt_3-6  [his,every_day,life-s,in,danger,,,many,ventures,being,brave]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+A Miner's Life Lyrics.txt_4-10  [watch,the,rocks,they,are,falling,daily,,,careless,miners,always,fail]  [provide_expl_just(fall,[external,factive,cause,foreground,objective]),provide_expl_just(fail,[external,factive,narration,background,objective])]
+A Miner's Life Lyrics.txt_5-17  [keep,your,hand,upon,your,wages,and,your,eye,upon,the,scale]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
+A Miner's Life Lyrics.txt_6-23  [union,miners,stand,together]  [reject_expl_just(stand,[external,factive,narration,background,objective])]
+A Miner's Life Lyrics.txt_7-30  [Coal,the,Board-s,tale,do,not,heed]  [reject_expl_just(heed,[external,factive,narration,foreground,objective])]
+A Miner's Life Lyrics.txt_8-38  [keep,your,hand,upon,your,wages]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
+A Miner's Life Lyrics.txt_9-47  [and,your,eye,upon,the,scale]  [provide_expl_just(eye,[external,factive,narration,background,objective])]
+A Miner's Life Lyrics.txt_10-57  [you,boys,you,have,been,docked]  [provide_expl_just(dock-cl12,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective])]
+A Miner's Life Lyrics.txt_10-58  [and,docked,again,,,have,been,three,loading]  [provide_expl_just(dock-cl12,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective])]
+A Miner's Life Lyrics.txt_10-59  [for,one]  [provide_expl_just(dock-cl12,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective])]
+A Miner's Life Lyrics.txt_11-69  [days,mining,your,when,working,your,all,in,use,the,is,what,?]  [provide_expl_just(do,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(mine,[internal,factive,narration,background,objective])]
+A Miner's Life Lyrics.txt_11-70  [are,done]  [provide_expl_just(do,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(mine,[internal,factive,narration,background,objective])]
+A Miner's Life Lyrics.txt_12-83  [worn,out,shoes,and,worn,miners,,,blackened,lungs,and,faces,pale]  [provide_expl_just(face,[external,factive,narration,background,objective])]
+A Miner's Life Lyrics.txt_13-96  [oh,keep,your,hand,upon,your,wages]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A Miner's Life Lyrics.txt_13-97  [and,your,eye,upon,the,scale]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A Miner's Life Lyrics.txt_14-111  [in,conclusion,bear,in,memory,keep,this,password,in,your,mind]  [reject_expl_just(keep,[external,factive,narration,background,objective])]
+A Miner's Life Lyrics.txt_15-126  [worker-s,strength,cannot,be,broken]  [provide_expl_just(combine,[external,factive,narration,background,objective])]
+A Miner's Life Lyrics.txt_15-127  [when,unions,be,combined]  [provide_expl_just(combine,[external,factive,narration,background,objective])]
+A Miner's Life Lyrics.txt_16-143  [stand,up,tall,and,stand,together,,,victory,for,you,prevail]  [provide_expl_just(stand,[external,factive,narration,background,objective]),provide_expl_just(prevail,[external,factive,narration,background,objective])]
+A Miner's Life Lyrics.txt_17-161  [oh,keep,your,hands,upon,your,wages]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A Miner's Life Lyrics.txt_17-162  [and,your,eye,upon,the,scale]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(A Miner's Life Lyrics.txt_1-1)-[]
+2-(A Miner's Life Lyrics.txt_2-3)-[emotions-affection,primary-voyage,primary-voyage,primary-random_movement]
+3-(A Miner's Life Lyrics.txt_3-6)-[]
+4-(A Miner's Life Lyrics.txt_4-10)-[primary-vision,primary-hard,secondary-temporal_repere]
+5-(A Miner's Life Lyrics.txt_5-17)-[primary-narcissism,primary-narcissism]
+6-(A Miner's Life Lyrics.txt_6-23)-[]
+7-(A Miner's Life Lyrics.txt_7-30)-[]
+8-(A Miner's Life Lyrics.txt_8-38)-[primary-narcissism]
+9-(A Miner's Life Lyrics.txt_9-47)-[primary-narcissism]
+10-(A Miner's Life Lyrics.txt_10-57)-[]
+11-(A Miner's Life Lyrics.txt_10-58)-[secondary-temporal_repere]
+half
+12-(A Miner's Life Lyrics.txt_10-59)-[]
+13-(A Miner's Life Lyrics.txt_11-69)-[secondary-temporal_repere,secondary-instru_behavior]
+14-(A Miner's Life Lyrics.txt_11-70)-[]
+15-(A Miner's Life Lyrics.txt_12-83)-[primary-concreteness,primary-narcissism]
+16-(A Miner's Life Lyrics.txt_13-96)-[primary-narcissism]
+17-(A Miner's Life Lyrics.txt_13-97)-[primary-narcissism]
+18-(A Miner's Life Lyrics.txt_14-111)-[]
+19-(A Miner's Life Lyrics.txt_15-126)-[emotions-aggression]
+20-(A Miner's Life Lyrics.txt_15-127)-[secondary-temporal_repere]
+21-(A Miner's Life Lyrics.txt_16-143)-[primary-height,emotions-glory,secondary-restraint]
+22-(A Miner's Life Lyrics.txt_17-161)-[primary-narcissism]
+23-(A Miner's Life Lyrics.txt_17-162)-[primary-narcissism]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(A Miner's Life Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Bragg-sn2,subj-theme_bound-Lyrics-sn1,and(Bragg,Billy,sn2),and(Lyrics,Life,sn1),def_prop(Bragg,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(A Miner's Life Lyrics.txt_2,3,cl2-nil-nil-like-[xcomp-prop-ship-sn3,xcomp-prop-sailor-sn2,subj-tema_emot-life-sn1,aux-(is)-nil,and(life,miner-s,sn1),def_prop(ship,[attivita,informa,oggetto,strumento,umano]),def_prop(sailor,[animato,umano]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(A Miner's Life Lyrics.txt_3,6,cl3-nil-nil-be-[subj-theme_bound-venture-sn2,subj-theme_bound-venture-sn1,and(venture,many,sn2),and(venture,danger,sn1),and(venture,every_day,sn1),and(venture,life-s,sn1),and(venture,many,sn1),def_prop(venture,[attivita]),def_prop(venture,[attivita])])
+lf(A Miner's Life Lyrics.txt_4,10,cl6-nil-nil-fail-[subj-theme_aff-pro-nil,adj-(mod)-always-nil,subj-theme_aff-miner-sn5,xcomp-result-daily-sn4,xcomp-prop-fall-5,and(miner,careless,sn5),def_prop(miner,[umano]),def_prop(daily,[attivita,informa])])
+lf(A Miner's Life Lyrics.txt_4,10,cl5-nil-nil-fall-[aux-are-nil,progr-falling-nil])
+lf(A Miner's Life Lyrics.txt_4,10,cl4-nil-nil-watch-[subj-sn1-they-sn3,obj-tema_unaff-rock-sn2,subj-actor-you-sn1,def_prop(they,[umano]),def_prop(rock,[attivita,oggetto,sostanza,umano]),def_prop(you,[umano])])
+lf(A Miner's Life Lyrics.txt_5,17,cl7-nil-nil-keep-[cmod-subord-keep-",ncmod-subj_disc-scale-sn9,ncmod-subj_disc-wage-sn3,obj-goal-hand-sn2,subj-experiencer-you-sn1,def_prop(scale,[animato,attivita,informa,oggetto,plant,relat,strumento]),def_prop(wage,[astratto,oggetto]),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(A Miner's Life Lyrics.txt_6,23,cl8-nil-nil-stand-[xcomp-prop-together-sn2,subj-experiencer-miner-sn1,and(miner,union,sn1),def_prop(together,[evaluative]),def_prop(miner,[umano])])
+lf(A Miner's Life Lyrics.txt_7,30,cl9-not-nil-heed-[obj-theme-Coal-sn2,subj-agent-you-sn1,aux-do-nil,def_prop(Coal,[istituzione,umano]),def_prop(you,[umano])])
+lf(A Miner's Life Lyrics.txt_8,38,cl10-nil-nil-keep-[ncmod-subj_disc-wage-sn3,obj-goal-hand-sn2,subj-experiencer-you-sn1,def_prop(wage,[astratto,oggetto]),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(A Miner's Life Lyrics.txt_9,47,cl11-nil-nil-eye-[cmod-subord-eye-",ncmod-subj_disc-scale-sn2,subj-stimulus-your-sn1,def_prop(scale,[animato,attivita,informa,oggetto,plant,relat,strumento]),def_prop(your,[evaluative])])
+lf(A Miner's Life Lyrics.txt_10,57,cl13-nil-nil-be-[subj-actor-you-sn7,cmod-subord-be-",adj-(mod)-again-nil,subj-theme_bound-load-sn5,and(load,three,sn5),def_prop(you,[umano]),def_prop(load,[attivita,cambia,nquant,oggetto,strumento])])
+lf(A Miner's Life Lyrics.txt_10,57,cl12-nil-nil-dock-[subj-theme-you-sn2,subj-theme-you-sn1,aux-been-nil,aux-have-nil,and(you,boy,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(A Miner's Life Lyrics.txt_11,69,cl16-nil-nil-do-[subj-actor-pro-nil,aux-are-nil])
+lf(A Miner's Life Lyrics.txt_11,69,cl15-nil-nil-mine-[subj-theme-what-sn1,def_prop(what,[oggetto])])
+lf(A Miner's Life Lyrics.txt_11,69,cl14-nil-nil-be-[adj-temporal-days-nil,xcomp-prop-your-sn3,xcomp-prop-use-sn2,subj-actor-what-sn1,def_prop(your,[evaluative]),def_prop(use,[astratto,attivita]),def_prop(what,[oggetto])])
+lf(A Miner's Life Lyrics.txt_12,83,cl17-nil-nil-face-[])
+lf(A Miner's Life Lyrics.txt_13,96,cl19-nil-nil-be-[cmod-subord-be-",ncmod-subj_disc-scale-sn9,subj-theme_bound-eye-sn8,def_prop(scale,[animato,attivita,informa,oggetto,plant,relat,strumento]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(A Miner's Life Lyrics.txt_13,96,cl18-nil-nil-keep-[ncmod-subj_disc-wage-sn3,obj-goal-hand-sn2,subj-experiencer-oh-sn1,def_prop(wage,[astratto,oggetto]),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(oh,[informa,tecno])])
+lf(A Miner's Life Lyrics.txt_14,111,cl20-nil-nil-keep-[iobj-goal-mind-sn4,obj-theme_aff-bear-sn3,iobj-goal-conclusion-sn2,subj-experiencer-password-sn1,and(password,this,sn1),def_prop(mind,[astratto]),def_prop(bear,[animato,plant,umano]),def_prop(conclusion,[astratto,attivita,informa]),def_prop(password,[attivita,informa])])
+lf(A Miner's Life Lyrics.txt_15,126,cl22-nil-nil-combine-[subj-theme_unaff-you-sn2,aux-be-nil,def_prop(you,[umano])])
+lf(A Miner's Life Lyrics.txt_15,126,cl21-not-can-break-[subj-theme_aff-you-sn1,aux-be-nil,def_prop(you,[umano])])
+lf(A Miner's Life Lyrics.txt_16,143,cl24-nil-nil-prevail-[cmod-coord-prevail-and,subj-agent-you-sn8,def_prop(you,[umano])])
+lf(A Miner's Life Lyrics.txt_16,143,cl23-nil-nil-stand-[xcomp-agent-together-sn6,subj-agent-you-sn5,xcomp-prop-tall-sn2,subj-experiencer-you-sn1,def_prop(together,[evaluative]),def_prop(you,[umano]),def_prop(tall,[valutativo]),def_prop(you,[umano])])
+lf(A Miner's Life Lyrics.txt_17,161,cl26-nil-nil-be-[cmod-subord-be-",ncmod-subj_disc-scale-sn9,subj-theme_bound-eye-sn8,def_prop(scale,[animato,attivita,informa,oggetto,plant,relat,strumento]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(A Miner's Life Lyrics.txt_17,161,cl25-nil-nil-keep-[ncmod-subj_disc-wage-sn3,obj-goal-hand-sn2,subj-experiencer-oh-sn1,def_prop(wage,[astratto,oggetto]),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(oh,[informa,tecno])])

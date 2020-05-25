@@ -1,0 +1,108 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Dig a Grave Lyrics.txt_1-1  []-positive  []
+Dig a Grave Lyrics.txt_2-3  [(as)-temp_coinc]-positive  []
+Dig a Grave Lyrics.txt_3-6  []-positive  [neg]
+Dig a Grave Lyrics.txt_4-10  [when-temp_coinc]-positive  []
+Dig a Grave Lyrics.txt_5-15  [so-result]-negative  [fgb,neg]
+Dig a Grave Lyrics.txt_6-22  [if-hypoth]-negative  [fgb,neg]
+Dig a Grave Lyrics.txt_7-29  []-question  []
+Dig a Grave Lyrics.txt_7-30  []-negative  [neg,neg,neg]
+Dig a Grave Lyrics.txt_8-38  []-positive  []
+Dig a Grave Lyrics.txt_9-47  [while-temp_coinc]-positive  []
+Dig a Grave Lyrics.txt_9-47  [while-temp_coinc]-positive  [neg]
+Dig a Grave Lyrics.txt_10-57  [(as)-temp_coinc]-negative  []
+Dig a Grave Lyrics.txt_11-68  []-suspension  [neg]
+Dig a Grave Lyrics.txt_12-80  []-suspension  []
+Dig a Grave Lyrics.txt_12-81  [but-advers]-negative  [fgb,neg]
+Dig a Grave Lyrics.txt_13-94  [so-result]-suspension  [fgb]
+Dig a Grave Lyrics.txt_14-110  []-negative  [neg]
+Dig a Grave Lyrics.txt_14-111  []-positive  []
+Dig a Grave Lyrics.txt_15-127  []-negative  [fgb]
+Dig a Grave Lyrics.txt_16-143  []-positive  []
+Dig a Grave Lyrics.txt_17-160  [while-temp_coinc]-positive  [neg]
+Dig a Grave Lyrics.txt_17-160  [while-temp_coinc]-positive  [neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Dig a Grave Lyrics.txt_1-1  [dig,a,Grave,Lyrics,by,Sweatshop,Union]  [title]
+Dig a Grave Lyrics.txt_2-3  [as,i,sit,here]  [provide_expl_just(sit,[external,factive,narration,background,objective])]
+Dig a Grave Lyrics.txt_3-6  [underneath,the,falling,sun]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Dig a Grave Lyrics.txt_4-10  [all,it,wonder,when,is,done]  [provide_expl_just(do-cl4,[external,factive,explanation,background,objective])]
+Dig a Grave Lyrics.txt_5-15  [would,it,be,so,bothersome]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+Dig a Grave Lyrics.txt_6-22  [if,dying,is,a,part,of,growing,just,old]  [reject_expl_just(be,[external,nonfactive,hypothesis,foreground,objective])]
+Dig a Grave Lyrics.txt_7-29  [live,why,?]  [provide_expl_just(live,[internal,factive,narration,foreground,objective]),provide_expl_just(drive,[internal,factive,narration,background,objective])]
+Dig a Grave Lyrics.txt_7-30  [a,long,life,driving,alone,on,a,lonely,road]  [reject_expl_just(live,[internal,factive,narration,foreground,objective]),reject_expl_just(drive,[internal,factive,narration,background,objective])]
+Dig a Grave Lyrics.txt_8-38  [ohhh,time,only,just,ticks,away]  [provide_expl_just(tick,[external,factive,narration,background,objective])]
+Dig a Grave Lyrics.txt_9-47  [while,i,just,sit,here,thinking,about,digging]  [provide_expl_just(sit,[external,factive,narration,background,objective])]
+Dig a Grave Lyrics.txt_9-47  [while,i,just,sit,here,thinking,about,digging,a,grave]  [provide_expl_just(sit,[external,factive,narration,background,objective])]
+Dig a Grave Lyrics.txt_10-57  [as,i,sit,here,,,below,clouds,of,gray]  [provide_expl_just(sit,[external,factive,narration,background,objective])]
+Dig a Grave Lyrics.txt_11-68  [often,my,faith,doubt]  [provide_expl_just(doubt,[external,factive,narration,background,objective])]
+Dig a Grave Lyrics.txt_12-80  [it,will,rain,tomorrow]  [provide_expl_just(rain,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Dig a Grave Lyrics.txt_12-81  [but,not,today]  [reject_expl_just(rain,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Dig a Grave Lyrics.txt_13-94  [so,why,should,i,abide,by,the,things,i,am,told]  [provide_expl_just(shall,[external,nonfactive,narration,foreground,objective]),provide_expl_just(abide,[external,factive,narration,background,objective])]
+Dig a Grave Lyrics.txt_14-110  [i,had,rather,die,than,let]  [reject_expl_just(let,[external,factive,narration,background,objective]),reject_expl_just(die,[external,factive,narration,background,objective])]
+Dig a Grave Lyrics.txt_14-111  [it,show]  [provide_expl_just(let,[external,factive,narration,background,objective]),provide_expl_just(die,[external,factive,narration,background,objective])]
+Dig a Grave Lyrics.txt_15-127  [what,is,inside,this,injured,soul]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Dig a Grave Lyrics.txt_16-143  [ohhh,time,only,just,ticks,away]  [provide_expl_just(tick,[external,factive,narration,background,objective])]
+Dig a Grave Lyrics.txt_17-160  [while,i,just,lie,here,face]  [propose_opin_neg(lie,[external,factive,circumstance,background,objective])]
+Dig a Grave Lyrics.txt_17-160  [while,i,just,lie,here,face,down,in,an,open,grave]  [propose_opin_neg(lie,[external,factive,circumstance,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Dig a Grave Lyrics.txt_1-1)-[primary-descent]
+2-(Dig a Grave Lyrics.txt_2-3)-[primary-concreteness]
+3-(Dig a Grave Lyrics.txt_3-6)-[primary-depth,primary-fire]
+4-(Dig a Grave Lyrics.txt_4-10)-[emotions-glory,secondary-temporal_repere]
+5-(Dig a Grave Lyrics.txt_5-15)-[]
+6-(Dig a Grave Lyrics.txt_6-22)-[primary-passivity,secondary-temporal_repere]
+7-(Dig a Grave Lyrics.txt_7-29)-[secondary-abstract_tought]
+8-(Dig a Grave Lyrics.txt_7-30)-[primary-concreteness,emotions-sadness,primary-brink]
+9-(Dig a Grave Lyrics.txt_8-38)-[secondary-temporal_repere,primary-concreteness]
+10-(Dig a Grave Lyrics.txt_9-47)-[secondary-temporal_repere,primary-concreteness]
+11-(Dig a Grave Lyrics.txt_9-47)-[secondary-temporal_repere,primary-concreteness]
+half
+12-(Dig a Grave Lyrics.txt_10-57)-[primary-concreteness,primary-depth,primary-diffusion,primary-vision]
+13-(Dig a Grave Lyrics.txt_11-68)-[secondary-temporal_repere,emotions-aggression]
+14-(Dig a Grave Lyrics.txt_12-80)-[primary-water]
+15-(Dig a Grave Lyrics.txt_12-81)-[secondary-temporal_repere]
+16-(Dig a Grave Lyrics.txt_13-94)-[secondary-abstract_tought,secondary-moral_imperative,secondary-social_behavior]
+17-(Dig a Grave Lyrics.txt_14-110)-[primary-passivity]
+18-(Dig a Grave Lyrics.txt_14-111)-[]
+19-(Dig a Grave Lyrics.txt_15-127)-[primary-concreteness,emotions-aggression]
+20-(Dig a Grave Lyrics.txt_16-143)-[secondary-temporal_repere,primary-concreteness]
+21-(Dig a Grave Lyrics.txt_17-160)-[secondary-temporal_repere,primary-passivity,primary-concreteness,primary-narcissism]
+22-(Dig a Grave Lyrics.txt_17-160)-[secondary-temporal_repere,primary-passivity,primary-concreteness,primary-narcissism,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Dig a Grave Lyrics.txt_1,1,cl1-nil-nil-dig-[arg_mod-agent-Union-sn2,subj-agent-Lyrics-sn1,and(Union,Sweatshop,sn2),and(Lyrics,Grave,sn1),def_prop(Union,[place,luogo]),def_prop(Lyrics,[informa,tecno])])
+lf(Dig a Grave Lyrics.txt_2,3,cl2-nil-nil-sit-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Dig a Grave Lyrics.txt_3,6,cl3-nil-nil-be-[adj-(mod)-underneath-nil,subj-theme_bound-sun-sn1,and(sun,falling,sn1),def_prop(sun,[oggetto,umano])])
+lf(Dig a Grave Lyrics.txt_4,10,cl4-nil-nil-do-[subj-actor-wonder-sn2,subj-actor-wonder-sn1,aux-(is)-nil,and(wonder,it,sn1),def_prop(wonder,[emotivo,evento]),def_prop(wonder,[emotivo,evento])])
+lf(Dig a Grave Lyrics.txt_5,15,cl6-nil-nil-be-[xcomp-prop-bothersome-sn2,xcomp-purpose-be-2,def_prop(bothersome,[evaluative])])
+lf(Dig a Grave Lyrics.txt_5,15,cl5-nil-would-will-[subj-agent-it-sn1,def_prop(it,[any])])
+lf(Dig a Grave Lyrics.txt_6,22,cl7-nil-nil-be-[xadj-adj-old-adj1,adj-(mod)-just-nil,xcomp-result-part-sn1,xcomp-purpose-be-2,def_prop(old,_384104),def_prop(part,[astratto,attivita,body_part,informa,oggetto,relat,strumento,umano])])
+lf(Dig a Grave Lyrics.txt_7,29,cl9-nil-nil-drive-[adj-locative-alone-nil,ncmod-locativo-road-sn3,subj-agent-life-sn2,and(road,lonely,sn3),and(life,long,sn2),def_prop(road,[attivita,oggetto,strumento]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Dig a Grave Lyrics.txt_7,29,cl8-nil-nil-live-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Dig a Grave Lyrics.txt_8,38,cl10-nil-nil-tick-[xcomp-prop-away-sn2,subj-agent-ohhh-sn1,def_prop(away,[evaluative]),def_prop(ohhh,[istituzione])])
+lf(Dig a Grave Lyrics.txt_9,47,cl11-nil-nil-sit-[cmod-subord-dig-while,xadj-theme-grave-sn9,adj-(mod)-here-nil,adj-(mod)-just-nil,xcomp-prop-thinking-sn6,subj-actor-i-sn5,xcomp-prop-thinking-sn2,subj-actor-i-sn1,def_prop(grave,[valutativo]),def_prop(thinking,[astratto]),def_prop(i,[umano]),def_prop(thinking,[astratto]),def_prop(i,[umano])])
+lf(Dig a Grave Lyrics.txt_10,57,cl12-nil-nil-sit-[adj-(mod)-below-nil,adj-(mod)-here-nil,subj-actor-cloud-sn2,subj-actor-cloud-sn1,and(cloud,i,sn1),def_prop(cloud,[attivita,cambia,oggetto,stato]),def_prop(cloud,[attivita,cambia,oggetto,stato])])
+lf(Dig a Grave Lyrics.txt_11,68,cl13-nil-nil-doubt-[adj-(mod)-often-nil,subj-agent-faith-sn1,def_prop(faith,[astratto,attivita])])
+lf(Dig a Grave Lyrics.txt_12,80,cl15-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Dig a Grave Lyrics.txt_12,80,cl14-nil-will-rain-[subj-form-it-sn1,def_prop(it,[any])])
+lf(Dig a Grave Lyrics.txt_13,94,cl17-nil-nil-tell-[subj-theme_unaff-i-sn3,aux-am-nil,def_prop(i,[umano])])
+lf(Dig a Grave Lyrics.txt_13,94,cl16-nil-nil-abide-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Dig a Grave Lyrics.txt_13,94,nil-nil-should-shall-[arg_mod-agent-thing-sn2,subj-theme_unaff-i-sn1,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(i,[umano])])
+lf(Dig a Grave Lyrics.txt_14,110,cl20-nil-nil-show-[subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Dig a Grave Lyrics.txt_14,110,cl19-nil-nil-let-[adj-(mod)-show-nil])
+lf(Dig a Grave Lyrics.txt_14,110,cl18-nil-nil-die-[subj-theme_aff-i-sn1,aux-had-nil,def_prop(i,[umano])])
+lf(Dig a Grave Lyrics.txt_15,127,cl21-nil-nil-be-[xcomp-prop-soul-sn2,subj-theme_bound-what-sn1,and(soul,inside,sn2),and(soul,this,sn2),and(soul,injured,sn2),def_prop(soul,[attivita,emotivo,informa,umano]),def_prop(what,[oggetto])])
+lf(Dig a Grave Lyrics.txt_16,143,cl22-nil-nil-tick-[xcomp-prop-away-sn2,subj-agent-ohhh-sn1,def_prop(away,[evaluative]),def_prop(ohhh,[istituzione])])
+lf(Dig a Grave Lyrics.txt_17,160,cl23-nil-nil-lie-[cmod-subord-lie-while,xadj-adj-down-adj2,adj-(mod)-here-nil,adj-(mod)-just-nil,iobj-goal-grave-sn8,obj-theme-face-sn7,subj-actor-i-sn6,obj-theme-face-sn2,subj-actor-i-sn1,and(grave,open,sn8),def_prop(down,_386374),def_prop(grave,[valutativo]),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(i,[umano]),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(i,[umano])])

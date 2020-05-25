@@ -1,0 +1,91 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Inoculate the Innocuous Lyrics.txt_1-1  []-positive  []
+Inoculate the Innocuous Lyrics.txt_2-3  []-positive  []
+Inoculate the Innocuous Lyrics.txt_3-6  []-negative  [fgb,neg]
+Inoculate the Innocuous Lyrics.txt_4-10  []-negative  [neg]
+Inoculate the Innocuous Lyrics.txt_5-15  []-positive  []
+Inoculate the Innocuous Lyrics.txt_5-16  [when-temp_coinc]-negative  [neg]
+Inoculate the Innocuous Lyrics.txt_6-23  []-positive  []
+Inoculate the Innocuous Lyrics.txt_7-30  []-positive  []
+Inoculate the Innocuous Lyrics.txt_8-40  []-suspension  []
+Inoculate the Innocuous Lyrics.txt_9-49  [but-advers]-positive  [fgb,fgb]
+Inoculate the Innocuous Lyrics.txt_10-59  []-negative  [neg]
+Inoculate the Innocuous Lyrics.txt_11-70  []-positive  []
+Inoculate the Innocuous Lyrics.txt_12-82  []-negative  [neg]
+Inoculate the Innocuous Lyrics.txt_13-97  []-positive  []
+Inoculate the Innocuous Lyrics.txt_13-98  []-negative  [neg]
+Inoculate the Innocuous Lyrics.txt_14-112  []-positive  []
+Inoculate the Innocuous Lyrics.txt_14-113  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Inoculate the Innocuous Lyrics.txt_1-1  [inoculate,the,Innocuous,Lyrics,by,the,Unicorns]  [title]
+Inoculate the Innocuous Lyrics.txt_2-3  [small,doses,daily]  [provide_expl_just(dose,[external,factive,narration,background,objective])]
+Inoculate the Innocuous Lyrics.txt_3-6  [absorbed,and,collected,in,the,glands,of,fatty,tissues,over,time]  [reject_expl_just(tissue,[external,factive,narration,background,objective])]
+Inoculate the Innocuous Lyrics.txt_4-10  [somewhere,in,the,asshole,of,my,eye]  [reject_expl_just(eye,[external,factive,narration,background,objective])]
+Inoculate the Innocuous Lyrics.txt_5-15  [there,is,a,muscle,which,relaxes]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(cry,[external,factive,narration,background,objective]),provide_expl_just(relax,[external,factive,narration,background,objective])]
+Inoculate the Innocuous Lyrics.txt_5-16  [when,you,cry]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(cry,[external,factive,narration,background,objective]),reject_expl_just(relax,[external,factive,narration,background,objective])]
+Inoculate the Innocuous Lyrics.txt_6-23  [somewhere,in,the,eye,of,my,brain]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Inoculate the Innocuous Lyrics.txt_7-30  [there,is,a,muscle,which,makes,me,go]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Inoculate the Innocuous Lyrics.txt_8-40  [storage,cells,for,substance,hidden]  [provide_expl_just(hide,[external,factive,narration,foreground,objective])]
+Inoculate the Innocuous Lyrics.txt_9-49  [but,new,flavours,and,aromas,go,on]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Inoculate the Innocuous Lyrics.txt_10-59  [reflect,on,your,absence]  [reject_expl_just(reflect,[external,factive,narration,background,objective])]
+Inoculate the Innocuous Lyrics.txt_11-70  [genuflect,in,my,presence]  [provide_expl_just(genuflect,[external,factive,narration,background,objective])]
+Inoculate the Innocuous Lyrics.txt_12-82  [remove,your,absess,they,said,it,is,cancer]  [reject_expl_just(say,[external,factive,narration,foreground,objective]),reject_expl_just(remove,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Inoculate the Innocuous Lyrics.txt_13-97  [bananas,help,me]  [provide_expl_just(help,[external,factive,narration,background,objective]),provide_expl_just(unwind,[external,factive,narration,background,objective])]
+Inoculate the Innocuous Lyrics.txt_13-98  [unwind]  [reject_expl_just(help,[external,factive,narration,background,objective]),reject_expl_just(unwind,[external,factive,narration,background,objective])]
+Inoculate the Innocuous Lyrics.txt_14-112  [watermelon,makes]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Inoculate the Innocuous Lyrics.txt_14-113  [it,awesome]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Inoculate the Innocuous Lyrics.txt_1-1)-[]
+2-(Inoculate the Innocuous Lyrics.txt_2-3)-[secondary-temporal_repere]
+3-(Inoculate the Innocuous Lyrics.txt_3-6)-[secondary-instru_behavior,primary-orality,primary-concreteness,secondary-temporal_repere]
+4-(Inoculate the Innocuous Lyrics.txt_4-10)-[primary-concreteness,primary-anality,primary-narcissism]
+5-(Inoculate the Innocuous Lyrics.txt_5-15)-[primary-narcissism,primary-passivity]
+6-(Inoculate the Innocuous Lyrics.txt_5-16)-[secondary-temporal_repere,emotions-expressive_beh]
+7-(Inoculate the Innocuous Lyrics.txt_6-23)-[primary-concreteness,primary-narcissism,primary-narcissism]
+8-(Inoculate the Innocuous Lyrics.txt_7-30)-[primary-narcissism,secondary-instru_behavior]
+half
+9-(Inoculate the Innocuous Lyrics.txt_8-40)-[]
+10-(Inoculate the Innocuous Lyrics.txt_9-49)-[primary-odor]
+11-(Inoculate the Innocuous Lyrics.txt_10-59)-[]
+12-(Inoculate the Innocuous Lyrics.txt_11-70)-[]
+13-(Inoculate the Innocuous Lyrics.txt_12-82)-[secondary-social_behavior]
+14-(Inoculate the Innocuous Lyrics.txt_13-97)-[primary-orality,secondary-social_behavior]
+15-(Inoculate the Innocuous Lyrics.txt_13-98)-[]
+16-(Inoculate the Innocuous Lyrics.txt_14-112)-[secondary-instru_behavior]
+17-(Inoculate the Innocuous Lyrics.txt_14-113)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Inoculate the Innocuous Lyrics.txt_1,1,cl1-nil-nil-inoculate-[arg_mod-agent-unicorn-sn2,subj-actor-Lyrics-sn1,and(Lyrics,Innocuous,sn1),def_prop(unicorn,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Inoculate the Innocuous Lyrics.txt_2,3,cl2-nil-nil-dose-[xcomp-prop-daily-sn2,subj-agent-small-sn1,def_prop(daily,[attivita,informa]),def_prop(small,[valutativo])])
+lf(Inoculate the Innocuous Lyrics.txt_3,6,cl3-nil-nil-tissue-[subj-actor-pro-nil])
+lf(Inoculate the Innocuous Lyrics.txt_4,10,cl4-nil-nil-eye-[adj-(mod)-somewhere-nil,ncmod-locativo-asshole-sn1,def_prop(asshole,[umano])])
+lf(Inoculate the Innocuous Lyrics.txt_5,15,nil-nil-nil-relax-[subj-cause-muscle-sn2,def_prop(muscle,[astratto,body_part,umano])])
+lf(Inoculate the Innocuous Lyrics.txt_5,15,cl6-nil-nil-cry-[subj-experiencer-you-sn3,def_prop(you,[umano])])
+lf(Inoculate the Innocuous Lyrics.txt_5,15,cl5-nil-nil-be-[xcomp-prop-muscle-sn2,subj-theme_bound-there-sn1,def_prop(muscle,[astratto,body_part,umano]),def_prop(there,[any])])
+lf(Inoculate the Innocuous Lyrics.txt_6,23,cl7-nil-nil-be-[adj-(mod)-somewhere-nil,ncmod-locativo-eye-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(Inoculate the Innocuous Lyrics.txt_7,30,cl10-nil-nil-make-[subj-agent-muscle-sn2,def_prop(muscle,[astratto,body_part,umano])])
+lf(Inoculate the Innocuous Lyrics.txt_7,30,cl9-nil-nil-go-[subj-agent-pro-nil,subj-agent-muscle-sn2,def_prop(muscle,[astratto,body_part,umano])])
+lf(Inoculate the Innocuous Lyrics.txt_7,30,cl8-nil-nil-be-[subj-theme_bound-there-sn1,def_prop(there,[any])])
+lf(Inoculate the Innocuous Lyrics.txt_8,40,cl11-nil-nil-hide-[cmod-subord-hide-for,subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Inoculate the Innocuous Lyrics.txt_9,49,cl12-nil-nil-go-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Inoculate the Innocuous Lyrics.txt_10,59,cl13-nil-nil-reflect-[iobj-goal-absence-sn2,subj-agent-you-sn1,def_prop(absence,[attivita,stato,tempo]),def_prop(you,[umano])])
+lf(Inoculate the Innocuous Lyrics.txt_11,70,cl14-nil-nil-genuflect-[ncmod-locativo-presence-sn2,subj-actor-you-sn1,def_prop(presence,[astratto,attivita,luogo,stato,umano]),def_prop(you,[umano])])
+lf(Inoculate the Innocuous Lyrics.txt_12,82,cl17-nil-nil-be-[])
+lf(Inoculate the Innocuous Lyrics.txt_12,82,cl16-nil-nil-say-[])
+lf(Inoculate the Innocuous Lyrics.txt_12,82,cl15-nil-nil-remove-[obj-theme-they-sn3,obj-goal-absess-sn2,subj-agent-you-sn1,def_prop(they,[umano]),def_prop(absess,[istituzione]),def_prop(you,[umano])])
+lf(Inoculate the Innocuous Lyrics.txt_13,97,cl19-nil-nil-unwind-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Inoculate the Innocuous Lyrics.txt_13,97,cl18-nil-nil-help-[obj-theme_unaff-me-sn2,subj-agent-banana-sn1,def_prop(me,[umano]),def_prop(banana,[edible,oggetto,plant])])
+lf(Inoculate the Innocuous Lyrics.txt_14,112,cl21-nil-nil-be-[xcomp-prop-awesome-sn3,subj-theme_bound-it-sn2,def_prop(awesome,[evaluative]),def_prop(it,[any])])
+lf(Inoculate the Innocuous Lyrics.txt_14,112,cl20-nil-nil-make-[subj-agent-you-sn1,def_prop(you,[umano])])

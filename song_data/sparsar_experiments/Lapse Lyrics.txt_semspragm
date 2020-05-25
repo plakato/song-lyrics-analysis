@@ -1,0 +1,229 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Lapse Lyrics.txt_1-1  []-negative  [neg]
+Lapse Lyrics.txt_2-3  [(as)-temp_coinc]-positive  []
+Lapse Lyrics.txt_3-7  []-negative  [neg,neg]
+Lapse Lyrics.txt_3-8  []-positive  []
+Lapse Lyrics.txt_4-12  []-positive  []
+Lapse Lyrics.txt_4-13  []-negative  [fgb,neg]
+Lapse Lyrics.txt_5-18  [because-cause]-negative  [neg,neg]
+Lapse Lyrics.txt_6-24  []-negative  [neg]
+Lapse Lyrics.txt_6-25  []-positive  []
+Lapse Lyrics.txt_6-26  []-positive  []
+Lapse Lyrics.txt_6-27  []-positive  []
+Lapse Lyrics.txt_7-35  []-positive  []
+Lapse Lyrics.txt_8-43  []-positive  []
+Lapse Lyrics.txt_8-44  [when-temp_coinc]-negative  [neg]
+Lapse Lyrics.txt_9-53  []-positive  []
+Lapse Lyrics.txt_9-54  []-negative  [fgb,neg]
+Lapse Lyrics.txt_10-65  [but-advers]-negative  [fgb,neg]
+Lapse Lyrics.txt_11-76  []-positive  [neg]
+Lapse Lyrics.txt_11-77  []-positive  [fgb]
+Lapse Lyrics.txt_12-89  []-positive  [neg,neg,fgb,neg]
+Lapse Lyrics.txt_13-104  []-negative  []
+Lapse Lyrics.txt_13-105  []-positive  []
+Lapse Lyrics.txt_14-119  [if-hypoth]-positive  [fgb]
+Lapse Lyrics.txt_14-120  []-negative  [neg,neg]
+Lapse Lyrics.txt_15-136  []-positive  [neg]
+Lapse Lyrics.txt_16-153  [but-advers,so-result,when-temp_coinc]-negative  [fgb,fgb,neg]
+Lapse Lyrics.txt_17-172  [so-result]-negative  [fgb,neg,neg]
+Lapse Lyrics.txt_18-190  []-negative  [neg,neg]
+Lapse Lyrics.txt_19-210  []-positive  [fhd]
+Lapse Lyrics.txt_20-230  []-negative  [fgb,neg,neg]
+Lapse Lyrics.txt_20-231  []-positive  []
+Lapse Lyrics.txt_20-232  []-positive  []
+Lapse Lyrics.txt_21-253  []-positive  []
+Lapse Lyrics.txt_21-254  [if-hypoth]-positive  [fgb]
+Lapse Lyrics.txt_22-276  []-positive  [neg,neg]
+Lapse Lyrics.txt_23-300  [if-hypoth,then-temp_seq]-negative  [fgb,fgb,neg]
+Lapse Lyrics.txt_24-324  [then-temp_seq]-negative  [neg]
+Lapse Lyrics.txt_24-324  [then-temp_seq,when-temp_coinc]-negative  [neg,neg]
+Lapse Lyrics.txt_25-349  []-negative  [neg,fhd,neg]
+Lapse Lyrics.txt_25-350  []-positive  []
+Lapse Lyrics.txt_26-376  []-positive  []
+Lapse Lyrics.txt_27-403  []-negative  [fgb,neg]
+Lapse Lyrics.txt_27-404  [then-temp_seq]-positive  []
+Lapse Lyrics.txt_28-433  []-positive  []
+Lapse Lyrics.txt_28-434  [so-result]-negative  [fgb,neg]
+Lapse Lyrics.txt_28-434  [so-result]-negative  [fgb,neg]
+Lapse Lyrics.txt_29-463  []-positive  []
+Lapse Lyrics.txt_29-464  [if-hypoth]-negative  [fgb]
+Lapse Lyrics.txt_30-494  []-positive  []
+Lapse Lyrics.txt_31-525  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Lapse Lyrics.txt_1-1  [lapse,Lyrics,by,Yung,Dori]  [title]
+Lapse Lyrics.txt_2-3  [watch,the,fame,spark,ignition,as,i,your,end,whole,career]  [provide_expl_just(spark,[external,factive,explanation,background,objective]),provide_expl_just(watch,[external,factive,explanation,background,objective])]
+Lapse Lyrics.txt_3-7  [i,is,not,do,this,shit]  [reject_expl_just(do-cl4,[external,factive,explanation,background,objective]),propose_opin_neg(do-cl4,[external,factive,explanation,background,objective]),reject_expl_just(care,[external,factive,explanation,background,objective]),propose_opin_neg(care,[external,factive,explanation,background,objective])]
+Lapse Lyrics.txt_3-8  [for,money,boy,i,do_it,cause,i,care]  [provide_expl_just(do-cl4,[external,factive,explanation,background,objective]),provide_expl_just(care,[external,factive,explanation,background,objective])]
+Lapse Lyrics.txt_4-12  [i,take,the,blade]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(cut,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_4-13  [and,my,veins,cut]  [reject_expl_just(take,[external,factive,narration,background,objective]),reject_expl_just(cut,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_5-18  [because,i,fucking,hate,my,life]  [reject_expl_just(hate,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_6-24  [i,wanna,die]  [reject_expl_just(wanna,[external,factive,narration,background,objective]),reject_expl_just(die,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(pour,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_6-25  [i,got]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(die,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(pour,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_6-26  [the,liquid,acid,pour]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(die,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(pour,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_6-27  [it,in,my,eyes]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(die,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(pour,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_7-35  [i,am,taking,trips,on,the,potent]  [provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Lapse Lyrics.txt_8-43  [i,think,lifes,best]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_8-44  [when,it,is,frozen]  [reject_expl_just(think,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_9-53  [you,see]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(eat,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_9-54  [us,eat,what,is,stolen]  [reject_expl_just(see,[external,factive,narration,background,objective]),reject_expl_just(eat,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_10-65  [but,never,locked,in,the,holding]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_11-76  [i,gotta,really,crazy,theory,on,my,life]  [provide_expl_just(turn,[external,factive,cause,foreground,objective]),suggest(turn,[external,factive,cause,foreground,objective])]
+Lapse Lyrics.txt_11-77  [and,how,it,is,turning]  [provide_expl_just(turn,[external,factive,cause,foreground,objective]),suggest(turn,[external,factive,cause,foreground,objective])]
+Lapse Lyrics.txt_12-89  [go,it,burn,to,bout,Crackhead,boy,my,burning,we,now,and,gun,the,get,!]  [provide_expl_just(go,[internal,factive,narration,foreground,objective]),provide_expl_just(burn,[internal,factive,narration,background,objective]),provide_expl_just(get,[internal,factive,narration,foreground,objective])]
+Lapse Lyrics.txt_13-104  [from,a,town,real,niggas,don-t,make]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Lapse Lyrics.txt_13-105  [it]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Lapse Lyrics.txt_14-119  [if,you,coming,down,trill]  [provide_expl_just(don-t,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_14-120  [niggas,don-t,fake,shit]  [reject_expl_just(don-t,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_15-136  [we,Gon,run,it,now,Lil,niggas,throw,shade]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(throw,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_16-153  [but,when,summer,come,around,i,am,so,cold,i,feel,naked]  [reject_expl_just(feel,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_17-172  [so,where,the,fuck,is,my,money,at,.,the,fuck,is,my,money,at]  [reject_expl_just(money,[internal,factive,narration,background,objective])]
+Lapse Lyrics.txt_18-190  [i,is,not,come,around,to,ask,your,funny,ass,for_anything]  [reject_expl_just(ask,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_19-210  [on,errythang,i,am,running,like,a,Pontiac]  [provide_expl_just(run,[external,factive,cause,foreground,objective])]
+Lapse Lyrics.txt_20-230  [and,i,is,not,tripping,not]  [reject_expl_just(dip,[external,factive,cause,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_20-231  [i,am,just,dipping,in,the,fishes]  [provide_expl_just(dip,[external,factive,cause,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_20-232  [for,my,putty,back]  [provide_expl_just(dip,[external,factive,cause,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_21-253  [i,am,wondering]  [provide_expl_just(love,[external,factive,narration,foreground,objective])]
+Lapse Lyrics.txt_21-254  [if,you,loving,the,shits]  [provide_expl_just(love,[external,factive,narration,foreground,objective])]
+Lapse Lyrics.txt_22-276  [cause,you,was,tugging,the,grip,you,son,of,a,bitch]  [provide_expl_just(tug,[external,factive,cause,foreground,objective])]
+Lapse Lyrics.txt_23-300  [and,if,the,ice,cold,melt,then,i,am,Micheal,Phelps]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_24-324  [then,i,get,another,hard]  [reject_expl_just(rub,[external,factive,narration,foreground,objective])]
+Lapse Lyrics.txt_24-324  [then,i,get,another,hard,on,when,you,rubbing,the,dick]  [reject_expl_just(rub,[external,factive,narration,foreground,objective])]
+Lapse Lyrics.txt_25-349  [i,get,fraud,like,the,motherfucking,government]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_25-350  [is]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_26-376  [pick,up,the]  [provide_expl_just(pick,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_27-403  [38,and,it,dirty,with,mugging]  [reject_expl_just(mug,[external,factive,narration,foreground,objective]),reject_expl_just(dirty,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_27-404  [then]  [provide_expl_just(mug,[external,factive,narration,foreground,objective]),provide_expl_just(dirty,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_28-433  [i,go,off]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_28-434  [so,frosty,you,lost,me,another,Nigga]  [reject_expl_just(go,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_28-434  [so,frosty,you,lost,me,another,Nigga,fried]  [reject_expl_just(go,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_29-463  [you,gone,tell,me]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(bug,[external,factive,narration,foreground,objective])]
+Lapse Lyrics.txt_29-464  [if,i,am,bugging,again]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(bug,[external,factive,narration,foreground,objective])]
+Lapse Lyrics.txt_30-494  [it,is,Crackhead]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lapse Lyrics.txt_31-525  [yea]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Lapse Lyrics.txt_1-1)-[primary-orality]
+2-(Lapse Lyrics.txt_2-3)-[primary-vision,emotions-glory,primary-fire]
+3-(Lapse Lyrics.txt_3-7)-[primary-anality]
+4-(Lapse Lyrics.txt_3-8)-[secondary-instru_behavior,secondary-abstract_tought]
+5-(Lapse Lyrics.txt_4-12)-[emotions-aggression]
+6-(Lapse Lyrics.txt_4-13)-[primary-narcissism,emotions-aggression]
+7-(Lapse Lyrics.txt_5-18)-[emotions-aggression]
+8-(Lapse Lyrics.txt_6-24)-[primary-passivity]
+9-(Lapse Lyrics.txt_6-25)-[]
+10-(Lapse Lyrics.txt_6-26)-[primary-water,primary-water]
+11-(Lapse Lyrics.txt_6-27)-[primary-narcissism]
+12-(Lapse Lyrics.txt_7-35)-[primary-voyage]
+13-(Lapse Lyrics.txt_8-43)-[secondary-abstract_tought]
+14-(Lapse Lyrics.txt_8-44)-[secondary-temporal_repere,primary-cold]
+15-(Lapse Lyrics.txt_9-53)-[primary-vision]
+16-(Lapse Lyrics.txt_9-54)-[primary-orality,emotions-aggression]
+17-(Lapse Lyrics.txt_10-65)-[secondary-restraint]
+18-(Lapse Lyrics.txt_11-76)-[secondary-abstract_tought,primary-counscious,secondary-abstract_tought]
+19-(Lapse Lyrics.txt_11-77)-[]
+20-(Lapse Lyrics.txt_12-89)-[primary-fire,secondary-temporal_repere,emotions-aggression]
+21-(Lapse Lyrics.txt_13-104)-[secondary-abstract_tought,secondary-instru_behavior]
+22-(Lapse Lyrics.txt_13-105)-[]
+23-(Lapse Lyrics.txt_14-119)-[primary-sound]
+24-(Lapse Lyrics.txt_14-120)-[primary-anality]
+25-(Lapse Lyrics.txt_15-136)-[secondary-temporal_repere,primary-ascend,primary-diffusion]
+half
+26-(Lapse Lyrics.txt_16-153)-[secondary-temporal_repere,primary-cold,primary-sex]
+27-(Lapse Lyrics.txt_17-172)-[primary-concreteness,primary-sex,secondary-instru_behavior,primary-concreteness,primary-sex,secondary-instru_behavior,primary-concreteness]
+28-(Lapse Lyrics.txt_18-190)-[secondary-social_behavior,emotions-positive_affect]
+29-(Lapse Lyrics.txt_19-210)-[emotions-affection]
+30-(Lapse Lyrics.txt_20-230)-[]
+31-(Lapse Lyrics.txt_20-231)-[]
+32-(Lapse Lyrics.txt_20-232)-[primary-concreteness]
+33-(Lapse Lyrics.txt_21-253)-[]
+34-(Lapse Lyrics.txt_21-254)-[primary-anality]
+35-(Lapse Lyrics.txt_22-276)-[secondary-abstract_tought,primary-sex]
+36-(Lapse Lyrics.txt_23-300)-[primary-cold,primary-cold,primary-fire,secondary-temporal_repere]
+37-(Lapse Lyrics.txt_24-324)-[secondary-temporal_repere,primary-hard]
+38-(Lapse Lyrics.txt_24-324)-[secondary-temporal_repere,primary-hard,secondary-temporal_repere]
+39-(Lapse Lyrics.txt_25-349)-[emotions-affection]
+40-(Lapse Lyrics.txt_25-350)-[]
+41-(Lapse Lyrics.txt_26-376)-[secondary-instru_behavior]
+42-(Lapse Lyrics.txt_27-403)-[primary-anality]
+43-(Lapse Lyrics.txt_27-404)-[secondary-temporal_repere]
+44-(Lapse Lyrics.txt_28-433)-[primary-concreteness]
+45-(Lapse Lyrics.txt_28-434)-[primary-cold]
+46-(Lapse Lyrics.txt_28-434)-[primary-cold]
+47-(Lapse Lyrics.txt_29-463)-[secondary-social_behavior]
+48-(Lapse Lyrics.txt_29-464)-[secondary-temporal_repere]
+49-(Lapse Lyrics.txt_30-494)-[]
+50-(Lapse Lyrics.txt_31-525)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Lapse Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Dori-sn2,subj-theme_bound-Lyrics-sn1,and(Dori,Yung,sn2),and(Lyrics,lapse,sn1),def_prop(Dori,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Lapse Lyrics.txt_2,3,cl3-nil-nil-spark-[ncmod-modal-end-sn11,obj-theme-ignition-sn4,xadj-result-spark-2,def_prop(end,[tempo]),def_prop(ignition,[attivita,oggetto,strumento])])
+lf(Lapse Lyrics.txt_2,3,cl2-nil-nil-watch-[adj-temporal-end-nil,obj-tema_unaff-fame-sn3,subj-actor-career-sn2,subj-actor-career-sn1,and(career,whole,sn2),and(career,you,sn1),and(career,whole,sn1),def_prop(end,[tempo]),def_prop(fame,[stato]),def_prop(career,[attivita]),def_prop(career,[attivita])])
+lf(Lapse Lyrics.txt_3,7,cl5-nil-nil-care-[obj-theme-i-sn7,xcomp-prop-cause-sn6,subj-experiencer-i-sn5,subj-experiencer-i-sn4,and(cause,do_it,sn6),and(i,boy,sn4),and(i,money,sn4),def_prop(i,[umano]),def_prop(cause,[attivita,evento,informa]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_3,7,cl4-not-nil-do-[xcomp-prop-shit-sn2,subj-actor-i-sn1,aux-do-nil,aux-(is)-nil,and(shit,this,sn2),def_prop(shit,[attivita,umano]),def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_4,12,cl7-nil-nil-cut-[cmod-subord-cut-",subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Lapse Lyrics.txt_4,12,cl6-nil-nil-take-[obj-theme_aff-blade-sn2,subj-agent-i-sn1,def_prop(blade,[body_part,edible,oggetto,plant,strumento,umano]),def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_5,18,cl8-nil-nil-hate-[obj-theme-life-sn2,subj-actor-i-sn1,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_6,24,cl12-nil-nil-be-[ncmod-locativo-eye-sn5,subj-theme_bound-it-sn4,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(it,[any])])
+lf(Lapse Lyrics.txt_6,24,cl11-nil-nil-pour-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Lapse Lyrics.txt_6,24,cl10-nil-nil-get-[subj-experiencer-you-sn2,def_prop(you,[umano])])
+lf(Lapse Lyrics.txt_6,24,cl9-nil-nil-die-[])
+lf(Lapse Lyrics.txt_6,24,nil-nil-nil-wanna-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_7,35,cl13-nil-nil-take-[ncmod-locativo-potent-sn3,obj-theme_aff-trip-sn2,subj-agent-i-sn1,aux-am-nil,progr-taking-nil,def_prop(potent,[istituzione]),def_prop(trip,[attivita,evento,stato]),def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_8,43,cl15-nil-nil-be-[xcomp-prop-frozen-sn5,subj-theme_bound-it-sn4,def_prop(frozen,[evaluative]),def_prop(it,[any])])
+lf(Lapse Lyrics.txt_8,43,cl14-nil-nil-think-[xcomp-prop-best-sn3,obj-theme_aff-life-sn2,subj-agent-i-sn1,def_prop(best,[valutativo]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_9,53,cl18-nil-nil-steal-[subj-theme-us-sn2,aux-(is)-nil,def_prop(us,[umano])])
+lf(Lapse Lyrics.txt_9,53,cl17-nil-nil-eat-[subj-agent-us-sn2,def_prop(us,[umano])])
+lf(Lapse Lyrics.txt_9,53,cl16-nil-nil-see-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Lapse Lyrics.txt_10,65,cl19-nil-nil-be-[xadj-adj-locked-adj1,adj-(mod)-never-nil,ncmod-locativo-holding-sn1,def_prop(locked,_302104),def_prop(holding,[attivita,legale,oggetto])])
+lf(Lapse Lyrics.txt_11,76,cl20-nil-nil-turn-[cmod-subord-gotta-",obj-theme-how-sn8,subj-agent-it-sn7,aux-(is)-nil,progr-turning-nil,def_prop(how,[manner]),def_prop(it,[any])])
+lf(Lapse Lyrics.txt_11,76,nil-nil-nil-gotta-[adj-(mod)-really-nil,obj-theme_aff-theory-sn2,subj-agent-i-sn1,def_prop(theory,[astratto]),def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_12,89,cl23-nil-nil-go-[subj-agent-pro-nil,subj-agent-it-sn5,subj-agent-it-sn4,obj-prop-it-sn3,xcomp-purpose-burn-3,subj-agent-bout-sn2,def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any]),def_prop(bout,[attivita,informa,tempo])])
+lf(Lapse Lyrics.txt_12,89,cl22-nil-nil-burn-[subj-prop-it-sn4,def_prop(it,[any])])
+lf(Lapse Lyrics.txt_12,89,cl21-nil-nil-get-[subj-agent-gun-sn1,def_prop(gun,[attivita,oggetto,strumento,umano])])
+lf(Lapse Lyrics.txt_13,104,cl25-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Lapse Lyrics.txt_13,104,cl24-not-nil-make-[iobj-goal-town-sn2,subj-agent-nigga-sn1,aux-do-nil,and(nigga,real,sn1),def_prop(town,[istituzione,luogo]),def_prop(nigga,[istituzione,umano])])
+lf(Lapse Lyrics.txt_14,119,cl28-not-nil-don-t-[xcomp-theme_aff-shit-sn4,subj-agent-nigga-sn3,and(shit,fake,sn4),def_prop(shit,[attivita,umano]),def_prop(nigga,[istituzione,umano])])
+lf(Lapse Lyrics.txt_14,119,cl27-nil-nil-trill-[adj-(mod)-down-nil,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Lapse Lyrics.txt_14,119,cl26-nil-nil-come-[subj-prop-you-sn1,def_prop(you,[umano])])
+lf(Lapse Lyrics.txt_15,136,cl30-nil-nil-throw-[adj-(mod)-now-nil,obj-theme_aff-shade-sn4,obj-theme-nigga-sn3,obj-theme_unaff-it-sn2,xadj-result-run-2,subj-agent-Gon-sn1,and(nigga,Lil,sn3),and(Gon,Gon,sn1),def_prop(shade,[astratto,oggetto,stato,strumento]),def_prop(nigga,[istituzione,umano]),def_prop(it,[any]),def_prop(Gon,[istituzione,umano])])
+lf(Lapse Lyrics.txt_15,136,cl29-nil-nil-run-[])
+lf(Lapse Lyrics.txt_16,153,cl33-nil-nil-feel-[cmod-subord-feel-so,subj-experiencer-i-sn1,xcomp-prop-naked-sn5,subj-experiencer-i-sn4,xcomp-prop-around-sn3,xcomp-purpose-come-3,def_prop(i,[umano]),def_prop(naked,[evaluative]),def_prop(i,[umano]),def_prop(around,[])])
+lf(Lapse Lyrics.txt_16,153,cl32-nil-nil-be-[adj-subj_disc-summer-sn2,subj-theme_bound-i-sn1,def_prop(summer,[tempo]),def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_16,153,cl31-nil-nil-come-[])
+lf(Lapse Lyrics.txt_17,172,cl34-nil-nil-be-[xcomp-prop-money-sn6,subj-theme_bound-fuck-sn1,def_prop(money,[astratto,oggetto]),def_prop(fuck,[attivita])])
+lf(Lapse Lyrics.txt_18,190,cl36-nil-nil-ask-[obj-prop-ass-sn2,xcomp-purpose-ask-2,and(ass,funny,sn2),def_prop(ass,[animato,attivita,body_part,umano])])
+lf(Lapse Lyrics.txt_18,190,cl35-not-nil-come-[adj-(mod)-for_anything-nil,adj-(mod)-around-nil,subj-agent-i-sn1,aux-(is)-nil,def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_19,210,cl37-nil-nil-run-[obj-theme_aff-Pontiac-sn3,iobj-goal-errythang-sn2,subj-agent-i-sn1,aux-am-nil,progr-running-nil,def_prop(Pontiac,[place,umano]),def_prop(errythang,[istituzione]),def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_20,230,cl40-nil-nil-putty-[xcomp-prop-back-sn6,subj-agent-my-sn5,cmod-subord-putty-",def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(my,[informa,tecno])])
+lf(Lapse Lyrics.txt_20,230,cl39-nil-nil-dip-[iobj-goal-fish-sn4,subj-agent-i-sn3,aux-am-nil,progr-dipping-nil,def_prop(fish,[animato,edible,oggetto]),def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_20,230,cl38-not-nil-be-[xcomp-prop-tripping-sn2,subj-theme_bound-i-sn1,def_prop(tripping,[evaluative]),def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_21,253,cl42-nil-nil-love-[obj-theme_unaff-shit-sn3,subj-experiencer-you-sn2,def_prop(shit,[attivita,umano]),def_prop(you,[umano])])
+lf(Lapse Lyrics.txt_21,253,cl41-nil-nil-wonder-[subj-experiencer-you-sn1,aux-am-nil,progr-wondering-nil,def_prop(you,[umano])])
+lf(Lapse Lyrics.txt_22,276,cl44-nil-nil-tug-[obj-theme-grip-sn3,xadj-result-tug-2,def_prop(grip,[astratto,attivita,cambia,umano])])
+lf(Lapse Lyrics.txt_22,276,cl43-nil-nil-cause-[subj-causer-you-sn2,subj-causer-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Lapse Lyrics.txt_23,300,cl45-nil-nil-be-[cmod-subord-be-",cmod-subord-be-then,xcomp-prop-Phelps-sn4,subj-theme_bound-i-sn3,and(Phelps,Micheal,sn4),def_prop(Phelps,[place,umano]),def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_24,324,cl47-nil-nil-rub-[cmod-subord-rub-then,subj-agent-pro-nil])
+lf(Lapse Lyrics.txt_24,324,cl46-nil-nil-get-[cmod-subord-rub-1,xcomp-prop-hard-sn4,subj-theme_bound-i-sn3,xcomp-prop-hard-sn2,subj-theme_bound-i-sn1,and(hard,another,sn4),and(hard,another,sn2),def_prop(hard,[valutativo]),def_prop(i,[umano]),def_prop(hard,[valutativo]),def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_25,349,cl49-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Lapse Lyrics.txt_25,349,cl48-nil-nil-get-[obj2-paziente-government-sn3,obj-theme_unaff-fraud-sn2,subj-agent-i-sn1,and(government,motherfucking,sn3),def_prop(government,[astratto,attivita,istituzione]),def_prop(fraud,[attivita,umano]),def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_26,376,cl50-nil-nil-pick-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Lapse Lyrics.txt_27,403,cl53-nil-nil-be-[])
+lf(Lapse Lyrics.txt_27,403,cl52-nil-nil-mug-[])
+lf(Lapse Lyrics.txt_27,403,cl51-nil-nil-dirty-[coord-actor-38_and_it-sn3,subj-actor-it-sn2,subj-actor-38-sn1,def_prop(38_and_it,[nquant,any]),def_prop(it,[nquant,any]),def_prop(38,[nquant,any])])
+lf(Lapse Lyrics.txt_28,433,cl55-nil-nil-lose-[cmod-subord-lose-so,obj-theme-Nigga-sn9,obj-theme_unaff-me-sn8,subj-theme_aff-you-sn7,obj-theme-Nigga-sn6,obj-theme_unaff-me-sn5,subj-theme_aff-you-sn4,and(Nigga,another,sn9),and(Nigga,another,sn6),def_prop(Nigga,[istituzione,umano]),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(Nigga,[istituzione,umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Lapse Lyrics.txt_28,433,cl54-nil-nil-go-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_29,463,cl57-nil-nil-bug-[adj-subj_disc-again-sn4,subj-agent-i-sn3,aux-am-nil,progr-bugging-nil,def_prop(again,[istituzione]),def_prop(i,[umano])])
+lf(Lapse Lyrics.txt_29,463,cl56-nil-nil-tell-[obj-theme_unaff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Lapse Lyrics.txt_30,494,cl58-nil-nil-be-[xcomp-prop-Crackhead-sn2,subj-theme_bound-it-sn1,def_prop(Crackhead,[istituzione,umano]),def_prop(it,[any])])
+lf(Lapse Lyrics.txt_31,525,cl59-nil-nil-say-[])

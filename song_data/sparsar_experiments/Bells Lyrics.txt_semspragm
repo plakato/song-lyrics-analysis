@@ -1,0 +1,122 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Bells Lyrics.txt_1-1  []-positive  []
+Bells Lyrics.txt_2-3  []-positive  []
+Bells Lyrics.txt_3-6  []-positive  []
+Bells Lyrics.txt_4-10  []-suspension  []
+Bells Lyrics.txt_5-16  []-negative  [neg]
+Bells Lyrics.txt_6-23  []-positive  []
+Bells Lyrics.txt_7-31  []-positive  []
+Bells Lyrics.txt_8-39  []-positive  [fgb]
+Bells Lyrics.txt_9-48  []-positive  [fgb]
+Bells Lyrics.txt_10-58  []-negative  [bkc,neg]
+Bells Lyrics.txt_11-69  []-negative  []
+Bells Lyrics.txt_12-81  []-positive  []
+Bells Lyrics.txt_12-82  []-positive  [fgb]
+Bells Lyrics.txt_13-95  []-positive  []
+Bells Lyrics.txt_14-109  []-positive  []
+Bells Lyrics.txt_15-124  [while-temp_coinc]-positive  []
+Bells Lyrics.txt_16-140  []-positive  []
+Bells Lyrics.txt_17-157  []-positive  []
+Bells Lyrics.txt_18-176  []-positive  []
+Bells Lyrics.txt_19-195  []-positive  []
+Bells Lyrics.txt_20-215  []-positive  []
+Bells Lyrics.txt_21-236  []-positive  []
+Bells Lyrics.txt_22-258  []-positive  []
+Bells Lyrics.txt_23-281  []-positive  []
+Bells Lyrics.txt_23-282  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Bells Lyrics.txt_1-1  [bells,Lyrics,by,Women]  [title]
+Bells Lyrics.txt_2-3  [hark,how,the,bells]  [provide_expl_just(hark,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_3-6  [sweet,silver,bells]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_4-10  [all,seem,to,say]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(seem,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_5-16  [throw,cares,away]  [reject_expl_just(throw,[external,factive,narration,background,objective]),reject_expl_just(care,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_6-23  [christmas,is,here]  [provide_expl_just(christmas,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_7-31  [bringing,good,cheer]  [provide_expl_just(bring,[external,factive,narration,foreground,objective])]
+Bells Lyrics.txt_8-39  [to,young,and,old]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_9-48  [meek,and,the,bold]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_10-58  [oh,how,they,pound]  [reject_expl_just(pound,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_11-69  [raising,the,sound]  [provide_expl_just(raise,[external,factive,cause,foreground,objective])]
+Bells Lyrics.txt_12-81  [o-er,hill]  [provide_expl_just(hill,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_12-82  [and,dale]  [provide_expl_just(hill,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_13-95  [their,tale,telling]  [provide_expl_just(tell,[external,factive,narration,foreground,objective])]
+Bells Lyrics.txt_14-109  [gaily,they,ring]  [provide_expl_just(ring,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_15-124  [while,people,sing]  [provide_expl_just(sing,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_16-140  [songs,of,good,cheer]  [provide_expl_just(cheer,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_17-157  [christmas,is,here]  [provide_expl_just(christmas,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_18-176  [merry,,,merry,,,merry,,,merry,Christmas]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_19-195  [merry,,,merry,,,merry,,,merry,Christmas]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_20-215  [on,on,they,send]  [provide_expl_just(send,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_21-236  [on,without_end]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Bells Lyrics.txt_22-258  [their,joyful,tone,to,every,home]  [provide_expl_just(home,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_23-281  [dong,ding,dong,ding]  [provide_expl_just(ding,[external,factive,narration,background,objective]),provide_expl_just(bong,[external,factive,narration,background,objective])]
+Bells Lyrics.txt_23-282  [dong,bong]  [provide_expl_just(ding,[external,factive,narration,background,objective]),provide_expl_just(bong,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Bells Lyrics.txt_1-1)-[primary-sound]
+2-(Bells Lyrics.txt_2-3)-[primary-sound,primary-sound]
+3-(Bells Lyrics.txt_3-6)-[primary-taste,primary-sound]
+4-(Bells Lyrics.txt_4-10)-[primary-vision,secondary-social_behavior]
+5-(Bells Lyrics.txt_5-16)-[primary-ascend,emotions-anxiety,primary-concreteness]
+6-(Bells Lyrics.txt_6-23)-[primary-concreteness]
+7-(Bells Lyrics.txt_7-31)-[emotions-positive_affect]
+8-(Bells Lyrics.txt_8-39)-[secondary-temporal_repere]
+9-(Bells Lyrics.txt_9-48)-[]
+10-(Bells Lyrics.txt_10-58)-[]
+11-(Bells Lyrics.txt_11-69)-[primary-sound]
+12-(Bells Lyrics.txt_12-81)-[primary-height]
+half
+13-(Bells Lyrics.txt_12-82)-[]
+14-(Bells Lyrics.txt_13-95)-[]
+15-(Bells Lyrics.txt_14-109)-[primary-sound]
+16-(Bells Lyrics.txt_15-124)-[secondary-temporal_repere,emotions-expressive_beh]
+17-(Bells Lyrics.txt_16-140)-[emotions-positive_affect]
+18-(Bells Lyrics.txt_17-157)-[primary-concreteness]
+19-(Bells Lyrics.txt_18-176)-[emotions-positive_affect,emotions-positive_affect,emotions-positive_affect,emotions-positive_affect]
+20-(Bells Lyrics.txt_19-195)-[emotions-positive_affect,emotions-positive_affect,emotions-positive_affect,emotions-positive_affect]
+21-(Bells Lyrics.txt_20-215)-[]
+22-(Bells Lyrics.txt_21-236)-[]
+23-(Bells Lyrics.txt_22-258)-[emotions-positive_affect,primary-sound,secondary-temporal_repere]
+24-(Bells Lyrics.txt_23-281)-[]
+25-(Bells Lyrics.txt_23-282)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Bells Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Women-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,bell,sn1),def_prop(Women,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Bells Lyrics.txt_2,3,cl2-nil-nil-hark-[obj-theme-bell-sn2,subj-actor-you-sn1,def_prop(bell,[astratto,evento,oggetto,strumento,tempo]),def_prop(you,[umano])])
+lf(Bells Lyrics.txt_3,6,cl3-nil-nil-be-[ncmod-modal-silver-sn2,subj-theme_bound-you-sn1,def_prop(silver,[astratto,oggetto,sostanza]),def_prop(you,[umano])])
+lf(Bells Lyrics.txt_4,10,cl5-nil-nil-say-[subj-prop-all-sn1,def_prop(all,[_345762])])
+lf(Bells Lyrics.txt_4,10,cl4-nil-nil-seem-[subj-actor-all-sn1,def_prop(all,[_345840])])
+lf(Bells Lyrics.txt_5,16,cl7-nil-nil-care-[])
+lf(Bells Lyrics.txt_5,16,cl6-nil-nil-throw-[xcomp-prop-away-sn2,subj-agent-you-sn1,def_prop(away,[evaluative]),def_prop(you,[umano])])
+lf(Bells Lyrics.txt_6,23,cl8-nil-nil-be-[])
+lf(Bells Lyrics.txt_6,23,nil-nil-nil-christmas-[adj-subj_disc-here-sn2,subj-agent-you-sn1,def_prop(here,[istituzione]),def_prop(you,[umano])])
+lf(Bells Lyrics.txt_7,31,cl9-nil-nil-bring-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bells Lyrics.txt_8,39,cl10-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bells Lyrics.txt_9,48,cl11-nil-nil-be-[subj-theme_bound-bold-sn1,def_prop(bold,[valutativo])])
+lf(Bells Lyrics.txt_10,58,cl12-nil-nil-pound-[obj-material-they-sn2,subj-agent-oh-sn1,def_prop(they,[umano]),def_prop(oh,[informa,tecno])])
+lf(Bells Lyrics.txt_11,69,cl13-nil-nil-raise-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bells Lyrics.txt_12,81,cl14-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Bells Lyrics.txt_12,81,nil-nil-nil-hill-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Bells Lyrics.txt_13,95,cl15-nil-nil-tell-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bells Lyrics.txt_14,109,cl16-nil-nil-ring-[subj-agent-they-sn1,def_prop(they,[umano])])
+lf(Bells Lyrics.txt_15,124,cl17-nil-nil-sing-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bells Lyrics.txt_16,140,cl18-nil-nil-cheer-[ncmod-specif-good-sn2,subj-agent-you-sn1,def_prop(good,[valutativo]),def_prop(you,[umano])])
+lf(Bells Lyrics.txt_17,157,cl19-nil-nil-be-[])
+lf(Bells Lyrics.txt_17,157,nil-nil-nil-christmas-[adj-subj_disc-here-sn2,subj-agent-you-sn1,def_prop(here,[istituzione]),def_prop(you,[umano])])
+lf(Bells Lyrics.txt_18,176,cl20-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Bells Lyrics.txt_19,195,cl21-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Bells Lyrics.txt_20,215,cl22-nil-nil-send-[ncmod-locativo-they-sn2,subj-agent-you-sn1,def_prop(they,[umano]),def_prop(you,[umano])])
+lf(Bells Lyrics.txt_21,236,cl23-nil-nil-say-[ncmod-locativo-without_end-sn1,def_prop(without_end,[astratto,attivita,evento,informa,legale,luogo,oggetto,relat,sociale,stato,strumento,tempo,umano])])
+lf(Bells Lyrics.txt_22,258,nil-nil-nil-home-[ncmod-modal-every-sn2,subj-actor-tone-sn1,and(tone,joyful,sn1),def_prop(every,[evaluative]),def_prop(tone,[astratto,attivita,informa])])
+lf(Bells Lyrics.txt_23,281,nil-nil-nil-bong-[subj-agent-you-sn4,def_prop(you,[umano])])
+lf(Bells Lyrics.txt_23,281,nil-nil-nil-ding-[obj-theme-ding-sn2,sn2-dong-nil,subj-agent-dong-sn1,and(ding,dong,sn2),def_prop(ding,[informa,tecno]),def_prop(dong,[nquant]),def_prop(dong,[nquant])])

@@ -1,0 +1,108 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Zones Lyrics.txt_1-1  []-positive  []
+Zones Lyrics.txt_2-3  []-negative  [neg,neg,fgb]
+Zones Lyrics.txt_3-6  []-positive  [fgb,fhd,fhd]
+Zones Lyrics.txt_4-10  [when-temp_coinc]-positive  []
+Zones Lyrics.txt_5-15  []-positive  [fhd]
+Zones Lyrics.txt_6-21  []-positive  []
+Zones Lyrics.txt_7-28  []-negative  []
+Zones Lyrics.txt_8-36  []-positive  []
+Zones Lyrics.txt_9-45  []-negative  [neg]
+Zones Lyrics.txt_10-55  []-negative  [neg]
+Zones Lyrics.txt_11-67  []-negative  [neg]
+Zones Lyrics.txt_12-81  [while-temp_coinc]-suspension  [neg]
+Zones Lyrics.txt_13-95  []-negative  [neg]
+Zones Lyrics.txt_14-109  []-positive  []
+Zones Lyrics.txt_14-110  []-negative  [neg,fhd]
+Zones Lyrics.txt_15-125  []-positive  [fgb]
+Zones Lyrics.txt_15-125  [else-advers]-positive  [fgb]
+Zones Lyrics.txt_16-141  []-positive  []
+Zones Lyrics.txt_17-158  []-negative  [neg]
+Zones Lyrics.txt_18-176  []-negative  [neg]
+Zones Lyrics.txt_19-196  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Zones Lyrics.txt_1-1  [zones,Lyrics,by,two,Inch,Astronaut]  [title]
+Zones Lyrics.txt_2-3  [it,is,not,not,what,you,think,.]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Zones Lyrics.txt_3-6  [only,what,it,looks,like,.,it,looks,like]  [provide_expl_just(look,[external,factive,explanation,background,objective])]
+Zones Lyrics.txt_4-10  [too,terse,when,i,drink]  [provide_expl_just(drink,[external,factive,explanation,background,objective])]
+Zones Lyrics.txt_5-15  [you,like,those,longwinded,types]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+Zones Lyrics.txt_6-21  [puffing,out,their,chests]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Zones Lyrics.txt_7-28  [talking,circles,round,our,eyes]  [provide_expl_just(talk,[external,factive,narration,foreground,objective])]
+Zones Lyrics.txt_8-36  [mapping,out,their,bodies,in,erogenous,zones]  [raise_issue(be,[_711126,factive,statement,_711144,subjective])]
+Zones Lyrics.txt_9-45  [bloody,hands,in,pockets,c-mon,everyone,knows]  [reject_expl_just(know,[external,factive,narration,background,objective])]
+Zones Lyrics.txt_10-55  [don-t,be,too,hard,on,your,parents,they]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(don-t,[external,factive,narration,background,objective])]
+Zones Lyrics.txt_11-67  [don-t,be,too,hard,on,your,parents,they,really,tried]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(don-t,[external,factive,narration,background,objective]),reject_expl_just(try,[external,factive,narration,foreground,objective])]
+Zones Lyrics.txt_12-81  [don-t,curse,while,you,eat]  [provide_expl_just(curse,[external,factive,cause,foreground,objective])]
+Zones Lyrics.txt_13-95  [it,is,unbecoming]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Zones Lyrics.txt_14-109  [i,said]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Zones Lyrics.txt_14-110  [trick,or,treat]  [reject_expl_just(say,[external,factive,narration,foreground,objective])]
+Zones Lyrics.txt_15-125  [and,you,left,me,with,something]  [proposal(be,[_714152,_714158,statement,foreground,_714176])]
+Zones Lyrics.txt_15-125  [and,you,left,me,with,something,else]  [proposal(be,[_714480,_714486,statement,foreground,_714504])]
+Zones Lyrics.txt_16-141  [mapping,out,their,bodies,in,erogenous,zones]  [provide_expl_just(map,[external,factive,narration,foreground,objective])]
+Zones Lyrics.txt_17-158  [bloody,hands,in,pockets,c-mon,everyone,knows]  [reject_expl_just(know,[external,factive,narration,background,objective])]
+Zones Lyrics.txt_18-176  [don-t,be,too,hard,on,your,parents,they]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(don-t,[external,factive,narration,background,objective])]
+Zones Lyrics.txt_19-196  [don-t,be,too,hard,on,your,parents,they,really,tried]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(don-t,[external,factive,narration,background,objective]),reject_expl_just(try,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Zones Lyrics.txt_1-1)-[]
+2-(Zones Lyrics.txt_2-3)-[secondary-abstract_tought]
+3-(Zones Lyrics.txt_3-6)-[primary-vision,emotions-affection,primary-vision,emotions-affection]
+4-(Zones Lyrics.txt_4-10)-[secondary-temporal_repere,primary-orality]
+5-(Zones Lyrics.txt_5-15)-[emotions-affection]
+6-(Zones Lyrics.txt_6-21)-[primary-concreteness,primary-narcissism]
+7-(Zones Lyrics.txt_7-28)-[primary-concreteness,primary-concreteness,primary-narcissism]
+8-(Zones Lyrics.txt_8-36)-[primary-concreteness,primary-narcissism]
+9-(Zones Lyrics.txt_9-45)-[emotions-aggression,primary-narcissism,secondary-abstract_tought]
+10-(Zones Lyrics.txt_10-55)-[primary-hard]
+half
+11-(Zones Lyrics.txt_11-67)-[primary-hard,secondary-abstract_tought,secondary-instru_behavior]
+12-(Zones Lyrics.txt_12-81)-[secondary-temporal_repere,primary-orality]
+13-(Zones Lyrics.txt_13-95)-[]
+14-(Zones Lyrics.txt_14-109)-[secondary-social_behavior]
+15-(Zones Lyrics.txt_14-110)-[secondary-social_behavior]
+16-(Zones Lyrics.txt_15-125)-[]
+17-(Zones Lyrics.txt_15-125)-[]
+18-(Zones Lyrics.txt_16-141)-[primary-concreteness,primary-narcissism]
+19-(Zones Lyrics.txt_17-158)-[emotions-aggression,primary-narcissism,secondary-abstract_tought]
+20-(Zones Lyrics.txt_18-176)-[primary-hard]
+21-(Zones Lyrics.txt_19-196)-[primary-hard,secondary-abstract_tought,secondary-instru_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Zones Lyrics.txt_1,1,cl1-nil-nil-zone-[arg_mod-agent-astronaut-sn2,subj-agent-Lyrics-sn1,and(astronaut,two,sn2),and(astronaut,Inch,sn2),def_prop(astronaut,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Zones Lyrics.txt_2,3,cl2-not-nil-be-[subj-theme_bound-it-sn1,def_prop(it,[any])])
+lf(Zones Lyrics.txt_3,6,cl3-nil-nil-look-[subj-agent-it-sn1,def_prop(it,[any])])
+lf(Zones Lyrics.txt_4,10,cl4-nil-nil-drink-[cmod-subord-drink-when,subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Zones Lyrics.txt_5,15,nil-nil-nil-like-[obj-theme_aff-type-sn3,obj-tema_emot-longwinded-sn2,subj-experiencer-you-sn1,and(longwinded,those,sn2),def_prop(type,[astratto]),def_prop(longwinded,[istituzione]),def_prop(you,[umano])])
+lf(Zones Lyrics.txt_6,21,cl5-nil-nil-be-[xadj-adj-puffing-adj1,ncmod-locativo-chest-sn1,def_prop(puffing,_717336),def_prop(chest,[oggetto,strumento])])
+lf(Zones Lyrics.txt_7,28,cl6-nil-nil-talk-[obj-theme_aff-eye-sn3,obj2-goal-circle-sn2,subj-actor-you-sn1,and(eye,round,sn3),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(circle,[astratto,oggetto,strumento]),def_prop(you,[umano])])
+lf(Zones Lyrics.txt_8,36,cl7-nil-nil-map-[ncmod-locativo-zone-sn2,subj-agent-you-sn1,and(zone,erogenous,sn2),def_prop(zone,[body_part,luogo,umano]),def_prop(you,[umano])])
+lf(Zones Lyrics.txt_9,45,cl8-nil-nil-know-[obj-theme-everyone-sn3,ncmod-locativo-c-mon-sn2,subj-actor-hand-sn1,and(c-mon,pocket,sn2),and(hand,bloody,sn1),def_prop(everyone,[umano]),def_prop(c-mon,[attivita,informa,umano]),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano])])
+lf(Zones Lyrics.txt_10,55,cl10-nil-nil-be-[ncmod-locativo-parent-sn4,xcomp-prop-too-sn2,xcomp-purpose-be-2,def_prop(parent,[umano]),def_prop(too,[istituzione])])
+lf(Zones Lyrics.txt_10,55,cl9-not-nil-don-t-[xcomp-prop-hard-sn3,subj-agent-they-sn1,def_prop(hard,[valutativo]),def_prop(they,[umano])])
+lf(Zones Lyrics.txt_11,67,cl13-nil-nil-try-[obj-prop-too-sn2,xcomp-purpose-be-3,def_prop(too,[istituzione])])
+lf(Zones Lyrics.txt_11,67,cl12-nil-nil-be-[ncmod-locativo-parent-sn4,def_prop(parent,[umano])])
+lf(Zones Lyrics.txt_11,67,cl11-not-nil-don-t-[adj-subj_disc-really-sn5,xcomp-prop-hard-sn3,subj-agent-they-sn1,def_prop(really,[istituzione]),def_prop(hard,[valutativo]),def_prop(they,[umano])])
+lf(Zones Lyrics.txt_12,81,cl15-nil-nil-eat-[cmod-subord-eat-while,subj-agent-pro-nil,subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Zones Lyrics.txt_12,81,cl14-not-nil-curse-[subj-experiencer-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Zones Lyrics.txt_13,95,cl16-nil-nil-be-[xcomp-prop-unbecoming-sn2,subj-theme_bound-it-sn1,def_prop(unbecoming,[evaluative]),def_prop(it,[any])])
+lf(Zones Lyrics.txt_14,109,cl18-nil-nil-treat-[ccomp-prop-treat-cl18,subj-actor-trick-sn2,def_prop(trick,[attivita,tempo])])
+lf(Zones Lyrics.txt_14,109,cl17-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Zones Lyrics.txt_15,125,cl19-nil-nil-leave-[cmod-coord-leave-and,xadj-adj-else-adj2,ncmod-comitativo-something-sn6,obj-theme-me-sn5,subj-theme-you-sn4,cmod-subord-leave-",ncmod-comitativo-something-sn3,obj-theme-me-sn2,subj-theme-you-sn1,def_prop(else,_719234),def_prop(something,[astratto,informa,oggetto]),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(something,[astratto,informa,oggetto]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Zones Lyrics.txt_16,141,cl20-nil-nil-map-[ncmod-locativo-zone-sn2,subj-agent-you-sn1,and(zone,erogenous,sn2),def_prop(zone,[body_part,luogo,umano]),def_prop(you,[umano])])
+lf(Zones Lyrics.txt_17,158,cl21-nil-nil-know-[obj-theme-everyone-sn3,ncmod-locativo-c-mon-sn2,subj-actor-hand-sn1,and(c-mon,pocket,sn2),and(hand,bloody,sn1),def_prop(everyone,[umano]),def_prop(c-mon,[attivita,informa,umano]),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano])])
+lf(Zones Lyrics.txt_18,176,cl23-nil-nil-be-[ncmod-locativo-parent-sn4,xcomp-prop-too-sn2,xcomp-purpose-be-2,def_prop(parent,[umano]),def_prop(too,[istituzione])])
+lf(Zones Lyrics.txt_18,176,cl22-not-nil-don-t-[xcomp-prop-hard-sn3,subj-agent-they-sn1,def_prop(hard,[valutativo]),def_prop(they,[umano])])
+lf(Zones Lyrics.txt_19,196,cl26-nil-nil-try-[obj-prop-too-sn2,xcomp-purpose-be-3,def_prop(too,[istituzione])])
+lf(Zones Lyrics.txt_19,196,cl25-nil-nil-be-[ncmod-locativo-parent-sn4,def_prop(parent,[umano])])
+lf(Zones Lyrics.txt_19,196,cl24-not-nil-don-t-[adj-subj_disc-really-sn5,xcomp-prop-hard-sn3,subj-agent-they-sn1,def_prop(really,[istituzione]),def_prop(hard,[valutativo]),def_prop(they,[umano])])

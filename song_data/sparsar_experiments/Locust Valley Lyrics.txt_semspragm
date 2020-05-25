@@ -1,0 +1,189 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Locust Valley Lyrics.txt_1-1  []-positive  []
+Locust Valley Lyrics.txt_2-3  []-negative  [neg]
+Locust Valley Lyrics.txt_3-6  []-positive  [fgb]
+Locust Valley Lyrics.txt_4-7  []-positive  []
+Locust Valley Lyrics.txt_4-8  []-positive  []
+Locust Valley Lyrics.txt_5-13  []-suspension  [neg,neg]
+Locust Valley Lyrics.txt_7-26  []-positive  []
+Locust Valley Lyrics.txt_8-34  []-suspension  []
+Locust Valley Lyrics.txt_9-43  []-negative  [neg]
+Locust Valley Lyrics.txt_10-53  []-positive  []
+Locust Valley Lyrics.txt_11-64  []-negative  [neg]
+Locust Valley Lyrics.txt_12-76  []-negative  [neg]
+Locust Valley Lyrics.txt_13-89  [so-result]-positive  [fgb]
+Locust Valley Lyrics.txt_14-103  []-positive  []
+Locust Valley Lyrics.txt_15-118  []-positive  []
+Locust Valley Lyrics.txt_16-136  []-positive  []
+Locust Valley Lyrics.txt_17-153  []-positive  [fgb]
+Locust Valley Lyrics.txt_18-171  []-positive  []
+Locust Valley Lyrics.txt_19-190  []-suspension  [neg,fgb,neg]
+Locust Valley Lyrics.txt_20-210  []-negative  [neg]
+Locust Valley Lyrics.txt_21-231  []-negative  []
+Locust Valley Lyrics.txt_21-232  []-positive  []
+Locust Valley Lyrics.txt_22-254  []-suspension  [neg,neg]
+Locust Valley Lyrics.txt_23-277  []-negative  [neg]
+Locust Valley Lyrics.txt_24-301  []-negative  [neg]
+Locust Valley Lyrics.txt_25-326  []-positive  []
+Locust Valley Lyrics.txt_26-352  []-positive  []
+Locust Valley Lyrics.txt_27-379  []-suspension  [neg]
+Locust Valley Lyrics.txt_28-407  []-positive  [fgb]
+Locust Valley Lyrics.txt_28-408  []-positive  []
+Locust Valley Lyrics.txt_29-437  []-suspension  [neg]
+Locust Valley Lyrics.txt_30-467  []-negative  [neg,neg]
+Locust Valley Lyrics.txt_31-498  []-suspension  [neg,neg]
+Locust Valley Lyrics.txt_32-530  []-negative  [neg]
+Locust Valley Lyrics.txt_33-563  []-negative  [neg]
+Locust Valley Lyrics.txt_34-597  []-positive  []
+Locust Valley Lyrics.txt_35-632  []-positive  []
+Locust Valley Lyrics.txt_36-668  []-suspension  [neg]
+Locust Valley Lyrics.txt_37-705  []-positive  [fgb]
+Locust Valley Lyrics.txt_37-706  []-positive  []
+Locust Valley Lyrics.txt_38-744  []-suspension  [neg]
+Locust Valley Lyrics.txt_39-783  []-negative  [neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Locust Valley Lyrics.txt_1-1  [locust,Valley,Lyrics,by,Women]  [title]
+Locust Valley Lyrics.txt_2-3  [the,word,have,not]  [reject_expl_just(have,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_3-6  [and,hands,are,tied]  [proposal(be,[_265768,_265774,statement,foreground,_265792])]
+Locust Valley Lyrics.txt_4-7  [they,are,leaving]  [provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_4-8  [you]  [provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_5-13  [the,cheap,confusion]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_7-26  [the,mirror,enter]  [provide_expl_just(enter,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_8-34  [the,grays,appear]  [raise_issue(be,[_268610,_268616,statement,_268628,_268634])]
+Locust Valley Lyrics.txt_9-43  [the,reel,discard]  [reject_expl_just(discard,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_10-53  [she,is,making,me]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Locust Valley Lyrics.txt_11-64  [seem,unkind]  reject_expl_opin(nil,[])
+Locust Valley Lyrics.txt_12-76  [listen,too,long]  [reject_expl_just(listen,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_13-89  [so,play,along]  [provide_expl_just(play,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_14-103  [one,seldom,viewed]  [provide_expl_just(view,[external,factive,narration,foreground,objective])]
+Locust Valley Lyrics.txt_15-118  [policing,i,am,told,jut,out]  [provide_expl_just(police,[external,factive,narration,foreground,objective]),provide_expl_just(jut,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_16-136  [shooting,the,breeze]  [provide_expl_just(shoot,[external,factive,narration,foreground,objective])]
+Locust Valley Lyrics.txt_17-153  [and,her,now,see]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_18-171  [confide,in,you]  [provide_expl_just(confide,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_19-190  [two,images,bound,and,cut]  [provide_expl_just(cut,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_20-210  [something,angled,in,the,dirt]  [reject_expl_just(angle,[external,factive,narration,foreground,objective])]
+Locust Valley Lyrics.txt_21-231  [you,don-t,walk]  [provide_expl_just(walk,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_21-232  [for,an,hour]  [provide_expl_just(walk,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_22-254  [first,offense,it,has,been,shot]  [provide_expl_just(shoot-cl25,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_23-277  [lost,your,footing]  [reject_expl_just(foot,[external,factive,narration,foreground,objective])]
+Locust Valley Lyrics.txt_24-301  [hopeless,now]  reject_expl_opin(nil,[])
+Locust Valley Lyrics.txt_25-326  [covered,metal,on,the,wall]  [provide_expl_just(metal,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_26-352  [you,can,lend,another,skin]  [provide_expl_just(lend,[external,nonfactive,narration,foreground,objective])]
+Locust Valley Lyrics.txt_27-379  [twice,now,fixed,on,such,a,mess]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_28-407  [subtle,green,and,send]  [provide_expl_just(send,[external,factive,narration,background,objective]),provide_expl_just(back,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_28-408  [it,back]  [provide_expl_just(send,[external,factive,narration,background,objective]),provide_expl_just(back,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_29-437  [precious,ornament,to,crack]  [provide_expl_just(crack,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_30-467  [it,is,an,overwhelming,lie]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_31-498  [first,offense,it,has,been,shot]  [provide_expl_just(shoot-cl34,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_32-530  [lost,your,footing]  [reject_expl_just(foot,[external,factive,narration,foreground,objective])]
+Locust Valley Lyrics.txt_33-563  [hopeless,now]  reject_expl_opin(nil,[])
+Locust Valley Lyrics.txt_34-597  [covered,metal,on,the,wall]  [provide_expl_just(metal,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_35-632  [you,can,lend,another,skin]  [provide_expl_just(lend,[external,nonfactive,narration,foreground,objective])]
+Locust Valley Lyrics.txt_36-668  [twice,now,fixed,on,such,a,mess]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_37-705  [subtle,green,and,send]  [provide_expl_just(send,[external,factive,narration,background,objective]),provide_expl_just(back,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_37-706  [it,back]  [provide_expl_just(send,[external,factive,narration,background,objective]),provide_expl_just(back,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_38-744  [precious,ornament,to,crack]  [provide_expl_just(crack,[external,factive,narration,background,objective])]
+Locust Valley Lyrics.txt_39-783  [it,is,an,overwhelming,lie]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Locust Valley Lyrics.txt_1-1)-[]
+2-(Locust Valley Lyrics.txt_2-3)-[]
+3-(Locust Valley Lyrics.txt_3-6)-[primary-narcissism]
+4-(Locust Valley Lyrics.txt_4-7)-[]
+5-(Locust Valley Lyrics.txt_4-8)-[]
+6-(Locust Valley Lyrics.txt_5-13)-[]
+7-(Locust Valley Lyrics.txt_7-26)-[]
+8-(Locust Valley Lyrics.txt_8-34)-[primary-vision,primary-vision]
+9-(Locust Valley Lyrics.txt_9-43)-[primary-random_movement]
+10-(Locust Valley Lyrics.txt_10-53)-[]
+11-(Locust Valley Lyrics.txt_11-64)-[primary-vision,emotions-aggression]
+12-(Locust Valley Lyrics.txt_12-76)-[primary-sound,primary-concreteness]
+13-(Locust Valley Lyrics.txt_13-89)-[emotions-expressive_beh,primary-concreteness]
+14-(Locust Valley Lyrics.txt_14-103)-[secondary-temporal_repere,primary-vision]
+15-(Locust Valley Lyrics.txt_15-118)-[secondary-social_behavior,primary-concreteness]
+16-(Locust Valley Lyrics.txt_16-136)-[]
+17-(Locust Valley Lyrics.txt_17-153)-[secondary-temporal_repere,primary-vision]
+18-(Locust Valley Lyrics.txt_18-171)-[secondary-social_behavior]
+19-(Locust Valley Lyrics.txt_19-190)-[primary-vision,secondary-restraint,emotions-aggression]
+20-(Locust Valley Lyrics.txt_20-210)-[primary-anality]
+21-(Locust Valley Lyrics.txt_21-231)-[]
+half
+22-(Locust Valley Lyrics.txt_21-232)-[secondary-temporal_repere]
+23-(Locust Valley Lyrics.txt_22-254)-[emotions-aggression]
+24-(Locust Valley Lyrics.txt_23-277)-[]
+25-(Locust Valley Lyrics.txt_24-301)-[emotions-sadness,secondary-temporal_repere]
+26-(Locust Valley Lyrics.txt_25-326)-[primary-hard,primary-brink]
+27-(Locust Valley Lyrics.txt_26-352)-[secondary-social_behavior,primary-narcissism]
+28-(Locust Valley Lyrics.txt_27-379)-[secondary-temporal_repere,primary-anality]
+29-(Locust Valley Lyrics.txt_28-407)-[primary-vision]
+30-(Locust Valley Lyrics.txt_28-408)-[primary-concreteness]
+31-(Locust Valley Lyrics.txt_29-437)-[]
+32-(Locust Valley Lyrics.txt_30-467)-[primary-passivity]
+33-(Locust Valley Lyrics.txt_31-498)-[emotions-aggression]
+34-(Locust Valley Lyrics.txt_32-530)-[]
+35-(Locust Valley Lyrics.txt_33-563)-[emotions-sadness,secondary-temporal_repere]
+36-(Locust Valley Lyrics.txt_34-597)-[primary-hard,primary-brink]
+37-(Locust Valley Lyrics.txt_35-632)-[secondary-social_behavior,primary-narcissism]
+38-(Locust Valley Lyrics.txt_36-668)-[secondary-temporal_repere,primary-anality]
+39-(Locust Valley Lyrics.txt_37-705)-[primary-vision]
+40-(Locust Valley Lyrics.txt_37-706)-[primary-concreteness]
+41-(Locust Valley Lyrics.txt_38-744)-[]
+42-(Locust Valley Lyrics.txt_39-783)-[primary-passivity]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Locust Valley Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Women-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Valley,sn1),and(Lyrics,locus,sn1),def_prop(Women,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Locust Valley Lyrics.txt_2,3,cl2-not-nil-have-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_3,6,cl3-nil-nil-tie-[cmod-subord-tie-",subj-patient1-you-sn1,aux-are-nil,def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_4,7,cl5-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_4,7,cl4-nil-nil-leave-[subj-theme-you-sn1,aux-are-nil,progr-leaving-nil,def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_5,13,cl6-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_6,19,cl7-nil-nil-be-[])
+lf(Locust Valley Lyrics.txt_7,26,cl8-nil-nil-enter-[subj-goal-you-sn1,def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_8,34,cl9-nil-nil-appear-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_9,43,cl10-nil-nil-discard-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_10,53,cl11-nil-nil-make-[obj-goal-me-sn2,subj-agent-she-sn1,aux-(is)-nil,progr-making-nil,def_prop(me,[umano]),def_prop(she,[umano])])
+lf(Locust Valley Lyrics.txt_11,64,cl12-nil-nil-seem-[xcomp-prop-unkind-sn2,subj-actor-you-sn1,def_prop(unkind,[evaluative]),def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_12,76,cl13-nil-nil-listen-[adj-subj_disc-too-sn3,xcomp-prop-long-sn2,subj-agent-you-sn1,def_prop(too,[istituzione]),def_prop(long,[misura]),def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_13,89,cl14-nil-nil-play-[subj-agent-pro-nil])
+lf(Locust Valley Lyrics.txt_14,103,cl15-nil-nil-view-[subj-agent-one-sn1,def_prop(one,[umano])])
+lf(Locust Valley Lyrics.txt_15,118,nil-nil-nil-jut-[])
+lf(Locust Valley Lyrics.txt_15,118,cl17-nil-nil-tell-[adj-(mod)-out-nil,subj-theme_unaff-i-sn1,aux-am-nil,def_prop(i,[umano])])
+lf(Locust Valley Lyrics.txt_15,118,cl16-nil-nil-police-[])
+lf(Locust Valley Lyrics.txt_16,136,cl18-nil-nil-shoot-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_17,153,cl19-nil-nil-see-[cmod-subord-see-",subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_18,171,cl20-nil-nil-confide-[iobj-goal-you-sn2,subj-agent-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_19,190,cl21-nil-nil-cut-[subj-agent-image-sn1,and(image,two,sn1),def_prop(image,[astratto])])
+lf(Locust Valley Lyrics.txt_20,210,cl22-nil-nil-angle-[ncmod-locativo-dirt-sn2,subj-actor-something-sn1,def_prop(dirt,[stato]),def_prop(something,[astratto,informa,oggetto])])
+lf(Locust Valley Lyrics.txt_21,231,cl24-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_21,231,cl23-not-nil-walk-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_22,254,cl25-nil-nil-shoot-[subj-theme_aff-it-sn2,subj-theme_aff-it-sn1,aux-been-nil,aux-has-nil,and(it,offense,sn1),and(it,first,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Locust Valley Lyrics.txt_23,277,cl26-nil-nil-foot-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_24,301,cl27-nil-nil-say-[obj-theme_unaff-now-sn1,and(now,hopeless,sn1),def_prop(now,[istituzione])])
+lf(Locust Valley Lyrics.txt_25,326,cl28-nil-nil-metal-[ncmod-locativo-wall-sn2,subj-theme-covered-sn1,def_prop(wall,[body_part,oggetto,stato,strumento,umano]),def_prop(covered,[evaluative])])
+lf(Locust Valley Lyrics.txt_26,352,cl29-nil-can-lend-[obj-theme-skin-sn2,subj-agent-you-sn1,and(skin,another,sn2),def_prop(skin,[body_part,oggetto,sostanza,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_27,379,cl30-nil-nil-be-[xadj-adj-fixed-adj1,adj-(mod)-now-nil,ncmod-locativo-mess-sn1,and(now,twice,sn2),and(mess,such,sn1),def_prop(fixed,_287132),def_prop(now,[istituzione]),def_prop(mess,[edible,nquant,oggetto,stato,strumento])])
+lf(Locust Valley Lyrics.txt_28,407,nil-nil-nil-back-[subj-agent-it-sn2,def_prop(it,[any])])
+lf(Locust Valley Lyrics.txt_28,407,cl31-nil-nil-send-[subj-agent-green-sn1,and(green,subtle,sn1),def_prop(green,[astratto,luogo])])
+lf(Locust Valley Lyrics.txt_29,437,cl32-nil-nil-crack-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_30,467,cl33-nil-nil-be-[xcomp-prop-lie-sn2,subj-theme_bound-it-sn1,and(lie,overwhelming,sn2),def_prop(lie,[attivita,informa,luogo]),def_prop(it,[any])])
+lf(Locust Valley Lyrics.txt_31,498,cl34-nil-nil-shoot-[subj-theme_aff-it-sn2,subj-theme_aff-it-sn1,aux-been-nil,aux-has-nil,and(it,offense,sn1),and(it,first,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Locust Valley Lyrics.txt_32,530,cl35-nil-nil-foot-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_33,563,cl36-nil-nil-say-[obj-theme_unaff-now-sn1,and(now,hopeless,sn1),def_prop(now,[istituzione])])
+lf(Locust Valley Lyrics.txt_34,597,cl37-nil-nil-metal-[ncmod-locativo-wall-sn2,subj-theme-covered-sn1,def_prop(wall,[body_part,oggetto,stato,strumento,umano]),def_prop(covered,[evaluative])])
+lf(Locust Valley Lyrics.txt_35,632,cl38-nil-can-lend-[obj-theme-skin-sn2,subj-agent-you-sn1,and(skin,another,sn2),def_prop(skin,[body_part,oggetto,sostanza,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_36,668,cl39-nil-nil-be-[xadj-adj-fixed-adj2,adj-(mod)-now-nil,ncmod-locativo-mess-sn1,and(now,twice,sn2),and(mess,such,sn1),def_prop(fixed,_288366),def_prop(now,[istituzione]),def_prop(mess,[edible,nquant,oggetto,stato,strumento])])
+lf(Locust Valley Lyrics.txt_37,705,nil-nil-nil-back-[subj-agent-it-sn2,def_prop(it,[any])])
+lf(Locust Valley Lyrics.txt_37,705,cl40-nil-nil-send-[subj-agent-green-sn1,and(green,subtle,sn1),def_prop(green,[astratto,luogo])])
+lf(Locust Valley Lyrics.txt_38,744,cl41-nil-nil-crack-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Locust Valley Lyrics.txt_39,783,cl42-nil-nil-be-[xcomp-prop-lie-sn2,subj-theme_bound-it-sn1,and(lie,overwhelming,sn2),def_prop(lie,[attivita,informa,luogo]),def_prop(it,[any])])

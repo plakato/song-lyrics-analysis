@@ -1,0 +1,354 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Daily Bred.txt_1-1  []-positive  []
+Daily Bred.txt_2-3  []-positive  []
+Daily Bred.txt_2-4  [if-hypoth]-positive  [fgb]
+Daily Bred.txt_3-7  []-positive  [neg]
+Daily Bred.txt_4-11  []-question  []
+Daily Bred.txt_5-16  []-none  []
+Daily Bred.txt_6-23  []-negative  [neg]
+Daily Bred.txt_6-24  []-positive  []
+Daily Bred.txt_7-31  []-positive  []
+Daily Bred.txt_8-40  []-negative  [neg]
+Daily Bred.txt_9-50  []-positive  []
+Daily Bred.txt_10-60  []-positive  []
+Daily Bred.txt_10-61  []-negative  []
+Daily Bred.txt_11-72  []-positive  []
+Daily Bred.txt_11-73  []-positive  []
+Daily Bred.txt_12-86  []-negative  [neg]
+Daily Bred.txt_13-99  []-positive  [neg]
+Daily Bred.txt_13-100  [so-result]-positive  [bkc,fgb,fgb,neg]
+Daily Bred.txt_14-114  []-negative  [neg,fgb]
+Daily Bred.txt_14-115  []-positive  []
+Daily Bred.txt_15-131  []-negative  []
+Daily Bred.txt_15-132  [so-result]-positive  [fgb,fgb]
+Daily Bred.txt_15-133  []-positive  []
+Daily Bred.txt_16-149  []-negative  [neg,neg]
+Daily Bred.txt_17-166  []-positive  []
+Daily Bred.txt_18-184  []-positive  []
+Daily Bred.txt_18-185  []-negative  [neg]
+Daily Bred.txt_19-203  []-positive  []
+Daily Bred.txt_20-224  []-positive  []
+Daily Bred.txt_21-245  []-negative  [neg]
+Daily Bred.txt_22-267  []-negative  [neg]
+Daily Bred.txt_23-290  []-positive  []
+Daily Bred.txt_24-315  []-positive  []
+Daily Bred.txt_25-340  []-positive  []
+Daily Bred.txt_26-366  []-positive  []
+Daily Bred.txt_27-394  []-negative  [neg,fhd]
+Daily Bred.txt_28-422  [when-temp_coinc]-positive  []
+Daily Bred.txt_28-423  []-positive  []
+Daily Bred.txt_29-452  []-positive  []
+Daily Bred.txt_29-453  []-negative  [neg]
+Daily Bred.txt_30-484  []-negative  [neg,neg]
+Daily Bred.txt_30-485  []-negative  []
+Daily Bred.txt_31-517  []-negative  []
+Daily Bred.txt_31-518  []-negative  []
+Daily Bred.txt_31-519  []-positive  []
+Daily Bred.txt_32-551  []-suspension  [neg,neg]
+Daily Bred.txt_33-584  [because-cause]-suspension  [fgb,neg,neg]
+Daily Bred.txt_34-622  []-positive  []
+Daily Bred.txt_34-623  []-positive  []
+Daily Bred.txt_34-624  []-positive  []
+Daily Bred.txt_34-625  []-suspension  []
+Daily Bred.txt_35-660  []-positive  [fhd]
+Daily Bred.txt_35-661  []-positive  []
+Daily Bred.txt_36-697  []-positive  []
+Daily Bred.txt_37-734  []-positive  []
+Daily Bred.txt_37-735  [if-hypoth]-positive  [fgb]
+Daily Bred.txt_38-775  []-positive  []
+Daily Bred.txt_38-776  []-suspension  [neg,neg]
+Daily Bred.txt_39-815  []-positive  []
+Daily Bred.txt_39-816  []-suspension  []
+Daily Bred.txt_40-857  []-negative  [neg]
+Daily Bred.txt_41-900  [if-hypoth]-positive  [fgb]
+Daily Bred.txt_41-901  []-positive  []
+Daily Bred.txt_41-902  []-positive  []
+Daily Bred.txt_42-944  []-negative  [neg,neg]
+Daily Bred.txt_42-945  [so-result]-positive  [fgb]
+Daily Bred.txt_43-988  []-suspension  [fhd,fgb]
+Daily Bred.txt_44-1034  []-positive  [fhd,neg]
+Daily Bred.txt_44-1035  []-positive  []
+Daily Bred.txt_44-1036  []-positive  []
+Daily Bred.txt_45-1080  []-positive  []
+Daily Bred.txt_46-1126  []-positive  []
+Daily Bred.txt_47-1173  []-negative  [neg,neg]
+Daily Bred.txt_47-1174  [if-hypoth]-negative  [neg,fgb]
+Daily Bred.txt_48-1222  []-negative  [neg,neg]
+Daily Bred.txt_49-1271  [if-hypoth]-positive  [fgb]
+Daily Bred.txt_50-1321  []-positive  []
+Daily Bred.txt_51-1372  []-positive  []
+Daily Bred.txt_52-1424  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Daily Bred.txt_1-1  [daily,bred,by,Wonder,bred]  [title]
+Daily Bred.txt_2-3  [i,wonder]  [provide_expl_just(wonder,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Daily Bred.txt_2-4  [if,the,truth,truly,is,sublime]  [provide_expl_just(wonder,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Daily Bred.txt_3-7  [truthfully,from,you,to,me,i,am,full,of,shit,sometimes]  [propose_opin_neg(full-cl4,[external,factive,explanation,background,objective])]
+Daily Bred.txt_4-11  [home,is,where,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Daily Bred.txt_5-16  [there,is,a,list,of,those,i,miss,from,mine]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(miss,[external,factive,narration,background,objective])]
+Daily Bred.txt_6-23  [daily,bred,sheds,my,little,light]  [reject_expl_just(shed,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_6-24  [,,this,is,sunshine]  [provide_expl_just(shed,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_7-31  [formally,my,priority,is,exploring,in,touring]  [provide_expl_just(explore,[external,factive,narration,foreground,objective])]
+Daily Bred.txt_8-40  [the,thoughts,where,i,talk,of,death,stem,from,Tuesdays,with,Morrie]  [reject_expl_just(talk,[external,factive,narration,background,objective])]
+Daily Bred.txt_9-50  [daily,chronology,of,my,psychology,in,evolving,my,story]  [raise_issue(be,[_1448560,factive,statement,_1448578,subjective])]
+Daily Bred.txt_10-60  [sapiosexual,is,intimate,mental,in,my,music]  [provide_expl_just(instigate,[external,factive,cause,foreground,objective])]
+Daily Bred.txt_10-61  [i,am,instigating,an,orgy]  [provide_expl_just(instigate,[external,factive,cause,foreground,objective])]
+Daily Bred.txt_11-72  [tonight,i,decided,to,rhyme,in,my,Daily]  [provide_expl_just(rhyme,[external,factive,narration,background,objective]),provide_expl_just(decide,[external,factive,narration,foreground,objective])]
+Daily Bred.txt_11-73  [bred]  [provide_expl_just(rhyme,[external,factive,narration,background,objective]),provide_expl_just(decide,[external,factive,narration,foreground,objective])]
+Daily Bred.txt_12-86  [i,read,orally,currently,a,Wrinkle,in,time,again]  [reject_expl_just(read,[external,factive,narration,foreground,objective])]
+Daily Bred.txt_13-99  [i,cook,with,raw,meat]  [provide_expl_just(feed,[external,factive,narration,foreground,objective]),provide_expl_just(cook,[external,factive,narration,background,objective])]
+Daily Bred.txt_13-100  [i,yes,,,cheese,and,veg,so,am,fed]  [provide_expl_just(feed,[external,factive,narration,foreground,objective]),provide_expl_just(cook,[external,factive,narration,background,objective])]
+Daily Bred.txt_14-114  [no,way,for,me,to,record,this,for,you,this,is,what,i,do,best,.]  [reject_expl_just(do,[external,factive,narration,foreground,objective]),reject_expl_just(record,[external,factive,narration,background,objective])]
+Daily Bred.txt_14-115  [i,do,best]  [provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(record,[external,factive,narration,background,objective])]
+Daily Bred.txt_15-131  [i,don-t,have,money]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(invest,[external,factive,narration,background,objective])]
+Daily Bred.txt_15-132  [so,energy,in,these,is,what,i,invest,.]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(invest,[external,factive,narration,background,objective])]
+Daily Bred.txt_15-133  [i,invest]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(invest,[external,factive,narration,background,objective])]
+Daily Bred.txt_16-149  [this,Deliverance,is,not,imbred,incest,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_17-166  [i,meet,people,across,the,country,instead]  [provide_expl_just(meet,[external,factive,narration,background,objective])]
+Daily Bred.txt_18-184  [i,was,in,the,woods]  [provide_expl_just(tarp,[internal,factive,narration,background,objective])]
+Daily Bred.txt_18-185  [for,10,weeks,in,tarps,not,in,tents]  [reject_expl_just(tarp,[internal,factive,narration,background,objective])]
+Daily Bred.txt_19-203  [twas,intense,,,born,in,the,East,now,i,be,in,the,West]  [provide_expl_just(bear,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_20-224  [i,snowshoe,for_free]  [provide_expl_just(snowshoe,[external,factive,narration,background,objective])]
+Daily Bred.txt_21-245  [no,Snowboard,i,ski]  [reject_expl_just(ski,[external,factive,narration,background,objective])]
+Daily Bred.txt_22-267  [no,snow,machines]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_23-290  [go,to,slopes,for,$,15]  [provide_expl_just(slope,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Daily Bred.txt_24-315  [there,Mountain,at,Soldier,is,so_much,powder]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_25-340  [plow,our,own,roads,around,here,the,coldest,showers]  [raise_issue(be,[_1461840,factive,statement,_1461858,subjective])]
+Daily Bred.txt_26-366  [solar,power,,,to,go,to,the,we,city,closest,drove,an,hour]  [provide_expl_just(drive,[external,factive,cause,foreground,objective])]
+Daily Bred.txt_27-394  [so_much,sage,no,growing,flowers,just,in,general,like,Colin,Powell]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_28-422  [when,you,do]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Daily Bred.txt_28-423  [,,this,read,to,yourself,out_loud]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Daily Bred.txt_29-452  [we,speech,need,to,speak]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(speak,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_29-453  [words,are,dead,without,sound]  [reject_expl_just(need,[external,factive,narration,background,objective]),reject_expl_just(speak,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_30-484  [by,handcuffs,be,bound,,,bail,out]  [reject_expl_just(pound,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(bail,[external,factive,narration,background,objective])]
+Daily Bred.txt_30-485  [for,pounds,from,downtown]  [provide_expl_just(pound,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(bail,[external,factive,narration,background,objective])]
+Daily Bred.txt_31-517  [i,have,seen,where,we,trapped,Japs,in,camps,,,now,i,compound,nouns,.]  [provide_expl_just(see,[external,factive,narration,foreground,objective]),provide_expl_just(compound,[external,factive,narration,background,objective])]
+Daily Bred.txt_31-518  [we,trapped,Japs,in,camps]  [provide_expl_just(see,[external,factive,narration,foreground,objective]),provide_expl_just(compound,[external,factive,narration,background,objective])]
+Daily Bred.txt_31-519  [,,now,i,compound,nouns]  [provide_expl_just(see,[external,factive,narration,foreground,objective]),provide_expl_just(compound,[external,factive,narration,background,objective])]
+Daily Bred.txt_32-551  [i,can,bounce,around,ideas,are,heavy,,,not,concrete]  [propose_opin(bounce,[external,nonfactive,narration,foreground,objective]),provide_expl_just(bounce,[external,nonfactive,narration,foreground,objective])]
+Daily Bred.txt_33-584  [be,breathing,and,seeking,feeling,because,crying,is,not,weak]  [propose_opin_neg(feel,[external,factive,result,foreground,objective]),suggest(feel,_1473694),provide_expl_just(feel,[external,factive,narration,foreground,objective]),provide_expl_just(cry,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_34-622  [i,hold]  [provide_expl_just(can,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(reach,[external,nonfactive,narration,foreground,objective])]
+Daily Bred.txt_34-623  [the,hands,of,those,i,can]  [provide_expl_just(can,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(reach,[external,nonfactive,narration,foreground,objective])]
+Daily Bred.txt_34-624  [there,are,lots]  [provide_expl_just(can,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(reach,[external,nonfactive,narration,foreground,objective])]
+Daily Bred.txt_34-625  [i,cannot,reach]  [provide_expl_just(can,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(reach,[external,nonfactive,narration,foreground,objective])]
+Daily Bred.txt_35-660  [i,am,off,the,screen,like,Dawson-s,Creek]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(stand,[external,factive,narration,background,objective])]
+Daily Bred.txt_35-661  [i,belief,for,stand,up,on]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(stand,[external,factive,narration,background,objective])]
+Daily Bred.txt_36-697  [feet]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Daily Bred.txt_37-734  [there,is,a,tractor]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_37-735  [,,hop,on,to,feed,if,you,want,to,see,beef]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_38-775  [i,am,on,my,mark]  [provide_expl_just(walk,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_38-776  [till,my,body,drops,i,will,not,walk,off,in,defeat]  [provide_expl_just(walk,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_39-815  [once,i,get,off,this,ranch]  [provide_expl_just(might,[external,nonfactive,narration,foreground,objective]),provide_expl_just(become,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Daily Bred.txt_39-816  [,,this,might,become,lyrics]  [provide_expl_just(might,[external,nonfactive,narration,foreground,objective]),provide_expl_just(become,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Daily Bred.txt_40-857  [regardless,all,i,have,wanted,is,to,open,my,spirit]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_41-900  [if,you,are,open,to,me]  [provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_41-901  [opening,you,hopefully,feel]  [provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_41-902  [it]  [provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_42-944  [that,is,not,not,in,my,control]  [reject_expl_just(steer,[external,factive,rationale,background,objective])]
+Daily Bred.txt_42-945  [,,you,own,a,human,home,so,it,steer]  [proposal(be,[_1502068,_1502074,statement,foreground,_1502092])]
+Daily Bred.txt_43-988  [like,abstract,the,i,Dragon,and,have,began,to,be,bearded]  [provide_expl_just(like,[external,factive,narration,background,objective]),provide_expl_just(begin,[external,factive,inception,background,objective]),provide_expl_just(abstract,[internal,factive,narration,background,objective])]
+Daily Bred.txt_44-1034  [i,seek,ears,like,a,Tribe,Called,quest]  [provide_expl_just(seek,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_44-1035  [it,is,Midnight]  [provide_expl_just(seek,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_44-1036  [i,am]  [provide_expl_just(seek,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_45-1080  [marauding,,,hooded,,,Robbin,&,amp]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_46-1126  [Stealin]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Daily Bred.txt_47-1173  [you,are,not,any,not]  [reject_expl_just(pull,[external,factive,cause,foreground,objective])]
+Daily Bred.txt_47-1174  [less,of,a,man,if,you,don-t,pull,the,trigger]  [reject_expl_just(pull,[external,factive,cause,foreground,objective])]
+Daily Bred.txt_48-1222  [you,are,not,not]  reject_expl_opin(nil,[])
+Daily Bred.txt_49-1271  [necessarily,a,man,if,you,do]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Daily Bred.txt_50-1321  [-,ATCQ]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Daily Bred.txt_51-1372  [one,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+Daily Bred.txt_52-1424  [wonder,bred]  [raise_issue(be,[_1509172,factive,statement,_1509190,subjective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Daily Bred.txt_1-1)-[secondary-temporal_repere]
+2-(Daily Bred.txt_2-3)-[emotions-glory]
+3-(Daily Bred.txt_2-4)-[secondary-abstract_tought,secondary-abstract_tought,emotions-glory]
+4-(Daily Bred.txt_3-7)-[primary-anality,secondary-temporal_repere]
+5-(Daily Bred.txt_4-11)-[primary-concreteness]
+6-(Daily Bred.txt_5-16)-[secondary-order]
+7-(Daily Bred.txt_6-23)-[secondary-temporal_repere,primary-vision]
+8-(Daily Bred.txt_6-24)-[primary-vision]
+9-(Daily Bred.txt_7-31)-[]
+10-(Daily Bred.txt_8-40)-[secondary-abstract_tought,primary-concreteness,secondary-social_behavior,primary-passivity]
+11-(Daily Bred.txt_9-50)-[secondary-temporal_repere]
+12-(Daily Bred.txt_10-60)-[emotions-affection,secondary-social_behavior,primary-sound]
+13-(Daily Bred.txt_10-61)-[primary-sex]
+14-(Daily Bred.txt_11-72)-[secondary-temporal_repere,secondary-abstract_tought]
+15-(Daily Bred.txt_11-73)-[]
+16-(Daily Bred.txt_12-86)-[primary-orality,secondary-temporal_repere,secondary-temporal_repere]
+17-(Daily Bred.txt_13-99)-[primary-orality,primary-orality,primary-orality]
+18-(Daily Bred.txt_13-100)-[primary-orality,primary-orality]
+19-(Daily Bred.txt_14-114)-[secondary-instru_behavior]
+20-(Daily Bred.txt_14-115)-[]
+21-(Daily Bred.txt_15-131)-[secondary-instru_behavior]
+22-(Daily Bred.txt_15-132)-[]
+23-(Daily Bred.txt_15-133)-[]
+24-(Daily Bred.txt_16-149)-[primary-sex]
+25-(Daily Bred.txt_17-166)-[secondary-social_behavior,primary-concreteness,secondary-instru_behavior]
+26-(Daily Bred.txt_18-184)-[]
+27-(Daily Bred.txt_18-185)-[secondary-temporal_repere]
+28-(Daily Bred.txt_19-203)-[secondary-temporal_repere]
+29-(Daily Bred.txt_20-224)-[]
+30-(Daily Bred.txt_21-245)-[]
+31-(Daily Bred.txt_22-267)-[primary-cold,secondary-instru_behavior]
+32-(Daily Bred.txt_23-290)-[primary-height]
+33-(Daily Bred.txt_24-315)-[primary-concreteness]
+34-(Daily Bred.txt_25-340)-[secondary-instru_behavior,primary-brink,primary-concreteness,primary-water]
+35-(Daily Bred.txt_26-366)-[primary-fire,secondary-temporal_repere]
+36-(Daily Bred.txt_27-394)-[emotions-affection]
+37-(Daily Bred.txt_28-422)-[secondary-temporal_repere]
+38-(Daily Bred.txt_28-423)-[]
+39-(Daily Bred.txt_29-452)-[secondary-social_behavior,secondary-social_behavior]
+half
+40-(Daily Bred.txt_29-453)-[primary-passivity,primary-sound]
+41-(Daily Bred.txt_30-484)-[secondary-restraint,primary-concreteness]
+42-(Daily Bred.txt_30-485)-[]
+43-(Daily Bred.txt_31-517)-[primary-vision,primary-concreteness,secondary-temporal_repere]
+44-(Daily Bred.txt_31-518)-[]
+45-(Daily Bred.txt_31-519)-[secondary-temporal_repere]
+46-(Daily Bred.txt_32-551)-[primary-ascend,secondary-abstract_tought]
+47-(Daily Bred.txt_33-584)-[]
+48-(Daily Bred.txt_34-622)-[]
+49-(Daily Bred.txt_34-623)-[primary-narcissism]
+50-(Daily Bred.txt_34-624)-[]
+51-(Daily Bred.txt_34-625)-[secondary-instru_behavior]
+52-(Daily Bred.txt_35-660)-[primary-concreteness,primary-diffusion,emotions-affection]
+53-(Daily Bred.txt_35-661)-[secondary-abstract_tought]
+54-(Daily Bred.txt_36-697)-[primary-narcissism]
+55-(Daily Bred.txt_37-734)-[]
+56-(Daily Bred.txt_37-735)-[primary-orality,primary-vision,primary-orality]
+57-(Daily Bred.txt_38-775)-[]
+58-(Daily Bred.txt_38-776)-[secondary-temporal_repere,primary-narcissism,primary-descent,primary-concreteness,emotions-aggression]
+59-(Daily Bred.txt_39-815)-[secondary-temporal_repere,primary-concreteness]
+60-(Daily Bred.txt_39-816)-[]
+61-(Daily Bred.txt_40-857)-[primary-concreteness,primary-height]
+62-(Daily Bred.txt_41-900)-[primary-concreteness]
+63-(Daily Bred.txt_41-901)-[]
+64-(Daily Bred.txt_41-902)-[]
+65-(Daily Bred.txt_42-944)-[secondary-restraint]
+66-(Daily Bred.txt_42-945)-[primary-sound]
+67-(Daily Bred.txt_43-988)-[emotions-affection,secondary-abstract_tought,primary-narcissism]
+68-(Daily Bred.txt_44-1034)-[primary-vision,primary-sound,emotions-affection]
+69-(Daily Bred.txt_44-1035)-[]
+70-(Daily Bred.txt_44-1036)-[]
+71-(Daily Bred.txt_45-1080)-[]
+72-(Daily Bred.txt_46-1126)-[]
+73-(Daily Bred.txt_47-1173)-[]
+74-(Daily Bred.txt_47-1174)-[]
+75-(Daily Bred.txt_48-1222)-[]
+76-(Daily Bred.txt_49-1271)-[]
+77-(Daily Bred.txt_50-1321)-[]
+78-(Daily Bred.txt_51-1372)-[emotions-affection]
+79-(Daily Bred.txt_52-1424)-[emotions-glory]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Daily Bred.txt_1,1,_-nil-nil-breed-[xadj-adj-daily-adj1,iobj-prop-Wonder-sn2,xmod-prop-breed-2,subj-agent-you-sn1,def_prop(daily,_1510824),def_prop(Wonder,[place,umano]),def_prop(you,[umano])])
+lf(Daily Bred.txt_1,1,cl1-nil-nil-breed-[xadj-adj-daily-adj1,iobj-prop-Wonder-sn2,xmod-prop-breed-2,subj-agent-you-sn1,def_prop(daily,_1510992),def_prop(Wonder,[place,umano]),def_prop(you,[umano])])
+lf(Daily Bred.txt_2,3,cl3-nil-nil-be-[xcomp-prop-sublime-sn4,adj-subj_disc-truly-sn3,subj-theme_bound-truth-sn2,def_prop(sublime,[evaluative]),def_prop(truly,[istituzione]),def_prop(truth,[astratto,attivita,informa,stato])])
+lf(Daily Bred.txt_2,3,cl2-nil-nil-wonder-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Daily Bred.txt_3,7,cl4-nil-nil-full-[adj-(mod)-sometimes-nil,adj-(mod)-truthfully-nil,ncmod-specif-shit-sn4,ncmod-goal-me-sn3,ncmod-loc_origin-you-sn2,subj-theme-i-sn1,aux-am-nil,def_prop(shit,[attivita,umano]),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Daily Bred.txt_4,11,cl5-nil-nil-be-[subj-theme_bound-where-sn1,def_prop(where,[luogo])])
+lf(Daily Bred.txt_5,16,cl7-nil-nil-miss-[ncmod-loc_origin-mine-sn8,ncmod-loc_origin-mine-sn7,subj-agent-you-sn6,ncmod-loc_origin-mine-sn3,subj-experiencer-list-sn2,def_prop(mine,[oggetto,strumento]),def_prop(mine,[oggetto,strumento]),def_prop(you,[umano]),def_prop(mine,[oggetto,strumento]),def_prop(list,[attivita,informa])])
+lf(Daily Bred.txt_5,16,cl6-nil-nil-be-[subj-theme_bound-there-sn1,def_prop(there,[any])])
+lf(Daily Bred.txt_6,23,cl9-nil-nil-be-[xcomp-prop-sunshine-sn7,subj-theme_bound-this-sn6,def_prop(sunshine,[evento]),def_prop(this,[oggetto,umano])])
+lf(Daily Bred.txt_6,23,cl8-nil-nil-shed-[obj-theme_aff-light-sn3,obj-theme-little-sn2,subj-agent-daily-sn1,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(little,[astratto,informa,oggetto]),def_prop(daily,[attivita,informa])])
+lf(Daily Bred.txt_7,31,cl11-nil-nil-tour-[subj-theme-priority-sn1,def_prop(priority,[astratto])])
+lf(Daily Bred.txt_7,31,cl10-nil-nil-explore-[adj-(mod)-formally-nil,subj-agent-priority-sn1,aux-(is)-nil,progr-exploring-nil,def_prop(priority,[astratto])])
+lf(Daily Bred.txt_8,40,_1512514-nil-nil-talk-[iobj-goal-death-sn5,voice-talk-nil,tense-talk-nil,obl-theme_unaff-thought-sn1,def_prop(death,[animato,attivita,cambia,evento,informa,stato,tempo]),def_prop(thought,[astratto])])
+lf(Daily Bred.txt_8,40,cl12-nil-nil-stem-[voice-talk-nil,tense-talk-nil,ncmod-comitativo-Morrie-sn3,iobj-goal-Tuesdays-sn2,subj-agent-thought-sn1,def_prop(Morrie,[istituzione]),def_prop(Tuesdays,[istituzione]),def_prop(thought,[astratto])])
+lf(Daily Bred.txt_9,50,cl13-nil-nil-evolve-[obj-theme-story-sn2,subj-actor-chronology-sn1,and(chronology,daily,sn1),def_prop(story,[attivita,informa]),def_prop(chronology,[astratto,attivita,informa,relat])])
+lf(Daily Bred.txt_10,60,cl15-nil-nil-instigate-[obj-theme-orgy-sn7,subj-agent-i-sn6,ncmod-locativo-music-sn3,aux-am-nil,progr-instigating-nil,def_prop(orgy,[attivita]),def_prop(i,[umano]),def_prop(music,[astratto,attivita,informa])])
+lf(Daily Bred.txt_10,60,cl14-nil-nil-be-[xcomp-prop-mental-sn2,subj-theme_bound-sapiosexual-sn1,and(mental,intimate,sn2),def_prop(mental,[istituzione,umano]),def_prop(sapiosexual,[istituzione])])
+lf(Daily Bred.txt_11,72,cl18-nil-nil-breed-[subj-agent-you-sn6,xcomp-purpose-rhyme-3,def_prop(you,[umano])])
+lf(Daily Bred.txt_11,72,cl17-nil-nil-rhyme-[ncmod-patient1-Daily-sn2,def_prop(Daily,[place,umano])])
+lf(Daily Bred.txt_11,72,cl16-nil-nil-decide-[adj-(mod)-tonight-nil,subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Daily Bred.txt_12,86,cl19-nil-nil-read-[obj-theme_unaff-Wrinkle-sn2,subj-agent-i-sn1,def_prop(Wrinkle,[astratto,umano]),def_prop(i,[umano])])
+lf(Daily Bred.txt_13,99,cl21-nil-nil-feed-[subj-goal-veg-sn5,subj-goal-veg-sn4,subj-goal-cheese-sn3,iobj-goal-meat-sn2,aux-am-nil,and(veg,cheese,sn4),and(cheese,yes,sn3),and(meat,raw,sn2),def_prop(veg,[istituzione]),def_prop(veg,[istituzione]),def_prop(cheese,[edible,oggetto]),def_prop(meat,[astratto,edible,oggetto])])
+lf(Daily Bred.txt_13,99,cl20-nil-nil-cook-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Daily Bred.txt_14,114,cl24-nil-nil-do-[xcomp-prop-best-sn11,subj-theme_unaff-i-sn10,adj-(mod)-record-nil,xadj-adj-this-adj2,aux-do-nil,def_prop(best,[valutativo]),def_prop(i,[umano]),def_prop(this,_1514248)])
+lf(Daily Bred.txt_14,114,cl23-nil-nil-be-[cmod-subord-record-1,subj-theme_bound-this-sn2,subj-theme_bound-this-sn1,and(this,way,sn1),and(this,no,sn1),def_prop(this,[oggetto,umano]),def_prop(this,[oggetto,umano])])
+lf(Daily Bred.txt_14,114,cl22-nil-nil-record-[subj-agent-you-sn8,subj-agent-you-sn7,and(you,me,sn7),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Daily Bred.txt_15,131,cl27-nil-nil-invest-[subj-agent-you-sn6,def_prop(you,[umano])])
+lf(Daily Bred.txt_15,131,cl26-nil-nil-be-[ncmod-locativo-this-sn4,subj-theme_bound-energy-sn3,def_prop(this,[oggetto,umano]),def_prop(energy,[astratto,attivita,cambia,stato])])
+lf(Daily Bred.txt_15,131,cl25-not-nil-have-[xcomp-tema_bound-money-sn2,subj-experiencer-i-sn1,def_prop(money,[astratto,oggetto]),def_prop(i,[umano])])
+lf(Daily Bred.txt_16,149,cl28-not-nil-be-[xcomp-prop-incest-sn2,subj-theme_bound-deliverance-sn1,neg-not-nil,and(incest,imbred,sn2),and(deliverance,this,sn1),def_prop(incest,[attivita]),def_prop(deliverance,[evento])])
+lf(Daily Bred.txt_17,166,cl29-nil-nil-meet-[adj-(mod)-instead-nil,ncmod-locativo-country-sn3,obj-actor-people-sn2,subj-experiencer-i-sn1,def_prop(country,[luogo]),def_prop(people,[istituzione]),def_prop(i,[umano])])
+lf(Daily Bred.txt_18,184,cl30-not-nil-be-[ncmod-locativo-tent-sn5,ncmod-locativo-tarp-sn4,subj-theme_bound-female-sn3,ncmod-locativo-woods-sn2,subj-theme_bound-i-sn1,and(female,10,sn3),def_prop(tent,[oggetto,strumento]),def_prop(tarp,[oggetto,strumento]),def_prop(female,[tempo]),def_prop(woods,[istituzione]),def_prop(i,[umano])])
+lf(Daily Bred.txt_19,203,cl32-nil-nil-be-[adj-(mod)-now-nil,subj-agent-i-sn3,xmod-prop-bear-2,subj-theme_bound-intense-sn1,and(intense,twas,sn1),def_prop(i,[umano]),def_prop(intense,[istituzione])])
+lf(Daily Bred.txt_19,203,cl31-nil-nil-bear-[ncmod-locativo-West-sn4,ncmod-prop-East-sn2,def_prop(West,[istituzione,umano]),def_prop(East,[istituzione,umano])])
+lf(Daily Bred.txt_20,224,nil-nil-nil-snowshoe-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Daily Bred.txt_21,245,cl33-nil-nil-ski-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,Snowboard,sn1),and(i,no,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Daily Bred.txt_22,267,cl34-nil-nil-be-[ncmod-modal-snow-sn2,subj-theme_bound-you-sn1,def_prop(snow,[attivita,cambia,sostanza]),def_prop(you,[umano])])
+lf(Daily Bred.txt_23,290,cl36-nil-nil-slope-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(Daily Bred.txt_23,290,cl35-nil-nil-go-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Daily Bred.txt_24,315,cl37-nil-nil-be-[xcomp-prop-powder-sn3,ncmod-locativo-Soldier-sn2,subj-theme_bound-Mountain-sn1,and(powder,so_much,sn3),and(Mountain,there,sn1),def_prop(powder,[oggetto,sostanza,strumento]),def_prop(Soldier,[place,animato,relat,sociale,umano]),def_prop(Mountain,[place,umano])])
+lf(Daily Bred.txt_25,340,nil-nil-nil-plow-[obj-theme-here-sn3,subj-agent-shower-sn2,subj-agent-shower-sn1,and(here,own,sn3),and(here,road,sn3),and(shower,coldest,sn2),and(shower,coldest,sn1),def_prop(here,[istituzione]),def_prop(shower,[attivita,cambia,evento,istituzione,oggetto,strumento]),def_prop(shower,[attivita,cambia,evento,istituzione,oggetto,strumento])])
+lf(Daily Bred.txt_26,366,cl39-nil-nil-drive-[adj-locative-closest-nil,obj-theme_unaff-hour-sn3,obj-theme-city-sn2,subj-agent-power-sn1,and(city,we,sn2),and(power,solar,sn1),def_prop(hour,[tempo]),def_prop(city,[istituzione,luogo]),def_prop(power,[astratto,attivita,cambia,umano])])
+lf(Daily Bred.txt_26,366,cl38-nil-nil-go-[])
+lf(Daily Bred.txt_27,394,cl40-nil-nil-be-[xadj-adj-so_much-adj3,adj-(mod)-just-nil,ncmod-locativo-general-sn2,subj-theme_bound-flower-sn1,and(flower,no,sn1),and(flower,growing,sn1),def_prop(so_much,_1517154),def_prop(general,[astratto,umano]),def_prop(flower,[plant,tempo])])
+lf(Daily Bred.txt_28,422,cl42-nil-nil-read-[adj-(mod)-out_loud-nil,obj2-goal-yourself-sn4,subj-agent-this-sn3,def_prop(yourself,[istituzione]),def_prop(this,[oggetto,umano])])
+lf(Daily Bred.txt_28,422,cl41-nil-nil-do-[xcomp-theme-when-sn2,subj-theme_unaff-you-sn1,aux-do-nil,def_prop(when,[tempo]),def_prop(you,[umano])])
+lf(Daily Bred.txt_29,452,cl45-nil-nil-be-[ncmod-privation-sound-sn5,xcomp-prop-dead-sn4,subj-theme_bound-word-sn3,def_prop(sound,[astratto,attivita,cambia,evento,oggetto]),def_prop(dead,[valutativo]),def_prop(word,[attivita,informa,nquant])])
+lf(Daily Bred.txt_29,452,cl44-nil-nil-speak-[subj-patient-speech-sn1,and(speech,we,sn1),def_prop(speech,[attivita,informa])])
+lf(Daily Bred.txt_29,452,cl43-nil-nil-need-[subj-experiencer-speech-sn1,and(speech,we,sn1),def_prop(speech,[attivita,informa])])
+lf(Daily Bred.txt_30,484,cl48-nil-nil-pound-[ncmod-loc_origin-downtown-sn5,subj-agent-you-sn4,arg_mod-agent-handcuff-sn2,def_prop(downtown,[luogo]),def_prop(you,[umano]),def_prop(handcuff,[oggetto,strumento])])
+lf(Daily Bred.txt_30,484,cl47-nil-nil-bail-[adj-(mod)-out-nil,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Daily Bred.txt_30,484,cl46-nil-nil-be-[xadj-adj-bound-adj4,def_prop(bound,_1518178)])
+lf(Daily Bred.txt_31,517,cl51-nil-nil-compound-[adj-(mod)-now-nil,obj-theme-noun-sn11,subj-agent-i-sn10,def_prop(now,[istituzione]),def_prop(noun,[attivita,informa]),def_prop(i,[umano])])
+lf(Daily Bred.txt_31,517,cl50-nil-nil-trap-[iobj-goal-camp-sn9,obj-theme-female-sn8,subj-agent-we-sn7,iobj-goal-camp-sn4,def_prop(camp,[astratto,istituzione,oggetto,strumento]),def_prop(female,[animato,umano]),def_prop(we,[umano]),def_prop(camp,[astratto,istituzione,oggetto,strumento])])
+lf(Daily Bred.txt_31,517,cl49-nil-nil-see-[subj-experiencer-i-sn1,aux-have-nil,def_prop(i,[umano])])
+lf(Daily Bred.txt_32,551,cl52-nil-can-bounce-[obj-theme-idea-sn2,subj-actor-i-sn1,def_prop(idea,[astratto]),def_prop(i,[umano])])
+lf(Daily Bred.txt_33,584,cl56-nil-nil-be-[cmod-subord-be-because,subj-theme_bound-weak-sn1,def_prop(weak,[istituzione])])
+lf(Daily Bred.txt_33,584,cl55-nil-nil-cry-[])
+lf(Daily Bred.txt_33,584,cl54-nil-nil-feel-[subj-agent-feel-cl54])
+lf(Daily Bred.txt_33,584,cl53-nil-nil-breathe-[subj-experiencer-pro-nil,aux-be-nil,progr-breathing-nil])
+lf(Daily Bred.txt_34,622,cl60-not-can-reach-[subj-agent-you-sn7,def_prop(you,[umano])])
+lf(Daily Bred.txt_34,622,cl59-nil-nil-be-[])
+lf(Daily Bred.txt_34,622,cl58-nil-can-can-[ncmod-specif-i-sn3,subj-actor-you-sn2,and(i,those,sn3),def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Daily Bred.txt_34,622,cl57-nil-nil-hold-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Daily Bred.txt_35,660,cl62-nil-nil-stand-[adj-(mod)-up-nil,subj-experiencer-belief-sn3,ncmod-locativo-screen-sn2,and(belief,i,sn3),def_prop(belief,[astratto]),def_prop(screen,[oggetto,strumento])])
+lf(Daily Bred.txt_35,660,cl61-nil-nil-be-[subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Daily Bred.txt_36,697,cl63-nil-nil-say-[obj-theme_unaff-foot-sn1,def_prop(foot,[animato,attivita,body_part,luogo,nquant,oggetto,strumento,umano])])
+lf(Daily Bred.txt_37,734,cl67-nil-nil-see-[cmod-subord-see-if])
+lf(Daily Bred.txt_37,734,cl66-nil-nil-want-[obj-actor-beef-sn5,xcomp-purpose-see-3,subj-actor-you-sn4,def_prop(beef,[animato,edible,oggetto]),def_prop(you,[umano])])
+lf(Daily Bred.txt_37,734,cl65-nil-nil-feed-[subj-agent-hop-sn3,def_prop(hop,[attivita,evento,plant])])
+lf(Daily Bred.txt_37,734,cl64-nil-nil-be-[xcomp-prop-tractor-sn2,subj-theme_bound-there-sn1,def_prop(tractor,[oggetto,strumento]),def_prop(there,[any])])
+lf(Daily Bred.txt_38,775,cl69-not-will-walk-[adj-(mod)-off-nil,iobj-locative-defeat-sn9,obj-theme-i-sn8,obj-theme-drop-sn7,xcomp-prop-body-sn6,subj-agent-till-sn5,iobj-goal-mark-sn2,def_prop(defeat,[evento]),def_prop(i,[umano]),def_prop(drop,[astratto,attivita,evento,luogo,nquant,oggetto,strumento]),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano]),def_prop(till,[sostanza]),def_prop(mark,[astratto,attivita,informa,nquant])])
+lf(Daily Bred.txt_38,775,cl68-nil-nil-be-[subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Daily Bred.txt_39,815,cl72-nil-nil-become-[ncmod-locativo-ranch-sn2,and(ranch,this,sn2),def_prop(ranch,[oggetto,strumento])])
+lf(Daily Bred.txt_39,815,cl71-nil-might-might-[obj-prop-lyric-sn6,xcomp-purpose-become-2,subj-theme_unaff-this-sn5,def_prop(lyric,[attivita,informa]),def_prop(this,[oggetto,umano])])
+lf(Daily Bred.txt_39,815,cl70-nil-nil-get-[adj-(mod)-once-nil,subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Daily Bred.txt_40,857,cl75-nil-nil-open-[])
+lf(Daily Bred.txt_40,857,cl74-nil-nil-be-[])
+lf(Daily Bred.txt_40,857,cl73-nil-nil-want-[obj-result-spirit-sn3,xcomp-prop-open-cl75,subj-actor-i-sn2,subj-actor-i-sn1,aux-have-nil,and(i,all,sn1),def_prop(spirit,[astratto,stato,umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Daily Bred.txt_41,900,cl78-nil-nil-be-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Daily Bred.txt_41,900,cl77-nil-nil-feel-[adj-(mod)-hopefully-nil,subj-experiencer-you-sn3,ncmod-goal-me-sn2,def_prop(you,[umano]),def_prop(me,[umano])])
+lf(Daily Bred.txt_41,900,cl76-nil-nil-open-[adj-(mod)-be-nil,subj-goal-you-sn3,subj-goal-you-sn1,aux-are-nil,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Daily Bred.txt_41,900,cl76-nil-nil-open-[adj-(mod)-be-nil,subj-goal-you-sn3,subj-goal-you-sn1,aux-are-nil,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Daily Bred.txt_42,944,cl80-nil-nil-steer-[cmod-subord-steer-so,subj-agent-you-sn7,ncmod-locativo-control-sn1,def_prop(you,[umano]),def_prop(control,[astratto,attivita,informa,oggetto,relat,strumento,umano])])
+lf(Daily Bred.txt_42,944,cl79-not-nil-be-[])
+lf(Daily Bred.txt_43,988,cl82-nil-nil-be-[])
+lf(Daily Bred.txt_43,988,cl81-nil-nil-begin-[cmod-coord-like-nil,obj-prop-bearded-sn4,xcomp-purpose-be-cl82,aux-have-nil,def_prop(bearded,[evaluative])])
+lf(Daily Bred.txt_43,988,nil-nil-nil-like-[subj-sn1-Dragon-sn3,xcomp-prop-abstract-sn2,subj-experiencer-you-sn1,and(Dragon,i,sn3),def_prop(Dragon,[place,umano]),def_prop(abstract,[attivita,informa]),def_prop(you,[umano])])
+lf(Daily Bred.txt_44,1034,cl84-nil-nil-be-[subj-theme_bound-you-sn6,xcomp-prop-Midnight-sn5,subj-theme_bound-it-sn4,def_prop(you,[umano]),def_prop(Midnight,[place,tempo]),def_prop(it,[any])])
+lf(Daily Bred.txt_44,1034,cl83-nil-nil-seek-[obj-theme_aff-Tribe-sn3,obj-theme_unaff-ear-sn2,subj-actor-i-sn1,def_prop(Tribe,[umano]),def_prop(ear,[astratto,body_part,plant,umano]),def_prop(i,[umano])])
+lf(Daily Bred.txt_45,1080,cl85-nil-nil-be-[xcomp-theme-amp-sn2,subj-theme_bound-Robbin-sn1,def_prop(amp,[nquant]),def_prop(Robbin,[place,umano])])
+lf(Daily Bred.txt_46,1126,cl86-nil-nil-say-[obj-theme_unaff-Stealin-sn1,def_prop(Stealin,[istituzione,umano])])
+lf(Daily Bred.txt_47,1173,cl88-not-nil-pull-[cmod-subord-pull-if,obj-goal-trigger-sn6,subj-agent-you-sn5,aux-do-nil,def_prop(trigger,[attivita,oggetto,strumento]),def_prop(you,[umano])])
+lf(Daily Bred.txt_47,1173,cl87-not-nil-be-[xcomp-prop-any-sn2,subj-theme_bound-you-sn1,def_prop(any,[_1523088]),def_prop(you,[umano])])
+lf(Daily Bred.txt_48,1222,cl89-not-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Daily Bred.txt_49,1271,cl90-nil-nil-do-[cmod-subord-do-if,subj-theme_unaff-you-sn3,aux-do-nil,def_prop(you,[umano])])
+lf(Daily Bred.txt_50,1321,cl91-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Daily Bred.txt_51,1372,cl92-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Daily Bred.txt_52,1424,cl93-nil-nil-breed-[subj-agent-you-sn1,def_prop(you,[umano])])

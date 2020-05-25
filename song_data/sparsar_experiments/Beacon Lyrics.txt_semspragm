@@ -1,0 +1,115 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Beacon Lyrics.txt_1-1  []-positive  [neg]
+Beacon Lyrics.txt_2-3  []-none  []
+Beacon Lyrics.txt_3-6  [when-temp_coinc]-positive  []
+Beacon Lyrics.txt_3-7  []-positive  []
+Beacon Lyrics.txt_5-17  []-negative  [neg]
+Beacon Lyrics.txt_6-23  []-negative  []
+Beacon Lyrics.txt_7-30  []-negative  [neg]
+Beacon Lyrics.txt_8-38  []-positive  [ack]
+Beacon Lyrics.txt_9-47  []-positive  []
+Beacon Lyrics.txt_10-58  []-positive  []
+Beacon Lyrics.txt_11-70  []-positive  [fgb]
+Beacon Lyrics.txt_12-82  []-positive  []
+Beacon Lyrics.txt_13-95  []-positive  [fgb]
+Beacon Lyrics.txt_13-96  []-positive  []
+Beacon Lyrics.txt_14-110  []-suspension  []
+Beacon Lyrics.txt_15-126  []-positive  []
+Beacon Lyrics.txt_16-142  []-positive  [fgb]
+Beacon Lyrics.txt_16-143  []-negative  [neg]
+Beacon Lyrics.txt_17-160  []-positive  []
+Beacon Lyrics.txt_18-178  []-positive  []
+Beacon Lyrics.txt_19-197  []-positive  []
+Beacon Lyrics.txt_20-217  []-positive  []
+Beacon Lyrics.txt_21-238  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Beacon Lyrics.txt_1-1  [beacon,Lyrics,by,two,Door,Cinema,club]  [title]
+Beacon Lyrics.txt_2-3  [wait,for,something,more]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Beacon Lyrics.txt_3-6  [when,you,show]  [provide_expl_just(follow,[external,factive,explanation,background,objective])]
+Beacon Lyrics.txt_3-7  [i,follow]  [provide_expl_just(follow,[external,factive,explanation,background,objective])]
+Beacon Lyrics.txt_5-17  [the,light,that,never,dies]  [reject_expl_just(die,[external,factive,narration,background,objective])]
+Beacon Lyrics.txt_6-23  [reflections,thrown,above,the,sea]  [provide_expl_just(throw,[external,factive,cause,foreground,objective])]
+Beacon Lyrics.txt_7-30  [casts,shadows,in,the,sky]  [reject_expl_just(cast,[external,factive,narration,background,objective])]
+Beacon Lyrics.txt_8-38  [standing,right,in,front,of,you]  [provide_expl_just(stand,[external,factive,narration,foreground,objective])]
+Beacon Lyrics.txt_9-47  [is,where,i,need,to,be,.,i,need,to,be]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Beacon Lyrics.txt_10-58  [reliving,this,is,something,new]  [provide_expl_just(relive,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Beacon Lyrics.txt_11-70  [and,something,finally]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Beacon Lyrics.txt_12-82  [the,deep,end,take]  [provide_expl_just(take,[external,factive,narration,background,objective])]
+Beacon Lyrics.txt_13-95  [and,swim]  [provide_expl_just(swim,[external,factive,narration,background,objective]),provide_expl_just(stand,[external,nonfactive,narration,foreground,objective])]
+Beacon Lyrics.txt_13-96  [til,you,can,stand]  [provide_expl_just(swim,[external,factive,narration,background,objective]),provide_expl_just(stand,[external,nonfactive,narration,foreground,objective])]
+Beacon Lyrics.txt_14-110  [cause,it,will,make,a,difference,in,the,end]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Beacon Lyrics.txt_15-126  [the,shudder,trip]  [provide_expl_just(trip,[external,factive,narration,background,objective])]
+Beacon Lyrics.txt_16-142  [and,keep]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(close,[external,factive,narration,background,objective])]
+Beacon Lyrics.txt_16-143  [the,picture,close]  [reject_expl_just(keep,[external,factive,narration,background,objective]),reject_expl_just(close,[external,factive,narration,background,objective])]
+Beacon Lyrics.txt_17-160  [save,it,until,you,need,it,the,most]  [provide_expl_just(need,[external,factive,narration,background,objective])]
+Beacon Lyrics.txt_18-178  [i,am,coming,home]  [raise_issue(be,[_388210,factive,statement,_388228,subjective])]
+Beacon Lyrics.txt_19-197  [i,am,coming,home]  [raise_issue(be,[_388508,factive,statement,_388526,subjective])]
+Beacon Lyrics.txt_20-217  [i,am,coming,home]  [raise_issue(be,[_388806,factive,statement,_388824,subjective])]
+Beacon Lyrics.txt_21-238  [i,am,coming,home]  [raise_issue(be,[_389104,factive,statement,_389122,subjective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Beacon Lyrics.txt_1-1)-[]
+2-(Beacon Lyrics.txt_2-3)-[]
+3-(Beacon Lyrics.txt_3-6)-[secondary-temporal_repere]
+4-(Beacon Lyrics.txt_3-7)-[secondary-social_behavior]
+5-(Beacon Lyrics.txt_5-17)-[primary-vision,primary-passivity]
+6-(Beacon Lyrics.txt_6-23)-[primary-ascend,primary-height,primary-water]
+7-(Beacon Lyrics.txt_7-30)-[primary-diffusion,primary-height]
+8-(Beacon Lyrics.txt_8-38)-[secondary-moral_imperative,primary-concreteness]
+9-(Beacon Lyrics.txt_9-47)-[primary-concreteness]
+10-(Beacon Lyrics.txt_10-58)-[]
+11-(Beacon Lyrics.txt_11-70)-[]
+half
+12-(Beacon Lyrics.txt_12-82)-[primary-depth]
+13-(Beacon Lyrics.txt_13-95)-[primary-water]
+14-(Beacon Lyrics.txt_13-96)-[]
+15-(Beacon Lyrics.txt_14-110)-[secondary-abstract_tought,secondary-instru_behavior,secondary-abstract_tought]
+16-(Beacon Lyrics.txt_15-126)-[emotions-anxiety,primary-voyage]
+17-(Beacon Lyrics.txt_16-142)-[]
+18-(Beacon Lyrics.txt_16-143)-[primary-vision,primary-concreteness]
+19-(Beacon Lyrics.txt_17-160)-[]
+20-(Beacon Lyrics.txt_18-178)-[]
+21-(Beacon Lyrics.txt_19-197)-[]
+22-(Beacon Lyrics.txt_20-217)-[]
+23-(Beacon Lyrics.txt_21-238)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Beacon Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Door-sn2,subj-theme_bound-Lyrics-sn1,and(Door,two,sn2),and(Lyrics,beacon,sn1),def_prop(Door,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Beacon Lyrics.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-more-sn2,subj-theme_bound-more-sn1,and(more,something,sn2),and(more,something,sn1),def_prop(more,[astratto,informa,oggetto]),def_prop(more,[astratto,informa,oggetto])])
+lf(Beacon Lyrics.txt_3,6,cl4-nil-nil-follow-[subj-agent-i-sn3,def_prop(i,[umano])])
+lf(Beacon Lyrics.txt_3,6,cl3-nil-nil-show-[obj-theme-when-sn2,subj-actor-you-sn1,def_prop(when,[tempo]),def_prop(you,[umano])])
+lf(Beacon Lyrics.txt_4,11,cl6-nil-nil-call-[subj-agent-beacon-sn1,aux-(is)-nil,progr-calling-nil,def_prop(beacon,[attivita,informa,oggetto,strumento])])
+lf(Beacon Lyrics.txt_4,11,cl5-nil-nil-be-[xcomp-prop-beacon-sn1,def_prop(beacon,[attivita,informa,oggetto,strumento])])
+lf(Beacon Lyrics.txt_5,17,cl7-nil-nil-die-[subj-theme_aff-light-sn1,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(Beacon Lyrics.txt_6,23,cl8-nil-nil-throw-[ncmod-loc_direct-sea-sn2,subj-agent-reflection-sn1,def_prop(sea,[attivita,cambia,oggetto]),def_prop(reflection,[astratto,attivita,cambia,oggetto,relat,strumento])])
+lf(Beacon Lyrics.txt_7,30,cl9-nil-nil-cast-[ncmod-locativo-sky-sn3,obj-theme-shadow-sn2,subj-actor-you-sn1,def_prop(sky,[oggetto]),def_prop(shadow,[astratto,emotivo,stato,umano]),def_prop(you,[umano])])
+lf(Beacon Lyrics.txt_8,38,cl10-nil-nil-stand-[iobj-locative-front-sn3,xcomp-prop-right-sn2,subj-experiencer-you-sn1,def_prop(front,[astratto,attivita,cambia,luogo,oggetto,stato,strumento]),def_prop(right,[soggettivo]),def_prop(you,[umano])])
+lf(Beacon Lyrics.txt_9,47,cl12-nil-nil-need-[])
+lf(Beacon Lyrics.txt_9,47,cl11-nil-nil-be-[f2-sn1-where-sn2,subj-theme_bound-i-sn1,def_prop(where,[luogo]),def_prop(i,[umano])])
+lf(Beacon Lyrics.txt_10,58,cl14-nil-nil-be-[xcomp-theme-new-sn2,xcomp-purpose-relive-2,subj-theme_bound-this-sn1,and(new,something,sn2),def_prop(new,[istituzione]),def_prop(this,[oggetto,umano])])
+lf(Beacon Lyrics.txt_10,58,cl13-nil-nil-relive-[])
+lf(Beacon Lyrics.txt_11,70,cl15-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Beacon Lyrics.txt_12,82,cl16-nil-nil-take-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Beacon Lyrics.txt_13,95,cl18-nil-can-stand-[subj-experiencer-you-sn3,subj-experiencer-you-sn2,and(you,you,sn2),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Beacon Lyrics.txt_13,95,cl17-nil-nil-swim-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(Beacon Lyrics.txt_14,110,cl20-nil-nil-make-[ncmod-temporale-end-sn5,obj-agent-difference-sn3,xadj-result-make-2,def_prop(end,[tempo]),def_prop(difference,[astratto,relat])])
+lf(Beacon Lyrics.txt_14,110,cl19-nil-nil-cause-[adj-locative-end-nil,subj-causer-it-sn2,subj-causer-it-sn1,and(it,you,sn1),def_prop(end,[tempo]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Beacon Lyrics.txt_15,126,cl21-nil-nil-trip-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Beacon Lyrics.txt_16,142,cl23-nil-nil-close-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Beacon Lyrics.txt_16,142,cl22-nil-nil-keep-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Beacon Lyrics.txt_17,160,cl24-nil-nil-need-[cmod-subord-need-until,obj-theme-most-sn5,subj-experiencer-it-sn4,subj-experiencer-it-sn3,and(it,you,sn3),def_prop(most,[nquant]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Beacon Lyrics.txt_18,178,cl25-nil-nil-come-[subj-agent-i-sn1,aux-am-nil,progr-coming-nil,def_prop(i,[umano])])
+lf(Beacon Lyrics.txt_19,197,cl26-nil-nil-come-[subj-agent-i-sn1,aux-am-nil,progr-coming-nil,def_prop(i,[umano])])
+lf(Beacon Lyrics.txt_20,217,cl27-nil-nil-come-[subj-agent-i-sn1,aux-am-nil,progr-coming-nil,def_prop(i,[umano])])
+lf(Beacon Lyrics.txt_21,238,cl28-nil-nil-come-[subj-agent-i-sn1,aux-am-nil,progr-coming-nil,def_prop(i,[umano])])

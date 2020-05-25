@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Poem_Level title="Lay low Lyrics.txt" author="poems">
+<Stanza_levels>
+<Stanza_level no="0">
+<Stats_Stanza  
+	line_durations_msec="[2144,2750.19,2224,2608]"
+	total_syllable_length_msec="9726.19"
+	mean_line_length_val="2431.5475"
+	standard_deviation_val="293.50074223358735"
+	skewness_val="0.06764660465665127"
+	kurtosis_val="-2.102921179890402">
+</Stats_Stanza>
+<Metrical_Scheme_Stanza>
+<Line_verse no="0"
+	number_of_feet_no="5"	line_syllables="[i/[ay],crept/[k_r_eh_p_t],and/[ah_n_d],I/[ay],came/[k_ey_m],ain-t/[ey_n_t],no/[n_ow],turnin/[t_er_n,iy_n],back/[b_ae_k]]"
+	total_syllable_length_no="10"
+	rhetorical_devices="[1-[]]"
+	metrical_structure_val="[0,1,0,0,1,0,1,1,0,1]"></Line_verse>
+<Line_verse no="1"
+	number_of_feet_no="5"	line_syllables="[the/[dh_ah],music/[m_y_uw_z,ih_k],that/[dh_ae_t],I/[ay],heard/[hh_er_d],started/[s_t_aa_r_t,ah_d],at/[ae_t],the/[dh_ah],sugar/[sh_uh,g_er],shack/[sh_ae_k]]"
+	total_syllable_length_no="13"
+	rhetorical_devices="[2-[]]"
+	metrical_structure_val="[0,1,0,1,0,0,1,0,1,0,1,0,0]"></Line_verse>
+<Line_verse no="2"
+	number_of_feet_no="4"	line_syllables="[they/[dh_ey],crawl/[k_r_ao_l],like/[l_ay_k],snails/[s_n_ey_l_z],and/[ah_n_d],yell/[y_eh_l],for/[f_ao_r],help/[hh_eh_l_p]]"
+	total_syllable_length_no="8"
+	rhetorical_devices="[3-[]]"
+	metrical_structure_val="[1,1,0,1,0,0,1,0]"></Line_verse>
+<Line_verse no="3"
+	number_of_feet_no="4"	line_syllables="[cuz/[k_ah_z],Tuck/[t_ah_k],and/[ah_n_d],Ro/[r_ow],gon/[g_aa_n],burn/[b_er_n],ya/[y_aa],scalp/[s_k_ae_l_p]]"
+	total_syllable_length_no="8"
+	rhetorical_devices="[4-[]]"
+	metrical_structure_val="[0,1,0,0,1,0,1,1]"></Line_verse>
+</Metrical_Scheme_Stanza>
+</Stanza_level>
+</Stanza_levels>
+<General_Stats>
+	<Prosodic_Measures_in_msecs
+	mean_line_length_val="2431.5475"
+	standard_deviation_val="293.50074223358735"
+	skewness_val="0.06764660465665127"
+	kurtosis_val="-2.102921179890402">
+</Prosodic_Measures_in_msecs>
+	<Metrical_Structures
+	mean_line_length_in_no_of_feet_val="4.5"
+	standard_deviation_val="0.5773502691896257"
+	skewness_val="0.0"
+	kurtosis_val="-2.2499999999999996">
+</Metrical_Structures>
+	<Rhetorical_Metrical_Devices
+	Absolute_Count_of_Rhyming_Devices_val="120"
+	Ratio_of_Absolute_Count_by_No_of_Stanzas_val="0.0909090909090909"
+	Ratio_of_RhDevs_Absolute_Count_by_Corrected_No_of_Verses_val=" 40"
+	Ratio_of_RhDevs_Absolute_Count_by_Repetition_Rate_val="412.5"
+	Ratio_of_RhDevs_Absolute_Count_by_Rare_Word_Repetition_Rate_val=" 137.64705882352942"
+	Ratio_of_RhDevs_Absolute_Count_by_No_Tokens_val="77.94228634059948">
+</Rhetorical_Metrical_Devices>
+</General_Stats>
+<General_Rhetoric_Devices>
+	<All_Rhyming_Schemes  
+	Stanza-based_Rhyme_Schemes="[1-[3-a,4-a,5-b,6-a]]"
+	Different_Rhyme_Schemes="[a,a,b,a]"
+	Number_of_Different_Rhyme_Schemes_no="2"
+	Multiplier_Factor_no="2"
+	Different_Stanzas_RSs_no="[2]"
+	Different_Rhyme_Types_no="[2]">
+</All_Rhyming_Schemes>
+	<All_Rhyming_Words>
+	<Line_Ending_Rhymes words="[a-[3-b_ae1_k,4-sh_ae1_k,6-s_k_ae1_l_p],b-[5-hh_eh1_l_p]]">
+</Line_Ending_Rhymes>
+	<Line_Middle_Rhymes words="[3-[3-ey1_n_t,3-k_ey1_m,5-s_n_ey1_l_z],2-[3-t_er1_n_iy_n,4-hh_er1_d],2-[4-s_t_aa1_r_t_ah_d,6-g_aa1_n],2-[3-n_ow1,5-k_r_ao1_l],2-[4-m_y_uw1_z_ih_k,4-sh_uh1_g_er],2-[3-k_r_eh1_p_t,5-y_eh1_l]]">
+</Line_Middle_Rhymes>
+	<Consonances_Assonances words="[[ay-ay-ay]-3/3,[ay-ay-ay]-3/4,[b_ae1_k-b_er1_n-[1-[b]-[b],cvc-[b,er,n]]]-3/6,[dh_ae1_t-dh_ey1-[2-[d,h]-[d,h],cv-[dh,ey]]]-4/5,[dh_ah-dh_ey1-[2-[d,h]-[d,h],cv-[dh,ey]]]-4/5,[hh_er1_d-hh_eh1_l_p-[2-[h,h]-[h,h],cvcc-[hh,eh,l,p]]]-4/5,[k_r_ao1_l-k_ah1_z-[1-[k,r]-[k],cvc-[k,ah,z]]]-5/6,[k_r_eh1_p_t-k_ah1_z-[1-[k,r]-[k],cvc-[k,ah,z]]]-3/6,[k_r_eh1_p_t-k_ey1_m-[1-[k,r]-[k],cvc-[k,ey,m]]]-3/3,[k_r_eh1_p_t-k_r_ao1_l-[2-[k,r]-[k,r],ccvv-[k,r,ao,l]]]-3/5,[s_n_ey1_l_z-s_k_ae1_l_p-[1-[s,n]-[s,k],ccvcc-[s,k,ae,l,p]]]-5/6,[s_t_aa1_r_t_ah_d-s_k_ae1_l_p-[1-[s,t]-[s,k],ccvcc-[s,k,ae,l,p]]]-4/6,[s_t_aa1_r_t_ah_d-s_n_ey1_l_z-[1-[s,t]-[s,n],ccvcc-[s,n,ey,l,z]]]-4/5,[s_t_aa1_r_t_ah_d-sh_uh1_g_er-[1-[s,t]-[s,h],[cv-[sh,uh],cv-[g,er]]]]-4/4,[sh_uh1_g_er-sh_ae1_k-[2-[s,h]-[s,h],cvc-[sh,ae,k]]]-4/4,[t_er1_n_iy_n-t_ah1_k-[1-[t]-[t],cvc-[t,ah,k]]]-3/6,[y_eh1_l-y_aa1-[1-[y]-[y],vv-[y,aa]]]-5/6]">
+</Consonances_Assonances>
+	<Word_Repetitions words="[i,i,i,and,and,and]">
+</Word_Repetitions>
+</All_Rhyming_Words>
+</General_Rhetoric_Devices>
+</Poem_Level>

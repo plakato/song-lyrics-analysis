@@ -1,0 +1,125 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Fire Away Lyrics.txt_1-1  []-positive  []
+Fire Away Lyrics.txt_2-3  []-negative  [neg,fgb]
+Fire Away Lyrics.txt_3-7  []-positive  []
+Fire Away Lyrics.txt_4-11  []-positive  []
+Fire Away Lyrics.txt_5-16  []-question  [neg]
+Fire Away Lyrics.txt_5-17  []-suspension  []
+Fire Away Lyrics.txt_6-23  []-negative  [neg]
+Fire Away Lyrics.txt_7-31  []-negative  [neg]
+Fire Away Lyrics.txt_7-32  [else-advers]-negative  [fgb,neg]
+Fire Away Lyrics.txt_8-40  []-positive  [fgb]
+Fire Away Lyrics.txt_9-49  []-question  []
+Fire Away Lyrics.txt_9-50  []-positive  []
+Fire Away Lyrics.txt_10-60  []-positive  []
+Fire Away Lyrics.txt_10-61  []-positive  []
+Fire Away Lyrics.txt_11-72  []-positive  []
+Fire Away Lyrics.txt_11-73  [so-result]-negative  [fgb,neg]
+Fire Away Lyrics.txt_12-84  []-negative  [neg]
+Fire Away Lyrics.txt_13-98  []-negative  [neg]
+Fire Away Lyrics.txt_13-99  [else-advers]-negative  [fgb,neg]
+Fire Away Lyrics.txt_14-113  []-positive  []
+Fire Away Lyrics.txt_15-128  []-negative  [neg]
+Fire Away Lyrics.txt_16-144  []-suspension  [fgb,neg]
+Fire Away Lyrics.txt_17-161  []-suspension  [fgb,neg]
+Fire Away Lyrics.txt_18-179  []-negative  [neg]
+Fire Away Lyrics.txt_19-199  []-negative  [neg]
+Fire Away Lyrics.txt_19-200  [else-advers]-negative  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Fire Away Lyrics.txt_1-1  [fire,away,Lyrics,by,the,Swellers]  [title]
+Fire Away Lyrics.txt_2-3  [load,up,the,flares,and,fire,away]  [reject_expl_just(fire,[external,factive,explanation,background,objective]),propose_opin_neg(fire,[external,factive,explanation,background,objective])]
+Fire Away Lyrics.txt_3-7  [search,without,rescue]  [provide_expl_just(search,[external,factive,explanation,background,objective])]
+Fire Away Lyrics.txt_4-11  [of,all,the,times,you,looked,out,to,sea]  [provide_expl_just(look,[external,factive,narration,foreground,objective])]
+Fire Away Lyrics.txt_5-16  [in,stepped,never,you,?]  [provide_expl_just(wait,[internal,factive,narration,foreground,objective]),provide_expl_just(step,[internal,factive,narration,background,objective])]
+Fire Away Lyrics.txt_5-17  [,,why,wait,for,me]  [provide_expl_just(wait,[internal,factive,narration,foreground,objective]),provide_expl_just(step,[internal,factive,narration,background,objective])]
+Fire Away Lyrics.txt_6-23  [abandon,ship,fend,for,yourself]  [reject_expl_just(fend,[external,factive,narration,background,objective]),reject_expl_just(abandon,[external,factive,narration,background,objective])]
+Fire Away Lyrics.txt_7-31  [you,have,got,that,sinking,feeling]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Fire Away Lyrics.txt_7-32  [and,nothing,else]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Fire Away Lyrics.txt_8-40  [priorities,change,and,hope,fades,away]  [provide_expl_just(fade,[external,factive,narration,background,objective])]
+Fire Away Lyrics.txt_9-49  [get,did,how,?]  [provide_expl_just(get,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Fire Away Lyrics.txt_9-50  [you,here]  [provide_expl_just(get,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Fire Away Lyrics.txt_10-60  [at_first,you,thought]  [provide_expl_just(think,[external,factive,narration,foreground,objective]),provide_expl_just(control,[external,factive,narration,background,objective])]
+Fire Away Lyrics.txt_10-61  [you,had,control]  [provide_expl_just(think,[external,factive,narration,foreground,objective]),provide_expl_just(control,[external,factive,narration,background,objective])]
+Fire Away Lyrics.txt_11-72  [now,you,are,just,following]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Fire Away Lyrics.txt_11-73  [so,lost,again]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Fire Away Lyrics.txt_12-84  [abandon,ship,fend,for,yourself]  [reject_expl_just(fend,[external,factive,narration,background,objective]),reject_expl_just(abandon,[external,factive,narration,background,objective])]
+Fire Away Lyrics.txt_13-98  [you,have,got,that,sinking,feeling]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Fire Away Lyrics.txt_13-99  [and,nothing,else]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Fire Away Lyrics.txt_14-113  [with,the,resources,left,in,your,heart]  [provide_expl_just(leave,[external,factive,narration,foreground,objective])]
+Fire Away Lyrics.txt_15-128  [of,course,you,are,afraid]  [reject_expl_just(you,[internal,factive,narration,background,objective])]
+Fire Away Lyrics.txt_16-144  [you,all,and,did,was,break,another,tie]  [provide_expl_just(break-cl22,[external,factive,narration,background,objective])]
+Fire Away Lyrics.txt_17-161  [and,all,of,this,can,break,another,time]  [propose_opin(can,[external,nonfactive,narration,foreground,objective]),provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Fire Away Lyrics.txt_18-179  [abandon,ship,fend,for,yourself]  [reject_expl_just(fend,[external,factive,narration,background,objective]),reject_expl_just(abandon,[external,factive,narration,background,objective])]
+Fire Away Lyrics.txt_19-199  [you,have,got,that,sinking,feeling]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Fire Away Lyrics.txt_19-200  [and,nothing,else]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Fire Away Lyrics.txt_1-1)-[primary-fire,primary-concreteness]
+2-(Fire Away Lyrics.txt_2-3)-[primary-fire,primary-concreteness]
+3-(Fire Away Lyrics.txt_3-7)-[primary-voyage,secondary-social_behavior]
+4-(Fire Away Lyrics.txt_4-11)-[secondary-temporal_repere,primary-vision,primary-concreteness,primary-water]
+5-(Fire Away Lyrics.txt_5-16)-[]
+6-(Fire Away Lyrics.txt_5-17)-[secondary-abstract_tought]
+7-(Fire Away Lyrics.txt_6-23)-[primary-voyage,primary-water]
+8-(Fire Away Lyrics.txt_7-31)-[]
+9-(Fire Away Lyrics.txt_7-32)-[]
+10-(Fire Away Lyrics.txt_8-40)-[primary-diffusion,primary-concreteness]
+11-(Fire Away Lyrics.txt_9-49)-[]
+12-(Fire Away Lyrics.txt_9-50)-[primary-concreteness]
+13-(Fire Away Lyrics.txt_10-60)-[secondary-abstract_tought]
+half
+14-(Fire Away Lyrics.txt_10-61)-[secondary-restraint]
+15-(Fire Away Lyrics.txt_11-72)-[secondary-temporal_repere]
+16-(Fire Away Lyrics.txt_11-73)-[secondary-temporal_repere]
+17-(Fire Away Lyrics.txt_12-84)-[primary-voyage,primary-water]
+18-(Fire Away Lyrics.txt_13-98)-[]
+19-(Fire Away Lyrics.txt_13-99)-[]
+20-(Fire Away Lyrics.txt_14-113)-[primary-narcissism]
+21-(Fire Away Lyrics.txt_15-128)-[emotions-anxiety]
+22-(Fire Away Lyrics.txt_16-144)-[emotions-aggression]
+23-(Fire Away Lyrics.txt_17-161)-[emotions-aggression,secondary-temporal_repere]
+24-(Fire Away Lyrics.txt_18-179)-[primary-voyage,primary-water]
+25-(Fire Away Lyrics.txt_19-199)-[]
+26-(Fire Away Lyrics.txt_19-200)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Fire Away Lyrics.txt_1,1,cl1-nil-nil-fire-[arg_mod-agent-Swellers-sn2,subj-agent-Lyrics-sn1,and(Lyrics,away,sn1),def_prop(Swellers,[istituzione]),def_prop(Lyrics,[informa,tecno])])
+lf(Fire Away Lyrics.txt_2,3,cl3-nil-nil-fire-[cmod-coord-fire-and,xcomp-agent-away-sn6,subj-agent-you-sn5,def_prop(away,[evaluative]),def_prop(you,[umano])])
+lf(Fire Away Lyrics.txt_2,3,cl2-nil-nil-load-[obj-destination-flare-sn2,subj-agent-you-sn1,def_prop(flare,[astratto,attivita,cambia,informa,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Fire Away Lyrics.txt_3,7,cl4-nil-nil-search-[ncmod-privation-rescue-sn2,subj-agent-you-sn1,def_prop(rescue,[attivita]),def_prop(you,[umano])])
+lf(Fire Away Lyrics.txt_4,11,cl5-nil-nil-look-[adj-(mod)-out-nil,iobj-goal-sea-sn3,ncmod-specif-times-sn2,subj-agent-you-sn1,and(times,all,sn2),def_prop(sea,[attivita,cambia,oggetto]),def_prop(times,[tempo]),def_prop(you,[umano])])
+lf(Fire Away Lyrics.txt_5,16,cl7-nil-nil-wait-[adj-(mod)-me-nil,subj-actor-wait-cl7,def_prop(me,[umano])])
+lf(Fire Away Lyrics.txt_5,16,cl6-nil-nil-step-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Fire Away Lyrics.txt_6,23,nil-nil-nil-fend-[subj-theme-ship-sn2,def_prop(ship,[attivita,informa,oggetto,strumento,umano])])
+lf(Fire Away Lyrics.txt_6,23,cl8-nil-nil-abandon-[subj-agent-ship-sn2,subj-agent-ship-sn1,and(ship,you,sn1),def_prop(ship,[attivita,informa,oggetto,strumento,umano]),def_prop(ship,[attivita,informa,oggetto,strumento,umano])])
+lf(Fire Away Lyrics.txt_7,31,cl10-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Fire Away Lyrics.txt_7,31,cl9-nil-nil-get-[xcomp-prop-that-sn2,subj-theme_bound-you-sn1,aux-have-nil,def_prop(that,[oggetto,umano]),def_prop(you,[umano])])
+lf(Fire Away Lyrics.txt_8,40,cl11-nil-nil-fade-[xcomp-prop-away-sn4,coord-experiencer-priority_and_hope-sn3,subj-experiencer-hope-sn2,subj-experiencer-priority-sn1,def_prop(away,[evaluative]),def_prop(priority_and_hope,[astratto,astratto,emotivo,umano]),def_prop(hope,[astratto,astratto,emotivo,umano]),def_prop(priority,[astratto])])
+lf(Fire Away Lyrics.txt_9,49,cl13-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Fire Away Lyrics.txt_9,49,cl12-nil-nil-get-[obj-theme-how-sn2,subj-agent-you-sn1,aux-did-nil,def_prop(how,[manner]),def_prop(you,[umano])])
+lf(Fire Away Lyrics.txt_10,60,cl15-nil-nil-control-[subj-agent-you-sn4,aux-had-nil,def_prop(you,[umano])])
+lf(Fire Away Lyrics.txt_10,60,cl14-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Fire Away Lyrics.txt_11,72,cl16-nil-nil-be-[subj-theme_bound-you-sn5,xcomp-prop-following-sn2,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(following,[istituzione]),def_prop(you,[umano])])
+lf(Fire Away Lyrics.txt_12,84,nil-nil-nil-fend-[subj-theme-ship-sn2,def_prop(ship,[attivita,informa,oggetto,strumento,umano])])
+lf(Fire Away Lyrics.txt_12,84,cl17-nil-nil-abandon-[subj-agent-ship-sn2,subj-agent-ship-sn1,and(ship,you,sn1),def_prop(ship,[attivita,informa,oggetto,strumento,umano]),def_prop(ship,[attivita,informa,oggetto,strumento,umano])])
+lf(Fire Away Lyrics.txt_13,98,cl19-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Fire Away Lyrics.txt_13,98,cl18-nil-nil-get-[xcomp-prop-that-sn2,subj-theme_bound-you-sn1,aux-have-nil,def_prop(that,[oggetto,umano]),def_prop(you,[umano])])
+lf(Fire Away Lyrics.txt_14,113,cl20-nil-nil-leave-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(Fire Away Lyrics.txt_15,128,cl21-nil-nil-be-[xcomp-theme-afraid-sn2,ncmod-specif-you-sn1,and(you,course,sn1),def_prop(afraid,[valutativo]),def_prop(you,[umano])])
+lf(Fire Away Lyrics.txt_16,144,cl22-nil-nil-break-[obj-theme_aff-tie-sn2,subj-theme_aff-all-sn1,aux-was-nil,aux-did-nil,and(tie,another,sn2),and(all,you,sn1),def_prop(tie,[attivita,informa,oggetto,stato,strumento]),def_prop(all,[_192808])])
+lf(Fire Away Lyrics.txt_17,161,cl23-nil-can-can-[cmod-subord-can-",obj-theme-break-sn2,subj-actor-all-sn1,def_prop(break,[attivita,evento]),def_prop(all,[_192946])])
+lf(Fire Away Lyrics.txt_18,179,nil-nil-nil-fend-[subj-theme-ship-sn2,def_prop(ship,[attivita,informa,oggetto,strumento,umano])])
+lf(Fire Away Lyrics.txt_18,179,cl24-nil-nil-abandon-[subj-agent-ship-sn2,subj-agent-ship-sn1,and(ship,you,sn1),def_prop(ship,[attivita,informa,oggetto,strumento,umano]),def_prop(ship,[attivita,informa,oggetto,strumento,umano])])
+lf(Fire Away Lyrics.txt_19,199,cl26-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Fire Away Lyrics.txt_19,199,cl25-nil-nil-get-[xcomp-prop-that-sn2,subj-theme_bound-you-sn1,aux-have-nil,def_prop(that,[oggetto,umano]),def_prop(you,[umano])])

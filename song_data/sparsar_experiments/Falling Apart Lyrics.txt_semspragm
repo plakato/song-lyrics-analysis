@@ -1,0 +1,53 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Falling Apart Lyrics.txt_1-1  []-positive  [neg]
+Falling Apart Lyrics.txt_2-3  []-positive  []
+Falling Apart Lyrics.txt_3-6  [while-temp_coinc]-positive  [fhd,neg]
+Falling Apart Lyrics.txt_4-12  [while-temp_coinc]-positive  [fhd,neg]
+Falling Apart Lyrics.txt_5-20  []-suspension  [neg]
+Falling Apart Lyrics.txt_6-29  []-suspension  [neg]
+Falling Apart Lyrics.txt_7-37  []-suspension  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Falling Apart Lyrics.txt_1-1  [falling,Apart,Lyrics,by,Xilent]  [title]
+Falling Apart Lyrics.txt_2-3  [feel,the,warmth,of,the,rays,of,light,that,shine,upon,you]  [provide_expl_just(feel,[external,factive,explanation,background,objective]),suggest(feel,_89148)]
+Falling Apart Lyrics.txt_3-6  [feel,your,heart,while,the,world,feels,like,it,is,falling,apart]  [provide_expl_just(fall,[external,factive,cause,foreground,objective])]
+Falling Apart Lyrics.txt_4-12  [take,my,hand,while,the,whole,wide,world,,,it,feels,like,drowning]  [provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(drown,[external,factive,narration,foreground,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Falling Apart Lyrics.txt_5-20  [need,you,now,,,don-t,let,it,fall,apart]  [provide_expl_just(let,[external,factive,narration,foreground,objective]),provide_expl_just(fall,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Falling Apart Lyrics.txt_6-29  [don-t,let,it,fall,apart]  [provide_expl_just(fall,[external,factive,narration,background,objective])]
+Falling Apart Lyrics.txt_7-37  [don-t,let,it,fall,apart]  [provide_expl_just(fall,[external,factive,narration,background,objective]),provide_expl_just(let,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Falling Apart Lyrics.txt_1-1)-[]
+2-(Falling Apart Lyrics.txt_2-3)-[primary-fire,primary-vision,primary-vision,primary-vision]
+3-(Falling Apart Lyrics.txt_3-6)-[primary-narcissism,secondary-temporal_repere,emotions-affection,primary-concreteness]
+half
+4-(Falling Apart Lyrics.txt_4-12)-[primary-narcissism,secondary-temporal_repere,primary-concreteness,emotions-affection]
+5-(Falling Apart Lyrics.txt_5-20)-[secondary-temporal_repere,primary-descent,primary-concreteness]
+6-(Falling Apart Lyrics.txt_6-29)-[primary-descent,primary-concreteness]
+7-(Falling Apart Lyrics.txt_7-37)-[primary-descent,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Falling Apart Lyrics.txt_1,1,cl1-nil-nil-fall-[arg_mod-agent-Xilent-sn2,subj-agent-Lyrics-sn1,and(Lyrics,Apart,sn1),def_prop(Xilent,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Falling Apart Lyrics.txt_2,3,cl2-nil-nil-feel-[ncmod-specif-light-sn3,xcomp-tema_emot-warmth-sn2,subj-experiencer-you-sn1,and(light,shine,sn3),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(warmth,[astratto]),def_prop(you,[umano])])
+lf(Falling Apart Lyrics.txt_3,6,cl4-nil-nil-fall-[cmod-subord-fall-while,xcomp-agent-apart-sn13,subj-agent-you-sn12,xcomp-prop-apart-sn11,subj-agent-it-sn10,xcomp-prop-apart-sn9,subj-agent-it-sn8,adj-(mod)-feel-nil,aux-(is)-nil,progr-falling-nil,def_prop(apart,[evaluative]),def_prop(you,[umano]),def_prop(apart,[evaluative]),def_prop(it,[any]),def_prop(apart,[evaluative]),def_prop(it,[any])])
+lf(Falling Apart Lyrics.txt_3,6,cl3-nil-nil-feel-[adj-(mod)-fall-nil,xcomp-theme_unaff-apart-sn7,xcomp-purpose-fall-4,subj-experiencer-it-sn6,subj-experiencer-world-sn5,xcomp-tema_emot-hear-sn2,subj-experiencer-you-sn1,def_prop(apart,[evaluative]),def_prop(it,[any]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(hear,[istituzione]),def_prop(you,[umano])])
+lf(Falling Apart Lyrics.txt_4,12,cl7-nil-nil-drown-[subj-agent-drown-cl7,subj-agent-you-sn7,adj-(mod)-feel-nil,subj-theme-it-sn6,cmod-subord-take-nil,def_prop(you,[umano]),def_prop(it,[any])])
+lf(Falling Apart Lyrics.txt_4,12,cl6-nil-nil-feel-[subj-experiencer-it-sn6,def_prop(it,[any])])
+lf(Falling Apart Lyrics.txt_4,12,cl5-nil-nil-take-[obj-theme_aff-world-sn3,obj-theme_aff-hand-sn2,subj-agent-you-sn1,and(world,whole,sn3),and(world,wide,sn3),def_prop(world,[astratto,istituzione,oggetto]),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Falling Apart Lyrics.txt_5,20,cl10-nil-nil-fall-[xcomp-agent-apart-sn11,subj-agent-you-sn10,xcomp-prop-apart-sn9,subj-agent-it-sn8,def_prop(apart,[evaluative]),def_prop(you,[umano]),def_prop(apart,[evaluative]),def_prop(it,[any])])
+lf(Falling Apart Lyrics.txt_5,20,cl9-not-nil-let-[obj-theme_unaff-apart-sn7,xcomp-purpose-fall-3,subj-actor-it-sn6,aux-do-nil,def_prop(apart,[evaluative]),def_prop(it,[any])])
+lf(Falling Apart Lyrics.txt_5,20,cl8-nil-nil-need-[subj-experiencer-you-sn2,subj-experiencer-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Falling Apart Lyrics.txt_6,29,cl12-nil-nil-fall-[obj-theme_unaff-apart-sn2,xadj-result-fall-3,def_prop(apart,[evaluative])])
+lf(Falling Apart Lyrics.txt_6,29,cl11-not-nil-let-[subj-actor-it-sn1,aux-do-nil,def_prop(it,[any])])
+lf(Falling Apart Lyrics.txt_7,37,cl14-nil-nil-fall-[obj-theme_unaff-apart-sn2,xadj-result-fall-3,def_prop(apart,[evaluative])])
+lf(Falling Apart Lyrics.txt_7,37,cl13-not-nil-let-[subj-actor-it-sn1,aux-do-nil,def_prop(it,[any])])

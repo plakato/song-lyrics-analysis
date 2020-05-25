@@ -1,0 +1,101 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Battle City Tournament Lyrics.txt_1-1  []-negative  [neg]
+Battle City Tournament Lyrics.txt_2-3  []-negative  [neg,neg,neg,neg]
+Battle City Tournament Lyrics.txt_3-8  []-positive  [fgb]
+Battle City Tournament Lyrics.txt_3-8  [but-advers,when-temp_coinc]-positive  [fgb,fgb]
+Battle City Tournament Lyrics.txt_4-12  []-question  [neg]
+Battle City Tournament Lyrics.txt_4-13  []-negative  [fgb,neg]
+Battle City Tournament Lyrics.txt_5-18  []-positive  []
+Battle City Tournament Lyrics.txt_6-24  []-question  [neg]
+Battle City Tournament Lyrics.txt_7-31  []-question  []
+Battle City Tournament Lyrics.txt_8-39  []-positive  []
+Battle City Tournament Lyrics.txt_9-48  []-negative  [neg,neg]
+Battle City Tournament Lyrics.txt_10-59  []-negative  [neg,neg,neg,neg]
+Battle City Tournament Lyrics.txt_11-70  [if-hypoth]-suspension  [neg,fgb,neg]
+Battle City Tournament Lyrics.txt_12-82  []-negative  [neg,neg,neg]
+Battle City Tournament Lyrics.txt_12-83  []-positive  []
+Battle City Tournament Lyrics.txt_12-84  []-positive  []
+Battle City Tournament Lyrics.txt_13-97  []-negative  [fgb,neg,neg]
+Battle City Tournament Lyrics.txt_14-112  []-positive  []
+Battle City Tournament Lyrics.txt_14-113  []-positive  []
+Battle City Tournament Lyrics.txt_15-128  []-negative  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Battle City Tournament Lyrics.txt_1-1  [battle,City,Tournament,Lyrics,by,Xhoshi,Cami]  [title]
+Battle City Tournament Lyrics.txt_2-3  [did,you,now,about,me,no,the,fucking,thats,i,way,have,ben,i,am,a,fucking,bum]  [reject_expl_just(do,[external,factive,explanation,background,objective]),propose_opin_neg(do,[external,factive,explanation,background,objective]),reject_expl_just(have,[external,factive,explanation,background,objective]),propose_opin_neg(have,[external,factive,explanation,background,objective]),reject_expl_just(me,[internal,factive,narration,background,objective])]
+Battle City Tournament Lyrics.txt_3-8  [and,i,live,in,a,house]  [provide_expl_just(live,[external,factive,narration,background,objective])]
+Battle City Tournament Lyrics.txt_3-8  [and,i,live,in,a,house,with,my,mom,but,i,now,something,about,you,when,you,where]  [provide_expl_just(live,[external,factive,narration,background,objective])]
+Battle City Tournament Lyrics.txt_4-12  [school,private,the,to,gone,have,you,little,?]  [provide_expl_just(go,[internal,factive,narration,background,objective]),provide_expl_just(school,[internal,factive,narration,background,objective])]
+Battle City Tournament Lyrics.txt_4-13  [what,is,the,matter,dawg]  [reject_expl_just(go,[internal,factive,narration,background,objective]),reject_expl_just(school,[internal,factive,narration,background,objective])]
+Battle City Tournament Lyrics.txt_5-18  [you]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Battle City Tournament Lyrics.txt_6-24  [embarrassed,?]  [provide_expl_just(embarrass,[internal,factive,narration,background,objective])]
+Battle City Tournament Lyrics.txt_7-31  [gangster,guy-s,a,this,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Battle City Tournament Lyrics.txt_8-39  [he,is,real,Clarence,name-s,haahhahahahah]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Battle City Tournament Lyrics.txt_9-48  [fuck,the,beat,i,go,acapella]  [reject_expl_just(go,[external,factive,narration,background,objective]),reject_expl_just(fuck,[external,factive,narration,background,objective])]
+Battle City Tournament Lyrics.txt_10-59  [fuck,a,dog,fuck,a,clock,fuck,a,trailer,fuck,everybody]  [reject_expl_just(fuck,[external,factive,narration,background,objective])]
+Battle City Tournament Lyrics.txt_11-70  [fuck,Yall,if,you,doubt,me]  [provide_expl_just(doubt,[external,factive,narration,background,objective])]
+Battle City Tournament Lyrics.txt_12-82  [im,a,piece,of,fucking,white,trash]  [reject_expl_just(fuck,[external,factive,narration,foreground,objective]),reject_expl_just(say,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Battle City Tournament Lyrics.txt_12-83  [i,say]  [provide_expl_just(fuck,[external,factive,narration,foreground,objective]),provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Battle City Tournament Lyrics.txt_12-84  [it,proudly]  [provide_expl_just(fuck,[external,factive,narration,foreground,objective]),provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Battle City Tournament Lyrics.txt_13-97  [and,fuck,this,battle,i,dont,wanna,win,Im,outty]  [reject_expl_just(win,[external,factive,narration,background,objective]),reject_expl_just(wanna,[external,factive,narration,background,objective])]
+Battle City Tournament Lyrics.txt_14-112  [here,tell,these,people,something]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective])]
+Battle City Tournament Lyrics.txt_14-113  [they,dont,know,about,me]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective])]
+Battle City Tournament Lyrics.txt_15-128  [Motherfucker]  reject_expl_opin(nil,[])
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Battle City Tournament Lyrics.txt_1-1)-[emotions-aggression]
+2-(Battle City Tournament Lyrics.txt_2-3)-[secondary-temporal_repere]
+3-(Battle City Tournament Lyrics.txt_3-8)-[]
+4-(Battle City Tournament Lyrics.txt_3-8)-[secondary-temporal_repere,secondary-temporal_repere,primary-concreteness]
+5-(Battle City Tournament Lyrics.txt_4-12)-[]
+6-(Battle City Tournament Lyrics.txt_4-13)-[]
+7-(Battle City Tournament Lyrics.txt_5-18)-[]
+8-(Battle City Tournament Lyrics.txt_6-24)-[]
+9-(Battle City Tournament Lyrics.txt_7-31)-[]
+10-(Battle City Tournament Lyrics.txt_8-39)-[secondary-abstract_tought]
+half
+11-(Battle City Tournament Lyrics.txt_9-48)-[primary-sex,emotions-aggression]
+12-(Battle City Tournament Lyrics.txt_10-59)-[primary-sex,primary-sex,secondary-temporal_repere,primary-sex,primary-brink,primary-sex]
+13-(Battle City Tournament Lyrics.txt_11-70)-[primary-sex,emotions-aggression]
+14-(Battle City Tournament Lyrics.txt_12-82)-[]
+15-(Battle City Tournament Lyrics.txt_12-83)-[secondary-social_behavior]
+16-(Battle City Tournament Lyrics.txt_12-84)-[emotions-glory]
+17-(Battle City Tournament Lyrics.txt_13-97)-[primary-sex,emotions-aggression,secondary-instru_behavior,primary-concreteness]
+18-(Battle City Tournament Lyrics.txt_14-112)-[primary-concreteness,secondary-social_behavior]
+19-(Battle City Tournament Lyrics.txt_14-113)-[secondary-abstract_tought]
+20-(Battle City Tournament Lyrics.txt_15-128)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Battle City Tournament Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Cami-sn2,subj-theme_bound-Lyrics-sn1,and(Cami,Xhoshi,sn2),and(Lyrics,Tournament,sn1),and(Lyrics,battle,sn1),def_prop(Cami,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Battle City Tournament Lyrics.txt_2,3,cl4-nil-nil-be-[ncmod-subj_disc-me-sn3,def_prop(me,[umano])])
+lf(Battle City Tournament Lyrics.txt_2,3,cl3-nil-nil-have-[])
+lf(Battle City Tournament Lyrics.txt_2,3,cl2-nil-nil-do-[xcomp-prop-bum-sn7,xcomp-theme-i-sn6,xcomp-theme-ben-sn5,xcomp-theme-way-sn4,adj-subj_disc-now-sn2,subj-theme_unaff-you-sn1,aux-did-nil,and(bum,fucking,sn7),and(way,no,sn4),and(way,fucking,sn4),def_prop(bum,[body_part,umano]),def_prop(i,[umano]),def_prop(ben,[oggetto]),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(now,[istituzione]),def_prop(you,[umano])])
+lf(Battle City Tournament Lyrics.txt_3,8,cl5-nil-nil-live-[cmod-coord-live-and,adj-(mod)-now-nil,obj-theme-you-sn8,obj-theme-something-sn7,obj-theme-i-sn6,iobj-goal-mom-sn5,iobj-goal-house-sn4,subj-actor-i-sn3,cmod-subord-live-",iobj-goal-house-sn2,subj-actor-i-sn1,and(you,where,sn8),def_prop(you,[umano]),def_prop(something,[astratto,informa,oggetto]),def_prop(i,[umano]),def_prop(mom,[umano]),def_prop(house,[attivita,istituzione,oggetto,strumento]),def_prop(i,[umano]),def_prop(house,[attivita,istituzione,oggetto,strumento]),def_prop(i,[umano])])
+lf(Battle City Tournament Lyrics.txt_4,12,cl7-nil-nil-be-[xcomp-prop-dawg-sn4,subj-theme_bound-what-sn3,adj-(mod)-go-nil,xadj-adj-little-adj1,ncmod-loc_direct-school-sn2,and(dawg,matter,sn4),and(school,private,sn2),def_prop(dawg,[animato]),def_prop(what,[oggetto]),def_prop(little,_387616),def_prop(school,[astratto,istituzione,oggetto,strumento,tempo])])
+lf(Battle City Tournament Lyrics.txt_4,12,cl6-nil-nil-go-[subj-agent-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(Battle City Tournament Lyrics.txt_5,18,cl8-nil-nil-say-[obj-theme_unaff-you-sn1,def_prop(you,[umano])])
+lf(Battle City Tournament Lyrics.txt_6,24,cl9-nil-nil-embarrass-[subj-cause-pro-nil])
+lf(Battle City Tournament Lyrics.txt_7,31,cl10-nil-nil-be-[subj-theme_bound-gangster-sn1,and(gangster,this,sn1),def_prop(gangster,[umano])])
+lf(Battle City Tournament Lyrics.txt_8,39,cl11-nil-nil-be-[xcomp-prop-haahhahahahah-sn2,subj-theme_bound-he-sn1,and(haahhahahahah,real,sn2),and(haahhahahahah,Clarence,sn2),def_prop(haahhahahahah,[istituzione]),def_prop(he,[umano])])
+lf(Battle City Tournament Lyrics.txt_9,48,cl13-nil-nil-go-[obj-prop-acapella-sn4,xcomp-purpose-go-3,def_prop(acapella,[istituzione])])
+lf(Battle City Tournament Lyrics.txt_9,48,cl12-nil-nil-fuck-[obj-theme-i-sn3,obj-theme-beat-sn2,subj-actor-you-sn1,def_prop(i,[umano]),def_prop(beat,[astratto,attivita,cambia,evento,luogo]),def_prop(you,[umano])])
+lf(Battle City Tournament Lyrics.txt_10,59,cl14-nil-nil-fuck-[obj-theme-everybody-sn8,obj-theme-fuck-sn7,obj-theme-trailer-sn6,obj-theme-fuck-sn5,obj-theme-clock-sn4,obj-theme-fuck-sn3,obj-theme-dog-sn2,subj-actor-you-sn1,def_prop(everybody,[umano]),def_prop(fuck,[attivita]),def_prop(trailer,[oggetto,strumento]),def_prop(fuck,[attivita]),def_prop(clock,[oggetto,strumento]),def_prop(fuck,[attivita]),def_prop(dog,[animato,plant,stato,umano]),def_prop(you,[umano])])
+lf(Battle City Tournament Lyrics.txt_11,70,cl15-nil-nil-doubt-[cmod-subord-doubt-if,obj-theme-me-sn4,subj-agent-you-sn3,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Battle City Tournament Lyrics.txt_12,82,cl18-nil-nil-be-[adj-(mod)-proudly-nil,subj-theme_bound-it-sn6,def_prop(it,[any])])
+lf(Battle City Tournament Lyrics.txt_12,82,cl17-nil-nil-say-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Battle City Tournament Lyrics.txt_12,82,cl16-nil-nil-fuck-[obj-theme-trash-sn3,subj-actor-piece-sn2,subj-actor-piece-sn1,and(trash,white,sn3),and(piece,im,sn1),def_prop(trash,[istituzione,oggetto,strumento]),def_prop(piece,[astratto,attivita,edible,evento,informa,oggetto,strumento]),def_prop(piece,[astratto,attivita,edible,evento,informa,oggetto,strumento])])
+lf(Battle City Tournament Lyrics.txt_13,97,cl19-nil-nil-win-[cmod-subord-win-"])
+lf(Battle City Tournament Lyrics.txt_13,97,nil-nil-nil-wanna-[obj-theme_unaff-outty-sn5,xcomp-purpose-win-2,obj-theme-dont-sn4,obj-theme-i-sn3,obj-theme_aff-battle-sn2,subj-agent-fuck-sn1,and(outty,Im,sn5),and(battle,this,sn2),def_prop(outty,[istituzione]),def_prop(dont,[istituzione]),def_prop(i,[umano]),def_prop(battle,[attivita]),def_prop(fuck,[attivita])])
+lf(Battle City Tournament Lyrics.txt_14,112,cl21-nil-nil-know-[iobj-goal-me-sn8,subj-actor-they-sn7,def_prop(me,[umano]),def_prop(they,[umano])])
+lf(Battle City Tournament Lyrics.txt_14,112,cl20-nil-nil-tell-[adj-(mod)-here-nil,subj_top-agent-people-sn2,subj_top-agent-people-sn1,and(people,these,sn2),and(people,these,sn1),def_prop(people,[istituzione]),def_prop(people,[istituzione])])
+lf(Battle City Tournament Lyrics.txt_15,128,cl22-nil-nil-say-[obj-theme_unaff-motherfucker-sn1,def_prop(motherfucker,[umano])])

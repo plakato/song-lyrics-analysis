@@ -1,0 +1,107 @@
+"POLARITY, DISCOURSE MARKERS"
+
+RawRot Lyrics.txt_1-1  []-positive  []
+RawRot Lyrics.txt_2-3  []-negative  [neg,neg]
+RawRot Lyrics.txt_3-6  []-suspension  [neg,neg]
+RawRot Lyrics.txt_4-10  []-negative  [neg]
+RawRot Lyrics.txt_5-15  []-negative  []
+RawRot Lyrics.txt_6-21  []-negative  [neg]
+RawRot Lyrics.txt_7-28  []-positive  [neg]
+RawRot Lyrics.txt_8-36  []-negative  [neg,neg]
+RawRot Lyrics.txt_9-46  []-negative  [neg]
+RawRot Lyrics.txt_10-56  []-positive  []
+RawRot Lyrics.txt_11-67  []-negative  []
+RawRot Lyrics.txt_12-79  []-suspension  [neg,neg]
+RawRot Lyrics.txt_13-92  []-negative  [neg]
+RawRot Lyrics.txt_14-106  []-suspension  [neg,neg]
+RawRot Lyrics.txt_15-121  []-positive  []
+RawRot Lyrics.txt_15-122  []-negative  [neg]
+RawRot Lyrics.txt_16-138  []-suspension  [neg,neg]
+RawRot Lyrics.txt_17-155  []-positive  []
+RawRot Lyrics.txt_17-156  []-negative  [neg]
+RawRot Lyrics.txt_17-157  []-positive  []
+RawRot Lyrics.txt_18-175  []-negative  [neg]
+RawRot Lyrics.txt_19-194  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+RawRot Lyrics.txt_1-1  [rawrot,Lyrics,by,VON]  [title]
+RawRot Lyrics.txt_2-3  [reckless,abandon]  reject_expl_opin(nil,[])
+RawRot Lyrics.txt_3-6  [soulless,raw,fear]  [provide_expl_just(fear,[external,factive,narration,background,objective])]
+RawRot Lyrics.txt_4-10  [sin,cuts,me,inside]  [reject_expl_just(sin,[external,factive,narration,background,objective])]
+RawRot Lyrics.txt_5-15  [psyche,rots,bleeds,tears]  [provide_expl_just(bleed,[external,factive,narration,background,objective])]
+RawRot Lyrics.txt_6-21  [my,satanic,mind,release]  [reject_expl_just(release,[external,factive,narration,background,objective])]
+RawRot Lyrics.txt_7-28  [dark,euphoric,engagements]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+RawRot Lyrics.txt_8-36  [senses,cloud,my,eyes,are,blind]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(sense,[external,factive,narration,background,objective])]
+RawRot Lyrics.txt_9-46  [failed,forced,containment]  [reject_expl_just(force,[external,factive,cause,foreground,objective])]
+RawRot Lyrics.txt_10-56  [raaaggge,!]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+RawRot Lyrics.txt_11-67  [me,infects]  reject_expl_opin(nil,[])
+RawRot Lyrics.txt_12-79  [bloody,nights,of,terror,me,control]  [provide_expl_just(control,[external,factive,narration,background,objective])]
+RawRot Lyrics.txt_13-92  [demons,fevers,possession,unbound]  [reject_expl_just(fevers,[external,factive,narration,background,objective])]
+RawRot Lyrics.txt_14-106  [psychotic,behavior,disturbed,unsound]  [provide_expl_just(disturb,[external,factive,narration,foreground,objective])]
+RawRot Lyrics.txt_15-121  [i,see,red,my,eyes]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+RawRot Lyrics.txt_15-122  [they,bleed]  [reject_expl_just(see,[external,factive,narration,background,objective])]
+RawRot Lyrics.txt_16-138  [raw,rage,engulfs,my,body]  [provide_expl_just(engulf,[external,factive,narration,background,objective])]
+RawRot Lyrics.txt_17-155  [my,soul,has,left]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(control,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+RawRot Lyrics.txt_17-156  [i,can,not,control]  [reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(control,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+RawRot Lyrics.txt_17-157  [it]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(control,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+RawRot Lyrics.txt_18-175  [primal,abduction,insanity,imploded]  [reject_expl_just(implode,[external,factive,narration,background,objective])]
+RawRot Lyrics.txt_19-194  [rawrot]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(RawRot Lyrics.txt_1-1)-[]
+2-(RawRot Lyrics.txt_2-3)-[]
+3-(RawRot Lyrics.txt_3-6)-[primary-orality,emotions-anxiety]
+4-(RawRot Lyrics.txt_4-10)-[emotions-aggression,primary-concreteness]
+5-(RawRot Lyrics.txt_5-15)-[primary-anality,primary-orality]
+6-(RawRot Lyrics.txt_6-21)-[]
+7-(RawRot Lyrics.txt_7-28)-[]
+8-(RawRot Lyrics.txt_8-36)-[primary-diffusion,primary-narcissism]
+9-(RawRot Lyrics.txt_9-46)-[]
+10-(RawRot Lyrics.txt_10-56)-[]
+11-(RawRot Lyrics.txt_11-67)-[]
+half
+12-(RawRot Lyrics.txt_12-79)-[emotions-aggression,emotions-anxiety,secondary-restraint]
+13-(RawRot Lyrics.txt_13-92)-[primary-counscious,primary-unknow]
+14-(RawRot Lyrics.txt_14-106)-[primary-counscious,emotions-aggression]
+15-(RawRot Lyrics.txt_15-121)-[primary-vision,primary-narcissism]
+16-(RawRot Lyrics.txt_15-122)-[]
+17-(RawRot Lyrics.txt_16-138)-[primary-orality,emotions-aggression,primary-narcissism]
+18-(RawRot Lyrics.txt_17-155)-[]
+19-(RawRot Lyrics.txt_17-156)-[secondary-restraint]
+20-(RawRot Lyrics.txt_17-157)-[]
+21-(RawRot Lyrics.txt_18-175)-[primary-counscious]
+22-(RawRot Lyrics.txt_19-194)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(RawRot Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-von-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,rawrot,sn1),def_prop(von,[legale]),def_prop(Lyrics,[informa,tecno])])
+lf(RawRot Lyrics.txt_2,3,cl2-nil-nil-abandon-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(RawRot Lyrics.txt_3,6,cl3-nil-nil-fear-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(RawRot Lyrics.txt_4,10,cl4-nil-nil-sin-[obj-theme-inside-sn4,obj-theme-me-sn3,obj-theme-cut-sn2,subj-actor-you-sn1,def_prop(inside,[luogo]),def_prop(me,[umano]),def_prop(cut,[astratto,attivita,edible,informa,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(RawRot Lyrics.txt_5,15,nil-nil-nil-bleed-[obj-cause-tear-sn2,subj-agent-rot-sn1,and(rot,psyche,sn1),def_prop(tear,[attivita,body_part,umano]),def_prop(rot,[attivita,informa,stato])])
+lf(RawRot Lyrics.txt_6,21,cl5-nil-nil-release-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(RawRot Lyrics.txt_7,28,cl6-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(RawRot Lyrics.txt_8,36,cl8-nil-nil-be-[xcomp-prop-blind-sn4,xcomp-purpose-be-3,def_prop(blind,[istituzione,oggetto,strumento])])
+lf(RawRot Lyrics.txt_8,36,cl7-nil-nil-sense-[obj-theme-eye-sn3,obj-theme_unaff-cloud-sn2,subj-experiencer-you-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(cloud,[attivita,cambia,oggetto,stato]),def_prop(you,[umano])])
+lf(RawRot Lyrics.txt_9,46,cl9-nil-nil-force-[obj-theme-containment-sn2,subj-agent-failed-sn1,def_prop(containment,[astratto,attivita,oggetto,strumento]),def_prop(failed,[evaluative])])
+lf(RawRot Lyrics.txt_10,56,cl10-nil-nil-say-[obj-theme_unaff-raaaggge-sn1,def_prop(raaaggge,[istituzione])])
+lf(RawRot Lyrics.txt_11,67,cl11-nil-nil-infect-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(RawRot Lyrics.txt_12,79,cl12-nil-nil-control-[adj-locative-female-nil,obj-theme-me-sn2,ncmod-specif-terror-sn1,and(female,bloody,sn3),def_prop(female,[tempo]),def_prop(me,[umano]),def_prop(terror,[umano])])
+lf(RawRot Lyrics.txt_13,92,nil-nil-nil-fevers-[xcomp-prop-unbound-sn3,obj-theme_aff-possession-sn2,subj-agent-demon-sn1,def_prop(unbound,[evaluative]),def_prop(possession,[any,attivita,luogo,stato]),def_prop(demon,[umano])])
+lf(RawRot Lyrics.txt_14,106,cl13-nil-nil-disturb-[xcomp-prop-unsound-sn2,subj-cause-behavior-sn1,and(behavior,psychotic,sn1),def_prop(unsound,[evaluative]),def_prop(behavior,[attivita,stato])])
+lf(RawRot Lyrics.txt_15,121,cl15-nil-nil-bleed-[subj-agent-you-sn5,def_prop(you,[umano])])
+lf(RawRot Lyrics.txt_15,121,cl14-nil-nil-see-[obj-actor-eye-sn2,subj-experiencer-i-sn1,and(eye,red,sn2),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(RawRot Lyrics.txt_16,138,nil-nil-nil-engulf-[obj-theme-body-sn2,subj-agent-rage-sn1,and(rage,raw,sn1),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano]),def_prop(rage,[stato])])
+lf(RawRot Lyrics.txt_17,155,cl18-nil-nil-be-[subj-theme_bound-you-sn6,def_prop(you,[umano])])
+lf(RawRot Lyrics.txt_17,155,cl17-not-can-control-[subj-agent-you-sn5,def_prop(you,[umano])])
+lf(RawRot Lyrics.txt_17,155,cl16-nil-nil-have-[xcomp-prop-left-sn2,subj-experiencer-soul-sn1,def_prop(left,[soggettivo]),def_prop(soul,[attivita,emotivo,informa,umano])])
+lf(RawRot Lyrics.txt_18,175,nil-nil-nil-implode-[ncmod-modal-abduction-sn2,subj-actor-you-sn1,def_prop(abduction,[attivita]),def_prop(you,[umano])])
+lf(RawRot Lyrics.txt_19,194,cl19-nil-nil-say-[obj-theme_unaff-rawrot-sn1,def_prop(rawrot,[istituzione])])

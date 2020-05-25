@@ -1,0 +1,274 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Red Lyrics.txt_1-1  []-positive  []
+Red Lyrics.txt_2-3  []-positive  []
+Red Lyrics.txt_3-6  []-positive  []
+Red Lyrics.txt_4-10  []-positive  []
+Red Lyrics.txt_5-15  []-positive  []
+Red Lyrics.txt_6-21  []-positive  []
+Red Lyrics.txt_7-28  []-positive  []
+Red Lyrics.txt_8-36  []-positive  []
+Red Lyrics.txt_9-45  []-positive  [fgb]
+Red Lyrics.txt_10-55  []-positive  [fgb,neg]
+Red Lyrics.txt_11-66  []-negative  [neg]
+Red Lyrics.txt_12-78  []-positive  []
+Red Lyrics.txt_13-91  []-positive  []
+Red Lyrics.txt_14-105  []-positive  []
+Red Lyrics.txt_15-120  []-positive  []
+Red Lyrics.txt_16-136  []-negative  [neg]
+Red Lyrics.txt_17-153  []-positive  [neg]
+Red Lyrics.txt_18-171  []-negative  [fgb,neg]
+Red Lyrics.txt_19-190  []-positive  [bkc]
+Red Lyrics.txt_20-210  []-negative  [neg]
+Red Lyrics.txt_21-231  []-positive  []
+Red Lyrics.txt_22-253  []-positive  []
+Red Lyrics.txt_22-254  []-positive  []
+Red Lyrics.txt_23-277  []-suspension  []
+Red Lyrics.txt_24-301  [but-advers]-negative  [fgb,neg]
+Red Lyrics.txt_25-326  []-positive  []
+Red Lyrics.txt_26-352  []-positive  []
+Red Lyrics.txt_27-379  []-negative  [neg,neg]
+Red Lyrics.txt_28-407  []-positive  []
+Red Lyrics.txt_29-436  []-positive  []
+Red Lyrics.txt_30-466  []-suspension  []
+Red Lyrics.txt_31-497  []-positive  [fgb,neg]
+Red Lyrics.txt_32-529  []-positive  []
+Red Lyrics.txt_33-562  []-negative  [neg]
+Red Lyrics.txt_33-563  [but-advers]-positive  [fgb]
+Red Lyrics.txt_34-596  []-positive  []
+Red Lyrics.txt_35-631  []-positive  []
+Red Lyrics.txt_36-668  []-negative  [neg]
+Red Lyrics.txt_36-669  []-negative  [neg]
+Red Lyrics.txt_37-705  []-negative  [neg,neg]
+Red Lyrics.txt_37-706  [yet-conc]-positive  []
+Red Lyrics.txt_38-743  []-positive  []
+Red Lyrics.txt_39-782  [so-result]-positive  [fgb]
+Red Lyrics.txt_40-822  []-negative  []
+Red Lyrics.txt_41-863  [else-advers]-suspension  []
+Red Lyrics.txt_42-905  []-negative  [neg]
+Red Lyrics.txt_43-948  []-positive  []
+Red Lyrics.txt_43-949  []-positive  []
+Red Lyrics.txt_44-993  []-positive  []
+Red Lyrics.txt_45-1038  []-positive  []
+Red Lyrics.txt_46-1084  []-negative  []
+Red Lyrics.txt_47-1131  []-positive  []
+Red Lyrics.txt_48-1179  []-negative  [neg]
+Red Lyrics.txt_49-1228  []-negative  [neg]
+Red Lyrics.txt_50-1278  []-positive  []
+Red Lyrics.txt_51-1329  []-positive  []
+Red Lyrics.txt_52-1381  []-suspension  []
+Red Lyrics.txt_53-1434  []-suspension  []
+Red Lyrics.txt_53-1435  []-positive  [fgb]
+Red Lyrics.txt_54-1490  [when-temp_coinc]-negative  [neg]
+Red Lyrics.txt_55-1545  []-positive  []
+Red Lyrics.txt_56-1602  []-positive  [fgb]
+Red Lyrics.txt_57-1659  []-suspension  []
+Red Lyrics.txt_58-1717  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Red Lyrics.txt_1-1  [red,Lyrics,by,x]  [title]
+Red Lyrics.txt_2-3  [E]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Red Lyrics.txt_3-6  [x]  [raise_issue(be,[_351922,factive,statement,_351940,subjective])]
+Red Lyrics.txt_4-10  [rainbow,skies]  [provide_expl_just(sky,[external,factive,narration,background,objective])]
+Red Lyrics.txt_5-15  [i,dig,this,flight,ya]  [provide_expl_just(dig,[external,factive,narration,background,objective])]
+Red Lyrics.txt_6-21  [i,am,way,too,high]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_7-28  [to,taste,my,lows]  [provide_expl_just(taste,[external,factive,narration,background,objective])]
+Red Lyrics.txt_8-36  [i,cuz,am,rainbowed]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_9-45  [and,i,love,the,show]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+Red Lyrics.txt_10-55  [ya,nice,and,slow]  [provide_expl_just(slow,[external,factive,narration,background,objective])]
+Red Lyrics.txt_11-66  [i,lose,control]  [reject_expl_just(lose,[external,factive,narration,background,objective])]
+Red Lyrics.txt_12-78  [rainbow,Nights]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Red Lyrics.txt_13-91  [i,love,this,vibe,ya]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+Red Lyrics.txt_14-105  [i,am,way,too,fly]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_15-120  [to,taste,my,lows]  [provide_expl_just(taste,[external,factive,narration,background,objective])]
+Red Lyrics.txt_16-136  [no,halo]  reject_expl_opin(nil,[])
+Red Lyrics.txt_17-153  [i,cuz,am,good,at,bad]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_18-171  [and,i,am,bad,at,good]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_19-190  [ya,oh,-,baby,!]  [provide_expl_just(baby,[internal,factive,narration,foreground,objective])]
+Red Lyrics.txt_20-210  [no,OH,NIGHTS,rainbow,!]  [reject_expl_just(be,[internal,factive,narration,foreground,objective])]
+Red Lyrics.txt_21-231  [i,am,drownin]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_22-253  [i,think]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_22-254  [i,am,Dreamin]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_23-277  [i,must,be,on,somethin]  [provide_expl_just(be,[external,nonfactive,narration,foreground,objective])]
+Red Lyrics.txt_24-301  [but,that,something,is,not,you]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_25-326  [it,is,tasting,good]  [provide_expl_just(taste,[external,factive,narration,foreground,objective])]
+Red Lyrics.txt_26-352  [rainbow,food]  [raise_issue(be,[_370524,factive,statement,_370542,subjective])]
+Red Lyrics.txt_27-379  [no,excuse]  reject_expl_opin(nil,[])
+Red Lyrics.txt_28-407  [i,am,just,in,the,mood]  [provide_expl_just(mood,[internal,factive,narration,background,objective])]
+Red Lyrics.txt_29-436  [the,darker,the,better]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_30-466  [i,still,see,your,figure]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Red Lyrics.txt_31-497  [and,i,love,the,danger]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+Red Lyrics.txt_32-529  [i,love,the,thrill]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+Red Lyrics.txt_33-562  [i,am,ill,kinda]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_33-563  [,,but]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_34-596  [i,love,the,thrill]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+Red Lyrics.txt_35-631  [lets,go,downhill]  [provide_expl_just(let,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Red Lyrics.txt_36-668  [i,am,hungry]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_36-669  [,,i,am,thirsty]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_37-705  [sin,is,filthy]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_37-706  [,,yet,tasty]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_38-743  [we,are,on,this,diet]  [provide_expl_just(diet,[internal,factive,narration,background,objective])]
+Red Lyrics.txt_39-782  [so,please,be,quiet]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_40-822  [a,sound,don-t,make]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Red Lyrics.txt_41-863  [else,we,will,be,found]  [provide_expl_just(find,[external,factive,narration,background,objective])]
+Red Lyrics.txt_42-905  [trippy,game]  reject_expl_opin(nil,[])
+Red Lyrics.txt_43-948  [that,is,all]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(crave,[external,factive,narration,background,objective])]
+Red Lyrics.txt_43-949  [we,crave,now]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(crave,[external,factive,narration,background,objective])]
+Red Lyrics.txt_44-993  [wonderland]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Red Lyrics.txt_45-1038  [is,our,new,world,now]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_46-1084  [i,don-t,do,drugs]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Red Lyrics.txt_47-1131  [it,is,just,my,brain]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_48-1179  [i,Blame,Chromesthesia]  [reject_expl_just(blame,[external,factive,narration,background,objective])]
+Red Lyrics.txt_49-1228  [fuck,Synesthesia]  reject_expl_opin(nil,[])
+Red Lyrics.txt_50-1278  [in,a,world,of,my,own]  [provide_expl_just(own,[external,factive,narration,background,objective])]
+Red Lyrics.txt_51-1329  [all,the,flowers]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_52-1381  [very,extra,special,powers,would,have]  [provide_expl_just(have,[external,nonfactive,narration,background,objective])]
+Red Lyrics.txt_53-1434  [they,would,sit]  [provide_expl_just(sit,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_53-1435  [and,talk,to,me,for,hours]  [provide_expl_just(sit,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_54-1490  [when,i,am,lonely,in,a,world,of,my,own]  [reject_expl_just(world,[internal,factive,narration,background,objective])]
+Red Lyrics.txt_55-1545  [thereed,be,new,birds]  [provide_expl_just(birds,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_56-1602  [lots,of,nice,and,friendly,howdy-do,birds]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Red Lyrics.txt_57-1659  [everyone,would,have,a,dozen,bluebirds]  [provide_expl_just(have,[external,nonfactive,narration,background,objective])]
+Red Lyrics.txt_58-1717  [within,that,world,of,my,own]  [provide_expl_just(own,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Red Lyrics.txt_1-1)-[]
+2-(Red Lyrics.txt_2-3)-[]
+3-(Red Lyrics.txt_3-6)-[]
+4-(Red Lyrics.txt_4-10)-[primary-height]
+5-(Red Lyrics.txt_5-15)-[primary-descent,primary-ascend]
+6-(Red Lyrics.txt_6-21)-[primary-height]
+7-(Red Lyrics.txt_7-28)-[primary-taste,primary-depth]
+8-(Red Lyrics.txt_8-36)-[primary-height]
+9-(Red Lyrics.txt_9-45)-[emotions-affection]
+10-(Red Lyrics.txt_10-55)-[primary-passivity]
+11-(Red Lyrics.txt_11-66)-[secondary-restraint]
+12-(Red Lyrics.txt_12-78)-[primary-height]
+13-(Red Lyrics.txt_13-91)-[emotions-affection]
+14-(Red Lyrics.txt_14-105)-[primary-ascend]
+15-(Red Lyrics.txt_15-120)-[primary-taste,primary-depth]
+16-(Red Lyrics.txt_16-136)-[primary-vision]
+17-(Red Lyrics.txt_17-153)-[primary-concreteness]
+18-(Red Lyrics.txt_18-171)-[primary-concreteness]
+19-(Red Lyrics.txt_19-190)-[]
+20-(Red Lyrics.txt_20-210)-[primary-height]
+21-(Red Lyrics.txt_21-231)-[]
+22-(Red Lyrics.txt_22-253)-[secondary-abstract_tought]
+23-(Red Lyrics.txt_22-254)-[]
+24-(Red Lyrics.txt_23-277)-[secondary-restraint,secondary-abstract_tought]
+25-(Red Lyrics.txt_24-301)-[]
+26-(Red Lyrics.txt_25-326)-[]
+27-(Red Lyrics.txt_26-352)-[primary-height,primary-orality]
+28-(Red Lyrics.txt_27-379)-[secondary-social_behavior]
+29-(Red Lyrics.txt_28-407)-[]
+30-(Red Lyrics.txt_29-436)-[]
+31-(Red Lyrics.txt_30-466)-[primary-vision,secondary-abstract_tought]
+32-(Red Lyrics.txt_31-497)-[emotions-affection]
+half
+33-(Red Lyrics.txt_32-529)-[emotions-affection,emotions-positive_affect]
+34-(Red Lyrics.txt_33-562)-[emotions-affection]
+35-(Red Lyrics.txt_33-563)-[]
+36-(Red Lyrics.txt_34-596)-[emotions-affection,emotions-positive_affect]
+37-(Red Lyrics.txt_35-631)-[primary-descent]
+38-(Red Lyrics.txt_36-668)-[primary-orality]
+39-(Red Lyrics.txt_36-669)-[primary-orality]
+40-(Red Lyrics.txt_37-705)-[primary-anality]
+41-(Red Lyrics.txt_37-706)-[primary-taste]
+42-(Red Lyrics.txt_38-743)-[primary-orality]
+43-(Red Lyrics.txt_39-782)-[secondary-social_behavior,primary-passivity]
+44-(Red Lyrics.txt_40-822)-[primary-sound,secondary-instru_behavior]
+45-(Red Lyrics.txt_41-863)-[secondary-instru_behavior]
+46-(Red Lyrics.txt_42-905)-[primary-voyage,emotions-expressive_beh]
+47-(Red Lyrics.txt_43-948)-[]
+48-(Red Lyrics.txt_43-949)-[secondary-temporal_repere]
+49-(Red Lyrics.txt_44-993)-[]
+50-(Red Lyrics.txt_45-1038)-[secondary-temporal_repere]
+51-(Red Lyrics.txt_46-1084)-[]
+52-(Red Lyrics.txt_47-1131)-[primary-narcissism]
+53-(Red Lyrics.txt_48-1179)-[]
+54-(Red Lyrics.txt_49-1228)-[primary-sex]
+55-(Red Lyrics.txt_50-1278)-[]
+56-(Red Lyrics.txt_51-1329)-[]
+57-(Red Lyrics.txt_52-1381)-[]
+58-(Red Lyrics.txt_53-1434)-[]
+59-(Red Lyrics.txt_53-1435)-[secondary-social_behavior,secondary-temporal_repere]
+60-(Red Lyrics.txt_54-1490)-[secondary-temporal_repere,emotions-sadness]
+61-(Red Lyrics.txt_55-1545)-[primary-height]
+62-(Red Lyrics.txt_56-1602)-[emotions-affection,primary-height]
+63-(Red Lyrics.txt_57-1659)-[primary-counscious]
+64-(Red Lyrics.txt_58-1717)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Red Lyrics.txt_1,1,cl1-nil-nil-be-[subj-theme_bound-Lyrics-sn1,and(Lyrics,red,sn1),def_prop(Lyrics,[informa,tecno])])
+lf(Red Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-E-sn1,def_prop(E,[attivita,informa])])
+lf(Red Lyrics.txt_3,6,cl3-nil-nil-say-[])
+lf(Red Lyrics.txt_4,10,cl4-nil-nil-sky-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Red Lyrics.txt_5,15,cl5-nil-nil-dig-[obj-theme_aff-ya-sn3,obj-destination-flight-sn2,subj-agent-i-sn1,and(flight,this,sn2),def_prop(ya,[legale]),def_prop(flight,[astratto,attivita,istituzione,oggetto,strumento]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_6,21,cl6-nil-nil-be-[xcomp-prop-high-sn3,xcomp-prop-way-sn2,subj-theme_bound-i-sn1,def_prop(high,[misura]),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_7,28,cl7-nil-nil-taste-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Red Lyrics.txt_8,36,cl8-nil-nil-be-[xcomp-prop-rainbow-sn2,subj-theme_bound-cuz-sn1,and(cuz,i,sn1),def_prop(rainbow,[astratto,oggetto]),def_prop(cuz,[istituzione])])
+lf(Red Lyrics.txt_9,45,cl9-nil-nil-love-[cmod-subord-love-",obj-theme_unaff-show-sn2,subj-experiencer-i-sn1,def_prop(show,[attivita,informa]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_10,55,cl10-nil-nil-slow-[subj-agent-ya-sn1,def_prop(ya,[legale])])
+lf(Red Lyrics.txt_11,66,cl11-nil-nil-lose-[obj-theme_unaff-control-sn2,subj-theme_aff-i-sn1,def_prop(control,[astratto,attivita,informa,oggetto,relat,strumento,umano]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_12,78,cl12-nil-nil-say-[obj-theme_unaff-rainbow-sn1,def_prop(rainbow,[astratto,oggetto])])
+lf(Red Lyrics.txt_13,91,cl13-nil-nil-love-[obj-theme-ya-sn3,obj-theme_unaff-vibe-sn2,subj-experiencer-i-sn1,and(vibe,this,sn2),def_prop(ya,[legale]),def_prop(vibe,[stato]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_14,105,cl14-nil-nil-be-[xcomp-prop-fly-sn3,xcomp-prop-way-sn2,subj-theme_bound-i-sn1,def_prop(fly,[animato,attivita,oggetto,strumento]),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_15,120,cl15-nil-nil-taste-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Red Lyrics.txt_16,136,nil-nil-nil-halo-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Red Lyrics.txt_17,153,cl16-nil-nil-be-[ncmod-modal-bad-sn3,xcomp-prop-good-sn2,subj-theme_bound-cuz-sn1,and(cuz,i,sn1),def_prop(bad,[soggettivo]),def_prop(good,[valutativo]),def_prop(cuz,[istituzione])])
+lf(Red Lyrics.txt_18,171,cl17-nil-nil-be-[cmod-subord-be-",ncmod-modal-good-sn2,subj-theme_bound-i-sn1,def_prop(good,[valutativo]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_19,190,cl18-nil-nil-baby-[obj-theme-ya-sn2,subj-agent-oh-sn1,def_prop(ya,[legale]),def_prop(oh,[informa,tecno])])
+lf(Red Lyrics.txt_20,210,cl19-nil-nil-be-[xcomp-theme-no-sn2,subj-theme_bound-rainbow-sn1,def_prop(no,[istituzione]),def_prop(rainbow,[astratto,oggetto])])
+lf(Red Lyrics.txt_21,231,cl20-nil-nil-be-[xcomp-prop-drownin-sn2,subj-theme_bound-i-sn1,def_prop(drownin,[istituzione]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_22,253,cl22-nil-nil-be-[xcomp-prop-Dreamin-sn3,subj-theme_bound-i-sn2,def_prop(Dreamin,[istituzione,umano]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_22,253,cl21-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Red Lyrics.txt_23,277,cl23-nil-must-be-[ncmod-locativo-somethin-sn2,subj-theme_bound-i-sn1,def_prop(somethin,[istituzione]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_24,301,cl24-nil-nil-be-[subj-theme_bound-something-sn1,def_prop(something,[astratto,informa,oggetto])])
+lf(Red Lyrics.txt_25,326,cl25-nil-nil-taste-[xcomp-prop-good-sn2,subj-theme_bound-it-sn1,aux-(is)-nil,progr-tasting-nil,def_prop(good,[valutativo]),def_prop(it,[any])])
+lf(Red Lyrics.txt_26,352,cl26-nil-nil-say-[obj-theme_unaff-food-sn1,and(food,rainbow,sn1),def_prop(food,[any,astratto,edible,oggetto])])
+lf(Red Lyrics.txt_27,379,cl27-nil-nil-excuse-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Red Lyrics.txt_28,407,cl28-nil-nil-be-[ncmod-modal-mood-sn3,xcomp-prop-just-sn2,subj-theme_bound-i-sn1,def_prop(mood,[relat]),def_prop(just,[informa,tecno]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_29,436,cl29-nil-nil-be-[subj-theme_bound-darker-sn1,def_prop(darker,[istituzione])])
+lf(Red Lyrics.txt_30,466,cl30-nil-nil-see-[adj-(mod)-still-nil,obj-actor-figure-sn2,subj-experiencer-i-sn1,def_prop(figure,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_31,497,cl31-nil-nil-love-[cmod-subord-love-",obj-theme_unaff-danger-sn2,subj-experiencer-i-sn1,def_prop(danger,[luogo,stato]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_32,529,cl32-nil-nil-love-[obj-theme_unaff-thrill-sn2,subj-experiencer-i-sn1,def_prop(thrill,[attivita]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_33,562,cl33-nil-nil-be-[subj-theme_bound-pro-nil,xcomp-prop-ill-sn2,subj-theme_bound-i-sn1,def_prop(ill,[stato]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_34,596,cl34-nil-nil-love-[obj-theme_unaff-thrill-sn2,subj-experiencer-i-sn1,def_prop(thrill,[attivita]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_35,631,cl36-nil-nil-go-[])
+lf(Red Lyrics.txt_35,631,cl35-nil-nil-let-[xcomp-prop-downhill-sn2,subj-actor-you-sn1,def_prop(downhill,[evento,oggetto]),def_prop(you,[umano])])
+lf(Red Lyrics.txt_36,668,cl37-nil-nil-be-[xcomp-prop-thirsty-sn4,subj-theme_bound-i-sn3,xcomp-prop-hungry-sn2,subj-theme_bound-i-sn1,def_prop(thirsty,[emotivo]),def_prop(i,[umano]),def_prop(hungry,[valutativo]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_37,705,cl38-nil-nil-be-[subj-theme_bound-pro-nil,xcomp-prop-filthy-sn2,subj-theme_bound-sin-sn1,def_prop(filthy,[evaluative]),def_prop(sin,[astratto,attivita,informa])])
+lf(Red Lyrics.txt_38,743,cl39-nil-nil-be-[ncmod-locativo-diet-sn2,subj-theme_bound-we-sn1,and(diet,this,sn2),def_prop(diet,[attivita,edible,istituzione,oggetto]),def_prop(we,[umano])])
+lf(Red Lyrics.txt_39,782,cl40-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Red Lyrics.txt_40,822,cl41-not-nil-make-[subj-agent-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Red Lyrics.txt_41,863,cl42-nil-will-find-[subj-theme_unaff-we-sn1,aux-be-nil,def_prop(we,[umano])])
+lf(Red Lyrics.txt_42,905,cl43-nil-nil-game-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Red Lyrics.txt_43,948,cl45-nil-nil-crave-[subj-experiencer-we-sn2,def_prop(we,[umano])])
+lf(Red Lyrics.txt_43,948,cl44-nil-nil-be-[xcomp-prop-all-sn1,def_prop(all,[_394924])])
+lf(Red Lyrics.txt_44,993,cl46-nil-nil-say-[obj-theme_unaff-wonderland-sn1,def_prop(wonderland,[astratto,oggetto])])
+lf(Red Lyrics.txt_45,1038,cl47-nil-nil-be-[adj-subj_disc-now-sn2,subj-theme_bound-world-sn1,and(world,new,sn1),def_prop(now,[istituzione]),def_prop(world,[astratto,istituzione,oggetto])])
+lf(Red Lyrics.txt_46,1084,cl48-not-nil-do-[xcomp-actor-drug-sn2,subj-theme_unaff-i-sn1,aux-do-nil,def_prop(drug,[oggetto,strumento]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_47,1131,cl49-nil-nil-be-[xcomp-prop-brain-sn2,subj-theme_bound-it-sn1,def_prop(brain,[astratto,body_part,edible,oggetto,umano]),def_prop(it,[any])])
+lf(Red Lyrics.txt_48,1179,cl50-nil-nil-blame-[obj-theme-chromesthesia-sn2,subj-agent-i-sn1,def_prop(chromesthesia,[astratto]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_49,1228,cl51-nil-nil-say-[obj-theme_unaff-synesthesia-sn1,and(synesthesia,fuck,sn1),def_prop(synesthesia,[astratto])])
+lf(Red Lyrics.txt_50,1278,nil-nil-nil-own-[ncmod-specif-my-sn2,subj-owner-you-sn1,def_prop(my,[informa,tecno]),def_prop(you,[umano])])
+lf(Red Lyrics.txt_51,1329,cl52-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Red Lyrics.txt_52,1381,cl53-nil-would-have-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Red Lyrics.txt_53,1434,cl56-nil-nil-be-[cmod-subord-be-",adj-temporal-hours-nil,subj-theme_bound-talk-sn2,def_prop(talk,[attivita,informa])])
+lf(Red Lyrics.txt_53,1434,cl55-nil-nil-sit-[subj-locativo-they-sn1,def_prop(they,[umano])])
+lf(Red Lyrics.txt_53,1434,cl54-nil-would-will-[subj-agent-they-sn1,def_prop(they,[umano])])
+lf(Red Lyrics.txt_54,1490,cl57-nil-nil-be-[ncmod-locativo-world-sn4,xcomp-prop-lonely-sn3,xcomp-theme-when-sn2,subj-theme_bound-i-sn1,def_prop(world,[astratto,istituzione,oggetto]),def_prop(lonely,[estens]),def_prop(when,[tempo]),def_prop(i,[umano])])
+lf(Red Lyrics.txt_55,1545,nil-nil-nil-birds-[adj-(mod)-new-nil,subj-agent-thereed-sn1,def_prop(thereed,[istituzione])])
+lf(Red Lyrics.txt_55,1545,cl58-nil-nil-be-[subj-prop-thereed-sn1,def_prop(thereed,[istituzione])])
+lf(Red Lyrics.txt_56,1602,cl59-nil-nil-be-[coord-theme-nice_and_howdy-do-sn4,xcomp-theme-howdy-do-sn3,xcomp-theme-nice-sn2,subj-theme_bound-you-sn1,def_prop(nice_and_howdy-do,[valutativo,attivita,informa]),def_prop(howdy-do,[valutativo,attivita,informa]),def_prop(nice,[valutativo,attivita,informa]),def_prop(you,[umano])])
+lf(Red Lyrics.txt_57,1659,cl60-nil-would-have-[xcomp-tema_bound-bluebird-sn2,subj-experiencer-everyone-sn1,and(bluebird,dozen,sn2),def_prop(bluebird,[animato]),def_prop(everyone,[umano])])
+lf(Red Lyrics.txt_58,1717,nil-nil-nil-own-[ncmod-specif-my-sn2,subj-owner-you-sn1,def_prop(my,[informa,tecno]),def_prop(you,[umano])])

@@ -1,0 +1,82 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Agnus Dei Lyrics.txt_1-1  []-positive  []
+Agnus Dei Lyrics.txt_2-3  []-positive  []
+Agnus Dei Lyrics.txt_3-6  []-positive  []
+Agnus Dei Lyrics.txt_4-10  []-positive  []
+Agnus Dei Lyrics.txt_5-15  []-positive  []
+Agnus Dei Lyrics.txt_6-21  []-positive  []
+Agnus Dei Lyrics.txt_7-28  []-positive  []
+Agnus Dei Lyrics.txt_8-36  []-positive  []
+Agnus Dei Lyrics.txt_9-45  []-positive  []
+Agnus Dei Lyrics.txt_10-55  []-positive  []
+Agnus Dei Lyrics.txt_11-66  []-positive  []
+Agnus Dei Lyrics.txt_12-78  []-positive  []
+Agnus Dei Lyrics.txt_13-91  []-positive  []
+Agnus Dei Lyrics.txt_14-105  []-positive  []
+Agnus Dei Lyrics.txt_15-120  []-positive  []
+Agnus Dei Lyrics.txt_16-136  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Agnus Dei Lyrics.txt_1-1  [agnus,Dei,Lyrics,by,Amy,grant]  [title]
+Agnus Dei Lyrics.txt_2-3  [alleluia,Alleluia]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Agnus Dei Lyrics.txt_3-6  [for,God,our,Lord,Almighty,reigns]  [provide_expl_just(reign,[external,factive,explanation,background,objective])]
+Agnus Dei Lyrics.txt_4-10  [alleluia,Alleluia]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Agnus Dei Lyrics.txt_5-15  [for,God,our,Lord,Almighty,reigns]  [provide_expl_just(reign,[external,factive,narration,background,objective])]
+Agnus Dei Lyrics.txt_6-21  [alleluia]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Agnus Dei Lyrics.txt_7-28  [holy,Holy]  [raise_issue(be,[_101930,factive,statement,_101948,subjective])]
+Agnus Dei Lyrics.txt_8-36  [are,Lord,God,you,Almighty]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Agnus Dei Lyrics.txt_9-45  [worthy,is,the,lamb]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Agnus Dei Lyrics.txt_10-55  [worthy,is,the,lamb]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Agnus Dei Lyrics.txt_11-66  [you,are,Holy]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Agnus Dei Lyrics.txt_12-78  [holy]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Agnus Dei Lyrics.txt_13-91  [are,Lord,God,you,Almighty]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Agnus Dei Lyrics.txt_14-105  [worthy,is,the,lamb]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Agnus Dei Lyrics.txt_15-120  [worthy,is,the,lamb]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Agnus Dei Lyrics.txt_16-136  [amen]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Agnus Dei Lyrics.txt_1-1)-[secondary-social_behavior]
+2-(Agnus Dei Lyrics.txt_2-3)-[]
+3-(Agnus Dei Lyrics.txt_3-6)-[secondary-restraint]
+4-(Agnus Dei Lyrics.txt_4-10)-[]
+5-(Agnus Dei Lyrics.txt_5-15)-[secondary-restraint]
+6-(Agnus Dei Lyrics.txt_6-21)-[]
+7-(Agnus Dei Lyrics.txt_7-28)-[]
+8-(Agnus Dei Lyrics.txt_8-36)-[]
+half
+9-(Agnus Dei Lyrics.txt_9-45)-[]
+10-(Agnus Dei Lyrics.txt_10-55)-[]
+11-(Agnus Dei Lyrics.txt_11-66)-[]
+12-(Agnus Dei Lyrics.txt_12-78)-[]
+13-(Agnus Dei Lyrics.txt_13-91)-[]
+14-(Agnus Dei Lyrics.txt_14-105)-[]
+15-(Agnus Dei Lyrics.txt_15-120)-[]
+16-(Agnus Dei Lyrics.txt_16-136)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Agnus Dei Lyrics.txt_1,1,cl1-nil-nil-grant-[arg_mod-agent-Amy-sn2,subj-goal-Lyrics-sn1,and(Lyrics,Dei,sn1),and(Lyrics,agnus,sn1),def_prop(Amy,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Agnus Dei Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-Alleluia-sn1,and(Alleluia,alleluia,sn1),def_prop(Alleluia,[istituzione])])
+lf(Agnus Dei Lyrics.txt_3,6,cl3-nil-nil-reign-[ncmod-modal-Lord-sn3,obj-theme-God-sn2,subj-agent-you-sn1,def_prop(Lord,[place,attivita,informa,umano]),def_prop(God,[animato]),def_prop(you,[umano])])
+lf(Agnus Dei Lyrics.txt_4,10,cl4-nil-nil-say-[obj-theme_unaff-Alleluia-sn1,and(Alleluia,alleluia,sn1),def_prop(Alleluia,[istituzione])])
+lf(Agnus Dei Lyrics.txt_5,15,cl5-nil-nil-reign-[ncmod-modal-Lord-sn3,obj-theme-God-sn2,subj-agent-you-sn1,def_prop(Lord,[place,attivita,informa,umano]),def_prop(God,[animato]),def_prop(you,[umano])])
+lf(Agnus Dei Lyrics.txt_6,21,cl6-nil-nil-say-[obj-theme_unaff-alleluia-sn1,def_prop(alleluia,[istituzione])])
+lf(Agnus Dei Lyrics.txt_7,28,cl7-nil-nil-say-[obj-theme_unaff-Holy-sn1,and(Holy,holy,sn1),def_prop(Holy,[place,umano])])
+lf(Agnus Dei Lyrics.txt_8,36,cl8-nil-nil-be-[xcomp-prop-Almighty-sn2,subj-theme_bound-you-sn1,and(Almighty,God,sn2),def_prop(Almighty,[astratto,umano]),def_prop(you,[umano])])
+lf(Agnus Dei Lyrics.txt_9,45,cl9-nil-nil-be-[xcomp-prop-lamb-sn2,subj-theme_bound-worthy-sn1,def_prop(lamb,[animato,edible,oggetto,plant,umano]),def_prop(worthy,[umano])])
+lf(Agnus Dei Lyrics.txt_10,55,cl10-nil-nil-be-[xcomp-prop-lamb-sn2,subj-theme_bound-worthy-sn1,def_prop(lamb,[animato,edible,oggetto,plant,umano]),def_prop(worthy,[umano])])
+lf(Agnus Dei Lyrics.txt_11,66,cl11-nil-nil-be-[xcomp-prop-Holy-sn2,subj-theme_bound-you-sn1,def_prop(Holy,[place,umano]),def_prop(you,[umano])])
+lf(Agnus Dei Lyrics.txt_12,78,cl12-nil-nil-say-[])
+lf(Agnus Dei Lyrics.txt_13,91,cl13-nil-nil-be-[xcomp-prop-Almighty-sn2,subj-theme_bound-you-sn1,and(Almighty,God,sn2),def_prop(Almighty,[astratto,umano]),def_prop(you,[umano])])
+lf(Agnus Dei Lyrics.txt_14,105,cl14-nil-nil-be-[xcomp-prop-lamb-sn2,subj-theme_bound-worthy-sn1,def_prop(lamb,[animato,edible,oggetto,plant,umano]),def_prop(worthy,[umano])])
+lf(Agnus Dei Lyrics.txt_15,120,cl15-nil-nil-be-[xcomp-prop-lamb-sn2,subj-theme_bound-worthy-sn1,def_prop(lamb,[animato,edible,oggetto,plant,umano]),def_prop(worthy,[umano])])
+lf(Agnus Dei Lyrics.txt_16,136,cl16-nil-nil-say-[obj-theme_unaff-amen-sn1,def_prop(amen,[istituzione,umano])])

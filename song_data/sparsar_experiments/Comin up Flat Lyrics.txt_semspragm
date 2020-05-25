@@ -1,0 +1,205 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Comin up Flat Lyrics.txt_1-1  []-positive  []
+Comin up Flat Lyrics.txt_2-3  []-positive  []
+Comin up Flat Lyrics.txt_3-6  []-negative  []
+Comin up Flat Lyrics.txt_4-11  []-positive  []
+Comin up Flat Lyrics.txt_4-12  []-negative  [neg]
+Comin up Flat Lyrics.txt_5-17  []-positive  []
+Comin up Flat Lyrics.txt_5-18  []-positive  [ack]
+Comin up Flat Lyrics.txt_6-24  []-negative  []
+Comin up Flat Lyrics.txt_7-31  []-suspension  [neg,neg,neg,fgb]
+Comin up Flat Lyrics.txt_8-39  []-negative  [neg]
+Comin up Flat Lyrics.txt_9-48  [then-temp_seq]-positive  []
+Comin up Flat Lyrics.txt_10-58  []-positive  []
+Comin up Flat Lyrics.txt_11-69  []-negative  [neg,neg]
+Comin up Flat Lyrics.txt_11-70  [yet-conc]-negative  [neg,neg]
+Comin up Flat Lyrics.txt_12-82  []-negative  [neg]
+Comin up Flat Lyrics.txt_12-83  [then-temp_seq]-positive  []
+Comin up Flat Lyrics.txt_13-96  []-negative  [neg,neg]
+Comin up Flat Lyrics.txt_14-110  []-negative  [neg]
+Comin up Flat Lyrics.txt_15-125  [but-advers]-negative  [fgb,neg]
+Comin up Flat Lyrics.txt_15-126  []-positive  [fgb]
+Comin up Flat Lyrics.txt_16-143  []-positive  []
+Comin up Flat Lyrics.txt_16-144  []-positive  []
+Comin up Flat Lyrics.txt_16-145  []-negative  [neg]
+Comin up Flat Lyrics.txt_17-161  [but-advers]-negative  [fgb,neg]
+Comin up Flat Lyrics.txt_17-162  []-positive  []
+Comin up Flat Lyrics.txt_17-163  []-positive  []
+Comin up Flat Lyrics.txt_18-181  []-negative  [neg,neg]
+Comin up Flat Lyrics.txt_19-200  []-positive  []
+Comin up Flat Lyrics.txt_19-201  []-negative  [neg]
+Comin up Flat Lyrics.txt_20-221  []-positive  []
+Comin up Flat Lyrics.txt_20-222  [if-hypoth]-positive  [fgb,fhd,neg]
+Comin up Flat Lyrics.txt_21-243  []-negative  [neg]
+Comin up Flat Lyrics.txt_22-265  []-positive  []
+Comin up Flat Lyrics.txt_22-266  []-positive  []
+Comin up Flat Lyrics.txt_23-290  [whether-hypoth]-negative  [neg,fhd]
+Comin up Flat Lyrics.txt_24-314  [(as)-temp_coinc]-positive  [neg]
+Comin up Flat Lyrics.txt_25-340  []-positive  []
+Comin up Flat Lyrics.txt_26-366  []-negative  [neg]
+Comin up Flat Lyrics.txt_26-367  []-positive  []
+Comin up Flat Lyrics.txt_27-394  []-positive  [fhd]
+Comin up Flat Lyrics.txt_28-422  []-positive  []
+Comin up Flat Lyrics.txt_28-423  []-negative  [neg,fgb]
+Comin up Flat Lyrics.txt_29-452  []-negative  [neg]
+Comin up Flat Lyrics.txt_29-453  []-positive  []
+Comin up Flat Lyrics.txt_30-483  []-positive  []
+Comin up Flat Lyrics.txt_31-514  [(as)-temp_coinc]-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Comin up Flat Lyrics.txt_1-1  [Comin,Flat,up,Lyrics,by,Rx]  [title]
+Comin up Flat Lyrics.txt_2-3  [single,Comin]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Comin up Flat Lyrics.txt_3-6  [wrap,your,head,around,this,slammed,in,a,door]  [provide_expl_just(slam,[external,factive,cause,foreground,objective])]
+Comin up Flat Lyrics.txt_4-11  [Rx,is,here,now]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(worry,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_4-12  [,,worry,no_more]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(worry,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_5-17  [i,got]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(gat,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_5-18  [your,back,straight,gat,flat,right,to,the]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(gat,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_6-24  [floor]  reject_expl_opin(nil,[])
+Comin up Flat Lyrics.txt_7-31  [i,been,around,the,block,a,few,times,a,whore,and,dime]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_8-39  [i,got,more,scary,movie]  [reject_expl_just(get,[external,factive,narration,foreground,objective])]
+Comin up Flat Lyrics.txt_9-48  [then,you,got,for,gore]  [raise_issue(be,[_742486,factive,statement,_742504,subjective])]
+Comin up Flat Lyrics.txt_10-58  [core]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Comin up Flat Lyrics.txt_11-69  [i,is,not,not]  [reject_expl_just(do,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_11-70  [been,done,yet,your,wishes,is,not,not,true]  [reject_expl_just(do,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_12-82  [gettin,burned,you,up,worse]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_12-83  [then,a,holocaust,jew]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_13-96  [no,disrespect,to,religions,my]  [reject_expl_just(disrespect,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_14-110  [bad]  reject_expl_opin(nil,[])
+Comin up Flat Lyrics.txt_15-125  [but,ill,say]  [reject_expl_just(need,[external,factive,narration,background,objective]),reject_expl_just(hit,[external,factive,cause,foreground,objective])]
+Comin up Flat Lyrics.txt_15-126  [what,i,need,to,hit,the,mainstream,fad,.,i,need,to,hit,the,mainstream,fad]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(hit,[external,factive,cause,foreground,objective])]
+Comin up Flat Lyrics.txt_16-143  [you,can,call,me,a,rapper]  [provide_expl_just(call,[external,nonfactive,narration,foreground,objective]),provide_expl_just(bad,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_16-144  [,,you,can,just,call]  [provide_expl_just(call,[external,nonfactive,narration,foreground,objective]),provide_expl_just(bad,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_16-145  [me,bad]  [reject_expl_just(call,[external,nonfactive,narration,foreground,objective]),reject_expl_just(bad,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_17-161  [but,not,one,day,passed]  [reject_expl_just(pass,[external,factive,cause,foreground,objective]),reject_expl_just(say,[external,nonfactive,narration,foreground,objective])]
+Comin up Flat Lyrics.txt_17-162  [i,can,say]  [provide_expl_just(pass,[external,factive,cause,foreground,objective]),provide_expl_just(say,[external,nonfactive,narration,foreground,objective])]
+Comin up Flat Lyrics.txt_17-163  [i,was,glad]  [provide_expl_just(pass,[external,factive,cause,foreground,objective]),provide_expl_just(say,[external,nonfactive,narration,foreground,objective])]
+Comin up Flat Lyrics.txt_18-181  [my,future,bag,not,the,trash,is,lagged]  [reject_expl_just(lag-cl23,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_19-200  [anyone,get,in,my,ways]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(bin,[external,factive,narration,foreground,objective])]
+Comin up Flat Lyrics.txt_19-201  [gettin,bound,to,the,gagged]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(bin,[external,factive,narration,foreground,objective])]
+Comin up Flat Lyrics.txt_20-221  [chloroform,soaked,on,a,rag]  [provide_expl_just(soak,[external,factive,cause,foreground,objective])]
+Comin up Flat Lyrics.txt_20-222  [,,i,dont,care,if,your,ten,or,80,some,sag]  [provide_expl_just(soak,[external,factive,cause,foreground,objective])]
+Comin up Flat Lyrics.txt_21-243  [this,is,the,final,im,makin,the,cut]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_22-265  [you,better,watch,your,girlfriend,shes,takin]  [provide_expl_just(watch,[external,factive,narration,background,objective]),provide_expl_just(better,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_22-266  [it,straight,the,butt]  [provide_expl_just(watch,[external,factive,narration,background,objective]),provide_expl_just(better,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_23-290  [ill,move,in,whether,you,married,or,friends]  [reject_expl_just(marry,[external,factive,narration,foreground,objective])]
+Comin up Flat Lyrics.txt_24-314  [i,hit,all,those,bitches,rated,as,tens]  [provide_expl_just(hit,[external,factive,cause,foreground,objective])]
+Comin up Flat Lyrics.txt_25-340  [you,been,rappin,on,coffins,sportin,depends]  [provide_expl_just(depend,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_26-366  [relationships,broken,know,no,name]  [reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_26-367  [for,the,mends]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_27-394  [the,rules,Ive,taken,molded,up,like,a,Benz]  [provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Comin up Flat Lyrics.txt_28-422  [they,been,crafted]  [provide_expl_just(crafted,[external,factive,narration,background,objective]),provide_expl_just(bend,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_28-423  [,,wretched,and,bend]  [reject_expl_just(crafted,[external,factive,narration,background,objective]),reject_expl_just(bend,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_29-452  [you,got,a,death,note]  [reject_expl_just(send,[external,factive,narration,foreground,objective])]
+Comin up Flat Lyrics.txt_29-453  [,,it,already,been,sent]  [provide_expl_just(send,[external,factive,narration,foreground,objective])]
+Comin up Flat Lyrics.txt_30-483  [you,a,joke,circus,of,tent]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Comin up Flat Lyrics.txt_31-514  [im,givin,up,bullshit,,,as,a,tribute,to,lent]  [reject_expl_just(lend,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Comin up Flat Lyrics.txt_1-1)-[]
+2-(Comin up Flat Lyrics.txt_2-3)-[emotions-expressive_beh]
+3-(Comin up Flat Lyrics.txt_3-6)-[primary-narcissism,primary-brink]
+4-(Comin up Flat Lyrics.txt_4-11)-[primary-concreteness,secondary-temporal_repere]
+5-(Comin up Flat Lyrics.txt_4-12)-[emotions-anxiety]
+6-(Comin up Flat Lyrics.txt_5-17)-[]
+7-(Comin up Flat Lyrics.txt_5-18)-[primary-concreteness,primary-concreteness,primary-concreteness,secondary-moral_imperative]
+8-(Comin up Flat Lyrics.txt_6-24)-[primary-brink]
+9-(Comin up Flat Lyrics.txt_7-31)-[secondary-restraint,secondary-temporal_repere,primary-sex,primary-diffusion]
+10-(Comin up Flat Lyrics.txt_8-39)-[emotions-anxiety]
+11-(Comin up Flat Lyrics.txt_9-48)-[secondary-temporal_repere]
+12-(Comin up Flat Lyrics.txt_10-58)-[]
+13-(Comin up Flat Lyrics.txt_11-69)-[]
+14-(Comin up Flat Lyrics.txt_11-70)-[secondary-abstract_tought]
+15-(Comin up Flat Lyrics.txt_12-82)-[primary-fire]
+16-(Comin up Flat Lyrics.txt_12-83)-[secondary-temporal_repere]
+17-(Comin up Flat Lyrics.txt_13-96)-[]
+18-(Comin up Flat Lyrics.txt_14-110)-[]
+19-(Comin up Flat Lyrics.txt_15-125)-[secondary-social_behavior]
+20-(Comin up Flat Lyrics.txt_15-126)-[emotions-aggression,emotions-aggression]
+21-(Comin up Flat Lyrics.txt_16-143)-[secondary-social_behavior]
+22-(Comin up Flat Lyrics.txt_16-144)-[secondary-social_behavior]
+23-(Comin up Flat Lyrics.txt_16-145)-[]
+half
+24-(Comin up Flat Lyrics.txt_17-161)-[]
+25-(Comin up Flat Lyrics.txt_17-162)-[secondary-social_behavior]
+26-(Comin up Flat Lyrics.txt_17-163)-[emotions-positive_affect]
+27-(Comin up Flat Lyrics.txt_18-181)-[]
+28-(Comin up Flat Lyrics.txt_19-200)-[]
+29-(Comin up Flat Lyrics.txt_19-201)-[secondary-restraint]
+30-(Comin up Flat Lyrics.txt_20-221)-[primary-water]
+31-(Comin up Flat Lyrics.txt_20-222)-[]
+32-(Comin up Flat Lyrics.txt_21-243)-[secondary-instru_behavior,emotions-aggression]
+33-(Comin up Flat Lyrics.txt_22-265)-[primary-vision]
+34-(Comin up Flat Lyrics.txt_22-266)-[primary-concreteness]
+35-(Comin up Flat Lyrics.txt_23-290)-[emotions-affection,emotions-affection]
+36-(Comin up Flat Lyrics.txt_24-314)-[emotions-aggression,primary-sex]
+37-(Comin up Flat Lyrics.txt_25-340)-[emotions-expressive_beh,secondary-social_behavior]
+38-(Comin up Flat Lyrics.txt_26-366)-[emotions-aggression,secondary-abstract_tought]
+39-(Comin up Flat Lyrics.txt_26-367)-[secondary-instru_behavior]
+40-(Comin up Flat Lyrics.txt_27-394)-[emotions-affection]
+41-(Comin up Flat Lyrics.txt_28-422)-[secondary-instru_behavior]
+42-(Comin up Flat Lyrics.txt_28-423)-[]
+43-(Comin up Flat Lyrics.txt_29-452)-[primary-passivity]
+44-(Comin up Flat Lyrics.txt_29-453)-[secondary-temporal_repere]
+45-(Comin up Flat Lyrics.txt_30-483)-[emotions-positive_affect]
+46-(Comin up Flat Lyrics.txt_31-514)-[secondary-social_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Comin up Flat Lyrics.txt_1,1,nil-nil-nil-up-[arg_mod-agent-Rx-sn3,obj-theme_aff-Lyrics-sn2,subj-agent-Comin-sn1,and(Lyrics,Flat,sn2),def_prop(Rx,[attivita,informa,tecno]),def_prop(Lyrics,[informa,tecno]),def_prop(Comin,[istituzione,umano])])
+lf(Comin up Flat Lyrics.txt_2,3,cl1-nil-nil-say-[obj-theme_unaff-Comin-sn1,and(Comin,single,sn1),def_prop(Comin,[istituzione,umano])])
+lf(Comin up Flat Lyrics.txt_3,6,cl3-nil-nil-slam-[iobj-goal-door-sn4,xmod-prop-slam-3,def_prop(door,[astratto,oggetto,strumento])])
+lf(Comin up Flat Lyrics.txt_3,6,cl2-nil-nil-wrap-[subj-sn1-this-sn3,obj-theme_aff-head-sn2,subj-agent-you-sn1,def_prop(this,[oggetto,umano]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Comin up Flat Lyrics.txt_4,11,cl5-nil-nil-worry-[adj-subj_disc-no_more-sn5,subj-causer_emot-you-sn4,def_prop(no_more,[istituzione]),def_prop(you,[umano])])
+lf(Comin up Flat Lyrics.txt_4,11,cl4-nil-nil-be-[xcomp-prop-now-sn2,subj-theme_bound-Rx-sn1,and(now,here,sn2),def_prop(now,[istituzione]),def_prop(Rx,[attivita,informa,tecno])])
+lf(Comin up Flat Lyrics.txt_5,17,nil-nil-nil-gat-[obj-theme_aff-right-sn3,subj-agent-straight-sn2,and(straight,back,sn2),def_prop(right,[astratto,attivita,body_part,istituzione,luogo,oggetto,umano]),def_prop(straight,[istituzione])])
+lf(Comin up Flat Lyrics.txt_5,17,cl6-nil-nil-get-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Comin up Flat Lyrics.txt_6,24,cl7-nil-nil-say-[obj-theme_unaff-floor-sn1,def_prop(floor,[astratto,attivita,informa,oggetto,strumento])])
+lf(Comin up Flat Lyrics.txt_7,31,cl8-nil-nil-be-[coord-theme-whore_and_dime-sn5,xcomp-theme-dime-sn4,xcomp-theme-whore-sn3,xcomp-theme-block-sn2,subj-theme_bound-i-sn1,def_prop(whore_and_dime,[umano,astratto,oggetto]),def_prop(dime,[umano,astratto,oggetto]),def_prop(whore,[umano,astratto,oggetto]),def_prop(block,[astratto,luogo,nquant,oggetto,strumento]),def_prop(i,[umano])])
+lf(Comin up Flat Lyrics.txt_8,39,cl9-nil-nil-get-[obj-theme_unaff-movie-sn2,subj-agent-i-sn1,and(movie,more,sn2),and(movie,scary,sn2),def_prop(movie,[attivita,informa]),def_prop(i,[umano])])
+lf(Comin up Flat Lyrics.txt_9,48,cl10-nil-nil-get-[subj-agent-gore-sn2,subj-agent-gore-sn1,and(gore,you,sn1),def_prop(gore,[body_part,oggetto,strumento,umano]),def_prop(gore,[body_part,oggetto,strumento,umano])])
+lf(Comin up Flat Lyrics.txt_10,58,cl11-nil-nil-say-[obj-theme_unaff-core-sn1,def_prop(core,[astratto,luogo,oggetto,strumento])])
+lf(Comin up Flat Lyrics.txt_11,69,cl13-nil-nil-do-[])
+lf(Comin up Flat Lyrics.txt_11,69,cl12-not-nil-be-[xcomp-prop-true-sn4,xcomp-actor-yet-sn3,xcomp-purpose-do-4,subj-theme_bound-wish-sn2,subj-theme_bound-i-sn1,def_prop(true,[emotivo]),def_prop(yet,[istituzione]),def_prop(wish,[astratto,attivita,emotivo,informa]),def_prop(i,[umano])])
+lf(Comin up Flat Lyrics.txt_12,82,cl14-nil-nil-be-[xcomp-prop-jew-sn5,subj-theme_bound-holocaust-sn4,def_prop(jew,[oggetto,strumento]),def_prop(holocaust,[attivita])])
+lf(Comin up Flat Lyrics.txt_12,82,nil-nil-nil-up-[xcomp-prop-worse-sn2,subj-agent-you-sn1,and(you,burned,sn1),and(you,gettin,sn1),def_prop(worse,[astratto]),def_prop(you,[umano])])
+lf(Comin up Flat Lyrics.txt_13,96,nil-nil-nil-disrespect-[xadj-adj-my-adj1,ncmod-locativo-religion-sn2,subj-actor-no-sn1,def_prop(my,_771466),def_prop(religion,[astratto,istituzione]),def_prop(no,[istituzione])])
+lf(Comin up Flat Lyrics.txt_14,110,cl15-nil-nil-say-[])
+lf(Comin up Flat Lyrics.txt_15,125,cl18-nil-nil-hit-[])
+lf(Comin up Flat Lyrics.txt_15,125,cl17-nil-nil-need-[obj-theme-fad-sn5,obj-result-mainstream-sn4,xcomp-prop-hit-2,f2-sn2-what-sn3,subj-experiencer-i-sn2,def_prop(fad,[astratto]),def_prop(mainstream,[astratto]),def_prop(what,[oggetto]),def_prop(i,[umano])])
+lf(Comin up Flat Lyrics.txt_15,125,cl16-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Comin up Flat Lyrics.txt_16,143,nil-nil-nil-bad-[subj-agent-me-sn5,def_prop(me,[umano])])
+lf(Comin up Flat Lyrics.txt_16,143,cl19-nil-can-call-[subj-agent-you-sn4,obj-prop-rapper-sn3,obj-theme_bound-me-sn2,subj-agent-you-sn1,def_prop(you,[umano]),def_prop(rapper,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Comin up Flat Lyrics.txt_17,161,cl22-nil-nil-be-[subj-theme_bound-i-sn4,def_prop(i,[umano])])
+lf(Comin up Flat Lyrics.txt_17,161,cl21-nil-can-say-[subj-actor-you-sn3,def_prop(you,[umano])])
+lf(Comin up Flat Lyrics.txt_17,161,cl20-not-nil-pass-[subj-theme_unaff-day-sn1,and(day,one,sn1),def_prop(day,[tempo])])
+lf(Comin up Flat Lyrics.txt_18,181,cl23-not-nil-lag-[subj-theme-trash-sn2,subj-theme-trash-sn1,aux-(is)-nil,and(trash,bag,sn1),def_prop(trash,[istituzione,oggetto,strumento]),def_prop(trash,[istituzione,oggetto,strumento])])
+lf(Comin up Flat Lyrics.txt_19,200,cl25-nil-nil-bin-[ncmod-loc_direct-gag-sn6,subj-actor-gettin-sn5,ncmod-locativo-ways-sn2,def_prop(gag,[oggetto,strumento]),def_prop(gettin,[istituzione]),def_prop(ways,[oggetto,strumento])])
+lf(Comin up Flat Lyrics.txt_19,200,cl24-nil-nil-get-[subj-experiencer-anyone-sn1,def_prop(anyone,[umano])])
+lf(Comin up Flat Lyrics.txt_20,221,cl27-nil-nil-be-[xcomp-theme-sag-sn6,xcomp-theme-ten-sn5,xcomp-prop-care-sn4,subj-theme_bound-i-sn3,and(sag,80,sn6),and(sag,some,sn6),and(care,dont,sn4),def_prop(sag,[astratto]),def_prop(ten,[nquant]),def_prop(care,[attivita,emotivo]),def_prop(i,[umano])])
+lf(Comin up Flat Lyrics.txt_20,221,cl26-nil-nil-soak-[ncmod-locativo-rag-sn2,subj-agent-chloroform-sn1,def_prop(rag,[attivita,oggetto,strumento,tempo]),def_prop(chloroform,[oggetto,strumento])])
+lf(Comin up Flat Lyrics.txt_21,243,cl28-nil-nil-be-[obj2-benef-cut-sn3,xcomp-prop-makin-sn2,subj-theme_bound-this-sn1,and(makin,final,sn2),and(makin,im,sn2),def_prop(cut,[astratto,attivita,edible,informa,oggetto,stato,strumento]),def_prop(makin,[istituzione,umano]),def_prop(this,[oggetto,umano])])
+lf(Comin up Flat Lyrics.txt_22,265,cl30-nil-nil-be-[xcomp-prop-butt-sn15,xcomp-prop-straight-sn14,subj-theme_bound-it-sn13,def_prop(butt,[body_part,oggetto,strumento,umano]),def_prop(straight,[istituzione]),def_prop(it,[any])])
+lf(Comin up Flat Lyrics.txt_22,265,cl29-nil-nil-watch-[])
+lf(Comin up Flat Lyrics.txt_22,265,nil-nil-nil-better-[obj-tema_unaff-girlfriend-sn2,xcomp-purpose-watch-2,subj-agent-you-sn1,def_prop(girlfriend,[umano]),def_prop(you,[umano])])
+lf(Comin up Flat Lyrics.txt_23,290,cl31-nil-nil-marry-[])
+lf(Comin up Flat Lyrics.txt_24,314,cl33-nil-nil-rate-[obj-theme-ten-sn3,xcomp-purpose-rate-2,def_prop(ten,[nquant])])
+lf(Comin up Flat Lyrics.txt_24,314,cl32-nil-nil-hit-[obj-goal-bitch-sn2,subj-agent-i-sn1,and(bitch,all,sn2),and(bitch,those,sn2),def_prop(bitch,[animato,stato]),def_prop(i,[umano])])
+lf(Comin up Flat Lyrics.txt_25,340,nil-nil-nil-depend-[obj-theme-sportin-sn4,iobj-goal-coffin-sn3,obj-theme-rappin-sn2,subj-theme-you-sn1,def_prop(sportin,[istituzione]),def_prop(coffin,[oggetto,strumento]),def_prop(rappin,[istituzione]),def_prop(you,[umano])])
+lf(Comin up Flat Lyrics.txt_26,366,cl35-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(Comin up Flat Lyrics.txt_26,366,cl34-nil-nil-know-[obj-theme_unaff-name-sn2,subj-actor-break-sn1,and(name,no,sn2),and(break,relationship,sn1),def_prop(name,[attivita,informa,stato,umano]),def_prop(break,[attivita,evento])])
+lf(Comin up Flat Lyrics.txt_27,394,cl36-nil-nil-take-[adj-(mod)-up-nil,xcomp-prop-molded-sn2,subj-agent-Ive-sn1,and(Ive,rule,sn1),def_prop(molded,[evaluative]),def_prop(Ive,[istituzione,umano])])
+lf(Comin up Flat Lyrics.txt_28,422,cl37-nil-nil-bend-[subj-actor-pro-nil])
+lf(Comin up Flat Lyrics.txt_28,422,nil-nil-nil-crafted-[subj-agent-they-sn1,def_prop(they,[umano])])
+lf(Comin up Flat Lyrics.txt_29,452,cl39-nil-nil-send-[subj-agent-it-sn4,def_prop(it,[any])])
+lf(Comin up Flat Lyrics.txt_29,452,cl38-nil-nil-get-[obj2-paziente-note-sn3,obj-theme_unaff-death-sn2,subj-agent-you-sn1,def_prop(note,[astratto,attivita,informa,oggetto]),def_prop(death,[animato,attivita,cambia,evento,informa,stato,tempo]),def_prop(you,[umano])])
+lf(Comin up Flat Lyrics.txt_30,483,cl40-nil-nil-be-[subj-theme_bound-joke-sn2,subj-theme_bound-joke-sn1,and(joke,you,sn1),def_prop(joke,[astratto,attivita,informa]),def_prop(joke,[astratto,attivita,informa])])
+lf(Comin up Flat Lyrics.txt_31,514,cl41-nil-nil-lend-[adj-(mod)-up-nil,subj-actor-tribute-sn3,subj-actor-tribute-sn2,subj-actor-bullshit-sn1,and(tribute,bullshit,sn2),and(bullshit,givin,sn1),and(bullshit,im,sn1),def_prop(tribute,[attivita,informa]),def_prop(tribute,[attivita,informa]),def_prop(bullshit,[attivita,informa])])

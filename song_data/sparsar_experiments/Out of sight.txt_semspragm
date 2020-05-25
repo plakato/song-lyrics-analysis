@@ -1,0 +1,275 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Out of sight.txt_1-1  []-negative  [neg]
+Out of sight.txt_2-3  []-positive  [fgb,neg]
+Out of sight.txt_3-7  [when-temp_coinc]-suspension  [neg]
+Out of sight.txt_4-11  []-negative  [neg]
+Out of sight.txt_4-12  []-positive  []
+Out of sight.txt_5-17  []-suspension  [neg,neg,neg]
+Out of sight.txt_6-26  []-question  [neg]
+Out of sight.txt_7-33  [but-advers]-negative  [fgb,neg]
+Out of sight.txt_8-42  []-suspension  [neg,neg]
+Out of sight.txt_9-51  []-negative  [neg,neg,neg,fgb]
+Out of sight.txt_10-62  []-positive  []
+Out of sight.txt_11-74  []-positive  []
+Out of sight.txt_12-87  []-negative  [neg]
+Out of sight.txt_13-100  []-suspension  []
+Out of sight.txt_13-101  [(as)-temp_coinc]-negative  [neg]
+Out of sight.txt_14-115  []-positive  []
+Out of sight.txt_15-131  []-positive  []
+Out of sight.txt_15-132  []-positive  []
+Out of sight.txt_16-148  []-negative  [neg,fgb]
+Out of sight.txt_16-149  []-positive  []
+Out of sight.txt_17-166  []-suspension  [neg,fgb,neg]
+Out of sight.txt_18-185  []-suspension  [neg]
+Out of sight.txt_18-186  []-positive  []
+Out of sight.txt_19-205  []-negative  [fgb,neg]
+Out of sight.txt_19-206  []-positive  []
+Out of sight.txt_20-226  []-positive  []
+Out of sight.txt_20-227  []-suspension  []
+Out of sight.txt_21-248  [but-advers]-negative  [fgb]
+Out of sight.txt_22-271  []-positive  []
+Out of sight.txt_22-272  []-negative  [neg]
+Out of sight.txt_22-273  []-positive  []
+Out of sight.txt_23-296  []-positive  []
+Out of sight.txt_23-297  []-positive  []
+Out of sight.txt_24-322  []-positive  [neg]
+Out of sight.txt_25-347  []-positive  [fgb]
+Out of sight.txt_26-373  []-positive  [fgb,neg,neg]
+Out of sight.txt_27-400  []-suspension  []
+Out of sight.txt_28-428  []-positive  [fgb,ass,fgb]
+Out of sight.txt_28-429  []-suspension  []
+Out of sight.txt_29-458  []-suspension  [fgb]
+Out of sight.txt_29-458  [when-temp_coinc]-suspension  [fgb]
+Out of sight.txt_30-488  []-negative  [neg,neg]
+Out of sight.txt_31-519  []-suspension  [neg,fgb,neg]
+Out of sight.txt_32-552  []-positive  [fgb]
+Out of sight.txt_33-586  []-positive  []
+Out of sight.txt_34-620  []-suspension  []
+Out of sight.txt_34-621  []-positive  [ack]
+Out of sight.txt_35-656  []-suspension  []
+Out of sight.txt_35-657  [(as)-temp_coinc]-negative  [neg]
+Out of sight.txt_35-657  [(as)-temp_coinc]-negative  [neg]
+Out of sight.txt_36-694  []-negative  []
+Out of sight.txt_36-695  []-positive  []
+Out of sight.txt_37-732  [but-advers]-suspension  [fgb]
+Out of sight.txt_38-771  []-negative  [neg]
+Out of sight.txt_39-810  []-positive  []
+Out of sight.txt_39-811  []-positive  []
+Out of sight.txt_39-812  []-negative  []
+Out of sight.txt_40-852  []-suspension  [fgb,fgb]
+Out of sight.txt_41-894  [so-result]-suspension  [fgb,neg]
+Out of sight.txt_41-895  [because-cause]-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Out of sight.txt_1-1  [out_of_sight,by,Twisted,Artistics]  [title]
+Out of sight.txt_2-3  [press,play,and,it,blast,away,let]  [provide_expl_just(press,[external,factive,narration,background,objective]),provide_expl_just(blast,[external,factive,narration,background,objective])]
+Out of sight.txt_3-7  [for,when,dark,clouds,cast,a,shade]  [propose_opin_neg(cloud,[external,factive,explanation,background,objective])]
+Out of sight.txt_4-11  [i,am,sick,of,plastic-fake,success-fasaded]  [reject_expl_just(sick-cl4,[external,factive,explanation,background,objective]),propose_opin_neg(sick-cl4,[external,factive,explanation,background,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Out of sight.txt_4-12  [masquerades]  [provide_expl_just(sick-cl4,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Out of sight.txt_5-17  [why,can,not,the,tax,i,pay,go,to,doctors,with,lesser,faith]  [provide_expl_just(pay,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(doctor,[external,factive,narration,background,objective]),propose_opin(can,[external,nonfactive,narration,foreground,objective]),provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Out of sight.txt_6-26  [today,as_of,than,industries,pharmaceutical,dirty,in,?]  [provide_expl_just(dirty,[internal,factive,narration,foreground,objective])]
+Out of sight.txt_7-33  [but,those,wretched,snakes,would,rather,stay,representing]  [reject_expl_just(represent,[external,factive,narration,foreground,objective]),reject_expl_just(stay,[external,nonfactive,narration,background,objective])]
+Out of sight.txt_8-42  [vast,,,major,big,concerns,only,concerned,with,the,cash,they,make]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+Out of sight.txt_9-51  [shameless,,,two,face,-,infested,bathing,in,commission,,,graft,and,pay]  [reject_expl_just(pay,[external,factive,narration,background,objective]),reject_expl_just(bathe,[external,factive,narration,foreground,objective])]
+Out of sight.txt_10-62  [prescribe,the,drug,too,fast,to,say]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(prescribe,[external,factive,narration,background,objective])]
+Out of sight.txt_11-74  [it,ones,assassination,of,the,very,is,their,task,to,aid]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(aid,[external,factive,narration,background,objective])]
+Out of sight.txt_12-87  [compassion,displayed,in,a,short-term,fast,food,way]  [reject_expl_just(display,[external,factive,cause,foreground,objective])]
+Out of sight.txt_13-100  [i,will,speak]  [provide_expl_just(speak,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Out of sight.txt_13-101  [for,the,outcasted,made,silent,long,as,i,respirate]  [reject_expl_just(speak,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Out of sight.txt_14-115  [a,toast,for,my_man,Curlsta,that,passed,away]  [provide_expl_just(pass,[external,factive,cause,foreground,objective])]
+Out of sight.txt_15-131  [teddy,took]  [provide_expl_just(ok,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Out of sight.txt_15-132  [it,the,hardest,of,us,doing,less_than,ok]  [provide_expl_just(ok,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Out of sight.txt_16-148  [the,man,was,devastated,now,memories,flash,and,play]  [reject_expl_just(devastate,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Out of sight.txt_16-149  [;]  [provide_expl_just(devastate,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Out of sight.txt_17-166  [how,Curlsta,would,crash,at,his,place,and,his,aftershave,steal]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Out of sight.txt_18-185  [weak,to,the,flesh,he,chased]  [provide_expl_just(chase,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Out of sight.txt_18-186  [for,less_than,pleasure,places,safe]  [provide_expl_just(chase,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Out of sight.txt_19-205  [and,his,last,escapade,became,the,very,last]  [reject_expl_just(make,[external,factive,cause,foreground,objective])]
+Out of sight.txt_19-206  [he,made]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Out of sight.txt_20-226  [i,know]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Out of sight.txt_20-227  [that,one,has_to,pay,for,ones,unclever,ways]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Out of sight.txt_21-248  [but,my,chest,is,aching,still,,,taking,my,breath,away]  [provide_expl_just(ache,[external,factive,narration,foreground,objective])]
+Out of sight.txt_22-271  [it,fascinates,how]  [provide_expl_just(make,[external,nonfactive,narration,foreground,objective]),provide_expl_just(fascinate,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Out of sight.txt_22-272  [death,can,make,angels,out_of,half-crazy,basket-case]  [reject_expl_just(make,[external,nonfactive,narration,foreground,objective]),reject_expl_just(fascinate,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Out of sight.txt_22-273  [people]  [provide_expl_just(make,[external,nonfactive,narration,foreground,objective]),provide_expl_just(fascinate,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Out of sight.txt_23-296  [all,i,remember,now]  [provide_expl_just(laugh,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(remember,[external,factive,narration,background,objective])]
+Out of sight.txt_23-297  [is,his,laughing,face]  [provide_expl_just(laugh,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(remember,[external,factive,narration,background,objective])]
+Out of sight.txt_24-322  [dear,God,,,please,navigate,his,ass,safely,through,heavens,gate]  [provide_expl_just(navigate,[external,factive,narration,background,objective])]
+Out of sight.txt_25-347  [at_last,embraced,everlasting,grace,and,in,peace]  [provide_expl_just(embrace,[external,factive,narration,foreground,objective])]
+Out of sight.txt_26-373  [we,all,rest,in,graves,eventually,and,the,weight,pass]  [propose_opin_neg(pass,[external,factive,circumstance,background,objective])]
+Out of sight.txt_27-400  [to,those,that,have_to,stay,behind]  [provide_expl_just(stay,[external,nonfactive,narration,foreground,objective])]
+Out of sight.txt_28-428  [and,reminisce,of,great,and,blessed,days]  [accept_expl_opin(reminisce,[external,factive,narration,background,objective])]
+Out of sight.txt_28-429  [,,i,guess]  [provide_expl_just(reminisce,[external,factive,narration,background,objective])]
+Out of sight.txt_29-458  [and,wait,until,that,final,last,of,days]  [suggest(be,[_340854,_340860,statement,background,_340878])]
+Out of sight.txt_29-458  [and,wait,until,that,final,last,of,days,when,judgement,come]  [suggest(be,[_341206,_341212,statement,background,_341230])]
+Out of sight.txt_30-488  [no,attempts,on,my,behalf,at,making,cheap,conclusions]  [reject_expl_just(make,[external,factive,cause,foreground,objective])]
+Out of sight.txt_31-519  [beyond,having,wrath,and,rage,attach,to,pages]  [provide_expl_just(have-past,[external,factive,narration,background,objective]),provide_expl_just(attach,[external,factive,narration,background,objective])]
+Out of sight.txt_32-552  [where,things,rhyme,and,sense,make]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Out of sight.txt_33-586  [come,the,seventh,day]  [raise_issue(be,[_343332,factive,statement,_343350,subjective])]
+Out of sight.txt_34-620  [you,curlsta,should,see,how]  [provide_expl_just(see,[external,nonfactive,narration,foreground,objective]),provide_expl_just(follow,[external,factive,narration,background,objective])]
+Out of sight.txt_34-621  [they,follow,right,down,your,path,today]  [provide_expl_just(see,[external,nonfactive,narration,foreground,objective]),provide_expl_just(follow,[external,factive,narration,background,objective])]
+Out of sight.txt_35-656  [you,would,estimate]  [raise_issue(be,[_345008,_345014,statement,_345026,_345032])]
+Out of sight.txt_35-657  [your,body,in,a,casket,may,serve,as,a,warning]  [reject_expl_just(be,[_345230,_345236,_345242,_345248,_345254])]
+Out of sight.txt_35-657  [your,body,in,a,casket,may,serve,as,a,warning,to]  [reject_expl_just(be,[_345452,_345458,_345464,_345470,_345476])]
+Out of sight.txt_36-694  [those,mourning]  [provide_expl_just(mourn,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Out of sight.txt_36-695  [you]  [provide_expl_just(mourn,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Out of sight.txt_37-732  [but,things,just,seem,to,escalate]  [provide_expl_just(escalate,[external,factive,narration,background,objective]),provide_expl_just(seem,[external,factive,narration,background,objective])]
+Out of sight.txt_38-771  [their,ears,are,deaf]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Out of sight.txt_39-810  [they,make]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(clear,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+Out of sight.txt_39-811  [it,clear]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(clear,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+Out of sight.txt_39-812  [that,i,don-t,have,a,say]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(clear,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+Out of sight.txt_40-852  [and,what,i,have_to,say,to,you,is,going,to,have_to,wait]  [provide_expl_just(go,[external,nonfactive,narration,foreground,objective]),provide_expl_just(wait,[external,factive,narration,background,objective])]
+Out of sight.txt_41-894  [so,i,am,going,to,finish,it,off,now]  [provide_expl_just(finish,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Out of sight.txt_41-895  [because,is,not,much,left,to,say]  [reject_expl_just(finish,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Out of sight.txt_1-1)-[]
+2-(Out of sight.txt_2-3)-[emotions-expressive_beh,primary-fire,primary-concreteness]
+3-(Out of sight.txt_3-7)-[secondary-temporal_repere,primary-diffusion,primary-diffusion]
+4-(Out of sight.txt_4-11)-[]
+5-(Out of sight.txt_4-12)-[]
+6-(Out of sight.txt_5-17)-[secondary-abstract_tought,secondary-restraint,secondary-instru_behavior]
+7-(Out of sight.txt_6-26)-[secondary-temporal_repere,secondary-instru_behavior,primary-anality]
+8-(Out of sight.txt_7-33)-[]
+9-(Out of sight.txt_8-42)-[secondary-instru_behavior]
+10-(Out of sight.txt_9-51)-[primary-sex,primary-narcissism,secondary-instru_behavior]
+11-(Out of sight.txt_10-62)-[secondary-restraint,primary-orality,secondary-social_behavior]
+12-(Out of sight.txt_11-74)-[secondary-instru_behavior,secondary-social_behavior]
+13-(Out of sight.txt_12-87)-[secondary-temporal_repere,primary-orality,primary-orality]
+14-(Out of sight.txt_13-100)-[secondary-social_behavior]
+15-(Out of sight.txt_13-101)-[primary-counscious,primary-passivity,primary-concreteness]
+16-(Out of sight.txt_14-115)-[primary-concreteness]
+17-(Out of sight.txt_15-131)-[]
+18-(Out of sight.txt_15-132)-[]
+19-(Out of sight.txt_16-148)-[secondary-temporal_repere,primary-vision,emotions-expressive_beh]
+20-(Out of sight.txt_16-149)-[]
+21-(Out of sight.txt_17-166)-[primary-concreteness,primary-concreteness,emotions-aggression]
+22-(Out of sight.txt_18-185)-[primary-narcissism,primary-voyage]
+23-(Out of sight.txt_18-186)-[emotions-positive_affect,primary-concreteness,primary-passivity]
+24-(Out of sight.txt_19-205)-[]
+25-(Out of sight.txt_19-206)-[primary-counscious]
+26-(Out of sight.txt_20-226)-[secondary-abstract_tought]
+27-(Out of sight.txt_20-227)-[secondary-instru_behavior]
+28-(Out of sight.txt_21-248)-[primary-narcissism,primary-odor,primary-concreteness]
+29-(Out of sight.txt_22-271)-[]
+30-(Out of sight.txt_22-272)-[primary-passivity,secondary-instru_behavior]
+half
+31-(Out of sight.txt_22-273)-[]
+32-(Out of sight.txt_23-296)-[secondary-temporal_repere]
+33-(Out of sight.txt_23-297)-[primary-narcissism]
+34-(Out of sight.txt_24-322)-[emotions-affection,secondary-social_behavior,primary-voyage,primary-passivity,primary-height,primary-brink]
+35-(Out of sight.txt_25-347)-[emotions-affection,primary-orality]
+36-(Out of sight.txt_26-373)-[primary-passivity,secondary-abstract_tought]
+37-(Out of sight.txt_27-400)-[primary-concreteness]
+38-(Out of sight.txt_28-428)-[emotions-glory]
+39-(Out of sight.txt_28-429)-[secondary-abstract_tought]
+40-(Out of sight.txt_29-458)-[]
+41-(Out of sight.txt_29-458)-[secondary-temporal_repere]
+42-(Out of sight.txt_30-488)-[secondary-instru_behavior,primary-concreteness]
+43-(Out of sight.txt_31-519)-[emotions-aggression,emotions-aggression]
+44-(Out of sight.txt_32-552)-[primary-concreteness,secondary-instru_behavior]
+45-(Out of sight.txt_33-586)-[]
+46-(Out of sight.txt_34-620)-[secondary-moral_imperative,primary-vision]
+47-(Out of sight.txt_34-621)-[secondary-social_behavior,secondary-moral_imperative,primary-brink,secondary-temporal_repere]
+48-(Out of sight.txt_35-656)-[secondary-abstract_tought]
+49-(Out of sight.txt_35-657)-[primary-narcissism,secondary-abstract_tought]
+50-(Out of sight.txt_35-657)-[primary-narcissism,secondary-abstract_tought]
+51-(Out of sight.txt_36-694)-[]
+52-(Out of sight.txt_36-695)-[]
+53-(Out of sight.txt_37-732)-[primary-vision]
+54-(Out of sight.txt_38-771)-[primary-sound,primary-sound]
+55-(Out of sight.txt_39-810)-[secondary-instru_behavior]
+56-(Out of sight.txt_39-811)-[]
+57-(Out of sight.txt_39-812)-[secondary-social_behavior]
+58-(Out of sight.txt_40-852)-[secondary-social_behavior]
+59-(Out of sight.txt_41-894)-[secondary-instru_behavior,primary-concreteness,secondary-temporal_repere]
+60-(Out of sight.txt_41-895)-[secondary-social_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Out of sight.txt_1,1,cl1-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Out of sight.txt_2,3,cl2-nil-nil-blast-[])
+lf(Out of sight.txt_2,3,nil-nil-nil-press-[xcomp-prop-away-sn7,coord-agent-play_and_it-sn6,subj-agent-it-sn5,subj-agent-play-sn4,coord-agent-play_and_it-sn3,subj-agent-it-sn2,subj-agent-play-sn1,def_prop(away,[evaluative]),def_prop(play_and_it,[attivita,informa,stato,any]),def_prop(it,[attivita,informa,stato,any]),def_prop(play,[attivita,informa,stato,any]),def_prop(play_and_it,[attivita,informa,stato,any]),def_prop(it,[attivita,informa,stato,any]),def_prop(play,[attivita,informa,stato,any])])
+lf(Out of sight.txt_3,7,cl3-nil-nil-cloud-[cmod-subord-cloud-when,obj-theme_aff-shade-sn2,obj-theme-cass-sn1,def_prop(shade,[astratto,oggetto,stato,strumento]),def_prop(cass,[legale])])
+lf(Out of sight.txt_4,11,cl5-nil-nil-be-[subj-actor-you-sn4,def_prop(you,[umano])])
+lf(Out of sight.txt_4,11,cl4-nil-nil-sick-[ncmod-specif-success-fasaded-sn2,subj-theme-i-sn1,aux-am-nil,and(success-fasaded,plastic-fake,sn2),def_prop(success-fasaded,[attivita,evento,stato]),def_prop(i,[umano])])
+lf(Out of sight.txt_5,17,cl9-nil-nil-doctor-[iobj-goal-faith-sn2,and(faith,lesser,sn2),def_prop(faith,[astratto,attivita])])
+lf(Out of sight.txt_5,17,cl8-nil-nil-go-[xcomp-prop-doctor-4])
+lf(Out of sight.txt_5,17,cl7-nil-nil-pay-[])
+lf(Out of sight.txt_5,17,cl6-not-can-can-[subj-actor-tax-sn1,def_prop(tax,[astratto,oggetto])])
+lf(Out of sight.txt_6,26,cl10-nil-nil-dirty-[ncmod-subj_disc-today-sn2,subj-actor-industry-sn1,and(industry,pharmaceutical,sn1),def_prop(today,[tempo]),def_prop(industry,[attivita,istituzione])])
+lf(Out of sight.txt_7,33,cl12-nil-nil-represent-[subj-theme-snake-sn1,and(snake,those,sn1),and(snake,wretched,sn1),def_prop(snake,[animato,oggetto,plant,strumento,umano])])
+lf(Out of sight.txt_7,33,cl11-nil-would-stay-[subj-agent-snake-sn1,and(snake,those,sn1),and(snake,wretched,sn1),def_prop(snake,[animato,oggetto,plant,strumento,umano])])
+lf(Out of sight.txt_8,42,cl13-nil-nil-make-[obj-theme-they-sn3,obj-goal-concerned-sn2,subj-agent-concern-sn1,and(concern,big,sn1),and(concern,major,sn1),def_prop(they,[umano]),def_prop(concerned,[soggettivo]),def_prop(concern,[astratto,emotivo])])
+lf(Out of sight.txt_9,51,cl15-nil-nil-pay-[iobj-goal-commission-sn2,xcomp-purpose-bathe-cl14,subj-agent-face-sn1,and(face,two,sn1),def_prop(commission,[astratto,attivita,informa,oggetto,stato]),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano])])
+lf(Out of sight.txt_9,51,cl14-nil-nil-bathe-[xadj-adj-infested-adj2,xadj-adj-shameless-adj1,def_prop(infested,_356026),def_prop(shameless,_356038)])
+lf(Out of sight.txt_10,62,cl17-nil-nil-say-[obj-prop-fast-sn3,xcomp-purpose-say-2,and(fast,too,sn3),def_prop(fast,[istituzione])])
+lf(Out of sight.txt_10,62,cl16-nil-nil-prescribe-[adj-(mod)-fast-nil,obj-theme-drug-sn2,subj-agent-you-sn1,and(fast,too,sn5),and(fast,too,sn3),def_prop(fast,[istituzione]),def_prop(drug,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Out of sight.txt_11,74,cl19-nil-nil-aid-[subj-theme-assassination-sn2,def_prop(assassination,[attivita])])
+lf(Out of sight.txt_11,74,cl18-nil-nil-be-[adj-(mod)-very-nil,xcomp-prop-task-sn3,subj-theme_bound-assassination-sn2,subj-theme_bound-assassination-sn1,and(assassination,it,sn1),and(assassination,ones,sn1),def_prop(task,[attivita,informa,legale]),def_prop(assassination,[attivita]),def_prop(assassination,[attivita])])
+lf(Out of sight.txt_12,87,cl20-nil-nil-display-[iobj-goal-food-sn2,subj-agent-compassion-sn1,and(food,short-term,sn2),and(food,fast,sn2),and(food,food,sn2),def_prop(food,[any,astratto,edible,oggetto]),def_prop(compassion,[astratto,emotivo])])
+lf(Out of sight.txt_13,100,cl22-nil-nil-be-[xcomp-theme-respirate-sn4,xcomp-prop-long-sn3,subj-theme_bound-outcasted-sn2,def_prop(respirate,[istituzione]),def_prop(long,[tempo]),def_prop(outcasted,[istituzione])])
+lf(Out of sight.txt_13,100,cl21-nil-will-speak-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Out of sight.txt_14,115,cl24-nil-nil-pass-[cmod-subord-be-nil,subj-theme_unaff-Curlsta-sn3,def_prop(Curlsta,[istituzione,umano])])
+lf(Out of sight.txt_14,115,cl23-nil-nil-be-[xcomp-prop-Curlsta-sn3,subj-theme_bound-my_man-sn2,subj-theme_bound-my_man-sn1,and(my_man,toast,sn1),def_prop(Curlsta,[istituzione,umano]),def_prop(my_man,[any,informa,tecno]),def_prop(my_man,[any,informa,tecno])])
+lf(Out of sight.txt_15,131,nil-nil-nil-ok-[adj-(mod)-less_than-nil,obj-theme-hardest-sn3,subj-agent-it-sn2,def_prop(hardest,[istituzione]),def_prop(it,[any])])
+lf(Out of sight.txt_15,131,cl25-nil-nil-take-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Out of sight.txt_16,148,cl27-nil-nil-be-[subj-actor-pro-nil])
+lf(Out of sight.txt_16,148,cl26-nil-nil-devastate-[coord-prop-flash_and_play-sn4,xcomp-prop-play-sn3,xcomp-prop-flash-sn2,subj-theme-man-sn1,aux-was-nil,def_prop(flash_and_play,[astratto,evento,oggetto,strumento,tempo,attivita,informa,stato]),def_prop(play,[astratto,evento,oggetto,strumento,tempo,attivita,informa,stato]),def_prop(flash,[astratto,evento,oggetto,strumento,tempo,attivita,informa,stato]),def_prop(man,[any])])
+lf(Out of sight.txt_17,166,2-nil-nil-be-[cmod-coord-steal-and])
+lf(Out of sight.txt_17,166,cl28-nil-nil-steal-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Out of sight.txt_18,185,cl30-nil-nil-be-[ncmod-modal-place-sn4,subj-theme_bound-you-sn3,def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(you,[umano])])
+lf(Out of sight.txt_18,185,cl29-nil-nil-chase-[adj-(mod)-be-nil,xadj-adj-weak-adj3,iobj-goal-flesh-sn2,subj-agent-he-sn1,def_prop(weak,_358324),def_prop(flesh,[body_part,umano]),def_prop(he,[umano])])
+lf(Out of sight.txt_19,205,cl32-nil-nil-make-[subj-agent-you-sn4,cmod-subord-make-",def_prop(you,[umano])])
+lf(Out of sight.txt_19,205,cl31-nil-nil-become-[xcomp-prop-last-sn2,subj-theme_bound-escapade-sn1,def_prop(last,[tempo,misura]),def_prop(escapade,[attivita])])
+lf(Out of sight.txt_20,226,cl34-nil-has_to-pay-[ccomp-prop-pay-cl34,obj-goal-ways-sn3,subj-agent-one-sn2,and(ways,unclever,sn3),def_prop(ways,[oggetto,strumento]),def_prop(one,[umano])])
+lf(Out of sight.txt_20,226,cl33-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Out of sight.txt_21,248,cl36-nil-nil-take-[xcomp-prop-away-sn6,subj-agent-breath-sn5,def_prop(away,[evaluative]),def_prop(breath,[attivita,cambia,sostanza,tempo])])
+lf(Out of sight.txt_21,248,cl35-nil-nil-ache-[adj-(mod)-still-nil,subj-actor-chess-sn1,aux-(is)-nil,progr-aching-nil,def_prop(chess,[attivita,plant])])
+lf(Out of sight.txt_22,271,cl39-nil-nil-be-[subj-theme_bound-you-sn6,def_prop(you,[umano])])
+lf(Out of sight.txt_22,271,cl38-nil-can-make-[iobj-goal-basket-case-sn4,obj-goal-angel-sn3,subj-agent-death-sn2,and(basket-case,half-crazy,sn4),def_prop(basket-case,[astratto,attivita,evento,informa,nquant,oggetto,stato,strumento,umano]),def_prop(angel,[plant,umano]),def_prop(death,[animato,attivita,cambia,evento,informa,stato,tempo])])
+lf(Out of sight.txt_22,271,cl37-nil-nil-fascinate-[subj-cause-it-sn1,def_prop(it,[any])])
+lf(Out of sight.txt_23,296,cl42-nil-nil-laugh-[])
+lf(Out of sight.txt_23,296,cl41-nil-nil-be-[xcomp-tema_eff-face-sn8,xcomp-purpose-laugh-2,subj-theme_bound-his-sn7,subj-theme_bound-his-sn6,and(his,you,sn6),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(his,[umano]),def_prop(his,[umano])])
+lf(Out of sight.txt_23,296,cl40-nil-nil-remember-[subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,all,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Out of sight.txt_24,322,cl43-nil-nil-navigate-[adj-(mod)-safely-nil,adj-(mod)-please-nil,ncmod-location-gate-sn3,obj-theme-ass-sn2,subj-agent-God-sn1,and(gate,heaven,sn3),and(God,dear,sn1),def_prop(gate,[astratto,oggetto,strumento]),def_prop(ass,[animato,attivita,body_part,umano]),def_prop(God,[animato])])
+lf(Out of sight.txt_25,347,cl44-nil-nil-embrace-[ncmod-modal-grace_and_peace-[sn2,sn3],subj-actor1-you-sn1,def_prop(grace_and_peace,[astratto,attivita,informa,stato,attivita,emotivo,informa,stato]),def_prop(you,[umano])])
+lf(Out of sight.txt_26,373,cl45-nil-nil-pass-[subj-theme_unaff-you-sn5,def_prop(you,[umano])])
+lf(Out of sight.txt_27,400,cl46-nil-have_to-stay-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Out of sight.txt_28,428,nil-nil-nil-guess-[subj-experiencer-you-sn10,def_prop(you,[umano])])
+lf(Out of sight.txt_28,428,cl47-nil-nil-reminisce-[cmod-subord-reminisce-",ncmod-specif-days_and_great-sn3,subj-actor-you-sn1,def_prop(days_and_great,[tempo]),def_prop(you,[umano])])
+lf(Out of sight.txt_29,458,cl49-nil-nil-come-[cmod-coord-come-and,ncmod-modal-lass-sn6,cmod-subord-come-",ncmod-modal-lass-sn2,and(lass,that,sn6),and(lass,final,sn6),and(lass,that,sn2),and(lass,final,sn2),def_prop(lass,[umano]),def_prop(lass,[umano])])
+lf(Out of sight.txt_29,458,cl48-nil-nil-wait-[subj-actor-you-sn5,subj-actor-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Out of sight.txt_30,488,cl50-nil-nil-make-[obj-theme-conclusion-sn3,ncmod-locativo-behalf-sn2,subj-actor-attempt-sn1,and(conclusion,cheap,sn3),and(attempt,no,sn1),def_prop(conclusion,[astratto,attivita,informa]),def_prop(behalf,[astratto,attivita]),def_prop(attempt,[attivita])])
+lf(Out of sight.txt_31,519,cl52-nil-nil-attach-[xcomp-purpose-have-2,coord-agent-wrath_and_rage-sn3,subj-agent-rage-sn2,subj-agent-wrath-sn1,def_prop(wrath_and_rage,[attivita,emotivo,stato]),def_prop(rage,[attivita,emotivo,stato]),def_prop(wrath,[attivita,emotivo,stato])])
+lf(Out of sight.txt_31,519,cl51-nil-nil-have-[ncmod-result-page-sn33,xcomp-prop-have-31,ncmod-prop-page-sn32,xcomp-purpose-have-30,xcomp-theme-page-sn31,xcomp-purpose-have-29,xcomp-theme-page-sn30,xcomp-purpose-have-28,xcomp-theme-page-sn29,xcomp-purpose-have-27,xcomp-theme-page-sn28,xcomp-purpose-have-26,xcomp-theme-page-sn27,xcomp-purpose-have-25,xcomp-theme-page-sn26,xcomp-purpose-have-24,xcomp-theme-page-sn25,xcomp-purpose-have-23,xcomp-theme-page-sn24,xcomp-purpose-have-22,xcomp-theme-page-sn23,xcomp-purpose-have-21,xcomp-theme-page-sn22,xcomp-purpose-have-20,xcomp-theme-page-sn21,xcomp-purpose-have-19,xcomp-theme-page-sn20,xcomp-purpose-have-18,xcomp-theme-page-sn19,xcomp-purpose-have-17,xcomp-theme-page-sn18,xcomp-purpose-have-16,xcomp-theme-page-sn17,xcomp-purpose-have-15,xcomp-theme-page-sn16,xcomp-purpose-have-14,ncmod-theme-page-sn15,xcomp-purpose-have-13,ncmod-theme-page-sn14,xcomp-purpose-have-12,ncmod-theme-page-sn13,xcomp-purpose-have-11,ncmod-theme-page-sn12,xcomp-purpose-have-10,ncmod-theme-page-sn11,xcomp-purpose-have-9,ncmod-theme-page-sn10,xcomp-purpose-have-8,ncmod-theme-page-sn9,xcomp-purpose-have-7,ncmod-theme-page-sn8,xcomp-purpose-have-6,ncmod-theme-page-sn7,xcomp-purpose-have-5,ncmod-theme-page-sn6,xcomp-purpose-have-4,ncmod-theme-page-sn5,xcomp-purpose-have-3,ncmod-theme-page-sn4,def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano]),def_prop(page,[attivita,informa,umano])])
+lf(Out of sight.txt_32,552,2-nil-nil-be-[cmod-coord-make-and])
+lf(Out of sight.txt_32,552,cl53-nil-nil-make-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Out of sight.txt_33,586,cl54-nil-nil-come-[subj-agent-seventh-sn1,def_prop(seventh,[attivita,informa,relat])])
+lf(Out of sight.txt_34,620,cl56-nil-nil-follow-[adj-temporal-today-nil,obj-theme-path-sn5,obj-theme_unaff-down-sn4,subj-agent-they-sn3,and(down,right,sn4),def_prop(path,[luogo,oggetto,strumento]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(they,[umano])])
+lf(Out of sight.txt_34,620,cl55-nil-should-see-[subj-experiencer-curlsta-sn1,and(curlsta,you,sn1),def_prop(curlsta,[istituzione])])
+lf(Out of sight.txt_35,656,cl59-nil-nil-be-[])
+lf(Out of sight.txt_35,656,cl58-nil-may-serve-[xcomp-goal-warn-sn7,subj-theme_bound-body-sn6,xcomp-goal-warn-sn3,subj-theme_bound-body-sn2,def_prop(warn,[legale]),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano]),def_prop(warn,[legale]),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano])])
+lf(Out of sight.txt_35,656,cl57-nil-would-estimate-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Out of sight.txt_36,694,cl61-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Out of sight.txt_36,694,cl60-nil-nil-mourn-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Out of sight.txt_37,732,cl63-nil-nil-escalate-[subj-theme-just-sn1,and(just,thing,sn1),def_prop(just,[informa,tecno])])
+lf(Out of sight.txt_37,732,cl62-nil-nil-seem-[subj-actor-just-sn1,and(just,thing,sn1),def_prop(just,[informa,tecno])])
+lf(Out of sight.txt_38,771,cl64-nil-nil-be-[xcomp-prop-deaf-sn2,subj-theme_bound-ear-sn1,def_prop(deaf,[valutativo]),def_prop(ear,[astratto,body_part,plant,umano])])
+lf(Out of sight.txt_39,810,cl67-not-nil-have-[xcomp-tema_bound-say-sn4,subj-experiencer-i-sn3,def_prop(say,[stato]),def_prop(i,[umano])])
+lf(Out of sight.txt_39,810,cl66-nil-nil-clear-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Out of sight.txt_39,810,cl65-nil-nil-make-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Out of sight.txt_40,852,cl69-nil-nil-wait-[])
+lf(Out of sight.txt_40,852,cl68-nil-nil-go-[cmod-subord-wait-",subj-agent-you-sn1,aux-(is)-nil,progr-going-nil,def_prop(you,[umano])])
+lf(Out of sight.txt_41,894,cl72-not-nil-be-[xcomp-prop-left-sn5,subj-theme_bound-you-sn4,xcomp-theme_aff-it-sn2,xcomp-purpose-finish-4,and(left,much,sn5),def_prop(left,[soggettivo]),def_prop(you,[umano]),def_prop(it,[any])])
+lf(Out of sight.txt_41,894,cl71-nil-nil-finish-[ncmod-locativo-now-sn3,def_prop(now,[istituzione])])
+lf(Out of sight.txt_41,894,cl70-nil-nil-go-[subj-agent-i-sn1,aux-am-nil,progr-going-nil,def_prop(i,[umano])])

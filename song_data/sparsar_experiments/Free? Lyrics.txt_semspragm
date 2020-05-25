@@ -1,0 +1,96 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Free? Lyrics.txt_1-1  []-question  []
+Free? Lyrics.txt_2-3  []-positive  []
+Free? Lyrics.txt_3-6  []-positive  [fgb]
+Free? Lyrics.txt_4-11  []-positive  []
+Free? Lyrics.txt_5-16  []-suspension  []
+Free? Lyrics.txt_6-23  []-positive  [fgb]
+Free? Lyrics.txt_6-24  []-positive  []
+Free? Lyrics.txt_7-31  [but-advers]-positive  [fgb]
+Free? Lyrics.txt_7-31  [but-advers]-positive  [fgb,fgb,fgb]
+Free? Lyrics.txt_8-39  []-negative  []
+Free? Lyrics.txt_9-48  []-negative  []
+Free? Lyrics.txt_10-58  []-suspension  [neg,neg]
+Free? Lyrics.txt_11-70  []-positive  []
+Free? Lyrics.txt_12-82  []-positive  []
+Free? Lyrics.txt_13-95  []-negative  [neg]
+Free? Lyrics.txt_14-110  []-positive  [fhd]
+Free? Lyrics.txt_15-125  []-question  []
+Free? Lyrics.txt_15-126  []-positive  []
+Free? Lyrics.txt_16-141  []-question  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Free? Lyrics.txt_1-1  [free,?]  [title]
+Free? Lyrics.txt_2-3  [Lyrics,by,Ziyaad,Luceo]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Free? Lyrics.txt_3-6  [produced,by,Neguim,Beats,and,LZ]  [provide_expl_just(produce,[external,factive,cause,foreground,objective])]
+Free? Lyrics.txt_4-11  [laaa,Da,Daa]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Free? Lyrics.txt_5-16  [the,world,that,i,know,has,broken,its,choke-hold]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Free? Lyrics.txt_6-23  [on,me,and,says]  [provide_expl_just(say,[external,factive,narration,background,objective])]
+Free? Lyrics.txt_6-24  [that,i,am,free]  [provide_expl_just(say,[external,factive,narration,background,objective])]
+Free? Lyrics.txt_7-31  [but,who,is,free,ever,truly]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Free? Lyrics.txt_7-31  [but,who,is,free,ever,truly,but,time,and,the,dime]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Free? Lyrics.txt_8-39  [i,don-t,know]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_81296)]
+Free? Lyrics.txt_9-48  [i,don-t,know]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_85680)]
+Free? Lyrics.txt_10-58  [we,are,slaves,to,die]  [provide_expl_just(slave,[external,factive,narration,background,objective]),provide_expl_just(die,[external,factive,narration,background,objective])]
+Free? Lyrics.txt_11-70  [by,the,hands,of,time]  [provide_expl_just(time,[external,factive,narration,background,objective])]
+Free? Lyrics.txt_12-82  [by,the,hands,of,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+Free? Lyrics.txt_13-95  [c-est,La,vie]  [reject_expl_just(c-est,[external,factive,narration,background,objective]),reject_expl_just(vie,[external,factive,narration,background,objective])]
+Free? Lyrics.txt_14-110  [we,are,all,a,slave,someone,or,to,something]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Free? Lyrics.txt_15-125  [are,free,how,friend,my,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Free? Lyrics.txt_15-126  [you]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Free? Lyrics.txt_16-141  [free,how,?]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Free? Lyrics.txt_1-1)-[]
+2-(Free? Lyrics.txt_2-3)-[]
+3-(Free? Lyrics.txt_3-6)-[secondary-instru_behavior]
+4-(Free? Lyrics.txt_4-11)-[]
+5-(Free? Lyrics.txt_5-16)-[secondary-abstract_tought,emotions-aggression]
+6-(Free? Lyrics.txt_6-23)-[secondary-social_behavior]
+7-(Free? Lyrics.txt_6-24)-[]
+8-(Free? Lyrics.txt_7-31)-[secondary-temporal_repere,secondary-abstract_tought]
+9-(Free? Lyrics.txt_7-31)-[secondary-temporal_repere,secondary-abstract_tought,secondary-temporal_repere,primary-diffusion]
+half
+10-(Free? Lyrics.txt_8-39)-[secondary-abstract_tought]
+11-(Free? Lyrics.txt_9-48)-[secondary-abstract_tought]
+12-(Free? Lyrics.txt_10-58)-[primary-passivity]
+13-(Free? Lyrics.txt_11-70)-[primary-narcissism,secondary-temporal_repere]
+14-(Free? Lyrics.txt_12-82)-[primary-narcissism,emotions-affection]
+15-(Free? Lyrics.txt_13-95)-[]
+16-(Free? Lyrics.txt_14-110)-[]
+17-(Free? Lyrics.txt_15-125)-[emotions-affection]
+18-(Free? Lyrics.txt_15-126)-[]
+19-(Free? Lyrics.txt_16-141)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Free? Lyrics.txt_1,1,cl1-nil-nil-say-[obj-theme_unaff-free-sn1,def_prop(free,[valutativo])])
+lf(Free? Lyrics.txt_2,3,cl2-nil-nil-be-[arg_mod-agent-Luceo-sn2,subj-theme_bound-Lyrics-sn1,and(Luceo,Ziyaad,sn2),def_prop(Luceo,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Free? Lyrics.txt_3,6,cl4-nil-nil-beat-[arg_mod-agent-Neguim-sn2,def_prop(Neguim,[istituzione,umano])])
+lf(Free? Lyrics.txt_3,6,cl3-nil-nil-produce-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Free? Lyrics.txt_4,11,cl5-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Free? Lyrics.txt_5,16,cl7-nil-nil-know-[obj-theme_unaff-world-sn1,def_prop(world,[astratto,istituzione,oggetto])])
+lf(Free? Lyrics.txt_5,16,cl6-nil-nil-break-[obj-theme_aff-choke-hold-sn2,subj-agent-world-sn1,aux-has-nil,def_prop(choke-hold,[astratto,oggetto,strumento]),def_prop(world,[astratto,istituzione,oggetto])])
+lf(Free? Lyrics.txt_6,23,cl9-nil-nil-free-[subj-goal-i-sn3,cmod-coord-say-nil,ncmod-locativo-me-sn2,aux-am-nil,def_prop(i,[umano]),def_prop(me,[umano])])
+lf(Free? Lyrics.txt_6,23,cl8-nil-nil-say-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Free? Lyrics.txt_7,31,cl10-nil-nil-be-[cmod-subord-be-but,coord-theme-time_and_dime-sn10,xcomp-theme-dime-sn9,xcomp-theme-time-sn8,xcomp-prop-free-sn7,subj-theme_bound-who-sn6,xcomp-prop-free-sn2,subj-theme_bound-who-sn1,def_prop(time_and_dime,[tempo,astratto,oggetto]),def_prop(dime,[tempo,astratto,oggetto]),def_prop(time,[tempo,astratto,oggetto]),def_prop(free,[valutativo]),def_prop(who,[umano]),def_prop(free,[valutativo]),def_prop(who,[umano])])
+lf(Free? Lyrics.txt_8,39,cl11-not-nil-know-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Free? Lyrics.txt_9,48,cl12-not-nil-know-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Free? Lyrics.txt_10,58,cl14-nil-nil-die-[])
+lf(Free? Lyrics.txt_10,58,cl13-nil-nil-slave-[subj-theme-we-sn1,aux-are-nil,def_prop(we,[umano])])
+lf(Free? Lyrics.txt_11,70,cl15-nil-nil-time-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Free? Lyrics.txt_12,82,cl16-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Free? Lyrics.txt_13,95,cl17-nil-nil-vie-[subj-actor2-La-sn2,def_prop(La,[sostanza,umano])])
+lf(Free? Lyrics.txt_13,95,nil-nil-nil-c-est-[obj-theme_aff-La-sn2,subj-agent-you-sn1,def_prop(La,[sostanza,umano]),def_prop(you,[umano])])
+lf(Free? Lyrics.txt_14,110,cl18-nil-nil-be-[ncmod-modal-_or_something-[sn4,sn5],xcomp-prop-slave-sn2,subj-theme_bound-we-sn1,and(slave,all,sn2),def_prop(_or_something,[astratto,informa,oggetto]),def_prop(slave,[umano]),def_prop(we,[umano])])
+lf(Free? Lyrics.txt_15,125,cl19-nil-nil-be-[subj-theme_bound-you-sn5,xcomp-theme-free-sn2,subj-theme_bound-friend-sn1,def_prop(you,[umano]),def_prop(free,[istituzione]),def_prop(friend,[umano])])
+lf(Free? Lyrics.txt_16,141,cl20-nil-nil-say-[obj-theme_unaff-free-sn1,def_prop(free,[valutativo])])

@@ -1,0 +1,85 @@
+"POLARITY, DISCOURSE MARKERS"
+
+2112.txt_1-1  []-positive  []
+2112.txt_2-3  []-question  [neg,fgb]
+2112.txt_3-6  [when-temp_coinc]-positive  []
+2112.txt_3-7  []-positive  []
+2112.txt_4-11  []-positive  []
+2112.txt_4-12  []-positive  [fgb]
+2112.txt_5-18  []-question  [fgb]
+2112.txt_5-19  []-positive  []
+2112.txt_6-25  []-positive  [fhd,neg]
+2112.txt_7-33  []-positive  [fgb,neg]
+2112.txt_8-41  []-negative  [neg,fhd]
+2112.txt_9-50  []-positive  [fhd,neg,fhd]
+2112.txt_10-60  []-negative  [neg]
+2112.txt_11-72  []-suspension  []
+2112.txt_12-84  []-positive  []
+2112.txt_13-97  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+2112.txt_1-1  [2112,by,rush]  [title]
+2112.txt_2-3  [be,can,device,strange,this,what,?]  [provide_expl_just(be,[internal,nonfactive,narration,background,objective])]
+2112.txt_3-6  [it,it,when,i,touch]  [provide_expl_just(touch,[external,factive,explanation,background,objective]),provide_expl_just(give,[external,factive,explanation,background,objective])]
+2112.txt_3-7  [gives,forth,a,sound]  [provide_expl_just(touch,[external,factive,explanation,background,objective]),provide_expl_just(give,[external,factive,explanation,background,objective])]
+2112.txt_4-11  [it,is,got,wires,that,vibrate]  [provide_expl_just(get-cl5,[external,factive,narration,background,objective]),provide_expl_just(vibrate,[external,factive,narration,background,objective])]
+2112.txt_4-12  [and,music,give]  [provide_expl_just(get-cl5,[external,factive,narration,background,objective]),provide_expl_just(vibrate,[external,factive,narration,background,objective])]
+2112.txt_5-18  [be,can,thing,this,what,?]  [provide_expl_just(be,[internal,nonfactive,narration,background,objective])]
+2112.txt_5-19  [that,i,found]  [provide_expl_just(be,[internal,nonfactive,narration,background,objective])]
+2112.txt_6-25  [see,how,it,sings,like,a,sad,heart]  [provide_expl_just(sing,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+2112.txt_7-33  [and,joyously,screams,out,its,pain]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2112.txt_8-41  [incomprehensible,that,build,high,like,a,mountain]  [reject_expl_just(build,[external,factive,narration,background,objective])]
+2112.txt_9-50  [or,notes,that,fall,gently,like,rain]  [provide_expl_just(note,[external,factive,narration,background,objective])]
+2112.txt_10-60  [i,can,not,wait,to,share,this,new,wonder]  [reject_expl_just(share,[external,factive,narration,background,objective]),reject_expl_just(wait,[external,nonfactive,narration,foreground,objective])]
+2112.txt_11-72  [the,people,will,all,see,its,light]  [provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+2112.txt_12-84  [let,them,all,make,their,own,music]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+2112.txt_13-97  [the,priests,praise,my,name,on,this_night]  [provide_expl_just(praise,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(2112.txt_1-1)-[]
+2-(2112.txt_2-3)-[primary-unknow]
+3-(2112.txt_3-6)-[secondary-temporal_repere,primary-touch]
+4-(2112.txt_3-7)-[primary-sound]
+5-(2112.txt_4-11)-[primary-random_movement]
+6-(2112.txt_4-12)-[primary-sound]
+7-(2112.txt_5-18)-[]
+8-(2112.txt_5-19)-[secondary-instru_behavior]
+half
+9-(2112.txt_6-25)-[primary-vision,emotions-expressive_beh,emotions-affection,emotions-sadness,primary-narcissism]
+10-(2112.txt_7-33)-[emotions-expressive_beh,primary-concreteness,emotions-sadness]
+11-(2112.txt_8-41)-[secondary-instru_behavior,primary-height,emotions-affection,primary-height]
+12-(2112.txt_9-50)-[primary-descent,primary-soft,emotions-affection,primary-water]
+13-(2112.txt_10-60)-[secondary-social_behavior,emotions-glory]
+14-(2112.txt_11-72)-[primary-vision,primary-vision]
+15-(2112.txt_12-84)-[secondary-abstract_tought,secondary-instru_behavior,primary-sound]
+16-(2112.txt_13-97)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(2112.txt_1,1,cl1-nil-nil-rush-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(2112.txt_2,3,cl2-nil-can-be-[subj-theme_bound-device-sn2,subj-theme_bound-device-sn1,and(device,this,sn2),and(device,strange,sn2),and(device,this,sn1),and(device,strange,sn1),def_prop(device,[attivita,informa,oggetto,strumento]),def_prop(device,[attivita,informa,oggetto,strumento])])
+lf(2112.txt_3,6,cl4-nil-nil-give-[adj-subj_disc-forth-sn6,obj-goal-sound-sn5,subj-actor-you-sn4,def_prop(forth,[istituzione]),def_prop(sound,[astratto,attivita,cambia,evento,oggetto]),def_prop(you,[umano])])
+lf(2112.txt_3,6,cl3-nil-nil-touch-[obj-theme_unaff-i-sn2,subj-agent-it-sn1,and(it,it,sn1),def_prop(i,[umano]),def_prop(it,[any])])
+lf(2112.txt_4,11,cl7-nil-nil-vibrate-[cmod-subord-vibrate-",adj-(mod)-give-nil,subj-agent-wire-sn2,def_prop(wire,[luogo,oggetto,strumento])])
+lf(2112.txt_4,11,cl6-nil-nil-give-[subj-actor-you-sn3,def_prop(you,[umano])])
+lf(2112.txt_4,11,cl5-nil-nil-get-[xcomp-prop-wire-sn2,subj-theme_unaff-it-sn1,aux-(is)-nil,def_prop(wire,[luogo,oggetto,strumento]),def_prop(it,[any])])
+lf(2112.txt_5,18,cl9-nil-nil-find-[ccomp-prop-be-1,subj-actor-i-sn6,def_prop(i,[umano])])
+lf(2112.txt_5,18,cl8-nil-can-be-[subj-theme_bound-thing-sn2,subj-theme_bound-thing-sn1,and(thing,this,sn2),and(thing,this,sn1),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(2112.txt_6,25,cl11-nil-nil-sing-[obj-actor-hear-sn3,xcomp-purpose-sing-3,def_prop(hear,[istituzione])])
+lf(2112.txt_6,25,cl10-nil-nil-see-[obj-actor-it-sn2,subj-experiencer-you-sn1,def_prop(it,[any]),def_prop(you,[umano])])
+lf(2112.txt_7,33,cl12-nil-nil-be-[cmod-subord-be-",adj-(mod)-joyously-nil,ncmod-locativo-pain-sn2,subj-theme_bound-scream-sn1,def_prop(pain,[astratto,emotivo,stato,umano]),def_prop(scream,[attivita,informa])])
+lf(2112.txt_8,41,cl13-nil-nil-build-[xcomp-prop-high-sn2,subj-agent-mountain-sn1,def_prop(high,[misura]),def_prop(mountain,[oggetto])])
+lf(2112.txt_9,50,cl14-nil-nil-note-[cmod-subord-note-",subj-actor-you-sn1,and(you,fall,sn1),def_prop(you,[umano])])
+lf(2112.txt_10,60,cl16-nil-nil-share-[obj-prop-wonder-sn2,xcomp-purpose-share-2,and(wonder,this,sn2),and(wonder,new,sn2),def_prop(wonder,[emotivo,evento])])
+lf(2112.txt_10,60,cl15-not-can-wait-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(2112.txt_11,72,cl17-nil-will-will-[obj2-recipient-its-sn3,obj-theme_aff-see-sn2,subj-agent-people-sn1,and(see,all,sn2),def_prop(its,[istituzione]),def_prop(see,[luogo]),def_prop(people,[istituzione])])
+lf(2112.txt_12,84,cl18-nil-nil-make-[xcomp-prop-music-sn3,obj-theme_unaff-them-sn2,xadj-result-let-2,subj-agent-all-sn1,and(music,own,sn3),def_prop(music,[astratto,attivita,informa]),def_prop(them,[umano]),def_prop(all,[_481068])])
+lf(2112.txt_13,97,cl19-nil-nil-praise-[adj-(mod)-this_night-nil,obj-theme_unaff-name-sn2,subj-experiencer-priest-sn1,def_prop(name,[attivita,informa,stato,umano]),def_prop(priest,[umano])])

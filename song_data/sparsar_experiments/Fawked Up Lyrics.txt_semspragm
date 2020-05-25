@@ -1,0 +1,72 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Fawked Up Lyrics.txt_1-1  []-positive  []
+Fawked Up Lyrics.txt_2-3  []-negative  [neg,fgb,neg,neg,neg,neg]
+Fawked Up Lyrics.txt_3-9  []-suspension  [fgb,neg,neg,neg]
+Fawked Up Lyrics.txt_3-10  []-negative  [neg]
+Fawked Up Lyrics.txt_4-14  []-negative  [fgb,neg]
+Fawked Up Lyrics.txt_4-15  []-negative  [neg]
+Fawked Up Lyrics.txt_4-16  [if-hypoth]-positive  [fgb]
+Fawked Up Lyrics.txt_4-17  []-negative  [neg]
+Fawked Up Lyrics.txt_5-22  []-suspension  [neg]
+Fawked Up Lyrics.txt_5-23  []-negative  [neg,neg]
+Fawked Up Lyrics.txt_6-30  []-negative  [neg]
+Fawked Up Lyrics.txt_7-39  []-negative  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Fawked Up Lyrics.txt_1-1  [fawked,up,Lyrics,by,Yung,Poppy]  [title]
+Fawked Up Lyrics.txt_2-3  [bitch,what,you,thought,i,would,not,come,in,this,bitch,.,you,thought,i,would,not,come,in,this,bitch]  [reject_expl_just(think,[external,factive,narration,foreground,objective]),reject_expl_just(bitch,[external,factive,narration,background,objective]),reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+Fawked Up Lyrics.txt_3-9  [and,murder,some,shit,ho,you,got]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Fawked Up Lyrics.txt_3-10  [me,fucked,up]  [reject_expl_just(get,[external,factive,narration,foreground,objective])]
+Fawked Up Lyrics.txt_4-14  [and,bitch]  [reject_expl_just(bitch,[external,factive,narration,background,objective]),reject_expl_just(lose,[external,factive,narration,background,objective])]
+Fawked Up Lyrics.txt_4-15  [you,must,be,lost]  [reject_expl_just(bitch,[external,factive,narration,background,objective]),reject_expl_just(lose,[external,factive,narration,background,objective])]
+Fawked Up Lyrics.txt_4-16  [if,you,thought]  [provide_expl_just(bitch,[external,factive,narration,background,objective]),provide_expl_just(lose,[external,factive,narration,background,objective])]
+Fawked Up Lyrics.txt_4-17  [this,was,a,game]  [reject_expl_just(bitch,[external,factive,narration,background,objective]),reject_expl_just(lose,[external,factive,narration,background,objective])]
+Fawked Up Lyrics.txt_5-22  [i,will,bust]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(bust,[external,nonfactive,narration,background,objective])]
+Fawked Up Lyrics.txt_5-23  [you,in,Yo,forehead,i,you,just,to,show,is,not,not,playin]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(bust,[external,nonfactive,narration,background,objective])]
+Fawked Up Lyrics.txt_6-30  [bitch,get,gone]  [reject_expl_just(go,[external,factive,narration,foreground,objective]),reject_expl_just(bitch,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
+Fawked Up Lyrics.txt_7-39  [what,the,fuck]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Fawked Up Lyrics.txt_1-1)-[]
+2-(Fawked Up Lyrics.txt_2-3)-[primary-sex,secondary-abstract_tought,primary-sex,secondary-abstract_tought,primary-sex]
+3-(Fawked Up Lyrics.txt_3-9)-[emotions-aggression,primary-anality]
+4-(Fawked Up Lyrics.txt_3-10)-[primary-sex]
+5-(Fawked Up Lyrics.txt_4-14)-[primary-sex]
+6-(Fawked Up Lyrics.txt_4-15)-[secondary-restraint]
+half
+7-(Fawked Up Lyrics.txt_4-16)-[secondary-abstract_tought]
+8-(Fawked Up Lyrics.txt_4-17)-[emotions-expressive_beh]
+9-(Fawked Up Lyrics.txt_5-22)-[]
+10-(Fawked Up Lyrics.txt_5-23)-[primary-narcissism,emotions-expressive_beh]
+11-(Fawked Up Lyrics.txt_6-30)-[primary-sex]
+12-(Fawked Up Lyrics.txt_7-39)-[primary-sex]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Fawked Up Lyrics.txt_1,1,nil-nil-nil-up-[arg_mod-agent-Poppy-sn3,obj-theme_aff-Lyrics-sn2,subj-agent-fawked-sn1,and(Poppy,Yung,sn3),def_prop(Poppy,[plant]),def_prop(Lyrics,[informa,tecno]),def_prop(fawked,[istituzione])])
+lf(Fawked Up Lyrics.txt_2,3,cl4-nil-nil-come-[])
+lf(Fawked Up Lyrics.txt_2,3,cl3-not-would-will-[])
+lf(Fawked Up Lyrics.txt_2,3,cl2-nil-nil-think-[])
+lf(Fawked Up Lyrics.txt_2,3,cl1-nil-nil-bitch-[obj-theme-you-sn3,f2-sn1-what-sn2,subj-actor-you-sn1,def_prop(you,[umano]),def_prop(what,[oggetto]),def_prop(you,[umano])])
+lf(Fawked Up Lyrics.txt_3,9,cl6-nil-nil-fuck-[adj-(mod)-up-nil,subj-actor-me-sn6,def_prop(me,[umano])])
+lf(Fawked Up Lyrics.txt_3,9,cl5-nil-nil-get-[cmod-subord-fuck-",obj-theme-you-sn4,obj-theme-ho-sn3,obj-theme_unaff-shit-sn2,subj-agent-murder-sn1,and(shit,some,sn2),def_prop(you,[umano]),def_prop(ho,[istituzione,umano]),def_prop(shit,[attivita,umano]),def_prop(murder,[attivita])])
+lf(Fawked Up Lyrics.txt_4,14,cl10-nil-nil-be-[xcomp-prop-game-sn5,subj-actor-this-sn4,voice-lose-cl8,def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(this,[oggetto,umano])])
+lf(Fawked Up Lyrics.txt_4,14,cl9-nil-nil-think-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Fawked Up Lyrics.txt_4,14,cl8-nil-must-lose-[subj-theme_unaff-you-sn2,aux-be-nil,def_prop(you,[umano])])
+lf(Fawked Up Lyrics.txt_4,14,cl7-nil-nil-bitch-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Fawked Up Lyrics.txt_5,22,cl13-not-nil-be-[adj-(mod)-just-nil,xcomp-result-playin-sn5,xcomp-purpose-show-cl12,subj-sn2-you-sn4,ncmod-locativo-forehead-sn3,subj-theme_bound-you-sn2,and(you,i,sn4),and(forehead,Yo,sn3),def_prop(playin,[istituzione]),def_prop(you,[umano]),def_prop(forehead,[body_part,oggetto]),def_prop(you,[umano])])
+lf(Fawked Up Lyrics.txt_5,22,cl12-nil-nil-show-[])
+lf(Fawked Up Lyrics.txt_5,22,cl11-nil-will-bust-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Fawked Up Lyrics.txt_6,30,cl16-nil-nil-go-[subj-prop-you-sn1,def_prop(you,[umano])])
+lf(Fawked Up Lyrics.txt_6,30,cl15-nil-nil-get-[])
+lf(Fawked Up Lyrics.txt_6,30,cl14-nil-nil-bitch-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Fawked Up Lyrics.txt_7,39,cl17-nil-nil-be-[subj-theme_bound-fuck-sn2,subj-theme_bound-fuck-sn1,and(fuck,what,sn1),def_prop(fuck,[attivita]),def_prop(fuck,[attivita])])

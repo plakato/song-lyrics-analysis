@@ -1,0 +1,204 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Terminal Lyrics.txt_1-1  []-positive  []
+Terminal Lyrics.txt_2-3  []-positive  []
+Terminal Lyrics.txt_3-6  []-negative  []
+Terminal Lyrics.txt_4-11  []-negative  [neg,neg]
+Terminal Lyrics.txt_4-12  []-positive  []
+Terminal Lyrics.txt_4-13  []-positive  []
+Terminal Lyrics.txt_5-17  []-suspension  []
+Terminal Lyrics.txt_5-18  []-positive  []
+Terminal Lyrics.txt_6-24  []-suspension  [neg,neg,neg]
+Terminal Lyrics.txt_7-31  []-positive  []
+Terminal Lyrics.txt_7-32  [but-advers]-positive  [fgb]
+Terminal Lyrics.txt_8-41  []-suspension  [neg,neg,neg]
+Terminal Lyrics.txt_9-50  []-positive  []
+Terminal Lyrics.txt_9-51  [but-advers]-positive  [fgb]
+Terminal Lyrics.txt_10-62  []-negative  []
+Terminal Lyrics.txt_11-73  []-suspension  []
+Terminal Lyrics.txt_11-74  []-positive  []
+Terminal Lyrics.txt_12-86  []-positive  []
+Terminal Lyrics.txt_12-87  []-positive  [neg]
+Terminal Lyrics.txt_13-101  []-positive  []
+Terminal Lyrics.txt_14-115  []-negative  []
+Terminal Lyrics.txt_15-130  []-suspension  []
+Terminal Lyrics.txt_15-131  []-positive  []
+Terminal Lyrics.txt_16-147  []-negative  [neg]
+Terminal Lyrics.txt_16-148  []-negative  [neg,neg]
+Terminal Lyrics.txt_17-165  []-negative  [neg,neg]
+Terminal Lyrics.txt_17-166  []-none  []
+Terminal Lyrics.txt_18-184  []-none  []
+Terminal Lyrics.txt_19-203  []-positive  []
+Terminal Lyrics.txt_19-204  []-positive  []
+Terminal Lyrics.txt_20-223  []-positive  []
+Terminal Lyrics.txt_20-224  []-positive  []
+Terminal Lyrics.txt_21-245  []-positive  []
+Terminal Lyrics.txt_22-267  []-positive  []
+Terminal Lyrics.txt_22-268  []-positive  []
+Terminal Lyrics.txt_23-290  []-positive  []
+Terminal Lyrics.txt_23-291  []-positive  []
+Terminal Lyrics.txt_24-315  []-positive  []
+Terminal Lyrics.txt_25-340  []-negative  [neg]
+Terminal Lyrics.txt_25-341  []-positive  []
+Terminal Lyrics.txt_26-367  []-negative  []
+Terminal Lyrics.txt_27-394  []-negative  [neg]
+Terminal Lyrics.txt_27-395  []-positive  []
+Terminal Lyrics.txt_28-423  []-negative  []
+Terminal Lyrics.txt_29-452  []-negative  []
+Terminal Lyrics.txt_30-483  []-positive  [bkc,bkc,bkc]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Terminal Lyrics.txt_1-1  [terminal,Lyrics,by,the,World,Alive]  [title]
+Terminal Lyrics.txt_2-3  [i,am,a,creature]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Terminal Lyrics.txt_3-6  [who,lies,in,wait]  [provide_expl_just(lie,[external,factive,narration,background,objective]),provide_expl_just(wait,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_4-11  [i,am,not,the,man,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_4-12  [you,think]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_4-13  [i,am]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_5-17  [i,will,bring]  [provide_expl_just(bring,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_5-18  [you,down]  [provide_expl_just(bring,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_6-24  [i,can,not,relinquish,my,grip]  [propose_opin(relinquish,[external,nonfactive,narration,foreground,objective]),provide_expl_just(relinquish,[external,nonfactive,narration,foreground,objective])]
+Terminal Lyrics.txt_7-31  [i,know]  [provide_expl_just(breathe,[external,factive,adverse,foreground,objective]),provide_expl_just(better,[external,factive,result,foreground,objective])]
+Terminal Lyrics.txt_7-32  [that,you,are,breathing,but,do,better,than,this]  [provide_expl_just(breathe,[external,factive,adverse,foreground,objective]),provide_expl_just(better,[external,factive,result,foreground,objective])]
+Terminal Lyrics.txt_8-41  [i,can,not,relinquish,my,grip]  [propose_opin(relinquish,[external,nonfactive,narration,foreground,objective]),provide_expl_just(relinquish,[external,nonfactive,narration,foreground,objective])]
+Terminal Lyrics.txt_9-50  [i,know]  [provide_expl_just(breathe,[external,factive,adverse,foreground,objective]),provide_expl_just(better,[external,factive,result,foreground,objective])]
+Terminal Lyrics.txt_9-51  [that,you,are,breathing,but,do,better,than,this]  [provide_expl_just(breathe,[external,factive,adverse,foreground,objective]),provide_expl_just(better,[external,factive,result,foreground,objective])]
+Terminal Lyrics.txt_10-62  [don-t,believe,in,me]  [provide_expl_just(believe,[external,factive,narration,foreground,objective])]
+Terminal Lyrics.txt_11-73  [i,will,bring]  [provide_expl_just(bring,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_11-74  [you,down]  [provide_expl_just(bring,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_12-86  [you,know]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_12-87  [i,want,you,to,drown]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_13-101  [i,am,water,in,your,lungs]  [provide_expl_just(water,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_14-115  [don-t,believe,in,me]  [provide_expl_just(believe,[external,factive,narration,foreground,objective])]
+Terminal Lyrics.txt_15-130  [i,will,bring]  [provide_expl_just(bring,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_15-131  [you,down]  [provide_expl_just(bring,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_16-147  [i,am,the,darkness,in,your,life]  [reject_expl_just(sleep,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_16-148  [,,why,you,can,not,sleep,at,night,.,you,can,not,sleep,at,night]  [reject_expl_just(sleep,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_17-165  [i,am,the,weakness,of,your,mind]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(mine-cl30,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_17-166  [your,life,is,mine]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(mine-cl30,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_18-184  [mine]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Terminal Lyrics.txt_19-203  [i,can,be]  [raise_issue(be,[_116900,factive,statement,_116918,subjective])]
+Terminal Lyrics.txt_19-204  [i,can,be]  [raise_issue(be,[_117228,factive,statement,_117246,subjective])]
+Terminal Lyrics.txt_20-223  [who,i,need,to,be]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_20-224  [,,need,to,be]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_21-245  [i,am,transforming]  [provide_expl_just(transform,[external,factive,cause,foreground,objective])]
+Terminal Lyrics.txt_22-267  [i,can,be]  [provide_expl_just(be,[external,nonfactive,narration,foreground,objective])]
+Terminal Lyrics.txt_22-268  [i,can,be]  [provide_expl_just(be,[external,nonfactive,narration,foreground,objective])]
+Terminal Lyrics.txt_23-290  [who,i,need,to,be]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_23-291  [,,need,to,be]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_24-315  [i,am,transforming]  [provide_expl_just(transform,[external,factive,cause,foreground,objective])]
+Terminal Lyrics.txt_25-340  [i,have,ruined,everything]  [reject_expl_just(ruin,[external,factive,narration,background,objective]),reject_expl_just(love,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_25-341  [i,love]  [provide_expl_just(ruin,[external,factive,narration,background,objective]),provide_expl_just(love,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_26-367  [i,have,thrown,almost,away,everyone]  [provide_expl_just(throw,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_27-394  [i,have,ruined,everything]  [reject_expl_just(ruin,[external,factive,narration,background,objective]),reject_expl_just(love,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_27-395  [i,love]  [provide_expl_just(ruin,[external,factive,narration,background,objective]),provide_expl_just(love,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_28-423  [i,have,thrown,almost,away,everyone]  [provide_expl_just(throw,[external,factive,narration,background,objective])]
+Terminal Lyrics.txt_29-452  [don-t,believe,in,me,,,i,will,bring,you,down]  [provide_expl_just(bring,[external,nonfactive,narration,background,objective]),provide_expl_just(believe,[external,factive,narration,foreground,objective])]
+Terminal Lyrics.txt_30-483  [oh,oh,oh]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Terminal Lyrics.txt_1-1)-[]
+2-(Terminal Lyrics.txt_2-3)-[]
+3-(Terminal Lyrics.txt_3-6)-[primary-passivity]
+4-(Terminal Lyrics.txt_4-11)-[]
+5-(Terminal Lyrics.txt_4-12)-[secondary-abstract_tought]
+6-(Terminal Lyrics.txt_4-13)-[]
+7-(Terminal Lyrics.txt_5-17)-[]
+8-(Terminal Lyrics.txt_5-18)-[]
+9-(Terminal Lyrics.txt_6-24)-[]
+10-(Terminal Lyrics.txt_7-31)-[secondary-abstract_tought]
+11-(Terminal Lyrics.txt_7-32)-[]
+12-(Terminal Lyrics.txt_8-41)-[]
+13-(Terminal Lyrics.txt_9-50)-[secondary-abstract_tought]
+14-(Terminal Lyrics.txt_9-51)-[]
+15-(Terminal Lyrics.txt_10-62)-[secondary-abstract_tought]
+16-(Terminal Lyrics.txt_11-73)-[]
+17-(Terminal Lyrics.txt_11-74)-[]
+18-(Terminal Lyrics.txt_12-86)-[secondary-abstract_tought]
+19-(Terminal Lyrics.txt_12-87)-[]
+20-(Terminal Lyrics.txt_13-101)-[primary-water]
+21-(Terminal Lyrics.txt_14-115)-[secondary-abstract_tought]
+22-(Terminal Lyrics.txt_15-130)-[]
+23-(Terminal Lyrics.txt_15-131)-[]
+half
+24-(Terminal Lyrics.txt_16-147)-[]
+25-(Terminal Lyrics.txt_16-148)-[secondary-abstract_tought,primary-counscious,primary-concreteness,primary-counscious,primary-concreteness]
+26-(Terminal Lyrics.txt_17-165)-[]
+27-(Terminal Lyrics.txt_17-166)-[]
+28-(Terminal Lyrics.txt_18-184)-[]
+29-(Terminal Lyrics.txt_19-203)-[]
+30-(Terminal Lyrics.txt_19-204)-[]
+31-(Terminal Lyrics.txt_20-223)-[]
+32-(Terminal Lyrics.txt_20-224)-[]
+33-(Terminal Lyrics.txt_21-245)-[]
+34-(Terminal Lyrics.txt_22-267)-[]
+35-(Terminal Lyrics.txt_22-268)-[]
+36-(Terminal Lyrics.txt_23-290)-[]
+37-(Terminal Lyrics.txt_23-291)-[]
+38-(Terminal Lyrics.txt_24-315)-[]
+39-(Terminal Lyrics.txt_25-340)-[primary-chaos]
+40-(Terminal Lyrics.txt_25-341)-[emotions-affection]
+41-(Terminal Lyrics.txt_26-367)-[primary-ascend,secondary-abstract_tought,primary-concreteness]
+42-(Terminal Lyrics.txt_27-394)-[primary-chaos]
+43-(Terminal Lyrics.txt_27-395)-[emotions-affection]
+44-(Terminal Lyrics.txt_28-423)-[primary-ascend,secondary-abstract_tought,primary-concreteness]
+45-(Terminal Lyrics.txt_29-452)-[secondary-abstract_tought]
+46-(Terminal Lyrics.txt_30-483)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Terminal Lyrics.txt_1,1,cl1-nil-nil-be-[xcomp-theme-Alive-sn3,arg_mod-agent-World-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,terminal,sn1),def_prop(Alive,[istituzione,umano]),def_prop(World,[luogo]),def_prop(Lyrics,[informa,tecno])])
+lf(Terminal Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-creature-sn2,subj-theme_bound-i-sn1,def_prop(creature,[umano]),def_prop(i,[umano])])
+lf(Terminal Lyrics.txt_3,6,cl4-nil-nil-wait-[])
+lf(Terminal Lyrics.txt_3,6,cl3-nil-nil-lie-[subj-actor-who-sn1,def_prop(who,[umano])])
+lf(Terminal Lyrics.txt_4,11,cl6-nil-nil-think-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_4,11,cl5-not-nil-be-[subj-theme_bound-i-sn4,xcomp-prop-man-sn2,subj-theme_bound-i-sn1,def_prop(i,[umano]),def_prop(man,[any]),def_prop(i,[umano])])
+lf(Terminal Lyrics.txt_5,17,cl8-nil-nil-be-[xcomp-prop-down-sn3,subj-theme_bound-you-sn2,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_5,17,cl7-nil-will-bring-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_6,24,cl9-not-can-relinquish-[obj-theme-grip-sn2,subj-agent-i-sn1,def_prop(grip,[astratto,attivita,cambia,umano]),def_prop(i,[umano])])
+lf(Terminal Lyrics.txt_7,31,cl12-nil-nil-better-[xcomp-agent-this-sn6,subj-agent-you-sn5,xcomp-agent-this-sn4,subj-agent-you-sn3,aux-do-nil,def_prop(this,[oggetto,umano]),def_prop(you,[umano]),def_prop(this,[oggetto,umano]),def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_7,31,cl11-nil-nil-breathe-[ccomp-prop-better-cl12,cmod-subord-better-1,subj-experiencer-you-sn2,aux-are-nil,progr-breathing-nil,def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_7,31,cl10-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_8,41,cl13-not-can-relinquish-[obj-theme-grip-sn2,subj-agent-i-sn1,def_prop(grip,[astratto,attivita,cambia,umano]),def_prop(i,[umano])])
+lf(Terminal Lyrics.txt_9,50,cl16-nil-nil-better-[xcomp-agent-this-sn6,subj-agent-you-sn5,xcomp-agent-this-sn4,subj-agent-you-sn3,aux-do-nil,def_prop(this,[oggetto,umano]),def_prop(you,[umano]),def_prop(this,[oggetto,umano]),def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_9,50,cl15-nil-nil-breathe-[ccomp-prop-better-cl16,cmod-subord-better-1,subj-experiencer-you-sn2,aux-are-nil,progr-breathing-nil,def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_9,50,cl14-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_10,62,cl17-not-nil-believe-[iobj-goal-me-sn2,subj-actor-you-sn1,aux-do-nil,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_11,73,cl19-nil-nil-be-[xcomp-prop-down-sn3,subj-theme_bound-you-sn2,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_11,73,cl18-nil-will-bring-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_12,86,cl22-nil-nil-drown-[subj-theme-you-sn3,def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_12,86,cl21-nil-nil-want-[subj-actor-you-sn3,subj-actor-you-sn2,and(you,i,sn2),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_12,86,cl20-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_13,101,cl23-nil-nil-water-[ncmod-locativo-lung-sn2,subj-theme_aff-i-sn1,aux-am-nil,def_prop(lung,[body_part,umano]),def_prop(i,[umano])])
+lf(Terminal Lyrics.txt_14,115,cl24-not-nil-believe-[iobj-goal-me-sn2,subj-actor-you-sn1,aux-do-nil,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_15,130,cl26-nil-nil-be-[xcomp-prop-down-sn3,subj-theme_bound-you-sn2,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_15,130,cl25-nil-will-bring-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_16,147,cl28-not-can-sleep-[iobj-goal-night-sn9,iobj-goal-night-sn8,subj-experiencer-you-sn6,iobj-goal-life-sn3,def_prop(night,[tempo]),def_prop(night,[tempo]),def_prop(you,[umano]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Terminal Lyrics.txt_16,147,cl27-nil-nil-be-[xcomp-prop-darkness-sn2,subj-theme_bound-i-sn1,def_prop(darkness,[astratto,luogo]),def_prop(i,[umano])])
+lf(Terminal Lyrics.txt_17,165,cl30-nil-nil-mine-[subj-theme-you-sn6,aux-(is)-nil,def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_17,165,cl29-nil-nil-be-[xcomp-prop-weakness-sn2,subj-actor-i-sn1,def_prop(weakness,[astratto,emotivo,stato]),def_prop(i,[umano])])
+lf(Terminal Lyrics.txt_18,184,cl31-nil-nil-say-[obj-theme_unaff-mine-sn1,def_prop(mine,[oggetto,strumento])])
+lf(Terminal Lyrics.txt_19,203,cl32-nil-can-be-[subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_20,223,cl34-nil-nil-be-[subj-theme_bound-you-sn3,subj-prop-who-sn2,def_prop(you,[umano]),def_prop(who,[umano])])
+lf(Terminal Lyrics.txt_20,223,cl33-nil-nil-need-[obj-theme-who-sn2,subj-experiencer-i-sn1,def_prop(who,[umano]),def_prop(i,[umano])])
+lf(Terminal Lyrics.txt_21,245,cl35-nil-nil-transform-[subj-agent-you-sn1,aux-am-nil,progr-transforming-nil,def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_22,267,cl36-nil-can-be-[subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_23,290,cl38-nil-nil-be-[subj-theme_bound-you-sn3,subj-prop-who-sn2,def_prop(you,[umano]),def_prop(who,[umano])])
+lf(Terminal Lyrics.txt_23,290,cl37-nil-nil-need-[obj-theme-who-sn2,subj-experiencer-i-sn1,def_prop(who,[umano]),def_prop(i,[umano])])
+lf(Terminal Lyrics.txt_24,315,cl39-nil-nil-transform-[subj-agent-you-sn1,aux-am-nil,progr-transforming-nil,def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_25,340,cl41-nil-nil-love-[subj-experiencer-you-sn3,def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_25,340,cl40-nil-nil-ruin-[obj-theme_unaff-everything-sn2,subj-agent-i-sn1,aux-have-nil,def_prop(everything,[astratto,informa,oggetto]),def_prop(i,[umano])])
+lf(Terminal Lyrics.txt_26,367,cl42-nil-nil-throw-[obj-theme_unaff-everyone-sn2,subj-agent-i-sn1,aux-have-nil,and(everyone,away,sn2),def_prop(everyone,[umano]),def_prop(i,[umano])])
+lf(Terminal Lyrics.txt_27,394,cl44-nil-nil-love-[subj-experiencer-you-sn3,def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_27,394,cl43-nil-nil-ruin-[obj-theme_unaff-everything-sn2,subj-agent-i-sn1,aux-have-nil,def_prop(everything,[astratto,informa,oggetto]),def_prop(i,[umano])])
+lf(Terminal Lyrics.txt_28,423,cl45-nil-nil-throw-[obj-theme_unaff-everyone-sn2,subj-agent-i-sn1,aux-have-nil,and(everyone,away,sn2),def_prop(everyone,[umano]),def_prop(i,[umano])])
+lf(Terminal Lyrics.txt_29,452,cl47-nil-will-bring-[xcomp-prop-down-sn8,subj-agent-you-sn7,xcomp-prop-down-sn5,subj-agent-you-sn4,subj-agent-you-sn3,ncmod-locativo-me-sn2,and(you,i,sn3),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(me,[umano])])
+lf(Terminal Lyrics.txt_29,452,cl46-not-nil-believe-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Terminal Lyrics.txt_30,483,cl48-nil-nil-be-[ncmod-modal-oh-sn2,subj-theme_bound-you-sn1,def_prop(oh,[informa,tecno]),def_prop(you,[umano])])

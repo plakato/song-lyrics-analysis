@@ -1,0 +1,68 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Keep those hidden Lyrics.txt_1-1  []-positive  []
+Keep those hidden Lyrics.txt_2-3  [(as)-temp_coinc]-positive  []
+Keep those hidden Lyrics.txt_2-4  []-suspension  []
+Keep those hidden Lyrics.txt_3-7  []-positive  []
+Keep those hidden Lyrics.txt_4-14  []-negative  [neg,fhd]
+Keep those hidden Lyrics.txt_5-22  []-negative  [neg]
+Keep those hidden Lyrics.txt_5-23  []-positive  []
+Keep those hidden Lyrics.txt_6-30  []-negative  [neg]
+Keep those hidden Lyrics.txt_7-38  []-negative  []
+Keep those hidden Lyrics.txt_7-39  []-positive  []
+Keep those hidden Lyrics.txt_8-46  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Keep those hidden Lyrics.txt_1-1  [those,hidden,keep,Lyrics,by,Zoomboom]  [title]
+Keep those hidden Lyrics.txt_2-3  [keep,secrets,hidden,from,nice,views,known,as,los]  [provide_expl_just(hide,[external,factive,narration,foreground,objective]),provide_expl_just(view,[internal,factive,narration,background,objective])]
+Keep those hidden Lyrics.txt_2-4  [silent,kids,silence,is,the]  [provide_expl_just(hide,[external,factive,narration,foreground,objective]),provide_expl_just(view,[internal,factive,narration,background,objective])]
+Keep those hidden Lyrics.txt_3-7  [key,to,the,gold,chain,i,wear,keep,on,walking,on,the,moon,stars,on,my,back,stay]  [provide_expl_just(wear,[external,factive,explanation,background,objective]),provide_expl_just(keep,[external,factive,explanation,background,objective]),provide_expl_just(key,[external,factive,explanation,background,objective])]
+Keep those hidden Lyrics.txt_4-14  [shining,my,mind,stays,writen,like,books,on_paper,i,keep,on,burning,the,papers]  [reject_expl_just(stay,[external,factive,narration,background,objective]),reject_expl_just(keep,[external,factive,narration,background,objective]),reject_expl_just(burn,[external,factive,cause,foreground,objective])]
+Keep those hidden Lyrics.txt_5-22  [i,smoke,daily]  [reject_expl_just(sleep,[external,factive,narration,foreground,objective]),reject_expl_just(read,[external,factive,narration,background,objective])]
+Keep those hidden Lyrics.txt_5-23  [we,slept,on,many,to,many,thoughts,who,reads,the,words,coming,out]  [provide_expl_just(sleep,[external,factive,narration,foreground,objective]),provide_expl_just(read,[external,factive,narration,background,objective])]
+Keep those hidden Lyrics.txt_6-30  [my,a,mouth,no_one,take,over_here,swim,in,the,coldest,water,thats,icecold,go,to]  [reject_expl_just(go,[external,factive,narration,background,objective]),reject_expl_just(take,[external,factive,narration,background,objective])]
+Keep those hidden Lyrics.txt_7-38  [ct,where,the,fire,is,burning,on,wood,burnt,both,hands,with,with,wood,turnt,it,.,the,fire,is,burning,on,wood,burnt]  [provide_expl_just(wood,[internal,factive,narration,background,objective])]
+Keep those hidden Lyrics.txt_7-39  [both,hands,with,with,wood,turnt,it]  [provide_expl_just(wood,[internal,factive,narration,background,objective])]
+Keep those hidden Lyrics.txt_8-46  [off,with,water]  [provide_expl_just(water,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Keep those hidden Lyrics.txt_1-1)-[]
+2-(Keep those hidden Lyrics.txt_2-3)-[primary-unknow,primary-vision,secondary-abstract_tought]
+3-(Keep those hidden Lyrics.txt_2-4)-[primary-passivity,primary-passivity]
+4-(Keep those hidden Lyrics.txt_3-7)-[emotions-glory,primary-vision,primary-concreteness]
+5-(Keep those hidden Lyrics.txt_4-14)-[emotions-affection]
+half
+6-(Keep those hidden Lyrics.txt_5-22)-[primary-fire,secondary-temporal_repere]
+7-(Keep those hidden Lyrics.txt_5-23)-[secondary-abstract_tought,primary-concreteness]
+8-(Keep those hidden Lyrics.txt_6-30)-[primary-orality,primary-water,primary-water]
+9-(Keep those hidden Lyrics.txt_7-38)-[primary-concreteness,primary-fire,primary-fire,primary-narcissism,primary-fire,primary-fire]
+10-(Keep those hidden Lyrics.txt_7-39)-[primary-narcissism]
+11-(Keep those hidden Lyrics.txt_8-46)-[primary-concreteness,primary-water]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Keep those hidden Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Zoomboom-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,those,sn1),and(Lyrics,hidden,sn1),def_prop(Zoomboom,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Keep those hidden Lyrics.txt_2,3,cl3-nil-nil-be-[subj-theme_bound-silence-sn5,ncmod-modale-lo-sn4,xadj-adj-known-adj1,ncmod-loc_origin-view-sn2,and(silence,kid,sn5),and(silence,silent,sn5),and(view,nice,sn2),def_prop(silence,[astratto,stato]),def_prop(lo,_412816),def_prop(known,_412828),def_prop(view,[astratto,attivita,luogo])])
+lf(Keep those hidden Lyrics.txt_2,3,cl2-nil-nil-hide-[subj-agent-secret-sn1,and(secret,keep,sn1),def_prop(secret,[attivita,informa])])
+lf(Keep those hidden Lyrics.txt_3,7,cl6-nil-nil-keep-[obj-theme-stay-sn32,obj-theme_aff-star-sn31,iobj-goal-moon-sn30,iobj-goal-walking-sn29,subj-experiencer-stay-sn28,ncmod-loc_direct-gold-sn3,def_prop(stay,[attivita,informa,oggetto,strumento]),def_prop(star,[astratto,oggetto,umano]),def_prop(moon,[oggetto]),def_prop(walking,[cambia,evento]),def_prop(stay,[attivita,informa,oggetto,strumento]),def_prop(gold,[astratto,oggetto,sostanza])])
+lf(Keep those hidden Lyrics.txt_3,7,cl5-nil-nil-wear-[ncmod-locativo-moon-sn19,ncmod-goal-walking-sn18,xcomp-purpose-keep-cl6,subj-experiencer-stay-sn17,ncmod-locativo-moon-sn7,ncmod-goal-walking-sn6,subj-experiencer-i-sn5,def_prop(moon,[oggetto]),def_prop(walking,[cambia,evento]),def_prop(stay,[attivita,informa,oggetto,strumento]),def_prop(moon,[oggetto]),def_prop(walking,[cambia,evento]),def_prop(i,[umano])])
+lf(Keep those hidden Lyrics.txt_3,7,cl4-nil-nil-key-[subj-agent-chain-sn2,subj-agent-chain-sn1,and(chain,you,sn1),def_prop(chain,[nquant,oggetto,strumento]),def_prop(chain,[nquant,oggetto,strumento])])
+lf(Keep those hidden Lyrics.txt_4,14,cl10-nil-nil-burn-[ncmod-modal-on_paper-sn8,obj-result-writen-sn3,xcomp-prop-stay-3,def_prop(on_paper,[attivita,informa,istituzione,oggetto,sostanza,strumento]),def_prop(writen,[istituzione])])
+lf(Keep those hidden Lyrics.txt_4,14,cl9-nil-nil-keep-[obj-theme_aff-paper-sn6,xadj-result-burn-5,def_prop(paper,[attivita,informa,sostanza])])
+lf(Keep those hidden Lyrics.txt_4,14,cl8-nil-nil-stay-[])
+lf(Keep those hidden Lyrics.txt_4,14,cl7-nil-nil-shine-[adj-(mod)-on_paper-nil,obj-theme-i-sn5,obj-theme_aff-book-sn4,obj-theme_aff-mind-sn2,subj-theme-you-sn1,def_prop(on_paper,[attivita,informa,istituzione,oggetto,sostanza,strumento]),def_prop(i,[umano]),def_prop(book,[attivita,informa,istituzione,oggetto,strumento]),def_prop(mind,[astratto]),def_prop(you,[umano])])
+lf(Keep those hidden Lyrics.txt_5,22,cl13-nil-nil-read-[subj-agent-thought-sn5,def_prop(thought,[astratto])])
+lf(Keep those hidden Lyrics.txt_5,22,cl12-nil-nil-sleep-[ncmod-locativo-thought-sn5,iobj-goal-many-sn4,subj-experiencer-we-sn3,def_prop(thought,[astratto]),def_prop(many,[entity]),def_prop(we,[umano])])
+lf(Keep those hidden Lyrics.txt_5,22,cl11-nil-nil-smoke-[xcomp-prop-daily-sn2,subj-agent-i-sn1,def_prop(daily,[attivita,informa]),def_prop(i,[umano])])
+lf(Keep those hidden Lyrics.txt_6,30,_414714-nil-nil-take-[voice-take-nil,tense-take-nil])
+lf(Keep those hidden Lyrics.txt_6,30,cl14-nil-nil-go-[voice-take-nil,tense-take-nil,obj-theme-icecold-sn3,iobj-locat-thats-sn2,subj-agent-swim-sn1,and(thats,coldest,sn2),and(thats,water,sn2),def_prop(icecold,[istituzione]),def_prop(thats,[istituzione]),def_prop(swim,[attivita,informa,tecno])])
+lf(Keep those hidden Lyrics.txt_7,38,cl15-nil-nil-be-[xcomp-theme-it-sn15,ncmod-comitativo-turnt-sn14,subj-theme_bound-hand-sn13,xadj-adj-burnt-adj2,ncmod-locativo-wood-sn12,xcomp-prop-burn-sn11,xcomp-theme-fire-sn10,ncmod-comitativo-turnt-sn7,ncmod-locativo-wood-sn4,subj-theme_bound-ct-sn1,and(turnt,wood,sn14),and(hand,both,sn13),and(turnt,wood,sn7),def_prop(it,[any]),def_prop(turnt,[istituzione]),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(burnt,_415362),def_prop(wood,[oggetto,sostanza,strumento]),def_prop(burn,[astratto,attivita,stato]),def_prop(fire,[attivita,evento,informa,oggetto,sostanza,strumento]),def_prop(turnt,[istituzione]),def_prop(wood,[oggetto,sostanza,strumento]),def_prop(ct,[istituzione,umano])])
+lf(Keep those hidden Lyrics.txt_8,46,cl16-nil-nil-water-[subj-agent-you-sn1,def_prop(you,[umano])])

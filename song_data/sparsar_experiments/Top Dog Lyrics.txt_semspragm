@@ -1,0 +1,353 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Top Dog Lyrics.txt_1-1  []-positive  [neg]
+Top Dog Lyrics.txt_2-3  []-positive  []
+Top Dog Lyrics.txt_2-4  []-positive  []
+Top Dog Lyrics.txt_3-6  []-positive  []
+Top Dog Lyrics.txt_4-10  []-positive  []
+Top Dog Lyrics.txt_5-15  []-positive  []
+Top Dog Lyrics.txt_6-21  []-positive  [bkc]
+Top Dog Lyrics.txt_6-22  []-positive  []
+Top Dog Lyrics.txt_7-29  []-positive  [bkc,bkc,bkc]
+Top Dog Lyrics.txt_8-37  []-negative  [neg]
+Top Dog Lyrics.txt_9-46  []-negative  [fhd]
+Top Dog Lyrics.txt_10-56  []-positive  []
+Top Dog Lyrics.txt_10-57  []-positive  [fgb]
+Top Dog Lyrics.txt_11-68  []-negative  [neg]
+Top Dog Lyrics.txt_12-80  []-positive  [fgb,fhd]
+Top Dog Lyrics.txt_13-95  []-positive  []
+Top Dog Lyrics.txt_14-109  []-negative  [fgb,neg]
+Top Dog Lyrics.txt_15-124  []-positive  [neg,neg,neg]
+Top Dog Lyrics.txt_16-141  [then-temp_seq]-negative  [neg]
+Top Dog Lyrics.txt_17-158  []-negative  [neg]
+Top Dog Lyrics.txt_18-176  [then-temp_seq]-negative  [neg,fgb,neg]
+Top Dog Lyrics.txt_19-199  []-positive  []
+Top Dog Lyrics.txt_20-219  []-suspension  [neg,fgb,neg]
+Top Dog Lyrics.txt_20-220  []-positive  []
+Top Dog Lyrics.txt_21-241  []-suspension  []
+Top Dog Lyrics.txt_22-263  []-negative  [neg,fgb]
+Top Dog Lyrics.txt_23-286  []-positive  []
+Top Dog Lyrics.txt_24-310  []-positive  [fgb]
+Top Dog Lyrics.txt_24-311  []-positive  [fhd,neg]
+Top Dog Lyrics.txt_25-336  []-positive  [bkc,neg,fhd]
+Top Dog Lyrics.txt_26-362  []-positive  [fgb]
+Top Dog Lyrics.txt_27-389  []-suspension  [neg,neg,neg,neg]
+Top Dog Lyrics.txt_28-417  []-positive  [bkc,fgb,fgb]
+Top Dog Lyrics.txt_29-446  []-positive  [bkc,neg,fhd]
+Top Dog Lyrics.txt_30-476  []-positive  [fgb]
+Top Dog Lyrics.txt_31-507  []-suspension  [neg,neg,neg,neg]
+Top Dog Lyrics.txt_32-539  []-positive  [bkc]
+Top Dog Lyrics.txt_32-540  []-negative  []
+Top Dog Lyrics.txt_33-573  []-negative  [neg,fhd]
+Top Dog Lyrics.txt_33-574  []-positive  []
+Top Dog Lyrics.txt_34-608  [when-temp_coinc]-positive  [neg]
+Top Dog Lyrics.txt_35-644  []-positive  []
+Top Dog Lyrics.txt_36-680  []-negative  [neg]
+Top Dog Lyrics.txt_37-717  []-negative  [neg]
+Top Dog Lyrics.txt_38-755  []-positive  []
+Top Dog Lyrics.txt_39-794  []-positive  []
+Top Dog Lyrics.txt_39-795  []-positive  [fhd]
+Top Dog Lyrics.txt_40-835  []-positive  [neg,fgb,neg]
+Top Dog Lyrics.txt_41-876  []-negative  [fgb,neg]
+Top Dog Lyrics.txt_42-919  []-positive  [fgb]
+Top Dog Lyrics.txt_43-963  []-positive  [fgb]
+Top Dog Lyrics.txt_43-964  []-positive  []
+Top Dog Lyrics.txt_44-1008  []-positive  [fhd]
+Top Dog Lyrics.txt_45-1053  [but-advers]-negative  [neg,fgb]
+Top Dog Lyrics.txt_46-1100  []-suspension  [neg,neg,neg]
+Top Dog Lyrics.txt_47-1147  []-negative  [neg]
+Top Dog Lyrics.txt_47-1148  []-negative  [fgb]
+Top Dog Lyrics.txt_48-1197  []-positive  [fgb]
+Top Dog Lyrics.txt_49-1246  []-positive  [fgb]
+Top Dog Lyrics.txt_50-1296  []-positive  []
+Top Dog Lyrics.txt_50-1297  []-positive  []
+Top Dog Lyrics.txt_51-1349  []-positive  [neg,neg]
+Top Dog Lyrics.txt_52-1401  []-positive  [fhd]
+Top Dog Lyrics.txt_53-1455  []-suspension  [neg,neg]
+Top Dog Lyrics.txt_54-1509  []-positive  [fhd]
+Top Dog Lyrics.txt_55-1564  []-positive  []
+Top Dog Lyrics.txt_56-1621  []-positive  [fhd]
+Top Dog Lyrics.txt_56-1621  []-positive  [fhd]
+Top Dog Lyrics.txt_57-1679  []-suspension  [neg]
+Top Dog Lyrics.txt_58-1738  []-negative  [neg,neg]
+Top Dog Lyrics.txt_59-1797  []-positive  []
+Top Dog Lyrics.txt_59-1798  [then-temp_seq]-negative  [neg]
+Top Dog Lyrics.txt_60-1858  []-negative  [neg]
+Top Dog Lyrics.txt_61-1920  []-negative  [neg,fgb]
+Top Dog Lyrics.txt_62-1982  []-negative  [neg]
+Top Dog Lyrics.txt_63-2045  []-positive  []
+Top Dog Lyrics.txt_64-2109  []-positive  []
+Top Dog Lyrics.txt_64-2110  []-negative  [fhd]
+Top Dog Lyrics.txt_65-2176  [so-result]-positive  [fgb,fgb]
+Top Dog Lyrics.txt_65-2177  []-positive  [fhd]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Top Dog Lyrics.txt_1-1  [top,Dog,Lyrics,by,Viro,the,Virus]  [title]
+Top Dog Lyrics.txt_2-3  [it,is,time,now]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Top Dog Lyrics.txt_2-4  [for,our,feature,presentation]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Top Dog Lyrics.txt_3-6  [jersey-s,finest]  [provide_expl_just(fine,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_4-10  [it,is,going,down]  [provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+Top Dog Lyrics.txt_5-15  [back,in,effect]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_6-21  [alright,okay,check]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_6-22  [it,out]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_7-29  [yeah,yeah,yeah]  [accept_expl_opin(be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_8-37  [viro,the,Virus]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_9-46  [stampeding,like,a,psycho,Rhino]  [provide_expl_just(stampede,[external,factive,narration,foreground,objective])]
+Top Dog Lyrics.txt_10-56  [it,is,the,wino,named,Viro]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_10-57  [and,i,know]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_11-68  [you,can,not,see,my,flow,with,either,of,your,eyeholes]  [reject_expl_just(see,[external,nonfactive,narration,foreground,objective])]
+Top Dog Lyrics.txt_12-80  [try,and,get,played,like,Tyco]  [provide_expl_just(play,[external,factive,cause,foreground,objective])]
+Top Dog Lyrics.txt_13-95  [i,snipe,foes,nocturnal,with,night,glows]  [provide_expl_just(snipe,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_14-109  [and,ride,out,back,to,the,hideout,to,light,dro]  [reject_expl_just(light,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_15-124  [too_much,to,deal,with,with,ill,shit,your,meal,steal,ticket,real,quick]  [propose_opin_neg(deal,[external,factive,result,background,objective])]
+Top Dog Lyrics.txt_16-141  [then,flip,the,kill,switch]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_17-158  [a,bio-hazard,rhyming,bastard]  [reject_expl_just(rhyme,[external,factive,narration,foreground,objective])]
+Top Dog Lyrics.txt_18-176  [grab,the,Mic,and,lightning,flashes,then,rappers,turn,to,piles,of,ashes]  [reject_expl_just(pile,[external,factive,narration,background,objective]),reject_expl_just(grab,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_19-199  [multi-syllabic,with,cult-like,status]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_20-219  [cold,Colt,45,and,ho,tied,in,my,attic]  [provide_expl_just(tie,[external,factive,cause,foreground,objective])]
+Top Dog Lyrics.txt_20-220  [a]  [provide_expl_just(tie,[external,factive,cause,foreground,objective])]
+Top Dog Lyrics.txt_21-241  [pour,some,out,on,the,floor,for,Rick,James]  [provide_expl_just(pour,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_22-263  [think,of,Dirt,McGirt,and,do,the,same,thing,again]  [reject_expl_just(do,[external,factive,circumstance,foreground,objective]),propose_opin_neg(do,[external,factive,circumstance,foreground,objective])]
+Top Dog Lyrics.txt_23-286  [from,the,womb,to,the,tomb,,,my,momentum,gains]  [provide_expl_just(gain,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_24-310  [and,music,flows,through,it]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_24-311  [like,it,is,dope,in,your,veins]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_25-336  [yeah,V,,,shot,calls,like,top,dog]  [provide_expl_just(call,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_26-362  [an,advocate,to,sex,drugs,and,hip,hop,off,the,wall]  [provide_expl_just(sex,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_27-389  [sick,dope,dope,sick]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_28-417  [yeah,,,to,all,of,you,and,y-all,and,all,of,them,listen]  [provide_expl_just(listen,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_29-446  [yeah,V,,,shot,calls,like,top,dog]  [provide_expl_just(call,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_30-476  [an,advocate,to,sex,drugs,and,hip,hop,off,the,wall]  [provide_expl_just(sex,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_31-507  [sick,dope,dope,sick]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_32-539  [yeah,,,listen,at,full,attention]  [provide_expl_just(listen,[external,factive,narration,background,objective]),provide_expl_just(miss,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_32-540  [,,you,don-t,wanna,miss,him]  [provide_expl_just(listen,[external,factive,narration,background,objective]),provide_expl_just(miss,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_33-573  [you,Yo,can,never,bend,me,like,a,jheri]  [reject_expl_just(bend,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_33-574  [curl]  [provide_expl_just(bend,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_34-608  [even,when,i,am,',bout,to,hurl,off,a,st]  [provide_expl_just(hurl,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_35-644  [Pauli,Girl]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Top Dog Lyrics.txt_36-680  [with,no,money,for,bubbly]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_37-717  [i,still,get,balls-deep,in,barkeeps,from,Coyote,Ugly]  [reject_expl_just(get,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_38-755  [got,a,PhD,in,advanced,flow,studies]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Top Dog Lyrics.txt_39-794  [that,keep]  [provide_expl_just(bounce,[external,factive,cause,foreground,objective])]
+Top Dog Lyrics.txt_39-795  [it,bouncing,like,Man,Show,Juggies]  [provide_expl_just(bounce,[external,factive,cause,foreground,objective])]
+Top Dog Lyrics.txt_40-835  [tighter,than,bosom,buddies,,,good,,,bad,and,hungry]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_41-876  [and,mad,hoodrats,that,love,me,.,got]  [reject_expl_just(love,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,foreground,objective])]
+Top Dog Lyrics.txt_42-919  [cause,i,am,fluid,and,i,am,well-hung]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_43-963  [do_it,till,it,is,done,to,leave,well]  [provide_expl_just(ring,[external,factive,cause,foreground,objective])]
+Top Dog Lyrics.txt_43-964  [losers,with,their,bells,rung]  [provide_expl_just(ring,[external,factive,cause,foreground,objective])]
+Top Dog Lyrics.txt_44-1008  [bring,the,beef,like,meatloaf]  [provide_expl_just(bring,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_45-1053  [every,MC-s,nightmare,but,fans,say,he,is,such,a,dreamboat]  [reject_expl_just(be,[external,factive,adverse,background,objective]),provide_expl_just(be,[external,factive,adverse,background,objective])]
+Top Dog Lyrics.txt_46-1100  [from,a,cloud,of,weed,smoke,i,emerge]  [suggest(be,[_1582136,_1582142,statement,background,_1582160])]
+Top Dog Lyrics.txt_47-1147  [with,obscene,quotes]  [reject_expl_just(fight,[external,factive,cause,foreground,objective])]
+Top Dog Lyrics.txt_47-1148  [and,rhymes,with,fighting,words]  [provide_expl_just(fight,[external,factive,cause,foreground,objective])]
+Top Dog Lyrics.txt_48-1197  [out,for,glory,and,whores,with,nice,curves]  [provide_expl_just(whore,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_49-1246  [and,i,can,end,your,story,at,the,tip,of,the,iceberg]  [provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Top Dog Lyrics.txt_50-1296  [i,am]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(trashed,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_50-1297  [either,too,trashed,to,dance,licking,acid,stamps]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(trashed,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_51-1349  [in,the,classic,max,stance,with,a,trashy,tramp]  [provide_expl_just(tramp,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_52-1401  [or,inhaling,spliffs,in,Motel,6]  [provide_expl_just(inhale,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_53-1455  [with,underage,runaways,taking,black,tail,flicks]  [suggest(be,[_1586990,_1586996,statement,background,_1587014])]
+Top Dog Lyrics.txt_54-1509  [or,drinking,gin,with,a,harlot]  [provide_expl_just(drink,[external,factive,narration,foreground,objective])]
+Top Dog Lyrics.txt_55-1564  [stepping,on,peasants,for,pestering,me,to,touch,the,hem,of,my,garment]  [provide_expl_just(touch,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_56-1621  [or,in,the,Stu,taking]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(bong,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_56-1621  [or,in,the,Stu,taking,hits,bong]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(bong,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_57-1679  [my,morbid,morphing,portraits,to,song,to,put,em,on,disc]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(disc,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_58-1738  [either,way,i,am,not,the,kid,to,play,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_59-1797  [my,display,peels,your,mask,away]  [provide_expl_just(peel,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_59-1798  [then,leave,your,masquerade,in,disarray]  [reject_expl_just(peel,[external,factive,narration,background,objective]),reject_expl_just(leave,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_60-1858  [hung,with,fellas,who,had,the,map,for,Zelda]  [reject_expl_just(Zelda,[internal,factive,narration,background,objective])]
+Top Dog Lyrics.txt_61-1920  [now,i,hang,with,cats,with,blunt,wraps,and,paraphernalia]  [reject_expl_just(hang,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_62-1982  [fulltime,failures,plotting,on,part-time,bank,tellers]  [reject_expl_just(plot,[external,factive,narration,foreground,objective])]
+Top Dog Lyrics.txt_63-2045  [to,get,dough,for,a,crib,with,a,wine,cellar]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Top Dog Lyrics.txt_64-2109  [they,you,boy,i,tell]  [provide_expl_just(write,[external,factive,narration,foreground,objective]),provide_expl_just(use,[external,factive,cause,foreground,objective])]
+Top Dog Lyrics.txt_64-2110  [don-t,write,em,like,they,used,to]  [provide_expl_just(write,[external,factive,narration,foreground,objective]),provide_expl_just(use,[external,factive,cause,foreground,objective])]
+Top Dog Lyrics.txt_65-2176  [so,i,hit,the,Stu,and,cooked,this]  [provide_expl_just(hit,[external,factive,cause,foreground,objective]),provide_expl_just(cook,[external,factive,result,foreground,objective])]
+Top Dog Lyrics.txt_65-2177  [up,like,couscous,here]  [provide_expl_just(hit,[external,factive,cause,foreground,objective]),provide_expl_just(cook,[external,factive,result,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Top Dog Lyrics.txt_1-1)-[primary-height]
+2-(Top Dog Lyrics.txt_2-3)-[secondary-temporal_repere,secondary-temporal_repere]
+3-(Top Dog Lyrics.txt_2-4)-[secondary-abstract_tought]
+4-(Top Dog Lyrics.txt_3-6)-[]
+5-(Top Dog Lyrics.txt_4-10)-[]
+6-(Top Dog Lyrics.txt_5-15)-[primary-concreteness,secondary-abstract_tought]
+7-(Top Dog Lyrics.txt_6-21)-[]
+8-(Top Dog Lyrics.txt_6-22)-[primary-concreteness]
+9-(Top Dog Lyrics.txt_7-29)-[]
+10-(Top Dog Lyrics.txt_8-37)-[]
+11-(Top Dog Lyrics.txt_9-46)-[emotions-affection]
+12-(Top Dog Lyrics.txt_10-56)-[secondary-instru_behavior]
+13-(Top Dog Lyrics.txt_10-57)-[secondary-abstract_tought]
+14-(Top Dog Lyrics.txt_11-68)-[primary-vision]
+15-(Top Dog Lyrics.txt_12-80)-[secondary-instru_behavior,emotions-expressive_beh,emotions-affection]
+16-(Top Dog Lyrics.txt_13-95)-[primary-vision]
+17-(Top Dog Lyrics.txt_14-109)-[primary-voyage,primary-concreteness,primary-concreteness,primary-vision]
+18-(Top Dog Lyrics.txt_15-124)-[primary-anality,primary-orality,emotions-aggression,secondary-abstract_tought,secondary-temporal_repere]
+19-(Top Dog Lyrics.txt_16-141)-[secondary-temporal_repere,emotions-aggression]
+20-(Top Dog Lyrics.txt_17-158)-[]
+21-(Top Dog Lyrics.txt_18-176)-[primary-vision,secondary-temporal_repere,primary-height,primary-fire]
+22-(Top Dog Lyrics.txt_19-199)-[]
+23-(Top Dog Lyrics.txt_20-219)-[primary-cold]
+24-(Top Dog Lyrics.txt_20-220)-[]
+25-(Top Dog Lyrics.txt_21-241)-[primary-water,primary-concreteness,primary-brink]
+26-(Top Dog Lyrics.txt_22-263)-[secondary-abstract_tought,secondary-temporal_repere]
+27-(Top Dog Lyrics.txt_23-286)-[primary-sex,secondary-temporal_repere,secondary-instru_behavior]
+28-(Top Dog Lyrics.txt_24-310)-[primary-sound]
+29-(Top Dog Lyrics.txt_24-311)-[emotions-affection,primary-narcissism]
+30-(Top Dog Lyrics.txt_25-336)-[emotions-aggression,secondary-social_behavior,emotions-affection,primary-height]
+31-(Top Dog Lyrics.txt_26-362)-[primary-sex,primary-narcissism,primary-concreteness,primary-brink]
+32-(Top Dog Lyrics.txt_27-389)-[]
+33-(Top Dog Lyrics.txt_28-417)-[secondary-abstract_tought,primary-sound]
+34-(Top Dog Lyrics.txt_29-446)-[emotions-aggression,secondary-social_behavior,emotions-affection,primary-height]
+35-(Top Dog Lyrics.txt_30-476)-[primary-sex,primary-narcissism,primary-concreteness,primary-brink]
+36-(Top Dog Lyrics.txt_31-507)-[]
+37-(Top Dog Lyrics.txt_32-539)-[primary-sound,primary-concreteness]
+38-(Top Dog Lyrics.txt_32-540)-[]
+39-(Top Dog Lyrics.txt_33-573)-[emotions-affection]
+40-(Top Dog Lyrics.txt_33-574)-[]
+half
+41-(Top Dog Lyrics.txt_34-608)-[secondary-temporal_repere,primary-ascend,primary-concreteness]
+42-(Top Dog Lyrics.txt_35-644)-[]
+43-(Top Dog Lyrics.txt_36-680)-[secondary-instru_behavior,primary-water]
+44-(Top Dog Lyrics.txt_37-717)-[]
+45-(Top Dog Lyrics.txt_38-755)-[secondary-instru_behavior]
+46-(Top Dog Lyrics.txt_39-794)-[]
+47-(Top Dog Lyrics.txt_39-795)-[emotions-affection]
+48-(Top Dog Lyrics.txt_40-835)-[emotions-affection,primary-orality]
+49-(Top Dog Lyrics.txt_41-876)-[primary-counscious,emotions-affection]
+50-(Top Dog Lyrics.txt_42-919)-[secondary-abstract_tought,primary-water]
+51-(Top Dog Lyrics.txt_43-963)-[secondary-temporal_repere]
+52-(Top Dog Lyrics.txt_43-964)-[primary-sound]
+53-(Top Dog Lyrics.txt_44-1008)-[primary-orality,emotions-affection]
+54-(Top Dog Lyrics.txt_45-1053)-[secondary-temporal_repere,primary-counscious,secondary-social_behavior]
+55-(Top Dog Lyrics.txt_46-1100)-[primary-diffusion,primary-fire]
+56-(Top Dog Lyrics.txt_47-1147)-[primary-sex,secondary-social_behavior]
+57-(Top Dog Lyrics.txt_47-1148)-[]
+58-(Top Dog Lyrics.txt_48-1197)-[primary-concreteness,emotions-glory,primary-sex,primary-concreteness]
+59-(Top Dog Lyrics.txt_49-1246)-[primary-concreteness,primary-concreteness]
+60-(Top Dog Lyrics.txt_50-1296)-[]
+61-(Top Dog Lyrics.txt_50-1297)-[emotions-expressive_beh]
+62-(Top Dog Lyrics.txt_51-1349)-[secondary-order]
+63-(Top Dog Lyrics.txt_52-1401)-[]
+64-(Top Dog Lyrics.txt_53-1455)-[]
+65-(Top Dog Lyrics.txt_54-1509)-[primary-orality,primary-sex]
+66-(Top Dog Lyrics.txt_55-1564)-[primary-touch]
+67-(Top Dog Lyrics.txt_56-1621)-[]
+68-(Top Dog Lyrics.txt_56-1621)-[emotions-aggression]
+69-(Top Dog Lyrics.txt_57-1679)-[]
+70-(Top Dog Lyrics.txt_58-1738)-[emotions-expressive_beh]
+71-(Top Dog Lyrics.txt_59-1797)-[primary-concreteness]
+72-(Top Dog Lyrics.txt_59-1798)-[secondary-temporal_repere]
+73-(Top Dog Lyrics.txt_60-1858)-[primary-height,primary-descent]
+74-(Top Dog Lyrics.txt_61-1920)-[secondary-temporal_repere,primary-ascend]
+75-(Top Dog Lyrics.txt_62-1982)-[secondary-temporal_repere]
+76-(Top Dog Lyrics.txt_63-2045)-[secondary-instru_behavior,primary-depth]
+77-(Top Dog Lyrics.txt_64-2109)-[secondary-social_behavior]
+78-(Top Dog Lyrics.txt_64-2110)-[emotions-affection,secondary-instru_behavior]
+79-(Top Dog Lyrics.txt_65-2176)-[emotions-aggression,primary-orality]
+80-(Top Dog Lyrics.txt_65-2177)-[emotions-affection,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Top Dog Lyrics.txt_1,1,cl1-nil-nil-dog-[xadj-theme-virus-sn4,arg_mod-agent-Viro-sn3,obj-theme-Lyrics-sn2,subj-agent-top-sn1,def_prop(virus,[animato,attivita,informa,stato]),def_prop(Viro,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(top,[astratto,luogo,oggetto,strumento,tempo])])
+lf(Top Dog Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-presentation-sn6,subj-theme_bound-feature-sn5,xcomp-prop-time-sn2,subj-theme_bound-it-sn1,def_prop(presentation,[astratto,attivita,informa]),def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(time,[tempo]),def_prop(it,[any])])
+lf(Top Dog Lyrics.txt_3,6,nil-nil-nil-fine-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_4,10,cl3-nil-nil-go-[subj-agent-it-sn1,aux-(is)-nil,progr-going-nil,def_prop(it,[any])])
+lf(Top Dog Lyrics.txt_5,15,cl4-nil-nil-be-[adj-(mod)-back-nil,ncmod-locativo-effect-sn1,def_prop(effect,[astratto,attivita,informa,stato])])
+lf(Top Dog Lyrics.txt_6,21,cl6-nil-nil-be-[subj-theme_bound-it-sn4,def_prop(it,[any])])
+lf(Top Dog Lyrics.txt_6,21,cl5-nil-nil-check-[subj-agent-okay-sn1,def_prop(okay,[attivita,informa])])
+lf(Top Dog Lyrics.txt_7,29,cl7-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Top Dog Lyrics.txt_8,37,cl8-nil-nil-be-[subj-theme_bound-virus-sn2,subj-theme_bound-virus-sn1,and(virus,viro,sn1),def_prop(virus,[animato,attivita,informa,stato]),def_prop(virus,[animato,attivita,informa,stato])])
+lf(Top Dog Lyrics.txt_9,46,cl9-nil-nil-stampede-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_10,56,cl11-nil-nil-know-[cmod-subord-know-",subj-actor-you-sn4,def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_10,56,cl10-nil-nil-be-[obj2-benef-Viro-sn3,xcomp-prop-wino-sn2,subj-theme_bound-it-sn1,and(Viro,named,sn3),def_prop(Viro,[istituzione,umano]),def_prop(wino,[istituzione,umano]),def_prop(it,[any])])
+lf(Top Dog Lyrics.txt_11,68,cl12-not-can-see-[ncmod-comitativo-either-sn3,obj-actor-flow-sn2,subj-experiencer-you-sn1,and(either,eyehole,sn3),def_prop(either,[istituzione]),def_prop(flow,[attivita,evento,tempo]),def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_12,80,cl15-nil-nil-play-[cmod-coord-play-and,subj-agent-Tyco-sn3,def_prop(Tyco,[istituzione,umano])])
+lf(Top Dog Lyrics.txt_12,80,cl14-nil-nil-get-[subj-agent-Tyco-sn2,def_prop(Tyco,[istituzione,umano])])
+lf(Top Dog Lyrics.txt_12,80,cl13-nil-nil-try-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_13,95,cl16-nil-nil-snipe-[ncmod-modale-glow-sn4,xcomp-prop-nocturnal-sn3,obj-theme-fo-sn2,subj-agent-i-sn1,def_prop(glow,[attivita,cambia,emotivo]),def_prop(nocturnal,[evaluative]),def_prop(fo,[informa,tecno]),def_prop(i,[umano])])
+lf(Top Dog Lyrics.txt_14,109,cl17-nil-nil-light-[cmod-subord-light-",adj-locative-back-nil,obj2-goal-dro-sn3,iobj-goal-hideout-sn2,subj-actor-ride-sn1,def_prop(back,[istituzione]),def_prop(dro,[informa,tecno]),def_prop(hideout,[luogo]),def_prop(ride,[oggetto,strumento])])
+lf(Top Dog Lyrics.txt_15,124,cl19-nil-nil-steal-[adj-(mod)-too_much-nil,obj-theme-quick-sn4,obj-theme-ticket-sn3,subj-agent-you-sn1,and(quick,real,sn4),and(ticket,meal,sn3),def_prop(quick,[body_part,umano]),def_prop(ticket,[astratto,attivita,informa]),def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_15,124,cl18-nil-nil-deal-[iobj-goal-shit-sn2,and(shit,ill,sn2),def_prop(shit,[attivita,umano])])
+lf(Top Dog Lyrics.txt_16,141,cl20-nil-nil-be-[xcomp-theme-switch-sn3,xcomp-theme-flip-sn2,subj-theme_bound-kill-sn1,def_prop(switch,[attivita,oggetto,strumento]),def_prop(flip,[attivita,edible,oggetto]),def_prop(kill,[attivita])])
+lf(Top Dog Lyrics.txt_17,158,cl21-nil-nil-rhyme-[xcomp-prop-bastard-sn2,subj-agent-bio-hazard-sn1,def_prop(bastard,[oggetto,strumento,umano]),def_prop(bio-hazard,[oggetto,stato,strumento])])
+lf(Top Dog Lyrics.txt_18,176,cl24-nil-nil-pile-[cmod-subord-pile-then,ncmod-specif-ash-sn12,subj-agent-you-sn11,ncmod-prop-ash-sn10,ncmod-prop-ash-sn8,xcomp-purpose-pile-3,def_prop(ash,[plant,sostanza]),def_prop(you,[umano]),def_prop(ash,[plant,sostanza]),def_prop(ash,[plant,sostanza])])
+lf(Top Dog Lyrics.txt_18,176,cl23-nil-nil-turn-[xadj-result-pile-4,subj-agent-you-sn9,subj-agent-rapper-sn7,def_prop(you,[umano]),def_prop(rapper,[umano])])
+lf(Top Dog Lyrics.txt_18,176,cl22-nil-nil-grab-[coord-theme-Mic_and_flash-sn4,obj-theme-flash-sn3,obj-theme-Mic-sn2,subj-agent-you-sn1,def_prop(Mic_and_flash,[istituzione,umano,astratto,evento,oggetto,strumento,tempo]),def_prop(flash,[istituzione,umano,astratto,evento,oggetto,strumento,tempo]),def_prop(Mic,[istituzione,umano,astratto,evento,oggetto,strumento,tempo]),def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_19,199,cl25-nil-nil-be-[xadj-adj-multi-syllabic-adj1,ncmod-modale-status-sn1,and(status,like,sn1),def_prop(multi-syllabic,_1600294),def_prop(status,[stato])])
+lf(Top Dog Lyrics.txt_20,219,cl27-nil-nil-be-[subj-theme_bound-you-sn11,def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_20,219,cl26-nil-nil-tie-[iobj-goal-attic-sn4,coord-agent-45_and_ho-sn3,subj-agent-ho-sn2,subj-agent-45-sn1,def_prop(attic,[body_part,oggetto,strumento,umano]),def_prop(45_and_ho,[nquant,istituzione,umano]),def_prop(ho,[nquant,istituzione,umano]),def_prop(45,[nquant,istituzione,umano])])
+lf(Top Dog Lyrics.txt_21,241,cl28-nil-nil-pour-[adj-(mod)-out-nil,ncmod-locativo-floor-sn3,obj-theme_aff-some-sn2,subj-agent-you-sn1,def_prop(floor,[astratto,attivita,informa,oggetto,strumento]),def_prop(some,[umano]),def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_22,263,cl29-nil-nil-do-[xcomp-actor-thing-sn7,subj-theme_unaff-you-sn6,aux-do-nil,and(thing,same,sn7),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_23,286,cl30-nil-nil-gain-[iobj-goal-tomb-sn3,iobj-goal-womb-sn2,subj-experiencer-momentum-sn1,def_prop(tomb,[oggetto,strumento]),def_prop(womb,[body_part,oggetto]),def_prop(momentum,[astratto])])
+lf(Top Dog Lyrics.txt_24,310,cl32-nil-nil-be-[ncmod-locativo-vein-sn5,xcomp-prop-dope-sn4,subj-theme_bound-it-sn3,cmod-subord-be-",ncmod-location-it-sn2,def_prop(vein,[animato,attivita,body_part,informa,oggetto,plant,umano]),def_prop(dope,[attivita,informa,oggetto,strumento]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Top Dog Lyrics.txt_24,310,cl31-nil-nil-flow-[subj-actor-music-sn1,def_prop(music,[astratto,attivita,informa])])
+lf(Top Dog Lyrics.txt_25,336,cl33-nil-nil-call-[adj-(mod)-yeah-nil,obj-theme_bound-dog-sn2,subj-agent-shoot-sn1,and(shoot,V,sn1),def_prop(dog,[animato,plant,stato,umano]),def_prop(shoot,[attivita,informa,plant])])
+lf(Top Dog Lyrics.txt_26,362,cl34-nil-nil-sex-[ncmod-locativo-wall-sn4,obj-theme-hop-sn3,xcomp-prop-drug-sn2,subj-theme-advocate-sn1,and(hop,hip,sn3),def_prop(wall,[body_part,oggetto,stato,strumento,umano]),def_prop(hop,[attivita,evento,plant]),def_prop(drug,[oggetto,strumento]),def_prop(advocate,[umano])])
+lf(Top Dog Lyrics.txt_27,389,cl35-nil-nil-be-[subj-theme_bound-dope-sn1,and(dope,dope,sn1),and(dope,sick,sn1),def_prop(dope,[attivita,informa,oggetto,strumento])])
+lf(Top Dog Lyrics.txt_28,417,cl36-nil-nil-listen-[cmod-coord-listen-and,ncmod-specif-them-sn6,subj-agent-you-sn5,def_prop(them,[umano]),def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_29,446,cl37-nil-nil-call-[adj-(mod)-yeah-nil,obj-theme_bound-dog-sn2,subj-agent-shoot-sn1,and(shoot,V,sn1),def_prop(dog,[animato,plant,stato,umano]),def_prop(shoot,[attivita,informa,plant])])
+lf(Top Dog Lyrics.txt_30,476,cl38-nil-nil-sex-[ncmod-locativo-wall-sn4,obj-theme-hop-sn3,xcomp-prop-drug-sn2,subj-theme-advocate-sn1,and(hop,hip,sn3),def_prop(wall,[body_part,oggetto,stato,strumento,umano]),def_prop(hop,[attivita,evento,plant]),def_prop(drug,[oggetto,strumento]),def_prop(advocate,[umano])])
+lf(Top Dog Lyrics.txt_31,507,cl39-nil-nil-be-[subj-theme_bound-dope-sn1,and(dope,dope,sn1),and(dope,sick,sn1),def_prop(dope,[attivita,informa,oggetto,strumento])])
+lf(Top Dog Lyrics.txt_32,539,cl41-nil-nil-miss-[obj-tema_eff-him-sn16,subj-experiencer-you-sn3,ncmod-modal-attention-sn2,and(attention,full,sn2),def_prop(him,[umano]),def_prop(you,[umano]),def_prop(attention,[astratto,attivita])])
+lf(Top Dog Lyrics.txt_32,539,cl40-nil-nil-listen-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_33,573,cl43-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_33,573,cl42-nil-can-bend-[obj-prop-jheri-sn3,obj-theme-me-sn2,subj-actor-Yo-sn1,neg-never-nil,and(Yo,you,sn1),def_prop(jheri,[istituzione]),def_prop(me,[umano]),def_prop(Yo,[umano])])
+lf(Top Dog Lyrics.txt_34,608,cl45-nil-nil-hurl-[cmod-subord-hurl-when,ncmod-result-st-sn4,xadj-result-hurl-4,def_prop(st,[informa,legale,tecno])])
+lf(Top Dog Lyrics.txt_34,608,cl44-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_35,644,cl46-nil-nil-say-[obj-theme_unaff-girl-sn1,and(girl,Pauli,sn1),def_prop(girl,[oggetto,strumento])])
+lf(Top Dog Lyrics.txt_36,680,cl47-nil-nil-be-[xadj-adj-bubbly-adj2,ncmod-comitativo-money-sn1,and(money,no,sn1),def_prop(bubbly,_1603656),def_prop(money,[astratto,oggetto])])
+lf(Top Dog Lyrics.txt_37,717,cl48-nil-nil-get-[adj-(mod)-still-nil,xcomp-prop-Ugly-sn5,ncmod-loc_origin-Coyote-sn4,iobj-goal-barkeep-sn3,xcomp-prop-balls-deep-sn2,subj-theme_bound-i-sn1,def_prop(Ugly,[istituzione]),def_prop(Coyote,[place,animato,umano]),def_prop(barkeep,[relat,sociale,umano]),def_prop(balls-deep,[oggetto,tempo]),def_prop(i,[umano])])
+lf(Top Dog Lyrics.txt_38,755,cl49-nil-nil-get-[obj-theme-study-sn4,iobj-goal-flow-sn3,obj-theme_unaff-PhD-sn2,subj-agent-you-sn1,and(flow,advanced,sn3),def_prop(study,[astratto,attivita,informa,oggetto,strumento,umano]),def_prop(flow,[attivita,evento,tempo]),def_prop(PhD,[istituzione,umano]),def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_39,794,cl51-nil-nil-bounce-[obj-theme-Juggies-sn3,subj-actor-it-sn2,def_prop(Juggies,[istituzione,umano]),def_prop(it,[any])])
+lf(Top Dog Lyrics.txt_39,794,cl50-nil-nil-keep-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_40,835,cl52-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Top Dog Lyrics.txt_41,876,cl54-nil-nil-love-[cmod-subord-get-",subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_41,876,cl53-nil-nil-get-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_42,919,cl56-nil-nil-be-[cmod-coord-be-and,subj-theme_bound-well-hung-sn7,xcomp-prop-well-hung-sn6,subj-theme_bound-i-sn5,xcomp-prop-fluid-sn3,xcomp-purpose-be-3,def_prop(well-hung,[attivita,informa,oggetto,strumento]),def_prop(well-hung,[attivita,informa,oggetto,strumento]),def_prop(i,[umano]),def_prop(fluid,[sostanza])])
+lf(Top Dog Lyrics.txt_42,919,cl55-nil-nil-cause-[subj-causer-i-sn2,subj-causer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Top Dog Lyrics.txt_43,963,cl58-nil-nil-ring-[iobj-goal-bell-sn7,subj-agent-loser-sn6,def_prop(bell,[astratto,evento,oggetto,strumento,tempo]),def_prop(loser,[umano])])
+lf(Top Dog Lyrics.txt_43,963,cl57-nil-nil-be-[adj-(mod)-well-nil,xcomp-prop-done-sn3,subj-theme_bound-it-sn2,subj-theme_bound-it-sn1,def_prop(done,[evaluative]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Top Dog Lyrics.txt_44,1008,cl59-nil-nil-bring-[obj-theme_aff-meatloaf-sn2,subj-agent-beef-sn1,def_prop(meatloaf,[edible]),def_prop(beef,[animato,edible,oggetto])])
+lf(Top Dog Lyrics.txt_45,1053,cl61-nil-nil-be-[xcomp-prop-dreamboat-sn3,subj-theme_bound-he-sn2,subj-theme_bound-he-sn1,and(dreamboat,such,sn3),and(he,nightmare,sn1),and(he,every,sn1),def_prop(dreamboat,[istituzione]),def_prop(he,[umano]),def_prop(he,[umano])])
+lf(Top Dog Lyrics.txt_45,1053,cl60-nil-nil-say-[cmod-subord-be-but,subj-actor-you-sn6,def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_46,1100,cl62-nil-nil-emerge-[iobj-goal-cloud-sn2,subj-agent-i-sn1,def_prop(cloud,[attivita,cambia,oggetto,stato]),def_prop(i,[umano])])
+lf(Top Dog Lyrics.txt_47,1147,cl65-nil-nil-fight-[cmod-subord-fight-",obj-theme-word-sn3,xadj-result-fight-2,def_prop(word,[attivita,informa,nquant])])
+lf(Top Dog Lyrics.txt_47,1147,cl64-nil-nil-rhyme-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_47,1147,cl63-nil-nil-quote-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_48,1197,cl66-nil-nil-whore-[cmod-coord-whore-and,ncmod-comitativo-curve-sn4,subj-actor-you-sn3,and(curve,nice,sn4),def_prop(curve,[astratto,attivita,informa]),def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_49,1246,cl67-nil-can-can-[cmod-subord-can-",ncmod-locativo-tip-sn4,obj-prop-story-sn3,obj-theme-end-sn2,subj-actor-i-sn1,def_prop(tip,[attivita,informa,luogo]),def_prop(story,[attivita,informa]),def_prop(end,[tempo]),def_prop(i,[umano])])
+lf(Top Dog Lyrics.txt_50,1296,cl69-nil-nil-lick-[])
+lf(Top Dog Lyrics.txt_50,1296,nil-nil-nil-trashed-[adj-(mod)-too-nil,xcomp-prop-stamp-sn10,ncmod-locativo-dance-sn3,subj-theme_aff-either-sn2,and(stamp,acid,sn10),def_prop(stamp,[attivita,informa,istituzione,oggetto,strumento]),def_prop(dance,[attivita,evento,informa,istituzione]),def_prop(either,[istituzione])])
+lf(Top Dog Lyrics.txt_50,1296,cl68-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_51,1349,cl70-nil-nil-tramp-[ncmod-comitativo-trashy-sn3,ncmod-locativo-stance-sn2,subj-agent-you-sn1,and(stance,classic,sn2),and(stance,max,sn2),def_prop(trashy,[istituzione]),def_prop(stance,[astratto]),def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_52,1401,cl72-nil-nil-be-[xcomp-theme-spliff-sn2,xcomp-purpose-inhale-2,subj-theme_bound-6-sn1,def_prop(spliff,[istituzione,umano]),def_prop(6,[nquant])])
+lf(Top Dog Lyrics.txt_52,1401,cl71-nil-nil-inhale-[cmod-coord-be-or,ncmod-locativo-motel-sn3,def_prop(motel,[oggetto,strumento])])
+lf(Top Dog Lyrics.txt_53,1455,cl73-nil-nil-take-[obj-theme_aff-flick-sn3,ncmod-comitativo-runaway-sn2,subj-agent-tail-sn1,and(runaway,underage,sn2),and(tail,black,sn1),def_prop(flick,[attivita,evento,informa]),def_prop(runaway,[evento]),def_prop(tail,[animato,astratto,body_part,oggetto,strumento,umano])])
+lf(Top Dog Lyrics.txt_54,1509,cl74-nil-nil-drink-[cmod-subord-drink-",ncmod-comitativo-harlot-sn2,subj-agent-gin-sn1,def_prop(harlot,[umano]),def_prop(gin,[attivita,edible,oggetto])])
+lf(Top Dog Lyrics.txt_55,1564,cl76-nil-nil-touch-[cmod-subord-touch-for,obj-theme_unaff-hem-sn4,subj-agent-me-sn3,iobj-goal-peasant-sn2,def_prop(hem,[oggetto,strumento]),def_prop(me,[umano]),def_prop(peasant,[umano])])
+lf(Top Dog Lyrics.txt_55,1564,cl75-nil-nil-step-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_56,1621,nil-nil-nil-bong-[subj-prop-hit-sn4,xcomp-purpose-take-2,ncmod-locativo-Stu-sn3,def_prop(hit,[attivita,oggetto,strumento]),def_prop(Stu,[istituzione,umano])])
+lf(Top Dog Lyrics.txt_56,1621,cl77-nil-nil-take-[cmod-coord-take-or,cmod-subord-take-",ncmod-locativo-Stu-sn2,subj-agent-you-sn1,def_prop(Stu,[istituzione,umano]),def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_57,1679,nil-nil-nil-disc-[])
+lf(Top Dog Lyrics.txt_57,1679,cl78-nil-nil-put-[subj-sn1-em-sn3,iobj-goal-song-sn2,subj-agent-portrait-sn1,and(portrait,morbid,sn1),def_prop(em,[nquant]),def_prop(song,[astratto,attivita,evento,informa,oggetto]),def_prop(portrait,[oggetto,strumento])])
+lf(Top Dog Lyrics.txt_58,1738,cl79-not-nil-be-[xcomp-prop-ky-sn3,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(i,way,sn1),and(i,either,sn1),def_prop(ky,[informa,tecno]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Top Dog Lyrics.txt_59,1797,cl81-nil-nil-leave-[ncmod-locativo-disarray-sn10,xcomp-prop-masquerade-sn9,subj-theme-you-sn8,def_prop(disarray,[astratto]),def_prop(masquerade,[attivita,istituzione]),def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_59,1797,cl80-nil-nil-peel-[xcomp-prop-away-sn3,obj-source-mask-sn2,subj-agent-display-sn1,def_prop(away,[evaluative]),def_prop(mask,[attivita,oggetto,strumento]),def_prop(display,[attivita,informa,oggetto,strumento])])
+lf(Top Dog Lyrics.txt_60,1858,cl83-nil-nil-have-[xadj-adj-hung-adj4,subj-experiencer-fella-sn1,def_prop(hung,_1609060),def_prop(fella,[relat,sociale,umano])])
+lf(Top Dog Lyrics.txt_60,1858,cl82-nil-nil-be-[ncmod-comitativo-fella-sn1,def_prop(fella,[relat,sociale,umano])])
+lf(Top Dog Lyrics.txt_61,1920,cl84-nil-nil-hang-[adj-(mod)-now-nil,ncmod-comitativo-wrap_and_paraphernalia-[sn3,sn4],ncmod-comitativo-cat-sn2,subj-agent-i-sn1,def_prop(wrap_and_paraphernalia,[edible,oggetto,strumento,oggetto,strumento]),def_prop(cat,[animato,attivita,oggetto,plant,sostanza,strumento,umano]),def_prop(i,[umano])])
+lf(Top Dog Lyrics.txt_62,1982,cl85-nil-nil-plot-[obj-theme-teller-sn3,ncmod-locativo-bank-sn2,subj-agent-failure-sn1,and(bank,part-time,sn2),and(failure,fulltime,sn1),def_prop(teller,[umano]),def_prop(bank,[astratto,attivita,istituzione,oggetto,strumento]),def_prop(failure,[attivita,evento,stato,umano])])
+lf(Top Dog Lyrics.txt_63,2045,cl86-nil-nil-get-[obj-theme-cellar-sn4,ncmod-comitativo-wine-sn3,obj-theme_unaff-dough-sn2,subj-agent-crib-sn1,def_prop(cellar,[oggetto,strumento]),def_prop(wine,[astratto,edible,oggetto]),def_prop(dough,[edible,oggetto]),def_prop(crib,[oggetto,strumento])])
+lf(Top Dog Lyrics.txt_64,2109,cl89-nil-nil-use-[adj-(mod)-write-nil])
+lf(Top Dog Lyrics.txt_64,2109,cl88-not-nil-write-[subj-sn7-they-sn9,obj-source_information-em-sn8,subj-agent-you-sn7,aux-do-nil,def_prop(they,[umano]),def_prop(em,[nquant]),def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_64,2109,cl87-nil-nil-tell-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,boy,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Top Dog Lyrics.txt_65,2176,cl91-nil-nil-cook-[xcomp-agent-this-sn6,subj-agent-you-sn5,xcomp-agent-this-sn4,subj-agent-you-sn3,def_prop(this,[oggetto,umano]),def_prop(you,[umano]),def_prop(this,[oggetto,umano]),def_prop(you,[umano])])
+lf(Top Dog Lyrics.txt_65,2176,cl90-nil-nil-hit-[cmod-coord-cook-cl91,obj-goal-Stu-sn2,subj-agent-i-sn1,def_prop(Stu,[istituzione,umano]),def_prop(i,[umano])])
