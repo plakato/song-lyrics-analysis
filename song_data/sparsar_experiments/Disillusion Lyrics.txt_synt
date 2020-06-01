@@ -1,0 +1,36 @@
+"Grammatical Functions for Nominal Heads and Modifiers"
+
+subj-agent-1-you
+iobj-goal-3-world
+ncmod-3-this
+specif-3-disdain
+specif-3-so_much
+specif-3-this
+subj-theme-3-hatred
+
+
+
+"Disambiguated Tagged Text"
+
+1-disillusion-n
+2-Lyrics-n
+3-by-pda
+4-unearth-vin
+5-(.)-punto
+6-so_much-q
+7-disdain-n
+8-(,)-punt
+9-so_much-q
+10-hatred-n
+11-disillusion-vin
+12-with-p
+13-this-ag
+14-world-n
+15-(.)-punto
+
+
+
+"Clause Separated All Grammatical Functions"
+
+1-[ncmod-modal(disillusion,unearth-cl1,disillusion-sn2),subj-agent(unearth,you-sn1),voice(active,cl1,unearth),tense(pres,cl1,unearth)]
+3-[ncmod-specif(world-sn3,this),ncmod(world-sn3,this),ncmod-specif(hatred-sn2,so_much),ncmod-specif(so_much-sn4,disdain),ncmod-specif(disdain-sn4,so_much),ncmod-specif(hatred-sn1,so_much),iobj-goal(with,disillusion-1,world-sn3),subj-theme(disillusion,hatred-sn2),sn2(det,hatred,so_much),subj-theme(disillusion,hatred-sn1),sn1(det,hatred,so_much),voice(active,cl2,disillusion),tense(pres,cl2,disillusion)]

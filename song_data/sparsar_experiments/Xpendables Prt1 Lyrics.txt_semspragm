@@ -1,0 +1,44 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Xpendables Prt1 Lyrics.txt_1-1  []-positive  []
+Xpendables Prt1 Lyrics.txt_2-3  []-question  [fgb]
+Xpendables Prt1 Lyrics.txt_2-4  []-negative  []
+Xpendables Prt1 Lyrics.txt_3-6  []-question  [fgb]
+Xpendables Prt1 Lyrics.txt_3-7  []-positive  []
+Xpendables Prt1 Lyrics.txt_4-10  []-positive  []
+Xpendables Prt1 Lyrics.txt_5-15  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Xpendables Prt1 Lyrics.txt_1-1  [xpendables,Prt1,Lyrics,by,Xeezy]  [title]
+Xpendables Prt1 Lyrics.txt_2-3  [is,what,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Xpendables Prt1 Lyrics.txt_2-4  [the,meaning,of,life]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Xpendables Prt1 Lyrics.txt_3-6  [is,is,what,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Xpendables Prt1 Lyrics.txt_3-7  [it,purpose]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Xpendables Prt1 Lyrics.txt_4-10  [some,say]  [provide_expl_just(say,[external,factive,narration,background,objective])]
+Xpendables Prt1 Lyrics.txt_5-15  [life,is,a,race]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Xpendables Prt1 Lyrics.txt_1-1)-[]
+2-(Xpendables Prt1 Lyrics.txt_2-3)-[]
+3-(Xpendables Prt1 Lyrics.txt_2-4)-[]
+half
+4-(Xpendables Prt1 Lyrics.txt_3-6)-[]
+5-(Xpendables Prt1 Lyrics.txt_3-7)-[secondary-abstract_tought]
+6-(Xpendables Prt1 Lyrics.txt_4-10)-[secondary-social_behavior]
+7-(Xpendables Prt1 Lyrics.txt_5-15)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Xpendables Prt1 Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Xeezy-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Prt1,sn1),and(Lyrics,xpendables,sn1),def_prop(Xeezy,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Xpendables Prt1 Lyrics.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-mean-sn2,subj-theme_bound-what-sn1,def_prop(mean,[astratto]),def_prop(what,[oggetto])])
+lf(Xpendables Prt1 Lyrics.txt_3,6,cl3-nil-nil-be-[xcomp-prop-purpose-sn3,subj-theme_bound-it-sn2,subj-theme_bound-what-sn1,def_prop(purpose,[astratto]),def_prop(it,[any]),def_prop(what,[oggetto])])
+lf(Xpendables Prt1 Lyrics.txt_4,10,cl4-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Xpendables Prt1 Lyrics.txt_5,15,cl5-nil-nil-be-[xcomp-prop-race-sn2,subj-theme_bound-life-sn1,def_prop(race,[evento,istituzione]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])

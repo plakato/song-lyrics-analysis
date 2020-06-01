@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Poem_Level title="4 the Kids Lyrics.txt" author="poems">
+<Stanza_levels>
+<Stanza_level no="0">
+<Stats_Stanza  
+	line_durations_msec="[656,3040,3840,464]"
+	total_syllable_length_msec="8000"
+	mean_line_length_val="2000"
+	standard_deviation_val="1696.3521646953695"
+	skewness_val="0.0889610081464192"
+	kurtosis_val="-2.1360866986389735">
+</Stats_Stanza>
+<Metrical_Scheme_Stanza>
+<Line_verse no="0"
+	number_of_feet_no="1"	line_syllables="[big/[b_ih_g],Jess/[jh_eh_s],talking/[t_ao,k_ih_ng]]"
+	total_syllable_length_no="4"
+	rhetorical_devices="[1-[]]"
+	metrical_structure_val="[0,0,1,0]"></Line_verse>
+<Line_verse no="1"
+	number_of_feet_no="4"	line_syllables="[yeah/[y_ae],this/[dh_ah_s],one/[w_ah_n],right/[r_ay_t],here/[hh_ih_r],this/[dh_ih_s],for/[f_ao_r],the/[dh_ah],kids/[k_ih_d_z],This/[dh_ih_s],(is)/[ih_z],for/[f_ao_r],all/[ao_l],kids/[k_ih_d_z]]"
+	total_syllable_length_no="14"
+	rhetorical_devices="[2-[]]"
+	metrical_structure_val="[0,1,0,0,0,1,0,1,0,0,1,0,0,0]"></Line_verse>
+<Line_verse no="2"
+	number_of_feet_no="7"	line_syllables="[city/[s_ih,t_iy],kids/[k_ih_d_z],suburban/[s_ah,b_er,b_ah_n],kids/[k_ih_d_z],rich/[r_ih_ch],kids/[k_ih_d_z],poor/[p_uh_r],kids/[k_ih_d_z],messy/[m_eh,s_iy],kids/[k_ih_d_z],clean/[k_l_iy_n],kids/[k_ih_d_z]]"
+	total_syllable_length_no="16"
+	rhetorical_devices="[3-[]]"
+	metrical_structure_val="[1,0,1,0,1,0,0,1,0,1,0,1,0,0,1,0]"></Line_verse>
+<Line_verse no="3"
+	number_of_feet_no="1"	line_syllables="[it/[ih_t],don-t/[d_ow_n_t],matter/[m_ae,t_er]]"
+	total_syllable_length_no="4"
+	rhetorical_devices="[4-[]]"
+	metrical_structure_val="[0,0,1,0]"></Line_verse>
+</Metrical_Scheme_Stanza>
+</Stanza_level>
+</Stanza_levels>
+<General_Stats>
+	<Prosodic_Measures_in_msecs
+	mean_line_length_val="2000"
+	standard_deviation_val="1696.3521646953695"
+	skewness_val="0.0889610081464192"
+	kurtosis_val="-2.1360866986389735">
+</Prosodic_Measures_in_msecs>
+	<Metrical_Structures
+	mean_line_length_in_no_of_feet_val="3.25"
+	standard_deviation_val="2.8722813232690143"
+	skewness_val="0.4272815191639856"
+	kurtosis_val="-1.7789256198347108">
+</Metrical_Structures>
+	<Rhetorical_Metrical_Devices
+	Absolute_Count_of_Rhyming_Devices_val="140"
+	Ratio_of_Absolute_Count_by_No_of_Stanzas_val="0.043478260869565216"
+	Ratio_of_RhDevs_Absolute_Count_by_Corrected_No_of_Verses_val=" 46.666666666666664"
+	Ratio_of_RhDevs_Absolute_Count_by_Repetition_Rate_val="261.0810810810811"
+	Ratio_of_RhDevs_Absolute_Count_by_Rare_Word_Repetition_Rate_val=" 154.48275862068965"
+	Ratio_of_RhDevs_Absolute_Count_by_No_Tokens_val="11.315047637120358">
+</Rhetorical_Metrical_Devices>
+</General_Stats>
+<General_Rhetoric_Devices>
+	<All_Rhyming_Schemes  
+	Stanza-based_Rhyme_Schemes="[1-[3-b,4-a,5-a,6-b]]"
+	Different_Rhyme_Schemes="[b,a,a,b]"
+	Number_of_Different_Rhyme_Schemes_no="2"
+	Multiplier_Factor_no="2"
+	Different_Stanzas_RSs_no="[2]"
+	Different_Rhyme_Types_no="[2]">
+</All_Rhyming_Schemes>
+	<All_Rhyming_Words>
+	<Line_Ending_Rhymes words="[a-[4-k_ih1_d_z,5-k_ih1_d_z],b-[6-m_ae1_t_er],b-[3-t_ao1_k_ih_ng]]">
+</Line_Ending_Rhymes>
+	<Line_Middle_Rhymes words="[5-[4-dh_ih1_s,4-hh_ih1_r,4-k_ih1_d_z,5-k_ih1_d_z,5-r_ih1_ch],2-[3-jh_eh1_s,5-m_eh1_s_iy],2-[4-ao1_l,6-d_ow1_n_t]]">
+</Line_Middle_Rhymes>
+	<Consonances_Assonances words="[[dh_ah_s-d_ow1_n_t-[1-[d,h]-[d],cvcc-[d,ow,n,t]]]-4/6,[dh_ah_s-dh_ih1_s-[2-[d,h]-[d,h],cvc-[dh,ih,s]]]-4/4,[dh_ih1_s-dh_ih1_s-[dh,ih1,s]]-4/4,[f_ao_r-f_ao_r-[f,ao,r]]-4/4,[k_ih1_d_z-k_ih1_d_z-[k,ih1,d,z]]-4/4,[k_ih1_d_z-k_ih1_d_z-[k,ih1,d,z]]-4/5,[k_ih1_d_z-k_ih1_d_z-[k,ih1,d,z]]-5/5,[k_ih1_d_z-k_l_iy1_n-[1-[k]-[k,l],ccvc-[k,l,iy,n]]]-4/5,[k_ih1_d_z-k_l_iy1_n-[1-[k]-[k,l],ccvc-[k,l,iy,n]]]-5/5,[k_l_iy1_n-k_ih1_d_z-[1-[k,l]-[k],cvcc-[k,ih,d,z]]]-5/5,[m_eh1_s_iy-m_ae1_t_er-[1-[m]-[m],[cvc-[m,ae,t],v-[er]]]]-5/6,[r_ay1_t-r_ih1_ch-[1-[r]-[r],cvc-[r,ih,ch]]]-4/5,[s_ih1_t_iy-s_ah_b_er1_b_ah_n-[1-[s]-[s],[cvc-[s,ah,b],vc-[er,b],vc-[ah,n]]]]-5/5]">
+</Consonances_Assonances>
+	<Word_Repetitions words="[this,this,this,kids,kids,kids,kids,kids,kids,kids,kids,kids,for,for]">
+</Word_Repetitions>
+</All_Rhyming_Words>
+</General_Rhetoric_Devices>
+</Poem_Level>

@@ -1,0 +1,55 @@
+"POLARITY, DISCOURSE MARKERS"
+
+I'll Do The Same Lyrics.txt_1-1  []-suspension  []
+I'll Do The Same Lyrics.txt_2-3  []-positive  []
+I'll Do The Same Lyrics.txt_3-6  []-positive  []
+I'll Do The Same Lyrics.txt_3-7  []-positive  [fgb]
+I'll Do The Same Lyrics.txt_3-8  []-positive  []
+I'll Do The Same Lyrics.txt_3-8  []-positive  []
+I'll Do The Same Lyrics.txt_4-12  []-positive  []
+I'll Do The Same Lyrics.txt_5-18  []-positive  []
+I'll Do The Same Lyrics.txt_5-19  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+I'll Do The Same Lyrics.txt_1-1  [i,will,Same,do,the,Lyrics,by,Twi,Teacher]  [title]
+I'll Do The Same Lyrics.txt_2-3  [this,song,is,originally,performed,in,Twi]  [provide_expl_just(perform,[external,factive,cause,foreground,objective])]
+I'll Do The Same Lyrics.txt_3-6  [this,is,the,English,take,i]  [provide_expl_just(get,[external,factive,explanation,background,objective])]
+I'll Do The Same Lyrics.txt_3-7  [drink,pito,and,watch]  [provide_expl_just(get,[external,factive,explanation,background,objective])]
+I'll Do The Same Lyrics.txt_3-8  [Kaizer,Söze,get,charged]  [provide_expl_just(get,[external,factive,explanation,background,objective])]
+I'll Do The Same Lyrics.txt_3-8  [Kaizer,Söze,get,charged,me,too]  [provide_expl_just(get,[external,factive,explanation,background,objective])]
+I'll Do The Same Lyrics.txt_4-12  [i,am,looking,to,put,status,to,my,name]  [provide_expl_just(look,[external,factive,narration,foreground,objective])]
+I'll Do The Same Lyrics.txt_5-18  [i,use,flows]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(use,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+I'll Do The Same Lyrics.txt_5-19  [that,is,killer,goes,in,your,head,;]  [reject_expl_just(go,[external,factive,narration,background,objective]),reject_expl_just(use,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(I'll Do The Same Lyrics.txt_1-1)-[]
+2-(I'll Do The Same Lyrics.txt_2-3)-[secondary-instru_behavior]
+3-(I'll Do The Same Lyrics.txt_3-6)-[]
+4-(I'll Do The Same Lyrics.txt_3-7)-[primary-orality,primary-depth,primary-vision]
+half
+5-(I'll Do The Same Lyrics.txt_3-8)-[]
+6-(I'll Do The Same Lyrics.txt_3-8)-[]
+7-(I'll Do The Same Lyrics.txt_4-12)-[]
+8-(I'll Do The Same Lyrics.txt_5-18)-[secondary-instru_behavior]
+9-(I'll Do The Same Lyrics.txt_5-19)-[emotions-aggression,primary-narcissism]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(I'll Do The Same Lyrics.txt_1,1,cl1-nil-will-do-[arg_mod-agent-Teach-sn3,xcomp-actor-Lyrics-sn2,subj-theme_unaff-i-sn1,aux-do-nil,and(Teach,Twi,sn3),and(Lyrics,Same,sn2),def_prop(Teach,[umano]),def_prop(Lyrics,[informa,tecno]),def_prop(i,[umano])])
+lf(I'll Do The Same Lyrics.txt_2,3,cl2-nil-nil-perform-[iobj-goal-Twi-sn2,subj-theme-song-sn1,adj-(mod)-originally-nil,aux-(is)-nil,and(song,this,sn1),def_prop(Twi,[istituzione]),def_prop(song,[astratto,attivita,evento,informa,oggetto])])
+lf(I'll Do The Same Lyrics.txt_3,6,cl5-nil-nil-get-[xcomp-prop-charged-sn10,subj-theme_bound-Söze-sn9,xcomp-prop-charged-sn7,subj-theme_bound-Söze-sn6,cmod-coord-watch-nil,and(Söze,Kaizer,sn9),and(Söze,Kaizer,sn6),def_prop(charged,[evaluative]),def_prop(Söze,[istituzione,umano]),def_prop(charged,[evaluative]),def_prop(Söze,[istituzione,umano])])
+lf(I'll Do The Same Lyrics.txt_3,6,cl4-nil-nil-watch-[subj-actor-pito-sn4,and(pito,drink,sn4),def_prop(pito,[istituzione])])
+lf(I'll Do The Same Lyrics.txt_3,6,cl3-nil-nil-be-[xcomp-theme_aff-i-sn3,xcomp-prop-take-sn2,subj-theme_bound-this-sn1,and(take,English,sn2),def_prop(i,[umano]),def_prop(take,[attivita]),def_prop(this,[oggetto,umano])])
+lf(I'll Do The Same Lyrics.txt_4,12,cl7-nil-nil-put-[iobj-goal-name-sn3,obj-goal-status-sn2,xcomp-purpose-put-2,def_prop(name,[attivita,informa,stato,umano]),def_prop(status,[stato])])
+lf(I'll Do The Same Lyrics.txt_4,12,cl6-nil-nil-look-[subj-agent-i-sn1,aux-am-nil,progr-looking-nil,def_prop(i,[umano])])
+lf(I'll Do The Same Lyrics.txt_5,18,cl10-nil-nil-go-[iobj-locat-head-sn11,iobj-locat-head-sn8,subj-agent-you-sn7,iobj-locat-head-sn4,subj-agent-killer-sn3,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(you,[umano]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(killer,[astratto,umano])])
+lf(I'll Do The Same Lyrics.txt_5,18,cl9-nil-nil-be-[])
+lf(I'll Do The Same Lyrics.txt_5,18,cl8-nil-nil-use-[obj-theme_unaff-flow-sn2,subj-agent-i-sn1,def_prop(flow,[attivita,evento,tempo]),def_prop(i,[umano])])

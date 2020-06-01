@@ -1,0 +1,39 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Advent Lyrics.txt_1-1  []-positive  []
+Advent Lyrics.txt_2-3  []-positive  []
+Advent Lyrics.txt_3-6  []-positive  []
+Advent Lyrics.txt_4-10  []-positive  []
+Advent Lyrics.txt_5-15  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Advent Lyrics.txt_1-1  [advent,Lyrics,by,R]  [title]
+Advent Lyrics.txt_2-3  [U]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Advent Lyrics.txt_3-6  [i]  [raise_issue(be,[_5368,factive,statement,_5386,subjective])]
+Advent Lyrics.txt_4-10  [N]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Advent Lyrics.txt_5-15  [picture,this,drinking,your,Bacardi,50,son,/,Cent,got,9,shots]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Advent Lyrics.txt_1-1)-[]
+2-(Advent Lyrics.txt_2-3)-[]
+half
+3-(Advent Lyrics.txt_3-6)-[]
+4-(Advent Lyrics.txt_4-10)-[]
+5-(Advent Lyrics.txt_5-15)-[primary-vision,emotions-aggression]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Advent Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-R-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,advent,sn1),def_prop(R,[attivita,informa,oggetto,strumento]),def_prop(Lyrics,[informa,tecno])])
+lf(Advent Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-U-sn1,def_prop(U,[place,attivita,informa])])
+lf(Advent Lyrics.txt_3,6,cl3-nil-nil-say-[obj-theme_unaff-i-sn1,def_prop(i,[umano])])
+lf(Advent Lyrics.txt_4,10,cl4-nil-nil-say-[obj-theme_unaff-N-sn1,def_prop(N,[istituzione,umano])])
+lf(Advent Lyrics.txt_5,15,cl6-nil-nil-get-[obj-goal-Bacardi-sn3,xcomp-purpose-drink-2,subj-agent-this-sn2,subj-agent-this-sn1,and(this,picture,sn1),def_prop(Bacardi,[istituzione]),def_prop(this,[oggetto,umano]),def_prop(this,[oggetto,umano])])
+lf(Advent Lyrics.txt_5,15,cl5-nil-nil-drink-[])

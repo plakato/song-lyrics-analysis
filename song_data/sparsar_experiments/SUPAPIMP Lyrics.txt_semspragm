@@ -1,0 +1,126 @@
+"POLARITY, DISCOURSE MARKERS"
+
+SUPAPIMP Lyrics.txt_1-1  []-positive  []
+SUPAPIMP Lyrics.txt_2-3  []-negative  [neg,neg]
+SUPAPIMP Lyrics.txt_2-4  []-negative  [fgb,neg,neg,neg,fgb]
+SUPAPIMP Lyrics.txt_2-5  []-negative  []
+SUPAPIMP Lyrics.txt_2-6  []-positive  []
+SUPAPIMP Lyrics.txt_2-7  []-positive  []
+SUPAPIMP Lyrics.txt_2-8  []-positive  []
+SUPAPIMP Lyrics.txt_2-9  []-positive  []
+SUPAPIMP Lyrics.txt_2-10  []-positive  [neg]
+SUPAPIMP Lyrics.txt_2-11  [when-temp_coinc]-positive  []
+SUPAPIMP Lyrics.txt_3-10  [but-advers]-suspension  [fgb,fgb,fgb,neg,neg,fhd,fgb]
+SUPAPIMP Lyrics.txt_4-16  [then-temp_seq]-positive  [fgb]
+SUPAPIMP Lyrics.txt_5-23  []-negative  [neg,fhd,neg]
+SUPAPIMP Lyrics.txt_6-30  []-negative  [neg]
+SUPAPIMP Lyrics.txt_6-31  [but-advers]-negative  [neg,fgb]
+SUPAPIMP Lyrics.txt_7-39  []-suspension  []
+SUPAPIMP Lyrics.txt_7-40  [so-result]-suspension  [fgb]
+SUPAPIMP Lyrics.txt_8-49  [(as)-temp_coinc]-positive  [fhd,neg]
+SUPAPIMP Lyrics.txt_8-50  [though-advers]-negative  [neg,neg,fgb,neg,neg,neg]
+SUPAPIMP Lyrics.txt_9-59  [but-advers,when-temp_coinc]-negative  [neg,neg,fgb,fgb,neg,neg,neg,fgb]
+SUPAPIMP Lyrics.txt_10-77  []-negative  []
+SUPAPIMP Lyrics.txt_10-78  [when-temp_coinc]-negative  []
+SUPAPIMP Lyrics.txt_11-91  []-suspension  [neg,neg,neg,neg]
+SUPAPIMP Lyrics.txt_12-104  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+SUPAPIMP Lyrics.txt_1-1  [supapimp,Lyrics,by,40Thousand]  [title]
+SUPAPIMP Lyrics.txt_2-3  [40thousand,SUPAPIMP,twist,the,BLUNT]  [reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(twist,[external,factive,narration,background,objective]),reject_expl_just(smoke,[external,factive,narration,background,objective]),reject_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+SUPAPIMP Lyrics.txt_2-4  [and,SMOKE,it,twist,,,the,twist,,,the,BLUNT,and]  [reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(twist,[external,factive,narration,background,objective]),reject_expl_just(smoke,[external,factive,narration,background,objective]),reject_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+SUPAPIMP Lyrics.txt_2-5  [SMOKE,it,got]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(twist,[external,factive,narration,background,objective]),provide_expl_just(smoke,[external,factive,narration,background,objective]),provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+SUPAPIMP Lyrics.txt_2-6  [TA,get,HIGH]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(twist,[external,factive,narration,background,objective]),provide_expl_just(smoke,[external,factive,narration,background,objective]),provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+SUPAPIMP Lyrics.txt_2-7  [,,got]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(twist,[external,factive,narration,background,objective]),provide_expl_just(smoke,[external,factive,narration,background,objective]),provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+SUPAPIMP Lyrics.txt_2-8  [TA,get,HIGH]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(twist,[external,factive,narration,background,objective]),provide_expl_just(smoke,[external,factive,narration,background,objective]),provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+SUPAPIMP Lyrics.txt_2-9  [,,got]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(twist,[external,factive,narration,background,objective]),provide_expl_just(smoke,[external,factive,narration,background,objective]),provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+SUPAPIMP Lyrics.txt_2-10  [TA,get,HIGH,my,MAIN,bitch,be,TWEAKIN]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(twist,[external,factive,narration,background,objective]),provide_expl_just(smoke,[external,factive,narration,background,objective]),provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+SUPAPIMP Lyrics.txt_2-11  [when,my,PAGER,be,going,off]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(twist,[external,factive,narration,background,objective]),provide_expl_just(smoke,[external,factive,narration,background,objective]),provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+SUPAPIMP Lyrics.txt_3-10  [,,but,that,be,the,HOES,and,you,was,on,my,DICK,but,now,damn,baby,,,can,you,get,off,',SHININ,IM,gold,CUZ,BMW,with,no,TINTS,on,it,ralph,LAUREN,my,,,AURA,be,FEELING,just,like,a,PIMP,DONT,it,im,GETTIN,that,CHEWIN,in,,,the,BACKSEAT,of,,,the,BUICK,and]  [provide_expl_just(be,[external,factive,adverse,background,objective])]
+SUPAPIMP Lyrics.txt_4-16  [she,knowing,what,she,doing,then,PUTTING,some,SYRUP,on,bacon,',CUZ]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_259904),provide_expl_just(put,[external,factive,narration,foreground,objective])]
+SUPAPIMP Lyrics.txt_5-23  [i,hard,GO,goyard,,,like,KIM,K,at,the,AIRPORT,got,my,bitch,stuffin,,,a,GRAM,of,that,DOUR,RIGHT,into,her,tampon,now]  [reject_expl_just(tampon,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,foreground,objective])]
+SUPAPIMP Lyrics.txt_6-30  [we,on,board,eating,EDIBLES,pulled]  [reject_expl_just(eat,[external,factive,narration,foreground,objective]),reject_expl_just(pull,[external,factive,cause,foreground,objective])]
+SUPAPIMP Lyrics.txt_6-31  [it,out,her,LOUIE,NEVERFULL,cuz,that,GM,AINT,never,full,hit,my,DM,but,its,always,full,in]  [reject_expl_just(eat,[external,factive,narration,foreground,objective]),reject_expl_just(pull,[external,factive,cause,foreground,objective])]
+SUPAPIMP Lyrics.txt_7-39  [the,PM,i,might,CLEAR]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(hoe,[external,factive,narration,background,objective])]
+SUPAPIMP Lyrics.txt_7-40  [it,out,so,in,the,am,i,will,WAKE,up,to,hoes,hittin]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(hoe,[external,factive,narration,background,objective])]
+SUPAPIMP Lyrics.txt_8-49  [COME,40THOUSAND,my,phone,messages,like,GIVE,me,that,bone,now,we,DRUNK,as]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+SUPAPIMP Lyrics.txt_8-50  [HELL,out,in,MEXICO,still,FITTING,these,HOES,in,the,LEXUS,,,though,cuz,they,HAIR,long,and,it,AINT,weave,booty,fat,,,it,AINT,FAKE,either,louie,bag,,,it,AINT,fake]  [reject_expl_just(give,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+SUPAPIMP Lyrics.txt_9-59  [neither,smelling,of,LOTION,and,DANK,REEFER,front,,,the,ZIP,and,i,BOUGHT,it,back,doubled,when,i,COPPED,that,SAC,broke,it,down,into,little,BAGS,slang,in,the,STREETS,HOPE,i,do,not,get,bagged,but,.,up]  [reject_expl_just(get,[external,factive,result,foreground,objective]),propose_opin_neg(get,[external,factive,result,foreground,objective]),reject_expl_just(buy,[external,factive,narration,foreground,objective]),reject_expl_just(bag,[external,factive,result,foreground,objective]),propose_opin_neg(bag,[external,factive,result,foreground,objective]),reject_expl_just(bag,[external,factive,narration,foreground,objective]),reject_expl_just(back,[external,factive,narration,background,objective]),reject_expl_just(hope,[external,factive,circumstance,background,objective]),propose_opin_neg(hope,[external,factive,circumstance,background,objective])]
+SUPAPIMP Lyrics.txt_10-77  [i,got,BITCHES,on,deck]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(taste,[external,factive,narration,background,objective]),propose_opin_neg(trap,[external,factive,circumstance,foreground,objective])]
+SUPAPIMP Lyrics.txt_10-78  [,,BUSTIN,trapping,them,C,pimp,juice,when,she,TASTE,the,ACID,press,record]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(taste,[external,factive,narration,background,objective]),propose_opin_neg(trap,[external,factive,circumstance,foreground,objective])]
+SUPAPIMP Lyrics.txt_11-91  [now,she,on,the,PLASMA,suck,my,DICK,until,she,TASTE,PLASMA,the,smoke,the,BLUNT,until,she,CATCH,the,ASTHMA,dump,the,KUSH,into,the,BACKWOOD,smoke]  [provide_expl_just(taste,[external,factive,narration,background,objective]),provide_expl_just(catch,[external,factive,narration,background,objective])]
+SUPAPIMP Lyrics.txt_12-104  [the,BLUNT,until,she,CATCH,the,ASTHMA,chopped]  [reject_expl_just(catch,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(SUPAPIMP Lyrics.txt_1-1)-[]
+2-(SUPAPIMP Lyrics.txt_2-3)-[primary-random_movement]
+3-(SUPAPIMP Lyrics.txt_2-4)-[primary-random_movement,primary-random_movement]
+4-(SUPAPIMP Lyrics.txt_2-5)-[]
+5-(SUPAPIMP Lyrics.txt_2-6)-[]
+6-(SUPAPIMP Lyrics.txt_2-7)-[]
+7-(SUPAPIMP Lyrics.txt_2-8)-[]
+8-(SUPAPIMP Lyrics.txt_2-9)-[]
+9-(SUPAPIMP Lyrics.txt_2-10)-[primary-sex]
+10-(SUPAPIMP Lyrics.txt_2-11)-[secondary-temporal_repere,primary-concreteness]
+11-(SUPAPIMP Lyrics.txt_3-10)-[secondary-temporal_repere,primary-water,primary-concreteness,emotions-glory,emotions-affection]
+12-(SUPAPIMP Lyrics.txt_4-16)-[secondary-temporal_repere,primary-orality]
+half
+13-(SUPAPIMP Lyrics.txt_5-23)-[primary-hard,emotions-affection,primary-concreteness,primary-sex,secondary-temporal_repere]
+14-(SUPAPIMP Lyrics.txt_6-30)-[]
+15-(SUPAPIMP Lyrics.txt_6-31)-[primary-concreteness,emotions-aggression]
+16-(SUPAPIMP Lyrics.txt_7-39)-[]
+17-(SUPAPIMP Lyrics.txt_7-40)-[primary-concreteness,emotions-aggression]
+18-(SUPAPIMP Lyrics.txt_8-49)-[secondary-social_behavior,emotions-affection,primary-narcissism,secondary-temporal_repere]
+19-(SUPAPIMP Lyrics.txt_8-50)-[primary-concreteness,primary-concreteness,primary-orality]
+20-(SUPAPIMP Lyrics.txt_9-59)-[primary-concreteness,primary-concreteness,secondary-temporal_repere,emotions-aggression]
+21-(SUPAPIMP Lyrics.txt_10-77)-[]
+22-(SUPAPIMP Lyrics.txt_10-78)-[secondary-abstract_tought,primary-orality,secondary-temporal_repere,secondary-instru_behavior]
+23-(SUPAPIMP Lyrics.txt_11-91)-[secondary-temporal_repere,primary-orality,primary-fire,primary-fire]
+24-(SUPAPIMP Lyrics.txt_12-104)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(SUPAPIMP Lyrics.txt_1,1,cl1-nil-nil-be-[iobj-scale-40Thousand-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,supapimp,sn1),def_prop(40Thousand,[nquant]),def_prop(Lyrics,[informa,tecno])])
+lf(SUPAPIMP Lyrics.txt_2,3,cl6-nil-nil-go-[subj-agent-pager-sn17,cmod-subord-go-",aux-be-nil,progr-going-nil,def_prop(pager,[informa,legale,tecno])])
+lf(SUPAPIMP Lyrics.txt_2,3,cl5-nil-nil-be-[])
+lf(SUPAPIMP Lyrics.txt_2,3,cl4-nil-nil-get-[adj-(mod)-HIGH-nil,obj-prop-TWEAKIN-sn13,xcomp-purpose-be-8,obj-theme_unaff-bitch-sn12,subj-agent-TA-sn11,subj-agent-pro-nil,subj-agent-TA-sn9,subj-agent-TA-sn7,subj-agent-it-sn6,and(bitch,MAIN,sn12),def_prop(TWEAKIN,[istituzione,umano]),def_prop(bitch,[animato,stato]),def_prop(TA,[istituzione,umano]),def_prop(TA,[istituzione,umano]),def_prop(TA,[istituzione,umano]),def_prop(it,[any])])
+lf(SUPAPIMP Lyrics.txt_2,3,cl3-nil-nil-smoke-[subj-theme-it-sn6,obj-theme-it-sn5,subj-agent-you-sn4,def_prop(it,[any]),def_prop(it,[any]),def_prop(you,[umano])])
+lf(SUPAPIMP Lyrics.txt_2,3,cl2-nil-nil-twist-[obj-theme-BLUNT-sn2,subj-agent-SUPAPIMP-sn1,and(SUPAPIMP,40thousand,sn1),def_prop(BLUNT,[istituzione]),def_prop(SUPAPIMP,[istituzione,umano])])
+lf(SUPAPIMP Lyrics.txt_3,10,cl9-nil-nil-get-[cmod-subord-be-but,ncmod-comitativo-tint-sn27,xadj-theme-baby-sn24,and(tint,no,sn27),and(baby,damn,sn24),def_prop(tint,[astratto,informa,tecno]),def_prop(baby,[animato,any,attivita,plant])])
+lf(SUPAPIMP Lyrics.txt_3,10,cl8-nil-can-can-[adj-locative-now-nil,subj-actor-you-sn22,def_prop(you,[umano])])
+lf(SUPAPIMP Lyrics.txt_3,10,cl7-nil-nil-be-[cmod-coord-be-and,ncmod-locativo-dick-sn19,subj-theme_bound-you-sn18,xcomp-prop-GETTIN-sn12,xcomp-theme-it-sn11,xcomp-prop-DONT-sn10,subj-sn3-pimp-sn9,adj-subj_disc-just-sn8,xcomp-prop-feel-sn7,xcomp-purpose-be-cl7,xcomp-theme-my-sn6,xcomp-prop-LAUREN-sn5,ncmod-locativo-it-sn4,xcomp-prop-hoe-sn3,xadj-sn1-that-sn2,subj-theme_bound-aura-sn1,and(GETTIN,BUICK,sn12),and(GETTIN,BACKSEAT,sn12),and(GETTIN,CHEWIN,sn12),and(GETTIN,that,sn12),and(LAUREN,ralph,sn5),def_prop(dick,[umano]),def_prop(you,[umano]),def_prop(GETTIN,[istituzione,umano]),def_prop(it,[any]),def_prop(DONT,[istituzione,umano]),def_prop(pimp,[umano]),def_prop(just,[informa,tecno]),def_prop(feel,[astratto,attivita]),def_prop(my,[informa,tecno]),def_prop(LAUREN,[istituzione,umano]),def_prop(it,[any]),def_prop(hoe,[oggetto,strumento]),def_prop(that,[oggetto,umano]),def_prop(aura,[astratto,stato])])
+lf(SUPAPIMP Lyrics.txt_4,16,cl12-nil-nil-put-[])
+lf(SUPAPIMP Lyrics.txt_4,16,cl11-nil-nil-do-[])
+lf(SUPAPIMP Lyrics.txt_4,16,cl10-nil-nil-know-[obj-theme_unaff-CUZ-sn3,subj-actor-she-sn1,def_prop(CUZ,[istituzione,umano]),def_prop(she,[umano])])
+lf(SUPAPIMP Lyrics.txt_5,23,nil-nil-nil-tampon-[adj-(mod)-now-nil,ncmod-loc_in-her-sn7,obj-theme-GRAM-sn6,obj2-paziente-stuffin-sn5,obj-prop-bitch-sn4,xcomp-purpose-get-cl13,ncmod-locativo-airport-sn3,subj-agent-KIM-sn2,subj-agent-goyard-sn1,and(KIM,K,sn2),and(goyard,i,sn1),and(goyard,hard,sn1),def_prop(her,[umano]),def_prop(GRAM,[informa,nquant,tecno]),def_prop(stuffin,[istituzione]),def_prop(bitch,[animato,stato]),def_prop(airport,[oggetto,strumento]),def_prop(KIM,[istituzione,umano]),def_prop(goyard,[istituzione])])
+lf(SUPAPIMP Lyrics.txt_5,23,cl13-nil-nil-get-[])
+lf(SUPAPIMP Lyrics.txt_6,30,cl16-nil-nil-be-[adj-(mod)-always-nil,xcomp-prop-full-sn9,xcomp-theme-its-sn8,xcomp-prop-cuz-sn7,xcomp-theme-NEVERFULL-sn6,ncmod-locativo-LOUIE-sn5,subj-theme_bound-it-sn4,and(cuz,gm,sn7),and(cuz,AINT,sn7),and(cuz,that,sn7),def_prop(full,[valutativo]),def_prop(its,[istituzione]),def_prop(cuz,[istituzione]),def_prop(NEVERFULL,[istituzione,umano]),def_prop(LOUIE,[istituzione]),def_prop(it,[any])])
+lf(SUPAPIMP Lyrics.txt_6,30,cl15-nil-nil-pull-[subj-prop-edible-sn3,xadj-result-eat-cl14,ncmod-locativo-board-sn2,subj-agent-we-sn1,def_prop(edible,[edible]),def_prop(board,[edible,istituzione,oggetto,sostanza,strumento]),def_prop(we,[umano])])
+lf(SUPAPIMP Lyrics.txt_6,30,cl14-nil-nil-eat-[])
+lf(SUPAPIMP Lyrics.txt_7,39,cl19-nil-nil-hoe-[cmod-subord-will-nil])
+lf(SUPAPIMP Lyrics.txt_7,39,cl18-nil-will-will-[adj-(mod)-up-nil,adj-(mod)-out-nil,obj-result-hittin-sn8,xcomp-prop-hoe-2,obj-theme_aff-wake-sn7,subj-sn4-i-sn6,ncmod-modal-be-sn5,subj-agent-it-sn4,def_prop(hittin,[istituzione]),def_prop(wake,[attivita,evento]),def_prop(i,[umano]),def_prop(be,[informa,tecno]),def_prop(it,[any])])
+lf(SUPAPIMP Lyrics.txt_7,39,cl17-nil-might-might-[obj-prop-CLEAR-sn3,subj-theme_unaff-i-sn2,subj-theme_unaff-i-sn1,and(i,PM,sn1),def_prop(CLEAR,[informa,tecno]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(SUPAPIMP Lyrics.txt_8,49,cl21-nil-nil-be-[xadj-adj-fake-adj4,xadj-adj-FAKE-adj3,xadj-adj-long-adj2,xadj-adj-FITTING-adj1,adj-(mod)-though-nil,adj-(mod)-still-nil,adj-(mod)-out-nil,xcomp-theme-AINT-sn32,xcomp-theme-it-sn31,xcomp-theme-bag-sn30,xcomp-theme-louie-sn29,xcomp-prop-AINT-sn28,xcomp-theme-it-sn27,xcomp-prop-fat-sn26,xcomp-theme-booty-sn25,xcomp-prop-AINT-sn24,xcomp-theme-it-sn23,xcomp-prop-hair-sn22,xcomp-theme-they-sn21,xcomp-theme-cuz-sn20,ncmod-locativo-LEXUS-sn19,xcomp-prop-hoe-sn18,xcomp-theme-this-sn17,ncmod-locativo-MEXICO-sn16,subj-theme_bound-HELL-sn15,and(louie,either,sn29),and(booty,weave,sn25),def_prop(fake,_273554),def_prop(FAKE,_273566),def_prop(long,_273578),def_prop(FITTING,_273590),def_prop(AINT,[istituzione,umano]),def_prop(it,[any]),def_prop(bag,[nquant,oggetto,strumento,umano]),def_prop(louie,[istituzione]),def_prop(AINT,[istituzione,umano]),def_prop(it,[any]),def_prop(fat,[valutativo]),def_prop(booty,[oggetto]),def_prop(AINT,[istituzione,umano]),def_prop(it,[any]),def_prop(hair,[animato,body_part,nquant,plant,umano]),def_prop(they,[umano]),def_prop(cuz,[istituzione]),def_prop(LEXUS,[istituzione,umano]),def_prop(hoe,[oggetto,strumento]),def_prop(this,[oggetto,umano]),def_prop(MEXICO,[istituzione,umano]),def_prop(HELL,[istituzione])])
+lf(SUPAPIMP Lyrics.txt_8,49,cl20-nil-nil-give-[obj-goal-me-sn3,subj-actor-message-sn2,subj-actor-message-sn1,and(me,we,sn3),and(me,bone,sn3),and(me,that,sn3),def_prop(me,[umano]),def_prop(message,[attivita,informa]),def_prop(message,[attivita,informa])])
+lf(SUPAPIMP Lyrics.txt_9,59,cl27-nil-nil-bag-[sn18-little-nil,adj-(mod)-up-nil,subj-actor-i-sn8,def_prop(little,_274310),def_prop(i,[umano])])
+lf(SUPAPIMP Lyrics.txt_9,59,cl26-not-nil-get-[subj-agent-i-sn7,aux-do-nil,def_prop(i,[umano])])
+lf(SUPAPIMP Lyrics.txt_9,59,cl25-nil-nil-hope-[xadj-adj-front-adj6,ncmod-specif-lotion-sn6,xadj-adj-smelling-adj5,ncmod-locativo-street-sn3,subj-agent-slang-sn2,subj-agent-slang-sn1,and(slang,reefer,sn1),and(slang,DANK,sn1),def_prop(front,_274614),def_prop(lotion,_274626),def_prop(smelling,_274638),def_prop(street,[oggetto,stato,strumento]),def_prop(slang,[attivita,informa]),def_prop(slang,[attivita,informa])])
+lf(SUPAPIMP Lyrics.txt_9,59,cl24-nil-nil-break-[])
+lf(SUPAPIMP Lyrics.txt_9,59,cl23-nil-nil-cop-[cmod-subord-bag-when,ncmod-loc_direct-bag-sn18,xcomp-prop-down-sn17,obj-theme-it-sn16,xcomp-prop-SAC-sn15,subj-actor-i-sn14,subj-actor-i-sn13,and(bag,little,sn18),and(SAC,that,sn15),and(i,i,sn13),def_prop(bag,[nquant,oggetto,strumento,umano]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(it,[any]),def_prop(SAC,[astratto,body_part,informa,oggetto,plant,tecno,umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(SUPAPIMP Lyrics.txt_9,59,nil-nil-nil-back-[xcomp-prop-doubled-sn12,obj-theme-it-sn11,xcomp-purpose-buy-3,subj-agent-i-sn10,def_prop(doubled,[evaluative]),def_prop(it,[any]),def_prop(i,[umano])])
+lf(SUPAPIMP Lyrics.txt_9,59,cl22-nil-nil-buy-[cmod-coord-bag-and])
+lf(SUPAPIMP Lyrics.txt_10,77,cl30-nil-nil-trap-[obj-theme-record-sn6,subj-agent-ACID-sn5,subj-agent-ACID-sn4,ncmod-locativo-deck-sn3,and(ACID,BUSTIN,sn4),and(ACID,C,sn4),def_prop(record,[astratto,attivita,informa,nquant,oggetto]),def_prop(ACID,[informa,oggetto,sostanza,strumento,tecno]),def_prop(ACID,[informa,oggetto,sostanza,strumento,tecno]),def_prop(deck,[oggetto,strumento])])
+lf(SUPAPIMP Lyrics.txt_10,77,nil-nil-nil-press-[])
+lf(SUPAPIMP Lyrics.txt_10,77,cl29-nil-nil-taste-[cmod-subord-trap-when,subj-theme_bound-you-sn11,def_prop(you,[umano])])
+lf(SUPAPIMP Lyrics.txt_10,77,cl28-nil-nil-get-[obj-theme_unaff-bitch-sn2,subj-agent-i-sn1,def_prop(bitch,[animato,stato]),def_prop(i,[umano])])
+lf(SUPAPIMP Lyrics.txt_11,91,cl32-nil-nil-catch-[cmod-subord-catch-until,obj-theme-dump-sn14,obj-goal-asthma-sn13,subj-agent-she-sn12,def_prop(dump,[attivita,informa,luogo]),def_prop(asthma,[stato]),def_prop(she,[umano])])
+lf(SUPAPIMP Lyrics.txt_11,91,cl31-nil-nil-taste-[cmod-subord-catch-until,xcomp-prop-BLUNT-sn17,xcomp-tema_emot-smoke-sn16,subj-theme_bound-she-sn15,and(smoke,PLASMA,sn16),def_prop(BLUNT,[istituzione]),def_prop(smoke,[astratto,attivita,cambia,informa,oggetto,strumento]),def_prop(she,[umano])])
+lf(SUPAPIMP Lyrics.txt_12,104,cl33-nil-nil-catch-[cmod-subord-catch-until,obj-goal-chopped-sn3,subj-agent-she-sn2,and(chopped,asthma,sn3),def_prop(chopped,[istituzione]),def_prop(she,[umano])])

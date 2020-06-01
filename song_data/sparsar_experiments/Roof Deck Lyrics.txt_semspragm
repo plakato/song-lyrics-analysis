@@ -1,0 +1,54 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Roof Deck Lyrics.txt_1-1  []-positive  []
+Roof Deck Lyrics.txt_2-3  []-negative  [neg,neg]
+Roof Deck Lyrics.txt_3-6  []-suspension  [neg,fgb,neg,fhd]
+Roof Deck Lyrics.txt_4-15  []-positive  []
+Roof Deck Lyrics.txt_5-20  []-positive  []
+Roof Deck Lyrics.txt_5-21  []-positive  []
+Roof Deck Lyrics.txt_6-27  []-positive  []
+Roof Deck Lyrics.txt_7-34  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Roof Deck Lyrics.txt_1-1  [roof,Deck,Lyrics,by,Zin-Zeta]  [title]
+Roof Deck Lyrics.txt_2-3  [i,beat,that,pussy,up]  [reject_expl_just(beat,[external,factive,explanation,background,objective]),propose_opin_neg(beat,[external,factive,explanation,background,objective])]
+Roof Deck Lyrics.txt_3-6  [made,it,hurt,and,glisten,now,i,am,driving,Mami,crazy,like,her,purse,is,missin-]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,cause,foreground,objective]),provide_expl_just(hurt,[external,factive,cause,foreground,objective]),provide_expl_just(drive,[external,factive,cause,foreground,objective])]
+Roof Deck Lyrics.txt_4-15  [Zin,gets,on,a,track]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Roof Deck Lyrics.txt_5-20  [you,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Roof Deck Lyrics.txt_5-21  [it,is,worth]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Roof Deck Lyrics.txt_6-27  [a,listen]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Roof Deck Lyrics.txt_7-34  [i,make,Nigga,music]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Roof Deck Lyrics.txt_1-1)-[primary-height]
+2-(Roof Deck Lyrics.txt_2-3)-[emotions-aggression]
+3-(Roof Deck Lyrics.txt_3-6)-[primary-counscious,emotions-aggression,primary-vision,secondary-temporal_repere,primary-counscious,emotions-affection]
+4-(Roof Deck Lyrics.txt_4-15)-[]
+half
+5-(Roof Deck Lyrics.txt_5-20)-[secondary-abstract_tought]
+6-(Roof Deck Lyrics.txt_5-21)-[]
+7-(Roof Deck Lyrics.txt_6-27)-[primary-sound]
+8-(Roof Deck Lyrics.txt_7-34)-[secondary-instru_behavior,primary-sound]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Roof Deck Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Zin-Zeta-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Deck,sn1),and(Lyrics,roof,sn1),def_prop(Zin-Zeta,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Roof Deck Lyrics.txt_2,3,cl2-nil-nil-beat-[adj-(mod)-up-nil,obj-theme_aff-pussy-sn2,subj-agent-i-sn1,and(pussy,that,sn2),def_prop(pussy,[animato,body_part,oggetto]),def_prop(i,[umano])])
+lf(Roof Deck Lyrics.txt_3,6,cl7-nil-nil-be-[subj-theme_bound-[]-sn28,xcomp-prop-[]-sn25,subj-theme_bound-purse-sn24,xcomp-prop-[]-sn21,subj-theme_bound-purse-sn20,xcomp-prop-[]-sn16,xcomp-prop-crazy-sn15,subj-theme_bound-purse-sn14,adj-(mod)-glisten-nil,and(crazy,Mami,sn15),def_prop([],nil),def_prop([],nil),def_prop(purse,[astratto,oggetto,strumento]),def_prop([],nil),def_prop(purse,[astratto,oggetto,strumento]),def_prop([],nil),def_prop(crazy,[valutativo]),def_prop(purse,[astratto,oggetto,strumento])])
+lf(Roof Deck Lyrics.txt_3,6,cl6-nil-nil-drive-[obj-prop-[]-sn10,xadj-result-be-5,obj-theme_unaff-crazy-sn9,subj-agent-purse-sn8,obj-theme_unaff-crazy-sn6,subj-agent-i-sn5,aux-am-nil,progr-driving-nil,and(crazy,Mami,sn9),and(crazy,Mami,sn6),def_prop([],nil),def_prop(crazy,[valutativo]),def_prop(purse,[astratto,oggetto,strumento]),def_prop(crazy,[valutativo]),def_prop(i,[umano])])
+lf(Roof Deck Lyrics.txt_3,6,cl5-nil-nil-glisten-[adj-(mod)-now-nil,subj-actor-pro-nil])
+lf(Roof Deck Lyrics.txt_3,6,cl4-nil-nil-hurt-[subj-tema_nonaff-it-sn2,def_prop(it,[any])])
+lf(Roof Deck Lyrics.txt_3,6,cl3-nil-nil-make-[subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Roof Deck Lyrics.txt_4,15,cl8-nil-nil-get-[ncmod-locativo-track-sn2,subj-experiencer-Zin-sn1,def_prop(track,[attivita,oggetto,strumento]),def_prop(Zin,[istituzione,umano])])
+lf(Roof Deck Lyrics.txt_5,20,cl10-nil-nil-be-[xcomp-prop-worth-sn3,subj-theme_bound-it-sn2,def_prop(worth,[astratto,nquant]),def_prop(it,[any])])
+lf(Roof Deck Lyrics.txt_5,20,cl9-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Roof Deck Lyrics.txt_6,27,cl11-nil-nil-say-[obj-theme_unaff-listen-sn1,def_prop(listen,[istituzione])])
+lf(Roof Deck Lyrics.txt_7,34,cl12-nil-nil-make-[obj-theme_aff-music-sn3,obj-goal-Nigga-sn2,subj-agent-i-sn1,def_prop(music,[astratto,attivita,informa]),def_prop(Nigga,[istituzione,umano]),def_prop(i,[umano])])

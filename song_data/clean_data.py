@@ -36,7 +36,7 @@ def create_clean_dataset(input_file, output_file):
             for i in range(len(song['lyrics'])):
                 new_song['lyrics'][i] = song['lyrics'][i]\
                     .replace('’', "'") \
-                    .replace('"', '')
+                    .replace('"', '').strip()
             new_song['very_short'] = very_short
             new_song['lang'] = lang
             new_song['id'] = idx

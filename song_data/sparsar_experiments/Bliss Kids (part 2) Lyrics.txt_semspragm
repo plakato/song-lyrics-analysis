@@ -1,0 +1,32 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Bliss Kids (part 2) Lyrics.txt_1-1  []-positive  []
+Bliss Kids (part 2) Lyrics.txt_1-2  []-positive  []
+Bliss Kids (part 2) Lyrics.txt_2-4  []-positive  [bkc,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Bliss Kids (part 2) Lyrics.txt_1-1  [bliss,kids,part,2,Lyrics,by,the,Wolf]  [title]
+Bliss Kids (part 2) Lyrics.txt_1-2  [pack]  [provide_expl_just(part,[external,factive,narration,background,objective]),raise_issue(be,[_52754,factive,statement,_52772,subjective])]
+Bliss Kids (part 2) Lyrics.txt_2-4  [rhyme,different,dawg,,,cause,being,me,makes,me,bliss,cause,,,we,just,different,kids,,,bliss,kids,uhh,ya-ll,think,still,its,stupid]  [propose_opin_neg(make,[external,factive,explanation,background,objective]),suggest(make,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective]),propose_opin_neg(rhyme,[external,factive,explanation,background,objective]),suggest(rhyme,[external,factive,explanation,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Bliss Kids (part 2) Lyrics.txt_1-1)-[]
+half
+2-(Bliss Kids (part 2) Lyrics.txt_1-2)-[]
+3-(Bliss Kids (part 2) Lyrics.txt_2-4)-[secondary-abstract_tought,secondary-abstract_tought,secondary-instru_behavior,secondary-abstract_tought,secondary-abstract_tought,secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Bliss Kids (part 2) Lyrics.txt_1,1,cl2-nil-nil-be-[subj-theme_bound-you-sn6,def_prop(you,[umano])])
+lf(Bliss Kids (part 2) Lyrics.txt_1,1,cl1-nil-nil-part-[arg_mod-agent-Wolf-sn4,obj-theme-Lyrics-sn3,obj-patient-2-sn2,subj-agent-kid-sn1,and(kid,bliss,sn1),def_prop(Wolf,[place,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(2,[nquant]),def_prop(kid,[animato,sostanza,umano])])
+lf(Bliss Kids (part 2) Lyrics.txt_2,4,cl5-nil-nil-make-[obj2-paziente-kid-sn131,obj-theme_aff-cause-sn130,obj-goal-me-sn129,subj-agent-we-sn128,obj-theme_aff-kid-sn126,obj2-paziente-cause-sn125,obj-theme_aff-me-sn124,obj-goal-me-sn123,subj-agent-we-sn122,obj-prop-me-sn64,xadj-result-be-4,subj-agent-we-sn63,obj-prop-me-sn4,xadj-result-be-3,subj-agent-cause-sn3,and(kid,different,sn131),and(cause,bliss,sn130),and(kid,different,sn126),and(cause,bliss,sn125),def_prop(kid,[animato,sostanza,umano]),def_prop(cause,[attivita,evento,informa]),def_prop(me,[umano]),def_prop(we,[umano]),def_prop(kid,[animato,sostanza,umano]),def_prop(cause,[attivita,evento,informa]),def_prop(me,[umano]),def_prop(me,[umano]),def_prop(we,[umano]),def_prop(me,[umano]),def_prop(we,[umano]),def_prop(me,[umano]),def_prop(cause,[attivita,evento,informa])])
+lf(Bliss Kids (part 2) Lyrics.txt_2,4,cl4-nil-nil-be-[])
+lf(Bliss Kids (part 2) Lyrics.txt_2,4,cl3-nil-nil-rhyme-[obj-patient1-dawg-sn2,subj-agent-you-sn1,and(dawg,different,sn2),def_prop(dawg,[animato]),def_prop(you,[umano])])

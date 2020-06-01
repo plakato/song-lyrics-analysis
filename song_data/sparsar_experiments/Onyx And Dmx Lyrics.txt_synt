@@ -1,0 +1,37 @@
+"Grammatical Functions for Nominal Heads and Modifiers"
+
+obj-theme-1-Tech
+specif-1-Dmx
+specif-1-King
+specif-1-onyx
+subj-agent-1-Lyrics
+specif-3-Dmx
+specif-3-f
+subj-agent-3-Onyx
+
+
+
+"Disambiguated Tagged Text"
+
+1-onyx-n
+2-and-cong
+3-Dmx-nh
+4-Lyrics-n
+5-by-pda
+6-sway-vin
+7-(&)-and
+8-King-n
+9-Tech-n
+10-(.)-punto
+11-f-n
+12-(/)-par
+13-Dmx-nh
+14-Onyx-np
+15-sway-v
+
+
+
+"Clause Separated All Grammatical Functions"
+
+1-[ncmod-specif(Tech-sn3,King),ncmod-specif(Lyrics-sn2,Dmx),ncmod-specif(onyx-sn4,Dmx),ncmod-specif(Lyrics-sn1,onyx),obj-theme(sway,Tech-sn3),subj-agent(sway,Lyrics-sn2),subj-agent(sway,Lyrics-sn1),voice(active,cl1,sway),tense(pres,cl1,sway)]
+3-[ncmod-specif(Onyx-sn2,Dmx),ncmod-specif(f-sn3,Dmx),ncmod-specif(Onyx-sn1,f),subj-agent(sway,Onyx-sn2),subj-agent(sway,Onyx-sn1),voice(active,cl2,sway),tense(pres,cl2,sway)]

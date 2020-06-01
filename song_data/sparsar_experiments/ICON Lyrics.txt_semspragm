@@ -1,0 +1,39 @@
+"POLARITY, DISCOURSE MARKERS"
+
+ICON Lyrics.txt_1-1  []-positive  []
+ICON Lyrics.txt_2-3  []-positive  []
+ICON Lyrics.txt_3-6  []-positive  []
+ICON Lyrics.txt_4-10  [(as)-temp_coinc]-suspension  []
+ICON Lyrics.txt_4-11  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+ICON Lyrics.txt_1-1  [icon,Lyrics,by,A-THUG]  [title]
+ICON Lyrics.txt_2-3  [b]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+ICON Lyrics.txt_3-6  [R]  [raise_issue(be,[_236548,factive,statement,_236566,subjective])]
+ICON Lyrics.txt_4-10  [s,will,itself,esablish,as,a,part,of,the,elite,record]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(label,[external,factive,explanation,background,objective]),suggest(label,[external,factive,explanation,background,objective]),provide_expl_just(produce,[external,factive,explanation,background,objective]),suggest(produce,[external,factive,explanation,background,objective])]
+ICON Lyrics.txt_4-11  [labels,that,produce,good,music,from,Hip-Hop,to,R]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(label,[external,factive,explanation,background,objective]),suggest(label,[external,factive,explanation,background,objective]),provide_expl_just(produce,[external,factive,explanation,background,objective]),suggest(produce,[external,factive,explanation,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(ICON Lyrics.txt_1-1)-[]
+2-(ICON Lyrics.txt_2-3)-[]
+half
+3-(ICON Lyrics.txt_3-6)-[]
+4-(ICON Lyrics.txt_4-10)-[emotions-glory,secondary-instru_behavior]
+5-(ICON Lyrics.txt_4-11)-[secondary-instru_behavior,primary-sound]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(ICON Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-A-THUG-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,icon,sn1),def_prop(A-THUG,[attivita,informa,istituzione,relat,sociale,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(ICON Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-b-sn1,def_prop(b,[legale])])
+lf(ICON Lyrics.txt_3,6,cl3-nil-nil-say-[obj-theme_unaff-R-sn1,def_prop(R,[attivita,informa,oggetto,strumento])])
+lf(ICON Lyrics.txt_4,10,cl6-nil-nil-produce-[xcomp-recipient-part-sn3,def_prop(part,[astratto,attivita,body_part,informa,oggetto,relat,strumento,umano])])
+lf(ICON Lyrics.txt_4,10,cl5-nil-nil-label-[ncmod-loc_origin-hip-hop-sn8,obj-destination-music-sn7,subj-agent-you-sn6,and(music,good,sn7),def_prop(hip-hop,[istituzione]),def_prop(music,[astratto,attivita,informa]),def_prop(you,[umano])])
+lf(ICON Lyrics.txt_4,10,cl4-nil-will-will-[obj-theme_aff-esablish-sn2,subj-agent-s-sn1,and(esablish,itself,sn2),def_prop(esablish,[istituzione]),def_prop(s,[tempo])])

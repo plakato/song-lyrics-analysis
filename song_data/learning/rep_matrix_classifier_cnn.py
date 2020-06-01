@@ -33,12 +33,12 @@ class Network(tf.keras.Sequential):
         self.add(tf.keras.layers.Activation('elu'))
         self.add(tf.keras.layers.BatchNormalization())
         # Optionally add more layers if needed.
-        self.add(tf.keras.layers.MaxPooling2D(pool_size=(2, 2)))
+        self.add(tf.keras.layers.GlobalMaxPooling2D(pool_size=(2, 2)))
         self.add(tf.keras.layers.Dropout(0.2))
         # Optionally repeat the whole block more times.
 
-        self.add(tf.keras.layers.Flatten())
-        self.add(tf.keras.layers.Dense(10, activation="softmax"))
+        # self.add(tf.keras.layers.Flatten())
+        self.add(tf.keras.layers.Dense(1, activation="sigmoid"))
 
         self.compile(optimizer=tf.keras.optimizers.RMSprop(lr=0.001, decay=1e-6),
                      loss=tf.keras.losses.SparseCategoricalCrossentropy(),
@@ -69,9 +69,9 @@ if __name__ == "__main__":
     parser.add_argument("--epochs", default=30, type=int, help="Number of epochs.")
     parser.add_argument("--threads", default=1, type=int, help="Maximum number of threads to use.")
     parser.add_argument("--data_dir",
-                        default="../sparsar_experiments/rhymes/original/",
+                        default="../sparsar_experiments/rhymes/",
                         type=str,
-                        help="Path to input data.")
+                        help="Path to input data with images.")
     args = parser.parse_args()
 
     # Fix random seeds
@@ -88,9 +88,11 @@ if __name__ == "__main__":
     ))
 
     # Load data
-    for item in os.listdir(args.data_path):
-        if isfile(join(args.data_path, item)) and item.endswith('.png'):
-            # TODO
+    data = tf.keras.preprocessing.image_dataset_from_directory(args.data_dir,
+        labels="inferred", label_mode="int", class_names=None,
+        color_mode="rgb", batch_size=32, image_size=(None, None), shuffle=True,
+        seed=None, validation_split=0.2, subset=None,
+        interpolation="bilinear", follow_links=False, )
 
 
     # Create the network and train
@@ -99,5 +101,6 @@ if __name__ == "__main__":
 
     # Generate test set annotations, but in args.logdir to allow parallel execution.
     with open(os.path.join(args.logdir, "cifar_competition_test.txt"), "w", encoding="utf-8") as out_file:
-        for probs in network.predict(cifar.test.data["images"], batch_size=args.batch_size):
+        for probs in network.predict(data.test.data["images"],
+                                     batch_size=args.batch_size):
             print(np.argmax(probs), file=out_file)

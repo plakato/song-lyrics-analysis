@@ -1,0 +1,239 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Lay Down And Just Write Lyrics.txt_1-1  []-positive  []
+Lay Down And Just Write Lyrics.txt_1-2  []-positive  [fgb]
+Lay Down And Just Write Lyrics.txt_2-4  []-negative  [neg]
+Lay Down And Just Write Lyrics.txt_3-8  []-negative  [fgb,neg,fgb,neg,fhd,fhd]
+Lay Down And Just Write Lyrics.txt_4-17  []-positive  []
+Lay Down And Just Write Lyrics.txt_5-23  []-positive  [bkc]
+Lay Down And Just Write Lyrics.txt_6-30  []-negative  [neg]
+Lay Down And Just Write Lyrics.txt_6-31  []-negative  [neg,fhd]
+Lay Down And Just Write Lyrics.txt_7-38  []-negative  [neg,neg,neg,fgb]
+Lay Down And Just Write Lyrics.txt_7-39  []-positive  []
+Lay Down And Just Write Lyrics.txt_8-47  []-negative  [neg]
+Lay Down And Just Write Lyrics.txt_8-48  []-positive  []
+Lay Down And Just Write Lyrics.txt_8-49  []-negative  [fgb]
+Lay Down And Just Write Lyrics.txt_8-49  []-negative  [fgb]
+Lay Down And Just Write Lyrics.txt_9-56  []-positive  []
+Lay Down And Just Write Lyrics.txt_9-57  []-positive  []
+Lay Down And Just Write Lyrics.txt_10-67  []-positive  []
+Lay Down And Just Write Lyrics.txt_11-79  []-negative  [neg]
+Lay Down And Just Write Lyrics.txt_11-80  []-positive  []
+Lay Down And Just Write Lyrics.txt_11-81  []-negative  [neg,neg]
+Lay Down And Just Write Lyrics.txt_11-82  []-negative  [neg,fhd]
+Lay Down And Just Write Lyrics.txt_12-95  []-positive  [neg,neg]
+Lay Down And Just Write Lyrics.txt_12-96  []-positive  []
+Lay Down And Just Write Lyrics.txt_12-97  []-positive  [neg,fgb]
+Lay Down And Just Write Lyrics.txt_12-98  []-suspension  []
+Lay Down And Just Write Lyrics.txt_13-112  [(as)-temp_coinc]-negative  [neg,neg,neg,neg]
+Lay Down And Just Write Lyrics.txt_14-137  []-positive  [neg]
+Lay Down And Just Write Lyrics.txt_15-152  [(as)-temp_coinc,if-hypoth]-negative  [fgb,neg]
+Lay Down And Just Write Lyrics.txt_15-153  []-positive  []
+Lay Down And Just Write Lyrics.txt_16-170  []-positive  [fgb]
+Lay Down And Just Write Lyrics.txt_16-171  []-positive  []
+Lay Down And Just Write Lyrics.txt_17-188  []-positive  [neg]
+Lay Down And Just Write Lyrics.txt_17-189  []-positive  []
+Lay Down And Just Write Lyrics.txt_17-190  []-positive  []
+Lay Down And Just Write Lyrics.txt_17-191  [but-advers]-negative  [fgb]
+Lay Down And Just Write Lyrics.txt_17-191  [(as)-temp_coinc,but-advers]-negative  [fgb,neg]
+Lay Down And Just Write Lyrics.txt_18-211  []-positive  []
+Lay Down And Just Write Lyrics.txt_18-212  []-negative  [fgb,neg]
+Lay Down And Just Write Lyrics.txt_18-212  []-suspension  [fgb,neg,neg,ass]
+Lay Down And Just Write Lyrics.txt_19-234  [since-cause]-negative  [neg]
+Lay Down And Just Write Lyrics.txt_20-257  []-positive  []
+Lay Down And Just Write Lyrics.txt_20-258  []-suspension  [neg,fgb,neg]
+Lay Down And Just Write Lyrics.txt_21-279  [so-result,when-temp_coinc]-suspension  [fgb,neg]
+Lay Down And Just Write Lyrics.txt_22-305  []-question  []
+Lay Down And Just Write Lyrics.txt_23-328  []-question  [neg]
+Lay Down And Just Write Lyrics.txt_24-352  []-negative  []
+Lay Down And Just Write Lyrics.txt_24-353  []-positive  [ass]
+Lay Down And Just Write Lyrics.txt_24-354  [but-advers]-none  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Lay Down And Just Write Lyrics.txt_1-1  [lay,down]  [title]
+Lay Down And Just Write Lyrics.txt_1-2  [and,just,Write,Lyrics,by,Unorthodocks]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_2-4  [Stephen,hawking,could,not,comprehend,the,depth,of]  [reject_expl_just(hawk,[external,factive,narration,foreground,objective]),reject_expl_just(comprehend,[external,nonfactive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_3-8  [what,lies,inside,my,mind,and,i,design,with,every,breath,Shakespeare,could,not,hold,a,pen,like,me,one,like,breaks,illiterates,obliterates]  [reject_expl_just(hold,[external,factive,narration,foreground,objective]),reject_expl_just(can,[external,nonfactive,narration,background,objective]),reject_expl_just(lie,[external,factive,narration,background,objective]),reject_expl_just(design,[external,factive,narration,background,objective]),reject_expl_just(obliterate,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_4-17  [his,syche,let,me,reiterate]  [provide_expl_just(reiterate,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_5-23  [inseminate,your,wifey,slayed,tracks,from,styles,from,laid,back,to,hyphy,yes]  [provide_expl_just(slay,[external,factive,narration,foreground,objective]),provide_expl_just(inseminate,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_6-30  [i,have,made,stacks,no]  [reject_expl_just(make,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_6-31  [icey,pricey,Rollies,or,Maybachs]  [reject_expl_just(make,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_7-38  [he,no,could,not,care,slightly,what,you,aspire,to]  [reject_expl_just(care,[external,nonfactive,narration,background,objective]),reject_expl_just(aspire,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_7-39  [you,aspire,to]  [provide_expl_just(care,[external,nonfactive,narration,background,objective]),provide_expl_just(aspire,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_8-47  [i,retire,to,nightly]  [reject_expl_just(take,[external,factive,narration,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_8-48  [i,recognize]  [provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_8-49  [and,i,don-t,take,it,lightly]  [provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_8-49  [and,i,don-t,take,it,lightly,that]  [provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_9-56  [i,just,set,my,sights,at,a,higher,height]  [provide_expl_just(set,[external,factive,cause,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_9-57  [B,could]  [provide_expl_just(set,[external,factive,cause,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_10-67  [it,be,that,you,are]  [provide_expl_just(it,[internal,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_11-79  [so_much,Yo,flyer,just,might,be,never]  [reject_expl_just(might,[external,nonfactive,narration,foreground,objective]),reject_expl_just(fire,[external,factive,cause,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(hire,[external,factive,narration,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_11-80  [,,been,hired]  [provide_expl_just(might,[external,nonfactive,narration,foreground,objective]),provide_expl_just(fire,[external,factive,cause,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(hire,[external,factive,narration,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_11-81  [,,never,been,fired,never]  [reject_expl_just(might,[external,nonfactive,narration,foreground,objective]),reject_expl_just(fire,[external,factive,cause,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(hire,[external,factive,narration,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_11-82  [been,tired,,,desired,or,secretly,admired,i,play]  [reject_expl_just(might,[external,nonfactive,narration,foreground,objective]),reject_expl_just(fire,[external,factive,cause,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(hire,[external,factive,narration,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_12-95  [a,social,spectator,here,crunch,collect,data,digits,into,lyrics,that,i,store,to,catch,wreck,later,dismantle,your,philosophy,in,a,split]  [provide_expl_just(dismantle,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(store,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_12-96  [second,could]  [provide_expl_just(dismantle,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(store,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_12-97  [,,give,a,damn,about,what,an,upper,class,twit,reckon]  [provide_expl_just(dismantle,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(store,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_12-98  [i,will]  [provide_expl_just(dismantle,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(store,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_13-112  [have,you,reborn,in,a,mere,moment,,,it,is,clear,you,are,,,no,opponent,for,the,Arizonan,Ronin,getting,caught,up,in,my,zone,leads,to,serotonin,depletion,known,to,leave,a,legion,pleading,at,the,feet,of,the,Phoenician,as,you,are,leaching,off,the,genius,trying,to,feed,off,my,Secretion,my,rhyme,feats,are,prime,meet,you,small,potatas,,,still,yelling]  [reject_expl_just(plead,[external,factive,narration,foreground,objective]),reject_expl_just(leave,[external,factive,narration,background,objective]),reject_expl_just(know,[external,factive,cause,foreground,objective]),reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(feed,[external,factive,narration,background,objective]),reject_expl_just(catch,[external,factive,narration,foreground,objective]),reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(lead,[external,factive,narration,background,objective]),reject_expl_just(leach,[external,factive,narration,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_14-137  [the,greatest,we,give,a,fuck]  [provide_expl_just(give,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_15-152  [if,y-all,debate,us,call,as,haters]  [reject_expl_just(call,[external,factive,narration,background,objective]),reject_expl_just(acknowledge,[external,factive,narration,background,objective]),reject_expl_just(debate,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_15-153  [,,we,just,acknowledge]  [provide_expl_just(call,[external,factive,narration,background,objective]),provide_expl_just(acknowledge,[external,factive,narration,background,objective]),provide_expl_just(debate,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_16-170  [what,is,factual]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_16-171  [,,these,other,dudes,rap,,,i,make,tracks,that,impact]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_17-188  [all,every,bar,you,calculated,styles]  [propose_opin_neg(calculate,[external,factive,result,foreground,objective]),provide_expl_just(compile,[external,factive,narration,foreground,objective]),provide_expl_just(drive,[external,factive,cause,foreground,objective]),provide_expl_just(create,[external,factive,adverse,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_17-189  [amalgamated,compiled]  [provide_expl_just(calculate,[external,factive,result,foreground,objective]),provide_expl_just(compile,[external,factive,narration,foreground,objective]),provide_expl_just(drive,[external,factive,cause,foreground,objective]),provide_expl_just(create,[external,factive,adverse,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_17-190  [algorithms,in,files,that,i,created,drove,miles,sedated,on,an,unpaved,road,an,unbuilt,city,in]  [provide_expl_just(calculate,[external,factive,result,foreground,objective]),provide_expl_just(compile,[external,factive,narration,foreground,objective]),provide_expl_just(drive,[external,factive,cause,foreground,objective]),provide_expl_just(create,[external,factive,adverse,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_17-191  [but,i,still,paid,tolls,the,,,God,laid,scrolls]  [propose_opin_neg(calculate,[external,factive,result,foreground,objective]),provide_expl_just(compile,[external,factive,narration,foreground,objective]),provide_expl_just(drive,[external,factive,cause,foreground,objective]),provide_expl_just(create,[external,factive,adverse,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_17-191  [but,i,still,paid,tolls,the,,,God,laid,scrolls,for,mere,mortals,to,learn,from,as]  [reject_expl_just(calculate,[external,factive,result,foreground,objective]),propose_opin_neg(calculate,[external,factive,result,foreground,objective]),reject_expl_just(compile,[external,factive,narration,foreground,objective]),reject_expl_just(drive,[external,factive,cause,foreground,objective]),reject_expl_just(create,[external,factive,adverse,foreground,objective]),provide_expl_just(create,[external,factive,adverse,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_18-211  [i,lean,back,with,a,green,quarter]  [provide_expl_just(string,[external,factive,narration,background,objective]),provide_expl_just(rap,[external,factive,cause,foreground,objective]),provide_expl_just(burn,[external,factive,circumstance,background,objective])]
+Lay Down And Just Write Lyrics.txt_18-212  [and,burn,some,the,rap]  [reject_expl_just(string,[external,factive,narration,background,objective]),reject_expl_just(rap,[external,factive,cause,foreground,objective]),reject_expl_just(burn,[external,factive,circumstance,background,objective]),propose_opin_neg(burn,[external,factive,circumstance,background,objective])]
+Lay Down And Just Write Lyrics.txt_18-212  [and,burn,some,the,rap,black,quarterback,white,emcee,,,rapping,on,any,night,sure,to,sack,your,first,string]  [accept_expl_opin(string,[external,factive,narration,background,objective]),accept_expl_opin(rap,[external,factive,cause,foreground,objective]),accept_expl_opin(burn,[external,factive,circumstance,background,objective])]
+Lay Down And Just Write Lyrics.txt_19-234  [captains,i,am,the,worst,thing,to,happen,to,rap,since,major,labels,the,same,ones]  [reject_expl_just(label,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_20-257  [that,made]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_20-258  [you,the,rage,and,staged,your,fables,you,never,paid,dues]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_21-279  [you,all,?,did,was,pay,your,way,so,when,i,am,rocking,open,you,mics,,,will,be,rocking,pay-to,play,quit,talking,who,cares]  [provide_expl_just(rock,[internal,nonfactive,narration,background,objective]),provide_expl_just(pay,[internal,factive,narration,background,objective]),provide_expl_just(quit,[internal,factive,narration,foreground,objective]),provide_expl_just(talk,[internal,factive,narration,background,objective]),provide_expl_just(care,[internal,factive,narration,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_22-305  [it,rocks,who,says,who,?]  [provide_expl_just(say,[internal,factive,narration,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_23-328  [hard,?]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Lay Down And Just Write Lyrics.txt_24-352  [your,arms,are,too_short,to,trade,blows,with,docks]  [provide_expl_just(cat,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(rhyme,[external,nonfactive,narration,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_24-353  [the,God,sure,you,can,rhyme,fine]  [accept_expl_opin(cat,[external,factive,narration,background,objective]),accept_expl_opin(be,[external,factive,narration,background,objective]),accept_expl_opin(rhyme,[external,nonfactive,narration,foreground,objective])]
+Lay Down And Just Write Lyrics.txt_24-354  [but,next,mine,your,flows,sub-par,you,cats,are,Primetimes]  [provide_expl_just(cat,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(rhyme,[external,nonfactive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Lay Down And Just Write Lyrics.txt_1-1)-[primary-passivity]
+2-(Lay Down And Just Write Lyrics.txt_1-2)-[]
+3-(Lay Down And Just Write Lyrics.txt_2-4)-[secondary-abstract_tought,primary-depth]
+4-(Lay Down And Just Write Lyrics.txt_3-8)-[primary-passivity,primary-concreteness,secondary-temporal_repere,primary-odor,emotions-affection,emotions-affection,emotions-aggression,emotions-aggression]
+5-(Lay Down And Just Write Lyrics.txt_4-17)-[]
+6-(Lay Down And Just Write Lyrics.txt_5-23)-[emotions-aggression,primary-passivity,primary-concreteness]
+7-(Lay Down And Just Write Lyrics.txt_6-30)-[primary-counscious]
+8-(Lay Down And Just Write Lyrics.txt_6-31)-[primary-cold,secondary-instru_behavior]
+9-(Lay Down And Just Write Lyrics.txt_7-38)-[]
+10-(Lay Down And Just Write Lyrics.txt_7-39)-[]
+11-(Lay Down And Just Write Lyrics.txt_8-47)-[primary-passivity]
+12-(Lay Down And Just Write Lyrics.txt_8-48)-[]
+13-(Lay Down And Just Write Lyrics.txt_8-49)-[primary-vision]
+14-(Lay Down And Just Write Lyrics.txt_8-49)-[primary-vision]
+15-(Lay Down And Just Write Lyrics.txt_9-56)-[primary-vision,primary-concreteness,primary-height,primary-height]
+16-(Lay Down And Just Write Lyrics.txt_9-57)-[]
+17-(Lay Down And Just Write Lyrics.txt_10-67)-[]
+18-(Lay Down And Just Write Lyrics.txt_11-79)-[primary-ascend]
+19-(Lay Down And Just Write Lyrics.txt_11-80)-[secondary-instru_behavior]
+20-(Lay Down And Just Write Lyrics.txt_11-81)-[primary-fire]
+21-(Lay Down And Just Write Lyrics.txt_11-82)-[primary-unknow,emotions-glory,emotions-expressive_beh]
+22-(Lay Down And Just Write Lyrics.txt_12-95)-[secondary-social_behavior,primary-concreteness,secondary-instru_behavior,secondary-restraint,emotions-aggression]
+23-(Lay Down And Just Write Lyrics.txt_12-96)-[]
+24-(Lay Down And Just Write Lyrics.txt_12-97)-[primary-water,primary-height,secondary-order]
+half
+25-(Lay Down And Just Write Lyrics.txt_12-98)-[]
+26-(Lay Down And Just Write Lyrics.txt_13-112)-[secondary-temporal_repere,secondary-restraint,secondary-abstract_tought,primary-concreteness,primary-narcissism,primary-concreteness,emotions-glory,secondary-instru_behavior,primary-orality,primary-concreteness,secondary-instru_behavior,secondary-social_behavior]
+27-(Lay Down And Just Write Lyrics.txt_14-137)-[primary-sex]
+28-(Lay Down And Just Write Lyrics.txt_15-152)-[secondary-social_behavior,emotions-aggression]
+29-(Lay Down And Just Write Lyrics.txt_15-153)-[]
+30-(Lay Down And Just Write Lyrics.txt_16-170)-[]
+31-(Lay Down And Just Write Lyrics.txt_16-171)-[secondary-instru_behavior]
+32-(Lay Down And Just Write Lyrics.txt_17-188)-[secondary-temporal_repere,secondary-restraint,secondary-abstract_tought]
+33-(Lay Down And Just Write Lyrics.txt_17-189)-[]
+34-(Lay Down And Just Write Lyrics.txt_17-190)-[primary-brink]
+35-(Lay Down And Just Write Lyrics.txt_17-191)-[secondary-instru_behavior,primary-passivity]
+36-(Lay Down And Just Write Lyrics.txt_17-191)-[secondary-instru_behavior,primary-passivity,secondary-abstract_tought]
+37-(Lay Down And Just Write Lyrics.txt_18-211)-[primary-descent,primary-concreteness,primary-vision]
+38-(Lay Down And Just Write Lyrics.txt_18-212)-[primary-fire]
+39-(Lay Down And Just Write Lyrics.txt_18-212)-[primary-fire,secondary-abstract_tought]
+40-(Lay Down And Just Write Lyrics.txt_19-234)-[]
+41-(Lay Down And Just Write Lyrics.txt_20-257)-[primary-counscious]
+42-(Lay Down And Just Write Lyrics.txt_20-258)-[emotions-aggression,secondary-instru_behavior]
+43-(Lay Down And Just Write Lyrics.txt_21-279)-[secondary-instru_behavior,secondary-temporal_repere,primary-concreteness,emotions-expressive_beh,emotions-anxiety]
+44-(Lay Down And Just Write Lyrics.txt_22-305)-[primary-hard,secondary-social_behavior]
+45-(Lay Down And Just Write Lyrics.txt_23-328)-[primary-hard]
+46-(Lay Down And Just Write Lyrics.txt_24-352)-[primary-narcissism,secondary-instru_behavior]
+47-(Lay Down And Just Write Lyrics.txt_24-353)-[secondary-abstract_tought]
+48-(Lay Down And Just Write Lyrics.txt_24-354)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Lay Down And Just Write Lyrics.txt_1,1,cl1-nil-nil-be-[cmod-subord-be-",arg_mod-agent-Unorthodocks-sn3,subj-theme_bound-Lyrics-sn2,and(Lyrics,Write,sn2),def_prop(Unorthodocks,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Lay Down And Just Write Lyrics.txt_1,1,nil-nil-nil-down-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_2,4,cl3-not-could-comprehend-[obj-agent-depth-sn2,xcomp-purpose-hawk-2,subj-agent-Stephen-sn1,def_prop(depth,[astratto,luogo,stato]),def_prop(Stephen,[place,umano])])
+lf(Lay Down And Just Write Lyrics.txt_2,4,cl2-nil-nil-hawk-[])
+lf(Lay Down And Just Write Lyrics.txt_3,8,nil-nil-nil-obliterate-[subj-agent-illiterate-sn6,and(illiterate,break,sn6),def_prop(illiterate,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_3,8,cl7-nil-nil-hold-[obj-goal-pen-sn14,subj-agent-you-sn13,def_prop(pen,[animato,oggetto,strumento]),def_prop(you,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_3,8,cl6-not-could-can-[obj-prop-pen-sn12,xcomp-purpose-hold-5,subj-agent-you-sn11,obj-goal-pen-sn10,xcomp-purpose-hold-4,subj-actor-Shakespeare-sn9,def_prop(pen,[animato,oggetto,strumento]),def_prop(you,[umano]),def_prop(pen,[animato,oggetto,strumento]),def_prop(Shakespeare,[place,umano])])
+lf(Lay Down And Just Write Lyrics.txt_3,8,cl5-nil-nil-design-[])
+lf(Lay Down And Just Write Lyrics.txt_3,8,cl4-nil-nil-lie-[adj-(mod)-inside-nil,obj-theme-what-sn2,subj-actor-mind-sn1,def_prop(what,[oggetto]),def_prop(mind,[astratto])])
+lf(Lay Down And Just Write Lyrics.txt_4,17,cl8-nil-nil-reiterate-[obj-theme_unaff-me-sn2,xcomp-purpose-let-2,subj-agent-syche-sn1,def_prop(me,[umano]),def_prop(syche,[istituzione])])
+lf(Lay Down And Just Write Lyrics.txt_5,23,cl10-nil-nil-slay-[ncmod-locativo-hyphy-sn21,ncmod-modal-laid-sn19,ncmod-loc_origin-style-sn18,adj-(mod)-back-nil,ncmod-locativo-hyphy-sn15,ncmod-modal-laid-sn14,ncmod-loc_origin-style-sn13,subj-agent-track-sn12,ncmod-locativo-hyphy-sn8,ncmod-modal-laid-sn7,ncmod-loc_origin-style-sn6,obj-patient-track-sn5,subj-agent-wifey-sn4,def_prop(hyphy,[istituzione]),def_prop(laid,[evaluative]),def_prop(style,[animato,astratto,attivita,informa,plant]),def_prop(back,[istituzione]),def_prop(hyphy,[istituzione]),def_prop(laid,[evaluative]),def_prop(style,[animato,astratto,attivita,informa,plant]),def_prop(track,[attivita,oggetto,strumento]),def_prop(hyphy,[istituzione]),def_prop(laid,[evaluative]),def_prop(style,[animato,astratto,attivita,informa,plant]),def_prop(track,[attivita,oggetto,strumento]),def_prop(wifey,[istituzione])])
+lf(Lay Down And Just Write Lyrics.txt_5,23,cl9-nil-nil-inseminate-[subj-agent-yes-sn2,subj-agent-yes-sn1,and(yes,you,sn1),def_prop(yes,[attivita,informa]),def_prop(yes,[attivita,informa])])
+lf(Lay Down And Just Write Lyrics.txt_6,30,cl12-nil-nil-be-[subj-theme_bound-Maybachs-sn5,subj-theme_bound-Maybachs-sn4,and(Maybachs,you,sn4),def_prop(Maybachs,[istituzione,umano]),def_prop(Maybachs,[istituzione,umano])])
+lf(Lay Down And Just Write Lyrics.txt_6,30,cl11-nil-nil-make-[obj-theme_aff-no-sn3,obj-goal-stack-sn2,subj-agent-i-sn1,aux-have-nil,def_prop(no,[istituzione]),def_prop(stack,[nquant]),def_prop(i,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_7,38,cl14-nil-nil-aspire-[subj-actor-you-sn6,def_prop(you,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_7,38,cl13-not-could-care-[subj-experiencer-no-sn1,and(no,he,sn1),def_prop(no,[istituzione])])
+lf(Lay Down And Just Write Lyrics.txt_8,47,cl17-not-nil-take-[expl-it-nil,cmod-coord-take-and,adj-(mod)-lightly-nil,subj-agent-it-sn9,subj-agent-it-sn8,cmod-subord-take-",subj-agent-it-sn4,subj-agent-it-sn3,aux-do-nil,and(it,i,sn8),and(it,i,sn3),def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Lay Down And Just Write Lyrics.txt_8,47,cl16-nil-nil-recognize-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_8,47,cl15-nil-nil-retire-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_9,56,cl19-nil-could-can-[subj-actor-you-sn7,ncmod-modal-height-sn3,and(height,higher,sn3),def_prop(you,[umano]),def_prop(height,[astratto])])
+lf(Lay Down And Just Write Lyrics.txt_9,56,cl18-nil-nil-set-[adj-temporal-just-nil,obj-goal-sight-sn2,subj-agent-i-sn1,def_prop(sight,[astratto,attivita,informa,nquant,oggetto,strumento]),def_prop(i,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_10,67,cl20-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_11,79,cl25-nil-nil-play-[cmod-coord-fire-or,adj-(mod)-secretly-nil,subj-agent-i-sn12,def_prop(i,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_11,79,cl24-nil-nil-fire-[xadj-adj-admired-adj1,adj-locative-never-nil,subj-agent-you-sn7,def_prop(admired,_535554),def_prop(you,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_11,79,cl23-nil-nil-hire-[subj-agent-you-sn6,def_prop(you,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_11,79,cl22-nil-nil-be-[subj-prop-flyer-sn1,and(flyer,so_much,sn1),def_prop(flyer,[evento,relat,sociale,umano])])
+lf(Lay Down And Just Write Lyrics.txt_11,79,cl21-nil-might-might-[adj-(mod)-never-nil,adj-(mod)-just-nil,subj-theme_unaff-flyer-sn1,and(flyer,so_much,sn1),def_prop(flyer,[evento,relat,sociale,umano])])
+lf(Lay Down And Just Write Lyrics.txt_12,95,cl30-nil-nil-store-[obj-theme-lyric-sn3,def_prop(lyric,[attivita,informa])])
+lf(Lay Down And Just Write Lyrics.txt_12,95,cl29-nil-will-will-[subj-agent-you-sn23,def_prop(you,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_12,95,cl28-nil-nil-give-[ncmod-subj_disc-what-sn22,obj-goal-damn-sn21,subj-actor-you-sn20,def_prop(what,[oggetto]),def_prop(damn,[astratto]),def_prop(you,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_12,95,cl27-nil-could-can-[subj-actor-you-sn19,def_prop(you,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_12,95,cl26-nil-nil-dismantle-[adj-(mod)-later-nil,adj-(mod)-here-nil,ncmod-locativo-split-sn6,obj-theme-philosophy-sn5,obj-theme-wreck-sn4,ncmod-modal-lyric-sn3,subj-agent-digit-sn2,subj-agent-digit-sn1,and(digit,crunch,sn2),and(digit,crunch,sn1),def_prop(split,[astratto,attivita,edible,nquant,oggetto,strumento]),def_prop(philosophy,[astratto]),def_prop(wreck,[oggetto,stato,strumento]),def_prop(lyric,[attivita,informa]),def_prop(digit,[body_part,nquant,umano]),def_prop(digit,[body_part,nquant,umano])])
+lf(Lay Down And Just Write Lyrics.txt_13,112,cl42-nil-nil-rhyme-[iobj-goal-serotonin-sn8,ncmod-locativo-moment-sn3,and(moment,mere,sn3),def_prop(serotonin,[sostanza]),def_prop(moment,[astratto,attivita,cambia,tempo])])
+lf(Lay Down And Just Write Lyrics.txt_13,112,cl41-nil-nil-feed-[ncmod-prop-Secretion-sn14,def_prop(Secretion,[attivita,body_part,oggetto,umano])])
+lf(Lay Down And Just Write Lyrics.txt_13,112,cl40-nil-nil-try-[xcomp-purpose-feed-14])
+lf(Lay Down And Just Write Lyrics.txt_13,112,cl39-nil-nil-leach-[aux-are-nil,progr-leaching-nil])
+lf(Lay Down And Just Write Lyrics.txt_13,112,cl38-nil-nil-plead-[ncmod-locativo-genius-sn13,ncmod-prop-foot-sn11,def_prop(genius,[astratto,umano]),def_prop(foot,[animato,attivita,body_part,luogo,nquant,oggetto,strumento,umano])])
+lf(Lay Down And Just Write Lyrics.txt_13,112,cl37-nil-nil-leave-[xcomp-purpose-plead-12])
+lf(Lay Down And Just Write Lyrics.txt_13,112,cl36-nil-nil-know-[obj-theme-legion-sn10,xadj-result-leave-11,def_prop(legion,[istituzione])])
+lf(Lay Down And Just Write Lyrics.txt_13,112,cl35-nil-nil-lead-[])
+lf(Lay Down And Just Write Lyrics.txt_13,112,cl34-nil-nil-catch-[cmod-subord-rhyme-for,iobj-goal-zone-sn26,def_prop(zone,[body_part,luogo,umano])])
+lf(Lay Down And Just Write Lyrics.txt_13,112,cl33-nil-nil-get-[obj-goal-up-sn25,xcomp-purpose-catch-3,subj-theme_bound-Ronin-sn24,subj-theme_bound-Ronin-sn23,and(Ronin,Arizonan,sn24),and(Ronin,Arizonan,sn23),def_prop(up,[istituzione]),def_prop(Ronin,[umano]),def_prop(Ronin,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_13,112,cl32-nil-nil-be-[])
+lf(Lay Down And Just Write Lyrics.txt_13,112,cl31-nil-nil-have-[xcomp-prop-potatas-sn19,xcomp-theme-you-sn18,xcomp-prop-meet-sn17,xcomp-tema_nonaff-feat-sn16,xcomp-goal-my-sn15,xcomp-theme-you-sn12,xcomp-theme-depletion-sn9,xcomp-theme-opponent-sn7,xcomp-theme-you-sn6,xcomp-theme-clear-sn5,subj-sn1-it-sn4,xcomp-prop-reborn-sn2,subj-experiencer-you-sn1,and(potatas,small,sn19),and(meet,prime,sn17),and(opponent,no,sn7),def_prop(potatas,[istituzione]),def_prop(you,[umano]),def_prop(meet,[evento]),def_prop(feat,[cambia]),def_prop(my,[informa,tecno]),def_prop(you,[umano]),def_prop(depletion,[attivita,stato]),def_prop(opponent,[relat,sociale,umano]),def_prop(you,[umano]),def_prop(clear,[valutativo]),def_prop(it,[any]),def_prop(reborn,[evaluative]),def_prop(you,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_14,137,cl43-nil-nil-give-[obj-goal-fuck-sn2,subj-actor-we-sn1,and(we,greatest,sn1),def_prop(fuck,[attivita]),def_prop(we,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_15,152,cl46-nil-nil-acknowledge-[subj-experiencer-us-sn2,subj-experiencer-we-sn4,obj-goal-hater-sn3,xcomp-purpose-call-4,def_prop(us,[umano]),def_prop(we,[umano]),def_prop(hater,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_15,152,cl45-nil-nil-call-[])
+lf(Lay Down And Just Write Lyrics.txt_15,152,cl44-nil-nil-debate-[obj-theme-us-sn2,subj-agent-y-all-sn1,def_prop(us,[umano]),def_prop(y-all,[attivita,informa,tempo])])
+lf(Lay Down And Just Write Lyrics.txt_16,170,cl48-nil-nil-make-[obj2-paziente-track-sn6,obj-goal-i-sn5,xcomp-prop-rap-sn4,subj-agent-other-sn3,and(track,impact,sn6),and(track,that,sn6),and(rap,dude,sn4),and(other,these,sn3),def_prop(track,[attivita,oggetto,strumento]),def_prop(i,[umano]),def_prop(rap,[attivita,evento,informa]),def_prop(other,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_16,170,cl47-nil-nil-be-[xcomp-prop-factual-sn2,subj-theme_bound-what-sn1,def_prop(factual,[evaluative]),def_prop(what,[oggetto])])
+lf(Lay Down And Just Write Lyrics.txt_17,188,cl54-nil-nil-create-[obj-theme_aff-file-sn7,def_prop(file,[attivita,informa,istituzione,oggetto,strumento])])
+lf(Lay Down And Just Write Lyrics.txt_17,188,cl53-nil-nil-learn-[cmod-subord-toll-but,obj-topic-mortal-sn23,xcomp-prop-scroll-sn22,subj-agent-God-sn21,subj-agent-God-sn20,and(mortal,mere,sn23),and(scroll,laid,sn22),and(God,i,sn20),def_prop(mortal,[umano]),def_prop(scroll,[attivita,informa]),def_prop(God,[animato]),def_prop(God,[animato])])
+lf(Lay Down And Just Write Lyrics.txt_17,188,cl52-nil-nil-toll-[adj-(mod)-still-nil,subj-actor-i-sn18,xcomp-prop-scroll-sn17,obj-theme-God-sn16,adj-subj_disc-still-sn15,subj-actor-i-sn14,and(scroll,laid,sn17),def_prop(still,[istituzione]),def_prop(i,[umano]),def_prop(scroll,[attivita,informa]),def_prop(God,[animato]),def_prop(still,[istituzione]),def_prop(i,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_17,188,cl51-nil-nil-drive-[ncmod-locativo-road-sn10,xcomp-prop-sedated-sn9,obj-theme-mile-sn8,ncmod-locativo-file-sn7,subj-agent-algorithm-sn6,def_prop(road,[attivita,oggetto,strumento]),def_prop(sedated,[evaluative]),def_prop(mile,[evento,nquant]),def_prop(file,[attivita,informa,istituzione,oggetto,strumento]),def_prop(algorithm,[astratto])])
+lf(Lay Down And Just Write Lyrics.txt_17,188,cl50-nil-nil-compile-[subj-agent-you-sn5,def_prop(you,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_17,188,cl49-nil-nil-calculate-[obj-theme_unaff-style-sn2,subj-actor-you-sn1,and(you,bar,sn1),and(you,every,sn1),and(you,all,sn1),def_prop(style,[animato,astratto,attivita,informa,plant]),def_prop(you,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_18,211,cl59-nil-nil-string-[subj-theme-first-sn14,xcomp-purpose-rap-7,ncmod-comitativo-quarter-sn2,and(quarter,green,sn2),def_prop(first,[istituzione]),def_prop(quarter,[astratto,luogo,nquant,oggetto,relat,strumento,tempo,umano])])
+lf(Lay Down And Just Write Lyrics.txt_18,211,cl58-nil-nil-sack-[cmod-coord-burn-and])
+lf(Lay Down And Just Write Lyrics.txt_18,211,cl57-nil-nil-rap-[obj-result-first-sn14,xadj-result-sack-8,iobj-goal-night-sn12,and(night,any,sn12),def_prop(first,[istituzione]),def_prop(night,[tempo])])
+lf(Lay Down And Just Write Lyrics.txt_18,211,cl56-nil-nil-burn-[obj-theme-emcee-sn11,obj-prop-quarterback-sn10,obj-prop-rap-sn9,obj-theme-some-sn8,subj-actor-you-sn7,cmod-subord-string-",obj-prop-rap-sn6,obj-theme-some-sn5,subj-actor-you-sn4,and(emcee,white,sn11),def_prop(emcee,[relat,sociale,umano]),def_prop(quarterback,[attivita,umano]),def_prop(rap,[attivita,evento,informa]),def_prop(some,[umano]),def_prop(you,[umano]),def_prop(rap,[attivita,evento,informa]),def_prop(some,[umano]),def_prop(you,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_18,211,cl55-nil-nil-lean-[adj-(mod)-back-nil,subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_19,234,cl62-nil-nil-label-[subj-agent-major-sn5,obj-prop-thing-sn3,xcomp-purpose-be-3,and(thing,worst,sn3),def_prop(major,[astratto,umano]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Lay Down And Just Write Lyrics.txt_19,234,cl61-nil-nil-be-[cmod-coord-rap-since])
+lf(Lay Down And Just Write Lyrics.txt_19,234,cl60-nil-nil-captain-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_20,257,cl64-nil-nil-be-[adj-(mod)-never-nil,obj2-benef-due-sn6,xcomp-theme-you-sn5,xcomp-theme-fable-sn4,xcomp-prop-rage-sn3,subj-theme_bound-you-sn2,and(due,paid,sn6),and(fable,staged,sn4),def_prop(due,[astratto,oggetto]),def_prop(you,[umano]),def_prop(fable,[attivita,informa]),def_prop(rage,[stato]),def_prop(you,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_20,257,cl63-nil-nil-make-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_21,279,cl69-nil-nil-care-[subj-experiencer-pay-to-sn22,def_prop(pay-to,[oggetto])])
+lf(Lay Down And Just Write Lyrics.txt_21,279,cl68-nil-nil-talk-[xcomp-prop-pay-to-sn22,subj-actor-play-sn21,def_prop(pay-to,[oggetto]),def_prop(play,[attivita,informa,stato])])
+lf(Lay Down And Just Write Lyrics.txt_21,279,cl67-nil-nil-quit-[])
+lf(Lay Down And Just Write Lyrics.txt_21,279,cl66-nil-will-rock-[xcomp-prop-open-sn16,subj-agent-mics-sn15,obj-theme-mics-sn13,xcomp-prop-open-sn12,subj-agent-i-sn11,obj-theme-mics-sn9,xcomp-prop-open-sn8,obj-theme-when-sn7,subj-agent-i-sn6,aux-be-nil,progr-rocking-nil,aux-am-nil,and(mics,you,sn15),and(mics,you,sn13),and(mics,you,sn9),def_prop(open,[stato]),def_prop(mics,[informa,tecno]),def_prop(mics,[informa,tecno]),def_prop(open,[stato]),def_prop(i,[umano]),def_prop(mics,[informa,tecno]),def_prop(open,[stato]),def_prop(when,[tempo]),def_prop(i,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_21,279,cl65-nil-nil-pay-[obj-theme_aff-way-sn2,subj-goal-all-sn1,aux-was-nil,aux-did-nil,and(all,you,sn1),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(all,[_542902])])
+lf(Lay Down And Just Write Lyrics.txt_22,305,cl70-nil-nil-say-[subj-actor-who-sn1,def_prop(who,[umano])])
+lf(Lay Down And Just Write Lyrics.txt_23,328,cl71-nil-nil-say-[obj-theme_unaff-hard-sn1,def_prop(hard,[valutativo])])
+lf(Lay Down And Just Write Lyrics.txt_24,352,cl75-nil-nil-cat-[obj-prop-Primetimes-sn13,xcomp-purpose-be-2,obj-theme-you-sn12,xcomp-prop-sub-par-sn11,subj-actor-mine-sn10,def_prop(Primetimes,[istituzione,umano]),def_prop(you,[umano]),def_prop(sub-par,[edible,nquant,oggetto]),def_prop(mine,[oggetto,strumento])])
+lf(Lay Down And Just Write Lyrics.txt_24,352,cl74-nil-can-rhyme-[xcomp-prop-fine-sn9,subj-agent-you-sn8,obj-patient1-God-sn7,def_prop(fine,[valutativo]),def_prop(you,[umano]),def_prop(God,[animato])])
+lf(Lay Down And Just Write Lyrics.txt_24,352,cl73-nil-nil-trade-[xadj-adj-sure-adj2,iobj-goal-dock-sn4,def_prop(sure,_543528),def_prop(dock,[animato,oggetto,plant,strumento])])
+lf(Lay Down And Just Write Lyrics.txt_24,352,cl72-nil-nil-be-[xcomp-actor2-blow-sn3,xcomp-purpose-trade-7,xcomp-prop-too_short-sn2,subj-theme_bound-arm-sn1,def_prop(blow,[attivita]),def_prop(too_short,[oggetto,strumento]),def_prop(arm,[astratto,body_part,oggetto,strumento,umano])])

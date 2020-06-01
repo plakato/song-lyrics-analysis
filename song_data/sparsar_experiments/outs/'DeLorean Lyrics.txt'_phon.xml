@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Poem_Level title="DeLorean Lyrics.txt" author="poems">
+<Stanza_levels>
+<Stanza_level no="1">
+<Stats_Stanza  
+	line_durations_msec="[1952,256]"
+	total_syllable_length_msec="2208"
+	mean_line_length_val="1104"
+	standard_deviation_val="1199.2531008923845"
+	skewness_val="0.0"
+	kurtosis_val="-2.5">
+</Stats_Stanza>
+<Metrical_Scheme_Stanza>
+<Line_verse no="0"
+	number_of_feet_no="5"	line_syllables="[background/[b_ae_k,g_r_aw_n_d],So/[s_ow],I/[ay],can/[k_ae_n],go/[g_ow],on/[aa_n],and/[ah_n_d],on/[aa_n],and/[ah_n_d],on/[aa_n]]"
+	total_syllable_length_no="11"
+	rhetorical_devices="[1-[]]"
+	metrical_structure_val="[1,0,1,0,1,0,1,0,0,1,0]"></Line_verse>
+<Line_verse no="1"
+	number_of_feet_no="0"	line_syllables="[milk/[m_ih_l_k]]"
+	total_syllable_length_no="1"
+	rhetorical_devices="[2-[]]"
+	metrical_structure_val="[0]"></Line_verse>
+</Metrical_Scheme_Stanza>
+</Stanza_level>
+</Stanza_levels>
+<General_Stats>
+	<Prosodic_Measures_in_msecs
+	mean_line_length_val="1104"
+	standard_deviation_val="1199.2531008923845"
+	skewness_val="0.0"
+	kurtosis_val="-2.5">
+</Prosodic_Measures_in_msecs>
+	<Metrical_Structures
+	mean_line_length_in_no_of_feet_val="2.5"
+	standard_deviation_val="2.5"
+	skewness_val="0.0"
+	kurtosis_val="-1.0">
+</Metrical_Structures>
+	<Rhetorical_Metrical_Devices
+	Absolute_Count_of_Rhyming_Devices_val="32"
+	Ratio_of_Absolute_Count_by_No_of_Stanzas_val="0.07692307692307693"
+	Ratio_of_RhDevs_Absolute_Count_by_Corrected_No_of_Verses_val=" 32"
+	Ratio_of_RhDevs_Absolute_Count_by_Repetition_Rate_val="83.2"
+	Ratio_of_RhDevs_Absolute_Count_by_Rare_Word_Repetition_Rate_val=" 36.57142857142857"
+	Ratio_of_RhDevs_Absolute_Count_by_No_Tokens_val="10.0">
+</Rhetorical_Metrical_Devices>
+</General_Stats>
+<General_Rhetoric_Devices>
+	<All_Rhyming_Schemes  
+	Stanza-based_Rhyme_Schemes="[1-[],2-[4-a,5-a]]"
+	Different_Rhyme_Schemes="[a,a]"
+	Number_of_Different_Rhyme_Schemes_no="1"
+	Multiplier_Factor_no="1"
+	Different_Stanzas_RSs_no="[1]"
+	Different_Rhyme_Types_no="[1]">
+</All_Rhyming_Schemes>
+	<All_Rhyming_Words>
+	<Line_Ending_Rhymes words="[3-stanza,a-[5-m_ih1_l_k],a-[4-aa_n]]">
+</Line_Ending_Rhymes>
+	<Line_Middle_Rhymes words="[2-[4-g_ow1,4-s_ow1]]">
+</Line_Middle_Rhymes>
+	<Consonances_Assonances words="[[aa_n-aa_n-[aa,n]]-4/4]">
+</Consonances_Assonances>
+	<Word_Repetitions words="[on,on,on,and,and]">
+</Word_Repetitions>
+</All_Rhyming_Words>
+</General_Rhetoric_Devices>
+</Poem_Level>

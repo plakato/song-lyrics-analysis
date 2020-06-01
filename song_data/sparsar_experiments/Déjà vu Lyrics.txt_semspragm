@@ -1,0 +1,52 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Déjà vu Lyrics.txt_1-1  []-positive  []
+Déjà vu Lyrics.txt_2-3  []-question  [fgb,neg]
+Déjà vu Lyrics.txt_3-6  [(as)-temp_coinc]-positive  []
+Déjà vu Lyrics.txt_3-7  []-positive  []
+Déjà vu Lyrics.txt_3-8  []-positive  []
+Déjà vu Lyrics.txt_4-13  [when-temp_coinc]-positive  []
+Déjà vu Lyrics.txt_4-14  [then-temp_seq]-positive  []
+Déjà vu Lyrics.txt_5-19  []-positive  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Déjà vu Lyrics.txt_1-1  [déjà,vu,Lyrics,by,57,Pixels]  [title]
+Déjà vu Lyrics.txt_2-3  [happened,man,man,happened,what,ugh,?]  [provide_expl_just(happen,[internal,factive,narration,foreground,objective])]
+Déjà vu Lyrics.txt_3-6  [all,i,remember,is,that,as]  [provide_expl_just(remember,[external,factive,narration,background,objective]),provide_expl_just(i,[internal,factive,narration,background,objective]),provide_expl_just(hand,[external,factive,narration,background,objective]),provide_expl_just(pocket,[external,factive,narration,background,objective])]
+Déjà vu Lyrics.txt_3-7  [i,hand,over,my,last]  [provide_expl_just(remember,[external,factive,narration,background,objective]),provide_expl_just(i,[internal,factive,narration,background,objective]),provide_expl_just(hand,[external,factive,narration,background,objective]),provide_expl_just(pocket,[external,factive,narration,background,objective])]
+Déjà vu Lyrics.txt_3-8  [gram,i,pocket,that,Jackson]  [provide_expl_just(remember,[external,factive,narration,background,objective]),provide_expl_just(i,[internal,factive,narration,background,objective]),provide_expl_just(hand,[external,factive,narration,background,objective]),provide_expl_just(pocket,[external,factive,narration,background,objective])]
+Déjà vu Lyrics.txt_4-13  [when,it,gets,past]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Déjà vu Lyrics.txt_4-14  [then,then]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Déjà vu Lyrics.txt_5-19  [all,i,hear,is,gun,shots]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(gun,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Déjà vu Lyrics.txt_1-1)-[]
+2-(Déjà vu Lyrics.txt_2-3)-[]
+3-(Déjà vu Lyrics.txt_3-6)-[]
+4-(Déjà vu Lyrics.txt_3-7)-[primary-narcissism,primary-concreteness]
+half
+5-(Déjà vu Lyrics.txt_3-8)-[]
+6-(Déjà vu Lyrics.txt_4-13)-[secondary-temporal_repere,secondary-temporal_repere]
+7-(Déjà vu Lyrics.txt_4-14)-[secondary-temporal_repere,secondary-temporal_repere]
+8-(Déjà vu Lyrics.txt_5-19)-[primary-sound,emotions-aggression,emotions-aggression]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Déjà vu Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-pixel-sn2,subj-theme_bound-Lyrics-sn1,and(pixel,57,sn2),and(Lyrics,vu,sn1),def_prop(pixel,[oggetto,strumento]),def_prop(Lyrics,[informa,tecno])])
+lf(Déjà vu Lyrics.txt_2,3,cl2-nil-nil-happen-[obj-theme-man-sn3,subj-theme_unaff-ugh-sn1,def_prop(man,[any]),def_prop(ugh,[istituzione])])
+lf(Déjà vu Lyrics.txt_3,6,cl6-nil-nil-pocket-[xcomp-prop-Jackson-sn11,subj-agent-i-sn10,subj-agent-i-sn9,and(Jackson,that,sn11),and(i,gram,sn9),def_prop(Jackson,[place,luogo,umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Déjà vu Lyrics.txt_3,6,cl5-nil-nil-hand-[ncmod-locativo-lass-sn6,subj-agent-i-sn5,def_prop(lass,[umano]),def_prop(i,[umano])])
+lf(Déjà vu Lyrics.txt_3,6,cl4-nil-nil-be-[adj-(mod)-remember-nil])
+lf(Déjà vu Lyrics.txt_3,6,cl3-nil-nil-remember-[obj-prop-that-sn3,xcomp-purpose-be-cl4,subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,all,sn1),def_prop(that,[oggetto,umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Déjà vu Lyrics.txt_4,13,cl8-nil-nil-be-[])
+lf(Déjà vu Lyrics.txt_4,13,cl7-nil-nil-get-[xcomp-prop-past-sn3,obj-theme-when-sn2,subj-theme_bound-it-sn1,def_prop(past,[attivita,informa,tempo]),def_prop(when,[tempo]),def_prop(it,[any])])
+lf(Déjà vu Lyrics.txt_5,19,cl10-nil-nil-gun-[])
+lf(Déjà vu Lyrics.txt_5,19,cl9-nil-nil-hear-[obj-theme-shot-sn3,xcomp-purpose-gun-cl10,subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,all,sn1),def_prop(shot,[attivita,informa,oggetto,stato,strumento,umano]),def_prop(i,[umano]),def_prop(i,[umano])])

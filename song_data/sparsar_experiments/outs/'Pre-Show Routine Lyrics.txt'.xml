@@ -1,277 +1,67 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <semantic_density>
 
-<text_level_sdis id="outs/'Pre-Show Routine Lyrics.txt'" general_sdi="2.782301319006094" mean_char_leng="0.5116010820103476" propositional_negs="3" negative_sentiment_words="7" positive_sentiment_words="32" deep_conceptual_index="14.907407407407407" token_rare_words_ratio="0.008982035928143712" token_type_ratio="0.3652694610778443" RID_category_ratio="[10-primary/0.5882352941176471,[abstract_tought,abstract_tought,abstract_tought,brink-passage,concreteness,fire,instru_behavior,instru_behavior,narcissism,orality,random_movement,social_behavior,sound,sound,temporal_repere,vision,water]]" semantic_cohesion="0"></text_level_sdis>
-<verse_sdi_vars ids="90">
+<text_level_sdis id="outs/'Pre-Show Routine Lyrics.txt'" general_sdi="2.957062522843521" mean_char_leng="0.18324940559777894" propositional_negs="3" negative_sentiment_words="7" positive_sentiment_words="33" deep_conceptual_index="32.56657925407925" token_rare_words_ratio="0.010067114093959731" token_type_ratio="0.412751677852349" RID_category_ratio="[10-primary/0.625,[abstract_tought,abstract_tought,brink-passage,concreteness,fire,instru_behavior,instru_behavior,narcissism,orality,random_movement,social_behavior,sound,sound,temporal_repere,vision,water]]" semantic_cohesion="0"></text_level_sdis>
+<verse_sdi_vars ids="20">
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_1">
 <sdivars id="1" tokens="6" mean_chars_leng="0.23076923076923078" verbs="0" chunks="6" verb_preds="0" concepts="3" domain_bound="3" adjectives="1" abstract_words="1-[5-pre-show-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.166666666666667" tot_pos="0" ratio_pos-negs="2.166666666666667" abstract_eventiv_words="[pre-show/5]">pre-show Routine Lyrics by Wordburglar . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_2">
-<sdivars id="2" tokens="3" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.25" positive_polar_words="[door,guy]" concrete_words="[door/1]">door guy : </sdivars>
+<sdivars id="2" tokens="6" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="3" domain_bound="0" adjectives="0" abstract_words="1-[3-starts-[abstract,time,attivita,evento]]/2" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" positive_polar_words="[door,guy]" abstract_eventiv_words="[starts/3]" concrete_words="[door/1,guy/2]">door guy Line starts there : </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_3">
-<sdivars id="3" tokens="4" mean_chars_leng="0" verbs="2" chunks="9" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[3-starts-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2222222222222222" ratio_pos-negs="0.2222222222222222" abstract_eventiv_words="[starts/3]">Line starts there ! </sdivars>
+<sdivars id="3" tokens="8" mean_chars_leng="1" verbs="1" chunks="5" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2">wb , Oh hey_man , I-m . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_4">
-<sdivars id="4" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
+<sdivars id="4" tokens="3" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">, uh . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_5">
-<sdivars id="5" tokens="7" mean_chars_leng="0.8571428571428571" verbs="1" chunks="5" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.23333333333333336">Oh , hey_man , I-m . </sdivars>
+<sdivars id="5" tokens="11" mean_chars_leng="0" verbs="3" chunks="11" verb_preds="2" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[5-going-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.18181818181818182" ratio_pos-negs="0.18181818181818182" positive_polar_words="[performer]" abstract_eventiv_words="[going/5]">, I-m just going in I-m a performer . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_6">
-<sdivars id="6" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">uh . </sdivars>
+<sdivars id="6" tokens="67" mean_chars_leng="0" verbs="1" chunks="27" verb_preds="1" concepts="35" domain_bound="1" adjectives="3" abstract_words="6-[3-original-[abstract,time,attivita,evento],8-verb-[attivita,informa],8-hurdler-[umano],12-nerd-[informa,relat,sociale,tecno,umano],11-purchaser-[legale,relat,sociale,umano],0-preferred-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.13636363636363635" tot_negs="7.20971118433805" tot_pos="0.051962410171365395" ratio_pos-negs="0.0072072804087139385" negative_polar_words="[verb,serb]" positive_affect_words="[yeah,yeah,yeah]" positive_polar_words="[yeah,yeah,yeah,original,nerd,shirt,preferred,terse]" abstract_eventiv_words="[original/3,verb/8,hurdler/8,nerd/12,purchaser/11,preferred/0]">Wordburglar dg You-re , the Wordburglar wb Yeah db , The original verb , hurdler wb Uh , yeah , yeah dg , The herb-murderin Persia to Alberterer wb , Uh , yeah dg , The nerd Interpreter wb , Uh db , The shirt purchaser , wb Uh dg , The preferred serb , terse sermoner , The syzryup slurperer wb , Well , . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_7">
-<sdivars id="7" tokens="11" mean_chars_leng="0" verbs="3" chunks="11" verb_preds="2" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[5-going-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.18181818181818182" ratio_pos-negs="0.18181818181818182" positive_polar_words="[performer]" abstract_eventiv_words="[going/5]">I-m just going in , I-m a performer . </sdivars>
+<sdivars id="7" tokens="27" mean_chars_leng="0" verbs="1" chunks="12" verb_preds="1" concepts="14" domain_bound="9" adjectives="3" abstract_words="1-[3-verbal-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.125" tot_negs="3.878968253968254" tot_pos="0.12037037037037036" ratio_pos-negs="0.031031543052003407" negative_polar_words="[verbal]" positive_affect_words="[yeah]" positive_polar_words="[yeah,Silver,good]" abstract_eventiv_words="[verbal/3]">dg , The citizen-s concernederer wb Yeah db , Purple nurplerer , The verbal Silver Surferer wb , Oh yeah , that-s a good one : </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_8">
-<sdivars id="8" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">Wordburglar . </sdivars>
+<sdivars id="8" tokens="19" mean_chars_leng="0" verbs="2" chunks="12" verb_preds="1" concepts="8" domain_bound="5" adjectives="1" abstract_words="2-[5-bonds-[astratto,evento,attivita],0-know-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.16666666666666666" tot_negs="2.844298245614035" tot_pos="0.18859649122807015" ratio_pos-negs="0.06630686198920585" positive_polar_words="[bonds,know]" abstract_eventiv_words="[bonds/5,know/0]">db , The sherpa murmerer , The bonds maturerer wb , Well , I don-t know about that . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_9">
-<sdivars id="9" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">dg : </sdivars>
+<sdivars id="9" tokens="3" mean_chars_leng="1" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="0" adjectives="1" abstract_words="1-[5-know-[astratto,oggetto,istituzione]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.3333333333333333" tot_pos="0" ratio_pos-negs="0.3333333333333333" positive_polar_words="[know]" abstract_eventiv_words="[know/5]">the know . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_10">
-<sdivars id="10" tokens="5" mean_chars_leng="0" verbs="1" chunks="6" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">You-re the Wordburglar ? </sdivars>
+<sdivars id="10" tokens="10" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="6" domain_bound="5" adjectives="1" abstract_words="2-[5-named-[astratto,evento,attivita],3-converse-[abstract,time,attivita,evento]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="2.4333333333333336" tot_pos="0.30000000000000004" ratio_pos-negs="0.12328767123287672" positive_polar_words="[girl,named,converse]" abstract_eventiv_words="[named/5,converse/3]" concrete_words="[girl/1]">A girl named Ursula Converse , Returnerer wb , Well . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_11">
-<sdivars id="11" tokens="2" mean_chars_leng="1" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
+<sdivars id="11" tokens="12" mean_chars_leng="0" verbs="0" chunks="7" verb_preds="0" concepts="6" domain_bound="5" adjectives="0" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.25" tot_negs="5.083333333333334" tot_pos="0" ratio_pos-negs="4.833333333333333" negative_affect_words="[worst]" negative_polar_words="[worst]" positive_polar_words="[gd,earth]" concrete_words="[earth/1]">, once gd The earth surfacin worst lurkerin- , flermerer wb . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_12">
-<sdivars id="12" tokens="2" mean_chars_leng="0" verbs="0" chunks="3" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0">Yeah . </sdivars>
+<sdivars id="12" tokens="4" mean_chars_leng="0.584070796460177" verbs="1" chunks="7" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.24458874458874458">What is that ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_13">
-<sdivars id="13" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">db : </sdivars>
+<sdivars id="13" tokens="2" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1" positive_polar_words="[gd]">gd ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_14">
-<sdivars id="14" tokens="5" mean_chars_leng="0.18181818181818182" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="1" abstract_words="3-[3-original-[abstract,time,attivita,evento],8-verb-[attivita,informa],8-hurdler-[umano]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="2.2" tot_pos="0" ratio_pos-negs="1.2" negative_polar_words="[verb]" positive_polar_words="[original]" abstract_eventiv_words="[original/3,verb/8,hurdler/8]">The original verb hurdler ? </sdivars>
+<sdivars id="14" tokens="8" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="6" domain_bound="5" adjectives="0" abstract_words="1-[8-hernia-[stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0.2" ratio_pos-negs="0.1" negative_affect_words="[burn]" negative_polar_words="[burn,hernia]" abstract_eventiv_words="[hernia/8]">The perp squirmishin burn furnacin hernia wb ; </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_15">
-<sdivars id="15" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
+<sdivars id="15" tokens="33" mean_chars_leng="0.6666666666666666" verbs="2" chunks="19" verb_preds="1" concepts="18" domain_bound="9" adjectives="2" abstract_words="3-[5-multinational-[astratto,evento,attivita],3-confirmed-[abstract,time,attivita,evento],3-used-[abstract,time,attivita,evento]]/2" modal_advs_adjs="1" untensed_verbs="1" dense_constituents="0.15384615384615385" tot_negs="7.714452214452214" tot_pos="0.11323763955342903" ratio_pos-negs="0.013511040847843431" negative_affect_words="[not,not]" negative_polar_words="[not,not,not,not]" positive_polar_words="[gd,multinational,gd,gd,fern,confirmed,dessert,used]" abstract_eventiv_words="[multinational/5,confirmed/3,used/3]" concrete_words="[fern/1,dessert/1]">No , not that one gd , The multinational mergerer wb uh gd Uma Thurmaner wb Definately , not gd The fern squirterer , The confirmed dessert serverer wb Used to be . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_16">
-<sdivars id="16" tokens="6" mean_chars_leng="0.36363636363636365" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1" positive_affect_words="[yeah,yeah]" positive_polar_words="[yeah,yeah]">Uh , yeah , yeah . </sdivars>
+<sdivars id="16" tokens="12" mean_chars_leng="0" verbs="0" chunks="7" verb_preds="0" concepts="6" domain_bound="3" adjectives="1" abstract_words="1-[10-jerk-[attivita,tempo,umano]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.25" tot_negs="3.8333333333333335" tot_pos="0" ratio_pos-negs="3.5833333333333335" negative_affect_words="[jerk]" negative_polar_words="[jerk]" positive_polar_words="[gd]" abstract_eventiv_words="[jerk/10]">gd , The jerk in the ferkin slurpin suburbaner wb , . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_17">
-<sdivars id="17" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">dg : </sdivars>
+<sdivars id="17" tokens="19" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="1" concepts="10" domain_bound="7" adjectives="0" abstract_words="1-[11-name-[attivita,informa,stato,umano]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.25" tot_negs="3.25" tot_pos="0.14285714285714285" ratio_pos-negs="0.04395604395604395" positive_polar_words="[hair,name]" abstract_eventiv_words="[name/11]">dg , The hair Curlerer , The Shirley Temple Shirlerer , The My Name is Earl-erer wb N . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_18">
-<sdivars id="18" tokens="6" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="3" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.6666666666666665" tot_pos="0" ratio_pos-negs="2.6666666666666665">The herb-murderin Persia to Alberterer ? </sdivars>
+<sdivars id="18" tokens="11" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="6" domain_bound="4" adjectives="0" abstract_words="1-[7-god-[umano]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.2" negative_affect_words="[no,damn]" negative_polar_words="[no,damn,no]" positive_polar_words="[god]" abstract_eventiv_words="[god/7]">no dg , The god damn Wordburglar wb , Uh . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_19">
-<sdivars id="19" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
+<sdivars id="19" tokens="10" mean_chars_leng="1.1176470588235294" verbs="1" chunks="5" verb_preds="1" concepts="3" domain_bound="2" adjectives="0" abstract_words="1-[5-heard-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.17894736842105263" positive_affect_words="[yeah]" positive_polar_words="[yeah,heard]" abstract_eventiv_words="[heard/5]">well , yeah dg , Never heard of ya . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Pre-Show Routine Lyrics.txt_20">
-<sdivars id="20" tokens="4" mean_chars_leng="0.3333333333333333" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1" positive_affect_words="[yeah]" positive_polar_words="[yeah]">Uh , yeah . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_21">
-<sdivars id="21" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">dg : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_22">
-<sdivars id="22" tokens="4" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="0" adjectives="0" abstract_words="2-[12-nerd-[informa,relat,sociale,tecno,umano],10-interpreter-[attivita,informa,umano]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0" negative_polar_words="[interpreter]" positive_polar_words="[nerd]" abstract_eventiv_words="[nerd/12,interpreter/10]">The nerd interpreter ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_23">
-<sdivars id="23" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_24">
-<sdivars id="24" tokens="2" mean_chars_leng="0.2608695652173913" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">Uh . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_25">
-<sdivars id="25" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">db : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_26">
-<sdivars id="26" tokens="4" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[11-purchaser-[legale,relat,sociale,umano]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0" positive_polar_words="[shirt]" abstract_eventiv_words="[purchaser/11]">The shirt purchaser ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_27">
-<sdivars id="27" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_28">
-<sdivars id="28" tokens="2" mean_chars_leng="0.36363636363636365" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">Uh . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_29">
-<sdivars id="29" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">dg : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_30">
-<sdivars id="30" tokens="6" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="1" domain_bound="1" adjectives="2" abstract_words="1-[0-preferred-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="3.333333333333333" tot_pos="0" ratio_pos-negs="2.333333333333333" negative_polar_words="[serb]" positive_polar_words="[preferred,terse]" abstract_eventiv_words="[preferred/0]">The preferred serb terse sermoner ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_31">
-<sdivars id="31" tokens="4" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="3" tot_pos="0" ratio_pos-negs="3">The syzryup slurperer ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_32">
-<sdivars id="32" tokens="2" mean_chars_leng="0.4444444444444444" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_33">
-<sdivars id="33" tokens="2" mean_chars_leng="0" verbs="0" chunks="3" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0">Well . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_34">
-<sdivars id="34" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">dg : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_35">
-<sdivars id="35" tokens="4" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">The citizen-s concernederer ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_36">
-<sdivars id="36" tokens="2" mean_chars_leng="0.35294117647058826" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_37">
-<sdivars id="37" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="3" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0">Yeah . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_38">
-<sdivars id="38" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">db : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_39">
-<sdivars id="39" tokens="3" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="1" domain_bound="1" adjectives="1" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.333333333333333" tot_pos="0" ratio_pos-negs="2.333333333333333">Purple nurplerer ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_40">
-<sdivars id="40" tokens="5" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="1" domain_bound="1" adjectives="1" abstract_words="1-[3-verbal-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="3.2" tot_pos="0" ratio_pos-negs="2.2" negative_polar_words="[verbal]" positive_polar_words="[Silver]" abstract_eventiv_words="[verbal/3]">The verbal Silver Surferer ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_41">
-<sdivars id="41" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_42">
-<sdivars id="42" tokens="10" mean_chars_leng="0" verbs="1" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="1" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.1" tot_pos="0.1" ratio_pos-negs="1.0" positive_affect_words="[yeah]" positive_polar_words="[yeah,good]">Oh , yeah , that-s a good one . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_43">
-<sdivars id="43" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">db : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_44">
-<sdivars id="44" tokens="4" mean_chars_leng="0.18181818181818182" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">The sherpa murmerer ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_45">
-<sdivars id="45" tokens="4" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="1" adjectives="1" abstract_words="1-[5-bonds-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.75" tot_pos="0" ratio_pos-negs="1.75" positive_polar_words="[bonds]" abstract_eventiv_words="[bonds/5]">The bonds maturerer ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_46">
-<sdivars id="46" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_47">
-<sdivars id="47" tokens="8" mean_chars_leng="0" verbs="2" chunks="8" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[0-know-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.125" ratio_pos-negs="0.125" positive_polar_words="[know]" abstract_eventiv_words="[know/0]">Well , I don-t know about that . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_48">
-<sdivars id="48" tokens="9" mean_chars_leng="0.3333333333333333" verbs="1" chunks="6" verb_preds="1" concepts="3" domain_bound="3" adjectives="1" abstract_words="2-[0-know-[abstract,stato],5-named-[astratto,evento,attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="2.611111111111111" tot_pos="0.2777777777777778" ratio_pos-negs="0.09433962264150943" positive_polar_words="[know,girl,named]" abstract_eventiv_words="[know/0,named/5]" concrete_words="[girl/1]">the know a girl named Ursula Converse Returnerer ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_49">
-<sdivars id="49" tokens="2" mean_chars_leng="0.625" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_50">
-<sdivars id="50" tokens="2" mean_chars_leng="0" verbs="0" chunks="3" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0">Well . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_51">
-<sdivars id="51" tokens="2" mean_chars_leng="0" verbs="0" chunks="3" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0">once . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_52">
-<sdivars id="52" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1" positive_polar_words="[gd]">gd : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_53">
-<sdivars id="53" tokens="7" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/2" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="4" tot_pos="0" ratio_pos-negs="4" negative_affect_words="[worst]" negative_polar_words="[worst]" positive_polar_words="[earth]" concrete_words="[earth/1,flermerer/1]">The earth surfacin worst lurkerin flermerer ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_54">
-<sdivars id="54" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_55">
-<sdivars id="55" tokens="4" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.14285714285714285">What is that ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_56">
-<sdivars id="56" tokens="2" mean_chars_leng="0.5" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1" positive_polar_words="[gd]">gd : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_57">
-<sdivars id="57" tokens="7" mean_chars_leng="0.4444444444444444" verbs="1" chunks="7" verb_preds="1" concepts="4" domain_bound="4" adjectives="0" abstract_words="1-[8-hernia-[stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0.14285714285714285" ratio_pos-negs="0.05844155844155843" negative_affect_words="[burn]" negative_polar_words="[burn,hernia]" abstract_eventiv_words="[hernia/8]">The perp squirmishin burn furnacin hernia ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_58">
-<sdivars id="58" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_59">
-<sdivars id="59" tokens="6" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0" negative_affect_words="[not]" negative_polar_words="[not,not]">No , not that one . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_60">
-<sdivars id="60" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1" positive_polar_words="[gd]">gd : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_61">
-<sdivars id="61" tokens="4" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="1" domain_bound="1" adjectives="1" abstract_words="1-[5-multinational-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.25" tot_pos="0" ratio_pos-negs="2.25" positive_polar_words="[multinational]" abstract_eventiv_words="[multinational/5]">The multinational mergerer ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_62">
-<sdivars id="62" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_63">
-<sdivars id="63" tokens="2" mean_chars_leng="0.5" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">uh . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_64">
-<sdivars id="64" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1" positive_polar_words="[gd]">gd : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_65">
-<sdivars id="65" tokens="3" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">Uma Thurmaner ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_66">
-<sdivars id="66" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_67">
-<sdivars id="67" tokens="3" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1" negative_affect_words="[not]" negative_polar_words="[not,not]">Definately not . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_68">
-<sdivars id="68" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1" positive_polar_words="[gd]">gd : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_69">
-<sdivars id="69" tokens="4" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2" positive_polar_words="[fern]" concrete_words="[fern/1]">The fern squirterer ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_70">
-<sdivars id="70" tokens="5" mean_chars_leng="0.28" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="1" abstract_words="1-[3-confirmed-[abstract,time,attivita,evento]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="3.2" tot_pos="0" ratio_pos-negs="2.2" positive_polar_words="[confirmed,dessert]" abstract_eventiv_words="[confirmed/3]" concrete_words="[dessert/1]">The confirmed dessert serverer ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_71">
-<sdivars id="71" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_72">
-<sdivars id="72" tokens="4" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="0" concepts="0" domain_bound="0" adjectives="1" abstract_words="1-[3-used-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="2.25" tot_pos="0.25" ratio_pos-negs="0.1111111111111111" positive_polar_words="[used]" abstract_eventiv_words="[used/3]">Used to be . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_73">
-<sdivars id="73" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1" positive_polar_words="[gd]">gd : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_74">
-<sdivars id="74" tokens="8" mean_chars_leng="0.3684210526315789" verbs="0" chunks="7" verb_preds="0" concepts="3" domain_bound="2" adjectives="1" abstract_words="1-[10-jerk-[attivita,tempo,umano]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.3333333333333333" tot_negs="4.125" tot_pos="0" ratio_pos-negs="3.7916666666666665" negative_affect_words="[jerk]" negative_polar_words="[jerk]" abstract_eventiv_words="[jerk/10]">The jerk in the ferkin slurpin suburbaner ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_75">
-<sdivars id="75" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_76">
-<sdivars id="76" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">dg : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_77">
-<sdivars id="77" tokens="4" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.5" tot_pos="0" ratio_pos-negs="1.5" positive_polar_words="[hair]">The hair curlerer ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_78">
-<sdivars id="78" tokens="5" mean_chars_leng="0.19047619047619047" verbs="0" chunks="6" verb_preds="0" concepts="3" domain_bound="3" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">The Shirley Temple Shirlerer ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_79">
-<sdivars id="79" tokens="6" mean_chars_leng="0" verbs="1" chunks="6" verb_preds="1" concepts="2" domain_bound="1" adjectives="0" abstract_words="1-[11-name-[attivita,informa,stato,umano]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[name]" abstract_eventiv_words="[name/11]">The My Name is Earl-erer ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_80">
-<sdivars id="80" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_81">
-<sdivars id="81" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">N . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_82">
-<sdivars id="82" tokens="2" mean_chars_leng="0.3333333333333333" verbs="0" chunks="4" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0" negative_affect_words="[no]" negative_polar_words="[no,no]">no . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_83">
-<sdivars id="83" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">dg : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_84">
-<sdivars id="84" tokens="5" mean_chars_leng="0.3" verbs="1" chunks="5" verb_preds="1" concepts="2" domain_bound="2" adjectives="0" abstract_words="1-[7-god-[umano]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.15384615384615385" negative_affect_words="[damn]" negative_polar_words="[damn]" positive_polar_words="[god]" abstract_eventiv_words="[god/7]">The god damn Wordburglar ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_85">
-<sdivars id="85" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">wb : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_86">
-<sdivars id="86" tokens="2" mean_chars_leng="0.4" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">Uh . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_87">
-<sdivars id="87" tokens="4" mean_chars_leng="0.20833333333333334" verbs="0" chunks="4" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0" positive_affect_words="[yeah]" positive_polar_words="[yeah]">well , yeah . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_88">
-<sdivars id="88" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">dg : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_89">
-<sdivars id="89" tokens="5" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-heard-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.25" positive_polar_words="[heard]" abstract_eventiv_words="[heard/5]">Never heard of ya . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Pre-Show Routine Lyrics.txt_90">
-<sdivars id="90" tokens="3" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.25" positive_polar_words="[bucks]">eight bucks ! </sdivars>
+<sdivars id="20" tokens="3" mean_chars_leng="0" verbs="1" chunks="3" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.3333333333333333" ratio_pos-negs="0.3333333333333333" positive_polar_words="[bucks]">Eight bucks , </sdivars>
 </verse_sdi_var>
 </verse_sdi_vars>
 </semantic_density>

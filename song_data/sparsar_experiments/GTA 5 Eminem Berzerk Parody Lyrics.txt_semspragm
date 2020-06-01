@@ -1,0 +1,55 @@
+"POLARITY, DISCOURSE MARKERS"
+
+GTA 5 Eminem Berzerk Parody Lyrics.txt_1-1  []-positive  []
+GTA 5 Eminem Berzerk Parody Lyrics.txt_2-3  [but-advers]-negative  [neg,fgb,fgb]
+GTA 5 Eminem Berzerk Parody Lyrics.txt_3-9  []-negative  [neg]
+GTA 5 Eminem Berzerk Parody Lyrics.txt_4-13  []-suspension  [neg,neg,neg,neg,bkc,neg,neg,bkc]
+GTA 5 Eminem Berzerk Parody Lyrics.txt_5-20  []-positive  []
+GTA 5 Eminem Berzerk Parody Lyrics.txt_5-21  [because-cause]-negative  [neg]
+GTA 5 Eminem Berzerk Parody Lyrics.txt_6-27  []-positive  []
+GTA 5 Eminem Berzerk Parody Lyrics.txt_6-28  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+GTA 5 Eminem Berzerk Parody Lyrics.txt_1-1  [gta,5,Eminem,Berzerk,Parody,Lyrics,by,Xpertthief]  [title]
+GTA 5 Eminem Berzerk Parody Lyrics.txt_2-3  [trevor-s,getting,pissed,off,but,we,are,used,to,that,and,Franklin,is,the,driver,got,chop,in,the,back,michael-s,aim]  [reject_expl_just(chop,[external,factive,explanation,background,objective]),propose_opin_neg(chop,[external,factive,explanation,background,objective]),reject_expl_just(use,[external,factive,cause,foreground,objective])]
+GTA 5 Eminem Berzerk Parody Lyrics.txt_3-9  [you,can,not,match,up,his,shots]  [reject_expl_just(match,[external,nonfactive,narration,foreground,objective])]
+GTA 5 Eminem Berzerk Parody Lyrics.txt_4-13  [do,not,lack,that,is,why,your,dead,on,the,ground,will,not,get,up,after,tha-aat,yes,.,your,dead,on,the,ground,will,not,get,up,after,tha-aat,yes]  [provide_expl_just(lack,[external,factive,cause,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+GTA 5 Eminem Berzerk Parody Lyrics.txt_5-20  [i,just,robbed,an,old,lady]  [provide_expl_just(rob,[external,factive,narration,foreground,objective]),provide_expl_just(crook-cl11,[external,factive,narration,background,objective])]
+GTA 5 Eminem Berzerk Parody Lyrics.txt_5-21  [because,i,am,crooked,equipped,my,grenades]  [reject_expl_just(rob,[external,factive,narration,foreground,objective]),reject_expl_just(crook-cl11,[external,factive,narration,background,objective])]
+GTA 5 Eminem Berzerk Parody Lyrics.txt_6-27  [it,time,is,to,cook]  [provide_expl_just(cook,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+GTA 5 Eminem Berzerk Parody Lyrics.txt_6-28  [it,they,here,the,sirens]  [provide_expl_just(cook,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(GTA 5 Eminem Berzerk Parody Lyrics.txt_1-1)-[]
+2-(GTA 5 Eminem Berzerk Parody Lyrics.txt_2-3)-[primary-anality,primary-concreteness,secondary-instru_behavior,primary-voyage,primary-concreteness,secondary-instru_behavior]
+3-(GTA 5 Eminem Berzerk Parody Lyrics.txt_3-9)-[emotions-aggression]
+4-(GTA 5 Eminem Berzerk Parody Lyrics.txt_4-13)-[secondary-abstract_tought,primary-passivity,primary-passivity]
+half
+5-(GTA 5 Eminem Berzerk Parody Lyrics.txt_5-20)-[emotions-aggression,secondary-temporal_repere]
+6-(GTA 5 Eminem Berzerk Parody Lyrics.txt_5-21)-[]
+7-(GTA 5 Eminem Berzerk Parody Lyrics.txt_6-27)-[secondary-temporal_repere,primary-orality]
+8-(GTA 5 Eminem Berzerk Parody Lyrics.txt_6-28)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(GTA 5 Eminem Berzerk Parody Lyrics.txt_1,1,cl1-nil-nil-parody-[arg_mod-agent-Xpertthief-sn4,obj-theme-Lyrics-sn3,subj-agent-Berzerk-sn2,subj-agent-Berzerk-sn1,and(Berzerk,5,sn2),and(Berzerk,5,sn1),def_prop(Xpertthief,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(Berzerk,[istituzione,umano]),def_prop(Berzerk,[istituzione,umano])])
+lf(GTA 5 Eminem Berzerk Parody Lyrics.txt_2,3,cl5-nil-nil-chop-[cmod-coord-chop-and,ncmod-theme-aim-sn5,xmod-prop-chop-4,def_prop(aim,[astratto,attivita])])
+lf(GTA 5 Eminem Berzerk Parody Lyrics.txt_2,3,cl4-nil-nil-be-[xcomp-prop-driver-sn4,subj-actor-Franklin-sn3,def_prop(driver,[attivita,informa,oggetto,strumento,umano]),def_prop(Franklin,[place,umano])])
+lf(GTA 5 Eminem Berzerk Parody Lyrics.txt_2,3,cl3-nil-nil-use-[aux-are-nil])
+lf(GTA 5 Eminem Berzerk Parody Lyrics.txt_2,3,cl2-nil-nil-get-[obj-theme_unaff-pissed-sn2,subj-agent-trevor-s-sn1,def_prop(pissed,[evaluative]),def_prop(trevor-s,[istituzione])])
+lf(GTA 5 Eminem Berzerk Parody Lyrics.txt_3,9,cl6-not-can-match-[adj-(mod)-up-nil,obj-theme-shot-sn2,subj-agent-you-sn1,def_prop(shot,[attivita,informa,oggetto,stato,strumento,umano]),def_prop(you,[umano])])
+lf(GTA 5 Eminem Berzerk Parody Lyrics.txt_4,13,cl9-not-will-get-[])
+lf(GTA 5 Eminem Berzerk Parody Lyrics.txt_4,13,cl8-nil-nil-be-[adj-(mod)-up-nil,xcomp-theme-yes-sn11,ncmod-temporale-tha-aat-sn10,ncmod-modale-grind-sn9,subj-theme_bound-why-sn8,def_prop(yes,[attivita,informa]),def_prop(tha-aat,[istituzione,umano]),def_prop(grind,[attivita]),def_prop(why,[astratto])])
+lf(GTA 5 Eminem Berzerk Parody Lyrics.txt_4,13,cl7-not-nil-lack-[subj-agent-dead-sn2,subj-agent-dead-sn1,aux-do-nil,def_prop(dead,[tempo]),def_prop(dead,[tempo])])
+lf(GTA 5 Eminem Berzerk Parody Lyrics.txt_5,20,cl11-nil-nil-crook-[obj-theme_aff-grenade-sn5,subj-theme-i-sn4,aux-am-nil,and(grenade,equipped,sn5),def_prop(grenade,[oggetto,strumento]),def_prop(i,[umano])])
+lf(GTA 5 Eminem Berzerk Parody Lyrics.txt_5,20,cl10-nil-nil-rob-[adj-(mod)-just-nil,obj-theme_aff-lady-sn2,subj-agent-i-sn1,and(lady,old,sn2),def_prop(lady,[plant,umano]),def_prop(i,[umano])])
+lf(GTA 5 Eminem Berzerk Parody Lyrics.txt_6,27,cl13-nil-nil-cook-[subj-goal-it-sn1,def_prop(it,[any])])
+lf(GTA 5 Eminem Berzerk Parody Lyrics.txt_6,27,cl12-nil-nil-be-[xcomp-prop-siren-sn5,subj-theme_bound-they-sn4,subj-theme_bound-they-sn3,adj-temporal-time-nil,subj-theme_bound-it-sn1,and(siren,here,sn5),and(they,it,sn3),def_prop(siren,[animato,attivita,informa,oggetto,strumento]),def_prop(they,[umano]),def_prop(they,[umano]),def_prop(it,[any])])

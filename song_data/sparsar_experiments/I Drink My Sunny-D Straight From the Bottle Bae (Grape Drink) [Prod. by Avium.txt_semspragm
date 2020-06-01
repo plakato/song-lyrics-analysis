@@ -1,0 +1,51 @@
+"POLARITY, DISCOURSE MARKERS"
+
+I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_1-1  []-positive  []
+I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_1-2  []-negative  [neg]
+I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_2-4  []-positive  []
+I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_3-7  []-positive  []
+I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_4-11  []-positive  []
+I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_5-17  []-negative  [fhd]
+I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_6-24  []-suspension  []
+I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_7-31  []-positive  [fhd]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_1-1  [i,Drink,my,Sunny-D,Straight,from,the,Bottle]  [title]
+I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_1-2  [Bae,Grape,drink,prod]  [reject_expl_just(drink,[external,factive,narration,background,objective]),reject_expl_just(prod,[external,factive,setting,background,objective])]
+I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_2-4  [by,by,4AM]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_3-7  [i,am,Sam,Sam]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_4-11  [i,am,that,is,Sam,that,is,Sam]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_5-17  [i,am,i,don-t,like,Sam]  [provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_6-24  [i,am,would]  [provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_7-31  [you,like,Green,eggs]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_1-1)-[]
+2-(I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_1-2)-[primary-orality]
+3-(I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_2-4)-[]
+4-(I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_3-7)-[]
+half
+5-(I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_4-11)-[]
+6-(I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_5-17)-[emotions-affection]
+7-(I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_6-24)-[]
+8-(I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_7-31)-[emotions-affection,primary-orality]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_1,1,cl2-nil-nil-prod-[subj-agent-drink-sn8,subj-agent-drink-sn7,ncmod-loc_origin-bottle-sn4,and(drink,Grape,sn8),and(drink,Grape,sn7),def_prop(drink,[attivita,edible,oggetto]),def_prop(drink,[attivita,edible,oggetto]),def_prop(bottle,[nquant,oggetto,strumento])])
+lf(I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_1,1,cl1-nil-nil-drink-[obj-theme-Straight-sn3,obj-goal-Sunny-D-sn2,subj-agent-i-sn1,def_prop(Straight,[place,umano]),def_prop(Sunny-D,[attivita,informa,umano]),def_prop(i,[umano])])
+lf(I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_2,4,cl3-nil-nil-be-[iobj-scale-4AM-sn1,def_prop(4AM,[nquant])])
+lf(I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_3,7,cl4-nil-nil-be-[xcomp-prop-Sam-sn2,subj-theme_bound-i-sn1,and(Sam,Sam,sn2),def_prop(Sam,[place,umano]),def_prop(i,[umano])])
+lf(I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_4,11,cl5-nil-nil-be-[subj-theme_bound-Sam-sn8,xcomp-prop-Sam-sn7,xcomp-prop-Sam-sn6,xcomp-prop-Sam-sn5,xcomp-prop-Sam-sn4,xcomp-purpose-be-4,xcomp-prop-Sam-sn3,xcomp-prop-Sam-sn2,subj-theme_bound-i-sn1,def_prop(Sam,[place,umano]),def_prop(Sam,[place,umano]),def_prop(Sam,[place,umano]),def_prop(Sam,[place,umano]),def_prop(Sam,[place,umano]),def_prop(Sam,[place,umano]),def_prop(Sam,[place,umano]),def_prop(i,[umano])])
+lf(I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_5,17,cl7-not-nil-don-t-[subj-theme_bound-Sam-sn4,xcomp-prop-Sam-sn3,subj-agent-i-sn2,def_prop(Sam,[place,umano]),def_prop(Sam,[place,umano]),def_prop(i,[umano])])
+lf(I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_5,17,cl6-nil-nil-be-[subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_6,24,cl8-nil-would-will-[subj-agent-you-sn1,aux-am-nil,def_prop(you,[umano])])
+lf(I Drink My Sunny-D Straight From the Bottle Bae (Grape Drink) [Prod. by Avium.txt_7,31,nil-nil-nil-like-[obj-tema_emot-egg-sn2,subj-experiencer-you-sn1,and(egg,Green,sn2),def_prop(egg,[animato,edible,oggetto]),def_prop(you,[umano])])

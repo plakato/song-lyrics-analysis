@@ -1,0 +1,61 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Biter's Block Lyrics.txt_1-1  []-positive  [neg]
+Biter's Block Lyrics.txt_2-3  []-negative  [neg]
+Biter's Block Lyrics.txt_3-7  []-negative  [neg]
+Biter's Block Lyrics.txt_3-8  [but-advers,since-cause]-negative  [fgb,neg]
+Biter's Block Lyrics.txt_3-9  []-positive  [neg]
+Biter's Block Lyrics.txt_4-14  []-positive  []
+Biter's Block Lyrics.txt_4-15  []-positive  []
+Biter's Block Lyrics.txt_5-19  []-positive  [neg,fgb]
+Biter's Block Lyrics.txt_5-20  []-positive  []
+Biter's Block Lyrics.txt_6-25  []-positive  []
+Biter's Block Lyrics.txt_6-26  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Biter's Block Lyrics.txt_1-1  [biter-s,Block,Lyrics,by,Rugged,Intellect]  [title]
+Biter's Block Lyrics.txt_2-3  [this,is,the,biters,block,a,place,where,amateur,rappers,can,start,to,mimic,their,favorites,to,get,a,slice,of,props,in-86,.]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(start,[external,nonfactive,inception,foreground,objective]),indication(start,[external,nonfactive,inception,foreground,objective])]
+Biter's Block Lyrics.txt_3-7  [these,cats,would,probably,die]  [reject_expl_just(be,[external,factive,narration,foreground,objective]),reject_expl_just(die,[external,nonfactive,narration,background,objective]),reject_expl_just(wan,[external,factive,narration,background,objective])]
+Biter's Block Lyrics.txt_3-8  [but,everybody,wan,na,bite,since,50]  [reject_expl_just(be,[external,factive,narration,foreground,objective]),reject_expl_just(die,[external,nonfactive,narration,background,objective]),reject_expl_just(wan,[external,factive,narration,background,objective])]
+Biter's Block Lyrics.txt_3-9  [,,trying,to,be,Ja,i,am,sick,of,haters]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(die,[external,nonfactive,narration,background,objective]),provide_expl_just(wan,[external,factive,narration,background,objective])]
+Biter's Block Lyrics.txt_4-14  [my,flow,is,colder,than]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Biter's Block Lyrics.txt_4-15  [refrigerators,half]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Biter's Block Lyrics.txt_5-19  [these,kids,are,brainless,and,famous]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Biter's Block Lyrics.txt_5-20  [for,being,imitators]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Biter's Block Lyrics.txt_6-25  [they,say]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Biter's Block Lyrics.txt_6-26  [that,Big-s,the,greatest]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Biter's Block Lyrics.txt_1-1)-[]
+2-(Biter's Block Lyrics.txt_2-3)-[primary-orality,secondary-restraint,primary-concreteness,primary-concreteness,primary-vision]
+3-(Biter's Block Lyrics.txt_3-7)-[secondary-abstract_tought,primary-passivity]
+4-(Biter's Block Lyrics.txt_3-8)-[primary-orality]
+5-(Biter's Block Lyrics.txt_3-9)-[secondary-instru_behavior,emotions-aggression]
+half
+6-(Biter's Block Lyrics.txt_4-14)-[primary-cold]
+7-(Biter's Block Lyrics.txt_4-15)-[]
+8-(Biter's Block Lyrics.txt_5-19)-[emotions-glory]
+9-(Biter's Block Lyrics.txt_5-20)-[]
+10-(Biter's Block Lyrics.txt_6-25)-[secondary-social_behavior]
+11-(Biter's Block Lyrics.txt_6-26)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Biter's Block Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-intellect-sn2,subj-theme_bound-Lyrics-sn1,and(intellect,Rugged,sn2),and(Lyrics,biter-s,sn1),def_prop(intellect,[astratto,relat,sociale,stato,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Biter's Block Lyrics.txt_2,3,_648618-nil-nil-start-[sn-result-favorite-sn6,xcomp-prop-mimic-3,voice-start-nil,tense-start-nil,obl-locat-place-sn3,def_prop(favorite,[astratto]),def_prop(place,[astratto,attivita,informa,luogo,stato])])
+lf(Biter's Block Lyrics.txt_2,3,cl2-nil-nil-be-[voice-start-nil,tense-start-nil,obj2-benef-place-sn3,xcomp-prop-block-sn2,subj-theme_bound-this-sn1,and(block,biter,sn2),def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(block,[astratto,luogo,nquant,oggetto,strumento]),def_prop(this,[oggetto,umano])])
+lf(Biter's Block Lyrics.txt_3,7,cl4-nil-nil-be-[xcomp-prop-sick-sn7,xcomp-purpose-be-2,subj-theme_bound-i-sn6,def_prop(sick,[istituzione]),def_prop(i,[umano])])
+lf(Biter's Block Lyrics.txt_3,7,nil-nil-nil-wan-[ncmod-durata-50-sn4,obj-theme-bite-sn3,subj-actor-everybody-sn2,and(bite,na,sn3),def_prop(50,[nquant]),def_prop(bite,[attivita,edible,evento,oggetto,stato]),def_prop(everybody,[umano])])
+lf(Biter's Block Lyrics.txt_3,7,cl3-nil-would-die-[subj-theme_aff-you-sn1,adj-(mod)-probably-nil,def_prop(you,[umano])])
+lf(Biter's Block Lyrics.txt_4,14,cl5-nil-nil-be-[xcomp-prop-half-sn6,subj-theme_bound-refrigerator-sn5,xcomp-prop-colder-sn2,subj-theme_bound-flow-sn1,def_prop(half,[valutativo]),def_prop(refrigerator,[oggetto,strumento]),def_prop(colder,[istituzione,umano]),def_prop(flow,[attivita,evento,tempo])])
+lf(Biter's Block Lyrics.txt_5,19,cl6-nil-nil-be-[subj-theme_bound-you-sn5,xcomp-prop-famous-sn3,subj-theme_bound-kid-sn1,and(famous,brainless,sn3),and(kid,these,sn1),def_prop(you,[umano]),def_prop(famous,[istituzione]),def_prop(kid,[animato,sostanza,umano])])
+lf(Biter's Block Lyrics.txt_6,25,cl8-nil-nil-be-[xcomp-prop-greatest-sn4,xcomp-theme-Big-s-sn3,subj-theme_bound-you-sn2,def_prop(greatest,[istituzione]),def_prop(Big-s,[istituzione]),def_prop(you,[umano])])
+lf(Biter's Block Lyrics.txt_6,25,cl7-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])

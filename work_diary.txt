@@ -64,6 +64,8 @@ SPARSAR
             - ERROR: length/2: Type error: `list' expected, found `sn' (an atom)
                 - internal SPARSAR problem
             - ERROR: atomic_list_concat/3: Arguments are not sufficiently instantiated
+                - wasn't able to create phoneme from a single letter 
+                - contractions> y'all, yo', do', fo'
             - atomic_list_concat/3: Type error: `atom' expected, found `[]' (an empty_list)
                 - didn't know contraction "I'mma"
             - zacyklenie
@@ -72,6 +74,10 @@ SPARSAR
         - weird rhymes
             - adjusted not to prefer Elisabethan sonnet structure
         - !!! needs punctuation to analyze - add full stop at the end of each line to help 
+
+RELATED WORK
+    - https://www.freecodecamp.org/news/building-a-twitter-lyric-bot-12468255a4ee/
+        - https://github.com/ShawnToubeau/lyric-bot
 
 TASKS FOR NEXT WEEK
 - write email with lyrics that rhymes don't match - mistake or some unfulfilled presumption about lyrics
@@ -206,3 +212,21 @@ TASKS FOR NEXT WEEK
     - namiesto s dat 0, -1 rozlisi ak su rozne
     - pole vzdialenosti dalsieho suseda lepsie ako vstup lebo netreba normalizovat pismenka..?
     - spustat SPARSAR cez noc
+
+-------------------------------------------------------------------------------------------------------------------
+25.5.2020
+TASKS FOR NEXT WEEK
+    - riesenie roznych vstupnych rozmerov
+        - padding
+        - global max pooling
+        - kuskovat pesnicky aby sme mali stejny rozmer vstupu
+    - punctuation   
+        - https://github.com/ottokart/punctuator2
+            - vystup bez newlinov (smaljici)
+            - povodnu interpunkciu zmaze/zmeni
+    - vyskusat spustat sparsar cez unix lab - da sa?
+        - je tam Linux Gentoo
+        - na spustanie potrebujem nainstalovat swi-prolog, ktory tam neni a nemam pravo instalovat
+    - ako sa vyspecifikovat
+        - generovat na temu sprav z twitteru/FB, popr. komentarov
+        

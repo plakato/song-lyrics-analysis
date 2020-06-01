@@ -1,0 +1,62 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Kingdom Lyrics.txt_1-1  []-positive  []
+Kingdom Lyrics.txt_2-3  []-positive  [fgb]
+Kingdom Lyrics.txt_2-4  []-negative  [neg,fhd]
+Kingdom Lyrics.txt_3-7  []-negative  []
+Kingdom Lyrics.txt_3-8  []-negative  [fgb]
+Kingdom Lyrics.txt_4-13  []-negative  [neg,neg]
+Kingdom Lyrics.txt_5-19  []-positive  []
+Kingdom Lyrics.txt_5-20  []-negative  []
+Kingdom Lyrics.txt_6-26  []-negative  [fgb,neg,neg,fgb,neg,neg,fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Kingdom Lyrics.txt_1-1  [kingdom,Lyrics,by,Volcanoes]  [title]
+Kingdom Lyrics.txt_2-3  [looking,into,your,eyes,i,see,diamonds,and,champagne,with,every,glance]  [provide_expl_just(see,[external,factive,explanation,background,objective]),provide_expl_just(shatter,[external,factive,explanation,background,objective])]
+Kingdom Lyrics.txt_2-4  [i,shatter,just,like,all,the,others]  [reject_expl_just(see,[external,factive,explanation,background,objective]),propose_opin_neg(see,[external,factive,explanation,background,objective]),reject_expl_just(shatter,[external,factive,explanation,background,objective]),propose_opin_neg(shatter,[external,factive,explanation,background,objective])]
+Kingdom Lyrics.txt_3-7  [how_many,times,i,must,be,torn]  [provide_expl_just(rip,[external,factive,cause,foreground,objective])]
+Kingdom Lyrics.txt_3-8  [and,ripped,apart]  [provide_expl_just(rip,[external,factive,cause,foreground,objective])]
+Kingdom Lyrics.txt_4-13  [why,can,not,i,catch,a,break]  [reject_expl_just(catch,[external,factive,narration,background,objective]),reject_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Kingdom Lyrics.txt_5-19  [this,Cristal,stare,is]  [provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Kingdom Lyrics.txt_5-20  [burning,holes,in,the,back,of,my,head,look]  [provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Kingdom Lyrics.txt_6-26  [at,you,floating,in,and,out_of,every,circle,,,flashing,those,red,crooked,lips,,,batting,those,pretty,red,eyes,go,ahead,and,throw,back,another,drink,,,your,champagne,eyes,can,not,hide,what,is,underneath]  [reject_expl_just(throw,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(bat,[external,factive,narration,foreground,objective]),reject_expl_just(flash,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Kingdom Lyrics.txt_1-1)-[emotions-glory]
+2-(Kingdom Lyrics.txt_2-3)-[primary-narcissism,primary-vision,primary-orality,secondary-temporal_repere,primary-vision]
+3-(Kingdom Lyrics.txt_2-4)-[emotions-aggression,emotions-affection]
+4-(Kingdom Lyrics.txt_3-7)-[secondary-temporal_repere,secondary-restraint,emotions-aggression]
+half
+5-(Kingdom Lyrics.txt_3-8)-[emotions-aggression,primary-concreteness]
+6-(Kingdom Lyrics.txt_4-13)-[secondary-abstract_tought,secondary-restraint,emotions-aggression]
+7-(Kingdom Lyrics.txt_5-19)-[primary-vision]
+8-(Kingdom Lyrics.txt_5-20)-[primary-depth,primary-concreteness,primary-narcissism,primary-vision]
+9-(Kingdom Lyrics.txt_6-26)-[primary-concreteness,secondary-temporal_repere,primary-concreteness,primary-orality,primary-gen_sensation,primary-narcissism,primary-concreteness,primary-ascend,primary-concreteness,primary-orality,primary-orality,primary-narcissism,primary-depth]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Kingdom Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-volcano-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,kingdom,sn1),def_prop(volcano,[oggetto]),def_prop(Lyrics,[informa,tecno])])
+lf(Kingdom Lyrics.txt_2,3,cl3-nil-nil-shatter-[adj-(mod)-just-nil,obj-patient-others-sn10,subj-agent-i-sn9,def_prop(others,[istituzione]),def_prop(i,[umano])])
+lf(Kingdom Lyrics.txt_2,3,cl2-nil-nil-see-[xadj-adj-looking-adj1,ncmod-modale-glance-sn6,coord-theme_aff-diamond_and_champagne-sn5,obj-theme_aff-champagne-sn4,obj-theme_aff-diamond-sn3,ncmod-loc_direct-eye-sn2,subj-experiencer-i-sn1,and(glance,every,sn6),def_prop(looking,_92314),def_prop(glance,[attivita]),def_prop(diamond_and_champagne,[astratto,oggetto,sostanza,strumento,edible,oggetto]),def_prop(champagne,[astratto,oggetto,sostanza,strumento,edible,oggetto]),def_prop(diamond,[astratto,oggetto,sostanza,strumento,edible,oggetto]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(Kingdom Lyrics.txt_3,7,cl6-nil-nil-rip-[cmod-subord-rip-",xcomp-prop-apart-sn4,subj-agent-you-sn3,def_prop(apart,[evaluative]),def_prop(you,[umano])])
+lf(Kingdom Lyrics.txt_3,7,cl5-nil-nil-tear-[subj-goal-i-sn1,def_prop(i,[umano])])
+lf(Kingdom Lyrics.txt_3,7,cl4-nil-must-be-[adj-temporal-times-nil,subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Kingdom Lyrics.txt_4,13,cl8-nil-nil-catch-[obj-goal-break-sn2,xcomp-purpose-catch-2,def_prop(break,[attivita,evento])])
+lf(Kingdom Lyrics.txt_4,13,cl7-not-can-can-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Kingdom Lyrics.txt_5,19,cl10-nil-nil-look-[iobj-goal-back-sn4,subj-agent-hole-sn3,adj-(mod)-be-nil,ncmod-modal-Cristal-sn2,and(hole,burning,sn3),def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(hole,[astratto,oggetto,stato,strumento]),def_prop(Cristal,[umano])])
+lf(Kingdom Lyrics.txt_5,19,cl9-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Kingdom Lyrics.txt_6,26,cl17-nil-nil-be-[subj-theme_bound-eye-sn13,xcomp-theme-that-sn3,xcomp-purpose-bat-11,ncmod-locativo-you-sn2,and(eye,champagne,sn13),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(that,[oggetto,umano]),def_prop(you,[umano])])
+lf(Kingdom Lyrics.txt_6,26,cl16-not-can-hide-[subj-agent-eye-sn13,and(eye,champagne,sn13),def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(Kingdom Lyrics.txt_6,26,cl15-nil-nil-throw-[cmod-coord-be-and,ncmod-locativo-circle-sn11,subj-agent-eye-sn1,xcomp-agent-drink-sn7,subj-agent-you-sn6,and(circle,every,sn11),and(eye,red,sn1),and(drink,another,sn7),def_prop(circle,[astratto,oggetto,strumento]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(drink,[attivita,edible,oggetto]),def_prop(you,[umano])])
+lf(Kingdom Lyrics.txt_6,26,cl14-nil-nil-go-[])
+lf(Kingdom Lyrics.txt_6,26,cl13-nil-nil-bat-[])
+lf(Kingdom Lyrics.txt_6,26,cl12-nil-nil-flash-[obj-theme-that-sn12,subj-actor-lip-sn10,and(lip,crooked,sn10),and(lip,red,sn10),def_prop(that,[oggetto,umano]),def_prop(lip,[body_part,umano])])
+lf(Kingdom Lyrics.txt_6,26,cl11-nil-nil-float-[xcomp-prop-ahead-sn5,adj-subj_disc-pretty-sn4,subj-actor-eye-sn1,and(eye,red,sn1),def_prop(ahead,[evaluative]),def_prop(pretty,[]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])

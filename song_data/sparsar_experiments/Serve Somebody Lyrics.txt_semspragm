@@ -1,0 +1,88 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Serve Somebody Lyrics.txt_1-1  []-positive  []
+Serve Somebody Lyrics.txt_2-3  []-question  []
+Serve Somebody Lyrics.txt_3-7  []-negative  [neg,neg]
+Serve Somebody Lyrics.txt_3-8  []-positive  [neg]
+Serve Somebody Lyrics.txt_3-9  [when-temp_coinc]-negative  [neg,fgb,neg]
+Serve Somebody Lyrics.txt_4-17  []-positive  []
+Serve Somebody Lyrics.txt_4-18  []-negative  [fgb,neg]
+Serve Somebody Lyrics.txt_4-18  [if-hypoth]-negative  [fgb,neg,neg,fhd,fgb]
+Serve Somebody Lyrics.txt_5-22  []-negative  [neg]
+Serve Somebody Lyrics.txt_5-23  []-positive  [ack]
+Serve Somebody Lyrics.txt_5-24  [but-advers]-positive  [fgb]
+Serve Somebody Lyrics.txt_5-25  []-suspension  []
+Serve Somebody Lyrics.txt_6-31  []-positive  []
+Serve Somebody Lyrics.txt_7-38  []-positive  [fgb]
+Serve Somebody Lyrics.txt_7-39  []-negative  [neg]
+Serve Somebody Lyrics.txt_7-40  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Serve Somebody Lyrics.txt_1-1  [serve,somebody,Lyrics,by,Wolfman,D]  [title]
+Serve Somebody Lyrics.txt_2-3  [me,to,step,to,wants,who,?]  [provide_expl_just(step,[internal,factive,narration,foreground,objective]),provide_expl_just(want,[internal,factive,narration,foreground,objective])]
+Serve Somebody Lyrics.txt_3-7  [i,have,got,a,secret,recipe,to,battle]  [reject_expl_just(step,[external,factive,narration,background,objective]),reject_expl_just(heckle,[external,factive,narration,background,objective]),reject_expl_just(curse,[external,factive,cause,foreground,objective])]
+Serve Somebody Lyrics.txt_3-8  [anybody,in,the,crowd,,,trying,to,heckle,me,step]  [provide_expl_just(step,[external,factive,narration,background,objective]),provide_expl_just(heckle,[external,factive,narration,background,objective]),provide_expl_just(curse,[external,factive,cause,foreground,objective])]
+Serve Somebody Lyrics.txt_3-9  [,,away,from,the,mike,lest,ye,,,be,cursed,with,leprosy,,,and,,,start,cleaning,toilets,in,the,barracks,for,some,extra,cheese,i,am,an,artist,who,is,known,to,scar,,,folks,when]  [reject_expl_just(step,[external,factive,narration,background,objective]),reject_expl_just(heckle,[external,factive,narration,background,objective]),reject_expl_just(curse,[external,factive,cause,foreground,objective])]
+Serve Somebody Lyrics.txt_4-17  [i,get,into,detail]  [provide_expl_just(stop,[external,factive,circumstance,background,objective])]
+Serve Somebody Lyrics.txt_4-18  [and,,,stop,speaking,in,broad,strokes]  [reject_expl_just(stop,[external,factive,circumstance,background,objective]),propose_opin_neg(stop,[external,factive,circumstance,background,objective])]
+Serve Somebody Lyrics.txt_4-18  [and,,,stop,speaking,in,broad,strokes,,,chops,that,ass,like,karate,if]  [reject_expl_just(stop,[external,factive,circumstance,background,objective]),propose_opin_neg(stop,[external,factive,circumstance,background,objective])]
+Serve Somebody Lyrics.txt_5-22  [you,keep,hating,on,me]  [reject_expl_just(hate,[external,factive,narration,foreground,objective]),reject_expl_just(keep,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Serve Somebody Lyrics.txt_5-23  [,,that,is,all_right]  [provide_expl_just(hate,[external,factive,narration,foreground,objective]),provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Serve Somebody Lyrics.txt_5-24  [but,i,am]  [provide_expl_just(hate,[external,factive,narration,foreground,objective]),provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Serve Somebody Lyrics.txt_5-25  [Gon,na,have_to,serve,somebody]  [provide_expl_just(hate,[external,factive,narration,foreground,objective]),provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Serve Somebody Lyrics.txt_6-31  [serve,somebody,walk,up,in,my,place]  [raise_issue(be,[_70370,factive,statement,_70388,subjective])]
+Serve Somebody Lyrics.txt_7-38  [and,,,i,am,dressed,kind,of,classy,step]  [provide_expl_just(want,[external,factive,narration,foreground,objective]),provide_expl_just(serve,[external,factive,result,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(battle,[external,factive,narration,background,objective])]
+Serve Somebody Lyrics.txt_7-39  [up,in,my,face,you,get,served,something,nasty]  [reject_expl_just(want,[external,factive,narration,foreground,objective]),reject_expl_just(serve,[external,factive,result,foreground,objective]),propose_opin_neg(serve,[external,factive,result,foreground,objective]),reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(battle,[external,factive,narration,background,objective])]
+Serve Somebody Lyrics.txt_7-40  [you,don-t,want,to,battle,me,mc,booty]  [reject_expl_just(want,[external,factive,narration,foreground,objective]),reject_expl_just(serve,[external,factive,result,foreground,objective]),propose_opin_neg(serve,[external,factive,result,foreground,objective]),reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(battle,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Serve Somebody Lyrics.txt_1-1)-[]
+2-(Serve Somebody Lyrics.txt_2-3)-[primary-brink]
+3-(Serve Somebody Lyrics.txt_3-7)-[primary-unknow,emotions-aggression]
+4-(Serve Somebody Lyrics.txt_3-8)-[primary-chaos,secondary-instru_behavior,primary-brink]
+5-(Serve Somebody Lyrics.txt_3-9)-[primary-concreteness,primary-vision,primary-orality,secondary-abstract_tought,secondary-temporal_repere]
+6-(Serve Somebody Lyrics.txt_4-17)-[]
+7-(Serve Somebody Lyrics.txt_4-18)-[secondary-restraint,primary-touch]
+8-(Serve Somebody Lyrics.txt_4-18)-[secondary-restraint,primary-touch,emotions-affection]
+half
+9-(Serve Somebody Lyrics.txt_5-22)-[]
+10-(Serve Somebody Lyrics.txt_5-23)-[]
+11-(Serve Somebody Lyrics.txt_5-24)-[]
+12-(Serve Somebody Lyrics.txt_5-25)-[]
+13-(Serve Somebody Lyrics.txt_6-31)-[primary-concreteness]
+14-(Serve Somebody Lyrics.txt_7-38)-[emotions-affection,secondary-order,primary-brink]
+15-(Serve Somebody Lyrics.txt_7-39)-[primary-narcissism]
+16-(Serve Somebody Lyrics.txt_7-40)-[emotions-aggression]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Serve Somebody Lyrics.txt_1,1,cl1-nil-nil-serve-[arg_mod-agent-D-sn2,subj-theme_bound-Lyrics-sn1,and(D,Wolfman,sn2),and(Lyrics,somebody,sn1),def_prop(D,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Serve Somebody Lyrics.txt_2,3,cl3-nil-nil-step-[adj-(mod)-want-nil,iobj-goal-me-sn2,xcomp-purpose-step-2,def_prop(me,[umano])])
+lf(Serve Somebody Lyrics.txt_2,3,cl2-nil-nil-want-[subj-actor-who-sn1,def_prop(who,[umano])])
+lf(Serve Somebody Lyrics.txt_3,7,cl10-nil-nil-scar-[xcomp-prop-known-sn11,obj-theme-who-sn10,ncmod-locativo-barrack-sn9,ncmod-loc_origin-mike-sn8,adj-subj_disc-away-sn7,subj-theme-anybody-sn6,def_prop(known,[stato]),def_prop(who,[umano]),def_prop(barrack,[oggetto,strumento]),def_prop(mike,[oggetto,strumento]),def_prop(away,[istituzione]),def_prop(anybody,[umano])])
+lf(Serve Somebody Lyrics.txt_3,7,cl9-nil-nil-be-[cmod-subord-heckle-for,xcomp-prop-artist-sn17,subj-actor-cheese-sn16,voice-curse-cl7,def_prop(artist,[oggetto,strumento,umano]),def_prop(cheese,[edible,oggetto])])
+lf(Serve Somebody Lyrics.txt_3,7,cl8-nil-nil-clean-[cmod-coord-heckle-and,obj-patient-toilet-sn14,subj-agent-star-sn13,subj-agent-star-sn12,and(star,anybody,sn12),def_prop(toilet,[attivita,oggetto,strumento]),def_prop(star,[astratto,oggetto,umano]),def_prop(star,[astratto,oggetto,umano])])
+lf(Serve Somebody Lyrics.txt_3,7,cl7-nil-nil-curse-[cmod-subord-heckle-lest,ncmod-modale-leprosy-sn20,subj-theme_unaff-ye-sn19,subj-theme_unaff-ye-sn18,aux-be-nil,and(ye,anybody,sn18),def_prop(leprosy,[stato]),def_prop(ye,[informa,tecno]),def_prop(ye,[informa,tecno])])
+lf(Serve Somebody Lyrics.txt_3,7,cl6-nil-nil-step-[obj-prop-me-sn5,xcomp-purpose-heckle-2,ncmod-locativo-crowd-sn4,subj-agent-anybody-sn3,def_prop(me,[umano]),def_prop(crowd,[istituzione]),def_prop(anybody,[umano])])
+lf(Serve Somebody Lyrics.txt_3,7,cl5-nil-nil-heckle-[xadj-adj-trying-adj1,def_prop(trying,_75186)])
+lf(Serve Somebody Lyrics.txt_3,7,cl4-nil-nil-get-[obj-theme_unaff-recipe-sn2,subj-agent-i-sn1,aux-have-nil,and(recipe,secret,sn2),def_prop(recipe,[attivita,informa]),def_prop(i,[umano])])
+lf(Serve Somebody Lyrics.txt_4,17,cl12-nil-nil-stop-[ncmod-locativo-stroke-sn8,xcomp-prop-speaking-sn7,subj-agent-you-sn6,cmod-subord-stop-",ncmod-locativo-stroke-sn5,xcomp-prop-speaking-sn4,subj-agent-you-sn3,ncmod-modale-detail-sn2,and(stroke,broad,sn8),and(stroke,broad,sn5),def_prop(stroke,[attivita,evento,informa,stato,umano]),def_prop(speaking,[attivita,informa]),def_prop(you,[umano]),def_prop(stroke,[attivita,evento,informa,stato,umano]),def_prop(speaking,[attivita,informa]),def_prop(you,[umano]),def_prop(detail,[astratto,attivita,informa,relat])])
+lf(Serve Somebody Lyrics.txt_4,17,cl11-nil-nil-get-[subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Serve Somebody Lyrics.txt_5,22,cl16-nil-have_to-serve-[xcomp-prop-somebody-sn6,subj-theme_bound-na-sn5,xcomp-purpose-hate-6,and(na,Gon,sn5),def_prop(somebody,[umano]),def_prop(na,[informa,tecno])])
+lf(Serve Somebody Lyrics.txt_5,22,cl15-nil-nil-be-[subj-theme_bound-you-sn4,adj-(mod)-all_right-nil,def_prop(you,[umano])])
+lf(Serve Somebody Lyrics.txt_5,22,cl14-nil-nil-hate-[ncmod-prop-me-sn2,def_prop(me,[umano])])
+lf(Serve Somebody Lyrics.txt_5,22,cl13-nil-nil-keep-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Serve Somebody Lyrics.txt_6,31,cl17-nil-nil-serve-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,iobj-goal-place-sn3,obj-prop-walk-sn2,subj-theme_bound-you-sn1,and(walk,somebody,sn2),def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(walk,[astratto,attivita,oggetto,strumento]),def_prop(you,[umano])])
+lf(Serve Somebody Lyrics.txt_7,38,cl22-nil-nil-battle-[])
+lf(Serve Somebody Lyrics.txt_7,38,cl21-not-nil-want-[obj-actor2-mc-sn11,xcomp-purpose-battle-2,subj-actor-you-sn10,aux-do-nil,and(mc,me,sn11),def_prop(mc,[informa,tecno]),def_prop(you,[umano])])
+lf(Serve Somebody Lyrics.txt_7,38,cl20-nil-nil-serve-[])
+lf(Serve Somebody Lyrics.txt_7,38,cl19-nil-nil-get-[adj-(mod)-up-nil,obj-prop-nasty-sn5,xcomp-purpose-serve-2,iobj-goal-face-sn4,subj-agent-you-sn3,and(nasty,something,sn5),def_prop(nasty,[valutativo]),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Serve Somebody Lyrics.txt_7,38,cl18-nil-nil-dress-[cmod-subord-battle-",xcomp-prop-kind-sn2,subj-theme-i-sn1,aux-am-nil,def_prop(kind,[valutativo]),def_prop(i,[umano])])

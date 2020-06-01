@@ -1,0 +1,38 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Swaggerz Ar.me Lyrics.txt_1-1  []-positive  []
+Swaggerz Ar.me Lyrics.txt_2-3  []-positive  []
+Swaggerz Ar.me Lyrics.txt_3-6  []-positive  []
+Swaggerz Ar.me Lyrics.txt_3-7  []-positive  [neg,neg]
+Swaggerz Ar.me Lyrics.txt_4-11  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Swaggerz Ar.me Lyrics.txt_1-1  [swaggerz,Ar]  [title]
+Swaggerz Ar.me Lyrics.txt_2-3  [me,Lyrics,by,Xeezy]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Swaggerz Ar.me Lyrics.txt_3-6  [i,have,been,doing,this]  [provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Swaggerz Ar.me Lyrics.txt_3-7  [for,a,real,long,time,,,i,am,forever,on,my,grind]  [provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Swaggerz Ar.me Lyrics.txt_4-11  [a,Bad-Boy,who,is,tryna,shine]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Swaggerz Ar.me Lyrics.txt_1-1)-[]
+2-(Swaggerz Ar.me Lyrics.txt_2-3)-[]
+half
+3-(Swaggerz Ar.me Lyrics.txt_3-6)-[]
+4-(Swaggerz Ar.me Lyrics.txt_3-7)-[secondary-abstract_tought,primary-concreteness,secondary-temporal_repere,primary-timelessness,emotions-positive_affect]
+5-(Swaggerz Ar.me Lyrics.txt_4-11)-[secondary-instru_behavior,primary-vision]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Swaggerz Ar.me Lyrics.txt_1,1,cl1-nil-nil-say-[obj-theme_unaff-Ar-sn1,and(Ar,swaggerz,sn1),def_prop(Ar,[sostanza,umano])])
+lf(Swaggerz Ar.me Lyrics.txt_2,3,cl2-nil-nil-be-[arg_mod-agent-Xeezy-sn3,subj-theme_bound-Lyrics-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,me,sn1),def_prop(Xeezy,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(Lyrics,[informa,tecno])])
+lf(Swaggerz Ar.me Lyrics.txt_3,6,cl4-nil-nil-be-[adj-temporal-time-nil,ncmod-modale-grind-sn5,xcomp-prop-forever-sn4,subj-theme_bound-i-sn3,and(time,real,sn8),and(time,long,sn8),def_prop(time,[tempo]),def_prop(grind,[attivita]),def_prop(forever,[istituzione]),def_prop(i,[umano])])
+lf(Swaggerz Ar.me Lyrics.txt_3,6,cl3-nil-nil-do-[xcomp-prop-this-sn2,subj-theme_unaff-i-sn1,aux-been-nil,progr-doing-nil,aux-have-nil,def_prop(this,[oggetto,umano]),def_prop(i,[umano])])
+lf(Swaggerz Ar.me Lyrics.txt_4,11,cl5-nil-nil-be-[xcomp-theme_aff-shine-sn4,xcomp-prop-tryna-sn3,subj-theme_bound-who-sn2,subj-theme_bound-who-sn1,and(who,Bad-Boy,sn1),def_prop(shine,[astratto]),def_prop(tryna,[istituzione]),def_prop(who,[umano]),def_prop(who,[umano])])

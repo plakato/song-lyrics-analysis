@@ -1,439 +1,133 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <semantic_density>
 
-<text_level_sdis id="outs/'BiTrektual Lyrics.txt'" general_sdi="7.924618769115814" mean_char_leng="0.287173287756823" propositional_negs="6" negative_sentiment_words="37" positive_sentiment_words="56" deep_conceptual_index="233.61111111111111" token_rare_words_ratio="0.028532608695652172" token_type_ratio="0.35190217391304346" RID_category_ratio="[43-primary/0.5584415584415584,[abstract_tought,abstract_tought,aggression,aggression,aggression,aggression,aggression,aggression,aggression,aggression,anxiety,anxiety,anxiety,ascend,ascend,brink-passage,cold,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,depth,expressive_beh,glory,glory,glory,height,height,instru_behavior,instru_behavior,orality,passivity,restraint,sex,social_behavior,social_behavior,social_behavior,social_behavior,social_behavior,sound,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,unknow,unknow,unknow,vision,vision,vision,voyage]]" semantic_cohesion="0"></text_level_sdis>
-<verse_sdi_vars ids="144">
+<text_level_sdis id="outs/'BiTrektual Lyrics.txt'" general_sdi="7.326233348594204" mean_char_leng="0.2433799549717266" propositional_negs="6" negative_sentiment_words="34" positive_sentiment_words="56" deep_conceptual_index="743.1034838177696" token_rare_words_ratio="0.0330188679245283" token_type_ratio="0.4119496855345912" RID_category_ratio="[41-primary/0.5466666666666666,[abstract_tought,abstract_tought,aggression,aggression,aggression,aggression,aggression,aggression,aggression,aggression,anxiety,anxiety,anxiety,ascend,ascend,brink-passage,cold,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,expressive_beh,glory,glory,glory,height,height,instru_behavior,instru_behavior,orality,passivity,restraint,sex,social_behavior,social_behavior,social_behavior,social_behavior,social_behavior,sound,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,unknow,unknow,unknow,vision,vision,vision,voyage]]" semantic_cohesion="0"></text_level_sdis>
+<verse_sdi_vars ids="42">
 <verse_sdi_var id="BiTrektual Lyrics.txt_1">
 <sdivars id="1" tokens="5" mean_chars_leng="0.2777777777777778" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">bitrektual Lyrics by Voltaire . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_2">
-<sdivars id="2" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
+<sdivars id="2" tokens="19" mean_chars_leng="1.2" verbs="3" chunks="17" verb_preds="2" concepts="3" domain_bound="2" adjectives="2" abstract_words="3-[5-live-[astratto,evento,attivita],3-prosper-[abstract,time,attivita,evento],9-force-[astratto,attivita,cambia]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="2.7719298245614032" tot_pos="0.27554179566563464" ratio_pos-negs="0.06937227187694865" negative_affect_words="[long,force]" negative_polar_words="[long,force]" positive_polar_words="[live]" abstract_eventiv_words="[live/5,prosper/3,force/9]">jason Live long and prosper if you-re one of us voltaire May the force be with you . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_3">
-<sdivars id="3" tokens="12" mean_chars_leng="1.5714285714285714" verbs="2" chunks="12" verb_preds="2" concepts="2" domain_bound="2" adjectives="2" abstract_words="3-[8-live-[evaluative],8-long-[misura],3-prosper-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.166666666666667" tot_pos="0.3333333333333333" ratio_pos-negs="0.08917197452229299" negative_affect_words="[long]" negative_polar_words="[long]" positive_polar_words="[live]" abstract_eventiv_words="[live/8,long/8,prosper/3]">Live long and prosper , if you-re one of us . </sdivars>
+<sdivars id="3" tokens="9" mean_chars_leng="1.2857142857142858" verbs="2" chunks="9" verb_preds="1" concepts="3" domain_bound="3" adjectives="0" abstract_words="2-[8-phrase-[attivita,informa],3-fit-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.1111111111111111" ratio_pos-negs="0.08641975308641975" positive_polar_words="[phrase,fit]" abstract_eventiv_words="[phrase/8,fit/3]">Unless that phrase don-t fit you jason Forever . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_4">
-<sdivars id="4" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
+<sdivars id="4" tokens="23" mean_chars_leng="0.4782608695652174" verbs="4" chunks="18" verb_preds="2" concepts="10" domain_bound="5" adjectives="1" abstract_words="4-[0-at_odds-[abstract,stato],9-cause-[attivita,evento,informa],3-says-[abstract,time,attivita,evento],8-lackey-[umano]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.5434782608695652" tot_pos="0.28502415458937197" ratio_pos-negs="0.27895981087470445" negative_affect_words="[lackey]" negative_polar_words="[lackey,at_odds]" positive_polar_words="[drooling,says]" abstract_eventiv_words="[at_odds/0,cause/9,says/3,lackey/8]" concrete_words="[drooling/1]">We have been at_odds voltaire Cause you-re a drooling , Trekkie jason Says the Lucas lackey voltaire Jason , Whatever jason . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_5">
-<sdivars id="5" tokens="14" mean_chars_leng="0" verbs="3" chunks="13" verb_preds="1" concepts="2" domain_bound="1" adjectives="0" abstract_words="3-[9-force-[astratto,attivita,cambia],8-phrase-[attivita,informa],3-fit-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.07692307692307693" ratio_pos-negs="0.07692307692307693" negative_affect_words="[force]" negative_polar_words="[force]" positive_polar_words="[phrase,fit]" abstract_eventiv_words="[force/9,phrase/8,fit/3]">May the force be with you , unless that phrase don-t fit you . </sdivars>
+<sdivars id="5" tokens="11" mean_chars_leng="0.55" verbs="2" chunks="13" verb_preds="1" concepts="4" domain_bound="1" adjectives="0" abstract_words="3-[12-space-[any,astratto,attivita,informa,luogo],3-seeking-[abstract,time,attivita,evento],14-life-[any,astratto,attivita,cambia,informa,stato,tempo,umano]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.07692307692307693" ratio_pos-negs="0.04962779156327544" negative_polar_words="[last_frontier]" positive_polar_words="[space]" abstract_eventiv_words="[space/12,seeking/3,life/14]">We are out in space the last_frontier jason Seeking life . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_6">
-<sdivars id="6" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
+<sdivars id="6" tokens="26" mean_chars_leng="0.8928571428571429" verbs="3" chunks="20" verb_preds="1" concepts="6" domain_bound="4" adjectives="4" abstract_words="5-[3-strange-[valutativo],5-civilizations-[astratto,evento,attivita],4-great-[istituzione,umano],5-going-[astratto,evento,attivita],5-gone-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="2" dense_constituents="0" tot_negs="3.8205128205128203" tot_pos="0.1653846153846154" ratio_pos-negs="0.03508840101029726" negative_affect_words="[strange,no_one]" negative_polar_words="[strange,no_one,no_one]" positive_affect_words="[great]" positive_polar_words="[great,new,new,great]" abstract_eventiv_words="[strange/3,civilizations/5,great/4,going/5,gone/5]">That-S new and strange out here , jason Voltaire and new civilizations in the great beyond jason , boldly going where no_one has gone . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_7">
-<sdivars id="7" tokens="7" mean_chars_leng="0.5" verbs="2" chunks="6" verb_preds="1" concepts="1" domain_bound="1" adjectives="1" abstract_words="1-[3-at_odds-[relat]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.1428571428571428" tot_pos="0.45238095238095233" ratio_pos-negs="0.2753623188405797" negative_polar_words="[at_odds]" abstract_eventiv_words="[at_odds/3]">Forever , we have been at_odds . </sdivars>
+<sdivars id="7" tokens="14" mean_chars_leng="0.875" verbs="2" chunks="11" verb_preds="1" concepts="5" domain_bound="1" adjectives="0" abstract_words="3-[10-tale-[attivita,evento,informa],11-way-[astratto,attivita,oggetto,stato,strumento],8-galaxy-[istituzione]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.09090909090909091" ratio_pos-negs="0.1038961038961039" positive_polar_words="[tale,way,galaxy]" abstract_eventiv_words="[tale/10,way/11,galaxy/8]">voltaire Our tale is better in every way , voltaire in a galaxy . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_8">
-<sdivars id="8" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
+<sdivars id="8" tokens="17" mean_chars_leng="0.5151515151515151" verbs="1" chunks="9" verb_preds="1" concepts="7" domain_bound="5" adjectives="2" abstract_words="3-[4-great-[istituzione,umano],3-adventure-[abstract,time,attivita,evento],0-happened-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.6666666666666666" tot_negs="1.4985994397759104" tot_pos="0.16993464052287582" ratio_pos-negs="0.0843871185297589" negative_affect_words="[long]" negative_polar_words="[long,happened]" positive_affect_words="[great]" positive_polar_words="[great,far,far,great,adventure]" abstract_eventiv_words="[great/4,adventure/3,happened/0]">Far far away voltaire Jason , a great adventure happened a long time ago , voltaire . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_9">
-<sdivars id="9" tokens="7" mean_chars_leng="0.4" verbs="2" chunks="9" verb_preds="1" concepts="2" domain_bound="1" adjectives="0" abstract_words="1-[3-cause-[abstract,time,attivita,evento]]/1" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1111111111111111" ratio_pos-negs="0.07936507936507936" positive_polar_words="[drooling]" abstract_eventiv_words="[cause/3]" concrete_words="[drooling/1]">Cause you-re a drooling Trekkie . </sdivars>
+<sdivars id="9" tokens="11" mean_chars_leng="1.5714285714285714" verbs="4" chunks="15" verb_preds="2" concepts="1" domain_bound="1" adjectives="0" abstract_words="2-[0-suppose-[abstract,stato],0-know-[abstract,stato]]/0" modal_advs_adjs="2" untensed_verbs="0" dense_constituents="0" tot_negs="3" tot_pos="0.13333333333333333" ratio_pos-negs="0.029166666666666667" positive_polar_words="[suppose,know]" abstract_eventiv_words="[suppose/0,know/0]">But then I don-t suppose that you would know jason . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_10">
-<sdivars id="10" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
+<sdivars id="10" tokens="17" mean_chars_leng="0.5" verbs="4" chunks="16" verb_preds="3" concepts="4" domain_bound="2" adjectives="0" abstract_words="3-[5-ray-[astratto,evento,attivita],5-call-[astratto,evento,attivita],5-blasters-[astratto,evento,attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.16666666666666666" tot_negs="3.1666666666666665" tot_pos="0.1875" ratio_pos-negs="0.05113636363636364" negative_polar_words="[guns]" positive_polar_words="[call]" abstract_eventiv_words="[ray/5,call/5,blasters/5]" concrete_words="[guns/1]">We have ray guns , we call phasers voltaire , We have blasters AND lightsabers jason . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_11">
-<sdivars id="11" tokens="5" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="2-[3-says-[abstract,time,attivita,evento],5-lackey-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.25" negative_affect_words="[lackey]" negative_polar_words="[lackey]" positive_polar_words="[says]" abstract_eventiv_words="[says/3,lackey/5]">Says the Lucas lackey . </sdivars>
+<sdivars id="11" tokens="11" mean_chars_leng="1.375" verbs="2" chunks="13" verb_preds="1" concepts="3" domain_bound="2" adjectives="0" abstract_words="1-[5-warp-[astratto,evento,attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.07692307692307693" ratio_pos-negs="0.055944055944055944" negative_affect_words="[warp]" negative_polar_words="[warp,fly]" positive_polar_words="[ships]" abstract_eventiv_words="[warp/5]" concrete_words="[ships/1]">We have ships that fly at warp , voltaire Yeah . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_12">
-<sdivars id="12" tokens="4" mean_chars_leng="0.5" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire , Jason : </sdivars>
+<sdivars id="12" tokens="23" mean_chars_leng="0.6176470588235294" verbs="4" chunks="18" verb_preds="3" concepts="7" domain_bound="6" adjectives="1" abstract_words="3-[5-called-[astratto,evento,attivita],10-dork-[relat,sociale,umano],3-got-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.9006211180124222" tot_pos="0.3405797101449275" ratio_pos-negs="0.13524362229476483" negative_polar_words="[dork,got]" positive_affect_words="[yeah]" positive_polar_words="[yeah,have_got]" abstract_eventiv_words="[called/5,dork/10,got/3]">It-S called Hyperspace , you dork jason , Voltaire , We-ve got the Mugato and you have_got ewoks voltaire yeah . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_13">
-<sdivars id="13" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="5" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0">Whatever ! </sdivars>
+<sdivars id="13" tokens="19" mean_chars_leng="1.0588235294117647" verbs="4" chunks="14" verb_preds="1" concepts="3" domain_bound="2" adjectives="0" abstract_words="2-[5-plays-[astratto,evento,attivita],3-come-[abstract,time,attivita,evento]]/1" modal_advs_adjs="1" untensed_verbs="1" dense_constituents="0.25" tot_negs="3.25" tot_pos="0.07142857142857142" ratio_pos-negs="0.01657727937591419" positive_polar_words="[guy,talk]" abstract_eventiv_words="[plays/5,come/3]" concrete_words="[guy/2]">Well , a guy who plays with tribbles shouldn-t talk , jason , Oh , come on : </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_14">
-<sdivars id="14" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
+<sdivars id="14" tokens="14" mean_chars_leng="0.43333333333333335" verbs="1" chunks="10" verb_preds="1" concepts="6" domain_bound="4" adjectives="1" abstract_words="1-[3-How-bout-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.738095238095238" tot_pos="0.17142857142857143" ratio_pos-negs="0.05405405405405406" negative_affect_words="[not,fight,unintellectual]" negative_polar_words="[not,fight,unintellectual,not]" abstract_eventiv_words="[How-bout/3]">let-s not fight , jason Voltaire , it-s so unintellectual jason How-bout . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_15">
-<sdivars id="15" tokens="8" mean_chars_leng="0.6153846153846154" verbs="1" chunks="7" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[12-space-[any,astratto,attivita,informa,luogo]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.23214285714285712" negative_polar_words="[last_frontier]" positive_polar_words="[space]" abstract_eventiv_words="[space/12]">We are out in space the last_frontier . </sdivars>
+<sdivars id="15" tokens="8" mean_chars_leng="0.42105263157894735" verbs="2" chunks="11" verb_preds="1" concepts="2" domain_bound="1" adjectives="0" abstract_words="2-[3-join-[abstract,time,attivita,evento],5-sides-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="2" tot_pos="0.09090909090909091" ratio_pos-negs="0.037549407114624504" positive_polar_words="[join]" abstract_eventiv_words="[join/3,sides/5]">We join sides and be bi-trektual voltaire . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_16">
-<sdivars id="16" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
+<sdivars id="16" tokens="11" mean_chars_leng="0.5263157894736842" verbs="3" chunks="16" verb_preds="3" concepts="2" domain_bound="2" adjectives="1" abstract_words="3-[7-disgusting-[evaluative],3-forget-[abstract,time,attivita,evento],3-mentioned-[abstract,time,attivita,evento]]/0" modal_advs_adjs="1" untensed_verbs="0" dense_constituents="0" tot_negs="1.0909090909090908" tot_pos="0.4602272727272727" ratio_pos-negs="0.28457840236686394" negative_affect_words="[disgusting]" negative_polar_words="[disgusting,forget]" positive_affect_words="[yeah]" positive_polar_words="[yeah]" abstract_eventiv_words="[disgusting/7,forget/3,mentioned/3]">That-S disgusting , jason yeah forget I mentioned it : </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_17">
-<sdivars id="17" tokens="10" mean_chars_leng="0.6428571428571429" verbs="2" chunks="9" verb_preds="1" concepts="2" domain_bound="1" adjectives="2" abstract_words="3-[3-seeking-[abstract,time,attivita,evento],14-life-[any,astratto,attivita,cambia,informa,stato,tempo,umano],3-strange-[valutativo]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1.7" tot_pos="0.3111111111111111" ratio_pos-negs="0.13279132791327913" negative_affect_words="[strange]" negative_polar_words="[strange]" positive_polar_words="[new]" abstract_eventiv_words="[seeking/3,life/14,strange/3]">Seeking life that-s new and strange out here . </sdivars>
+<sdivars id="17" tokens="36" mean_chars_leng="0.68" verbs="5" chunks="27" verb_preds="3" concepts="12" domain_bound="5" adjectives="2" abstract_words="11-[5-shooting-[astratto,evento,attivita],9-starboard-[oggetto,strumento],16-side-[astratto,attivita,body_part,edible,informa,luogo,oggetto,strumento,umano],3-got-[abstract,time,attivita,evento],8-breach-[attivita,oggetto],3-Enterprise-[place,astratto,attivita,informa,istituzione,legale,tecno],5-drift-[astratto,evento,attivita],0-neutral-[abstract,stato],10-zone-[body_part,luogo,umano],0-wrong-[abstract,stato],16-side-[astratto,attivita,body_part,edible,informa,luogo,oggetto,strumento,umano]]/3" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0.14285714285714285" tot_negs="1.6150793650793651" tot_pos="0.25" ratio_pos-negs="0.1089286949304931" negative_affect_words="[breach,wrong]" negative_polar_words="[breach,wrong,shooting,starboard,got]" positive_polar_words="[side,drift,neutral,side]" abstract_eventiv_words="[shooting/5,starboard/9,side/16,got/3,breach/8,Enterprise/3,drift/5,neutral/0,zone/10,wrong/0,side/16]" concrete_words="[starboard/2,hull/1,breach/1]">jason , Klingons , shooting at our starboard side , jason We-ve got a hull breach on the Enterprise jason Voltaire We drift into the neutral zone and we-re on the wrong side . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_18">
-<sdivars id="18" tokens="4" mean_chars_leng="0.5" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason , Voltaire : </sdivars>
+<sdivars id="18" tokens="32" mean_chars_leng="0.5357142857142857" verbs="7" chunks="25" verb_preds="3" concepts="10" domain_bound="7" adjectives="1" abstract_words="5-[8-wormhole-[oggetto],3-get-[abstract,time,attivita,evento],8-alive-[valutativo],5-hide-[astratto,evento,attivita],3-trouble-[abstract,time,attivita,evento]]/2" modal_advs_adjs="1" untensed_verbs="1" dense_constituents="0" tot_negs="2.73125" tot_pos="0.33875" ratio_pos-negs="0.1036895326591965" negative_affect_words="[trouble]" negative_polar_words="[trouble,get,moon,hide,hyperdrive]" positive_polar_words="[alive]" abstract_eventiv_words="[wormhole/8,get/3,alive/8,hide/5,trouble/3]" concrete_words="[wormhole/1,moon/1]">jason We-d need a wormhole to get out alive , voltaire On a moon of Yavin-s , where we hide voltaire We-re having trouble with the hyperdrive voltaire Jason . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_19">
-<sdivars id="19" tokens="8" mean_chars_leng="0.6153846153846154" verbs="0" chunks="6" verb_preds="0" concepts="2" domain_bound="1" adjectives="2" abstract_words="2-[5-civilizations-[astratto,evento,attivita],4-great-[istituzione,umano]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.75" tot_pos="0" ratio_pos-negs="0.75" positive_affect_words="[great]" positive_polar_words="[great,new,great]" abstract_eventiv_words="[civilizations/5,great/4]">and new civilizations in the great beyond . </sdivars>
+<sdivars id="19" tokens="15" mean_chars_leng="0.9375" verbs="1" chunks="14" verb_preds="1" concepts="5" domain_bound="3" adjectives="1" abstract_words="4-[3-keeps-[abstract,time,attivita,evento],5-spinning-[astratto,evento,attivita],2-Death-[astratto,evento],13-sight-[astratto,attivita,informa,nquant,oggetto,strumento]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.6666666666666666" tot_pos="0.1380952380952381" ratio_pos-negs="0.08608534322820038" positive_polar_words="[planet,keeps,sight]" abstract_eventiv_words="[keeps/3,spinning/5,Death/2,sight/13]" concrete_words="[planet/1]">This planet keeps on spinning and the Death star-s now in sight , voltaire . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_20">
-<sdivars id="20" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
+<sdivars id="20" tokens="10" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="2" concepts="1" domain_bound="0" adjectives="0" abstract_words="3-[0-hope-[abstract,stato],5-rebels-[astratto,evento,attivita],5-take-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_polar_words="[rebels]" abstract_eventiv_words="[hope/0,rebels/5,take/5]">We hope the rebels take it out in time . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_21">
-<sdivars id="21" tokens="7" mean_chars_leng="0" verbs="2" chunks="7" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="2-[5-going-[astratto,evento,attivita],5-gone-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="2" dense_constituents="0" tot_negs="3" tot_pos="0.2857142857142857" ratio_pos-negs="0.09523809523809523" negative_affect_words="[no_one]" negative_polar_words="[no_one,no_one]" abstract_eventiv_words="[going/5,gone/5]">boldly going where no_one has gone . </sdivars>
+<sdivars id="21" tokens="6" mean_chars_leng="0.75" verbs="1" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="1-[3-come-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.09523809523809523" abstract_eventiv_words="[come/3]">voltaire Oh , come on : </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_22">
-<sdivars id="22" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
+<sdivars id="22" tokens="13" mean_chars_leng="0.3157894736842105" verbs="1" chunks="11" verb_preds="1" concepts="6" domain_bound="4" adjectives="1" abstract_words="1-[3-How-bout-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.7435897435897436" tot_pos="0.16783216783216784" ratio_pos-negs="0.0548582427717849" negative_affect_words="[not,fight,unintellectual]" negative_polar_words="[not,fight,unintellectual,not]" abstract_eventiv_words="[How-bout/3]">let-s not fight voltaire Jason , it-s so unintellectual voltaire How-bout . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_23">
-<sdivars id="23" tokens="8" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="2" domain_bound="0" adjectives="0" abstract_words="2-[10-tale-[attivita,evento,informa],11-way-[astratto,attivita,oggetto,stato,strumento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[tale,way]" abstract_eventiv_words="[tale/10,way/11]">Our tale is better in every way . </sdivars>
+<sdivars id="23" tokens="8" mean_chars_leng="0.7272727272727273" verbs="2" chunks="11" verb_preds="1" concepts="2" domain_bound="1" adjectives="0" abstract_words="2-[3-join-[abstract,time,attivita,evento],5-sides-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="2" tot_pos="0.09090909090909091" ratio_pos-negs="0.03333333333333333" positive_polar_words="[join]" abstract_eventiv_words="[join/3,sides/5]">We join sides and be bi-trektual jason . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_24">
-<sdivars id="24" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
+<sdivars id="24" tokens="14" mean_chars_leng="0.40625" verbs="2" chunks="16" verb_preds="1" concepts="5" domain_bound="4" adjectives="2" abstract_words="2-[7-nice-[valutativo],0-effectual-[abstract,stato]]/0" modal_advs_adjs="1" untensed_verbs="2" dense_constituents="0" tot_negs="4.942857142857143" tot_pos="0.20535714285714285" ratio_pos-negs="0.038390919712902684" positive_polar_words="[effectual]" abstract_eventiv_words="[nice/7,effectual/0]">Wouldn-T it be nice , jason Voltaire and so_much more effectual jason . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_25">
-<sdivars id="25" tokens="7" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="3" domain_bound="1" adjectives="0" abstract_words="1-[8-galaxy-[istituzione]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.3333333333333333" tot_pos="0" ratio_pos-negs="0.3333333333333333" positive_polar_words="[galaxy,far,far]" abstract_eventiv_words="[galaxy/8]">in a galaxy far far away . </sdivars>
+<sdivars id="25" tokens="17" mean_chars_leng="0.68" verbs="6" chunks="22" verb_preds="3" concepts="2" domain_bound="2" adjectives="1" abstract_words="4-[3-put-[abstract,time,attivita,evento],3-cares-[abstract,time,attivita,evento],3-think-[abstract,time,attivita,evento],0-awesome-[abstract,stato]]/0" modal_advs_adjs="1" untensed_verbs="2" dense_constituents="0" tot_negs="6.0588235294117645" tot_pos="0.4893048128342246" ratio_pos-negs="0.07260982732351448" positive_polar_words="[put,cares,think,awesome]" abstract_eventiv_words="[put/3,cares/3,think/3,awesome/0]">To put our cares aside and be bitrektual , voltaire Think how awesome it would be . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_26">
-<sdivars id="26" tokens="4" mean_chars_leng="0.5" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire , Jason : </sdivars>
+<sdivars id="26" tokens="31" mean_chars_leng="1.3478260869565217" verbs="2" chunks="16" verb_preds="1" concepts="13" domain_bound="8" adjectives="0" abstract_words="3-[8-team-[istituzione],5-blowing-[astratto,evento,attivita],9-prey-[animato,umano]]/1" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0.2727272727272727" tot_negs="3.2727272727272725" tot_pos="0.0625" ratio_pos-negs="0.013526518391787852" negative_polar_words="[blowing,prey]" positive_polar_words="[team,save,bird]" abstract_eventiv_words="[team/8,blowing/5,prey/9]" concrete_words="[bird/1]">A voltaire team up with Jean Luc and Leah jason , Kirk and Chewie save the day , jason blowing up a bird of prey , voltaire Han and Spock . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_27">
-<sdivars id="27" tokens="9" mean_chars_leng="0.5294117647058824" verbs="1" chunks="4" verb_preds="1" concepts="3" domain_bound="3" adjectives="2" abstract_words="4-[4-great-[istituzione,umano],7-adventure-[attivita],0-happened-[abstract,stato],8-long-[misura]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.2222222222222223" tot_pos="0.3611111111111111" ratio_pos-negs="0.20615671641791045" negative_affect_words="[long]" negative_polar_words="[long,happened]" positive_affect_words="[great]" positive_polar_words="[great,great,adventure]" abstract_eventiv_words="[great/4,adventure/7,happened/0,long/8]">a great adventure happened a long time ago . </sdivars>
+<sdivars id="27" tokens="66" mean_chars_leng="0.9295774647887324" verbs="7" chunks="50" verb_preds="6" concepts="25" domain_bound="15" adjectives="1" abstract_words="7-[5-set-[astratto,evento,attivita],5-raid-[astratto,evento,attivita],9-fighter-[oggetto,strumento],5-capture-[astratto,evento,attivita],3-get-[abstract,time,attivita,evento],5-blow-[astratto,evento,attivita],5-bits-[astratto,evento,attivita]]/3" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0.08333333333333333" tot_negs="10.69848484848485" tot_pos="0.22606060606060607" ratio_pos-negs="0.01944095241066562" negative_affect_words="[trap,raid,fighter,capture,blow,throw]" negative_polar_words="[trap,raid,fighter,capture,blow,throw,get]" positive_polar_words="[net,tie]" abstract_eventiv_words="[set/5,raid/5,fighter/9,capture/5,get/3,blow/5,bits/5]" concrete_words="[tie/2,fighter/2,pit/1]">They set a net voltaire and trap the Borg and Boba Fett voltaire , While 3P0 and Data raid a Tie fighter to capture Vader voltaire , Jason , Luke and Worf get into it and blow the deathstar into bits , jason , And then we throw the tribbles jason Voltaire into the Sarlac Pit voltaire and then we kicked the Ewoks into it . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_28">
-<sdivars id="28" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
+<sdivars id="28" tokens="12" mean_chars_leng="0.8" verbs="3" chunks="17" verb_preds="3" concepts="4" domain_bound="4" adjectives="2" abstract_words="5-[8-live-[evaluative],8-long-[misura],3-prosper-[abstract,time,attivita,evento],3-say-[abstract,time,attivita,evento],3-wait-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.166666666666667" tot_pos="0.42647058823529416" ratio_pos-negs="0.1437541308658295" negative_affect_words="[long,Wait]" negative_polar_words="[long,Wait,wait]" positive_polar_words="[live]" abstract_eventiv_words="[live/8,long/8,prosper/3,say/3,wait/3]">jason Live long and prosper so say we all voltaire Wait . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_29">
-<sdivars id="29" tokens="9" mean_chars_leng="0.6" verbs="4" chunks="12" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="2-[0-suppose-[abstract,stato],0-know-[abstract,stato]]/0" modal_advs_adjs="2" untensed_verbs="0" dense_constituents="0" tot_negs="3" tot_pos="0.16666666666666666" ratio_pos-negs="0.046296296296296294" positive_polar_words="[suppose,know]" abstract_eventiv_words="[suppose/0,know/0]">but_then I don-t suppose that you would know . </sdivars>
+<sdivars id="29" tokens="9" mean_chars_leng="1.125" verbs="1" chunks="9" verb_preds="0" concepts="2" domain_bound="1" adjectives="0" abstract_words="1-[9-force-[astratto,attivita,cambia]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1111111111111111" ratio_pos-negs="0.0522875816993464" negative_affect_words="[force]" negative_polar_words="[force]" abstract_eventiv_words="[force/9]">What voltaire May the force be with you ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_30">
-<sdivars id="30" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
+<sdivars id="30" tokens="11" mean_chars_leng="0.7333333333333333" verbs="2" chunks="12" verb_preds="2" concepts="3" domain_bound="3" adjectives="0" abstract_words="2-[5-lords-[astratto,evento,attivita],3-keep-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.22727272727272727" positive_polar_words="[lords,keep]" abstract_eventiv_words="[lords/5,keep/3]">May the time Lords , keep you jason Voltaire Forever . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_31">
-<sdivars id="31" tokens="8" mean_chars_leng="1.1428571428571428" verbs="3" chunks="11" verb_preds="2" concepts="2" domain_bound="1" adjectives="0" abstract_words="2-[5-ray-[astratto,evento,attivita],5-call-[astratto,evento,attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.18181818181818182" ratio_pos-negs="0.08484848484848485" negative_polar_words="[guns]" positive_polar_words="[call]" abstract_eventiv_words="[ray/5,call/5]" concrete_words="[guns/1]">We have ray guns we call phasers . </sdivars>
+<sdivars id="31" tokens="13" mean_chars_leng="0.3157894736842105" verbs="3" chunks="14" verb_preds="2" concepts="5" domain_bound="4" adjectives="0" abstract_words="3-[8-use-[astratto,attivita],5-debating-[astratto,evento,attivita],8-Jason-[place,umano]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="2" tot_pos="0.14285714285714285" ratio_pos-negs="0.06168831168831168" negative_affect_words="[no]" negative_polar_words="[no,no,debating]" abstract_eventiv_words="[use/8,debating/5,Jason/8]">We can Babylon voltaire , There-s no use debating voltaire Jason . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_32">
-<sdivars id="32" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
+<sdivars id="32" tokens="9" mean_chars_leng="0.36" verbs="1" chunks="8" verb_preds="0" concepts="2" domain_bound="2" adjectives="1" abstract_words="2-[3-waiting-[abstract,time,attivita,evento],3-come-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="3.111111111111111" tot_pos="0.1111111111111111" ratio_pos-negs="0.03201024327784891" negative_polar_words="[waiting]" abstract_eventiv_words="[waiting/3,come/3]">The Stargate-s waiting , voltaire So come on . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_33">
-<sdivars id="33" tokens="6" mean_chars_leng="0.3157894736842105" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[5-blasters-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0.2" ratio_pos-negs="0.08636363636363636" abstract_eventiv_words="[blasters/5]">We have blasters AND lightsabers . </sdivars>
+<sdivars id="33" tokens="13" mean_chars_leng="0.3157894736842105" verbs="1" chunks="11" verb_preds="1" concepts="6" domain_bound="4" adjectives="1" abstract_words="2-[8-Jason-[place,umano],3-How-bout-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.7435897435897436" tot_pos="0.16783216783216784" ratio_pos-negs="0.0548582427717849" negative_affect_words="[not,fight,unintellectual]" negative_polar_words="[not,fight,unintellectual,not]" abstract_eventiv_words="[Jason/8,How-bout/3]">Let-S not fight voltaire Jason , it-s so unintellectual voltaire How-bout . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_34">
-<sdivars id="34" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
+<sdivars id="34" tokens="9" mean_chars_leng="0.47368421052631576" verbs="2" chunks="11" verb_preds="1" concepts="3" domain_bound="2" adjectives="0" abstract_words="3-[3-join-[abstract,time,attivita,evento],5-sides-[astratto,evento,attivita],8-Jason-[place,umano]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="2" tot_pos="0.09090909090909091" ratio_pos-negs="0.0367504835589942" positive_polar_words="[join]" abstract_eventiv_words="[join/3,sides/5,Jason/8]">We join sides and be bi-trektual jason Voltaire . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_35">
-<sdivars id="35" tokens="8" mean_chars_leng="0" verbs="2" chunks="8" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[5-warp-[astratto,evento,attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.3333333333333333" tot_negs="0.3333333333333333" tot_pos="0.125" ratio_pos-negs="0.375" negative_affect_words="[warp]" negative_polar_words="[warp,fly]" positive_polar_words="[ships]" abstract_eventiv_words="[warp/5]" concrete_words="[ships/1]">We have ships that fly at warp . </sdivars>
+<sdivars id="35" tokens="12" mean_chars_leng="0" verbs="1" chunks="6" verb_preds="1" concepts="3" domain_bound="3" adjectives="1" abstract_words="3-[5-take-[astratto,evento,attivita],8-advice-[attivita,informa],3-sexual-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="2.583333333333333" tot_pos="0.25" ratio_pos-negs="0.09677419354838711" positive_polar_words="[advice,sexual]" abstract_eventiv_words="[take/5,advice/8,sexual/3]">So let-s take the advice of an Asian homo-§ sexual , . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_36">
-<sdivars id="36" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
+<sdivars id="36" tokens="9" mean_chars_leng="0" verbs="1" chunks="10" verb_preds="1" concepts="4" domain_bound="3" adjectives="1" abstract_words="2-[5-folks-[astratto,evento,attivita],8-cool-[astratto]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.8611111111111112" tot_pos="0.2111111111111111" ratio_pos-negs="0.24516129032258063" positive_polar_words="[star,cool]" abstract_eventiv_words="[folks/5,cool/8]">voltaire Fellow Star folks , cool it down . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_37">
-<sdivars id="37" tokens="10" mean_chars_leng="0.9" verbs="1" chunks="7" verb_preds="1" concepts="1" domain_bound="1" adjectives="1" abstract_words="2-[5-called-[astratto,evento,attivita],5-dork-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.1" tot_pos="0.24285714285714285" ratio_pos-negs="0.12142857142857143" negative_polar_words="[dork]" abstract_eventiv_words="[called/5,dork/5]">Yeah , it-s called Hyperspace , you dork ! </sdivars>
+<sdivars id="37" tokens="10" mean_chars_leng="0" verbs="1" chunks="6" verb_preds="1" concepts="6" domain_bound="4" adjectives="0" abstract_words="3-[4-voice-[astratto,attivita,evento,informa,relat,umano],3-impersonated-[abstract,time,attivita,evento],8-Jason-[place,umano]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="1.5" tot_pos="0.16666666666666666" ratio_pos-negs="0.1111111111111111" negative_polar_words="[impersonated]" positive_polar_words="[voice]" abstract_eventiv_words="[voice/4,impersonated/3,Jason/8]">Robert Picardo Celebrity voice , impersonated , jason Voltaire . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_38">
-<sdivars id="38" tokens="4" mean_chars_leng="0.5" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason , Voltaire : </sdivars>
+<sdivars id="38" tokens="11" mean_chars_leng="1.125" verbs="2" chunks="11" verb_preds="1" concepts="5" domain_bound="4" adjectives="0" abstract_words="3-[7-put-[evento],3-cares-[abstract,time,attivita,evento],1-Hell-[place,astratto,luogo]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="2" tot_pos="0.09090909090909091" ratio_pos-negs="0.02909090909090909" negative_polar_words="[Hell]" positive_polar_words="[put,cares]" abstract_eventiv_words="[put/7,cares/3,Hell/1]">Let-S put our cares aside and be bitrektual voltaire Hell . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_39">
-<sdivars id="39" tokens="9" mean_chars_leng="0" verbs="3" chunks="10" verb_preds="2" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[3-got-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.2" negative_polar_words="[got]" positive_polar_words="[have_got]" abstract_eventiv_words="[got/3]">We-ve got the Mugato and you have_got . </sdivars>
+<sdivars id="39" tokens="16" mean_chars_leng="0.2777777777777778" verbs="3" chunks="16" verb_preds="2" concepts="5" domain_bound="5" adjectives="2" abstract_words="5-[0-want-[abstract,stato],8-Jason-[place,umano],8-live-[evaluative],8-long-[misura],3-prosper-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="3.125" tot_pos="0.3125" ratio_pos-negs="0.09183673469387756" negative_affect_words="[long]" negative_polar_words="[long]" positive_polar_words="[want,live]" abstract_eventiv_words="[want/0,Jason/8,live/8,long/8,prosper/3]">I want to be Sci , Fi , multi-Trektual , jason Live long and prosper . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_40">
-<sdivars id="40" tokens="2" mean_chars_leng="1" verbs="0" chunks="5" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">ewoks ! </sdivars>
+<sdivars id="40" tokens="8" mean_chars_leng="0.6111111111111112" verbs="1" chunks="7" verb_preds="0" concepts="2" domain_bound="1" adjectives="0" abstract_words="1-[9-force-[astratto,attivita,cambia]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.125" ratio_pos-negs="0.07758620689655173" negative_affect_words="[force]" negative_polar_words="[force]" abstract_eventiv_words="[force/9]">voltaire May the force be with you . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_41">
-<sdivars id="41" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
+<sdivars id="41" tokens="13" mean_chars_leng="0.7619047619047619" verbs="1" chunks="10" verb_preds="1" concepts="3" domain_bound="3" adjectives="0" abstract_words="3-[8-Jason-[place,umano],3-give-[abstract,time,attivita,evento],7-surrender-[attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.1" ratio_pos-negs="0.13125" negative_affect_words="[never,surrender]" negative_polar_words="[never,surrender,never]" abstract_eventiv_words="[Jason/8,give/3,surrender/7]">jason Never give up , never surrender voltaire To infinity and Beyond . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="BiTrektual Lyrics.txt_42">
-<sdivars id="42" tokens="14" mean_chars_leng="0.25" verbs="3" chunks="11" verb_preds="1" concepts="2" domain_bound="1" adjectives="0" abstract_words="1-[5-plays-[astratto,evento,attivita]]/1" modal_advs_adjs="1" untensed_verbs="0" dense_constituents="0.5" tot_negs="2.5" tot_pos="0.09090909090909091" ratio_pos-negs="0.03305785123966942" positive_affect_words="[yeah]" positive_polar_words="[yeah,guy,talk]" abstract_eventiv_words="[plays/5]" concrete_words="[guy/2]">yeah , well , a guy who plays with tribbles shouldn-t talk ! </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_43">
-<sdivars id="43" tokens="2" mean_chars_leng="0.7647058823529411" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_44">
-<sdivars id="44" tokens="7" mean_chars_leng="0" verbs="1" chunks="9" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[3-come-[abstract,time,attivita,evento]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.1111111111111111" ratio_pos-negs="0.1111111111111111" negative_affect_words="[not,fight]" negative_polar_words="[not,fight,not]" abstract_eventiv_words="[come/3]" concrete_words="[fight/1]">Oh come on let-s not fight . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_45">
-<sdivars id="45" tokens="4" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason , Voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_46">
-<sdivars id="46" tokens="5" mean_chars_leng="0.5" verbs="1" chunks="7" verb_preds="1" concepts="0" domain_bound="0" adjectives="1" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.2" tot_pos="0.2" ratio_pos-negs="0.07407407407407407" negative_affect_words="[unintellectual]" negative_polar_words="[unintellectual]">it-s so unintellectual . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_47">
-<sdivars id="47" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_48">
-<sdivars id="48" tokens="10" mean_chars_leng="0.2857142857142857" verbs="2" chunks="14" verb_preds="1" concepts="3" domain_bound="1" adjectives="0" abstract_words="3-[9-bout-[attivita,informa,tempo],3-join-[abstract,time,attivita,evento],5-sides-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="3" tot_pos="0.07142857142857142" ratio_pos-negs="0.021739130434782608" negative_affect_words="[bout]" negative_polar_words="[bout]" positive_polar_words="[join]" abstract_eventiv_words="[bout/9,join/3,sides/5]">How ' bout we join sides and be bi-trektual ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_49">
-<sdivars id="49" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_50">
-<sdivars id="50" tokens="4" mean_chars_leng="0.9090909090909091" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="1" adjectives="1" abstract_words="1-[7-disgusting-[evaluative]]/0" modal_advs_adjs="1" untensed_verbs="0" dense_constituents="0" tot_negs="1.25" tot_pos="0.45" ratio_pos-negs="0.20842105263157895" negative_affect_words="[disgusting]" negative_polar_words="[disgusting]" abstract_eventiv_words="[disgusting/7]">that-s disgusting . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_51">
-<sdivars id="51" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_52">
-<sdivars id="52" tokens="7" mean_chars_leng="0.3" verbs="2" chunks="11" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="2-[3-forget-[abstract,time,attivita,evento],3-mentioned-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.18181818181818182" ratio_pos-negs="0.6060606060606061" negative_polar_words="[forget]" positive_affect_words="[yeah]" positive_polar_words="[yeah]" abstract_eventiv_words="[forget/3,mentioned/3]">yeah , forget I mentioned it . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_53">
-<sdivars id="53" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_54">
-<sdivars id="54" tokens="7" mean_chars_leng="0.7777777777777778" verbs="1" chunks="7" verb_preds="0" concepts="2" domain_bound="1" adjectives="0" abstract_words="3-[5-shooting-[astratto,evento,attivita],5-starboard-[astratto,evento,attivita],16-side-[astratto,attivita,body_part,edible,informa,luogo,oggetto,strumento,umano]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.14285714285714285" ratio_pos-negs="0.08035714285714286" negative_polar_words="[shooting,starboard]" positive_polar_words="[side]" abstract_eventiv_words="[shooting/5,starboard/5,side/16]">Klingons shooting at our starboard side . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_55">
-<sdivars id="55" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_56">
-<sdivars id="56" tokens="10" mean_chars_leng="0.28" verbs="2" chunks="8" verb_preds="1" concepts="3" domain_bound="1" adjectives="0" abstract_words="3-[3-got-[abstract,time,attivita,evento],8-breach-[attivita,oggetto],3-Enterprise-[place,astratto,attivita,informa,istituzione,legale,tecno]]/2" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.125" ratio_pos-negs="0.4464285714285714" negative_affect_words="[breach]" negative_polar_words="[breach,got]" abstract_eventiv_words="[got/3,breach/8,Enterprise/3]" concrete_words="[hull/1,breach/1]">We-ve got a hull breach on the Enterprise . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_57">
-<sdivars id="57" tokens="4" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason , Voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_58">
-<sdivars id="58" tokens="11" mean_chars_leng="0.9" verbs="2" chunks="10" verb_preds="2" concepts="2" domain_bound="1" adjectives="1" abstract_words="3-[5-drift-[astratto,evento,attivita],0-neutral-[abstract,stato],10-zone-[body_part,luogo,umano]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.3333333333333333" tot_negs="0.9242424242424243" tot_pos="0.38181818181818183" ratio_pos-negs="0.20930232558139536" positive_polar_words="[drift,neutral]" abstract_eventiv_words="[drift/5,neutral/0,zone/10]">We drift into the neutral zone and we-re on . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_59">
-<sdivars id="59" tokens="4" mean_chars_leng="0.5" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="0" adjectives="1" abstract_words="2-[0-wrong-[abstract,stato],16-side-[astratto,attivita,body_part,edible,informa,luogo,oggetto,strumento,umano]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.25" tot_pos="0" ratio_pos-negs="0.25" negative_affect_words="[wrong]" negative_polar_words="[wrong]" positive_polar_words="[side]" abstract_eventiv_words="[wrong/0,side/16]">the wrong side . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_60">
-<sdivars id="60" tokens="2" mean_chars_leng="1.4285714285714286" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_61">
-<sdivars id="61" tokens="10" mean_chars_leng="0" verbs="3" chunks="10" verb_preds="1" concepts="2" domain_bound="2" adjectives="1" abstract_words="3-[8-wormhole-[oggetto],3-get-[abstract,time,attivita,evento],8-alive-[valutativo]]/1" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="2.1" tot_pos="0.4" ratio_pos-negs="0.19047619047619047" negative_polar_words="[get]" positive_polar_words="[alive]" abstract_eventiv_words="[wormhole/8,get/3,alive/8]" concrete_words="[wormhole/1]">We-d need a wormhole to get out alive . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_62">
-<sdivars id="62" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_63">
-<sdivars id="63" tokens="9" mean_chars_leng="1.125" verbs="1" chunks="6" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="1-[5-hide-[astratto,evento,attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.1111111111111111" ratio_pos-negs="0.0522875816993464" negative_polar_words="[moon,hide]" abstract_eventiv_words="[hide/5]" concrete_words="[moon/1]">On a moon of Yavin-s where we hide . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_64">
-<sdivars id="64" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_65">
-<sdivars id="65" tokens="8" mean_chars_leng="1.2857142857142858" verbs="3" chunks="7" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[3-trouble-[abstract,time,attivita,evento]]/0" modal_advs_adjs="1" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.11111111111111109" negative_affect_words="[trouble]" negative_polar_words="[trouble,hyperdrive]" abstract_eventiv_words="[trouble/3]">We-re having trouble with the hyperdrive . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_66">
-<sdivars id="66" tokens="4" mean_chars_leng="0.25" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire , Jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_67">
-<sdivars id="67" tokens="9" mean_chars_leng="0.4117647058823529" verbs="1" chunks="5" verb_preds="1" concepts="2" domain_bound="1" adjectives="1" abstract_words="3-[3-keeps-[abstract,time,attivita,evento],5-spinning-[astratto,evento,attivita],3-Death-[astratto,evento,attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="1.1111111111111112" tot_pos="0.3111111111111111" ratio_pos-negs="0.20429184549356225" positive_polar_words="[planet,keeps]" abstract_eventiv_words="[keeps/3,spinning/5,Death/3]" concrete_words="[planet/1]">This planet keeps on spinning and the Death . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_68">
-<sdivars id="68" tokens="5" mean_chars_leng="0.5" verbs="1" chunks="5" verb_preds="0" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[5-sight-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.13333333333333333" positive_polar_words="[sight]" abstract_eventiv_words="[sight/5]">star-s now in sight . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_69">
-<sdivars id="69" tokens="2" mean_chars_leng="1.125" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_70">
-<sdivars id="70" tokens="10" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="2" concepts="1" domain_bound="0" adjectives="0" abstract_words="3-[0-hope-[abstract,stato],5-rebels-[astratto,evento,attivita],5-take-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_polar_words="[rebels]" abstract_eventiv_words="[hope/0,rebels/5,take/5]">We hope the rebels take it out in time . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_71">
-<sdivars id="71" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_72">
-<sdivars id="72" tokens="8" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[3-come-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.125" ratio_pos-negs="0.125" negative_affect_words="[not,fight]" negative_polar_words="[not,fight,not]" abstract_eventiv_words="[come/3]">Oh , come on let-s not fight . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_73">
-<sdivars id="73" tokens="4" mean_chars_leng="0.25" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire , Jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_74">
-<sdivars id="74" tokens="5" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="1" concepts="0" domain_bound="0" adjectives="1" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.2" tot_pos="0.2" ratio_pos-negs="0.09090909090909091" negative_affect_words="[unintellectual]" negative_polar_words="[unintellectual]">it-s so unintellectual . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_75">
-<sdivars id="75" tokens="2" mean_chars_leng="0.5" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_76">
-<sdivars id="76" tokens="10" mean_chars_leng="0.2857142857142857" verbs="2" chunks="14" verb_preds="1" concepts="3" domain_bound="1" adjectives="0" abstract_words="3-[9-bout-[attivita,informa,tempo],3-join-[abstract,time,attivita,evento],5-sides-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="3" tot_pos="0.07142857142857142" ratio_pos-negs="0.021739130434782608" negative_affect_words="[bout]" negative_polar_words="[bout]" positive_polar_words="[join]" abstract_eventiv_words="[bout/9,join/3,sides/5]">How ' bout we join sides and be bi-trektual ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_77">
-<sdivars id="77" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_78">
-<sdivars id="78" tokens="6" mean_chars_leng="0.9090909090909091" verbs="2" chunks="10" verb_preds="1" concepts="1" domain_bound="1" adjectives="1" abstract_words="1-[7-nice-[valutativo]]/0" modal_advs_adjs="1" untensed_verbs="2" dense_constituents="0" tot_negs="4.166666666666667" tot_pos="0.43333333333333335" ratio_pos-negs="0.0853731343283582" abstract_eventiv_words="[nice/7]">Wouldn-t it be nice . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_79">
-<sdivars id="79" tokens="4" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason , Voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_80">
-<sdivars id="80" tokens="5" mean_chars_leng="0.625" verbs="0" chunks="6" verb_preds="0" concepts="2" domain_bound="2" adjectives="1" abstract_words="1-[3-effectual-[istituzione]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.2" tot_pos="0" ratio_pos-negs="2.2" positive_polar_words="[effectual]" abstract_eventiv_words="[effectual/3]">and so_much more effectual ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_81">
-<sdivars id="81" tokens="2" mean_chars_leng="0.5" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_82">
-<sdivars id="82" tokens="9" mean_chars_leng="0.3125" verbs="3" chunks="15" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="2-[3-put-[abstract,time,attivita,evento],3-cares-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="2" dense_constituents="0" tot_negs="3" tot_pos="0.06666666666666667" ratio_pos-negs="0.02012578616352201" positive_polar_words="[put,cares]" abstract_eventiv_words="[put/3,cares/3]">To put our cares aside and be bitrektual ! </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_83">
-<sdivars id="83" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_84">
-<sdivars id="84" tokens="8" mean_chars_leng="0.9" verbs="3" chunks="12" verb_preds="2" concepts="1" domain_bound="1" adjectives="1" abstract_words="2-[0-think-[abstract,stato],3-awesome-[evaluative]]/0" modal_advs_adjs="1" untensed_verbs="0" dense_constituents="0" tot_negs="3.125" tot_pos="0.5416666666666666" ratio_pos-negs="0.13457556935817802" positive_polar_words="[think,awesome]" abstract_eventiv_words="[think/0,awesome/3]">Think how awesome it would be a . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_85">
-<sdivars id="85" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_86">
-<sdivars id="86" tokens="8" mean_chars_leng="1.1428571428571428" verbs="1" chunks="5" verb_preds="1" concepts="3" domain_bound="3" adjectives="0" abstract_words="1-[5-team-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.17500000000000002" positive_polar_words="[team]" abstract_eventiv_words="[team/5]">team up with Jean Luc and Leah . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_87">
-<sdivars id="87" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_88">
-<sdivars id="88" tokens="7" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0.25" ratio_pos-negs="0.125" positive_polar_words="[save]">Kirk and Chewie save the day . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_89">
-<sdivars id="89" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_90">
-<sdivars id="90" tokens="7" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="0" concepts="2" domain_bound="1" adjectives="0" abstract_words="2-[5-blowing-[astratto,evento,attivita],9-prey-[animato,umano]]/1" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0.5" tot_negs="1.5" tot_pos="0.14285714285714285" ratio_pos-negs="0.09523809523809523" negative_polar_words="[blowing,prey]" positive_polar_words="[bird]" abstract_eventiv_words="[blowing/5,prey/9]" concrete_words="[bird/1]">blowing up a bird of prey . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_91">
-<sdivars id="91" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_92">
-<sdivars id="92" tokens="8" mean_chars_leng="1" verbs="1" chunks="6" verb_preds="1" concepts="3" domain_bound="3" adjectives="1" abstract_words="1-[5-set-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.125" tot_pos="0.29166666666666663" ratio_pos-negs="0.1372549019607843" positive_polar_words="[net]" abstract_eventiv_words="[set/5]">Han and Spock they set a net . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_93">
-<sdivars id="93" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_94">
-<sdivars id="94" tokens="8" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="2" tot_pos="0.2" ratio_pos-negs="0.1" negative_affect_words="[trap]" negative_polar_words="[trap]">and trap the Borg and Boba Fett . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_95">
-<sdivars id="95" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_96">
-<sdivars id="96" tokens="12" mean_chars_leng="0" verbs="2" chunks="9" verb_preds="1" concepts="5" domain_bound="3" adjectives="0" abstract_words="3-[5-raid-[astratto,evento,attivita],9-fighter-[oggetto,strumento],5-capture-[astratto,evento,attivita]]/2" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="3" tot_pos="0.1111111111111111" ratio_pos-negs="0.037037037037037035" negative_affect_words="[raid,fighter,capture]" negative_polar_words="[raid,fighter,capture]" positive_polar_words="[tie]" abstract_eventiv_words="[raid/5,fighter/9,capture/5]" concrete_words="[tie/2,fighter/2]">While 3P0 and Data raid a Tie fighter to capture Vader . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_97">
-<sdivars id="97" tokens="4" mean_chars_leng="0.25" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire , Jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_98">
-<sdivars id="98" tokens="10" mean_chars_leng="0.8571428571428571" verbs="2" chunks="10" verb_preds="2" concepts="1" domain_bound="0" adjectives="0" abstract_words="2-[3-get-[abstract,time,attivita,evento],5-blow-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.1076923076923077" negative_affect_words="[blow]" negative_polar_words="[blow,get]" abstract_eventiv_words="[get/3,blow/5]">Luke and Worf get into it and blow the . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_99">
-<sdivars id="99" tokens="4" mean_chars_leng="0.5" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="1" adjectives="0" abstract_words="1-[5-bits-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.5" tot_pos="0" ratio_pos-negs="1.5" abstract_eventiv_words="[bits/5]">deathstar into bits . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_100">
-<sdivars id="100" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_101">
-<sdivars id="101" tokens="7" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0.14285714285714285" ratio_pos-negs="0.07142857142857142" negative_affect_words="[throw]" negative_polar_words="[throw]">And then we throw the tribbles . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_102">
-<sdivars id="102" tokens="4" mean_chars_leng="0.4444444444444444" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason , Voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_103">
-<sdivars id="103" tokens="5" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.25" ratio_pos-negs="0.25">into the Sarlac pit . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_104">
-<sdivars id="104" tokens="2" mean_chars_leng="0.875" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_105">
-<sdivars id="105" tokens="9" mean_chars_leng="0.5" verbs="1" chunks="8" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.125" ratio_pos-negs="0.08333333333333333">and then we kicked the Ewoks into it . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_106">
-<sdivars id="106" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_107">
-<sdivars id="107" tokens="10" mean_chars_leng="0.25" verbs="2" chunks="11" verb_preds="2" concepts="2" domain_bound="2" adjectives="2" abstract_words="4-[8-live-[evaluative],8-long-[misura],3-prosper-[abstract,time,attivita,evento],3-say-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.2" tot_pos="0.38181818181818183" ratio_pos-negs="0.15584415584415584" negative_affect_words="[long]" negative_polar_words="[long]" positive_polar_words="[live]" abstract_eventiv_words="[live/8,long/8,prosper/3,say/3]">Live long and prosper , so say we all . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_108">
-<sdivars id="108" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_109">
-<sdivars id="109" tokens="4" mean_chars_leng="0" verbs="1" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[3-wait-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" negative_affect_words="[Wait]" negative_polar_words="[Wait,wait]" abstract_eventiv_words="[wait/3]">Wait , what ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_110">
-<sdivars id="110" tokens="2" mean_chars_leng="1.4285714285714286" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_111">
-<sdivars id="111" tokens="14" mean_chars_leng="0.25" verbs="3" chunks="14" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="3-[9-force-[astratto,attivita,cambia],5-lords-[astratto,evento,attivita],3-keep-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="2" dense_constituents="0" tot_negs="2" tot_pos="0.07142857142857142" ratio_pos-negs="0.031746031746031744" negative_affect_words="[force]" negative_polar_words="[force]" positive_polar_words="[lords,keep]" abstract_eventiv_words="[force/9,lords/5,keep/3]">May the force be with you , May the time Lords keep you . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_112">
-<sdivars id="112" tokens="4" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason , Voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_113">
-<sdivars id="113" tokens="6" mean_chars_leng="0.25" verbs="1" chunks="7" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.14285714285714285" ratio_pos-negs="0.11428571428571428">Forever , we can Babylon . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_114">
-<sdivars id="114" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_115">
-<sdivars id="115" tokens="6" mean_chars_leng="0.5" verbs="2" chunks="7" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="2-[8-use-[astratto,attivita],5-debating-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.14285714285714285" ratio_pos-negs="0.09523809523809523" negative_affect_words="[no]" negative_polar_words="[no,no,debating]" abstract_eventiv_words="[use/8,debating/5]">There-s no use debating . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_116">
-<sdivars id="116" tokens="4" mean_chars_leng="0.42857142857142855" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire , Jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_117">
-<sdivars id="117" tokens="4" mean_chars_leng="0.25" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[3-waiting-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="1.0" negative_polar_words="[waiting]" abstract_eventiv_words="[waiting/3]">the Stargate-s waiting . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_118">
-<sdivars id="118" tokens="2" mean_chars_leng="0.3333333333333333" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_119">
-<sdivars id="119" tokens="7" mean_chars_leng="0.5" verbs="1" chunks="9" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="1-[3-come-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="2" tot_pos="0.14285714285714285" ratio_pos-negs="0.05714285714285714" negative_affect_words="[not,fight]" negative_polar_words="[not,fight,not]" abstract_eventiv_words="[come/3]">So come on let-s not fight . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_120">
-<sdivars id="120" tokens="4" mean_chars_leng="0.23529411764705882" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire , Jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_121">
-<sdivars id="121" tokens="5" mean_chars_leng="0.25" verbs="1" chunks="7" verb_preds="1" concepts="0" domain_bound="0" adjectives="1" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.2" tot_pos="0.2" ratio_pos-negs="0.08163265306122448" negative_affect_words="[unintellectual]" negative_polar_words="[unintellectual]">it-s so unintellectual . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_122">
-<sdivars id="122" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_123">
-<sdivars id="123" tokens="10" mean_chars_leng="0.5" verbs="2" chunks="14" verb_preds="1" concepts="3" domain_bound="1" adjectives="0" abstract_words="3-[9-bout-[attivita,informa,tempo],3-join-[abstract,time,attivita,evento],5-sides-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="3" tot_pos="0.07142857142857142" ratio_pos-negs="0.02040816326530612" negative_affect_words="[bout]" negative_polar_words="[bout]" positive_polar_words="[join]" abstract_eventiv_words="[bout/9,join/3,sides/5]">How ' bout we join sides and be bi-trektual ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_124">
-<sdivars id="124" tokens="4" mean_chars_leng="0.2857142857142857" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason , Voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_125">
-<sdivars id="125" tokens="11" mean_chars_leng="0.25" verbs="1" chunks="7" verb_preds="1" concepts="4" domain_bound="4" adjectives="2" abstract_words="3-[5-take-[astratto,evento,attivita],8-advice-[attivita,informa],7-sexual-[evaluative]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.3333333333333333" tot_negs="2.515151515151515" tot_pos="0.23376623376623376" ratio_pos-negs="0.08454011741682975" positive_polar_words="[advice,sexual]" abstract_eventiv_words="[take/5,advice/8,sexual/7]">So let-s take the advice of an Asian homo-. sexual . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_126">
-<sdivars id="126" tokens="2" mean_chars_leng="0.9090909090909091" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_127">
-<sdivars id="127" tokens="8" mean_chars_leng="0.5" verbs="1" chunks="9" verb_preds="1" concepts="2" domain_bound="1" adjectives="1" abstract_words="2-[5-folks-[astratto,evento,attivita],5-cool-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.625" tot_pos="0.2361111111111111" ratio_pos-negs="0.20987654320987653" positive_polar_words="[star,cool]" abstract_eventiv_words="[folks/5,cool/5]">Fellow Star folks , cool it down ! </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_128">
-<sdivars id="128" tokens="3" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">Robert Picardo : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_129">
-<sdivars id="129" tokens="4" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[3-impersonated-[abstract,time,attivita,evento]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.25" negative_polar_words="[impersonated]" positive_polar_words="[voice]" abstract_eventiv_words="[impersonated/3]" concrete_words="[voice/1]">Celebrity voice impersonated . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_130">
-<sdivars id="130" tokens="4" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason , Voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_131">
-<sdivars id="131" tokens="9" mean_chars_leng="0" verbs="2" chunks="11" verb_preds="1" concepts="3" domain_bound="3" adjectives="0" abstract_words="2-[7-put-[evento],3-cares-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="2" tot_pos="0.09090909090909091" ratio_pos-negs="0.045454545454545456" positive_polar_words="[put,cares]" abstract_eventiv_words="[put/7,cares/3]">Let-s put our cares aside and be bitrektual ! </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_132">
-<sdivars id="132" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_133">
-<sdivars id="133" tokens="10" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="2-[1-Hell-[place,astratto,luogo],0-want-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0.5" tot_negs="2.5" tot_pos="0.1" ratio_pos-negs="0.04" negative_polar_words="[Hell]" positive_polar_words="[want]" abstract_eventiv_words="[Hell/1,want/0]">Hell , I want to be Sci Fi multi-Trektual ! </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_134">
-<sdivars id="134" tokens="2" mean_chars_leng="0.42857142857142855" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_135">
-<sdivars id="135" tokens="5" mean_chars_leng="0.19047619047619047" verbs="1" chunks="7" verb_preds="1" concepts="2" domain_bound="2" adjectives="2" abstract_words="3-[8-live-[evaluative],8-long-[misura],3-prosper-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.4" tot_pos="0.34285714285714286" ratio_pos-negs="0.2155688622754491" negative_affect_words="[long]" negative_polar_words="[long]" positive_polar_words="[live]" abstract_eventiv_words="[live/8,long/8,prosper/3]">Live long and prosper . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_136">
-<sdivars id="136" tokens="2" mean_chars_leng="0.5" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_137">
-<sdivars id="137" tokens="7" mean_chars_leng="0.9" verbs="1" chunks="7" verb_preds="0" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[9-force-[astratto,attivita,cambia]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.14285714285714285" ratio_pos-negs="0.07518796992481203" negative_affect_words="[force]" negative_polar_words="[force]" abstract_eventiv_words="[force/9]">May the force be with you ! </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_138">
-<sdivars id="138" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_139">
-<sdivars id="139" tokens="7" mean_chars_leng="0.7142857142857143" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="2-[3-give-[abstract,time,attivita,evento],3-surrender-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.35" negative_affect_words="[never,surrender]" negative_polar_words="[never,surrender,never]" abstract_eventiv_words="[give/3,surrender/3]">Never give up , never surrender ! </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_140">
-<sdivars id="140" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">voltaire : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_141">
-<sdivars id="141" tokens="5" mean_chars_leng="0.7142857142857143" verbs="0" chunks="6" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0">To infinity and Beyond ! </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_142">
-<sdivars id="142" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">jason : </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_143">
-<sdivars id="143" tokens="4" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="1" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">Really , Voltaire ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="BiTrektual Lyrics.txt_144">
-<sdivars id="144" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="1" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0">Really ? </sdivars>
+<sdivars id="42" tokens="4" mean_chars_leng="1" verbs="0" chunks="4" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="1-[8-Jason-[place,umano]]/0" modal_advs_adjs="2" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1" abstract_eventiv_words="[Jason/8]">jason Really Voltaire Really _309692 </sdivars>
 </verse_sdi_var>
 </verse_sdi_vars>
 </semantic_density>

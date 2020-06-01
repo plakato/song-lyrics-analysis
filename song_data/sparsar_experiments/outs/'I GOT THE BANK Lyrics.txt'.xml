@@ -1,283 +1,88 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <semantic_density>
 
-<text_level_sdis id="outs/'I GOT THE BANK Lyrics.txt'" general_sdi="5.7708504487388534" mean_char_leng="0.43814027380134346" propositional_negs="1" negative_sentiment_words="19" positive_sentiment_words="36" deep_conceptual_index="44.02173913043478" token_rare_words_ratio="0.004662004662004662" token_type_ratio="0.4289044289044289" RID_category_ratio="[9-secondary/0.6428571428571429,[abstract_tought,abstract_tought,aggression,concreteness,concreteness,instru_behavior,instru_behavior,sex,social_behavior,temporal_repere,temporal_repere,temporal_repere,temporal_repere,vision]]" semantic_cohesion="0"></text_level_sdis>
-<verse_sdi_vars ids="92">
+<text_level_sdis id="outs/'I GOT THE BANK Lyrics.txt'" general_sdi="4.759110752299354" mean_char_leng="0.39004308564999035" propositional_negs="1" negative_sentiment_words="18" positive_sentiment_words="37" deep_conceptual_index="47.79435040872949" token_rare_words_ratio="0.005" token_type_ratio="0.465" RID_category_ratio="[9-secondary/0.6428571428571429,[abstract_tought,abstract_tought,aggression,concreteness,concreteness,instru_behavior,instru_behavior,sex,social_behavior,temporal_repere,temporal_repere,temporal_repere,temporal_repere,vision]]" semantic_cohesion="0"></text_level_sdis>
+<verse_sdi_vars ids="27">
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_1">
 <sdivars id="1" tokens="8" mean_chars_leng="0" verbs="1" chunks="6" verb_preds="1" concepts="3" domain_bound="1" adjectives="0" abstract_words="1-[3-got-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" negative_polar_words="[got]" positive_polar_words="[BANK]" abstract_eventiv_words="[got/3]">i GOT THE BANK Lyrics by A-THUG . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_2">
-<sdivars id="2" tokens="3" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">a THUGGA . </sdivars>
+<sdivars id="2" tokens="48" mean_chars_leng="2" verbs="5" chunks="32" verb_preds="3" concepts="16" domain_bound="13" adjectives="1" abstract_words="3-[3-got-[abstract,time,attivita,evento],10-notice-[astratto,attivita,informa],3-stay-[abstract,time,attivita,evento]]/1" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0.11764705882352941" tot_negs="10.950980392156863" tot_pos="0.19791666666666669" ratio_pos-negs="0.015281983345950038" negative_affect_words="[COP,COP,nigga,no,BAR]" negative_polar_words="[COP,COP,nigga,no,BAR,no,got,cop,ken,holla]" positive_polar_words="[TALKING,notice,stay,kiss]" abstract_eventiv_words="[got/3,notice/10,stay/3]" concrete_words="[bar/1]">a THUGGA i GOT THE BANK 911 i AINT TALKING COP iim IN HEAVEN everytime , I COP CARS / notice , ITS PLURAL nigga IM , A MEGASTAR / no KEN stay , WITH BARIBE DOLL / holla AT KISS by , THE BAR / g . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_3">
-<sdivars id="3" tokens="5" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[3-got-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_polar_words="[got]" abstract_eventiv_words="[got/3]">i GOT THE BANK . </sdivars>
+<sdivars id="3" tokens="28" mean_chars_leng="0" verbs="1" chunks="15" verb_preds="1" concepts="6" domain_bound="2" adjectives="1" abstract_words="5-[5-bitch-[astratto,evento,attivita],5-trips-[astratto,evento,attivita],3-real-[abstract,time,attivita,evento],3-life-[abstract,time,attivita,evento],3-meets-[abstract,time,attivita,evento]]/2" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.1111111111111111" tot_negs="5.48015873015873" tot_pos="0.10238095238095238" ratio_pos-negs="0.018682114409847937" negative_affect_words="[BITCH]" negative_polar_words="[BITCH,bitch]" positive_polar_words="[real,meets]" abstract_eventiv_words="[bitch/5,trips/5,real/3,life/3,meets/3]" concrete_words="[bar/1,charts/1]">P , WITH YOUR BITCH by , THE Bar / 4 , 5 , 6 AND TRIPS on , THE CHARTS / real HOMIE life MEETS 4 . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_4">
-<sdivars id="4" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">911 . </sdivars>
+<sdivars id="4" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">5 . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_5">
-<sdivars id="5" tokens="5" mean_chars_leng="0.7142857142857143" verbs="1" chunks="4" verb_preds="1" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.25" ratio_pos-negs="0.14583333333333331" negative_affect_words="[COP]" negative_polar_words="[COP,cop]" positive_polar_words="[TALKING]">i AINT TALKING COP . </sdivars>
+<sdivars id="5" tokens="4" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="2" domain_bound="1" adjectives="0" abstract_words="1-[5-trips-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.2" abstract_eventiv_words="[trips/5]">6 AND TRIPS . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_6">
-<sdivars id="6" tokens="4" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">iim IN HEAVEN . </sdivars>
+<sdivars id="6" tokens="15" mean_chars_leng="0" verbs="2" chunks="11" verb_preds="2" concepts="5" domain_bound="2" adjectives="1" abstract_words="2-[3-got-[abstract,time,attivita,evento],5-kill-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.4666666666666667" tot_pos="0.3151515151515152" ratio_pos-negs="0.6753246753246753" negative_affect_words="[kill]" negative_polar_words="[kill,got]" abstract_eventiv_words="[got/3,kill/5]">i GOT THE BANK / mega MONEY , kill SMAL , MONEY , what ! </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_7">
-<sdivars id="7" tokens="6" mean_chars_leng="0.6666666666666666" verbs="1" chunks="6" verb_preds="1" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.1" negative_affect_words="[COP]" negative_polar_words="[COP]">everytime I COP CARS / . </sdivars>
+<sdivars id="7" tokens="28" mean_chars_leng="0" verbs="3" chunks="21" verb_preds="2" concepts="12" domain_bound="5" adjectives="0" abstract_words="6-[3-think-[abstract,time,attivita,evento],3-fame-[stato],3-got-[abstract,time,attivita,evento],12-place-[astratto,attivita,informa,luogo,stato],8-bet-[attivita],3-got-[abstract,time,attivita,evento]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.08333333333333333" tot_negs="1.0833333333333333" tot_pos="0.09523809523809523" ratio_pos-negs="0.08791208791208792" negative_polar_words="[got,got]" positive_polar_words="[think,fame,roll,place]" abstract_eventiv_words="[think/3,fame/3,got/3,place/12,bet/8,got/3]" concrete_words="[roll/2]">U THINK / , im HALL OF FAME / i GOT THE BANK its YA ROLL place YA BET i THE BANK / i GOT THE BANK . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_8">
-<sdivars id="8" tokens="4" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="1" domain_bound="0" adjectives="1" abstract_words="1-[10-notice-[astratto,attivita,informa]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.25" tot_pos="0" ratio_pos-negs="0.25" positive_polar_words="[notice]" abstract_eventiv_words="[notice/10]">notice ITS PLURAL . </sdivars>
+<sdivars id="8" tokens="14" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="1" concepts="6" domain_bound="2" adjectives="0" abstract_words="3-[3-got-[abstract,time,attivita,evento],12-place-[astratto,attivita,informa,luogo,stato],8-bet-[attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.25" tot_negs="0.25" tot_pos="0.14285714285714285" ratio_pos-negs="0.5714285714285714" negative_polar_words="[got]" positive_polar_words="[roll,place]" abstract_eventiv_words="[got/3,place/12,bet/8]" concrete_words="[roll/2]">i GOT THE BANK / its YA , ROLL place , YA BET : </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_9">
-<sdivars id="9" tokens="6" mean_chars_leng="0.75" verbs="0" chunks="5" verb_preds="0" concepts="3" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="3.6666666666666665" tot_pos="0" ratio_pos-negs="3.6666666666666665" negative_affect_words="[nigga]" negative_polar_words="[nigga]">nigga IM A MEGASTAR / . </sdivars>
+<sdivars id="9" tokens="12" mean_chars_leng="1.5" verbs="3" chunks="13" verb_preds="3" concepts="3" domain_bound="1" adjectives="0" abstract_words="3-[3-got-[abstract,time,attivita,evento],5-call-[astratto,evento,attivita],5-chase-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.23076923076923078" ratio_pos-negs="0.09230769230769231" negative_affect_words="[CHASE]" negative_polar_words="[CHASE,got]" positive_polar_words="[call]" abstract_eventiv_words="[got/3,call/5,chase/5]">i GOT THE BANK / bank OF AMERAICA call ME CHASE . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_10">
-<sdivars id="10" tokens="3" mean_chars_leng="0" verbs="1" chunks="3" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.3333333333333333" ratio_pos-negs="0.3333333333333333" negative_affect_words="[no]" negative_polar_words="[no,no,ken]">no KEN . </sdivars>
+<sdivars id="10" tokens="3" mean_chars_leng="0.3333333333333333" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[0-know-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.75" positive_polar_words="[know]" abstract_eventiv_words="[know/0]">everybody KNOW : </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_11">
-<sdivars id="11" tokens="6" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="2" domain_bound="2" adjectives="0" abstract_words="1-[3-stay-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.2" positive_polar_words="[stay]" abstract_eventiv_words="[stay/3]">stay WITH BARIBE DOLL / . </sdivars>
+<sdivars id="11" tokens="28" mean_chars_leng="0.5283018867924528" verbs="2" chunks="16" verb_preds="2" concepts="8" domain_bound="5" adjectives="0" abstract_words="3-[3-got-[abstract,time,attivita,evento],12-deposit-[astratto,attivita,cambia,informa,oggetto],3-ja-rule-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.1111111111111111" tot_negs="4.111111111111111" tot_pos="0.125" ratio_pos-negs="0.02694306371441482" negative_polar_words="[got]" positive_polar_words="[deposit,BANK]" abstract_eventiv_words="[got/3,deposit/12,ja-rule/3]">i GOT THE BANK / the SIGNATURE , time , TIC , YA , MINUTES UP / cheacks ON DEPOSIT ya BANK SHERIVAL UP / ja-rule CANNIBUS ! </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_12">
-<sdivars id="12" tokens="4" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.25" ratio_pos-negs="0.25" negative_polar_words="[holla]" positive_polar_words="[kiss]">holla AT KISS . </sdivars>
+<sdivars id="12" tokens="2" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[3-make-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" abstract_eventiv_words="[make/3]">make ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_13">
-<sdivars id="13" tokens="5" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0" negative_affect_words="[BAR]" negative_polar_words="[BAR]" concrete_words="[bar/1]">by THE BAR / . </sdivars>
+<sdivars id="13" tokens="18" mean_chars_leng="0" verbs="2" chunks="13" verb_preds="2" concepts="8" domain_bound="5" adjectives="0" abstract_words="1-[8-grind-[attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.15384615384615385" ratio_pos-negs="0.15384615384615385" negative_affect_words="[GRIND]" negative_polar_words="[GRIND,grind]" positive_polar_words="[GIVE,PAY]" abstract_eventiv_words="[grind/8]" concrete_words="[ASS/1]">U GIVE IT UP / u ASS , BETTEN better PAY THUG / 125th ON MY GRIND : </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_14">
-<sdivars id="14" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">g . </sdivars>
+<sdivars id="14" tokens="10" mean_chars_leng="0.9090909090909091" verbs="2" chunks="11" verb_preds="2" concepts="1" domain_bound="1" adjectives="1" abstract_words="1-[7-shine-[]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.1" tot_pos="0.38181818181818183" ratio_pos-negs="0.1268882175226586" positive_polar_words="[shine]" abstract_eventiv_words="[shine/7]">my BUZZ UP / harlemworld BACK and I SHINE . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_15">
-<sdivars id="15" tokens="5" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[5-bitch-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_affect_words="[BITCH]" negative_polar_words="[BITCH,bitch]" abstract_eventiv_words="[bitch/5]">P WITH YOUR BITCH . </sdivars>
+<sdivars id="15" tokens="5" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="2" domain_bound="1" adjectives="1" abstract_words="1-[3-free-[abstract,time,attivita,evento]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.7" tot_pos="0" ratio_pos-negs="1.7" positive_polar_words="[free]" abstract_eventiv_words="[free/3]" concrete_words="[RADAR/2]">THUGLOVE / free RADAR . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_16">
-<sdivars id="16" tokens="5" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0" negative_affect_words="[BAR]" negative_polar_words="[BAR]" concrete_words="[bar/1]">by THE BAR / . </sdivars>
+<sdivars id="16" tokens="29" mean_chars_leng="0.625" verbs="1" chunks="12" verb_preds="1" concepts="11" domain_bound="8" adjectives="3" abstract_words="1-[7-save-[attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="8.830721003134796" tot_pos="0.11781609195402298" ratio_pos-negs="0.012459768209633527" positive_polar_words="[BANKS,SAID,save]" abstract_eventiv_words="[save/7]">We STONEN my BANKS , UP / , im , HUSTLIN , om , HUSTLIN mommey , SAID SAVE EVERY DOLLAR / , im BUBBLING inm BUBBLING now . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_17">
-<sdivars id="17" tokens="8" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[5-trips-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="3" tot_pos="0.25" ratio_pos-negs="0.08333333333333333" abstract_eventiv_words="[trips/5]">4 , 5 , 6 AND TRIPS . </sdivars>
+<sdivars id="17" tokens="10" mean_chars_leng="0" verbs="2" chunks="7" verb_preds="1" concepts="2" domain_bound="2" adjectives="1" abstract_words="1-[3-struggling-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.1" tot_pos="0.34285714285714286" ratio_pos-negs="0.16326530612244897" negative_polar_words="[struggling]" abstract_eventiv_words="[struggling/3]">Everybody WAN NA HOLLAR / , i WAS STRUGGLING . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_18">
-<sdivars id="18" tokens="5" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0" concrete_words="[charts/1]">on THE CHARTS / . </sdivars>
+<sdivars id="18" tokens="21" mean_chars_leng="0" verbs="3" chunks="18" verb_preds="2" concepts="9" domain_bound="3" adjectives="0" abstract_words="2-[3-got-[abstract,time,attivita,evento],3-got-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="5" tot_pos="0.1111111111111111" ratio_pos-negs="0.02222222222222222" negative_polar_words="[got,got]" positive_polar_words="[TOP]" abstract_eventiv_words="[got/3,got/3]">i WAS STRUGGING now IM ON TOP A-THUGGA / i GOT THE BANK a-thugga i GOT THE BANK a-thugga eveytime . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_19">
-<sdivars id="19" tokens="3" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="1" abstract_words="1-[3-real-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.333333333333333" tot_pos="0" ratio_pos-negs="2.333333333333333" positive_polar_words="[real]" abstract_eventiv_words="[real/3]">real HOMIE . </sdivars>
+<sdivars id="19" tokens="11" mean_chars_leng="0.9666666666666667" verbs="3" chunks="13" verb_preds="3" concepts="3" domain_bound="2" adjectives="3" abstract_words="3-[3-new-[abstract,time,attivita,evento],3-new-[abstract,time,attivita,evento],3-thought-[abstract,time,attivita,evento]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.9393939393939393" tot_pos="0.5034965034965035" ratio_pos-negs="0.26415555827320536" negative_affect_words="[BITCH,WHIP]" negative_polar_words="[BITCH,WHIP,whip]" positive_polar_words="[new,new,thought]" abstract_eventiv_words="[new/3,new/3,thought/3]" concrete_words="[whip/1]">I WRITE new HIT new BITCH NEW WHIP / thought . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_20">
-<sdivars id="20" tokens="3" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="2-[3-life-[abstract,time,attivita,evento],3-meets-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.25" positive_polar_words="[meets]" abstract_eventiv_words="[life/3,meets/3]">life MEETS . </sdivars>
+<sdivars id="20" tokens="13" mean_chars_leng="0.5263157894736842" verbs="1" chunks="13" verb_preds="1" concepts="3" domain_bound="2" adjectives="0" abstract_words="1-[5-fuck-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="3" tot_pos="0.07692307692307693" ratio_pos-negs="0.021814006888633757" negative_affect_words="[fuck]" negative_polar_words="[fuck,shit]" abstract_eventiv_words="[fuck/5]">I WOULDNT MAKE IT but IM ON MY NEW SHIT / fuck . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_21">
-<sdivars id="21" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">4 . </sdivars>
+<sdivars id="21" tokens="4" mean_chars_leng="0.5121951219512195" verbs="1" chunks="5" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[3-say-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.3904761904761905" abstract_eventiv_words="[say/3]">What THEY SAY : </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_22">
-<sdivars id="22" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">5 . </sdivars>
+<sdivars id="22" tokens="23" mean_chars_leng="1.5714285714285714" verbs="2" chunks="18" verb_preds="2" concepts="9" domain_bound="9" adjectives="1" abstract_words="3-[9-bitch-[animato,stato],5-go-[astratto,evento,attivita],0-stop-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="4.043478260869565" tot_pos="0.19806763285024154" ratio_pos-negs="0.03527531956735496" negative_affect_words="[BITCH,stop,MATTER]" negative_polar_words="[BITCH,stop,MATTER,bitch,dont,shit]" abstract_eventiv_words="[bitch/9,go/5,stop/0]">im THE FUTURE BITCH / every GIRL , WAN NA GO dont , stop SHIT , / as , A MATTER FACT : </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_23">
-<sdivars id="23" tokens="4" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[5-trips-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.2" abstract_eventiv_words="[trips/5]">6 AND TRIPS . </sdivars>
+<sdivars id="23" tokens="15" mean_chars_leng="1.8571428571428572" verbs="2" chunks="14" verb_preds="1" concepts="3" domain_bound="2" adjectives="1" abstract_words="2-[0-stop-[abstract,stato],5-show-[astratto,evento,attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.6" tot_negs="5.333333333333333" tot_pos="0.20476190476190476" ratio_pos-negs="0.028476821192052977" negative_affect_words="[stop]" negative_polar_words="[stop]" positive_polar_words="[girl,pop,show]" abstract_eventiv_words="[stop/0,show/5]" concrete_words="[girl/1]">girl DONT stop IT / pop THAT twert THAT MERK THAT show ME HOW ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_24">
-<sdivars id="24" tokens="6" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[3-got-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_polar_words="[got]" abstract_eventiv_words="[got/3]">i GOT THE BANK / . </sdivars>
+<sdivars id="24" tokens="3" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[5-work-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.25" positive_polar_words="[work]" abstract_eventiv_words="[work/5]">U WORK : </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_25">
-<sdivars id="25" tokens="3" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">mega MONEY . </sdivars>
+<sdivars id="25" tokens="4" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">THAT / so ! </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_26">
-<sdivars id="26" tokens="4" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="1" domain_bound="1" adjectives="1" abstract_words="1-[5-kill-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.25" tot_pos="0.5" ratio_pos-negs="0.4" negative_affect_words="[kill]" negative_polar_words="[kill]" abstract_eventiv_words="[kill/5]">kill SMAL MONEY . </sdivars>
+<sdivars id="26" tokens="28" mean_chars_leng="0" verbs="2" chunks="23" verb_preds="2" concepts="10" domain_bound="5" adjectives="4" abstract_words="1-[8-black-[estens]]/2" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.3076923076923077" tot_negs="6.950549450549451" tot_pos="0.15838509316770186" ratio_pos-negs="0.022787420518989517" negative_affect_words="[HURT,BLACK]" negative_polar_words="[HURT,BLACK,racks]" positive_polar_words="[DRESSED,black,rolling]" abstract_eventiv_words="[black/8]" concrete_words="[racks/1,stones/1]">I COULD MERK THAT HURT THAT you SQURRT BACK / im FREASH TO HEAVEN im DRESSED IN RACKS / , written BY   - A-THUG , BLACK rolling STONES ; </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="I GOT THE BANK Lyrics.txt_27">
-<sdivars id="27" tokens="5" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[3-think-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" positive_polar_words="[think]" abstract_eventiv_words="[think/3]">what U THINK / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_28">
-<sdivars id="28" tokens="6" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="1-[0-fame-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[fame]" abstract_eventiv_words="[fame/0]">im HALL OF FAME / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_29">
-<sdivars id="29" tokens="5" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[3-got-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_polar_words="[got]" abstract_eventiv_words="[got/3]">i GOT THE BANK . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_30">
-<sdivars id="30" tokens="4" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.25" positive_polar_words="[roll]">its YA ROLL . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_31">
-<sdivars id="31" tokens="4" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="2-[12-place-[astratto,attivita,informa,luogo,stato],5-bet-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.25" positive_polar_words="[place]" abstract_eventiv_words="[place/12,bet/5]">place YA BET . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_32">
-<sdivars id="32" tokens="5" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0">i THE BANK / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_33">
-<sdivars id="33" tokens="5" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[3-got-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_polar_words="[got]" abstract_eventiv_words="[got/3]">i GOT THE BANK . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_34">
-<sdivars id="34" tokens="6" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[3-got-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_polar_words="[got]" abstract_eventiv_words="[got/3]">i GOT THE BANK / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_35">
-<sdivars id="35" tokens="4" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.25" positive_polar_words="[roll]">its YA ROLL . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_36">
-<sdivars id="36" tokens="4" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="2-[12-place-[astratto,attivita,informa,luogo,stato],5-bet-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.25" positive_polar_words="[place]" abstract_eventiv_words="[place/12,bet/5]">place YA BET . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_37">
-<sdivars id="37" tokens="6" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[3-got-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_polar_words="[got]" abstract_eventiv_words="[got/3]">i GOT THE BANK / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_38">
-<sdivars id="38" tokens="4" mean_chars_leng="0.5" verbs="0" chunks="4" verb_preds="0" concepts="2" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.5" tot_pos="0" ratio_pos-negs="1.5">bank OF AMERAICA . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_39">
-<sdivars id="39" tokens="4" mean_chars_leng="0" verbs="2" chunks="7" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="2-[5-call-[astratto,evento,attivita],5-chase-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2857142857142857" ratio_pos-negs="0.2857142857142857" negative_affect_words="[CHASE]" negative_polar_words="[CHASE]" positive_polar_words="[call]" abstract_eventiv_words="[call/5,chase/5]">call ME CHASE . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_40">
-<sdivars id="40" tokens="3" mean_chars_leng="0.3333333333333333" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[0-know-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.75" positive_polar_words="[know]" abstract_eventiv_words="[know/0]">everybody KNOW . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_41">
-<sdivars id="41" tokens="6" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[3-got-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_polar_words="[got]" abstract_eventiv_words="[got/3]">i GOT THE BANK / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_42">
-<sdivars id="42" tokens="3" mean_chars_leng="0.3333333333333333" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">the SIGNATURE . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_43">
-<sdivars id="43" tokens="7" mean_chars_leng="1" verbs="1" chunks="3" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.14285714285714285">time TIC YA MINUTES UP / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_44">
-<sdivars id="44" tokens="4" mean_chars_leng="0.2857142857142857" verbs="1" chunks="5" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-deposit-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="2" tot_pos="0.25" ratio_pos-negs="0.109375" positive_polar_words="[deposit]" abstract_eventiv_words="[deposit/5]">cheacks ON DEPOSIT . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_45">
-<sdivars id="45" tokens="6" mean_chars_leng="0.75" verbs="1" chunks="5" verb_preds="1" concepts="2" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.1142857142857143" positive_polar_words="[BANK]">ya BANK SHERIVAL UP / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_46">
-<sdivars id="46" tokens="3" mean_chars_leng="0.2" verbs="0" chunks="4" verb_preds="0" concepts="2" domain_bound="1" adjectives="0" abstract_words="1-[3-ja-rule-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.5" tot_pos="0" ratio_pos-negs="2.5" abstract_eventiv_words="[ja-rule/3]">ja-rule CANNIBUS . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_47">
-<sdivars id="47" tokens="7" mean_chars_leng="0" verbs="2" chunks="8" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[3-make-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.125" ratio_pos-negs="0.125" positive_polar_words="[GIVE]" abstract_eventiv_words="[make/3]">make U GIVE IT UP / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_48">
-<sdivars id="48" tokens="4" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">u ASS BETTEN . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_49">
-<sdivars id="49" tokens="5" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" positive_polar_words="[PAY]">better PAY THUG / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_50">
-<sdivars id="50" tokens="5" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[5-grind-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_affect_words="[GRIND]" negative_polar_words="[GRIND,grind]" abstract_eventiv_words="[grind/5]">125th ON MY GRIND . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_51">
-<sdivars id="51" tokens="5" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.25">my BUZZ UP / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_52">
-<sdivars id="52" tokens="3" mean_chars_leng="0.2727272727272727" verbs="1" chunks="3" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.3333333333333333" ratio_pos-negs="0.2619047619047619">harlemworld BACK . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_53">
-<sdivars id="53" tokens="4" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-shine-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" positive_polar_words="[shine]" abstract_eventiv_words="[shine/5]">and I SHINE . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_54">
-<sdivars id="54" tokens="3" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">THUGLOVE / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_55">
-<sdivars id="55" tokens="3" mean_chars_leng="0.375" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="0" adjectives="1" abstract_words="1-[3-free-[abstract,time,attivita,evento]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.3333333333333333" tot_pos="0" ratio_pos-negs="0.3333333333333333" positive_polar_words="[free]" abstract_eventiv_words="[free/3]" concrete_words="[RADAR/2]">free RADAR . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_56">
-<sdivars id="56" tokens="3" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">WE STONEN . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_57">
-<sdivars id="57" tokens="5" mean_chars_leng="0" verbs="1" chunks="3" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.3333333333333333" ratio_pos-negs="0.3333333333333333" positive_polar_words="[BANKS]">my BANKS UP / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_58">
-<sdivars id="58" tokens="3" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="3" tot_pos="0" ratio_pos-negs="3">im HUSTLIN . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_59">
-<sdivars id="59" tokens="3" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">om HUSTLIN . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_60">
-<sdivars id="60" tokens="7" mean_chars_leng="0.42857142857142855" verbs="0" chunks="6" verb_preds="0" concepts="2" domain_bound="1" adjectives="1" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.3333333333333333" tot_negs="2.9761904761904763" tot_pos="0" ratio_pos-negs="2.642857142857143" positive_polar_words="[SAID,save]">mommey SAID SAVE EVERY DOLLAR / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_61">
-<sdivars id="61" tokens="3" mean_chars_leng="0.42857142857142855" verbs="1" chunks="4" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.25" ratio_pos-negs="0.175">im BUBBLING . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_62">
-<sdivars id="62" tokens="3" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.25" ratio_pos-negs="0.25">inm BUBBLING . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_63">
-<sdivars id="63" tokens="6" mean_chars_leng="0.375" verbs="1" chunks="4" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.25" ratio_pos-negs="0.18181818181818182">now EVERYBODY WANNA HOLLAR / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_64">
-<sdivars id="64" tokens="4" mean_chars_leng="0.375" verbs="2" chunks="5" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[3-struggling-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.5333333333333333" negative_polar_words="[struggling]" abstract_eventiv_words="[struggling/3]">i WAS STRUGGLING . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_65">
-<sdivars id="65" tokens="4" mean_chars_leng="0.6666666666666666" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.30000000000000004">i WAS STRUGGING . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_66">
-<sdivars id="66" tokens="7" mean_chars_leng="0.4" verbs="0" chunks="6" verb_preds="0" concepts="3" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.3333333333333335" tot_pos="0" ratio_pos-negs="2.3333333333333335" positive_polar_words="[TOP]">now IM ON TOP A-THUGGA / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_67">
-<sdivars id="67" tokens="5" mean_chars_leng="0.4444444444444444" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[3-got-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.45000000000000007" negative_polar_words="[got]" abstract_eventiv_words="[got/3]">i GOT THE BANK . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_68">
-<sdivars id="68" tokens="2" mean_chars_leng="0.875" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">a-thugga . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_69">
-<sdivars id="69" tokens="5" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[3-got-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_polar_words="[got]" abstract_eventiv_words="[got/3]">i GOT THE BANK . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_70">
-<sdivars id="70" tokens="2" mean_chars_leng="0.25" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1">a-thugga . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_71">
-<sdivars id="71" tokens="4" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.2">eveytime I WRITE . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_72">
-<sdivars id="72" tokens="3" mean_chars_leng="0.25" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="1" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.3333333333333333" tot_pos="0.3333333333333333" ratio_pos-negs="0.5714285714285715" positive_polar_words="[new]">new HIT . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_73">
-<sdivars id="73" tokens="6" mean_chars_leng="0.5" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="2" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="2.333333333333333" tot_pos="0" ratio_pos-negs="1.3333333333333333" negative_affect_words="[BITCH,WHIP]" negative_polar_words="[BITCH,WHIP,whip]" positive_polar_words="[new]" concrete_words="[whip/1]">new BITCH NEW WHIP / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_74">
-<sdivars id="74" tokens="6" mean_chars_leng="0" verbs="2" chunks="9" verb_preds="2" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[3-thought-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.2222222222222222" ratio_pos-negs="0.2222222222222222" positive_polar_words="[thought]" abstract_eventiv_words="[thought/3]">thought I WOULDNT MAKE IT . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_75">
-<sdivars id="75" tokens="8" mean_chars_leng="0" verbs="1" chunks="6" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0.16666666666666666" ratio_pos-negs="0.08333333333333333" negative_polar_words="[shit]">but IM ON MY NEW SHIT / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_76">
-<sdivars id="76" tokens="5" mean_chars_leng="0.42857142857142855" verbs="2" chunks="7" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="2-[5-fuck-[astratto,evento,attivita],3-say-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2857142857142857" ratio_pos-negs="0.6666666666666666" negative_affect_words="[fuck]" negative_polar_words="[fuck]" abstract_eventiv_words="[fuck/5,say/3]">fuck WHAT THEY SAY . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_77">
-<sdivars id="77" tokens="6" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="2" domain_bound="2" adjectives="0" abstract_words="1-[5-bitch-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.25" ratio_pos-negs="0.25" negative_affect_words="[BITCH]" negative_polar_words="[BITCH,bitch]" abstract_eventiv_words="[bitch/5]">im THE FUTURE BITCH / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_78">
-<sdivars id="78" tokens="5" mean_chars_leng="0" verbs="2" chunks="7" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[5-go-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.14285714285714285" ratio_pos-negs="0.14285714285714285" abstract_eventiv_words="[go/5]">every GIRL WANNA GO . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_79">
-<sdivars id="79" tokens="5" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="2" domain_bound="2" adjectives="0" abstract_words="1-[5-stop-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.2" negative_affect_words="[stop]" negative_polar_words="[stop,dont,shit]" abstract_eventiv_words="[stop/5]">dont stop SHIT / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_80">
-<sdivars id="80" tokens="5" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2" negative_affect_words="[MATTER]" negative_polar_words="[MATTER]">as A MATTER FACT . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_81">
-<sdivars id="81" tokens="6" mean_chars_leng="0" verbs="1" chunks="8" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-stop-[astratto,evento,attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.125" ratio_pos-negs="0.125" negative_affect_words="[stop]" negative_polar_words="[stop]" positive_polar_words="[girl]" abstract_eventiv_words="[stop/5]" concrete_words="[girl/1]">girl DONT stop IT / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_82">
-<sdivars id="82" tokens="3" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="0" domain_bound="0" adjectives="1" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.3333333333333333" tot_pos="0" ratio_pos-negs="0.3333333333333333" positive_polar_words="[pop]">pop THAT . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_83">
-<sdivars id="83" tokens="5" mean_chars_leng="0" verbs="0" chunks="7" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="3.5" tot_pos="0" ratio_pos-negs="3">twert THAT MERK THAT . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_84">
-<sdivars id="84" tokens="8" mean_chars_leng="0" verbs="1" chunks="8" verb_preds="1" concepts="2" domain_bound="0" adjectives="0" abstract_words="1-[5-show-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="1.5" tot_pos="0.125" ratio_pos-negs="0.08333333333333333" positive_polar_words="[show]" abstract_eventiv_words="[show/5]">show ME HOW U WORK THAT / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_85">
-<sdivars id="85" tokens="9" mean_chars_leng="0" verbs="1" chunks="10" verb_preds="1" concepts="2" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.3333333333333333" tot_negs="3.3333333333333335" tot_pos="0.1" ratio_pos-negs="0.03" negative_affect_words="[HURT]" negative_polar_words="[HURT]">so I COULD MERK THAT , HURT THAT . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_86">
-<sdivars id="86" tokens="5" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.25" ratio_pos-negs="0.25">you SQURRT BACK / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_87">
-<sdivars id="87" tokens="5" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="3" domain_bound="3" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="3" tot_pos="0" ratio_pos-negs="3">im FREASH TO HEAVEN . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_88">
-<sdivars id="88" tokens="6" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="2" domain_bound="1" adjectives="1" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.6666666666666665" tot_pos="0" ratio_pos-negs="1.6666666666666665" negative_polar_words="[racks]" positive_polar_words="[DRESSED]" concrete_words="[racks/1]">im DRESSED IN RACKS / . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_89">
-<sdivars id="89" tokens="6" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="2" domain_bound="1" adjectives="2" abstract_words="1-[8-black-[estens]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.3333333333333333" tot_negs="1.1666666666666665" tot_pos="0" ratio_pos-negs="0.8333333333333333" negative_affect_words="[BLACK]" negative_polar_words="[BLACK]" positive_polar_words="[black]" abstract_eventiv_words="[black/8]">written BY   - A-THUG BLACK . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_90">
-<sdivars id="90" tokens="3" mean_chars_leng="0.8571428571428571" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.2916666666666667" positive_polar_words="[rolling]" concrete_words="[stones/1]">rolling STONES . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_91">
-<sdivars id="91" tokens="5" mean_chars_leng="1" verbs="0" chunks="4" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="3" tot_pos="0" ratio_pos-negs="2" positive_polar_words="[RIGHT]">2014 ALL RIGHT RESRVED . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="I GOT THE BANK Lyrics.txt_92">
-<sdivars id="92" tokens="4" mean_chars_leng="0.42857142857142855" verbs="1" chunks="5" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-produced-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="2" tot_pos="0.25" ratio_pos-negs="0.10294117647058823" positive_polar_words="[produced]" abstract_eventiv_words="[produced/5]">produced BY NATE . </sdivars>
+<sdivars id="27" tokens="8" mean_chars_leng="0" verbs="1" chunks="6" verb_preds="1" concepts="3" domain_bound="3" adjectives="1" abstract_words="2-[5-right-[astratto,evento,attivita],5-produced-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="4.125" tot_pos="0.29166666666666663" ratio_pos-negs="0.0707070707070707" positive_polar_words="[right,produced]" abstract_eventiv_words="[right/5,produced/5]">2014 , ALL RIGHT , RESRVED produced BY NATE _58958 </sdivars>
 </verse_sdi_var>
 </verse_sdi_vars>
 </semantic_density>

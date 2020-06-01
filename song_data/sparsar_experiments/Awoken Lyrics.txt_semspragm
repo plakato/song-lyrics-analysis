@@ -1,0 +1,65 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Awoken Lyrics.txt_1-1  []-positive  []
+Awoken Lyrics.txt_2-3  []-suspension  [fgb,neg,fgb,neg,fgb,fgb]
+Awoken Lyrics.txt_3-12  []-positive  []
+Awoken Lyrics.txt_4-17  []-suspension  [neg,neg]
+Awoken Lyrics.txt_5-25  []-negative  []
+Awoken Lyrics.txt_5-26  []-positive  []
+Awoken Lyrics.txt_6-32  []-suspension  []
+Awoken Lyrics.txt_6-33  []-positive  []
+Awoken Lyrics.txt_6-34  []-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Awoken Lyrics.txt_1-1  [awoken,Lyrics,by,WoodenToaster]  [title]
+Awoken Lyrics.txt_2-3  [what,cause,have,i,to,feel,glad,i,have,built,my,life,on,judgment,and,causing,pain,i,don-t,know,those,eyes,and,everything,i,have,known,have,been,thrown,away,i,see,in,the,bloodstained,chrome,and,with,time,.,,,now,everything,that,i,have,had]  [provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(build,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Awoken Lyrics.txt_3-12  [i,have,come,to,find,this]  [provide_expl_just(find,[external,factive,narration,background,objective])]
+Awoken Lyrics.txt_4-17  [my,i,home,?,is,not,have,stoked,the,fire,seen,more,pain,than,you,can,know]  [provide_expl_just(stoke,[internal,factive,narration,background,objective]),provide_expl_just(see,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(know,[internal,nonfactive,narration,background,objective])]
+Awoken Lyrics.txt_5-25  [the,tears,of,the,broken,have,washed]  [provide_expl_just(push,[external,factive,cause,foreground,objective])]
+Awoken Lyrics.txt_5-26  [away,my,soul,pushed]  [provide_expl_just(push,[external,factive,cause,foreground,objective])]
+Awoken Lyrics.txt_6-32  [by,desire,to,change,the,my,way,stream,will,flow,now]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(change,[external,factive,narration,background,objective])]
+Awoken Lyrics.txt_6-33  [i,have,awoken]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(change,[external,factive,narration,background,objective])]
+Awoken Lyrics.txt_6-34  [and,i,am,taking,back,control,,,woodentoaster]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(change,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Awoken Lyrics.txt_1-1)-[]
+2-(Awoken Lyrics.txt_2-3)-[secondary-abstract_tought,emotions-positive_affect,secondary-instru_behavior,secondary-abstract_tought,emotions-sadness,secondary-abstract_tought,primary-narcissism,secondary-abstract_tought,primary-ascend,primary-concreteness,primary-vision,secondary-temporal_repere,secondary-temporal_repere]
+3-(Awoken Lyrics.txt_3-12)-[secondary-instru_behavior]
+4-(Awoken Lyrics.txt_4-17)-[primary-fire,primary-vision,emotions-sadness,secondary-abstract_tought]
+half
+5-(Awoken Lyrics.txt_5-25)-[primary-orality,emotions-aggression,primary-water]
+6-(Awoken Lyrics.txt_5-26)-[primary-concreteness]
+7-(Awoken Lyrics.txt_6-32)-[primary-water,secondary-temporal_repere]
+8-(Awoken Lyrics.txt_6-33)-[]
+9-(Awoken Lyrics.txt_6-34)-[primary-concreteness,secondary-restraint]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Awoken Lyrics.txt_1,1,cl1-nil-nil-awake-[arg_mod-agent-WoodenToaster-sn2,subj-agent-Lyrics-sn1,def_prop(WoodenToaster,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Awoken Lyrics.txt_2,3,cl8-nil-nil-have-[subj-experiencer-have-sn1,subj-theme_bound-life-sn21,subj-tema_bound-life-sn14,subj-experiencer-i-sn12,xcomp-prop-glad-sn3,xcomp-purpose-feel-9,def_prop(have,[relat,sociale,umano]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(i,[umano]),def_prop(glad,[evaluative])])
+lf(Awoken Lyrics.txt_2,3,cl7-nil-nil-see-[])
+lf(Awoken Lyrics.txt_2,3,cl6-nil-nil-throw-[])
+lf(Awoken Lyrics.txt_2,3,cl5-not-nil-know-[adj-(mod)-now-nil,subj-actor-i-sn9,subj-actor-i-sn8,aux-have-nil,aux-do-nil,and(i,everything,sn8),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Awoken Lyrics.txt_2,3,cl4-nil-nil-build-[xcomp-agent-life-sn18,subj-agent-you-sn17,xcomp-prop-life-sn14,subj-agent-i-sn13,aux-have-nil,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(you,[umano]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(i,[umano])])
+lf(Awoken Lyrics.txt_2,3,cl3-nil-nil-feel-[cmod-coord-cause-nil,ncmod-modal-time-sn6,iobj-goal-chrome-sn5,and(chrome,bloodstained,sn5),def_prop(time,[tempo]),def_prop(chrome,[sostanza])])
+lf(Awoken Lyrics.txt_2,3,cl2-nil-nil-cause-[cmod-coord-know-1,obj-theme-everything-sn7,obj-tema_emot-i-sn4,obj-tema_eff-i-sn2,subj-causer-have-sn1,def_prop(everything,[astratto,informa,oggetto]),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(have,[relat,sociale,umano])])
+lf(Awoken Lyrics.txt_3,12,cl10-nil-nil-find-[obj-prop-this-sn2,xcomp-purpose-find-2,def_prop(this,[oggetto,umano])])
+lf(Awoken Lyrics.txt_3,12,cl9-nil-nil-come-[subj-agent-i-sn1,aux-have-nil,def_prop(i,[umano])])
+lf(Awoken Lyrics.txt_4,17,cl14-nil-can-know-[subj-actor-pro-nil,subj-actor-you-sn7,obj-theme-fire-sn2,xadj-result-stoke-3,def_prop(you,[umano]),def_prop(fire,[attivita,evento,informa,oggetto,sostanza,strumento])])
+lf(Awoken Lyrics.txt_4,17,cl13-nil-nil-see-[])
+lf(Awoken Lyrics.txt_4,17,cl12-nil-nil-stoke-[obj-result-pain-sn3,xcomp-purpose-see-4,aux-have-nil,def_prop(pain,[astratto,emotivo,stato,umano])])
+lf(Awoken Lyrics.txt_4,17,cl11-not-nil-be-[subj-theme_bound-home-sn1,def_prop(home,[luogo,oggetto,stato,strumento])])
+lf(Awoken Lyrics.txt_5,25,cl16-nil-nil-push-[subj-agent-you-sn3,ncmod-specif-break-sn2,def_prop(you,[umano]),def_prop(break,[attivita,evento])])
+lf(Awoken Lyrics.txt_5,25,cl15-nil-nil-wash-[subj-actor-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(Awoken Lyrics.txt_6,32,cl20-nil-nil-take-[cmod-subord-take-",adj-(mod)-back-nil,xcomp-prop-woodentoaster-sn10,subj-agent-i-sn9,arg_mod-agent-desire-sn2,aux-am-nil,progr-taking-nil,and(woodentoaster,control,sn10),def_prop(woodentoaster,[istituzione]),def_prop(i,[umano]),def_prop(desire,[astratto,emotivo,stato])])
+lf(Awoken Lyrics.txt_6,32,cl19-nil-nil-have-[xcomp-prop-awake-sn8,subj-experiencer-i-sn7,def_prop(awake,[evaluative]),def_prop(i,[umano])])
+lf(Awoken Lyrics.txt_6,32,cl18-nil-will-flow-[adj-(mod)-now-nil,subj-actor-stream-sn1,def_prop(stream,[oggetto,stato])])
+lf(Awoken Lyrics.txt_6,32,cl17-nil-nil-change-[subj-tema_aff-stream-sn1,def_prop(stream,[oggetto,stato])])

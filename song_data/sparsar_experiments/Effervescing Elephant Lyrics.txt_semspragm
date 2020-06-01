@@ -1,0 +1,118 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Effervescing Elephant Lyrics.txt_1-1  []-positive  []
+Effervescing Elephant Lyrics.txt_2-3  []-positive  [fgb,ass,neg,neg]
+Effervescing Elephant Lyrics.txt_3-7  [because-cause]-positive  [bkc,bkc]
+Effervescing Elephant Lyrics.txt_4-11  []-negative  [neg]
+Effervescing Elephant Lyrics.txt_4-12  []-positive  []
+Effervescing Elephant Lyrics.txt_5-17  []-suspension  [bkc,fgb]
+Effervescing Elephant Lyrics.txt_6-23  []-positive  [neg]
+Effervescing Elephant Lyrics.txt_6-24  []-suspension  [neg]
+Effervescing Elephant Lyrics.txt_6-25  []-suspension  [fgb]
+Effervescing Elephant Lyrics.txt_7-32  []-positive  []
+Effervescing Elephant Lyrics.txt_7-33  []-positive  []
+Effervescing Elephant Lyrics.txt_7-34  [so-result]-positive  [fgb]
+Effervescing Elephant Lyrics.txt_8-42  []-positive  []
+Effervescing Elephant Lyrics.txt_9-51  []-positive  [bkc,bkc,fgb]
+Effervescing Elephant Lyrics.txt_10-61  []-positive  []
+Effervescing Elephant Lyrics.txt_11-72  []-suspension  [fgb,neg,fgb]
+Effervescing Elephant Lyrics.txt_12-85  []-suspension  [fgb,neg,neg]
+Effervescing Elephant Lyrics.txt_12-86  []-positive  [bkc,bkc,fgb]
+Effervescing Elephant Lyrics.txt_13-102  []-positive  [neg]
+Effervescing Elephant Lyrics.txt_13-103  [because-cause,but-advers]-suspension  [fgb,fgb,fgb,neg,fgb,neg,neg,neg]
+Effervescing Elephant Lyrics.txt_14-124  []-negative  [fgb,neg]
+Effervescing Elephant Lyrics.txt_15-139  []-positive  [bkc,bkc]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Effervescing Elephant Lyrics.txt_1-1  [effervescing,Elephant,Lyrics,by,Syd,Barrett]  [title]
+Effervescing Elephant Lyrics.txt_2-3  [an,Effervescing,Elephant,with,tiny,eyes,and,great,big,trunk,once,whispered,to,the,tiny,ear,the,ear,of,one,inferior,that,by,next,June,he,had,die]  [accept_expl_opin(die,[external,factive,circumstance,background,objective])]
+Effervescing Elephant Lyrics.txt_3-7  [oh,yeah,because]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Effervescing Elephant Lyrics.txt_4-11  [the,tiger,would,roam,the,little]  [reject_expl_just(roam,[external,nonfactive,narration,background,objective]),reject_expl_just(say,[external,factive,narration,foreground,objective])]
+Effervescing Elephant Lyrics.txt_4-12  [one,said]  [provide_expl_just(roam,[external,nonfactive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Effervescing Elephant Lyrics.txt_5-17  [oh,my,goodness,i,must,stay,every,time,and,at_home]  [provide_expl_just(stay,[external,nonfactive,narration,foreground,objective])]
+Effervescing Elephant Lyrics.txt_6-23  [i,hear,a,growl]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(know,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Effervescing Elephant Lyrics.txt_6-24  [i,will,know,the,tiger-s,on,the,prowl]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(know,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Effervescing Elephant Lyrics.txt_6-25  [and,i,will,be,really,safe]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(know,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Effervescing Elephant Lyrics.txt_7-32  [you,know,the,elephant]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Effervescing Elephant Lyrics.txt_7-33  [he,told,me]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Effervescing Elephant Lyrics.txt_7-34  [so]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Effervescing Elephant Lyrics.txt_8-42  [everyone,was,nervy]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Effervescing Elephant Lyrics.txt_9-51  [oh,yeah,and]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Effervescing Elephant Lyrics.txt_10-61  [the,message,was,spread]  [raise_issue(be,[_250020,factive,statement,_250038,subjective])]
+Effervescing Elephant Lyrics.txt_11-72  [to,zebra,mongoose,and,the,dirty,hippopotamus,who,wallowed,in,the,mud,and,chewed,his]  [provide_expl_just(chew,[external,factive,narration,foreground,objective])]
+Effervescing Elephant Lyrics.txt_12-85  [Spicy,hippo-plankton,food,and,the,word,tended,to,ignore,preferring,to,survey,a,herd,of,stupid,water]  [provide_expl_just(tend,[external,factive,narration,foreground,objective]),provide_expl_just(survey,[external,factive,narration,background,objective]),provide_expl_just(prefer,[external,factive,narration,foreground,objective]),provide_expl_just(ignore,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Effervescing Elephant Lyrics.txt_12-86  [bison,oh,yeah,,,and]  [provide_expl_just(tend,[external,factive,narration,foreground,objective]),provide_expl_just(survey,[external,factive,narration,background,objective]),provide_expl_just(prefer,[external,factive,narration,foreground,objective]),provide_expl_just(ignore,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Effervescing Elephant Lyrics.txt_13-102  [all,the,jungle,took,fright]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(run,[external,factive,cause,foreground,objective]),provide_expl_just(see,[external,factive,narration,background,objective]),propose_opin_neg(come,[external,factive,result,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(hurt,[external,nonfactive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(prefer,[external,factive,cause,background,objective])]
+Effervescing Elephant Lyrics.txt_13-103  [and,ran,around,for,all,the,day,and,the,night,but,all,in,vain,because,you,see,the,tiger,came,and,said,who,me,you,know,i,would,not,hurt,,,not,one,of,you,i,had,much,prefer,something,to,chew]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(run,[external,factive,cause,foreground,objective]),provide_expl_just(see,[external,factive,narration,background,objective]),propose_opin_neg(come,[external,factive,result,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(hurt,[external,nonfactive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(prefer,[external,factive,cause,background,objective])]
+Effervescing Elephant Lyrics.txt_14-124  [and,you,are,scant,all_too]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Effervescing Elephant Lyrics.txt_15-139  [oh,yeah,he,ate,the,Elephant]  [provide_expl_just(eat,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Effervescing Elephant Lyrics.txt_1-1)-[]
+2-(Effervescing Elephant Lyrics.txt_2-3)-[primary-narcissism,emotions-glory,secondary-temporal_repere,primary-soft,primary-sound,primary-sound,primary-passivity]
+3-(Effervescing Elephant Lyrics.txt_3-7)-[]
+4-(Effervescing Elephant Lyrics.txt_4-11)-[primary-voyage]
+5-(Effervescing Elephant Lyrics.txt_4-12)-[secondary-social_behavior]
+6-(Effervescing Elephant Lyrics.txt_5-17)-[secondary-restraint,secondary-temporal_repere,secondary-temporal_repere]
+7-(Effervescing Elephant Lyrics.txt_6-23)-[primary-sound,emotions-aggression]
+8-(Effervescing Elephant Lyrics.txt_6-24)-[secondary-abstract_tought]
+9-(Effervescing Elephant Lyrics.txt_6-25)-[secondary-abstract_tought,primary-passivity]
+10-(Effervescing Elephant Lyrics.txt_7-32)-[secondary-abstract_tought]
+11-(Effervescing Elephant Lyrics.txt_7-33)-[secondary-social_behavior]
+half
+12-(Effervescing Elephant Lyrics.txt_7-34)-[]
+13-(Effervescing Elephant Lyrics.txt_8-42)-[]
+14-(Effervescing Elephant Lyrics.txt_9-51)-[]
+15-(Effervescing Elephant Lyrics.txt_10-61)-[secondary-social_behavior,primary-random_movement]
+16-(Effervescing Elephant Lyrics.txt_11-72)-[primary-anality,primary-anality,primary-orality]
+17-(Effervescing Elephant Lyrics.txt_12-85)-[primary-orality,secondary-abstract_tought,primary-vision,primary-water]
+18-(Effervescing Elephant Lyrics.txt_12-86)-[]
+19-(Effervescing Elephant Lyrics.txt_13-102)-[primary-chaos,emotions-anxiety]
+20-(Effervescing Elephant Lyrics.txt_13-103)-[primary-vision,secondary-social_behavior,secondary-abstract_tought,emotions-aggression,primary-orality]
+21-(Effervescing Elephant Lyrics.txt_14-124)-[primary-vision]
+22-(Effervescing Elephant Lyrics.txt_15-139)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Effervescing Elephant Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Barrett-sn2,subj-theme_bound-Lyrics-sn1,and(Barrett,Syd,sn2),and(Lyrics,Elephant,sn1),and(Lyrics,effervescing,sn1),def_prop(Barrett,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Effervescing Elephant Lyrics.txt_2,3,cl3-nil-nil-die-[aux-had-nil])
+lf(Effervescing Elephant Lyrics.txt_2,3,cl2-nil-nil-whisper-[cmod-coord-die-and,adj-(mod)-once-nil,iobj-goal-ear-sn8,subj-actor-trunk-sn7,and(ear,tiny,sn8),and(trunk,great,sn7),and(trunk,big,sn7),def_prop(ear,[astratto,body_part,plant,umano]),def_prop(trunk,[oggetto,plant,strumento])])
+lf(Effervescing Elephant Lyrics.txt_3,7,cl4-nil-nil-be-[subj-theme_bound-oh-sn1,def_prop(oh,[informa,tecno])])
+lf(Effervescing Elephant Lyrics.txt_4,11,cl6-nil-nil-say-[subj-actor-you-sn3,def_prop(you,[umano])])
+lf(Effervescing Elephant Lyrics.txt_4,11,cl5-nil-would-roam-[obj-location-little-sn2,subj-theme-tiger-sn1,def_prop(little,[astratto,informa,oggetto]),def_prop(tiger,[animato,umano])])
+lf(Effervescing Elephant Lyrics.txt_5,17,cl7-nil-must-stay-[coord-theme_unaff-time_and_at_home-sn5,obj-theme_unaff-at_home-sn4,obj-theme_unaff-time-sn3,subj-agent-i-sn2,subj-agent-i-sn1,and(i,oh,sn1),def_prop(time_and_at_home,[tempo,luogo,oggetto,stato,strumento]),def_prop(at_home,[tempo,luogo,oggetto,stato,strumento]),def_prop(time,[tempo,luogo,oggetto,stato,strumento]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Effervescing Elephant Lyrics.txt_6,23,cl10-nil-will-be-[cmod-subord-be-",adj-(mod)-really-nil,xcomp-prop-safe-sn7,subj-theme_bound-i-sn6,def_prop(safe,[emotivo]),def_prop(i,[umano])])
+lf(Effervescing Elephant Lyrics.txt_6,23,cl9-nil-will-know-[obj-theme_unaff-tiger-s-sn4,subj-actor-i-sn3,def_prop(tiger-s,[animato,umano]),def_prop(i,[umano])])
+lf(Effervescing Elephant Lyrics.txt_6,23,cl8-nil-nil-hear-[obj-theme_unaff-growl-sn2,subj-experiencer-i-sn1,def_prop(growl,[evento]),def_prop(i,[umano])])
+lf(Effervescing Elephant Lyrics.txt_7,32,cl13-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Effervescing Elephant Lyrics.txt_7,32,cl12-nil-nil-tell-[obj-theme_unaff-me-sn4,subj-agent-he-sn3,def_prop(me,[umano]),def_prop(he,[umano])])
+lf(Effervescing Elephant Lyrics.txt_7,32,cl11-nil-nil-know-[obj-theme_unaff-elephant-sn2,subj-actor-you-sn1,def_prop(elephant,[animato,attivita,informa,plant]),def_prop(you,[umano])])
+lf(Effervescing Elephant Lyrics.txt_8,42,cl14-nil-nil-be-[xcomp-prop-nervy-sn2,subj-theme_bound-everyone-sn1,def_prop(nervy,[evaluative]),def_prop(everyone,[umano])])
+lf(Effervescing Elephant Lyrics.txt_9,51,cl15-nil-nil-be-[subj-theme_bound-oh-sn1,def_prop(oh,[informa,tecno])])
+lf(Effervescing Elephant Lyrics.txt_10,61,cl16-nil-nil-spread-[subj-theme-you-sn1,aux-was-nil,def_prop(you,[umano])])
+lf(Effervescing Elephant Lyrics.txt_11,72,cl18-nil-nil-wallow-[iobj-goal-mud-sn4,subj-experiencer-hippopotamus-sn2,def_prop(mud,[attivita,informa,sostanza]),def_prop(hippopotamus,[animato])])
+lf(Effervescing Elephant Lyrics.txt_11,72,cl17-nil-nil-chew-[cmod-coord-chew-and,obj-theme-his-sn6,subj-agent-you-sn5,def_prop(his,[umano]),def_prop(you,[umano])])
+lf(Effervescing Elephant Lyrics.txt_12,85,cl23-nil-nil-be-[adj-(mod)-yeah-nil,xcomp-prop-oh-sn11,subj-theme_bound-bison-sn10,def_prop(oh,[informa,tecno]),def_prop(bison,[animato])])
+lf(Effervescing Elephant Lyrics.txt_12,85,cl22-nil-nil-survey-[])
+lf(Effervescing Elephant Lyrics.txt_12,85,cl21-nil-nil-prefer-[obj-location-herd-sn4,xcomp-purpose-survey-3,def_prop(herd,[istituzione])])
+lf(Effervescing Elephant Lyrics.txt_12,85,cl20-nil-nil-ignore-[])
+lf(Effervescing Elephant Lyrics.txt_12,85,cl19-nil-nil-tend-[coord-actor-food_and_word-sn3,subj-actor-word-sn2,subj-actor-food-sn1,def_prop(food_and_word,[any,astratto,edible,oggetto,attivita,informa,nquant]),def_prop(word,[any,astratto,edible,oggetto,attivita,informa,nquant]),def_prop(food,[any,astratto,edible,oggetto,attivita,informa,nquant])])
+lf(Effervescing Elephant Lyrics.txt_13,102,cl32-nil-nil-prefer-[])
+lf(Effervescing Elephant Lyrics.txt_13,102,cl31-nil-nil-have-[])
+lf(Effervescing Elephant Lyrics.txt_13,102,cl30-not-would-hurt-[])
+lf(Effervescing Elephant Lyrics.txt_13,102,cl29-nil-nil-know-[])
+lf(Effervescing Elephant Lyrics.txt_13,102,cl28-nil-nil-say-[cmod-subord-prefer-because,subj-agent-who-sn12,subj-agent-you-sn11,def_prop(who,[umano]),def_prop(you,[umano])])
+lf(Effervescing Elephant Lyrics.txt_13,102,cl27-nil-nil-come-[])
+lf(Effervescing Elephant Lyrics.txt_13,102,cl26-nil-nil-see-[subj-experiencer-you-sn10,subj-experiencer-you-sn9,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Effervescing Elephant Lyrics.txt_13,102,cl25-nil-nil-run-[adj-subj_disc-night-sn7,adj-subj_disc-day-sn6,adj-subj_disc-around-sn5,subj-theme_aff-all-sn4,and(day,all,sn6),def_prop(night,[tempo]),def_prop(day,[tempo]),def_prop(around,[]),def_prop(all,[_272780])])
+lf(Effervescing Elephant Lyrics.txt_13,102,cl24-nil-nil-take-[obj-theme_aff-fright-sn2,subj-agent-jungle-sn1,and(jungle,all,sn1),def_prop(fright,[emotivo]),def_prop(jungle,[luogo,oggetto])])
+lf(Effervescing Elephant Lyrics.txt_14,124,cl33-nil-nil-be-[cmod-subord-be-",xcomp-prop-scant-sn2,subj-theme_bound-you-sn1,def_prop(scant,[evaluative]),def_prop(you,[umano])])
+lf(Effervescing Elephant Lyrics.txt_15,139,cl34-nil-nil-eat-[obj-theme_unaff-Elephant-sn3,subj-agent-he-sn2,subj-agent-he-sn1,and(he,oh,sn1),def_prop(Elephant,[istituzione,umano]),def_prop(he,[umano]),def_prop(he,[umano])])

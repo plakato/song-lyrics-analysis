@@ -1,181 +1,70 @@
 "POLARITY, DISCOURSE MARKERS"
 
 1974 Lyrics.txt_1-1  []-positive  []
-1974 Lyrics.txt_2-3  []-negative  [neg]
-1974 Lyrics.txt_3-6  []-positive  [fgb]
-1974 Lyrics.txt_4-10  []-positive  [fhd]
-1974 Lyrics.txt_4-11  []-negative  [neg,fgb]
-1974 Lyrics.txt_5-16  []-positive  [fgb]
-1974 Lyrics.txt_6-23  [(as)-temp_coinc]-negative  [neg]
+1974 Lyrics.txt_2-3  []-positive  []
+1974 Lyrics.txt_2-4  []-negative  [fgb,neg,fgb]
+1974 Lyrics.txt_3-8  [but-advers]-positive  [fgb]
+1974 Lyrics.txt_3-8  [but-advers]-suspension  [fgb]
+1974 Lyrics.txt_4-12  []-negative  [fhd,neg]
+1974 Lyrics.txt_5-17  []-positive  []
+1974 Lyrics.txt_6-23  []-negative  [neg]
 1974 Lyrics.txt_7-30  []-positive  []
-1974 Lyrics.txt_8-38  []-positive  [fhd]
-1974 Lyrics.txt_9-47  []-positive  []
-1974 Lyrics.txt_10-57  []-suspension  [neg,neg,neg]
-1974 Lyrics.txt_11-68  []-negative  [neg]
-1974 Lyrics.txt_12-80  []-negative  []
-1974 Lyrics.txt_13-93  []-negative  [neg]
-1974 Lyrics.txt_14-107  []-positive  [fgb]
-1974 Lyrics.txt_14-108  [when-temp_coinc]-positive  [fhd,neg]
-1974 Lyrics.txt_15-122  []-negative  [fgb,neg]
-1974 Lyrics.txt_15-123  []-positive  []
-1974 Lyrics.txt_15-124  [before-temp_prec]-positive  []
-1974 Lyrics.txt_16-139  []-positive  [fhd]
-1974 Lyrics.txt_17-156  []-positive  []
-1974 Lyrics.txt_18-174  []-positive  [fhd]
-1974 Lyrics.txt_19-193  []-positive  []
-1974 Lyrics.txt_20-213  []-positive  [fhd]
-1974 Lyrics.txt_21-234  []-positive  []
-1974 Lyrics.txt_22-256  []-positive  [fhd]
-1974 Lyrics.txt_23-279  []-positive  []
-1974 Lyrics.txt_24-303  []-positive  []
-1974 Lyrics.txt_25-331  []-positive  []
-1974 Lyrics.txt_26-360  []-negative  [neg,neg]
-1974 Lyrics.txt_26-361  []-positive  []
-1974 Lyrics.txt_27-389  [but-advers]-negative  [fgb,neg]
-1974 Lyrics.txt_28-417  []-positive  []
-1974 Lyrics.txt_29-448  []-positive  []
-1974 Lyrics.txt_30-481  []-positive  []
-1974 Lyrics.txt_31-512  []-positive  []
-1974 Lyrics.txt_32-544  []-positive  []
-1974 Lyrics.txt_33-577  []-positive  []
+1974 Lyrics.txt_7-31  []-positive  [fgb]
+1974 Lyrics.txt_8-39  []-negative  [neg]
+1974 Lyrics.txt_8-40  []-positive  [neg]
+1974 Lyrics.txt_8-41  []-positive  []
 
 
 
 "ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
 
-1974 Lyrics.txt_1-1  [1974,Lyrics,by,Ryan,Adams]  [title]
-1974 Lyrics.txt_2-3  [the,sun,is,shining,hard,at,my,feet]  [reject_expl_just(shine,[external,factive,narration,foreground,objective])]
-1974 Lyrics.txt_3-6  [and,the,city,is,an,animal,ready,to,eat]  [provide_expl_just(be,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_4-10  [it,is,raining,like]  [provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(bleed,[external,factive,narration,foreground,objective])]
-1974 Lyrics.txt_4-11  [a,nose,bleed,cigarettes,and,sweets]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),reject_expl_just(bleed,[external,factive,narration,foreground,objective])]
-1974 Lyrics.txt_5-16  [and,i,feel,it,coming,on]  [proposal(be,[_710646,_710652,statement,foreground,_710670])]
-1974 Lyrics.txt_6-23  [bloody,as,the,day,i,was,born]  [reject_expl_just(bear,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_7-30  [it,is,1974]  [provide_expl_just(be,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_8-38  [just,like,the,day,i,was,born]  [provide_expl_just(bear,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_9-47  [it,is,1974]  [provide_expl_just(be,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_10-57  [she,is,not,crazy,not]  [provide_expl_just(be,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_11-68  [she,is,not,just,impressed]  [reject_expl_just(be,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_12-80  [she,stabs,me,with,her,eyes]  [provide_expl_just(stab,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_13-93  [dirty,knives,hidden,in,her,dress]  [reject_expl_just(hide,[external,factive,narration,foreground,objective])]
-1974 Lyrics.txt_14-107  [and,it,is,raining]  [provide_expl_just(be,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_14-108  [like,bombs,in,my,room,when,i,am,alone]  [provide_expl_just(be,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_15-122  [and,i,swear]  [reject_expl_just(know,[external,factive,cause,foreground,objective])]
-1974 Lyrics.txt_15-123  [i,think]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_719938)]
-1974 Lyrics.txt_15-124  [i,knew,you,before]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_724322)]
-1974 Lyrics.txt_16-139  [just,like,the,day,i,was,born]  [provide_expl_just(bear,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_17-156  [it,is,1974]  [provide_expl_just(be,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_18-174  [just,like,the,day,i,was,born]  [provide_expl_just(bear,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_19-193  [it,is,1974]  [provide_expl_just(be,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_20-213  [just,like,the,day,i,was,born]  [provide_expl_just(bear,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_21-234  [it,is,1974]  [provide_expl_just(be,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_22-256  [just,like,the,day,i,was,born]  [provide_expl_just(bear,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_23-279  [it,is,1974]  [provide_expl_just(be,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_24-303  [do,you,want,it,do,you,want,it,do,you,want,it,,,come,on]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(come,[external,factive,result,background,objective])]
-1974 Lyrics.txt_25-331  [do,you,want,it,do,you,want,it,,,come,on,just,bring,it,on]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(bring,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_26-360  [nothing,gonna,stop]  [reject_expl_just(gonna,[external,factive,narration,background,objective]),reject_expl_just(stop,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_26-361  [it,now]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(stop,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_27-389  [but,nothing]  reject_expl_opin(nil,[])
-1974 Lyrics.txt_28-417  [do,you,want,it,,,come,on]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(come,[external,factive,result,background,objective])]
-1974 Lyrics.txt_29-448  [do,you,want,it,do,you,want,it,,,come,on,just,bring,it,on]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(bring,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_30-481  [it,is,1974]  [provide_expl_just(be,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_31-512  [it,is,1974]  [provide_expl_just(be,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_32-544  [it,is,1974]  [provide_expl_just(be,[external,factive,narration,background,objective])]
-1974 Lyrics.txt_33-577  [it,is,1974]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+1974 Lyrics.txt_1-1  [1974,Lyrics,by,Amy,grant]  [title]
+1974 Lyrics.txt_2-3  [we,were,young]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,background,objective])]
+1974 Lyrics.txt_2-4  [and,,,none,of,us,know,quite,what,to,say]  [reject_expl_just(be,[external,factive,narration,foreground,objective]),reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(say,[external,factive,narration,background,objective])]
+1974 Lyrics.txt_3-8  [but,the,feeling,moved,among,us]  [provide_expl_just(move,[external,factive,adverse,foreground,objective])]
+1974 Lyrics.txt_3-8  [but,the,feeling,moved,among,us,in,silence]  [provide_expl_just(move,[external,factive,adverse,foreground,objective])]
+1974 Lyrics.txt_4-12  [anyway,,,slowly,we,had,made,quite_a,change]  [reject_expl_just(make,[external,factive,narration,background,objective])]
+1974 Lyrics.txt_5-17  [-,somewhere]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+1974 Lyrics.txt_6-23  [we,had,crossed,a,big,line,down,upon,our,knees]  [reject_expl_just(cross,[external,factive,narration,background,objective])]
+1974 Lyrics.txt_7-30  [we,had,tasted,holy,wine]  [provide_expl_just(taste,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+1974 Lyrics.txt_7-31  [and]  [provide_expl_just(taste,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+1974 Lyrics.txt_8-39  [one,no,could,sway,us,in,a,life,time,purer,than,the,sky,behind]  [reject_expl_just(sway,[external,nonfactive,narration,background,objective]),reject_expl_just(fall,[external,factive,cause,foreground,objective])]
+1974 Lyrics.txt_8-40  [,,the,rain,falling,down,all,around,us,calling,out,from,a,boundless,love]  [provide_expl_just(sway,[external,nonfactive,narration,background,objective]),provide_expl_just(fall,[external,factive,cause,foreground,objective]),suggest(fall,[external,factive,cause,foreground,objective])]
+1974 Lyrics.txt_8-41  [love,had,lit,a,fire]  [provide_expl_just(sway,[external,nonfactive,narration,background,objective]),provide_expl_just(fall,[external,factive,cause,foreground,objective]),suggest(fall,[external,factive,cause,foreground,objective])]
 
 
 
 "RID - REGRESSIVE IMAGERY DICTIONARY"
 
-1-(1974 Lyrics.txt_1-1)-[]
-2-(1974 Lyrics.txt_2-3)-[primary-fire,primary-hard,primary-concreteness,primary-narcissism]
-3-(1974 Lyrics.txt_3-6)-[primary-orality]
-4-(1974 Lyrics.txt_4-10)-[emotions-affection]
-5-(1974 Lyrics.txt_4-11)-[primary-odor,primary-taste]
-6-(1974 Lyrics.txt_5-16)-[]
-7-(1974 Lyrics.txt_6-23)-[emotions-aggression]
-8-(1974 Lyrics.txt_7-30)-[]
-9-(1974 Lyrics.txt_8-38)-[emotions-affection]
-10-(1974 Lyrics.txt_9-47)-[]
-11-(1974 Lyrics.txt_10-57)-[primary-counscious]
-12-(1974 Lyrics.txt_11-68)-[primary-gen_sensation]
-13-(1974 Lyrics.txt_12-80)-[emotions-aggression,primary-narcissism]
-14-(1974 Lyrics.txt_13-93)-[primary-anality,emotions-aggression]
-15-(1974 Lyrics.txt_14-107)-[]
-16-(1974 Lyrics.txt_14-108)-[emotions-affection,secondary-temporal_repere]
-17-(1974 Lyrics.txt_15-122)-[]
-18-(1974 Lyrics.txt_15-123)-[secondary-abstract_tought]
-19-(1974 Lyrics.txt_15-124)-[secondary-abstract_tought]
+1-(1974 Lyrics.txt_1-1)-[secondary-social_behavior]
+2-(1974 Lyrics.txt_2-3)-[]
+3-(1974 Lyrics.txt_2-4)-[secondary-abstract_tought,secondary-social_behavior]
+4-(1974 Lyrics.txt_3-8)-[primary-concreteness]
+5-(1974 Lyrics.txt_3-8)-[primary-concreteness,primary-passivity]
+6-(1974 Lyrics.txt_4-12)-[primary-passivity,primary-counscious]
 half
-20-(1974 Lyrics.txt_16-139)-[emotions-affection]
-21-(1974 Lyrics.txt_17-156)-[]
-22-(1974 Lyrics.txt_18-174)-[emotions-affection]
-23-(1974 Lyrics.txt_19-193)-[]
-24-(1974 Lyrics.txt_20-213)-[emotions-affection]
-25-(1974 Lyrics.txt_21-234)-[]
-26-(1974 Lyrics.txt_22-256)-[emotions-affection]
-27-(1974 Lyrics.txt_23-279)-[]
-28-(1974 Lyrics.txt_24-303)-[]
-29-(1974 Lyrics.txt_25-331)-[]
-30-(1974 Lyrics.txt_26-360)-[secondary-restraint]
-31-(1974 Lyrics.txt_26-361)-[secondary-temporal_repere]
-32-(1974 Lyrics.txt_27-389)-[]
-33-(1974 Lyrics.txt_28-417)-[]
-34-(1974 Lyrics.txt_29-448)-[]
-35-(1974 Lyrics.txt_30-481)-[]
-36-(1974 Lyrics.txt_31-512)-[]
-37-(1974 Lyrics.txt_32-544)-[]
-38-(1974 Lyrics.txt_33-577)-[]
+7-(1974 Lyrics.txt_5-17)-[primary-concreteness]
+8-(1974 Lyrics.txt_6-23)-[primary-brink,primary-narcissism]
+9-(1974 Lyrics.txt_7-30)-[primary-taste,secondary-instru_behavior]
+10-(1974 Lyrics.txt_7-31)-[]
+11-(1974 Lyrics.txt_8-39)-[primary-random_movement,secondary-temporal_repere,primary-height,primary-concreteness]
+12-(1974 Lyrics.txt_8-40)-[primary-water,primary-concreteness,primary-unknow,emotions-affection]
+13-(1974 Lyrics.txt_8-41)-[emotions-affection,primary-fire,primary-fire]
 
 
 
 "LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
 
-lf(1974 Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Adams-sn2,subj-theme_bound-Lyrics-sn1,and(Adams,Ryan,sn2),def_prop(Adams,[place,oggetto,umano]),def_prop(Lyrics,[informa,tecno])])
-lf(1974 Lyrics.txt_2,3,cl2-nil-nil-shine-[adj-(mod)-hard-nil,ncmod-locativo-foot-sn2,subj-theme-sun-sn1,aux-(is)-nil,progr-shining-nil,def_prop(foot,[animato,attivita,body_part,luogo,nquant,oggetto,strumento,umano]),def_prop(sun,[oggetto,umano])])
-lf(1974 Lyrics.txt_3,6,cl3-nil-nil-be-[xcomp-prop-ready-sn3,xcomp-prop-animal-sn2,subj-theme_bound-city-sn1,def_prop(ready,[telico]),def_prop(animal,[any]),def_prop(city,[istituzione,luogo])])
-lf(1974 Lyrics.txt_4,10,cl5-nil-nil-bleed-[subj-agent-nose-sn3,def_prop(nose,[astratto,body_part,nquant,oggetto,strumento,umano])])
-lf(1974 Lyrics.txt_4,10,cl4-nil-nil-be-[xcomp-prop-raining-sn2,subj-theme_bound-it-sn1,def_prop(raining,[evaluative]),def_prop(it,[any])])
-lf(1974 Lyrics.txt_5,16,cl7-nil-nil-come-[cmod-subord-come-"])
-lf(1974 Lyrics.txt_5,16,cl6-nil-nil-feel-[subj-experiencer-it-sn2,subj-experiencer-it-sn1,and(it,i,sn1),def_prop(it,[any]),def_prop(it,[any])])
-lf(1974 Lyrics.txt_6,23,cl8-nil-nil-bear-[subj-goal-i-sn1,aux-was-nil,def_prop(i,[umano])])
-lf(1974 Lyrics.txt_7,30,cl9-nil-nil-be-[xcomp-prop-1974-sn2,subj-theme_bound-it-sn1,def_prop(1974,[date,tempo]),def_prop(it,[any])])
-lf(1974 Lyrics.txt_8,38,cl10-nil-nil-bear-[subj-goal-i-sn1,aux-was-nil,def_prop(i,[umano])])
-lf(1974 Lyrics.txt_9,47,cl11-nil-nil-be-[xcomp-prop-1974-sn2,subj-theme_bound-it-sn1,def_prop(1974,[date,tempo]),def_prop(it,[any])])
-lf(1974 Lyrics.txt_10,57,cl12-not-nil-be-[xcomp-prop-crazy-sn2,subj-theme_bound-she-sn1,def_prop(crazy,[valutativo]),def_prop(she,[umano])])
-lf(1974 Lyrics.txt_11,68,cl13-nil-nil-be-[subj-theme_bound-she-sn1,def_prop(she,[umano])])
-lf(1974 Lyrics.txt_12,80,cl14-nil-nil-stab-[ncmod-comitativo-eye-sn3,obj-patient-me-sn2,subj-agent-she-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(me,[umano]),def_prop(she,[umano])])
-lf(1974 Lyrics.txt_13,93,cl15-nil-nil-hide-[ncmod-locativo-dress-sn2,subj-agent-knives-sn1,and(knives,dirty,sn1),def_prop(dress,[oggetto,strumento]),def_prop(knives,[istituzione])])
-lf(1974 Lyrics.txt_14,107,cl16-nil-nil-be-[cmod-subord-be-when,xcomp-prop-alone-sn8,subj-theme_bound-i-sn7,ncmod-locativo-room-sn4,cmod-subord-be-",xcomp-prop-raining-sn2,subj-theme_bound-it-sn1,def_prop(alone,[valutativo]),def_prop(i,[umano]),def_prop(room,[nquant,oggetto,stato,strumento]),def_prop(raining,[evaluative]),def_prop(it,[any])])
-lf(1974 Lyrics.txt_15,122,cl19-nil-nil-know-[adj-(mod)-before-nil,subj-actor-you-sn4,subj-actor-you-sn3,cmod-subord-know-",and(you,i,sn3),def_prop(you,[umano]),def_prop(you,[umano])])
-lf(1974 Lyrics.txt_15,122,cl18-nil-nil-think-[ccomp-prop-know-cl19,subj-agent-i-sn2,def_prop(i,[umano])])
-lf(1974 Lyrics.txt_15,122,cl17-nil-nil-swear-[subj-agent-you-sn1,def_prop(you,[umano])])
-lf(1974 Lyrics.txt_16,139,cl20-nil-nil-bear-[subj-goal-i-sn1,aux-was-nil,def_prop(i,[umano])])
-lf(1974 Lyrics.txt_17,156,cl21-nil-nil-be-[xcomp-prop-1974-sn2,subj-theme_bound-it-sn1,def_prop(1974,[date,tempo]),def_prop(it,[any])])
-lf(1974 Lyrics.txt_18,174,cl22-nil-nil-bear-[subj-goal-i-sn1,aux-was-nil,def_prop(i,[umano])])
-lf(1974 Lyrics.txt_19,193,cl23-nil-nil-be-[xcomp-prop-1974-sn2,subj-theme_bound-it-sn1,def_prop(1974,[date,tempo]),def_prop(it,[any])])
-lf(1974 Lyrics.txt_20,213,cl24-nil-nil-bear-[subj-goal-i-sn1,aux-was-nil,def_prop(i,[umano])])
-lf(1974 Lyrics.txt_21,234,cl25-nil-nil-be-[xcomp-prop-1974-sn2,subj-theme_bound-it-sn1,def_prop(1974,[date,tempo]),def_prop(it,[any])])
-lf(1974 Lyrics.txt_22,256,cl26-nil-nil-bear-[subj-goal-i-sn1,aux-was-nil,def_prop(i,[umano])])
-lf(1974 Lyrics.txt_23,279,cl27-nil-nil-be-[xcomp-prop-1974-sn2,subj-theme_bound-it-sn1,def_prop(1974,[date,tempo]),def_prop(it,[any])])
-lf(1974 Lyrics.txt_24,303,cl30-nil-nil-come-[subj-agent-you-sn1,def_prop(you,[umano])])
-lf(1974 Lyrics.txt_24,303,cl29-nil-nil-want-[])
-lf(1974 Lyrics.txt_24,303,cl28-nil-nil-do-[xcomp-theme-it-sn6,xcomp-theme-you-sn5,xcomp-theme-it-sn4,xcomp-tema_unaff-you-sn3,subj-result-it-sn2,xcomp-purpose-want-7,subj-theme_unaff-you-sn1,aux-do-nil,def_prop(it,[any]),def_prop(you,[umano]),def_prop(it,[any]),def_prop(you,[umano]),def_prop(it,[any]),def_prop(you,[umano])])
-lf(1974 Lyrics.txt_25,331,cl34-nil-nil-bring-[])
-lf(1974 Lyrics.txt_25,331,cl33-nil-nil-come-[expl-it-nil,subj-result-it-sn5,xcomp-prop-bring-5,subj-agent-you-sn1,def_prop(it,[any]),def_prop(you,[umano])])
-lf(1974 Lyrics.txt_25,331,cl32-nil-nil-want-[])
-lf(1974 Lyrics.txt_25,331,cl31-nil-nil-do-[xcomp-theme-it-sn4,xcomp-tema_unaff-you-sn3,subj-result-it-sn2,xcomp-purpose-want-5,subj-theme_unaff-you-sn1,aux-do-nil,def_prop(it,[any]),def_prop(you,[umano]),def_prop(it,[any]),def_prop(you,[umano])])
-lf(1974 Lyrics.txt_26,360,cl36-nil-nil-be-[adj-(mod)-now-nil,subj-theme_bound-it-sn2,def_prop(it,[any])])
-lf(1974 Lyrics.txt_26,360,cl35-nil-nil-stop-[subj-actor-nothing-sn1,def_prop(nothing,[astratto,informa,oggetto])])
-lf(1974 Lyrics.txt_26,360,nil-nil-nil-gonna-[subj-agent-nothing-sn1,def_prop(nothing,[astratto,informa,oggetto])])
-lf(1974 Lyrics.txt_27,389,cl37-nil-nil-say-[obj-theme_unaff-nothing-sn1,def_prop(nothing,[astratto,informa,oggetto])])
-lf(1974 Lyrics.txt_28,417,cl40-nil-nil-come-[obj-prop-it-sn2,xcomp-purpose-want-2,def_prop(it,[any])])
-lf(1974 Lyrics.txt_28,417,cl39-nil-nil-want-[])
-lf(1974 Lyrics.txt_28,417,cl38-nil-nil-do-[subj-theme_unaff-you-sn1,aux-do-nil,def_prop(you,[umano])])
-lf(1974 Lyrics.txt_29,448,cl44-nil-nil-bring-[])
-lf(1974 Lyrics.txt_29,448,cl43-nil-nil-come-[expl-it-nil,subj-result-it-sn5,xcomp-prop-bring-5,subj-agent-you-sn1,def_prop(it,[any]),def_prop(you,[umano])])
-lf(1974 Lyrics.txt_29,448,cl42-nil-nil-want-[])
-lf(1974 Lyrics.txt_29,448,cl41-nil-nil-do-[xcomp-theme-it-sn4,xcomp-tema_unaff-you-sn3,subj-result-it-sn2,xcomp-purpose-want-5,subj-theme_unaff-you-sn1,aux-do-nil,def_prop(it,[any]),def_prop(you,[umano]),def_prop(it,[any]),def_prop(you,[umano])])
-lf(1974 Lyrics.txt_30,481,cl45-nil-nil-be-[xcomp-prop-1974-sn2,subj-theme_bound-it-sn1,def_prop(1974,[date,tempo]),def_prop(it,[any])])
-lf(1974 Lyrics.txt_31,512,cl46-nil-nil-be-[xcomp-prop-1974-sn2,subj-theme_bound-it-sn1,def_prop(1974,[date,tempo]),def_prop(it,[any])])
-lf(1974 Lyrics.txt_32,544,cl47-nil-nil-be-[xcomp-prop-1974-sn2,subj-theme_bound-it-sn1,def_prop(1974,[date,tempo]),def_prop(it,[any])])
-lf(1974 Lyrics.txt_33,577,cl48-nil-nil-be-[xcomp-prop-1974-sn2,subj-theme_bound-it-sn1,def_prop(1974,[date,tempo]),def_prop(it,[any])])
+lf(1974 Lyrics.txt_1,1,cl1-nil-nil-grant-[arg_mod-agent-Amy-sn2,subj-goal-Lyrics-sn1,def_prop(Amy,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(1974 Lyrics.txt_2,3,cl4-nil-nil-say-[cmod-subord-say-"])
+lf(1974 Lyrics.txt_2,3,cl3-nil-nil-know-[subj-actor-none-sn3,def_prop(none,[_49694])])
+lf(1974 Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-young-sn2,subj-theme_bound-we-sn1,def_prop(young,[valutativo]),def_prop(we,[umano])])
+lf(1974 Lyrics.txt_3,8,cl5-nil-nil-move-[cmod-subord-move-but,ncmod-locativo-silence-sn5,ncmod-relation-us-sn4,subj-theme-feel-sn3,ncmod-relation-us-sn2,subj-theme-feel-sn1,def_prop(silence,[astratto,stato]),def_prop(us,[umano]),def_prop(feel,[astratto,attivita]),def_prop(us,[umano]),def_prop(feel,[astratto,attivita])])
+lf(1974 Lyrics.txt_4,12,cl6-nil-nil-make-[subj-agent-we-sn1,aux-had-nil,def_prop(we,[umano])])
+lf(1974 Lyrics.txt_5,17,cl7-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(1974 Lyrics.txt_6,23,cl8-nil-nil-cross-[ncmod-subj_disc-knee-sn4,xcomp-prop-down-sn3,obj-goal-line-sn2,subj-agent-we-sn1,aux-had-nil,and(line,big,sn2),def_prop(knee,[body_part,oggetto,strumento,umano]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(line,[astratto,attivita,cambia,informa,luogo,oggetto,strumento]),def_prop(we,[umano])])
+lf(1974 Lyrics.txt_7,30,cl10-nil-nil-be-[])
+lf(1974 Lyrics.txt_7,30,cl9-nil-nil-taste-[xcomp-tema_emot-wine-sn2,subj-theme_bound-we-sn1,aux-had-nil,and(wine,holy,sn2),def_prop(wine,[astratto,edible,oggetto]),def_prop(we,[umano])])
+lf(1974 Lyrics.txt_8,39,cl13-nil-nil-light-[obj-theme-fire-sn14,subj-actor-love-sn13,aux-had-nil,def_prop(fire,[attivita,evento,informa,oggetto,sostanza,strumento]),def_prop(love,[astratto,emotivo,nquant])])
+lf(1974 Lyrics.txt_8,39,cl12-nil-nil-fall-[adj-locative-out-nil,adj-locative-around-nil,xadj-result-call-2,obj-theme_aff-us-sn9,obj-theme_aff-all-sn8,subj-agent-rain-sn7,and(all,down,sn8),def_prop(us,[umano]),def_prop(all,[_51110]),def_prop(rain,[astratto,attivita,cambia,sostanza])])
+lf(1974 Lyrics.txt_8,39,cl11-nil-could-sway-[xadj-adj-purer-adj1,adj-locative-time-nil,iobj-goal-life-sn3,obj-theme-us-sn2,subj-agent-no-sn1,and(no,one,sn1),def_prop(purer,_51306),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(us,[umano]),def_prop(no,[istituzione])])

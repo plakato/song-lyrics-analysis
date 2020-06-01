@@ -1,250 +1,172 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <semantic_density>
 
-<text_level_sdis id="outs/'C Run Run Lyrics.txt'" general_sdi="1.9036303402144912" mean_char_leng="0.44889516362946613" propositional_negs="4" negative_sentiment_words="20" positive_sentiment_words="55" deep_conceptual_index="135.10493827160494" token_rare_words_ratio="0.08695652173913043" token_type_ratio="0.2326086956521739" RID_category_ratio="[17-primary/0.40476190476190477,[affection,aggression,aggression,brink-passage,brink-passage,concreteness,concreteness,concreteness,depth,glory,glory,glory,glory,glory,glory,glory,glory,glory,instru_behavior,orality,passivity,positive_affect,random_movement,random_movement,random_movement,random_movement,random_movement,random_movement,random_movement,random_movement,restraint,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,voyage]]" semantic_cohesion="0"></text_level_sdis>
-<verse_sdi_vars ids="81">
+<text_level_sdis id="outs/'C Run Run Lyrics.txt'" general_sdi="2.035120745051636" mean_char_leng="0.4933090380622027" propositional_negs="3" negative_sentiment_words="19" positive_sentiment_words="54" deep_conceptual_index="227.77777777777777" token_rare_words_ratio="0.09259259259259259" token_type_ratio="0.24537037037037038" RID_category_ratio="[17-primary/0.4146341463414634,[affection,aggression,aggression,brink-passage,brink-passage,concreteness,concreteness,concreteness,depth,glory,glory,glory,glory,glory,glory,glory,glory,glory,instru_behavior,orality,passivity,positive_affect,random_movement,random_movement,random_movement,random_movement,random_movement,random_movement,random_movement,random_movement,restraint,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,temporal_repere,voyage]]" semantic_cohesion="0"></text_level_sdis>
+<verse_sdi_vars ids="55">
 <verse_sdi_var id="C Run Run Lyrics.txt_1">
 <sdivars id="1" tokens="9" mean_chars_leng="0" verbs="2" chunks="7" verb_preds="1" concepts="4" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0.25" tot_negs="1.25" tot_pos="0.14285714285714285" ratio_pos-negs="0.11428571428571428" positive_polar_words="[Crown]">c Run Run Lyrics by Two Crown King . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_2">
-<sdivars id="2" tokens="19" mean_chars_leng="2.4285714285714284" verbs="8" chunks="23" verb_preds="3" concepts="0" domain_bound="0" adjectives="0" abstract_words="4-[5-going-[astratto,evento,attivita],5-take-[astratto,evento,attivita],3-get-[abstract,time,attivita,evento],3-get-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="5" tot_pos="0.13043478260869565" ratio_pos-negs="0.017558528428093644" negative_polar_words="[get,get]" abstract_eventiv_words="[going/5,take/5,get/3,get/3]">i-m going to take what I can get when I can get it while there-s more . </sdivars>
+<sdivars id="2" tokens="26" mean_chars_leng="1.5" verbs="9" chunks="28" verb_preds="4" concepts="2" domain_bound="2" adjectives="0" abstract_words="6-[5-going-[astratto,evento,attivita],5-take-[astratto,evento,attivita],3-get-[abstract,time,attivita,evento],3-get-[abstract,time,attivita,evento],3-funk-[stato],0-functions-[abstract,stato]]/1" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="5" tot_pos="0.14285714285714285" ratio_pos-negs="0.021978021978021976" negative_polar_words="[get,get]" positive_polar_words="[push,family,functions]" abstract_eventiv_words="[going/5,take/5,get/3,get/3,funk/3,functions/0]" concrete_words="[family/1]">i-m going to take what I can get when I can get it while there-s more i push the funk at family functions . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_3">
-<sdivars id="3" tokens="8" mean_chars_leng="0.8888888888888888" verbs="1" chunks="6" verb_preds="1" concepts="2" domain_bound="2" adjectives="0" abstract_words="2-[3-funk-[stato],0-functions-[abstract,stato]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.1875" positive_polar_words="[push,family,functions]" abstract_eventiv_words="[funk/3,functions/0]" concrete_words="[family/1]">i push the funk at family functions . </sdivars>
+<sdivars id="3" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0">It . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_4">
-<sdivars id="4" tokens="7" mean_chars_leng="0" verbs="1" chunks="6" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[3-let-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.14285714285714285" ratio_pos-negs="0.14285714285714285" negative_affect_words="[never]" negative_polar_words="[never,never,let]" abstract_eventiv_words="[let/3]">It never let me down before . </sdivars>
+<sdivars id="4" tokens="12" mean_chars_leng="0.75" verbs="3" chunks="8" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="3-[3-let-[abstract,time,attivita,evento],0-supersede-[abstract,stato],8-pretext-[attivita,informa]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0.125" ratio_pos-negs="0.045454545454545456" negative_polar_words="[let,pretext]" abstract_eventiv_words="[let/3,supersede/0,pretext/8]">Never let me down before well you can supersede the pretext . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_5">
-<sdivars id="5" tokens="7" mean_chars_leng="0.4375" verbs="2" chunks="6" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="2-[0-supersede-[abstract,stato],8-pretext-[attivita,informa]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.11594202898550723" negative_polar_words="[pretext]" abstract_eventiv_words="[supersede/0,pretext/8]">well you can supersede the pretext . </sdivars>
+<sdivars id="5" tokens="6" mean_chars_leng="0.8571428571428571" verbs="1" chunks="7" verb_preds="0" concepts="2" domain_bound="1" adjectives="1" abstract_words="3-[1-one-s-[astratto,nquant],3-keeping-[abstract,time,attivita,evento],12-score-[astratto,attivita,informa,nquant,stato]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1.6666666666666665" tot_pos="0.16666666666666666" ratio_pos-negs="0.0660377358490566" negative_affect_words="[no]" negative_polar_words="[no,no]" positive_polar_words="[keeping,score]" abstract_eventiv_words="[one-s/1,keeping/3,score/12]">Plus no one-s keeping score . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_6">
-<sdivars id="6" tokens="6" mean_chars_leng="0.8571428571428571" verbs="1" chunks="7" verb_preds="0" concepts="2" domain_bound="1" adjectives="1" abstract_words="3-[1-one-s-[astratto,nquant],3-keeping-[abstract,time,attivita,evento],12-score-[astratto,attivita,informa,nquant,stato]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1.6666666666666665" tot_pos="0.16666666666666666" ratio_pos-negs="0.0660377358490566" negative_affect_words="[no]" negative_polar_words="[no,no]" positive_polar_words="[keeping,score]" abstract_eventiv_words="[one-s/1,keeping/3,score/12]">Plus no one-s keeping score . </sdivars>
+<sdivars id="6" tokens="20" mean_chars_leng="2.857142857142857" verbs="3" chunks="17" verb_preds="2" concepts="2" domain_bound="0" adjectives="0" abstract_words="2-[3-blame-[abstract,time,attivita,evento],5-work-[astratto,evento,attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="3" tot_pos="0.11764705882352941" ratio_pos-negs="0.020086083213773313" negative_affect_words="[blame]" negative_polar_words="[blame,drink]" positive_polar_words="[work,floor]" abstract_eventiv_words="[blame/3,work/5]" concrete_words="[drink/1]">we can blame it on the weekend or just drink and \-  work it all out on the floor . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_7">
-<sdivars id="7" tokens="14" mean_chars_leng="2.142857142857143" verbs="2" chunks="14" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[3-blame-[abstract,time,attivita,evento]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.07142857142857142" ratio_pos-negs="0.022727272727272728" negative_affect_words="[blame]" negative_polar_words="[blame,drink]" abstract_eventiv_words="[blame/3]" concrete_words="[drink/1]">we can blame it on the weekend or just drink and ,   - . </sdivars>
+<sdivars id="7" tokens="10" mean_chars_leng="2" verbs="2" chunks="7" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="1-[8-refrain-[attivita,informa]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.06666666666666667" negative_affect_words="[refrain]" negative_polar_words="[refrain]" positive_polar_words="[run,run]" abstract_eventiv_words="[refrain/8]">refrain , , , , , , { C run run } now . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_8">
-<sdivars id="8" tokens="9" mean_chars_leng="0" verbs="1" chunks="10" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[5-work-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0.1" ratio_pos-negs="0.05" positive_polar_words="[work,floor]" abstract_eventiv_words="[work/5]">\-  work it all out on the floor . </sdivars>
+<sdivars id="8" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">Do we walk ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_9">
-<sdivars id="9" tokens="2" mean_chars_leng="0.2857142857142857" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[8-refrain-[attivita,informa]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1" negative_affect_words="[refrain]" negative_polar_words="[refrain]" abstract_eventiv_words="[refrain/8]">refrain . </sdivars>
+<sdivars id="9" tokens="4" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1" positive_polar_words="[run]">Do we run ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_10">
-<sdivars id="10" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0">{ ? </sdivars>
+<sdivars id="10" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[roll]">Do we roll ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_11">
-<sdivars id="11" tokens="5" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[run,run]">C run run } . </sdivars>
+<sdivars id="11" tokens="4" mean_chars_leng="0.5714285714285714" verbs="1" chunks="7" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.25">Do we tip-toe ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_12">
-<sdivars id="12" tokens="5" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">now do we walk ? </sdivars>
+<sdivars id="12" tokens="3" mean_chars_leng="0" verbs="1" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">Do we ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_13">
-<sdivars id="13" tokens="4" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1" positive_polar_words="[run]">do we run ? </sdivars>
+<sdivars id="13" tokens="12" mean_chars_leng="0" verbs="4" chunks="12" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[5-strut-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.08333333333333333" ratio_pos-negs="0.08333333333333333" negative_affect_words="[strut]" negative_polar_words="[strut]" positive_polar_words="[run,run]" abstract_eventiv_words="[strut/5]">Do we strut { C , run , run } now ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_14">
-<sdivars id="14" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[roll]">do we roll ? </sdivars>
+<sdivars id="14" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">Do we walk ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_15">
-<sdivars id="15" tokens="4" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.14285714285714285">do we tip-toe ? </sdivars>
+<sdivars id="15" tokens="4" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1" positive_polar_words="[run]">Do we run ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_16">
-<sdivars id="16" tokens="8" mean_chars_leng="0" verbs="3" chunks="10" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-strut-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_affect_words="[strut]" negative_polar_words="[strut]" abstract_eventiv_words="[strut/5]">do we   - do we strut { ? </sdivars>
+<sdivars id="16" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[roll]">Do we roll ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_17">
-<sdivars id="17" tokens="5" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[run,run]">C run run } . </sdivars>
+<sdivars id="17" tokens="7" mean_chars_leng="1" verbs="2" chunks="10" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.1" ratio_pos-negs="0.1">Do we tip-toe , do we ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_18">
-<sdivars id="18" tokens="5" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">now do we walk ? </sdivars>
+<sdivars id="18" tokens="12" mean_chars_leng="0" verbs="4" chunks="14" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[5-strut-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="2" dense_constituents="0" tot_negs="3" tot_pos="0.07142857142857142" ratio_pos-negs="0.023809523809523808" negative_affect_words="[strut]" negative_polar_words="[strut]" positive_polar_words="[run,run]" abstract_eventiv_words="[strut/5]">Do we strut , { C run , run } so ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_19">
-<sdivars id="19" tokens="4" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1" positive_polar_words="[run]">do we run ? </sdivars>
+<sdivars id="19" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">Do we walk ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_20">
-<sdivars id="20" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[roll]">do we roll ? </sdivars>
+<sdivars id="20" tokens="4" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1" positive_polar_words="[run]">Do we run ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_21">
-<sdivars id="21" tokens="4" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.14285714285714285">do we tip-toe ? </sdivars>
+<sdivars id="21" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[roll]">Do we roll ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_22">
-<sdivars id="22" tokens="8" mean_chars_leng="0" verbs="3" chunks="10" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-strut-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_affect_words="[strut]" negative_polar_words="[strut]" abstract_eventiv_words="[strut/5]">do we   - do we strut { ? </sdivars>
+<sdivars id="22" tokens="6" mean_chars_leng="0.8571428571428571" verbs="2" chunks="10" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.1" ratio_pos-negs="0.11666666666666668">Do we tip-toe do we ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_23">
-<sdivars id="23" tokens="5" mean_chars_leng="0.5714285714285714" verbs="2" chunks="6" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.10606060606060606" positive_polar_words="[run,run]">C run run } . </sdivars>
+<sdivars id="23" tokens="12" mean_chars_leng="0" verbs="4" chunks="12" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[5-strut-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.08333333333333333" ratio_pos-negs="0.08333333333333333" negative_affect_words="[strut]" negative_polar_words="[strut]" positive_polar_words="[run,run]" abstract_eventiv_words="[strut/5]">Do we strut { C , run , run } now ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_24">
-<sdivars id="24" tokens="5" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1">so do we walk ? </sdivars>
+<sdivars id="24" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">Do we walk ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_25">
-<sdivars id="25" tokens="4" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1" positive_polar_words="[run]">do we run ? </sdivars>
+<sdivars id="25" tokens="4" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1" positive_polar_words="[run]">Do we run ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_26">
-<sdivars id="26" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[roll]">do we roll ? </sdivars>
+<sdivars id="26" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[roll]">Do we roll ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_27">
-<sdivars id="27" tokens="4" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.14285714285714285">do we tip-toe ? </sdivars>
+<sdivars id="27" tokens="7" mean_chars_leng="1" verbs="2" chunks="10" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.1" ratio_pos-negs="0.1">Do we tip-toe , do we ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_28">
-<sdivars id="28" tokens="8" mean_chars_leng="0" verbs="3" chunks="10" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-strut-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_affect_words="[strut]" negative_polar_words="[strut]" abstract_eventiv_words="[strut/5]">do we   - do we strut { ? </sdivars>
+<sdivars id="28" tokens="16" mean_chars_leng="2.2857142857142856" verbs="5" chunks="21" verb_preds="2" concepts="3" domain_bound="2" adjectives="1" abstract_words="5-[5-strut-[astratto,evento,attivita],5-stroll-[astratto,evento,attivita],7-calm-[valutativo],5-cling-[astratto,evento,attivita],8-clatter-[evento]]/0" modal_advs_adjs="0" untensed_verbs="3" dense_constituents="0" tot_negs="3.7291666666666665" tot_pos="0.40773809523809523" ratio_pos-negs="0.0677882236516576" negative_affect_words="[strut,no,clatter]" negative_polar_words="[strut,no,clatter,no,cling]" positive_polar_words="[stroll,calm]" abstract_eventiv_words="[strut/5,stroll/5,calm/7,cling/5,clatter/8]">Do we strut do we , stroll no need to calm this cling and clatter . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_29">
-<sdivars id="29" tokens="5" mean_chars_leng="0.5714285714285714" verbs="2" chunks="6" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.10606060606060606" positive_polar_words="[run,run]">C run run } . </sdivars>
+<sdivars id="29" tokens="14" mean_chars_leng="0" verbs="1" chunks="9" verb_preds="1" concepts="3" domain_bound="3" adjectives="1" abstract_words="3-[3-patter-[abstract,time,attivita,evento],5-take-[astratto,evento,attivita],9-break-[attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.16666666666666666" tot_negs="3.238095238095238" tot_pos="0.18253968253968253" ratio_pos-negs="0.05637254901960784" negative_affect_words="[break]" negative_polar_words="[break,pitter,patter]" positive_polar_words="[patter]" abstract_eventiv_words="[patter/3,take/5,break/9]">P-p - pitter patter ever more take a break from 9 to 5 . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_30">
-<sdivars id="30" tokens="5" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">now do we walk ? </sdivars>
+<sdivars id="30" tokens="5" mean_chars_leng="0" verbs="2" chunks="9" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[3-mind-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.1111111111111111" ratio_pos-negs="0.1111111111111111" negative_affect_words="[mind]" negative_polar_words="[mind]" abstract_eventiv_words="[mind/3]">It doesn-t mind it . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_31">
-<sdivars id="31" tokens="4" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1" positive_polar_words="[run]">do we run ? </sdivars>
+<sdivars id="31" tokens="42" mean_chars_leng="0.7142857142857143" verbs="11" chunks="49" verb_preds="7" concepts="9" domain_bound="7" adjectives="1" abstract_words="10-[5-holds-[astratto,evento,attivita],5-living-[astratto,evento,attivita],3-fixing-[abstract,time,attivita,evento],5-stretching-[astratto,evento,attivita],5-chores-[astratto,evento,attivita],5-ride-[astratto,evento,attivita],5-train-till-[astratto,evento,attivita],0-knowing-[abstract,stato],5-stops-[astratto,evento,attivita],8-refrain-[attivita,informa]]/3" modal_advs_adjs="1" untensed_verbs="1" dense_constituents="0.05555555555555555" tot_negs="7.857142857142858" tot_pos="0.40476190476190477" ratio_pos-negs="0.04722222222222222" negative_affect_words="[ride,not,refrain]" negative_polar_words="[ride,not,refrain,not,fixing]" positive_polar_words="[holds,door,living,backyard,stretching,knowing,store]" abstract_eventiv_words="[holds/5,living/5,fixing/3,stretching/5,chores/5,ride/5,train-till/5,knowing/0,stops/5,refrain/8]" concrete_words="[door/1,backyard/1,store/1]">, It holds the door full on homestyle living backyard , fixing stretching chores \-  or we could ride this train-till morning , still not knowing \-, where it stops or what-s in store , refrain , do we walk . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_32">
-<sdivars id="32" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[roll]">do we roll ? </sdivars>
+<sdivars id="32" tokens="4" mean_chars_leng="0.7068965517241379" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.05858585858585859" positive_polar_words="[run]">Do we run ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_33">
-<sdivars id="33" tokens="4" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.14285714285714285">do we tip-toe ? </sdivars>
+<sdivars id="33" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-strut-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" negative_affect_words="[strut]" negative_polar_words="[strut]" abstract_eventiv_words="[strut/5]">Do we strut ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_34">
-<sdivars id="34" tokens="7" mean_chars_leng="0" verbs="3" chunks="10" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-strut-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_affect_words="[strut]" negative_polar_words="[strut]" abstract_eventiv_words="[strut/5]">do we   - do we strut ? </sdivars>
+<sdivars id="34" tokens="20" mean_chars_leng="0" verbs="9" chunks="26" verb_preds="3" concepts="2" domain_bound="1" adjectives="0" abstract_words="2-[5-stroll-[astratto,evento,attivita],5-strut-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="2" dense_constituents="0" tot_negs="3" tot_pos="0.11538461538461539" ratio_pos-negs="0.038461538461538464" negative_affect_words="[strut]" negative_polar_words="[strut]" positive_polar_words="[stroll,run]" abstract_eventiv_words="[stroll/5,strut/5]">Do we stroll Do we tip-toe yeahh do , we walk , Do we run , Do we strut ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_35">
-<sdivars id="35" tokens="2" mean_chars_leng="0.5714285714285714" verbs="1" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.10606060606060606">do . </sdivars>
+<sdivars id="35" tokens="15" mean_chars_leng="2.857142857142857" verbs="5" chunks="15" verb_preds="2" concepts="3" domain_bound="2" adjectives="0" abstract_words="1-[5-stroll-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="2" tot_pos="0.13333333333333333" ratio_pos-negs="0.02745098039215686" positive_polar_words="[stroll,run,run]" abstract_eventiv_words="[stroll/5]">Do we stroll Do we tip-toe yeahh , , , { C run run } now ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_36">
-<sdivars id="36" tokens="3" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-stroll-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" positive_polar_words="[stroll]" abstract_eventiv_words="[stroll/5]">we stroll ? </sdivars>
+<sdivars id="36" tokens="4" mean_chars_leng="2.4285714285714284" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.06862745098039216">Do we walk ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_37">
-<sdivars id="37" tokens="9" mean_chars_leng="0" verbs="1" chunks="10" verb_preds="0" concepts="2" domain_bound="1" adjectives="1" abstract_words="3-[3-calm-[abstract,time,attivita,evento],3-cling-[abstract,time,attivita,evento],8-clatter-[evento]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1.6111111111111112" tot_pos="0.1111111111111111" ratio_pos-negs="0.06896551724137931" negative_affect_words="[no,clatter]" negative_polar_words="[no,clatter,no,cling]" positive_polar_words="[calm]" abstract_eventiv_words="[calm/3,cling/3,clatter/8]">no need to calm this cling and clatter . </sdivars>
+<sdivars id="37" tokens="4" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1" positive_polar_words="[run]">Do we run ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_38">
-<sdivars id="38" tokens="7" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="1" adjectives="1" abstract_words="1-[3-patter-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.1428571428571428" tot_pos="0.34285714285714286" ratio_pos-negs="0.30000000000000004" negative_polar_words="[pitter,patter]" positive_polar_words="[patter]" abstract_eventiv_words="[patter/3]">P-p - pitter patter ever more . </sdivars>
+<sdivars id="38" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[roll]">Do we roll ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_39">
-<sdivars id="39" tokens="8" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="2" domain_bound="2" adjectives="0" abstract_words="2-[5-take-[astratto,evento,attivita],9-break-[attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="2.5" tot_pos="0.2" ratio_pos-negs="0.08" negative_affect_words="[break]" negative_polar_words="[break]" abstract_eventiv_words="[take/5,break/9]">take a break from 9 to 5 . </sdivars>
+<sdivars id="39" tokens="4" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.14285714285714285">Do we tip-toe ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_40">
-<sdivars id="40" tokens="5" mean_chars_leng="0" verbs="2" chunks="9" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[3-mind-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.1111111111111111" ratio_pos-negs="0.1111111111111111" negative_affect_words="[mind]" negative_polar_words="[mind]" abstract_eventiv_words="[mind/3]">It doesn-t mind it . </sdivars>
+<sdivars id="40" tokens="3" mean_chars_leng="0.5714285714285714" verbs="1" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.2916666666666667">Do we ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_41">
-<sdivars id="41" tokens="5" mean_chars_leng="0.5714285714285714" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[5-holds-[astratto,evento,attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.35000000000000003" positive_polar_words="[holds,door]" abstract_eventiv_words="[holds/5]" concrete_words="[door/1]">It holds the door . </sdivars>
+<sdivars id="41" tokens="12" mean_chars_leng="0" verbs="4" chunks="12" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[5-strut-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.08333333333333333" ratio_pos-negs="0.08333333333333333" negative_affect_words="[strut]" negative_polar_words="[strut]" positive_polar_words="[run,run]" abstract_eventiv_words="[strut/5]">Do we strut { C , run , run } now ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_42">
-<sdivars id="42" tokens="12" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="2" domain_bound="2" adjectives="1" abstract_words="4-[5-living-[astratto,evento,attivita],3-fixing-[abstract,time,attivita,evento],5-stretching-[astratto,evento,attivita],5-chores-[astratto,evento,attivita]]/1" modal_advs_adjs="1" untensed_verbs="1" dense_constituents="0.2" tot_negs="2.283333333333333" tot_pos="0.26666666666666666" ratio_pos-negs="0.11678832116788322" negative_polar_words="[fixing]" positive_polar_words="[living,backyard,stretching]" abstract_eventiv_words="[living/5,fixing/3,stretching/5,chores/5]" concrete_words="[backyard/1]">full on homestyle living , backyard fixing , stretching chores ,   - . </sdivars>
+<sdivars id="42" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">Do we walk ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_43">
-<sdivars id="43" tokens="16" mean_chars_leng="0" verbs="2" chunks="9" verb_preds="1" concepts="3" domain_bound="2" adjectives="1" abstract_words="2-[5-ride-[astratto,evento,attivita],3-knowing-[astratto]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.25" tot_negs="4.979166666666667" tot_pos="0.2361111111111111" ratio_pos-negs="0.04741980474198047" negative_affect_words="[ride,not]" negative_polar_words="[ride,not,not]" positive_polar_words="[train,knowing]" abstract_eventiv_words="[ride/5,knowing/3]" concrete_words="[train/2]">\-  or we could ride this train ' till morning , still not knowing   - . </sdivars>
+<sdivars id="43" tokens="4" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1" positive_polar_words="[run]">Do we run ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_44">
-<sdivars id="44" tokens="10" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="2" domain_bound="2" adjectives="0" abstract_words="1-[5-stops-[astratto,evento,attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.25" tot_negs="3.25" tot_pos="0.1" ratio_pos-negs="0.03076923076923077" positive_polar_words="[store]" abstract_eventiv_words="[stops/5]" concrete_words="[store/1]">\-  where it stops or what-s in store . </sdivars>
+<sdivars id="44" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[roll]">Do we roll ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_45">
-<sdivars id="45" tokens="2" mean_chars_leng="1.2857142857142858" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[8-refrain-[attivita,informa]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1" negative_affect_words="[refrain]" negative_polar_words="[refrain]" abstract_eventiv_words="[refrain/8]">refrain . </sdivars>
+<sdivars id="45" tokens="7" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.1" ratio_pos-negs="0.1">Do we tip-toe , do we ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_46">
-<sdivars id="46" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">do we walk ? </sdivars>
+<sdivars id="46" tokens="12" mean_chars_leng="1" verbs="4" chunks="14" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[5-strut-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="2" dense_constituents="0" tot_negs="3" tot_pos="0.07142857142857142" ratio_pos-negs="0.017857142857142856" negative_affect_words="[strut]" negative_polar_words="[strut]" positive_polar_words="[run,run]" abstract_eventiv_words="[strut/5]">Do we strut , { C run , run } so ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_47">
-<sdivars id="47" tokens="4" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1" positive_polar_words="[run]">Do we run ? </sdivars>
+<sdivars id="47" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">Do we walk ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_48">
-<sdivars id="48" tokens="4" mean_chars_leng="0.7142857142857143" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-strut-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.2333333333333333" negative_affect_words="[strut]" negative_polar_words="[strut]" abstract_eventiv_words="[strut/5]">Do we strut ? </sdivars>
+<sdivars id="48" tokens="4" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1" positive_polar_words="[run]">Do we run ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_49">
-<sdivars id="49" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-stroll-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[stroll]" abstract_eventiv_words="[stroll/5]">Do we stroll ? </sdivars>
+<sdivars id="49" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[roll]">Do we roll ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_50">
-<sdivars id="50" tokens="4" mean_chars_leng="0.5185185185185185" verbs="1" chunks="7" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.2755102040816326">Do we tip-toe ? </sdivars>
+<sdivars id="50" tokens="6" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.1" ratio_pos-negs="0.1">Do we tip-toe do we ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_51">
-<sdivars id="51" tokens="2" mean_chars_leng="1.2142857142857142" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">yeahh . </sdivars>
+<sdivars id="51" tokens="12" mean_chars_leng="0.8571428571428571" verbs="4" chunks="12" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[5-strut-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.08333333333333333" ratio_pos-negs="0.044871794871794865" negative_affect_words="[strut]" negative_polar_words="[strut]" positive_polar_words="[run,run]" abstract_eventiv_words="[strut/5]">Do we strut { C , run , run } now ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_52">
-<sdivars id="52" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">do we walk ? </sdivars>
+<sdivars id="52" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">Do we walk ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_53">
-<sdivars id="53" tokens="4" mean_chars_leng="0.2857142857142857" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.07777777777777779" positive_polar_words="[run]">Do we run ? </sdivars>
+<sdivars id="53" tokens="4" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1" positive_polar_words="[run]">Do we run ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_54">
-<sdivars id="54" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-strut-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" negative_affect_words="[strut]" negative_polar_words="[strut]" abstract_eventiv_words="[strut/5]">Do we strut ? </sdivars>
+<sdivars id="54" tokens="7" mean_chars_leng="0" verbs="3" chunks="10" verb_preds="2" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" positive_polar_words="[roll]">Do we roll do we tip-toe ? </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="C Run Run Lyrics.txt_55">
-<sdivars id="55" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-stroll-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[stroll]" abstract_eventiv_words="[stroll/5]">Do we stroll ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_56">
-<sdivars id="56" tokens="4" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.14285714285714285">Do we tip-toe ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_57">
-<sdivars id="57" tokens="3" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">yeahh { . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_58">
-<sdivars id="58" tokens="5" mean_chars_leng="0.5714285714285714" verbs="2" chunks="6" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.10606060606060606" positive_polar_words="[run,run]">C run run } . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_59">
-<sdivars id="59" tokens="5" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">now do we walk ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_60">
-<sdivars id="60" tokens="4" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1" positive_polar_words="[run]">do we run ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_61">
-<sdivars id="61" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[roll]">do we roll ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_62">
-<sdivars id="62" tokens="4" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.14285714285714285">do we tip-toe ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_63">
-<sdivars id="63" tokens="8" mean_chars_leng="0" verbs="3" chunks="10" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-strut-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_affect_words="[strut]" negative_polar_words="[strut]" abstract_eventiv_words="[strut/5]">do we   - do we strut { ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_64">
-<sdivars id="64" tokens="5" mean_chars_leng="0.5714285714285714" verbs="2" chunks="6" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.10606060606060606" positive_polar_words="[run,run]">C run run } . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_65">
-<sdivars id="65" tokens="5" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">now do we walk ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_66">
-<sdivars id="66" tokens="4" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1" positive_polar_words="[run]">do we run ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_67">
-<sdivars id="67" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[roll]">do we roll ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_68">
-<sdivars id="68" tokens="4" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.14285714285714285">do we tip-toe ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_69">
-<sdivars id="69" tokens="8" mean_chars_leng="0" verbs="3" chunks="10" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-strut-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_affect_words="[strut]" negative_polar_words="[strut]" abstract_eventiv_words="[strut/5]">do we   - do we strut { ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_70">
-<sdivars id="70" tokens="5" mean_chars_leng="0.5714285714285714" verbs="2" chunks="6" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.10606060606060606" positive_polar_words="[run,run]">C run run } . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_71">
-<sdivars id="71" tokens="5" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1">so do we walk ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_72">
-<sdivars id="72" tokens="4" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1" positive_polar_words="[run]">do we run ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_73">
-<sdivars id="73" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[roll]">do we roll ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_74">
-<sdivars id="74" tokens="4" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.14285714285714285">do we tip-toe ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_75">
-<sdivars id="75" tokens="8" mean_chars_leng="0" verbs="3" chunks="10" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-strut-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" negative_affect_words="[strut]" negative_polar_words="[strut]" abstract_eventiv_words="[strut/5]">do we   - do we strut { ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_76">
-<sdivars id="76" tokens="5" mean_chars_leng="0.5714285714285714" verbs="2" chunks="6" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.10606060606060606" positive_polar_words="[run,run]">C run run } . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_77">
-<sdivars id="77" tokens="5" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">now do we walk ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_78">
-<sdivars id="78" tokens="4" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1" ratio_pos-negs="0.1" positive_polar_words="[run]">do we run ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_79">
-<sdivars id="79" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[roll]">do we roll ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_80">
-<sdivars id="80" tokens="4" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.14285714285714285">do we tip-toe ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="C Run Run Lyrics.txt_81">
-<sdivars id="81" tokens="3" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2">do we . </sdivars>
+<sdivars id="55" tokens="3" mean_chars_leng="1" verbs="1" chunks="5" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2">Do we . </sdivars>
 </verse_sdi_var>
 </verse_sdi_vars>
 </semantic_density>

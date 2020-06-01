@@ -1,211 +1,46 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <semantic_density>
 
-<text_level_sdis id="outs/'Aa Bhi Ja Lyrics.txt'" general_sdi="3.6910828657712207" mean_char_leng="0.3134146973013282" propositional_negs="1" negative_sentiment_words="22" positive_sentiment_words="34" deep_conceptual_index="205.3676470588235" token_rare_words_ratio="0.02386117136659436" token_type_ratio="0.46637744034707157" RID_category_ratio="[18-secondary/0.43902439024390244,[abstract_tought,abstract_tought,abstract_tought,abstract_tought,abstract_tought,affection,affection,affection,affection,affection,affection,aggression,aggression,anality,anality,brink-passage,concreteness,fire,instru_behavior,instru_behavior,instru_behavior,instru_behavior,instru_behavior,narcissism,narcissism,passivity,passivity,passivity,passivity,restraint,restraint,sadness,sex,social_behavior,social_behavior,temporal_repere,temporal_repere,temporal_repere,temporal_repere,vision,vision]]" semantic_cohesion="0"></text_level_sdis>
-<verse_sdi_vars ids="68">
+<text_level_sdis id="outs/'Aa Bhi Ja Lyrics.txt'" general_sdi="11.098271712823331" mean_char_leng="0.3108932924512891" propositional_negs="1" negative_sentiment_words="22" positive_sentiment_words="36" deep_conceptual_index="200.2974611595301" token_rare_words_ratio="0.02022058823529412" token_type_ratio="0.40441176470588236" RID_category_ratio="[18-secondary/0.45,[abstract_tought,abstract_tought,abstract_tought,abstract_tought,abstract_tought,affection,affection,affection,affection,affection,affection,aggression,anality,anality,brink-passage,concreteness,fire,instru_behavior,instru_behavior,instru_behavior,instru_behavior,instru_behavior,narcissism,narcissism,passivity,passivity,passivity,passivity,restraint,restraint,sadness,sex,social_behavior,social_behavior,temporal_repere,temporal_repere,temporal_repere,temporal_repere,vision,vision]]" semantic_cohesion="0"></text_level_sdis>
+<verse_sdi_vars ids="13">
 <verse_sdi_var id="Aa Bhi Ja Lyrics.txt_1">
 <sdivars id="1" tokens="7" mean_chars_leng="0.6363636363636364" verbs="0" chunks="6" verb_preds="0" concepts="5" domain_bound="4" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.3333333333333333" tot_negs="3.1333333333333333" tot_pos="0" ratio_pos-negs="2.8">aa Bhi Ja Lyrics by Wonderstarz . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Aa Bhi Ja Lyrics.txt_2">
-<sdivars id="2" tokens="5" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="3" tot_pos="0" ratio_pos-negs="2" negative_polar_words="[kho]">dard bhi kho jati . </sdivars>
+<sdivars id="2" tokens="209" mean_chars_leng="5.5" verbs="7" chunks="78" verb_preds="7" concepts="89" domain_bound="49" adjectives="7" abstract_words="14-[5-pal-[astratto,evento,attivita],7-par-[nquant],3-mere-[oggetto],3-mere-[oggetto],7-par-[nquant],3-mere-[oggetto],3-mere-[oggetto],7-par-[nquant],3-mere-[oggetto],3-mere-[oggetto],3-sexy-[abstract,time,attivita,evento],7-par-[nquant],16-thing-[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento],0-want-[abstract,stato]]/2" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.08620689655172414" tot_negs="72.67026151727104" tot_pos="0.12323641271009692" ratio_pos-negs="0.0015765127341024552" negative_affect_words="[mere,mere,mere,mere,mere,mere]" negative_polar_words="[mere,mere,mere,mere,mere,mere,kho]" positive_polar_words="[pal,tab,ki,ki,sexy,thing,want]" abstract_eventiv_words="[pal/5,par/7,mere/3,mere/3,par/7,mere/3,mere/3,par/7,mere/3,mere/3,sexy/3,par/7,thing/16,want/0]" concrete_words="[tab/1,mere/1]">dard bhi kho jati yadon ke parinde ruth jate uth , jata hoon , mein neend se aksar gaali , ke , chakkar , abhi , aise , lagaya , nahi , jaate , mera , har , pal khoobsurat , dil , mei , hai , sirf , teri , soorat , par , tu , mere saath nhi , dard , bhi , mere paas nhi toh , gam , kyun , chali , atti , Hai mujh mein chaa jaati , hai , tab , yad aati , hai tu , mujko par saath kyun nhi , aati , hai , mere , ruh , bhi , tu , mere , jaan , bhi , tu , par , kyun , karti , hai , aisa , tu , zindagi , ki , safar , hai , maut , phir , se mere sath , tu , laut , dard , dil , ka kisey , dikhaye , muh , Moorke chaali jati hai agar aa , bhi , jao , andhi , raat , ko kar dunga khush , tujhe , mere , laund , ki , kassam tu , hai , sexy par last thing I do i want me and you Ab . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Aa Bhi Ja Lyrics.txt_3">
-<sdivars id="3" tokens="6" mean_chars_leng="0.8571428571428571" verbs="0" chunks="4" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="5" tot_pos="0" ratio_pos-negs="4">yadon ke parinde ruth jate . </sdivars>
+<sdivars id="3" tokens="13" mean_chars_leng="0" verbs="1" chunks="8" verb_preds="1" concepts="4" domain_bound="4" adjectives="0" abstract_words="1-[3-cause-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="6" tot_pos="0.125" ratio_pos-negs="0.020833333333333332" abstract_eventiv_words="[cause/3]">Ah bhi ja meri bahon mein , sari , galti maaf cause . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Aa Bhi Ja Lyrics.txt_4">
-<sdivars id="4" tokens="8" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="5" domain_bound="5" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="5" tot_pos="0.2" ratio_pos-negs="0.04">uth jata hoon mein neend se aksar . </sdivars>
+<sdivars id="4" tokens="4" mean_chars_leng="0" verbs="1" chunks="8" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[3-love-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.125" ratio_pos-negs="0.125" positive_polar_words="[love]" abstract_eventiv_words="[love/3]">I love you : </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Aa Bhi Ja Lyrics.txt_5">
-<sdivars id="5" tokens="9" mean_chars_leng="1.2857142857142858" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="8" tot_pos="0" ratio_pos-negs="7">gaali ke chakkar abhi aise lagaya nahi jaate . </sdivars>
+<sdivars id="5" tokens="24" mean_chars_leng="1.6" verbs="2" chunks="19" verb_preds="1" concepts="11" domain_bound="8" adjectives="1" abstract_words="2-[3-mere-[oggetto],10-lie-[attivita,informa,luogo]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.3" tot_negs="10.068939393939393" tot_pos="0.13596491228070173" ratio_pos-negs="0.01165186549441838" negative_affect_words="[mere,lie,bar]" negative_polar_words="[mere,lie,bar]" abstract_eventiv_words="[mere/3,lie/10]" concrete_words="[bar/1]">aa ja meri bahon , mein mere lie tu sabkuch hain , ek bar dil bol de-tu i can do anything for you . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Aa Bhi Ja Lyrics.txt_6">
-<sdivars id="6" tokens="5" mean_chars_leng="0.5" verbs="1" chunks="5" verb_preds="1" concepts="3" domain_bound="3" adjectives="0" abstract_words="1-[5-pal-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.13333333333333333" positive_polar_words="[pal]" abstract_eventiv_words="[pal/5]">mera har pal khoobsurat . </sdivars>
+<sdivars id="6" tokens="22" mean_chars_leng="3.142857142857143" verbs="0" chunks="10" verb_preds="0" concepts="11" domain_bound="7" adjectives="1" abstract_words="2-[3-mere-[oggetto],10-lie-[attivita,informa,luogo]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.42857142857142855" tot_negs="8.11038961038961" tot_pos="0" ratio_pos-negs="7.681818181818182" negative_affect_words="[mere,lie,bar]" negative_polar_words="[mere,lie,bar]" abstract_eventiv_words="[mere/3,lie/10]" concrete_words="[bar/1]">aa ja meri bahon , mein mere lie tu , sabkuch , hain , ek bar bas , bol de tu . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Aa Bhi Ja Lyrics.txt_7">
-<sdivars id="7" tokens="7" mean_chars_leng="0" verbs="0" chunks="7" verb_preds="0" concepts="3" domain_bound="3" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="3.5" tot_pos="0" ratio_pos-negs="3">dil mei hai sirf teri soorat . </sdivars>
+<sdivars id="7" tokens="7" mean_chars_leng="0.875" verbs="2" chunks="12" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0.08333333333333333" ratio_pos-negs="0.02898550724637681">i can do anything for you . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Aa Bhi Ja Lyrics.txt_8">
-<sdivars id="8" tokens="6" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="3" abstract_words="2-[3-par-[abstract,time,attivita,evento],0-mere-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="5.5" tot_pos="0" ratio_pos-negs="4.5" negative_affect_words="[mere]" negative_polar_words="[mere]" abstract_eventiv_words="[par/3,mere/0]">par tu mere saath nhi . </sdivars>
+<sdivars id="8" tokens="48" mean_chars_leng="0" verbs="4" chunks="28" verb_preds="4" concepts="21" domain_bound="18" adjectives="2" abstract_words="3-[3-main-[abstract,time,attivita,evento],3-main-[abstract,time,attivita,evento],0-know-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.06666666666666667" tot_negs="15.96547619047619" tot_pos="0.22619047619047616" ratio_pos-negs="0.014167474461263142" positive_polar_words="[Baby,main,main,know]" abstract_eventiv_words="[main/3,main/3,know/0]">Baby Tere bina neend , mujhe , aati , nahi , tujhe , pata , main kal raat soyi , nahi , Ab , aa , bhi ja , meri bahon , mein , jee , raha , hu main teri yadon pe i know you-re . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Aa Bhi Ja Lyrics.txt_9">
-<sdivars id="9" tokens="6" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="1" abstract_words="1-[0-mere-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="4.666666666666667" tot_pos="0" ratio_pos-negs="4.166666666666667" negative_affect_words="[mere]" negative_polar_words="[mere]" abstract_eventiv_words="[mere/0]">dard bhi mere paas nhi . </sdivars>
+<sdivars id="9" tokens="130" mean_chars_leng="9.214285714285714" verbs="11" chunks="71" verb_preds="9" concepts="62" domain_bound="36" adjectives="4" abstract_words="10-[5-call-[astratto,evento,attivita],3-ready-[abstract,time,attivita,evento],9-cause-[attivita,evento,informa],3-mere-[oggetto],3-mere-[oggetto],3-mere-[oggetto],3-main-[abstract,time,attivita,evento],0-know-[abstract,stato],3-feels-[abstract,time,attivita,evento],5-die-[astratto,evento,attivita]]/2" modal_advs_adjs="1" untensed_verbs="0" dense_constituents="0.125" tot_negs="36.73641439205955" tot_pos="0.2113759479956663" ratio_pos-negs="0.004600059357234423" negative_affect_words="[mere,mere,mere,die]" negative_polar_words="[mere,mere,mere,die,pas]" positive_affect_words="[ah,ah]" positive_polar_words="[ah,ah,baby,call,ready,iss,ki,main,know,feels,like,door,baby]" abstract_eventiv_words="[call/5,ready/3,cause/9,mere/3,mere/3,mere/3,main/3,know/0,feels/3,die/5]" concrete_words="[jab/1,door/1]">My baby so call me when you-re ready , cause ab saha na jaye iss pyar ko mere isshq tum , lo meri jaan tum do meri sapno ki , khirki , khulo , Ab , ah bhi ja , tu mere pas ruk raha hain , mere har ek , saas , jee , raha , hu main sirf , teri Yadon mein Ab rehna hain , teri raho pe mujhe , jina , hai , teri , khwabo , mein you , don-t know how it feels like jab tu door , hoti , hain , mujhe , teri , yaad , sataati , hain , Ab , ah bhi ja meri bahon , mein , or_else , Imma , surely gon na die , baby . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Aa Bhi Ja Lyrics.txt_10">
-<sdivars id="10" tokens="7" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="4" domain_bound="4" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="4.5" tot_pos="0.25" ratio_pos-negs="0.05555555555555555">toh gam kyun chali atti hai . </sdivars>
+<sdivars id="10" tokens="32" mean_chars_leng="0" verbs="10" chunks="39" verb_preds="7" concepts="6" domain_bound="4" adjectives="1" abstract_words="11-[3-love-[abstract,time,attivita,evento],5-hurts-[astratto,evento,attivita],5-hurts-[astratto,evento,attivita],3-starts-[abstract,time,attivita,evento],5-takes-[astratto,evento,attivita],5-things-[astratto,evento,attivita],3-gives-[abstract,time,attivita,evento],5-punctures-[astratto,evento,attivita],5-heart-[astratto,evento,attivita],8-end-[tempo],3-pitiful-[evaluative]]/1" modal_advs_adjs="1" untensed_verbs="0" dense_constituents="0" tot_negs="2.6979166666666665" tot_pos="0.4919871794871795" ratio_pos-negs="0.18235818235818238" negative_affect_words="[less,shit,pitiful]" negative_polar_words="[less,shit,pitiful,hurts,hurts,punctures]" positive_polar_words="[love,takes,gives,start]" abstract_eventiv_words="[love/3,hurts/5,hurts/5,starts/3,takes/5,things/5,gives/3,punctures/5,heart/5,end/8,pitiful/3]" concrete_words="[start/1]">love Hurts it hurts less when it starts it takes things , gives shit punctures your heart , this is just the start – in the end , you-ll be pitiful . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Aa Bhi Ja Lyrics.txt_11">
-<sdivars id="11" tokens="6" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="3" domain_bound="3" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.3333333333333333" tot_negs="5.333333333333333" tot_pos="0" ratio_pos-negs="5">mujh mein chaa jaati hai . </sdivars>
+<sdivars id="11" tokens="12" mean_chars_leng="0" verbs="3" chunks="9" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="3-[3-try-[abstract,time,attivita,evento],3-get-[abstract,time,attivita,evento],3-rid-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.1111111111111111" ratio_pos-negs="0.1111111111111111" negative_affect_words="[rid]" negative_polar_words="[rid,get]" positive_polar_words="[try]" abstract_eventiv_words="[try/3,get/3,rid/3]">all , the other broads-ll try to get rid of you . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Aa Bhi Ja Lyrics.txt_12">
-<sdivars id="12" tokens="7" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="4" domain_bound="4" adjectives="0" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="4.5" tot_pos="0" ratio_pos-negs="4" positive_polar_words="[tab]" concrete_words="[tab/1]">tab yad aati hai tu mujko . </sdivars>
+<sdivars id="12" tokens="18" mean_chars_leng="2" verbs="7" chunks="25" verb_preds="4" concepts="2" domain_bound="2" adjectives="0" abstract_words="7-[3-find-[abstract,time,attivita,evento],1-only_one-[astratto,nquant],3-help-[abstract,time,attivita,evento],5-friend-[astratto,evento,attivita],7-foe-[umano],3-try-[abstract,time,attivita,evento],3-find-[abstract,time,attivita,evento]]/0" modal_advs_adjs="1" untensed_verbs="2" dense_constituents="0" tot_negs="4" tot_pos="0.16" ratio_pos-negs="0.02666666666666667" negative_affect_words="[foe]" negative_polar_words="[foe]" positive_polar_words="[find,help,friend,try,find]" abstract_eventiv_words="[find/3,only_one/1,help/3,friend/5,foe/7,try/3,find/3]">then you-ll find only_one hand to help you friend or foe – try to find it yourself . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="Aa Bhi Ja Lyrics.txt_13">
-<sdivars id="13" tokens="7" mean_chars_leng="0" verbs="1" chunks="6" verb_preds="1" concepts="4" domain_bound="4" adjectives="0" abstract_words="1-[7-par-[nquant]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="4" tot_pos="0.16666666666666666" ratio_pos-negs="0.041666666666666664" abstract_eventiv_words="[par/7]">par saath kyun nhi aati hai . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_14">
-<sdivars id="14" tokens="5" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="3" domain_bound="3" adjectives="1" abstract_words="1-[0-mere-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="5.2" tot_pos="0" ratio_pos-negs="4.2" negative_affect_words="[mere]" negative_polar_words="[mere]" abstract_eventiv_words="[mere/0]">mere ruh bhi tu . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_15">
-<sdivars id="15" tokens="5" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="3" domain_bound="3" adjectives="1" abstract_words="1-[0-mere-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="4.2" tot_pos="0" ratio_pos-negs="3.2" negative_affect_words="[mere]" negative_polar_words="[mere]" abstract_eventiv_words="[mere/0]">mere jaan bhi tu . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_16">
-<sdivars id="16" tokens="7" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="5" domain_bound="5" adjectives="0" abstract_words="1-[7-par-[nquant]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.3333333333333333" tot_negs="5.333333333333333" tot_pos="0" ratio_pos-negs="5" abstract_eventiv_words="[par/7]">par kyun karti hai aisa tu . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_17">
-<sdivars id="17" tokens="6" mean_chars_leng="0.8571428571428571" verbs="0" chunks="5" verb_preds="0" concepts="3" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="4.166666666666666" tot_pos="0" ratio_pos-negs="3.6666666666666665" positive_polar_words="[ki]">zindagi ki safar hai maut . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_18">
-<sdivars id="18" tokens="7" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="4" domain_bound="4" adjectives="0" abstract_words="1-[3-mere-[oggetto]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="3" tot_pos="0.25" ratio_pos-negs="0.08333333333333333" negative_affect_words="[mere]" negative_polar_words="[mere]" abstract_eventiv_words="[mere/3]" concrete_words="[mere/1]">phir se mere sath tu laut . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_19">
-<sdivars id="19" tokens="6" mean_chars_leng="0.8571428571428571" verbs="0" chunks="4" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="5" tot_pos="0" ratio_pos-negs="4">dard dil ka kisey dikhaye . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_20">
-<sdivars id="20" tokens="6" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="3" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="4.666666666666666" tot_pos="0" ratio_pos-negs="3.6666666666666665">muh moorke chaali jati hai . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_21">
-<sdivars id="21" tokens="8" mean_chars_leng="0" verbs="1" chunks="3" verb_preds="1" concepts="3" domain_bound="3" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="5" tot_pos="0.3333333333333333" ratio_pos-negs="0.06666666666666667">agar aa bhi jao andhi raat ko . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_22">
-<sdivars id="22" tokens="5" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="4.5" tot_pos="0" ratio_pos-negs="4">kar dunga khush tujhe . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_23">
-<sdivars id="23" tokens="5" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="3" domain_bound="3" adjectives="1" abstract_words="1-[3-mere-[oggetto]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="4.7" tot_pos="0" ratio_pos-negs="4.2" negative_affect_words="[mere]" negative_polar_words="[mere]" positive_polar_words="[ki]" abstract_eventiv_words="[mere/3]">mere laund ki kassam . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_24">
-<sdivars id="24" tokens="4" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="1" abstract_words="1-[3-sexy-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.25" tot_pos="0" ratio_pos-negs="2.25" positive_polar_words="[sexy]" abstract_eventiv_words="[sexy/3]">tu hai sexy . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_25">
-<sdivars id="25" tokens="6" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="1" concepts="2" domain_bound="1" adjectives="0" abstract_words="2-[7-par-[nquant],16-thing-[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.14285714285714285" positive_polar_words="[thing]" abstract_eventiv_words="[par/7,thing/16]">par last thing I do . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_26">
-<sdivars id="26" tokens="6" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[0-want-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" positive_polar_words="[want]" abstract_eventiv_words="[want/0]">i want me and you . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_27">
-<sdivars id="27" tokens="8" mean_chars_leng="0" verbs="0" chunks="8" verb_preds="0" concepts="5" domain_bound="5" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="5" tot_pos="0" ratio_pos-negs="5" positive_affect_words="[ah]" positive_polar_words="[ah]">Ab ah bhi ja meri bahon mein . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_28">
-<sdivars id="28" tokens="9" mean_chars_leng="0" verbs="1" chunks="10" verb_preds="1" concepts="3" domain_bound="2" adjectives="0" abstract_words="2-[9-cause-[attivita,evento,informa],3-love-[abstract,time,attivita,evento]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.25" tot_negs="2.25" tot_pos="0.1" ratio_pos-negs="0.044444444444444446" positive_polar_words="[love]" abstract_eventiv_words="[cause/9,love/3]" concrete_words="[sari/2]">sari galti maaf , cause I love you . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_29">
-<sdivars id="29" tokens="6" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="4" domain_bound="3" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="3.75" tot_pos="0" ratio_pos-negs="3.75">aa ja meri bahon mein . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_30">
-<sdivars id="30" tokens="6" mean_chars_leng="0.8571428571428571" verbs="1" chunks="6" verb_preds="1" concepts="3" domain_bound="3" adjectives="1" abstract_words="2-[3-mere-[oggetto],5-lie-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="3.166666666666667" tot_pos="0.3333333333333333" ratio_pos-negs="0.08284023668639053" negative_affect_words="[mere,lie]" negative_polar_words="[mere,lie]" abstract_eventiv_words="[mere/3,lie/5]">mere lie tu sabkuch hain . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_31">
-<sdivars id="31" tokens="8" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="3.5" tot_pos="0.2" ratio_pos-negs="0.05714285714285715" negative_affect_words="[bar]" negative_polar_words="[bar]">ek bar dil bol de ' tu- . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_32">
-<sdivars id="32" tokens="7" mean_chars_leng="0.875" verbs="2" chunks="12" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0.08333333333333333" ratio_pos-negs="0.02898550724637681">i can do anything for you . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_33">
-<sdivars id="33" tokens="6" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="4" domain_bound="3" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="3.75" tot_pos="0" ratio_pos-negs="3.75">aa ja meri bahon mein . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_34">
-<sdivars id="34" tokens="6" mean_chars_leng="0.8571428571428571" verbs="1" chunks="6" verb_preds="1" concepts="3" domain_bound="3" adjectives="1" abstract_words="2-[3-mere-[oggetto],5-lie-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="3.166666666666667" tot_pos="0.3333333333333333" ratio_pos-negs="0.08284023668639053" negative_affect_words="[mere,lie]" negative_polar_words="[mere,lie]" abstract_eventiv_words="[mere/3,lie/5]">mere lie tu sabkuch hain . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_35">
-<sdivars id="35" tokens="7" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="3" domain_bound="3" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="2.5" tot_pos="0.2" ratio_pos-negs="0.08" negative_affect_words="[bar]" negative_polar_words="[bar]">ek bar bas bol de tu . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_36">
-<sdivars id="36" tokens="8" mean_chars_leng="1" verbs="3" chunks="12" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0.16666666666666666" ratio_pos-negs="0.05555555555555555" positive_polar_words="[baby]">i can do anything for you baby . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_37">
-<sdivars id="37" tokens="7" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="7" tot_pos="0" ratio_pos-negs="6">Tere bina neend mujhe aati nahi . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_38">
-<sdivars id="38" tokens="8" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="2" domain_bound="2" adjectives="1" abstract_words="1-[3-main-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.6666666666666666" tot_negs="5.791666666666666" tot_pos="0" ratio_pos-negs="5.125" positive_polar_words="[main]" abstract_eventiv_words="[main/3]">tujhe pata main kal raat soyi nahi . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_39">
-<sdivars id="39" tokens="8" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="6" domain_bound="5" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="4.833333333333333" tot_pos="0" ratio_pos-negs="4.833333333333333">Ab aa bhi ja meri bahon mein . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_40">
-<sdivars id="40" tokens="8" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="4" domain_bound="4" adjectives="1" abstract_words="1-[3-main-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="3.125" tot_pos="0.325" ratio_pos-negs="0.10400000000000001" positive_polar_words="[main]" abstract_eventiv_words="[main/3]">jee raha hu main teri yadon pe . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_41">
-<sdivars id="41" tokens="7" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="2" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[0-know-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" positive_polar_words="[know,baby]" abstract_eventiv_words="[know/0]">i know you-re my baby . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_42">
-<sdivars id="42" tokens="8" mean_chars_leng="0" verbs="3" chunks="11" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="2-[5-call-[astratto,evento,attivita],3-ready-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0.18181818181818182" ratio_pos-negs="0.09090909090909091" positive_polar_words="[call,ready]" abstract_eventiv_words="[call/5,ready/3]">so call me when you-re ready . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_43">
-<sdivars id="43" tokens="9" mean_chars_leng="0" verbs="2" chunks="7" verb_preds="2" concepts="5" domain_bound="3" adjectives="0" abstract_words="1-[9-cause-[attivita,evento,informa]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="3" tot_pos="0.2857142857142857" ratio_pos-negs="0.09523809523809523" positive_polar_words="[iss]" abstract_eventiv_words="[cause/9]">cause ab saha na jaye iss pyar ko . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_44">
-<sdivars id="44" tokens="5" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="1" abstract_words="1-[3-mere-[oggetto]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="2.7" tot_pos="0" ratio_pos-negs="2.2" negative_affect_words="[mere]" negative_polar_words="[mere]" abstract_eventiv_words="[mere/3]">mere isshq tum lo . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_45">
-<sdivars id="45" tokens="5" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="3" domain_bound="3" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2">meri jaan tum do . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_46">
-<sdivars id="46" tokens="6" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="6" tot_pos="0" ratio_pos-negs="5" positive_polar_words="[ki]">meri sapno ki khirki khulo . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_47">
-<sdivars id="47" tokens="8" mean_chars_leng="0" verbs="0" chunks="8" verb_preds="0" concepts="6" domain_bound="6" adjectives="1" abstract_words="1-[3-mere-[oggetto]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="4.125" tot_pos="0" ratio_pos-negs="4.125" negative_affect_words="[mere]" negative_polar_words="[mere,pas]" positive_affect_words="[ah]" positive_polar_words="[ah]" abstract_eventiv_words="[mere/3]">Ab ah bhi ja tu mere pas . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_48">
-<sdivars id="48" tokens="8" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="6" domain_bound="6" adjectives="1" abstract_words="1-[3-mere-[oggetto]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.6666666666666666" tot_negs="3.7916666666666665" tot_pos="0" ratio_pos-negs="3.125" negative_affect_words="[mere]" negative_polar_words="[mere]" abstract_eventiv_words="[mere/3]">ruk raha hain mere har ek saas . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_49">
-<sdivars id="49" tokens="9" mean_chars_leng="0" verbs="1" chunks="6" verb_preds="1" concepts="5" domain_bound="5" adjectives="1" abstract_words="1-[3-main-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="5.111111111111111" tot_pos="0.2777777777777778" ratio_pos-negs="0.05434782608695653" positive_polar_words="[main]" abstract_eventiv_words="[main/3]">jee raha hu main sirf teri yadon mein . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_50">
-<sdivars id="50" tokens="7" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="5" domain_bound="5" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="4" tot_pos="0" ratio_pos-negs="3">Ab rehna hain teri raho pe . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_51">
-<sdivars id="51" tokens="7" mean_chars_leng="0" verbs="0" chunks="7" verb_preds="0" concepts="3" domain_bound="3" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.25" tot_negs="5.25" tot_pos="0" ratio_pos-negs="5">mujhe jina hai teri khwabo mein . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_52">
-<sdivars id="52" tokens="3" mean_chars_leng="0.1111111111111111" verbs="1" chunks="3" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.3333333333333333" ratio_pos-negs="3.0" positive_polar_words="[like]">you_don-t_know_how_it_feels like . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_53">
-<sdivars id="53" tokens="6" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/2" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="4" tot_pos="0" ratio_pos-negs="3" positive_polar_words="[door]" concrete_words="[jab/1,door/1]">jab tu door hoti hain . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_54">
-<sdivars id="54" tokens="6" mean_chars_leng="0.8571428571428571" verbs="0" chunks="6" verb_preds="0" concepts="3" domain_bound="3" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.3333333333333333" tot_negs="4.333333333333333" tot_pos="0" ratio_pos-negs="4">mujhe teri yaad sataati hain . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_55">
-<sdivars id="55" tokens="8" mean_chars_leng="0" verbs="0" chunks="8" verb_preds="0" concepts="5" domain_bound="5" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="5" tot_pos="0" ratio_pos-negs="5" positive_affect_words="[ah]" positive_polar_words="[ah]">Ab ah bhi ja meri bahon mein . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_56">
-<sdivars id="56" tokens="6" mean_chars_leng="0.8571428571428571" verbs="2" chunks="6" verb_preds="2" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[5-die-[astratto,evento,attivita]]/0" modal_advs_adjs="1" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.3333333333333333" ratio_pos-negs="0.17948717948717946" negative_affect_words="[die]" negative_polar_words="[die,gonna]" abstract_eventiv_words="[die/5]">or_else Imma surely gonna die . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_57">
-<sdivars id="57" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0" positive_polar_words="[baby]">baby . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_58">
-<sdivars id="58" tokens="3" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="2-[3-love-[abstract,time,attivita,evento],5-hurts-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.3333333333333333" ratio_pos-negs="0.3333333333333333" negative_polar_words="[hurts]" positive_polar_words="[love]" abstract_eventiv_words="[love/3,hurts/5]">love hurts . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_59">
-<sdivars id="59" tokens="7" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="2-[5-hurts-[astratto,evento,attivita],3-starts-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.2" negative_affect_words="[less]" negative_polar_words="[less,hurts]" abstract_eventiv_words="[hurts/5,starts/3]">it hurts less when it starts . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_60">
-<sdivars id="60" tokens="7" mean_chars_leng="0" verbs="2" chunks="9" verb_preds="2" concepts="2" domain_bound="1" adjectives="0" abstract_words="3-[5-takes-[astratto,evento,attivita],5-things-[astratto,evento,attivita],3-gives-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2222222222222222" ratio_pos-negs="0.2222222222222222" negative_affect_words="[shit]" negative_polar_words="[shit]" positive_polar_words="[takes,gives]" abstract_eventiv_words="[takes/5,things/5,gives/3]">it takes things , gives shit . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_61">
-<sdivars id="61" tokens="4" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="2-[5-punctures-[astratto,evento,attivita],5-heart-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.25" negative_polar_words="[punctures]" abstract_eventiv_words="[punctures/5,heart/5]">punctures your heart . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_62">
-<sdivars id="62" tokens="13" mean_chars_leng="0" verbs="3" chunks="9" verb_preds="1" concepts="2" domain_bound="1" adjectives="1" abstract_words="2-[5-end-[astratto,evento,attivita],3-pitiful-[evaluative]]/1" modal_advs_adjs="1" untensed_verbs="0" dense_constituents="0" tot_negs="1.5769230769230769" tot_pos="0.3418803418803419" ratio_pos-negs="0.21680216802168023" negative_affect_words="[pitiful]" negative_polar_words="[pitiful]" positive_polar_words="[start]" abstract_eventiv_words="[end/5,pitiful/3]" concrete_words="[start/1]">this is just the start – in the end you-ll be pitiful . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_63">
-<sdivars id="63" tokens="11" mean_chars_leng="0" verbs="3" chunks="8" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="3-[3-try-[abstract,time,attivita,evento],3-get-[abstract,time,attivita,evento],3-rid-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0.3333333333333333" tot_negs="1.3333333333333333" tot_pos="0.125" ratio_pos-negs="0.09375" negative_affect_words="[rid]" negative_polar_words="[rid,get]" positive_polar_words="[try]" abstract_eventiv_words="[try/3,get/3,rid/3]">all the other broads-ll try to get rid of you . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_64">
-<sdivars id="64" tokens="10" mean_chars_leng="0.4444444444444444" verbs="4" chunks="15" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="2-[3-find-[abstract,time,attivita,evento],3-help-[abstract,time,attivita,evento]]/0" modal_advs_adjs="1" untensed_verbs="1" dense_constituents="0" tot_negs="3" tot_pos="0.13333333333333333" ratio_pos-negs="0.038709677419354833" positive_polar_words="[find,help]" abstract_eventiv_words="[find/3,help/3]">then you-ll find only_one hand to help you . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_65">
-<sdivars id="65" tokens="9" mean_chars_leng="1.8571428571428572" verbs="2" chunks="8" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="4-[9-friend-[umano,umano],9-foe-[umano,umano],3-try-[abstract,time,attivita,evento],3-find-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.125" ratio_pos-negs="0.04375" negative_affect_words="[foe]" negative_polar_words="[foe]" positive_polar_words="[friend,try,find]" abstract_eventiv_words="[friend/9,foe/9,try/3,find/3]">friend or foe – try to find it yourself . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_66">
-<sdivars id="66" tokens="8" mean_chars_leng="1.2222222222222223" verbs="3" chunks="10" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="2-[3-find-[abstract,time,attivita,evento],5-dies-[astratto,evento,attivita]]/0" modal_advs_adjs="1" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.09" negative_affect_words="[never]" negative_polar_words="[never,never,dies]" positive_polar_words="[find]" abstract_eventiv_words="[find/3,dies/5]">and you-ll find it never dies – . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_67">
-<sdivars id="67" tokens="5" mean_chars_leng="1.125" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="1" abstract_words="3-[3-old-[abstract,time,attivita,evento],3-love-[abstract,time,attivita,evento],3-renewed-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.2" tot_pos="0.2" ratio_pos-negs="0.15094339622641512" positive_polar_words="[love,renewed]" abstract_eventiv_words="[old/3,love/3,renewed/3]">an old love renewed . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="Aa Bhi Ja Lyrics.txt_68">
-<sdivars id="68" tokens="2" mean_chars_leng="1.25" verbs="0" chunks="5" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[1-ha-[astratto]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1" abstract_eventiv_words="[ha/1]">ha ! </sdivars>
+<sdivars id="13" tokens="15" mean_chars_leng="1.3333333333333333" verbs="3" chunks="15" verb_preds="3" concepts="2" domain_bound="1" adjectives="2" abstract_words="6-[3-find-[abstract,time,attivita,evento],5-dies-[astratto,evento,attivita],3-old-[abstract,time,attivita,evento],9-love-[astratto,emotivo,nquant],3-renewed-[abstract,time,attivita,evento],1-ha-[astratto]]/0" modal_advs_adjs="1" untensed_verbs="0" dense_constituents="0" tot_negs="1.6333333333333333" tot_pos="0.4" ratio_pos-negs="0.1348314606741573" negative_affect_words="[never]" negative_polar_words="[never,never,dies]" positive_polar_words="[find,love,renewed]" abstract_eventiv_words="[find/3,dies/5,old/3,love/9,renewed/3,ha/1]">and you-ll , find it never dies – an old love , renewed ha , , </sdivars>
 </verse_sdi_var>
 </verse_sdi_vars>
 </semantic_density>

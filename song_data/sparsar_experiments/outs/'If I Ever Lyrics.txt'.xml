@@ -1,202 +1,46 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <semantic_density>
 
-<text_level_sdis id="outs/'If I Ever Lyrics.txt'" general_sdi="2.949459865992647" mean_char_leng="0.323450522493051" propositional_negs="2" negative_sentiment_words="15" positive_sentiment_words="59" deep_conceptual_index="133.7307692307692" token_rare_words_ratio="0.036939313984168866" token_type_ratio="0.5092348284960422" RID_category_ratio="[33-primary/0.5789473684210527,[abstract_tought,abstract_tought,abstract_tought,abstract_tought,abstract_tought,abstract_tought,abstract_tought,affection,affection,affection,affection,ascend,ascend,ascend,ascend,brink-passage,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,depth,descent,diffusion,diffusion,expressive_beh,expressive_beh,height,height,instru_behavior,instru_behavior,instru_behavior,instru_behavior,moral_imperative,narcissism,narcissism,narcissism,orality,orality,orality,orality,passivity,positive_affect,restraint,social_behavior,temporal_repere,temporal_repere,temporal_repere,vision,vision,vision,vision,vision,voyage]]" semantic_cohesion="0"></text_level_sdis>
-<verse_sdi_vars ids="65">
+<text_level_sdis id="outs/'If I Ever Lyrics.txt'" general_sdi="5.138599897985599" mean_char_leng="0.33546648885871694" propositional_negs="1" negative_sentiment_words="9" positive_sentiment_words="32" deep_conceptual_index="361.7715617715618" token_rare_words_ratio="0.037037037037037035" token_type_ratio="0.6342592592592593" RID_category_ratio="[17-primary/0.5862068965517241,[abstract_tought,abstract_tought,affection,affection,affection,ascend,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,concreteness,descent,diffusion,height,instru_behavior,moral_imperative,orality,orality,orality,positive_affect,restraint,social_behavior,temporal_repere,temporal_repere,vision,vision,vision]]" semantic_cohesion="0"></text_level_sdis>
+<verse_sdi_vars ids="13">
 <verse_sdi_var id="If I Ever Lyrics.txt_1">
 <sdivars id="1" tokens="7" mean_chars_leng="0" verbs="0" chunks="7" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">if I Ever Lyrics by Aziz . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="If I Ever Lyrics.txt_2">
-<sdivars id="2" tokens="6" mean_chars_leng="0" verbs="2" chunks="8" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="3-[3-let-[abstract,time,attivita,evento],3-get-[abstract,time,attivita,evento],5-right-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.125" ratio_pos-negs="0.125" negative_polar_words="[let,get]" positive_polar_words="[right]" abstract_eventiv_words="[let/3,get/3,right/5]">let ME GET IT RIGHT . </sdivars>
+<sdivars id="2" tokens="6" mean_chars_leng="0" verbs="2" chunks="9" verb_preds="1" concepts="1" domain_bound="0" adjectives="1" abstract_words="3-[3-let-[abstract,time,attivita,evento],3-get-[abstract,time,attivita,evento],8-right-[soggettivo]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.16666666666666666" tot_pos="0.3333333333333333" ratio_pos-negs="2.0" negative_polar_words="[let,get]" positive_polar_words="[right]" abstract_eventiv_words="[let/3,get/3,right/8]">let ME GET IT RIGHT : </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="If I Ever Lyrics.txt_3">
-<sdivars id="3" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">ohh . </sdivars>
+<sdivars id="3" tokens="3" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">ohh , . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="If I Ever Lyrics.txt_4">
-<sdivars id="4" tokens="8" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="2" concepts="1" domain_bound="1" adjectives="0" abstract_words="2-[7-motherfucker-[umano],0-stay-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.2" negative_affect_words="[motherfucker]" negative_polar_words="[motherfucker,throwed]" positive_affect_words="[yes]" positive_polar_words="[yes,like,stay]" abstract_eventiv_words="[motherfucker/7,stay/0]">yes a motherfucker like me stay throwed . </sdivars>
+<sdivars id="4" tokens="20" mean_chars_leng="0" verbs="2" chunks="11" verb_preds="2" concepts="3" domain_bound="2" adjectives="1" abstract_words="3-[7-motherfucker-[umano],3-stay-[abstract,time,attivita,evento],3-bad-[soggettivo]]/2" modal_advs_adjs="1" untensed_verbs="0" dense_constituents="0.25" tot_negs="1.9666666666666668" tot_pos="0.28181818181818186" ratio_pos-negs="0.1432973805855162" negative_affect_words="[motherfucker,bad]" negative_polar_words="[motherfucker,bad,throwed]" positive_affect_words="[yes]" positive_polar_words="[yes,like,stay,like,baseball]" abstract_eventiv_words="[motherfucker/7,stay/3,bad/3]" concrete_words="[baseball/4,back/4]">, , yes , a motherfucker like me , stay throwed , like , a baseball or a bad back . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="If I Ever Lyrics.txt_5">
-<sdivars id="5" tokens="9" mean_chars_leng="0" verbs="1" chunks="6" verb_preds="1" concepts="2" domain_bound="0" adjectives="1" abstract_words="1-[0-bad-[abstract,stato]]/2" modal_advs_adjs="1" untensed_verbs="0" dense_constituents="0" tot_negs="0.1111111111111111" tot_pos="0.1111111111111111" ratio_pos-negs="1.0" negative_affect_words="[bad]" negative_polar_words="[bad]" positive_polar_words="[like,baseball]" abstract_eventiv_words="[bad/0]" concrete_words="[baseball/2,back/2]">like a baseball , or a bad back . </sdivars>
+<sdivars id="5" tokens="81" mean_chars_leng="0" verbs="16" chunks="73" verb_preds="7" concepts="16" domain_bound="7" adjectives="5" abstract_words="15-[3-got-[abstract,time,attivita,evento],3-come-[abstract,time,attivita,evento],5-funds-[astratto,evento,attivita],10-pack-[istituzione,oggetto,strumento],10-pack-[istituzione,oggetto,strumento],8-wavy-[evaluative],8-wavy-[evaluative],3-say-[abstract,time,attivita,evento],6-see-[],5-hold-[astratto,evento,attivita],5-tossing-[astratto,evento,attivita],6-see-[],5-hold-[astratto,evento,attivita],3-got-[abstract,time,attivita,evento],5-blow-[astratto,evento,attivita]]/7" modal_advs_adjs="1" untensed_verbs="6" dense_constituents="0.09090909090909091" tot_negs="9.59013748597082" tot_pos="0.29342127515643496" ratio_pos-negs="0.030596148969258663" negative_affect_words="[nigga,fat,blow]" negative_polar_words="[nigga,fat,blow,got,rum,tossing,coughing,got,roach]" positive_polar_words="[cash,funds,sack,pack,pack,walking,wavy,talking,wavy,gal,baby,baby,clip,like,bag]" abstract_eventiv_words="[got/3,come/3,funds/5,pack/10,pack/10,wavy/8,wavy/8,say/3,see/6,hold/5,tossing/5,see/6,hold/5,got/3,blow/5]" concrete_words="[cash/1,sack/2,pack/2,rum/1,pack/2,roach/1,bag/2]">where , the cash at nigga got ta , come up with the funds for , a fat sack dutch pack and a fifth of rum in , the back pack , walking wavy , talking wavy gal , say she don-t do this often maybe see , who hold it down without tossing baby see , who Hold it down without coughing baby got , a roach clip from last night plus we about to blow like a bag . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="If I Ever Lyrics.txt_6">
-<sdivars id="6" tokens="5" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2" positive_polar_words="[cash]" concrete_words="[cash/1]">where the cash at ? </sdivars>
+<sdivars id="6" tokens="42" mean_chars_leng="0.7777777777777778" verbs="6" chunks="32" verb_preds="3" concepts="15" domain_bound="11" adjectives="5" abstract_words="9-[3-use-[abstract,time,attivita,evento],5-red-haired-[astratto,evento,attivita],10-white-[astratto,oggetto,strumento],3-get-[abstract,time,attivita,evento],0-perfect-[abstract,stato],12-score-[astratto,attivita,informa,nquant,stato],3-potent-[abstract,time,attivita,evento],8-greener-[evaluative],5-gone-[astratto,evento,attivita]]/8" modal_advs_adjs="0" untensed_verbs="2" dense_constituents="0.16666666666666666" tot_negs="7.019047619047619" tot_pos="0.23660714285714285" ratio_pos-negs="0.03034660016286645" negative_polar_words="[get]" positive_polar_words="[pint,brew,white,perfect,score,lawn]" abstract_eventiv_words="[use/3,red-haired/5,white/10,get/3,perfect/0,score/12,potent/3,greener/8,gone/5]" concrete_words="[pint/1,brew/1,pipe/1,bud/1,percolators/1,vapors/1,lungs/1,lawn/1]">Pipe i could use a pint of brew and some red-haired piff shawn White on the half pipe this bud , get the perfect score percolators in my bong potent vapors in my lungs cheeba greener than my lawn so gone . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="If I Ever Lyrics.txt_7">
-<sdivars id="7" tokens="8" mean_chars_leng="0.42105263157894735" verbs="2" chunks="7" verb_preds="1" concepts="2" domain_bound="2" adjectives="0" abstract_words="2-[3-come-[abstract,time,attivita,evento],5-funds-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="2" tot_pos="0.14285714285714285" ratio_pos-negs="0.059006211180124224" negative_affect_words="[nigga]" negative_polar_words="[nigga,gotta]" positive_polar_words="[funds]" abstract_eventiv_words="[come/3,funds/5]">nigga gotta come up with the funds . </sdivars>
+<sdivars id="7" tokens="3" mean_chars_leng="1.8837209302325582" verbs="0" chunks="5" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2" negative_affect_words="[nigga]" negative_polar_words="[nigga]">nigga i . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="If I Ever Lyrics.txt_8">
-<sdivars id="8" tokens="5" mean_chars_leng="1.125" verbs="0" chunks="5" verb_preds="0" concepts="0" domain_bound="0" adjectives="1" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.2" tot_pos="0" ratio_pos-negs="1.2" negative_affect_words="[fat]" negative_polar_words="[fat]" positive_polar_words="[sack]" concrete_words="[sack/1]">for a fat sack . </sdivars>
+<sdivars id="8" tokens="5" mean_chars_leng="1.2" verbs="2" chunks="6" verb_preds="1" concepts="1" domain_bound="0" adjectives="1" abstract_words="1-[9-lean-[astratto,informa,tecno]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.2" tot_pos="0.4" ratio_pos-negs="0.28571428571428575" negative_affect_words="[no]" negative_polar_words="[no,no]" positive_polar_words="[lean]" abstract_eventiv_words="[lean/9]">Don-T need no lean . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="If I Ever Lyrics.txt_9">
-<sdivars id="9" tokens="8" mean_chars_leng="0" verbs="1" chunks="10" verb_preds="1" concepts="1" domain_bound="1" adjectives="2" abstract_words="1-[5-pack-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.6666666666666666" tot_negs="1.9166666666666665" tot_pos="0.225" ratio_pos-negs="0.1173913043478261" negative_polar_words="[rum]" positive_polar_words="[pack]" abstract_eventiv_words="[pack/5]">dutch pack and a fifth of rum . </sdivars>
+<sdivars id="9" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" concrete_words="[codeine/1]">don-t need codeine . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="If I Ever Lyrics.txt_10">
-<sdivars id="10" tokens="5" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="0" adjectives="1" abstract_words="1-[5-pack-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="1.2" tot_pos="0" ratio_pos-negs="0.2" positive_polar_words="[pack]" abstract_eventiv_words="[pack/5]">in the back pack . </sdivars>
+<sdivars id="10" tokens="16" mean_chars_leng="0" verbs="3" chunks="17" verb_preds="1" concepts="4" domain_bound="2" adjectives="1" abstract_words="4-[9-cause-[attivita,evento,informa],14-life-[any,astratto,attivita,cambia,informa,stato,tempo,umano],5-weed-[astratto,evento,attivita],3-got-[abstract,time,attivita,evento]]/1" modal_advs_adjs="0" untensed_verbs="2" dense_constituents="0" tot_negs="2.5625" tot_pos="0.24632352941176472" ratio_pos-negs="0.09612625538020086" negative_affect_words="[weed]" negative_polar_words="[weed,got]" positive_polar_words="[good,girl,lighting]" abstract_eventiv_words="[cause/9,life/14,weed/5,got/3]" concrete_words="[girl/1]">cause , I-m high off life and this weed got a good girl lighting . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="If I Ever Lyrics.txt_11">
-<sdivars id="11" tokens="4" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="0" domain_bound="0" adjectives="2" abstract_words="1-[5-wavy-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.5" tot_pos="0" ratio_pos-negs="0.5" positive_polar_words="[walking,wavy]" abstract_eventiv_words="[wavy/5]">walking , wavy . </sdivars>
+<sdivars id="11" tokens="10" mean_chars_leng="0.5714285714285714" verbs="4" chunks="11" verb_preds="2" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[5-weed-[astratto,evento,attivita]]/0" modal_advs_adjs="2" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.18181818181818182" ratio_pos-negs="0.11570247933884298" negative_affect_words="[weed]" negative_polar_words="[weed,bugging]" abstract_eventiv_words="[weed/5]">This weed i must be bugging i-m over_here . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="If I Ever Lyrics.txt_12">
-<sdivars id="12" tokens="4" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="0" domain_bound="0" adjectives="2" abstract_words="1-[5-wavy-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.5" tot_pos="0" ratio_pos-negs="0.5" positive_polar_words="[talking,wavy]" abstract_eventiv_words="[wavy/5]">talking , wavy . </sdivars>
+<sdivars id="12" tokens="12" mean_chars_leng="1.875" verbs="4" chunks="13" verb_preds="2" concepts="1" domain_bound="1" adjectives="1" abstract_words="2-[5-tripping-[astratto,evento,attivita],5-closing-[astratto,evento,attivita]]/2" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0.25" tot_negs="2.333333333333333" tot_pos="0.48717948717948717" ratio_pos-negs="0.11576542269611577" positive_polar_words="[watching,movie]" abstract_eventiv_words="[tripping/5,closing/5]" concrete_words="[movie/1,eyelids/1]">Tripping i-m , watching a movie my eyelids are closing . </sdivars>
 </verse_sdi_var>
 <verse_sdi_var id="If I Ever Lyrics.txt_13">
-<sdivars id="13" tokens="8" mean_chars_leng="0" verbs="3" chunks="13" verb_preds="2" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[3-say-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.15384615384615385" ratio_pos-negs="0.15384615384615385" positive_polar_words="[gal]" abstract_eventiv_words="[say/3]">gal say she don-t do this often ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_14">
-<sdivars id="14" tokens="2" mean_chars_leng="0.5714285714285714" verbs="0" chunks="3" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="1" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0">maybe . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_15">
-<sdivars id="15" tokens="8" mean_chars_leng="0.5714285714285714" verbs="2" chunks="11" verb_preds="2" concepts="1" domain_bound="1" adjectives="1" abstract_words="3-[5-see-[astratto,evento,attivita],5-hold-[astratto,evento,attivita],5-tossing-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.125" tot_pos="0.4318181818181818" ratio_pos-negs="0.2545454545454546" negative_polar_words="[tossing]" abstract_eventiv_words="[see/5,hold/5,tossing/5]">see who hold it down without tossing . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_16">
-<sdivars id="16" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0" positive_polar_words="[baby]">baby . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_17">
-<sdivars id="17" tokens="8" mean_chars_leng="0" verbs="3" chunks="11" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="2-[5-see-[astratto,evento,attivita],5-hold-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.18181818181818182" ratio_pos-negs="0.18181818181818182" negative_polar_words="[coughing]" abstract_eventiv_words="[see/5,hold/5]">see who hold it down without coughing . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_18">
-<sdivars id="18" tokens="2" mean_chars_leng="0.5714285714285714" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0" ratio_pos-negs="0" positive_polar_words="[baby]">baby . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_19">
-<sdivars id="19" tokens="8" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[3-got-[abstract,time,attivita,evento]]/2" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="1" tot_pos="0.25" ratio_pos-negs="0.25" negative_polar_words="[got,roach]" positive_polar_words="[clip]" abstract_eventiv_words="[got/3]" concrete_words="[roach/1,clip/1]">got a roach clip from last night . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_20">
-<sdivars id="20" tokens="11" mean_chars_leng="0.5333333333333333" verbs="1" chunks="8" verb_preds="0" concepts="2" domain_bound="0" adjectives="0" abstract_words="1-[5-blow-[astratto,evento,attivita]]/2" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.09090909090909091" ratio_pos-negs="0.05928853754940712" negative_affect_words="[blow]" negative_polar_words="[blow]" positive_polar_words="[like,bag]" abstract_eventiv_words="[blow/5]" concrete_words="[bag/2,pipe/1]">plus , we about to blow like a bag pipe . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_21">
-<sdivars id="21" tokens="4" mean_chars_leng="0" verbs="2" chunks="5" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[3-use-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.2" abstract_eventiv_words="[use/3]">i could use . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_22">
-<sdivars id="22" tokens="5" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.2" positive_polar_words="[pint,brew]" concrete_words="[pint/1]">a pint of brew . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_23">
-<sdivars id="23" tokens="5" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="0" domain_bound="0" adjectives="1" abstract_words="1-[5-red-haired-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.2" tot_pos="0" ratio_pos-negs="1.2" abstract_eventiv_words="[red-haired/5]">and some red-haired piff . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_24">
-<sdivars id="24" tokens="7" mean_chars_leng="0" verbs="0" chunks="6" verb_preds="0" concepts="2" domain_bound="1" adjectives="1" abstract_words="1-[5-white-[astratto,evento,attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.3333333333333333" tot_negs="0.976190476190476" tot_pos="0" ratio_pos-negs="0.6428571428571428" positive_polar_words="[white]" abstract_eventiv_words="[white/5]" concrete_words="[pipe/1]">shawn White on the half pipe . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_25">
-<sdivars id="25" tokens="7" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="2" domain_bound="1" adjectives="1" abstract_words="3-[7-get-[],0-perfect-[abstract,stato],12-score-[astratto,attivita,informa,nquant,stato]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.6428571428571428" tot_pos="0.34285714285714286" ratio_pos-negs="0.5333333333333334" negative_polar_words="[get]" positive_polar_words="[perfect,score]" abstract_eventiv_words="[get/7,perfect/0,score/12]" concrete_words="[bud/1]">this bud get the perfect score . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_26">
-<sdivars id="26" tokens="5" mean_chars_leng="0.5" verbs="1" chunks="4" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.5" concrete_words="[percolators/1]">percolators in my bong . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_27">
-<sdivars id="27" tokens="6" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="2" domain_bound="2" adjectives="1" abstract_words="1-[3-potent-[abstract,time,attivita,evento]]/2" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.1666666666666667" tot_pos="0" ratio_pos-negs="1.1666666666666667" abstract_eventiv_words="[potent/3]" concrete_words="[vapors/1,lungs/1]">potent vapors in my lungs . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_28">
-<sdivars id="28" tokens="6" mean_chars_leng="1" verbs="0" chunks="5" verb_preds="0" concepts="1" domain_bound="1" adjectives="1" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="2.666666666666667" tot_pos="0" ratio_pos-negs="2.166666666666667" positive_polar_words="[lawn]" concrete_words="[lawn/1]">cheeba greener than my lawn . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_29">
-<sdivars id="29" tokens="3" mean_chars_leng="0.45454545454545453" verbs="1" chunks="5" verb_preds="0" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-gone-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="2" tot_pos="0.3333333333333333" ratio_pos-negs="0.13580246913580246" abstract_eventiv_words="[gone/5]">so gone . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_30">
-<sdivars id="30" tokens="2" mean_chars_leng="0" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2" negative_affect_words="[nigga]" negative_polar_words="[nigga]">nigga . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_31">
-<sdivars id="31" tokens="6" mean_chars_leng="0.8571428571428571" verbs="2" chunks="7" verb_preds="1" concepts="1" domain_bound="0" adjectives="1" abstract_words="1-[9-lean-[astratto,informa,tecno]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.16666666666666666" tot_pos="0.3333333333333333" ratio_pos-negs="0.32558139534883723" negative_affect_words="[no]" negative_polar_words="[no,no]" positive_polar_words="[lean]" abstract_eventiv_words="[lean/9]">i don-t need no lean . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_32">
-<sdivars id="32" tokens="4" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" concrete_words="[codeine/1]">don-t need codeine . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_33">
-<sdivars id="33" tokens="10" mean_chars_leng="0" verbs="2" chunks="9" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="3-[3-cause-[abstract,time,attivita,evento],3-life-[abstract,time,attivita,evento],5-weed-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0.25" tot_negs="1.25" tot_pos="0.1111111111111111" ratio_pos-negs="0.08888888888888888" negative_affect_words="[weed]" negative_polar_words="[weed]" abstract_eventiv_words="[cause/3,life/3,weed/5]">cause I-m high off life and this weed . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_34">
-<sdivars id="34" tokens="8" mean_chars_leng="0" verbs="2" chunks="8" verb_preds="1" concepts="2" domain_bound="2" adjectives="1" abstract_words="2-[3-got-[abstract,time,attivita,evento],5-weed-[astratto,evento,attivita]]/1" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="2.125" tot_pos="0.375" ratio_pos-negs="0.17647058823529413" negative_affect_words="[weed]" negative_polar_words="[weed,got]" positive_polar_words="[good,girl,lighting]" abstract_eventiv_words="[got/3,weed/5]" concrete_words="[girl/1]">got a good girl lighting this weed . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_35">
-<sdivars id="35" tokens="5" mean_chars_leng="0" verbs="3" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="2" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" negative_polar_words="[bugging]">i must be bugging . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_36">
-<sdivars id="36" tokens="5" mean_chars_leng="0.5714285714285714" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="1" adjectives="1" abstract_words="1-[8-tripping-[evaluative]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.2" tot_pos="0.4" ratio_pos-negs="0.22580645161290325" abstract_eventiv_words="[tripping/8]">i-m over_here tripping . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_37">
-<sdivars id="37" tokens="6" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[watching,movie]">i-m watching a movie . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_38">
-<sdivars id="38" tokens="5" mean_chars_leng="1" verbs="2" chunks="5" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-closing-[astratto,evento,attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" abstract_eventiv_words="[closing/5]" concrete_words="[eyelids/1]">my eyelids are closing . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_39">
-<sdivars id="39" tokens="2" mean_chars_leng="0.7142857142857143" verbs="1" chunks="4" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[5-minutes-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.25" ratio_pos-negs="0.35" abstract_eventiv_words="[minutes/5]">minutes ? </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_40">
-<sdivars id="40" tokens="4" mean_chars_leng="0.23529411764705882" verbs="1" chunks="5" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[3-got-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.8500000000000001" negative_polar_words="[got]" abstract_eventiv_words="[got/3]">i got five . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_41">
-<sdivars id="41" tokens="3" mean_chars_leng="0.625" verbs="0" chunks="4" verb_preds="0" concepts="2" domain_bound="2" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0" ratio_pos-negs="2">ryan Goslin ; </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_42">
-<sdivars id="42" tokens="6" mean_chars_leng="0.35714285714285715" verbs="1" chunks="6" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="2-[3-got-[abstract,time,attivita,evento],12-drive-[astratto,attivita,oggetto,stato,strumento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.12280701754385964" negative_affect_words="[nigga]" negative_polar_words="[nigga,got]" positive_polar_words="[drive]" abstract_eventiv_words="[got/3,drive/12]">nigga I got , drive . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_43">
-<sdivars id="43" tokens="5" mean_chars_leng="0.2857142857142857" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="1-[3-learned-[abstract,time,attivita,evento]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.7000000000000001" negative_affect_words="[game]" negative_polar_words="[game]" positive_polar_words="[learned]" abstract_eventiv_words="[learned/3]" concrete_words="[game/2]">i learned the game . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_44">
-<sdivars id="44" tokens="6" mean_chars_leng="0" verbs="2" chunks="9" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="2-[0-know-[abstract,stato],0-want-[abstract,stato]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2222222222222222" ratio_pos-negs="0.2222222222222222" positive_polar_words="[know,want]" abstract_eventiv_words="[know/0,want/0]">i know what I want . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_45">
-<sdivars id="45" tokens="6" mean_chars_leng="0" verbs="1" chunks="6" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666">and I-m in it . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_46">
-<sdivars id="46" tokens="7" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="1" untensed_verbs="1" dense_constituents="0" tot_negs="3" tot_pos="0.2" ratio_pos-negs="0.06666666666666667" positive_polar_words="[step]">so won-t you step aside . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_47">
-<sdivars id="47" tokens="6" mean_chars_leng="0" verbs="1" chunks="6" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[8-bro-[istituzione]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" abstract_eventiv_words="[bro/8]">you ain-t my bro . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_48">
-<sdivars id="48" tokens="6" mean_chars_leng="0.7142857142857143" verbs="1" chunks="6" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.09722222222222221" negative_polar_words="[homie]">you ain-t my homie . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_49">
-<sdivars id="49" tokens="6" mean_chars_leng="0" verbs="2" chunks="10" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[3-recognize-[abstract,time,attivita,evento]]/0" modal_advs_adjs="1" untensed_verbs="0" dense_constituents="0" tot_negs="2" tot_pos="0.2" ratio_pos-negs="0.1" positive_polar_words="[recognize]" abstract_eventiv_words="[recognize/3]">why won-t you recognize . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_50">
-<sdivars id="50" tokens="7" mean_chars_leng="0" verbs="1" chunks="4" verb_preds="1" concepts="2" domain_bound="1" adjectives="1" abstract_words="1-[3-look-[abstract,time,attivita,evento]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="1" tot_negs="1.6428571428571428" tot_pos="0.39285714285714285" ratio_pos-negs="0.2391304347826087" negative_affect_words="[dead]" negative_polar_words="[dead]" positive_polar_words="[eyes]" abstract_eventiv_words="[look/3]" concrete_words="[eyes/1]">look into a dead poet-s eyes . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_51">
-<sdivars id="51" tokens="9" mean_chars_leng="0" verbs="0" chunks="5" verb_preds="0" concepts="1" domain_bound="1" adjectives="1" abstract_words="1-[8-hydro-[istituzione]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.1111111111111112" tot_pos="0" ratio_pos-negs="1.1111111111111112" negative_affect_words="[ho]" negative_polar_words="[ho]" abstract_eventiv_words="[hydro/8]">ho , its I , with the hydro . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_52">
-<sdivars id="52" tokens="5" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="2" domain_bound="1" adjectives="1" abstract_words="1-[3-lower-[abstract,time,attivita,evento]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="2.7" tot_pos="0.4" ratio_pos-negs="0.14814814814814814" negative_affect_words="[lower]" negative_polar_words="[lower]" positive_polar_words="[eyes,lower]" abstract_eventiv_words="[lower/3]" concrete_words="[eyes/1]">eyes lower than 5-4 . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_53">
-<sdivars id="53" tokens="4" mean_chars_leng="0" verbs="1" chunks="3" verb_preds="1" concepts="1" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.3333333333333333" ratio_pos-negs="0.3333333333333333" positive_polar_words="[woman]">woman with hunchback-s . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_54">
-<sdivars id="54" tokens="4" mean_chars_leng="0.5555555555555556" verbs="0" chunks="4" verb_preds="0" concepts="1" domain_bound="1" adjectives="0" abstract_words="1-[5-view-[astratto,evento,attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0" ratio_pos-negs="1" abstract_eventiv_words="[view/5]" concrete_words="[dinosaurs/1]">view of dinosaurs . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_55">
-<sdivars id="55" tokens="6" mean_chars_leng="0" verbs="1" chunks="5" verb_preds="1" concepts="1" domain_bound="0" adjectives="1" abstract_words="2-[3-prime-[abstract,time,attivita,evento],11-source-[astratto,attivita,informa,oggetto,strumento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0.16666666666666666" tot_pos="0.16666666666666666" ratio_pos-negs="1.0" positive_polar_words="[prime]" abstract_eventiv_words="[prime/3,source/11]">i-m a prime source . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_56">
-<sdivars id="56" tokens="4" mean_chars_leng="0" verbs="2" chunks="5" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.2" positive_polar_words="[sauced]">i-m sauced . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_57">
-<sdivars id="57" tokens="12" mean_chars_leng="0" verbs="3" chunks="16" verb_preds="2" concepts="2" domain_bound="0" adjectives="0" abstract_words="4-[0-decide-[abstract,stato],14-life-[any,astratto,attivita,cambia,informa,stato,tempo,umano],0-become-[abstract,stato],5-soar-[astratto,evento,attivita]]/0" modal_advs_adjs="0" untensed_verbs="1" dense_constituents="0" tot_negs="1" tot_pos="0.125" ratio_pos-negs="0.125" positive_polar_words="[decide,become,soar]" abstract_eventiv_words="[decide/0,life/14,become/0,soar/5]">you decide your , life , or become and eye soar . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_58">
-<sdivars id="58" tokens="9" mean_chars_leng="0.36363636363636365" verbs="1" chunks="7" verb_preds="1" concepts="3" domain_bound="2" adjectives="1" abstract_words="2-[5-soar-[astratto,evento,attivita],7-higher-[valutativo]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0.5" tot_negs="1.2777777777777777" tot_pos="0.25396825396825395" ratio_pos-negs="0.15472527472527473" positive_polar_words="[soar,higher]" abstract_eventiv_words="[soar/5,higher/7]" concrete_words="[fire/2]">i soar higher than the Oakland Hill Fire . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_59">
-<sdivars id="59" tokens="5" mean_chars_leng="0.4444444444444444" verbs="1" chunks="5" verb_preds="1" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[3-win-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2" ratio_pos-negs="0.45000000000000007" positive_polar_words="[win]" abstract_eventiv_words="[win/3]">and I always win . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_60">
-<sdivars id="60" tokens="4" mean_chars_leng="0" verbs="2" chunks="7" verb_preds="2" concepts="0" domain_bound="0" adjectives="0" abstract_words="1-[3-give-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.2857142857142857" ratio_pos-negs="0.2857142857142857" positive_polar_words="[rope]" abstract_eventiv_words="[give/3]">give me rope . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_61">
-<sdivars id="61" tokens="6" mean_chars_leng="0" verbs="2" chunks="7" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.14285714285714285" ratio_pos-negs="0.14285714285714285" positive_polar_words="[tie]">i couldn-t tie em . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_62">
-<sdivars id="62" tokens="8" mean_chars_leng="0" verbs="1" chunks="7" verb_preds="1" concepts="2" domain_bound="1" adjectives="1" abstract_words="1-[5-bigger-[astratto,evento,attivita]]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1.625" tot_pos="0.26785714285714285" ratio_pos-negs="0.16483516483516483" positive_polar_words="[bigger,fish,fry]" abstract_eventiv_words="[bigger/5]" concrete_words="[fish/1]">but bigger fish , I fry em . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_63">
-<sdivars id="63" tokens="9" mean_chars_leng="1.2857142857142858" verbs="2" chunks="7" verb_preds="1" concepts="2" domain_bound="1" adjectives="0" abstract_words="1-[3-got-[abstract,time,attivita,evento]]/2" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.14285714285714285" ratio_pos-negs="0.11111111111111109" negative_affect_words="[no]" negative_polar_words="[no,no,got]" positive_polar_words="[boy,boy]" abstract_eventiv_words="[got/3]" concrete_words="[boy/1,boy/1]">boy boy I ain-t got no time . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_64">
-<sdivars id="64" tokens="7" mean_chars_leng="0" verbs="1" chunks="6" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="0" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" positive_polar_words="[dime]" concrete_words="[dime/1]">i just need myself a dime . </sdivars>
-</verse_sdi_var>
-<verse_sdi_var id="If I Ever Lyrics.txt_65">
-<sdivars id="65" tokens="10" mean_chars_leng="0" verbs="2" chunks="6" verb_preds="1" concepts="1" domain_bound="1" adjectives="0" abstract_words="0-[]/1" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.16666666666666666" ratio_pos-negs="0.16666666666666666" negative_polar_words="[fly]" positive_polar_words="[like]" concrete_words="[islands/1]">that I could fly in from the islands like . </sdivars>
+<sdivars id="13" tokens="6" mean_chars_leng="0.5625" verbs="1" chunks="5" verb_preds="1" concepts="3" domain_bound="3" adjectives="0" abstract_words="2-[5-minutes-[astratto,evento,attivita],3-got-[abstract,time,attivita,evento]]/0" modal_advs_adjs="0" untensed_verbs="0" dense_constituents="0" tot_negs="1" tot_pos="0.2" ratio_pos-negs="0.128" negative_polar_words="[got]" abstract_eventiv_words="[minutes/5,got/3]">minutes i got five ryan Goslin _99170 </sdivars>
 </verse_sdi_var>
 </verse_sdi_vars>
 </semantic_density>

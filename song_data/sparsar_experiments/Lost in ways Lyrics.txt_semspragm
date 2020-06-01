@@ -1,0 +1,74 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Lost in ways Lyrics.txt_1-1  []-negative  [neg]
+Lost in ways Lyrics.txt_2-3  []-negative  []
+Lost in ways Lyrics.txt_2-4  []-negative  []
+Lost in ways Lyrics.txt_2-5  []-positive  [neg]
+Lost in ways Lyrics.txt_3-10  []-negative  []
+Lost in ways Lyrics.txt_3-11  []-negative  []
+Lost in ways Lyrics.txt_3-12  []-negative  []
+Lost in ways Lyrics.txt_4-17  []-negative  []
+Lost in ways Lyrics.txt_5-23  []-positive  [neg]
+Lost in ways Lyrics.txt_5-24  [but-advers]-negative  [fgb,neg]
+Lost in ways Lyrics.txt_6-32  []-positive  []
+Lost in ways Lyrics.txt_6-33  []-negative  []
+Lost in ways Lyrics.txt_6-34  []-negative  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Lost in ways Lyrics.txt_1-1  [lost,in,ways,Lyrics,by,vision]  [title]
+Lost in ways Lyrics.txt_2-3  [i,don-t,want- ,2x]  [provide_expl_just(lose,[external,factive,narration,foreground,objective]),propose_opin_neg(live,[external,factive,explanation,background,objective]),propose_opin_neg(don-t,[external,factive,explanation,background,objective]),propose_opin_neg(let,[external,factive,explanation,background,objective])]
+Lost in ways Lyrics.txt_2-4  [we,you,i,don-t,want,to,let]  [provide_expl_just(lose,[external,factive,narration,foreground,objective]),propose_opin_neg(live,[external,factive,explanation,background,objective]),propose_opin_neg(don-t,[external,factive,explanation,background,objective]),propose_opin_neg(let,[external,factive,explanation,background,objective])]
+Lost in ways Lyrics.txt_2-5  [live,everyday,,,always,feeling,lost,in,ways]  [provide_expl_just(lose,[external,factive,narration,foreground,objective]),propose_opin_neg(live,[external,factive,explanation,background,objective]),propose_opin_neg(don-t,[external,factive,explanation,background,objective]),propose_opin_neg(let,[external,factive,explanation,background,objective])]
+Lost in ways Lyrics.txt_3-10  [i,don-t,want,to,stand,still,2x,3x]  [provide_expl_just(stand,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,foreground,objective])]
+Lost in ways Lyrics.txt_3-11  [i,don-t,want- ]  [provide_expl_just(stand,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,foreground,objective])]
+Lost in ways Lyrics.txt_3-12  [i,don-t,want,to,stand,still]  [provide_expl_just(stand,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,foreground,objective])]
+Lost in ways Lyrics.txt_4-17  [i,don-t,want-!,to,stand,still]  [provide_expl_just(stand,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective])]
+Lost in ways Lyrics.txt_5-23  [i,want,to,scream]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(scream,[external,factive,narration,background,objective])]
+Lost in ways Lyrics.txt_5-24  [but,i,have,nothing,to,say]  [reject_expl_just(say,[external,factive,narration,background,objective]),reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(scream,[external,factive,narration,background,objective])]
+Lost in ways Lyrics.txt_6-32  [i,have,been,walking,in,this,dream]  [provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(walk,[external,factive,narration,foreground,objective])]
+Lost in ways Lyrics.txt_6-33  [,,standing,still,in,the,light,of,day,i,,,don-t,want- ,to,stand,still]  [provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(walk,[external,factive,narration,foreground,objective])]
+Lost in ways Lyrics.txt_6-34  [3x,i,don-t,want- ,7x]  [provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(walk,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Lost in ways Lyrics.txt_1-1)-[primary-vision]
+2-(Lost in ways Lyrics.txt_2-3)-[]
+3-(Lost in ways Lyrics.txt_2-4)-[]
+4-(Lost in ways Lyrics.txt_2-5)-[]
+5-(Lost in ways Lyrics.txt_3-10)-[]
+6-(Lost in ways Lyrics.txt_3-11)-[]
+half
+7-(Lost in ways Lyrics.txt_3-12)-[]
+8-(Lost in ways Lyrics.txt_4-17)-[]
+9-(Lost in ways Lyrics.txt_5-23)-[emotions-expressive_beh]
+10-(Lost in ways Lyrics.txt_5-24)-[secondary-social_behavior]
+11-(Lost in ways Lyrics.txt_6-32)-[primary-counscious]
+12-(Lost in ways Lyrics.txt_6-33)-[primary-vision]
+13-(Lost in ways Lyrics.txt_6-34)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Lost in ways Lyrics.txt_1,1,cl1-nil-nil-be-[ncmod-modal-Lyrics-sn2,xadj-adj-lost-adj1,arg_mod-agent-vision-sn1,and(Lyrics,ways,sn2),def_prop(Lyrics,_258924),def_prop(lost,_258936),def_prop(vision,[astratto,evento])])
+lf(Lost in ways Lyrics.txt_2,3,cl6-nil-nil-lose-[])
+lf(Lost in ways Lyrics.txt_2,3,cl5-nil-nil-live-[adj-(mod)-ways-nil,adj-(mod)-always-nil,adj-subj_disc-ways-sn12,savv-result-always-sn11,xcomp-prop-lose-2,subj-sn8-feel-sn10,xcomp-prop-everyday-sn9,subj-actor-you-sn8,def_prop(ways,[istituzione]),def_prop(always,[istituzione]),def_prop(ways,[istituzione]),def_prop(always,[istituzione]),def_prop(feel,[astratto,attivita]),def_prop(everyday,[evaluative]),def_prop(you,[umano])])
+lf(Lost in ways Lyrics.txt_2,3,cl4-nil-nil-let-[subj-tema_nonaff-i-sn5,def_prop(i,[umano])])
+lf(Lost in ways Lyrics.txt_2,3,cl3-not-nil-want-[subj-actor-i-sn5,subj-actor-i-sn4,aux-do-nil,and(i,you,sn4),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Lost in ways Lyrics.txt_2,3,cl2-not-nil-don-t-[xcomp-theme-2x-sn3,xcomp-theme_aff-want- -sn2,subj-agent-i-sn1,def_prop(2x,[nquant]),def_prop(want- ,[umano]),def_prop(i,[umano])])
+lf(Lost in ways Lyrics.txt_3,10,cl9-not-nil-don-t-[xcomp-theme_aff-want- -sn6,subj-agent-i-sn5,def_prop(want- ,[umano]),def_prop(i,[umano])])
+lf(Lost in ways Lyrics.txt_3,10,cl8-nil-nil-stand-[subj-locativo-i-sn7,obj-locative-2x-sn2,xcomp-purpose-stand-4,and(2x,2x,sn2),def_prop(i,[umano]),def_prop(2x,[nquant])])
+lf(Lost in ways Lyrics.txt_3,10,cl7-not-nil-want-[adj-(mod)-still-nil,subj-actor-i-sn7,subj-actor-i-sn1,aux-do-nil,def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Lost in ways Lyrics.txt_4,17,cl11-nil-nil-stand-[subj-locativo-want-!-sn2,def_prop(want-!,[umano])])
+lf(Lost in ways Lyrics.txt_4,17,cl10-not-nil-don-t-[adj-(mod)-still-nil,xcomp-theme_aff-want-!-sn2,subj-agent-i-sn1,def_prop(want-!,[umano]),def_prop(i,[umano])])
+lf(Lost in ways Lyrics.txt_5,23,cl15-nil-nil-say-[subj-prop-i-sn2,def_prop(i,[umano])])
+lf(Lost in ways Lyrics.txt_5,23,cl14-nil-nil-have-[xcomp-tema_bound-nothing-sn3,subj-experiencer-i-sn2,def_prop(nothing,[astratto,informa,oggetto]),def_prop(i,[umano])])
+lf(Lost in ways Lyrics.txt_5,23,cl13-nil-nil-scream-[subj-topic-i-sn1,def_prop(i,[umano])])
+lf(Lost in ways Lyrics.txt_5,23,cl12-nil-nil-want-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Lost in ways Lyrics.txt_6,32,cl17-not-nil-don-t-[xcomp-theme-7x-sn12,xcomp-theme_aff-want- -sn11,subj-agent-3x-sn10,adj-(mod)-still-nil,xcomp-theme_aff-want- -sn5,ncmod-locativo-light-sn4,ncmod-locativo-dream-sn2,and(dream,this,sn2),def_prop(7x,[nquant]),def_prop(want- ,[umano]),def_prop(3x,[nquant]),def_prop(want- ,[umano]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(dream,[astratto,stato])])
+lf(Lost in ways Lyrics.txt_6,32,cl16-nil-nil-walk-[subj-actor-i-sn1,aux-been-nil,aux-have-nil,def_prop(i,[umano])])

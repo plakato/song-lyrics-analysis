@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Poem_Level title="A.D.A.M. Lyrics.txt" author="poems">
+<Stanza_levels>
+<Stanza_level no="0">
+<Stats_Stanza  
+	line_durations_msec="[592,576,1744,1008,1104]"
+	total_syllable_length_msec="5024"
+	mean_line_length_val="1004.8"
+	standard_deviation_val="477.1113077679044"
+	skewness_val="0.5885916915293887"
+	kurtosis_val="-1.2558429144940972">
+</Stats_Stanza>
+<Metrical_Scheme_Stanza>
+<Line_verse no="0"
+	number_of_feet_no="1"	line_syllables="[professor/[p_r_ah,f_eh,s_er],X/[eh_k_s]]"
+	total_syllable_length_no="4"
+	rhetorical_devices="[1-[]]"
+	metrical_structure_val="[0,1,0,0]"></Line_verse>
+<Line_verse no="1"
+	number_of_feet_no="2"	line_syllables="[come/[k_ah_m],(diddy-dum)/[d_ih,d_iy,d_ah_m]]"
+	total_syllable_length_no="4"
+	rhetorical_devices="[2-[]]"
+	metrical_structure_val="[0,1,0,1]"></Line_verse>
+<Line_verse no="2"
+	number_of_feet_no="5"	line_syllables="[welcome/[w_eh_l_k,ah_m],to/[t_ah],this/[dh_ah_s],archaeological/[aa_r,k_iy,ah_l,aa,jh_ih,k_ah_l],find/[f_ay_n_d]]"
+	total_syllable_length_no="11"
+	rhetorical_devices="[3-[]]"
+	metrical_structure_val="[1,0,1,0,1,0,1,0,0,0,1]"></Line_verse>
+<Line_verse no="3"
+	number_of_feet_no="2"	line_syllables="[at/[ae_t],the/[dh_iy],road/[r_ow_d],witness/[w_ih_t_n,ah_s],me/[m_iy]]"
+	total_syllable_length_no="6"
+	rhetorical_devices="[4-[]]"
+	metrical_structure_val="[0,0,1,1,0,0]"></Line_verse>
+<Line_verse no="4"
+	number_of_feet_no="3"	line_syllables="[before/[b_iy,f_ao_r],the/[dh_iy],coming/[k_ah_m,ih_ng],of/[ah_v],the/[dh_iy],Sun/[s_ah_n]]"
+	total_syllable_length_no="8"
+	rhetorical_devices="[5-[]]"
+	metrical_structure_val="[0,1,0,1,0,1,0,0]"></Line_verse>
+</Metrical_Scheme_Stanza>
+</Stanza_level>
+</Stanza_levels>
+<General_Stats>
+	<Prosodic_Measures_in_msecs
+	mean_line_length_val="1004.8"
+	standard_deviation_val="477.1113077679044"
+	skewness_val="0.5885916915293887"
+	kurtosis_val="-1.2558429144940972">
+</Prosodic_Measures_in_msecs>
+	<Metrical_Structures
+	mean_line_length_in_no_of_feet_val="2.6"
+	standard_deviation_val="1.51657508881031"
+	skewness_val="0.6708479598896265"
+	kurtosis_val="-1.1088846880907366">
+</Metrical_Structures>
+	<Rhetorical_Metrical_Devices
+	Absolute_Count_of_Rhyming_Devices_val="8"
+	Ratio_of_Absolute_Count_by_No_of_Stanzas_val="0.09523809523809523"
+	Ratio_of_RhDevs_Absolute_Count_by_Corrected_No_of_Verses_val=" 2"
+	Ratio_of_RhDevs_Absolute_Count_by_Repetition_Rate_val="23.999999999999996"
+	Ratio_of_RhDevs_Absolute_Count_by_Rare_Word_Repetition_Rate_val=" 9.333333333333332"
+	Ratio_of_RhDevs_Absolute_Count_by_No_Tokens_val="17.143892308290464">
+</Rhetorical_Metrical_Devices>
+</General_Stats>
+<General_Rhetoric_Devices>
+	<All_Rhyming_Schemes  
+	Stanza-based_Rhyme_Schemes="[1-[3-b,4-a,5-c,6-b,7-a]]"
+	Different_Rhyme_Schemes="[b,a,c,b,a]"
+	Number_of_Different_Rhyme_Schemes_no="3"
+	Multiplier_Factor_no="2"
+	Different_Stanzas_RSs_no="[2]"
+	Different_Rhyme_Types_no="[3]">
+</All_Rhyming_Schemes>
+	<All_Rhyming_Words>
+	<Line_Ending_Rhymes words="[a-[4-(d_ih1_d_iy-d_ah1_m),7-s_ah1_n],b-[6-m_iy],b-[3-eh1_k_s],c-[5-f_ay1_n_d]]">
+</Line_Ending_Rhymes>
+	<Line_Middle_Rhymes words="[]">
+</Line_Middle_Rhymes>
+	<Consonances_Assonances words="[[k_ah1_m-k_ah1_m_ih_ng-[1-[k]-[k],[cvc-[k,ah,m],vc-[ih,ng]]]]-4/7,[w_eh1_l_k_ah_m-w_ih1_t_n_ah_s-[1-[w]-[w],[vvcc-[w,ih,t,n],vc-[ah,s]]]]-5/6,[d_ih1_d_iy-d_ah1_m-dh_ah_s-[1-[d]-[d,h],cvc-[dh,ah,s]]]-4/5]">
+</Consonances_Assonances>
+	<Word_Repetitions words="[]">
+</Word_Repetitions>
+</All_Rhyming_Words>
+</General_Rhetoric_Devices>
+</Poem_Level>

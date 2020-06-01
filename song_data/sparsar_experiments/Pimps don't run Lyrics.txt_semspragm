@@ -1,0 +1,51 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Pimps don't run Lyrics.txt_1-1  []-negative  []
+Pimps don't run Lyrics.txt_2-4  []-positive  []
+Pimps don't run Lyrics.txt_2-5  []-negative  [bkc]
+Pimps don't run Lyrics.txt_2-6  []-positive  [fhd]
+Pimps don't run Lyrics.txt_2-7  []-positive  []
+Pimps don't run Lyrics.txt_3-10  [when-temp_coinc]-positive  [fgb,fgb]
+Pimps don't run Lyrics.txt_3-11  [but-advers]-negative  [fgb]
+Pimps don't run Lyrics.txt_3-11  [but-advers]-negative  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Pimps don't run Lyrics.txt_1-1  [pimps,don-t,run,Lyrics,by,Visual]  [title]
+Pimps don't run Lyrics.txt_2-4  [hey,Yo,look,home]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective])]
+Pimps don't run Lyrics.txt_2-5  [boy,ha,pimps,don-t,run]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective])]
+Pimps don't run Lyrics.txt_2-6  [it,real,basic,is,a,Thang,like,one,plus]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective])]
+Pimps don't run Lyrics.txt_2-7  [one,be]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective])]
+Pimps don't run Lyrics.txt_3-10  [what,you,wan,na,be,is,what,they,say,when,you,young]  [provide_expl_just(front,[external,factive,narration,foreground,objective])]
+Pimps don't run Lyrics.txt_3-11  [but,,,they,don-t,ever,say]  [provide_expl_just(front,[external,factive,narration,foreground,objective])]
+Pimps don't run Lyrics.txt_3-11  [but,,,they,don-t,ever,say,Lil,man,don-t,front]  [provide_expl_just(front,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Pimps don't run Lyrics.txt_1-1)-[]
+2-(Pimps don't run Lyrics.txt_2-4)-[primary-vision]
+3-(Pimps don't run Lyrics.txt_2-5)-[]
+4-(Pimps don't run Lyrics.txt_2-6)-[secondary-abstract_tought,secondary-abstract_tought,emotions-affection]
+half
+5-(Pimps don't run Lyrics.txt_2-7)-[]
+6-(Pimps don't run Lyrics.txt_3-10)-[secondary-social_behavior,secondary-temporal_repere]
+7-(Pimps don't run Lyrics.txt_3-11)-[secondary-temporal_repere,secondary-social_behavior]
+8-(Pimps don't run Lyrics.txt_3-11)-[secondary-temporal_repere,secondary-social_behavior,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Pimps don't run Lyrics.txt_1,1,cl2-nil-nil-run-[adj-(mod)-don-t-nil,xadj-adj-Visual-adj1,obj-theme_unaff-Lyrics-sn2,xadj-result-run-2,def_prop(Visual,_246438),def_prop(Lyrics,[informa,tecno])])
+lf(Pimps don't run Lyrics.txt_1,1,cl1-not-nil-don-t-[subj-agent-pimp-sn1,def_prop(pimp,[umano])])
+lf(Pimps don't run Lyrics.txt_2,4,cl6-nil-nil-be-[subj-theme_bound-you-sn8,xcomp-prop-one-sn7,xcomp-prop-Thang-sn6,subj-theme_bound-it-sn5,and(Thang,basic,sn6),and(Thang,real,sn6),def_prop(you,[umano]),def_prop(one,[umano]),def_prop(Thang,[istituzione,umano]),def_prop(it,[any])])
+lf(Pimps don't run Lyrics.txt_2,4,cl5-nil-nil-run-[subj-tema_nonaff-boy-sn4,def_prop(boy,[oggetto,strumento])])
+lf(Pimps don't run Lyrics.txt_2,4,cl4-not-nil-don-t-[subj-agent-boy-sn4,def_prop(boy,[oggetto,strumento])])
+lf(Pimps don't run Lyrics.txt_2,4,cl3-nil-nil-look-[adj-(mod)-home-nil,subj-agent-Yo-sn1,and(Yo,hey,sn1),def_prop(Yo,[umano])])
+lf(Pimps don't run Lyrics.txt_3,10,2-nil-nil-be-[])
+lf(Pimps don't run Lyrics.txt_3,10,cl8-not-nil-front-[cmod-subord-say-but,obj-theme-man-sn3,subj-actor-they-sn2,aux-do-nil,and(man,Lil,sn3),def_prop(man,[any]),def_prop(they,[umano])])
+lf(Pimps don't run Lyrics.txt_3,10,cl7-not-nil-say-[subj-actor-they-sn1,adj-(mod)-ever-nil,aux-do-nil,def_prop(they,[umano])])

@@ -1,0 +1,32 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Heaven Freestyle Lyrics.txt_1-1  []-positive  []
+Heaven Freestyle Lyrics.txt_2-3  []-positive  [fhd]
+Heaven Freestyle Lyrics.txt_2-4  []-suspension  [neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Heaven Freestyle Lyrics.txt_1-1  [heaven,Freestyle,Lyrics,by,Zin-Zeta]  [title]
+Heaven Freestyle Lyrics.txt_2-3  [growing,up,high_school,was,just,like]  [provide_expl_just(catch,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,result,foreground,objective]),provide_expl_just(might,[external,nonfactive,narration,foreground,objective])]
+Heaven Freestyle Lyrics.txt_2-4  [a,prison,showing,up_to,fight,dudes,,,who,just,might,be,itchin,to,catch,their,first,bodies]  [propose_opin_neg(catch,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,result,foreground,objective]),propose_opin(might,[external,nonfactive,narration,foreground,objective]),provide_expl_just(might,[external,nonfactive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Heaven Freestyle Lyrics.txt_1-1)-[primary-height]
+half
+2-(Heaven Freestyle Lyrics.txt_2-3)-[emotions-affection]
+3-(Heaven Freestyle Lyrics.txt_2-4)-[secondary-restraint,emotions-aggression,primary-touch,secondary-restraint,primary-narcissism]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Heaven Freestyle Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Zin-Zeta-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Freestyle,sn1),and(Lyrics,heaven,sn1),def_prop(Zin-Zeta,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Heaven Freestyle Lyrics.txt_2,3,cl5-nil-nil-catch-[])
+lf(Heaven Freestyle Lyrics.txt_2,3,cl4-nil-might-might-[obj-result-itchin-sn9,xcomp-purpose-be-6,def_prop(itchin,[istituzione])])
+lf(Heaven Freestyle Lyrics.txt_2,3,cl3-nil-nil-show-[iobj-goal-dude-sn6,subj-actor-prison-sn5,and(dude,fight,sn6),def_prop(dude,[relat,sociale,umano]),def_prop(prison,[oggetto,stato,strumento])])
+lf(Heaven Freestyle Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-goal-body-sn10,xcomp-purpose-catch-7,xcomp-prop-just-sn2,subj-theme_bound-high_school-sn1,and(body,first,sn10),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano]),def_prop(just,[informa,tecno]),def_prop(high_school,[istituzione])])

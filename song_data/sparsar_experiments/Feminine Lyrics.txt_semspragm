@@ -1,0 +1,156 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Feminine Lyrics.txt_1-1  []-positive  []
+Feminine Lyrics.txt_2-3  []-positive  []
+Feminine Lyrics.txt_3-6  []-negative  [fgb]
+Feminine Lyrics.txt_3-7  []-negative  []
+Feminine Lyrics.txt_4-11  []-positive  [fgb,fgb]
+Feminine Lyrics.txt_5-16  [(as)-temp_coinc]-negative  []
+Feminine Lyrics.txt_5-17  []-positive  [fgb,neg]
+Feminine Lyrics.txt_6-24  []-negative  [neg]
+Feminine Lyrics.txt_6-25  [but-advers]-negative  [fgb,neg]
+Feminine Lyrics.txt_7-34  []-negative  [neg,neg,fgb]
+Feminine Lyrics.txt_8-44  []-positive  [fhd,neg]
+Feminine Lyrics.txt_8-45  []-negative  [fgb]
+Feminine Lyrics.txt_8-46  []-positive  [fgb]
+Feminine Lyrics.txt_9-56  [because-cause]-negative  [fgb]
+Feminine Lyrics.txt_10-68  [(as)-temp_coinc]-negative  [fgb]
+Feminine Lyrics.txt_10-69  []-positive  []
+Feminine Lyrics.txt_11-80  []-positive  []
+Feminine Lyrics.txt_12-92  []-positive  []
+Feminine Lyrics.txt_12-93  []-positive  [fgb]
+Feminine Lyrics.txt_12-94  [although-advers]-suspension  [neg,neg,neg]
+Feminine Lyrics.txt_13-107  []-positive  []
+Feminine Lyrics.txt_14-122  []-negative  [neg,fgb]
+Feminine Lyrics.txt_15-137  []-negative  [neg,neg,fgb]
+Feminine Lyrics.txt_16-155  []-positive  [fhd,neg]
+Feminine Lyrics.txt_16-156  []-negative  [fgb]
+Feminine Lyrics.txt_16-157  []-positive  [fgb]
+Feminine Lyrics.txt_17-175  []-positive  []
+Feminine Lyrics.txt_18-193  []-positive  [fgb]
+Feminine Lyrics.txt_19-212  []-positive  []
+Feminine Lyrics.txt_20-233  []-positive  []
+Feminine Lyrics.txt_20-234  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Feminine Lyrics.txt_1-1  [feminine,Lyrics,by,Swift]  [title]
+Feminine Lyrics.txt_2-3  [just,go,away]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Feminine Lyrics.txt_3-6  [-,im,trapped,and,im,looking,for,a,way,out,,,you,see]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Feminine Lyrics.txt_3-7  [this,is,no_longer,worth,it]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Feminine Lyrics.txt_4-11  [-,i_mean,the,thought,of,you,i,and,together]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Feminine Lyrics.txt_5-16  [forever,no_longer,strikes,me,as]  [provide_expl_just(hate,[external,factive,narration,background,objective]),provide_expl_just(strike,[external,factive,narration,background,objective])]
+Feminine Lyrics.txt_5-17  [perfect,im,trapped,in,this,world,of,love,and,hate,stuck]  [provide_expl_just(hate,[external,factive,narration,background,objective]),provide_expl_just(strike,[external,factive,narration,background,objective])]
+Feminine Lyrics.txt_6-24  [coming,situation,,,my,evaluate,to,forced,-,redundancy,this,in,!]  [reject_expl_just(evaluate,[internal,factive,narration,foreground,objective]),reject_expl_just(base,[internal,factive,narration,background,objective]),reject_expl_just(will,[internal,nonfactive,narration,background,objective])]
+Feminine Lyrics.txt_6-25  [,,im,basing,all,my,love,on,the,past,but,the,past,will,not,last,you]  [reject_expl_just(evaluate,[internal,factive,narration,foreground,objective]),reject_expl_just(base,[internal,factive,narration,background,objective]),reject_expl_just(will,[internal,nonfactive,narration,background,objective])]
+Feminine Lyrics.txt_7-34  [will,not,let,go,this,fucking,ball,and,chain]  [reject_expl_just(will,[external,nonfactive,narration,background,objective]),reject_expl_just(go,[external,factive,narration,background,objective]),reject_expl_just(fuck,[external,factive,narration,foreground,objective])]
+Feminine Lyrics.txt_8-44  [-,has,got,me,acting,like,your,enemy]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(act,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_108932)]
+Feminine Lyrics.txt_8-45  [and,i,don-t,know]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(act,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_113840)]
+Feminine Lyrics.txt_8-46  [what,i,want,anymore,.,i,want,anymore]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(act,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_118748)]
+Feminine Lyrics.txt_9-56  [im,trapped,and,im,looking,for,a,way,out,because,this,is,no_longer,worth,it,.,you,see]  [provide_expl_just(see,[external,factive,cause,background,objective])]
+Feminine Lyrics.txt_10-68  [the,thought,of,you,i,and,,,together,forever,no_longer,strikes,me,as]  [provide_expl_just(strike,[external,factive,narration,background,objective]),provide_expl_just(perfect,[external,factive,narration,background,objective])]
+Feminine Lyrics.txt_10-69  [perfect,im,trapped,im,stuck]  [provide_expl_just(strike,[external,factive,narration,background,objective]),provide_expl_just(perfect,[external,factive,narration,background,objective])]
+Feminine Lyrics.txt_11-80  [i,need,a,way,out]  [provide_expl_just(need,[external,factive,narration,background,objective])]
+Feminine Lyrics.txt_12-92  [i,wish]  [provide_expl_just(be,[external,factive,adverse,foreground,objective])]
+Feminine Lyrics.txt_12-93  [i,knew,what,was,in,your,head]  [provide_expl_just(be,[external,factive,adverse,foreground,objective])]
+Feminine Lyrics.txt_12-94  [,,its,been,too,long,-,although,these,thoughts,are,wrong]  [provide_expl_just(be,[external,factive,adverse,foreground,objective])]
+Feminine Lyrics.txt_13-107  [-,i,feel,this,temptations,i,too_strong,got,ta,snap]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(feel,[external,factive,narration,background,objective])]
+Feminine Lyrics.txt_14-122  [this,-,this,fucking,ball,and,chain,you]  [reject_expl_just(be,[_128098,_128104,_128110,_128116,_128122])]
+Feminine Lyrics.txt_15-137  [will,not,let,go,this,fucking,ball,and,chain]  [reject_expl_just(will,[external,nonfactive,narration,background,objective]),reject_expl_just(go,[external,factive,narration,background,objective]),reject_expl_just(fuck,[external,factive,narration,foreground,objective])]
+Feminine Lyrics.txt_16-155  [-,has,got,me,acting,like,your,enemy]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(act,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_133582)]
+Feminine Lyrics.txt_16-156  [and,i,don-t,know]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(act,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_138490)]
+Feminine Lyrics.txt_16-157  [what,i,want,.,i,want]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(act,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_143398)]
+Feminine Lyrics.txt_17-175  [anymore]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Feminine Lyrics.txt_18-193  [this,ball,and,chain]  [provide_expl_just(chain,[external,factive,narration,background,objective])]
+Feminine Lyrics.txt_19-212  [has,got,me,running,for,the,back,door]  [provide_expl_just(run,[external,factive,cause,foreground,objective])]
+Feminine Lyrics.txt_20-233  [i,i_wish,could,go-but]  [provide_expl_just(let,[external,nonfactive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Feminine Lyrics.txt_20-234  [you,will,not,let,go]  [reject_expl_just(let,[external,nonfactive,narration,background,objective]),reject_expl_just(can,[external,nonfactive,narration,background,objective]),reject_expl_just(go,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Feminine Lyrics.txt_1-1)-[]
+2-(Feminine Lyrics.txt_2-3)-[primary-concreteness]
+3-(Feminine Lyrics.txt_3-6)-[primary-concreteness,primary-vision]
+4-(Feminine Lyrics.txt_3-7)-[]
+5-(Feminine Lyrics.txt_4-11)-[secondary-abstract_tought]
+6-(Feminine Lyrics.txt_5-16)-[primary-timelessness,emotions-aggression]
+7-(Feminine Lyrics.txt_5-17)-[emotions-affection,emotions-aggression]
+8-(Feminine Lyrics.txt_6-24)-[secondary-abstract_tought]
+9-(Feminine Lyrics.txt_6-25)-[emotions-affection,secondary-temporal_repere,secondary-temporal_repere]
+10-(Feminine Lyrics.txt_7-34)-[]
+11-(Feminine Lyrics.txt_8-44)-[emotions-affection,emotions-aggression]
+12-(Feminine Lyrics.txt_8-45)-[secondary-abstract_tought]
+13-(Feminine Lyrics.txt_8-46)-[]
+14-(Feminine Lyrics.txt_9-56)-[primary-concreteness,primary-vision]
+15-(Feminine Lyrics.txt_10-68)-[secondary-abstract_tought,primary-timelessness,emotions-aggression]
+half
+16-(Feminine Lyrics.txt_10-69)-[]
+17-(Feminine Lyrics.txt_11-80)-[primary-concreteness]
+18-(Feminine Lyrics.txt_12-92)-[]
+19-(Feminine Lyrics.txt_12-93)-[secondary-abstract_tought,primary-narcissism]
+20-(Feminine Lyrics.txt_12-94)-[primary-concreteness,secondary-abstract_tought]
+21-(Feminine Lyrics.txt_13-107)-[primary-sound]
+22-(Feminine Lyrics.txt_14-122)-[]
+23-(Feminine Lyrics.txt_15-137)-[]
+24-(Feminine Lyrics.txt_16-155)-[emotions-affection,emotions-aggression]
+25-(Feminine Lyrics.txt_16-156)-[secondary-abstract_tought]
+26-(Feminine Lyrics.txt_16-157)-[]
+27-(Feminine Lyrics.txt_17-175)-[]
+28-(Feminine Lyrics.txt_18-193)-[]
+29-(Feminine Lyrics.txt_19-212)-[primary-concreteness,primary-brink]
+30-(Feminine Lyrics.txt_20-233)-[]
+31-(Feminine Lyrics.txt_20-234)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Feminine Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Swift-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,feminine,sn1),def_prop(Swift,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Feminine Lyrics.txt_2,3,cl2-nil-nil-go-[subj_top-agent-away-sn1,def_prop(away,[evaluative])])
+lf(Feminine Lyrics.txt_3,6,cl4-nil-nil-be-[adj-(mod)-no_longer-nil,xcomp-prop-it-sn10,subj-theme_bound-this-sn9,and(it,worth,sn10),def_prop(it,[any]),def_prop(this,[oggetto,umano])])
+lf(Feminine Lyrics.txt_3,6,cl3-nil-nil-see-[adj-(mod)-out-nil,subj-experiencer-you-sn4,subj-experiencer-you-sn3,subj-experiencer-way-sn2,subj-experiencer-im-sn1,and(you,way,sn3),and(way,im,sn2),and(im,im,sn1),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(im,[legale])])
+lf(Feminine Lyrics.txt_4,11,cl5-nil-nil-be-[subj-theme_bound-think-sn1,def_prop(think,[astratto])])
+lf(Feminine Lyrics.txt_5,16,cl8-nil-nil-hate-[cmod-coord-hate-and,xcomp-agent-stuck-sn12,subj-agent-you-sn11,ncmod-locativo-world-sn8,and(world,this,sn8),def_prop(stuck,[evaluative]),def_prop(you,[umano]),def_prop(world,[astratto,istituzione,oggetto])])
+lf(Feminine Lyrics.txt_5,16,cl7-nil-nil-perfect-[xcomp-prop-trapped-sn7,obj-theme-im-sn6,subj-agent-you-sn5,def_prop(trapped,[evaluative]),def_prop(im,[legale]),def_prop(you,[umano])])
+lf(Feminine Lyrics.txt_5,16,cl6-nil-nil-strike-[subj_top-agent-me-sn1,def_prop(me,[umano])])
+lf(Feminine Lyrics.txt_6,24,cl12-nil-will-will-[cmod-subord-come-but,xcomp-prop-last-sn12,subj-agent-pass-sn11,def_prop(last,[tempo,misura]),def_prop(pass,[attivita,evento,informa,oggetto,stato,tempo])])
+lf(Feminine Lyrics.txt_6,24,cl11-nil-nil-base-[obj-theme-you-sn7,obj-theme-love-sn6,subj-agent-im-sn5,subj-agent-im-sn4,and(im,redundancy,sn4),def_prop(you,[umano]),def_prop(love,[astratto,emotivo,nquant]),def_prop(im,[legale]),def_prop(im,[legale])])
+lf(Feminine Lyrics.txt_6,24,cl10-nil-nil-come-[xadj-adj-my-adj2,xadj-adj-forced-adj1,iobj-locat-redundancy-sn2,subj-agent-situation-sn1,and(redundancy,this,sn2),def_prop(my,_151576),def_prop(forced,_151588),def_prop(redundancy,[astratto,attivita,informa]),def_prop(situation,[stato])])
+lf(Feminine Lyrics.txt_6,24,cl9-nil-nil-evaluate-[subj-theme-situation-sn1,def_prop(situation,[stato])])
+lf(Feminine Lyrics.txt_7,34,cl15-nil-nil-fuck-[])
+lf(Feminine Lyrics.txt_7,34,cl14-nil-nil-go-[])
+lf(Feminine Lyrics.txt_7,34,cl13-nil-will-will-[coord-recipient-ball_and_chain-sn5,obj2-recipient-chain-sn4,obj2-recipient-ball-sn3,obj-theme_aff-this-sn2,subj-agent-let-sn1,def_prop(ball_and_chain,[astratto,attivita,body_part,evento,istituzione,oggetto,strumento,umano,nquant,oggetto,strumento]),def_prop(chain,[astratto,attivita,body_part,evento,istituzione,oggetto,strumento,umano,nquant,oggetto,strumento]),def_prop(ball,[astratto,attivita,body_part,evento,istituzione,oggetto,strumento,umano,nquant,oggetto,strumento]),def_prop(this,[oggetto,umano]),def_prop(let,[attivita])])
+lf(Feminine Lyrics.txt_8,44,cl19-nil-nil-want-[adj-(mod)-anymore-nil,subj-actor-i-sn21,def_prop(anymore,[istituzione]),def_prop(i,[umano])])
+lf(Feminine Lyrics.txt_8,44,cl18-not-nil-know-[cmod-subord-want-",subj-actor-you-sn20,aux-do-nil,def_prop(you,[umano])])
+lf(Feminine Lyrics.txt_8,44,cl17-nil-nil-act-[])
+lf(Feminine Lyrics.txt_8,44,cl16-nil-nil-get-[obj2-paziente-enemy-sn19,obj-theme_unaff-me-sn2,subj-agent-you-sn1,aux-has-nil,def_prop(enemy,[istituzione,umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Feminine Lyrics.txt_9,56,cl22-nil-nil-see-[cmod-coord-see-and,obj-actor-you-sn2,subj-experiencer-im-sn1,def_prop(you,[umano]),def_prop(im,[legale])])
+lf(Feminine Lyrics.txt_9,56,cl21-nil-nil-be-[cmod-subord-see-because,adj-(mod)-no_longer-nil,xcomp-prop-it-sn8,subj-theme_bound-this-sn7,and(it,worth,sn8),def_prop(it,[any]),def_prop(this,[oggetto,umano])])
+lf(Feminine Lyrics.txt_9,56,cl20-nil-nil-look-[adj-(mod)-out-nil,subj-agent-way-sn4,subj-agent-way-sn3,and(way,im,sn3),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(way,[astratto,attivita,oggetto,stato,strumento])])
+lf(Feminine Lyrics.txt_10,68,cl24-nil-nil-perfect-[xcomp-prop-stuck-sn10,obj-theme-im-sn9,subj-agent-you-sn8,and(im,im,sn9),and(im,trapped,sn9),def_prop(stuck,[evaluative]),def_prop(im,[legale]),def_prop(you,[umano])])
+lf(Feminine Lyrics.txt_10,68,cl23-nil-nil-strike-[obj-theme_aff-me-sn2,subj-agent-think-sn1,def_prop(me,[umano]),def_prop(think,[astratto])])
+lf(Feminine Lyrics.txt_11,80,cl25-nil-nil-need-[obj-theme-way-sn2,subj-experiencer-i-sn1,def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(i,[umano])])
+lf(Feminine Lyrics.txt_12,92,cl28-nil-nil-be-[cmod-subord-be-although,xcomp-prop-wrong-sn9,subj-theme_bound-thought-sn8,ncmod-locativo-head-sn3,subj-theme_bound-i-sn2,and(thought,these,sn8),def_prop(wrong,[soggettivo]),def_prop(thought,[astratto]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(i,[umano])])
+lf(Feminine Lyrics.txt_12,92,cl27-nil-nil-know-[subj-actor-i-sn2,def_prop(i,[umano])])
+lf(Feminine Lyrics.txt_12,92,cl26-nil-nil-wish-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Feminine Lyrics.txt_13,107,cl30-nil-nil-get-[obj-theme_unaff-snap-sn9,subj-agent-ta-sn8,obj2-paziente-snap-sn4,obj-theme_unaff-ta-sn3,subj-agent-too_strong-sn2,and(too_strong,this,sn2),def_prop(snap,[attivita,evento,oggetto,strumento,tempo]),def_prop(ta,[informa,tecno]),def_prop(snap,[attivita,evento,oggetto,strumento,tempo]),def_prop(ta,[informa,tecno]),def_prop(too_strong,[umano])])
+lf(Feminine Lyrics.txt_13,107,cl29-nil-nil-feel-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Feminine Lyrics.txt_14,122,cl31-nil-nil-fuck-[coord-theme-ball_and_chain-sn4,obj-theme-chain-sn3,obj-theme-ball-sn2,subj-actor-this-sn1,def_prop(ball_and_chain,[astratto,attivita,body_part,evento,istituzione,oggetto,strumento,umano,nquant,oggetto,strumento]),def_prop(chain,[astratto,attivita,body_part,evento,istituzione,oggetto,strumento,umano,nquant,oggetto,strumento]),def_prop(ball,[astratto,attivita,body_part,evento,istituzione,oggetto,strumento,umano,nquant,oggetto,strumento]),def_prop(this,[oggetto,umano])])
+lf(Feminine Lyrics.txt_15,137,cl34-nil-nil-fuck-[])
+lf(Feminine Lyrics.txt_15,137,cl33-nil-nil-go-[])
+lf(Feminine Lyrics.txt_15,137,cl32-nil-will-will-[coord-recipient-ball_and_chain-sn5,obj2-recipient-chain-sn4,obj2-recipient-ball-sn3,obj-theme_aff-this-sn2,subj-agent-let-sn1,def_prop(ball_and_chain,[astratto,attivita,body_part,evento,istituzione,oggetto,strumento,umano,nquant,oggetto,strumento]),def_prop(chain,[astratto,attivita,body_part,evento,istituzione,oggetto,strumento,umano,nquant,oggetto,strumento]),def_prop(ball,[astratto,attivita,body_part,evento,istituzione,oggetto,strumento,umano,nquant,oggetto,strumento]),def_prop(this,[oggetto,umano]),def_prop(let,[attivita])])
+lf(Feminine Lyrics.txt_16,155,cl38-nil-nil-want-[subj-actor-i-sn21,def_prop(i,[umano])])
+lf(Feminine Lyrics.txt_16,155,cl37-not-nil-know-[cmod-subord-want-",subj-actor-you-sn20,aux-do-nil,def_prop(you,[umano])])
+lf(Feminine Lyrics.txt_16,155,cl36-nil-nil-act-[])
+lf(Feminine Lyrics.txt_16,155,cl35-nil-nil-get-[obj2-paziente-enemy-sn19,obj-theme_unaff-me-sn2,subj-agent-you-sn1,aux-has-nil,def_prop(enemy,[istituzione,umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Feminine Lyrics.txt_17,175,cl39-nil-nil-say-[])
+lf(Feminine Lyrics.txt_18,193,cl40-nil-nil-chain-[subj-agent-ball-sn1,and(ball,this,sn1),def_prop(ball,[astratto,attivita,body_part,evento,istituzione,oggetto,strumento,umano])])
+lf(Feminine Lyrics.txt_19,212,cl42-nil-nil-run-[subj-tema_nonaff-me-sn2,def_prop(me,[umano])])
+lf(Feminine Lyrics.txt_19,212,cl41-nil-nil-get-[obj-theme_unaff-me-sn2,subj-agent-you-sn1,aux-has-nil,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Feminine Lyrics.txt_20,233,cl45-nil-nil-go-[subj-prop-you-sn4,def_prop(you,[umano])])
+lf(Feminine Lyrics.txt_20,233,cl44-not-will-let-[subj-actor-you-sn4,def_prop(you,[umano])])
+lf(Feminine Lyrics.txt_20,233,cl43-nil-could-can-[obj-theme-go-but-sn2,subj-actor-i_wish-sn1,and(i_wish,i,sn1),def_prop(go-but,[attivita,tempo]),def_prop(i_wish,[astratto,attivita,emotivo,informa])])

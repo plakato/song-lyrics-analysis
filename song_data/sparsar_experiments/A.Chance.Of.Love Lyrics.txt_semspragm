@@ -1,0 +1,44 @@
+"POLARITY, DISCOURSE MARKERS"
+
+A.Chance.Of.Love Lyrics.txt_1-1  []-positive  []
+A.Chance.Of.Love Lyrics.txt_2-3  []-positive  []
+A.Chance.Of.Love Lyrics.txt_3-6  []-positive  []
+A.Chance.Of.Love Lyrics.txt_4-10  []-positive  []
+A.Chance.Of.Love Lyrics.txt_5-15  []-positive  []
+A.Chance.Of.Love Lyrics.txt_5-16  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+A.Chance.Of.Love Lyrics.txt_1-1  [a]  [title]
+A.Chance.Of.Love Lyrics.txt_2-3  [chance]  [raise_issue(be,[_9856,factive,statement,_9874,subjective])]
+A.Chance.Of.Love Lyrics.txt_3-6  [of]  [raise_issue(be,[_10142,factive,statement,_10160,subjective])]
+A.Chance.Of.Love Lyrics.txt_4-10  [Love,Lyrics,by,WreQ,one]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+A.Chance.Of.Love Lyrics.txt_5-15  [its,about,the,love,,,i,said,to,know,me]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+A.Chance.Of.Love Lyrics.txt_5-16  [is,to,love,me]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(A.Chance.Of.Love Lyrics.txt_1-1)-[]
+2-(A.Chance.Of.Love Lyrics.txt_2-3)-[primary-chaos]
+3-(A.Chance.Of.Love Lyrics.txt_3-6)-[]
+half
+4-(A.Chance.Of.Love Lyrics.txt_4-10)-[]
+5-(A.Chance.Of.Love Lyrics.txt_5-15)-[emotions-affection,secondary-social_behavior,secondary-abstract_tought]
+6-(A.Chance.Of.Love Lyrics.txt_5-16)-[emotions-affection]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(A.Chance.Of.Love Lyrics.txt_1,1,cl1-nil-nil-say-[])
+lf(A.Chance.Of.Love Lyrics.txt_2,3,cl2-nil-nil-say-[])
+lf(A.Chance.Of.Love Lyrics.txt_3,6,cl3-nil-nil-say-[])
+lf(A.Chance.Of.Love Lyrics.txt_4,10,cl4-nil-nil-be-[xcomp-theme-one-sn3,arg_mod-agent-WreQ-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Love,sn1),def_prop(one,[umano]),def_prop(WreQ,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(A.Chance.Of.Love Lyrics.txt_5,15,cl8-nil-nil-love-[])
+lf(A.Chance.Of.Love Lyrics.txt_5,15,cl7-nil-nil-be-[xcomp-theme_unaff-me-sn6,xcomp-purpose-love-2,subj-theme_bound-you-sn5,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(A.Chance.Of.Love Lyrics.txt_5,15,cl6-nil-nil-know-[])
+lf(A.Chance.Of.Love Lyrics.txt_5,15,cl5-nil-nil-say-[obj-result-me-sn4,xcomp-prop-know-2,subj-sn1-i-sn3,ncmod-subj_disc-love-sn2,subj-actor-its-sn1,def_prop(me,[umano]),def_prop(i,[umano]),def_prop(love,[astratto,emotivo,nquant]),def_prop(its,[istituzione])])

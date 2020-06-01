@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Poem_Level title="Venus Lyrics.txt" author="poems">
+<Stanza_levels>
+<Stanza_level no="1">
+<Stats_Stanza  
+	line_durations_msec="[1629.3600000000001,2143.62,652.5699999999999]"
+	total_syllable_length_msec="4425.549999999999"
+	mean_line_length_val="1475.1833333333332"
+	standard_deviation_val="757.3871922823447"
+	skewness_val="-0.29269280722490704"
+	kurtosis_val="-2.0000000000000004">
+</Stats_Stanza>
+<Metrical_Scheme_Stanza>
+<Line_verse no="0"
+	number_of_feet_no="3"	line_syllables="[ill/[ay_l],be/[b_iy],there/[dh_eh_r],across/[ah,k_r_ao_s],the/[dh_ah],room/[r_uw_m]]"
+	total_syllable_length_no="7"
+	rhetorical_devices="[1-[]]"
+	metrical_structure_val="[0,0,1,0,1,0,1]"></Line_verse>
+<Line_verse no="1"
+	number_of_feet_no="6"	line_syllables="[whiling/[w_ay_l,ih_ng],away/[ah,w_ey],time/[t_ay_m],waiting/[w_ey,t_ih_ng],for/[f_ao_r],the/[dh_ah],holidays/[hh_aa_l,ah,d_ey_z]]"
+	total_syllable_length_no="12"
+	rhetorical_devices="[2-[]]"
+	metrical_structure_val="[0,1,0,1,1,1,0,1,0,1,0,0]"></Line_verse>
+<Line_verse no="2"
+	number_of_feet_no="1"	line_syllables="[winter-s/[w_ih_n_t,er_z],cool/[k_uw_l]]"
+	total_syllable_length_no="3"
+	rhetorical_devices="[3-[]]"
+	metrical_structure_val="[1,0,0]"></Line_verse>
+</Metrical_Scheme_Stanza>
+</Stanza_level>
+</Stanza_levels>
+<General_Stats>
+	<Prosodic_Measures_in_msecs
+	mean_line_length_val="1475.1833333333332"
+	standard_deviation_val="757.3871922823447"
+	skewness_val="-0.29269280722490704"
+	kurtosis_val="-2.0000000000000004">
+</Prosodic_Measures_in_msecs>
+	<Metrical_Structures
+	mean_line_length_in_no_of_feet_val="3.3333333333333335"
+	standard_deviation_val="2.5166114784235836"
+	skewness_val="0.19519424209379563"
+	kurtosis_val="-2.000000000000001">
+</Metrical_Structures>
+	<Rhetorical_Metrical_Devices
+	Absolute_Count_of_Rhyming_Devices_val="10"
+	Ratio_of_Absolute_Count_by_No_of_Stanzas_val="0.1333333333333333"
+	Ratio_of_RhDevs_Absolute_Count_by_Corrected_No_of_Verses_val=" 5"
+	Ratio_of_RhDevs_Absolute_Count_by_Repetition_Rate_val="33.33333333333333"
+	Ratio_of_RhDevs_Absolute_Count_by_Rare_Word_Repetition_Rate_val=" 12.352941176470589"
+	Ratio_of_RhDevs_Absolute_Count_by_No_Tokens_val="13.245323570650438">
+</Rhetorical_Metrical_Devices>
+</General_Stats>
+<General_Rhetoric_Devices>
+	<All_Rhyming_Schemes  
+	Stanza-based_Rhyme_Schemes="[1-[],2-[4-a,5-b,6-a]]"
+	Different_Rhyme_Schemes="[a,b,a]"
+	Number_of_Different_Rhyme_Schemes_no="2"
+	Multiplier_Factor_no="1"
+	Different_Stanzas_RSs_no="[1]"
+	Different_Rhyme_Types_no="[2]">
+</All_Rhyming_Schemes>
+	<All_Rhyming_Words>
+	<Line_Ending_Rhymes words="[3-stanza,a-[4-r_uw1_m,6-k_uw1_l],b-[5-hh_aa1_l_ah_d_ey2_z]]">
+</Line_Ending_Rhymes>
+	<Line_Middle_Rhymes words="[2-[5-ah_w_ey1,5-w_ey1_t_ih_ng]]">
+</Line_Middle_Rhymes>
+	<Consonances_Assonances words="[[ay_l-ah_k_r_ao1_s-[1-[a,y]-[a,h],[vc-[ah,k],cvc-[r,ao,s]]]]-4/4,[ay_l-ah_w_ey1-[1-[a,y]-[a,h],[v-[ah],vv-[w,ey]]]]-4/5,[w_ay_l_ih_ng-w_ey1_t_ih_ng-[1-[w]-[w],[vvc-[w,ey,t],vc-[ih,ng]]]]-5/5,[w_ay_l_ih_ng-w_ih1_n_t_er_z-[1-[w]-[w],[vvcc-[w,ih,n,t],vc-[er,z]]]]-5/6]">
+</Consonances_Assonances>
+	<Word_Repetitions words="[i,i]">
+</Word_Repetitions>
+</All_Rhyming_Words>
+</General_Rhetoric_Devices>
+</Poem_Level>

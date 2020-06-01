@@ -1,0 +1,103 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Big Faces Lyrics.txt_1-1  []-positive  []
+Big Faces Lyrics.txt_2-3  []-positive  []
+Big Faces Lyrics.txt_2-4  []-positive  [fgb]
+Big Faces Lyrics.txt_3-6  []-negative  [neg,neg]
+Big Faces Lyrics.txt_3-7  []-positive  [neg,fgb]
+Big Faces Lyrics.txt_4-14  []-negative  [neg,neg,neg]
+Big Faces Lyrics.txt_5-21  []-negative  [neg]
+Big Faces Lyrics.txt_5-22  [if-hypoth]-positive  [fgb]
+Big Faces Lyrics.txt_6-28  []-positive  []
+Big Faces Lyrics.txt_7-35  []-negative  []
+Big Faces Lyrics.txt_8-43  [if-hypoth]-negative  [fgb,neg]
+Big Faces Lyrics.txt_9-52  []-negative  [neg]
+Big Faces Lyrics.txt_9-53  []-positive  [fgb]
+Big Faces Lyrics.txt_10-63  [when-temp_coinc]-positive  []
+Big Faces Lyrics.txt_10-64  []-positive  []
+Big Faces Lyrics.txt_10-65  []-positive  [neg]
+Big Faces Lyrics.txt_10-66  [then-temp_seq]-positive  [neg,neg]
+Big Faces Lyrics.txt_11-77  []-negative  [neg]
+Big Faces Lyrics.txt_11-78  []-negative  [neg]
+Big Faces Lyrics.txt_11-79  [then-temp_seq]-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Big Faces Lyrics.txt_1-1  [big,Faces,Lyrics,by,Yung,MillzZ]  [title]
+Big Faces Lyrics.txt_2-3  [Flo,straight,from,pluto,rings,my,Milestone,Lewis,Nigga,i,,,coming,from,saturn,on,,,am,up]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Big Faces Lyrics.txt_2-4  [and,at,Em,swagg,on,300,,,all_the_way,down,to,my,atoms]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Big Faces Lyrics.txt_3-6  [next,J-s,years,Michael,is,not,even,not]  [reject_expl_just(pop,[external,factive,result,background,objective]),propose_opin_neg(pop,[external,factive,result,background,objective]),reject_expl_just(pimp,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(have,[external,factive,narration,foreground,objective])]
+Big Faces Lyrics.txt_3-7  [know,that,i,had,em,black,flag,out,my,back,pocket,Ghost,cfsg,tee,pimping,wit,,,precision,all_the_way,down,to,my,goatee,rock,perrias,and,pop,perion,on,top,wit]  [propose_opin_neg(pop,[external,factive,result,background,objective]),provide_expl_just(pimp,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Big Faces Lyrics.txt_4-14  [no,cherry,on,mouth,busy,spitting,fire,time,got,to,talk,to,y-all,nary,homes,conversate,wit,Big,Faces,little,ones]  [reject_expl_just(talk,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,foreground,objective])]
+Big Faces Lyrics.txt_5-21  [we,can,not,talk,no_more]  [reject_expl_just(talk,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Big Faces Lyrics.txt_5-22  [if]  [provide_expl_just(talk,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Big Faces Lyrics.txt_6-28  [i,see,ya,girl]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Big Faces Lyrics.txt_7-35  [take,her,off,the,floor]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Big Faces Lyrics.txt_8-43  [if,i,break,her,back]  [reject_expl_just(back,[external,factive,narration,background,objective])]
+Big Faces Lyrics.txt_9-52  [she,can,not,walk,no_more]  [reject_expl_just(walk,[external,nonfactive,narration,foreground,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
+Big Faces Lyrics.txt_9-53  [and,all,fasho,thats,get,her,girl]  [provide_expl_just(walk,[external,nonfactive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Big Faces Lyrics.txt_10-63  [when,i,am,off,the,show,got]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(flip,[external,factive,result,foreground,objective])]
+Big Faces Lyrics.txt_10-64  [ta,get,to,the,paper]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(flip,[external,factive,result,foreground,objective])]
+Big Faces Lyrics.txt_10-65  [bird,flipped,to,haters,a,hit,make,am,drop,the,faders]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),propose_opin_neg(flip,[external,factive,result,foreground,objective])]
+Big Faces Lyrics.txt_10-66  [then,i,out,the,door,boss,shit,on,G]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),propose_opin_neg(flip,[external,factive,result,foreground,objective])]
+Big Faces Lyrics.txt_11-77  [i,is,not,got,ta,talk]  [reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(say,[external,factive,result,foreground,objective]),propose_opin_neg(say,[external,factive,result,foreground,objective]),reject_expl_just(hear,[external,factive,narration,foreground,objective])]
+Big Faces Lyrics.txt_11-78  [shit,niggas,said]  [reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(say,[external,factive,result,foreground,objective]),propose_opin_neg(say,[external,factive,result,foreground,objective]),reject_expl_just(hear,[external,factive,narration,foreground,objective])]
+Big Faces Lyrics.txt_11-79  [i,had,be,on_and_off,then,they,heard,the,tape]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(say,[external,factive,result,foreground,objective]),provide_expl_just(hear,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Big Faces Lyrics.txt_1-1)-[]
+2-(Big Faces Lyrics.txt_2-3)-[primary-concreteness,primary-sound]
+3-(Big Faces Lyrics.txt_2-4)-[primary-concreteness]
+4-(Big Faces Lyrics.txt_3-6)-[secondary-temporal_repere]
+5-(Big Faces Lyrics.txt_3-7)-[secondary-abstract_tought,primary-concreteness,primary-concreteness,primary-hard,primary-height]
+6-(Big Faces Lyrics.txt_4-14)-[primary-orality,primary-orality,primary-fire,secondary-temporal_repere,secondary-social_behavior,secondary-social_behavior]
+7-(Big Faces Lyrics.txt_5-21)-[secondary-social_behavior]
+8-(Big Faces Lyrics.txt_5-22)-[]
+9-(Big Faces Lyrics.txt_6-28)-[primary-vision]
+10-(Big Faces Lyrics.txt_7-35)-[primary-concreteness,primary-brink]
+half
+11-(Big Faces Lyrics.txt_8-43)-[emotions-aggression,primary-concreteness]
+12-(Big Faces Lyrics.txt_9-52)-[]
+13-(Big Faces Lyrics.txt_9-53)-[]
+14-(Big Faces Lyrics.txt_10-63)-[secondary-temporal_repere,primary-concreteness]
+15-(Big Faces Lyrics.txt_10-64)-[]
+16-(Big Faces Lyrics.txt_10-65)-[primary-height,emotions-aggression,emotions-aggression,secondary-instru_behavior,primary-descent,primary-diffusion]
+17-(Big Faces Lyrics.txt_10-66)-[secondary-temporal_repere,primary-concreteness,primary-brink,primary-anality]
+18-(Big Faces Lyrics.txt_11-77)-[secondary-social_behavior]
+19-(Big Faces Lyrics.txt_11-78)-[primary-anality,secondary-social_behavior]
+20-(Big Faces Lyrics.txt_11-79)-[secondary-temporal_repere,primary-sound]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Big Faces Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-MillzZ-sn2,subj-theme_bound-Lyrics-sn1,and(MillzZ,Yung,sn2),and(Lyrics,Face,sn1),and(Lyrics,big,sn1),def_prop(MillzZ,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Big Faces Lyrics.txt_2,3,cl2-nil-nil-be-[cmod-subord-be-",xadj-adj-down-adj2,adj-(mod)-all_the_way-nil,ncmod-loc_direct-atom-sn17,ncmod-modal-300-sn16,ncmod-locativo-swagg-sn15,xadj-adj-coming-adj1,xcomp-prop-up-sn4,xcomp-theme-Nigga-sn3,ncmod-loc_origin-ring-sn2,subj-theme_bound-straight-sn1,and(swagg,Em,sn15),and(Nigga,Milestone,sn3),and(ring,pluto,sn2),and(straight,Flo,sn1),def_prop(down,_601282),def_prop(atom,[sostanza]),def_prop(300,[nquant]),def_prop(swagg,[istituzione]),def_prop(coming,_601348),def_prop(up,[istituzione]),def_prop(Nigga,[istituzione,umano]),def_prop(ring,[astratto,evento,oggetto,strumento]),def_prop(straight,[istituzione])])
+lf(Big Faces Lyrics.txt_3,6,cl7-nil-nil-pop-[iobj-goal-goatee-sn18,ncmod-modale-wit-sn13,xcomp-agent-perion-sn12,subj-agent-you-sn11,and(wit,top,sn13),def_prop(goatee,[body_part,umano]),def_prop(wit,[attivita,informa]),def_prop(perion,[istituzione]),def_prop(you,[umano])])
+lf(Big Faces Lyrics.txt_3,6,cl6-nil-nil-pimp-[])
+lf(Big Faces Lyrics.txt_3,6,cl5-nil-nil-have-[])
+lf(Big Faces Lyrics.txt_3,6,cl4-nil-nil-know-[obj-prop-wit-sn9,xadj-result-pimp-2,obj-theme-tee-sn8,obj-theme_aff-cfsg-sn7,obj-theme_unaff-pocket-sn6,subj-actor-you-sn5,and(tee,ghost,sn8),def_prop(wit,[attivita,informa]),def_prop(tee,[luogo,oggetto,strumento]),def_prop(cfsg,[istituzione]),def_prop(pocket,[astratto,oggetto,strumento]),def_prop(you,[umano])])
+lf(Big Faces Lyrics.txt_3,6,cl3-not-nil-be-[xcomp-prop-even-sn2,subj-theme_bound-Michael-sn1,neg-not-nil,and(Michael,J-s,sn1),def_prop(even,[]),def_prop(Michael,[place,umano])])
+lf(Big Faces Lyrics.txt_4,14,cl10-nil-nil-talk-[xadj-adj-little-adj4,xadj-adj-no-adj3,iobj-goal-y-all-sn4,obj-theme_unaff-fire-sn3,xcomp-purpose-spit-2,iobj-goal-busy-sn2,and(busy,mouth,sn2),def_prop(little,_602346),def_prop(no,_602358),def_prop(y-all,[attivita,informa,tempo]),def_prop(fire,[attivita,evento,informa,oggetto,sostanza,strumento]),def_prop(busy,[informa,tecno])])
+lf(Big Faces Lyrics.txt_4,14,cl9-nil-nil-get-[adj-temporal-time-nil,subj-agent-home-sn1,def_prop(home,[luogo,oggetto,stato,strumento])])
+lf(Big Faces Lyrics.txt_4,14,cl8-nil-nil-spit-[xcomp-purpose-talk-3])
+lf(Big Faces Lyrics.txt_5,21,cl12-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Big Faces Lyrics.txt_5,21,cl11-not-can-talk-[subj-actor-we-sn1,def_prop(we,[umano])])
+lf(Big Faces Lyrics.txt_6,28,cl13-nil-nil-see-[obj-theme_aff-girl-sn3,obj-actor-ya-sn2,subj-experiencer-i-sn1,def_prop(girl,[oggetto,strumento]),def_prop(ya,[legale]),def_prop(i,[umano])])
+lf(Big Faces Lyrics.txt_7,35,cl14-nil-nil-be-[xadj-adj-her-adj5,ncmod-locativo-floor-sn2,subj-theme_bound-take-sn1,def_prop(her,_603036),def_prop(floor,[astratto,attivita,informa,oggetto,strumento]),def_prop(take,[attivita])])
+lf(Big Faces Lyrics.txt_8,43,nil-nil-nil-back-[subj-agent-her-sn2,subj-agent-her-sn1,and(her,break,sn2),and(her,break,sn1),def_prop(her,[umano]),def_prop(her,[umano])])
+lf(Big Faces Lyrics.txt_9,52,cl16-nil-nil-get-[cmod-subord-get-",obj-theme_unaff-girl-sn5,subj-agent-thats-sn4,and(thats,fasho,sn4),and(thats,all,sn4),def_prop(girl,[oggetto,strumento]),def_prop(thats,[istituzione])])
+lf(Big Faces Lyrics.txt_9,52,cl15-not-can-walk-[subj-actor-she-sn1,def_prop(she,[umano])])
+lf(Big Faces Lyrics.txt_10,63,cl19-nil-nil-flip-[cmod-subord-flip-then,iobj-goal-G-sn13,ncmod-locativo-door-sn11,ncmod-prop-hater-sn7,ncmod-modal-show-sn3,def_prop(G,[place,attivita,informa]),def_prop(door,[astratto,oggetto,strumento]),def_prop(hater,[umano]),def_prop(show,[attivita,informa])])
+lf(Big Faces Lyrics.txt_10,63,cl18-nil-nil-get-[xmod-prop-flip-2,iobj-paziente-paper-sn5,subj-theme_bound-ta-sn4,def_prop(paper,[attivita,informa,sostanza]),def_prop(ta,[informa,tecno])])
+lf(Big Faces Lyrics.txt_10,63,cl17-nil-nil-be-[xcomp-theme-shit-sn12,subj-actor-i-sn10,xcomp-prop-drop-sn9,subj-actor-hit-sn8,subj-theme_bound-bird-sn6,adj-sn1-when-sn2,subj-theme_bound-i-sn1,and(shit,boss,sn12),def_prop(shit,[attivita,umano]),def_prop(i,[umano]),def_prop(drop,[astratto,attivita,evento,luogo,nquant,oggetto,strumento]),def_prop(hit,[attivita,oggetto,strumento]),def_prop(bird,[animato,astratto,edible,oggetto,plant]),def_prop(when,[tempo]),def_prop(i,[umano])])
+lf(Big Faces Lyrics.txt_11,77,cl24-nil-nil-hear-[xcomp-prop-tape-sn11,subj-experiencer-they-sn10,xcomp-prop-tape-sn9,subj-experiencer-they-sn8,def_prop(tape,[luogo,oggetto,strumento]),def_prop(they,[umano]),def_prop(tape,[luogo,oggetto,strumento]),def_prop(they,[umano])])
+lf(Big Faces Lyrics.txt_11,77,cl23-nil-nil-be-[subj-prop-i-sn6,def_prop(i,[umano])])
+lf(Big Faces Lyrics.txt_11,77,cl22-nil-nil-have-[cmod-subord-hear-1,adj-(mod)-on_and_off-nil,subj-experiencer-i-sn6,def_prop(i,[umano])])
+lf(Big Faces Lyrics.txt_11,77,cl21-nil-nil-say-[ncmod-modal-shit-sn5,subj-actor-you-sn4,def_prop(shit,[attivita,umano]),def_prop(you,[umano])])
+lf(Big Faces Lyrics.txt_11,77,cl20-not-nil-get-[xcomp-prop-talk-sn2,subj-theme_unaff-i-sn1,aux-(is)-nil,and(talk,ta,sn2),def_prop(talk,[attivita,informa]),def_prop(i,[umano])])
