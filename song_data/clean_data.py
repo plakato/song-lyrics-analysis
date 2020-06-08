@@ -31,7 +31,7 @@ def create_clean_dataset(input_file, output_file):
             very_short = False
             if len(song['lyrics']) < 10:
                 very_short = True
-            new_song = { attr: song[attr] for attr in selected_attr }
+            new_song = {attr: song[attr] for attr in selected_attr}
             # Replace SPARSAR prohibited characters in the lyrics.
             for i in range(len(song['lyrics'])):
                 new_song['lyrics'][i] = song['lyrics'][i]\
@@ -178,5 +178,5 @@ def clean_all_songs(file):
 
 # create_individual_files('data/shuffled_lyrics/100ENlyrics_cleaned'
 #                         '.json')
-create_clean_dataset('data/ENlyrics_cleaned.json',
-                     'data/ENlyrics_cleaned2.json')
+create_clean_dataset('data/ENlyrics_cleaned_old.json',
+                     'data/ENlyrics_cleaned.json')

@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
+import random
 from os.path import isfile, join
 
 import numpy as np
 import tensorflow as tf
 
 from tensorflow.python import keras
+import sklearn
+from sklearn.model_selection import train_test_split
 
 
 # Custom filter
@@ -48,10 +51,9 @@ class Network(tf.keras.Sequential):
 
     def train(self, data, args):
         self.fit(
-            data.train.data["images"], data.train.data["labels"],
+            data['train']["images"], data['train']["labels"],
             batch_size=args.batch_size, epochs=args.epochs,
-            validation_data=(data.dev.data["images"], data.dev.data[
-                "labels"]),
+            validation_data=(data['dev']["images"], data['dev']["labels"]),
             callbacks=[self.tb_callback],
         )
         # self.save_weights('40epochs.h5')
@@ -65,11 +67,12 @@ if __name__ == "__main__":
 
     # Parse arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument("--batch_size", default=64, type=int, help="Batch size.")
+    parser.add_argument("--batch_size", default=32, type=int, help="Batch "
+                                                                  "size.")
     parser.add_argument("--epochs", default=30, type=int, help="Number of epochs.")
     parser.add_argument("--threads", default=1, type=int, help="Maximum number of threads to use.")
     parser.add_argument("--data_dir",
-                        default="../sparsar_experiments/rhymes/",
+                        default="../sparsar_experiments/repetition_matrices/",
                         type=str,
                         help="Path to input data with images.")
     args = parser.parse_args()
@@ -88,19 +91,49 @@ if __name__ == "__main__":
     ))
 
     # Load data
-    data = tf.keras.preprocessing.image_dataset_from_directory(args.data_dir,
-        labels="inferred", label_mode="int", class_names=None,
-        color_mode="rgb", batch_size=32, image_size=(None, None), shuffle=True,
-        seed=None, validation_split=0.2, subset=None,
-        interpolation="bilinear", follow_links=False, )
-
-
+    # data = tf.keras.preprocessing.image_dataset_from_directory(args.data_dir,
+    #     labels="inferred", label_mode="int", class_names=None,
+    #     color_mode="rgb", batch_size=32, image_size=[None, None],
+    #                                                            shuffle=False,
+    #     seed=123, validation_split=0.2, subset='training',
+    #     interpolation="bilinear", follow_links=False, )
+    # Load images.
+    path = args.data_dir + 'endrhymes_original/'
+    images = []
+    for file in os.listdir(path):
+        image = tf.keras.preprocessing.image.load_img(path+file)
+        input_arr = keras.preprocessing.image.img_to_array(image)
+        images.append(input_arr)
+    labels = [1] * len(images)
+    all_images = images
+    all_labels = labels
+    path = args.data_dir + 'endrhymes_shuffled/'
+    images = []
+    for file in os.listdir(path):
+        image = tf.keras.preprocessing.image.load_img(path+file)
+        input_arr = keras.preprocessing.image.img_to_array(image)
+        images.append(input_arr)
+    labels = [0] * len(images)
+    all_images.append(images)
+    all_labels.append(labels)
+    # Splt to train/test.
+    idxs = range(len(all_labels))
+    test_count = int(len(all_labels) * 0.2)
+    test_idxs = random.sample(idxs, test_count)
+    images_train, images_test, labels_train, labels_test = train_test_split(all_images, all_labels, test_size=0.2)
+    images_train = [images_train[i:i + args.batch_size] for i in range(0,
+                                                           len(images_train),
+                                                         args.batch_size)]
+    labels_train = [labels_train[i:i + args.batch_size] for i in
+                    range(0, len(labels_train), args.batch_size)]
+    data = {'train': {'images': images_train, 'labels': labels_train},
+            'test': {'images': images_test, 'labels': labels_test}}
     # Create the network and train
     network = Network(args)
     network.train(data, args)
 
-    # Generate test set annotations, but in args.logdir to allow parallel execution.
-    with open(os.path.join(args.logdir, "cifar_competition_test.txt"), "w", encoding="utf-8") as out_file:
-        for probs in network.predict(data.test.data["images"],
-                                     batch_size=args.batch_size):
-            print(np.argmax(probs), file=out_file)
+    # # Generate test set annotations, but in args.logdir to allow parallel execution.
+    # with open(os.path.join(args.logdir, "cifar_competition_test.txt"), "w", encoding="utf-8") as out_file:
+    #     for probs in network.predict(data['test']["images"],
+    #                                  batch_size=args.batch_size):
+    #         print(np.argmax(probs), file=out_file)

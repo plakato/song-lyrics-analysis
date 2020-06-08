@@ -19,7 +19,10 @@ def create_sparsar_input_file_from_song(song, output_filename):
         output.write(song['title'] + '\n')
         output.write('by ' + song['artist'] + '.\n\n')
         for i in range(len(song['lyrics'])):
-            line = song['lyrics'][i].strip()
+            # Get rid of semicolons and & because the punctuator deletes
+            # everything following a semicolon.
+            song['lyrics'][i] = song['lyrics'][i].strip().replace(
+                '&amp;', 'and').replace(';', ',')
             # punctuation = '.'
             # if line == '' or \
             #         line[-1] == '?' or \
@@ -165,9 +168,14 @@ def normalize_rhyme_scheme(old_scheme):
 
 
 def get_scheme_letters(inputfile):
-    tree = ET.parse(inputfile)
+    # Mark '&' correctly because it is sometimes used incorrectly in generated
+    # xmls.
+    fixed_input = []
+    with open(inputfile) as input:
+        for line in input:
+            fixed_input.append(re.sub('&(?!amp;)',  '&amp;', line))
+    root = ET.fromstringlist(fixed_input)
 
-    root = tree.getroot()
     # Parse rhyme scheme.
     # Change Prolog format into JSON to be parsed as a dictionary.
     scheme = root[2][0].attrib['Stanza-based_Rhyme_Schemes']
@@ -190,7 +198,7 @@ def extract_rhymes_to_csv(filename):
     inputfile = 'sparsar_experiments/outs/' + filename + '_phon.xml'
     prefix = ''
     if filename.startswith('shuffled'):
-        prefix = filename[:9] + '/'
+        prefix = 'shuffled/'
     else:
         prefix = 'original/'
     filename = filename.replace('\'', '').replace(".txt", "")
@@ -245,7 +253,7 @@ def main():
     os.environ["PYTHONIOENCODING"] = "utf-8"
     for prefix in prefixes:
         filename = 'data/' + \
-                   prefix + 'ENlyrics_cleaned2.json'
+                   prefix + 'ENlyrics_cleaned.json'
         # run_sparsar_for_failed(prefix, filename)
         # replace_prohibited_characters(filename)
         # Generate SPARSAR output files.
@@ -260,6 +268,14 @@ def main():
             total += 1
     print('Generated', total, '.csv files.')
 
+    # with open('data/ENlyrics_cleaned.json') as input:
+    #     os.chdir("./sparsar_experiments")
+    #     data = json.load(input)
+    #     for song in data:
+    #         if song['title'] == '24 Hours Lyrics':
+    #             create_sparsar_input_file_from_song(song, '24 Hours '
+    #                                                       'Lyrics.txt')
+    #
 
 if __name__ == '__main__':
     main()

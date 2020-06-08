@@ -21,6 +21,7 @@ MEETING THE DATA
         Languages (120):
         {'ENGLISH': 443262, 'FRENCH': 21678, 'PORTUGUESE': 15224, 'TAGALOG': 976, 'GERMAN': 21068, 'Unknown': 5404, 'PERSIAN': 608, 'ITALIAN': 8651, 'SPANISH': 28210, 'DANISH': 2891, 'SWEDISH': 5380, 'LINGALA': 35, 'RUSSIAN': 1389, 'HUNGARIAN': 626, 'SERBIAN': 438, 'WOLOF': 27, 'POLISH': 10178, 'TURKISH': 1767, 'CROATIAN': 757, 'SCOTS': 78, 'Korean': 1352, 'Chinese': 12, 'Japanese': 1341, 'DUTCH': 3862, 'MALAY': 255, 'AZERBAIJANI': 34, 'HAITIAN_CREOLE': 132, 'ChineseT': 89, 'ROMANIAN': 507, 'MACEDONIAN': 228, 'SWAHILI': 97, 'LATIN': 359, 'ICELANDIC': 293, 'NORWEGIAN': 2056, 'GREEK': 373, 'ALBANIAN': 202, 'SHONA': 12, 'AKAN': 8, 'FINNISH': 4093, 'IRISH': 100, 'CORSICAN': 125, 'ARABIC': 599, 'INDONESIAN': 433, 'SLOVENIAN': 100, 'HMONG': 1, 'XHOSA': 30, 'NORWEGIAN_N': 731, 'YORUBA': 26, 'CZECH': 790, 'GEORGIAN': 17, 'ZULU': 29, 'LATVIAN': 181, 'KHASI': 2, 'LITHUANIAN': 282, 'BULGARIAN': 109, 'GALICIAN': 64, 'SLOVAK': 270, 'AFAR': 7, 'CATALAN': 697, 'HEBREW': 62, 'SESOTHO': 4, 'SANSKRIT': 33, 'BASQUE': 269, 'GREENLANDIC': 9, 'SAMOAN': 7, 'BOSNIAN': 245, 'SUNDANESE': 22, 'MALAGASY': 13, 'FAROESE': 14, 'TSWANA': 7, 'AFRIKAANS': 196, 'SESELWA': 2, 'SCOTS_GAELIC': 39, 'BENGALI': 9, 'HAWAIIAN': 12, 'VIETNAMESE': 61, 'ESTONIAN': 206, 'MANX': 3, 'JAVANESE': 4, 'HAUSA': 3, 'MONGOLIAN': 2, 'CEBUANO': 10, 'LUXEMBOURGISH': 8, 'INTERLINGUA': 6, 'NEPALI': 1, 'BISLAMA': 2, 'ESPERANTO': 25, 'QUECHUA': 2, 'SOMALI': 3, 'SINHALESE': 4, 'SISWANT': 1, 'RHAETO_ROMANCE': 3, 'GUARANI': 4, 'THAI': 4, 'VENDA': 4, 'UKRAINIAN': 14, 'ARMENIAN': 1, 'X_KLINGON': 3, 'MAORI': 6, 'BRETON': 39, 'FRISIAN': 3, 'NYANJA': 7, 'TURKMEN': 1, 'OCCITAN': 8, 'TONGA': 1, 'KINYARWANDA': 2, 'HINDI': 4, 'MALTESE': 1, 'OROMO': 1, 'WELSH': 16, 'X_PIG_LATIN': 4, 'AYMARA': 1, 'BELARUSIAN': 7, 'INTERLINGUE': 1, 'YIDDISH': 12, 'TSONGA': 1, 'TAMIL': 1, 'IGBO': 2, 'VOLAPUK': 1, 'MALAYALAM': 2}
         Undetected:  2768
+    - vytah medzi poctom versov a rymovych tried - linearne?
 
     QUESTIONS
     - description of data? what is_music means?
@@ -30,6 +31,7 @@ MEETING THE DATA
     - only is_music 
     - keep only useful attributes
     - Add "lang", "very_short" attributes
+    - add id (because there are multiple songs with the same title but different lyrics, ex.24 Hours)
 
 UNSOLVED PROBLEMS WITH DATASET
     - noise
@@ -61,6 +63,7 @@ SPARSAR
             - some special characters prohibited
         - unknown errors sometimes
             - ERROR: assignargument/8: Undefined procedure: ovls/6
+            - ERROR: //2: Arithmetic: evaluation error: `zero_divisor'
             - ERROR: length/2: Type error: `list' expected, found `sn' (an atom)
                 - internal SPARSAR problem
             - ERROR: atomic_list_concat/3: Arguments are not sufficiently instantiated
@@ -224,9 +227,28 @@ TASKS FOR NEXT WEEK
         - https://github.com/ottokart/punctuator2
             - vystup bez newlinov (smaljici)
             - povodnu interpunkciu zmaze/zmeni
+            - zmaze vsetko po bodkociarke a enditku (&)
     - vyskusat spustat sparsar cez unix lab - da sa?
         - je tam Linux Gentoo
         - na spustanie potrebujem nainstalovat swi-prolog, ktory tam neni a nemam pravo instalovat
     - ako sa vyspecifikovat
         - generovat na temu sprav z twitteru/FB, popr. komentarov
         
+-------------------------------------------------------------------------------------------------------------------
+1.6.2020
+TASKS FOR NEXT WEEK
+- (1)neuronka
+- zmerat kolko to trva s punctuatorom a bez
+    - napisat si cas do poznamky, nech to viem dat do diplomky
+- (2)vypocty na metacentru
+    - zaloha - UFAL vyukovy cluster
+- skusit ci prehadzanie schematu rozlisim od prehadzanie po sparsare
+- (3)distribuce pro rymovanosti - ci maju origo pesnicky stejnu distribuciu
+    - vybera si stol v pomere k obsadenosti, + sanca alpha sanca ze si vyberie novy (chinese restaurant process)
+    - indian buffet
+    - do ktorej skupiny spadne vers s akou pst
+    - podobnost distribucii - KL-divergence
+- vytah medzi poctom versov a rymovych tried - linearne?
+- slo by to generovat len z phonem? bad pop bot
+
+- treba pridat unikatne ID-cka
