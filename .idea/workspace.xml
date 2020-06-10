@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1b63ffb1-2ce8-4d7c-99a7-09c7c211f71e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/song_data/learning/rep_matrix_classifier_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/rep_matrix_classifier_cnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/sparsar_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'24 Hours Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'24 Hours Lyrics.txt'.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/24 Hours Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/24 Hours Lyrics.txt_phon" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_diary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/work_diary.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/song_data/learning/rep_matrix_classifier_cnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="124" column="69" selection-start-line="124" selection-start-column="69" selection-end-line="124" selection-end-column="69" />
+            <state relative-caret-position="294">
+              <caret line="63" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="63" />
               <folding>
                 <element signature="e#23#36#0" expanded="true" />
               </folding>
@@ -40,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/framework/constant_op.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/framework/func_graph.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="185">
-              <caret line="96" selection-start-line="96" selection-end-line="96" />
+              <caret line="969" selection-start-line="969" selection-end-line="969" />
             </state>
           </provider>
         </entry>
@@ -380,7 +376,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1040" extended-state="7" />
+    <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.85009485" visible="true" weight="0.24960423" />
       <window_info id="Structure" order="1" sideWeight="0.14990513" side_tool="true" weight="0.24960423" />
@@ -472,13 +469,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/song_data/learning/rep_matrix_classifier_cnn.py</url>
-          <line>131</line>
-          <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/song_data/learning/rep_matrix_classifier_cnn.py</url>
-          <line>126</line>
-          <option name="timeStamp" value="125" />
+          <line>65</line>
+          <option name="timeStamp" value="128" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -520,15 +512,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/song_data/data/miniset_for_song_cleaning/Get Organ-ized Lyrics.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/data/miniset_for_song_cleaning/$40 Bill Lyrics.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/data/miniset_for_song_cleaning/DO ME NO FAVORS Lyrics.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/song_data/data/miniset_for_song_cleaning/I GOT THE BANK Lyrics.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-132" />
@@ -800,13 +783,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/learning/rep_matrix_classifier_cnn.py">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/numpy/core/_asarray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="124" column="69" selection-start-line="124" selection-start-column="69" selection-end-line="124" selection-end-column="69" />
-          <folding>
-            <element signature="e#23#36#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="185">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
         </state>
       </provider>
     </entry>
@@ -814,6 +794,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="1656" selection-start-line="1656" selection-end-line="1656" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/framework/func_graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="969" selection-start-line="969" selection-end-line="969" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/learning/rep_matrix_classifier_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="63" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="63" />
+          <folding>
+            <element signature="e#23#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

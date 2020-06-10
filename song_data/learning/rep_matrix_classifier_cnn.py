@@ -14,11 +14,11 @@ from sklearn.model_selection import train_test_split
 def cnn_filter(shape, dtype=None):
 
     f = np.array([
-            [[[1]], [[1]], [[1]]],
-            [[[0]], [[0]], [[0]]],
-            [[[-1]], [[-1]], [[-1]]]
+            [[[1], [1], [1]], [[1], [1], [1]], [[1], [1], [1]]],
+            [[[0], [0], [0]], [[0], [0], [0]], [[0], [0], [0]]],
+            [[[-1], [-1], [-1]], [[-1], [-1], [-1]], [[-1], [-1], [-1]]]
         ])
-    print(shape)
+    print(shape, f.shape)
     assert f.shape == shape
     return keras.backend.variable(f, dtype='float32')
 
@@ -28,36 +28,59 @@ class Network(tf.keras.Sequential):
     def __init__(self, args):
         super().__init__()
         regularizer = tf.keras.regularizers.l2(1e-4)
-        self.add(tf.keras.layers.Conv2D(1, (3, 3), padding='valid',
-                                        kernel_initializer=cnn_filter,
-                                        trainable=False,  # Don't change the
-                                        # filter.
-                                        kernel_regularizer=regularizer,
-                                        data_format="channels_last",
-                                        input_shape=(None, None, 1)))
-        self.add(tf.keras.layers.Activation('elu'))
-        self.add(tf.keras.layers.BatchNormalization())
+        inputs = tf.keras.layers.Input(shape=[None, None, 3])
+        conv_layer = tf.keras.layers.Conv2D(1, (3, 3), padding='valid',
+                                            kernel_initializer=cnn_filter,
+                                            trainable=False,  # Don't change the
+                                            # filter.
+                                            kernel_regularizer=regularizer,
+                                            data_format="channels_last",
+                                            activation=tf.nn.relu)(inputs)
+        normalized = tf.keras.layers.BatchNormalization()(conv_layer)
         # Optionally add more layers if needed.
-        self.add(tf.keras.layers.GlobalMaxPooling2D())
+        pooled = tf.keras.layers.GlobalMaxPooling2D()(normalized)
         # Optionally repeat the whole block more times.
 
-        # self.add(tf.keras.layers.Flatten())
-        self.add(tf.keras.layers.Dense(1, activation="sigmoid"))
+        predict = tf.keras.layers.Dense(1, activation="sigmoid")(pooled)
 
-        self.compile(optimizer=tf.keras.optimizers.RMSprop(lr=0.001, decay=1e-6),
-                     loss=tf.keras.losses.SparseCategoricalCrossentropy(),
-                     metrics=[tf.keras.metrics.SparseCategoricalAccuracy(name="accuracy")])
+        self.model = tf.keras.Model(inputs=inputs, outputs=predict)
+        self.model.compile(optimizer=tf.keras.optimizers.RMSprop(lr=0.001, decay=1e-6),
+                           loss=tf.keras.losses.SparseCategoricalCrossentropy(),
+                           metrics=[tf.keras.metrics.SparseCategoricalAccuracy(name="accuracy")])
         self.tb_callback=tf.keras.callbacks.TensorBoard(args.logdir, update_freq=1000, profile_batch=1)
         self.tb_callback.on_train_end = lambda *_: None
 
     def train(self, data, args):
-        self.fit(
-            data['train']["images"], data['train']["labels"],
-            batch_size=args.batch_size, epochs=args.epochs,
-            validation_data=(data['test']["images"], data['test']["labels"]),
-            callbacks=[self.tb_callback],
-        )
-        # self.save_weights('40epochs.h5')
+        # Create batches.
+        idx_batches = [range(i, i + args.batch_size) for i in
+                      range(0, len(data['train']['images']), args.batch_size)]
+        for epoch in range(args.epochs):
+            batch_i = data['train']['images'][idx_batches[epoch]]
+            batch_o = data['train']['labels'][idx_batches[epoch]]
+            self.model.train_on_batch(np.array(batch_i), np.array(batch_o))
+            # self.model.train_on_batch(np.array([[[0., 0., 0.],[9., 8., 7.]],
+            #                                   [[0.,0.,0.],[9.,8., 7.]]]),
+            #                                     np.array([0.]))
+
+            # Print development evaluation
+            print("Dev {}: directly classifying: {:.4f}"
+                  .format(epoch + 1, *self.evaluate(data['test'])))
+
+    def evaluate(self, dataset, args):
+        total_classifications = 0
+        correct_class = 0
+        idx_batches = [range(i, i + args.batch_size) for i in
+                       range(0, len(data['train']['images']), args.batch_size)]
+        for batch in idx_batches:
+            input = dataset['images'][batch]
+            target = dataset['labels'][batch]
+            outputs = self.model.predict(input)
+            predictions = np.argmax(outputs, axis=1)
+            total_classifications = total_classifications + len(outputs)
+            correct_class = correct_class + np.sum(predictions == target)
+        direct_accuracy = correct_class / total_classifications
+
+        return direct_accuracy
 
 
 if __name__ == "__main__":
@@ -103,7 +126,7 @@ if __name__ == "__main__":
     images = []
     for file in os.listdir(path):
         image = tf.keras.preprocessing.image.load_img(path+file)
-        input_arr = keras.preprocessing.image.img_to_array(image)
+        input_arr = tf.keras.preprocessing.image.img_to_array(image)
         images.append(input_arr)
     labels = [np.float(1)] * len(images)
     all_images = images
@@ -112,7 +135,7 @@ if __name__ == "__main__":
     images = []
     for file in os.listdir(path):
         image = tf.keras.preprocessing.image.load_img(path+file)
-        input_arr = keras.preprocessing.image.img_to_array(image)
+        input_arr = tf.keras.preprocessing.image.img_to_array(image)
         images.append(input_arr)
     labels = [np.float(0)] * len(images)
     all_images.append(images)
@@ -122,13 +145,6 @@ if __name__ == "__main__":
     test_count = int(len(all_labels) * 0.2)
     test_idxs = random.sample(idxs, test_count)
     images_train, images_test, labels_train, labels_test = train_test_split(all_images, all_labels, test_size=0.2)
-    tensor = tf.convert_to_tensor(np.array(labels_train, dtype=object))
-    # # Create batches.
-    # images_train = [images_train[i:i + args.batch_size] for i in range(0,
-    #                                                        len(images_train),
-    #                                                      args.batch_size)]
-    # labels_train = [labels_train[i:i + args.batch_size] for i in
-    #                 range(0, len(labels_train), args.batch_size)]
     data = {'train': {'images': np.array(images_train),
                       'labels': np.array(labels_train)},
             'test': {'images': np.array(images_test),
