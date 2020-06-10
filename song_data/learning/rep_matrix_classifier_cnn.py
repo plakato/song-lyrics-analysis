@@ -18,6 +18,7 @@ def cnn_filter(shape, dtype=None):
             [[[0]], [[0]], [[0]]],
             [[[-1]], [[-1]], [[-1]]]
         ])
+    print(shape)
     assert f.shape == shape
     return keras.backend.variable(f, dtype='float32')
 
@@ -27,17 +28,17 @@ class Network(tf.keras.Sequential):
     def __init__(self, args):
         super().__init__()
         regularizer = tf.keras.regularizers.l2(1e-4)
-        self.add(tf.keras.layers.Conv2D(32, (3, 3), padding='valid',
+        self.add(tf.keras.layers.Conv2D(1, (3, 3), padding='valid',
                                         kernel_initializer=cnn_filter,
                                         trainable=False,  # Don't change the
                                         # filter.
                                         kernel_regularizer=regularizer,
+                                        data_format="channels_last",
                                         input_shape=(None, None, 1)))
         self.add(tf.keras.layers.Activation('elu'))
         self.add(tf.keras.layers.BatchNormalization())
         # Optionally add more layers if needed.
-        self.add(tf.keras.layers.GlobalMaxPooling2D(pool_size=(2, 2)))
-        self.add(tf.keras.layers.Dropout(0.2))
+        self.add(tf.keras.layers.GlobalMaxPooling2D())
         # Optionally repeat the whole block more times.
 
         # self.add(tf.keras.layers.Flatten())
@@ -53,7 +54,7 @@ class Network(tf.keras.Sequential):
         self.fit(
             data['train']["images"], data['train']["labels"],
             batch_size=args.batch_size, epochs=args.epochs,
-            validation_data=(data['dev']["images"], data['dev']["labels"]),
+            validation_data=(data['test']["images"], data['test']["labels"]),
             callbacks=[self.tb_callback],
         )
         # self.save_weights('40epochs.h5')
@@ -67,7 +68,7 @@ if __name__ == "__main__":
 
     # Parse arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument("--batch_size", default=32, type=int, help="Batch "
+    parser.add_argument("--batch_size", default=1, type=int, help="Batch "
                                                                   "size.")
     parser.add_argument("--epochs", default=30, type=int, help="Number of epochs.")
     parser.add_argument("--threads", default=1, type=int, help="Maximum number of threads to use.")
@@ -104,7 +105,7 @@ if __name__ == "__main__":
         image = tf.keras.preprocessing.image.load_img(path+file)
         input_arr = keras.preprocessing.image.img_to_array(image)
         images.append(input_arr)
-    labels = [1] * len(images)
+    labels = [np.float(1)] * len(images)
     all_images = images
     all_labels = labels
     path = args.data_dir + 'endrhymes_shuffled/'
@@ -113,22 +114,26 @@ if __name__ == "__main__":
         image = tf.keras.preprocessing.image.load_img(path+file)
         input_arr = keras.preprocessing.image.img_to_array(image)
         images.append(input_arr)
-    labels = [0] * len(images)
+    labels = [np.float(0)] * len(images)
     all_images.append(images)
     all_labels.append(labels)
-    # Splt to train/test.
+    # Split to train/test.
     idxs = range(len(all_labels))
     test_count = int(len(all_labels) * 0.2)
     test_idxs = random.sample(idxs, test_count)
     images_train, images_test, labels_train, labels_test = train_test_split(all_images, all_labels, test_size=0.2)
-    images_train = [images_train[i:i + args.batch_size] for i in range(0,
-                                                           len(images_train),
-                                                         args.batch_size)]
-    labels_train = [labels_train[i:i + args.batch_size] for i in
-                    range(0, len(labels_train), args.batch_size)]
-    data = {'train': {'images': images_train, 'labels': labels_train},
-            'test': {'images': images_test, 'labels': labels_test}}
-    # Create the network and train
+    tensor = tf.convert_to_tensor(np.array(labels_train, dtype=object))
+    # # Create batches.
+    # images_train = [images_train[i:i + args.batch_size] for i in range(0,
+    #                                                        len(images_train),
+    #                                                      args.batch_size)]
+    # labels_train = [labels_train[i:i + args.batch_size] for i in
+    #                 range(0, len(labels_train), args.batch_size)]
+    data = {'train': {'images': np.array(images_train),
+                      'labels': np.array(labels_train)},
+            'test': {'images': np.array(images_test),
+                     'labels': np.array(labels_test)}}
+    # Create the network and train.
     network = Network(args)
     network.train(data, args)
 

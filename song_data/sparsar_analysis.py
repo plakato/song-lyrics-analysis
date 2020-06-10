@@ -174,7 +174,12 @@ def get_scheme_letters(inputfile):
     with open(inputfile) as input:
         for line in input:
             fixed_input.append(re.sub('&(?!amp;)',  '&amp;', line))
-    root = ET.fromstringlist(fixed_input)
+    try:
+        root = ET.fromstringlist(fixed_input)
+    except Exception as error:
+        print('Failed analyzing', inputfile)
+        print(error)
+        return None, None
 
     # Parse rhyme scheme.
     # Change Prolog format into JSON to be parsed as a dictionary.
@@ -204,6 +209,9 @@ def extract_rhymes_to_csv(filename):
     filename = filename.replace('\'', '').replace(".txt", "")
     outputfile = 'sparsar_experiments/rhymes/' + prefix + filename + '.csv'
     scheme_letters, root = get_scheme_letters(inputfile)
+    # Analysis failed (usually invalid xml because of bugs in SPARSAR).
+    if scheme_letters is None:
+        return 1
     print(scheme_letters)
     # Create output.
     keys = list(scheme_letters.keys())
@@ -228,6 +236,7 @@ def extract_rhymes_to_csv(filename):
                                                         no,
                                                         ' '.join(words),
                                                         ' '.join(phons)))
+    return 0
 
 
 # Takes list of verses as input.
@@ -264,8 +273,9 @@ def main():
     for item in os.listdir(path):
         if isfile(join(path, item)) and item.endswith('_phon.xml'):
             print('Extracting to csv...', item)
-            extract_rhymes_to_csv(item[:-9])
-            total += 1
+            result = extract_rhymes_to_csv(item[:-9])
+            if result == 0:
+                total += 1
     print('Generated', total, '.csv files.')
 
     # with open('data/ENlyrics_cleaned.json') as input:
