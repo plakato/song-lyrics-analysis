@@ -1,0 +1,71 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Crawlersout Lyrics.txt_1-1  []-positive  []
+Crawlersout Lyrics.txt_2-3  []-negative  [neg]
+Crawlersout Lyrics.txt_3-6  []-positive  []
+Crawlersout Lyrics.txt_3-7  []-positive  []
+Crawlersout Lyrics.txt_3-8  []-suspension  [neg,fgb,fgb,neg,fgb,neg,fhd,neg,neg,fgb,neg,fgb,fgb,fgb]
+Crawlersout Lyrics.txt_4-30  []-negative  [neg,neg]
+Crawlersout Lyrics.txt_4-31  []-suspension  [neg]
+Crawlersout Lyrics.txt_5-39  []-positive  []
+Crawlersout Lyrics.txt_5-40  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Crawlersout Lyrics.txt_1-1  [crawlersout,Lyrics,by,Purity,ring]  [title]
+Crawlersout Lyrics.txt_2-3  [sea,water,is,flowing,from,the,middle,of,my,thighs,wild]  [reject_expl_just(be,[_1761252,_1761258,_1761264,_1761270,_1761276])]
+Crawlersout Lyrics.txt_3-6  [buffalo,are,dancing]  [provide_expl_just(win,[external,factive,explanation,background,objective]),provide_expl_just(trample,[external,factive,narration,foreground,objective]),provide_expl_just(nail,[external,factive,explanation,background,objective]),provide_expl_just(guard,[external,factive,result,foreground,objective]),provide_expl_just(gather,[external,factive,narration,foreground,objective]),provide_expl_just(cover,[external,nonfactive,result,background,objective]),provide_expl_just(contemplate,[external,factive,explanation,background,objective]),suggest(contemplate,_1767658),provide_expl_just(dance,[external,factive,narration,foreground,objective]),provide_expl_just(adorn,[external,factive,explanation,background,objective]),provide_expl_just(pelt,[external,factive,explanation,background,objective]),provide_expl_just(bear,[external,factive,circumstance,foreground,objective])]
+Crawlersout Lyrics.txt_3-7  [,,on,Cliff,tops,in,the,skies,adorn,me,in,feathers,from]  [provide_expl_just(win,[external,factive,explanation,background,objective]),provide_expl_just(trample,[external,factive,narration,foreground,objective]),provide_expl_just(nail,[external,factive,explanation,background,objective]),provide_expl_just(guard,[external,factive,result,foreground,objective]),provide_expl_just(gather,[external,factive,narration,foreground,objective]),provide_expl_just(cover,[external,nonfactive,result,background,objective]),provide_expl_just(contemplate,[external,factive,explanation,background,objective]),suggest(contemplate,_1775750),provide_expl_just(dance,[external,factive,narration,foreground,objective]),provide_expl_just(adorn,[external,factive,explanation,background,objective]),provide_expl_just(pelt,[external,factive,explanation,background,objective]),provide_expl_just(bear,[external,factive,circumstance,foreground,objective])]
+Crawlersout Lyrics.txt_3-8  [,,dead,birds,and,contemplate,the,size,of,leather,pelts,to,wind,me,in,put,shutters,on,my,eyes,they,will,cover,the,hills,with,,,their,sweet,flesh,and,soft,nails,they,will,cover,the,doors,with,,,the,screams,that,their,minds,dispose,write,it,down,,,write,it,down,down,the,names,and,dates,of,the,daughters,who,bore,out_of,me,like,grandmother-s,vines,they,hang,from,the,planks,of,,,my,cedar,grave,grow,pretty,,,long,lashes,and,beards,guarding,,,the,rain,of,me,from,them,heedless,trampling,toes,gathering,honeybees,in,their,sockets,and,creases,and,holes,they,will,cover,the,hills,with,,,their,sweet,flesh,and,soft,nails,they,will,cover,the,doors,with]  [propose_opin_neg(win,[external,factive,explanation,background,objective]),provide_expl_just(trample,[external,factive,narration,foreground,objective]),propose_opin_neg(nail,[external,factive,explanation,background,objective]),propose_opin_neg(guard,[external,factive,result,foreground,objective]),provide_expl_just(gather,[external,factive,narration,foreground,objective]),propose_opin_neg(cover,[external,nonfactive,result,background,objective]),propose_opin_neg(contemplate,[external,factive,explanation,background,objective]),suggest(contemplate,_1783842),provide_expl_just(dance,[external,factive,narration,foreground,objective]),propose_opin_neg(adorn,[external,factive,explanation,background,objective]),propose_opin_neg(pelt,[external,factive,explanation,background,objective]),propose_opin_neg(bear,[external,factive,circumstance,foreground,objective])]
+Crawlersout Lyrics.txt_4-30  [the,screams,that,their,minds,dispose,they,will,weave,their,long,souls,into]  [reject_expl_just(sew,[external,nonfactive,narration,background,objective]),reject_expl_just(keep,[external,factive,narration,background,objective]),reject_expl_just(grow,[external,factive,result,background,objective]),propose_opin_neg(grow,[external,factive,result,background,objective]),reject_expl_just(weave,[external,nonfactive,narration,background,objective])]
+Crawlersout Lyrics.txt_4-31  [,,the,frame,to,grow,their,foliage,in,they,will,sew,their,long,hairs,into,their,beds,to,keep,them,crawlers,out,to]  [provide_expl_just(sew,[external,nonfactive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective]),propose_opin_neg(grow,[external,factive,result,background,objective]),provide_expl_just(weave,[external,nonfactive,narration,background,objective])]
+Crawlersout Lyrics.txt_5-39  [keep,them,crawlers,out,to,keep,,,them,crawlers,out,to,keep,,,them,crawlers,,,out,keep,them,crawlers]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
+Crawlersout Lyrics.txt_5-40  [,,out,keep,them,crawlers,out]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Crawlersout Lyrics.txt_1-1)-[primary-sound]
+2-(Crawlersout Lyrics.txt_2-3)-[primary-water,primary-water,primary-concreteness,primary-sex,primary-chaos]
+3-(Crawlersout Lyrics.txt_3-6)-[]
+4-(Crawlersout Lyrics.txt_3-7)-[primary-height,primary-soft]
+half
+5-(Crawlersout Lyrics.txt_3-8)-[primary-passivity,primary-height,secondary-instru_behavior,primary-narcissism,primary-height,primary-taste,primary-narcissism,primary-soft,primary-hard,primary-brink,emotions-expressive_beh,secondary-temporal_repere,emotions-affection,primary-ascend,secondary-abstract_tought,primary-height,primary-gen_sensation,primary-concreteness,primary-narcissism,primary-water,secondary-abstract_tought,primary-narcissism,primary-depth,primary-height,primary-taste,primary-narcissism,primary-soft,primary-hard,primary-brink]
+6-(Crawlersout Lyrics.txt_4-30)-[emotions-expressive_beh,primary-concreteness]
+7-(Crawlersout Lyrics.txt_4-31)-[primary-brink,primary-height,primary-concreteness,primary-narcissism,primary-passivity,secondary-abstract_tought,primary-concreteness]
+8-(Crawlersout Lyrics.txt_5-39)-[secondary-abstract_tought,primary-concreteness,secondary-abstract_tought,primary-concreteness,secondary-abstract_tought,primary-concreteness,secondary-abstract_tought]
+9-(Crawlersout Lyrics.txt_5-40)-[primary-concreteness,secondary-abstract_tought,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Crawlersout Lyrics.txt_1,1,cl1-nil-nil-ring-[arg_mod-agent-Purity-sn2,subj-agent-Lyrics-sn1,and(Lyrics,crawlersout,sn1),def_prop(Purity,[place,astratto,stato]),def_prop(Lyrics,[informa,tecno])])
+lf(Crawlersout Lyrics.txt_2,3,cl2-nil-nil-flow-[iobj-goal-middle-sn2,subj-actor-water-sn1,aux-(is)-nil,progr-flowing-nil,and(water,sea,sn1),def_prop(middle,[astratto,body_part,tempo,umano]),def_prop(water,[edible,oggetto,sostanza])])
+lf(Crawlersout Lyrics.txt_3,6,cl18-nil-nil-bear-[subj-agent-daughter-sn32])
+lf(Crawlersout Lyrics.txt_3,6,nil-nil-nil-crease-[subj-actor-it-sn25,def_prop(it,[any])])
+lf(Crawlersout Lyrics.txt_3,6,nil-nil-nil-sockets-[])
+lf(Crawlersout Lyrics.txt_3,6,cl17-nil-nil-gather-[ncmod-modal-their-sn20,def_prop(their,[evaluative])])
+lf(Crawlersout Lyrics.txt_3,6,cl16-nil-nil-trample-[xcomp-prop-honeybee-sn19,xcomp-purpose-gather-2,xcomp-prop-to-sn18,obj-theme-lash-sn17,adj-subj_disc-pretty-sn16,obj-theme-grave-sn15,ncmod-modal-plank-sn14,obj-theme-they-sn13,ncmod-locativo-me-sn12,obj-theme-scream-sn11,obj-theme-flesh-sn10,obj-theme-hill-sn9,appos-sn7-bird-sn8,subj-agent-they-sn7,and(lash,long,sn17),and(grave,cedar,sn15),and(flesh,sweet,sn10),and(bird,dead,sn8),def_prop(honeybee,[animato]),def_prop(to,[istituzione]),def_prop(lash,[oggetto,strumento]),def_prop(pretty,[]),def_prop(grave,[oggetto,strumento,tempo]),def_prop(plank,[attivita,informa]),def_prop(they,[umano]),def_prop(me,[umano]),def_prop(scream,[attivita,informa]),def_prop(flesh,[body_part,umano]),def_prop(hill,[oggetto]),def_prop(bird,[animato,astratto,edible,oggetto,plant]),def_prop(they,[umano])])
+lf(Crawlersout Lyrics.txt_3,6,cl15-nil-nil-guard-[cmod-coord-adorn-and,ncmod-loc_origin-heedless-sn46,and(heedless,them,sn46),def_prop(heedless,[istituzione])])
+lf(Crawlersout Lyrics.txt_3,6,cl14-nil-nil-grow-[])
+lf(Crawlersout Lyrics.txt_3,6,cl13-nil-nil-hang-[])
+lf(Crawlersout Lyrics.txt_3,6,cl12-nil-nil-write-[])
+lf(Crawlersout Lyrics.txt_3,6,cl11-nil-nil-dispose-[ncmod-loc_direct-name_and_date-[sn27,sn28],obj-theme-scream-sn11,def_prop(name_and_date,[attivita,informa,stato,umano,edible,oggetto,tempo,umano]),def_prop(scream,[attivita,informa])])
+lf(Crawlersout Lyrics.txt_3,6,cl10-nil-nil-nail-[cmod-coord-put-and,subj-agent-they-sn68,subj-agent-they-sn66,cmod-coord-adorn-and,subj-agent-they-sn51,obj-goal-door-sn50,xcomp-purpose-guard-4,subj-agent-they-sn49,def_prop(they,[umano]),def_prop(they,[umano]),def_prop(they,[umano]),def_prop(door,[astratto,oggetto,strumento]),def_prop(they,[umano])])
+lf(Crawlersout Lyrics.txt_3,6,cl9-nil-will-cover-[subj-agent-they-sn68,obj-theme_unaff-door-sn52,xcomp-purpose-nail-4,subj-agent-they-sn51,cmod-coord-adorn-and,cmod-coord-bear-and,subj-agent-it-sn25,xcomp-prop-hill-sn39,subj-agent-they-sn38,subj-agent-they-sn37,and(they,hole,sn37),def_prop(they,[umano]),def_prop(door,[astratto,oggetto,strumento]),def_prop(they,[umano]),def_prop(it,[any]),def_prop(hill,[oggetto]),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Crawlersout Lyrics.txt_3,6,cl8-nil-nil-shutter-[])
+lf(Crawlersout Lyrics.txt_3,6,cl7-nil-nil-win-[])
+lf(Crawlersout Lyrics.txt_3,6,cl6-nil-nil-pelt-[])
+lf(Crawlersout Lyrics.txt_3,6,cl5-nil-nil-contemplate-[obj-theme_aff-me-sn58,xcomp-purpose-win-2,obj-theme-size-sn57,subj-agent-you-sn56,subj-prop-rain-sn45,xcomp-purpose-guard-4,def_prop(me,[umano]),def_prop(size,[astratto,sostanza,stato]),def_prop(you,[umano]),def_prop(rain,[astratto,attivita,cambia,sostanza])])
+lf(Crawlersout Lyrics.txt_3,6,cl4-nil-nil-adorn-[ncmod-locativo-feather-sn5,ncmod-locativo-sky-sn4,ncmod-locativo-top-sn3,subj-agent-me-sn2,and(top,Cliff,sn3),def_prop(feather,[animato,attivita]),def_prop(sky,[oggetto]),def_prop(top,[astratto,luogo,oggetto,strumento,tempo]),def_prop(me,[umano])])
+lf(Crawlersout Lyrics.txt_3,6,cl3-nil-nil-dance-[subj-actor-you-sn1,aux-are-nil,progr-dancing-nil,def_prop(you,[umano])])
+lf(Crawlersout Lyrics.txt_4,30,cl23-nil-nil-dispose-[obj-theme-scream-sn6,def_prop(scream,_1792720)])
+lf(Crawlersout Lyrics.txt_4,30,cl22-nil-nil-keep-[])
+lf(Crawlersout Lyrics.txt_4,30,cl21-nil-will-sew-[adj-(mod)-out-nil,obj-prop-hair-sn17,obj-patient-long-sn16,obj-prop-foliage-sn14,xcomp-purpose-grow-2,subj-agent-frame-sn13,def_prop(hair,[animato,body_part,nquant,plant,umano]),def_prop(long,[tempo]),def_prop(foliage,[oggetto,plant,strumento]),def_prop(frame,[body_part,oggetto,strumento,umano])])
+lf(Crawlersout Lyrics.txt_4,30,cl20-nil-nil-grow-[obj-goal-them-sn19,xadj-result-keep-3,ncmod-loc_direct-bed-sn18,ncmod-locativo-they-sn15,def_prop(them,[umano]),def_prop(bed,[oggetto,strumento]),def_prop(they,[umano])])
+lf(Crawlersout Lyrics.txt_4,30,cl19-nil-will-weave-[obj-theme_aff-soul-sn4,obj-theme_aff-long-sn3,subj-actor-they-sn2,subj-actor-they-sn1,and(they,scream,sn1),def_prop(soul,[attivita,emotivo,informa,umano]),def_prop(long,[tempo]),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Crawlersout Lyrics.txt_5,39,cl24-nil-nil-keep-[adj-(mod)-out-nil,subj_top-experiencer-crawler-sn24,subj-experiencer-crawler-sn20,subj-experiencer-crawler-sn17,obj-goal-crawler-sn13,xadj-result-keep-5,obj-goal-them-sn4,xadj-result-keep-4,obj-theme_aff-crawler-sn3,obj-goal-them-sn2,subj-experiencer-you-sn1,and(crawler,them,sn24),and(crawler,them,sn20),and(crawler,them,sn17),and(crawler,them,sn13),def_prop(crawler,[animato,umano]),def_prop(crawler,[animato,umano]),def_prop(crawler,[animato,umano]),def_prop(crawler,[animato,umano]),def_prop(them,[umano]),def_prop(crawler,[animato,umano]),def_prop(them,[umano]),def_prop(you,[umano])])

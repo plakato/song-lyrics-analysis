@@ -1,0 +1,113 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Prayer Lyrics.txt_1-1  []-positive  []
+Prayer Lyrics.txt_2-3  []-positive  []
+Prayer Lyrics.txt_2-4  []-positive  []
+Prayer Lyrics.txt_2-5  []-positive  [bkc]
+Prayer Lyrics.txt_3-4  []-positive  []
+Prayer Lyrics.txt_3-5  []-positive  []
+Prayer Lyrics.txt_4-9  []-negative  [neg,neg]
+Prayer Lyrics.txt_5-14  []-positive  []
+Prayer Lyrics.txt_5-15  []-negative  [neg]
+Prayer Lyrics.txt_6-21  []-negative  [neg]
+Prayer Lyrics.txt_6-22  []-suspension  [neg,neg,fgb]
+Prayer Lyrics.txt_6-23  []-positive  []
+Prayer Lyrics.txt_7-30  []-positive  [bkc]
+Prayer Lyrics.txt_8-41  []-negative  [neg,bkc]
+Prayer Lyrics.txt_8-42  []-positive  []
+Prayer Lyrics.txt_8-43  []-positive  [neg]
+Prayer Lyrics.txt_8-44  [(as)-temp_coinc]-suspension  [neg,neg,bkc,fgb,neg]
+Prayer Lyrics.txt_8-45  []-negative  [fgb,neg,fgb,neg]
+Prayer Lyrics.txt_9-62  []-positive  []
+Prayer Lyrics.txt_9-63  []-suspension  [neg]
+Prayer Lyrics.txt_9-64  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Prayer Lyrics.txt_1-1  [prayer,Lyrics,by,QQ]  [title]
+Prayer Lyrics.txt_2-3  [my,people,prayeeeeeeeeeeeeer,this,world,prayeeeeeeeeeeeeer,need,some,prayer]  [raise_issue(be,[_305732,factive,statement,_305750,subjective])]
+Prayer Lyrics.txt_2-4  [need,some,prayer]  [raise_issue(be,[_306102,factive,statement,_306120,subjective])]
+Prayer Lyrics.txt_2-5  [yes]  [accept_expl_opin(be,[_306472,_306478,setting,_306490,_306496])]
+Prayer Lyrics.txt_3-4  [we,need,more,prayer]  [provide_expl_just(need,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Prayer Lyrics.txt_3-5  [fi,dem,mi,a,praises,weh,a,get,higher,that,is]  [provide_expl_just(need,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Prayer Lyrics.txt_4-9  [no,yah,why,the,rastaman,stop,bun,di,fiyah,pon,di,streets]  [reject_expl_just(stop,[external,factive,narration,background,objective])]
+Prayer Lyrics.txt_5-14  [you,find,more,sellah,than]  [provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(hear,[external,factive,narration,background,objective])]
+Prayer Lyrics.txt_5-15  [Cah,find,no,hear]  [reject_expl_just(find,[external,factive,narration,background,objective]),reject_expl_just(hear,[external,factive,narration,background,objective])]
+Prayer Lyrics.txt_6-21  [Weh,fi,rob,Inna,mi,life]  [reject_expl_just(need,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(rob,[external,factive,narration,background,objective])]
+Prayer Lyrics.txt_6-22  [is,a,tricky,game,without,the,love,is,what,we,need,.]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(rob,[external,factive,narration,background,objective])]
+Prayer Lyrics.txt_6-23  [we,need]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(rob,[external,factive,narration,background,objective])]
+Prayer Lyrics.txt_7-30  [that,is,my,desire,a,calling,out,the,holy,name,di,king,di,messiah,oh,heavenly,father,prayeeeeeeeeeeeeer,my,people,prayeeeeeeeeeeeeer,this,world,need,some,prayer,need,some,prayer,hear,mi,now,hear,mi,now,a,pray,fi,the,politicians,dem]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(desire,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(hear,[external,factive,narration,background,objective])]
+Prayer Lyrics.txt_8-41  [de,brute,yes,pray,fi,di,youths,dem]  [reject_expl_just(see,[external,factive,narration,background,objective]),reject_expl_just(pray,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(love,[external,factive,narration,background,objective]),reject_expl_just(shoot,[external,factive,narration,background,objective]),reject_expl_just(cute,[external,factive,narration,background,objective]),reject_expl_just(dung,[external,factive,narration,background,objective]),reject_expl_just(run,[external,factive,narration,background,objective]),reject_expl_just(need,[external,factive,narration,background,objective]),reject_expl_just(hear,[external,factive,narration,background,objective]),reject_expl_just(war,[external,factive,narration,background,objective])]
+Prayer Lyrics.txt_8-42  [we,love,shooty]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(pray,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(shoot,[external,factive,narration,background,objective]),provide_expl_just(cute,[external,factive,narration,background,objective]),provide_expl_just(dung,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(war,[external,factive,narration,background,objective])]
+Prayer Lyrics.txt_8-43  [,,shoot]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(pray,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(shoot,[external,factive,narration,background,objective]),provide_expl_just(cute,[external,factive,narration,background,objective]),provide_expl_just(dung,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(war,[external,factive,narration,background,objective])]
+Prayer Lyrics.txt_8-44  [pray,fi,di,bad,bite,as,yes,and,cute,mi,a,beg,you,jah,,,please,their,change,attitude,pray]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(pray,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(shoot,[external,factive,narration,background,objective]),provide_expl_just(cute,[external,factive,narration,background,objective]),provide_expl_just(dung,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(war,[external,factive,narration,background,objective])]
+Prayer Lyrics.txt_8-45  [di,ply,and,di,thief,and,di,thug,pray,fi,di,youths,,,dem,weh,dung,Inna,di,slum,pray,that,this,year,,,Nuh,blood,haffi,run,a,pray,to,see,the,sun,this,wooyy,prayeeeeeeeeeeeeer,world,need,some,prayer,my,prayeeeeeeeeeeeeer,people,need,some,prayer,hear,mi,now,i,pray,that,a,day,there,be,no_more,war,i,pray,that,a,day,love,will,stand]  [reject_expl_just(see,[external,factive,narration,background,objective]),reject_expl_just(pray,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(love,[external,factive,narration,background,objective]),reject_expl_just(shoot,[external,factive,narration,background,objective]),reject_expl_just(cute,[external,factive,narration,background,objective]),reject_expl_just(dung,[external,factive,narration,background,objective]),reject_expl_just(run,[external,factive,narration,background,objective]),reject_expl_just(need,[external,factive,narration,background,objective]),reject_expl_just(hear,[external,factive,narration,background,objective]),reject_expl_just(war,[external,factive,narration,background,objective])]
+Prayer Lyrics.txt_9-62  [Tall,i,pray]  [provide_expl_just(hunger,[external,factive,narration,background,objective]),provide_expl_just(pray,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Prayer Lyrics.txt_9-63  [that,a,day,there,be,no_more,hunger,i,pray]  [provide_expl_just(hunger,[external,factive,narration,background,objective]),provide_expl_just(pray,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Prayer Lyrics.txt_9-64  [prayeeeeeeeeeeeeer,my,people,need,some,prayer,for,the,this,prayeeeeeeeeeeeeer,world,need,some,prayer,that,a,day,there,be,help]  [provide_expl_just(hunger,[external,factive,narration,background,objective]),provide_expl_just(pray,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Prayer Lyrics.txt_1-1)-[]
+2-(Prayer Lyrics.txt_2-3)-[]
+3-(Prayer Lyrics.txt_2-4)-[]
+4-(Prayer Lyrics.txt_2-5)-[]
+5-(Prayer Lyrics.txt_3-4)-[]
+6-(Prayer Lyrics.txt_3-5)-[primary-height]
+7-(Prayer Lyrics.txt_4-9)-[secondary-abstract_tought,secondary-restraint,primary-brink]
+8-(Prayer Lyrics.txt_5-14)-[secondary-instru_behavior,secondary-instru_behavior]
+9-(Prayer Lyrics.txt_5-15)-[secondary-instru_behavior,primary-sound]
+10-(Prayer Lyrics.txt_6-21)-[emotions-aggression]
+half
+11-(Prayer Lyrics.txt_6-22)-[emotions-expressive_beh,emotions-affection]
+12-(Prayer Lyrics.txt_6-23)-[]
+13-(Prayer Lyrics.txt_7-30)-[primary-concreteness,primary-height,primary-sound,secondary-temporal_repere,primary-sound,secondary-temporal_repere]
+14-(Prayer Lyrics.txt_8-41)-[]
+15-(Prayer Lyrics.txt_8-42)-[emotions-affection,emotions-aggression]
+16-(Prayer Lyrics.txt_8-43)-[emotions-aggression]
+17-(Prayer Lyrics.txt_8-44)-[primary-orality,emotions-aggression,secondary-social_behavior]
+18-(Prayer Lyrics.txt_8-45)-[primary-anality,secondary-temporal_repere,primary-narcissism,primary-vision,primary-fire,primary-sound,secondary-temporal_repere,emotions-aggression,emotions-affection]
+19-(Prayer Lyrics.txt_9-62)-[]
+20-(Prayer Lyrics.txt_9-63)-[primary-orality]
+21-(Prayer Lyrics.txt_9-64)-[secondary-social_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Prayer Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-QQ-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,prayer,sn1),def_prop(QQ,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Prayer Lyrics.txt_2,3,cl3-nil-nil-be-[subj-theme_bound-yes-sn17,def_prop(yes,[attivita,informa])])
+lf(Prayer Lyrics.txt_2,3,cl2-nil-nil-need-[subj-experiencer-prayer-sn15,obj-theme-prayer-sn3,subj-experiencer-prayeeeeeeeeeeeeer-sn2,subj-experiencer-prayeeeeeeeeeeeeer-sn1,and(prayer,some,sn15),and(prayer,some,sn3),and(prayeeeeeeeeeeeeer,world,sn2),and(prayeeeeeeeeeeeeer,this,sn2),and(prayeeeeeeeeeeeeer,people,sn1),and(prayeeeeeeeeeeeeer,prayeeeeeeeeeeeeer,sn1),def_prop(prayer,[attivita,informa,umano]),def_prop(prayer,[attivita,informa,umano]),def_prop(prayeeeeeeeeeeeeer,[istituzione]),def_prop(prayeeeeeeeeeeeeer,[istituzione])])
+lf(Prayer Lyrics.txt_3,4,cl5-nil-nil-be-[xcomp-prop-higher-sn6,xcomp-theme-get-sn5,xcomp-prop-weh-sn4,subj-theme_bound-dem-sn3,and(weh,prais,sn4),and(dem,fi,sn3),and(dem,dem,sn3),def_prop(higher,[valutativo]),def_prop(get,[informa,tecno]),def_prop(weh,[istituzione]),def_prop(dem,[istituzione])])
+lf(Prayer Lyrics.txt_3,4,cl4-nil-nil-need-[obj-theme-prayer-sn2,subj-experiencer-we-sn1,def_prop(prayer,[attivita,informa,umano]),def_prop(we,[umano])])
+lf(Prayer Lyrics.txt_4,9,cl6-nil-nil-stop-[obj-theme_aff-street-sn3,obj-actor-rastaman-sn2,subj-agent-yah-sn1,and(street,bun,sn3),and(street,fiyah,sn3),and(street,pon,sn3),and(street,di,sn3),and(yah,no,sn1),def_prop(street,[oggetto,stato,strumento]),def_prop(rastaman,[istituzione]),def_prop(yah,[istituzione])])
+lf(Prayer Lyrics.txt_5,14,cl8-nil-nil-hear-[subj-experiencer-no-sn4,def_prop(no,[istituzione])])
+lf(Prayer Lyrics.txt_5,14,cl7-nil-nil-find-[subj-actor-Cah-sn5,obj-theme_bound-sellah-sn2,subj-actor-you-sn1,and(sellah,more,sn2),def_prop(Cah,[istituzione,umano]),def_prop(sellah,[istituzione]),def_prop(you,[umano])])
+lf(Prayer Lyrics.txt_6,21,cl11-nil-nil-need-[subj-experiencer-we-sn10,obj-prop-what-sn9,xcomp-purpose-be-6,ncmod-modal-love-sn8,def_prop(we,[umano]),def_prop(what,[oggetto]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Prayer Lyrics.txt_6,21,cl10-nil-nil-be-[subj-theme_bound-game-sn7,subj-theme_bound-game-sn6,and(game,tricky,sn7),and(game,tricky,sn6),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento])])
+lf(Prayer Lyrics.txt_6,21,cl9-nil-nil-rob-[obj-theme_aff-life-sn2,subj-agent-fi-sn1,and(life,mi,sn2),and(life,Inna,sn2),and(fi,Weh,sn1),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(fi,[informa,legale,tecno])])
+lf(Prayer Lyrics.txt_7,30,cl15-nil-nil-hear-[ncmod-locativo-messiah-sn3,and(messiah,holy,sn3),and(messiah,name,sn3),and(messiah,di,sn3),and(messiah,king,sn3),def_prop(messiah,[umano])])
+lf(Prayer Lyrics.txt_7,30,cl14-nil-nil-need-[adj-(mod)-now-nil,obj-theme-fi-sn72,obj-theme-mi-sn71,obj-theme-mi-sn70,obj-theme-prayer-sn69,obj-theme-prayer-sn68,obj-theme-world-sn67,obj-theme-prayeeeeeeeeeeeeer-sn66,obj-theme-prayeeeeeeeeeeeeer-sn65,obj-theme-father-sn64,ncmod-locativo-messiah-sn63,xcomp-prop-call-sn62,subj-experiencer-oh-sn61,obj-theme-fi-sn45,obj-theme-mi-sn44,obj-theme-mi-sn43,obj-theme-prayer-sn42,obj-theme-prayer-sn41,obj-theme-world-sn40,obj-theme-prayeeeeeeeeeeeeer-sn39,obj-theme-prayeeeeeeeeeeeeer-sn38,obj-theme-father-sn37,ncmod-locativo-messiah-sn36,xcomp-prop-call-sn35,subj-experiencer-oh-sn34,and(prayer,some,sn69),and(prayer,some,sn68),and(world,this,sn67),and(prayeeeeeeeeeeeeer,people,sn66),and(father,heavenly,sn64),and(messiah,holy,sn63),and(messiah,name,sn63),and(messiah,di,sn63),and(messiah,king,sn63),and(prayer,some,sn42),and(prayer,some,sn41),and(world,this,sn40),and(prayeeeeeeeeeeeeer,people,sn39),and(father,heavenly,sn37),and(messiah,holy,sn36),and(messiah,name,sn36),and(messiah,di,sn36),and(messiah,king,sn36),def_prop(fi,[informa,legale,tecno]),def_prop(mi,[attivita,informa]),def_prop(mi,[attivita,informa]),def_prop(prayer,[attivita,informa,umano]),def_prop(prayer,[attivita,informa,umano]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(prayeeeeeeeeeeeeer,[istituzione]),def_prop(prayeeeeeeeeeeeeer,[istituzione]),def_prop(father,[umano]),def_prop(messiah,[umano]),def_prop(call,[attivita,informa]),def_prop(oh,[informa,tecno]),def_prop(fi,[informa,legale,tecno]),def_prop(mi,[attivita,informa]),def_prop(mi,[attivita,informa]),def_prop(prayer,[attivita,informa,umano]),def_prop(prayer,[attivita,informa,umano]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(prayeeeeeeeeeeeeer,[istituzione]),def_prop(prayeeeeeeeeeeeeer,[istituzione]),def_prop(father,[umano]),def_prop(messiah,[umano]),def_prop(call,[attivita,informa]),def_prop(oh,[informa,tecno])])
+lf(Prayer Lyrics.txt_7,30,cl13-nil-nil-desire-[obj-theme-prayeeeeeeeeeeeeer-sn23,obj-theme-prayeeeeeeeeeeeeer-sn22,obj-theme-father-sn21,ncmod-locativo-messiah-sn20,xcomp-prop-call-sn19,subj-experiencer-oh-sn18,obj-theme-prayeeeeeeeeeeeeer-sn7,obj-theme-prayeeeeeeeeeeeeer-sn6,obj-theme-father-sn5,obj-theme-oh-sn4,xcomp-prop-call-sn2,subj-experiencer-my-sn1,and(prayeeeeeeeeeeeeer,people,sn23),and(father,heavenly,sn21),and(messiah,holy,sn20),and(messiah,name,sn20),and(messiah,di,sn20),and(messiah,king,sn20),and(prayeeeeeeeeeeeeer,people,sn7),and(father,heavenly,sn5),def_prop(prayeeeeeeeeeeeeer,[istituzione]),def_prop(prayeeeeeeeeeeeeer,[istituzione]),def_prop(father,[umano]),def_prop(messiah,[umano]),def_prop(call,[attivita,informa]),def_prop(oh,[informa,tecno]),def_prop(prayeeeeeeeeeeeeer,[istituzione]),def_prop(prayeeeeeeeeeeeeer,[istituzione]),def_prop(father,[umano]),def_prop(oh,[informa,tecno]),def_prop(call,[attivita,informa]),def_prop(my,[informa,tecno])])
+lf(Prayer Lyrics.txt_7,30,cl12-nil-nil-be-[])
+lf(Prayer Lyrics.txt_8,41,cl25-nil-will-stand-[])
+lf(Prayer Lyrics.txt_8,41,cl24-nil-nil-war-[])
+lf(Prayer Lyrics.txt_8,41,cl23-nil-nil-be-[ncmod-modal-day-sn53,def_prop(day,[tempo])])
+lf(Prayer Lyrics.txt_8,41,cl22-nil-nil-hear-[])
+lf(Prayer Lyrics.txt_8,41,cl21-nil-nil-need-[])
+lf(Prayer Lyrics.txt_8,41,cl20-nil-nil-see-[ccomp-prop-5-nil,savv-result-no_more-sn50,xcomp-prop-be-3,ncmod-modal-day-sn48,ncmod-modal-now-sn45,def_prop(no_more,[istituzione]),def_prop(day,[tempo]),def_prop(now,[istituzione])])
+lf(Prayer Lyrics.txt_8,41,cl19-nil-nil-run-[])
+lf(Prayer Lyrics.txt_8,41,nil-nil-nil-dung-[])
+lf(Prayer Lyrics.txt_8,41,nil-nil-nil-cute-[obj-theme_aff-beg-sn22,subj-agent-mi-sn21,obj-theme_aff-beg-sn20,subj-agent-mi-sn19,def_prop(beg,[astratto,oggetto,istituzione]),def_prop(mi,[attivita,informa]),def_prop(beg,[astratto,oggetto,istituzione]),def_prop(mi,[attivita,informa])])
+lf(Prayer Lyrics.txt_8,41,cl18-nil-nil-shoot-[subj-agent-you-sn12,def_prop(you,[umano])])
+lf(Prayer Lyrics.txt_8,41,cl17-nil-nil-love-[xcomp-prop-shooty-sn11,subj-experiencer-we-sn10,def_prop(shooty,[evaluative]),def_prop(we,[umano])])
+lf(Prayer Lyrics.txt_8,41,cl16-nil-nil-pray-[subj-experiencer-pro-nil,subj-experiencer-attitude-sn28,adj-(mod)-please-nil,subj-experiencer-attitude-sn23,cmod-coord-cute-1,obj-theme-jah-sn16,xcomp-prop-bite-sn15,xcomp-prop-di-sn14,subj-experiencer-you-sn13,obj-theme-dem-sn2,subj-experiencer-yes-sn1,and(jah,you,sn16),and(di,ply_and_thief_and_thug-sn56,sn14),and(di,and([thief,thug])-[sn33,sn34],sn14),and(di,ply-sn32,sn14),and(di,ply_and_thief_and_thug-sn55,sn14),and(di,ply_and_thief_and_thug-sn54,sn14),and(di,fi,sn14),and(dem,fi,sn2),and(dem,youth,sn2),and(yes,brute,sn1),and(yes,de,sn1),def_prop(attitude,[astratto,attivita,relat]),def_prop(attitude,[astratto,attivita,relat]),def_prop(jah,[istituzione]),def_prop(bite,[attivita,edible,evento,oggetto,stato]),def_prop(di,[informa,tecno]),def_prop(you,[umano]),def_prop(dem,[istituzione]),def_prop(yes,[attivita,informa])])
+lf(Prayer Lyrics.txt_9,62,cl30-nil-nil-help-[])
+lf(Prayer Lyrics.txt_9,62,cl29-nil-nil-need-[cmod-subord-hunger-for,obj-theme-prayer-sn14,subj-experiencer-world-sn13,obj-theme-prayer-sn11,subj-experiencer-prayeeeeeeeeeeeeer-sn10,obj-theme-prayer-sn8,subj-experiencer-prayeeeeeeeeeeeeer-sn7,and(prayer,some,sn14),and(world,this,sn13),and(prayer,some,sn11),and(prayer,some,sn8),def_prop(prayer,[attivita,informa,umano]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(prayer,[attivita,informa,umano]),def_prop(prayeeeeeeeeeeeeer,[istituzione]),def_prop(prayer,[attivita,informa,umano]),def_prop(prayeeeeeeeeeeeeer,[istituzione])])
+lf(Prayer Lyrics.txt_9,62,cl28-nil-nil-hunger-[adj-(mod)-no_more-nil,adj-temporal-day-nil,subj-actor-there-sn3,def_prop(day,[tempo]),def_prop(there,[any])])
+lf(Prayer Lyrics.txt_9,62,cl27-nil-nil-be-[subj-prop-there-sn3,voice-help-cl30,def_prop(there,[any])])
+lf(Prayer Lyrics.txt_9,62,cl26-nil-nil-pray-[subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,Tall,sn1),def_prop(i,[umano]),def_prop(i,[umano])])

@@ -1,0 +1,79 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Thoughts At The River Lyrics.txt_1-1  []-positive  []
+Thoughts At The River Lyrics.txt_2-3  []-negative  [neg]
+Thoughts At The River Lyrics.txt_2-4  []-positive  []
+Thoughts At The River Lyrics.txt_2-5  []-suspension  [neg]
+Thoughts At The River Lyrics.txt_3-8  []-positive  [fgb]
+Thoughts At The River Lyrics.txt_3-9  [but-advers,when-temp_coinc]-suspension  [neg,fgb,neg,neg]
+Thoughts At The River Lyrics.txt_4-12  []-negative  [neg]
+Thoughts At The River Lyrics.txt_4-13  []-negative  [neg]
+Thoughts At The River Lyrics.txt_4-14  [when-temp_coinc]-positive  []
+Thoughts At The River Lyrics.txt_5-19  []-negative  [neg]
+Thoughts At The River Lyrics.txt_5-20  [so-result]-negative  [fgb,neg]
+Thoughts At The River Lyrics.txt_6-27  []-positive  []
+Thoughts At The River Lyrics.txt_7-34  []-positive  [fhd,fhd]
+Thoughts At The River Lyrics.txt_7-35  []-positive  [bkc]
+Thoughts At The River Lyrics.txt_7-36  [but-advers]-suspension  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Thoughts At The River Lyrics.txt_1-1  [thoughts,at,the,River,Lyrics,by,QMC]  [title]
+Thoughts At The River Lyrics.txt_2-3  [weed,lean,everything]  [reject_expl_just(need,[external,factive,narration,foreground,objective]),reject_expl_just(lean,[external,factive,explanation,background,objective]),propose_opin_neg(lean,[external,factive,explanation,background,objective]),reject_expl_just(fall,[external,factive,explanation,background,objective]),propose_opin_neg(fall,[external,factive,explanation,background,objective])]
+Thoughts At The River Lyrics.txt_2-4  [i,need]  [provide_expl_just(need,[external,factive,narration,foreground,objective]),provide_expl_just(lean,[external,factive,explanation,background,objective]),provide_expl_just(fall,[external,factive,explanation,background,objective])]
+Thoughts At The River Lyrics.txt_2-5  [i,don-t,need,to,fall]  [provide_expl_just(need,[external,factive,narration,foreground,objective]),propose_opin_neg(lean,[external,factive,explanation,background,objective]),propose_opin_neg(fall,[external,factive,explanation,background,objective])]
+Thoughts At The River Lyrics.txt_3-8  [asleep,cause,i,am,Livin,what,i,dream,its]  [provide_expl_just(dream,[external,factive,narration,background,objective])]
+Thoughts At The River Lyrics.txt_3-9  [the,black,Charles,Manson,but,,,i,am,handsome,clean,hippie,bitches,on,my,dick,when]  [provide_expl_just(dream,[external,factive,narration,background,objective])]
+Thoughts At The River Lyrics.txt_4-12  [i,am,rappin,on,beat]  [reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),reject_expl_just(beat,[external,factive,explanation,background,objective]),propose_opin_neg(beat,[external,factive,explanation,background,objective])]
+Thoughts At The River Lyrics.txt_4-13  [i,got,drugs,by,the,pound]  [reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),reject_expl_just(beat,[external,factive,explanation,background,objective]),propose_opin_neg(beat,[external,factive,explanation,background,objective])]
+Thoughts At The River Lyrics.txt_4-14  [when]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(beat,[external,factive,explanation,background,objective])]
+Thoughts At The River Lyrics.txt_5-19  [your,loves,,,not,around,got]  [reject_expl_just(make,[external,factive,cause,foreground,objective]),reject_expl_just(be,[external,factive,rationale,background,objective])]
+Thoughts At The River Lyrics.txt_5-20  [,,mansion,made,of,clouds,so,,,i,am,never,coming]  [reject_expl_just(make,[external,factive,cause,foreground,objective]),reject_expl_just(be,[external,factive,rationale,background,objective])]
+Thoughts At The River Lyrics.txt_6-27  [down,my,girl]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Thoughts At The River Lyrics.txt_7-34  [look,like,a,Courtney,cox,Livin,life,like,Courtney]  [provide_expl_just(cox,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(shoot,[external,factive,narration,foreground,objective])]
+Thoughts At The River Lyrics.txt_7-35  [,,love,yeah,she,is,doin,more_than,pot]  [provide_expl_just(cox,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(shoot,[external,factive,narration,foreground,objective])]
+Thoughts At The River Lyrics.txt_7-36  [but,she,is,ever,not,shooting,drugs]  [provide_expl_just(cox,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(shoot,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Thoughts At The River Lyrics.txt_1-1)-[secondary-abstract_tought,primary-concreteness]
+2-(Thoughts At The River Lyrics.txt_2-3)-[primary-descent]
+3-(Thoughts At The River Lyrics.txt_2-4)-[]
+4-(Thoughts At The River Lyrics.txt_2-5)-[primary-descent]
+5-(Thoughts At The River Lyrics.txt_3-8)-[primary-counscious,secondary-abstract_tought,primary-counscious]
+6-(Thoughts At The River Lyrics.txt_3-9)-[primary-sex,secondary-temporal_repere]
+7-(Thoughts At The River Lyrics.txt_4-12)-[emotions-aggression]
+half
+8-(Thoughts At The River Lyrics.txt_4-13)-[]
+9-(Thoughts At The River Lyrics.txt_4-14)-[secondary-temporal_repere]
+10-(Thoughts At The River Lyrics.txt_5-19)-[emotions-affection]
+11-(Thoughts At The River Lyrics.txt_5-20)-[primary-counscious,primary-diffusion]
+12-(Thoughts At The River Lyrics.txt_6-27)-[]
+13-(Thoughts At The River Lyrics.txt_7-34)-[primary-vision,emotions-affection,emotions-affection]
+14-(Thoughts At The River Lyrics.txt_7-35)-[emotions-affection,primary-orality]
+15-(Thoughts At The River Lyrics.txt_7-36)-[secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Thoughts At The River Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-QMC-sn4,xcomp-theme-Lyrics-sn3,ncmod-locativo-River-sn2,subj-theme_bound-thought-sn1,def_prop(QMC,[istituzione]),def_prop(Lyrics,[informa,tecno]),def_prop(River,[place,umano]),def_prop(thought,[astratto])])
+lf(Thoughts At The River Lyrics.txt_2,3,cl4-nil-nil-fall-[subj-tema_nonaff-i-sn4,def_prop(i,[umano])])
+lf(Thoughts At The River Lyrics.txt_2,3,cl3-not-nil-need-[subj-experiencer-i-sn4,subj-experiencer-you-sn3,aux-do-nil,def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Thoughts At The River Lyrics.txt_2,3,cl2-nil-nil-lean-[obj-theme-everything-sn2,subj-actor-wee-sn1,def_prop(everything,[astratto,informa,oggetto]),def_prop(wee,[tempo])])
+lf(Thoughts At The River Lyrics.txt_3,8,_461858-nil-nil-dream-[cmod-subord-dream-but,ncmod-locativo-dick-sn9,voice-dream-nil,tense-dream-nil,obl-locat-Livin-sn3,def_prop(dick,[umano]),def_prop(Livin,[istituzione,umano])])
+lf(Thoughts At The River Lyrics.txt_3,8,cl5-nil-nil-be-[xcomp-prop-hippie-sn15,xcomp-prop-handsome-sn14,subj-theme_bound-i-sn13,voice-dream-nil,tense-dream-nil,xcomp-theme_aff-its-sn4,xcomp-prop-Livin-sn3,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(hippie,clean,sn15),and(i,cause,sn1),and(i,asleep,sn1),def_prop(hippie,[umano]),def_prop(handsome,[evaluative]),def_prop(i,[umano]),def_prop(its,[istituzione]),def_prop(Livin,[istituzione,umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Thoughts At The River Lyrics.txt_4,12,cl8-nil-nil-get-[arg_mod-agent-pound-sn5,obj-theme_unaff-drug-sn4,subj-agent-i-sn3,def_prop(pound,[nquant,oggetto,strumento]),def_prop(drug,[oggetto,strumento]),def_prop(i,[umano])])
+lf(Thoughts At The River Lyrics.txt_4,12,cl7-nil-nil-beat-[subj-tema_aff-rappin-sn2,def_prop(rappin,[istituzione])])
+lf(Thoughts At The River Lyrics.txt_4,12,cl6-nil-nil-be-[subj-theme_bound-pro-nil,xcomp-prop-rappin-sn2,subj-theme_bound-i-sn1,def_prop(rappin,[istituzione]),def_prop(i,[umano])])
+lf(Thoughts At The River Lyrics.txt_5,19,cl11-nil-nil-be-[cmod-subord-be-so,adj-(mod)-never-nil,xcomp-prop-coming-sn8,subj-theme_bound-i-sn7,ncmod-specif-cloud-sn6,def_prop(coming,[astratto,cambia,evento]),def_prop(i,[umano]),def_prop(cloud,[attivita,cambia,oggetto,stato])])
+lf(Thoughts At The River Lyrics.txt_5,19,cl10-nil-nil-make-[subj-agent-mansion-sn5,def_prop(mansion,[oggetto,strumento])])
+lf(Thoughts At The River Lyrics.txt_5,19,cl9-not-nil-get-[adj-(mod)-around-nil,subj-theme_bound-love-sn1,def_prop(love,[astratto,emotivo,nquant])])
+lf(Thoughts At The River Lyrics.txt_6,27,cl12-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Thoughts At The River Lyrics.txt_7,34,cl15-not-nil-shoot-[xcomp-prop-drug-sn13,subj-agent-she-sn12,adj-(mod)-ever-nil,aux-(is)-nil,progr-shooting-nil,def_prop(drug,[oggetto,strumento]),def_prop(she,[umano])])
+lf(Thoughts At The River Lyrics.txt_7,34,cl14-nil-nil-be-[adj-(mod)-yeah-nil,xcomp-prop-doin-sn9,subj-theme_bound-she-sn8,subj-theme_bound-she-sn7,and(she,love,sn7),def_prop(doin,[istituzione]),def_prop(she,[umano]),def_prop(she,[umano])])
+lf(Thoughts At The River Lyrics.txt_7,34,cl13-nil-nil-cox-[obj-theme-Courtney-sn4,obj-theme-life-sn3,subj-actor-Courtney-sn2,subj-actor-Courtney-sn1,and(life,Livin,sn3),and(Courtney,look,sn1),def_prop(Courtney,[place,umano]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(Courtney,[place,umano]),def_prop(Courtney,[place,umano])])

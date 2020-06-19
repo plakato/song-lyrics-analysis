@@ -1,0 +1,200 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Factories Lyrics.txt_1-1  []-positive  [neg]
+Factories Lyrics.txt_2-3  []-positive  []
+Factories Lyrics.txt_2-4  []-positive  []
+Factories Lyrics.txt_3-7  []-positive  []
+Factories Lyrics.txt_3-8  []-positive  []
+Factories Lyrics.txt_3-9  []-positive  [fgb]
+Factories Lyrics.txt_4-11  []-positive  []
+Factories Lyrics.txt_4-12  []-positive  [neg]
+Factories Lyrics.txt_4-13  [when-temp_coinc]-positive  [fgb,fgb]
+Factories Lyrics.txt_4-14  [when-temp_coinc]-positive  []
+Factories Lyrics.txt_5-19  []-positive  []
+Factories Lyrics.txt_6-25  []-suspension  []
+Factories Lyrics.txt_6-26  []-positive  []
+Factories Lyrics.txt_6-27  []-negative  [neg,fgb]
+Factories Lyrics.txt_7-34  []-positive  [fgb]
+Factories Lyrics.txt_8-43  []-positive  []
+Factories Lyrics.txt_8-44  []-positive  []
+Factories Lyrics.txt_8-45  [but-advers]-positive  [fgb,fgb,fgb]
+Factories Lyrics.txt_8-46  []-positive  []
+Factories Lyrics.txt_9-61  []-negative  [neg]
+Factories Lyrics.txt_9-62  []-positive  [fgb]
+Factories Lyrics.txt_9-63  [(as)-temp_coinc]-suspension  [fgb,fgb,neg]
+Factories Lyrics.txt_9-64  []-positive  []
+Factories Lyrics.txt_10-76  []-suspension  [fgb,fgb,fgb]
+Factories Lyrics.txt_11-88  []-suspension  []
+Factories Lyrics.txt_11-89  []-positive  [fgb,bkc]
+Factories Lyrics.txt_12-101  []-suspension  []
+Factories Lyrics.txt_13-114  []-positive  [fgb]
+Factories Lyrics.txt_14-129  []-positive  []
+Factories Lyrics.txt_14-130  []-suspension  []
+Factories Lyrics.txt_14-131  [when-temp_coinc]-suspension  [neg]
+Factories Lyrics.txt_15-146  []-suspension  []
+Factories Lyrics.txt_15-147  []-positive  []
+Factories Lyrics.txt_16-163  []-positive  []
+Factories Lyrics.txt_16-164  []-suspension  []
+Factories Lyrics.txt_16-165  [when-temp_coinc]-suspension  [neg]
+Factories Lyrics.txt_17-182  []-suspension  []
+Factories Lyrics.txt_17-183  [when-temp_coinc]-positive  []
+Factories Lyrics.txt_18-201  []-negative  [neg,neg,fgb]
+Factories Lyrics.txt_19-220  []-positive  []
+Factories Lyrics.txt_19-221  []-positive  []
+Factories Lyrics.txt_20-243  []-suspension  []
+Factories Lyrics.txt_20-244  []-positive  [ack,fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Factories Lyrics.txt_1-1  [factories,Lyrics,by,band,pup]  [title]
+Factories Lyrics.txt_2-3  [i,built,this,life]  [provide_expl_just(build,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Factories Lyrics.txt_2-4  [for,you,with]  [provide_expl_just(build,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Factories Lyrics.txt_3-7  [my,own,two,hands,you,have,been,sneaking,around]  [raise_issue(be,[_338306,factive,statement,_338324,subjective])]
+Factories Lyrics.txt_3-8  [you,have,been,with,another,man]  [raise_issue(be,[_338682,factive,statement,_338700,subjective])]
+Factories Lyrics.txt_3-9  [and]  [proposal(be,[_339058,_339064,statement,foreground,_339082])]
+Factories Lyrics.txt_4-11  [i,hope]  [provide_expl_just(do,[external,factive,narration,background,objective]),provide_expl_just(hope,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_4-12  [you,know,bloody]  [provide_expl_just(do,[external,factive,narration,background,objective]),provide_expl_just(hope,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_4-13  [well,what,you,have,done,to,me,when,.,you,have,done,to,me]  [provide_expl_just(do,[external,factive,narration,background,objective]),provide_expl_just(hope,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_4-14  [when]  [provide_expl_just(do,[external,factive,narration,background,objective]),provide_expl_just(hope,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_5-19  [i,come,home,from]  [raise_issue(be,[_358958,factive,statement,_358976,subjective])]
+Factories Lyrics.txt_6-25  [the,factory,you,baby,i,will,make,a,plan]  [provide_expl_just(make,[external,nonfactive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_6-26  [know]  [provide_expl_just(make,[external,nonfactive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_6-27  [i,am,a,jealous,man,and]  [reject_expl_just(make,[external,nonfactive,narration,background,objective]),reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_7-34  [what,goes,around,comes]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_8-43  [around,you,took]  [provide_expl_just(play,[external,nonfactive,result,foreground,objective]),provide_expl_just(play,[external,nonfactive,narration,foreground,objective]),provide_expl_just(leave,[external,factive,result,foreground,objective]),provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(hide,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,result,foreground,objective]),provide_expl_just(go,[external,factive,adverse,background,objective])]
+Factories Lyrics.txt_8-44  [the,car,said]  [provide_expl_just(play,[external,nonfactive,result,foreground,objective]),provide_expl_just(play,[external,nonfactive,narration,foreground,objective]),provide_expl_just(leave,[external,factive,result,foreground,objective]),provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(hide,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,result,foreground,objective]),provide_expl_just(go,[external,factive,adverse,background,objective])]
+Factories Lyrics.txt_8-45  [and,go,seek,but,baby,i,am,playing,for_keeps,and,down,by,the,Don,Valley]  [provide_expl_just(play,[external,nonfactive,result,foreground,objective]),provide_expl_just(play,[external,nonfactive,narration,foreground,objective]),provide_expl_just(leave,[external,factive,result,foreground,objective]),provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(hide,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,result,foreground,objective]),provide_expl_just(go,[external,factive,adverse,background,objective])]
+Factories Lyrics.txt_8-46  [you,are,,,leaving,town,we,can,play,hide]  [provide_expl_just(play,[external,nonfactive,result,foreground,objective]),provide_expl_just(play,[external,nonfactive,narration,foreground,objective]),provide_expl_just(leave,[external,factive,result,foreground,objective]),provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(hide,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,result,foreground,objective]),provide_expl_just(go,[external,factive,adverse,background,objective])]
+Factories Lyrics.txt_9-61  [the,Creek,water,is,dirty]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(leave,[external,factive,narration,background,objective]),reject_expl_just(get,[external,nonfactive,narration,background,objective]),reject_expl_just(deserve,[external,factive,narration,background,objective]),reject_expl_just(concern-cl27,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_9-62  [and,deep,leave,you,under,the,overpass]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective]),provide_expl_just(get,[external,nonfactive,narration,background,objective]),provide_expl_just(deserve,[external,factive,narration,background,objective]),provide_expl_just(concern-cl27,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_9-63  [and,you,will,get,what,you,deserve,cause,.,with,,,the,broken,glass,by,,,the,factories,far,as,i,am,concerned]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective]),provide_expl_just(get,[external,nonfactive,narration,background,objective]),provide_expl_just(deserve,[external,factive,narration,background,objective]),provide_expl_just(concern-cl27,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_9-64  [you,had,it,all]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective]),provide_expl_just(get,[external,nonfactive,narration,background,objective]),provide_expl_just(deserve,[external,factive,narration,background,objective]),provide_expl_just(concern-cl27,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_10-76  [what,goes,around,comes,will,slip,around,and,i,away,without,a,sound,and]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_11-88  [they,will,track,me,through,the,night]  [provide_expl_just(track,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_11-89  [and,in,the,dawn,oh]  [provide_expl_just(track,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_12-101  [they,will]  [provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Factories Lyrics.txt_13-114  [hang,me,for,what,i,have,done,baby,.,i,have,done,baby]  [provide_expl_just(do,[external,factive,narration,background,objective]),provide_expl_just(hang,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_14-129  [it,is,alright]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(see,[external,nonfactive,narration,background,objective]),provide_expl_just(drop,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_14-130  [i,will,be,seeing]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(see,[external,nonfactive,narration,background,objective]),provide_expl_just(drop,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_14-131  [you,soon,when,the,floor,of,the,gallows,drops,away]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(see,[external,nonfactive,narration,background,objective]),provide_expl_just(drop,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_15-146  [i,will,think,of,you]  [provide_expl_just(think,[external,nonfactive,narration,background,objective]),provide_expl_just(baby,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_15-147  [baby]  [provide_expl_just(think,[external,nonfactive,narration,background,objective]),provide_expl_just(baby,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_16-163  [it,is,alright]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(see,[external,nonfactive,narration,background,objective]),provide_expl_just(drop,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_16-164  [i,will,be,seeing]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(see,[external,nonfactive,narration,background,objective]),provide_expl_just(drop,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_16-165  [you,soon,when,the,floor,of,the,gallows,drops,away]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(see,[external,nonfactive,narration,background,objective]),provide_expl_just(drop,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_17-182  [i,will,think,of,you]  [provide_expl_just(think,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_17-183  [when]  [provide_expl_just(think,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_18-201  [there,is,nothing,left,to,lose,shave,my,hair,and,shine]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_19-220  [my,shoes,hanging,from,the,noose,any,last,words,better,say]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(hang,[external,factive,narration,foreground,objective]),provide_expl_just(better,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_19-221  [it]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(hang,[external,factive,narration,foreground,objective]),provide_expl_just(better,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_20-243  [now,i,guess]  [provide_expl_just(right,[external,factive,narration,background,objective]),provide_expl_just(guess,[external,factive,narration,background,objective])]
+Factories Lyrics.txt_20-244  [i,was,right,what,goes,around,comes,around]  [provide_expl_just(right,[external,factive,narration,background,objective]),provide_expl_just(guess,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Factories Lyrics.txt_1-1)-[secondary-instru_behavior]
+2-(Factories Lyrics.txt_2-3)-[secondary-instru_behavior]
+3-(Factories Lyrics.txt_2-4)-[]
+4-(Factories Lyrics.txt_3-7)-[primary-narcissism]
+5-(Factories Lyrics.txt_3-8)-[]
+6-(Factories Lyrics.txt_3-9)-[]
+7-(Factories Lyrics.txt_4-11)-[]
+8-(Factories Lyrics.txt_4-12)-[secondary-abstract_tought,emotions-aggression]
+9-(Factories Lyrics.txt_4-13)-[secondary-temporal_repere]
+10-(Factories Lyrics.txt_4-14)-[secondary-temporal_repere]
+11-(Factories Lyrics.txt_5-19)-[]
+12-(Factories Lyrics.txt_6-25)-[secondary-instru_behavior,secondary-instru_behavior,secondary-abstract_tought]
+13-(Factories Lyrics.txt_6-26)-[secondary-abstract_tought]
+14-(Factories Lyrics.txt_6-27)-[emotions-aggression]
+15-(Factories Lyrics.txt_7-34)-[]
+16-(Factories Lyrics.txt_8-43)-[]
+17-(Factories Lyrics.txt_8-44)-[secondary-social_behavior]
+18-(Factories Lyrics.txt_8-45)-[primary-vision]
+19-(Factories Lyrics.txt_8-46)-[emotions-expressive_beh]
+20-(Factories Lyrics.txt_9-61)-[primary-water,primary-anality]
+21-(Factories Lyrics.txt_9-62)-[primary-depth,primary-depth]
+half
+22-(Factories Lyrics.txt_9-63)-[secondary-abstract_tought,emotions-aggression,primary-hard,secondary-instru_behavior,primary-concreteness]
+23-(Factories Lyrics.txt_9-64)-[]
+24-(Factories Lyrics.txt_10-76)-[primary-descent,primary-concreteness,primary-sound]
+25-(Factories Lyrics.txt_11-88)-[]
+26-(Factories Lyrics.txt_11-89)-[primary-ascend]
+27-(Factories Lyrics.txt_12-101)-[]
+28-(Factories Lyrics.txt_13-114)-[primary-ascend]
+29-(Factories Lyrics.txt_14-129)-[]
+30-(Factories Lyrics.txt_14-130)-[primary-vision]
+31-(Factories Lyrics.txt_14-131)-[secondary-temporal_repere,secondary-temporal_repere,primary-brink,primary-descent,primary-concreteness]
+32-(Factories Lyrics.txt_15-146)-[secondary-abstract_tought]
+33-(Factories Lyrics.txt_15-147)-[]
+34-(Factories Lyrics.txt_16-163)-[]
+35-(Factories Lyrics.txt_16-164)-[primary-vision]
+36-(Factories Lyrics.txt_16-165)-[secondary-temporal_repere,secondary-temporal_repere,primary-brink,primary-descent,primary-concreteness]
+37-(Factories Lyrics.txt_17-182)-[secondary-abstract_tought]
+38-(Factories Lyrics.txt_17-183)-[secondary-temporal_repere]
+39-(Factories Lyrics.txt_18-201)-[primary-narcissism,primary-vision]
+40-(Factories Lyrics.txt_19-220)-[secondary-social_behavior]
+41-(Factories Lyrics.txt_19-221)-[]
+42-(Factories Lyrics.txt_20-243)-[secondary-temporal_repere,secondary-abstract_tought]
+43-(Factories Lyrics.txt_20-244)-[secondary-moral_imperative]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Factories Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-pup-sn2,subj-theme_bound-Lyrics-sn1,and(pup,band,sn2),and(Lyrics,factory,sn1),def_prop(pup,[animato]),def_prop(Lyrics,[informa,tecno])])
+lf(Factories Lyrics.txt_2,3,cl3-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Factories Lyrics.txt_2,3,cl2-nil-nil-build-[obj-theme_aff-life-sn2,subj-agent-i-sn1,and(life,this,sn2),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(i,[umano])])
+lf(Factories Lyrics.txt_3,7,cl4-nil-nil-be-[ncmod-comitativo-man-sn9,subj-theme_bound-you-sn8,adj-(mod)-around-nil,xcomp-prop-sneaking-sn3,subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,and(man,another,sn9),and(you,hand,sn1),and(you,own,sn1),def_prop(man,[any]),def_prop(you,[umano]),def_prop(sneaking,[evaluative]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Factories Lyrics.txt_4,11,cl8-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Factories Lyrics.txt_4,11,cl7-nil-nil-do-[adj-(mod)-well-nil,iobj-goal-me-sn7,iobj-goal-me-sn6,aux-have-nil,subj-theme_unaff-you-sn4,def_prop(me,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Factories Lyrics.txt_4,11,cl6-nil-nil-know-[xcomp-prop-bloody-sn3,subj-actor-you-sn2,def_prop(bloody,[evaluative]),def_prop(you,[umano])])
+lf(Factories Lyrics.txt_4,11,cl5-nil-nil-hope-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Factories Lyrics.txt_5,19,cl9-nil-nil-come-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Factories Lyrics.txt_6,25,cl12-nil-nil-be-[xcomp-prop-man-sn15,subj-theme_bound-i-sn14,and(man,jealous,sn15),def_prop(man,[any]),def_prop(i,[umano])])
+lf(Factories Lyrics.txt_6,25,cl11-nil-nil-know-[subj-actor-you-sn13,obj-theme-you-sn12,obj-theme-you-sn11,subj-actor-you-sn10,subj-actor-you-sn9,def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Factories Lyrics.txt_6,25,cl10-nil-will-make-[obj-goal-plan-sn4,subj-agent-i-sn3,subj-agent-i-sn2,subj-agent-baby-sn1,and(i,baby,sn2),and(baby,factory,sn1),def_prop(plan,[astratto,oggetto,strumento]),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(baby,[animato,any,attivita,plant])])
+lf(Factories Lyrics.txt_7,34,cl14-nil-nil-come-[])
+lf(Factories Lyrics.txt_7,34,cl13-nil-nil-go-[subj-agent-what-sn1,def_prop(what,[oggetto])])
+lf(Factories Lyrics.txt_8,43,cl22-nil-nil-hide-[subj-patient-town-sn27,def_prop(town,[istituzione,luogo])])
+lf(Factories Lyrics.txt_8,43,cl21-nil-nil-leave-[])
+lf(Factories Lyrics.txt_8,43,cl20-nil-nil-be-[xcomp-theme-town-sn26,xcomp-purpose-leave-3,subj-theme_bound-you-sn24,subj-theme_bound-you-sn23,def_prop(town,[istituzione,luogo]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Factories Lyrics.txt_8,43,cl19-nil-can-play-[xcomp-prop-town-sn27,xadj-result-leave-2,subj-agent-we-sn25,cmod-subord-hide-",cmod-subord-go-but,arg_mod-agent-Don-sn21,xadj-adj-down-adj3,adj-(mod)-for_keeps-nil,xcomp-agent-Valley-sn17,arg_mod-agent-Don-sn16,subj-agent-you-sn15,xadj-adj-down-adj2,xcomp-prop-Valley-sn13,arg_mod-agent-Don-sn12,subj-agent-i-sn11,xadj-adj-down-adj1,xcomp-prop-Valley-sn8,arg_mod-agent-Don-sn7,subj-agent-i-sn6,subj-agent-i-sn5,aux-am-nil,progr-playing-nil,and(i,baby,sn5),def_prop(town,[istituzione,luogo]),def_prop(we,[umano]),def_prop(Don,[place,umano]),def_prop(down,_429130),def_prop(for_keeps,[istituzione]),def_prop(Valley,[place,umano]),def_prop(Don,[place,umano]),def_prop(you,[umano]),def_prop(down,_429226),def_prop(Valley,[place,umano]),def_prop(Don,[place,umano]),def_prop(i,[umano]),def_prop(down,_429304),def_prop(Valley,[place,umano]),def_prop(Don,[place,umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Factories Lyrics.txt_8,43,cl18-nil-nil-seek-[])
+lf(Factories Lyrics.txt_8,43,cl17-nil-nil-go-[subj-agent-you-sn4,def_prop(you,[umano])])
+lf(Factories Lyrics.txt_8,43,cl16-nil-nil-say-[subj-actor-you-sn3,def_prop(you,[umano])])
+lf(Factories Lyrics.txt_8,43,cl15-nil-nil-take-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Factories Lyrics.txt_9,61,cl28-nil-nil-have-[xcomp-tema_bound-all-sn16,subj-experiencer-it-sn15,subj-experiencer-it-sn14,and(it,you,sn14),def_prop(all,[_429790]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Factories Lyrics.txt_9,61,cl27-nil-nil-concern-[aux-am-nil])
+lf(Factories Lyrics.txt_9,61,cl26-nil-nil-deserve-[cmod-subord-leave-",iobj-modal-[]-[],def_prop([],[])])
+lf(Factories Lyrics.txt_9,61,cl25-nil-will-get-[subj-agent-you-sn7,def_prop(you,[umano])])
+lf(Factories Lyrics.txt_9,61,cl24-nil-nil-leave-[ncmod-temporale-overpass-sn6,subj-theme-you-sn5,subj-theme-you-sn4,and(you,deep,sn4),def_prop(overpass,[oggetto,strumento]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Factories Lyrics.txt_9,61,cl23-nil-nil-be-[xcomp-prop-dirty-sn2,subj-actor-water-sn1,and(water,Creek,sn1),def_prop(dirty,[evaluative]),def_prop(water,[edible,oggetto,sostanza])])
+lf(Factories Lyrics.txt_10,76,cl30-nil-will-will-[cmod-coord-go-nil,ncmod-privation-sound-sn4,obj-theme_aff-away-sn3,xcomp-purpose-will-2,def_prop(sound,[astratto,attivita,cambia,evento,oggetto]),def_prop(away,[evaluative])])
+lf(Factories Lyrics.txt_10,76,cl29-nil-nil-go-[adj-(mod)-around-nil,obj-theme_aff-what-sn2,subj-agent-i-sn1,def_prop(what,[oggetto]),def_prop(i,[umano])])
+lf(Factories Lyrics.txt_11,88,cl32-nil-nil-be-[cmod-subord-be-",adj-temporal-dawn-nil,subj-theme_bound-oh-sn4,def_prop(dawn,[tempo]),def_prop(oh,[informa,tecno])])
+lf(Factories Lyrics.txt_11,88,cl31-nil-will-track-[ncmod-modal-night-sn3,obj-theme-me-sn2,subj-agent-they-sn1,def_prop(night,[tempo]),def_prop(me,[umano]),def_prop(they,[umano])])
+lf(Factories Lyrics.txt_12,101,cl33-nil-will-will-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Factories Lyrics.txt_13,114,cl35-nil-nil-do-[cmod-subord-hang-nil,xcomp-result-baby-sn5,xcomp-purpose-do-4,aux-have-nil,def_prop(baby,[animato,any,attivita,plant])])
+lf(Factories Lyrics.txt_13,114,cl34-nil-nil-hang-[obj-theme-i-sn4,f2-sn1-what-sn3,obj-goal-me-sn2,subj-agent-you-sn1,def_prop(i,[umano]),def_prop(what,[oggetto]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Factories Lyrics.txt_14,129,cl38-nil-nil-drop-[cmod-subord-see-when,xcomp-prop-away-sn7,subj-actor-floor-sn6,def_prop(away,[evaluative]),def_prop(floor,[astratto,attivita,informa,oggetto,strumento])])
+lf(Factories Lyrics.txt_14,129,cl37-nil-will-see-[subj-experiencer-you-sn3,aux-be-nil,progr-seeing-nil,def_prop(you,[umano])])
+lf(Factories Lyrics.txt_14,129,cl36-nil-nil-be-[xcomp-prop-alright-sn2,subj-theme_bound-it-sn1,def_prop(alright,[istituzione]),def_prop(it,[any])])
+lf(Factories Lyrics.txt_15,146,cl40-nil-nil-baby-[subj-agent-pro-nil,ncmod-specif-you-sn2,def_prop(you,[umano])])
+lf(Factories Lyrics.txt_15,146,cl39-nil-will-think-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Factories Lyrics.txt_16,163,cl43-nil-nil-drop-[cmod-subord-see-when,xcomp-prop-away-sn7,subj-actor-floor-sn6,def_prop(away,[evaluative]),def_prop(floor,[astratto,attivita,informa,oggetto,strumento])])
+lf(Factories Lyrics.txt_16,163,cl42-nil-will-see-[subj-experiencer-you-sn3,aux-be-nil,progr-seeing-nil,def_prop(you,[umano])])
+lf(Factories Lyrics.txt_16,163,cl41-nil-nil-be-[xcomp-prop-alright-sn2,subj-theme_bound-it-sn1,def_prop(alright,[istituzione]),def_prop(it,[any])])
+lf(Factories Lyrics.txt_17,182,cl45-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Factories Lyrics.txt_17,182,cl44-nil-will-think-[iobj-theme_unaff-you-sn2,subj-agent-i-sn1,def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Factories Lyrics.txt_18,201,cl46-nil-nil-be-[xcomp-prop-left-sn2,subj-theme_bound-there-sn1,and(left,nothing,sn2),def_prop(left,[soggettivo]),def_prop(there,[any])])
+lf(Factories Lyrics.txt_19,220,cl49-nil-nil-be-[subj-theme_bound-you-sn7,def_prop(you,[umano])])
+lf(Factories Lyrics.txt_19,220,cl48-nil-nil-say-[])
+lf(Factories Lyrics.txt_19,220,nil-nil-nil-better-[xcomp-purpose-hang-2,subj-agent-sho-sn1,def_prop(sho,[istituzione])])
+lf(Factories Lyrics.txt_19,220,cl47-nil-nil-hang-[iobj-goal-noose-sn2,def_prop(noose,[oggetto,strumento])])
+lf(Factories Lyrics.txt_20,243,cl51-nil-nil-come-[subj-prop-i-sn4,def_prop(i,[umano])])
+lf(Factories Lyrics.txt_20,243,cl50-nil-nil-right-[adj-locative-around-nil,subj-theme-i-sn4,aux-was-nil,def_prop(i,[umano])])
+lf(Factories Lyrics.txt_20,243,nil-nil-nil-guess-[subj-experiencer-i-sn1,def_prop(i,[umano])])

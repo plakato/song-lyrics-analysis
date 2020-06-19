@@ -1,0 +1,148 @@
+"POLARITY, DISCOURSE MARKERS"
+
+If This Tour Doesn't Kill You.txt_1-1  [if-hypoth]-negative  [fgb]
+If This Tour Doesn't Kill You.txt_2-3  [if-hypoth,then-temp_seq]-suspension  [fgb,neg]
+If This Tour Doesn't Kill You.txt_2-4  [if-hypoth]-negative  [fgb,neg,fgb,fgb]
+If This Tour Doesn't Kill You.txt_2-5  []-negative  [neg]
+If This Tour Doesn't Kill You.txt_3-10  []-suspension  [neg]
+If This Tour Doesn't Kill You.txt_3-11  []-positive  []
+If This Tour Doesn't Kill You.txt_4-15  []-suspension  []
+If This Tour Doesn't Kill You.txt_5-20  []-positive  []
+If This Tour Doesn't Kill You.txt_5-21  []-positive  []
+If This Tour Doesn't Kill You.txt_6-27  []-negative  [neg]
+If This Tour Doesn't Kill You.txt_6-28  []-negative  [neg,neg,neg]
+If This Tour Doesn't Kill You.txt_7-36  []-positive  []
+If This Tour Doesn't Kill You.txt_7-37  []-negative  [neg,fgb]
+If This Tour Doesn't Kill You.txt_8-45  [if-hypoth]-suspension  [fgb,neg]
+If This Tour Doesn't Kill You.txt_8-46  []-negative  [neg]
+If This Tour Doesn't Kill You.txt_8-47  []-suspension  []
+If This Tour Doesn't Kill You.txt_9-57  []-negative  [neg]
+If This Tour Doesn't Kill You.txt_10-68  [so-result]-negative  [neg,neg,fgb,neg]
+If This Tour Doesn't Kill You.txt_11-84  []-negative  [neg]
+If This Tour Doesn't Kill You.txt_12-96  []-positive  []
+If This Tour Doesn't Kill You.txt_12-97  []-negative  [neg]
+If This Tour Doesn't Kill You.txt_12-98  []-positive  []
+If This Tour Doesn't Kill You.txt_12-99  []-negative  [neg]
+If This Tour Doesn't Kill You.txt_12-100  [but-advers]-negative  [fgb,neg]
+If This Tour Doesn't Kill You.txt_12-101  [if-hypoth]-suspension  [fgb,neg,fgb]
+If This Tour Doesn't Kill You.txt_13-118  []-suspension  [neg]
+If This Tour Doesn't Kill You.txt_13-119  [if-hypoth]-positive  [fgb]
+If This Tour Doesn't Kill You.txt_14-133  []-suspension  [neg]
+If This Tour Doesn't Kill You.txt_14-134  [then-temp_seq]-suspension  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+If This Tour Doesn't Kill You.txt_1-1  [if,this,Tour,doesn-t,Kill,you,by,pup]  [title]
+If This Tour Doesn't Kill You.txt_2-3  [if,this,tour,doesn-t,kill,you,then,i,will]  [provide_expl_just(kill,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),propose_opin_neg(make,[external,factive,explanation,background,objective])]
+If This Tour Doesn't Kill You.txt_2-4  [and,it,makes,me,ill,seeing,your,face,every,morning,one,more,month,and,twenty-two,days,if]  [reject_expl_just(kill,[external,factive,narration,foreground,objective]),reject_expl_just(will,[external,nonfactive,narration,background,objective]),reject_expl_just(make,[external,factive,explanation,background,objective]),propose_opin_neg(make,[external,factive,explanation,background,objective])]
+If This Tour Doesn't Kill You.txt_2-5  [i,hate,your,guts]  [reject_expl_just(kill,[external,factive,narration,foreground,objective]),reject_expl_just(will,[external,nonfactive,narration,background,objective]),reject_expl_just(make,[external,factive,explanation,background,objective]),propose_opin_neg(make,[external,factive,explanation,background,objective])]
+If This Tour Doesn't Kill You.txt_3-10  [this,tour,doesn-t,kill]  [provide_expl_just(kill,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+If This Tour Doesn't Kill You.txt_3-11  [you]  [provide_expl_just(kill,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+If This Tour Doesn't Kill You.txt_4-15  [i,may,counting,down,the,miles-til]  [provide_expl_just(count,[external,nonfactive,narration,background,objective])]
+If This Tour Doesn't Kill You.txt_5-20  [we,leave,the,state]  [provide_expl_just(leave,[external,factive,narration,background,objective]),provide_expl_just(count,[external,factive,narration,foreground,objective])]
+If This Tour Doesn't Kill You.txt_5-21  [i,am,counting,down,the,minutes-til]  [provide_expl_just(leave,[external,factive,narration,background,objective]),provide_expl_just(count,[external,factive,narration,foreground,objective])]
+If This Tour Doesn't Kill You.txt_6-27  [i,can,erase,every,memory,of,you]  [reject_expl_just(clean,[external,nonfactive,narration,background,objective]),reject_expl_just(let-s,[internal,factive,narration,background,objective]),reject_expl_just(erase,[external,nonfactive,narration,foreground,objective])]
+If This Tour Doesn't Kill You.txt_6-28  [for,a,second,let-s,be,honest,nothing,will,clean,your,filthy,conscience,everything]  [reject_expl_just(clean,[external,nonfactive,narration,background,objective]),reject_expl_just(let-s,[internal,factive,narration,background,objective]),reject_expl_just(erase,[external,nonfactive,narration,foreground,objective])]
+If This Tour Doesn't Kill You.txt_7-36  [you,do,makes,me]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+If This Tour Doesn't Kill You.txt_7-37  [wan,na,vomit,and]  [reject_expl_just(make,[external,factive,cause,foreground,objective])]
+If This Tour Doesn't Kill You.txt_8-45  [if,this,tour,doesn-t,kill,you,buddy]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(kill,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),propose_opin(can,[external,nonfactive,narration,foreground,objective]),provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+If This Tour Doesn't Kill You.txt_8-46  [i,am,on,it,why,,,can,not]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(kill,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+If This Tour Doesn't Kill You.txt_8-47  [we,just,get,along,why]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(kill,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+If This Tour Doesn't Kill You.txt_9-57  [can,not,we,just,get,along,why]  [reject_expl_just(can,[external,nonfactive,narration,foreground,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
+If This Tour Doesn't Kill You.txt_10-68  [can,not,we,just,get,along,why,,,can,not,we,just,get,along,you,,,think,you,are,so,original,i,can,not,wait,for,your,funeral,don-t,wish]  [reject_expl_just(wait,[external,nonfactive,narration,foreground,objective]),reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(can,[external,nonfactive,narration,foreground,objective]),reject_expl_just(think,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+If This Tour Doesn't Kill You.txt_11-84  [you,were,dead]  [reject_expl_just(be,[_444696,_444702,_444708,_444714,_444720])]
+If This Tour Doesn't Kill You.txt_12-96  [i,wish]  [provide_expl_just(wan,[external,factive,narration,background,objective]),provide_expl_just(let,[external,factive,narration,background,objective]),provide_expl_just(kill,[external,factive,narration,foreground,objective]),provide_expl_just(gouge,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(wish,[external,factive,narration,background,objective]),raise_issue(be,[_446732,factive,statement,_446750,subjective])]
+If This Tour Doesn't Kill You.txt_12-97  [you,had,never,been,born,at_all]  [reject_expl_just(wan,[external,factive,narration,background,objective]),reject_expl_just(let,[external,factive,narration,background,objective]),reject_expl_just(kill,[external,factive,narration,foreground,objective]),reject_expl_just(gouge,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(wish,[external,factive,narration,background,objective]),reject_expl_just(say,[external,nonfactive,hypothesis,background,objective])]
+If This Tour Doesn't Kill You.txt_12-98  [i,am]  [provide_expl_just(wan,[external,factive,narration,background,objective]),provide_expl_just(let,[external,factive,narration,background,objective]),provide_expl_just(kill,[external,factive,narration,foreground,objective]),provide_expl_just(gouge,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(wish,[external,factive,narration,background,objective]),raise_issue(be,[_450290,factive,statement,_450308,subjective])]
+If This Tour Doesn't Kill You.txt_12-99  [,,trying,not,to,let,you,get,in,my,head]  [reject_expl_just(wan,[external,factive,narration,background,objective]),reject_expl_just(let,[external,factive,narration,background,objective]),reject_expl_just(kill,[external,factive,narration,foreground,objective]),reject_expl_just(gouge,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(wish,[external,factive,narration,background,objective]),reject_expl_just(say,[external,nonfactive,hypothesis,background,objective])]
+If This Tour Doesn't Kill You.txt_12-100  [,,but,every,line,every,goddamn,syllable,that,you,say,,,makes,me]  [reject_expl_just(wan,[external,factive,narration,background,objective]),reject_expl_just(let,[external,factive,narration,background,objective]),reject_expl_just(kill,[external,factive,narration,foreground,objective]),reject_expl_just(gouge,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(wish,[external,factive,narration,background,objective]),reject_expl_just(say,[external,nonfactive,hypothesis,background,objective])]
+If This Tour Doesn't Kill You.txt_12-101  [wan,na,gouge,out,my,eyes,with,a,power,drill,if,,,this,tour,doesn-t,kill,you,if]  [provide_expl_just(wan,[external,factive,narration,background,objective]),provide_expl_just(let,[external,factive,narration,background,objective]),provide_expl_just(kill,[external,factive,narration,foreground,objective]),provide_expl_just(gouge,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(wish,[external,factive,narration,background,objective]),suggest(be,[_455118,_455124,statement,background,_455142])]
+If This Tour Doesn't Kill You.txt_13-118  [this,tour,doesn-t,kill]  [provide_expl_just(kill,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+If This Tour Doesn't Kill You.txt_13-119  [you,if]  [provide_expl_just(kill,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+If This Tour Doesn't Kill You.txt_14-133  [this,tour,doesn-t,kill]  [provide_expl_just(kill,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+If This Tour Doesn't Kill You.txt_14-134  [you,then,i,will]  [provide_expl_just(kill,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(If This Tour Doesn't Kill You.txt_1-1)-[]
+2-(If This Tour Doesn't Kill You.txt_2-3)-[primary-voyage,emotions-aggression,secondary-temporal_repere]
+3-(If This Tour Doesn't Kill You.txt_2-4)-[secondary-instru_behavior,primary-vision,primary-narcissism,secondary-temporal_repere,secondary-temporal_repere]
+4-(If This Tour Doesn't Kill You.txt_2-5)-[emotions-aggression,primary-orality]
+5-(If This Tour Doesn't Kill You.txt_3-10)-[primary-voyage,emotions-aggression]
+6-(If This Tour Doesn't Kill You.txt_3-11)-[]
+7-(If This Tour Doesn't Kill You.txt_4-15)-[secondary-abstract_tought]
+8-(If This Tour Doesn't Kill You.txt_5-20)-[]
+9-(If This Tour Doesn't Kill You.txt_5-21)-[]
+10-(If This Tour Doesn't Kill You.txt_6-27)-[secondary-temporal_repere]
+11-(If This Tour Doesn't Kill You.txt_6-28)-[secondary-moral_imperative,primary-anality,secondary-moral_imperative]
+12-(If This Tour Doesn't Kill You.txt_7-36)-[secondary-instru_behavior]
+13-(If This Tour Doesn't Kill You.txt_7-37)-[primary-orality]
+14-(If This Tour Doesn't Kill You.txt_8-45)-[primary-voyage,emotions-aggression]
+half
+15-(If This Tour Doesn't Kill You.txt_8-46)-[secondary-abstract_tought]
+16-(If This Tour Doesn't Kill You.txt_8-47)-[primary-concreteness,secondary-abstract_tought]
+17-(If This Tour Doesn't Kill You.txt_9-57)-[primary-concreteness,secondary-abstract_tought]
+18-(If This Tour Doesn't Kill You.txt_10-68)-[primary-concreteness,secondary-abstract_tought,primary-concreteness,secondary-abstract_tought]
+19-(If This Tour Doesn't Kill You.txt_11-84)-[primary-passivity]
+20-(If This Tour Doesn't Kill You.txt_12-96)-[]
+21-(If This Tour Doesn't Kill You.txt_12-97)-[]
+22-(If This Tour Doesn't Kill You.txt_12-98)-[]
+23-(If This Tour Doesn't Kill You.txt_12-99)-[secondary-instru_behavior,primary-narcissism]
+24-(If This Tour Doesn't Kill You.txt_12-100)-[secondary-temporal_repere,primary-brink,secondary-temporal_repere,secondary-social_behavior,secondary-instru_behavior]
+25-(If This Tour Doesn't Kill You.txt_12-101)-[primary-concreteness,primary-narcissism,primary-voyage,emotions-aggression]
+26-(If This Tour Doesn't Kill You.txt_13-118)-[primary-voyage,emotions-aggression]
+27-(If This Tour Doesn't Kill You.txt_13-119)-[]
+28-(If This Tour Doesn't Kill You.txt_14-133)-[primary-voyage,emotions-aggression]
+29-(If This Tour Doesn't Kill You.txt_14-134)-[secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(If This Tour Doesn't Kill You.txt_1,1,cl1-not-nil-kill-[arg_mod-agent-pup-sn3,subj-agent-you-sn2,subj-agent-you-sn1,aux-does-nil,and(you,Tour,sn1),and(you,this,sn1),def_prop(pup,[animato]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(If This Tour Doesn't Kill You.txt_2,3,cl6-nil-nil-hate-[obj-theme-gut-sn18,subj-actor-i-sn17,def_prop(gut,[body_part,oggetto,strumento]),def_prop(i,[umano])])
+lf(If This Tour Doesn't Kill You.txt_2,3,cl5-nil-nil-see-[cmod-subord-will-",adj-subj_disc-days-sn13,adj-subj_disc-month-sn12,adj-subj_disc-morning-sn11,obj-theme_aff-face-sn10,adj-subj_disc-ill-sn9,obj-actor-me-sn8,subj-experiencer-it-sn7,and(days,twenty-two,sn13),and(month,one,sn12),and(morning,every,sn11),def_prop(days,[tempo]),def_prop(month,[tempo]),def_prop(morning,[tempo]),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(ill,[istituzione]),def_prop(me,[umano]),def_prop(it,[any])])
+lf(If This Tour Doesn't Kill You.txt_2,3,cl4-nil-nil-make-[])
+lf(If This Tour Doesn't Kill You.txt_2,3,cl3-nil-will-will-[subj-agent-i-sn6,subj-agent-i-sn5,def_prop(i,[umano]),def_prop(i,[umano])])
+lf(If This Tour Doesn't Kill You.txt_2,3,cl2-not-nil-kill-[cmod-subord-will-1,subj-agent-you-sn2,subj-agent-you-sn1,aux-does-nil,and(you,tour,sn1),and(you,this,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(If This Tour Doesn't Kill You.txt_3,10,cl8-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(If This Tour Doesn't Kill You.txt_3,10,cl7-not-nil-kill-[subj-agent-you-sn1,aux-does-nil,def_prop(you,[umano])])
+lf(If This Tour Doesn't Kill You.txt_4,15,cl9-nil-may-count-[obj-theme-miles-til-sn2,subj-actor-i-sn1,def_prop(miles-til,[istituzione,umano]),def_prop(i,[umano])])
+lf(If This Tour Doesn't Kill You.txt_5,20,cl11-nil-nil-count-[obj-theme-minutes-til-sn4,subj-actor-i-sn3,aux-am-nil,progr-counting-nil,def_prop(minutes-til,[attivita,informa]),def_prop(i,[umano])])
+lf(If This Tour Doesn't Kill You.txt_5,20,cl10-nil-nil-leave-[obj-theme-state-sn2,subj-theme-we-sn1,def_prop(state,[any,attivita,informa,istituzione,luogo,stato,umano]),def_prop(we,[umano])])
+lf(If This Tour Doesn't Kill You.txt_6,27,cl14-nil-will-clean-[obj-prop-nothing-sn5,xcomp-purpose-clean-cl14,subj-agent-let-s-sn4,and(nothing,honest,sn5),and(let-s,second,sn4),def_prop(nothing,[astratto,informa,oggetto]),def_prop(let-s,[attivita])])
+lf(If This Tour Doesn't Kill You.txt_6,27,cl13-nil-nil-be-[])
+lf(If This Tour Doesn't Kill You.txt_6,27,cl12-nil-can-erase-[obj-theme-memory-sn2,subj-agent-i-sn1,and(memory,every,sn2),def_prop(memory,[astratto,oggetto,strumento]),def_prop(i,[umano])])
+lf(If This Tour Doesn't Kill You.txt_7,36,nil-nil-nil-wan-[obj-theme-vomit-sn4,subj-actor-you-sn3,and(vomit,na,sn4),def_prop(vomit,[attivita,sostanza]),def_prop(you,[umano])])
+lf(If This Tour Doesn't Kill You.txt_7,36,cl15-nil-nil-make-[obj-goal-me-sn2,subj-agent-you-sn1,aux-do-nil,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(If This Tour Doesn't Kill You.txt_8,45,cl19-nil-nil-get-[subj-agent-we-sn7,def_prop(we,[umano])])
+lf(If This Tour Doesn't Kill You.txt_8,45,cl18-nil-can-can-[])
+lf(If This Tour Doesn't Kill You.txt_8,45,cl17-nil-nil-be-[ncmod-locativo-it-sn6,subj-theme_bound-i-sn5,def_prop(it,[any]),def_prop(i,[umano])])
+lf(If This Tour Doesn't Kill You.txt_8,45,cl16-not-nil-kill-[obj-theme_aff-buddy-sn2,subj-agent-tour-sn1,aux-does-nil,and(buddy,you,sn2),and(tour,this,sn1),def_prop(buddy,[umano]),def_prop(tour,[attivita])])
+lf(If This Tour Doesn't Kill You.txt_9,57,cl21-nil-nil-get-[])
+lf(If This Tour Doesn't Kill You.txt_9,57,cl20-nil-can-can-[adj-subj_disc-why-sn3,adj-subj_disc-just-sn2,subj-actor-we-sn1,def_prop(why,[astratto]),def_prop(just,[informa,tecno]),def_prop(we,[umano])])
+lf(If This Tour Doesn't Kill You.txt_10,68,cl27-not-nil-wish-[cmod-subord-wish-for,subj-experiencer-funeral-sn12,aux-do-nil,def_prop(funeral,[evento])])
+lf(If This Tour Doesn't Kill You.txt_10,68,cl26-not-can-wait-[subj-actor-i-sn10,def_prop(i,[umano])])
+lf(If This Tour Doesn't Kill You.txt_10,68,cl25-nil-nil-be-[])
+lf(If This Tour Doesn't Kill You.txt_10,68,cl24-nil-nil-think-[])
+lf(If This Tour Doesn't Kill You.txt_10,68,cl23-not-nil-get-[adj-(mod)-just-nil,adj-(mod)-along-nil,obj-theme-we-sn5,obj-theme-why-sn4,xcomp-purpose-can-2,subj-experiencer-we-sn1,def_prop(we,[umano]),def_prop(why,[astratto]),def_prop(we,[umano])])
+lf(If This Tour Doesn't Kill You.txt_10,68,cl22-nil-can-can-[adj-(mod)-wait-nil,xadj-adj-original-adj1,ccomp-prop-get-nil,ncmod-modal-you-sn6,def_prop(original,_462478),def_prop(you,[umano])])
+lf(If This Tour Doesn't Kill You.txt_11,84,cl28-nil-nil-be-[xcomp-prop-dead-sn2,subj-theme_bound-you-sn1,def_prop(dead,[valutativo]),def_prop(you,[umano])])
+lf(If This Tour Doesn't Kill You.txt_12,96,cl37-nil-nil-say-[obj-theme_unaff-syllable-sn11,def_prop(syllable,[attivita,informa])])
+lf(If This Tour Doesn't Kill You.txt_12,96,cl36-not-nil-kill-[cmod-subord-gouge-if,subj-agent-you-sn28,subj-agent-you-sn25,subj-agent-you-sn24,aux-does-nil,and(you,tour,sn24),and(you,this,sn24),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(If This Tour Doesn't Kill You.txt_12,96,cl35-nil-nil-gouge-[ncmod-comitativo-power-sn17,ncmod-theme-eye-sn16,def_prop(power,[astratto,attivita,cambia,umano]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(If This Tour Doesn't Kill You.txt_12,96,nil-nil-nil-wan-[xcomp-purpose-gouge-2,subj-actor-na-sn15,subj-actor-na-sn14,and(na,you,sn14),def_prop(na,[informa,tecno]),def_prop(na,[informa,tecno])])
+lf(If This Tour Doesn't Kill You.txt_12,96,cl34-nil-nil-make-[xcomp-prop-me-sn12,xcomp-prop-syllable-sn11,subj-agent-line-sn10,and(line,every,sn10),def_prop(me,[umano]),def_prop(syllable,[attivita,informa]),def_prop(line,[astratto,attivita,cambia,informa,luogo,oggetto,strumento])])
+lf(If This Tour Doesn't Kill You.txt_12,96,cl33-not-nil-get-[xcomp-purpose-let-2,subj-agent-you-sn6,def_prop(you,[umano])])
+lf(If This Tour Doesn't Kill You.txt_12,96,cl32-nil-nil-let-[xadj-adj-trying-adj2,ncmod-tema_nonaff-head-sn7,def_prop(trying,_463614),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano])])
+lf(If This Tour Doesn't Kill You.txt_12,96,cl31-nil-nil-be-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(If This Tour Doesn't Kill You.txt_12,96,cl30-nil-nil-bear-[adj-(mod)-be-nil,subj-goal-you-sn2,aux-been-nil,neg-never-nil,aux-had-nil,def_prop(you,[umano])])
+lf(If This Tour Doesn't Kill You.txt_12,96,cl29-nil-nil-wish-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(If This Tour Doesn't Kill You.txt_13,118,cl39-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(If This Tour Doesn't Kill You.txt_13,118,cl38-not-nil-kill-[subj-agent-you-sn1,aux-does-nil,def_prop(you,[umano])])
+lf(If This Tour Doesn't Kill You.txt_14,133,cl41-nil-will-will-[cmod-subord-will-then,subj-agent-you-sn3,def_prop(you,[umano])])
+lf(If This Tour Doesn't Kill You.txt_14,133,cl40-not-nil-kill-[subj-agent-you-sn1,aux-does-nil,def_prop(you,[umano])])

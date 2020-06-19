@@ -2,7 +2,226 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b63ffb1-2ce8-4d7c-99a7-09c7c211f71e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song_data/learning/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song_data/learning/generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/song_data/learning/rep_matrix_classifier_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/rep_matrix_classifier_cnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/'Cause I Love You Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/'Cause I Love You Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/'Cause I Love You Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/'Cause I Love You Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/'Cause I Love You Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/'Cause I Love You Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/'Cause I Love You Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/'Cause I Love You Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/'Cause I Love You Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/'Cause I Love You Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/(Do the) Push and Pull Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/(Do the) Push and Pull Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/(do the) push and pull (part 1) Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/(do the) push and pull (part 1) Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/(do the) push and pull (part 1) Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/(do the) push and pull (part 1) Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/(do the) push and pull (part 1) Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/(do the) push and pull (part 1) Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/(do the) push and pull (part 1) Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/(do the) push and pull (part 1) Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/(do the) push and pull (part 1) Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/(do the) push and pull (part 1) Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/6-3-8 (That's The Number To Play) Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/6-3-8 (That's The Number To Play) Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Alone Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Alone Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby It's Real Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby It's Real Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby It's Real Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby It's Real Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby It's Real Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby It's Real Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby It's Real Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby It's Real Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby It's Real Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby It's Real Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Baby Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Back Against The Wall Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Back Against The Wall Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Back Against The Wall Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Back Against The Wall Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Back Against The Wall Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Back Against The Wall Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Back Against The Wall Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Back Against The Wall Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Back Against The Wall Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Back Against The Wall Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Bear Cat Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Bear Cat Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Bear Cat Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Bear Cat Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Bear Cat Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Bear Cat Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Bear Cat Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Bear Cat Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Bear Cat Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Bear Cat Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Believe Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Believe Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Body In Revolt Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Body In Revolt Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Body In Revolt Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Body In Revolt Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Body In Revolt Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Body In Revolt Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Body In Revolt Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Body In Revolt Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Body In Revolt Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Body In Revolt Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Buckets Of Blood Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Buckets Of Blood Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Buckets Of Blood Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Buckets Of Blood Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Buckets Of Blood Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Buckets Of Blood Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Buckets Of Blood Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Buckets Of Blood Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Buckets Of Blood Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Buckets Of Blood Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Change Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Change Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Cul-De-Sac Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Cul-De-Sac Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Cul-de-sac Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Cul-de-sac Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Chicken Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Chicken Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Chicken Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Chicken Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Chicken Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Chicken Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Chicken Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Chicken Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Chicken Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Chicken Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Penguin Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Penguin Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Penguin Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Penguin Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Penguin Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Penguin Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Penguin Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Penguin Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Penguin Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Do The Funky Penguin Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Everywhere I Go Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Everywhere I Go Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Funky Mississippi Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Funky Mississippi Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Funky Mississippi Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Funky Mississippi Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Funky Mississippi Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Funky Mississippi Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Funky Mississippi Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Funky Mississippi Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Funky Mississippi Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Funky Mississippi Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Gangsta Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Gangsta Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Hero Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Hero Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Hero Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Hero Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Hero Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Hero Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Hero Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Hero Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Hero Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Hero Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Ingenious Forms of Torture Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Ingenious Forms of Torture Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Ingenious Forms of Torture Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Ingenious Forms of Torture Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Ingenious Forms of Torture Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Ingenious Forms of Torture Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Ingenious Forms of Torture Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Ingenious Forms of Torture Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Ingenious Forms of Torture Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Ingenious Forms of Torture Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/It's Aw'rite Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/It's Aw'rite Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/It's Aw'rite Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/It's Aw'rite Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/It's Aw'rite Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/It's Aw'rite Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/It's Aw'rite Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/It's Aw'rite Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/It's Aw'rite Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/It's Aw'rite Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Jealousy Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Jealousy Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Jump back (alternate) Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Jump back (alternate) Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Little Sally Walker Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Little Sally Walker Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Little Sally Walker Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Little Sally Walker Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Little Sally Walker Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Little Sally Walker Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Little Sally Walker Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Little Sally Walker Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Little Sally Walker Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Little Sally Walker Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Memphis Train Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Memphis Train Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Memphis Train Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Memphis Train Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Memphis Train Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Memphis Train Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Memphis Train Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Memphis Train Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Memphis Train Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Memphis Train Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Miss Me To Death Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Miss Me To Death Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Miss Me To Death Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Miss Me To Death Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Miss Me To Death Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Miss Me To Death Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Miss Me To Death Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Miss Me To Death Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Miss Me To Death Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Miss Me To Death Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Ooh Poo Pah Doo Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Ooh Poo Pah Doo Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Personal Demons Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Personal Demons Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Personal Demons Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Personal Demons Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Personal Demons Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Personal Demons Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Personal Demons Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Personal Demons Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Personal Demons Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Personal Demons Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise Lazarus Rise Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise Lazarus Rise Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise Lazarus Rise Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise Lazarus Rise Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise Lazarus Rise Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise Lazarus Rise Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise Lazarus Rise Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise Lazarus Rise Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise Lazarus Rise Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise Lazarus Rise Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Rise.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Sister's Got A Boyfriend Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Sister's Got A Boyfriend Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Sister's Got A Boyfriend Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Sister's Got A Boyfriend Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Sister's Got A Boyfriend Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Sister's Got A Boyfriend Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Sister's Got A Boyfriend Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Sister's Got A Boyfriend Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Sister's Got A Boyfriend Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Sister's Got A Boyfriend Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Somebody Stole My Dog Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Somebody Stole My Dog Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Somebody Stole My Dog Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Somebody Stole My Dog Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Somebody Stole My Dog Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Somebody Stole My Dog Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Somebody Stole My Dog Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Somebody Stole My Dog Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Somebody Stole My Dog Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Somebody Stole My Dog Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Worlds In-Between Lyrics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Worlds In-Between Lyrics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Worlds In-Between Lyrics.txt_corr" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Worlds In-Between Lyrics.txt_corr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Worlds In-Between Lyrics.txt_semspragm" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Worlds In-Between Lyrics.txt_semspragm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Worlds In-Between Lyrics.txt_ssml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Worlds In-Between Lyrics.txt_ssml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/Worlds In-Between Lyrics.txt_synt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/Worlds In-Between Lyrics.txt_synt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'''Cause I Love You Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'''Cause I Love You Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'''Cause I Love You Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'''Cause I Love You Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'(do the) push and pull (part 1) Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'(do the) push and pull (part 1) Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'(do the) push and pull (part 1) Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'(do the) push and pull (part 1) Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'6-3-8 (That''s The Number To Play) Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'6-3-8 (That''s The Number To Play) Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Alone Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Alone Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Baby It''s Real Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Baby It''s Real Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Baby It''s Real Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Baby It''s Real Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Baby Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Baby Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Baby Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Baby Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Back Against The Wall Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Back Against The Wall Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Back Against The Wall Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Back Against The Wall Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Bear Cat Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Bear Cat Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Bear Cat Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Bear Cat Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Believe Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Believe Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Body In Revolt Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Body In Revolt Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Body In Revolt Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Body In Revolt Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Buckets Of Blood Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Buckets Of Blood Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Buckets Of Blood Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Buckets Of Blood Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Cause I Love You Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Cause I Love You Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Change Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Change Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Cul-De-Sac Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Cul-De-Sac Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Cul-de-sac Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Cul-de-sac Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Do The Funky Chicken Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Do The Funky Chicken Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Do The Funky Chicken Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Do The Funky Chicken Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Do The Funky Penguin Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Do The Funky Penguin Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Do The Funky Penguin Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Do The Funky Penguin Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Everywhere I Go Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Everywhere I Go Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Funky Mississippi Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Funky Mississippi Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Funky Mississippi Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Funky Mississippi Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Gangsta Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Gangsta Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Hero Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Hero Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Hero Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Hero Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Ingenious Forms of Torture Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Ingenious Forms of Torture Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Ingenious Forms of Torture Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Ingenious Forms of Torture Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'It''s Aw''rite Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'It''s Aw''rite Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'It''s Aw''rite Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'It''s Aw''rite Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Jealousy Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Jealousy Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Jump back (alternate) Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Jump back (alternate) Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Little Sally Walker Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Little Sally Walker Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Little Sally Walker Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Little Sally Walker Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Memphis Train Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Memphis Train Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Memphis Train Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Memphis Train Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Miss Me To Death Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Miss Me To Death Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Miss Me To Death Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Miss Me To Death Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Ooh Poo Pah Doo Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Ooh Poo Pah Doo Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Personal Demons Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Personal Demons Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Personal Demons Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Personal Demons Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Rise Lazarus Rise Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Rise Lazarus Rise Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Rise Lazarus Rise Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Rise Lazarus Rise Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Rise.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Rise.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Rise.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Rise.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Sister''s Got A Boyfriend Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Sister''s Got A Boyfriend Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Sister''s Got A Boyfriend Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Sister''s Got A Boyfriend Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Somebody Stole My Dog Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Somebody Stole My Dog Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Somebody Stole My Dog Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Somebody Stole My Dog Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Worlds In-Between Lyrics.txt'.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Worlds In-Between Lyrics.txt'.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Worlds In-Between Lyrics.txt'_phon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/'Worlds In-Between Lyrics.txt'_phon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/(do the) push and pull (part 1) Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/(do the) push and pull (part 1) Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/6-3-8 (That's The Number To Play) Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/6-3-8 (That's The Number To Play) Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Alone Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Alone Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Baby It's Real Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Baby It's Real Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Baby Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Baby Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Back Against The Wall Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Back Against The Wall Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Bear Cat Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Bear Cat Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Body In Revolt Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Body In Revolt Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Buckets Of Blood Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Buckets Of Blood Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Change Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Change Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Do The Funky Chicken Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Do The Funky Chicken Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Do The Funky Penguin Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Do The Funky Penguin Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Everywhere I Go Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Everywhere I Go Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Funky Mississippi Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Funky Mississippi Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Hero Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Hero Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Ingenious Forms of Torture Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Ingenious Forms of Torture Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/It's Aw'rite Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/It's Aw'rite Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Jump back (alternate) Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Jump back (alternate) Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Little Sally Walker Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Little Sally Walker Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Memphis Train Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Memphis Train Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Miss Me To Death Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Miss Me To Death Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Personal Demons Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Personal Demons Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Rise Lazarus Rise Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Rise Lazarus Rise Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Rise.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Rise.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Sister's Got A Boyfriend Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Sister's Got A Boyfriend Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Somebody Stole My Dog Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Somebody Stole My Dog Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Worlds In-Between Lyrics.txt_phon" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/outs/Worlds In-Between Lyrics.txt_phon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/sparsar_experiments/sparsar_man" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/sparsar_experiments/sparsar_man" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_diary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/work_diary.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +234,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/song_data/sparsar_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="277" column="16" selection-start-line="277" selection-start-column="16" selection-end-line="277" selection-end-column="16" />
+            <state relative-caret-position="185">
+              <caret line="262" column="27" selection-start-line="262" selection-start-column="27" selection-end-line="262" selection-end-column="27" />
               <folding>
                 <element signature="e#24#34#0" expanded="true" />
+                <element signature="e#5012#5633#0" />
+                <element signature="e#5675#6734#0" />
+                <element signature="e#6915#8544#0" />
               </folding>
             </state>
           </provider>
@@ -27,8 +249,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/song_data/learning/rep_matrix_classifier_cnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="63" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="63" />
+            <state relative-caret-position="352">
+              <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
               <folding>
                 <element signature="e#23#36#0" expanded="true" />
               </folding>
@@ -37,10 +259,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/framework/func_graph.py">
+        <entry file="file://$PROJECT_DIR$/song_data/learning/data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="969" selection-start-line="969" selection-end-line="969" />
+            <state relative-caret-position="176">
+              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/song_data/learning/generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="98" column="69" selection-start-line="98" selection-start-column="69" selection-end-line="98" selection-end-column="69" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,18 +311,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-174">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/song_data/song_authenticity_evaluator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1298">
-              <caret line="62" column="62" selection-start-line="62" selection-start-column="62" selection-end-line="62" selection-end-column="62" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -163,7 +388,9 @@
         <option value="$PROJECT_DIR$/song_data/get_partial_datasets.py" />
         <option value="$PROJECT_DIR$/song_data/clean_data.py" />
         <option value="$PROJECT_DIR$/song_data/repetition_matrix.py" />
+        <option value="$PROJECT_DIR$/song_data/learning/data.py" />
         <option value="$PROJECT_DIR$/song_data/sparsar_analysis.py" />
+        <option value="$PROJECT_DIR$/song_data/learning/generator.py" />
         <option value="$PROJECT_DIR$/song_data/learning/rep_matrix_classifier_cnn.py" />
       </list>
     </option>
@@ -202,6 +429,26 @@
               <item name="song_data" type="462c0819:PsiDirectoryNode" />
               <item name="learning" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="song-lyrics-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="song-lyrics-analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="song_data" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="song-lyrics-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="song-lyrics-analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="song_data" type="462c0819:PsiDirectoryNode" />
+              <item name="sparsar_experiments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="song-lyrics-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="song-lyrics-analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="song_data" type="462c0819:PsiDirectoryNode" />
+              <item name="sparsar_experiments" type="462c0819:PsiDirectoryNode" />
+              <item name="repetition_matrices" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -211,7 +458,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/song_data/sparsar_experiments" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -239,7 +486,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.rep_matrix_classifier_cnn">
-    <configuration name="clean_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="diplomka" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -247,11 +494,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/learning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/clean_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -348,9 +595,9 @@
       <list>
         <item itemvalue="Python.rep_matrix_classifier_cnn" />
         <item itemvalue="Python.sparsar_analysis" />
+        <item itemvalue="Python.data" />
         <item itemvalue="Python.repetition_matrix" />
         <item itemvalue="Python.get_partial_datasets" />
-        <item itemvalue="Python.clean_data" />
       </list>
     </recent_temporary>
   </component>
@@ -384,8 +631,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49973616" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48654354" weight="0.37946942" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.48970976" visible="true" weight="0.32410613" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48654354" visible="true" weight="0.4083045" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48970976" weight="0.32410613" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -457,20 +704,10 @@
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/song_data/sparsar_analysis.py</url>
-          <line>285</line>
-          <option name="timeStamp" value="110" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <condition expression="inputfile == 'sparsar_experiments/outs/\'On Site Lyrics.txt\'_phon.xml'" language="Python" />
           <url>file://$PROJECT_DIR$/song_data/sparsar_analysis.py</url>
           <line>177</line>
           <option name="timeStamp" value="121" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/song_data/learning/rep_matrix_classifier_cnn.py</url>
-          <line>65</line>
-          <option name="timeStamp" value="128" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -512,14 +749,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/song_data/data/miniset_for_song_cleaning/I GOT THE BANK Lyrics.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/data/miniset_for_song_cleaning/Achin'ForAn'A'Cup Lyrics.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/song_data/data/miniset_for_song_cleaning/OR NAH REMIX Lyrics.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -773,27 +1002,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/sparsar_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="277" column="16" selection-start-line="277" selection-start-column="16" selection-end-line="277" selection-end-column="16" />
-          <folding>
-            <element signature="e#24#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/numpy/core/_asarray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/framework/constant_op.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
         </state>
       </provider>
     </entry>
@@ -811,10 +1023,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/framework/constant_op.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/learning/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/sparsar_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="262" column="27" selection-start-line="262" selection-start-column="27" selection-end-line="262" selection-end-column="27" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+            <element signature="e#5012#5633#0" />
+            <element signature="e#5675#6734#0" />
+            <element signature="e#6915#8544#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/learning/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="98" column="69" selection-start-line="98" selection-start-column="69" selection-end-line="98" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/song_data/learning/rep_matrix_classifier_cnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="63" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="63" />
+        <state relative-caret-position="352">
+          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding>
             <element signature="e#23#36#0" expanded="true" />
           </folding>

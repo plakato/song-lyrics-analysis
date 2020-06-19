@@ -1,0 +1,66 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Darling.txt_1-1  []-positive  []
+Darling.txt_2-3  [before-temp_prec]-negative  [neg,ack,fgb,neg]
+Darling.txt_3-10  []-question  [fgb]
+Darling.txt_4-14  [then-temp_seq]-positive  [neg]
+Darling.txt_4-15  []-suspension  [neg]
+Darling.txt_4-16  [when-temp_coinc]-suspension  [neg,fgb,neg]
+Darling.txt_5-22  []-negative  [neg,neg,neg]
+Darling.txt_6-28  []-suspension  [neg,fgb]
+Darling.txt_7-38  []-positive  []
+Darling.txt_7-39  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Darling.txt_1-1  [darling,by,Pure,Bathing,culture]  [title]
+Darling.txt_2-3  [pitch,the,light,you,turn,it,over,switch,to,mind,before,leave,clover,find,the,right,in,him,and,others,time,will,bring,the,best,never]  [reject_expl_just(find,[external,factive,explanation,background,objective]),propose_opin_neg(find,[external,factive,explanation,background,objective]),reject_expl_just(bring,[external,nonfactive,narration,background,objective]),reject_expl_just(pitch,[external,factive,explanation,background,objective]),propose_opin_neg(pitch,[external,factive,explanation,background,objective])]
+Darling.txt_3-10  [beginning,the,first,tending,and,best,the,i,am,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Darling.txt_4-14  [then,the,ending,just,pretend]  [propose_opin_neg(save,[external,factive,explanation,background,objective]),provide_expl_just(end,[external,factive,cause,foreground,objective])]
+Darling.txt_4-15  [it,is,never,ending,time,will,bring]  [propose_opin_neg(save,[external,factive,explanation,background,objective]),provide_expl_just(end,[external,factive,cause,foreground,objective])]
+Darling.txt_4-16  [are,in,danger,all,and,all,in,a,day,take,it,away,all,take,it,away,when,the,light,of,less,intention,is,.,the,best,darling,save,us,we]  [propose_opin_neg(save,[external,factive,explanation,background,objective]),provide_expl_just(end,[external,factive,cause,foreground,objective])]
+Darling.txt_5-22  [never,spoken,is,never,mentioned,never]  [reject_expl_just(mention,[external,factive,narration,background,objective])]
+Darling.txt_6-28  [will,i,remember,time,will,bring,the,best,darling,save,us,we,are,in,danger,all,and,all,in,a,day,take,it,away,all,take]  [provide_expl_just(remember,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(bring,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Darling.txt_7-38  [it,away,all,in,a,day,take]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Darling.txt_7-39  [it,away,all,in,a,day]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Darling.txt_1-1)-[]
+2-(Darling.txt_2-3)-[primary-random_movement,primary-vision,primary-concreteness,secondary-instru_behavior,secondary-moral_imperative,secondary-temporal_repere]
+3-(Darling.txt_3-10)-[]
+4-(Darling.txt_4-14)-[secondary-temporal_repere]
+5-(Darling.txt_4-15)-[secondary-temporal_repere]
+half
+6-(Darling.txt_4-16)-[primary-concreteness,primary-concreteness,secondary-temporal_repere,primary-vision]
+7-(Darling.txt_5-22)-[secondary-social_behavior]
+8-(Darling.txt_6-28)-[secondary-temporal_repere,primary-concreteness]
+9-(Darling.txt_7-38)-[primary-concreteness]
+10-(Darling.txt_7-39)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Darling.txt_1,1,cl1-nil-nil-bathe-[subj-actor-culture-sn1,adj-(mod)-Pure-nil,def_prop(culture,[astratto,attivita,istituzione,sostanza])])
+lf(Darling.txt_2,3,cl6-nil-will-bring-[obj-theme_aff-never-sn13,subj-agent-time-sn12,obj-theme_aff-never-sn10,subj-agent-time-sn9,and(never,best,sn13),and(time,others,sn12),and(never,best,sn10),and(time,others,sn9),def_prop(never,[istituzione]),def_prop(time,[tempo]),def_prop(never,[istituzione]),def_prop(time,[tempo])])
+lf(Darling.txt_2,3,cl5-nil-nil-find-[subj-actor-right-sn17,obj-theme_bound-right-sn16,subj-actor-clover-sn15,def_prop(right,[soggettivo]),def_prop(right,[soggettivo]),def_prop(clover,[plant])])
+lf(Darling.txt_2,3,cl4-nil-nil-leave-[])
+lf(Darling.txt_2,3,cl3-nil-nil-turn-[])
+lf(Darling.txt_2,3,cl2-nil-nil-pitch-[cmod-coord-bring-1,adj-(mod)-before-nil,adj-(mod)-over-nil,obj-theme_aff-switch-sn5,subj-sn2-it-sn4,obj-patient-light-sn3,subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(switch,[attivita,oggetto,strumento]),def_prop(it,[any]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Darling.txt_3,10,cl7-nil-nil-be-[xcomp-theme-beginning-sn3,xcomp-prop-best-sn2,subj-theme_bound-i-sn1,and(beginning,tending,sn3),and(beginning,first,sn3),def_prop(beginning,[astratto,attivita,evento,luogo,tempo]),def_prop(best,[valutativo]),def_prop(i,[umano])])
+lf(Darling.txt_4,14,nil-nil-nil-save-[cmod-subord-be-when,xcomp-prop-us-sn22,subj-agent-darling-sn21,and(darling,best,sn21),def_prop(us,[umano]),def_prop(darling,[umano])])
+lf(Darling.txt_4,14,cl10-nil-nil-be-[xcomp-theme-us-sn20,xcomp-purpose-save-5,subj-theme_bound-darling-sn19,subj-theme_bound-light-sn17,adj-(mod)-we-nil,ncmod-locativo-all-sn6,subj-theme_bound-you-sn5,and(darling,best,sn19),and(all,danger,sn6),def_prop(us,[umano]),def_prop(darling,[umano]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(we,[umano]),def_prop(all,[entity]),def_prop(you,[umano])])
+lf(Darling.txt_4,14,cl9-nil-will-bring-[obj-theme_aff-time-sn4,subj-agent-it-sn3,def_prop(time,[tempo]),def_prop(it,[any])])
+lf(Darling.txt_4,14,cl8-nil-nil-end-[neg-never-nil,aux-(is)-nil,progr-ending-nil])
+lf(Darling.txt_5,22,cl11-nil-nil-mention-[subj-theme_unaff-spoken-sn1,neg-never-nil,aux-(is)-nil,def_prop(spoken,[evaluative])])
+lf(Darling.txt_6,28,cl15-nil-nil-be-[xcomp-theme_unaff-time-sn2,xcomp-purpose-remember-5,def_prop(time,[tempo])])
+lf(Darling.txt_6,28,cl14-nil-will-bring-[])
+lf(Darling.txt_6,28,cl13-nil-nil-remember-[ncmod-locativo-all-sn6,and(all,danger,sn6),def_prop(all,[entity])])
+lf(Darling.txt_6,28,cl12-nil-will-will-[xcomp-prop-take-sn12,xcomp-prop-all-sn11,obj-theme-it-sn10,xcomp-prop-take-sn9,adj-subj_disc-day-sn8,obj-theme-all-sn7,obj-theme-we-sn5,obj-theme_aff-us-sn4,obj-theme_unaff-save-sn3,subj-agent-i-sn1,and(all,away,sn11),and(save,best,sn3),and(save,darling,sn3),def_prop(take,[attivita]),def_prop(all,[_75722]),def_prop(it,[any]),def_prop(take,[attivita]),def_prop(day,[tempo]),def_prop(all,[_75794]),def_prop(we,[umano]),def_prop(us,[umano]),def_prop(save,[attivita]),def_prop(i,[umano])])
+lf(Darling.txt_7,38,cl17-nil-nil-be-[xcomp-prop-all-sn6,subj-theme_bound-it-sn5,and(all,away,sn6),def_prop(all,[_75976]),def_prop(it,[any])])
+lf(Darling.txt_7,38,cl16-nil-nil-take-[expl-it-nil,subj-agent-all-sn2,subj-agent-all-sn1,and(all,away,sn2),and(all,it,sn1),def_prop(all,[_76136]),def_prop(all,[_76154])])

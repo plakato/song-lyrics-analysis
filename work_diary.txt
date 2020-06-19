@@ -225,9 +225,10 @@ TASKS FOR NEXT WEEK
         - kuskovat pesnicky aby sme mali stejny rozmer vstupu
     - punctuation   
         - https://github.com/ottokart/punctuator2
-            - vystup bez newlinov (smaljici)
+            - vystup bez newlinov => nahradila som ich smajlikmi 
             - povodnu interpunkciu zmaze/zmeni
             - zmaze vsetko po bodkociarke a enditku (&)
+            - nie je velmi chytre, casto pridava "." za "and", "of", "for" kde sa to nehodi
     - vyskusat spustat sparsar cez unix lab - da sa?
         - je tam Linux Gentoo
         - na spustanie potrebujem nainstalovat swi-prolog, ktory tam neni a nemam pravo instalovat
@@ -257,4 +258,11 @@ TASKS FOR NEXT WEEK
 - skusit doplnit nulami, aby matica sedela v rohu, nie uprostred
 - pomohlo by maskovani?
 - ukoncit sparsar
+    TEST noveho vs. stareho SPARSARU (201 novych pesniciek - nie zo zaciatku, kde som chyby fixovala)
 - piatok 9:30
+
+-------------------------------------------------------------------------------------------------------------------
+12.6.2020
+TASKS FOR NEXT WEEK
+- precitat https://towardsdatascience.com/implementing-a-fully-convolutional-network-fcn-in-tensorflow-2-3c46fb61de3b
+- napisat svoj generator https://github.com/himanshurawlani/fully_convolutional_network/blob/master/generator.py

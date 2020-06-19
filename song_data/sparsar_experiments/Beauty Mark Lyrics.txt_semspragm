@@ -1,0 +1,111 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Beauty Mark Lyrics.txt_1-1  []-positive  []
+Beauty Mark Lyrics.txt_2-3  []-negative  [neg,neg]
+Beauty Mark Lyrics.txt_3-7  []-negative  [neg]
+Beauty Mark Lyrics.txt_3-8  []-negative  [neg]
+Beauty Mark Lyrics.txt_4-12  [(as)-temp_coinc]-suspension  [neg,fgb,neg,neg]
+Beauty Mark Lyrics.txt_5-19  []-suspension  [neg,neg,neg]
+Beauty Mark Lyrics.txt_5-20  [but-advers]-positive  [fgb]
+Beauty Mark Lyrics.txt_6-27  []-positive  []
+Beauty Mark Lyrics.txt_6-28  []-positive  []
+Beauty Mark Lyrics.txt_7-35  []-negative  [neg,neg,neg,neg]
+Beauty Mark Lyrics.txt_8-45  [but-advers]-negative  [neg,fgb]
+Beauty Mark Lyrics.txt_9-54  []-positive  []
+Beauty Mark Lyrics.txt_9-55  []-positive  [fgb]
+Beauty Mark Lyrics.txt_10-65  []-positive  []
+Beauty Mark Lyrics.txt_10-66  []-negative  [neg,fgb]
+Beauty Mark Lyrics.txt_10-67  []-positive  []
+Beauty Mark Lyrics.txt_10-68  []-positive  []
+Beauty Mark Lyrics.txt_10-69  []-negative  [neg]
+Beauty Mark Lyrics.txt_10-70  [but-advers,so-result]-positive  [fgb,fgb]
+Beauty Mark Lyrics.txt_11-80  []-positive  []
+Beauty Mark Lyrics.txt_11-81  []-positive  []
+Beauty Mark Lyrics.txt_12-93  [if-hypoth]-negative  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Beauty Mark Lyrics.txt_1-1  [beauty,Mark,Lyrics,by,Rufus,Wainwright]  [title]
+Beauty Mark Lyrics.txt_2-3  [i,never,had,it,i,wanted,never]  [reject_expl_just(want,[external,factive,narration,foreground,objective])]
+Beauty Mark Lyrics.txt_3-7  [it,i,,,never,had,your,beauty]  [reject_expl_just(have,[external,factive,narration,foreground,objective]),reject_expl_just(do,[external,factive,explanation,background,objective]),propose_opin_neg(do,[external,factive,explanation,background,objective])]
+Beauty Mark Lyrics.txt_3-8  [mark,nor,did]  [reject_expl_just(have,[external,factive,narration,foreground,objective]),reject_expl_just(do,[external,factive,explanation,background,objective]),propose_opin_neg(do,[external,factive,explanation,background,objective])]
+Beauty Mark Lyrics.txt_4-12  [i,have,your,black,hair,and,hazel,my,eyes,early_childhood,was,not,as,simple,as,yours,set,in,the,country,no]  [provide_expl_just(set,[external,factive,cause,foreground,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+Beauty Mark Lyrics.txt_5-19  [i,did,not,have,a,fear,of,nuns,who,dressed,in,black]  [provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Beauty Mark Lyrics.txt_5-20  [but]  [provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Beauty Mark Lyrics.txt_6-27  [i,do,have,your,taste]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Beauty Mark Lyrics.txt_6-28  [i]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Beauty Mark Lyrics.txt_7-35  [have,no,radio,show,nor,did,i,have,homemade,homemade,clothes,curtains,of,the,same,material,i,never,had,it,i,,,never,wanted,it,i]  [reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(do,[external,factive,narration,background,objective]),reject_expl_just(want,[external,factive,narration,foreground,objective])]
+Beauty Mark Lyrics.txt_8-45  [never,had,your,beauty,,,mark,beauty,mark,but]  [reject_expl_just(have,[external,factive,narration,foreground,objective])]
+Beauty Mark Lyrics.txt_9-54  [i,do,have,your,taste]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Beauty Mark Lyrics.txt_9-55  [and]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Beauty Mark Lyrics.txt_10-65  [i,do,have,your,red,face]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(sing,[external,factive,narration,foreground,objective]),provide_expl_just(prefer,[external,factive,narration,background,objective])]
+Beauty Mark Lyrics.txt_10-66  [long,i,hands,and,think]  [reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(think,[external,factive,narration,background,objective]),reject_expl_just(sing,[external,factive,narration,foreground,objective]),reject_expl_just(prefer,[external,factive,narration,background,objective])]
+Beauty Mark Lyrics.txt_10-67  [Callas,sang,a,lovely,Norma]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(sing,[external,factive,narration,foreground,objective]),provide_expl_just(prefer,[external,factive,narration,background,objective])]
+Beauty Mark Lyrics.txt_10-68  [you,prefer,Robeson,in,Deep]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(sing,[external,factive,narration,foreground,objective]),provide_expl_just(prefer,[external,factive,narration,background,objective])]
+Beauty Mark Lyrics.txt_10-69  [River,i,may,not,be]  [reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(think,[external,factive,narration,background,objective]),reject_expl_just(sing,[external,factive,narration,foreground,objective]),reject_expl_just(prefer,[external,factive,narration,background,objective])]
+Beauty Mark Lyrics.txt_10-70  [so,manly,but,still]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(sing,[external,factive,narration,foreground,objective]),provide_expl_just(prefer,[external,factive,narration,background,objective])]
+Beauty Mark Lyrics.txt_11-80  [i,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(love,[external,factive,narration,background,objective])]
+Beauty Mark Lyrics.txt_11-81  [you,love,me,even]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(love,[external,factive,narration,background,objective])]
+Beauty Mark Lyrics.txt_12-93  [if,i,don-t,have,your,beauty,mark,beauty,mark]  [provide_expl_just(have,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Beauty Mark Lyrics.txt_1-1)-[primary-gen_sensation]
+2-(Beauty Mark Lyrics.txt_2-3)-[]
+3-(Beauty Mark Lyrics.txt_3-7)-[primary-gen_sensation]
+4-(Beauty Mark Lyrics.txt_3-8)-[]
+5-(Beauty Mark Lyrics.txt_4-12)-[primary-narcissism,primary-diffusion,primary-narcissism,secondary-order,secondary-instru_behavior]
+6-(Beauty Mark Lyrics.txt_5-19)-[emotions-anxiety]
+7-(Beauty Mark Lyrics.txt_5-20)-[]
+8-(Beauty Mark Lyrics.txt_6-27)-[primary-taste]
+9-(Beauty Mark Lyrics.txt_6-28)-[]
+10-(Beauty Mark Lyrics.txt_7-35)-[primary-diffusion]
+11-(Beauty Mark Lyrics.txt_8-45)-[primary-gen_sensation,primary-gen_sensation]
+half
+12-(Beauty Mark Lyrics.txt_9-54)-[primary-taste]
+13-(Beauty Mark Lyrics.txt_9-55)-[]
+14-(Beauty Mark Lyrics.txt_10-65)-[primary-narcissism]
+15-(Beauty Mark Lyrics.txt_10-66)-[primary-concreteness,primary-narcissism,secondary-abstract_tought]
+16-(Beauty Mark Lyrics.txt_10-67)-[emotions-expressive_beh]
+17-(Beauty Mark Lyrics.txt_10-68)-[]
+18-(Beauty Mark Lyrics.txt_10-69)-[secondary-abstract_tought]
+19-(Beauty Mark Lyrics.txt_10-70)-[]
+20-(Beauty Mark Lyrics.txt_11-80)-[secondary-abstract_tought]
+21-(Beauty Mark Lyrics.txt_11-81)-[emotions-affection]
+22-(Beauty Mark Lyrics.txt_12-93)-[primary-gen_sensation,primary-gen_sensation]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Beauty Mark Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wainwright-sn2,subj-theme_bound-Lyrics-sn1,and(Wainwright,Rufus,sn2),and(Lyrics,Mark,sn1),and(Lyrics,beauty,sn1),def_prop(Wainwright,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Beauty Mark Lyrics.txt_2,3,_141264-nil-nil-want-[voice-want-nil,tense-want-nil])
+lf(Beauty Mark Lyrics.txt_2,3,cl2-nil-nil-have-[adj-(mod)-never-nil,voice-want-nil,tense-want-nil,xcomp-tema_bound-it-sn2,subj-experiencer-i-sn1,def_prop(it,[any]),def_prop(i,[umano])])
+lf(Beauty Mark Lyrics.txt_3,7,cl4-nil-nil-do-[subj-theme_unaff-mark-sn8,aux-did-nil,def_prop(mark,[astratto,attivita,informa,nquant])])
+lf(Beauty Mark Lyrics.txt_3,7,cl3-nil-nil-have-[adj-(mod)-never-nil,xcomp-tema_bound-beauty-sn3,subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,it,sn1),def_prop(beauty,[astratto,umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Beauty Mark Lyrics.txt_4,12,cl7-nil-nil-set-[iobj-goal-country-sn30,iobj-goal-country-sn29,subj-agent-no-sn28,obj-theme-no-sn27,iobj-goal-country-sn26,subj-agent-yours-sn25,obj-theme-no-sn24,iobj-goal-country-sn23,subj-agent-yours-sn22,obj-theme-no-sn21,iobj-goal-country-sn20,xcomp-prop-simple-sn19,subj-agent-yours-sn18,def_prop(country,[luogo]),def_prop(country,[luogo]),def_prop(no,[istituzione]),def_prop(no,[istituzione]),def_prop(country,[luogo]),def_prop(yours,[istituzione]),def_prop(no,[istituzione]),def_prop(country,[luogo]),def_prop(yours,[istituzione]),def_prop(no,[istituzione]),def_prop(country,[luogo]),def_prop(simple,[valutativo]),def_prop(yours,[istituzione])])
+lf(Beauty Mark Lyrics.txt_4,12,cl6-nil-nil-be-[xcomp-prop-simple-sn17,subj-theme_bound-no-sn16,xcomp-prop-simple-sn5,coord-theme_bound-hair_and_early_childhood-sn4,subj-theme_bound-early_childhood-sn3,subj-theme_bound-hair-sn2,def_prop(simple,[valutativo]),def_prop(no,[istituzione]),def_prop(simple,[valutativo]),def_prop(hair_and_early_childhood,[animato,body_part,nquant,plant,umano,tempo]),def_prop(early_childhood,[animato,body_part,nquant,plant,umano,tempo]),def_prop(hair,[animato,body_part,nquant,plant,umano,tempo])])
+lf(Beauty Mark Lyrics.txt_4,12,cl5-nil-nil-have-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Beauty Mark Lyrics.txt_5,19,cl10-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Beauty Mark Lyrics.txt_5,19,cl9-nil-nil-dress-[iobj-goal-black-sn6,iobj-goal-black-sn3,subj-actor-fear-sn2,def_prop(black,[estens]),def_prop(black,[estens]),def_prop(fear,[emotivo])])
+lf(Beauty Mark Lyrics.txt_5,19,cl8-not-nil-have-[xcomp-tema_bound-fear-sn2,subj-experiencer-i-sn1,def_prop(fear,[emotivo]),def_prop(i,[umano])])
+lf(Beauty Mark Lyrics.txt_6,27,cl12-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(Beauty Mark Lyrics.txt_6,27,cl11-nil-nil-have-[xcomp-tema_bound-taste-sn2,subj-experiencer-i-sn1,def_prop(taste,[astratto,attivita,edible,evento,oggetto]),def_prop(i,[umano])])
+lf(Beauty Mark Lyrics.txt_7,35,cl15-nil-nil-want-[adj-(mod)-never-nil,subj-actor-i-sn12,subj-actor-i-sn11,ncmod-specif-material-sn5,and(i,it,sn11),and(material,same,sn5),def_prop(never,[istituzione]),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(material,[attivita,informa,oggetto,sostanza,strumento,umano])])
+lf(Beauty Mark Lyrics.txt_7,35,cl14-nil-nil-do-[aux-did-nil])
+lf(Beauty Mark Lyrics.txt_7,35,cl13-nil-nil-have-[xcomp-theme-i-sn9,xcomp-theme-it-sn8,adj-subj_disc-never-sn7,xcomp-theme-i-sn6,xcomp-prop-curtain-sn4,xcomp-theme-i-sn3,xcomp-tema_bound-radio-sn2,subj-experiencer-show-sn1,and(curtain,homemade,sn4),and(radio,no,sn2),def_prop(i,[umano]),def_prop(it,[any]),def_prop(never,[istituzione]),def_prop(i,[umano]),def_prop(curtain,[oggetto,strumento]),def_prop(i,[umano]),def_prop(radio,[attivita,informa,oggetto,strumento]),def_prop(show,[attivita,informa])])
+lf(Beauty Mark Lyrics.txt_8,45,cl16-nil-nil-have-[xcomp-tema_bound-beauty-sn3,adj-subj_disc-never-sn2,subj-experiencer-beauty-sn1,and(beauty,mark,sn1),and(beauty,beauty,sn1),def_prop(beauty,[astratto,umano]),def_prop(never,[istituzione]),def_prop(beauty,[astratto,umano])])
+lf(Beauty Mark Lyrics.txt_9,54,cl18-nil-nil-be-[])
+lf(Beauty Mark Lyrics.txt_9,54,cl17-nil-nil-have-[xcomp-tema_bound-taste-sn2,subj-experiencer-i-sn1,def_prop(taste,[astratto,attivita,edible,evento,oggetto]),def_prop(i,[umano])])
+lf(Beauty Mark Lyrics.txt_10,65,cl23-not-may-be-[adj-(mod)-still-nil,subj-theme_bound-pro-nil,subj-theme_bound-i-sn14,subj-theme_bound-i-sn13,and(i,River,sn13),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Beauty Mark Lyrics.txt_10,65,cl22-nil-nil-prefer-[xadj-adj-manly-adj1,ncmod-locativo-Deep-sn12,obj-theme_aff-Robeson-sn11,subj-actor-you-sn10,def_prop(manly,_144600),def_prop(Deep,[istituzione,umano]),def_prop(Robeson,[place,umano]),def_prop(you,[umano])])
+lf(Beauty Mark Lyrics.txt_10,65,cl21-nil-nil-sing-[ccomp-prop-think-1,obj-theme_aff-Norma-sn9,subj-agent-Callas-sn8,and(Norma,lovely,sn9),def_prop(Norma,[place,oggetto]),def_prop(Callas,[umano])])
+lf(Beauty Mark Lyrics.txt_10,65,cl20-nil-nil-think-[subj-agent-hand-sn6,and(hand,i,sn6),and(hand,long,sn6),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano])])
+lf(Beauty Mark Lyrics.txt_10,65,cl19-nil-nil-have-[xcomp-prop-face-sn3,xcomp-tema_bound-r-sn2,subj-experiencer-i-sn1,def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(r,[astratto]),def_prop(i,[umano])])
+lf(Beauty Mark Lyrics.txt_11,80,cl25-nil-nil-love-[obj-theme_unaff-even-sn3,subj-experiencer-you-sn2,and(even,me,sn3),def_prop(even,[]),def_prop(you,[umano])])
+lf(Beauty Mark Lyrics.txt_11,80,cl24-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Beauty Mark Lyrics.txt_12,93,cl26-not-nil-have-[xcomp-prop-beauty-sn3,xcomp-tema_bound-beauty-sn2,subj-experiencer-i-sn1,and(beauty,mark,sn3),and(beauty,beauty,sn3),def_prop(beauty,[astratto,umano]),def_prop(beauty,[astratto,umano]),def_prop(i,[umano])])

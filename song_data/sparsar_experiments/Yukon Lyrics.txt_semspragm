@@ -1,0 +1,104 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Yukon Lyrics.txt_1-1  []-positive  [neg]
+Yukon Lyrics.txt_2-3  []-negative  [neg]
+Yukon Lyrics.txt_2-4  []-negative  [neg,fgb,fgb,bkc]
+Yukon Lyrics.txt_3-8  []-positive  []
+Yukon Lyrics.txt_3-9  []-positive  []
+Yukon Lyrics.txt_4-12  []-positive  []
+Yukon Lyrics.txt_4-13  []-positive  [fgb,fgb]
+Yukon Lyrics.txt_5-18  []-positive  []
+Yukon Lyrics.txt_5-19  [but-advers]-positive  [fgb]
+Yukon Lyrics.txt_6-25  []-negative  [neg]
+Yukon Lyrics.txt_6-26  []-positive  []
+Yukon Lyrics.txt_7-33  []-positive  []
+Yukon Lyrics.txt_8-41  []-positive  []
+Yukon Lyrics.txt_8-42  []-positive  []
+Yukon Lyrics.txt_8-43  []-positive  [ass]
+Yukon Lyrics.txt_8-44  []-positive  []
+Yukon Lyrics.txt_8-45  [(as)-temp_coinc]-negative  [neg]
+Yukon Lyrics.txt_9-53  []-positive  []
+Yukon Lyrics.txt_9-54  []-positive  []
+Yukon Lyrics.txt_10-64  []-positive  []
+Yukon Lyrics.txt_10-65  []-positive  []
+Yukon Lyrics.txt_10-66  [but-advers]-positive  [ass,fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Yukon Lyrics.txt_1-1  [Yukon,Lyrics,by,band,pup]  [title]
+Yukon Lyrics.txt_2-3  [in,the,Yukon,valley,where,i,spent,my,summer,past,i,was,alone,in,the,Bush]  [reject_expl_just(set,[external,factive,explanation,background,objective]),propose_opin_neg(set,[external,factive,explanation,background,objective]),reject_expl_just(spend,[external,factive,narration,foreground,objective])]
+Yukon Lyrics.txt_2-4  [,,where,the,tide-s,slow,and,the,river,moves,fast,and,,,that,golden,temptress,that,golden,witch,we,were,on,the,tundra,in,oh,a,land,where,the,sun,don-t,set,in,the,Yukon,valley,where,.,the,sun,don-t,set,in,the,Yukon,valley,where]  [reject_expl_just(set,[external,factive,explanation,background,objective]),propose_opin_neg(set,[external,factive,explanation,background,objective]),reject_expl_just(spend,[external,factive,narration,foreground,objective])]
+Yukon Lyrics.txt_3-8  [you,left,me]  [provide_expl_just(leave,[external,factive,narration,foreground,objective])]
+Yukon Lyrics.txt_3-9  [you,left,me,on,my,knees,on]  [provide_expl_just(leave,[external,factive,narration,foreground,objective])]
+Yukon Lyrics.txt_4-12  [the,Athabasca,we,Delta,retraced,our,tracks,all,through,the,woods,where,we,found,a,compass]  [provide_expl_just(retrace,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Yukon Lyrics.txt_4-13  [and,a,prospector-s,mound,and]  [provide_expl_just(retrace,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Yukon Lyrics.txt_5-18  [i,pushed,off,in,my,boat,with,the,gold,prospector-s,ghost]  [provide_expl_just(push,[external,factive,cause,foreground,objective])]
+Yukon Lyrics.txt_5-19  [search,forever,but]  [provide_expl_just(push,[external,factive,cause,foreground,objective])]
+Yukon Lyrics.txt_6-25  [you,will,not,ever,find,your,gold,the,river]  [reject_expl_just(find,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Yukon Lyrics.txt_6-26  [,,swallowed]  [provide_expl_just(find,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Yukon Lyrics.txt_7-33  [it,whole,in,the,Yukon,valley,where]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Yukon Lyrics.txt_8-41  [you,left,me]  [provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(watch,[external,factive,result,foreground,objective]),provide_expl_just(die,[external,factive,narration,foreground,objective])]
+Yukon Lyrics.txt_8-42  [you,left,me,on,my,knees,on]  [provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(watch,[external,factive,result,foreground,objective]),provide_expl_just(die,[external,factive,narration,foreground,objective])]
+Yukon Lyrics.txt_8-43  [,,the,great,slave,river,to,,,the,West,to,the,West,i,am,headed,East,in]  [accept_expl_opin(leave,[external,factive,narration,foreground,objective]),accept_expl_opin(watch,[external,factive,result,foreground,objective]),accept_expl_opin(die,[external,factive,narration,foreground,objective])]
+Yukon Lyrics.txt_8-44  [Yukon,,,the,Valley,to,,,the,West,i,watched]  [provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(watch,[external,factive,result,foreground,objective]),provide_expl_just(die,[external,factive,narration,foreground,objective])]
+Yukon Lyrics.txt_8-45  [you,dying,as]  [reject_expl_just(leave,[external,factive,narration,foreground,objective]),reject_expl_just(watch,[external,factive,result,foreground,objective]),propose_opin_neg(watch,[external,factive,result,foreground,objective]),reject_expl_just(die,[external,factive,narration,foreground,objective])]
+Yukon Lyrics.txt_9-53  [the,temperature,was,rising,in]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Yukon Lyrics.txt_9-54  [,,the,Yukon,where,Valley]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Yukon Lyrics.txt_10-64  [you,left,me]  [provide_expl_just(head,[external,factive,adverse,foreground,objective])]
+Yukon Lyrics.txt_10-65  [you,left,me,on,my,knees,on]  [provide_expl_just(head,[external,factive,adverse,foreground,objective])]
+Yukon Lyrics.txt_10-66  [,,the,great,slave,river,to,,,the,West,to,the,West,but,i,am,heading,East]  [accept_expl_opin(head,[external,factive,adverse,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Yukon Lyrics.txt_1-1)-[]
+2-(Yukon Lyrics.txt_2-3)-[primary-depth,primary-concreteness,secondary-instru_behavior,secondary-temporal_repere]
+3-(Yukon Lyrics.txt_2-4)-[primary-concreteness,primary-water,primary-passivity,primary-water,primary-orality,emotions-glory,emotions-glory,primary-concreteness,primary-fire,primary-depth,primary-concreteness,primary-fire,primary-depth,primary-concreteness]
+4-(Yukon Lyrics.txt_3-8)-[]
+5-(Yukon Lyrics.txt_3-9)-[primary-narcissism]
+6-(Yukon Lyrics.txt_4-12)-[primary-concreteness,secondary-instru_behavior]
+7-(Yukon Lyrics.txt_4-13)-[primary-height]
+8-(Yukon Lyrics.txt_5-18)-[primary-concreteness,emotions-glory]
+9-(Yukon Lyrics.txt_5-19)-[primary-voyage,primary-timelessness]
+10-(Yukon Lyrics.txt_6-25)-[secondary-temporal_repere,secondary-instru_behavior,emotions-glory,primary-water]
+11-(Yukon Lyrics.txt_6-26)-[primary-orality]
+half
+12-(Yukon Lyrics.txt_7-33)-[primary-depth,primary-concreteness]
+13-(Yukon Lyrics.txt_8-41)-[]
+14-(Yukon Lyrics.txt_8-42)-[primary-narcissism]
+15-(Yukon Lyrics.txt_8-43)-[emotions-glory,primary-water,primary-narcissism]
+16-(Yukon Lyrics.txt_8-44)-[primary-vision]
+17-(Yukon Lyrics.txt_8-45)-[primary-passivity]
+18-(Yukon Lyrics.txt_9-53)-[primary-ascend]
+19-(Yukon Lyrics.txt_9-54)-[primary-concreteness]
+20-(Yukon Lyrics.txt_10-64)-[]
+21-(Yukon Lyrics.txt_10-65)-[primary-narcissism]
+22-(Yukon Lyrics.txt_10-66)-[emotions-glory,primary-water]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Yukon Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-pup-sn2,subj-theme_bound-Lyrics-sn1,and(pup,band,sn2),and(Lyrics,Yukon,sn1),def_prop(pup,[animato]),def_prop(Lyrics,[informa,tecno])])
+lf(Yukon Lyrics.txt_2,3,_296218-nil-nil-spend-[xadj-adj-past-adj1,voice-spend-nil,tense-spend-nil,obl-locat-valley-sn1,def_prop(past,_296304),def_prop(valley,[oggetto])])
+lf(Yukon Lyrics.txt_2,3,cl3-not-nil-set-[iobj-goal-tundra-sn27,obj-theme-valley-sn22,iobj-goal-Yukon-sn21,obj-theme-sun-sn20,iobj-goal-Yukon-sn17,aux-do-nil,obj-theme-oh-sn15,xcomp-prop-move-sn14,obj-theme-river-sn13,xcomp-prop-slow-sn12,obl-modal-where-sn11,subj-agent-tide-s-sn10,voice-spend-nil,tense-spend-nil,iobj-goal-Bush-sn5,iobj-goal-Yukon-sn2,and(valley,where,sn22),and(oh,temptress,sn15),and(oh,golden,sn15),and(oh,that,sn15),def_prop(tundra,[oggetto]),def_prop(valley,[oggetto]),def_prop(Yukon,[place,luogo,oggetto]),def_prop(sun,[oggetto,umano]),def_prop(Yukon,[place,luogo,oggetto]),def_prop(oh,[informa,tecno]),def_prop(move,[attivita]),def_prop(river,[oggetto]),def_prop(slow,[evaluative]),def_prop(where,[luogo]),def_prop(tide-s,[evento,tempo]),def_prop(Bush,[place,umano]),def_prop(Yukon,[place,luogo,oggetto])])
+lf(Yukon Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-temptress-sn25,voice-spend-nil,tense-spend-nil,xcomp-prop-alone-sn4,xcomp-theme-i-sn3,subj-theme_bound-valley-sn1,def_prop(temptress,_297164),def_prop(alone,[istituzione]),def_prop(i,[umano]),def_prop(valley,[oggetto])])
+lf(Yukon Lyrics.txt_3,8,cl4-nil-nil-leave-[ncmod-locativo-knee-sn5,obj-theme-me-sn4,subj-theme-you-sn3,obj-theme-me-sn2,subj-theme-you-sn1,def_prop(knee,[body_part,oggetto,strumento,umano]),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Yukon Lyrics.txt_4,12,cl6-nil-nil-be-[cmod-subord-be-",subj-theme_bound-mound-sn9,and(mound,prospector-s,sn9),def_prop(mound,[oggetto,strumento])])
+lf(Yukon Lyrics.txt_4,12,cl5-nil-nil-retrace-[iobj-goal-woods-sn4,obj-theme-all-sn3,obj-theme-track-sn2,subj-agent-Delta-sn1,and(Delta,we,sn1),def_prop(woods,[istituzione]),def_prop(all,[_297736]),def_prop(track,[attivita,oggetto,strumento]),def_prop(Delta,[place,attivita,informa,tecno,umano])])
+lf(Yukon Lyrics.txt_5,18,cl8-nil-nil-be-[adj-(mod)-forever-nil,subj-theme_bound-search-sn9,def_prop(search,[astratto,attivita])])
+lf(Yukon Lyrics.txt_5,18,cl7-nil-nil-push-[adj-(mod)-off-nil,obj-theme-ghost-sn4,ncmod-comitativo-gold-sn3,ncmod-locativo-boat-sn2,subj-agent-i-sn1,and(ghost,prospector-s,sn4),def_prop(ghost,[astratto,umano]),def_prop(gold,[astratto,oggetto,sostanza]),def_prop(boat,[oggetto,strumento]),def_prop(i,[umano])])
+lf(Yukon Lyrics.txt_6,25,cl10-nil-nil-be-[subj-theme_bound-you-sn6,def_prop(you,[umano])])
+lf(Yukon Lyrics.txt_6,25,cl9-not-will-find-[obj-prop-river-sn3,obj-theme_bound-gold-sn2,subj-actor-you-sn1,adj-(mod)-ever-nil,def_prop(river,[oggetto]),def_prop(gold,[astratto,oggetto,sostanza]),def_prop(you,[umano])])
+lf(Yukon Lyrics.txt_7,33,cl11-nil-nil-be-[xcomp-theme-valley-sn4,ncmod-locativo-Yukon-sn3,subj-theme_bound-whole-sn2,subj-theme_bound-whole-sn1,and(valley,where,sn4),and(whole,it,sn1),def_prop(valley,[oggetto]),def_prop(Yukon,[place,luogo,oggetto]),def_prop(whole,[any,astratto]),def_prop(whole,[any,astratto])])
+lf(Yukon Lyrics.txt_8,41,cl15-nil-nil-die-[subj-theme_aff-you-sn19,ncmod-locativo-knee-sn5,def_prop(you,[umano]),def_prop(knee,[body_part,oggetto,strumento,umano])])
+lf(Yukon Lyrics.txt_8,41,cl14-nil-nil-watch-[obj-tema_unaff-i-sn16,subj-actor-Valley-sn15,and(Valley,Yukon,sn15),def_prop(i,[umano]),def_prop(Valley,[place,umano])])
+lf(Yukon Lyrics.txt_8,41,cl13-nil-nil-head-[obj-theme-East-sn12,obj-theme-i-sn11,iobj-goal-West-sn10,obj-theme-West-sn9,subj-theme_unaff-river-sn8,aux-am-nil,and(river,great,sn8),and(river,slave,sn8),def_prop(East,[istituzione,umano]),def_prop(i,[umano]),def_prop(West,[istituzione,umano]),def_prop(West,[place,luogo,umano]),def_prop(river,[oggetto])])
+lf(Yukon Lyrics.txt_8,41,cl12-nil-nil-leave-[obj-theme-me-sn4,subj-theme-you-sn3,obj-theme-me-sn2,subj-theme-you-sn1,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Yukon Lyrics.txt_9,53,cl17-nil-nil-be-[ncmod-modal-where-sn3,subj-theme_bound-you-sn2,def_prop(where,[luogo]),def_prop(you,[umano])])
+lf(Yukon Lyrics.txt_9,53,cl16-nil-nil-rise-[subj-agent-temperature-sn1,aux-was-nil,progr-rising-nil,def_prop(temperature,[astratto])])
+lf(Yukon Lyrics.txt_10,64,cl19-nil-nil-head-[cmod-subord-head-but,obj-theme_unaff-East-sn14,subj-actor-i-sn13,ncmod-locativo-knee-sn5,aux-am-nil,progr-heading-nil,def_prop(East,[istituzione,umano]),def_prop(i,[umano]),def_prop(knee,[body_part,oggetto,strumento,umano])])
+lf(Yukon Lyrics.txt_10,64,cl18-nil-nil-leave-[obj-theme-me-sn4,subj-theme-you-sn3,obj-theme-me-sn2,subj-theme-you-sn1,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])

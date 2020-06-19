@@ -1,0 +1,67 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Barbara Lyrics.txt_1-1  []-positive  []
+Barbara Lyrics.txt_2-3  [if-hypoth]-positive  [fgb]
+Barbara Lyrics.txt_2-4  []-negative  [fgb]
+Barbara Lyrics.txt_3-8  [if-hypoth]-suspension  [fhd,fgb,neg,neg,fhd]
+Barbara Lyrics.txt_4-14  []-suspension  []
+Barbara Lyrics.txt_4-15  [although-advers]-negative  [neg,neg]
+Barbara Lyrics.txt_5-22  []-suspension  [fgb]
+Barbara Lyrics.txt_5-23  []-negative  [neg,neg]
+Barbara Lyrics.txt_5-24  [although-advers]-negative  [neg,neg]
+Barbara Lyrics.txt_5-25  [although-advers]-negative  [neg,neg,fgb]
+Barbara Lyrics.txt_5-26  []-suspension  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Barbara Lyrics.txt_1-1  [Barbara,Lyrics,by,Rufus,Wainwright]  [title]
+Barbara Lyrics.txt_2-3  [if,you,are,runnin,from,your,doorstep]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_148378)]
+Barbara Lyrics.txt_2-4  [and,,,you,don-t,know,where,to,go]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_153326)]
+Barbara Lyrics.txt_3-8  [to,drinking,rosé,in,the,rain,or,listening,to,the,same,song,over_and_over_again,if,you,are,lost,on,a,strange,path,needin-,,,a,gate,to,turn,into,far,from,the,sun,or]  [propose_opin_neg(lose,[external,factive,result,foreground,objective]),suggest(be,[_154058,_154064,statement,background,_154082])]
+Barbara Lyrics.txt_4-14  [Barbara,i,Barbara,listening,to,someone,happier,than,yourself,will,be,there]  [provide_expl_just(speak,[external,factive,narration,background,objective]),provide_expl_just(remember,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(see,[external,nonfactive,narration,foreground,objective])]
+Barbara Lyrics.txt_4-15  [i,will,be,there,although,you,may,not,see,me,the,trees,,,they,will,remember,speak]  [reject_expl_just(speak,[external,factive,narration,background,objective]),reject_expl_just(remember,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,nonfactive,narration,background,objective]),reject_expl_just(see,[external,nonfactive,narration,foreground,objective])]
+Barbara Lyrics.txt_5-22  [my,name,and,rosé,will,be,sweet,suddenly]  [provide_expl_just(see,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(retreat,[external,nonfactive,narration,background,objective]),provide_expl_just(speak,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Barbara Lyrics.txt_5-23  [,,inclement,weather,will,retreat]  [reject_expl_just(see,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,nonfactive,narration,background,objective]),reject_expl_just(retreat,[external,nonfactive,narration,background,objective]),reject_expl_just(speak,[external,factive,narration,background,objective]),reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+Barbara Lyrics.txt_5-24  [although,,,you,may,not,see,me]  [reject_expl_just(see,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,nonfactive,narration,background,objective]),reject_expl_just(retreat,[external,nonfactive,narration,background,objective]),reject_expl_just(speak,[external,factive,narration,background,objective]),reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+Barbara Lyrics.txt_5-25  [although,,,you,may,not,see,me,speak,,,my,name,and,Barbara,Barbara]  [reject_expl_just(see,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,nonfactive,narration,background,objective]),reject_expl_just(retreat,[external,nonfactive,narration,background,objective]),reject_expl_just(speak,[external,factive,narration,background,objective]),reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+Barbara Lyrics.txt_5-26  [i,will,be,there,i,will,,,be,there,i,will,be,there]  [provide_expl_just(see,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(retreat,[external,nonfactive,narration,background,objective]),provide_expl_just(speak,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Barbara Lyrics.txt_1-1)-[]
+2-(Barbara Lyrics.txt_2-3)-[primary-brink]
+3-(Barbara Lyrics.txt_2-4)-[secondary-abstract_tought,primary-concreteness]
+4-(Barbara Lyrics.txt_3-8)-[primary-water,primary-unknow,primary-brink,primary-brink,primary-concreteness,primary-fire]
+5-(Barbara Lyrics.txt_4-14)-[]
+half
+6-(Barbara Lyrics.txt_4-15)-[secondary-abstract_tought,primary-vision,primary-height,secondary-social_behavior]
+7-(Barbara Lyrics.txt_5-22)-[primary-taste,secondary-temporal_repere]
+8-(Barbara Lyrics.txt_5-23)-[]
+9-(Barbara Lyrics.txt_5-24)-[secondary-abstract_tought,primary-vision]
+10-(Barbara Lyrics.txt_5-25)-[secondary-abstract_tought,primary-vision,secondary-social_behavior]
+11-(Barbara Lyrics.txt_5-26)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Barbara Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wainwright-sn2,subj-theme_bound-Lyrics-sn1,and(Wainwright,Rufus,sn2),and(Lyrics,Barbara,sn1),def_prop(Wainwright,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Barbara Lyrics.txt_2,3,cl4-nil-nil-go-[cmod-subord-go-",iobj-goal-doorstep-sn3,def_prop(doorstep,[oggetto,strumento])])
+lf(Barbara Lyrics.txt_2,3,cl3-not-nil-know-[subj-actor-you-sn6,aux-do-nil,def_prop(you,[umano])])
+lf(Barbara Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-runnin-sn2,subj-theme_bound-you-sn1,def_prop(runnin,[istituzione]),def_prop(you,[umano])])
+lf(Barbara Lyrics.txt_3,8,cl7-nil-nil-turn-[ncmod-loc_origin-sun-sn21,ncmod-modal-far-sn20,ncmod-locativo-rain-sn3,def_prop(sun,[oggetto,umano]),def_prop(far,[]),def_prop(rain,[astratto,attivita,cambia,sostanza])])
+lf(Barbara Lyrics.txt_3,8,cl6-nil-nil-lose-[cmod-subord-turn-if,iobj-goal-[]-sn23,subj-theme_unaff-you-sn22,aux-are-nil,def_prop([],nil),def_prop(you,[umano])])
+lf(Barbara Lyrics.txt_3,8,cl5-nil-nil-drink-[adj-subj_disc-over_and_over_again-sn5,obj-theme-listening-sn4,obj-theme-rosé-sn2,subj-actor-gate-sn1,def_prop(over_and_over_again,[informa,tecno]),def_prop(listening,[attivita]),def_prop(rosé,[istituzione]),def_prop(gate,[astratto,oggetto,strumento])])
+lf(Barbara Lyrics.txt_4,14,cl11-nil-nil-speak-[subj-actor-they-sn13,subj-patient-they-sn12,def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Barbara Lyrics.txt_4,14,cl10-nil-will-remember-[subj-tema_nonaff-they-sn13,subj-experiencer-they-sn12,def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Barbara Lyrics.txt_4,14,cl9-not-may-see-[cmod-subord-be-although,xcomp-prop-tree-sn11,xcomp-prop-me-sn10,subj-experiencer-you-sn9,def_prop(tree,[astratto,plant]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Barbara Lyrics.txt_4,14,cl8-nil-will-be-[adj-(mod)-there-nil,subj-theme_bound-i-sn7,xcomp-prop-there-sn3,subj-theme_bound-yourself-sn2,subj-theme_bound-yourself-sn1,and(yourself,Barbara,sn1),def_prop(there,[any]),def_prop(i,[umano]),def_prop(there,[any]),def_prop(yourself,[istituzione]),def_prop(yourself,[istituzione])])
+lf(Barbara Lyrics.txt_5,22,cl16-nil-will-will-[subj-agent-you-sn8,def_prop(you,[umano])])
+lf(Barbara Lyrics.txt_5,22,cl15-nil-nil-speak-[subj-patient-me-sn12,def_prop(me,[umano])])
+lf(Barbara Lyrics.txt_5,22,cl14-not-may-see-[obj-actor-me-sn12,subj-experiencer-you-sn11,xcomp-prop-me-sn10,subj-experiencer-you-sn9,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Barbara Lyrics.txt_5,22,cl13-nil-will-retreat-[])
+lf(Barbara Lyrics.txt_5,22,cl12-nil-will-be-[xcomp-prop-there-sn19,subj-theme_bound-i-sn18,xcomp-prop-sweet-sn4,coord-theme_bound-name_and_rosé-sn3,subj-theme_bound-rosé-sn2,subj-theme_bound-name-sn1,def_prop(there,[any]),def_prop(i,[umano]),def_prop(sweet,[astratto,edible,oggetto]),def_prop(name_and_rosé,[attivita,informa,stato,umano,istituzione]),def_prop(rosé,[attivita,informa,stato,umano,istituzione]),def_prop(name,[attivita,informa,stato,umano,istituzione])])

@@ -1,0 +1,49 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Across The Universe Lyrics.txt_1-1  []-positive  []
+Across The Universe Lyrics.txt_2-3  []-positive  [fhd,neg]
+Across The Universe Lyrics.txt_3-6  []-negative  [neg]
+Across The Universe Lyrics.txt_4-10  []-positive  [neg]
+Across The Universe Lyrics.txt_4-11  []-suspension  [fgb,fhd,fhd,neg,neg,neg]
+Across The Universe Lyrics.txt_4-12  []-positive  [neg,fgb,neg]
+Across The Universe Lyrics.txt_5-20  []-positive  [fhd]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Across The Universe Lyrics.txt_1-1  [across,the,Universe,Lyrics,by,Rufus,Wainwright]  [title]
+Across The Universe Lyrics.txt_2-3  [words,are,flowing,out,like,endless,rain,into,a,paper]  [proposal(be,[_147500,_147506,statement,foreground,_147524])]
+Across The Universe Lyrics.txt_3-6  [pools,of,sorrow,cup]  [reject_expl_just(cup,[external,factive,explanation,background,objective]),propose_opin_neg(cup,[external,factive,explanation,background,objective])]
+Across The Universe Lyrics.txt_4-10  [waves,of,joy,are,drifting,through,my,opened,mind,possessing]  [provide_expl_just(shine,[external,factive,narration,background,objective]),provide_expl_just(ring,[external,factive,cause,foreground,objective]),provide_expl_just(possess,[external,factive,narration,foreground,objective]),provide_expl_just(incite,[external,factive,cause,foreground,objective])]
+Across The Universe Lyrics.txt_4-11  [and,caressing,me,jai,Guru,Deva,,,Om,nothing-s,Gon,na,change,my,world,nothing-s,Gon,na,change,,,my,world,nothing-s,Gon,na,change,my,world,nothing-s,Gon,na,change,,,my,world,images,of,broken,light,,,which,dance,Before_me,like,a,million,eyes,thoughts,meander,like,a,Restless,wind,inside,a,letter,box,jai,Deva,Guru,Om,nothing-s,Gon,na,change,,,my,world,nothing-s,Gon,na,change,my,world,nothing-s,Gon,na,change,,,my,world,nothing-s,Gon,na,change,my,world,sounds,of,laughter,shades,of,earth]  [provide_expl_just(shine,[external,factive,narration,background,objective]),provide_expl_just(ring,[external,factive,cause,foreground,objective]),provide_expl_just(possess,[external,factive,narration,foreground,objective]),provide_expl_just(incite,[external,factive,cause,foreground,objective])]
+Across The Universe Lyrics.txt_4-12  [are,ringing,through,my,open,mind,inciting,and,inviting,me,limitless,undying,love,which,shines,around,me]  [provide_expl_just(shine,[external,factive,narration,background,objective]),provide_expl_just(ring,[external,factive,cause,foreground,objective]),provide_expl_just(possess,[external,factive,narration,foreground,objective]),provide_expl_just(incite,[external,factive,cause,foreground,objective])]
+Across The Universe Lyrics.txt_5-20  [like,a,jai,million,suns,Guru,Deva,Om,nothing-s,Gon,na,change,,,my,world,nothing-s,Gon,na,change,my,world,nothing-s,Gon,na,change,,,my,world,nothing-s,Gon,na,change,my,world,nothing-s,Gon,na,change,,,my,world,nothing-s,Gon,na,change,my,world,nothing-s,Gon,na,change,,,my,world,nothing-s,Gon,na,change,my,world,jai,Guru,Deva,jai,Guru,Deva,jai,Guru,Deva,jai,Guru,,,Deva]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Across The Universe Lyrics.txt_1-1)-[primary-concreteness]
+2-(Across The Universe Lyrics.txt_2-3)-[primary-concreteness,emotions-affection,primary-timelessness,primary-water]
+3-(Across The Universe Lyrics.txt_3-6)-[primary-water,emotions-sadness]
+half
+4-(Across The Universe Lyrics.txt_4-10)-[primary-random_movement,emotions-positive_affect,primary-concreteness]
+5-(Across The Universe Lyrics.txt_4-11)-[primary-vision,emotions-aggression,primary-vision,emotions-expressive_beh,emotions-affection,primary-narcissism,secondary-abstract_tought,emotions-affection,secondary-instru_behavior,primary-concreteness,primary-sound,emotions-positive_affect,primary-diffusion,primary-sound]
+6-(Across The Universe Lyrics.txt_4-12)-[primary-concreteness,primary-unknow,emotions-affection,primary-vision]
+7-(Across The Universe Lyrics.txt_5-20)-[emotions-affection,primary-fire]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Across The Universe Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wainwright-sn3,ncmod-locativo-universe-sn2,subj-theme_bound-Lyrics-sn1,and(Wainwright,Rufus,sn3),def_prop(Wainwright,[place,umano]),def_prop(universe,[astratto,oggetto]),def_prop(Lyrics,[informa,tecno])])
+lf(Across The Universe Lyrics.txt_2,3,cl2-nil-nil-flow-[adj-(mod)-out-nil,obj-theme-rain-sn2,subj-actor-word-sn1,aux-are-nil,progr-flowing-nil,def_prop(rain,[astratto,attivita,cambia,sostanza]),def_prop(word,[attivita,informa,nquant])])
+lf(Across The Universe Lyrics.txt_3,6,cl3-nil-nil-cup-[ncmod-specif-sorrow-sn2,subj-agent-you-sn1,def_prop(sorrow,[emotivo]),def_prop(you,[umano])])
+lf(Across The Universe Lyrics.txt_4,10,cl9-nil-nil-shine-[cmod-subord-incite-",subj-theme-love-sn90,def_prop(love,[astratto,emotivo,nquant])])
+lf(Across The Universe Lyrics.txt_4,10,cl8-nil-nil-incite-[ncmod-modal-mind-sn2,and(mind,opened,sn2),def_prop(mind,[astratto])])
+lf(Across The Universe Lyrics.txt_4,10,cl7-nil-nil-ring-[obj-theme-mind-sn85,ncmod-location-open-sn84,subj-agent-you-sn83,aux-are-nil,progr-ringing-nil,def_prop(mind,[astratto]),def_prop(open,[astratto,evento,luogo]),def_prop(you,[umano])])
+lf(Across The Universe Lyrics.txt_4,10,cl6-nil-nil-sound-[cmod-subord-possess-",ncmod-specif-shade-sn41,xcomp-theme-world-sn40,xcomp-theme-Gon-sn39,xcomp-theme-world-sn38,xcomp-theme-na-sn37,xcomp-theme-Gon-sn36,xcomp-theme-world-sn35,xcomp-theme-na-sn34,xcomp-theme-Gon-sn33,xcomp-theme-world-sn32,xcomp-theme-na-sn31,xcomp-theme-Gon-sn30,xcomp-theme-Om-sn29,xcomp-theme-Guru-sn28,xcomp-prop-box-sn27,xcomp-theme-letter-sn26,xcomp-prop-inside-sn25,xcomp-theme-wind-sn24,xcomp-theme-image-sn21,xcomp-theme-world-sn20,xcomp-theme-na-sn19,xcomp-theme-Gon-sn18,xcomp-theme-world-sn17,xcomp-theme-na-sn16,xcomp-theme-Gon-sn15,xcomp-theme-world-sn14,xcomp-theme-na-sn13,xcomp-theme-Gon-sn12,xcomp-theme-world-sn11,xcomp-theme-na-sn10,xcomp-theme-Gon-sn9,xcomp-theme-Om-sn8,xcomp-prop-Guru-sn7,subj-experiencer-me-sn6,and(shade,laughter,sn41),and(Gon,nothing-s,sn39),and(na,na,sn37),and(Gon,nothing-s,sn36),and(na,na,sn34),and(Gon,nothing-s,sn33),and(na,na,sn31),and(Gon,nothing-s,sn30),and(Om,Deva,sn29),and(Guru,jai,sn28),and(wind,Restless,sn24),and(image,dance,sn21),and(image,Before_me,sn21),and(na,na,sn19),and(Gon,nothing-s,sn18),and(na,na,sn16),and(Gon,nothing-s,sn15),and(na,na,sn13),and(Gon,nothing-s,sn12),and(na,na,sn10),and(Gon,nothing-s,sn9),and(Om,Deva,sn8),and(Guru,jai,sn7),def_prop(shade,[astratto,oggetto,stato,strumento]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(Gon,[istituzione,umano]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(na,[informa,tecno]),def_prop(Gon,[istituzione,umano]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(na,[informa,tecno]),def_prop(Gon,[istituzione,umano]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(na,[informa,tecno]),def_prop(Gon,[istituzione,umano]),def_prop(Om,[istituzione,umano]),def_prop(Guru,[umano]),def_prop(box,[astratto,attivita,nquant,oggetto,plant,strumento]),def_prop(letter,[attivita,informa,umano]),def_prop(inside,[luogo]),def_prop(wind,[attivita,cambia,informa]),def_prop(image,[astratto]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(na,[informa,tecno]),def_prop(Gon,[istituzione,umano]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(na,[informa,tecno]),def_prop(Gon,[istituzione,umano]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(na,[informa,tecno]),def_prop(Gon,[istituzione,umano]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(na,[informa,tecno]),def_prop(Gon,[istituzione,umano]),def_prop(Om,[istituzione,umano]),def_prop(Guru,[umano]),def_prop(me,[umano])])
+lf(Across The Universe Lyrics.txt_4,10,cl5-nil-nil-possess-[])
+lf(Across The Universe Lyrics.txt_4,10,cl4-nil-nil-drift-[subj-agent-wave-sn1,aux-are-nil,progr-drifting-nil,def_prop(wave,[astratto,attivita,body_part,cambia,evento,informa,umano])])
+lf(Across The Universe Lyrics.txt_5,20,nil-nil-nil-like-[obj-theme-na-sn5,obj-theme-Gon-sn4,obj-theme_aff-Om-sn3,obj-tema_emot-Guru-sn2,subj-experiencer-you-sn1,and(na,na,sn5),and(Gon,nothing-s,sn4),and(Om,Deva,sn3),and(Guru,jai,sn2),def_prop(na,[informa,tecno]),def_prop(Gon,[istituzione,umano]),def_prop(Om,[istituzione,umano]),def_prop(Guru,[umano]),def_prop(you,[umano])])

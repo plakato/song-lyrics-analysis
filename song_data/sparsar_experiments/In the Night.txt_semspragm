@@ -1,0 +1,84 @@
+"POLARITY, DISCOURSE MARKERS"
+
+In the Night.txt_1-1  []-positive  []
+In the Night.txt_2-3  [before-temp_prec]-negative  [neg,fhd,neg,fgb,neg,neg]
+In the Night.txt_3-6  []-suspension  [neg,neg]
+In the Night.txt_3-7  []-positive  []
+In the Night.txt_4-11  []-positive  []
+In the Night.txt_4-12  []-positive  []
+In the Night.txt_4-13  []-negative  [neg]
+In the Night.txt_5-20  []-negative  []
+In the Night.txt_5-21  []-negative  [fgb,neg]
+In the Night.txt_6-29  []-negative  [neg,neg,neg]
+In the Night.txt_7-36  []-positive  []
+In the Night.txt_7-37  []-positive  []
+In the Night.txt_7-38  []-positive  []
+In the Night.txt_7-39  []-positive  [fgb]
+In the Night.txt_8-49  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+In the Night.txt_1-1  [in,the,Night,by,Pure,Bathing,culture]  [title]
+In the Night.txt_2-3  [no,rest,or,no,following,before,what,is,left,unknown,in,the,peaceful,night,lonely,believer]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+In the Night.txt_3-6  [you,can,not,shake,the,feeling]  [propose_opin(shake,[external,nonfactive,narration,foreground,objective]),provide_expl_just(shake,[external,nonfactive,narration,foreground,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+In the Night.txt_3-7  [we]  [provide_expl_just(shake,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+In the Night.txt_4-11  [you,know]  [provide_expl_just(reveal,[external,factive,cause,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(heal,[external,factive,narration,background,objective])]
+In the Night.txt_4-12  [that,you,need,it,to,heal,by,revealing]  [provide_expl_just(reveal,[external,factive,cause,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(heal,[external,factive,narration,background,objective])]
+In the Night.txt_4-13  [the,heat,in,your,fever,is,hot]  [reject_expl_just(reveal,[external,factive,cause,foreground,objective]),reject_expl_just(need,[external,factive,narration,background,objective]),reject_expl_just(heal,[external,factive,narration,background,objective])]
+In the Night.txt_5-20  [in,the,evening,to,test,the,night,we,go,so_long,better,than,go]  [provide_expl_just(test,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+In the Night.txt_5-21  [what,is,next,unknown,in,the,night]  [reject_expl_just(test,[external,factive,narration,background,objective]),reject_expl_just(go,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+In the Night.txt_6-29  [lonely,believer,no,you,in,the,peaceful,night,seem,conceited,we]  [reject_expl_just(seem,[external,factive,narration,background,objective])]
+In the Night.txt_7-36  [you,know]  [provide_expl_just(reveal,[external,factive,cause,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(heal,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+In the Night.txt_7-37  [that,you,need,it,to,heal,by,revealing]  [provide_expl_just(reveal,[external,factive,cause,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(heal,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+In the Night.txt_7-38  [you,test,the,night]  [provide_expl_just(reveal,[external,factive,cause,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(heal,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+In the Night.txt_7-39  [and]  [provide_expl_just(reveal,[external,factive,cause,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(heal,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+In the Night.txt_8-49  [you,are,to,shine,in,the,night,in,the,peaceful,night,in,the,peaceful,night]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(shine,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(In the Night.txt_1-1)-[]
+2-(In the Night.txt_2-3)-[primary-passivity,primary-unknow,primary-passivity,emotions-sadness,secondary-abstract_tought]
+3-(In the Night.txt_3-6)-[primary-random_movement]
+4-(In the Night.txt_3-7)-[]
+5-(In the Night.txt_4-11)-[secondary-abstract_tought]
+6-(In the Night.txt_4-12)-[]
+7-(In the Night.txt_4-13)-[primary-fire,primary-counscious,primary-fire]
+half
+8-(In the Night.txt_5-20)-[secondary-instru_behavior]
+9-(In the Night.txt_5-21)-[primary-unknow]
+10-(In the Night.txt_6-29)-[emotions-sadness,secondary-abstract_tought,primary-passivity,primary-vision]
+11-(In the Night.txt_7-36)-[secondary-abstract_tought]
+12-(In the Night.txt_7-37)-[]
+13-(In the Night.txt_7-38)-[secondary-instru_behavior]
+14-(In the Night.txt_7-39)-[]
+15-(In the Night.txt_8-49)-[primary-vision,primary-passivity,primary-passivity]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(In the Night.txt_1,1,cl1-nil-nil-bathe-[subj-actor-culture-sn1,adj-(mod)-Pure-nil,def_prop(culture,[astratto,attivita,istituzione,sostanza])])
+lf(In the Night.txt_2,3,cl2-nil-nil-be-[cmod-coord-be-or,xadj-adj-no-adj1,adj-(mod)-before-nil,xcomp-prop-night-sn7,xcomp-prop-unknown-sn6,xcomp-prop-leave-sn5,subj-theme_bound-what-sn4,and(night,peaceful,sn7),def_prop(no,_40110),def_prop(night,[tempo]),def_prop(unknown,[attivita,informa,luogo]),def_prop(leave,[attivita,informa,tempo]),def_prop(what,[oggetto])])
+lf(In the Night.txt_3,6,cl4-nil-nil-be-[subj-theme_bound-we-sn3,def_prop(we,[umano])])
+lf(In the Night.txt_3,6,cl3-not-can-shake-[obj-patient-feel-sn2,subj-agent-you-sn1,def_prop(feel,[astratto,attivita]),def_prop(you,[umano])])
+lf(In the Night.txt_4,11,cl9-nil-nil-be-[adj-(mod)-hot-nil,ncmod-locativo-fever-sn6,subj-theme_bound-heat-sn5,def_prop(fever,[emotivo,stato]),def_prop(heat,[astratto,attivita,cambia,evento])])
+lf(In the Night.txt_4,11,cl8-nil-nil-reveal-[])
+lf(In the Night.txt_4,11,cl7-nil-nil-heal-[])
+lf(In the Night.txt_4,11,cl6-nil-nil-need-[subj-experiencer-it-sn3,subj-experiencer-it-sn2,and(it,you,sn2),def_prop(it,[any]),def_prop(it,[any])])
+lf(In the Night.txt_4,11,cl5-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(In the Night.txt_5,20,cl12-nil-nil-be-[adj-temporal-night-nil,xcomp-prop-unknown-sn9,subj-theme_bound-what-sn8,and(unknown,next,sn9),def_prop(night,[tempo]),def_prop(unknown,[attivita,informa,luogo]),def_prop(what,[oggetto])])
+lf(In the Night.txt_5,20,cl11-nil-nil-go-[adj-(mod)-so_long-nil,adj-temporal-night-nil,adj-temporal-evening-nil,obj-theme-better-sn2,xcomp-purpose-test-2,subj-agent-we-sn1,def_prop(night,[tempo]),def_prop(evening,[tempo]),def_prop(better,[valutativo]),def_prop(we,[umano])])
+lf(In the Night.txt_5,20,cl10-nil-nil-test-[])
+lf(In the Night.txt_6,29,cl13-nil-nil-seem-[adj-temporal-night-nil,xcomp-prop-we-sn3,iobj-goal-peaceful-sn2,subj-actor-no-sn1,and(we,conceited,sn3),and(no,you,sn1),def_prop(we,[umano]),def_prop(peaceful,[istituzione]),def_prop(no,[istituzione])])
+lf(In the Night.txt_7,36,cl19-nil-nil-be-[])
+lf(In the Night.txt_7,36,cl18-nil-nil-test-[obj-theme-night-sn6,subj-agent-you-sn5,def_prop(night,[tempo]),def_prop(you,[umano])])
+lf(In the Night.txt_7,36,cl17-nil-nil-reveal-[])
+lf(In the Night.txt_7,36,cl16-nil-nil-heal-[])
+lf(In the Night.txt_7,36,cl15-nil-nil-need-[subj-experiencer-it-sn3,subj-experiencer-it-sn2,and(it,you,sn2),def_prop(it,[any]),def_prop(it,[any])])
+lf(In the Night.txt_7,36,cl14-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(In the Night.txt_8,49,cl21-nil-nil-shine-[])
+lf(In the Night.txt_8,49,cl20-nil-nil-be-[xcomp-prop-night-sn7,subj-theme_bound-you-sn1,def_prop(night,[tempo]),def_prop(you,[umano])])

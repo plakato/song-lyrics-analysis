@@ -1,0 +1,131 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Baby.txt_1-1  []-positive  []
+Baby.txt_2-3  []-negative  [neg]
+Baby.txt_2-4  []-positive  []
+Baby.txt_2-5  [so-result]-positive  [fgb]
+Baby.txt_3-9  []-suspension  [neg,fgb]
+Baby.txt_4-15  [so-result]-suspension  [fgb,fgb]
+Baby.txt_5-24  []-positive  [fgb]
+Baby.txt_5-25  []-positive  []
+Baby.txt_6-30  []-negative  [neg]
+Baby.txt_6-31  []-negative  [neg]
+Baby.txt_7-39  [but-advers]-suspension  [neg,neg,fgb,neg,neg,bkc]
+Baby.txt_8-50  []-suspension  []
+Baby.txt_8-51  []-negative  [neg]
+Baby.txt_9-60  []-positive  []
+Baby.txt_9-61  [so-result]-suspension  [fgb,fgb,neg]
+Baby.txt_9-61  [so-result]-suspension  [fgb,fgb,neg]
+Baby.txt_10-70  []-suspension  []
+Baby.txt_10-71  []-suspension  [neg,neg,fgb]
+Baby.txt_11-81  []-question  []
+Baby.txt_11-82  []-positive  []
+Baby.txt_11-83  [but-advers]-negative  [fgb]
+Baby.txt_11-84  []-positive  [bkc]
+Baby.txt_11-85  []-negative  [neg]
+Baby.txt_12-96  []-suspension  []
+Baby.txt_12-97  []-negative  [neg,bkc]
+Baby.txt_12-98  [but-advers]-positive  [fgb]
+Baby.txt_13-110  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Baby.txt_1-1  [baby,by,Rufus,Wainwright]  [title]
+Baby.txt_2-3  [i,really,can,not,stay]  [reject_expl_just(get,[external,factive,explanation,background,objective]),propose_opin_neg(get,[external,factive,explanation,background,objective]),reject_expl_just(stay,[external,nonfactive,narration,foreground,objective]),reject_expl_just(go,[external,factive,explanation,background,objective]),propose_opin_neg(go,[external,factive,explanation,background,objective]),reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Baby.txt_2-4  [i,have,got,to,go,way]  [provide_expl_just(get,[external,factive,explanation,background,objective]),suggest(get,[external,factive,explanation,background,objective]),provide_expl_just(stay,[external,nonfactive,narration,foreground,objective]),provide_expl_just(go,[external,factive,explanation,background,objective]),suggest(go,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Baby.txt_2-5  [the,evening,has,been,so,very,nice,my]  [provide_expl_just(get,[external,factive,explanation,background,objective]),suggest(get,[external,factive,explanation,background,objective]),provide_expl_just(stay,[external,nonfactive,narration,foreground,objective]),provide_expl_just(go,[external,factive,explanation,background,objective]),suggest(go,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Baby.txt_3-9  [mother,will,start,to,worry,and]  [provide_expl_just(worry,[external,factive,narration,background,objective]),provide_expl_just(mother,[external,factive,narration,background,objective]),provide_expl_just(start,[external,nonfactive,inception,background,objective]),suggest(start,[external,nonfactive,inception,background,objective])]
+Baby.txt_4-15  [father,will,be,pacing,the,floor,so,really,i,had,better,scurry,well,maybe,just,a,half,a,drink,more,the,neighbors,might,think,say]  [provide_expl_just(think,[external,nonfactive,narration,foreground,objective]),provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(father,[external,factive,narration,background,objective])]
+Baby.txt_5-24  [what,is,in,this,drink]  [provide_expl_just(drink,[internal,factive,narration,background,objective])]
+Baby.txt_5-25  [i_wish]  [provide_expl_just(drink,[internal,factive,narration,background,objective])]
+Baby.txt_6-30  [oughtta,i,i,knew,how,to,break,this,spell]  [reject_expl_just(say,[external,factive,narration,background,objective]),reject_expl_just(know,[external,factive,cause,foreground,objective])]
+Baby.txt_6-31  [say,no]  [reject_expl_just(say,[external,factive,narration,background,objective]),reject_expl_just(know,[external,factive,cause,foreground,objective])]
+Baby.txt_7-39  [no,no,sir,at_least,i,am,Gon,na,say,but,it,is,cold,.,that,i,tried,i,really,can,not,stay,oh]  [provide_expl_just(be,[external,factive,narration,background,objective]),propose_opin(stay,[external,nonfactive,narration,foreground,objective]),provide_expl_just(stay,[external,nonfactive,narration,foreground,objective])]
+Baby.txt_8-50  [outside,i,simply,must,go]  [provide_expl_just(go,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Baby.txt_8-51  [the,answer,is,no,the]  [reject_expl_just(go,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Baby.txt_9-60  [welcome,,,has,been]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Baby.txt_9-61  [so,nice,and,warm,my,sister,will,be,suspicious]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Baby.txt_9-61  [so,nice,and,warm,my,sister,will,be,suspicious,my]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Baby.txt_10-70  [Brother,will,be,there,at,the,door]  [provide_expl_just(door,[internal,nonfactive,narration,background,objective])]
+Baby.txt_10-71  [my,maiden,aunt-s,mind,is,vicious,well]  [provide_expl_just(door,[internal,nonfactive,narration,background,objective])]
+Baby.txt_11-81  [home,get,to,got,have,i,more,cigarette,a,just,maybe,?]  [provide_expl_just(be,[internal,factive,narration,background,objective]),provide_expl_just(get,[internal,factive,narration,background,objective]),provide_expl_just(lend,[internal,factive,narration,foreground,objective]),provide_expl_just(see,[internal,factive,narration,background,objective])]
+Baby.txt_11-82  [say,lend,me,a,comb]  [provide_expl_just(be,[internal,factive,narration,background,objective]),provide_expl_just(get,[internal,factive,narration,background,objective]),provide_expl_just(lend,[internal,factive,narration,foreground,objective]),provide_expl_just(see,[internal,factive,narration,background,objective])]
+Baby.txt_11-83  [but,you,don-t,see]  [provide_expl_just(be,[internal,factive,narration,background,objective]),provide_expl_just(get,[internal,factive,narration,background,objective]),provide_expl_just(lend,[internal,factive,narration,foreground,objective]),provide_expl_just(see,[internal,factive,narration,background,objective])]
+Baby.txt_11-84  [you,have,really,been,grand,oh]  [provide_expl_just(be,[internal,factive,narration,background,objective]),provide_expl_just(get,[internal,factive,narration,background,objective]),provide_expl_just(lend,[internal,factive,narration,foreground,objective]),provide_expl_just(see,[internal,factive,narration,background,objective])]
+Baby.txt_11-85  [there,is,bound,to,be,talk]  [reject_expl_just(be,[internal,factive,narration,background,objective]),reject_expl_just(get,[internal,factive,narration,background,objective]),reject_expl_just(lend,[internal,factive,narration,foreground,objective]),reject_expl_just(see,[internal,factive,narration,background,objective])]
+Baby.txt_12-96  [tomorrow,at_least,there,will,be,plenty,implied]  [provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(stay,[external,nonfactive,narration,foreground,objective])]
+Baby.txt_12-97  [i,,,really,can,not,stay,oh]  [reject_expl_just(be,[external,nonfactive,narration,background,objective]),reject_expl_just(stay,[external,nonfactive,narration,foreground,objective])]
+Baby.txt_12-98  [but,baby]  [provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(stay,[external,nonfactive,narration,foreground,objective])]
+Baby.txt_13-110  [it,is,cold,outside]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Baby.txt_1-1)-[]
+2-(Baby.txt_2-3)-[secondary-abstract_tought]
+3-(Baby.txt_2-4)-[]
+4-(Baby.txt_2-5)-[]
+5-(Baby.txt_3-9)-[primary-vision,emotions-anxiety]
+6-(Baby.txt_4-15)-[primary-brink,secondary-abstract_tought,secondary-abstract_tought,primary-orality,secondary-abstract_tought,secondary-social_behavior]
+7-(Baby.txt_5-24)-[primary-orality]
+8-(Baby.txt_5-25)-[]
+9-(Baby.txt_6-30)-[secondary-moral_imperative,secondary-abstract_tought,emotions-aggression]
+10-(Baby.txt_6-31)-[secondary-social_behavior]
+11-(Baby.txt_7-39)-[secondary-social_behavior,primary-cold,secondary-instru_behavior,secondary-abstract_tought]
+12-(Baby.txt_8-50)-[primary-concreteness,secondary-order,secondary-restraint]
+13-(Baby.txt_8-51)-[secondary-social_behavior]
+half
+14-(Baby.txt_9-60)-[emotions-affection]
+15-(Baby.txt_9-61)-[primary-fire]
+16-(Baby.txt_9-61)-[primary-fire]
+17-(Baby.txt_10-70)-[primary-concreteness,primary-brink]
+18-(Baby.txt_10-71)-[]
+19-(Baby.txt_11-81)-[secondary-abstract_tought]
+20-(Baby.txt_11-82)-[secondary-social_behavior,secondary-social_behavior]
+21-(Baby.txt_11-83)-[primary-vision]
+22-(Baby.txt_11-84)-[secondary-abstract_tought]
+23-(Baby.txt_11-85)-[secondary-restraint,secondary-social_behavior]
+24-(Baby.txt_12-96)-[]
+25-(Baby.txt_12-97)-[secondary-abstract_tought]
+26-(Baby.txt_12-98)-[]
+27-(Baby.txt_13-110)-[primary-cold,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Baby.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wainwright-sn2,subj-theme_bound-baby-sn1,and(Wainwright,Rufus,sn2),def_prop(Wainwright,[place,umano]),def_prop(baby,[animato,any,attivita,plant])])
+lf(Baby.txt_2,3,cl5-nil-nil-be-[adj-(mod)-so-nil,xcomp-prop-my-sn6,subj-theme_bound-evening-sn5,and(my,nice,sn6),def_prop(my,[informa,tecno]),def_prop(evening,[tempo])])
+lf(Baby.txt_2,3,cl4-nil-nil-go-[subj-prop-i-sn4,def_prop(i,[umano])])
+lf(Baby.txt_2,3,cl3-nil-nil-get-[subj-theme_bound-i-sn4,aux-have-nil,def_prop(i,[umano])])
+lf(Baby.txt_2,3,cl2-not-can-stay-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Baby.txt_3,9,cl8-nil-nil-worry-[subj-esperiente-you-sn1,def_prop(you,[umano])])
+lf(Baby.txt_3,9,cl7-nil-will-start-[])
+lf(Baby.txt_3,9,cl6-nil-nil-mother-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Baby.txt_4,15,cl13-nil-nil-say-[cmod-subord-say-so,subj-actor-you-sn64,subj-prop-neighbor-sn62,subj-prop-more-sn61,subj-prop-more-sn58,subj-prop-more-sn55,subj-prop-more-sn50,subj-prop-more-sn44,subj-prop-more-sn37,subj-prop-more-sn30,def_prop(you,[umano]),def_prop(neighbor,[oggetto,umano]),def_prop(more,[astratto,informa,oggetto]),def_prop(more,[astratto,informa,oggetto]),def_prop(more,[astratto,informa,oggetto]),def_prop(more,[astratto,informa,oggetto]),def_prop(more,[astratto,informa,oggetto]),def_prop(more,[astratto,informa,oggetto]),def_prop(more,[astratto,informa,oggetto])])
+lf(Baby.txt_4,15,cl12-nil-might-think-[subj-agent-you-sn63,subj-agent-neighbor-sn62,obj-theme_aff-more-sn61,subj-agent-neighbor-sn60,obj-theme-neighbor-sn59,obj-theme_aff-more-sn58,subj-agent-drink-sn57,obj-theme-neighbor-sn56,obj-theme_aff-more-sn55,obj-theme_aff-half-sn54,subj-agent-drink-sn53,adj-(mod)-just-nil,obj-theme-neighbor-sn51,obj-theme_aff-more-sn50,obj-theme_aff-half-sn49,subj-agent-drink-sn48,adj-(mod)-maybe-nil,obj-theme-neighbor-sn45,obj-theme_aff-more-sn44,obj-theme_aff-half-sn43,subj-agent-drink-sn42,adj-(mod)-well-nil,obj-theme-neighbor-sn38,obj-theme_aff-more-sn37,obj-theme_aff-half-sn36,subj-agent-drink-sn35,obj-theme-neighbor-sn31,obj-theme_aff-more-sn30,obj-theme_aff-half-sn29,obj-theme_aff-scurry-sn28,subj-agent-drink-sn27,and(scurry,better,sn28),def_prop(you,[umano]),def_prop(neighbor,[oggetto,umano]),def_prop(more,[astratto,informa,oggetto]),def_prop(neighbor,[oggetto,umano]),def_prop(neighbor,[oggetto,umano]),def_prop(more,[astratto,informa,oggetto]),def_prop(drink,[attivita,edible,oggetto]),def_prop(neighbor,[oggetto,umano]),def_prop(more,[astratto,informa,oggetto]),def_prop(half,[valutativo]),def_prop(drink,[attivita,edible,oggetto]),def_prop(neighbor,[oggetto,umano]),def_prop(more,[astratto,informa,oggetto]),def_prop(half,[valutativo]),def_prop(drink,[attivita,edible,oggetto]),def_prop(neighbor,[oggetto,umano]),def_prop(more,[astratto,informa,oggetto]),def_prop(half,[valutativo]),def_prop(drink,[attivita,edible,oggetto]),def_prop(neighbor,[oggetto,umano]),def_prop(more,[astratto,informa,oggetto]),def_prop(half,[valutativo]),def_prop(drink,[attivita,edible,oggetto]),def_prop(neighbor,[oggetto,umano]),def_prop(more,[astratto,informa,oggetto]),def_prop(half,[valutativo]),def_prop(scurry,[attivita,informa]),def_prop(drink,[attivita,edible,oggetto])])
+lf(Baby.txt_4,15,cl11-nil-nil-have-[adj-(mod)-just-nil,adj-(mod)-maybe-nil,adj-(mod)-well-nil,xcomp-theme-more-sn23,xcomp-prop-half-sn22,xcomp-tema_bound-scurry-sn21,subj-experiencer-drink-sn20,xcomp-theme-more-sn16,xcomp-theme-drink-sn15,xcomp-prop-half-sn14,xcomp-tema_bound-scurry-sn13,subj-experiencer-i-sn12,adj-(mod)-really-nil,xcomp-theme-more-sn7,xcomp-theme-drink-sn6,xcomp-prop-half-sn5,xcomp-tema_bound-scurry-sn4,subj-experiencer-i-sn3,and(scurry,better,sn21),and(scurry,better,sn13),and(scurry,better,sn4),def_prop(more,[astratto,informa,oggetto]),def_prop(half,[valutativo]),def_prop(scurry,[attivita,informa]),def_prop(drink,[attivita,edible,oggetto]),def_prop(more,[astratto,informa,oggetto]),def_prop(drink,[attivita,edible,oggetto]),def_prop(half,[valutativo]),def_prop(scurry,[attivita,informa]),def_prop(i,[umano]),def_prop(more,[astratto,informa,oggetto]),def_prop(drink,[attivita,edible,oggetto]),def_prop(half,[valutativo]),def_prop(scurry,[attivita,informa]),def_prop(i,[umano])])
+lf(Baby.txt_4,15,cl10-nil-will-pace-[aux-be-nil,progr-pacing-nil])
+lf(Baby.txt_4,15,cl9-nil-nil-father-[obj-theme-floor-sn2,subj-agent-you-sn1,def_prop(floor,[astratto,attivita,informa,oggetto,strumento]),def_prop(you,[umano])])
+lf(Baby.txt_5,24,cl14-nil-nil-be-[subj-theme_bound-you-sn4,ncmod-locativo-drink-sn2,subj-theme_bound-what-sn1,and(drink,this,sn2),def_prop(you,[umano]),def_prop(drink,[attivita,edible,oggetto]),def_prop(what,[oggetto])])
+lf(Baby.txt_6,30,cl17-nil-nil-say-[obj-theme_unaff-no-sn8,subj-actor-you-sn7,obj-theme_aff-spell-sn3,xcomp-purpose-break-4,and(spell,this,sn3),def_prop(no,[istituzione]),def_prop(you,[umano]),def_prop(spell,[attivita,informa])])
+lf(Baby.txt_6,30,cl16-nil-nil-break-[])
+lf(Baby.txt_6,30,cl15-nil-nil-know-[subj-actor-i-sn2,subj-actor-i-sn1,and(i,i,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Baby.txt_7,39,cl21-not-can-stay-[])
+lf(Baby.txt_7,39,cl20-nil-nil-try-[subj-actor-pro-nil,subj-actor-i-sn18,def_prop(i,[umano])])
+lf(Baby.txt_7,39,cl19-nil-nil-say-[])
+lf(Baby.txt_7,39,cl18-nil-nil-be-[adj-(mod)-really-nil,cmod-subord-stay-cl21,xcomp-prop-cold-sn16,subj-theme_bound-it-sn15,adj-(mod)-at_least-nil,xcomp-prop-oh-sn6,xcomp-theme-i-sn5,subj-theme_bound-na-sn4,subj-theme_bound-na-sn3,subj-theme_bound-i-sn2,subj-theme_bound-sir-sn1,and(na,Gon,sn4),and(na,i,sn3),and(i,sir,sn2),and(i,no,sn2),and(sir,no,sn1),def_prop(cold,[valutativo]),def_prop(it,[any]),def_prop(oh,[informa,tecno]),def_prop(i,[umano]),def_prop(na,[informa,tecno]),def_prop(na,[informa,tecno]),def_prop(i,[umano]),def_prop(sir,[umano])])
+lf(Baby.txt_8,50,cl23-nil-nil-be-[subj-theme_bound-answer-sn4,def_prop(answer,[attivita,informa])])
+lf(Baby.txt_8,50,cl22-nil-must-go-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Baby.txt_9,60,cl24-nil-will-be-[xcomp-prop-suspicious-sn13,coord-theme_bound-nice_and_sister-sn12,subj-theme_bound-sister-sn11,subj-theme_bound-nice-sn10,xcomp-prop-suspicious-sn5,coord-theme_bound-nice_and_sister-sn4,subj-theme_bound-sister-sn3,subj-theme_bound-nice-sn2,subj-theme_bound-you-sn1,def_prop(suspicious,[evaluative]),def_prop(nice_and_sister,[valutativo,umano]),def_prop(sister,[valutativo,umano]),def_prop(nice,[valutativo,umano]),def_prop(suspicious,[evaluative]),def_prop(nice_and_sister,[valutativo,umano]),def_prop(sister,[valutativo,umano]),def_prop(nice,[valutativo,umano]),def_prop(you,[umano])])
+lf(Baby.txt_10,70,cl25-nil-will-be-[xcomp-prop-well-sn5,subj-theme_bound-mind-sn4,ncmod-locativo-door-sn3,xcomp-prop-there-sn2,subj-theme_bound-Brother-sn1,and(well,vicious,sn5),and(mind,aunt-s,sn4),def_prop(well,[istituzione]),def_prop(mind,[astratto]),def_prop(door,[astratto,oggetto,strumento]),def_prop(there,[any]),def_prop(Brother,[umano,relazionale])])
+lf(Baby.txt_11,81,cl29-nil-nil-be-[xcomp-prop-bind-sn15,subj-theme_bound-there-sn14,xcomp-prop-oh-sn13,subj-theme_bound-you-sn12,adj-(mod)-get-nil,adj-(mod)-really-nil,and(oh,grand,sn13),def_prop(bind,[astratto]),def_prop(there,[any]),def_prop(oh,[informa,tecno]),def_prop(you,[umano])])
+lf(Baby.txt_11,81,cl28-not-nil-see-[subj-experiencer-you-sn11,aux-do-nil,def_prop(you,[umano])])
+lf(Baby.txt_11,81,cl27-nil-nil-lend-[obj-theme_aff-comb-sn10,obj-theme-me-sn9,subj-agent-say-sn8,def_prop(comb,[animato,attivita,body_part,oggetto,strumento,umano]),def_prop(me,[umano]),def_prop(say,[stato])])
+lf(Baby.txt_11,81,cl26-nil-nil-get-[adj-(mod)-home-nil,adj-(mod)-more-nil,adj-(mod)-just-nil,adj-(mod)-maybe-nil,subj-paziente-i-sn2,subj-agent-i-sn2,subj-agent-i-sn1,aux-have-nil,and(i,cigarette,sn1),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Baby.txt_12,96,cl31-not-can-stay-[adj-(mod)-really-nil,obj-theme_unaff-oh-sn6,subj-agent-i-sn5,def_prop(oh,[informa,tecno]),def_prop(i,[umano])])
+lf(Baby.txt_12,96,cl30-nil-will-be-[subj-theme_bound-you-sn8,xcomp-prop-plenty-sn3,subj-theme_bound-there-sn2,subj-theme_bound-there-sn1,def_prop(you,[umano]),def_prop(plenty,[astratto,nquant]),def_prop(there,[any]),def_prop(there,[any])])
+lf(Baby.txt_13,110,cl32-nil-nil-be-[xcomp-prop-outside-sn2,subj-theme_bound-it-sn1,and(outside,cold,sn2),def_prop(outside,[luogo]),def_prop(it,[any])])

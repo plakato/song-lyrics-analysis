@@ -1,0 +1,138 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Cigarettes and Chocolate Milk Lyrics.txt_1-1  []-positive  [fgb]
+Cigarettes and Chocolate Milk Lyrics.txt_2-3  []-positive  [fgb]
+Cigarettes and Chocolate Milk Lyrics.txt_2-4  []-positive  []
+Cigarettes and Chocolate Milk Lyrics.txt_3-6  []-suspension  []
+Cigarettes and Chocolate Milk Lyrics.txt_3-7  [if-hypoth]-suspension  [neg,neg,neg,neg,fgb]
+Cigarettes and Chocolate Milk Lyrics.txt_4-11  []-suspension  []
+Cigarettes and Chocolate Milk Lyrics.txt_4-12  []-suspension  []
+Cigarettes and Chocolate Milk Lyrics.txt_4-13  []-positive  []
+Cigarettes and Chocolate Milk Lyrics.txt_5-18  []-suspension  []
+Cigarettes and Chocolate Milk Lyrics.txt_5-19  []-suspension  [neg,neg,neg,neg,fgb]
+Cigarettes and Chocolate Milk Lyrics.txt_6-25  [then-temp_seq]-positive  []
+Cigarettes and Chocolate Milk Lyrics.txt_6-26  []-negative  [neg]
+Cigarettes and Chocolate Milk Lyrics.txt_6-27  []-negative  [neg,neg]
+Cigarettes and Chocolate Milk Lyrics.txt_6-28  []-negative  [neg]
+Cigarettes and Chocolate Milk Lyrics.txt_7-33  []-negative  [neg]
+Cigarettes and Chocolate Milk Lyrics.txt_8-41  []-suspension  [neg,neg,neg]
+Cigarettes and Chocolate Milk Lyrics.txt_8-42  []-positive  []
+Cigarettes and Chocolate Milk Lyrics.txt_8-43  [so-result]-positive  [fgb]
+Cigarettes and Chocolate Milk Lyrics.txt_9-52  []-positive  [neg,neg]
+Cigarettes and Chocolate Milk Lyrics.txt_10-68  []-negative  [neg]
+Cigarettes and Chocolate Milk Lyrics.txt_10-69  [while-temp_coinc]-negative  [neg]
+Cigarettes and Chocolate Milk Lyrics.txt_11-80  []-negative  [neg,neg,neg]
+Cigarettes and Chocolate Milk Lyrics.txt_11-81  [while-temp_coinc]-positive  [fhd,fhd]
+Cigarettes and Chocolate Milk Lyrics.txt_12-97  []-negative  [neg,neg]
+Cigarettes and Chocolate Milk Lyrics.txt_12-98  []-suspension  [neg,fhd,neg,neg]
+Cigarettes and Chocolate Milk Lyrics.txt_12-99  []-negative  [neg]
+Cigarettes and Chocolate Milk Lyrics.txt_13-110  [whenever-cond]-positive  []
+Cigarettes and Chocolate Milk Lyrics.txt_13-111  [so-result]-positive  [fgb]
+Cigarettes and Chocolate Milk Lyrics.txt_13-111  [if-hypoth,so-result]-suspension  [fgb,fgb,fgb,fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Cigarettes and Chocolate Milk Lyrics.txt_1-1  [cigarettes,and,Chocolate,Milk,Lyrics,by,Rufus,Wainwright]  [title]
+Cigarettes and Chocolate Milk Lyrics.txt_2-3  [cigarettes,and,chocolate,milk,these,are,a,couple,of,my,cravings,just]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_2-4  [everything]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_3-6  [it,seems]  [provide_expl_just(seem,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_3-7  [i,like-s,a,little,bit,stronger,a,little,bit,thicker,a,little,bit,harmful,for,me,if]  [propose_opin_neg(seem,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_4-11  [i,should,buy]  [provide_expl_just(buy,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_4-12  [jellybeans,have_to,eat,them,all,one,sitting]  [provide_expl_just(buy,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_4-13  [everything]  [provide_expl_just(buy,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_5-18  [it,seems]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(seem,[external,factive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_5-19  [i,like-s,a,little,bit,sweeter,a,little,bit,fatter,a,little,bit,harmful,for,me,and]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(seem,[external,factive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_6-25  [then,there,is,those,other]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(mention,[external,nonfactive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_6-26  [several,we,reasons,things,which,for,will,not,mention,everything]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(mention,[external,nonfactive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_6-27  [about-em,is,a,little,bit,stranger]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(mention,[external,nonfactive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_6-28  [a,little,bit,harder]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(mention,[external,nonfactive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_7-33  [a,little,bit]  [reject_expl_just(bite,[external,factive,narration,foreground,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_8-41  [deadly,it,is,not,not]  [provide_expl_just(tend,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_8-42  [very,smart,tends,to,make,one,part]  [provide_expl_just(tend,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_8-43  [so,brokenhearted,sitting]  [provide_expl_just(tend,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_9-52  [here,,,remembering,me,always,been,a,shoe,made,for,the,city,go,head,accuse,me,of,just,singing,about,places,with,scrappy,boys,faces,have,general,run,of,the,town,playing,with,prodigal,sons,takes]  [provide_expl_just(play,[external,factive,cause,foreground,objective]),provide_expl_just(remember,[external,factive,narration,foreground,objective]),provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(accuse,[external,factive,narration,background,objective]),provide_expl_just(face,[external,factive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_10-68  [a,lot,of,sentimental,valiums,can,not,expect,the,world,to,be,your,Raggedy,Andy]  [reject_expl_just(expect,[external,nonfactive,narration,foreground,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_10-69  [while,running,on,empty,you]  [reject_expl_just(expect,[external,nonfactive,narration,foreground,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_11-80  [little,old,doll,with,a,frown,you,got,to,keep,in,the,game]  [reject_expl_just(keep,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(retain,[external,factive,narration,foreground,objective]),reject_expl_just(suggest,[external,factive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_11-81  [retaining,mystique,while,facing,forward,i,suggest,a,reading,of,a,lesson,in,Tightropes,or,Surfing,your,High,hopes,or,Adios,Kansas,still]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(retain,[external,factive,narration,foreground,objective]),provide_expl_just(suggest,[external,factive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_12-97  [there,is,not,a,show,on,my,back,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_12-98  [a,friendly,i,intervention,holes,or,am,just,a,a,little,bit,little,bit,heiress,Irish]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_12-99  [,,a,little,bit,tower,of,Pisa]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_13-110  [whenever,i,see,ya]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_13-111  [so,,,please,be,kind]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Cigarettes and Chocolate Milk Lyrics.txt_13-111  [so,,,please,be,kind,if,i,am,a,cigarettes,and,chocolate,milk,cigarettes,and,mess,chocolate,milk]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Cigarettes and Chocolate Milk Lyrics.txt_1-1)-[]
+2-(Cigarettes and Chocolate Milk Lyrics.txt_2-3)-[primary-orality]
+3-(Cigarettes and Chocolate Milk Lyrics.txt_2-4)-[]
+4-(Cigarettes and Chocolate Milk Lyrics.txt_3-6)-[primary-vision]
+5-(Cigarettes and Chocolate Milk Lyrics.txt_3-7)-[emotions-affection,primary-touch]
+6-(Cigarettes and Chocolate Milk Lyrics.txt_4-11)-[secondary-moral_imperative,secondary-instru_behavior]
+7-(Cigarettes and Chocolate Milk Lyrics.txt_4-12)-[primary-orality,secondary-abstract_tought]
+8-(Cigarettes and Chocolate Milk Lyrics.txt_4-13)-[]
+9-(Cigarettes and Chocolate Milk Lyrics.txt_5-18)-[primary-vision]
+10-(Cigarettes and Chocolate Milk Lyrics.txt_5-19)-[emotions-affection,primary-taste]
+11-(Cigarettes and Chocolate Milk Lyrics.txt_6-25)-[secondary-temporal_repere]
+12-(Cigarettes and Chocolate Milk Lyrics.txt_6-26)-[emotions-aggression,secondary-abstract_tought]
+13-(Cigarettes and Chocolate Milk Lyrics.txt_6-27)-[primary-unknow]
+14-(Cigarettes and Chocolate Milk Lyrics.txt_6-28)-[primary-hard]
+half
+15-(Cigarettes and Chocolate Milk Lyrics.txt_7-33)-[]
+16-(Cigarettes and Chocolate Milk Lyrics.txt_8-41)-[primary-passivity]
+17-(Cigarettes and Chocolate Milk Lyrics.txt_8-42)-[secondary-abstract_tought,secondary-instru_behavior]
+18-(Cigarettes and Chocolate Milk Lyrics.txt_8-43)-[]
+19-(Cigarettes and Chocolate Milk Lyrics.txt_9-52)-[primary-concreteness,primary-counscious,primary-narcissism,emotions-aggression,primary-concreteness,primary-narcissism]
+20-(Cigarettes and Chocolate Milk Lyrics.txt_10-68)-[]
+21-(Cigarettes and Chocolate Milk Lyrics.txt_10-69)-[secondary-temporal_repere]
+22-(Cigarettes and Chocolate Milk Lyrics.txt_11-80)-[secondary-temporal_repere,emotions-sadness,emotions-expressive_beh]
+23-(Cigarettes and Chocolate Milk Lyrics.txt_11-81)-[secondary-temporal_repere,primary-concreteness,secondary-social_behavior,secondary-instru_behavior]
+24-(Cigarettes and Chocolate Milk Lyrics.txt_12-97)-[primary-concreteness]
+25-(Cigarettes and Chocolate Milk Lyrics.txt_12-98)-[emotions-affection,primary-depth]
+26-(Cigarettes and Chocolate Milk Lyrics.txt_12-99)-[primary-height]
+27-(Cigarettes and Chocolate Milk Lyrics.txt_13-110)-[secondary-temporal_repere,primary-vision]
+28-(Cigarettes and Chocolate Milk Lyrics.txt_13-111)-[secondary-social_behavior,emotions-affection]
+29-(Cigarettes and Chocolate Milk Lyrics.txt_13-111)-[secondary-social_behavior,emotions-affection,primary-orality,primary-anality,primary-orality]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Cigarettes and Chocolate Milk Lyrics.txt_1,1,cl1-nil-nil-milk-[arg_mod-agent-Wainwright-sn5,obj-source-Lyrics-sn4,coord-agent-cigarette_and_chocolate-sn3,subj-agent-chocolate-sn2,subj-agent-cigarette-sn1,and(Wainwright,Rufus,sn5),def_prop(Wainwright,[place,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(cigarette_and_chocolate,[oggetto,strumento,astratto,edible,oggetto]),def_prop(chocolate,[oggetto,strumento,astratto,edible,oggetto]),def_prop(cigarette,[oggetto,strumento,astratto,edible,oggetto])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-you-sn11,adj-(mod)-just-nil,xcomp-prop-couple-sn3,subj-theme_bound-this-sn2,subj-theme_bound-this-sn1,and(this,milk,sn1),and(this,cigarette,sn1),def_prop(you,[umano]),def_prop(couple,[nquant,oggetto]),def_prop(this,[oggetto,umano]),def_prop(this,[oggetto,umano])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_3,6,cl4-nil-nil-be-[xcomp-theme-me-sn10,xcomp-prop-harmful-sn9,xcomp-theme-bite-sn8,xcomp-prop-thicker-sn7,xcomp-theme-bite-sn6,xcomp-prop-stronger-sn5,xcomp-theme-bite-sn4,xcomp-prop-like-s-sn3,subj-theme_bound-i-sn2,and(bite,little,sn8),and(bite,little,sn6),and(bite,little,sn4),def_prop(me,[umano]),def_prop(harmful,[evaluative]),def_prop(bite,[attivita,edible,evento,oggetto,stato]),def_prop(thicker,[legale]),def_prop(bite,[attivita,edible,evento,oggetto,stato]),def_prop(stronger,[evaluative]),def_prop(bite,[attivita,edible,evento,oggetto,stato]),def_prop(like-s,[istituzione]),def_prop(i,[umano])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_3,6,cl3-nil-nil-seem-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_4,11,cl7-nil-nil-be-[subj-theme_bound-you-sn6,def_prop(you,[umano])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_4,11,cl6-nil-have_to-eat-[obj-theme_aff-one-sn5,obj-theme_aff-all-sn4,obj-theme_unaff-them-sn3,subj-agent-jellybean-sn2,def_prop(one,[umano]),def_prop(all,[_573942]),def_prop(them,[umano]),def_prop(jellybean,[istituzione])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_4,11,cl5-nil-should-buy-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_5,18,cl9-nil-nil-be-[subj-theme_bound-i-sn2,def_prop(i,[umano])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_5,18,cl8-nil-nil-seem-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_6,25,cl11-not-will-mention-[obj-theme_unaff-everything-sn6,subj-actor-thing-sn5,subj-actor-thing-sn4,and(thing,which,sn5),and(thing,which,sn4),def_prop(everything,[astratto,informa,oggetto]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_6,25,cl10-nil-nil-be-[xcomp-prop-harder-sn18,subj-theme_bound-bite-sn17,xcomp-prop-stranger-sn16,xcomp-prop-bite-sn15,subj-theme_bound-about-em-sn14,xcomp-prop-other-sn2,subj-theme_bound-there-sn1,and(bite,little,sn17),and(bite,little,sn15),and(other,those,sn2),def_prop(harder,[evaluative]),def_prop(bite,[attivita,edible,evento,oggetto,stato]),def_prop(stranger,[umano]),def_prop(bite,[attivita,edible,evento,oggetto,stato]),def_prop(about-em,[nquant]),def_prop(other,[umano]),def_prop(there,[any])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_7,33,cl12-nil-nil-bite-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_8,41,cl15-nil-nil-make-[xadj-adj-sitting-adj2,xadj-adj-brokenhearted-adj1,def_prop(sitting,_575052),def_prop(brokenhearted,_575064)])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_8,41,cl14-nil-nil-tend-[adj-(mod)-part-nil,obj-agent-one-sn3,xcomp-purpose-make-cl15,subj-actor-smart-sn2,def_prop(one,[umano]),def_prop(smart,[stato])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_8,41,cl13-not-nil-be-[subj-theme_bound-pro-nil,subj-theme_bound-it-sn1,def_prop(it,[any])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_9,52,cl22-nil-nil-take-[xcomp-purpose-play-7,ncmod-comitativo-boy-sn9,ncmod-subj_disc-place-sn8,and(boy,scrappy,sn9),def_prop(boy,[oggetto,strumento]),def_prop(place,[astratto,attivita,informa,luogo,stato])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_9,52,cl21-nil-nil-play-[iobj-goal-son-sn11,and(son,prodigal,sn11),def_prop(son,[umano])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_9,52,cl20-nil-nil-have-[])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_9,52,cl19-nil-nil-face-[])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_9,52,cl18-nil-nil-accuse-[])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_9,52,cl17-nil-nil-go-[cmod-subord-take-for,subj-agent-you-sn14,def_prop(you,[umano])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_9,52,cl16-nil-nil-remember-[obj-theme_aff-run-sn10,obj-theme_aff-me-sn7,obj-theme-head-sn6,obj-theme-made-sn5,adj-subj_disc-always-sn4,obj-theme_unaff-me-sn3,adj-subj_disc-here-sn2,subj-experiencer-shoe-sn1,and(run,general,sn10),def_prop(run,[astratto,attivita,evento,nquant,stato,tempo]),def_prop(me,[umano]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(made,[informa,tecno]),def_prop(always,[istituzione]),def_prop(me,[umano]),def_prop(here,[istituzione]),def_prop(shoe,[oggetto,strumento])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_10,68,cl24-nil-nil-be-[xadj-adj-running-adj3,ncmod-locativo-you-sn9,xcomp-prop-Andy-sn3,xcomp-purpose-be-2,and(you,empty,sn9),and(Andy,Raggedy,sn3),def_prop(running,_576400),def_prop(you,[umano]),def_prop(Andy,[umano])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_10,68,cl23-not-can-expect-[obj-theme_unaff-world-sn2,subj-experiencer-lot-sn1,and(lot,valium,sn1),and(lot,sentimental,sn1),def_prop(world,[astratto,istituzione,oggetto]),def_prop(lot,[luogo,nquant])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_11,80,cl30-nil-nil-hope-[subj-agent-pro-nil,subj-agent-High-sn17,def_prop(High,[place,umano])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_11,80,cl29-nil-nil-suggest-[])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_11,80,cl28-nil-nil-face-[cmod-subord-retain-while,xcomp-prop-forward-sn20,xcomp-purpose-face-8,def_prop(forward,[attivita,umano])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_11,80,cl27-nil-nil-retain-[adj-(mod)-still-nil,obj-theme-Kansas-sn9,xcomp-prop-read-sn8,obj-theme-mystique-sn7,subj-agent-i-sn6,subj-agent-i-sn5,and(Kansas,Adios,sn9),and(i,you,sn5),def_prop(Kansas,[place,luogo,oggetto]),def_prop(read,[attivita,informa,oggetto,strumento]),def_prop(mystique,[astratto]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_11,80,cl26-nil-nil-keep-[])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_11,80,cl25-nil-nil-get-[iobj-goal-game-sn4,xcomp-prop-keep-cl26,subj-sn1-you-sn3,ncmod-modale-frown-sn2,subj-agent-doll-sn1,and(doll,little,sn1),and(doll,old,sn1),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(you,[umano]),def_prop(frown,[attivita,informa]),def_prop(doll,[oggetto,strumento])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_12,97,cl31-not-nil-be-[ncmod-specif-Pisa-sn15,subj-theme_bound-you-sn14,adj-(mod)-just-nil,xcomp-prop-Irish-sn8,subj-theme_bound-hole-sn7,subj-theme_bound-hole-sn6,xcomp-prop-show-sn2,subj-theme_bound-there-sn1,neg-not-nil,and(Irish,little,sn8),and(Irish,bite,sn8),and(hole,intervention,sn6),and(hole,friendly,sn6),def_prop(Pisa,[place,luogo]),def_prop(you,[umano]),def_prop(Irish,[attivita,edible,informa,oggetto,umano]),def_prop(hole,[astratto,oggetto,stato,strumento]),def_prop(hole,[astratto,oggetto,stato,strumento]),def_prop(show,[attivita,informa]),def_prop(there,[any])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_13,110,cl33-nil-nil-be-[cmod-subord-be-so,cmod-subord-be-if,xcomp-prop-milk-sn17,coord-prop-cigarette_and_cigarette_and_chocolate-sn15,coord-prop-cigarette_and_chocolate-sn16,xcomp-prop-chocolate-sn14,xcomp-prop-cigarette-sn13,xcomp-prop-cigarette-sn12,subj-theme_bound-i-sn11,xcomp-prop-kind-sn10,adj-subj_disc-please-sn9,subj-theme_bound-kind-sn8,xcomp-prop-kind-sn7,adj-subj_disc-please-sn6,subj-theme_bound-ya-sn5,and(milk,cigarette_and_cigarette_and_chocolate-sn26,sn17),and(milk,and([cigarette,chocolate])-[sn13,sn14],sn17),and(milk,cigarette-sn12,sn17),and(milk,cigarette_and_cigarette_and_chocolate-sn25,sn17),and(chocolate,cigarette_and_cigarette_and_chocolate-sn27,sn14),and(chocolate,and([cigarette,chocolate])-[sn13,sn14],sn14),and(chocolate,cigarette-sn12,sn14),and(chocolate,cigarette_and_cigarette_and_chocolate-sn24,sn14),def_prop(milk,[body_part,edible,oggetto,umano]),def_prop(cigarette_and_cigarette_and_chocolate,[oggetto,strumento,oggetto,strumento,astratto,edible,oggetto]),def_prop(cigarette_and_chocolate,[oggetto,strumento,oggetto,strumento,astratto,edible,oggetto]),def_prop(chocolate,[oggetto,strumento,oggetto,strumento,astratto,edible,oggetto]),def_prop(cigarette,[oggetto,strumento,oggetto,strumento,astratto,edible,oggetto]),def_prop(cigarette,[oggetto,strumento,oggetto,strumento,astratto,edible,oggetto]),def_prop(i,[umano]),def_prop(kind,[valutativo]),def_prop(please,[istituzione]),def_prop(kind,[astratto]),def_prop(kind,[valutativo]),def_prop(please,[istituzione]),def_prop(ya,[legale])])
+lf(Cigarettes and Chocolate Milk Lyrics.txt_13,110,cl32-nil-nil-see-[obj-actor-ya-sn2,subj-experiencer-i-sn1,def_prop(ya,[legale]),def_prop(i,[umano])])

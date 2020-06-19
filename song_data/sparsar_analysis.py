@@ -109,7 +109,7 @@ def run_sparsar_for_failed(prefix, filename):
     print('Failed analyzing', fails, 'files.')
 
 
-def run_sparsar_for_files(filename, prefix, start_idx=0,
+def run_sparsar_for_files(filename, prefix, start_idx=0, end_idx=1000*1000,
                           failed_file=failed):
     failed_idxs = []
     with open(filename) as input:
@@ -120,7 +120,7 @@ def run_sparsar_for_files(filename, prefix, start_idx=0,
     try:
         for i in range(len(data)):
             # Start analysis at given position.
-            if i < start_idx:
+            if i < start_idx or i > end_idx:
                 continue
             song = data[i]
             result = sparsar_process_song(song, prefix)
@@ -264,28 +264,20 @@ def main():
         filename = 'data/' + \
                    prefix + 'ENlyrics_cleaned.json'
         # run_sparsar_for_failed(prefix, filename)
-        # replace_prohibited_characters(filename)
+        replace_prohibited_characters(filename)
         # Generate SPARSAR output files.
-        # run_sparsar_for_files(filename, prefix, 6422)
+        run_sparsar_for_files(filename, prefix, start_idx=6400, end_idx=6600)  # Analyzed up to index 6421.
     # Extract useful information from SPARSAR output files to .csv file.
-    path = 'sparsar_experiments/outs/'
-    total = 0
-    for item in os.listdir(path):
-        if isfile(join(path, item)) and item.endswith('_phon.xml'):
-            print('Extracting to csv...', item)
-            result = extract_rhymes_to_csv(item[:-9])
-            if result == 0:
-                total += 1
-    print('Generated', total, '.csv files.')
+    # path = 'sparsar_experiments/outs/'
+    # total = 0
+    # for item in os.listdir(path):
+    #     if isfile(join(path, item)) and item.endswith('_phon.xml'):
+    #         print('Extracting to csv...', item)
+    #         result = extract_rhymes_to_csv(item[:-9])
+    #         if result == 0:
+    #             total += 1
+    # print('Generated', total, '.csv files.')
 
-    # with open('data/ENlyrics_cleaned.json') as input:
-    #     os.chdir("./sparsar_experiments")
-    #     data = json.load(input)
-    #     for song in data:
-    #         if song['title'] == '24 Hours Lyrics':
-    #             create_sparsar_input_file_from_song(song, '24 Hours '
-    #                                                       'Lyrics.txt')
-    #
 
 if __name__ == '__main__':
     main()

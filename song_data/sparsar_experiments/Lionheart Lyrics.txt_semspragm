@@ -1,0 +1,69 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Lionheart Lyrics.txt_1-1  []-positive  []
+Lionheart Lyrics.txt_2-3  [but-advers]-positive  [bkc,fgb,neg,bkc]
+Lionheart Lyrics.txt_3-9  []-positive  [bkc]
+Lionheart Lyrics.txt_4-13  []-positive  []
+Lionheart Lyrics.txt_4-14  []-positive  []
+Lionheart Lyrics.txt_4-15  [if-hypoth]-positive  [fgb]
+Lionheart Lyrics.txt_4-15  [if-hypoth]-positive  [fgb,bkc]
+Lionheart Lyrics.txt_5-22  []-positive  [bkc]
+Lionheart Lyrics.txt_6-28  []-positive  [fgb,neg]
+Lionheart Lyrics.txt_7-36  [but-advers]-negative  [fgb]
+Lionheart Lyrics.txt_8-46  []-positive  [bkc,bkc]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Lionheart Lyrics.txt_1-1  [lionheart,Lyrics,by,pup]  [title]
+Lionheart Lyrics.txt_2-3  [Lionheart,where,,,have,you,gone,oh-oh,oh,Oh-oh,oh-oh,Oh-oh,all,that,you,said,but,you,always,lie,aye-aye,Aye-aye,oh-oh,Oh-oh,oh,Lionheart]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(where,[internal,factive,narration,background,objective]),propose_opin_neg(lie,[external,factive,explanation,background,objective])]
+Lionheart Lyrics.txt_3-9  [Lionblood,oh,flowin-]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lionheart Lyrics.txt_4-13  [oh-oh,Oh-oh,Ay-ay,ay-ay,you,through,my,veins,said]  [provide_expl_just(promise,[external,factive,narration,foreground,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Lionheart Lyrics.txt_4-14  [you,had,try]  [provide_expl_just(promise,[external,factive,narration,foreground,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Lionheart Lyrics.txt_4-15  [if,i,promised,to,do,the,same,ay-ay,Ay-ay]  [provide_expl_just(promise,[external,factive,narration,foreground,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Lionheart Lyrics.txt_4-15  [if,i,promised,to,do,the,same,ay-ay,Ay-ay,oh-oh,Oh-oh,oh,Lionheart]  [provide_expl_just(promise,[external,factive,narration,foreground,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Lionheart Lyrics.txt_5-22  [oh,Lionheart]  [accept_expl_opin(be,[_363400,_363406,setting,_363418,_363424])]
+Lionheart Lyrics.txt_6-28  [,,good,luck,and,good,times,let-s,get,fucked,let-s,get,high,good]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(fuck,[external,factive,narration,foreground,objective])]
+Lionheart Lyrics.txt_7-36  [luck,but,,,don-t,smile,cuz,i,know,you,got,a,Lion]  [provide_expl_just(smile,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,adverse,foreground,objective])]
+Lionheart Lyrics.txt_8-46  [oh,Lionheart,Lionheart,oh]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Lionheart Lyrics.txt_1-1)-[]
+2-(Lionheart Lyrics.txt_2-3)-[primary-concreteness,secondary-social_behavior,primary-passivity]
+3-(Lionheart Lyrics.txt_3-9)-[]
+4-(Lionheart Lyrics.txt_4-13)-[primary-narcissism,secondary-social_behavior]
+5-(Lionheart Lyrics.txt_4-14)-[secondary-instru_behavior]
+half
+6-(Lionheart Lyrics.txt_4-15)-[secondary-social_behavior]
+7-(Lionheart Lyrics.txt_4-15)-[secondary-social_behavior]
+8-(Lionheart Lyrics.txt_5-22)-[]
+9-(Lionheart Lyrics.txt_6-28)-[secondary-temporal_repere,primary-sex,primary-height]
+10-(Lionheart Lyrics.txt_7-36)-[emotions-positive_affect,secondary-abstract_tought]
+11-(Lionheart Lyrics.txt_8-46)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Lionheart Lyrics.txt_1,1,nil-nil-nil-pup-[ncmod-modal-lionheart-sn2,subj-actor-you-sn1,def_prop(lionheart,[istituzione]),def_prop(you,[umano])])
+lf(Lionheart Lyrics.txt_2,3,cl4-nil-nil-lie-[cmod-subord-lie-but,adj-(mod)-always-nil,obj-prop-aye-aye-sn20,obj-theme-aye-sn19,subj-actor-you-sn18,def_prop(aye-aye,[animato]),def_prop(aye,[istituzione]),def_prop(you,[umano])])
+lf(Lionheart Lyrics.txt_2,3,cl3-nil-nil-say-[subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Lionheart Lyrics.txt_2,3,cl2-nil-nil-go-[])
+lf(Lionheart Lyrics.txt_2,3,cl1-nil-nil-have-[subj-experiencer-Lionheart-sn13,def_prop(Lionheart,_366100)])
+lf(Lionheart Lyrics.txt_3,9,cl5-nil-nil-be-[ncmod-modal-oh-sn2,subj-theme_bound-you-sn1,def_prop(oh,[informa,tecno]),def_prop(you,[umano])])
+lf(Lionheart Lyrics.txt_4,13,cl9-nil-nil-do-[cmod-subord-do-if,xcomp-actor-ay-ay-sn21,xcomp-purpose-do-3,and(ay-ay,same,sn21),def_prop(ay-ay,[istituzione,umano])])
+lf(Lionheart Lyrics.txt_4,13,cl8-nil-nil-promise-[subj-causer-i-sn20,obj-actor-ay-ay-sn12,xcomp-purpose-do-2,subj-causer-i-sn11,and(ay-ay,same,sn12),def_prop(i,[umano]),def_prop(ay-ay,[istituzione,umano]),def_prop(i,[umano])])
+lf(Lionheart Lyrics.txt_4,13,cl7-nil-nil-try-[subj-actor-you-sn10,aux-had-nil,def_prop(you,[umano])])
+lf(Lionheart Lyrics.txt_4,13,cl6-nil-nil-say-[ncmod-location-vein-sn2,subj-actor-ay-ay-sn1,and(ay-ay,you,sn1),def_prop(vein,[animato,attivita,body_part,informa,oggetto,plant,umano]),def_prop(ay-ay,[istituzione,umano])])
+lf(Lionheart Lyrics.txt_5,22,cl10-nil-nil-say-[obj-theme_unaff-Lionheart-sn1,and(Lionheart,oh,sn1),def_prop(Lionheart,[istituzione])])
+lf(Lionheart Lyrics.txt_6,28,cl12-nil-nil-get-[obj-theme-good-sn6,obj-theme-let-s-sn5,xcomp-purpose-fuck-2,obj-theme_unaff-get-sn4,coord-agent-luck_and_let-s-sn3,subj-agent-let-s-sn2,subj-agent-luck-sn1,and(good,high,sn6),and(good,luck_and_let-s-sn9,sn6),and(good,let-s-sn2,sn6),and(good,luck-sn1,sn6),and(good,luck_and_let-s-sn7,sn6),def_prop(good,[astratto]),def_prop(let-s,[attivita]),def_prop(get,[informa,tecno]),def_prop(luck_and_let-s,[attivita,cambia,attivita]),def_prop(let-s,[attivita,cambia,attivita]),def_prop(luck,[attivita,cambia,attivita])])
+lf(Lionheart Lyrics.txt_6,28,cl11-nil-nil-fuck-[])
+lf(Lionheart Lyrics.txt_7,36,cl15-nil-nil-get-[])
+lf(Lionheart Lyrics.txt_7,36,cl14-nil-nil-know-[subj-actor-i-sn5,subj-actor-i-sn4,subj-actor-i-sn2,subj-actor-i-sn1,and(i,luck,sn4),and(i,luck,sn1),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Lionheart Lyrics.txt_7,36,cl13-not-nil-smile-[cmod-subord-get-but,obj-theme-cuz-sn8,subj-actor-you-sn7,aux-do-nil,def_prop(cuz,[istituzione]),def_prop(you,[umano])])
+lf(Lionheart Lyrics.txt_8,46,cl16-nil-nil-be-[ncmod-modal-Lionheart-sn2,subj-theme_bound-you-sn1,and(Lionheart,Lionheart,sn2),def_prop(Lionheart,[istituzione]),def_prop(you,[umano])])
+lf(Lionheart Lyrics.txt_9,55,cl17-nil-nil-be-[])

@@ -1,0 +1,133 @@
+"POLARITY, DISCOURSE MARKERS"
+
+11.txt_1-1  []-positive  []
+11.txt_2-3  []-positive  []
+11.txt_3-6  []-negative  [neg,neg]
+11.txt_3-7  []-negative  [fgb,neg,neg]
+11.txt_3-8  [but-advers]-positive  [fgb]
+11.txt_4-11  []-positive  []
+11.txt_4-12  []-positive  []
+11.txt_5-17  []-positive  []
+11.txt_6-23  []-positive  []
+11.txt_6-24  []-suspension  [fgb,neg,neg]
+11.txt_6-24  [but-advers]-suspension  [fgb,neg,neg,fgb]
+11.txt_7-31  []-positive  []
+11.txt_7-32  []-negative  [fgb,neg]
+11.txt_8-39  []-positive  []
+11.txt_9-48  [else-advers]-question  [fgb]
+11.txt_9-49  [else-advers]-positive  [fgb]
+11.txt_10-59  []-positive  [fgb]
+11.txt_11-72  []-positive  []
+11.txt_11-73  []-positive  [fgb]
+11.txt_12-85  []-positive  [fgb,bkc]
+11.txt_12-86  []-positive  []
+11.txt_13-98  []-positive  []
+11.txt_14-112  []-positive  []
+11.txt_15-127  []-negative  [neg]
+11.txt_15-128  [so-result]-positive  [fgb]
+11.txt_15-129  [before-temp_prec]-positive  [fgb]
+11.txt_16-147  []-positive  [bkc,bkc]
+11.txt_16-148  []-positive  []
+11.txt_17-165  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+11.txt_1-1  [11,by,Rufus,Wainwright]  [title]
+11.txt_2-3  [woke,up,this,mornin,at,11]  [provide_expl_just(wake,[external,factive,cause,foreground,objective])]
+11.txt_3-6  [11,was,not,not,in,Portland]  [reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+11.txt_3-7  [and,i,was,not,not,in,heaven]  [reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+11.txt_3-8  [could,-,have,been,either,by_the_way,i,was,feelin-,but]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+11.txt_4-11  [i,was,alive]  [provide_expl_just(wake,[external,factive,cause,foreground,objective])]
+11.txt_4-12  [i,was,alive,woke,up]  [provide_expl_just(wake,[external,factive,cause,foreground,objective])]
+11.txt_5-17  [this,mornin,at,11]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+11.txt_6-23  [11,John,was,half-naked]  [provide_expl_just(be,[external,factive,circumstance,foreground,objective])]
+11.txt_6-24  [and,Lulu,was,cryin-,over,a,baby,that,will,never,go,crazy]  [propose_opin_neg(be,[external,factive,circumstance,foreground,objective])]
+11.txt_6-24  [and,Lulu,was,cryin-,over,a,baby,that,will,never,go,crazy,but]  [propose_opin_neg(be,[external,factive,circumstance,foreground,objective])]
+11.txt_7-31  [i,was,alive]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+11.txt_7-32  [and,kickin,through,this,cruel,world,holdin-,,,a,notion,of,you,at,11]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+11.txt_8-39  [11,tell,me]  [provide_expl_just(tell,[external,factive,narration,background,objective])]
+11.txt_9-48  [can,else,what,?]  [provide_expl_just(can,[internal,nonfactive,narration,background,objective]),provide_expl_just(do,[internal,factive,narration,background,objective])]
+11.txt_9-49  [i,do,what,else]  [provide_expl_just(can,[internal,nonfactive,narration,background,objective]),provide_expl_just(do,[internal,factive,narration,background,objective])]
+11.txt_10-59  [can,i,do,woke,up,this,mornin,and,somethin,was,burnin-,realized]  [provide_expl_just(wake,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective])]
+11.txt_11-72  [that,everythin,really,does,happen,in,Manhattan]  [provide_expl_just(happen,[external,factive,narration,foreground,objective]),provide_expl_just(Manhattan,[internal,factive,narration,background,objective])]
+11.txt_11-73  [thoughts,were,of,characters,and,afternoons]  [provide_expl_just(happen,[external,factive,narration,foreground,objective]),provide_expl_just(Manhattan,[internal,factive,narration,background,objective])]
+11.txt_12-85  [Lyin-,and,you,were,alive,oh]  [accept_expl_opin(be,[_881614,_881620,setting,_881632,_881638])]
+11.txt_12-86  [you]  [raise_issue(be,[_881942,factive,statement,_881960,subjective])]
+11.txt_13-98  [the,hours,we,are,separate,11]  [provide_expl_just(separate,[external,factive,narration,background,objective])]
+11.txt_14-112  [11,just,precious,time,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+11.txt_15-127  [we,have,wasted]  [reject_expl_just(waste,[external,factive,narration,background,objective]),reject_expl_just(patch,[external,factive,narration,background,objective]),reject_expl_just(put,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+11.txt_15-128  [so,patch,up,your,bleedin]  [provide_expl_just(waste,[external,factive,narration,background,objective]),provide_expl_just(patch,[external,factive,narration,background,objective]),provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+11.txt_15-129  [hearts,and,,,put,away,your,posies,i,am,Gon,na,have,a,drink,before]  [provide_expl_just(waste,[external,factive,narration,background,objective]),provide_expl_just(patch,[external,factive,narration,background,objective]),provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+11.txt_16-147  [we,ring,the,rosies,with,you,around,oh,the,hours,we,are,separate,oh,the,hours]  [provide_expl_just(separate,[external,factive,narration,foreground,objective]),provide_expl_just(ring,[external,factive,narration,background,objective])]
+11.txt_16-148  [we,are,separate,11]  [provide_expl_just(separate,[external,factive,narration,foreground,objective]),provide_expl_just(ring,[external,factive,narration,background,objective])]
+11.txt_17-165  [11]  [raise_issue(be,[_888450,factive,statement,_888468,subjective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(11.txt_1-1)-[]
+2-(11.txt_2-3)-[primary-counscious,primary-concreteness]
+3-(11.txt_3-6)-[]
+4-(11.txt_3-7)-[primary-height]
+5-(11.txt_3-8)-[]
+6-(11.txt_4-11)-[]
+7-(11.txt_4-12)-[primary-counscious]
+8-(11.txt_5-17)-[primary-concreteness]
+9-(11.txt_6-23)-[]
+10-(11.txt_6-24)-[primary-concreteness,primary-counscious]
+11-(11.txt_6-24)-[primary-concreteness,primary-counscious]
+12-(11.txt_7-31)-[]
+13-(11.txt_7-32)-[emotions-aggression,emotions-aggression,primary-concreteness]
+14-(11.txt_8-39)-[secondary-social_behavior]
+half
+15-(11.txt_9-48)-[]
+16-(11.txt_9-49)-[]
+17-(11.txt_10-59)-[primary-counscious,secondary-abstract_tought]
+18-(11.txt_11-72)-[secondary-abstract_tought]
+19-(11.txt_11-73)-[secondary-abstract_tought]
+20-(11.txt_12-85)-[]
+21-(11.txt_12-86)-[]
+22-(11.txt_13-98)-[secondary-temporal_repere,primary-concreteness]
+23-(11.txt_14-112)-[secondary-temporal_repere]
+24-(11.txt_15-127)-[]
+25-(11.txt_15-128)-[emotions-affection]
+26-(11.txt_15-129)-[primary-narcissism,primary-concreteness,primary-orality]
+27-(11.txt_16-147)-[primary-sound,secondary-temporal_repere,primary-concreteness,secondary-temporal_repere]
+28-(11.txt_16-148)-[primary-concreteness]
+29-(11.txt_17-165)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(11.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wainwright-sn2,subj-theme_bound-11-sn1,and(Wainwright,Rufus,sn2),def_prop(Wainwright,[place,umano]),def_prop(11,[nquant])])
+lf(11.txt_2,3,cl2-nil-nil-wake-[adj-locative-up-nil,adj-subj_disc-up-sn4,ncmod-modale-11-sn3,obj-theme_aff-mornin-sn2,subj-actor-you-sn1,and(mornin,this,sn2),def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(11,[nquant]),def_prop(mornin,[istituzione]),def_prop(you,[umano])])
+lf(11.txt_3,6,cl3-not-could-be-[adj-(mod)-by_the_way-nil,xcomp-prop-[]-sn8,xcomp-purpose-be-3,subj-sn6-i-sn7,xcomp-prop-either-sn6,subj-theme_bound-you-sn5,cmod-subord-be-",ncmod-modal-heaven-sn4,subj-theme_bound-i-sn3,ncmod-locativo-Portland-sn2,subj-theme_bound-11-sn1,def_prop([],nil),def_prop(i,[umano]),def_prop(either,[istituzione]),def_prop(you,[umano]),def_prop(heaven,[luogo]),def_prop(i,[umano]),def_prop(Portland,[place,luogo]),def_prop(11,[nquant])])
+lf(11.txt_4,11,cl5-nil-nil-wake-[subj-actor-pro-nil,subj-actor-alive-sn4,def_prop(alive,[valutativo])])
+lf(11.txt_4,11,cl4-nil-nil-be-[subj-theme_bound-i-sn3,xcomp-prop-alive-sn2,subj-theme_bound-i-sn1,def_prop(i,[umano]),def_prop(alive,[valutativo]),def_prop(i,[umano])])
+lf(11.txt_5,17,cl6-nil-nil-be-[ncmod-modale-11-sn2,subj-theme_bound-mornin-sn1,and(mornin,this,sn1),def_prop(11,[nquant]),def_prop(mornin,[istituzione])])
+lf(11.txt_6,23,cl8-nil-will-go-[cmod-coord-go-and,cmod-subord-be-nil,subj-agent-baby-sn11,neg-never-nil,cmod-subord-be-",subj-agent-baby-sn6,def_prop(baby,[animato,any,attivita,plant]),def_prop(baby,[animato,any,attivita,plant])])
+lf(11.txt_6,23,cl7-nil-nil-be-[adj-(mod)-over-nil,xcomp-prop-baby-sn11,xcomp-prop-cryin- - sn10,subj-theme_bound-Lulu-sn9,xcomp-prop-baby-sn6,xcomp-prop-cryin- - sn5,subj-theme_bound-Lulu-sn4,xcomp-prop-half-naked-sn2,subj-theme_bound-John-sn1,and(John,11,sn1),def_prop(baby,[animato,any,attivita,plant]),def_prop(cryin-,[istituzione,umano]),def_prop(Lulu,[place,umano]),def_prop(baby,[animato,any,attivita,plant]),def_prop(cryin-,[istituzione,umano]),def_prop(Lulu,[place,umano]),def_prop(half-naked,[tempo]),def_prop(John,[place,umano])])
+lf(11.txt_7,31,cl9-nil-nil-be-[cmod-subord-be-",ncmod-modale-11-sn6,xcomp-theme-notion-sn5,ncmod-prop-[]-sn4,subj-theme_bound-kickin-sn3,xcomp-prop-alive-sn2,subj-theme_bound-i-sn1,def_prop(11,[nquant]),def_prop(notion,[astratto,oggetto,strumento]),def_prop([],nil),def_prop(kickin,[istituzione]),def_prop(alive,[valutativo]),def_prop(i,[umano])])
+lf(11.txt_8,39,cl10-nil-nil-tell-[obj-theme_unaff-me-sn2,subj-agent-11-sn1,def_prop(me,[umano]),def_prop(11,[nquant])])
+lf(11.txt_9,48,cl12-nil-nil-do-[subj-theme_unaff-i-sn3,aux-do-nil,and(i,else,sn3),def_prop(i,[umano])])
+lf(11.txt_9,48,cl11-nil-can-can-[obj-theme-what-sn2,subj-actor-else-sn1,def_prop(what,[oggetto]),def_prop(else,[evaluative])])
+lf(11.txt_10,59,cl15-nil-nil-be-[cmod-coord-be-and,xcomp-prop-realized-sn7,xcomp-prop-[]-sn6,subj-theme_bound-somethin-sn5,xcomp-theme_aff-up-sn2,xcomp-purpose-wake-3,def_prop(realized,[evaluative]),def_prop([],nil),def_prop(somethin,[istituzione]),def_prop(up,[istituzione])])
+lf(11.txt_10,59,cl14-nil-nil-wake-[])
+lf(11.txt_10,59,cl13-nil-can-can-[obj-theme_aff-mornin-sn3,subj-actor-i-sn1,and(mornin,this,sn3),def_prop(mornin,[istituzione]),def_prop(i,[umano])])
+lf(11.txt_11,72,cl17-nil-nil-be-[ncmod-specif-character_and_female-[sn6,sn7],subj-theme_bound-thought-sn5,ncmod-locativo-Manhattan-sn2,def_prop(character_and_female,[astratto,attivita,informa,stato,umano,tempo]),def_prop(thought,[astratto]),def_prop(Manhattan,[place,luogo])])
+lf(11.txt_11,72,cl16-nil-nil-happen-[adj-(mod)-really-nil,subj-theme_unaff-everythin-sn1,aux-does-nil,and(everythin,that,sn1),def_prop(everythin,[istituzione])])
+lf(11.txt_12,85,cl18-nil-nil-be-[subj-theme_bound-you-sn5,xcomp-prop-oh-sn4,coord-theme_bound-Lyin-_and_you-sn3,subj-theme_bound-you-sn2,subj-theme_bound-Lyin- - sn1,and(oh,alive,sn4),def_prop(you,[umano]),def_prop(oh,[informa,tecno]),def_prop(Lyin-_and_you,[istituzione,umano,umano]),def_prop(you,[istituzione,umano,umano]),def_prop(Lyin-,[istituzione,umano,umano])])
+lf(11.txt_13,98,cl19-nil-nil-separate-[xcomp-prop-11-sn2,subj-theme-we-sn1,aux-are-nil,def_prop(11,[nquant]),def_prop(we,[umano])])
+lf(11.txt_14,112,cl20-nil-nil-be-[subj-theme_bound-11-sn1,def_prop(11,[nquant])])
+lf(11.txt_15,127,cl25-nil-nil-have-[])
+lf(11.txt_15,127,cl24-nil-nil-be-[xcomp-prop-drink-sn10,subj-theme_bound-na-sn9,subj-theme_bound-posy-sn8,and(na,na,sn9),and(na,Gon,sn9),and(posy,heart,sn8),def_prop(drink,[attivita,edible,oggetto]),def_prop(na,[informa,tecno]),def_prop(posy,[oggetto,strumento])])
+lf(11.txt_15,127,cl23-nil-nil-put-[cmod-coord-patch-and,subj-agent-pro-nil])
+lf(11.txt_15,127,cl22-nil-nil-patch-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,obj-destination-bleedin-sn3,subj-agent-you-sn2,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(bleedin,[istituzione]),def_prop(you,[umano])])
+lf(11.txt_15,127,cl21-nil-nil-waste-[subj-agent-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(11.txt_16,147,cl27-nil-nil-separate-[obj-theme_aff-11-sn20,subj-theme-we-sn19,adj-temporal-hours-nil,adj-(mod)-around-nil,obj-theme-rosies-sn2,xcomp-purpose-ring-2,subj-theme-we-sn1,aux-are-nil,def_prop(11,[nquant]),def_prop(we,[umano]),def_prop(hours,[tempo]),def_prop(rosies,[istituzione]),def_prop(we,[umano])])
+lf(11.txt_16,147,cl26-nil-nil-ring-[iobj-goal-you-sn3,def_prop(you,[umano])])
+lf(11.txt_17,165,cl28-nil-nil-say-[obj-theme_unaff-11-sn1,def_prop(11,[nquant])])
