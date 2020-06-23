@@ -1,0 +1,80 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Steel Light Lyrics.txt_1-1  []-positive  []
+Steel Light Lyrics.txt_2-3  []-suspension  [neg,fgb,neg,neg]
+Steel Light Lyrics.txt_2-4  []-positive  []
+Steel Light Lyrics.txt_2-5  []-positive  [fgb]
+Steel Light Lyrics.txt_3-8  [but-advers]-negative  [neg,fgb]
+Steel Light Lyrics.txt_4-15  []-suspension  [neg,neg]
+Steel Light Lyrics.txt_5-20  []-suspension  [neg]
+Steel Light Lyrics.txt_6-27  []-positive  [neg,fgb]
+Steel Light Lyrics.txt_7-35  []-suspension  [neg,neg]
+Steel Light Lyrics.txt_7-36  []-suspension  [neg,neg,neg]
+Steel Light Lyrics.txt_8-45  []-positive  []
+Steel Light Lyrics.txt_8-46  []-suspension  [fgb]
+Steel Light Lyrics.txt_8-47  []-positive  []
+Steel Light Lyrics.txt_9-56  []-positive  [neg,neg,neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Steel Light Lyrics.txt_1-1  [steel,Light,Lyrics,by,Q5]  [title]
+Steel Light Lyrics.txt_2-3  [fallen,angels,and,fallen,dreams,pay,the,price,of,mystery]  [propose_opin_neg(pay,[external,factive,explanation,background,objective]),provide_expl_just(live,[external,factive,narration,foreground,objective])]
+Steel Light Lyrics.txt_2-4  [the,gods,declared]  [provide_expl_just(pay,[external,factive,explanation,background,objective]),provide_expl_just(live,[external,factive,narration,foreground,objective])]
+Steel Light Lyrics.txt_2-5  [that,man,lived,by_night,and]  [provide_expl_just(pay,[external,factive,explanation,background,objective]),provide_expl_just(live,[external,factive,narration,foreground,objective])]
+Steel Light Lyrics.txt_3-8  [never,shall,they,see,the,light,but,in,the,heart,of,one,deemed,pure,came]  [reject_expl_just(shall,[external,nonfactive,narration,background,objective]),reject_expl_just(see,[external,factive,narration,background,objective]),reject_expl_just(come,[external,factive,adverse,foreground,objective]),provide_expl_just(come,[external,factive,adverse,foreground,objective])]
+Steel Light Lyrics.txt_4-15  [the,challenge,of,the,fight,to,return]  [provide_expl_just(return,[external,factive,narration,background,objective])]
+Steel Light Lyrics.txt_5-20  [the,days,of,gold,he,must,try,to,steal,the,the,light,light,steel,steel]  [propose_opin(try,[external,nonfactive,narration,foreground,objective]),provide_expl_just(try,[external,nonfactive,narration,foreground,objective])]
+Steel Light Lyrics.txt_6-27  [the,light,steel,,,the,light,turning,darkness,into,light,the,gods,have,hidden,well,the,golden,sun,inside]  [provide_expl_just(turn,[external,factive,cause,foreground,objective])]
+Steel Light Lyrics.txt_7-35  [the,lands,of,the,evil,one,he,walked,the,maze,of,the,endless,blight]  [provide_expl_just(walk,[external,factive,narration,foreground,objective]),provide_expl_just(pass,[external,factive,cause,foreground,objective])]
+Steel Light Lyrics.txt_7-36  [passed,empty,rooms,where,sirens,cried,close,at_hand,.,sirens,cried,close,at_hand]  [provide_expl_just(walk,[external,factive,narration,foreground,objective]),provide_expl_just(pass,[external,factive,cause,foreground,objective])]
+Steel Light Lyrics.txt_8-45  [our,hopes]  [provide_expl_just(hope,[external,factive,narration,background,objective]),provide_expl_just(dream,[external,factive,narration,background,objective]),provide_expl_just(steel,[external,nonfactive,narration,background,objective])]
+Steel Light Lyrics.txt_8-46  [and,dreams,that,this,day,would,steel,the,light,steel]  [provide_expl_just(hope,[external,factive,narration,background,objective]),provide_expl_just(dream,[external,factive,narration,background,objective]),provide_expl_just(steel,[external,nonfactive,narration,background,objective])]
+Steel Light Lyrics.txt_8-47  [the,light,steel]  [provide_expl_just(hope,[external,factive,narration,background,objective]),provide_expl_just(dream,[external,factive,narration,background,objective]),provide_expl_just(steel,[external,nonfactive,narration,background,objective])]
+Steel Light Lyrics.txt_9-56  [the,the,light,steel,light,turning,darkness,into,light,turning,darkness,into,light,take,,,the,darkness,from,our,lives,turn,the,darkness,into,light]  [provide_expl_just(turn,[external,factive,cause,foreground,objective]),suggest(turn,[external,factive,cause,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Steel Light Lyrics.txt_1-1)-[primary-hard]
+2-(Steel Light Lyrics.txt_2-3)-[primary-descent,primary-descent,primary-counscious,secondary-instru_behavior,secondary-instru_behavior]
+3-(Steel Light Lyrics.txt_2-4)-[secondary-social_behavior]
+4-(Steel Light Lyrics.txt_2-5)-[]
+5-(Steel Light Lyrics.txt_3-8)-[primary-vision,primary-vision,primary-narcissism,secondary-abstract_tought]
+6-(Steel Light Lyrics.txt_4-15)-[emotions-aggression]
+7-(Steel Light Lyrics.txt_5-20)-[emotions-glory,secondary-restraint,secondary-instru_behavior,emotions-aggression,primary-vision,primary-vision,primary-hard,primary-hard]
+half
+8-(Steel Light Lyrics.txt_6-27)-[primary-vision,primary-hard,primary-vision,primary-vision,emotions-glory,primary-fire,primary-concreteness]
+9-(Steel Light Lyrics.txt_7-35)-[primary-timelessness]
+10-(Steel Light Lyrics.txt_7-36)-[primary-concreteness,emotions-expressive_beh,primary-concreteness,emotions-expressive_beh,primary-concreteness]
+11-(Steel Light Lyrics.txt_8-45)-[]
+12-(Steel Light Lyrics.txt_8-46)-[primary-counscious,primary-hard,primary-vision,primary-hard]
+13-(Steel Light Lyrics.txt_8-47)-[primary-vision,primary-hard]
+14-(Steel Light Lyrics.txt_9-56)-[primary-vision,primary-hard,primary-vision,primary-vision,primary-vision,primary-vision]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Steel Light Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Q5-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Light,sn1),and(Lyrics,steel,sn1),def_prop(Q5,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Steel Light Lyrics.txt_2,3,cl4-nil-nil-live-[obj-prop-by_night-sn12,subj-actor-man-sn11,def_prop(by_night,[stato,tempo]),def_prop(man,[any])])
+lf(Steel Light Lyrics.txt_2,3,cl3-nil-nil-declare-[subj-actor-you-sn10,def_prop(you,[umano])])
+lf(Steel Light Lyrics.txt_2,3,cl2-nil-nil-pay-[obj-goal-price-sn4,coord-agent-angel_and_dream-sn3,subj-agent-dream-sn2,subj-agent-angel-sn1,def_prop(price,[astratto,attivita,informa,oggetto]),def_prop(angel_and_dream,[plant,umano,astratto,stato]),def_prop(dream,[plant,umano,astratto,stato]),def_prop(angel,[plant,umano,astratto,stato])])
+lf(Steel Light Lyrics.txt_3,8,cl8-nil-nil-come-[])
+lf(Steel Light Lyrics.txt_3,8,cl7-nil-nil-deem-[cmod-subord-come-but,adj-(mod)-pure-nil,ncmod-locativo-hear-sn5,subj-agent-you-sn4,def_prop(hear,[istituzione]),def_prop(you,[umano])])
+lf(Steel Light Lyrics.txt_3,8,cl6-nil-nil-see-[])
+lf(Steel Light Lyrics.txt_3,8,cl5-nil-shall-shall-[obj-prop-light-sn3,adj-subj_disc-never-sn2,subj-theme_unaff-they-sn1,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(never,[istituzione]),def_prop(they,[umano])])
+lf(Steel Light Lyrics.txt_4,15,cl9-nil-nil-return-[ncmod-specif-fight-sn2,subj-agent-you-sn1,def_prop(fight,[attivita,informa]),def_prop(you,[umano])])
+lf(Steel Light Lyrics.txt_5,20,cl11-nil-nil-steal-[obj-theme-steel-sn2,xcomp-purpose-steal-2,and(steel,light,sn2),def_prop(steel,[oggetto,sostanza,strumento])])
+lf(Steel Light Lyrics.txt_5,20,cl10-nil-must-try-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Steel Light Lyrics.txt_6,27,cl13-nil-nil-hide-[adj-(mod)-well-nil,obj-theme-sun-sn17,subj-sn2-god-sn16,obj-patient-darkness-sn15,subj-agent-light-sn2,subj-agent-light-sn1,aux-have-nil,and(sun,golden,sn17),and(light,steel,sn1),and(light,light,sn1),def_prop(sun,[oggetto,umano]),def_prop(god,[umano]),def_prop(darkness,[astratto,luogo]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(light,_413292)])
+lf(Steel Light Lyrics.txt_6,27,cl12-nil-nil-turn-[])
+lf(Steel Light Lyrics.txt_7,35,cl16-nil-nil-cry-[])
+lf(Steel Light Lyrics.txt_7,35,cl15-nil-nil-pass-[obj-theme-at_hand-sn12,xcomp-prop-close-sn11,obj-theme-siren-sn9,f2-sn6-where-sn8,obj-goal-room-sn7,subj-theme_unaff-you-sn6,and(room,empty,sn7),def_prop(at_hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(close,[soggettivo]),def_prop(siren,[animato,attivita,informa,oggetto,strumento]),def_prop(where,[luogo]),def_prop(room,[nquant,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Steel Light Lyrics.txt_7,35,cl14-nil-nil-walk-[obj-theme_aff-maze-sn2,subj-actor-land-sn1,def_prop(maze,[oggetto,strumento]),def_prop(land,[astratto,oggetto])])
+lf(Steel Light Lyrics.txt_8,45,cl19-nil-would-steel-[cmod-subord-steel-"])
+lf(Steel Light Lyrics.txt_8,45,cl18-nil-nil-dream-[adj-temporal-day-nil,adj-subj_disc-day-sn4,obj-theme-steel-sn3,subj-agent-you-sn2,and(day,this,sn6),and(day,this,sn4),and(day,this,sn4),and(steel,light,sn3),def_prop(day,[tempo]),def_prop(day,[tempo]),def_prop(steel,[oggetto,sostanza,strumento]),def_prop(you,[umano])])
+lf(Steel Light Lyrics.txt_8,45,cl17-nil-nil-hope-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Steel Light Lyrics.txt_9,56,cl20-nil-nil-turn-[ncmod-loc_direct-light-sn18,obj-theme-darkness-sn17,ncmod-loc_origin-life-sn16,obj-theme-darkness-sn15,ncmod-modal-take-sn14,obj-theme_aff-darkness-sn13,ncmod-loc_direct-light-sn9,obj-theme_aff-darkness-sn8,subj-agent-light-sn1,and(take,light,sn14),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(darkness,[astratto,luogo]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(darkness,[astratto,luogo]),def_prop(take,[attivita]),def_prop(darkness,[astratto,luogo]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(darkness,[astratto,luogo]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])

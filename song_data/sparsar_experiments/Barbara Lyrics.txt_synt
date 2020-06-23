@@ -4,12 +4,13 @@ arg_mod-agent-1-Wainwright
 specif-1-Barbara
 specif-1-Rufus
 subj-theme_bound-1-Lyrics
+aux-3-are
 aux-3-do
 iobj-goal-3-doorstep
 neg-3-not
+progr-3-running
 subj-actor-3-you
-subj-theme_bound-3-you
-xcomp-prop-3-runnin
+subj-agent-3-you
 adj-subj_disc-8-over_and_over_again
 aux-8-are
 iobj-goal-8-[]
@@ -39,30 +40,33 @@ xcomp-prop-14-speak
 xcomp-prop-14-there
 xcomp-prop-14-tree
 cmod/subord-14-although
-coord-theme-22-name_and_Barbara
 coord-theme_bound-22-name_and_rosé
-modal-22-may
 modal-22-will
-neg-22-not
-obj-actor-22-me
-obj-theme-22-Barbara
-obj-theme-22-name
-obj-theme_aff-22-Barbara
-specif-22-Barbara
+ncmod-22-sweet
 specif-22-name
-specif-22-name_and_Barbara
 specif-22-name_and_rosé
 specif-22-rosé
-subj-agent-22-you
-subj-experiencer-22-you
-subj-patient-22-me
-subj-theme_bound-22-i
+specif-22-sweet
 subj-theme_bound-22-name
 subj-theme_bound-22-rosé
-xcomp-prop-22-me
-xcomp-prop-22-speak
-xcomp-prop-22-sweet
-xcomp-prop-22-there
+xcomp-prop-22-suddenly
+coord-theme-28-name_and_Barbara
+modal-28-may
+modal-28-will
+neg-28-not
+obj-actor-28-me
+obj-theme-28-Barbara
+obj-theme-28-name
+obj-theme_aff-28-Barbara
+specif-28-Barbara
+specif-28-name
+specif-28-name_and_Barbara
+subj-agent-28-you
+subj-experiencer-28-you
+subj-patient-28-me
+subj-theme_bound-28-i
+xcomp-prop-28-speak
+xcomp-prop-28-there
 
 
 
@@ -77,7 +81,7 @@ xcomp-prop-22-there
 7-if-cosu
 8-you-pron
 9-are-ause
-10-runnin-n
+10-running-vin
 11-from-p
 12-your-ag
 13-doorstep-n
@@ -211,7 +215,8 @@ xcomp-prop-22-there
 "Clause Separated All Grammatical Functions"
 
 1-[ncmod-specif(Wainwright-sn2,Rufus),ncmod-specif(Lyrics-sn1,Barbara),arg_mod-agent(by,be-1,Wainwright-sn2),subj-theme_bound(be,Lyrics-sn1),voice(active,cl1,be),tense(pres,cl1,be)]
-3-[cmod-subord(if,go-cl1),cmod-subord(",go-cl4,go-cl4),cmod-topic(nil,you,go),subj-actor(know,you-sn6),ncmod-poss(doorstep-sn3,your),ncmod-poss(doorstep-sn3,your),iobj-goal(from,go-cl4,doorstep-sn3),xcomp-prop(be,runnin-sn2),subj-theme_bound(be,you-sn1),aux(know,do),neg(know,not),voice(active,cl4,go),tense(pres,cl4,go),voice(active,cl3,know),tense(pres,cl3,know),voice(active,cl2,be),tense(pres,cl2,be)]
+3-[cmod-subord(if,go-cl1),cmod-subord(",go-cl4,go-cl4),cmod-topic(nil,you,go),subj-actor(know,you-sn5),ncmod-poss(doorstep-sn2,your),ncmod-poss(doorstep-sn2,your),iobj-goal(from,go-cl4,doorstep-sn2),subj-agent(run,you-sn1),aux(know,do),neg(know,not),aux(run,are),progr(run,running),voice(active,cl4,go),tense(pres,cl4,go),voice(active,cl3,know),tense(pres,cl3,know),voice(active,cl2,run),tense(past,cl2,run)]
 8-[cmod-subord(if,turn-cl7,lose-2),iobj-goal(on,lose-2,[]-sn23),subj-theme_unaff(lose,you-sn22),ncmod-loc_origin(from,turn-cl7,sun-sn21),ncmod-modal(into,turn-cl7,far-sn20),adj-subj_disc(drink,over_and_over_again-sn5),obj-theme(drink,listening-sn4),ncmod-locativo(in,turn-cl7,rain-sn3),obj-theme(drink,rosé-sn2),subj-actor(drink,gate-sn1),aux(lose,are),voice(active,cl7,turn),tense(pres,cl7,turn),voice(passive,are,lose-cl6),tense(pres,cl6,lose),voice(active,cl5,drink),tense(past,cl5,drink)]
 14-[ante(speak,they,tree),ext(speak,own),ext(be,[yourself]),subj-tema_nonaff(remember,they-sn13),xcomp-prop(nil,speak-2,remember),subj-actor(speak,they-sn13),subj-patient(speak,they-sn12),xcomp-prop(nil,remember-2,speak),subj-experiencer(remember,they-sn12),cmod-subord(although,be-1,see-2),xcomp-prop(see,tree-sn11),xcomp-prop(see,me-sn10),subj-experiencer(see,you-sn9),adj-(mod)(in,be,there),subj-theme_bound(be,i-sn7),ncmod-specif(i-sn5,Barbara),ncmod-specif(Barbara-sn4,i),ncmod-specif(yourself-sn1,Barbara),xcomp-prop(be,there-sn3),subj-theme_bound(be,yourself-sn2),subj-theme_bound(be,yourself-sn1),modal(remember,will),neg(see,not),modal(see,may),modal(be,will),voice(active,cl11,speak),tense(pres,cl11,speak),voice(active,cl10,remember),tense(pres,cl10,remember),voice(active,cl9,see),tense(pres,cl9,see),voice(active,cl8,be),tense(pres,cl8,be)]
-22-[ext(see,my),ext(see,own),ext(be,my),xcomp-prop(be,there-sn19),subj-theme_bound(be,i-sn18),ncmod-specif(my,name_and_Barbara-sn17),ncmod-specif(my,Barbara-sn14),ncmod-specif(my,name-sn13),obj-theme_aff(see-1,Barbara-sn16),coord-theme(see-1,name_and_Barbara-sn15),obj-theme(see-1,Barbara-sn14),obj-theme(see-1,name-sn13),subj-patient(speak,me-sn12),xcomp-prop(nil,see-1,speak),obj-actor(see,me-sn12),subj-experiencer(see,you-sn11),xcomp-prop(see,me-sn10),subj-experiencer(see,you-sn9),subj-agent(will,you-sn8),ncmod-specif(my,name_and_rosé-sn5),ncmod-specif(my,rosé-sn2),ncmod-specif(my,name-sn1),xcomp-prop(be,sweet-sn4),coord-theme_bound(be,name_and_rosé-sn3),subj-theme_bound(be,rosé-sn2),subj-theme_bound(be,name-sn1),modal(will,will),modal(will,will),modal(be,will),neg(see,not),modal(see,may),neg(see,not),modal(see,may),modal(retreat,will),modal(be,will),voice(active,cl16,will),tense(fut,cl16,will),voice(active,cl15,speak),tense(pres,cl15,speak),voice(active,cl14,see),tense(pres,cl14,see),voice(active,cl13,retreat),tense(pres,cl13,retreat),voice(active,cl12,be),tense(pres,cl12,be)]
+22-[ext(be,my),ncmod-specif(suddenly-sn4,sweet),ncmod(suddenly-sn4,sweet),ncmod-specif(my,name_and_rosé-sn5),ncmod-specif(my,rosé-sn2),ncmod-specif(my,name-sn1),xcomp-prop(be,suddenly-sn4),coord-theme_bound(be,name_and_rosé-sn3),subj-theme_bound(be,rosé-sn2),subj-theme_bound(be,name-sn1),modal(be,will),voice(active,cl12,be),tense(pres,cl12,be)]
+28-[ext(see,my),ext(see,own),xcomp-prop(be,there-sn12),subj-theme_bound(be,i-sn11),ncmod-specif(my,name_and_Barbara-sn10),ncmod-specif(my,Barbara-sn7),ncmod-specif(my,name-sn6),obj-theme_aff(see-1,Barbara-sn9),coord-theme(see-1,name_and_Barbara-sn8),obj-theme(see-1,Barbara-sn7),obj-theme(see-1,name-sn6),subj-patient(speak,me-sn5),xcomp-prop(nil,see-1,speak),obj-actor(see,me-sn5),subj-experiencer(see,you-sn4),obj-actor(see,me-sn3),subj-experiencer(see,you-sn2),subj-agent(will,you-sn1),modal(will,will),modal(will,will),modal(be,will),neg(see,not),modal(see,may),neg(see,not),modal(see,may),modal(retreat,will),voice(active,cl17,will),tense(fut,cl17,will),voice(active,cl16,be),tense(pres,cl16,be),voice(active,cl15,speak),tense(pres,cl15,speak),voice(active,cl14,see),tense(pres,cl14,see),voice(active,cl13,retreat),tense(pres,cl13,retreat)]

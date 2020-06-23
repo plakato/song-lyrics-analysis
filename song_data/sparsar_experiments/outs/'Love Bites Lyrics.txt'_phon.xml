@@ -3,12 +3,12 @@
 <Stanza_levels>
 <Stanza_level no="0">
 <Stats_Stanza  
-	line_durations_msec="[1604.19,1328,1767.43,1424,368]"
-	total_syllable_length_msec="6491.620000000001"
-	mean_line_length_val="1298.324"
-	standard_deviation_val="546.7614461810562"
-	skewness_val="-1.0268074418351534"
-	kurtosis_val="-0.7438608950775292">
+	line_durations_msec="[1604.19,1328,1767.43,1424,306.9045121951219]"
+	total_syllable_length_msec="6430.524512195123"
+	mean_line_length_val="1286.1049024390245"
+	standard_deviation_val="572.8122816894868"
+	skewness_val="-1.0541507394675382"
+	kurtosis_val="-0.7158474193301867">
 </Stats_Stanza>
 <Metrical_Scheme_Stanza>
 <Line_verse no="0"
@@ -32,20 +32,20 @@
 	rhetorical_devices="[4-[]]"
 	metrical_structure_val="[1,0,1,0,0,1,0,1,0]"></Line_verse>
 <Line_verse no="4"
-	number_of_feet_no="2"	line_syllables="[ooh/[uw],yeah/[y_ae]]"
+	number_of_feet_no="1"	line_syllables="[ooh/[],yeah/[y_ae]]"
 	total_syllable_length_no="2"
 	rhetorical_devices="[5-[]]"
-	metrical_structure_val="[1,1]"></Line_verse>
+	metrical_structure_val="[0,1]"></Line_verse>
 </Metrical_Scheme_Stanza>
 </Stanza_level>
 <Stanza_level no="1">
 <Stats_Stanza  
-	line_durations_msec="[1760,2080,1943.43,2503.21]"
-	total_syllable_length_msec="8286.64"
-	mean_line_length_val="2071.66"
-	standard_deviation_val="316.1644332727302"
-	skewness_val="0.5061614421716986"
-	kurtosis_val="-1.5191935171990758">
+	line_durations_msec="[1760,2032,1943.43,2503.21]"
+	total_syllable_length_msec="8238.64"
+	mean_line_length_val="2059.66"
+	standard_deviation_val="316.6529154558136"
+	skewness_val="0.6169232816887533"
+	kurtosis_val="-1.4433308700309777">
 </Stats_Stanza>
 <Metrical_Scheme_Stanza>
 <Line_verse no="6"
@@ -114,12 +114,12 @@
 </Stanza_level>
 <Stanza_level no="3">
 <Stats_Stanza  
-	line_durations_msec="[976,1584,1504,1456.04,448]"
-	total_syllable_length_msec="5968.04"
-	mean_line_length_val="1193.608"
-	standard_deviation_val="479.81876611904204"
-	skewness_val="-0.7181688973153065"
-	kurtosis_val="-1.3559993776066104">
+	line_durations_msec="[976,1584,1504,1456.04,386.9045121951219]"
+	total_syllable_length_msec="5906.944512195122"
+	mean_line_length_val="1181.3889024390244"
+	standard_deviation_val="503.735270039366"
+	skewness_val="-0.7639329764889448"
+	kurtosis_val="-1.2799874933214446">
 </Stats_Stanza>
 <Metrical_Scheme_Stanza>
 <Line_verse no="18"
@@ -143,20 +143,20 @@
 	rhetorical_devices="[22-[]]"
 	metrical_structure_val="[0,0,1,1,0,1,0,0,0,1]"></Line_verse>
 <Line_verse no="22"
-	number_of_feet_no="2"	line_syllables="[ooh/[uw],c-mon/[k_ah_m,aa_n]]"
+	number_of_feet_no="1"	line_syllables="[ooh/[],c-mon/[k_ah_m,aa_n]]"
 	total_syllable_length_no="3"
 	rhetorical_devices="[23-[]]"
-	metrical_structure_val="[1,0,1]"></Line_verse>
+	metrical_structure_val="[0,0,1]"></Line_verse>
 </Metrical_Scheme_Stanza>
 </Stanza_level>
 <Stanza_level no="4">
 <Stats_Stanza  
-	line_durations_msec="[1760,2096,1984,2176]"
-	total_syllable_length_msec="8016"
-	mean_line_length_val="2004"
-	standard_deviation_val="180.7244679984792"
-	skewness_val="-0.4894734573356149"
-	kurtosis_val="-1.5965177108322197">
+	line_durations_msec="[1760,2048,1984,2176]"
+	total_syllable_length_msec="7968"
+	mean_line_length_val="1992"
+	standard_deviation_val="174.04980130219434"
+	skewness_val="-0.3845426824049176"
+	kurtosis_val="-1.527786153540964">
 </Stats_Stanza>
 <Metrical_Scheme_Stanza>
 <Line_verse no="24"
@@ -351,16 +351,16 @@
 </Stanza_levels>
 <General_Stats>
 	<Prosodic_Measures_in_msecs
-	mean_line_length_val="1258.9920930232558"
-	standard_deviation_val="486.009143890848"
-	skewness_val="0.5253690315501925"
-	kurtosis_val="-0.23625402519992456">
+	mean_line_length_val="1253.9178842881452"
+	standard_deviation_val="487.4708551591612"
+	skewness_val="0.4548122566583973"
+	kurtosis_val="-0.1933104730836619">
 </Prosodic_Measures_in_msecs>
 	<Metrical_Structures
-	mean_line_length_in_no_of_feet_val="2.86046511627907"
-	standard_deviation_val="1.7939235444349246"
-	skewness_val="1.1246532218918628"
-	kurtosis_val="0.3574213406454718">
+	mean_line_length_in_no_of_feet_val="2.813953488372093"
+	standard_deviation_val="1.829074889162856"
+	skewness_val="1.0921989528718838"
+	kurtosis_val="0.2625283439470478">
 </Metrical_Structures>
 	<Rhetorical_Metrical_Devices
 	Absolute_Count_of_Rhyming_Devices_val="5406"
@@ -368,7 +368,7 @@
 	Ratio_of_RhDevs_Absolute_Count_by_Corrected_No_of_Verses_val=" 128.71428571428572"
 	Ratio_of_RhDevs_Absolute_Count_by_Repetition_Rate_val="7458.654135338345"
 	Ratio_of_RhDevs_Absolute_Count_by_Rare_Word_Repetition_Rate_val=" 9100.1"
-	Ratio_of_RhDevs_Absolute_Count_by_No_Tokens_val="15.945301153735066">
+	Ratio_of_RhDevs_Absolute_Count_by_No_Tokens_val="15.384572305073869">
 </Rhetorical_Metrical_Devices>
 </General_Stats>
 <General_Rhetoric_Devices>

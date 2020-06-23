@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
-import ast
+from datetime import datetime
 import json
 import os
 import re
 import shlex
 import subprocess
-from os.path import isfile, join
+from os.path import join, isfile
 from analyze_data import save_dataset
+import altered_data_generator
 import xml.etree.ElementTree as ET
 
 # VARIABLES
@@ -46,7 +47,7 @@ def replace_prohibited_characters(filename):
 
 
 # Returns "success" = 0, "fail" = 1
-def sparsar_process_song(song, prefix):
+def sparsar_process_song(song, prefix=''):
     # SPARSAR only understands ENGLISH.
     if song['lang'] != 'ENGLISH':
         print('Song', song['title'], 'is not in English. Skipping.')
@@ -199,15 +200,25 @@ def get_scheme_letters(inputfile):
     return scheme_letters, root
 
 
-def extract_rhymes_to_csv(filename):
-    inputfile = 'sparsar_experiments/outs/' + filename + '_phon.xml'
-    prefix = ''
+def get_sparsar_phon_files_from_dir(dir):
+    files = []
+    names = []
+    for filename in os.listdir(dir):
+        if filename.endswith('_phon.xml'):
+            name = filename.replace('\'', '').replace('.txt_phon.xml', '')
+            files.append(filename)
+            names.append(name)
+    return files, names
+
+
+def extract_rhymes_to_csv(path, filename, output_path):
+    inputfile = path + filename
+    filename = filename.replace('\'', '').replace(".txt_phon.xml", "")
     if filename.startswith('shuffled'):
         prefix = 'shuffled/'
     else:
         prefix = 'original/'
-    filename = filename.replace('\'', '').replace(".txt", "")
-    outputfile = 'sparsar_experiments/rhymes/' + prefix + filename + '.csv'
+    outputfile = output_path + prefix + filename + '.csv'
     scheme_letters, root = get_scheme_letters(inputfile)
     # Analysis failed (usually invalid xml because of bugs in SPARSAR).
     if scheme_letters is None:
@@ -216,27 +227,51 @@ def extract_rhymes_to_csv(filename):
     # Create output.
     keys = list(scheme_letters.keys())
     scheme_letter_no = -1
+    lines = []
+    for stanza in root[0]:
+        for line in stanza[1]:
+            words = []
+            phons = []
+            no = int(line.attrib['no'])
+            for word in line.attrib['line_syllables'].split(']'):
+                if word == '':
+                    continue
+                parts = word.replace('[', '').split('/')
+                words.append(parts[0].replace(',', ''))
+                phons.append(parts[1].replace(',', '_'))
+            scheme_letter_no += 1
+            lines.append('{0};{1};{2};{3}\n'.format(scheme_letters[keys[scheme_letter_no]], no, ' '.join(words), ' '.join(phons)))
+    os.makedirs(os.path.dirname(outputfile), exist_ok=True)
+    print(''.join(lines))
     with open(outputfile, 'w+') as output:
         output.write('Rhyme Scheme Letter;Line Number;Lyrics;Phonetic '
                      'Transcription\n')
-        for stanza in root[0]:
-            for line in stanza[1]:
-                words = []
-                phons = []
-                no = int(line.attrib['no'])
-                for word in line.attrib['line_syllables'].split(']'):
-                    if word == '':
-                        continue
-                    parts = word.replace('[', '').split('/')
-                    words.append(parts[0].replace(',', ''))
-                    phons.append(parts[1].replace(',', '_'))
-                scheme_letter_no += 1
-                output.write('{0};{1};{2};{3}\n'.format(scheme_letters[keys[
-                    scheme_letter_no]],
-                                                        no,
-                                                        ' '.join(words),
-                                                        ' '.join(phons)))
+        output.write(''.join(lines))
     return 0
+
+
+# Run only for files selected for comparison (shuffling lines before/after sparsar analysis).
+# Files have to be in this precise order to get the same shuffling result.
+def run_for_comparison_files():
+    output_path = 'sparsar_experiments/line_shuffle_comparison/analyzed_before_shuffle/'
+    path = output_path
+    total = 0
+    files = ['\'​flood on the floor Lyrics.txt\'_phon.xml',
+             '\'​stranger than earth Lyrics.txt\'_phon.xml',
+             '\'​heartsigh Lyrics.txt\'_phon.xml',
+             '\'​​repetition Lyrics.txt\'_phon.xml',
+             '\'​bodyache Lyrics.txt\'_phon.xml',
+             '\'Alone Lyrics.txt\'_phon.xml',
+             '\'Purple City Byrd Gang Lyrics.txt\'_phon.xml',
+             "'Dancin'' Man Lyrics.txt'_phon.xml",
+             '\'Burn Slow Lyrics.txt\'_phon.xml',
+             '\'Steel Light Lyrics.txt\'_phon.xml']
+    for item in files:
+        print('Extracting to csv...', item)
+        result = extract_rhymes_to_csv(path, item, output_path)
+        if result == 0:
+            total += 1
+    print('Generated', total, '.csv files.')
 
 
 # Takes list of verses as input.
@@ -257,6 +292,8 @@ def add_punctuation(lyrics):
 
 
 def main():
+    start = datetime.now()
+    print("Start Time =", start.strftime("%H:%M:%S"))
     # Prepare files for SPARSAR.
     prefixes = ['']
     os.environ["PYTHONIOENCODING"] = "utf-8"
@@ -269,15 +306,24 @@ def main():
         run_sparsar_for_files(filename, prefix, start_idx=6400, end_idx=6600)  # Analyzed up to index 6421.
     # Extract useful information from SPARSAR output files to .csv file.
     # path = 'sparsar_experiments/outs/'
-    # total = 0
-    # for item in os.listdir(path):
-    #     if isfile(join(path, item)) and item.endswith('_phon.xml'):
-    #         print('Extracting to csv...', item)
-    #         result = extract_rhymes_to_csv(item[:-9])
-    #         if result == 0:
-    #             total += 1
-    # print('Generated', total, '.csv files.')
+    # output_path = 'sparsar_experiments/rhymes/'
+    output_path = 'sparsar_experiments/line_shuffle_comparison/analyzed_before_shuffle/'
+    path = output_path
+    total = 0
+    for item in os.listdir(path):
+        if isfile(join(path, item)) and item.endswith('_phon.xml'):
+            print('Extracting to csv...', item)
+            result = extract_rhymes_to_csv(path, item, output_path)
+            if result == 0:
+                total += 1
+    print('Generated', total, '.csv files.')
+    end = datetime.now()
+    elapsed = end - start
+    print("Start Time =", start.strftime("%H:%M:%S"))
+    print("End Time =", end.strftime("%H:%M:%S"))
+    print("Elapsed Time =", elapsed)
 
 
 if __name__ == '__main__':
-    main()
+    # main()
+    run_for_comparison_files()

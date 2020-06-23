@@ -24,7 +24,7 @@ A Foggy Day Lyrics.txt_11-78  []-positive  []
 
 A Foggy Day Lyrics.txt_1-1  [a,Foggy,Day,Lyrics,by,Rufus,Wainwright]  [title]
 A Foggy Day Lyrics.txt_2-3  [i,was,a,stranger,in,the,city,out_of,town]  [reject_expl_just(know,[external,factive,cause,foreground,objective]),reject_expl_just(you,[internal,factive,narration,background,objective])]
-A Foggy Day Lyrics.txt_2-4  [were,the,people,i,knew,i,had,that,feeling,of,self-pity,what,to,do,what,to,do]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_333536),provide_expl_just(you,[internal,factive,narration,background,objective])]
+A Foggy Day Lyrics.txt_2-4  [were,the,people,i,knew,i,had,that,feeling,of,self-pity,what,to,do,what,to,do]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_329926),provide_expl_just(you,[internal,factive,narration,background,objective])]
 A Foggy Day Lyrics.txt_3-10  [what,to,do]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
 A Foggy Day Lyrics.txt_4-14  [the,outlook,was,blue,decidedly]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
 A Foggy Day Lyrics.txt_4-15  [but,as,i,walked,through,the,foggy,streets]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
@@ -75,7 +75,7 @@ lf(A Foggy Day Lyrics.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-i-sn6,subj-theme_
 lf(A Foggy Day Lyrics.txt_3,10,cl6-nil-nil-do-[subj-theme_unaff-you-sn1,aux-do-nil,def_prop(you,[umano])])
 lf(A Foggy Day Lyrics.txt_4,14,cl8-nil-nil-walk-[ncmod-location-street-sn6,subj-agent-i-sn5,and(street,foggy,sn6),def_prop(street,[oggetto,stato,strumento]),def_prop(i,[umano])])
 lf(A Foggy Day Lyrics.txt_4,14,cl7-nil-nil-be-[xcomp-prop-blue-sn2,subj-theme_bound-outlook-sn1,def_prop(blue,[animato,astratto,istituzione,oggetto,strumento]),def_prop(outlook,[attivita,informa])])
-lf(A Foggy Day Lyrics.txt_5,20,cl10-nil-nil-be-[xadj-adj-alone-adj1,xcomp-prop-day-sn2,xcomp-purpose-be-2,and(day,luckiest,sn2),def_prop(alone,_356106),def_prop(day,[tempo])])
+lf(A Foggy Day Lyrics.txt_5,20,cl10-nil-nil-be-[xadj-adj-alone-adj1,xcomp-prop-day-sn2,xcomp-purpose-be-2,and(day,luckiest,sn2),def_prop(alone,_352496),def_prop(day,[tempo])])
 lf(A Foggy Day Lyrics.txt_5,20,cl9-nil-nil-turn-[adj-locative-out-nil,subj-agent-it-sn1,def_prop(it,[any])])
 lf(A Foggy Day Lyrics.txt_6,27,cl13-nil-nil-low-[subj-actor-you-sn6,def_prop(you,[umano])])
 lf(A Foggy Day Lyrics.txt_6,27,cl12-nil-nil-have-[xcomp-tema_bound-me-sn5,subj-experiencer-Town-sn4,def_prop(me,[umano]),def_prop(Town,[umano])])

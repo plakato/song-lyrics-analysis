@@ -3,12 +3,12 @@
 <Stanza_levels>
 <Stanza_level no="1">
 <Stats_Stanza  
-	line_durations_msec="[1328,1376,1024,928,1680,1584,896,2493.5699999999997,880,1360,432,1569.65,1432.3899999999999,1120,1616,877.5699999999999,880,1360,432,336,432,336]"
-	total_syllable_length_msec="24373.18"
-	mean_line_length_val="1107.8718181818183"
-	standard_deviation_val="539.0342087795839"
-	skewness_val="0.42080840653887513"
-	kurtosis_val="0.007284598971618816">
+	line_durations_msec="[1328,1376,912,928,1680,1968,768,2493.5699999999997,880,1360,432,1569.65,1432.3899999999999,1120,1616,877.5699999999999,880,1360,432,336,432,336]"
+	total_syllable_length_msec="24517.18"
+	mean_line_length_val="1114.4172727272728"
+	standard_deviation_val="565.5107179244668"
+	skewness_val="0.45917700568523967"
+	kurtosis_val="-0.30278585937811586">
 </Stats_Stanza>
 <Metrical_Scheme_Stanza>
 <Line_verse no="0"
@@ -22,7 +22,7 @@
 	rhetorical_devices="[2-[]]"
 	metrical_structure_val="[1,0,1,0,1,0,1,0]"></Line_verse>
 <Line_verse no="2"
-	number_of_feet_no="3"	line_syllables="[find/[f_ay_n_d],the/[dh_iy],right/[r_ay_t],in/[ih_n_ch],him/[ih_m],and/[ah_n_d],others/[ah,dh_er_z]]"
+	number_of_feet_no="3"	line_syllables="[find/[f_ay_n_d],the/[dh_iy],right/[r_ay_t],in/[ih_n],him/[ih_m],and/[ah_n_d],others/[ah,dh_er_z]]"
 	total_syllable_length_no="8"
 	rhetorical_devices="[3-[]]"
 	metrical_structure_val="[0,0,1,0,1,0,1,0]"></Line_verse>
@@ -37,7 +37,7 @@
 	rhetorical_devices="[5-[]]"
 	metrical_structure_val="[1,0,1,0,0,1,0,1,0]"></Line_verse>
 <Line_verse no="5"
-	number_of_feet_no="4"	line_syllables="[first/[f_er_s_t],the/[dh_ah],beginning/[b_ih,g_ih_n,ih_ng],Then/[dh_eh_n],the/[dh_iy],ending/[eh_n,d_ih_ng]]"
+	number_of_feet_no="4"	line_syllables="[first/[f_er_s_t],the/[dh_ah],beginning/[b_ih,g_ih_n,ih_ng],Then/[dh_eh_n],the/[dh_ah],ending/[eh_n,d_ih_ng]]"
 	total_syllable_length_no="9"
 	rhetorical_devices="[6-[]]"
 	metrical_structure_val="[1,0,1,0,1,0,0,1,0]"></Line_verse>
@@ -60,7 +60,7 @@
 	number_of_feet_no="7"	line_syllables="[all/[ao_l],and/[ah_n_d],all/[ao_l],in/[ih_n],a/[ah],day/[d_ey],take/[t_ey_k],it/[ih_t],away/[ah,w_ey],all/[ao_l],in/[ih_n],a/[ah],day/[d_ey]]"
 	total_syllable_length_no="14"
 	rhetorical_devices="[10-[]]"
-	metrical_structure_val="[1,0,1,0,0,1,1,0,0,1,1,0,0,1]"></Line_verse>
+	metrical_structure_val="[1,0,1,0,0,1,1,0,0,1,1,0,1,0]"></Line_verse>
 <Line_verse no="10"
 	number_of_feet_no="2"	line_syllables="[take/[t_ey_k],it/[ih_t],away/[ah,w_ey]]"
 	total_syllable_length_no="4"
@@ -100,7 +100,7 @@
 	number_of_feet_no="7"	line_syllables="[all/[ao_l],and/[ah_n_d],all/[ao_l],in/[ih_n],a/[ah],day/[d_ey],take/[t_ey_k],it/[ih_t],away/[ah,w_ey],all/[ao_l],in/[ih_n],a/[ah],day/[d_ey]]"
 	total_syllable_length_no="14"
 	rhetorical_devices="[18-[]]"
-	metrical_structure_val="[1,0,1,0,0,1,1,0,0,1,1,0,0,1]"></Line_verse>
+	metrical_structure_val="[1,0,1,0,0,1,1,0,0,1,1,0,1,0]"></Line_verse>
 <Line_verse no="18"
 	number_of_feet_no="2"	line_syllables="[take/[t_ey_k],It/[ih_t],away/[ah,w_ey]]"
 	total_syllable_length_no="4"
@@ -126,10 +126,10 @@
 </Stanza_levels>
 <General_Stats>
 	<Prosodic_Measures_in_msecs
-	mean_line_length_val="1107.8718181818183"
-	standard_deviation_val="539.0342087795839"
-	skewness_val="0.42080840653887513"
-	kurtosis_val="0.007284598971618816">
+	mean_line_length_val="1114.4172727272728"
+	standard_deviation_val="565.5107179244668"
+	skewness_val="0.45917700568523967"
+	kurtosis_val="-0.30278585937811586">
 </Prosodic_Measures_in_msecs>
 	<Metrical_Structures
 	mean_line_length_in_no_of_feet_val="3.227272727272727"
@@ -138,11 +138,11 @@
 	kurtosis_val="0.72454642726388">
 </Metrical_Structures>
 	<Rhetorical_Metrical_Devices
-	Absolute_Count_of_Rhyming_Devices_val="819"
+	Absolute_Count_of_Rhyming_Devices_val="741"
 	Ratio_of_Absolute_Count_by_No_of_Stanzas_val="0.01840490797546012"
-	Ratio_of_RhDevs_Absolute_Count_by_Corrected_No_of_Verses_val=" 39"
-	Ratio_of_RhDevs_Absolute_Count_by_Repetition_Rate_val="1334.97"
-	Ratio_of_RhDevs_Absolute_Count_by_Rare_Word_Repetition_Rate_val=" 859.95"
+	Ratio_of_RhDevs_Absolute_Count_by_Corrected_No_of_Verses_val=" 35.285714285714285"
+	Ratio_of_RhDevs_Absolute_Count_by_Repetition_Rate_val="1207.83"
+	Ratio_of_RhDevs_Absolute_Count_by_Rare_Word_Repetition_Rate_val=" 778.0500000000001"
 	Ratio_of_RhDevs_Absolute_Count_by_No_Tokens_val="20.535904378816237">
 </Rhetorical_Metrical_Devices>
 </General_Stats>
@@ -162,7 +162,7 @@
 </Line_Middle_Rhymes>
 	<Consonances_Assonances words="[[ae_m-ah_w_ey1-[1-[a,e]-[a,h],[v-[ah],vv-[w,ey]]]]-8/13,[ae_m-ah_w_ey1-[1-[a,e]-[a,h],[v-[ah],vv-[w,ey]]]]-8/14,[ae_m-ah_w_ey1-[1-[a,e]-[a,h],[v-[ah],vv-[w,ey]]]]-8/21,[ae_m-ah_w_ey1-[1-[a,e]-[a,h],[v-[ah],vv-[w,ey]]]]-8/22,[ae_m-ah_w_ey1-[1-[a,e]-[a,h],[v-[ah],vv-[w,ey]]]]-8/24,[ah1_s-ah1_s-[ah1,s]]-11/19,[ah_w_ey1-ah_w_ey1-[ah,w,ey1]]-13/14,[ah_w_ey1-ah_w_ey1-[ah,w,ey1]]-13/21,[ah_w_ey1-ah_w_ey1-[ah,w,ey1]]-13/22,[ah_w_ey1-ah_w_ey1-[ah,w,ey1]]-13/24,[ah_w_ey1-ah_w_ey1-[ah,w,ey1]]-14/21,[ah_w_ey1-ah_w_ey1-[ah,w,ey1]]-14/22,[ah_w_ey1-ah_w_ey1-[ah,w,ey1]]-14/24,[ah_w_ey1-ah_w_ey1-[ah,w,ey1]]-21/22,[ah_w_ey1-ah_w_ey1-[ah,w,ey1]]-21/24,[ah_w_ey1-ah_w_ey1-[ah,w,ey1]]-22/24,[ao1_l-ao1_l-[ao1,l]]-13/13,[ao1_l-ao1_l-[ao1,l]]-13/21,[ao1_l-ao1_l-[ao1,l]]-13/23,[ao1_l-ao1_l-[ao1,l]]-13/25,[ao1_l-ao1_l-[ao1,l]]-21/21,[ao1_l-ao1_l-[ao1,l]]-21/23,[ao1_l-ao1_l-[ao1,l]]-21/25,[ao1_l-ao1_l-[ao1,l]]-23/25,[ay-ay-ay]-8/17,[b_eh1_s_t-b_eh1_s_t-[b,eh1,s,t]]-8/11,[b_eh1_s_t-b_eh1_s_t-[b,eh1,s,t]]-8/18,[b_eh1_s_t-b_ih_g_ih1_n_ih_ng-[1-[b]-[b],[cvc-[b,ih,g],vc-[ih,n],vc-[ih,ng]]]]-8/9,[b_eh1_s_t-b_r_ih1_ng-[1-[b]-[b,r],ccvc-[b,r,ih,ng]]]-8/11,[b_eh1_s_t-b_r_ih1_ng-[1-[b]-[b,r],ccvc-[b,r,ih,ng]]]-8/18,[b_ih_g_ih1_n_ih_ng-b_eh1_s_t-[1-[b]-[b],cvcc-[b,eh,s,t]]]-9/11,[b_ih_g_ih1_n_ih_ng-b_eh1_s_t-[1-[b]-[b],cvcc-[b,eh,s,t]]]-9/18,[b_ih_g_ih1_n_ih_ng-b_r_ih1_ng-[1-[b]-[b,r],ccvc-[b,r,ih,ng]]]-9/11,[b_ih_g_ih1_n_ih_ng-b_r_ih1_ng-[1-[b]-[b,r],ccvc-[b,r,ih,ng]]]-9/18,[b_iy2_f_ao1_r-b_eh1_s_t-[1-[b]-[b],cvcc-[b,eh,s,t]]]-5/7,[b_iy2_f_ao1_r-b_eh1_s_t-[1-[b]-[b],cvcc-[b,eh,s,t]]]-5/8,[b_iy2_f_ao1_r-b_eh1_s_t-[1-[b]-[b],cvcc-[b,eh,s,t]]]-5/11,[b_iy2_f_ao1_r-b_eh1_s_t-[1-[b]-[b],cvcc-[b,eh,s,t]]]-5/18,[b_iy2_f_ao1_r-b_ih_g_ih1_n_ih_ng-[1-[b]-[b],[cvc-[b,ih,g],vc-[ih,n],vc-[ih,ng]]]]-5/9,[b_iy2_f_ao1_r-b_r_ih1_ng-[1-[b]-[b,r],ccvc-[b,r,ih,ng]]]-5/7,[b_iy2_f_ao1_r-b_r_ih1_ng-[1-[b]-[b,r],ccvc-[b,r,ih,ng]]]-5/11,[b_iy2_f_ao1_r-b_r_ih1_ng-[1-[b]-[b,r],ccvc-[b,r,ih,ng]]]-5/18,[b_r_ih1_ng-b_eh1_s_t-[1-[b,r]-[b],cvcc-[b,eh,s,t]]]-7/7,[b_r_ih1_ng-b_eh1_s_t-[1-[b,r]-[b],cvcc-[b,eh,s,t]]]-7/8,[b_r_ih1_ng-b_eh1_s_t-[1-[b,r]-[b],cvcc-[b,eh,s,t]]]-7/11,[b_r_ih1_ng-b_eh1_s_t-[1-[b,r]-[b],cvcc-[b,eh,s,t]]]-7/18,[b_r_ih1_ng-b_eh1_s_t-[1-[b,r]-[b],cvcc-[b,eh,s,t]]]-11/11,[b_r_ih1_ng-b_eh1_s_t-[1-[b,r]-[b],cvcc-[b,eh,s,t]]]-11/18,[b_r_ih1_ng-b_eh1_s_t-[1-[b,r]-[b],cvcc-[b,eh,s,t]]]-18/18,[b_r_ih1_ng-b_ih_g_ih1_n_ih_ng-[1-[b,r]-[b],[cvc-[b,ih,g],vc-[ih,n],vc-[ih,ng]]]]-7/9,[b_r_ih1_ng-b_r_ih1_ng-[b,r,ih1,ng]]-7/11,[b_r_ih1_ng-b_r_ih1_ng-[b,r,ih1,ng]]-7/18,[b_r_ih1_ng-b_r_ih1_ng-[b,r,ih1,ng]]-11/18,[d_aa1_r_l_ih_ng-d_aa1_r_l_ih_ng-[d,aa1,r,l,ih,ng]]-11/19,[d_aa1_r_l_ih_ng-d_ey1-[1-[d]-[d],cv-[d,ey]]]-11/13,[d_aa1_r_l_ih_ng-d_ey1-[1-[d]-[d],cv-[d,ey]]]-11/21,[d_aa1_r_l_ih_ng-d_ey1-[1-[d]-[d],cv-[d,ey]]]-11/23,[d_aa1_r_l_ih_ng-d_ey1-[1-[d]-[d],cv-[d,ey]]]-11/25,[d_aa1_r_l_ih_ng-d_ey1-[1-[d]-[d],cv-[d,ey]]]-19/21,[d_aa1_r_l_ih_ng-d_ey1-[1-[d]-[d],cv-[d,ey]]]-19/23,[d_aa1_r_l_ih_ng-d_ey1-[1-[d]-[d],cv-[d,ey]]]-19/25,[d_aa1_r_l_ih_ng-d_ey1_n_jh_er-[1-[d]-[d],[cvc-[d,ey,n],cv-[jh,er]]]]-11/12,[d_aa1_r_l_ih_ng-d_ey1_n_jh_er-[1-[d]-[d],[cvc-[d,ey,n],cv-[jh,er]]]]-11/20,[d_aa1_r_l_ih_ng-d_ey1_n_jh_er-[1-[d]-[d],[cvc-[d,ey,n],cv-[jh,er]]]]-19/20,[d_ey1-d_aa1_r_l_ih_ng-[1-[d]-[d],[cvv-[d,aa,r],cvc-[l,ih,ng]]]]-13/19,[d_ey1-d_ey1-[d,ey1]]-13/13,[d_ey1-d_ey1-[d,ey1]]-13/21,[d_ey1-d_ey1-[d,ey1]]-13/23,[d_ey1-d_ey1-[d,ey1]]-13/25,[d_ey1-d_ey1-[d,ey1]]-21/21,[d_ey1-d_ey1-[d,ey1]]-21/23,[d_ey1-d_ey1-[d,ey1]]-21/25,[d_ey1-d_ey1-[d,ey1]]-23/25,[d_ey1-d_ey1_n_jh_er-[1-[d]-[d],[cvc-[d,ey,n],cv-[jh,er]]]]-13/20,[d_ey1_n_jh_er-d_aa1_r_l_ih_ng-[1-[d]-[d],[cvv-[d,aa,r],cvc-[l,ih,ng]]]]-12/19,[d_ey1_n_jh_er-d_ey1-[1-[d]-[d],cv-[d,ey]]]-12/13,[d_ey1_n_jh_er-d_ey1-[1-[d]-[d],cv-[d,ey]]]-12/21,[d_ey1_n_jh_er-d_ey1-[1-[d]-[d],cv-[d,ey]]]-12/23,[d_ey1_n_jh_er-d_ey1-[1-[d]-[d],cv-[d,ey]]]-12/25,[d_ey1_n_jh_er-d_ey1-[1-[d]-[d],cv-[d,ey]]]-20/21,[d_ey1_n_jh_er-d_ey1-[1-[d]-[d],cv-[d,ey]]]-20/23,[d_ey1_n_jh_er-d_ey1-[1-[d]-[d],cv-[d,ey]]]-20/25,[d_ey1_n_jh_er-d_ey1_n_jh_er-[d,ey1,n,jh,er]]-12/20,[dh_eh1_n-d_aa1_r_l_ih_ng-[1-[d,h]-[d],[cvv-[d,aa,r],cvc-[l,ih,ng]]]]-9/11,[dh_eh1_n-d_aa1_r_l_ih_ng-[1-[d,h]-[d],[cvv-[d,aa,r],cvc-[l,ih,ng]]]]-9/19,[dh_eh1_n-d_ey1-[1-[d,h]-[d],cv-[d,ey]]]-9/13,[dh_eh1_n-d_ey1-[1-[d,h]-[d],cv-[d,ey]]]-9/21,[dh_eh1_n-d_ey1-[1-[d,h]-[d],cv-[d,ey]]]-9/23,[dh_eh1_n-d_ey1-[1-[d,h]-[d],cv-[d,ey]]]-9/25,[dh_eh1_n-d_ey1_n_jh_er-[1-[d,h]-[d],[cvc-[d,ey,n],cv-[jh,er]]]]-9/12,[dh_eh1_n-d_ey1_n_jh_er-[1-[d,h]-[d],[cvc-[d,ey,n],cv-[jh,er]]]]-9/20,[eh1_n_d_ih_ng-eh1_n_d_ih_ng-[eh1,n,d,ih,ng]]-9/10,[f_ay1_n_d-f_er1_s_t-[1-[f]-[f],cvcc-[f,er,s,t]]]-6/9,[ih_t_s-ih_t-[2-[i,h]-[i,h],vc-[ih,t]]]-10/22,[l_ay1_t-l_ay1_t-[l,ay1,t]]-4/15,[l_ay1_t-l_eh1_s-[1-[l]-[l],cvc-[l,eh,s]]]-4/15,[l_ay1_t-l_eh1_s-[1-[l]-[l],cvc-[l,eh,s]]]-15/15,[l_ay1_t-l_iy1_v-[1-[l]-[l],cvc-[l,iy,v]]]-4/5,[l_iy1_v-l_ay1_t-[1-[l]-[l],cvc-[l,ay,t]]]-5/15,[l_iy1_v-l_eh1_s-[1-[l]-[l],cvc-[l,eh,s]]]-5/15,[m_ay1_n_d-m_eh1_n_sh_ah_n_d-[1-[m]-[m],[cvcc-[m,eh,n,sh],vcc-[ah,n,d]]]]-5/16,[n_eh1_v_er-n_eh1_v_er-[n,eh1,v,er]]-8/10,[n_eh1_v_er-n_eh1_v_er-[n,eh1,v,er]]-8/16,[n_eh1_v_er-n_eh1_v_er-[n,eh1,v,er]]-8/17,[n_eh1_v_er-n_eh1_v_er-[n,eh1,v,er]]-10/16,[n_eh1_v_er-n_eh1_v_er-[n,eh1,v,er]]-10/17,[n_eh1_v_er-n_eh1_v_er-[n,eh1,v,er]]-16/16,[n_eh1_v_er-n_eh1_v_er-[n,eh1,v,er]]-16/17,[p_ih1_ch-p_r_iy_t_eh1_n_d-[1-[p]-[p,r],[ccvc-[p,r,iy,t],vcc-[eh,n,d]]]]-4/10,[r_ay1_t-r_ih_m_eh_m_b_ax-[1-[r]-[r],[cvc-[r,ih,m],vc-[eh,m],cv-[b,ax]]]]-6/17,[s_ey1_v-s_ey1_v-[s,ey1,v]]-11/19,[s_ey1_v-s_p_ow1_k_ah_n-[1-[s]-[s,p],[ccvc-[s,p,ow,k],vc-[ah,n]]]]-11/16,[s_p_ow1_k_ah_n-s_ey1_v-[1-[s,p]-[s],cvc-[s,ey,v]]]-16/19,[s_w_ih1_ch-s_ey1_v-[1-[s]-[s],cvc-[s,ey,v]]]-5/11,[s_w_ih1_ch-s_ey1_v-[1-[s]-[s],cvc-[s,ey,v]]]-5/19,[s_w_ih1_ch-s_p_ow1_k_ah_n-[1-[s]-[s,p],[ccvc-[s,p,ow,k],vc-[ah,n]]]]-5/16,[t_ay1_m-t_ay1_m-[t,ay1,m]]-7/11,[t_ay1_m-t_ay1_m-[t,ay1,m]]-7/18,[t_ay1_m-t_ay1_m-[t,ay1,m]]-11/18,[t_ay1_m-t_eh1_n_d_ih_ng-[1-[t]-[t],[cvcc-[t,eh,n,d],vc-[ih,ng]]]]-7/8,[t_ay1_m-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-7/13,[t_ay1_m-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-7/14,[t_ay1_m-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-7/21,[t_ay1_m-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-7/22,[t_ay1_m-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-7/24,[t_ay1_m-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-11/13,[t_ay1_m-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-11/14,[t_ay1_m-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-11/21,[t_ay1_m-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-11/22,[t_ay1_m-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-11/24,[t_ay1_m-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-18/21,[t_ay1_m-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-18/22,[t_ay1_m-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-18/24,[t_eh1_n_d_ih_ng-t_ay1_m-[1-[t]-[t],cvc-[t,ay,m]]]-8/11,[t_eh1_n_d_ih_ng-t_ay1_m-[1-[t]-[t],cvc-[t,ay,m]]]-8/18,[t_eh1_n_d_ih_ng-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-8/13,[t_eh1_n_d_ih_ng-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-8/14,[t_eh1_n_d_ih_ng-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-8/21,[t_eh1_n_d_ih_ng-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-8/22,[t_eh1_n_d_ih_ng-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-8/24,[t_er1_n-t_ay1_m-[1-[t]-[t],cvc-[t,ay,m]]]-4/7,[t_er1_n-t_ay1_m-[1-[t]-[t],cvc-[t,ay,m]]]-4/11,[t_er1_n-t_ay1_m-[1-[t]-[t],cvc-[t,ay,m]]]-4/18,[t_er1_n-t_eh1_n_d_ih_ng-[1-[t]-[t],[cvcc-[t,eh,n,d],vc-[ih,ng]]]]-4/8,[t_er1_n-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-4/13,[t_er1_n-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-4/14,[t_er1_n-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-4/21,[t_er1_n-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-4/22,[t_er1_n-t_ey1_k-[1-[t]-[t],cvc-[t,ey,k]]]-4/24,[t_ey1_k-t_ay1_m-[1-[t]-[t],cvc-[t,ay,m]]]-13/18,[t_ey1_k-t_ay1_m-[1-[t]-[t],cvc-[t,ay,m]]]-14/18,[t_ey1_k-t_ey1_k-[t,ey1,k]]-13/14,[t_ey1_k-t_ey1_k-[t,ey1,k]]-13/21,[t_ey1_k-t_ey1_k-[t,ey1,k]]-13/22,[t_ey1_k-t_ey1_k-[t,ey1,k]]-13/24,[t_ey1_k-t_ey1_k-[t,ey1,k]]-14/21,[t_ey1_k-t_ey1_k-[t,ey1,k]]-14/22,[t_ey1_k-t_ey1_k-[t,ey1,k]]-14/24,[t_ey1_k-t_ey1_k-[t,ey1,k]]-21/22,[t_ey1_k-t_ey1_k-[t,ey1,k]]-21/24,[t_ey1_k-t_ey1_k-[t,ey1,k]]-22/24,[w_ah_l-w_ah_l-[w,ah,l]]-11/17,[w_ah_l-w_ah_l-[w,ah,l]]-11/18,[w_ah_l-w_ah_l-[w,ah,l]]-17/18,[w_ah_l-w_eh_n-[1-[w]-[w],vvc-[w,eh,n]]]-11/15,[w_ah_l-w_iy_r-[1-[w]-[w],vvv-[w,iy,r]]]-11/12,[w_ah_l-w_iy_r-[1-[w]-[w],vvv-[w,iy,r]]]-11/20,[w_ah_l-w_iy_r-[1-[w]-[w],vvv-[w,iy,r]]]-17/20,[w_ah_l-w_iy_r-[1-[w]-[w],vvv-[w,iy,r]]]-18/20,[w_eh_n-w_ah_l-[1-[w]-[w],vvv-[w,ah,l]]]-15/17,[w_eh_n-w_ah_l-[1-[w]-[w],vvv-[w,ah,l]]]-15/18,[w_eh_n-w_iy_r-[1-[w]-[w],vvv-[w,iy,r]]]-15/20,[w_ih1_l-w_ah_l-[1-[w]-[w],vvv-[w,ah,l]]]-7/11,[w_ih1_l-w_ah_l-[1-[w]-[w],vvv-[w,ah,l]]]-7/17,[w_ih1_l-w_ah_l-[1-[w]-[w],vvv-[w,ah,l]]]-7/18,[w_ih1_l-w_eh_n-[1-[w]-[w],vvc-[w,eh,n]]]-7/15,[w_ih1_l-w_iy_r-[1-[w]-[w],vvv-[w,iy,r]]]-7/12,[w_ih1_l-w_iy_r-[1-[w]-[w],vvv-[w,iy,r]]]-7/20,[w_iy_r-w_ah_l-[1-[w]-[w],vvv-[w,ah,l]]]-12/17,[w_iy_r-w_ah_l-[1-[w]-[w],vvv-[w,ah,l]]]-12/18,[w_iy_r-w_eh_n-[1-[w]-[w],vvc-[w,eh,n]]]-12/15,[w_iy_r-w_iy_r-[w,iy,r]]-12/20]">
 </Consonances_Assonances>
-	<Word_Repetitions words="[will,will,will,will,we,we,us,us,time,time,time,take,take,take,take,take,save,save,re,re,never,never,never,never,never,light,light,it,it,it,it,it,it,i,i,i,ending,ending,day,day,day,day,day,day,darling,darling,darling,danger,danger,bring,bring,bring,best,best,best,best,away,away,away,away,away,and,and,and,and,all,all,all,all,all,all,all,all]">
+	<Word_Repetitions words="[will,will,will,time,time,take,take,take,never,never,never,never,it,it,it,it,i,i,day,day,day,day,darling,darling,bring,bring,best,best,best,away,away,away,and,and,and,all,all,all,all,all]">
 </Word_Repetitions>
 </All_Rhyming_Words>
 </General_Rhetoric_Devices>

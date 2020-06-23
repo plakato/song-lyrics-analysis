@@ -1,0 +1,240 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Gangsta Lyrics.txt_1-1  []-positive  []
+Gangsta Lyrics.txt_2-3  []-positive  []
+Gangsta Lyrics.txt_2-4  []-positive  []
+Gangsta Lyrics.txt_2-5  []-positive  []
+Gangsta Lyrics.txt_2-6  []-negative  [neg,neg,neg]
+Gangsta Lyrics.txt_2-7  []-positive  [fgb]
+Gangsta Lyrics.txt_3-8  []-positive  []
+Gangsta Lyrics.txt_3-9  []-positive  []
+Gangsta Lyrics.txt_4-13  [if-hypoth]-negative  [fgb,neg]
+Gangsta Lyrics.txt_4-14  [then-temp_seq]-positive  [neg,fgb]
+Gangsta Lyrics.txt_5-21  []-negative  [neg,neg]
+Gangsta Lyrics.txt_6-30  []-positive  [neg]
+Gangsta Lyrics.txt_6-31  []-negative  [neg]
+Gangsta Lyrics.txt_6-32  []-positive  []
+Gangsta Lyrics.txt_7-38  [if-hypoth]-positive  [fgb]
+Gangsta Lyrics.txt_7-39  []-suspension  []
+Gangsta Lyrics.txt_7-40  []-negative  [fgb,neg]
+Gangsta Lyrics.txt_8-48  [if-hypoth]-positive  [fgb]
+Gangsta Lyrics.txt_8-49  []-negative  [neg]
+Gangsta Lyrics.txt_8-50  []-positive  []
+Gangsta Lyrics.txt_8-51  []-positive  [fhd]
+Gangsta Lyrics.txt_8-52  []-positive  []
+Gangsta Lyrics.txt_9-60  []-positive  []
+Gangsta Lyrics.txt_10-70  []-negative  []
+Gangsta Lyrics.txt_11-81  []-negative  []
+Gangsta Lyrics.txt_12-94  [when-temp_coinc]-positive  []
+Gangsta Lyrics.txt_12-95  []-positive  [neg,neg]
+Gangsta Lyrics.txt_13-109  [so-result]-negative  [fgb,neg,fhd]
+Gangsta Lyrics.txt_13-110  []-negative  [neg]
+Gangsta Lyrics.txt_13-111  []-negative  []
+Gangsta Lyrics.txt_13-112  []-positive  []
+Gangsta Lyrics.txt_14-126  []-positive  []
+Gangsta Lyrics.txt_15-141  []-positive  []
+Gangsta Lyrics.txt_15-142  []-negative  [neg]
+Gangsta Lyrics.txt_16-158  []-suspension  []
+Gangsta Lyrics.txt_17-175  []-positive  []
+Gangsta Lyrics.txt_17-176  []-suspension  []
+Gangsta Lyrics.txt_17-177  []-suspension  [neg,neg,neg]
+Gangsta Lyrics.txt_18-195  []-positive  [fgb,neg,neg]
+Gangsta Lyrics.txt_18-196  []-negative  [neg,neg]
+Gangsta Lyrics.txt_19-216  []-positive  []
+Gangsta Lyrics.txt_19-217  []-positive  []
+Gangsta Lyrics.txt_20-238  []-negative  [neg,fhd,neg,neg]
+Gangsta Lyrics.txt_20-239  []-negative  [neg,neg]
+Gangsta Lyrics.txt_20-240  []-positive  []
+Gangsta Lyrics.txt_21-259  []-positive  []
+Gangsta Lyrics.txt_21-260  []-suspension  [fhd,fgb,fgb,neg]
+Gangsta Lyrics.txt_22-285  [so-result]-negative  [fgb,neg,fgb]
+Gangsta Lyrics.txt_23-310  []-negative  []
+Gangsta Lyrics.txt_24-335  []-positive  [fhd]
+Gangsta Lyrics.txt_24-336  []-positive  [fgb]
+Gangsta Lyrics.txt_25-361  []-positive  []
+Gangsta Lyrics.txt_25-362  []-positive  [fhd]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Gangsta Lyrics.txt_1-1  [Gangsta,Lyrics,by,Purple,City]  [title]
+Gangsta Lyrics.txt_2-3  [you,wrapped,around,me]  [provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(wrap,[external,factive,narration,foreground,objective])]
+Gangsta Lyrics.txt_2-4  [you,wrapped,around,me,now]  [provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(wrap,[external,factive,narration,foreground,objective])]
+Gangsta Lyrics.txt_2-5  [,,i,done,told]  [provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(wrap,[external,factive,narration,foreground,objective])]
+Gangsta Lyrics.txt_2-6  [you,all,niggas,in,two-thou,-,four,we,is,not,not,the,niggas,to,fuck,with]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),reject_expl_just(wrap,[external,factive,narration,foreground,objective])]
+Gangsta Lyrics.txt_2-7  [and]  [provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(wrap,[external,factive,narration,foreground,objective])]
+Gangsta Lyrics.txt_3-8  [i,done,told]  [provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_3-9  [you,all,niggas]  [provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_4-13  [if,you,fucking,with,the,dips]  [reject_expl_just(fuck,[external,factive,narration,foreground,objective]),reject_expl_just(cock,[external,factive,circumstance,background,objective]),propose_opin_neg(cock,[external,factive,circumstance,background,objective]),reject_expl_just(lot,[external,factive,result,foreground,objective]),propose_opin_neg(lot,[external,factive,result,foreground,objective])]
+Gangsta Lyrics.txt_4-14  [,,then,you,pressin-,your,luck,B,i,am,a,pop,the,trunk,then,cock,the,pump,and,do,lots,of,jumpin-,we]  [provide_expl_just(fuck,[external,factive,narration,foreground,objective]),propose_opin_neg(cock,[external,factive,circumstance,background,objective]),propose_opin_neg(lot,[external,factive,result,foreground,objective])]
+Gangsta Lyrics.txt_5-21  [don-t,ever,leave,them,chromes,at_home,you,all,niggas,better,leave,them,boys,,,alone,Jim,Jones,there,is,parts,of,Uptown,that,we,call,Purple,City,holler,at,Shiest,from,the,circle,to,the,piffy,wrist]  [reject_expl_just(call,[external,factive,narration,background,objective]),reject_expl_just(leave,[external,factive,narration,foreground,objective]),reject_expl_just(chrome,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_6-30  [good,about,fifty,worth,whip,look,look,good,worth]  [provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_6-31  [a,buck-sixty,shit,goes,fast,about,a,buck-sixty]  [reject_expl_just(look,[external,factive,narration,background,objective]),reject_expl_just(go,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_6-32  [life,goes,fast]  [provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_7-38  [if,you,blink]  [provide_expl_just(blink,[external,factive,narration,background,objective]),provide_expl_just(miss,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_7-39  [you,might,miss,me]  [provide_expl_just(blink,[external,factive,narration,background,objective]),provide_expl_just(miss,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_7-40  [and,fuck,a,glass]  [reject_expl_just(blink,[external,factive,narration,background,objective]),reject_expl_just(miss,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_8-48  [if,i,drink]  [provide_expl_just(order,[external,factive,narration,background,objective]),provide_expl_just(drink,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,foreground,objective])]
+Gangsta Lyrics.txt_8-49  [it,is,not,tipsy]  [reject_expl_just(order,[external,factive,narration,background,objective]),reject_expl_just(drink,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(try,[external,factive,narration,foreground,objective])]
+Gangsta Lyrics.txt_8-50  [it,is,more]  [provide_expl_just(order,[external,factive,narration,background,objective]),provide_expl_just(drink,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,foreground,objective])]
+Gangsta Lyrics.txt_8-51  [,,like,pissy,standing,on,a,couch,trying,order,more,Crissy]  [provide_expl_just(order,[external,factive,narration,background,objective]),provide_expl_just(drink,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,foreground,objective])]
+Gangsta Lyrics.txt_8-52  [you,order,more,drippy,hammer,bulging,out,hope]  [provide_expl_just(order,[external,factive,narration,background,objective]),provide_expl_just(drink,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,foreground,objective])]
+Gangsta Lyrics.txt_9-60  [lord,the,!]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Gangsta Lyrics.txt_10-70  [frisk,don-t,!]  reject_expl_opin(nil,[])
+Gangsta Lyrics.txt_11-81  [me,i,get,still,it,in,guns,on,the,waist,blew,about,ten,grand]  [provide_expl_just(blow,[external,factive,narration,foreground,objective]),provide_expl_just(still,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_12-94  [when,i,come,in,the,place,now,,,it,is,all,in,them,ones]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_12-95  [all,just,for,fun,see,,,the,bitches,be,players]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_13-109  [so,we,roar,like,the,Suns]  [reject_expl_just(blow,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(roar,[external,factive,narration,background,objective]),reject_expl_just(route,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_13-110  [i,am,addicted,to,the,lifestyle,blowing,weed,piffing]  [reject_expl_just(blow,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(roar,[external,factive,narration,background,objective]),reject_expl_just(route,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_13-111  [G,riding,on,the,night,route,g-a,N-G]  [provide_expl_just(blow,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(roar,[external,factive,narration,background,objective]),provide_expl_just(route,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_13-112  [S-T,a,the]  [provide_expl_just(blow,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(roar,[external,factive,narration,background,objective]),provide_expl_just(route,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_14-126  [first,we,spit,the,rest]  [provide_expl_just(spit,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_15-141  [all,you,we,spray]  [provide_expl_just(spray,[external,factive,narration,background,objective]),provide_expl_just(build-cl34,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_15-142  [is,not,built,for,this,thing]  [reject_expl_just(spray,[external,factive,narration,background,objective]),reject_expl_just(build-cl34,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_16-158  [we,sporty,look,at,shorty,she,will]  [provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Gangsta Lyrics.txt_17-175  [all,the,way,from,pictures,i,showed,ya,told]  [provide_expl_just(fold,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_17-176  [ya,niggas,that,i,am,a,clap,ya,i,will,fold,ya,told,ya,niggas]  [provide_expl_just(fold,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_17-177  [i,am,not,not,a,rapper,heavy,on,the,wrist-wear]  [provide_expl_just(fold,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_18-195  [i,know,what,ya,heard,man,shit,on,my,arm,run,.]  [provide_expl_just(hear,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_18-196  [ya,heard,man,shit,on,my,arm,run]  [reject_expl_just(hear,[external,factive,narration,foreground,objective]),reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(run,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_19-216  [Ya-bout,thirty,grand,it,take,a,lot,to,get,me,high,half]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_19-217  [a,P,of,33,a,whole,P,of,65,i,a,price,put,tag]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_20-238  [Eleven,on,your,dome,move,weight,like,i,is,not,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_20-239  [,,never,goin-,home,i,am,a,Purple,City,boss]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_20-240  [,,n,ya,,,dig,fuckin-]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_21-259  [i,could,either,recruit]  [provide_expl_just(snake,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,circumstance,background,objective])]
+Gangsta Lyrics.txt_21-260  [you,or,scalp,ya,snake,me,and,i,will,make,a,pair,of,boots,up,out,ya,he,what,the,game,need]  [provide_expl_just(snake,[external,factive,narration,background,objective]),propose_opin_neg(need,[external,factive,circumstance,background,objective])]
+Gangsta Lyrics.txt_22-285  [he,so,hungry,got,it,down,and,he,don-t,even,need,to,be,punchy,he,is,cozy,.,packed]  [reject_expl_just(be,[external,factive,rationale,background,objective])]
+Gangsta Lyrics.txt_23-310  [he,don-t,need,to,be,comfy,wrap]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Gangsta Lyrics.txt_24-335  [they,scrungies,Crow-bars,around,your,heads,like,got,an,APB,on,your,boy]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_24-336  [and]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Gangsta Lyrics.txt_25-361  [i,grade,got,the,D-E,in,the,choy,in]  [provide_expl_just(hit,[external,factive,cause,foreground,objective]),suggest(hit,[external,factive,cause,foreground,objective]),provide_expl_just(get,[external,factive,result,foreground,objective]),suggest(get,[external,factive,result,foreground,objective])]
+Gangsta Lyrics.txt_25-362  [,,the,stashbox,low,in,the,holster,switch,hit,the,Gon,na,hop,out,like,Brenda,n,the,toaster,you-s]  [provide_expl_just(hit,[external,factive,cause,foreground,objective]),suggest(hit,[external,factive,cause,foreground,objective]),provide_expl_just(get,[external,factive,result,foreground,objective]),suggest(get,[external,factive,result,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Gangsta Lyrics.txt_1-1)-[]
+2-(Gangsta Lyrics.txt_2-3)-[]
+3-(Gangsta Lyrics.txt_2-4)-[secondary-temporal_repere]
+4-(Gangsta Lyrics.txt_2-5)-[secondary-social_behavior]
+5-(Gangsta Lyrics.txt_2-6)-[primary-sex]
+6-(Gangsta Lyrics.txt_2-7)-[]
+7-(Gangsta Lyrics.txt_3-8)-[secondary-social_behavior]
+8-(Gangsta Lyrics.txt_3-9)-[]
+9-(Gangsta Lyrics.txt_4-13)-[primary-descent]
+10-(Gangsta Lyrics.txt_4-14)-[secondary-temporal_repere,secondary-temporal_repere]
+11-(Gangsta Lyrics.txt_5-21)-[secondary-temporal_repere,secondary-abstract_tought,secondary-abstract_tought,secondary-social_behavior,primary-concreteness,primary-concreteness,primary-narcissism]
+12-(Gangsta Lyrics.txt_6-30)-[emotions-aggression,primary-vision,primary-vision]
+13-(Gangsta Lyrics.txt_6-31)-[primary-anality,primary-orality]
+14-(Gangsta Lyrics.txt_6-32)-[primary-orality]
+15-(Gangsta Lyrics.txt_7-38)-[primary-vision]
+16-(Gangsta Lyrics.txt_7-39)-[]
+17-(Gangsta Lyrics.txt_7-40)-[primary-sex,primary-hard]
+18-(Gangsta Lyrics.txt_8-48)-[primary-orality]
+19-(Gangsta Lyrics.txt_8-49)-[primary-concreteness]
+20-(Gangsta Lyrics.txt_8-50)-[]
+21-(Gangsta Lyrics.txt_8-51)-[emotions-affection,primary-anality,primary-passivity,secondary-instru_behavior,secondary-order]
+22-(Gangsta Lyrics.txt_8-52)-[secondary-order,primary-water,primary-concreteness]
+23-(Gangsta Lyrics.txt_9-60)-[]
+24-(Gangsta Lyrics.txt_10-70)-[emotions-expressive_beh]
+25-(Gangsta Lyrics.txt_11-81)-[emotions-aggression,primary-sex]
+26-(Gangsta Lyrics.txt_12-94)-[secondary-temporal_repere,primary-concreteness,secondary-temporal_repere,secondary-abstract_tought]
+half
+27-(Gangsta Lyrics.txt_12-95)-[emotions-positive_affect,primary-vision,primary-sex]
+28-(Gangsta Lyrics.txt_13-109)-[emotions-expressive_beh,emotions-affection]
+29-(Gangsta Lyrics.txt_13-110)-[]
+30-(Gangsta Lyrics.txt_13-111)-[primary-voyage,primary-brink]
+31-(Gangsta Lyrics.txt_13-112)-[]
+32-(Gangsta Lyrics.txt_14-126)-[primary-orality,primary-passivity]
+33-(Gangsta Lyrics.txt_15-141)-[]
+34-(Gangsta Lyrics.txt_15-142)-[secondary-instru_behavior]
+35-(Gangsta Lyrics.txt_16-158)-[emotions-expressive_beh,primary-vision,primary-concreteness]
+36-(Gangsta Lyrics.txt_17-175)-[primary-vision,secondary-social_behavior]
+37-(Gangsta Lyrics.txt_17-176)-[secondary-social_behavior]
+38-(Gangsta Lyrics.txt_17-177)-[]
+39-(Gangsta Lyrics.txt_18-195)-[secondary-abstract_tought,primary-sound,primary-anality,primary-narcissism]
+40-(Gangsta Lyrics.txt_18-196)-[primary-sound,primary-anality,primary-narcissism]
+41-(Gangsta Lyrics.txt_19-216)-[primary-height]
+42-(Gangsta Lyrics.txt_19-217)-[secondary-instru_behavior]
+43-(Gangsta Lyrics.txt_20-238)-[primary-height,secondary-abstract_tought,emotions-affection]
+44-(Gangsta Lyrics.txt_20-239)-[]
+45-(Gangsta Lyrics.txt_20-240)-[primary-descent]
+46-(Gangsta Lyrics.txt_21-259)-[]
+47-(Gangsta Lyrics.txt_21-260)-[emotions-aggression,secondary-instru_behavior,primary-concreteness,emotions-expressive_beh]
+48-(Gangsta Lyrics.txt_22-285)-[primary-orality,primary-passivity]
+49-(Gangsta Lyrics.txt_23-310)-[]
+50-(Gangsta Lyrics.txt_24-335)-[primary-narcissism,emotions-affection]
+51-(Gangsta Lyrics.txt_24-336)-[]
+52-(Gangsta Lyrics.txt_25-361)-[secondary-order]
+53-(Gangsta Lyrics.txt_25-362)-[primary-depth,emotions-aggression,primary-concreteness,emotions-affection]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Gangsta Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-City-sn2,subj-theme_bound-Lyrics-sn1,and(City,Purple,sn2),and(Lyrics,Gangsta,sn1),def_prop(City,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Gangsta Lyrics.txt_2,3,cl4-not-nil-be-[xcomp-prop-nigga-sn14,subj-sn10-we-sn13,ncmod-modal-two-thou-sn12,xcomp-prop-nigga-sn11,subj-theme_bound-you-sn10,neg-not-nil,and(we,four,sn13),and(nigga,all,sn11),def_prop(nigga,[istituzione,umano]),def_prop(we,[umano]),def_prop(two-thou,[nquant]),def_prop(nigga,[istituzione,umano]),def_prop(you,[umano])])
+lf(Gangsta Lyrics.txt_2,3,cl3-nil-nil-tell-[subj-agent-you-sn9,def_prop(you,[umano])])
+lf(Gangsta Lyrics.txt_2,3,cl2-nil-nil-wrap-[adj-(mod)-tell-nil,obj-theme_aff-me-sn5,subj-agent-you-sn4,obj-theme_aff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Gangsta Lyrics.txt_3,8,cl6-nil-nil-be-[xcomp-prop-nigga-sn3,subj-theme_bound-you-sn2,and(nigga,all,sn3),def_prop(nigga,[istituzione,umano]),def_prop(you,[umano])])
+lf(Gangsta Lyrics.txt_3,8,cl5-nil-nil-tell-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Gangsta Lyrics.txt_4,13,cl10-nil-nil-lot-[cmod-subord-lot-then,cmod-coord-cock-and,ncmod-prop-[]-sn17,ncmod-prop-[]-sn16,subj-agent-you-sn15,ncmod-comitativo-dip-sn2,aux-do-nil,def_prop([],nil),def_prop([],nil),def_prop(you,[umano]),def_prop(dip,[astratto,attivita,edible,evento,oggetto,strumento])])
+lf(Gangsta Lyrics.txt_4,13,cl9-nil-nil-cock-[obj-theme-pump-sn14,subj-actor-you-sn13,def_prop(pump,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Gangsta Lyrics.txt_4,13,cl8-nil-nil-be-[xcomp-theme-we-sn10,xcomp-theme_aff-trunk-sn9,xcomp-prop-pop-sn8,xcomp-theme-i-sn7,obj2-benef-B-sn6,xcomp-theme-luck-sn5,xcomp-prop-[]-sn4,subj-theme_bound-you-sn3,def_prop(we,[umano]),def_prop(trunk,[oggetto,plant,strumento]),def_prop(pop,[edible,evento,oggetto]),def_prop(i,[umano]),def_prop(B,[attivita,informa,istituzione,oggetto,strumento]),def_prop(luck,[attivita,cambia]),def_prop([],nil),def_prop(you,[umano])])
+lf(Gangsta Lyrics.txt_4,13,cl7-nil-nil-fuck-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Gangsta Lyrics.txt_5,21,3-nil-nil-call-[obj-prop-wrist-sn52,iobj-goal-circle-sn51,iobj-goal-Shiest-sn50,obj-theme-holler-sn49,obj-theme_bound-City-sn48,subj-agent-we-sn47,obj-prop-wrist-sn43,iobj-goal-circle-sn42,iobj-goal-Shiest-sn41,obj-theme-holler-sn40,obj-theme_bound-City-sn39,subj-agent-we-sn38,obj-prop-wrist-sn34,iobj-goal-circle-sn33,iobj-goal-Shiest-sn32,obj-theme-holler-sn31,obj-theme_bound-City-sn30,subj-agent-we-sn29,obj-prop-wrist-sn25,iobj-goal-circle-sn24,iobj-goal-Shiest-sn23,obj-theme-holler-sn22,obj-theme_bound-City-sn21,subj-agent-we-sn20,obj-prop-wrist-sn15,iobj-goal-circle-sn14,iobj-goal-Shiest-sn13,obj-theme-holler-sn12,obj-theme_bound-City-sn11,subj-agent-we-sn10,and(circle,piffy,sn51),and(City,Purple,sn48),and(circle,piffy,sn42),and(City,Purple,sn39),and(circle,piffy,sn33),and(City,Purple,sn30),and(circle,piffy,sn24),and(City,Purple,sn21),and(circle,piffy,sn14),and(City,Purple,sn11),def_prop(wrist,[body_part,umano]),def_prop(circle,[astratto,oggetto,strumento]),def_prop(Shiest,[istituzione]),def_prop(holler,[attivita,informa]),def_prop(City,[place,umano]),def_prop(we,[umano]),def_prop(wrist,[body_part,umano]),def_prop(circle,[astratto,oggetto,strumento]),def_prop(Shiest,[istituzione]),def_prop(holler,[attivita,informa]),def_prop(City,[place,umano]),def_prop(we,[umano]),def_prop(wrist,[body_part,umano]),def_prop(circle,[astratto,oggetto,strumento]),def_prop(Shiest,[istituzione]),def_prop(holler,[attivita,informa]),def_prop(City,[place,umano]),def_prop(we,[umano]),def_prop(wrist,[body_part,umano]),def_prop(circle,[astratto,oggetto,strumento]),def_prop(Shiest,[istituzione]),def_prop(holler,[attivita,informa]),def_prop(City,[place,umano]),def_prop(we,[umano]),def_prop(wrist,[body_part,umano]),def_prop(circle,[astratto,oggetto,strumento]),def_prop(Shiest,[istituzione]),def_prop(holler,[attivita,informa]),def_prop(City,[place,umano]),def_prop(we,[umano])])
+lf(Gangsta Lyrics.txt_5,21,cl12-nil-nil-be-[subj-theme_bound-part-sn37,subj-theme_bound-part-sn28,xcomp-prop-Jones-sn19,subj-theme_bound-part-sn18,xcomp-prop-part-sn9,xcomp-prop-Jones-sn8,subj-theme_bound-Jim-sn7,and(part,Uptown,sn37),and(part,Uptown,sn28),and(part,Uptown,sn18),and(part,Uptown,sn9),and(Jim,alone,sn7),def_prop(part,[astratto,attivita,body_part,informa,oggetto,relat,strumento,umano]),def_prop(part,[astratto,attivita,body_part,informa,oggetto,relat,strumento,umano]),def_prop(Jones,[place,plant,umano]),def_prop(part,[astratto,attivita,body_part,informa,oggetto,relat,strumento,umano]),def_prop(part,[astratto,attivita,body_part,informa,oggetto,relat,strumento,umano]),def_prop(Jones,[place,plant,umano]),def_prop(Jim,[umano])])
+lf(Gangsta Lyrics.txt_5,21,nil-nil-nil-chrome-[])
+lf(Gangsta Lyrics.txt_5,21,cl11-not-nil-leave-[obj-theme-boy-sn5,obj-theme-all-sn4,obj2-paziente-at_home-sn3,obj-theme-them-sn2,subj-theme-you-sn1,adj-(mod)-ever-nil,aux-do-nil,and(boy,them,sn5),def_prop(boy,[oggetto,strumento]),def_prop(all,[_1934494]),def_prop(at_home,[luogo,oggetto,stato,strumento]),def_prop(them,[umano]),def_prop(you,[umano])])
+lf(Gangsta Lyrics.txt_6,30,cl14-nil-nil-go-[adj-(mod)-fast-nil,subj-agent-life-sn10,ncmod-subj_disc-buck-sixty-sn7,subj-agent-shit-sn6,and(shit,buck-sixty,sn6),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(buck-sixty,[animato,nquant]),def_prop(shit,[attivita,umano])])
+lf(Gangsta Lyrics.txt_6,30,cl13-nil-nil-look-[ncmod-subj_disc-whip-sn3,xcomp-prop-worth-sn2,subj-agent-look-sn1,and(whip,good,sn3),and(whip,fifty,sn3),and(worth,good,sn2),def_prop(whip,_1934954),def_prop(worth,[astratto,nquant]),def_prop(look,[astratto,attivita])])
+lf(Gangsta Lyrics.txt_7,38,cl17-nil-nil-be-[cmod-subord-be-",subj-theme_bound-glass-sn5,subj-theme_bound-glass-sn4,and(glass,you,sn4),def_prop(glass,[nquant,oggetto,sostanza,strumento]),def_prop(glass,[nquant,oggetto,sostanza,strumento])])
+lf(Gangsta Lyrics.txt_7,38,cl16-nil-might-miss-[obj-tema_eff-me-sn3,subj-experiencer-you-sn2,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Gangsta Lyrics.txt_7,38,cl15-nil-nil-blink-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Gangsta Lyrics.txt_8,48,cl21-nil-nil-order-[xadj-adj-bulging-adj3,ncmod-locativo-hope-sn12,obj-theme_aff-hammer-sn11,subj-agent-you-sn10,and(hammer,more,sn11),and(hammer,drippy,sn11),def_prop(bulging,_1935530),def_prop(hope,[astratto,emotivo,umano]),def_prop(hammer,[attivita,evento,oggetto,strumento]),def_prop(you,[umano])])
+lf(Gangsta Lyrics.txt_8,48,cl20-nil-nil-try-[xadj-adj-standing-adj2,xadj-adj-pissy-adj1,xcomp-agent-Crissy-sn9,xcomp-agent-order-sn8,ncmod-locativo-couch-sn7,subj-agent-you-sn6,def_prop(standing,_1935776),def_prop(pissy,_1935788),def_prop(Crissy,[umano]),def_prop(order,[astratto,attivita,informa,stato]),def_prop(couch,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Gangsta Lyrics.txt_8,48,cl19-nil-nil-be-[xcomp-prop-more-sn5,subj-theme_bound-it-sn4,xcomp-prop-tipsy-sn3,subj-theme_bound-it-sn2,def_prop(more,[astratto,informa,oggetto]),def_prop(it,[any]),def_prop(tipsy,[istituzione]),def_prop(it,[any])])
+lf(Gangsta Lyrics.txt_8,48,cl18-nil-nil-drink-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Gangsta Lyrics.txt_9,60,cl22-nil-nil-say-[])
+lf(Gangsta Lyrics.txt_10,70,cl23-not-nil-frisk-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Gangsta Lyrics.txt_11,81,_1936338-nil-nil-still-[voice-still-nil,tense-still-nil])
+lf(Gangsta Lyrics.txt_11,81,cl24-nil-nil-blow-[voice-still-nil,tense-still-nil,xcomp-prop-grand-sn6,obj-theme-ten-sn5,ncmod-locativo-waist-sn4,ncmod-locativo-gun-sn3,subj-agent-it-sn2,subj-agent-it-sn1,and(it,me,sn1),def_prop(grand,[nquant]),def_prop(ten,[nquant]),def_prop(waist,[body_part,umano]),def_prop(gun,[attivita,oggetto,strumento,umano]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Gangsta Lyrics.txt_12,94,_-nil-nil-come-[iobj-locat-place-sn3,def_prop(place,[astratto,attivita,informa,luogo,stato])])
+lf(Gangsta Lyrics.txt_12,94,cl27-nil-nil-see-[cmod-subord-come-for,obj-result-player-sn11,xcomp-prop-be-2,subj-experiencer-you-sn9,def_prop(player,[umano]),def_prop(you,[umano])])
+lf(Gangsta Lyrics.txt_12,94,cl26-nil-nil-be-[adj-(mod)-now-nil,xcomp-prop-all-sn5,subj-agent-it-sn4,xmod-prop-come-2,adj-sn1-when-sn2,subj-theme_bound-i-sn1,def_prop(all,[_1937126]),def_prop(it,[any]),def_prop(when,[tempo]),def_prop(i,[umano])])
+lf(Gangsta Lyrics.txt_12,94,cl25-nil-nil-come-[iobj-locat-place-sn3,def_prop(place,[astratto,attivita,informa,luogo,stato])])
+lf(Gangsta Lyrics.txt_13,109,cl31-nil-nil-route-[xcomp-prop-N-G-sn12,xcomp-prop-g-a-sn11,ncmod-temporale-night-sn10,xcomp-prop-riding-sn9,subj-agent-G-sn8,def_prop(N-G,[attivita,informa]),def_prop(g-a,[attivita,informa,istituzione]),def_prop(night,[tempo]),def_prop(riding,[attivita]),def_prop(G,[place,attivita,informa])])
+lf(Gangsta Lyrics.txt_13,109,cl30-nil-nil-blow-[])
+lf(Gangsta Lyrics.txt_13,109,cl29-nil-nil-be-[subj-theme_bound-you-sn13,xcomp-prop-piffing-sn7,xcomp-theme_aff-wee-sn6,xcomp-purpose-blow-2,ncmod-locativo-lifestyle-sn5,xcomp-prop-addicted-sn4,subj-theme_bound-i-sn3,def_prop(you,[umano]),def_prop(piffing,[istituzione]),def_prop(wee,[tempo]),def_prop(lifestyle,[astratto]),def_prop(addicted,[evaluative]),def_prop(i,[umano])])
+lf(Gangsta Lyrics.txt_13,109,cl28-nil-nil-roar-[obj-theme-Suns-sn2,subj-agent-we-sn1,def_prop(Suns,[umano]),def_prop(we,[umano])])
+lf(Gangsta Lyrics.txt_14,126,cl32-nil-nil-spit-[obj-theme_unaff-res-sn3,subj-agent-we-sn2,subj-agent-we-sn1,and(we,first,sn1),def_prop(res,[informa,tecno]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Gangsta Lyrics.txt_15,141,cl34-not-nil-build-[subj-theme_aff-thing-sn6,subj-theme_aff-thing-sn5,aux-(is)-nil,and(thing,this,sn6),and(thing,this,sn5),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Gangsta Lyrics.txt_15,141,cl33-nil-nil-spray-[subj-agent-we-sn2,subj-agent-we-sn1,and(we,you,sn1),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Gangsta Lyrics.txt_16,158,cl35-nil-will-will-[obj-theme_aff-she-sn3,subj-agent-look-sn2,subj-agent-look-sn1,and(look,sporty,sn2),and(look,we,sn1),and(look,sporty,sn1),def_prop(she,[umano]),def_prop(look,[astratto,attivita]),def_prop(look,[astratto,attivita])])
+lf(Gangsta Lyrics.txt_17,175,cl38-not-nil-be-[xadj-adj-heavy-adj4,ncmod-modale-wear-sn18,xcomp-prop-rapper-sn17,subj-theme_bound-i-sn16,xcomp-prop-nigga-sn7,def_prop(heavy,_1938870),def_prop(wear,[attivita,stato]),def_prop(rapper,[umano]),def_prop(i,[umano]),def_prop(nigga,[istituzione,umano])])
+lf(Gangsta Lyrics.txt_17,175,cl37-nil-will-fold-[xadj-theme-nigga-sn14,xcomp-prop-tell-sn12,obj-theme_aff-ya-sn11,obj-theme-i-sn10,obj2-goal-ya-sn9,obj-theme-clap-sn8,xcomp-prop-nigga-sn7,subj-actor-ya-sn6,def_prop(nigga,[istituzione,umano]),def_prop(tell,[evaluative]),def_prop(ya,[umano]),def_prop(i,[umano]),def_prop(ya,[umano]),def_prop(clap,[evento,stato]),def_prop(nigga,[istituzione,umano]),def_prop(ya,[umano])])
+lf(Gangsta Lyrics.txt_17,175,cl36-nil-nil-show-[xcomp-prop-tell-sn3,obj-goal-ya-sn2,subj-actor-way-sn1,def_prop(tell,[evaluative]),def_prop(ya,[umano]),def_prop(way,[astratto,attivita,oggetto,stato,strumento])])
+lf(Gangsta Lyrics.txt_18,195,cl41-nil-nil-run-[subj-tema_nonaff-shit-sn9,and(shit,man,sn9),def_prop(shit,[attivita,umano])])
+lf(Gangsta Lyrics.txt_18,195,cl40-nil-nil-hear-[ncmod-locativo-arm-sn10,obj-theme_unaff-shit-sn9,subj-experiencer-ya-sn8,ncmod-locativo-arm-sn4,and(shit,man,sn9),def_prop(arm,[astratto,body_part,oggetto,strumento,umano]),def_prop(shit,[attivita,umano]),def_prop(ya,[umano]),def_prop(arm,[astratto,body_part,oggetto,strumento,umano])])
+lf(Gangsta Lyrics.txt_18,195,cl39-nil-nil-know-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Gangsta Lyrics.txt_19,216,cl44-nil-nil-put-[obj-theme_aff-tag-sn20,obj-goal-P-sn19,subj-agent-P-sn18,obj-paziente-me-sn3,xcomp-purpose-get-4,and(tag,price,sn20),and(P,whole,sn19),def_prop(tag,[attivita,informa]),def_prop(P,[place,attivita,informa]),def_prop(P,[place,attivita,informa]),def_prop(me,[umano])])
+lf(Gangsta Lyrics.txt_19,216,cl43-nil-nil-get-[xadj-adj-grand-adj5,def_prop(grand,_1940240)])
+lf(Gangsta Lyrics.txt_19,216,cl42-nil-nil-take-[expl-it-nil,obj-theme_aff-lot-sn2,subj-agent-Ya-bout-sn1,and(Ya-bout,it,sn1),def_prop(lot,[luogo,nquant]),def_prop(Ya-bout,[attivita,informa,tempo,umano])])
+lf(Gangsta Lyrics.txt_20,238,cl45-not-nil-be-[xadj-theme-[]-sn16,xcomp-prop-ya-sn15,subj-theme_bound-n-sn14,xadj-adj-boss-adj6,adj-(mod)-home-nil,adj-(mod)-never-nil,xcomp-prop-City-sn10,subj-theme_bound-i-sn9,subj-theme_bound-i-sn8,xcomp-theme-i-sn4,xcomp-theme-move-sn3,ncmod-locativo-dome-sn2,subj-theme_bound-Eleven-sn1,and(City,Purple,sn10),and(i,goin-,sn8),and(move,move,sn3),def_prop([],nil),def_prop(ya,[umano]),def_prop(n,[attivita,informa,luogo]),def_prop(boss,_1940800),def_prop(City,[place,umano]),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(move,[attivita]),def_prop(dome,[astratto,oggetto,strumento]),def_prop(Eleven,[istituzione])])
+lf(Gangsta Lyrics.txt_21,259,cl50-nil-nil-need-[obl-locat-he-sn5,def_prop(he,[umano])])
+lf(Gangsta Lyrics.txt_21,259,cl49-nil-will-make-[cmod-coord-need-and,adj-(mod)-up-nil,ncmod-locativo-ya-sn9,obj-goal-pair-sn8,subj-agent-i-sn7,def_prop(ya,[umano]),def_prop(pair,[nquant]),def_prop(i,[umano])])
+lf(Gangsta Lyrics.txt_21,259,cl48-nil-nil-snake-[cmod-coord-need-or])
+lf(Gangsta Lyrics.txt_21,259,cl47-nil-nil-scalp-[obj-theme-me-sn14,xcomp-purpose-snake-2,subj-agent-ya-sn13,subj-agent-ya-sn12,and(ya,you,sn12),def_prop(me,[umano]),def_prop(ya,[umano]),def_prop(ya,[umano])])
+lf(Gangsta Lyrics.txt_21,259,cl46-nil-could-can-[obj-theme-recruit-sn2,subj-actor-i-sn1,and(recruit,either,sn2),def_prop(recruit,[umano]),def_prop(i,[umano])])
+lf(Gangsta Lyrics.txt_22,285,cl53-nil-nil-be-[xcomp-prop-cozy-sn3,subj-theme_bound-he-sn2,subj-theme_bound-he-sn1,and(he,he,sn1),def_prop(cozy,[oggetto,strumento]),def_prop(he,[umano]),def_prop(he,[umano])])
+lf(Gangsta Lyrics.txt_22,285,cl52-not-nil-don-t-[cmod-coord-be-and,xcomp-prop-punchy-sn7,xcomp-purpose-be-cl53,xcomp-prop-ne-sn6,subj-agent-he-sn5,def_prop(punchy,[evaluative]),def_prop(ne,[informa,legale,tecno]),def_prop(he,[umano])])
+lf(Gangsta Lyrics.txt_22,285,cl51-nil-nil-get-[cmod-subord-be-so,xcomp-prop-down-sn10,subj-theme_bound-it-sn9,subj-theme_bound-it-sn8,and(it,hungry,sn8),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Gangsta Lyrics.txt_23,310,cl55-nil-nil-be-[xcomp-prop-wrap-sn2,xcomp-purpose-be-2,and(wrap,comfy,sn2),def_prop(wrap,[edible,oggetto,strumento])])
+lf(Gangsta Lyrics.txt_23,310,cl54-not-nil-need-[subj-experiencer-he-sn1,aux-do-nil,def_prop(he,[umano])])
+lf(Gangsta Lyrics.txt_24,335,cl57-nil-nil-be-[])
+lf(Gangsta Lyrics.txt_24,335,cl56-nil-nil-get-[ncmod-locativo-boy-sn4,obj-theme_unaff-APB-sn3,subj-agent-head-sn2,subj-agent-head-sn1,and(head,Crow-bars,sn2),and(head,Crow-bars,sn1),def_prop(boy,[oggetto,strumento]),def_prop(APB,[istituzione]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano])])
+lf(Gangsta Lyrics.txt_25,361,cl59-nil-nil-hit-[adj-(mod)-out-nil,obj-theme-you-s-sn12,obj-theme-toaster-sn11,obj-theme-n-sn10,obj-theme-hop-sn9,iobj-goal-holster-sn8,obj-goal-low-sn7,subj-agent-stashbox-sn6,and(n,Brenda,sn10),and(hop,Gon,sn9),and(hop,na,sn9),def_prop(you-s,[istituzione]),def_prop(toaster,[oggetto,strumento,umano]),def_prop(n,[attivita,informa,luogo]),def_prop(hop,[attivita,evento,plant]),def_prop(holster,[oggetto,strumento]),def_prop(low,[astratto,stato]),def_prop(stashbox,[istituzione])])
+lf(Gangsta Lyrics.txt_25,361,cl58-nil-nil-get-[obj-theme_unaff-D-E-sn2,subj-agent-i-sn1,and(D-E,grade,sn2),def_prop(D-E,[attivita,informa,umano]),def_prop(i,[umano])])

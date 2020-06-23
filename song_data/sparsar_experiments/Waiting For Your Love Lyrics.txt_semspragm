@@ -34,9 +34,9 @@ Waiting For Your Love Lyrics.txt_14-127  []-positive  []
 "ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
 
 Waiting For Your Love Lyrics.txt_1-1  [waiting,for,your,Love,Lyrics,by,Q5]  [title]
-Waiting For Your Love Lyrics.txt_2-3  [you,may,be,proud]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,nonfactive,narration,foreground,objective]),provide_expl_just(think,[external,factive,explanation,background,objective]),suggest(think,_415778)]
-Waiting For Your Love Lyrics.txt_2-4  [so,sentimental,you,think,too,hard]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,nonfactive,narration,foreground,objective]),propose_opin_neg(think,[external,factive,explanation,background,objective]),suggest(think,_421090)]
-Waiting For Your Love Lyrics.txt_2-5  [,,but,the,answer-s,simple,got,what,i,am,Askin,i,got]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,nonfactive,narration,foreground,objective]),provide_expl_just(think,[external,factive,explanation,background,objective]),suggest(think,_426402)]
+Waiting For Your Love Lyrics.txt_2-3  [you,may,be,proud]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,nonfactive,narration,foreground,objective]),provide_expl_just(think,[external,factive,explanation,background,objective]),suggest(think,_415856)]
+Waiting For Your Love Lyrics.txt_2-4  [so,sentimental,you,think,too,hard]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,nonfactive,narration,foreground,objective]),propose_opin_neg(think,[external,factive,explanation,background,objective]),suggest(think,_421168)]
+Waiting For Your Love Lyrics.txt_2-5  [,,but,the,answer-s,simple,got,what,i,am,Askin,i,got]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,nonfactive,narration,foreground,objective]),provide_expl_just(think,[external,factive,explanation,background,objective]),suggest(think,_426480)]
 Waiting For Your Love Lyrics.txt_3-9  [the,feelin-,i,got,to,know,now,body]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
 Waiting For Your Love Lyrics.txt_4-14  [you,must,decide,cause]  [provide_expl_just(wait,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
 Waiting For Your Love Lyrics.txt_4-15  [i,am,waiting,waiting]  [provide_expl_just(wait,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
@@ -100,7 +100,7 @@ half
 
 "LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
 
-lf(Waiting For Your Love Lyrics.txt_1,1,cl1-nil-nil-be-[xadj-adj-waiting-adj1,arg_mod-agent-Q5-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Love,sn1),def_prop(waiting,_483688),def_prop(Q5,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Waiting For Your Love Lyrics.txt_1,1,cl1-nil-nil-be-[xadj-adj-waiting-adj1,arg_mod-agent-Q5-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Love,sn1),def_prop(waiting,_483766),def_prop(Q5,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
 lf(Waiting For Your Love Lyrics.txt_2,3,cl4-nil-nil-get-[obj-theme_unaff-i-sn10,obj-paziente-Askin-sn9,xcomp-purpose-get-2,xcomp-prop-simple-sn8,subj-theme_bound-answer-s-sn7,and(Askin,what,sn9),def_prop(i,[umano]),def_prop(Askin,[place,umano]),def_prop(simple,[valutativo]),def_prop(answer-s,[attivita,informa])])
 lf(Waiting For Your Love Lyrics.txt_2,3,cl3-nil-nil-think-[xcomp-prop-hard-sn4,subj-agent-you-sn3,def_prop(hard,[valutativo]),def_prop(you,[umano])])
 lf(Waiting For Your Love Lyrics.txt_2,3,cl2-nil-may-be-[subj-theme_bound-you-sn11,xcomp-prop-proud-sn2,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(proud,[emotivo]),def_prop(you,[umano])])

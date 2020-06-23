@@ -32,6 +32,9 @@ MEETING THE DATA
     - keep only useful attributes
     - Add "lang", "very_short" attributes
     - add id (because there are multiple songs with the same title but different lyrics, ex.24 Hours)
+    - removing common noise
+    - removing too short songs
+    - remove sparsar prohibited characters: " `
 
 UNSOLVED PROBLEMS WITH DATASET
     - noise
@@ -77,6 +80,10 @@ SPARSAR
         - weird rhymes
             - adjusted not to prefer Elisabethan sonnet structure
         - !!! needs punctuation to analyze - add full stop at the end of each line to help 
+        - runs for a long time - can't run for all songs 
+    - took way too much time to debug
+        - still won't be able to run for all songs (many english contractions like 'em missing)
+        - probably only run once because of how long it takes
 
 RELATED WORK
     - https://www.freecodecamp.org/news/building-a-twitter-lyric-bot-12468255a4ee/
@@ -259,6 +266,8 @@ TASKS FOR NEXT WEEK
 - pomohlo by maskovani?
 - ukoncit sparsar
     TEST noveho vs. stareho SPARSARU (201 novych pesniciek - nie zo zaciatku, kde som chyby fixovala)
+    - STARY: Finished analysis at index 6600. success 157 / fail 44 / total 201
+    - NOVY: Finished analysis at index 6600. success 190 / fail 11 / total 201 (cas 64 min)
 - piatok 9:30
 
 -------------------------------------------------------------------------------------------------------------------
@@ -266,3 +275,13 @@ TASKS FOR NEXT WEEK
 TASKS FOR NEXT WEEK
 - precitat https://towardsdatascience.com/implementing-a-fully-convolutional-network-fcn-in-tensorflow-2-3c46fb61de3b
 - napisat svoj generator https://github.com/himanshurawlani/fully_convolutional_network/blob/master/generator.py
+    - generator som pouzila a upravila na ciernobiele obrazky
+
+-------------------------------------------------------------------------------------------------------------------
+19.6.2020
+TASKS FOR NEXT WEEK
+- dogenerovat prehadzane
+- skusit ci prehadzanie schematu rozlisim od prehadzanie po sparsare (10 pesniciek)
+- distribuci rymovanosti
+- štvrtok 9.00
+- napisat priebezne vysledok z cnn

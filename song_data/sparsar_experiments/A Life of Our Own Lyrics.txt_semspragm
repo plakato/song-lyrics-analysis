@@ -67,7 +67,7 @@ A Life of Our Own Lyrics.txt_7-28  [in,a,world,we,could,not,understand]  [reject
 A Life of Our Own Lyrics.txt_8-36  [we,never,had,no,reasons]  [reject_expl_just(have,[external,factive,narration,foreground,objective])]
 A Life of Our Own Lyrics.txt_9-45  [so,we,never,made,no,plans]  [reject_expl_just(make,[external,factive,cause,foreground,objective])]
 A Life of Our Own Lyrics.txt_10-55  [and,now,we,are,speeding,down]  [provide_expl_just(speed,[external,factive,narration,foreground,objective])]
-A Life of Our Own Lyrics.txt_11-66  [life-s,highway]  [raise_issue(be,[_940418,factive,statement,_940436,subjective])]
+A Life of Our Own Lyrics.txt_11-66  [life-s,highway]  [raise_issue(be,[_941960,factive,statement,_941978,subjective])]
 A Life of Our Own Lyrics.txt_12-78  [in,white,vinyl,and,chrome]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 A Life of Our Own Lyrics.txt_13-91  [but,someday,we,are,gonna,live]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 A Life of Our Own Lyrics.txt_14-105  [a,life,of,our,own]  [provide_expl_just(own,[external,factive,narration,background,objective])]
@@ -84,7 +84,7 @@ A Life of Our Own Lyrics.txt_21-235  [but,someday,we,are,gonna,live]  [provide_e
 A Life of Our Own Lyrics.txt_22-257  [a,life,of,our,own]  [provide_expl_just(own,[external,factive,narration,background,objective])]
 A Life of Our Own Lyrics.txt_23-280  [a,life,of,our,own]  [provide_expl_just(own,[external,factive,narration,background,objective])]
 A Life of Our Own Lyrics.txt_24-304  [now,we,are,speeding,down]  [provide_expl_just(speed,[external,factive,narration,foreground,objective])]
-A Life of Our Own Lyrics.txt_25-329  [life-s,highways]  [raise_issue(be,[_949546,factive,statement,_949564,subjective])]
+A Life of Our Own Lyrics.txt_25-329  [life-s,highways]  [raise_issue(be,[_951088,factive,statement,_951106,subjective])]
 A Life of Our Own Lyrics.txt_26-355  [in,white,vinyl,and,chrome]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 A Life of Our Own Lyrics.txt_27-382  [but,we,are,never,gonna,live]  [reject_expl_just(be,[external,factive,narration,background,objective])]
 A Life of Our Own Lyrics.txt_28-410  [a,life,of,our,own]  [provide_expl_just(own,[external,factive,narration,background,objective])]
@@ -101,7 +101,7 @@ A Life of Our Own Lyrics.txt_35-638  [but,someday,we,are,gonna,live]  [provide_e
 A Life of Our Own Lyrics.txt_36-674  [a,life,of,our,own]  [provide_expl_just(own,[external,factive,narration,background,objective])]
 A Life of Our Own Lyrics.txt_37-711  [a,life,of,our,own]  [provide_expl_just(own,[external,factive,narration,background,objective])]
 A Life of Our Own Lyrics.txt_38-749  [now,we,are,speeding,down]  [provide_expl_just(speed,[external,factive,narration,foreground,objective])]
-A Life of Our Own Lyrics.txt_39-788  [life-s,highways]  [raise_issue(be,[_958372,factive,statement,_958390,subjective])]
+A Life of Our Own Lyrics.txt_39-788  [life-s,highways]  [raise_issue(be,[_959914,factive,statement,_959932,subjective])]
 A Life of Our Own Lyrics.txt_40-828  [in,white,vinyl,and,chrome]  [provide_expl_just(be,[external,factive,narration,background,objective])]
 A Life of Our Own Lyrics.txt_41-869  [but,we,are,never,gonna,live]  [reject_expl_just(be,[external,factive,narration,background,objective])]
 A Life of Our Own Lyrics.txt_42-911  [a,life,of,our,own]  [provide_expl_just(own,[external,factive,narration,background,objective])]
@@ -173,7 +173,7 @@ half
 "LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
 
 lf(A Life of Our Own Lyrics.txt_1,1,nil-nil-nil-own-[arg_mod-agent-Undead-sn3,obj-actor-Lyrics-sn2,subj-owner-Life-sn1,def_prop(Undead,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(Life,[place,umano])])
-lf(A Life of Our Own Lyrics.txt_2,3,cl1-nil-nil-raise-[arg_mod-agent-computer-sn2,subj-goal-we-sn1,aux-were-nil,def_prop(computer,_962544),def_prop(we,[umano])])
+lf(A Life of Our Own Lyrics.txt_2,3,cl1-nil-nil-raise-[arg_mod-agent-computer-sn2,subj-goal-we-sn1,aux-were-nil,def_prop(computer,_964086),def_prop(we,[umano])])
 lf(A Life of Our Own Lyrics.txt_3,6,cl2-nil-nil-have-[coord-theme_bound-mom_or_dad-sn4,xcomp-tema_bound-dad-sn3,xcomp-tema_bound-mom-sn2,subj-experiencer-we-sn1,def_prop(mom_or_dad,[umano,umano]),def_prop(dad,[umano,umano]),def_prop(mom,[umano,umano]),def_prop(we,[umano])])
 lf(A Life of Our Own Lyrics.txt_4,10,nil-nil-nil-story-[ncmod-specif-life-sn2,subj-agent-you-sn1,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(you,[umano])])
 lf(A Life of Our Own Lyrics.txt_5,15,cl3-nil-nil-be-[adj-subj_disc-just_as-sn2,subj-theme_bound-sad-sn1,and(just_as,surely,sn2),def_prop(just_as,[informa,tecno]),def_prop(sad,[informa,tecno])])
@@ -190,7 +190,7 @@ lf(A Life of Our Own Lyrics.txt_15,120,cl12-nil-nil-get-[adj-(mod)-always-nil,io
 lf(A Life of Our Own Lyrics.txt_16,136,cl14-nil-nil-follow-[adj-(mod)-never-nil,subj_top-agent-rule-sn5,and(rule,any,sn5),def_prop(rule,[astratto,attivita,informa,oggetto,strumento,tempo])])
 lf(A Life of Our Own Lyrics.txt_16,136,cl13-nil-nil-respect-[obj-cause-nothing-sn2,subj-experiencer-we-sn1,def_prop(nothing,[astratto,informa,oggetto]),def_prop(we,[umano])])
 lf(A Life of Our Own Lyrics.txt_17,154,cl15-nil-nil-kid-[adj-locative-age-nil,ncmod-locativo-moon-sn4,obj-theme-first-sn3,ncmod-modal-early-sn2,subj-agent-outcast-sn1,def_prop(moon,[oggetto]),def_prop(first,[istituzione]),def_prop(early,[valutativo]),def_prop(outcast,[umano])])
-lf(A Life of Our Own Lyrics.txt_18,172,cl17-nil-nil-grow-[xadj-adj-late-adj1,adj-(mod)-up-nil,adj-(mod)-too-nil,ncmod-locativo-soon-sn6,obj-prop-little-sn5,subj-theme_bound-we-sn4,def_prop(late,_964924),def_prop(soon,[istituzione]),def_prop(little,[astratto,informa,oggetto]),def_prop(we,[umano])])
+lf(A Life of Our Own Lyrics.txt_18,172,cl17-nil-nil-grow-[xadj-adj-late-adj1,adj-(mod)-up-nil,adj-(mod)-too-nil,ncmod-locativo-soon-sn6,obj-prop-little-sn5,subj-theme_bound-we-sn4,def_prop(late,_966466),def_prop(soon,[istituzione]),def_prop(little,[astratto,informa,oggetto]),def_prop(we,[umano])])
 lf(A Life of Our Own Lyrics.txt_18,172,cl16-nil-nil-find-[ccomp-prop-guess-1,ncmod-locativo-little-sn3,subj-actor-we-sn2,def_prop(little,[astratto,informa,oggetto]),def_prop(we,[umano])])
 lf(A Life of Our Own Lyrics.txt_18,172,nil-nil-nil-guess-[subj-experiencer-you-sn1,def_prop(you,[umano])])
 lf(A Life of Our Own Lyrics.txt_19,193,cl18-not-can-buy-[cmod-subord-buy-",subj-actor-pro-nil,subj-actor-we-sn4,def_prop(we,[umano])])
@@ -208,7 +208,7 @@ lf(A Life of Our Own Lyrics.txt_29,439,cl24-nil-nil-get-[adj-(mod)-always-nil,io
 lf(A Life of Our Own Lyrics.txt_30,469,cl26-nil-nil-follow-[adj-(mod)-never-nil,subj_top-agent-rule-sn5,and(rule,any,sn5),def_prop(rule,[astratto,attivita,informa,oggetto,strumento,tempo])])
 lf(A Life of Our Own Lyrics.txt_30,469,cl25-nil-nil-respect-[obj-cause-nothing-sn2,subj-experiencer-we-sn1,def_prop(nothing,[astratto,informa,oggetto]),def_prop(we,[umano])])
 lf(A Life of Our Own Lyrics.txt_31,501,cl27-nil-nil-kid-[adj-locative-age-nil,ncmod-locativo-moon-sn4,obj-theme-first-sn3,ncmod-modal-early-sn2,subj-agent-outcast-sn1,def_prop(moon,[oggetto]),def_prop(first,[istituzione]),def_prop(early,[valutativo]),def_prop(outcast,[umano])])
-lf(A Life of Our Own Lyrics.txt_32,533,cl29-nil-nil-grow-[xadj-adj-late-adj2,adj-(mod)-up-nil,adj-(mod)-too-nil,ncmod-locativo-soon-sn6,obj-prop-little-sn5,subj-theme_bound-we-sn4,def_prop(late,_967286),def_prop(soon,[istituzione]),def_prop(little,[astratto,informa,oggetto]),def_prop(we,[umano])])
+lf(A Life of Our Own Lyrics.txt_32,533,cl29-nil-nil-grow-[xadj-adj-late-adj2,adj-(mod)-up-nil,adj-(mod)-too-nil,ncmod-locativo-soon-sn6,obj-prop-little-sn5,subj-theme_bound-we-sn4,def_prop(late,_968828),def_prop(soon,[istituzione]),def_prop(little,[astratto,informa,oggetto]),def_prop(we,[umano])])
 lf(A Life of Our Own Lyrics.txt_32,533,cl28-nil-nil-find-[ccomp-prop-guess-1,ncmod-locativo-little-sn3,subj-actor-we-sn2,def_prop(little,[astratto,informa,oggetto]),def_prop(we,[umano])])
 lf(A Life of Our Own Lyrics.txt_32,533,nil-nil-nil-guess-[subj-experiencer-you-sn1,def_prop(you,[umano])])
 lf(A Life of Our Own Lyrics.txt_33,568,cl30-not-can-buy-[cmod-subord-buy-",subj-actor-pro-nil,subj-actor-we-sn4,def_prop(we,[umano])])

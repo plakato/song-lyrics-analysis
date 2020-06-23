@@ -61,7 +61,7 @@ The Coast Lyrics.txt_6-35  [and,she,takes,it]  [provide_expl_just(seem,[external
 The Coast Lyrics.txt_7-43  [back,now,you,know]  [provide_expl_just(eat,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
 The Coast Lyrics.txt_7-44  [what,is,eating,,,me,taking,hold]  [provide_expl_just(eat,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
 The Coast Lyrics.txt_7-45  [it,was,dragging,me,down,in,the,valley,where,they,found]  [provide_expl_just(eat,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
-The Coast Lyrics.txt_8-55  [the,body,it,was,growing]  [raise_issue(be,[_570438,factive,statement,_570456,subjective])]
+The Coast Lyrics.txt_8-55  [the,body,it,was,growing]  [raise_issue(be,[_570582,factive,statement,_570600,subjective])]
 The Coast Lyrics.txt_9-64  [cold,now,you,know]  [reject_expl_just(eat,[external,factive,narration,foreground,objective]),reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(hold,[external,factive,narration,foreground,objective])]
 The Coast Lyrics.txt_9-65  [what,is,eating,,,me,taking,hold]  [provide_expl_just(eat,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(hold,[external,factive,narration,foreground,objective])]
 The Coast Lyrics.txt_9-66  [it,was,dragging,me]  [provide_expl_just(eat,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(hold,[external,factive,narration,foreground,objective])]
@@ -135,7 +135,7 @@ lf(The Coast Lyrics.txt_4,14,cl12-nil-nil-drag-[xcomp-prop-me-sn14,subj-actor-it
 lf(The Coast Lyrics.txt_4,14,cl11-nil-nil-hold-[subj-goal-me-sn11,def_prop(me,[umano])])
 lf(The Coast Lyrics.txt_4,14,cl10-nil-nil-know-[subj-actor-you-sn9,def_prop(you,[umano])])
 lf(The Coast Lyrics.txt_4,14,cl9-nil-nil-be-[cmod-subord-eat-",xcomp-prop-now-sn8,xcomp-prop-hungriest-sn7,subj-theme_bound-it-sn6,def_prop(now,[istituzione]),def_prop(hungriest,[evaluative]),def_prop(it,[any])])
-lf(The Coast Lyrics.txt_4,14,cl8-nil-nil-live-[adj-(mod)-just-nil,adj-(mod)-needs-nil,subj-actor-all-sn1,def_prop(all,[_589978])])
+lf(The Coast Lyrics.txt_4,14,cl8-nil-nil-live-[adj-(mod)-just-nil,adj-(mod)-needs-nil,subj-actor-all-sn1,def_prop(all,[_590122])])
 lf(The Coast Lyrics.txt_4,14,cl7-nil-nil-eat-[subj-agent-me-sn11,subj-agent-me-sn10,adj-(mod)-live-nil,aux-(is)-nil,progr-eating-nil,and(me,what,sn10),def_prop(me,[umano]),def_prop(me,[umano])])
 lf(The Coast Lyrics.txt_5,24,cl16-nil-nil-fear-[])
 lf(The Coast Lyrics.txt_5,24,cl15-nil-nil-patrol-[obj-causer_emot-worst-sn9,xcomp-purpose-fear-2,xcomp-prop-coast-sn8,subj-agent-they-sn7,def_prop(worst,[astratto,attivita,evento]),def_prop(coast,[astratto,oggetto]),def_prop(they,[umano])])
@@ -145,7 +145,7 @@ lf(The Coast Lyrics.txt_6,33,cl20-nil-nil-take-[expl-it-nil,cmod-subord-give-",s
 lf(The Coast Lyrics.txt_6,33,cl19-nil-nil-give-[obj2-paziente-life-sn5,obj-goal-us-sn4,subj-actor-lake-sn3,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(us,[umano]),def_prop(lake,[oggetto,sostanza])])
 lf(The Coast Lyrics.txt_6,33,cl18-nil-nil-accept-[subj-tema_nonaff-no-sn1,and(no,one,sn1),def_prop(no,[istituzione])])
 lf(The Coast Lyrics.txt_6,33,cl17-nil-can-seem-[subj-actor-no-sn1,and(no,one,sn1),def_prop(no,[istituzione])])
-lf(The Coast Lyrics.txt_7,43,_591270-nil-nil-find-[voice-find-nil,tense-find-nil,obl-locat-valley-sn11,def_prop(valley,[oggetto])])
+lf(The Coast Lyrics.txt_7,43,_591414-nil-nil-find-[voice-find-nil,tense-find-nil,obl-locat-valley-sn11,def_prop(valley,[oggetto])])
 lf(The Coast Lyrics.txt_7,43,cl24-nil-nil-drag-[voice-find-nil,tense-find-nil,ncmod-locativo-valley-sn11,xcomp-prop-down-sn10,obj-theme-me-sn9,subj-actor-it-sn8,aux-was-nil,progr-dragging-nil,def_prop(valley,[oggetto]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(me,[umano]),def_prop(it,[any])])
 lf(The Coast Lyrics.txt_7,43,cl23-nil-nil-hold-[voice-find-nil,tense-find-nil,subj-goal-me-sn6,def_prop(me,[umano])])
 lf(The Coast Lyrics.txt_7,43,cl22-nil-nil-eat-[voice-find-nil,tense-find-nil,subj-agent-me-sn6,subj-agent-me-sn5,aux-(is)-nil,progr-eating-nil,and(me,what,sn5),def_prop(me,[umano]),def_prop(me,[umano])])

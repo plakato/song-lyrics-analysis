@@ -37,7 +37,7 @@ Welcome To My Haunted Life Lyrics.txt_1-1  [welcome,to,my,Haunted,Life,Lyrics,by
 Welcome To My Haunted Life Lyrics.txt_2-3  [in,Welcome,to,my,Haunted,Life,Qaivon,takes]  [provide_expl_just(keep,[external,factive,cause,foreground,objective])]
 Welcome To My Haunted Life Lyrics.txt_2-4  [you,on,a,journey,through,the,spiritual,realm,,,which,has,been,kept,hidden,from,the,human,eye,download,or,stream]  [provide_expl_just(keep,[external,factive,cause,foreground,objective])]
 Welcome To My Haunted Life Lyrics.txt_3-8  [it,here]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
-Welcome To My Haunted Life Lyrics.txt_4-12  [2]  [raise_issue(be,[_190210,factive,statement,_190228,subjective])]
+Welcome To My Haunted Life Lyrics.txt_4-12  [2]  [raise_issue(be,[_190870,factive,statement,_190888,subjective])]
 Welcome To My Haunted Life Lyrics.txt_5-17  [they,Brought,me]  [provide_expl_just(bring,[external,factive,narration,foreground,objective]),provide_expl_just(back,[external,factive,narration,background,objective]),provide_expl_just(prod,[external,factive,narration,background,objective])]
 Welcome To My Haunted Life Lyrics.txt_5-18  [back,to,Life,prod]  [provide_expl_just(bring,[external,factive,narration,foreground,objective]),provide_expl_just(back,[external,factive,narration,background,objective]),provide_expl_just(prod,[external,factive,narration,background,objective])]
 Welcome To My Haunted Life Lyrics.txt_6-25  [by,Lost,in,scores,3]  [reject_expl_just(be,[external,factive,narration,background,objective])]
@@ -100,7 +100,7 @@ half
 
 "LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
 
-lf(Welcome To My Haunted Life Lyrics.txt_1,1,cl1-nil-nil-be-[ncmod-goal-Life-sn3,xadj-adj-welcome-adj1,arg_mod-agent-Qaivon-sn2,subj-theme_bound-Lyrics-sn1,and(Life,Haunted,sn3),def_prop(Life,_202918),def_prop(welcome,_202930),def_prop(Qaivon,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Welcome To My Haunted Life Lyrics.txt_1,1,cl1-nil-nil-be-[ncmod-goal-Life-sn3,xadj-adj-welcome-adj1,arg_mod-agent-Qaivon-sn2,subj-theme_bound-Lyrics-sn1,and(Life,Haunted,sn3),def_prop(Life,_203578),def_prop(welcome,_203590),def_prop(Qaivon,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
 lf(Welcome To My Haunted Life Lyrics.txt_2,3,nil-nil-nil-download-[obj-theme-stream-sn12,ncmod-location-realm-sn9,ncmod-modale-journey-sn8,subj-theme_aff-you-sn7,and(realm,spiritual,sn9),def_prop(stream,[oggetto,stato]),def_prop(realm,[attivita,informa,luogo,stato]),def_prop(journey,[attivita]),def_prop(you,[umano])])
 lf(Welcome To My Haunted Life Lyrics.txt_2,3,cl3-nil-nil-keep-[iobj-goal-eye-sn11,subj-goal-realm-sn9,aux-been-nil,aux-has-nil,ncmod-goal-Qaivon-sn2,and(eye,human,sn11),and(realm,spiritual,sn9),and(Qaivon,Haunted,sn2),and(Qaivon,Life,sn2),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(realm,[attivita,informa,luogo,stato]),def_prop(Qaivon,[istituzione,umano])])
 lf(Welcome To My Haunted Life Lyrics.txt_2,3,cl2-nil-nil-take-[subj-agent-you-sn1,def_prop(you,[umano])])
@@ -120,7 +120,7 @@ lf(Welcome To My Haunted Life Lyrics.txt_11,72,cl15-nil-nil-say-[obj-theme_unaff
 lf(Welcome To My Haunted Life Lyrics.txt_12,84,cl17-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
 lf(Welcome To My Haunted Life Lyrics.txt_12,84,cl16-nil-nil-prod-[arg_mod-agent-Willscore-sn3,subj-agent-drip-sn2,subj-agent-drip-sn1,and(drip,blood,sn1),def_prop(Willscore,[istituzione,umano]),def_prop(drip,[evento,oggetto,strumento]),def_prop(drip,[evento,oggetto,strumento])])
 lf(Welcome To My Haunted Life Lyrics.txt_13,98,cl18-nil-nil-live-[subj-actor-you-sn1,def_prop(you,[umano])])
-lf(Welcome To My Haunted Life Lyrics.txt_14,112,cl19-nil-nil-prod-[ncmod-specif-me-sn4,xadj-adj-inside-adj2,iobj-scale-123indaplacetobe-sn2,subj-agent-you-sn1,and(123indaplacetobe,123indaplacetobe,sn2),def_prop(me,_205380),def_prop(inside,_205392),def_prop(123indaplacetobe,[nquant]),def_prop(you,[umano])])
+lf(Welcome To My Haunted Life Lyrics.txt_14,112,cl19-nil-nil-prod-[ncmod-specif-me-sn4,xadj-adj-inside-adj2,iobj-scale-123indaplacetobe-sn2,subj-agent-you-sn1,and(123indaplacetobe,123indaplacetobe,sn2),def_prop(me,_206040),def_prop(inside,_206052),def_prop(123indaplacetobe,[nquant]),def_prop(you,[umano])])
 lf(Welcome To My Haunted Life Lyrics.txt_15,127,cl21-nil-nil-beat-[obj-theme_aff-10-sn3,subj-agent-Contrary-sn2,def_prop(10,[nquant]),def_prop(Contrary,[istituzione])])
 lf(Welcome To My Haunted Life Lyrics.txt_15,127,cl20-nil-nil-prod-[subj-agent-travel-sn1,and(travel,Astral,sn1),def_prop(travel,[attivita])])
 lf(Welcome To My Haunted Life Lyrics.txt_16,144,cl23-nil-nil-prod-[iobj-theme-DansonnBeats-sn2,xcomp-purpose-prod-2,def_prop(DansonnBeats,[istituzione,umano])])

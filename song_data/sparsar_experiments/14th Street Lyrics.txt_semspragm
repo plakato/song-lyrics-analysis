@@ -1,128 +1,105 @@
 "POLARITY, DISCOURSE MARKERS"
 
 14th Street Lyrics.txt_1-1  []-positive  []
-14th Street Lyrics.txt_2-3  []-positive  []
+14th Street Lyrics.txt_2-3  []-negative  [neg]
 14th Street Lyrics.txt_2-4  []-negative  [neg]
-14th Street Lyrics.txt_2-5  []-positive  [fgb]
-14th Street Lyrics.txt_2-5  [but-advers]-suspension  [fgb,neg,fgb,neg,fgb]
-14th Street Lyrics.txt_3-9  []-negative  [neg]
-14th Street Lyrics.txt_3-10  []-negative  [neg]
-14th Street Lyrics.txt_4-14  []-negative  [neg]
-14th Street Lyrics.txt_5-19  []-negative  [neg]
-14th Street Lyrics.txt_6-25  []-negative  [neg]
-14th Street Lyrics.txt_7-33  []-positive  []
-14th Street Lyrics.txt_7-34  []-negative  [fgb,fgb,neg]
-14th Street Lyrics.txt_8-42  []-suspension  []
-14th Street Lyrics.txt_8-43  []-suspension  []
-14th Street Lyrics.txt_8-44  []-positive  [fgb]
-14th Street Lyrics.txt_9-55  []-suspension  [neg,neg,neg]
-14th Street Lyrics.txt_9-56  []-negative  []
-14th Street Lyrics.txt_9-57  [but-advers]-negative  [neg,neg,fgb,fgb,neg,neg,neg,neg]
-14th Street Lyrics.txt_10-71  []-negative  [neg]
-14th Street Lyrics.txt_10-72  []-negative  [fgb]
-14th Street Lyrics.txt_10-73  []-positive  []
-14th Street Lyrics.txt_11-84  [if-hypoth]-negative  [fgb,neg]
-14th Street Lyrics.txt_11-85  [because-cause]-positive  []
-14th Street Lyrics.txt_11-86  []-negative  [fgb,neg,fgb,fgb,neg]
+14th Street Lyrics.txt_3-7  []-negative  [neg]
+14th Street Lyrics.txt_4-11  []-negative  [neg]
+14th Street Lyrics.txt_5-16  []-negative  [neg]
+14th Street Lyrics.txt_6-23  []-positive  []
+14th Street Lyrics.txt_6-24  []-negative  [fgb,fgb,neg]
+14th Street Lyrics.txt_7-31  []-suspension  []
+14th Street Lyrics.txt_7-32  []-suspension  []
+14th Street Lyrics.txt_7-33  []-positive  [fgb]
+14th Street Lyrics.txt_8-43  []-negative  [neg]
+14th Street Lyrics.txt_8-44  []-negative  [fgb]
+14th Street Lyrics.txt_8-45  []-positive  []
+14th Street Lyrics.txt_9-54  [if-hypoth]-negative  [fgb]
+14th Street Lyrics.txt_10-66  [because-cause]-negative  [neg]
+14th Street Lyrics.txt_11-77  []-positive  []
+14th Street Lyrics.txt_11-78  []-negative  [neg]
+14th Street Lyrics.txt_11-79  []-negative  [fgb,neg]
+14th Street Lyrics.txt_11-80  []-suspension  [fgb,fgb]
 
 
 
 "ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
 
 14th Street Lyrics.txt_1-1  [14th,Street,Lyrics,by,Rufus,Wainwright]  [title]
-14th Street Lyrics.txt_2-3  [you,have,got]  [provide_expl_just(meet,[external,factive,circumstance,background,objective])]
-14th Street Lyrics.txt_2-4  [my,lost,brother-s,soul,my]  [reject_expl_just(meet,[external,factive,circumstance,background,objective]),propose_opin_neg(meet,[external,factive,circumstance,background,objective])]
-14th Street Lyrics.txt_2-5  [and,,,my,uncle-s,you,name,walked,me,down,14th,Street]  [provide_expl_just(meet,[external,factive,circumstance,background,objective])]
-14th Street Lyrics.txt_2-5  [and,,,my,uncle-s,you,name,walked,me,down,14th,Street,,,dear,mother-s,eyes,a,brown,horse-s,mane,for,,,the,doctor,to,meet,after,thoughts,of,the,grave,in,,,the,home,of,the,brave,and,of,the,weak,but,whyed]  [propose_opin_neg(meet,[external,factive,circumstance,background,objective])]
-14th Street Lyrics.txt_3-9  [you,have_to,break]  [reject_expl_just(must,[external,nonfactive,narration,foreground,objective]),reject_expl_just(can,[external,nonfactive,narration,background,objective])]
-14th Street Lyrics.txt_3-10  [all,my,heart,could,not]  [reject_expl_just(must,[external,nonfactive,narration,foreground,objective]),reject_expl_just(can,[external,nonfactive,narration,background,objective])]
-14th Street Lyrics.txt_4-14  [you,have,saved,a,little,bit,of,it]  [reject_expl_just(save,[external,factive,narration,background,objective])]
-14th Street Lyrics.txt_5-19  [you,whyed,have_to,break,all,my,heart]  [reject_expl_just(must,[external,nonfactive,narration,foreground,objective])]
-14th Street Lyrics.txt_6-25  [could,not,you,have,saved,a,minor,part]  [reject_expl_just(can,[external,nonfactive,narration,background,objective]),reject_expl_just(save,[external,factive,narration,background,objective])]
-14th Street Lyrics.txt_7-33  [i,could,have,clipped]  [provide_expl_just(clip,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
-14th Street Lyrics.txt_7-34  [and,saved,and,planted,in,the,garden,damn]  [reject_expl_just(clip,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
-14th Street Lyrics.txt_8-42  [you,guess]  [provide_expl_just(guess,[external,factive,narration,background,objective]),provide_expl_just(get,[external,nonfactive,narration,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(sit,[external,factive,narration,background,objective])]
-14th Street Lyrics.txt_8-43  [i,will,have_to,get,a,new,one,i,had,love,to,sit]  [provide_expl_just(guess,[external,factive,narration,background,objective]),provide_expl_just(get,[external,nonfactive,narration,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(sit,[external,factive,narration,background,objective])]
-14th Street Lyrics.txt_8-44  [and,watch]  [provide_expl_just(guess,[external,factive,narration,background,objective]),provide_expl_just(get,[external,nonfactive,narration,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(sit,[external,factive,narration,background,objective])]
-14th Street Lyrics.txt_9-55  [you,drink,with,the,reins,to,the,world,gripping,a,smoke,vaguely,missing]  [provide_expl_just(grip,[external,factive,narration,foreground,objective]),provide_expl_just(drink,[external,factive,narration,background,objective]),provide_expl_just(miss,[external,factive,narration,foreground,objective]),provide_expl_just(change,[external,factive,cause,foreground,objective]),propose_opin_neg(file,[external,factive,result,foreground,objective]),propose_opin_neg(lose,[external,factive,circumstance,background,objective])]
-14th Street Lyrics.txt_9-56  [link,don-t,ever,change]  [provide_expl_just(grip,[external,factive,narration,foreground,objective]),provide_expl_just(drink,[external,factive,narration,background,objective]),provide_expl_just(miss,[external,factive,narration,foreground,objective]),provide_expl_just(change,[external,factive,cause,foreground,objective]),propose_opin_neg(file,[external,factive,result,foreground,objective]),propose_opin_neg(lose,[external,factive,circumstance,background,objective])]
-14th Street Lyrics.txt_9-57  [you,hungry,little,and,filed,for,grounds,but,whyed,.,bashful,hound,i,got,the,sheep,poor,little,Bo,peep,has,lost]  [reject_expl_just(grip,[external,factive,narration,foreground,objective]),reject_expl_just(drink,[external,factive,narration,background,objective]),reject_expl_just(miss,[external,factive,narration,foreground,objective]),reject_expl_just(change,[external,factive,cause,foreground,objective]),reject_expl_just(file,[external,factive,result,foreground,objective]),propose_opin_neg(file,[external,factive,result,foreground,objective]),reject_expl_just(lose,[external,factive,circumstance,background,objective]),propose_opin_neg(lose,[external,factive,circumstance,background,objective])]
-14th Street Lyrics.txt_10-71  [you,have_to,break,all,my,heart]  [reject_expl_just(rip,[external,nonfactive,narration,background,objective]),reject_expl_just(must,[external,nonfactive,narration,foreground,objective]),reject_expl_just(wonder,[external,factive,narration,background,objective])]
-14th Street Lyrics.txt_10-72  [i,could,have,ripped,apart,and,thrown,into,the,river]  [provide_expl_just(rip,[external,nonfactive,narration,background,objective]),provide_expl_just(must,[external,nonfactive,narration,foreground,objective]),provide_expl_just(wonder,[external,factive,narration,background,objective])]
-14th Street Lyrics.txt_10-73  [wonder]  [provide_expl_just(rip,[external,nonfactive,narration,background,objective]),provide_expl_just(must,[external,nonfactive,narration,foreground,objective]),provide_expl_just(wonder,[external,factive,narration,background,objective])]
-14th Street Lyrics.txt_11-84  [if,there,is,hearts,that,will,deliver,don-t,ever,change,,,don-t,ever,worry]  [reject_expl_just(come,[external,factive,result,foreground,objective]),propose_opin_neg(come,[external,factive,result,foreground,objective]),reject_expl_just(change,[external,factive,cause,foreground,objective]),reject_expl_just(be,[external,nonfactive,narration,background,objective]),reject_expl_just(worry,[external,factive,narration,foreground,objective]),reject_expl_just(learn,[external,nonfactive,narration,background,objective]),reject_expl_just(borrow,[external,factive,narration,background,objective]),reject_expl_just(know,[external,nonfactive,narration,background,objective])]
-14th Street Lyrics.txt_11-85  [because,,,i,am,coming,back,home,tomorrow,to,14th,Street,where]  [provide_expl_just(come,[external,factive,result,foreground,objective]),suggest(come,[external,factive,result,foreground,objective]),provide_expl_just(change,[external,factive,cause,foreground,objective]),suggest(change,[external,factive,cause,foreground,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(worry,[external,factive,narration,foreground,objective]),provide_expl_just(learn,[external,nonfactive,narration,background,objective]),provide_expl_just(borrow,[external,factive,narration,background,objective]),provide_expl_just(know,[external,nonfactive,narration,background,objective])]
-14th Street Lyrics.txt_11-86  [and,,,where,i,will,learn,,,how,to,save,not,just,borrow,and,they,will,be,rainbows,and,we,will,finally,know,i,will,not,hurry]  [reject_expl_just(come,[external,factive,result,foreground,objective]),propose_opin_neg(come,[external,factive,result,foreground,objective]),reject_expl_just(change,[external,factive,cause,foreground,objective]),reject_expl_just(be,[external,nonfactive,narration,background,objective]),reject_expl_just(worry,[external,factive,narration,foreground,objective]),reject_expl_just(learn,[external,nonfactive,narration,background,objective]),reject_expl_just(borrow,[external,factive,narration,background,objective]),reject_expl_just(know,[external,nonfactive,narration,background,objective])]
+14th Street Lyrics.txt_2-3  [you,have_to,break]  [reject_expl_just(must,[external,nonfactive,narration,foreground,objective]),reject_expl_just(can,[external,nonfactive,narration,background,objective])]
+14th Street Lyrics.txt_2-4  [all,my,heart,could,not]  [reject_expl_just(must,[external,nonfactive,narration,foreground,objective]),reject_expl_just(can,[external,nonfactive,narration,background,objective])]
+14th Street Lyrics.txt_3-7  [you,have,saved,a,little,bit,of,it]  [reject_expl_just(save,[external,factive,explanation,background,objective]),propose_opin_neg(save,[external,factive,explanation,background,objective])]
+14th Street Lyrics.txt_4-11  [you,whyed,have_to,break,all,my,heart]  [reject_expl_just(must,[external,nonfactive,narration,foreground,objective])]
+14th Street Lyrics.txt_5-16  [could,not,you,have,saved,a,minor,part]  [reject_expl_just(can,[external,nonfactive,narration,background,objective]),reject_expl_just(save,[external,factive,narration,background,objective])]
+14th Street Lyrics.txt_6-23  [i,could,have,clipped]  [provide_expl_just(clip,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+14th Street Lyrics.txt_6-24  [and,saved,and,planted,in,the,garden,damn]  [reject_expl_just(clip,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+14th Street Lyrics.txt_7-31  [you,guess]  [provide_expl_just(guess,[external,factive,narration,background,objective]),provide_expl_just(get,[external,nonfactive,narration,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(sit,[external,factive,narration,background,objective])]
+14th Street Lyrics.txt_7-32  [i,will,have_to,get,a,new,one,i,had,love,to,sit]  [provide_expl_just(guess,[external,factive,narration,background,objective]),provide_expl_just(get,[external,nonfactive,narration,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(sit,[external,factive,narration,background,objective])]
+14th Street Lyrics.txt_7-33  [and,watch]  [provide_expl_just(guess,[external,factive,narration,background,objective]),provide_expl_just(get,[external,nonfactive,narration,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(sit,[external,factive,narration,background,objective])]
+14th Street Lyrics.txt_8-43  [you,have_to,break,all,my,heart]  [reject_expl_just(rip,[external,nonfactive,narration,background,objective]),reject_expl_just(must,[external,nonfactive,narration,foreground,objective]),reject_expl_just(wonder,[external,factive,narration,background,objective])]
+14th Street Lyrics.txt_8-44  [i,could,have,ripped,apart,and,thrown,into,the,river]  [provide_expl_just(rip,[external,nonfactive,narration,background,objective]),provide_expl_just(must,[external,nonfactive,narration,foreground,objective]),provide_expl_just(wonder,[external,factive,narration,background,objective])]
+14th Street Lyrics.txt_8-45  [wonder]  [provide_expl_just(rip,[external,nonfactive,narration,background,objective]),provide_expl_just(must,[external,nonfactive,narration,foreground,objective]),provide_expl_just(wonder,[external,factive,narration,background,objective])]
+14th Street Lyrics.txt_9-54  [if,there,is,hearts,that,will,deliver,don-t,ever,change]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(change,[external,factive,cause,foreground,objective])]
+14th Street Lyrics.txt_10-66  [don-t,ever,worry,because,,]  [reject_expl_just(worry,[external,factive,narration,foreground,objective])]
+14th Street Lyrics.txt_11-77  [i,am,coming,back,home,tomorrow,to,14th,Street,where]  [provide_expl_just(save,[external,factive,narration,background,objective]),provide_expl_just(come,[external,factive,result,foreground,objective]),suggest(come,[external,factive,result,foreground,objective]),provide_expl_just(hurry,[external,nonfactive,narration,background,objective]),provide_expl_just(borrow,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,circumstance,background,objective])]
+14th Street Lyrics.txt_11-78  [i,will,not,hurry]  [reject_expl_just(save,[external,factive,narration,background,objective]),reject_expl_just(come,[external,factive,result,foreground,objective]),propose_opin_neg(come,[external,factive,result,foreground,objective]),reject_expl_just(hurry,[external,nonfactive,narration,background,objective]),reject_expl_just(borrow,[external,factive,narration,background,objective]),reject_expl_just(be,[external,nonfactive,circumstance,background,objective]),propose_opin_neg(be,[external,nonfactive,circumstance,background,objective])]
+14th Street Lyrics.txt_11-79  [and,,,where,i,will,learn,,,how,to,save,not,just,borrow]  [reject_expl_just(save,[external,factive,narration,background,objective]),reject_expl_just(come,[external,factive,result,foreground,objective]),propose_opin_neg(come,[external,factive,result,foreground,objective]),reject_expl_just(hurry,[external,nonfactive,narration,background,objective]),reject_expl_just(borrow,[external,factive,narration,background,objective]),reject_expl_just(be,[external,nonfactive,circumstance,background,objective]),propose_opin_neg(be,[external,nonfactive,circumstance,background,objective])]
+14th Street Lyrics.txt_11-80  [and,they,will,be,rainbows,and,we,will,finally,know]  [provide_expl_just(save,[external,factive,narration,background,objective]),provide_expl_just(come,[external,factive,result,foreground,objective]),suggest(come,[external,factive,result,foreground,objective]),provide_expl_just(hurry,[external,nonfactive,narration,background,objective]),provide_expl_just(borrow,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,circumstance,background,objective])]
 
 
 
 "RID - REGRESSIVE IMAGERY DICTIONARY"
 
 1-(14th Street Lyrics.txt_1-1)-[]
-2-(14th Street Lyrics.txt_2-3)-[]
-3-(14th Street Lyrics.txt_2-4)-[]
-4-(14th Street Lyrics.txt_2-5)-[]
-5-(14th Street Lyrics.txt_2-5)-[emotions-affection,primary-narcissism,primary-vision,secondary-social_behavior,secondary-abstract_tought,secondary-abstract_tought]
-6-(14th Street Lyrics.txt_3-9)-[emotions-aggression]
-7-(14th Street Lyrics.txt_3-10)-[primary-narcissism]
-8-(14th Street Lyrics.txt_4-14)-[]
-9-(14th Street Lyrics.txt_5-19)-[secondary-abstract_tought,emotions-aggression,primary-narcissism]
-10-(14th Street Lyrics.txt_6-25)-[]
-11-(14th Street Lyrics.txt_7-33)-[]
-12-(14th Street Lyrics.txt_7-34)-[primary-water]
+2-(14th Street Lyrics.txt_2-3)-[emotions-aggression]
+3-(14th Street Lyrics.txt_2-4)-[primary-narcissism]
+4-(14th Street Lyrics.txt_3-7)-[]
+5-(14th Street Lyrics.txt_4-11)-[secondary-abstract_tought,emotions-aggression,primary-narcissism]
+6-(14th Street Lyrics.txt_5-16)-[]
+7-(14th Street Lyrics.txt_6-23)-[]
+8-(14th Street Lyrics.txt_6-24)-[primary-water]
+9-(14th Street Lyrics.txt_7-31)-[secondary-abstract_tought]
+10-(14th Street Lyrics.txt_7-32)-[emotions-affection]
 half
-13-(14th Street Lyrics.txt_8-42)-[secondary-abstract_tought]
-14-(14th Street Lyrics.txt_8-43)-[emotions-affection]
-15-(14th Street Lyrics.txt_8-44)-[primary-vision]
-16-(14th Street Lyrics.txt_9-55)-[primary-orality,primary-fire]
-17-(14th Street Lyrics.txt_9-56)-[secondary-temporal_repere]
-18-(14th Street Lyrics.txt_9-57)-[primary-orality,secondary-abstract_tought]
-19-(14th Street Lyrics.txt_10-71)-[emotions-aggression,primary-narcissism]
-20-(14th Street Lyrics.txt_10-72)-[emotions-aggression,primary-concreteness,primary-ascend,primary-water]
-21-(14th Street Lyrics.txt_10-73)-[emotions-glory]
-22-(14th Street Lyrics.txt_11-84)-[primary-narcissism,secondary-instru_behavior,secondary-temporal_repere,secondary-temporal_repere,emotions-anxiety]
-23-(14th Street Lyrics.txt_11-85)-[primary-concreteness,primary-concreteness]
-24-(14th Street Lyrics.txt_11-86)-[primary-concreteness,secondary-abstract_tought,secondary-social_behavior,primary-height,secondary-abstract_tought]
+11-(14th Street Lyrics.txt_7-33)-[primary-vision]
+12-(14th Street Lyrics.txt_8-43)-[emotions-aggression,primary-narcissism]
+13-(14th Street Lyrics.txt_8-44)-[emotions-aggression,primary-concreteness,primary-ascend,primary-water]
+14-(14th Street Lyrics.txt_8-45)-[emotions-glory]
+15-(14th Street Lyrics.txt_9-54)-[primary-narcissism,secondary-instru_behavior,secondary-temporal_repere]
+16-(14th Street Lyrics.txt_10-66)-[secondary-temporal_repere,emotions-anxiety]
+17-(14th Street Lyrics.txt_11-77)-[primary-concreteness,primary-concreteness]
+18-(14th Street Lyrics.txt_11-78)-[]
+19-(14th Street Lyrics.txt_11-79)-[primary-concreteness,secondary-abstract_tought,secondary-social_behavior]
+20-(14th Street Lyrics.txt_11-80)-[primary-height,secondary-abstract_tought]
 
 
 
 "LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
 
 lf(14th Street Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wainwright-sn2,subj-theme_bound-Lyrics-sn1,and(Wainwright,Rufus,sn2),and(Lyrics,14th,sn1),def_prop(Wainwright,[place,umano]),def_prop(Lyrics,[informa,tecno])])
-lf(14th Street Lyrics.txt_2,3,cl5-nil-nil-meet-[subj-experiencer-pro-nil])
-lf(14th Street Lyrics.txt_2,3,cl4-nil-nil-walk-[cmod-subord-meet-1,xcomp-prop-mane-sn18,obj-theme-eye-sn17,ncmod-loc_direct-Street-sn16,xcomp-prop-me-sn15,subj-actor-name-sn14,cmod-subord-meet-",ncmod-loc_direct-Street-sn8,xcomp-prop-me-sn7,subj-actor-name-sn6,and(mane,horse-s,sn18),and(eye,mother-s,sn17),and(eye,dear,sn17),and(Street,14th,sn16),and(Street,14th,sn8),def_prop(mane,[animato,body_part,umano]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(Street,[place,umano]),def_prop(me,[umano]),def_prop(name,[attivita,informa,stato,umano]),def_prop(Street,[place,umano]),def_prop(me,[umano]),def_prop(name,[attivita,informa,stato,umano])])
-lf(14th Street Lyrics.txt_2,3,cl3-nil-nil-lose-[xcomp-prop-my-sn4,obj-theme_unaff-soul-sn3,subj-theme_aff-my-sn2,and(soul,brother-s,sn3),def_prop(my,[informa,tecno]),def_prop(soul,[attivita,emotivo,informa,umano]),def_prop(my,[informa,tecno])])
-lf(14th Street Lyrics.txt_2,3,cl2-nil-nil-get-[subj-agent-you-sn1,aux-have-nil,def_prop(you,[umano])])
-lf(14th Street Lyrics.txt_3,9,cl6-not-could-can-[subj-actor-hear-sn3,and(hear,all,sn3),def_prop(hear,[istituzione])])
-lf(14th Street Lyrics.txt_3,9,nil-nil-have_to-must-[obj-prop-break-sn2,subj-theme_unaff-you-sn1,def_prop(break,[attivita,evento]),def_prop(you,[umano])])
-lf(14th Street Lyrics.txt_4,14,cl7-nil-nil-save-[obj-asset-bite-sn2,subj-agent-you-sn1,aux-have-nil,and(bite,little,sn2),def_prop(bite,[attivita,edible,evento,oggetto,stato]),def_prop(you,[umano])])
-lf(14th Street Lyrics.txt_5,19,nil-nil-have_to-must-[obj-theme-hear-sn3,obj-prop-break-sn2,subj-theme_unaff-whyed-sn1,and(hear,all,sn3),and(whyed,you,sn1),def_prop(hear,[istituzione]),def_prop(break,[attivita,evento]),def_prop(whyed,[istituzione])])
-lf(14th Street Lyrics.txt_6,25,cl9-nil-nil-save-[aux-have-nil])
-lf(14th Street Lyrics.txt_6,25,cl8-nil-could-can-[obj-theme-part-sn2,subj-actor-you-sn1,and(part,minor,sn2),def_prop(part,[astratto,attivita,body_part,informa,oggetto,relat,strumento,umano]),def_prop(you,[umano])])
-lf(14th Street Lyrics.txt_7,33,cl11-nil-nil-be-[cmod-subord-be-",subj-theme_bound-damn-sn2,def_prop(damn,[astratto])])
-lf(14th Street Lyrics.txt_7,33,cl10-nil-could-clip-[subj-agent-you-sn1,aux-have-nil,def_prop(you,[umano])])
-lf(14th Street Lyrics.txt_8,42,cl15-nil-nil-watch-[subj-actor-pro-nil])
-lf(14th Street Lyrics.txt_8,42,cl14-nil-nil-sit-[])
-lf(14th Street Lyrics.txt_8,42,cl13-nil-nil-love-[aux-had-nil])
-lf(14th Street Lyrics.txt_8,42,cl12-nil-have_to-get-[obj-theme_unaff-one-sn3,subj-agent-i-sn2,modal-will-nil,and(one,new,sn3),def_prop(one,[umano]),def_prop(i,[umano])])
-lf(14th Street Lyrics.txt_8,42,nil-nil-nil-guess-[adj-(mod)-watch-nil,subj-experiencer-you-sn1,def_prop(you,[umano])])
-lf(14th Street Lyrics.txt_9,55,cl22-nil-nil-lose-[obj-prop-smoke-sn4,xcomp-purpose-grip-9,iobj-goal-world-sn3,iobj-goal-rein-sn2,aux-has-nil,def_prop(smoke,[astratto,attivita,cambia,informa,oggetto,strumento]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(rein,[astratto,oggetto,strumento])])
-lf(14th Street Lyrics.txt_9,55,cl21-nil-nil-get-[obj-theme-peep-sn13,obj-theme-Bo-sn12,obj-prop-little-sn11,obj2-paziente-sheep-sn10,obj-theme-i-sn9,obj-theme_unaff-little-sn8,subj-agent-you-sn7,and(little,poor,sn11),and(little,hungry,sn8),def_prop(peep,[attivita,evento,informa]),def_prop(Bo,[place,umano]),def_prop(little,[astratto,informa,oggetto]),def_prop(sheep,[animato,umano]),def_prop(i,[umano]),def_prop(little,[astratto,informa,oggetto]),def_prop(you,[umano])])
-lf(14th Street Lyrics.txt_9,55,cl20-nil-nil-file-[cmod-coord-change-and,obj-theme-hound-sn17,subj-agent-whyed-sn16,subj-agent-whyed-sn15,subj-agent-ground-sn14,and(hound,bashful,sn17),and(whyed,ground,sn15),and(ground,you,sn14),def_prop(hound,[animato,plant]),def_prop(whyed,[istituzione]),def_prop(whyed,[istituzione]),def_prop(ground,[astratto,luogo,oggetto,strumento])])
-lf(14th Street Lyrics.txt_9,55,cl19-not-nil-change-[subj-agent-you-sn6,adj-(mod)-ever-nil,aux-do-nil,def_prop(you,[umano])])
-lf(14th Street Lyrics.txt_9,55,cl18-nil-nil-miss-[adj-(mod)-change-nil,subj-tema_eff-smoke-sn4,def_prop(smoke,[astratto,attivita,cambia,informa,oggetto,strumento])])
-lf(14th Street Lyrics.txt_9,55,cl17-nil-nil-grip-[])
-lf(14th Street Lyrics.txt_9,55,cl16-nil-nil-drink-[adj-(mod)-vaguely-nil,subj-agent-you-sn1,def_prop(you,[umano])])
-lf(14th Street Lyrics.txt_10,71,cl24-nil-nil-wonder-[subj-experiencer-you-sn11,def_prop(you,[umano])])
-lf(14th Street Lyrics.txt_10,71,cl23-nil-could-rip-[iobj-goal-river-sn10,xcomp-prop-thrown-sn9,subj-agent-i-sn7,aux-have-nil,and(thrown,apart,sn9),def_prop(river,[oggetto]),def_prop(thrown,[istituzione]),def_prop(i,[umano])])
-lf(14th Street Lyrics.txt_10,71,nil-nil-have_to-must-[obj-theme-hear-sn3,obj-prop-break-sn2,subj-theme_unaff-you-sn1,and(hear,all,sn3),def_prop(hear,[istituzione]),def_prop(break,[attivita,evento]),def_prop(you,[umano])])
-lf(14th Street Lyrics.txt_11,84,cl33-nil-will-deliver-[subj-agent-heart-sn2,def_prop(heart,[astratto,body_part,edible,oggetto,strumento,umano])])
-lf(14th Street Lyrics.txt_11,84,cl32-not-will-hurry-[subj-actor-i-sn10,def_prop(i,[umano])])
-lf(14th Street Lyrics.txt_11,84,cl31-nil-will-know-[adj-(mod)-finally-nil])
-lf(14th Street Lyrics.txt_11,84,cl30-nil-nil-borrow-[])
-lf(14th Street Lyrics.txt_11,84,nil-nil-nil-save-[cmod-subord-come-"])
-lf(14th Street Lyrics.txt_11,84,cl29-nil-will-learn-[])
-lf(14th Street Lyrics.txt_11,84,cl28-nil-nil-come-[adj-temporal-tomorrow-nil,adj-(mod)-home-nil,iobj-goal-Street-sn5,subj-agent-i-sn4,aux-am-nil,progr-coming-nil,and(home,back,sn7),and(Street,where,sn5),def_prop(home,[luogo]),def_prop(Street,[place,umano]),def_prop(i,[umano])])
-lf(14th Street Lyrics.txt_11,84,cl27-not-nil-worry-[subj-causer_emot-pro-nil,adj-(mod)-ever-nil,aux-do-nil,subj-esperiente-heart-sn2,def_prop(heart,[astratto,body_part,edible,oggetto,strumento,umano])])
-lf(14th Street Lyrics.txt_11,84,cl26-not-nil-change-[subj-agent-you-sn3,subj-agent-heart-sn2,adj-(mod)-ever-nil,aux-do-nil,def_prop(you,[umano]),def_prop(heart,[astratto,body_part,edible,oggetto,strumento,umano])])
-lf(14th Street Lyrics.txt_11,84,cl25-nil-will-be-[subj-theme_bound-there-sn1,def_prop(there,[any])])
+lf(14th Street Lyrics.txt_2,3,cl2-not-could-can-[subj-actor-hear-sn3,and(hear,all,sn3),def_prop(hear,[istituzione])])
+lf(14th Street Lyrics.txt_2,3,nil-nil-have_to-must-[obj-prop-break-sn2,subj-theme_unaff-you-sn1,def_prop(break,[attivita,evento]),def_prop(you,[umano])])
+lf(14th Street Lyrics.txt_3,7,cl3-nil-nil-save-[obj-asset-bite-sn2,subj-agent-you-sn1,aux-have-nil,and(bite,little,sn2),def_prop(bite,[attivita,edible,evento,oggetto,stato]),def_prop(you,[umano])])
+lf(14th Street Lyrics.txt_4,11,nil-nil-have_to-must-[obj-theme-hear-sn3,obj-prop-break-sn2,subj-theme_unaff-whyed-sn1,and(hear,all,sn3),and(whyed,you,sn1),def_prop(hear,[istituzione]),def_prop(break,[attivita,evento]),def_prop(whyed,[istituzione])])
+lf(14th Street Lyrics.txt_5,16,cl5-nil-nil-save-[aux-have-nil])
+lf(14th Street Lyrics.txt_5,16,cl4-nil-could-can-[obj-theme-part-sn2,subj-actor-you-sn1,and(part,minor,sn2),def_prop(part,[astratto,attivita,body_part,informa,oggetto,relat,strumento,umano]),def_prop(you,[umano])])
+lf(14th Street Lyrics.txt_6,23,cl7-nil-nil-be-[cmod-subord-be-",subj-theme_bound-damn-sn2,def_prop(damn,[astratto])])
+lf(14th Street Lyrics.txt_6,23,cl6-nil-could-clip-[subj-agent-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(14th Street Lyrics.txt_7,31,cl11-nil-nil-watch-[subj-actor-pro-nil])
+lf(14th Street Lyrics.txt_7,31,cl10-nil-nil-sit-[])
+lf(14th Street Lyrics.txt_7,31,cl9-nil-nil-love-[aux-had-nil])
+lf(14th Street Lyrics.txt_7,31,cl8-nil-have_to-get-[obj-theme_unaff-one-sn3,subj-agent-i-sn2,modal-will-nil,and(one,new,sn3),def_prop(one,[umano]),def_prop(i,[umano])])
+lf(14th Street Lyrics.txt_7,31,nil-nil-nil-guess-[adj-(mod)-watch-nil,subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(14th Street Lyrics.txt_8,43,cl13-nil-nil-wonder-[subj-experiencer-you-sn11,def_prop(you,[umano])])
+lf(14th Street Lyrics.txt_8,43,cl12-nil-could-rip-[iobj-goal-river-sn10,xcomp-prop-thrown-sn9,subj-agent-i-sn7,aux-have-nil,and(thrown,apart,sn9),def_prop(river,[oggetto]),def_prop(thrown,[istituzione]),def_prop(i,[umano])])
+lf(14th Street Lyrics.txt_8,43,nil-nil-have_to-must-[obj-theme-hear-sn3,obj-prop-break-sn2,subj-theme_unaff-you-sn1,and(hear,all,sn3),def_prop(hear,[istituzione]),def_prop(break,[attivita,evento]),def_prop(you,[umano])])
+lf(14th Street Lyrics.txt_9,54,cl16-nil-will-deliver-[subj-agent-heart-sn2,def_prop(heart,[astratto,body_part,edible,oggetto,strumento,umano])])
+lf(14th Street Lyrics.txt_9,54,cl15-not-nil-change-[subj-agent-pro-nil,adj-(mod)-ever-nil,aux-do-nil,subj-agent-heart-sn2,def_prop(heart,[astratto,body_part,edible,oggetto,strumento,umano])])
+lf(14th Street Lyrics.txt_9,54,cl14-nil-nil-be-[subj-theme_bound-there-sn1,def_prop(there,[any])])
+lf(14th Street Lyrics.txt_10,66,cl17-not-nil-worry-[subj-causer_emot-you-sn1,adj-(mod)-ever-nil,aux-do-nil,def_prop(you,[umano])])
+lf(14th Street Lyrics.txt_11,77,cl22-nil-will-know-[cmod-subord-save-",subj-actor-we-sn13,subj-actor-we-sn12,ncmod-goal-Street-sn2,adj-(mod)-finally-nil,and(Street,where,sn2),def_prop(we,[umano]),def_prop(we,[umano]),def_prop(Street,[place,umano])])
+lf(14th Street Lyrics.txt_11,77,cl21-nil-will-be-[cmod-coord-know-1,xcomp-prop-rainbow-sn11,subj-theme_bound-they-sn10,def_prop(rainbow,[astratto,oggetto]),def_prop(they,[umano])])
+lf(14th Street Lyrics.txt_11,77,cl20-nil-nil-borrow-[obj-theme-how-sn9,adj-subj_disc-just-sn8,def_prop(how,[manner]),def_prop(just,[informa,tecno])])
+lf(14th Street Lyrics.txt_11,77,nil-nil-nil-save-[])
+lf(14th Street Lyrics.txt_11,77,cl19-not-will-hurry-[subj-actor-you-sn7,def_prop(you,[umano])])
+lf(14th Street Lyrics.txt_11,77,cl18-nil-nil-come-[adj-temporal-tomorrow-nil,adj-(mod)-home-nil,subj-agent-i-sn1,aux-am-nil,progr-coming-nil,and(home,back,sn4),def_prop(home,[luogo]),def_prop(i,[umano])])

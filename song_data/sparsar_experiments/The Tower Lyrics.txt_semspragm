@@ -31,8 +31,8 @@ The Tower Lyrics.txt_12-92  []-negative  [neg]
 "ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
 
 The Tower Lyrics.txt_1-1  [the,Tower,Lyrics,by,Pure,Bathing,culture]  [title]
-The Tower Lyrics.txt_2-3  [over,mellow,month,come,through,over]  [raise_issue(be,[_203840,factive,statement,_203858,subjective])]
-The Tower Lyrics.txt_3-6  [Temple,turns,blue,too,diaries]  [raise_issue(be,[_204162,factive,statement,_204180,subjective])]
+The Tower Lyrics.txt_2-3  [over,mellow,month,come,through,over]  [raise_issue(be,[_204300,factive,statement,_204318,subjective])]
+The Tower Lyrics.txt_3-6  [Temple,turns,blue,too,diaries]  [raise_issue(be,[_204622,factive,statement,_204640,subjective])]
 The Tower Lyrics.txt_4-10  [turning,i,feel,them,too]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(draw,[external,factive,cause,foreground,objective]),provide_expl_just(turn,[external,factive,cause,foreground,objective])]
 The Tower Lyrics.txt_4-11  [tell,him,all,those,i,drew,ohhhhhhh,so,many,faces]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(draw,[external,factive,cause,foreground,objective]),provide_expl_just(turn,[external,factive,cause,foreground,objective])]
 The Tower Lyrics.txt_5-18  [i,can,not,see]  [reject_expl_just(go,[external,nonfactive,narration,foreground,objective])]
@@ -95,7 +95,7 @@ lf(The Tower Lyrics.txt_1,1,cl1-nil-nil-bathe-[obj-theme-culture-sn2,subj-actor-
 lf(The Tower Lyrics.txt_2,3,cl2-nil-nil-come-[adj-temporal-month-nil,adj-(mod)-over-nil,ncmod-relation-over-sn2,subj-agent-you-sn1,and(month,mellow,sn4),def_prop(month,[tempo]),def_prop(over,[istituzione]),def_prop(over,[istituzione]),def_prop(you,[umano])])
 lf(The Tower Lyrics.txt_3,6,cl3-nil-nil-turn-[xcomp-prop-blue-sn2,subj-agent-Temple-sn1,def_prop(blue,[animato,astratto,istituzione,oggetto,strumento]),def_prop(Temple,[place,umano])])
 lf(The Tower Lyrics.txt_4,10,cl7-nil-nil-draw-[])
-lf(The Tower Lyrics.txt_4,10,cl6-nil-nil-tell-[obj-locative-ohhhhhhh-sn27,xcomp-purpose-draw-2,obj-theme-that-sn26,obj2-paziente-all-sn25,obj-theme_unaff-him-sn24,subj-agent-you-sn23,def_prop(ohhhhhhh,[istituzione]),def_prop(that,[oggetto,umano]),def_prop(all,[_219920]),def_prop(him,[umano]),def_prop(you,[umano])])
+lf(The Tower Lyrics.txt_4,10,cl6-nil-nil-tell-[obj-locative-ohhhhhhh-sn27,xcomp-purpose-draw-2,obj-theme-that-sn26,obj2-paziente-all-sn25,obj-theme_unaff-him-sn24,subj-agent-you-sn23,def_prop(ohhhhhhh,[istituzione]),def_prop(that,[oggetto,umano]),def_prop(all,[_220380]),def_prop(him,[umano]),def_prop(you,[umano])])
 lf(The Tower Lyrics.txt_4,10,cl5-nil-nil-feel-[xcomp-tema_emot-them-sn20,subj-experiencer-i-sn1,def_prop(them,[umano]),def_prop(i,[umano])])
 lf(The Tower Lyrics.txt_4,10,cl4-nil-nil-turn-[])
 lf(The Tower Lyrics.txt_5,18,cl9-nil-nil-go-[obj-theme_aff-thing-sn3,subj-agent-there-sn2,aux-are-nil,progr-going-nil,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(there,[any])])
@@ -115,4 +115,4 @@ lf(The Tower Lyrics.txt_10,64,cl19-nil-nil-stay-[obj-theme-breakfast-sn3,obj-the
 lf(The Tower Lyrics.txt_11,77,cl24-not-nil-tell-[subj-agent-you-sn6,aux-do-nil,def_prop(you,[umano])])
 lf(The Tower Lyrics.txt_11,77,cl23-nil-nil-hear-[obj-theme_unaff-talk-sn4,subj-experiencer-i-sn3,and(talk,town,sn4),def_prop(talk,[attivita,informa]),def_prop(i,[umano])])
 lf(The Tower Lyrics.txt_11,77,cl22-nil-nil-be-[xcomp-prop-alone-sn2,subj-theme_bound-i-sn1,def_prop(alone,[istituzione]),def_prop(i,[umano])])
-lf(The Tower Lyrics.txt_12,91,cl25-nil-nil-be-[subj-theme_bound-you-sn4,obj2-benef-alone-sn3,xcomp-prop-x2-sn2,subj-theme_bound-i-sn1,and(alone,alone,sn3),and(x2,alone,sn2),def_prop(you,[umano]),def_prop(alone,_222792),def_prop(x2,[informa,tecno]),def_prop(i,[umano])])
+lf(The Tower Lyrics.txt_12,91,cl25-nil-nil-be-[subj-theme_bound-you-sn4,obj2-benef-alone-sn3,xcomp-prop-x2-sn2,subj-theme_bound-i-sn1,and(alone,alone,sn3),and(x2,alone,sn2),def_prop(you,[umano]),def_prop(alone,_223252),def_prop(x2,[informa,tecno]),def_prop(i,[umano])])

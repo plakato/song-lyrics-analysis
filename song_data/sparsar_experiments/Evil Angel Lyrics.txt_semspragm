@@ -7,8 +7,13 @@ Evil Angel Lyrics.txt_3-8  [then-temp_seq,when-temp_coinc]-suspension  [neg]
 Evil Angel Lyrics.txt_4-12  []-positive  []
 Evil Angel Lyrics.txt_4-13  []-positive  []
 Evil Angel Lyrics.txt_4-14  [(as)-temp_coinc,when-temp_coinc]-negative  [neg]
-Evil Angel Lyrics.txt_5-20  []-positive  []
-Evil Angel Lyrics.txt_5-21  [when-temp_coinc]-suspension  [neg,neg,neg,fgb,neg,neg,neg,neg,bkc,neg,neg,bkc,neg,neg,fgb,neg]
+Evil Angel Lyrics.txt_5-21  []-positive  []
+Evil Angel Lyrics.txt_5-22  []-positive  [neg,neg,neg,fgb]
+Evil Angel Lyrics.txt_6-35  [when-temp_coinc]-negative  [neg]
+Evil Angel Lyrics.txt_7-43  []-suspension  [neg,neg,neg,bkc,neg,neg]
+Evil Angel Lyrics.txt_7-44  []-suspension  [bkc,neg,neg]
+Evil Angel Lyrics.txt_7-45  []-positive  [fgb]
+Evil Angel Lyrics.txt_7-45  []-positive  [fgb,neg]
 
 
 
@@ -18,11 +23,16 @@ Evil Angel Lyrics.txt_1-1  [evil,Angel,Lyrics,by,Rufus,Wainwright]  [title]
 Evil Angel Lyrics.txt_2-3  [for,to,see,my,depth,of,sorrow]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(follow,[external,factive,narration,background,objective])]
 Evil Angel Lyrics.txt_2-3  [for,to,see,my,depth,of,sorrow,you,are,not,allowed,to,follow,me,unto]  [reject_expl_just(see,[external,factive,narration,background,objective]),reject_expl_just(follow,[external,factive,narration,background,objective])]
 Evil Angel Lyrics.txt_3-8  [this,town,square,then,run,away,evil,angel,with,your,cleft,tongue,when]  [provide_expl_just(run,[external,factive,narration,background,objective])]
-Evil Angel Lyrics.txt_4-12  [you,kissed,me,on,this,town]  [provide_expl_just(think,[external,factive,narration,foreground,objective]),provide_expl_just(stay,[external,factive,explanation,background,objective]),provide_expl_just(come,[external,factive,circumstance,foreground,objective])]
-Evil Angel Lyrics.txt_4-13  [square,all,the,lights,,,came,on,at,sunset]  [provide_expl_just(think,[external,factive,narration,foreground,objective]),provide_expl_just(stay,[external,factive,explanation,background,objective]),provide_expl_just(come,[external,factive,circumstance,foreground,objective])]
-Evil Angel Lyrics.txt_4-14  [thought,you,had,stay,evil,angel,bearin,apples,when,,,you,kissed,me,as]  [reject_expl_just(think,[external,factive,narration,foreground,objective]),reject_expl_just(stay,[external,factive,explanation,background,objective]),propose_opin_neg(stay,[external,factive,explanation,background,objective]),reject_expl_just(come,[external,factive,circumstance,foreground,objective]),propose_opin_neg(come,[external,factive,circumstance,foreground,objective])]
-Evil Angel Lyrics.txt_5-20  [the,boats,do,how]  [provide_expl_just(tear,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(flee,[external,factive,narration,background,objective]),provide_expl_just(face,[external,factive,narration,foreground,objective]),provide_expl_just(bury,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(build,[external,factive,narration,background,objective]),provide_expl_just(rebuild,[external,factive,narration,background,objective])]
-Evil Angel Lyrics.txt_5-21  [was,i,to,know,you,had,flee,tear,down,these,monuments,bury,the,coat,of,arms,and,build,for,me,a,factory,evil,angel,when,you,are,faced,with,hatred-s,daggers,in,my,honor,you,are,,,no,match,no,scratching,hearts,that,no_longer,bleed,oh,evil,angel,tear,down,the,monuments,oh,evil,angel,bury,the,coat,of,arms,and,rebuild,for,me,these,memories,for,,,to,see,my,depth,of,sorrow]  [provide_expl_just(tear,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(flee,[external,factive,narration,background,objective]),provide_expl_just(face,[external,factive,narration,foreground,objective]),provide_expl_just(bury,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(build,[external,factive,narration,background,objective]),provide_expl_just(rebuild,[external,factive,narration,background,objective])]
+Evil Angel Lyrics.txt_4-12  [you,kissed,me,on,this,town]  [provide_expl_just(think,[external,factive,narration,foreground,objective]),provide_expl_just(bear,[external,factive,narration,foreground,objective]),provide_expl_just(come,[external,factive,result,foreground,objective]),provide_expl_just(stay,[external,factive,explanation,background,objective])]
+Evil Angel Lyrics.txt_4-13  [square,all,the,lights,,,came,on,at,sunset]  [provide_expl_just(think,[external,factive,narration,foreground,objective]),provide_expl_just(bear,[external,factive,narration,foreground,objective]),provide_expl_just(come,[external,factive,result,foreground,objective]),provide_expl_just(stay,[external,factive,explanation,background,objective])]
+Evil Angel Lyrics.txt_4-14  [thought,you,had,stay,evil,angel,bearing,apples,when,,,you,kissed,me,as]  [reject_expl_just(think,[external,factive,narration,foreground,objective]),reject_expl_just(bear,[external,factive,narration,foreground,objective]),reject_expl_just(come,[external,factive,result,foreground,objective]),propose_opin_neg(come,[external,factive,result,foreground,objective]),reject_expl_just(stay,[external,factive,explanation,background,objective]),propose_opin_neg(stay,[external,factive,explanation,background,objective])]
+Evil Angel Lyrics.txt_5-21  [the,boats,do,how]  [provide_expl_just(tear,[external,factive,narration,background,objective]),provide_expl_just(flee,[external,factive,narration,background,objective]),provide_expl_just(bury,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(build,[external,factive,narration,background,objective])]
+Evil Angel Lyrics.txt_5-22  [was,i,to,know,you,had,flee,tear,down,these,monuments,bury,the,coat,of,arms,and,build,for,me]  [provide_expl_just(tear,[external,factive,narration,background,objective]),provide_expl_just(flee,[external,factive,narration,background,objective]),provide_expl_just(bury,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(build,[external,factive,narration,background,objective])]
+Evil Angel Lyrics.txt_6-35  [a,evil,factory,angel,when,you,are,faced,with,hatred-s,daggers,in,my,honor,you,are]  [reject_expl_just(be,[external,factive,circumstance,background,objective]),propose_opin_neg(be,[external,factive,circumstance,background,objective])]
+Evil Angel Lyrics.txt_7-43  [no,no,scratching,match,that,no_longer,bleed,oh,hearts,evil,angel,tear,down,the,monuments]  [provide_expl_just(rebuild,[external,factive,narration,background,objective]),provide_expl_just(bleed,[external,factive,narration,foreground,objective]),provide_expl_just(tear,[external,factive,narration,background,objective]),provide_expl_just(bury,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Evil Angel Lyrics.txt_7-44  [oh,evil,angel,bury,the,coat,of,arms]  [provide_expl_just(rebuild,[external,factive,narration,background,objective]),provide_expl_just(bleed,[external,factive,narration,foreground,objective]),provide_expl_just(tear,[external,factive,narration,background,objective]),provide_expl_just(bury,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Evil Angel Lyrics.txt_7-45  [and,rebuild,for,me,these,memories]  [provide_expl_just(rebuild,[external,factive,narration,background,objective]),provide_expl_just(bleed,[external,factive,narration,foreground,objective]),provide_expl_just(tear,[external,factive,narration,background,objective]),provide_expl_just(bury,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Evil Angel Lyrics.txt_7-45  [and,rebuild,for,me,these,memories,for,,,to,see,my,depth,of,sorrow]  [provide_expl_just(rebuild,[external,factive,narration,background,objective]),provide_expl_just(bleed,[external,factive,narration,foreground,objective]),provide_expl_just(tear,[external,factive,narration,background,objective]),provide_expl_just(bury,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
 
 
 
@@ -32,12 +42,17 @@ Evil Angel Lyrics.txt_5-21  [was,i,to,know,you,had,flee,tear,down,these,monument
 2-(Evil Angel Lyrics.txt_2-3)-[primary-vision,primary-depth,emotions-sadness]
 3-(Evil Angel Lyrics.txt_2-3)-[primary-vision,primary-depth,emotions-sadness,secondary-social_behavior,secondary-social_behavior]
 4-(Evil Angel Lyrics.txt_3-8)-[primary-concreteness,secondary-temporal_repere,primary-concreteness,primary-orality,secondary-temporal_repere]
-half
 5-(Evil Angel Lyrics.txt_4-12)-[primary-sex]
 6-(Evil Angel Lyrics.txt_4-13)-[primary-concreteness,primary-vision,primary-concreteness,primary-descent]
 7-(Evil Angel Lyrics.txt_4-14)-[secondary-abstract_tought,primary-orality,secondary-temporal_repere,primary-sex]
-8-(Evil Angel Lyrics.txt_5-20)-[]
-9-(Evil Angel Lyrics.txt_5-21)-[secondary-abstract_tought,primary-orality,primary-descent,primary-narcissism,secondary-instru_behavior,secondary-instru_behavior,secondary-temporal_repere,primary-narcissism,secondary-moral_imperative,primary-narcissism,primary-orality,primary-descent,primary-narcissism,primary-vision,primary-depth,emotions-sadness]
+half
+8-(Evil Angel Lyrics.txt_5-21)-[]
+9-(Evil Angel Lyrics.txt_5-22)-[secondary-abstract_tought,primary-orality,primary-descent,primary-narcissism,secondary-instru_behavior]
+10-(Evil Angel Lyrics.txt_6-35)-[secondary-instru_behavior,secondary-temporal_repere,primary-narcissism,secondary-moral_imperative]
+11-(Evil Angel Lyrics.txt_7-43)-[primary-narcissism,primary-orality]
+12-(Evil Angel Lyrics.txt_7-44)-[primary-descent,primary-narcissism]
+13-(Evil Angel Lyrics.txt_7-45)-[]
+14-(Evil Angel Lyrics.txt_7-45)-[primary-vision,primary-depth,emotions-sadness]
 
 
 
@@ -48,18 +63,22 @@ lf(Evil Angel Lyrics.txt_2,3,cl4-nil-nil-follow-[cmod-subord-follow-for])
 lf(Evil Angel Lyrics.txt_2,3,cl3-not-nil-allow-[obj-actor-depth-sn5,xcomp-purpose-see-2,subj-actor-you-sn4,aux-are-nil,def_prop(depth,[astratto,luogo,stato]),def_prop(you,[umano])])
 lf(Evil Angel Lyrics.txt_2,3,cl2-nil-nil-see-[obj-result-me-sn6,xcomp-prop-follow-3,subj-agent-depth-sn1,def_prop(me,[umano]),def_prop(depth,[astratto,luogo,stato])])
 lf(Evil Angel Lyrics.txt_3,8,cl5-nil-nil-run-[cmod-subord-run-then,iobj-goal-cleave-sn7,obj-theme_aff-angel-sn6,subj-agent-you-sn5,and(angel,away,sn6),and(angel,evil,sn6),def_prop(cleave,[istituzione]),def_prop(angel,[plant,umano]),def_prop(you,[umano])])
-lf(Evil Angel Lyrics.txt_4,12,cl9-nil-nil-stay-[aux-had-nil])
-lf(Evil Angel Lyrics.txt_4,12,cl8-nil-nil-think-[obj-actor-angel-sn10,xcomp-purpose-stay-2,subj-agent-you-sn9,subj-agent-you-sn8,and(angel,evil,sn10),and(you,you,sn8),def_prop(angel,[plant,umano]),def_prop(you,[umano]),def_prop(you,[umano])])
-lf(Evil Angel Lyrics.txt_4,12,cl7-nil-nil-come-[ncmod-clock_cal-sunset-sn6,subj-agent-all-sn5,and(all,light,sn5),def_prop(sunset,[tempo]),def_prop(all,[_503140])])
-lf(Evil Angel Lyrics.txt_4,12,cl6-nil-nil-kiss-[cmod-subord-stay-when,subj-actor-me-sn16,obj-theme-me-sn15,subj-actor-you-sn14,iobj-goal-town-sn3,obj-theme-me-sn2,subj-actor-you-sn1,and(town,this,sn3),def_prop(me,[umano]),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(town,[istituzione,luogo]),def_prop(me,[umano]),def_prop(you,[umano])])
-lf(Evil Angel Lyrics.txt_5,20,cl20-nil-nil-see-[cmod-subord-be-nil])
-lf(Evil Angel Lyrics.txt_5,20,cl19-nil-nil-rebuild-[xcomp-prop-memory-sn39,subj-agent-me-sn38,and(memory,these,sn39),def_prop(memory,[astratto,oggetto,strumento]),def_prop(me,[umano])])
-lf(Evil Angel Lyrics.txt_5,20,cl18-nil-nil-bleed-[])
-lf(Evil Angel Lyrics.txt_5,20,cl17-nil-nil-face-[cmod-coord-rebuild-2,iobj-goal-dagger-sn36,subj-actor-you-sn35,aux-are-nil,and(dagger,hatred-s,sn36),def_prop(dagger,[attivita,informa,oggetto,strumento]),def_prop(you,[umano])])
-lf(Evil Angel Lyrics.txt_5,20,cl16-nil-nil-build-[])
-lf(Evil Angel Lyrics.txt_5,20,cl15-nil-nil-bury-[xcomp-agent-coat-sn55,subj-agent-you-sn54,xcomp-prop-coat-sn51,subj-agent-monument-sn50,obj-goal-coat-sn47,xcomp-purpose-tear-4,subj-agent-monument-sn46,and(monument,down,sn50),and(monument,these,sn50),and(monument,down,sn46),and(monument,these,sn46),def_prop(coat,[animato,oggetto,strumento]),def_prop(you,[umano]),def_prop(coat,[animato,oggetto,strumento]),def_prop(monument,[luogo]),def_prop(coat,[animato,oggetto,strumento]),def_prop(monument,[luogo])])
-lf(Evil Angel Lyrics.txt_5,20,cl14-nil-nil-tear-[subj-goal-you-sn41,def_prop(you,[umano])])
-lf(Evil Angel Lyrics.txt_5,20,cl13-nil-nil-flee-[xcomp-result-coat-sn43,xcomp-purpose-bury-3,subj-agent-monument-sn42,subj-agent-you-sn41,aux-had-nil,and(monument,down,sn42),and(monument,these,sn42),def_prop(coat,[animato,oggetto,strumento]),def_prop(monument,[luogo]),def_prop(you,[umano])])
-lf(Evil Angel Lyrics.txt_5,20,cl12-nil-nil-know-[])
-lf(Evil Angel Lyrics.txt_5,20,cl11-nil-nil-be-[adj-(mod)-down-nil,xcomp-result-depth-sn27,xcomp-purpose-see-2,ncmod-tema_nonaff-honor-sn4,xcomp-purpose-know-cl12,subj-actor-i-sn3,subj-actor-i-sn2,and(i,you,sn2),def_prop(down,_504812),def_prop(depth,[astratto,luogo,stato]),def_prop(honor,[astratto,stato]),def_prop(i,[umano]),def_prop(i,[umano])])
-lf(Evil Angel Lyrics.txt_5,20,cl10-nil-nil-do-[subj-theme_unaff-boat-sn1,aux-do-nil,def_prop(boat,[oggetto,strumento])])
+lf(Evil Angel Lyrics.txt_4,12,cl10-nil-nil-bear-[subj-agent-apple-sn17,obj-goal-apple-sn16,subj-agent-angel-sn15,and(angel,evil,sn15),def_prop(apple,[edible,oggetto,plant]),def_prop(apple,[edible,oggetto,plant]),def_prop(angel,[plant,umano])])
+lf(Evil Angel Lyrics.txt_4,12,cl9-nil-nil-stay-[subj-actor-you-sn9,aux-had-nil,def_prop(you,[umano])])
+lf(Evil Angel Lyrics.txt_4,12,cl8-nil-nil-think-[adj-(mod)-kiss-nil,cmod-subord-nil-nil,subj-agent-you-sn9,subj-agent-you-sn8,and(you,you,sn8),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Evil Angel Lyrics.txt_4,12,cl7-nil-nil-come-[ncmod-clock_cal-sunset-sn6,subj-agent-all-sn5,and(all,light,sn5),def_prop(sunset,[tempo]),def_prop(all,[_115526])])
+lf(Evil Angel Lyrics.txt_4,12,cl6-nil-nil-kiss-[obj-theme-me-sn14,subj-actor-you-sn13,obj-theme-me-sn12,subj-actor-you-sn11,iobj-goal-town-sn3,obj-theme-me-sn2,subj-actor-you-sn1,and(town,this,sn3),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(town,[istituzione,luogo]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Evil Angel Lyrics.txt_5,21,cl17-nil-nil-build-[subj-agent-pro-nil])
+lf(Evil Angel Lyrics.txt_5,21,cl16-nil-nil-bury-[xcomp-agent-coat-sn19,subj-agent-you-sn18,xcomp-prop-coat-sn15,subj-agent-monument-sn14,obj-goal-coat-sn11,xcomp-purpose-tear-4,subj-agent-monument-sn10,and(monument,down,sn14),and(monument,these,sn14),and(monument,down,sn10),and(monument,these,sn10),def_prop(coat,[animato,oggetto,strumento]),def_prop(you,[umano]),def_prop(coat,[animato,oggetto,strumento]),def_prop(monument,[luogo]),def_prop(coat,[animato,oggetto,strumento]),def_prop(monument,[luogo])])
+lf(Evil Angel Lyrics.txt_5,21,cl15-nil-nil-tear-[subj-goal-you-sn5,def_prop(you,[umano])])
+lf(Evil Angel Lyrics.txt_5,21,cl14-nil-nil-flee-[xcomp-result-coat-sn7,xcomp-purpose-bury-3,subj-agent-monument-sn6,subj-agent-you-sn5,aux-had-nil,and(monument,down,sn6),and(monument,these,sn6),def_prop(coat,[animato,oggetto,strumento]),def_prop(monument,[luogo]),def_prop(you,[umano])])
+lf(Evil Angel Lyrics.txt_5,21,cl13-nil-nil-know-[subj-tema_nonaff-i-sn3,def_prop(i,[umano])])
+lf(Evil Angel Lyrics.txt_5,21,cl12-nil-nil-be-[cmod-coord-build-1,subj-theme_bound-i-sn3,subj-theme_bound-i-sn2,and(i,you,sn2),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Evil Angel Lyrics.txt_5,21,cl11-nil-nil-do-[subj-theme_unaff-boat-sn1,aux-do-nil,def_prop(boat,[oggetto,strumento])])
+lf(Evil Angel Lyrics.txt_6,35,cl19-nil-nil-be-[xcomp-theme-you-sn3,ncmod-locativo-honor-sn2,subj-actor-angel-sn1,and(angel,evil,sn1),def_prop(you,[umano]),def_prop(honor,[astratto,stato]),def_prop(angel,[plant,umano])])
+lf(Evil Angel Lyrics.txt_6,35,cl18-nil-nil-face-[cmod-subord-be-when,iobj-goal-dagger-sn7,subj-actor-you-sn6,aux-are-nil,and(dagger,hatred-s,sn7),def_prop(dagger,[attivita,informa,oggetto,strumento]),def_prop(you,[umano])])
+lf(Evil Angel Lyrics.txt_7,43,cl24-nil-nil-see-[cmod-coord-rebuild-and,obj-theme_aff-depth-sn29,obj-actor-memory-sn28,subj-experiencer-me-sn27,subj-experiencer-me-sn26,and(memory,these,sn28),and(me,memory,sn26),def_prop(depth,[astratto,luogo,stato]),def_prop(memory,[astratto,oggetto,strumento]),def_prop(me,[umano]),def_prop(me,[umano])])
+lf(Evil Angel Lyrics.txt_7,43,cl23-nil-nil-rebuild-[subj-agent-you-sn25,cmod-subord-bury-",subj-agent-you-sn21,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Evil Angel Lyrics.txt_7,43,cl22-nil-nil-bury-[obj-theme-coat-sn18,subj-agent-angel-sn17,subj-agent-angel-sn16,and(angel,evil,sn17),and(angel,oh,sn16),and(angel,evil,sn16),def_prop(coat,[animato,oggetto,strumento]),def_prop(angel,[plant,umano]),def_prop(angel,[plant,umano])])
+lf(Evil Angel Lyrics.txt_7,43,cl21-nil-nil-tear-[adj-(mod)-down-nil,obj-goal-monument-sn3,subj-agent-angel-sn2,subj-agent-angel-sn1,and(angel,evil,sn2),and(angel,heart,sn1),and(angel,scratching,sn1),and(angel,no,sn1),and(angel,evil,sn1),def_prop(monument,[luogo]),def_prop(angel,[plant,umano]),def_prop(angel,[plant,umano])])
+lf(Evil Angel Lyrics.txt_7,43,cl20-nil-nil-bleed-[])

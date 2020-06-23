@@ -1,0 +1,81 @@
+"POLARITY, DISCOURSE MARKERS"
+
+shuffled0Steel Light Lyrics.txt_1-1  []-positive  []
+shuffled0Steel Light Lyrics.txt_2-3  []-positive  [neg]
+shuffled0Steel Light Lyrics.txt_3-6  []-positive  []
+shuffled0Steel Light Lyrics.txt_3-7  []-positive  [fgb]
+shuffled0Steel Light Lyrics.txt_3-8  []-positive  []
+shuffled0Steel Light Lyrics.txt_3-9  []-positive  []
+shuffled0Steel Light Lyrics.txt_3-10  []-suspension  [neg]
+shuffled0Steel Light Lyrics.txt_4-15  []-negative  [neg,neg]
+shuffled0Steel Light Lyrics.txt_5-25  []-suspension  [neg,neg,neg]
+shuffled0Steel Light Lyrics.txt_5-26  []-negative  []
+shuffled0Steel Light Lyrics.txt_5-27  []-suspension  []
+shuffled0Steel Light Lyrics.txt_5-28  []-suspension  [neg]
+shuffled0Steel Light Lyrics.txt_6-34  []-positive  [neg,neg]
+shuffled0Steel Light Lyrics.txt_7-42  []-suspension  [neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+shuffled0Steel Light Lyrics.txt_1-1  [steel,Light,Lyrics,by,Q5]  [title]
+shuffled0Steel Light Lyrics.txt_2-3  [steel,,,the,light,turning,darkness,into,light,there,in,his,hands]  [provide_expl_just(turn,[external,factive,cause,foreground,objective])]
+shuffled0Steel Light Lyrics.txt_3-6  [our,hopes]  [provide_expl_just(try,[external,nonfactive,narration,foreground,objective]),provide_expl_just(steal,[external,factive,result,background,objective]),provide_expl_just(hope,[external,factive,narration,background,objective]),provide_expl_just(dream,[external,factive,narration,background,objective]),provide_expl_just(live,[external,factive,narration,foreground,objective])]
+shuffled0Steel Light Lyrics.txt_3-7  [and,dreams]  [provide_expl_just(try,[external,nonfactive,narration,foreground,objective]),provide_expl_just(steal,[external,factive,result,background,objective]),provide_expl_just(hope,[external,factive,narration,background,objective]),provide_expl_just(dream,[external,factive,narration,background,objective]),provide_expl_just(live,[external,factive,narration,foreground,objective])]
+shuffled0Steel Light Lyrics.txt_3-8  [the,gods,declared]  [provide_expl_just(try,[external,nonfactive,narration,foreground,objective]),provide_expl_just(steal,[external,factive,result,background,objective]),provide_expl_just(hope,[external,factive,narration,background,objective]),provide_expl_just(dream,[external,factive,narration,background,objective]),provide_expl_just(live,[external,factive,narration,foreground,objective])]
+shuffled0Steel Light Lyrics.txt_3-9  [that,man,lived,by_night]  [provide_expl_just(try,[external,nonfactive,narration,foreground,objective]),provide_expl_just(steal,[external,factive,result,background,objective]),provide_expl_just(hope,[external,factive,narration,background,objective]),provide_expl_just(dream,[external,factive,narration,background,objective]),provide_expl_just(live,[external,factive,narration,foreground,objective])]
+shuffled0Steel Light Lyrics.txt_3-10  [he,must,try,to,steal,the,light,steel,the,light,steel]  [propose_opin(try,[external,nonfactive,narration,foreground,objective]),provide_expl_just(try,[external,nonfactive,narration,foreground,objective]),propose_opin_neg(steal,[external,factive,result,background,objective]),provide_expl_just(hope,[external,factive,narration,background,objective]),provide_expl_just(dream,[external,factive,narration,background,objective]),provide_expl_just(live,[external,factive,narration,foreground,objective])]
+shuffled0Steel Light Lyrics.txt_4-15  [never,shall,they,see,the,light,steel,the,light,turning,darkness,into,light,threw,it,open,to,the,night,steel,the,light,came]  [reject_expl_just(steel,[external,factive,narration,background,objective]),reject_expl_just(shall,[external,nonfactive,narration,background,objective]),reject_expl_just(see,[external,factive,narration,background,objective]),reject_expl_just(open,[external,factive,result,background,objective]),propose_opin_neg(open,[external,factive,result,background,objective])]
+shuffled0Steel Light Lyrics.txt_5-25  [the,challenge,of,the,fight,passed,empty,rooms,where]  [provide_expl_just(pass,[external,factive,cause,foreground,objective]),provide_expl_just(cry,[external,factive,narration,foreground,objective])]
+shuffled0Steel Light Lyrics.txt_5-26  [sirens,cried]  [provide_expl_just(pass,[external,factive,cause,foreground,objective]),provide_expl_just(cry,[external,factive,narration,foreground,objective])]
+shuffled0Steel Light Lyrics.txt_5-27  [that,this,day,would,steel]  [provide_expl_just(pass,[external,factive,cause,foreground,objective]),provide_expl_just(cry,[external,factive,narration,foreground,objective])]
+shuffled0Steel Light Lyrics.txt_5-28  [the,light,pay,the,price,of,mystery,steel,the,light,steel]  [provide_expl_just(pass,[external,factive,cause,foreground,objective]),provide_expl_just(cry,[external,factive,narration,foreground,objective])]
+shuffled0Steel Light Lyrics.txt_6-34  [the,light,turning,darkness,into,light,close,his,at_hand,destiny,steel,,,the,light,he,walked]  [provide_expl_just(turn,[external,factive,cause,foreground,objective])]
+shuffled0Steel Light Lyrics.txt_7-42  [the,maze,of,the,endless,blight,the,final,blow,did,take,his,life]  [provide_expl_just(take,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(shuffled0Steel Light Lyrics.txt_1-1)-[primary-hard]
+2-(shuffled0Steel Light Lyrics.txt_2-3)-[primary-hard,primary-vision,primary-vision,primary-narcissism]
+3-(shuffled0Steel Light Lyrics.txt_3-6)-[]
+4-(shuffled0Steel Light Lyrics.txt_3-7)-[primary-counscious]
+5-(shuffled0Steel Light Lyrics.txt_3-8)-[secondary-social_behavior]
+6-(shuffled0Steel Light Lyrics.txt_3-9)-[]
+7-(shuffled0Steel Light Lyrics.txt_3-10)-[secondary-restraint,secondary-instru_behavior,emotions-aggression,primary-vision,primary-hard,primary-vision,primary-hard]
+half
+8-(shuffled0Steel Light Lyrics.txt_4-15)-[primary-vision,primary-vision,primary-hard,primary-vision,primary-vision,primary-ascend,primary-concreteness,primary-hard,primary-vision]
+9-(shuffled0Steel Light Lyrics.txt_5-25)-[emotions-aggression,primary-concreteness]
+10-(shuffled0Steel Light Lyrics.txt_5-26)-[emotions-expressive_beh]
+11-(shuffled0Steel Light Lyrics.txt_5-27)-[primary-hard]
+12-(shuffled0Steel Light Lyrics.txt_5-28)-[primary-vision,secondary-instru_behavior,secondary-instru_behavior,primary-hard,primary-vision,primary-hard]
+13-(shuffled0Steel Light Lyrics.txt_6-34)-[primary-vision,primary-vision,primary-concreteness,primary-hard,primary-vision]
+14-(shuffled0Steel Light Lyrics.txt_7-42)-[primary-timelessness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(shuffled0Steel Light Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Q5-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Light,sn1),and(Lyrics,steel,sn1),def_prop(Q5,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(shuffled0Steel Light Lyrics.txt_2,3,cl2-nil-nil-turn-[adj-locative-there-nil,ncmod-locativo-hand-sn5,ncmod-loc_direct-light-sn4,obj-theme-darkness-sn3,subj-agent-light-sn2,subj-agent-light-sn1,and(light,steel,sn1),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(darkness,[astratto,luogo]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(shuffled0Steel Light Lyrics.txt_3,6,cl8-nil-nil-steal-[])
+lf(shuffled0Steel Light Lyrics.txt_3,6,cl7-nil-must-try-[obj-theme-steel-sn7,xcomp-purpose-steal-2,subj-actor-he-sn6,and(steel,light,sn7),def_prop(steel,[oggetto,sostanza,strumento]),def_prop(he,[umano])])
+lf(shuffled0Steel Light Lyrics.txt_3,6,cl6-nil-nil-live-[obj-prop-by_night-sn5,subj-actor-man-sn4,def_prop(by_night,[stato,tempo]),def_prop(man,[any])])
+lf(shuffled0Steel Light Lyrics.txt_3,6,cl5-nil-nil-declare-[subj-actor-you-sn3,def_prop(you,[umano])])
+lf(shuffled0Steel Light Lyrics.txt_3,6,cl4-nil-nil-dream-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(shuffled0Steel Light Lyrics.txt_3,6,cl3-nil-nil-hope-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(shuffled0Steel Light Lyrics.txt_4,15,cl14-nil-nil-come-[subj-agent-light-sn23,subj-agent-light-sn22,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(shuffled0Steel Light Lyrics.txt_4,15,cl13-nil-nil-steel-[ccomp-prop-open-nil])
+lf(shuffled0Steel Light Lyrics.txt_4,15,cl12-nil-nil-open-[iobj-goal-night-sn21,subj-agent-it-sn20,def_prop(night,[tempo]),def_prop(it,[any])])
+lf(shuffled0Steel Light Lyrics.txt_4,15,cl11-nil-nil-throw-[])
+lf(shuffled0Steel Light Lyrics.txt_4,15,cl10-nil-nil-see-[adj-(mod)-never-nil,obj-prop-steel-sn2,xcomp-purpose-shall-2,subj-experiencer-they-sn1,and(steel,light,sn2),def_prop(steel,[oggetto,sostanza,strumento]),def_prop(they,[umano])])
+lf(shuffled0Steel Light Lyrics.txt_4,15,cl9-nil-shall-shall-[ccomp-prop-see-nil,ncmod-loc_direct-light-sn18,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(shuffled0Steel Light Lyrics.txt_5,25,cl18-nil-nil-pay-[obj-goal-price-sn10,subj-agent-light-sn9,and(price,steel,sn10),and(price,light,sn10),def_prop(price,[astratto,attivita,informa,oggetto]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(shuffled0Steel Light Lyrics.txt_5,25,cl17-nil-would-steel-[ncmod-specif-steel-sn12,adj-temporal-day-nil,subj-malef-pro-nil,and(steel,mystery,sn12),and(day,this,sn6),def_prop(steel,_258160),def_prop(day,[tempo])])
+lf(shuffled0Steel Light Lyrics.txt_5,25,cl16-nil-nil-cry-[subj-experiencer-you-sn5,def_prop(you,[umano])])
+lf(shuffled0Steel Light Lyrics.txt_5,25,cl15-nil-nil-pass-[obj-goal-room-sn2,subj-theme_unaff-challenge-sn1,and(room,where,sn2),and(room,empty,sn2),def_prop(room,[nquant,oggetto,stato,strumento]),def_prop(challenge,[attivita,informa,stato])])
+lf(shuffled0Steel Light Lyrics.txt_6,34,cl20-nil-nil-walk-[obj-theme-he-sn20,obj-theme_aff-steel-sn19,subj-sn1-destiny-sn18,iobj-goal-close-sn17,obj-theme_aff-darkness-sn16,subj-actor-light-sn1,and(close,light,sn17),def_prop(he,[umano]),def_prop(steel,[oggetto,sostanza,strumento]),def_prop(destiny,[evento]),def_prop(close,[attivita,evento,informa,tempo]),def_prop(darkness,[astratto,luogo]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(shuffled0Steel Light Lyrics.txt_6,34,cl19-nil-nil-turn-[])
+lf(shuffled0Steel Light Lyrics.txt_7,42,cl21-nil-nil-take-[obj-theme_aff-life-sn2,subj-agent-maze-sn1,aux-did-nil,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(maze,[oggetto,strumento])])

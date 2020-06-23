@@ -1,88 +1,75 @@
 "POLARITY, DISCOURSE MARKERS"
 
 WWF Lyrics.txt_1-1  []-positive  []
-WWF Lyrics.txt_2-3  []-positive  [neg,neg,fgb,neg,neg,neg,fgb]
-WWF Lyrics.txt_3-14  []-positive  [neg]
-WWF Lyrics.txt_3-15  [if-hypoth]-negative  [fgb,neg]
-WWF Lyrics.txt_3-16  []-negative  [fgb,neg,neg]
-WWF Lyrics.txt_3-17  []-suspension  [neg,neg]
-WWF Lyrics.txt_3-18  []-negative  [neg]
-WWF Lyrics.txt_4-22  []-positive  [fhd]
-WWF Lyrics.txt_4-23  []-negative  [neg,neg]
-WWF Lyrics.txt_4-24  []-positive  []
-WWF Lyrics.txt_5-28  []-negative  [neg,neg,fhd]
-WWF Lyrics.txt_6-35  []-suspension  [neg]
-WWF Lyrics.txt_6-36  []-positive  [fhd,neg]
-WWF Lyrics.txt_7-43  []-positive  []
-WWF Lyrics.txt_7-44  []-positive  [fhd]
+WWF Lyrics.txt_2-3  []-positive  [neg]
+WWF Lyrics.txt_2-4  [if-hypoth]-negative  [fgb,neg]
+WWF Lyrics.txt_2-5  []-negative  [fgb,neg,neg]
+WWF Lyrics.txt_2-6  []-suspension  [neg,neg]
+WWF Lyrics.txt_2-7  []-negative  [neg]
+WWF Lyrics.txt_3-10  []-positive  [fhd]
+WWF Lyrics.txt_3-11  []-negative  [neg,neg]
+WWF Lyrics.txt_3-12  []-positive  []
+WWF Lyrics.txt_4-15  []-negative  [neg,neg,fhd]
+WWF Lyrics.txt_5-21  []-suspension  [neg]
+WWF Lyrics.txt_5-22  []-positive  [fhd,neg]
+WWF Lyrics.txt_6-28  []-positive  []
+WWF Lyrics.txt_6-29  []-positive  [fhd]
 
 
 
 "ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
 
 WWF Lyrics.txt_1-1  [Wwf,Lyrics,by,QMC]  [title]
-WWF Lyrics.txt_2-3  [drugs,for,the,low,got,your,love,on,the,pole,them,guns,,,Gon,na,come,them,slugs,Gon,na,blow,run,in,your,home,with,a,gun,to,your,dome,cause,we,are,Young,and,we,are,dumb,,,give,a,fuck,where,to,go,rap,unstable,Black,the,Kurt,angle,breakin,your,ankles,and,breakin]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(drug,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(gun,[external,factive,narration,background,objective]),provide_expl_just(slug,[external,factive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
-WWF Lyrics.txt_3-14  [your,tables,give,too,fucks]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(scream,[external,factive,narration,background,objective]),provide_expl_just(bitch,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
-WWF Lyrics.txt_3-15  [if,they,scream]  [reject_expl_just(give,[external,factive,narration,background,objective]),reject_expl_just(scream,[external,factive,narration,background,objective]),reject_expl_just(bitch,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
-WWF Lyrics.txt_3-16  [and,they,bitch,two,nuts,light,skin]  [reject_expl_just(give,[external,factive,narration,background,objective]),reject_expl_just(scream,[external,factive,narration,background,objective]),reject_expl_just(bitch,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
-WWF Lyrics.txt_3-17  [Kane,spotlights,get,drained,stop,lifes,with,flames]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(scream,[external,factive,narration,background,objective]),provide_expl_just(bitch,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
-WWF Lyrics.txt_3-18  [.,you_suck,give,no,they,kids,two,blunts]  [reject_expl_just(give,[external,factive,narration,background,objective]),reject_expl_just(scream,[external,factive,narration,background,objective]),reject_expl_just(bitch,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
-WWF Lyrics.txt_4-22  [every,time,i,am,in,rang,Comin,down,like,a,hardy]  [provide_expl_just(ring,[external,factive,cause,foreground,objective])]
-WWF Lyrics.txt_4-23  [i,is,not,not,Gon,na]  [reject_expl_just(ring,[external,factive,cause,foreground,objective])]
-WWF Lyrics.txt_4-24  [,,be,young,HBK,restrained,sweet,music,to,your,brain,in]  [provide_expl_just(ring,[external,factive,cause,foreground,objective])]
-WWF Lyrics.txt_5-28  [this,shit,,,game,like,the,Triple,H,,,be,the,name,leave]  [reject_expl_just(leave,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
-WWF Lyrics.txt_6-35  [you,knocked,out,cold]  [provide_expl_just(knock,[external,factive,cause,foreground,objective])]
-WWF Lyrics.txt_6-36  [,,like,H,in,your,vains,95,DX,bitches,flashin]  [provide_expl_just(knock,[external,factive,cause,foreground,objective])]
-WWF Lyrics.txt_7-43  [they,breast,leave]  [provide_expl_just(rest,[external,factive,narration,background,objective]),provide_expl_just(breast,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective])]
-WWF Lyrics.txt_7-44  [you,like,the,undertaker,in,a,casket,to,rest]  [provide_expl_just(rest,[external,factive,narration,background,objective]),provide_expl_just(breast,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective])]
+WWF Lyrics.txt_2-3  [your,tables,give,too,fucks]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(scream,[external,factive,narration,background,objective]),provide_expl_just(bitch,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+WWF Lyrics.txt_2-4  [if,they,scream]  [reject_expl_just(give,[external,factive,narration,background,objective]),reject_expl_just(scream,[external,factive,narration,background,objective]),reject_expl_just(bitch,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
+WWF Lyrics.txt_2-5  [and,they,bitch,two,nuts,light,skin]  [reject_expl_just(give,[external,factive,narration,background,objective]),reject_expl_just(scream,[external,factive,narration,background,objective]),reject_expl_just(bitch,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
+WWF Lyrics.txt_2-6  [Kane,spotlights,get,drained,stop,lifes,with,flames]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(scream,[external,factive,narration,background,objective]),provide_expl_just(bitch,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+WWF Lyrics.txt_2-7  [.,you_suck,give,no,they,kids,two,blunts]  [reject_expl_just(give,[external,factive,narration,background,objective]),reject_expl_just(scream,[external,factive,narration,background,objective]),reject_expl_just(bitch,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
+WWF Lyrics.txt_3-10  [every,time,i,am,in,rang,Comin,down,like,a,hardy]  [provide_expl_just(ring,[external,factive,cause,foreground,objective])]
+WWF Lyrics.txt_3-11  [i,is,not,not,Gon,na]  [reject_expl_just(ring,[external,factive,cause,foreground,objective])]
+WWF Lyrics.txt_3-12  [,,be,young,HBK,restrained,sweet,music,to,your,brain,in]  [provide_expl_just(ring,[external,factive,cause,foreground,objective])]
+WWF Lyrics.txt_4-15  [this,shit,,,game,like,the,Triple,H,,,be,the,name,leave]  [reject_expl_just(leave,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+WWF Lyrics.txt_5-21  [you,knocked,out,cold]  [provide_expl_just(knock,[external,factive,cause,foreground,objective])]
+WWF Lyrics.txt_5-22  [,,like,H,in,your,vains,95,DX,bitches,flashing]  [provide_expl_just(knock,[external,factive,cause,foreground,objective])]
+WWF Lyrics.txt_6-28  [they,breast,leave]  [provide_expl_just(rest,[external,factive,narration,background,objective]),provide_expl_just(breast,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective])]
+WWF Lyrics.txt_6-29  [you,like,the,undertaker,in,a,casket,to,rest]  [provide_expl_just(rest,[external,factive,narration,background,objective]),provide_expl_just(breast,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective])]
 
 
 
 "RID - REGRESSIVE IMAGERY DICTIONARY"
 
 1-(WWF Lyrics.txt_1-1)-[]
-2-(WWF Lyrics.txt_2-3)-[primary-depth,emotions-affection,secondary-abstract_tought,emotions-aggression,secondary-abstract_tought,emotions-aggression,primary-height,secondary-abstract_tought,primary-sex,primary-concreteness,emotions-aggression,emotions-aggression]
-3-(WWF Lyrics.txt_3-14)-[primary-sex]
-4-(WWF Lyrics.txt_3-15)-[emotions-expressive_beh]
-5-(WWF Lyrics.txt_3-16)-[primary-sex,primary-orality,primary-vision,primary-narcissism]
-6-(WWF Lyrics.txt_3-17)-[secondary-restraint,primary-fire]
-7-(WWF Lyrics.txt_3-18)-[]
+2-(WWF Lyrics.txt_2-3)-[primary-sex]
+3-(WWF Lyrics.txt_2-4)-[emotions-expressive_beh]
+4-(WWF Lyrics.txt_2-5)-[primary-sex,primary-orality,primary-vision,primary-narcissism]
+5-(WWF Lyrics.txt_2-6)-[secondary-restraint,primary-fire]
+6-(WWF Lyrics.txt_2-7)-[]
+7-(WWF Lyrics.txt_3-10)-[secondary-temporal_repere,secondary-temporal_repere,emotions-affection,primary-hard]
 half
-8-(WWF Lyrics.txt_4-22)-[secondary-temporal_repere,secondary-temporal_repere,emotions-affection,primary-hard]
-9-(WWF Lyrics.txt_4-23)-[]
-10-(WWF Lyrics.txt_4-24)-[secondary-restraint,primary-taste,primary-sound,primary-narcissism]
-11-(WWF Lyrics.txt_5-28)-[primary-anality,emotions-expressive_beh,emotions-affection]
-12-(WWF Lyrics.txt_6-35)-[primary-concreteness,primary-cold]
-13-(WWF Lyrics.txt_6-36)-[emotions-affection,primary-sex,primary-vision]
-14-(WWF Lyrics.txt_7-43)-[primary-orality]
-15-(WWF Lyrics.txt_7-44)-[emotions-affection,primary-passivity]
+8-(WWF Lyrics.txt_3-11)-[]
+9-(WWF Lyrics.txt_3-12)-[secondary-restraint,primary-taste,primary-sound,primary-narcissism]
+10-(WWF Lyrics.txt_4-15)-[primary-anality,emotions-expressive_beh,emotions-affection]
+11-(WWF Lyrics.txt_5-21)-[primary-concreteness,primary-cold]
+12-(WWF Lyrics.txt_5-22)-[emotions-affection,primary-sex]
+13-(WWF Lyrics.txt_6-28)-[primary-orality]
+14-(WWF Lyrics.txt_6-29)-[emotions-affection,primary-passivity]
 
 
 
 "LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
 
 lf(WWF Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-QMC-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Wwf,sn1),def_prop(QMC,[istituzione]),def_prop(Lyrics,[informa,tecno])])
-lf(WWF Lyrics.txt_2,3,_-nil-nil-run-[iobj-goal-dome-sn5,iobj-goal-gun-sn4,def_prop(dome,[astratto,oggetto,strumento]),def_prop(gun,[attivita,oggetto,strumento,umano])])
-lf(WWF Lyrics.txt_2,3,cl10-nil-nil-go-[sp-prop-home-sn3,xcomp-purpose-run-9,def_prop(home,[luogo,oggetto,stato,strumento])])
-lf(WWF Lyrics.txt_2,3,cl9-nil-nil-give-[])
-lf(WWF Lyrics.txt_2,3,cl8-nil-nil-be-[subj-theme_bound-Young-sn28,xcomp-prop-Young-sn27,subj-theme_bound-we-sn26,def_prop(Young,[place,nquant,umano]),def_prop(Young,[place,nquant,umano]),def_prop(we,[umano])])
-lf(WWF Lyrics.txt_2,3,cl7-nil-nil-run-[iobj-goal-dome-sn5,iobj-goal-gun-sn4,def_prop(dome,[astratto,oggetto,strumento]),def_prop(gun,[attivita,oggetto,strumento,umano])])
-lf(WWF Lyrics.txt_2,3,cl6-nil-nil-slug-[])
-lf(WWF Lyrics.txt_2,3,cl5-nil-nil-come-[])
-lf(WWF Lyrics.txt_2,3,cl4-nil-nil-gun-[])
-lf(WWF Lyrics.txt_2,3,cl3-nil-nil-get-[obj-theme_unaff-love-sn16,subj-agent-low-sn15,def_prop(love,[astratto,emotivo,nquant]),def_prop(low,[astratto,stato])])
-lf(WWF Lyrics.txt_2,3,cl2-nil-nil-drug-[obj-theme-breakin-sn7,xcomp-prop-fuck-sn6,subj-theme-cause-sn2,subj-theme-cause-sn1,and(cause,you,sn1),def_prop(breakin,[istituzione]),def_prop(fuck,[attivita]),def_prop(cause,[attivita,evento,informa]),def_prop(cause,[attivita,evento,informa])])
-lf(WWF Lyrics.txt_3,14,cl15-nil-nil-kid-[])
-lf(WWF Lyrics.txt_3,14,cl14-nil-nil-get-[ncmod-modale-flame-sn15,obj-prop-life-sn14,obj-theme_unaff-stop-sn13,subj-agent-spotlight-sn12,and(stop,drained,sn13),and(spotlight,Kane,sn12),def_prop(flame,[attivita]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(stop,[attivita,evento,luogo,oggetto,strumento]),def_prop(spotlight,[oggetto,strumento])])
-lf(WWF Lyrics.txt_3,14,cl13-nil-nil-bitch-[cmod-subord-scream-",obj-theme-skin-sn9,obj-theme-light-sn8,subj-actor-they-sn7,and(light,two,sn8),and(light,nut,sn8),def_prop(skin,[body_part,oggetto,sostanza,stato,strumento,umano]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(they,[umano])])
-lf(WWF Lyrics.txt_3,14,cl12-nil-nil-scream-[subj-agent-they-sn6,def_prop(they,[umano])])
-lf(WWF Lyrics.txt_3,14,cl11-nil-nil-give-[obj-goal-no-sn18,subj-actor-you_suck-sn17,adj-(mod)-too-nil,obj-goal-fuck-sn2,subj-actor-(table)-sn1,def_prop(no,[istituzione]),def_prop(you_suck,[attivita]),def_prop(fuck,[attivita]),def_prop(table,[istituzione,oggetto,strumento])])
-lf(WWF Lyrics.txt_4,22,cl17-nil-nil-ring-[ncmod-goal-brain-sn13,obj-theme-Comin-sn2,xadj-result-ring-2,def_prop(brain,[astratto,body_part,edible,oggetto,umano]),def_prop(Comin,[istituzione,umano])])
-lf(WWF Lyrics.txt_4,22,cl16-not-nil-be-[xcomp-prop-music-sn12,subj-theme_bound-HBK-sn11,xcomp-prop-na-sn8,subj-theme_bound-i-sn7,adj-temporal-time-nil,xcomp-prop-down-sn3,subj-theme_bound-i-sn1,and(music,sweet,sn12),and(HBK,restrained,sn11),and(HBK,young,sn11),and(na,Gon,sn8),and(time,every,sn4),def_prop(music,[astratto,attivita,informa]),def_prop(HBK,[istituzione,umano]),def_prop(na,[informa,tecno]),def_prop(i,[umano]),def_prop(time,[tempo]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(i,[umano])])
-lf(WWF Lyrics.txt_5,28,cl19-nil-nil-leave-[obj-prop-name-sn3,xcomp-purpose-be-2,subj-theme-H-sn2,subj-theme-H-sn1,and(H,Triple,sn2),and(H,shit,sn1),and(H,this,sn1),and(H,Triple,sn1),def_prop(name,[attivita,informa,stato,umano]),def_prop(H,[place,attivita,informa]),def_prop(H,[place,attivita,informa])])
-lf(WWF Lyrics.txt_5,28,cl18-nil-nil-be-[])
-lf(WWF Lyrics.txt_6,35,cl21-nil-nil-be-[ncmod-locativo-flashin-sn4,subj-theme_bound-H-sn3,and(flashin,vains,sn4),and(flashin,95,sn4),and(flashin,DX,sn4),and(flashin,bitch,sn4),def_prop(flashin,[istituzione]),def_prop(H,[place,attivita,informa])])
-lf(WWF Lyrics.txt_6,35,cl20-nil-nil-knock-[ncmod-modal-cold-sn2,subj-actor-you-sn1,def_prop(cold,[valutativo]),def_prop(you,[umano])])
-lf(WWF Lyrics.txt_7,43,cl24-nil-nil-rest-[obj-theme-undertaker-sn3,subj-agent-you-sn2,and(undertaker,casket,sn3),def_prop(undertaker,[relat,sociale,umano]),def_prop(you,[umano])])
-lf(WWF Lyrics.txt_7,43,cl23-nil-nil-leave-[subj-theme-they-sn1,def_prop(they,[umano])])
-lf(WWF Lyrics.txt_7,43,cl22-nil-nil-breast-[subj-agent-they-sn1,def_prop(they,[umano])])
+lf(WWF Lyrics.txt_2,3,cl6-nil-nil-kid-[])
+lf(WWF Lyrics.txt_2,3,cl5-nil-nil-get-[ncmod-modale-flame-sn15,obj-prop-life-sn14,obj-theme_unaff-stop-sn13,subj-agent-spotlight-sn12,and(stop,drained,sn13),and(spotlight,Kane,sn12),def_prop(flame,[attivita]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(stop,[attivita,evento,luogo,oggetto,strumento]),def_prop(spotlight,[oggetto,strumento])])
+lf(WWF Lyrics.txt_2,3,cl4-nil-nil-bitch-[cmod-subord-scream-",obj-theme-skin-sn9,obj-theme-light-sn8,subj-actor-they-sn7,and(light,two,sn8),and(light,nut,sn8),def_prop(skin,[body_part,oggetto,sostanza,stato,strumento,umano]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(they,[umano])])
+lf(WWF Lyrics.txt_2,3,cl3-nil-nil-scream-[subj-agent-they-sn6,def_prop(they,[umano])])
+lf(WWF Lyrics.txt_2,3,cl2-nil-nil-give-[obj-goal-no-sn18,subj-actor-you_suck-sn17,adj-(mod)-too-nil,obj-goal-fuck-sn2,subj-actor-(table)-sn1,def_prop(no,[istituzione]),def_prop(you_suck,[attivita]),def_prop(fuck,[attivita]),def_prop(table,[istituzione,oggetto,strumento])])
+lf(WWF Lyrics.txt_3,10,cl8-nil-nil-ring-[ncmod-goal-brain-sn13,obj-theme-Comin-sn2,xadj-result-ring-2,def_prop(brain,[astratto,body_part,edible,oggetto,umano]),def_prop(Comin,[istituzione,umano])])
+lf(WWF Lyrics.txt_3,10,cl7-not-nil-be-[xcomp-prop-music-sn12,subj-theme_bound-HBK-sn11,xcomp-prop-na-sn8,subj-theme_bound-i-sn7,adj-temporal-time-nil,xcomp-prop-down-sn3,subj-theme_bound-i-sn1,and(music,sweet,sn12),and(HBK,restrained,sn11),and(HBK,young,sn11),and(na,Gon,sn8),and(time,every,sn4),def_prop(music,[astratto,attivita,informa]),def_prop(HBK,[istituzione,umano]),def_prop(na,[informa,tecno]),def_prop(i,[umano]),def_prop(time,[tempo]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(i,[umano])])
+lf(WWF Lyrics.txt_4,15,cl10-nil-nil-leave-[obj-prop-name-sn3,xcomp-purpose-be-2,subj-theme-H-sn2,subj-theme-H-sn1,and(H,Triple,sn2),and(H,shit,sn1),and(H,this,sn1),and(H,Triple,sn1),def_prop(name,[attivita,informa,stato,umano]),def_prop(H,[place,attivita,informa]),def_prop(H,[place,attivita,informa])])
+lf(WWF Lyrics.txt_4,15,cl9-nil-nil-be-[])
+lf(WWF Lyrics.txt_5,21,cl12-nil-nil-be-[xadj-adj-flashing-adj1,ncmod-locativo-bitch-sn4,subj-theme_bound-H-sn3,and(bitch,vains,sn4),and(bitch,95,sn4),and(bitch,DX,sn4),def_prop(flashing,_510012),def_prop(bitch,[animato,stato]),def_prop(H,[place,attivita,informa])])
+lf(WWF Lyrics.txt_5,21,cl11-nil-nil-knock-[ncmod-modal-cold-sn2,subj-actor-you-sn1,def_prop(cold,[valutativo]),def_prop(you,[umano])])
+lf(WWF Lyrics.txt_6,28,cl15-nil-nil-rest-[obj-theme-undertaker-sn3,subj-agent-you-sn2,and(undertaker,casket,sn3),def_prop(undertaker,[relat,sociale,umano]),def_prop(you,[umano])])
+lf(WWF Lyrics.txt_6,28,cl14-nil-nil-leave-[subj-theme-they-sn1,def_prop(they,[umano])])
+lf(WWF Lyrics.txt_6,28,cl13-nil-nil-breast-[subj-agent-they-sn1,def_prop(they,[umano])])
