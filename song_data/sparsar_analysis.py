@@ -7,8 +7,8 @@ import shlex
 import subprocess
 from os.path import join, isfile
 from analyze_data import save_dataset
-import altered_data_generator
 import xml.etree.ElementTree as ET
+# import altered_data_generator
 
 # VARIABLES
 # File where indexes of songs for which SPARSAR analysis failed are written.
@@ -242,36 +242,13 @@ def extract_rhymes_to_csv(path, filename, output_path):
             scheme_letter_no += 1
             lines.append('{0};{1};{2};{3}\n'.format(scheme_letters[keys[scheme_letter_no]], no, ' '.join(words), ' '.join(phons)))
     os.makedirs(os.path.dirname(outputfile), exist_ok=True)
-    print(''.join(lines))
+    # lines = altered_data_generator.shuffle(lines)
+    # print(lines)
     with open(outputfile, 'w+') as output:
         output.write('Rhyme Scheme Letter;Line Number;Lyrics;Phonetic '
                      'Transcription\n')
         output.write(''.join(lines))
     return 0
-
-
-# Run only for files selected for comparison (shuffling lines before/after sparsar analysis).
-# Files have to be in this precise order to get the same shuffling result.
-def run_for_comparison_files():
-    output_path = 'sparsar_experiments/line_shuffle_comparison/analyzed_before_shuffle/'
-    path = output_path
-    total = 0
-    files = ['\'​flood on the floor Lyrics.txt\'_phon.xml',
-             '\'​stranger than earth Lyrics.txt\'_phon.xml',
-             '\'​heartsigh Lyrics.txt\'_phon.xml',
-             '\'​​repetition Lyrics.txt\'_phon.xml',
-             '\'​bodyache Lyrics.txt\'_phon.xml',
-             '\'Alone Lyrics.txt\'_phon.xml',
-             '\'Purple City Byrd Gang Lyrics.txt\'_phon.xml',
-             "'Dancin'' Man Lyrics.txt'_phon.xml",
-             '\'Burn Slow Lyrics.txt\'_phon.xml',
-             '\'Steel Light Lyrics.txt\'_phon.xml']
-    for item in files:
-        print('Extracting to csv...', item)
-        result = extract_rhymes_to_csv(path, item, output_path)
-        if result == 0:
-            total += 1
-    print('Generated', total, '.csv files.')
 
 
 # Takes list of verses as input.
@@ -297,18 +274,18 @@ def main():
     # Prepare files for SPARSAR.
     prefixes = ['']
     os.environ["PYTHONIOENCODING"] = "utf-8"
-    for prefix in prefixes:
-        filename = 'data/' + \
-                   prefix + 'ENlyrics_cleaned.json'
-        # run_sparsar_for_failed(prefix, filename)
-        replace_prohibited_characters(filename)
-        # Generate SPARSAR output files.
-        run_sparsar_for_files(filename, prefix, start_idx=6400, end_idx=6600)  # Analyzed up to index 6421.
+    # for prefix in prefixes:
+    #     filename = 'data/' + \
+    #                prefix + 'ENlyrics_cleaned.json'
+    #     # run_sparsar_for_failed(prefix, filename)
+    #     replace_prohibited_characters(filename)
+    #     # Generate SPARSAR output files.
+    #     run_sparsar_for_files(filename, prefix, start_idx=6400, end_idx=6600)  # Analyzed up to index 6421.
     # Extract useful information from SPARSAR output files to .csv file.
-    # path = 'sparsar_experiments/outs/'
-    # output_path = 'sparsar_experiments/rhymes/'
-    output_path = 'sparsar_experiments/line_shuffle_comparison/analyzed_before_shuffle/'
-    path = output_path
+    path = 'sparsar_experiments/outs/'
+    output_path = 'sparsar_experiments/rhymes/'
+    # output_path = 'sparsar_experiments/line_shuffle_comparison/analyzed_before_shuffle/'
+    # path = output_path
     total = 0
     for item in os.listdir(path):
         if isfile(join(path, item)) and item.endswith('_phon.xml'):
@@ -325,5 +302,4 @@ def main():
 
 
 if __name__ == '__main__':
-    # main()
-    run_for_comparison_files()
+    main()

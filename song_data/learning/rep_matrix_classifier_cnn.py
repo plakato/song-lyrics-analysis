@@ -12,18 +12,15 @@ from sklearn.model_selection import train_test_split
 
 # Custom filter
 from song_data.learning.generator import Generator
+filters = 3
 
 
 def cnn_filter(shape, dtype=None):
-    f = np.array([[[[1]], [[1]], [[1]]],
-                  [[[0]], [[0]], [[0]]],
-                  [[[-1]], [[-1]], [[-1]]]
+    n = filters
+    f = np.array([[[[1]*n], [[1]*n], [[1]*n]],
+                  [[[0]*n], [[0]*n], [[0]*n]],
+                  [[[-1]*n], [[-1]*n], [[-1]*n]]
                   ])
-    # f = np.array([
-    #         [[[1], [1], [1]], [[1], [1], [1]], [[1], [1], [1]]],
-    #         [[[0], [0], [0]], [[0], [0], [0]], [[0], [0], [0]]],
-    #         [[[-1], [-1], [-1]], [[-1], [-1], [-1]], [[-1], [-1], [-1]]]
-    #     ])
     print(shape, f.shape)
     assert f.shape == shape
     return keras.backend.variable(f, dtype='float32')
@@ -35,23 +32,24 @@ class Network(tf.keras.Sequential):
         super().__init__()
         regularizer = tf.keras.regularizers.l2(1e-4)
         inputs = tf.keras.layers.Input(shape=[None, None, 1])
-        conv_layer = tf.keras.layers.Conv2D(1,  3,
-                                            strides=(3,3), padding='valid',
+        x = tf.keras.layers.Conv2D(filters,  3, strides=2,
+                                            padding='valid',
                                             kernel_initializer=cnn_filter,
-                                            trainable=False,  # Don't change the
-                                            # filter.
-                                            kernel_regularizer=regularizer,
+                                            trainable=False,  # Don't change the filter.
+                                            # kernel_regularizer=regularizer,
                                             data_format="channels_last",
                                             activation=tf.nn.relu)(inputs)
-        normalized = tf.keras.layers.BatchNormalization()(conv_layer)
+        x = tf.keras.layers.Dropout(0.1)(x)
+        x = tf.keras.layers.BatchNormalization()(x)
+
         # Optionally add more layers if needed.
-        pooled = tf.keras.layers.GlobalMaxPooling2D()(normalized)
+        x = tf.keras.layers.GlobalMaxPooling2D()(x)
         # Optionally repeat the whole block more times.
 
-        predict = tf.keras.layers.Activation('softmax')(pooled)
+        predict = tf.keras.layers.Activation('softmax')(x)
 
         self.model = tf.keras.Model(inputs=inputs, outputs=predict)
-        self.model.compile(optimizer=tf.keras.optimizers.RMSprop(lr=0.001, decay=1e-6),
+        self.model.compile(# optimizer=tf.keras.optimizers.RMSprop(lr=0.001, decay=1e-6),
                            loss=tf.keras.losses.BinaryCrossentropy(),
                            metrics=[tf.keras.metrics.SparseCategoricalAccuracy(name="accuracy")])
         self.tb_callback=tf.keras.callbacks.TensorBoard(args.logdir, update_freq=1000, profile_batch=1)

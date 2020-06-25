@@ -10,7 +10,7 @@ import numpy as np
 with_line_separators = True
 
 
-def generate_endrhyme_matrix(path, filename):
+def generate_endrhyme_matrix(path, filename, save_path):
     input_file = path + filename
     song_name = filename.replace('.csv', '').replace('.txt', '').replace(
         '\'', '')
@@ -20,7 +20,6 @@ def generate_endrhyme_matrix(path, filename):
         next(rows)
         for row in rows:
             lines.append(row[0])
-    save_path = 'sparsar_experiments/repetition_matrices/endrhymes_shuffled/'
     return create_and_save_image(lines, None, song_name, save_path)
 
 
@@ -68,8 +67,9 @@ def create_and_save_image(data, delimiter, song_name, path):
 
 if __name__ == '__main__':
     # Generate matrices for all files.
-    path = 'sparsar_experiments/rhymes/shuffled/'
+    path = 'sparsar_experiments/rhymes/original/'
     for item in os.listdir(path):
         if isfile(join(path, item)) and item.endswith('.csv'):
-            generate_endrhyme_matrix(path, item)
+            save_path = 'sparsar_experiments/repetition_matrices/endrhymes_original/'
+            generate_endrhyme_matrix(path, item, save_path)
             # generate_phoneme_matrix(path, item)
