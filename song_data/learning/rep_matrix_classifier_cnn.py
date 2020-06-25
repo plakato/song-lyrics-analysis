@@ -11,12 +11,12 @@ from sklearn.model_selection import train_test_split
 
 
 # Custom filter
-from song_data.learning.generator import Generator
-filters = 3
+from song_data.learning.generator import RhymeMatrixImageBatchGenerator
+n_filters = 1
 
 
 def cnn_filter(shape, dtype=None):
-    n = filters
+    n = n_filters
     f = np.array([[[[1]*n], [[1]*n], [[1]*n]],
                   [[[0]*n], [[0]*n], [[0]*n]],
                   [[[-1]*n], [[-1]*n], [[-1]*n]]
@@ -32,7 +32,7 @@ class Network(tf.keras.Sequential):
         super().__init__()
         regularizer = tf.keras.regularizers.l2(1e-4)
         inputs = tf.keras.layers.Input(shape=[None, None, 1])
-        x = tf.keras.layers.Conv2D(filters,  3, strides=2,
+        x = tf.keras.layers.Conv2D(n_filters,  3, strides=2,
                                             padding='valid',
                                             kernel_initializer=cnn_filter,
                                             trainable=False,  # Don't change the filter.
@@ -46,7 +46,7 @@ class Network(tf.keras.Sequential):
         x = tf.keras.layers.GlobalMaxPooling2D()(x)
         # Optionally repeat the whole block more times.
 
-        predict = tf.keras.layers.Activation('softmax')(x)
+        predict = tf.keras.layers.Activation('sigmoid')(x)
 
         self.model = tf.keras.Model(inputs=inputs, outputs=predict)
         self.model.compile(# optimizer=tf.keras.optimizers.RMSprop(lr=0.001, decay=1e-6),
@@ -109,8 +109,8 @@ if __name__ == "__main__":
 
     train_dir = os.path.join(args.data_dir, 'train')
     val_dir = os.path.join(args.data_dir, 'val')
-    train_generator = Generator(train_dir, args.batch_size, shuffle_images=True, image_min_side=1)
-    val_generator = Generator(val_dir, args.batch_size, shuffle_images=True, image_min_side=1)
+    train_generator = RhymeMatrixImageBatchGenerator(train_dir, args.batch_size, shuffle_images=True, image_min_side=1)
+    val_generator = RhymeMatrixImageBatchGenerator(val_dir, args.batch_size, shuffle_images=True, image_min_side=1)
 
     # Create the network and train.
     network = Network(args)

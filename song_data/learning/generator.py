@@ -5,7 +5,7 @@ from sklearn import preprocessing
 import tensorflow as tf
 
 
-class Generator(tf.keras.utils.Sequence):
+class RhymeMatrixImageBatchGenerator(tf.keras.utils.Sequence):
 
     def __init__(self, DATASET_PATH, BATCH_SIZE=1, shuffle_images=True, image_min_side=1):
         """ Initialize Generator object.
