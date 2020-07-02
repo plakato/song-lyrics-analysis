@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-import sys
-
 import numpy as np
 import tensorflow as tf
 
@@ -9,7 +6,7 @@ import tensorflow as tf
 
 # Custom filter
 from generator import RhymeMatrixImageBatchGenerator
-n_filters = 1
+n_filters = 2
 
 
 def cnn_filter(shape, dtype=None):
@@ -27,18 +24,25 @@ def cnn_filter(shape, dtype=None):
 class Network(tf.keras.Sequential):
     def __init__(self, args):
         super().__init__()
-        # regularizer = tf.keras.regularizers.l2(1e-4)
+        regularizer = tf.keras.regularizers.l2(1e-4)
         inputs = tf.keras.layers.Input(shape=[None, None, 1])
-        conv = tf.keras.layers.Conv2D(n_filters,  3, strides=2,
+        conv = tf.keras.layers.Conv2D(n_filters,  3, strides=3,
                                             padding='valid',
-                                            kernel_initializer=cnn_filter,
+                                            # kernel_initializer=cnn_filter,
                                             trainable=True,  # Don't change the filter.
-                                            # kernel_regularizer=regularizer,
+                                            kernel_regularizer=regularizer,
                                             data_format="channels_last",
                                             activation=tf.nn.relu)
         x = conv(inputs)
         x = tf.keras.layers.Dropout(0.1)(x)
         x = tf.keras.layers.BatchNormalization()(x)
+        # x = tf.keras.layers.Conv2D(1, 1, strides=1, padding='valid', trainable=True,  # Don't change the filter.
+        #                               # kernel_regularizer=regularizer,
+        #                               data_format="channels_last", activation=tf.nn.relu)(x)
+        # x = tf.keras.layers.Dropout(0.1)(x)
+        # x = tf.keras.layers.BatchNormalization()(x)
+
+        # Optionally add more layers if needed.
 
         # Optionally add more layers if needed.
         x = tf.keras.layers.GlobalMaxPooling2D()(x)
@@ -47,7 +51,7 @@ class Network(tf.keras.Sequential):
         predict = tf.keras.layers.Activation('sigmoid')(x)
 
         self.model = tf.keras.Model(inputs=inputs, outputs=predict)
-        self.model.compile(# optimizer=tf.keras.optimizers.RMSprop(lr=0.001, decay=1e-6),
+        self.model.compile(optimizer=tf.keras.optimizers.RMSprop(lr=0.001, decay=1e-6),
                            loss=tf.keras.losses.BinaryCrossentropy(),
                            metrics=[tf.keras.metrics.SparseCategoricalAccuracy(name="accuracy")])
         self.tb_callback=tf.keras.callbacks.TensorBoard(args.logdir, update_freq=1000, profile_batch=1)
@@ -61,7 +65,7 @@ class Network(tf.keras.Sequential):
                                  epochs=args.epochs,
                                  verbose=1,
                                  callbacks=[tf.keras.callbacks.ModelCheckpoint(args.logdir, monitor='val_loss', save_best_only=True, verbose=1),
-                                           print_weights],
+                                            print_weights],
                                  validation_data=val_generator)
         return history
 
@@ -103,7 +107,7 @@ if __name__ == "__main__":
     parser.add_argument("--epochs", default=30, type=int, help="Number of epochs.")
     parser.add_argument("--threads", default=1, type=int, help="Maximum number of threads to use.")
     parser.add_argument("--data_dir",
-                        default="dataset",
+                        default="dataset_big",
                         type=str,
                         help="Path to input data with images.")
     args = parser.parse_args()
