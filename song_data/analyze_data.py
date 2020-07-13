@@ -1,4 +1,71 @@
+import csv
 import json
+import os
+from os.path import isfile, join
+import numpy as np
+import matplotlib.pyplot as mpl
+from collections import Counter
+import pandas as pd
+
+
+# Test if the data can be modeled using Chinese restaurant process.
+def test_CRP(dir):
+    for item in os.listdir(dir):
+        file_name = join(dir, item)
+        if isfile(file_name) and item.endswith('.csv'):
+            df = pd.read_csv(file_name, sep=';')
+            letters = df['Rhyme Scheme Letter']
+            print(file_name)
+            CRP_calculate_prob_of_outcome(letters)
+
+
+def CRP_calculate_prob_of_outcome(seq, alpha=0.5):
+    prob = 1.0
+    clusters = {}
+    for item in seq:
+        total = sum(clusters.values()) + alpha
+        if item in clusters:
+            prob *= clusters[item]/total
+            clusters[item] += 1
+        else:
+            prob *= alpha/total
+            clusters[item] = 1
+    print('Verses: {0}, Classes: {1}, Probability: {2}'.format(len(seq), len(clusters.keys()), prob))
+    return prob
+
+
+def graph_verse_count_vs_rhyme_class_count(dir):
+    # Count occurences of classes for verse counts.
+    counts = {}
+    for item in os.listdir(dir):
+        file_name = join(dir, item)
+        if isfile(file_name) and item.endswith('.csv'):
+            with open(file_name, newline='') as song:
+                rows = csv.reader(song, delimiter=';')
+                next(rows)
+                verses_count = 0
+                classes = set()
+                for row in rows:
+                    verses_count += 1
+                    classes.add(row[0])
+                classes_count = len(classes)
+                if verses_count not in counts:
+                    counts[verses_count] = []
+                counts[verses_count].append(classes_count)
+    # Graph the result.
+    for key in counts.keys():
+        c = Counter(counts[key])
+        # create a list of the sizes, here multiplied by 10 for scale
+        sizes = [5 * c[key] for key in c]
+        x = [key]*len(c)
+        y = c.keys()
+        mpl.scatter(x, y, s=sizes, alpha=0.3, color='r', linewidths=0.0)
+    # mpl.xlim(0, 70)
+    # mpl.ylim(0,35)
+    mpl.xlabel('Verses')
+    mpl.ylabel('Rhyme classes')
+    mpl.title('Relationship between verse count and rhyme class count')
+    mpl.savefig('graphs/verse_count_vs_rhyme_class_count.png', dpi=300)
 
 
 def filter_unique(input_file, output_file):
@@ -131,7 +198,9 @@ def main():
     # create_clean_dataset('data/lyrics_cleaned_unique.json', 'data/
     # lyrics_cleaned2.json')
     # remove_noise('data/10000lyrics_cleaned.json')
-    add_word_count('data/lyrics_cleaned.json')
+    # add_word_count('data/lyrics_cleaned.json')
+    # graph_verse_count_vs_rhyme_class_count('sparsar_experiments/rhymes/original')
+    test_CRP('sparsar_experiments/rhymes/original')
 
 
 if __name__== "__main__":

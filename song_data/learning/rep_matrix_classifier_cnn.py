@@ -6,7 +6,7 @@ import tensorflow as tf
 
 # Custom filter
 from generator import RhymeMatrixImageBatchGenerator
-n_filters = 2
+n_filters = 4
 
 
 def cnn_filter(shape, dtype=None):
@@ -51,7 +51,7 @@ class Network(tf.keras.Sequential):
         predict = tf.keras.layers.Activation('sigmoid')(x)
 
         self.model = tf.keras.Model(inputs=inputs, outputs=predict)
-        self.model.compile(optimizer=tf.keras.optimizers.RMSprop(lr=0.001, decay=1e-6),
+        self.model.compile(optimizer=tf.keras.optimizers.SGD(lr=0.001),# RMSprop(lr=0.001, decay=1e-6),
                            loss=tf.keras.losses.BinaryCrossentropy(),
                            metrics=[tf.keras.metrics.SparseCategoricalAccuracy(name="accuracy")])
         self.tb_callback=tf.keras.callbacks.TensorBoard(args.logdir, update_freq=1000, profile_batch=1)
