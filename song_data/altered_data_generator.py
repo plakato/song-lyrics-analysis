@@ -1,11 +1,38 @@
 import copy
 import os
+import nltk
 
 from analyze_data import save_dataset
 from sparsar_analysis import get_scheme_letters, sparsar_process_song, get_scheme_letters,get_sparsar_phon_files_from_dir
 import json
 import csv
 import random
+
+
+# Switch each noun with preceding word.
+def shift_nouns_back(path, filename):
+    with open(path + filename) as original_file:
+        songs = json.load(original_file)
+    for song in songs:
+        new_lyrics = []
+        for line in song['lyrics']:
+            tokens = nltk.word_tokenize(line)
+            tags = nltk.pos_tag(tokens)
+            new_line = []
+            i = 0
+            while i < len(tags)-1:
+                if tags[i+1][1] == 'NN':
+                    new_line.append(tags[i+1][0])
+                    new_line.append(tags[i][0])
+                    i += 1
+                else:
+                    new_line.append(tags[i][0])
+                i += 1
+            if i == len(tags) - 1:
+                new_line.append(tags[-1][0])
+            new_lyrics.append(' '.join(new_line))
+        song['lyrics'] = new_lyrics
+    save_dataset(songs, path + 'shift_noun_back' + '_' + filename)
 
 
 def shuffle(data):
@@ -24,6 +51,21 @@ def generate_mixed_lines(path, original_filename, n=1):
                      original_filename)
 
 
+def replace_random_words(path, filename, replace_word='giraffe', prob=0.33):
+    with open(path + filename) as original_file:
+        songs = json.load(original_file)
+    modified_songs = songs.copy()
+    for song in modified_songs:
+        for i in range(len(song['lyrics'])):
+            words = song['lyrics'][i].split(' ')
+            for j in range(len(words)):
+                if random.random() < prob:
+                    words[j] = replace_word
+            song['lyrics'][i] = ' '.join(words)
+    save_dataset(modified_songs, path + 'replaced_word' + str(prob) + filename)
+
+
+# Only first half of the file is shuffled.
 def generate_halfmixed_lines(path, original_filename):
     with open(path + original_filename) as original_file:
         songs = json.load(original_file)
@@ -31,9 +73,8 @@ def generate_halfmixed_lines(path, original_filename):
     for i in range(5):
         for song in shuffled_songs:
             count = int(len(song['lyrics'])/2)
-            # Randomly pick half of the lines to be shuffled between
-            # themselves.
-            shuffled = random.sample(range(count), count)
+            # Shuffled indexes for the first half of the lines.
+            shuffled = shuffle(range(count))
             lines = song['lyrics'].copy()
             for j in range(count):
                 song['lyrics'][j] = lines[shuffled[j]]
@@ -100,6 +141,10 @@ def compare_line_shuffle():
 
 
 random.seed(12345)
+path = 'data/shuffled_lyrics/'
+filename = '100ENlyrics_cleaned.json'
+shift_nouns_back(path, filename)
+# replace_random_words('data/shuffled_lyrics/', '100ENlyrics_cleaned.json')
 # compare_line_shuffle()
 # generate_mixed_lines('data/shuffled_lyrics/', '100ENlyrics_cleaned.json')
 # generate_halfmixed_lines('data/shuffled_lyrics/', '100ENlyrics_cleaned.json')

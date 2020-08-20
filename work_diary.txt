@@ -256,7 +256,7 @@ TASKS FOR NEXT WEEK
     - indian buffet
     - do ktorej skupiny spadne vers s akou pst
     - podobnost distribucii - KL-divergence
-- vztah medzi poctom versov a rymovych tried - linearne? cca ANO - vid graf
+- vztah medzi poctom versov a rymovych tried - linearne? cca ANO - vid graf "verse_count_vs_rhyme_class_count.png"
 - slo by to generovat len z phonem? bad pop bot
 
 -------------------------------------------------------------------------------------------------------------------
@@ -292,6 +292,13 @@ TASKS FOR NEXT WEEK
 25.6.2020
 TASKS FOR NEXT WEEK
 - tensorboard nabuduce
-- štvrtok 9.00
+- štvrtok 9.00 - nekonalo sa
 
+- medzitym vytvoreny graf pre porovnanie poctu versov a poctu rymovych tried - zhruba linearny vztah
+- pokus o chinese restaurant process 
+        - spocitam pravdepodobnost ze dana postupnost pismen (=rymovych tried) vynikla za predpokladu ze je podla CRP 
+        - spocitam pravdepodobnost ze vznikla nahodne
+        - porovnam pomer CRP:RND => dostanem kolkonasobne bola CRP pravdepodobnejsia
+        - vysledok: "CRP won in 4341 cases, lost in 282 cases. Undetectable (too long) in 1 cases"
+- vytvorenie dalsich deformacii dat - detaily v "test_sets.MD"
 

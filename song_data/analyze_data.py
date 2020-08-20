@@ -10,13 +10,26 @@ import pandas as pd
 
 # Test if the data can be modeled using Chinese restaurant process.
 def test_CRP(dir):
+    n_CRP_won = 0
+    n_CRP_lost = 0
+    too_long = 0
     for item in os.listdir(dir):
         file_name = join(dir, item)
         if isfile(file_name) and item.endswith('.csv'):
             df = pd.read_csv(file_name, sep=';')
             letters = df['Rhyme Scheme Letter']
             print(file_name)
-            CRP_calculate_prob_of_outcome(letters)
+            CRP_prob, clusters = CRP_calculate_prob_of_outcome(letters)
+            rand_prob = random_calculate_prob_of_outcome(letters)
+            print('Verses: {0}, Classes: {1}, CRP-RND ratio: {2}\nCRP Probability: {3}\nRND Probability: {4}'.format(
+                len(letters), len(clusters.keys()), CRP_prob/rand_prob if rand_prob > 0 else 'None', CRP_prob, rand_prob))
+            if rand_prob == 0:
+                too_long += 1
+            elif CRP_prob/rand_prob > 1:
+                n_CRP_won += 1
+            else:
+                n_CRP_lost += 1
+    print('CRP won in {0} cases, lost in {1} cases. Undetectable (too long) in {2} cases'.format(n_CRP_won, n_CRP_lost, too_long))
 
 
 def CRP_calculate_prob_of_outcome(seq, alpha=0.5):
@@ -30,7 +43,13 @@ def CRP_calculate_prob_of_outcome(seq, alpha=0.5):
         else:
             prob *= alpha/total
             clusters[item] = 1
-    print('Verses: {0}, Classes: {1}, Probability: {2}'.format(len(seq), len(clusters.keys()), prob))
+    return prob, clusters
+
+
+# Calculate probability that the given sequence would appear randomly
+def random_calculate_prob_of_outcome(seq):
+    n_clusters = len(set(seq))
+    prob = (1/n_clusters)**len(seq)
     return prob
 
 
