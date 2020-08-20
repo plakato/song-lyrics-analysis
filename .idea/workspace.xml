@@ -4,8 +4,6 @@
     <list default="true" id="1b63ffb1-2ce8-4d7c-99a7-09c7c211f71e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/altered_data_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/altered_data_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/analyze_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/analyze_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work_diary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/work_diary.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,13 +17,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/song_data/learning/rep_matrix_classifier_cnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-968">
+            <state relative-caret-position="-176">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
@@ -34,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/song_data/analyze_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3672">
-              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+            <state relative-caret-position="308">
+              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
                 <marker date="1594672495173" expanded="true" signature="2885:2926" ph="..." />
@@ -191,9 +189,9 @@
         <option value="$PROJECT_DIR$/song_data/repetition_matrix.py" />
         <option value="$PROJECT_DIR$/song_data/learning/generator.py" />
         <option value="$PROJECT_DIR$/song_data/learning/rep_matrix_classifier_cnn.py" />
-        <option value="$PROJECT_DIR$/song_data/analyze_data.py" />
         <option value="$PROJECT_DIR$/song_data/altered_data_generator.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/song_data/analyze_data.py" />
       </list>
     </option>
   </component>
@@ -876,17 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/analyze_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3672">
-          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1594672495173" expanded="true" signature="2885:2926" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/nltk/data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -911,17 +898,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/learning/rep_matrix_classifier_cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-968">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/learning/rep_matrix_classifier_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/analyze_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1594672495173" expanded="true" signature="2885:2926" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
