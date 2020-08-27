@@ -9,6 +9,24 @@ import csv
 import random
 
 
+# From random verses remove one or more words.
+# prob - the probability that the verse will be changed
+# to_remove - the fraction of words on line to be removed
+def remove_words(path, filename, to_remove=0.3, prob=0.2):
+    with open(path + filename) as original_file:
+        songs = json.load(original_file)
+    for song in songs:
+        new_lyrics = []
+        for line in song['lyrics']:
+            if random.random() < prob:
+                words = line.split(' ')
+                n_words_to_remove = max(1, int(to_remove * len(words)))
+                line = ' '.join(words[n_words_to_remove:])
+            new_lyrics.append(line)
+        song['lyrics'] = new_lyrics
+    save_dataset(songs, path + 'remove_words' + '_' + filename)
+
+
 # Switch each noun with preceding word.
 def shift_nouns_back(path, filename):
     with open(path + filename) as original_file:
@@ -141,9 +159,10 @@ def compare_line_shuffle():
 
 
 random.seed(12345)
-path = 'data/shuffled_lyrics/'
+path = 'test_sets/'
 filename = '100ENlyrics_cleaned.json'
-shift_nouns_back(path, filename)
+remove_words(path, filename)
+# shift_nouns_back(path, filename)
 # replace_random_words('data/shuffled_lyrics/', '100ENlyrics_cleaned.json')
 # compare_line_shuffle()
 # generate_mixed_lines('data/shuffled_lyrics/', '100ENlyrics_cleaned.json')

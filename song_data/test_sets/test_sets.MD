@@ -12,3 +12,6 @@ Each line of the lyrics is split to words on space character. For each word a ra
 
 ## Shift noun back
 Applies Python's POS tagger for each line to assign tag to each token on the line. Then each line is looked at word by word from left to right. When 'NN' tag (= singular noun) is encountered it's swaped with preceding word. Swaping does not occur between lines.
+
+## Remove words
+Removes a fraction of words from the beginning of some lines. The fraction of words to remove is given as percentage (default = 0.3). Words are determined as separated by a space character. Only lines selected with the given probability (default = 0.2) will be affected. The intention is to destroy rhythmic balace of the song by changing the syllable patterns.

@@ -1,3 +1,5 @@
+RESOURCES
+- https://towardsdatascience.com/implementing-a-fully-convolutional-network-fcn-in-tensorflow-2-3c46fb61de3b
 MEETING THE DATA
 - "crowd-sourced lyrics data"
     PROBLEMS
@@ -306,5 +308,26 @@ TASKS FOR NEXT WEEK
 20.8.2020
 TASKS FOR NEXT WEEK
 
-- spocitat rovnaku statistiku ale vymazat duplikaty - ako velmi vplyvaju duplikaty na bohatsi bohatnu
-- preskumat GPT3
+- spocitat rovnaku statistiku CRP ale vymazat duplikaty - ako velmi vplyvaju duplikaty na bohatsi bohatnu
+    - "CRP won in 4356 cases, lost in 267 cases. Undetectable (too long) in 1 cases"
+- preskumat GPT3, kludne poslat zaujimavosti
+    - poziadane o pristup k API
+    - Jukebox: 
+        -  https://arxiv.org/pdf/2005.00341.pdf
+        - model that generates music audio, optionally in artist' style, genre
+        - default is babbling, lyrics need to be given, focus is on pronunciation "singing"
+- vymysliet dalsie test sety...napr. zmazat slova vo versi...
+    - pridane zmazanie slov zo zaciatkov nahodnych riadkov
+- LSTM alebo GRU alebo 1D konvoluci na rymove sekvence, conditional random fields
+    - statistika dat rymovych tried:
+        Unique rhyme classes in one example:
+        Min: 1
+        Max: 41
+        Avg: 11.077205882352942
+        Length of one example - number of verses:
+        Min: 2
+        Max: 274
+        Avg: 38.4163062283737
+    - ? staci pre fake pesničky iba prehádzať skutočné rymove sekvencie?
+    - previest chary na int podla pocetnosti?
+- call stvrtok 16:30

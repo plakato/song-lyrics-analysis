@@ -9,16 +9,23 @@ import pandas as pd
 
 
 # Test if the data can be modeled using Chinese restaurant process.
-def test_CRP(dir):
+def test_CRP(dir, duplicates=False):
     n_CRP_won = 0
     n_CRP_lost = 0
     too_long = 0
     for item in os.listdir(dir):
         file_name = join(dir, item)
         if isfile(file_name) and item.endswith('.csv'):
+            print(file_name)
             df = pd.read_csv(file_name, sep=';')
             letters = df['Rhyme Scheme Letter']
-            print(file_name)
+            if not duplicates:
+                lyrics = df['Lyrics']
+                unique = set()
+                for i in range(len(lyrics)-1, -1, -1):
+                    if lyrics[i] in unique:
+                        del letters[i]
+                    unique.add(lyrics[i])
             CRP_prob, clusters = CRP_calculate_prob_of_outcome(letters)
             rand_prob = random_calculate_prob_of_outcome(letters)
             print('Verses: {0}, Classes: {1}, CRP-RND ratio: {2}\nCRP Probability: {3}\nRND Probability: {4}'.format(
