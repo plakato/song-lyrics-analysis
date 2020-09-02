@@ -331,3 +331,24 @@ TASKS FOR NEXT WEEK
     - ? staci pre fake pesničky iba prehádzať skutočné rymove sekvencie?
     - previest chary na int podla pocetnosti?
 - call stvrtok 16:30
+
+-------------------------------------------------------------------------------------------------------------------
+27.8.2020
+TASKS FOR NEXT WEEK
+
+- poucenie z CRP - ak budeme generovat bayesovskou cestou, bude CRP dobry prior
+- LSTM
+    - padding zleva
+    - neprevadzat pismenka na cisla, pouzit text_vectorization -> pismena sa prevedu na cislo, ale nie je to int, len index
+
+- pozriet na: 
+http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+    - super clanok, mozno sa hodi znovu precitat pri pisani textu?
+    - v skratke vysvetluje ako si LSTM pamata, ako zabuda, ako zabudnutu informaciu nahradi aktualnou
+    - sigmoid vzdy vybera (oznaci ktore casti budu zabudnute/ponechane/upravene...proste len oznaci ktore)
+    - tanh normalizuje do -1, 1
+https://towardsdatascience.com/multi-class-text-classification-with-lstm-1590bee1bd17
+https://keras.io/examples/nlp/text_classification_from_scratch/
+
+- logovani do tensorboardu
+- stvrtok 9:00 (odpise ked tak v utorok vecer, stredu odpoledne)

@@ -12,7 +12,7 @@ from tensorflow.python.data import Dataset
 
 
 class Network(tf.keras.Sequential):
-    def __init__(self, args, data):
+    def __init__(self, args):
         super().__init__()
 
         text_input = tf.keras.Input(shape=(1,), dtype=tf.string, name='text')
@@ -25,13 +25,12 @@ class Network(tf.keras.Sequential):
                                             output_sequence_length=sequence_length,
                                             pad_to_max_tokens=True)
         # Load precomputed vocabulary for TextVectorization layer.
-        # vocab = []
-        # with open(args.vocab_path) as vocab_file:
-        #     lines = vocab_file.readlines()[:-1]
-        # for line in lines:
-        #     vocab.append(line.strip())
-        # vectorize_layer.set_vocabulary(vocab=vocab)
-        vectorize_layer.adapt(data)
+        vocab = []
+        with open(args.vocab_path) as vocab_file:
+            lines = vocab_file.readlines()[:-1]
+        for line in lines:
+            vocab.append(line.strip())
+        vectorize_layer.set_vocabulary(vocab=vocab)
         x = vectorize_layer(text_input)
         x = layers.Embedding(max_features + 1, output_dim=10, input_length=sequence_length)(x)
         # x = layers.Dropout(0.1)(x)
@@ -110,7 +109,6 @@ if __name__ == "__main__":
 
     train_ds = get_dataset(dir='train', batch_size=args.batch_size)
     val_ds = get_dataset(dir='val', batch_size=args.batch_size)
-    data = [text for text, label in train_ds]
     # Create the network and train.
-    network = Network(args, data)
+    network = Network(args)
     network.train(train_ds, val_ds, args)
