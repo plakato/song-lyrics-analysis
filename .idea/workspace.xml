@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b63ffb1-2ce8-4d7c-99a7-09c7c211f71e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/OneHotEncodingLayer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset/train/original.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset/train/original.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset/train/shuffled.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset/train/shuffled.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset/val/original.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset/val/original.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset/val/shuffled.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset/val/shuffled.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset/vocab.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset/vocab.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/rhyme_seq_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/rhyme_seq_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work_diary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/work_diary.txt" afterDir="false" />
     </list>
@@ -30,14 +35,61 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/generate_dataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="70" column="55" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset/val/shuffled.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-30166" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset/val/original.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-30166" />
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/rhyme_seq_classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="107" column="6" lean-forward="true" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
+            <state relative-caret-position="315">
+              <caret line="110" selection-start-line="110" selection-end-line="110" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/OneHotEncodingLayer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="770">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/autograph/impl/api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="259" selection-start-line="259" selection-end-line="259" />
             </state>
           </provider>
         </entry>
@@ -52,58 +104,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/keras/layers/preprocessing/index_lookup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="298" selection-start-line="298" selection-end-line="298" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/keras/layers/preprocessing/table_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="146" selection-start-line="146" selection-end-line="146" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/client/session.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="961" column="12" selection-start-line="961" selection-start-column="12" selection-end-line="961" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="37" column="62" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+            <state relative-caret-position="180">
+              <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="416" selection-start-line="416" selection-end-line="416" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="1755" selection-start-line="1755" selection-end-line="1755" />
             </state>
           </provider>
         </entry>
@@ -183,9 +190,10 @@
         <option value="$PROJECT_DIR$/song_data/altered_data_generator.py" />
         <option value="$PROJECT_DIR$/song_data/learning/rep_matrix_classification/generator.py" />
         <option value="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/data.py" />
-        <option value="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/generate_dataset.py" />
-        <option value="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset.py" />
+        <option value="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/OneHotEncodingLayer.py" />
+        <option value="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/generate_dataset.py" />
         <option value="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/rhyme_seq_classifier.py" />
       </list>
     </option>
@@ -228,6 +236,13 @@
               <item name="song-lyrics-analysis" type="462c0819:PsiDirectoryNode" />
               <item name="song_data" type="462c0819:PsiDirectoryNode" />
               <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="rep_matrix_classification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="song-lyrics-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="song-lyrics-analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="song_data" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
               <item name="rhyme_seq_classification" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -237,6 +252,24 @@
               <item name="learning" type="462c0819:PsiDirectoryNode" />
               <item name="rhyme_seq_classification" type="462c0819:PsiDirectoryNode" />
               <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="song-lyrics-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="song-lyrics-analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="song_data" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="rhyme_seq_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+              <item name="train" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="song-lyrics-analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="song-lyrics-analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="song_data" type="462c0819:PsiDirectoryNode" />
+              <item name="learning" type="462c0819:PsiDirectoryNode" />
+              <item name="rhyme_seq_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+              <item name="val" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -416,13 +449,13 @@
     <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.84794277" visible="true" weight="0.24960423" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.84794277" visible="true" weight="0.24960423" />
       <window_info id="Structure" order="1" sideWeight="0.15205725" side_tool="true" weight="0.24960423" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49973616" weight="0.3298731" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48654354" visible="true" weight="0.39331028" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48970976" weight="0.3575548" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48654354" weight="0.3702422" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.48970976" visible="true" weight="0.3575548" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -551,8 +584,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/rhyme_seq_classifier.py</url>
-          <line>60</line>
+          <line>55</line>
           <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/rhyme_seq_classifier.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="210" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -644,58 +682,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/song_data/song_authenticity_evaluator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1298">
-          <caret line="62" column="62" selection-start-line="62" selection-start-column="62" selection-end-line="62" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/genericpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.6/xml/etree/ElementTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="585" selection-start-line="585" selection-end-line="585" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/get_partial_datasets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/data/ENlyrics_cleaned_old.json">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="143">
-          <caret line="25" column="691" selection-start-line="25" selection-start-column="688" selection-end-line="25" selection-end-column="691" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/keras/preprocessing/dataset_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="214" selection-start-line="214" selection-end-line="214" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/ops/image_ops_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="1267" selection-start-line="1267" selection-end-line="1267" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/sklearn/model_selection/_split.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -853,16 +839,6 @@
     <entry file="file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classifier.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/learning/rep_matrix_classification/rep_matrix_classifier_cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/song_data/clean_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -901,11 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset/train/original.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26598" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/framework/ops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -927,16 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/generate_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset/vocab.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-518" />
@@ -946,20 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/keras/layers/preprocessing/text_vectorization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="462" selection-start-line="462" selection-end-line="462" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/keras/layers/preprocessing/index_lookup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="298" selection-start-line="298" selection-end-line="298" />
         </state>
       </provider>
     </entry>
@@ -977,19 +924,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/song_data/learning/rep_matrix_classification/generator.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="44">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/keras/layers/preprocessing/index_lookup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="299" column="31" selection-start-line="299" selection-start-column="31" selection-end-line="299" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="326">
           <caret line="1755" selection-start-line="1755" selection-end-line="1755" />
         </state>
       </provider>
@@ -1001,27 +952,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/keras/engine/input_spec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset/train/original.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11814" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/keras/engine/base_layer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="926" selection-start-line="926" selection-end-line="926" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/autograph/impl/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="259" selection-start-line="259" selection-end-line="259" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/keras/layers/preprocessing/text_vectorization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="462" selection-start-line="462" selection-end-line="462" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/OneHotEncodingLayer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/learning/rep_matrix_classification/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="37" column="62" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+        <state relative-caret-position="180">
+          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/generate_dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        <state relative-caret-position="26">
+          <caret line="70" column="55" selection-start-line="70" selection-start-column="55" selection-end-line="70" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset/val/shuffled.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30166" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset/val/original.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30166" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/song_data/learning/rep_matrix_classification/rep_matrix_classifier_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/tensorflow/python/keras/engine/data_adapter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="1538" selection-start-line="1538" selection-end-line="1538" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/rhyme_seq_classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="107" column="6" lean-forward="true" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
+        <state relative-caret-position="315">
+          <caret line="110" selection-start-line="110" selection-end-line="110" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

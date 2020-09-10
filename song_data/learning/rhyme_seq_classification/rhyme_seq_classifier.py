@@ -7,6 +7,7 @@ from tensorflow.python import keras
 # The neural network model
 from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
 from dataset import get_dataset
+from OneHotEncodingLayer import OneHotEncodingLayer
 from tensorflow.keras import layers
 from tensorflow.python.data import Dataset
 
@@ -15,31 +16,19 @@ class Network(tf.keras.Sequential):
     def __init__(self, args):
         super().__init__()
 
-        text_input = tf.keras.Input(shape=(1,), dtype=tf.string, name='text')
-
-        max_features = 43
-        sequence_length = 275
+        text_input = tf.keras.Input(shape=(1, ), dtype=tf.string, name='text')
         # Set up preprocessing layer.
-        vectorize_layer = TextVectorization(max_tokens=max_features,
-                                            output_mode="int",
-                                            output_sequence_length=sequence_length,
-                                            pad_to_max_tokens=True)
-        # Load precomputed vocabulary for TextVectorization layer.
-        vocab = []
-        with open(args.vocab_path) as vocab_file:
-            lines = vocab_file.readlines()[:-1]
-        for line in lines:
-            vocab.append(line.strip())
-        vectorize_layer.set_vocabulary(vocab=vocab)
-        x = vectorize_layer(text_input)
-        x = layers.Embedding(max_features + 1, output_dim=10, input_length=sequence_length)(x)
-        # x = layers.Dropout(0.1)(x)
-        x = layers.LSTM(10, dropout=0.2, recurrent_dropout=0.2)(x)
-        # x = layers.Dropout(0.2)(x)
+        one_hot_layer = OneHotEncodingLayer(args.vocab_path, args.batch_size)
+        x = one_hot_layer(text_input)
+        print(x.shape)
+        x_reshaped = tf.reshape(x, [-1, 1, 41])
+        x = layers.LSTM(args.lstm)(x_reshaped)
+        # x = layers.BatchNormalization()(x)
+        x = layers.Dropout(args.dropout)(x)
         predictions = layers.Dense(1, activation='sigmoid')(x)
         self.model = tf.keras.Model(text_input, predictions)
-        self.model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
-        print(self.model.summary())
+        adam = tf.keras.optimizers.Adam(lr=0.0001)
+        self.model.compile(loss='binary_crossentropy', optimizer=adam, metrics=['accuracy', 'AUC'])
 
         # raw_train_ds = get_dataset(dir='train', batch_size=32)
         # # Make a text-only dataset (no labels):
@@ -58,12 +47,18 @@ class Network(tf.keras.Sequential):
         print(self.model.summary())
 
     def train(self, train_ds, val_ds, args):
-        history = self.model.fit(train_ds,
-                                 epochs=args.epochs,
-                                 verbose=1,
-                                 callbacks=[tf.keras.callbacks.ModelCheckpoint(args.logdir, monitor='val_loss', save_best_only=True, verbose=1), self.tb_callback],
-                                 validation_data=val_ds)
-        return history
+        x_nyha = [item for item, _ in train_ds.as_numpy_iterator()]
+        y_nyha = [label for _, label in train_ds.as_numpy_iterator()]
+        self.model.fit(x_nyha, y_nyha, batch_size=args.batch_size, epochs=args.epochs, verbose=1)
+        prediction = np.round(self.model.predict(x_nyha))
+        wrong_predictions = x_nyha[prediction != y_nyha]
+        print(wrong_predictions)
+        # history = self.model.fit(train_ds,
+        #                          epochs=args.epochs,
+        #                          verbose=1,
+        #                          callbacks=[tf.keras.callbacks.ModelCheckpoint(args.logdir, monitor='val_loss', save_best_only=True, verbose=1), self.tb_callback],
+        #                          validation_data=val_ds)
+        # return history
 
     # Load precomputed vocabulary for TextVectorization layer.
     def load_vocab(self):
@@ -84,9 +79,11 @@ if __name__ == "__main__":
 
     # Parse arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument("--batch_size", default=1, type=int, help="Batch "
-                                                                  "size.")
-    parser.add_argument("--epochs", default=1, type=int, help="Number of epochs.")
+    parser.add_argument("--batch_size", default=64
+                        , type=int, help="Batch size.")
+    parser.add_argument("--epochs", default=10, type=int, help="Number of epochs.")
+    parser.add_argument("--dropout", default=0.1, type=int, help="Dropout rate, LSTM layer.")
+    parser.add_argument("--lstm", default=100, type=int, help="Neurons in LSTM layer.")
     parser.add_argument("--threads", default=1, type=int, help="Maximum number of threads to use.")
     parser.add_argument("--vocab_path",
                         default="dataset/vocab.txt",

@@ -352,3 +352,19 @@ https://keras.io/examples/nlp/text_classification_from_scratch/
 
 - logovani do tensorboardu
 - stvrtok 9:00 (odpise ked tak v utorok vecer, stredu odpoledne)
+
+
+-------------------------------------------------------------------------------------------------------------------
+3.9.2020
+TASKS FOR NEXT WEEK
+
+vytrenovat classifier alebo vysvetlit preco sa to neda
+- vacsiu learning rate
+- vyskusat bez embeddingu
+- iny vstup? za jak dlouho nastane opakovani pismenka?
+- hodne metrik
+- stvrtok 9:00
+
+- bez embeddingu sa trenovanie vzdy zastavi na (konkretne hodnoty zavisia aj na rozshufflovani dat)
+    - val_acc = 0.7606 (0.3 na validation)
+    - val_acc = 0.7695 (0.2 na validation)
