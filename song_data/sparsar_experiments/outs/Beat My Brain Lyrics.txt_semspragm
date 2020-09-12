@@ -1,0 +1,73 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Beat My Brain Lyrics.txt_1-1  []-negative  [neg]
+Beat My Brain Lyrics.txt_2-3  []-negative  [neg]
+Beat My Brain Lyrics.txt_3-6  []-positive  []
+Beat My Brain Lyrics.txt_4-11  []-negative  [neg]
+Beat My Brain Lyrics.txt_5-16  []-negative  [neg]
+Beat My Brain Lyrics.txt_6-23  []-negative  [neg]
+Beat My Brain Lyrics.txt_6-24  []-positive  [fgb]
+Beat My Brain Lyrics.txt_7-31  []-negative  [neg]
+Beat My Brain Lyrics.txt_8-39  []-suspension  [neg,neg]
+Beat My Brain Lyrics.txt_9-48  []-positive  [neg]
+Beat My Brain Lyrics.txt_10-59  []-negative  [neg,neg]
+Beat My Brain Lyrics.txt_11-70  []-negative  [neg]
+Beat My Brain Lyrics.txt_12-83  []-suspension  [neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Beat My Brain Lyrics.txt_1-1  [beat,my,Brain,Lyrics,by,Angel,dust]  [title]
+Beat My Brain Lyrics.txt_2-3  [beat,my,brain,take,my,life]  [reject_expl_just(take,[external,factive,narration,background,objective])]
+Beat My Brain Lyrics.txt_3-6  [make,me,pay,pay,the,price]  [provide_expl_just(make,[external,factive,explanation,background,objective]),provide_expl_just(pay,[external,factive,explanation,background,objective])]
+Beat My Brain Lyrics.txt_4-11  [i,am,bad,no_good,news]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Beat My Brain Lyrics.txt_5-16  [there,is,nothing,left,that,you,can,do,.]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(do,[external,nonfactive,narration,foreground,objective])]
+Beat My Brain Lyrics.txt_6-23  [there,is,a,grave]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(say,[external,factive,narration,background,objective])]
+Beat My Brain Lyrics.txt_6-24  [and,it,says,my,name]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,background,objective])]
+Beat My Brain Lyrics.txt_7-31  [life,is,cheap]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Beat My Brain Lyrics.txt_8-39  [beat,my,brain,with,dirty,sex]  [provide_expl_just(brain,[external,factive,narration,background,objective])]
+Beat My Brain Lyrics.txt_9-48  [take,the,risk,take,my,breath]  [provide_expl_just(take,[external,factive,narration,background,objective])]
+Beat My Brain Lyrics.txt_10-59  [i,am,bored,bored,with,you]  [reject_expl_just(bear,[external,factive,narration,background,objective])]
+Beat My Brain Lyrics.txt_11-70  [there,is,nothing,left,that,you,can,do,.]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(do,[external,nonfactive,narration,foreground,objective])]
+Beat My Brain Lyrics.txt_12-83  [standing,on_the_edge,,,anticipating,death,of,my,pain]  [provide_expl_just(anticipate,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Beat My Brain Lyrics.txt_1-1)-[emotions-aggression]
+2-(Beat My Brain Lyrics.txt_2-3)-[emotions-aggression,primary-narcissism]
+3-(Beat My Brain Lyrics.txt_3-6)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+4-(Beat My Brain Lyrics.txt_4-11)-[]
+5-(Beat My Brain Lyrics.txt_5-16)-[]
+6-(Beat My Brain Lyrics.txt_6-23)-[]
+half
+7-(Beat My Brain Lyrics.txt_6-24)-[secondary-social_behavior]
+8-(Beat My Brain Lyrics.txt_7-31)-[]
+9-(Beat My Brain Lyrics.txt_8-39)-[emotions-aggression,primary-narcissism,primary-anality,primary-sex]
+10-(Beat My Brain Lyrics.txt_9-48)-[secondary-instru_behavior,primary-odor]
+11-(Beat My Brain Lyrics.txt_10-59)-[]
+12-(Beat My Brain Lyrics.txt_11-70)-[]
+13-(Beat My Brain Lyrics.txt_12-83)-[primary-passivity,emotions-sadness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Beat My Brain Lyrics.txt_1,1,cl1-nil-nil-brain-[arg_mod-agent-dust-sn3,obj-theme-Lyrics-sn2,subj-agent-my-sn1,and(dust,Angel,sn3),and(my,beat,sn1),def_prop(dust,[sostanza]),def_prop(Lyrics,[informa,tecno]),def_prop(my,[informa,tecno])])
+lf(Beat My Brain Lyrics.txt_2,3,cl2-nil-nil-take-[obj-theme_aff-life-sn2,subj-agent-brain-sn1,and(brain,beat,sn1),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(brain,[astratto,body_part,edible,oggetto,umano])])
+lf(Beat My Brain Lyrics.txt_3,6,cl4-nil-nil-pay-[])
+lf(Beat My Brain Lyrics.txt_3,6,cl3-nil-nil-make-[obj-goal-me-sn3,subj-agent-price-sn2,subj-agent-price-sn1,and(price,you,sn1),def_prop(me,[umano]),def_prop(price,[astratto,attivita,informa,oggetto]),def_prop(price,[astratto,attivita,informa,oggetto])])
+lf(Beat My Brain Lyrics.txt_4,11,cl5-nil-nil-be-[subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Beat My Brain Lyrics.txt_5,16,cl7-nil-can-do-[xcomp-actor-nothing-sn2,aux-do-nil,def_prop(nothing,[astratto,informa,oggetto])])
+lf(Beat My Brain Lyrics.txt_5,16,cl6-nil-nil-be-[xcomp-prop-nothing-sn2,subj-theme_bound-there-sn1,def_prop(nothing,[astratto,informa,oggetto]),def_prop(there,[any])])
+lf(Beat My Brain Lyrics.txt_6,23,cl9-nil-nil-say-[cmod-subord-say-",obj-theme_unaff-name-sn4,subj-actor-it-sn3,def_prop(name,[attivita,informa,stato,umano]),def_prop(it,[any])])
+lf(Beat My Brain Lyrics.txt_6,23,cl8-nil-nil-be-[xcomp-prop-grave-sn2,subj-theme_bound-there-sn1,def_prop(grave,[valutativo]),def_prop(there,[any])])
+lf(Beat My Brain Lyrics.txt_7,31,cl10-nil-nil-be-[xcomp-prop-cheap-sn2,subj-theme_bound-life-sn1,def_prop(cheap,[istituzione]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Beat My Brain Lyrics.txt_8,39,cl11-nil-nil-brain-[ncmod-comitativo-sex-sn2,subj-theme-my-sn1,and(sex,dirty,sn2),and(my,beat,sn1),def_prop(sex,[astratto,emotivo,istituzione]),def_prop(my,[informa,tecno])])
+lf(Beat My Brain Lyrics.txt_9,48,cl12-nil-nil-take-[obj-theme-breath-sn3,xcomp-purpose-take-3,subj-agent-risk-sn2,subj-agent-risk-sn1,and(risk,you,sn1),def_prop(breath,[attivita,cambia,sostanza,tempo]),def_prop(risk,[astratto,attivita]),def_prop(risk,[astratto,attivita])])
+lf(Beat My Brain Lyrics.txt_10,59,cl13-nil-nil-bear-[ncmod-comitativo-you-sn3,xcomp-prop-bored-sn2,subj-goal-i-sn1,aux-am-nil,def_prop(you,[umano]),def_prop(bored,[evaluative]),def_prop(i,[umano])])
+lf(Beat My Brain Lyrics.txt_11,70,cl15-nil-can-do-[xcomp-actor-nothing-sn2,aux-do-nil,def_prop(nothing,[astratto,informa,oggetto])])
+lf(Beat My Brain Lyrics.txt_11,70,cl14-nil-nil-be-[xcomp-prop-nothing-sn2,subj-theme_bound-there-sn1,def_prop(nothing,[astratto,informa,oggetto]),def_prop(there,[any])])
+lf(Beat My Brain Lyrics.txt_12,83,cl16-nil-nil-anticipate-[obj-theme-death-sn2,subj-agent-on_the_edge-sn1,and(on_the_edge,standing,sn1),def_prop(death,[animato,attivita,cambia,evento,informa,stato,tempo]),def_prop(on_the_edge,[astratto,informa,luogo,oggetto,strumento,tecno])])

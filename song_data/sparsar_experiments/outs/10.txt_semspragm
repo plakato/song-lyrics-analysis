@@ -1,0 +1,268 @@
+"POLARITY, DISCOURSE MARKERS"
+
+10.txt_1-1  []-positive  []
+10.txt_2-3  []-positive  []
+10.txt_2-4  []-positive  []
+10.txt_3-7  []-positive  []
+10.txt_4-11  []-positive  []
+10.txt_5-16  []-positive  []
+10.txt_6-22  [when-temp_coinc]-positive  []
+10.txt_7-29  [when-temp_coinc]-positive  []
+10.txt_8-39  [so-result]-positive  [fgb]
+10.txt_9-48  []-positive  [neg,neg]
+10.txt_10-59  []-positive  [bkc,bkc]
+10.txt_11-70  []-positive  []
+10.txt_12-82  []-positive  [fgb]
+10.txt_13-95  []-positive  []
+10.txt_14-109  []-positive  []
+10.txt_15-124  []-positive  []
+10.txt_16-141  []-positive  [fgb]
+10.txt_17-158  []-positive  []
+10.txt_18-176  []-positive  []
+10.txt_19-195  []-positive  []
+10.txt_20-215  []-positive  []
+10.txt_21-236  []-positive  []
+10.txt_22-258  []-positive  []
+10.txt_23-281  []-positive  []
+10.txt_24-305  []-positive  []
+10.txt_25-330  []-positive  []
+10.txt_26-356  []-positive  [bkc]
+10.txt_27-383  []-positive  []
+10.txt_28-411  []-positive  []
+10.txt_29-440  []-positive  []
+10.txt_30-470  []-negative  [neg]
+10.txt_31-501  []-positive  []
+10.txt_32-533  []-negative  []
+10.txt_33-566  [so-result]-positive  [fgb]
+10.txt_34-600  []-suspension  [neg,neg]
+10.txt_35-635  []-positive  [bkc,bkc]
+10.txt_36-671  []-positive  []
+10.txt_37-708  []-positive  []
+10.txt_38-746  []-suspension  [fgb]
+10.txt_39-785  []-positive  []
+10.txt_40-825  []-positive  []
+10.txt_41-867  []-positive  []
+10.txt_42-909  []-positive  []
+10.txt_43-952  []-question  []
+10.txt_44-996  []-positive  []
+10.txt_45-1041  []-positive  []
+10.txt_46-1087  []-positive  []
+10.txt_47-1134  []-positive  []
+10.txt_48-1182  []-positive  []
+10.txt_49-1231  []-positive  []
+10.txt_50-1281  []-positive  []
+10.txt_51-1332  []-positive  [bkc]
+10.txt_52-1384  []-positive  []
+10.txt_53-1438  []-positive  []
+10.txt_54-1492  []-positive  []
+10.txt_55-1547  []-negative  [neg]
+10.txt_56-1603  []-positive  []
+10.txt_57-1660  []-positive  [fhd]
+10.txt_58-1718  []-positive  []
+10.txt_59-1777  []-positive  []
+10.txt_60-1837  []-suspension  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+10.txt_1-1  [10,by,Wolfmother]  [title]
+10.txt_2-3  [they,came,from,10]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+10.txt_2-4  [,,0,feet]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+10.txt_3-7  [on,a,possibility,street]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+10.txt_4-11  [it,was,the,law,of,the,land]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+10.txt_5-16  [turned,castles,into,the,sand]  [provide_expl_just(castle,[external,factive,narration,background,objective])]
+10.txt_6-22  [when,it,is,only,a,kingdoms,turning]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+10.txt_7-29  [when,i,have,got,to,find,out,some,learning]  [provide_expl_just(learn,[external,factive,narration,foreground,objective]),provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+10.txt_8-39  [even,the,people,so,small]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+10.txt_9-48  [wanna,see,the,tyrant,fall]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+10.txt_10-59  [oh,yeah]  [accept_expl_opin(say,[external,factive,narration,foreground,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+10.txt_11-70  [you,could,be]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+10.txt_12-82  [what,you,see]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+10.txt_13-95  [anytime]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+10.txt_14-109  [this_time]  [raise_issue(be,[_257094,factive,statement,_257112,subjective])]
+10.txt_15-124  [could,it,be]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,background,objective])]
+10.txt_16-141  [what,you,see]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+10.txt_17-158  [you,could,be]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+10.txt_18-176  [in,time]  [provide_expl_just(time,[external,factive,narration,background,objective])]
+10.txt_19-195  [your,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+10.txt_20-215  [my,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+10.txt_21-236  [our,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+10.txt_22-258  [in,time]  [provide_expl_just(time,[external,factive,narration,background,objective])]
+10.txt_23-281  [your,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+10.txt_24-305  [my,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+10.txt_25-330  [our,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+10.txt_26-356  [yeah,in,time]  [provide_expl_just(time,[external,factive,narration,background,objective])]
+10.txt_27-383  [it,was,the,law,of,the,land]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+10.txt_28-411  [turned,castles,into,the,sand]  [provide_expl_just(castle,[external,factive,narration,background,objective])]
+10.txt_29-440  [somehow,the,machine,prevailed]  [provide_expl_just(prevail,[external,factive,narration,foreground,objective])]
+10.txt_30-470  [another,torture,tale]  [reject_expl_just(torture,[external,factive,narration,background,objective])]
+10.txt_31-501  [it,is,only,a,kingdoms,turning]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+10.txt_32-533  [watching,the,factories,burning]  [provide_expl_just(watch,[external,factive,narration,foreground,objective])]
+10.txt_33-566  [even,the,mountain,so,tall]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+10.txt_34-600  [will,see,the,tyrant,fall]  [provide_expl_just(see,[external,nonfactive,narration,background,objective])]
+10.txt_35-635  [oh,yeah]  [accept_expl_opin(say,[external,factive,narration,foreground,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+10.txt_36-671  [anytime]  [raise_issue(be,[_267654,factive,statement,_267672,subjective])]
+10.txt_37-708  [you,could,see]  [provide_expl_just(see,[external,nonfactive,narration,background,objective])]
+10.txt_38-746  [what,should,be]  [provide_expl_just(be,[external,nonfactive,narration,foreground,objective])]
+10.txt_39-785  [in,time]  [provide_expl_just(time,[external,factive,narration,background,objective])]
+10.txt_40-825  [could,it,be]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,background,objective])]
+10.txt_41-867  [everything]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+10.txt_42-909  [that,you,see]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+10.txt_43-952  [fine,is,?]  [provide_expl_just(fine,[internal,factive,narration,background,objective])]
+10.txt_44-996  [your,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+10.txt_45-1041  [my,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+10.txt_46-1087  [our,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+10.txt_47-1134  [in,time]  [provide_expl_just(time,[external,factive,narration,background,objective])]
+10.txt_48-1182  [your,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+10.txt_49-1231  [my,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+10.txt_50-1281  [our,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+10.txt_51-1332  [yeah,in,time]  [provide_expl_just(time,[external,factive,narration,background,objective])]
+10.txt_52-1384  [take,the,time,to,see]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+10.txt_53-1438  [the,other,things,in,life]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+10.txt_54-1492  [all,around,are]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+10.txt_55-1547  [you,never,get,the,time]  [reject_expl_just(get,[external,factive,narration,background,objective])]
+10.txt_56-1603  [to,see,all,this]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+10.txt_57-1660  [about,me,anyway]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+10.txt_58-1718  [your,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+10.txt_59-1777  [my,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+10.txt_60-1837  [will,stand,in,time,always]  [provide_expl_just(stand,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(10.txt_1-1)-[]
+2-(10.txt_2-3)-[]
+3-(10.txt_2-4)-[primary-narcissism]
+4-(10.txt_3-7)-[primary-brink]
+5-(10.txt_4-11)-[secondary-moral_imperative]
+6-(10.txt_5-16)-[emotions-glory]
+7-(10.txt_6-22)-[secondary-temporal_repere,emotions-glory]
+8-(10.txt_7-29)-[secondary-temporal_repere,secondary-instru_behavior,primary-concreteness]
+9-(10.txt_8-39)-[]
+10-(10.txt_9-48)-[primary-vision,emotions-aggression,primary-descent]
+11-(10.txt_10-59)-[]
+12-(10.txt_11-70)-[]
+13-(10.txt_12-82)-[primary-vision]
+14-(10.txt_13-95)-[]
+15-(10.txt_14-109)-[]
+16-(10.txt_15-124)-[]
+17-(10.txt_16-141)-[primary-vision]
+18-(10.txt_17-158)-[]
+19-(10.txt_18-176)-[secondary-temporal_repere]
+20-(10.txt_19-195)-[emotions-affection]
+21-(10.txt_20-215)-[emotions-affection]
+22-(10.txt_21-236)-[emotions-affection]
+23-(10.txt_22-258)-[secondary-temporal_repere]
+24-(10.txt_23-281)-[emotions-affection]
+25-(10.txt_24-305)-[emotions-affection]
+26-(10.txt_25-330)-[emotions-affection]
+27-(10.txt_26-356)-[secondary-temporal_repere]
+28-(10.txt_27-383)-[secondary-moral_imperative]
+29-(10.txt_28-411)-[emotions-glory]
+30-(10.txt_29-440)-[secondary-instru_behavior,secondary-restraint]
+half
+31-(10.txt_30-470)-[emotions-aggression]
+32-(10.txt_31-501)-[emotions-glory]
+33-(10.txt_32-533)-[secondary-instru_behavior]
+34-(10.txt_33-566)-[primary-height,primary-height]
+35-(10.txt_34-600)-[primary-vision,emotions-aggression,primary-descent]
+36-(10.txt_35-635)-[]
+37-(10.txt_36-671)-[]
+38-(10.txt_37-708)-[primary-vision]
+39-(10.txt_38-746)-[secondary-moral_imperative]
+40-(10.txt_39-785)-[secondary-temporal_repere]
+41-(10.txt_40-825)-[]
+42-(10.txt_41-867)-[]
+43-(10.txt_42-909)-[primary-vision]
+44-(10.txt_43-952)-[]
+45-(10.txt_44-996)-[emotions-affection]
+46-(10.txt_45-1041)-[emotions-affection]
+47-(10.txt_46-1087)-[emotions-affection]
+48-(10.txt_47-1134)-[secondary-temporal_repere]
+49-(10.txt_48-1182)-[emotions-affection]
+50-(10.txt_49-1231)-[emotions-affection]
+51-(10.txt_50-1281)-[emotions-affection]
+52-(10.txt_51-1332)-[secondary-temporal_repere]
+53-(10.txt_52-1384)-[secondary-temporal_repere,primary-vision]
+54-(10.txt_53-1438)-[]
+55-(10.txt_54-1492)-[]
+56-(10.txt_55-1547)-[secondary-temporal_repere]
+57-(10.txt_56-1603)-[primary-vision]
+58-(10.txt_57-1660)-[]
+59-(10.txt_58-1718)-[emotions-affection]
+60-(10.txt_59-1777)-[emotions-affection]
+61-(10.txt_60-1837)-[secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(10.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wolfmother-sn2,subj-theme_bound-10-sn1,def_prop(Wolfmother,[istituzione,umano]),def_prop(10,[nquant])])
+lf(10.txt_2,3,cl3-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(10.txt_2,3,cl2-nil-nil-come-[iobj-goal-10-sn2,subj-agent-they-sn1,def_prop(10,[nquant]),def_prop(they,[umano])])
+lf(10.txt_3,7,cl4-nil-nil-be-[ncmod-locativo-possibility-sn2,subj-theme_bound-street-sn1,def_prop(possibility,[astratto,stato]),def_prop(street,[oggetto,stato,strumento])])
+lf(10.txt_4,11,cl5-nil-nil-be-[xcomp-prop-law-sn2,subj-theme_bound-it-sn1,def_prop(law,[astratto,attivita,informa,istituzione]),def_prop(it,[any])])
+lf(10.txt_5,16,cl6-nil-nil-castle-[ncmod-loc_direct-sand-sn2,subj-agent-turned-sn1,def_prop(sand,[sostanza]),def_prop(turned,[evaluative])])
+lf(10.txt_6,22,cl7-nil-nil-be-[xcomp-prop-turn-sn3,xcomp-theme-when-sn2,subj-theme_bound-it-sn1,def_prop(turn,[attivita,evento,tempo]),def_prop(when,[tempo]),def_prop(it,[any])])
+lf(10.txt_7,29,cl10-nil-nil-learn-[xcomp-prop-find-3])
+lf(10.txt_7,29,cl9-nil-nil-find-[ncmod-result-some-sn3,def_prop(some,[umano])])
+lf(10.txt_7,29,cl8-nil-nil-get-[adj-sn1-when-sn2,subj-experiencer-i-sn1,aux-have-nil,def_prop(when,[tempo]),def_prop(i,[umano])])
+lf(10.txt_8,39,cl11-nil-nil-be-[subj-theme_bound-people-sn1,def_prop(people,[istituzione])])
+lf(10.txt_9,48,cl12-nil-nil-see-[])
+lf(10.txt_9,48,nil-nil-nil-wanna-[obj-theme-fall-sn3,obj-theme_aff-tyrant-sn2,subj-agent-you-sn1,def_prop(fall,[attivita,evento,tempo]),def_prop(tyrant,[umano]),def_prop(you,[umano])])
+lf(10.txt_10,59,cl13-nil-nil-say-[obj-theme_unaff-oh-sn1,def_prop(oh,[informa,tecno])])
+lf(10.txt_11,70,cl14-nil-could-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(10.txt_12,82,cl15-nil-nil-see-[obj-actor-what-sn2,subj-experiencer-you-sn1,def_prop(what,[oggetto]),def_prop(you,[umano])])
+lf(10.txt_13,95,cl16-nil-nil-say-[obj-theme_unaff-anytime-sn1,def_prop(anytime,[istituzione])])
+lf(10.txt_14,109,cl17-nil-nil-say-[obj-theme_unaff-this_time-sn1,def_prop(this_time,[any,evento,tempo])])
+lf(10.txt_15,124,cl19-nil-nil-be-[subj-prop-it-sn1,def_prop(it,[any])])
+lf(10.txt_15,124,cl18-nil-could-can-[subj-actor-it-sn1,def_prop(it,[any])])
+lf(10.txt_16,141,cl20-nil-nil-see-[obj-actor-what-sn2,subj-experiencer-you-sn1,def_prop(what,[oggetto]),def_prop(you,[umano])])
+lf(10.txt_17,158,cl21-nil-could-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(10.txt_18,176,cl22-nil-nil-time-[subj-agent-pro-nil])
+lf(10.txt_19,195,cl23-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(10.txt_20,215,cl24-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(10.txt_21,236,cl25-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(10.txt_22,258,cl26-nil-nil-time-[subj-agent-pro-nil])
+lf(10.txt_23,281,cl27-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(10.txt_24,305,cl28-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(10.txt_25,330,cl29-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(10.txt_26,356,cl30-nil-nil-time-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(10.txt_27,383,cl31-nil-nil-be-[xcomp-prop-law-sn2,subj-theme_bound-it-sn1,def_prop(law,[astratto,attivita,informa,istituzione]),def_prop(it,[any])])
+lf(10.txt_28,411,cl32-nil-nil-castle-[ncmod-loc_direct-sand-sn2,subj-agent-turned-sn1,def_prop(sand,[sostanza]),def_prop(turned,[evaluative])])
+lf(10.txt_29,440,cl33-nil-nil-prevail-[subj-agent-machine-sn1,def_prop(machine,[oggetto,strumento,umano])])
+lf(10.txt_30,470,cl34-nil-nil-torture-[obj-theme-tale-sn2,subj-agent-another-sn1,def_prop(tale,[attivita,evento,informa]),def_prop(another,[evaluative])])
+lf(10.txt_31,501,cl35-nil-nil-be-[xcomp-prop-turn-sn2,subj-theme_bound-it-sn1,def_prop(turn,[attivita,evento,tempo]),def_prop(it,[any])])
+lf(10.txt_32,533,cl36-nil-nil-watch-[subj-actor-factory-sn1,def_prop(factory,[oggetto,strumento])])
+lf(10.txt_33,566,cl37-nil-nil-be-[subj-theme_bound-mountain-sn1,def_prop(mountain,[oggetto])])
+lf(10.txt_34,600,cl38-nil-will-see-[obj-theme_aff-fall-sn3,obj-actor-tyrant-sn2,subj-experiencer-you-sn1,def_prop(fall,[attivita,evento,tempo]),def_prop(tyrant,[umano]),def_prop(you,[umano])])
+lf(10.txt_35,635,cl39-nil-nil-say-[obj-theme_unaff-oh-sn1,def_prop(oh,[informa,tecno])])
+lf(10.txt_36,671,cl40-nil-nil-say-[obj-theme_unaff-anytime-sn1,def_prop(anytime,[istituzione])])
+lf(10.txt_37,708,cl41-nil-could-see-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(10.txt_38,746,cl42-nil-should-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(10.txt_39,785,cl43-nil-nil-time-[subj-agent-pro-nil])
+lf(10.txt_40,825,cl45-nil-nil-be-[subj-prop-it-sn1,def_prop(it,[any])])
+lf(10.txt_40,825,cl44-nil-could-can-[subj-actor-it-sn1,def_prop(it,[any])])
+lf(10.txt_41,867,cl46-nil-nil-say-[obj-theme_unaff-everything-sn1,def_prop(everything,[astratto,informa,oggetto])])
+lf(10.txt_42,909,cl47-nil-nil-see-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(10.txt_43,952,cl48-nil-nil-fine-[subj-asset-pro-nil,aux-(is)-nil])
+lf(10.txt_44,996,cl49-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(10.txt_45,1041,cl50-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(10.txt_46,1087,cl51-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(10.txt_47,1134,cl52-nil-nil-time-[subj-agent-pro-nil])
+lf(10.txt_48,1182,cl53-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(10.txt_49,1231,cl54-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(10.txt_50,1281,cl55-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(10.txt_51,1332,cl56-nil-nil-time-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(10.txt_52,1384,cl58-nil-nil-see-[subj-actor-time-sn2,def_prop(time,[tempo])])
+lf(10.txt_52,1384,cl57-nil-nil-take-[obj-theme_aff-time-sn2,subj-experiencer-you-sn1,def_prop(time,[tempo]),def_prop(you,[umano])])
+lf(10.txt_53,1438,cl59-nil-nil-be-[ncmod-locativo-life-sn2,subj-theme_bound-you-sn1,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(you,[umano])])
+lf(10.txt_54,1492,cl60-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(10.txt_55,1547,cl61-nil-nil-get-[obj-theme_unaff-time-sn2,subj-agent-you-sn1,def_prop(time,[tempo]),def_prop(you,[umano])])
+lf(10.txt_56,1603,cl62-nil-nil-see-[subj-experiencer-all-sn1,def_prop(all,[_285306])])
+lf(10.txt_57,1660,cl63-nil-nil-be-[adj-(mod)-anyway-nil,ncmod-subj_disc-me-sn1,def_prop(me,[umano])])
+lf(10.txt_58,1718,cl64-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(10.txt_59,1777,cl65-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(10.txt_60,1837,cl66-nil-will-stand-[adj-subj_disc-always-sn3,adj-subj_disc-time-sn2,subj-experiencer-you-sn1,def_prop(always,[istituzione]),def_prop(time,[tempo]),def_prop(you,[umano])])

@@ -1,0 +1,280 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Middle School Lyrics.txt_1-1  []-positive  []
+Middle School Lyrics.txt_2-3  []-negative  [neg,neg]
+Middle School Lyrics.txt_3-8  []-negative  []
+Middle School Lyrics.txt_4-16  [because-cause]-positive  []
+Middle School Lyrics.txt_5-21  []-positive  []
+Middle School Lyrics.txt_5-22  []-negative  [neg]
+Middle School Lyrics.txt_6-29  [so-result,when-temp_coinc]-question  [neg,fgb,fgb]
+Middle School Lyrics.txt_7-37  []-positive  [fgb]
+Middle School Lyrics.txt_7-38  [when-temp_coinc]-negative  [neg]
+Middle School Lyrics.txt_8-47  []-positive  []
+Middle School Lyrics.txt_9-56  []-positive  [neg,neg]
+Middle School Lyrics.txt_10-66  []-negative  [neg]
+Middle School Lyrics.txt_11-77  [because-cause,so-result]-negative  [neg,fgb,fgb]
+Middle School Lyrics.txt_12-89  []-negative  [neg]
+Middle School Lyrics.txt_12-90  [when-temp_coinc]-positive  []
+Middle School Lyrics.txt_13-103  []-positive  []
+Middle School Lyrics.txt_13-104  []-positive  []
+Middle School Lyrics.txt_14-118  []-negative  [neg,neg]
+Middle School Lyrics.txt_15-135  [but-advers]-suspension  [fgb,fgb,neg,neg]
+Middle School Lyrics.txt_16-153  []-negative  [neg]
+Middle School Lyrics.txt_17-170  []-question  []
+Middle School Lyrics.txt_17-171  []-negative  [neg]
+Middle School Lyrics.txt_18-189  []-positive  []
+Middle School Lyrics.txt_18-190  []-negative  [neg,fgb,neg]
+Middle School Lyrics.txt_19-210  []-negative  [neg]
+Middle School Lyrics.txt_20-230  []-positive  []
+Middle School Lyrics.txt_20-231  [so-result]-negative  [fgb,neg]
+Middle School Lyrics.txt_21-252  [but-advers]-negative  [fgb,neg,fhd]
+Middle School Lyrics.txt_21-253  [when-temp_coinc]-positive  []
+Middle School Lyrics.txt_23-302  []-positive  []
+Middle School Lyrics.txt_23-303  []-positive  []
+Middle School Lyrics.txt_23-304  []-negative  []
+Middle School Lyrics.txt_24-328  [before-temp_prec]-negative  [neg]
+Middle School Lyrics.txt_25-353  []-negative  [fgb]
+Middle School Lyrics.txt_26-379  []-positive  [fgb]
+Middle School Lyrics.txt_27-407  [before-temp_prec]-negative  [neg,fgb]
+Middle School Lyrics.txt_27-408  []-positive  []
+Middle School Lyrics.txt_27-409  [before-temp_prec]-positive  []
+Middle School Lyrics.txt_28-437  []-positive  []
+Middle School Lyrics.txt_28-438  []-negative  [fgb,neg]
+Middle School Lyrics.txt_29-468  []-positive  []
+Middle School Lyrics.txt_29-469  []-positive  []
+Middle School Lyrics.txt_29-470  []-positive  []
+Middle School Lyrics.txt_30-500  []-positive  []
+Middle School Lyrics.txt_30-501  []-positive  [fgb]
+Middle School Lyrics.txt_31-533  []-negative  [neg]
+Middle School Lyrics.txt_31-534  []-suspension  []
+Middle School Lyrics.txt_31-535  []-positive  []
+Middle School Lyrics.txt_32-566  []-negative  []
+Middle School Lyrics.txt_33-599  [but-advers]-negative  [fgb,neg]
+Middle School Lyrics.txt_33-599  [but-advers]-negative  [fgb,neg]
+Middle School Lyrics.txt_34-633  []-negative  [neg]
+Middle School Lyrics.txt_34-634  [so-result]-positive  [fgb]
+Middle School Lyrics.txt_35-669  []-negative  [neg,fhd]
+Middle School Lyrics.txt_36-705  []-negative  [neg]
+Middle School Lyrics.txt_36-706  [but-advers]-negative  [fgb]
+Middle School Lyrics.txt_37-744  []-positive  []
+Middle School Lyrics.txt_37-745  []-positive  [fgb]
+Middle School Lyrics.txt_38-784  [but-advers]-negative  [fgb,neg]
+Middle School Lyrics.txt_38-785  [so-result]-positive  [fgb,fhd]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Middle School Lyrics.txt_1-1  [middle,School,Lyrics,by,Quiet,Desperado]  [title]
+Middle School Lyrics.txt_2-3  [wake,up,every,morning,wishing,i,was,not,not,me]  [reject_expl_just(be,[external,factive,narration,foreground,objective]),reject_expl_just(wake,[external,factive,explanation,background,objective]),propose_opin_neg(wake,[external,factive,explanation,background,objective])]
+Middle School Lyrics.txt_3-8  [riding,my,bike,,,forgot,the,lock,now,my,bike,is,free]  [provide_expl_just(free,[external,factive,narration,foreground,objective]),provide_expl_just(bike,[external,factive,narration,background,objective]),provide_expl_just(forget,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_4-16  [moved,here,because,my,mom,wanted,a,better,life,for,me]  [provide_expl_just(want,[external,factive,cause,foreground,objective])]
+Middle School Lyrics.txt_5-21  [head,butted,in,the,face,now]  [provide_expl_just(butt,[external,factive,cause,foreground,objective]),provide_expl_just(die,[external,factive,narration,foreground,objective])]
+Middle School Lyrics.txt_5-22  [i,am,icing,dying,teeth]  [reject_expl_just(butt,[external,factive,cause,foreground,objective]),reject_expl_just(die,[external,factive,narration,foreground,objective])]
+Middle School Lyrics.txt_6-29  [”,violent,so,become,kids,did,when,“,asking,parents,the,and,?]  [provide_expl_just(become,[internal,factive,narration,foreground,objective])]
+Middle School Lyrics.txt_7-37  [that,is,what,happens]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(happen,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_7-38  [when,you,are,put,in,a,hostile,environment]  [reject_expl_just(put,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(happen,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_8-47  [i_remember,making,lists,in,my,head]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Middle School Lyrics.txt_9-56  [of,all,the,kids,that,i,truly,wanted,dead,.,i,truly,wanted,dead]  [provide_expl_just(want,[external,factive,narration,foreground,objective])]
+Middle School Lyrics.txt_10-66  [it,is,these,types,of,thoughts,that,scare,people,the,most]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_11-77  [because,a,normal,kid,should,not,think,so,demented,and,gross]  [reject_expl_just(think,[external,nonfactive,narration,foreground,objective])]
+Middle School Lyrics.txt_12-89  [you,can,not,help]  [reject_expl_just(be,[_1253556,_1253562,_1253568,_1253574,_1253580])]
+Middle School Lyrics.txt_12-90  [it,when,you,are,pushed,too_much]  [raise_issue(be,[_1253896,factive,statement,_1253914,subjective])]
+Middle School Lyrics.txt_13-103  [you,eat,in,the,bathroom]  [provide_expl_just(eat,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_13-104  [stall,everyday,for,lunch]  [provide_expl_just(eat,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_14-118  [wanting,to,have,one,friend,who,will,not,make,fun]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(make,[external,nonfactive,narration,background,objective])]
+Middle School Lyrics.txt_15-135  [but,they,continue,and,you,question,turning,a,gun]  [provide_expl_just(continue,[external,factive,narration,background,objective]),provide_expl_just(turn,[external,factive,cause,foreground,objective])]
+Middle School Lyrics.txt_16-153  [onto,yourself,suicide,really,was,contemplated]  [reject_expl_just(contemplate-cl33,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_17-170  [could,how,?]  [provide_expl_just(can,[internal,nonfactive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Middle School Lyrics.txt_17-171  [it,not]  [reject_expl_just(can,[internal,nonfactive,narration,background,objective]),reject_expl_just(be,[internal,factive,narration,foreground,objective])]
+Middle School Lyrics.txt_18-189  [they,called]  [provide_expl_just(call,[external,factive,narration,foreground,objective]),provide_expl_just(fag,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,foreground,objective])]
+Middle School Lyrics.txt_18-190  [you,fag,and,you,felt,truly,hated]  [reject_expl_just(call,[external,factive,narration,foreground,objective]),reject_expl_just(fag,[external,factive,narration,background,objective]),reject_expl_just(feel,[external,factive,narration,foreground,objective])]
+Middle School Lyrics.txt_19-210  [stop,showing,up_to,school,because_of,the,reasons,stated]  [reject_expl_just(be,[_1264070,_1264076,_1264082,_1264088,_1264094])]
+Middle School Lyrics.txt_20-230  [instead,i,laid,in,my,bed]  [provide_expl_just(lay,[external,factive,narration,foreground,objective]),provide_expl_just(berate-cl41,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_20-231  [so,i,would,not,be,berated]  [reject_expl_just(lay,[external,factive,narration,foreground,objective]),reject_expl_just(berate-cl41,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_21-252  [but,now,i,am,jaded,like,will,Smith]  [reject_expl_just(will,[external,nonfactive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_21-253  [when,he,got,married]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_23-302  [the,things,i,carried]  [provide_expl_just(carry,[external,factive,cause,foreground,objective]),provide_expl_just(call,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_23-303  [i,had,call]  [provide_expl_just(carry,[external,factive,cause,foreground,objective]),provide_expl_just(call,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_23-304  [them,burdens]  [provide_expl_just(carry,[external,factive,cause,foreground,objective]),provide_expl_just(call,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_24-328  [had,a,nightmare,before,Christmas,,,Tim,Burton]  [reject_expl_just(Christmas,[internal,factive,narration,background,objective])]
+Middle School Lyrics.txt_25-353  [my,best_friend,and,his_family,died,on,their,way,to,Mexico]  [provide_expl_just(die,[external,factive,narration,foreground,objective])]
+Middle School Lyrics.txt_26-379  [our,memories,Just_like_that,and,were,the,first,to,go]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_27-407  [i,still,regret,what,i,said,before,he,went,.]  [reject_expl_just(regret,[external,factive,narration,background,objective]),reject_expl_just(say,[external,factive,narration,foreground,objective])]
+Middle School Lyrics.txt_27-408  [i,said]  [provide_expl_just(regret,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Middle School Lyrics.txt_27-409  [before,he,went]  [provide_expl_just(regret,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Middle School Lyrics.txt_28-437  [we,had,our,disagreements]  [provide_expl_just(vent,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Middle School Lyrics.txt_28-438  [and,i,needed,to,vent]  [reject_expl_just(vent,[external,factive,narration,background,objective]),reject_expl_just(have,[external,factive,narration,foreground,objective])]
+Middle School Lyrics.txt_29-468  [i,told]  [provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(wish,[external,factive,narration,background,objective]),provide_expl_just(circumvent,[external,nonfactive,narration,background,objective])]
+Middle School Lyrics.txt_29-469  [you,off,,,now,i,wish]  [provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(wish,[external,factive,narration,background,objective]),provide_expl_just(circumvent,[external,nonfactive,narration,background,objective])]
+Middle School Lyrics.txt_29-470  [that,we,could,circumvent]  [provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(wish,[external,factive,narration,background,objective]),provide_expl_just(circumvent,[external,nonfactive,narration,background,objective])]
+Middle School Lyrics.txt_30-500  [now,i,am,at,your,funeral]  [provide_expl_just(repent,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_30-501  [i,all,and,feel,is,the,need,to,repent]  [provide_expl_just(repent,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_31-533  [i,am,sorry]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(say,[external,nonfactive,narration,background,objective])]
+Middle School Lyrics.txt_31-534  [,,i,will,say]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(say,[external,nonfactive,narration,background,objective])]
+Middle School Lyrics.txt_31-535  [it,a,thousand_times,over]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(say,[external,nonfactive,narration,background,objective])]
+Middle School Lyrics.txt_32-566  [lookin,in,the,cracks,for,a,four,leaf,clover]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_33-599  [but,there,is,no,luck]  [reject_expl_just(be,[external,factive,adverse,background,objective]),provide_expl_just(be,[external,factive,adverse,background,objective])]
+Middle School Lyrics.txt_33-599  [but,there,is,no,luck,,,just,this,chip,on,my,shoulder]  [reject_expl_just(be,[external,factive,adverse,background,objective]),provide_expl_just(be,[external,factive,adverse,background,objective])]
+Middle School Lyrics.txt_34-633  [sorry,,,again,i,sound]  [reject_expl_just(sound,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_34-634  [so,angsty]  [provide_expl_just(sound,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_35-669  [i,am,a,clown,with,some,darkness,like,Gacy,just]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_36-705  [no,one-s,gonna,read,this]  [reject_expl_just(read,[external,factive,contrast,foreground,objective]),provide_expl_just(read,[external,factive,contrast,foreground,objective]),reject_expl_just(gonna,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_36-706  [but,that,doesn-t,phase,me]  [provide_expl_just(read,[external,factive,contrast,foreground,objective]),provide_expl_just(gonna,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_37-744  [i,am,waiting]  [provide_expl_just(wait,[external,factive,narration,foreground,objective]),provide_expl_just(come,[external,factive,result,background,objective])]
+Middle School Lyrics.txt_37-745  [for,a,magnolia,to,come,and,save,me]  [provide_expl_just(wait,[external,factive,narration,foreground,objective]),provide_expl_just(come,[external,factive,result,background,objective])]
+Middle School Lyrics.txt_38-784  [but,i,am,lonely,on,this,island]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(ghost-cl79,[external,factive,narration,background,objective])]
+Middle School Lyrics.txt_38-785  [so,i,am,ghost,like,Swayze]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(ghost-cl79,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Middle School Lyrics.txt_1-1)-[primary-concreteness]
+2-(Middle School Lyrics.txt_2-3)-[primary-counscious,secondary-temporal_repere]
+3-(Middle School Lyrics.txt_3-8)-[primary-voyage,secondary-restraint,secondary-temporal_repere]
+4-(Middle School Lyrics.txt_4-16)-[primary-concreteness]
+5-(Middle School Lyrics.txt_5-21)-[primary-narcissism,primary-narcissism,secondary-temporal_repere]
+6-(Middle School Lyrics.txt_5-22)-[primary-cold,primary-passivity,primary-orality]
+7-(Middle School Lyrics.txt_6-29)-[emotions-aggression,secondary-temporal_repere,secondary-social_behavior]
+8-(Middle School Lyrics.txt_7-37)-[]
+9-(Middle School Lyrics.txt_7-38)-[secondary-temporal_repere,emotions-aggression]
+10-(Middle School Lyrics.txt_8-47)-[secondary-order,primary-narcissism]
+11-(Middle School Lyrics.txt_9-56)-[secondary-abstract_tought,primary-passivity,secondary-abstract_tought,primary-passivity]
+12-(Middle School Lyrics.txt_10-66)-[secondary-abstract_tought,emotions-anxiety]
+13-(Middle School Lyrics.txt_11-77)-[secondary-order,secondary-moral_imperative,secondary-abstract_tought,primary-counscious]
+14-(Middle School Lyrics.txt_12-89)-[secondary-social_behavior]
+15-(Middle School Lyrics.txt_12-90)-[secondary-temporal_repere]
+16-(Middle School Lyrics.txt_13-103)-[primary-orality]
+17-(Middle School Lyrics.txt_13-104)-[primary-anality,primary-orality]
+18-(Middle School Lyrics.txt_14-118)-[emotions-affection,secondary-instru_behavior,emotions-positive_affect]
+19-(Middle School Lyrics.txt_15-135)-[emotions-aggression]
+20-(Middle School Lyrics.txt_16-153)-[secondary-abstract_tought]
+21-(Middle School Lyrics.txt_17-170)-[]
+22-(Middle School Lyrics.txt_17-171)-[]
+23-(Middle School Lyrics.txt_18-189)-[secondary-social_behavior]
+24-(Middle School Lyrics.txt_18-190)-[secondary-abstract_tought,emotions-aggression]
+25-(Middle School Lyrics.txt_19-210)-[secondary-restraint,secondary-abstract_tought]
+26-(Middle School Lyrics.txt_20-230)-[primary-passivity,primary-passivity]
+27-(Middle School Lyrics.txt_20-231)-[]
+28-(Middle School Lyrics.txt_21-252)-[secondary-temporal_repere,emotions-affection]
+29-(Middle School Lyrics.txt_21-253)-[secondary-temporal_repere,emotions-affection]
+30-(Middle School Lyrics.txt_23-302)-[secondary-instru_behavior]
+half
+31-(Middle School Lyrics.txt_23-303)-[secondary-social_behavior]
+32-(Middle School Lyrics.txt_23-304)-[secondary-abstract_tought,secondary-instru_behavior]
+33-(Middle School Lyrics.txt_24-328)-[primary-counscious]
+34-(Middle School Lyrics.txt_25-353)-[primary-passivity]
+35-(Middle School Lyrics.txt_26-379)-[]
+36-(Middle School Lyrics.txt_27-407)-[emotions-sadness,secondary-social_behavior]
+37-(Middle School Lyrics.txt_27-408)-[secondary-social_behavior]
+38-(Middle School Lyrics.txt_27-409)-[]
+39-(Middle School Lyrics.txt_28-437)-[emotions-aggression]
+40-(Middle School Lyrics.txt_28-438)-[]
+41-(Middle School Lyrics.txt_29-468)-[secondary-social_behavior]
+42-(Middle School Lyrics.txt_29-469)-[primary-concreteness,secondary-temporal_repere]
+43-(Middle School Lyrics.txt_29-470)-[]
+44-(Middle School Lyrics.txt_30-500)-[secondary-temporal_repere,primary-concreteness]
+45-(Middle School Lyrics.txt_30-501)-[emotions-sadness]
+46-(Middle School Lyrics.txt_31-533)-[emotions-sadness]
+47-(Middle School Lyrics.txt_31-534)-[secondary-social_behavior]
+48-(Middle School Lyrics.txt_31-535)-[primary-concreteness]
+49-(Middle School Lyrics.txt_32-566)-[primary-vision]
+50-(Middle School Lyrics.txt_33-599)-[]
+51-(Middle School Lyrics.txt_33-599)-[primary-narcissism]
+52-(Middle School Lyrics.txt_34-633)-[emotions-sadness,secondary-temporal_repere,primary-sound]
+53-(Middle School Lyrics.txt_34-634)-[]
+54-(Middle School Lyrics.txt_35-669)-[emotions-expressive_beh,emotions-affection]
+55-(Middle School Lyrics.txt_36-705)-[]
+56-(Middle School Lyrics.txt_36-706)-[]
+57-(Middle School Lyrics.txt_37-744)-[]
+58-(Middle School Lyrics.txt_37-745)-[]
+59-(Middle School Lyrics.txt_38-784)-[emotions-sadness]
+60-(Middle School Lyrics.txt_38-785)-[emotions-affection]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Middle School Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-desperado-sn2,subj-theme_bound-Lyrics-sn1,and(desperado,Quiet,sn2),and(Lyrics,School,sn1),and(Lyrics,middle,sn1),def_prop(desperado,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Middle School Lyrics.txt_2,3,cl4-not-nil-be-[xcomp-benef-i-sn2,xcomp-purpose-wish-3,def_prop(i,[umano])])
+lf(Middle School Lyrics.txt_2,3,cl3-nil-nil-wish-[xcomp-result-me-sn3,xcomp-prop-be-4,def_prop(me,[umano])])
+lf(Middle School Lyrics.txt_2,3,cl2-nil-nil-wake-[adj-locative-morning-nil,adj-locative-up-nil,adj-subj_disc-morning-sn5,adj-subj_disc-up-sn4,subj-actor-you-sn1,and(morning,every,sn7),and(morning,every,sn5),and(morning,every,sn5),def_prop(morning,[tempo]),def_prop(up,[istituzione]),def_prop(morning,[tempo]),def_prop(up,[istituzione]),def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_3,8,cl9-nil-nil-be-[])
+lf(Middle School Lyrics.txt_3,8,cl8-nil-nil-free-[aux-(is)-nil,subj-goal-my-sn12,subj-goal-my-sn10,subj-goal-lock-sn8,def_prop(my,[informa,tecno]),def_prop(my,[informa,tecno]),def_prop(lock,[attivita,body_part,oggetto,strumento,umano])])
+lf(Middle School Lyrics.txt_3,8,cl7-nil-nil-forget-[adj-(mod)-now-nil,obj-goal-lock-sn5,subj-experiencer-my-sn4,def_prop(lock,[attivita,body_part,oggetto,strumento,umano]),def_prop(my,[informa,tecno])])
+lf(Middle School Lyrics.txt_3,8,cl6-nil-nil-bike-[subj-actor-you-sn13,subj-actor-my-sn12,adj-(mod)-now-nil,subj-actor-my-sn10,obj-theme-lock-sn8,subj-actor-my-sn7,subj-theme-my-sn2,def_prop(you,[umano]),def_prop(my,[informa,tecno]),def_prop(my,[informa,tecno]),def_prop(lock,[attivita,body_part,oggetto,strumento,umano]),def_prop(my,[informa,tecno]),def_prop(my,[informa,tecno])])
+lf(Middle School Lyrics.txt_3,8,cl5-nil-nil-ride-[subj-agent-my-sn2,subj-agent-my-sn1,and(my,you,sn1),def_prop(my,[informa,tecno]),def_prop(my,[informa,tecno])])
+lf(Middle School Lyrics.txt_4,16,cl10-nil-nil-want-[obj-theme-me-sn5,obj-tema_unaff-life-sn4,subj-actor-mom-sn3,and(life,better,sn4),def_prop(me,[umano]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(mom,[umano])])
+lf(Middle School Lyrics.txt_5,21,cl13-nil-nil-die-[ncmod-locativo-face-sn2,def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano])])
+lf(Middle School Lyrics.txt_5,21,cl12-nil-nil-ice-[obj-theme-tooth-sn19,subj-agent-i-sn4,aux-am-nil,progr-icing-nil,def_prop(tooth,[animato,attivita,body_part,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(Middle School Lyrics.txt_5,21,cl11-nil-nil-butt-[adj-(mod)-now-nil,subj-actor-head-sn1,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano])])
+lf(Middle School Lyrics.txt_6,29,cl15-nil-nil-become-[cmod-coord-become-and,adj-(mod)-do-nil,xadj-adj-violent-adj2,xadj-adj-asking-adj1,def_prop(violent,_1299360),def_prop(asking,_1299372)])
+lf(Middle School Lyrics.txt_6,29,cl14-nil-nil-do-[xcomp-actor-kid-sn2,subj-theme_unaff-parent-sn1,aux-did-nil,def_prop(kid,[animato,sostanza,umano]),def_prop(parent,[umano])])
+lf(Middle School Lyrics.txt_7,37,cl18-nil-nil-put-[iobj-goal-environment-sn3,subj-goal-you-sn2,aux-are-nil,and(environment,hostile,sn3),def_prop(environment,[luogo,stato]),def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_7,37,cl17-nil-nil-happen-[])
+lf(Middle School Lyrics.txt_7,37,cl16-nil-nil-be-[subj-actor-what-sn1,def_prop(what,[oggetto])])
+lf(Middle School Lyrics.txt_8,47,cl19-nil-nil-make-[ncmod-locativo-head-sn3,obj-goal-list-sn2,subj-agent-i_remember-sn1,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(list,[attivita,informa]),def_prop(i_remember,[attivita,informa])])
+lf(Middle School Lyrics.txt_9,56,cl20-nil-nil-want-[adj-(mod)-truly-nil,xcomp-prop-dead-sn6,ncmod-specif-kid-sn2,subj-actor-i-sn1,and(kid,all,sn2),def_prop(truly,[istituzione]),def_prop(dead,[valutativo]),def_prop(kid,[animato,sostanza,umano]),def_prop(i,[umano])])
+lf(Middle School Lyrics.txt_10,66,cl21-nil-nil-be-[xcomp-prop-type-sn2,subj-theme_bound-it-sn1,and(type,that,sn2),def_prop(type,[astratto]),def_prop(it,[any])])
+lf(Middle School Lyrics.txt_11,77,cl22-not-should-think-[subj-agent-ky-sn1,and(ky,normal,sn1),def_prop(ky,[informa,tecno])])
+lf(Middle School Lyrics.txt_12,89,cl24-nil-nil-push-[cmod-subord-push-when,xcomp-prop-too_much-sn4,subj-theme-you-sn3,aux-are-nil,def_prop(too_much,[nquant]),def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_12,89,cl23-not-can-help-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_13,103,cl26-nil-nil-be-[xcomp-theme-lunch-sn5,xcomp-prop-everyday-sn4,subj-theme_bound-stall-sn3,def_prop(lunch,[edible,oggetto]),def_prop(everyday,[evaluative]),def_prop(stall,[attivita,evento,oggetto,strumento])])
+lf(Middle School Lyrics.txt_13,103,cl25-nil-nil-eat-[ncmod-locativo-bathroom-sn2,subj-agent-you-sn1,def_prop(bathroom,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_14,118,cl29-not-will-make-[subj-agent-friend-sn2,def_prop(friend,[umano])])
+lf(Middle School Lyrics.txt_14,118,cl28-nil-nil-have-[xcomp-prop-friend-sn2,xcomp-purpose-want-2,def_prop(friend,[umano])])
+lf(Middle School Lyrics.txt_14,118,cl27-nil-nil-want-[subj-agent-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_15,135,cl32-nil-nil-turn-[])
+lf(Middle School Lyrics.txt_15,135,cl31-nil-nil-question-[obj-goal-gun-sn35,subj-agent-you-sn18,obj-goal-gun-sn17,subj-agent-you-sn2,def_prop(gun,[attivita,oggetto,strumento,umano]),def_prop(you,[umano]),def_prop(gun,[attivita,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_15,135,cl30-nil-nil-continue-[cmod-coord-turn-cl32,subj-agent-they-sn1,def_prop(they,[umano])])
+lf(Middle School Lyrics.txt_16,153,cl33-nil-nil-contemplate-[adj-(mod)-really-nil,ncmod-locativo-yourself-sn2,subj-theme-suicide-sn1,aux-was-nil,def_prop(yourself,[istituzione]),def_prop(suicide,[attivita,umano])])
+lf(Middle School Lyrics.txt_17,170,cl35-nil-nil-be-[subj-theme_bound-it-sn3,def_prop(it,[any])])
+lf(Middle School Lyrics.txt_17,170,cl34-nil-could-can-[obj-theme-how-sn2,subj-agent-you-sn1,def_prop(how,[manner]),def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_18,189,cl38-nil-nil-feel-[xcomp-prop-hated-sn6,subj-experiencer-you-sn5,xcomp-prop-hated-sn4,subj-experiencer-you-sn3,def_prop(hated,[evaluative]),def_prop(you,[umano]),def_prop(hated,[evaluative]),def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_18,189,cl37-nil-nil-fag-[cmod-coord-feel-1,subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_18,189,cl36-nil-nil-call-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_19,210,cl39-nil-nil-show-[xadj-adj-stated-adj3,ncmod-causale-reason-sn3,iobj-goal-school-sn2,subj-actor-stop-sn1,def_prop(stated,_1302434),def_prop(reason,[astratto,attivita,informa]),def_prop(school,[astratto,istituzione,oggetto,strumento,tempo]),def_prop(stop,[attivita,evento,luogo,oggetto,strumento])])
+lf(Middle School Lyrics.txt_20,230,cl41-not-would-berate-[subj-theme-i-sn6,ncmod-modal-be-sn2,aux-be-nil,def_prop(i,[umano]),def_prop(be,[informa,tecno])])
+lf(Middle School Lyrics.txt_20,230,cl40-nil-nil-lay-[adj-(mod)-instead-nil,subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Middle School Lyrics.txt_21,252,cl44-nil-nil-get-[adj-(mod)-married-nil,subj-agent-i-sn1,xcomp-prop-married-sn5,subj-agent-he-sn4,obj-theme_aff-Smith-sn2,xcomp-purpose-will-4,def_prop(married,[evaluative]),def_prop(i,[umano]),def_prop(married,[evaluative]),def_prop(he,[umano]),def_prop(Smith,[place,umano])])
+lf(Middle School Lyrics.txt_21,252,cl43-nil-will-will-[adj-(mod)-be-nil])
+lf(Middle School Lyrics.txt_21,252,cl42-nil-nil-be-[adj-(mod)-now-nil,subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Middle School Lyrics.txt_22,276,cl48-nil-nil-carry-[obj-goal-thing-sn2,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Middle School Lyrics.txt_22,276,cl47-nil-nil-be-[xcomp-theme_unaff-thing-sn2,sn-result-book-sn1,xcomp-purpose-read-2,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(book,[attivita,informa,istituzione,oggetto,strumento])])
+lf(Middle School Lyrics.txt_22,276,cl46-nil-nil-read-[])
+lf(Middle School Lyrics.txt_22,276,cl45-nil-nil-force-[])
+lf(Middle School Lyrics.txt_23,302,nil-nil-nil-burden-[subj-agent-them-sn5,def_prop(them,[umano])])
+lf(Middle School Lyrics.txt_23,302,cl50-nil-nil-call-[subj-agent-you-sn4,aux-had-nil,def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_23,302,cl49-nil-nil-carry-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,thing,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Middle School Lyrics.txt_24,328,cl51-nil-nil-have-[ncmod-temporale-Christmas-sn2,xcomp-tema_bound-nightmare-sn1,def_prop(Christmas,[place,tempo]),def_prop(nightmare,[astratto,stato])])
+lf(Middle School Lyrics.txt_25,353,cl52-nil-nil-die-[ncmod-locativo-way-sn4,coord-theme_aff-best_friend_and_his_family-sn3,subj-theme_aff-his_family-sn2,subj-theme_aff-best_friend-sn1,def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(best_friend_and_his_family,[umano,istituzione]),def_prop(his_family,[umano,istituzione]),def_prop(best_friend,[umano,istituzione])])
+lf(Middle School Lyrics.txt_26,379,cl54-nil-nil-go-[subj-prop-Just_like_that-sn1,and(Just_like_that,memory,sn1),def_prop(Just_like_that,[informa,tecno,umano])])
+lf(Middle School Lyrics.txt_26,379,cl53-nil-nil-be-[xcomp-prop-first-sn2,subj-theme_bound-Just_like_that-sn1,and(Just_like_that,memory,sn1),def_prop(first,[istituzione]),def_prop(Just_like_that,[informa,tecno,umano])])
+lf(Middle School Lyrics.txt_27,407,cl57-nil-nil-go-[subj-agent-he-sn6,def_prop(he,[umano])])
+lf(Middle School Lyrics.txt_27,407,cl56-nil-nil-say-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_27,407,cl55-nil-nil-regret-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Middle School Lyrics.txt_28,437,cl60-nil-nil-vent-[cmod-subord-vent-",subj-theme-i-sn5,def_prop(i,[umano])])
+lf(Middle School Lyrics.txt_28,437,cl59-nil-nil-need-[subj-experiencer-i-sn5,def_prop(i,[umano])])
+lf(Middle School Lyrics.txt_28,437,cl58-nil-nil-have-[xcomp-tema_bound-disagreement-sn2,subj-experiencer-we-sn1,def_prop(disagreement,[attivita,informa,stato]),def_prop(we,[umano])])
+lf(Middle School Lyrics.txt_29,468,cl63-nil-could-circumvent-[subj-agent-we-sn6,def_prop(we,[umano])])
+lf(Middle School Lyrics.txt_29,468,cl62-nil-nil-wish-[obj-theme_unaff-i-sn3,subj-experiencer-you-sn2,def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_29,468,cl61-nil-nil-tell-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_30,500,cl66-nil-nil-repent-[ncmod-modal-funeral-sn2,def_prop(funeral,[evento])])
+lf(Middle School Lyrics.txt_30,500,cl65-nil-nil-feel-[xcomp-prop-ne-sn7,xcomp-purpose-be-2,subj-experiencer-all-sn6,and(all,i,sn6),def_prop(ne,[informa,legale,tecno]),def_prop(all,[_1305536])])
+lf(Middle School Lyrics.txt_30,500,cl64-nil-nil-be-[cmod-coord-feel-nil,adj-(mod)-now-nil,subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Middle School Lyrics.txt_31,533,cl68-nil-will-say-[subj-actor-you-sn3,def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_31,533,cl67-nil-nil-be-[subj-theme_bound-it-sn4,xcomp-prop-sorry-sn2,subj-theme_bound-i-sn1,def_prop(it,[any]),def_prop(sorry,[valutativo]),def_prop(i,[umano])])
+lf(Middle School Lyrics.txt_32,566,cl69-nil-nil-be-[adj-(mod)-lookin-nil,ncmod-locativo-crack-sn2,subj-theme_bound-clover-sn1,and(clover,four,sn1),and(clover,leaf,sn1),def_prop(crack,[astratto,attivita,evento,oggetto,strumento]),def_prop(clover,[plant])])
+lf(Middle School Lyrics.txt_33,599,cl70-nil-nil-be-[cmod-subord-be-but,ncmod-locativo-shoulder-sn8,xcomp-prop-luck-sn5,subj-theme_bound-there-sn4,xcomp-prop-luck-sn2,subj-theme_bound-there-sn1,and(luck,no,sn5),and(luck,no,sn2),def_prop(shoulder,[body_part,edible,oggetto,strumento,umano]),def_prop(luck,[attivita,cambia]),def_prop(there,[any]),def_prop(luck,[attivita,cambia]),def_prop(there,[any])])
+lf(Middle School Lyrics.txt_34,633,cl72-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_34,633,cl71-nil-nil-sound-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Middle School Lyrics.txt_35,669,cl73-nil-nil-be-[adj-(mod)-just-nil,xcomp-prop-clown-sn2,subj-theme_bound-i-sn1,def_prop(clown,[umano]),def_prop(i,[umano])])
+lf(Middle School Lyrics.txt_36,705,cl75-not-nil-phase-[xcomp-prop-me-sn5,subj-agent-that-sn4,aux-does-nil,def_prop(me,[umano]),def_prop(that,[oggetto,umano])])
+lf(Middle School Lyrics.txt_36,705,cl74-nil-nil-read-[])
+lf(Middle School Lyrics.txt_36,705,nil-nil-nil-gonna-[obj-theme_unaff-this-sn2,xcomp-purpose-read-2,subj-agent-one-s-sn1,and(one-s,no,sn1),def_prop(this,[oggetto,umano]),def_prop(one-s,[astratto,nquant])])
+lf(Middle School Lyrics.txt_37,744,nil-nil-nil-save-[cmod-coord-come-and,obj-asset-me-sn4,subj-agent-you-sn3,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_37,744,cl77-nil-nil-come-[subj-agent-magnolia-sn2,def_prop(magnolia,[plant])])
+lf(Middle School Lyrics.txt_37,744,cl76-nil-nil-wait-[subj-actor-you-sn1,aux-am-nil,progr-waiting-nil,def_prop(you,[umano])])
+lf(Middle School Lyrics.txt_38,784,cl79-nil-nil-ghost-[xcomp-prop-Swayze-sn6,subj-theme-i-sn5,ncmod-locativo-island-sn3,aux-am-nil,and(island,this,sn3),def_prop(Swayze,[istituzione,umano]),def_prop(i,[umano]),def_prop(island,[oggetto,strumento])])
+lf(Middle School Lyrics.txt_38,784,cl78-nil-nil-be-[xcomp-prop-lonely-sn2,subj-actor-i-sn1,def_prop(lonely,[estens]),def_prop(i,[umano])])

@@ -1,0 +1,107 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Ghost Lights Lyrics.txt_1-1  []-positive  []
+Ghost Lights Lyrics.txt_2-3  []-positive  []
+Ghost Lights Lyrics.txt_3-6  []-negative  [neg]
+Ghost Lights Lyrics.txt_4-12  []-positive  []
+Ghost Lights Lyrics.txt_4-13  [if-hypoth]-negative  [fgb,neg]
+Ghost Lights Lyrics.txt_5-17  [if-hypoth]-positive  [fgb]
+Ghost Lights Lyrics.txt_6-23  []-negative  [neg]
+Ghost Lights Lyrics.txt_7-30  []-positive  []
+Ghost Lights Lyrics.txt_8-39  []-suspension  [neg,neg]
+Ghost Lights Lyrics.txt_9-48  []-suspension  [fgb]
+Ghost Lights Lyrics.txt_9-49  []-suspension  []
+Ghost Lights Lyrics.txt_10-60  []-negative  [neg]
+Ghost Lights Lyrics.txt_10-61  []-none  []
+Ghost Lights Lyrics.txt_11-73  []-negative  [neg]
+Ghost Lights Lyrics.txt_12-85  []-suspension  [fgb]
+Ghost Lights Lyrics.txt_12-86  []-suspension  []
+Ghost Lights Lyrics.txt_13-100  []-negative  [neg,fgb]
+Ghost Lights Lyrics.txt_14-114  []-negative  [fgb,neg]
+Ghost Lights Lyrics.txt_15-129  []-positive  []
+Ghost Lights Lyrics.txt_15-130  [if-hypoth]-positive  [fgb]
+Ghost Lights Lyrics.txt_16-146  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Ghost Lights Lyrics.txt_1-1  [ghost,Lights,Lyrics,by,Woodkid]  [title]
+Ghost Lights Lyrics.txt_2-3  [waking,up,in,a,world,surrounded,by,flames]  [provide_expl_just(surround,[external,factive,narration,foreground,objective])]
+Ghost Lights Lyrics.txt_3-6  [i,everything,where,liked,is,about,to,fade]  [reject_expl_just(like,[external,factive,narration,foreground,objective]),reject_expl_just(fade,[external,factive,explanation,background,objective]),propose_opin_neg(fade,[external,factive,explanation,background,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Ghost Lights Lyrics.txt_4-12  [how,you,could,be,the,one]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Ghost Lights Lyrics.txt_4-13  [if,you,are,not,the,same]  [reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+Ghost Lights Lyrics.txt_5-17  [if,in,the,hands,of,gods,you,have]  [provide_expl_just(have,[external,factive,narration,background,objective])]
+Ghost Lights Lyrics.txt_6-23  [lost,your,way]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Ghost Lights Lyrics.txt_7-30  [how,ever,fast,i,dance,to,make,the,sun,shine]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(dance,[external,factive,narration,background,objective])]
+Ghost Lights Lyrics.txt_8-39  [i,will,never,fall,down]  [provide_expl_just(fall,[external,nonfactive,narration,background,objective])]
+Ghost Lights Lyrics.txt_9-48  [no_matter,what,it,takes,,,i,will,try,to,save,the,ghost,lights,.,it,takes]  [provide_expl_just(try,[external,nonfactive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(save,[external,factive,narration,background,objective])]
+Ghost Lights Lyrics.txt_9-49  [i,will,try,to,save,the,ghost,lights]  [provide_expl_just(try,[external,nonfactive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(save,[external,factive,narration,background,objective])]
+Ghost Lights Lyrics.txt_10-60  [how,ever,hard,i,pray,to,remake]  [reject_expl_just(remake,[external,factive,narration,background,objective]),reject_expl_just(pray,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Ghost Lights Lyrics.txt_10-61  [you,mine]  [provide_expl_just(remake,[external,factive,narration,background,objective]),provide_expl_just(pray,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Ghost Lights Lyrics.txt_11-73  [i,will,never,feel,down]  [reject_expl_just(feel,[external,nonfactive,narration,background,objective])]
+Ghost Lights Lyrics.txt_12-85  [no_matter,what,it,takes,,,i,will,try,to,save,the,ghost,light,.,it,takes]  [provide_expl_just(try,[external,nonfactive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(save,[external,factive,narration,background,objective])]
+Ghost Lights Lyrics.txt_12-86  [i,will,try,to,save,the,ghost,light]  [provide_expl_just(try,[external,nonfactive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(save,[external,factive,narration,background,objective])]
+Ghost Lights Lyrics.txt_13-100  [waking,up,in,the,fog,the,pain,and,the,dust]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Ghost Lights Lyrics.txt_14-114  [and,of,the,sunny,days,,,no,traces,remain]  [reject_expl_just(remain,[external,factive,narration,background,objective])]
+Ghost Lights Lyrics.txt_15-129  [how,you,could,be,the,one]  [provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(sail,[external,factive,narration,background,objective])]
+Ghost Lights Lyrics.txt_15-130  [if,you,sail,away]  [provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(sail,[external,factive,narration,background,objective])]
+Ghost Lights Lyrics.txt_16-146  [without,you,i,can,not,stand,the,sound,of,the,rain]  [reject_expl_just(stand,[external,nonfactive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Ghost Lights Lyrics.txt_1-1)-[]
+2-(Ghost Lights Lyrics.txt_2-3)-[primary-concreteness,primary-fire]
+3-(Ghost Lights Lyrics.txt_3-6)-[primary-concreteness,emotions-affection,primary-diffusion]
+4-(Ghost Lights Lyrics.txt_4-12)-[]
+5-(Ghost Lights Lyrics.txt_4-13)-[]
+6-(Ghost Lights Lyrics.txt_5-17)-[primary-narcissism]
+7-(Ghost Lights Lyrics.txt_6-23)-[]
+8-(Ghost Lights Lyrics.txt_7-30)-[secondary-temporal_repere,primary-orality,emotions-expressive_beh,secondary-instru_behavior,primary-fire,primary-vision]
+9-(Ghost Lights Lyrics.txt_8-39)-[primary-descent]
+10-(Ghost Lights Lyrics.txt_9-48)-[secondary-instru_behavior,primary-vision]
+half
+11-(Ghost Lights Lyrics.txt_9-49)-[secondary-instru_behavior,primary-vision]
+12-(Ghost Lights Lyrics.txt_10-60)-[secondary-temporal_repere,primary-hard]
+13-(Ghost Lights Lyrics.txt_10-61)-[]
+14-(Ghost Lights Lyrics.txt_11-73)-[]
+15-(Ghost Lights Lyrics.txt_12-85)-[secondary-instru_behavior,primary-vision]
+16-(Ghost Lights Lyrics.txt_12-86)-[secondary-instru_behavior,primary-vision]
+17-(Ghost Lights Lyrics.txt_13-100)-[primary-diffusion,emotions-sadness]
+18-(Ghost Lights Lyrics.txt_14-114)-[primary-fire]
+19-(Ghost Lights Lyrics.txt_15-129)-[]
+20-(Ghost Lights Lyrics.txt_15-130)-[primary-voyage,primary-concreteness]
+21-(Ghost Lights Lyrics.txt_16-146)-[primary-sound,primary-water]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Ghost Lights Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Woodkid-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Lights,sn1),and(Lyrics,ghost,sn1),def_prop(Woodkid,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Ghost Lights Lyrics.txt_2,3,cl2-nil-nil-surround-[xadj-adj-waking-adj1,adj-(mod)-up-nil,arg_mod-agent-flame-sn3,iobj-goal-world-sn2,subj-agent-you-sn1,def_prop(waking,_229070),def_prop(flame,[attivita]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(you,[umano])])
+lf(Ghost Lights Lyrics.txt_3,6,cl5-nil-nil-fade-[])
+lf(Ghost Lights Lyrics.txt_3,6,cl4-nil-nil-be-[])
+lf(Ghost Lights Lyrics.txt_3,6,cl3-nil-nil-like-[adj-(mod)-about-nil,subj-experiencer-everything-sn1,and(everything,i,sn1),def_prop(everything,[astratto,informa,oggetto])])
+lf(Ghost Lights Lyrics.txt_4,12,cl6-nil-could-be-[xcomp-prop-same-sn5,subj-theme_bound-you-sn4,xcomp-prop-one-sn3,xcomp-theme-how-sn2,subj-theme_bound-you-sn1,def_prop(same,[deittico]),def_prop(you,[umano]),def_prop(one,[umano]),def_prop(how,[manner]),def_prop(you,[umano])])
+lf(Ghost Lights Lyrics.txt_5,17,cl7-nil-nil-have-[ncmod-locativo-hand-sn2,subj-experiencer-you-sn1,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Ghost Lights Lyrics.txt_6,23,cl8-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Ghost Lights Lyrics.txt_7,30,cl10-nil-nil-make-[xadj-adj-fast-adj2,obj-result-sun-sn3,xcomp-prop-make-2,def_prop(fast,_229918),def_prop(sun,[oggetto,umano])])
+lf(Ghost Lights Lyrics.txt_7,30,cl9-nil-nil-dance-[adj-(mod)-ever-nil,obj-prop-shine-sn4,adj-sn1-how-sn2,subj-actor-i-sn1,def_prop(shine,[astratto]),def_prop(how,[manner]),def_prop(i,[umano])])
+lf(Ghost Lights Lyrics.txt_8,39,cl11-nil-will-fall-[subj-agent-i-sn1,neg-never-nil,def_prop(i,[umano])])
+lf(Ghost Lights Lyrics.txt_9,48,nil-nil-nil-save-[])
+lf(Ghost Lights Lyrics.txt_9,48,cl13-nil-will-try-[obj-theme-ghost-sn6,xcomp-purpose-save-2,subj-actor-i-sn5,def_prop(ghost,[astratto,umano]),def_prop(i,[umano])])
+lf(Ghost Lights Lyrics.txt_9,48,cl12-nil-nil-take-[expl-it-nil,adj-(mod)-no_matter-nil,subj-agent-it-sn1,def_prop(it,[any])])
+lf(Ghost Lights Lyrics.txt_10,60,cl16-nil-nil-be-[xcomp-prop-mine-sn5,subj-theme_bound-you-sn4,def_prop(mine,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Ghost Lights Lyrics.txt_10,60,cl15-nil-nil-remake-[adj-(mod)-pray-nil])
+lf(Ghost Lights Lyrics.txt_10,60,cl14-nil-nil-pray-[adj-(mod)-ever-nil,adj-sn1-how-sn2,subj-experiencer-i-sn1,def_prop(how,[manner]),def_prop(i,[umano])])
+lf(Ghost Lights Lyrics.txt_11,73,cl17-nil-will-feel-[subj-experiencer-i-sn1,neg-never-nil,def_prop(i,[umano])])
+lf(Ghost Lights Lyrics.txt_12,85,nil-nil-nil-save-[])
+lf(Ghost Lights Lyrics.txt_12,85,cl19-nil-will-try-[obj-theme-ghost-sn6,xcomp-purpose-save-2,subj-actor-i-sn5,def_prop(ghost,[astratto,umano]),def_prop(i,[umano])])
+lf(Ghost Lights Lyrics.txt_12,85,cl18-nil-nil-take-[expl-it-nil,adj-(mod)-no_matter-nil,subj-agent-it-sn1,def_prop(it,[any])])
+lf(Ghost Lights Lyrics.txt_13,100,cl20-nil-nil-be-[xadj-adj-waking-adj3,adj-(mod)-up-nil,ncmod-locativo-fog-sn4,coord-theme_bound-pain_and_dust-sn3,subj-theme_bound-dust-sn2,subj-theme_bound-pain-sn1,def_prop(waking,_231364),def_prop(fog,[attivita,cambia,stato]),def_prop(pain_and_dust,[astratto,emotivo,stato,umano,sostanza]),def_prop(dust,[astratto,emotivo,stato,umano,sostanza]),def_prop(pain,[astratto,emotivo,stato,umano,sostanza])])
+lf(Ghost Lights Lyrics.txt_14,114,cl21-nil-nil-remain-[cmod-subord-remain-",adj-temporal-days-nil,iobj-goal-sunny-sn2,subj-theme_bound-trace-sn1,and(trace,no,sn1),def_prop(sunny,[valutativo]),def_prop(trace,[attivita,informa,nquant,oggetto,strumento])])
+lf(Ghost Lights Lyrics.txt_15,129,cl23-nil-nil-sail-[xcomp-prop-away-sn5,subj-agent-you-sn4,def_prop(away,[evaluative]),def_prop(you,[umano])])
+lf(Ghost Lights Lyrics.txt_15,129,cl22-nil-could-be-[xcomp-prop-one-sn3,xcomp-theme-how-sn2,subj-theme_bound-you-sn1,def_prop(one,[umano]),def_prop(how,[manner]),def_prop(you,[umano])])
+lf(Ghost Lights Lyrics.txt_16,146,cl24-not-can-stand-[obj-theme_aff-sound-sn3,ncmod-modal-you-sn2,subj-experiencer-i-sn1,def_prop(sound,[astratto,attivita,cambia,evento,oggetto]),def_prop(you,[umano]),def_prop(i,[umano])])

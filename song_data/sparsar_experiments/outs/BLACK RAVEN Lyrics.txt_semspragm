@@ -1,0 +1,35 @@
+"POLARITY, DISCOURSE MARKERS"
+
+BLACK RAVEN Lyrics.txt_1-1  []-negative  [neg]
+BLACK RAVEN Lyrics.txt_2-3  []-negative  [fgb,neg,fgb,neg,neg]
+BLACK RAVEN Lyrics.txt_3-6  []-suspension  [neg,fgb,neg]
+BLACK RAVEN Lyrics.txt_4-11  []-positive  [fhd]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+BLACK RAVEN Lyrics.txt_1-1  [black,RAVEN,Lyrics,by,Yung,Simmie]  [title]
+BLACK RAVEN Lyrics.txt_2-3  [in,the,south,what,you,bout,,,what,you,my,bout,niggas,out,in,that,drought,we]  [reject_expl_just(out,[external,factive,explanation,background,objective]),propose_opin_neg(out,[external,factive,explanation,background,objective])]
+BLACK RAVEN Lyrics.txt_3-6  [can,not,hear,what,you,saying,Nigga,its,that,black,raven]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+BLACK RAVEN Lyrics.txt_4-11  [Yung,Simmie,hopped,on,it,like,its,me]  [provide_expl_just(hop,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(BLACK RAVEN Lyrics.txt_1-1)-[]
+2-(BLACK RAVEN Lyrics.txt_2-3)-[primary-concreteness,primary-concreteness]
+half
+3-(BLACK RAVEN Lyrics.txt_3-6)-[primary-sound]
+4-(BLACK RAVEN Lyrics.txt_4-11)-[emotions-affection]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(BLACK RAVEN Lyrics.txt_1,1,nil-nil-nil-raven-[arg_mod-agent-Simmie-sn3,obj-theme_aff-Lyrics-sn2,subj-agent-black-sn1,and(Simmie,Yung,sn3),def_prop(Simmie,[istituzione]),def_prop(Lyrics,[informa,tecno]),def_prop(black,[estens])])
+lf(BLACK RAVEN Lyrics.txt_2,3,nil-nil-nil-out-[ncmod-locativo-drought-sn9,subj-actor-south-sn1,and(drought,that,sn9),and(south,bout,sn1),and(south,what,sn1),def_prop(drought,[stato,tempo]),def_prop(south,[relat])])
+lf(BLACK RAVEN Lyrics.txt_3,6,cl2-nil-nil-say-[])
+lf(BLACK RAVEN Lyrics.txt_3,6,cl1-not-can-hear-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(BLACK RAVEN Lyrics.txt_4,11,cl3-nil-nil-hop-[ncmod-locativo-it-sn2,subj-experiencer-Simmie-sn1,and(Simmie,Yung,sn1),def_prop(it,[any]),def_prop(Simmie,[istituzione])])

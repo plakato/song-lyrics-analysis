@@ -1,0 +1,76 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Slob Lyrics.txt_1-1  []-positive  []
+Slob Lyrics.txt_2-3  [but-advers]-negative  [neg,neg,fgb]
+Slob Lyrics.txt_3-6  []-suspension  [neg,neg]
+Slob Lyrics.txt_3-7  []-positive  [fhd,neg,neg]
+Slob Lyrics.txt_4-11  [while-temp_coinc]-positive  []
+Slob Lyrics.txt_4-11  [while-temp_coinc]-negative  [neg]
+Slob Lyrics.txt_5-17  []-positive  []
+Slob Lyrics.txt_6-23  []-positive  [fgb]
+Slob Lyrics.txt_7-31  []-suspension  [neg,neg]
+Slob Lyrics.txt_7-32  []-positive  [fhd]
+Slob Lyrics.txt_8-40  []-positive  []
+Slob Lyrics.txt_8-41  []-suspension  [neg,neg]
+Slob Lyrics.txt_8-42  []-positive  []
+Slob Lyrics.txt_9-52  [while-temp_coinc]-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Slob Lyrics.txt_1-1  [slob,Lyrics,by,SwitchMIX]  [title]
+Slob Lyrics.txt_2-3  [no,no,shoes,shirt,but,i,will,still,serve,ya]  [reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+Slob Lyrics.txt_3-6  [sick,spit,shit,Nigga,get,your,crew,dirted]  [provide_expl_just(lay,[external,factive,narration,foreground,objective])]
+Slob Lyrics.txt_3-7  [or,hurted,in,the,morgue,laying,up,against,a,board]  [provide_expl_just(lay,[external,factive,narration,foreground,objective])]
+Slob Lyrics.txt_4-11  [while,your,wife,is,in,my,room]  [raise_issue(be,[_820296,factive,statement,_820314,subjective])]
+Slob Lyrics.txt_4-11  [while,your,wife,is,in,my,room,getting,split,by,my,sword]  [reject_expl_just(be,[_820518,_820524,_820530,_820536,_820542])]
+Slob Lyrics.txt_5-17  [Bam,boom,splat,kapow]  [provide_expl_just(splat,[external,factive,narration,background,objective])]
+Slob Lyrics.txt_6-23  [go,and,eat,your,dog,chow]  [provide_expl_just(eat,[external,factive,narration,background,objective])]
+Slob Lyrics.txt_7-31  [now,plow,brown,cow,bitch]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Slob Lyrics.txt_7-32  [,,how,you,like,me]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Slob Lyrics.txt_8-40  [now,i,am]  [provide_expl_just(throw,[external,factive,cause,foreground,objective]),provide_expl_just(kill,[external,factive,narration,foreground,objective]),provide_expl_just(hit,[external,factive,cause,foreground,objective])]
+Slob Lyrics.txt_8-41  [,,a,motherfucking,villain,,,throwing,chitlins,at,children,,,now,,,i,am,killing]  [provide_expl_just(throw,[external,factive,cause,foreground,objective]),provide_expl_just(kill,[external,factive,narration,foreground,objective]),provide_expl_just(hit,[external,factive,cause,foreground,objective])]
+Slob Lyrics.txt_8-42  [,,hitting,women]  [provide_expl_just(throw,[external,factive,cause,foreground,objective]),provide_expl_just(kill,[external,factive,narration,foreground,objective]),provide_expl_just(hit,[external,factive,cause,foreground,objective])]
+Slob Lyrics.txt_9-52  [while,i,am,sipping,on,some,gin]  [provide_expl_just(sip,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Slob Lyrics.txt_1-1)-[]
+2-(Slob Lyrics.txt_2-3)-[]
+3-(Slob Lyrics.txt_3-6)-[primary-orality,primary-anality,primary-anality]
+4-(Slob Lyrics.txt_3-7)-[emotions-aggression,primary-passivity,secondary-temporal_repere]
+5-(Slob Lyrics.txt_4-11)-[secondary-temporal_repere]
+6-(Slob Lyrics.txt_4-11)-[secondary-temporal_repere,emotions-aggression]
+7-(Slob Lyrics.txt_5-17)-[primary-sound]
+half
+8-(Slob Lyrics.txt_6-23)-[primary-orality]
+9-(Slob Lyrics.txt_7-31)-[secondary-temporal_repere,secondary-instru_behavior,primary-vision,primary-sex]
+10-(Slob Lyrics.txt_7-32)-[emotions-affection]
+11-(Slob Lyrics.txt_8-40)-[secondary-temporal_repere]
+12-(Slob Lyrics.txt_8-41)-[primary-concreteness,secondary-temporal_repere]
+13-(Slob Lyrics.txt_8-42)-[]
+14-(Slob Lyrics.txt_9-52)-[secondary-temporal_repere,primary-orality]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Slob Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-SwitchMIX-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,slob,sn1),def_prop(SwitchMIX,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Slob Lyrics.txt_2,3,cl2-nil-will-will-[cmod-subord-will-but,adj-(mod)-still-nil,obj-theme_aff-serve-sn7,subj-agent-i-sn6,def_prop(serve,[attivita]),def_prop(i,[umano])])
+lf(Slob Lyrics.txt_3,6,cl4-nil-nil-lay-[cmod-subord-lay-",xadj-adj-hurted-adj1,adj-(mod)-up-nil,ncmod-malefattivo-board-sn9,iobj-goal-morgue-sn8,subj-agent-you-sn7,def_prop(hurted,_826570),def_prop(board,[edible,istituzione,oggetto,sostanza,strumento]),def_prop(morgue,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Slob Lyrics.txt_3,6,cl3-nil-nil-get-[obj2-paziente-dirted-sn3,obj-theme_unaff-crow-sn2,subj-agent-Nigga-sn1,and(Nigga,Nigga,sn1),def_prop(dirted,[istituzione]),def_prop(crow,[animato,astratto,evento,oggetto,strumento]),def_prop(Nigga,[istituzione,umano])])
+lf(Slob Lyrics.txt_4,11,cl6-nil-nil-get-[cmod-subord-get-while,arg_mod-agent-sword-sn10,obj-paziente-split-sn9,xcomp-purpose-get-3,iobj-goal-room-sn8,iobj-goal-room-sn2,def_prop(sword,[oggetto,strumento]),def_prop(split,[astratto,attivita,edible,nquant,oggetto,strumento]),def_prop(room,[nquant,oggetto,stato,strumento]),def_prop(room,[nquant,oggetto,stato,strumento])])
+lf(Slob Lyrics.txt_4,11,cl5-nil-nil-be-[subj-theme_bound-wife-sn7,subj-theme_bound-wife-sn1,def_prop(wife,[umano]),def_prop(wife,[umano])])
+lf(Slob Lyrics.txt_5,17,nil-nil-nil-splat-[obj-theme_aff-kapow-sn2,subj-agent-boom-sn1,and(boom,Bam,sn1),def_prop(kapow,[istituzione]),def_prop(boom,[evento,oggetto,stato,strumento])])
+lf(Slob Lyrics.txt_6,23,cl8-nil-nil-eat-[cmod-coord-eat-and,obj-theme_unaff-chow-sn3,subj-agent-dog-sn2,def_prop(chow,[animato,edible,oggetto]),def_prop(dog,[animato,plant,stato,umano])])
+lf(Slob Lyrics.txt_6,23,cl7-nil-nil-go-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Slob Lyrics.txt_7,31,cl9-nil-nil-be-[xcomp-prop-me-sn7,xcomp-theme-how-sn6,subj-theme_bound-you-sn5,def_prop(me,[umano]),def_prop(how,[manner]),def_prop(you,[umano])])
+lf(Slob Lyrics.txt_7,31,nil-nil-nil-plow-[adj-(mod)-now-nil,subj_top-agent-cow-sn2,subj_top-agent-cow-sn1,and(cow,brown,sn2),and(cow,bitch,sn1),and(cow,brown,sn1),def_prop(cow,[animato,umano]),def_prop(cow,[animato,umano])])
+lf(Slob Lyrics.txt_8,40,cl13-nil-nil-hit-[subj-agent-you-sn10,def_prop(you,[umano])])
+lf(Slob Lyrics.txt_8,40,cl12-nil-nil-kill-[adj-(mod)-now-nil,obj-theme_unaff-chitlins-sn6,xcomp-purpose-throw-2,xcomp-prop-villain-sn5,subj-agent-motherfucking-sn4,aux-am-nil,progr-killing-nil,def_prop(chitlins,[edible]),def_prop(villain,[umano]),def_prop(motherfucking,[istituzione])])
+lf(Slob Lyrics.txt_8,40,cl11-nil-nil-throw-[ncmod-clock_cal-child-sn7,def_prop(child,[any,attivita,body_part,oggetto,strumento,umano])])
+lf(Slob Lyrics.txt_8,40,cl10-nil-nil-be-[subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Slob Lyrics.txt_9,52,cl14-nil-nil-sip-[ncmod-locativo-gin-sn2,subj-agent-i-sn1,aux-am-nil,progr-sipping-nil,and(gin,some,sn2),def_prop(gin,[attivita,edible,oggetto]),def_prop(i,[umano])])

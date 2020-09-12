@@ -1,0 +1,81 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Black video Lyrics.txt_1-1  []-negative  [neg]
+Black video Lyrics.txt_2-3  []-positive  []
+Black video Lyrics.txt_3-6  []-positive  [ass]
+Black video Lyrics.txt_4-10  []-positive  []
+Black video Lyrics.txt_5-15  []-negative  [neg]
+Black video Lyrics.txt_6-21  []-positive  []
+Black video Lyrics.txt_7-28  []-positive  []
+Black video Lyrics.txt_8-36  []-negative  [neg]
+Black video Lyrics.txt_9-45  []-negative  [neg]
+Black video Lyrics.txt_9-46  []-positive  []
+Black video Lyrics.txt_10-55  []-positive  [fgb]
+Black video Lyrics.txt_11-66  []-positive  []
+Black video Lyrics.txt_12-78  []-positive  []
+Black video Lyrics.txt_13-91  []-positive  []
+Black video Lyrics.txt_14-105  []-positive  []
+Black video Lyrics.txt_15-120  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Black video Lyrics.txt_1-1  [black,video,Lyrics,by,S-X]  [title]
+Black video Lyrics.txt_2-3  [there,is,a,space,in,time]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Black video Lyrics.txt_3-6  [sure,there,is,a,space,today]  [accept_expl_opin(be,[external,factive,narration,background,objective])]
+Black video Lyrics.txt_4-10  [this,wave,that,once,shined]  [provide_expl_just(shine,[external,factive,narration,foreground,objective])]
+Black video Lyrics.txt_5-15  [on,the,beaches,of,my,mind]  [reject_expl_just(be,[_59538,_59544,_59550,_59556,_59562])]
+Black video Lyrics.txt_6-21  [ace,it]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Black video Lyrics.txt_7-28  [start,with,the,reign]  [provide_expl_just(start,[external,factive,inception,background,objective]),suggest(start,[external,factive,inception,background,objective])]
+Black video Lyrics.txt_8-36  [black,Video]  reject_expl_opin(nil,[])
+Black video Lyrics.txt_9-45  [there,is,a,beat]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Black video Lyrics.txt_9-46  [that,rhymes]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Black video Lyrics.txt_10-55  [with,sleigh,bells,and,chimes]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Black video Lyrics.txt_11-66  [this,place,is,allright]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Black video Lyrics.txt_12-78  [this,place,is,allright]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Black video Lyrics.txt_13-91  [ace,it]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Black video Lyrics.txt_14-105  [start,with,the,reign]  [provide_expl_just(start,[external,factive,inception,background,objective]),suggest(start,[external,factive,inception,background,objective])]
+Black video Lyrics.txt_15-120  [black,Video]  reject_expl_opin(nil,[])
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Black video Lyrics.txt_1-1)-[]
+2-(Black video Lyrics.txt_2-3)-[primary-concreteness,secondary-temporal_repere]
+3-(Black video Lyrics.txt_3-6)-[secondary-abstract_tought,primary-concreteness,secondary-temporal_repere]
+4-(Black video Lyrics.txt_4-10)-[primary-random_movement,secondary-temporal_repere,primary-vision]
+5-(Black video Lyrics.txt_5-15)-[primary-water]
+6-(Black video Lyrics.txt_6-21)-[]
+7-(Black video Lyrics.txt_7-28)-[primary-vision,secondary-restraint]
+8-(Black video Lyrics.txt_8-36)-[]
+half
+9-(Black video Lyrics.txt_9-45)-[emotions-aggression]
+10-(Black video Lyrics.txt_9-46)-[]
+11-(Black video Lyrics.txt_10-55)-[primary-sound]
+12-(Black video Lyrics.txt_11-66)-[primary-concreteness]
+13-(Black video Lyrics.txt_12-78)-[primary-concreteness]
+14-(Black video Lyrics.txt_13-91)-[]
+15-(Black video Lyrics.txt_14-105)-[primary-vision,secondary-restraint]
+16-(Black video Lyrics.txt_15-120)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Black video Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-S-X-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,video,sn1),and(Lyrics,black,sn1),def_prop(S-X,[attivita,informa]),def_prop(Lyrics,[informa,tecno])])
+lf(Black video Lyrics.txt_2,3,cl2-nil-nil-be-[])
+lf(Black video Lyrics.txt_3,6,cl3-nil-nil-be-[xcomp-prop-space-sn2,subj-theme_bound-there-sn1,and(there,sure,sn1),def_prop(space,[any,astratto,attivita,informa,luogo]),def_prop(there,[any])])
+lf(Black video Lyrics.txt_4,10,cl4-nil-nil-shine-[subj-theme-wave-sn2,def_prop(wave,[astratto,attivita,body_part,cambia,evento,informa,umano])])
+lf(Black video Lyrics.txt_5,15,cl5-nil-nil-mind-[ncmod-specif-my-sn2,subj-theme_unaff-you-sn1,def_prop(my,[informa,tecno]),def_prop(you,[umano])])
+lf(Black video Lyrics.txt_6,21,cl6-nil-nil-say-[obj-theme_unaff-it-sn1,and(it,ace,sn1),def_prop(it,[any])])
+lf(Black video Lyrics.txt_7,28,cl7-nil-nil-start-[ncmod-modale-reign-sn2,subj-agent-you-sn1,def_prop(reign,[stato,tempo]),def_prop(you,[umano])])
+lf(Black video Lyrics.txt_8,36,cl8-nil-nil-say-[obj-theme_unaff-Video-sn1,and(Video,black,sn1),def_prop(Video,[attivita,informa,oggetto,strumento,tecno])])
+lf(Black video Lyrics.txt_9,45,cl9-nil-nil-be-[xcomp-theme-rhyme-sn4,subj-theme_bound-you-sn3,def_prop(rhyme,[attivita,informa]),def_prop(you,[umano])])
+lf(Black video Lyrics.txt_10,55,cl10-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Black video Lyrics.txt_11,66,cl11-nil-nil-be-[xcomp-prop-allright-sn2,subj-theme_bound-place-sn1,and(place,this,sn1),def_prop(allright,[istituzione]),def_prop(place,[astratto,attivita,informa,luogo,stato])])
+lf(Black video Lyrics.txt_12,78,cl12-nil-nil-be-[xcomp-prop-allright-sn2,subj-theme_bound-place-sn1,and(place,this,sn1),def_prop(allright,[istituzione]),def_prop(place,[astratto,attivita,informa,luogo,stato])])
+lf(Black video Lyrics.txt_13,91,cl13-nil-nil-say-[obj-theme_unaff-it-sn1,and(it,ace,sn1),def_prop(it,[any])])
+lf(Black video Lyrics.txt_14,105,cl14-nil-nil-start-[ncmod-modale-reign-sn2,subj-agent-you-sn1,def_prop(reign,[stato,tempo]),def_prop(you,[umano])])
+lf(Black video Lyrics.txt_15,120,cl15-nil-nil-say-[obj-theme_unaff-Video-sn1,and(Video,black,sn1),def_prop(Video,[attivita,informa,oggetto,strumento,tecno])])

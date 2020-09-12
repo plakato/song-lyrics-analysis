@@ -1,0 +1,195 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Glass Castle Lyrics.txt_1-1  []-positive  []
+Glass Castle Lyrics.txt_2-3  []-question  []
+Glass Castle Lyrics.txt_2-4  [so-result]-positive  [fgb]
+Glass Castle Lyrics.txt_2-4  [so-result]-negative  [fgb,neg]
+Glass Castle Lyrics.txt_3-8  []-suspension  []
+Glass Castle Lyrics.txt_4-12  []-positive  []
+Glass Castle Lyrics.txt_5-17  []-suspension  []
+Glass Castle Lyrics.txt_5-18  []-positive  []
+Glass Castle Lyrics.txt_6-23  []-positive  []
+Glass Castle Lyrics.txt_6-24  []-positive  [fgb]
+Glass Castle Lyrics.txt_7-32  []-positive  []
+Glass Castle Lyrics.txt_7-33  []-positive  []
+Glass Castle Lyrics.txt_8-41  [when-temp_coinc]-negative  [neg]
+Glass Castle Lyrics.txt_9-51  []-suspension  [fgb]
+Glass Castle Lyrics.txt_9-52  []-positive  []
+Glass Castle Lyrics.txt_10-62  []-negative  [neg]
+Glass Castle Lyrics.txt_11-73  [but-advers]-negative  [fgb,neg]
+Glass Castle Lyrics.txt_12-86  []-positive  []
+Glass Castle Lyrics.txt_12-87  []-negative  [neg,neg]
+Glass Castle Lyrics.txt_13-101  []-question  []
+Glass Castle Lyrics.txt_14-115  []-positive  [fhd]
+Glass Castle Lyrics.txt_14-116  []-positive  []
+Glass Castle Lyrics.txt_14-117  []-negative  [neg]
+Glass Castle Lyrics.txt_15-132  []-positive  []
+Glass Castle Lyrics.txt_15-133  []-positive  [fgb]
+Glass Castle Lyrics.txt_16-150  []-positive  []
+Glass Castle Lyrics.txt_16-151  []-positive  []
+Glass Castle Lyrics.txt_17-168  []-negative  [neg]
+Glass Castle Lyrics.txt_18-186  []-suspension  []
+Glass Castle Lyrics.txt_18-187  []-negative  [neg]
+Glass Castle Lyrics.txt_19-207  []-suspension  []
+Glass Castle Lyrics.txt_19-208  []-negative  [neg,neg]
+Glass Castle Lyrics.txt_20-228  []-positive  []
+Glass Castle Lyrics.txt_21-250  []-negative  [neg]
+Glass Castle Lyrics.txt_22-272  []-suspension  []
+Glass Castle Lyrics.txt_22-273  []-positive  []
+Glass Castle Lyrics.txt_23-295  []-suspension  []
+Glass Castle Lyrics.txt_23-296  []-positive  []
+Glass Castle Lyrics.txt_24-319  []-positive  []
+Glass Castle Lyrics.txt_24-320  []-positive  [fgb]
+Glass Castle Lyrics.txt_25-346  []-positive  []
+Glass Castle Lyrics.txt_25-347  []-positive  []
+Glass Castle Lyrics.txt_26-373  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Glass Castle Lyrics.txt_1-1  [glass,Castle,Lyrics,by,the,World,Alive]  [title]
+Glass Castle Lyrics.txt_2-3  [?]  [provide_expl_just(rid,[internal,factive,narration,background,objective]),provide_expl_just(think,[internal,factive,narration,foreground,objective]),provide_expl_just(get,[internal,nonfactive,narration,background,objective])]
+Glass Castle Lyrics.txt_2-4  [so,you,think]  [provide_expl_just(rid,[internal,factive,narration,background,objective]),provide_expl_just(think,[internal,factive,narration,foreground,objective]),provide_expl_just(get,[internal,nonfactive,narration,background,objective])]
+Glass Castle Lyrics.txt_2-4  [so,you,think,you,can,get,rid,of,me]  [reject_expl_just(rid,[internal,factive,narration,background,objective]),reject_expl_just(think,[internal,factive,narration,foreground,objective]),reject_expl_just(get,[internal,nonfactive,narration,background,objective])]
+Glass Castle Lyrics.txt_3-8  [i,will,your,place,at,the,head,of,this,dynasty]  [provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Glass Castle Lyrics.txt_4-12  [i,am]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_5-17  [i,am,the,reason]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_5-18  [you,are,alive]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_6-23  [you,need,to,look,back]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_6-24  [and,see]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_7-32  [how,you,treated,me,how]  [provide_expl_just(treat,[external,factive,cause,foreground,objective])]
+Glass Castle Lyrics.txt_7-33  [you,treated,me]  [provide_expl_just(treat,[external,factive,cause,foreground,objective])]
+Glass Castle Lyrics.txt_8-41  [when,you,bite,off,the,hand,that,feeds]  [reject_expl_just(bite,[external,factive,narration,background,objective]),reject_expl_just(feed,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_9-51  [you,will,live,without,what,you,truly,need,.]  [provide_expl_just(live,[external,nonfactive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_9-52  [you,truly,need]  [provide_expl_just(live,[external,nonfactive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_10-62  [refrain]  reject_expl_opin(nil,[])
+Glass Castle Lyrics.txt_11-73  [sacrificing,everything,but,does,it,even,mean,anything]  [reject_expl_just(sacrifice,[external,factive,narration,foreground,objective])]
+Glass Castle Lyrics.txt_12-86  [any,moment,this,could,all,be,gone,without,respect]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Glass Castle Lyrics.txt_12-87  [it,will,not,be,long]  [reject_expl_just(go,[external,factive,narration,background,objective]),reject_expl_just(can,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+Glass Castle Lyrics.txt_13-101  [me,of,enough,you,had,have,?]  [provide_expl_just(have,[internal,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_14-115  [you,act,like]  [provide_expl_just(act,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(throw,[external,nonfactive,narration,foreground,objective])]
+Glass Castle Lyrics.txt_14-116  [i,am,something]  [provide_expl_just(act,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(throw,[external,nonfactive,narration,foreground,objective])]
+Glass Castle Lyrics.txt_14-117  [you,can,throw,away]  [reject_expl_just(act,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(throw,[external,nonfactive,narration,foreground,objective])]
+Glass Castle Lyrics.txt_15-132  [you,need,to,look,back]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_15-133  [and,see]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_16-150  [how,you,treated,me,how]  [provide_expl_just(treat,[external,factive,cause,foreground,objective])]
+Glass Castle Lyrics.txt_16-151  [you,treated,me]  [provide_expl_just(treat,[external,factive,cause,foreground,objective])]
+Glass Castle Lyrics.txt_17-168  [refrain]  reject_expl_opin(nil,[])
+Glass Castle Lyrics.txt_18-186  [i,am,the,reason]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_18-187  [you,can,not,run,away]  [reject_expl_just(run,[external,factive,narration,background,objective]),reject_expl_just(can,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_19-207  [i,am,the,reason]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(escape,[external,nonfactive,narration,foreground,objective])]
+Glass Castle Lyrics.txt_19-208  [you,can,not,escape]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(escape,[external,nonfactive,narration,foreground,objective])]
+Glass Castle Lyrics.txt_20-228  [give,up,you,are,mine]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_21-250  [you,are,terrible,inside]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_22-272  [i,am,the,reason]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_22-273  [you,are,alive]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_23-295  [i,am,the,reason]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_23-296  [you,are,alive]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_24-319  [you,need,to,look,back]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_24-320  [and,see]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective])]
+Glass Castle Lyrics.txt_25-346  [how,you,treated,me,how]  [provide_expl_just(treat,[external,factive,cause,foreground,objective])]
+Glass Castle Lyrics.txt_25-347  [you,treated,me]  [provide_expl_just(treat,[external,factive,cause,foreground,objective])]
+Glass Castle Lyrics.txt_26-373  [refrain]  reject_expl_opin(nil,[])
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Glass Castle Lyrics.txt_1-1)-[primary-hard]
+2-(Glass Castle Lyrics.txt_2-3)-[]
+3-(Glass Castle Lyrics.txt_2-4)-[secondary-abstract_tought]
+4-(Glass Castle Lyrics.txt_2-4)-[secondary-abstract_tought]
+5-(Glass Castle Lyrics.txt_3-8)-[primary-concreteness,primary-concreteness,primary-narcissism]
+6-(Glass Castle Lyrics.txt_4-12)-[]
+7-(Glass Castle Lyrics.txt_5-17)-[secondary-abstract_tought]
+8-(Glass Castle Lyrics.txt_5-18)-[]
+9-(Glass Castle Lyrics.txt_6-23)-[primary-vision,primary-concreteness]
+10-(Glass Castle Lyrics.txt_6-24)-[primary-vision]
+11-(Glass Castle Lyrics.txt_7-32)-[secondary-social_behavior]
+12-(Glass Castle Lyrics.txt_7-33)-[secondary-social_behavior]
+13-(Glass Castle Lyrics.txt_8-41)-[secondary-temporal_repere,primary-orality,primary-concreteness,primary-narcissism,primary-orality]
+14-(Glass Castle Lyrics.txt_9-51)-[secondary-abstract_tought]
+15-(Glass Castle Lyrics.txt_9-52)-[secondary-abstract_tought]
+16-(Glass Castle Lyrics.txt_10-62)-[]
+17-(Glass Castle Lyrics.txt_11-73)-[]
+18-(Glass Castle Lyrics.txt_12-86)-[secondary-temporal_repere,secondary-moral_imperative]
+19-(Glass Castle Lyrics.txt_12-87)-[primary-concreteness]
+20-(Glass Castle Lyrics.txt_13-101)-[]
+21-(Glass Castle Lyrics.txt_14-115)-[emotions-affection]
+half
+22-(Glass Castle Lyrics.txt_14-116)-[]
+23-(Glass Castle Lyrics.txt_14-117)-[primary-ascend,primary-concreteness]
+24-(Glass Castle Lyrics.txt_15-132)-[primary-vision,primary-concreteness]
+25-(Glass Castle Lyrics.txt_15-133)-[primary-vision]
+26-(Glass Castle Lyrics.txt_16-150)-[secondary-social_behavior]
+27-(Glass Castle Lyrics.txt_16-151)-[secondary-social_behavior]
+28-(Glass Castle Lyrics.txt_17-168)-[]
+29-(Glass Castle Lyrics.txt_18-186)-[secondary-abstract_tought]
+30-(Glass Castle Lyrics.txt_18-187)-[primary-concreteness]
+31-(Glass Castle Lyrics.txt_19-207)-[secondary-abstract_tought]
+32-(Glass Castle Lyrics.txt_19-208)-[]
+33-(Glass Castle Lyrics.txt_20-228)-[]
+34-(Glass Castle Lyrics.txt_21-250)-[primary-concreteness]
+35-(Glass Castle Lyrics.txt_22-272)-[secondary-abstract_tought]
+36-(Glass Castle Lyrics.txt_22-273)-[]
+37-(Glass Castle Lyrics.txt_23-295)-[secondary-abstract_tought]
+38-(Glass Castle Lyrics.txt_23-296)-[]
+39-(Glass Castle Lyrics.txt_24-319)-[primary-vision,primary-concreteness]
+40-(Glass Castle Lyrics.txt_24-320)-[primary-vision]
+41-(Glass Castle Lyrics.txt_25-346)-[secondary-social_behavior]
+42-(Glass Castle Lyrics.txt_25-347)-[secondary-social_behavior]
+43-(Glass Castle Lyrics.txt_26-373)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Glass Castle Lyrics.txt_1,1,cl1-nil-nil-be-[xcomp-theme-Alive-sn3,arg_mod-agent-World-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Castle,sn1),and(Lyrics,glass,sn1),def_prop(Alive,[istituzione,umano]),def_prop(World,[luogo]),def_prop(Lyrics,[informa,tecno])])
+lf(Glass Castle Lyrics.txt_2,3,cl4-nil-nil-rid-[])
+lf(Glass Castle Lyrics.txt_2,3,cl3-nil-can-get-[cmod-subord-be-so,ncmod-prop-me-sn5,xmod-prop-be-2,obj-theme_unaff-you-sn4,subj-experiencer-you-sn3,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_2,3,cl2-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_3,8,cl5-nil-will-will-[obj-theme_aff-place-sn2,subj-agent-i-sn1,def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(i,[umano])])
+lf(Glass Castle Lyrics.txt_4,12,cl6-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_5,17,cl7-nil-nil-be-[xcomp-prop-alive-sn4,subj-theme_bound-you-sn3,xcomp-prop-reason-sn2,subj-theme_bound-i-sn1,def_prop(alive,[valutativo]),def_prop(you,[umano]),def_prop(reason,[astratto,attivita,informa]),def_prop(i,[umano])])
+lf(Glass Castle Lyrics.txt_6,23,cl10-nil-nil-see-[subj-experiencer-you-sn3,def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_6,23,cl9-nil-nil-look-[subj-locat-you-sn1,def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_6,23,cl8-nil-nil-need-[adj-(mod)-back-nil,subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_7,32,cl12-nil-nil-be-[xcomp-theme_bound-me-sn6,xcomp-purpose-treat-2,subj-theme_bound-you-sn5,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_7,32,cl11-nil-nil-treat-[obj-theme-how-sn4,obj-theme_bound-me-sn3,subj-actor-you-sn2,obj-theme-how-sn1,def_prop(how,[manner]),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(how,[manner])])
+lf(Glass Castle Lyrics.txt_8,41,cl14-nil-nil-feed-[subj-agent-hand-sn3,ncmod-locativo-hand-sn3,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano])])
+lf(Glass Castle Lyrics.txt_8,41,cl13-nil-nil-bite-[obj-theme-when-sn2,subj-actor-you-sn1,def_prop(when,[tempo]),def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_9,51,cl16-nil-nil-need-[adj-(mod)-truly-nil,subj-experiencer-you-sn4,def_prop(truly,[istituzione]),def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_9,51,cl15-nil-will-live-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_10,62,cl17-nil-nil-say-[obj-theme_unaff-refrain-sn1,def_prop(refrain,[attivita,informa])])
+lf(Glass Castle Lyrics.txt_11,73,cl19-nil-nil-do-[cmod-subord-do-but,xcomp-actor-anything-sn4,subj-theme_unaff-it-sn3,subj-theme_unaff-it-sn2,aux-does-nil,and(anything,mean,sn4),and(it,you,sn2),def_prop(anything,[astratto,informa,oggetto]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Glass Castle Lyrics.txt_11,73,cl18-nil-nil-sacrifice-[subj-agent-everything-sn1,def_prop(everything,[astratto,informa,oggetto])])
+lf(Glass Castle Lyrics.txt_12,86,cl22-not-will-be-[xcomp-prop-long-sn8,subj-actor-it-sn7,voice-go-cl21,def_prop(long,[misura]),def_prop(it,[any])])
+lf(Glass Castle Lyrics.txt_12,86,cl21-nil-nil-go-[])
+lf(Glass Castle Lyrics.txt_12,86,cl20-nil-could-can-[ncmod-prop-respect-sn4,xcomp-purpose-go-cl21,obj-theme-all-sn3,subj-actor-this-sn2,subj-actor-this-sn1,and(this,moment,sn1),and(this,any,sn1),def_prop(respect,[astratto]),def_prop(all,[_135086]),def_prop(this,[oggetto,umano]),def_prop(this,[oggetto,umano])])
+lf(Glass Castle Lyrics.txt_13,101,cl23-nil-nil-have-[adj-(mod)-enough-nil,ncmod-specif-me-sn2,subj-experiencer-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_14,115,cl26-nil-can-throw-[xcomp-prop-away-sn5,subj-agent-you-sn4,def_prop(away,[evaluative]),def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_14,115,cl25-nil-nil-be-[xcomp-prop-something-sn3,subj-theme_bound-i-sn2,def_prop(something,[astratto,informa,oggetto]),def_prop(i,[umano])])
+lf(Glass Castle Lyrics.txt_14,115,cl24-nil-nil-act-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_15,132,cl29-nil-nil-see-[subj-experiencer-you-sn3,def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_15,132,cl28-nil-nil-look-[subj-locat-you-sn1,def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_15,132,cl27-nil-nil-need-[adj-(mod)-back-nil,subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_16,150,cl31-nil-nil-be-[xcomp-theme_bound-me-sn6,xcomp-purpose-treat-2,subj-theme_bound-you-sn5,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_16,150,cl30-nil-nil-treat-[obj-theme-how-sn4,obj-theme_bound-me-sn3,subj-actor-you-sn2,obj-theme-how-sn1,def_prop(how,[manner]),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(how,[manner])])
+lf(Glass Castle Lyrics.txt_17,168,cl32-nil-nil-say-[obj-theme_unaff-refrain-sn1,def_prop(refrain,[attivita,informa])])
+lf(Glass Castle Lyrics.txt_18,186,cl35-nil-nil-run-[])
+lf(Glass Castle Lyrics.txt_18,186,cl34-not-can-can-[obj-theme_unaff-away-sn4,xcomp-purpose-run-cl35,subj-actor-you-sn3,def_prop(away,[evaluative]),def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_18,186,cl33-nil-nil-be-[xcomp-prop-reason-sn2,subj-theme_bound-i-sn1,def_prop(reason,[astratto,attivita,informa]),def_prop(i,[umano])])
+lf(Glass Castle Lyrics.txt_19,207,cl37-not-can-escape-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_19,207,cl36-nil-nil-be-[xcomp-prop-reason-sn2,subj-theme_bound-i-sn1,def_prop(reason,[astratto,attivita,informa]),def_prop(i,[umano])])
+lf(Glass Castle Lyrics.txt_20,228,cl39-nil-nil-be-[xcomp-prop-mine-sn3,xcomp-purpose-be-3,def_prop(mine,[oggetto,strumento])])
+lf(Glass Castle Lyrics.txt_20,228,cl38-nil-nil-give-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,subj-actor-you-sn2,subj-actor-you-sn1,and(you,you,sn1),def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_21,250,cl40-nil-nil-be-[xcomp-prop-inside-sn2,subj-theme_bound-you-sn1,and(inside,terrible,sn2),def_prop(inside,[luogo]),def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_22,272,cl41-nil-nil-be-[xcomp-prop-alive-sn4,subj-theme_bound-you-sn3,xcomp-prop-reason-sn2,subj-theme_bound-i-sn1,def_prop(alive,[valutativo]),def_prop(you,[umano]),def_prop(reason,[astratto,attivita,informa]),def_prop(i,[umano])])
+lf(Glass Castle Lyrics.txt_23,295,cl42-nil-nil-be-[xcomp-prop-alive-sn4,subj-theme_bound-you-sn3,xcomp-prop-reason-sn2,subj-theme_bound-i-sn1,def_prop(alive,[valutativo]),def_prop(you,[umano]),def_prop(reason,[astratto,attivita,informa]),def_prop(i,[umano])])
+lf(Glass Castle Lyrics.txt_24,319,cl45-nil-nil-see-[subj-experiencer-you-sn3,def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_24,319,cl44-nil-nil-look-[subj-locat-you-sn1,def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_24,319,cl43-nil-nil-need-[adj-(mod)-back-nil,subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_25,346,cl47-nil-nil-be-[xcomp-theme_bound-me-sn6,xcomp-purpose-treat-2,subj-theme_bound-you-sn5,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Glass Castle Lyrics.txt_25,346,cl46-nil-nil-treat-[obj-theme-how-sn4,obj-theme_bound-me-sn3,subj-actor-you-sn2,obj-theme-how-sn1,def_prop(how,[manner]),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(how,[manner])])
+lf(Glass Castle Lyrics.txt_26,373,cl48-nil-nil-say-[obj-theme_unaff-refrain-sn1,def_prop(refrain,[attivita,informa])])

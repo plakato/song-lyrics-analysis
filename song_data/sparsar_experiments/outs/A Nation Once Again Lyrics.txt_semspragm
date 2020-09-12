@@ -1,0 +1,58 @@
+"POLARITY, DISCOURSE MARKERS"
+
+A Nation Once Again Lyrics.txt_1-1  []-positive  []
+A Nation Once Again Lyrics.txt_2-3  []-positive  []
+A Nation Once Again Lyrics.txt_3-6  []-positive  [fhd]
+A Nation Once Again Lyrics.txt_4-10  []-positive  [fhd,fhd]
+A Nation Once Again Lyrics.txt_5-15  []-positive  [fhd,neg]
+A Nation Once Again Lyrics.txt_6-21  [then-temp_seq]-positive  []
+A Nation Once Again Lyrics.txt_6-22  []-positive  []
+A Nation Once Again Lyrics.txt_7-29  []-positive  [fgb]
+A Nation Once Again Lyrics.txt_8-37  []-positive  []
+A Nation Once Again Lyrics.txt_9-46  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+A Nation Once Again Lyrics.txt_1-1  [a,Nation,once,again,Lyrics,by,Unknown]  [title]
+A Nation Once Again Lyrics.txt_2-3  [a,Man,without,a,woman]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+A Nation Once Again Lyrics.txt_3-6  [now,a,man,without,a,woman,is,like,a,ship,without,a,sail]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+A Nation Once Again Lyrics.txt_4-10  [is,like,a,boat,without,a,rudder,,,or,a,shirt,without,a,tail]  [provide_expl_just(like,[external,factive,narration,foreground,objective])]
+A Nation Once Again Lyrics.txt_5-15  [now,a,man,without,a,woman,is,like,a,wreck,upon,the,sand]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+A Nation Once Again Lyrics.txt_6-21  [then,it,is,a,woman]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+A Nation Once Again Lyrics.txt_6-22  [i,said,a,woman]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+A Nation Once Again Lyrics.txt_7-29  [i_mean,a,woman,without,a,man]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+A Nation Once Again Lyrics.txt_8-37  [mannowom,filename]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+A Nation Once Again Lyrics.txt_9-46  [=,document,boundary,=]  [provide_expl_just(document,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(A Nation Once Again Lyrics.txt_1-1)-[secondary-temporal_repere,secondary-temporal_repere]
+2-(A Nation Once Again Lyrics.txt_2-3)-[]
+3-(A Nation Once Again Lyrics.txt_3-6)-[secondary-temporal_repere,emotions-affection,primary-voyage,primary-voyage]
+4-(A Nation Once Again Lyrics.txt_4-10)-[emotions-affection]
+5-(A Nation Once Again Lyrics.txt_5-15)-[secondary-temporal_repere,emotions-affection,emotions-aggression]
+half
+6-(A Nation Once Again Lyrics.txt_6-21)-[secondary-temporal_repere]
+7-(A Nation Once Again Lyrics.txt_6-22)-[secondary-social_behavior]
+8-(A Nation Once Again Lyrics.txt_7-29)-[]
+9-(A Nation Once Again Lyrics.txt_8-37)-[]
+10-(A Nation Once Again Lyrics.txt_9-46)-[primary-brink]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(A Nation Once Again Lyrics.txt_1,1,cl1-nil-nil-be-[adj-(mod)-again-nil,arg_mod-agent-Unknown-sn2,subj-theme_bound-Lyrics-sn1,and(again,once,sn4),and(Lyrics,Lyrics,sn1),def_prop(again,[istituzione]),def_prop(Unknown,[istituzione]),def_prop(Lyrics,[informa,tecno])])
+lf(A Nation Once Again Lyrics.txt_2,3,cl2-nil-nil-be-[ncmod-privation-woman-sn2,subj-theme_bound-Man-sn1,def_prop(woman,[any]),def_prop(Man,[place,luogo])])
+lf(A Nation Once Again Lyrics.txt_3,6,cl3-nil-nil-like-[ncmod-modal-sail-sn4,obj-theme-ship-sn3,ncmod-privation-woman-sn2,subj-tema_emot-man-sn1,aux-(is)-nil,def_prop(sail,[oggetto,strumento]),def_prop(ship,[attivita,informa,oggetto,strumento,umano]),def_prop(woman,[any]),def_prop(man,[any])])
+lf(A Nation Once Again Lyrics.txt_4,10,cl4-nil-nil-like-[cmod-subord-like-",ncmod-modal-tail-sn5,ncmod-modal-rudder-sn3,xcomp-prop-boat-sn2,subj-tema_emot-you-sn1,aux-(is)-nil,def_prop(tail,[animato,astratto,body_part,oggetto,strumento,umano]),def_prop(rudder,[oggetto,strumento]),def_prop(boat,[oggetto,strumento]),def_prop(you,[umano])])
+lf(A Nation Once Again Lyrics.txt_5,15,cl5-nil-nil-like-[ncmod-modal-sand-sn4,obj-theme-wreck-sn3,ncmod-privation-woman-sn2,subj-tema_emot-man-sn1,aux-(is)-nil,def_prop(sand,[sostanza]),def_prop(wreck,[oggetto,stato,strumento]),def_prop(woman,[any]),def_prop(man,[any])])
+lf(A Nation Once Again Lyrics.txt_6,21,cl7-nil-nil-say-[obj-theme_unaff-woman-sn4,subj-actor-i-sn3,def_prop(woman,[any]),def_prop(i,[umano])])
+lf(A Nation Once Again Lyrics.txt_6,21,cl6-nil-nil-be-[xcomp-prop-woman-sn2,subj-theme_bound-it-sn1,def_prop(woman,[any]),def_prop(it,[any])])
+lf(A Nation Once Again Lyrics.txt_7,29,cl8-nil-nil-be-[ncmod-privation-man-sn2,subj-theme_bound-woman-sn1,def_prop(man,[any]),def_prop(woman,[any])])
+lf(A Nation Once Again Lyrics.txt_8,37,cl9-nil-nil-say-[obj-theme_unaff-filename-sn1,and(filename,mannowom,sn1),def_prop(filename,[attivita,informa])])
+lf(A Nation Once Again Lyrics.txt_9,46,cl10-nil-nil-document-[obj-theme-(=)-sn2,subj-agent-(=)-sn1,and(=,boundary,sn2),def_prop(=,nil),def_prop(=,nil)])

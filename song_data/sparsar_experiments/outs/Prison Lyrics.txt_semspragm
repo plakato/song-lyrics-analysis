@@ -1,0 +1,366 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Prison Lyrics.txt_1-1  []-negative  [neg]
+Prison Lyrics.txt_2-3  []-positive  []
+Prison Lyrics.txt_3-6  []-negative  [neg]
+Prison Lyrics.txt_4-10  []-positive  []
+Prison Lyrics.txt_5-15  []-negative  []
+Prison Lyrics.txt_6-21  []-suspension  [neg]
+Prison Lyrics.txt_7-28  []-positive  []
+Prison Lyrics.txt_8-36  []-positive  []
+Prison Lyrics.txt_9-45  []-positive  []
+Prison Lyrics.txt_10-55  []-suspension  [neg]
+Prison Lyrics.txt_11-66  [(as)-temp_coinc]-positive  []
+Prison Lyrics.txt_12-78  []-positive  []
+Prison Lyrics.txt_13-91  []-positive  [neg]
+Prison Lyrics.txt_14-107  []-negative  [neg,neg]
+Prison Lyrics.txt_15-123  []-negative  [neg,neg,neg,neg]
+Prison Lyrics.txt_16-139  []-positive  []
+Prison Lyrics.txt_17-156  []-positive  [fgb,neg]
+Prison Lyrics.txt_18-174  []-positive  []
+Prison Lyrics.txt_19-193  []-negative  [neg]
+Prison Lyrics.txt_20-214  []-positive  [fhd]
+Prison Lyrics.txt_20-215  []-negative  [neg]
+Prison Lyrics.txt_21-235  [while-temp_coinc]-negative  [neg,neg,neg]
+Prison Lyrics.txt_23-282  [(as)-temp_coinc]-negative  [fhd]
+Prison Lyrics.txt_23-282  [(as)-temp_coinc]-negative  [fhd]
+Prison Lyrics.txt_24-306  []-negative  [neg,fhd]
+Prison Lyrics.txt_25-331  []-positive  [fhd]
+Prison Lyrics.txt_26-357  [(as)-temp_coinc]-positive  [neg,neg]
+Prison Lyrics.txt_26-358  []-positive  []
+Prison Lyrics.txt_27-385  []-negative  []
+Prison Lyrics.txt_28-413  [when-temp_coinc]-negative  [neg]
+Prison Lyrics.txt_28-414  []-positive  []
+Prison Lyrics.txt_29-443  []-negative  [neg,fhd]
+Prison Lyrics.txt_29-444  []-positive  []
+Prison Lyrics.txt_30-473  [(as)-temp_coinc,before-temp_prec]-negative  [fgb,neg]
+Prison Lyrics.txt_30-474  []-positive  []
+Prison Lyrics.txt_31-505  [then-temp_seq]-negative  [neg]
+Prison Lyrics.txt_32-537  []-negative  [neg,neg,neg,neg]
+Prison Lyrics.txt_33-570  []-suspension  [neg,fgb,neg,neg]
+Prison Lyrics.txt_34-604  []-negative  [neg]
+Prison Lyrics.txt_35-639  []-positive  []
+Prison Lyrics.txt_35-640  []-negative  [fgb,neg]
+Prison Lyrics.txt_36-676  []-positive  [neg]
+Prison Lyrics.txt_36-677  []-suspension  []
+Prison Lyrics.txt_37-714  []-negative  [neg,neg,neg,neg]
+Prison Lyrics.txt_38-752  []-positive  []
+Prison Lyrics.txt_39-791  []-negative  [neg]
+Prison Lyrics.txt_39-792  []-positive  []
+Prison Lyrics.txt_39-793  []-positive  []
+Prison Lyrics.txt_40-832  []-negative  []
+Prison Lyrics.txt_41-875  []-suspension  [neg,neg,neg]
+Prison Lyrics.txt_42-917  [if-hypoth]-negative  [fgb,neg]
+Prison Lyrics.txt_42-918  [if-hypoth]-positive  [fgb]
+Prison Lyrics.txt_42-919  []-positive  [neg]
+Prison Lyrics.txt_43-964  []-suspension  [neg,neg]
+Prison Lyrics.txt_44-1008  [if-hypoth]-positive  [fgb,fhd]
+Prison Lyrics.txt_44-1009  []-positive  []
+Prison Lyrics.txt_45-1054  []-negative  [neg,fgb]
+Prison Lyrics.txt_46-1101  []-positive  []
+Prison Lyrics.txt_47-1148  []-negative  [neg,neg]
+Prison Lyrics.txt_48-1196  []-positive  [neg]
+Prison Lyrics.txt_49-1245  []-positive  []
+Prison Lyrics.txt_50-1296  []-negative  [neg]
+Prison Lyrics.txt_50-1297  []-positive  []
+Prison Lyrics.txt_51-1348  []-suspension  [neg,neg]
+Prison Lyrics.txt_51-1349  []-negative  [neg]
+Prison Lyrics.txt_52-1401  []-positive  []
+Prison Lyrics.txt_53-1454  []-positive  []
+Prison Lyrics.txt_54-1508  []-positive  []
+Prison Lyrics.txt_55-1563  [if-hypoth]-negative  [fgb,neg]
+Prison Lyrics.txt_56-1619  []-positive  [fgb]
+Prison Lyrics.txt_57-1676  []-negative  [neg]
+Prison Lyrics.txt_58-1734  []-negative  [neg]
+Prison Lyrics.txt_59-1793  []-positive  [fgb]
+Prison Lyrics.txt_60-1854  [if-hypoth]-positive  [fgb,neg]
+Prison Lyrics.txt_61-1917  []-negative  [fhd]
+Prison Lyrics.txt_61-1917  [(as)-temp_coinc]-negative  [fhd,neg]
+Prison Lyrics.txt_62-1980  []-positive  [fgb]
+Prison Lyrics.txt_62-1981  []-positive  [neg]
+Prison Lyrics.txt_63-2045  []-suspension  []
+Prison Lyrics.txt_64-2110  []-positive  [neg]
+Prison Lyrics.txt_64-2111  []-positive  [fgb,fgb]
+Prison Lyrics.txt_65-2176  []-positive  []
+Prison Lyrics.txt_65-2177  []-positive  [fgb]
+Prison Lyrics.txt_66-2243  []-negative  [neg,neg,neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Prison Lyrics.txt_1-1  [prison,Lyrics,by,X-Clan]  [title]
+Prison Lyrics.txt_2-3  [slavery,is,back]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Prison Lyrics.txt_3-6  [in,fact,it,was,never,abolished]  [reject_expl_just(abolish,[external,factive,explanation,background,objective]),propose_opin_neg(abolish,[external,factive,explanation,background,objective])]
+Prison Lyrics.txt_4-10  [the,13th,Amendment,to,the,United_States]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Prison Lyrics.txt_5-15  [constitution,abolished,slavery]  [provide_expl_just(abolish,[external,factive,narration,foreground,objective])]
+Prison Lyrics.txt_6-21  [except,in,prison]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_7-28  [at]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Prison Lyrics.txt_8-36  [the,current,rate,of,incarceration]  [provide_expl_just(rate,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_9-45  [by,the,year,2010,the,majority,of,all]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_10-55  [african,American,men,between,40,will,18,be,in,prison]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_11-66  [the,state,as,their]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_12-78  [captor]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Prison Lyrics.txt_13-91  [it,is,gonna,take,people,who,are,willing,to,fight]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_14-107  [not,people,who,wanna,negotiate,with,the,enemy]  [reject_expl_just(negotiate,[external,factive,narration,background,objective]),reject_expl_just(wanna,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_15-123  [prison,prison,prison,prison]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_16-139  [the,pits,of,life,contain,men]  [provide_expl_just(contain,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_17-156  [where,reform,and,discipline,unlabeled,enslaved,men]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_18-174  [from,rights,of,passage,to,stacking,arraignments]  [provide_expl_just(stack,[external,factive,narration,foreground,objective])]
+Prison Lyrics.txt_19-193  [to,sporting,the,iron,bars,disgracing,the,pavements]  [reject_expl_just(sport,[external,factive,narration,foreground,objective])]
+Prison Lyrics.txt_20-214  [it,is,just,like]  [provide_expl_just(page,[internal,factive,narration,background,objective])]
+Prison Lyrics.txt_20-215  [cavemen,from,the,pages,of,myth]  [reject_expl_just(page,[internal,factive,narration,background,objective])]
+Prison Lyrics.txt_21-235  [cohabiting,in,darkness,while,we,wallow,in,filth]  [reject_expl_just(wallow,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_23-282  [as,blood,stains,these,prisons,like,the,pyramid]  [provide_expl_just(stain,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_23-282  [as,blood,stains,these,prisons,like,the,pyramid,glyphs]  [provide_expl_just(stain,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_24-306  [guilty,or,innocent,agents,of,government]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_25-331  [treat,our,hoods,like,pickin,grounds]  [proposal(be,[_1047012,_1047018,statement,foreground,_1047036])]
+Prison Lyrics.txt_26-357  [all,sag,in,uniform,as,thugs]  [provide_expl_just(sag,[external,factive,narration,background,objective]),provide_expl_just(represent,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_26-358  [they,represent]  [provide_expl_just(sag,[external,factive,narration,background,objective]),provide_expl_just(represent,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_27-385  [racial,a,stereotypes,profile,for,the,oppressed]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_28-413  [when,you,witness,genocide,everyday]  [reject_expl_just(witness,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_28-414  [you,get,the,hint]  [provide_expl_just(witness,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_29-443  [that,the,ghettos,are,cold,like]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_29-444  [a,lab,experiment]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_30-473  [as,young,women,and,men,street,hustle,before]  [reject_expl_just(hustle,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_30-474  [they,are,ten]  [provide_expl_just(hustle,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_31-505  [graduating,from,juvenile,halls,then,up,the,river,to,the]  [reject_expl_just(graduate,[external,factive,narration,foreground,objective])]
+Prison Lyrics.txt_32-537  [prison,prison,prison,prison]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_33-570  [fear,and,oppression,plague,generation,next]  [provide_expl_just(plague,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_34-604  [the,house,of,regret,locks,down,our,street,vets]  [reject_expl_just(vet,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_35-639  [we,repair,regroup]  [provide_expl_just(regroup,[external,factive,narration,background,objective]),provide_expl_just(lose,[external,factive,narration,foreground,objective])]
+Prison Lyrics.txt_35-640  [and,lost,sight,of,our,mission]  [reject_expl_just(regroup,[external,factive,narration,background,objective]),reject_expl_just(lose,[external,factive,narration,foreground,objective])]
+Prison Lyrics.txt_36-676  [with,honor,we,justice,we,ride]  [provide_expl_just(ride,[external,factive,narration,background,objective]),provide_expl_just(remain,[external,nonfactive,narration,foreground,objective])]
+Prison Lyrics.txt_36-677  [for,must,remain,out,the]  [provide_expl_just(ride,[external,factive,narration,background,objective]),provide_expl_just(remain,[external,nonfactive,narration,foreground,objective])]
+Prison Lyrics.txt_37-714  [prison,prison,prison,prison]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_38-752  [brother,J]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Prison Lyrics.txt_39-791  [we,greed,we,trade,wisdom]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_39-792  [for,trade,light]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_39-793  [for,wealth]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_40-832  [fools,wait,for,lock,down,to,find,knowledge,of,self]  [provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(fool,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_41-875  [i,bang,hard,on,the,left,i,never,fiend,for,cream]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_42-917  [if,you,borrow,you,owe]  [reject_expl_just(borrow,[external,factive,narration,background,objective]),reject_expl_just(owe,[external,factive,narration,background,objective]),reject_expl_just(take,[external,factive,narration,background,objective]),reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_42-918  [if,you,take,it]  [provide_expl_just(borrow,[external,factive,narration,background,objective]),provide_expl_just(owe,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_42-919  [it,you,know,you,are,goin,to,the,prison]  [provide_expl_just(borrow,[external,factive,narration,background,objective]),provide_expl_just(owe,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_43-964  [the,penalty,for,criminal,states]  [provide_expl_just(state,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_44-1008  [if,you,are,herb,or,bird,man]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(steady,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_44-1009  [you,are,steady,runnin,from,jakes]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(steady,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_45-1054  [i,circle,with,street,soldiers,that,build,and,plant,stakes]  [reject_expl_just(build,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_46-1101  [free,the,land,from,Babylon,my,skills,educate]  [provide_expl_just(educate,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_47-1148  [snakes,there,cause,in,these,United,is,no,debate]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_48-1196  [with,these,restrictions,of,law,makes,us,communists,of,hate]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_49-1245  [new,world,of,new,focus,the,streets,need,to,deal,with,new,purpose]  [provide_expl_just(focus,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_50-1296  [the,eldership,is,lacking]  [reject_expl_just(lack,[external,factive,cause,foreground,objective])]
+Prison Lyrics.txt_50-1297  [the,Cirus,of,guidance,it,is,deep]  [provide_expl_just(lack,[external,factive,cause,foreground,objective])]
+Prison Lyrics.txt_51-1348  [the,prison,state,of,mind,will,have]  [provide_expl_just(prison,[internal,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_51-1349  [you,dead,in,the,street,yelling,P]  [reject_expl_just(prison,[internal,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_52-1401  [i]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Prison Lyrics.txt_53-1454  [M]  [raise_issue(be,[_1078854,factive,statement,_1078872,subjective])]
+Prison Lyrics.txt_54-1508  [P]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Prison Lyrics.txt_55-1563  [if,you,are,stressed,fake,playa,cards,to,rest]  [reject_expl_just(be,[_1079470,_1079476,_1079482,_1079488,_1079494])]
+Prison Lyrics.txt_56-1619  [tell,youths,to,stay,in,school,research,and,manifest]  [provide_expl_just(stay,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_57-1676  [avoid]  reject_expl_opin(nil,[])
+Prison Lyrics.txt_58-1734  [slave,ways,from,the,whip,to,the,gauge]  [reject_expl_just(slave,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_59-1793  [from,streets,to,the,cage,we,stand,judged,cloak,and,dagger]  [provide_expl_just(stand,[external,factive,narration,background,objective]),provide_expl_just(judge,[external,factive,narration,foreground,objective])]
+Prison Lyrics.txt_60-1854  [let,twelve,heads,decide,if,you,keep,you,are,street,swagger]  [provide_expl_just(decide,[external,factive,narration,background,objective]),proposal(be,[_1081546,_1081552,statement,foreground,_1081570])]
+Prison Lyrics.txt_61-1917  [or,be,between,bars]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_61-1917  [or,be,between,bars,as,this,crazed,world,gets,madder]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_62-1980  [come,and,heed]  [provide_expl_just(heed,[external,factive,narration,foreground,objective]),provide_expl_just(dome,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_62-1981  [funkin,lesson,wise,dome,the,mad,hatter]  [provide_expl_just(heed,[external,factive,narration,foreground,objective]),provide_expl_just(dome,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_63-2045  [rock,an,onk,off,my,dome,cause,i,deal,with,life,matters]  [provide_expl_just(rock,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_64-2110  [it,is,straight,genocide,of,my,people]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_64-2111  [and,what,is,sadder]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Prison Lyrics.txt_65-2176  [we,bake,devil-s,pie]  [provide_expl_just(put,[external,factive,narration,foreground,objective])]
+Prison Lyrics.txt_65-2177  [and,put,our,heads,in,the,batter]  [provide_expl_just(put,[external,factive,narration,foreground,objective])]
+Prison Lyrics.txt_66-2243  [prison,prison,prison,prison]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Prison Lyrics.txt_1-1)-[secondary-restraint]
+2-(Prison Lyrics.txt_2-3)-[primary-concreteness]
+3-(Prison Lyrics.txt_3-6)-[secondary-abstract_tought]
+4-(Prison Lyrics.txt_4-10)-[]
+5-(Prison Lyrics.txt_5-15)-[]
+6-(Prison Lyrics.txt_6-21)-[secondary-abstract_tought,secondary-restraint]
+7-(Prison Lyrics.txt_7-28)-[primary-concreteness]
+8-(Prison Lyrics.txt_8-36)-[]
+9-(Prison Lyrics.txt_9-45)-[secondary-temporal_repere]
+10-(Prison Lyrics.txt_10-55)-[primary-concreteness,secondary-restraint]
+11-(Prison Lyrics.txt_11-66)-[]
+12-(Prison Lyrics.txt_12-78)-[]
+13-(Prison Lyrics.txt_13-91)-[emotions-aggression]
+14-(Prison Lyrics.txt_14-107)-[emotions-aggression]
+15-(Prison Lyrics.txt_15-123)-[secondary-restraint,secondary-restraint,secondary-restraint,secondary-restraint]
+16-(Prison Lyrics.txt_16-139)-[primary-depth]
+17-(Prison Lyrics.txt_17-156)-[primary-concreteness,secondary-restraint]
+18-(Prison Lyrics.txt_18-174)-[secondary-moral_imperative,primary-brink]
+19-(Prison Lyrics.txt_19-193)-[primary-hard,secondary-restraint]
+20-(Prison Lyrics.txt_20-214)-[emotions-affection]
+21-(Prison Lyrics.txt_20-215)-[]
+22-(Prison Lyrics.txt_21-235)-[secondary-temporal_repere,primary-brink,primary-anality]
+23-(Prison Lyrics.txt_23-282)-[primary-narcissism,secondary-restraint,emotions-affection,primary-height]
+24-(Prison Lyrics.txt_23-282)-[primary-narcissism,secondary-restraint,emotions-affection,primary-height]
+25-(Prison Lyrics.txt_24-306)-[]
+26-(Prison Lyrics.txt_25-331)-[secondary-social_behavior,emotions-affection,secondary-instru_behavior]
+27-(Prison Lyrics.txt_26-357)-[secondary-order]
+28-(Prison Lyrics.txt_26-358)-[secondary-social_behavior]
+29-(Prison Lyrics.txt_27-385)-[]
+30-(Prison Lyrics.txt_28-413)-[secondary-temporal_repere,primary-vision]
+31-(Prison Lyrics.txt_28-414)-[]
+32-(Prison Lyrics.txt_29-443)-[primary-cold,emotions-affection]
+33-(Prison Lyrics.txt_29-444)-[]
+34-(Prison Lyrics.txt_30-473)-[primary-brink]
+35-(Prison Lyrics.txt_30-474)-[]
+36-(Prison Lyrics.txt_31-505)-[primary-brink,secondary-temporal_repere,primary-water]
+37-(Prison Lyrics.txt_32-537)-[secondary-restraint,secondary-restraint,secondary-restraint,secondary-restraint]
+38-(Prison Lyrics.txt_33-570)-[emotions-anxiety]
+39-(Prison Lyrics.txt_34-604)-[emotions-sadness,secondary-restraint,primary-brink]
+40-(Prison Lyrics.txt_35-639)-[secondary-instru_behavior]
+41-(Prison Lyrics.txt_35-640)-[primary-vision]
+42-(Prison Lyrics.txt_36-676)-[secondary-moral_imperative,secondary-moral_imperative,primary-voyage]
+half
+43-(Prison Lyrics.txt_36-677)-[secondary-restraint,primary-concreteness]
+44-(Prison Lyrics.txt_37-714)-[secondary-restraint,secondary-restraint,secondary-restraint,secondary-restraint]
+45-(Prison Lyrics.txt_38-752)-[primary-orality]
+46-(Prison Lyrics.txt_39-791)-[secondary-instru_behavior]
+47-(Prison Lyrics.txt_39-792)-[secondary-instru_behavior,primary-vision]
+48-(Prison Lyrics.txt_39-793)-[emotions-glory]
+49-(Prison Lyrics.txt_40-832)-[secondary-restraint,secondary-instru_behavior,secondary-instru_behavior]
+50-(Prison Lyrics.txt_41-875)-[primary-sound,primary-hard,primary-orality]
+51-(Prison Lyrics.txt_42-917)-[secondary-social_behavior]
+52-(Prison Lyrics.txt_42-918)-[]
+53-(Prison Lyrics.txt_42-919)-[secondary-abstract_tought,secondary-restraint]
+54-(Prison Lyrics.txt_43-964)-[secondary-restraint]
+55-(Prison Lyrics.txt_44-1008)-[primary-orality,primary-height]
+56-(Prison Lyrics.txt_44-1009)-[]
+57-(Prison Lyrics.txt_45-1054)-[primary-concreteness,primary-brink,secondary-instru_behavior,secondary-abstract_tought]
+58-(Prison Lyrics.txt_46-1101)-[secondary-instru_behavior,secondary-social_behavior]
+59-(Prison Lyrics.txt_47-1148)-[secondary-abstract_tought]
+60-(Prison Lyrics.txt_48-1196)-[secondary-moral_imperative,secondary-instru_behavior,emotions-aggression]
+61-(Prison Lyrics.txt_49-1245)-[primary-brink,secondary-abstract_tought]
+62-(Prison Lyrics.txt_50-1296)-[]
+63-(Prison Lyrics.txt_50-1297)-[secondary-social_behavior,primary-depth]
+64-(Prison Lyrics.txt_51-1348)-[secondary-restraint]
+65-(Prison Lyrics.txt_51-1349)-[primary-passivity,primary-brink]
+66-(Prison Lyrics.txt_52-1401)-[]
+67-(Prison Lyrics.txt_53-1454)-[]
+68-(Prison Lyrics.txt_54-1508)-[]
+69-(Prison Lyrics.txt_55-1563)-[emotions-expressive_beh,primary-passivity]
+70-(Prison Lyrics.txt_56-1619)-[secondary-social_behavior,secondary-abstract_tought]
+71-(Prison Lyrics.txt_57-1676)-[emotions-anxiety]
+72-(Prison Lyrics.txt_58-1734)-[emotions-aggression]
+73-(Prison Lyrics.txt_59-1793)-[primary-brink,secondary-restraint,secondary-abstract_tought]
+74-(Prison Lyrics.txt_60-1854)-[primary-narcissism,secondary-abstract_tought,primary-brink]
+75-(Prison Lyrics.txt_61-1917)-[primary-concreteness,secondary-restraint]
+76-(Prison Lyrics.txt_61-1917)-[primary-concreteness,secondary-restraint,primary-counscious]
+77-(Prison Lyrics.txt_62-1980)-[]
+78-(Prison Lyrics.txt_62-1981)-[secondary-instru_behavior,primary-height,primary-counscious]
+79-(Prison Lyrics.txt_63-2045)-[primary-hard,primary-concreteness,primary-height,secondary-abstract_tought]
+80-(Prison Lyrics.txt_64-2110)-[primary-concreteness]
+81-(Prison Lyrics.txt_64-2111)-[]
+82-(Prison Lyrics.txt_65-2176)-[]
+83-(Prison Lyrics.txt_65-2177)-[primary-narcissism]
+84-(Prison Lyrics.txt_66-2243)-[secondary-restraint,secondary-restraint,secondary-restraint,secondary-restraint]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Prison Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-X-Clan-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,prison,sn1),def_prop(X-Clan,[attivita,informa,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Prison Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-back-sn2,subj-theme_bound-slavery-sn1,def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(slavery,[attivita])])
+lf(Prison Lyrics.txt_3,6,cl3-nil-nil-abolish-[ncmod-locativo-fact-sn2,subj-theme-it-sn1,neg-never-nil,aux-was-nil,def_prop(fact,[astratto,attivita,informa,stato]),def_prop(it,[any])])
+lf(Prison Lyrics.txt_4,10,cl4-nil-nil-be-[ncmod-modal-13th-sn3,ncmod-loc_direct-United_States-sn2,subj-theme_bound-you-sn1,def_prop(13th,[date,tempo]),def_prop(United_States,[place,luogo]),def_prop(you,[umano])])
+lf(Prison Lyrics.txt_5,15,cl5-nil-nil-abolish-[obj-theme-slavery-sn2,subj-agent-constitution-sn1,def_prop(slavery,[attivita]),def_prop(constitution,[astratto,attivita])])
+lf(Prison Lyrics.txt_6,21,cl6-nil-nil-be-[ncmod-locativo-prison-sn1,def_prop(prison,[oggetto,stato,strumento])])
+lf(Prison Lyrics.txt_7,28,cl7-nil-nil-say-[])
+lf(Prison Lyrics.txt_8,36,cl8-nil-nil-rate-[ncmod-specif-incarceration-sn2,subj-theme-current-sn1,def_prop(incarceration,[stato]),def_prop(current,[attivita,cambia,evento])])
+lf(Prison Lyrics.txt_9,45,cl9-nil-nil-be-[adj-temporal-year-nil,subj-theme_bound-majority-sn2,subj-theme_bound-majority-sn1,def_prop(year,[tempo]),def_prop(majority,[astratto,nquant,tempo]),def_prop(majority,[astratto,nquant,tempo])])
+lf(Prison Lyrics.txt_10,55,cl10-nil-nil-be-[ncmod-locativo-prison-sn3,ncmod-modal-18-sn2,subj-theme_bound-man-sn1,and(18,will,sn2),and(18,40,sn2),and(man,American,sn1),and(man,african,sn1),def_prop(prison,[oggetto,stato,strumento]),def_prop(18,[nquant]),def_prop(man,[any])])
+lf(Prison Lyrics.txt_11,66,cl11-nil-nil-be-[subj-theme_bound-state-sn1,def_prop(state,[any,attivita,informa,istituzione,luogo,stato,umano])])
+lf(Prison Lyrics.txt_12,78,cl12-nil-nil-say-[obj-theme_unaff-captor-sn1,def_prop(captor,[umano])])
+lf(Prison Lyrics.txt_13,91,cl14-nil-nil-take-[obj-theme-people-sn2,xcomp-purpose-take-2,def_prop(people,[istituzione])])
+lf(Prison Lyrics.txt_13,91,cl13-nil-nil-be-[subj-theme_bound-people-sn2,subj-theme_bound-it-sn1,def_prop(people,[istituzione]),def_prop(it,[any])])
+lf(Prison Lyrics.txt_14,107,nil-nil-nil-wanna-[subj-agent-people-sn1,def_prop(people,[istituzione])])
+lf(Prison Lyrics.txt_14,107,cl15-not-nil-negotiate-[iobj-goal-enemy-sn2,subj-actor1-people-sn1,def_prop(enemy,[istituzione,umano]),def_prop(people,[istituzione])])
+lf(Prison Lyrics.txt_15,123,cl16-nil-nil-be-[subj-theme_bound-prison-sn2,subj-theme_bound-prison-sn1,and(prison,prison,sn2),and(prison,you,sn1),def_prop(prison,[oggetto,stato,strumento]),def_prop(prison,[oggetto,stato,strumento])])
+lf(Prison Lyrics.txt_16,139,cl17-nil-nil-contain-[obj-theme-man-sn2,subj-agent-pit-sn1,def_prop(man,[any]),def_prop(pit,[astratto,oggetto,strumento])])
+lf(Prison Lyrics.txt_17,156,cl18-nil-nil-be-[xcomp-theme-man-sn5,obl-modal-where-sn4,coord-theme_bound-reform_and_discipline-sn3,subj-theme_bound-discipline-sn2,subj-theme_bound-reform-sn1,and(man,unlabeled,sn5),and(man,enslaved,sn5),def_prop(man,[any]),def_prop(where,[luogo]),def_prop(reform_and_discipline,[attivita,astratto,attivita]),def_prop(discipline,[attivita,astratto,attivita]),def_prop(reform,[attivita,astratto,attivita])])
+lf(Prison Lyrics.txt_18,174,cl19-nil-nil-stack-[ncmod-loc_origin-right-sn2,subj-agent-arraignment-sn1,def_prop(right,[astratto,attivita,body_part,istituzione,luogo,oggetto,umano]),def_prop(arraignment,[attivita,informa])])
+lf(Prison Lyrics.txt_19,193,cl21-nil-nil-disgrace-[obj-theme-iron-sn2,xcomp-purpose-sport-2,subj-agent-pavement-sn1,def_prop(iron,[oggetto,sostanza,strumento]),def_prop(pavement,[oggetto,strumento])])
+lf(Prison Lyrics.txt_19,193,cl20-nil-nil-sport-[])
+lf(Prison Lyrics.txt_20,214,cl22-nil-nil-be-[ncmod-loc_origin-page-sn4,subj-theme_bound-caveman-sn3,xcomp-prop-just-sn2,subj-theme_bound-it-sn1,def_prop(page,[attivita,informa,umano]),def_prop(caveman,[umano]),def_prop(just,[informa,tecno]),def_prop(it,[any])])
+lf(Prison Lyrics.txt_21,235,cl24-nil-nil-wallow-[cmod-subord-wallow-while,iobj-goal-filth-sn4,subj-experiencer-we-sn3,iobj-goal-darkness-sn2,def_prop(filth,[sostanza,stato]),def_prop(we,[umano]),def_prop(darkness,[astratto,luogo])])
+lf(Prison Lyrics.txt_21,235,cl23-nil-nil-cohabit-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Prison Lyrics.txt_22,258,cl26-nil-nil-trickle-[adj-(mod)-down-nil,iobj-goal-abyss-sn6,iobj-goal-abyss-sn3,subj-agent-generation-sn1,def_prop(down,[istituzione]),def_prop(abyss,[oggetto]),def_prop(abyss,[oggetto]),def_prop(generation,[attivita,istituzione,tempo])])
+lf(Prison Lyrics.txt_22,258,cl25-nil-nil-be-[xcomp-prop-generation-sn1,def_prop(generation,[attivita,istituzione,tempo])])
+lf(Prison Lyrics.txt_23,282,cl27-nil-nil-stain-[cmod-subord-stain-(as),obj-theme-glyph-sn8,obj-theme-pyramid-sn7,obj-theme-prison-sn6,subj-agent-blood-sn5,obj-theme-pyramid-sn3,obj-theme-prison-sn2,subj-agent-blood-sn1,and(prison,these,sn6),and(prison,these,sn2),def_prop(glyph,[oggetto,strumento]),def_prop(pyramid,[astratto,oggetto]),def_prop(prison,[oggetto,stato,strumento]),def_prop(blood,[astratto,body_part,istituzione,umano]),def_prop(pyramid,[astratto,oggetto]),def_prop(prison,[oggetto,stato,strumento]),def_prop(blood,[astratto,body_part,istituzione,umano])])
+lf(Prison Lyrics.txt_24,306,cl28-nil-nil-be-[ncmod-specif-government-sn2,subj-theme_bound-you-sn1,def_prop(government,[astratto,attivita,istituzione]),def_prop(you,[umano])])
+lf(Prison Lyrics.txt_25,331,cl29-nil-nil-treat-[obj-theme_aff-ground-sn3,obj-theme_bound-hood-sn2,subj-actor-you-sn1,def_prop(ground,[astratto,luogo,oggetto,strumento]),def_prop(hood,[oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Prison Lyrics.txt_26,357,cl31-nil-nil-represent-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Prison Lyrics.txt_26,357,cl30-nil-nil-sag-[])
+lf(Prison Lyrics.txt_27,385,cl32-nil-nil-be-[subj-theme_bound-oppressed-sn2,subj-theme_bound-oppressed-sn1,and(oppressed,profile,sn1),and(oppressed,racial,sn1),def_prop(oppressed,[istituzione]),def_prop(oppressed,[istituzione])])
+lf(Prison Lyrics.txt_28,413,cl33-nil-nil-get-[xcomp-prop-hint-sn6,subj-agent-you-sn5,def_prop(hint,[attivita,informa]),def_prop(you,[umano])])
+lf(Prison Lyrics.txt_28,413,nil-nil-nil-witness-[xcomp-prop-everyday-sn4,obj-actor-genocide-sn3,obj-theme-when-sn2,subj-agent-you-sn1,def_prop(everyday,[evaluative]),def_prop(genocide,[attivita]),def_prop(when,[tempo]),def_prop(you,[umano])])
+lf(Prison Lyrics.txt_29,443,cl34-nil-nil-be-[xcomp-prop-experiment-sn4,subj-theme_bound-lab-sn3,xcomp-prop-cold-sn2,subj-theme_bound-ghetto-sn1,def_prop(experiment,[astratto,attivita]),def_prop(lab,[oggetto,strumento]),def_prop(cold,[valutativo]),def_prop(ghetto,[luogo,stato])])
+lf(Prison Lyrics.txt_30,473,cl36-nil-nil-be-[xcomp-prop-ten-sn9,subj-theme_bound-they-sn8,def_prop(ten,[nquant]),def_prop(they,[umano])])
+lf(Prison Lyrics.txt_30,473,cl35-nil-nil-hustle-[adj-(mod)-before-nil,coord-actor-woman_and_street-sn3,subj-actor-street-sn2,subj-actor-woman-sn1,def_prop(woman_and_street,[any,oggetto,stato,strumento]),def_prop(street,[any,oggetto,stato,strumento]),def_prop(woman,[any,oggetto,stato,strumento])])
+lf(Prison Lyrics.txt_31,505,cl37-nil-nil-graduate-[adj-(mod)-up-nil,iobj-goal-hall-sn2,subj-agent-river-sn1,and(hall,juvenile,sn2),def_prop(hall,[oggetto,strumento]),def_prop(river,[oggetto])])
+lf(Prison Lyrics.txt_32,537,cl38-nil-nil-be-[subj-theme_bound-prison-sn2,subj-theme_bound-prison-sn1,and(prison,prison,sn2),and(prison,you,sn1),def_prop(prison,[oggetto,stato,strumento]),def_prop(prison,[oggetto,stato,strumento])])
+lf(Prison Lyrics.txt_33,570,cl39-nil-nil-plague-[xcomp-prop-next-sn5,obj-experiencer-generation-sn4,coord-cause-fear_and_oppression-sn3,subj-cause-oppression-sn2,subj-cause-fear-sn1,def_prop(next,[tempo,misura]),def_prop(generation,[attivita,istituzione,tempo]),def_prop(fear_and_oppression,[emotivo,attivita,emotivo,stato]),def_prop(oppression,[emotivo,attivita,emotivo,stato]),def_prop(fear,[emotivo,attivita,emotivo,stato])])
+lf(Prison Lyrics.txt_34,604,cl40-nil-nil-vet-[ncmod-loc_direct-street-sn3,ncmod-specif-lock-sn2,subj-theme-you-sn1,def_prop(street,[oggetto,stato,strumento]),def_prop(lock,[attivita,body_part,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Prison Lyrics.txt_35,639,cl42-nil-nil-lose-[cmod-subord-lose-",obj-theme_unaff-sight-sn4,subj-theme_aff-you-sn3,adj-(mod)-regroup-nil,ncmod-modal-we-sn2,def_prop(sight,[astratto,attivita,informa,nquant,oggetto,strumento]),def_prop(you,[umano]),def_prop(we,[umano])])
+lf(Prison Lyrics.txt_35,639,cl41-nil-nil-regroup-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Prison Lyrics.txt_36,676,cl44-nil-must-remain-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(Prison Lyrics.txt_36,676,cl43-nil-nil-ride-[obj-theme-we-sn3,ncmod-comitativo-honor-sn2,subj-agent-justice-sn1,and(justice,we,sn1),def_prop(we,[umano]),def_prop(honor,[astratto,stato]),def_prop(justice,[astratto,attivita])])
+lf(Prison Lyrics.txt_37,714,cl45-nil-nil-be-[subj-theme_bound-prison-sn2,subj-theme_bound-prison-sn1,and(prison,prison,sn2),and(prison,you,sn1),def_prop(prison,[oggetto,stato,strumento]),def_prop(prison,[oggetto,stato,strumento])])
+lf(Prison Lyrics.txt_38,752,cl46-nil-nil-say-[obj-theme_unaff-J-sn1,and(J,brother,sn1),def_prop(J,[attivita,informa])])
+lf(Prison Lyrics.txt_39,791,cl48-nil-nil-be-[subj-theme_bound-you-sn8,def_prop(you,[umano])])
+lf(Prison Lyrics.txt_39,791,cl47-nil-nil-trade-[xcomp-prop-light-sn7,subj-agent-you-sn6,obj-theme_aff-wisdom-sn3,subj-agent-we-sn2,subj-agent-we-sn1,and(we,greed,sn1),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(you,[umano]),def_prop(wisdom,[astratto]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Prison Lyrics.txt_40,832,cl51-nil-nil-find-[cmod-subord-wait-for,obj-prop-knowledge-sn4,xcomp-purpose-find-5,def_prop(knowledge,[astratto,informa,tecno])])
+lf(Prison Lyrics.txt_40,832,cl50-nil-nil-wait-[])
+lf(Prison Lyrics.txt_40,832,cl49-nil-nil-fool-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Prison Lyrics.txt_41,875,cl52-nil-nil-be-[xadj-adj-hard-adj1,adj-(mod)-never-nil,xcomp-theme-cream-sn6,xcomp-theme-fiend-sn5,xcomp-theme-i-sn4,ncmod-modal-left-sn3,subj-theme_bound-bang-sn2,subj-theme_bound-bang-sn1,and(bang,i,sn1),def_prop(hard,_1097482),def_prop(cream,[edible,istituzione,oggetto,strumento]),def_prop(fiend,[astratto,relat,sociale,umano]),def_prop(i,[umano]),def_prop(left,[soggettivo]),def_prop(bang,[body_part,emotivo,evento,umano]),def_prop(bang,[body_part,emotivo,evento,umano])])
+lf(Prison Lyrics.txt_42,917,cl57-nil-nil-be-[])
+lf(Prison Lyrics.txt_42,917,cl56-nil-nil-know-[subj-actor-you-sn12,subj-actor-you-sn11,subj-actor-you-sn9,subj-actor-you-sn8,and(you,it,sn11),and(you,it,sn8),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Prison Lyrics.txt_42,917,cl55-nil-nil-take-[subj-agent-it-sn4,subj-agent-it-sn3,and(it,you,sn3),def_prop(it,[any]),def_prop(it,[any])])
+lf(Prison Lyrics.txt_42,917,cl54-nil-nil-owe-[subj-agent-pro-nil,subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Prison Lyrics.txt_42,917,cl53-nil-nil-borrow-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Prison Lyrics.txt_43,964,cl58-nil-nil-state-[cmod-subord-state-for,subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Prison Lyrics.txt_44,1008,cl60-nil-nil-steady-[ncmod-loc_origin-jake-sn8,obj-theme_aff-runnin-sn7,subj-patient-you-sn6,aux-are-nil,def_prop(jake,[istituzione]),def_prop(runnin,[istituzione]),def_prop(you,[umano])])
+lf(Prison Lyrics.txt_44,1008,cl59-nil-nil-be-[coord-prop-herb_or_man-sn4,xcomp-prop-man-sn3,xcomp-prop-herb-sn2,subj-actor-you-sn1,def_prop(herb_or_man,[edible,oggetto,plant,any]),def_prop(man,[edible,oggetto,plant,any]),def_prop(herb,[edible,oggetto,plant,any]),def_prop(you,[umano])])
+lf(Prison Lyrics.txt_45,1054,cl62-nil-nil-build-[adj-(mod)-plant-nil,subj-agent-street-sn3,def_prop(plant,[any,astratto,oggetto,strumento,umano]),def_prop(street,_1098856)])
+lf(Prison Lyrics.txt_45,1054,cl61-nil-nil-circle-[ncmod-comitativo-soldier-sn2,subj-agent-i-sn1,and(soldier,street,sn2),def_prop(soldier,[animato,umano]),def_prop(i,[umano])])
+lf(Prison Lyrics.txt_46,1101,cl63-nil-nil-educate-[xadj-adj-free-adj2,obj-theme-skill-sn3,ncmod-loc_origin-Babylon-sn2,subj-agent-land-sn1,def_prop(free,_1099116),def_prop(skill,[astratto]),def_prop(Babylon,[place,luogo]),def_prop(land,[astratto,oggetto])])
+lf(Prison Lyrics.txt_47,1148,cl64-nil-nil-be-[xcomp-prop-debate-sn3,ncmod-locativo-United-sn2,subj-theme_bound-cause-sn1,and(debate,no,sn3),and(United,these,sn2),and(cause,snake,sn1),def_prop(debate,[attivita,informa]),def_prop(United,[istituzione,umano]),def_prop(cause,[attivita,evento,informa])])
+lf(Prison Lyrics.txt_48,1196,cl65-nil-nil-make-[obj-goal-communist-sn3,obj-theme-us-sn2,iobj-goal-restriction-sn1,and(restriction,these,sn1),def_prop(communist,[umano]),def_prop(us,[umano]),def_prop(restriction,[astratto,attivita])])
+lf(Prison Lyrics.txt_49,1245,cl67-nil-nil-deal-[iobj-goal-purpose-sn3,xcomp-purpose-deal-2,and(purpose,new,sn3),def_prop(purpose,[astratto])])
+lf(Prison Lyrics.txt_49,1245,cl66-nil-nil-focus-[obj-theme-ne-sn2,subj-agent-world-sn1,and(ne,street,sn2),and(world,new,sn1),def_prop(ne,[informa,legale,tecno]),def_prop(world,[astratto,istituzione,oggetto])])
+lf(Prison Lyrics.txt_50,1296,cl69-nil-nil-be-[xcomp-prop-deep-sn3,subj-theme_bound-Cirus-sn2,def_prop(deep,[oggetto,tempo]),def_prop(Cirus,[istituzione,umano])])
+lf(Prison Lyrics.txt_50,1296,cl68-nil-nil-lack-[subj-agent-you-sn1,aux-(is)-nil,progr-lacking-nil,def_prop(you,[umano])])
+lf(Prison Lyrics.txt_51,1348,cl71-nil-nil-be-[xadj-theme-P-sn7,ncmod-locativo-street-sn6,xcomp-prop-dead-sn5,subj-theme_bound-you-sn4,and(P,yelling,sn7),def_prop(P,[place,attivita,informa]),def_prop(street,[oggetto,stato,strumento]),def_prop(dead,[valutativo]),def_prop(you,[umano])])
+lf(Prison Lyrics.txt_51,1348,cl70-nil-will-have-[ncmod-modal-prison-sn3,ncmod-specif-mind-sn2,subj-experiencer-you-sn1,def_prop(prison,[oggetto,stato,strumento]),def_prop(mind,[astratto]),def_prop(you,[umano])])
+lf(Prison Lyrics.txt_52,1401,cl72-nil-nil-say-[obj-theme_unaff-i-sn1,def_prop(i,[umano])])
+lf(Prison Lyrics.txt_53,1454,cl73-nil-nil-say-[obj-theme_unaff-M-sn1,def_prop(M,[astratto,attivita,informa,nquant,oggetto])])
+lf(Prison Lyrics.txt_54,1508,cl74-nil-nil-say-[obj-theme_unaff-P-sn1,def_prop(P,[place,attivita,informa])])
+lf(Prison Lyrics.txt_55,1563,cl75-nil-nil-stress-[obj-theme_aff-card-sn3,obj-theme_aff-playa-sn2,subj-theme-you-sn1,aux-are-nil,and(playa,fake,sn2),def_prop(card,[attivita,informa,oggetto,sostanza,strumento]),def_prop(playa,[istituzione]),def_prop(you,[umano])])
+lf(Prison Lyrics.txt_56,1619,cl76-nil-nil-stay-[xadj-adj-manifest-adj3,iobj-goal-research-sn2,subj-agent-youth-sn1,and(research,school,sn2),and(youth,tell,sn1),def_prop(manifest,_1101082),def_prop(research,[attivita]),def_prop(youth,[astratto,stato,tempo])])
+lf(Prison Lyrics.txt_57,1676,cl77-nil-nil-avoid-[subj-actor-pro-nil])
+lf(Prison Lyrics.txt_58,1734,cl78-nil-nil-slave-[adj-(mod)-ways-nil,adj-subj_disc-ways-sn4,ncmod-loc_direct-gauge-sn3,ncmod-loc_origin-whip-sn2,subj-actor-you-sn1,def_prop(ways,[istituzione]),def_prop(ways,[istituzione]),def_prop(gauge,[astratto,oggetto,relat,strumento]),def_prop(whip,[astratto,attivita,edible,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Prison Lyrics.txt_59,1793,cl80-nil-nil-judge-[])
+lf(Prison Lyrics.txt_59,1793,cl79-nil-nil-stand-[obj-prop-cloak_and_dagger-[sn4,sn5],xcomp-purpose-judge-cl80,ncmod-loc_direct-cage-sn3,ncmod-loc_origin-street-sn2,subj-experiencer-we-sn1,def_prop(cloak_and_dagger,[oggetto,strumento,attivita,informa,oggetto,strumento]),def_prop(cage,[oggetto,stato,strumento]),def_prop(street,[oggetto,stato,strumento]),def_prop(we,[umano])])
+lf(Prison Lyrics.txt_60,1854,cl83-nil-nil-be-[])
+lf(Prison Lyrics.txt_60,1854,cl82-nil-nil-keep-[cmod-subord-be-if,subj-experiencer-you-sn6,def_prop(you,[umano])])
+lf(Prison Lyrics.txt_60,1854,cl81-nil-nil-decide-[xcomp-prop-swagger-sn4,xcomp-prop-street-sn3,xcomp-prop-head-sn2,subj-actor-you-sn1,and(head,twelve,sn2),def_prop(swagger,[cambia,evento]),def_prop(street,[oggetto,stato,strumento]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Prison Lyrics.txt_61,1917,cl85-nil-nil-get-[xcomp-purpose-be-2,subj-theme_bound-world-sn2,cmod-subord-get-",ncmod-modal-bar-sn1,and(world,this,sn2),and(world,crazed,sn2),def_prop(world,[astratto,istituzione,oggetto]),def_prop(bar,[nquant,oggetto,strumento])])
+lf(Prison Lyrics.txt_61,1917,cl84-nil-nil-be-[cmod-coord-get-or,ncmod-prop-bar-sn3,def_prop(bar,[nquant,oggetto,strumento])])
+lf(Prison Lyrics.txt_62,1980,nil-nil-nil-dome-[obj-theme_aff-hatter-sn3,subj-agent-wise-sn2,and(hatter,mad,sn3),and(wise,funkin,sn2),and(wise,lesson,sn2),def_prop(hatter,[relat,sociale,umano]),def_prop(wise,[astratto])])
+lf(Prison Lyrics.txt_62,1980,cl87-nil-nil-heed-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Prison Lyrics.txt_62,1980,cl86-nil-nil-come-[cmod-coord-heed-nil])
+lf(Prison Lyrics.txt_63,2045,cl89-nil-nil-deal-[iobj-goal-matter-sn14,iobj-goal-matter-sn12,subj-agent-you-sn11,iobj-goal-matter-sn9,subj-agent-i-sn8,ncmod-locativo-dome-sn4,and(matter,life,sn14),and(matter,life,sn12),and(matter,life,sn9),def_prop(matter,[astratto,attivita,informa]),def_prop(matter,[astratto,attivita,informa]),def_prop(you,[umano]),def_prop(matter,[astratto,attivita,informa]),def_prop(i,[umano]),def_prop(dome,[astratto,oggetto,strumento])])
+lf(Prison Lyrics.txt_63,2045,cl88-nil-nil-rock-[obj-patient-onk-sn3,subj-agent-cause-sn2,subj-agent-cause-sn1,and(cause,you,sn1),def_prop(onk,[istituzione]),def_prop(cause,[attivita,evento,informa]),def_prop(cause,[attivita,evento,informa])])
+lf(Prison Lyrics.txt_64,2110,cl90-nil-nil-be-[cmod-coord-be-and,xcomp-prop-sadder-sn7,xcomp-purpose-be-2,subj-theme_bound-what-sn6,xcomp-prop-genocide-sn2,subj-theme_bound-it-sn1,and(genocide,straight,sn2),def_prop(sadder,[evaluative]),def_prop(what,[oggetto]),def_prop(genocide,[attivita]),def_prop(it,[any])])
+lf(Prison Lyrics.txt_65,2176,cl92-nil-nil-put-[cmod-subord-put-",iobj-goal-batter-sn6,obj-goal-head-sn5,subj-agent-you-sn4,def_prop(batter,[edible,oggetto,strumento,umano]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Prison Lyrics.txt_65,2176,cl91-nil-nil-bake-[obj-theme-pie-sn2,subj-actor-we-sn1,and(pie,devil-s,sn2),def_prop(pie,[edible,oggetto]),def_prop(we,[umano])])
+lf(Prison Lyrics.txt_66,2243,cl93-nil-nil-be-[subj-theme_bound-prison-sn2,subj-theme_bound-prison-sn1,and(prison,prison,sn2),and(prison,you,sn1),def_prop(prison,[oggetto,stato,strumento]),def_prop(prison,[oggetto,stato,strumento])])

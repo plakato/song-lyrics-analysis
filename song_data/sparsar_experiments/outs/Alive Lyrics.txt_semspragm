@@ -1,0 +1,111 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Alive Lyrics.txt_1-1  []-positive  []
+Alive Lyrics.txt_2-3  []-positive  []
+Alive Lyrics.txt_3-6  []-positive  [neg]
+Alive Lyrics.txt_4-11  []-negative  [neg]
+Alive Lyrics.txt_4-12  []-positive  []
+Alive Lyrics.txt_5-18  []-positive  []
+Alive Lyrics.txt_5-19  []-positive  []
+Alive Lyrics.txt_6-25  []-positive  []
+Alive Lyrics.txt_7-33  []-suspension  []
+Alive Lyrics.txt_7-34  []-negative  []
+Alive Lyrics.txt_8-43  []-suspension  [neg]
+Alive Lyrics.txt_8-44  []-suspension  [fgb]
+Alive Lyrics.txt_8-45  []-suspension  []
+Alive Lyrics.txt_8-46  []-negative  [neg]
+Alive Lyrics.txt_9-55  []-negative  [fgb,neg]
+Alive Lyrics.txt_10-66  [since-cause]-positive  [fgb]
+Alive Lyrics.txt_11-77  [(as)-temp_coinc]-suspension  [neg,neg]
+Alive Lyrics.txt_12-89  []-negative  [neg]
+Alive Lyrics.txt_12-90  []-suspension  [fgb,neg]
+Alive Lyrics.txt_13-103  []-negative  [neg]
+Alive Lyrics.txt_13-104  []-positive  []
+Alive Lyrics.txt_14-118  []-positive  [bkc]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Alive Lyrics.txt_1-1  [alive,Lyrics,by,WordPlay,T]  [title]
+Alive Lyrics.txt_2-3  [Jay]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Alive Lyrics.txt_3-6  [listen,i,am,too,inclined,to,free,my,mind]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(listen,[external,factive,narration,background,objective])]
+Alive Lyrics.txt_4-11  [it,is,nothing,to,do,with,science]  [reject_expl_just(do,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Alive Lyrics.txt_4-12  [i,am,doing,fine]  [provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Alive Lyrics.txt_5-18  [just,taking,another,step]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Alive Lyrics.txt_5-19  [i,am,due,to,climb]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Alive Lyrics.txt_6-25  [saw,the,knowledge,in,the,garden,now,the,fruit,is,mine]  [provide_expl_just(see,[external,factive,narration,foreground,objective])]
+Alive Lyrics.txt_7-33  [tried,ending,it,all,i,guess]  [provide_expl_just(end,[external,factive,cause,foreground,objective])]
+Alive Lyrics.txt_7-34  [the,lord,declined]  [provide_expl_just(end,[external,factive,cause,foreground,objective])]
+Alive Lyrics.txt_8-43  [he,will,erase]  [provide_expl_just(erase,[external,nonfactive,narration,background,objective]),provide_expl_just(guess,[external,factive,narration,background,objective])]
+Alive Lyrics.txt_8-44  [it,and,i,guess]  [provide_expl_just(erase,[external,nonfactive,narration,background,objective]),provide_expl_just(guess,[external,factive,narration,background,objective])]
+Alive Lyrics.txt_8-45  [i,will,leave]  [provide_expl_just(erase,[external,nonfactive,narration,background,objective]),provide_expl_just(guess,[external,factive,narration,background,objective])]
+Alive Lyrics.txt_8-46  [my,flaws,behind]  [reject_expl_just(erase,[external,nonfactive,narration,background,objective]),reject_expl_just(guess,[external,factive,narration,background,objective])]
+Alive Lyrics.txt_9-55  [another,turn,page,and,never,press,rewind]  [reject_expl_just(press,[external,factive,narration,background,objective]),reject_expl_just(rewind,[external,factive,narration,background,objective])]
+Alive Lyrics.txt_10-66  [and,since,i,get,another,chance,i,am,working,over,time]  [provide_expl_just(work,[external,factive,narration,foreground,objective])]
+Alive Lyrics.txt_11-77  [creating,a,monster,dark,as,the,freshest,wine]  [provide_expl_just(create,[external,factive,cause,foreground,objective])]
+Alive Lyrics.txt_12-89  [quickly,cut,the,power,off]  [reject_expl_just(cut,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Alive Lyrics.txt_12-90  [and,hurry,close,the,blinds]  [provide_expl_just(cut,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Alive Lyrics.txt_13-103  [i,can,not,let]  [reject_expl_just(let,[external,nonfactive,narration,foreground,objective]),reject_expl_just(see,[external,factive,narration,background,objective])]
+Alive Lyrics.txt_13-104  [the,neighbors,see,until,my,boys,alive]  [provide_expl_just(let,[external,nonfactive,narration,foreground,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Alive Lyrics.txt_14-118  [ha,i,am,doctor,Frankenstein]  [provide_expl_just(doctor-cl23,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Alive Lyrics.txt_1-1)-[]
+2-(Alive Lyrics.txt_2-3)-[]
+3-(Alive Lyrics.txt_3-6)-[primary-sound]
+4-(Alive Lyrics.txt_4-11)-[secondary-abstract_tought]
+5-(Alive Lyrics.txt_4-12)-[]
+6-(Alive Lyrics.txt_5-18)-[primary-brink]
+7-(Alive Lyrics.txt_5-19)-[primary-ascend]
+8-(Alive Lyrics.txt_6-25)-[primary-vision,secondary-temporal_repere,primary-orality]
+9-(Alive Lyrics.txt_7-33)-[secondary-instru_behavior,secondary-abstract_tought]
+10-(Alive Lyrics.txt_7-34)-[]
+11-(Alive Lyrics.txt_8-43)-[]
+half
+12-(Alive Lyrics.txt_8-44)-[secondary-abstract_tought]
+13-(Alive Lyrics.txt_8-45)-[]
+14-(Alive Lyrics.txt_8-46)-[primary-concreteness]
+15-(Alive Lyrics.txt_9-55)-[]
+16-(Alive Lyrics.txt_10-66)-[primary-chaos,primary-concreteness,secondary-temporal_repere]
+17-(Alive Lyrics.txt_11-77)-[secondary-instru_behavior]
+18-(Alive Lyrics.txt_12-89)-[secondary-temporal_repere,emotions-aggression,primary-concreteness]
+19-(Alive Lyrics.txt_12-90)-[primary-concreteness]
+20-(Alive Lyrics.txt_13-103)-[]
+21-(Alive Lyrics.txt_13-104)-[primary-vision]
+22-(Alive Lyrics.txt_14-118)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Alive Lyrics.txt_1,1,cl1-nil-nil-be-[xadj-adj-T-adj1,arg_mod-agent-wordplay-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,alive,sn1),def_prop(T,_59766),def_prop(wordplay,[attivita,informa]),def_prop(Lyrics,[informa,tecno])])
+lf(Alive Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-Jay-sn1,def_prop(Jay,[place,umano])])
+lf(Alive Lyrics.txt_3,6,cl4-nil-nil-be-[savv-result-too-sn4,xcomp-purpose-free-3,xcomp-prop-inclined-sn3,xcomp-purpose-be-2,def_prop(too,[istituzione]),def_prop(inclined,[evaluative])])
+lf(Alive Lyrics.txt_3,6,cl3-nil-nil-listen-[adj-(mod)-too-nil,obj-theme-mind-sn5,subj-agent-i-sn2,subj-agent-i-sn1,and(i,you,sn1),def_prop(too,[istituzione]),def_prop(mind,[astratto]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Alive Lyrics.txt_4,11,cl6-nil-nil-do-[xcomp-prop-fine-sn5,subj-theme_unaff-i-sn4,ncmod-actor-science-sn3,xcomp-purpose-do-2,aux-am-nil,progr-doing-nil,def_prop(fine,[valutativo]),def_prop(i,[umano]),def_prop(science,[astratto])])
+lf(Alive Lyrics.txt_4,11,cl5-nil-nil-be-[xcomp-prop-nothing-sn2,subj-theme_bound-it-sn1,def_prop(nothing,[astratto,informa,oggetto]),def_prop(it,[any])])
+lf(Alive Lyrics.txt_5,18,cl8-nil-nil-be-[xcomp-prop-due-sn4,subj-theme_bound-i-sn3,def_prop(due,[stato]),def_prop(i,[umano])])
+lf(Alive Lyrics.txt_5,18,cl7-nil-nil-take-[adj-(mod)-just-nil,subj_top-agent-step-sn1,and(step,another,sn1),def_prop(step,[attivita,nquant,oggetto,strumento])])
+lf(Alive Lyrics.txt_6,25,cl10-nil-nil-mine-[savv-result-now-sn4,xcomp-purpose-mine-3,aux-(is)-nil,def_prop(now,[istituzione])])
+lf(Alive Lyrics.txt_6,25,cl9-nil-nil-see-[adj-(mod)-now-nil,subj-sn1-fruit-sn3,obj-actor-knowledge-sn2,subj-agent-you-sn1,def_prop(now,[istituzione]),def_prop(fruit,[evento,plant]),def_prop(knowledge,[astratto,informa,tecno]),def_prop(you,[umano])])
+lf(Alive Lyrics.txt_7,33,cl12-nil-nil-decline-[ccomp-prop-end-2,subj-agent-lord-sn4,def_prop(lord,[relat,sociale,umano])])
+lf(Alive Lyrics.txt_7,33,nil-nil-nil-guess-[obj-goal-all-sn2,xcomp-purpose-end-2,subj-experiencer-it-sn1,def_prop(all,[_61358]),def_prop(it,[any])])
+lf(Alive Lyrics.txt_7,33,cl11-nil-nil-end-[xadj-adj-tried-adj2,def_prop(tried,_61450)])
+lf(Alive Lyrics.txt_8,43,cl15-nil-nil-flaw-[subj-agent-my-sn4,def_prop(my,[informa,tecno])])
+lf(Alive Lyrics.txt_8,43,cl14-nil-will-leave-[subj-theme-i-sn3,def_prop(i,[umano])])
+lf(Alive Lyrics.txt_8,43,nil-nil-nil-guess-[subj-experiencer-you-sn2,def_prop(you,[umano])])
+lf(Alive Lyrics.txt_8,43,cl13-nil-will-erase-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Alive Lyrics.txt_9,55,nil-nil-nil-rewind-[])
+lf(Alive Lyrics.txt_9,55,nil-nil-nil-press-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Alive Lyrics.txt_10,66,cl17-nil-nil-work-[cmod-subord-work-",cmod-subord-work-since,adj-locative-time-nil,subj-actor-pro-nil,aux-am-nil,progr-working-nil,subj-actor-i-sn3,def_prop(time,[tempo]),def_prop(i,[umano])])
+lf(Alive Lyrics.txt_10,66,cl16-nil-nil-get-[obj-theme_unaff-chance-sn2,subj-agent-i-sn1,and(chance,another,sn2),def_prop(chance,[attivita]),def_prop(i,[umano])])
+lf(Alive Lyrics.txt_11,77,cl18-nil-nil-create-[obj-theme_aff-dark-sn2,subj-agent-monster-sn1,def_prop(dark,[astratto,stato]),def_prop(monster,[animato,umano])])
+lf(Alive Lyrics.txt_12,89,cl20-nil-nil-be-[cmod-subord-be-",xcomp-prop-close-sn5,subj-theme_bound-hurry-sn4,def_prop(close,[soggettivo]),def_prop(hurry,[stato])])
+lf(Alive Lyrics.txt_12,89,cl19-nil-nil-cut-[subj_top-agent-power-sn1,def_prop(power,[astratto,attivita,cambia,umano])])
+lf(Alive Lyrics.txt_13,103,cl22-nil-nil-see-[xadj-adj-alive-adj3,ncmod-modal-boy-sn3,subj-experiencer-neighbor-sn2,def_prop(alive,_62682),def_prop(boy,[oggetto,strumento]),def_prop(neighbor,[oggetto,umano])])
+lf(Alive Lyrics.txt_13,103,cl21-not-can-let-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Alive Lyrics.txt_14,118,cl23-nil-nil-doctor-[obj-theme_aff-Frankenstein-sn3,subj-theme-i-sn2,subj-theme-i-sn1,aux-am-nil,and(i,ha,sn1),def_prop(Frankenstein,[place,stato,umano]),def_prop(i,[umano]),def_prop(i,[umano])])

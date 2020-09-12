@@ -1,0 +1,382 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Animal Lyrics.txt_1-1  []-positive  []
+Animal Lyrics.txt_2-3  []-positive  []
+Animal Lyrics.txt_3-6  []-negative  [neg]
+Animal Lyrics.txt_4-12  []-positive  []
+Animal Lyrics.txt_5-18  []-suspension  [neg]
+Animal Lyrics.txt_6-24  []-positive  [fhd]
+Animal Lyrics.txt_6-25  []-positive  []
+Animal Lyrics.txt_7-32  []-negative  [neg]
+Animal Lyrics.txt_8-40  []-positive  []
+Animal Lyrics.txt_9-49  []-positive  []
+Animal Lyrics.txt_9-50  []-negative  [neg]
+Animal Lyrics.txt_10-60  [but-advers]-suspension  [fgb,neg]
+Animal Lyrics.txt_10-61  [if-hypoth]-positive  [fgb]
+Animal Lyrics.txt_11-72  []-negative  [fhd]
+Animal Lyrics.txt_12-84  []-positive  []
+Animal Lyrics.txt_12-85  []-positive  [neg]
+Animal Lyrics.txt_12-86  []-positive  [fgb]
+Animal Lyrics.txt_13-98  []-positive  []
+Animal Lyrics.txt_13-99  []-positive  [fgb]
+Animal Lyrics.txt_14-113  []-negative  []
+Animal Lyrics.txt_15-129  [if-hypoth]-positive  [fgb]
+Animal Lyrics.txt_16-146  [if-hypoth]-suspension  [neg,fgb,neg]
+Animal Lyrics.txt_17-168  []-negative  [neg,neg]
+Animal Lyrics.txt_18-187  [if-hypoth]-positive  [fgb]
+Animal Lyrics.txt_18-188  []-positive  []
+Animal Lyrics.txt_18-189  []-positive  []
+Animal Lyrics.txt_19-208  []-positive  []
+Animal Lyrics.txt_20-228  []-negative  [neg]
+Animal Lyrics.txt_21-249  []-positive  [fhd]
+Animal Lyrics.txt_22-271  [then-temp_seq]-positive  []
+Animal Lyrics.txt_23-294  []-negative  []
+Animal Lyrics.txt_24-318  []-positive  []
+Animal Lyrics.txt_25-343  []-positive  []
+Animal Lyrics.txt_25-344  []-positive  [neg]
+Animal Lyrics.txt_26-371  []-positive  []
+Animal Lyrics.txt_27-398  []-positive  [fgb]
+Animal Lyrics.txt_28-427  []-question  []
+Animal Lyrics.txt_28-428  []-negative  [neg]
+Animal Lyrics.txt_29-457  []-positive  []
+Animal Lyrics.txt_29-458  [but-advers]-negative  [fgb,neg,neg]
+Animal Lyrics.txt_30-488  []-positive  [neg]
+Animal Lyrics.txt_31-519  []-positive  []
+Animal Lyrics.txt_31-520  []-positive  []
+Animal Lyrics.txt_32-552  []-positive  []
+Animal Lyrics.txt_33-585  []-suspension  [fhd]
+Animal Lyrics.txt_34-621  []-negative  [neg]
+Animal Lyrics.txt_34-622  []-positive  []
+Animal Lyrics.txt_36-694  []-negative  [neg,fgb]
+Animal Lyrics.txt_36-695  []-positive  [fgb]
+Animal Lyrics.txt_37-733  []-positive  []
+Animal Lyrics.txt_37-734  []-positive  []
+Animal Lyrics.txt_38-772  []-suspension  [neg]
+Animal Lyrics.txt_39-811  [but-advers]-positive  [fgb]
+Animal Lyrics.txt_39-812  []-positive  []
+Animal Lyrics.txt_40-853  []-suspension  []
+Animal Lyrics.txt_40-854  [then-temp_seq]-positive  []
+Animal Lyrics.txt_41-894  []-positive  []
+Animal Lyrics.txt_42-936  []-positive  [neg]
+Animal Lyrics.txt_43-980  []-positive  [bkc]
+Animal Lyrics.txt_43-981  []-positive  []
+Animal Lyrics.txt_43-982  []-positive  []
+Animal Lyrics.txt_44-1025  []-negative  [fhd,neg]
+Animal Lyrics.txt_45-1071  []-suspension  []
+Animal Lyrics.txt_45-1072  []-positive  []
+Animal Lyrics.txt_46-1118  []-negative  [neg]
+Animal Lyrics.txt_47-1165  []-negative  [fhd,neg]
+Animal Lyrics.txt_48-1213  [but-advers]-positive  [fgb]
+Animal Lyrics.txt_49-1262  []-positive  []
+Animal Lyrics.txt_50-1312  []-negative  [neg]
+Animal Lyrics.txt_50-1313  []-negative  [neg]
+Animal Lyrics.txt_51-1364  []-positive  []
+Animal Lyrics.txt_51-1364  []-positive  []
+Animal Lyrics.txt_51-1365  [but-advers]-negative  [fgb]
+Animal Lyrics.txt_51-1365  [but-advers]-negative  [fgb]
+Animal Lyrics.txt_52-1417  []-positive  []
+Animal Lyrics.txt_53-1470  []-negative  [neg]
+Animal Lyrics.txt_54-1524  []-positive  []
+Animal Lyrics.txt_55-1579  []-positive  []
+Animal Lyrics.txt_56-1635  []-negative  [neg]
+Animal Lyrics.txt_57-1692  []-positive  [fhd]
+Animal Lyrics.txt_58-1750  [then-temp_seq]-positive  []
+Animal Lyrics.txt_59-1809  []-negative  []
+Animal Lyrics.txt_60-1869  []-positive  []
+Animal Lyrics.txt_61-1930  []-negative  [neg]
+Animal Lyrics.txt_62-1992  []-positive  [fhd]
+Animal Lyrics.txt_63-2055  [then-temp_seq]-positive  []
+Animal Lyrics.txt_64-2119  []-negative  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Animal Lyrics.txt_1-1  [animal,Lyrics,by,Wonderstarz]  [title]
+Animal Lyrics.txt_2-3  [song,by,Sponny,Bee]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Animal Lyrics.txt_3-6  [baby,you,do,things,to,me,i,can,not,comprehend]  [reject_expl_just(do,[external,factive,explanation,background,objective]),propose_opin_neg(do,[external,factive,explanation,background,objective]),reject_expl_just(comprehend,[external,nonfactive,narration,foreground,objective]),reject_expl_just(baby,[external,factive,explanation,background,objective]),propose_opin_neg(baby,[external,factive,explanation,background,objective])]
+Animal Lyrics.txt_4-12  [you,are,an,animal,give,it,up]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_5-18  [don-t,pretend]  [provide_expl_just(pretend,[external,factive,cause,foreground,objective])]
+Animal Lyrics.txt_6-24  [she,is,like,magic]  [provide_expl_just(feel,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_6-25  [-,i,can,feel,the,tingle,in,my,nerves]  [provide_expl_just(feel,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_7-32  [the,chill,up,my,spine]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_8-40  [pants,contain,a,hard-on]  [provide_expl_just(contain,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_9-49  [she,is,a,spot-on,girl]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(beat,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_9-50  [don,beat,around,the,Bush]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(beat,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_10-60  [but,i,will,be,a,liar]  [provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_10-61  [if,i,said,did,the,same,too]  [provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_11-72  [she,is,like,a,fairy,who,didn-t,get,lucky,in,heaven]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_12-84  [she,is,one,girl]  [provide_expl_just(fall,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_12-85  [i,can,fall,in,love]  [provide_expl_just(fall,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_12-86  [for,ages,and]  [provide_expl_just(fall,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_13-98  [her,story,in,my,diary-ll,fill,pages]  [provide_expl_just(fill,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_13-99  [and]  [provide_expl_just(fill,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_14-113  [she,is,the,mystifying,character,who,just,doesn-t,get,me]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Animal Lyrics.txt_15-129  [hit,me,baby,if,you,want]  [provide_expl_just(hit,[external,factive,cause,foreground,objective])]
+Animal Lyrics.txt_16-146  [pick,me,,,throw,me,if,you,think,i,am,wrong]  [provide_expl_just(throw,[external,factive,narration,background,objective]),provide_expl_just(pick,[external,factive,narration,background,objective]),provide_expl_just(wrong,[external,factive,cause,foreground,objective])]
+Animal Lyrics.txt_17-168  [punish,here,is,the,whip]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(punish,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_18-187  [if,you,think]  [provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(hide,[external,factive,narration,foreground,objective])]
+Animal Lyrics.txt_18-188  [i,am,hiding]  [provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(hide,[external,factive,narration,foreground,objective])]
+Animal Lyrics.txt_18-189  [stuff,feel,free,to,strip]  [provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(hide,[external,factive,narration,foreground,objective])]
+Animal Lyrics.txt_19-208  [she,is,the,girl]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_20-228  [i,just,can,not,get,over]  [reject_expl_just(get,[external,nonfactive,narration,foreground,objective])]
+Animal Lyrics.txt_21-249  [she,is,like,dust]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_22-271  [a,sec-and,then]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_23-294  [blows]  reject_expl_opin(nil,[])
+Animal Lyrics.txt_24-318  [away]  [raise_issue(be,[_1562576,factive,statement,_1562594,subjective])]
+Animal Lyrics.txt_25-343  [i,can,stay,-]  [provide_expl_just(feel,[external,factive,narration,background,objective]),indication(begin,[external,factive,inception,foreground,objective]),provide_expl_just(stay,[external,nonfactive,narration,foreground,objective])]
+Animal Lyrics.txt_25-344  [i,am,beginning,to,feel,the,pain]  [provide_expl_just(feel,[external,factive,narration,background,objective]),indication(begin,[external,factive,inception,foreground,objective]),provide_expl_just(stay,[external,nonfactive,narration,foreground,objective])]
+Animal Lyrics.txt_26-371  [one,last,time,baby]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_27-398  [me,what,changed,.,tell]  [provide_expl_just(change,[external,factive,cause,foreground,objective])]
+Animal Lyrics.txt_28-427  [understand,don-t,i,?]  [provide_expl_just(understand,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Animal Lyrics.txt_28-428  [-,this,is,some,kinda,game]  [reject_expl_just(understand,[internal,factive,narration,background,objective]),reject_expl_just(be,[internal,factive,narration,foreground,objective])]
+Animal Lyrics.txt_29-457  [i,joked,around,sometimes]  [provide_expl_just(joke,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_29-458  [but,now,i,is,not,not]  [reject_expl_just(joke,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_30-488  [fame,my,fuck,answers,want,i,!]  [provide_expl_just(want,[internal,factive,narration,foreground,objective])]
+Animal Lyrics.txt_31-519  [i,can,go,on,record]  [provide_expl_just(go,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_31-520  [for,my,dame,you]  [provide_expl_just(go,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_32-552  [my,darling,my,honey,from,Himalayan,nectar]  [provide_expl_just(honey,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_33-585  [solving,your,riddles,are,like,bond,figuring,out,SPECTRE]  [provide_expl_just(solve,[external,factive,narration,foreground,objective]),provide_expl_just(figure,[external,factive,narration,foreground,objective])]
+Animal Lyrics.txt_34-621  [i,can,never,ever,say]  [reject_expl_just(say,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_34-622  [that,thing]  [provide_expl_just(say,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_36-694  [it,doesn-t,matter,what,i,think]  [reject_expl_just(do,[external,factive,narration,foreground,objective]),reject_expl_just(think,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_36-695  [and,do]  [provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(think,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_37-733  [the,only_one,babe,i,want]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_37-734  [you]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_38-772  [i,can,be,a,li-l,itty,bit,weird]  [propose_opin(be,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,nonfactive,narration,foreground,objective])]
+Animal Lyrics.txt_39-811  [the,person,who,finds,it,but,cute,is]  [provide_expl_just(cute,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_39-812  [you]  [provide_expl_just(cute,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_40-853  [i,may,be,the,king]  [provide_expl_just(be,[external,nonfactive,narration,foreground,objective])]
+Animal Lyrics.txt_40-854  [then,you,the,queen,-]  [provide_expl_just(be,[external,nonfactive,narration,foreground,objective])]
+Animal Lyrics.txt_41-894  [true,is,it,!]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Animal Lyrics.txt_42-936  [i,try,to,divert,my,path,bends,to,you]  [provide_expl_just(divert,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_43-980  [yes,it,is,true]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(love,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_43-981  [i,love]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(love,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_43-982  [you]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(love,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_44-1025  [love,me,back,or,not]  [reject_expl_just(love,[external,factive,narration,background,objective]),reject_expl_just(back,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_45-1071  [i,will,still,call]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_45-1072  [Boo-,you]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_46-1118  [the,illusion]  reject_expl_opin(nil,[])
+Animal Lyrics.txt_47-1165  [who,trapped,me,like,a,fly,in,its,sticky,web]  [reject_expl_just(be,[_1598200,_1598206,_1598212,_1598218,_1598224])]
+Animal Lyrics.txt_48-1213  [alright,feels,it,now,but,!]  [provide_expl_just(feel,[internal,factive,narration,foreground,objective])]
+Animal Lyrics.txt_49-1262  [Ooh,!]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Animal Lyrics.txt_50-1312  [i,don-t,mind]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_50-1313  [you,saying,no]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_51-1364  [!]  [provide_expl_just(judge,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Animal Lyrics.txt_51-1364  [!]  [provide_expl_just(judge,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Animal Lyrics.txt_51-1365  [but,judging,me,by,my,face]  [provide_expl_just(judge,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Animal Lyrics.txt_51-1365  [but,judging,me,by,my,face,-,that,is,just,boo]  [provide_expl_just(judge,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Animal Lyrics.txt_52-1417  [i,am,getting,down,on,my,knees]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Animal Lyrics.txt_53-1470  [not,on,FB]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_54-1524  [two,li-l,magic,words,it,is,reality]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_55-1579  [she,is,the,girl]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_56-1635  [i,just,can,not,get,over]  [reject_expl_just(get,[external,nonfactive,narration,foreground,objective])]
+Animal Lyrics.txt_57-1692  [she,is,like,dust]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_58-1750  [a,sec-and,then]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_59-1809  [blows]  reject_expl_opin(nil,[])
+Animal Lyrics.txt_60-1869  [she,is,the,girl]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_61-1930  [i,just,can,not,get,over]  [reject_expl_just(get,[external,nonfactive,narration,foreground,objective])]
+Animal Lyrics.txt_62-1992  [she,is,like,dust]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_63-2055  [a,sec-and,then]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Animal Lyrics.txt_64-2119  [blows,away]  reject_expl_opin(nil,[])
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Animal Lyrics.txt_1-1)-[]
+2-(Animal Lyrics.txt_2-3)-[]
+3-(Animal Lyrics.txt_3-6)-[secondary-abstract_tought]
+4-(Animal Lyrics.txt_4-12)-[]
+5-(Animal Lyrics.txt_5-18)-[]
+6-(Animal Lyrics.txt_6-24)-[emotions-affection,primary-unknow]
+7-(Animal Lyrics.txt_6-25)-[primary-touch]
+8-(Animal Lyrics.txt_7-32)-[primary-cold,primary-random_movement]
+9-(Animal Lyrics.txt_8-40)-[]
+10-(Animal Lyrics.txt_9-49)-[]
+11-(Animal Lyrics.txt_9-50)-[emotions-aggression]
+12-(Animal Lyrics.txt_10-60)-[]
+13-(Animal Lyrics.txt_10-61)-[secondary-social_behavior]
+14-(Animal Lyrics.txt_11-72)-[emotions-affection,primary-gen_sensation,primary-height]
+15-(Animal Lyrics.txt_12-84)-[]
+16-(Animal Lyrics.txt_12-85)-[primary-descent,emotions-affection]
+17-(Animal Lyrics.txt_12-86)-[]
+18-(Animal Lyrics.txt_13-98)-[]
+19-(Animal Lyrics.txt_13-99)-[]
+20-(Animal Lyrics.txt_14-113)-[]
+21-(Animal Lyrics.txt_15-129)-[emotions-aggression]
+22-(Animal Lyrics.txt_16-146)-[secondary-instru_behavior,primary-ascend,secondary-abstract_tought]
+23-(Animal Lyrics.txt_17-168)-[secondary-restraint,primary-concreteness,emotions-aggression]
+24-(Animal Lyrics.txt_18-187)-[secondary-abstract_tought]
+25-(Animal Lyrics.txt_18-188)-[]
+26-(Animal Lyrics.txt_18-189)-[]
+27-(Animal Lyrics.txt_19-208)-[]
+28-(Animal Lyrics.txt_20-228)-[primary-concreteness]
+29-(Animal Lyrics.txt_21-249)-[emotions-affection]
+30-(Animal Lyrics.txt_22-271)-[secondary-temporal_repere]
+31-(Animal Lyrics.txt_23-294)-[]
+32-(Animal Lyrics.txt_24-318)-[primary-concreteness]
+33-(Animal Lyrics.txt_25-343)-[]
+34-(Animal Lyrics.txt_25-344)-[emotions-sadness]
+35-(Animal Lyrics.txt_26-371)-[secondary-temporal_repere]
+36-(Animal Lyrics.txt_27-398)-[secondary-social_behavior]
+37-(Animal Lyrics.txt_28-427)-[secondary-abstract_tought]
+38-(Animal Lyrics.txt_28-428)-[emotions-affection,emotions-expressive_beh]
+39-(Animal Lyrics.txt_29-457)-[emotions-positive_affect,secondary-temporal_repere]
+40-(Animal Lyrics.txt_29-458)-[secondary-temporal_repere]
+41-(Animal Lyrics.txt_30-488)-[emotions-glory,primary-sex,secondary-social_behavior]
+42-(Animal Lyrics.txt_31-519)-[secondary-instru_behavior]
+43-(Animal Lyrics.txt_31-520)-[primary-water]
+half
+44-(Animal Lyrics.txt_32-552)-[primary-orality,primary-orality]
+45-(Animal Lyrics.txt_33-585)-[emotions-affection,primary-concreteness]
+46-(Animal Lyrics.txt_34-621)-[secondary-temporal_repere,secondary-social_behavior]
+47-(Animal Lyrics.txt_34-622)-[]
+48-(Animal Lyrics.txt_36-694)-[secondary-abstract_tought]
+49-(Animal Lyrics.txt_36-695)-[]
+50-(Animal Lyrics.txt_37-733)-[]
+51-(Animal Lyrics.txt_37-734)-[]
+52-(Animal Lyrics.txt_38-772)-[]
+53-(Animal Lyrics.txt_39-811)-[secondary-instru_behavior,emotions-aggression]
+54-(Animal Lyrics.txt_39-812)-[]
+55-(Animal Lyrics.txt_40-853)-[secondary-abstract_tought]
+56-(Animal Lyrics.txt_40-854)-[secondary-temporal_repere]
+57-(Animal Lyrics.txt_41-894)-[secondary-abstract_tought]
+58-(Animal Lyrics.txt_42-936)-[secondary-instru_behavior,primary-descent,primary-brink]
+59-(Animal Lyrics.txt_43-980)-[secondary-abstract_tought]
+60-(Animal Lyrics.txt_43-981)-[emotions-affection]
+61-(Animal Lyrics.txt_43-982)-[]
+62-(Animal Lyrics.txt_44-1025)-[emotions-affection,primary-concreteness]
+63-(Animal Lyrics.txt_45-1071)-[secondary-social_behavior]
+64-(Animal Lyrics.txt_45-1072)-[]
+65-(Animal Lyrics.txt_46-1118)-[]
+66-(Animal Lyrics.txt_47-1165)-[emotions-affection,primary-ascend]
+67-(Animal Lyrics.txt_48-1213)-[secondary-temporal_repere]
+68-(Animal Lyrics.txt_49-1262)-[]
+69-(Animal Lyrics.txt_50-1312)-[]
+70-(Animal Lyrics.txt_50-1313)-[]
+71-(Animal Lyrics.txt_51-1364)-[]
+72-(Animal Lyrics.txt_51-1364)-[]
+73-(Animal Lyrics.txt_51-1365)-[primary-narcissism]
+74-(Animal Lyrics.txt_51-1365)-[primary-narcissism]
+75-(Animal Lyrics.txt_52-1417)-[primary-narcissism]
+76-(Animal Lyrics.txt_53-1470)-[]
+77-(Animal Lyrics.txt_54-1524)-[primary-unknow,secondary-abstract_tought]
+78-(Animal Lyrics.txt_55-1579)-[]
+79-(Animal Lyrics.txt_56-1635)-[primary-concreteness]
+80-(Animal Lyrics.txt_57-1692)-[emotions-affection]
+81-(Animal Lyrics.txt_58-1750)-[secondary-temporal_repere]
+82-(Animal Lyrics.txt_59-1809)-[]
+83-(Animal Lyrics.txt_60-1869)-[]
+84-(Animal Lyrics.txt_61-1930)-[primary-concreteness]
+85-(Animal Lyrics.txt_62-1992)-[emotions-affection]
+86-(Animal Lyrics.txt_63-2055)-[secondary-temporal_repere]
+87-(Animal Lyrics.txt_64-2119)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Animal Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wonderstarz-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,animal,sn1),def_prop(Wonderstarz,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Animal Lyrics.txt_2,3,cl2-nil-nil-be-[arg_mod-agent-Bee-sn2,subj-theme_bound-song-sn1,and(Bee,Sponny,sn2),def_prop(Bee,[place,umano]),def_prop(song,[astratto,attivita,evento,informa,oggetto])])
+lf(Animal Lyrics.txt_3,6,cl5-not-can-comprehend-[subj-agent-you-sn2,subj-agent-i-sn6,obj-actor-thing-sn3,xcomp-purpose-do-3,def_prop(you,[umano]),def_prop(i,[umano]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Animal Lyrics.txt_3,6,cl4-nil-nil-do-[iobj-goal-me-sn4,def_prop(me,[umano])])
+lf(Animal Lyrics.txt_3,6,cl3-nil-nil-baby-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Animal Lyrics.txt_4,12,cl7-nil-nil-give-[subj-actor-it-sn6,subj-actor-it-sn3,subj-actor-it-sn2,and(it,animal,sn2),def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Animal Lyrics.txt_4,12,cl6-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Animal Lyrics.txt_5,18,cl8-not-nil-pretend-[subj-agent-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Animal Lyrics.txt_6,24,cl10-nil-can-feel-[iobj-goal-nerve-sn5,xcomp-prop-tingle-sn4,subj-experiencer-i-sn3,def_prop(nerve,[body_part,umano]),def_prop(tingle,[astratto,emotivo,stato]),def_prop(i,[umano])])
+lf(Animal Lyrics.txt_6,24,cl9-nil-nil-be-[xcomp-prop-magic-sn2,subj-theme_bound-she-sn1,def_prop(magic,[astratto]),def_prop(she,[umano])])
+lf(Animal Lyrics.txt_7,32,cl11-nil-nil-be-[adj-(mod)-up-nil,subj-theme_bound-spine-sn2,subj-theme_bound-spine-sn1,def_prop(spine,[animato,plant]),def_prop(spine,[animato,plant])])
+lf(Animal Lyrics.txt_8,40,cl12-nil-nil-contain-[obj-theme-hard-on-sn2,subj-agent-pant-sn1,def_prop(hard-on,[stato]),def_prop(pant,[evento])])
+lf(Animal Lyrics.txt_9,49,cl14-nil-nil-beat-[adj-(mod)-around-nil,obj-theme_aff-Bush-sn5,subj-agent-don-sn4,def_prop(Bush,[place,umano]),def_prop(don,[umano])])
+lf(Animal Lyrics.txt_9,49,cl13-nil-nil-be-[xcomp-prop-girl-sn2,subj-theme_bound-she-sn1,and(girl,spot-on,sn2),def_prop(girl,[oggetto,strumento]),def_prop(she,[umano])])
+lf(Animal Lyrics.txt_10,60,cl16-nil-nil-do-[xcomp-actor-too-sn4,subj-theme_unaff-i-sn3,aux-did-nil,and(too,same,sn4),def_prop(too,[istituzione]),def_prop(i,[umano])])
+lf(Animal Lyrics.txt_10,60,cl15-nil-will-be-[xcomp-prop-liar-sn2,subj-theme_bound-i-sn1,def_prop(liar,[umano]),def_prop(i,[umano])])
+lf(Animal Lyrics.txt_11,72,cl17-nil-nil-be-[xcomp-prop-fairy-sn2,subj-theme_bound-she-sn1,and(fairy,who,sn2),def_prop(fairy,[umano]),def_prop(she,[umano])])
+lf(Animal Lyrics.txt_12,84,cl19-nil-can-fall-[cmod-coord-be-nil,iobj-locat-love-sn5,subj-agent-i-sn4,def_prop(love,[astratto,emotivo,nquant]),def_prop(i,[umano])])
+lf(Animal Lyrics.txt_12,84,cl18-nil-nil-be-[subj-theme_bound-female-sn6,xcomp-prop-girl-sn2,subj-theme_bound-she-sn1,and(girl,one,sn2),def_prop(female,[tempo]),def_prop(girl,[oggetto,strumento]),def_prop(she,[umano])])
+lf(Animal Lyrics.txt_13,98,cl21-nil-nil-be-[])
+lf(Animal Lyrics.txt_13,98,cl20-nil-nil-fill-[obj-goal-page-sn2,subj-agent-story-sn1,def_prop(page,[attivita,informa,umano]),def_prop(story,[attivita,informa])])
+lf(Animal Lyrics.txt_14,113,cl23-not-nil-get-[subj-agent-character-sn3,aux-does-nil,def_prop(character,[astratto,attivita,informa,stato,umano])])
+lf(Animal Lyrics.txt_14,113,cl22-nil-nil-be-[xcomp-prop-character-sn3,subj-theme_bound-she-sn2,def_prop(character,[astratto,attivita,informa,stato,umano]),def_prop(she,[umano])])
+lf(Animal Lyrics.txt_15,129,cl25-nil-nil-want-[cmod-subord-want-if,subj-actor-pro-nil,subj-actor-you-sn4,def_prop(you,[umano])])
+lf(Animal Lyrics.txt_15,129,cl24-nil-nil-hit-[obj-theme-baby-sn3,obj-goal-me-sn2,subj-agent-you-sn1,def_prop(baby,[animato,any,attivita,plant]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Animal Lyrics.txt_16,146,cl30-nil-nil-be-[])
+lf(Animal Lyrics.txt_16,146,3-nil-nil-wrong-[aux-am-nil,subj-theme_aff-i-sn9,obj-theme_aff-me-sn8,subj-theme_aff-i-sn7,subj-theme_aff-me-sn6,def_prop(i,[umano]),def_prop(me,[umano]),def_prop(i,[umano]),def_prop(me,[umano])])
+lf(Animal Lyrics.txt_16,146,cl29-nil-nil-wrong-[aux-am-nil,subj-theme_aff-i-sn9,obj-theme_aff-me-sn8,subj-theme_aff-i-sn7,subj-theme_aff-me-sn6,def_prop(i,[umano]),def_prop(me,[umano]),def_prop(i,[umano]),def_prop(me,[umano])])
+lf(Animal Lyrics.txt_16,146,cl28-nil-nil-think-[subj-agent-you-sn4,subj-agent-you-sn3,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Animal Lyrics.txt_16,146,cl27-nil-nil-throw-[obj-theme_unaff-me-sn6,subj-agent-i-sn5,def_prop(me,[umano]),def_prop(i,[umano])])
+lf(Animal Lyrics.txt_16,146,cl26-nil-nil-pick-[cmod-subord-think-1,obj-goal-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Animal Lyrics.txt_17,168,cl32-nil-nil-be-[xcomp-prop-whip-sn2,xcomp-purpose-be-3,def_prop(whip,[astratto,attivita,edible,oggetto,strumento,umano])])
+lf(Animal Lyrics.txt_17,168,cl31-nil-nil-punish-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Animal Lyrics.txt_18,187,cl35-nil-nil-feel-[xcomp-prop-free-sn4,subj-experiencer-stuff-sn3,def_prop(free,[valutativo]),def_prop(stuff,[astratto,attivita,informa,oggetto])])
+lf(Animal Lyrics.txt_18,187,cl34-nil-nil-hide-[subj-agent-you-sn2,aux-am-nil,progr-hiding-nil,def_prop(you,[umano])])
+lf(Animal Lyrics.txt_18,187,cl33-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Animal Lyrics.txt_19,208,cl36-nil-nil-be-[xcomp-prop-girl-sn2,subj-theme_bound-she-sn1,def_prop(girl,[oggetto,strumento]),def_prop(she,[umano])])
+lf(Animal Lyrics.txt_20,228,cl37-not-can-get-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Animal Lyrics.txt_21,249,cl38-nil-nil-be-[xcomp-prop-dust-sn2,subj-theme_bound-she-sn1,def_prop(dust,[sostanza]),def_prop(she,[umano])])
+lf(Animal Lyrics.txt_22,271,cl39-nil-nil-be-[subj-theme_bound-sec-and-sn1,def_prop(sec-and,[tempo])])
+lf(Animal Lyrics.txt_23,294,cl40-nil-nil-say-[obj-theme_unaff-blow-sn1,def_prop(blow,[attivita])])
+lf(Animal Lyrics.txt_24,318,cl41-nil-nil-say-[])
+lf(Animal Lyrics.txt_25,343,cl44-nil-nil-feel-[])
+lf(Animal Lyrics.txt_25,343,cl43-nil-nil-begin-[obj-prop-pain-sn3,xcomp-purpose-feel-cl44,subj-actor-i-sn2,aux-am-nil,progr-beginning-nil,def_prop(pain,[astratto,emotivo,stato,umano]),def_prop(i,[umano])])
+lf(Animal Lyrics.txt_25,343,cl42-nil-can-stay-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Animal Lyrics.txt_26,371,cl45-nil-nil-be-[ncmod-modal-time-sn2,subj-theme_bound-you-sn1,def_prop(time,[tempo]),def_prop(you,[umano])])
+lf(Animal Lyrics.txt_27,398,cl47-nil-nil-change-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Animal Lyrics.txt_27,398,cl46-nil-nil-tell-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Animal Lyrics.txt_28,427,cl49-nil-nil-be-[xcomp-prop-game-sn3,subj-theme_bound-this-sn2,and(game,some,sn3),and(game,kinda,sn3),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(this,[oggetto,umano])])
+lf(Animal Lyrics.txt_28,427,cl48-not-nil-understand-[subj-actor-i-sn1,aux-do-nil,def_prop(i,[umano])])
+lf(Animal Lyrics.txt_29,457,cl51-not-nil-be-[subj-theme_bound-i-sn4,def_prop(i,[umano])])
+lf(Animal Lyrics.txt_29,457,cl50-nil-nil-joke-[subj-actor1-i-sn1,def_prop(i,[umano])])
+lf(Animal Lyrics.txt_30,488,cl52-nil-nil-want-[obj-theme_aff-fuck-sn3,obj-tema_unaff-answer-sn2,subj-actor-i-sn1,def_prop(fuck,[attivita]),def_prop(answer,[attivita,informa]),def_prop(i,[umano])])
+lf(Animal Lyrics.txt_31,519,cl54-nil-nil-be-[ncmod-modal-dame-sn4,subj-theme_bound-you-sn3,def_prop(dame,[umano]),def_prop(you,[umano])])
+lf(Animal Lyrics.txt_31,519,cl53-nil-can-go-[adj-(mod)-be-nil,ncmod-locativo-record-sn2,subj-agent-i-sn1,def_prop(record,[astratto,attivita,informa,nquant,oggetto]),def_prop(i,[umano])])
+lf(Animal Lyrics.txt_32,552,nil-nil-nil-honey-[ncmod-loc_origin-nectar-sn3,subj-actor-my-sn2,subj-actor-my-sn1,and(nectar,Himalayan,sn3),and(my,darling,sn1),def_prop(nectar,[edible,oggetto,sostanza]),def_prop(my,[informa,tecno]),def_prop(my,[informa,tecno])])
+lf(Animal Lyrics.txt_33,585,cl57-nil-nil-figure-[ncmod-prop-spectre-sn3,def_prop(spectre,[astratto,attivita,danger,umano])])
+lf(Animal Lyrics.txt_33,585,cl56-nil-nil-like-[obj-goal-bond-sn2,xcomp-purpose-solve-2,subj-tema_emot-riddle-sn1,aux-are-nil,def_prop(bond,[astratto,oggetto,sostanza]),def_prop(riddle,[attivita,informa,oggetto,strumento])])
+lf(Animal Lyrics.txt_33,585,cl55-nil-nil-solve-[xcomp-purpose-figure-3])
+lf(Animal Lyrics.txt_34,621,cl59-nil-nil-be-[xcomp-theme-thing-sn3,subj-theme_bound-you-sn2,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Animal Lyrics.txt_34,621,cl58-nil-can-say-[subj-actor-you-sn1,adj-(mod)-ever-nil,neg-never-nil,def_prop(you,[umano])])
+lf(Animal Lyrics.txt_35,657,cl61-nil-nil-say-[iobj-goal-you-sn3,obj-theme_unaff-thing-sn1,def_prop(you,[umano]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Animal Lyrics.txt_35,657,cl60-nil-nil-be-[xcomp-prop-thing-sn1,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Animal Lyrics.txt_36,694,cl64-nil-nil-think-[])
+lf(Animal Lyrics.txt_36,694,cl63-nil-nil-do-[aux-do-nil])
+lf(Animal Lyrics.txt_36,694,cl62-not-nil-matter-[aux-does-nil])
+lf(Animal Lyrics.txt_37,733,cl66-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(Animal Lyrics.txt_37,733,cl65-nil-nil-want-[subj-actor-i-sn2,subj-actor-i-sn1,and(i,babe,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Animal Lyrics.txt_38,772,cl67-nil-can-be-[obj2-benef-itty-sn3,xcomp-prop-li-l-sn2,subj-theme_bound-i-sn1,and(itty,itty,sn3),def_prop(itty,[istituzione]),def_prop(li-l,[istituzione]),def_prop(i,[umano])])
+lf(Animal Lyrics.txt_39,811,cl69-nil-nil-find-[cmod-subord-cute-nil,subj-actor-person-sn1,and(person,it,sn1),def_prop(person,[any,attivita,body_part,informa,umano])])
+lf(Animal Lyrics.txt_39,811,cl68-nil-nil-be-[subj-theme_bound-you-sn5,subj-prop-person-sn1,and(person,it,sn1),def_prop(you,[umano]),def_prop(person,[any,attivita,body_part,informa,umano])])
+lf(Animal Lyrics.txt_39,811,nil-nil-nil-cute-[subj-agent-person-sn1,and(person,it,sn1),def_prop(person,[any,attivita,body_part,informa,umano])])
+lf(Animal Lyrics.txt_40,853,cl70-nil-may-be-[cmod-subord-be-then,xcomp-prop-queen-sn4,subj-theme_bound-you-sn3,xcomp-prop-king-sn2,subj-theme_bound-i-sn1,def_prop(queen,[animato,oggetto,plant,strumento,umano]),def_prop(you,[umano]),def_prop(king,[astratto,oggetto,plant,stato,strumento,umano]),def_prop(i,[umano])])
+lf(Animal Lyrics.txt_41,894,cl71-nil-nil-be-[xcomp-prop-true-sn2,subj-theme_bound-it-sn1,def_prop(true,[astratto]),def_prop(it,[any])])
+lf(Animal Lyrics.txt_42,936,cl73-nil-nil-divert-[iobj-goal-you-sn12,obj-theme-path-sn2,xadj-result-divert-2,def_prop(you,[umano]),def_prop(path,[luogo,oggetto,strumento])])
+lf(Animal Lyrics.txt_42,936,cl72-nil-nil-try-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Animal Lyrics.txt_43,980,cl75-nil-nil-love-[subj-experiencer-you-sn5,def_prop(you,[umano])])
+lf(Animal Lyrics.txt_43,980,cl74-nil-nil-be-[subj-theme_bound-you-sn6,xcomp-prop-true-sn3,subj-theme_bound-it-sn2,subj-theme_bound-it-sn1,and(it,yes,sn1),def_prop(you,[umano]),def_prop(true,[astratto]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Animal Lyrics.txt_44,1025,nil-nil-nil-back-[])
+lf(Animal Lyrics.txt_44,1025,cl76-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Animal Lyrics.txt_45,1071,cl78-nil-nil-be-[ncmod-modal-Boo- - sn6,subj-theme_bound-you-sn5,def_prop(Boo-,[istituzione,umano]),def_prop(you,[umano])])
+lf(Animal Lyrics.txt_45,1071,cl77-nil-will-will-[obj-theme_aff-call-sn2,subj-agent-i-sn1,def_prop(call,[attivita,informa]),def_prop(i,[umano])])
+lf(Animal Lyrics.txt_46,1118,cl79-nil-nil-say-[obj-theme_unaff-illusion-sn1,def_prop(illusion,[astratto])])
+lf(Animal Lyrics.txt_47,1165,cl80-nil-nil-trap-[obj-theme_aff-fly-sn3,obj-theme-who-sn2,subj-agent-me-sn1,and(fly,web,sn3),and(fly,sticky,sn3),def_prop(fly,[animato,attivita,oggetto,strumento]),def_prop(who,[umano]),def_prop(me,[umano])])
+lf(Animal Lyrics.txt_48,1213,cl81-nil-nil-feel-[cmod-subord-feel-but,subj-experiencer-it-sn1,def_prop(it,[any])])
+lf(Animal Lyrics.txt_49,1262,cl82-nil-nil-say-[obj-theme_unaff-Ooh-sn1,def_prop(Ooh,[istituzione])])
+lf(Animal Lyrics.txt_50,1312,cl84-nil-nil-be-[xcomp-prop-saying-sn3,subj-theme_bound-you-sn2,and(saying,say,sn3),def_prop(saying,[stato]),def_prop(you,[umano])])
+lf(Animal Lyrics.txt_50,1312,cl83-not-nil-mind-[subj-theme_unaff-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Animal Lyrics.txt_51,1364,cl86-nil-nil-be-[cmod-subord-judge-but,xcomp-prop-boo-sn7,arg_mod-agent-face-sn6,xcomp-prop-me-sn5,xcomp-purpose-judge-cl85,def_prop(boo,[attivita,informa]),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(me,[umano])])
+lf(Animal Lyrics.txt_51,1364,cl85-nil-nil-judge-[arg_mod-agent-face-sn2,subj-actor-me-sn1,def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(me,[umano])])
+lf(Animal Lyrics.txt_52,1417,cl87-nil-nil-get-[adj-(mod)-down-nil,ncmod-locativo-knee-sn2,subj-experiencer-i-sn1,aux-am-nil,progr-getting-nil,def_prop(knee,[body_part,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(Animal Lyrics.txt_53,1470,cl88-nil-nil-be-[ncmod-locativo-FB-sn1,def_prop(FB,[istituzione,umano])])
+lf(Animal Lyrics.txt_54,1524,cl89-nil-nil-be-[xcomp-prop-reality-sn3,subj-theme_bound-it-sn2,subj-theme_bound-it-sn1,and(it,word,sn1),and(it,magic,sn1),and(it,two,sn1),def_prop(reality,[astratto,stato]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Animal Lyrics.txt_55,1579,cl90-nil-nil-be-[xcomp-prop-girl-sn2,subj-theme_bound-she-sn1,def_prop(girl,[oggetto,strumento]),def_prop(she,[umano])])
+lf(Animal Lyrics.txt_56,1635,cl91-not-can-get-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Animal Lyrics.txt_57,1692,cl92-nil-nil-be-[xcomp-prop-dust-sn2,subj-theme_bound-she-sn1,def_prop(dust,[sostanza]),def_prop(she,[umano])])
+lf(Animal Lyrics.txt_58,1750,cl93-nil-nil-be-[subj-theme_bound-sec-and-sn1,def_prop(sec-and,[tempo])])
+lf(Animal Lyrics.txt_59,1809,cl94-nil-nil-say-[obj-theme_unaff-blow-sn1,def_prop(blow,[attivita])])
+lf(Animal Lyrics.txt_60,1869,cl95-nil-nil-be-[xcomp-prop-girl-sn2,subj-theme_bound-she-sn1,def_prop(girl,[oggetto,strumento]),def_prop(she,[umano])])
+lf(Animal Lyrics.txt_61,1930,cl96-not-can-get-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Animal Lyrics.txt_62,1992,cl97-nil-nil-be-[xcomp-prop-dust-sn2,subj-theme_bound-she-sn1,def_prop(dust,[sostanza]),def_prop(she,[umano])])
+lf(Animal Lyrics.txt_63,2055,cl98-nil-nil-be-[subj-theme_bound-sec-and-sn1,def_prop(sec-and,[tempo])])
+lf(Animal Lyrics.txt_64,2119,cl99-nil-nil-say-[obj-theme_unaff-blow-sn1,def_prop(blow,[attivita])])

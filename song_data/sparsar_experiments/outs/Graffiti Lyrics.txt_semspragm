@@ -1,0 +1,88 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Graffiti Lyrics.txt_1-1  []-positive  []
+Graffiti Lyrics.txt_2-3  []-suspension  [neg]
+Graffiti Lyrics.txt_3-6  []-negative  [neg]
+Graffiti Lyrics.txt_4-10  []-positive  [fgb]
+Graffiti Lyrics.txt_5-15  []-positive  []
+Graffiti Lyrics.txt_6-21  []-positive  [fgb]
+Graffiti Lyrics.txt_7-29  []-positive  []
+Graffiti Lyrics.txt_8-37  []-positive  []
+Graffiti Lyrics.txt_9-46  []-suspension  [neg]
+Graffiti Lyrics.txt_10-56  []-negative  [neg]
+Graffiti Lyrics.txt_11-67  []-positive  [fgb]
+Graffiti Lyrics.txt_12-79  []-positive  []
+Graffiti Lyrics.txt_13-92  []-positive  [fgb]
+Graffiti Lyrics.txt_14-107  []-positive  []
+Graffiti Lyrics.txt_15-122  []-positive  []
+Graffiti Lyrics.txt_15-123  []-positive  []
+Graffiti Lyrics.txt_16-139  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Graffiti Lyrics.txt_1-1  [graffiti,Lyrics,by,S-X]  [title]
+Graffiti Lyrics.txt_2-3  [all,alone,on,the,city,floor]  [propose_opin_neg(floor,[external,factive,explanation,background,objective])]
+Graffiti Lyrics.txt_3-6  [your,mother-s,dead]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Graffiti Lyrics.txt_4-10  [and,your,brother-s,gone]  [provide_expl_just(go,[external,factive,narration,foreground,objective])]
+Graffiti Lyrics.txt_5-15  [you,are,young]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Graffiti Lyrics.txt_6-21  [and,you,want,to,inspire]  [provide_expl_just(inspire,[external,factive,narration,background,objective])]
+Graffiti Lyrics.txt_7-29  [roaming,on]  [provide_expl_just(roam,[external,factive,narration,foreground,objective])]
+Graffiti Lyrics.txt_8-37  [in,the,haze,of,the,city,light]  [provide_expl_just(haze,[internal,factive,narration,background,objective])]
+Graffiti Lyrics.txt_9-46  [all,alone,on,the,city,floor]  [provide_expl_just(floor,[external,factive,narration,background,objective])]
+Graffiti Lyrics.txt_10-56  [your,mother-s,dead]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Graffiti Lyrics.txt_11-67  [and,your,brother-s,gone]  [provide_expl_just(go,[external,factive,narration,foreground,objective])]
+Graffiti Lyrics.txt_12-79  [you,are,young]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Graffiti Lyrics.txt_13-92  [and,you,want,to,desire]  [provide_expl_just(desire,[external,factive,narration,background,objective])]
+Graffiti Lyrics.txt_14-107  [your,faith,is,on,tonight]  [provide_expl_just(tonight,[internal,factive,narration,background,objective])]
+Graffiti Lyrics.txt_15-122  [i,really,wish]  [provide_expl_just(wish,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Graffiti Lyrics.txt_15-123  [you,had,it,all]  [provide_expl_just(wish,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Graffiti Lyrics.txt_16-139  [your,faith,is,on,tonight]  [provide_expl_just(tonight,[internal,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Graffiti Lyrics.txt_1-1)-[]
+2-(Graffiti Lyrics.txt_2-3)-[primary-brink]
+3-(Graffiti Lyrics.txt_3-6)-[primary-passivity]
+4-(Graffiti Lyrics.txt_4-10)-[]
+5-(Graffiti Lyrics.txt_5-15)-[]
+6-(Graffiti Lyrics.txt_6-21)-[]
+7-(Graffiti Lyrics.txt_7-29)-[]
+8-(Graffiti Lyrics.txt_8-37)-[primary-diffusion,primary-vision]
+half
+9-(Graffiti Lyrics.txt_9-46)-[primary-brink]
+10-(Graffiti Lyrics.txt_10-56)-[primary-passivity]
+11-(Graffiti Lyrics.txt_11-67)-[]
+12-(Graffiti Lyrics.txt_12-79)-[]
+13-(Graffiti Lyrics.txt_13-92)-[]
+14-(Graffiti Lyrics.txt_14-107)-[secondary-temporal_repere]
+15-(Graffiti Lyrics.txt_15-122)-[secondary-abstract_tought]
+16-(Graffiti Lyrics.txt_15-123)-[]
+17-(Graffiti Lyrics.txt_16-139)-[secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Graffiti Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-S-X-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,graffiti,sn1),def_prop(S-X,[attivita,informa]),def_prop(Lyrics,[informa,tecno])])
+lf(Graffiti Lyrics.txt_2,3,cl2-nil-nil-floor-[xadj-adj-alone-adj1,ncmod-locativo-city-sn2,subj-theme-all-sn1,def_prop(alone,_126674),def_prop(city,[istituzione,luogo]),def_prop(all,[_126714])])
+lf(Graffiti Lyrics.txt_3,6,cl3-nil-nil-be-[subj-theme_bound-mother-s-sn1,def_prop(mother-s,[astratto,body_part,sostanza,umano])])
+lf(Graffiti Lyrics.txt_4,10,cl4-nil-nil-go-[cmod-subord-go-",subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Graffiti Lyrics.txt_5,15,cl5-nil-nil-be-[xcomp-prop-young-sn2,subj-theme_bound-you-sn1,def_prop(young,[valutativo]),def_prop(you,[umano])])
+lf(Graffiti Lyrics.txt_6,21,cl7-nil-nil-inspire-[cmod-subord-inspire-",subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Graffiti Lyrics.txt_6,21,cl6-nil-nil-want-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Graffiti Lyrics.txt_7,29,cl8-nil-nil-roam-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(Graffiti Lyrics.txt_8,37,cl9-nil-nil-be-[ncmod-temporale-haze-sn1,def_prop(haze,[attivita,cambia])])
+lf(Graffiti Lyrics.txt_9,46,cl10-nil-nil-floor-[xadj-adj-alone-adj3,ncmod-locativo-city-sn2,subj-theme-all-sn1,def_prop(alone,_127466),def_prop(city,[istituzione,luogo]),def_prop(all,[_127506])])
+lf(Graffiti Lyrics.txt_10,56,cl11-nil-nil-be-[subj-theme_bound-mother-s-sn1,def_prop(mother-s,[astratto,body_part,sostanza,umano])])
+lf(Graffiti Lyrics.txt_11,67,cl12-nil-nil-go-[cmod-subord-go-",subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Graffiti Lyrics.txt_12,79,cl13-nil-nil-be-[xcomp-prop-young-sn2,subj-theme_bound-you-sn1,def_prop(young,[valutativo]),def_prop(you,[umano])])
+lf(Graffiti Lyrics.txt_13,92,cl15-nil-nil-desire-[cmod-subord-desire-",subj-theme-you-sn1,def_prop(you,[umano])])
+lf(Graffiti Lyrics.txt_13,92,cl14-nil-nil-want-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Graffiti Lyrics.txt_14,107,cl16-nil-nil-be-[ncmod-locativo-tonight-sn2,subj-theme_bound-faith-sn1,def_prop(tonight,[istituzione]),def_prop(faith,[astratto,attivita])])
+lf(Graffiti Lyrics.txt_15,122,cl18-nil-nil-have-[xcomp-tema_bound-all-sn5,subj-experiencer-you-sn4,and(all,it,sn5),def_prop(all,[_128216]),def_prop(you,[umano])])
+lf(Graffiti Lyrics.txt_15,122,cl17-nil-nil-wish-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Graffiti Lyrics.txt_16,139,cl19-nil-nil-be-[ncmod-locativo-tonight-sn2,subj-theme_bound-faith-sn1,def_prop(tonight,[istituzione]),def_prop(faith,[astratto,attivita])])

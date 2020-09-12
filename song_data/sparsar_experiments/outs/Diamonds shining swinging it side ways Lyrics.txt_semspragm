@@ -1,0 +1,60 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Diamonds shining swinging it side ways Lyrics.txt_1-1  []-positive  []
+Diamonds shining swinging it side ways Lyrics.txt_2-4  []-negative  [neg]
+Diamonds shining swinging it side ways Lyrics.txt_3-13  [when-temp_coinc]-positive  []
+Diamonds shining swinging it side ways Lyrics.txt_3-14  []-positive  []
+Diamonds shining swinging it side ways Lyrics.txt_3-15  []-positive  []
+Diamonds shining swinging it side ways Lyrics.txt_4-19  [if-hypoth]-negative  [fgb,neg,ack]
+Diamonds shining swinging it side ways Lyrics.txt_5-29  []-positive  []
+Diamonds shining swinging it side ways Lyrics.txt_6-37  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Diamonds shining swinging it side ways Lyrics.txt_1-1  [diamonds,shining,swinging,it,side,ways,Lyrics,by,Zoomboom]  [title]
+Diamonds shining swinging it side ways Lyrics.txt_2-4  [ice,on,my,chain,diamonds,shining,swinging,it,side,ways,haters,got,me,wrong]  [reject_expl_just(wrong,[external,factive,explanation,background,objective]),propose_opin_neg(wrong,[external,factive,explanation,background,objective]),reject_expl_just(swing,[external,factive,cause,foreground,objective]),reject_expl_just(side,[external,factive,explanation,background,objective]),propose_opin_neg(side,[external,factive,explanation,background,objective]),reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(ice,[external,factive,explanation,background,objective]),propose_opin_neg(ice,[external,factive,explanation,background,objective])]
+Diamonds shining swinging it side ways Lyrics.txt_3-13  [when,i,walk,in,sight]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(walk,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Diamonds shining swinging it side ways Lyrics.txt_3-14  [tattoos,are,my,work,of,art,on,my,skin]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(walk,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Diamonds shining swinging it side ways Lyrics.txt_3-15  [see,better,with,the]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(walk,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Diamonds shining swinging it side ways Lyrics.txt_4-19  [eye,doctor,where,should,i,go,if,i,can,not,see,right,walls,show,best,work,of,art]  [reject_expl_just(show,[external,factive,result,background,objective]),propose_opin_neg(show,[external,factive,result,background,objective]),reject_expl_just(see,[external,nonfactive,narration,foreground,objective]),reject_expl_just(shall,[external,nonfactive,hypothesis,foreground,objective])]
+Diamonds shining swinging it side ways Lyrics.txt_5-29  [to,the,world,to,see,shades,on,at,night,nice,view,to,see,i,keep,on,walking]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective])]
+Diamonds shining swinging it side ways Lyrics.txt_6-37  [straight]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Diamonds shining swinging it side ways Lyrics.txt_1-1)-[primary-concreteness]
+2-(Diamonds shining swinging it side ways Lyrics.txt_2-4)-[primary-cold,primary-concreteness,emotions-aggression]
+3-(Diamonds shining swinging it side ways Lyrics.txt_3-13)-[secondary-temporal_repere,primary-vision]
+4-(Diamonds shining swinging it side ways Lyrics.txt_3-14)-[secondary-instru_behavior,emotions-expressive_beh,primary-narcissism]
+half
+5-(Diamonds shining swinging it side ways Lyrics.txt_3-15)-[primary-vision]
+6-(Diamonds shining swinging it side ways Lyrics.txt_4-19)-[primary-narcissism,primary-concreteness,secondary-moral_imperative,primary-vision,secondary-moral_imperative,primary-brink,secondary-instru_behavior,emotions-expressive_beh]
+7-(Diamonds shining swinging it side ways Lyrics.txt_5-29)-[primary-vision,primary-diffusion,primary-concreteness,primary-vision,primary-vision]
+8-(Diamonds shining swinging it side ways Lyrics.txt_6-37)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Diamonds shining swinging it side ways Lyrics.txt_1,1,cl2-nil-nil-side-[adj-(mod)-ways-nil,obj-theme-Lyrics-sn3,obj-theme-it-sn2,xcomp-purpose-swing-2,subj-agent-diamond-sn1,def_prop(Lyrics,[informa,tecno]),def_prop(it,[any]),def_prop(diamond,[astratto,oggetto,sostanza,strumento])])
+lf(Diamonds shining swinging it side ways Lyrics.txt_1,1,cl1-nil-nil-swing-[arg_mod-agent-Zoomboom-sn4,def_prop(Zoomboom,[istituzione,umano])])
+lf(Diamonds shining swinging it side ways Lyrics.txt_2,4,cl7-nil-nil-wrong-[subj-agent-you-sn19,subj-agent-me-sn21,obj-prop-me-sn20,xadj-result-get-7,obj-paziente-me-sn18,xadj-result-get-6,subj-agent-hater-sn17,adj-(mod)-ways-nil,subj-agent-hater-sn14,subj-theme_aff-it-sn7,ncmod-locativo-chain-sn3,def_prop(you,[umano]),def_prop(me,[umano]),def_prop(me,[umano]),def_prop(me,[umano]),def_prop(hater,[umano]),def_prop(hater,[umano]),def_prop(it,[any]),def_prop(chain,[nquant,oggetto,strumento])])
+lf(Diamonds shining swinging it side ways Lyrics.txt_2,4,cl6-nil-nil-get-[obj-paziente-me-sn15,xcomp-purpose-wrong-cl7,obj-paziente-me-sn12,def_prop(me,[umano]),def_prop(me,[umano])])
+lf(Diamonds shining swinging it side ways Lyrics.txt_2,4,cl5-nil-nil-side-[adj-(mod)-ways-nil,subj-agent-hater-sn11,obj-paziente-me-sn9,xcomp-purpose-get-3,obj-theme-hater-sn8,subj-agent-it-sn7,def_prop(hater,[umano]),def_prop(me,[umano]),def_prop(hater,[umano]),def_prop(it,[any])])
+lf(Diamonds shining swinging it side ways Lyrics.txt_2,4,cl4-nil-nil-swing-[])
+lf(Diamonds shining swinging it side ways Lyrics.txt_2,4,cl3-nil-nil-ice-[subj-theme-diamond-sn2,subj-theme-diamond-sn1,and(diamond,you,sn1),def_prop(diamond,[astratto,oggetto,sostanza,strumento]),def_prop(diamond,[astratto,oggetto,sostanza,strumento])])
+lf(Diamonds shining swinging it side ways Lyrics.txt_3,13,cl10-nil-nil-see-[adj-(mod)-better-nil,adj-subj_disc-better-sn12,subj-experiencer-you-sn11,iobj-goal-sight-sn3,def_prop(better,[istituzione]),def_prop(better,[istituzione]),def_prop(you,[umano]),def_prop(sight,[astratto,attivita,informa,nquant,oggetto,strumento])])
+lf(Diamonds shining swinging it side ways Lyrics.txt_3,13,cl9-nil-nil-be-[xcomp-prop-work-sn5,subj-theme_bound-tattoo-sn4,def_prop(work,[attivita,cambia,oggetto,strumento]),def_prop(tattoo,[attivita,informa,oggetto,strumento])])
+lf(Diamonds shining swinging it side ways Lyrics.txt_3,13,cl8-nil-nil-walk-[obj-theme-when-sn2,subj-agent-i-sn1,def_prop(when,[tempo]),def_prop(i,[umano])])
+lf(Diamonds shining swinging it side ways Lyrics.txt_4,19,nil-nil-should-shall-[subj-theme_unaff-doctor-sn2,def_prop(doctor,[attivita,informa,umano])])
+lf(Diamonds shining swinging it side ways Lyrics.txt_4,19,cl14-nil-nil-show-[cmod-subord-shall-if,subj-actor-work-sn11,obj-goal-work-sn9,subj-actor-wall-sn8,and(work,best,sn11),and(work,best,sn9),and(wall,right,sn8),def_prop(work,[attivita,cambia,oggetto,strumento]),def_prop(work,[attivita,cambia,oggetto,strumento]),def_prop(wall,[body_part,oggetto,stato,strumento,umano])])
+lf(Diamonds shining swinging it side ways Lyrics.txt_4,19,cl13-not-can-see-[obj-goal-work-sn6,xcomp-purpose-show-4,subj-experiencer-wall-sn5,subj-experiencer-i-sn4,and(work,best,sn6),and(wall,right,sn5),def_prop(work,[attivita,cambia,oggetto,strumento]),def_prop(wall,[body_part,oggetto,stato,strumento,umano]),def_prop(i,[umano])])
+lf(Diamonds shining swinging it side ways Lyrics.txt_4,19,cl12-nil-nil-go-[subj-prop-doctor-sn2,def_prop(doctor,[attivita,informa,umano])])
+lf(Diamonds shining swinging it side ways Lyrics.txt_4,19,cl11-nil-nil-eye-[obj-theme-i-sn3,obj-stimulus-doctor-sn2,subj-experiencer-you-sn1,def_prop(i,[umano]),def_prop(doctor,[attivita,informa,umano]),def_prop(you,[umano])])
+lf(Diamonds shining swinging it side ways Lyrics.txt_5,29,cl16-nil-nil-keep-[obj-actor-shade-sn3,xadj-result-see-2,ncmod-loc_direct-world-sn2,subj-experiencer-i-sn1,def_prop(shade,[astratto,oggetto,stato,strumento]),def_prop(world,[astratto,istituzione,oggetto]),def_prop(i,[umano])])
+lf(Diamonds shining swinging it side ways Lyrics.txt_5,29,cl15-nil-nil-see-[iobj-locat-walking-sn5,xcomp-prop-see-3,iobj-locat-view-sn4,and(view,nice,sn4),def_prop(walking,[cambia,evento]),def_prop(view,[astratto,attivita,luogo])])
+lf(Diamonds shining swinging it side ways Lyrics.txt_6,37,cl17-nil-nil-say-[])

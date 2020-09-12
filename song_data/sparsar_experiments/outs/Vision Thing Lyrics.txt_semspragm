@@ -1,0 +1,250 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Vision Thing Lyrics.txt_1-1  []-positive  [neg]
+Vision Thing Lyrics.txt_2-3  []-positive  []
+Vision Thing Lyrics.txt_3-6  []-negative  [fgb]
+Vision Thing Lyrics.txt_4-10  []-positive  []
+Vision Thing Lyrics.txt_4-11  []-positive  []
+Vision Thing Lyrics.txt_5-16  []-positive  []
+Vision Thing Lyrics.txt_6-22  []-positive  [fgb]
+Vision Thing Lyrics.txt_6-23  [before-temp_prec]-negative  [neg]
+Vision Thing Lyrics.txt_7-30  []-positive  []
+Vision Thing Lyrics.txt_7-31  []-positive  [fgb]
+Vision Thing Lyrics.txt_8-39  []-positive  []
+Vision Thing Lyrics.txt_8-40  [if-hypoth]-negative  [fgb,neg]
+Vision Thing Lyrics.txt_9-49  []-positive  [fgb]
+Vision Thing Lyrics.txt_10-59  []-negative  [neg]
+Vision Thing Lyrics.txt_11-70  []-suspension  [neg,neg]
+Vision Thing Lyrics.txt_12-82  []-positive  [neg]
+Vision Thing Lyrics.txt_13-95  []-positive  []
+Vision Thing Lyrics.txt_14-109  [when-temp_coinc]-negative  [neg]
+Vision Thing Lyrics.txt_15-124  []-positive  [fgb]
+Vision Thing Lyrics.txt_16-140  []-positive  []
+Vision Thing Lyrics.txt_17-157  []-negative  []
+Vision Thing Lyrics.txt_18-175  []-positive  []
+Vision Thing Lyrics.txt_18-176  []-negative  [fgb,neg]
+Vision Thing Lyrics.txt_19-195  []-positive  []
+Vision Thing Lyrics.txt_19-196  [if-hypoth]-positive  [fgb]
+Vision Thing Lyrics.txt_20-216  []-positive  [fgb]
+Vision Thing Lyrics.txt_21-237  []-negative  [neg]
+Vision Thing Lyrics.txt_22-259  []-negative  []
+Vision Thing Lyrics.txt_23-282  []-negative  []
+Vision Thing Lyrics.txt_24-306  []-question  [neg,fgb]
+Vision Thing Lyrics.txt_24-307  []-positive  []
+Vision Thing Lyrics.txt_25-334  []-positive  [fgb]
+Vision Thing Lyrics.txt_26-362  [while-temp_coinc]-question  []
+Vision Thing Lyrics.txt_27-390  []-suspension  []
+Vision Thing Lyrics.txt_28-418  []-positive  []
+Vision Thing Lyrics.txt_29-447  []-suspension  [neg,neg]
+Vision Thing Lyrics.txt_30-477  []-suspension  [neg,neg]
+Vision Thing Lyrics.txt_31-508  []-negative  [neg]
+Vision Thing Lyrics.txt_32-540  []-positive  [fhd]
+Vision Thing Lyrics.txt_33-573  []-negative  [fgb,neg]
+Vision Thing Lyrics.txt_34-607  []-negative  [neg]
+Vision Thing Lyrics.txt_35-642  []-positive  []
+Vision Thing Lyrics.txt_36-678  []-positive  []
+Vision Thing Lyrics.txt_37-715  []-positive  []
+Vision Thing Lyrics.txt_37-716  []-negative  [fgb,neg]
+Vision Thing Lyrics.txt_38-754  []-positive  []
+Vision Thing Lyrics.txt_38-755  [if-hypoth]-positive  [fgb]
+Vision Thing Lyrics.txt_39-794  []-positive  [fgb]
+Vision Thing Lyrics.txt_40-834  []-negative  [neg]
+Vision Thing Lyrics.txt_41-875  []-negative  []
+Vision Thing Lyrics.txt_42-917  []-positive  []
+Vision Thing Lyrics.txt_43-960  []-positive  []
+Vision Thing Lyrics.txt_44-1004  []-negative  [neg]
+Vision Thing Lyrics.txt_45-1049  []-negative  [fgb]
+Vision Thing Lyrics.txt_46-1095  []-negative  [neg]
+Vision Thing Lyrics.txt_47-1142  []-positive  []
+Vision Thing Lyrics.txt_48-1190  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Vision Thing Lyrics.txt_1-1  [vision,Thing,Lyrics,by,Sweet,noise]  [title]
+Vision Thing Lyrics.txt_2-3  [twenty-five,whores,in,the,room,next_door]  [provide_expl_just(whore,[external,factive,explanation,background,objective])]
+Vision Thing Lyrics.txt_3-6  [twenty-five,floors,and,i,need,more]  [propose_opin_neg(need,[external,factive,explanation,background,objective])]
+Vision Thing Lyrics.txt_4-10  [i,am,looking]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Vision Thing Lyrics.txt_4-11  [for,the,can,in,the,candy,store]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Vision Thing Lyrics.txt_5-16  [two,thousand,hamburg,four]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_6-22  [and,colours]  [provide_expl_just(colour,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_6-23  [i,is,not,seen,before]  [reject_expl_just(colour,[external,factive,narration,background,objective]),reject_expl_just(see,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_7-30  [it,is,a,small,world]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(smell,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_7-31  [and,it,smells,funny]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(smell,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_8-39  [i,had,buy,another]  [provide_expl_just(buy,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Vision Thing Lyrics.txt_8-40  [if,it,was,not,for,the,money]  [reject_expl_just(buy,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Vision Thing Lyrics.txt_9-49  [take,back,what,i,paid,.]  [provide_expl_just(take,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_10-59  [for,another,motherfucker,in,a,motorcade]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_11-70  [in,a,long,black,car]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_12-82  [with,the,prettiest,shit]  [provide_expl_just(shit,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_13-95  [from,Panama]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Vision Thing Lyrics.txt_14-109  [when,the,sirens,wail]  [reject_expl_just(wail,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_15-124  [and,the,flash,lights,blue]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_16-140  [my,vision,thing,come]  [raise_issue(be,[_1696022,factive,statement,_1696040,subjective])]
+Vision Thing Lyrics.txt_17-157  [slamming,through]  reject_expl_opin(nil,[])
+Vision Thing Lyrics.txt_18-175  [it,is,a,small,world]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(smell,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_18-176  [and,it,smells,bad]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(smell,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_19-195  [i,had,buy,another]  [provide_expl_just(buy,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Vision Thing Lyrics.txt_19-196  [if,i,had]  [provide_expl_just(buy,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Vision Thing Lyrics.txt_20-216  [take,back,what,i,paid,.]  [provide_expl_just(take,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_21-237  [for,another,motherfucker,in,a,motorcade]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_22-259  [slamming,through]  reject_expl_opin(nil,[])
+Vision Thing Lyrics.txt_23-282  [slamming,through]  reject_expl_opin(nil,[])
+Vision Thing Lyrics.txt_24-306  [wee,do,what,?]  [provide_expl_just(make,[internal,factive,narration,foreground,objective]),provide_expl_just(wee,[internal,factive,narration,background,objective]),provide_expl_just(need,[internal,factive,narration,foreground,objective])]
+Vision Thing Lyrics.txt_24-307  [need,to,make,our,world,come,alive]  [provide_expl_just(make,[internal,factive,narration,foreground,objective]),provide_expl_just(wee,[internal,factive,narration,background,objective]),provide_expl_just(need,[internal,factive,narration,foreground,objective])]
+Vision Thing Lyrics.txt_25-334  [what,does,take,it,to,make,us,sing,sing]  [provide_expl_just(sing,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Vision Thing Lyrics.txt_26-362  [arrive,to,one,next,the,for,waiting,are,we,while,?]  [provide_expl_just(arrive,[internal,factive,circumstance,foreground,objective])]
+Vision Thing Lyrics.txt_27-390  [one,million,points,of,light]  [provide_expl_just(point,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_28-418  [one,billion,dollar,vision,thing]  [provide_expl_just(vision,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_29-447  [another,black,hole,in,the,killing,zone]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_30-477  [a,little,more,mad,in,the,methedrome]  [provide_expl_just(mad,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_31-508  [one,blinding,flash,of,sense]  [reject_expl_just(blind,[external,factive,narration,foreground,objective])]
+Vision Thing Lyrics.txt_32-540  [just,the,president-s,like]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_33-573  [well,,,i,don-t,mind]  [reject_expl_just(be,[_1705562,_1705568,_1705574,_1705580,_1705586])]
+Vision Thing Lyrics.txt_34-607  [out_of,my,mind]  [reject_expl_just(be,[_1705784,_1705790,_1705796,_1705802,_1705808])]
+Vision Thing Lyrics.txt_35-642  [blizzard,king]  [provide_expl_just(king,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_36-678  [bring,it,on,home]  [provide_expl_just(bring,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_37-715  [it,is,a,small,world]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(smell,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_37-716  [and,it,smells,bad]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(smell,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_38-754  [i,had,buy,another]  [provide_expl_just(buy,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Vision Thing Lyrics.txt_38-755  [if,i,had]  [provide_expl_just(buy,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Vision Thing Lyrics.txt_39-794  [take,back,what,i,paid,.]  [provide_expl_just(take,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_40-834  [for,another,motherfucker,in,a,motorcade]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_41-875  [slamming,through]  reject_expl_opin(nil,[])
+Vision Thing Lyrics.txt_42-917  [it,is,vision,thing]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_43-960  [twenty-five,whores,in,the,room,next_door]  [provide_expl_just(whore,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_44-1004  [i,can,not,find,any_more]  [reject_expl_just(find,[external,nonfactive,narration,foreground,objective])]
+Vision Thing Lyrics.txt_45-1049  [twenty-five,floors,and,i,need,more]  [provide_expl_just(need,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_46-1095  [sometimes,i,wanna,fuck,this,all]  [reject_expl_just(wanna,[external,factive,narration,background,objective])]
+Vision Thing Lyrics.txt_47-1142  [vision,thing]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Vision Thing Lyrics.txt_48-1190  [blizzard,king]  [provide_expl_just(king,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Vision Thing Lyrics.txt_1-1)-[primary-vision,primary-sound]
+2-(Vision Thing Lyrics.txt_2-3)-[primary-sex]
+3-(Vision Thing Lyrics.txt_3-6)-[primary-brink]
+4-(Vision Thing Lyrics.txt_4-10)-[]
+5-(Vision Thing Lyrics.txt_4-11)-[primary-orality]
+6-(Vision Thing Lyrics.txt_5-16)-[]
+7-(Vision Thing Lyrics.txt_6-22)-[primary-vision]
+8-(Vision Thing Lyrics.txt_6-23)-[primary-vision]
+9-(Vision Thing Lyrics.txt_7-30)-[]
+10-(Vision Thing Lyrics.txt_7-31)-[primary-odor,emotions-positive_affect]
+11-(Vision Thing Lyrics.txt_8-39)-[secondary-instru_behavior]
+12-(Vision Thing Lyrics.txt_8-40)-[secondary-instru_behavior]
+13-(Vision Thing Lyrics.txt_9-49)-[primary-concreteness,secondary-instru_behavior]
+14-(Vision Thing Lyrics.txt_10-59)-[]
+15-(Vision Thing Lyrics.txt_11-70)-[primary-concreteness]
+16-(Vision Thing Lyrics.txt_12-82)-[primary-anality]
+17-(Vision Thing Lyrics.txt_13-95)-[]
+18-(Vision Thing Lyrics.txt_14-109)-[secondary-temporal_repere,emotions-sadness]
+19-(Vision Thing Lyrics.txt_15-124)-[primary-vision,primary-vision,primary-vision]
+20-(Vision Thing Lyrics.txt_16-140)-[primary-vision]
+21-(Vision Thing Lyrics.txt_17-157)-[]
+22-(Vision Thing Lyrics.txt_18-175)-[]
+23-(Vision Thing Lyrics.txt_18-176)-[primary-odor]
+24-(Vision Thing Lyrics.txt_19-195)-[secondary-instru_behavior]
+25-(Vision Thing Lyrics.txt_19-196)-[]
+26-(Vision Thing Lyrics.txt_20-216)-[primary-concreteness,secondary-instru_behavior]
+27-(Vision Thing Lyrics.txt_21-237)-[]
+28-(Vision Thing Lyrics.txt_22-259)-[]
+half
+29-(Vision Thing Lyrics.txt_23-282)-[]
+30-(Vision Thing Lyrics.txt_24-306)-[]
+31-(Vision Thing Lyrics.txt_24-307)-[secondary-instru_behavior]
+32-(Vision Thing Lyrics.txt_25-334)-[secondary-instru_behavior,emotions-expressive_beh,emotions-expressive_beh]
+33-(Vision Thing Lyrics.txt_26-362)-[secondary-temporal_repere]
+34-(Vision Thing Lyrics.txt_27-390)-[primary-concreteness,primary-vision]
+35-(Vision Thing Lyrics.txt_28-418)-[primary-vision]
+36-(Vision Thing Lyrics.txt_29-447)-[primary-depth]
+37-(Vision Thing Lyrics.txt_30-477)-[primary-counscious]
+38-(Vision Thing Lyrics.txt_31-508)-[primary-vision]
+39-(Vision Thing Lyrics.txt_32-540)-[emotions-affection]
+40-(Vision Thing Lyrics.txt_33-573)-[]
+41-(Vision Thing Lyrics.txt_34-607)-[]
+42-(Vision Thing Lyrics.txt_35-642)-[]
+43-(Vision Thing Lyrics.txt_36-678)-[]
+44-(Vision Thing Lyrics.txt_37-715)-[]
+45-(Vision Thing Lyrics.txt_37-716)-[primary-odor]
+46-(Vision Thing Lyrics.txt_38-754)-[secondary-instru_behavior]
+47-(Vision Thing Lyrics.txt_38-755)-[]
+48-(Vision Thing Lyrics.txt_39-794)-[primary-concreteness,secondary-instru_behavior]
+49-(Vision Thing Lyrics.txt_40-834)-[]
+50-(Vision Thing Lyrics.txt_41-875)-[]
+51-(Vision Thing Lyrics.txt_42-917)-[primary-vision]
+52-(Vision Thing Lyrics.txt_43-960)-[primary-sex]
+53-(Vision Thing Lyrics.txt_44-1004)-[secondary-instru_behavior]
+54-(Vision Thing Lyrics.txt_45-1049)-[primary-brink]
+55-(Vision Thing Lyrics.txt_46-1095)-[secondary-temporal_repere,primary-sex]
+56-(Vision Thing Lyrics.txt_47-1142)-[primary-vision]
+57-(Vision Thing Lyrics.txt_48-1190)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Vision Thing Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-noise-sn2,subj-theme_bound-Lyrics-sn1,and(noise,Sweet,sn2),and(Lyrics,Thing,sn1),and(Lyrics,vision,sn1),def_prop(noise,[astratto,attivita,evento,informa]),def_prop(Lyrics,[informa,tecno])])
+lf(Vision Thing Lyrics.txt_2,3,cl2-nil-nil-whore-[adj-(mod)-next_door-nil,ncmod-locativo-room-sn2,subj-actor-twenty-five-sn1,def_prop(room,[nquant,oggetto,stato,strumento]),def_prop(twenty-five,[nquant])])
+lf(Vision Thing Lyrics.txt_3,6,cl3-nil-nil-need-[coord-experiencer-floor_and_i-sn3,subj-experiencer-i-sn2,subj-experiencer-floor-sn1,def_prop(floor_and_i,[astratto,attivita,informa,oggetto,strumento,umano]),def_prop(i,[astratto,attivita,informa,oggetto,strumento,umano]),def_prop(floor,[astratto,attivita,informa,oggetto,strumento,umano])])
+lf(Vision Thing Lyrics.txt_4,10,cl5-nil-nil-be-[xcomp-prop-store-sn3,subj-theme_bound-can-sn2,def_prop(store,[astratto,oggetto]),def_prop(can,[attivita,body_part,informa,nquant,oggetto,strumento,umano])])
+lf(Vision Thing Lyrics.txt_4,10,cl4-nil-nil-look-[subj-agent-you-sn1,aux-am-nil,progr-looking-nil,def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_5,16,cl6-nil-nil-be-[xcomp-theme-thousand-sn2,subj-theme_bound-you-sn1,def_prop(thousand,[nquant]),def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_6,22,cl7-not-nil-see-[subj-actor-i-sn2,aux-(is)-nil,def_prop(i,[umano])])
+lf(Vision Thing Lyrics.txt_6,22,nil-nil-nil-colour-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_7,30,cl9-nil-nil-smell-[cmod-subord-smell-",xcomp-prop-funny-sn4,subj-experiencer-it-sn3,def_prop(funny,[evaluative]),def_prop(it,[any])])
+lf(Vision Thing Lyrics.txt_7,30,cl8-nil-nil-be-[xcomp-prop-world-sn2,subj-theme_bound-it-sn1,and(world,small,sn2),def_prop(world,[astratto,istituzione,oggetto]),def_prop(it,[any])])
+lf(Vision Thing Lyrics.txt_8,39,cl11-nil-nil-be-[xcomp-theme-money-sn4,subj-theme_bound-it-sn3,def_prop(money,[astratto,oggetto]),def_prop(it,[any])])
+lf(Vision Thing Lyrics.txt_8,39,cl10-nil-nil-buy-[obj-theme-another-sn2,subj-actor-i-sn1,aux-had-nil,def_prop(another,[istituzione]),def_prop(i,[umano])])
+lf(Vision Thing Lyrics.txt_9,49,cl12-nil-nil-take-[xcomp-prop-back-sn2,subj-agent-you-sn1,def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_10,59,cl13-nil-nil-be-[ncmod-locativo-motorcade-sn2,subj-theme_bound-motherfucker-sn1,and(motherfucker,another,sn1),def_prop(motorcade,[istituzione]),def_prop(motherfucker,[umano])])
+lf(Vision Thing Lyrics.txt_11,70,cl14-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_12,82,cl15-nil-nil-shit-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_13,95,cl16-nil-nil-say-[ncmod-loc_origin-Panama-sn1,def_prop(Panama,[place,luogo])])
+lf(Vision Thing Lyrics.txt_14,109,cl17-nil-nil-wail-[obj-theme-when-sn2,subj-experiencer-siren-sn1,def_prop(when,[tempo]),def_prop(siren,[animato,attivita,informa,oggetto,strumento])])
+lf(Vision Thing Lyrics.txt_15,124,cl18-nil-nil-be-[cmod-subord-be-",ncmod-modal-light-sn2,subj-theme_bound-you-sn1,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_16,140,cl19-nil-nil-come-[ncmod-modal-vision-sn2,subj-agent-you-sn1,def_prop(vision,[astratto,evento]),def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_17,157,cl20-nil-nil-slam-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_18,175,cl22-nil-nil-smell-[cmod-subord-smell-",xcomp-prop-bad-sn4,subj-experiencer-it-sn3,def_prop(bad,[soggettivo]),def_prop(it,[any])])
+lf(Vision Thing Lyrics.txt_18,175,cl21-nil-nil-be-[xcomp-prop-world-sn2,subj-theme_bound-it-sn1,and(world,small,sn2),def_prop(world,[astratto,istituzione,oggetto]),def_prop(it,[any])])
+lf(Vision Thing Lyrics.txt_19,195,cl24-nil-nil-have-[subj-experiencer-i-sn3,def_prop(i,[umano])])
+lf(Vision Thing Lyrics.txt_19,195,cl23-nil-nil-buy-[obj-theme-another-sn2,subj-actor-i-sn1,aux-had-nil,def_prop(another,[istituzione]),def_prop(i,[umano])])
+lf(Vision Thing Lyrics.txt_20,216,cl25-nil-nil-take-[xcomp-prop-back-sn2,subj-agent-you-sn1,def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_21,237,cl26-nil-nil-be-[ncmod-locativo-motorcade-sn2,subj-theme_bound-motherfucker-sn1,and(motherfucker,another,sn1),def_prop(motorcade,[istituzione]),def_prop(motherfucker,[umano])])
+lf(Vision Thing Lyrics.txt_22,259,cl27-nil-nil-slam-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_23,282,cl28-nil-nil-slam-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_24,306,cl32-nil-nil-come-[obj-prop-world-sn3,xcomp-purpose-make-2,def_prop(world,[astratto,istituzione,oggetto])])
+lf(Vision Thing Lyrics.txt_24,306,cl31-nil-nil-make-[obj-prop-alive-sn4,xadj-result-come-3,def_prop(alive,[valutativo])])
+lf(Vision Thing Lyrics.txt_24,306,cl30-nil-nil-need-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_24,306,cl29-nil-nil-wee-[subj-actor-what-sn1,aux-do-nil,def_prop(what,[oggetto])])
+lf(Vision Thing Lyrics.txt_25,334,cl34-nil-nil-sing-[f2-sn1-what-sn2,subj-agent-us-sn1,def_prop(what,[oggetto]),def_prop(us,[umano])])
+lf(Vision Thing Lyrics.txt_25,334,cl33-nil-nil-take-[aux-does-nil])
+lf(Vision Thing Lyrics.txt_26,362,cl36-nil-nil-arrive-[])
+lf(Vision Thing Lyrics.txt_26,362,cl35-nil-nil-wait-[cmod-subord-arrive-while,subj-actor-one-sn2,subj-actor-one-sn1,aux-are-nil,progr-waiting-nil,and(one,next,sn2),and(one,next,sn1),def_prop(one,[umano]),def_prop(one,[umano])])
+lf(Vision Thing Lyrics.txt_27,390,cl37-nil-nil-point-[ncmod-specif-light-sn2,subj-agent-one-sn1,and(one,one,sn1),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(one,[umano])])
+lf(Vision Thing Lyrics.txt_28,418,nil-nil-nil-vision-[obj-theme_aff-thing-sn2,subj-agent-billion-sn1,and(billion,one,sn1),and(billion,billion,sn1),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(billion,_1718634)])
+lf(Vision Thing Lyrics.txt_29,447,cl38-nil-nil-be-[xcomp-theme-black-sn3,ncmod-locativo-zone-sn2,subj-theme_bound-you-sn1,and(black,another,sn3),and(zone,killing,sn2),def_prop(black,[astratto,oggetto,strumento]),def_prop(zone,[body_part,luogo,umano]),def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_30,477,nil-nil-nil-mad-[ncmod-locativo-methedrome-sn3,subj-agent-more-sn2,subj-agent-more-sn1,and(more,little,sn1),def_prop(methedrome,[istituzione]),def_prop(more,[astratto,informa,oggetto]),def_prop(more,[astratto,informa,oggetto])])
+lf(Vision Thing Lyrics.txt_31,508,cl39-nil-nil-blind-[obj-theme-flash-sn2,subj-actor-one-sn1,def_prop(flash,[astratto,evento,oggetto,strumento,tempo]),def_prop(one,[umano])])
+lf(Vision Thing Lyrics.txt_32,540,nil-nil-nil-like-[subj-experiencer-president-s-sn1,def_prop(president-s,[umano])])
+lf(Vision Thing Lyrics.txt_33,573,cl40-not-nil-mind-[subj-theme_unaff-i-sn1,aux-do-nil,def_prop(i,[umano])])
+lf(Vision Thing Lyrics.txt_34,607,cl41-nil-nil-mind-[subj-theme_unaff-you-sn1,def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_35,642,nil-nil-nil-king-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_36,678,cl42-nil-nil-bring-[ncmod-locativo-home-sn2,subj-agent-it-sn1,def_prop(home,[luogo]),def_prop(it,[any])])
+lf(Vision Thing Lyrics.txt_37,715,cl44-nil-nil-smell-[cmod-subord-smell-",xcomp-prop-bad-sn4,subj-experiencer-it-sn3,def_prop(bad,[soggettivo]),def_prop(it,[any])])
+lf(Vision Thing Lyrics.txt_37,715,cl43-nil-nil-be-[xcomp-prop-world-sn2,subj-theme_bound-it-sn1,and(world,small,sn2),def_prop(world,[astratto,istituzione,oggetto]),def_prop(it,[any])])
+lf(Vision Thing Lyrics.txt_38,754,cl46-nil-nil-have-[subj-experiencer-i-sn3,def_prop(i,[umano])])
+lf(Vision Thing Lyrics.txt_38,754,cl45-nil-nil-buy-[obj-theme-another-sn2,subj-actor-i-sn1,aux-had-nil,def_prop(another,[istituzione]),def_prop(i,[umano])])
+lf(Vision Thing Lyrics.txt_39,794,cl47-nil-nil-take-[xcomp-prop-back-sn2,subj-agent-you-sn1,def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_40,834,cl48-nil-nil-be-[ncmod-locativo-motorcade-sn2,subj-theme_bound-motherfucker-sn1,and(motherfucker,another,sn1),def_prop(motorcade,[istituzione]),def_prop(motherfucker,[umano])])
+lf(Vision Thing Lyrics.txt_41,875,cl49-nil-nil-slam-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Vision Thing Lyrics.txt_42,917,cl50-nil-nil-be-[xcomp-prop-thing-sn2,subj-theme_bound-it-sn1,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(it,[any])])
+lf(Vision Thing Lyrics.txt_43,960,cl51-nil-nil-whore-[adj-(mod)-next_door-nil,ncmod-locativo-room-sn2,subj-actor-twenty-five-sn1,def_prop(room,[nquant,oggetto,stato,strumento]),def_prop(twenty-five,[nquant])])
+lf(Vision Thing Lyrics.txt_44,1004,cl52-not-can-find-[obj-theme_bound-any_more-sn2,subj-actor-i-sn1,def_prop(any_more,[nquant]),def_prop(i,[umano])])
+lf(Vision Thing Lyrics.txt_45,1049,cl53-nil-nil-need-[coord-experiencer-floor_and_i-sn3,subj-experiencer-i-sn2,subj-experiencer-floor-sn1,def_prop(floor_and_i,[astratto,attivita,informa,oggetto,strumento,umano]),def_prop(i,[astratto,attivita,informa,oggetto,strumento,umano]),def_prop(floor,[astratto,attivita,informa,oggetto,strumento,umano])])
+lf(Vision Thing Lyrics.txt_46,1095,nil-nil-nil-wanna-[obj-theme-all-sn3,obj-theme_aff-fuck-sn2,subj-agent-i-sn1,and(all,this,sn3),def_prop(all,[_1721230]),def_prop(fuck,[attivita]),def_prop(i,[umano])])
+lf(Vision Thing Lyrics.txt_47,1142,cl54-nil-nil-say-[obj-theme_unaff-thing-sn1,and(thing,vision,sn1),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Vision Thing Lyrics.txt_48,1190,nil-nil-nil-king-[subj-agent-you-sn1,def_prop(you,[umano])])

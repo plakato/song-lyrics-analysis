@@ -1,0 +1,71 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Bleak Necrotic Paleness Lyrics.txt_1-1  []-negative  [neg]
+Bleak Necrotic Paleness Lyrics.txt_2-3  [(as)-temp_coinc]-suspension  [neg,neg,neg]
+Bleak Necrotic Paleness Lyrics.txt_3-6  []-positive  [fgb]
+Bleak Necrotic Paleness Lyrics.txt_4-10  []-positive  [fhd]
+Bleak Necrotic Paleness Lyrics.txt_5-16  []-positive  []
+Bleak Necrotic Paleness Lyrics.txt_7-30  []-positive  [neg]
+Bleak Necrotic Paleness Lyrics.txt_8-38  []-positive  [fgb,fhd]
+Bleak Necrotic Paleness Lyrics.txt_9-47  []-positive  [fgb,fgb,neg]
+Bleak Necrotic Paleness Lyrics.txt_10-57  []-negative  [neg]
+Bleak Necrotic Paleness Lyrics.txt_11-68  []-question  [neg]
+Bleak Necrotic Paleness Lyrics.txt_12-80  [(as)-temp_coinc]-negative  [neg]
+Bleak Necrotic Paleness Lyrics.txt_13-93  []-positive  [fhd,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Bleak Necrotic Paleness Lyrics.txt_1-1  [bleak,Necrotic,Paleness,Lyrics,by,Xasthur]  [title]
+Bleak Necrotic Paleness Lyrics.txt_2-3  [alone,as,a,stone,cold,altar]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Bleak Necrotic Paleness Lyrics.txt_3-6  [its,keep,and,the,castle]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Bleak Necrotic Paleness Lyrics.txt_4-10  [like,faerytale,dominion,rose]  [provide_expl_just(like,[external,factive,explanation,background,objective])]
+Bleak Necrotic Paleness Lyrics.txt_5-16  [a,widow,to,the,snow,peaks]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bleak Necrotic Paleness Lyrics.txt_7-30  [limbs,purring,from,the,kill]  [proposal(be,[_468900,_468906,statement,foreground,_468924])]
+Bleak Necrotic Paleness Lyrics.txt_8-38  [bathed,in,virgin,white,and,like,the,night]  [provide_expl_just(bath,[external,factive,narration,foreground,objective])]
+Bleak Necrotic Paleness Lyrics.txt_9-47  [alive,and,young,and,unfulfilled]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bleak Necrotic Paleness Lyrics.txt_10-57  [was,it,the,cry,of,a,wolf]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Bleak Necrotic Paleness Lyrics.txt_11-68  [thoughts,enchanted,of,thread,silver,the,broke,that,?]  [proposal(be,[_470520,_470526,statement,foreground,_470544])]
+Bleak Necrotic Paleness Lyrics.txt_12-80  [of,her,life,as,a,mere,reflection]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Bleak Necrotic Paleness Lyrics.txt_13-93  [that,opened,like,dark,eyelids,on]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Bleak Necrotic Paleness Lyrics.txt_1-1)-[]
+2-(Bleak Necrotic Paleness Lyrics.txt_2-3)-[primary-hard,primary-cold]
+3-(Bleak Necrotic Paleness Lyrics.txt_3-6)-[emotions-glory]
+4-(Bleak Necrotic Paleness Lyrics.txt_4-10)-[emotions-affection]
+5-(Bleak Necrotic Paleness Lyrics.txt_5-16)-[primary-cold,primary-height]
+6-(Bleak Necrotic Paleness Lyrics.txt_7-30)-[primary-narcissism,emotions-aggression]
+half
+7-(Bleak Necrotic Paleness Lyrics.txt_8-38)-[primary-water,emotions-affection]
+8-(Bleak Necrotic Paleness Lyrics.txt_9-47)-[]
+9-(Bleak Necrotic Paleness Lyrics.txt_10-57)-[emotions-expressive_beh]
+10-(Bleak Necrotic Paleness Lyrics.txt_11-68)-[secondary-abstract_tought,primary-counscious,emotions-aggression]
+11-(Bleak Necrotic Paleness Lyrics.txt_12-80)-[]
+12-(Bleak Necrotic Paleness Lyrics.txt_13-93)-[primary-concreteness,emotions-affection]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Bleak Necrotic Paleness Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Xasthur-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Paleness,sn1),and(Lyrics,Necrotic,sn1),and(Lyrics,bleak,sn1),def_prop(Xasthur,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Bleak Necrotic Paleness Lyrics.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-altar-sn1,and(altar,cold,sn1),def_prop(altar,[oggetto,strumento])])
+lf(Bleak Necrotic Paleness Lyrics.txt_3,6,cl3-nil-nil-be-[subj-theme_bound-castle-sn2,subj-theme_bound-castle-sn1,and(castle,you,sn1),def_prop(castle,[attivita,oggetto,strumento]),def_prop(castle,[attivita,oggetto,strumento])])
+lf(Bleak Necrotic Paleness Lyrics.txt_4,10,cl4-nil-nil-rise-[])
+lf(Bleak Necrotic Paleness Lyrics.txt_4,10,nil-nil-nil-like-[obj-tema_emot-dominion-sn2,subj-experiencer-you-sn1,and(dominion,faerytale,sn2),def_prop(dominion,[stato]),def_prop(you,[umano])])
+lf(Bleak Necrotic Paleness Lyrics.txt_5,16,cl5-nil-nil-be-[xcomp-theme-peak-sn3,ncmod-loc_direct-snow-sn2,subj-theme_bound-widow-sn1,def_prop(peak,[luogo]),def_prop(snow,[attivita,cambia,sostanza]),def_prop(widow,[body_part,oggetto,strumento,umano])])
+lf(Bleak Necrotic Paleness Lyrics.txt_6,22,cl7-nil-nil-be-[subj-theme_bound-wherein-sn1,def_prop(wherein,[luogo])])
+lf(Bleak Necrotic Paleness Lyrics.txt_6,22,cl6-nil-nil-recline-[])
+lf(Bleak Necrotic Paleness Lyrics.txt_7,30,cl8-nil-nil-purr-[ncmod-modal-kill-sn2,subj-agent-limb-sn1,def_prop(kill,[attivita]),def_prop(limb,[body_part,luogo,oggetto,plant,strumento,umano])])
+lf(Bleak Necrotic Paleness Lyrics.txt_8,38,cl9-nil-nil-bath-[cmod-subord-bath-",ncmod-locativo-white-sn2,subj-actor-you-sn1,and(white,virgin,sn2),def_prop(white,[astratto,oggetto,strumento]),def_prop(you,[umano])])
+lf(Bleak Necrotic Paleness Lyrics.txt_9,47,cl10-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bleak Necrotic Paleness Lyrics.txt_10,57,cl11-nil-nil-be-[xcomp-prop-cry-sn2,subj-theme_bound-it-sn1,def_prop(cry,[attivita,evento,informa]),def_prop(it,[any])])
+lf(Bleak Necrotic Paleness Lyrics.txt_11,68,cl12-nil-nil-break-[obj-theme_aff-thread-sn2,subj-agent-that-sn1,and(thread,silver,sn2),def_prop(thread,[oggetto,strumento]),def_prop(that,[oggetto,umano])])
+lf(Bleak Necrotic Paleness Lyrics.txt_12,80,cl13-nil-nil-be-[xcomp-tema_bound-reflection-sn2,subj-theme_bound-reflection-sn1,and(reflection,you,sn1),def_prop(reflection,[astratto,attivita,cambia,oggetto,relat,strumento]),def_prop(reflection,[astratto,attivita,cambia,oggetto,relat,strumento])])
+lf(Bleak Necrotic Paleness Lyrics.txt_13,93,nil-nil-nil-like-[obj-tema_emot-eyelid-sn2,subj-experiencer-open-sn1,and(eyelid,dark,sn2),and(open,that,sn1),def_prop(eyelid,[body_part,umano]),def_prop(open,[astratto,evento,luogo])])
+lf(Bleak Necrotic Paleness Lyrics.txt_14,107,cl15-nil-nil-fall-[subj-agent-you-sn6,subj-agent-you-sn3,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Bleak Necrotic Paleness Lyrics.txt_14,107,cl14-nil-nil-be-[xcomp-prop-sigh-sn1,and(sigh,that,sn1),def_prop(sigh,[attivita,evento,informa])])

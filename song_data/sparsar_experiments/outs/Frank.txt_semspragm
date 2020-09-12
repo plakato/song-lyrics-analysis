@@ -1,0 +1,139 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Frank.txt_1-1  []-positive  []
+Frank.txt_2-3  []-suspension  []
+Frank.txt_3-7  []-negative  [neg]
+Frank.txt_4-11  []-positive  []
+Frank.txt_5-16  []-suspension  [neg,neg]
+Frank.txt_6-22  []-negative  [neg]
+Frank.txt_7-29  []-positive  []
+Frank.txt_8-37  []-suspension  [fgb]
+Frank.txt_8-38  []-suspension  []
+Frank.txt_9-48  []-negative  [neg]
+Frank.txt_10-58  []-positive  []
+Frank.txt_11-69  []-suspension  [fgb]
+Frank.txt_11-70  []-suspension  []
+Frank.txt_12-83  []-positive  []
+Frank.txt_13-96  []-positive  []
+Frank.txt_14-110  []-positive  [fgb]
+Frank.txt_16-142  []-suspension  []
+Frank.txt_16-143  []-positive  []
+Frank.txt_17-161  []-suspension  []
+Frank.txt_17-162  []-positive  []
+Frank.txt_18-181  []-positive  [fgb]
+Frank.txt_20-221  []-suspension  []
+Frank.txt_20-222  []-positive  []
+Frank.txt_21-244  []-suspension  []
+Frank.txt_21-245  []-positive  []
+Frank.txt_22-268  []-suspension  [fgb]
+Frank.txt_23-291  []-positive  []
+Frank.txt_24-315  []-suspension  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Frank.txt_1-1  [frank,by,the,Rural,Alberta,advantage]  [title]
+Frank.txt_2-3  [my,love,i,will,hold,on,to,your,touch]  [provide_expl_just(will,[external,nonfactive,narration,background,subjective]),provide_expl_just(hold,[external,factive,narration,foreground,objective])]
+Frank.txt_3-7  [there,Til,is,nothing,left,of,us]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Frank.txt_4-11  [save,you,from,this,life]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Frank.txt_5-16  [in,the,cold,weight,,,in,the,Rockies,touch]  [provide_expl_just(touch,[external,factive,narration,background,objective])]
+Frank.txt_6-22  [away,our,love,will,not,take]  [reject_expl_just(take,[external,nonfactive,narration,background,objective])]
+Frank.txt_7-29  [save,you,from,this,life]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Frank.txt_8-37  [and,i,will,hold]  [provide_expl_just(hold,[external,factive,narration,foreground,objective])]
+Frank.txt_8-38  [i,will,hold,on,to,your,touch]  [provide_expl_just(hold,[external,factive,narration,foreground,objective])]
+Frank.txt_9-48  [there,Til,is,nothing,left,of,us]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Frank.txt_10-58  [save,you,from,this,life]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Frank.txt_11-69  [and,i,will,hold]  [provide_expl_just(hold,[external,factive,narration,foreground,objective])]
+Frank.txt_11-70  [i,will,hold,on,to,your,touch]  [provide_expl_just(hold,[external,factive,narration,foreground,objective])]
+Frank.txt_12-83  [till,they,find,the,bones,of,us]  [provide_expl_just(find,[external,factive,narration,background,objective])]
+Frank.txt_13-96  [save,you,from,this,life]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Frank.txt_14-110  [and,under,the,rubble]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Frank.txt_16-142  [i,will,hold]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Frank.txt_16-143  [you,forever]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Frank.txt_17-161  [i,will,hold]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Frank.txt_17-162  [you,forever]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Frank.txt_18-181  [and,under,the,rubble]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Frank.txt_20-221  [i,will,hold]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Frank.txt_20-222  [you,forever]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Frank.txt_21-244  [i,will,hold]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Frank.txt_21-245  [you,forever]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Frank.txt_22-268  [and,they,will,build,up,another]  [provide_expl_just(build,[external,nonfactive,narration,background,objective])]
+Frank.txt_23-291  [on,the,bodies,of,our,brothers]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Frank.txt_24-315  [and,i,will,love,you,forever]  [provide_expl_just(love,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Frank.txt_1-1)-[]
+2-(Frank.txt_2-3)-[emotions-affection,primary-touch]
+3-(Frank.txt_3-7)-[]
+4-(Frank.txt_4-11)-[]
+5-(Frank.txt_5-16)-[primary-cold,secondary-abstract_tought,primary-touch]
+6-(Frank.txt_6-22)-[primary-concreteness,emotions-affection]
+7-(Frank.txt_7-29)-[]
+8-(Frank.txt_8-37)-[]
+9-(Frank.txt_8-38)-[primary-touch]
+10-(Frank.txt_9-48)-[]
+11-(Frank.txt_10-58)-[]
+12-(Frank.txt_11-69)-[]
+13-(Frank.txt_11-70)-[primary-touch]
+14-(Frank.txt_12-83)-[secondary-temporal_repere,secondary-instru_behavior,primary-narcissism]
+half
+15-(Frank.txt_13-96)-[]
+16-(Frank.txt_14-110)-[primary-depth,primary-touch]
+17-(Frank.txt_16-142)-[]
+18-(Frank.txt_16-143)-[primary-timelessness]
+19-(Frank.txt_17-161)-[]
+20-(Frank.txt_17-162)-[primary-timelessness]
+21-(Frank.txt_18-181)-[primary-depth,primary-touch]
+22-(Frank.txt_20-221)-[]
+23-(Frank.txt_20-222)-[primary-timelessness]
+24-(Frank.txt_21-244)-[]
+25-(Frank.txt_21-245)-[primary-timelessness]
+26-(Frank.txt_22-268)-[secondary-instru_behavior]
+27-(Frank.txt_23-291)-[primary-narcissism]
+28-(Frank.txt_24-315)-[emotions-affection,primary-timelessness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Frank.txt_1,1,cl1-nil-nil-advantage-[xadj-adj-frank-adj1,obj-theme-Alberta-sn2,arg_mod-agent-Rural-sn1,def_prop(frank,_969202),def_prop(Alberta,[place,luogo]),def_prop(Rural,[istituzione,umano])])
+lf(Frank.txt_2,3,cl3-nil-nil-hold-[])
+lf(Frank.txt_2,3,cl2-nil-will-will-[obj2-goal-touch-sn3,subj-agent-i-sn2,subj-agent-i-sn1,and(i,love,sn1),def_prop(touch,[astratto,attivita,evento,informa,nquant,stato]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Frank.txt_3,7,cl4-nil-nil-be-[xcomp-prop-leave-sn2,subj-theme_bound-Til-sn1,and(leave,nothing,sn2),and(Til,there,sn1),def_prop(leave,[attivita,informa,tempo]),def_prop(Til,[istituzione,umano])])
+lf(Frank.txt_4,11,cl5-nil-nil-be-[ncmod-loc_origin-life-sn3,subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,and(life,this,sn3),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Frank.txt_5,16,cl6-nil-nil-touch-[ncmod-locativo-Rockies-sn3,ncmod-locativo-weight-sn2,subj-agent-you-sn1,and(weight,cold,sn2),def_prop(Rockies,[oggetto]),def_prop(weight,[astratto,emotivo,nquant,oggetto,strumento]),def_prop(you,[umano])])
+lf(Frank.txt_6,22,cl7-not-will-take-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Frank.txt_7,29,cl8-nil-nil-be-[ncmod-loc_origin-life-sn3,subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,and(life,this,sn3),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Frank.txt_8,37,cl10-nil-nil-hold-[ncmod-locativo-touch-sn3,cmod-subord-hold-",subj-goal-i-sn1,def_prop(touch,[astratto,attivita,evento,informa,nquant,stato]),def_prop(i,[umano])])
+lf(Frank.txt_8,37,cl9-nil-will-will-[subj-agent-i-sn2,subj-agent-i-sn1,def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Frank.txt_9,48,cl11-nil-nil-be-[xcomp-prop-leave-sn2,subj-theme_bound-Til-sn1,and(leave,nothing,sn2),and(Til,there,sn1),def_prop(leave,[attivita,informa,tempo]),def_prop(Til,[istituzione,umano])])
+lf(Frank.txt_10,58,cl12-nil-nil-be-[ncmod-loc_origin-life-sn3,subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,and(life,this,sn3),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Frank.txt_11,69,cl14-nil-nil-hold-[ncmod-locativo-touch-sn3,cmod-subord-hold-",subj-goal-i-sn1,def_prop(touch,[astratto,attivita,evento,informa,nquant,stato]),def_prop(i,[umano])])
+lf(Frank.txt_11,69,cl13-nil-will-will-[subj-agent-i-sn2,subj-agent-i-sn1,def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Frank.txt_12,83,cl15-nil-nil-find-[obj-theme_bound-bone-sn3,subj-actor-they-sn2,subj-actor-they-sn1,def_prop(bone,[astratto,body_part,sostanza,umano]),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Frank.txt_13,96,cl16-nil-nil-be-[ncmod-loc_origin-life-sn3,subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,and(life,this,sn3),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Frank.txt_14,110,cl17-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Frank.txt_15,125,cl19-nil-nil-tumble-[subj-agent-mountain-sn1,def_prop(mountain,[oggetto])])
+lf(Frank.txt_15,125,cl18-nil-nil-be-[ncmod-specif-mountain-sn1,def_prop(mountain,[oggetto])])
+lf(Frank.txt_16,142,cl22-nil-nil-be-[adj-(mod)-forever-nil,subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Frank.txt_16,142,cl21-nil-nil-hold-[subj-goal-i-sn1,def_prop(i,[umano])])
+lf(Frank.txt_16,142,cl20-nil-will-will-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Frank.txt_17,161,cl25-nil-nil-be-[adj-(mod)-forever-nil,subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Frank.txt_17,161,cl24-nil-nil-hold-[subj-goal-i-sn1,def_prop(i,[umano])])
+lf(Frank.txt_17,161,cl23-nil-will-will-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Frank.txt_18,181,cl26-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Frank.txt_19,200,cl28-nil-nil-tumble-[subj-agent-mountain-sn1,def_prop(mountain,[oggetto])])
+lf(Frank.txt_19,200,cl27-nil-nil-be-[ncmod-specif-mountain-sn1,def_prop(mountain,[oggetto])])
+lf(Frank.txt_20,221,cl31-nil-nil-be-[adj-(mod)-forever-nil,subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Frank.txt_20,221,cl30-nil-nil-hold-[subj-goal-i-sn1,def_prop(i,[umano])])
+lf(Frank.txt_20,221,cl29-nil-will-will-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Frank.txt_21,244,cl34-nil-nil-be-[adj-(mod)-forever-nil,subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Frank.txt_21,244,cl33-nil-nil-hold-[subj-goal-i-sn1,def_prop(i,[umano])])
+lf(Frank.txt_21,244,cl32-nil-will-will-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Frank.txt_22,268,cl35-nil-will-build-[cmod-subord-build-",xcomp-prop-another-sn2,subj-agent-they-sn1,def_prop(another,[evaluative]),def_prop(they,[umano])])
+lf(Frank.txt_23,291,cl36-nil-nil-be-[ncmod-specif-brother-sn2,subj-theme_bound-you-sn1,def_prop(brother,[umano]),def_prop(you,[umano])])
+lf(Frank.txt_24,315,cl37-nil-will-love-[cmod-subord-love-",subj-experiencer-you-sn2,subj-experiencer-you-sn1,and(you,i,sn1),def_prop(you,[umano]),def_prop(you,[umano])])

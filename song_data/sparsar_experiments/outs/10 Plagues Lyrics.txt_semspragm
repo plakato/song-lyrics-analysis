@@ -1,0 +1,276 @@
+"POLARITY, DISCOURSE MARKERS"
+
+10 Plagues Lyrics.txt_1-1  []-positive  []
+10 Plagues Lyrics.txt_2-3  []-positive  []
+10 Plagues Lyrics.txt_3-6  []-positive  []
+10 Plagues Lyrics.txt_4-11  []-positive  []
+10 Plagues Lyrics.txt_4-12  []-positive  []
+10 Plagues Lyrics.txt_5-17  []-negative  [neg]
+10 Plagues Lyrics.txt_6-23  [when-temp_coinc]-negative  [neg]
+10 Plagues Lyrics.txt_6-24  []-suspension  [neg,neg]
+10 Plagues Lyrics.txt_7-31  [else-advers]-positive  []
+10 Plagues Lyrics.txt_8-39  []-positive  [fhd]
+10 Plagues Lyrics.txt_9-48  []-positive  []
+10 Plagues Lyrics.txt_10-58  []-positive  []
+10 Plagues Lyrics.txt_11-69  []-positive  []
+10 Plagues Lyrics.txt_12-81  []-negative  [neg]
+10 Plagues Lyrics.txt_13-94  []-positive  []
+10 Plagues Lyrics.txt_14-110  []-negative  []
+10 Plagues Lyrics.txt_15-125  []-positive  []
+10 Plagues Lyrics.txt_16-141  []-negative  [neg,neg]
+10 Plagues Lyrics.txt_17-161  []-negative  [neg]
+10 Plagues Lyrics.txt_17-162  [when-temp_coinc]-positive  []
+10 Plagues Lyrics.txt_18-180  [(as)-temp_coinc,when-temp_coinc]-negative  [neg]
+10 Plagues Lyrics.txt_19-199  []-negative  [neg,neg]
+10 Plagues Lyrics.txt_20-219  []-negative  []
+10 Plagues Lyrics.txt_21-240  []-negative  []
+10 Plagues Lyrics.txt_22-262  []-positive  []
+10 Plagues Lyrics.txt_23-285  []-negative  [neg]
+10 Plagues Lyrics.txt_24-309  []-suspension  []
+10 Plagues Lyrics.txt_24-310  []-positive  []
+10 Plagues Lyrics.txt_25-335  []-negative  []
+10 Plagues Lyrics.txt_26-361  []-negative  []
+10 Plagues Lyrics.txt_27-388  []-positive  []
+10 Plagues Lyrics.txt_27-389  []-positive  []
+10 Plagues Lyrics.txt_28-417  []-suspension  []
+10 Plagues Lyrics.txt_29-446  []-positive  []
+10 Plagues Lyrics.txt_30-476  [when-temp_coinc]-suspension  [neg,neg]
+10 Plagues Lyrics.txt_31-508  [so-result]-suspension  [fgb]
+10 Plagues Lyrics.txt_32-540  []-negative  []
+10 Plagues Lyrics.txt_32-541  []-suspension  []
+10 Plagues Lyrics.txt_33-574  []-suspension  []
+10 Plagues Lyrics.txt_34-609  [so-result]-positive  [fgb,neg]
+10 Plagues Lyrics.txt_35-644  []-positive  []
+10 Plagues Lyrics.txt_36-680  []-positive  []
+10 Plagues Lyrics.txt_37-717  []-positive  []
+10 Plagues Lyrics.txt_38-755  []-positive  []
+10 Plagues Lyrics.txt_39-795  []-positive  [fgb]
+10 Plagues Lyrics.txt_39-796  [when-temp_coinc]-positive  []
+10 Plagues Lyrics.txt_40-835  []-positive  [fhd]
+10 Plagues Lyrics.txt_41-877  []-negative  [neg]
+10 Plagues Lyrics.txt_42-919  [so-result]-positive  [fgb]
+10 Plagues Lyrics.txt_43-962  []-positive  []
+10 Plagues Lyrics.txt_43-963  []-positive  [neg]
+10 Plagues Lyrics.txt_43-964  [since-cause]-positive  []
+10 Plagues Lyrics.txt_44-1009  []-negative  [neg,neg]
+10 Plagues Lyrics.txt_45-1054  []-positive  []
+10 Plagues Lyrics.txt_46-1100  []-positive  []
+10 Plagues Lyrics.txt_46-1101  []-negative  [fhd,neg]
+10 Plagues Lyrics.txt_46-1102  []-positive  []
+10 Plagues Lyrics.txt_47-1149  []-negative  [neg]
+10 Plagues Lyrics.txt_47-1150  []-positive  []
+10 Plagues Lyrics.txt_48-1198  []-negative  []
+10 Plagues Lyrics.txt_49-1247  [though-advers]-positive  [neg]
+10 Plagues Lyrics.txt_50-1297  []-negative  [neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+10 Plagues Lyrics.txt_1-1  [10,Plagues,Lyrics,by,Ty,Barz]  [title]
+10 Plagues Lyrics.txt_2-3  [barz]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+10 Plagues Lyrics.txt_3-6  [step,out,the,tomb,Egyptian,Nigga,looking]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(step,[external,factive,explanation,background,objective])]
+10 Plagues Lyrics.txt_4-11  [looking,all,mummified]  [provide_expl_just(mummify,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_4-12  [&,amp]  [provide_expl_just(mummify,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_5-17  [shit]  reject_expl_opin(nil,[])
+10 Plagues Lyrics.txt_6-23  [when,i,die]  [reject_expl_just(bury,[external,factive,narration,background,objective]),reject_expl_just(die,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_6-24  [bury,me,with,my,riches,,,my,bitches,&,amp]  [provide_expl_just(bury,[external,factive,narration,background,objective]),provide_expl_just(die,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_7-31  [everything,else]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+10 Plagues Lyrics.txt_8-39  [all,Gold,everything,like,a,Pharaoh,Nigga]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_9-48  [yurp]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+10 Plagues Lyrics.txt_10-58  [Dats,Cool,Dats,cool]  [provide_expl_just(cool,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_11-69  [welcome,to,dear,Egypt,the,fire,of,Phoenix,feel]  [provide_expl_just(feel,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_12-81  [this,i-mma,body,shit,it,don-t,need,a,remix]  [reject_expl_just(need,[external,factive,narration,foreground,objective])]
+10 Plagues Lyrics.txt_13-94  [Yall,having,niggas,equipped,with,the,E,clips,caused,a,eclipse]  [provide_expl_just(equip,[external,factive,narration,foreground,objective]),provide_expl_just(cause,[external,factive,cause,foreground,objective])]
+10 Plagues Lyrics.txt_14-110  [looking,at,these,shells,&,amp]  [provide_expl_just(look,[external,factive,narration,foreground,objective])]
+10 Plagues Lyrics.txt_15-125  [holy,water,left,me,seasick]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_16-141  [lose,ya,focus,to,the,bogus,,,watch,dat,lotus,turn,to,locust]  [reject_expl_just(focus,[external,factive,narration,background,objective]),reject_expl_just(lose,[external,factive,narration,background,objective]),reject_expl_just(watch,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_17-161  [it,is,ferocious]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(disappear,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_17-162  [when,ya,oldest,disappear,without,a,notice]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(disappear,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_18-180  [pray,to,Moses,when,you,hopeless,Joseph,as,a,bonusss]  [reject_expl_just(pray,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_19-199  [this,is,not,Hip-Hopppppp,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_20-219  [this,Motherfucker,hypnosis]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_21-240  [10,10,plagues,plagues]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_22-262  [Yall,motherfuckers,got,trends,paid]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+10 Plagues Lyrics.txt_23-285  [made,Yall,motherfuckers,wins,fade]  [reject_expl_just(fade,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_24-309  [Yall,motherfuckers,should,of]  [provide_expl_just(pray,[external,factive,narration,foreground,objective])]
+10 Plagues Lyrics.txt_24-310  [been,prayed]  [provide_expl_just(pray,[external,factive,narration,foreground,objective])]
+10 Plagues Lyrics.txt_25-335  [10,plagues,10,plagues]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_26-361  [Yall,motherfuckers,got,sins,made]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+10 Plagues Lyrics.txt_27-388  [Yall,motherfuckers,got]  [provide_expl_just(spray,[external,factive,cause,foreground,objective])]
+10 Plagues Lyrics.txt_27-389  [friends,sprayed]  [provide_expl_just(spray,[external,factive,cause,foreground,objective])]
+10 Plagues Lyrics.txt_28-417  [Yall,motherfuckers,should,of]  [raise_issue(be,[_1461592,_1461598,statement,_1461610,_1461616])]
+10 Plagues Lyrics.txt_29-446  [prayed]  [provide_expl_just(pray,[external,factive,narration,foreground,objective])]
+10 Plagues Lyrics.txt_30-476  [shit,gets,odd,when,the,gods,get,even]  [provide_expl_just(shit,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_31-508  [feel,Ra,breathing,so,i,can,believe,in]  [provide_expl_just(believe,[external,nonfactive,narration,foreground,objective])]
+10 Plagues Lyrics.txt_32-540  [demons,screaming,looking]  [provide_expl_just(scream,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_32-541  [for,a,reason]  [provide_expl_just(scream,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_33-574  [wake,a,Nigga,up,cuz,i,must,be,dreaming]  [provide_expl_just(dream,[external,nonfactive,narration,foreground,objective]),provide_expl_just(wake,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_34-609  [dreams,in,the,Nile,they,so,in,denial]  [provide_expl_just(dream,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_35-644  [catch,me,&,amp]  [provide_expl_just(catch,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_36-680  [Ro,in,the,city,Cairo]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_37-717  [dont,care,tho]  [provide_expl_just(care,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_38-755  [get,a,Nigga,get,jacked,likee,Sparrow]  [provide_expl_just(jack,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_39-795  [that,is,what,a,Nigga,get]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_39-796  [when,he,in,my_shadow]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_40-835  [make,him,worship,gods,in,the,parameds,like,pharoahs]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(worship,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_41-877  [i,am,a,boy,with,intentions,of,tension,just]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_42-919  [so,i,live,life,in,a,different,dimension]  [provide_expl_just(live,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_43-962  [i,mention,dat]  [provide_expl_just(decide,[external,factive,narration,foreground,objective]),provide_expl_just(mention,[external,factive,narration,background,objective]),provide_expl_just(sin,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_43-963  [all,men,decided,to,sin]  [provide_expl_just(decide,[external,factive,narration,foreground,objective]),provide_expl_just(mention,[external,factive,narration,background,objective]),provide_expl_just(sin,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_43-964  [since]  [provide_expl_just(decide,[external,factive,narration,foreground,objective]),provide_expl_just(mention,[external,factive,narration,background,objective]),provide_expl_just(sin,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_44-1009  [vengeance,the,thing,dat,got,him,a,sentence]  [reject_expl_just(be,[_1483834,_1483840,_1483846,_1483852,_1483858])]
+10 Plagues Lyrics.txt_45-1054  [Barz,Ty,motherfuckin,!]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+10 Plagues Lyrics.txt_46-1100  [let,them,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(build,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_46-1101  [the,UFO,or,the,slaves,didn-t,build,the,pyramids]  [reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(build,[external,factive,narration,background,objective]),reject_expl_just(do,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_46-1102  [you,did]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(build,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_47-1149  [ya,this,shit]  [reject_expl_just(shit,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_47-1150  [you,own,this]  [provide_expl_just(shit,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_48-1198  [degenerates]  reject_expl_opin(nil,[])
+10 Plagues Lyrics.txt_49-1247  [get,back,to,the,game,though]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+10 Plagues Lyrics.txt_50-1297  [Conspiracy,these,Theories,fuck]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(10 Plagues Lyrics.txt_1-1)-[]
+2-(10 Plagues Lyrics.txt_2-3)-[secondary-restraint]
+3-(10 Plagues Lyrics.txt_3-6)-[primary-brink,primary-concreteness]
+4-(10 Plagues Lyrics.txt_4-11)-[]
+5-(10 Plagues Lyrics.txt_4-12)-[]
+6-(10 Plagues Lyrics.txt_5-17)-[primary-anality]
+7-(10 Plagues Lyrics.txt_6-23)-[secondary-temporal_repere,primary-passivity]
+8-(10 Plagues Lyrics.txt_6-24)-[primary-descent,emotions-glory,primary-sex]
+9-(10 Plagues Lyrics.txt_7-31)-[]
+10-(10 Plagues Lyrics.txt_8-39)-[emotions-affection]
+11-(10 Plagues Lyrics.txt_9-48)-[]
+12-(10 Plagues Lyrics.txt_10-58)-[primary-cold]
+13-(10 Plagues Lyrics.txt_11-69)-[emotions-affection,emotions-affection,primary-fire]
+14-(10 Plagues Lyrics.txt_12-81)-[primary-narcissism,primary-anality]
+15-(10 Plagues Lyrics.txt_13-94)-[secondary-abstract_tought]
+16-(10 Plagues Lyrics.txt_14-110)-[primary-concreteness]
+17-(10 Plagues Lyrics.txt_15-125)-[primary-water]
+18-(10 Plagues Lyrics.txt_16-141)-[primary-vision]
+19-(10 Plagues Lyrics.txt_17-161)-[]
+20-(10 Plagues Lyrics.txt_17-162)-[secondary-temporal_repere,primary-vision]
+21-(10 Plagues Lyrics.txt_18-180)-[secondary-temporal_repere,emotions-sadness]
+22-(10 Plagues Lyrics.txt_19-199)-[]
+23-(10 Plagues Lyrics.txt_20-219)-[]
+24-(10 Plagues Lyrics.txt_21-240)-[]
+25-(10 Plagues Lyrics.txt_22-262)-[secondary-instru_behavior]
+26-(10 Plagues Lyrics.txt_23-285)-[primary-counscious,secondary-instru_behavior,primary-diffusion]
+27-(10 Plagues Lyrics.txt_24-309)-[secondary-moral_imperative]
+28-(10 Plagues Lyrics.txt_24-310)-[]
+29-(10 Plagues Lyrics.txt_25-335)-[]
+30-(10 Plagues Lyrics.txt_26-361)-[primary-counscious]
+31-(10 Plagues Lyrics.txt_27-388)-[]
+half
+32-(10 Plagues Lyrics.txt_27-389)-[emotions-affection]
+33-(10 Plagues Lyrics.txt_28-417)-[secondary-moral_imperative]
+34-(10 Plagues Lyrics.txt_29-446)-[]
+35-(10 Plagues Lyrics.txt_30-476)-[primary-anality,primary-unknow,secondary-temporal_repere]
+36-(10 Plagues Lyrics.txt_31-508)-[secondary-abstract_tought]
+37-(10 Plagues Lyrics.txt_32-540)-[]
+38-(10 Plagues Lyrics.txt_32-541)-[secondary-abstract_tought]
+39-(10 Plagues Lyrics.txt_33-574)-[primary-counscious,secondary-restraint]
+40-(10 Plagues Lyrics.txt_34-609)-[primary-counscious]
+41-(10 Plagues Lyrics.txt_35-644)-[secondary-restraint]
+42-(10 Plagues Lyrics.txt_36-680)-[]
+43-(10 Plagues Lyrics.txt_37-717)-[]
+44-(10 Plagues Lyrics.txt_38-755)-[emotions-affection]
+45-(10 Plagues Lyrics.txt_39-795)-[]
+46-(10 Plagues Lyrics.txt_39-796)-[secondary-temporal_repere]
+47-(10 Plagues Lyrics.txt_40-835)-[secondary-instru_behavior,emotions-affection]
+48-(10 Plagues Lyrics.txt_41-877)-[]
+49-(10 Plagues Lyrics.txt_42-919)-[secondary-abstract_tought]
+50-(10 Plagues Lyrics.txt_43-962)-[]
+51-(10 Plagues Lyrics.txt_43-963)-[secondary-abstract_tought]
+52-(10 Plagues Lyrics.txt_43-964)-[]
+53-(10 Plagues Lyrics.txt_44-1009)-[emotions-aggression]
+54-(10 Plagues Lyrics.txt_45-1054)-[]
+55-(10 Plagues Lyrics.txt_46-1100)-[secondary-abstract_tought,secondary-abstract_tought]
+56-(10 Plagues Lyrics.txt_46-1101)-[secondary-instru_behavior,primary-height]
+57-(10 Plagues Lyrics.txt_46-1102)-[]
+58-(10 Plagues Lyrics.txt_47-1149)-[primary-anality]
+59-(10 Plagues Lyrics.txt_47-1150)-[]
+60-(10 Plagues Lyrics.txt_48-1198)-[]
+61-(10 Plagues Lyrics.txt_49-1247)-[primary-concreteness,emotions-expressive_beh]
+62-(10 Plagues Lyrics.txt_50-1297)-[primary-sex]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(10 Plagues Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Barz-sn2,subj-theme_bound-Lyrics-sn1,and(Barz,Ty,sn2),and(Lyrics,10,sn1),def_prop(Barz,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(10 Plagues Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-barz-sn1,def_prop(barz,[istituzione])])
+lf(10 Plagues Lyrics.txt_3,6,cl4-nil-nil-look-[ncmod-locativo-tomb-sn2,def_prop(tomb,[oggetto,strumento])])
+lf(10 Plagues Lyrics.txt_3,6,cl3-nil-nil-step-[obj-theme-Nigga-sn3,subj-agent-you-sn1,and(Nigga,Egyptian,sn3),def_prop(Nigga,[istituzione,umano]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_4,11,cl6-nil-nil-be-[subj-theme_bound-amp-sn3,def_prop(amp,[nquant])])
+lf(10 Plagues Lyrics.txt_4,11,cl5-nil-nil-mummify-[ncmod-modal-looking-sn2,subj-actor-you-sn1,def_prop(looking,[attivita]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_5,17,cl7-nil-nil-say-[obj-theme_unaff-shit-sn1,def_prop(shit,[attivita,umano])])
+lf(10 Plagues Lyrics.txt_6,23,cl9-nil-nil-bury-[obj-theme-amp-sn7,obj-theme-bitch-sn6,iobj-goal-rich-sn5,obj-theme-me-sn4,subj-agent-you-sn3,def_prop(amp,[nquant]),def_prop(bitch,[animato,stato]),def_prop(rich,[istituzione,umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_6,23,cl8-nil-nil-die-[obj-theme-when-sn2,subj-theme_aff-i-sn1,def_prop(when,[tempo]),def_prop(i,[umano])])
+lf(10 Plagues Lyrics.txt_7,31,cl10-nil-nil-say-[])
+lf(10 Plagues Lyrics.txt_8,39,nil-nil-nil-like-[obj-theme_aff-Nigga-sn4,obj-tema_emot-Pharaoh-sn3,subj-experiencer-everything-sn2,subj-experiencer-everything-sn1,and(everything,Gold,sn1),def_prop(Nigga,[istituzione,umano]),def_prop(Pharaoh,[umano]),def_prop(everything,[astratto,informa,oggetto]),def_prop(everything,[astratto,informa,oggetto])])
+lf(10 Plagues Lyrics.txt_9,48,cl11-nil-nil-say-[obj-theme_unaff-yurp-sn1,def_prop(yurp,[istituzione])])
+lf(10 Plagues Lyrics.txt_10,58,cl12-nil-nil-cool-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_11,69,cl13-nil-nil-feel-[ncmod-loc_direct-Egypt-sn2,subj-experiencer-fire-sn1,and(Egypt,dear,sn2),def_prop(Egypt,[place,luogo]),def_prop(fire,[attivita,evento,informa,oggetto,sostanza,strumento])])
+lf(10 Plagues Lyrics.txt_12,81,cl14-not-nil-need-[obj-theme-remix-sn3,subj-experiencer-it-sn2,subj-experiencer-it-sn1,aux-do-nil,and(it,shit,sn1),and(it,this,sn1),def_prop(remix,[astratto,oggetto,istituzione]),def_prop(it,[any]),def_prop(it,[any])])
+lf(10 Plagues Lyrics.txt_13,94,cl17-nil-nil-cause-[obj-theme_bound-nigga-sn2,xadj-result-have-2,subj-causer-Yall-sn1,def_prop(nigga,[istituzione,umano]),def_prop(Yall,[istituzione,umano])])
+lf(10 Plagues Lyrics.txt_13,94,cl16-nil-nil-equip-[iobj-goal-E-sn3,def_prop(E,[attivita,informa])])
+lf(10 Plagues Lyrics.txt_13,94,cl15-nil-nil-have-[xmod-prop-equip-3])
+lf(10 Plagues Lyrics.txt_14,110,cl18-nil-nil-look-[xcomp-theme-amp-sn3,iobj-locat-shell-sn2,subj-agent-you-sn1,and(shell,these,sn2),def_prop(amp,[nquant]),def_prop(shell,[animato,oggetto,plant,sostanza,strumento]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_15,125,cl19-nil-nil-be-[subj-theme_bound-me-sn2,subj-theme_bound-me-sn1,and(me,left,sn2),and(me,water,sn1),and(me,holy,sn1),and(me,left,sn1),def_prop(me,[umano]),def_prop(me,[umano])])
+lf(10 Plagues Lyrics.txt_16,141,cl23-nil-nil-turn-[iobj-goal-locus-sn36,iobj-goal-locus-sn35,subj-agent-you-sn34,iobj-goal-locus-sn32,subj-agent-lotus-sn31,xadj-result-focus-5,and(lotus,dat,sn31),def_prop(locus,[luogo]),def_prop(locus,[luogo]),def_prop(you,[umano]),def_prop(locus,[luogo]),def_prop(lotus,[plant])])
+lf(10 Plagues Lyrics.txt_16,141,cl22-nil-nil-watch-[ncmod-loc_direct-locus-sn29,subj-actor-lotus-sn4,and(lotus,dat,sn4),def_prop(locus,[luogo]),def_prop(lotus,[plant])])
+lf(10 Plagues Lyrics.txt_16,141,cl21-nil-nil-focus-[ncmod-theme-bogus-sn3,def_prop(bogus,[informa,tecno])])
+lf(10 Plagues Lyrics.txt_16,141,cl20-nil-nil-lose-[obj-theme_unaff-ya-sn2,subj-theme_aff-you-sn1,def_prop(ya,[legale]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_17,161,cl25-nil-nil-disappear-[ncmod-privation-notice-sn4,subj-agent-oldest-sn3,and(oldest,ya,sn3),def_prop(notice,[astratto,attivita,informa]),def_prop(oldest,[istituzione])])
+lf(10 Plagues Lyrics.txt_17,161,cl24-nil-nil-be-[xcomp-prop-ferocious-sn2,subj-theme_bound-it-sn1,def_prop(ferocious,[estens]),def_prop(it,[any])])
+lf(10 Plagues Lyrics.txt_18,180,cl26-nil-nil-pray-[iobj-goal-Moses-sn2,subj-experiencer-you-sn1,def_prop(Moses,[place,umano]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_19,199,cl27-not-nil-be-[xcomp-prop-Hip-Hopppppp-sn2,subj-theme_bound-this-sn1,def_prop(Hip-Hopppppp,[body_part,oggetto,plant,umano]),def_prop(this,[oggetto,umano])])
+lf(10 Plagues Lyrics.txt_20,219,cl28-nil-nil-be-[ncmod-modal-motherfucker-sn2,subj-theme_bound-you-sn1,def_prop(motherfucker,[umano]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_21,240,cl29-nil-nil-be-[ncmod-modal-plague-sn2,subj-theme_bound-you-sn1,def_prop(plague,[astratto,evento,stato]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_22,262,cl30-nil-nil-get-[obj-theme_unaff-trend-sn2,subj-agent-motherfucker-sn1,and(motherfucker,Yall,sn1),def_prop(trend,[astratto,attivita,informa,luogo,stato]),def_prop(motherfucker,[umano])])
+lf(10 Plagues Lyrics.txt_23,285,cl31-nil-nil-fade-[ncmod-modal-motherfucker-sn2,subj-experiencer-you-sn1,def_prop(motherfucker,[umano]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_24,309,cl32-nil-nil-pray-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_24,309,nil-nil-should-shall-[subj-theme_unaff-motherfucker-sn1,and(motherfucker,Yall,sn1),def_prop(motherfucker,[umano])])
+lf(10 Plagues Lyrics.txt_25,335,cl33-nil-nil-be-[subj-theme_bound-plague-sn2,subj-theme_bound-plague-sn1,and(plague,10,sn2),and(plague,10,sn1),def_prop(plague,[astratto,evento,stato]),def_prop(plague,[astratto,evento,stato])])
+lf(10 Plagues Lyrics.txt_26,361,cl34-nil-nil-get-[obj-theme_unaff-sin-sn2,subj-agent-motherfucker-sn1,and(motherfucker,Yall,sn1),def_prop(sin,[astratto,attivita,informa]),def_prop(motherfucker,[umano])])
+lf(10 Plagues Lyrics.txt_27,388,cl36-nil-nil-spray-[subj-agent-you-sn3,adj-(mod)-get-nil,ncmod-modal-Yall-sn2,def_prop(you,[umano]),def_prop(Yall,[istituzione,umano])])
+lf(10 Plagues Lyrics.txt_27,388,cl35-nil-nil-get-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_28,417,nil-nil-should-shall-[subj-theme_unaff-motherfucker-sn1,and(motherfucker,Yall,sn1),def_prop(motherfucker,[umano])])
+lf(10 Plagues Lyrics.txt_29,446,cl37-nil-nil-pray-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_30,476,cl39-nil-nil-get-[cmod-subord-get-when,subj-theme_bound-pro-nil,subj-theme_bound-god-sn3,def_prop(god,[umano])])
+lf(10 Plagues Lyrics.txt_30,476,cl38-nil-nil-shit-[xcomp-prop-odd-sn2,subj-agent-you-sn1,def_prop(odd,[evaluative]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_31,508,cl40-nil-can-believe-[cmod-subord-believe-so,subj-actor-you-sn4,def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_32,540,cl42-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_32,540,cl41-nil-nil-scream-[xcomp-prop-looking-sn2,subj-agent-demon-sn1,def_prop(looking,[attivita]),def_prop(demon,[umano])])
+lf(10 Plagues Lyrics.txt_33,574,cl44-nil-must-dream-[obj-theme-up-sn5,xcomp-purpose-dream-3,aux-be-nil,progr-dreaming-nil,def_prop(up,[istituzione])])
+lf(10 Plagues Lyrics.txt_33,574,cl43-nil-nil-wake-[adj-locative-up-nil,obj-theme-i-sn4,obj-theme_aff-cuz-sn3,obj-theme_aff-Nigga-sn2,subj-actor-you-sn1,def_prop(up,[istituzione]),def_prop(i,[umano]),def_prop(cuz,[istituzione]),def_prop(Nigga,[istituzione,umano]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_34,609,cl45-nil-nil-dream-[ncmod-temporale-denial-sn4,obj-theme-they-sn3,ncmod-locativo-Nile-sn2,subj-agent-you-sn1,def_prop(denial,[attivita,informa]),def_prop(they,[umano]),def_prop(Nile,[place,oggetto]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_35,644,cl46-nil-nil-catch-[obj-theme-amp-sn3,obj-goal-me-sn2,subj-agent-you-sn1,def_prop(amp,[nquant]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_36,680,cl47-nil-nil-be-[xcomp-theme-Cairo-sn3,ncmod-locativo-city-sn2,subj-theme_bound-Ro-sn1,def_prop(Cairo,[place,luogo]),def_prop(city,[istituzione,luogo]),def_prop(Ro,[attivita,informa])])
+lf(10 Plagues Lyrics.txt_37,717,cl48-nil-nil-care-[obj-theme-tho-sn2,subj-experiencer-dont-sn1,def_prop(tho,[istituzione,umano]),def_prop(dont,[istituzione])])
+lf(10 Plagues Lyrics.txt_38,755,cl50-nil-nil-jack-[obj-theme-Sparrow-sn3,xcomp-purpose-jack-3,and(Sparrow,likee,sn3),def_prop(Sparrow,[place,umano])])
+lf(10 Plagues Lyrics.txt_38,755,cl49-nil-nil-get-[subj-agent-get-sn2,subj-agent-get-sn1,and(get,Nigga,sn2),and(get,you,sn1),def_prop(get,[informa,tecno]),def_prop(get,[informa,tecno])])
+lf(10 Plagues Lyrics.txt_39,795,cl51-nil-nil-be-[ncmod-locativo-my_shadow-sn3,subj-theme_bound-he-sn2,subj-theme_bound-what-sn1,def_prop(my_shadow,[astratto,emotivo,informa,stato,tecno,umano]),def_prop(he,[umano]),def_prop(what,[oggetto])])
+lf(10 Plagues Lyrics.txt_40,835,cl53-nil-nil-worship-[ncmod-locativo-parameds-sn4,def_prop(parameds,[istituzione])])
+lf(10 Plagues Lyrics.txt_40,835,cl52-nil-nil-make-[obj-theme_aff-god-sn3,obj-goal-him-sn2,subj-agent-you-sn1,def_prop(god,[umano]),def_prop(him,[umano]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_41,877,cl54-nil-nil-be-[adj-(mod)-just-nil,ncmod-comitativo-intention-sn3,xcomp-prop-boy-sn2,subj-theme_bound-i-sn1,def_prop(intention,[astratto,attivita]),def_prop(boy,[oggetto,strumento]),def_prop(i,[umano])])
+lf(10 Plagues Lyrics.txt_42,919,cl55-nil-nil-live-[obj-prop-life-sn2,subj-actor-i-sn1,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(i,[umano])])
+lf(10 Plagues Lyrics.txt_43,962,cl59-nil-nil-be-[])
+lf(10 Plagues Lyrics.txt_43,962,cl58-nil-nil-sin-[subj-theme-man-sn3,and(man,all,sn3),def_prop(man,[any])])
+lf(10 Plagues Lyrics.txt_43,962,cl57-nil-nil-decide-[subj-actor-man-sn3,and(man,all,sn3),def_prop(man,[any])])
+lf(10 Plagues Lyrics.txt_43,962,cl56-nil-nil-mention-[obj-theme_unaff-dat-sn2,subj-actor-i-sn1,def_prop(dat,[informa,oggetto,strumento,tecno]),def_prop(i,[umano])])
+lf(10 Plagues Lyrics.txt_44,1009,cl60-nil-nil-get-[obj2-paziente-sentence-sn5,obj-theme_unaff-him-sn4,subj-agent-dat-sn3,subj-agent-dat-sn2,subj-agent-thing-sn1,and(dat,thing,sn2),and(thing,vengeance,sn1),def_prop(sentence,[attivita,informa]),def_prop(him,[umano]),def_prop(dat,[informa,oggetto,strumento,tecno]),def_prop(dat,[informa,oggetto,strumento,tecno]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(10 Plagues Lyrics.txt_45,1054,cl61-nil-nil-be-[xcomp-prop-Barz-sn1,and(Barz,motherfuckin,sn1),and(Barz,Ty,sn1),def_prop(Barz,[umano])])
+lf(10 Plagues Lyrics.txt_46,1100,cl64-nil-nil-do-[subj-theme_unaff-you-sn7,aux-did-nil,def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_46,1100,cl63-not-nil-build-[xcomp-prop-pyramid-sn6,coord-agent-UFO_or_slave-sn5,subj-agent-slave-sn4,subj-agent-UFO-sn3,aux-did-nil,def_prop(pyramid,[astratto,oggetto]),def_prop(UFO_or_slave,[attivita,danger,informa,tecno,umano]),def_prop(slave,[attivita,danger,informa,tecno,umano]),def_prop(UFO,[attivita,danger,informa,tecno,umano])])
+lf(10 Plagues Lyrics.txt_46,1100,cl62-nil-nil-know-[xcomp-prop-them-sn2,subj-actor-you-sn1,def_prop(them,[umano]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_47,1149,cl66-nil-nil-be-[xcomp-prop-own-sn4,subj-theme_bound-you-sn3,def_prop(own,[evaluative]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_47,1149,cl65-nil-nil-shit-[xadj-adj-this-adj2,ncmod-modal-ya-sn2,subj-agent-you-sn1,def_prop(this,_1507112),def_prop(ya,[legale]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_48,1198,cl67-nil-nil-say-[obj-theme_unaff-degenerate-sn1,def_prop(degenerate,[relat,sociale,umano])])
+lf(10 Plagues Lyrics.txt_49,1247,cl68-nil-nil-get-[adj-(mod)-though-nil,adj-(mod)-back-nil,adj-subj_disc-though-sn4,adj-subj_disc-back-sn3,iobj-paziente-game-sn2,subj-experiencer-you-sn1,def_prop(though,[istituzione]),def_prop(back,[istituzione]),def_prop(though,[istituzione]),def_prop(back,[istituzione]),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(you,[umano])])
+lf(10 Plagues Lyrics.txt_50,1297,cl69-nil-nil-be-[xcomp-theme-theory-sn2,subj-theme_bound-you-sn1,and(theory,these,sn2),def_prop(theory,[astratto]),def_prop(you,[umano])])

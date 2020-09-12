@@ -1,0 +1,100 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Juniper Lyrics.txt_1-1  []-positive  []
+Juniper Lyrics.txt_2-3  []-negative  [neg]
+Juniper Lyrics.txt_2-4  []-negative  [neg]
+Juniper Lyrics.txt_3-6  []-negative  [neg,neg]
+Juniper Lyrics.txt_4-12  []-suspension  []
+Juniper Lyrics.txt_4-13  []-suspension  [neg]
+Juniper Lyrics.txt_5-18  []-negative  [neg]
+Juniper Lyrics.txt_5-19  [if-hypoth]-positive  [fgb,fgb]
+Juniper Lyrics.txt_6-25  []-negative  [neg]
+Juniper Lyrics.txt_6-26  [if-hypoth]-negative  [fgb]
+Juniper Lyrics.txt_7-34  [because-cause]-negative  [neg]
+Juniper Lyrics.txt_8-42  []-negative  [neg,neg]
+Juniper Lyrics.txt_8-43  [if-hypoth]-negative  [fgb]
+Juniper Lyrics.txt_9-53  [because-cause]-negative  [neg]
+Juniper Lyrics.txt_10-63  [because-cause]-suspension  [neg,neg]
+Juniper Lyrics.txt_11-75  []-suspension  [neg]
+Juniper Lyrics.txt_11-76  []-positive  []
+Juniper Lyrics.txt_12-88  []-positive  [bkc]
+Juniper Lyrics.txt_12-89  []-positive  []
+Juniper Lyrics.txt_13-102  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Juniper Lyrics.txt_1-1  [juniper,Lyrics,by,Yung,Chibi]  [title]
+Juniper Lyrics.txt_2-3  [there,is,no,way]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Juniper Lyrics.txt_2-4  [,,it,is,ruined,now]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Juniper Lyrics.txt_3-6  [can,not,take,it,back,no,don-t,ask,me,how]  [reject_expl_just(take,[external,nonfactive,narration,foreground,objective]),reject_expl_just(back,[external,factive,explanation,background,objective]),propose_opin_neg(back,[external,factive,explanation,background,objective])]
+Juniper Lyrics.txt_4-12  [i,will,live,my,life]  [provide_expl_just(live,[external,nonfactive,narration,background,objective]),provide_expl_just(leave,[external,nonfactive,narration,background,objective])]
+Juniper Lyrics.txt_4-13  [i,will,leave,my,doubts]  [provide_expl_just(live,[external,nonfactive,narration,background,objective]),provide_expl_just(leave,[external,nonfactive,narration,background,objective])]
+Juniper Lyrics.txt_5-18  [i,am,worn,away,now]  [reject_expl_just(wear,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Juniper Lyrics.txt_5-19  [if,that,is,what,counts]  [provide_expl_just(wear,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Juniper Lyrics.txt_6-25  [i,will,not,stay]  [reject_expl_just(ask,[external,factive,narration,foreground,objective]),reject_expl_just(stay,[external,nonfactive,narration,background,objective])]
+Juniper Lyrics.txt_6-26  [if,you,ask,me,to,don-t,ask,,,me,to]  [provide_expl_just(ask,[external,factive,narration,foreground,objective]),provide_expl_just(stay,[external,nonfactive,narration,background,objective])]
+Juniper Lyrics.txt_7-34  [because,i,will,not]  [reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+Juniper Lyrics.txt_8-42  [i,will,not,weep]  [reject_expl_just(want,[external,factive,narration,foreground,objective]),reject_expl_just(weep,[external,nonfactive,narration,background,objective])]
+Juniper Lyrics.txt_8-43  [if,you,want,me,to,don-t,want,,,me,to]  [provide_expl_just(want,[external,factive,narration,foreground,objective]),provide_expl_just(weep,[external,nonfactive,narration,background,objective])]
+Juniper Lyrics.txt_9-53  [because,i,will,not]  [reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+Juniper Lyrics.txt_10-63  [all,my,burn,things,because,i,will,not,come,back]  [provide_expl_just(come,[external,factive,cause,background,objective])]
+Juniper Lyrics.txt_11-75  [all,my,burn,dreams,i,don-t,want,them]  [provide_expl_just(want,[external,factive,narration,foreground,objective]),provide_expl_just(back,[external,factive,narration,background,objective])]
+Juniper Lyrics.txt_11-76  [back]  [provide_expl_just(want,[external,factive,narration,foreground,objective]),provide_expl_just(back,[external,factive,narration,background,objective])]
+Juniper Lyrics.txt_12-88  [ah,how,i,loved]  [provide_expl_just(love,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Juniper Lyrics.txt_12-89  [you]  [provide_expl_just(love,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Juniper Lyrics.txt_13-102  [leave,through,my,window]  [provide_expl_just(leave,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Juniper Lyrics.txt_1-1)-[]
+2-(Juniper Lyrics.txt_2-3)-[]
+3-(Juniper Lyrics.txt_2-4)-[primary-chaos,secondary-temporal_repere]
+4-(Juniper Lyrics.txt_3-6)-[primary-concreteness,secondary-social_behavior]
+5-(Juniper Lyrics.txt_4-12)-[]
+6-(Juniper Lyrics.txt_4-13)-[emotions-aggression]
+7-(Juniper Lyrics.txt_5-18)-[primary-concreteness,secondary-temporal_repere]
+8-(Juniper Lyrics.txt_5-19)-[secondary-instru_behavior]
+9-(Juniper Lyrics.txt_6-25)-[]
+10-(Juniper Lyrics.txt_6-26)-[secondary-social_behavior,secondary-social_behavior]
+half
+11-(Juniper Lyrics.txt_7-34)-[]
+12-(Juniper Lyrics.txt_8-42)-[emotions-sadness]
+13-(Juniper Lyrics.txt_8-43)-[]
+14-(Juniper Lyrics.txt_9-53)-[]
+15-(Juniper Lyrics.txt_10-63)-[primary-fire,primary-concreteness]
+16-(Juniper Lyrics.txt_11-75)-[primary-fire,primary-counscious,secondary-abstract_tought]
+17-(Juniper Lyrics.txt_11-76)-[primary-concreteness]
+18-(Juniper Lyrics.txt_12-88)-[emotions-affection]
+19-(Juniper Lyrics.txt_12-89)-[]
+20-(Juniper Lyrics.txt_13-102)-[primary-brink]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Juniper Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Chibi-sn2,subj-theme_bound-Lyrics-sn1,and(Chibi,Yung,sn2),and(Lyrics,juniper,sn1),def_prop(Chibi,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Juniper Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-now-sn5,subj-theme_bound-it-sn4,xcomp-prop-way-sn2,subj-theme_bound-there-sn1,and(now,ruined,sn5),and(way,no,sn2),def_prop(now,[istituzione]),def_prop(it,[any]),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(there,[any])])
+lf(Juniper Lyrics.txt_3,6,cl4-not-nil-ask-[obj-prop-me-sn3,xcomp-purpose-ask-5,aux-do-nil,def_prop(me,[umano])])
+lf(Juniper Lyrics.txt_3,6,nil-nil-nil-back-[])
+lf(Juniper Lyrics.txt_3,6,cl3-not-can-take-[obj-theme_aff-no-sn2,subj-agent-you-sn1,def_prop(no,[istituzione]),def_prop(you,[umano])])
+lf(Juniper Lyrics.txt_4,12,cl6-nil-will-leave-[obj-theme-doubt-sn6,subj-theme-i-sn5,def_prop(doubt,[astratto]),def_prop(i,[umano])])
+lf(Juniper Lyrics.txt_4,12,cl5-nil-will-live-[obj-prop-life-sn2,subj-actor-i-sn1,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(i,[umano])])
+lf(Juniper Lyrics.txt_5,18,cl8-nil-nil-be-[subj-actor-what-sn5,def_prop(what,[oggetto])])
+lf(Juniper Lyrics.txt_5,18,cl7-nil-nil-wear-[xcomp-prop-away-sn2,subj-theme_unaff-i-sn1,aux-am-nil,def_prop(away,[evaluative]),def_prop(i,[umano])])
+lf(Juniper Lyrics.txt_6,25,cl10-nil-nil-ask-[obj-prop-me-sn4,xcomp-purpose-ask-2,obj-theme_unaff-me-sn3,subj-actor-you-sn2,def_prop(me,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Juniper Lyrics.txt_6,25,cl9-not-will-stay-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Juniper Lyrics.txt_7,34,cl11-nil-will-will-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Juniper Lyrics.txt_8,42,cl13-nil-nil-want-[obj-prop-me-sn4,xcomp-purpose-want-2,obj-tema_unaff-me-sn3,subj-actor-you-sn2,def_prop(me,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Juniper Lyrics.txt_8,42,cl12-not-will-weep-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Juniper Lyrics.txt_9,53,cl14-nil-will-will-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Juniper Lyrics.txt_10,63,cl16-nil-nil-come-[subj-prop-i-sn6,def_prop(i,[umano])])
+lf(Juniper Lyrics.txt_10,63,cl15-not-will-will-[cmod-subord-come-because,adj-(mod)-back-nil,subj-agent-i-sn6,def_prop(i,[umano])])
+lf(Juniper Lyrics.txt_11,75,nil-nil-nil-back-[subj-agent-you-sn8,def_prop(you,[umano])])
+lf(Juniper Lyrics.txt_11,75,cl17-not-nil-want-[obj-tema_unaff-them-sn3,subj-actor-i-sn2,subj-actor-i-sn1,aux-do-nil,and(i,dream,sn1),and(i,all,sn1),def_prop(them,[umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Juniper Lyrics.txt_12,88,cl19-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Juniper Lyrics.txt_12,88,cl18-nil-nil-love-[obj-theme_unaff-i-sn2,subj-experiencer-ah-sn1,def_prop(i,[umano]),def_prop(ah,[informa,tecno])])
+lf(Juniper Lyrics.txt_13,102,cl20-nil-nil-leave-[ncmod-location-window-sn2,subj-theme-you-sn1,def_prop(window,[oggetto,strumento,tempo]),def_prop(you,[umano])])

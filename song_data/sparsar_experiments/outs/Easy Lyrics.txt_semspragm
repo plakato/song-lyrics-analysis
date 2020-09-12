@@ -1,0 +1,214 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Easy Lyrics.txt_1-1  []-positive  []
+Easy Lyrics.txt_2-3  [when-temp_coinc]-positive  []
+Easy Lyrics.txt_3-7  []-suspension  []
+Easy Lyrics.txt_3-8  []-positive  []
+Easy Lyrics.txt_3-9  [then-temp_seq]-positive  []
+Easy Lyrics.txt_4-13  []-suspension  []
+Easy Lyrics.txt_5-18  []-positive  [bkc]
+Easy Lyrics.txt_5-19  []-positive  []
+Easy Lyrics.txt_6-25  []-positive  [fhd]
+Easy Lyrics.txt_6-26  []-positive  [neg]
+Easy Lyrics.txt_7-33  []-negative  [fgb,neg]
+Easy Lyrics.txt_8-41  [but-advers]-negative  [fgb,neg]
+Easy Lyrics.txt_8-41  [but-advers]-negative  [fgb,neg,ass]
+Easy Lyrics.txt_9-50  []-negative  [bkc,neg,ass]
+Easy Lyrics.txt_10-60  []-positive  []
+Easy Lyrics.txt_10-61  []-positive  []
+Easy Lyrics.txt_11-72  []-negative  []
+Easy Lyrics.txt_12-84  []-negative  []
+Easy Lyrics.txt_12-85  []-positive  []
+Easy Lyrics.txt_12-86  []-positive  []
+Easy Lyrics.txt_13-99  [if-hypoth]-positive  [fgb]
+Easy Lyrics.txt_13-100  []-positive  []
+Easy Lyrics.txt_14-114  [then-temp_seq]-negative  [neg]
+Easy Lyrics.txt_15-129  [when-temp_coinc]-suspension  [neg]
+Easy Lyrics.txt_16-146  []-positive  []
+Easy Lyrics.txt_16-147  []-negative  [neg,neg]
+Easy Lyrics.txt_17-164  [but-advers]-suspension  [fgb,neg]
+Easy Lyrics.txt_18-182  []-positive  [bkc]
+Easy Lyrics.txt_19-201  []-positive  []
+Easy Lyrics.txt_19-202  []-suspension  [neg,neg]
+Easy Lyrics.txt_20-223  []-positive  [neg]
+Easy Lyrics.txt_21-244  [but-advers]-negative  [fgb,neg]
+Easy Lyrics.txt_21-244  [but-advers]-negative  [fgb,neg,ass]
+Easy Lyrics.txt_22-266  []-positive  []
+Easy Lyrics.txt_22-267  []-negative  [neg,ass]
+Easy Lyrics.txt_23-290  [so-result]-positive  [fgb]
+Easy Lyrics.txt_24-314  []-negative  []
+Easy Lyrics.txt_25-339  []-negative  []
+Easy Lyrics.txt_25-340  []-positive  []
+Easy Lyrics.txt_25-341  []-positive  []
+Easy Lyrics.txt_26-367  [if-hypoth]-positive  [fgb]
+Easy Lyrics.txt_26-368  []-positive  []
+Easy Lyrics.txt_27-395  [then-temp_seq]-negative  [neg]
+Easy Lyrics.txt_28-423  [(as)-temp_coinc,so-result]-negative  [neg,fgb]
+Easy Lyrics.txt_29-452  [if-hypoth,so-result]-negative  [fgb,fgb,neg,ass]
+Easy Lyrics.txt_30-482  [if-hypoth]-negative  [fgb,neg]
+Easy Lyrics.txt_30-482  [if-hypoth]-negative  [fgb,neg,ass]
+Easy Lyrics.txt_31-513  []-positive  []
+Easy Lyrics.txt_31-514  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Easy Lyrics.txt_1-1  [easy,Lyrics,by,Swimming,with,Dolphins]  [title]
+Easy Lyrics.txt_2-3  [tell,me,when,it,is,over]  [provide_expl_just(tell,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Easy Lyrics.txt_3-7  [i,will,begin,pulling,the,boards,from,my,front]  [provide_expl_just(pull,[external,factive,cause,foreground,objective]),provide_expl_just(begin,[external,nonfactive,inception,background,objective])]
+Easy Lyrics.txt_3-8  [door,once,it,is,safer]  [provide_expl_just(pull,[external,factive,cause,foreground,objective]),provide_expl_just(begin,[external,nonfactive,inception,background,objective])]
+Easy Lyrics.txt_3-9  [then]  [provide_expl_just(pull,[external,factive,cause,foreground,objective]),provide_expl_just(begin,[external,nonfactive,inception,background,objective])]
+Easy Lyrics.txt_4-13  [i,will,show,my,face,again]  [raise_issue(be,[_377502,_377508,statement,_377520,_377526])]
+Easy Lyrics.txt_5-18  [yeah,i,want]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_5-19  [you,closer]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_6-25  [i,have,been,livin-,just,like,a,ghost,for_the_most_part]  [provide_expl_just(feel,[external,factive,narration,foreground,objective])]
+Easy Lyrics.txt_6-26  [i,am,feeling,dissonant]  [provide_expl_just(feel,[external,factive,narration,foreground,objective])]
+Easy Lyrics.txt_7-33  [and,you,are,indifferent]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_8-41  [but,,,you,are,not,still]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_8-41  [but,,,you,are,not,still,sure]  [reject_expl_just(be,[external,factive,narration,background,objective]),accept_expl_opin(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_9-50  [yeah,you,are,not,still,sure]  [reject_expl_just(be,[external,factive,narration,background,objective]),accept_expl_opin(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_10-60  [let,me,make]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_10-61  [it,easier]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_11-72  [you,don-t,have_to,call]  [provide_expl_just(must,[external,nonfactive,narration,foreground,objective])]
+Easy Lyrics.txt_12-84  [you,don-t,have_to,say]  [provide_expl_just(must,[external,nonfactive,narration,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_12-85  [i,love]  [provide_expl_just(must,[external,nonfactive,narration,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_12-86  [you,again]  [provide_expl_just(must,[external,nonfactive,narration,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_13-99  [if,you,want,a,love]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_13-100  [that,is,easy]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_14-114  [then,i,would,rather,have,nothing]  [reject_expl_just(have,[external,nonfactive,narration,background,objective])]
+Easy Lyrics.txt_15-129  [maybe,when,we,are,older,it,will,sink,in]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(sink,[external,nonfactive,narration,background,objective])]
+Easy Lyrics.txt_16-146  [cause,heaven,knows]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_16-147  [this,is,not,not,blowin,anytime,fast]  [reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_17-164  [but,everything,will,pass]  [suggest(be,[_409284,_409290,statement,background,_409308])]
+Easy Lyrics.txt_18-182  [yeah,i,am,getting,bolder,with,my,thinking]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Easy Lyrics.txt_19-201  [you,have,got,me]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(wrong,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_19-202  [wrong,for,so_long,i,can,not,even,turn,my,back]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(wrong,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_20-223  [without,you,falling,off,track]  [provide_expl_just(fall,[external,factive,cause,foreground,objective])]
+Easy Lyrics.txt_21-244  [but,you,are,not,still]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_21-244  [but,you,are,not,still,sure]  [reject_expl_just(be,[external,factive,narration,background,objective]),accept_expl_opin(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_22-266  [i,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_22-267  [you,are,still,not,sure]  [reject_expl_just(know,[external,factive,narration,background,objective]),accept_expl_opin(know,_421446),reject_expl_just(be,[external,factive,narration,background,objective]),accept_expl_opin(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_23-290  [so,let,me,make,it,easier]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_24-314  [you,don-t,have_to,call]  [provide_expl_just(must,[external,nonfactive,narration,foreground,objective])]
+Easy Lyrics.txt_25-339  [you,don-t,have_to,say]  [provide_expl_just(must,[external,nonfactive,narration,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_25-340  [i,love]  [provide_expl_just(must,[external,nonfactive,narration,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_25-341  [you,again]  [provide_expl_just(must,[external,nonfactive,narration,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_26-367  [if,you,want,a,love]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_26-368  [that,is,easy]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_27-395  [then,i,would,rather,have,nothing]  [reject_expl_just(have,[external,nonfactive,narration,background,objective])]
+Easy Lyrics.txt_28-423  [never,been,so,clear,as,now]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_29-452  [so,if,you,are,not,still,sure]  [reject_expl_just(be,[external,factive,narration,background,objective]),accept_expl_opin(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_30-482  [if,you,are,not,still]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_30-482  [if,you,are,not,still,sure]  [reject_expl_just(be,[external,factive,narration,background,objective]),accept_expl_opin(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_31-513  [let,me,make]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Easy Lyrics.txt_31-514  [it,easier]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Easy Lyrics.txt_1-1)-[]
+2-(Easy Lyrics.txt_2-3)-[secondary-social_behavior,secondary-temporal_repere,primary-concreteness]
+3-(Easy Lyrics.txt_3-7)-[primary-concreteness]
+4-(Easy Lyrics.txt_3-8)-[primary-brink,secondary-temporal_repere,primary-passivity]
+5-(Easy Lyrics.txt_3-9)-[secondary-temporal_repere]
+6-(Easy Lyrics.txt_4-13)-[primary-narcissism,secondary-temporal_repere]
+7-(Easy Lyrics.txt_5-18)-[]
+8-(Easy Lyrics.txt_5-19)-[primary-concreteness]
+9-(Easy Lyrics.txt_6-25)-[emotions-affection]
+10-(Easy Lyrics.txt_6-26)-[]
+11-(Easy Lyrics.txt_7-33)-[primary-passivity]
+12-(Easy Lyrics.txt_8-41)-[]
+13-(Easy Lyrics.txt_8-41)-[secondary-abstract_tought]
+14-(Easy Lyrics.txt_9-50)-[secondary-abstract_tought]
+15-(Easy Lyrics.txt_10-60)-[secondary-instru_behavior]
+16-(Easy Lyrics.txt_10-61)-[]
+17-(Easy Lyrics.txt_11-72)-[secondary-social_behavior]
+18-(Easy Lyrics.txt_12-84)-[secondary-social_behavior]
+19-(Easy Lyrics.txt_12-85)-[emotions-affection]
+20-(Easy Lyrics.txt_12-86)-[secondary-temporal_repere]
+21-(Easy Lyrics.txt_13-99)-[emotions-affection]
+22-(Easy Lyrics.txt_13-100)-[]
+23-(Easy Lyrics.txt_14-114)-[secondary-temporal_repere]
+24-(Easy Lyrics.txt_15-129)-[secondary-abstract_tought,secondary-temporal_repere,secondary-temporal_repere,primary-descent]
+half
+25-(Easy Lyrics.txt_16-146)-[secondary-abstract_tought,primary-height,secondary-abstract_tought]
+26-(Easy Lyrics.txt_16-147)-[primary-orality]
+27-(Easy Lyrics.txt_17-164)-[]
+28-(Easy Lyrics.txt_18-182)-[]
+29-(Easy Lyrics.txt_19-201)-[]
+30-(Easy Lyrics.txt_19-202)-[primary-concreteness]
+31-(Easy Lyrics.txt_20-223)-[primary-concreteness]
+32-(Easy Lyrics.txt_21-244)-[]
+33-(Easy Lyrics.txt_21-244)-[secondary-abstract_tought]
+34-(Easy Lyrics.txt_22-266)-[secondary-abstract_tought]
+35-(Easy Lyrics.txt_22-267)-[secondary-abstract_tought]
+36-(Easy Lyrics.txt_23-290)-[secondary-instru_behavior]
+37-(Easy Lyrics.txt_24-314)-[secondary-social_behavior]
+38-(Easy Lyrics.txt_25-339)-[secondary-social_behavior]
+39-(Easy Lyrics.txt_25-340)-[emotions-affection]
+40-(Easy Lyrics.txt_25-341)-[secondary-temporal_repere]
+41-(Easy Lyrics.txt_26-367)-[emotions-affection]
+42-(Easy Lyrics.txt_26-368)-[]
+43-(Easy Lyrics.txt_27-395)-[secondary-temporal_repere]
+44-(Easy Lyrics.txt_28-423)-[secondary-temporal_repere]
+45-(Easy Lyrics.txt_29-452)-[secondary-abstract_tought]
+46-(Easy Lyrics.txt_30-482)-[]
+47-(Easy Lyrics.txt_30-482)-[secondary-abstract_tought]
+48-(Easy Lyrics.txt_31-513)-[secondary-instru_behavior]
+49-(Easy Lyrics.txt_31-514)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Easy Lyrics.txt_1,1,cl1-nil-nil-be-[ncmod-comitativo-Dolphin-sn3,arg_mod-agent-Swimming-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,easy,sn1),def_prop(Dolphin,[place,umano]),def_prop(Swimming,[attivita,informa]),def_prop(Lyrics,[informa,tecno])])
+lf(Easy Lyrics.txt_2,3,cl3-nil-nil-be-[cmod-subord-be-when,subj-theme_bound-pro-nil,subj-theme_bound-it-sn3,def_prop(it,[any])])
+lf(Easy Lyrics.txt_2,3,cl2-nil-nil-tell-[obj-theme_unaff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Easy Lyrics.txt_3,7,cl6-nil-nil-be-[adj-(mod)-once-nil,xcomp-prop-safer-sn8,subj-theme_bound-it-sn7,subj-theme_bound-it-sn6,xcomp-goal-board-sn2,xcomp-purpose-pull-4,and(it,door,sn6),def_prop(safer,[evaluative]),def_prop(it,[any]),def_prop(it,[any]),def_prop(board,[edible,istituzione,oggetto,sostanza,strumento])])
+lf(Easy Lyrics.txt_3,7,cl5-nil-nil-pull-[iobj-goal-front-sn3,def_prop(front,[astratto,attivita,cambia,luogo,oggetto,stato,strumento])])
+lf(Easy Lyrics.txt_3,7,cl4-nil-will-begin-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Easy Lyrics.txt_4,13,cl7-nil-will-show-[adj-locative-again-nil,obj-goal-face-sn2,subj-actor-i-sn1,def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(Easy Lyrics.txt_5,18,cl9-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Easy Lyrics.txt_5,18,cl8-nil-nil-want-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Easy Lyrics.txt_6,25,cl11-nil-nil-feel-[xcomp-prop-dissonant-sn8,subj-experiencer-i-sn7,aux-am-nil,progr-feeling-nil,def_prop(dissonant,[evaluative]),def_prop(i,[umano])])
+lf(Easy Lyrics.txt_6,25,cl10-nil-nil-be-[obj2-benef-ghost-sn3,xcomp-prop-livin- - sn2,subj-theme_bound-i-sn1,def_prop(ghost,[astratto,umano]),def_prop(livin-,[istituzione,umano]),def_prop(i,[umano])])
+lf(Easy Lyrics.txt_7,33,cl12-nil-nil-be-[cmod-subord-be-",xcomp-prop-indifferent-sn2,subj-theme_bound-you-sn1,def_prop(indifferent,[evaluative]),def_prop(you,[umano])])
+lf(Easy Lyrics.txt_8,41,cl13-nil-nil-be-[cmod-subord-be-but,subj-theme_bound-you-sn4,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Easy Lyrics.txt_9,50,cl14-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Easy Lyrics.txt_10,60,cl16-nil-nil-be-[xcomp-prop-easier-sn4,subj-theme_bound-it-sn3,def_prop(easier,[evaluative]),def_prop(it,[any])])
+lf(Easy Lyrics.txt_10,60,cl15-nil-nil-make-[xcomp-prop-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Easy Lyrics.txt_11,72,cl17-not-have_to-must-[subj-theme_unaff-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Easy Lyrics.txt_12,84,cl20-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Easy Lyrics.txt_12,84,cl19-nil-nil-love-[subj-experiencer-you-sn2,def_prop(you,[umano])])
+lf(Easy Lyrics.txt_12,84,cl18-not-have_to-must-[subj-theme_unaff-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Easy Lyrics.txt_13,99,cl22-nil-nil-be-[xcomp-prop-easy-sn3,def_prop(easy,[soggettivo])])
+lf(Easy Lyrics.txt_13,99,cl21-nil-nil-want-[obj-tema_unaff-love-sn2,subj-actor-you-sn1,def_prop(love,[astratto,emotivo,nquant]),def_prop(you,[umano])])
+lf(Easy Lyrics.txt_14,114,cl23-nil-would-have-[xcomp-tema_bound-nothing-sn2,subj-experiencer-i-sn1,def_prop(nothing,[astratto,informa,oggetto]),def_prop(i,[umano])])
+lf(Easy Lyrics.txt_15,129,cl25-nil-will-sink-[cmod-subord-sink-when,subj-agent-it-sn1,def_prop(it,[any])])
+lf(Easy Lyrics.txt_15,129,cl24-nil-nil-be-[xcomp-prop-older-sn5,subj-theme_bound-we-sn4,def_prop(older,[evaluative]),def_prop(we,[umano])])
+lf(Easy Lyrics.txt_16,146,cl27-not-nil-be-[xcomp-prop-fast-sn5,xcomp-prop-anytime-sn4,xcomp-prop-blowin-sn3,subj-theme_bound-this-sn2,def_prop(fast,[valutativo]),def_prop(anytime,[istituzione]),def_prop(blowin,[istituzione]),def_prop(this,[oggetto,umano])])
+lf(Easy Lyrics.txt_16,146,cl26-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Easy Lyrics.txt_17,164,cl28-nil-nil-pass-[subj-theme_unaff-you-sn1,def_prop(you,[umano])])
+lf(Easy Lyrics.txt_18,182,cl29-nil-nil-get-[adj-(mod)-yeah-nil,ncmod-comitativo-think-sn3,xcomp-prop-bolder-sn2,subj-theme_bound-i-sn1,aux-am-nil,progr-getting-nil,def_prop(think,[astratto]),def_prop(bolder,[evaluative]),def_prop(i,[umano])])
+lf(Easy Lyrics.txt_19,201,cl32-not-can-turn-[cmod-subord-turn-for,obj-theme-back-sn4,subj-agent-i-sn3,adj-(mod)-even-nil,def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(Easy Lyrics.txt_19,201,cl31-nil-nil-wrong-[subj-agent-pro-nil])
+lf(Easy Lyrics.txt_19,201,cl30-nil-nil-get-[obj-theme_unaff-me-sn2,subj-agent-you-sn1,aux-have-nil,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Easy Lyrics.txt_20,223,cl33-nil-nil-fall-[ncmod-locativo-track-sn3,ncmod-modal-you-sn2,subj-agent-you-sn1,def_prop(track,[attivita,oggetto,strumento]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Easy Lyrics.txt_21,244,cl34-nil-nil-be-[cmod-subord-be-but,subj-theme_bound-you-sn4,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Easy Lyrics.txt_22,266,cl36-nil-nil-be-[xcomp-prop-sure-sn3,subj-theme_bound-you-sn2,def_prop(sure,[valutativo]),def_prop(you,[umano])])
+lf(Easy Lyrics.txt_22,266,cl35-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Easy Lyrics.txt_23,290,cl37-nil-nil-make-[xcomp-prop-easier-sn3,obj-theme_unaff-me-sn2,xadj-result-let-2,subj-agent-it-sn1,def_prop(easier,[evaluative]),def_prop(me,[umano]),def_prop(it,[any])])
+lf(Easy Lyrics.txt_24,314,cl38-not-have_to-must-[subj-theme_unaff-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Easy Lyrics.txt_25,339,cl41-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Easy Lyrics.txt_25,339,cl40-nil-nil-love-[subj-experiencer-you-sn2,def_prop(you,[umano])])
+lf(Easy Lyrics.txt_25,339,cl39-not-have_to-must-[subj-theme_unaff-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Easy Lyrics.txt_26,367,cl43-nil-nil-be-[xcomp-prop-easy-sn3,def_prop(easy,[soggettivo])])
+lf(Easy Lyrics.txt_26,367,cl42-nil-nil-want-[obj-tema_unaff-love-sn2,subj-actor-you-sn1,def_prop(love,[astratto,emotivo,nquant]),def_prop(you,[umano])])
+lf(Easy Lyrics.txt_27,395,cl44-nil-would-have-[xcomp-tema_bound-nothing-sn2,subj-experiencer-i-sn1,def_prop(nothing,[astratto,informa,oggetto]),def_prop(i,[umano])])
+lf(Easy Lyrics.txt_28,423,cl45-nil-nil-be-[subj-theme_bound-clear-sn1,def_prop(clear,[valutativo])])
+lf(Easy Lyrics.txt_29,452,cl46-nil-nil-be-[cmod-subord-be-if,subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Easy Lyrics.txt_30,482,cl47-nil-nil-be-[cmod-subord-be-if,subj-theme_bound-you-sn4,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Easy Lyrics.txt_31,513,cl49-nil-nil-be-[xcomp-prop-easier-sn4,subj-theme_bound-it-sn3,def_prop(easier,[evaluative]),def_prop(it,[any])])
+lf(Easy Lyrics.txt_31,513,cl48-nil-nil-make-[xcomp-prop-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])

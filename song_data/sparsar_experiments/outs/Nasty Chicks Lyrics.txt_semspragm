@@ -1,0 +1,89 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Nasty Chicks Lyrics.txt_1-1  []-negative  [neg]
+Nasty Chicks Lyrics.txt_2-3  []-positive  []
+Nasty Chicks Lyrics.txt_3-6  []-negative  [neg,neg]
+Nasty Chicks Lyrics.txt_4-10  []-positive  [bkc]
+Nasty Chicks Lyrics.txt_5-15  []-suspension  [neg,neg]
+Nasty Chicks Lyrics.txt_6-21  []-negative  [neg]
+Nasty Chicks Lyrics.txt_7-28  []-positive  []
+Nasty Chicks Lyrics.txt_7-29  []-suspension  [fgb,ass]
+Nasty Chicks Lyrics.txt_7-29  []-suspension  [fgb,ass,neg,bkc]
+Nasty Chicks Lyrics.txt_8-36  []-positive  [bkc,bkc,bkc,bkc]
+Nasty Chicks Lyrics.txt_9-45  []-negative  [bkc,bkc,bkc,neg]
+Nasty Chicks Lyrics.txt_10-55  []-negative  [neg]
+Nasty Chicks Lyrics.txt_11-66  []-positive  [bkc,bkc]
+Nasty Chicks Lyrics.txt_11-67  []-suspension  []
+Nasty Chicks Lyrics.txt_12-79  []-suspension  [neg,neg]
+Nasty Chicks Lyrics.txt_13-92  []-positive  [fgb,neg]
+Nasty Chicks Lyrics.txt_14-106  []-positive  [fgb]
+Nasty Chicks Lyrics.txt_15-121  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Nasty Chicks Lyrics.txt_1-1  [nasty,Chicks,Lyrics,by,Blood,Duster]  [title]
+Nasty Chicks Lyrics.txt_2-3  [got,you,in,my,sight]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Nasty Chicks Lyrics.txt_3-6  [i,am,a,mean,bitch]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Nasty Chicks Lyrics.txt_4-10  [yeah,that,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Nasty Chicks Lyrics.txt_5-15  [smash,the,shit]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Nasty Chicks Lyrics.txt_6-21  [out_of,you,prick]  [reject_expl_just(prick,[external,factive,narration,background,objective])]
+Nasty Chicks Lyrics.txt_7-28  [!]  [provide_expl_just(die,[internal,factive,narration,foreground,objective])]
+Nasty Chicks Lyrics.txt_7-29  [and,i,will,make,sure]  [accept_expl_opin(die,[internal,factive,narration,foreground,objective])]
+Nasty Chicks Lyrics.txt_7-29  [and,i,will,make,sure,you,die,yeah]  [accept_expl_opin(die,[internal,factive,narration,foreground,objective])]
+Nasty Chicks Lyrics.txt_8-36  [yeah,-,grrr,yeah,ohh,yeah,-,yeah,-]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Nasty Chicks Lyrics.txt_9-45  [yeah,-,yeah,,,ha,ho]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Nasty Chicks Lyrics.txt_10-55  [smash,you,up,real,good]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Nasty Chicks Lyrics.txt_11-66  [oh,yeah,i,said]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Nasty Chicks Lyrics.txt_11-67  [i,would]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Nasty Chicks Lyrics.txt_12-79  [i,will,load,my,gun]  [provide_expl_just(load,[external,nonfactive,narration,background,objective])]
+Nasty Chicks Lyrics.txt_13-92  [and,your,face,shoot]  [provide_expl_just(shoot,[external,factive,narration,background,objective])]
+Nasty Chicks Lyrics.txt_14-106  [and,spread,you,bits]  [proposal(be,[_577300,_577306,statement,foreground,_577324])]
+Nasty Chicks Lyrics.txt_15-121  [around,the,place]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Nasty Chicks Lyrics.txt_1-1)-[]
+2-(Nasty Chicks Lyrics.txt_2-3)-[primary-vision]
+3-(Nasty Chicks Lyrics.txt_3-6)-[primary-sex]
+4-(Nasty Chicks Lyrics.txt_4-10)-[]
+5-(Nasty Chicks Lyrics.txt_5-15)-[emotions-aggression,primary-anality]
+6-(Nasty Chicks Lyrics.txt_6-21)-[secondary-instru_behavior]
+7-(Nasty Chicks Lyrics.txt_7-28)-[]
+8-(Nasty Chicks Lyrics.txt_7-29)-[secondary-instru_behavior,secondary-abstract_tought]
+9-(Nasty Chicks Lyrics.txt_7-29)-[secondary-instru_behavior,secondary-abstract_tought,primary-passivity]
+half
+10-(Nasty Chicks Lyrics.txt_8-36)-[]
+11-(Nasty Chicks Lyrics.txt_9-45)-[]
+12-(Nasty Chicks Lyrics.txt_10-55)-[emotions-aggression,secondary-abstract_tought]
+13-(Nasty Chicks Lyrics.txt_11-66)-[secondary-social_behavior]
+14-(Nasty Chicks Lyrics.txt_11-67)-[]
+15-(Nasty Chicks Lyrics.txt_12-79)-[emotions-aggression]
+16-(Nasty Chicks Lyrics.txt_13-92)-[primary-narcissism,emotions-aggression]
+17-(Nasty Chicks Lyrics.txt_14-106)-[primary-random_movement]
+18-(Nasty Chicks Lyrics.txt_15-121)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Nasty Chicks Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Duster-sn2,subj-theme_bound-Lyrics-sn1,and(Duster,Blood,sn2),and(Lyrics,female,sn1),and(Lyrics,nasty,sn1),def_prop(Duster,[place,attivita,oggetto,strumento,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Nasty Chicks Lyrics.txt_2,3,cl2-nil-nil-get-[iobj-goal-sight-sn3,subj-experiencer-you-sn2,subj-experiencer-you-sn1,and(you,you,sn1),def_prop(sight,[astratto,attivita,informa,nquant,oggetto,strumento]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Nasty Chicks Lyrics.txt_3,6,cl3-nil-nil-be-[xcomp-prop-bitch-sn2,subj-theme_bound-i-sn1,and(bitch,mean,sn2),def_prop(bitch,[animato,stato]),def_prop(i,[umano])])
+lf(Nasty Chicks Lyrics.txt_4,10,cl4-nil-nil-be-[])
+lf(Nasty Chicks Lyrics.txt_5,15,cl5-nil-nil-be-[subj-theme_bound-shit-sn1,def_prop(shit,[attivita,umano])])
+lf(Nasty Chicks Lyrics.txt_6,21,cl6-nil-nil-prick-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Nasty Chicks Lyrics.txt_7,28,cl8-nil-nil-die-[cmod-coord-be-and,adj-(mod)-yeah-nil,obj-theme-you-sn7,xcomp-prop-sure-sn6,subj-theme_aff-i-sn5,def_prop(you,[umano]),def_prop(sure,[valutativo]),def_prop(i,[umano])])
+lf(Nasty Chicks Lyrics.txt_7,28,cl7-nil-will-make-[xcomp-prop-sure-sn2,subj-agent-i-sn1,def_prop(sure,[valutativo]),def_prop(i,[umano])])
+lf(Nasty Chicks Lyrics.txt_8,36,cl9-nil-nil-be-[adj-(mod)-yeah-nil,subj-theme_bound-ohh-sn2,subj-theme_bound-ohh-sn1,and(ohh,grrr,sn1),def_prop(ohh,[istituzione]),def_prop(ohh,[istituzione])])
+lf(Nasty Chicks Lyrics.txt_9,45,cl10-nil-nil-be-[xcomp-prop-ho-sn2,subj-theme_bound-ha-sn1,def_prop(ho,[istituzione,umano]),def_prop(ha,[astratto])])
+lf(Nasty Chicks Lyrics.txt_10,55,cl11-nil-nil-be-[subj-theme_bound-good-sn2,subj-theme_bound-good-sn1,and(good,real,sn2),and(good,you,sn1),and(good,real,sn1),def_prop(good,[astratto]),def_prop(good,[astratto])])
+lf(Nasty Chicks Lyrics.txt_11,66,cl13-nil-would-will-[subj-agent-i-sn6,def_prop(i,[umano])])
+lf(Nasty Chicks Lyrics.txt_11,66,cl12-nil-nil-say-[subj-actor-i-sn2,subj-actor-i-sn1,and(i,oh,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Nasty Chicks Lyrics.txt_12,79,cl14-nil-will-load-[obj-destination-gun-sn2,subj-agent-i-sn1,def_prop(gun,[attivita,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(Nasty Chicks Lyrics.txt_13,92,cl15-nil-nil-shoot-[cmod-subord-shoot-",subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Nasty Chicks Lyrics.txt_14,106,cl16-nil-nil-spread-[cmod-subord-spread-",obj-theme-bit-sn3,subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(bit,[nquant,oggetto,strumento]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Nasty Chicks Lyrics.txt_15,121,cl17-nil-nil-be-[subj-theme_bound-place-sn1,def_prop(place,[astratto,attivita,informa,luogo,stato])])

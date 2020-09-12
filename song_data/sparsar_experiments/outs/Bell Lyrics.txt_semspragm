@@ -1,0 +1,135 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Bell Lyrics.txt_1-1  []-positive  []
+Bell Lyrics.txt_2-3  []-positive  []
+Bell Lyrics.txt_3-6  []-positive  []
+Bell Lyrics.txt_3-7  []-negative  [neg]
+Bell Lyrics.txt_3-8  []-positive  []
+Bell Lyrics.txt_4-12  []-positive  []
+Bell Lyrics.txt_4-13  []-positive  []
+Bell Lyrics.txt_4-14  []-positive  [fgb]
+Bell Lyrics.txt_5-17  []-negative  []
+Bell Lyrics.txt_6-23  []-positive  []
+Bell Lyrics.txt_7-31  []-positive  []
+Bell Lyrics.txt_7-32  []-positive  [fgb,neg]
+Bell Lyrics.txt_8-40  []-positive  []
+Bell Lyrics.txt_9-49  [then-temp_seq,though-advers]-negative  [neg]
+Bell Lyrics.txt_10-59  []-positive  []
+Bell Lyrics.txt_10-60  []-positive  [fgb]
+Bell Lyrics.txt_11-71  []-negative  [neg]
+Bell Lyrics.txt_11-72  [but-advers]-positive  [fgb]
+Bell Lyrics.txt_12-84  []-positive  []
+Bell Lyrics.txt_13-97  []-positive  []
+Bell Lyrics.txt_13-98  []-negative  [neg]
+Bell Lyrics.txt_14-112  []-negative  [neg,fgb]
+Bell Lyrics.txt_15-128  [though-advers]-negative  [neg]
+Bell Lyrics.txt_15-129  []-positive  []
+Bell Lyrics.txt_16-145  []-positive  []
+Bell Lyrics.txt_17-162  []-positive  []
+Bell Lyrics.txt_18-180  []-positive  []
+Bell Lyrics.txt_19-199  []-negative  [neg]
+Bell Lyrics.txt_20-219  [but-advers]-negative  [fgb,neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Bell Lyrics.txt_1-1  [bell,Lyrics,by,Swirlies]  [title]
+Bell Lyrics.txt_2-3  [once_again,the,rubber,prize]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Bell Lyrics.txt_3-6  [her,breathing]  [provide_expl_just(breathe,[external,factive,narration,foreground,objective]),provide_expl_just(make,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Bell Lyrics.txt_3-7  [hand,never,makes]  [reject_expl_just(breathe,[external,factive,narration,foreground,objective]),reject_expl_just(make,[external,factive,explanation,background,objective]),propose_opin_neg(make,[external,factive,explanation,background,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Bell Lyrics.txt_3-8  [that,sound]  [provide_expl_just(breathe,[external,factive,narration,foreground,objective]),provide_expl_just(make,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Bell Lyrics.txt_4-12  [i,all,for,know]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_4-13  [it,is,in,the,stairs]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_4-14  [and,it,is,all,around]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_5-17  [a,grinding,insect,sound]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_6-23  [her,bell,voice,did,let,ring]  [provide_expl_just(ring,[external,factive,narration,background,objective]),provide_expl_just(let,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_7-31  [i,look,up]  [provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(lose,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_7-32  [and,sense,of,things,lose]  [provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(lose,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_8-40  [i,took,a,look,way,outside]  [provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Bell Lyrics.txt_9-49  [an,hour,less,though,then,it,is,mine]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_10-59  [a,borrowed,dime,she,scrimped]  [provide_expl_just(scrimp,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_10-60  [and,saved]  [provide_expl_just(scrimp,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_11-71  [my,doubt,grew,strong]  [reject_expl_just(grow,[external,factive,cause,foreground,objective]),reject_expl_just(buy,[external,factive,result,foreground,objective]),propose_opin_neg(buy,[external,factive,result,foreground,objective])]
+Bell Lyrics.txt_11-72  [but,she,some,time,bought]  [provide_expl_just(grow,[external,factive,cause,foreground,objective]),provide_expl_just(buy,[external,factive,result,foreground,objective])]
+Bell Lyrics.txt_12-84  [i,came,down,in,Tennessee]  [raise_issue(be,[_466950,factive,statement,_466968,subjective])]
+Bell Lyrics.txt_13-97  [i,took,a,look]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_13-98  [she,is,undone,me]  [reject_expl_just(take,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_14-112  [made,it,stain,high,and,alive]  [reject_expl_just(make,[external,factive,cause,foreground,objective])]
+Bell Lyrics.txt_15-128  [i,can,not,wait,though]  [reject_expl_just(wait,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_15-129  [it,is,fine]  [provide_expl_just(wait,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_16-145  [it,is,fine,now]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_17-162  [he,is,done]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_18-180  [he,is,almost,there]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_19-199  [he,is,not,allowed]  [reject_expl_just(allow,[external,factive,narration,background,objective])]
+Bell Lyrics.txt_20-219  [but,he,can,not,stop,now]  [reject_expl_just(stop,[external,nonfactive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Bell Lyrics.txt_1-1)-[primary-sound]
+2-(Bell Lyrics.txt_2-3)-[primary-touch]
+3-(Bell Lyrics.txt_3-6)-[]
+4-(Bell Lyrics.txt_3-7)-[primary-narcissism,secondary-instru_behavior]
+5-(Bell Lyrics.txt_3-8)-[primary-sound]
+6-(Bell Lyrics.txt_4-12)-[secondary-abstract_tought]
+7-(Bell Lyrics.txt_4-13)-[primary-brink]
+8-(Bell Lyrics.txt_4-14)-[]
+9-(Bell Lyrics.txt_5-17)-[primary-sound]
+10-(Bell Lyrics.txt_6-23)-[primary-sound,primary-sound,primary-sound]
+11-(Bell Lyrics.txt_7-31)-[primary-vision]
+12-(Bell Lyrics.txt_7-32)-[]
+13-(Bell Lyrics.txt_8-40)-[primary-vision,primary-concreteness]
+14-(Bell Lyrics.txt_9-49)-[secondary-temporal_repere,secondary-temporal_repere]
+half
+15-(Bell Lyrics.txt_10-59)-[secondary-social_behavior,primary-diffusion]
+16-(Bell Lyrics.txt_10-60)-[]
+17-(Bell Lyrics.txt_11-71)-[emotions-aggression,primary-height]
+18-(Bell Lyrics.txt_11-72)-[secondary-temporal_repere,secondary-instru_behavior]
+19-(Bell Lyrics.txt_12-84)-[]
+20-(Bell Lyrics.txt_13-97)-[primary-vision]
+21-(Bell Lyrics.txt_13-98)-[]
+22-(Bell Lyrics.txt_14-112)-[primary-counscious,primary-height]
+23-(Bell Lyrics.txt_15-128)-[]
+24-(Bell Lyrics.txt_15-129)-[]
+25-(Bell Lyrics.txt_16-145)-[secondary-temporal_repere]
+26-(Bell Lyrics.txt_17-162)-[]
+27-(Bell Lyrics.txt_18-180)-[secondary-abstract_tought]
+28-(Bell Lyrics.txt_19-199)-[secondary-social_behavior]
+29-(Bell Lyrics.txt_20-219)-[secondary-restraint,secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Bell Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Swirlies-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,bell,sn1),def_prop(Swirlies,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Bell Lyrics.txt_2,3,cl2-nil-nil-be-[adj-(mod)-once_again-nil,subj-theme_bound-prize-sn2,subj-theme_bound-prize-sn1,and(prize,rubber,sn1),def_prop(prize,[astratto,oggetto]),def_prop(prize,[astratto,oggetto])])
+lf(Bell Lyrics.txt_3,6,cl5-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Bell Lyrics.txt_3,6,cl4-nil-nil-make-[subj-agent-hand-sn2,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano])])
+lf(Bell Lyrics.txt_3,6,cl3-nil-nil-breathe-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Bell Lyrics.txt_4,12,cl7-nil-nil-be-[cmod-subord-be-",xcomp-prop-around-sn6,subj-theme_bound-it-sn5,ncmod-locativo-stair-sn4,subj-theme_bound-it-sn3,and(around,all,sn6),def_prop(around,[]),def_prop(it,[any]),def_prop(stair,[oggetto,strumento]),def_prop(it,[any])])
+lf(Bell Lyrics.txt_4,12,cl6-nil-nil-know-[subj-actor-all-sn1,and(all,i,sn1),def_prop(all,[_473558])])
+lf(Bell Lyrics.txt_5,17,cl8-nil-nil-be-[subj-theme_bound-insect-sn1,and(insect,grinding,sn1),def_prop(insect,[animato])])
+lf(Bell Lyrics.txt_6,23,cl10-nil-nil-ring-[subj-theme-voice-sn1,def_prop(voice,[astratto,attivita,evento,informa,relat,umano])])
+lf(Bell Lyrics.txt_6,23,cl9-nil-nil-let-[subj-actor-voice-sn1,aux-did-nil,def_prop(voice,[astratto,attivita,evento,informa,relat,umano])])
+lf(Bell Lyrics.txt_7,31,cl12-nil-nil-lose-[cmod-subord-lose-",ncmod-specif-thing-sn5,subj-theme_aff-you-sn4,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Bell Lyrics.txt_7,31,cl11-nil-nil-look-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Bell Lyrics.txt_8,40,cl13-nil-nil-take-[obj-theme_aff-way-sn3,obj-theme_aff-look-sn2,subj-agent-i-sn1,def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(look,[astratto,attivita]),def_prop(i,[umano])])
+lf(Bell Lyrics.txt_9,49,cl14-nil-nil-be-[cmod-subord-be-then,xcomp-prop-mine-sn4,subj-theme_bound-it-sn3,def_prop(mine,[oggetto,strumento]),def_prop(it,[any])])
+lf(Bell Lyrics.txt_10,59,cl16-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(Bell Lyrics.txt_10,59,cl15-nil-nil-scrimp-[subj-agent-she-sn2,subj-agent-she-sn1,and(she,dime,sn1),def_prop(she,[umano]),def_prop(she,[umano])])
+lf(Bell Lyrics.txt_11,71,cl18-nil-nil-buy-[adj-subj_disc-time-sn6,subj-actor-she-sn5,and(time,some,sn6),def_prop(time,[tempo]),def_prop(she,[umano])])
+lf(Bell Lyrics.txt_11,71,cl17-nil-nil-grow-[xcomp-prop-strong-sn2,subj-theme_bound-doubt-sn1,def_prop(strong,[valutativo]),def_prop(doubt,[astratto])])
+lf(Bell Lyrics.txt_12,84,cl19-nil-nil-come-[adj-(mod)-down-nil,iobj-locat-Tennessee-sn2,subj-agent-i-sn1,def_prop(Tennessee,[place,luogo,oggetto]),def_prop(i,[umano])])
+lf(Bell Lyrics.txt_13,97,cl21-nil-nil-be-[xcomp-prop-me-sn4,subj-theme_bound-she-sn3,and(me,undone,sn4),def_prop(me,[umano]),def_prop(she,[umano])])
+lf(Bell Lyrics.txt_13,97,cl20-nil-nil-take-[obj-theme_aff-look-sn2,subj-agent-i-sn1,def_prop(look,[astratto,attivita]),def_prop(i,[umano])])
+lf(Bell Lyrics.txt_14,112,cl23-nil-nil-stain-[obj-agent-high_and_alive-[sn3,sn4],xcomp-purpose-stain-2,def_prop(high_and_alive,[misura,valutativo])])
+lf(Bell Lyrics.txt_14,112,cl22-nil-nil-make-[subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Bell Lyrics.txt_15,128,cl25-nil-nil-be-[xcomp-prop-fine-sn5,subj-theme_bound-it-sn4,def_prop(fine,[astratto,oggetto]),def_prop(it,[any])])
+lf(Bell Lyrics.txt_15,128,cl24-not-can-wait-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Bell Lyrics.txt_16,145,cl26-nil-nil-be-[xcomp-prop-fine-sn2,subj-theme_bound-it-sn1,def_prop(fine,[astratto,oggetto]),def_prop(it,[any])])
+lf(Bell Lyrics.txt_17,162,cl27-nil-nil-be-[xcomp-prop-done-sn2,subj-theme_bound-he-sn1,def_prop(done,[evaluative]),def_prop(he,[umano])])
+lf(Bell Lyrics.txt_18,180,cl28-nil-nil-be-[xcomp-prop-there-sn2,subj-theme_bound-he-sn1,def_prop(there,[any]),def_prop(he,[umano])])
+lf(Bell Lyrics.txt_19,199,cl29-not-nil-allow-[subj-actor-you-sn1,aux-(is)-nil,def_prop(you,[umano])])
+lf(Bell Lyrics.txt_20,219,cl30-not-can-stop-[subj-agent-he-sn1,def_prop(he,[umano])])

@@ -1,0 +1,183 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Angry Lyrics.txt_1-1  []-negative  [neg]
+Angry Lyrics.txt_2-3  []-negative  [neg]
+Angry Lyrics.txt_2-4  []-negative  [neg]
+Angry Lyrics.txt_3-7  []-negative  [neg,neg]
+Angry Lyrics.txt_4-12  []-negative  [neg]
+Angry Lyrics.txt_5-17  []-positive  []
+Angry Lyrics.txt_6-23  []-negative  []
+Angry Lyrics.txt_8-39  [so-result]-negative  [fgb]
+Angry Lyrics.txt_9-48  []-positive  []
+Angry Lyrics.txt_9-49  []-negative  []
+Angry Lyrics.txt_9-50  [but-advers]-negative  [fgb,neg]
+Angry Lyrics.txt_10-60  []-positive  []
+Angry Lyrics.txt_11-72  []-positive  []
+Angry Lyrics.txt_12-84  []-negative  []
+Angry Lyrics.txt_13-97  [but-advers]-negative  [fgb,neg]
+Angry Lyrics.txt_14-111  []-suspension  [neg,neg]
+Angry Lyrics.txt_15-126  []-negative  [neg]
+Angry Lyrics.txt_16-142  []-positive  [fgb]
+Angry Lyrics.txt_17-159  []-positive  [neg]
+Angry Lyrics.txt_18-177  []-positive  [fhd]
+Angry Lyrics.txt_18-178  []-positive  []
+Angry Lyrics.txt_19-197  [so-result]-negative  [fgb]
+Angry Lyrics.txt_20-217  []-positive  []
+Angry Lyrics.txt_20-218  []-negative  []
+Angry Lyrics.txt_20-219  [but-advers]-negative  [fgb,neg]
+Angry Lyrics.txt_21-240  []-positive  []
+Angry Lyrics.txt_22-263  []-positive  []
+Angry Lyrics.txt_23-286  []-negative  [neg]
+Angry Lyrics.txt_24-310  []-negative  [neg,neg]
+Angry Lyrics.txt_25-335  []-suspension  []
+Angry Lyrics.txt_26-361  [but-advers]-negative  [fgb,neg,neg]
+Angry Lyrics.txt_27-388  []-positive  []
+Angry Lyrics.txt_28-416  []-positive  [fgb]
+Angry Lyrics.txt_29-445  []-negative  [fgb,fgb]
+Angry Lyrics.txt_30-475  []-suspension  [neg,neg]
+Angry Lyrics.txt_31-506  [but-advers]-negative  [fgb,fgb,neg]
+Angry Lyrics.txt_32-538  []-negative  [neg]
+Angry Lyrics.txt_33-571  []-positive  [fgb,neg]
+Angry Lyrics.txt_34-605  []-positive  []
+Angry Lyrics.txt_35-640  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Angry Lyrics.txt_1-1  [angry,Lyrics,by,Vixen]  [title]
+Angry Lyrics.txt_2-3  [i,pretend]  [reject_expl_just(pretend,[external,factive,explanation,background,objective]),propose_opin_neg(pretend,[external,factive,explanation,background,objective]),reject_expl_just(matter,[external,factive,narration,foreground,objective])]
+Angry Lyrics.txt_2-4  [it,doesn-t,matter]  [reject_expl_just(pretend,[external,factive,explanation,background,objective]),propose_opin_neg(pretend,[external,factive,explanation,background,objective]),reject_expl_just(matter,[external,factive,narration,foreground,objective])]
+Angry Lyrics.txt_3-7  [to,avoid,the,hell,i,had,catch]  [reject_expl_just(catch,[external,factive,explanation,background,objective]),propose_opin_neg(catch,[external,factive,explanation,background,objective]),reject_expl_just(avoid,[external,factive,explanation,background,objective]),propose_opin_neg(avoid,[external,factive,explanation,background,objective])]
+Angry Lyrics.txt_4-12  [deception,hidden,in,time]  [reject_expl_just(hide,[external,factive,narration,foreground,objective])]
+Angry Lyrics.txt_5-17  [a,fiery,match,can,spark]  [raise_issue(be,[_74014,factive,statement,_74032,subjective])]
+Angry Lyrics.txt_6-23  [once_again,i,am,fooled]  [provide_expl_just(fool,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_8-39  [broken,so,many,times]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_9-48  [i,say]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(fix,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_9-49  [i,am,fixed]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(fix,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_9-50  [but,i,am,still,busted]  [reject_expl_just(say,[external,factive,narration,background,objective]),reject_expl_just(fix,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_10-60  [deep,inside,i,muss,carry]  [provide_expl_just(muss,[external,factive,narration,background,objective]),provide_expl_just(carry,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_11-72  [all,the,things,i,feel]  [provide_expl_just(feel,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_12-84  [this,pattern,strains,with]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_13-97  [every,word,but,we,will,never,change,it]  [reject_expl_just(change,[external,nonfactive,narration,background,objective])]
+Angry Lyrics.txt_14-111  [i,would,rather,die,unheard]  [provide_expl_just(die,[external,nonfactive,narration,background,objective])]
+Angry Lyrics.txt_15-126  [than,my,my,mind,speak]  [reject_expl_just(speak,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_16-142  [and,the,hit,take]  [provide_expl_just(take,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_17-159  [trusting,is,too,dangerous]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_18-177  [i,am,like,the,tin,man]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(rust,[external,factive,narration,foreground,objective])]
+Angry Lyrics.txt_18-178  [rusted]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(rust,[external,factive,narration,foreground,objective])]
+Angry Lyrics.txt_19-197  [broken,so,many,times]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_20-217  [i,say]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(fix,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_20-218  [i,am,fixed]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(fix,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_20-219  [but,i,am,still,busted]  [reject_expl_just(say,[external,factive,narration,background,objective]),reject_expl_just(fix,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_21-240  [deep,inside,i,muss,carry]  [provide_expl_just(muss,[external,factive,narration,background,objective]),provide_expl_just(carry,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_22-263  [all,the,things,i,feel]  [provide_expl_just(feel,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_23-286  [refrain]  reject_expl_opin(nil,[])
+Angry Lyrics.txt_24-310  [i,am,a,little,angry]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_25-335  [i,may,smile]  [provide_expl_just(smile,[external,nonfactive,narration,foreground,objective])]
+Angry Lyrics.txt_26-361  [but,i,am,a,little,angry]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_27-388  [True_love,makes,the,world]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_28-416  [go,round,and,round]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_29-445  [and,what,you,don-t,know,.,you,don-t,know]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_76726)]
+Angry Lyrics.txt_30-475  [you,will,not,hurt]  [provide_expl_just(hurt,[external,nonfactive,narration,background,objective])]
+Angry Lyrics.txt_31-506  [but,what,about,the,little,things]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_32-538  [that,poison,all,your,pretty,thoughts]  [reject_expl_just(poison,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_33-571  [and,darken,all,your,days]  [provide_expl_just(darken,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_34-605  [all,the,things,i,feel]  [provide_expl_just(feel,[external,factive,narration,background,objective])]
+Angry Lyrics.txt_35-640  [refrain]  reject_expl_opin(nil,[])
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Angry Lyrics.txt_1-1)-[emotions-aggression]
+2-(Angry Lyrics.txt_2-3)-[]
+3-(Angry Lyrics.txt_2-4)-[]
+4-(Angry Lyrics.txt_3-7)-[emotions-anxiety,secondary-restraint]
+5-(Angry Lyrics.txt_4-12)-[secondary-temporal_repere]
+6-(Angry Lyrics.txt_5-17)-[primary-fire,primary-fire]
+7-(Angry Lyrics.txt_6-23)-[]
+8-(Angry Lyrics.txt_8-39)-[emotions-aggression,secondary-temporal_repere]
+9-(Angry Lyrics.txt_9-48)-[secondary-social_behavior]
+10-(Angry Lyrics.txt_9-49)-[]
+11-(Angry Lyrics.txt_9-50)-[]
+12-(Angry Lyrics.txt_10-60)-[primary-depth,primary-concreteness,secondary-instru_behavior]
+13-(Angry Lyrics.txt_11-72)-[]
+14-(Angry Lyrics.txt_12-84)-[secondary-order]
+15-(Angry Lyrics.txt_13-97)-[secondary-temporal_repere]
+16-(Angry Lyrics.txt_14-111)-[primary-passivity,primary-sound]
+17-(Angry Lyrics.txt_15-126)-[secondary-social_behavior]
+18-(Angry Lyrics.txt_16-142)-[emotions-aggression]
+19-(Angry Lyrics.txt_17-159)-[emotions-anxiety]
+20-(Angry Lyrics.txt_18-177)-[emotions-affection]
+half
+21-(Angry Lyrics.txt_18-178)-[]
+22-(Angry Lyrics.txt_19-197)-[emotions-aggression,secondary-temporal_repere]
+23-(Angry Lyrics.txt_20-217)-[secondary-social_behavior]
+24-(Angry Lyrics.txt_20-218)-[]
+25-(Angry Lyrics.txt_20-219)-[]
+26-(Angry Lyrics.txt_21-240)-[primary-depth,primary-concreteness,secondary-instru_behavior]
+27-(Angry Lyrics.txt_22-263)-[]
+28-(Angry Lyrics.txt_23-286)-[]
+29-(Angry Lyrics.txt_24-310)-[emotions-aggression]
+30-(Angry Lyrics.txt_25-335)-[secondary-abstract_tought,emotions-positive_affect]
+31-(Angry Lyrics.txt_26-361)-[emotions-aggression]
+32-(Angry Lyrics.txt_27-388)-[secondary-instru_behavior]
+33-(Angry Lyrics.txt_28-416)-[primary-concreteness,primary-concreteness]
+34-(Angry Lyrics.txt_29-445)-[secondary-abstract_tought,secondary-abstract_tought]
+35-(Angry Lyrics.txt_30-475)-[emotions-aggression]
+36-(Angry Lyrics.txt_31-506)-[]
+37-(Angry Lyrics.txt_32-538)-[primary-orality,primary-gen_sensation,secondary-abstract_tought]
+38-(Angry Lyrics.txt_33-571)-[primary-diffusion]
+39-(Angry Lyrics.txt_34-605)-[]
+40-(Angry Lyrics.txt_35-640)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Angry Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Vixen-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,angry,sn1),def_prop(Vixen,[place,relat,sociale,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Angry Lyrics.txt_2,3,cl3-not-nil-matter-[aux-does-nil])
+lf(Angry Lyrics.txt_2,3,cl2-nil-nil-pretend-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Angry Lyrics.txt_3,7,cl5-nil-nil-catch-[obj-theme_unaff-hell-sn2,xcomp-purpose-avoid-2,subj-agent-i-sn1,aux-had-nil,def_prop(hell,[attivita,evento,luogo]),def_prop(i,[umano])])
+lf(Angry Lyrics.txt_3,7,cl4-nil-nil-avoid-[])
+lf(Angry Lyrics.txt_4,12,cl6-nil-nil-hide-[subj-agent-deception-sn1,def_prop(deception,[attivita])])
+lf(Angry Lyrics.txt_5,17,cl7-nil-can-spark-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Angry Lyrics.txt_6,23,cl8-nil-nil-fool-[subj-goal-i-sn1,aux-am-nil,def_prop(i,[umano])])
+lf(Angry Lyrics.txt_7,30,cl10-nil-nil-trust-[obj-cause-someone-sn1,def_prop(someone,[umano])])
+lf(Angry Lyrics.txt_7,30,cl9-nil-nil-be-[arg_mod-agent-someone-sn1,def_prop(someone,[umano])])
+lf(Angry Lyrics.txt_8,39,cl11-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Angry Lyrics.txt_9,48,cl14-nil-nil-be-[xcomp-prop-busted-sn5,adj-subj_disc-still-sn4,subj-actor-i-sn3,def_prop(busted,[evaluative]),def_prop(still,[istituzione]),def_prop(i,[umano])])
+lf(Angry Lyrics.txt_9,48,cl13-nil-nil-fix-[ccomp-prop-be-cl14,subj-goal-i-sn2,aux-am-nil,def_prop(i,[umano])])
+lf(Angry Lyrics.txt_9,48,cl12-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Angry Lyrics.txt_10,60,cl15-nil-nil-carry-[subj-goal-i-sn1,def_prop(i,[umano])])
+lf(Angry Lyrics.txt_10,60,nil-nil-nil-muss-[adj-(mod)-inside-nil,subj-agent-i-sn1,and(inside,deep,sn2),def_prop(inside,[luogo]),def_prop(i,[umano])])
+lf(Angry Lyrics.txt_11,72,cl16-nil-nil-feel-[subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,thing,sn1),and(i,all,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Angry Lyrics.txt_12,84,cl17-nil-nil-be-[subj-theme_bound-strain-sn1,and(strain,this,sn1),def_prop(strain,[attivita,cambia,stato])])
+lf(Angry Lyrics.txt_13,97,cl18-nil-will-change-[cmod-subord-change-but,subj-agent-it-sn3,subj-agent-it-sn2,neg-never-nil,and(it,we,sn2),def_prop(it,[any]),def_prop(it,[any])])
+lf(Angry Lyrics.txt_14,111,cl19-nil-would-die-[xcomp-prop-unheard-sn2,subj-theme_aff-i-sn1,def_prop(unheard,[evaluative]),def_prop(i,[umano])])
+lf(Angry Lyrics.txt_15,126,cl20-nil-nil-speak-[subj-actor-mind-sn1,def_prop(mind,[astratto])])
+lf(Angry Lyrics.txt_16,142,cl21-nil-nil-take-[cmod-subord-take-",subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Angry Lyrics.txt_17,159,cl22-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Angry Lyrics.txt_18,177,cl24-nil-nil-rust-[subj-experiencer-you-sn4,def_prop(you,[umano])])
+lf(Angry Lyrics.txt_18,177,cl23-nil-nil-be-[xcomp-prop-man-sn2,subj-theme_bound-i-sn1,and(man,tin,sn2),def_prop(man,[any]),def_prop(i,[umano])])
+lf(Angry Lyrics.txt_19,197,cl25-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Angry Lyrics.txt_20,217,cl28-nil-nil-be-[xcomp-prop-busted-sn5,adj-subj_disc-still-sn4,subj-actor-i-sn3,def_prop(busted,[evaluative]),def_prop(still,[istituzione]),def_prop(i,[umano])])
+lf(Angry Lyrics.txt_20,217,cl27-nil-nil-fix-[ccomp-prop-be-cl28,subj-goal-i-sn2,aux-am-nil,def_prop(i,[umano])])
+lf(Angry Lyrics.txt_20,217,cl26-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Angry Lyrics.txt_21,240,cl29-nil-nil-carry-[subj-goal-i-sn1,def_prop(i,[umano])])
+lf(Angry Lyrics.txt_21,240,nil-nil-nil-muss-[adj-(mod)-inside-nil,subj-agent-i-sn1,and(inside,deep,sn2),def_prop(inside,[luogo]),def_prop(i,[umano])])
+lf(Angry Lyrics.txt_22,263,cl30-nil-nil-feel-[subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,thing,sn1),and(i,all,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Angry Lyrics.txt_23,286,cl31-nil-nil-say-[obj-theme_unaff-refrain-sn1,def_prop(refrain,[attivita,informa])])
+lf(Angry Lyrics.txt_24,310,cl32-nil-nil-be-[xcomp-prop-angry-sn2,subj-theme_bound-i-sn1,and(angry,little,sn2),def_prop(angry,[emotivo]),def_prop(i,[umano])])
+lf(Angry Lyrics.txt_25,335,cl33-nil-may-smile-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Angry Lyrics.txt_26,361,cl34-nil-nil-be-[xcomp-prop-angry-sn2,subj-theme_bound-i-sn1,and(angry,little,sn2),def_prop(angry,[emotivo]),def_prop(i,[umano])])
+lf(Angry Lyrics.txt_27,388,cl35-nil-nil-make-[obj-goal-world-sn2,subj-agent-True_love-sn1,def_prop(world,[astratto,istituzione,oggetto]),def_prop(True_love,[astratto,emotivo,nquant,umano])])
+lf(Angry Lyrics.txt_28,416,cl36-nil-nil-go-[coord-prop-round_and_round-sn4,xcomp-prop-round-sn3,xcomp-prop-round-sn2,subj-agent-you-sn1,def_prop(round_and_round,[attivita,edible,informa,oggetto,strumento,attivita,edible,informa,oggetto,strumento]),def_prop(round,[attivita,edible,informa,oggetto,strumento,attivita,edible,informa,oggetto,strumento]),def_prop(round,[attivita,edible,informa,oggetto,strumento,attivita,edible,informa,oggetto,strumento]),def_prop(you,[umano])])
+lf(Angry Lyrics.txt_29,445,cl37-not-nil-know-[cmod-subord-know-",aux-do-nil,subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Angry Lyrics.txt_30,475,cl38-not-will-hurt-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Angry Lyrics.txt_31,506,cl39-nil-nil-be-[ncmod-subj_disc-thing-sn3,xcomp-theme-what-sn2,subj-theme_bound-you-sn1,and(thing,little,sn3),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(what,[oggetto]),def_prop(you,[umano])])
+lf(Angry Lyrics.txt_32,538,cl40-nil-nil-poison-[obj-theme-thought-sn2,subj-agent-that-sn1,and(thought,all,sn2),def_prop(thought,[astratto]),def_prop(that,[oggetto,umano])])
+lf(Angry Lyrics.txt_33,571,cl41-nil-nil-darken-[cmod-subord-darken-",adj-temporal-days-nil,adj-subj_disc-days-sn3,obj-theme-all-sn2,subj-actor-you-sn1,def_prop(days,[tempo]),def_prop(days,[tempo]),def_prop(all,[_88058]),def_prop(you,[umano])])
+lf(Angry Lyrics.txt_34,605,cl42-nil-nil-feel-[subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,thing,sn1),and(i,all,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Angry Lyrics.txt_35,640,cl43-nil-nil-say-[obj-theme_unaff-refrain-sn1,def_prop(refrain,[attivita,informa])])

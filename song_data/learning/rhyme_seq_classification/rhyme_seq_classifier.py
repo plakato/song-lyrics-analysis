@@ -22,9 +22,10 @@ class Network(tf.keras.Sequential):
         x = one_hot_layer(text_input)
         print(x.shape)
         x_reshaped = tf.reshape(x, [-1, 1, 41])
+
         x = layers.LSTM(args.lstm)(x_reshaped)
-        # x = layers.BatchNormalization()(x)
         x = layers.Dropout(args.dropout)(x)
+
         predictions = layers.Dense(1, activation='sigmoid')(x)
         self.model = tf.keras.Model(text_input, predictions)
         adam = tf.keras.optimizers.Adam(lr=0.0001)
@@ -47,18 +48,18 @@ class Network(tf.keras.Sequential):
         print(self.model.summary())
 
     def train(self, train_ds, val_ds, args):
-        x_nyha = [item for item, _ in train_ds.as_numpy_iterator()]
-        y_nyha = [label for _, label in train_ds.as_numpy_iterator()]
-        self.model.fit(x_nyha, y_nyha, batch_size=args.batch_size, epochs=args.epochs, verbose=1)
-        prediction = np.round(self.model.predict(x_nyha))
-        wrong_predictions = x_nyha[prediction != y_nyha]
-        print(wrong_predictions)
-        # history = self.model.fit(train_ds,
-        #                          epochs=args.epochs,
-        #                          verbose=1,
-        #                          callbacks=[tf.keras.callbacks.ModelCheckpoint(args.logdir, monitor='val_loss', save_best_only=True, verbose=1), self.tb_callback],
-        #                          validation_data=val_ds)
-        # return history
+        # x_nyha = [item for item, _ in train_ds.as_numpy_iterator()]
+        # y_nyha = [label for _, label in train_ds.as_numpy_iterator()]
+        # self.model.fit(x_nyha, y_nyha, batch_size=args.batch_size, epochs=args.epochs, verbose=1)
+        # prediction = np.round(self.model.predict(x_nyha))
+        # wrong_predictions = x_nyha[prediction != y_nyha]
+        # print(wrong_predictions)
+        history = self.model.fit(train_ds,
+                                 epochs=args.epochs,
+                                 verbose=1,
+                                 callbacks=[tf.keras.callbacks.ModelCheckpoint(args.logdir, monitor='val_loss', save_best_only=True, verbose=1), self.tb_callback],
+                                 validation_data=val_ds)
+        return history
 
     # Load precomputed vocabulary for TextVectorization layer.
     def load_vocab(self):

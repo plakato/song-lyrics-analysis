@@ -1,0 +1,62 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Equinox Lyrics.txt_1-1  []-positive  [neg]
+Equinox Lyrics.txt_2-3  []-negative  [neg]
+Equinox Lyrics.txt_3-6  []-negative  [neg]
+Equinox Lyrics.txt_4-10  []-negative  []
+Equinox Lyrics.txt_5-15  [yet-conc]-positive  []
+Equinox Lyrics.txt_6-21  []-positive  [neg]
+Equinox Lyrics.txt_7-29  []-positive  [fgb]
+Equinox Lyrics.txt_7-29  []-positive  [fgb]
+Equinox Lyrics.txt_8-37  []-negative  [neg]
+Equinox Lyrics.txt_9-47  []-negative  [neg]
+Equinox Lyrics.txt_10-57  [yet-conc]-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Equinox Lyrics.txt_1-1  [equinox,Lyrics,by,unearth]  [title]
+Equinox Lyrics.txt_2-3  [the,damage,is,done]  [reject_expl_just(do,[external,factive,narration,background,objective])]
+Equinox Lyrics.txt_3-6  [now,the,darkness,settles,in]  [reject_expl_just(settle,[external,factive,narration,background,objective])]
+Equinox Lyrics.txt_4-10  [this,silence,is,deafening]  [provide_expl_just(deafen,[external,factive,narration,foreground,objective])]
+Equinox Lyrics.txt_5-15  [yet,i,keep,walking,on]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
+Equinox Lyrics.txt_6-21  [to,see,it,all,face,to,dark]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Equinox Lyrics.txt_7-29  [and,i,keep,walking]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
+Equinox Lyrics.txt_7-29  [and,i,keep,walking,on]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
+Equinox Lyrics.txt_8-37  [to,find,there,is,no,way,out]  [reject_expl_just(find,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Equinox Lyrics.txt_9-47  [through,these,shadows,i,tread]  [reject_expl_just(tread,[external,factive,narration,background,objective])]
+Equinox Lyrics.txt_10-57  [yet,i,keep,walking,on]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Equinox Lyrics.txt_1-1)-[]
+2-(Equinox Lyrics.txt_2-3)-[emotions-aggression]
+3-(Equinox Lyrics.txt_3-6)-[secondary-temporal_repere]
+4-(Equinox Lyrics.txt_4-10)-[primary-passivity]
+5-(Equinox Lyrics.txt_5-15)-[]
+half
+6-(Equinox Lyrics.txt_6-21)-[primary-vision,primary-narcissism]
+7-(Equinox Lyrics.txt_7-29)-[]
+8-(Equinox Lyrics.txt_7-29)-[]
+9-(Equinox Lyrics.txt_8-37)-[secondary-instru_behavior,primary-concreteness]
+10-(Equinox Lyrics.txt_9-47)-[primary-diffusion]
+11-(Equinox Lyrics.txt_10-57)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Equinox Lyrics.txt_1,1,cl1-nil-nil-unearth-[ncmod-modal-equinox-sn2,subj-agent-you-sn1,def_prop(equinox,[tempo]),def_prop(you,[umano])])
+lf(Equinox Lyrics.txt_2,3,cl2-nil-nil-do-[subj-actor-you-sn1,aux-(is)-nil,def_prop(you,[umano])])
+lf(Equinox Lyrics.txt_3,6,cl3-nil-nil-settle-[subj-agent-darkness-sn1,def_prop(darkness,[astratto,luogo])])
+lf(Equinox Lyrics.txt_4,10,cl4-nil-nil-deafen-[subj-agent-you-sn1,aux-(is)-nil,progr-deafening-nil,def_prop(you,[umano])])
+lf(Equinox Lyrics.txt_5,15,cl5-nil-nil-keep-[xcomp-prop-walking-sn2,subj-experiencer-i-sn1,def_prop(walking,[cambia,evento]),def_prop(i,[umano])])
+lf(Equinox Lyrics.txt_6,21,cl6-nil-nil-see-[obj-actor-face-sn2,xcomp-purpose-see-2,subj-experiencer-it-sn1,and(face,all,sn2),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(it,[any])])
+lf(Equinox Lyrics.txt_7,29,cl7-nil-nil-keep-[cmod-coord-keep-and,xcomp-prop-walking-sn4,subj-experiencer-i-sn3,cmod-subord-keep-",xcomp-prop-walking-sn2,subj-experiencer-i-sn1,def_prop(walking,[cambia,evento]),def_prop(i,[umano]),def_prop(walking,[cambia,evento]),def_prop(i,[umano])])
+lf(Equinox Lyrics.txt_8,37,cl9-nil-nil-be-[adj-(mod)-out-nil,xcomp-prop-way-sn2,xcomp-purpose-find-2,subj-theme_bound-there-sn1,and(way,no,sn2),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(there,[any])])
+lf(Equinox Lyrics.txt_8,37,cl8-nil-nil-find-[])
+lf(Equinox Lyrics.txt_9,47,cl10-nil-nil-tread-[ncmod-relation-shadow-sn2,subj-agent-i-sn1,and(shadow,these,sn2),def_prop(shadow,[astratto,emotivo,stato,umano]),def_prop(i,[umano])])
+lf(Equinox Lyrics.txt_10,57,cl11-nil-nil-keep-[xcomp-prop-walking-sn2,subj-experiencer-i-sn1,def_prop(walking,[cambia,evento]),def_prop(i,[umano])])

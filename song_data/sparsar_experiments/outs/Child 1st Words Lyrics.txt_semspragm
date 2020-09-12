@@ -1,0 +1,80 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Child 1st Words Lyrics.txt_1-1  []-positive  []
+Child 1st Words Lyrics.txt_2-3  [so-result]-positive  [fgb]
+Child 1st Words Lyrics.txt_3-6  []-positive  [fgb]
+Child 1st Words Lyrics.txt_4-10  []-negative  [neg]
+Child 1st Words Lyrics.txt_5-16  []-positive  [fgb]
+Child 1st Words Lyrics.txt_6-22  []-negative  [neg]
+Child 1st Words Lyrics.txt_6-23  []-positive  []
+Child 1st Words Lyrics.txt_7-30  []-negative  [neg]
+Child 1st Words Lyrics.txt_8-38  [so-result]-positive  [fgb,fgb,fgb]
+Child 1st Words Lyrics.txt_9-50  []-positive  []
+Child 1st Words Lyrics.txt_9-51  []-positive  []
+Child 1st Words Lyrics.txt_10-61  []-suspension  [neg,fhd]
+Child 1st Words Lyrics.txt_11-74  [so-result]-positive  [fgb]
+Child 1st Words Lyrics.txt_12-86  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Child 1st Words Lyrics.txt_1-1  [1st,Words,Lyrics,child,by,Wrekonize]  [title]
+Child 1st Words Lyrics.txt_2-3  [so,the,sun,rises,on,the,dawn,of,a,new,era]  [proposal(be,[_484742,_484748,statement,foreground,_484766])]
+Child 1st Words Lyrics.txt_3-6  [and,our,young,squire,is,presented,with,a,seed]  [provide_expl_just(present,[external,factive,narration,foreground,objective])]
+Child 1st Words Lyrics.txt_4-10  [to,carry,out,the,blood-line,he,may,not,be,able,to,complete]  [reject_expl_just(carry,[external,factive,explanation,background,objective]),propose_opin_neg(carry,[external,factive,explanation,background,objective])]
+Child 1st Words Lyrics.txt_5-16  [the,folk,just,towns,and,stood,in,awe]  [provide_expl_just(stand,[external,factive,narration,foreground,objective])]
+Child 1st Words Lyrics.txt_6-22  [they,had,no,name]  [reject_expl_just(have,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Child 1st Words Lyrics.txt_6-23  [for,this,child]  [provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Child 1st Words Lyrics.txt_7-30  [the,they,birth,no,title,for,had,just,witnessed]  [reject_expl_just(witness,[external,factive,narration,background,objective])]
+Child 1st Words Lyrics.txt_8-38  [so,the,child,sat,up,and,began,to,speak,for,himself,and,said]  [indication(begin,[external,factive,inception,foreground,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Child 1st Words Lyrics.txt_9-50  [i,am,the,alphabet]  [provide_expl_just(set,[external,factive,cause,foreground,objective])]
+Child 1st Words Lyrics.txt_9-51  [accelerator,set,the,data,test,the,fate,a-]  [provide_expl_just(set,[external,factive,cause,foreground,objective])]
+Child 1st Words Lyrics.txt_10-61  [bless,the,initiative,hate,the,fakers,like,i,am,suppose,ta-]  [provide_expl_just(suppose,[external,factive,narration,foreground,objective]),provide_expl_just(hate,[external,factive,narration,background,objective]),provide_expl_just(bless,[external,factive,narration,background,objective])]
+Child 1st Words Lyrics.txt_11-74  [over,the,ghost,of,coal,so,the,most,rose]  [proposal(be,[_491100,_491106,statement,foreground,_491124])]
+Child 1st Words Lyrics.txt_12-86  [i,hosted]  [provide_expl_just(host,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Child 1st Words Lyrics.txt_1-1)-[primary-cold]
+2-(Child 1st Words Lyrics.txt_2-3)-[primary-fire,primary-ascend,primary-ascend]
+3-(Child 1st Words Lyrics.txt_3-6)-[secondary-temporal_repere,primary-vision]
+4-(Child 1st Words Lyrics.txt_4-10)-[secondary-instru_behavior,primary-concreteness,secondary-abstract_tought,secondary-social_behavior]
+5-(Child 1st Words Lyrics.txt_5-16)-[emotions-glory]
+6-(Child 1st Words Lyrics.txt_6-22)-[]
+7-(Child 1st Words Lyrics.txt_6-23)-[primary-cold]
+half
+8-(Child 1st Words Lyrics.txt_7-30)-[primary-orality]
+9-(Child 1st Words Lyrics.txt_8-38)-[primary-cold,secondary-social_behavior,secondary-social_behavior]
+10-(Child 1st Words Lyrics.txt_9-50)-[]
+11-(Child 1st Words Lyrics.txt_9-51)-[secondary-instru_behavior,primary-orality]
+12-(Child 1st Words Lyrics.txt_10-61)-[emotions-aggression,emotions-affection,secondary-abstract_tought]
+13-(Child 1st Words Lyrics.txt_11-74)-[primary-concreteness,primary-fire]
+14-(Child 1st Words Lyrics.txt_12-86)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Child 1st Words Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wrekonize-sn2,subj-theme_bound-child-sn1,and(child,Lyrics,sn1),and(child,1st,sn1),def_prop(Wrekonize,[istituzione,umano]),def_prop(child,[any,attivita,body_part,oggetto,strumento,umano])])
+lf(Child 1st Words Lyrics.txt_2,3,cl2-nil-nil-rise-[ncmod-temporale-dawn-sn2,subj-agent-sun-sn1,def_prop(dawn,[tempo]),def_prop(sun,[oggetto,umano])])
+lf(Child 1st Words Lyrics.txt_3,6,cl3-nil-nil-present-[cmod-subord-present-",iobj-goal-see-sn2,subj-theme_bound-squire-sn1,aux-(is)-nil,and(squire,young,sn1),def_prop(see,[luogo]),def_prop(squire,[umano])])
+lf(Child 1st Words Lyrics.txt_4,10,cl5-not-may-be-[xcomp-purpose-carry-2,subj-theme_bound-he-sn1,def_prop(he,[umano])])
+lf(Child 1st Words Lyrics.txt_4,10,cl4-nil-nil-carry-[iobj-goal-complete-sn7,ncmod-goal-blood-line-sn2,def_prop(complete,[evaluative]),def_prop(blood-line,[astratto,attivita,body_part,cambia,informa,istituzione,luogo,oggetto,strumento,umano])])
+lf(Child 1st Words Lyrics.txt_5,16,cl6-nil-nil-stand-[iobj-locative-awe-sn2,subj-experiencer-town-sn1,and(town,folk,sn1),def_prop(awe,[emotivo]),def_prop(town,[istituzione,luogo])])
+lf(Child 1st Words Lyrics.txt_6,22,cl8-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Child 1st Words Lyrics.txt_6,22,cl7-nil-nil-have-[xcomp-tema_bound-name-sn2,subj-experiencer-they-sn1,and(name,no,sn2),def_prop(name,[attivita,informa,stato,umano]),def_prop(they,[umano])])
+lf(Child 1st Words Lyrics.txt_7,30,cl9-nil-nil-witness-[subj-agent-title-sn2,subj-agent-title-sn1,aux-had-nil,and(title,no,sn2),and(title,no,sn1),def_prop(title,[astratto,attivita,informa]),def_prop(title,[astratto,attivita,informa])])
+lf(Child 1st Words Lyrics.txt_8,38,cl13-nil-nil-say-[cmod-coord-say-and,cmod-subord-begin-for,subj-actor-pro-nil,subj-actor-himself-sn4,def_prop(himself,[umano])])
+lf(Child 1st Words Lyrics.txt_8,38,cl12-nil-nil-speak-[subj-patient-you-sn3,def_prop(you,[umano])])
+lf(Child 1st Words Lyrics.txt_8,38,cl11-nil-nil-begin-[adj-(mod)-say-nil,subj-actor-you-sn3,def_prop(you,[umano])])
+lf(Child 1st Words Lyrics.txt_8,38,cl10-nil-nil-sit-[adj-subj_disc-up-sn2,subj-actor-child-sn1,def_prop(up,[istituzione]),def_prop(child,[any,attivita,body_part,oggetto,strumento,umano])])
+lf(Child 1st Words Lyrics.txt_9,50,cl15-nil-nil-set-[obj-theme-test-sn5,obj-goal-data-sn4,subj-agent-accelerator-sn3,def_prop(test,[animato,attivita]),def_prop(data,[istituzione]),def_prop(accelerator,[oggetto,strumento])])
+lf(Child 1st Words Lyrics.txt_9,50,cl14-nil-nil-be-[xcomp-prop-alphabet-sn2,subj-theme_bound-i-sn1,def_prop(alphabet,[attivita,informa]),def_prop(i,[umano])])
+lf(Child 1st Words Lyrics.txt_10,61,cl17-nil-nil-suppose-[adj-(mod)-bless-nil,aux-am-nil])
+lf(Child 1st Words Lyrics.txt_10,61,cl16-nil-nil-hate-[obj-result-ta- - sn5,xcomp-prop-suppose-3,def_prop(ta-,[attivita,informa])])
+lf(Child 1st Words Lyrics.txt_10,61,nil-nil-nil-bless-[obj-prop-faker-sn3,xcomp-purpose-hate-2,obj-theme-initiative-sn2,subj-agent-you-sn1,def_prop(faker,[umano]),def_prop(initiative,[astratto,evento,informa,legale,tecno]),def_prop(you,[umano])])
+lf(Child 1st Words Lyrics.txt_11,74,cl18-nil-nil-rise-[cmod-subord-rise-so,subj-agent-you-sn4,def_prop(you,[umano])])
+lf(Child 1st Words Lyrics.txt_12,86,cl19-nil-nil-host-[subj-agent-you-sn1,def_prop(you,[umano])])

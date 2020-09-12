@@ -1,0 +1,72 @@
+"POLARITY, DISCOURSE MARKERS"
+
+The driving test Lyrics.txt_1-1  []-positive  [neg]
+The driving test Lyrics.txt_2-3  []-positive  [neg,fgb]
+The driving test Lyrics.txt_3-8  [when-temp_coinc]-positive  [neg]
+The driving test Lyrics.txt_4-15  []-negative  [neg]
+The driving test Lyrics.txt_4-16  []-suspension  [fgb,neg,neg,neg]
+The driving test Lyrics.txt_5-21  []-positive  []
+The driving test Lyrics.txt_6-29  []-positive  []
+The driving test Lyrics.txt_6-30  []-positive  []
+The driving test Lyrics.txt_7-37  [when-temp_coinc]-negative  [neg]
+The driving test Lyrics.txt_8-47  []-positive  []
+The driving test Lyrics.txt_8-48  []-suspension  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+The driving test Lyrics.txt_1-1  [the,driving,test,Lyrics,by,QUAZ,swagger]  [title]
+The driving test Lyrics.txt_2-3  [baby,i,can,take,youre,keys,ond,youre,ride,and,test,drive,it]  [propose_opin_neg(take,[external,factive,explanation,background,objective]),propose_opin_neg(drive,[external,factive,explanation,background,objective])]
+The driving test Lyrics.txt_3-8  [cause,you,know,i,work,in,profession,when,i,ride,it]  [provide_expl_just(ride,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective]),propose_opin_neg(work,[external,factive,circumstance,background,objective])]
+The driving test Lyrics.txt_4-15  [i,ride]  [reject_expl_just(ride,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
+The driving test Lyrics.txt_4-16  [it,up,and,ride,it,down,get,a,little,nasty]  [provide_expl_just(ride,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+The driving test Lyrics.txt_5-21  [make,a,uturn,to,see,how,longer,it,can,last,me]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(last,[external,nonfactive,narration,foreground,objective])]
+The driving test Lyrics.txt_6-29  [classy,,,s-o,s,,,niggas,say]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+The driving test Lyrics.txt_6-30  [that,im,the,best]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+The driving test Lyrics.txt_7-37  [have,youre,moter,still,running,hard,when,Ive,done,the,test]  [reject_expl_just(do,[external,factive,narration,foreground,objective]),reject_expl_just(run,[external,factive,cause,foreground,objective])]
+The driving test Lyrics.txt_8-47  [this,is,is,quaz,checking,off,now,you]  [provide_expl_just(figure,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+The driving test Lyrics.txt_8-48  [figure,the,rest]  [provide_expl_just(figure,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(The driving test Lyrics.txt_1-1)-[secondary-instru_behavior]
+2-(The driving test Lyrics.txt_2-3)-[primary-voyage,secondary-instru_behavior,primary-voyage]
+3-(The driving test Lyrics.txt_3-8)-[secondary-abstract_tought,secondary-abstract_tought,secondary-instru_behavior,secondary-temporal_repere,primary-voyage]
+4-(The driving test Lyrics.txt_4-15)-[primary-voyage]
+5-(The driving test Lyrics.txt_4-16)-[primary-voyage]
+half
+6-(The driving test Lyrics.txt_5-21)-[secondary-instru_behavior,primary-vision,primary-concreteness]
+7-(The driving test Lyrics.txt_6-29)-[secondary-order,secondary-social_behavior]
+8-(The driving test Lyrics.txt_6-30)-[]
+9-(The driving test Lyrics.txt_7-37)-[primary-hard,secondary-temporal_repere,secondary-instru_behavior]
+10-(The driving test Lyrics.txt_8-47)-[primary-concreteness,secondary-temporal_repere]
+11-(The driving test Lyrics.txt_8-48)-[secondary-abstract_tought,primary-passivity]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(The driving test Lyrics.txt_1,1,cl1-nil-nil-be-[xadj-adj-swagger-adj1,arg_mod-agent-QUAZ-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,test,sn1),and(Lyrics,driving,sn1),def_prop(swagger,_31394),def_prop(QUAZ,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(The driving test Lyrics.txt_2,3,cl4-nil-nil-drive-[cmod-coord-take-and,subj-agent-it-sn16,subj-agent-it-sn14,subj-agent-it-sn13,obj-theme-ride-sn3,xadj-result-take-3,and(it,test,sn13),and(ride,youre,sn3),and(ride,ond,sn3),def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any]),def_prop(ride,[oggetto,strumento])])
+lf(The driving test Lyrics.txt_2,3,cl3-nil-nil-take-[])
+lf(The driving test Lyrics.txt_2,3,cl2-nil-nil-baby-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(The driving test Lyrics.txt_3,8,cl8-nil-nil-ride-[ncmod-locativo-profession-sn11,subj-agent-it-sn8,subj-agent-it-sn7,subj-agent-it-sn5,subj-agent-it-sn4,and(it,i,sn7),and(it,i,sn4),def_prop(profession,[attivita,informa,istituzione]),def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any])])
+lf(The driving test Lyrics.txt_3,8,cl7-nil-nil-work-[ncmod-locativo-profession-sn14,ncmod-locativo-profession-sn13,subj-agent-you-sn12,subj-actor-i-sn10,def_prop(profession,[attivita,informa,istituzione]),def_prop(profession,[attivita,informa,istituzione]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(The driving test Lyrics.txt_3,8,cl6-nil-nil-know-[subj-tema_nonaff-you-sn2,def_prop(you,[umano])])
+lf(The driving test Lyrics.txt_3,8,cl5-nil-nil-cause-[cmod-subord-ride-1,subj-causer-you-sn2,subj-causer-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(The driving test Lyrics.txt_4,15,cl10-nil-nil-get-[adj-(mod)-up-nil,obj2-paziente-nasty-sn4,obj-theme_unaff-down-sn3,subj-agent-it-sn2,and(nasty,little,sn4),and(down,it,sn3),def_prop(nasty,[valutativo]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(it,[any])])
+lf(The driving test Lyrics.txt_4,15,cl9-nil-nil-ride-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(The driving test Lyrics.txt_5,21,cl13-nil-can-last-[obj-actor-how-sn3,xcomp-purpose-see-3,def_prop(how,[manner])])
+lf(The driving test Lyrics.txt_5,21,cl12-nil-nil-see-[xadj-adj-longer-adj2,def_prop(longer,_33044)])
+lf(The driving test Lyrics.txt_5,21,cl11-nil-nil-make-[xadj-sn1-longer-sn19,obj-theme_aff-me-sn18,obj-actor-it-sn4,obj-goal-uturn-sn2,subj-agent-you-sn1,def_prop(longer,[misura]),def_prop(me,[umano]),def_prop(it,[any]),def_prop(uturn,[istituzione]),def_prop(you,[umano])])
+lf(The driving test Lyrics.txt_6,29,cl15-nil-nil-be-[xcomp-prop-best-sn6,xcomp-theme-im-sn5,subj-theme_bound-you-sn4,def_prop(best,[valutativo]),def_prop(im,[legale]),def_prop(you,[umano])])
+lf(The driving test Lyrics.txt_6,29,cl14-nil-nil-say-[subj-actor-nigga-sn2,subj-actor-nigga-sn1,and(nigga,s-o,sn1),def_prop(nigga,[istituzione,umano]),def_prop(nigga,[istituzione,umano])])
+lf(The driving test Lyrics.txt_7,37,cl18-nil-nil-do-[xcomp-actor-test-sn5,xcomp-purpose-do-5,def_prop(test,[animato,attivita])])
+lf(The driving test Lyrics.txt_7,37,cl17-nil-nil-run-[])
+lf(The driving test Lyrics.txt_7,37,cl16-nil-nil-have-[xcomp-tema_bound-Ive-sn4,xcomp-prop-hard-sn3,adj-subj_disc-still-sn2,subj-experiencer-moter-sn1,and(moter,youre,sn1),def_prop(Ive,[istituzione,umano]),def_prop(hard,[valutativo]),def_prop(still,[istituzione]),def_prop(moter,[istituzione])])
+lf(The driving test Lyrics.txt_8,47,cl21-nil-nil-figure-[obj-theme_unaff-res-sn6,subj-experiencer-you-sn5,xcomp-purpose-check-3,def_prop(res,[informa,tecno]),def_prop(you,[umano])])
+lf(The driving test Lyrics.txt_8,47,cl20-nil-nil-check-[ncmod-theme-you-sn3,and(you,now,sn3),def_prop(you,[umano])])
+lf(The driving test Lyrics.txt_8,47,cl19-nil-nil-be-[xcomp-prop-quaz-sn2,subj-theme_bound-this-sn1,def_prop(quaz,[istituzione]),def_prop(this,[oggetto,umano])])

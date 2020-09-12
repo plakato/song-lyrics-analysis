@@ -1,0 +1,258 @@
+"POLARITY, DISCOURSE MARKERS"
+
+America Lyrics.txt_1-1  []-positive  []
+America Lyrics.txt_2-3  [when-temp_coinc]-positive  []
+America Lyrics.txt_2-4  []-negative  [neg]
+America Lyrics.txt_3-7  []-question  []
+America Lyrics.txt_3-8  [but-advers]-positive  [fgb]
+America Lyrics.txt_4-11  []-positive  []
+America Lyrics.txt_5-16  [but-advers]-suspension  [fgb,neg,neg]
+America Lyrics.txt_6-22  []-negative  []
+America Lyrics.txt_7-29  [if-hypoth]-positive  [fgb]
+America Lyrics.txt_7-30  []-positive  []
+America Lyrics.txt_7-31  [then-temp_seq]-negative  [neg,fhd]
+America Lyrics.txt_8-39  []-positive  [fgb,fhd]
+America Lyrics.txt_9-48  [so-result]-positive  [fgb]
+America Lyrics.txt_9-49  []-negative  [neg]
+America Lyrics.txt_9-49  []-suspension  [neg,neg]
+America Lyrics.txt_10-59  []-positive  [fhd]
+America Lyrics.txt_11-70  []-positive  []
+America Lyrics.txt_11-71  []-positive  []
+America Lyrics.txt_12-83  []-positive  [fhd]
+America Lyrics.txt_12-84  []-positive  []
+America Lyrics.txt_13-96  []-positive  []
+America Lyrics.txt_14-110  []-positive  []
+America Lyrics.txt_14-111  []-positive  []
+America Lyrics.txt_15-126  []-positive  [fgb,neg,fhd]
+America Lyrics.txt_16-143  [while-temp_coinc]-negative  [neg,fgb,neg]
+America Lyrics.txt_16-144  []-positive  [fhd]
+America Lyrics.txt_17-162  []-positive  []
+America Lyrics.txt_17-163  []-positive  []
+America Lyrics.txt_18-181  []-positive  [neg]
+America Lyrics.txt_18-182  []-positive  []
+America Lyrics.txt_19-202  []-positive  []
+America Lyrics.txt_20-222  [so-result]-positive  [fgb,fhd,neg]
+America Lyrics.txt_21-243  []-positive  []
+America Lyrics.txt_22-266  []-positive  [fhd,neg]
+America Lyrics.txt_23-290  []-positive  [fgb,fhd,fgb]
+America Lyrics.txt_24-291  [when-temp_coinc]-negative  [neg,fhd]
+America Lyrics.txt_25-316  [then-temp_seq]-positive  []
+America Lyrics.txt_26-342  [so-result]-suspension  [fgb,neg,neg,neg]
+America Lyrics.txt_27-369  []-positive  []
+America Lyrics.txt_27-370  []-negative  [neg]
+America Lyrics.txt_28-398  [when-temp_coinc]-negative  []
+America Lyrics.txt_28-399  []-positive  []
+America Lyrics.txt_29-430  []-positive  []
+America Lyrics.txt_30-460  []-negative  [fgb]
+America Lyrics.txt_31-492  [when-temp_coinc]-positive  []
+America Lyrics.txt_32-525  []-positive  [fgb,fhd]
+America Lyrics.txt_33-559  []-negative  [neg,neg,neg,neg]
+America Lyrics.txt_34-593  []-negative  [neg,neg,neg,neg]
+America Lyrics.txt_35-628  []-negative  [neg,neg,neg]
+America Lyrics.txt_35-629  []-negative  [neg]
+America Lyrics.txt_36-665  []-negative  []
+America Lyrics.txt_37-702  []-positive  []
+America Lyrics.txt_37-703  []-positive  []
+America Lyrics.txt_38-741  []-positive  [fhd]
+America Lyrics.txt_39-780  []-positive  []
+America Lyrics.txt_40-820  []-negative  [neg,fhd]
+America Lyrics.txt_41-861  []-positive  [grt]
+America Lyrics.txt_42-903  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+America Lyrics.txt_1-1  [america,Lyrics,by,Ry]  [title]
+America Lyrics.txt_2-3  [when,i,touch,mics]  [provide_expl_just(split,[external,factive,cause,foreground,objective])]
+America Lyrics.txt_2-4  [i,split,lives,in,two]  [reject_expl_just(split,[external,factive,cause,foreground,objective])]
+America Lyrics.txt_3-7  [than,nicer,am,i,how,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+America Lyrics.txt_3-8  [you,but,still,more,trifer,than,you]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+America Lyrics.txt_4-11  [with,the,pureness,of,the,Virgin,Mary]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+America Lyrics.txt_5-16  [but,my,burden,scary]  [provide_expl_just(burden,[external,factive,narration,background,objective])]
+America Lyrics.txt_6-22  [except,most,rap,fans,have,heard,me,rarely]  [provide_expl_just(hear,[external,factive,narration,background,objective])]
+America Lyrics.txt_7-29  [if,they,said]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(lie,[external,factive,narration,background,objective])]
+America Lyrics.txt_7-30  [i,am,wack]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(lie,[external,factive,narration,background,objective])]
+America Lyrics.txt_7-31  [then,they,lying,like,the,perj,of,Barry]  [reject_expl_just(say,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(lie,[external,factive,narration,background,objective])]
+America Lyrics.txt_8-39  [and,happily,body,rappers,like,a,mother-s,first,to,carry]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_9-48  [so,basically,you,can,say]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_9-49  [i,am,worse]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_9-49  [i,am,worse,than,scary]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_10-59  [plus,i,am,valuable,just,like,good,leather]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_11-70  [i,pull,out,my,woody,your,girl,just]  [provide_expl_just(pull,[external,factive,narration,background,objective]),provide_expl_just(become,[external,factive,narration,foreground,objective])]
+America Lyrics.txt_11-71  [became,a,woodpecker]  [provide_expl_just(pull,[external,factive,narration,background,objective]),provide_expl_just(become,[external,factive,narration,foreground,objective])]
+America Lyrics.txt_12-83  [plus,i,am,like,the,hood-s,Jekyll]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_12-84  [&,amp]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_13-96  [Hyde]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+America Lyrics.txt_14-110  [i,got]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_14-111  [you,rather,surprised,behind,these,freckles,of,pride]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_15-126  [and,rappers,round,me,passing,out,like,out_of_bounds,calls]  [provide_expl_just(call,[external,factive,narration,background,objective])]
+America Lyrics.txt_16-143  [while,i,am,dropping,shit,and,piss,on,them]  [reject_expl_just(drop,[external,factive,cause,foreground,objective])]
+America Lyrics.txt_16-144  [like,i,am,round,stalls]  [provide_expl_just(drop,[external,factive,cause,foreground,objective])]
+America Lyrics.txt_17-162  [i,flip,my,longest,finger,cause]  [provide_expl_just(flip,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_17-163  [it,is,profitable]  [provide_expl_just(flip,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_18-181  [for,these,profit,flows,,,double,meaning,i,am,the,messenger]  [provide_expl_just(mean,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(bring,[external,factive,narration,background,objective])]
+America Lyrics.txt_18-182  [i,bring,prophet]  [provide_expl_just(mean,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(bring,[external,factive,narration,background,objective])]
+America Lyrics.txt_19-202  [flows]  [raise_issue(be,[_2020640,factive,statement,_2020658,subjective])]
+America Lyrics.txt_20-222  [so,like,grants,inside,of,your,jeans,bitch,your,profits,closed]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_21-243  [cause,you,took,an,L,to,this,prosperous,soul]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+America Lyrics.txt_22-266  [who,like,a,big,ass,bodyguard,came,to,conquer,the,dough]  [provide_expl_just(conquer,[external,factive,narration,background,objective])]
+America Lyrics.txt_23-290  [and,rap,fans,are,like,woah,i_mean,Ry,is,kinda,sleek,bravo]  [proposal(be,[_2022732,_2022738,statement,foreground,_2022756])]
+America Lyrics.txt_24-291  [when,i,drop,bodies,like,Cheick,Kongo]  [reject_expl_just(drop,[external,factive,narration,background,objective])]
+America Lyrics.txt_25-316  [yea,then,i,am,shaving,your,head,off]  [provide_expl_just(shave,[external,factive,narration,foreground,objective])]
+America Lyrics.txt_26-342  [ry,so,sick,that,he,be,making,the,dead,cough,.,he,be,making,the,dead,cough]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+America Lyrics.txt_27-369  [it,is,evident]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(helm,[external,factive,narration,background,objective])]
+America Lyrics.txt_27-370  [that,i,helm,a,sick,flow]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(helm,[external,factive,narration,background,objective])]
+America Lyrics.txt_28-398  [when,it,come,to,bars,they,say]  [provide_expl_just(say,[external,factive,narration,background,objective]),propose_opin_neg(come,[external,factive,result,background,objective]),provide_expl_just(brew,[external,factive,narration,background,objective])]
+America Lyrics.txt_28-399  [he,brew,without,the,big,nose]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(come,[external,factive,result,background,objective]),provide_expl_just(brew,[external,factive,narration,background,objective])]
+America Lyrics.txt_29-430  [i,am,a,technical,rapper,of,exceptional,strata]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_30-460  [who,felt,it,and,captured]  [provide_expl_just(capture,[external,factive,narration,foreground,objective])]
+America Lyrics.txt_31-492  [round,niggas,Ry,when,know,to,put,they,mics,down]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+America Lyrics.txt_32-525  [cause,they,punchlines,and,bars,be,like,a,dry,round]  [provide_expl_just(bar,[internal,factive,narration,background,objective])]
+America Lyrics.txt_33-559  [no,blood,no,effect,no,no,hugs,respect]  [reject_expl_just(be,[_2033226,_2033232,_2033238,_2033244,_2033250])]
+America Lyrics.txt_34-593  [,,no,no,slugs,sweat,no,no,thugs,flesh]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_35-628  [no,drugs,no,tech,no,rugs]  [reject_expl_just(drug,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_35-629  [nor,baguettes]  [reject_expl_just(drug,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_36-665  [for,these,young,rejects]  [provide_expl_just(reject,[external,factive,narration,background,objective])]
+America Lyrics.txt_37-702  [i,flow]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_37-703  [they,be,feetless]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_38-741  [plus,the,fact,that,Ry,host,beef,like,Seacrest]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+America Lyrics.txt_39-780  [Simon,Cowell,i,can,rhyme,a,vowel]  [provide_expl_just(rhyme,[external,nonfactive,narration,foreground,objective])]
+America Lyrics.txt_40-820  [that,makes,no,sense,like,an,Alzheimer-s,child]  [reject_expl_just(make,[external,factive,narration,background,objective])]
+America Lyrics.txt_41-861  [hi,Ms]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+America Lyrics.txt_42-903  [Ry-s,time,Chow,is,now]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(America Lyrics.txt_1-1)-[]
+2-(America Lyrics.txt_2-3)-[secondary-temporal_repere,primary-touch]
+3-(America Lyrics.txt_2-4)-[]
+4-(America Lyrics.txt_3-7)-[]
+5-(America Lyrics.txt_3-8)-[]
+6-(America Lyrics.txt_4-11)-[]
+7-(America Lyrics.txt_5-16)-[secondary-instru_behavior,emotions-anxiety]
+8-(America Lyrics.txt_6-22)-[secondary-abstract_tought,primary-sound]
+9-(America Lyrics.txt_7-29)-[secondary-social_behavior]
+10-(America Lyrics.txt_7-30)-[]
+11-(America Lyrics.txt_7-31)-[secondary-temporal_repere,emotions-affection]
+12-(America Lyrics.txt_8-39)-[primary-narcissism,emotions-affection,secondary-instru_behavior]
+13-(America Lyrics.txt_9-48)-[secondary-social_behavior]
+14-(America Lyrics.txt_9-49)-[]
+15-(America Lyrics.txt_9-49)-[emotions-anxiety]
+16-(America Lyrics.txt_10-59)-[emotions-affection]
+17-(America Lyrics.txt_11-70)-[primary-concreteness]
+18-(America Lyrics.txt_11-71)-[]
+19-(America Lyrics.txt_12-83)-[emotions-affection]
+20-(America Lyrics.txt_12-84)-[]
+21-(America Lyrics.txt_13-96)-[]
+22-(America Lyrics.txt_14-110)-[]
+23-(America Lyrics.txt_14-111)-[primary-concreteness,emotions-glory]
+24-(America Lyrics.txt_15-126)-[primary-concreteness,primary-concreteness,emotions-affection,secondary-social_behavior]
+25-(America Lyrics.txt_16-143)-[secondary-temporal_repere,primary-anality,primary-anality,secondary-abstract_tought]
+26-(America Lyrics.txt_16-144)-[emotions-affection,primary-concreteness,primary-anality]
+27-(America Lyrics.txt_17-162)-[secondary-abstract_tought]
+28-(America Lyrics.txt_17-163)-[secondary-instru_behavior]
+29-(America Lyrics.txt_18-181)-[secondary-instru_behavior]
+half
+30-(America Lyrics.txt_18-182)-[]
+31-(America Lyrics.txt_19-202)-[]
+32-(America Lyrics.txt_20-222)-[emotions-affection,secondary-social_behavior,primary-concreteness,primary-sex,secondary-instru_behavior,primary-concreteness]
+33-(America Lyrics.txt_21-243)-[secondary-abstract_tought]
+34-(America Lyrics.txt_22-266)-[emotions-affection,emotions-glory]
+35-(America Lyrics.txt_23-290)-[emotions-affection,emotions-affection]
+36-(America Lyrics.txt_24-291)-[secondary-temporal_repere,primary-descent,primary-narcissism,emotions-affection]
+37-(America Lyrics.txt_25-316)-[secondary-temporal_repere,primary-narcissism,primary-concreteness]
+38-(America Lyrics.txt_26-342)-[primary-passivity,primary-orality,primary-passivity,primary-orality]
+39-(America Lyrics.txt_27-369)-[secondary-abstract_tought]
+40-(America Lyrics.txt_27-370)-[]
+41-(America Lyrics.txt_28-398)-[secondary-temporal_repere,secondary-restraint,secondary-social_behavior]
+42-(America Lyrics.txt_28-399)-[primary-orality,primary-odor]
+43-(America Lyrics.txt_29-430)-[]
+44-(America Lyrics.txt_30-460)-[secondary-restraint]
+45-(America Lyrics.txt_31-492)-[primary-concreteness,secondary-temporal_repere,secondary-abstract_tought]
+46-(America Lyrics.txt_32-525)-[secondary-abstract_tought,secondary-restraint,emotions-affection,primary-concreteness]
+47-(America Lyrics.txt_33-559)-[primary-narcissism,secondary-abstract_tought,secondary-moral_imperative]
+48-(America Lyrics.txt_34-593)-[primary-anality,primary-narcissism]
+49-(America Lyrics.txt_35-628)-[]
+50-(America Lyrics.txt_35-629)-[]
+51-(America Lyrics.txt_36-665)-[]
+52-(America Lyrics.txt_37-702)-[]
+53-(America Lyrics.txt_37-703)-[]
+54-(America Lyrics.txt_38-741)-[secondary-abstract_tought,primary-orality,emotions-affection]
+55-(America Lyrics.txt_39-780)-[]
+56-(America Lyrics.txt_40-820)-[secondary-instru_behavior,emotions-affection,primary-cold]
+57-(America Lyrics.txt_41-861)-[]
+58-(America Lyrics.txt_42-903)-[secondary-temporal_repere,secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(America Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Ry-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,america,sn1),def_prop(Ry,[istituzione]),def_prop(Lyrics,[informa,tecno])])
+lf(America Lyrics.txt_2,3,cl3-nil-nil-split-[obj-patient-life-sn5,subj-agent-i-sn4,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(i,[umano])])
+lf(America Lyrics.txt_2,3,cl2-nil-nil-touch-[obj-theme_unaff-mics-sn3,obj-theme-when-sn2,subj-agent-i-sn1,def_prop(mics,[informa,tecno]),def_prop(when,[tempo]),def_prop(i,[umano])])
+lf(America Lyrics.txt_3,7,cl4-nil-nil-be-[adj-(mod)-still-nil,subj-theme_bound-you-sn6,subj-theme_bound-you-sn5,subj-theme_bound-trifer-sn4,xcomp-prop-nicer-sn3,xcomp-theme-how-sn2,subj-theme_bound-i-sn1,and(you,trifer,sn5),and(trifer,you,sn4),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(trifer,[istituzione]),def_prop(nicer,[evaluative]),def_prop(how,[manner]),def_prop(i,[umano])])
+lf(America Lyrics.txt_4,11,cl5-nil-nil-be-[ncmod-modale-pureness-sn2,subj-theme_bound-Mary-sn1,def_prop(pureness,[stato]),def_prop(Mary,[place,umano])])
+lf(America Lyrics.txt_5,16,cl6-nil-nil-burden-[xcomp-prop-scary-sn2,subj-agent-my-sn1,def_prop(scary,[evaluative]),def_prop(my,[informa,tecno])])
+lf(America Lyrics.txt_6,22,cl7-nil-nil-hear-[adj-(mod)-rarely-nil,obj-theme-me-sn3,ncmod-eccettuativo-rap-sn2,subj-experiencer-fan-sn1,aux-have-nil,and(rap,most,sn2),def_prop(me,[umano]),def_prop(rap,[attivita,evento,informa]),def_prop(fan,[oggetto,strumento,umano])])
+lf(America Lyrics.txt_7,29,nil-nil-nil-lie-[xcomp-prop-perj-sn5,subj-actor-they-sn4,def_prop(perj,[istituzione]),def_prop(they,[umano])])
+lf(America Lyrics.txt_7,29,cl9-nil-nil-be-[xcomp-prop-wack-sn3,subj-theme_bound-i-sn2,def_prop(wack,[istituzione]),def_prop(i,[umano])])
+lf(America Lyrics.txt_7,29,cl8-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(America Lyrics.txt_8,39,cl10-nil-nil-be-[cmod-subord-be-",adj-(mod)-happily-nil,xcomp-prop-mother-s-sn2,subj-theme_bound-rapper-sn1,and(rapper,body,sn1),def_prop(mother-s,[astratto,body_part,sostanza,umano]),def_prop(rapper,[umano])])
+lf(America Lyrics.txt_9,48,cl12-nil-nil-be-[xcomp-prop-worse-sn7,subj-theme_bound-i-sn6,xcomp-prop-worse-sn5,subj-theme_bound-i-sn4,def_prop(worse,[astratto]),def_prop(i,[umano]),def_prop(worse,[astratto]),def_prop(i,[umano])])
+lf(America Lyrics.txt_9,48,cl11-nil-can-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(America Lyrics.txt_10,59,cl13-nil-nil-be-[xcomp-prop-valuable-sn2,subj-theme_bound-i-sn1,def_prop(valuable,[astratto,oggetto]),def_prop(i,[umano])])
+lf(America Lyrics.txt_11,70,cl15-nil-nil-become-[xcomp-prop-woodpecker-sn9,subj-theme_bound-you-sn8,ncmod-locativo-girl-sn2,and(girl,woody,sn2),def_prop(woodpecker,[animato]),def_prop(you,[umano]),def_prop(girl,[oggetto,strumento])])
+lf(America Lyrics.txt_11,70,cl14-nil-nil-pull-[adj-(mod)-just-nil,subj-agent-i-sn1,def_prop(i,[umano])])
+lf(America Lyrics.txt_12,83,cl16-nil-nil-be-[subj-theme_bound-amp-sn4,xcomp-prop-Jekyll-sn2,subj-theme_bound-i-sn1,and(Jekyll,hood-s,sn2),def_prop(amp,[nquant]),def_prop(Jekyll,[istituzione,umano]),def_prop(i,[umano])])
+lf(America Lyrics.txt_13,96,cl17-nil-nil-say-[obj-theme_unaff-Hyde-sn1,def_prop(Hyde,[place,umano])])
+lf(America Lyrics.txt_14,110,cl19-nil-nil-be-[ncmod-locativo-freckle-sn4,xcomp-prop-surprised-sn3,subj-theme_bound-you-sn2,and(freckle,these,sn4),def_prop(freckle,[body_part,umano]),def_prop(surprised,[istituzione]),def_prop(you,[umano])])
+lf(America Lyrics.txt_14,110,cl18-nil-nil-get-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(America Lyrics.txt_15,126,cl21-nil-nil-call-[cmod-subord-call-",adj-(mod)-out_of_bounds-nil,adj-(mod)-out-nil,subj-agent-me-sn2,subj-agent-me-sn1,and(me,round,sn2),def_prop(me,[umano]),def_prop(me,[umano])])
+lf(America Lyrics.txt_15,126,cl20-nil-nil-pass-[subj-tema_nonaff-me-sn2,and(me,round,sn2),def_prop(me,[umano])])
+lf(America Lyrics.txt_16,143,cl23-nil-nil-be-[xcomp-prop-stall-sn8,subj-theme_bound-i-sn7,and(stall,round,sn8),def_prop(stall,[attivita,evento,oggetto,strumento]),def_prop(i,[umano])])
+lf(America Lyrics.txt_16,143,nil-nil-nil-piss-[ncmod-locativo-them-sn6,subj-agent-you-sn5,ncmod-locativo-them-sn4,subj-agent-you-sn3,def_prop(them,[umano]),def_prop(you,[umano]),def_prop(them,[umano]),def_prop(you,[umano])])
+lf(America Lyrics.txt_16,143,cl22-nil-nil-drop-[cmod-coord-piss-1,obj-theme-shit-sn2,subj-actor-i-sn1,aux-am-nil,progr-dropping-nil,def_prop(shit,[attivita,umano]),def_prop(i,[umano])])
+lf(America Lyrics.txt_17,162,cl25-nil-nil-be-[xcomp-prop-profitable-sn7,subj-theme_bound-it-sn6,def_prop(profitable,[evaluative]),def_prop(it,[any])])
+lf(America Lyrics.txt_17,162,cl24-nil-nil-flip-[obj-theme-cause-sn2,subj-actor-i-sn1,and(cause,longest,sn2),and(cause,finger,sn2),def_prop(cause,[attivita,evento,informa]),def_prop(i,[umano])])
+lf(America Lyrics.txt_18,181,cl28-nil-nil-bring-[obj-theme_aff-prophet-sn7,subj-agent-i-sn6,def_prop(prophet,[umano]),def_prop(i,[umano])])
+lf(America Lyrics.txt_18,181,cl27-nil-nil-be-[xcomp-prop-messenger-sn4,xcomp-prop-i-sn3,xcomp-purpose-mean-cl26,xcomp-prop-flow-sn2,subj-theme_bound-profit-sn1,and(profit,these,sn1),def_prop(messenger,[umano]),def_prop(i,[umano]),def_prop(flow,[attivita,evento,tempo]),def_prop(profit,[astratto])])
+lf(America Lyrics.txt_18,181,cl26-nil-nil-mean-[xadj-adj-double-adj1,def_prop(double,_2043774)])
+lf(America Lyrics.txt_19,202,cl29-nil-nil-say-[obj-theme_unaff-flow-sn1,def_prop(flow,[attivita,evento,tempo])])
+lf(America Lyrics.txt_20,222,cl30-nil-nil-be-[xcomp-theme-profit-sn3,xcomp-prop-bitch-sn2,subj-theme_bound-grant-sn1,def_prop(profit,[astratto]),def_prop(bitch,[animato,stato]),def_prop(grant,[astratto,attivita,oggetto])])
+lf(America Lyrics.txt_21,243,cl32-nil-nil-take-[obj2-goal-soul-sn4,obj-theme-L-sn3,xcomp-purpose-take-2,and(soul,this,sn4),and(soul,prosperous,sn4),def_prop(soul,[attivita,emotivo,informa,umano]),def_prop(L,[umano])])
+lf(America Lyrics.txt_21,243,cl31-nil-nil-cause-[subj-causer-you-sn2,subj-causer-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(America Lyrics.txt_22,266,cl34-nil-nil-conquer-[obj-theme-dough-sn3,xcomp-purpose-conquer-2,def_prop(dough,[edible,oggetto])])
+lf(America Lyrics.txt_22,266,cl33-nil-nil-come-[obj-theme_aff-who-sn2,subj-agent-bodyguard-sn1,and(bodyguard,ass,sn1),and(bodyguard,big,sn1),def_prop(who,[umano]),def_prop(bodyguard,[umano])])
+lf(America Lyrics.txt_23,290,cl36-nil-nil-sleek-[cmod-subord-sleek-",obj-theme_aff-bravo-sn7,subj-theme-Ry-sn6,obj-theme_aff-bravo-sn5,subj-theme-Ry-sn4,adj-(mod)-kinda-nil,aux-(is)-nil,def_prop(bravo,[attivita,informa]),def_prop(Ry,[istituzione]),def_prop(bravo,[attivita,informa]),def_prop(Ry,[istituzione])])
+lf(America Lyrics.txt_23,290,cl35-nil-nil-like-[cmod-subord-sleek-1,obj-theme_aff-woah-sn2,subj-tema_emot-fan-sn1,aux-are-nil,and(fan,rap,sn1),def_prop(woah,[istituzione]),def_prop(fan,[oggetto,strumento,umano])])
+lf(America Lyrics.txt_24,291,cl37-nil-nil-drop-[obj2-goal-Kongo-sn4,obj-theme-body-sn3,obj-theme-when-sn2,subj-actor-i-sn1,def_prop(Kongo,[place,attivita,informa]),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano]),def_prop(when,[tempo]),def_prop(i,[umano])])
+lf(America Lyrics.txt_25,316,cl38-nil-nil-shave-[cmod-subord-shave-then,obj-theme-head-sn3,subj-agent-i-sn2,aux-am-nil,progr-shaving-nil,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(i,[umano])])
+lf(America Lyrics.txt_26,342,cl39-nil-nil-make-[obj-goal-cough-sn3,subj-agent-he-sn2,subj-agent-he-sn1,aux-be-nil,progr-making-nil,and(cough,dead,sn3),and(he,ry,sn1),def_prop(cough,[attivita,stato]),def_prop(he,[umano]),def_prop(he,[umano])])
+lf(America Lyrics.txt_27,369,nil-nil-nil-helm-[xcomp-prop-flow-sn4,subj-agent-i-sn3,and(flow,sick,sn4),def_prop(flow,[attivita,evento,tempo]),def_prop(i,[umano])])
+lf(America Lyrics.txt_27,369,cl40-nil-nil-be-[xcomp-prop-evident-sn2,subj-theme_bound-it-sn1,def_prop(evident,[evaluative]),def_prop(it,[any])])
+lf(America Lyrics.txt_28,398,cl43-nil-nil-brew-[ncmod-modal-nose-sn5,subj-agent-he-sn4,and(nose,big,sn5),def_prop(nose,[astratto,body_part,nquant,oggetto,strumento,umano]),def_prop(he,[umano])])
+lf(America Lyrics.txt_28,398,cl42-nil-nil-say-[subj-actor-it-sn2,obj-theme-when-sn1,def_prop(it,[any]),def_prop(when,[tempo])])
+lf(America Lyrics.txt_28,398,nil-nil-nil-bar-[])
+lf(America Lyrics.txt_28,398,cl41-nil-nil-come-[subj-result-they-sn3,xcomp-prop-bar-3,def_prop(they,[umano])])
+lf(America Lyrics.txt_29,430,cl44-nil-nil-be-[xcomp-prop-rapper-sn2,subj-theme_bound-i-sn1,and(rapper,technical,sn2),def_prop(rapper,[umano]),def_prop(i,[umano])])
+lf(America Lyrics.txt_30,460,cl46-nil-nil-capture-[subj-agent-pro-nil])
+lf(America Lyrics.txt_30,460,cl45-nil-nil-feel-[xcomp-tema_emot-who-sn2,subj-experiencer-it-sn1,def_prop(who,[umano]),def_prop(it,[any])])
+lf(America Lyrics.txt_31,492,cl48-nil-nil-put-[xadj-adj-down-adj2,def_prop(down,_2046730)])
+lf(America Lyrics.txt_31,492,cl47-nil-nil-know-[obj-goal-mics-sn3,obj-goal-they-sn2,xadj-result-put-cl48,subj-actor-Ry-sn1,and(Ry,nigga,sn1),and(Ry,round,sn1),def_prop(mics,[informa,tecno]),def_prop(they,[umano]),def_prop(Ry,[istituzione])])
+lf(America Lyrics.txt_32,525,cl50-nil-nil-be-[cmod-subord-be-",xcomp-result-round-sn6,xcomp-purpose-be-4,def_prop(round,[attivita,edible,informa,oggetto,strumento])])
+lf(America Lyrics.txt_32,525,cl49-nil-nil-cause-[obj-tema_eff-punchlines-sn3,subj-causer-they-sn2,subj-causer-they-sn1,and(they,you,sn1),def_prop(punchlines,[istituzione]),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(America Lyrics.txt_33,559,cl51-nil-nil-effect-[subj-agent-no-sn2,subj-agent-no-sn1,and(no,blood,sn1),and(no,no,sn1),def_prop(no,[istituzione]),def_prop(no,[istituzione])])
+lf(America Lyrics.txt_34,593,cl52-nil-nil-be-[subj-theme_bound-flesh-sn2,subj-theme_bound-flesh-sn1,and(flesh,no,sn2),and(flesh,no,sn1),def_prop(flesh,[body_part,umano]),def_prop(flesh,[body_part,umano])])
+lf(America Lyrics.txt_35,628,cl54-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn6,def_prop(you,[umano])])
+lf(America Lyrics.txt_35,628,cl53-nil-nil-drug-[obj-theme-rug-sn3,obj-theme-tech-sn2,subj-agent-no-sn1,and(rug,no,sn3),and(tech,no,sn2),def_prop(rug,[oggetto,strumento]),def_prop(tech,[istituzione]),def_prop(no,[istituzione])])
+lf(America Lyrics.txt_36,665,cl55-nil-nil-reject-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(America Lyrics.txt_37,702,cl57-nil-nil-be-[xcomp-prop-feetless-sn3,subj-theme_bound-they-sn2,def_prop(feetless,[evaluative]),def_prop(they,[umano])])
+lf(America Lyrics.txt_37,702,cl56-nil-nil-flow-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(America Lyrics.txt_38,741,cl58-nil-nil-be-[subj-theme_bound-fact-sn1,def_prop(fact,[astratto,attivita,informa,stato])])
+lf(America Lyrics.txt_39,780,cl59-nil-can-rhyme-[obj-patient1-vowel-sn3,subj-agent-i-sn2,subj-agent-i-sn1,and(i,Cowell,sn1),and(i,Simon,sn1),def_prop(vowel,[attivita,informa]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(America Lyrics.txt_40,820,cl60-nil-nil-make-[obj-theme_aff-child-sn2,obj-goal-sense-sn1,and(child,Alzheimer-s,sn2),and(sense,no,sn1),def_prop(child,[any,attivita,body_part,oggetto,strumento,umano]),def_prop(sense,[astratto,attivita,informa])])
+lf(America Lyrics.txt_41,861,cl61-nil-nil-say-[obj-theme_unaff-Ms-sn1,and(Ms,hi,sn1),def_prop(Ms,[umano])])
+lf(America Lyrics.txt_42,903,cl62-nil-nil-be-[xcomp-prop-now-sn2,subj-theme_bound-Chow-sn1,and(Chow,Ry-s,sn1),def_prop(now,[istituzione]),def_prop(Chow,[umano])])

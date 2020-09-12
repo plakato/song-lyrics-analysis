@@ -1,0 +1,325 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Girlfriend Lyrics.txt_1-1  []-positive  []
+Girlfriend Lyrics.txt_2-3  []-positive  []
+Girlfriend Lyrics.txt_2-4  []-positive  []
+Girlfriend Lyrics.txt_3-7  []-positive  []
+Girlfriend Lyrics.txt_3-8  []-negative  [neg]
+Girlfriend Lyrics.txt_3-9  []-positive  []
+Girlfriend Lyrics.txt_4-14  []-positive  []
+Girlfriend Lyrics.txt_4-15  []-positive  []
+Girlfriend Lyrics.txt_5-21  []-positive  [neg]
+Girlfriend Lyrics.txt_6-27  []-positive  [bkc]
+Girlfriend Lyrics.txt_6-28  [if-hypoth]-positive  [fgb]
+Girlfriend Lyrics.txt_7-35  [if-hypoth]-positive  [fgb,fgb]
+Girlfriend Lyrics.txt_7-36  []-negative  [neg]
+Girlfriend Lyrics.txt_7-37  []-positive  []
+Girlfriend Lyrics.txt_8-44  []-suspension  [neg,neg]
+Girlfriend Lyrics.txt_9-53  []-positive  []
+Girlfriend Lyrics.txt_9-54  []-positive  [fgb]
+Girlfriend Lyrics.txt_10-64  []-negative  [neg]
+Girlfriend Lyrics.txt_10-65  []-positive  []
+Girlfriend Lyrics.txt_11-76  []-positive  []
+Girlfriend Lyrics.txt_12-88  []-positive  [neg,fgb,fhd]
+Girlfriend Lyrics.txt_13-103  [so-result,while-temp_coinc]-suspension  [fhd,fgb,fgb]
+Girlfriend Lyrics.txt_14-117  []-positive  [fgb,neg]
+Girlfriend Lyrics.txt_14-118  []-positive  []
+Girlfriend Lyrics.txt_14-119  []-positive  []
+Girlfriend Lyrics.txt_14-120  [when-temp_coinc]-negative  []
+Girlfriend Lyrics.txt_14-120  [when-temp_coinc]-negative  []
+Girlfriend Lyrics.txt_15-136  [so-result]-positive  [fgb]
+Girlfriend Lyrics.txt_16-152  []-question  []
+Girlfriend Lyrics.txt_16-153  []-positive  []
+Girlfriend Lyrics.txt_17-170  []-positive  []
+Girlfriend Lyrics.txt_17-171  [when-temp_coinc]-positive  []
+Girlfriend Lyrics.txt_18-188  []-positive  [fhd]
+Girlfriend Lyrics.txt_19-207  []-positive  [bkc]
+Girlfriend Lyrics.txt_19-208  []-positive  [bkc]
+Girlfriend Lyrics.txt_20-228  []-positive  []
+Girlfriend Lyrics.txt_20-229  []-positive  []
+Girlfriend Lyrics.txt_20-230  []-positive  []
+Girlfriend Lyrics.txt_20-231  []-positive  []
+Girlfriend Lyrics.txt_20-232  [when-temp_coinc]-negative  [neg]
+Girlfriend Lyrics.txt_21-253  []-positive  []
+Girlfriend Lyrics.txt_21-254  []-positive  [fgb]
+Girlfriend Lyrics.txt_21-255  [if-hypoth]-positive  [fgb]
+Girlfriend Lyrics.txt_22-277  []-suspension  [neg]
+Girlfriend Lyrics.txt_23-306  []-negative  [neg]
+Girlfriend Lyrics.txt_23-307  []-negative  [neg,neg]
+Girlfriend Lyrics.txt_24-332  []-negative  [neg]
+Girlfriend Lyrics.txt_24-333  []-positive  []
+Girlfriend Lyrics.txt_24-334  []-positive  []
+Girlfriend Lyrics.txt_25-359  []-positive  []
+Girlfriend Lyrics.txt_25-360  []-positive  []
+Girlfriend Lyrics.txt_25-361  [but-advers]-negative  [neg,fgb]
+Girlfriend Lyrics.txt_26-387  []-positive  []
+Girlfriend Lyrics.txt_26-388  []-positive  [fgb]
+Girlfriend Lyrics.txt_26-389  []-negative  [neg]
+Girlfriend Lyrics.txt_26-390  []-positive  [fgb,fhd,fgb]
+Girlfriend Lyrics.txt_27-417  [if-hypoth,then-temp_seq]-positive  [fgb]
+Girlfriend Lyrics.txt_28-446  []-suspension  [fhd,neg]
+Girlfriend Lyrics.txt_29-480  []-negative  [fhd]
+Girlfriend Lyrics.txt_30-511  []-negative  [neg]
+Girlfriend Lyrics.txt_30-512  []-negative  [neg,neg]
+Girlfriend Lyrics.txt_30-513  []-positive  []
+Girlfriend Lyrics.txt_30-514  []-positive  [fgb,fgb]
+Girlfriend Lyrics.txt_31-544  [if-hypoth]-negative  [fgb,neg]
+Girlfriend Lyrics.txt_31-545  [then-temp_seq]-positive  []
+Girlfriend Lyrics.txt_32-579  []-positive  []
+Girlfriend Lyrics.txt_32-580  []-positive  []
+Girlfriend Lyrics.txt_33-613  []-negative  [fgb,neg,neg]
+Girlfriend Lyrics.txt_33-614  []-suspension  [bkc]
+Girlfriend Lyrics.txt_34-648  []-negative  [neg]
+Girlfriend Lyrics.txt_34-649  []-positive  [fhd]
+Girlfriend Lyrics.txt_35-685  [if-hypoth,so-result]-suspension  [fgb,fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Girlfriend Lyrics.txt_1-1  [girlfriend,Lyrics,by,Queen,pen]  [title]
+Girlfriend Lyrics.txt_2-3  [queen,Pen,Me-shell,Ndegeocello,play]  [provide_expl_just(play,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Girlfriend Lyrics.txt_2-4  [for,me,c-mon,talk,to,me,me-shell]  [provide_expl_just(play,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Girlfriend Lyrics.txt_3-7  [anyone,know]  [provide_expl_just(cease,[external,factive,explanation,background,objective]),provide_expl_just(amaze,[external,factive,explanation,background,objective]),provide_expl_just(know,[external,factive,explanation,background,objective]),suggest(know,_1298452),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Girlfriend Lyrics.txt_3-8  [it,never,ceases,to,amaze,me,how]  [reject_expl_just(cease,[external,factive,explanation,background,objective]),propose_opin_neg(cease,[external,factive,explanation,background,objective]),reject_expl_just(amaze,[external,factive,explanation,background,objective]),propose_opin_neg(amaze,[external,factive,explanation,background,objective]),reject_expl_just(know,[external,factive,explanation,background,objective]),propose_opin_neg(know,_1303960),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Girlfriend Lyrics.txt_3-9  [everbody-s,always,in,somebody,else-s,buisness]  [provide_expl_just(cease,[external,factive,explanation,background,objective]),provide_expl_just(amaze,[external,factive,explanation,background,objective]),provide_expl_just(know,[external,factive,explanation,background,objective]),suggest(know,_1309410),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Girlfriend Lyrics.txt_4-14  [but-cha,something,looking]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(for_what_it-s_worth,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_4-15  [for,know,for_what_it-s_worth]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(for_what_it-s_worth,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_5-21  [we,could,give,a,fuck,me-shell,Girlfriend,girlfriend]  [provide_expl_just(give,[external,nonfactive,narration,background,objective])]
+Girlfriend Lyrics.txt_6-27  [yes,i,had,your,girlfriend,queen,pen]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Girlfriend Lyrics.txt_6-28  [if,that,was,your,girlfriend]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Girlfriend Lyrics.txt_7-35  [if,that,was,your,girlfriend,if,that,was,your,girlfriend]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Girlfriend Lyrics.txt_7-36  [she,was,not,last,night]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Girlfriend Lyrics.txt_7-37  [,,now,how,you,just,gon-,,,be,playa,hatin,on,me]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Girlfriend Lyrics.txt_8-44  [i,coz,got,mad,bitches]  [suggest(be,[_1323902,_1323908,statement,background,_1323926])]
+Girlfriend Lyrics.txt_9-53  [just,wanting,me]  [provide_expl_just(want,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_9-54  [and]  [provide_expl_just(want,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_10-64  [i,got,mad,niggas]  [reject_expl_just(see,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_10-65  [,,just,checkin,for,me,,,see,i,got,more,stock,than,you,ever,see]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_11-76  [i,be]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_12-88  [the,one,that,your,main,squeeze,been,diggin,pull,you,out,your,closet,,,sex,on,weekends,,,it,is,my,buisness,of,what,i,do,him,or,her]  [provide_expl_just(pull,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_13-103  [he,or,she,inside,you,so,,,while,you,be,yappin,and,talkin,to,your,friends,beefin-bout,that,yellow,chicken,the,green,Benz,i,,,will,be,havin-]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Girlfriend Lyrics.txt_14-117  [your,people-s,info,all,with,the,second,part,of,my,she,slid,the,number,what,you,gettin,mad,at,me]  [provide_expl_just(slide,[external,factive,cause,foreground,objective]),propose_opin_neg(mad,[external,factive,circumstance,background,objective])]
+Girlfriend Lyrics.txt_14-118  [for,she,said]  [provide_expl_just(slide,[external,factive,cause,foreground,objective]),provide_expl_just(mad,[external,factive,circumstance,background,objective])]
+Girlfriend Lyrics.txt_14-119  [she,was,single]  [provide_expl_just(slide,[external,factive,cause,foreground,objective]),provide_expl_just(mad,[external,factive,circumstance,background,objective])]
+Girlfriend Lyrics.txt_14-120  [when,she,closed,my,car,door]  [provide_expl_just(slide,[external,factive,cause,foreground,objective]),propose_opin_neg(mad,[external,factive,circumstance,background,objective])]
+Girlfriend Lyrics.txt_14-120  [when,she,closed,my,car,door,,,me-shell]  [provide_expl_just(slide,[external,factive,cause,foreground,objective]),propose_opin_neg(mad,[external,factive,circumstance,background,objective])]
+Girlfriend Lyrics.txt_15-136  [so,queen,tell,me]  [provide_expl_just(tell,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_16-152  [meet,did,where,?]  [provide_expl_just(walk,[internal,factive,narration,background,objective]),provide_expl_just(meet,[internal,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_16-153  [queen,you,her,Pen,on,the,sunday,mac,she,was,walking,out]  [provide_expl_just(walk,[internal,factive,narration,background,objective]),provide_expl_just(meet,[internal,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_17-170  [i,was,just,chillin,mindin]  [provide_expl_just(corn,[internal,factive,narration,foreground,objective])]
+Girlfriend Lyrics.txt_17-171  [,,my,own,business,sittin,on,the,corner,waitin,for,my,sister,when]  [provide_expl_just(corn,[internal,factive,narration,foreground,objective])]
+Girlfriend Lyrics.txt_18-188  [she,slid,5,times,or,by,4,maybe]  [provide_expl_just(slide,[external,factive,cause,foreground,objective]),suggest(slide,[external,factive,cause,foreground,objective])]
+Girlfriend Lyrics.txt_19-207  [wanted,me,to,notice,the,rythm,of,her,thighs,oh,boy]  [provide_expl_just(notice,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_19-208  [uh,girls,are,just_so,funny,to,me]  [provide_expl_just(notice,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_20-228  [i,can,see,how]  [provide_expl_just(see,[external,nonfactive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_1342910),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Girlfriend Lyrics.txt_20-229  [niggas,get,into,these,beefs]  [provide_expl_just(see,[external,nonfactive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_1348110),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Girlfriend Lyrics.txt_20-230  [she,knew]  [provide_expl_just(see,[external,nonfactive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_1353310),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Girlfriend Lyrics.txt_20-231  [she,had,a,man]  [provide_expl_just(see,[external,nonfactive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_1358510),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Girlfriend Lyrics.txt_20-232  [when,she,came,up,in,the,piece]  [reject_expl_just(see,[external,nonfactive,narration,foreground,objective]),reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(know,[external,factive,cause,foreground,objective]),reject_expl_just(have,[external,factive,narration,foreground,objective])]
+Girlfriend Lyrics.txt_21-253  [she,said]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Girlfriend Lyrics.txt_21-254  [she,was,a,regular,and,how,about,me]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Girlfriend Lyrics.txt_21-255  [if,she,gave,me,her,digits]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Girlfriend Lyrics.txt_22-277  [would,i,call,her,after,three,the,way,she,fliked,her,hips,made,you,move,to,have_to,see,how,chinese,these,jamaican,tried,to,draw,it,by,me]  [propose_opin(see,[external,nonfactive,narration,foreground,objective]),provide_expl_just(see,[external,nonfactive,narration,foreground,objective]),provide_expl_just(make,[external,factive,cause,foreground,objective]),provide_expl_just(draw,[external,factive,narration,background,objective]),provide_expl_just(call,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(move,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_23-306  [it,never,ceases,to,amaze,me]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(amaze,[external,factive,narration,background,objective]),reject_expl_just(cease,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_23-307  [me-shell,is,not,not]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(amaze,[external,factive,narration,background,objective]),reject_expl_just(cease,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_24-332  [nobody,got]  [reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(know,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_24-333  [ta,know,just,how_much]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_24-334  [you,want,me]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_25-359  [now,,,how,i,have,ran]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_25-360  [you,have,only,a]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_25-361  [few,but]  [reject_expl_just(run,[external,factive,narration,background,objective]),reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_26-387  [you,can,back,track]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_26-388  [and,ask,them,how,i,do_it]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_26-389  [,,how,it,is,who,the,flyest,chick,with,the,phattest,whip]  [reject_expl_just(run,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_26-390  [and,run,all,her,night,like,a,burger,with,a,chip,and]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_27-417  [if,it,is,all,good,then,i,feature,it,again]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(feature,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_28-446  [like,a,fix,remix,see,you,gots,to,be,real]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(you,[internal,factive,narration,background,objective]),provide_expl_just(like,[external,factive,narration,background,objective]),provide_expl_just(remix,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_29-480  [like,my,ex,Beverly,you,don-t,have,your,man,just,stressin,out,on,me,coz]  [provide_expl_just(like,[external,factive,narration,foreground,objective]),provide_expl_just(Beverly,[internal,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_30-511  [he,can,not,control,how]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_30-512  [you,throw,your,pussy]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_30-513  [i,am,a,baller]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_30-514  [and,i,been,for,a,and]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_31-544  [if,i,choose,to,jerk,her]  [reject_expl_just(see,[external,factive,narration,background,objective]),reject_expl_just(jerk,[external,factive,narration,background,objective]),reject_expl_just(choose,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_31-545  [off,,,then,it,is,all,on,me,see]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(jerk,[external,factive,narration,background,objective]),provide_expl_just(choose,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_32-579  [you,claimed]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Girlfriend Lyrics.txt_32-580  [that,was,your,girl]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Girlfriend Lyrics.txt_33-613  [well,,,that,is,not,not,how]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_33-614  [it,seems,uh]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_34-648  [it,never,ceases,to,amaze,me,me-shell]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(amaze,[external,factive,narration,background,objective]),reject_expl_just(cease,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_34-649  [Coz,i,like,to,get,down]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(amaze,[external,factive,narration,background,objective]),provide_expl_just(cease,[external,factive,narration,background,objective])]
+Girlfriend Lyrics.txt_35-685  [so,if,you-s,wants,ta,i,will,i,love,to,love,ya-,,,baby]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(love,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Girlfriend Lyrics.txt_1-1)-[]
+2-(Girlfriend Lyrics.txt_2-3)-[emotions-expressive_beh]
+3-(Girlfriend Lyrics.txt_2-4)-[secondary-social_behavior]
+4-(Girlfriend Lyrics.txt_3-7)-[secondary-abstract_tought]
+5-(Girlfriend Lyrics.txt_3-8)-[]
+6-(Girlfriend Lyrics.txt_3-9)-[]
+7-(Girlfriend Lyrics.txt_4-14)-[]
+8-(Girlfriend Lyrics.txt_4-15)-[secondary-abstract_tought]
+9-(Girlfriend Lyrics.txt_5-21)-[primary-sex]
+10-(Girlfriend Lyrics.txt_6-27)-[]
+11-(Girlfriend Lyrics.txt_6-28)-[]
+12-(Girlfriend Lyrics.txt_7-35)-[]
+13-(Girlfriend Lyrics.txt_7-36)-[]
+14-(Girlfriend Lyrics.txt_7-37)-[secondary-temporal_repere,emotions-expressive_beh]
+15-(Girlfriend Lyrics.txt_8-44)-[primary-counscious,primary-sex]
+16-(Girlfriend Lyrics.txt_9-53)-[]
+17-(Girlfriend Lyrics.txt_9-54)-[]
+18-(Girlfriend Lyrics.txt_10-64)-[primary-counscious]
+19-(Girlfriend Lyrics.txt_10-65)-[primary-vision,secondary-temporal_repere,primary-vision]
+20-(Girlfriend Lyrics.txt_11-76)-[]
+21-(Girlfriend Lyrics.txt_12-88)-[primary-descent,primary-concreteness,primary-concreteness,primary-sex]
+22-(Girlfriend Lyrics.txt_13-103)-[primary-concreteness,secondary-temporal_repere,secondary-social_behavior,emotions-affection,primary-vision,primary-vision]
+23-(Girlfriend Lyrics.txt_14-117)-[primary-descent,primary-cold,primary-counscious,primary-concreteness]
+24-(Girlfriend Lyrics.txt_14-118)-[secondary-social_behavior]
+25-(Girlfriend Lyrics.txt_14-119)-[emotions-expressive_beh]
+26-(Girlfriend Lyrics.txt_14-120)-[secondary-temporal_repere,primary-concreteness,primary-brink]
+27-(Girlfriend Lyrics.txt_14-120)-[secondary-temporal_repere,primary-concreteness,primary-brink]
+28-(Girlfriend Lyrics.txt_15-136)-[secondary-social_behavior]
+29-(Girlfriend Lyrics.txt_16-152)-[secondary-social_behavior,primary-concreteness]
+30-(Girlfriend Lyrics.txt_16-153)-[primary-concreteness]
+31-(Girlfriend Lyrics.txt_17-170)-[primary-cold]
+32-(Girlfriend Lyrics.txt_17-171)-[secondary-instru_behavior,primary-concreteness,secondary-temporal_repere]
+33-(Girlfriend Lyrics.txt_18-188)-[primary-descent,secondary-temporal_repere,secondary-abstract_tought]
+34-(Girlfriend Lyrics.txt_19-207)-[primary-vision,primary-sex]
+35-(Girlfriend Lyrics.txt_19-208)-[emotions-positive_affect]
+36-(Girlfriend Lyrics.txt_20-228)-[primary-vision]
+half
+37-(Girlfriend Lyrics.txt_20-229)-[primary-orality]
+38-(Girlfriend Lyrics.txt_20-230)-[secondary-abstract_tought]
+39-(Girlfriend Lyrics.txt_20-231)-[]
+40-(Girlfriend Lyrics.txt_20-232)-[secondary-temporal_repere]
+41-(Girlfriend Lyrics.txt_21-253)-[secondary-social_behavior]
+42-(Girlfriend Lyrics.txt_21-254)-[secondary-order]
+43-(Girlfriend Lyrics.txt_21-255)-[]
+44-(Girlfriend Lyrics.txt_22-277)-[secondary-social_behavior,primary-narcissism,primary-counscious,primary-vision,secondary-instru_behavior]
+45-(Girlfriend Lyrics.txt_23-306)-[]
+46-(Girlfriend Lyrics.txt_23-307)-[]
+47-(Girlfriend Lyrics.txt_24-332)-[]
+48-(Girlfriend Lyrics.txt_24-333)-[secondary-abstract_tought]
+49-(Girlfriend Lyrics.txt_24-334)-[]
+50-(Girlfriend Lyrics.txt_25-359)-[secondary-temporal_repere]
+51-(Girlfriend Lyrics.txt_25-360)-[]
+52-(Girlfriend Lyrics.txt_25-361)-[]
+53-(Girlfriend Lyrics.txt_26-387)-[primary-concreteness]
+54-(Girlfriend Lyrics.txt_26-388)-[secondary-social_behavior,secondary-abstract_tought]
+55-(Girlfriend Lyrics.txt_26-389)-[emotions-aggression]
+56-(Girlfriend Lyrics.txt_26-390)-[emotions-affection]
+57-(Girlfriend Lyrics.txt_27-417)-[secondary-temporal_repere,secondary-abstract_tought,secondary-temporal_repere]
+58-(Girlfriend Lyrics.txt_28-446)-[emotions-affection,primary-vision,secondary-abstract_tought]
+59-(Girlfriend Lyrics.txt_29-480)-[emotions-affection,primary-concreteness]
+60-(Girlfriend Lyrics.txt_30-511)-[secondary-restraint]
+61-(Girlfriend Lyrics.txt_30-512)-[primary-ascend]
+62-(Girlfriend Lyrics.txt_30-513)-[]
+63-(Girlfriend Lyrics.txt_30-514)-[]
+64-(Girlfriend Lyrics.txt_31-544)-[secondary-abstract_tought,primary-random_movement]
+65-(Girlfriend Lyrics.txt_31-545)-[primary-concreteness,secondary-temporal_repere,primary-vision]
+66-(Girlfriend Lyrics.txt_32-579)-[secondary-instru_behavior]
+67-(Girlfriend Lyrics.txt_32-580)-[]
+68-(Girlfriend Lyrics.txt_33-613)-[]
+69-(Girlfriend Lyrics.txt_33-614)-[primary-vision]
+70-(Girlfriend Lyrics.txt_34-648)-[]
+71-(Girlfriend Lyrics.txt_34-649)-[emotions-affection]
+72-(Girlfriend Lyrics.txt_35-685)-[emotions-affection,emotions-affection]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Girlfriend Lyrics.txt_1,1,cl1-nil-nil-pen-[arg_mod-agent-Queen-sn2,subj-agent-Lyrics-sn1,and(Lyrics,girlfriend,sn1),def_prop(Queen,[place,plant,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Girlfriend Lyrics.txt_2,3,cl3-nil-nil-be-[xcomp-theme-me-shell-sn6,xcomp-prop-talk-sn5,subj-theme_bound-me-sn4,and(talk,c-mon,sn5),def_prop(me-shell,[animato,oggetto,plant,sostanza,strumento]),def_prop(talk,[attivita,informa]),def_prop(me,[umano])])
+lf(Girlfriend Lyrics.txt_2,3,cl2-nil-nil-play-[ncmod-modal-Me-shell-sn2,subj-agent-you-sn1,and(Me-shell,Pen,sn2),def_prop(Me-shell,[animato,oggetto,plant,sostanza,strumento,umano]),def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_3,7,cl7-nil-nil-be-[adj-(mod)-always-nil,xcomp-prop-buisness-sn6,subj-theme_bound-everbody-s-sn5,and(buisness,else-s,sn6),def_prop(buisness,[istituzione]),def_prop(everbody-s,[istituzione])])
+lf(Girlfriend Lyrics.txt_3,7,cl6-nil-nil-amaze-[])
+lf(Girlfriend Lyrics.txt_3,7,cl5-nil-nil-cease-[adj-(mod)-never-nil,obj-experiencer-me-sn3,xcomp-purpose-amaze-cl6,subj-agent-it-sn2,def_prop(me,[umano]),def_prop(it,[any])])
+lf(Girlfriend Lyrics.txt_3,7,cl4-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_4,14,nil-nil-nil-for_what_it-s_worth-[subj-theme_aff-you-sn3,def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_4,14,cl9-nil-nil-know-[subj-actor-you-sn3,adj-(mod)-look-nil,ncmod-modal-but-cha-sn2,def_prop(you,[umano]),def_prop(but-cha,[umano])])
+lf(Girlfriend Lyrics.txt_4,14,cl8-nil-nil-look-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_5,21,cl10-nil-could-give-[obj2-paziente-me-shell-sn3,obj-goal-fuck-sn2,subj-actor-we-sn1,def_prop(me-shell,[animato,oggetto,plant,sostanza,strumento]),def_prop(fuck,[attivita]),def_prop(we,[umano])])
+lf(Girlfriend Lyrics.txt_6,27,cl12-nil-nil-be-[xcomp-prop-girlfriend-sn10,subj-theme_bound-that-sn9,def_prop(girlfriend,[umano]),def_prop(that,[oggetto,umano])])
+lf(Girlfriend Lyrics.txt_6,27,cl11-nil-nil-have-[xcomp-prop-pen-sn4,xcomp-tema_bound-girlfriend-sn3,subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(pen,queen,sn4),and(i,yes,sn1),def_prop(pen,[animato,oggetto,strumento]),def_prop(girlfriend,[umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Girlfriend Lyrics.txt_7,35,cl14-not-nil-last-[ncmod-locativo-me-sn19,adj-temporal-night-nil,subj-theme_unaff-she-sn13,aux-was-nil,def_prop(me,[umano]),def_prop(she,[umano])])
+lf(Girlfriend Lyrics.txt_7,35,cl13-nil-nil-be-[adj-(mod)-now-nil,xcomp-theme_aff-hatin-sn18,xcomp-prop-gon- - sn17,xcomp-theme-how-sn16,subj-actor-you-sn15,xcomp-prop-girlfriend-sn10,subj-actor-that-sn9,cmod-subord-last-cl14,xcomp-prop-girlfriend-sn6,subj-actor-that-sn5,xcomp-prop-girlfriend-sn2,subj-actor-that-sn1,and(hatin,playa,sn18),def_prop(hatin,[istituzione]),def_prop(gon-,[istituzione,umano]),def_prop(how,[manner]),def_prop(you,[umano]),def_prop(girlfriend,[umano]),def_prop(that,[oggetto,umano]),def_prop(girlfriend,[umano]),def_prop(that,[oggetto,umano]),def_prop(girlfriend,[umano]),def_prop(that,[oggetto,umano])])
+lf(Girlfriend Lyrics.txt_8,44,cl15-nil-nil-get-[obj-theme_unaff-bitch-sn2,subj-agent-coz-sn1,and(bitch,mad,sn2),and(coz,i,sn1),def_prop(bitch,[animato,stato]),def_prop(coz,[istituzione])])
+lf(Girlfriend Lyrics.txt_9,53,cl17-nil-nil-be-[])
+lf(Girlfriend Lyrics.txt_9,53,cl16-nil-nil-want-[subj_top-actor-me-sn1,def_prop(me,[umano])])
+lf(Girlfriend Lyrics.txt_10,64,cl19-nil-nil-see-[subj-experiencer-me-sn7,adj-(mod)-ever-nil,obj-theme-you-sn5,obj-actor-stock-sn4,subj-experiencer-i-sn3,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(stock,[astratto,oggetto,plant,stato,strumento]),def_prop(i,[umano])])
+lf(Girlfriend Lyrics.txt_10,64,cl18-nil-nil-get-[obj-theme_unaff-nigga-sn2,subj-agent-i-sn1,and(nigga,mad,sn2),def_prop(nigga,[istituzione,umano]),def_prop(i,[umano])])
+lf(Girlfriend Lyrics.txt_11,76,cl20-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_12,88,cl23-nil-nil-do-[aux-do-nil])
+lf(Girlfriend Lyrics.txt_12,88,cl22-nil-nil-be-[xcomp-prop-buisness-sn7,xcomp-theme-it-sn6,ncmod-temporale-female-sn5,subj-theme_bound-sex-sn4,subj-theme_bound-sex-sn3,subj-theme_bound-one-sn2,and(sex,one,sn3),and(one,squeeze,sn2),and(one,main,sn2),and(one,diggin,sn2),and(one,you,sn2),and(one,that,sn2),and(one,closet,sn2),def_prop(buisness,[istituzione]),def_prop(it,[any]),def_prop(female,[tempo]),def_prop(sex,[astratto,emotivo,istituzione]),def_prop(sex,[astratto,emotivo,istituzione]),def_prop(one,[umano])])
+lf(Girlfriend Lyrics.txt_12,88,cl21-nil-nil-pull-[ncmod-locativo-closet-sn23,subj-agent-one-sn18,def_prop(closet,[oggetto,strumento]),def_prop(one,_1405308)])
+lf(Girlfriend Lyrics.txt_13,103,cl24-nil-will-be-[cmod-subord-nil-nil,subj-theme_bound-pro-nil,xcomp-prop-[]-sn5,subj-theme_bound-beefin-bout-sn4,subj-theme_bound-beefin-bout-sn3,subj-theme_bound-you-sn2,subj-theme_bound-she-sn1,and(beefin-bout,i,sn4),and(beefin-bout,chicken,sn4),and(beefin-bout,yellow,sn4),and(beefin-bout,that,sn4),and(beefin-bout,you,sn3),and(beefin-bout,inside,sn3),and(beefin-bout,i,sn3),and(beefin-bout,chicken,sn3),and(beefin-bout,yellow,sn3),and(beefin-bout,that,sn3),and(she,he,sn1),def_prop([],nil),def_prop(beefin-bout,[attivita,informa,tempo]),def_prop(beefin-bout,[attivita,informa,tempo]),def_prop(you,[umano]),def_prop(she,[umano])])
+lf(Girlfriend Lyrics.txt_14,117,nil-nil-nil-mad-[xadj-adj-my-adj1,ncmod-locativo-me-sn10,obl-locat-number-sn5,def_prop(my,_1405846),def_prop(me,[umano]),def_prop(number,[astratto,attivita,informa,nquant,oggetto,strumento])])
+lf(Girlfriend Lyrics.txt_14,117,cl28-nil-nil-close-[cmod-subord-close-when,obj-goal-door-sn19,subj-agent-she-sn18,obj-goal-door-sn15,subj-agent-she-sn14,and(door,car,sn19),and(door,car,sn15),def_prop(door,[astratto,oggetto,strumento]),def_prop(she,[umano]),def_prop(door,[astratto,oggetto,strumento]),def_prop(she,[umano])])
+lf(Girlfriend Lyrics.txt_14,117,cl27-nil-nil-single-[subj-theme-she-sn13,aux-was-nil,def_prop(she,[umano])])
+lf(Girlfriend Lyrics.txt_14,117,cl26-nil-nil-say-[subj-actor-you-sn12,def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_14,117,cl25-nil-nil-slide-[obj-theme-number-sn5,obj-theme-she-sn4,obj-theme-part-sn3,ncmod-comitativo-second-sn2,subj-agent-all-sn1,and(all,info,sn1),def_prop(number,[astratto,attivita,informa,nquant,oggetto,strumento]),def_prop(she,[umano]),def_prop(part,[astratto,attivita,body_part,informa,oggetto,relat,strumento,umano]),def_prop(second,[attivita,informa,nquant,relat,tempo,umano]),def_prop(all,[_1406678])])
+lf(Girlfriend Lyrics.txt_15,136,cl29-nil-nil-tell-[obj-theme_unaff-me-sn2,subj-agent-queen-sn1,def_prop(me,[umano]),def_prop(queen,[animato,oggetto,plant,strumento,umano])])
+lf(Girlfriend Lyrics.txt_16,152,cl31-nil-nil-walk-[adj-(mod)-out-nil,obj-theme-she-sn6,obj-theme-mac-sn5,iobj-goal-sunday-sn4,obj-theme_aff-Pen-sn3,subj-actor-you-sn2,adj-(mod)-meet-nil,obl-modal-[]-[],aux-was-nil,progr-walking-nil,def_prop(she,[umano]),def_prop(mac,[oggetto,strumento]),def_prop(sunday,[tempo]),def_prop(Pen,[umano]),def_prop(you,[umano]),def_prop([],[])])
+lf(Girlfriend Lyrics.txt_16,152,cl30-nil-nil-meet-[subj-agent-you-sn1,aux-did-nil,def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_17,170,cl32-nil-nil-be-[xcomp-theme-sister-sn7,xcomp-theme-waitin-sn6,ncmod-locativo-corner-sn5,subj-theme_bound-sittin-sn4,obj2-benef-mindin-sn3,xcomp-prop-chillin-sn2,subj-theme_bound-i-sn1,and(sittin,own,sn4),and(sittin,business,sn4),def_prop(sister,[umano]),def_prop(waitin,[istituzione]),def_prop(corner,[luogo,oggetto,stato,strumento]),def_prop(sittin,[istituzione]),def_prop(mindin,[istituzione]),def_prop(chillin,[istituzione]),def_prop(i,[umano])])
+lf(Girlfriend Lyrics.txt_18,188,cl33-nil-nil-slide-[ncmod-modal-times_or_maybe-[sn2,sn3],subj-agent-she-sn1,def_prop(times_or_maybe,[tempo,istituzione]),def_prop(she,[umano])])
+lf(Girlfriend Lyrics.txt_19,207,cl35-nil-nil-be-[adj-(mod)-funny-nil,ncmod-goal-me-sn9,subj-theme_bound-girl-sn8,and(funny,just_so,sn11),and(girl,uh,sn8),def_prop(funny,[istituzione]),def_prop(me,[umano]),def_prop(girl,[oggetto,strumento])])
+lf(Girlfriend Lyrics.txt_19,207,cl34-nil-nil-notice-[obj-theme-rythm-sn2,subj-actor-me-sn1,def_prop(rythm,[istituzione]),def_prop(me,[umano])])
+lf(Girlfriend Lyrics.txt_20,228,cl40-nil-nil-come-[iobj-locat-piece-sn10,adj-subj_disc-up-sn9,subj-agent-she-sn8,def_prop(piece,[astratto,attivita,edible,evento,informa,oggetto,strumento]),def_prop(up,[istituzione]),def_prop(she,[umano])])
+lf(Girlfriend Lyrics.txt_20,228,cl39-nil-nil-have-[xcomp-tema_bound-man-sn7,subj-experiencer-she-sn6,def_prop(man,[any]),def_prop(she,[umano])])
+lf(Girlfriend Lyrics.txt_20,228,cl38-nil-nil-know-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_20,228,cl37-nil-nil-get-[ncmod-loc_direct-beef-sn3,subj-agent-nigga-sn2,and(beef,these,sn3),def_prop(beef,[animato,edible,oggetto]),def_prop(nigga,[istituzione,umano])])
+lf(Girlfriend Lyrics.txt_20,228,cl36-nil-can-see-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Girlfriend Lyrics.txt_21,253,cl43-nil-nil-give-[obj2-paziente-digit-sn7,xcomp-prop-me-sn6,subj-actor-she-sn5,def_prop(digit,[body_part,nquant,umano]),def_prop(me,[umano]),def_prop(she,[umano])])
+lf(Girlfriend Lyrics.txt_21,253,cl42-nil-nil-be-[ncmod-subj_disc-me-sn4,xcomp-prop-regular-sn3,subj-theme_bound-she-sn2,def_prop(me,[umano]),def_prop(regular,[valutativo]),def_prop(she,[umano])])
+lf(Girlfriend Lyrics.txt_21,253,cl41-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_22,277,cl50-nil-nil-draw-[arg_mod-agent-me-sn12,obj-goal-her-sn2,xadj-result-call-6,def_prop(me,[umano]),def_prop(her,[umano])])
+lf(Girlfriend Lyrics.txt_22,277,cl49-nil-nil-try-[])
+lf(Girlfriend Lyrics.txt_22,277,cl48-nil-nil-see-[obj-locative-it-sn11,xcomp-purpose-draw-9,def_prop(it,[any])])
+lf(Girlfriend Lyrics.txt_22,277,cl47-nil-nil-move-[])
+lf(Girlfriend Lyrics.txt_22,277,cl46-nil-nil-make-[fint-prop-how-sn9,xadj-result-see-8,def_prop(how,[manner])])
+lf(Girlfriend Lyrics.txt_22,277,cl45-nil-nil-call-[obj-agent-you-sn8,xcomp-purpose-make-7,ncmod-temporale-three-sn3,def_prop(you,[umano]),def_prop(three,[nquant])])
+lf(Girlfriend Lyrics.txt_22,277,cl44-nil-would-will-[obj-actor-jamaican-sn10,obj-theme-hip-sn7,xcomp-prop-fliked-sn6,obj-theme-she-sn5,obj-theme-way-sn4,subj-agent-i-sn1,and(jamaican,these,sn10),and(jamaican,chinese,sn10),def_prop(jamaican,[istituzione,umano]),def_prop(hip,[body_part,plant,umano]),def_prop(fliked,[istituzione]),def_prop(she,[umano]),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(i,[umano])])
+lf(Girlfriend Lyrics.txt_23,306,cl53-not-nil-be-[subj-theme_bound-me-shell-sn4,xcomp-experiencer-me-sn2,xcomp-purpose-amaze-3,neg-not-nil,def_prop(me-shell,[animato,oggetto,plant,sostanza,strumento]),def_prop(me,[umano])])
+lf(Girlfriend Lyrics.txt_23,306,cl52-nil-nil-amaze-[])
+lf(Girlfriend Lyrics.txt_23,306,cl51-nil-nil-cease-[adj-(mod)-never-nil,subj-agent-it-sn1,def_prop(it,[any])])
+lf(Girlfriend Lyrics.txt_24,332,cl56-nil-nil-want-[obj-tema_unaff-me-sn5,subj-actor-you-sn4,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_24,332,cl55-nil-nil-know-[subj-actor-ta-sn2,def_prop(ta,[informa,tecno])])
+lf(Girlfriend Lyrics.txt_24,332,cl54-nil-nil-get-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_25,359,cl59-nil-nil-be-[subj-theme_bound-few-sn7,def_prop(few,[umano,oggetto])])
+lf(Girlfriend Lyrics.txt_25,359,cl58-nil-nil-have-[subj-experiencer-you-sn5,def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_25,359,cl57-nil-nil-run-[obj-theme-how-sn2,subj-theme_aff-i-sn1,aux-have-nil,def_prop(how,[manner]),def_prop(i,[umano])])
+lf(Girlfriend Lyrics.txt_26,387,cl63-nil-nil-run-[cmod-coord-be-and,cmod-coord-be-nil,cmod-subord-run-"])
+lf(Girlfriend Lyrics.txt_26,387,cl62-nil-nil-be-[xcomp-theme_unaff-burger-sn14,xcomp-purpose-run-2,subj-theme_bound-night-sn13,xcomp-theme-how-sn8,subj-theme_bound-it-sn7,and(burger,chip,sn14),and(night,all,sn13),and(how,chick,sn8),and(how,flyest,sn8),def_prop(burger,[istituzione,umano]),def_prop(night,[tempo]),def_prop(how,[manner]),def_prop(it,[any])])
+lf(Girlfriend Lyrics.txt_26,387,cl61-nil-nil-ask-[obj-theme_aff-do_it-sn6,obj-theme-i-sn5,obj-theme_unaff-them-sn4,subj-actor-you-sn3,def_prop(do_it,[attivita,informa]),def_prop(i,[umano]),def_prop(them,[umano]),def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_26,387,cl60-nil-can-back-[obj-theme-track-sn2,subj-agent-you-sn1,def_prop(track,[attivita,oggetto,strumento]),def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_27,417,cl65-nil-nil-feature-[subj-agent-it-sn8,subj-agent-it-sn7,subj-agent-it-sn5,subj-agent-it-sn4,and(it,i,sn7),and(it,i,sn4),def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Girlfriend Lyrics.txt_27,417,cl64-nil-nil-be-[cmod-subord-feature-1,xcomp-prop-good-sn2,subj-theme_bound-it-sn1,and(good,all,sn2),def_prop(good,[valutativo]),def_prop(it,[any])])
+lf(Girlfriend Lyrics.txt_28,446,cl67-nil-nil-be-[xcomp-prop-real-sn9,subj-theme_bound-you-sn8,def_prop(real,[astratto,oggetto]),def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_28,446,nil-nil-nil-get-[xcomp-prop-real-sn7,xcomp-purpose-be-4,subj-agent-you-sn6,obj-prop-real-sn5,xcomp-purpose-be-cl67,subj-theme_bound-you-sn4,def_prop(real,[astratto,oggetto]),def_prop(you,[umano]),def_prop(real,[astratto,oggetto]),def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_28,446,cl66-nil-nil-see-[])
+lf(Girlfriend Lyrics.txt_28,446,nil-nil-nil-remix-[])
+lf(Girlfriend Lyrics.txt_28,446,nil-nil-nil-like-[subj-experiencer-fix-sn2,subj-experiencer-fix-sn1,and(fix,you,sn1),def_prop(fix,[attivita,stato]),def_prop(fix,[attivita,stato])])
+lf(Girlfriend Lyrics.txt_29,480,cl68-not-nil-have-[])
+lf(Girlfriend Lyrics.txt_29,480,nil-nil-nil-like-[adj-(mod)-out-nil,ncmod-locativo-out-sn24,ncmod-locativo-me-sn14,obj-theme_bound-man-sn5,xcomp-purpose-have-cl68,obj-theme-you-sn4,obj-theme_aff-Beverly-sn3,obj-tema_emot-ex-sn2,subj-experiencer-you-sn1,def_prop(out,[istituzione]),def_prop(out,[istituzione]),def_prop(me,[umano]),def_prop(man,[any]),def_prop(you,[umano]),def_prop(Beverly,[place,umano]),def_prop(ex,[relat,sociale,umano]),def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_30,511,cl71-nil-nil-be-[cmod-subord-be-",subj-theme_bound-i-sn8,xcomp-prop-ball-sn7,subj-theme_bound-i-sn6,def_prop(i,[umano]),def_prop(ball,[astratto,attivita,body_part,evento,istituzione,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(Girlfriend Lyrics.txt_30,511,cl70-nil-nil-throw-[obj-theme_unaff-pussy-sn3,subj-agent-you-sn2,def_prop(pussy,[animato,body_part,oggetto]),def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_30,511,cl69-not-can-control-[subj-agent-he-sn1,def_prop(he,[umano])])
+lf(Girlfriend Lyrics.txt_31,544,cl75-nil-nil-see-[iobj-locat-me-sn4,subj-experiencer-all-sn3,obj-theme-her-sn2,xcomp-purpose-jerk-6,def_prop(me,[umano]),def_prop(all,[_1413344]),def_prop(her,[umano])])
+lf(Girlfriend Lyrics.txt_31,544,cl74-nil-nil-be-[cmod-subord-jerk-then,subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_31,544,cl73-nil-nil-jerk-[])
+lf(Girlfriend Lyrics.txt_31,544,cl72-nil-nil-choose-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Girlfriend Lyrics.txt_32,579,cl77-nil-nil-be-[subj-theme_bound-girl-sn2,def_prop(girl,[oggetto,strumento])])
+lf(Girlfriend Lyrics.txt_32,579,cl76-nil-nil-claim-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Girlfriend Lyrics.txt_33,613,cl79-nil-nil-seem-[obj2-goal-uh-sn4,subj-actor-it-sn3,def_prop(uh,[istituzione,umano]),def_prop(it,[any])])
+lf(Girlfriend Lyrics.txt_33,613,cl78-not-nil-be-[])
+lf(Girlfriend Lyrics.txt_34,648,cl82-nil-nil-get-[adj-(mod)-down-nil,subj-agent-i-sn7,subj-agent-i-sn6,obj-experiencer-me-sn2,xcomp-purpose-amaze-3,and(i,Coz,sn6),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(me,[umano])])
+lf(Girlfriend Lyrics.txt_34,648,cl81-nil-nil-amaze-[adj-(mod)-get-nil])
+lf(Girlfriend Lyrics.txt_34,648,cl80-nil-nil-cease-[adj-(mod)-never-nil,subj-agent-it-sn1,def_prop(it,[any])])
+lf(Girlfriend Lyrics.txt_35,685,cl85-nil-nil-love-[cmod-subord-love-if,obj-theme_unaff-baby-sn17,subj-experiencer-you-sn16,obj-prop-baby-sn13,xcomp-purpose-love-6,subj-agent-you-sn12,obj-theme_unaff-baby-sn9,xcomp-purpose-love-cl85,subj-experiencer-i-sn8,obj-result-baby-sn5,xcomp-prop-love-cl85,and(baby,ya-,sn17),and(baby,ya-,sn13),and(baby,ya-,sn9),and(baby,ya-,sn5),def_prop(baby,[animato,any,attivita,plant]),def_prop(you,[umano]),def_prop(baby,[animato,any,attivita,plant]),def_prop(you,[umano]),def_prop(baby,[animato,any,attivita,plant]),def_prop(i,[umano]),def_prop(baby,[animato,any,attivita,plant])])
+lf(Girlfriend Lyrics.txt_35,685,cl84-nil-will-will-[subj-agent-i-sn4,subj-agent-i-sn3,def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Girlfriend Lyrics.txt_35,685,cl83-nil-nil-want-[obj-tema_unaff-ta-sn2,subj-actor-you-s-sn1,def_prop(ta,[informa,tecno]),def_prop(you-s,[istituzione])])

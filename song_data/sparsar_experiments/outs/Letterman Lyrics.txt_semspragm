@@ -1,0 +1,109 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Letterman Lyrics.txt_1-1  []-positive  []
+Letterman Lyrics.txt_2-3  []-positive  []
+Letterman Lyrics.txt_2-4  []-suspension  [fhd]
+Letterman Lyrics.txt_2-5  []-positive  []
+Letterman Lyrics.txt_3-6  []-question  []
+Letterman Lyrics.txt_4-10  []-negative  [neg]
+Letterman Lyrics.txt_4-11  []-negative  [neg]
+Letterman Lyrics.txt_4-12  []-positive  []
+Letterman Lyrics.txt_4-13  []-negative  [neg]
+Letterman Lyrics.txt_5-18  []-positive  []
+Letterman Lyrics.txt_5-19  []-positive  [fhd]
+Letterman Lyrics.txt_5-19  []-positive  [fhd,fgb]
+Letterman Lyrics.txt_6-25  []-positive  []
+Letterman Lyrics.txt_6-26  []-positive  []
+Letterman Lyrics.txt_6-27  []-positive  []
+Letterman Lyrics.txt_6-28  []-positive  []
+Letterman Lyrics.txt_6-29  []-positive  []
+Letterman Lyrics.txt_7-33  []-positive  []
+Letterman Lyrics.txt_8-41  []-negative  [neg]
+Letterman Lyrics.txt_8-42  []-positive  []
+Letterman Lyrics.txt_8-43  []-positive  []
+Letterman Lyrics.txt_9-52  []-positive  [fhd]
+Letterman Lyrics.txt_10-63  []-positive  [fhd]
+Letterman Lyrics.txt_11-74  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Letterman Lyrics.txt_1-1  [letterman,Lyrics,by,Punsy]  [title]
+Letterman Lyrics.txt_2-3  [this,is,me]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Letterman Lyrics.txt_2-4  [i,will,always,be,about,music,like,an,MP3]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Letterman Lyrics.txt_2-5  [i]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Letterman Lyrics.txt_3-6  [hop,hip,changing,am,?]  [provide_expl_just(change,[internal,factive,explanation,background,objective])]
+Letterman Lyrics.txt_4-10  [you,can,envy,me,cuz]  [reject_expl_just(have,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),reject_expl_just(throw,[external,factive,cause,foreground,objective])]
+Letterman Lyrics.txt_4-11  [you,are,throwing,concerts,with,empty,seats,in,the,NBA]  [reject_expl_just(have,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),reject_expl_just(throw,[external,factive,cause,foreground,objective])]
+Letterman Lyrics.txt_4-12  [i,had,be,MVP]  [provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(throw,[external,factive,cause,foreground,objective])]
+Letterman Lyrics.txt_4-13  [i,LOL,at,your,useless,feats,dude]  [reject_expl_just(have,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),reject_expl_just(throw,[external,factive,cause,foreground,objective])]
+Letterman Lyrics.txt_5-18  [i,see]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Letterman Lyrics.txt_5-19  [you,are,OG,like,easy]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Letterman Lyrics.txt_5-19  [you,are,OG,like,easy,,,DPG,cuz,and,E,nwa]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Letterman Lyrics.txt_6-25  [they,ask,to,SEE]  [provide_expl_just(ask,[external,factive,narration,background,objective]),provide_expl_just(SEE,[internal,factive,narration,background,objective])]
+Letterman Lyrics.txt_6-26  [ID,i,am,an,HD,screen,on,a,sprint,4G]  [provide_expl_just(ask,[external,factive,narration,background,objective]),provide_expl_just(SEE,[internal,factive,narration,background,objective])]
+Letterman Lyrics.txt_6-27  [you,are,a,TXT,on,an,I60]  [provide_expl_just(ask,[external,factive,narration,background,objective]),provide_expl_just(SEE,[internal,factive,narration,background,objective])]
+Letterman Lyrics.txt_6-28  [i,am,an,MBA,from,an,HBCU]  [provide_expl_just(ask,[external,factive,narration,background,objective]),provide_expl_just(SEE,[internal,factive,narration,background,objective])]
+Letterman Lyrics.txt_6-29  [you,are,a,GED]  [provide_expl_just(ask,[external,factive,narration,background,objective]),provide_expl_just(SEE,[internal,factive,narration,background,objective])]
+Letterman Lyrics.txt_7-33  [man]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Letterman Lyrics.txt_8-41  [i,had,hate,to,be,you,tbh]  [reject_expl_just(be,[external,factive,narration,foreground,objective]),reject_expl_just(hate,[external,factive,narration,background,objective])]
+Letterman Lyrics.txt_8-42  [i,am,feeling,GR8]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(hate,[external,factive,narration,background,objective])]
+Letterman Lyrics.txt_8-43  [i,am,AY]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(hate,[external,factive,narration,background,objective])]
+Letterman Lyrics.txt_9-52  [ok,shine,like,UV,rays,i,am,schooling]  [provide_expl_just(school,[external,factive,narration,foreground,objective]),provide_expl_just(ok,[external,factive,narration,background,objective])]
+Letterman Lyrics.txt_10-63  [the,we,PTA,these,cats,like,are,all,in,the,same,class]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Letterman Lyrics.txt_11-74  [J,slash,K]  [reject_expl_just(slash,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Letterman Lyrics.txt_1-1)-[]
+2-(Letterman Lyrics.txt_2-3)-[]
+3-(Letterman Lyrics.txt_2-4)-[primary-sound,emotions-affection]
+4-(Letterman Lyrics.txt_2-5)-[]
+5-(Letterman Lyrics.txt_3-6)-[primary-narcissism]
+6-(Letterman Lyrics.txt_4-10)-[]
+7-(Letterman Lyrics.txt_4-11)-[primary-water]
+8-(Letterman Lyrics.txt_4-12)-[]
+9-(Letterman Lyrics.txt_4-13)-[primary-concreteness,secondary-instru_behavior]
+10-(Letterman Lyrics.txt_5-18)-[primary-vision]
+11-(Letterman Lyrics.txt_5-19)-[emotions-affection]
+12-(Letterman Lyrics.txt_5-19)-[emotions-affection]
+half
+13-(Letterman Lyrics.txt_6-25)-[secondary-social_behavior]
+14-(Letterman Lyrics.txt_6-26)-[primary-diffusion]
+15-(Letterman Lyrics.txt_6-27)-[]
+16-(Letterman Lyrics.txt_6-28)-[]
+17-(Letterman Lyrics.txt_6-29)-[]
+18-(Letterman Lyrics.txt_7-33)-[]
+19-(Letterman Lyrics.txt_8-41)-[emotions-aggression]
+20-(Letterman Lyrics.txt_8-42)-[]
+21-(Letterman Lyrics.txt_8-43)-[]
+22-(Letterman Lyrics.txt_9-52)-[primary-vision,emotions-affection,primary-vision]
+23-(Letterman Lyrics.txt_10-63)-[emotions-affection,secondary-order]
+24-(Letterman Lyrics.txt_11-74)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Letterman Lyrics.txt_1,1,cl1-nil-nil-be-[subj-theme_bound-Lyrics-sn1,and(Lyrics,letterman,sn1),def_prop(Lyrics,[informa,tecno])])
+lf(Letterman Lyrics.txt_2,3,cl2-nil-will-be-[subj-theme_bound-you-sn5,ncmod-subj_disc-music-sn4,subj-theme_bound-i-sn3,xcomp-prop-me-sn2,subj-theme_bound-this-sn1,adj-(mod)-always-nil,def_prop(you,[umano]),def_prop(music,[astratto,attivita,informa]),def_prop(i,[umano]),def_prop(me,[umano]),def_prop(this,[oggetto,umano])])
+lf(Letterman Lyrics.txt_3,6,cl3-nil-nil-change-[subj-agent-hop-sn1,aux-am-nil,progr-changing-nil,and(hop,hip,sn1),def_prop(hop,[attivita,evento,plant])])
+lf(Letterman Lyrics.txt_4,10,cl7-nil-nil-be-[ncmod-locativo-dude-sn12,xcomp-prop-LOL-sn11,subj-theme_bound-i-sn10,and(dude,useless,sn12),and(dude,feat,sn12),def_prop(dude,[relat,sociale,umano]),def_prop(LOL,[informa,tecno]),def_prop(i,[umano])])
+lf(Letterman Lyrics.txt_4,10,cl6-nil-nil-have-[xcomp-prop-MVP-sn9,xcomp-purpose-be-2,subj-experiencer-i-sn8,def_prop(MVP,[informa,relat,sociale,tecno,umano]),def_prop(i,[umano])])
+lf(Letterman Lyrics.txt_4,10,cl5-nil-nil-throw-[ncmod-locativo-NBA-sn6,obj-theme_unaff-concert-sn5,subj-agent-you-sn4,aux-are-nil,progr-throwing-nil,def_prop(NBA,[istituzione,umano]),def_prop(concert,[attivita,informa]),def_prop(you,[umano])])
+lf(Letterman Lyrics.txt_4,10,cl4-nil-can-envy-[obj-theme-cuz-sn3,obj-theme-me-sn2,subj-experiencer-you-sn1,def_prop(cuz,[istituzione]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Letterman Lyrics.txt_5,18,cl9-nil-nil-be-[xcomp-prop-easy-sn7,xcomp-prop-OG-sn6,subj-theme_bound-you-sn5,xcomp-prop-easy-sn4,xcomp-prop-OG-sn3,subj-theme_bound-you-sn2,def_prop(easy,[soggettivo]),def_prop(OG,[istituzione]),def_prop(you,[umano]),def_prop(easy,[soggettivo]),def_prop(OG,[istituzione]),def_prop(you,[umano])])
+lf(Letterman Lyrics.txt_5,18,cl8-nil-nil-see-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Letterman Lyrics.txt_6,25,cl11-nil-nil-be-[xcomp-prop-GED-sn17,subj-theme_bound-you-sn16,ncmod-loc_origin-HBCU-sn15,xcomp-prop-MBA-sn14,subj-theme_bound-i-sn13,ncmod-locativo-I60-sn12,xcomp-prop-TXT-sn11,subj-theme_bound-you-sn10,ncmod-modal-4G-sn7,xcomp-prop-screen-sn6,xcomp-prop-HD-sn5,subj-theme_bound-i-sn4,subj-theme_bound-i-sn3,ncmod-locativo-SEE-sn2,and(4G,sprint,sn7),and(i,ID,sn3),def_prop(GED,[istituzione]),def_prop(you,[umano]),def_prop(HBCU,[istituzione,umano]),def_prop(MBA,[sociale,umano]),def_prop(i,[umano]),def_prop(I60,[istituzione,umano]),def_prop(TXT,[informa,legale,tecno]),def_prop(you,[umano]),def_prop(4G,[nquant]),def_prop(screen,[oggetto,strumento]),def_prop(HD,[informa,tecno]),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(SEE,[istituzione])])
+lf(Letterman Lyrics.txt_6,25,cl10-nil-nil-ask-[subj-actor-they-sn1,def_prop(they,[umano])])
+lf(Letterman Lyrics.txt_7,33,cl12-nil-nil-say-[obj-theme_unaff-man-sn1,def_prop(man,[any])])
+lf(Letterman Lyrics.txt_8,41,cl15-nil-nil-feel-[xcomp-tema_emot-GR8-sn5,subj-experiencer-i-sn4,xcomp-prop-tbh-sn2,xcomp-purpose-be-3,aux-am-nil,progr-feeling-nil,and(tbh,you,sn2),def_prop(GR8,[istituzione,umano]),def_prop(i,[umano]),def_prop(tbh,[istituzione])])
+lf(Letterman Lyrics.txt_8,41,cl14-nil-nil-be-[adj-(mod)-ay-nil,subj-theme_bound-i-sn6,def_prop(i,[umano])])
+lf(Letterman Lyrics.txt_8,41,cl13-nil-nil-hate-[subj-actor-i-sn1,aux-had-nil,def_prop(i,[umano])])
+lf(Letterman Lyrics.txt_9,52,cl16-nil-nil-school-[aux-am-nil,progr-schooling-nil])
+lf(Letterman Lyrics.txt_9,52,nil-nil-nil-ok-[appos-sn2-ray-sn4,obj-theme-i-sn3,obj-theme-shine-sn2,subj-agent-you-sn1,and(ray,UV,sn4),def_prop(ray,[animato,astratto,plant]),def_prop(i,[umano]),def_prop(shine,[astratto]),def_prop(you,[umano])])
+lf(Letterman Lyrics.txt_10,63,cl17-nil-nil-be-[xcomp-prop-all-sn3,subj-theme_bound-cat-sn2,subj-theme_bound-cat-sn1,and(cat,these,sn2),and(cat,these,sn1),def_prop(all,[_222990]),def_prop(cat,[animato,attivita,oggetto,plant,sostanza,strumento,umano]),def_prop(cat,[animato,attivita,oggetto,plant,sostanza,strumento,umano])])
+lf(Letterman Lyrics.txt_11,74,cl18-nil-nil-slash-[obj-theme_aff-K-sn2,subj-agent-J-sn1,def_prop(K,[attivita,informa,nquant,oggetto,strumento]),def_prop(J,[attivita,informa])])

@@ -1,0 +1,62 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Introduction Lyrics.txt_1-1  []-positive  []
+Introduction Lyrics.txt_2-3  [if-hypoth]-suspension  [fgb]
+Introduction Lyrics.txt_3-6  []-positive  []
+Introduction Lyrics.txt_4-11  []-question  []
+Introduction Lyrics.txt_5-17  []-suspension  [fgb]
+Introduction Lyrics.txt_6-23  []-suspension  [ack,fgb]
+Introduction Lyrics.txt_7-32  []-positive  []
+Introduction Lyrics.txt_8-40  []-positive  []
+Introduction Lyrics.txt_8-41  []-positive  []
+Introduction Lyrics.txt_9-50  []-positive  [bkc]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Introduction Lyrics.txt_1-1  [introduction,Lyrics,by,Quantic]  [title]
+Introduction Lyrics.txt_2-3  [if,you,will,turn,the,machine,on]  [suggest(be,[_15530,_15536,statement,background,_15554])]
+Introduction Lyrics.txt_3-6  [are,we,getting,through]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Introduction Lyrics.txt_4-11  [happening,anything,is,?]  [provide_expl_just(happen,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Introduction Lyrics.txt_5-17  [i_mean,,,they,will]  [provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Introduction Lyrics.txt_6-23  [will,you,turn,the,right,knobs,i_mean,we,are,on,the,air]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Introduction Lyrics.txt_7-32  [that,good]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Introduction Lyrics.txt_8-40  [you,ooh,say]  [provide_expl_just(say,[external,factive,narration,background,objective])]
+Introduction Lyrics.txt_8-41  [we,are,getting,there]  [provide_expl_just(say,[external,factive,narration,background,objective])]
+Introduction Lyrics.txt_9-50  [oh,fine,good,,,any,minute,now]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Introduction Lyrics.txt_1-1)-[]
+2-(Introduction Lyrics.txt_2-3)-[secondary-instru_behavior]
+3-(Introduction Lyrics.txt_3-6)-[]
+4-(Introduction Lyrics.txt_4-11)-[]
+5-(Introduction Lyrics.txt_5-17)-[]
+half
+6-(Introduction Lyrics.txt_6-23)-[secondary-moral_imperative]
+7-(Introduction Lyrics.txt_7-32)-[]
+8-(Introduction Lyrics.txt_8-40)-[secondary-social_behavior]
+9-(Introduction Lyrics.txt_8-41)-[]
+10-(Introduction Lyrics.txt_9-50)-[secondary-temporal_repere,secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Introduction Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Quantic-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,introduction,sn1),def_prop(Quantic,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Introduction Lyrics.txt_2,3,cl2-nil-will-turn-[obj-theme-machine-sn2,subj-agent-you-sn1,def_prop(machine,[oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Introduction Lyrics.txt_3,6,cl4-nil-nil-get-[])
+lf(Introduction Lyrics.txt_3,6,cl3-nil-nil-be-[subj-theme_bound-we-sn1,def_prop(we,[umano])])
+lf(Introduction Lyrics.txt_4,11,cl6-nil-nil-happen-[adj-(mod)-be-nil,subj-prop-anything-sn1,def_prop(anything,[astratto,informa,oggetto])])
+lf(Introduction Lyrics.txt_4,11,cl5-nil-nil-be-[subj-theme_bound-anything-sn1,def_prop(anything,[astratto,informa,oggetto])])
+lf(Introduction Lyrics.txt_5,17,cl7-nil-will-will-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Introduction Lyrics.txt_6,23,cl10-nil-nil-be-[cmod-subord-be-i_mean,ncmod-locativo-air-sn18,subj-theme_bound-we-sn17,def_prop(air,[astratto,attivita,informa,luogo,sostanza]),def_prop(we,[umano])])
+lf(Introduction Lyrics.txt_6,23,cl9-nil-nil-turn-[])
+lf(Introduction Lyrics.txt_6,23,cl8-nil-will-will-[obj-theme_aff-knob-sn16,subj-agent-you-sn1,and(knob,right,sn16),def_prop(knob,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Introduction Lyrics.txt_7,32,cl11-nil-nil-say-[obj-theme_unaff-good-sn1,and(good,that,sn1),def_prop(good,[astratto])])
+lf(Introduction Lyrics.txt_8,40,cl13-nil-nil-get-[obj-theme_unaff-there-sn4,subj-agent-we-sn3,aux-are-nil,progr-getting-nil,def_prop(there,[any]),def_prop(we,[umano])])
+lf(Introduction Lyrics.txt_8,40,cl12-nil-nil-say-[ncmod-modal-you-sn2,subj-actor-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Introduction Lyrics.txt_9,50,cl14-nil-nil-be-[adj-(mod)-now-nil,xcomp-theme-minute-sn3,xcomp-theme-fine-sn2,subj-theme_bound-oh-sn1,and(minute,any,sn3),def_prop(minute,[tempo]),def_prop(fine,[valutativo]),def_prop(oh,[informa,tecno])])

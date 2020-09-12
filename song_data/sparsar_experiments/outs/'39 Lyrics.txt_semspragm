@@ -1,0 +1,168 @@
+"POLARITY, DISCOURSE MARKERS"
+
+'39 Lyrics.txt_1-1  []-positive  []
+'39 Lyrics.txt_2-3  []-positive  []
+'39 Lyrics.txt_3-6  [when-temp_coinc]-negative  [neg,neg]
+'39 Lyrics.txt_4-10  []-positive  [fgb]
+'39 Lyrics.txt_5-15  []-positive  []
+'39 Lyrics.txt_6-21  []-positive  [fgb]
+'39 Lyrics.txt_7-28  []-positive  [fgb]
+'39 Lyrics.txt_8-36  []-positive  []
+'39 Lyrics.txt_9-45  []-negative  [neg]
+'39 Lyrics.txt_10-56  []-positive  []
+'39 Lyrics.txt_11-67  []-negative  [neg]
+'39 Lyrics.txt_11-68  []-negative  [neg]
+'39 Lyrics.txt_11-69  []-negative  [neg]
+'39 Lyrics.txt_12-81  [though-advers]-negative  []
+'39 Lyrics.txt_13-96  []-negative  []
+'39 Lyrics.txt_14-112  []-positive  []
+'39 Lyrics.txt_15-127  []-positive  []
+'39 Lyrics.txt_17-161  []-positive  []
+'39 Lyrics.txt_18-179  []-positive  []
+'39 Lyrics.txt_19-198  [so-result]-positive  [fgb,fgb]
+'39 Lyrics.txt_20-218  []-positive  []
+'39 Lyrics.txt_21-239  [so-result,though-advers]-negative  [fgb,neg]
+'39 Lyrics.txt_22-261  []-positive  [fgb]
+'39 Lyrics.txt_22-262  []-negative  [neg]
+'39 Lyrics.txt_23-285  [but-advers]-suspension  [fgb]
+'39 Lyrics.txt_24-309  [but-advers,so-result,though-advers]-positive  [bkc,fgb,fgb]
+'39 Lyrics.txt_25-335  []-positive  []
+'39 Lyrics.txt_26-361  []-negative  [neg]
+'39 Lyrics.txt_27-388  [though-advers]-negative  []
+'39 Lyrics.txt_28-418  []-negative  []
+'39 Lyrics.txt_29-449  []-suspension  [fhd]
+'39 Lyrics.txt_30-479  []-positive  []
+'39 Lyrics.txt_31-510  []-positive  []
+'39 Lyrics.txt_32-542  []-positive  []
+'39 Lyrics.txt_33-575  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+'39 Lyrics.txt_1-1  [39,',Lyrics,by,queen]  [title]
+'39 Lyrics.txt_2-3  [in,the,year,of,',39,assembled,here,the,volunteers]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+'39 Lyrics.txt_3-6  [in,the,days,when,lands,were,few,.,lands,were,few]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+'39 Lyrics.txt_4-10  [here,the,ship,sailed,out,sunny,morn,and,into,the,blue]  [proposal(be,[_189844,_189850,statement,foreground,_189868])]
+'39 Lyrics.txt_5-15  [sweetest,sight,ever,seen]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+'39 Lyrics.txt_6-21  [and,the,night,followed,day]  [provide_expl_just(follow,[external,factive,narration,foreground,objective])]
+'39 Lyrics.txt_7-28  [and,the,storytellers,say]  [provide_expl_just(say,[external,factive,narration,background,objective])]
+'39 Lyrics.txt_8-36  [score,that,the,brave,souls,inside]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+'39 Lyrics.txt_9-45  [for,many,a,lonely,sailed,day,across,the,milky]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(sail,[external,factive,narration,foreground,objective])]
+'39 Lyrics.txt_10-56  [seas]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+'39 Lyrics.txt_11-67  [never,looked,back]  [reject_expl_just(fear,[external,factive,narration,foreground,objective]),reject_expl_just(cry,[external,factive,result,foreground,objective]),propose_opin_neg(cry,[external,factive,result,foreground,objective])]
+'39 Lyrics.txt_11-68  [,,never,feared]  [reject_expl_just(fear,[external,factive,narration,foreground,objective]),reject_expl_just(cry,[external,factive,result,foreground,objective]),propose_opin_neg(cry,[external,factive,result,foreground,objective])]
+'39 Lyrics.txt_11-69  [,,never,cried]  [reject_expl_just(fear,[external,factive,narration,foreground,objective]),reject_expl_just(cry,[external,factive,result,foreground,objective]),propose_opin_neg(cry,[external,factive,result,foreground,objective])]
+'39 Lyrics.txt_12-81  [don-t,you,hear,my,call,though,you,many,years,are,away]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+'39 Lyrics.txt_13-96  [don-t,you,hear,me,calling,you]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective])]
+'39 Lyrics.txt_14-112  [write,your,letters,in,the,sand]  [provide_expl_just(write,[external,factive,narration,background,objective])]
+'39 Lyrics.txt_15-127  [for,the,day,i,take,your,hand]  [provide_expl_just(take,[external,factive,narration,background,objective])]
+'39 Lyrics.txt_17-161  [in,the,year,of,',39,came,a,ship,in,from,the,blue]  [raise_issue(be,[_197132,factive,statement,_197150,subjective])]
+'39 Lyrics.txt_18-179  [the,volunteers,came,home,that,day]  [raise_issue(be,[_197460,factive,statement,_197478,subjective])]
+'39 Lyrics.txt_19-198  [and,they,bring,good,news,of,a,world,so,newly]  [provide_expl_just(bring,[external,factive,narration,background,objective])]
+'39 Lyrics.txt_20-218  [born]  [provide_expl_just(bear,[external,factive,narration,foreground,objective])]
+'39 Lyrics.txt_21-239  [though,their,hearts,so,heavily,weigh]  [reject_expl_just(weigh,[external,factive,narration,background,objective])]
+'39 Lyrics.txt_22-261  [for,the,earth,is,old,and,grey]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+'39 Lyrics.txt_22-262  [,,little,darling,we,will,away]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+'39 Lyrics.txt_23-285  [my,this,love,but,cannot,be]  [provide_expl_just(be,[external,nonfactive,narration,foreground,objective])]
+'39 Lyrics.txt_24-309  [oh,so,many,years,are,gone,though,i,am,older,but,a]  [accept_expl_opin(be,[_200894,_200900,setting,_200912,_200918])]
+'39 Lyrics.txt_25-335  [year]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+'39 Lyrics.txt_26-361  [your,mother-s,eyes,from,your,eyes,cry,to,me]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+'39 Lyrics.txt_27-388  [don-t,you,hear,my,call,though,you,many,years,are,away]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+'39 Lyrics.txt_28-418  [don-t,you,hear,me,calling,you]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective])]
+'39 Lyrics.txt_29-449  [all,your,letters,in,the,sand,cannot,heal,me,like,your]  [provide_expl_just(heal,[external,nonfactive,narration,foreground,objective])]
+'39 Lyrics.txt_30-479  [hand]  [raise_issue(be,[_204088,factive,statement,_204106,subjective])]
+'39 Lyrics.txt_31-510  [for,my,life]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+'39 Lyrics.txt_32-542  [still,ahead]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+'39 Lyrics.txt_33-575  [me,pity]  reject_expl_opin(nil,[])
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-('39 Lyrics.txt_1-1)-[]
+2-('39 Lyrics.txt_2-3)-[secondary-temporal_repere,secondary-instru_behavior,primary-concreteness]
+3-('39 Lyrics.txt_3-6)-[secondary-temporal_repere]
+4-('39 Lyrics.txt_4-10)-[primary-concreteness,primary-voyage,primary-voyage,primary-concreteness,primary-fire,primary-vision]
+5-('39 Lyrics.txt_5-15)-[primary-vision,secondary-temporal_repere,primary-vision]
+6-('39 Lyrics.txt_6-21)-[secondary-social_behavior]
+7-('39 Lyrics.txt_7-28)-[secondary-social_behavior]
+8-('39 Lyrics.txt_8-36)-[primary-concreteness]
+9-('39 Lyrics.txt_9-45)-[emotions-sadness,primary-voyage,primary-concreteness,primary-gen_sensation]
+10-('39 Lyrics.txt_10-56)-[primary-water]
+11-('39 Lyrics.txt_11-67)-[primary-vision,primary-concreteness]
+12-('39 Lyrics.txt_11-68)-[emotions-anxiety]
+13-('39 Lyrics.txt_11-69)-[emotions-expressive_beh]
+14-('39 Lyrics.txt_12-81)-[primary-sound,secondary-social_behavior,secondary-temporal_repere,primary-concreteness]
+15-('39 Lyrics.txt_13-96)-[primary-sound]
+16-('39 Lyrics.txt_14-112)-[]
+17-('39 Lyrics.txt_15-127)-[primary-narcissism]
+half
+18-('39 Lyrics.txt_17-161)-[secondary-temporal_repere,primary-voyage,primary-vision]
+19-('39 Lyrics.txt_18-179)-[]
+20-('39 Lyrics.txt_19-198)-[]
+21-('39 Lyrics.txt_20-218)-[]
+22-('39 Lyrics.txt_21-239)-[primary-narcissism,secondary-abstract_tought]
+23-('39 Lyrics.txt_22-261)-[primary-sound,secondary-temporal_repere,primary-vision]
+24-('39 Lyrics.txt_22-262)-[primary-concreteness]
+25-('39 Lyrics.txt_23-285)-[emotions-affection]
+26-('39 Lyrics.txt_24-309)-[secondary-temporal_repere,secondary-temporal_repere]
+27-('39 Lyrics.txt_25-335)-[secondary-temporal_repere]
+28-('39 Lyrics.txt_26-361)-[primary-narcissism,primary-narcissism,emotions-expressive_beh]
+29-('39 Lyrics.txt_27-388)-[primary-sound,secondary-social_behavior,secondary-temporal_repere,primary-concreteness]
+30-('39 Lyrics.txt_28-418)-[primary-sound]
+31-('39 Lyrics.txt_29-449)-[emotions-affection]
+32-('39 Lyrics.txt_30-479)-[primary-narcissism]
+33-('39 Lyrics.txt_31-510)-[]
+34-('39 Lyrics.txt_32-542)-[primary-concreteness]
+35-('39 Lyrics.txt_33-575)-[emotions-affection]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf('39 Lyrics.txt_1,1,cl1-nil-nil-queen-[subj-actor-Lyrics-sn2,subj-actor-Lyrics-sn1,and(Lyrics,39,sn1),def_prop(Lyrics,[informa,tecno]),def_prop(Lyrics,[informa,tecno])])
+lf('39 Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-theme-volunteer-sn2,subj-theme_bound-39-sn1,def_prop(volunteer,[umano]),def_prop(39,[nquant])])
+lf('39 Lyrics.txt_3,6,cl3-nil-nil-be-[adj-temporal-days-nil,xcomp-prop-few-sn4,subj-theme_bound-land-sn1,def_prop(days,[tempo]),def_prop(few,[umano,oggetto]),def_prop(land,[astratto,oggetto])])
+lf('39 Lyrics.txt_4,10,cl4-nil-nil-sail-[adj-(mod)-out-nil,adj-(mod)-here-nil,ncmod-modal-morn_and_blue-[sn2,sn3],subj-agent-ship-sn1,def_prop(morn_and_blue,[tempo,animato,astratto,istituzione,oggetto,strumento]),def_prop(ship,[attivita,informa,oggetto,strumento,umano])])
+lf('39 Lyrics.txt_5,15,cl5-nil-nil-see-[adj-(mod)-ever-nil,subj-experiencer-sight-sn1,and(sight,sweetest,sn1),def_prop(sight,[astratto,attivita,informa,nquant,oggetto,strumento])])
+lf('39 Lyrics.txt_6,21,cl6-nil-nil-follow-[cmod-subord-follow-",subj-agent-night-sn1,def_prop(night,[tempo])])
+lf('39 Lyrics.txt_7,28,cl7-nil-nil-say-[cmod-subord-say-",subj-actor-you-sn1,def_prop(you,[umano])])
+lf('39 Lyrics.txt_8,36,cl8-nil-nil-be-[subj-theme_bound-soul-sn1,and(soul,brave,sn1),def_prop(soul,[attivita,emotivo,informa,umano])])
+lf('39 Lyrics.txt_9,45,_207014-nil-nil-sail-[voice-sail-nil,tense-sail-nil])
+lf('39 Lyrics.txt_9,45,cl9-nil-nil-be-[voice-sail-nil,tense-sail-nil,ncmod-modal-milky-sn2,subj-theme_bound-many-sn1,def_prop(milky,[istituzione]),def_prop(many,[_207200])])
+lf('39 Lyrics.txt_10,56,cl10-nil-nil-say-[obj-theme_unaff-sea-sn1,def_prop(sea,[attivita,cambia,oggetto])])
+lf('39 Lyrics.txt_11,67,cl13-nil-nil-cry-[subj-experiencer-you-sn6,def_prop(you,[umano])])
+lf('39 Lyrics.txt_11,67,cl12-nil-nil-fear-[subj-experiencer-you-sn5,def_prop(you,[umano])])
+lf('39 Lyrics.txt_11,67,cl11-nil-nil-look-[adj-subj_disc-back-sn2,subj-agent-you-sn1,def_prop(back,[istituzione]),def_prop(you,[umano])])
+lf('39 Lyrics.txt_12,81,cl16-nil-nil-be-[xcomp-theme_unaff-call-sn2,xcomp-purpose-hear-3,def_prop(call,[attivita,informa])])
+lf('39 Lyrics.txt_12,81,cl15-nil-nil-hear-[ncmod-modal-years-sn7,ncmod-modal-though-sn4,def_prop(years,[tempo]),def_prop(though,[istituzione])])
+lf('39 Lyrics.txt_12,81,cl14-not-nil-don-t-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf('39 Lyrics.txt_13,96,cl18-nil-nil-hear-[subj-prop-you-sn3,xcomp-purpose-call-3,obj-theme_unaff-me-sn2,xcomp-purpose-hear-2,def_prop(you,[umano]),def_prop(me,[umano])])
+lf('39 Lyrics.txt_13,96,cl17-not-nil-don-t-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf('39 Lyrics.txt_14,112,cl19-nil-nil-write-[ncmod-locativo-sand-sn3,obj-source_information-letter-sn2,subj-agent-you-sn1,def_prop(sand,[sostanza]),def_prop(letter,[attivita,informa,umano]),def_prop(you,[umano])])
+lf('39 Lyrics.txt_15,127,cl20-nil-nil-take-[adj-temporal-day-nil,obj-theme_aff-hand-sn2,subj-agent-i-sn1,def_prop(day,[tempo]),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf('39 Lyrics.txt_16,143,cl22-nil-nil-know-[obj-theme_unaff-land-sn1,def_prop(land,[astratto,oggetto])])
+lf('39 Lyrics.txt_16,143,cl21-nil-nil-be-[ncmod-locativo-land-sn1,def_prop(land,[astratto,oggetto])])
+lf('39 Lyrics.txt_17,161,cl23-nil-nil-come-[adj-temporal-year-nil,iobj-goal-blue-sn3,obj-theme_aff-ship-sn2,subj-agent-39-sn1,def_prop(year,[tempo]),def_prop(blue,[animato,astratto,istituzione,oggetto,strumento]),def_prop(ship,[attivita,informa,oggetto,strumento,umano]),def_prop(39,[nquant])])
+lf('39 Lyrics.txt_18,179,cl24-nil-nil-come-[subj-agent-volunteer-sn1,def_prop(volunteer,[umano])])
+lf('39 Lyrics.txt_19,198,cl25-nil-nil-bring-[cmod-subord-bring-",adj-(mod)-newly-nil,obj-theme_aff-news-sn2,subj-agent-they-sn1,and(news,good,sn2),def_prop(news,[attivita,informa]),def_prop(they,[umano])])
+lf('39 Lyrics.txt_20,218,cl26-nil-nil-bear-[subj-agent-pro-nil])
+lf('39 Lyrics.txt_21,239,cl27-nil-nil-weigh-[cmod-subord-weigh-so,subj-actor-you-sn5,def_prop(you,[umano])])
+lf('39 Lyrics.txt_22,261,cl29-nil-will-will-[xcomp-prop-away-sn6,subj-agent-we-sn5,def_prop(away,[evaluative]),def_prop(we,[umano])])
+lf('39 Lyrics.txt_22,261,cl28-nil-nil-be-[coord-prop-old_and_grey-sn4,xcomp-prop-grey-sn3,xcomp-prop-old-sn2,subj-theme_bound-earth-sn1,def_prop(old_and_grey,[estens,astratto,istituzione,oggetto,strumento]),def_prop(grey,[estens,astratto,istituzione,oggetto,strumento]),def_prop(old,[estens,astratto,istituzione,oggetto,strumento]),def_prop(earth,[sostanza])])
+lf('39 Lyrics.txt_23,285,cl30-not-can-be-[subj-theme_bound-love-sn1,def_prop(love,[astratto,emotivo,nquant])])
+lf('39 Lyrics.txt_24,309,cl32-nil-nil-be-[xcomp-prop-older-sn3,subj-actor-i-sn2,subj-actor-i-sn1,and(i,oh,sn1),def_prop(older,[evaluative]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf('39 Lyrics.txt_24,309,cl31-nil-nil-go-[cmod-subord-be-so,adj-(mod)-though-nil,subj-actor-years-sn5,aux-are-nil,and(years,many,sn5),def_prop(years,[tempo])])
+lf('39 Lyrics.txt_25,335,cl33-nil-nil-say-[])
+lf('39 Lyrics.txt_26,361,cl34-nil-nil-be-[xcomp-theme-cry-sn3,ncmod-loc_origin-eye-sn2,subj-theme_bound-eye-sn1,def_prop(cry,[attivita,evento,informa]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf('39 Lyrics.txt_27,388,cl37-nil-nil-be-[xcomp-theme_unaff-call-sn2,xcomp-purpose-hear-3,def_prop(call,[attivita,informa])])
+lf('39 Lyrics.txt_27,388,cl36-nil-nil-hear-[ncmod-modal-years-sn7,ncmod-modal-though-sn4,def_prop(years,[tempo]),def_prop(though,[istituzione])])
+lf('39 Lyrics.txt_27,388,cl35-not-nil-don-t-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf('39 Lyrics.txt_28,418,cl39-nil-nil-hear-[subj-prop-you-sn3,xcomp-purpose-call-3,obj-theme_unaff-me-sn2,xcomp-purpose-hear-2,def_prop(you,[umano]),def_prop(me,[umano])])
+lf('39 Lyrics.txt_28,418,cl38-not-nil-don-t-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf('39 Lyrics.txt_29,449,cl40-not-can-heal-[xcomp-prop-your-sn4,obj-theme-me-sn3,ncmod-locativo-sand-sn2,subj-agent-letter-sn1,and(letter,all,sn1),def_prop(your,[istituzione]),def_prop(me,[umano]),def_prop(sand,[sostanza]),def_prop(letter,[attivita,informa,umano])])
+lf('39 Lyrics.txt_30,479,cl41-nil-nil-say-[obj-theme_unaff-hand-sn1,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano])])
+lf('39 Lyrics.txt_31,510,cl42-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf('39 Lyrics.txt_32,542,cl43-nil-nil-say-[])
+lf('39 Lyrics.txt_33,575,cl44-nil-nil-pity-[subj-agent-you-sn1,def_prop(you,[umano])])

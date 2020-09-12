@@ -1,0 +1,58 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Cousteau Lyrics.txt_1-1  []-positive  []
+Cousteau Lyrics.txt_2-3  []-positive  []
+Cousteau Lyrics.txt_3-6  []-negative  [neg]
+Cousteau Lyrics.txt_4-10  []-positive  []
+Cousteau Lyrics.txt_5-16  []-negative  [fgb,neg]
+Cousteau Lyrics.txt_6-23  []-positive  []
+Cousteau Lyrics.txt_6-24  [but-advers]-negative  [fgb,neg]
+Cousteau Lyrics.txt_7-32  []-positive  []
+Cousteau Lyrics.txt_8-40  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Cousteau Lyrics.txt_1-1  [Cousteau,Lyrics,by,Swirlies]  [title]
+Cousteau Lyrics.txt_2-3  [all,i,am,Sayin]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Cousteau Lyrics.txt_3-6  [it,is,in,your,mind,dear]  [reject_expl_just(be,[_22736,_22742,_22748,_22754,_22760])]
+Cousteau Lyrics.txt_4-10  [it,is,there,to,find]  [provide_expl_just(find,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Cousteau Lyrics.txt_5-16  [and,you,can,not,find,down,from,just,watching,you]  [reject_expl_just(watch,[external,factive,narration,foreground,objective])]
+Cousteau Lyrics.txt_6-23  [you,can,run,dear]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Cousteau Lyrics.txt_6-24  [but,it,is,the,same,to,me,not]  [reject_expl_just(run,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Cousteau Lyrics.txt_7-32  [hang,around,me]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Cousteau Lyrics.txt_8-40  [will,not,you,hang,around,me]  [reject_expl_just(will,[external,nonfactive,narration,background,objective]),reject_expl_just(hang,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Cousteau Lyrics.txt_1-1)-[]
+2-(Cousteau Lyrics.txt_2-3)-[]
+3-(Cousteau Lyrics.txt_3-6)-[emotions-affection]
+4-(Cousteau Lyrics.txt_4-10)-[secondary-instru_behavior]
+half
+5-(Cousteau Lyrics.txt_5-16)-[secondary-instru_behavior]
+6-(Cousteau Lyrics.txt_6-23)-[emotions-affection]
+7-(Cousteau Lyrics.txt_6-24)-[]
+8-(Cousteau Lyrics.txt_7-32)-[primary-ascend]
+9-(Cousteau Lyrics.txt_8-40)-[primary-ascend]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Cousteau Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Swirlies-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Cousteau,sn1),def_prop(Swirlies,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Cousteau Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-Sayin-sn3,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(i,all,sn1),def_prop(Sayin,[istituzione,umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Cousteau Lyrics.txt_3,6,cl3-nil-nil-be-[xadj-adj-dear-adj1,ncmod-locativo-mind-sn2,subj-theme_bound-it-sn1,def_prop(dear,_26886),def_prop(mind,[astratto]),def_prop(it,[any])])
+lf(Cousteau Lyrics.txt_4,10,cl5-nil-nil-find-[subj-prop-there-sn2,def_prop(there,[any])])
+lf(Cousteau Lyrics.txt_4,10,cl4-nil-nil-be-[xcomp-prop-there-sn2,subj-theme_bound-it-sn1,def_prop(there,[any]),def_prop(it,[any])])
+lf(Cousteau Lyrics.txt_5,16,cl7-nil-nil-watch-[cmod-subord-watch-",obj-theme-you-sn2,xcomp-purpose-watch-2,def_prop(you,[umano])])
+lf(Cousteau Lyrics.txt_5,16,cl6-not-can-find-[adj-(mod)-down-nil,subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Cousteau Lyrics.txt_6,23,cl10-nil-nil-be-[ncmod-goal-me-sn5,xcomp-prop-same-sn4,subj-theme_bound-it-sn3,xcomp-theme_unaff-dear-sn2,xcomp-purpose-run-4,def_prop(me,[umano]),def_prop(same,[deittico]),def_prop(it,[any]),def_prop(dear,[relat,sociale,umano])])
+lf(Cousteau Lyrics.txt_6,23,cl9-nil-nil-run-[])
+lf(Cousteau Lyrics.txt_6,23,cl8-nil-can-can-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Cousteau Lyrics.txt_7,32,cl11-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Cousteau Lyrics.txt_8,40,cl13-nil-nil-hang-[])
+lf(Cousteau Lyrics.txt_8,40,cl12-nil-will-will-[obj-theme_aff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])

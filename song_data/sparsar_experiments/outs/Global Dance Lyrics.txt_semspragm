@@ -1,0 +1,199 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Global Dance Lyrics.txt_1-1  []-positive  [neg]
+Global Dance Lyrics.txt_2-3  []-positive  [neg,fgb]
+Global Dance Lyrics.txt_3-7  []-positive  []
+Global Dance Lyrics.txt_4-11  []-positive  [fgb]
+Global Dance Lyrics.txt_5-16  []-positive  [fgb]
+Global Dance Lyrics.txt_6-22  []-negative  [fhd]
+Global Dance Lyrics.txt_7-29  [if-hypoth]-positive  [fgb,ack,fgb]
+Global Dance Lyrics.txt_8-37  []-positive  [neg]
+Global Dance Lyrics.txt_9-47  []-negative  [neg]
+Global Dance Lyrics.txt_9-48  []-negative  [neg]
+Global Dance Lyrics.txt_10-58  []-negative  [neg]
+Global Dance Lyrics.txt_11-69  []-positive  []
+Global Dance Lyrics.txt_12-81  []-positive  [neg]
+Global Dance Lyrics.txt_12-82  []-negative  [neg]
+Global Dance Lyrics.txt_13-96  []-positive  []
+Global Dance Lyrics.txt_13-97  [but-advers]-positive  [fgb]
+Global Dance Lyrics.txt_14-111  []-positive  []
+Global Dance Lyrics.txt_14-112  [but-advers]-positive  [fgb,fgb]
+Global Dance Lyrics.txt_15-127  []-positive  []
+Global Dance Lyrics.txt_16-143  []-positive  []
+Global Dance Lyrics.txt_17-160  []-positive  [ack,ack]
+Global Dance Lyrics.txt_18-178  []-positive  [fgb]
+Global Dance Lyrics.txt_19-198  []-positive  [ack,ack]
+Global Dance Lyrics.txt_20-218  []-negative  [neg]
+Global Dance Lyrics.txt_21-239  []-positive  []
+Global Dance Lyrics.txt_21-240  []-suspension  [neg]
+Global Dance Lyrics.txt_22-262  []-positive  []
+Global Dance Lyrics.txt_22-263  []-positive  []
+Global Dance Lyrics.txt_23-286  []-positive  []
+Global Dance Lyrics.txt_24-310  []-positive  []
+Global Dance Lyrics.txt_24-311  []-positive  []
+Global Dance Lyrics.txt_25-336  [(as)-temp_coinc]-positive  []
+Global Dance Lyrics.txt_26-362  []-positive  []
+Global Dance Lyrics.txt_27-389  []-positive  []
+Global Dance Lyrics.txt_28-417  []-positive  [fgb]
+Global Dance Lyrics.txt_29-446  []-positive  []
+Global Dance Lyrics.txt_30-476  []-suspension  [neg,neg]
+Global Dance Lyrics.txt_31-507  []-positive  []
+Global Dance Lyrics.txt_32-539  []-negative  [neg]
+Global Dance Lyrics.txt_33-572  []-positive  []
+Global Dance Lyrics.txt_33-573  []-positive  []
+Global Dance Lyrics.txt_34-607  [when-temp_coinc]-positive  []
+Global Dance Lyrics.txt_35-642  []-positive  []
+Global Dance Lyrics.txt_36-678  []-negative  [neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Global Dance Lyrics.txt_1-1  [global,Dance,Lyrics,by,swindle]  [title]
+Global Dance Lyrics.txt_2-3  [run,long,time,and,i,make,steps,to,the,future]  [propose_opin_neg(make,[external,factive,explanation,background,objective])]
+Global Dance Lyrics.txt_3-7  [revolution,soldier]  [provide_expl_just(soldier,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_4-11  [military,gloves,and,grade,mask]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_5-16  [riot,and,bazooka]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_6-22  [i,am,lines,with,my,military,guns,with,a,G,like,Martin,Luther]  [provide_expl_just(line,[external,factive,narration,foreground,objective])]
+Global Dance Lyrics.txt_7-29  [ready,with,a,left,and,a,right,if,time,man,step,over,the,border]  [proposal(be,[_325504,_325510,statement,foreground,_325528])]
+Global Dance Lyrics.txt_8-37  [try,to,poison,man-s,water]  [provide_expl_just(poison,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_9-47  [i,eat,no,lamb]  [reject_expl_just(eat,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_9-48  [for,the,slaughter]  [reject_expl_just(eat,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_10-58  [i,succumb,to,Cajun,on,the,corner]  [reject_expl_just(succumb,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_11-69  [we,start,original,order]  [provide_expl_just(start,[external,factive,inception,background,objective]),suggest(start,[external,factive,inception,background,objective])]
+Global Dance Lyrics.txt_12-81  [they,want,to,kill]  [provide_expl_just(stay,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(kill,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_12-82  [the,mind,stay,local]  [reject_expl_just(stay,[external,factive,narration,background,objective]),reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(kill,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_13-96  [that,is,my,Mindset]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(inform,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_13-97  [but,i,inform,her]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(inform,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_14-111  [i,done,did,a,dial,up]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_14-112  [and,vocals,but,our,dos,is,global]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_15-127  [choru]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Global Dance Lyrics.txt_16-143  [s]  [raise_issue(be,[_333896,factive,statement,_333914,subjective])]
+Global Dance Lyrics.txt_17-160  [left,left,right,right,step,in,out,the,pub]  [provide_expl_just(pub,[internal,factive,narration,background,objective])]
+Global Dance Lyrics.txt_18-178  [and,we,show,them,how,to,step]  [provide_expl_just(step,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_19-198  [left,left,right,we,right,step,in,out,the,pub]  [provide_expl_just(step,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_20-218  [in,long,from,midnight,to,daylight]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_21-239  [tonight,we,walk,tonight]  [provide_expl_just(walk,[external,factive,narration,background,objective]),provide_expl_just(watch,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_21-240  [we,watch,no_more,talk,buzz,no_more,crap]  [provide_expl_just(walk,[external,factive,narration,background,objective]),provide_expl_just(watch,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_22-262  [let-s,send,them,back,to,days,light,past]  [provide_expl_just(back,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_22-263  [this,is,a,global,dance]  [provide_expl_just(back,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_23-286  [Yo,step,by,step,man,regulate,a,global,campus]  [provide_expl_just(regulate,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_24-310  [with,military,tanks,pave,the,way]  [provide_expl_just(pave,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_24-311  [for,the,next_generation]  [provide_expl_just(pave,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_25-336  [roll,out,as,the,global,champion]  [provide_expl_just(roll,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_26-362  [general,big,fish,to,fry]  [provide_expl_just(fry,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_27-389  [this,movement-s,built,with,emotion]  [provide_expl_just(build,[external,factive,narration,foreground,objective])]
+Global Dance Lyrics.txt_28-417  [free,speech,and,justice,for,everyone]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_29-446  [wait,til,you,hear,my,slogan]  [provide_expl_just(hear,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_30-476  [lightning,will,solve,any,problem]  [provide_expl_just(solve,[external,nonfactive,narration,background,objective])]
+Global Dance Lyrics.txt_31-507  [mp-s,running,out_of,option]  [provide_expl_just(run,[external,factive,cause,foreground,objective])]
+Global Dance Lyrics.txt_32-539  [take,no,take,over,me,run,the,lands]  [reject_expl_just(run,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_33-572  [same,coast]  [provide_expl_just(coast,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_33-573  [for,the,ocean]  [provide_expl_just(coast,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_34-607  [keep,an,eye,when,the,plans,in,motion]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_35-642  [my,still,shape,in,the,informant,these,tender,minds,stay,focused]  [provide_expl_just(stay,[external,factive,narration,background,objective])]
+Global Dance Lyrics.txt_36-678  [will,not,stop,til,they,pop,on,the,corner]  [reject_expl_just(stop,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Global Dance Lyrics.txt_1-1)-[]
+2-(Global Dance Lyrics.txt_2-3)-[primary-concreteness,secondary-temporal_repere,secondary-instru_behavior,primary-brink]
+3-(Global Dance Lyrics.txt_3-7)-[]
+4-(Global Dance Lyrics.txt_4-11)-[secondary-order]
+5-(Global Dance Lyrics.txt_5-16)-[]
+6-(Global Dance Lyrics.txt_6-22)-[primary-brink,emotions-aggression,emotions-affection]
+7-(Global Dance Lyrics.txt_7-29)-[secondary-moral_imperative,secondary-temporal_repere,primary-brink,primary-concreteness,primary-brink]
+8-(Global Dance Lyrics.txt_8-37)-[secondary-instru_behavior,primary-orality,primary-water]
+9-(Global Dance Lyrics.txt_9-47)-[primary-orality]
+10-(Global Dance Lyrics.txt_9-48)-[emotions-aggression]
+11-(Global Dance Lyrics.txt_10-58)-[primary-passivity,primary-concreteness]
+12-(Global Dance Lyrics.txt_11-69)-[primary-vision,secondary-order]
+13-(Global Dance Lyrics.txt_12-81)-[emotions-aggression]
+14-(Global Dance Lyrics.txt_12-82)-[]
+15-(Global Dance Lyrics.txt_13-96)-[]
+16-(Global Dance Lyrics.txt_13-97)-[secondary-social_behavior]
+17-(Global Dance Lyrics.txt_14-111)-[]
+18-(Global Dance Lyrics.txt_14-112)-[primary-sound]
+19-(Global Dance Lyrics.txt_15-127)-[primary-sound]
+20-(Global Dance Lyrics.txt_16-143)-[]
+21-(Global Dance Lyrics.txt_17-160)-[secondary-moral_imperative,secondary-moral_imperative,primary-brink,primary-concreteness]
+22-(Global Dance Lyrics.txt_18-178)-[secondary-abstract_tought,primary-brink]
+half
+23-(Global Dance Lyrics.txt_19-198)-[secondary-moral_imperative,secondary-moral_imperative,primary-brink,primary-concreteness]
+24-(Global Dance Lyrics.txt_20-218)-[primary-concreteness]
+25-(Global Dance Lyrics.txt_21-239)-[secondary-temporal_repere,secondary-temporal_repere]
+26-(Global Dance Lyrics.txt_21-240)-[primary-vision,secondary-social_behavior,primary-sound]
+27-(Global Dance Lyrics.txt_22-262)-[secondary-abstract_tought,primary-concreteness,primary-vision,secondary-temporal_repere]
+28-(Global Dance Lyrics.txt_22-263)-[emotions-expressive_beh]
+29-(Global Dance Lyrics.txt_23-286)-[primary-brink,primary-brink,secondary-restraint]
+30-(Global Dance Lyrics.txt_24-310)-[primary-vision]
+31-(Global Dance Lyrics.txt_24-311)-[]
+32-(Global Dance Lyrics.txt_25-336)-[primary-random_movement,primary-concreteness]
+33-(Global Dance Lyrics.txt_26-362)-[]
+34-(Global Dance Lyrics.txt_27-389)-[secondary-instru_behavior]
+35-(Global Dance Lyrics.txt_28-417)-[secondary-social_behavior,secondary-moral_imperative]
+36-(Global Dance Lyrics.txt_29-446)-[primary-sound]
+37-(Global Dance Lyrics.txt_30-476)-[secondary-abstract_tought]
+38-(Global Dance Lyrics.txt_31-507)-[]
+39-(Global Dance Lyrics.txt_32-539)-[primary-concreteness]
+40-(Global Dance Lyrics.txt_33-572)-[primary-brink]
+41-(Global Dance Lyrics.txt_33-573)-[primary-water]
+42-(Global Dance Lyrics.txt_34-607)-[primary-narcissism,secondary-temporal_repere,secondary-abstract_tought]
+43-(Global Dance Lyrics.txt_35-642)-[primary-soft]
+44-(Global Dance Lyrics.txt_36-678)-[secondary-restraint,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Global Dance Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-swindle-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Dance,sn1),and(Lyrics,global,sn1),def_prop(swindle,[attivita]),def_prop(Lyrics,[informa,tecno])])
+lf(Global Dance Lyrics.txt_2,3,cl3-nil-nil-make-[cmod-coord-make-and,subj-agent-step-sn6,obj-goal-step-sn4,subj-agent-i-sn3,def_prop(step,[attivita,nquant,oggetto,strumento]),def_prop(step,[attivita,nquant,oggetto,strumento]),def_prop(i,[umano])])
+lf(Global Dance Lyrics.txt_2,3,cl2-nil-nil-run-[subj-theme_aff-you-sn1,def_prop(you,[umano])])
+lf(Global Dance Lyrics.txt_3,7,cl4-nil-nil-soldier-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Global Dance Lyrics.txt_4,11,cl5-nil-nil-be-[ncmod-modal-grade-sn2,subj-theme_bound-you-sn1,def_prop(grade,[animato,astratto,attivita,informa,stato]),def_prop(you,[umano])])
+lf(Global Dance Lyrics.txt_5,16,cl6-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Global Dance Lyrics.txt_6,22,cl7-nil-nil-line-[iobj-goal-G-sn3,iobj-goal-gun-sn2,subj-agent-i-sn1,aux-am-nil,and(gun,military,sn2),def_prop(G,[place,attivita,informa]),def_prop(gun,[attivita,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(Global Dance Lyrics.txt_7,29,cl8-nil-nil-step-[adj-locative-over-nil,adj-locative-time-nil,obj-theme_aff-border-sn5,subj-agent-man-sn4,def_prop(border,[oggetto,strumento]),def_prop(man,[any])])
+lf(Global Dance Lyrics.txt_8,37,cl10-nil-nil-poison-[obj-theme-water-sn2,xadj-result-poison-2,and(water,man-s,sn2),def_prop(water,[edible,oggetto,sostanza])])
+lf(Global Dance Lyrics.txt_8,37,cl9-nil-nil-try-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Global Dance Lyrics.txt_9,47,cl12-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Global Dance Lyrics.txt_9,47,cl11-nil-nil-eat-[obj-theme_unaff-lamb-sn2,subj-agent-i-sn1,and(lamb,no,sn2),def_prop(lamb,[animato,edible,oggetto,plant,umano]),def_prop(i,[umano])])
+lf(Global Dance Lyrics.txt_10,58,cl13-nil-nil-succumb-[ncmod-locativo-corner-sn3,iobj-goal-Cajun-sn2,subj-agent-i-sn1,def_prop(corner,[luogo,oggetto,stato,strumento]),def_prop(Cajun,[istituzione,umano]),def_prop(i,[umano])])
+lf(Global Dance Lyrics.txt_11,69,cl14-nil-nil-start-[obj-actor-order-sn2,subj-agent-we-sn1,and(order,original,sn2),def_prop(order,[astratto,attivita,informa,stato]),def_prop(we,[umano])])
+lf(Global Dance Lyrics.txt_12,81,cl17-nil-nil-stay-[xcomp-prop-local-sn3,subj-agent-mind-sn2,def_prop(local,[oggetto,strumento]),def_prop(mind,[astratto])])
+lf(Global Dance Lyrics.txt_12,81,cl16-nil-nil-kill-[subj-tema_aff-they-sn1,def_prop(they,[umano])])
+lf(Global Dance Lyrics.txt_12,81,cl15-nil-nil-want-[subj-actor-they-sn1,def_prop(they,[umano])])
+lf(Global Dance Lyrics.txt_13,96,cl19-nil-nil-inform-[xcomp-prop-her-sn5,subj-source_information-i-sn4,def_prop(her,[umano]),def_prop(i,[umano])])
+lf(Global Dance Lyrics.txt_13,96,cl18-nil-nil-be-[xcomp-prop-Mindset-sn1,def_prop(Mindset,[istituzione,umano])])
+lf(Global Dance Lyrics.txt_14,111,cl21-nil-nil-be-[cmod-subord-be-",cmod-subord-be-but,xcomp-prop-global-sn7,subj-theme_bound-dos-sn6,def_prop(global,[evaluative]),def_prop(dos,[legale])])
+lf(Global Dance Lyrics.txt_14,111,cl20-nil-nil-do-[xcomp-actor-dial-sn2,subj-theme_unaff-i-sn1,aux-did-nil,def_prop(dial,[oggetto,strumento]),def_prop(i,[umano])])
+lf(Global Dance Lyrics.txt_15,127,cl22-nil-nil-say-[obj-theme_unaff-choru-sn1,def_prop(choru,[istituzione])])
+lf(Global Dance Lyrics.txt_16,143,cl23-nil-nil-say-[])
+lf(Global Dance Lyrics.txt_17,160,cl24-nil-nil-be-[ncmod-modal-right-sn3,ncmod-locativo-pub-sn2,subj-theme_bound-you-sn1,def_prop(right,[astratto,attivita,body_part,istituzione,luogo,oggetto,umano]),def_prop(pub,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Global Dance Lyrics.txt_18,178,cl26-nil-nil-step-[cmod-subord-step-",subj-locat-them-sn2,def_prop(them,[umano])])
+lf(Global Dance Lyrics.txt_18,178,cl25-nil-nil-show-[obj-goal-them-sn2,subj-actor-we-sn1,def_prop(them,[umano]),def_prop(we,[umano])])
+lf(Global Dance Lyrics.txt_19,198,cl27-nil-nil-step-[ncmod-locativo-pub-sn2,subj-agent-right-sn1,and(right,left,sn1),def_prop(pub,[oggetto,strumento]),def_prop(right,[astratto,attivita,body_part,istituzione,luogo,oggetto,umano])])
+lf(Global Dance Lyrics.txt_20,218,cl28-nil-nil-be-[adj-(mod)-long-nil,ncmod-relation-daylight-sn2,ncmod-temporale-midnight-sn1,def_prop(long,[istituzione]),def_prop(daylight,[attivita,cambia]),def_prop(midnight,[tempo])])
+lf(Global Dance Lyrics.txt_21,239,cl30-nil-nil-watch-[adj-(mod)-crap-nil,adj-(mod)-no_more-nil,obj-theme_aff-buzz-sn8,obj-tema_unaff-talk-sn7,subj-actor-we-sn6,and(crap,no_more,sn10),def_prop(crap,[sostanza]),def_prop(no_more,[nquant]),def_prop(buzz,[attivita,evento]),def_prop(talk,[attivita,informa]),def_prop(we,[umano])])
+lf(Global Dance Lyrics.txt_21,239,cl29-nil-nil-walk-[subj-actor-we-sn1,def_prop(we,[umano])])
+lf(Global Dance Lyrics.txt_22,262,cl31-nil-nil-be-[xcomp-prop-dance-sn9,subj-theme_bound-this-sn8,and(dance,global,sn9),def_prop(dance,[attivita,evento,informa,istituzione]),def_prop(this,[oggetto,umano])])
+lf(Global Dance Lyrics.txt_22,262,nil-nil-nil-back-[ncmod-loc_direct-pass-sn3,subj-agent-them-sn2,subj-agent-them-sn1,and(pass,light,sn3),and(them,send,sn1),def_prop(pass,[attivita,evento,informa,oggetto,stato,tempo]),def_prop(them,[umano]),def_prop(them,[umano])])
+lf(Global Dance Lyrics.txt_23,286,cl32-nil-nil-regulate-[obj-theme-campus-sn4,obj-theme-man-sn3,arg_mod-agent-step-sn2,subj-causer-step-sn1,and(campus,global,sn4),and(step,Yo,sn1),def_prop(campus,[luogo]),def_prop(man,[any]),def_prop(step,[attivita,nquant,oggetto,strumento]),def_prop(step,[attivita,nquant,oggetto,strumento])])
+lf(Global Dance Lyrics.txt_24,310,cl34-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Global Dance Lyrics.txt_24,310,cl33-nil-nil-pave-[obj-theme-way-sn2,ncmod-comitativo-tank-sn1,and(tank,military,sn1),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(tank,[nquant,oggetto,strumento])])
+lf(Global Dance Lyrics.txt_25,336,cl35-nil-nil-roll-[adj-(mod)-out-nil,adj-subj_disc-out-sn3,xcomp-theme_aff-champion-sn2,subj-agent-you-sn1,def_prop(out,[istituzione]),def_prop(out,[istituzione]),def_prop(champion,[umano]),def_prop(you,[umano])])
+lf(Global Dance Lyrics.txt_26,362,cl36-nil-nil-fry-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Global Dance Lyrics.txt_27,389,cl37-nil-nil-build-[ncmod-modal-emotion-sn2,subj-agent-movement-s-sn1,and(movement-s,this,sn1),def_prop(emotion,[emotivo]),def_prop(movement-s,[attivita,evento,informa,istituzione,oggetto,strumento])])
+lf(Global Dance Lyrics.txt_28,417,cl38-nil-nil-be-[subj-theme_bound-everyone-sn2,subj-theme_bound-everyone-sn1,and(everyone,justice,sn1),and(everyone,free,sn1),def_prop(everyone,[umano]),def_prop(everyone,[umano])])
+lf(Global Dance Lyrics.txt_29,446,cl39-nil-nil-hear-[obj-theme_unaff-slogan-sn3,subj-experiencer-you-sn2,subj-experiencer-you-sn1,and(you,til,sn1),and(you,wait,sn1),def_prop(slogan,[attivita,informa]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Global Dance Lyrics.txt_30,476,cl40-nil-will-solve-[obj-goal-problem-sn2,subj-agent-lightning-sn1,and(problem,any,sn2),def_prop(problem,[attivita,informa,stato]),def_prop(lightning,[attivita,cambia,evento])])
+lf(Global Dance Lyrics.txt_31,507,cl41-nil-nil-run-[iobj-goal-option-sn2,subj-agent-mp-s-sn1,def_prop(option,[astratto,oggetto]),def_prop(mp-s,[informa,tecno])])
+lf(Global Dance Lyrics.txt_32,539,cl42-nil-nil-run-[adj-locative-over-nil,obj-theme_aff-land-sn4,subj-theme_aff-me-sn3,subj-theme_aff-me-sn2,subj-theme_aff-take-sn1,and(me,take,sn2),and(me,no,sn2),and(take,no,sn1),def_prop(land,[astratto,oggetto]),def_prop(me,[umano]),def_prop(me,[umano]),def_prop(take,[attivita])])
+lf(Global Dance Lyrics.txt_33,572,cl44-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Global Dance Lyrics.txt_33,572,cl43-nil-nil-coast-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Global Dance Lyrics.txt_34,607,cl45-nil-nil-keep-[obj-goal-eye-sn2,subj-experiencer-you-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Global Dance Lyrics.txt_35,642,cl46-nil-nil-stay-[xadj-adj-my-adj1,adj-(mod)-still-nil,xcomp-prop-focused-sn5,obj-theme-mind-sn4,obj-theme-this-sn3,iobj-goal-informant-sn2,subj-agent-shape-sn1,and(mind,tender,sn4),def_prop(my,_354086),def_prop(focused,[evaluative]),def_prop(mind,[astratto]),def_prop(this,[oggetto,umano]),def_prop(informant,[umano]),def_prop(shape,[any,astratto,body_part,umano])])
+lf(Global Dance Lyrics.txt_36,678,cl48-nil-nil-pop-[ncmod-result-corner-sn4,xcomp-purpose-pop-3,def_prop(corner,[luogo,oggetto,stato,strumento])])
+lf(Global Dance Lyrics.txt_36,678,cl47-not-will-stop-[subj-sn1-they-sn3,obj-actor-til-sn2,subj-agent-you-sn1,def_prop(they,[umano]),def_prop(til,[informa,tecno]),def_prop(you,[umano])])

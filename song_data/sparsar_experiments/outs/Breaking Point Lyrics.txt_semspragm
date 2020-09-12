@@ -1,0 +1,111 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Breaking Point Lyrics.txt_1-1  []-suspension  []
+Breaking Point Lyrics.txt_2-3  []-positive  []
+Breaking Point Lyrics.txt_3-6  []-positive  []
+Breaking Point Lyrics.txt_3-7  []-positive  []
+Breaking Point Lyrics.txt_4-11  [when-temp_coinc]-suspension  [neg,neg,neg]
+Breaking Point Lyrics.txt_5-18  []-negative  [neg]
+Breaking Point Lyrics.txt_5-19  []-negative  []
+Breaking Point Lyrics.txt_6-25  []-negative  [neg]
+Breaking Point Lyrics.txt_6-26  [but-advers]-negative  [fgb]
+Breaking Point Lyrics.txt_7-33  []-negative  [neg]
+Breaking Point Lyrics.txt_8-41  []-positive  []
+Breaking Point Lyrics.txt_9-50  []-negative  []
+Breaking Point Lyrics.txt_9-51  []-negative  [neg]
+Breaking Point Lyrics.txt_10-61  []-positive  []
+Breaking Point Lyrics.txt_10-62  []-suspension  []
+Breaking Point Lyrics.txt_10-63  []-negative  [neg]
+Breaking Point Lyrics.txt_10-63  []-negative  [neg]
+Breaking Point Lyrics.txt_11-74  []-negative  [neg]
+Breaking Point Lyrics.txt_11-75  []-positive  []
+Breaking Point Lyrics.txt_12-87  []-negative  [neg]
+Breaking Point Lyrics.txt_12-88  []-positive  [fgb]
+Breaking Point Lyrics.txt_13-101  []-negative  []
+Breaking Point Lyrics.txt_14-116  [but-advers]-negative  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Breaking Point Lyrics.txt_1-1  [Point,breaking,Lyrics,by,Yung,Dori]  [title]
+Breaking Point Lyrics.txt_2-3  [oxys,in,my,dreams]  [provide_expl_just(dream,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_3-6  [let,me,breathe]  [provide_expl_just(breathe,[external,factive,narration,background,objective]),provide_expl_just(eat,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_3-7  [,,let,me,eat]  [provide_expl_just(breathe,[external,factive,narration,background,objective]),provide_expl_just(eat,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_4-11  [take,that,motherfucking,needle,inject,me,when,Ima,fucking,sleep]  [provide_expl_just(fuck,[external,factive,narration,foreground,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_5-18  [always,addicted,i,got,no,cash]  [reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(evict-cl9,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_5-19  [i,am,evicted]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(evict-cl9,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_6-25  [you,wanna,smoke]  [reject_expl_just(wanna,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_6-26  [but,i,am,twitching]  [provide_expl_just(wanna,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_7-33  [i,got,the,heroin,bitches]  [reject_expl_just(get,[external,factive,narration,foreground,objective])]
+Breaking Point Lyrics.txt_8-41  [i,said]  [raise_issue(be,[_384298,factive,statement,_384316,subjective])]
+Breaking Point Lyrics.txt_9-50  [body,slowed,down]  [provide_expl_just(slow,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_9-51  [i,am,too,dependent,on,chemicals]  [reject_expl_just(slow,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_10-61  [my,brain,gone,now]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_10-62  [i,guess]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_10-63  [it,is,too,late]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_10-63  [it,is,too,late,for,seminal]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_11-74  [depressions,how,i,show]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_11-75  [it]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_12-87  [i,hate,my,life]  [reject_expl_just(hate,[external,factive,narration,background,objective]),reject_expl_just(know,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_12-88  [and,i,know,it]  [provide_expl_just(hate,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Breaking Point Lyrics.txt_13-101  [you,smoking,i,am,smoking,potent]  [provide_expl_just(smoke,[external,factive,narration,foreground,objective])]
+Breaking Point Lyrics.txt_14-116  [we,different,but,you,is,not,notice,aye]  [reject_expl_just(be,[_394086,_394092,_394098,_394104,_394110])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Breaking Point Lyrics.txt_1-1)-[]
+2-(Breaking Point Lyrics.txt_2-3)-[primary-counscious]
+3-(Breaking Point Lyrics.txt_3-6)-[primary-odor]
+4-(Breaking Point Lyrics.txt_3-7)-[primary-orality]
+5-(Breaking Point Lyrics.txt_4-11)-[secondary-temporal_repere,primary-counscious]
+6-(Breaking Point Lyrics.txt_5-18)-[]
+7-(Breaking Point Lyrics.txt_5-19)-[]
+8-(Breaking Point Lyrics.txt_6-25)-[primary-fire]
+9-(Breaking Point Lyrics.txt_6-26)-[]
+10-(Breaking Point Lyrics.txt_7-33)-[emotions-glory,primary-sex]
+11-(Breaking Point Lyrics.txt_8-41)-[secondary-social_behavior]
+half
+12-(Breaking Point Lyrics.txt_9-50)-[primary-narcissism,primary-passivity]
+13-(Breaking Point Lyrics.txt_9-51)-[secondary-social_behavior]
+14-(Breaking Point Lyrics.txt_10-61)-[primary-narcissism,secondary-temporal_repere]
+15-(Breaking Point Lyrics.txt_10-62)-[secondary-abstract_tought]
+16-(Breaking Point Lyrics.txt_10-63)-[]
+17-(Breaking Point Lyrics.txt_10-63)-[]
+18-(Breaking Point Lyrics.txt_11-74)-[]
+19-(Breaking Point Lyrics.txt_11-75)-[]
+20-(Breaking Point Lyrics.txt_12-87)-[emotions-aggression]
+21-(Breaking Point Lyrics.txt_12-88)-[secondary-abstract_tought]
+22-(Breaking Point Lyrics.txt_13-101)-[]
+23-(Breaking Point Lyrics.txt_14-116)-[secondary-abstract_tought,primary-vision]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Breaking Point Lyrics.txt_1,1,cl1-nil-nil-break-[arg_mod-agent-Dori-sn2,subj-agent-Lyrics-sn1,and(Dori,Yung,sn2),and(Lyrics,Point,sn1),def_prop(Dori,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Breaking Point Lyrics.txt_2,3,cl2-nil-nil-dream-[ncmod-modal-my-sn2,subj-agent-oxys-sn1,def_prop(my,[informa,tecno]),def_prop(oxys,[istituzione])])
+lf(Breaking Point Lyrics.txt_3,6,cl4-nil-nil-eat-[xcomp-prop-me-sn4,subj-agent-you-sn3,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Breaking Point Lyrics.txt_3,6,cl3-nil-nil-breathe-[xcomp-prop-me-sn2,subj-experiencer-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Breaking Point Lyrics.txt_4,11,cl7-nil-nil-fuck-[cmod-subord-fuck-when,subj-actor-sleep-sn4,obj-theme-sleep-sn3,subj-actor-Ima-sn2,def_prop(sleep,[stato,tempo]),def_prop(sleep,[stato,tempo]),def_prop(Ima,[umano])])
+lf(Breaking Point Lyrics.txt_4,11,cl6-nil-nil-inject-[])
+lf(Breaking Point Lyrics.txt_4,11,cl5-nil-nil-take-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Breaking Point Lyrics.txt_5,18,cl9-nil-nil-evict-[subj-theme-you-sn5,aux-am-nil,def_prop(you,[umano])])
+lf(Breaking Point Lyrics.txt_5,18,cl8-nil-nil-get-[adj-(mod)-always-nil,obj-theme_unaff-cash-sn2,subj-agent-i-sn1,and(cash,no,sn2),def_prop(cash,[astratto,oggetto]),def_prop(i,[umano])])
+lf(Breaking Point Lyrics.txt_6,25,cl10-nil-nil-twitch-[subj-agent-i-sn3,aux-am-nil,progr-twitching-nil,def_prop(i,[umano])])
+lf(Breaking Point Lyrics.txt_6,25,nil-nil-nil-wanna-[obj-theme_aff-smoke-sn2,subj-agent-you-sn1,def_prop(smoke,[astratto,attivita,cambia,informa,oggetto,strumento]),def_prop(you,[umano])])
+lf(Breaking Point Lyrics.txt_7,33,cl11-nil-nil-get-[obj2-paziente-bitch-sn3,obj-theme_unaff-heroin-sn2,subj-agent-i-sn1,def_prop(bitch,[animato,stato]),def_prop(heroin,[oggetto,strumento]),def_prop(i,[umano])])
+lf(Breaking Point Lyrics.txt_8,41,cl12-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Breaking Point Lyrics.txt_9,50,cl14-nil-nil-be-[adj-(mod)-too-nil,ncmod-locativo-chemical-sn6,xcomp-prop-dependent-sn5,subj-theme_bound-i-sn4,def_prop(chemical,[sostanza]),def_prop(dependent,[legale,relat,sociale,umano]),def_prop(i,[umano])])
+lf(Breaking Point Lyrics.txt_9,50,cl13-nil-nil-slow-[subj-agent-body-sn1,def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano])])
+lf(Breaking Point Lyrics.txt_10,61,cl16-nil-nil-be-[adj-(mod)-too-nil,xcomp-prop-late-sn10,subj-theme_bound-it-sn9,xcomp-prop-late-sn7,subj-theme_bound-it-sn6,def_prop(late,[evaluative]),def_prop(it,[any]),def_prop(late,[evaluative]),def_prop(it,[any])])
+lf(Breaking Point Lyrics.txt_10,61,nil-nil-nil-guess-[subj-experiencer-you-sn5,def_prop(you,[umano])])
+lf(Breaking Point Lyrics.txt_10,61,cl15-nil-nil-go-[adj-(mod)-now-nil,subj-agent-brain-sn1,def_prop(brain,[astratto,body_part,edible,oggetto,umano])])
+lf(Breaking Point Lyrics.txt_11,74,cl18-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Breaking Point Lyrics.txt_11,74,cl17-nil-nil-show-[obj-goal-i-sn2,subj-actor-depression-sn1,def_prop(i,[umano]),def_prop(depression,[astratto,attivita,emotivo,relat,stato])])
+lf(Breaking Point Lyrics.txt_12,87,cl20-nil-nil-know-[cmod-subord-know-",subj-actor-it-sn6,subj-actor-it-sn5,and(it,i,sn5),def_prop(it,[any]),def_prop(it,[any])])
+lf(Breaking Point Lyrics.txt_12,87,cl19-nil-nil-hate-[obj-theme-life-sn2,subj-actor-i-sn1,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(i,[umano])])
+lf(Breaking Point Lyrics.txt_13,101,cl21-nil-nil-smoke-[xcomp-prop-potent-sn3,obj-theme-i-sn2,xcomp-purpose-smoke-2,subj-agent-you-sn1,aux-am-nil,progr-smoking-nil,def_prop(potent,[evaluative]),def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Breaking Point Lyrics.txt_14,116,cl22-not-nil-notice-[adj-(mod)-aye-nil,subj-actor-you-sn3,aux-(is)-nil,def_prop(you,[umano])])

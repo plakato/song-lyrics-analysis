@@ -1,0 +1,160 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Ella's Song Lyrics.txt_1-1  []-positive  []
+Ella's Song Lyrics.txt_2-3  []-suspension  []
+Ella's Song Lyrics.txt_3-7  []-suspension  []
+Ella's Song Lyrics.txt_3-8  []-positive  []
+Ella's Song Lyrics.txt_4-13  []-suspension  [neg,neg]
+Ella's Song Lyrics.txt_5-18  [(as)-temp_coinc]-positive  []
+Ella's Song Lyrics.txt_7-31  []-positive  []
+Ella's Song Lyrics.txt_8-41  []-suspension  [neg]
+Ella's Song Lyrics.txt_9-50  []-positive  []
+Ella's Song Lyrics.txt_10-60  []-positive  [neg]
+Ella's Song Lyrics.txt_11-72  [(as)-temp_coinc,but-advers,if-hypoth]-positive  [fgb,fgb,fgb]
+Ella's Song Lyrics.txt_12-84  []-positive  []
+Ella's Song Lyrics.txt_12-85  []-positive  []
+Ella's Song Lyrics.txt_12-86  []-negative  [neg]
+Ella's Song Lyrics.txt_13-100  [when-temp_coinc]-suspension  [neg]
+Ella's Song Lyrics.txt_14-116  []-negative  [neg]
+Ella's Song Lyrics.txt_15-131  []-negative  [neg]
+Ella's Song Lyrics.txt_16-148  []-negative  [neg]
+Ella's Song Lyrics.txt_17-166  [(as)-temp_coinc]-positive  []
+Ella's Song Lyrics.txt_17-167  []-positive  [neg,neg]
+Ella's Song Lyrics.txt_18-186  []-negative  [neg]
+Ella's Song Lyrics.txt_18-187  []-positive  []
+Ella's Song Lyrics.txt_19-207  []-positive  [fgb,neg,neg]
+Ella's Song Lyrics.txt_20-229  []-positive  []
+Ella's Song Lyrics.txt_21-250  []-positive  []
+Ella's Song Lyrics.txt_21-251  []-suspension  [fgb]
+Ella's Song Lyrics.txt_22-274  []-negative  [neg]
+Ella's Song Lyrics.txt_22-275  []-negative  [neg]
+Ella's Song Lyrics.txt_23-298  []-suspension  []
+Ella's Song Lyrics.txt_24-323  []-suspension  []
+Ella's Song Lyrics.txt_24-324  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Ella's Song Lyrics.txt_1-1  [ella-s,Song,Lyrics,by,Sweet,Honey,in,the,rock]  [title]
+Ella's Song Lyrics.txt_2-3  [we,who,believe,in,freedom,cannot,rest]  [provide_expl_just(believe,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_3-7  [we,who,believe,in,freedom,cannot,rest,until,it]  [provide_expl_just(believe,[external,factive,narration,background,objective]),provide_expl_just(rest,[external,nonfactive,narration,foreground,objective])]
+Ella's Song Lyrics.txt_3-8  [comes]  [provide_expl_just(believe,[external,factive,narration,background,objective]),provide_expl_just(rest,[external,nonfactive,narration,foreground,objective])]
+Ella's Song Lyrics.txt_4-13  [until,the,killing,of,black,men,black,mothers,sons]  [provide_expl_just(son,[internal,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_5-18  [is,as,important,as,the,killing,of,white,men,white,mothers,sons]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_7-31  [is,that,i,had,a,chance,to,work,with,people]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(work,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_8-41  [passing,on,to,others,that,which,was,passed,on,to,me]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_9-50  [to,me,young,people,come,first]  [raise_issue(be,[_486356,factive,statement,_486374,subjective])]
+Ella's Song Lyrics.txt_10-60  [they,have,the,courage,where,we,fail]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(fail,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_11-72  [and,if,i,can,but,shed,some,light,as,they,carry,us,through,the,gale,.]  [provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Ella's Song Lyrics.txt_12-84  [the,older,i,get,the,better]  [provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_12-85  [i,know]  [provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_12-86  [that,the,secret,of,my,going,on]  [reject_expl_just(go,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(know,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_13-100  [is,when,the,reins,are,in,the,hands,of,the,young,,,who,dare,to,run,against,the]  [provide_expl_just(run,[external,factive,narration,background,objective]),propose_opin(dare,[external,nonfactive,narration,foreground,objective]),provide_expl_just(dare,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_14-116  [storm]  reject_expl_opin(nil,[])
+Ella's Song Lyrics.txt_15-131  [not,needing,to,clutch,for,power]  [reject_expl_just(need,[external,factive,narration,foreground,objective]),reject_expl_just(clutch,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_16-148  [not,needing,the,light,just,to,shine,on,me]  [reject_expl_just(need,[external,factive,narration,foreground,objective]),reject_expl_just(shine,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_17-166  [i,need,to,be,one,in,the,number,as]  [provide_expl_just(stand,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_17-167  [we,stand,against,tyranny]  [provide_expl_just(stand,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_18-186  [struggling,myself,don-t,mean,a,whole,lot]  [reject_expl_just(mean,[external,factive,narration,foreground,objective]),reject_expl_just(realize,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_18-187  [,,i,have,come,to,realize]  [provide_expl_just(mean,[external,factive,narration,foreground,objective]),provide_expl_just(realize,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_19-207  [that,teaching,others,to,stand,up,and,fight,is,the,only,way,my,struggle]  [provide_expl_just(stand,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_20-229  [survives]  [provide_expl_just(survive,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_21-250  [i,am,a,woman,who,speaks,in,a,voice]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(speak,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_21-251  [and,i,must,be,heard]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(speak,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_22-274  [at_times,i,can,be,quite,difficult]  [reject_expl_just(be,[external,nonfactive,narration,foreground,objective]),reject_expl_just(bow,[external,nonfactive,narration,background,objective])]
+Ella's Song Lyrics.txt_22-275  [i,will,bow,to,no,man-s,word]  [reject_expl_just(be,[external,nonfactive,narration,foreground,objective]),reject_expl_just(bow,[external,nonfactive,narration,background,objective])]
+Ella's Song Lyrics.txt_23-298  [we,who,believe,in,freedom,cannot,rest]  [provide_expl_just(believe,[external,factive,narration,background,objective])]
+Ella's Song Lyrics.txt_24-323  [we,who,believe,in,freedom,cannot,rest,until,it]  [provide_expl_just(believe,[external,factive,narration,background,objective]),provide_expl_just(rest,[external,nonfactive,narration,foreground,objective])]
+Ella's Song Lyrics.txt_24-324  [comes]  [provide_expl_just(believe,[external,factive,narration,background,objective]),provide_expl_just(rest,[external,nonfactive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Ella's Song Lyrics.txt_1-1)-[primary-hard]
+2-(Ella's Song Lyrics.txt_2-3)-[secondary-abstract_tought,primary-passivity]
+3-(Ella's Song Lyrics.txt_3-7)-[secondary-abstract_tought,primary-passivity]
+4-(Ella's Song Lyrics.txt_3-8)-[]
+5-(Ella's Song Lyrics.txt_4-13)-[]
+6-(Ella's Song Lyrics.txt_5-18)-[secondary-abstract_tought]
+7-(Ella's Song Lyrics.txt_7-31)-[primary-chaos,secondary-instru_behavior]
+8-(Ella's Song Lyrics.txt_8-41)-[]
+9-(Ella's Song Lyrics.txt_9-50)-[]
+10-(Ella's Song Lyrics.txt_10-60)-[primary-concreteness]
+11-(Ella's Song Lyrics.txt_11-72)-[primary-vision,secondary-instru_behavior]
+12-(Ella's Song Lyrics.txt_12-84)-[secondary-temporal_repere]
+13-(Ella's Song Lyrics.txt_12-85)-[secondary-abstract_tought]
+14-(Ella's Song Lyrics.txt_12-86)-[primary-unknow]
+15-(Ella's Song Lyrics.txt_13-100)-[secondary-temporal_repere,primary-narcissism,secondary-temporal_repere]
+half
+16-(Ella's Song Lyrics.txt_14-116)-[]
+17-(Ella's Song Lyrics.txt_15-131)-[]
+18-(Ella's Song Lyrics.txt_16-148)-[primary-vision,primary-vision]
+19-(Ella's Song Lyrics.txt_17-166)-[primary-cold]
+20-(Ella's Song Lyrics.txt_17-167)-[secondary-temporal_repere]
+21-(Ella's Song Lyrics.txt_18-186)-[]
+22-(Ella's Song Lyrics.txt_18-187)-[]
+23-(Ella's Song Lyrics.txt_19-207)-[emotions-aggression,emotions-aggression]
+24-(Ella's Song Lyrics.txt_20-229)-[]
+25-(Ella's Song Lyrics.txt_21-250)-[secondary-social_behavior,primary-sound]
+26-(Ella's Song Lyrics.txt_21-251)-[secondary-restraint,primary-sound]
+27-(Ella's Song Lyrics.txt_22-274)-[]
+28-(Ella's Song Lyrics.txt_22-275)-[]
+29-(Ella's Song Lyrics.txt_23-298)-[secondary-abstract_tought,primary-passivity]
+30-(Ella's Song Lyrics.txt_24-323)-[secondary-abstract_tought,primary-passivity]
+31-(Ella's Song Lyrics.txt_24-324)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Ella's Song Lyrics.txt_1,1,cl1-nil-nil-be-[ncmod-locativo-rock-sn3,arg_mod-agent-Honey-sn2,subj-theme_bound-Lyrics-sn1,and(Honey,Sweet,sn2),and(Lyrics,ella-s,sn1),def_prop(rock,[attivita,oggetto,sostanza,umano]),def_prop(Honey,[place,edible,oggetto,relat,sociale,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Ella's Song Lyrics.txt_2,3,cl3-nil-nil-believe-[iobj-goal-freedom-sn2,subj-actor-you-sn1,def_prop(freedom,[stato]),def_prop(you,[umano])])
+lf(Ella's Song Lyrics.txt_2,3,cl2-not-can-rest-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Ella's Song Lyrics.txt_3,7,cl6-nil-nil-believe-[iobj-goal-freedom-sn3,subj-actor-we-sn1,def_prop(freedom,[stato]),def_prop(we,[umano])])
+lf(Ella's Song Lyrics.txt_3,7,cl5-nil-nil-come-[subj-agent-you-sn4,ncmod-durata-it-sn2,def_prop(you,[umano]),def_prop(it,[any])])
+lf(Ella's Song Lyrics.txt_3,7,cl4-not-can-rest-[subj-agent-we-sn1,def_prop(we,[umano])])
+lf(Ella's Song Lyrics.txt_4,13,cl7-nil-nil-be-[ncmod-modal-son-sn3,xcomp-theme-man-sn2,subj-theme_bound-you-sn1,and(son,mother,sn3),and(man,black,sn2),def_prop(son,[umano]),def_prop(man,[any]),def_prop(you,[umano])])
+lf(Ella's Song Lyrics.txt_5,18,cl8-nil-nil-be-[xcomp-prop-son-sn3,xcomp-prop-important-sn2,subj-theme_bound-kill-sn1,and(son,mother,sn3),and(son,white,sn3),def_prop(son,[umano]),def_prop(important,[soggettivo]),def_prop(kill,[attivita])])
+lf(Ella's Song Lyrics.txt_6,24,cl9-nil-nil-be-[])
+lf(Ella's Song Lyrics.txt_7,31,cl12-nil-nil-work-[])
+lf(Ella's Song Lyrics.txt_7,31,cl11-nil-nil-have-[])
+lf(Ella's Song Lyrics.txt_7,31,cl10-nil-nil-be-[])
+lf(Ella's Song Lyrics.txt_8,41,cl13-nil-nil-be-[xadj-adj-passing-adj1,ncmod-locativo-others-sn1,def_prop(passing,_100754),def_prop(others,[istituzione])])
+lf(Ella's Song Lyrics.txt_9,50,cl14-nil-nil-come-[obj-theme_aff-first-sn3,iobj-goal-me-sn2,subj-agent-people-sn1,and(people,young,sn1),def_prop(first,[istituzione]),def_prop(me,[umano]),def_prop(people,[istituzione])])
+lf(Ella's Song Lyrics.txt_10,60,_100976-nil-nil-fail-[voice-fail-nil,tense-fail-nil,obl-locat-courage-sn2,def_prop(courage,[astratto])])
+lf(Ella's Song Lyrics.txt_10,60,cl15-nil-nil-have-[voice-fail-nil,tense-fail-nil,xcomp-tema_bound-courage-sn2,subj-experiencer-they-sn1,def_prop(courage,[astratto]),def_prop(they,[umano])])
+lf(Ella's Song Lyrics.txt_11,72,cl16-nil-can-can-[cmod-subord-can-",cmod-subord-can-if,subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Ella's Song Lyrics.txt_12,84,cl20-nil-nil-be-[subj-sn5-secret-sn6,subj-theme_bound-you-sn5,def_prop(secret,[attivita,informa]),def_prop(you,[umano])])
+lf(Ella's Song Lyrics.txt_12,84,cl19-nil-nil-go-[])
+lf(Ella's Song Lyrics.txt_12,84,cl18-nil-nil-know-[subj-actor-you-sn4,def_prop(you,[umano])])
+lf(Ella's Song Lyrics.txt_12,84,cl17-nil-nil-get-[obj-theme_unaff-better-sn3,subj-agent-i-sn2,subj-agent-i-sn1,and(i,older,sn1),def_prop(better,[valutativo]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Ella's Song Lyrics.txt_13,100,cl23-nil-nil-run-[])
+lf(Ella's Song Lyrics.txt_13,100,cl22-nil-dare-dare-[subj-actor-be-3])
+lf(Ella's Song Lyrics.txt_13,100,cl21-nil-nil-be-[cmod-subord-run-when,ncmod-locativo-hand-sn2,subj-theme_bound-rein-sn1,subj-theme_bound-pro-nil,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(rein,[astratto,oggetto,strumento])])
+lf(Ella's Song Lyrics.txt_14,116,cl24-nil-nil-say-[obj-theme_unaff-storm-sn1,def_prop(storm,[attivita,cambia,stato])])
+lf(Ella's Song Lyrics.txt_15,131,cl26-nil-nil-clutch-[cmod-subord-need-nil])
+lf(Ella's Song Lyrics.txt_15,131,cl25-not-nil-need-[subj-theme-power-sn1,subj-experiencer-power-sn1,def_prop(power,[astratto,attivita,cambia,umano]),def_prop(power,[astratto,attivita,cambia,umano])])
+lf(Ella's Song Lyrics.txt_16,148,cl28-nil-nil-shine-[obj-prop-light-sn2,xcomp-purpose-need-2,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(Ella's Song Lyrics.txt_16,148,cl27-not-nil-need-[adj-(mod)-just-nil,ncmod-locativo-me-sn3,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Ella's Song Lyrics.txt_17,166,cl31-nil-nil-stand-[ncmod-malefattivo-tyranny-sn5,subj-experiencer-we-sn4,obj-prop-one-sn2,xcomp-purpose-be-3,def_prop(tyranny,[istituzione]),def_prop(we,[umano]),def_prop(one,[umano])])
+lf(Ella's Song Lyrics.txt_17,166,cl30-nil-nil-be-[adj-(mod)-need-nil])
+lf(Ella's Song Lyrics.txt_17,166,cl29-nil-nil-need-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Ella's Song Lyrics.txt_18,186,cl34-nil-nil-realize-[subj-prop-i-sn3,def_prop(i,[umano])])
+lf(Ella's Song Lyrics.txt_18,186,cl33-nil-nil-come-[subj-agent-i-sn3,aux-have-nil,def_prop(i,[umano])])
+lf(Ella's Song Lyrics.txt_18,186,cl32-not-nil-mean-[obj-theme_aff-lot-sn2,subj-theme_bound-myself-sn1,aux-do-nil,and(lot,whole,sn2),def_prop(lot,[luogo,nquant]),def_prop(myself,[umano])])
+lf(Ella's Song Lyrics.txt_19,207,cl37-nil-nil-be-[cmod-coord-be-and,obj2-benef-way-sn7,subj-theme_bound-fight-sn6,xcomp-locative-up-sn2,xcomp-purpose-stand-2,def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(fight,[attivita,informa]),def_prop(up,[istituzione])])
+lf(Ella's Song Lyrics.txt_19,207,cl36-nil-nil-stand-[])
+lf(Ella's Song Lyrics.txt_19,207,cl35-nil-nil-teach-[obj-theme-struggle-sn3,obj-actor-others-sn1,def_prop(struggle,[attivita]),def_prop(others,[istituzione])])
+lf(Ella's Song Lyrics.txt_20,229,cl38-nil-nil-survive-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Ella's Song Lyrics.txt_21,250,cl41-nil-nil-speak-[cmod-subord-speak-",adj-(mod)-hear-nil,ncmod-locativo-voice-sn3,subj-actor-woman-sn2,def_prop(voice,[astratto,attivita,evento,informa,relat,umano]),def_prop(woman,[any])])
+lf(Ella's Song Lyrics.txt_21,250,cl40-nil-must-hear-[subj-theme_unaff-you-sn4,aux-be-nil,def_prop(you,[umano])])
+lf(Ella's Song Lyrics.txt_21,250,cl39-nil-nil-be-[xcomp-prop-woman-sn2,subj-actor-i-sn1,voice-hear-cl40,def_prop(woman,[any]),def_prop(i,[umano])])
+lf(Ella's Song Lyrics.txt_22,274,cl43-nil-will-bow-[obj-recipient-word-sn6,subj-agent-i-sn5,def_prop(word,[attivita,informa,nquant]),def_prop(i,[umano])])
+lf(Ella's Song Lyrics.txt_22,274,cl42-nil-can-be-[xcomp-prop-difficult-sn2,subj-theme_bound-i-sn1,def_prop(difficult,[istituzione]),def_prop(i,[umano])])
+lf(Ella's Song Lyrics.txt_23,298,cl45-nil-nil-believe-[iobj-goal-freedom-sn2,subj-actor-you-sn1,def_prop(freedom,[stato]),def_prop(you,[umano])])
+lf(Ella's Song Lyrics.txt_23,298,cl44-not-can-rest-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Ella's Song Lyrics.txt_24,323,cl48-nil-nil-believe-[iobj-goal-freedom-sn3,subj-actor-we-sn1,def_prop(freedom,[stato]),def_prop(we,[umano])])
+lf(Ella's Song Lyrics.txt_24,323,cl47-nil-nil-come-[subj-agent-you-sn4,ncmod-durata-it-sn2,def_prop(you,[umano]),def_prop(it,[any])])
+lf(Ella's Song Lyrics.txt_24,323,cl46-not-can-rest-[subj-agent-we-sn1,def_prop(we,[umano])])

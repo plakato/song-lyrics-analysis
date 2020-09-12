@@ -1,0 +1,85 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Fineshrine Lyrics.txt_1-1  []-positive  []
+Fineshrine Lyrics.txt_2-3  []-suspension  [neg,neg,fgb,neg,neg]
+Fineshrine Lyrics.txt_3-8  []-suspension  [neg,neg,fgb,neg,fgb,neg]
+Fineshrine Lyrics.txt_3-9  []-negative  [neg]
+Fineshrine Lyrics.txt_4-14  []-suspension  []
+Fineshrine Lyrics.txt_4-15  []-suspension  [fgb,neg]
+Fineshrine Lyrics.txt_4-15  []-suspension  [fgb,neg]
+Fineshrine Lyrics.txt_5-20  []-positive  [fgb]
+Fineshrine Lyrics.txt_6-26  []-positive  []
+Fineshrine Lyrics.txt_6-27  []-suspension  [neg,neg,fgb,neg,neg]
+Fineshrine Lyrics.txt_7-34  []-positive  [neg]
+Fineshrine Lyrics.txt_7-35  []-negative  [fgb,neg]
+Fineshrine Lyrics.txt_7-36  []-suspension  [neg]
+Fineshrine Lyrics.txt_8-45  []-suspension  [neg,neg,fgb,neg,fgb]
+Fineshrine Lyrics.txt_9-55  []-negative  [neg,neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Fineshrine Lyrics.txt_1-1  [fineshrine,Lyrics,by,Purity,ring]  [title]
+Fineshrine Lyrics.txt_2-3  [get,a,little,closer,let,fold,cut,open,my,sternum,and,pull,my,little,ribs,around,you,the,rungs,of,me,be,under,under,you,i,will,cut,the,soft,pockets]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(pull,[external,factive,narration,background,objective]),provide_expl_just(cut,[external,nonfactive,narration,background,objective])]
+Fineshrine Lyrics.txt_3-8  [let,bleed,over,the,rocky,cliffs,that,you,leave,to,peer,over,and,not,forget,what,feet,are,splitting,threads,of,thunder,over,me,that,.]  [provide_expl_just(forget,[external,factive,narration,background,objective]),provide_expl_just(bleed,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Fineshrine Lyrics.txt_3-9  [feet,are,splitting,threads,of,thunder,over,me,that]  [reject_expl_just(forget,[external,factive,narration,background,objective]),reject_expl_just(bleed,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Fineshrine Lyrics.txt_4-14  [i,might,see,with,my,chest]  [provide_expl_just(sink,[external,factive,circumstance,background,objective])]
+Fineshrine Lyrics.txt_4-15  [and,sink,into,the,edges]  [propose_opin_neg(sink,[external,factive,circumstance,background,objective])]
+Fineshrine Lyrics.txt_4-15  [and,sink,into,the,edges,round]  [propose_opin_neg(sink,[external,factive,circumstance,background,objective])]
+Fineshrine Lyrics.txt_5-20  [you,into,the,lakes,and,quarries,that,brink,on,all,the,edges,round]  [provide_expl_just(quarry,[external,factive,narration,background,objective])]
+Fineshrine Lyrics.txt_6-26  [you,round,you,get]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(pull,[external,factive,narration,background,objective])]
+Fineshrine Lyrics.txt_6-27  [a,little,closer,let,fold,cut,open,and,pull,my,little,ribs,around,you,the,lungs,of,me,be,crowns,over,you,get,a,little,closer,my,sternum]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(pull,[external,factive,narration,background,objective])]
+Fineshrine Lyrics.txt_7-34  [let,fold,cut,open,my,sternum]  [provide_expl_just(cut,[external,nonfactive,narration,background,objective]),provide_expl_just(fold,[external,factive,narration,background,objective]),provide_expl_just(pull,[external,factive,narration,background,objective])]
+Fineshrine Lyrics.txt_7-35  [and,pull,my,little,ribs,around]  [reject_expl_just(cut,[external,nonfactive,narration,background,objective]),reject_expl_just(fold,[external,factive,narration,background,objective]),reject_expl_just(pull,[external,factive,narration,background,objective])]
+Fineshrine Lyrics.txt_7-36  [you,the,rungs,of,me,be,under,under,you,i,will,cut,the,soft,pockets]  [provide_expl_just(cut,[external,nonfactive,narration,background,objective]),provide_expl_just(fold,[external,factive,narration,background,objective]),provide_expl_just(pull,[external,factive,narration,background,objective])]
+Fineshrine Lyrics.txt_8-45  [let,bleed,over,the,rocky,cliffs,that,you,leap,to,peer,over,and,not,forget,what,feet]  [provide_expl_just(forget,[external,factive,narration,background,objective])]
+Fineshrine Lyrics.txt_9-55  [are,splitting,threads,of,thunder,over,me,listen,closely,closely,to,the,floor,emitting,all,its,graces,through,the,pores,you,make,a,fine,shrine,in,me,you,build,a,fine,shrine,in,me]  [reject_expl_just(emit,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(listen,[external,factive,narration,background,objective]),reject_expl_just(make,[external,factive,narration,background,objective]),reject_expl_just(build,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Fineshrine Lyrics.txt_1-1)-[primary-sound]
+2-(Fineshrine Lyrics.txt_2-3)-[primary-concreteness,emotions-aggression,primary-concreteness,primary-narcissism,primary-depth,primary-depth,emotions-aggression,primary-soft]
+3-(Fineshrine Lyrics.txt_3-8)-[primary-concreteness,primary-hard,primary-height,primary-vision,primary-concreteness,secondary-instru_behavior,primary-narcissism,primary-concreteness]
+4-(Fineshrine Lyrics.txt_3-9)-[primary-narcissism,primary-concreteness]
+5-(Fineshrine Lyrics.txt_4-14)-[primary-vision,primary-narcissism]
+6-(Fineshrine Lyrics.txt_4-15)-[primary-descent,primary-brink]
+7-(Fineshrine Lyrics.txt_4-15)-[primary-descent,primary-brink,primary-concreteness]
+half
+8-(Fineshrine Lyrics.txt_5-20)-[primary-water,primary-brink,primary-brink,primary-concreteness]
+9-(Fineshrine Lyrics.txt_6-26)-[primary-concreteness]
+10-(Fineshrine Lyrics.txt_6-27)-[primary-concreteness,emotions-aggression,primary-concreteness,primary-narcissism,emotions-glory,primary-concreteness,primary-concreteness]
+11-(Fineshrine Lyrics.txt_7-34)-[emotions-aggression,primary-concreteness]
+12-(Fineshrine Lyrics.txt_7-35)-[primary-narcissism]
+13-(Fineshrine Lyrics.txt_7-36)-[primary-depth,primary-depth,emotions-aggression,primary-soft]
+14-(Fineshrine Lyrics.txt_8-45)-[primary-concreteness,primary-hard,primary-height,primary-ascend,primary-vision,primary-concreteness,secondary-instru_behavior,primary-narcissism]
+15-(Fineshrine Lyrics.txt_9-55)-[primary-concreteness,primary-sound,primary-brink,secondary-instru_behavior,secondary-instru_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Fineshrine Lyrics.txt_1,1,cl1-nil-nil-ring-[arg_mod-agent-Purity-sn2,subj-agent-Lyrics-sn1,and(Lyrics,fineshrine,sn1),def_prop(Purity,[place,astratto,stato]),def_prop(Lyrics,[informa,tecno])])
+lf(Fineshrine Lyrics.txt_2,3,cl4-nil-will-cut-[])
+lf(Fineshrine Lyrics.txt_2,3,cl3-nil-nil-pull-[])
+lf(Fineshrine Lyrics.txt_2,3,cl2-nil-nil-get-[obj2-benef-pocket-sn7,subj-sn4-i-sn6,obj-theme_unaff-rung-sn4,subj-agent-you-sn3,subj-agent-you-sn2,subj-agent-sternum-sn1,and(pocket,soft,sn7),and(you,sternum,sn2),def_prop(pocket,[astratto,oggetto,strumento]),def_prop(i,[umano]),def_prop(rung,[oggetto,strumento]),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(sternum,[body_part,umano])])
+lf(Fineshrine Lyrics.txt_3,8,cl7-nil-nil-be-[adj-(mod)-over-nil,xcomp-prop-me-sn17,xcomp-prop-thread-sn16,subj-theme_bound-foot-sn15,and(me,that,sn17),and(thread,splitting,sn16),def_prop(over,[istituzione]),def_prop(me,[umano]),def_prop(thread,[oggetto,strumento]),def_prop(foot,[animato,attivita,body_part,luogo,nquant,oggetto,strumento,umano])])
+lf(Fineshrine Lyrics.txt_3,8,cl6-nil-nil-forget-[xcomp-purpose-bleed-2,subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Fineshrine Lyrics.txt_3,8,cl5-nil-nil-bleed-[ncmod-theme-cliff-sn4,and(cliff,that,sn4),def_prop(cliff,[oggetto])])
+lf(Fineshrine Lyrics.txt_4,14,cl9-nil-nil-sink-[cmod-coord-sink-and,xadj-adj-round-adj1,obj-patient-round-sn9,iobj-goal-edge-sn8,subj-agent-you-sn7,cmod-subord-sink-",iobj-goal-edge-sn6,subj-agent-you-sn5,ncmod-comitativo-chess-sn2,def_prop(round,_122880),def_prop(round,[attivita,edible,informa,oggetto,strumento]),def_prop(edge,[astratto,luogo,oggetto,strumento]),def_prop(you,[umano]),def_prop(edge,[astratto,luogo,oggetto,strumento]),def_prop(you,[umano]),def_prop(chess,[attivita,plant])])
+lf(Fineshrine Lyrics.txt_4,14,cl8-nil-might-see-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Fineshrine Lyrics.txt_5,20,cl10-nil-nil-quarry-[cmod-coord-quarry-and,ncmod-locativo-edge-sn6,obj-theme-brink-sn5,subj-actor-you-sn4,and(edge,all,sn6),and(brink,that,sn5),def_prop(edge,[astratto,luogo,oggetto,strumento]),def_prop(brink,[astratto,luogo]),def_prop(you,[umano])])
+lf(Fineshrine Lyrics.txt_6,26,cl12-nil-nil-pull-[cmod-coord-get-and,obj-theme-around-sn19,obj-goal-little-sn18,subj-agent-you-sn17,and(around,rib,sn19),def_prop(around,[]),def_prop(little,[astratto,informa,oggetto]),def_prop(you,[umano])])
+lf(Fineshrine Lyrics.txt_6,26,cl11-nil-nil-get-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Fineshrine Lyrics.txt_7,34,cl15-nil-will-cut-[obj2-benef-pocket-sn15,subj-sn12-i-sn14,obj-theme_aff-rung-sn12,subj-agent-you-sn11,and(pocket,soft,sn15),def_prop(pocket,[astratto,oggetto,strumento]),def_prop(i,[umano]),def_prop(rung,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Fineshrine Lyrics.txt_7,34,cl14-nil-nil-pull-[cmod-subord-cut-",obj-theme-around-sn7,obj-goal-little-sn6,subj-agent-you-sn5,and(around,rib,sn7),def_prop(around,[]),def_prop(little,[astratto,informa,oggetto]),def_prop(you,[umano])])
+lf(Fineshrine Lyrics.txt_7,34,cl13-nil-nil-fold-[xcomp-prop-open-sn2,subj-actor-sternum-sn1,and(open,cut,sn2),def_prop(open,[astratto,evento,luogo]),def_prop(sternum,[body_part,umano])])
+lf(Fineshrine Lyrics.txt_8,45,cl17-nil-nil-forget-[xcomp-purpose-bleed-2,subj-experiencer-you-sn1,and(you,foot,sn1),def_prop(you,[umano])])
+lf(Fineshrine Lyrics.txt_8,45,cl16-nil-nil-bleed-[ncmod-theme-cliff-sn4,and(cliff,that,sn4),def_prop(cliff,[oggetto])])
+lf(Fineshrine Lyrics.txt_9,55,cl22-nil-nil-build-[obj-theme-all-sn6,xcomp-purpose-emit-6,ncmod-loc_direct-floor-sn5,def_prop(all,[_124534]),def_prop(floor,[astratto,attivita,informa,oggetto,strumento])])
+lf(Fineshrine Lyrics.txt_9,55,cl21-nil-nil-make-[])
+lf(Fineshrine Lyrics.txt_9,55,cl20-nil-nil-emit-[ncmod-locativo-me-sn14,ncmod-locativo-me-sn11,ncmod-relation-pore-sn8,def_prop(me,[umano]),def_prop(me,[umano]),def_prop(pore,[astratto,body_part,umano])])
+lf(Fineshrine Lyrics.txt_9,55,cl19-nil-nil-listen-[])
+lf(Fineshrine Lyrics.txt_9,55,cl18-nil-nil-be-[xcomp-theme-shrine-sn13,xcomp-theme-you-sn12,xcomp-theme_aff-shrine-sn10,subj-sn1-you-sn9,xcomp-prop-grace-sn7,adj-subj_disc-closely-sn4,adj-subj_disc-over-sn3,xcomp-prop-thread-sn2,subj-theme_bound-me-sn1,and(shrine,fine,sn13),and(shrine,fine,sn10),and(closely,closely,sn4),and(thread,splitting,sn2),def_prop(shrine,[oggetto,strumento]),def_prop(you,[umano]),def_prop(shrine,[oggetto,strumento]),def_prop(you,[umano]),def_prop(grace,[astratto,attivita,informa,stato]),def_prop(closely,[istituzione]),def_prop(over,[istituzione]),def_prop(thread,[oggetto,strumento]),def_prop(me,[umano])])

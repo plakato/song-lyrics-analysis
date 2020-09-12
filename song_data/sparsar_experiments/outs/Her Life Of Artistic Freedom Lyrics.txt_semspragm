@@ -1,0 +1,85 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Her Life Of Artistic Freedom Lyrics.txt_1-1  []-positive  []
+Her Life Of Artistic Freedom Lyrics.txt_2-3  []-positive  [fgb]
+Her Life Of Artistic Freedom Lyrics.txt_2-4  [if-hypoth]-positive  [fgb]
+Her Life Of Artistic Freedom Lyrics.txt_2-4  [if-hypoth]-negative  [fgb,neg]
+Her Life Of Artistic Freedom Lyrics.txt_3-8  [but-advers]-positive  [fgb,fgb]
+Her Life Of Artistic Freedom Lyrics.txt_4-12  []-positive  [fgb]
+Her Life Of Artistic Freedom Lyrics.txt_4-13  []-positive  []
+Her Life Of Artistic Freedom Lyrics.txt_4-14  []-negative  [neg]
+Her Life Of Artistic Freedom Lyrics.txt_5-19  [if-hypoth]-negative  [fgb,fgb]
+Her Life Of Artistic Freedom Lyrics.txt_6-27  []-positive  [fgb]
+Her Life Of Artistic Freedom Lyrics.txt_7-34  []-positive  [fgb]
+Her Life Of Artistic Freedom Lyrics.txt_7-35  []-positive  []
+Her Life Of Artistic Freedom Lyrics.txt_7-35  []-positive  []
+Her Life Of Artistic Freedom Lyrics.txt_8-43  []-suspension  [neg]
+Her Life Of Artistic Freedom Lyrics.txt_9-52  []-negative  [neg]
+Her Life Of Artistic Freedom Lyrics.txt_10-62  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Her Life Of Artistic Freedom Lyrics.txt_1-1  [her,Life,of,Artistic,Freedom,Lyrics,by,Swirlies]  [title]
+Her Life Of Artistic Freedom Lyrics.txt_2-3  [what]  [provide_expl_just(i,[internal,factive,narration,background,objective]),provide_expl_just(wrong,[external,factive,explanation,background,objective])]
+Her Life Of Artistic Freedom Lyrics.txt_2-4  [if,i,had]  [provide_expl_just(i,[internal,factive,narration,background,objective]),provide_expl_just(wrong,[external,factive,explanation,background,objective])]
+Her Life Of Artistic Freedom Lyrics.txt_2-4  [if,i,had,it,wrong]  [reject_expl_just(i,[internal,factive,narration,background,objective]),reject_expl_just(wrong,[external,factive,explanation,background,objective]),propose_opin_neg(wrong,[external,factive,explanation,background,objective])]
+Her Life Of Artistic Freedom Lyrics.txt_3-8  [and,she,knew,that,but,she,felt,that,i,could]  [provide_expl_just(can,[external,nonfactive,narration,background,objective])]
+Her Life Of Artistic Freedom Lyrics.txt_4-12  [and,she,said]  [provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(wrong,[external,factive,narration,background,objective])]
+Her Life Of Artistic Freedom Lyrics.txt_4-13  [that,i,had]  [provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(wrong,[external,factive,narration,background,objective])]
+Her Life Of Artistic Freedom Lyrics.txt_4-14  [it,wrong]  [reject_expl_just(have,[external,factive,narration,foreground,objective]),reject_expl_just(wrong,[external,factive,narration,background,objective])]
+Her Life Of Artistic Freedom Lyrics.txt_5-19  [what,if,she,don-t,come,back]  [provide_expl_just(be,[external,factive,narration,background,objective]),proposal(be,[_335240,_335246,statement,foreground,_335264])]
+Her Life Of Artistic Freedom Lyrics.txt_6-27  [and,goes,away,to,a,place]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Her Life Of Artistic Freedom Lyrics.txt_7-34  [and,finds]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Her Life Of Artistic Freedom Lyrics.txt_7-35  [it,is,better]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Her Life Of Artistic Freedom Lyrics.txt_7-35  [it,is,better,/,badder]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Her Life Of Artistic Freedom Lyrics.txt_8-43  [i,might,crawl,away]  [propose_opin(crawl,[external,nonfactive,narration,foreground,objective]),provide_expl_just(crawl,[external,nonfactive,narration,foreground,objective])]
+Her Life Of Artistic Freedom Lyrics.txt_9-52  [never,go,home,again]  [reject_expl_just(go,[external,factive,narration,background,objective])]
+Her Life Of Artistic Freedom Lyrics.txt_10-62  [home,again]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Her Life Of Artistic Freedom Lyrics.txt_1-1)-[]
+2-(Her Life Of Artistic Freedom Lyrics.txt_2-3)-[]
+3-(Her Life Of Artistic Freedom Lyrics.txt_2-4)-[]
+4-(Her Life Of Artistic Freedom Lyrics.txt_2-4)-[]
+5-(Her Life Of Artistic Freedom Lyrics.txt_3-8)-[secondary-abstract_tought]
+6-(Her Life Of Artistic Freedom Lyrics.txt_4-12)-[secondary-social_behavior]
+7-(Her Life Of Artistic Freedom Lyrics.txt_4-13)-[]
+8-(Her Life Of Artistic Freedom Lyrics.txt_4-14)-[]
+half
+9-(Her Life Of Artistic Freedom Lyrics.txt_5-19)-[primary-concreteness]
+10-(Her Life Of Artistic Freedom Lyrics.txt_6-27)-[primary-concreteness,primary-concreteness]
+11-(Her Life Of Artistic Freedom Lyrics.txt_7-34)-[secondary-instru_behavior]
+12-(Her Life Of Artistic Freedom Lyrics.txt_7-35)-[]
+13-(Her Life Of Artistic Freedom Lyrics.txt_7-35)-[]
+14-(Her Life Of Artistic Freedom Lyrics.txt_8-43)-[primary-concreteness]
+15-(Her Life Of Artistic Freedom Lyrics.txt_9-52)-[secondary-temporal_repere]
+16-(Her Life Of Artistic Freedom Lyrics.txt_10-62)-[secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Her Life Of Artistic Freedom Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Swirlies-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Life,sn1),def_prop(Swirlies,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_2,3,2-nil-nil-be-[subj-theme_bound-what-sn1,def_prop(what,[oggetto])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_2,3,cl3-nil-nil-wrong-[cmod-subord-have-if,obj-theme_aff-it-sn5,subj-agent-i-sn4,def_prop(it,[any]),def_prop(i,[umano])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_2,3,cl2-nil-nil-have-[subj-experiencer-i-sn2,def_prop(i,[umano])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_3,8,cl6-nil-could-can-[cmod-subord-can-",cmod-subord-can-but,subj-actor-i-sn5,subj-actor-i-sn4,subj-theme-i-sn3,def_prop(i,[umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_3,8,cl5-nil-nil-feel-[subj-experiencer-i-sn3,subj-experiencer-she-sn2,def_prop(i,[umano]),def_prop(she,[umano])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_3,8,cl4-nil-nil-know-[subj-actor-she-sn1,def_prop(she,[umano])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_4,12,cl9-nil-nil-wrong-[subj-agent-you-sn3,cmod-subord-wrong-",def_prop(you,[umano])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_4,12,cl8-nil-nil-have-[adj-(mod)-wrong-nil,subj-experiencer-i-sn2,def_prop(i,[umano])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_4,12,cl7-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_5,19,2-nil-nil-be-[cmod-subord-come-if,subj-theme_bound-what-sn1,def_prop(what,[oggetto])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_5,19,cl11-nil-nil-come-[subj-prop-she-sn2,def_prop(she,[umano])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_5,19,cl10-not-nil-don-t-[adj-(mod)-back-nil,subj-agent-she-sn2,def_prop(she,[umano])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_6,27,cl12-nil-nil-go-[cmod-subord-go-",adj-(mod)-away-nil,adj-subj_disc-away-sn3,iobj-goal-place-sn2,subj-agent-you-sn1,def_prop(away,[istituzione]),def_prop(away,[istituzione]),def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(you,[umano])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_7,34,cl14-nil-nil-be-[xcomp-prop-better-sn5,subj-theme_bound-it-sn4,xcomp-prop-better-sn3,subj-theme_bound-it-sn2,def_prop(better,[valutativo]),def_prop(it,[any]),def_prop(better,[valutativo]),def_prop(it,[any])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_7,34,cl13-nil-nil-find-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_8,43,cl15-nil-might-crawl-[xcomp-prop-away-sn2,subj-agent-i-sn1,def_prop(away,[evaluative]),def_prop(i,[umano])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_9,52,cl16-nil-nil-go-[adj-subj_disc-again-sn2,subj-agent-you-sn1,and(again,home,sn2),def_prop(again,[istituzione]),def_prop(you,[umano])])
+lf(Her Life Of Artistic Freedom Lyrics.txt_10,62,cl17-nil-nil-say-[])

@@ -1,0 +1,213 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Renaissance Lyrics.txt_1-1  []-positive  []
+Renaissance Lyrics.txt_2-3  []-positive  []
+Renaissance Lyrics.txt_2-4  [before-temp_prec]-positive  []
+Renaissance Lyrics.txt_3-7  []-positive  [neg]
+Renaissance Lyrics.txt_4-11  []-negative  []
+Renaissance Lyrics.txt_5-20  []-positive  []
+Renaissance Lyrics.txt_5-21  [before-temp_prec]-positive  []
+Renaissance Lyrics.txt_6-27  []-positive  []
+Renaissance Lyrics.txt_7-34  []-positive  []
+Renaissance Lyrics.txt_7-35  []-positive  []
+Renaissance Lyrics.txt_7-36  []-positive  []
+Renaissance Lyrics.txt_8-43  []-positive  []
+Renaissance Lyrics.txt_9-52  []-positive  [fgb]
+Renaissance Lyrics.txt_10-62  []-negative  [neg]
+Renaissance Lyrics.txt_11-73  []-positive  []
+Renaissance Lyrics.txt_12-85  []-positive  [fhd,neg]
+Renaissance Lyrics.txt_13-99  []-negative  [neg]
+Renaissance Lyrics.txt_14-113  []-positive  []
+Renaissance Lyrics.txt_15-128  []-positive  []
+Renaissance Lyrics.txt_15-129  []-negative  [neg]
+Renaissance Lyrics.txt_16-147  []-suspension  [neg,fhd,neg]
+Renaissance Lyrics.txt_17-164  []-positive  []
+Renaissance Lyrics.txt_18-182  []-positive  [fgb]
+Renaissance Lyrics.txt_19-201  []-positive  []
+Renaissance Lyrics.txt_19-202  []-negative  [neg]
+Renaissance Lyrics.txt_20-222  []-negative  []
+Renaissance Lyrics.txt_21-243  []-negative  [neg]
+Renaissance Lyrics.txt_22-265  []-negative  [neg]
+Renaissance Lyrics.txt_22-266  []-positive  []
+Renaissance Lyrics.txt_23-289  []-negative  [neg]
+Renaissance Lyrics.txt_24-313  []-negative  [neg,neg]
+Renaissance Lyrics.txt_25-338  []-positive  []
+Renaissance Lyrics.txt_25-339  []-positive  []
+Renaissance Lyrics.txt_26-365  []-positive  []
+Renaissance Lyrics.txt_26-366  []-positive  []
+Renaissance Lyrics.txt_27-393  [before-temp_prec]-positive  []
+Renaissance Lyrics.txt_28-421  []-positive  []
+Renaissance Lyrics.txt_29-450  []-positive  []
+Renaissance Lyrics.txt_30-480  [before-temp_prec]-positive  []
+Renaissance Lyrics.txt_31-511  []-negative  [neg]
+Renaissance Lyrics.txt_32-544  []-positive  [neg]
+Renaissance Lyrics.txt_33-577  []-positive  [neg]
+Renaissance Lyrics.txt_34-611  []-negative  [neg]
+Renaissance Lyrics.txt_35-646  []-negative  [neg]
+Renaissance Lyrics.txt_36-682  []-positive  []
+Renaissance Lyrics.txt_37-719  [when-temp_coinc]-positive  []
+Renaissance Lyrics.txt_38-757  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Renaissance Lyrics.txt_1-1  [renaissance,Lyrics,by,SycAmour]  [title]
+Renaissance Lyrics.txt_2-3  [i,have,heard]  [provide_expl_just(hear,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Renaissance Lyrics.txt_2-4  [it,all,before]  [provide_expl_just(hear,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Renaissance Lyrics.txt_3-7  [all,the,sob,stories]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Renaissance Lyrics.txt_4-11  [start,with,you,gotta,get,out,,,end,with,you,didn-t,want,in]  [provide_expl_just(start,[external,factive,inception,background,objective]),suggest(start,[external,factive,inception,background,objective]),propose_opin_neg(gotta,[external,factive,explanation,background,objective]),propose_opin_neg(get,[external,factive,explanation,background,objective]),propose_opin_neg(want,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Renaissance Lyrics.txt_5-20  [i,have,heard]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_5-21  [it,all,before]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_6-27  [a,professional,lover]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_7-34  [it,is,more_than]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(speak,[external,nonfactive,narration,foreground,objective])]
+Renaissance Lyrics.txt_7-35  [most,can,speak]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(speak,[external,nonfactive,narration,foreground,objective])]
+Renaissance Lyrics.txt_7-36  [for]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(speak,[external,nonfactive,narration,foreground,objective])]
+Renaissance Lyrics.txt_8-43  [paint,me,a,picture,with,your,waist,now,,,honey,;]  [provide_expl_just(paint,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_9-52  [whoa-oh,,,and,come,over]  [proposal(be,[_758242,_758248,statement,foreground,_758266])]
+Renaissance Lyrics.txt_10-62  [dilapidated,veneer]  reject_expl_opin(nil,[])
+Renaissance Lyrics.txt_11-73  [champagne,on,your,snakeskin,lips]  [provide_expl_just(lips,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_12-85  [like,we,were,celebrating,the,death,of,your,innocence]  [provide_expl_just(like,[external,factive,narration,background,objective]),provide_expl_just(celebrate,[external,factive,narration,foreground,objective])]
+Renaissance Lyrics.txt_13-99  [god,damn]  reject_expl_opin(nil,[])
+Renaissance Lyrics.txt_14-113  [lap,dances,to,funeral,hymns]  [provide_expl_just(lap,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_15-128  [to,pay,him,,,cause]  [provide_expl_just(want,[external,factive,narration,foreground,objective]),provide_expl_just(pay,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_15-129  [you,don-t,want,nothing,to,do,with,them]  [reject_expl_just(want,[external,factive,narration,foreground,objective]),reject_expl_just(pay,[external,factive,narration,background,objective]),reject_expl_just(do,[external,factive,narration,background,objective]),reject_expl_just(cause,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_16-147  [life,drained,from,this,house,just,like,a,virgin,crime]  [suggest(be,[_762260,_762266,statement,background,_762284])]
+Renaissance Lyrics.txt_17-164  [paint,me,a,picture,with,your,waist,now,,,honey,;]  [provide_expl_just(paint,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_18-182  [whoa-oh,,,and,come,over]  [proposal(be,[_762976,_762982,statement,foreground,_763000])]
+Renaissance Lyrics.txt_19-201  [i,hey,think]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_19-202  [you,are,afraid]  [reject_expl_just(think,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_20-222  [don-t,pray,for,us]  [provide_expl_just(pray,[external,factive,narration,foreground,objective])]
+Renaissance Lyrics.txt_21-243  [you,can,not,save,us]  [reject_expl_just(be,[_768872,_768878,_768884,_768890,_768896])]
+Renaissance Lyrics.txt_22-265  [we,never,asked]  [reject_expl_just(ask,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_22-266  [you,to]  [provide_expl_just(ask,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_23-289  [you,can,not,save,us]  [reject_expl_just(be,[_771252,_771258,_771264,_771270,_771276])]
+Renaissance Lyrics.txt_24-313  [living,with,nothing,to,lose]  [reject_expl_just(lose,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_25-338  [i,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_25-339  [you]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_26-365  [i,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_26-366  [you,soul]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_27-393  [i,have,read,those,lines,before]  [provide_expl_just(read,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_28-421  [i,have,played,that,song]  [provide_expl_just(play,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_29-450  [on,the,radio,in,the,obituaries]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_30-480  [i,have,held,that,shovel,before]  [provide_expl_just(hold,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_31-511  [mine,was,made,to,bury]  [reject_expl_just(bury,[external,factive,narration,background,objective]),reject_expl_just(make,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_32-544  [dark,things]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Renaissance Lyrics.txt_33-577  [dark,places]  [provide_expl_just(place,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_34-611  [cold,nights]  reject_expl_opin(nil,[])
+Renaissance Lyrics.txt_35-646  [lives,wasted,away,in,the,light]  [reject_expl_just(be,[_794136,_794142,_794148,_794154,_794160])]
+Renaissance Lyrics.txt_36-682  [you,are,so_much,better,in,the,night]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_37-719  [when,you,are,faceless]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Renaissance Lyrics.txt_38-757  [i,am,faithless]  reject_expl_opin(nil,[])
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Renaissance Lyrics.txt_1-1)-[]
+2-(Renaissance Lyrics.txt_2-3)-[primary-sound]
+3-(Renaissance Lyrics.txt_2-4)-[]
+4-(Renaissance Lyrics.txt_3-7)-[emotions-sadness]
+5-(Renaissance Lyrics.txt_4-11)-[primary-vision,primary-concreteness]
+6-(Renaissance Lyrics.txt_5-20)-[primary-sound]
+7-(Renaissance Lyrics.txt_5-21)-[]
+8-(Renaissance Lyrics.txt_6-27)-[primary-sex]
+9-(Renaissance Lyrics.txt_7-34)-[]
+10-(Renaissance Lyrics.txt_7-35)-[secondary-social_behavior]
+11-(Renaissance Lyrics.txt_7-36)-[]
+12-(Renaissance Lyrics.txt_8-43)-[primary-vision,primary-vision,primary-sex,secondary-temporal_repere,primary-orality]
+13-(Renaissance Lyrics.txt_9-52)-[primary-concreteness]
+14-(Renaissance Lyrics.txt_10-62)-[]
+15-(Renaissance Lyrics.txt_11-73)-[primary-orality,primary-orality]
+16-(Renaissance Lyrics.txt_12-85)-[emotions-affection,primary-passivity]
+17-(Renaissance Lyrics.txt_13-99)-[primary-water]
+18-(Renaissance Lyrics.txt_14-113)-[primary-orality,emotions-expressive_beh]
+19-(Renaissance Lyrics.txt_15-128)-[secondary-instru_behavior,secondary-abstract_tought]
+20-(Renaissance Lyrics.txt_15-129)-[secondary-abstract_tought]
+21-(Renaissance Lyrics.txt_16-147)-[emotions-affection]
+22-(Renaissance Lyrics.txt_17-164)-[primary-vision,primary-vision,primary-sex,secondary-temporal_repere,primary-orality]
+23-(Renaissance Lyrics.txt_18-182)-[primary-concreteness]
+half
+24-(Renaissance Lyrics.txt_19-201)-[secondary-abstract_tought]
+25-(Renaissance Lyrics.txt_19-202)-[emotions-anxiety]
+26-(Renaissance Lyrics.txt_20-222)-[]
+27-(Renaissance Lyrics.txt_21-243)-[]
+28-(Renaissance Lyrics.txt_22-265)-[secondary-social_behavior]
+29-(Renaissance Lyrics.txt_22-266)-[]
+30-(Renaissance Lyrics.txt_23-289)-[]
+31-(Renaissance Lyrics.txt_24-313)-[]
+32-(Renaissance Lyrics.txt_25-338)-[secondary-abstract_tought]
+33-(Renaissance Lyrics.txt_25-339)-[]
+34-(Renaissance Lyrics.txt_26-365)-[secondary-abstract_tought]
+35-(Renaissance Lyrics.txt_26-366)-[]
+36-(Renaissance Lyrics.txt_27-393)-[primary-brink]
+37-(Renaissance Lyrics.txt_28-421)-[emotions-expressive_beh]
+38-(Renaissance Lyrics.txt_29-450)-[]
+39-(Renaissance Lyrics.txt_30-480)-[emotions-aggression]
+40-(Renaissance Lyrics.txt_31-511)-[primary-counscious,primary-descent]
+41-(Renaissance Lyrics.txt_32-544)-[]
+42-(Renaissance Lyrics.txt_33-577)-[primary-concreteness]
+43-(Renaissance Lyrics.txt_34-611)-[primary-cold]
+44-(Renaissance Lyrics.txt_35-646)-[primary-concreteness,primary-vision]
+45-(Renaissance Lyrics.txt_36-682)-[]
+46-(Renaissance Lyrics.txt_37-719)-[secondary-temporal_repere]
+47-(Renaissance Lyrics.txt_38-757)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Renaissance Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-SycAmour-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,renaissance,sn1),def_prop(SycAmour,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Renaissance Lyrics.txt_2,3,cl3-nil-nil-be-[xcomp-prop-before-sn3,subj-theme_bound-it-sn2,and(before,all,sn3),def_prop(before,[istituzione]),def_prop(it,[any])])
+lf(Renaissance Lyrics.txt_2,3,cl2-nil-nil-hear-[subj-experiencer-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_3,7,cl4-nil-nil-be-[subj-theme_bound-story-sn2,subj-theme_bound-story-sn1,and(story,sob,sn1),and(story,all,sn1),def_prop(story,[attivita,informa]),def_prop(story,[attivita,informa])])
+lf(Renaissance Lyrics.txt_4,11,cl8-nil-nil-be-[])
+lf(Renaissance Lyrics.txt_4,11,cl7-not-nil-want-[aux-did-nil,subj-actor-end-sn4,ncmod-comitativo-you-sn2,def_prop(end,[tempo]),def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_4,11,cl6-nil-nil-get-[])
+lf(Renaissance Lyrics.txt_4,11,nil-nil-nil-gotta-[])
+lf(Renaissance Lyrics.txt_4,11,cl5-nil-nil-start-[adj-locative-out-nil,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_5,20,cl10-nil-nil-be-[xcomp-prop-before-sn3,subj-theme_bound-it-sn2,and(before,all,sn3),def_prop(before,[istituzione]),def_prop(it,[any])])
+lf(Renaissance Lyrics.txt_5,20,cl9-nil-nil-hear-[subj-experiencer-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_6,27,cl11-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_7,34,cl13-nil-can-speak-[subj-actor-you-sn3,def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_7,34,cl12-nil-nil-be-[subj-theme_bound-pro-nil,xcomp-prop-more_than-sn2,subj-theme_bound-it-sn1,def_prop(more_than,[nquant]),def_prop(it,[any])])
+lf(Renaissance Lyrics.txt_8,43,cl14-nil-nil-paint-[xadj-adj-honey-adj1,adj-(mod)-now-nil,obj-theme-honey-sn6,adj-subj_disc-now-sn5,ncmod-comitativo-waist-sn4,obj-theme-picture-sn3,obj-goal-me-sn2,subj-agent-you-sn1,def_prop(honey,_797958),def_prop(now,[istituzione]),def_prop(honey,[edible,oggetto]),def_prop(now,[istituzione]),def_prop(waist,[body_part,umano]),def_prop(picture,[astratto,attivita,informa,oggetto,stato,strumento]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_9,52,cl15-nil-nil-come-[subj-agent-whoa-oh-sn1,def_prop(whoa-oh,[istituzione,umano])])
+lf(Renaissance Lyrics.txt_10,62,cl16-nil-nil-say-[obj-theme_unaff-veneer-sn1,and(veneer,dilapidated,sn1),def_prop(veneer,[oggetto,strumento])])
+lf(Renaissance Lyrics.txt_11,73,nil-nil-nil-lips-[ncmod-locativo-snakeskin-sn2,subj-agent-champagne-sn1,def_prop(snakeskin,[istituzione]),def_prop(champagne,[edible,oggetto])])
+lf(Renaissance Lyrics.txt_12,85,cl17-nil-nil-celebrate-[])
+lf(Renaissance Lyrics.txt_12,85,nil-nil-nil-like-[obj-theme-death-sn3,xcomp-purpose-celebrate-2,subj-experiencer-we-sn2,subj-experiencer-we-sn1,and(we,you,sn1),def_prop(death,[animato,attivita,cambia,evento,informa,stato,tempo]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Renaissance Lyrics.txt_13,99,nil-nil-nil-damn-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_14,113,cl18-nil-nil-lap-[ncmod-relation-hymn-sn3,obj-theme-dance-sn2,subj-actor-you-sn1,and(hymn,funeral,sn3),def_prop(hymn,[attivita,informa]),def_prop(dance,[attivita,evento,informa,istituzione]),def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_15,128,cl22-nil-nil-do-[xcomp-prop-him-sn2,xcomp-purpose-pay-3,def_prop(him,[umano])])
+lf(Renaissance Lyrics.txt_15,128,cl21-not-nil-want-[ncmod-actor-them-sn5,xcomp-purpose-do-cl22,obj-tema_unaff-nothing-sn4,subj-actor-you-sn3,aux-do-nil,def_prop(them,[umano]),def_prop(nothing,[astratto,informa,oggetto]),def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_15,128,cl20-nil-nil-cause-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_15,128,cl19-nil-nil-pay-[])
+lf(Renaissance Lyrics.txt_16,147,cl23-nil-nil-drain-[adj-(mod)-just-nil,ncmod-loc_origin-house-sn2,subj-agent-life-sn1,and(house,this,sn2),def_prop(house,[attivita,istituzione,oggetto,strumento]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Renaissance Lyrics.txt_17,164,cl24-nil-nil-paint-[xadj-adj-honey-adj2,adj-(mod)-now-nil,obj-theme-honey-sn6,adj-subj_disc-now-sn5,ncmod-comitativo-waist-sn4,obj-theme-picture-sn3,obj-goal-me-sn2,subj-agent-you-sn1,def_prop(honey,_799772),def_prop(now,[istituzione]),def_prop(honey,[edible,oggetto]),def_prop(now,[istituzione]),def_prop(waist,[body_part,umano]),def_prop(picture,[astratto,attivita,informa,oggetto,stato,strumento]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_18,182,cl25-nil-nil-come-[subj-agent-whoa-oh-sn1,def_prop(whoa-oh,[istituzione,umano])])
+lf(Renaissance Lyrics.txt_19,201,cl27-nil-nil-be-[xcomp-prop-afraid-sn4,subj-theme_bound-you-sn3,def_prop(afraid,[valutativo]),def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_19,201,cl26-nil-nil-think-[ncmod-modal-i-sn2,subj-agent-you-sn1,def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_20,222,cl28-not-nil-pray-[subj-experiencer-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_21,243,cl29-not-can-save-[obj-asset-us-sn2,subj-agent-you-sn1,def_prop(us,[umano]),def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_22,265,cl31-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_22,265,cl30-nil-nil-ask-[subj-actor-we-sn1,def_prop(we,[umano])])
+lf(Renaissance Lyrics.txt_23,289,cl32-not-can-save-[obj-asset-us-sn2,subj-agent-you-sn1,def_prop(us,[umano]),def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_24,313,cl33-nil-nil-lose-[iobj-goal-nothing-sn2,subj-theme_aff-you-sn1,def_prop(nothing,[astratto,informa,oggetto]),def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_25,338,cl35-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_25,338,cl34-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_26,365,cl37-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_26,365,cl36-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_27,393,cl38-nil-nil-read-[obj-theme_unaff-line-sn2,subj-agent-i-sn1,aux-have-nil,and(line,those,sn2),def_prop(line,[astratto,attivita,cambia,informa,luogo,oggetto,strumento]),def_prop(i,[umano])])
+lf(Renaissance Lyrics.txt_28,421,cl39-nil-nil-play-[obj-goal-song-sn2,subj-agent-i-sn1,aux-have-nil,and(song,that,sn2),def_prop(song,[astratto,attivita,evento,informa,oggetto]),def_prop(i,[umano])])
+lf(Renaissance Lyrics.txt_29,450,cl40-nil-nil-be-[ncmod-temporale-obituary-sn2,ncmod-locativo-radio-sn1,def_prop(obituary,[attivita,informa]),def_prop(radio,[attivita,informa,oggetto,strumento])])
+lf(Renaissance Lyrics.txt_30,480,cl41-nil-nil-hold-[obj-goal-shovel-sn2,subj-agent-i-sn1,aux-have-nil,and(shovel,that,sn2),def_prop(shovel,[nquant,oggetto,strumento]),def_prop(i,[umano])])
+lf(Renaissance Lyrics.txt_31,511,cl43-nil-nil-bury-[subj-theme-mine-sn1,def_prop(mine,[oggetto,strumento])])
+lf(Renaissance Lyrics.txt_31,511,cl42-nil-nil-make-[subj-goal-mine-sn1,aux-was-nil,def_prop(mine,[oggetto,strumento])])
+lf(Renaissance Lyrics.txt_32,544,cl44-nil-nil-say-[obj-theme_unaff-thing-sn1,and(thing,dark,sn1),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Renaissance Lyrics.txt_33,577,cl45-nil-nil-place-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_34,611,cl46-nil-nil-say-[])
+lf(Renaissance Lyrics.txt_35,646,cl47-nil-nil-waste-[adj-(mod)-away-nil,iobj-goal-light-sn2,subj-agent-life-sn1,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Renaissance Lyrics.txt_36,682,cl48-nil-nil-be-[xcomp-prop-better-sn2,subj-theme_bound-you-sn1,and(better,so_much,sn2),def_prop(better,[astratto]),def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_37,719,cl49-nil-nil-be-[xcomp-prop-faceless-sn3,xcomp-theme-when-sn2,subj-theme_bound-you-sn1,def_prop(faceless,[evaluative]),def_prop(when,[tempo]),def_prop(you,[umano])])
+lf(Renaissance Lyrics.txt_38,757,cl50-nil-nil-be-[xcomp-prop-faithless-sn2,subj-theme_bound-i-sn1,def_prop(faithless,[evaluative]),def_prop(i,[umano])])

@@ -1,0 +1,94 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Emerald Lyrics.txt_1-1  []-positive  []
+Emerald Lyrics.txt_2-3  []-positive  []
+Emerald Lyrics.txt_3-6  []-positive  []
+Emerald Lyrics.txt_3-7  []-positive  [fgb]
+Emerald Lyrics.txt_4-11  []-negative  [neg,neg]
+Emerald Lyrics.txt_5-18  []-negative  [neg]
+Emerald Lyrics.txt_7-31  []-negative  [neg]
+Emerald Lyrics.txt_7-32  []-positive  [fgb]
+Emerald Lyrics.txt_8-40  [when-temp_coinc]-positive  []
+Emerald Lyrics.txt_8-41  []-negative  [neg]
+Emerald Lyrics.txt_9-50  []-negative  [neg]
+Emerald Lyrics.txt_10-60  []-negative  [neg]
+Emerald Lyrics.txt_11-71  []-positive  [neg,neg]
+Emerald Lyrics.txt_12-83  []-negative  [neg]
+Emerald Lyrics.txt_13-96  [then-temp_seq]-positive  []
+Emerald Lyrics.txt_14-110  []-positive  [fgb]
+Emerald Lyrics.txt_15-125  []-positive  []
+Emerald Lyrics.txt_16-142  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Emerald Lyrics.txt_1-1  [emerald,Lyrics,by,Ace,Frehley]  [title]
+Emerald Lyrics.txt_2-3  [down,from,the,glen,the,marching,men,came]  [raise_issue(be,[_367198,factive,statement,_367216,subjective])]
+Emerald Lyrics.txt_3-6  [with,their,shields]  [provide_expl_just(shield,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Emerald Lyrics.txt_3-7  [and,their,swords]  [provide_expl_just(shield,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Emerald Lyrics.txt_4-11  [to,fight,the,fight,they,believed,to,be]  [reject_expl_just(fight,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Emerald Lyrics.txt_5-18  [the,overlords,overthrow]  [reject_expl_just(overthrow,[external,factive,narration,background,objective])]
+Emerald Lyrics.txt_7-31  [they,brought,plunder]  [reject_expl_just(bring,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Emerald Lyrics.txt_7-32  [,,swords,and,flame]  [provide_expl_just(bring,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Emerald Lyrics.txt_8-40  [when,they,left]  [provide_expl_just(leave,[external,factive,narration,foreground,objective])]
+Emerald Lyrics.txt_8-41  [the,town,was,empty]  [reject_expl_just(leave,[external,factive,narration,foreground,objective])]
+Emerald Lyrics.txt_9-50  [children,would,never,play,again]  [reject_expl_just(play,[external,nonfactive,narration,background,objective])]
+Emerald Lyrics.txt_10-60  [from,their,graves,i,heard,the,fallen]  [reject_expl_just(hear,[external,factive,narration,foreground,objective])]
+Emerald Lyrics.txt_11-71  [above,the,battle,cry]  [provide_expl_just(cry,[external,factive,narration,background,objective])]
+Emerald Lyrics.txt_12-83  [there,were,many_more,to,die]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Emerald Lyrics.txt_13-96  [then,onward,over,the,mountain]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Emerald Lyrics.txt_14-110  [and,outward,towards,the,sea]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Emerald Lyrics.txt_15-125  [they,had,come,to,claim,the,Emerald]  [provide_expl_just(claim,[external,factive,narration,background,objective])]
+Emerald Lyrics.txt_16-142  [without,it,they,could,not,leave]  [reject_expl_just(leave,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Emerald Lyrics.txt_1-1)-[primary-vision]
+2-(Emerald Lyrics.txt_2-3)-[]
+3-(Emerald Lyrics.txt_3-6)-[]
+4-(Emerald Lyrics.txt_3-7)-[emotions-aggression]
+5-(Emerald Lyrics.txt_4-11)-[emotions-aggression,emotions-aggression,secondary-abstract_tought]
+6-(Emerald Lyrics.txt_5-18)-[]
+7-(Emerald Lyrics.txt_7-31)-[]
+8-(Emerald Lyrics.txt_7-32)-[emotions-aggression,primary-fire]
+9-(Emerald Lyrics.txt_8-40)-[secondary-temporal_repere]
+half
+10-(Emerald Lyrics.txt_8-41)-[]
+11-(Emerald Lyrics.txt_9-50)-[emotions-expressive_beh,secondary-temporal_repere]
+12-(Emerald Lyrics.txt_10-60)-[primary-sound,primary-descent]
+13-(Emerald Lyrics.txt_11-71)-[primary-height,emotions-aggression,emotions-expressive_beh]
+14-(Emerald Lyrics.txt_12-83)-[primary-passivity]
+15-(Emerald Lyrics.txt_13-96)-[secondary-temporal_repere,primary-concreteness,primary-height]
+16-(Emerald Lyrics.txt_14-110)-[primary-concreteness,primary-concreteness,primary-water]
+17-(Emerald Lyrics.txt_15-125)-[secondary-instru_behavior]
+18-(Emerald Lyrics.txt_16-142)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Emerald Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Frehley-sn2,subj-theme_bound-Lyrics-sn1,and(Frehley,Ace,sn2),and(Lyrics,emerald,sn1),def_prop(Frehley,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Emerald Lyrics.txt_2,3,cl2-nil-nil-come-[xadj-adj-down-adj1,iobj-goal-glen-sn2,subj-agent-man-sn1,and(man,marching,sn1),def_prop(down,_375490),def_prop(glen,[oggetto]),def_prop(man,[any])])
+lf(Emerald Lyrics.txt_3,6,cl4-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Emerald Lyrics.txt_3,6,cl3-nil-nil-shield-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Emerald Lyrics.txt_4,11,cl7-nil-nil-be-[])
+lf(Emerald Lyrics.txt_4,11,cl6-nil-nil-believe-[obj-theme_unaff-fight-sn2,xcomp-purpose-fight-2,subj-actor-they-sn1,def_prop(fight,[attivita,informa]),def_prop(they,[umano])])
+lf(Emerald Lyrics.txt_4,11,cl5-nil-nil-fight-[])
+lf(Emerald Lyrics.txt_5,18,cl8-nil-nil-overthrow-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Emerald Lyrics.txt_6,24,cl9-nil-nil-be-[obl-locat-town-sn1,ncmod-loc_direct-town-sn1,def_prop(town,[istituzione,luogo]),def_prop(town,[istituzione,luogo])])
+lf(Emerald Lyrics.txt_7,31,cl11-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Emerald Lyrics.txt_7,31,cl10-nil-nil-bring-[obj-theme_aff-plunder-sn2,subj-agent-they-sn1,def_prop(plunder,[oggetto]),def_prop(they,[umano])])
+lf(Emerald Lyrics.txt_8,40,cl13-nil-nil-be-[xcomp-prop-empty-sn4,subj-theme_bound-town-sn3,def_prop(empty,[valutativo]),def_prop(town,[istituzione,luogo])])
+lf(Emerald Lyrics.txt_8,40,cl12-nil-nil-leave-[obj-theme-when-sn2,subj-theme-they-sn1,def_prop(when,[tempo]),def_prop(they,[umano])])
+lf(Emerald Lyrics.txt_9,50,cl14-nil-would-play-[subj-agent-child-sn1,neg-never-nil,def_prop(child,[any,attivita,body_part,oggetto,strumento,umano])])
+lf(Emerald Lyrics.txt_10,60,cl15-nil-nil-hear-[obj-theme-fallen-sn3,iobj-goal-grave-sn2,subj-experiencer-i-sn1,def_prop(fallen,[istituzione]),def_prop(grave,[oggetto,strumento,tempo]),def_prop(i,[umano])])
+lf(Emerald Lyrics.txt_11,71,cl16-nil-nil-cry-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Emerald Lyrics.txt_12,83,cl17-nil-nil-be-[])
+lf(Emerald Lyrics.txt_13,96,cl18-nil-nil-be-[adj-subj_disc-over-sn3,xcomp-theme-onward-sn2,subj-theme_bound-mountain-sn1,def_prop(over,[istituzione]),def_prop(onward,[evaluative]),def_prop(mountain,[oggetto])])
+lf(Emerald Lyrics.txt_14,110,cl19-nil-nil-be-[cmod-subord-be-",adj-(mod)-outward-nil,ncmod-loc_direct-sea-sn1,def_prop(sea,[attivita,cambia,oggetto])])
+lf(Emerald Lyrics.txt_15,125,cl21-nil-nil-claim-[obj-goal-Emerald-sn2,xcomp-purpose-claim-2,def_prop(Emerald,[place,attivita,informa,tecno,umano])])
+lf(Emerald Lyrics.txt_15,125,cl20-nil-nil-come-[subj-agent-they-sn1,aux-had-nil,def_prop(they,[umano])])
+lf(Emerald Lyrics.txt_16,142,cl22-not-could-leave-[ncmod-privation-it-sn2,subj-theme-they-sn1,def_prop(it,[any]),def_prop(they,[umano])])

@@ -1,0 +1,89 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Classic Lyrics.txt_1-1  []-positive  []
+Classic Lyrics.txt_2-3  []-negative  [neg]
+Classic Lyrics.txt_2-4  [since-cause]-positive  []
+Classic Lyrics.txt_3-11  []-positive  [fgb]
+Classic Lyrics.txt_3-12  []-negative  [fgb,neg]
+Classic Lyrics.txt_3-13  []-negative  [fgb,neg]
+Classic Lyrics.txt_4-16  [so-result]-negative  [fgb]
+Classic Lyrics.txt_4-16  [so-result,when-temp_coinc]-negative  [fgb]
+Classic Lyrics.txt_5-21  []-positive  []
+Classic Lyrics.txt_5-22  []-positive  []
+Classic Lyrics.txt_5-23  []-none  []
+Classic Lyrics.txt_6-29  []-negative  [neg,neg]
+Classic Lyrics.txt_7-37  []-negative  [neg,fhd]
+Classic Lyrics.txt_8-45  []-positive  []
+Classic Lyrics.txt_8-46  []-positive  []
+Classic Lyrics.txt_9-55  []-negative  [neg]
+Classic Lyrics.txt_10-66  []-positive  [bkc]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Classic Lyrics.txt_1-1  [classic,Lyrics,by,Punkstah]  [title]
+Classic Lyrics.txt_2-3  [i,combat,getting,ready,for,have,gone,back,to,the,classics,bringing]  [reject_expl_just(listen,[external,factive,narration,foreground,objective]),reject_expl_just(go,[external,factive,explanation,background,objective]),propose_opin_neg(go,[external,factive,explanation,background,objective]),reject_expl_just(get,[external,factive,result,foreground,objective]),propose_opin_neg(get,[external,factive,result,foreground,objective]),reject_expl_just(bring,[external,factive,narration,foreground,objective]),reject_expl_just(rap,[external,factive,explanation,background,objective]),propose_opin_neg(rap,[external,factive,explanation,background,objective])]
+Classic Lyrics.txt_2-4  [,,the,golden,hype,listening,to,rap,since,class,six,its,fantastic]  [provide_expl_just(listen,[external,factive,narration,foreground,objective]),provide_expl_just(go,[external,factive,explanation,background,objective]),provide_expl_just(get,[external,factive,result,foreground,objective]),provide_expl_just(bring,[external,factive,narration,foreground,objective]),provide_expl_just(rap,[external,factive,explanation,background,objective])]
+Classic Lyrics.txt_3-11  [what,i,do,is,magic]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Classic Lyrics.txt_3-12  [and,it,is,Drastic,all,you]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Classic Lyrics.txt_3-13  [newbies,are,dramatic,and,my,flow,is,bombastic,rakim,said,Timeless]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Classic Lyrics.txt_4-16  [so,age,don-t,count,in,the,booth]  [proposal(be,[_770262,_770268,statement,foreground,_770286])]
+Classic Lyrics.txt_4-16  [so,age,don-t,count,in,the,booth,when]  [proposal(be,[_770608,_770614,statement,foreground,_770632])]
+Classic Lyrics.txt_5-21  [your,flow,stay,submerged,in,the,fountain,of,youth]  [provide_expl_just(stay,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(wait,[external,factive,narration,background,objective])]
+Classic Lyrics.txt_5-22  [its,its,timeless,the,classic,i,have,felt,better,than]  [provide_expl_just(stay,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(wait,[external,factive,narration,background,objective])]
+Classic Lyrics.txt_5-23  [i,ever,been,wait]  [provide_expl_just(stay,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(wait,[external,factive,narration,background,objective])]
+Classic Lyrics.txt_6-29  [Hol,up,spitting,bullshit,is,sin,back,to,my,roots]  [reject_expl_just(sin,[external,factive,cause,foreground,objective])]
+Classic Lyrics.txt_7-37  [no,school,like,old,school,making]  [reject_expl_just(make,[external,factive,cause,foreground,objective])]
+Classic Lyrics.txt_8-45  [the,best_of_the_best,is,only,my,rule,learned,from,the,legends]  [provide_expl_just(learn,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Classic Lyrics.txt_8-46  [cus]  [provide_expl_just(learn,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Classic Lyrics.txt_9-55  [its,a,long,way,to,go,i,chose,music,over,everything,in,ma,blood]  [reject_expl_just(choose,[external,factive,cause,foreground,objective])]
+Classic Lyrics.txt_10-66  [Ami,shuru,Tora,dhula,mishha,jabi,ga,yeah,Tora,dhula,jabi,mishha,ga,ami,shuru,jokhng,mishha,Tora,dhula,jabi,its,classic,its,fantastic]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Classic Lyrics.txt_1-1)-[secondary-order]
+2-(Classic Lyrics.txt_2-3)-[emotions-aggression,primary-concreteness]
+3-(Classic Lyrics.txt_2-4)-[emotions-glory,secondary-order,primary-unknow]
+4-(Classic Lyrics.txt_3-11)-[primary-unknow]
+5-(Classic Lyrics.txt_3-12)-[]
+6-(Classic Lyrics.txt_3-13)-[secondary-social_behavior]
+7-(Classic Lyrics.txt_4-16)-[secondary-instru_behavior]
+8-(Classic Lyrics.txt_4-16)-[secondary-instru_behavior,secondary-temporal_repere]
+half
+9-(Classic Lyrics.txt_5-21)-[primary-water]
+10-(Classic Lyrics.txt_5-22)-[secondary-order]
+11-(Classic Lyrics.txt_5-23)-[secondary-temporal_repere]
+12-(Classic Lyrics.txt_6-29)-[primary-concreteness,primary-depth]
+13-(Classic Lyrics.txt_7-37)-[emotions-affection,secondary-temporal_repere]
+14-(Classic Lyrics.txt_8-45)-[secondary-abstract_tought]
+15-(Classic Lyrics.txt_8-46)-[]
+16-(Classic Lyrics.txt_9-55)-[primary-concreteness,secondary-abstract_tought,primary-sound,primary-concreteness,primary-narcissism]
+17-(Classic Lyrics.txt_10-66)-[secondary-order,primary-unknow]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Classic Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Punkstah-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,classic,sn1),def_prop(Punkstah,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Classic Lyrics.txt_2,3,cl6-nil-nil-rap-[])
+lf(Classic Lyrics.txt_2,3,cl5-nil-nil-listen-[xcomp-prop-fantastic-sn7,obj-theme-class-sn6,xcomp-purpose-listen-2,subj-agent-hype-sn5,and(class,class,sn6),and(hype,golden,sn5),def_prop(fantastic,[evaluative]),def_prop(class,[astratto,istituzione]),def_prop(hype,[evento])])
+lf(Classic Lyrics.txt_2,3,cl4-nil-nil-bring-[xadj-adj-ready-adj1,cmod-subord-go-nil,def_prop(ready,_791000)])
+lf(Classic Lyrics.txt_2,3,cl3-nil-nil-go-[adj-(mod)-back-nil,xcomp-purpose-get-2,subj-agent-combat-sn1,aux-have-nil,and(combat,i,sn1),def_prop(combat,[attivita])])
+lf(Classic Lyrics.txt_2,3,cl2-nil-nil-get-[iobj-paziente-classics-sn2,def_prop(classics,[astratto])])
+lf(Classic Lyrics.txt_3,11,cl8-nil-nil-say-[])
+lf(Classic Lyrics.txt_3,11,cl7-nil-nil-be-[xcomp-prop-Timeless-sn10,xcomp-theme-rakim-sn9,coord-theme-flow_and_dramatic-sn8,xcomp-theme-dramatic-sn7,xcomp-theme-flow-sn6,subj-theme_bound-newbie-sn4,cmod-subord-be-",xcomp-theme-you-sn3,xcomp-prop-all-sn2,subj-theme_bound-it-sn1,and(rakim,bombastic,sn9),and(dramatic,flow_and_dramatic-sn16,sn7),and(dramatic,dramatic-sn15,sn7),and(dramatic,flow-sn6,sn7),and(all,Drastic,sn2),def_prop(Timeless,[istituzione,umano]),def_prop(rakim,[istituzione]),def_prop(flow_and_dramatic,[attivita,evento,tempo]),def_prop(dramatic,[attivita,evento,tempo]),def_prop(flow,[attivita,evento,tempo]),def_prop(newbie,[informa,tecno]),def_prop(you,[umano]),def_prop(all,[_791766]),def_prop(it,[any])])
+lf(Classic Lyrics.txt_4,16,cl9-not-nil-count-[cmod-subord-count-so,iobj-goal-booth-sn4,subj-actor-age-sn3,iobj-goal-booth-sn2,subj-actor-age-sn1,aux-do-nil,def_prop(booth,[oggetto,strumento]),def_prop(age,[tempo]),def_prop(booth,[oggetto,strumento]),def_prop(age,[tempo])])
+lf(Classic Lyrics.txt_5,21,cl12-nil-nil-wait-[adj-(mod)-ever-nil,subj-actor-i-sn13,ncmod-locativo-fountain-sn3,def_prop(i,[umano]),def_prop(fountain,[oggetto,strumento])])
+lf(Classic Lyrics.txt_5,21,cl11-nil-nil-feel-[adj-(mod)-better-nil,subj-experiencer-i-sn8,subj-experiencer-i-sn7,aux-have-nil,and(i,classic,sn8),and(i,classic,sn7),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Classic Lyrics.txt_5,21,cl10-nil-nil-stay-[xcomp-prop-submerged-sn2,subj-agent-flow-sn1,def_prop(submerged,[evaluative]),def_prop(flow,[attivita,evento,tempo])])
+lf(Classic Lyrics.txt_6,29,cl14-nil-nil-sin-[adj-locative-back-nil,adj-locative-up-nil,obj-theme_unaff-bullshit-sn2,xadj-result-spit-2,subj-actor-Hol-sn1,aux-(is)-nil,def_prop(bullshit,[attivita,informa]),def_prop(Hol,[istituzione,umano])])
+lf(Classic Lyrics.txt_6,29,cl13-nil-nil-spit-[iobj-goal-root-sn3,def_prop(root,[attivita,body_part,informa,nquant,plant,umano])])
+lf(Classic Lyrics.txt_7,37,cl15-nil-nil-make-[subj-agent-school-sn2,subj-agent-school-sn1,and(school,old,sn2),and(school,school,sn1),and(school,no,sn1),and(school,old,sn1),def_prop(school,[astratto,istituzione,oggetto,strumento,tempo]),def_prop(school,[astratto,istituzione,oggetto,strumento,tempo])])
+lf(Classic Lyrics.txt_8,45,cl17-nil-nil-learn-[iobj-goal-legend-sn3,xmod-prop-learn-2,def_prop(legend,[attivita,informa])])
+lf(Classic Lyrics.txt_8,45,cl16-nil-nil-be-[subj-actor-you-sn5,xcomp-prop-rule-sn2,subj-theme_bound-best_of_the_best-sn1,def_prop(you,[umano]),def_prop(rule,[astratto,attivita,informa,oggetto,strumento,tempo]),def_prop(best_of_the_best,[attivita,umano])])
+lf(Classic Lyrics.txt_9,55,cl19-nil-nil-choose-[adj-(mod)-over-nil,obj-theme_aff-everything-sn5,obj-theme_unaff-music-sn4,obj-prop-i-sn3,xadj-result-go-2,subj-actor-way-sn2,subj-actor-way-sn1,and(way,long,sn2),and(way,long,sn1),def_prop(everything,[astratto,informa,oggetto]),def_prop(music,[astratto,attivita,informa]),def_prop(i,[umano]),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(way,[astratto,attivita,oggetto,stato,strumento])])
+lf(Classic Lyrics.txt_9,55,cl18-nil-nil-go-[])
+lf(Classic Lyrics.txt_10,66,cl20-nil-nil-be-[adj-(mod)-yeah-nil,xcomp-theme-its-sn4,xcomp-theme-jabi-sn3,xcomp-theme-jokhng-sn2,subj-theme_bound-ga-sn1,and(jabi,mishha,sn3),and(jokhng,ga,sn2),and(ga,Tora,sn1),and(ga,jabi,sn1),and(ga,mishha,sn1),and(ga,dhula,sn1),def_prop(its,[istituzione]),def_prop(jabi,[istituzione]),def_prop(jokhng,[istituzione]),def_prop(ga,[informa,tecno])])

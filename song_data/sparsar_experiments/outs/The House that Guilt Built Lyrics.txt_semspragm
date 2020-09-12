@@ -1,0 +1,59 @@
+"POLARITY, DISCOURSE MARKERS"
+
+The House that Guilt Built Lyrics.txt_1-1  []-negative  [neg]
+The House that Guilt Built Lyrics.txt_2-3  []-positive  []
+The House that Guilt Built Lyrics.txt_2-4  []-negative  []
+The House that Guilt Built Lyrics.txt_3-6  [since-cause]-positive  []
+The House that Guilt Built Lyrics.txt_4-10  []-positive  [fgb]
+The House that Guilt Built Lyrics.txt_5-15  []-negative  [neg]
+The House that Guilt Built Lyrics.txt_6-21  []-negative  [fgb,neg]
+The House that Guilt Built Lyrics.txt_7-28  []-positive  []
+The House that Guilt Built Lyrics.txt_8-38  []-negative  [neg]
+The House that Guilt Built Lyrics.txt_9-47  []-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+The House that Guilt Built Lyrics.txt_1-1  [the,house,that,Guilt,Built,Lyrics,by,the,Wrens]  [title]
+The House that Guilt Built Lyrics.txt_2-3  [it,is]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+The House that Guilt Built Lyrics.txt_2-4  [been,so_long]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+The House that Guilt Built Lyrics.txt_3-6  [since,you,have,heard,from,me]  [provide_expl_just(hear,[external,factive,narration,background,objective])]
+The House that Guilt Built Lyrics.txt_4-10  [a,wife,and,kid,got]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+The House that Guilt Built Lyrics.txt_5-15  [that,i,never,see]  [reject_expl_just(see,[external,factive,narration,background,objective])]
+The House that Guilt Built Lyrics.txt_6-21  [and,i,am,near,nowhere]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+The House that Guilt Built Lyrics.txt_7-28  [where,i,dreamed,i,had,be]  [provide_expl_just(dream,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+The House that Guilt Built Lyrics.txt_8-38  [i,can,not,believe]  [reject_expl_just(believe,[external,nonfactive,narration,foreground,objective])]
+The House that Guilt Built Lyrics.txt_9-47  [what,life-s,done,to,me]  [proposal(be,[_54770,_54776,statement,foreground,_54794])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(The House that Guilt Built Lyrics.txt_1-1)-[]
+2-(The House that Guilt Built Lyrics.txt_2-3)-[]
+3-(The House that Guilt Built Lyrics.txt_2-4)-[]
+4-(The House that Guilt Built Lyrics.txt_3-6)-[primary-sound]
+5-(The House that Guilt Built Lyrics.txt_4-10)-[]
+half
+6-(The House that Guilt Built Lyrics.txt_5-15)-[primary-vision]
+7-(The House that Guilt Built Lyrics.txt_6-21)-[primary-concreteness]
+8-(The House that Guilt Built Lyrics.txt_7-28)-[primary-concreteness,primary-counscious]
+9-(The House that Guilt Built Lyrics.txt_8-38)-[secondary-abstract_tought]
+10-(The House that Guilt Built Lyrics.txt_9-47)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(The House that Guilt Built Lyrics.txt_1,1,cl1-nil-nil-build-[arg_mod-agent-Wrens-sn4,obj-theme_aff-house-sn1,def_prop(Wrens,[istituzione]),def_prop(house,[attivita,istituzione,oggetto,strumento])])
+lf(The House that Guilt Built Lyrics.txt_2,3,cl2-nil-nil-be-[adj-subj_disc-so_long-sn2,subj-theme_bound-you-sn1,def_prop(so_long,[informa,tecno]),def_prop(you,[umano])])
+lf(The House that Guilt Built Lyrics.txt_3,6,cl3-nil-nil-hear-[iobj-goal-me-sn2,subj-experiencer-you-sn1,aux-have-nil,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(The House that Guilt Built Lyrics.txt_4,10,cl4-nil-nil-get-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(The House that Guilt Built Lyrics.txt_5,15,cl5-nil-nil-see-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(The House that Guilt Built Lyrics.txt_6,21,cl6-nil-nil-be-[cmod-subord-be-",xcomp-prop-near-sn2,subj-theme_bound-i-sn1,def_prop(near,[misura]),def_prop(i,[umano])])
+lf(The House that Guilt Built Lyrics.txt_7,28,cl9-nil-nil-be-[])
+lf(The House that Guilt Built Lyrics.txt_7,28,cl8-nil-nil-have-[xcomp-theme-i-sn3,xcomp-purpose-dream-2,obl-modal-where-sn2,subj-experiencer-i-sn1,def_prop(i,[umano]),def_prop(where,[luogo]),def_prop(i,[umano])])
+lf(The House that Guilt Built Lyrics.txt_7,28,cl7-nil-nil-dream-[])
+lf(The House that Guilt Built Lyrics.txt_8,38,cl10-not-can-believe-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(The House that Guilt Built Lyrics.txt_9,47,cl11-nil-nil-do-[iobj-goal-me-sn3,xcomp-actor-what-sn2,subj-theme_unaff-life-s-sn1,def_prop(me,[umano]),def_prop(what,[oggetto]),def_prop(life-s,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])

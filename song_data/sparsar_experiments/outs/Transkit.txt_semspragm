@@ -1,0 +1,123 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Transkit.txt_1-1  []-negative  [neg]
+Transkit.txt_2-3  []-positive  []
+Transkit.txt_2-4  []-suspension  [fgb,neg,neg]
+Transkit.txt_3-8  []-suspension  [neg,neg]
+Transkit.txt_4-12  []-negative  [neg]
+Transkit.txt_5-17  [so-result]-positive  [fgb]
+Transkit.txt_6-24  []-positive  [fgb]
+Transkit.txt_6-25  []-positive  [fhd]
+Transkit.txt_7-35  []-positive  []
+Transkit.txt_8-43  [but-advers]-positive  [fgb]
+Transkit.txt_8-44  []-positive  []
+Transkit.txt_9-53  []-positive  [fgb]
+Transkit.txt_9-54  [(as)-temp_coinc]-positive  []
+Transkit.txt_10-64  []-positive  [fgb,fgb]
+Transkit.txt_10-64  []-positive  [fgb,fgb,neg]
+Transkit.txt_11-78  []-positive  []
+Transkit.txt_12-90  []-positive  []
+Transkit.txt_12-91  []-positive  [fgb]
+Transkit.txt_13-104  []-positive  [fgb]
+Transkit.txt_13-105  []-negative  [neg,neg]
+Transkit.txt_14-119  []-negative  [bkc,neg,fgb,fgb]
+Transkit.txt_15-134  []-positive  [fgb]
+Transkit.txt_15-135  []-negative  [neg,neg]
+Transkit.txt_15-136  []-positive  []
+Transkit.txt_16-151  []-positive  [bkc]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Transkit.txt_1-1  [transkit,by,swindle]  [title]
+Transkit.txt_2-3  [you,are,listening,to,walk]  [provide_expl_just(walk,[external,factive,narration,background,objective]),provide_expl_just(listen,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Transkit.txt_2-4  [and,skank,radio,in,tune,to,the,big,bad,Michael,mood,sci]  [provide_expl_just(walk,[external,factive,narration,background,objective]),provide_expl_just(listen,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Transkit.txt_3-8  [fi,section,in,new,direction,with,no,objection]  [provide_expl_just(section,[external,factive,narration,background,objective])]
+Transkit.txt_4-12  [it,kick]  reject_expl_opin(nil,[])
+Transkit.txt_5-17  [so,i,can,always,tell,myself,just,do,the,old,thing,a,new,way]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Transkit.txt_6-24  [that,is,what,helps,me,to,still]  [provide_expl_just(write,[external,factive,narration,foreground,objective]),provide_expl_just(use,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(record,[external,factive,narration,foreground,objective])]
+Transkit.txt_6-25  [use,the,traditional,way,of,recording,or,writing]  [provide_expl_just(write,[external,factive,narration,foreground,objective]),provide_expl_just(use,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(record,[external,factive,narration,foreground,objective])]
+Transkit.txt_7-35  [music]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Transkit.txt_8-43  [but,produce,it,in,a,way]  [provide_expl_just(produce,[external,factive,narration,background,objective]),provide_expl_just(way,[internal,factive,narration,background,objective])]
+Transkit.txt_8-44  [that,is,new]  [provide_expl_just(produce,[external,factive,narration,background,objective]),provide_expl_just(way,[internal,factive,narration,background,objective])]
+Transkit.txt_9-53  [and,it,is,much,the,synthesizers]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+Transkit.txt_9-54  [as,we,have,at,Mongo,as_well]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+Transkit.txt_10-64  [and,try,to,take,these,thousand,and,bringing,them,up_to,date]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(bring,[external,factive,circumstance,foreground,objective])]
+Transkit.txt_10-64  [and,try,to,take,these,thousand,and,bringing,them,up_to,date,without,losing]  [provide_expl_just(take,[external,factive,narration,background,objective]),propose_opin_neg(bring,[external,factive,circumstance,foreground,objective])]
+Transkit.txt_11-78  [that,cantor]  [raise_issue(be,[_787172,factive,statement,_787190,subjective])]
+Transkit.txt_12-90  [original,feel]  [provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Transkit.txt_12-91  [and,soul,basically]  [provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Transkit.txt_13-104  [and,that,is]  [provide_expl_just(cross,[external,factive,narration,background,objective])]
+Transkit.txt_13-105  [where,we,cross,paths,.,we,cross,paths]  [reject_expl_just(cross,[external,factive,narration,background,objective])]
+Transkit.txt_14-119  [yeah,exactly,know,what,i_mean]  [reject_expl_just(know,[external,factive,narration,background,objective])]
+Transkit.txt_15-134  [and,that,is]  [provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Transkit.txt_15-135  [why,we,have,been,having,so_much,fun,in,the,studio,these,past,days,.,we,have,been,having,so_much,fun,in,the,studio]  [reject_expl_just(have,[external,factive,narration,foreground,objective])]
+Transkit.txt_15-136  [these,past,days]  [provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Transkit.txt_16-151  [yeah,that,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Transkit.txt_1-1)-[]
+2-(Transkit.txt_2-3)-[]
+3-(Transkit.txt_2-4)-[primary-sound]
+4-(Transkit.txt_3-8)-[]
+5-(Transkit.txt_4-12)-[emotions-aggression]
+6-(Transkit.txt_5-17)-[secondary-social_behavior,secondary-temporal_repere]
+7-(Transkit.txt_6-24)-[secondary-social_behavior]
+8-(Transkit.txt_6-25)-[secondary-instru_behavior]
+9-(Transkit.txt_7-35)-[primary-sound]
+10-(Transkit.txt_8-43)-[secondary-instru_behavior]
+11-(Transkit.txt_8-44)-[]
+12-(Transkit.txt_9-53)-[]
+half
+13-(Transkit.txt_9-54)-[primary-concreteness]
+14-(Transkit.txt_10-64)-[secondary-instru_behavior,secondary-abstract_tought,secondary-temporal_repere]
+15-(Transkit.txt_10-64)-[secondary-instru_behavior,secondary-abstract_tought,secondary-temporal_repere]
+16-(Transkit.txt_11-78)-[]
+17-(Transkit.txt_12-90)-[]
+18-(Transkit.txt_12-91)-[]
+19-(Transkit.txt_13-104)-[]
+20-(Transkit.txt_13-105)-[primary-concreteness,primary-brink,primary-brink]
+21-(Transkit.txt_14-119)-[secondary-abstract_tought]
+22-(Transkit.txt_15-134)-[]
+23-(Transkit.txt_15-135)-[secondary-abstract_tought,emotions-positive_affect,secondary-instru_behavior,secondary-temporal_repere,emotions-positive_affect,secondary-instru_behavior]
+24-(Transkit.txt_15-136)-[secondary-temporal_repere]
+25-(Transkit.txt_16-151)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Transkit.txt_1,1,cl1-nil-nil-swindle-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Transkit.txt_2,3,cl4-nil-nil-be-[cmod-subord-be-",ncmod-locativo-tune-sn3,subj-theme_bound-radio-sn2,and(radio,skank,sn2),def_prop(tune,[astratto,attivita,informa]),def_prop(radio,[attivita,informa,oggetto,strumento])])
+lf(Transkit.txt_2,3,cl3-nil-nil-walk-[subj-theme_aff-you-sn1,def_prop(you,[umano])])
+lf(Transkit.txt_2,3,cl2-nil-nil-listen-[subj-agent-you-sn1,aux-are-nil,progr-listening-nil,def_prop(you,[umano])])
+lf(Transkit.txt_3,8,nil-nil-nil-section-[ncmod-modale-objection-sn3,ncmod-locativo-direction-sn2,subj-actor-fi-sn1,and(objection,no,sn3),and(direction,new,sn2),def_prop(objection,[attivita,informa]),def_prop(direction,[astratto,attivita,informa,luogo,relat]),def_prop(fi,[informa,legale,tecno])])
+lf(Transkit.txt_4,12,cl5-nil-nil-kick-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Transkit.txt_5,17,cl7-nil-nil-do-[aux-do-nil])
+lf(Transkit.txt_5,17,cl6-nil-can-tell-[ccomp-prop-do-cl7,adj-(mod)-just-nil,obj-theme-way-sn4,obj2-paziente-thing-sn3,obj-theme_unaff-myself-sn2,subj-agent-i-sn1,adj-(mod)-always-nil,and(way,new,sn4),and(thing,old,sn3),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(myself,[umano]),def_prop(i,[umano])])
+lf(Transkit.txt_6,24,cl11-nil-nil-write-[subj-agent-write-cl11,subj-agent-pro-nil])
+lf(Transkit.txt_6,24,cl10-nil-nil-record-[subj-theme-way-sn2,and(way,traditional,sn2),def_prop(way,[astratto,attivita,oggetto,stato,strumento])])
+lf(Transkit.txt_6,24,cl9-nil-nil-use-[subj-actor-way-sn2,subj-actor-way-sn1,and(way,traditional,sn2),and(way,traditional,sn1),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(way,[astratto,attivita,oggetto,stato,strumento])])
+lf(Transkit.txt_6,24,cl8-nil-nil-be-[])
+lf(Transkit.txt_7,35,cl12-nil-nil-say-[obj-theme_unaff-music-sn1,def_prop(music,[astratto,attivita,informa])])
+lf(Transkit.txt_8,43,cl14-nil-nil-be-[xcomp-prop-new-sn5,ncmod-locativo-way-sn3,def_prop(new,[evaluative]),def_prop(way,[astratto,attivita,oggetto,stato,strumento])])
+lf(Transkit.txt_8,43,cl13-nil-nil-produce-[subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Transkit.txt_9,53,cl16-nil-nil-have-[adj-(mod)-as_well-nil,ncmod-modale-Mongo-sn5,subj-experiencer-we-sn4,cmod-subord-have-",def_prop(Mongo,[place,nquant]),def_prop(we,[umano])])
+lf(Transkit.txt_9,53,cl15-nil-nil-be-[obj2-benef-synthesizer-sn3,xcomp-prop-much-sn2,subj-theme_bound-it-sn1,def_prop(synthesizer,[oggetto,strumento]),def_prop(much,[nquant]),def_prop(it,[any])])
+lf(Transkit.txt_10,64,cl20-nil-nil-lose-[subj-theme-them-sn11,obj-theme-thousand-sn2,xcomp-purpose-take-3,and(thousand,these,sn2),def_prop(them,[umano]),def_prop(thousand,[nquant])])
+lf(Transkit.txt_10,64,cl19-nil-nil-bring-[cmod-coord-bring-and,ncmod-loc_direct-date-sn12,obj-theme_aff-them-sn11,subj-agent-you-sn10,obj-theme-thousand-sn8,xcomp-purpose-bring-cl19,cmod-subord-lose-",cmod-coord-take-and,ncmod-loc_direct-date-sn6,obj-theme_aff-them-sn5,subj-agent-you-sn4,and(thousand,these,sn8),def_prop(date,[edible,oggetto,tempo,umano]),def_prop(them,[umano]),def_prop(you,[umano]),def_prop(thousand,[nquant]),def_prop(date,[edible,oggetto,tempo,umano]),def_prop(them,[umano]),def_prop(you,[umano])])
+lf(Transkit.txt_10,64,cl18-nil-nil-take-[])
+lf(Transkit.txt_10,64,cl17-nil-nil-try-[subj-actor-you-sn7,subj-actor-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Transkit.txt_11,78,cl21-nil-nil-say-[obj-theme_unaff-cantor-sn1,and(cantor,that,sn1),def_prop(cantor,[umano])])
+lf(Transkit.txt_12,90,cl23-nil-nil-be-[cmod-subord-be-",subj-theme_bound-soul-sn2,def_prop(soul,[attivita,emotivo,informa,umano])])
+lf(Transkit.txt_12,90,cl22-nil-nil-feel-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Transkit.txt_13,104,cl25-nil-nil-cross-[xcomp-prop-path-sn5,subj-agent-we-sn2,cmod-subord-cross-",def_prop(path,[luogo,oggetto,strumento]),def_prop(we,[umano])])
+lf(Transkit.txt_13,104,cl24-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Transkit.txt_14,119,cl26-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Transkit.txt_15,134,cl28-nil-nil-have-[ncmod-locativo-studio-sn5,xcomp-prop-fun-sn4,xcomp-purpose-have-4,cmod-subord-have-",and(fun,so_much,sn4),def_prop(studio,[oggetto,strumento]),def_prop(fun,[attivita,informa])])
+lf(Transkit.txt_15,134,cl27-nil-nil-be-[adj-temporal-days-nil,subj-theme_bound-this-sn7,f2-sn2-why-sn3,subj-theme_bound-we-sn2,subj-theme_bound-you-sn1,and(days,past,sn8),def_prop(days,[tempo]),def_prop(this,[oggetto,umano]),def_prop(why,[astratto]),def_prop(we,[umano]),def_prop(you,[umano])])
+lf(Transkit.txt_16,151,cl29-nil-nil-be-[])

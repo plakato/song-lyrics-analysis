@@ -1,0 +1,59 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Broken Glass Christening Lyrics.txt_1-1  []-negative  []
+Broken Glass Christening Lyrics.txt_2-3  []-negative  [neg,neg,neg,neg]
+Broken Glass Christening Lyrics.txt_2-4  []-negative  [fgb]
+Broken Glass Christening Lyrics.txt_3-7  []-positive  [fgb]
+Broken Glass Christening Lyrics.txt_4-12  [because-cause]-positive  []
+Broken Glass Christening Lyrics.txt_5-19  []-negative  []
+Broken Glass Christening Lyrics.txt_6-25  []-suspension  [neg,neg]
+Broken Glass Christening Lyrics.txt_6-26  []-positive  []
+Broken Glass Christening Lyrics.txt_7-33  []-question  [neg,fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Broken Glass Christening Lyrics.txt_1-1  [broken,Glass,Christening,Lyrics,by,Xasthur]  [title]
+Broken Glass Christening Lyrics.txt_2-3  [the,lie,is,no,escape,lost,in,the,reflection-s,cycle]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),reject_expl_just(cry,[external,factive,narration,foreground,objective])]
+Broken Glass Christening Lyrics.txt_2-4  [and,rape,crying]  [propose_opin_neg(be,[external,factive,explanation,background,objective]),provide_expl_just(cry,[external,factive,narration,foreground,objective])]
+Broken Glass Christening Lyrics.txt_3-7  [fiends,and,sexual,deviants,hiding,behind,God,at,their,own,convenience]  [provide_expl_just(be,[external,factive,circumstance,background,objective])]
+Broken Glass Christening Lyrics.txt_4-12  [reach,the,realization,you,are,here,because,you,have,been,thrown,away]  [provide_expl_just(throw,[external,factive,cause,foreground,objective])]
+Broken Glass Christening Lyrics.txt_5-19  [from,a,broken,glass,christening,to,the,recycling,of,broken,mirrors]  [provide_expl_just(christen,[external,factive,narration,foreground,objective])]
+Broken Glass Christening Lyrics.txt_6-25  [the,energy,drained,with,the,anger]  [provide_expl_just(drain,[external,factive,narration,foreground,objective])]
+Broken Glass Christening Lyrics.txt_6-26  [i,instilled,upon,you]  [provide_expl_just(drain,[external,factive,narration,foreground,objective])]
+Broken Glass Christening Lyrics.txt_7-33  [lose,have_to,you,do,what,you,me,kill,let,?]  [provide_expl_just(kill,[internal,factive,narration,foreground,objective]),provide_expl_just(lose,[internal,nonfactive,narration,background,objective]),provide_expl_just(do,[internal,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Broken Glass Christening Lyrics.txt_1-1)-[emotions-aggression]
+2-(Broken Glass Christening Lyrics.txt_2-3)-[primary-passivity]
+3-(Broken Glass Christening Lyrics.txt_2-4)-[primary-sex]
+4-(Broken Glass Christening Lyrics.txt_3-7)-[primary-sex,primary-concreteness,primary-concreteness]
+half
+5-(Broken Glass Christening Lyrics.txt_4-12)-[secondary-instru_behavior,primary-concreteness,primary-ascend,primary-concreteness]
+6-(Broken Glass Christening Lyrics.txt_5-19)-[emotions-aggression,primary-hard,emotions-aggression]
+7-(Broken Glass Christening Lyrics.txt_6-25)-[emotions-aggression]
+8-(Broken Glass Christening Lyrics.txt_6-26)-[]
+9-(Broken Glass Christening Lyrics.txt_7-33)-[emotions-aggression]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Broken Glass Christening Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Xasthur-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,broken,sn1),and(Lyrics,Christening,sn1),def_prop(Xasthur,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Broken Glass Christening Lyrics.txt_2,3,cl3-nil-nil-cry-[subj-experiencer-rape-sn7,def_prop(rape,[attivita,plant])])
+lf(Broken Glass Christening Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-lost-sn3,xcomp-prop-escape-sn2,subj-theme_bound-lie-sn1,and(escape,no,sn2),def_prop(lost,[istituzione]),def_prop(escape,[attivita,evento,plant]),def_prop(lie,[attivita,informa,luogo])])
+lf(Broken Glass Christening Lyrics.txt_3,7,cl5-nil-nil-be-[cmod-coord-hide-cl4,ncmod-modal-convenience-sn2,subj-theme_bound-fiend-sn1,and(convenience,own,sn2),def_prop(convenience,[astratto,stato]),def_prop(fiend,[astratto,relat,sociale,umano])])
+lf(Broken Glass Christening Lyrics.txt_3,7,cl4-nil-nil-hide-[subj-agent-pro-nil])
+lf(Broken Glass Christening Lyrics.txt_4,12,cl8-nil-nil-throw-[cmod-subord-throw-because,xcomp-agent-away-sn8,subj-agent-you-sn7,xcomp-prop-away-sn6,subj-theme_unaff-you-sn5,aux-been-nil,aux-have-nil,def_prop(away,[evaluative]),def_prop(you,[umano]),def_prop(away,[evaluative]),def_prop(you,[umano])])
+lf(Broken Glass Christening Lyrics.txt_4,12,cl7-nil-nil-be-[subj-prop-realization-sn2,def_prop(realization,[astratto,attivita,informa])])
+lf(Broken Glass Christening Lyrics.txt_4,12,cl6-nil-nil-reach-[adj-(mod)-here-nil,obj-theme-you-sn3,obj-goal-realization-sn2,subj-agent-you-sn1,def_prop(you,[umano]),def_prop(realization,[astratto,attivita,informa]),def_prop(you,[umano])])
+lf(Broken Glass Christening Lyrics.txt_5,19,cl9-nil-nil-christen-[ncmod-locativo-recycle-sn3,ncmod-loc_origin-glass-sn2,subj-agent-you-sn1,and(glass,broken,sn2),def_prop(recycle,[istituzione]),def_prop(glass,[nquant,oggetto,sostanza,strumento]),def_prop(you,[umano])])
+lf(Broken Glass Christening Lyrics.txt_6,25,cl11-nil-nil-instil-[ncmod-subj_disc-you-sn4,subj-theme-i-sn3,ncmod-modale-anger-sn2,def_prop(you,[umano]),def_prop(i,[umano]),def_prop(anger,[emotivo,stato])])
+lf(Broken Glass Christening Lyrics.txt_6,25,cl10-nil-nil-drain-[subj-agent-energy-sn1,def_prop(energy,[astratto,attivita,cambia,stato])])
+lf(Broken Glass Christening Lyrics.txt_7,33,cl14-nil-nil-do-[subj-theme_unaff-you-sn2,aux-do-nil,def_prop(you,[umano])])
+lf(Broken Glass Christening Lyrics.txt_7,33,cl13-nil-have_to-lose-[subj-theme_aff-pro-nil,subj-theme_aff-you-sn3,def_prop(you,[umano])])
+lf(Broken Glass Christening Lyrics.txt_7,33,cl12-nil-nil-kill-[obj-theme_aff-you-sn2,subj-agent-me-sn1,def_prop(you,[umano]),def_prop(me,[umano])])

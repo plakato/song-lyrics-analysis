@@ -1,0 +1,60 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Lifeline Lyrics.txt_1-1  []-positive  []
+Lifeline Lyrics.txt_2-3  []-positive  []
+Lifeline Lyrics.txt_3-6  []-suspension  []
+Lifeline Lyrics.txt_4-10  [when-temp_coinc]-positive  []
+Lifeline Lyrics.txt_4-11  [when-temp_coinc]-positive  []
+Lifeline Lyrics.txt_5-17  []-positive  []
+Lifeline Lyrics.txt_6-23  []-suspension  []
+Lifeline Lyrics.txt_6-24  [when-temp_coinc]-positive  [neg]
+Lifeline Lyrics.txt_7-31  [when-temp_coinc]-positive  []
+Lifeline Lyrics.txt_7-32  [when-temp_coinc]-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Lifeline Lyrics.txt_1-1  [lifeline,Lyrics,by,Zoot,woman]  [title]
+Lifeline Lyrics.txt_2-3  [one,chance,with,you]  [provide_expl_just(chance,[external,factive,narration,background,objective])]
+Lifeline Lyrics.txt_3-6  [all,you,have_to,do,is,call,my,name]  [provide_expl_just(call,[external,nonfactive,narration,foreground,objective])]
+Lifeline Lyrics.txt_4-10  [when,my,light,goes,out]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Lifeline Lyrics.txt_4-11  [is,when,i,need,you,most]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Lifeline Lyrics.txt_5-17  [you,have,got,a,hold,on,me]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Lifeline Lyrics.txt_6-23  [you,will,always,see]  [provide_expl_just(see,[external,nonfactive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Lifeline Lyrics.txt_6-24  [when,i,go,wrong]  [provide_expl_just(see,[external,nonfactive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Lifeline Lyrics.txt_7-31  [when,my,light,goes,out]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Lifeline Lyrics.txt_7-32  [is,when,i,need,you,most]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Lifeline Lyrics.txt_1-1)-[]
+2-(Lifeline Lyrics.txt_2-3)-[primary-chaos]
+3-(Lifeline Lyrics.txt_3-6)-[secondary-social_behavior]
+4-(Lifeline Lyrics.txt_4-10)-[secondary-temporal_repere,primary-vision,primary-concreteness]
+5-(Lifeline Lyrics.txt_4-11)-[secondary-temporal_repere]
+half
+6-(Lifeline Lyrics.txt_5-17)-[]
+7-(Lifeline Lyrics.txt_6-23)-[primary-vision]
+8-(Lifeline Lyrics.txt_6-24)-[secondary-temporal_repere]
+9-(Lifeline Lyrics.txt_7-31)-[secondary-temporal_repere,primary-vision,primary-concreteness]
+10-(Lifeline Lyrics.txt_7-32)-[secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Lifeline Lyrics.txt_1,1,nil-nil-nil-woman-[arg_mod-agent-Zoot-sn2,subj-agent-Lyrics-sn1,and(Lyrics,lifeline,sn1),def_prop(Zoot,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Lifeline Lyrics.txt_2,3,cl1-nil-nil-chance-[ncmod-comitativo-you-sn2,subj-actor-one-sn1,def_prop(you,[umano]),def_prop(one,[umano])])
+lf(Lifeline Lyrics.txt_3,6,cl2-nil-have_to-call-[obj-theme_bound-name-sn3,subj-agent-you-sn2,subj-agent-you-sn1,aux-(is)-nil,aux-do-nil,and(you,all,sn1),def_prop(name,[attivita,informa,stato,umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Lifeline Lyrics.txt_4,10,cl5-nil-nil-need-[cmod-subord-need-when,xcomp-prop-most-sn7,subj-experiencer-i-sn6,and(most,you,sn7),def_prop(most,[nquant]),def_prop(i,[umano])])
+lf(Lifeline Lyrics.txt_4,10,cl4-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Lifeline Lyrics.txt_4,10,cl3-nil-nil-go-[adj-(mod)-out-nil,obj-theme-when-sn2,subj-agent-light-sn1,def_prop(when,[tempo]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(Lifeline Lyrics.txt_5,17,cl6-nil-nil-get-[obj-theme_unaff-hold-sn2,subj-agent-you-sn1,aux-have-nil,def_prop(hold,[astratto,oggetto,strumento]),def_prop(you,[umano])])
+lf(Lifeline Lyrics.txt_6,23,cl8-nil-nil-go-[xcomp-prop-wrong-sn3,subj-agent-i-sn2,def_prop(wrong,[soggettivo]),def_prop(i,[umano])])
+lf(Lifeline Lyrics.txt_6,23,cl7-nil-will-see-[subj-experiencer-you-sn1,adj-(mod)-always-nil,def_prop(you,[umano])])
+lf(Lifeline Lyrics.txt_7,31,cl11-nil-nil-need-[cmod-subord-need-when,xcomp-prop-most-sn7,subj-experiencer-i-sn6,and(most,you,sn7),def_prop(most,[nquant]),def_prop(i,[umano])])
+lf(Lifeline Lyrics.txt_7,31,cl10-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Lifeline Lyrics.txt_7,31,cl9-nil-nil-go-[adj-(mod)-out-nil,obj-theme-when-sn2,subj-agent-light-sn1,def_prop(when,[tempo]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])

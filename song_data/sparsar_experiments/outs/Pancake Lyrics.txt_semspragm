@@ -1,0 +1,55 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Pancake Lyrics.txt_1-1  []-positive  []
+Pancake Lyrics.txt_2-3  []-negative  [neg,neg]
+Pancake Lyrics.txt_3-6  []-positive  []
+Pancake Lyrics.txt_4-11  []-negative  [fgb]
+Pancake Lyrics.txt_5-16  []-positive  []
+Pancake Lyrics.txt_6-22  []-negative  [neg,neg]
+Pancake Lyrics.txt_7-29  []-negative  [neg]
+Pancake Lyrics.txt_8-37  []-positive  []
+Pancake Lyrics.txt_8-38  []-negative  [fgb,neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Pancake Lyrics.txt_1-1  [pancake,Lyrics,by,Swirlies]  [title]
+Pancake Lyrics.txt_2-3  [i,am,not,a,codger,not]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Pancake Lyrics.txt_3-6  [for,sometime,i,go,to,classes]  [provide_expl_just(class,[external,factive,explanation,background,objective]),provide_expl_just(go,[external,factive,explanation,background,objective])]
+Pancake Lyrics.txt_4-11  [and,i,don-t,wear,my,glasses]  [provide_expl_just(wear,[external,factive,narration,foreground,objective])]
+Pancake Lyrics.txt_5-16  [it,is,getting,blurry,in,my,eyes]  [raise_issue(be,[_97178,factive,statement,_97196,subjective])]
+Pancake Lyrics.txt_6-22  [the,summer,sunshine,slowly,stole,my,eyesight]  [reject_expl_just(be,[_97400,_97406,_97412,_97418,_97424])]
+Pancake Lyrics.txt_7-29  [i,get,headaches,from_time_to_time]  [reject_expl_just(get,[external,factive,narration,background,objective])]
+Pancake Lyrics.txt_8-37  [it,is,kind,of,foggy]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(see,[external,nonfactive,narration,foreground,objective])]
+Pancake Lyrics.txt_8-38  [and,i,can,not,hardly,see]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(see,[external,nonfactive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Pancake Lyrics.txt_1-1)-[]
+2-(Pancake Lyrics.txt_2-3)-[]
+3-(Pancake Lyrics.txt_3-6)-[secondary-temporal_repere,secondary-order]
+4-(Pancake Lyrics.txt_4-11)-[]
+half
+5-(Pancake Lyrics.txt_5-16)-[primary-diffusion,primary-narcissism]
+6-(Pancake Lyrics.txt_6-22)-[primary-vision,primary-passivity,emotions-aggression]
+7-(Pancake Lyrics.txt_7-29)-[]
+8-(Pancake Lyrics.txt_8-37)-[emotions-affection,primary-diffusion]
+9-(Pancake Lyrics.txt_8-38)-[primary-hard,primary-vision]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Pancake Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Swirlies-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,pancake,sn1),def_prop(Swirlies,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Pancake Lyrics.txt_2,3,cl2-not-nil-be-[xcomp-prop-codger-sn2,subj-theme_bound-i-sn1,def_prop(codger,[umano]),def_prop(i,[umano])])
+lf(Pancake Lyrics.txt_3,6,cl4-nil-nil-class-[subj-theme-i-sn1,def_prop(i,[umano])])
+lf(Pancake Lyrics.txt_3,6,cl3-nil-nil-go-[adj-(mod)-sometime-nil,subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Pancake Lyrics.txt_4,11,cl5-not-nil-wear-[cmod-subord-wear-",obj-theme_unaff-glass-sn2,subj-experiencer-i-sn1,aux-do-nil,def_prop(glass,[nquant,oggetto,sostanza,strumento]),def_prop(i,[umano])])
+lf(Pancake Lyrics.txt_5,16,cl6-nil-nil-get-[iobj-goal-eye-sn3,xcomp-prop-blurry-sn2,subj-theme_bound-it-sn1,aux-(is)-nil,progr-getting-nil,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(blurry,[evaluative]),def_prop(it,[any])])
+lf(Pancake Lyrics.txt_6,22,cl7-nil-nil-steal-[adj-(mod)-slowly-nil,obj-theme-eyesight-sn2,subj-agent-sunshine-sn1,def_prop(eyesight,[astratto]),def_prop(sunshine,[evento])])
+lf(Pancake Lyrics.txt_7,29,cl8-nil-nil-get-[obj-theme_unaff-headache-sn2,subj-agent-i-sn1,def_prop(headache,[stato]),def_prop(i,[umano])])
+lf(Pancake Lyrics.txt_8,37,cl10-not-can-see-[cmod-subord-see-",subj-experiencer-you-sn4,adj-(mod)-hardly-nil,def_prop(you,[umano])])
+lf(Pancake Lyrics.txt_8,37,cl9-nil-nil-be-[xcomp-prop-kind-sn2,subj-theme_bound-it-sn1,and(kind,foggy,sn2),def_prop(kind,[astratto]),def_prop(it,[any])])

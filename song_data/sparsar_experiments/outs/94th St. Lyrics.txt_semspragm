@@ -1,0 +1,142 @@
+"POLARITY, DISCOURSE MARKERS"
+
+94th St. Lyrics.txt_1-1  []-positive  []
+94th St. Lyrics.txt_2-3  []-positive  []
+94th St. Lyrics.txt_3-6  []-negative  [neg]
+94th St. Lyrics.txt_4-10  []-question  [neg]
+94th St. Lyrics.txt_5-15  []-negative  [neg]
+94th St. Lyrics.txt_6-21  []-question  [neg]
+94th St. Lyrics.txt_7-28  []-positive  []
+94th St. Lyrics.txt_7-29  []-negative  [neg]
+94th St. Lyrics.txt_8-37  []-positive  []
+94th St. Lyrics.txt_8-38  []-positive  []
+94th St. Lyrics.txt_9-47  [but-advers]-suspension  [fgb]
+94th St. Lyrics.txt_9-48  []-positive  []
+94th St. Lyrics.txt_10-58  []-question  [fgb]
+94th St. Lyrics.txt_10-59  []-positive  []
+94th St. Lyrics.txt_11-70  []-question  [fgb]
+94th St. Lyrics.txt_11-71  []-positive  []
+94th St. Lyrics.txt_12-83  [so-result]-positive  [fgb]
+94th St. Lyrics.txt_13-96  []-negative  [fgb,neg]
+94th St. Lyrics.txt_14-110  []-positive  [neg]
+94th St. Lyrics.txt_14-111  []-positive  []
+94th St. Lyrics.txt_15-126  []-positive  []
+94th St. Lyrics.txt_16-142  []-negative  [neg]
+94th St. Lyrics.txt_17-159  []-negative  [neg]
+94th St. Lyrics.txt_18-177  []-positive  [neg]
+94th St. Lyrics.txt_19-196  []-negative  [neg]
+94th St. Lyrics.txt_19-197  []-positive  []
+94th St. Lyrics.txt_20-217  []-negative  [neg]
+94th St. Lyrics.txt_21-238  []-negative  [neg,fgb]
+94th St. Lyrics.txt_22-260  [so-result]-suspension  [fgb]
+94th St. Lyrics.txt_23-283  []-positive  []
+94th St. Lyrics.txt_24-307  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+94th St. Lyrics.txt_1-1  [94th,st]  [title]
+94th St. Lyrics.txt_2-3  [Lyrics,by,the,World,Alive]  [provide_expl_just(Lyrics,[external,factive,narration,background,objective])]
+94th St. Lyrics.txt_3-6  [we,can,not,keep,running,in,circles]  [reject_expl_just(keep,[external,nonfactive,narration,foreground,objective])]
+94th St. Lyrics.txt_4-10  [minds,our,we,lost,have,?]  [provide_expl_just(lose,[internal,factive,narration,background,objective])]
+94th St. Lyrics.txt_5-15  [we,can,not,keep,running,in,circles]  [reject_expl_just(keep,[external,nonfactive,narration,foreground,objective])]
+94th St. Lyrics.txt_6-21  [minds,our,we,lost,have,?]  [provide_expl_just(lose,[internal,factive,narration,background,objective])]
+94th St. Lyrics.txt_7-28  [we,search]  [provide_expl_just(find,[external,nonfactive,narration,foreground,objective])]
+94th St. Lyrics.txt_7-29  [for,the,meaning,that,we,can,not,find]  [reject_expl_just(find,[external,nonfactive,narration,foreground,objective])]
+94th St. Lyrics.txt_8-37  [we,hope]  [provide_expl_just(hope,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+94th St. Lyrics.txt_8-38  [for,the,answers,in,time]  [provide_expl_just(hope,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+94th St. Lyrics.txt_9-47  [all,we,but,believe,of,love]  [provide_expl_just(believe,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+94th St. Lyrics.txt_9-48  [,,life]  [provide_expl_just(believe,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+94th St. Lyrics.txt_10-58  [am,what,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(do,[internal,factive,narration,background,objective])]
+94th St. Lyrics.txt_10-59  [i,doing,here]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(do,[internal,factive,narration,background,objective])]
+94th St. Lyrics.txt_11-70  [am,what,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(do,[internal,factive,narration,background,objective])]
+94th St. Lyrics.txt_11-71  [i,doing,here]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(do,[internal,factive,narration,background,objective])]
+94th St. Lyrics.txt_12-83  [this,so,just,clean,sedation]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+94th St. Lyrics.txt_13-96  [and,losing,trust,in,here]  [reject_expl_just(lose,[external,factive,narration,foreground,objective])]
+94th St. Lyrics.txt_14-110  [loving,,,fight]  [provide_expl_just(fight,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+94th St. Lyrics.txt_14-111  [for,resolution]  [provide_expl_just(fight,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+94th St. Lyrics.txt_15-126  [let,the,morning,come,again]  [raise_issue(be,[_124928,factive,statement,_124946,subjective])]
+94th St. Lyrics.txt_16-142  [refrain]  reject_expl_opin(nil,[])
+94th St. Lyrics.txt_17-159  [i,can,not,keep,running,in,circles]  [reject_expl_just(be,[_125270,_125276,_125282,_125288,_125294])]
+94th St. Lyrics.txt_18-177  [the,dangers,live,in,your,mind]  [provide_expl_just(live,[external,factive,narration,background,objective])]
+94th St. Lyrics.txt_19-196  [i,can,not,keep,crashing,in]  [reject_expl_just(keep,[external,nonfactive,narration,foreground,objective]),reject_expl_just(take,[external,factive,narration,background,objective])]
+94th St. Lyrics.txt_19-197  [,,take,of,my,life]  [provide_expl_just(keep,[external,nonfactive,narration,foreground,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+94th St. Lyrics.txt_20-217  [i,can,not,take,control]  [reject_expl_just(be,[_126976,_126982,_126988,_126994,_127000])]
+94th St. Lyrics.txt_21-238  [the,absence,of,what,we,all,know]  [reject_expl_just(what,[internal,factive,narration,background,objective])]
+94th St. Lyrics.txt_22-260  [so,redefine,to,reason]  [provide_expl_just(redefine,[external,factive,narration,background,objective])]
+94th St. Lyrics.txt_23-283  [too,far,away,to,let,go]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+94th St. Lyrics.txt_24-307  [we,can,not,keep,running,in,circles]  [reject_expl_just(keep,[external,nonfactive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(94th St. Lyrics.txt_1-1)-[]
+2-(94th St. Lyrics.txt_2-3)-[]
+3-(94th St. Lyrics.txt_3-6)-[primary-concreteness]
+4-(94th St. Lyrics.txt_4-10)-[]
+5-(94th St. Lyrics.txt_5-15)-[primary-concreteness]
+6-(94th St. Lyrics.txt_6-21)-[]
+7-(94th St. Lyrics.txt_7-28)-[primary-voyage]
+8-(94th St. Lyrics.txt_7-29)-[secondary-instru_behavior]
+9-(94th St. Lyrics.txt_8-37)-[]
+10-(94th St. Lyrics.txt_8-38)-[secondary-social_behavior,secondary-temporal_repere]
+11-(94th St. Lyrics.txt_9-47)-[secondary-abstract_tought,emotions-affection]
+12-(94th St. Lyrics.txt_9-48)-[]
+13-(94th St. Lyrics.txt_10-58)-[]
+14-(94th St. Lyrics.txt_10-59)-[primary-concreteness]
+15-(94th St. Lyrics.txt_11-70)-[]
+half
+16-(94th St. Lyrics.txt_11-71)-[primary-concreteness]
+17-(94th St. Lyrics.txt_12-83)-[]
+18-(94th St. Lyrics.txt_13-96)-[primary-concreteness]
+19-(94th St. Lyrics.txt_14-110)-[emotions-aggression]
+20-(94th St. Lyrics.txt_14-111)-[]
+21-(94th St. Lyrics.txt_15-126)-[secondary-temporal_repere]
+22-(94th St. Lyrics.txt_16-142)-[]
+23-(94th St. Lyrics.txt_17-159)-[primary-concreteness]
+24-(94th St. Lyrics.txt_18-177)-[]
+25-(94th St. Lyrics.txt_19-196)-[]
+26-(94th St. Lyrics.txt_19-197)-[]
+27-(94th St. Lyrics.txt_20-217)-[secondary-restraint]
+28-(94th St. Lyrics.txt_21-238)-[secondary-abstract_tought]
+29-(94th St. Lyrics.txt_22-260)-[secondary-abstract_tought]
+30-(94th St. Lyrics.txt_23-283)-[primary-concreteness,primary-concreteness]
+31-(94th St. Lyrics.txt_24-307)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(94th St. Lyrics.txt_1,1,nil-nil-nil-st-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(94th St. Lyrics.txt_2,3,nil-nil-nil-Lyrics-[obj-theme-Alive-sn2,arg_mod-agent-World-sn1,def_prop(Alive,[istituzione,umano]),def_prop(World,[luogo])])
+lf(94th St. Lyrics.txt_3,6,cl1-not-can-keep-[iobj-goal-circle-sn3,xcomp-prop-running-sn2,subj-experiencer-we-sn1,def_prop(circle,[astratto,oggetto,strumento]),def_prop(running,[attivita,stato]),def_prop(we,[umano])])
+lf(94th St. Lyrics.txt_4,10,cl2-nil-nil-lose-[obj-theme_unaff-mind-sn2,subj-theme_aff-we-sn1,aux-have-nil,def_prop(mind,[astratto]),def_prop(we,[umano])])
+lf(94th St. Lyrics.txt_5,15,cl3-not-can-keep-[iobj-goal-circle-sn3,xcomp-prop-running-sn2,subj-experiencer-we-sn1,def_prop(circle,[astratto,oggetto,strumento]),def_prop(running,[attivita,stato]),def_prop(we,[umano])])
+lf(94th St. Lyrics.txt_6,21,cl4-nil-nil-lose-[obj-theme_unaff-mind-sn2,subj-theme_aff-we-sn1,aux-have-nil,def_prop(mind,[astratto]),def_prop(we,[umano])])
+lf(94th St. Lyrics.txt_7,28,cl6-not-can-find-[ccomp-prop-find-cl6,subj-actor-we-sn2,def_prop(we,[umano])])
+lf(94th St. Lyrics.txt_7,28,cl5-nil-nil-search-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(94th St. Lyrics.txt_8,37,cl8-nil-nil-be-[subj-theme_bound-answer-sn2,def_prop(answer,[attivita,informa])])
+lf(94th St. Lyrics.txt_8,37,cl7-nil-nil-hope-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(94th St. Lyrics.txt_9,47,cl10-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(94th St. Lyrics.txt_9,47,cl9-nil-nil-believe-[ncmod-specif-love-sn2,subj-actor-we-sn1,and(we,all,sn1),def_prop(love,[astratto,emotivo,nquant]),def_prop(we,[umano])])
+lf(94th St. Lyrics.txt_10,58,cl12-nil-nil-do-[xcomp-prop-here-sn3,subj-theme_unaff-i-sn2,def_prop(here,[istituzione]),def_prop(i,[umano])])
+lf(94th St. Lyrics.txt_10,58,cl11-nil-nil-be-[subj-theme_bound-what-sn1,def_prop(what,[oggetto])])
+lf(94th St. Lyrics.txt_11,70,cl14-nil-nil-do-[xcomp-prop-here-sn3,subj-theme_unaff-i-sn2,def_prop(here,[istituzione]),def_prop(i,[umano])])
+lf(94th St. Lyrics.txt_11,70,cl13-nil-nil-be-[subj-theme_bound-what-sn1,def_prop(what,[oggetto])])
+lf(94th St. Lyrics.txt_12,83,cl15-nil-nil-be-[subj-theme_bound-sedation-sn1,and(sedation,clean,sn1),def_prop(sedation,[attivita,stato])])
+lf(94th St. Lyrics.txt_13,96,cl16-nil-nil-lose-[cmod-subord-lose-",subj-theme_aff-truss-sn1,def_prop(truss,[oggetto,strumento])])
+lf(94th St. Lyrics.txt_14,110,cl18-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(94th St. Lyrics.txt_14,110,cl17-nil-nil-fight-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(94th St. Lyrics.txt_15,126,cl19-nil-nil-come-[xcomp-prop-again-sn3,xcomp-prop-morning-sn2,subj-agent-you-sn1,def_prop(again,[istituzione]),def_prop(morning,[tempo]),def_prop(you,[umano])])
+lf(94th St. Lyrics.txt_16,142,cl20-nil-nil-say-[obj-theme_unaff-refrain-sn1,def_prop(refrain,[attivita,informa])])
+lf(94th St. Lyrics.txt_17,159,cl21-not-can-keep-[iobj-goal-circle-sn3,xcomp-prop-running-sn2,subj-experiencer-i-sn1,def_prop(circle,[astratto,oggetto,strumento]),def_prop(running,[attivita,stato]),def_prop(i,[umano])])
+lf(94th St. Lyrics.txt_18,177,cl22-nil-nil-live-[iobj-goal-mind-sn2,subj-actor-danger-sn1,def_prop(mind,[astratto]),def_prop(danger,[luogo,stato])])
+lf(94th St. Lyrics.txt_19,196,cl24-nil-nil-take-[ncmod-specif-life-sn4,subj-agent-you-sn3,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(you,[umano])])
+lf(94th St. Lyrics.txt_19,196,cl23-not-can-keep-[xcomp-prop-crashing-sn2,subj-experiencer-i-sn1,def_prop(crashing,[evaluative]),def_prop(i,[umano])])
+lf(94th St. Lyrics.txt_20,217,cl25-not-can-take-[obj-theme_aff-control-sn2,subj-agent-i-sn1,def_prop(control,[astratto,attivita,informa,oggetto,relat,strumento,umano]),def_prop(i,[umano])])
+lf(94th St. Lyrics.txt_21,238,cl26-nil-nil-be-[ncmod-specif-what-sn2,subj-theme_bound-you-sn1,def_prop(what,[oggetto]),def_prop(you,[umano])])
+lf(94th St. Lyrics.txt_22,260,cl27-nil-nil-redefine-[ncmod-locativo-reason-sn2,subj-agent-you-sn1,def_prop(reason,[astratto,attivita,informa]),def_prop(you,[umano])])
+lf(94th St. Lyrics.txt_23,283,cl28-nil-nil-go-[subj-agent-pro-nil])
+lf(94th St. Lyrics.txt_24,307,cl29-not-can-keep-[iobj-goal-circle-sn3,xcomp-prop-running-sn2,subj-experiencer-we-sn1,def_prop(circle,[astratto,oggetto,strumento]),def_prop(running,[attivita,stato]),def_prop(we,[umano])])

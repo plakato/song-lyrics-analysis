@@ -1,0 +1,113 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Numb Lyrics.txt_1-1  []-negative  [neg]
+Numb Lyrics.txt_2-3  []-positive  []
+Numb Lyrics.txt_2-4  [so-result]-negative  [fgb,neg]
+Numb Lyrics.txt_3-6  [so-result]-negative  [fgb,neg]
+Numb Lyrics.txt_4-10  []-negative  [neg]
+Numb Lyrics.txt_4-11  []-positive  [fgb]
+Numb Lyrics.txt_4-12  []-positive  []
+Numb Lyrics.txt_5-18  []-suspension  [neg]
+Numb Lyrics.txt_5-19  []-negative  [fgb,neg]
+Numb Lyrics.txt_6-24  [if-hypoth]-negative  [fgb,neg]
+Numb Lyrics.txt_7-31  []-positive  [fhd]
+Numb Lyrics.txt_7-32  []-positive  []
+Numb Lyrics.txt_8-40  []-positive  []
+Numb Lyrics.txt_8-41  []-positive  [fgb]
+Numb Lyrics.txt_9-51  [but-advers]-negative  [fgb,neg,fgb]
+Numb Lyrics.txt_10-63  [so-result]-negative  [fgb,neg]
+Numb Lyrics.txt_10-63  [so-result]-suspension  [fgb,neg,neg]
+Numb Lyrics.txt_11-75  [while-temp_coinc]-positive  [neg]
+Numb Lyrics.txt_12-88  []-positive  []
+Numb Lyrics.txt_12-89  []-positive  []
+Numb Lyrics.txt_13-102  [while-temp_coinc]-suspension  [neg,neg]
+Numb Lyrics.txt_14-117  []-positive  []
+Numb Lyrics.txt_14-118  []-suspension  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Numb Lyrics.txt_1-1  [numb,Lyrics,by,Yung,Chibi]  [title]
+Numb Lyrics.txt_2-3  [i,am]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Numb Lyrics.txt_2-4  [so,cold]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Numb Lyrics.txt_3-6  [my,lungs,are,so,cold]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Numb Lyrics.txt_4-10  [i,am,tired,of,being,good]  [reject_expl_just(tell,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(do,[external,factive,narration,foreground,objective])]
+Numb Lyrics.txt_4-11  [,,always,do,what,i,am,told,.]  [provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Numb Lyrics.txt_4-12  [i,am,told]  [provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Numb Lyrics.txt_5-18  [i,will,kill]  [suggest(be,[_122714,_122720,statement,background,_122738])]
+Numb Lyrics.txt_5-19  [you,and,you,can,kill,me]  [reject_expl_just(be,[_122936,_122942,_122948,_122954,_122960])]
+Numb Lyrics.txt_6-24  [maybe,if,we,are,dead,we,can,be,happy]  [reject_expl_just(be,[external,nonfactive,narration,foreground,objective])]
+Numb Lyrics.txt_7-31  [our,love,is,like,a,rose,in,a,Bush]  [provide_expl_just(like,[external,factive,narration,background,objective]),provide_expl_just(full,[external,factive,narration,background,objective])]
+Numb Lyrics.txt_7-32  [full,of,thorns]  [provide_expl_just(like,[external,factive,narration,background,objective]),provide_expl_just(full,[external,factive,narration,background,objective])]
+Numb Lyrics.txt_8-40  [it,makes,me]  [provide_expl_just(feel,[external,factive,narration,background,objective])]
+Numb Lyrics.txt_8-41  [feel,new,and,it,makes,me,feel,warm]  [provide_expl_just(feel,[external,factive,narration,background,objective])]
+Numb Lyrics.txt_9-51  [but,sometimes,i,cry,and,i,know,how,to,feel]  [reject_expl_just(cry,[external,factive,narration,background,objective]),reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(feel,[external,factive,narration,background,objective])]
+Numb Lyrics.txt_10-63  [so,i,cut,off,all,the,petals]  [reject_expl_just(watch,[external,factive,narration,background,objective])]
+Numb Lyrics.txt_10-63  [so,i,cut,off,all,the,petals,to,watch,them,all,wilt]  [provide_expl_just(watch,[external,factive,narration,background,objective])]
+Numb Lyrics.txt_11-75  [get,me,while,i,am,feeling,numb]  [provide_expl_just(feel,[external,factive,narration,foreground,objective])]
+Numb Lyrics.txt_12-88  [i,you,i,see]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective])]
+Numb Lyrics.txt_12-89  [feel,you]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective])]
+Numb Lyrics.txt_13-102  [kill,me,while,i,am,feeling,numb]  [provide_expl_just(feel,[external,factive,narration,foreground,objective])]
+Numb Lyrics.txt_14-117  [i,you,i,see]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(miss,[external,nonfactive,narration,background,objective])]
+Numb Lyrics.txt_14-118  [will,miss,you]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(miss,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Numb Lyrics.txt_1-1)-[primary-cold]
+2-(Numb Lyrics.txt_2-3)-[]
+3-(Numb Lyrics.txt_2-4)-[primary-cold]
+4-(Numb Lyrics.txt_3-6)-[primary-cold]
+5-(Numb Lyrics.txt_4-10)-[]
+6-(Numb Lyrics.txt_4-11)-[secondary-social_behavior]
+7-(Numb Lyrics.txt_4-12)-[secondary-social_behavior]
+8-(Numb Lyrics.txt_5-18)-[emotions-aggression]
+9-(Numb Lyrics.txt_5-19)-[emotions-aggression]
+10-(Numb Lyrics.txt_6-24)-[secondary-abstract_tought,primary-passivity,emotions-positive_affect]
+11-(Numb Lyrics.txt_7-31)-[emotions-affection,emotions-affection]
+half
+12-(Numb Lyrics.txt_7-32)-[]
+13-(Numb Lyrics.txt_8-40)-[secondary-instru_behavior]
+14-(Numb Lyrics.txt_8-41)-[secondary-instru_behavior,primary-fire]
+15-(Numb Lyrics.txt_9-51)-[secondary-temporal_repere,emotions-expressive_beh,secondary-abstract_tought]
+16-(Numb Lyrics.txt_10-63)-[emotions-aggression,primary-concreteness]
+17-(Numb Lyrics.txt_10-63)-[emotions-aggression,primary-concreteness,primary-vision,secondary-abstract_tought]
+18-(Numb Lyrics.txt_11-75)-[secondary-temporal_repere,primary-cold]
+19-(Numb Lyrics.txt_12-88)-[primary-vision]
+20-(Numb Lyrics.txt_12-89)-[]
+21-(Numb Lyrics.txt_13-102)-[emotions-aggression,secondary-temporal_repere,primary-cold]
+22-(Numb Lyrics.txt_14-117)-[primary-vision]
+23-(Numb Lyrics.txt_14-118)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Numb Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Chibi-sn2,subj-theme_bound-Lyrics-sn1,and(Chibi,Yung,sn2),and(Lyrics,numb,sn1),def_prop(Chibi,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Numb Lyrics.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Numb Lyrics.txt_3,6,cl3-nil-nil-be-[xcomp-prop-cold-sn2,subj-theme_bound-lung-sn1,def_prop(cold,[valutativo]),def_prop(lung,[body_part,umano])])
+lf(Numb Lyrics.txt_4,10,cl7-nil-nil-tell-[subj-theme_unaff-you-sn5,aux-am-nil,obj-theme_aff-good-sn2,xcomp-purpose-be-5,def_prop(you,[umano]),def_prop(good,[valutativo])])
+lf(Numb Lyrics.txt_4,10,cl6-nil-nil-do-[subj-theme_unaff-you-sn3,aux-do-nil,def_prop(you,[umano])])
+lf(Numb Lyrics.txt_4,10,cl5-nil-nil-be-[])
+lf(Numb Lyrics.txt_4,10,cl4-nil-nil-tire-[subj-theme-i-sn1,aux-am-nil,def_prop(i,[umano])])
+lf(Numb Lyrics.txt_5,18,cl8-nil-can-kill-[obj-theme_aff-me-sn5,coord-agent-you_and_you-sn4,subj-agent-you-sn3,subj-agent-you-sn2,subj-agent-you-sn1,modal-will-nil,def_prop(me,[umano]),def_prop(you_and_you,[umano,umano]),def_prop(you,[umano,umano]),def_prop(you,[umano,umano]),def_prop(you,[umano])])
+lf(Numb Lyrics.txt_6,24,cl9-nil-can-be-[cmod-subord-be-if,xcomp-prop-dead-sn6,subj-theme_bound-we-sn5,xcomp-prop-happy-sn2,subj-theme_bound-we-sn1,def_prop(dead,[valutativo]),def_prop(we,[umano]),def_prop(happy,[emotivo]),def_prop(we,[umano])])
+lf(Numb Lyrics.txt_7,31,nil-nil-nil-full-[ncmod-specif-thorn-sn7,subj-actor-you-sn6,def_prop(thorn,[attivita,informa]),def_prop(you,[umano])])
+lf(Numb Lyrics.txt_7,31,cl10-nil-nil-like-[xcomp-prop-rise-sn2,subj-tema_emot-love-sn1,aux-(is)-nil,def_prop(rise,[astratto,attivita,evento]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Numb Lyrics.txt_8,40,cl12-nil-nil-feel-[cmod-coord-feel-and,subj-theme_bound-warm-sn13,xcomp-prop-warm-sn12,subj-theme_bound-me-sn11,xcomp-prop-warm-sn7,xcomp-purpose-feel-3,xcomp-prop-new-sn4,subj-experiencer-you-sn3,def_prop(warm,[valutativo]),def_prop(warm,[valutativo]),def_prop(me,[umano]),def_prop(warm,[valutativo]),def_prop(new,[evaluative]),def_prop(you,[umano])])
+lf(Numb Lyrics.txt_8,40,cl11-nil-nil-make-[xcomp-agent-warm-sn10,xcomp-agent-me-sn9,subj-agent-you-sn8,xcomp-prop-me-sn6,subj-agent-it-sn5,obj-goal-me-sn2,subj-agent-it-sn1,def_prop(warm,[valutativo]),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(it,[any]),def_prop(me,[umano]),def_prop(it,[any])])
+lf(Numb Lyrics.txt_9,51,cl15-nil-nil-feel-[])
+lf(Numb Lyrics.txt_9,51,cl14-nil-nil-know-[])
+lf(Numb Lyrics.txt_9,51,cl13-nil-nil-cry-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Numb Lyrics.txt_10,63,cl17-nil-nil-watch-[cmod-subord-watch-so,obj-prop-them-sn6,xcomp-purpose-watch-3,ncmod-modal-petal-sn5,ncmod-modal-petal-sn2,and(petal,all,sn5),and(petal,all,sn2),def_prop(them,[umano]),def_prop(petal,[plant]),def_prop(petal,[plant])])
+lf(Numb Lyrics.txt_10,63,cl16-nil-nil-cut-[obj-theme_aff-wilt-sn7,subj-agent-i-sn4,subj-agent-i-sn1,and(wilt,all,sn7),def_prop(wilt,[attivita,stato]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Numb Lyrics.txt_11,75,cl19-nil-nil-feel-[cmod-subord-feel-while,subj-theme_bound-numb-sn5,xcomp-prop-numb-sn4,subj-experiencer-i-sn3,aux-am-nil,progr-feeling-nil,def_prop(numb,[evaluative]),def_prop(numb,[evaluative]),def_prop(i,[umano])])
+lf(Numb Lyrics.txt_11,75,cl18-nil-nil-get-[obj-theme_unaff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Numb Lyrics.txt_12,88,cl21-nil-nil-feel-[subj-experiencer-you-sn6,subj-experiencer-you-sn5,and(you,you,sn5),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Numb Lyrics.txt_12,88,cl20-nil-nil-see-[subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Numb Lyrics.txt_13,102,cl23-nil-nil-feel-[cmod-subord-feel-while,subj-theme_bound-numb-sn5,xcomp-prop-numb-sn4,subj-experiencer-i-sn3,aux-am-nil,progr-feeling-nil,def_prop(numb,[evaluative]),def_prop(numb,[evaluative]),def_prop(i,[umano])])
+lf(Numb Lyrics.txt_13,102,cl22-nil-nil-kill-[obj-theme_aff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Numb Lyrics.txt_14,117,cl25-nil-will-miss-[subj-experiencer-you-sn6,subj-experiencer-you-sn5,and(you,you,sn5),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Numb Lyrics.txt_14,117,cl24-nil-nil-see-[subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])

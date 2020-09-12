@@ -1,0 +1,39 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Eternal Lyrics.txt_1-1  []-negative  [neg]
+Eternal Lyrics.txt_2-3  []-negative  [neg]
+Eternal Lyrics.txt_2-4  []-negative  [neg]
+Eternal Lyrics.txt_2-5  []-negative  [neg,fhd]
+Eternal Lyrics.txt_3-10  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Eternal Lyrics.txt_1-1  [eternal,Lyrics,by,Xander,P]  [title]
+Eternal Lyrics.txt_2-3  [i,am,never]  [reject_expl_just(write,[external,factive,narration,foreground,objective]),reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(die,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Eternal Lyrics.txt_2-4  [Gon,na,die]  [reject_expl_just(write,[external,factive,narration,foreground,objective]),reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(die,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Eternal Lyrics.txt_2-5  [am,eternal,craving,women,for,they,external,i,get,internal,higher,,,ranking,like,Navy,captain,to,a,Colonel,she,writing,in,her,journal,i,that]  [reject_expl_just(write,[external,factive,narration,foreground,objective]),reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(die,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Eternal Lyrics.txt_3-10  [we,are,nocturnal,good]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Eternal Lyrics.txt_1-1)-[primary-timelessness]
+2-(Eternal Lyrics.txt_2-3)-[]
+half
+3-(Eternal Lyrics.txt_2-4)-[primary-passivity]
+4-(Eternal Lyrics.txt_2-5)-[primary-timelessness,primary-height,emotions-affection]
+5-(Eternal Lyrics.txt_3-10)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Eternal Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-P-sn2,subj-theme_bound-Lyrics-sn1,and(P,Xander,sn2),and(Lyrics,eternal,sn1),def_prop(P,[place,attivita,informa]),def_prop(Lyrics,[informa,tecno])])
+lf(Eternal Lyrics.txt_2,3,cl5-nil-nil-write-[ncmod-modale-captain-sn16,xadj-adj-ranking-adj1,ncmod-source_information-journal-sn11,and(captain,Navy,sn16),def_prop(captain,_891896),def_prop(ranking,_891908),def_prop(journal,[attivita,informa,oggetto,strumento])])
+lf(Eternal Lyrics.txt_2,3,cl4-nil-nil-get-[xcomp-agent-higher-sn22,subj-agent-you-sn21,xcomp-prop-higher-sn20,subj-theme_bound-i-sn19,and(higher,internal,sn22),and(higher,internal,sn20),def_prop(higher,[valutativo]),def_prop(you,[umano]),def_prop(higher,[valutativo]),def_prop(i,[umano])])
+lf(Eternal Lyrics.txt_2,3,cl3-nil-nil-die-[obj-theme-they-sn8,xcomp-purpose-crave-2,ncmod-modal-Gon-sn4,subj-theme_aff-you-sn3,def_prop(they,[umano]),def_prop(Gon,[istituzione,umano]),def_prop(you,[umano])])
+lf(Eternal Lyrics.txt_2,3,cl2-nil-nil-be-[subj-sn6-she-sn10,xcomp-prop-external-sn9,xcomp-prop-eternal-sn7,subj-theme_bound-woman-sn6,subj-theme_bound-woman-sn5,xcomp-prop-never-sn2,subj-theme_bound-i-sn1,and(woman,you,sn5),def_prop(she,[umano]),def_prop(external,[astratto]),def_prop(eternal,[evaluative]),def_prop(woman,[any]),def_prop(woman,[any]),def_prop(never,[istituzione]),def_prop(i,[umano])])
+lf(Eternal Lyrics.txt_3,10,cl6-nil-nil-be-[xcomp-prop-good-sn2,subj-theme_bound-we-sn1,and(good,nocturnal,sn2),def_prop(good,[astratto]),def_prop(we,[umano])])

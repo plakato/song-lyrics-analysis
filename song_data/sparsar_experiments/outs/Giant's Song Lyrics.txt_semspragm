@@ -1,0 +1,214 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Giant's Song Lyrics.txt_1-1  []-positive  []
+Giant's Song Lyrics.txt_2-3  []-suspension  [neg,neg]
+Giant's Song Lyrics.txt_3-6  []-negative  [neg]
+Giant's Song Lyrics.txt_3-7  []-negative  [neg]
+Giant's Song Lyrics.txt_4-11  []-positive  []
+Giant's Song Lyrics.txt_5-16  []-negative  [neg,neg]
+Giant's Song Lyrics.txt_6-22  []-positive  [neg,neg]
+Giant's Song Lyrics.txt_7-29  []-negative  [neg]
+Giant's Song Lyrics.txt_8-37  []-positive  []
+Giant's Song Lyrics.txt_9-46  []-positive  []
+Giant's Song Lyrics.txt_10-56  [so-result]-positive  [fgb]
+Giant's Song Lyrics.txt_11-68  []-negative  [neg]
+Giant's Song Lyrics.txt_11-69  []-negative  [neg]
+Giant's Song Lyrics.txt_12-82  []-positive  []
+Giant's Song Lyrics.txt_13-95  [before-temp_prec]-positive  [fhd]
+Giant's Song Lyrics.txt_13-96  []-positive  []
+Giant's Song Lyrics.txt_14-109  []-negative  []
+Giant's Song Lyrics.txt_15-124  []-positive  []
+Giant's Song Lyrics.txt_15-125  []-positive  [fgb]
+Giant's Song Lyrics.txt_16-141  []-positive  []
+Giant's Song Lyrics.txt_18-178  []-positive  []
+Giant's Song Lyrics.txt_19-197  []-negative  [neg,fgb]
+Giant's Song Lyrics.txt_20-217  []-positive  []
+Giant's Song Lyrics.txt_20-218  [before-temp_prec]-positive  []
+Giant's Song Lyrics.txt_21-239  []-negative  [neg]
+Giant's Song Lyrics.txt_22-261  []-positive  [fgb,neg]
+Giant's Song Lyrics.txt_23-284  []-positive  [fgb]
+Giant's Song Lyrics.txt_23-285  []-positive  [fgb]
+Giant's Song Lyrics.txt_24-309  []-positive  []
+Giant's Song Lyrics.txt_24-310  []-positive  [fgb]
+Giant's Song Lyrics.txt_25-335  []-positive  []
+Giant's Song Lyrics.txt_26-361  []-negative  [neg]
+Giant's Song Lyrics.txt_27-388  []-negative  []
+Giant's Song Lyrics.txt_27-389  []-negative  [neg]
+Giant's Song Lyrics.txt_28-417  []-positive  []
+Giant's Song Lyrics.txt_29-446  []-positive  []
+Giant's Song Lyrics.txt_29-447  []-positive  [fgb]
+Giant's Song Lyrics.txt_30-478  []-positive  []
+Giant's Song Lyrics.txt_31-509  []-positive  []
+Giant's Song Lyrics.txt_32-541  []-positive  []
+Giant's Song Lyrics.txt_33-574  [then-temp_seq]-positive  []
+Giant's Song Lyrics.txt_33-574  [then-temp_seq]-positive  []
+Giant's Song Lyrics.txt_34-608  []-positive  []
+Giant's Song Lyrics.txt_35-643  []-positive  []
+Giant's Song Lyrics.txt_36-679  []-positive  []
+Giant's Song Lyrics.txt_37-716  []-positive  []
+Giant's Song Lyrics.txt_37-717  []-positive  []
+Giant's Song Lyrics.txt_38-755  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Giant's Song Lyrics.txt_1-1  [giant-s,Song,Lyrics,by,Rune]  [title]
+Giant's Song Lyrics.txt_2-3  [a,desert,surrounds,me,an,endless,ochre,sublime]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Giant's Song Lyrics.txt_3-6  [sun,is,beating]  [reject_expl_just(beat,[external,factive,cause,foreground,objective]),reject_expl_just(crack,[external,factive,cause,foreground,objective])]
+Giant's Song Lyrics.txt_3-7  [,,cracking,the,earth,beneath,me]  [reject_expl_just(beat,[external,factive,cause,foreground,objective]),reject_expl_just(crack,[external,factive,cause,foreground,objective])]
+Giant's Song Lyrics.txt_4-11  [i,can,only,move,on]  [provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Giant's Song Lyrics.txt_5-16  [insignificant,in,my,incompetent,wandering]  [reject_expl_just(be,[_477098,_477104,_477110,_477116,_477122])]
+Giant's Song Lyrics.txt_6-22  [on,the,horizon,i,see,long,shadows,cast,by,the,sun]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_7-29  [an,arrowhead,of,figures,,,marching,obstinate]  [reject_expl_just(march,[external,factive,narration,foreground,objective])]
+Giant's Song Lyrics.txt_8-37  [life,itself,toward,the,orb,giving,magic,one]  [raise_issue(be,[_478130,factive,statement,_478148,subjective])]
+Giant's Song Lyrics.txt_9-46  [i,can,feel,the,power,in,their,steps]  [provide_expl_just(feel,[external,nonfactive,narration,foreground,objective])]
+Giant's Song Lyrics.txt_10-56  [so,i,run,to,catch,these,giants]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(catch,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_11-68  [i,scream]  [reject_expl_just(try,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(scream,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_11-69  [weakness,tries,to,get,the,best,of,me]  [reject_expl_just(try,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(scream,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_12-82  [i,see,footprints,now,in,front,of,me]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_13-95  [there,have,been,others,here,before,like]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Giant's Song Lyrics.txt_13-96  [me]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Giant's Song Lyrics.txt_14-109  [struggling,for,a,glimpse,of,this,holy,walk]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_15-124  [the,creatures,walk,around]  [accept_expl_opin(walk,[external,factive,narration,background,objective]),provide_expl_just(walk,[external,factive,narration,background,objective]),accept_expl_opin(see,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_15-125  [me,and,i,see]  [accept_expl_opin(walk,[external,factive,narration,background,objective]),provide_expl_just(walk,[external,factive,narration,background,objective]),accept_expl_opin(see,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_16-141  [mottling,their,naked,flesh,are,bodies]  [provide_expl_just(mottle,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_18-178  [they,embrace,each_other,with,an,under,worldly,grace]  [provide_expl_just(embrace,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_19-197  [a,sensuous,binding,made,of,struggle,and,release]  [reject_expl_just(bin,[external,factive,narration,foreground,objective])]
+Giant's Song Lyrics.txt_20-217  [they,beckon,me]  [provide_expl_just(beckon,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_20-218  [a,pair,of,striking,eyes,i,have,seen,before]  [provide_expl_just(beckon,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_21-239  [green,pupils,shrouded,in,shepherd,boy,hair]  [reject_expl_just(shroud,[external,factive,narration,foreground,objective])]
+Giant's Song Lyrics.txt_22-261  [perceptive,and,sagacious,with,an,uncompromising,stare]  [provide_expl_just(stare,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_23-284  [i,see,the,path,through,limbs,and,throats]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_23-285  [,,determined,and,aware]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_24-309  [i,climb]  [provide_expl_just(climb,[external,factive,narration,background,objective]),provide_expl_just(urge,[external,factive,narration,foreground,objective])]
+Giant's Song Lyrics.txt_24-310  [,,supple,flesh,beneath,my,feet,and,hands,,,urging,me,on]  [provide_expl_just(climb,[external,factive,narration,background,objective]),provide_expl_just(urge,[external,factive,narration,foreground,objective])]
+Giant's Song Lyrics.txt_25-335  [this,path,winding,to,the,sun]  [provide_expl_just(win,[external,factive,narration,foreground,objective])]
+Giant's Song Lyrics.txt_26-361  [every,piece,of,magic,that,convulses,out_of,us,,,pulling,us,up]  [reject_expl_just(pull,[external,factive,cause,foreground,objective])]
+Giant's Song Lyrics.txt_27-388  [the,creature,trudges,on]  [provide_expl_just(trudge,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_27-389  [,,an,army,of,them,of,us]  [reject_expl_just(trudge,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_28-417  [across,this,vast,plain,something,beckons,us]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_29-446  [i,see,others,joining,on]  [provide_expl_just(jump,[external,factive,narration,foreground,objective]),provide_expl_just(join,[external,factive,cause,foreground,objective])]
+Giant's Song Lyrics.txt_29-447  [,,jumping,on,the,feet,and]  [provide_expl_just(jump,[external,factive,narration,foreground,objective]),provide_expl_just(join,[external,factive,cause,foreground,objective])]
+Giant's Song Lyrics.txt_30-478  [some,finally,are,done]  [provide_expl_just(do,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_31-509  [finding,their,place,among,the,others]  [provide_expl_just(find,[external,factive,narration,foreground,objective])]
+Giant's Song Lyrics.txt_32-541  [i,pull,myself,once_more,up]  [provide_expl_just(pull,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_33-574  [then,stand,atop,the,shoulders,of,this]  [provide_expl_just(stand,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_33-574  [then,stand,atop,the,shoulders,of,this,giant]  [provide_expl_just(stand,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_34-608  [face,into,the,sun]  [provide_expl_just(face,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_35-643  [big,the,enough,sky,has,become,a,sea,of,crimson,flame]  [provide_expl_just(become,[external,factive,narration,foreground,objective])]
+Giant's Song Lyrics.txt_36-679  [a,tongue,comes,out,to,kiss,us,all]  [raise_issue(be,[_501898,factive,statement,_501916,subjective])]
+Giant's Song Lyrics.txt_37-716  [the,giant,reaches,up,with,me]  [provide_expl_just(reach,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_37-717  [,,together]  [provide_expl_just(reach,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Giant's Song Lyrics.txt_38-755  [we,touch,the,sun]  [provide_expl_just(touch,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Giant's Song Lyrics.txt_1-1)-[]
+2-(Giant's Song Lyrics.txt_2-3)-[primary-voyage,primary-concreteness,primary-timelessness,emotions-glory]
+3-(Giant's Song Lyrics.txt_3-6)-[primary-fire]
+4-(Giant's Song Lyrics.txt_3-7)-[primary-sound,primary-depth]
+5-(Giant's Song Lyrics.txt_4-11)-[]
+6-(Giant's Song Lyrics.txt_5-16)-[]
+7-(Giant's Song Lyrics.txt_6-22)-[primary-brink,primary-vision,primary-concreteness,primary-diffusion,primary-fire]
+8-(Giant's Song Lyrics.txt_7-29)-[secondary-abstract_tought]
+9-(Giant's Song Lyrics.txt_8-37)-[primary-concreteness,primary-unknow]
+10-(Giant's Song Lyrics.txt_9-46)-[primary-brink]
+11-(Giant's Song Lyrics.txt_10-56)-[secondary-restraint]
+12-(Giant's Song Lyrics.txt_11-68)-[emotions-expressive_beh]
+13-(Giant's Song Lyrics.txt_11-69)-[]
+14-(Giant's Song Lyrics.txt_12-82)-[primary-vision,secondary-temporal_repere,primary-concreteness]
+15-(Giant's Song Lyrics.txt_13-95)-[primary-concreteness,emotions-affection]
+16-(Giant's Song Lyrics.txt_13-96)-[]
+17-(Giant's Song Lyrics.txt_14-109)-[primary-vision]
+18-(Giant's Song Lyrics.txt_15-124)-[]
+19-(Giant's Song Lyrics.txt_15-125)-[primary-vision]
+20-(Giant's Song Lyrics.txt_16-141)-[primary-sex,primary-narcissism,primary-narcissism]
+21-(Giant's Song Lyrics.txt_18-178)-[emotions-affection,primary-depth]
+22-(Giant's Song Lyrics.txt_19-197)-[primary-sex,primary-counscious,emotions-aggression]
+23-(Giant's Song Lyrics.txt_20-217)-[secondary-social_behavior]
+24-(Giant's Song Lyrics.txt_20-218)-[primary-narcissism,primary-vision]
+half
+25-(Giant's Song Lyrics.txt_21-239)-[primary-vision,primary-narcissism]
+26-(Giant's Song Lyrics.txt_22-261)-[primary-vision]
+27-(Giant's Song Lyrics.txt_23-284)-[primary-vision,primary-brink,primary-narcissism,primary-orality]
+28-(Giant's Song Lyrics.txt_23-285)-[secondary-abstract_tought,primary-gen_sensation]
+29-(Giant's Song Lyrics.txt_24-309)-[primary-ascend]
+30-(Giant's Song Lyrics.txt_24-310)-[primary-narcissism,primary-depth,primary-narcissism,primary-narcissism]
+31-(Giant's Song Lyrics.txt_25-335)-[primary-brink,primary-fire]
+32-(Giant's Song Lyrics.txt_26-361)-[secondary-temporal_repere,primary-unknow,primary-random_movement]
+33-(Giant's Song Lyrics.txt_27-388)-[]
+34-(Giant's Song Lyrics.txt_27-389)-[emotions-aggression,secondary-abstract_tought]
+35-(Giant's Song Lyrics.txt_28-417)-[primary-concreteness,secondary-social_behavior]
+36-(Giant's Song Lyrics.txt_29-446)-[primary-vision]
+37-(Giant's Song Lyrics.txt_29-447)-[primary-narcissism]
+38-(Giant's Song Lyrics.txt_30-478)-[]
+39-(Giant's Song Lyrics.txt_31-509)-[primary-concreteness,primary-concreteness]
+40-(Giant's Song Lyrics.txt_32-541)-[]
+41-(Giant's Song Lyrics.txt_33-574)-[secondary-temporal_repere,primary-concreteness,primary-narcissism]
+42-(Giant's Song Lyrics.txt_33-574)-[secondary-temporal_repere,primary-concreteness,primary-narcissism]
+43-(Giant's Song Lyrics.txt_34-608)-[primary-narcissism,primary-fire]
+44-(Giant's Song Lyrics.txt_35-643)-[primary-height,primary-water,primary-vision,primary-fire]
+45-(Giant's Song Lyrics.txt_36-679)-[primary-orality,primary-concreteness,primary-sex]
+46-(Giant's Song Lyrics.txt_37-716)-[secondary-instru_behavior]
+47-(Giant's Song Lyrics.txt_37-717)-[]
+48-(Giant's Song Lyrics.txt_38-755)-[primary-touch,primary-fire]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Giant's Song Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-rune-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,giant-s,sn1),def_prop(rune,[attivita,informa]),def_prop(Lyrics,[informa,tecno])])
+lf(Giant's Song Lyrics.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-ochre-sn3,subj-theme_bound-ochre-sn2,subj-theme_bound-me-sn1,and(ochre,endless,sn3),and(ochre,endless,sn2),and(me,surround,sn1),def_prop(ochre,[astratto,sostanza]),def_prop(ochre,[astratto,sostanza]),def_prop(me,[umano])])
+lf(Giant's Song Lyrics.txt_3,6,cl4-nil-nil-crack-[ncmod-locativo-me-sn3,subj-agent-earth-sn2,def_prop(me,[umano]),def_prop(earth,[sostanza])])
+lf(Giant's Song Lyrics.txt_3,6,cl3-nil-nil-beat-[subj-agent-you-sn1,aux-(is)-nil,progr-beating-nil,def_prop(you,[umano])])
+lf(Giant's Song Lyrics.txt_4,11,cl5-nil-can-can-[obj-theme-move-sn2,subj-actor-i-sn1,def_prop(move,[attivita]),def_prop(i,[umano])])
+lf(Giant's Song Lyrics.txt_5,16,cl6-nil-nil-wander-[xadj-adj-insignificant-adj1,ncmod-locativo-incompetent-sn2,subj-agent-you-sn1,def_prop(insignificant,_505826),def_prop(incompetent,[umano]),def_prop(you,[umano])])
+lf(Giant's Song Lyrics.txt_6,22,cl7-nil-nil-see-[adj-(mod)-long-nil,arg_mod-agent-sun-sn4,obj-theme_aff-cass-sn3,iobj-locat-horizon-sn2,subj-experiencer-i-sn1,and(cass,shadow,sn3),def_prop(sun,[oggetto,umano]),def_prop(cass,[legale]),def_prop(horizon,[astratto,luogo]),def_prop(i,[umano])])
+lf(Giant's Song Lyrics.txt_7,29,cl8-nil-nil-march-[subj-theme-arrowhead-sn1,def_prop(arrowhead,[oggetto,strumento])])
+lf(Giant's Song Lyrics.txt_8,37,cl9-nil-nil-give-[obj2-paziente-one-sn3,ncmod-loc_direct-orb-sn2,subj-actor-itself-sn1,and(one,magic,sn3),and(itself,life,sn1),def_prop(one,[umano]),def_prop(orb,[astratto,body_part,oggetto]),def_prop(itself,[any])])
+lf(Giant's Song Lyrics.txt_9,46,cl10-nil-can-feel-[xcomp-tema_emot-power-sn2,subj-experiencer-i-sn1,def_prop(power,[astratto,attivita,cambia,umano]),def_prop(i,[umano])])
+lf(Giant's Song Lyrics.txt_10,56,cl12-nil-nil-catch-[obj-theme_unaff-giant-sn2,xcomp-purpose-run-2,and(giant,these,sn2),def_prop(giant,[animato,umano])])
+lf(Giant's Song Lyrics.txt_10,56,cl11-nil-nil-run-[subj-theme_aff-i-sn1,def_prop(i,[umano])])
+lf(Giant's Song Lyrics.txt_11,68,cl15-nil-nil-get-[])
+lf(Giant's Song Lyrics.txt_11,68,cl14-nil-nil-try-[obj-paziente-best-sn3,xcomp-purpose-get-cl15,subj-actor-weakness-sn2,def_prop(best,[attivita,umano]),def_prop(weakness,[astratto,emotivo,stato])])
+lf(Giant's Song Lyrics.txt_11,68,cl13-nil-nil-scream-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Giant's Song Lyrics.txt_12,82,cl16-nil-nil-see-[adj-(mod)-now-nil,iobj-goal-front-sn3,obj-actor-footprint-sn2,subj-experiencer-i-sn1,def_prop(front,[astratto,attivita,cambia,luogo,oggetto,stato,strumento]),def_prop(footprint,[astratto,attivita,informa]),def_prop(i,[umano])])
+lf(Giant's Song Lyrics.txt_13,95,cl17-nil-nil-be-[subj-theme_bound-you-sn6,def_prop(you,[umano])])
+lf(Giant's Song Lyrics.txt_14,109,cl18-nil-nil-be-[subj-theme_bound-glimpse-sn1,def_prop(glimpse,[astratto,attivita,informa])])
+lf(Giant's Song Lyrics.txt_15,124,cl20-nil-nil-see-[subj-experiencer-you-sn3,def_prop(you,[umano])])
+lf(Giant's Song Lyrics.txt_15,124,cl19-nil-nil-walk-[subj-actor-creature-sn1,def_prop(creature,[umano])])
+lf(Giant's Song Lyrics.txt_16,141,cl22-nil-nil-be-[xcomp-theme-body-sn2,xcomp-purpose-mottle-2,subj-theme_bound-flesh-sn1,and(flesh,naked,sn1),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano]),def_prop(flesh,[body_part,umano])])
+lf(Giant's Song Lyrics.txt_16,141,cl21-nil-nil-mottle-[])
+lf(Giant's Song Lyrics.txt_17,159,cl24-nil-nil-come-[subj-agent-that-sn1,aux-have-nil,def_prop(that,[oggetto,umano])])
+lf(Giant's Song Lyrics.txt_17,159,cl23-nil-nil-be-[ncmod-specif-that-sn1,def_prop(that,[oggetto,umano])])
+lf(Giant's Song Lyrics.txt_18,178,cl25-nil-nil-embrace-[ncmod-stato-grace-sn3,obj-actor2-each_other-sn2,subj-actor1-they-sn1,and(grace,worldly,sn3),def_prop(grace,[astratto,attivita,informa,stato]),def_prop(each_other,[umano]),def_prop(they,[umano])])
+lf(Giant's Song Lyrics.txt_19,197,cl26-nil-nil-bin-[xcomp-prop-made-sn2,subj-actor-sensuous-sn1,def_prop(made,[informa,tecno]),def_prop(sensuous,[istituzione])])
+lf(Giant's Song Lyrics.txt_20,217,cl28-nil-nil-see-[adj-(mod)-before-nil,subj-experiencer-pair-sn3,aux-have-nil,def_prop(pair,[nquant])])
+lf(Giant's Song Lyrics.txt_20,217,cl27-nil-nil-beckon-[obj-theme-me-sn2,subj-actor-they-sn1,def_prop(me,[umano]),def_prop(they,[umano])])
+lf(Giant's Song Lyrics.txt_21,239,cl29-nil-nil-shroud-[ncmod-locativo-boy-sn2,subj-destination-pupil-sn1,and(boy,shepherd,sn2),and(boy,boy,sn2),and(pupil,green,sn1),def_prop(boy,[oggetto,strumento]),def_prop(pupil,[body_part,umano])])
+lf(Giant's Song Lyrics.txt_22,261,cl30-nil-nil-stare-[xadj-adj-perceptive-adj4,ncmod-comitativo-uncompromising-sn2,subj-agent-you-sn1,def_prop(perceptive,_508724),def_prop(uncompromising,[istituzione]),def_prop(you,[umano])])
+lf(Giant's Song Lyrics.txt_23,284,cl32-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(Giant's Song Lyrics.txt_23,284,cl31-nil-nil-see-[iobj-goal-limb_and_throat-[sn3,sn4],obj-actor-path-sn2,subj-experiencer-i-sn1,def_prop(limb_and_throat,[body_part,luogo,oggetto,plant,strumento,umano,body_part,oggetto,strumento,umano]),def_prop(path,[luogo,oggetto,strumento]),def_prop(i,[umano])])
+lf(Giant's Song Lyrics.txt_24,309,cl34-nil-nil-urge-[obj-theme-me-sn5,ncmod-locativo-foot_and_hand-[sn3,sn4],subj-agent-flesh-sn2,and(flesh,supple,sn2),def_prop(me,[umano]),def_prop(foot_and_hand,[animato,attivita,body_part,luogo,nquant,oggetto,strumento,umano,animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(flesh,[body_part,umano])])
+lf(Giant's Song Lyrics.txt_24,309,cl33-nil-nil-climb-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Giant's Song Lyrics.txt_25,335,cl35-nil-nil-win-[iobj-goal-sun-sn2,subj-actor-path-sn1,and(path,this,sn1),def_prop(sun,[oggetto,umano]),def_prop(path,[luogo,oggetto,strumento])])
+lf(Giant's Song Lyrics.txt_26,361,cl36-nil-nil-pull-[adj-(mod)-up-nil,obj-theme-us-sn3,iobj-goal-us-sn2,subj-agent-piece-sn1,def_prop(us,[umano]),def_prop(us,[umano]),def_prop(piece,[astratto,attivita,edible,evento,informa,oggetto,strumento])])
+lf(Giant's Song Lyrics.txt_27,388,cl38-nil-nil-be-[ncmod-specif-us-sn3,subj-theme_bound-army-sn2,def_prop(us,[umano]),def_prop(army,[istituzione])])
+lf(Giant's Song Lyrics.txt_27,388,cl37-nil-nil-trudge-[subj-theme-creature-sn1,def_prop(creature,[umano])])
+lf(Giant's Song Lyrics.txt_28,417,cl39-nil-nil-be-[xcomp-theme-us-sn3,ncmod-locativo-plain-sn2,subj-theme_bound-something-sn1,and(us,beckon,sn3),and(plain,this,sn2),and(plain,vast,sn2),def_prop(us,[umano]),def_prop(plain,[oggetto]),def_prop(something,[astratto,informa,oggetto])])
+lf(Giant's Song Lyrics.txt_29,446,cl42-nil-nil-jump-[ncmod-locativo-foot-sn4,subj-agent-you-sn3,def_prop(foot,[animato,attivita,body_part,luogo,nquant,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Giant's Song Lyrics.txt_29,446,cl41-nil-nil-join-[])
+lf(Giant's Song Lyrics.txt_29,446,cl40-nil-nil-see-[obj-actor-others-sn2,subj-experiencer-i-sn1,def_prop(others,[istituzione]),def_prop(i,[umano])])
+lf(Giant's Song Lyrics.txt_30,478,cl43-nil-nil-do-[subj-actor-some-sn1,aux-are-nil,def_prop(some,[umano])])
+lf(Giant's Song Lyrics.txt_31,509,cl44-nil-nil-find-[iobj-goal-others-sn2,subj-actor-place-sn1,def_prop(others,[istituzione]),def_prop(place,[astratto,attivita,informa,luogo,stato])])
+lf(Giant's Song Lyrics.txt_32,541,cl45-nil-nil-pull-[obj-goal-myself-sn2,subj-agent-i-sn1,def_prop(myself,[umano]),def_prop(i,[umano])])
+lf(Giant's Song Lyrics.txt_33,574,cl46-nil-nil-stand-[cmod-subord-stand-then,adj-(mod)-atop-nil,obj-theme-giant-sn7,adj-subj_disc-atop-sn6,obj-tema_emot-shoulder-sn5,subj-experiencer-you-sn4,adj-subj_disc-atop-sn2,subj-experiencer-shoulder-sn1,def_prop(atop,[istituzione]),def_prop(giant,[animato,umano]),def_prop(atop,[istituzione]),def_prop(shoulder,[body_part,edible,oggetto,strumento,umano]),def_prop(you,[umano]),def_prop(atop,[istituzione]),def_prop(shoulder,[body_part,edible,oggetto,strumento,umano])])
+lf(Giant's Song Lyrics.txt_34,608,cl47-nil-nil-face-[ncmod-loc_direct-sun-sn2,subj-experiencer-you-sn1,def_prop(sun,[oggetto,umano]),def_prop(you,[umano])])
+lf(Giant's Song Lyrics.txt_35,643,cl48-nil-nil-become-[xcomp-prop-sea-sn2,subj-theme_bound-sky-sn1,aux-has-nil,and(sky,big,sn1),def_prop(sea,[attivita,cambia,oggetto]),def_prop(sky,[oggetto])])
+lf(Giant's Song Lyrics.txt_36,679,cl49-nil-nil-come-[xadj-theme-all-sn4,adj-(mod)-out-nil,iobj-goal-kiss-sn2,subj-agent-tongue-sn1,and(all,us,sn4),def_prop(all,[_511622]),def_prop(kiss,[attivita,edible,oggetto]),def_prop(tongue,[astratto,attivita,body_part,edible,informa,oggetto,strumento,umano])])
+lf(Giant's Song Lyrics.txt_37,716,cl50-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Giant's Song Lyrics.txt_37,716,nil-nil-nil-reach-[adj-(mod)-up-nil,ncmod-comitativo-me-sn2,subj-agent-giant-sn1,def_prop(me,[umano]),def_prop(giant,[animato,umano])])
+lf(Giant's Song Lyrics.txt_38,755,cl51-nil-nil-touch-[obj-theme_unaff-sun-sn2,subj-agent-we-sn1,def_prop(sun,[oggetto,umano]),def_prop(we,[umano])])

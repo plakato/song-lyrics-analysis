@@ -1,0 +1,77 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Currenttrends Lyrics.txt_1-1  []-positive  []
+Currenttrends Lyrics.txt_2-3  []-positive  []
+Currenttrends Lyrics.txt_3-6  []-negative  [neg]
+Currenttrends Lyrics.txt_4-10  []-positive  [ass]
+Currenttrends Lyrics.txt_5-16  []-negative  [neg]
+Currenttrends Lyrics.txt_6-22  []-positive  []
+Currenttrends Lyrics.txt_6-23  []-positive  []
+Currenttrends Lyrics.txt_6-24  []-positive  []
+Currenttrends Lyrics.txt_7-31  []-positive  [ass]
+Currenttrends Lyrics.txt_7-32  []-positive  []
+Currenttrends Lyrics.txt_8-40  []-positive  [ack,neg]
+Currenttrends Lyrics.txt_8-41  []-negative  [fgb,neg]
+Currenttrends Lyrics.txt_9-52  []-negative  [fhd]
+Currenttrends Lyrics.txt_9-53  []-positive  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Currenttrends Lyrics.txt_1-1  [currenttrends,Lyrics,by,Blood,Duster]  [title]
+Currenttrends Lyrics.txt_2-3  [keeping,pace,with,current,trends]  [provide_expl_just(keep,[external,factive,cause,foreground,objective])]
+Currenttrends Lyrics.txt_3-6  [a,sellouts,whordom,never,ends]  [reject_expl_just(end,[external,factive,explanation,background,objective]),propose_opin_neg(end,[external,factive,explanation,background,objective])]
+Currenttrends Lyrics.txt_4-10  [making,sure,i,got,cool,clothes]  [accept_expl_opin(make,[external,factive,cause,foreground,objective])]
+Currenttrends Lyrics.txt_5-16  [a,dirty,major,labels,ho-s]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Currenttrends Lyrics.txt_6-22  [manager,tells,me]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(update,[external,factive,narration,foreground,objective])]
+Currenttrends Lyrics.txt_6-23  [/,keep]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(update,[external,factive,narration,foreground,objective])]
+Currenttrends Lyrics.txt_6-24  [my,look,updated]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(update,[external,factive,narration,foreground,objective])]
+Currenttrends Lyrics.txt_7-31  [the,kid,demographic,/,make,sure]  [accept_expl_opin(make,[external,factive,narration,background,objective]),accept_expl_opin(cater,[external,factive,narration,foreground,objective])]
+Currenttrends Lyrics.txt_7-32  [that,its,catered]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(cater,[external,factive,narration,foreground,objective])]
+Currenttrends Lyrics.txt_8-40  [wearing,the,right,stuff,stop,swearing]  [provide_expl_just(swear,[external,factive,narration,foreground,objective]),provide_expl_just(stop,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Currenttrends Lyrics.txt_8-41  [and,shit]  [reject_expl_just(swear,[external,factive,narration,foreground,objective]),reject_expl_just(stop,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Currenttrends Lyrics.txt_9-52  [cos,parents,don-t,like,that]  [provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(buy,[external,factive,narration,background,objective])]
+Currenttrends Lyrics.txt_9-53  [/,they,buy,their,kids,shit]  [provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(buy,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Currenttrends Lyrics.txt_1-1)-[]
+2-(Currenttrends Lyrics.txt_2-3)-[]
+3-(Currenttrends Lyrics.txt_3-6)-[]
+4-(Currenttrends Lyrics.txt_4-10)-[secondary-abstract_tought,primary-cold]
+5-(Currenttrends Lyrics.txt_5-16)-[primary-anality]
+6-(Currenttrends Lyrics.txt_6-22)-[secondary-restraint,secondary-social_behavior]
+7-(Currenttrends Lyrics.txt_6-23)-[]
+half
+8-(Currenttrends Lyrics.txt_6-24)-[primary-vision]
+9-(Currenttrends Lyrics.txt_7-31)-[secondary-instru_behavior,secondary-abstract_tought]
+10-(Currenttrends Lyrics.txt_7-32)-[]
+11-(Currenttrends Lyrics.txt_8-40)-[secondary-moral_imperative,secondary-restraint]
+12-(Currenttrends Lyrics.txt_8-41)-[primary-anality]
+13-(Currenttrends Lyrics.txt_9-52)-[emotions-affection]
+14-(Currenttrends Lyrics.txt_9-53)-[secondary-instru_behavior,primary-anality]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Currenttrends Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Duster-sn2,subj-theme_bound-Lyrics-sn1,and(Duster,Blood,sn2),and(Lyrics,currenttrends,sn1),def_prop(Duster,[place,attivita,oggetto,strumento,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Currenttrends Lyrics.txt_2,3,cl2-nil-nil-keep-[iobj-goal-trend-sn2,subj-experiencer-you-sn1,and(trend,current,sn2),def_prop(trend,[astratto,attivita,informa,luogo,stato]),def_prop(you,[umano])])
+lf(Currenttrends Lyrics.txt_3,6,cl3-nil-nil-end-[adj-(mod)-never-nil,subj-agent-whordom-sn1,and(whordom,sellout,sn1),def_prop(whordom,[istituzione])])
+lf(Currenttrends Lyrics.txt_4,10,cl5-nil-nil-get-[obj-agent-cloth-sn2,xcomp-purpose-make-2,subj-agent-i-sn1,and(cloth,cool,sn2),def_prop(cloth,[oggetto,strumento]),def_prop(i,[umano])])
+lf(Currenttrends Lyrics.txt_4,10,cl4-nil-nil-make-[xadj-adj-sure-adj1,def_prop(sure,_1014156)])
+lf(Currenttrends Lyrics.txt_5,16,cl6-nil-nil-be-[ncmod-modal-label-sn2,subj-theme_bound-you-sn1,def_prop(label,[attivita,informa,sostanza]),def_prop(you,[umano])])
+lf(Currenttrends Lyrics.txt_6,22,cl9-nil-nil-update-[subj-agent-you-sn4,def_prop(you,[umano])])
+lf(Currenttrends Lyrics.txt_6,22,cl8-nil-nil-keep-[subj-experiencer-you-sn3,def_prop(you,[umano])])
+lf(Currenttrends Lyrics.txt_6,22,cl7-nil-nil-tell-[obj-theme_unaff-me-sn2,subj-agent-manager-sn1,def_prop(me,[umano]),def_prop(manager,[informa,legale,relat,sociale,tecno,umano])])
+lf(Currenttrends Lyrics.txt_7,31,cl11-nil-nil-cater-[subj-agent-its-sn3,def_prop(its,[istituzione])])
+lf(Currenttrends Lyrics.txt_7,31,cl10-nil-nil-make-[xcomp-prop-sure-sn2,subj-agent-ky-sn1,def_prop(sure,[valutativo]),def_prop(ky,[informa,tecno])])
+lf(Currenttrends Lyrics.txt_8,40,cl15-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Currenttrends Lyrics.txt_8,40,cl14-nil-nil-swear-[])
+lf(Currenttrends Lyrics.txt_8,40,cl13-nil-nil-stop-[subj-agent-stuff-sn1,and(stuff,right,sn1),def_prop(stuff,[astratto,attivita,informa,oggetto])])
+lf(Currenttrends Lyrics.txt_8,40,cl12-nil-nil-wear-[])
+lf(Currenttrends Lyrics.txt_9,52,cl17-nil-nil-buy-[xcomp-prop-shit-sn5,subj-actor-they-sn4,def_prop(shit,[attivita,umano]),def_prop(they,[umano])])
+lf(Currenttrends Lyrics.txt_9,52,cl16-not-nil-don-t-[xcomp-prop-that-sn2,subj-agent-parent-sn1,and(parent,co,sn1),def_prop(that,[oggetto,umano]),def_prop(parent,[umano])])

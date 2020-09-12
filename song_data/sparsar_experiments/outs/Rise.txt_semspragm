@@ -1,0 +1,148 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Rise.txt_1-1  []-positive  []
+Rise.txt_2-3  []-positive  []
+Rise.txt_2-4  []-suspension  [neg,neg,neg]
+Rise.txt_3-8  []-negative  [neg,neg]
+Rise.txt_3-9  []-negative  []
+Rise.txt_4-13  [(as)-temp_coinc]-suspension  [neg,neg]
+Rise.txt_5-20  []-positive  []
+Rise.txt_6-27  []-suspension  []
+Rise.txt_7-34  []-positive  [neg,neg]
+Rise.txt_8-42  []-positive  []
+Rise.txt_9-51  []-positive  []
+Rise.txt_9-52  []-negative  [neg]
+Rise.txt_9-53  []-positive  [neg]
+Rise.txt_9-54  []-positive  []
+Rise.txt_9-55  []-positive  []
+Rise.txt_10-65  []-positive  [neg]
+Rise.txt_10-66  []-suspension  [neg,neg]
+Rise.txt_11-80  []-positive  [neg]
+Rise.txt_11-81  []-negative  [neg]
+Rise.txt_12-93  []-suspension  [neg,neg,neg]
+Rise.txt_12-94  []-suspension  [neg,neg]
+Rise.txt_13-107  [when-temp_coinc]-positive  []
+Rise.txt_13-108  []-suspension  [neg,neg]
+Rise.txt_14-124  []-positive  [neg,neg]
+Rise.txt_15-139  []-positive  []
+Rise.txt_16-155  []-positive  [neg]
+Rise.txt_16-156  []-positive  []
+Rise.txt_17-174  []-positive  [neg]
+Rise.txt_17-175  []-suspension  [neg,neg,neg]
+Rise.txt_18-193  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Rise.txt_1-1  [rise,by,Rufus,Rex]  [title]
+Rise.txt_2-3  [there,is,a,carrion]  [provide_expl_just(lower,[external,factive,cause,foreground,objective]),provide_expl_just(haunt,[external,factive,cause,foreground,objective])]
+Rise.txt_2-4  [curse,forever,haunting,our,souls,until,the,very,day,we,are,lowered,in,a,hole,at,Stygian,shores]  [provide_expl_just(lower,[external,factive,cause,foreground,objective]),provide_expl_just(haunt,[external,factive,cause,foreground,objective])]
+Rise.txt_3-8  [we,are,doomed,to,run,underground,living,in,fear-till]  [reject_expl_just(doom-cl5,[external,factive,narration,background,objective]),reject_expl_just(snuff,[external,factive,narration,foreground,objective])]
+Rise.txt_3-9  [our,divine,spark-s,snuffed,out,no_longer]  [provide_expl_just(doom-cl5,[external,factive,narration,background,objective]),provide_expl_just(snuff,[external,factive,narration,foreground,objective])]
+Rise.txt_4-13  [will,you,wander,aimless,through,the,afterlife,the,caress,of,a,casket,holds,you,tight,we,are,destined,for,worms,as,our,lives]  [provide_expl_just(wander,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(destine,[external,factive,narration,foreground,objective])]
+Rise.txt_5-20  [conclude,last,rights,be,dammed]  [provide_expl_just(dam,[external,factive,narration,background,objective]),provide_expl_just(conclude,[external,factive,narration,background,objective])]
+Rise.txt_6-27  [Death,will,begin]  [provide_expl_just(begin,[external,nonfactive,inception,background,objective])]
+Rise.txt_7-34  [renewed,rise,Lazorus,rise,rise,from,the,grave,dispel]  [provide_expl_just(dispel,[external,factive,narration,background,objective])]
+Rise.txt_8-42  [the,inside,your,sleep,veins,rise,Lazorus,rise,rise,from,the,tomb,regain]  [provide_expl_just(regain,[external,factive,narration,background,objective])]
+Rise.txt_9-51  [your,breath,forever,exhumed,death-s,just]  [provide_expl_just(defy,[external,factive,narration,background,objective]),provide_expl_just(Reanimate,[external,factive,narration,background,objective]),provide_expl_just(exhume,[external,factive,narration,foreground,objective]),provide_expl_just(fate,[external,factive,narration,background,objective]),provide_expl_just(clean,[external,factive,narration,background,objective])]
+Rise.txt_9-52  [the,beginning,defy]  [reject_expl_just(defy,[external,factive,narration,background,objective]),reject_expl_just(Reanimate,[external,factive,narration,background,objective]),reject_expl_just(exhume,[external,factive,narration,foreground,objective]),reject_expl_just(fate,[external,factive,narration,background,objective]),reject_expl_just(clean,[external,factive,narration,background,objective])]
+Rise.txt_9-53  [fate,,,Reanimate,death-s,just,the,beginning,defy,fate]  [provide_expl_just(defy,[external,factive,narration,background,objective]),provide_expl_just(Reanimate,[external,factive,narration,background,objective]),provide_expl_just(exhume,[external,factive,narration,foreground,objective]),provide_expl_just(fate,[external,factive,narration,background,objective]),provide_expl_just(clean,[external,factive,narration,background,objective])]
+Rise.txt_9-54  [,,Reanimate]  [provide_expl_just(defy,[external,factive,narration,background,objective]),provide_expl_just(Reanimate,[external,factive,narration,background,objective]),provide_expl_just(exhume,[external,factive,narration,foreground,objective]),provide_expl_just(fate,[external,factive,narration,background,objective]),provide_expl_just(clean,[external,factive,narration,background,objective])]
+Rise.txt_9-55  [the,epitaph-s,wiped,clean,the,tombstones,ground,up,death-s]  [provide_expl_just(defy,[external,factive,narration,background,objective]),provide_expl_just(Reanimate,[external,factive,narration,background,objective]),provide_expl_just(exhume,[external,factive,narration,foreground,objective]),provide_expl_just(fate,[external,factive,narration,background,objective]),provide_expl_just(clean,[external,factive,narration,background,objective])]
+Rise.txt_10-65  [just,the,beginning,defy]  [provide_expl_just(defy,[external,factive,narration,background,objective]),provide_expl_just(fate,[external,factive,narration,background,objective]),provide_expl_just(Reanimate,[external,factive,narration,background,objective])]
+Rise.txt_10-66  [fate,Reanimate,no,need,for,eulogies,hymn-s,,,never,sung,the,motionary,silence,will,forever,be,eclipsed,with]  [provide_expl_just(defy,[external,factive,narration,background,objective]),provide_expl_just(fate,[external,factive,narration,background,objective]),provide_expl_just(Reanimate,[external,factive,narration,background,objective])]
+Rise.txt_11-80  [Funeral,directors,deprived,of,their,scripts]  [provide_expl_just(deprive,[external,factive,cause,foreground,objective])]
+Rise.txt_11-81  [denounce]  [reject_expl_just(deprive,[external,factive,cause,foreground,objective])]
+Rise.txt_12-93  [the,arcane,implements,of,the,past,lifeless,actors,no_longer,cast,at,final,curtain,call,there,is,a,body,in,dread]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(expire,[external,factive,narration,background,objective])]
+Rise.txt_12-94  [it,is,a,shame,to,expire]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(expire,[external,factive,narration,background,objective])]
+Rise.txt_13-107  [those,i,prayers,when,we,meet,our,end]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(meet,[external,factive,narration,background,objective]),provide_expl_just(cease,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Rise.txt_13-108  [cease,your,offerings,to,the,unfortunate,dead,silence,will,,,them,give,new,life,again]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(meet,[external,factive,narration,background,objective]),provide_expl_just(cease,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Rise.txt_14-124  [rise,Lazorus,rise,rise,from,the,grave,dispel]  [provide_expl_just(dispel,[external,factive,narration,background,objective])]
+Rise.txt_15-139  [the,inside,your,sleep,veins,rise,Lazorus,rise,rise,from,the,tomb,regain,your,breath,forever]  [provide_expl_just(regain,[external,factive,narration,background,objective])]
+Rise.txt_16-155  [just,the,beginning,defy]  [provide_expl_just(defy,[external,factive,narration,background,objective]),provide_expl_just(fate,[external,factive,narration,background,objective]),provide_expl_just(Reanimate,[external,factive,narration,background,objective])]
+Rise.txt_16-156  [fate,Reanimate,death-s,just,the,beginning]  [provide_expl_just(defy,[external,factive,narration,background,objective]),provide_expl_just(fate,[external,factive,narration,background,objective]),provide_expl_just(Reanimate,[external,factive,narration,background,objective])]
+Rise.txt_17-174  [Funeral,directors,deprived,of,their,scripts]  [provide_expl_just(deprive,[external,factive,cause,foreground,objective])]
+Rise.txt_17-175  [denounce,the,arcane,implements,of,the,past,lifeless,actors]  [provide_expl_just(deprive,[external,factive,cause,foreground,objective])]
+Rise.txt_18-193  [no,longer,cast]  [reject_expl_just(cast,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Rise.txt_1-1)-[primary-ascend]
+2-(Rise.txt_2-3)-[secondary-instru_behavior]
+3-(Rise.txt_2-4)-[primary-timelessness,primary-depth,primary-concreteness,primary-water]
+4-(Rise.txt_3-8)-[primary-depth]
+5-(Rise.txt_3-9)-[primary-fire,primary-concreteness]
+6-(Rise.txt_4-13)-[primary-voyage,primary-chaos,primary-sex]
+7-(Rise.txt_5-20)-[secondary-abstract_tought,secondary-moral_imperative,primary-water]
+8-(Rise.txt_6-27)-[]
+9-(Rise.txt_7-34)-[primary-ascend,primary-ascend,primary-ascend]
+10-(Rise.txt_8-42)-[primary-concreteness,primary-counscious,primary-narcissism,primary-ascend,primary-ascend,primary-ascend]
+11-(Rise.txt_9-51)-[primary-odor,primary-timelessness,primary-passivity]
+12-(Rise.txt_9-52)-[]
+13-(Rise.txt_9-53)-[primary-orality,primary-passivity,primary-orality]
+14-(Rise.txt_9-54)-[]
+15-(Rise.txt_9-55)-[primary-passivity]
+half
+16-(Rise.txt_10-65)-[]
+17-(Rise.txt_10-66)-[primary-orality,emotions-expressive_beh,primary-passivity,primary-timelessness]
+18-(Rise.txt_11-80)-[emotions-aggression]
+19-(Rise.txt_11-81)-[]
+20-(Rise.txt_12-93)-[secondary-temporal_repere,primary-concreteness,primary-diffusion,secondary-social_behavior,primary-narcissism,emotions-anxiety]
+21-(Rise.txt_12-94)-[]
+22-(Rise.txt_13-107)-[secondary-temporal_repere,secondary-social_behavior]
+23-(Rise.txt_13-108)-[primary-passivity,primary-passivity,secondary-abstract_tought,secondary-temporal_repere]
+24-(Rise.txt_14-124)-[primary-ascend,primary-ascend,primary-ascend]
+25-(Rise.txt_15-139)-[primary-concreteness,primary-counscious,primary-narcissism,primary-ascend,primary-ascend,primary-ascend,primary-odor,primary-timelessness]
+26-(Rise.txt_16-155)-[]
+27-(Rise.txt_16-156)-[primary-orality,primary-passivity]
+28-(Rise.txt_17-174)-[emotions-aggression]
+29-(Rise.txt_17-175)-[secondary-temporal_repere]
+30-(Rise.txt_18-193)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Rise.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Rex-sn2,subj-theme_bound-rise-sn1,and(Rex,Rufus,sn2),def_prop(Rex,[place,umano]),def_prop(rise,[astratto,attivita,evento])])
+lf(Rise.txt_2,3,cl4-nil-nil-lower-[adj-temporal-day-nil,adj-(mod)-forever-nil,ncmod-locativo-shore-sn7,iobj-goal-hole-sn6,obj-experiencer-soul-sn4,xadj-result-haunt-cl3,subj-theme-curse-sn3,aux-are-nil,and(shore,Stygian,sn7),def_prop(day,[tempo]),def_prop(shore,[oggetto,strumento]),def_prop(hole,[astratto,oggetto,stato,strumento]),def_prop(soul,[attivita,emotivo,informa,umano]),def_prop(curse,[attivita,evento,informa])])
+lf(Rise.txt_2,3,cl3-nil-nil-haunt-[])
+lf(Rise.txt_2,3,cl2-nil-nil-be-[xcomp-prop-carrion-sn2,subj-actor-there-sn1,def_prop(carrion,[animato,edible,oggetto]),def_prop(there,[any])])
+lf(Rise.txt_3,8,cl6-nil-nil-snuff-[adj-(mod)-no_longer-nil,subj-agent-our-sn4,xadj-adj-living-adj1,ncmod-locativo-fear-till-sn3,ncmod-locativo-underground-sn2,and(our,divine,sn4),and(our,spark-s,sn4),def_prop(no_longer,[istituzione]),def_prop(our,[istituzione]),def_prop(living,_570560),def_prop(fear-till,[emotivo,sostanza]),def_prop(underground,[istituzione])])
+lf(Rise.txt_3,8,cl5-nil-nil-doom-[subj-theme-we-sn1,aux-are-nil,def_prop(we,[umano])])
+lf(Rise.txt_4,13,cl9-nil-nil-destine-[obj-locat-aimless-sn2,xcomp-purpose-wander-5,aux-are-nil,def_prop(aimless,[evaluative])])
+lf(Rise.txt_4,13,cl8-nil-nil-wander-[ncmod-modal-afterlife-sn3,def_prop(afterlife,[tempo])])
+lf(Rise.txt_4,13,cl7-nil-will-will-[obj-theme-worm-sn9,obj-theme-we-sn8,xcomp-prop-tight-sn7,obj-theme-you-sn6,xcomp-prop-hold-sn5,obj-theme-caress-sn4,subj-agent-you-sn1,def_prop(worm,[animato,attivita,informa,oggetto,strumento,umano]),def_prop(we,[umano]),def_prop(tight,[evaluative]),def_prop(you,[umano]),def_prop(hold,[astratto,oggetto,strumento]),def_prop(caress,[attivita]),def_prop(you,[umano])])
+lf(Rise.txt_5,20,cl11-nil-nil-dam-[subj-theme-right-sn2,and(right,last,sn2),def_prop(right,[astratto,attivita,body_part,istituzione,luogo,oggetto,umano])])
+lf(Rise.txt_5,20,cl10-nil-nil-conclude-[obj-theme_unaff-right-sn2,subj-actor-you-sn1,and(right,last,sn2),def_prop(right,[astratto,attivita,body_part,istituzione,luogo,oggetto,umano]),def_prop(you,[umano])])
+lf(Rise.txt_6,27,cl12-nil-will-begin-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Rise.txt_7,34,cl13-nil-nil-dispel-[subj-agent-rise-sn2,subj-agent-rise-sn1,and(rise,rise,sn2),and(rise,Lazorus,sn1),and(rise,renewed,sn1),and(rise,rise,sn1),def_prop(rise,[astratto,attivita,evento]),def_prop(rise,[astratto,attivita,evento])])
+lf(Rise.txt_8,42,cl14-nil-nil-regain-[subj-agent-rise-sn4,subj-agent-rise-sn3,subj-agent-Lazorus-sn2,subj-agent-rise-sn1,and(rise,rise,sn4),and(rise,Lazorus,sn3),and(rise,rise,sn3),and(Lazorus,rise,sn2),def_prop(rise,[astratto,attivita,evento]),def_prop(rise,[astratto,attivita,evento]),def_prop(Lazorus,[istituzione,umano]),def_prop(rise,[astratto,attivita,evento])])
+lf(Rise.txt_9,51,cl18-nil-nil-clean-[xcomp-prop-ground-sn20,subj-agent-epitaph-s-sn19,def_prop(ground,[astratto,luogo,oggetto,strumento]),def_prop(epitaph-s,[attivita,informa])])
+lf(Rise.txt_9,51,nil-nil-nil-Reanimate-[subj-agent-pro-nil,adj-(mod)-just-nil,obj-theme_aff-death-s-sn10,subj-agent-beginning-sn9,def_prop(death-s,[animato,attivita,cambia,evento,informa,stato,tempo]),def_prop(beginning,[astratto,attivita,evento,luogo,tempo])])
+lf(Rise.txt_9,51,cl17-nil-nil-fate-[subj-actor-pro-nil,subj-theme-beginning-sn17,subj-theme-beginning-sn15,subj-theme-death-s-sn13,subj-actor-you-sn8,def_prop(beginning,[astratto,attivita,evento,luogo,tempo]),def_prop(beginning,[astratto,attivita,evento,luogo,tempo]),def_prop(death-s,[animato,attivita,cambia,evento,informa,stato,tempo]),def_prop(you,[umano])])
+lf(Rise.txt_9,51,cl16-nil-nil-defy-[adj-(mod)-clean-nil,subj-agent-you-sn18,subj-agent-beginning-sn17,adj-(mod)-just-nil,subj-agent-beginning-sn15,obj-theme-death-s-sn13,subj-agent-beginning-sn12,subj-agent-you-sn7,def_prop(you,[umano]),def_prop(beginning,[astratto,attivita,evento,luogo,tempo]),def_prop(beginning,[astratto,attivita,evento,luogo,tempo]),def_prop(death-s,[animato,attivita,cambia,evento,informa,stato,tempo]),def_prop(beginning,[astratto,attivita,evento,luogo,tempo]),def_prop(you,[umano])])
+lf(Rise.txt_9,51,cl15-nil-nil-exhume-[adj-(mod)-just-nil,adj-(mod)-forever-nil,obj-theme-death-s-sn2,subj-agent-breath-sn1,def_prop(death-s,[animato,attivita,cambia,evento,informa,stato,tempo]),def_prop(breath,[attivita,cambia,sostanza,tempo])])
+lf(Rise.txt_10,65,cl22-nil-will-eclipse-[subj-theme-silence-sn6,aux-be-nil,adj-(mod)-forever-nil,and(silence,motionary,sn6),def_prop(silence,[astratto,stato])])
+lf(Rise.txt_10,65,cl21-nil-nil-sing-[cmod-subord-eclipse-for,subj-actor-pro-nil,adj-(mod)-never-nil,subj-actor-hymn-s-sn8,and(hymn-s,eulogy,sn8),def_prop(hymn-s,[attivita,informa])])
+lf(Rise.txt_10,65,nil-nil-nil-Reanimate-[])
+lf(Rise.txt_10,65,cl20-nil-nil-fate-[obj-theme-ne-sn4,subj-actor-you-sn3,and(ne,no,sn4),def_prop(ne,[informa,legale,tecno]),def_prop(you,[umano])])
+lf(Rise.txt_10,65,cl19-nil-nil-defy-[subj-agent-beginning-sn1,def_prop(beginning,[astratto,attivita,evento,luogo,tempo])])
+lf(Rise.txt_11,80,cl24-nil-nil-denounce-[subj-agent-pro-nil,ncmod-specif-script-sn2,def_prop(script,[attivita,informa])])
+lf(Rise.txt_11,80,cl23-nil-nil-deprive-[subj-agent-director-sn1,and(director,funeral,sn1),def_prop(director,[umano])])
+lf(Rise.txt_12,93,cl26-nil-nil-expire-[])
+lf(Rise.txt_12,93,cl25-nil-nil-be-[xcomp-prop-shame-sn11,subj-theme_bound-it-sn10,adj-(mod)-no_longer-nil,xcomp-prop-body-sn6,xcomp-theme-there-sn5,xcomp-theme-call-sn4,ncmod-locativo-curtain-sn3,subj-theme_bound-cass-sn2,subj-theme_bound-cass-sn1,and(curtain,final,sn3),and(cass,implement,sn1),and(cass,arcane,sn1),def_prop(shame,[emotivo,stato]),def_prop(it,[any]),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano]),def_prop(there,[any]),def_prop(call,[attivita,informa]),def_prop(curtain,[oggetto,strumento]),def_prop(cass,[legale]),def_prop(cass,[legale])])
+lf(Rise.txt_13,107,cl30-nil-nil-give-[adj-(mod)-again-nil,subj-actor-life-sn16,obj-goal-life-sn14,subj-actor-them-sn13,and(life,new,sn16),and(life,new,sn14),def_prop(again,[istituzione]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(them,[umano])])
+lf(Rise.txt_13,107,cl29-nil-will-will-[])
+lf(Rise.txt_13,107,cl28-nil-nil-cease-[obj-theme_aff-offering-sn10,subj-agent-you-sn9,def_prop(offering,[astratto,oggetto]),def_prop(you,[umano])])
+lf(Rise.txt_13,107,cl27-nil-nil-meet-[adj-temporal-end-nil,obj-actor-we-sn2,subj-experiencer-prayer-sn1,and(prayer,those,sn1),def_prop(end,[tempo]),def_prop(we,[umano]),def_prop(prayer,[attivita,informa,umano])])
+lf(Rise.txt_14,124,cl31-nil-nil-dispel-[subj-agent-rise-sn2,subj-agent-rise-sn1,and(rise,rise,sn2),and(rise,Lazorus,sn1),and(rise,rise,sn1),def_prop(rise,[astratto,attivita,evento]),def_prop(rise,[astratto,attivita,evento])])
+lf(Rise.txt_15,139,cl32-nil-nil-regain-[adj-(mod)-forever-nil,obj-theme-breath-sn5,subj-agent-rise-sn4,subj-agent-rise-sn3,subj-agent-Lazorus-sn2,subj-agent-rise-sn1,and(rise,rise,sn4),and(rise,Lazorus,sn3),and(rise,rise,sn3),and(Lazorus,rise,sn2),def_prop(breath,[attivita,cambia,sostanza,tempo]),def_prop(rise,[astratto,attivita,evento]),def_prop(rise,[astratto,attivita,evento]),def_prop(Lazorus,[istituzione,umano]),def_prop(rise,[astratto,attivita,evento])])
+lf(Rise.txt_16,155,nil-nil-nil-Reanimate-[])
+lf(Rise.txt_16,155,cl34-nil-nil-fate-[adj-subj_disc-just-sn6,obj-prop-beginning-sn5,obj-theme-death-s-sn4,subj-actor-you-sn3,def_prop(just,[informa,tecno]),def_prop(beginning,[astratto,attivita,evento,luogo,tempo]),def_prop(death-s,[animato,attivita,cambia,evento,informa,stato,tempo]),def_prop(you,[umano])])
+lf(Rise.txt_16,155,cl33-nil-nil-defy-[subj-agent-beginning-sn1,def_prop(beginning,[astratto,attivita,evento,luogo,tempo])])
+lf(Rise.txt_17,174,cl36-nil-nil-denounce-[subj-agent-implement-sn7,subj-agent-implement-sn6,ncmod-specif-script-sn2,and(implement,arcane,sn7),and(implement,you,sn6),and(implement,arcane,sn6),def_prop(implement,[oggetto,strumento]),def_prop(implement,[oggetto,strumento]),def_prop(script,[attivita,informa])])
+lf(Rise.txt_17,174,cl35-nil-nil-deprive-[subj-agent-director-sn1,and(director,funeral,sn1),def_prop(director,[umano])])
+lf(Rise.txt_18,193,cl37-nil-nil-cast-[subj-actor-you-sn1,def_prop(you,[umano])])

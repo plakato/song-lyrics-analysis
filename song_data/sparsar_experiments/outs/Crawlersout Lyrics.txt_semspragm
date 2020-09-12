@@ -1,0 +1,44 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Crawlersout Lyrics.txt_1-1  []-positive  []
+Crawlersout Lyrics.txt_2-3  []-negative  [neg]
+Crawlersout Lyrics.txt_3-6  []-negative  [neg,neg]
+Crawlersout Lyrics.txt_3-7  []-suspension  [neg]
+Crawlersout Lyrics.txt_4-14  []-positive  []
+Crawlersout Lyrics.txt_4-15  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Crawlersout Lyrics.txt_1-1  [crawlersout,Lyrics,by,Purity,ring]  [title]
+Crawlersout Lyrics.txt_2-3  [sea,water,is,flowing,from,the,middle,of,my,thighs,wild]  [reject_expl_just(be,[_963984,_963990,_963996,_964002,_964008])]
+Crawlersout Lyrics.txt_3-6  [the,screams,that,their,minds,dispose,they,will,weave,their,long,souls,into]  [reject_expl_just(sew,[external,nonfactive,narration,background,objective]),reject_expl_just(keep,[external,factive,explanation,background,objective]),propose_opin_neg(keep,[external,factive,explanation,background,objective]),reject_expl_just(grow,[external,factive,result,background,objective]),propose_opin_neg(grow,[external,factive,result,background,objective]),reject_expl_just(weave,[external,nonfactive,narration,background,objective])]
+Crawlersout Lyrics.txt_3-7  [,,the,frame,to,grow,their,foliage,in,they,will,sew,their,long,hairs,into,their,beds,to,keep,them,crawlers,out,to]  [provide_expl_just(sew,[external,nonfactive,narration,background,objective]),propose_opin_neg(keep,[external,factive,explanation,background,objective]),propose_opin_neg(grow,[external,factive,result,background,objective]),provide_expl_just(weave,[external,nonfactive,narration,background,objective])]
+Crawlersout Lyrics.txt_4-14  [keep,them,crawlers,out,to,keep,,,them,crawlers,out,to,keep,,,them,crawlers,,,out,keep,them,crawlers]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
+Crawlersout Lyrics.txt_4-15  [,,out,keep,them,crawlers,out]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Crawlersout Lyrics.txt_1-1)-[primary-sound]
+2-(Crawlersout Lyrics.txt_2-3)-[primary-water,primary-water,primary-concreteness,primary-sex,primary-chaos]
+3-(Crawlersout Lyrics.txt_3-6)-[emotions-expressive_beh,primary-concreteness]
+half
+4-(Crawlersout Lyrics.txt_3-7)-[primary-brink,primary-height,primary-concreteness,primary-narcissism,primary-passivity,secondary-abstract_tought,primary-concreteness]
+5-(Crawlersout Lyrics.txt_4-14)-[secondary-abstract_tought,primary-concreteness,secondary-abstract_tought,primary-concreteness,secondary-abstract_tought,primary-concreteness,secondary-abstract_tought]
+6-(Crawlersout Lyrics.txt_4-15)-[primary-concreteness,secondary-abstract_tought,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Crawlersout Lyrics.txt_1,1,cl1-nil-nil-ring-[arg_mod-agent-Purity-sn2,subj-agent-Lyrics-sn1,and(Lyrics,crawlersout,sn1),def_prop(Purity,[place,astratto,stato]),def_prop(Lyrics,[informa,tecno])])
+lf(Crawlersout Lyrics.txt_2,3,cl2-nil-nil-flow-[iobj-goal-middle-sn2,subj-actor-water-sn1,aux-(is)-nil,progr-flowing-nil,and(water,sea,sn1),def_prop(middle,[astratto,body_part,tempo,umano]),def_prop(water,[edible,oggetto,sostanza])])
+lf(Crawlersout Lyrics.txt_3,6,cl7-nil-nil-dispose-[obj-theme-scream-sn6,def_prop(scream,_968570)])
+lf(Crawlersout Lyrics.txt_3,6,cl6-nil-nil-keep-[])
+lf(Crawlersout Lyrics.txt_3,6,cl5-nil-will-sew-[adj-(mod)-out-nil,obj-prop-hair-sn17,obj-patient-long-sn16,obj-prop-foliage-sn14,xcomp-purpose-grow-2,subj-agent-frame-sn13,def_prop(hair,[animato,body_part,nquant,plant,umano]),def_prop(long,[tempo]),def_prop(foliage,[oggetto,plant,strumento]),def_prop(frame,[body_part,oggetto,strumento,umano])])
+lf(Crawlersout Lyrics.txt_3,6,cl4-nil-nil-grow-[obj-goal-them-sn19,xadj-result-keep-3,ncmod-loc_direct-bed-sn18,ncmod-locativo-they-sn15,def_prop(them,[umano]),def_prop(bed,[oggetto,strumento]),def_prop(they,[umano])])
+lf(Crawlersout Lyrics.txt_3,6,cl3-nil-will-weave-[obj-theme_aff-soul-sn4,obj-theme_aff-long-sn3,subj-actor-they-sn2,subj-actor-they-sn1,and(they,scream,sn1),def_prop(soul,[attivita,emotivo,informa,umano]),def_prop(long,[tempo]),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Crawlersout Lyrics.txt_4,14,cl8-nil-nil-keep-[adj-(mod)-out-nil,subj_top-experiencer-crawler-sn24,subj-experiencer-crawler-sn20,subj-experiencer-crawler-sn17,obj-goal-crawler-sn13,xadj-result-keep-5,obj-goal-them-sn4,xadj-result-keep-4,obj-theme_aff-crawler-sn3,obj-goal-them-sn2,subj-experiencer-you-sn1,and(crawler,them,sn24),and(crawler,them,sn20),and(crawler,them,sn17),and(crawler,them,sn13),def_prop(crawler,[animato,umano]),def_prop(crawler,[animato,umano]),def_prop(crawler,[animato,umano]),def_prop(crawler,[animato,umano]),def_prop(them,[umano]),def_prop(crawler,[animato,umano]),def_prop(them,[umano]),def_prop(you,[umano])])

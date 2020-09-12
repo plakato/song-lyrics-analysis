@@ -1,0 +1,105 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Answer Lyrics.txt_1-1  []-positive  []
+Answer Lyrics.txt_2-3  []-negative  [neg]
+Answer Lyrics.txt_3-6  []-positive  []
+Answer Lyrics.txt_4-10  []-negative  []
+Answer Lyrics.txt_5-16  []-negative  []
+Answer Lyrics.txt_6-22  []-negative  []
+Answer Lyrics.txt_7-29  []-positive  []
+Answer Lyrics.txt_7-30  []-positive  []
+Answer Lyrics.txt_8-38  [but-advers]-negative  [neg,fgb,neg,neg]
+Answer Lyrics.txt_9-48  []-positive  []
+Answer Lyrics.txt_9-49  []-positive  [fgb]
+Answer Lyrics.txt_10-59  []-positive  []
+Answer Lyrics.txt_10-60  []-positive  []
+Answer Lyrics.txt_11-71  [then-temp_seq]-positive  []
+Answer Lyrics.txt_11-72  []-positive  []
+Answer Lyrics.txt_12-84  []-suspension  []
+Answer Lyrics.txt_13-97  []-positive  []
+Answer Lyrics.txt_13-98  []-positive  []
+Answer Lyrics.txt_14-112  []-positive  []
+Answer Lyrics.txt_14-113  []-positive  []
+Answer Lyrics.txt_15-129  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Answer Lyrics.txt_1-1  [answer,Lyrics,by,Xandria]  [title]
+Answer Lyrics.txt_2-3  [we,fought,the,truth]  [reject_expl_just(fight,[external,factive,cause,foreground,objective])]
+Answer Lyrics.txt_3-6  [we,as_long_as,lived,our,love]  [provide_expl_just(live,[external,factive,narration,foreground,objective])]
+Answer Lyrics.txt_4-10  [fearing,all,the,solutions,we,found]  [provide_expl_just(find,[external,factive,narration,foreground,objective])]
+Answer Lyrics.txt_5-16  [we,drowned,ourselves]  [proposal(be,[_34712,_34718,statement,foreground,_34736])]
+Answer Lyrics.txt_6-22  [in,the,lake,of,tears,theat,we,cried]  [provide_expl_just(cry,[external,factive,narration,foreground,objective])]
+Answer Lyrics.txt_7-29  [we,Til,found,out,that,love]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Answer Lyrics.txt_7-30  [is,its,ground]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Answer Lyrics.txt_8-38  [call,me,a,fool,but,i,am,not,not]  [reject_expl_just(call,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Answer Lyrics.txt_9-48  [our,love,changed]  [provide_expl_just(change,[external,factive,cause,foreground,objective]),provide_expl_just(be,[external,factive,circumstance,background,objective])]
+Answer Lyrics.txt_9-49  [and,love,changed,me]  [provide_expl_just(change,[external,factive,cause,foreground,objective]),provide_expl_just(be,[external,factive,circumstance,background,objective])]
+Answer Lyrics.txt_10-59  [i,kept,waiting]  [provide_expl_just(keep,[external,factive,cause,foreground,objective])]
+Answer Lyrics.txt_10-60  [for,your,answer]  [provide_expl_just(keep,[external,factive,cause,foreground,objective])]
+Answer Lyrics.txt_11-71  [then,i,found,out,the,answer]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(answer,[internal,factive,narration,background,objective])]
+Answer Lyrics.txt_11-72  [was,you]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(answer,[internal,factive,narration,background,objective])]
+Answer Lyrics.txt_12-84  [no_more,riddles,of,my,longings]  [provide_expl_just(riddle,[external,factive,narration,background,objective])]
+Answer Lyrics.txt_13-97  [now,i,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Answer Lyrics.txt_13-98  [that,the,answer,is,you]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Answer Lyrics.txt_14-112  [i,want,to,thank]  [provide_expl_just(thank,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Answer Lyrics.txt_14-113  [you,my,creator]  [provide_expl_just(thank,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Answer Lyrics.txt_15-129  [i,still,would,not,live,my,life,without,you]  [reject_expl_just(live,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Answer Lyrics.txt_1-1)-[secondary-social_behavior]
+2-(Answer Lyrics.txt_2-3)-[emotions-aggression,secondary-abstract_tought]
+3-(Answer Lyrics.txt_3-6)-[emotions-affection]
+4-(Answer Lyrics.txt_4-10)-[secondary-instru_behavior]
+5-(Answer Lyrics.txt_5-16)-[]
+6-(Answer Lyrics.txt_6-22)-[primary-water,primary-orality,emotions-expressive_beh]
+7-(Answer Lyrics.txt_7-29)-[secondary-instru_behavior,primary-concreteness,emotions-affection]
+8-(Answer Lyrics.txt_7-30)-[]
+9-(Answer Lyrics.txt_8-38)-[secondary-social_behavior]
+10-(Answer Lyrics.txt_9-48)-[emotions-affection]
+half
+11-(Answer Lyrics.txt_9-49)-[emotions-affection]
+12-(Answer Lyrics.txt_10-59)-[]
+13-(Answer Lyrics.txt_10-60)-[secondary-social_behavior]
+14-(Answer Lyrics.txt_11-71)-[secondary-temporal_repere,secondary-instru_behavior,primary-concreteness,secondary-social_behavior]
+15-(Answer Lyrics.txt_11-72)-[]
+16-(Answer Lyrics.txt_12-84)-[]
+17-(Answer Lyrics.txt_13-97)-[secondary-temporal_repere,secondary-abstract_tought]
+18-(Answer Lyrics.txt_13-98)-[secondary-social_behavior]
+19-(Answer Lyrics.txt_14-112)-[secondary-social_behavior]
+20-(Answer Lyrics.txt_14-113)-[]
+21-(Answer Lyrics.txt_15-129)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Answer Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Xandria-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,answer,sn1),def_prop(Xandria,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Answer Lyrics.txt_2,3,cl2-nil-nil-fight-[obj-theme_unaff-truth-sn2,subj-agent-we-sn1,def_prop(truth,[astratto,attivita,informa,stato]),def_prop(we,[umano])])
+lf(Answer Lyrics.txt_3,6,cl3-nil-nil-live-[obj-prop-love-sn2,subj-actor-as_long_as-sn1,and(as_long_as,we,sn1),def_prop(love,[astratto,emotivo,nquant]),def_prop(as_long_as,[tempo])])
+lf(Answer Lyrics.txt_4,10,cl5-nil-nil-find-[obj-causer_emot-solution-sn2,xcomp-purpose-fear-2,subj-actor-we-sn1,and(solution,all,sn2),def_prop(solution,[astratto,attivita,informa,sostanza]),def_prop(we,[umano])])
+lf(Answer Lyrics.txt_4,10,cl4-nil-nil-fear-[])
+lf(Answer Lyrics.txt_5,16,cl6-nil-nil-drown-[obj-theme-ourselves-sn2,subj-agent-we-sn1,def_prop(ourselves,[umano]),def_prop(we,[umano])])
+lf(Answer Lyrics.txt_6,22,cl7-nil-nil-cry-[ncmod-locativo-lake-sn2,subj-experiencer-we-sn1,and(lake,theat,sn2),def_prop(lake,[oggetto,sostanza]),def_prop(we,[umano])])
+lf(Answer Lyrics.txt_7,29,cl9-nil-nil-be-[xcomp-prop-grind-sn6,subj-theme_bound-you-sn5,def_prop(grind,[attivita]),def_prop(you,[umano])])
+lf(Answer Lyrics.txt_7,29,cl8-nil-nil-find-[ncmod-locativo-love-sn2,subj-actor-Til-sn1,and(love,that,sn2),and(Til,we,sn1),def_prop(love,[astratto,emotivo,nquant]),def_prop(Til,[istituzione,umano])])
+lf(Answer Lyrics.txt_8,38,cl11-not-nil-be-[cmod-subord-be-but,subj-theme_bound-pro-nil,subj-theme_bound-i-sn4,def_prop(i,[umano])])
+lf(Answer Lyrics.txt_8,38,cl10-nil-nil-call-[obj-prop-fool-sn3,obj-theme_bound-me-sn2,subj-agent-you-sn1,def_prop(fool,[attivita,plant,stato,umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Answer Lyrics.txt_9,48,cl13-nil-nil-be-[xcomp-theme_aff-me-sn3,xcomp-purpose-change-2,subj-theme_bound-love-sn2,def_prop(me,[umano]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Answer Lyrics.txt_9,48,cl12-nil-nil-change-[cmod-coord-be-and,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Answer Lyrics.txt_10,59,cl15-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Answer Lyrics.txt_10,59,cl14-nil-nil-keep-[xcomp-prop-waiting-sn2,subj-experiencer-i-sn1,def_prop(waiting,[attivita]),def_prop(i,[umano])])
+lf(Answer Lyrics.txt_11,71,cl17-nil-nil-be-[subj-theme_bound-you-sn4,subj-theme_bound-you-sn3,ncmod-modal-answer-sn2,and(you,you,sn3),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(answer,[attivita,informa])])
+lf(Answer Lyrics.txt_11,71,cl16-nil-nil-find-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Answer Lyrics.txt_12,84,cl18-nil-nil-riddle-[ncmod-specif-longing-sn2,subj-actor-you-sn1,def_prop(longing,[emotivo]),def_prop(you,[umano])])
+lf(Answer Lyrics.txt_13,97,cl20-nil-nil-be-[subj-theme_bound-you-sn5,subj-theme_bound-you-sn4,and(you,answer,sn4),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Answer Lyrics.txt_13,97,cl19-nil-nil-know-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Answer Lyrics.txt_14,112,cl23-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Answer Lyrics.txt_14,112,cl22-nil-nil-thank-[xadj-theme-creator-sn3,subj-paziente-i-sn1,def_prop(creator,[umano]),def_prop(i,[umano])])
+lf(Answer Lyrics.txt_14,112,cl21-nil-nil-want-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Answer Lyrics.txt_15,129,cl24-not-would-live-[adj-(mod)-still-nil,obj-prop-life-sn2,subj-actor-i-sn1,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(i,[umano])])

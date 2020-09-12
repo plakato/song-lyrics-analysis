@@ -1,0 +1,88 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Hands Up Lyrics.txt_1-1  []-positive  []
+Hands Up Lyrics.txt_2-3  []-positive  []
+Hands Up Lyrics.txt_3-6  [so-result]-positive  [fgb]
+Hands Up Lyrics.txt_4-11  []-positive  []
+Hands Up Lyrics.txt_4-12  []-negative  [neg,neg,neg]
+Hands Up Lyrics.txt_5-17  []-positive  []
+Hands Up Lyrics.txt_6-23  []-positive  []
+Hands Up Lyrics.txt_7-30  []-positive  []
+Hands Up Lyrics.txt_8-38  []-positive  []
+Hands Up Lyrics.txt_9-47  []-suspension  [neg,neg,neg,neg]
+Hands Up Lyrics.txt_10-57  []-positive  []
+Hands Up Lyrics.txt_11-68  []-suspension  [neg]
+Hands Up Lyrics.txt_12-81  []-positive  []
+Hands Up Lyrics.txt_12-82  []-positive  []
+Hands Up Lyrics.txt_13-95  [when-temp_coinc]-positive  []
+Hands Up Lyrics.txt_14-109  []-positive  []
+Hands Up Lyrics.txt_14-110  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Hands Up Lyrics.txt_1-1  [hands,Lyrics,by,Yung,Malik,up]  [title]
+Hands Up Lyrics.txt_2-3  [hands,up]  [provide_expl_just(hand,[external,factive,explanation,background,objective])]
+Hands Up Lyrics.txt_3-6  [we,shutin,it,down,so,just,put,ya,hands,up]  [provide_expl_just(hand,[external,factive,explanation,background,objective]),provide_expl_just(put,[external,factive,narration,foreground,objective])]
+Hands Up Lyrics.txt_4-11  [you,Know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hands Up Lyrics.txt_4-12  [i,is,not,not,readin,no,comics]  [reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Hands Up Lyrics.txt_5-17  [bang,bang,a,prime,its,time,player]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Hands Up Lyrics.txt_6-23  [im,im,jordan,betta,Ballin,than]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Hands Up Lyrics.txt_7-30  [that,prime,time,player,6,rings]  [provide_expl_just(time,[external,factive,narration,background,objective])]
+Hands Up Lyrics.txt_8-38  [last_year,best,year,coke,boy]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Hands Up Lyrics.txt_9-47  [Yo,shot,of,i,bryc,is,not,no,not]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Hands Up Lyrics.txt_10-57  [my,homies,fetti,gang,joke]  [provide_expl_just(joke,[external,factive,narration,background,objective])]
+Hands Up Lyrics.txt_11-68  [you,know,my,name,hit,me,up,any,concerns]  [provide_expl_just(hit,[external,factive,cause,foreground,objective])]
+Hands Up Lyrics.txt_12-81  [Puttin,our,we,you,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(hand,[external,factive,narration,background,objective])]
+Hands Up Lyrics.txt_12-82  [hand,up,Wea,dah]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(hand,[external,factive,narration,background,objective])]
+Hands Up Lyrics.txt_13-95  [cash,at,Im,barry,bonds,when,Im,at,bat]  [provide_expl_just(cash,[external,factive,narration,background,objective])]
+Hands Up Lyrics.txt_14-109  [the,fans,put]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(hand,[external,factive,narration,background,objective])]
+Hands Up Lyrics.txt_14-110  [they,hands,up]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(hand,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Hands Up Lyrics.txt_1-1)-[primary-narcissism]
+2-(Hands Up Lyrics.txt_2-3)-[primary-narcissism]
+3-(Hands Up Lyrics.txt_3-6)-[secondary-restraint,primary-narcissism]
+4-(Hands Up Lyrics.txt_4-11)-[]
+5-(Hands Up Lyrics.txt_4-12)-[]
+6-(Hands Up Lyrics.txt_5-17)-[primary-sound,primary-sound,secondary-temporal_repere,emotions-expressive_beh]
+7-(Hands Up Lyrics.txt_6-23)-[]
+8-(Hands Up Lyrics.txt_7-30)-[secondary-temporal_repere,emotions-expressive_beh,primary-sound]
+half
+9-(Hands Up Lyrics.txt_8-38)-[secondary-temporal_repere]
+10-(Hands Up Lyrics.txt_9-47)-[emotions-aggression]
+11-(Hands Up Lyrics.txt_10-57)-[emotions-positive_affect]
+12-(Hands Up Lyrics.txt_11-68)-[secondary-abstract_tought,emotions-aggression]
+13-(Hands Up Lyrics.txt_12-81)-[secondary-abstract_tought]
+14-(Hands Up Lyrics.txt_12-82)-[primary-narcissism]
+15-(Hands Up Lyrics.txt_13-95)-[primary-concreteness,secondary-restraint,secondary-temporal_repere,primary-concreteness]
+16-(Hands Up Lyrics.txt_14-109)-[]
+17-(Hands Up Lyrics.txt_14-110)-[primary-narcissism]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Hands Up Lyrics.txt_1,1,cl1-nil-nil-hand-[adj-(mod)-up-nil,arg_mod-agent-Malik-sn2,subj-agent-Lyrics-sn1,and(Malik,Yung,sn2),def_prop(Malik,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Hands Up Lyrics.txt_2,3,cl2-nil-nil-hand-[adj-subj_disc-up-sn2,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(you,[umano])])
+lf(Hands Up Lyrics.txt_3,6,cl4-nil-nil-hand-[subj-agent-ya-sn1,def_prop(ya,[legale])])
+lf(Hands Up Lyrics.txt_3,6,cl3-nil-nil-put-[cmod-subord-hand-so,subj-agent-you-sn9,def_prop(you,[umano])])
+lf(Hands Up Lyrics.txt_4,11,cl6-not-nil-be-[xcomp-prop-readin-sn3,subj-theme_bound-i-sn2,def_prop(readin,[istituzione]),def_prop(i,[umano])])
+lf(Hands Up Lyrics.txt_4,11,cl5-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Hands Up Lyrics.txt_5,17,cl7-nil-nil-be-[subj-theme_bound-player-sn3,subj-theme_bound-player-sn2,subj-theme_bound-its-sn1,and(its,bang,sn1),def_prop(player,[umano]),def_prop(player,[umano]),def_prop(its,[istituzione])])
+lf(Hands Up Lyrics.txt_6,23,cl8-nil-nil-be-[subj-theme_bound-betta-sn1,and(betta,im,sn1),def_prop(betta,[istituzione])])
+lf(Hands Up Lyrics.txt_7,30,cl9-nil-nil-time-[obj-theme-ring-sn2,subj-agent-prime-sn1,and(ring,player,sn2),and(ring,6,sn2),and(prime,that,sn1),def_prop(ring,[astratto,evento,oggetto,strumento]),def_prop(prime,[nquant,tempo])])
+lf(Hands Up Lyrics.txt_8,38,cl10-nil-nil-be-[adj-temporal-year-nil,adj-(mod)-last_year-nil,subj-theme_bound-boy-sn1,and(year,best,sn4),and(boy,coke,sn1),def_prop(year,[tempo]),def_prop(boy,[oggetto,strumento])])
+lf(Hands Up Lyrics.txt_9,47,cl11-not-nil-be-[xcomp-prop-no-sn2,subj-theme_bound-bryc-sn1,neg-not-nil,and(bryc,shot,sn1),and(bryc,Yo,sn1),def_prop(no,[istituzione]),def_prop(bryc,[istituzione])])
+lf(Hands Up Lyrics.txt_10,57,cl12-nil-nil-joke-[subj-actor1-you-sn1,def_prop(you,[umano])])
+lf(Hands Up Lyrics.txt_11,68,cl14-nil-nil-hit-[obj-goal-me-sn3,xadj-result-hit-2,def_prop(me,[umano])])
+lf(Hands Up Lyrics.txt_11,68,cl13-nil-nil-know-[adj-(mod)-up-nil,obj-theme_unaff-name-sn2,subj-actor-you-sn1,def_prop(name,[attivita,informa,stato,umano]),def_prop(you,[umano])])
+lf(Hands Up Lyrics.txt_12,81,cl16-nil-nil-hand-[adj-(mod)-up-nil,adj-subj_disc-up-sn8,obj-goal-dah-sn7,subj-agent-you-sn6,and(dah,Wea,sn7),def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(dah,[attivita,informa]),def_prop(you,[umano])])
+lf(Hands Up Lyrics.txt_12,81,cl15-nil-nil-know-[subj-actor-you-sn2,subj-actor-you-sn1,and(you,we,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Hands Up Lyrics.txt_13,95,cl17-nil-nil-cash-[ncmod-locativo-bat-sn6,obj-theme-bond-sn3,ncmod-locativo-Im-sn2,subj-theme-you-sn1,and(bond,barry,sn3),def_prop(bat,[animato,attivita,oggetto,strumento]),def_prop(bond,[astratto,oggetto,sostanza]),def_prop(Im,[legale,umano]),def_prop(you,[umano])])
+lf(Hands Up Lyrics.txt_14,109,cl19-nil-nil-hand-[subj-agent-they-sn2,def_prop(they,[umano])])
+lf(Hands Up Lyrics.txt_14,109,cl18-nil-nil-put-[subj-agent-you-sn1,def_prop(you,[umano])])

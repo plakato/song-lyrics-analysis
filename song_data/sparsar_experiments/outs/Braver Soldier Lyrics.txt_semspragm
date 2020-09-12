@@ -1,0 +1,102 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Braver Soldier Lyrics.txt_1-1  []-positive  []
+Braver Soldier Lyrics.txt_2-3  [when-temp_coinc]-positive  []
+Braver Soldier Lyrics.txt_3-6  [when-temp_coinc]-positive  []
+Braver Soldier Lyrics.txt_3-7  []-positive  []
+Braver Soldier Lyrics.txt_4-10  []-negative  [neg,neg,bkc,bkc]
+Braver Soldier Lyrics.txt_4-11  []-suspension  [bkc]
+Braver Soldier Lyrics.txt_4-12  []-negative  [neg]
+Braver Soldier Lyrics.txt_5-15  []-question  [neg,fgb,fgb]
+Braver Soldier Lyrics.txt_6-21  [when-temp_coinc]-suspension  [neg,neg]
+Braver Soldier Lyrics.txt_7-28  [when-temp_coinc]-negative  [fgb,neg]
+Braver Soldier Lyrics.txt_8-36  []-negative  [neg,neg,bkc,bkc]
+Braver Soldier Lyrics.txt_8-37  []-suspension  [bkc]
+Braver Soldier Lyrics.txt_8-38  []-negative  [neg]
+Braver Soldier Lyrics.txt_9-45  []-question  [neg,fgb,fgb]
+Braver Soldier Lyrics.txt_10-55  []-question  [neg]
+Braver Soldier Lyrics.txt_11-68  []-positive  [fgb,neg]
+Braver Soldier Lyrics.txt_12-81  [so-result]-suspension  [fgb,fgb,fgb]
+Braver Soldier Lyrics.txt_13-95  []-positive  [fgb]
+Braver Soldier Lyrics.txt_14-109  [so-result]-positive  [fgb,fgb]
+Braver Soldier Lyrics.txt_15-124  []-suspension  [neg,neg]
+Braver Soldier Lyrics.txt_15-125  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Braver Soldier Lyrics.txt_1-1  [braver,Soldier,Lyrics,by,Russian,red]  [title]
+Braver Soldier Lyrics.txt_2-3  [she,all,when,a,woman,loves,a,man,does,is,shout]  [provide_expl_just(shout-cl2,[external,factive,narration,background,objective])]
+Braver Soldier Lyrics.txt_3-6  [she,all,when,a,woman,loves,a,man,is]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Braver Soldier Lyrics.txt_3-7  [,,is,loud]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Braver Soldier Lyrics.txt_4-10  [not,not,oh,she,she,oh,will]  [reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+Braver Soldier Lyrics.txt_4-11  [oh,will]  [provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Braver Soldier Lyrics.txt_4-12  [will,not,she]  [reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+Braver Soldier Lyrics.txt_5-15  [me,to,stranger,and,solid,and,braver,be,?]  [provide_expl_just(me,[internal,factive,narration,background,objective])]
+Braver Soldier Lyrics.txt_6-21  [a,there,man,when,a,woman,loves,is,no,lousy,crowd]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Braver Soldier Lyrics.txt_7-28  [when,a,woman,loves,a,man,well,there,is,no,hiding,proud]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Braver Soldier Lyrics.txt_8-36  [not,not,oh,she,she,oh,will]  [reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+Braver Soldier Lyrics.txt_8-37  [oh,will]  [provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Braver Soldier Lyrics.txt_8-38  [will,not,she]  [reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+Braver Soldier Lyrics.txt_9-45  [me,to,stranger,and,solid,and,braver,be,?]  [provide_expl_just(me,[internal,factive,narration,background,objective])]
+Braver Soldier Lyrics.txt_10-55  [die,to,going,they,are,?]  [provide_expl_just(go,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(die,[internal,factive,narration,foreground,objective])]
+Braver Soldier Lyrics.txt_11-68  [well,we,are,going,to,die]  [provide_expl_just(go,[external,nonfactive,narration,foreground,objective]),provide_expl_just(die,[external,factive,narration,background,objective])]
+Braver Soldier Lyrics.txt_12-81  [some,day,and,so,we,will,be,standing,up,and,holding,hands]  [suggest(be,[_39736,_39742,statement,background,_39760]),provide_expl_just(hold,[external,factive,result,foreground,objective])]
+Braver Soldier Lyrics.txt_13-95  [sweating,and,dancing,in,shinym,purple,shiny,fields]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Braver Soldier Lyrics.txt_14-109  [and,so,it,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Braver Soldier Lyrics.txt_15-124  [it,is,not,going,to,die,cause]  [propose_opin(go,[external,nonfactive,narration,foreground,objective]),provide_expl_just(go,[external,nonfactive,narration,foreground,objective]),provide_expl_just(change,[external,factive,cause,foreground,objective])]
+Braver Soldier Lyrics.txt_15-125  [i,changed,my,mind]  [reject_expl_just(go,[external,nonfactive,narration,foreground,objective]),reject_expl_just(change,[external,factive,cause,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Braver Soldier Lyrics.txt_1-1)-[]
+2-(Braver Soldier Lyrics.txt_2-3)-[secondary-temporal_repere,emotions-affection,emotions-expressive_beh]
+3-(Braver Soldier Lyrics.txt_3-6)-[secondary-temporal_repere,emotions-affection]
+4-(Braver Soldier Lyrics.txt_3-7)-[primary-sound]
+5-(Braver Soldier Lyrics.txt_4-10)-[]
+6-(Braver Soldier Lyrics.txt_4-11)-[]
+7-(Braver Soldier Lyrics.txt_4-12)-[]
+8-(Braver Soldier Lyrics.txt_5-15)-[primary-unknow,primary-hard]
+9-(Braver Soldier Lyrics.txt_6-21)-[secondary-temporal_repere,emotions-affection,primary-anality,primary-chaos]
+10-(Braver Soldier Lyrics.txt_7-28)-[secondary-temporal_repere,emotions-affection,emotions-glory]
+half
+11-(Braver Soldier Lyrics.txt_8-36)-[]
+12-(Braver Soldier Lyrics.txt_8-37)-[]
+13-(Braver Soldier Lyrics.txt_8-38)-[]
+14-(Braver Soldier Lyrics.txt_9-45)-[primary-unknow,primary-hard]
+15-(Braver Soldier Lyrics.txt_10-55)-[primary-passivity]
+16-(Braver Soldier Lyrics.txt_11-68)-[primary-passivity]
+17-(Braver Soldier Lyrics.txt_12-81)-[primary-narcissism]
+18-(Braver Soldier Lyrics.txt_13-95)-[primary-vision,primary-vision]
+19-(Braver Soldier Lyrics.txt_14-109)-[]
+20-(Braver Soldier Lyrics.txt_15-124)-[primary-passivity,secondary-abstract_tought]
+21-(Braver Soldier Lyrics.txt_15-125)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Braver Soldier Lyrics.txt_1,1,cl1-nil-nil-be-[xadj-adj-red-adj1,arg_mod-agent-Russian-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,braver,sn1),def_prop(red,_42912),def_prop(Russian,[attivita,informa,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Braver Soldier Lyrics.txt_2,3,cl2-nil-nil-shout-[obj-theme-man-sn4,obj-theme-love-sn3,obj-theme-woman-sn2,subj-theme_aff-all-sn1,aux-(is)-nil,aux-does-nil,and(all,she,sn1),def_prop(man,[any]),def_prop(love,[astratto,emotivo,nquant]),def_prop(woman,[any]),def_prop(all,[_43212])])
+lf(Braver Soldier Lyrics.txt_3,6,cl3-nil-nil-be-[subj-theme_bound-loud-sn6,xcomp-theme-man-sn4,xcomp-theme-love-sn3,xcomp-theme-woman-sn2,subj-theme_bound-all-sn1,and(all,she,sn1),def_prop(loud,[istituzione]),def_prop(man,[any]),def_prop(love,[astratto,emotivo,nquant]),def_prop(woman,[any]),def_prop(all,[_43460])])
+lf(Braver Soldier Lyrics.txt_4,10,cl4-nil-will-will-[subj-agent-she-sn8,subj-agent-she-sn7,subj-agent-you-sn6,subj-agent-oh-sn2,subj-agent-oh-sn1,and(she,you,sn7),and(oh,she,sn1),def_prop(she,[umano]),def_prop(she,[umano]),def_prop(you,[umano]),def_prop(oh,[informa,tecno]),def_prop(oh,[informa,tecno])])
+lf(Braver Soldier Lyrics.txt_5,15,cl5-nil-nil-be-[xadj-adj-braver-adj2,ncmod-goal-me-sn1,def_prop(braver,_43814),def_prop(me,[umano])])
+lf(Braver Soldier Lyrics.txt_6,21,cl6-nil-nil-be-[xcomp-prop-crowd-sn4,xcomp-theme-love-sn3,xcomp-theme-woman-sn2,subj-theme_bound-man-sn1,and(crowd,no,sn4),and(crowd,lousy,sn4),and(man,there,sn1),def_prop(crowd,[istituzione]),def_prop(love,[astratto,emotivo,nquant]),def_prop(woman,[any]),def_prop(man,[any])])
+lf(Braver Soldier Lyrics.txt_7,28,cl7-nil-nil-be-[adj-(mod)-well-nil,xcomp-prop-no-sn6,xcomp-theme-there-sn5,xcomp-theme-man-sn4,xcomp-theme-love-sn3,adj-sn1-when-sn2,subj-theme_bound-woman-sn1,def_prop(no,[istituzione]),def_prop(there,[any]),def_prop(man,[any]),def_prop(love,[astratto,emotivo,nquant]),def_prop(when,[tempo]),def_prop(woman,[any])])
+lf(Braver Soldier Lyrics.txt_8,36,cl8-nil-will-will-[subj-agent-she-sn8,subj-agent-she-sn7,subj-agent-you-sn6,subj-agent-oh-sn2,subj-agent-oh-sn1,and(she,you,sn7),and(oh,she,sn1),def_prop(she,[umano]),def_prop(she,[umano]),def_prop(you,[umano]),def_prop(oh,[informa,tecno]),def_prop(oh,[informa,tecno])])
+lf(Braver Soldier Lyrics.txt_9,45,cl9-nil-nil-be-[xadj-adj-braver-adj3,ncmod-goal-me-sn1,def_prop(braver,_44712),def_prop(me,[umano])])
+lf(Braver Soldier Lyrics.txt_10,55,cl12-nil-nil-die-[])
+lf(Braver Soldier Lyrics.txt_10,55,cl11-nil-nil-go-[adj-(mod)-be-nil])
+lf(Braver Soldier Lyrics.txt_10,55,cl10-nil-nil-be-[subj-theme_bound-they-sn1,def_prop(they,[umano])])
+lf(Braver Soldier Lyrics.txt_11,68,cl14-nil-nil-die-[])
+lf(Braver Soldier Lyrics.txt_11,68,cl13-nil-nil-go-[subj-agent-we-sn1,aux-are-nil,progr-going-nil,def_prop(we,[umano])])
+lf(Braver Soldier Lyrics.txt_12,81,cl16-nil-nil-hold-[cmod-subord-hold-so,subj-agent-hand-sn6,subj-agent-hand-sn5,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano])])
+lf(Braver Soldier Lyrics.txt_12,81,cl15-nil-will-stand-[cmod-coord-hold-2,adj-(mod)-up-nil,subj-experiencer-we-sn3,aux-be-nil,progr-standing-nil,def_prop(we,[umano])])
+lf(Braver Soldier Lyrics.txt_13,95,cl17-nil-nil-be-[xadj-adj-sweating-adj4,ncmod-locativo-field-sn1,and(field,shinym,sn1),and(field,purple,sn1),and(field,shiny,sn1),def_prop(sweating,_45588),def_prop(field,[astratto,attivita,cambia,istituzione,luogo])])
+lf(Braver Soldier Lyrics.txt_14,109,cl18-nil-nil-be-[cmod-subord-be-",cmod-subord-be-so,subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Braver Soldier Lyrics.txt_15,124,cl21-nil-nil-change-[obj-theme_aff-mind-sn14,subj-agent-i-sn13,def_prop(mind,[astratto]),def_prop(i,[umano])])
+lf(Braver Soldier Lyrics.txt_15,124,cl20-nil-nil-die-[])
+lf(Braver Soldier Lyrics.txt_15,124,cl19-not-nil-go-[obj-theme_aff-cause-sn12,subj-agent-it-sn1,aux-(is)-nil,progr-going-nil,def_prop(cause,[attivita,evento,informa]),def_prop(it,[any])])

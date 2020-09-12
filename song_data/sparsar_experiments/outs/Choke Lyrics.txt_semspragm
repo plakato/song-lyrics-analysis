@@ -1,0 +1,89 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Choke Lyrics.txt_1-1  []-negative  [neg]
+Choke Lyrics.txt_2-3  [while-temp_coinc]-positive  [neg]
+Choke Lyrics.txt_3-7  [when-temp_coinc]-negative  []
+Choke Lyrics.txt_4-12  [because-cause]-negative  [neg,neg,neg]
+Choke Lyrics.txt_5-20  []-suspension  [neg,neg]
+Choke Lyrics.txt_5-21  []-negative  [neg]
+Choke Lyrics.txt_6-28  [when-temp_coinc]-suspension  [neg]
+Choke Lyrics.txt_7-36  []-negative  [fgb]
+Choke Lyrics.txt_8-44  []-negative  [neg]
+Choke Lyrics.txt_8-45  [when-temp_coinc]-negative  [neg]
+Choke Lyrics.txt_9-53  []-positive  []
+Choke Lyrics.txt_9-54  []-negative  [neg]
+Choke Lyrics.txt_10-64  []-positive  [neg]
+Choke Lyrics.txt_11-75  []-negative  [neg,neg]
+Choke Lyrics.txt_12-87  []-negative  []
+Choke Lyrics.txt_13-100  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Choke Lyrics.txt_1-1  [choke,Lyrics,by,Yung,Chibi]  [title]
+Choke Lyrics.txt_2-3  [hand_on,your,shoulder,while,you,are,pulling,out,a,gash]  [provide_expl_just(pull,[external,factive,cause,foreground,objective])]
+Choke Lyrics.txt_3-7  [thought,about,last,summer,when,both,of,us,the,crashed]  [provide_expl_just(crash,[external,factive,cause,foreground,objective])]
+Choke Lyrics.txt_4-12  [didn-t,mean,to,say,that,because,i,thought,you,were,not,not,alive]  [reject_expl_just(say,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,foreground,objective]),reject_expl_just(mean,[external,factive,narration,background,objective])]
+Choke Lyrics.txt_5-20  [i,don-t,mind,my,the,feelings,i,wish,just,pain]  [provide_expl_just(die,[external,nonfactive,narration,background,objective]),provide_expl_just(wish,[external,factive,narration,background,objective])]
+Choke Lyrics.txt_5-21  [would,die]  [reject_expl_just(die,[external,nonfactive,narration,background,objective]),reject_expl_just(wish,[external,factive,narration,background,objective])]
+Choke Lyrics.txt_6-28  [blood,on,the,surface,when,it,drops,against,the,glass]  [propose_opin_neg(drop,[external,factive,circumstance,background,objective])]
+Choke Lyrics.txt_7-36  [beauty,in,tomorrow,and,a,love,that,couldn-t,last]  [provide_expl_just(last,[external,nonfactive,narration,background,objective])]
+Choke Lyrics.txt_8-44  [i,can,not,see]  [reject_expl_just(see,[external,nonfactive,narration,foreground,objective])]
+Choke Lyrics.txt_8-45  [you,when,i,can,not,even,see,me]  [reject_expl_just(see,[external,nonfactive,narration,foreground,objective])]
+Choke Lyrics.txt_9-53  [all,those,thoughts,i,had,made]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(breathe,[external,factive,narration,background,objective])]
+Choke Lyrics.txt_9-54  [it,hard,for,me,to,breathe]  [reject_expl_just(make,[external,factive,narration,background,objective]),reject_expl_just(breathe,[external,factive,narration,background,objective])]
+Choke Lyrics.txt_10-64  [love,hurt,31st]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Choke Lyrics.txt_11-75  [6,ft,in,the,fucking,dirt]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Choke Lyrics.txt_12-87  [these,days,the,same,don-t,feel]  [provide_expl_just(feel,[external,factive,narration,foreground,objective])]
+Choke Lyrics.txt_13-100  [you,loved,me,just,not,that,way]  [reject_expl_just(be,[_123852,_123858,_123864,_123870,_123876])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Choke Lyrics.txt_1-1)-[primary-orality]
+2-(Choke Lyrics.txt_2-3)-[primary-narcissism,secondary-temporal_repere,primary-concreteness,emotions-aggression]
+3-(Choke Lyrics.txt_3-7)-[secondary-abstract_tought,secondary-temporal_repere]
+4-(Choke Lyrics.txt_4-12)-[secondary-social_behavior,secondary-abstract_tought]
+5-(Choke Lyrics.txt_5-20)-[emotions-sadness]
+6-(Choke Lyrics.txt_5-21)-[primary-passivity]
+7-(Choke Lyrics.txt_6-28)-[primary-narcissism,primary-concreteness,secondary-temporal_repere,primary-descent,secondary-temporal_repere,primary-hard]
+8-(Choke Lyrics.txt_7-36)-[primary-gen_sensation,emotions-affection]
+half
+9-(Choke Lyrics.txt_8-44)-[primary-vision]
+10-(Choke Lyrics.txt_8-45)-[secondary-temporal_repere,primary-vision]
+11-(Choke Lyrics.txt_9-53)-[secondary-abstract_tought,primary-counscious]
+12-(Choke Lyrics.txt_9-54)-[primary-hard,primary-odor]
+13-(Choke Lyrics.txt_10-64)-[emotions-affection,emotions-aggression]
+14-(Choke Lyrics.txt_11-75)-[primary-anality]
+15-(Choke Lyrics.txt_12-87)-[]
+16-(Choke Lyrics.txt_13-100)-[emotions-affection]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Choke Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Chibi-sn2,subj-theme_bound-Lyrics-sn1,and(Chibi,Yung,sn2),and(Lyrics,choke,sn1),def_prop(Chibi,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Choke Lyrics.txt_2,3,cl2-nil-nil-pull-[cmod-subord-hand-while,ncmod-locativo-gash-sn9,ncmod-locativo-gash-sn8,subj-agent-you-sn7,ncmod-locativo-gash-sn6,subj-agent-you-sn5,aux-are-nil,progr-pulling-nil,def_prop(gash,[cambia,evento,oggetto,stato,strumento]),def_prop(gash,[cambia,evento,oggetto,stato,strumento]),def_prop(you,[umano]),def_prop(gash,[cambia,evento,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Choke Lyrics.txt_2,3,nil-nil-nil-hand-[obj-goal-shoulder-sn2,subj-agent-you-sn1,def_prop(shoulder,[body_part,edible,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Choke Lyrics.txt_3,7,_124924-nil-nil-crash-[voice-crash-nil,tense-crash-nil,obl-locat-summer-sn2,def_prop(summer,[tempo])])
+lf(Choke Lyrics.txt_3,7,cl3-nil-nil-think-[voice-crash-nil,tense-crash-nil,iobj-goal-summer-sn2,subj-agent-you-sn1,def_prop(summer,[tempo]),def_prop(you,[umano])])
+lf(Choke Lyrics.txt_4,12,cl7-not-nil-be-[])
+lf(Choke Lyrics.txt_4,12,cl6-nil-nil-think-[])
+lf(Choke Lyrics.txt_4,12,cl5-nil-nil-say-[xcomp-result-alive-sn3,xcomp-prop-be-7,def_prop(alive,[valutativo])])
+lf(Choke Lyrics.txt_4,12,cl4-not-nil-mean-[obj-theme_unaff-you-sn2,subj-theme_bound-you-sn1,aux-did-nil,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Choke Lyrics.txt_5,20,_125500-nil-nil-wish-[voice-wish-nil,tense-wish-nil])
+lf(Choke Lyrics.txt_5,20,cl9-nil-would-die-[subj-theme_aff-you-sn8,voice-wish-nil,tense-wish-nil,def_prop(you,[umano])])
+lf(Choke Lyrics.txt_5,20,cl8-not-nil-mind-[voice-wish-nil,tense-wish-nil,obj-actor-pain-sn2,subj-theme_unaff-i-sn1,aux-do-nil,def_prop(pain,[astratto,emotivo,stato,umano]),def_prop(i,[umano])])
+lf(Choke Lyrics.txt_6,28,cl11-nil-nil-drop-[cmod-subord-drop-when,ncmod-malefattivo-glass-sn7,ncmod-malefattivo-glass-sn6,subj-agent-you-sn5,ncmod-malefattivo-glass-sn4,subj-actor-it-sn3,ncmod-locativo-surface-sn2,def_prop(glass,[nquant,oggetto,sostanza,strumento]),def_prop(glass,[nquant,oggetto,sostanza,strumento]),def_prop(you,[umano]),def_prop(glass,[nquant,oggetto,sostanza,strumento]),def_prop(it,[any]),def_prop(surface,[astratto,luogo,oggetto,strumento])])
+lf(Choke Lyrics.txt_6,28,cl10-nil-nil-blood-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Choke Lyrics.txt_7,36,cl13-not-could-last-[cmod-coord-be-nil,subj-theme_unaff-love-sn2,subj-theme_unaff-you-sn5,subj-theme_unaff-love-sn1,and(love,beauty,sn1),def_prop(love,[astratto,emotivo,nquant]),def_prop(you,[umano]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Choke Lyrics.txt_7,36,cl12-nil-nil-be-[adj-temporal-tomorrow-nil,subj-theme_bound-love-sn2,subj-theme_bound-love-sn1,and(love,beauty,sn1),def_prop(tomorrow,[tempo]),def_prop(love,[astratto,emotivo,nquant]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Choke Lyrics.txt_8,44,cl14-not-can-see-[cmod-subord-see-when,obj-actor-me-sn4,subj-experiencer-i-sn3,subj-experiencer-you-sn1,adj-(mod)-even-nil,def_prop(me,[umano]),def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Choke Lyrics.txt_9,53,cl16-nil-nil-breathe-[obj-theme-me-sn8,xcomp-prop-hard-sn7,subj-experiencer-it-sn6,def_prop(me,[umano]),def_prop(hard,[valutativo]),def_prop(it,[any])])
+lf(Choke Lyrics.txt_9,53,cl15-nil-nil-make-[subj-agent-i-sn2,subj-agent-i-sn1,aux-had-nil,and(i,thought,sn1),and(i,all,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Choke Lyrics.txt_10,64,cl17-nil-nil-be-[xcomp-theme-31st-sn3,xcomp-theme-hurt-sn2,subj-theme_bound-love-sn1,def_prop(31st,[date,tempo]),def_prop(hurt,[cambia,emotivo,evento,stato]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Choke Lyrics.txt_11,75,cl18-nil-nil-be-[ncmod-locativo-dirt-sn2,subj-theme_bound-6-sn1,and(dirt,fucking,sn2),and(6,6,sn1),def_prop(dirt,[stato]),def_prop(6,[nquant])])
+lf(Choke Lyrics.txt_12,87,cl19-not-nil-feel-[subj-experiencer-same-sn1,aux-do-nil,def_prop(same,[deittico])])
+lf(Choke Lyrics.txt_13,100,cl20-nil-nil-love-[adj-(mod)-just-nil,obj-theme-way-sn3,obj-theme_unaff-me-sn2,subj-experiencer-you-sn1,and(way,that,sn3),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(me,[umano]),def_prop(you,[umano])])

@@ -1,0 +1,64 @@
+"POLARITY, DISCOURSE MARKERS"
+
+CV Dazzle Lyrics.txt_1-1  []-positive  []
+CV Dazzle Lyrics.txt_2-3  []-positive  []
+CV Dazzle Lyrics.txt_3-6  []-positive  [neg]
+CV Dazzle Lyrics.txt_4-11  []-positive  []
+CV Dazzle Lyrics.txt_5-16  []-negative  [neg,neg]
+CV Dazzle Lyrics.txt_6-22  []-negative  [neg]
+CV Dazzle Lyrics.txt_6-23  []-positive  [fgb]
+CV Dazzle Lyrics.txt_7-29  []-positive  [fgb,neg]
+CV Dazzle Lyrics.txt_8-37  []-positive  []
+CV Dazzle Lyrics.txt_9-46  []-question  [neg,fgb]
+CV Dazzle Lyrics.txt_10-58  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+CV Dazzle Lyrics.txt_1-1  [cv,Dazzle,Lyrics,by,the,Zolas]  [title]
+CV Dazzle Lyrics.txt_2-3  [eyes,on,every,corner,,,every,dollar_bill]  [provide_expl_just(eye,[external,factive,explanation,background,objective])]
+CV Dazzle Lyrics.txt_3-6  [paint,our,faces,into,Picassos,for,the,kill]  [provide_expl_just(face,[external,factive,narration,background,objective]),provide_expl_just(paint,[external,factive,narration,background,objective])]
+CV Dazzle Lyrics.txt_4-11  [cv,dazzle,is,a,way,of,life]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+CV Dazzle Lyrics.txt_5-16  [in,this,fucked,fuzzy,world]  [reject_expl_just(fuck,[external,factive,narration,foreground,objective])]
+CV Dazzle Lyrics.txt_6-22  [i,am,the,black]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+CV Dazzle Lyrics.txt_6-23  [and,white]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+CV Dazzle Lyrics.txt_7-29  [cv,dazzle,for,the,love,and,hate]  [provide_expl_just(hate,[external,factive,narration,background,objective])]
+CV Dazzle Lyrics.txt_8-37  [with,your,ten-thousand,eyes,watch,me,pixelate]  [provide_expl_just(watch,[external,factive,narration,background,objective])]
+CV Dazzle Lyrics.txt_9-46  [i,am,which,me,tell,you,not,will,ones,and,zeroes,?]  [provide_expl_just(i,[internal,factive,narration,background,objective])]
+CV Dazzle Lyrics.txt_10-58  [sending,all,our,dreams,to,a,spreadsheet,in,the,sky]  [provide_expl_just(send,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(CV Dazzle Lyrics.txt_1-1)-[]
+2-(CV Dazzle Lyrics.txt_2-3)-[primary-narcissism,secondary-temporal_repere,primary-concreteness,secondary-temporal_repere]
+3-(CV Dazzle Lyrics.txt_3-6)-[primary-vision,primary-narcissism,emotions-aggression]
+4-(CV Dazzle Lyrics.txt_4-11)-[emotions-glory]
+5-(CV Dazzle Lyrics.txt_5-16)-[primary-sex]
+half
+6-(CV Dazzle Lyrics.txt_6-22)-[]
+7-(CV Dazzle Lyrics.txt_6-23)-[]
+8-(CV Dazzle Lyrics.txt_7-29)-[emotions-glory,emotions-affection,emotions-aggression]
+9-(CV Dazzle Lyrics.txt_8-37)-[primary-narcissism,primary-vision]
+10-(CV Dazzle Lyrics.txt_9-46)-[secondary-social_behavior]
+11-(CV Dazzle Lyrics.txt_10-58)-[primary-counscious,primary-height]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(CV Dazzle Lyrics.txt_1,1,cl1-nil-nil-dazzle-[arg_mod-agent-female-sn3,obj-experiencer-Lyrics-sn2,subj-cause-cv-sn1,def_prop(female,[animato,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(cv,[informa,tecno])])
+lf(CV Dazzle Lyrics.txt_2,3,cl2-nil-nil-eye-[ncmod-locativo-corner-sn3,subj-stimulus-dollar_bill-sn2,subj-stimulus-dollar_bill-sn1,and(corner,every,sn3),and(dollar_bill,every,sn2),and(dollar_bill,you,sn1),and(dollar_bill,every,sn1),def_prop(corner,[luogo,oggetto,stato,strumento]),def_prop(dollar_bill,[oggetto]),def_prop(dollar_bill,[oggetto])])
+lf(CV Dazzle Lyrics.txt_3,6,cl4-nil-nil-face-[ncmod-actor-Picasso-sn3,xcomp-purpose-face-3,def_prop(Picasso,[umano])])
+lf(CV Dazzle Lyrics.txt_3,6,cl3-nil-nil-paint-[subj-agent-our-sn2,subj-agent-our-sn1,and(our,you,sn1),def_prop(our,[evaluative]),def_prop(our,[istituzione])])
+lf(CV Dazzle Lyrics.txt_4,11,cl5-nil-nil-be-[xcomp-prop-way-sn2,subj-theme_bound-dazzle-sn1,and(dazzle,cv,sn1),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(dazzle,[astratto])])
+lf(CV Dazzle Lyrics.txt_5,16,cl6-nil-nil-fuck-[subj-actor-world-sn2,subj-actor-world-sn1,and(world,fuzzy,sn2),and(world,you,sn1),and(world,fuzzy,sn1),def_prop(world,[astratto,istituzione,oggetto]),def_prop(world,[astratto,istituzione,oggetto])])
+lf(CV Dazzle Lyrics.txt_6,22,cl7-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn3,xcomp-prop-black-sn2,subj-theme_bound-i-sn1,def_prop(you,[umano]),def_prop(black,[estens]),def_prop(i,[umano])])
+lf(CV Dazzle Lyrics.txt_7,29,cl8-nil-nil-hate-[cmod-subord-hate-for,subj-actor-love-sn2,def_prop(love,[astratto,emotivo,nquant])])
+lf(CV Dazzle Lyrics.txt_8,37,cl9-nil-nil-watch-[obj-theme-pixelate-sn4,obj-theme_aff-me-sn3,ncmod-modal-ten-thousand-sn2,subj-actor-eye-sn1,def_prop(pixelate,[istituzione]),def_prop(me,[umano]),def_prop(ten-thousand,[nquant]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(CV Dazzle Lyrics.txt_9,46,cl12-nil-nil-be-[cmod-coord-tell-nil,subj-theme_bound-me-sn3,def_prop(me,[umano])])
+lf(CV Dazzle Lyrics.txt_9,46,cl11-not-nil-tell-[obj-theme_unaff-me-sn3,subj-agent-you-sn2,subj-agent-you-sn1,and(you,zero,sn1),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(CV Dazzle Lyrics.txt_9,46,cl10-not-will-will-[cmod-subord-be-"])
+lf(CV Dazzle Lyrics.txt_10,58,cl13-nil-nil-send-[ncmod-locativo-sky-sn3,obj2-goal-spreadsheet-sn2,subj-agent-dream-sn1,and(dream,all,sn1),def_prop(sky,[oggetto]),def_prop(spreadsheet,[attivita,informa]),def_prop(dream,[astratto,stato])])

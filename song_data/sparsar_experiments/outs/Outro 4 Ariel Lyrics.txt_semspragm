@@ -1,0 +1,60 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Outro 4 Ariel Lyrics.txt_1-1  []-positive  []
+Outro 4 Ariel Lyrics.txt_2-3  []-positive  []
+Outro 4 Ariel Lyrics.txt_3-6  []-suspension  [fgb,neg]
+Outro 4 Ariel Lyrics.txt_4-11  []-positive  []
+Outro 4 Ariel Lyrics.txt_5-17  []-suspension  [neg]
+Outro 4 Ariel Lyrics.txt_6-24  []-positive  []
+Outro 4 Ariel Lyrics.txt_7-31  []-suspension  [fgb,neg]
+Outro 4 Ariel Lyrics.txt_8-40  []-positive  []
+Outro 4 Ariel Lyrics.txt_9-50  []-suspension  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Outro 4 Ariel Lyrics.txt_1-1  [4,Ariel,Lyrics,Outro,by,Vondelpark]  [title]
+Outro 4 Ariel Lyrics.txt_2-3  [i,am,on,the,seabed]  [provide_expl_just(seabed,[internal,factive,narration,background,objective])]
+Outro 4 Ariel Lyrics.txt_3-6  [and,i,might,just,be,dead]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Outro 4 Ariel Lyrics.txt_4-11  [cause,i,am,on,the,seabed]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Outro 4 Ariel Lyrics.txt_5-17  [i,might,as_well,just,be,dead]  [provide_expl_just(be,[external,factive,narration,background,objective]),propose_opin(might,[external,nonfactive,narration,foreground,objective]),provide_expl_just(might,[external,nonfactive,narration,foreground,objective])]
+Outro 4 Ariel Lyrics.txt_6-24  [i,am,on,the,seabed]  [provide_expl_just(seabed,[internal,factive,narration,background,objective])]
+Outro 4 Ariel Lyrics.txt_7-31  [and,i,might,just,be,dead]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Outro 4 Ariel Lyrics.txt_8-40  [cause,i,am,on,the,seabed]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Outro 4 Ariel Lyrics.txt_9-50  [i,might,as_well,just,be,dead]  [provide_expl_just(be,[external,factive,narration,background,objective]),propose_opin(might,[external,nonfactive,narration,foreground,objective]),provide_expl_just(might,[external,nonfactive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Outro 4 Ariel Lyrics.txt_1-1)-[]
+2-(Outro 4 Ariel Lyrics.txt_2-3)-[]
+3-(Outro 4 Ariel Lyrics.txt_3-6)-[primary-passivity]
+4-(Outro 4 Ariel Lyrics.txt_4-11)-[secondary-abstract_tought]
+half
+5-(Outro 4 Ariel Lyrics.txt_5-17)-[primary-passivity]
+6-(Outro 4 Ariel Lyrics.txt_6-24)-[]
+7-(Outro 4 Ariel Lyrics.txt_7-31)-[primary-passivity]
+8-(Outro 4 Ariel Lyrics.txt_8-40)-[secondary-abstract_tought]
+9-(Outro 4 Ariel Lyrics.txt_9-50)-[primary-passivity]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Outro 4 Ariel Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Vondelpark-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Outro,sn1),def_prop(Vondelpark,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Outro 4 Ariel Lyrics.txt_2,3,cl2-nil-nil-be-[ncmod-locativo-seabed-sn2,subj-theme_bound-i-sn1,def_prop(seabed,[luogo]),def_prop(i,[umano])])
+lf(Outro 4 Ariel Lyrics.txt_3,6,cl4-nil-nil-be-[cmod-subord-be-",xcomp-prop-dead-sn2,xcomp-purpose-be-2,def_prop(dead,[valutativo])])
+lf(Outro 4 Ariel Lyrics.txt_3,6,cl3-nil-might-might-[adj-(mod)-just-nil,subj-theme_unaff-i-sn1,def_prop(i,[umano])])
+lf(Outro 4 Ariel Lyrics.txt_4,11,cl6-nil-nil-be-[ncmod-prop-seabed-sn3,xcomp-purpose-be-2,def_prop(seabed,[luogo])])
+lf(Outro 4 Ariel Lyrics.txt_4,11,cl5-nil-nil-cause-[subj-causer-i-sn2,subj-causer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Outro 4 Ariel Lyrics.txt_5,17,cl8-nil-nil-be-[xcomp-prop-dead-sn2,xcomp-purpose-be-2,def_prop(dead,[valutativo])])
+lf(Outro 4 Ariel Lyrics.txt_5,17,cl7-nil-might-might-[adj-(mod)-just-nil,adj-(mod)-as_well-nil,subj-theme_unaff-i-sn1,def_prop(i,[umano])])
+lf(Outro 4 Ariel Lyrics.txt_6,24,cl9-nil-nil-be-[ncmod-locativo-seabed-sn2,subj-theme_bound-i-sn1,def_prop(seabed,[luogo]),def_prop(i,[umano])])
+lf(Outro 4 Ariel Lyrics.txt_7,31,cl11-nil-nil-be-[cmod-subord-be-",xcomp-prop-dead-sn2,xcomp-purpose-be-2,def_prop(dead,[valutativo])])
+lf(Outro 4 Ariel Lyrics.txt_7,31,cl10-nil-might-might-[adj-(mod)-just-nil,subj-theme_unaff-i-sn1,def_prop(i,[umano])])
+lf(Outro 4 Ariel Lyrics.txt_8,40,cl13-nil-nil-be-[ncmod-prop-seabed-sn3,xcomp-purpose-be-2,def_prop(seabed,[luogo])])
+lf(Outro 4 Ariel Lyrics.txt_8,40,cl12-nil-nil-cause-[subj-causer-i-sn2,subj-causer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Outro 4 Ariel Lyrics.txt_9,50,cl15-nil-nil-be-[xcomp-prop-dead-sn2,xcomp-purpose-be-2,def_prop(dead,[valutativo])])
+lf(Outro 4 Ariel Lyrics.txt_9,50,cl14-nil-might-might-[adj-(mod)-just-nil,adj-(mod)-as_well-nil,subj-theme_unaff-i-sn1,def_prop(i,[umano])])

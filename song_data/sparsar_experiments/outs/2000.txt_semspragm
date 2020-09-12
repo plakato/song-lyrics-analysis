@@ -1,0 +1,212 @@
+"POLARITY, DISCOURSE MARKERS"
+
+2000.txt_1-1  []-positive  []
+2000.txt_2-3  []-positive  [bkc,neg]
+2000.txt_3-6  []-question  [neg]
+2000.txt_4-10  []-suspension  [neg,fgb,neg]
+2000.txt_5-15  []-positive  []
+2000.txt_5-16  []-positive  []
+2000.txt_6-22  [so-result]-positive  [fgb,fhd]
+2000.txt_7-30  []-positive  []
+2000.txt_8-38  []-positive  []
+2000.txt_8-39  []-positive  []
+2000.txt_9-48  [so-result]-negative  [fgb,neg]
+2000.txt_10-59  []-negative  [neg,neg]
+2000.txt_10-60  []-suspension  []
+2000.txt_11-71  []-positive  []
+2000.txt_12-83  []-positive  []
+2000.txt_12-84  []-negative  [neg]
+2000.txt_12-85  []-positive  []
+2000.txt_13-98  []-negative  []
+2000.txt_13-99  []-negative  [neg]
+2000.txt_14-114  []-positive  []
+2000.txt_15-130  []-positive  [fhd]
+2000.txt_16-146  []-positive  [fhd]
+2000.txt_17-163  []-negative  [neg,neg,neg]
+2000.txt_18-181  []-positive  []
+2000.txt_18-182  []-positive  [fgb]
+2000.txt_19-201  []-question  []
+2000.txt_20-221  []-negative  []
+2000.txt_20-222  []-positive  [fgb]
+2000.txt_21-246  []-positive  []
+2000.txt_22-268  []-positive  []
+2000.txt_23-291  []-question  [fgb,fhd]
+2000.txt_24-315  []-negative  [neg]
+2000.txt_25-340  []-negative  [neg,neg]
+2000.txt_26-366  []-question  []
+2000.txt_26-367  []-acceptance  [neg,ack]
+2000.txt_27-394  []-negative  [neg]
+2000.txt_28-422  []-positive  []
+2000.txt_29-451  []-positive  []
+2000.txt_30-481  []-positive  [fgb]
+2000.txt_30-482  [but-advers]-negative  [fgb,fhd]
+2000.txt_31-513  []-positive  [fgb]
+2000.txt_32-545  []-positive  []
+2000.txt_32-546  []-positive  []
+2000.txt_33-579  []-positive  [fgb]
+2000.txt_34-613  []-positive  [fgb]
+2000.txt_35-648  []-positive  [fgb]
+2000.txt_36-684  []-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+2000.txt_1-1  [2000,by,Aziz]  [title]
+2000.txt_2-3  [oh,man,i,got,the,plan,could,soberize,a,drunken,man]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+2000.txt_3-6  [me,with,fucks,don-t,you,?]  [provide_expl_just(don-t,[internal,factive,narration,foreground,objective])]
+2000.txt_4-10  [close,your,eyes,and,a,fan,fuck]  [propose_opin_neg(fuck,[external,factive,explanation,background,objective])]
+2000.txt_5-15  [a,custom,brand,a,poker,man]  [provide_expl_just(brand,[external,factive,narration,background,objective]),provide_expl_just(wit,[external,factive,narration,background,objective])]
+2000.txt_5-16  [wit,a,lucky,hand]  [provide_expl_just(brand,[external,factive,narration,background,objective]),provide_expl_just(wit,[external,factive,narration,background,objective])]
+2000.txt_6-22  [its,21,boy,so,you,could,overstand,or,understand]  [provide_expl_just(can,[external,nonfactive,narration,background,objective]),provide_expl_just(understand,[external,factive,narration,background,objective])]
+2000.txt_7-30  [either,way,im,Victor,the,Cruz,,,i,lit,the,fuse]  [provide_expl_just(light,[external,factive,narration,foreground,objective])]
+2000.txt_8-38  [on,Yall,sleeping,this,the,reminder]  [provide_expl_just(hit,[external,factive,cause,foreground,objective]),provide_expl_just(sleep,[external,factive,result,foreground,objective])]
+2000.txt_8-39  [after,you,hit,the,snooze]  [provide_expl_just(hit,[external,factive,cause,foreground,objective]),provide_expl_just(sleep,[external,factive,result,foreground,objective])]
+2000.txt_9-48  [so,ILL,,,i,will,have,the,league,questioning,me]  [reject_expl_just(question,[external,factive,cause,foreground,objective])]
+2000.txt_10-59  [i,is,not,not,on,roids,,,bet]  [reject_expl_just(bet,[external,factive,narration,background,objective]),reject_expl_just(defend,[external,nonfactive,narration,background,objective])]
+2000.txt_10-60  [the,commissioner,would,defend,me]  [provide_expl_just(bet,[external,factive,narration,background,objective]),provide_expl_just(defend,[external,nonfactive,narration,background,objective])]
+2000.txt_11-71  [Suh,ndomahkong,rappers,after,the,plays,over]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2000.txt_12-83  [Kevin,garnett]  [provide_expl_just(garnett,[external,factive,narration,background,objective]),provide_expl_just(block,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+2000.txt_12-84  [,,block]  [reject_expl_just(garnett,[external,factive,narration,background,objective]),reject_expl_just(block,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+2000.txt_12-85  [you,after,the,plays,over]  [provide_expl_just(garnett,[external,factive,narration,background,objective]),provide_expl_just(block,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+2000.txt_13-98  [i,don-t,want,Yall,to,think]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,foreground,objective])]
+2000.txt_13-99  [that,you,have,a,chance,against,me]  [reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(want,[external,factive,narration,foreground,objective])]
+2000.txt_14-114  [there,is,a,better,chance,of,Scalabrine,winning,ESPYs]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(espy,[external,factive,narration,background,objective])]
+2000.txt_15-130  [that,is,like,snow,showers,in,the,Philippines]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2000.txt_16-146  [Steve,or,Young,quarterbacking,Philip,rivers,team,in,2012]  [provide_expl_just(team,[external,factive,narration,background,objective])]
+2000.txt_17-163  [that,no,is,not,happe-fucki,Ning,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+2000.txt_18-181  [tryna,take,a,money,shower]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+2000.txt_18-182  [and,a,bath,in,luxury]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+2000.txt_19-201  [luxury,in,bath,?]  [provide_expl_just(bath,[internal,factive,narration,foreground,objective])]
+2000.txt_20-221  [i,don-t,rock,with,wanna]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(rock,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+2000.txt_20-222  [bes,i,know,what,i,wanna,be,.,i,wanna,be]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(rock,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+2000.txt_21-246  [you,call,me,a,gonna-be]  [provide_expl_just(call,[external,factive,narration,background,objective])]
+2000.txt_22-268  [such,eatin,a,breeze,Black,Eyed,Peas]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2000.txt_23-291  [bE,IMA,IMA_BE,what,like,thinkin,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+2000.txt_24-315  [my,whole,tryna,life,i,been,at,this,shit,get,this,dough,twice]  [reject_expl_just(get,[external,factive,narration,background,objective])]
+2000.txt_25-340  [unforgivable,whips,i,be,in,theVaan,with,Bovice]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+2000.txt_26-366  [left,go,Yo,?]  [provide_expl_just(go,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+2000.txt_26-367  [,,theres,a,toll,right]  [provide_expl_just(go,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+2000.txt_27-394  [tryna,Ez,a-z,pass,the,police]  [reject_expl_just(be,[_819246,_819252,_819258,_819264,_819270])]
+2000.txt_28-422  [they,snappin,pics]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2000.txt_29-451  [of,the,license,plate]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2000.txt_30-481  [i_mean,we,could,pay,in,coins]  [provide_expl_just(pay,[external,nonfactive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective])]
+2000.txt_30-482  [but,i,don-t,like,the,wait]  [provide_expl_just(pay,[external,nonfactive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective])]
+2000.txt_31-513  [and,we,chiefin,L-s]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+2000.txt_32-545  [Yo,ask,the,cashier,how]  [provide_expl_just(ask,[external,factive,narration,background,objective]),provide_expl_just(smell,[external,factive,narration,background,objective])]
+2000.txt_32-546  [the,reefer,smells,light]  [provide_expl_just(ask,[external,factive,narration,background,objective]),provide_expl_just(smell,[external,factive,narration,background,objective])]
+2000.txt_33-579  [get,em,up,,,get,em,up,what]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+2000.txt_34-613  [get,em,up,,,get,em,up,what]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+2000.txt_35-648  [get,em,up,,,get,em,up,what]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+2000.txt_36-684  [get,em,up,,,get,em,up,what]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(2000.txt_1-1)-[]
+2-(2000.txt_2-3)-[secondary-abstract_tought,primary-orality]
+3-(2000.txt_3-6)-[primary-sex]
+4-(2000.txt_4-10)-[primary-concreteness,primary-narcissism,primary-sex]
+5-(2000.txt_5-15)-[secondary-moral_imperative]
+6-(2000.txt_5-16)-[primary-narcissism]
+7-(2000.txt_6-22)-[secondary-abstract_tought]
+8-(2000.txt_7-30)-[primary-fire]
+9-(2000.txt_8-38)-[secondary-social_behavior]
+10-(2000.txt_8-39)-[emotions-aggression]
+11-(2000.txt_9-48)-[]
+12-(2000.txt_10-59)-[]
+13-(2000.txt_10-60)-[]
+14-(2000.txt_11-71)-[emotions-expressive_beh,primary-concreteness]
+15-(2000.txt_12-83)-[]
+16-(2000.txt_12-84)-[secondary-restraint]
+17-(2000.txt_12-85)-[emotions-expressive_beh,primary-concreteness]
+18-(2000.txt_13-98)-[secondary-abstract_tought]
+19-(2000.txt_13-99)-[primary-chaos,secondary-temporal_repere]
+20-(2000.txt_14-114)-[primary-chaos,secondary-instru_behavior]
+21-(2000.txt_15-130)-[emotions-affection,primary-cold,primary-water]
+22-(2000.txt_16-146)-[primary-water,primary-orality]
+23-(2000.txt_17-163)-[]
+half
+24-(2000.txt_18-181)-[secondary-instru_behavior,secondary-instru_behavior,primary-water]
+25-(2000.txt_18-182)-[primary-water,primary-gen_sensation]
+26-(2000.txt_19-201)-[primary-gen_sensation,primary-water]
+27-(2000.txt_20-221)-[primary-hard]
+28-(2000.txt_20-222)-[secondary-abstract_tought]
+29-(2000.txt_21-246)-[secondary-social_behavior]
+30-(2000.txt_22-268)-[primary-orality]
+31-(2000.txt_23-291)-[emotions-affection,secondary-abstract_tought]
+32-(2000.txt_24-315)-[secondary-instru_behavior,primary-concreteness,primary-anality]
+33-(2000.txt_25-340)-[emotions-aggression]
+34-(2000.txt_26-366)-[]
+35-(2000.txt_26-367)-[secondary-moral_imperative]
+36-(2000.txt_27-394)-[secondary-instru_behavior,secondary-restraint]
+37-(2000.txt_28-422)-[]
+38-(2000.txt_29-451)-[]
+39-(2000.txt_30-481)-[secondary-instru_behavior]
+40-(2000.txt_30-482)-[emotions-affection]
+41-(2000.txt_31-513)-[]
+42-(2000.txt_32-545)-[secondary-social_behavior]
+43-(2000.txt_32-546)-[primary-odor,primary-vision]
+44-(2000.txt_33-579)-[]
+45-(2000.txt_34-613)-[]
+46-(2000.txt_35-648)-[]
+47-(2000.txt_36-684)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(2000.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Aziz-sn2,subj-theme_bound-2000-sn1,def_prop(Aziz,[umano]),def_prop(2000,[date,tempo])])
+lf(2000.txt_2,3,cl2-nil-nil-get-[obj-theme_unaff-plan-sn3,subj-agent-i-sn2,subj-agent-i-sn1,and(i,man,sn1),and(i,oh,sn1),def_prop(plan,[astratto,oggetto,strumento]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(2000.txt_3,6,cl3-not-nil-don-t-[ncmod-comitativo-me-sn3,xcomp-theme_aff-fuck-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(fuck,[attivita]),def_prop(you,[umano])])
+lf(2000.txt_4,10,cl4-nil-nil-fuck-[subj-actor-fan-sn2,subj-actor-fan-sn1,and(fan,you,sn1),def_prop(fan,[oggetto,strumento,umano]),def_prop(fan,[oggetto,strumento,umano])])
+lf(2000.txt_5,15,nil-nil-nil-wit-[obj-theme_aff-hand-sn5,subj-agent-you-sn4,and(hand,lucky,sn5),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(2000.txt_5,15,cl5-nil-nil-brand-[obj-goal-man-sn2,subj-agent-custom-sn1,and(man,poker,sn2),def_prop(man,[any]),def_prop(custom,[astratto,attivita])])
+lf(2000.txt_6,22,cl7-nil-nil-understand-[cmod-subord-understand-so,subj-actor-pro-nil])
+lf(2000.txt_6,22,cl6-nil-could-can-[obj-theme-overstand-sn5,subj-actor-you-sn4,def_prop(overstand,[istituzione]),def_prop(you,[umano])])
+lf(2000.txt_7,30,cl8-nil-nil-light-[obj-theme-fuse-sn4,subj-actor-i-sn3,subj-actor-i-sn2,subj-actor-Cruz-sn1,and(i,Cruz,sn2),and(Cruz,im,sn1),and(Cruz,either,sn1),def_prop(fuse,[oggetto,strumento]),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(Cruz,[place,umano])])
+lf(2000.txt_8,38,cl10-nil-nil-hit-[xcomp-prop-snooze-sn5,subj-agent-you-sn4,iobj-goal-Yall-sn2,def_prop(snooze,[attivita]),def_prop(you,[umano]),def_prop(Yall,[istituzione,umano])])
+lf(2000.txt_8,38,cl9-nil-nil-sleep-[obj-theme-this-sn3,subj-experiencer-reminder-sn1,def_prop(this,[oggetto,umano]),def_prop(reminder,[astratto,attivita,informa])])
+lf(2000.txt_9,48,cl12-nil-nil-question-[xadj-adj-ILL-adj1,def_prop(ILL,_833946)])
+lf(2000.txt_9,48,cl11-nil-will-have-[xcomp-goal-me-sn3,xcomp-purpose-question-cl12,xcomp-tema_bound-league-sn2,subj-experiencer-i-sn1,def_prop(me,[umano]),def_prop(league,[istituzione,nquant]),def_prop(i,[umano])])
+lf(2000.txt_10,59,cl14-nil-would-defend-[obj-theme-me-sn4,subj-agent-commissioner-sn3,def_prop(me,[umano]),def_prop(commissioner,[umano])])
+lf(2000.txt_10,59,cl13-nil-nil-bet-[obj-theme-i-sn2,subj-agent-you-sn1,def_prop(i,[umano]),def_prop(you,[umano])])
+lf(2000.txt_11,71,cl15-nil-nil-be-[adj-(mod)-over-nil,ncmod-modal-play-sn2,subj-theme_bound-rapper-sn1,and(rapper,Suh,sn1),def_prop(play,[attivita,informa,stato]),def_prop(rapper,[umano])])
+lf(2000.txt_12,83,cl17-nil-nil-be-[adj-(mod)-over-nil,ncmod-modal-play-sn4,subj-theme_bound-you-sn3,def_prop(play,[attivita,informa,stato]),def_prop(you,[umano])])
+lf(2000.txt_12,83,cl16-nil-nil-block-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(2000.txt_12,83,nil-nil-nil-garnett-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(2000.txt_13,98,cl20-nil-nil-have-[xcomp-tema_bound-chance-sn4,subj-experiencer-you-sn3,def_prop(chance,[attivita]),def_prop(you,[umano])])
+lf(2000.txt_13,98,cl19-nil-nil-think-[subj-prop-i-sn1,def_prop(i,[umano])])
+lf(2000.txt_13,98,cl18-not-nil-want-[obj-tema_unaff-Yall-sn2,subj-actor-i-sn1,aux-do-nil,def_prop(Yall,[istituzione,umano]),def_prop(i,[umano])])
+lf(2000.txt_14,114,nil-nil-nil-espy-[subj-agent-chance-sn2,and(chance,better,sn2),def_prop(chance,[attivita])])
+lf(2000.txt_14,114,cl21-nil-nil-be-[])
+lf(2000.txt_15,130,cl22-nil-nil-be-[xcomp-prop-shower-sn1,def_prop(shower,[attivita,cambia,evento,istituzione,oggetto,strumento])])
+lf(2000.txt_16,146,cl23-nil-nil-team-[cmod-subord-team-",ncmod-temporale-2012-sn4,obj-theme-river-sn3,obj-patient1-quarterbacking-sn2,subj-agent-Young-sn1,and(river,Philip,sn3),and(Young,Steve,sn1),def_prop(2012,[date,tempo]),def_prop(river,[oggetto]),def_prop(quarterbacking,[istituzione]),def_prop(Young,[place,nquant,umano])])
+lf(2000.txt_17,163,cl24-not-nil-be-[xcomp-prop-fucki-sn2,subj-theme_bound-no-sn1,and(no,that,sn1),def_prop(fucki,[istituzione]),def_prop(no,[istituzione])])
+lf(2000.txt_18,181,cl26-nil-nil-be-[cmod-subord-be-",ncmod-locativo-luxury-sn5,subj-theme_bound-bath-sn4,def_prop(luxury,[astratto,stato]),def_prop(bath,[attivita,nquant,oggetto,strumento])])
+lf(2000.txt_18,181,cl25-nil-nil-take-[obj-theme_aff-shower-sn3,obj-theme_aff-money-sn2,subj-agent-tryna-sn1,def_prop(shower,[attivita,cambia,evento,istituzione,oggetto,strumento]),def_prop(money,[astratto,oggetto]),def_prop(tryna,[istituzione])])
+lf(2000.txt_19,201,cl27-nil-nil-bath-[ncmod-locativo-luxury-sn2,subj-agent-you-sn1,def_prop(luxury,[astratto,stato]),def_prop(you,[umano])])
+lf(2000.txt_20,221,nil-nil-nil-wanna-[])
+lf(2000.txt_20,221,cl29-nil-nil-know-[])
+lf(2000.txt_20,221,nil-nil-nil-be-[xcomp-theme-i-sn4,f2-sn2-what-sn3,subj-theme_bound-you-sn2,def_prop(i,[umano]),def_prop(what,[oggetto]),def_prop(you,[umano])])
+lf(2000.txt_20,221,cl28-not-nil-rock-[subj-agent-i-sn1,aux-do-nil,def_prop(i,[umano])])
+lf(2000.txt_21,246,cl30-nil-nil-call-[obj-prop-be-sn3,obj-theme_bound-me-sn2,subj-agent-you-sn1,def_prop(be,[informa,tecno]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(2000.txt_22,268,cl31-nil-nil-be-[xcomp-theme-breeze-sn2,subj-theme_bound-you-sn1,def_prop(breeze,[attivita,cambia]),def_prop(you,[umano])])
+lf(2000.txt_23,291,cl32-nil-nil-be-[subj-theme_bound-thinkin-sn1,def_prop(thinkin,[istituzione])])
+lf(2000.txt_24,315,cl33-nil-nil-get-[adj-(mod)-twice-nil,obj2-paziente-dough-sn4,ncmod-locativo-shit-sn3,subj-agent-i-sn2,subj-agent-i-sn1,and(dough,this,sn4),and(shit,this,sn3),and(i,life,sn1),and(i,whole,sn1),def_prop(dough,[edible,oggetto]),def_prop(shit,[attivita,umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(2000.txt_25,340,cl34-nil-nil-be-[ncmod-comitativo-Bovice-sn4,ncmod-locativo-theVaan-sn3,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(i,whip,sn1),and(i,unforgivable,sn1),def_prop(Bovice,[istituzione,umano]),def_prop(theVaan,[istituzione]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(2000.txt_26,366,cl36-nil-nil-be-[xcomp-theme-right-sn5,xcomp-prop-toll-sn4,subj-theme_bound-there-sn3,def_prop(right,[soggettivo]),def_prop(toll,[astratto,oggetto]),def_prop(there,[any])])
+lf(2000.txt_26,366,cl35-nil-nil-go-[xcomp-prop-left-sn2,subj-agent-Yo-sn1,def_prop(left,[soggettivo]),def_prop(Yo,[umano])])
+lf(2000.txt_27,394,cl37-nil-nil-pass-[obj-goal-police-sn2,subj-theme_unaff-a-z-sn1,and(a-z,Ez,sn1),and(a-z,tryna,sn1),def_prop(police,[istituzione]),def_prop(a-z,[attivita,informa])])
+lf(2000.txt_28,422,cl38-nil-nil-be-[subj-theme_bound-pic-sn2,subj-theme_bound-pic-sn1,and(pic,snappin,sn2),and(pic,snappin,sn1),def_prop(pic,[attivita,informa]),def_prop(pic,[attivita,informa])])
+lf(2000.txt_29,451,cl39-nil-nil-be-[ncmod-specif-license-sn2,subj-theme_bound-plate-sn1,def_prop(license,[attivita,informa,stato]),def_prop(plate,[body_part,edible,nquant,oggetto,strumento,umano])])
+lf(2000.txt_30,481,cl41-not-nil-don-t-[xcomp-theme_aff-wait-sn4,subj-agent-i-sn3,ncmod-locativo-coin-sn2,def_prop(wait,[attivita]),def_prop(i,[umano]),def_prop(coin,[astratto,oggetto])])
+lf(2000.txt_30,481,cl40-nil-could-pay-[subj-agent-we-sn1,def_prop(we,[umano])])
+lf(2000.txt_31,513,cl42-nil-nil-be-[cmod-subord-be-",xcomp-theme-L-s-sn3,xcomp-prop-chiefin-sn2,subj-theme_bound-we-sn1,def_prop(L-s,[attivita,informa,umano]),def_prop(chiefin,[istituzione]),def_prop(we,[umano])])
+lf(2000.txt_32,545,cl44-nil-nil-smell-[xcomp-prop-light-sn4,subj-experiencer-reefer-sn3,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(reefer,[oggetto,strumento])])
+lf(2000.txt_32,545,cl43-nil-nil-ask-[obj-theme_unaff-cashier-sn2,subj-actor-Yo-sn1,def_prop(cashier,[astratto,oggetto,umano]),def_prop(Yo,[umano])])
+lf(2000.txt_33,579,cl45-nil-nil-get-[adj-(mod)-what-nil,adj-(mod)-up-nil,obj-theme_unaff-em-sn2,subj-agent-get-sn1,sn1-em-nil,and(get,get,sn1),def_prop(what,[oggetto]),def_prop(em,[nquant]),def_prop(get,[informa,tecno]),def_prop(em,[nquant])])
+lf(2000.txt_34,613,cl46-nil-nil-get-[adj-(mod)-what-nil,adj-(mod)-up-nil,obj-theme_unaff-em-sn2,subj-agent-get-sn1,sn1-em-nil,and(get,get,sn1),def_prop(what,[oggetto]),def_prop(em,[nquant]),def_prop(get,[informa,tecno]),def_prop(em,[nquant])])
+lf(2000.txt_35,648,cl47-nil-nil-get-[adj-(mod)-what-nil,adj-(mod)-up-nil,obj-theme_unaff-em-sn2,subj-agent-get-sn1,sn1-em-nil,and(get,get,sn1),def_prop(what,[oggetto]),def_prop(em,[nquant]),def_prop(get,[informa,tecno]),def_prop(em,[nquant])])
+lf(2000.txt_36,684,cl48-nil-nil-get-[adj-(mod)-what-nil,adj-(mod)-up-nil,obj-theme_unaff-em-sn2,subj-agent-get-sn1,sn1-em-nil,and(get,get,sn1),def_prop(what,[oggetto]),def_prop(em,[nquant]),def_prop(get,[informa,tecno]),def_prop(em,[nquant])])

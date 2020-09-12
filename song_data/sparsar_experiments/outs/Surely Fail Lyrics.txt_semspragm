@@ -1,0 +1,269 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Surely Fail Lyrics.txt_1-1  []-positive  [neg]
+Surely Fail Lyrics.txt_2-3  [(as)-temp_coinc,before-temp_prec]-positive  []
+Surely Fail Lyrics.txt_3-6  []-negative  [neg,neg]
+Surely Fail Lyrics.txt_4-10  []-positive  []
+Surely Fail Lyrics.txt_4-11  []-negative  [neg,fhd]
+Surely Fail Lyrics.txt_5-16  []-positive  []
+Surely Fail Lyrics.txt_6-22  []-suspension  []
+Surely Fail Lyrics.txt_7-29  []-positive  []
+Surely Fail Lyrics.txt_8-37  []-negative  [neg]
+Surely Fail Lyrics.txt_9-46  []-positive  []
+Surely Fail Lyrics.txt_10-56  []-positive  []
+Surely Fail Lyrics.txt_11-67  []-positive  []
+Surely Fail Lyrics.txt_12-79  []-positive  []
+Surely Fail Lyrics.txt_13-93  []-negative  [fgb]
+Surely Fail Lyrics.txt_14-108  []-positive  []
+Surely Fail Lyrics.txt_15-123  []-negative  [fgb,fgb,neg]
+Surely Fail Lyrics.txt_16-141  []-positive  []
+Surely Fail Lyrics.txt_17-158  []-positive  [neg]
+Surely Fail Lyrics.txt_18-176  []-negative  [neg,neg]
+Surely Fail Lyrics.txt_18-177  []-positive  []
+Surely Fail Lyrics.txt_19-196  []-positive  []
+Surely Fail Lyrics.txt_20-216  []-positive  []
+Surely Fail Lyrics.txt_20-217  []-negative  [fgb,neg]
+Surely Fail Lyrics.txt_21-239  []-positive  []
+Surely Fail Lyrics.txt_22-261  [so-result]-negative  [neg,fgb]
+Surely Fail Lyrics.txt_23-296  []-positive  [fgb,fgb]
+Surely Fail Lyrics.txt_23-297  []-positive  []
+Surely Fail Lyrics.txt_23-298  []-positive  []
+Surely Fail Lyrics.txt_24-322  []-negative  [neg]
+Surely Fail Lyrics.txt_25-347  [if-hypoth]-negative  [fgb,neg,neg]
+Surely Fail Lyrics.txt_26-373  [then-temp_seq]-suspension  []
+Surely Fail Lyrics.txt_26-374  []-positive  []
+Surely Fail Lyrics.txt_27-400  []-positive  []
+Surely Fail Lyrics.txt_28-428  []-positive  [fgb]
+Surely Fail Lyrics.txt_29-457  []-suspension  [neg]
+Surely Fail Lyrics.txt_29-458  []-negative  [neg]
+Surely Fail Lyrics.txt_30-488  []-positive  []
+Surely Fail Lyrics.txt_30-489  [so-result]-negative  [neg,fgb,neg]
+Surely Fail Lyrics.txt_31-521  []-negative  []
+Surely Fail Lyrics.txt_32-553  []-positive  [neg,fhd]
+Surely Fail Lyrics.txt_32-554  [but-advers]-positive  [fgb]
+Surely Fail Lyrics.txt_33-587  []-positive  []
+Surely Fail Lyrics.txt_34-622  []-suspension  []
+Surely Fail Lyrics.txt_34-623  [but-advers]-positive  [neg,neg,fgb]
+Surely Fail Lyrics.txt_35-658  []-positive  []
+Surely Fail Lyrics.txt_36-694  []-positive  []
+Surely Fail Lyrics.txt_37-731  []-positive  []
+Surely Fail Lyrics.txt_37-732  []-positive  []
+Surely Fail Lyrics.txt_38-769  []-positive  []
+Surely Fail Lyrics.txt_39-808  []-positive  [fgb]
+Surely Fail Lyrics.txt_40-848  []-positive  [fgb]
+Surely Fail Lyrics.txt_41-889  []-negative  [neg]
+Surely Fail Lyrics.txt_42-931  []-question  []
+Surely Fail Lyrics.txt_43-974  []-positive  []
+Surely Fail Lyrics.txt_44-1018  []-positive  []
+Surely Fail Lyrics.txt_45-1063  []-negative  [neg,neg]
+Surely Fail Lyrics.txt_46-1064  []-negative  [fhd]
+Surely Fail Lyrics.txt_47-1112  []-positive  []
+Surely Fail Lyrics.txt_48-1160  []-positive  []
+Surely Fail Lyrics.txt_48-1161  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Surely Fail Lyrics.txt_1-1  [surely,Fail,Lyrics,by,Xeezy]  [title]
+Surely Fail Lyrics.txt_2-3  [as,i,stand,before,you]  [provide_expl_just(stand,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_3-6  [i,confess,myself,disappointed]  [reject_expl_just(confess,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_4-10  [,,you,told,me]  [provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Surely Fail Lyrics.txt_4-11  [you,would,be,nothing,like,them]  [reject_expl_just(tell,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+Surely Fail Lyrics.txt_5-16  [that,!]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_6-22  [you,would,be,different,,]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Surely Fail Lyrics.txt_7-29  [that,!]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_8-37  [you,would,not,care,about,followers]  [reject_expl_just(care,[external,nonfactive,narration,background,objective])]
+Surely Fail Lyrics.txt_9-46  [about,,,the,clothes,on,your,back,the,clothes]  [provide_expl_just(back,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_10-56  [you,wear]  [provide_expl_just(wear,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_11-67  [the,shoes,on,your,feet,,]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_12-79  [how_many,friends,have,how,many,FOLLOWERS]  [provide_expl_just(friends,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_13-93  [you,have,is,that,what,matters]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_14-108  [,]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Surely Fail Lyrics.txt_15-123  [is,that,what,you,care,about,is,that,what,means,something,to,you,that,means,nothing,to,us]  [reject_expl_just(mean,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_16-141  [us,to,!]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_17-158  [this,is,just,vanity]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_18-176  [vanity,is,not,allowed,where,we,are,from]  [reject_expl_just(allow,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_18-177  [we,are,from]  [provide_expl_just(allow,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_19-196  [where,we,are,from]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_20-216  [we,are,warriors,warriors,who,take,everything]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_20-217  [and,them,nothing,give]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(take,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_21-239  [take,everything,mama,say,son]  [provide_expl_just(say,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_22-261  [don-t,put,your,hat,where,you,can,not,reach,it,so,i,placed,it,to,the,back,cause,my,paths,the,only,thing,i,am,seeing,i,stay,dreaming,stay,believing,that,one,day,i,had,see,the,ceiling]  [reject_expl_just(stay,[external,factive,narration,background,objective]),reject_expl_just(see,[external,factive,narration,background,objective]),reject_expl_just(dream,[external,factive,result,foreground,objective]),propose_opin_neg(dream,_449390),reject_expl_just(dream,[external,factive,narration,foreground,objective]),reject_expl_just(believe,[external,factive,narration,foreground,objective]),reject_expl_just(believe,[external,factive,result,foreground,objective]),propose_opin_neg(believe,[external,factive,result,foreground,objective]),reject_expl_just(reach,[external,nonfactive,narration,foreground,objective])]
+Surely Fail Lyrics.txt_23-296  [the,true,meaning,what,it,what,a,feeling,means,to,be]  [provide_expl_just(mean,[external,factive,narration,background,objective]),provide_expl_just(lean,[external,factive,narration,foreground,objective])]
+Surely Fail Lyrics.txt_23-297  [a,human,being,leaning,on,me]  [provide_expl_just(mean,[external,factive,narration,background,objective]),provide_expl_just(lean,[external,factive,narration,foreground,objective])]
+Surely Fail Lyrics.txt_23-298  [,]  [provide_expl_just(mean,[external,factive,narration,background,objective]),provide_expl_just(lean,[external,factive,narration,foreground,objective])]
+Surely Fail Lyrics.txt_24-322  [cause,see,Freeman,please,Morgan,no,ni99a,!]  [reject_expl_just(see,[internal,factive,narration,foreground,objective])]
+Surely Fail Lyrics.txt_25-347  [if,you,is,the,shit,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_26-373  [then,,,you,must,be,European]  [provide_expl_just(be,[external,nonfactive,narration,foreground,objective])]
+Surely Fail Lyrics.txt_26-374  [i,am,Caribbean,,]  [provide_expl_just(be,[external,nonfactive,narration,foreground,objective])]
+Surely Fail Lyrics.txt_27-400  [,]  [raise_issue(be,[_459540,factive,statement,_459558,subjective])]
+Surely Fail Lyrics.txt_28-428  [proud,am,i,,,and,!]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Surely Fail Lyrics.txt_29-457  [i,will,scream]  [provide_expl_just(scream,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_29-458  [that,shit,out_loud,we]  [reject_expl_just(scream,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_30-488  [the,ship,we,say]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_30-489  [it,sternly,so,you,best,Gon,take,a,bow,,,certain,shit]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(say,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_31-521  [we,don-t,allow]  [provide_expl_just(allow,[external,factive,narration,foreground,objective])]
+Surely Fail Lyrics.txt_32-553  [ni99as,you,,,weight,me,down,like]  [provide_expl_just(weight,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_32-554  [anchors,but]  [provide_expl_just(weight,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_33-587  [for,that,i,got,ta,thank,yuh]  [provide_expl_just(thank,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Surely Fail Lyrics.txt_34-622  [now,my,solders,will,out,flank,yuh]  [provide_expl_just(flank,[external,nonfactive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_34-623  [we,out,rank,friggin,blank,yuh,,,but,yuh,better,have,the,answers]  [provide_expl_just(flank,[external,nonfactive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_35-658  [i,am,x,Malcolm]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_36-694  [,,i,am,x,Cancer,,]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_37-731  [,,i,am,x]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_37-732  [Atom]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_38-769  [,,you,no_matter,,]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_39-808  [Ha,what]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Surely Fail Lyrics.txt_40-848  [what]  [proposal(be,[_470684,_470690,statement,foreground,_470708])]
+Surely Fail Lyrics.txt_41-889  [let-s,pause,for,a,second,cough,cough]  [reject_expl_just(cough,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_42-931  [aww,?]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_43-974  [he,coming,in,second]  [raise_issue(be,[_471686,factive,statement,_471704,subjective])]
+Surely Fail Lyrics.txt_44-1018  [place]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Surely Fail Lyrics.txt_45-1063  [time,weights,for,no_man,fatty,i,be,stunting,on,you]  [reject_expl_just(be,[_472302,_472308,_472314,_472320,_472326])]
+Surely Fail Lyrics.txt_46-1064  [Ni99as,now,get,to,stunting,like,Yo,daddy]  [provide_expl_just(stunt,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_47-1112  [,]  [raise_issue(be,[_473238,factive,statement,_473256,subjective])]
+Surely Fail Lyrics.txt_48-1160  [that,huhhhh,is,just,how]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(roll,[external,factive,narration,background,objective])]
+Surely Fail Lyrics.txt_48-1161  [i,roll]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(roll,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Surely Fail Lyrics.txt_1-1)-[secondary-abstract_tought]
+2-(Surely Fail Lyrics.txt_2-3)-[]
+3-(Surely Fail Lyrics.txt_3-6)-[secondary-social_behavior,emotions-sadness]
+4-(Surely Fail Lyrics.txt_4-10)-[secondary-social_behavior]
+5-(Surely Fail Lyrics.txt_4-11)-[emotions-affection,secondary-abstract_tought]
+6-(Surely Fail Lyrics.txt_5-16)-[]
+7-(Surely Fail Lyrics.txt_6-22)-[secondary-abstract_tought]
+8-(Surely Fail Lyrics.txt_7-29)-[]
+9-(Surely Fail Lyrics.txt_8-37)-[]
+10-(Surely Fail Lyrics.txt_9-46)-[primary-concreteness]
+11-(Surely Fail Lyrics.txt_10-56)-[]
+12-(Surely Fail Lyrics.txt_11-67)-[primary-narcissism]
+13-(Surely Fail Lyrics.txt_12-79)-[emotions-affection]
+14-(Surely Fail Lyrics.txt_13-93)-[]
+15-(Surely Fail Lyrics.txt_14-108)-[]
+16-(Surely Fail Lyrics.txt_15-123)-[]
+17-(Surely Fail Lyrics.txt_16-141)-[]
+18-(Surely Fail Lyrics.txt_17-158)-[]
+19-(Surely Fail Lyrics.txt_18-176)-[secondary-social_behavior,primary-concreteness]
+20-(Surely Fail Lyrics.txt_18-177)-[]
+21-(Surely Fail Lyrics.txt_19-196)-[primary-concreteness]
+22-(Surely Fail Lyrics.txt_20-216)-[emotions-aggression,emotions-aggression]
+23-(Surely Fail Lyrics.txt_20-217)-[secondary-abstract_tought]
+24-(Surely Fail Lyrics.txt_21-239)-[secondary-social_behavior]
+25-(Surely Fail Lyrics.txt_22-261)-[primary-concreteness,secondary-instru_behavior,primary-concreteness,primary-concreteness,secondary-abstract_tought,primary-brink,primary-vision,primary-vision]
+26-(Surely Fail Lyrics.txt_23-296)-[secondary-abstract_tought]
+27-(Surely Fail Lyrics.txt_23-297)-[primary-sound]
+28-(Surely Fail Lyrics.txt_23-298)-[]
+29-(Surely Fail Lyrics.txt_24-322)-[secondary-abstract_tought,primary-vision,secondary-social_behavior]
+30-(Surely Fail Lyrics.txt_25-347)-[primary-anality]
+half
+31-(Surely Fail Lyrics.txt_26-373)-[secondary-temporal_repere,secondary-restraint]
+32-(Surely Fail Lyrics.txt_26-374)-[]
+33-(Surely Fail Lyrics.txt_27-400)-[]
+34-(Surely Fail Lyrics.txt_28-428)-[emotions-glory]
+35-(Surely Fail Lyrics.txt_29-457)-[emotions-expressive_beh]
+36-(Surely Fail Lyrics.txt_29-458)-[primary-anality]
+37-(Surely Fail Lyrics.txt_30-488)-[primary-voyage,secondary-social_behavior]
+38-(Surely Fail Lyrics.txt_30-489)-[secondary-abstract_tought,primary-anality]
+39-(Surely Fail Lyrics.txt_31-521)-[secondary-social_behavior]
+40-(Surely Fail Lyrics.txt_32-553)-[secondary-abstract_tought,emotions-affection]
+41-(Surely Fail Lyrics.txt_32-554)-[]
+42-(Surely Fail Lyrics.txt_33-587)-[secondary-social_behavior]
+43-(Surely Fail Lyrics.txt_34-622)-[secondary-temporal_repere,primary-concreteness]
+44-(Surely Fail Lyrics.txt_34-623)-[primary-concreteness,secondary-order,secondary-social_behavior]
+45-(Surely Fail Lyrics.txt_35-658)-[]
+46-(Surely Fail Lyrics.txt_36-694)-[]
+47-(Surely Fail Lyrics.txt_37-731)-[]
+48-(Surely Fail Lyrics.txt_37-732)-[]
+49-(Surely Fail Lyrics.txt_38-769)-[]
+50-(Surely Fail Lyrics.txt_39-808)-[]
+51-(Surely Fail Lyrics.txt_40-848)-[]
+52-(Surely Fail Lyrics.txt_41-889)-[primary-orality,primary-orality]
+53-(Surely Fail Lyrics.txt_42-931)-[]
+54-(Surely Fail Lyrics.txt_43-974)-[]
+55-(Surely Fail Lyrics.txt_44-1018)-[primary-concreteness]
+56-(Surely Fail Lyrics.txt_45-1063)-[secondary-temporal_repere,secondary-abstract_tought,primary-orality]
+57-(Surely Fail Lyrics.txt_46-1064)-[secondary-temporal_repere,emotions-affection]
+58-(Surely Fail Lyrics.txt_47-1112)-[]
+59-(Surely Fail Lyrics.txt_48-1160)-[]
+60-(Surely Fail Lyrics.txt_48-1161)-[primary-random_movement]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Surely Fail Lyrics.txt_1,1,cl1-nil-nil-fail-[adj-(mod)-surely-nil,arg_mod-agent-Xeezy-sn2,subj_top-theme_aff-Lyrics-sn1,def_prop(Xeezy,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Surely Fail Lyrics.txt_2,3,cl2-nil-nil-stand-[subj-experiencer-you-sn2,subj-experiencer-you-sn1,and(you,i,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_3,6,nil-nil-nil-confess-[xcomp-prop-disappointed-sn3,obj-theme-myself-sn2,subj-actor-i-sn1,def_prop(disappointed,[evaluative]),def_prop(myself,[umano]),def_prop(i,[umano])])
+lf(Surely Fail Lyrics.txt_4,10,cl4-nil-would-be-[xcomp-prop-them-sn5,xcomp-prop-nothing-sn4,subj-theme_bound-you-sn3,def_prop(them,[umano]),def_prop(nothing,[astratto,informa,oggetto]),def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_4,10,cl3-nil-nil-tell-[obj-theme_unaff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_5,16,cl5-nil-nil-say-[obj-theme_unaff-that-sn1,def_prop(that,[oggetto,umano])])
+lf(Surely Fail Lyrics.txt_6,22,cl6-nil-would-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_7,29,cl7-nil-nil-say-[obj-theme_unaff-that-sn1,def_prop(that,[oggetto,umano])])
+lf(Surely Fail Lyrics.txt_8,37,cl8-not-would-care-[iobj-goal-follower-sn2,subj-experiencer-you-sn1,def_prop(follower,[umano]),def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_9,46,nil-nil-nil-back-[obj-theme-cloth-sn3,ncmod-modal-your-sn2,subj-agent-cloth-sn1,def_prop(cloth,[oggetto,strumento]),def_prop(your,[evaluative]),def_prop(cloth,[oggetto,strumento])])
+lf(Surely Fail Lyrics.txt_10,56,cl9-nil-nil-wear-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_11,67,cl10-nil-nil-be-[ncmod-locativo-foot-sn2,subj-theme_bound-sho-sn1,def_prop(foot,[animato,attivita,body_part,luogo,nquant,oggetto,strumento,umano]),def_prop(sho,[istituzione])])
+lf(Surely Fail Lyrics.txt_12,79,cl11-nil-nil-have-[])
+lf(Surely Fail Lyrics.txt_12,79,nil-nil-nil-friends-[obj-theme-how-sn2,obj-theme_aff-follower-sn1,and(follower,many,sn1),def_prop(how,[manner]),def_prop(follower,[umano])])
+lf(Surely Fail Lyrics.txt_13,93,cl13-nil-nil-be-[])
+lf(Surely Fail Lyrics.txt_13,93,cl12-nil-nil-have-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_14,108,cl14-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_15,123,cl16-nil-nil-mean-[obj2-goal-us-sn4,subj-theme_bound-you-sn2,def_prop(us,[umano]),def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_15,123,cl15-nil-nil-be-[ncmod-goal-you-sn2,subj-theme_bound-something-sn1,def_prop(you,[umano]),def_prop(something,[astratto,informa,oggetto])])
+lf(Surely Fail Lyrics.txt_16,141,cl17-nil-nil-say-[iobj-goal-us-sn1,def_prop(us,[umano])])
+lf(Surely Fail Lyrics.txt_17,158,cl18-nil-nil-be-[xcomp-prop-vanity-sn2,subj-theme_bound-this-sn1,def_prop(vanity,[astratto]),def_prop(this,[oggetto,umano])])
+lf(Surely Fail Lyrics.txt_18,176,cl20-nil-nil-be-[subj-actor-you-sn3,def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_18,176,cl19-not-nil-allow-[subj-actor-vanity-sn1,aux-(is)-nil,def_prop(vanity,[astratto])])
+lf(Surely Fail Lyrics.txt_19,196,cl21-nil-nil-be-[obl-modal-where-sn2,subj-theme_bound-we-sn1,def_prop(where,[luogo]),def_prop(we,[umano])])
+lf(Surely Fail Lyrics.txt_20,216,cl24-nil-nil-take-[subj-agent-warrior-sn4,def_prop(warrior,_482614)])
+lf(Surely Fail Lyrics.txt_20,216,cl23-nil-nil-give-[cmod-subord-take-",subj-actor-you-sn6,def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_20,216,cl22-nil-nil-be-[obj2-benef-everything-sn3,xcomp-prop-warrior-sn2,subj-theme_bound-we-sn1,and(warrior,warrior,sn2),def_prop(everything,[astratto,informa,oggetto]),def_prop(warrior,[umano]),def_prop(we,[umano])])
+lf(Surely Fail Lyrics.txt_21,239,cl25-nil-nil-say-[obj-theme_unaff-son-sn3,subj-actor-everything-sn2,subj-actor-everything-sn1,and(everything,take,sn1),def_prop(son,[umano]),def_prop(everything,[astratto,informa,oggetto]),def_prop(everything,[astratto,informa,oggetto])])
+lf(Surely Fail Lyrics.txt_22,261,_483114-nil-nil-reach-[voice-reach-nil,tense-reach-nil,obl-locat-hat-sn3,def_prop(hat,[attivita,oggetto,strumento])])
+lf(Surely Fail Lyrics.txt_22,261,cl31-nil-nil-believe-[obj-result-ceiling-sn27,xcomp-prop-see-10,obj-theme-stay-sn26,xcomp-purpose-dream-8,subj-actor-stay-sn22,voice-reach-nil,tense-reach-nil,def_prop(ceiling,[astratto,attivita,informa,oggetto,strumento]),def_prop(stay,[attivita,informa,oggetto,strumento]),def_prop(stay,[attivita,informa,oggetto,strumento])])
+lf(Surely Fail Lyrics.txt_22,261,cl30-nil-nil-dream-[obj-prop-ceiling-sn30,xcomp-purpose-believe-10,voice-reach-nil,tense-reach-nil,def_prop(ceiling,[astratto,attivita,informa,oggetto,strumento])])
+lf(Surely Fail Lyrics.txt_22,261,cl29-nil-nil-stay-[subj-agent-i-sn25,obj-theme-stay-sn24,xcomp-purpose-dream-cl30,subj-agent-i-sn23,obj-prop-stay-sn22,voice-reach-nil,tense-reach-nil,def_prop(i,[umano]),def_prop(stay,[attivita,informa,oggetto,strumento]),def_prop(i,[umano]),def_prop(stay,[attivita,informa,oggetto,strumento])])
+lf(Surely Fail Lyrics.txt_22,261,cl28-nil-nil-see-[subj-experiencer-ceiling-sn38,obj-actor-ceiling-sn37,subj-experiencer-i-sn36,obj-actor-ceiling-sn35,xcomp-purpose-believe-10,subj-experiencer-i-sn34,obj-actor-ceiling-sn33,obj-actor-stay-sn32,subj-experiencer-i-sn31,obj-theme-stay-sn29,xcomp-purpose-dream-9,subj-experiencer-i-sn28,subj-experiencer-i-sn21,subj-experiencer-i-sn20,iobj-goal-cause-sn18,adj-temporal-day-nil,obj-actor-ceiling-sn12,subj-experiencer-i-sn11,voice-reach-nil,tense-reach-nil,aux-had-nil,aux-am-nil,progr-seeing-nil,and(cause,back,sn18),and(day,one,sn13),def_prop(ceiling,[astratto,attivita,informa,oggetto,strumento]),def_prop(ceiling,[astratto,attivita,informa,oggetto,strumento]),def_prop(i,[umano]),def_prop(ceiling,[astratto,attivita,informa,oggetto,strumento]),def_prop(i,[umano]),def_prop(ceiling,[astratto,attivita,informa,oggetto,strumento]),def_prop(stay,[attivita,informa,oggetto,strumento]),def_prop(i,[umano]),def_prop(stay,[attivita,informa,oggetto,strumento]),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(cause,[attivita,evento,informa]),def_prop(day,[tempo]),def_prop(ceiling,[astratto,attivita,informa,oggetto,strumento]),def_prop(i,[umano])])
+lf(Surely Fail Lyrics.txt_22,261,cl27-nil-nil-place-[subj-agent-it-sn17,subj-agent-it-sn16,voice-reach-nil,tense-reach-nil,and(it,i,sn16),def_prop(it,[any]),def_prop(it,[any])])
+lf(Surely Fail Lyrics.txt_22,261,cl26-not-nil-put-[voice-reach-nil,tense-reach-nil,obj-theme-path-sn4,obj-goal-hat-sn3,subj-agent-it-sn2,subj-agent-it-sn1,aux-do-nil,and(it,you,sn1),def_prop(path,[luogo,oggetto,strumento]),def_prop(hat,[attivita,oggetto,strumento]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Surely Fail Lyrics.txt_23,296,cl34-nil-nil-lean-[ncmod-locativo-me-sn8,subj-actor-human-sn7,aux-being-nil,progr-leaning-nil,def_prop(me,[umano]),def_prop(human,[animato,umano])])
+lf(Surely Fail Lyrics.txt_23,296,cl33-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Surely Fail Lyrics.txt_23,296,cl32-nil-nil-mean-[subj-sn1-feel-sn2,subj-theme_bound-mean-sn1,and(mean,it,sn1),and(mean,what,sn1),def_prop(feel,[astratto,attivita]),def_prop(mean,[astratto])])
+lf(Surely Fail Lyrics.txt_24,322,cl35-nil-nil-see-[obj-theme_aff-cause-sn3,obj-actor-Freeman-sn2,subj-experiencer-ni99a-sn1,def_prop(cause,[attivita,evento,informa]),def_prop(Freeman,[place,umano]),def_prop(ni99a,[istituzione])])
+lf(Surely Fail Lyrics.txt_25,347,cl36-nil-nil-be-[xcomp-prop-shit-sn2,subj-theme_bound-you-sn1,def_prop(shit,[attivita,umano]),def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_26,373,cl37-nil-must-be-[subj-theme_bound-i-sn3,xcomp-prop-European-sn2,subj-theme_bound-you-sn1,def_prop(i,[umano]),def_prop(European,[istituzione,umano]),def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_27,400,cl38-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_28,428,cl39-nil-nil-be-[cmod-coord-be-and,xcomp-prop-proud-sn2,subj-theme_bound-i-sn1,def_prop(proud,[emotivo]),def_prop(i,[umano])])
+lf(Surely Fail Lyrics.txt_29,457,cl41-nil-nil-be-[adj-subj_disc-we-sn4,xcomp-theme-shit-sn3,subj-theme_bound-you-sn2,and(we,out_loud,sn4),def_prop(we,[umano]),def_prop(shit,[attivita,umano]),def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_29,457,cl40-nil-will-scream-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_30,488,cl43-nil-nil-take-[adj-(mod)-sternly-nil,obj-theme_aff-bow-sn5,subj-agent-Gon-sn4,and(Gon,Gon,sn4),def_prop(bow,[astratto,attivita,informa,oggetto,strumento]),def_prop(Gon,[istituzione,umano])])
+lf(Surely Fail Lyrics.txt_30,488,nil-nil-nil-be-[cmod-subord-say-so,subj-theme_bound-you-sn8,def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_30,488,cl42-nil-nil-say-[subj-actor-we-sn2,subj-actor-we-sn1,and(we,ship,sn1),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Surely Fail Lyrics.txt_31,521,cl44-not-nil-allow-[subj-theme_unaff-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_32,553,cl46-nil-nil-be-[subj-theme_bound-anchor-sn5,def_prop(anchor,[astratto,oggetto,strumento,umano])])
+lf(Surely Fail Lyrics.txt_32,553,cl45-nil-nil-weight-[xcomp-prop-down-sn3,obj-theme_unaff-me-sn2,subj-actor-you-sn1,and(you,ni99as,sn1),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_33,587,cl48-nil-nil-thank-[subj-agent-yuh-sn4,obj-theme_unaff-yuh-sn3,subj-agent-ta-sn2,def_prop(yuh,[istituzione]),def_prop(yuh,[istituzione]),def_prop(ta,[informa,tecno])])
+lf(Surely Fail Lyrics.txt_33,587,cl47-nil-nil-get-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Surely Fail Lyrics.txt_34,622,cl50-nil-nil-have-[cmod-subord-be-but,xcomp-tema_bound-answer-sn11,xcomp-theme-better-sn10,subj-experiencer-yuh-sn9,def_prop(answer,[attivita,informa]),def_prop(better,[valutativo]),def_prop(yuh,[istituzione])])
+lf(Surely Fail Lyrics.txt_34,622,cl49-nil-will-flank-[adj-(mod)-now-nil,obj-theme2-yuh-sn2,subj-theme1-solder-sn1,adj-(mod)-out-nil,def_prop(yuh,[istituzione]),def_prop(solder,[sostanza])])
+lf(Surely Fail Lyrics.txt_35,658,cl51-nil-nil-be-[subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Surely Fail Lyrics.txt_36,694,cl52-nil-nil-be-[xcomp-theme-x-sn2,subj-theme_bound-i-sn1,def_prop(x,[attivita,informa]),def_prop(i,[umano])])
+lf(Surely Fail Lyrics.txt_37,731,cl53-nil-nil-be-[subj-theme_bound-you-sn3,xcomp-theme-x-sn2,subj-theme_bound-i-sn1,def_prop(you,[umano]),def_prop(x,[attivita,informa]),def_prop(i,[umano])])
+lf(Surely Fail Lyrics.txt_38,769,cl54-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_39,808,cl55-nil-nil-say-[obj-theme_unaff-Ha-sn1,and(Ha,what,sn1),def_prop(Ha,[place,umano])])
+lf(Surely Fail Lyrics.txt_40,848,cl56-nil-nil-say-[])
+lf(Surely Fail Lyrics.txt_41,889,cl57-nil-nil-cough-[cmod-subord-cough-for,obj-theme-cough-sn4,subj-agent-second-sn3,def_prop(cough,[attivita,stato]),def_prop(second,[attivita,informa,nquant,relat,tempo,umano])])
+lf(Surely Fail Lyrics.txt_42,931,cl58-nil-nil-say-[obj-theme_unaff-aww-sn1,def_prop(aww,[istituzione])])
+lf(Surely Fail Lyrics.txt_43,974,cl59-nil-nil-come-[iobj-locat-second-sn2,subj-agent-he-sn1,def_prop(second,[attivita,informa,nquant,relat,tempo,umano]),def_prop(he,[umano])])
+lf(Surely Fail Lyrics.txt_44,1018,cl60-nil-nil-say-[obj-theme_unaff-place-sn1,def_prop(place,[astratto,attivita,informa,luogo,stato])])
+lf(Surely Fail Lyrics.txt_45,1063,cl61-nil-nil-stunt-[subj-theme-i-sn4,subj-theme-i-sn3,aux-be-nil,progr-stunting-nil,and(i,no_man,sn3),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Surely Fail Lyrics.txt_46,1064,cl63-nil-nil-stunt-[obj-theme_aff-Yo-sn2,xcomp-purpose-stunt-2,def_prop(Yo,[umano])])
+lf(Surely Fail Lyrics.txt_46,1064,cl62-nil-nil-get-[adj-(mod)-now-nil,subj-agent-Ni99as-sn1,def_prop(Ni99as,[istituzione,umano])])
+lf(Surely Fail Lyrics.txt_47,1112,cl64-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_48,1160,cl66-nil-nil-roll-[subj-agent-you-sn4,def_prop(you,[umano])])
+lf(Surely Fail Lyrics.txt_48,1160,cl65-nil-nil-be-[xcomp-prop-just-sn2,subj-theme_bound-huhhhh-sn1,and(huhhhh,that,sn1),def_prop(just,[informa,tecno]),def_prop(huhhhh,[istituzione])])

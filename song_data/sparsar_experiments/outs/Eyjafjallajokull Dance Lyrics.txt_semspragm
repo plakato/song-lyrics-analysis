@@ -1,0 +1,54 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Eyjafjallajokull Dance Lyrics.txt_1-1  []-positive  []
+Eyjafjallajokull Dance Lyrics.txt_1-2  []-suspension  [neg,neg,neg]
+Eyjafjallajokull Dance Lyrics.txt_2-5  []-positive  [fgb]
+Eyjafjallajokull Dance Lyrics.txt_3-9  []-positive  []
+Eyjafjallajokull Dance Lyrics.txt_3-10  []-negative  [neg]
+Eyjafjallajokull Dance Lyrics.txt_4-14  []-positive  []
+Eyjafjallajokull Dance Lyrics.txt_4-15  [but-advers]-suspension  [fgb,neg]
+Eyjafjallajokull Dance Lyrics.txt_5-19  []-positive  []
+Eyjafjallajokull Dance Lyrics.txt_5-20  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Eyjafjallajokull Dance Lyrics.txt_1-1  [eyjafjallajokull,Dance,Lyrics,by,the,World]  [title]
+Eyjafjallajokull Dance Lyrics.txt_1-2  [is,a,Beautiful,place,&,i,am,no,Longer,Afraid,to,die]  [provide_expl_just(die,[external,factive,narration,background,objective]),provide_expl_just(dance,[external,factive,narration,background,objective]),suggest(be,[_13486,_13492,statement,background,_13510])]
+Eyjafjallajokull Dance Lyrics.txt_2-5  [open,up,the,window,and,the,morning,let,light,in]  [proposal(be,[_13874,_13880,statement,foreground,_13898])]
+Eyjafjallajokull Dance Lyrics.txt_3-9  [i,keep,holding,on,to]  [provide_expl_just(beg,[external,factive,narration,foreground,objective]),provide_expl_just(keep,[external,factive,narration,background,objective])]
+Eyjafjallajokull Dance Lyrics.txt_3-10  [,,i,keep,begging,myself]  [reject_expl_just(beg,[external,factive,narration,foreground,objective]),reject_expl_just(keep,[external,factive,narration,background,objective])]
+Eyjafjallajokull Dance Lyrics.txt_4-14  [today,we,are,superheroes]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Eyjafjallajokull Dance Lyrics.txt_4-15  [but,tonight,we,will,just,be,tired]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Eyjafjallajokull Dance Lyrics.txt_5-19  [i,keep,holding,on,to]  [provide_expl_just(beg,[external,factive,narration,foreground,objective]),provide_expl_just(keep,[external,factive,narration,background,objective])]
+Eyjafjallajokull Dance Lyrics.txt_5-20  [,,i,keep,begging,myself]  [reject_expl_just(beg,[external,factive,narration,foreground,objective]),reject_expl_just(keep,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Eyjafjallajokull Dance Lyrics.txt_1-1)-[]
+2-(Eyjafjallajokull Dance Lyrics.txt_1-2)-[primary-concreteness,primary-passivity]
+3-(Eyjafjallajokull Dance Lyrics.txt_2-5)-[primary-concreteness,primary-brink,primary-vision]
+4-(Eyjafjallajokull Dance Lyrics.txt_3-9)-[]
+half
+5-(Eyjafjallajokull Dance Lyrics.txt_3-10)-[]
+6-(Eyjafjallajokull Dance Lyrics.txt_4-14)-[secondary-temporal_repere]
+7-(Eyjafjallajokull Dance Lyrics.txt_4-15)-[secondary-temporal_repere]
+8-(Eyjafjallajokull Dance Lyrics.txt_5-19)-[]
+9-(Eyjafjallajokull Dance Lyrics.txt_5-20)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Eyjafjallajokull Dance Lyrics.txt_1,1,cl3-nil-nil-die-[xadj-adj-Afraid-adj2,xadj-adj-Afraid-adj1,arg_mod-agent-World-sn3,def_prop(Afraid,_17736),def_prop(Afraid,_17748),def_prop(World,[luogo])])
+lf(Eyjafjallajokull Dance Lyrics.txt_1,1,cl2-nil-nil-be-[subj-theme_bound-Long-sn11,xcomp-prop-Long-sn9,subj-theme_bound-i-sn8,xcomp-prop-Beautiful-sn6,subj-theme_bound-place-sn5,subj-theme_bound-place-sn4,and(Long,no,sn11),and(Long,no,sn9),and(place,you,sn4),def_prop(Long,[istituzione,umano]),def_prop(Long,[istituzione,umano]),def_prop(i,[umano]),def_prop(Beautiful,[istituzione,umano]),def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(place,[astratto,attivita,informa,luogo,stato])])
+lf(Eyjafjallajokull Dance Lyrics.txt_1,1,cl1-nil-nil-dance-[obj-theme-Lyrics-sn2,subj-actor-eyjafjallajokull-sn1,def_prop(Lyrics,[informa,tecno]),def_prop(eyjafjallajokull,[istituzione])])
+lf(Eyjafjallajokull Dance Lyrics.txt_2,5,cl4-nil-nil-open-[adj-(mod)-up-nil,adj-subj_disc-up-sn11,obj-theme_unaff-light-sn7,xcomp-purpose-let-2,coord-agent-window_and_morning-sn6,subj-agent-morning-sn5,subj-agent-window-sn4,coord-agent-window_and_morning-sn3,subj-agent-morning-sn2,subj-agent-window-sn1,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(window_and_morning,[oggetto,strumento,tempo,tempo]),def_prop(morning,[oggetto,strumento,tempo,tempo]),def_prop(window,[oggetto,strumento,tempo,tempo]),def_prop(window_and_morning,[oggetto,strumento,tempo,tempo]),def_prop(morning,[oggetto,strumento,tempo,tempo]),def_prop(window,[oggetto,strumento,tempo,tempo])])
+lf(Eyjafjallajokull Dance Lyrics.txt_3,9,cl6-nil-nil-beg-[obj-theme-myself-sn4,xcomp-purpose-beg-4,def_prop(myself,[umano])])
+lf(Eyjafjallajokull Dance Lyrics.txt_3,9,cl5-nil-nil-keep-[subj-experiencer-i-sn3,xcomp-prop-holding-sn2,subj-experiencer-i-sn1,def_prop(i,[umano]),def_prop(holding,[attivita,legale,oggetto]),def_prop(i,[umano])])
+lf(Eyjafjallajokull Dance Lyrics.txt_4,14,cl7-nil-will-be-[xcomp-prop-tired-sn5,subj-theme_bound-we-sn4,xcomp-prop-superhero-sn2,subj-theme_bound-we-sn1,def_prop(tired,[emotivo]),def_prop(we,[umano]),def_prop(superhero,[istituzione]),def_prop(we,[umano])])
+lf(Eyjafjallajokull Dance Lyrics.txt_5,19,cl9-nil-nil-beg-[obj-theme-myself-sn4,xcomp-purpose-beg-4,def_prop(myself,[umano])])
+lf(Eyjafjallajokull Dance Lyrics.txt_5,19,cl8-nil-nil-keep-[subj-experiencer-i-sn3,xcomp-prop-holding-sn2,subj-experiencer-i-sn1,def_prop(i,[umano]),def_prop(holding,[attivita,legale,oggetto]),def_prop(i,[umano])])

@@ -1,0 +1,317 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Drown Lyrics.txt_1-1  []-negative  [neg]
+Drown Lyrics.txt_2-3  []-positive  []
+Drown Lyrics.txt_3-6  []-negative  []
+Drown Lyrics.txt_3-7  []-negative  [fgb,neg]
+Drown Lyrics.txt_4-12  []-positive  []
+Drown Lyrics.txt_4-13  []-positive  []
+Drown Lyrics.txt_5-18  []-positive  []
+Drown Lyrics.txt_5-19  []-negative  [neg]
+Drown Lyrics.txt_6-26  []-positive  []
+Drown Lyrics.txt_7-34  []-positive  []
+Drown Lyrics.txt_7-35  []-negative  [neg]
+Drown Lyrics.txt_8-44  []-positive  []
+Drown Lyrics.txt_8-45  []-positive  [neg]
+Drown Lyrics.txt_9-55  [then-temp_seq]-suspension  [neg,neg,neg,neg]
+Drown Lyrics.txt_10-65  [before-temp_prec]-positive  []
+Drown Lyrics.txt_11-76  [yet-conc]-suspension  [fgb,neg,neg]
+Drown Lyrics.txt_12-88  []-positive  [fgb]
+Drown Lyrics.txt_12-89  []-negative  []
+Drown Lyrics.txt_13-102  []-question  [fhd]
+Drown Lyrics.txt_14-116  []-negative  []
+Drown Lyrics.txt_15-131  []-positive  [fgb,fgb,fgb]
+Drown Lyrics.txt_16-148  []-positive  []
+Drown Lyrics.txt_16-149  []-suspension  []
+Drown Lyrics.txt_17-167  [but-advers]-negative  [fgb,neg]
+Drown Lyrics.txt_18-186  []-negative  [neg,fgb,neg]
+Drown Lyrics.txt_19-205  []-suspension  [neg]
+Drown Lyrics.txt_20-226  []-suspension  [fgb,fgb,fgb,neg]
+Drown Lyrics.txt_21-247  [but-advers]-positive  [fgb]
+Drown Lyrics.txt_21-247  [but-advers]-positive  [fgb]
+Drown Lyrics.txt_22-269  []-suspension  []
+Drown Lyrics.txt_23-292  [but-advers]-positive  [fgb]
+Drown Lyrics.txt_24-317  [so-result]-negative  [fgb,fgb]
+Drown Lyrics.txt_24-318  []-positive  []
+Drown Lyrics.txt_25-343  []-positive  []
+Drown Lyrics.txt_26-369  []-positive  []
+Drown Lyrics.txt_27-396  []-positive  [fgb]
+Drown Lyrics.txt_28-424  []-question  []
+Drown Lyrics.txt_29-454  []-positive  []
+Drown Lyrics.txt_29-455  []-positive  []
+Drown Lyrics.txt_30-485  []-question  [neg]
+Drown Lyrics.txt_31-518  []-positive  []
+Drown Lyrics.txt_31-519  []-negative  [neg]
+Drown Lyrics.txt_32-551  []-negative  [neg,neg]
+Drown Lyrics.txt_32-552  []-positive  []
+Drown Lyrics.txt_33-585  []-negative  [neg]
+Drown Lyrics.txt_33-586  []-negative  []
+Drown Lyrics.txt_33-587  []-positive  [fgb]
+Drown Lyrics.txt_34-621  []-negative  []
+Drown Lyrics.txt_34-622  [if-hypoth]-negative  [fgb,neg,fhd]
+Drown Lyrics.txt_35-657  []-suspension  []
+Drown Lyrics.txt_36-694  []-negative  [neg]
+Drown Lyrics.txt_37-733  [but-advers]-positive  [fgb,neg]
+Drown Lyrics.txt_37-734  []-negative  [neg]
+Drown Lyrics.txt_37-735  []-negative  [fgb,neg,neg]
+Drown Lyrics.txt_38-772  []-positive  [fgb,neg]
+Drown Lyrics.txt_38-772  []-positive  [fgb,neg,fgb]
+Drown Lyrics.txt_39-811  []-positive  []
+Drown Lyrics.txt_39-812  [but-advers]-acceptance  [fgb,neg,ack]
+Drown Lyrics.txt_40-852  []-positive  [neg]
+Drown Lyrics.txt_41-893  []-suspension  [neg,fgb,neg]
+Drown Lyrics.txt_42-935  []-positive  []
+Drown Lyrics.txt_43-978  []-negative  [neg,fgb]
+Drown Lyrics.txt_44-1023  []-positive  []
+Drown Lyrics.txt_44-1024  []-suspension  []
+Drown Lyrics.txt_45-1069  [but-advers]-negative  [fgb,neg]
+Drown Lyrics.txt_45-1070  []-positive  [fgb]
+Drown Lyrics.txt_45-1070  []-positive  [fgb]
+Drown Lyrics.txt_46-1117  []-positive  [neg,fgb]
+Drown Lyrics.txt_47-1164  [but-advers]-positive  [fgb,ack,neg]
+Drown Lyrics.txt_47-1165  []-negative  [fgb,neg]
+Drown Lyrics.txt_47-1166  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Drown Lyrics.txt_1-1  [drown,Lyrics,by,Tyler,Joseph]  [title]
+Drown Lyrics.txt_2-3  [here,i,come,,,come,to,you,in,the,very,clothes]  [raise_issue(be,[_747128,factive,statement,_747146,subjective])]
+Drown Lyrics.txt_3-6  [that,i,killed]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(kill,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_3-7  [,,killed,you,in,and,now,i,know,i,am,alone]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(kill,[external,factive,narration,foreground,objective]),reject_expl_just(know,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_4-12  [i,walk,to,you]  [provide_expl_just(fall,[external,factive,narration,background,objective]),provide_expl_just(walk,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_4-13  [,,rain,falls,from,you]  [provide_expl_just(fall,[external,factive,narration,background,objective]),provide_expl_just(walk,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_5-18  [can,you,wash,me,,,can]  [provide_expl_just(wash,[external,factive,narration,background,objective]),provide_expl_just(drown,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Drown Lyrics.txt_5-19  [you,drown,me]  [reject_expl_just(wash,[external,factive,narration,background,objective]),reject_expl_just(drown,[external,factive,narration,background,objective]),reject_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Drown Lyrics.txt_6-26  [i,wanna,be,a,lot,of,things,so_much,pent,inside,of,me]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_7-34  [i,wanna,be,stronger]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(sit,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_7-35  [,,too,long,i,have,sat,here,undecidedly]  [reject_expl_just(wanna,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(sit,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_8-44  [planning,strategy,,,half,of,me,know]  [provide_expl_just(plan,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_8-45  [it,is,all,just,a,fallacy]  [provide_expl_just(plan,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_9-55  [failing,miserably,,,drastically,then,i,crash,dramatically]  [provide_expl_just(crash,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_10-65  [into,a,wall,i,have,hit,a,hundred,times,before]  [provide_expl_just(hit,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_11-76  [and,yet,i,still,ignore,the,dark,red,blood,stains,on,the,floor]  [provide_expl_just(ignore,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_12-88  [and,i,am,back,in,front,of,you]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_12-89  [,,lord,with,the,blood,on,the,floor]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_13-102  [yours,or,mine,blood,the,is,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Drown Lyrics.txt_14-116  [don-t,wanna,this,anymore,do]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Drown Lyrics.txt_15-131  [back,and,forth,between,me,and,me,and,who,you,call,me,to,be,.,you,call,me,to,be]  [provide_expl_just(call,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_16-148  [you,see,a,man,free,who,thinks]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(buy,[external,nonfactive,narration,foreground,objective]),provide_expl_just(think,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_16-149  [he,has_to,buy,a,key]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(buy,[external,nonfactive,narration,foreground,objective]),provide_expl_just(think,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_17-167  [to,a,door,but,he,can,not,cause,he,is]  [reject_expl_just(be,[external,factive,adverse,background,objective]),provide_expl_just(be,[external,factive,adverse,background,objective])]
+Drown Lyrics.txt_18-186  [poor,and,he,can,not]  [reject_expl_just(be,[_775972,_775978,_775984,_775990,_775996])]
+Drown Lyrics.txt_19-205  [fall,down,cause,he,is,already,on,the,floor]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(fall,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_20-226  [and,his,heart,is,broken,and,all,and,this,is,his,scar]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_21-247  [but,it,is,warm,from,crying]  [provide_expl_just(be,[external,factive,adverse,background,objective])]
+Drown Lyrics.txt_21-247  [but,it,is,warm,from,crying,cause,he]  [provide_expl_just(be,[external,factive,adverse,background,objective])]
+Drown Lyrics.txt_22-269  [will,try,nine_times]  [provide_expl_just(try,[external,nonfactive,narration,background,objective])]
+Drown Lyrics.txt_23-292  [to,realize,nine,crimes,but,he,has,more_than,nine,lives]  [provide_expl_just(realize,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_24-317  [so,he,picks,himself,up,and,keeps,fighting]  [provide_expl_just(pick,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_24-318  [for,the,prize,again]  [provide_expl_just(pick,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_25-343  [here,i,come,again,to,you]  [raise_issue(be,[_785470,factive,statement,_785488,subjective])]
+Drown Lyrics.txt_26-369  [just,to,show,the,blood,soaked,through]  [raise_issue(be,[_785798,factive,statement,_785816,subjective])]
+Drown Lyrics.txt_27-396  [i,all,through,my,bones,and,own]  [provide_expl_just(own,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_28-424  [grow,to,me,for,way,a,there,is,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Drown Lyrics.txt_29-454  [i,walk,to,you]  [provide_expl_just(fall,[external,factive,narration,background,objective]),provide_expl_just(walk,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_29-455  [,,rain,falls,from,you]  [provide_expl_just(fall,[external,factive,narration,background,objective]),provide_expl_just(walk,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_30-485  [please,me,drown,can,you,,,me,you,wash,can,?]  [provide_expl_just(drown,[internal,factive,narration,foreground,objective]),provide_expl_just(can,[internal,nonfactive,narration,background,objective]),provide_expl_just(wash,[internal,nonfactive,narration,background,objective])]
+Drown Lyrics.txt_31-518  [every,time,i,feel]  [provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Drown Lyrics.txt_31-519  [selfish,ambition,is,taking,my,vision]  [reject_expl_just(feel,[external,factive,narration,background,objective]),reject_expl_just(take,[external,factive,narration,foreground,objective])]
+Drown Lyrics.txt_32-551  [my,crime,is,my,sentence]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(take,[external,factive,narration,foreground,objective])]
+Drown Lyrics.txt_32-552  [repentance,is,taking,commission]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Drown Lyrics.txt_33-585  [it,is,taking,a,toll,on,my,soul]  [reject_expl_just(scream,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_33-586  [i,am,screaming,submission]  [provide_expl_just(scream,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_33-587  [and]  [provide_expl_just(scream,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_34-621  [i,don-t,know]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_802180)]
+Drown Lyrics.txt_34-622  [if,i,am,dying,or,living]  [reject_expl_just(know,[external,factive,cause,foreground,objective])]
+Drown Lyrics.txt_35-657  [Cause,i,will,save,a,face,for,name-s,sake]  [provide_expl_just(save,[external,nonfactive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_36-694  [abuse,grace,take,a,aim,to,obtain,a,new,name,in,a,newer,place]  [reject_expl_just(take,[external,factive,narration,background,objective]),reject_expl_just(obtain,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_37-733  [but,my,name,is,lame]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(walk,[external,nonfactive,narration,foreground,objective])]
+Drown Lyrics.txt_37-734  [,,i,can,not,walk]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(walk,[external,nonfactive,narration,foreground,objective])]
+Drown Lyrics.txt_37-735  [and,i,is,not,not,the,same]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(walk,[external,nonfactive,narration,foreground,objective])]
+Drown Lyrics.txt_38-772  [and,my,name,became,a,new,destiny,to,the,grave]  [provide_expl_just(become,[external,factive,narration,foreground,objective])]
+Drown Lyrics.txt_38-772  [and,my,name,became,a,new,destiny,to,the,grave,and]  [provide_expl_just(become,[external,factive,narration,foreground,objective])]
+Drown Lyrics.txt_39-811  [they,say,the,ocean-s,blue]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_39-812  [but,it,is,black,right,now]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_40-852  [in,the,dark,on,the,sand,looking,out,at,my,crowd]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_41-893  [depression,and,drowning,singing]  [provide_expl_just(drown,[external,factive,narration,foreground,objective])]
+Drown Lyrics.txt_42-935  [now,the,full,parts]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_43-978  [of,lightning,reveals,where,the,ocean,stops,and,the,sky,starts]  [reject_expl_just(reveal,[external,factive,narration,background,objective]),reject_expl_just(start,[external,factive,inception,background,objective]),provide_expl_just(start,[external,factive,inception,background,objective])]
+Drown Lyrics.txt_44-1023  [i,have,been,told,by,the,sky,that,the,ocean]  [provide_expl_just(win,[external,nonfactive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,foreground,objective])]
+Drown Lyrics.txt_44-1024  [i,shall,win]  [provide_expl_just(win,[external,nonfactive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,foreground,objective])]
+Drown Lyrics.txt_45-1069  [but,it,is,hard]  [reject_expl_just(see,[external,factive,narration,background,objective]),reject_expl_just(begin,[external,factive,inception,background,objective]),provide_expl_just(begin,[external,factive,inception,background,objective])]
+Drown Lyrics.txt_45-1070  [for,me,to,see,where,ocean,stops,and,where,sky,begins,.]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(begin,[external,factive,inception,background,objective])]
+Drown Lyrics.txt_45-1070  [for,me,to,see,where,ocean,stops,and,where,sky,begins,.,sky,begins]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(begin,[external,factive,inception,background,objective])]
+Drown Lyrics.txt_46-1117  [a,random,strike,of,light,reminds,me,of,what,is,true]  [provide_expl_just(remind,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_47-1164  [but,right,now,the,ocean,is,black]  [provide_expl_just(black,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_47-1165  [and,black]  [reject_expl_just(black,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Drown Lyrics.txt_47-1166  [the,sky,is,too]  [provide_expl_just(black,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Drown Lyrics.txt_1-1)-[]
+2-(Drown Lyrics.txt_2-3)-[primary-concreteness]
+3-(Drown Lyrics.txt_3-6)-[emotions-aggression]
+4-(Drown Lyrics.txt_3-7)-[emotions-aggression,secondary-temporal_repere,secondary-abstract_tought]
+5-(Drown Lyrics.txt_4-12)-[]
+6-(Drown Lyrics.txt_4-13)-[primary-water,primary-descent]
+7-(Drown Lyrics.txt_5-18)-[primary-water]
+8-(Drown Lyrics.txt_5-19)-[]
+9-(Drown Lyrics.txt_6-26)-[primary-concreteness]
+10-(Drown Lyrics.txt_7-34)-[]
+11-(Drown Lyrics.txt_7-35)-[primary-concreteness,primary-concreteness]
+12-(Drown Lyrics.txt_8-44)-[secondary-abstract_tought]
+13-(Drown Lyrics.txt_8-45)-[]
+14-(Drown Lyrics.txt_9-55)-[emotions-sadness,secondary-temporal_repere]
+15-(Drown Lyrics.txt_10-65)-[primary-brink,emotions-aggression,secondary-temporal_repere]
+16-(Drown Lyrics.txt_11-76)-[primary-narcissism,primary-brink]
+17-(Drown Lyrics.txt_12-88)-[primary-concreteness,primary-concreteness]
+18-(Drown Lyrics.txt_12-89)-[primary-narcissism,primary-brink]
+19-(Drown Lyrics.txt_13-102)-[primary-narcissism]
+20-(Drown Lyrics.txt_14-116)-[]
+21-(Drown Lyrics.txt_15-131)-[primary-concreteness,primary-concreteness,secondary-social_behavior,secondary-social_behavior]
+22-(Drown Lyrics.txt_16-148)-[primary-vision,secondary-abstract_tought]
+23-(Drown Lyrics.txt_16-149)-[secondary-instru_behavior]
+24-(Drown Lyrics.txt_17-167)-[primary-brink,secondary-abstract_tought]
+25-(Drown Lyrics.txt_18-186)-[]
+26-(Drown Lyrics.txt_19-205)-[primary-descent,secondary-abstract_tought,secondary-temporal_repere,primary-brink]
+27-(Drown Lyrics.txt_20-226)-[primary-narcissism,emotions-aggression]
+28-(Drown Lyrics.txt_21-247)-[primary-fire]
+29-(Drown Lyrics.txt_21-247)-[primary-fire,secondary-abstract_tought]
+30-(Drown Lyrics.txt_22-269)-[secondary-instru_behavior]
+31-(Drown Lyrics.txt_23-292)-[]
+32-(Drown Lyrics.txt_24-317)-[secondary-instru_behavior]
+33-(Drown Lyrics.txt_24-318)-[secondary-temporal_repere]
+34-(Drown Lyrics.txt_25-343)-[primary-concreteness,secondary-temporal_repere]
+35-(Drown Lyrics.txt_26-369)-[primary-narcissism,primary-water]
+half
+36-(Drown Lyrics.txt_27-396)-[primary-narcissism]
+37-(Drown Lyrics.txt_28-424)-[primary-height]
+38-(Drown Lyrics.txt_29-454)-[]
+39-(Drown Lyrics.txt_29-455)-[primary-water,primary-descent]
+40-(Drown Lyrics.txt_30-485)-[secondary-social_behavior,primary-water]
+41-(Drown Lyrics.txt_31-518)-[secondary-temporal_repere,secondary-temporal_repere]
+42-(Drown Lyrics.txt_31-519)-[primary-vision]
+43-(Drown Lyrics.txt_32-551)-[]
+44-(Drown Lyrics.txt_32-552)-[emotions-sadness]
+45-(Drown Lyrics.txt_33-585)-[]
+46-(Drown Lyrics.txt_33-586)-[]
+47-(Drown Lyrics.txt_33-587)-[]
+48-(Drown Lyrics.txt_34-621)-[secondary-abstract_tought]
+49-(Drown Lyrics.txt_34-622)-[primary-passivity]
+50-(Drown Lyrics.txt_35-657)-[primary-narcissism]
+51-(Drown Lyrics.txt_36-694)-[emotions-aggression,secondary-instru_behavior,secondary-instru_behavior,primary-concreteness]
+52-(Drown Lyrics.txt_37-733)-[]
+53-(Drown Lyrics.txt_37-734)-[]
+54-(Drown Lyrics.txt_37-735)-[]
+55-(Drown Lyrics.txt_38-772)-[]
+56-(Drown Lyrics.txt_38-772)-[]
+57-(Drown Lyrics.txt_39-811)-[secondary-social_behavior,primary-water,primary-vision]
+58-(Drown Lyrics.txt_39-812)-[secondary-moral_imperative,secondary-temporal_repere]
+59-(Drown Lyrics.txt_40-852)-[primary-concreteness,primary-concreteness,primary-chaos]
+60-(Drown Lyrics.txt_41-893)-[]
+61-(Drown Lyrics.txt_42-935)-[secondary-temporal_repere]
+62-(Drown Lyrics.txt_43-978)-[primary-concreteness,primary-water,secondary-restraint,primary-height,primary-vision]
+63-(Drown Lyrics.txt_44-1023)-[secondary-social_behavior,primary-height,primary-water]
+64-(Drown Lyrics.txt_44-1024)-[secondary-instru_behavior]
+65-(Drown Lyrics.txt_45-1069)-[primary-hard]
+66-(Drown Lyrics.txt_45-1070)-[primary-vision,primary-concreteness,primary-water,secondary-restraint,primary-concreteness,primary-height]
+67-(Drown Lyrics.txt_45-1070)-[primary-vision,primary-concreteness,primary-water,secondary-restraint,primary-concreteness,primary-height,primary-height]
+68-(Drown Lyrics.txt_46-1117)-[primary-chaos,emotions-aggression,primary-vision,secondary-social_behavior,secondary-abstract_tought]
+69-(Drown Lyrics.txt_47-1164)-[secondary-moral_imperative,secondary-temporal_repere,primary-water]
+70-(Drown Lyrics.txt_47-1165)-[]
+71-(Drown Lyrics.txt_47-1166)-[primary-height]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Drown Lyrics.txt_1,1,cl1-nil-nil-drown-[arg_mod-agent-Joseph-sn2,subj-agent-Lyrics-sn1,and(Joseph,Tyler,sn2),def_prop(Joseph,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Drown Lyrics.txt_2,3,_-nil-nil-come-[adj-(mod)-here-nil,obj-theme_aff-cloth-sn3,iobj-goal-you-sn2,xmod-prop-come-4,subj-agent-i-sn1,def_prop(cloth,[oggetto,strumento]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Drown Lyrics.txt_2,3,cl2-nil-nil-come-[adj-(mod)-here-nil,obj-theme_aff-cloth-sn3,iobj-goal-you-sn2,xmod-prop-come-4,subj-agent-i-sn1,def_prop(cloth,[oggetto,strumento]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Drown Lyrics.txt_3,6,cl5-nil-nil-be-[xcomp-prop-alone-sn5,subj-theme_bound-i-sn4,def_prop(alone,[valutativo]),def_prop(i,[umano])])
+lf(Drown Lyrics.txt_3,6,cl4-nil-nil-know-[cmod-coord-be-and,adj-(mod)-now-nil,subj-actor-i-sn8,def_prop(i,[umano])])
+lf(Drown Lyrics.txt_3,6,cl3-nil-nil-kill-[subj-agent-you-sn3,subj-agent-you-sn2,subj-agent-i-sn1,def_prop(you,[umano]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Drown Lyrics.txt_4,12,cl7-nil-nil-fall-[iobj-goal-you-sn4,subj-agent-rain-sn3,iobj-goal-you-sn2,def_prop(you,[umano]),def_prop(rain,[astratto,attivita,cambia,sostanza]),def_prop(you,[umano])])
+lf(Drown Lyrics.txt_4,12,cl6-nil-nil-walk-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Drown Lyrics.txt_5,18,cl10-nil-nil-drown-[obj-theme-me-sn5,subj-agent-you-sn4,subj-agent-you-sn3,and(you,you,sn3),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Drown Lyrics.txt_5,18,cl9-nil-nil-wash-[])
+lf(Drown Lyrics.txt_5,18,cl8-nil-can-can-[obj-result-me-sn2,xcomp-purpose-wash-4,subj-actor-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Drown Lyrics.txt_6,26,cl11-nil-nil-be-[])
+lf(Drown Lyrics.txt_6,26,nil-nil-nil-wanna-[obj-prop-lot-sn2,xcomp-purpose-be-2,subj-agent-i-sn1,def_prop(lot,[luogo,nquant]),def_prop(i,[umano])])
+lf(Drown Lyrics.txt_7,34,cl13-nil-nil-sit-[adj-(mod)-undecidedly-nil,adj-(mod)-too-nil,subj-actor-i-sn3,aux-have-nil,and(undecidedly,here,sn5),def_prop(undecidedly,[istituzione]),def_prop(i,[umano])])
+lf(Drown Lyrics.txt_7,34,cl12-nil-nil-be-[xadj-adj-long-adj1,def_prop(long,_824220)])
+lf(Drown Lyrics.txt_7,34,nil-nil-nil-wanna-[obj-prop-stronger-sn2,xcomp-purpose-be-2,subj-agent-i-sn1,def_prop(stronger,[evaluative]),def_prop(i,[umano])])
+lf(Drown Lyrics.txt_8,44,cl16-nil-nil-be-[adj-(mod)-just-nil,xcomp-prop-fallacy-sn6,xcomp-prop-all-sn5,subj-theme_bound-it-sn4,xcomp-prop-strategy-sn2,xcomp-purpose-plan-4,def_prop(fallacy,[astratto]),def_prop(all,[_824536]),def_prop(it,[any]),def_prop(strategy,[astratto])])
+lf(Drown Lyrics.txt_8,44,cl15-nil-nil-know-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Drown Lyrics.txt_8,44,cl14-nil-nil-plan-[ncmod-specif-me-sn3,xadj-adj-half-adj2,def_prop(me,_824742),def_prop(half,_824754)])
+lf(Drown Lyrics.txt_9,55,cl17-nil-nil-crash-[cmod-subord-crash-then,adj-temporal-dramatically-nil,subj-actor-i-sn4,def_prop(i,[umano])])
+lf(Drown Lyrics.txt_10,65,cl18-nil-nil-hit-[adj-(mod)-before-nil,obj-theme-hundred-sn3,ncmod-loc_direct-wall-sn2,subj-agent-i-sn1,aux-have-nil,def_prop(before,[istituzione]),def_prop(hundred,[nquant]),def_prop(wall,[body_part,oggetto,stato,strumento,umano]),def_prop(i,[umano])])
+lf(Drown Lyrics.txt_11,76,cl19-nil-nil-ignore-[cmod-subord-ignore-",adj-(mod)-still-nil,adj-(mod)-yet-nil,ncmod-locativo-floor-sn4,obj-theme_aff-stain-sn3,obj-theme_unaff-blood-sn2,subj-agent-i-sn1,and(blood,dark,sn2),and(blood,red,sn2),def_prop(floor,[astratto,attivita,informa,oggetto,strumento]),def_prop(stain,[astratto,sostanza]),def_prop(blood,[astratto,body_part,istituzione,umano]),def_prop(i,[umano])])
+lf(Drown Lyrics.txt_12,88,cl21-nil-nil-lord-[ncmod-locativo-floor-sn7,ncmod-comitativo-blood-sn6,subj-agent-you-sn5,cmod-subord-lord-",ncmod-locativo-front-sn3,def_prop(floor,[astratto,attivita,informa,oggetto,strumento]),def_prop(blood,[astratto,body_part,istituzione,umano]),def_prop(you,[umano]),def_prop(front,[astratto,attivita,cambia,luogo,oggetto,stato,strumento])])
+lf(Drown Lyrics.txt_12,88,cl20-nil-nil-be-[xcomp-prop-back-sn2,subj-theme_bound-i-sn1,def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(Drown Lyrics.txt_13,102,cl22-nil-nil-be-[xcomp-theme-yours-sn3,xcomp-prop-mine-sn2,subj-theme_bound-blood-sn1,def_prop(yours,[istituzione]),def_prop(mine,[oggetto,strumento]),def_prop(blood,[astratto,body_part,istituzione,umano])])
+lf(Drown Lyrics.txt_14,116,cl23-nil-nil-do-[subj-theme_unaff-anymore-sn1,aux-do-nil,and(anymore,this,sn1),def_prop(anymore,[istituzione])])
+lf(Drown Lyrics.txt_15,131,cl25-nil-nil-be-[subj-prop-me-sn5,def_prop(me,[umano])])
+lf(Drown Lyrics.txt_15,131,cl24-nil-nil-call-[xadj-adj-back-adj3,adj-(mod)-forth-nil,obj-prop-me-sn5,obj-theme-you-sn4,f2-sn1-who-sn3,ncmod-relation-me-sn2,subj-agent-me-sn1,def_prop(back,_826380),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(who,[umano]),def_prop(me,[umano]),def_prop(me,[umano])])
+lf(Drown Lyrics.txt_16,148,cl28-nil-nil-think-[subj-agent-free-sn3,def_prop(free,[istituzione])])
+lf(Drown Lyrics.txt_16,148,cl27-nil-has_to-buy-[obj-theme-key-sn5,subj-actor-he-sn4,def_prop(key,[astratto,attivita,informa,luogo,nquant,oggetto,strumento]),def_prop(he,[umano])])
+lf(Drown Lyrics.txt_16,148,cl26-nil-nil-see-[obj-theme_aff-free-sn3,obj-actor-man-sn2,subj-experiencer-you-sn1,def_prop(free,[istituzione]),def_prop(man,[any]),def_prop(you,[umano])])
+lf(Drown Lyrics.txt_17,167,cl30-nil-nil-be-[ncmod-loc_direct-door-sn2,subj-theme_bound-he-sn1,def_prop(door,[astratto,oggetto,strumento]),def_prop(he,[umano])])
+lf(Drown Lyrics.txt_17,167,cl29-not-can-cause-[cmod-subord-be-but,subj-causer-you-sn3,def_prop(you,[umano])])
+lf(Drown Lyrics.txt_18,186,cl31-not-can-can-[cmod-coord-can-and,subj-actor-he-sn2,def_prop(he,[umano])])
+lf(Drown Lyrics.txt_19,205,cl33-nil-nil-be-[ncmod-modal-already-sn8,ncmod-prop-floor-sn5,xcomp-purpose-be-3,def_prop(already,[istituzione]),def_prop(floor,[astratto,attivita,informa,oggetto,strumento])])
+lf(Drown Lyrics.txt_19,205,cl32-nil-nil-fall-[adj-locative-already-nil,obj-theme-he-sn4,xcomp-prop-cause-sn3,xcomp-prop-down-sn2,subj-agent-you-sn1,def_prop(already,[istituzione]),def_prop(he,[umano]),def_prop(cause,[attivita,evento,informa]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Drown Lyrics.txt_20,226,cl35-nil-nil-be-[cmod-subord-be-",xcomp-prop-scar-sn9,subj-actor-this-sn8,xcomp-prop-scar-sn6,subj-actor-this-sn5,cmod-coord-break-nil,def_prop(scar,[stato]),def_prop(this,[oggetto,umano]),def_prop(scar,[stato]),def_prop(this,[oggetto,umano])])
+lf(Drown Lyrics.txt_20,226,cl34-nil-nil-break-[cmod-coord-be-cl35,subj-theme_aff-all-sn2,subj-theme_aff-all-sn1,aux-(is)-nil,and(all,hear,sn1),def_prop(all,[_827958]),def_prop(all,[_827976])])
+lf(Drown Lyrics.txt_21,247,cl36-nil-nil-be-[xcomp-theme-he-sn5,xcomp-purpose-cry-2,xcomp-prop-warm-sn4,subj-theme_bound-it-sn3,xcomp-prop-warm-sn2,subj-theme_bound-it-sn1,and(he,cause,sn5),def_prop(he,[umano]),def_prop(warm,[valutativo]),def_prop(it,[any]),def_prop(warm,[valutativo]),def_prop(it,[any])])
+lf(Drown Lyrics.txt_22,269,cl37-nil-will-try-[adj-subj_disc-nine_times-sn2,subj-actor-you-sn1,def_prop(nine_times,[attivita,informa,tempo]),def_prop(you,[umano])])
+lf(Drown Lyrics.txt_23,292,cl39-nil-nil-have-[cmod-subord-have-but,xcomp-tema_bound-life-sn4,subj-experiencer-he-sn3,and(life,nine,sn4),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(he,[umano])])
+lf(Drown Lyrics.txt_23,292,cl38-nil-nil-realize-[subj-actor-crime-sn1,and(crime,nine,sn1),def_prop(crime,[attivita])])
+lf(Drown Lyrics.txt_24,317,cl41-nil-nil-keep-[])
+lf(Drown Lyrics.txt_24,317,cl40-nil-nil-pick-[obj-goal-himself-sn2,subj-agent-he-sn1,def_prop(himself,[umano]),def_prop(he,[umano])])
+lf(Drown Lyrics.txt_25,343,cl42-nil-nil-come-[adj-(mod)-again-nil,adj-(mod)-here-nil,iobj-goal-you-sn2,subj-agent-i-sn1,def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Drown Lyrics.txt_26,369,cl43-nil-nil-show-[subj-actor-blood-sn1,def_prop(blood,[astratto,body_part,istituzione,umano])])
+lf(Drown Lyrics.txt_27,396,nil-nil-nil-own-[ncmod-location-bone-sn2,subj-actor-all-sn1,and(all,i,sn1),def_prop(bone,[astratto,body_part,sostanza,umano]),def_prop(all,[_829184])])
+lf(Drown Lyrics.txt_28,424,cl45-nil-nil-grow-[adj-(mod)-be-nil,cmod-subord-be-nil,subj-prop-me-sn2,def_prop(me,[umano])])
+lf(Drown Lyrics.txt_28,424,cl44-nil-nil-be-[adj-(mod)-there-nil,subj-theme_bound-me-sn2,subj-theme_bound-me-sn1,and(me,way,sn1),def_prop(me,[umano]),def_prop(me,[umano])])
+lf(Drown Lyrics.txt_29,454,cl47-nil-nil-fall-[iobj-goal-you-sn4,subj-agent-rain-sn3,iobj-goal-you-sn2,def_prop(you,[umano]),def_prop(rain,[astratto,attivita,cambia,sostanza]),def_prop(you,[umano])])
+lf(Drown Lyrics.txt_29,454,cl46-nil-nil-walk-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Drown Lyrics.txt_30,485,cl50-nil-nil-drown-[])
+lf(Drown Lyrics.txt_30,485,cl49-nil-can-can-[adj-locative-please-nil,obj-theme-me-sn4,xcomp-purpose-drown-cl50,subj-actor-you-sn3,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Drown Lyrics.txt_30,485,cl48-nil-can-wash-[obj-theme_aff-me-sn2,subj-actor-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Drown Lyrics.txt_31,518,cl52-nil-nil-take-[obj-theme_aff-vision-sn4,subj-agent-ambition-sn3,aux-(is)-nil,progr-taking-nil,and(ambition,selfish,sn3),def_prop(vision,[astratto,evento]),def_prop(ambition,[astratto,emotivo])])
+lf(Drown Lyrics.txt_31,518,cl51-nil-nil-feel-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Drown Lyrics.txt_32,551,cl54-nil-nil-take-[obj-theme_aff-commission-sn8,subj-agent-repentance-sn7,aux-(is)-nil,progr-taking-nil,def_prop(commission,[astratto,attivita,informa,oggetto,stato]),def_prop(repentance,[emotivo])])
+lf(Drown Lyrics.txt_32,551,cl53-nil-nil-be-[xcomp-prop-sentence-sn2,subj-theme_bound-crime-sn1,def_prop(sentence,[attivita,informa]),def_prop(crime,[attivita])])
+lf(Drown Lyrics.txt_33,585,cl57-nil-nil-be-[])
+lf(Drown Lyrics.txt_33,585,cl56-nil-nil-scream-[obj-topic-submission-sn7,subj-agent-i-sn6,aux-am-nil,progr-screaming-nil,def_prop(submission,[attivita,informa,stato]),def_prop(i,[umano])])
+lf(Drown Lyrics.txt_33,585,cl55-nil-nil-take-[expl-it-nil,obj-theme_aff-toll-sn2,subj-agent-it-sn1,aux-(is)-nil,progr-taking-nil,def_prop(toll,[astratto,oggetto]),def_prop(it,[any])])
+lf(Drown Lyrics.txt_34,621,cl59-nil-nil-die-[obj-theme-living-sn3,subj-theme_aff-i-sn2,aux-am-nil,progr-dying-nil,def_prop(living,[istituzione]),def_prop(i,[umano])])
+lf(Drown Lyrics.txt_34,621,cl58-not-nil-know-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Drown Lyrics.txt_35,657,cl61-nil-will-save-[obj-theme-face-sn3,xadj-result-save-3,def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano])])
+lf(Drown Lyrics.txt_35,657,cl60-nil-nil-cause-[subj-causer-i-sn2,subj-causer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Drown Lyrics.txt_36,694,cl64-nil-nil-obtain-[obj-theme-aim-sn3,xcomp-purpose-take-3,def_prop(aim,[astratto,attivita])])
+lf(Drown Lyrics.txt_36,694,cl63-nil-nil-take-[obj-result-name-sn4,xcomp-prop-obtain-4,def_prop(name,[attivita,informa,stato,umano])])
+lf(Drown Lyrics.txt_36,694,cl62-nil-nil-abuse-[subj-agent-grace-sn2,subj-agent-grace-sn1,and(grace,you,sn1),def_prop(grace,[astratto,attivita,informa,stato]),def_prop(grace,[astratto,attivita,informa,stato])])
+lf(Drown Lyrics.txt_37,733,cl66-not-can-walk-[cmod-subord-walk-",subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Drown Lyrics.txt_37,733,cl65-not-nil-be-[xcomp-prop-same-sn7,subj-theme_bound-i-sn6,xcomp-prop-lame-sn2,subj-theme_bound-name-sn1,def_prop(same,[deittico]),def_prop(i,[umano]),def_prop(lame,[oggetto,strumento]),def_prop(name,[attivita,informa,stato,umano])])
+lf(Drown Lyrics.txt_38,772,cl67-nil-nil-become-[cmod-coord-become-and,ncmod-modal-grave-sn8,xcomp-prop-destiny-sn7,subj-theme_bound-name-sn6,cmod-subord-become-",ncmod-modal-grave-sn3,xcomp-prop-destiny-sn2,subj-theme_bound-name-sn1,and(destiny,new,sn7),and(destiny,new,sn2),def_prop(grave,[valutativo]),def_prop(destiny,[evento]),def_prop(name,[attivita,informa,stato,umano]),def_prop(grave,[valutativo]),def_prop(destiny,[evento]),def_prop(name,[attivita,informa,stato,umano])])
+lf(Drown Lyrics.txt_39,811,cl69-nil-nil-be-[xcomp-prop-now-sn6,xcomp-prop-black-sn5,subj-theme_bound-it-sn4,and(now,right,sn6),def_prop(now,[istituzione]),def_prop(black,[astratto,oggetto,strumento]),def_prop(it,[any])])
+lf(Drown Lyrics.txt_39,811,cl68-nil-nil-say-[obj-theme_unaff-blue-sn2,subj-actor-they-sn1,and(blue,ocean-s,sn2),def_prop(blue,[animato,astratto,istituzione,oggetto,strumento]),def_prop(they,[umano])])
+lf(Drown Lyrics.txt_40,852,cl70-nil-nil-be-[xadj-adj-looking-adj4,adj-(mod)-out-nil,ncmod-locativo-crowd-sn3,ncmod-locativo-sand-sn2,ncmod-modal-dark-sn1,def_prop(looking,_832940),def_prop(crowd,[istituzione]),def_prop(sand,[sostanza]),def_prop(dark,[valutativo])])
+lf(Drown Lyrics.txt_41,893,cl71-nil-nil-drown-[subj-agent-depression-sn1,def_prop(depression,[astratto,attivita,emotivo,relat,stato])])
+lf(Drown Lyrics.txt_42,935,cl72-nil-nil-be-[adj-(mod)-now-nil,subj-theme_bound-part-sn1,and(part,full,sn1),def_prop(part,[astratto,attivita,body_part,informa,oggetto,relat,strumento,umano])])
+lf(Drown Lyrics.txt_43,978,cl74-nil-nil-start-[])
+lf(Drown Lyrics.txt_43,978,cl73-nil-nil-reveal-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Drown Lyrics.txt_44,1023,cl76-nil-shall-win-[subj-actor-you-sn4,arg_mod-agent-sky-sn2,def_prop(you,[umano]),def_prop(sky,_833476)])
+lf(Drown Lyrics.txt_44,1023,cl75-nil-nil-tell-[subj-theme_unaff-i-sn1,aux-been-nil,aux-have-nil,def_prop(i,[umano])])
+lf(Drown Lyrics.txt_45,1069,nil-nil-nil-begin-[obj-actor-sky-sn10,obj-actor-stop_and_where-[sn8,sn9],xcomp-purpose-see-2,subj-actor-me-sn7,obl-locat-me-sn3,and(me,stop,sn3),def_prop(sky,[oggetto]),def_prop(stop_and_where,[attivita,evento,luogo,oggetto,strumento,luogo]),def_prop(me,[umano]),def_prop(me,[umano])])
+lf(Drown Lyrics.txt_45,1069,cl78-nil-nil-see-[cmod-subord-begin-for,subj-experiencer-me-sn3,and(me,stop,sn3),def_prop(me,[umano])])
+lf(Drown Lyrics.txt_45,1069,cl77-nil-nil-be-[xcomp-prop-hard-sn2,subj-theme_bound-it-sn1,def_prop(hard,[valutativo]),def_prop(it,[any])])
+lf(Drown Lyrics.txt_46,1117,cl79-nil-nil-remind-[obj-paziente-me-sn2,subj-agent-strike-sn1,and(strike,random,sn1),def_prop(me,[umano]),def_prop(strike,[attivita])])
+lf(Drown Lyrics.txt_47,1164,cl81-nil-nil-black-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Drown Lyrics.txt_47,1164,cl80-nil-nil-be-[adj-(mod)-too-nil,subj-theme_bound-sky-sn6,xcomp-prop-black-sn2,subj-theme_bound-ocean-sn1,def_prop(sky,[oggetto]),def_prop(black,[estens]),def_prop(ocean,[nquant,oggetto])])

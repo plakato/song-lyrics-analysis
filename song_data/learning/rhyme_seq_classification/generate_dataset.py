@@ -28,6 +28,7 @@ def create_vocabulary(data, file):
         for value in unique:
             vocab_file.write(value + '\n')
 
+
 def print_data_statistics(data):
     # Initialization of variables.
     # Information concerning number of different rhyme classes.

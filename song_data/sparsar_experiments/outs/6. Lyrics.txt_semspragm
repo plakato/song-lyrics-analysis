@@ -1,0 +1,99 @@
+"POLARITY, DISCOURSE MARKERS"
+
+6. Lyrics.txt_1-1  []-positive  []
+6. Lyrics.txt_2-3  []-positive  []
+6. Lyrics.txt_4-11  []-positive  [ass]
+6. Lyrics.txt_5-16  []-positive  []
+6. Lyrics.txt_5-17  []-suspension  []
+6. Lyrics.txt_5-18  []-positive  []
+6. Lyrics.txt_6-24  []-negative  [neg]
+6. Lyrics.txt_7-31  []-negative  [neg,neg]
+6. Lyrics.txt_8-41  []-question  [neg,neg]
+6. Lyrics.txt_8-42  []-negative  [neg]
+6. Lyrics.txt_9-51  []-suspension  [neg,neg]
+6. Lyrics.txt_10-61  []-negative  [neg]
+6. Lyrics.txt_11-72  []-suspension  [neg,fgb,neg]
+6. Lyrics.txt_12-84  [(as)-temp_coinc]-positive  [neg]
+6. Lyrics.txt_13-98  []-negative  [neg]
+6. Lyrics.txt_13-99  []-positive  [neg]
+6. Lyrics.txt_14-113  []-positive  [fgb,neg]
+6. Lyrics.txt_15-128  []-positive  []
+6. Lyrics.txt_16-144  []-suspension  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+6. Lyrics.txt_1-1  [6]  [title]
+6. Lyrics.txt_2-3  [Lyrics,by,the,Wrens]  [provide_expl_just(Lyrics,[external,factive,narration,background,objective])]
+6. Lyrics.txt_4-11  [praise,them,great,in,open,song]  [accept_expl_opin(praise,[external,factive,narration,background,objective])]
+6. Lyrics.txt_5-16  [color,by,numbers,copy]  [provide_expl_just(wolf,[external,nonfactive,narration,background,objective]),provide_expl_just(copy,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+6. Lyrics.txt_5-17  [one_another,i,will,wolf]  [provide_expl_just(wolf,[external,nonfactive,narration,background,objective]),provide_expl_just(copy,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+6. Lyrics.txt_5-18  [you]  [provide_expl_just(wolf,[external,nonfactive,narration,background,objective]),provide_expl_just(copy,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+6. Lyrics.txt_6-24  [stupid,tiny,promise,bells]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+6. Lyrics.txt_7-31  [is,not,find,no,favor,for,stacking,for,the,tilted]  [reject_expl_just(stack,[external,factive,narration,foreground,objective]),reject_expl_just(find,[external,factive,narration,foreground,objective])]
+6. Lyrics.txt_8-41  [not,will,closing,to,close,getting,is,fairground,this,?]  [provide_expl_just(stop,[internal,factive,narration,foreground,objective]),provide_expl_just(get,[internal,factive,narration,background,objective])]
+6. Lyrics.txt_8-42  [it,stop,me]  [reject_expl_just(stop,[internal,factive,narration,foreground,objective]),reject_expl_just(get,[internal,factive,narration,background,objective])]
+6. Lyrics.txt_9-51  [rank,,,split,,,my,eyes,are,choked,with,water]  [provide_expl_just(choke-cl13,[external,factive,narration,background,objective])]
+6. Lyrics.txt_10-61  [haters,finger,point,at,lesser,skin,seeing]  [reject_expl_just(see,[external,factive,narration,foreground,objective])]
+6. Lyrics.txt_11-72  [young,rupture,lovers,with,rape,and,rank]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+6. Lyrics.txt_12-84  [it,shudders,me,to,see,the,better,thing,as,sin]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(shudder,[external,factive,narration,background,objective])]
+6. Lyrics.txt_13-98  [i,will,not,believe]  [reject_expl_just(believe,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+6. Lyrics.txt_13-99  [that,her,of,ways,of,worth,of,less,of,him]  [provide_expl_just(believe,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+6. Lyrics.txt_14-113  [done,back,for,others,what,split]  [provide_expl_just(split,[external,factive,cause,foreground,objective])]
+6. Lyrics.txt_15-128  [the,hearts,of,mothers,i,know,a,quieting]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+6. Lyrics.txt_16-144  [behind,the,corn,scratches,diseased,from,the,pities]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(6. Lyrics.txt_1-1)-[]
+2-(6. Lyrics.txt_2-3)-[]
+3-(6. Lyrics.txt_4-11)-[secondary-abstract_tought,emotions-glory,primary-concreteness]
+4-(6. Lyrics.txt_5-16)-[primary-vision,secondary-instru_behavior]
+5-(6. Lyrics.txt_5-17)-[]
+6-(6. Lyrics.txt_5-18)-[]
+7-(6. Lyrics.txt_6-24)-[secondary-social_behavior,primary-sound]
+8-(6. Lyrics.txt_7-31)-[secondary-instru_behavior,emotions-affection]
+9-(6. Lyrics.txt_8-41)-[primary-concreteness]
+half
+10-(6. Lyrics.txt_8-42)-[secondary-restraint]
+11-(6. Lyrics.txt_9-51)-[secondary-order,primary-narcissism,primary-orality,primary-water]
+12-(6. Lyrics.txt_10-61)-[emotions-aggression,primary-concreteness,primary-concreteness,primary-narcissism,primary-vision]
+13-(6. Lyrics.txt_11-72)-[primary-sex,primary-sex,secondary-order]
+14-(6. Lyrics.txt_12-84)-[emotions-anxiety,primary-vision]
+15-(6. Lyrics.txt_13-98)-[secondary-abstract_tought]
+16-(6. Lyrics.txt_13-99)-[]
+17-(6. Lyrics.txt_14-113)-[primary-concreteness]
+18-(6. Lyrics.txt_15-128)-[primary-narcissism,secondary-abstract_tought]
+19-(6. Lyrics.txt_16-144)-[primary-concreteness,primary-orality,primary-touch,emotions-affection]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(6. Lyrics.txt_1,1,cl1-nil-nil-say-[obj-theme_unaff-6-sn1,def_prop(6,[nquant])])
+lf(6. Lyrics.txt_2,3,nil-nil-nil-Lyrics-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(6. Lyrics.txt_3,6,cl3-nil-nil-shower-[ncmod-locativo-flower-sn9,obj-theme-them-sn8,ncmod-locativo-flower-sn3,subj-agent-idiot-sn1,and(idiot,rule,sn1),def_prop(flower,[plant,tempo]),def_prop(them,[umano]),def_prop(flower,[plant,tempo]),def_prop(idiot,[umano])])
+lf(6. Lyrics.txt_3,6,cl2-nil-nil-be-[xcomp-prop-idiot-sn1,and(idiot,rule,sn1),def_prop(idiot,[umano])])
+lf(6. Lyrics.txt_4,11,cl4-nil-nil-praise-[ncmod-locativo-song-sn4,xcomp-prop-great-sn3,obj-theme_unaff-them-sn2,subj-experiencer-you-sn1,and(song,open,sn4),def_prop(song,[astratto,attivita,evento,informa,oggetto]),def_prop(great,[evaluative]),def_prop(them,[umano]),def_prop(you,[umano])])
+lf(6. Lyrics.txt_5,16,cl7-nil-nil-be-[subj-theme_bound-you-sn6,def_prop(you,[umano])])
+lf(6. Lyrics.txt_5,16,cl6-nil-will-wolf-[subj-actor-i-sn4,subj-actor-i-sn3,xadj-adj-color-adj1,arg_mod-agent-number-sn2,and(i,you,sn3),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(color,_483156),def_prop(number,[astratto,attivita,informa,nquant,oggetto,strumento])])
+lf(6. Lyrics.txt_5,16,cl5-nil-nil-copy-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(6. Lyrics.txt_6,24,cl8-nil-nil-be-[ncmod-modal-promise-sn2,subj-theme_bound-you-sn1,def_prop(promise,[astratto,attivita,informa]),def_prop(you,[umano])])
+lf(6. Lyrics.txt_7,31,cl10-nil-nil-stack-[subj-prop-tilted-sn4,xcomp-purpose-stack-5,def_prop(tilted,[istituzione])])
+lf(6. Lyrics.txt_7,31,cl9-not-nil-find-[obj-theme_bound-favor-sn2,subj-actor-you-sn1,aux-(is)-nil,and(favor,no,sn2),def_prop(favor,[astratto,attivita,emotivo]),def_prop(you,[umano])])
+lf(6. Lyrics.txt_8,41,cl12-nil-nil-stop-[xcomp-prop-me-sn5,subj-agent-it-sn4,def_prop(me,[umano]),def_prop(it,[any])])
+lf(6. Lyrics.txt_8,41,cl11-not-nil-get-[xcomp-prop-close-sn2,subj-theme_bound-fairground-sn1,aux-(is)-nil,progr-getting-nil,and(fairground,this,sn1),def_prop(close,[soggettivo]),def_prop(fairground,[luogo])])
+lf(6. Lyrics.txt_9,51,cl13-nil-nil-choke-[xadj-adj-split-adj3,xadj-adj-rank-adj2,ncmod-comitativo-water-sn2,subj-goal-eye-sn1,aux-are-nil,def_prop(split,_484084),def_prop(rank,_484096),def_prop(water,[edible,oggetto,sostanza]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(6. Lyrics.txt_10,61,cl14-nil-nil-see-[iobj-locat-skin-sn2,subj-experiencer-you-sn1,and(skin,lesser,sn2),def_prop(skin,[body_part,oggetto,sostanza,stato,strumento,umano]),def_prop(you,[umano])])
+lf(6. Lyrics.txt_11,72,cl15-nil-nil-be-[xadj-adj-rank-adj4,ncmod-comitativo-rape-sn2,subj-theme_bound-lover-sn1,and(lover,rupture,sn1),and(lover,young,sn1),def_prop(rank,_484462),def_prop(rape,[attivita,plant]),def_prop(lover,[umano])])
+lf(6. Lyrics.txt_12,84,cl17-nil-nil-see-[obj-actor-thing-sn3,xcomp-purpose-see-2,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(6. Lyrics.txt_12,84,cl16-nil-nil-shudder-[obj-theme-me-sn2,subj-actor-it-sn1,def_prop(me,[umano]),def_prop(it,[any])])
+lf(6. Lyrics.txt_13,98,cl19-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(6. Lyrics.txt_13,98,cl18-not-will-believe-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(6. Lyrics.txt_14,113,cl21-nil-nil-split-[cmod-subord-be-nil,subj-agent-others-sn2,subj-agent-others-sn1,and(others,back,sn1),and(others,done,sn1),def_prop(others,[istituzione]),def_prop(others,[istituzione])])
+lf(6. Lyrics.txt_14,113,cl20-nil-nil-be-[subj-theme_bound-others-sn2,subj-theme_bound-others-sn1,and(others,back,sn1),and(others,done,sn1),def_prop(others,[istituzione]),def_prop(others,[istituzione])])
+lf(6. Lyrics.txt_15,128,cl22-nil-nil-know-[obj-theme_unaff-quiet-sn2,subj-actor-heart-sn1,def_prop(quiet,[astratto,stato]),def_prop(heart,[astratto,body_part,edible,oggetto,strumento,umano])])
+lf(6. Lyrics.txt_16,144,cl23-nil-nil-be-[xadj-adj-diseased-adj5,ncmod-modal-pity-sn3,ncmod-locativo-corn-sn2,subj-theme_bound-scratch-sn1,def_prop(diseased,_485478),def_prop(pity,[evento]),def_prop(corn,[astratto,edible,oggetto,plant,stato]),def_prop(scratch,[astratto])])

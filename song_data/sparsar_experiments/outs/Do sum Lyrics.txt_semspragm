@@ -1,0 +1,313 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Do sum Lyrics.txt_1-1  []-positive  []
+Do sum Lyrics.txt_2-3  []-positive  []
+Do sum Lyrics.txt_3-6  [if-hypoth]-positive  [fgb]
+Do sum Lyrics.txt_3-7  []-negative  [neg]
+Do sum Lyrics.txt_4-11  []-negative  [neg]
+Do sum Lyrics.txt_5-16  []-positive  [neg]
+Do sum Lyrics.txt_6-23  [if-hypoth]-positive  [fgb]
+Do sum Lyrics.txt_6-24  []-suspension  [neg]
+Do sum Lyrics.txt_7-31  []-positive  []
+Do sum Lyrics.txt_8-39  []-negative  [neg]
+Do sum Lyrics.txt_9-48  [if-hypoth]-positive  [fgb]
+Do sum Lyrics.txt_9-49  []-negative  [neg]
+Do sum Lyrics.txt_10-59  []-positive  []
+Do sum Lyrics.txt_11-70  []-negative  [neg]
+Do sum Lyrics.txt_12-82  [if-hypoth]-positive  [fgb]
+Do sum Lyrics.txt_12-83  []-negative  [neg]
+Do sum Lyrics.txt_13-96  []-positive  []
+Do sum Lyrics.txt_14-110  []-negative  [neg]
+Do sum Lyrics.txt_15-125  []-positive  []
+Do sum Lyrics.txt_16-142  []-negative  [neg,neg]
+Do sum Lyrics.txt_17-159  [if-hypoth]-positive  [fgb,neg]
+Do sum Lyrics.txt_18-179  [if-hypoth]-negative  [fgb,neg]
+Do sum Lyrics.txt_18-180  []-positive  [neg]
+Do sum Lyrics.txt_19-199  []-positive  [fhd]
+Do sum Lyrics.txt_19-200  []-positive  []
+Do sum Lyrics.txt_20-221  []-positive  [neg]
+Do sum Lyrics.txt_21-242  []-positive  []
+Do sum Lyrics.txt_21-243  []-negative  [neg,neg,neg]
+Do sum Lyrics.txt_21-244  []-positive  []
+Do sum Lyrics.txt_22-265  []-negative  []
+Do sum Lyrics.txt_23-288  []-negative  [neg]
+Do sum Lyrics.txt_24-313  []-positive  [fgb]
+Do sum Lyrics.txt_24-314  []-negative  [neg]
+Do sum Lyrics.txt_25-339  []-positive  [fgb]
+Do sum Lyrics.txt_25-340  []-negative  [neg,neg]
+Do sum Lyrics.txt_26-367  []-positive  [fgb,neg]
+Do sum Lyrics.txt_26-368  []-positive  []
+Do sum Lyrics.txt_27-395  []-positive  []
+Do sum Lyrics.txt_28-423  []-negative  [neg]
+Do sum Lyrics.txt_29-452  [if-hypoth]-positive  [fgb]
+Do sum Lyrics.txt_29-453  []-negative  [neg]
+Do sum Lyrics.txt_30-483  []-positive  []
+Do sum Lyrics.txt_31-514  []-negative  [neg]
+Do sum Lyrics.txt_32-546  [if-hypoth]-positive  [fgb]
+Do sum Lyrics.txt_32-547  []-negative  [neg]
+Do sum Lyrics.txt_33-580  []-positive  []
+Do sum Lyrics.txt_34-614  [if-hypoth]-positive  [fgb]
+Do sum Lyrics.txt_34-615  []-negative  [neg]
+Do sum Lyrics.txt_35-650  []-negative  [neg,neg,neg,neg,neg]
+Do sum Lyrics.txt_36-687  [if-hypoth]-negative  [fgb,neg]
+Do sum Lyrics.txt_36-688  []-positive  []
+Do sum Lyrics.txt_37-725  []-positive  []
+Do sum Lyrics.txt_37-726  []-suspension  []
+Do sum Lyrics.txt_38-764  []-positive  []
+Do sum Lyrics.txt_39-803  []-positive  [bkc]
+Do sum Lyrics.txt_40-843  [if-hypoth]-positive  [fgb]
+Do sum Lyrics.txt_40-844  []-positive  [neg]
+Do sum Lyrics.txt_41-885  [if-hypoth]-negative  [fgb]
+Do sum Lyrics.txt_42-927  []-suspension  [fgb,neg]
+Do sum Lyrics.txt_42-928  []-positive  [fhd]
+Do sum Lyrics.txt_42-928  []-positive  [fhd]
+Do sum Lyrics.txt_43-971  []-positive  []
+Do sum Lyrics.txt_44-1015  []-negative  [neg]
+Do sum Lyrics.txt_45-1060  [if-hypoth]-positive  [fgb]
+Do sum Lyrics.txt_45-1061  []-negative  [neg]
+Do sum Lyrics.txt_46-1107  []-positive  []
+Do sum Lyrics.txt_47-1154  []-negative  [neg]
+Do sum Lyrics.txt_48-1202  [if-hypoth]-positive  [fgb]
+Do sum Lyrics.txt_48-1203  []-negative  [neg]
+Do sum Lyrics.txt_49-1252  []-positive  []
+Do sum Lyrics.txt_50-1302  [if-hypoth]-positive  [fgb]
+Do sum Lyrics.txt_50-1303  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Do sum Lyrics.txt_1-1  [sum,do,Lyrics,by,600Breezy]  [title]
+Do sum Lyrics.txt_2-3  [Sum,do,Nigga,do,sum]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Do sum Lyrics.txt_3-6  [if,you,want]  [provide_expl_just(want,[external,factive,explanation,background,objective]),provide_expl_just(tell,[external,factive,explanation,background,objective])]
+Do sum Lyrics.txt_3-7  [war,tell,my,crew,sum]  [reject_expl_just(want,[external,factive,explanation,background,objective]),propose_opin_neg(want,[external,factive,explanation,background,objective]),reject_expl_just(tell,[external,factive,explanation,background,objective]),propose_opin_neg(tell,[external,factive,explanation,background,objective])]
+Do sum Lyrics.txt_4-11  [shake,sum,Nigga,move,sum]  [reject_expl_just(shake,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_5-16  [want,war,tell,my,crew,sum]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_6-23  [if,you,got]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(shoot,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_6-24  [guns,Nigga,shoot,sum]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(shoot,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_7-31  [sum,do,Nigga,do,sum]  [raise_issue(be,[_804758,factive,statement,_804776,subjective])]
+Do sum Lyrics.txt_8-39  [shake,sum,Nigga,move,sum]  [reject_expl_just(shake,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_9-48  [if,you,want]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_9-49  [war,tell,my,crew,sum]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(tell,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_10-59  [sum,do,Nigga,do,sum]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Do sum Lyrics.txt_11-70  [shake,sum,Nigga,move,sum]  [reject_expl_just(shake,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_12-82  [if,you,want]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_12-83  [war,tell,my,crew,sum]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(tell,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_13-96  [sum,do,Nigga,do,sum]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Do sum Lyrics.txt_14-110  [break]  reject_expl_opin(nil,[])
+Do sum Lyrics.txt_15-125  [sum,do,Nigga,do,sum,Nigga,do,sum]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Do sum Lyrics.txt_16-142  [shake,some,Nigga,shake,some,Nigga,move,sum]  [reject_expl_just(shake,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_17-159  [move,sum,if,you,want,war,tell,my,crew,sum]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(move,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_18-179  [if,you,got,guns,bitch]  [reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(shoot,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_18-180  [Nigga,better,shoot,sum]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(shoot,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_19-199  [i,had,wish,a,Nigga,act,like]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(wish,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_19-200  [they,want,to,do,sum]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(wish,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_20-221  [Gon,they,every,Nigga,round,me,shoot,sum]  [provide_expl_just(shoot,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_21-242  [we,really,got]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_21-243  [pipes,is,not,not,no,Movie]  [reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_21-244  [fronts]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_22-265  [we,dropping,sets,in,Yo,face,Nigga,move,sum]  [provide_expl_just(drop,[external,factive,cause,foreground,objective])]
+Do sum Lyrics.txt_23-288  [shake,some,Nigga,move,sum,Nigga,prove,sum]  [reject_expl_just(prove,[external,factive,narration,background,objective]),reject_expl_just(shake,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_24-313  [and,we,came]  [provide_expl_just(bruise,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_24-314  [600,Deep,finna,bruise,sum]  [reject_expl_just(bruise,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_25-339  [and,everybody,came,with,ya]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Do sum Lyrics.txt_25-340  [is,not,gone,do,nothing]  [reject_expl_just(go,[external,factive,narration,background,objective]),reject_expl_just(do,[external,factive,narration,foreground,objective])]
+Do sum Lyrics.txt_26-367  [and,we,had,send,this,bitch,up]  [provide_expl_just(send,[external,factive,narration,background,objective]),provide_expl_just(sum,[external,factive,narration,foreground,objective])]
+Do sum Lyrics.txt_26-368  [Nigga,do,sum]  [provide_expl_just(send,[external,factive,narration,background,objective]),provide_expl_just(sum,[external,factive,narration,foreground,objective])]
+Do sum Lyrics.txt_27-395  [sum,do,Nigga,do,sum]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Do sum Lyrics.txt_28-423  [shake,sum,Nigga,move,sum]  [reject_expl_just(shake,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_29-452  [if,you,want]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_29-453  [war,tell,my,crew,sum]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(tell,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_30-483  [sum,do,Nigga,do,sum]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Do sum Lyrics.txt_31-514  [shake,sum,Nigga,move,sum]  [reject_expl_just(shake,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_32-546  [if,you,want]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_32-547  [war,tell,my,crew,sum]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(tell,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_33-580  [sum,do,Nigga,do,sum]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Do sum Lyrics.txt_34-614  [if,you,want]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_34-615  [war,tell,my,crew,sum]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(tell,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_35-650  [is,not,none,bitch,it,is,not,nothing]  [reject_expl_just(bitch,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_36-687  [if,you,got,a,problem]  [reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(say,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_36-688  [Nigga,say,something]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(say,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_37-725  [better,Yo,tuck,ice,Boi]  [provide_expl_just(tuck,[external,factive,narration,background,objective]),provide_expl_just(take,[external,nonfactive,narration,background,objective])]
+Do sum Lyrics.txt_37-726  [we,will,take,some]  [provide_expl_just(tuck,[external,factive,narration,background,objective]),provide_expl_just(take,[external,nonfactive,narration,background,objective])]
+Do sum Lyrics.txt_38-764  [we,got,toasters,on,us,tryna,bake,some]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Do sum Lyrics.txt_39-803  [all,my,niggas,with,that,yeah,they,with,that]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_40-843  [if,you,got,Yo,pipe,boy]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(better,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_40-844  [you,better,grip,that]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(better,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_41-885  [if,you,riding,for,Yo,niggas,where,Yo,car,fax]  [provide_expl_just(fax,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_42-927  [and,i,will,raise]  [provide_expl_just(metal,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_42-928  [this,metal,up,like,a,car]  [provide_expl_just(metal,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_42-928  [this,metal,up,like,a,car,jack,Nigga]  [provide_expl_just(metal,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_43-971  [sum,do,Nigga,do,sum]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Do sum Lyrics.txt_44-1015  [shake,sum,Nigga,move,sum]  [reject_expl_just(shake,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_45-1060  [if,you,want]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_45-1061  [war,tell,my,crew,sum]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(tell,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_46-1107  [sum,do,Nigga,do,sum]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Do sum Lyrics.txt_47-1154  [shake,sum,Nigga,move,sum]  [reject_expl_just(shake,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_48-1202  [if,you,want]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_48-1203  [war,tell,my,crew,sum]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(tell,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_49-1252  [sum,do,Nigga,do,sum]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Do sum Lyrics.txt_50-1302  [if,you,want]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective])]
+Do sum Lyrics.txt_50-1303  [war,tell,my,crew,sum]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(tell,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Do sum Lyrics.txt_1-1)-[]
+2-(Do sum Lyrics.txt_2-3)-[]
+3-(Do sum Lyrics.txt_3-6)-[]
+4-(Do sum Lyrics.txt_3-7)-[emotions-aggression,secondary-social_behavior]
+5-(Do sum Lyrics.txt_4-11)-[primary-random_movement]
+6-(Do sum Lyrics.txt_5-16)-[emotions-aggression,secondary-social_behavior]
+7-(Do sum Lyrics.txt_6-23)-[]
+8-(Do sum Lyrics.txt_6-24)-[emotions-aggression,emotions-aggression]
+9-(Do sum Lyrics.txt_7-31)-[]
+10-(Do sum Lyrics.txt_8-39)-[primary-random_movement]
+11-(Do sum Lyrics.txt_9-48)-[]
+12-(Do sum Lyrics.txt_9-49)-[emotions-aggression,secondary-social_behavior]
+13-(Do sum Lyrics.txt_10-59)-[]
+14-(Do sum Lyrics.txt_11-70)-[primary-random_movement]
+15-(Do sum Lyrics.txt_12-82)-[]
+16-(Do sum Lyrics.txt_12-83)-[emotions-aggression,secondary-social_behavior]
+17-(Do sum Lyrics.txt_13-96)-[]
+18-(Do sum Lyrics.txt_14-110)-[emotions-aggression]
+19-(Do sum Lyrics.txt_15-125)-[]
+20-(Do sum Lyrics.txt_16-142)-[primary-random_movement,primary-random_movement]
+21-(Do sum Lyrics.txt_17-159)-[emotions-aggression,secondary-social_behavior]
+22-(Do sum Lyrics.txt_18-179)-[emotions-aggression,primary-sex]
+23-(Do sum Lyrics.txt_18-180)-[emotions-aggression]
+24-(Do sum Lyrics.txt_19-199)-[emotions-affection]
+25-(Do sum Lyrics.txt_19-200)-[]
+26-(Do sum Lyrics.txt_20-221)-[secondary-temporal_repere,primary-concreteness,emotions-aggression]
+27-(Do sum Lyrics.txt_21-242)-[secondary-abstract_tought]
+28-(Do sum Lyrics.txt_21-243)-[]
+29-(Do sum Lyrics.txt_21-244)-[primary-concreteness]
+30-(Do sum Lyrics.txt_22-265)-[primary-narcissism]
+31-(Do sum Lyrics.txt_23-288)-[primary-random_movement,secondary-abstract_tought]
+32-(Do sum Lyrics.txt_24-313)-[]
+33-(Do sum Lyrics.txt_24-314)-[]
+34-(Do sum Lyrics.txt_25-339)-[]
+35-(Do sum Lyrics.txt_25-340)-[]
+36-(Do sum Lyrics.txt_26-367)-[primary-sex]
+half
+37-(Do sum Lyrics.txt_26-368)-[]
+38-(Do sum Lyrics.txt_27-395)-[]
+39-(Do sum Lyrics.txt_28-423)-[primary-random_movement]
+40-(Do sum Lyrics.txt_29-452)-[]
+41-(Do sum Lyrics.txt_29-453)-[emotions-aggression,secondary-social_behavior]
+42-(Do sum Lyrics.txt_30-483)-[]
+43-(Do sum Lyrics.txt_31-514)-[primary-random_movement]
+44-(Do sum Lyrics.txt_32-546)-[]
+45-(Do sum Lyrics.txt_32-547)-[emotions-aggression,secondary-social_behavior]
+46-(Do sum Lyrics.txt_33-580)-[]
+47-(Do sum Lyrics.txt_34-614)-[]
+48-(Do sum Lyrics.txt_34-615)-[emotions-aggression,secondary-social_behavior]
+49-(Do sum Lyrics.txt_35-650)-[primary-sex]
+50-(Do sum Lyrics.txt_36-687)-[secondary-abstract_tought]
+51-(Do sum Lyrics.txt_36-688)-[secondary-social_behavior]
+52-(Do sum Lyrics.txt_37-725)-[primary-cold]
+53-(Do sum Lyrics.txt_37-726)-[]
+54-(Do sum Lyrics.txt_38-764)-[secondary-instru_behavior]
+55-(Do sum Lyrics.txt_39-803)-[]
+56-(Do sum Lyrics.txt_40-843)-[]
+57-(Do sum Lyrics.txt_40-844)-[]
+58-(Do sum Lyrics.txt_41-885)-[primary-voyage,primary-concreteness]
+59-(Do sum Lyrics.txt_42-927)-[]
+60-(Do sum Lyrics.txt_42-928)-[primary-hard,emotions-affection]
+61-(Do sum Lyrics.txt_42-928)-[primary-hard,emotions-affection]
+62-(Do sum Lyrics.txt_43-971)-[]
+63-(Do sum Lyrics.txt_44-1015)-[primary-random_movement]
+64-(Do sum Lyrics.txt_45-1060)-[]
+65-(Do sum Lyrics.txt_45-1061)-[emotions-aggression,secondary-social_behavior]
+66-(Do sum Lyrics.txt_46-1107)-[]
+67-(Do sum Lyrics.txt_47-1154)-[primary-random_movement]
+68-(Do sum Lyrics.txt_48-1202)-[]
+69-(Do sum Lyrics.txt_48-1203)-[emotions-aggression,secondary-social_behavior]
+70-(Do sum Lyrics.txt_49-1252)-[]
+71-(Do sum Lyrics.txt_50-1302)-[]
+72-(Do sum Lyrics.txt_50-1303)-[emotions-aggression,secondary-social_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Do sum Lyrics.txt_1,1,cl1-nil-nil-do-[iobj-scale-600Breezy-sn2,xcomp-actor-Lyrics-sn1,aux-do-nil,and(Lyrics,sum,sn1),def_prop(600Breezy,[nquant]),def_prop(Lyrics,[informa,tecno])])
+lf(Do sum Lyrics.txt_2,3,cl2-nil-nil-do-[xcomp-actor-Nigga-sn1,aux-do-nil,and(Nigga,Sum,sn1),def_prop(Nigga,[istituzione,umano])])
+lf(Do sum Lyrics.txt_3,6,cl4-nil-nil-tell-[obj2-paziente-sum-sn4,obj-theme_unaff-crow-sn3,subj-agent-war-sn2,def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(crow,[animato,astratto,evento,oggetto,strumento]),def_prop(war,[attivita,stato])])
+lf(Do sum Lyrics.txt_3,6,cl3-nil-nil-want-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_4,11,cl5-nil-nil-shake-[obj-theme-sum-sn3,obj-patient-sum-sn2,subj-agent-you-sn1,and(sum,Nigga,sn3),and(sum,move,sn3),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_5,16,cl7-nil-nil-tell-[obj-paziente-crow-sn3,xcomp-purpose-tell-2,def_prop(crow,[animato,astratto,evento,oggetto,strumento])])
+lf(Do sum Lyrics.txt_5,16,cl6-nil-nil-want-[obj-tema_unaff-war-sn2,subj-actor-you-sn1,def_prop(war,[attivita,stato]),def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_6,23,cl9-nil-nil-shoot-[obj-theme_aff-sum-sn3,subj-agent-Nigga-sn2,and(Nigga,gun,sn2),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(Nigga,[istituzione,umano])])
+lf(Do sum Lyrics.txt_6,23,cl8-nil-nil-get-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_7,31,cl10-nil-nil-do-[xcomp-actor-Nigga-sn1,aux-do-nil,and(Nigga,sum,sn1),def_prop(Nigga,[istituzione,umano])])
+lf(Do sum Lyrics.txt_8,39,cl11-nil-nil-shake-[obj-theme-sum-sn3,obj-patient-sum-sn2,subj-agent-you-sn1,and(sum,Nigga,sn3),and(sum,move,sn3),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_9,48,cl13-nil-nil-tell-[obj2-paziente-sum-sn4,obj-theme_unaff-crow-sn3,subj-agent-war-sn2,def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(crow,[animato,astratto,evento,oggetto,strumento]),def_prop(war,[attivita,stato])])
+lf(Do sum Lyrics.txt_9,48,cl12-nil-nil-want-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_10,59,cl14-nil-nil-do-[xcomp-actor-Nigga-sn1,aux-do-nil,and(Nigga,sum,sn1),def_prop(Nigga,[istituzione,umano])])
+lf(Do sum Lyrics.txt_11,70,cl15-nil-nil-shake-[obj-theme-sum-sn3,obj-patient-sum-sn2,subj-agent-you-sn1,and(sum,Nigga,sn3),and(sum,move,sn3),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_12,82,cl17-nil-nil-tell-[obj2-paziente-sum-sn4,obj-theme_unaff-crow-sn3,subj-agent-war-sn2,def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(crow,[animato,astratto,evento,oggetto,strumento]),def_prop(war,[attivita,stato])])
+lf(Do sum Lyrics.txt_12,82,cl16-nil-nil-want-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_13,96,cl18-nil-nil-do-[xcomp-actor-Nigga-sn1,aux-do-nil,and(Nigga,sum,sn1),def_prop(Nigga,[istituzione,umano])])
+lf(Do sum Lyrics.txt_14,110,cl19-nil-nil-say-[obj-theme_unaff-break-sn1,def_prop(break,[attivita,evento])])
+lf(Do sum Lyrics.txt_15,125,cl21-nil-nil-sum-[aux-do-nil])
+lf(Do sum Lyrics.txt_15,125,cl20-nil-nil-do-[xcomp-actor-Nigga-sn2,subj-theme_unaff-Nigga-sn1,aux-do-nil,and(Nigga,sum,sn2),def_prop(Nigga,[istituzione,umano]),def_prop(Nigga,[istituzione,umano])])
+lf(Do sum Lyrics.txt_16,142,cl22-nil-nil-shake-[obj-patient-Nigga-sn3,xadj-result-shake-2,obj-patient-Nigga-sn2,subj-agent-you-sn1,and(Nigga,some,sn3),and(Nigga,some,sn2),def_prop(Nigga,[istituzione,umano]),def_prop(Nigga,[istituzione,umano]),def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_17,159,cl25-nil-nil-tell-[obj-paziente-crow-sn4,xcomp-purpose-tell-5,def_prop(crow,[animato,astratto,evento,oggetto,strumento])])
+lf(Do sum Lyrics.txt_17,159,cl24-nil-nil-want-[subj-actor-you-sn18,subj-actor-you-sn17,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_17,159,cl23-nil-nil-move-[cmod-subord-want-1,obj-theme-war-sn3,obj-theme_unaff-sum-sn2,subj-theme-you-sn1,def_prop(war,[attivita,stato]),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_18,179,cl27-nil-nil-shoot-[obj-theme_aff-sum-sn5,subj-agent-better-sn4,and(better,Nigga,sn4),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(better,[astratto])])
+lf(Do sum Lyrics.txt_18,179,cl26-nil-nil-get-[obj-theme_unaff-bitch-sn2,subj-agent-you-sn1,and(bitch,gun,sn2),def_prop(bitch,[animato,stato]),def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_19,199,cl30-nil-nil-sum-[aux-do-nil,subj-theme_aff-they-sn4,def_prop(they,[umano])])
+lf(Do sum Lyrics.txt_19,199,cl29-nil-nil-want-[subj-actor-they-sn4,def_prop(they,[umano])])
+lf(Do sum Lyrics.txt_19,199,cl28-nil-nil-wish-[obj2-benef-act-sn3,obj-theme_unaff-Nigga-sn2,subj-experiencer-i-sn1,aux-had-nil,def_prop(act,[any,attivita,informa]),def_prop(Nigga,[istituzione,umano]),def_prop(i,[umano])])
+lf(Do sum Lyrics.txt_20,221,cl31-nil-nil-shoot-[obj-theme_aff-sum-sn2,subj-agent-they-sn1,and(they,me,sn1),and(they,round,sn1),and(they,every,sn1),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(they,[umano])])
+lf(Do sum Lyrics.txt_21,242,cl33-not-nil-be-[subj-theme_bound-you-sn7,xcomp-prop-movie-sn5,subj-theme_bound-pipe-sn4,and(movie,no,sn5),def_prop(you,[umano]),def_prop(movie,[attivita,informa]),def_prop(pipe,[astratto,oggetto,strumento])])
+lf(Do sum Lyrics.txt_21,242,cl32-nil-nil-get-[subj-theme_bound-we-sn1,def_prop(we,[umano])])
+lf(Do sum Lyrics.txt_22,265,cl34-nil-nil-drop-[obj2-goal-sum-sn3,obj-theme-set-sn2,subj-actor-we-sn1,and(sum,Nigga,sn3),and(sum,move,sn3),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(set,[astratto,attivita,evento,istituzione,oggetto,strumento,tempo]),def_prop(we,[umano])])
+lf(Do sum Lyrics.txt_23,288,cl36-nil-nil-prove-[obj-prop-sum-sn5,xcomp-purpose-prove-3,def_prop(sum,[astratto,nquant,oggetto,strumento])])
+lf(Do sum Lyrics.txt_23,288,cl35-nil-nil-shake-[obj-theme-Nigga-sn4,obj-theme_aff-move-sn3,obj-patient-Nigga-sn2,subj-agent-you-sn1,and(Nigga,sum,sn4),and(Nigga,some,sn2),def_prop(Nigga,[istituzione,umano]),def_prop(move,[attivita]),def_prop(Nigga,[istituzione,umano]),def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_24,313,cl38-nil-nil-bruise-[obj-patient-sum-sn3,subj-agent-finna-sn2,cmod-subord-bruise-",and(finna,600,sn2),and(finna,Deep,sn2),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(finna,[istituzione])])
+lf(Do sum Lyrics.txt_24,313,cl37-nil-nil-come-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_25,339,cl41-nil-nil-do-[cmod-subord-do-",ncmod-comitativo-ya-sn2,aux-do-nil,def_prop(ya,[legale])])
+lf(Do sum Lyrics.txt_25,339,cl40-not-nil-go-[obj-theme_aff-nothing-sn4,subj-actor-you-sn3,aux-(is)-nil,def_prop(nothing,[astratto,informa,oggetto]),def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_25,339,cl39-nil-nil-come-[subj-actor-everybody-sn1,def_prop(everybody,[umano])])
+lf(Do sum Lyrics.txt_26,367,cl43-nil-nil-sum-[subj-agent-you-sn5,cmod-subord-sum-",aux-do-nil,def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_26,367,cl42-nil-nil-send-[adj-(mod)-up-nil,obj-goal-bitch-sn2,subj-agent-we-sn1,aux-had-nil,and(bitch,this,sn2),def_prop(bitch,[animato,stato]),def_prop(we,[umano])])
+lf(Do sum Lyrics.txt_27,395,cl44-nil-nil-do-[xcomp-actor-Nigga-sn1,aux-do-nil,and(Nigga,sum,sn1),def_prop(Nigga,[istituzione,umano])])
+lf(Do sum Lyrics.txt_28,423,cl45-nil-nil-shake-[obj-theme-sum-sn3,obj-patient-sum-sn2,subj-agent-you-sn1,and(sum,Nigga,sn3),and(sum,move,sn3),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_29,452,cl47-nil-nil-tell-[obj2-paziente-sum-sn4,obj-theme_unaff-crow-sn3,subj-agent-war-sn2,def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(crow,[animato,astratto,evento,oggetto,strumento]),def_prop(war,[attivita,stato])])
+lf(Do sum Lyrics.txt_29,452,cl46-nil-nil-want-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_30,483,cl48-nil-nil-do-[xcomp-actor-Nigga-sn1,aux-do-nil,and(Nigga,sum,sn1),def_prop(Nigga,[istituzione,umano])])
+lf(Do sum Lyrics.txt_31,514,cl49-nil-nil-shake-[obj-theme-sum-sn3,obj-patient-sum-sn2,subj-agent-you-sn1,and(sum,Nigga,sn3),and(sum,move,sn3),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_32,546,cl51-nil-nil-tell-[obj2-paziente-sum-sn4,obj-theme_unaff-crow-sn3,subj-agent-war-sn2,def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(crow,[animato,astratto,evento,oggetto,strumento]),def_prop(war,[attivita,stato])])
+lf(Do sum Lyrics.txt_32,546,cl50-nil-nil-want-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_33,580,cl52-nil-nil-do-[xcomp-actor-Nigga-sn1,aux-do-nil,and(Nigga,sum,sn1),def_prop(Nigga,[istituzione,umano])])
+lf(Do sum Lyrics.txt_34,614,cl54-nil-nil-tell-[obj2-paziente-sum-sn4,obj-theme_unaff-crow-sn3,subj-agent-war-sn2,def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(crow,[animato,astratto,evento,oggetto,strumento]),def_prop(war,[attivita,stato])])
+lf(Do sum Lyrics.txt_34,614,cl53-nil-nil-want-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_35,650,cl56-nil-nil-bitch-[subj-actor-none-sn1,def_prop(none,[_849600])])
+lf(Do sum Lyrics.txt_35,650,cl55-not-nil-be-[subj-theme_bound-none-sn2,subj-prop-none-sn1,def_prop(none,[_849696]),def_prop(none,[_849714])])
+lf(Do sum Lyrics.txt_36,687,cl58-nil-nil-say-[obj-theme_unaff-something-sn4,subj-actor-Nigga-sn3,def_prop(something,[astratto,informa,oggetto]),def_prop(Nigga,[istituzione,umano])])
+lf(Do sum Lyrics.txt_36,687,cl57-nil-nil-get-[obj-theme_unaff-problem-sn2,subj-agent-you-sn1,def_prop(problem,[attivita,informa,stato]),def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_37,725,cl60-nil-will-take-[obj-theme_aff-some-sn6,subj-agent-we-sn5,def_prop(some,[umano]),def_prop(we,[umano])])
+lf(Do sum Lyrics.txt_37,725,cl59-nil-nil-tuck-[obj-theme_aff-Boi-sn3,obj-theme-ice-sn2,subj-agent-better-sn1,and(ice,Yo,sn2),def_prop(Boi,[istituzione,umano]),def_prop(ice,[astratto,edible,oggetto,sostanza,strumento]),def_prop(better,[valutativo])])
+lf(Do sum Lyrics.txt_38,764,cl61-nil-nil-get-[xadj-theme-bake-sn4,ncmod-locativo-us-sn3,obj-theme_unaff-toaster-sn2,subj-agent-we-sn1,and(bake,tryna,sn4),and(bake,bake,sn4),def_prop(bake,[istituzione]),def_prop(us,[umano]),def_prop(toaster,[oggetto,strumento,umano]),def_prop(we,[umano])])
+lf(Do sum Lyrics.txt_39,803,cl62-nil-nil-be-[ncmod-comitativo-that-sn3,ncmod-comitativo-they-sn2,subj-theme_bound-nigga-sn1,and(they,that,sn2),and(they,yeah,sn2),and(nigga,all,sn1),def_prop(that,[oggetto,umano]),def_prop(they,[umano]),def_prop(nigga,[istituzione,umano])])
+lf(Do sum Lyrics.txt_40,843,nil-nil-nil-better-[obj-theme-grip-sn8,subj-agent-you-sn7,and(grip,that,sn8),def_prop(grip,[astratto,attivita,cambia,umano]),def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_40,843,cl63-nil-nil-get-[obj-theme_unaff-boy-sn2,subj-agent-you-sn1,and(boy,Yo,sn2),and(boy,pipe,sn2),def_prop(boy,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_41,885,nil-nil-nil-fax-[cmod-subord-ride-nil,obl-locat-Yo-sn11,obj-theme-Yo-sn9,subj-agent-you-sn8,obl-locat-nigga-sn1,and(nigga,you,sn1),and(nigga,Yo,sn1),def_prop(Yo,_851178),def_prop(Yo,[umano]),def_prop(you,[umano]),def_prop(nigga,[istituzione,umano])])
+lf(Do sum Lyrics.txt_41,885,cl64-nil-nil-ride-[subj-agent-nigga-sn2,subj-agent-nigga-sn1,and(nigga,Yo,sn2),and(nigga,you,sn1),and(nigga,Yo,sn1),def_prop(nigga,[istituzione,umano]),def_prop(nigga,[istituzione,umano])])
+lf(Do sum Lyrics.txt_42,927,cl66-nil-nil-metal-[adj-(mod)-up-nil,obj-theme-car-sn6,subj-agent-this-sn5,obj-theme-car-sn3,subj-agent-this-sn2,cmod-subord-metal-",def_prop(car,[oggetto,strumento]),def_prop(this,[oggetto,umano]),def_prop(car,[oggetto,strumento]),def_prop(this,[oggetto,umano])])
+lf(Do sum Lyrics.txt_42,927,cl65-nil-will-raise-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_43,971,cl67-nil-nil-do-[xcomp-actor-Nigga-sn1,aux-do-nil,and(Nigga,sum,sn1),def_prop(Nigga,[istituzione,umano])])
+lf(Do sum Lyrics.txt_44,1015,cl68-nil-nil-shake-[obj-theme-sum-sn3,obj-patient-sum-sn2,subj-agent-you-sn1,and(sum,Nigga,sn3),and(sum,move,sn3),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_45,1060,cl70-nil-nil-tell-[obj2-paziente-sum-sn4,obj-theme_unaff-crow-sn3,subj-agent-war-sn2,def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(crow,[animato,astratto,evento,oggetto,strumento]),def_prop(war,[attivita,stato])])
+lf(Do sum Lyrics.txt_45,1060,cl69-nil-nil-want-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_46,1107,cl71-nil-nil-do-[xcomp-actor-Nigga-sn1,aux-do-nil,and(Nigga,sum,sn1),def_prop(Nigga,[istituzione,umano])])
+lf(Do sum Lyrics.txt_47,1154,cl72-nil-nil-shake-[obj-theme-sum-sn3,obj-patient-sum-sn2,subj-agent-you-sn1,and(sum,Nigga,sn3),and(sum,move,sn3),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_48,1202,cl74-nil-nil-tell-[obj2-paziente-sum-sn4,obj-theme_unaff-crow-sn3,subj-agent-war-sn2,def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(crow,[animato,astratto,evento,oggetto,strumento]),def_prop(war,[attivita,stato])])
+lf(Do sum Lyrics.txt_48,1202,cl73-nil-nil-want-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Do sum Lyrics.txt_49,1252,cl75-nil-nil-do-[xcomp-actor-Nigga-sn1,aux-do-nil,and(Nigga,sum,sn1),def_prop(Nigga,[istituzione,umano])])
+lf(Do sum Lyrics.txt_50,1302,cl77-nil-nil-tell-[obj2-paziente-sum-sn4,obj-theme_unaff-crow-sn3,subj-agent-war-sn2,def_prop(sum,[astratto,nquant,oggetto,strumento]),def_prop(crow,[animato,astratto,evento,oggetto,strumento]),def_prop(war,[attivita,stato])])
+lf(Do sum Lyrics.txt_50,1302,cl76-nil-nil-want-[subj-actor-you-sn1,def_prop(you,[umano])])

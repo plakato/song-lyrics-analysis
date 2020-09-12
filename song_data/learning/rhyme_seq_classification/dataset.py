@@ -6,7 +6,7 @@ from tensorflow.python.data import Dataset
 
 def get_dataset(dir='train', batch_size=32, padding_char='_'):
     fixed_len = 275
-    # Load data padding from left to fixed length.
+    # Load data, padding from left to fixed length.
     with open('dataset/' + dir + '/original.txt') as original:
         # Remove newline at the end.
         data_orig = original.readlines()[:-1]

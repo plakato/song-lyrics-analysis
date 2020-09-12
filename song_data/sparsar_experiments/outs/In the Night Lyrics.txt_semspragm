@@ -1,0 +1,157 @@
+"POLARITY, DISCOURSE MARKERS"
+
+In the Night Lyrics.txt_1-1  []-positive  []
+In the Night Lyrics.txt_2-3  []-negative  []
+In the Night Lyrics.txt_3-6  []-negative  []
+In the Night Lyrics.txt_4-12  []-positive  [neg]
+In the Night Lyrics.txt_5-17  []-positive  []
+In the Night Lyrics.txt_6-24  []-negative  [fgb]
+In the Night Lyrics.txt_7-31  []-positive  []
+In the Night Lyrics.txt_7-32  [but-advers]-negative  [fgb,neg]
+In the Night Lyrics.txt_8-41  []-negative  [neg]
+In the Night Lyrics.txt_9-50  []-positive  []
+In the Night Lyrics.txt_10-60  []-suspension  [neg]
+In the Night Lyrics.txt_11-72  []-positive  []
+In the Night Lyrics.txt_12-84  []-negative  [neg]
+In the Night Lyrics.txt_13-97  []-positive  []
+In the Night Lyrics.txt_13-98  []-negative  [neg,neg]
+In the Night Lyrics.txt_13-99  []-negative  [neg]
+In the Night Lyrics.txt_14-113  []-positive  []
+In the Night Lyrics.txt_14-114  [but-advers]-negative  [fgb,neg]
+In the Night Lyrics.txt_14-114  [but-advers]-negative  [fgb,neg,neg]
+In the Night Lyrics.txt_15-130  []-positive  []
+In the Night Lyrics.txt_16-146  []-positive  [neg,neg]
+In the Night Lyrics.txt_17-163  [when-temp_coinc]-negative  [neg]
+In the Night Lyrics.txt_18-181  []-negative  [neg,neg]
+In the Night Lyrics.txt_19-200  []-negative  [neg]
+In the Night Lyrics.txt_20-220  []-positive  [neg,fgb,neg]
+In the Night Lyrics.txt_21-241  []-positive  []
+In the Night Lyrics.txt_22-263  [while-temp_coinc]-positive  []
+In the Night Lyrics.txt_23-286  []-positive  []
+In the Night Lyrics.txt_24-310  []-negative  [neg]
+In the Night Lyrics.txt_25-336  [before-temp_prec]-negative  [neg]
+In the Night Lyrics.txt_26-363  []-positive  []
+In the Night Lyrics.txt_27-390  []-negative  [neg]
+In the Night Lyrics.txt_28-418  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+In the Night Lyrics.txt_1-1  [in,the,Night,Lyrics,by,voice]  [title]
+In the Night Lyrics.txt_2-3  [horses,trampling,in,my,room]  [provide_expl_just(trample,[external,factive,narration,foreground,objective])]
+In the Night Lyrics.txt_3-6  [knights,are,roaring,they,got,swords,of,steel]  [propose_opin_neg(knight,[external,factive,explanation,background,objective]),provide_expl_just(roar,[external,factive,narration,foreground,objective])]
+In the Night Lyrics.txt_4-12  [one,of,them,is,falling,down]  [provide_expl_just(fall,[external,factive,cause,foreground,objective])]
+In the Night Lyrics.txt_5-17  [the,sword,deep,in,his,chest,that,i,can,feel]  [provide_expl_just(chess,[internal,factive,narration,background,objective]),provide_expl_just(feel,[external,nonfactive,narration,foreground,objective])]
+In the Night Lyrics.txt_6-24  [i,ev-rywhere,battlefields,and,big,guns,go]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_7-31  [i,try,to,run,away]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_7-32  [from,but,i,am,too,slow]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(try,[external,factive,narration,background,objective]),reject_expl_just(run,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_8-41  [much,too,slow]  [reject_expl_just(slow,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_9-50  [spiders,coming,from,the,wall]  [raise_issue(be,[_75140,factive,statement,_75158,subjective])]
+In the Night Lyrics.txt_10-60  [crawling,in,my,bed,,,i,go,insane]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(crawl,[external,factive,narration,foreground,objective])]
+In the Night Lyrics.txt_11-72  [one,of,them,the,biggest,of,all]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_12-84  [injects,me,her,poison,into,my,vein]  [reject_expl_just(be,[_75398,_75404,_75410,_75416,_75422])]
+In the Night Lyrics.txt_13-97  [i,realize]  [provide_expl_just(realize,[external,factive,narration,background,objective]),provide_expl_just(wreck,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_13-98  [my,mind,is,wrecked]  [reject_expl_just(realize,[external,factive,narration,background,objective]),reject_expl_just(wreck,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_13-99  [the,pulse,is,beating,low]  [reject_expl_just(realize,[external,factive,narration,background,objective]),reject_expl_just(wreck,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_14-113  [i,try,to,run,away]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_14-114  [from,but,i,am,too,slow]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(try,[external,factive,narration,background,objective]),reject_expl_just(run,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_14-114  [from,but,i,am,too,slow,,,much,slow,too]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(try,[external,factive,narration,background,objective]),reject_expl_just(run,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_15-130  [in,the,night,in,my,dreams]  [provide_expl_just(dream,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_16-146  [i,see,odd,things,in,the,jungle,of,my,mind]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_17-163  [when,i,close,my,eyes]  [reject_expl_just(close,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_18-181  [mysterious,shadows,in,the,still,of,the,night]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_19-200  [illusion,of,truth]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_20-220  [can,see,the,fight,between,the,giants,from,heaven,and,hell]  [provide_expl_just(see,[external,nonfactive,narration,foreground,objective])]
+In the Night Lyrics.txt_21-241  [lay,my,body,down,to,sleep]  [provide_expl_just(sleep,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_22-263  [awake,my,fancy-s,while,i,am,dreaming]  [provide_expl_just(dream,[external,factive,narration,foreground,objective])]
+In the Night Lyrics.txt_23-286  [a,plane,is,rising,to,the,sky]  [raise_issue(be,[_88088,factive,statement,_88106,subjective])]
+In the Night Lyrics.txt_24-310  [engines,are,running,with,deafening,roar]  [reject_expl_just(run,[external,factive,cause,foreground,objective])]
+In the Night Lyrics.txt_25-336  [to,places,eyes,have,never,seen,before]  [reject_expl_just(see,[external,factive,narration,foreground,objective]),reject_expl_just(place,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_26-363  [thousands,of,light,years,far,away,from,you]  [provide_expl_just(light,[external,factive,narration,background,objective])]
+In the Night Lyrics.txt_27-390  [i,nothing,aliens,around,me,can,do]  [reject_expl_just(do,[external,nonfactive,narration,foreground,objective])]
+In the Night Lyrics.txt_28-418  [in,the,night,in,my,dreams]  [provide_expl_just(dream,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(In the Night Lyrics.txt_1-1)-[primary-sound]
+2-(In the Night Lyrics.txt_2-3)-[]
+3-(In the Night Lyrics.txt_3-6)-[emotions-aggression,primary-hard]
+4-(In the Night Lyrics.txt_4-12)-[secondary-abstract_tought]
+5-(In the Night Lyrics.txt_5-17)-[emotions-aggression,primary-depth,primary-narcissism]
+6-(In the Night Lyrics.txt_6-24)-[emotions-aggression]
+7-(In the Night Lyrics.txt_7-31)-[secondary-instru_behavior,primary-concreteness]
+8-(In the Night Lyrics.txt_7-32)-[primary-passivity]
+9-(In the Night Lyrics.txt_8-41)-[primary-passivity]
+10-(In the Night Lyrics.txt_9-50)-[primary-brink]
+11-(In the Night Lyrics.txt_10-60)-[primary-passivity,primary-counscious]
+12-(In the Night Lyrics.txt_11-72)-[secondary-abstract_tought]
+13-(In the Night Lyrics.txt_12-84)-[primary-orality,primary-narcissism]
+14-(In the Night Lyrics.txt_13-97)-[]
+15-(In the Night Lyrics.txt_13-98)-[emotions-aggression]
+16-(In the Night Lyrics.txt_13-99)-[primary-random_movement,primary-depth]
+half
+17-(In the Night Lyrics.txt_14-113)-[secondary-instru_behavior,primary-concreteness]
+18-(In the Night Lyrics.txt_14-114)-[primary-passivity]
+19-(In the Night Lyrics.txt_14-114)-[primary-passivity,primary-passivity]
+20-(In the Night Lyrics.txt_15-130)-[primary-counscious]
+21-(In the Night Lyrics.txt_16-146)-[primary-vision,primary-unknow,primary-chaos]
+22-(In the Night Lyrics.txt_17-163)-[secondary-temporal_repere,primary-concreteness,primary-narcissism]
+23-(In the Night Lyrics.txt_18-181)-[primary-diffusion]
+24-(In the Night Lyrics.txt_19-200)-[secondary-abstract_tought]
+25-(In the Night Lyrics.txt_20-220)-[primary-vision,emotions-aggression,primary-concreteness,primary-height]
+26-(In the Night Lyrics.txt_21-241)-[primary-passivity,primary-narcissism,primary-counscious]
+27-(In the Night Lyrics.txt_22-263)-[primary-counscious,secondary-temporal_repere]
+28-(In the Night Lyrics.txt_23-286)-[secondary-abstract_tought,primary-ascend,primary-height]
+29-(In the Night Lyrics.txt_24-310)-[emotions-expressive_beh]
+30-(In the Night Lyrics.txt_25-336)-[primary-concreteness,primary-narcissism,primary-vision]
+31-(In the Night Lyrics.txt_26-363)-[primary-vision,secondary-temporal_repere,primary-concreteness,primary-concreteness]
+32-(In the Night Lyrics.txt_27-390)-[]
+33-(In the Night Lyrics.txt_28-418)-[primary-counscious]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(In the Night Lyrics.txt_1,1,cl1-nil-nil-voice-[subj-agent-Lyrics-sn1,def_prop(Lyrics,[informa,tecno])])
+lf(In the Night Lyrics.txt_2,3,cl2-nil-nil-trample-[ncmod-locativo-room-sn2,subj-theme-horse-sn1,def_prop(room,[nquant,oggetto,stato,strumento]),def_prop(horse,[animato,oggetto,strumento])])
+lf(In the Night Lyrics.txt_3,6,cl5-nil-nil-get-[])
+lf(In the Night Lyrics.txt_3,6,cl4-nil-nil-roar-[aux-are-nil,progr-roaring-nil])
+lf(In the Night Lyrics.txt_3,6,cl3-nil-nil-knight-[obj-theme-sword-sn3,obj-theme-they-sn2,subj-agent-you-sn1,def_prop(sword,[oggetto,strumento]),def_prop(they,[umano]),def_prop(you,[umano])])
+lf(In the Night Lyrics.txt_4,12,cl6-nil-nil-fall-[subj-agent-one-sn1,aux-(is)-nil,progr-falling-nil,def_prop(one,[umano])])
+lf(In the Night Lyrics.txt_5,17,cl8-nil-can-feel-[xcomp-tema_emot-chess-sn2,def_prop(chess,[attivita,plant])])
+lf(In the Night Lyrics.txt_5,17,cl7-nil-nil-be-[ncmod-locativo-chess-sn2,subj-theme_bound-deep-sn1,and(deep,sword,sn1),def_prop(chess,[attivita,plant]),def_prop(deep,[oggetto,tempo])])
+lf(In the Night Lyrics.txt_6,24,cl9-nil-nil-go-[coord-agent-battlefield_and_gun-sn6,subj-agent-gun-sn5,subj-agent-battlefield-sn4,coord-agent-battlefield_and_gun-sn3,subj-agent-gun-sn2,subj-agent-battlefield-sn1,def_prop(battlefield_and_gun,[luogo,attivita,oggetto,strumento,umano]),def_prop(gun,[luogo,attivita,oggetto,strumento,umano]),def_prop(battlefield,[luogo,attivita,oggetto,strumento,umano]),def_prop(battlefield_and_gun,[luogo,attivita,oggetto,strumento,umano]),def_prop(gun,[luogo,attivita,oggetto,strumento,umano]),def_prop(battlefield,[luogo,attivita,oggetto,strumento,umano])])
+lf(In the Night Lyrics.txt_7,31,cl12-nil-nil-be-[adj-(mod)-too-nil,xcomp-prop-slow-sn4,subj-theme_bound-i-sn3,def_prop(slow,[evaluative]),def_prop(i,[umano])])
+lf(In the Night Lyrics.txt_7,31,cl11-nil-nil-run-[adj-(mod)-be-nil,subj-tema_nonaff-i-sn1,def_prop(i,[umano])])
+lf(In the Night Lyrics.txt_7,31,cl10-nil-nil-try-[adj-(mod)-away-nil,subj-actor-i-sn1,def_prop(i,[umano])])
+lf(In the Night Lyrics.txt_8,41,cl13-nil-nil-slow-[subj-agent-much-sn1,def_prop(much,[nquant])])
+lf(In the Night Lyrics.txt_9,50,cl14-nil-nil-come-[iobj-goal-wall-sn2,subj-agent-spider-sn1,def_prop(wall,[body_part,oggetto,stato,strumento,umano]),def_prop(spider,[animato,attivita,informa,oggetto,strumento])])
+lf(In the Night Lyrics.txt_10,60,cl16-nil-nil-go-[xcomp-purpose-crawl-2,subj-agent-i-sn1,def_prop(i,[umano])])
+lf(In the Night Lyrics.txt_10,60,cl15-nil-nil-crawl-[ncmod-locat-be-sn2,def_prop(be,[informa,tecno])])
+lf(In the Night Lyrics.txt_11,72,cl17-nil-nil-be-[subj-theme_bound-biggest-sn2,subj-theme_bound-biggest-sn1,and(biggest,all,sn1),and(biggest,one,sn1),def_prop(biggest,[istituzione,umano]),def_prop(biggest,[istituzione,umano])])
+lf(In the Night Lyrics.txt_12,84,cl18-nil-nil-inject-[iobj-goal-vein-sn4,obj-theme_aff-poison-sn3,obj-theme-me-sn2,subj-agent-you-sn1,def_prop(vein,[animato,attivita,body_part,informa,oggetto,plant,umano]),def_prop(poison,[astratto,sostanza]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(In the Night Lyrics.txt_13,97,cl21-nil-nil-beat-[xcomp-prop-low-sn6,subj-theme_aff-pulse-sn5,aux-(is)-nil,progr-beating-nil,def_prop(low,[astratto,stato]),def_prop(pulse,[edible,evento,oggetto,tempo])])
+lf(In the Night Lyrics.txt_13,97,cl20-nil-nil-wreck-[subj-theme_aff-mind-sn2,aux-(is)-nil,def_prop(mind,[astratto])])
+lf(In the Night Lyrics.txt_13,97,cl19-nil-nil-realize-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(In the Night Lyrics.txt_14,113,cl24-nil-nil-be-[adj-(mod)-too-nil,xcomp-prop-slow-sn10,subj-theme_bound-i-sn9,xcomp-prop-slow-sn4,subj-theme_bound-i-sn3,def_prop(too,[istituzione]),def_prop(slow,[evaluative]),def_prop(i,[umano]),def_prop(slow,[evaluative]),def_prop(i,[umano])])
+lf(In the Night Lyrics.txt_14,113,cl23-nil-nil-run-[adj-(mod)-be-nil,subj-tema_nonaff-i-sn1,def_prop(i,[umano])])
+lf(In the Night Lyrics.txt_14,113,cl22-nil-nil-try-[adj-(mod)-away-nil,subj-actor-i-sn1,def_prop(i,[umano])])
+lf(In the Night Lyrics.txt_15,130,cl25-nil-nil-dream-[adj-temporal-night-nil,ncmod-modal-my-sn2,subj-agent-you-sn1,def_prop(night,[tempo]),def_prop(my,[informa,tecno]),def_prop(you,[umano])])
+lf(In the Night Lyrics.txt_16,146,cl26-nil-nil-see-[obj-actor-thing-sn2,subj-experiencer-i-sn1,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(i,[umano])])
+lf(In the Night Lyrics.txt_17,163,cl27-nil-nil-close-[obj-goal-eye-sn3,obj-theme-when-sn2,subj-agent-i-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(when,[tempo]),def_prop(i,[umano])])
+lf(In the Night Lyrics.txt_18,181,cl28-nil-nil-be-[adj-(mod)-still-nil,ncmod-specif-night-sn2,subj-theme_bound-shadow-sn1,and(shadow,mysterious,sn1),def_prop(night,[tempo]),def_prop(shadow,[astratto,emotivo,stato,umano])])
+lf(In the Night Lyrics.txt_19,200,cl29-nil-nil-be-[ncmod-specif-truth-sn2,subj-theme_bound-you-sn1,def_prop(truth,[astratto,attivita,informa,stato]),def_prop(you,[umano])])
+lf(In the Night Lyrics.txt_20,220,cl30-nil-can-see-[ncmod-loc_origin-heaven_and_hell-[sn4,sn5],ncmod-relation-giant-sn3,obj-actor-fight-sn2,subj-experiencer-you-sn1,def_prop(heaven_and_hell,[luogo,attivita,evento,luogo]),def_prop(giant,[animato,umano]),def_prop(fight,[attivita,informa]),def_prop(you,[umano])])
+lf(In the Night Lyrics.txt_21,241,cl31-nil-nil-sleep-[subj-experiencer-body-sn1,and(body,lay,sn1),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano])])
+lf(In the Night Lyrics.txt_22,263,cl32-nil-nil-dream-[subj-agent-i-sn2,subj-agent-i-sn1,aux-am-nil,progr-dreaming-nil,and(i,while,sn1),and(i,awake,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(In the Night Lyrics.txt_23,286,cl33-nil-nil-rise-[iobj-goal-sky-sn2,subj-agent-plane-sn1,aux-(is)-nil,progr-rising-nil,def_prop(sky,[oggetto]),def_prop(plane,[astratto,oggetto,stato,strumento])])
+lf(In the Night Lyrics.txt_24,310,cl35-nil-nil-deafen-[obj-theme-roar-sn2,xcomp-purpose-deafen-2,def_prop(roar,[attivita,evento,informa])])
+lf(In the Night Lyrics.txt_24,310,cl34-nil-nil-run-[subj-theme_aff-engine-sn1,aux-are-nil,progr-running-nil,def_prop(engine,[attivita,cambia,oggetto,strumento])])
+lf(In the Night Lyrics.txt_25,336,cl37-nil-nil-see-[adj-(mod)-before-nil,subj-experiencer-eye-sn1,neg-never-nil,aux-have-nil,def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(In the Night Lyrics.txt_25,336,cl36-nil-nil-place-[subj-theme-eye-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(In the Night Lyrics.txt_26,363,cl38-nil-nil-light-[adj-locative-away-nil,adj-locative-years-nil,ncmod-loc_origin-you-sn2,subj-actor-thousand-sn1,def_prop(away,[istituzione]),def_prop(you,[umano]),def_prop(thousand,[nquant])])
+lf(In the Night Lyrics.txt_27,390,cl39-nil-can-do-[subj-theme_unaff-me-sn3,subj-theme_unaff-me-sn2,subj-theme_unaff-alien-sn1,aux-do-nil,and(alien,nothing,sn1),def_prop(me,[umano]),def_prop(me,[umano]),def_prop(alien,[astratto,relat,sociale,umano])])
+lf(In the Night Lyrics.txt_28,418,cl40-nil-nil-dream-[adj-temporal-night-nil,ncmod-modal-my-sn2,subj-agent-you-sn1,def_prop(night,[tempo]),def_prop(my,[informa,tecno]),def_prop(you,[umano])])

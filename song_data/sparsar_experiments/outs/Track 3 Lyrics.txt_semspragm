@@ -1,0 +1,46 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Track 3 Lyrics.txt_1-1  []-positive  []
+Track 3 Lyrics.txt_2-3  []-negative  [neg]
+Track 3 Lyrics.txt_2-4  []-positive  [fgb,fhd]
+Track 3 Lyrics.txt_3-7  []-positive  [neg]
+Track 3 Lyrics.txt_4-11  [before-temp_prec]-negative  [neg]
+Track 3 Lyrics.txt_5-17  []-positive  []
+Track 3 Lyrics.txt_5-18  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Track 3 Lyrics.txt_1-1  [3,track,Lyrics,by,swish]  [title]
+Track 3 Lyrics.txt_2-3  [you,fuck,around]  [reject_expl_just(fuck,[external,factive,explanation,background,objective]),propose_opin_neg(fuck,[external,factive,explanation,background,objective]),reject_expl_just(catch,[external,factive,explanation,background,objective]),propose_opin_neg(catch,[external,factive,explanation,background,objective])]
+Track 3 Lyrics.txt_2-4  [and,a,heart-attack,or,a,seizure,catch]  [provide_expl_just(fuck,[external,factive,explanation,background,objective]),provide_expl_just(catch,[external,factive,explanation,background,objective])]
+Track 3 Lyrics.txt_3-7  [you,better,back,the,fuck,up]  [propose_opin_neg(better,[external,factive,explanation,background,objective])]
+Track 3 Lyrics.txt_4-11  [before,you,get,smacked,the,fuck,up]  [reject_expl_just(smack,[external,factive,cause,foreground,objective])]
+Track 3 Lyrics.txt_5-17  [this,is,how]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Track 3 Lyrics.txt_5-18  [we,do_it,on,our,side]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Track 3 Lyrics.txt_1-1)-[primary-sound]
+2-(Track 3 Lyrics.txt_2-3)-[primary-sex]
+3-(Track 3 Lyrics.txt_2-4)-[secondary-restraint]
+half
+4-(Track 3 Lyrics.txt_3-7)-[primary-concreteness,primary-sex]
+5-(Track 3 Lyrics.txt_4-11)-[primary-sex]
+6-(Track 3 Lyrics.txt_5-17)-[]
+7-(Track 3 Lyrics.txt_5-18)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Track 3 Lyrics.txt_1,1,cl1-nil-nil-be-[subj-theme_bound-Lyrics-sn1,and(Lyrics,3,sn1),def_prop(Lyrics,[informa,tecno])])
+lf(Track 3 Lyrics.txt_2,3,cl3-nil-nil-catch-[cmod-subord-catch-",subj-agent-seizure-sn4,subj-agent-seizure-sn3,and(seizure,you,sn3),def_prop(seizure,[attivita,stato]),def_prop(seizure,[attivita,stato])])
+lf(Track 3 Lyrics.txt_2,3,cl2-nil-nil-fuck-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Track 3 Lyrics.txt_3,7,nil-nil-nil-better-[obj-theme-fuck-sn2,subj-agent-you-sn1,def_prop(fuck,[attivita]),def_prop(you,[umano])])
+lf(Track 3 Lyrics.txt_4,11,cl5-nil-nil-smack-[obj-theme-fuck-sn2,xadj-result-smack-2,def_prop(fuck,[attivita])])
+lf(Track 3 Lyrics.txt_4,11,cl4-nil-nil-get-[adj-(mod)-up-nil,adj-(mod)-before-nil,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Track 3 Lyrics.txt_5,17,cl6-nil-nil-be-[xcomp-prop-do_it-sn3,subj-theme_bound-we-sn2,subj-theme_bound-this-sn1,def_prop(do_it,[attivita,informa]),def_prop(we,[umano]),def_prop(this,[oggetto,umano])])

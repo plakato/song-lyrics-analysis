@@ -1,0 +1,66 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Nobody wants to lose over here Lyrics.txt_1-1  []-negative  [neg,neg]
+Nobody wants to lose over here Lyrics.txt_2-4  []-positive  [fhd,neg]
+Nobody wants to lose over here Lyrics.txt_2-5  []-suspension  [neg,neg]
+Nobody wants to lose over here Lyrics.txt_3-9  [if-hypoth]-positive  [fgb,fgb]
+Nobody wants to lose over here Lyrics.txt_4-15  [but-advers]-suspension  [neg,fgb,neg,neg]
+Nobody wants to lose over here Lyrics.txt_5-23  []-negative  [neg]
+Nobody wants to lose over here Lyrics.txt_5-24  []-positive  []
+Nobody wants to lose over here Lyrics.txt_6-30  []-positive  []
+Nobody wants to lose over here Lyrics.txt_6-31  []-negative  [neg,neg]
+Nobody wants to lose over here Lyrics.txt_6-32  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Nobody wants to lose over here Lyrics.txt_1-1  [nobody,wants,to,lose,over_here,Lyrics,by,Zoomboom]  [title]
+Nobody wants to lose over here Lyrics.txt_2-4  [its,heaven,or,hell,shots,been,fired,niggas,dont]  [provide_expl_just(fire,[external,factive,cause,foreground,objective]),provide_expl_just(wanna,[external,factive,narration,background,objective])]
+Nobody wants to lose over here Lyrics.txt_2-5  [wanna,die,its,dark,time,for]  [provide_expl_just(fire,[external,factive,cause,foreground,objective]),provide_expl_just(wanna,[external,factive,narration,background,objective])]
+Nobody wants to lose over here Lyrics.txt_3-9  [us,its,time,for,us,to,shine,if,i,talk,20,shots,to,my,brain,and,hands,dont,see]  [proposal(be,[_403132,_403138,statement,foreground,_403156])]
+Nobody wants to lose over here Lyrics.txt_4-15  [nothing,happening,we,just,trying,to,live,but,nobody,wants,to,die,we,use,to,pop]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(die,[external,factive,narration,background,objective])]
+Nobody wants to lose over here Lyrics.txt_5-23  [alot,of,shit,weapons,are,the,animals,out,here]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(play,[external,factive,narration,background,objective])]
+Nobody wants to lose over here Lyrics.txt_5-24  [you,play,sweet,over_here,niggas]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(play,[external,factive,narration,background,objective])]
+Nobody wants to lose over here Lyrics.txt_6-30  [get,popped,quick]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(lose,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Nobody wants to lose over here Lyrics.txt_6-31  [nobody,wants,to,lose]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(lose,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Nobody wants to lose over here Lyrics.txt_6-32  [we,just,trying,to,live,over_here]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(lose,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Nobody wants to lose over here Lyrics.txt_1-1)-[]
+2-(Nobody wants to lose over here Lyrics.txt_2-4)-[primary-height,emotions-aggression,primary-fire]
+3-(Nobody wants to lose over here Lyrics.txt_2-5)-[primary-passivity,secondary-temporal_repere]
+4-(Nobody wants to lose over here Lyrics.txt_3-9)-[secondary-temporal_repere,primary-vision,secondary-social_behavior,emotions-aggression,primary-narcissism,primary-narcissism,primary-vision]
+5-(Nobody wants to lose over here Lyrics.txt_4-15)-[secondary-instru_behavior,primary-passivity,secondary-instru_behavior]
+half
+6-(Nobody wants to lose over here Lyrics.txt_5-23)-[primary-anality,emotions-aggression,primary-concreteness,primary-concreteness]
+7-(Nobody wants to lose over here Lyrics.txt_5-24)-[emotions-expressive_beh,primary-taste]
+8-(Nobody wants to lose over here Lyrics.txt_6-30)-[secondary-temporal_repere]
+9-(Nobody wants to lose over here Lyrics.txt_6-31)-[]
+10-(Nobody wants to lose over here Lyrics.txt_6-32)-[secondary-instru_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Nobody wants to lose over here Lyrics.txt_1,1,cl2-nil-nil-lose-[arg_mod-agent-Zoomboom-sn3,obj-actor-Lyrics-sn2,xcomp-purpose-lose-2,def_prop(Zoomboom,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Nobody wants to lose over here Lyrics.txt_1,1,cl1-nil-nil-want-[adj-(mod)-over_here-nil,subj-actor-nobody-sn1,def_prop(nobody,[umano])])
+lf(Nobody wants to lose over here Lyrics.txt_2,4,cl4-nil-nil-die-[])
+lf(Nobody wants to lose over here Lyrics.txt_2,4,nil-nil-nil-wanna-[adj-temporal-time-nil,obj-theme_aff-dark-sn8,subj-agent-you-sn7,def_prop(dark,[astratto,stato]),def_prop(you,[umano])])
+lf(Nobody wants to lose over here Lyrics.txt_2,4,cl3-nil-nil-fire-[obj-theme_aff-dont-sn2,subj-agent-shot-sn1,and(dont,nigga,sn2),def_prop(dont,[istituzione]),def_prop(shot,[attivita,informa,oggetto,stato,strumento,umano])])
+lf(Nobody wants to lose over here Lyrics.txt_3,9,cl7-nil-nil-see-[subj-experiencer-dont-sn2,subj-experiencer-dont-sn1,and(dont,us,sn1),def_prop(dont,[istituzione]),def_prop(dont,[istituzione])])
+lf(Nobody wants to lose over here Lyrics.txt_3,9,cl6-nil-nil-talk-[cmod-subord-see-if,iobj-goal-brain_and_hand-[sn10,sn11],obj-theme_aff-shot-sn9,subj-actor-i-sn8,and(shot,20,sn9),def_prop(brain_and_hand,[astratto,body_part,edible,oggetto,umano,animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(shot,[attivita,informa,oggetto,stato,strumento,umano]),def_prop(i,[umano])])
+lf(Nobody wants to lose over here Lyrics.txt_3,9,cl5-nil-nil-shine-[cmod-subord-see-for,subj-theme-us-sn15,subj-theme-us-sn14,and(us,dont,sn14),def_prop(us,[umano]),def_prop(us,[umano])])
+lf(Nobody wants to lose over here Lyrics.txt_4,15,cl11-nil-nil-pop-[obj-theme-we-sn5,iobj-goal-live-sn4,obj-theme-trying-sn3,obj-patient-happening-sn2,subj-agent-we-sn1,and(happening,nothing,sn2),def_prop(we,[umano]),def_prop(live,[evaluative]),def_prop(trying,[istituzione]),def_prop(happening,[evento]),def_prop(we,[umano])])
+lf(Nobody wants to lose over here Lyrics.txt_4,15,cl10-nil-nil-use-[])
+lf(Nobody wants to lose over here Lyrics.txt_4,15,cl9-nil-nil-die-[])
+lf(Nobody wants to lose over here Lyrics.txt_4,15,cl8-nil-nil-want-[cmod-subord-pop-but,subj-actor-nobody-sn7,def_prop(nobody,[umano])])
+lf(Nobody wants to lose over here Lyrics.txt_5,23,cl13-nil-nil-play-[adj-(mod)-nigga-nil,xcomp-prop-sweet-sn8,subj-agent-you-sn7,and(nigga,over_here,sn9),def_prop(nigga,[istituzione,umano]),def_prop(sweet,[astratto,edible,oggetto]),def_prop(you,[umano])])
+lf(Nobody wants to lose over here Lyrics.txt_5,23,cl12-nil-nil-be-[adj-(mod)-here-nil,xcomp-prop-animal-sn2,subj-theme_bound-alot-sn1,def_prop(here,[istituzione]),def_prop(animal,[any]),def_prop(alot,[istituzione])])
+lf(Nobody wants to lose over here Lyrics.txt_6,30,cl17-nil-nil-be-[ncmod-locativo-over_here-sn6,xcomp-prop-trying-sn5,subj-theme_bound-we-sn4,and(over_here,live,sn6),def_prop(over_here,[istituzione]),def_prop(trying,[istituzione]),def_prop(we,[umano])])
+lf(Nobody wants to lose over here Lyrics.txt_6,30,cl16-nil-nil-lose-[subj-actor-nobody-sn3,def_prop(nobody,[umano])])
+lf(Nobody wants to lose over here Lyrics.txt_6,30,cl15-nil-nil-want-[subj-actor-nobody-sn3,def_prop(nobody,[umano])])
+lf(Nobody wants to lose over here Lyrics.txt_6,30,cl14-nil-nil-pop-[obj-patient-quick-sn2,subj-agent-get-sn1,def_prop(quick,[body_part,umano]),def_prop(get,[informa,tecno])])

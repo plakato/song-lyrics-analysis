@@ -1,0 +1,30 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Heads Or Tails Lyrics.txt_1-1  []-positive  [fhd]
+Heads Or Tails Lyrics.txt_2-3  []-negative  [fgb,neg]
+Heads Or Tails Lyrics.txt_2-4  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Heads Or Tails Lyrics.txt_1-1  [heads,or,Tails,Lyrics,by,Unorthodocks]  [title]
+Heads Or Tails Lyrics.txt_2-3  [i,hang,with,wifey,and,chronic,growers]  [reject_expl_just(hang,[external,factive,explanation,background,objective]),propose_opin_neg(hang,[external,factive,explanation,background,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Heads Or Tails Lyrics.txt_2-4  [,,sonic,harvesters,hardest,demonic,,,atomic,artist,flowers]  [reject_expl_just(hang,[external,factive,explanation,background,objective]),propose_opin_neg(hang,[external,factive,explanation,background,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Heads Or Tails Lyrics.txt_1-1)-[primary-narcissism]
+half
+2-(Heads Or Tails Lyrics.txt_2-3)-[primary-ascend]
+3-(Heads Or Tails Lyrics.txt_2-4)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Heads Or Tails Lyrics.txt_1,1,cl1-nil-nil-be-[adj-(mod)-Tail-nil,arg_mod-agent-Unorthodocks-sn3,subj-theme_bound-Lyrics-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,head,sn1),def_prop(Unorthodocks,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(Lyrics,[informa,tecno])])
+lf(Heads Or Tails Lyrics.txt_2,3,cl3-nil-nil-be-[xcomp-theme-flower-sn13,xcomp-theme-hardest-sn12,subj-theme_bound-harvester-sn11,and(flower,artist,sn13),and(flower,atomic,sn13),and(harvester,sonic,sn11),def_prop(flower,[plant,tempo]),def_prop(hardest,[evaluative]),def_prop(harvester,[oggetto,strumento,umano])])
+lf(Heads Or Tails Lyrics.txt_2,3,cl2-nil-nil-hang-[xadj-adj-demonic-adj1,ncmod-comitativo-grower_and_wifey-sn3,subj-agent-i-sn1,def_prop(demonic,_20042),def_prop(grower_and_wifey,[relat,sociale,umano]),def_prop(i,[umano])])

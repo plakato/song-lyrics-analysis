@@ -1,0 +1,63 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Get Up 2 The Track (666 Is Back) Lyrics.txt_1-1  []-positive  []
+Get Up 2 The Track (666 Is Back) Lyrics.txt_2-3  []-positive  []
+Get Up 2 The Track (666 Is Back) Lyrics.txt_3-6  []-negative  [neg]
+Get Up 2 The Track (666 Is Back) Lyrics.txt_4-10  []-positive  []
+Get Up 2 The Track (666 Is Back) Lyrics.txt_5-15  []-positive  []
+Get Up 2 The Track (666 Is Back) Lyrics.txt_6-21  []-positive  []
+Get Up 2 The Track (666 Is Back) Lyrics.txt_7-28  []-negative  [neg]
+Get Up 2 The Track (666 Is Back) Lyrics.txt_8-36  []-positive  []
+Get Up 2 The Track (666 Is Back) Lyrics.txt_9-45  []-suspension  [neg]
+Get Up 2 The Track (666 Is Back) Lyrics.txt_10-56  []-negative  [neg]
+Get Up 2 The Track (666 Is Back) Lyrics.txt_11-67  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Get Up 2 The Track (666 Is Back) Lyrics.txt_1-1  [get,2,the,track,up,666,Is,back,Lyrics,by,666]  [title]
+Get Up 2 The Track (666 Is Back) Lyrics.txt_2-3  [spoken]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Get Up 2 The Track (666 Is Back) Lyrics.txt_3-6  [get,down,,,get,down,get,down,to,the,jam]  [reject_expl_just(get,[external,factive,narration,background,objective])]
+Get Up 2 The Track (666 Is Back) Lyrics.txt_4-10  [track,the,up_to,get,!]  [provide_expl_just(get,[internal,factive,narration,foreground,objective])]
+Get Up 2 The Track (666 Is Back) Lyrics.txt_5-15  [rap,part]  [provide_expl_just(rap,[external,factive,narration,background,objective])]
+Get Up 2 The Track (666 Is Back) Lyrics.txt_6-21  [back,once_again,,,back,in,full,effect]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Get Up 2 The Track (666 Is Back) Lyrics.txt_7-28  [get,down,to,the,jam,-,get,up_to,the,track]  [reject_expl_just(get,[external,factive,narration,background,objective])]
+Get Up 2 The Track (666 Is Back) Lyrics.txt_8-36  [back,once_again,,,back,in,full,effect]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Get Up 2 The Track (666 Is Back) Lyrics.txt_9-45  [back,is,666,brakes,da,on,jam,!]  [provide_expl_just(jam,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Get Up 2 The Track (666 Is Back) Lyrics.txt_10-56  [get,down,to,the,jam]  [reject_expl_just(get,[external,factive,narration,background,objective])]
+Get Up 2 The Track (666 Is Back) Lyrics.txt_11-67  [track,the,up_to,get,!]  [provide_expl_just(get,[internal,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Get Up 2 The Track (666 Is Back) Lyrics.txt_1-1)-[primary-concreteness]
+2-(Get Up 2 The Track (666 Is Back) Lyrics.txt_2-3)-[secondary-social_behavior]
+3-(Get Up 2 The Track (666 Is Back) Lyrics.txt_3-6)-[]
+4-(Get Up 2 The Track (666 Is Back) Lyrics.txt_4-10)-[]
+5-(Get Up 2 The Track (666 Is Back) Lyrics.txt_5-15)-[]
+half
+6-(Get Up 2 The Track (666 Is Back) Lyrics.txt_6-21)-[primary-concreteness,primary-concreteness,secondary-abstract_tought]
+7-(Get Up 2 The Track (666 Is Back) Lyrics.txt_7-28)-[]
+8-(Get Up 2 The Track (666 Is Back) Lyrics.txt_8-36)-[primary-concreteness,primary-concreteness,secondary-abstract_tought]
+9-(Get Up 2 The Track (666 Is Back) Lyrics.txt_9-45)-[primary-concreteness]
+10-(Get Up 2 The Track (666 Is Back) Lyrics.txt_10-56)-[]
+11-(Get Up 2 The Track (666 Is Back) Lyrics.txt_11-67)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Get Up 2 The Track (666 Is Back) Lyrics.txt_1,1,cl1-nil-nil-get-[adj-(mod)-up-nil,iobj-scale-666-sn4,obj-prop-Lyrics-sn3,obj-theme_unaff-track-sn2,subj-agent-666-sn1,and(Lyrics,Is,sn3),and(Lyrics,back,sn3),and(track,2,sn2),def_prop(666,[nquant]),def_prop(Lyrics,[informa,tecno]),def_prop(track,[attivita,oggetto,strumento]),def_prop(666,[nquant])])
+lf(Get Up 2 The Track (666 Is Back) Lyrics.txt_2,3,cl2-nil-nil-say-[])
+lf(Get Up 2 The Track (666 Is Back) Lyrics.txt_3,6,cl3-nil-nil-get-[iobj-paziente-jam-sn15,adj-(mod)-down-nil,iobj-paziente-jam-sn12,subj-agent-you-sn11,iobj-paziente-jam-sn8,subj-agent-you-sn7,iobj-paziente-jam-sn4,subj-theme_bound-you-sn3,xcomp-prop-down-sn2,subj-theme_bound-you-sn1,def_prop(jam,[edible,oggetto]),def_prop(down,[istituzione]),def_prop(jam,[edible,oggetto]),def_prop(you,[umano]),def_prop(jam,[edible,oggetto]),def_prop(you,[umano]),def_prop(jam,[edible,oggetto]),def_prop(you,[umano]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Get Up 2 The Track (666 Is Back) Lyrics.txt_4,10,cl4-nil-nil-get-[ncmod-loc_direct-track-sn2,subj-agent-you-sn1,def_prop(track,[attivita,oggetto,strumento]),def_prop(you,[umano])])
+lf(Get Up 2 The Track (666 Is Back) Lyrics.txt_5,15,cl5-nil-nil-rap-[adj-subj_disc-part-sn2,subj-actor-you-sn1,def_prop(part,[nquant,oggetto]),def_prop(you,[umano])])
+lf(Get Up 2 The Track (666 Is Back) Lyrics.txt_6,21,cl6-nil-nil-be-[adj-(mod)-back-nil,adj-(mod)-once_again-nil,ncmod-locativo-effect-sn1,and(once_again,back,sn2),and(effect,full,sn1),def_prop(back,_30402),def_prop(once_again,[istituzione]),def_prop(effect,[astratto,attivita,informa,stato])])
+lf(Get Up 2 The Track (666 Is Back) Lyrics.txt_7,28,cl7-nil-nil-get-[ncmod-loc_direct-track-sn6,ncmod-loc_direct-track-sn5,subj-agent-you-sn4,iobj-paziente-jam-sn3,xcomp-prop-down-sn2,subj-theme_bound-you-sn1,def_prop(track,[attivita,oggetto,strumento]),def_prop(track,[attivita,oggetto,strumento]),def_prop(you,[umano]),def_prop(jam,[edible,oggetto]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Get Up 2 The Track (666 Is Back) Lyrics.txt_8,36,cl8-nil-nil-be-[adj-(mod)-back-nil,adj-(mod)-once_again-nil,ncmod-locativo-effect-sn1,and(once_again,back,sn2),and(effect,full,sn1),def_prop(back,_30904),def_prop(once_again,[istituzione]),def_prop(effect,[astratto,attivita,informa,stato])])
+lf(Get Up 2 The Track (666 Is Back) Lyrics.txt_9,45,cl10-nil-nil-be-[])
+lf(Get Up 2 The Track (666 Is Back) Lyrics.txt_9,45,cl9-nil-nil-jam-[obj-prop-back-sn3,xcomp-purpose-be-2,iobj-goal-brake-sn2,subj-actor-666-sn1,and(brake,da,sn2),def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(brake,[oggetto,plant,strumento]),def_prop(666,[nquant])])
+lf(Get Up 2 The Track (666 Is Back) Lyrics.txt_10,56,cl11-nil-nil-get-[iobj-paziente-jam-sn3,xcomp-prop-down-sn2,subj-theme_bound-you-sn1,def_prop(jam,[edible,oggetto]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Get Up 2 The Track (666 Is Back) Lyrics.txt_11,67,cl12-nil-nil-get-[ncmod-loc_direct-track-sn2,subj-agent-you-sn1,def_prop(track,[attivita,oggetto,strumento]),def_prop(you,[umano])])

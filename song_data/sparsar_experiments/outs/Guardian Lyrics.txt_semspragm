@@ -1,0 +1,245 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Guardian Lyrics.txt_1-1  []-positive  []
+Guardian Lyrics.txt_2-3  []-positive  []
+Guardian Lyrics.txt_3-6  []-negative  [neg,neg]
+Guardian Lyrics.txt_3-7  []-positive  []
+Guardian Lyrics.txt_4-11  []-positive  []
+Guardian Lyrics.txt_5-16  []-positive  []
+Guardian Lyrics.txt_6-22  []-positive  []
+Guardian Lyrics.txt_7-29  [when-temp_coinc]-question  []
+Guardian Lyrics.txt_7-30  []-positive  []
+Guardian Lyrics.txt_8-38  []-positive  []
+Guardian Lyrics.txt_9-47  []-positive  []
+Guardian Lyrics.txt_10-57  []-positive  []
+Guardian Lyrics.txt_11-68  []-positive  []
+Guardian Lyrics.txt_12-80  []-negative  [neg]
+Guardian Lyrics.txt_13-93  []-negative  [neg,neg]
+Guardian Lyrics.txt_14-107  []-negative  [neg]
+Guardian Lyrics.txt_15-123  []-positive  []
+Guardian Lyrics.txt_16-140  []-negative  [neg]
+Guardian Lyrics.txt_17-157  []-suspension  [neg,neg]
+Guardian Lyrics.txt_18-175  []-positive  []
+Guardian Lyrics.txt_19-194  []-positive  []
+Guardian Lyrics.txt_20-214  []-negative  [neg]
+Guardian Lyrics.txt_21-235  []-suspension  [neg,neg]
+Guardian Lyrics.txt_22-257  []-positive  []
+Guardian Lyrics.txt_23-280  []-negative  [neg]
+Guardian Lyrics.txt_24-304  []-positive  []
+Guardian Lyrics.txt_25-329  []-negative  [fhd,neg]
+Guardian Lyrics.txt_26-356  []-positive  [fgb]
+Guardian Lyrics.txt_27-383  []-positive  []
+Guardian Lyrics.txt_28-411  []-negative  [neg]
+Guardian Lyrics.txt_29-440  []-suspension  [neg,neg]
+Guardian Lyrics.txt_30-470  []-positive  []
+Guardian Lyrics.txt_31-501  []-positive  []
+Guardian Lyrics.txt_32-533  []-negative  [neg]
+Guardian Lyrics.txt_33-566  []-suspension  [neg,neg]
+Guardian Lyrics.txt_34-600  []-positive  []
+Guardian Lyrics.txt_35-635  []-negative  []
+Guardian Lyrics.txt_36-671  []-negative  [neg]
+Guardian Lyrics.txt_37-708  [so-result]-negative  [fgb,neg]
+Guardian Lyrics.txt_38-746  []-question  [fgb]
+Guardian Lyrics.txt_39-785  []-positive  []
+Guardian Lyrics.txt_40-825  []-positive  []
+Guardian Lyrics.txt_41-866  []-negative  []
+Guardian Lyrics.txt_42-908  []-positive  []
+Guardian Lyrics.txt_43-951  []-positive  []
+Guardian Lyrics.txt_44-995  []-negative  [neg]
+Guardian Lyrics.txt_45-1040  []-suspension  [neg,neg]
+Guardian Lyrics.txt_46-1086  []-positive  []
+Guardian Lyrics.txt_47-1133  []-positive  []
+Guardian Lyrics.txt_48-1181  []-positive  []
+Guardian Lyrics.txt_49-1230  []-positive  [neg]
+Guardian Lyrics.txt_50-1280  []-positive  []
+Guardian Lyrics.txt_51-1331  []-positive  []
+Guardian Lyrics.txt_52-1383  []-positive  []
+Guardian Lyrics.txt_53-1436  []-positive  [neg]
+Guardian Lyrics.txt_54-1490  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Guardian Lyrics.txt_1-1  [guardian,Lyrics,by,Queensrÿche]  [title]
+Guardian Lyrics.txt_2-3  [man,down]  [provide_expl_just(man,[external,factive,explanation,background,objective])]
+Guardian Lyrics.txt_3-6  [into,the,darkness,they,hunt]  [reject_expl_just(hunt,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_3-7  [you]  [provide_expl_just(hunt,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_4-11  [tracking,blood,upon,the,streets]  [provide_expl_just(track,[external,factive,narration,foreground,objective])]
+Guardian Lyrics.txt_5-16  [security,is,breached]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_6-22  [political,Elite]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Guardian Lyrics.txt_7-29  [when,savior,the,is,who,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(know,[internal,factive,narration,foreground,objective])]
+Guardian Lyrics.txt_7-30  [the,martyr,knows,your,name]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(know,[internal,factive,narration,foreground,objective])]
+Guardian Lyrics.txt_8-38  [guardian]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Guardian Lyrics.txt_9-47  [pixels,of,light]  [provide_expl_just(light,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_10-57  [infrared,from,the,sights]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_11-68  [that,shed,upon,you]  [provide_expl_just(shed,[external,factive,narration,foreground,objective])]
+Guardian Lyrics.txt_12-80  [facing,the,enemy]  [reject_expl_just(be,[_92820,_92826,_92832,_92838,_92844])]
+Guardian Lyrics.txt_13-93  [fascist,supremacy]  reject_expl_opin(nil,[])
+Guardian Lyrics.txt_14-107  [fight,to,live,another_day]  [reject_expl_just(live,[external,factive,narration,background,objective]),reject_expl_just(fight,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_15-123  [it,time,is,to,rise,up]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_16-140  [united,,,we,stand]  [reject_expl_just(stand,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_17-157  [divided,,,we,fall]  [provide_expl_just(fall,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_18-175  [evolution,calling]  [provide_expl_just(call,[external,factive,narration,foreground,objective])]
+Guardian Lyrics.txt_19-194  [rise,up]  [raise_issue(be,[_95364,factive,statement,_95382,subjective])]
+Guardian Lyrics.txt_20-214  [united,,,we,stand]  [reject_expl_just(stand,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_21-235  [divided,,,we,fall]  [provide_expl_just(fall,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_22-257  [evolution,calling]  [provide_expl_just(call,[external,factive,narration,foreground,objective])]
+Guardian Lyrics.txt_23-280  [insurrection]  reject_expl_opin(nil,[])
+Guardian Lyrics.txt_24-304  [we,this_time,are,playing,for_keeps]  [provide_expl_just(play,[external,factive,cause,foreground,objective])]
+Guardian Lyrics.txt_25-329  [arming,police,like,the,military,,,it,is,obscene]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(arm,[external,factive,narration,foreground,objective])]
+Guardian Lyrics.txt_26-356  [and,they,are,stalking,the,streets]  [provide_expl_just(stalk,[external,factive,narration,foreground,objective])]
+Guardian Lyrics.txt_27-383  [rise,up]  [raise_issue(be,[_98084,factive,statement,_98102,subjective])]
+Guardian Lyrics.txt_28-411  [united,,,we,stand]  [reject_expl_just(stand,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_29-440  [divided,,,we,fall]  [provide_expl_just(fall,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_30-470  [evolution,calling]  [provide_expl_just(call,[external,factive,narration,foreground,objective])]
+Guardian Lyrics.txt_31-501  [rise,up]  [raise_issue(be,[_99456,factive,statement,_99474,subjective])]
+Guardian Lyrics.txt_32-533  [united,,,we,stand]  [reject_expl_just(stand,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_33-566  [divided,,,we,fall]  [provide_expl_just(fall,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_34-600  [evolution,calling]  [provide_expl_just(call,[external,factive,narration,foreground,objective])]
+Guardian Lyrics.txt_35-635  [torn,inside]  reject_expl_opin(nil,[])
+Guardian Lyrics.txt_36-671  [we,have,fallen,to,another,world]  [reject_expl_just(fall,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_37-708  [are,we,so,cold]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_38-746  [love,out_of,and,?]  [provide_expl_just(love,[internal,factive,narration,foreground,objective])]
+Guardian Lyrics.txt_39-785  [keep,on,trying]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_40-825  [the,child,hold]  [provide_expl_just(hold,[external,factive,narration,foreground,objective])]
+Guardian Lyrics.txt_41-866  [face,is,crying]  [proposal(be,[_102738,_102744,statement,foreground,_102762])]
+Guardian Lyrics.txt_42-908  [changing,times]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Guardian Lyrics.txt_43-951  [rise,up]  [raise_issue(be,[_103424,factive,statement,_103442,subjective])]
+Guardian Lyrics.txt_44-995  [united,,,we,stand]  [reject_expl_just(stand,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_45-1040  [divided,,,we,fall]  [provide_expl_just(fall,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_46-1086  [evolution,calling]  [provide_expl_just(call,[external,factive,narration,foreground,objective])]
+Guardian Lyrics.txt_47-1133  [rise,up]  [raise_issue(be,[_104796,factive,statement,_104814,subjective])]
+Guardian Lyrics.txt_48-1181  [we,stand]  [provide_expl_just(stand,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_49-1230  [we,fall]  [provide_expl_just(fall,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_50-1280  [evolution,calling]  [provide_expl_just(call,[external,factive,narration,foreground,objective])]
+Guardian Lyrics.txt_51-1331  [rise,up]  [raise_issue(be,[_106270,factive,statement,_106288,subjective])]
+Guardian Lyrics.txt_52-1383  [we,stand]  [provide_expl_just(stand,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_53-1436  [we,fall]  [provide_expl_just(fall,[external,factive,narration,background,objective])]
+Guardian Lyrics.txt_54-1490  [evolution,calling]  [provide_expl_just(call,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Guardian Lyrics.txt_1-1)-[secondary-restraint]
+2-(Guardian Lyrics.txt_2-3)-[]
+3-(Guardian Lyrics.txt_3-6)-[]
+4-(Guardian Lyrics.txt_3-7)-[]
+5-(Guardian Lyrics.txt_4-11)-[primary-narcissism,primary-brink]
+6-(Guardian Lyrics.txt_5-16)-[primary-passivity]
+7-(Guardian Lyrics.txt_6-22)-[]
+8-(Guardian Lyrics.txt_7-29)-[secondary-temporal_repere]
+9-(Guardian Lyrics.txt_7-30)-[secondary-abstract_tought]
+10-(Guardian Lyrics.txt_8-38)-[secondary-restraint]
+11-(Guardian Lyrics.txt_9-47)-[primary-vision]
+12-(Guardian Lyrics.txt_10-57)-[primary-vision]
+13-(Guardian Lyrics.txt_11-68)-[]
+14-(Guardian Lyrics.txt_12-80)-[emotions-aggression]
+15-(Guardian Lyrics.txt_13-93)-[]
+16-(Guardian Lyrics.txt_14-107)-[emotions-aggression]
+17-(Guardian Lyrics.txt_15-123)-[secondary-temporal_repere,primary-ascend]
+18-(Guardian Lyrics.txt_16-140)-[]
+19-(Guardian Lyrics.txt_17-157)-[secondary-order,primary-descent]
+20-(Guardian Lyrics.txt_18-175)-[]
+21-(Guardian Lyrics.txt_19-194)-[primary-ascend]
+22-(Guardian Lyrics.txt_20-214)-[]
+23-(Guardian Lyrics.txt_21-235)-[secondary-order,primary-descent]
+24-(Guardian Lyrics.txt_22-257)-[]
+25-(Guardian Lyrics.txt_23-280)-[]
+26-(Guardian Lyrics.txt_24-304)-[]
+27-(Guardian Lyrics.txt_25-329)-[secondary-restraint,emotions-affection,primary-sex]
+28-(Guardian Lyrics.txt_26-356)-[primary-brink]
+half
+29-(Guardian Lyrics.txt_27-383)-[primary-ascend]
+30-(Guardian Lyrics.txt_28-411)-[]
+31-(Guardian Lyrics.txt_29-440)-[secondary-order,primary-descent]
+32-(Guardian Lyrics.txt_30-470)-[]
+33-(Guardian Lyrics.txt_31-501)-[primary-ascend]
+34-(Guardian Lyrics.txt_32-533)-[]
+35-(Guardian Lyrics.txt_33-566)-[secondary-order,primary-descent]
+36-(Guardian Lyrics.txt_34-600)-[]
+37-(Guardian Lyrics.txt_35-635)-[emotions-aggression,primary-concreteness]
+38-(Guardian Lyrics.txt_36-671)-[primary-descent]
+39-(Guardian Lyrics.txt_37-708)-[primary-cold]
+40-(Guardian Lyrics.txt_38-746)-[emotions-affection]
+41-(Guardian Lyrics.txt_39-785)-[secondary-instru_behavior]
+42-(Guardian Lyrics.txt_40-825)-[primary-cold]
+43-(Guardian Lyrics.txt_41-866)-[primary-narcissism]
+44-(Guardian Lyrics.txt_42-908)-[secondary-temporal_repere]
+45-(Guardian Lyrics.txt_43-951)-[primary-ascend]
+46-(Guardian Lyrics.txt_44-995)-[]
+47-(Guardian Lyrics.txt_45-1040)-[secondary-order,primary-descent]
+48-(Guardian Lyrics.txt_46-1086)-[]
+49-(Guardian Lyrics.txt_47-1133)-[primary-ascend]
+50-(Guardian Lyrics.txt_48-1181)-[]
+51-(Guardian Lyrics.txt_49-1230)-[primary-descent]
+52-(Guardian Lyrics.txt_50-1280)-[]
+53-(Guardian Lyrics.txt_51-1331)-[primary-ascend]
+54-(Guardian Lyrics.txt_52-1383)-[]
+55-(Guardian Lyrics.txt_53-1436)-[primary-descent]
+56-(Guardian Lyrics.txt_54-1490)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Guardian Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Queensrÿche-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,guardian,sn1),def_prop(Queensrÿche,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Guardian Lyrics.txt_2,3,cl2-nil-nil-man-[xcomp-prop-down-sn2,subj-agent-you-sn1,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_3,6,cl4-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_3,6,cl3-nil-nil-hunt-[ncmod-loc_direct-darkness-sn2,subj-actor-they-sn1,def_prop(darkness,[astratto,luogo]),def_prop(they,[umano])])
+lf(Guardian Lyrics.txt_4,11,cl5-nil-nil-track-[ncmod-subj_disc-street-sn2,subj-agent-blood-sn1,def_prop(street,[oggetto,stato,strumento]),def_prop(blood,[astratto,body_part,istituzione,umano])])
+lf(Guardian Lyrics.txt_5,16,cl6-nil-nil-be-[xcomp-prop-breached-sn2,subj-theme_bound-security-sn1,def_prop(breached,[evaluative]),def_prop(security,[astratto,attivita,emotivo,informa,istituzione,oggetto,stato])])
+lf(Guardian Lyrics.txt_6,22,cl7-nil-nil-say-[obj-theme_unaff-Elite-sn1,and(Elite,political,sn1),def_prop(Elite,[istituzione,umano])])
+lf(Guardian Lyrics.txt_7,29,cl9-nil-nil-know-[obj-theme_unaff-name-sn4,subj-actor-martyr-sn3,def_prop(name,[attivita,informa,stato,umano]),def_prop(martyr,[umano])])
+lf(Guardian Lyrics.txt_7,29,cl8-nil-nil-be-[xcomp-prop-savior-sn2,subj-theme_bound-who-sn1,def_prop(savior,[umano]),def_prop(who,[umano])])
+lf(Guardian Lyrics.txt_8,38,cl10-nil-nil-say-[])
+lf(Guardian Lyrics.txt_9,47,cl11-nil-nil-light-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_10,57,cl12-nil-nil-be-[xadj-adj-infrared-adj1,ncmod-loc_origin-sight-sn1,def_prop(infrared,_109888),def_prop(sight,[astratto,attivita,informa,nquant,oggetto,strumento])])
+lf(Guardian Lyrics.txt_11,68,cl13-nil-nil-shed-[ncmod-subj_disc-you-sn1,def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_12,80,cl14-nil-nil-face-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_13,93,cl15-nil-nil-say-[obj-theme_unaff-supremacy-sn1,and(supremacy,fascist,sn1),def_prop(supremacy,[stato])])
+lf(Guardian Lyrics.txt_14,107,cl17-nil-nil-live-[obj-locat-another_day-sn2,xcomp-purpose-live-2,def_prop(another_day,[stato,tempo])])
+lf(Guardian Lyrics.txt_14,107,cl16-nil-nil-fight-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_15,123,cl19-nil-nil-rise-[])
+lf(Guardian Lyrics.txt_15,123,cl18-nil-nil-be-[xcomp-prop-up-sn7,subj-theme_bound-it-sn1,def_prop(up,[istituzione]),def_prop(it,[any])])
+lf(Guardian Lyrics.txt_16,140,cl20-nil-nil-stand-[subj-experiencer-we-sn1,def_prop(we,[umano])])
+lf(Guardian Lyrics.txt_17,157,cl21-nil-nil-fall-[subj-agent-we-sn1,def_prop(we,[umano])])
+lf(Guardian Lyrics.txt_18,175,cl22-nil-nil-call-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_19,194,cl23-nil-nil-rise-[adj-subj_disc-up-sn2,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_20,214,cl24-nil-nil-stand-[subj-experiencer-we-sn1,def_prop(we,[umano])])
+lf(Guardian Lyrics.txt_21,235,cl25-nil-nil-fall-[subj-agent-we-sn1,def_prop(we,[umano])])
+lf(Guardian Lyrics.txt_22,257,cl26-nil-nil-call-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_23,280,cl27-nil-nil-say-[])
+lf(Guardian Lyrics.txt_24,304,cl28-nil-nil-play-[adj-(mod)-for_keeps-nil,subj-agent-this_time-sn1,aux-are-nil,progr-playing-nil,and(this_time,we,sn1),def_prop(this_time,[any,evento,tempo])])
+lf(Guardian Lyrics.txt_25,329,cl30-nil-nil-be-[xcomp-theme_aff-police-sn2,xcomp-purpose-arm-2,subj-theme_bound-it-sn1,def_prop(police,[istituzione]),def_prop(it,[any])])
+lf(Guardian Lyrics.txt_25,329,cl29-nil-nil-arm-[])
+lf(Guardian Lyrics.txt_26,356,cl31-nil-nil-stalk-[cmod-subord-stalk-",obj-theme-street-sn2,subj-agent-they-sn1,aux-are-nil,progr-stalking-nil,def_prop(street,[oggetto,stato,strumento]),def_prop(they,[umano])])
+lf(Guardian Lyrics.txt_27,383,cl32-nil-nil-rise-[adj-subj_disc-up-sn2,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_28,411,cl33-nil-nil-stand-[subj-experiencer-we-sn1,def_prop(we,[umano])])
+lf(Guardian Lyrics.txt_29,440,cl34-nil-nil-fall-[subj-agent-we-sn1,def_prop(we,[umano])])
+lf(Guardian Lyrics.txt_30,470,cl35-nil-nil-call-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_31,501,cl36-nil-nil-rise-[adj-subj_disc-up-sn2,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_32,533,cl37-nil-nil-stand-[subj-experiencer-we-sn1,def_prop(we,[umano])])
+lf(Guardian Lyrics.txt_33,566,cl38-nil-nil-fall-[subj-agent-we-sn1,def_prop(we,[umano])])
+lf(Guardian Lyrics.txt_34,600,cl39-nil-nil-call-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_35,635,cl40-nil-nil-say-[])
+lf(Guardian Lyrics.txt_36,671,cl41-nil-nil-fall-[iobj-goal-world-sn2,subj-agent-we-sn1,aux-have-nil,and(world,another,sn2),def_prop(world,[astratto,istituzione,oggetto]),def_prop(we,[umano])])
+lf(Guardian Lyrics.txt_37,708,cl42-nil-nil-be-[xcomp-theme-cold-sn2,subj-theme_bound-we-sn1,def_prop(cold,[valutativo]),def_prop(we,[umano])])
+lf(Guardian Lyrics.txt_38,746,cl43-nil-nil-love-[subj-experiencer-pro-nil])
+lf(Guardian Lyrics.txt_39,785,cl44-nil-nil-keep-[iobj-goal-trying-sn2,subj-experiencer-you-sn1,def_prop(trying,[evaluative]),def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_40,825,cl45-nil-nil-hold-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_41,866,cl46-nil-nil-cry-[subj-experiencer-you-sn1,aux-(is)-nil,progr-crying-nil,def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_42,908,cl47-nil-nil-say-[])
+lf(Guardian Lyrics.txt_43,951,cl48-nil-nil-rise-[adj-subj_disc-up-sn2,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_44,995,cl49-nil-nil-stand-[subj-experiencer-we-sn1,def_prop(we,[umano])])
+lf(Guardian Lyrics.txt_45,1040,cl50-nil-nil-fall-[subj-agent-we-sn1,def_prop(we,[umano])])
+lf(Guardian Lyrics.txt_46,1086,cl51-nil-nil-call-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_47,1133,cl52-nil-nil-rise-[adj-subj_disc-up-sn2,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_48,1181,cl53-nil-nil-stand-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_49,1230,cl54-nil-nil-fall-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_50,1280,cl55-nil-nil-call-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_51,1331,cl56-nil-nil-rise-[adj-subj_disc-up-sn2,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_52,1383,cl57-nil-nil-stand-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_53,1436,cl58-nil-nil-fall-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Guardian Lyrics.txt_54,1490,cl59-nil-nil-call-[subj-agent-you-sn1,def_prop(you,[umano])])

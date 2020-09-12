@@ -1,0 +1,180 @@
+"POLARITY, DISCOURSE MARKERS"
+
+MONOCOLOR Lyrics.txt_1-1  []-positive  []
+MONOCOLOR Lyrics.txt_2-3  []-negative  [neg]
+MONOCOLOR Lyrics.txt_3-6  [but-advers]-positive  [fgb,neg]
+MONOCOLOR Lyrics.txt_4-10  []-negative  [neg]
+MONOCOLOR Lyrics.txt_5-16  []-positive  []
+MONOCOLOR Lyrics.txt_5-17  [so-result]-positive  [fgb,fhd]
+MONOCOLOR Lyrics.txt_6-23  []-negative  [neg]
+MONOCOLOR Lyrics.txt_7-30  []-positive  [neg,fgb]
+MONOCOLOR Lyrics.txt_8-38  []-positive  []
+MONOCOLOR Lyrics.txt_9-47  []-suspension  []
+MONOCOLOR Lyrics.txt_9-48  []-suspension  [neg,neg]
+MONOCOLOR Lyrics.txt_10-58  []-positive  []
+MONOCOLOR Lyrics.txt_11-69  []-positive  [neg]
+MONOCOLOR Lyrics.txt_12-83  []-positive  []
+MONOCOLOR Lyrics.txt_13-96  []-positive  [neg]
+MONOCOLOR Lyrics.txt_14-111  []-positive  []
+MONOCOLOR Lyrics.txt_15-126  []-negative  [neg,neg]
+MONOCOLOR Lyrics.txt_15-127  []-negative  [neg]
+MONOCOLOR Lyrics.txt_16-143  []-suspension  []
+MONOCOLOR Lyrics.txt_17-161  [but-advers]-negative  [fgb,neg]
+MONOCOLOR Lyrics.txt_17-161  [but-advers]-negative  [fgb,neg,fgb,fhd]
+MONOCOLOR Lyrics.txt_18-162  []-negative  [neg]
+MONOCOLOR Lyrics.txt_19-181  []-positive  [fhd]
+MONOCOLOR Lyrics.txt_19-182  []-positive  []
+MONOCOLOR Lyrics.txt_20-202  []-positive  [neg]
+MONOCOLOR Lyrics.txt_21-225  []-positive  [fhd]
+MONOCOLOR Lyrics.txt_22-248  []-negative  [neg]
+MONOCOLOR Lyrics.txt_23-271  [unless-cond]-positive  [fgb]
+MONOCOLOR Lyrics.txt_24-295  [so-result]-negative  [fgb,neg]
+MONOCOLOR Lyrics.txt_25-320  [so-result]-positive  [fgb,fgb]
+MONOCOLOR Lyrics.txt_26-346  [but-advers]-positive  [fgb]
+MONOCOLOR Lyrics.txt_27-373  []-question  []
+MONOCOLOR Lyrics.txt_28-401  []-positive  [neg]
+MONOCOLOR Lyrics.txt_29-430  []-positive  []
+MONOCOLOR Lyrics.txt_30-460  []-positive  [neg]
+MONOCOLOR Lyrics.txt_31-491  []-negative  []
+MONOCOLOR Lyrics.txt_32-524  []-positive  [fgb]
+MONOCOLOR Lyrics.txt_33-558  []-suspension  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+MONOCOLOR Lyrics.txt_1-1  [monocolor,Lyrics,by,Twitchy]  [title]
+MONOCOLOR Lyrics.txt_2-3  [a,word,of,state,of,mind,plenty]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+MONOCOLOR Lyrics.txt_3-6  [the,outsides,happy,but,the,insides,empty]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+MONOCOLOR Lyrics.txt_4-10  [mind,turns,into,a,penny]  [reject_expl_just(turn,[external,factive,result,background,objective]),propose_opin_neg(turn,[external,factive,result,background,objective])]
+MONOCOLOR Lyrics.txt_5-16  [i,grew,up,too,fast]  [provide_expl_just(grow,[external,factive,cause,foreground,objective])]
+MONOCOLOR Lyrics.txt_5-17  [so,my,brains,like,twenty]  [provide_expl_just(grow,[external,factive,cause,foreground,objective])]
+MONOCOLOR Lyrics.txt_6-23  [regret,changing,too_soon]  [reject_expl_just(change,[external,factive,cause,foreground,objective])]
+MONOCOLOR Lyrics.txt_7-30  [just,yesterday,i,remember,a,cartoon,and,toast]  [provide_expl_just(remember,[external,factive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_8-38  [now,this,month,in,June]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_9-47  [i,will,be,turning,14]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_9-48  [,,a,weird,little,goon,im]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_10-58  [miss,my,home,town]  [provide_expl_just(miss,[external,factive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_11-69  [i,man,everytime,i,come,back,,,swear,its,going,down]  [provide_expl_just(swear,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,foreground,objective])]
+MONOCOLOR Lyrics.txt_12-83  [everytime,i,come,around]  [raise_issue(be,[_938046,factive,statement,_938064,subjective])]
+MONOCOLOR Lyrics.txt_13-96  [cause,i,rule,the,damn,place,,,from,the,sky,to,the,ground]  [provide_expl_just(rule,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_14-111  [i,am,just,playin]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_15-126  [shit,comes,out,my,mouth,that,i,never,planned,on,Sayin,.]  [reject_expl_just(plan,[external,factive,narration,foreground,objective])]
+MONOCOLOR Lyrics.txt_15-127  [i,never,planned,on,Sayin]  [reject_expl_just(plan,[external,factive,narration,foreground,objective])]
+MONOCOLOR Lyrics.txt_16-143  [dealing,with,some,troubles,that,i,knew,id,end,up,payin,.,i,knew,id,end,up,payin]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_944262),provide_expl_just(deal,[external,factive,result,foreground,objective])]
+MONOCOLOR Lyrics.txt_17-161  [but,the,pain,is,done,happys]  [reject_expl_just(be,[_944700,_944706,_944712,_944718,_944724])]
+MONOCOLOR Lyrics.txt_17-161  [but,the,pain,is,done,happys,here,,,mercys,what,im,slayin,like]  [reject_expl_just(be,[_944922,_944928,_944934,_944940,_944946])]
+MONOCOLOR Lyrics.txt_18-162  [very,little,friends]  [reject_expl_just(friends,[external,factive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_19-181  [i,say,it,too_much,like]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(begin,[external,factive,inception,background,objective])]
+MONOCOLOR Lyrics.txt_19-182  [the,story,just,begins]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(begin,[external,factive,inception,background,objective])]
+MONOCOLOR Lyrics.txt_20-202  [write,a,lot,of,those,with,some,black,inked,pens]  [provide_expl_just(write,[external,factive,narration,background,objective]),provide_expl_just(ink,[external,factive,narration,foreground,objective]),provide_expl_just(pen,[external,factive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_21-225  [turns,to,success,like,,,deep,thought,wins]  [provide_expl_just(win,[external,factive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_22-248  [not,a,really,social,person]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_23-271  [unless,its,that,cute,girl,and,we,get,to,flirtin-]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_24-295  [changed,for,a,time,so,i,will,not,cause,her,hurtin-]  [reject_expl_just(cause,[external,nonfactive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_25-320  [changed,for,a,time,so,her,heart,is,what,im,searchin-]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_26-346  [but,forget,about,that]  [provide_expl_just(forget,[external,factive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_27-373  [rap,the,with,on,we,get,can,?]  [provide_expl_just(get,[internal,nonfactive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_28-401  [cause,im,done,with,the,crap]  [provide_expl_just(cause,[external,factive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_29-430  [too_much,love,on,a,track]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_30-460  [i,just,speak,whats,on,my,mind]  [provide_expl_just(speak,[external,factive,narration,background,objective])]
+MONOCOLOR Lyrics.txt_31-491  [threw,the,Mic,i,spit,a,rhyme]  [provide_expl_just(throw,[external,factive,cause,foreground,objective])]
+MONOCOLOR Lyrics.txt_32-524  [and,i,think,im,doing,fine]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+MONOCOLOR Lyrics.txt_33-558  [i,will,just,hide,underground,till,its,my,time,to,shine,light]  [provide_expl_just(hide,[external,nonfactive,narration,background,objective]),provide_expl_just(shine,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(MONOCOLOR Lyrics.txt_1-1)-[]
+2-(MONOCOLOR Lyrics.txt_2-3)-[]
+3-(MONOCOLOR Lyrics.txt_3-6)-[primary-concreteness,emotions-positive_affect,primary-concreteness]
+4-(MONOCOLOR Lyrics.txt_4-10)-[]
+5-(MONOCOLOR Lyrics.txt_5-16)-[primary-height,primary-orality]
+6-(MONOCOLOR Lyrics.txt_5-17)-[primary-narcissism,emotions-affection]
+7-(MONOCOLOR Lyrics.txt_6-23)-[emotions-sadness]
+8-(MONOCOLOR Lyrics.txt_7-30)-[secondary-temporal_repere]
+9-(MONOCOLOR Lyrics.txt_8-38)-[secondary-temporal_repere,secondary-temporal_repere]
+10-(MONOCOLOR Lyrics.txt_9-47)-[]
+11-(MONOCOLOR Lyrics.txt_9-48)-[]
+12-(MONOCOLOR Lyrics.txt_10-58)-[]
+13-(MONOCOLOR Lyrics.txt_11-69)-[primary-concreteness]
+14-(MONOCOLOR Lyrics.txt_12-83)-[]
+15-(MONOCOLOR Lyrics.txt_13-96)-[secondary-abstract_tought,primary-water,primary-concreteness,primary-height]
+16-(MONOCOLOR Lyrics.txt_14-111)-[emotions-expressive_beh]
+17-(MONOCOLOR Lyrics.txt_15-126)-[primary-anality,primary-concreteness,primary-orality]
+18-(MONOCOLOR Lyrics.txt_15-127)-[]
+19-(MONOCOLOR Lyrics.txt_16-143)-[emotions-anxiety,secondary-abstract_tought,secondary-instru_behavior,secondary-abstract_tought,secondary-instru_behavior]
+half
+20-(MONOCOLOR Lyrics.txt_17-161)-[emotions-sadness,emotions-positive_affect]
+21-(MONOCOLOR Lyrics.txt_17-161)-[emotions-sadness,emotions-positive_affect,primary-concreteness,emotions-affection,emotions-aggression,emotions-affection]
+22-(MONOCOLOR Lyrics.txt_18-162)-[emotions-affection]
+23-(MONOCOLOR Lyrics.txt_19-181)-[secondary-social_behavior,emotions-affection]
+24-(MONOCOLOR Lyrics.txt_19-182)-[]
+25-(MONOCOLOR Lyrics.txt_20-202)-[]
+26-(MONOCOLOR Lyrics.txt_21-225)-[secondary-instru_behavior,emotions-affection,primary-depth,secondary-abstract_tought,secondary-instru_behavior]
+27-(MONOCOLOR Lyrics.txt_22-248)-[secondary-abstract_tought,secondary-social_behavior]
+28-(MONOCOLOR Lyrics.txt_23-271)-[emotions-aggression]
+29-(MONOCOLOR Lyrics.txt_24-295)-[secondary-temporal_repere,secondary-abstract_tought]
+30-(MONOCOLOR Lyrics.txt_25-320)-[secondary-temporal_repere,primary-narcissism]
+31-(MONOCOLOR Lyrics.txt_26-346)-[secondary-instru_behavior]
+32-(MONOCOLOR Lyrics.txt_27-373)-[]
+33-(MONOCOLOR Lyrics.txt_28-401)-[secondary-abstract_tought]
+34-(MONOCOLOR Lyrics.txt_29-430)-[emotions-affection]
+35-(MONOCOLOR Lyrics.txt_30-460)-[secondary-social_behavior]
+36-(MONOCOLOR Lyrics.txt_31-491)-[primary-ascend,primary-orality]
+37-(MONOCOLOR Lyrics.txt_32-524)-[secondary-abstract_tought]
+38-(MONOCOLOR Lyrics.txt_33-558)-[primary-depth,secondary-temporal_repere,secondary-temporal_repere,primary-vision,primary-vision]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(MONOCOLOR Lyrics.txt_1,1,cl1-nil-nil-be-[subj-theme_bound-Lyrics-sn1,and(Lyrics,monocolor,sn1),def_prop(Lyrics,[informa,tecno])])
+lf(MONOCOLOR Lyrics.txt_2,3,cl2-nil-nil-be-[adj-(mod)-plenty-nil,subj-theme_bound-word-sn1,def_prop(word,[attivita,informa,nquant])])
+lf(MONOCOLOR Lyrics.txt_3,6,cl3-nil-nil-be-[subj-theme_bound-inside-sn2,subj-theme_bound-inside-sn1,and(inside,outside,sn1),def_prop(inside,[luogo]),def_prop(inside,[luogo])])
+lf(MONOCOLOR Lyrics.txt_4,10,cl5-nil-nil-turn-[ncmod-loc_direct-penny-sn2,def_prop(penny,[astratto,nquant,oggetto])])
+lf(MONOCOLOR Lyrics.txt_4,10,cl4-nil-nil-mind-[subj-theme_unaff-you-sn1,def_prop(you,[umano])])
+lf(MONOCOLOR Lyrics.txt_5,16,cl7-nil-nil-be-[xcomp-prop-twenty-sn7,subj-theme_bound-brain-sn6,def_prop(twenty,[nquant]),def_prop(brain,[astratto,body_part,edible,oggetto,umano])])
+lf(MONOCOLOR Lyrics.txt_5,16,cl6-nil-nil-grow-[xcomp-prop-fast-sn2,subj-theme_bound-i-sn1,def_prop(fast,[valutativo]),def_prop(i,[umano])])
+lf(MONOCOLOR Lyrics.txt_6,23,cl8-nil-nil-change-[subj-agent-regret-sn1,def_prop(regret,[emotivo])])
+lf(MONOCOLOR Lyrics.txt_7,30,cl9-nil-nil-remember-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(MONOCOLOR Lyrics.txt_8,38,cl10-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(MONOCOLOR Lyrics.txt_9,47,cl12-nil-nil-be-[ncmod-modal-goon-sn4,subj-theme_bound-you-sn3,and(goon,weird,sn4),and(goon,little,sn4),def_prop(goon,[relat,sociale,umano]),def_prop(you,[umano])])
+lf(MONOCOLOR Lyrics.txt_9,47,cl11-nil-will-turn-[obj-theme-14-sn2,subj-agent-i-sn1,aux-be-nil,progr-turning-nil,def_prop(14,[nquant]),def_prop(i,[umano])])
+lf(MONOCOLOR Lyrics.txt_10,58,cl13-nil-nil-miss-[obj-theme-town-sn3,obj-tema_eff-home-sn2,subj-experiencer-you-sn1,def_prop(town,[istituzione,luogo]),def_prop(home,[luogo,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(MONOCOLOR Lyrics.txt_11,69,cl16-nil-nil-go-[])
+lf(MONOCOLOR Lyrics.txt_11,69,cl15-nil-nil-swear-[adj-(mod)-down-nil,adj-(mod)-back-nil,obj-prop-its-sn4,xcomp-purpose-come-2,subj-agent-i-sn3,subj-agent-i-sn2,subj-agent-everytime-sn1,and(i,everytime,sn2),and(everytime,man,sn1),def_prop(its,[istituzione]),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(everytime,[istituzione])])
+lf(MONOCOLOR Lyrics.txt_11,69,cl14-nil-nil-come-[])
+lf(MONOCOLOR Lyrics.txt_12,83,cl17-nil-nil-come-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,everytime,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(MONOCOLOR Lyrics.txt_13,96,cl19-nil-nil-rule-[ncmod-loc_direct-ground-sn5,ncmod-loc_origin-sky-sn4,obj-theme-place-sn3,xcomp-purpose-rule-2,and(place,damn,sn3),def_prop(ground,[astratto,luogo,oggetto,strumento]),def_prop(sky,[oggetto]),def_prop(place,[astratto,attivita,informa,luogo,stato])])
+lf(MONOCOLOR Lyrics.txt_13,96,cl18-nil-nil-cause-[subj-causer-i-sn2,subj-causer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(MONOCOLOR Lyrics.txt_14,111,cl20-nil-nil-be-[xcomp-prop-playin-sn2,subj-theme_bound-i-sn1,def_prop(playin,[istituzione]),def_prop(i,[umano])])
+lf(MONOCOLOR Lyrics.txt_15,126,cl22-nil-nil-plan-[adj-locative-never-nil,iobj-goal-Sayin-sn9,subj-agent-i-sn8,iobj-goal-Sayin-sn5,ncmod-locativo-mouth-sn2,def_prop(never,[istituzione]),def_prop(Sayin,[istituzione,umano]),def_prop(i,[umano]),def_prop(Sayin,[istituzione,umano]),def_prop(mouth,[body_part,oggetto,strumento,umano])])
+lf(MONOCOLOR Lyrics.txt_15,126,cl21-nil-nil-come-[subj-agent-shit-sn1,def_prop(shit,[attivita,umano])])
+lf(MONOCOLOR Lyrics.txt_16,143,cl24-nil-nil-know-[adj-(mod)-payin-nil,adj-temporal-end-nil,xadj-result-deal-2,subj-actor-i-sn1,def_prop(payin,[istituzione]),def_prop(end,[tempo]),def_prop(i,[umano])])
+lf(MONOCOLOR Lyrics.txt_16,143,cl23-nil-nil-deal-[iobj-goal-trouble-sn2,and(trouble,some,sn2),def_prop(trouble,[astratto,attivita,evento,stato])])
+lf(MONOCOLOR Lyrics.txt_17,161,cl25-nil-nil-do-[cmod-subord-do-but,xcomp-theme-mercy-sn5,xcomp-prop-happys-sn4,subj-actor-pain-sn3,xcomp-prop-happys-sn2,subj-actor-pain-sn1,aux-(is)-nil,and(mercy,slayin,sn5),and(mercy,what,sn5),def_prop(mercy,[attivita,stato]),def_prop(happys,[evaluative]),def_prop(pain,[astratto,emotivo,stato,umano]),def_prop(happys,[evaluative]),def_prop(pain,[astratto,emotivo,stato,umano])])
+lf(MONOCOLOR Lyrics.txt_18,162,nil-nil-nil-friends-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(MONOCOLOR Lyrics.txt_19,181,nil-nil-nil-begin-[subj-actor-story-sn4,def_prop(story,[attivita,informa])])
+lf(MONOCOLOR Lyrics.txt_19,181,cl26-nil-nil-say-[obj-theme_unaff-too_much-sn2,subj-actor-i-sn1,and(too_much,it,sn2),def_prop(too_much,[nquant]),def_prop(i,[umano])])
+lf(MONOCOLOR Lyrics.txt_20,202,cl29-nil-nil-pen-[ncmod-comitativo-black-sn3,and(black,some,sn3),def_prop(black,[astratto,oggetto,strumento])])
+lf(MONOCOLOR Lyrics.txt_20,202,cl28-nil-nil-ink-[])
+lf(MONOCOLOR Lyrics.txt_20,202,cl27-nil-nil-write-[obj-source_information-lot-sn2,subj-agent-you-sn1,def_prop(lot,[luogo,nquant]),def_prop(you,[umano])])
+lf(MONOCOLOR Lyrics.txt_21,225,cl31-nil-nil-win-[subj-actor-pro-nil,subj-actor-think-sn3,iobj-goal-success-sn2,and(think,deep,sn3),def_prop(think,[astratto]),def_prop(success,[attivita,evento,stato])])
+lf(MONOCOLOR Lyrics.txt_21,225,cl30-nil-nil-turn-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(MONOCOLOR Lyrics.txt_22,248,cl32-not-nil-be-[adj-(mod)-really-nil,subj-theme_bound-person-sn2,subj-theme_bound-person-sn1,and(person,social,sn2),and(person,social,sn1),def_prop(person,[any,attivita,body_part,informa,umano]),def_prop(person,[any,attivita,body_part,informa,umano])])
+lf(MONOCOLOR Lyrics.txt_23,271,cl33-nil-nil-get-[])
+lf(MONOCOLOR Lyrics.txt_24,295,cl34-not-will-cause-[cmod-subord-cause-so,obj-tema_eff-[]-sn4,subj-causer-i-sn3,def_prop([],nil),def_prop(i,[umano])])
+lf(MONOCOLOR Lyrics.txt_25,320,cl35-nil-nil-be-[cmod-subord-be-so,subj-theme_bound-hear-sn3,def_prop(hear,[istituzione])])
+lf(MONOCOLOR Lyrics.txt_26,346,cl36-nil-nil-forget-[iobj-goal-that-sn2,subj-experiencer-you-sn1,def_prop(that,[oggetto,umano]),def_prop(you,[umano])])
+lf(MONOCOLOR Lyrics.txt_27,373,cl37-nil-can-get-[ncmod-comitativo-rap-sn2,subj-experiencer-we-sn1,def_prop(rap,[attivita,evento,informa]),def_prop(we,[umano])])
+lf(MONOCOLOR Lyrics.txt_28,401,cl38-nil-nil-cause-[ncmod-materia-crap-sn4,xcomp-prop-done-sn3,obj-tema_eff-im-sn2,subj-causer-you-sn1,def_prop(crap,[sostanza]),def_prop(done,[evaluative]),def_prop(im,[legale]),def_prop(you,[umano])])
+lf(MONOCOLOR Lyrics.txt_29,430,cl39-nil-nil-love-[ncmod-locativo-track-sn2,subj-experiencer-too_much-sn1,def_prop(track,[attivita,oggetto,strumento]),def_prop(too_much,[nquant])])
+lf(MONOCOLOR Lyrics.txt_30,460,cl40-nil-nil-speak-[adj-(mod)-just-nil,iobj-goal-mind-sn3,obj-theme_aff-whats-sn2,subj-actor-i-sn1,def_prop(mind,[astratto]),def_prop(whats,[istituzione]),def_prop(i,[umano])])
+lf(MONOCOLOR Lyrics.txt_31,491,cl42-nil-nil-spit-[obj-theme_unaff-rhyme-sn4,xcomp-purpose-spit-3,def_prop(rhyme,[attivita,informa])])
+lf(MONOCOLOR Lyrics.txt_31,491,cl41-nil-nil-throw-[obj-theme-i-sn3,obj-theme_unaff-Mic-sn2,subj-agent-you-sn1,def_prop(i,[umano]),def_prop(Mic,[istituzione,umano]),def_prop(you,[umano])])
+lf(MONOCOLOR Lyrics.txt_32,524,cl44-nil-nil-do-[cmod-subord-do-",xcomp-actor-fine-sn3,xcomp-purpose-do-2,def_prop(fine,[valutativo])])
+lf(MONOCOLOR Lyrics.txt_32,524,cl43-nil-nil-think-[obj-theme_aff-im-sn2,subj-agent-i-sn1,def_prop(im,[legale]),def_prop(i,[umano])])
+lf(MONOCOLOR Lyrics.txt_33,558,cl46-nil-nil-shine-[])
+lf(MONOCOLOR Lyrics.txt_33,558,cl45-nil-will-hide-[xcomp-prop-light-sn9,obj-theme_aff-its-sn3,obj-patient-till-sn2,subj-agent-i-sn1,and(till,underground,sn2),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(its,[istituzione]),def_prop(till,[sostanza]),def_prop(i,[umano])])

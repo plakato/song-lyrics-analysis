@@ -1,0 +1,204 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Diamond Lyrics.txt_1-1  []-positive  []
+Diamond Lyrics.txt_2-3  []-negative  [neg]
+Diamond Lyrics.txt_3-7  []-positive  [fgb]
+Diamond Lyrics.txt_3-8  [so-result]-positive  [fgb,neg]
+Diamond Lyrics.txt_3-8  [so-result]-positive  [fgb,neg]
+Diamond Lyrics.txt_4-12  []-negative  [neg]
+Diamond Lyrics.txt_5-17  []-negative  [neg]
+Diamond Lyrics.txt_5-18  []-positive  []
+Diamond Lyrics.txt_6-23  []-positive  []
+Diamond Lyrics.txt_6-24  [but-advers]-positive  [fgb]
+Diamond Lyrics.txt_7-31  []-negative  []
+Diamond Lyrics.txt_7-32  []-positive  [fgb]
+Diamond Lyrics.txt_8-40  []-negative  [neg,neg,fgb,neg]
+Diamond Lyrics.txt_8-41  []-negative  [neg]
+Diamond Lyrics.txt_9-50  []-negative  [fgb,neg]
+Diamond Lyrics.txt_10-60  []-positive  [fgb]
+Diamond Lyrics.txt_10-61  []-negative  [neg]
+Diamond Lyrics.txt_11-72  []-negative  [neg,fgb]
+Diamond Lyrics.txt_12-84  []-negative  [neg,neg,neg]
+Diamond Lyrics.txt_13-97  []-negative  [neg,neg]
+Diamond Lyrics.txt_14-111  []-negative  [neg]
+Diamond Lyrics.txt_15-126  []-positive  []
+Diamond Lyrics.txt_15-127  [but-advers]-positive  [fgb]
+Diamond Lyrics.txt_16-143  []-negative  [fgb,neg]
+Diamond Lyrics.txt_17-162  []-positive  [fgb]
+Diamond Lyrics.txt_18-180  []-negative  [neg,neg]
+Diamond Lyrics.txt_19-199  []-suspension  []
+Diamond Lyrics.txt_19-200  []-positive  []
+Diamond Lyrics.txt_19-201  [because-cause]-negative  [neg,fgb]
+Diamond Lyrics.txt_19-201  [because-cause]-negative  [neg,fgb]
+Diamond Lyrics.txt_20-222  [so-result]-negative  [fgb,neg]
+Diamond Lyrics.txt_21-243  []-negative  [neg,neg,neg]
+Diamond Lyrics.txt_22-265  []-negative  [neg]
+Diamond Lyrics.txt_23-288  []-negative  [neg]
+Diamond Lyrics.txt_24-312  []-positive  []
+Diamond Lyrics.txt_25-337  []-negative  [neg]
+Diamond Lyrics.txt_27-391  []-negative  [neg]
+Diamond Lyrics.txt_27-392  []-positive  []
+Diamond Lyrics.txt_27-393  [but-advers]-negative  [fgb]
+Diamond Lyrics.txt_27-394  []-negative  [fgb,neg,neg,fgb,neg,fgb,neg]
+Diamond Lyrics.txt_28-424  []-positive  [fgb]
+Diamond Lyrics.txt_28-425  []-positive  []
+Diamond Lyrics.txt_28-426  []-negative  [neg,neg]
+Diamond Lyrics.txt_28-427  []-negative  [neg]
+Diamond Lyrics.txt_29-455  []-negative  [neg]
+Diamond Lyrics.txt_29-456  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Diamond Lyrics.txt_1-1  [diamond,Lyrics,by,Swift]  [title]
+Diamond Lyrics.txt_2-3  [you,tell,me,not,to,be,me]  [reject_expl_just(be,[external,factive,narration,foreground,objective]),reject_expl_just(tell,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_3-7  [and,,,you,tell,me]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_3-8  [that,,,my,love,is,so,worthless]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_3-8  [that,,,my,love,is,so,worthless]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_4-12  [-,i,can,not,hear,the,words,that,you,tell,me]  [reject_expl_just(hear,[external,nonfactive,narration,foreground,objective])]
+Diamond Lyrics.txt_5-17  [i,can,not,hear,them]  [reject_expl_just(be,[_431030,_431036,_431042,_431048,_431054])]
+Diamond Lyrics.txt_5-18  [hear,them]  [raise_issue(be,[_431358,factive,statement,_431376,subjective])]
+Diamond Lyrics.txt_6-23  [just,let,me,go]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_6-24  [but]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_7-31  [you,don-t,see,inside,of,me]  [provide_expl_just(see,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_7-32  [and]  [provide_expl_just(see,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_8-40  [you,can,not,judge,what,you,can,not,understand,.]  [reject_expl_just(judge,[external,nonfactive,narration,foreground,objective])]
+Diamond Lyrics.txt_8-41  [you,can,not,understand]  [reject_expl_just(judge,[external,nonfactive,narration,foreground,objective])]
+Diamond Lyrics.txt_9-50  [and,,,you,laugh,at,my,childlike,dreams]  [reject_expl_just(laugh,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_10-60  [and,think]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_10-61  [i,am,better_off,in,your,scheme]  [reject_expl_just(think,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_11-72  [-,you,will,never,know,what,its,all,about]  [reject_expl_just(know,[external,nonfactive,narration,background,objective])]
+Diamond Lyrics.txt_12-84  [shut,just,your,fucking,mouth,shut]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_13-97  [your,fucking,mouth,i,can,not,hear,the,words,that,you,tell,me]  [reject_expl_just(hear,[external,nonfactive,narration,foreground,objective])]
+Diamond Lyrics.txt_14-111  [i,can,not,hear,them,just]  [reject_expl_just(be,[_442036,_442042,_442048,_442054,_442060])]
+Diamond Lyrics.txt_15-126  [let,me,go]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_15-127  [but]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_16-143  [you,don-t,see,what,im,Gon,na,be,im,Gon,na,,,be,the,man,that,you,can,not,understand]  [reject_expl_just(na,[internal,factive,narration,background,objective]),reject_expl_just(understand,[external,nonfactive,narration,foreground,objective])]
+Diamond Lyrics.txt_17-162  [and]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Diamond Lyrics.txt_18-180  [you,laugh,at,my,foolish,thoughts]  [reject_expl_just(laugh,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_19-199  [you,will,wind,up,choking,on,the,words]  [provide_expl_just(choke,[external,factive,narration,foreground,objective]),provide_expl_just(win,[external,nonfactive,narration,background,objective]),provide_expl_just(bring,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,nonfactive,narration,background,objective])]
+Diamond Lyrics.txt_19-200  [you,brought]  [provide_expl_just(choke,[external,factive,narration,foreground,objective]),provide_expl_just(win,[external,nonfactive,narration,background,objective]),provide_expl_just(bring,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,nonfactive,narration,background,objective])]
+Diamond Lyrics.txt_19-201  [because,you,will,never,know,what,its,all]  [reject_expl_just(choke,[external,factive,narration,foreground,objective]),reject_expl_just(win,[external,nonfactive,narration,background,objective]),reject_expl_just(bring,[external,factive,narration,foreground,objective]),reject_expl_just(know,[external,nonfactive,narration,background,objective])]
+Diamond Lyrics.txt_19-201  [because,you,will,never,know,what,its,all,about]  [reject_expl_just(choke,[external,factive,narration,foreground,objective]),reject_expl_just(win,[external,nonfactive,narration,background,objective]),reject_expl_just(bring,[external,factive,narration,foreground,objective]),reject_expl_just(know,[external,nonfactive,narration,background,objective])]
+Diamond Lyrics.txt_20-222  [so,shut]  reject_expl_opin(nil,[])
+Diamond Lyrics.txt_21-243  [your,fucking,mouth,just,shut,your,fucking,mouth]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_22-265  [i,can,not,hear,the,words,that,you,tell,me]  [reject_expl_just(hear,[external,nonfactive,narration,foreground,objective])]
+Diamond Lyrics.txt_23-288  [i,can,not,hear,them,just]  [reject_expl_just(be,[_457642,_457648,_457654,_457660,_457666])]
+Diamond Lyrics.txt_24-312  [i,me,go,let,!]  [provide_expl_just(go,[internal,factive,narration,foreground,objective])]
+Diamond Lyrics.txt_25-337  [can,not,hear,you,hear,me]  [reject_expl_just(hear,[external,nonfactive,narration,foreground,objective])]
+Diamond Lyrics.txt_27-391  [i,can,not,hear,them,just]  [reject_expl_just(hear,[external,nonfactive,narration,foreground,objective]),reject_expl_just(go,[external,factive,narration,background,objective]),reject_expl_just(see,[external,factive,result,foreground,objective]),propose_opin_neg(see,[external,factive,result,foreground,objective]),reject_expl_just(judge,[external,nonfactive,narration,foreground,objective])]
+Diamond Lyrics.txt_27-392  [let,me,go]  [provide_expl_just(hear,[external,nonfactive,narration,foreground,objective]),provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,result,foreground,objective]),suggest(see,[external,factive,result,foreground,objective]),provide_expl_just(judge,[external,nonfactive,narration,foreground,objective])]
+Diamond Lyrics.txt_27-393  [but,you,don-t,see,inside,of,me]  [provide_expl_just(hear,[external,nonfactive,narration,foreground,objective]),provide_expl_just(go,[external,factive,narration,background,objective]),propose_opin_neg(see,[external,factive,result,foreground,objective]),suggest(see,[external,factive,result,foreground,objective]),provide_expl_just(judge,[external,nonfactive,narration,foreground,objective])]
+Diamond Lyrics.txt_27-394  [and,you,can,not,judge,-,what,you,can,not,understand,and,you,laugh,at,my,childlike,dreams]  [reject_expl_just(hear,[external,nonfactive,narration,foreground,objective]),reject_expl_just(go,[external,factive,narration,background,objective]),reject_expl_just(see,[external,factive,result,foreground,objective]),propose_opin_neg(see,[external,factive,result,foreground,objective]),reject_expl_just(judge,[external,nonfactive,narration,foreground,objective])]
+Diamond Lyrics.txt_28-424  [and,think]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_28-425  [i,am,better]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_28-426  [of,in,your,scheme,i,can,not,hear]  [reject_expl_just(think,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_28-427  [you,fucking,hear,me]  [reject_expl_just(think,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Diamond Lyrics.txt_29-455  [i,can,not,hear]  [reject_expl_just(hear,[external,nonfactive,narration,foreground,objective])]
+Diamond Lyrics.txt_29-456  [you,fucking,hear,me]  [reject_expl_just(hear,[external,nonfactive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Diamond Lyrics.txt_1-1)-[]
+2-(Diamond Lyrics.txt_2-3)-[secondary-social_behavior]
+3-(Diamond Lyrics.txt_3-7)-[secondary-social_behavior]
+4-(Diamond Lyrics.txt_3-8)-[emotions-affection]
+5-(Diamond Lyrics.txt_3-8)-[emotions-affection]
+6-(Diamond Lyrics.txt_4-12)-[primary-sound,secondary-social_behavior]
+7-(Diamond Lyrics.txt_5-17)-[primary-sound,secondary-abstract_tought]
+8-(Diamond Lyrics.txt_5-18)-[primary-sound,secondary-abstract_tought]
+9-(Diamond Lyrics.txt_6-23)-[]
+10-(Diamond Lyrics.txt_6-24)-[]
+11-(Diamond Lyrics.txt_7-31)-[primary-vision,primary-concreteness]
+12-(Diamond Lyrics.txt_7-32)-[]
+13-(Diamond Lyrics.txt_8-40)-[secondary-abstract_tought,secondary-abstract_tought]
+14-(Diamond Lyrics.txt_8-41)-[secondary-abstract_tought]
+15-(Diamond Lyrics.txt_9-50)-[emotions-positive_affect,primary-concreteness,primary-counscious]
+16-(Diamond Lyrics.txt_10-60)-[secondary-abstract_tought]
+17-(Diamond Lyrics.txt_10-61)-[secondary-abstract_tought]
+18-(Diamond Lyrics.txt_11-72)-[secondary-abstract_tought]
+19-(Diamond Lyrics.txt_12-84)-[secondary-restraint,primary-orality,secondary-restraint]
+20-(Diamond Lyrics.txt_13-97)-[primary-orality,primary-sound,secondary-social_behavior]
+21-(Diamond Lyrics.txt_14-111)-[primary-sound,secondary-abstract_tought]
+22-(Diamond Lyrics.txt_15-126)-[]
+23-(Diamond Lyrics.txt_15-127)-[]
+half
+24-(Diamond Lyrics.txt_16-143)-[primary-vision,secondary-abstract_tought]
+25-(Diamond Lyrics.txt_17-162)-[]
+26-(Diamond Lyrics.txt_18-180)-[emotions-positive_affect,primary-concreteness,secondary-abstract_tought]
+27-(Diamond Lyrics.txt_19-199)-[secondary-instru_behavior]
+28-(Diamond Lyrics.txt_19-200)-[]
+29-(Diamond Lyrics.txt_19-201)-[secondary-abstract_tought]
+30-(Diamond Lyrics.txt_19-201)-[secondary-abstract_tought]
+31-(Diamond Lyrics.txt_20-222)-[secondary-restraint]
+32-(Diamond Lyrics.txt_21-243)-[primary-orality,secondary-restraint,primary-orality]
+33-(Diamond Lyrics.txt_22-265)-[primary-sound,secondary-social_behavior]
+34-(Diamond Lyrics.txt_23-288)-[primary-sound,secondary-abstract_tought]
+35-(Diamond Lyrics.txt_24-312)-[]
+36-(Diamond Lyrics.txt_25-337)-[primary-sound,primary-sound]
+37-(Diamond Lyrics.txt_27-391)-[primary-sound,secondary-abstract_tought]
+38-(Diamond Lyrics.txt_27-392)-[]
+39-(Diamond Lyrics.txt_27-393)-[primary-vision,primary-concreteness]
+40-(Diamond Lyrics.txt_27-394)-[secondary-abstract_tought,secondary-abstract_tought,emotions-positive_affect,primary-concreteness,primary-counscious]
+41-(Diamond Lyrics.txt_28-424)-[secondary-abstract_tought]
+42-(Diamond Lyrics.txt_28-425)-[]
+43-(Diamond Lyrics.txt_28-426)-[secondary-abstract_tought,primary-sound]
+44-(Diamond Lyrics.txt_28-427)-[primary-sound]
+45-(Diamond Lyrics.txt_29-455)-[primary-sound]
+46-(Diamond Lyrics.txt_29-456)-[primary-sound]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Diamond Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Swift-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,diamond,sn1),def_prop(Swift,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Diamond Lyrics.txt_2,3,cl3-nil-nil-be-[xcomp-prop-me-sn3,xcomp-purpose-be-2,def_prop(me,[umano])])
+lf(Diamond Lyrics.txt_2,3,cl2-not-nil-tell-[obj-theme_unaff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_3,7,cl5-nil-nil-be-[xcomp-prop-worthless-sn9,subj-theme_bound-love-sn8,xcomp-prop-worthless-sn4,subj-theme_bound-love-sn3,def_prop(worthless,[istituzione]),def_prop(love,[astratto,emotivo,nquant]),def_prop(worthless,[istituzione]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Diamond Lyrics.txt_3,7,cl4-nil-nil-tell-[cmod-subord-be-",obj-theme_unaff-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_4,12,cl6-not-can-hear-[obj-theme_unaff-word-sn2,subj-experiencer-i-sn1,def_prop(word,[attivita,informa,nquant]),def_prop(i,[umano])])
+lf(Diamond Lyrics.txt_5,17,cl7-not-can-hear-[obj-theme_unaff-them-sn4,subj-experiencer-you-sn3,obj-theme_unaff-them-sn2,subj-experiencer-i-sn1,def_prop(them,[umano]),def_prop(you,[umano]),def_prop(them,[umano]),def_prop(i,[umano])])
+lf(Diamond Lyrics.txt_6,23,cl9-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Diamond Lyrics.txt_6,23,cl8-nil-nil-go-[xcomp-prop-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_7,31,cl11-nil-nil-be-[])
+lf(Diamond Lyrics.txt_7,31,cl10-not-nil-see-[adj-(mod)-inside-nil,ncmod-specif-me-sn2,subj-experiencer-you-sn1,aux-do-nil,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_8,40,cl13-not-can-understand-[subj-actor-you-sn3,def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_8,40,cl12-not-can-judge-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_9,50,cl14-nil-nil-laugh-[cmod-subord-laugh-",iobj-goal-dream-sn2,subj-experiencer-you-sn1,and(dream,childlike,sn2),def_prop(dream,[astratto,stato]),def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_10,60,cl16-nil-nil-be-[ncmod-locativo-scheme-sn4,xcomp-prop-better_off-sn3,subj-theme_bound-i-sn2,def_prop(scheme,[astratto]),def_prop(better_off,[astratto]),def_prop(i,[umano])])
+lf(Diamond Lyrics.txt_10,60,cl15-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_11,72,cl17-nil-will-know-[subj-actor-you-sn1,neg-never-nil,def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_12,84,cl18-nil-nil-be-[ncmod-modal-mouth-sn2,subj-theme_bound-you-sn1,and(mouth,fucking,sn2),def_prop(mouth,[body_part,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_13,97,cl19-not-can-hear-[obj-theme_unaff-word-sn3,subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,mouth,sn1),and(i,fucking,sn1),def_prop(word,[attivita,informa,nquant]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Diamond Lyrics.txt_14,111,cl20-not-can-hear-[obj-theme_unaff-just-sn2,subj-experiencer-i-sn1,and(just,them,sn2),def_prop(just,[informa,tecno]),def_prop(i,[umano])])
+lf(Diamond Lyrics.txt_15,126,cl22-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Diamond Lyrics.txt_15,126,cl21-nil-nil-go-[xcomp-prop-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_16,143,cl25-not-can-understand-[obj-theme_unaff-man-sn4,def_prop(man,[any])])
+lf(Diamond Lyrics.txt_16,143,cl24-nil-nil-be-[xcomp-prop-man-sn4,xcomp-purpose-be-3,def_prop(man,[any])])
+lf(Diamond Lyrics.txt_16,143,cl23-not-nil-see-[subj-experiencer-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_17,162,cl26-nil-nil-say-[])
+lf(Diamond Lyrics.txt_18,180,cl27-nil-nil-laugh-[iobj-goal-thought-sn2,subj-experiencer-you-sn1,and(thought,foolish,sn2),def_prop(thought,[astratto]),def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_19,199,cl31-nil-will-know-[cmod-subord-know-because,subj-actor-you-sn7,subj-actor-you-sn5,xadj-result-choke-4,neg-never-nil,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_19,199,cl30-nil-nil-bring-[subj-agent-you-sn4,def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_19,199,cl29-nil-nil-choke-[ncmod-goal-word-sn2,def_prop(word,[attivita,informa,nquant])])
+lf(Diamond Lyrics.txt_19,199,cl28-nil-will-win-[adj-locative-up-nil,subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_20,222,cl32-nil-nil-shut-[subj-agent-pro-nil])
+lf(Diamond Lyrics.txt_21,243,cl33-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_22,265,cl34-not-can-hear-[obj-theme_unaff-word-sn2,subj-experiencer-i-sn1,def_prop(word,[attivita,informa,nquant]),def_prop(i,[umano])])
+lf(Diamond Lyrics.txt_23,288,cl35-not-can-hear-[obj-theme_unaff-just-sn2,subj-experiencer-i-sn1,and(just,them,sn2),def_prop(just,[informa,tecno]),def_prop(i,[umano])])
+lf(Diamond Lyrics.txt_24,312,cl36-nil-nil-go-[obj-theme-i-sn2,subj-agent-me-sn1,def_prop(i,[umano]),def_prop(me,[umano])])
+lf(Diamond Lyrics.txt_25,337,cl37-not-can-hear-[obj-theme_unaff-me-sn3,xcomp-purpose-hear-2,subj-experiencer-you-sn2,subj-experiencer-you-sn1,and(you,you,sn1),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_26,364,cl38-not-can-hear-[])
+lf(Diamond Lyrics.txt_27,391,cl44-nil-nil-laugh-[])
+lf(Diamond Lyrics.txt_27,391,cl43-not-can-understand-[cmod-subord-see-"])
+lf(Diamond Lyrics.txt_27,391,cl42-not-can-judge-[subj-actor-you-sn9,def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_27,391,cl41-not-nil-see-[ncmod-specif-me-sn8,adj-subj_disc-inside-sn7,subj-experiencer-you-sn6,aux-do-nil,def_prop(me,[umano]),def_prop(inside,[istituzione]),def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_27,391,cl40-nil-nil-go-[xcomp-prop-me-sn5,subj-agent-you-sn4,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_27,391,cl39-not-can-hear-[obj-theme_unaff-them-sn2,subj-experiencer-i-sn1,def_prop(them,[umano]),def_prop(i,[umano])])
+lf(Diamond Lyrics.txt_28,424,cl47-not-can-hear-[xcomp-prop-me-sn9,subj-experiencer-you-sn8,ncmod-locativo-scheme-sn5,subj-experiencer-i-sn4,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(scheme,[astratto]),def_prop(i,[umano])])
+lf(Diamond Lyrics.txt_28,424,cl46-nil-nil-be-[xcomp-prop-better-sn3,subj-theme_bound-i-sn2,def_prop(better,[valutativo]),def_prop(i,[umano])])
+lf(Diamond Lyrics.txt_28,424,cl45-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Diamond Lyrics.txt_29,455,cl48-not-can-hear-[obj-theme_unaff-me-sn3,subj-experiencer-you-sn2,subj-experiencer-you-sn1,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])

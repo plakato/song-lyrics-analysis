@@ -1,0 +1,78 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Emergence Day Lyrics.txt_1-1  []-positive  []
+Emergence Day Lyrics.txt_2-3  []-negative  [neg]
+Emergence Day Lyrics.txt_3-6  []-positive  []
+Emergence Day Lyrics.txt_4-10  []-negative  [neg]
+Emergence Day Lyrics.txt_5-15  []-positive  []
+Emergence Day Lyrics.txt_5-16  []-positive  []
+Emergence Day Lyrics.txt_5-17  []-negative  []
+Emergence Day Lyrics.txt_6-23  []-suspension  [neg]
+Emergence Day Lyrics.txt_6-24  []-positive  []
+Emergence Day Lyrics.txt_7-31  []-negative  [neg]
+Emergence Day Lyrics.txt_7-32  []-positive  [ack]
+Emergence Day Lyrics.txt_8-40  []-negative  []
+Emergence Day Lyrics.txt_9-49  []-positive  []
+Emergence Day Lyrics.txt_10-59  []-positive  []
+Emergence Day Lyrics.txt_11-70  []-negative  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Emergence Day Lyrics.txt_1-1  [emergence,Day,Lyrics,by,Ty,Infinite]  [title]
+Emergence Day Lyrics.txt_2-3  [broadcast,interruption,radio]  [reject_expl_just(radio,[external,factive,narration,background,objective])]
+Emergence Day Lyrics.txt_3-6  [sounds,of,planes,crashing,explosions]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Emergence Day Lyrics.txt_4-10  [shit,holy,!]  reject_expl_opin(nil,[])
+Emergence Day Lyrics.txt_5-15  [we,have,units,on_the_way,now]  [provide_expl_just(report,[external,factive,narration,foreground,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Emergence Day Lyrics.txt_5-16  [we,are,reported,a,fire,on,the,78th]  [provide_expl_just(report,[external,factive,narration,foreground,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Emergence Day Lyrics.txt_5-17  [floor]  [provide_expl_just(report,[external,factive,narration,foreground,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Emergence Day Lyrics.txt_6-23  [we,just,had,a,plane,crash,in,the,upper,floor,of,the,World]  [provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Emergence Day Lyrics.txt_6-24  [Trade,center]  [provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Emergence Day Lyrics.txt_7-31  [we,have,smoke,just,coming,from,the,World]  [reject_expl_just(smoke,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Emergence Day Lyrics.txt_7-32  [Trade,center,right,now,from,the]  [provide_expl_just(smoke,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Emergence Day Lyrics.txt_8-40  [upper,floors]  reject_expl_opin(nil,[])
+Emergence Day Lyrics.txt_9-49  [mayday,mayday,is,this,!]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Emergence Day Lyrics.txt_10-59  [indistinguishable,another,plane,just,hit,the]  [provide_expl_just(hit,[external,factive,cause,foreground,objective])]
+Emergence Day Lyrics.txt_11-70  [K,freaking,tower,!]  [provide_expl_just(freak,[internal,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Emergence Day Lyrics.txt_1-1)-[]
+2-(Emergence Day Lyrics.txt_2-3)-[]
+3-(Emergence Day Lyrics.txt_3-6)-[primary-sound,secondary-abstract_tought]
+4-(Emergence Day Lyrics.txt_4-10)-[primary-anality]
+5-(Emergence Day Lyrics.txt_5-15)-[secondary-temporal_repere]
+6-(Emergence Day Lyrics.txt_5-16)-[primary-fire]
+7-(Emergence Day Lyrics.txt_5-17)-[primary-brink]
+half
+8-(Emergence Day Lyrics.txt_6-23)-[secondary-abstract_tought,primary-height,primary-brink]
+9-(Emergence Day Lyrics.txt_6-24)-[primary-concreteness]
+10-(Emergence Day Lyrics.txt_7-31)-[primary-fire]
+11-(Emergence Day Lyrics.txt_7-32)-[primary-concreteness,secondary-moral_imperative,secondary-temporal_repere]
+12-(Emergence Day Lyrics.txt_8-40)-[primary-height,primary-brink]
+13-(Emergence Day Lyrics.txt_9-49)-[]
+14-(Emergence Day Lyrics.txt_10-59)-[secondary-abstract_tought,emotions-aggression]
+15-(Emergence Day Lyrics.txt_11-70)-[primary-height]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Emergence Day Lyrics.txt_1,1,cl1-nil-nil-be-[xadj-adj-Infinite-adj1,adj-(mod)-Day-nil,arg_mod-agent-Ty-sn3,subj-theme_bound-Lyrics-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,emergence,sn1),def_prop(Infinite,_709618),def_prop(Ty,[umano]),def_prop(Lyrics,[informa,tecno]),def_prop(Lyrics,[informa,tecno])])
+lf(Emergence Day Lyrics.txt_2,3,nil-nil-nil-radio-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Emergence Day Lyrics.txt_3,6,cl2-nil-nil-be-[ncmod-specif-explosion-sn2,subj-theme_bound-you-sn1,and(explosion,plane,sn2),and(explosion,crashing,sn2),def_prop(explosion,[attivita,evento,informa]),def_prop(you,[umano])])
+lf(Emergence Day Lyrics.txt_4,10,cl3-nil-nil-shit-[subj-agent-holy-sn1,def_prop(holy,[luogo])])
+lf(Emergence Day Lyrics.txt_5,15,cl6-nil-nil-be-[subj-actor-you-sn9,def_prop(you,[umano])])
+lf(Emergence Day Lyrics.txt_5,15,cl5-nil-nil-report-[iobj-goal-78th-sn8,obj-theme_aff-fire-sn7,subj-goal-we-sn6,aux-are-nil,def_prop(78th,[date,tempo]),def_prop(fire,[attivita,evento,informa,oggetto,sostanza,strumento]),def_prop(we,[umano])])
+lf(Emergence Day Lyrics.txt_5,15,cl4-nil-nil-have-[xcomp-tema_bound-unit-sn2,subj-experiencer-we-sn1,def_prop(unit,[astratto,istituzione,oggetto,relat]),def_prop(we,[umano])])
+lf(Emergence Day Lyrics.txt_6,23,cl8-nil-nil-be-[xcomp-prop-center-sn6,subj-theme_bound-Trade-sn5,def_prop(center,[astratto,attivita,body_part,edible,istituzione,luogo,oggetto,strumento,umano]),def_prop(Trade,[astratto,attivita])])
+lf(Emergence Day Lyrics.txt_6,23,cl7-nil-nil-have-[adj-(mod)-just-nil,xcomp-tema_bound-crash-sn2,subj-experiencer-we-sn1,def_prop(crash,[attivita,evento]),def_prop(we,[umano])])
+lf(Emergence Day Lyrics.txt_7,31,cl10-nil-nil-be-[adj-(mod)-now-nil,subj-theme_bound-right-sn4,and(right,Trade,sn4),and(right,center,sn4),def_prop(right,[astratto,attivita,body_part,istituzione,luogo,oggetto,umano])])
+lf(Emergence Day Lyrics.txt_7,31,cl9-nil-nil-smoke-[ncmod-loc_origin-World-sn3,obj-theme-coming-sn2,subj-agent-we-sn1,aux-have-nil,def_prop(World,[luogo]),def_prop(coming,[astratto,cambia,evento]),def_prop(we,[umano])])
+lf(Emergence Day Lyrics.txt_8,40,cl11-nil-nil-floor-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Emergence Day Lyrics.txt_9,49,cl12-nil-nil-be-[xcomp-theme_aff-mayday-sn3,xcomp-prop-mayday-sn2,subj-theme_bound-this-sn1,def_prop(mayday,[istituzione,umano]),def_prop(mayday,[istituzione,umano]),def_prop(this,[oggetto,umano])])
+lf(Emergence Day Lyrics.txt_10,59,cl13-nil-nil-hit-[subj-agent-just-sn1,and(just,indistinguishable,sn1),and(just,another,sn1),and(just,plane,sn1),def_prop(just,[informa,tecno])])
+lf(Emergence Day Lyrics.txt_11,70,cl14-nil-nil-freak-[])

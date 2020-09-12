@@ -1,0 +1,117 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Someone.txt_1-1  []-positive  []
+Someone.txt_2-3  []-positive  []
+Someone.txt_2-4  []-positive  []
+Someone.txt_3-7  []-positive  []
+Someone.txt_3-8  []-positive  []
+Someone.txt_4-12  []-positive  []
+Someone.txt_5-17  []-positive  []
+Someone.txt_6-23  []-positive  []
+Someone.txt_7-30  []-positive  []
+Someone.txt_8-38  []-positive  []
+Someone.txt_9-47  []-negative  [neg,neg]
+Someone.txt_10-58  []-negative  [fgb,neg]
+Someone.txt_11-69  []-negative  [neg]
+Someone.txt_12-81  []-negative  []
+Someone.txt_13-94  []-positive  []
+Someone.txt_14-109  []-positive  [neg,neg]
+Someone.txt_15-125  []-positive  []
+Someone.txt_15-126  []-positive  []
+Someone.txt_16-142  []-positive  []
+Someone.txt_17-161  []-positive  [neg]
+Someone.txt_18-181  [if-hypoth]-suspension  [fgb]
+Someone.txt_19-200  []-suspension  []
+Someone.txt_20-220  [if-hypoth]-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Someone.txt_1-1  [someone,by,Xavier,Simmons]  [title]
+Someone.txt_2-3  [i,wanna]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,foreground,objective])]
+Someone.txt_2-4  [feel,needed]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,foreground,objective])]
+Someone.txt_3-7  [i,wanna]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(love,[external,factive,narration,foreground,objective])]
+Someone.txt_3-8  [feel,loved]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(love,[external,factive,narration,foreground,objective])]
+Someone.txt_4-12  [the,passion,of,a,kiss]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Someone.txt_5-17  [the,warmth,of,love]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+Someone.txt_6-23  [walk,through,the,park]  [provide_expl_just(walk,[external,factive,narration,background,objective])]
+Someone.txt_7-30  [holding,your,hand]  [provide_expl_just(hold,[external,factive,narration,foreground,objective])]
+Someone.txt_8-38  [in,a,perfect,world]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Someone.txt_9-47  [i,had,never,be,alone]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(have,[external,factive,narration,foreground,objective])]
+Someone.txt_10-58  [and,left,to,die,in,the,sand]  [reject_expl_just(die,[external,factive,narration,background,objective])]
+Someone.txt_11-69  [someone,to,cry,with,me]  [reject_expl_just(cry,[external,factive,narration,background,objective])]
+Someone.txt_12-81  [on,the,floor]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Someone.txt_13-94  [stories,i,keep,locked,away]  [provide_expl_just(stories,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective])]
+Someone.txt_14-109  [the,dreams,i,failed,to,chase]  [provide_expl_just(fail,[external,factive,narration,foreground,objective]),provide_expl_just(chase,[external,factive,narration,background,objective])]
+Someone.txt_15-125  [i,wanna]  [provide_expl_just(wanna,[external,factive,narration,background,objective])]
+Someone.txt_15-126  [feel,needed]  [provide_expl_just(wanna,[external,factive,narration,background,objective])]
+Someone.txt_16-142  [to,exist,to,be,loved]  [provide_expl_just(exist,[external,factive,narration,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(exist,[external,factive,narration,background,objective])]
+Someone.txt_17-161  [to,be,told,that,you,had,fall,apart]  [provide_expl_just(tell,[external,factive,narration,foreground,objective]),provide_expl_just(fall,[external,factive,narration,background,objective])]
+Someone.txt_18-181  [if,i,should,leave,your,site]  [provide_expl_just(leave,[external,nonfactive,narration,foreground,objective])]
+Someone.txt_19-200  [someone,will,care]  [provide_expl_just(care,[external,nonfactive,narration,background,objective])]
+Someone.txt_20-220  [if,i,am,gone]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Someone.txt_1-1)-[]
+2-(Someone.txt_2-3)-[]
+3-(Someone.txt_2-4)-[]
+4-(Someone.txt_3-7)-[]
+5-(Someone.txt_3-8)-[emotions-affection]
+6-(Someone.txt_4-12)-[primary-sex]
+7-(Someone.txt_5-17)-[primary-fire,emotions-affection]
+8-(Someone.txt_6-23)-[]
+9-(Someone.txt_7-30)-[primary-narcissism]
+10-(Someone.txt_8-38)-[]
+11-(Someone.txt_9-47)-[]
+half
+12-(Someone.txt_10-58)-[primary-passivity]
+13-(Someone.txt_11-69)-[emotions-expressive_beh]
+14-(Someone.txt_12-81)-[primary-brink]
+15-(Someone.txt_13-94)-[secondary-restraint,primary-concreteness]
+16-(Someone.txt_14-109)-[primary-counscious,primary-voyage]
+17-(Someone.txt_15-125)-[]
+18-(Someone.txt_15-126)-[]
+19-(Someone.txt_16-142)-[emotions-affection]
+20-(Someone.txt_17-161)-[secondary-social_behavior,primary-descent,primary-concreteness]
+21-(Someone.txt_18-181)-[secondary-moral_imperative]
+22-(Someone.txt_19-200)-[]
+23-(Someone.txt_20-220)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Someone.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Simmons-sn2,subj-theme_bound-someone-sn1,and(Simmons,Xavier,sn2),def_prop(Simmons,[place,umano]),def_prop(someone,[umano])])
+lf(Someone.txt_2,3,cl2-nil-nil-need-[subj-experiencer-you-sn2,def_prop(you,[umano])])
+lf(Someone.txt_2,3,nil-nil-nil-wanna-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Someone.txt_3,7,cl3-nil-nil-love-[subj-experiencer-you-sn2,def_prop(you,[umano])])
+lf(Someone.txt_3,7,nil-nil-nil-wanna-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Someone.txt_4,12,cl4-nil-nil-be-[ncmod-specif-kiss-sn2,subj-theme_bound-you-sn1,def_prop(kiss,[attivita,edible,oggetto]),def_prop(you,[umano])])
+lf(Someone.txt_5,17,cl5-nil-nil-love-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Someone.txt_6,23,cl6-nil-nil-walk-[ncmod-location-park-sn2,subj-agent-you-sn1,def_prop(park,[luogo,oggetto,strumento]),def_prop(you,[umano])])
+lf(Someone.txt_7,30,cl7-nil-nil-hold-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Someone.txt_8,38,cl8-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Someone.txt_9,47,cl10-nil-nil-be-[xcomp-prop-alone-sn2,xcomp-purpose-be-2,def_prop(alone,[valutativo])])
+lf(Someone.txt_9,47,cl9-nil-nil-have-[adj-(mod)-never-nil,subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Someone.txt_10,58,cl11-nil-nil-die-[cmod-subord-die-",xadj-adj-left-adj1,ncmod-locativo-sand-sn2,subj-agent-you-sn1,def_prop(left,_346732),def_prop(sand,[sostanza]),def_prop(you,[umano])])
+lf(Someone.txt_11,69,cl12-nil-nil-cry-[ncmod-comitativo-me-sn2,subj-experiencer-someone-sn1,def_prop(me,[umano]),def_prop(someone,[umano])])
+lf(Someone.txt_12,81,cl13-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Someone.txt_13,94,cl14-nil-nil-keep-[xadj-adj-away-adj2,def_prop(away,_347032)])
+lf(Someone.txt_13,94,nil-nil-nil-stories-[obj-goal-away-sn4,obj-goal-locked-sn3,xcomp-purpose-keep-2,subj-agent-i-sn2,subj-agent-i-sn1,and(i,you,sn1),def_prop(away,[evaluative]),def_prop(locked,[evaluative]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Someone.txt_14,109,cl16-nil-nil-chase-[])
+lf(Someone.txt_14,109,cl15-nil-nil-fail-[subj-theme_aff-i-sn2,subj-theme_aff-i-sn1,and(i,dream,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Someone.txt_15,125,cl17-nil-nil-need-[subj-experiencer-you-sn2,def_prop(you,[umano])])
+lf(Someone.txt_15,125,nil-nil-nil-wanna-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Someone.txt_16,142,cl18-nil-nil-exist-[subj-experiencer-you-sn1,aux-be-nil,def_prop(you,[umano])])
+lf(Someone.txt_16,142,cl19-nil-nil-love-[])
+lf(Someone.txt_16,142,cl18-nil-nil-exist-[subj-experiencer-you-sn1,aux-be-nil,def_prop(you,[umano])])
+lf(Someone.txt_17,161,5-nil-nil-tell-[subj-agent-tell-cl20,subj-theme_unaff-pro-nil,aux-be-nil])
+lf(Someone.txt_17,161,cl21-nil-nil-fall-[xcomp-prop-apart-sn2,subj-agent-you-sn1,aux-had-nil,def_prop(apart,[evaluative]),def_prop(you,[umano])])
+lf(Someone.txt_17,161,cl20-nil-nil-tell-[subj-agent-tell-cl20,subj-theme_unaff-pro-nil,aux-be-nil])
+lf(Someone.txt_18,181,cl22-nil-should-leave-[obj-theme-site-sn2,subj-theme-i-sn1,def_prop(site,[luogo]),def_prop(i,[umano])])
+lf(Someone.txt_19,200,cl23-nil-will-care-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Someone.txt_20,220,cl24-nil-nil-go-[subj-actor-you-sn1,aux-am-nil,def_prop(you,[umano])])

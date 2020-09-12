@@ -1,0 +1,63 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Da Set Lyrics.txt_1-1  []-positive  []
+Da Set Lyrics.txt_2-3  [before-temp_prec,if-hypoth,so-result]-positive  [fgb,fgb,fgb,fgb,neg,neg]
+Da Set Lyrics.txt_3-13  []-positive  [neg,fgb]
+Da Set Lyrics.txt_4-17  [but-advers]-positive  [fgb]
+Da Set Lyrics.txt_5-22  []-positive  []
+Da Set Lyrics.txt_5-23  []-positive  []
+Da Set Lyrics.txt_6-29  []-positive  [fgb,neg]
+Da Set Lyrics.txt_7-36  []-suspension  [neg,bkc,neg]
+Da Set Lyrics.txt_7-37  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Da Set Lyrics.txt_1-1  [da,set,Lyrics,by,69,Boyz]  [title]
+Da Set Lyrics.txt_2-3  [=,Woman-s,line,for,all,the,fellas,on,the,set,who,claim,they,have,funk,in,they,trunk,put,this,in,your,deck,and,see,if,you,can,make,them,speakers,so,,,let-s,head,down,the,avenue,and,before,you,leave,,,drop,top,the,A-come,on,jay,got,the,ride,with,the,bowling-ball,bang,2500,a,dollars,rock,Aw,lookin,good]  [propose_opin_neg(put,[external,factive,result,foreground,objective]),propose_opin_neg(get,[external,factive,circumstance,foreground,objective]),propose_opin_neg(claim,[external,factive,circumstance,background,objective])]
+Da Set Lyrics.txt_3-13  [now,,,on,the,set,it,be,Benz-s,Beamers,a,whole,Lotta,guys,with,loot,Check-check,check-check,it,out,cause,Nothin,better,than,spendin,cash,,,and,catchin,girls,in,them,,,dukes,true,dat,true,dat]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Da Set Lyrics.txt_4-17  [true,dat,but,one,thing,about,the,set,baby]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Da Set Lyrics.txt_5-22  [you,know]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Da Set Lyrics.txt_5-23  [it,is,Gon,be,hype]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Da Set Lyrics.txt_6-29  [Uh,Uh,it,be,plenty,of,food,and,plenty,of,fun]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Da Set Lyrics.txt_7-36  [from,afternoon,till,late,at,night,Uhh,jumped,in,my,ride]  [provide_expl_just(hit,[external,factive,cause,foreground,objective]),suggest(hit,[external,factive,cause,foreground,objective]),provide_expl_just(jump,[external,factive,narration,foreground,objective])]
+Da Set Lyrics.txt_7-37  [,,headed,for,the,set,you,,,know,the-ave,where,all,the,girls,sweat,hit,the,switch,turn,my,CD,on,Toni,Braxton]  [provide_expl_just(hit,[external,factive,cause,foreground,objective]),suggest(hit,[external,factive,cause,foreground,objective]),provide_expl_just(jump,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Da Set Lyrics.txt_1-1)-[]
+2-(Da Set Lyrics.txt_2-3)-[primary-brink,primary-descent,secondary-instru_behavior,emotions-positive_affect,primary-vision,secondary-instru_behavior,secondary-abstract_tought,secondary-social_behavior,primary-narcissism,primary-brink,primary-descent,primary-height,primary-voyage,primary-sound,primary-hard,primary-vision]
+3-(Da Set Lyrics.txt_3-13)-[secondary-temporal_repere,primary-concreteness,secondary-abstract_tought,secondary-instru_behavior,secondary-restraint,secondary-abstract_tought,secondary-abstract_tought,secondary-abstract_tought]
+4-(Da Set Lyrics.txt_4-17)-[secondary-abstract_tought]
+half
+5-(Da Set Lyrics.txt_5-22)-[secondary-abstract_tought]
+6-(Da Set Lyrics.txt_5-23)-[]
+7-(Da Set Lyrics.txt_6-29)-[primary-orality,emotions-positive_affect]
+8-(Da Set Lyrics.txt_7-36)-[secondary-temporal_repere,primary-concreteness,primary-ascend,primary-voyage]
+9-(Da Set Lyrics.txt_7-37)-[primary-narcissism,secondary-abstract_tought,primary-concreteness,primary-anality,emotions-aggression]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Da Set Lyrics.txt_1,1,cl1-nil-nil-set-[arg_mod-agent-Boyz-sn3,obj-goal-Lyrics-sn2,subj-agent-da-sn1,and(Boyz,69,sn3),def_prop(Boyz,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(da,[attivita])])
+lf(Da Set Lyrics.txt_2,3,cl9-nil-nil-claim-[subj-experiencer-set-sn25,ncmod-locativo-deck-sn27,ncmod-locativo-set-sn25,subj-experiencer-set-sn17,subj-experiencer-set-sn5,def_prop(set,[astratto,attivita,evento,istituzione,oggetto,strumento,tempo]),def_prop(deck,[oggetto,strumento]),def_prop(set,[astratto,attivita,evento,istituzione,oggetto,strumento,tempo]),def_prop(set,[astratto,attivita,evento,istituzione,oggetto,strumento,tempo]),def_prop(set,[astratto,attivita,evento,istituzione,oggetto,strumento,tempo])])
+lf(Da Set Lyrics.txt_2,3,cl8-nil-nil-get-[obj-theme-good-sn55,adj-subj_disc-lookin-sn54,obj-theme-Aw-sn53,obj-prop-rock-sn52,obj-theme-bang-sn51,ncmod-comitativo-bowling-ball-sn50,obj-theme_unaff-ride-sn49,subj-agent-head-sn48,subj-agent-head-sn47,and(head,let-s,sn48),and(head,deck,sn47),def_prop(good,[valutativo]),def_prop(lookin,[istituzione]),def_prop(Aw,[istituzione,umano]),def_prop(rock,[attivita,oggetto,sostanza,umano]),def_prop(bang,[body_part,emotivo,evento,umano]),def_prop(bowling-ball,[astratto,attivita,body_part,evento,istituzione,oggetto,strumento,umano]),def_prop(ride,[oggetto,strumento]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano])])
+lf(Da Set Lyrics.txt_2,3,cl7-nil-nil-drop-[cmod-coord-see-and,ncmod-locativo-jay-sn66,subj-actor-A-come-sn65,and(A-come,top,sn65),def_prop(jay,[animato]),def_prop(A-come,[attivita,informa,istituzione])])
+lf(Da Set Lyrics.txt_2,3,cl6-nil-nil-leave-[adj-(mod)-before-nil,subj-theme-you-sn63,def_prop(you,[umano])])
+lf(Da Set Lyrics.txt_2,3,cl5-nil-can-make-[xcomp-prop-speaker-sn46,xcomp-prop-them-sn45,subj-agent-you-sn44,def_prop(speaker,[umano]),def_prop(them,[umano]),def_prop(you,[umano])])
+lf(Da Set Lyrics.txt_2,3,cl4-nil-nil-see-[cmod-coord-claim-and,subj-experiencer-pro-nil])
+lf(Da Set Lyrics.txt_2,3,cl3-nil-nil-put-[iobj-goal-deck-sn41,iobj-goal-deck-sn37,xcomp-agent-this-sn36,subj-agent-you-sn35,iobj-goal-deck-sn32,xcomp-prop-this-sn31,subj-agent-trunk-sn30,xcomp-prop-this-sn26,subj-agent-trunk-sn24,iobj-goal-deck-sn20,xcomp-prop-this-sn19,obj-theme-trunk-sn18,iobj-goal-set-sn17,subj-agent-fella-sn16,iobj-goal-deck-sn8,xcomp-prop-this-sn7,obj-theme-trunk-sn6,iobj-goal-set-sn5,subj-agent-fella-sn4,subj-agent-fella-sn3,and(fella,all,sn16),and(fella,all,sn4),and(fella,all,sn3),def_prop(deck,[oggetto,strumento]),def_prop(deck,[oggetto,strumento]),def_prop(this,[oggetto,umano]),def_prop(you,[umano]),def_prop(deck,[oggetto,strumento]),def_prop(this,[oggetto,umano]),def_prop(trunk,[oggetto,plant,strumento]),def_prop(this,[oggetto,umano]),def_prop(trunk,[oggetto,plant,strumento]),def_prop(deck,[oggetto,strumento]),def_prop(this,[oggetto,umano]),def_prop(trunk,[oggetto,plant,strumento]),def_prop(set,[astratto,attivita,evento,istituzione,oggetto,strumento,tempo]),def_prop(fella,[relat,sociale,umano]),def_prop(deck,[oggetto,strumento]),def_prop(this,[oggetto,umano]),def_prop(trunk,[oggetto,plant,strumento]),def_prop(set,[astratto,attivita,evento,istituzione,oggetto,strumento,tempo]),def_prop(fella,[relat,sociale,umano]),def_prop(fella,[relat,sociale,umano])])
+lf(Da Set Lyrics.txt_2,3,cl2-nil-nil-funk-[ncmod-locativo-they-sn2,subj-actor-they-sn1,aux-have-nil,def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Da Set Lyrics.txt_3,13,cl10-nil-nil-be-[xadj-adj-better-adj1,adj-(mod)-now-nil,xcomp-theme-dat-sn15,xcomp-theme-duke-sn14,ncmod-locativo-them-sn13,xcomp-theme-girl-sn12,xcomp-theme-Nothin-sn11,ncmod-modal-cause-sn10,xcomp-theme-it-sn9,xcomp-prop-check-check-sn8,xcomp-theme-Check-check-sn7,ncmod-comitativo-loot-sn6,xcomp-prop-guy-sn5,xcomp-theme-Lotta-sn4,xcomp-prop-female-sn3,ncmod-locativo-set-sn2,subj-theme_bound-it-sn1,and(girl,catchin,sn12),and(Lotta,whole,sn4),and(female,Benz-s,sn3),def_prop(better,_973406),def_prop(dat,[informa,oggetto,strumento,tecno]),def_prop(duke,[umano]),def_prop(them,[umano]),def_prop(girl,[oggetto,strumento]),def_prop(Nothin,[istituzione,umano]),def_prop(cause,[attivita,evento,informa]),def_prop(it,[any]),def_prop(check-check,[astratto,attivita,cambia,evento,informa,legale,misura,oggetto,stato,strumento,tecno,umano]),def_prop(Check-check,[astratto,attivita,cambia,evento,informa,legale,misura,oggetto,stato,strumento,tecno,umano]),def_prop(loot,[astratto,oggetto]),def_prop(guy,[oggetto,strumento,umano]),def_prop(Lotta,[place,umano]),def_prop(female,[animato,umano]),def_prop(set,[astratto,attivita,evento,istituzione,oggetto,strumento,tempo]),def_prop(it,[any])])
+lf(Da Set Lyrics.txt_4,17,cl11-nil-nil-be-[xcomp-prop-baby-sn3,subj-theme_bound-thing-sn2,subj-theme_bound-thing-sn1,and(thing,dat,sn1),and(thing,true,sn1),def_prop(baby,[animato,any,attivita,plant]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Da Set Lyrics.txt_5,22,cl13-nil-nil-be-[subj-prop-it-sn2,xcomp-prop-Gon-sn3,subj-theme_bound-it-sn2,def_prop(it,[any]),def_prop(Gon,[istituzione,umano]),def_prop(it,[any])])
+lf(Da Set Lyrics.txt_5,22,cl12-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Da Set Lyrics.txt_6,29,cl14-nil-nil-be-[adj-(mod)-plenty-nil,ncmod-specif-food_and_plenty-[sn2,sn3],subj-theme_bound-it-sn1,and(it,it,sn1),def_prop(food_and_plenty,[any,astratto,edible,oggetto,astratto,nquant]),def_prop(it,[any])])
+lf(Da Set Lyrics.txt_7,36,cl18-nil-nil-turn-[])
+lf(Da Set Lyrics.txt_7,36,cl17-nil-nil-hit-[iobj-goal-Braxton-sn15,obj-theme-CD-sn14,obj-theme-switch-sn13,obj-goal-headed-sn10,subj-agent-ride-sn9,and(Braxton,Toni,sn15),and(headed,girl,sn10),def_prop(Braxton,[place,umano]),def_prop(CD,[informa,nquant,oggetto,strumento,tecno]),def_prop(switch,[attivita,oggetto,strumento]),def_prop(headed,[evaluative]),def_prop(ride,[oggetto,strumento])])
+lf(Da Set Lyrics.txt_7,36,cl16-nil-nil-know-[cmod-subord-jump-for,obj-theme_unaff-the-ave-sn21,subj-actor-you-sn20,subj-actor-you-sn19,and(you,set,sn19),def_prop(the-ave,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Da Set Lyrics.txt_7,36,cl15-nil-nil-jump-[adj-locative-late-nil,ncmod-locativo-ride-sn5,obj-theme-Uhh-sn4,ncmod-clock_cal-night-sn3,ncmod-temporale-afternoon-sn2,subj-agent-till-sn1,def_prop(ride,[oggetto,strumento]),def_prop(Uhh,[istituzione,umano]),def_prop(night,[tempo]),def_prop(afternoon,[tempo]),def_prop(till,[sostanza])])

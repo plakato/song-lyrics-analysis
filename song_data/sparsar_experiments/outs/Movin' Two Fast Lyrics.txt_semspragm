@@ -1,0 +1,76 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Movin' Two Fast Lyrics.txt_1-1  []-positive  []
+Movin' Two Fast Lyrics.txt_2-3  []-negative  [neg]
+Movin' Two Fast Lyrics.txt_3-14  []-positive  []
+Movin' Two Fast Lyrics.txt_4-18  []-suspension  [fhd]
+Movin' Two Fast Lyrics.txt_5-24  []-positive  [ack]
+Movin' Two Fast Lyrics.txt_5-25  []-positive  [fgb]
+Movin' Two Fast Lyrics.txt_6-31  []-negative  [neg]
+Movin' Two Fast Lyrics.txt_6-32  [so-result]-positive  [fgb,fgb]
+Movin' Two Fast Lyrics.txt_7-39  []-suspension  [fgb]
+Movin' Two Fast Lyrics.txt_8-48  []-positive  []
+Movin' Two Fast Lyrics.txt_8-49  []-positive  []
+Movin' Two Fast Lyrics.txt_8-50  [(as)-temp_coinc,but-advers]-suspension  [fgb,fgb,neg,fhd,fhd,neg,fgb,neg,neg,ack]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Movin' Two Fast Lyrics.txt_1-1  [two,fast,movin,Lyrics,by,Wrekless]  [title]
+Movin' Two Fast Lyrics.txt_2-3  [guess,we,got,ta,slow,it,down,now,,,think,,,i,am,movin,fast,her,i,think,for,am,moving,too,fast,,,i,said,i,figured,i,had]  [reject_expl_just(slow,[external,factive,narration,background,objective]),reject_expl_just(guess,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(think,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(move,[external,factive,cause,foreground,objective]),reject_expl_just(say,[external,factive,narration,foreground,objective]),reject_expl_just(have,[external,factive,narration,foreground,objective])]
+Movin' Two Fast Lyrics.txt_3-14  [hoping,this,try,!]  [provide_expl_just(hope,[internal,factive,narration,background,objective])]
+Movin' Two Fast Lyrics.txt_4-18  [they,like,that,trying,to,figure,where,my,pride,is-til]  [provide_expl_just(try,[external,factive,narration,foreground,objective]),provide_expl_just(figure,[external,factive,narration,background,objective])]
+Movin' Two Fast Lyrics.txt_5-24  [you,came,right,back]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Movin' Two Fast Lyrics.txt_5-25  [and]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Movin' Two Fast Lyrics.txt_6-31  [i,figure,i,am,in,need,of,a,little,therapy]  [reject_expl_just(need,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Movin' Two Fast Lyrics.txt_6-32  [and,a,good,dose,of,music,so]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Movin' Two Fast Lyrics.txt_7-39  [give,me,a,couple,months,and,i,will,be]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Movin' Two Fast Lyrics.txt_8-48  [back,observing,life,through,the,sky]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Movin' Two Fast Lyrics.txt_8-49  [rise,high,view,,,i,am,the,type,of,dude,to,take,a,climb]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Movin' Two Fast Lyrics.txt_8-50  [and,a,dive,too,with,a,beautiful,dime,brown,skin,and,she,bomb,as,,,a,mine,or,grenade,with,a,shine,like,a,diamond,pilot,physique,got,me,high,as,a,cloud,is,drug,she,my,heroin,but,i,is,not,Amy,wine-ing,searching,through,her,treasure,chest,heart,trying,to,find,it,love,double,excel,at,the,right,time]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Movin' Two Fast Lyrics.txt_1-1)-[primary-orality]
+2-(Movin' Two Fast Lyrics.txt_2-3)-[secondary-abstract_tought,primary-passivity,secondary-temporal_repere,secondary-abstract_tought,primary-orality,secondary-abstract_tought,primary-orality,secondary-social_behavior,secondary-abstract_tought]
+3-(Movin' Two Fast Lyrics.txt_3-14)-[secondary-instru_behavior]
+4-(Movin' Two Fast Lyrics.txt_4-18)-[emotions-affection,secondary-instru_behavior,secondary-abstract_tought,primary-concreteness,emotions-glory]
+5-(Movin' Two Fast Lyrics.txt_5-24)-[secondary-moral_imperative,primary-concreteness]
+6-(Movin' Two Fast Lyrics.txt_5-25)-[]
+half
+7-(Movin' Two Fast Lyrics.txt_6-31)-[secondary-abstract_tought]
+8-(Movin' Two Fast Lyrics.txt_6-32)-[primary-sound]
+9-(Movin' Two Fast Lyrics.txt_7-39)-[secondary-temporal_repere]
+10-(Movin' Two Fast Lyrics.txt_8-48)-[primary-concreteness,primary-height]
+11-(Movin' Two Fast Lyrics.txt_8-49)-[primary-ascend,primary-height,primary-vision,primary-ascend]
+12-(Movin' Two Fast Lyrics.txt_8-50)-[primary-descent,primary-gen_sensation,primary-diffusion,primary-vision,primary-narcissism,primary-vision,emotions-affection,primary-height,primary-diffusion,emotions-glory,primary-narcissism,primary-narcissism,secondary-instru_behavior,secondary-instru_behavior,emotions-affection,primary-concreteness,secondary-moral_imperative,secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Movin' Two Fast Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wrekless-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,two,sn1),and(Lyrics,fast,sn1),def_prop(Wrekless,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Movin' Two Fast Lyrics.txt_2,3,cl9-nil-nil-have-[])
+lf(Movin' Two Fast Lyrics.txt_2,3,cl8-nil-nil-figure-[])
+lf(Movin' Two Fast Lyrics.txt_2,3,cl7-nil-nil-say-[])
+lf(Movin' Two Fast Lyrics.txt_2,3,cl6-nil-nil-move-[aux-am-nil,progr-moving-nil])
+lf(Movin' Two Fast Lyrics.txt_2,3,cl5-nil-nil-be-[])
+lf(Movin' Two Fast Lyrics.txt_2,3,cl4-nil-nil-think-[])
+lf(Movin' Two Fast Lyrics.txt_2,3,cl3-nil-nil-slow-[adj-(mod)-now-nil,xcomp-prop-down-sn19,subj-agent-it-sn18,xcomp-prop-down-sn15,subj-agent-it-sn14,subj-agent-it-sn13,and(it,ta,sn13),def_prop(now,[istituzione]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(it,[any]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Movin' Two Fast Lyrics.txt_2,3,cl2-nil-nil-get-[cmod-subord-guess-nil])
+lf(Movin' Two Fast Lyrics.txt_2,3,nil-nil-nil-guess-[adj-(mod)-too-nil,obj-theme-i-sn7,xcomp-prop-fast-sn6,obj-theme-think-sn5,xcomp-prop-fast-sn4,xcomp-prop-movin-sn3,subj-experiencer-we-sn2,subj-experiencer-we-sn1,and(we,you,sn1),def_prop(i,[umano]),def_prop(fast,[valutativo]),def_prop(think,[astratto]),def_prop(fast,[valutativo]),def_prop(movin,[istituzione]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Movin' Two Fast Lyrics.txt_3,14,cl10-nil-nil-hope-[obj-theme-this-sn2,subj-actor-try-sn1,def_prop(this,[oggetto,umano]),def_prop(try,[attivita,legale])])
+lf(Movin' Two Fast Lyrics.txt_4,18,cl12-nil-nil-figure-[adj-(mod)-try-nil,obj-theme_unaff-where-sn2,xcomp-purpose-try-2,def_prop(where,[luogo])])
+lf(Movin' Two Fast Lyrics.txt_4,18,cl11-nil-nil-try-[xadj-adj-that-adj1,subj-actor-they-sn1,def_prop(that,_533640),def_prop(they,[umano])])
+lf(Movin' Two Fast Lyrics.txt_5,24,cl14-nil-nil-be-[])
+lf(Movin' Two Fast Lyrics.txt_5,24,cl13-nil-nil-come-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Movin' Two Fast Lyrics.txt_6,31,cl16-nil-nil-need-[])
+lf(Movin' Two Fast Lyrics.txt_6,31,cl15-nil-nil-be-[cmod-subord-be-",subj-theme_bound-dose-sn6,ncmod-theme-therapy-sn3,xcomp-purpose-need-cl16,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(dose,good,sn6),and(therapy,little,sn3),and(i,figure,sn1),def_prop(dose,[nquant,oggetto,strumento]),def_prop(therapy,[attivita]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Movin' Two Fast Lyrics.txt_7,39,cl18-nil-will-be-[cmod-coord-be-and,subj-theme_bound-pro-nil,subj-theme_bound-i-sn5,def_prop(i,[umano])])
+lf(Movin' Two Fast Lyrics.txt_7,39,cl17-nil-nil-give-[obj2-paziente-couple-sn3,obj-goal-me-sn2,subj-actor-you-sn1,def_prop(couple,[nquant,oggetto]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Movin' Two Fast Lyrics.txt_8,48,cl21-nil-nil-take-[obj-prop-it-sn19,xcomp-purpose-find-3,ncmod-location-treasure-sn16,ncmod-location-sky-sn3,def_prop(it,[any]),def_prop(treasure,[astratto,oggetto]),def_prop(sky,[oggetto])])
+lf(Movin' Two Fast Lyrics.txt_8,48,cl20-not-nil-be-[adj-(mod)-too-nil,xcomp-tema_bound-double-sn20,xcomp-theme_aff-hear-sn18,xcomp-theme_aff-chess-sn17,xcomp-theme-searching-sn15,xcomp-prop-wine-ing-sn14,xcomp-prop-i-sn13,xcomp-prop-skin-sn12,sp-sn10-dime-sn11,subj-theme_bound-dive-sn10,xcomp-theme-climb-sn8,xcomp-purpose-take-2,xcomp-prop-type-sn7,subj-sn5-i-sn6,xcomp-prop-view-sn5,subj-theme_bound-rise-sn4,and(wine-ing,Amy,sn14),and(skin,brown,sn12),and(dime,beautiful,sn11),and(view,high,sn5),def_prop(double,[astratto,attivita,umano]),def_prop(hear,[istituzione]),def_prop(chess,[attivita,plant]),def_prop(searching,[attivita]),def_prop(wine-ing,[astratto,edible,oggetto]),def_prop(i,[umano]),def_prop(skin,[body_part,oggetto,sostanza,stato,strumento,umano]),def_prop(dime,[astratto,oggetto]),def_prop(dive,[attivita]),def_prop(climb,[attivita,evento]),def_prop(type,[astratto]),def_prop(i,[umano]),def_prop(view,[astratto,attivita,luogo]),def_prop(rise,[astratto,attivita,evento])])
+lf(Movin' Two Fast Lyrics.txt_8,48,cl19-nil-nil-observe-[obj-theme_unaff-life-sn2,subj-agent-back-sn1,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano])])

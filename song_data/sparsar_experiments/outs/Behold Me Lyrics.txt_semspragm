@@ -1,0 +1,72 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Behold Me Lyrics.txt_1-1  []-positive  []
+Behold Me Lyrics.txt_2-3  []-negative  [fgb]
+Behold Me Lyrics.txt_3-8  [(as)-temp_coinc,then-temp_seq]-negative  [neg]
+Behold Me Lyrics.txt_4-15  []-negative  [neg]
+Behold Me Lyrics.txt_4-16  []-positive  [fgb]
+Behold Me Lyrics.txt_5-21  []-positive  [fgb]
+Behold Me Lyrics.txt_5-22  []-positive  []
+Behold Me Lyrics.txt_6-28  [(as)-temp_coinc]-negative  []
+Behold Me Lyrics.txt_6-29  []-positive  [fgb]
+Behold Me Lyrics.txt_7-35  []-positive  []
+Behold Me Lyrics.txt_8-45  []-positive  []
+Behold Me Lyrics.txt_8-46  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Behold Me Lyrics.txt_1-1  [behold,me,Lyrics,by,the,Wrens]  [title]
+Behold Me Lyrics.txt_2-3  [there,is,a,twisting,of,things,it,and,starts,till,it,rings]  [provide_expl_just(start,[external,factive,inception,background,objective]),suggest(start,[external,factive,inception,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),propose_opin_neg(ring,[external,factive,explanation,background,objective])]
+Behold Me Lyrics.txt_3-8  [comes,as,cold,then,it,is,gone,can,you,help,me]  [reject_expl_just(help,[external,factive,narration,background,objective]),reject_expl_just(go,[external,factive,narration,foreground,objective])]
+Behold Me Lyrics.txt_4-15  [there,is,a,struggle,of,pants]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Behold Me Lyrics.txt_4-16  [and,of,skin,ants,covered]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Behold Me Lyrics.txt_5-21  [and,with,that,it,is,done,to,can]  [provide_expl_just(help,[external,factive,narration,background,objective])]
+Behold Me Lyrics.txt_5-22  [you,help,me]  [provide_expl_just(help,[external,factive,narration,background,objective])]
+Behold Me Lyrics.txt_6-28  [there,is,a,darkening,joy,as]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Behold Me Lyrics.txt_6-29  [i,am,both,girl,and,boy]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Behold Me Lyrics.txt_7-35  [have,my_way,with,ourselves,can,you,help,me]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,foreground,objective]),provide_expl_just(help,[external,factive,narration,background,objective])]
+Behold Me Lyrics.txt_8-45  [the,things,i,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(behold,[external,factive,narration,background,objective])]
+Behold Me Lyrics.txt_8-46  [/,behold,one,side,of,me,me]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(behold,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Behold Me Lyrics.txt_1-1)-[primary-vision]
+2-(Behold Me Lyrics.txt_2-3)-[primary-vision,secondary-temporal_repere,primary-sound]
+3-(Behold Me Lyrics.txt_3-8)-[primary-cold,secondary-temporal_repere,secondary-social_behavior]
+4-(Behold Me Lyrics.txt_4-15)-[emotions-aggression]
+5-(Behold Me Lyrics.txt_4-16)-[primary-narcissism]
+6-(Behold Me Lyrics.txt_5-21)-[]
+half
+7-(Behold Me Lyrics.txt_5-22)-[secondary-social_behavior]
+8-(Behold Me Lyrics.txt_6-28)-[emotions-positive_affect]
+9-(Behold Me Lyrics.txt_6-29)-[]
+10-(Behold Me Lyrics.txt_7-35)-[secondary-social_behavior]
+11-(Behold Me Lyrics.txt_8-45)-[secondary-abstract_tought]
+12-(Behold Me Lyrics.txt_8-46)-[primary-vision,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Behold Me Lyrics.txt_1,1,cl1-nil-nil-behold-[arg_mod-agent-Wrens-sn3,obj-theme-Lyrics-sn2,subj-agent-me-sn1,def_prop(Wrens,[istituzione]),def_prop(Lyrics,[informa,tecno]),def_prop(me,[umano])])
+lf(Behold Me Lyrics.txt_2,3,cl4-nil-nil-ring-[subj-agent-pro-nil,subj-agent-till-sn4,subj-theme-till-sn3,def_prop(till,[sostanza]),def_prop(till,[sostanza])])
+lf(Behold Me Lyrics.txt_2,3,cl3-nil-nil-start-[subj-agent-till-sn3,subj-agent-twisting-sn2,def_prop(till,[sostanza]),def_prop(twisting,[attivita,cambia,danger,evento])])
+lf(Behold Me Lyrics.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-there-sn1,def_prop(there,[any])])
+lf(Behold Me Lyrics.txt_3,8,cl8-nil-nil-help-[xcomp-result-me-sn4,xcomp-purpose-help-5,xcomp-prop-cold-sn2,def_prop(me,[umano]),def_prop(cold,[valutativo])])
+lf(Behold Me Lyrics.txt_3,8,cl7-nil-nil-can-[subj-theme-it-sn6,subj-theme-it-sn5,def_prop(it,[any]),def_prop(it,[any])])
+lf(Behold Me Lyrics.txt_3,8,cl6-nil-nil-go-[subj-actor-it-sn6,subj-actor-it-sn5,aux-(is)-nil,def_prop(it,[any]),def_prop(it,[any])])
+lf(Behold Me Lyrics.txt_3,8,cl5-nil-nil-come-[cmod-subord-go-1,subj-sn1-you-sn3,subj-actor-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Behold Me Lyrics.txt_4,15,cl10-nil-nil-cover-[cmod-subord-cover-",ncmod-specif-skin-sn5,subj-agent-ant-sn4,def_prop(skin,[body_part,oggetto,sostanza,stato,strumento,umano]),def_prop(ant,[animato])])
+lf(Behold Me Lyrics.txt_4,15,cl9-nil-nil-be-[xcomp-prop-struggle-sn2,subj-theme_bound-there-sn1,def_prop(struggle,[attivita]),def_prop(there,[any])])
+lf(Behold Me Lyrics.txt_5,21,cl12-nil-nil-help-[xcomp-prop-me-sn4,subj-agent-you-sn3,adj-(mod)-be-nil,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Behold Me Lyrics.txt_5,21,cl11-nil-nil-be-[xcomp-prop-done-sn2,subj-theme_bound-it-sn1,def_prop(done,[evaluative]),def_prop(it,[any])])
+lf(Behold Me Lyrics.txt_6,28,cl13-nil-nil-be-[xcomp-prop-boy-sn4,subj-theme_bound-i-sn3,xcomp-prop-joy-sn2,subj-theme_bound-there-sn1,and(boy,both,sn4),and(boy,girl,sn4),and(joy,darkening,sn2),def_prop(boy,[oggetto,strumento]),def_prop(i,[umano]),def_prop(joy,[astratto,emotivo]),def_prop(there,[any])])
+lf(Behold Me Lyrics.txt_7,35,cl16-nil-nil-help-[])
+lf(Behold Me Lyrics.txt_7,35,cl15-nil-can-can-[])
+lf(Behold Me Lyrics.txt_7,35,cl14-nil-nil-have-[xcomp-prop-me-sn3,xcomp-tema_bound-you-sn2,subj-experiencer-my_way-sn1,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(my_way,[astratto,attivita,informa,oggetto,stato,strumento,tecno])])
+lf(Behold Me Lyrics.txt_8,45,cl18-nil-nil-behold-[obj-theme-me-sn5,subj-agent-you-sn4,and(me,side,sn5),and(me,one,sn5),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Behold Me Lyrics.txt_8,45,cl17-nil-nil-know-[subj-actor-i-sn2,subj-actor-i-sn1,and(i,thing,sn1),def_prop(i,[umano]),def_prop(i,[umano])])

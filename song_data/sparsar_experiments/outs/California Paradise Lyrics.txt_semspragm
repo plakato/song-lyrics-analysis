@@ -1,0 +1,96 @@
+"POLARITY, DISCOURSE MARKERS"
+
+California Paradise Lyrics.txt_1-1  []-positive  []
+California Paradise Lyrics.txt_2-3  []-positive  []
+California Paradise Lyrics.txt_3-6  []-positive  [fgb]
+California Paradise Lyrics.txt_4-10  []-positive  [fhd]
+California Paradise Lyrics.txt_5-15  []-negative  [neg]
+California Paradise Lyrics.txt_6-21  []-positive  []
+California Paradise Lyrics.txt_7-28  []-negative  [neg]
+California Paradise Lyrics.txt_8-36  []-positive  []
+California Paradise Lyrics.txt_8-37  [so-result]-positive  [fgb]
+California Paradise Lyrics.txt_9-45  []-positive  []
+California Paradise Lyrics.txt_10-55  []-positive  []
+California Paradise Lyrics.txt_11-66  []-positive  []
+California Paradise Lyrics.txt_12-78  []-positive  []
+California Paradise Lyrics.txt_12-79  []-positive  [fgb]
+California Paradise Lyrics.txt_13-92  []-positive  []
+California Paradise Lyrics.txt_14-106  []-positive  []
+California Paradise Lyrics.txt_15-121  []-negative  [neg,fgb]
+California Paradise Lyrics.txt_16-137  []-positive  []
+California Paradise Lyrics.txt_16-138  [so-result]-positive  [fgb]
+California Paradise Lyrics.txt_17-154  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+California Paradise Lyrics.txt_1-1  [california,Paradise,Lyrics,by,the,Runaways]  [title]
+California Paradise Lyrics.txt_2-3  [turn,up,that,radio]  [raise_issue(be,[_335790,factive,statement,_335808,subjective])]
+California Paradise Lyrics.txt_3-6  [the,rock,and,roll,hear]  [provide_expl_just(hear,[external,factive,narration,background,objective])]
+California Paradise Lyrics.txt_4-10  [Malibu,shines,like,summer,gold]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+California Paradise Lyrics.txt_5-15  [wild,beaches]  reject_expl_opin(nil,[])
+California Paradise Lyrics.txt_6-21  [in,the,salty,wind]  [provide_expl_just(win,[external,factive,narration,background,objective])]
+California Paradise Lyrics.txt_7-28  [california,summers,never,end]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+California Paradise Lyrics.txt_8-36  [you,california,are]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+California Paradise Lyrics.txt_8-37  [so,nice]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+California Paradise Lyrics.txt_9-45  [california,your,paradise]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+California Paradise Lyrics.txt_10-55  [the,kids,are,ripping,up,the,streets]  [provide_expl_just(rip,[external,factive,cause,foreground,objective])]
+California Paradise Lyrics.txt_11-66  [in,their,super,cars]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+California Paradise Lyrics.txt_12-78  [all,night,parties]  [provide_expl_just(parties,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+California Paradise Lyrics.txt_12-79  [and,loud,guitars]  [provide_expl_just(parties,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+California Paradise Lyrics.txt_13-92  [hot,hot,neighbourhoods]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+California Paradise Lyrics.txt_14-106  [the,silver,its,sound]  [provide_expl_just(sound,[external,factive,narration,background,objective])]
+California Paradise Lyrics.txt_15-121  [wicked,Hollywood,goes,round,and,round]  [reject_expl_just(go,[external,factive,narration,background,objective])]
+California Paradise Lyrics.txt_16-137  [you,california,are]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+California Paradise Lyrics.txt_16-138  [so,nice]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+California Paradise Lyrics.txt_17-154  [california,your,paradise]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(California Paradise Lyrics.txt_1-1)-[]
+2-(California Paradise Lyrics.txt_2-3)-[]
+3-(California Paradise Lyrics.txt_3-6)-[primary-hard,primary-random_movement,primary-sound]
+4-(California Paradise Lyrics.txt_4-10)-[primary-vision,emotions-affection,emotions-glory]
+5-(California Paradise Lyrics.txt_5-15)-[primary-chaos,primary-water]
+6-(California Paradise Lyrics.txt_6-21)-[primary-orality,secondary-instru_behavior]
+7-(California Paradise Lyrics.txt_7-28)-[]
+8-(California Paradise Lyrics.txt_8-36)-[]
+9-(California Paradise Lyrics.txt_8-37)-[]
+10-(California Paradise Lyrics.txt_9-45)-[]
+half
+11-(California Paradise Lyrics.txt_10-55)-[primary-brink]
+12-(California Paradise Lyrics.txt_11-66)-[]
+13-(California Paradise Lyrics.txt_12-78)-[]
+14-(California Paradise Lyrics.txt_12-79)-[primary-sound,emotions-expressive_beh]
+15-(California Paradise Lyrics.txt_13-92)-[primary-fire,primary-fire]
+16-(California Paradise Lyrics.txt_14-106)-[primary-sound]
+17-(California Paradise Lyrics.txt_15-121)-[primary-concreteness,primary-concreteness]
+18-(California Paradise Lyrics.txt_16-137)-[]
+19-(California Paradise Lyrics.txt_16-138)-[]
+20-(California Paradise Lyrics.txt_17-154)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(California Paradise Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-runaway-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Paradise,sn1),and(Lyrics,california,sn1),def_prop(runaway,[evento]),def_prop(Lyrics,[informa,tecno])])
+lf(California Paradise Lyrics.txt_2,3,cl2-nil-nil-turn-[adj-locative-up-nil,adj-subj_disc-up-sn3,obj-theme-radio-sn2,subj-agent-you-sn1,and(radio,that,sn2),def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(radio,[attivita,informa,oggetto,strumento]),def_prop(you,[umano])])
+lf(California Paradise Lyrics.txt_3,6,cl3-nil-nil-hear-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(California Paradise Lyrics.txt_4,10,cl4-nil-nil-be-[subj-theme_bound-gold-sn2,subj-theme_bound-gold-sn1,def_prop(gold,[astratto,oggetto,sostanza]),def_prop(gold,[astratto,oggetto,sostanza])])
+lf(California Paradise Lyrics.txt_5,15,cl5-nil-nil-say-[obj-theme_unaff-beach-sn1,and(beach,wild,sn1),def_prop(beach,[oggetto])])
+lf(California Paradise Lyrics.txt_6,21,cl6-nil-nil-win-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(California Paradise Lyrics.txt_7,28,cl7-nil-nil-be-[subj-theme_bound-california-sn1,def_prop(california,[istituzione,umano])])
+lf(California Paradise Lyrics.txt_8,36,cl8-nil-nil-be-[subj-theme_bound-you-sn3,ncmod-modal-you-sn2,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(California Paradise Lyrics.txt_9,45,cl9-nil-nil-be-[subj-theme_bound-paradise-sn2,subj-theme_bound-paradise-sn1,def_prop(paradise,[luogo]),def_prop(paradise,[luogo])])
+lf(California Paradise Lyrics.txt_10,55,cl10-nil-nil-rip-[obj-patient-street-sn2,subj-agent-kid-sn1,aux-are-nil,progr-ripping-nil,def_prop(street,[oggetto,stato,strumento]),def_prop(kid,[animato,sostanza,umano])])
+lf(California Paradise Lyrics.txt_11,66,cl11-nil-nil-be-[ncmod-locativo-super-sn2,subj-theme_bound-car-sn1,def_prop(super,[relat,sociale,umano]),def_prop(car,[oggetto,strumento])])
+lf(California Paradise Lyrics.txt_12,78,cl12-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(California Paradise Lyrics.txt_12,78,nil-nil-nil-parties-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(California Paradise Lyrics.txt_13,92,cl13-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(California Paradise Lyrics.txt_14,106,cl14-nil-nil-sound-[ncmod-modal-silver-sn2,subj-experiencer-you-sn1,def_prop(silver,[astratto,oggetto,sostanza]),def_prop(you,[umano])])
+lf(California Paradise Lyrics.txt_15,121,cl15-nil-nil-go-[coord-prop-round_and_round-sn4,xcomp-prop-round-sn3,xcomp-prop-round-sn2,subj-agent-Hollywood-sn1,and(Hollywood,wicked,sn1),def_prop(round_and_round,[attivita,edible,informa,oggetto,strumento,attivita,edible,informa,oggetto,strumento]),def_prop(round,[attivita,edible,informa,oggetto,strumento,attivita,edible,informa,oggetto,strumento]),def_prop(round,[attivita,edible,informa,oggetto,strumento,attivita,edible,informa,oggetto,strumento]),def_prop(Hollywood,[place,istituzione,luogo,stato])])
+lf(California Paradise Lyrics.txt_16,137,cl16-nil-nil-be-[subj-theme_bound-you-sn3,ncmod-modal-you-sn2,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(California Paradise Lyrics.txt_17,154,cl17-nil-nil-be-[subj-theme_bound-paradise-sn2,subj-theme_bound-paradise-sn1,def_prop(paradise,[luogo]),def_prop(paradise,[luogo])])

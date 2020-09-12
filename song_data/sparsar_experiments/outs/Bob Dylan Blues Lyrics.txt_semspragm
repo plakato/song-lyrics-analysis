@@ -1,0 +1,222 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Bob Dylan Blues Lyrics.txt_1-1  []-positive  []
+Bob Dylan Blues Lyrics.txt_2-3  []-positive  []
+Bob Dylan Blues Lyrics.txt_3-6  []-positive  [fgb]
+Bob Dylan Blues Lyrics.txt_4-10  []-negative  [fgb,fgb,neg]
+Bob Dylan Blues Lyrics.txt_5-15  [but-advers]-positive  [fgb]
+Bob Dylan Blues Lyrics.txt_5-16  []-negative  [neg,neg]
+Bob Dylan Blues Lyrics.txt_6-22  []-positive  []
+Bob Dylan Blues Lyrics.txt_6-23  []-positive  []
+Bob Dylan Blues Lyrics.txt_7-30  []-positive  [fgb,ack]
+Bob Dylan Blues Lyrics.txt_7-31  []-negative  [fgb,fgb,neg]
+Bob Dylan Blues Lyrics.txt_8-38  []-positive  [fgb,fgb]
+Bob Dylan Blues Lyrics.txt_9-47  [while-temp_coinc]-positive  [fhd]
+Bob Dylan Blues Lyrics.txt_10-57  []-negative  []
+Bob Dylan Blues Lyrics.txt_11-71  []-negative  [fgb,neg]
+Bob Dylan Blues Lyrics.txt_11-72  []-positive  []
+Bob Dylan Blues Lyrics.txt_12-84  []-positive  []
+Bob Dylan Blues Lyrics.txt_13-98  []-positive  []
+Bob Dylan Blues Lyrics.txt_14-112  [(as)-temp_coinc]-positive  [fgb]
+Bob Dylan Blues Lyrics.txt_15-127  []-positive  []
+Bob Dylan Blues Lyrics.txt_16-143  []-suspension  []
+Bob Dylan Blues Lyrics.txt_17-161  [but-advers]-negative  [fgb]
+Bob Dylan Blues Lyrics.txt_18-179  []-positive  [fgb,neg]
+Bob Dylan Blues Lyrics.txt_19-199  []-positive  []
+Bob Dylan Blues Lyrics.txt_20-219  [but-advers,though-advers]-positive  [fgb]
+Bob Dylan Blues Lyrics.txt_21-240  []-positive  [fgb]
+Bob Dylan Blues Lyrics.txt_22-262  [so-result]-suspension  [fgb,neg,neg]
+Bob Dylan Blues Lyrics.txt_23-285  []-negative  []
+Bob Dylan Blues Lyrics.txt_24-312  []-negative  [fgb,neg]
+Bob Dylan Blues Lyrics.txt_24-313  []-positive  []
+Bob Dylan Blues Lyrics.txt_25-338  []-positive  []
+Bob Dylan Blues Lyrics.txt_26-365  []-positive  []
+Bob Dylan Blues Lyrics.txt_27-392  [(as)-temp_coinc]-positive  [fgb]
+Bob Dylan Blues Lyrics.txt_28-420  []-positive  [fgb]
+Bob Dylan Blues Lyrics.txt_29-449  []-suspension  [fgb]
+Bob Dylan Blues Lyrics.txt_30-480  []-suspension  []
+Bob Dylan Blues Lyrics.txt_31-513  []-positive  []
+Bob Dylan Blues Lyrics.txt_32-545  []-positive  [fgb]
+Bob Dylan Blues Lyrics.txt_33-579  []-suspension  [neg]
+Bob Dylan Blues Lyrics.txt_34-614  []-positive  [fgb]
+Bob Dylan Blues Lyrics.txt_35-649  [when-temp_coinc]-positive  [fgb]
+Bob Dylan Blues Lyrics.txt_36-687  []-negative  []
+Bob Dylan Blues Lyrics.txt_37-727  []-negative  [fgb,neg]
+Bob Dylan Blues Lyrics.txt_37-728  []-positive  []
+Bob Dylan Blues Lyrics.txt_38-766  []-positive  []
+Bob Dylan Blues Lyrics.txt_39-806  []-positive  []
+Bob Dylan Blues Lyrics.txt_40-846  [(as)-temp_coinc]-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Bob Dylan Blues Lyrics.txt_1-1  [Bob,Dylan,Blues,Lyrics,by,Syd,Barrett]  [title]
+Bob Dylan Blues Lyrics.txt_2-3  [Bob,the,Dylan,blues,got]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Bob Dylan Blues Lyrics.txt_3-6  [and,Bob,the,Dylan,shoes]  [provide_expl_just(shoe,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_4-10  [and,my,clothes,and,my,hair-s,in,a,mess]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_5-15  [but,you,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(care,[external,nonfactive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_5-16  [i,just,could,not,care,less]  [reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(care,[external,nonfactive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_6-22  [goin,to,write,me,a,song]  [provide_expl_just(write,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_6-23  [']  [provide_expl_just(write,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_7-30  [what,Bout,is,right]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_7-31  [and,what,is,wrong]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_8-38  [Bout,god,and,my,god,and,all,that]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_9-47  [quiet,while,i,make,like,a,cat]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_10-57  [cause,i,am,a,poet,don-t,ya,know,it]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_11-71  [the,you,wind,and,can,blow]  [reject_expl_just(blow,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_11-72  [it]  [provide_expl_just(blow,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_12-84  [cause,i,am,Mr]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_13-98  [Dylan,the,king]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_14-112  [and,i,am,free,as,a,bird,on,the,wind]  [provide_expl_just(free,[external,factive,narration,foreground,objective])]
+Bob Dylan Blues Lyrics.txt_15-127  [roam,from,town,to,town]  [provide_expl_just(roam,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_16-143  [guess,i,get,people,down]  [provide_expl_just(guess,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_17-161  [but,i,don-t,care,too_much,about,that]  [provide_expl_just(care,[external,factive,narration,foreground,objective])]
+Bob Dylan Blues Lyrics.txt_18-179  [cause,my,gut,and,my,wallet,are,fat]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_19-199  [make,a,whole,Lotta,dough]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_20-219  [but,i,deserve,it,though]  [provide_expl_just(deserve,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_21-240  [i,have,got,a,good,heart,of,gold,and,soul]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_22-262  [so,i,will,sing,about,war,in,the,cold]  [provide_expl_just(sing,[external,nonfactive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_23-285  [cause,i,am,a,poet,don-t,ya,know,it]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_24-312  [the,you,wind,and,can,blow]  [reject_expl_just(blow,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_24-313  [it]  [provide_expl_just(blow,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_25-338  [cause,i,am,Mr]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_26-365  [Dylan,the,king]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_27-392  [and,i,am,free,as,a,bird,on,the,wind]  [provide_expl_just(free,[external,factive,narration,foreground,objective])]
+Bob Dylan Blues Lyrics.txt_28-420  [well,i,sing,about,dreams]  [provide_expl_just(sing,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_29-449  [and,i,rhymes,it,with,seems]  [provide_expl_just(seem,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_30-480  [cause,it,seems,that,my,dream,always,means]  [provide_expl_just(seem,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective]),provide_expl_just(mean,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_31-513  [that,i,can,prophesy,all,kinds,of,things]  [provide_expl_just(prophesy,[external,nonfactive,narration,foreground,objective])]
+Bob Dylan Blues Lyrics.txt_32-545  [well,the,guy,that,digs,me]  [provide_expl_just(dig,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_33-579  [should,try,hard,to,see]  [provide_expl_just(see,[external,factive,narration,background,objective]),propose_opin(try,[external,nonfactive,narration,foreground,objective]),provide_expl_just(try,[external,nonfactive,narration,foreground,objective])]
+Bob Dylan Blues Lyrics.txt_34-614  [that,he,buys,a,hat,and,all,my,discs]  [provide_expl_just(buy,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_35-649  [and,when,i,am,in,town,,,go,see,that]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_36-687  [cause,i,am,a,poet,don-t,ya,know,it]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_37-727  [the,you,wind,and,can,blow]  [reject_expl_just(blow,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_37-728  [it]  [provide_expl_just(blow,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_38-766  [cause,i,am,Mr]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(cause,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_39-806  [Dylan,the,king]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bob Dylan Blues Lyrics.txt_40-846  [and,i,am,free,as,a,bird,on,the,wind]  [provide_expl_just(free,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Bob Dylan Blues Lyrics.txt_1-1)-[]
+2-(Bob Dylan Blues Lyrics.txt_2-3)-[primary-vision]
+3-(Bob Dylan Blues Lyrics.txt_3-6)-[]
+4-(Bob Dylan Blues Lyrics.txt_4-10)-[primary-narcissism,primary-anality]
+5-(Bob Dylan Blues Lyrics.txt_5-15)-[secondary-abstract_tought]
+6-(Bob Dylan Blues Lyrics.txt_5-16)-[]
+7-(Bob Dylan Blues Lyrics.txt_6-22)-[]
+8-(Bob Dylan Blues Lyrics.txt_6-23)-[]
+9-(Bob Dylan Blues Lyrics.txt_7-30)-[secondary-moral_imperative]
+10-(Bob Dylan Blues Lyrics.txt_7-31)-[]
+11-(Bob Dylan Blues Lyrics.txt_8-38)-[]
+12-(Bob Dylan Blues Lyrics.txt_9-47)-[primary-passivity,secondary-temporal_repere,secondary-instru_behavior,emotions-affection]
+13-(Bob Dylan Blues Lyrics.txt_10-57)-[secondary-abstract_tought,emotions-expressive_beh,secondary-abstract_tought]
+14-(Bob Dylan Blues Lyrics.txt_11-71)-[secondary-instru_behavior]
+15-(Bob Dylan Blues Lyrics.txt_11-72)-[]
+16-(Bob Dylan Blues Lyrics.txt_12-84)-[secondary-abstract_tought]
+17-(Bob Dylan Blues Lyrics.txt_13-98)-[]
+18-(Bob Dylan Blues Lyrics.txt_14-112)-[primary-height,secondary-instru_behavior]
+19-(Bob Dylan Blues Lyrics.txt_15-127)-[primary-voyage]
+20-(Bob Dylan Blues Lyrics.txt_16-143)-[secondary-abstract_tought]
+21-(Bob Dylan Blues Lyrics.txt_17-161)-[]
+22-(Bob Dylan Blues Lyrics.txt_18-179)-[secondary-abstract_tought,primary-orality,primary-brink,primary-orality]
+23-(Bob Dylan Blues Lyrics.txt_19-199)-[secondary-instru_behavior]
+half
+24-(Bob Dylan Blues Lyrics.txt_20-219)-[]
+25-(Bob Dylan Blues Lyrics.txt_21-240)-[primary-narcissism,emotions-glory]
+26-(Bob Dylan Blues Lyrics.txt_22-262)-[emotions-expressive_beh,emotions-aggression,primary-cold]
+27-(Bob Dylan Blues Lyrics.txt_23-285)-[secondary-abstract_tought,emotions-expressive_beh,secondary-abstract_tought]
+28-(Bob Dylan Blues Lyrics.txt_24-312)-[secondary-instru_behavior]
+29-(Bob Dylan Blues Lyrics.txt_24-313)-[]
+30-(Bob Dylan Blues Lyrics.txt_25-338)-[secondary-abstract_tought]
+31-(Bob Dylan Blues Lyrics.txt_26-365)-[]
+32-(Bob Dylan Blues Lyrics.txt_27-392)-[primary-height,secondary-instru_behavior]
+33-(Bob Dylan Blues Lyrics.txt_28-420)-[emotions-expressive_beh,primary-counscious]
+34-(Bob Dylan Blues Lyrics.txt_29-449)-[primary-vision]
+35-(Bob Dylan Blues Lyrics.txt_30-480)-[secondary-abstract_tought,primary-vision,primary-counscious]
+36-(Bob Dylan Blues Lyrics.txt_31-513)-[emotions-affection]
+37-(Bob Dylan Blues Lyrics.txt_32-545)-[primary-descent]
+38-(Bob Dylan Blues Lyrics.txt_33-579)-[secondary-moral_imperative,secondary-instru_behavior,primary-hard,primary-vision]
+39-(Bob Dylan Blues Lyrics.txt_34-614)-[secondary-instru_behavior]
+40-(Bob Dylan Blues Lyrics.txt_35-649)-[secondary-temporal_repere,primary-vision]
+41-(Bob Dylan Blues Lyrics.txt_36-687)-[secondary-abstract_tought,emotions-expressive_beh,secondary-abstract_tought]
+42-(Bob Dylan Blues Lyrics.txt_37-727)-[secondary-instru_behavior]
+43-(Bob Dylan Blues Lyrics.txt_37-728)-[]
+44-(Bob Dylan Blues Lyrics.txt_38-766)-[secondary-abstract_tought]
+45-(Bob Dylan Blues Lyrics.txt_39-806)-[]
+46-(Bob Dylan Blues Lyrics.txt_40-846)-[primary-height,secondary-instru_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Bob Dylan Blues Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Barrett-sn2,subj-theme_bound-Lyrics-sn1,and(Barrett,Syd,sn2),and(Lyrics,Blue,sn1),and(Lyrics,Bob,sn1),def_prop(Barrett,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Bob Dylan Blues Lyrics.txt_2,3,cl2-nil-nil-get-[obj-theme-Bob-sn2,subj-agent-you-sn1,def_prop(Bob,[umano]),def_prop(you,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_3,6,cl3-nil-nil-shoe-[cmod-subord-shoe-",obj-theme-Bob-sn2,subj-agent-you-sn1,def_prop(Bob,[umano]),def_prop(you,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_4,10,cl4-nil-nil-be-[cmod-subord-be-",subj-theme_bound-hair-s-sn2,subj-theme_bound-hair-s-sn1,and(hair-s,you,sn1),def_prop(hair-s,[animato,body_part,nquant,plant,umano]),def_prop(hair-s,[animato,body_part,nquant,plant,umano])])
+lf(Bob Dylan Blues Lyrics.txt_5,15,cl6-not-could-care-[obj-theme_aff-less-sn3,subj-experiencer-i-sn2,def_prop(less,[astratto,informa,oggetto]),def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_5,15,cl5-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_6,22,cl8-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_6,22,cl7-nil-nil-write-[obj2-recipient-song-sn3,obj-source_information-me-sn2,subj-agent-goin-sn1,def_prop(song,[astratto,attivita,evento,informa,oggetto]),def_prop(me,[umano]),def_prop(goin,[istituzione])])
+lf(Bob Dylan Blues Lyrics.txt_7,30,cl9-nil-nil-be-[cmod-subord-be-",xcomp-prop-wrong-sn5,subj-theme_bound-what-sn4,xcomp-prop-right-sn2,subj-theme_bound-bout-sn1,and(bout,what,sn1),def_prop(wrong,[astratto,attivita]),def_prop(what,[oggetto]),def_prop(right,[soggettivo]),def_prop(bout,[attivita,informa,tempo])])
+lf(Bob Dylan Blues Lyrics.txt_8,38,cl10-nil-nil-be-[subj-theme_bound-all-sn3,subj-theme_bound-all-sn2,subj-theme_bound-god-sn1,and(all,god,sn2),def_prop(all,[_335120]),def_prop(all,[_335138]),def_prop(god,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_9,47,cl11-nil-nil-make-[obj-goal-cat-sn3,subj-agent-i-sn2,subj-agent-i-sn1,and(i,while,sn1),and(i,quiet,sn1),def_prop(cat,[animato,attivita,oggetto,plant,sostanza,strumento,umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_10,57,cl15-nil-nil-know-[subj-actor-it-sn9,subj-actor-it-sn7,subj-actor-it-sn6,and(it,ya,sn6),def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Bob Dylan Blues Lyrics.txt_10,57,cl14-not-nil-don-t-[subj-agent-it-sn5,subj-agent-poet-sn4,def_prop(it,[any]),def_prop(poet,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_10,57,cl13-nil-nil-be-[subj-prop-i-sn2,def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_10,57,cl12-nil-nil-cause-[subj-causer-i-sn2,subj-causer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_11,71,cl17-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_11,71,cl16-nil-can-blow-[subj-agent-wind-sn1,and(wind,you,sn1),def_prop(wind,[attivita,cambia,informa])])
+lf(Bob Dylan Blues Lyrics.txt_12,84,cl19-nil-nil-be-[xcomp-prop-Mr-sn3,xcomp-purpose-be-2,def_prop(Mr,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_12,84,cl18-nil-nil-cause-[subj-causer-i-sn2,subj-causer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_13,98,cl20-nil-nil-be-[subj-theme_bound-king-sn2,subj-theme_bound-king-sn1,and(king,you,sn1),def_prop(king,[astratto,oggetto,plant,stato,strumento,umano]),def_prop(king,[astratto,oggetto,plant,stato,strumento,umano])])
+lf(Bob Dylan Blues Lyrics.txt_14,112,cl21-nil-nil-free-[cmod-subord-free-",xcomp-theme_aff-bird-sn2,subj-goal-i-sn1,aux-am-nil,and(bird,wind,sn2),def_prop(bird,[animato,astratto,edible,oggetto,plant]),def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_15,127,cl22-nil-nil-roam-[ncmod-loc_direct-town-sn3,ncmod-loc_origin-town-sn2,subj-theme-you-sn1,def_prop(town,[istituzione,luogo]),def_prop(town,[istituzione,luogo]),def_prop(you,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_16,143,cl23-nil-nil-get-[xadj-adj-down-adj1,def_prop(down,_336872)])
+lf(Bob Dylan Blues Lyrics.txt_16,143,nil-nil-nil-guess-[obj-paziente-people-sn3,xcomp-purpose-get-2,subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,you,sn1),def_prop(people,[istituzione]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_17,161,cl24-not-nil-care-[iobj-goal-that-sn3,xcomp-prop-too_much-sn2,subj-experiencer-i-sn1,aux-do-nil,def_prop(that,[oggetto,umano]),def_prop(too_much,[nquant]),def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_18,179,cl26-nil-nil-be-[xcomp-result-fat-sn11,xcomp-purpose-be-7,xcomp-prop-fat-sn10,xcomp-purpose-be-6,xcomp-prop-fat-sn9,xcomp-purpose-be-5,xcomp-prop-fat-sn8,xcomp-purpose-be-4,xcomp-prop-fat-sn7,xcomp-purpose-be-3,def_prop(fat,[valutativo]),def_prop(fat,[valutativo]),def_prop(fat,[valutativo]),def_prop(fat,[valutativo]),def_prop(fat,[valutativo])])
+lf(Bob Dylan Blues Lyrics.txt_18,179,cl25-nil-nil-cause-[coord-causer-gut_and_wallet-sn6,subj-causer-wallet-sn5,subj-causer-gut-sn4,coord-causer-gut_and_wallet-sn3,subj-causer-wallet-sn2,subj-causer-gut-sn1,def_prop(gut_and_wallet,[body_part,oggetto,strumento,oggetto,strumento]),def_prop(wallet,[body_part,oggetto,strumento,oggetto,strumento]),def_prop(gut,[body_part,oggetto,strumento,oggetto,strumento]),def_prop(gut_and_wallet,[body_part,oggetto,strumento,oggetto,strumento]),def_prop(wallet,[body_part,oggetto,strumento,oggetto,strumento]),def_prop(gut,[body_part,oggetto,strumento,oggetto,strumento])])
+lf(Bob Dylan Blues Lyrics.txt_19,199,cl27-nil-nil-make-[obj-theme-dough-sn3,obj-goal-Lotta-sn2,subj-agent-you-sn1,and(Lotta,whole,sn2),def_prop(dough,[edible,oggetto]),def_prop(Lotta,[place,umano]),def_prop(you,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_20,219,cl28-nil-nil-deserve-[subj-agent-it-sn2,subj-agent-it-sn1,and(it,i,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Bob Dylan Blues Lyrics.txt_21,240,cl29-nil-nil-get-[obj-theme_unaff-hear-sn4,subj-agent-i-sn1,aux-have-nil,and(hear,gold,sn4),def_prop(hear,[istituzione]),def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_22,262,cl30-nil-will-sing-[iobj-goal-war-sn2,subj-agent-i-sn1,def_prop(war,[attivita,stato]),def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_23,285,cl34-nil-nil-know-[subj-actor-it-sn9,subj-actor-it-sn7,subj-actor-it-sn6,and(it,ya,sn6),def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Bob Dylan Blues Lyrics.txt_23,285,cl33-not-nil-don-t-[subj-agent-it-sn5,subj-agent-poet-sn4,def_prop(it,[any]),def_prop(poet,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_23,285,cl32-nil-nil-be-[subj-prop-i-sn2,def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_23,285,cl31-nil-nil-cause-[subj-causer-i-sn2,subj-causer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_24,312,cl36-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_24,312,cl35-nil-can-blow-[subj-agent-wind-sn1,and(wind,you,sn1),def_prop(wind,[attivita,cambia,informa])])
+lf(Bob Dylan Blues Lyrics.txt_25,338,cl38-nil-nil-be-[xcomp-prop-Mr-sn3,xcomp-purpose-be-2,def_prop(Mr,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_25,338,cl37-nil-nil-cause-[subj-causer-i-sn2,subj-causer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_26,365,cl39-nil-nil-be-[subj-theme_bound-king-sn2,subj-theme_bound-king-sn1,and(king,you,sn1),def_prop(king,[astratto,oggetto,plant,stato,strumento,umano]),def_prop(king,[astratto,oggetto,plant,stato,strumento,umano])])
+lf(Bob Dylan Blues Lyrics.txt_27,392,cl40-nil-nil-free-[cmod-subord-free-",xcomp-theme_aff-bird-sn2,subj-goal-i-sn1,aux-am-nil,and(bird,wind,sn2),def_prop(bird,[animato,astratto,edible,oggetto,plant]),def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_28,420,cl41-nil-nil-sing-[adj-(mod)-well-nil,iobj-goal-dream-sn2,subj-agent-i-sn1,def_prop(dream,[astratto,stato]),def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_29,449,cl43-nil-nil-seem-[cmod-subord-seem-",subj-prop-it-sn2,def_prop(it,[any])])
+lf(Bob Dylan Blues Lyrics.txt_29,449,cl42-nil-nil-rhyme-[subj-agent-it-sn2,subj-agent-it-sn1,and(it,i,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Bob Dylan Blues Lyrics.txt_30,480,cl46-nil-nil-mean-[])
+lf(Bob Dylan Blues Lyrics.txt_30,480,cl45-nil-nil-seem-[])
+lf(Bob Dylan Blues Lyrics.txt_30,480,cl44-nil-nil-cause-[subj-causer-it-sn2,subj-causer-it-sn1,and(it,you,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Bob Dylan Blues Lyrics.txt_31,513,cl47-nil-can-prophesy-[ccomp-prop-prophesy-cl47,obj-theme-kind-sn2,subj-actor-i-sn1,and(kind,all,sn2),def_prop(kind,[astratto]),def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_32,545,cl49-nil-nil-dig-[subj-agent-guy-sn1,def_prop(guy,[oggetto,strumento,umano])])
+lf(Bob Dylan Blues Lyrics.txt_32,545,cl48-nil-nil-be-[adj-(mod)-well-nil,subj-theme_bound-guy-sn1,def_prop(guy,[oggetto,strumento,umano])])
+lf(Bob Dylan Blues Lyrics.txt_33,579,cl51-nil-nil-see-[obj-actor-hard-sn2,xcomp-purpose-see-2,def_prop(hard,[istituzione])])
+lf(Bob Dylan Blues Lyrics.txt_33,579,cl50-nil-should-try-[adj-(mod)-hard-nil,subj-actor-you-sn1,def_prop(hard,[istituzione]),def_prop(you,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_34,614,nil-nil-nil-buy-[coord-theme-hat_and_disc-sn4,obj-theme-disc-sn3,obj-theme-hat-sn2,subj-actor-he-sn1,def_prop(hat_and_disc,[attivita,oggetto,strumento,astratto,informa,oggetto,strumento,tecno]),def_prop(disc,[attivita,oggetto,strumento,astratto,informa,oggetto,strumento,tecno]),def_prop(hat,[attivita,oggetto,strumento,astratto,informa,oggetto,strumento,tecno]),def_prop(he,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_35,649,cl54-nil-nil-see-[cmod-subord-see-",cmod-subord-see-when,xcomp-prop-that-sn6,subj-experiencer-you-sn5,def_prop(that,[oggetto,umano]),def_prop(you,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_35,649,cl53-nil-nil-go-[xcomp-prop-that-sn4,subj-agent-you-sn3,def_prop(that,[oggetto,umano]),def_prop(you,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_35,649,cl52-nil-nil-be-[ncmod-locativo-town-sn2,subj-theme_bound-i-sn1,def_prop(town,[istituzione,luogo]),def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_36,687,cl58-nil-nil-know-[subj-actor-it-sn9,subj-actor-it-sn7,subj-actor-it-sn6,and(it,ya,sn6),def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Bob Dylan Blues Lyrics.txt_36,687,cl57-not-nil-don-t-[subj-agent-it-sn5,subj-agent-poet-sn4,def_prop(it,[any]),def_prop(poet,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_36,687,cl56-nil-nil-be-[subj-prop-i-sn2,def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_36,687,cl55-nil-nil-cause-[subj-causer-i-sn2,subj-causer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_37,727,cl60-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_37,727,cl59-nil-can-blow-[subj-agent-wind-sn1,and(wind,you,sn1),def_prop(wind,[attivita,cambia,informa])])
+lf(Bob Dylan Blues Lyrics.txt_38,766,cl62-nil-nil-be-[xcomp-prop-Mr-sn3,xcomp-purpose-be-2,def_prop(Mr,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_38,766,cl61-nil-nil-cause-[subj-causer-i-sn2,subj-causer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Bob Dylan Blues Lyrics.txt_39,806,cl63-nil-nil-be-[subj-theme_bound-king-sn2,subj-theme_bound-king-sn1,and(king,you,sn1),def_prop(king,[astratto,oggetto,plant,stato,strumento,umano]),def_prop(king,[astratto,oggetto,plant,stato,strumento,umano])])
+lf(Bob Dylan Blues Lyrics.txt_40,846,cl64-nil-nil-free-[cmod-subord-free-",xcomp-theme_aff-bird-sn2,subj-goal-i-sn1,aux-am-nil,and(bird,wind,sn2),def_prop(bird,[animato,astratto,edible,oggetto,plant]),def_prop(i,[umano])])

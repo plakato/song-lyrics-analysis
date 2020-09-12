@@ -1,0 +1,263 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Broken Record Lyrics.txt_1-1  []-negative  []
+Broken Record Lyrics.txt_2-3  []-positive  []
+Broken Record Lyrics.txt_2-4  []-negative  [neg]
+Broken Record Lyrics.txt_3-7  []-suspension  []
+Broken Record Lyrics.txt_4-11  []-suspension  [neg,fgb,neg,fgb]
+Broken Record Lyrics.txt_5-17  []-positive  []
+Broken Record Lyrics.txt_5-18  []-positive  [fgb]
+Broken Record Lyrics.txt_6-24  []-negative  [neg]
+Broken Record Lyrics.txt_7-31  []-positive  []
+Broken Record Lyrics.txt_8-40  []-negative  [neg]
+Broken Record Lyrics.txt_9-49  []-negative  [neg]
+Broken Record Lyrics.txt_9-50  []-positive  []
+Broken Record Lyrics.txt_10-60  []-question  [neg,neg,neg]
+Broken Record Lyrics.txt_11-71  []-negative  [neg,neg]
+Broken Record Lyrics.txt_12-84  []-positive  [neg,neg]
+Broken Record Lyrics.txt_13-98  [when-temp_coinc]-positive  []
+Broken Record Lyrics.txt_13-99  []-positive  []
+Broken Record Lyrics.txt_14-113  [then-temp_seq,when-temp_coinc]-positive  [neg,fhd]
+Broken Record Lyrics.txt_15-128  [if-hypoth,then-temp_seq]-suspension  [fgb]
+Broken Record Lyrics.txt_16-144  []-suspension  [neg,neg,neg]
+Broken Record Lyrics.txt_17-161  []-positive  [fhd]
+Broken Record Lyrics.txt_18-179  []-positive  []
+Broken Record Lyrics.txt_19-198  []-positive  []
+Broken Record Lyrics.txt_20-218  []-negative  [neg,neg]
+Broken Record Lyrics.txt_21-240  []-positive  [neg]
+Broken Record Lyrics.txt_22-262  []-question  []
+Broken Record Lyrics.txt_22-263  [but-advers]-positive  [fgb]
+Broken Record Lyrics.txt_23-286  []-question  [neg]
+Broken Record Lyrics.txt_24-310  [(as)-temp_coinc]-negative  [neg]
+Broken Record Lyrics.txt_24-311  []-positive  []
+Broken Record Lyrics.txt_25-337  []-positive  []
+Broken Record Lyrics.txt_25-338  []-suspension  [neg]
+Broken Record Lyrics.txt_26-364  []-positive  []
+Broken Record Lyrics.txt_27-391  []-question  [neg,fgb]
+Broken Record Lyrics.txt_28-419  []-positive  []
+Broken Record Lyrics.txt_29-448  []-suspension  []
+Broken Record Lyrics.txt_29-449  [but-advers]-positive  [fgb]
+Broken Record Lyrics.txt_30-479  []-suspension  [fgb]
+Broken Record Lyrics.txt_30-480  []-positive  []
+Broken Record Lyrics.txt_31-513  []-positive  [fhd]
+Broken Record Lyrics.txt_32-545  []-positive  []
+Broken Record Lyrics.txt_33-578  []-positive  []
+Broken Record Lyrics.txt_34-614  []-negative  [neg,neg]
+Broken Record Lyrics.txt_35-649  []-positive  [bkc]
+Broken Record Lyrics.txt_36-685  []-positive  []
+Broken Record Lyrics.txt_36-686  []-negative  [fgb,neg]
+Broken Record Lyrics.txt_37-724  []-negative  [neg,neg]
+Broken Record Lyrics.txt_37-725  []-positive  []
+Broken Record Lyrics.txt_38-763  []-suspension  []
+Broken Record Lyrics.txt_38-764  []-negative  [neg]
+Broken Record Lyrics.txt_39-803  []-negative  [neg]
+Broken Record Lyrics.txt_40-843  []-positive  [fgb]
+Broken Record Lyrics.txt_41-884  [so-result]-positive  [fgb,fgb,fgb]
+Broken Record Lyrics.txt_42-926  []-positive  [fgb,neg]
+Broken Record Lyrics.txt_43-969  []-negative  [fgb,fhd]
+Broken Record Lyrics.txt_44-1014  []-negative  [neg]
+Broken Record Lyrics.txt_44-1015  []-negative  [neg]
+Broken Record Lyrics.txt_45-1060  [so-result]-positive  [fgb,fgb,fhd]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Broken Record Lyrics.txt_1-1  [broken,Record,Lyrics,by,Sweatshop,Union]  [title]
+Broken Record Lyrics.txt_2-3  [i,have,been,singing,this,song]  [provide_expl_just(singe,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Broken Record Lyrics.txt_2-4  [for,too,long]  [reject_expl_just(singe,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Broken Record Lyrics.txt_3-7  [all,we,just,wishin,we,would,move,on]  [provide_expl_just(move,[external,nonfactive,narration,background,objective])]
+Broken Record Lyrics.txt_4-11  [sick,and,tired,of,doing,what,you,want,.,you,want]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Broken Record Lyrics.txt_5-17  [you,have,gone]  [provide_expl_just(turn,[external,factive,cause,foreground,objective])]
+Broken Record Lyrics.txt_5-18  [and,turned,this,all,into,shhh]  [provide_expl_just(turn,[external,factive,cause,foreground,objective])]
+Broken Record Lyrics.txt_6-24  [it,seems,a,little,watered,down]  [reject_expl_just(seem,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_7-31  [everybody,wanna,be,a,rap,artist,now]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_8-40  [tryin,to,get,the,platinum,regardless,how]  [reject_expl_just(get,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_9-49  [hard,you,played]  [reject_expl_just(play,[external,factive,cause,foreground,objective])]
+Broken Record Lyrics.txt_9-50  [yourself,to,get,fame]  [provide_expl_just(play,[external,factive,cause,foreground,objective])]
+Broken Record Lyrics.txt_10-60  [today,music,,,shame,damn,a,it,not,is,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Broken Record Lyrics.txt_11-71  [fad-s,the,same,still,you,is,not,got,shit,to,say]  [reject_expl_just(say,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,foreground,objective])]
+Broken Record Lyrics.txt_12-84  [expect,the,kids,to,pay,this,expensive,fee]  [provide_expl_just(pay,[external,factive,narration,background,objective]),provide_expl_just(expect,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_13-98  [when,they,can,get,an,MP3,from,a,friends]  [provide_expl_just(get,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_13-99  [CD]  [provide_expl_just(get,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_14-113  [especially,when,there,is,less,then,three,tracks,ya,like]  [provide_expl_just(track,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_15-128  [if,it,was,worth,spendin,money,then,we,actually,might]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Broken Record Lyrics.txt_16-144  [so_much,crap,on,the,Mic,,,labels,is,not,actin,not]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_17-161  [making,cash,from,the,hype,like,the,Passion,of,the,Christ]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Broken Record Lyrics.txt_18-179  [just,imagine,the,lights,camera,action,the,life]  [provide_expl_just(imagine,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_19-198  [the,cars,the,cash,the,stars,flashin,their,ice]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_20-218  [cock,R,tease,$,B,pop,queens,gassin,you,up]  [reject_expl_just(tease,[external,factive,narration,background,objective]),reject_expl_just(cock,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_21-240  [fashion,thugs,passin,you,drugs,in,the,back,of,the,club]  [provide_expl_just(drug,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_22-262  [it,of,part,a,want,you,?]  [provide_expl_just(want,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Broken Record Lyrics.txt_22-263  [but,all,an,that,artist,is,is]  [provide_expl_just(want,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Broken Record Lyrics.txt_23-286  [cartilage,of,made,spine,a,with,mind,blank,a,?]  [provide_expl_just(make,[internal,factive,narration,background,objective])]
+Broken Record Lyrics.txt_24-310  [hard,as,it,may,seem]  [reject_expl_just(stay,[external,factive,narration,background,objective]),reject_expl_just(pay,[external,factive,narration,background,objective]),reject_expl_just(seem,[external,nonfactive,narration,foreground,objective])]
+Broken Record Lyrics.txt_24-311  [it,pays,to,stay,dreamin-]  [provide_expl_just(stay,[external,factive,narration,background,objective]),provide_expl_just(pay,[external,factive,narration,background,objective]),provide_expl_just(seem,[external,nonfactive,narration,foreground,objective])]
+Broken Record Lyrics.txt_25-337  [away,form,the,mainstream,just,prayin]  [provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Broken Record Lyrics.txt_25-338  [you,will,break,even]  [provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Broken Record Lyrics.txt_26-364  [pop,Music,4X]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_27-391  [star,a,just,not,is,i,,,well,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Broken Record Lyrics.txt_28-419  [seated,on,this,bus]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_29-448  [you,might,recognize,me]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(recognize,[external,nonfactive,narration,foreground,objective])]
+Broken Record Lyrics.txt_29-449  [but,keep,it,on,the,hush]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(recognize,[external,nonfactive,narration,foreground,objective])]
+Broken Record Lyrics.txt_30-479  [you,might,wanna,ask,me,what,i,am,doing]  [provide_expl_just(ask,[external,factive,narration,background,objective]),provide_expl_just(might,[external,nonfactive,narration,foreground,objective]),provide_expl_just(transit,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_30-480  [takin,transit]  [provide_expl_just(ask,[external,factive,narration,background,objective]),provide_expl_just(might,[external,nonfactive,narration,foreground,objective]),provide_expl_just(transit,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_31-513  [or,working,at,this,place]  [provide_expl_just(work,[external,factive,narration,foreground,objective])]
+Broken Record Lyrics.txt_32-545  [your,bacon,makin,sandwiches]  [provide_expl_just(sandwich,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_33-578  [kids,be,acting,kinda,funny,cause,they,see,me]  [provide_expl_just(kid,[external,factive,narration,background,objective]),provide_expl_just(act,[external,factive,narration,foreground,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_34-614  [in,a,couple,little,shitty,rap,videos,on,television]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_35-649  [yeah,i,got,a,name,with,maybe,$,2,to,it]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Broken Record Lyrics.txt_36-685  [just,try]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Broken Record Lyrics.txt_36-686  [and,cop,a,chain,making,blue,collar,music]  [reject_expl_just(make,[external,factive,cause,foreground,objective])]
+Broken Record Lyrics.txt_37-724  [truth,is,is,not,not]  [reject_expl_just(change,[external,factive,cause,foreground,objective])]
+Broken Record Lyrics.txt_37-725  [much,has,changes]  [provide_expl_just(change,[external,factive,cause,foreground,objective])]
+Broken Record Lyrics.txt_38-763  [still,seems]  [provide_expl_just(seem,[external,factive,narration,background,objective]),provide_expl_just(suck,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_38-764  [that,Kraft,Dinner,sucks,the,same]  [reject_expl_just(seem,[external,factive,narration,background,objective]),reject_expl_just(suck,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_39-803  [tryin,to,come,up,in,the,game]  [reject_expl_just(be,[_1621668,_1621674,_1621680,_1621686,_1621692])]
+Broken Record Lyrics.txt_40-843  [with,a,buck,and,change]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_41-884  [so,touch,luck,for,the,other,guy,and,what,is,his,name]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_42-926  [aim,high,and,shoot,far,below,my,goals]  [propose_opin_neg(shoot,[external,factive,circumstance,background,objective])]
+Broken Record Lyrics.txt_43-969  [what,i,expect,i,am,owed,or,ever,get,from,shows]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Broken Record Lyrics.txt_44-1014  [the,math,never,adds,up]  [reject_expl_just(add,[external,factive,narration,background,objective]),reject_expl_just(collect,[external,factive,narration,foreground,objective])]
+Broken Record Lyrics.txt_44-1015  [i,is,not,collecting,dough]  [reject_expl_just(add,[external,factive,narration,background,objective]),reject_expl_just(collect,[external,factive,narration,foreground,objective])]
+Broken Record Lyrics.txt_45-1060  [so,on,and,on,like,a,Broken,record,it,goes]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Broken Record Lyrics.txt_1-1)-[emotions-aggression]
+2-(Broken Record Lyrics.txt_2-3)-[]
+3-(Broken Record Lyrics.txt_2-4)-[primary-concreteness]
+4-(Broken Record Lyrics.txt_3-7)-[]
+5-(Broken Record Lyrics.txt_4-11)-[]
+6-(Broken Record Lyrics.txt_5-17)-[]
+7-(Broken Record Lyrics.txt_5-18)-[]
+8-(Broken Record Lyrics.txt_6-24)-[primary-vision,primary-water]
+9-(Broken Record Lyrics.txt_7-31)-[secondary-temporal_repere]
+10-(Broken Record Lyrics.txt_8-40)-[secondary-instru_behavior]
+11-(Broken Record Lyrics.txt_9-49)-[primary-hard,emotions-expressive_beh]
+12-(Broken Record Lyrics.txt_9-50)-[emotions-glory]
+13-(Broken Record Lyrics.txt_10-60)-[secondary-temporal_repere,primary-sound,primary-water]
+14-(Broken Record Lyrics.txt_11-71)-[primary-anality,secondary-social_behavior]
+15-(Broken Record Lyrics.txt_12-84)-[secondary-instru_behavior]
+16-(Broken Record Lyrics.txt_13-98)-[secondary-temporal_repere,emotions-affection]
+17-(Broken Record Lyrics.txt_13-99)-[]
+18-(Broken Record Lyrics.txt_14-113)-[secondary-temporal_repere,secondary-temporal_repere,emotions-affection]
+19-(Broken Record Lyrics.txt_15-128)-[secondary-instru_behavior,secondary-instru_behavior,secondary-temporal_repere]
+20-(Broken Record Lyrics.txt_16-144)-[]
+21-(Broken Record Lyrics.txt_17-161)-[emotions-affection]
+22-(Broken Record Lyrics.txt_18-179)-[primary-counscious,primary-vision]
+23-(Broken Record Lyrics.txt_19-198)-[primary-vision,primary-vision,primary-cold]
+24-(Broken Record Lyrics.txt_20-218)-[primary-orality]
+25-(Broken Record Lyrics.txt_21-240)-[primary-concreteness]
+26-(Broken Record Lyrics.txt_22-262)-[]
+27-(Broken Record Lyrics.txt_22-263)-[]
+28-(Broken Record Lyrics.txt_23-286)-[primary-counscious,primary-random_movement]
+29-(Broken Record Lyrics.txt_24-310)-[primary-hard,secondary-abstract_tought,primary-vision]
+half
+30-(Broken Record Lyrics.txt_24-311)-[secondary-instru_behavior]
+31-(Broken Record Lyrics.txt_25-337)-[primary-concreteness,secondary-order]
+32-(Broken Record Lyrics.txt_25-338)-[emotions-aggression]
+33-(Broken Record Lyrics.txt_26-364)-[]
+34-(Broken Record Lyrics.txt_27-391)-[primary-vision]
+35-(Broken Record Lyrics.txt_28-419)-[]
+36-(Broken Record Lyrics.txt_29-448)-[]
+37-(Broken Record Lyrics.txt_29-449)-[primary-passivity]
+38-(Broken Record Lyrics.txt_30-479)-[secondary-social_behavior]
+39-(Broken Record Lyrics.txt_30-480)-[]
+40-(Broken Record Lyrics.txt_31-513)-[primary-concreteness,primary-concreteness]
+41-(Broken Record Lyrics.txt_32-545)-[primary-orality,secondary-instru_behavior]
+42-(Broken Record Lyrics.txt_33-578)-[emotions-affection,emotions-positive_affect,secondary-abstract_tought,primary-vision]
+43-(Broken Record Lyrics.txt_34-614)-[primary-anality]
+44-(Broken Record Lyrics.txt_35-649)-[secondary-abstract_tought]
+45-(Broken Record Lyrics.txt_36-685)-[secondary-instru_behavior]
+46-(Broken Record Lyrics.txt_36-686)-[primary-vision,primary-sound]
+47-(Broken Record Lyrics.txt_37-724)-[secondary-abstract_tought]
+48-(Broken Record Lyrics.txt_37-725)-[]
+49-(Broken Record Lyrics.txt_38-763)-[primary-vision]
+50-(Broken Record Lyrics.txt_38-764)-[primary-orality]
+51-(Broken Record Lyrics.txt_39-803)-[secondary-instru_behavior,emotions-expressive_beh]
+52-(Broken Record Lyrics.txt_40-843)-[]
+53-(Broken Record Lyrics.txt_41-884)-[primary-touch]
+54-(Broken Record Lyrics.txt_42-926)-[secondary-instru_behavior,primary-height,emotions-aggression,primary-concreteness,primary-depth,secondary-instru_behavior]
+55-(Broken Record Lyrics.txt_43-969)-[secondary-temporal_repere]
+56-(Broken Record Lyrics.txt_44-1014)-[]
+57-(Broken Record Lyrics.txt_44-1015)-[]
+58-(Broken Record Lyrics.txt_45-1060)-[emotions-affection,secondary-instru_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Broken Record Lyrics.txt_1,1,cl1-nil-nil-record-[arg_mod-agent-Union-sn3,obj-theme-Lyrics-sn2,subj-agent-broken-sn1,and(Union,Sweatshop,sn3),def_prop(Union,[place,luogo]),def_prop(Lyrics,[informa,tecno]),def_prop(broken,[evaluative])])
+lf(Broken Record Lyrics.txt_2,3,cl3-nil-nil-be-[adj-(mod)-too-nil,subj-theme_bound-pro-nil])
+lf(Broken Record Lyrics.txt_2,3,cl2-nil-nil-singe-[obj-theme-song-sn2,subj-agent-i-sn1,aux-been-nil,aux-have-nil,and(song,this,sn2),def_prop(song,[astratto,attivita,evento,informa,oggetto]),def_prop(i,[umano])])
+lf(Broken Record Lyrics.txt_3,7,cl4-nil-would-move-[subj-theme-we-sn3,subj-theme-we-sn2,subj-theme-wishin-sn1,and(we,wishin,sn2),and(wishin,we,sn1),def_prop(we,[umano]),def_prop(we,[umano]),def_prop(wishin,[istituzione])])
+lf(Broken Record Lyrics.txt_4,11,cl6-nil-nil-want-[obj-theme-what-sn2,xcomp-purpose-do-2,subj-actor-you-sn1,def_prop(what,[oggetto]),def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_4,11,cl5-nil-nil-do-[xadj-adj-sick-adj1,def_prop(sick,_1627466)])
+lf(Broken Record Lyrics.txt_5,17,cl8-nil-nil-turn-[cmod-subord-turn-",ncmod-loc_in-shhh-sn4,obj-theme-all-sn3,subj-agent-you-sn2,and(all,this,sn3),def_prop(shhh,[istituzione]),def_prop(all,[_1627628]),def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_5,17,cl7-nil-nil-go-[subj-agent-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_6,24,cl9-nil-nil-seem-[obj2-goal-down-sn2,subj-actor-it-sn1,and(down,little,sn2),and(down,watered,sn2),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(it,[any])])
+lf(Broken Record Lyrics.txt_7,31,cl10-nil-nil-be-[])
+lf(Broken Record Lyrics.txt_7,31,nil-nil-nil-wanna-[adj-(mod)-now-nil,obj-prop-rap-sn2,xcomp-purpose-be-2,subj-agent-everybody-sn1,def_prop(rap,[attivita,evento,informa]),def_prop(everybody,[umano])])
+lf(Broken Record Lyrics.txt_8,40,cl11-nil-nil-get-[obj-theme_unaff-platinum-sn2,subj-agent-tryin-sn1,def_prop(platinum,[sostanza]),def_prop(tryin,[istituzione])])
+lf(Broken Record Lyrics.txt_9,49,cl13-nil-nil-get-[obj-theme_unaff-fame-sn3,subj-agent-yourself-sn2,def_prop(fame,[stato]),def_prop(yourself,[istituzione])])
+lf(Broken Record Lyrics.txt_9,49,cl12-nil-nil-play-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_10,60,cl14-not-nil-be-[xcomp-prop-shame-sn2,subj-theme_bound-it-sn1,and(shame,damn,sn2),def_prop(shame,[emotivo,stato]),def_prop(it,[any])])
+lf(Broken Record Lyrics.txt_11,71,cl16-nil-nil-say-[subj-prop-shit-sn4,def_prop(shit,[attivita,umano])])
+lf(Broken Record Lyrics.txt_11,71,cl15-not-nil-get-[adj-(mod)-still-nil,xcomp-prop-shit-sn4,subj-theme_unaff-you-sn3,subj-theme_unaff-you-sn2,subj-theme_unaff-same-sn1,aux-(is)-nil,and(you,same,sn2),and(same,fad-s,sn1),def_prop(shit,[attivita,umano]),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(same,[deittico])])
+lf(Broken Record Lyrics.txt_12,84,cl18-nil-nil-pay-[obj-goal-fee-sn3,xcomp-purpose-pay-2,and(fee,this,sn3),and(fee,expensive,sn3),def_prop(fee,[astratto,oggetto])])
+lf(Broken Record Lyrics.txt_12,84,cl17-nil-nil-expect-[obj-theme_unaff-kid-sn2,subj-experiencer-you-sn1,def_prop(kid,[animato,sostanza,umano]),def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_13,98,cl20-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_13,98,cl19-nil-can-get-[ncmod-loc_origin-friend-sn4,obj-theme_unaff-MP3-sn3,obj-theme-when-sn2,subj-agent-they-sn1,def_prop(friend,[umano]),def_prop(MP3,[informa,tecno]),def_prop(when,[tempo]),def_prop(they,[umano])])
+lf(Broken Record Lyrics.txt_14,113,cl22-nil-nil-track-[cmod-subord-track-when,cmod-subord-track-then,obj-theme-ya-sn3,subj-agent-three-sn2,def_prop(ya,[legale]),def_prop(three,[nquant])])
+lf(Broken Record Lyrics.txt_14,113,cl21-nil-nil-be-[xcomp-prop-less-sn5,subj-theme_bound-there-sn4,def_prop(less,[astratto,informa,oggetto]),def_prop(there,[any])])
+lf(Broken Record Lyrics.txt_15,128,cl23-nil-nil-be-[adj-temporal-may-nil,xcomp-theme-we-sn3,xcomp-prop-money-sn2,subj-theme_bound-it-sn1,and(may,actually,sn5),and(money,spendin,sn2),def_prop(may,[plant]),def_prop(we,[umano]),def_prop(money,[astratto,oggetto]),def_prop(it,[any])])
+lf(Broken Record Lyrics.txt_16,144,cl24-not-nil-be-[xcomp-prop-actin-sn4,xcomp-theme-label-sn3,ncmod-locativo-Mic-sn2,subj-theme_bound-crap-sn1,neg-not-nil,and(crap,so_much,sn1),def_prop(actin,[sostanza]),def_prop(label,[attivita,informa,sostanza]),def_prop(Mic,[istituzione,umano]),def_prop(crap,[sostanza])])
+lf(Broken Record Lyrics.txt_17,161,cl25-nil-nil-make-[iobj-goal-hype-sn2,subj-agent-you-sn1,def_prop(hype,[evento]),def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_18,179,cl26-nil-nil-imagine-[adj-(mod)-just-nil,obj-theme-camera-sn3,subj_top-agent-light-sn2,subj_top-agent-light-sn1,and(light,life,sn1),def_prop(camera,[oggetto,strumento]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(Broken Record Lyrics.txt_19,198,cl27-nil-nil-be-[subj-theme_bound-ice-sn3,subj-theme_bound-ice-sn2,subj-theme_bound-flashin-sn1,and(flashin,car,sn1),def_prop(ice,[astratto,edible,oggetto,sostanza,strumento]),def_prop(ice,[astratto,edible,oggetto,sostanza,strumento]),def_prop(flashin,[istituzione])])
+lf(Broken Record Lyrics.txt_20,218,cl29-nil-nil-tease-[ncmod-loc_direct-up-sn13,obj-theme-B-sn2,xcomp-purpose-tease-2,and(B,$,sn2),def_prop(up,[istituzione]),def_prop(B,[attivita,informa,istituzione,oggetto,strumento])])
+lf(Broken Record Lyrics.txt_20,218,cl28-nil-nil-cock-[adj-(mod)-up-nil,subj-actor-you-sn1,def_prop(up,[istituzione]),def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_21,240,cl30-nil-nil-drug-[ncmod-locativo-back-sn3,subj-theme-you-sn2,subj-theme-you-sn1,and(you,passin,sn1),and(you,fashion,sn1),def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_22,262,cl32-nil-nil-be-[subj-theme_bound-artist-sn4,and(artist,all,sn4),def_prop(artist,[oggetto,strumento,umano])])
+lf(Broken Record Lyrics.txt_22,262,cl31-nil-nil-want-[obj-tema_unaff-part-sn2,subj-actor-you-sn1,def_prop(part,[astratto,attivita,body_part,informa,oggetto,relat,strumento,umano]),def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_23,286,cl33-nil-nil-make-[iobj-goal-cartilage-sn3,iobj-goal-spine-sn2,subj-agent-mind-sn1,and(mind,blank,sn1),def_prop(cartilage,[body_part,umano]),def_prop(spine,[animato,plant]),def_prop(mind,[astratto])])
+lf(Broken Record Lyrics.txt_24,310,cl36-nil-nil-stay-[])
+lf(Broken Record Lyrics.txt_24,310,cl35-nil-nil-pay-[obj-actor-dreamin- - sn3,xcomp-purpose-stay-cl36,subj-agent-it-sn2,def_prop(dreamin-,[istituzione,umano]),def_prop(it,[any])])
+lf(Broken Record Lyrics.txt_24,310,cl34-nil-may-seem-[subj-actor-it-sn1,def_prop(it,[any])])
+lf(Broken Record Lyrics.txt_25,337,cl38-nil-will-will-[obj-theme_aff-even-sn5,subj-agent-you-sn4,and(even,break,sn5),def_prop(even,[]),def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_25,337,cl37-nil-nil-form-[obj-prop-prayin-sn3,obj-theme-mainstream-sn2,subj-actor-away-sn1,def_prop(prayin,[istituzione]),def_prop(mainstream,[astratto]),def_prop(away,[evaluative])])
+lf(Broken Record Lyrics.txt_26,364,cl39-nil-nil-be-[ncmod-modal-Music-sn2,subj-theme_bound-you-sn1,def_prop(Music,[place,umano]),def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_27,391,cl40-not-nil-be-[xcomp-prop-star-sn2,subj-theme_bound-i-sn1,def_prop(star,[astratto,oggetto,umano]),def_prop(i,[umano])])
+lf(Broken Record Lyrics.txt_28,419,cl41-nil-nil-be-[xadj-adj-seated-adj2,ncmod-locativo-bus-sn1,and(bus,this,sn1),def_prop(seated,_1632570),def_prop(bus,[oggetto,strumento])])
+lf(Broken Record Lyrics.txt_29,448,cl43-nil-nil-keep-[iobj-goal-hush-sn5,subj-experiencer-it-sn4,subj-experiencer-it-sn3,and(it,you,sn3),def_prop(hush,[astratto]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Broken Record Lyrics.txt_29,448,cl42-nil-might-recognize-[obj-stimulus-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_30,479,_1632912-nil-nil-do-[voice-do-nil,tense-do-nil,obl-locat-me-sn2,def_prop(me,[umano])])
+lf(Broken Record Lyrics.txt_30,479,nil-nil-nil-transit-[subj-actor-you-sn4,voice-do-nil,tense-do-nil,def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_30,479,cl45-nil-nil-ask-[voice-do-nil,tense-do-nil,obj-prop-me-sn2,xcomp-purpose-ask-2,def_prop(me,[umano])])
+lf(Broken Record Lyrics.txt_30,479,cl44-nil-might-might-[voice-do-nil,tense-do-nil,subj-theme_unaff-you-sn1,def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_31,513,cl46-nil-nil-work-[cmod-subord-work-",ncmod-locativo-place-sn2,subj-actor-you-sn1,and(place,this,sn2),def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_32,545,nil-nil-nil-sandwich-[ncmod-modal-bacon-sn2,subj-agent-you-sn1,def_prop(bacon,[edible,oggetto]),def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_33,578,cl49-nil-nil-see-[])
+lf(Broken Record Lyrics.txt_33,578,cl48-nil-nil-act-[aux-be-nil,progr-acting-nil])
+lf(Broken Record Lyrics.txt_33,578,cl47-nil-nil-kid-[adj-subj_disc-kinda-sn4,obj-theme-me-sn3,obj-theme-cause-sn2,subj-agent-you-sn1,def_prop(kinda,[istituzione]),def_prop(me,[umano]),def_prop(cause,[attivita,evento,informa]),def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_34,614,cl50-nil-nil-be-[ncmod-locativo-television-sn3,ncmod-locativo-couple-sn2,subj-theme_bound-video-sn1,and(video,little,sn1),and(video,shitty,sn1),and(video,rap,sn1),def_prop(television,[attivita,informa,oggetto,strumento]),def_prop(couple,[nquant,oggetto]),def_prop(video,[attivita,informa])])
+lf(Broken Record Lyrics.txt_35,649,cl51-nil-nil-get-[adj-(mod)-yeah-nil,iobj-paziente-it-sn4,ncmod-comitativo-($)-sn3,obj-theme_unaff-name-sn2,subj-agent-i-sn1,and($,maybe,sn3),and($,$,sn3),def_prop(it,[any]),def_prop($,[money,oggetto]),def_prop(name,[attivita,informa,stato,umano]),def_prop(i,[umano])])
+lf(Broken Record Lyrics.txt_36,685,cl54-nil-nil-make-[cmod-subord-make-",obj-agent-collar-sn4,xadj-result-make-2,and(collar,blue,sn4),def_prop(collar,[attivita,oggetto,strumento])])
+lf(Broken Record Lyrics.txt_36,685,cl53-nil-nil-cop-[obj-theme-chain-sn3,subj-actor-you-sn2,def_prop(chain,[nquant,oggetto,strumento]),def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_36,685,cl52-nil-nil-try-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_37,724,cl56-nil-nil-change-[subj-agent-you-sn2,aux-has-nil,def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_37,724,cl55-not-nil-be-[subj-theme_bound-truth-sn1,def_prop(truth,[astratto,attivita,informa,stato])])
+lf(Broken Record Lyrics.txt_38,763,cl58-nil-nil-suck-[obj-theme-same-sn3,subj-agent-Dinn-sn2,and(Dinn,Kraft,sn2),def_prop(same,[deittico]),def_prop(Dinn,[umano])])
+lf(Broken Record Lyrics.txt_38,763,cl57-nil-nil-seem-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_39,803,cl59-nil-nil-come-[adj-(mod)-up-nil,iobj-locat-game-sn2,subj-agent-tryin-sn1,def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(tryin,[istituzione])])
+lf(Broken Record Lyrics.txt_40,843,cl60-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_41,884,cl61-nil-nil-be-[cmod-coord-be-and,xcomp-prop-name-sn5,subj-theme_bound-what-sn4,def_prop(name,[attivita,informa,stato,umano]),def_prop(what,[oggetto])])
+lf(Broken Record Lyrics.txt_42,926,cl62-nil-nil-shoot-[adj-(mod)-below-nil,adj-subj_disc-below-sn5,obj-theme_aff-goal-sn4,subj-agent-you-sn3,def_prop(below,[istituzione]),def_prop(below,[istituzione]),def_prop(goal,[astratto,attivita,oggetto,strumento]),def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_43,969,2-nil-nil-be-[cmod-coord-get-or,ncmod-modal-show-sn2,def_prop(show,[attivita,informa])])
+lf(Broken Record Lyrics.txt_43,969,cl63-nil-nil-get-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Broken Record Lyrics.txt_44,1014,cl65-not-nil-collect-[obj-goal-dough-sn7,subj-agent-i-sn6,aux-(is)-nil,progr-collecting-nil,def_prop(dough,[edible,oggetto]),def_prop(i,[umano])])
+lf(Broken Record Lyrics.txt_44,1014,cl64-nil-nil-add-[subj-agent-math-sn1,def_prop(math,[attivita,informa])])
+lf(Broken Record Lyrics.txt_45,1060,cl66-nil-nil-go-[obj-theme_aff-record-sn3,ncmod-locativo-Broken-sn2,subj-agent-it-sn1,def_prop(record,[astratto,attivita,informa,nquant,oggetto]),def_prop(Broken,[istituzione,umano]),def_prop(it,[any])])

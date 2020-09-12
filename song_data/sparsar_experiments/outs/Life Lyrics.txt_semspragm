@@ -1,0 +1,252 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Life Lyrics.txt_1-1  []-positive  []
+Life Lyrics.txt_2-3  []-positive  []
+Life Lyrics.txt_3-6  []-positive  [fgb]
+Life Lyrics.txt_3-7  []-negative  [neg]
+Life Lyrics.txt_4-11  []-positive  [fgb]
+Life Lyrics.txt_5-16  []-positive  [bkc]
+Life Lyrics.txt_6-22  []-negative  [neg]
+Life Lyrics.txt_8-38  []-negative  [neg]
+Life Lyrics.txt_9-47  []-positive  []
+Life Lyrics.txt_10-57  []-negative  [neg]
+Life Lyrics.txt_11-68  []-suspension  [neg,neg]
+Life Lyrics.txt_12-80  []-positive  [fgb]
+Life Lyrics.txt_13-93  []-positive  []
+Life Lyrics.txt_14-107  []-positive  []
+Life Lyrics.txt_15-122  [but-advers]-negative  [fgb,neg]
+Life Lyrics.txt_16-138  []-positive  []
+Life Lyrics.txt_17-155  []-positive  []
+Life Lyrics.txt_18-173  [but-advers]-negative  [fgb,neg]
+Life Lyrics.txt_19-192  []-positive  [fgb]
+Life Lyrics.txt_20-213  []-negative  []
+Life Lyrics.txt_21-235  []-negative  [neg]
+Life Lyrics.txt_22-257  []-negative  [neg]
+Life Lyrics.txt_23-280  []-positive  []
+Life Lyrics.txt_24-305  []-negative  [neg]
+Life Lyrics.txt_24-306  []-negative  [neg]
+Life Lyrics.txt_25-331  []-suspension  [bkc]
+Life Lyrics.txt_26-358  []-negative  []
+Life Lyrics.txt_27-385  []-negative  [neg]
+Life Lyrics.txt_28-413  []-suspension  [neg,neg]
+Life Lyrics.txt_29-442  []-positive  [fgb]
+Life Lyrics.txt_30-472  []-positive  []
+Life Lyrics.txt_31-503  []-positive  []
+Life Lyrics.txt_32-535  [but-advers]-negative  [fgb,neg]
+Life Lyrics.txt_33-568  []-positive  []
+Life Lyrics.txt_34-602  []-positive  []
+Life Lyrics.txt_35-637  [but-advers]-negative  [fgb,neg]
+Life Lyrics.txt_36-673  []-positive  []
+Life Lyrics.txt_37-710  []-negative  [neg]
+Life Lyrics.txt_38-748  []-positive  []
+Life Lyrics.txt_39-787  []-positive  []
+Life Lyrics.txt_40-827  []-negative  [neg]
+Life Lyrics.txt_41-868  []-positive  []
+Life Lyrics.txt_42-910  []-positive  []
+Life Lyrics.txt_43-953  [before-temp_prec]-positive  []
+Life Lyrics.txt_44-997  []-negative  [neg]
+Life Lyrics.txt_45-1042  []-suspension  [neg,neg]
+Life Lyrics.txt_46-1088  []-positive  [fgb]
+Life Lyrics.txt_47-1135  []-positive  []
+Life Lyrics.txt_48-1183  []-positive  []
+Life Lyrics.txt_49-1232  [but-advers]-negative  [fgb,neg]
+Life Lyrics.txt_50-1282  []-positive  []
+Life Lyrics.txt_51-1333  []-positive  []
+Life Lyrics.txt_52-1385  [but-advers]-negative  [fgb,neg]
+Life Lyrics.txt_53-1438  []-positive  []
+Life Lyrics.txt_54-1492  [but-advers]-negative  [fgb,neg]
+Life Lyrics.txt_55-1547  []-positive  []
+Life Lyrics.txt_56-1603  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Life Lyrics.txt_1-1  [life,Lyrics,by,Zug,Izland]  [title]
+Life Lyrics.txt_2-3  [i,have,seen,the,light]  [provide_expl_just(see,[external,factive,narration,foreground,objective])]
+Life Lyrics.txt_3-6  [and,i,have,seen]  [provide_expl_just(see,[external,factive,narration,foreground,objective]),provide_expl_just(fade,[external,factive,narration,background,objective])]
+Life Lyrics.txt_3-7  [it,fade]  [reject_expl_just(see,[external,factive,narration,foreground,objective]),reject_expl_just(fade,[external,factive,narration,background,objective])]
+Life Lyrics.txt_4-11  [and,i,walked,away]  [proposal(be,[_373994,_374000,statement,foreground,_374018])]
+Life Lyrics.txt_5-16  [still,i,am,okay]  [accept_expl_opin(be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_6-22  [i_remember,the,pain,inside]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_8-38  [never,went,away]  [reject_expl_just(go,[external,factive,narration,foreground,objective])]
+Life Lyrics.txt_9-47  [it,is,here,today,still]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_10-57  [your,born,alone]  [reject_expl_just(bear,[external,factive,narration,foreground,objective])]
+Life Lyrics.txt_11-68  [you,die,alone]  [provide_expl_just(die,[external,factive,narration,background,objective])]
+Life Lyrics.txt_12-80  [and,still,we,live,on]  [provide_expl_just(live,[external,factive,narration,background,objective])]
+Life Lyrics.txt_13-93  [see,,,yesterday,is,a,memory]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_14-107  [tomorrow,a,vision,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_15-122  [but,today,,,it,is,a,bitch]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_16-138  [yesterday,a,memory,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_17-155  [tomorrow,a,vision,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_18-173  [but,today,,,it,is,a,bitch]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_19-192  [my,he,baby,and,went,to,sleep]  [provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(sleep,[external,factive,narration,background,objective])]
+Life Lyrics.txt_20-213  [we,arms,in,his,mothers,prayed,to,keep]  [provide_expl_just(pray,[external,factive,narration,foreground,objective]),provide_expl_just(keep,[external,factive,narration,background,objective])]
+Life Lyrics.txt_21-235  [the,shadow,away]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_22-257  [he,never,lived,a,day]  [reject_expl_just(live,[external,factive,narration,foreground,objective])]
+Life Lyrics.txt_23-280  [best_friend,called,me,up_to,say]  [provide_expl_just(say,[external,factive,narration,background,objective])]
+Life Lyrics.txt_24-305  [with,a,gun,in,his,hand,said]  [reject_expl_just(say,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_24-306  [he,is,goin,crazy]  [reject_expl_just(say,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_25-331  [said,you,will,be,okay]  [accept_expl_opin(be,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Life Lyrics.txt_26-358  [he,still,died,the,next,day]  [proposal(be,[_383806,_383812,statement,foreground,_383830])]
+Life Lyrics.txt_27-385  [your,born,alone]  [reject_expl_just(bear,[external,factive,narration,foreground,objective])]
+Life Lyrics.txt_28-413  [you,die,alone]  [provide_expl_just(die,[external,factive,narration,background,objective])]
+Life Lyrics.txt_29-442  [and,still,we,live,on]  [provide_expl_just(live,[external,factive,narration,background,objective])]
+Life Lyrics.txt_30-472  [see,,,yesterday,is,a,memory]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_31-503  [tomorrow,a,vision,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_32-535  [but,today,,,it,is,a,bitch]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_33-568  [yesterday,a,memory,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_34-602  [tomorrow,a,vision,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_35-637  [but,today,,,it,is,a,bitch]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_36-673  [i,stood,in,line]  [provide_expl_just(stand,[external,factive,narration,foreground,objective])]
+Life Lyrics.txt_37-710  [i,have,lost,my,pride]  [reject_expl_just(lose,[external,factive,narration,background,objective])]
+Life Lyrics.txt_38-748  [i,have,made,the,change]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+Life Lyrics.txt_39-787  [i,am,a,better,man,today]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_40-827  [death,brings,life]  [reject_expl_just(bring,[external,factive,narration,background,objective])]
+Life Lyrics.txt_41-868  [still,we,try]  [provide_expl_just(try,[external,factive,narration,background,objective])]
+Life Lyrics.txt_42-910  [to,live,a,better,way]  [provide_expl_just(live,[external,factive,narration,background,objective])]
+Life Lyrics.txt_43-953  [before,your,dyin,day]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_44-997  [your,born,alone]  [reject_expl_just(bear,[external,factive,narration,foreground,objective])]
+Life Lyrics.txt_45-1042  [you,die,alone]  [provide_expl_just(die,[external,factive,narration,background,objective])]
+Life Lyrics.txt_46-1088  [and,still,we,live,on]  [provide_expl_just(live,[external,factive,narration,background,objective])]
+Life Lyrics.txt_47-1135  [see,,,yesterday,is,a,memory]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_48-1183  [tomorrow,a,vision,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_49-1232  [but,today,,,it,is,a,bitch]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_50-1282  [yesterday,a,memory,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_51-1333  [tomorrow,a,vision,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_52-1385  [but,today,,,it,is,a,bitch]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_53-1438  [yesterday,a,memory,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_54-1492  [but,today,,,it,is,a,bitch]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_55-1547  [yesterday,a,memory,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Life Lyrics.txt_56-1603  [tomorrow,a,vision,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Life Lyrics.txt_1-1)-[]
+2-(Life Lyrics.txt_2-3)-[primary-vision,primary-vision]
+3-(Life Lyrics.txt_3-6)-[primary-vision]
+4-(Life Lyrics.txt_3-7)-[primary-diffusion]
+5-(Life Lyrics.txt_4-11)-[primary-concreteness]
+6-(Life Lyrics.txt_5-16)-[]
+7-(Life Lyrics.txt_6-22)-[emotions-sadness,primary-concreteness]
+8-(Life Lyrics.txt_8-38)-[primary-concreteness]
+9-(Life Lyrics.txt_9-47)-[primary-concreteness,secondary-temporal_repere]
+10-(Life Lyrics.txt_10-57)-[]
+11-(Life Lyrics.txt_11-68)-[primary-passivity]
+12-(Life Lyrics.txt_12-80)-[]
+13-(Life Lyrics.txt_13-93)-[primary-vision,secondary-temporal_repere]
+14-(Life Lyrics.txt_14-107)-[primary-vision]
+15-(Life Lyrics.txt_15-122)-[secondary-temporal_repere,primary-sex]
+16-(Life Lyrics.txt_16-138)-[secondary-temporal_repere]
+17-(Life Lyrics.txt_17-155)-[primary-vision]
+18-(Life Lyrics.txt_18-173)-[secondary-temporal_repere,primary-sex]
+19-(Life Lyrics.txt_19-192)-[primary-counscious]
+20-(Life Lyrics.txt_20-213)-[primary-narcissism]
+21-(Life Lyrics.txt_21-235)-[primary-diffusion,primary-concreteness]
+22-(Life Lyrics.txt_22-257)-[]
+23-(Life Lyrics.txt_23-280)-[secondary-social_behavior,secondary-social_behavior]
+24-(Life Lyrics.txt_24-305)-[emotions-aggression,primary-narcissism,secondary-social_behavior]
+25-(Life Lyrics.txt_24-306)-[primary-counscious]
+26-(Life Lyrics.txt_25-331)-[secondary-social_behavior]
+27-(Life Lyrics.txt_26-358)-[primary-passivity]
+28-(Life Lyrics.txt_27-385)-[]
+half
+29-(Life Lyrics.txt_28-413)-[primary-passivity]
+30-(Life Lyrics.txt_29-442)-[]
+31-(Life Lyrics.txt_30-472)-[primary-vision,secondary-temporal_repere]
+32-(Life Lyrics.txt_31-503)-[primary-vision]
+33-(Life Lyrics.txt_32-535)-[secondary-temporal_repere,primary-sex]
+34-(Life Lyrics.txt_33-568)-[secondary-temporal_repere]
+35-(Life Lyrics.txt_34-602)-[primary-vision]
+36-(Life Lyrics.txt_35-637)-[secondary-temporal_repere,primary-sex]
+37-(Life Lyrics.txt_36-673)-[primary-brink]
+38-(Life Lyrics.txt_37-710)-[emotions-glory]
+39-(Life Lyrics.txt_38-748)-[primary-counscious]
+40-(Life Lyrics.txt_39-787)-[secondary-temporal_repere]
+41-(Life Lyrics.txt_40-827)-[primary-passivity]
+42-(Life Lyrics.txt_41-868)-[secondary-instru_behavior]
+43-(Life Lyrics.txt_42-910)-[]
+44-(Life Lyrics.txt_43-953)-[]
+45-(Life Lyrics.txt_44-997)-[]
+46-(Life Lyrics.txt_45-1042)-[primary-passivity]
+47-(Life Lyrics.txt_46-1088)-[]
+48-(Life Lyrics.txt_47-1135)-[primary-vision,secondary-temporal_repere]
+49-(Life Lyrics.txt_48-1183)-[primary-vision]
+50-(Life Lyrics.txt_49-1232)-[secondary-temporal_repere,primary-sex]
+51-(Life Lyrics.txt_50-1282)-[secondary-temporal_repere]
+52-(Life Lyrics.txt_51-1333)-[primary-vision]
+53-(Life Lyrics.txt_52-1385)-[secondary-temporal_repere,primary-sex]
+54-(Life Lyrics.txt_53-1438)-[secondary-temporal_repere]
+55-(Life Lyrics.txt_54-1492)-[secondary-temporal_repere,primary-sex]
+56-(Life Lyrics.txt_55-1547)-[secondary-temporal_repere]
+57-(Life Lyrics.txt_56-1603)-[primary-vision]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Life Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Izland-sn2,subj-theme_bound-Lyrics-sn1,and(Izland,Zug,sn2),and(Lyrics,life,sn1),def_prop(Izland,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Life Lyrics.txt_2,3,cl2-nil-nil-see-[obj-actor-light-sn2,subj-experiencer-i-sn1,aux-have-nil,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(i,[umano])])
+lf(Life Lyrics.txt_3,6,cl4-nil-nil-fade-[subj-experiencer-you-sn2,cmod-subord-fade-",def_prop(you,[umano])])
+lf(Life Lyrics.txt_3,6,cl3-nil-nil-see-[subj-experiencer-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(Life Lyrics.txt_4,11,cl5-nil-nil-walk-[cmod-subord-walk-",xcomp-prop-away-sn2,subj-actor-i-sn1,def_prop(away,[evaluative]),def_prop(i,[umano])])
+lf(Life Lyrics.txt_5,16,cl6-nil-nil-be-[xcomp-prop-okay-sn2,subj-theme_bound-i-sn1,def_prop(okay,[attivita,informa]),def_prop(i,[umano])])
+lf(Life Lyrics.txt_6,22,cl7-nil-nil-be-[subj-theme_bound-pain-sn2,subj-theme_bound-pain-sn1,and(pain,i_remember,sn1),def_prop(pain,[astratto,emotivo,stato,umano]),def_prop(pain,[astratto,emotivo,stato,umano])])
+lf(Life Lyrics.txt_7,29,_399324-nil-nil-die-[voice-die-nil,tense-die-nil,obl-locat-day-sn1,def_prop(day,[tempo])])
+lf(Life Lyrics.txt_7,29,cl8-nil-nil-be-[voice-die-nil,tense-die-nil,ncmod-temporale-day-sn1,def_prop(day,[tempo])])
+lf(Life Lyrics.txt_8,38,cl9-nil-nil-go-[subj_top-agent-away-sn1,def_prop(away,[evaluative])])
+lf(Life Lyrics.txt_9,47,cl10-nil-nil-be-[xcomp-prop-today-sn2,subj-theme_bound-it-sn1,and(today,here,sn2),def_prop(today,[tempo]),def_prop(it,[any])])
+lf(Life Lyrics.txt_10,57,cl11-nil-nil-bear-[subj-agent-pro-nil])
+lf(Life Lyrics.txt_11,68,cl12-nil-nil-die-[xcomp-prop-alone-sn2,subj-theme_aff-you-sn1,def_prop(alone,[valutativo]),def_prop(you,[umano])])
+lf(Life Lyrics.txt_12,80,cl13-nil-nil-live-[cmod-subord-live-",subj-actor-we-sn1,def_prop(we,[umano])])
+lf(Life Lyrics.txt_13,93,cl14-nil-nil-be-[xcomp-prop-memory-sn2,subj-theme_bound-see-sn1,def_prop(memory,[astratto,oggetto,strumento]),def_prop(see,[luogo])])
+lf(Life Lyrics.txt_14,107,cl15-nil-nil-be-[subj-theme_bound-vision-sn1,def_prop(vision,[astratto,evento])])
+lf(Life Lyrics.txt_15,122,cl16-nil-nil-be-[xcomp-prop-bitch-sn2,subj-theme_bound-it-sn1,def_prop(bitch,[animato,stato]),def_prop(it,[any])])
+lf(Life Lyrics.txt_16,138,cl17-nil-nil-be-[subj-theme_bound-memory-sn1,def_prop(memory,[astratto,oggetto,strumento])])
+lf(Life Lyrics.txt_17,155,cl18-nil-nil-be-[subj-theme_bound-vision-sn1,def_prop(vision,[astratto,evento])])
+lf(Life Lyrics.txt_18,173,cl19-nil-nil-be-[xcomp-prop-bitch-sn2,subj-theme_bound-it-sn1,def_prop(bitch,[animato,stato]),def_prop(it,[any])])
+lf(Life Lyrics.txt_19,192,cl21-nil-nil-sleep-[])
+lf(Life Lyrics.txt_19,192,cl20-nil-nil-go-[subj-agent-baby-sn1,def_prop(baby,[animato,any,attivita,plant])])
+lf(Life Lyrics.txt_20,213,cl23-nil-nil-keep-[subj-goal-arm-sn1,and(arm,we,sn1),def_prop(arm,[astratto,body_part,oggetto,strumento,umano])])
+lf(Life Lyrics.txt_20,213,cl22-nil-nil-pray-[iobj-goal-mother-sn2,subj-experiencer-arm-sn1,and(arm,we,sn1),def_prop(mother,[astratto,body_part,sostanza,umano]),def_prop(arm,[astratto,body_part,oggetto,strumento,umano])])
+lf(Life Lyrics.txt_21,235,cl24-nil-nil-be-[subj-theme_bound-shadow-sn1,def_prop(shadow,[astratto,emotivo,stato,umano])])
+lf(Life Lyrics.txt_22,257,cl25-nil-nil-live-[obj-prop-day-sn2,subj-actor-he-sn1,def_prop(day,[tempo]),def_prop(he,[umano])])
+lf(Life Lyrics.txt_23,280,cl27-nil-nil-say-[subj-prop-me-sn2,def_prop(me,[umano])])
+lf(Life Lyrics.txt_23,280,cl26-nil-nil-call-[obj-theme_bound-me-sn2,subj-agent-best_friend-sn1,def_prop(me,[umano]),def_prop(best_friend,[umano])])
+lf(Life Lyrics.txt_24,305,cl29-nil-nil-be-[xcomp-prop-crazy-sn7,xcomp-prop-goin-sn6,subj-theme_bound-he-sn5,def_prop(crazy,[valutativo]),def_prop(goin,[istituzione]),def_prop(he,[umano])])
+lf(Life Lyrics.txt_24,305,cl28-nil-nil-say-[ncmod-locativo-hand-sn3,ncmod-comitativo-gun-sn2,subj-agent-you-sn1,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(gun,[attivita,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Life Lyrics.txt_25,331,cl31-nil-nil-be-[xcomp-prop-okay-sn3,xcomp-purpose-be-2,def_prop(okay,[attivita,informa])])
+lf(Life Lyrics.txt_25,331,cl30-nil-nil-say-[subj-actor-you-sn2,subj-actor-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Life Lyrics.txt_26,358,cl32-nil-nil-die-[adj-(mod)-still-nil,obj-theme-day-sn2,subj-theme_aff-he-sn1,and(day,next,sn2),def_prop(day,[tempo]),def_prop(he,[umano])])
+lf(Life Lyrics.txt_27,385,cl33-nil-nil-bear-[subj-agent-pro-nil])
+lf(Life Lyrics.txt_28,413,cl34-nil-nil-die-[xcomp-prop-alone-sn2,subj-theme_aff-you-sn1,def_prop(alone,[valutativo]),def_prop(you,[umano])])
+lf(Life Lyrics.txt_29,442,cl35-nil-nil-live-[cmod-subord-live-",subj-actor-we-sn1,def_prop(we,[umano])])
+lf(Life Lyrics.txt_30,472,cl36-nil-nil-be-[xcomp-prop-memory-sn2,subj-theme_bound-see-sn1,def_prop(memory,[astratto,oggetto,strumento]),def_prop(see,[luogo])])
+lf(Life Lyrics.txt_31,503,cl37-nil-nil-be-[subj-theme_bound-vision-sn1,def_prop(vision,[astratto,evento])])
+lf(Life Lyrics.txt_32,535,cl38-nil-nil-be-[xcomp-prop-bitch-sn2,subj-theme_bound-it-sn1,def_prop(bitch,[animato,stato]),def_prop(it,[any])])
+lf(Life Lyrics.txt_33,568,cl39-nil-nil-be-[subj-theme_bound-memory-sn1,def_prop(memory,[astratto,oggetto,strumento])])
+lf(Life Lyrics.txt_34,602,cl40-nil-nil-be-[subj-theme_bound-vision-sn1,def_prop(vision,[astratto,evento])])
+lf(Life Lyrics.txt_35,637,cl41-nil-nil-be-[xcomp-prop-bitch-sn2,subj-theme_bound-it-sn1,def_prop(bitch,[animato,stato]),def_prop(it,[any])])
+lf(Life Lyrics.txt_36,673,cl42-nil-nil-stand-[iobj-locative-line-sn2,subj-experiencer-i-sn1,def_prop(line,[astratto,attivita,cambia,informa,luogo,oggetto,strumento]),def_prop(i,[umano])])
+lf(Life Lyrics.txt_37,710,cl43-nil-nil-lose-[obj-theme_unaff-pride-sn2,subj-theme_aff-i-sn1,aux-have-nil,def_prop(pride,[astratto,attivita,emotivo,istituzione]),def_prop(i,[umano])])
+lf(Life Lyrics.txt_38,748,cl44-nil-nil-make-[obj-goal-change-sn2,subj-agent-i-sn1,aux-have-nil,def_prop(change,[astratto,attivita,cambia,evento,oggetto,relat,strumento]),def_prop(i,[umano])])
+lf(Life Lyrics.txt_39,787,cl45-nil-nil-be-[adj-temporal-today-nil,xcomp-prop-man-sn2,subj-theme_bound-i-sn1,and(man,better,sn2),def_prop(man,[any]),def_prop(i,[umano])])
+lf(Life Lyrics.txt_40,827,nil-nil-nil-bring-[obj-theme_aff-life-sn2,subj-agent-death-sn1,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(death,[animato,attivita,cambia,evento,informa,stato,tempo])])
+lf(Life Lyrics.txt_41,868,cl46-nil-nil-try-[subj-actor-we-sn1,def_prop(we,[umano])])
+lf(Life Lyrics.txt_42,910,cl47-nil-nil-live-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Life Lyrics.txt_43,953,cl48-nil-nil-be-[adj-temporal-day-nil,adj-(mod)-before-nil,subj-theme_bound-dyin-sn1,def_prop(dyin,[istituzione])])
+lf(Life Lyrics.txt_44,997,cl49-nil-nil-bear-[subj-agent-pro-nil])
+lf(Life Lyrics.txt_45,1042,cl50-nil-nil-die-[xcomp-prop-alone-sn2,subj-theme_aff-you-sn1,def_prop(alone,[valutativo]),def_prop(you,[umano])])
+lf(Life Lyrics.txt_46,1088,cl51-nil-nil-live-[cmod-subord-live-",subj-actor-we-sn1,def_prop(we,[umano])])
+lf(Life Lyrics.txt_47,1135,cl52-nil-nil-be-[xcomp-prop-memory-sn2,subj-theme_bound-see-sn1,def_prop(memory,[astratto,oggetto,strumento]),def_prop(see,[luogo])])
+lf(Life Lyrics.txt_48,1183,cl53-nil-nil-be-[subj-theme_bound-vision-sn1,def_prop(vision,[astratto,evento])])
+lf(Life Lyrics.txt_49,1232,cl54-nil-nil-be-[xcomp-prop-bitch-sn2,subj-theme_bound-it-sn1,def_prop(bitch,[animato,stato]),def_prop(it,[any])])
+lf(Life Lyrics.txt_50,1282,cl55-nil-nil-be-[subj-theme_bound-memory-sn1,def_prop(memory,[astratto,oggetto,strumento])])
+lf(Life Lyrics.txt_51,1333,cl56-nil-nil-be-[subj-theme_bound-vision-sn1,def_prop(vision,[astratto,evento])])
+lf(Life Lyrics.txt_52,1385,cl57-nil-nil-be-[xcomp-prop-bitch-sn2,subj-theme_bound-it-sn1,def_prop(bitch,[animato,stato]),def_prop(it,[any])])
+lf(Life Lyrics.txt_53,1438,cl58-nil-nil-be-[subj-theme_bound-memory-sn1,def_prop(memory,[astratto,oggetto,strumento])])
+lf(Life Lyrics.txt_54,1492,cl59-nil-nil-be-[xcomp-prop-bitch-sn2,subj-theme_bound-it-sn1,def_prop(bitch,[animato,stato]),def_prop(it,[any])])
+lf(Life Lyrics.txt_55,1547,cl60-nil-nil-be-[subj-theme_bound-memory-sn1,def_prop(memory,[astratto,oggetto,strumento])])
+lf(Life Lyrics.txt_56,1603,cl61-nil-nil-be-[subj-theme_bound-vision-sn1,def_prop(vision,[astratto,evento])])

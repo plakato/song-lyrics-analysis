@@ -1,0 +1,70 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Is Strip That Fat Useful For Males? Lyrics.txt_1-1  []-question  []
+Is Strip That Fat Useful For Males? Lyrics.txt_2-3  []-positive  []
+Is Strip That Fat Useful For Males? Lyrics.txt_3-6  []-negative  [neg,fhd]
+Is Strip That Fat Useful For Males? Lyrics.txt_3-7  []-negative  [neg]
+Is Strip That Fat Useful For Males? Lyrics.txt_4-10  []-positive  [fhd]
+Is Strip That Fat Useful For Males? Lyrics.txt_5-11  []-suspension  [neg,neg]
+Is Strip That Fat Useful For Males? Lyrics.txt_5-12  []-negative  [neg]
+Is Strip That Fat Useful For Males? Lyrics.txt_6-18  [however-conc]-suspension  []
+Is Strip That Fat Useful For Males? Lyrics.txt_7-25  [however-conc,if-hypoth]-positive  [fgb]
+Is Strip That Fat Useful For Males? Lyrics.txt_8-33  []-positive  []
+Is Strip That Fat Useful For Males? Lyrics.txt_8-34  []-positive  []
+Is Strip That Fat Useful For Males? Lyrics.txt_9-44  []-suspension  []
+Is Strip That Fat Useful For Males? Lyrics.txt_10-54  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Is Strip That Fat Useful For Males? Lyrics.txt_1-1  [Males,for,Useful,Fat,that,Strip,is,?]  [title]
+Is Strip That Fat Useful For Males? Lyrics.txt_2-3  [Lyrics,by,United,States,Department,of,state]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Is Strip That Fat Useful For Males? Lyrics.txt_3-6  [low,low-carb,diets,fat,diet,or,calorie-controlled,diet,likewise,are]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Is Strip That Fat Useful For Males? Lyrics.txt_3-7  [neither]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Is Strip That Fat Useful For Males? Lyrics.txt_4-10  [ideal,or,recommended,for,all]  [proposal(be,[_1439188,_1439194,statement,foreground,_1439212])]
+Is Strip That Fat Useful For Males? Lyrics.txt_5-11  [Carb,low,diets,are,not,bad]  [provide_expl_just(use,[external,factive,cause,foreground,objective])]
+Is Strip That Fat Useful For Males? Lyrics.txt_5-12  [for,using,some,fat]  [reject_expl_just(use,[external,factive,cause,foreground,objective])]
+Is Strip That Fat Useful For Males? Lyrics.txt_6-18  [initially,however,,,you,might,continue,with,them,for,extended]  [provide_expl_just(continue,[external,nonfactive,narration,foreground,objective])]
+Is Strip That Fat Useful For Males? Lyrics.txt_7-25  [however,,,if]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Is Strip That Fat Useful For Males? Lyrics.txt_8-33  [you,can,learn,how,to,balance,the,three,components,of,the,diet]  [provide_expl_just(balance,[external,factive,narration,background,objective]),provide_expl_just(learn,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Is Strip That Fat Useful For Males? Lyrics.txt_8-34  [;]  [provide_expl_just(balance,[external,factive,narration,background,objective]),provide_expl_just(learn,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Is Strip That Fat Useful For Males? Lyrics.txt_9-44  [you,will,observe,some,outstanding,results]  [raise_issue(be,[_1443540,_1443546,statement,_1443558,_1443564])]
+Is Strip That Fat Useful For Males? Lyrics.txt_10-54  [slimgenix,Pro]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Is Strip That Fat Useful For Males? Lyrics.txt_1-1)-[]
+2-(Is Strip That Fat Useful For Males? Lyrics.txt_2-3)-[]
+3-(Is Strip That Fat Useful For Males? Lyrics.txt_3-6)-[primary-depth,primary-orality,primary-orality,primary-orality,primary-orality]
+4-(Is Strip That Fat Useful For Males? Lyrics.txt_3-7)-[]
+5-(Is Strip That Fat Useful For Males? Lyrics.txt_4-10)-[secondary-abstract_tought]
+6-(Is Strip That Fat Useful For Males? Lyrics.txt_5-11)-[primary-depth,primary-orality]
+half
+7-(Is Strip That Fat Useful For Males? Lyrics.txt_5-12)-[secondary-instru_behavior,primary-orality]
+8-(Is Strip That Fat Useful For Males? Lyrics.txt_6-18)-[secondary-abstract_tought,primary-concreteness]
+9-(Is Strip That Fat Useful For Males? Lyrics.txt_7-25)-[]
+10-(Is Strip That Fat Useful For Males? Lyrics.txt_8-33)-[secondary-abstract_tought,secondary-order,secondary-instru_behavior,primary-orality]
+11-(Is Strip That Fat Useful For Males? Lyrics.txt_8-34)-[]
+12-(Is Strip That Fat Useful For Males? Lyrics.txt_9-44)-[primary-vision,secondary-instru_behavior]
+13-(Is Strip That Fat Useful For Males? Lyrics.txt_10-54)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Is Strip That Fat Useful For Males? Lyrics.txt_1,1,cl1-nil-nil-strip-[subj-agent-pro-nil,aux-(is)-nil])
+lf(Is Strip That Fat Useful For Males? Lyrics.txt_2,3,cl2-nil-nil-be-[ncmod-specif-state-sn3,arg_mod-agent-Department-sn2,subj-theme_bound-Lyrics-sn1,and(Department,United,sn2),and(Department,States,sn2),def_prop(state,[any,attivita,informa,istituzione,luogo,stato,umano]),def_prop(Department,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Is Strip That Fat Useful For Males? Lyrics.txt_3,6,cl3-nil-nil-be-[subj-theme_bound-pro-nil,adj-(mod)-likewise-nil,subj-theme_bound-fat-sn1,and(fat,diet,sn1),and(fat,low,sn1),def_prop(fat,[sostanza])])
+lf(Is Strip That Fat Useful For Males? Lyrics.txt_4,10,cl4-nil-nil-recommend-[subj-agent-all-sn3,subj-agent-all-sn2,and(all,you,sn2),def_prop(all,[_1444826]),def_prop(all,[_1444844])])
+lf(Is Strip That Fat Useful For Males? Lyrics.txt_5,11,cl6-nil-nil-use-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Is Strip That Fat Useful For Males? Lyrics.txt_5,11,cl5-not-nil-be-[xcomp-theme-low-sn2,subj-theme_bound-you-sn1,def_prop(low,[astratto,stato]),def_prop(you,[umano])])
+lf(Is Strip That Fat Useful For Males? Lyrics.txt_6,18,cl7-nil-might-continue-[cmod-subord-continue-however,iobj-goal-them-sn4,subj-agent-you-sn3,def_prop(them,[umano]),def_prop(you,[umano])])
+lf(Is Strip That Fat Useful For Males? Lyrics.txt_7,25,cl8-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Is Strip That Fat Useful For Males? Lyrics.txt_8,33,cl11-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Is Strip That Fat Useful For Males? Lyrics.txt_8,33,cl10-nil-nil-balance-[obj-theme-three-sn2,xcomp-purpose-balance-3,def_prop(three,[nquant])])
+lf(Is Strip That Fat Useful For Males? Lyrics.txt_8,33,cl9-nil-can-learn-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Is Strip That Fat Useful For Males? Lyrics.txt_9,44,cl12-nil-will-observe-[obj-theme_unaff-result-sn2,subj-agent-you-sn1,and(result,some,sn2),and(result,outstanding,sn2),def_prop(result,[evento]),def_prop(you,[umano])])
+lf(Is Strip That Fat Useful For Males? Lyrics.txt_10,54,cl13-nil-nil-say-[obj-theme_unaff-slimgenix-sn1,def_prop(slimgenix,[istituzione])])

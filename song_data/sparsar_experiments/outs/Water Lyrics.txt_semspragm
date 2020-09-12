@@ -1,0 +1,189 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Water Lyrics.txt_1-1  []-positive  []
+Water Lyrics.txt_2-3  []-negative  [neg]
+Water Lyrics.txt_3-7  []-positive  []
+Water Lyrics.txt_4-11  []-positive  []
+Water Lyrics.txt_5-16  []-positive  []
+Water Lyrics.txt_6-22  []-question  []
+Water Lyrics.txt_7-29  []-positive  []
+Water Lyrics.txt_8-37  []-positive  [bkc]
+Water Lyrics.txt_9-46  []-positive  []
+Water Lyrics.txt_10-56  []-positive  []
+Water Lyrics.txt_10-57  []-positive  []
+Water Lyrics.txt_11-68  []-negative  [neg]
+Water Lyrics.txt_11-69  []-none  []
+Water Lyrics.txt_11-70  []-positive  []
+Water Lyrics.txt_12-82  []-positive  []
+Water Lyrics.txt_12-83  []-positive  []
+Water Lyrics.txt_12-83  []-positive  []
+Water Lyrics.txt_13-96  []-question  [neg,neg]
+Water Lyrics.txt_14-110  []-positive  [ack]
+Water Lyrics.txt_15-125  []-positive  [ack]
+Water Lyrics.txt_16-141  []-positive  []
+Water Lyrics.txt_17-158  []-negative  [neg]
+Water Lyrics.txt_18-176  []-positive  [ack]
+Water Lyrics.txt_19-195  []-negative  [neg]
+Water Lyrics.txt_20-217  []-positive  []
+Water Lyrics.txt_21-238  []-positive  []
+Water Lyrics.txt_21-239  []-positive  []
+Water Lyrics.txt_22-261  []-question  []
+Water Lyrics.txt_23-284  []-positive  []
+Water Lyrics.txt_23-285  []-positive  []
+Water Lyrics.txt_24-309  []-positive  []
+Water Lyrics.txt_25-334  []-negative  [neg]
+Water Lyrics.txt_26-360  []-positive  []
+Water Lyrics.txt_26-361  []-negative  []
+Water Lyrics.txt_26-362  []-positive  []
+Water Lyrics.txt_27-389  []-negative  []
+Water Lyrics.txt_28-417  []-positive  []
+Water Lyrics.txt_29-446  []-negative  []
+Water Lyrics.txt_30-476  []-negative  [neg]
+Water Lyrics.txt_31-507  []-positive  []
+Water Lyrics.txt_32-540  []-positive  []
+Water Lyrics.txt_33-573  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Water Lyrics.txt_1-1  [water,Lyrics,by,Yung,Gleesh]  [title]
+Water Lyrics.txt_2-3  [produced,by,Scottie,rob]  [reject_expl_just(produce,[external,factive,cause,foreground,objective])]
+Water Lyrics.txt_3-7  [water,wet,water,wet,wet,,,water]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Water Lyrics.txt_4-11  [wet,,,wet,,,water,wet,wet,,,wet,,,water]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Water Lyrics.txt_5-16  [water]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Water Lyrics.txt_6-22  [mane,water,some,want,she,?]  [provide_expl_just(want,[internal,factive,narration,foreground,objective])]
+Water Lyrics.txt_7-29  [i,got,some,water]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Water Lyrics.txt_8-37  [that,oh,?,is,your,daughter]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Water Lyrics.txt_9-46  [i,gave,her,water]  [provide_expl_just(give,[external,factive,narration,foreground,objective])]
+Water Lyrics.txt_10-56  [i,got,this,goop,bottle,here]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Water Lyrics.txt_10-57  [for,wet,water]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Water Lyrics.txt_11-68  [i,it,she,is,even,not,pay]  [reject_expl_just(pay,[external,factive,narration,background,objective]),reject_expl_just(front,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Water Lyrics.txt_11-69  [for,front]  [provide_expl_just(pay,[external,factive,narration,background,objective]),provide_expl_just(front,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Water Lyrics.txt_11-70  [it]  [provide_expl_just(pay,[external,factive,narration,background,objective]),provide_expl_just(front,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Water Lyrics.txt_12-82  [i,think]  [provide_expl_just(want,[external,factive,narration,background,objective])]
+Water Lyrics.txt_12-83  [i,want,her]  [provide_expl_just(want,[external,factive,narration,background,objective])]
+Water Lyrics.txt_12-83  [i,want,her,,,she,off,the,water]  [provide_expl_just(want,[external,factive,narration,background,objective])]
+Water Lyrics.txt_13-96  [problem,a,that,is,molly,no,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Water Lyrics.txt_14-110  [goop,bottle,right,next,to,my,revolver]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Water Lyrics.txt_15-125  [my,revolver,right,next,to,the,water]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Water Lyrics.txt_16-141  [water]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Water Lyrics.txt_17-158  [gook,by,the,dresser,mane]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Water Lyrics.txt_18-176  [boof,right,on,schedule,mane]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Water Lyrics.txt_19-195  [get,ya,box,i,am,flexin,mane]  [reject_expl_just(box,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
+Water Lyrics.txt_20-217  [coupe,by,the,Lexus,mane]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Water Lyrics.txt_21-238  [geetchie,mane,i,got]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Water Lyrics.txt_21-239  [it,mane]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Water Lyrics.txt_22-261  [mane,water,the,with,that,who,?]  [provide_expl_just(mane,[internal,factive,narration,background,objective])]
+Water Lyrics.txt_23-284  [you,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Water Lyrics.txt_23-285  [i,had,the,water,mane]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Water Lyrics.txt_24-309  [i,was,the,water,mane]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Water Lyrics.txt_25-334  [gook,bottle,i,am,flexing,on,her]  [reject_expl_just(be,[_383790,_383796,_383802,_383808,_383814])]
+Water Lyrics.txt_26-360  [boof,batch,i,got]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(pound,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Water Lyrics.txt_26-361  [two,pounds,on]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(pound,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Water Lyrics.txt_26-362  [',em]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(pound,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Water Lyrics.txt_27-389  [thirty-two,,,two,blocks,of,yack]  [provide_expl_just(yack,[external,factive,narration,background,objective])]
+Water Lyrics.txt_28-417  [sixty-two,,,it,is,jumping,back]  [provide_expl_just(jump,[external,factive,narration,foreground,objective])]
+Water Lyrics.txt_29-446  [two,blocks,down,we,got,some,water]  [proposal(be,[_388440,_388446,statement,foreground,_388464])]
+Water Lyrics.txt_30-476  [one,block,down,you,place,your,order]  [reject_expl_just(place,[external,factive,narration,background,objective])]
+Water Lyrics.txt_31-507  [monroe,boys,run,off,with,packs]  [provide_expl_just(pack,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective])]
+Water Lyrics.txt_32-540  [take,em,out,,,he,got,some,water]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Water Lyrics.txt_33-573  [water]  [raise_issue(be,[_390062,factive,statement,_390080,subjective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Water Lyrics.txt_1-1)-[primary-water]
+2-(Water Lyrics.txt_2-3)-[secondary-instru_behavior,emotions-aggression]
+3-(Water Lyrics.txt_3-7)-[primary-water,primary-water,primary-water,primary-water,primary-water,primary-water]
+4-(Water Lyrics.txt_4-11)-[primary-water,primary-water,primary-water,primary-water,primary-water,primary-water,primary-water]
+5-(Water Lyrics.txt_5-16)-[primary-water]
+6-(Water Lyrics.txt_6-22)-[primary-water]
+7-(Water Lyrics.txt_7-29)-[primary-water]
+8-(Water Lyrics.txt_8-37)-[]
+9-(Water Lyrics.txt_9-46)-[primary-water]
+10-(Water Lyrics.txt_10-56)-[primary-concreteness]
+11-(Water Lyrics.txt_10-57)-[primary-water,primary-water]
+12-(Water Lyrics.txt_11-68)-[secondary-instru_behavior]
+13-(Water Lyrics.txt_11-69)-[primary-concreteness]
+14-(Water Lyrics.txt_11-70)-[]
+15-(Water Lyrics.txt_12-82)-[secondary-abstract_tought]
+16-(Water Lyrics.txt_12-83)-[]
+17-(Water Lyrics.txt_12-83)-[primary-concreteness,primary-water]
+18-(Water Lyrics.txt_13-96)-[secondary-abstract_tought]
+19-(Water Lyrics.txt_14-110)-[secondary-moral_imperative,primary-random_movement]
+20-(Water Lyrics.txt_15-125)-[primary-random_movement,secondary-moral_imperative,primary-water]
+21-(Water Lyrics.txt_16-141)-[primary-water]
+half
+22-(Water Lyrics.txt_17-158)-[]
+23-(Water Lyrics.txt_18-176)-[secondary-moral_imperative]
+24-(Water Lyrics.txt_19-195)-[]
+25-(Water Lyrics.txt_20-217)-[]
+26-(Water Lyrics.txt_21-238)-[]
+27-(Water Lyrics.txt_21-239)-[]
+28-(Water Lyrics.txt_22-261)-[primary-water]
+29-(Water Lyrics.txt_23-284)-[secondary-abstract_tought]
+30-(Water Lyrics.txt_23-285)-[primary-water]
+31-(Water Lyrics.txt_24-309)-[primary-water]
+32-(Water Lyrics.txt_25-334)-[]
+33-(Water Lyrics.txt_26-360)-[]
+34-(Water Lyrics.txt_26-361)-[]
+35-(Water Lyrics.txt_26-362)-[]
+36-(Water Lyrics.txt_27-389)-[secondary-restraint]
+37-(Water Lyrics.txt_28-417)-[primary-concreteness]
+38-(Water Lyrics.txt_29-446)-[secondary-restraint,primary-water]
+39-(Water Lyrics.txt_30-476)-[secondary-restraint,primary-concreteness,secondary-order]
+40-(Water Lyrics.txt_31-507)-[primary-concreteness]
+41-(Water Lyrics.txt_32-540)-[primary-concreteness,primary-water]
+42-(Water Lyrics.txt_33-573)-[primary-water]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Water Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Gleesh-sn2,subj-theme_bound-Lyrics-sn1,and(Gleesh,Yung,sn2),and(Lyrics,water,sn1),def_prop(Gleesh,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Water Lyrics.txt_2,3,cl3-nil-nil-rob-[arg_mod-agent-Scottie-sn2,def_prop(Scottie,[animato,umano])])
+lf(Water Lyrics.txt_2,3,cl2-nil-nil-produce-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Water Lyrics.txt_3,7,cl4-nil-nil-be-[xcomp-theme-water-sn5,xcomp-theme-wet-sn4,xcomp-theme-water-sn3,xcomp-theme-wet-sn2,subj-theme_bound-water-sn1,def_prop(water,[edible,oggetto,sostanza]),def_prop(wet,[stato]),def_prop(water,[edible,oggetto,sostanza]),def_prop(wet,[stato]),def_prop(water,[edible,oggetto,sostanza])])
+lf(Water Lyrics.txt_4,11,cl5-nil-nil-be-[xcomp-theme-water-sn3,xcomp-theme-wet-sn2,subj-theme_bound-water-sn1,def_prop(water,[edible,oggetto,sostanza]),def_prop(wet,[stato]),def_prop(water,[edible,oggetto,sostanza])])
+lf(Water Lyrics.txt_5,16,cl6-nil-nil-say-[obj-theme_unaff-water-sn1,def_prop(water,[edible,oggetto,sostanza])])
+lf(Water Lyrics.txt_6,22,cl7-nil-nil-want-[obj-tema_unaff-mane-sn2,subj-actor-she-sn1,and(mane,some,sn2),and(mane,water,sn2),def_prop(mane,[animato,body_part,umano]),def_prop(she,[umano])])
+lf(Water Lyrics.txt_7,29,cl8-nil-nil-get-[obj-theme_unaff-water-sn2,subj-agent-i-sn1,and(water,some,sn2),def_prop(water,[edible,oggetto,sostanza]),def_prop(i,[umano])])
+lf(Water Lyrics.txt_8,37,cl9-nil-nil-be-[xcomp-prop-daughter-sn2,subj-theme_bound-oh-sn1,and(oh,that,sn1),def_prop(daughter,[umano]),def_prop(oh,[informa,tecno])])
+lf(Water Lyrics.txt_9,46,cl10-nil-nil-give-[obj-goal-water-sn2,subj-actor-i-sn1,def_prop(water,[edible,oggetto,sostanza]),def_prop(i,[umano])])
+lf(Water Lyrics.txt_10,56,cl12-nil-nil-be-[subj-theme_bound-you-sn6,def_prop(you,[umano])])
+lf(Water Lyrics.txt_10,56,cl11-nil-nil-get-[adj-(mod)-here-nil,obj2-paziente-bottle-sn3,obj-theme_unaff-goop-sn2,subj-agent-i-sn1,and(goop,this,sn2),def_prop(bottle,[nquant,oggetto,strumento]),def_prop(goop,[istituzione,umano]),def_prop(i,[umano])])
+lf(Water Lyrics.txt_11,68,cl15-nil-nil-be-[subj-actor-you-sn6,def_prop(you,[umano])])
+lf(Water Lyrics.txt_11,68,cl14-nil-nil-front-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Water Lyrics.txt_11,68,cl13-not-nil-pay-[subj-goal-she-sn2,subj-goal-she-sn1,adj-(mod)-even-nil,aux-(is)-nil,and(she,it,sn1),def_prop(she,[umano]),def_prop(she,[umano])])
+lf(Water Lyrics.txt_12,82,cl17-nil-nil-want-[ncmod-locativo-water-sn7,xcomp-prop-her-sn5,subj-actor-i-sn4,xcomp-prop-her-sn3,subj-actor-i-sn2,def_prop(water,[edible,oggetto,sostanza]),def_prop(her,[umano]),def_prop(i,[umano]),def_prop(her,[umano]),def_prop(i,[umano])])
+lf(Water Lyrics.txt_12,82,cl16-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Water Lyrics.txt_13,96,cl18-nil-nil-be-[xcomp-prop-problem-sn2,subj-theme_bound-molly-sn1,and(problem,that,sn2),and(molly,no,sn1),def_prop(problem,[attivita,informa,stato]),def_prop(molly,[animato])])
+lf(Water Lyrics.txt_14,110,cl19-nil-nil-be-[xadj-adj-right-adj1,adj-(mod)-next-nil,ncmod-loc_direct-revolver-sn2,subj-theme_bound-goop-sn1,and(goop,goop,sn1),def_prop(right,_393518),def_prop(revolver,[oggetto,strumento]),def_prop(goop,[istituzione,umano])])
+lf(Water Lyrics.txt_15,125,cl20-nil-nil-be-[xadj-adj-right-adj2,adj-(mod)-next-nil,ncmod-loc_direct-water-sn2,subj-theme_bound-revolver-sn1,def_prop(right,_393692),def_prop(water,[edible,oggetto,sostanza]),def_prop(revolver,[oggetto,strumento])])
+lf(Water Lyrics.txt_16,141,cl21-nil-nil-say-[obj-theme_unaff-water-sn1,def_prop(water,[edible,oggetto,sostanza])])
+lf(Water Lyrics.txt_17,158,cl22-nil-nil-be-[arg_mod-agent-mane-sn2,subj-theme_bound-gook-sn1,and(mane,dresser,sn2),def_prop(mane,[animato,body_part,umano]),def_prop(gook,[umano])])
+lf(Water Lyrics.txt_18,176,cl23-nil-nil-be-[xadj-adj-right-adj3,ncmod-locativo-mane-sn2,subj-theme_bound-boof-sn1,and(mane,schedule,sn2),def_prop(right,_394098),def_prop(mane,[animato,body_part,umano]),def_prop(boof,[istituzione])])
+lf(Water Lyrics.txt_19,195,cl26-nil-nil-be-[xcomp-theme-i-sn3,xcomp-purpose-box-3,def_prop(i,[umano])])
+lf(Water Lyrics.txt_19,195,cl25-nil-nil-box-[obj-prop-mane-sn4,xcomp-purpose-be-4,and(mane,flexin,sn4),def_prop(mane,[animato,body_part,umano])])
+lf(Water Lyrics.txt_19,195,cl24-nil-nil-get-[obj-theme_unaff-ya-sn2,subj-agent-you-sn1,def_prop(ya,[legale]),def_prop(you,[umano])])
+lf(Water Lyrics.txt_20,217,cl27-nil-nil-be-[xcomp-theme-mane-sn3,arg_mod-agent-Lexus-sn2,subj-theme_bound-coupe-sn1,def_prop(mane,[animato,body_part,umano]),def_prop(Lexus,[istituzione,umano]),def_prop(coupe,[oggetto,strumento])])
+lf(Water Lyrics.txt_21,238,cl29-nil-nil-be-[xcomp-prop-mane-sn6,subj-theme_bound-it-sn5,def_prop(mane,[animato,body_part,umano]),def_prop(it,[any])])
+lf(Water Lyrics.txt_21,238,cl28-nil-nil-get-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,mane,sn1),and(i,geetchie,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Water Lyrics.txt_22,261,cl30-nil-nil-be-[ncmod-comitativo-mane-sn3,subj-theme_bound-that-sn2,subj-theme_bound-that-sn1,and(mane,water,sn3),and(that,who,sn1),def_prop(mane,[animato,body_part,umano]),def_prop(that,[oggetto,umano]),def_prop(that,[oggetto,umano])])
+lf(Water Lyrics.txt_23,284,cl32-nil-nil-have-[xcomp-prop-mane-sn4,xcomp-tema_bound-water-sn3,subj-experiencer-i-sn2,def_prop(mane,[animato,body_part,umano]),def_prop(water,[edible,oggetto,sostanza]),def_prop(i,[umano])])
+lf(Water Lyrics.txt_23,284,cl31-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Water Lyrics.txt_24,309,cl33-nil-nil-be-[obj2-benef-mane-sn3,xcomp-prop-water-sn2,subj-theme_bound-i-sn1,def_prop(mane,[animato,body_part,umano]),def_prop(water,[edible,oggetto,sostanza]),def_prop(i,[umano])])
+lf(Water Lyrics.txt_25,334,cl34-nil-nil-flex-[ncmod-locativo-her-sn3,subj-goal-i-sn2,subj-goal-i-sn1,aux-am-nil,progr-flexing-nil,and(i,bottle,sn1),and(i,gook,sn1),def_prop(her,[umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Water Lyrics.txt_26,360,cl37-nil-nil-be-[subj-theme_bound-you-sn6,def_prop(you,[umano])])
+lf(Water Lyrics.txt_26,360,cl36-nil-nil-pound-[subj-agent-two-sn5,def_prop(two,[_395916])])
+lf(Water Lyrics.txt_26,360,cl35-nil-nil-get-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,batch,sn1),and(i,boof,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Water Lyrics.txt_27,389,nil-nil-nil-yack-[subj-agent-block-sn1,and(block,two,sn1),def_prop(block,[astratto,luogo,nquant,oggetto,strumento])])
+lf(Water Lyrics.txt_28,417,cl38-nil-nil-jump-[subj-agent-it-sn1,aux-(is)-nil,progr-jumping-nil,def_prop(it,[any])])
+lf(Water Lyrics.txt_29,446,cl39-nil-nil-get-[obj-theme_unaff-water-sn3,subj-agent-we-sn2,subj-agent-we-sn1,and(water,some,sn3),and(we,block,sn1),and(we,two,sn1),def_prop(water,[edible,oggetto,sostanza]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Water Lyrics.txt_30,476,cl40-nil-nil-place-[obj-theme-order-sn3,subj-agent-you-sn2,subj-agent-you-sn1,and(you,block,sn1),and(you,one,sn1),def_prop(order,[astratto,attivita,informa,stato]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Water Lyrics.txt_31,507,cl42-nil-nil-pack-[subj-theme-boy-sn1,and(boy,monroe,sn1),def_prop(boy,[oggetto,strumento])])
+lf(Water Lyrics.txt_31,507,cl41-nil-nil-run-[adj-locative-off-nil,subj-theme_aff-boy-sn1,and(boy,monroe,sn1),def_prop(boy,[oggetto,strumento])])
+lf(Water Lyrics.txt_32,540,cl43-nil-nil-get-[adj-(mod)-out-nil,obj-theme_unaff-water-sn4,subj-agent-he-sn3,subj-agent-he-sn2,subj-agent-em-sn1,and(water,some,sn4),and(he,em,sn2),and(em,take,sn1),def_prop(water,[edible,oggetto,sostanza]),def_prop(he,[umano]),def_prop(he,[umano]),def_prop(em,[nquant])])
+lf(Water Lyrics.txt_33,573,cl44-nil-nil-say-[obj-theme_unaff-water-sn1,def_prop(water,[edible,oggetto,sostanza])])

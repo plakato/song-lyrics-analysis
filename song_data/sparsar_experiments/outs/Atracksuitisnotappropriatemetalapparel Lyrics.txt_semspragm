@@ -1,0 +1,63 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_1-1  []-positive  []
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_2-3  []-suspension  []
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_2-4  []-suspension  [neg,neg]
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_3-8  []-suspension  [neg,neg]
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_4-12  []-question  [fgb]
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_4-13  []-positive  []
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_5-18  []-negative  [neg,fgb]
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_6-24  []-positive  []
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_7-31  []-question  [fgb]
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_7-32  []-positive  []
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_8-40  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_1-1  [atracksuitisnotappropriatemetalapparel,Lyrics,by,Blood,Duster]  [title]
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_2-3  [it,seems]  [provide_expl_just(metal,[external,factive,explanation,background,objective]),provide_expl_just(close,[external,factive,narration,foreground,objective])]
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_2-4  [that,the,death,of,metal,is,close,at_hand]  [propose_opin_neg(metal,[external,factive,explanation,background,objective]),provide_expl_just(close,[external,factive,narration,foreground,objective])]
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_3-8  [it,gives,me,a,chill,unparalleled]  [provide_expl_just(give,[external,factive,narration,background,objective])]
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_4-12  [suit,track,fuck-s,the,what,?]  [provide_expl_just(track,[internal,factive,narration,foreground,objective])]
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_4-13  [for]  [provide_expl_just(track,[internal,factive,narration,foreground,objective])]
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_5-18  [a,millions,clones,Limp,Bizkit,and,of,Korn]  [reject_expl_just(clones,[external,factive,narration,background,objective])]
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_6-24  [are,spreading,through,the,land]  [raise_issue(be,[_90988,factive,statement,_91006,subjective])]
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_7-31  [suit,track,fuck-s,the,what,?]  [provide_expl_just(track,[internal,factive,narration,foreground,objective])]
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_7-32  [for]  [provide_expl_just(track,[internal,factive,narration,foreground,objective])]
+Atracksuitisnotappropriatemetalapparel Lyrics.txt_8-40  [commercial,sellout,bandwagon,whore]  [reject_expl_just(whore,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Atracksuitisnotappropriatemetalapparel Lyrics.txt_1-1)-[]
+2-(Atracksuitisnotappropriatemetalapparel Lyrics.txt_2-3)-[primary-vision]
+3-(Atracksuitisnotappropriatemetalapparel Lyrics.txt_2-4)-[primary-passivity,primary-hard,primary-concreteness]
+4-(Atracksuitisnotappropriatemetalapparel Lyrics.txt_3-8)-[primary-cold]
+5-(Atracksuitisnotappropriatemetalapparel Lyrics.txt_4-12)-[primary-sex]
+half
+6-(Atracksuitisnotappropriatemetalapparel Lyrics.txt_4-13)-[]
+7-(Atracksuitisnotappropriatemetalapparel Lyrics.txt_5-18)-[]
+8-(Atracksuitisnotappropriatemetalapparel Lyrics.txt_6-24)-[]
+9-(Atracksuitisnotappropriatemetalapparel Lyrics.txt_7-31)-[primary-sex]
+10-(Atracksuitisnotappropriatemetalapparel Lyrics.txt_7-32)-[]
+11-(Atracksuitisnotappropriatemetalapparel Lyrics.txt_8-40)-[primary-sex]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Atracksuitisnotappropriatemetalapparel Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Duster-sn2,subj-theme_bound-Lyrics-sn1,and(Duster,Blood,sn2),and(Lyrics,atracksuitisnotappropriatemetalapparel,sn1),def_prop(Duster,[place,attivita,oggetto,strumento,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Atracksuitisnotappropriatemetalapparel Lyrics.txt_2,3,cl4-nil-nil-close-[obj-theme-at_hand-sn3,xcomp-purpose-metal-2,subj-agent-death-sn2,aux-(is)-nil,def_prop(at_hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(death,[animato,attivita,cambia,evento,informa,stato,tempo])])
+lf(Atracksuitisnotappropriatemetalapparel Lyrics.txt_2,3,cl3-nil-nil-metal-[])
+lf(Atracksuitisnotappropriatemetalapparel Lyrics.txt_2,3,cl2-nil-nil-seem-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Atracksuitisnotappropriatemetalapparel Lyrics.txt_3,8,cl5-nil-nil-give-[obj2-paziente-chill-sn3,obj-goal-me-sn2,subj-actor-it-sn1,def_prop(chill,[astratto,emotivo,stato]),def_prop(me,[umano]),def_prop(it,[any])])
+lf(Atracksuitisnotappropriatemetalapparel Lyrics.txt_4,12,cl7-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Atracksuitisnotappropriatemetalapparel Lyrics.txt_4,12,cl6-nil-nil-track-[obj-theme_aff-suit-sn3,obj-theme-what-sn2,subj-agent-fuck-s-sn1,def_prop(suit,[attivita,informa,oggetto,strumento,umano]),def_prop(what,[oggetto]),def_prop(fuck-s,[attivita])])
+lf(Atracksuitisnotappropriatemetalapparel Lyrics.txt_5,18,nil-nil-nil-clones-[ncmod-modal-Bizkit_and_Korn-[sn2,sn3],subj-theme_aff-millions-sn1,def_prop(Bizkit_and_Korn,[istituzione,umano,istituzione,umano]),def_prop(millions,[nquant])])
+lf(Atracksuitisnotappropriatemetalapparel Lyrics.txt_6,24,cl8-nil-nil-spread-[ncmod-location-land-sn2,subj-agent-you-sn1,aux-are-nil,progr-spreading-nil,def_prop(land,[astratto,oggetto]),def_prop(you,[umano])])
+lf(Atracksuitisnotappropriatemetalapparel Lyrics.txt_7,31,cl10-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Atracksuitisnotappropriatemetalapparel Lyrics.txt_7,31,cl9-nil-nil-track-[obj-theme_aff-suit-sn3,obj-theme-what-sn2,subj-agent-fuck-s-sn1,def_prop(suit,[attivita,informa,oggetto,strumento,umano]),def_prop(what,[oggetto]),def_prop(fuck-s,[attivita])])
+lf(Atracksuitisnotappropriatemetalapparel Lyrics.txt_8,40,nil-nil-nil-whore-[ncmod-modal-sellout-sn2,subj-actor-you-sn1,def_prop(sellout,[attivita]),def_prop(you,[umano])])

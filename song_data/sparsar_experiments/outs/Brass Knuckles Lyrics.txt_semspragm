@@ -1,0 +1,33 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Brass Knuckles Lyrics.txt_1-1  []-positive  []
+Brass Knuckles Lyrics.txt_2-3  []-negative  [neg]
+Brass Knuckles Lyrics.txt_3-6  [then-temp_seq,when-temp_coinc]-suspension  [fhd,neg,neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Brass Knuckles Lyrics.txt_1-1  [brass,Knuckles,Lyrics,by,Quarashi]  [title]
+Brass Knuckles Lyrics.txt_2-3  [i,have,got,the,gloves,dropped,swinging,at,you]  [reject_expl_just(get,[external,factive,explanation,background,objective]),propose_opin_neg(get,[external,factive,explanation,background,objective])]
+Brass Knuckles Lyrics.txt_3-6  [had,the,brass,knuckles,the,guy,stereotyped,that,that,was,kinda,like,a,fly,then,when,you,quit,,,you,be,talkin,shit,with,a,speech,impediment,you,wan,na,sweat,,,it,etc]  [provide_expl_just(quit,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Brass Knuckles Lyrics.txt_1-1)-[primary-hard]
+half
+2-(Brass Knuckles Lyrics.txt_2-3)-[primary-concreteness]
+3-(Brass Knuckles Lyrics.txt_3-6)-[primary-hard,emotions-affection,emotions-affection,primary-ascend,secondary-temporal_repere,secondary-temporal_repere,secondary-social_behavior,primary-anality,secondary-social_behavior,primary-anality]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Brass Knuckles Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Quarashi-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,brass,sn1),def_prop(Quarashi,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Brass Knuckles Lyrics.txt_2,3,cl2-nil-nil-get-[xadj-adj-swinging-adj1,ncmod-locativo-you-sn4,xcomp-prop-dropped-sn3,obj-theme_unaff-glove-sn2,subj-agent-i-sn1,aux-have-nil,def_prop(swinging,_38266),def_prop(you,[umano]),def_prop(dropped,[evaluative]),def_prop(glove,[oggetto,strumento]),def_prop(i,[umano])])
+lf(Brass Knuckles Lyrics.txt_3,6,cl5-nil-nil-quit-[xcomp-result-shit-sn13,xcomp-purpose-be-4,subj-agent-you-sn11,and(shit,talkin,sn13),def_prop(shit,[attivita,umano]),def_prop(you,[umano])])
+lf(Brass Knuckles Lyrics.txt_3,6,cl4-nil-nil-be-[cmod-subord-quit-then,cmod-subord-quit-when,ncmod-modale-speech-sn14,def_prop(speech,[attivita,informa])])
+lf(Brass Knuckles Lyrics.txt_3,6,nil-nil-nil-knuckle-[])
+lf(Brass Knuckles Lyrics.txt_3,6,cl3-nil-nil-have-[xcomp-prop-sweat-sn9,xcomp-theme-na-sn8,xcomp-theme_aff-you-sn7,xcomp-theme-impediment-sn6,xcomp-prop-fly-sn5,adj-subj_disc-kinda-sn4,xcomp-theme-that-sn3,xcomp-tema_bound-guy-sn2,subj-experiencer-brass-sn1,and(na,wan,sn8),and(that,that,sn3),and(that,stereotyped,sn3),def_prop(sweat,[attivita,cambia]),def_prop(na,[informa,tecno]),def_prop(you,[umano]),def_prop(impediment,[astratto,oggetto,stato,strumento]),def_prop(fly,[animato,attivita,oggetto,strumento]),def_prop(kinda,[istituzione]),def_prop(that,[oggetto,umano]),def_prop(guy,[oggetto,strumento,umano]),def_prop(brass,[oggetto,sostanza,strumento])])

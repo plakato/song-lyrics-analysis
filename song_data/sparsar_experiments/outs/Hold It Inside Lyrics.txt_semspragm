@@ -1,0 +1,112 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Hold It Inside Lyrics.txt_1-1  []-positive  []
+Hold It Inside Lyrics.txt_2-3  []-negative  [neg,neg]
+Hold It Inside Lyrics.txt_2-4  []-negative  [neg,neg]
+Hold It Inside Lyrics.txt_2-5  []-negative  [neg,neg]
+Hold It Inside Lyrics.txt_3-7  []-negative  [neg,neg,neg]
+Hold It Inside Lyrics.txt_3-8  []-negative  [neg,neg]
+Hold It Inside Lyrics.txt_3-9  []-negative  [neg,neg,neg]
+Hold It Inside Lyrics.txt_4-11  []-question  []
+Hold It Inside Lyrics.txt_5-17  []-negative  [neg]
+Hold It Inside Lyrics.txt_5-18  []-negative  [neg,neg]
+Hold It Inside Lyrics.txt_5-19  []-negative  [neg,neg]
+Hold It Inside Lyrics.txt_6-24  []-suspension  [neg,neg]
+Hold It Inside Lyrics.txt_7-31  []-negative  [neg]
+Hold It Inside Lyrics.txt_7-32  []-negative  [neg]
+Hold It Inside Lyrics.txt_8-39  []-positive  [fgb,fgb,fgb]
+Hold It Inside Lyrics.txt_9-48  []-question  [fgb]
+Hold It Inside Lyrics.txt_10-59  []-negative  [neg,neg]
+Hold It Inside Lyrics.txt_10-60  []-negative  [neg,neg]
+Hold It Inside Lyrics.txt_11-72  []-positive  []
+Hold It Inside Lyrics.txt_13-98  []-negative  []
+Hold It Inside Lyrics.txt_13-99  []-negative  []
+Hold It Inside Lyrics.txt_14-112  []-question  [neg]
+Hold It Inside Lyrics.txt_15-127  []-question  [neg]
+Hold It Inside Lyrics.txt_16-143  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Hold It Inside Lyrics.txt_1-1  [hold,it,inside,Lyrics,by,Russian,red]  [title]
+Hold It Inside Lyrics.txt_2-3  [i,am,not,taking,not]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(fade,[external,factive,narration,foreground,objective])]
+Hold It Inside Lyrics.txt_2-4  [,,i,am,not,not]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(fade,[external,factive,narration,foreground,objective])]
+Hold It Inside Lyrics.txt_2-5  [,,i,am,not,fading]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(fade,[external,factive,narration,foreground,objective])]
+Hold It Inside Lyrics.txt_3-7  [i,am,not,falling,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Hold It Inside Lyrics.txt_3-8  [,,you,are,not,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Hold It Inside Lyrics.txt_3-9  [,,you,are,not,not,falling]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Hold It Inside Lyrics.txt_4-11  [inside,it,you,hold,hold,inside,it,just,cause,?]  [provide_expl_just(hold,[internal,factive,narration,background,objective]),provide_expl_just(cause,[internal,factive,narration,foreground,objective])]
+Hold It Inside Lyrics.txt_5-17  [i,am,not,feeling]  [reject_expl_just(feel,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Hold It Inside Lyrics.txt_5-18  [i,am,not,not]  [reject_expl_just(feel,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Hold It Inside Lyrics.txt_5-19  [i,am,not,not,a,missed,ring]  [reject_expl_just(feel,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Hold It Inside Lyrics.txt_6-24  [i,am,just,falling,things,aren-t,the,hole,that,is,been,your,life]  [provide_expl_just(fall,[external,factive,cause,foreground,objective])]
+Hold It Inside Lyrics.txt_7-31  [the,hole,that,is]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Hold It Inside Lyrics.txt_7-32  [been,their,arm]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Hold It Inside Lyrics.txt_8-39  [and,all,your,voices,and,all,and,all,your,choices]  [provide_expl_just(voice,[external,factive,narration,background,objective])]
+Hold It Inside Lyrics.txt_9-48  [forget,you,,,forget,to,mechanisms,my,all,and,?]  [provide_expl_just(forget,[internal,factive,narration,foreground,objective])]
+Hold It Inside Lyrics.txt_10-59  [all,inside,i,am,not,not]  [reject_expl_just(lie,[external,factive,narration,background,objective]),reject_expl_just(find,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Hold It Inside Lyrics.txt_10-60  [,,i,am,not,finding,lies,against,this]  [reject_expl_just(lie,[external,factive,narration,background,objective]),reject_expl_just(find,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Hold It Inside Lyrics.txt_11-72  [whole,established,order,that,i,found]  [provide_expl_just(find,[external,factive,narration,foreground,objective])]
+Hold It Inside Lyrics.txt_13-98  [both,we,you,don-t,fit]  [provide_expl_just(fit,[external,factive,narration,foreground,objective])]
+Hold It Inside Lyrics.txt_13-99  [don-t,fit]  [provide_expl_just(fit,[external,factive,narration,foreground,objective])]
+Hold It Inside Lyrics.txt_14-112  [there,in,fits,nobody,?]  [provide_expl_just(fit,[internal,factive,narration,foreground,objective])]
+Hold It Inside Lyrics.txt_15-127  [away,fading,just,am,i,?]  [provide_expl_just(fade,[internal,factive,narration,background,objective])]
+Hold It Inside Lyrics.txt_16-143  [hold,it,inside]  [provide_expl_just(hold,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Hold It Inside Lyrics.txt_1-1)-[primary-concreteness]
+2-(Hold It Inside Lyrics.txt_2-3)-[]
+3-(Hold It Inside Lyrics.txt_2-4)-[]
+4-(Hold It Inside Lyrics.txt_2-5)-[primary-diffusion]
+5-(Hold It Inside Lyrics.txt_3-7)-[]
+6-(Hold It Inside Lyrics.txt_3-8)-[]
+7-(Hold It Inside Lyrics.txt_3-9)-[]
+8-(Hold It Inside Lyrics.txt_4-11)-[primary-concreteness,primary-concreteness,secondary-abstract_tought]
+9-(Hold It Inside Lyrics.txt_5-17)-[]
+10-(Hold It Inside Lyrics.txt_5-18)-[]
+11-(Hold It Inside Lyrics.txt_5-19)-[primary-sound]
+12-(Hold It Inside Lyrics.txt_6-24)-[primary-depth]
+half
+13-(Hold It Inside Lyrics.txt_7-31)-[primary-depth]
+14-(Hold It Inside Lyrics.txt_7-32)-[primary-narcissism]
+15-(Hold It Inside Lyrics.txt_8-39)-[primary-sound,secondary-abstract_tought]
+16-(Hold It Inside Lyrics.txt_9-48)-[secondary-instru_behavior,secondary-instru_behavior]
+17-(Hold It Inside Lyrics.txt_10-59)-[primary-concreteness]
+18-(Hold It Inside Lyrics.txt_10-60)-[primary-passivity,secondary-temporal_repere]
+19-(Hold It Inside Lyrics.txt_11-72)-[secondary-abstract_tought,secondary-order,secondary-instru_behavior]
+20-(Hold It Inside Lyrics.txt_13-98)-[]
+21-(Hold It Inside Lyrics.txt_13-99)-[]
+22-(Hold It Inside Lyrics.txt_14-112)-[]
+23-(Hold It Inside Lyrics.txt_15-127)-[primary-concreteness,primary-diffusion]
+24-(Hold It Inside Lyrics.txt_16-143)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Hold It Inside Lyrics.txt_1,1,cl1-nil-nil-hold-[xadj-adj-red-adj1,arg_mod-agent-Russian-sn3,obj-goal-Lyrics-sn2,subj-agent-it-sn1,and(Lyrics,inside,sn2),def_prop(red,_143296),def_prop(Russian,[attivita,informa,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(it,[any])])
+lf(Hold It Inside Lyrics.txt_2,3,cl3-not-nil-fade-[subj-experiencer-you-sn4,aux-am-nil,progr-fading-nil,def_prop(you,[umano])])
+lf(Hold It Inside Lyrics.txt_2,3,cl2-not-nil-be-[subj-theme_bound-i-sn3,xcomp-prop-taking-sn2,subj-theme_bound-i-sn1,def_prop(i,[umano]),def_prop(taking,[attivita,informa]),def_prop(i,[umano])])
+lf(Hold It Inside Lyrics.txt_3,7,cl4-not-nil-be-[xcomp-prop-falling-sn5,subj-theme_bound-you-sn4,subj-theme_bound-you-sn3,xcomp-prop-falling-sn2,subj-theme_bound-i-sn1,def_prop(falling,[evento]),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(falling,[evento]),def_prop(i,[umano])])
+lf(Hold It Inside Lyrics.txt_4,11,cl6-nil-nil-hold-[obj-goal-inside-sn8,subj-agent-it-sn7,obj-goal-inside-sn5,subj-agent-it-sn4,subj-agent-it-sn3,def_prop(inside,[luogo]),def_prop(it,[any]),def_prop(inside,[luogo]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Hold It Inside Lyrics.txt_4,11,cl5-nil-nil-cause-[subj-causer-you-sn1,def_prop(you,[umano])])
+lf(Hold It Inside Lyrics.txt_5,17,cl8-not-nil-be-[xcomp-prop-ring-sn4,subj-theme_bound-i-sn3,subj-theme_bound-i-sn2,and(ring,missed,sn4),def_prop(ring,[astratto,evento,oggetto,strumento]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Hold It Inside Lyrics.txt_5,17,cl7-not-nil-feel-[subj-experiencer-you-sn1,aux-am-nil,progr-feeling-nil,def_prop(you,[umano])])
+lf(Hold It Inside Lyrics.txt_6,24,cl9-nil-nil-fall-[obj-theme_aff-thing-sn2,subj-agent-i-sn1,aux-am-nil,progr-falling-nil,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(i,[umano])])
+lf(Hold It Inside Lyrics.txt_7,31,cl10-nil-nil-be-[xcomp-theme-arm-sn2,subj-theme_bound-hole-sn1,def_prop(arm,[astratto,body_part,oggetto,strumento,umano]),def_prop(hole,[astratto,oggetto,stato,strumento])])
+lf(Hold It Inside Lyrics.txt_8,39,cl11-nil-nil-voice-[cmod-subord-voice-",coord-agent-all_and_choice-sn6,subj-agent-choice-sn5,subj-agent-all-sn4,coord-agent-all_and_choice-sn3,subj-agent-choice-sn2,subj-agent-all-sn1,and(all,all_and_choice-sn16,sn4),and(all,choice-sn5,sn4),and(all,all-sn4,sn4),and(all,all_and_choice-sn10,sn4),and(all,choice-sn2,sn4),and(all,all-sn1,sn4),and(all,all_and_choice-sn16,sn1),and(all,choice-sn5,sn1),and(all,all-sn4,sn1),and(all,all_and_choice-sn10,sn1),and(all,choice-sn2,sn1),and(all,all-sn1,sn1),def_prop(all_and_choice,[_145234,astratto,attivita]),def_prop(choice,[_145264,astratto,attivita]),def_prop(all,[_145294]),def_prop(all_and_choice,[_145312,astratto,attivita]),def_prop(choice,[_145342,astratto,attivita]),def_prop(all,[_145372])])
+lf(Hold It Inside Lyrics.txt_9,48,cl12-nil-nil-forget-[cmod-coord-forget-and,obj-goal-you-sn2,xcomp-purpose-forget-3,subj-experiencer-mechanism-sn1,and(mechanism,all,sn1),def_prop(you,[umano]),def_prop(mechanism,[astratto,attivita,oggetto,strumento])])
+lf(Hold It Inside Lyrics.txt_10,59,cl15-nil-nil-lie-[ncmod-prop-this-sn5,def_prop(this,[oggetto,umano])])
+lf(Hold It Inside Lyrics.txt_10,59,cl14-not-nil-find-[xcomp-purpose-lie-2,subj-actor-i-sn4,aux-am-nil,progr-finding-nil,def_prop(i,[umano])])
+lf(Hold It Inside Lyrics.txt_10,59,cl13-not-nil-be-[subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(i,all,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Hold It Inside Lyrics.txt_11,72,cl16-nil-nil-find-[ccomp-prop-find-cl16,subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Hold It Inside Lyrics.txt_12,84,_146036-nil-nil-fit-[voice-fit-nil,tense-fit-nil,obl-locative-hear-sn1,def_prop(hear,[istituzione])])
+lf(Hold It Inside Lyrics.txt_12,84,cl17-nil-nil-be-[voice-fit-nil,tense-fit-nil,xcomp-prop-hear-sn1,def_prop(hear,[istituzione])])
+lf(Hold It Inside Lyrics.txt_13,98,cl18-not-nil-fit-[subj-agent-you-sn4,subj-agent-you-sn2,subj-agent-you-sn1,aux-do-nil,and(you,we,sn1),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Hold It Inside Lyrics.txt_14,112,cl19-nil-nil-fit-[iobj-goal-there-sn2,subj-agent-nobody-sn1,def_prop(there,[any]),def_prop(nobody,[umano])])
+lf(Hold It Inside Lyrics.txt_15,127,cl20-nil-nil-fade-[obj-theme-away-sn2,subj-experiencer-i-sn1,aux-am-nil,progr-fading-nil,def_prop(away,[istituzione]),def_prop(i,[umano])])
+lf(Hold It Inside Lyrics.txt_16,143,cl21-nil-nil-hold-[xcomp-prop-inside-sn3,subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(inside,[luogo]),def_prop(it,[any]),def_prop(it,[any])])

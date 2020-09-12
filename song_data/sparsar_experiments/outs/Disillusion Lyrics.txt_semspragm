@@ -1,0 +1,26 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Disillusion Lyrics.txt_1-1  []-negative  [neg,neg]
+Disillusion Lyrics.txt_2-3  []-negative  [neg,neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Disillusion Lyrics.txt_1-1  [disillusion,Lyrics,by,unearth]  [title]
+Disillusion Lyrics.txt_2-3  [so_much,disdain,so_much,hatred,disillusion,with,this,world]  [reject_expl_just(disillusion,[external,factive,explanation,background,objective]),propose_opin_neg(disillusion,[external,factive,explanation,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Disillusion Lyrics.txt_1-1)-[]
+half
+2-(Disillusion Lyrics.txt_2-3)-[emotions-aggression]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Disillusion Lyrics.txt_1,1,cl1-nil-nil-unearth-[ncmod-modal-disillusion-sn2,subj-agent-you-sn1,def_prop(disillusion,[attivita,informa]),def_prop(you,[umano])])
+lf(Disillusion Lyrics.txt_2,3,cl2-nil-nil-disillusion-[iobj-goal-world-sn3,subj-theme-hatred-sn2,subj-theme-hatred-sn1,and(world,this,sn3),and(hatred,so_much,sn2),and(hatred,so_much,sn1),def_prop(world,[astratto,istituzione,oggetto]),def_prop(hatred,[emotivo]),def_prop(hatred,[emotivo])])

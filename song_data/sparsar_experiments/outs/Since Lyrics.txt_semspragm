@@ -1,0 +1,112 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Since Lyrics.txt_1-1  [since-cause]-positive  []
+Since Lyrics.txt_2-3  [whenever-cond]-positive  []
+Since Lyrics.txt_2-4  []-negative  [neg,fhd]
+Since Lyrics.txt_3-9  []-positive  []
+Since Lyrics.txt_3-10  []-positive  []
+Since Lyrics.txt_4-14  []-suspension  []
+Since Lyrics.txt_5-19  []-positive  [fhd]
+Since Lyrics.txt_6-27  []-negative  [neg]
+Since Lyrics.txt_6-28  []-positive  []
+Since Lyrics.txt_6-29  []-suspension  [neg]
+Since Lyrics.txt_6-30  []-positive  [fgb]
+Since Lyrics.txt_7-38  []-negative  []
+Since Lyrics.txt_7-39  [since-cause]-positive  []
+Since Lyrics.txt_8-49  []-negative  []
+Since Lyrics.txt_8-50  []-suspension  []
+Since Lyrics.txt_8-51  []-positive  []
+Since Lyrics.txt_8-52  []-positive  []
+Since Lyrics.txt_9-60  []-suspension  [fgb]
+Since Lyrics.txt_10-71  []-negative  [neg]
+Since Lyrics.txt_10-72  [when-temp_coinc]-positive  [fgb]
+Since Lyrics.txt_11-85  []-negative  [neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Since Lyrics.txt_1-1  [since,Lyrics,by,Zinc]  [title]
+Since Lyrics.txt_2-3  [i,you,whenever,i,leave]  [provide_expl_just(wait,[external,nonfactive,narration,foreground,objective]),provide_expl_just(get,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(leave,[external,factive,explanation,background,objective])]
+Since Lyrics.txt_2-4  [can,not,wait,to,get,back,to,you,you,are,like,the,link]  [reject_expl_just(wait,[external,nonfactive,narration,foreground,objective]),reject_expl_just(get,[external,factive,explanation,background,objective]),propose_opin_neg(get,[external,factive,explanation,background,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),reject_expl_just(leave,[external,factive,explanation,background,objective]),propose_opin_neg(leave,[external,factive,explanation,background,objective])]
+Since Lyrics.txt_3-9  [that,is,mising,boy]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(miss,[external,factive,narration,background,objective])]
+Since Lyrics.txt_3-10  [i,miss,your,cherry,kisses]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(miss,[external,factive,narration,background,objective])]
+Since Lyrics.txt_4-14  [whatever,i,will,be,there,good]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Since Lyrics.txt_5-19  [like,a,one,feather,smile,is,all,i,needed]  [provide_expl_just(like,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,foreground,objective])]
+Since Lyrics.txt_6-27  [matter,how,high,i,fly]  [reject_expl_just(think,[external,factive,narration,background,objective]),reject_expl_just(seem,[external,factive,narration,background,objective]),reject_expl_just(fly,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Since Lyrics.txt_6-28  [i,think,of,you,to,me]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(seem,[external,factive,narration,background,objective]),provide_expl_just(fly,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Since Lyrics.txt_6-29  [the,sky,seems,to,be,falling]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(seem,[external,factive,narration,background,objective]),provide_expl_just(fly,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Since Lyrics.txt_6-30  [and,the]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(seem,[external,factive,narration,background,objective]),provide_expl_just(fly,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Since Lyrics.txt_7-38  [sun,don-t,want,to,be,shining,anymore]  [provide_expl_just(shine,[external,factive,narration,foreground,objective]),provide_expl_just(last,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,foreground,objective])]
+Since Lyrics.txt_7-39  [since,i,last,saw,you]  [provide_expl_just(shine,[external,factive,narration,foreground,objective]),provide_expl_just(last,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,foreground,objective])]
+Since Lyrics.txt_8-49  [i,didn-t,imagine,how]  [provide_expl_just(imagine,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(embrace,[external,factive,narration,background,objective])]
+Since Lyrics.txt_8-50  [my,life,would,be,without,you]  [provide_expl_just(imagine,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(embrace,[external,factive,narration,background,objective])]
+Since Lyrics.txt_8-51  [you,always,embrace,me,boy]  [provide_expl_just(imagine,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(embrace,[external,factive,narration,background,objective])]
+Since Lyrics.txt_8-52  [i]  [provide_expl_just(imagine,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(embrace,[external,factive,narration,background,objective])]
+Since Lyrics.txt_9-60  [thank,you,for,your,honesty,and,i,will,be,ever,thankful,overjoyed,cuz,i,am,lucky]  [provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(thank,[external,factive,narration,background,objective])]
+Since Lyrics.txt_10-71  [i,can,not,believe]  [reject_expl_just(be,[external,factive,narration,foreground,objective]),reject_expl_just(last,[external,factive,narration,background,objective])]
+Since Lyrics.txt_10-72  [that,it,was,only,yesterday,when,i,last,saw,your,face,and,i,am]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(last,[external,factive,narration,background,objective])]
+Since Lyrics.txt_11-85  [not,ashamed,that,i,want,you,with,me,today,back,in,my,arms,,,with,me,is,where]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(want,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Since Lyrics.txt_1-1)-[]
+2-(Since Lyrics.txt_2-3)-[secondary-temporal_repere]
+3-(Since Lyrics.txt_2-4)-[primary-concreteness,emotions-affection]
+4-(Since Lyrics.txt_3-9)-[]
+5-(Since Lyrics.txt_3-10)-[primary-orality,primary-sex]
+6-(Since Lyrics.txt_4-14)-[]
+7-(Since Lyrics.txt_5-19)-[emotions-affection,primary-soft,emotions-positive_affect]
+8-(Since Lyrics.txt_6-27)-[primary-height,primary-ascend]
+9-(Since Lyrics.txt_6-28)-[secondary-abstract_tought]
+10-(Since Lyrics.txt_6-29)-[primary-height,primary-vision]
+half
+11-(Since Lyrics.txt_6-30)-[]
+12-(Since Lyrics.txt_7-38)-[primary-fire]
+13-(Since Lyrics.txt_7-39)-[primary-vision]
+14-(Since Lyrics.txt_8-49)-[primary-counscious]
+15-(Since Lyrics.txt_8-50)-[]
+16-(Since Lyrics.txt_8-51)-[emotions-affection]
+17-(Since Lyrics.txt_8-52)-[]
+18-(Since Lyrics.txt_9-60)-[secondary-social_behavior,secondary-moral_imperative,secondary-temporal_repere,emotions-positive_affect]
+19-(Since Lyrics.txt_10-71)-[secondary-abstract_tought]
+20-(Since Lyrics.txt_10-72)-[secondary-temporal_repere,secondary-temporal_repere,primary-vision,primary-narcissism]
+21-(Since Lyrics.txt_11-85)-[secondary-temporal_repere,primary-concreteness,primary-narcissism,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Since Lyrics.txt_1,1,cl1-nil-nil-be-[cmod-subord-be-",arg_mod-agent-Zinc-sn2,subj-theme_bound-Lyrics-sn1,def_prop(Zinc,[place,sostanza]),def_prop(Lyrics,[informa,tecno])])
+lf(Since Lyrics.txt_2,3,cl5-nil-nil-be-[])
+lf(Since Lyrics.txt_2,3,cl4-nil-nil-get-[])
+lf(Since Lyrics.txt_2,3,cl3-not-can-wait-[adj-(mod)-back-nil,adj-subj_disc-back-sn11,xcomp-result-link-sn10,xcomp-prop-be-2,obj-theme_unaff-you-sn9,ncmod-prop-you-sn8,xcomp-purpose-get-cl4,subj-actor-you-sn7,def_prop(back,[istituzione]),def_prop(back,[istituzione]),def_prop(link,[attivita,informa,nquant,oggetto,relat,strumento]),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Since Lyrics.txt_2,3,cl2-nil-nil-leave-[subj-theme-i-sn2,subj-theme-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Since Lyrics.txt_3,9,cl7-nil-nil-miss-[obj-tema_eff-kiss-sn4,subj-experiencer-i-sn3,and(kiss,cherry,sn4),def_prop(kiss,[attivita,edible,oggetto]),def_prop(i,[umano])])
+lf(Since Lyrics.txt_3,9,cl6-nil-nil-be-[xcomp-prop-boy-sn1,and(boy,mising,sn1),def_prop(boy,[oggetto,strumento])])
+lf(Since Lyrics.txt_4,14,cl8-nil-will-be-[xcomp-prop-good-sn3,xcomp-prop-there-sn2,subj-theme_bound-i-sn1,def_prop(good,[valutativo]),def_prop(there,[any]),def_prop(i,[umano])])
+lf(Since Lyrics.txt_5,19,cl10-nil-nil-need-[])
+lf(Since Lyrics.txt_5,19,cl9-nil-nil-be-[])
+lf(Since Lyrics.txt_5,19,nil-nil-nil-like-[obj-theme-all-sn3,obj-tema_emot-smile-sn2,subj-experiencer-you-sn1,and(smile,one,sn2),def_prop(all,[_667688]),def_prop(smile,[attivita,informa]),def_prop(you,[umano])])
+lf(Since Lyrics.txt_6,27,cl15-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn7,def_prop(you,[umano])])
+lf(Since Lyrics.txt_6,27,cl14-nil-nil-fall-[adj-(mod)-be-nil,aux-be-nil,progr-falling-nil,subj-tema_nonaff-sky-sn6,def_prop(sky,[oggetto])])
+lf(Since Lyrics.txt_6,27,cl13-nil-nil-seem-[subj-actor-sky-sn6,def_prop(sky,[oggetto])])
+lf(Since Lyrics.txt_6,27,cl12-nil-nil-think-[iobj-theme_unaff-me-sn5,iobj-theme_unaff-you-sn4,subj-agent-i-sn3,def_prop(me,[umano]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Since Lyrics.txt_6,27,cl11-nil-nil-fly-[obj-theme-how-sn2,subj-agent-i-sn1,def_prop(how,[manner]),def_prop(i,[umano])])
+lf(Since Lyrics.txt_7,38,cl19-nil-nil-see-[])
+lf(Since Lyrics.txt_7,38,cl18-nil-nil-last-[subj-theme_unaff-you-sn4,def_prop(you,[umano])])
+lf(Since Lyrics.txt_7,38,cl17-nil-nil-shine-[])
+lf(Since Lyrics.txt_7,38,cl16-not-nil-want-[subj-actor-sun-sn1,aux-do-nil,def_prop(sun,[oggetto,umano])])
+lf(Since Lyrics.txt_8,49,cl22-nil-nil-embrace-[adj-(mod)-always-nil,xcomp-prop-boy-sn8,xcomp-prop-me-sn7,subj-actor1-you-sn6,def_prop(boy,[oggetto,strumento]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Since Lyrics.txt_8,49,cl21-nil-would-be-[subj-theme_bound-you-sn10,ncmod-modal-you-sn3,subj-theme_bound-life-sn2,def_prop(you,[umano]),def_prop(you,[umano]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Since Lyrics.txt_8,49,cl20-not-nil-imagine-[subj-agent-i-sn1,aux-did-nil,def_prop(i,[umano])])
+lf(Since Lyrics.txt_9,60,cl24-nil-will-be-[subj-theme_bound-lucky-sn12,xcomp-prop-lucky-sn11,subj-theme_bound-i-sn10,cmod-subord-thank-nil,def_prop(lucky,[evaluative]),def_prop(lucky,[evaluative]),def_prop(i,[umano])])
+lf(Since Lyrics.txt_9,60,cl23-nil-nil-thank-[subj-agent-honesty-sn3,subj-agent-honesty-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(honesty,[astratto,plant]),def_prop(honesty,[astratto,plant]),def_prop(you,[umano])])
+lf(Since Lyrics.txt_10,71,_669412-nil-nil-last-[voice-last-nil,tense-last-nil,obl-locat-yesterday-sn3,def_prop(yesterday,[tempo])])
+lf(Since Lyrics.txt_10,71,cl27-nil-nil-see-[voice-last-nil,tense-last-nil])
+lf(Since Lyrics.txt_10,71,cl26-nil-nil-be-[subj-theme_bound-i-sn9,cmod-coord-nil-nil,subj-theme_bound-i-sn8,voice-last-nil,tense-last-nil,xcomp-actor-face-sn4,xcomp-purpose-see-cl27,xcomp-prop-yesterday-sn3,subj-theme_bound-it-sn2,def_prop(i,[umano]),def_prop(i,[umano]),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(yesterday,[tempo]),def_prop(it,[any])])
+lf(Since Lyrics.txt_10,71,cl25-not-can-believe-[voice-last-nil,tense-last-nil,subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Since Lyrics.txt_11,85,cl29-not-nil-be-[subj-theme_bound-where-sn36,xcomp-theme-where-sn35,ncmod-comitativo-me-sn34,xcomp-theme-where-sn31,ncmod-comitativo-me-sn30,ncmod-locativo-arm-sn29,adj-(mod)-back-nil,xcomp-theme-where-sn23,ncmod-comitativo-me-sn22,ncmod-locativo-arm-sn21,xadj-adj-ashamed-adj2,xcomp-theme-where-sn15,ncmod-comitativo-me-sn14,ncmod-locativo-arm-sn13,xadj-adj-ashamed-adj1,xcomp-theme-where-sn7,ncmod-comitativo-me-sn6,ncmod-locativo-arm-sn5,def_prop(where,[luogo]),def_prop(where,[luogo]),def_prop(me,[umano]),def_prop(where,[luogo]),def_prop(me,[umano]),def_prop(arm,[astratto,body_part,oggetto,strumento,umano]),def_prop(back,[istituzione]),def_prop(where,[luogo]),def_prop(me,[umano]),def_prop(arm,[astratto,body_part,oggetto,strumento,umano]),def_prop(ashamed,_670608),def_prop(where,[luogo]),def_prop(me,[umano]),def_prop(arm,[astratto,body_part,oggetto,strumento,umano]),def_prop(ashamed,_670698),def_prop(where,[luogo]),def_prop(me,[umano]),def_prop(arm,[astratto,body_part,oggetto,strumento,umano])])
+lf(Since Lyrics.txt_11,85,cl28-nil-nil-want-[ncmod-comitativo-me-sn3,subj-actor-you-sn2,subj-actor-you-sn1,and(you,i,sn1),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])

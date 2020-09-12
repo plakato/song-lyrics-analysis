@@ -1,0 +1,124 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Returning Home Lyrics.txt_1-1  []-positive  []
+Returning Home Lyrics.txt_2-3  []-suspension  [neg]
+Returning Home Lyrics.txt_2-4  []-negative  [neg]
+Returning Home Lyrics.txt_3-7  []-negative  [neg,neg]
+Returning Home Lyrics.txt_3-8  []-positive  []
+Returning Home Lyrics.txt_4-12  []-positive  [neg]
+Returning Home Lyrics.txt_4-13  []-negative  [neg]
+Returning Home Lyrics.txt_5-17  []-question  [neg]
+Returning Home Lyrics.txt_5-18  []-positive  []
+Returning Home Lyrics.txt_6-24  []-negative  [neg]
+Returning Home Lyrics.txt_7-31  []-positive  []
+Returning Home Lyrics.txt_7-32  [but-advers]-negative  [fgb,neg]
+Returning Home Lyrics.txt_8-40  []-positive  []
+Returning Home Lyrics.txt_8-41  []-positive  []
+Returning Home Lyrics.txt_9-50  [but-advers]-positive  [fgb]
+Returning Home Lyrics.txt_9-51  []-positive  []
+Returning Home Lyrics.txt_10-62  []-positive  []
+Returning Home Lyrics.txt_10-63  []-positive  []
+Returning Home Lyrics.txt_11-73  []-suspension  []
+Returning Home Lyrics.txt_11-74  []-positive  []
+Returning Home Lyrics.txt_12-86  []-negative  []
+Returning Home Lyrics.txt_13-101  []-positive  [fgb]
+Returning Home Lyrics.txt_14-115  []-positive  []
+Returning Home Lyrics.txt_15-130  []-suspension  [neg,neg,neg,neg]
+Returning Home Lyrics.txt_16-147  []-negative  [neg]
+Returning Home Lyrics.txt_17-165  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Returning Home Lyrics.txt_1-1  [returning,Home,Lyrics,by,Tyler,Luke]  [title]
+Returning Home Lyrics.txt_2-3  [we,are,all,disturbed]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Returning Home Lyrics.txt_2-4  [,,none,of,us,are,real]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Returning Home Lyrics.txt_3-7  [no_one,causes,happiness,no,touch,makes]  [reject_expl_just(make,[external,factive,explanation,background,objective]),propose_opin_neg(make,[external,factive,explanation,background,objective]),reject_expl_just(feel,[external,factive,explanation,background,objective]),propose_opin_neg(feel,_142874)]
+Returning Home Lyrics.txt_3-8  [you,feel]  [provide_expl_just(make,[external,factive,explanation,background,objective]),provide_expl_just(feel,[external,factive,explanation,background,objective]),suggest(feel,_147538)]
+Returning Home Lyrics.txt_4-12  [love,is,a,myth,just]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Returning Home Lyrics.txt_4-13  [,,sorrow,is,an,urban,legend]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Returning Home Lyrics.txt_5-17  [fiction,is,bible,the,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(mention,[internal,factive,narration,background,objective])]
+Returning Home Lyrics.txt_5-18  [who,is,the,god,that,you,mentioned]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(mention,[internal,factive,narration,background,objective])]
+Returning Home Lyrics.txt_6-24  [too,many,questions,,,not,enough,answers]  [reject_expl_just(answer,[external,factive,narration,background,objective])]
+Returning Home Lyrics.txt_7-31  [too_much,too,write]  [provide_expl_just(write,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Returning Home Lyrics.txt_7-32  [but,not,enough,stansas]  [reject_expl_just(write,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Returning Home Lyrics.txt_8-40  [the,night,time,is,just,life]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(shed,[external,factive,narration,background,objective])]
+Returning Home Lyrics.txt_8-41  [the,moon,sheds,light]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(shed,[external,factive,narration,background,objective])]
+Returning Home Lyrics.txt_9-50  [but,the,moon,is,going,away]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+Returning Home Lyrics.txt_9-51  [,,it,time,is,to,say,goodnight]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(go,[external,nonfactive,narration,foreground,objective])]
+Returning Home Lyrics.txt_10-62  [you,gotta,live]  [provide_expl_just(gotta,[external,factive,narration,background,objective])]
+Returning Home Lyrics.txt_10-63  [,,you,gotta,live,your,own,life]  [provide_expl_just(gotta,[external,factive,narration,background,objective])]
+Returning Home Lyrics.txt_11-73  [you,have_to,look,forward]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(look,[external,nonfactive,narration,foreground,objective])]
+Returning Home Lyrics.txt_11-74  [,,it,is,harder,to,see,in,the,night]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(look,[external,nonfactive,narration,foreground,objective])]
+Returning Home Lyrics.txt_12-86  [people,who,are,near,sighed,are,short,flighted]  [provide_expl_just(people,[external,factive,narration,background,objective]),provide_expl_just(sigh,[external,factive,narration,background,objective]),provide_expl_just(short,[external,factive,narration,foreground,objective])]
+Returning Home Lyrics.txt_13-101  [and,the,ones,who,are,innovative,are,the,ones,who,are,enlightened]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Returning Home Lyrics.txt_14-115  [put,down,the,bible,,,put,your,camera,down,lens]  [provide_expl_just(put,[external,factive,narration,foreground,objective])]
+Returning Home Lyrics.txt_15-130  [start,using,your,mind,stop,worrying,about,the,past,tense]  [provide_expl_just(use,[external,factive,cause,foreground,objective])]
+Returning Home Lyrics.txt_16-147  [stop,burning,books,to,prove,your,side]  [reject_expl_just(burn,[external,factive,cause,foreground,objective])]
+Returning Home Lyrics.txt_17-165  [know,your,own,morals,through,your,own,eyes]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Returning Home Lyrics.txt_1-1)-[]
+2-(Returning Home Lyrics.txt_2-3)-[emotions-aggression]
+3-(Returning Home Lyrics.txt_2-4)-[secondary-abstract_tought]
+4-(Returning Home Lyrics.txt_3-7)-[secondary-abstract_tought,emotions-positive_affect,primary-touch,secondary-instru_behavior]
+5-(Returning Home Lyrics.txt_3-8)-[]
+6-(Returning Home Lyrics.txt_4-12)-[emotions-affection]
+7-(Returning Home Lyrics.txt_4-13)-[emotions-sadness]
+8-(Returning Home Lyrics.txt_5-17)-[]
+9-(Returning Home Lyrics.txt_5-18)-[]
+10-(Returning Home Lyrics.txt_6-24)-[secondary-social_behavior]
+11-(Returning Home Lyrics.txt_7-31)-[]
+12-(Returning Home Lyrics.txt_7-32)-[]
+13-(Returning Home Lyrics.txt_8-40)-[secondary-temporal_repere]
+half
+14-(Returning Home Lyrics.txt_8-41)-[primary-vision]
+15-(Returning Home Lyrics.txt_9-50)-[primary-concreteness]
+16-(Returning Home Lyrics.txt_9-51)-[secondary-temporal_repere,secondary-social_behavior]
+17-(Returning Home Lyrics.txt_10-62)-[]
+18-(Returning Home Lyrics.txt_10-63)-[]
+19-(Returning Home Lyrics.txt_11-73)-[primary-vision,primary-concreteness]
+20-(Returning Home Lyrics.txt_11-74)-[primary-hard,primary-vision]
+21-(Returning Home Lyrics.txt_12-86)-[primary-concreteness,emotions-expressive_beh,primary-ascend]
+22-(Returning Home Lyrics.txt_13-101)-[]
+23-(Returning Home Lyrics.txt_14-115)-[]
+24-(Returning Home Lyrics.txt_15-130)-[primary-vision,secondary-instru_behavior,secondary-restraint,secondary-temporal_repere]
+25-(Returning Home Lyrics.txt_16-147)-[secondary-restraint,secondary-abstract_tought,primary-concreteness]
+26-(Returning Home Lyrics.txt_17-165)-[secondary-abstract_tought,secondary-moral_imperative,primary-narcissism]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Returning Home Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Luke-sn2,subj-theme_bound-Lyrics-sn1,and(Luke,Tyler,sn2),and(Lyrics,Home,sn1),and(Lyrics,returning,sn1),def_prop(Luke,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Returning Home Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-real-sn5,xcomp-purpose-be-2,subj-theme_bound-none-sn4,xcomp-prop-disturbed-sn2,subj-theme_bound-we-sn1,and(disturbed,all,sn2),def_prop(real,[astratto,oggetto]),def_prop(none,[_166764]),def_prop(disturbed,[istituzione]),def_prop(we,[umano])])
+lf(Returning Home Lyrics.txt_3,7,cl4-nil-nil-feel-[subj-experiencer-you-sn10,def_prop(you,[umano])])
+lf(Returning Home Lyrics.txt_3,7,cl3-nil-nil-make-[subj-agent-touch-sn2,subj-agent-touch-sn1,and(touch,no,sn2),and(touch,no,sn1),def_prop(touch,[astratto,attivita,evento,informa,nquant,stato]),def_prop(touch,[astratto,attivita,evento,informa,nquant,stato])])
+lf(Returning Home Lyrics.txt_4,12,cl5-nil-nil-be-[xcomp-prop-legend-sn5,subj-theme_bound-sorrow-sn4,xcomp-prop-myth-sn2,subj-theme_bound-love-sn1,and(legend,urban,sn5),def_prop(legend,[attivita,informa]),def_prop(sorrow,[emotivo]),def_prop(myth,[attivita,informa]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Returning Home Lyrics.txt_5,17,cl7-nil-nil-mention-[subj-actor-who-sn3,def_prop(who,[umano])])
+lf(Returning Home Lyrics.txt_5,17,cl6-nil-nil-be-[subj-theme_bound-who-sn3,xcomp-prop-fiction-sn2,subj-theme_bound-bible-sn1,def_prop(who,[umano]),def_prop(fiction,[attivita,informa]),def_prop(bible,[attivita,informa])])
+lf(Returning Home Lyrics.txt_6,24,cl8-not-nil-answer-[adj-(mod)-enough-nil,adj-(mod)-too-nil,subj-agent-question-sn1,and(question,many,sn1),def_prop(question,[attivita,informa])])
+lf(Returning Home Lyrics.txt_7,31,cl10-nil-nil-be-[subj-theme_bound-stansas-sn3,def_prop(stansas,[istituzione])])
+lf(Returning Home Lyrics.txt_7,31,cl9-nil-nil-write-[subj-agent-pro-nil])
+lf(Returning Home Lyrics.txt_8,40,cl12-nil-nil-shed-[xcomp-prop-light-sn5,subj-agent-moon-sn4,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(moon,[oggetto])])
+lf(Returning Home Lyrics.txt_8,40,cl11-nil-nil-be-[xcomp-prop-life-sn2,subj-theme_bound-time-sn1,def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(time,[tempo])])
+lf(Returning Home Lyrics.txt_9,50,cl15-nil-nil-say-[])
+lf(Returning Home Lyrics.txt_9,50,cl14-nil-nil-be-[adj-temporal-time-nil,xcomp-prop-goodnight-sn4,xcomp-purpose-say-2,subj-theme_bound-it-sn3,def_prop(goodnight,[istituzione,umano]),def_prop(it,[any])])
+lf(Returning Home Lyrics.txt_9,50,cl13-nil-nil-go-[xcomp-prop-away-sn2,subj-agent-moon-sn1,aux-(is)-nil,progr-going-nil,def_prop(away,[evaluative]),def_prop(moon,[oggetto])])
+lf(Returning Home Lyrics.txt_10,62,nil-nil-nil-gotta-[xcomp-prop-life-sn4,subj-agent-you-sn3,xcomp-prop-live-sn2,subj-agent-you-sn1,and(life,live,sn4),and(life,own,sn4),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(you,[umano]),def_prop(live,[evaluative]),def_prop(you,[umano])])
+lf(Returning Home Lyrics.txt_11,73,cl17-nil-nil-be-[adj-temporal-night-nil,xcomp-prop-harder-sn4,subj-theme_bound-it-sn3,def_prop(night,[tempo]),def_prop(harder,[evaluative]),def_prop(it,[any])])
+lf(Returning Home Lyrics.txt_11,73,cl16-nil-have_to-look-[xcomp-prop-forward-sn2,subj-agent-you-sn1,def_prop(forward,[attivita,umano]),def_prop(you,[umano])])
+lf(Returning Home Lyrics.txt_12,86,cl20-nil-nil-short-[aux-are-nil])
+lf(Returning Home Lyrics.txt_12,86,cl19-nil-nil-sigh-[aux-are-nil])
+lf(Returning Home Lyrics.txt_12,86,cl18-nil-nil-people-[])
+lf(Returning Home Lyrics.txt_13,101,cl21-nil-nil-be-[cmod-subord-be-"])
+lf(Returning Home Lyrics.txt_14,115,cl22-nil-nil-put-[adj-(mod)-down-nil,subj-agent-lens-sn3,iobj-goal-bible-sn2,subj-agent-you-sn1,and(lens,camera,sn3),def_prop(down,[istituzione]),def_prop(lens,[attivita,body_part,informa,oggetto,strumento,umano]),def_prop(bible,[attivita,informa]),def_prop(you,[umano])])
+lf(Returning Home Lyrics.txt_15,130,cl24-nil-nil-stop-[xcomp-prop-worrying-sn3,obj-theme_unaff-mind-sn2,xcomp-purpose-use-2,subj-agent-star-sn1,def_prop(worrying,[attivita]),def_prop(mind,[astratto]),def_prop(star,[astratto,oggetto,umano])])
+lf(Returning Home Lyrics.txt_15,130,cl23-nil-nil-use-[ncmod-subj_disc-tense-sn4,and(tense,past,sn4),def_prop(tense,[attivita,informa])])
+lf(Returning Home Lyrics.txt_16,147,cl26-nil-nil-prove-[obj-prop-book-sn2,xcomp-purpose-burn-2,def_prop(book,[attivita,informa,istituzione,oggetto,strumento])])
+lf(Returning Home Lyrics.txt_16,147,cl25-nil-nil-burn-[subj-actor-stop-sn1,def_prop(stop,[attivita,evento,luogo,oggetto,strumento])])
+lf(Returning Home Lyrics.txt_17,165,cl27-nil-nil-know-[ncmod-location-eye-sn3,obj-theme_unaff-moral-sn2,subj-actor-you-sn1,and(eye,own,sn3),and(moral,own,sn2),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(moral,[attivita,informa]),def_prop(you,[umano])])

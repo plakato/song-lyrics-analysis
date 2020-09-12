@@ -1,0 +1,51 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Sister's Got A Boyfriend Lyrics.txt_1-1  []-positive  []
+Sister's Got A Boyfriend Lyrics.txt_2-3  []-positive  []
+Sister's Got A Boyfriend Lyrics.txt_2-4  [if-hypoth]-positive  [fgb]
+Sister's Got A Boyfriend Lyrics.txt_3-8  []-positive  []
+Sister's Got A Boyfriend Lyrics.txt_4-12  []-positive  []
+Sister's Got A Boyfriend Lyrics.txt_4-13  []-positive  []
+Sister's Got A Boyfriend Lyrics.txt_5-19  []-negative  [neg]
+Sister's Got A Boyfriend Lyrics.txt_6-25  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Sister's Got A Boyfriend Lyrics.txt_1-1  [sister-s,got,a,Boyfriend,Lyrics,by,Rufus,Thomas]  [title]
+Sister's Got A Boyfriend Lyrics.txt_2-3  [sister-s,got,a,boyfriend,daddy-s,got,a,shotgun]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Sister's Got A Boyfriend Lyrics.txt_2-4  [if,;]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Sister's Got A Boyfriend Lyrics.txt_3-8  [they,ever,get]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Sister's Got A Boyfriend Lyrics.txt_4-12  [together,boyfriend,is,Gon,na,run,sister-s,down,by,the,fire]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Sister's Got A Boyfriend Lyrics.txt_4-13  [poppa-s,,,going,out,the,back,door,sister-s,out,bet,all,night]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Sister's Got A Boyfriend Lyrics.txt_5-19  [she,will,not,do,that]  [reject_expl_just(do,[external,nonfactive,narration,background,objective])]
+Sister's Got A Boyfriend Lyrics.txt_6-25  [no,more]  reject_expl_opin(nil,[])
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Sister's Got A Boyfriend Lyrics.txt_1-1)-[]
+2-(Sister's Got A Boyfriend Lyrics.txt_2-3)-[]
+3-(Sister's Got A Boyfriend Lyrics.txt_2-4)-[]
+4-(Sister's Got A Boyfriend Lyrics.txt_3-8)-[secondary-temporal_repere]
+half
+5-(Sister's Got A Boyfriend Lyrics.txt_4-12)-[primary-fire]
+6-(Sister's Got A Boyfriend Lyrics.txt_4-13)-[primary-concreteness,primary-concreteness,primary-brink,primary-concreteness]
+7-(Sister's Got A Boyfriend Lyrics.txt_5-19)-[]
+8-(Sister's Got A Boyfriend Lyrics.txt_6-25)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Sister's Got A Boyfriend Lyrics.txt_1,1,cl1-nil-nil-get-[arg_mod-agent-Thomas-sn4,obj-prop-Lyrics-sn3,obj-theme_unaff-boyfriend-sn2,subj-agent-sister-s-sn1,and(Thomas,Rufus,sn4),def_prop(Thomas,[place,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(boyfriend,[umano]),def_prop(sister-s,[umano])])
+lf(Sister's Got A Boyfriend Lyrics.txt_2,3,cl3-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Sister's Got A Boyfriend Lyrics.txt_2,3,cl2-nil-nil-get-[obj-paziente-shotgun-sn3,xcomp-purpose-get-2,obj-theme_unaff-daddy-s-sn2,subj-agent-sister-s-sn1,and(daddy-s,boyfriend,sn2),def_prop(shotgun,[oggetto,strumento]),def_prop(daddy-s,[relat,sociale,umano]),def_prop(sister-s,[umano])])
+lf(Sister's Got A Boyfriend Lyrics.txt_3,8,cl4-nil-nil-get-[subj-agent-they-sn1,def_prop(they,[umano])])
+lf(Sister's Got A Boyfriend Lyrics.txt_4,12,cl7-nil-nil-go-[adj-temporal-night-nil,adj-(mod)-out-nil,obj-theme_aff-bet-sn10,obj-theme-sister-s-sn9,ncmod-locativo-door-sn8,subj-agent-poppa-s-sn7,obj-theme_unaff-down-sn3,xcomp-purpose-run-3,and(night,all,sn12),and(door,back,sn8),and(down,sister-s,sn3),def_prop(night,[tempo]),def_prop(bet,[attivita]),def_prop(sister-s,[umano]),def_prop(door,[astratto,oggetto,strumento]),def_prop(poppa-s,[istituzione]),def_prop(down,[animato,attivita,body_part,oggetto,umano])])
+lf(Sister's Got A Boyfriend Lyrics.txt_4,12,cl6-nil-nil-run-[arg_mod-agent-fire-sn4,def_prop(fire,[attivita,evento,informa,oggetto,sostanza,strumento])])
+lf(Sister's Got A Boyfriend Lyrics.txt_4,12,cl5-nil-nil-be-[xcomp-prop-na-sn2,subj-theme_bound-boyfriend-sn1,and(na,Gon,sn2),and(boyfriend,together,sn1),def_prop(na,[informa,tecno]),def_prop(boyfriend,[umano])])
+lf(Sister's Got A Boyfriend Lyrics.txt_5,19,cl8-not-will-do-[xcomp-prop-that-sn2,subj-theme_unaff-she-sn1,aux-do-nil,def_prop(that,[oggetto,umano]),def_prop(she,[umano])])
+lf(Sister's Got A Boyfriend Lyrics.txt_6,25,cl9-nil-nil-say-[obj-theme_unaff-more-sn1,and(more,no,sn1),def_prop(more,[astratto,informa,oggetto])])

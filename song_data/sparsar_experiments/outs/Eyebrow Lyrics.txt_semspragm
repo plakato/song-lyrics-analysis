@@ -1,0 +1,75 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Eyebrow Lyrics.txt_1-1  []-positive  []
+Eyebrow Lyrics.txt_2-3  []-positive  []
+Eyebrow Lyrics.txt_3-6  []-positive  []
+Eyebrow Lyrics.txt_4-10  []-positive  [fhd,neg]
+Eyebrow Lyrics.txt_5-15  []-negative  [neg]
+Eyebrow Lyrics.txt_5-16  []-positive  []
+Eyebrow Lyrics.txt_6-22  []-negative  [neg]
+Eyebrow Lyrics.txt_7-29  []-positive  []
+Eyebrow Lyrics.txt_8-37  []-positive  []
+Eyebrow Lyrics.txt_9-47  []-positive  []
+Eyebrow Lyrics.txt_10-57  []-positive  []
+Eyebrow Lyrics.txt_11-68  []-negative  [neg]
+Eyebrow Lyrics.txt_12-80  []-positive  [neg]
+Eyebrow Lyrics.txt_13-93  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Eyebrow Lyrics.txt_1-1  [eyebrow,Lyrics,by,AKA,Yung,Neptune,YUNG,JZ7]  [title]
+Eyebrow Lyrics.txt_2-3  [self-ghost,written]  [provide_expl_just(write,[external,factive,narration,foreground,objective])]
+Eyebrow Lyrics.txt_3-6  [prepaid,prescriptions]  [raise_issue(be,[_32094,factive,statement,_32112,subjective])]
+Eyebrow Lyrics.txt_4-10  [self,pierced,eyebrow,like,poor,self,decisions]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Eyebrow Lyrics.txt_5-15  [pass,the,admission,ask,straight]  [reject_expl_just(ask,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Eyebrow Lyrics.txt_5-16  [for,the,snack,bin]  [provide_expl_just(ask,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Eyebrow Lyrics.txt_6-22  [game,aladdin,rap]  [reject_expl_just(rap,[external,factive,narration,background,objective])]
+Eyebrow Lyrics.txt_7-29  [magical,lamps]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Eyebrow Lyrics.txt_8-37  [work,wonders,on,pants]  [provide_expl_just(work,[external,factive,narration,background,objective]),provide_expl_just(wonder,[external,factive,narration,background,objective])]
+Eyebrow Lyrics.txt_9-47  [rhyme,tighter,with,plants]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Eyebrow Lyrics.txt_10-57  [light,end,fuse]  [provide_expl_just(end,[external,factive,narration,background,objective])]
+Eyebrow Lyrics.txt_11-68  [infuse,incense,with,dank,tunes]  [reject_expl_just(infuse,[external,factive,narration,background,objective])]
+Eyebrow Lyrics.txt_12-80  [dark,times]  [provide_expl_just(time,[external,factive,narration,background,objective])]
+Eyebrow Lyrics.txt_13-93  [preludes]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Eyebrow Lyrics.txt_1-1)-[]
+2-(Eyebrow Lyrics.txt_2-3)-[]
+3-(Eyebrow Lyrics.txt_3-6)-[]
+4-(Eyebrow Lyrics.txt_4-10)-[secondary-instru_behavior,emotions-affection,secondary-instru_behavior]
+5-(Eyebrow Lyrics.txt_5-15)-[secondary-social_behavior,primary-concreteness]
+6-(Eyebrow Lyrics.txt_5-16)-[]
+7-(Eyebrow Lyrics.txt_6-22)-[emotions-expressive_beh]
+half
+8-(Eyebrow Lyrics.txt_7-29)-[primary-unknow,primary-vision]
+9-(Eyebrow Lyrics.txt_8-37)-[secondary-instru_behavior,emotions-glory]
+10-(Eyebrow Lyrics.txt_9-47)-[secondary-abstract_tought]
+11-(Eyebrow Lyrics.txt_10-57)-[primary-vision]
+12-(Eyebrow Lyrics.txt_11-68)-[primary-odor,primary-anality,primary-sound]
+13-(Eyebrow Lyrics.txt_12-80)-[secondary-temporal_repere]
+14-(Eyebrow Lyrics.txt_13-93)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Eyebrow Lyrics.txt_1,1,cl1-nil-nil-be-[xcomp-theme-JZ7-sn4,xcomp-theme-YUNG-sn3,arg_mod-agent-Yung-sn2,subj-theme_bound-Lyrics-sn1,and(YUNG,Neptune,sn3),and(Lyrics,eyebrow,sn1),def_prop(JZ7,[istituzione,umano]),def_prop(YUNG,[istituzione,umano]),def_prop(Yung,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Eyebrow Lyrics.txt_2,3,cl2-nil-nil-write-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Eyebrow Lyrics.txt_3,6,cl3-nil-nil-say-[obj-theme_unaff-prescription-sn1,and(prescription,prepaid,sn1),def_prop(prescription,[attivita,informa])])
+lf(Eyebrow Lyrics.txt_4,10,cl4-nil-nil-be-[subj-theme_bound-decision-sn2,subj-theme_bound-decision-sn1,and(decision,poor,sn2),and(decision,self,sn2),and(decision,poor,sn1),and(decision,self,sn1),def_prop(decision,[astratto,attivita,evento]),def_prop(decision,[astratto,attivita,evento])])
+lf(Eyebrow Lyrics.txt_5,15,cl6-nil-nil-be-[xcomp-prop-bin-sn4,subj-theme_bound-snack-sn3,def_prop(bin,[nquant,oggetto,strumento]),def_prop(snack,[edible])])
+lf(Eyebrow Lyrics.txt_5,15,cl5-nil-nil-ask-[xcomp-prop-straight-sn2,subj-actor-admission-sn1,def_prop(straight,[istituzione]),def_prop(admission,[attivita,informa])])
+lf(Eyebrow Lyrics.txt_6,22,cl7-nil-nil-rap-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Eyebrow Lyrics.txt_7,29,cl8-nil-nil-say-[obj-theme_unaff-lamp-sn1,and(lamp,magical,sn1),def_prop(lamp,[oggetto,strumento])])
+lf(Eyebrow Lyrics.txt_8,37,cl10-nil-nil-wonder-[ncmod-modale-pant-sn2,def_prop(pant,[evento])])
+lf(Eyebrow Lyrics.txt_8,37,cl9-nil-nil-work-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Eyebrow Lyrics.txt_9,47,cl11-nil-nil-be-[xadj-adj-tighter-adj1,ncmod-comitativo-plant-sn2,subj-theme_bound-rhyme-sn1,def_prop(tighter,_39942),def_prop(plant,[any,astratto,oggetto,strumento,umano]),def_prop(rhyme,[attivita,informa])])
+lf(Eyebrow Lyrics.txt_10,57,cl12-nil-nil-end-[obj-goal-fuse-sn2,subj-agent-light-sn1,def_prop(fuse,[oggetto,strumento]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(Eyebrow Lyrics.txt_11,68,cl13-nil-nil-infuse-[ncmod-comitativo-tune-sn3,obj-theme-incense-sn2,subj-agent-you-sn1,and(tune,dank,sn3),def_prop(tune,[astratto,attivita,informa]),def_prop(incense,[astratto,sostanza]),def_prop(you,[umano])])
+lf(Eyebrow Lyrics.txt_12,80,cl14-nil-nil-time-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Eyebrow Lyrics.txt_13,93,cl15-nil-nil-say-[obj-theme_unaff-prelude-sn1,def_prop(prelude,[attivita,informa])])

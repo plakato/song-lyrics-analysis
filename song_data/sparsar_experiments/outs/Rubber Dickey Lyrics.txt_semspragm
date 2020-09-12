@@ -1,0 +1,69 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Rubber Dickey Lyrics.txt_1-1  []-positive  []
+Rubber Dickey Lyrics.txt_2-3  []-question  [fgb]
+Rubber Dickey Lyrics.txt_3-6  []-question  []
+Rubber Dickey Lyrics.txt_4-10  []-positive  []
+Rubber Dickey Lyrics.txt_5-15  []-positive  []
+Rubber Dickey Lyrics.txt_6-21  []-negative  [neg]
+Rubber Dickey Lyrics.txt_7-29  []-positive  []
+Rubber Dickey Lyrics.txt_8-37  []-positive  []
+Rubber Dickey Lyrics.txt_9-46  []-positive  []
+Rubber Dickey Lyrics.txt_10-56  []-question  []
+Rubber Dickey Lyrics.txt_11-67  []-positive  []
+Rubber Dickey Lyrics.txt_12-80  [so-result]-negative  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Rubber Dickey Lyrics.txt_1-1  [rubber,Dickey,Lyrics,by,Andrew,E]  [title]
+Rubber Dickey Lyrics.txt_2-3  [what,is,name,my,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Rubber Dickey Lyrics.txt_3-6  [who,is,name,my,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Rubber Dickey Lyrics.txt_4-10  [Yo,!]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Rubber Dickey Lyrics.txt_5-15  [Dickey,Rubber,,,!]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Rubber Dickey Lyrics.txt_6-21  [have,you,ever,heard,about,this,little,thing]  [reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(hear,[external,factive,narration,foreground,objective])]
+Rubber Dickey Lyrics.txt_7-29  [maliet,Pero,Ang,kasiyahan,bini-bring]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Rubber Dickey Lyrics.txt_8-37  [at,binibigay,at,dinudulot]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Rubber Dickey Lyrics.txt_9-46  [Pero,di,binibili,mapupulot]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Rubber Dickey Lyrics.txt_10-56  [why,forehead,Yong,Ang,kumukulot,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Rubber Dickey Lyrics.txt_11-67  [hindi,alam,where,to,buy,mo,kasi]  [provide_expl_just(buy,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Rubber Dickey Lyrics.txt_12-80  [so,stop,,,look]  [reject_expl_just(stop,[external,factive,narration,background,objective]),reject_expl_just(look,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Rubber Dickey Lyrics.txt_1-1)-[primary-touch]
+2-(Rubber Dickey Lyrics.txt_2-3)-[]
+3-(Rubber Dickey Lyrics.txt_3-6)-[]
+4-(Rubber Dickey Lyrics.txt_4-10)-[]
+5-(Rubber Dickey Lyrics.txt_5-15)-[]
+6-(Rubber Dickey Lyrics.txt_6-21)-[secondary-temporal_repere,primary-sound]
+half
+7-(Rubber Dickey Lyrics.txt_7-29)-[]
+8-(Rubber Dickey Lyrics.txt_8-37)-[primary-concreteness,primary-concreteness]
+9-(Rubber Dickey Lyrics.txt_9-46)-[]
+10-(Rubber Dickey Lyrics.txt_10-56)-[secondary-abstract_tought,primary-narcissism]
+11-(Rubber Dickey Lyrics.txt_11-67)-[primary-concreteness,secondary-instru_behavior]
+12-(Rubber Dickey Lyrics.txt_12-80)-[secondary-restraint,primary-vision]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Rubber Dickey Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Andrew-sn2,subj-theme_bound-Lyrics-sn1,and(Andrew,Andrew,sn2),and(Lyrics,Dickey,sn1),and(Lyrics,rubber,sn1),def_prop(Andrew,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Rubber Dickey Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-theme-what-sn2,subj-theme_bound-name-sn1,def_prop(what,[oggetto]),def_prop(name,[attivita,informa,stato,umano])])
+lf(Rubber Dickey Lyrics.txt_3,6,cl3-nil-nil-be-[xcomp-theme-who-sn2,subj-theme_bound-name-sn1,def_prop(who,[umano]),def_prop(name,[attivita,informa,stato,umano])])
+lf(Rubber Dickey Lyrics.txt_4,10,cl4-nil-nil-say-[obj-theme_unaff-Yo-sn1,def_prop(Yo,[istituzione,umano])])
+lf(Rubber Dickey Lyrics.txt_5,15,cl5-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Rubber Dickey Lyrics.txt_6,21,cl7-nil-nil-hear-[iobj-goal-little-sn3,and(little,this,sn3),def_prop(little,[astratto,informa,oggetto])])
+lf(Rubber Dickey Lyrics.txt_6,21,cl6-nil-nil-have-[xcomp-theme-thing-sn4,adj-subj_disc-ever-sn2,subj-experiencer-you-sn1,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(ever,[istituzione]),def_prop(you,[umano])])
+lf(Rubber Dickey Lyrics.txt_7,29,cl8-nil-nil-be-[ncmod-modal-kasiyahan-sn3,xcomp-theme-maliet-sn2,subj-theme_bound-you-sn1,def_prop(kasiyahan,[istituzione]),def_prop(maliet,[istituzione]),def_prop(you,[umano])])
+lf(Rubber Dickey Lyrics.txt_8,37,cl9-nil-nil-be-[ncmod-locativo-dinudulot-sn2,ncmod-locativo-binibigay-sn1,def_prop(dinudulot,[istituzione]),def_prop(binibigay,[istituzione])])
+lf(Rubber Dickey Lyrics.txt_9,46,cl10-nil-nil-be-[ncmod-modal-binibili-sn2,subj-theme_bound-you-sn1,def_prop(binibili,[istituzione]),def_prop(you,[umano])])
+lf(Rubber Dickey Lyrics.txt_10,56,cl11-nil-nil-be-[subj-theme_bound-Ang-sn1,and(Ang,why,sn1),def_prop(Ang,[istituzione,umano])])
+lf(Rubber Dickey Lyrics.txt_11,67,cl13-nil-nil-be-[ncmod-modal-mo-sn2,subj-theme_bound-you-sn1,and(mo,alam,sn2),def_prop(mo,[informa,tecno]),def_prop(you,[umano])])
+lf(Rubber Dickey Lyrics.txt_11,67,cl12-nil-nil-buy-[])
+lf(Rubber Dickey Lyrics.txt_12,80,cl15-nil-nil-look-[subj-agent-pro-nil])
+lf(Rubber Dickey Lyrics.txt_12,80,cl14-nil-nil-stop-[subj-agent-you-sn1,def_prop(you,[umano])])

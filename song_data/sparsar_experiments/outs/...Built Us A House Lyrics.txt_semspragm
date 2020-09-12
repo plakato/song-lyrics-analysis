@@ -1,0 +1,71 @@
+"POLARITY, DISCOURSE MARKERS"
+
+...Built Us A House Lyrics.txt_1-1  []-positive  []
+...Built Us A House Lyrics.txt_2-3  []-positive  []
+...Built Us A House Lyrics.txt_2-4  []-negative  [neg]
+...Built Us A House Lyrics.txt_3-8  [but-advers]-positive  [fgb]
+...Built Us A House Lyrics.txt_4-12  []-positive  []
+...Built Us A House Lyrics.txt_4-13  []-positive  [fgb]
+...Built Us A House Lyrics.txt_5-18  []-positive  [fgb]
+...Built Us A House Lyrics.txt_6-24  []-positive  []
+...Built Us A House Lyrics.txt_6-25  []-positive  [fhd]
+...Built Us A House Lyrics.txt_7-32  [but-advers]-positive  [fgb]
+...Built Us A House Lyrics.txt_8-40  []-positive  []
+...Built Us A House Lyrics.txt_8-41  []-positive  [fgb]
+...Built Us A House Lyrics.txt_9-50  []-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+...Built Us A House Lyrics.txt_1-1  [Built,us,a,House,Lyrics,by,Swift]  [title]
+...Built Us A House Lyrics.txt_2-3  [they,say]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,foreground,objective])]
+...Built Us A House Lyrics.txt_2-4  [you,built,up,a,house,for,those,not,found,these,days]  [reject_expl_just(say,[external,factive,narration,background,objective]),reject_expl_just(find,[external,factive,narration,foreground,objective])]
+...Built Us A House Lyrics.txt_3-8  [but,you,had,say]  [provide_expl_just(say,[external,factive,narration,background,objective])]
+...Built Us A House Lyrics.txt_4-12  [you,built,us,a,house]  [provide_expl_just(build,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+...Built Us A House Lyrics.txt_4-13  [,,full,and,profound]  [provide_expl_just(build,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+...Built Us A House Lyrics.txt_5-18  [and,now,we,are,alive]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+...Built Us A House Lyrics.txt_6-24  [they,say]  [provide_expl_just(say,[external,factive,narration,background,objective])]
+...Built Us A House Lyrics.txt_6-25  [you,built,up,a,house,for,those,left,out,like,strays]  [provide_expl_just(say,[external,factive,narration,background,objective])]
+...Built Us A House Lyrics.txt_7-32  [but,you,had,say]  [provide_expl_just(say,[external,factive,narration,background,objective])]
+...Built Us A House Lyrics.txt_8-40  [you,built,us,a,house]  [provide_expl_just(build,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+...Built Us A House Lyrics.txt_8-41  [,,happy,and,proud]  [provide_expl_just(build,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+...Built Us A House Lyrics.txt_9-50  [and,now,we,are,alive]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(...Built Us A House Lyrics.txt_1-1)-[]
+2-(...Built Us A House Lyrics.txt_2-3)-[secondary-social_behavior]
+3-(...Built Us A House Lyrics.txt_2-4)-[secondary-instru_behavior,secondary-instru_behavior]
+4-(...Built Us A House Lyrics.txt_3-8)-[secondary-social_behavior]
+5-(...Built Us A House Lyrics.txt_4-12)-[secondary-instru_behavior]
+6-(...Built Us A House Lyrics.txt_4-13)-[]
+half
+7-(...Built Us A House Lyrics.txt_5-18)-[secondary-temporal_repere]
+8-(...Built Us A House Lyrics.txt_6-24)-[secondary-social_behavior]
+9-(...Built Us A House Lyrics.txt_6-25)-[secondary-instru_behavior,primary-concreteness,emotions-affection,primary-voyage]
+10-(...Built Us A House Lyrics.txt_7-32)-[secondary-social_behavior]
+11-(...Built Us A House Lyrics.txt_8-40)-[secondary-instru_behavior]
+12-(...Built Us A House Lyrics.txt_8-41)-[emotions-positive_affect,emotions-glory]
+13-(...Built Us A House Lyrics.txt_9-50)-[secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(...Built Us A House Lyrics.txt_1,1,cl1-nil-nil-build-[arg_mod-agent-Swift-sn4,obj-theme-House-sn3,obj-theme_aff-us-sn2,subj-agent-Lyrics-sn1,def_prop(Swift,[place,umano]),def_prop(House,[place,umano]),def_prop(us,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(...Built Us A House Lyrics.txt_2,3,cl4-nil-nil-find-[cmod-subord-find-for,subj-actor-pro-nil])
+lf(...Built Us A House Lyrics.txt_2,3,cl3-nil-nil-build-[obj-theme_aff-house-sn4,adj-subj_disc-up-sn3,subj-agent-you-sn2,def_prop(house,[attivita,istituzione,oggetto,strumento]),def_prop(up,[istituzione]),def_prop(you,[umano])])
+lf(...Built Us A House Lyrics.txt_2,3,cl2-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(...Built Us A House Lyrics.txt_3,8,cl5-nil-nil-say-[subj-actor-you-sn1,aux-had-nil,def_prop(you,[umano])])
+lf(...Built Us A House Lyrics.txt_4,12,cl7-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(...Built Us A House Lyrics.txt_4,12,cl6-nil-nil-build-[obj-theme-house-sn3,obj-theme_aff-us-sn2,subj-agent-you-sn1,def_prop(house,[attivita,istituzione,oggetto,strumento]),def_prop(us,[umano]),def_prop(you,[umano])])
+lf(...Built Us A House Lyrics.txt_5,18,cl8-nil-nil-be-[cmod-subord-be-",xcomp-prop-alive-sn2,subj-theme_bound-we-sn1,def_prop(alive,[valutativo]),def_prop(we,[umano])])
+lf(...Built Us A House Lyrics.txt_6,24,cl10-nil-nil-build-[obj-theme-stray-sn6,xcomp-prop-left-sn5,obj-theme-that-sn4,obj-theme_aff-house-sn3,subj-agent-you-sn2,def_prop(stray,[animato]),def_prop(left,[soggettivo]),def_prop(that,[oggetto,umano]),def_prop(house,[attivita,istituzione,oggetto,strumento]),def_prop(you,[umano])])
+lf(...Built Us A House Lyrics.txt_6,24,cl9-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(...Built Us A House Lyrics.txt_7,32,cl11-nil-nil-say-[subj-actor-you-sn1,aux-had-nil,def_prop(you,[umano])])
+lf(...Built Us A House Lyrics.txt_8,40,cl13-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(...Built Us A House Lyrics.txt_8,40,cl12-nil-nil-build-[obj-theme-house-sn3,obj-theme_aff-us-sn2,subj-agent-you-sn1,def_prop(house,[attivita,istituzione,oggetto,strumento]),def_prop(us,[umano]),def_prop(you,[umano])])
+lf(...Built Us A House Lyrics.txt_9,50,cl14-nil-nil-be-[cmod-subord-be-",xcomp-prop-alive-sn2,subj-theme_bound-we-sn1,def_prop(alive,[valutativo]),def_prop(we,[umano])])

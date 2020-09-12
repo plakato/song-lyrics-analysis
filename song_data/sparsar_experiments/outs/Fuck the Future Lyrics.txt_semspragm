@@ -1,0 +1,99 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Fuck the Future Lyrics.txt_1-1  []-negative  [neg]
+Fuck the Future Lyrics.txt_2-3  []-negative  [neg]
+Fuck the Future Lyrics.txt_3-6  []-positive  []
+Fuck the Future Lyrics.txt_4-10  []-suspension  [neg]
+Fuck the Future Lyrics.txt_5-15  []-negative  [neg,neg]
+Fuck the Future Lyrics.txt_6-21  []-negative  [neg]
+Fuck the Future Lyrics.txt_7-28  []-positive  []
+Fuck the Future Lyrics.txt_8-36  []-negative  [neg]
+Fuck the Future Lyrics.txt_8-37  []-positive  []
+Fuck the Future Lyrics.txt_9-46  []-positive  [fgb]
+Fuck the Future Lyrics.txt_10-57  []-positive  []
+Fuck the Future Lyrics.txt_11-68  []-negative  [neg]
+Fuck the Future Lyrics.txt_12-80  []-positive  []
+Fuck the Future Lyrics.txt_12-81  [before-temp_prec]-positive  []
+Fuck the Future Lyrics.txt_13-94  []-positive  []
+Fuck the Future Lyrics.txt_14-108  []-suspension  []
+Fuck the Future Lyrics.txt_15-123  []-positive  []
+Fuck the Future Lyrics.txt_15-124  [before-temp_prec]-positive  []
+Fuck the Future Lyrics.txt_16-140  []-positive  []
+Fuck the Future Lyrics.txt_16-141  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Fuck the Future Lyrics.txt_1-1  [Future,fuck,the,Lyrics,by,United,Nations]  [title]
+Fuck the Future Lyrics.txt_2-3  [stop]  reject_expl_opin(nil,[])
+Fuck the Future Lyrics.txt_3-6  [start]  [raise_issue(be,[_337902,factive,statement,_337920,subjective])]
+Fuck the Future Lyrics.txt_4-10  [you,are,the,crossing,guard]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Fuck the Future Lyrics.txt_5-15  [fight,in,the,living,room,fist]  [reject_expl_just(fist,[external,factive,narration,background,objective])]
+Fuck the Future Lyrics.txt_6-21  [the,future,now,fuck]  [reject_expl_just(fuck,[external,factive,narration,background,objective])]
+Fuck the Future Lyrics.txt_7-28  [everyday,i,sing,your,praise]  [provide_expl_just(sing,[external,factive,narration,background,objective])]
+Fuck the Future Lyrics.txt_8-36  [every_night,i,burn,in,your,front]  [reject_expl_just(burn,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Fuck the Future Lyrics.txt_8-37  [yard]  [provide_expl_just(burn,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Fuck the Future Lyrics.txt_9-46  [forget,what,you,heard,.,you,heard]  [provide_expl_just(hear,[external,factive,narration,foreground,objective]),provide_expl_just(forget,[external,factive,narration,background,objective])]
+Fuck the Future Lyrics.txt_10-57  [follow,follow]  [provide_expl_just(follow,[external,factive,narration,background,objective])]
+Fuck the Future Lyrics.txt_11-68  [the,future,fuck]  [reject_expl_just(fuck,[external,factive,narration,background,objective])]
+Fuck the Future Lyrics.txt_12-80  [i,seen]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Fuck the Future Lyrics.txt_12-81  [it,all,before]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Fuck the Future Lyrics.txt_13-94  [i,know,the,future]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Fuck the Future Lyrics.txt_14-108  [i,will,return]  [provide_expl_just(return,[external,nonfactive,narration,background,objective])]
+Fuck the Future Lyrics.txt_15-123  [i,have,seen]  [provide_expl_just(see,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Fuck the Future Lyrics.txt_15-124  [it,before]  [provide_expl_just(see,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Fuck the Future Lyrics.txt_16-140  [i,have,seen]  [provide_expl_just(see,[external,factive,narration,foreground,objective]),provide_expl_just(fuck,[external,factive,narration,background,objective])]
+Fuck the Future Lyrics.txt_16-141  [you,fuck,the,future,guy]  [reject_expl_just(see,[external,factive,narration,foreground,objective]),reject_expl_just(fuck,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Fuck the Future Lyrics.txt_1-1)-[primary-sex]
+2-(Fuck the Future Lyrics.txt_2-3)-[secondary-restraint]
+3-(Fuck the Future Lyrics.txt_3-6)-[primary-vision]
+4-(Fuck the Future Lyrics.txt_4-10)-[secondary-restraint]
+5-(Fuck the Future Lyrics.txt_5-15)-[emotions-aggression]
+6-(Fuck the Future Lyrics.txt_6-21)-[secondary-temporal_repere,primary-sex]
+7-(Fuck the Future Lyrics.txt_7-28)-[emotions-expressive_beh]
+8-(Fuck the Future Lyrics.txt_8-36)-[primary-fire,primary-concreteness]
+9-(Fuck the Future Lyrics.txt_8-37)-[]
+10-(Fuck the Future Lyrics.txt_9-46)-[secondary-instru_behavior,primary-sound,primary-sound]
+half
+11-(Fuck the Future Lyrics.txt_10-57)-[secondary-social_behavior,secondary-social_behavior]
+12-(Fuck the Future Lyrics.txt_11-68)-[primary-sex]
+13-(Fuck the Future Lyrics.txt_12-80)-[primary-vision]
+14-(Fuck the Future Lyrics.txt_12-81)-[]
+15-(Fuck the Future Lyrics.txt_13-94)-[secondary-abstract_tought]
+16-(Fuck the Future Lyrics.txt_14-108)-[]
+17-(Fuck the Future Lyrics.txt_15-123)-[primary-vision]
+18-(Fuck the Future Lyrics.txt_15-124)-[]
+19-(Fuck the Future Lyrics.txt_16-140)-[primary-vision]
+20-(Fuck the Future Lyrics.txt_16-141)-[primary-sex]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Fuck the Future Lyrics.txt_1,1,cl1-nil-nil-fuck-[arg_mod-agent-Nations-sn2,subj-actor-Lyrics-sn1,and(Nations,United,sn2),and(Lyrics,Future,sn1),def_prop(Nations,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Fuck the Future Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-stop-sn1,def_prop(stop,[attivita,evento,luogo,oggetto,strumento])])
+lf(Fuck the Future Lyrics.txt_3,6,cl3-nil-nil-say-[obj-theme_unaff-star-sn1,def_prop(star,[astratto,oggetto,umano])])
+lf(Fuck the Future Lyrics.txt_4,10,cl4-nil-nil-be-[xcomp-prop-guard-sn2,subj-theme_bound-you-sn1,and(guard,crossing,sn2),def_prop(guard,[astratto,attivita,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Fuck the Future Lyrics.txt_5,15,nil-nil-nil-fist-[ncmod-locativo-room-sn2,subj-agent-you-sn1,and(room,living,sn2),def_prop(room,[nquant,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Fuck the Future Lyrics.txt_6,21,cl5-nil-nil-fuck-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Fuck the Future Lyrics.txt_7,28,cl6-nil-nil-sing-[obj-theme_aff-praise-sn2,subj-agent-i-sn1,def_prop(praise,[attivita,informa]),def_prop(i,[umano])])
+lf(Fuck the Future Lyrics.txt_8,36,cl8-nil-nil-be-[subj-theme_bound-you-sn6,def_prop(you,[umano])])
+lf(Fuck the Future Lyrics.txt_8,36,cl7-nil-nil-burn-[adj-(mod)-every_night-nil,ncmod-locativo-front-sn2,subj-actor-i-sn1,def_prop(front,[astratto,attivita,cambia,luogo,oggetto,stato,strumento]),def_prop(i,[umano])])
+lf(Fuck the Future Lyrics.txt_9,46,cl10-nil-nil-hear-[])
+lf(Fuck the Future Lyrics.txt_9,46,cl9-nil-nil-forget-[obj-theme-you-sn3,f2-sn1-what-sn2,subj-experiencer-you-sn1,def_prop(you,[umano]),def_prop(what,[oggetto]),def_prop(you,[umano])])
+lf(Fuck the Future Lyrics.txt_10,57,cl11-nil-nil-follow-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Fuck the Future Lyrics.txt_11,68,cl12-nil-nil-fuck-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Fuck the Future Lyrics.txt_12,80,cl14-nil-nil-be-[xcomp-prop-before-sn3,subj-theme_bound-it-sn2,and(before,all,sn3),def_prop(before,[istituzione]),def_prop(it,[any])])
+lf(Fuck the Future Lyrics.txt_12,80,cl13-nil-nil-see-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Fuck the Future Lyrics.txt_13,94,cl15-nil-nil-know-[obj-theme_unaff-future-sn2,subj-actor-i-sn1,def_prop(future,[attivita,informa,oggetto,strumento,tempo]),def_prop(i,[umano])])
+lf(Fuck the Future Lyrics.txt_14,108,cl16-nil-will-return-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Fuck the Future Lyrics.txt_15,123,cl18-nil-nil-be-[subj-theme_bound-it-sn2,def_prop(it,[any])])
+lf(Fuck the Future Lyrics.txt_15,123,cl17-nil-nil-see-[subj-experiencer-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(Fuck the Future Lyrics.txt_16,140,cl20-nil-nil-fuck-[obj-theme-guy-sn3,subj-actor-you-sn2,and(guy,future,sn3),def_prop(guy,[oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Fuck the Future Lyrics.txt_16,140,cl19-nil-nil-see-[subj-experiencer-you-sn1,aux-have-nil,def_prop(you,[umano])])

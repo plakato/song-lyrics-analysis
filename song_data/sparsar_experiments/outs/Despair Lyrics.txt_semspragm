@@ -1,0 +1,195 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Despair Lyrics.txt_1-1  []-suspension  [neg,neg]
+Despair Lyrics.txt_2-3  []-negative  [neg]
+Despair Lyrics.txt_3-6  []-positive  []
+Despair Lyrics.txt_4-10  []-positive  []
+Despair Lyrics.txt_5-15  []-suspension  [neg,neg,neg]
+Despair Lyrics.txt_6-21  []-negative  [neg]
+Despair Lyrics.txt_7-29  []-negative  [neg]
+Despair Lyrics.txt_8-37  []-question  [neg]
+Despair Lyrics.txt_8-38  []-negative  []
+Despair Lyrics.txt_8-39  []-positive  [fgb]
+Despair Lyrics.txt_9-48  []-positive  [fgb]
+Despair Lyrics.txt_10-58  []-negative  [neg]
+Despair Lyrics.txt_10-59  []-suspension  []
+Despair Lyrics.txt_11-71  []-negative  [neg]
+Despair Lyrics.txt_12-83  []-suspension  [neg,neg,neg]
+Despair Lyrics.txt_13-96  []-negative  [neg,neg,neg]
+Despair Lyrics.txt_14-110  []-positive  []
+Despair Lyrics.txt_14-111  [so-result]-negative  [fgb,neg]
+Despair Lyrics.txt_15-126  []-negative  []
+Despair Lyrics.txt_15-127  [but-advers]-negative  [fgb,fgb]
+Despair Lyrics.txt_16-144  []-positive  []
+Despair Lyrics.txt_17-162  []-negative  [neg]
+Despair Lyrics.txt_18-180  []-negative  [neg]
+Despair Lyrics.txt_18-181  []-negative  [fgb,neg]
+Despair Lyrics.txt_19-201  []-positive  [fgb]
+Despair Lyrics.txt_20-221  []-negative  [neg]
+Despair Lyrics.txt_20-222  []-positive  []
+Despair Lyrics.txt_21-243  []-negative  [neg]
+Despair Lyrics.txt_21-244  [so-result]-suspension  [fgb,neg,neg,neg]
+Despair Lyrics.txt_22-266  []-suspension  [neg,neg,neg]
+Despair Lyrics.txt_23-289  []-positive  [neg]
+Despair Lyrics.txt_24-314  []-positive  []
+Despair Lyrics.txt_25-339  []-positive  [neg]
+Despair Lyrics.txt_26-366  []-negative  [neg]
+Despair Lyrics.txt_27-393  []-positive  []
+Despair Lyrics.txt_28-421  []-positive  [neg,neg]
+Despair Lyrics.txt_29-451  []-positive  []
+Despair Lyrics.txt_30-481  []-suspension  [neg]
+Despair Lyrics.txt_30-482  []-positive  [fgb,neg]
+Despair Lyrics.txt_31-513  []-positive  [neg]
+Despair Lyrics.txt_32-546  []-suspension  [neg,neg,neg,neg]
+Despair Lyrics.txt_33-579  []-suspension  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Despair Lyrics.txt_1-1  [despair,Lyrics,by,unleash,the,Archers]  [title]
+Despair Lyrics.txt_2-3  [scrape]  reject_expl_opin(nil,[])
+Despair Lyrics.txt_3-6  [harder]  [raise_issue(be,[_201728,factive,statement,_201746,subjective])]
+Despair Lyrics.txt_4-10  [aftermath,sets,in,on,me]  [provide_expl_just(set,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_5-15  [i,am,wretched,detestable,worthless]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_6-21  [compelled,to,comprehend,the,guilt]  [reject_expl_just(comprehend,[external,factive,narration,background,objective]),reject_expl_just(compel,[external,factive,narration,foreground,objective])]
+Despair Lyrics.txt_7-29  [to,forfeit,everything,for,atonement]  [reject_expl_just(forfeit,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_8-37  [side,the,fight,to,away,hide,will,i,?]  [provide_expl_just(fight,[internal,factive,narration,foreground,objective]),provide_expl_just(hide,[internal,nonfactive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Despair Lyrics.txt_8-38  [that,is,screaming]  [provide_expl_just(fight,[internal,factive,narration,foreground,objective]),provide_expl_just(hide,[internal,nonfactive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Despair Lyrics.txt_8-39  [,,what,have,done,you]  [provide_expl_just(fight,[internal,factive,narration,foreground,objective]),provide_expl_just(hide,[internal,nonfactive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Despair Lyrics.txt_9-48  [the,that,other,and,is,fine,with,being,the,bloodstained,one]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_10-58  [myself,against,me,,,two,darkened,faces,which,one,will,win,.]  [reject_expl_just(face,[external,factive,narration,background,objective]),reject_expl_just(darken,[external,factive,narration,foreground,objective]),reject_expl_just(win,[external,nonfactive,narration,background,objective])]
+Despair Lyrics.txt_10-59  [one,will,win]  [provide_expl_just(face,[external,factive,narration,background,objective]),provide_expl_just(darken,[external,factive,narration,foreground,objective]),provide_expl_just(win,[external,nonfactive,narration,background,objective])]
+Despair Lyrics.txt_11-71  [this,affliction,of,the,heart,take]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_12-83  [dull,these,wounds,of,sorrow]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_13-96  [beg,for,attrition,from,remorse]  [reject_expl_just(beg,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_14-110  [my,soul,become]  [provide_expl_just(become,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_14-111  [so,hollow]  [reject_expl_just(become,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_15-126  [i,crawled]  [provide_expl_just(crawl,[external,factive,narration,foreground,objective]),provide_expl_just(grasp,[external,factive,adverse,foreground,objective])]
+Despair Lyrics.txt_15-127  [and,grasped,for,it,but,still,,,grace,eludes,me]  [provide_expl_just(crawl,[external,factive,narration,foreground,objective]),provide_expl_just(grasp,[external,factive,adverse,foreground,objective])]
+Despair Lyrics.txt_16-144  [i,could,have,been,the,one,to,save,us,all]  [provide_expl_just(save,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Despair Lyrics.txt_17-162  [from,forces,raging]  [reject_expl_just(rage,[external,factive,narration,foreground,objective])]
+Despair Lyrics.txt_18-180  [instead,i,chose,to,fade]  [reject_expl_just(choose,[external,factive,cause,foreground,objective]),reject_expl_just(fade,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_18-181  [and,control,lost]  [reject_expl_just(choose,[external,factive,cause,foreground,objective]),reject_expl_just(fade,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_19-201  [and,now,i,am,paying]  [provide_expl_just(pay,[external,factive,narration,foreground,objective])]
+Despair Lyrics.txt_20-221  [the,i,choice,this,agony,is,punishment]  [reject_expl_just(make,[external,factive,cause,foreground,objective])]
+Despair Lyrics.txt_20-222  [for,made]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Despair Lyrics.txt_21-243  [i,have,never,felt]  [reject_expl_just(feel,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_21-244  [so,crushed,beneath,an,overwhelming,weight]  [provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_22-266  [destroyed,by,misery,this,aching,disease,torment,deserved]  [provide_expl_just(deserve,[external,factive,narration,foreground,objective])]
+Despair Lyrics.txt_23-289  [turn,my,hands,to,stone]  [provide_expl_just(stone,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_24-314  [god,knows,my,heart-s,halfway,there]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_25-339  [just,take,away,my,ability,to,kill]  [provide_expl_just(kill,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_26-366  [alter,my,moral,perception]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_27-393  [turn,it,upside_down]  [raise_issue(be,[_227950,factive,statement,_227968,subjective])]
+Despair Lyrics.txt_28-421  [i,found,a,place,to,escape,from,two,sides,of,sin]  [provide_expl_just(escape,[external,factive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,foreground,objective])]
+Despair Lyrics.txt_29-451  [shed,simulation,to,become,two,beasts,within]  [provide_expl_just(become,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_30-481  [i,will,take,the,pain]  [provide_expl_just(build,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_30-482  [and,build,four,walls,fortress,of,shame]  [provide_expl_just(build,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_31-513  [lock,me,away,for,just,cause,a,bloody,dichotomy]  [provide_expl_just(bloody,[external,factive,narration,background,objective])]
+Despair Lyrics.txt_32-546  [i,can,not,erase,the,consequence,of,murderous,rage]  [propose_opin(erase,[external,nonfactive,narration,foreground,objective]),provide_expl_just(erase,[external,nonfactive,narration,foreground,objective])]
+Despair Lyrics.txt_33-579  [i,will,simply,take,myself,away,from,this,ravaged,place]  [provide_expl_just(take,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Despair Lyrics.txt_1-1)-[emotions-sadness]
+2-(Despair Lyrics.txt_2-3)-[]
+3-(Despair Lyrics.txt_3-6)-[primary-hard]
+4-(Despair Lyrics.txt_4-10)-[]
+5-(Despair Lyrics.txt_5-15)-[]
+6-(Despair Lyrics.txt_6-21)-[secondary-abstract_tought]
+7-(Despair Lyrics.txt_7-29)-[]
+8-(Despair Lyrics.txt_8-37)-[primary-concreteness,emotions-aggression,primary-concreteness]
+9-(Despair Lyrics.txt_8-38)-[]
+10-(Despair Lyrics.txt_8-39)-[]
+11-(Despair Lyrics.txt_9-48)-[]
+12-(Despair Lyrics.txt_10-58)-[secondary-temporal_repere,primary-diffusion,primary-narcissism,secondary-instru_behavior]
+13-(Despair Lyrics.txt_10-59)-[secondary-instru_behavior]
+14-(Despair Lyrics.txt_11-71)-[primary-narcissism]
+15-(Despair Lyrics.txt_12-83)-[emotions-aggression,emotions-sadness]
+16-(Despair Lyrics.txt_13-96)-[emotions-sadness]
+17-(Despair Lyrics.txt_14-110)-[]
+18-(Despair Lyrics.txt_14-111)-[]
+19-(Despair Lyrics.txt_15-126)-[]
+20-(Despair Lyrics.txt_15-127)-[secondary-instru_behavior]
+21-(Despair Lyrics.txt_16-144)-[]
+half
+22-(Despair Lyrics.txt_17-162)-[emotions-aggression]
+23-(Despair Lyrics.txt_18-180)-[secondary-abstract_tought,primary-diffusion]
+24-(Despair Lyrics.txt_18-181)-[secondary-restraint]
+25-(Despair Lyrics.txt_19-201)-[secondary-temporal_repere,secondary-instru_behavior]
+26-(Despair Lyrics.txt_20-221)-[secondary-abstract_tought,secondary-temporal_repere,secondary-restraint]
+27-(Despair Lyrics.txt_20-222)-[primary-counscious]
+28-(Despair Lyrics.txt_21-243)-[]
+29-(Despair Lyrics.txt_21-244)-[emotions-aggression,primary-depth,secondary-abstract_tought]
+30-(Despair Lyrics.txt_22-266)-[emotions-aggression,emotions-sadness,emotions-aggression]
+31-(Despair Lyrics.txt_23-289)-[primary-narcissism,primary-hard]
+32-(Despair Lyrics.txt_24-314)-[secondary-abstract_tought,primary-narcissism]
+33-(Despair Lyrics.txt_25-339)-[primary-concreteness,emotions-aggression]
+34-(Despair Lyrics.txt_26-366)-[secondary-moral_imperative]
+35-(Despair Lyrics.txt_27-393)-[]
+36-(Despair Lyrics.txt_28-421)-[secondary-instru_behavior,primary-concreteness,primary-concreteness]
+37-(Despair Lyrics.txt_29-451)-[primary-concreteness]
+38-(Despair Lyrics.txt_30-481)-[emotions-sadness]
+39-(Despair Lyrics.txt_30-482)-[secondary-instru_behavior,primary-brink]
+40-(Despair Lyrics.txt_31-513)-[secondary-restraint,primary-concreteness,secondary-abstract_tought,emotions-aggression]
+41-(Despair Lyrics.txt_32-546)-[secondary-abstract_tought,emotions-aggression]
+42-(Despair Lyrics.txt_33-579)-[secondary-order,primary-concreteness,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Despair Lyrics.txt_1,1,cl1-nil-nil-unleash-[obj-theme-female-sn2,subj-agent-Lyrics-sn1,and(Lyrics,despair,sn1),def_prop(female,[animato,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Despair Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-scrape-sn1,def_prop(scrape,[attivita,evento,informa])])
+lf(Despair Lyrics.txt_3,6,cl3-nil-nil-say-[])
+lf(Despair Lyrics.txt_4,10,cl4-nil-nil-set-[iobj-goal-me-sn2,subj-agent-aftermath-sn1,def_prop(me,[umano]),def_prop(aftermath,[attivita,cambia])])
+lf(Despair Lyrics.txt_5,15,cl5-nil-nil-be-[xcomp-prop-wretched-sn2,subj-theme_bound-i-sn1,def_prop(wretched,[evaluative]),def_prop(i,[umano])])
+lf(Despair Lyrics.txt_6,21,cl7-nil-nil-comprehend-[obj-theme-guilt-sn2,xcomp-purpose-comprehend-2,def_prop(guilt,[emotivo,stato])])
+lf(Despair Lyrics.txt_6,21,cl6-nil-nil-compel-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Despair Lyrics.txt_7,29,cl8-nil-nil-forfeit-[obj-theme-everything-sn2,subj-agent-atonement-sn1,def_prop(everything,[astratto,informa,oggetto]),def_prop(atonement,[astratto,oggetto])])
+lf(Despair Lyrics.txt_8,37,cl11-nil-nil-be-[xcomp-prop-screaming-sn4,xcomp-theme_unaff-side-sn2,xcomp-purpose-fight-3,def_prop(screaming,[attivita,evento,informa]),def_prop(side,[astratto,attivita,body_part,edible,informa,luogo,oggetto,strumento,umano])])
+lf(Despair Lyrics.txt_8,37,cl10-nil-nil-fight-[adj-(mod)-hide-nil])
+lf(Despair Lyrics.txt_8,37,cl9-nil-will-hide-[adj-(mod)-away-nil,subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Despair Lyrics.txt_9,48,cl12-nil-nil-be-[xadj-theme-one-sn4,subj-theme_aff-other-sn1,xcomp-prop-fine-sn2,subj-theme_bound-other-sn1,and(one,bloodstained,sn4),and(other,that,sn1),and(other,that,sn1),def_prop(one,[umano]),def_prop(other,[deittico]),def_prop(fine,[astratto,oggetto]),def_prop(other,[deittico])])
+lf(Despair Lyrics.txt_10,58,cl15-nil-will-win-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Despair Lyrics.txt_10,58,cl14-nil-nil-face-[])
+lf(Despair Lyrics.txt_10,58,cl13-nil-nil-darken-[f2-prop-which-sn4,xcomp-purpose-face-2,obj-theme-two-sn3,ncmod-malefattivo-me-sn2,subj-actor-myself-sn1,def_prop(which,[_233504]),def_prop(two,[_233522]),def_prop(me,[umano]),def_prop(myself,[umano])])
+lf(Despair Lyrics.txt_11,71,cl16-nil-nil-be-[ncmod-modal-affliction-sn2,subj-theme_bound-you-sn1,and(affliction,hear,sn2),def_prop(affliction,[evento,stato]),def_prop(you,[umano])])
+lf(Despair Lyrics.txt_12,83,cl17-nil-nil-be-[ncmod-specif-sorrow-sn2,subj-theme_bound-you-sn1,def_prop(sorrow,[emotivo]),def_prop(you,[umano])])
+lf(Despair Lyrics.txt_13,96,cl18-nil-nil-beg-[ncmod-modal-remorse-sn3,subj-actor-you-sn1,def_prop(remorse,[emotivo]),def_prop(you,[umano])])
+lf(Despair Lyrics.txt_14,110,cl20-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Despair Lyrics.txt_14,110,cl19-nil-nil-become-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Despair Lyrics.txt_15,126,cl23-nil-nil-elude-[cmod-subord-elude-",obj-theme-me-sn8,subj-agent-grace-sn7,obj-theme-me-sn6,subj-agent-grace-sn5,cmod-subord-grasp-nil,def_prop(me,[umano]),def_prop(grace,[astratto,attivita,informa,stato]),def_prop(me,[umano]),def_prop(grace,[astratto,attivita,informa,stato])])
+lf(Despair Lyrics.txt_15,126,cl22-nil-nil-grasp-[cmod-subord-elude-1,subj-agent-it-sn3,subj-agent-it-sn2,and(it,you,sn2),def_prop(it,[any]),def_prop(it,[any])])
+lf(Despair Lyrics.txt_15,126,cl21-nil-nil-crawl-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Despair Lyrics.txt_16,144,nil-nil-nil-save-[])
+lf(Despair Lyrics.txt_16,144,cl24-nil-could-be-[xcomp-theme-all-sn3,xcomp-purpose-save-2,xcomp-prop-one-sn2,subj-theme_bound-i-sn1,and(all,us,sn3),def_prop(all,[_234746]),def_prop(one,[umano]),def_prop(i,[umano])])
+lf(Despair Lyrics.txt_17,162,cl25-nil-nil-rage-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Despair Lyrics.txt_18,180,cl28-nil-nil-lose-[cmod-subord-lose-",subj-theme_aff-you-sn4,def_prop(you,[umano])])
+lf(Despair Lyrics.txt_18,180,cl27-nil-nil-fade-[])
+lf(Despair Lyrics.txt_18,180,cl26-nil-nil-choose-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Despair Lyrics.txt_19,201,cl29-nil-nil-pay-[cmod-subord-pay-",subj-agent-i-sn1,aux-am-nil,progr-paying-nil,def_prop(i,[umano])])
+lf(Despair Lyrics.txt_20,221,cl31-nil-nil-make-[subj-agent-pro-nil])
+lf(Despair Lyrics.txt_20,221,cl30-nil-nil-be-[xcomp-prop-punishment-sn3,subj-theme_bound-agony-sn2,subj-theme_bound-agony-sn1,and(agony,this,sn2),and(agony,this,sn1),def_prop(punishment,[attivita]),def_prop(agony,[emotivo,stato]),def_prop(agony,[emotivo,stato])])
+lf(Despair Lyrics.txt_21,243,cl33-nil-nil-be-[xadj-adj-crushed-adj1,ncmod-locativo-weight-sn2,and(weight,overwhelming,sn2),def_prop(crushed,_235564),def_prop(weight,[astratto,emotivo,nquant,oggetto,strumento])])
+lf(Despair Lyrics.txt_21,243,cl32-nil-nil-feel-[subj-experiencer-you-sn1,neg-never-nil,aux-have-nil,def_prop(you,[umano])])
+lf(Despair Lyrics.txt_22,266,cl34-nil-nil-deserve-[xadj-adj-destroyed-adj2,xcomp-prop-disease-sn3,iobj-modal-misery-sn2,subj-agent-torment-sn1,and(disease,this,sn3),and(disease,aching,sn3),def_prop(destroyed,_235874),def_prop(disease,[stato]),def_prop(misery,[emotivo,stato]),def_prop(torment,[cambia,emotivo,evento,stato])])
+lf(Despair Lyrics.txt_23,289,cl36-nil-nil-stone-[])
+lf(Despair Lyrics.txt_23,289,cl35-nil-nil-turn-[obj-theme_aff-hand-sn2,subj-agent-you-sn1,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Despair Lyrics.txt_24,314,cl37-nil-nil-know-[obj-theme-there-sn3,obj-theme_unaff-heart-s-sn2,subj-actor-god-sn1,and(there,halfway,sn3),def_prop(there,[any]),def_prop(heart-s,[astratto,body_part,edible,oggetto,strumento,umano]),def_prop(god,[umano])])
+lf(Despair Lyrics.txt_25,339,cl39-nil-nil-kill-[subj-tema_aff-ability-sn1,and(ability,away,sn1),def_prop(ability,[astratto])])
+lf(Despair Lyrics.txt_25,339,cl38-nil-nil-take-[adj-(mod)-just-nil,subj_top-experiencer-ability-sn1,and(ability,away,sn1),def_prop(ability,[astratto])])
+lf(Despair Lyrics.txt_26,366,cl40-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Despair Lyrics.txt_27,393,cl41-nil-nil-turn-[adj-subj_disc-upside_down-sn3,subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(upside_down,[luogo]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Despair Lyrics.txt_28,421,cl43-nil-nil-escape-[iobj-goal-side-sn3,xcomp-purpose-escape-2,def_prop(side,[astratto,attivita,body_part,edible,informa,luogo,oggetto,strumento,umano])])
+lf(Despair Lyrics.txt_28,421,cl42-nil-nil-find-[obj-theme_bound-place-sn2,subj-actor-i-sn1,def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(i,[umano])])
+lf(Despair Lyrics.txt_29,451,cl44-nil-nil-become-[xcomp-prop-beast-sn2,subj-theme_bound-simulation-sn1,and(beast,two,sn2),and(simulation,shed,sn1),def_prop(beast,[umano]),def_prop(simulation,[astratto,attivita])])
+lf(Despair Lyrics.txt_30,481,cl46-nil-nil-build-[cmod-subord-build-",iobj-goal-shame-sn5,obj-theme_aff-fortress-sn4,subj-agent-you-sn3,and(fortress,four,sn4),def_prop(shame,[emotivo,stato]),def_prop(fortress,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Despair Lyrics.txt_30,481,cl45-nil-will-take-[obj-theme_aff-pain-sn2,subj-agent-i-sn1,def_prop(pain,[astratto,emotivo,stato,umano]),def_prop(i,[umano])])
+lf(Despair Lyrics.txt_31,513,nil-nil-nil-bloody-[cmod-subord-lock-for,xcomp-agent-dichotomy-sn6,subj-agent-you-sn5,xcomp-prop-dichotomy-sn4,def_prop(dichotomy,[istituzione]),def_prop(you,[umano]),def_prop(dichotomy,[istituzione])])
+lf(Despair Lyrics.txt_31,513,cl47-nil-nil-lock-[xcomp-prop-away-sn3,obj-paziente-me-sn2,subj-agent-you-sn1,def_prop(away,[evaluative]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Despair Lyrics.txt_32,546,cl48-not-can-erase-[obj-theme-consequence-sn2,subj-agent-i-sn1,def_prop(consequence,[astratto,attivita,cambia,evento]),def_prop(i,[umano])])
+lf(Despair Lyrics.txt_33,579,cl49-nil-will-take-[xadj-theme-place-sn5,ncmod-loc_origin-this-sn4,xcomp-prop-away-sn3,obj-theme_aff-myself-sn2,subj-agent-i-sn1,adj-(mod)-simply-nil,and(place,ravaged,sn5),def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(this,[oggetto,umano]),def_prop(away,[evaluative]),def_prop(myself,[umano]),def_prop(i,[umano])])

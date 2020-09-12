@@ -1,0 +1,117 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Lonely Blue Lyrics.txt_1-1  []-negative  [neg,neg]
+Lonely Blue Lyrics.txt_2-3  []-negative  [neg,neg]
+Lonely Blue Lyrics.txt_2-4  []-negative  []
+Lonely Blue Lyrics.txt_3-7  []-positive  [fgb]
+Lonely Blue Lyrics.txt_4-11  []-suspension  [neg,neg,neg]
+Lonely Blue Lyrics.txt_5-17  [so-result]-negative  [fgb,fgb]
+Lonely Blue Lyrics.txt_6-26  [even_if-conc]-negative  [neg]
+Lonely Blue Lyrics.txt_6-27  []-positive  []
+Lonely Blue Lyrics.txt_7-33  []-positive  []
+Lonely Blue Lyrics.txt_7-34  []-positive  []
+Lonely Blue Lyrics.txt_8-42  []-positive  []
+Lonely Blue Lyrics.txt_8-43  []-positive  []
+Lonely Blue Lyrics.txt_8-44  []-positive  []
+Lonely Blue Lyrics.txt_9-53  []-positive  [fgb]
+Lonely Blue Lyrics.txt_10-65  []-positive  []
+Lonely Blue Lyrics.txt_11-76  []-negative  [neg]
+Lonely Blue Lyrics.txt_12-88  [but-advers,so-result]-positive  [fgb,neg,fgb]
+Lonely Blue Lyrics.txt_13-101  []-positive  [fgb]
+Lonely Blue Lyrics.txt_14-115  []-negative  [fgb]
+Lonely Blue Lyrics.txt_15-131  []-positive  []
+Lonely Blue Lyrics.txt_16-149  []-suspension  [fgb]
+Lonely Blue Lyrics.txt_17-166  []-positive  [fgb]
+Lonely Blue Lyrics.txt_18-184  []-positive  [ack]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Lonely Blue Lyrics.txt_1-1  [lonely,Blue,Lyrics,by,Unleash,the,sky]  [title]
+Lonely Blue Lyrics.txt_2-3  [an,empty,chair,empty]  [reject_expl_just(chair,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Lonely Blue Lyrics.txt_2-4  [for,so_long]  [provide_expl_just(chair,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Lonely Blue Lyrics.txt_3-7  [and,the,radio,is,playing,just,the,same,old,song]  [provide_expl_just(play,[external,factive,cause,foreground,objective])]
+Lonely Blue Lyrics.txt_4-11  [too,tired,to,sleep,,,too,weak,to,fight]  [provide_expl_just(sleep,[external,factive,narration,background,objective]),provide_expl_just(fight,[external,factive,narration,background,objective])]
+Lonely Blue Lyrics.txt_5-17  [so,she,closed,her,eyes,and,started,to,write]  [provide_expl_just(write,[external,factive,narration,background,objective]),indication(start,[external,factive,inception,foreground,objective]),suggest(start,[external,factive,inception,foreground,objective]),propose_opin_neg(close,[external,factive,circumstance,foreground,objective])]
+Lonely Blue Lyrics.txt_6-26  [even_if,it,is,hard]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Lonely Blue Lyrics.txt_6-27  [,,one,thing,is,for_sure]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lonely Blue Lyrics.txt_7-33  [that,it,time,takes,till]  [provide_expl_just(take,[external,factive,narration,background,objective])]
+Lonely Blue Lyrics.txt_7-34  [everything,is,cured]  [provide_expl_just(take,[external,factive,narration,background,objective])]
+Lonely Blue Lyrics.txt_8-42  [just,listen,to,your,heart]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(listen,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective])]
+Lonely Blue Lyrics.txt_8-43  [,,it,tells]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(listen,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective])]
+Lonely Blue Lyrics.txt_8-44  [you,to,let,go]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(listen,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective])]
+Lonely Blue Lyrics.txt_9-53  [and,that,it,time,takes,till,every,wing,is,cured]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(cure,[external,factive,narration,foreground,objective])]
+Lonely Blue Lyrics.txt_10-65  [just,listen,to,your,heart]  [provide_expl_just(listen,[external,factive,narration,background,objective])]
+Lonely Blue Lyrics.txt_11-76  [line,by,line,in,lonely,blue]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Lonely Blue Lyrics.txt_12-88  [straight,from_the_heart,where,every,word-s,so,sad,but,true]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lonely Blue Lyrics.txt_13-101  [sealed,a,lullaby,and,with,a,kiss]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lonely Blue Lyrics.txt_14-115  [about,a,bird,with,a,broken,wing,and,the,will,to,fly]  [provide_expl_just(wing,[external,factive,narration,background,objective]),provide_expl_just(fly,[external,factive,narration,background,objective])]
+Lonely Blue Lyrics.txt_15-131  [keep,on,holding,my,head,up,high]  [provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(head,[external,factive,narration,background,objective]),provide_expl_just(keep,[external,factive,narration,background,objective])]
+Lonely Blue Lyrics.txt_16-149  [and,i,always,will,be]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Lonely Blue Lyrics.txt_17-166  [this,lullaby,and,with,your,kiss]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lonely Blue Lyrics.txt_18-184  [you,are,right,beside,me]  [provide_expl_just(right,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Lonely Blue Lyrics.txt_1-1)-[emotions-sadness,primary-height]
+2-(Lonely Blue Lyrics.txt_2-3)-[]
+3-(Lonely Blue Lyrics.txt_2-4)-[]
+4-(Lonely Blue Lyrics.txt_3-7)-[secondary-temporal_repere]
+5-(Lonely Blue Lyrics.txt_4-11)-[primary-counscious,emotions-aggression]
+6-(Lonely Blue Lyrics.txt_5-17)-[primary-concreteness,primary-narcissism]
+7-(Lonely Blue Lyrics.txt_6-26)-[primary-hard]
+8-(Lonely Blue Lyrics.txt_6-27)-[]
+9-(Lonely Blue Lyrics.txt_7-33)-[secondary-temporal_repere,secondary-temporal_repere]
+10-(Lonely Blue Lyrics.txt_7-34)-[secondary-instru_behavior]
+11-(Lonely Blue Lyrics.txt_8-42)-[primary-sound,primary-narcissism]
+half
+12-(Lonely Blue Lyrics.txt_8-43)-[secondary-social_behavior]
+13-(Lonely Blue Lyrics.txt_8-44)-[]
+14-(Lonely Blue Lyrics.txt_9-53)-[secondary-temporal_repere,secondary-temporal_repere,secondary-temporal_repere,primary-ascend,secondary-instru_behavior]
+15-(Lonely Blue Lyrics.txt_10-65)-[primary-sound,primary-narcissism]
+16-(Lonely Blue Lyrics.txt_11-76)-[primary-brink,primary-brink,emotions-sadness,primary-vision]
+17-(Lonely Blue Lyrics.txt_12-88)-[primary-concreteness,primary-concreteness,secondary-temporal_repere,emotions-sadness,secondary-abstract_tought]
+18-(Lonely Blue Lyrics.txt_13-101)-[emotions-expressive_beh,primary-sex]
+19-(Lonely Blue Lyrics.txt_14-115)-[primary-height,emotions-aggression,primary-ascend,primary-ascend]
+20-(Lonely Blue Lyrics.txt_15-131)-[primary-narcissism,primary-height]
+21-(Lonely Blue Lyrics.txt_16-149)-[]
+22-(Lonely Blue Lyrics.txt_17-166)-[emotions-expressive_beh,primary-sex]
+23-(Lonely Blue Lyrics.txt_18-184)-[secondary-moral_imperative,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Lonely Blue Lyrics.txt_1,1,cl1-nil-nil-unleash-[obj-theme-sky-sn2,subj-agent-Lyrics-sn1,and(Lyrics,Blue,sn1),and(Lyrics,lonely,sn1),def_prop(sky,[oggetto]),def_prop(Lyrics,[informa,tecno])])
+lf(Lonely Blue Lyrics.txt_2,3,cl3-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Lonely Blue Lyrics.txt_2,3,cl2-nil-nil-chair-[xcomp-prop-empty-sn2,subj-agent-empty-sn1,def_prop(empty,[valutativo]),def_prop(empty,[oggetto,strumento])])
+lf(Lonely Blue Lyrics.txt_3,7,cl4-nil-nil-play-[cmod-subord-play-",adj-(mod)-just-nil,obj-goal-song-sn2,subj-agent-radio-sn1,aux-(is)-nil,progr-playing-nil,and(song,same,sn2),and(song,old,sn2),def_prop(song,[astratto,attivita,evento,informa,oggetto]),def_prop(radio,[attivita,informa,oggetto,strumento])])
+lf(Lonely Blue Lyrics.txt_4,11,cl6-nil-nil-fight-[])
+lf(Lonely Blue Lyrics.txt_4,11,cl5-nil-nil-sleep-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Lonely Blue Lyrics.txt_5,17,cl9-nil-nil-write-[])
+lf(Lonely Blue Lyrics.txt_5,17,cl8-nil-nil-start-[subj-agent-you-sn6,subj-agent-you-sn5,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Lonely Blue Lyrics.txt_5,17,cl7-nil-nil-close-[cmod-coord-write-2,obj-goal-eye-sn2,subj-agent-she-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(she,[umano])])
+lf(Lonely Blue Lyrics.txt_6,26,cl10-nil-nil-be-[xcomp-prop-for_sure-sn4,subj-theme_bound-thing-sn3,xcomp-prop-hard-sn2,subj-theme_bound-it-sn1,and(thing,one,sn3),def_prop(for_sure,[istituzione]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(hard,[valutativo]),def_prop(it,[any])])
+lf(Lonely Blue Lyrics.txt_7,33,cl12-nil-nil-cure-[subj-goal-you-sn4,aux-(is)-nil,def_prop(you,[umano])])
+lf(Lonely Blue Lyrics.txt_7,33,cl11-nil-nil-take-[expl-it-nil,adj-(mod)-cure-nil,obj-theme_aff-till-sn2,subj-agent-it-sn1,def_prop(till,[sostanza]),def_prop(it,[any])])
+lf(Lonely Blue Lyrics.txt_8,42,cl15-nil-nil-go-[subj-agent-you-sn6,iobj-goal-hear-sn2,def_prop(you,[umano]),def_prop(hear,[istituzione])])
+lf(Lonely Blue Lyrics.txt_8,42,cl14-nil-nil-tell-[subj-agent-you-sn5,def_prop(you,[umano])])
+lf(Lonely Blue Lyrics.txt_8,42,cl13-nil-nil-listen-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Lonely Blue Lyrics.txt_9,53,cl18-nil-nil-cure-[subj-goal-till-sn2,aux-(is)-nil,def_prop(till,[sostanza])])
+lf(Lonely Blue Lyrics.txt_9,53,cl17-nil-nil-wing-[])
+lf(Lonely Blue Lyrics.txt_9,53,cl16-nil-nil-take-[expl-it-nil,adj-temporal-time-nil,obj-theme_aff-till-sn2,subj-agent-it-sn1,def_prop(till,[sostanza]),def_prop(it,[any])])
+lf(Lonely Blue Lyrics.txt_10,65,cl19-nil-nil-listen-[iobj-goal-hear-sn2,subj-agent-you-sn1,def_prop(hear,[istituzione]),def_prop(you,[umano])])
+lf(Lonely Blue Lyrics.txt_11,76,cl20-nil-nil-be-[ncmod-locativo-blue-sn3,arg_mod-agent-line-sn2,subj-theme_bound-line-sn1,and(blue,lonely,sn3),def_prop(blue,[animato,astratto,istituzione,oggetto,strumento]),def_prop(line,[astratto,attivita,cambia,informa,luogo,oggetto,strumento]),def_prop(line,[astratto,attivita,cambia,informa,luogo,oggetto,strumento])])
+lf(Lonely Blue Lyrics.txt_12,88,cl21-nil-nil-be-[subj-theme_bound-where-sn1,def_prop(where,[luogo])])
+lf(Lonely Blue Lyrics.txt_13,101,cl22-nil-nil-be-[coord-theme_bound-lullaby_and_kiss-sn3,subj-theme_bound-kiss-sn2,subj-theme_bound-lullaby-sn1,def_prop(lullaby_and_kiss,[attivita,informa,attivita,edible,oggetto]),def_prop(kiss,[attivita,informa,attivita,edible,oggetto]),def_prop(lullaby,[attivita,informa,attivita,edible,oggetto])])
+lf(Lonely Blue Lyrics.txt_14,115,cl24-nil-nil-fly-[])
+lf(Lonely Blue Lyrics.txt_14,115,cl23-nil-nil-wing-[subj-prop-will-sn3,xcomp-purpose-fly-cl24,ncmod-comitativo-break-sn2,ncmod-subj_disc-bird-sn1,def_prop(will,[astratto,attivita,informa]),def_prop(break,[attivita,evento]),def_prop(bird,[animato,astratto,edible,oggetto,plant])])
+lf(Lonely Blue Lyrics.txt_15,131,cl27-nil-nil-head-[obj-theme-my-sn2,xcomp-purpose-hold-3,def_prop(my,[informa,tecno])])
+lf(Lonely Blue Lyrics.txt_15,131,cl26-nil-nil-hold-[xcomp-result-high-sn3,xcomp-prop-head-4,def_prop(high,[misura])])
+lf(Lonely Blue Lyrics.txt_15,131,cl25-nil-nil-keep-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,subj-experiencer-you-sn1,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(you,[umano])])
+lf(Lonely Blue Lyrics.txt_16,149,cl28-nil-will-be-[cmod-subord-be-",subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Lonely Blue Lyrics.txt_17,166,cl29-nil-nil-be-[subj-theme_bound-kiss-sn2,subj-theme_bound-kiss-sn1,def_prop(kiss,[attivita,edible,oggetto]),def_prop(kiss,[attivita,edible,oggetto])])
+lf(Lonely Blue Lyrics.txt_18,184,cl30-nil-nil-right-[ncmod-modal-me-sn2,subj-theme-you-sn1,aux-are-nil,def_prop(me,[umano]),def_prop(you,[umano])])

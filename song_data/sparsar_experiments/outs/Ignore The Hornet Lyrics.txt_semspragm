@@ -1,0 +1,126 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Ignore The Hornet Lyrics.txt_1-1  []-negative  [neg]
+Ignore The Hornet Lyrics.txt_2-3  []-positive  []
+Ignore The Hornet Lyrics.txt_2-4  [when-temp_coinc]-positive  []
+Ignore The Hornet Lyrics.txt_3-8  []-positive  []
+Ignore The Hornet Lyrics.txt_3-9  [but-advers]-negative  [fgb,neg]
+Ignore The Hornet Lyrics.txt_4-14  []-positive  []
+Ignore The Hornet Lyrics.txt_5-22  []-suspension  [neg]
+Ignore The Hornet Lyrics.txt_6-31  []-positive  [fgb,neg]
+Ignore The Hornet Lyrics.txt_7-39  []-positive  []
+Ignore The Hornet Lyrics.txt_7-40  [before-temp_prec]-suspension  [fgb,neg]
+Ignore The Hornet Lyrics.txt_8-51  []-positive  []
+Ignore The Hornet Lyrics.txt_9-63  []-suspension  [neg]
+Ignore The Hornet Lyrics.txt_10-76  []-positive  []
+Ignore The Hornet Lyrics.txt_11-87  []-suspension  [neg,neg,neg,neg]
+Ignore The Hornet Lyrics.txt_12-101  [so-result]-positive  [fgb]
+Ignore The Hornet Lyrics.txt_12-102  [so-result]-suspension  [neg,fgb]
+Ignore The Hornet Lyrics.txt_13-116  []-positive  []
+Ignore The Hornet Lyrics.txt_14-130  []-positive  []
+Ignore The Hornet Lyrics.txt_15-148  []-positive  []
+Ignore The Hornet Lyrics.txt_15-149  []-positive  []
+Ignore The Hornet Lyrics.txt_16-164  []-suspension  [neg]
+Ignore The Hornet Lyrics.txt_17-184  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Ignore The Hornet Lyrics.txt_1-1  [Hornet,ignore,the,Lyrics,by,Xazz]  [title]
+Ignore The Hornet Lyrics.txt_2-3  [it,is,ringing,in,your,ear]  [provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(formulate,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Ignore The Hornet Lyrics.txt_2-4  [when,you,try,to,formulate,your,own,opinion]  [provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(formulate,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Ignore The Hornet Lyrics.txt_3-8  [you,try,to,rub]  [provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(rub,[external,factive,narration,background,objective]),provide_expl_just(escape,[external,nonfactive,narration,foreground,objective])]
+Ignore The Hornet Lyrics.txt_3-9  [it,off,but,you,cannot,escape,the,single,story,vision]  [reject_expl_just(try,[external,factive,narration,background,objective]),reject_expl_just(rub,[external,factive,narration,background,objective]),reject_expl_just(escape,[external,nonfactive,narration,foreground,objective])]
+Ignore The Hornet Lyrics.txt_4-14  [do,you,really,need,for,me,to,tell,you]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Ignore The Hornet Lyrics.txt_5-22  [do,you,really,need,for,me,to,warn,you]  [provide_expl_just(warn,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Ignore The Hornet Lyrics.txt_6-31  [destroys,your,sense,of,real,and,it,takes,you,to,a,place,of,pure,distraction]  [provide_expl_just(take,[external,factive,narration,background,objective])]
+Ignore The Hornet Lyrics.txt_7-39  [you,better,run]  [provide_expl_just(better,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(hide,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,background,objective])]
+Ignore The Hornet Lyrics.txt_7-40  [and,hide,before,the,lies,they,say,will,force,you,into,action]  [provide_expl_just(better,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(hide,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,background,objective])]
+Ignore The Hornet Lyrics.txt_8-51  [do,you,really,need,for,me,to,tell,you]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Ignore The Hornet Lyrics.txt_9-63  [do,you,really,need,for,me,to,warn,you]  [provide_expl_just(warn,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Ignore The Hornet Lyrics.txt_10-76  [instrumental]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Ignore The Hornet Lyrics.txt_11-87  [no_matter,where,you,look,,,it,is,always,lurking,there,,,waiting,to,sting,you,.,you,look,it,is,always,lurking,there,,,waiting,to,sting,you]  [provide_expl_just(sting,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Ignore The Hornet Lyrics.txt_12-101  [so,,,be,careful,where,you,tread]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Ignore The Hornet Lyrics.txt_12-102  [my,friend,hold,tight,so,all,your,morals,will]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(hold,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Ignore The Hornet Lyrics.txt_13-116  [stay,with,you]  [provide_expl_just(stay,[external,factive,narration,background,objective])]
+Ignore The Hornet Lyrics.txt_14-130  [do,you,really,need,for,me,to,tell,you]  [provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Ignore The Hornet Lyrics.txt_15-148  [i,said]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Ignore The Hornet Lyrics.txt_15-149  [i,said]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Ignore The Hornet Lyrics.txt_16-164  [do,you,really,need,for,me,to,warn,you]  [provide_expl_just(warn,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Ignore The Hornet Lyrics.txt_17-184  [instrumental]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Ignore The Hornet Lyrics.txt_1-1)-[]
+2-(Ignore The Hornet Lyrics.txt_2-3)-[primary-sound]
+3-(Ignore The Hornet Lyrics.txt_2-4)-[secondary-temporal_repere,secondary-instru_behavior,secondary-abstract_tought]
+4-(Ignore The Hornet Lyrics.txt_3-8)-[secondary-instru_behavior,primary-touch]
+5-(Ignore The Hornet Lyrics.txt_3-9)-[primary-concreteness,emotions-expressive_beh,primary-vision]
+6-(Ignore The Hornet Lyrics.txt_4-14)-[secondary-abstract_tought,secondary-social_behavior]
+7-(Ignore The Hornet Lyrics.txt_5-22)-[secondary-abstract_tought,emotions-aggression]
+8-(Ignore The Hornet Lyrics.txt_6-31)-[emotions-aggression,secondary-abstract_tought,primary-concreteness]
+9-(Ignore The Hornet Lyrics.txt_7-39)-[]
+10-(Ignore The Hornet Lyrics.txt_7-40)-[primary-passivity,secondary-social_behavior]
+11-(Ignore The Hornet Lyrics.txt_8-51)-[secondary-abstract_tought,secondary-social_behavior]
+half
+12-(Ignore The Hornet Lyrics.txt_9-63)-[secondary-abstract_tought,emotions-aggression]
+13-(Ignore The Hornet Lyrics.txt_10-76)-[]
+14-(Ignore The Hornet Lyrics.txt_11-87)-[primary-concreteness,primary-vision,primary-touch,primary-vision,primary-touch]
+15-(Ignore The Hornet Lyrics.txt_12-101)-[primary-concreteness]
+16-(Ignore The Hornet Lyrics.txt_12-102)-[emotions-affection,secondary-moral_imperative]
+17-(Ignore The Hornet Lyrics.txt_13-116)-[]
+18-(Ignore The Hornet Lyrics.txt_14-130)-[secondary-abstract_tought,secondary-social_behavior]
+19-(Ignore The Hornet Lyrics.txt_15-148)-[secondary-social_behavior]
+20-(Ignore The Hornet Lyrics.txt_15-149)-[secondary-social_behavior]
+21-(Ignore The Hornet Lyrics.txt_16-164)-[secondary-abstract_tought,emotions-aggression]
+22-(Ignore The Hornet Lyrics.txt_17-184)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Ignore The Hornet Lyrics.txt_1,1,cl1-nil-nil-ignore-[arg_mod-agent-Xazz-sn2,subj-agent-Lyrics-sn1,and(Lyrics,Hornet,sn1),def_prop(Xazz,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Ignore The Hornet Lyrics.txt_2,3,cl4-nil-nil-formulate-[ncmod-locativo-ear-sn3,def_prop(ear,[astratto,body_part,plant,umano])])
+lf(Ignore The Hornet Lyrics.txt_2,3,cl3-nil-nil-try-[obj-theme-opinion-sn7,xcomp-purpose-formulate-2,subj-actor-you-sn6,and(opinion,own,sn7),def_prop(opinion,[astratto,attivita,informa]),def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-ringing-sn2,subj-theme_bound-it-sn1,def_prop(ringing,[attivita,informa]),def_prop(it,[any])])
+lf(Ignore The Hornet Lyrics.txt_3,8,cl7-not-can-escape-[])
+lf(Ignore The Hornet Lyrics.txt_3,8,cl6-nil-nil-rub-[subj-patient-you-sn1,def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_3,8,cl5-nil-nil-try-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_4,14,cl10-nil-nil-tell-[subj-prop-you-sn4,xcomp-purpose-tell-4,def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_4,14,cl9-nil-nil-need-[])
+lf(Ignore The Hornet Lyrics.txt_4,14,cl8-nil-nil-do-[xcomp-actor-me-sn3,adj-subj_disc-really-sn2,subj-theme_unaff-you-sn1,aux-do-nil,def_prop(me,[umano]),def_prop(really,[istituzione]),def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_5,22,cl13-nil-nil-warn-[subj-prop-you-sn4,xcomp-purpose-warn-4,def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_5,22,cl12-nil-nil-need-[])
+lf(Ignore The Hornet Lyrics.txt_5,22,cl11-nil-nil-do-[xcomp-actor-me-sn3,adj-subj_disc-really-sn2,subj-theme_unaff-you-sn1,aux-do-nil,def_prop(me,[umano]),def_prop(really,[istituzione]),def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_6,31,cl15-nil-nil-take-[expl-it-nil,cmod-coord-take-and,obj2-goal-place-sn14,obj2-goal-place-sn11,subj-agent-you-sn10,obj2-goal-place-sn7,subj-agent-you-sn6,subj-agent-you-sn5,and(you,it,sn5),def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(you,[umano]),def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_6,31,cl14-nil-nil-destroy-[obj-patient-sense-sn2,subj-agent-you-sn1,def_prop(sense,[astratto,attivita,informa]),def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_7,39,cl19-nil-will-force-[])
+lf(Ignore The Hornet Lyrics.txt_7,39,cl18-nil-nil-say-[cmod-subord-better-before,ncmod-loc_direct-action-sn6,obj-theme_unaff-you-sn5,subj-actor-they-sn4,subj-actor-they-sn3,and(they,lie,sn3),def_prop(action,[astratto,attivita,informa,oggetto,stato,strumento]),def_prop(you,[umano]),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Ignore The Hornet Lyrics.txt_7,39,cl17-nil-nil-hide-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_7,39,cl16-nil-nil-run-[subj-tema_nonaff-you-sn1,def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_7,39,nil-nil-nil-better-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_8,51,cl22-nil-nil-tell-[subj-prop-you-sn4,xcomp-purpose-tell-4,def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_8,51,cl21-nil-nil-need-[])
+lf(Ignore The Hornet Lyrics.txt_8,51,cl20-nil-nil-do-[xcomp-actor-me-sn3,adj-subj_disc-really-sn2,subj-theme_unaff-you-sn1,aux-do-nil,def_prop(me,[umano]),def_prop(really,[istituzione]),def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_9,63,cl25-nil-nil-warn-[subj-prop-you-sn4,xcomp-purpose-warn-4,def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_9,63,cl24-nil-nil-need-[])
+lf(Ignore The Hornet Lyrics.txt_9,63,cl23-nil-nil-do-[xcomp-actor-me-sn3,adj-subj_disc-really-sn2,subj-theme_unaff-you-sn1,aux-do-nil,def_prop(me,[umano]),def_prop(really,[istituzione]),def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_10,76,cl26-nil-nil-say-[])
+lf(Ignore The Hornet Lyrics.txt_11,87,cl29-nil-nil-sting-[obj-experiencer-waiting-sn15,xadj-result-sting-6,subj-agent-it-sn3,def_prop(waiting,[attivita]),def_prop(it,[any])])
+lf(Ignore The Hornet Lyrics.txt_11,87,cl28-nil-nil-be-[adj-(mod)-there-nil,adj-(mod)-always-nil,subj-theme_bound-lurking-sn9,xcomp-prop-lurking-sn6,subj-theme_bound-it-sn5,def_prop(there,[istituzione]),def_prop(always,[istituzione]),def_prop(lurking,[informa,tecno]),def_prop(lurking,[informa,tecno]),def_prop(it,[any])])
+lf(Ignore The Hornet Lyrics.txt_11,87,cl27-nil-nil-look-[adj-(mod)-no_matter-nil,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_12,101,cl32-nil-will-will-[cmod-subord-will-so,subj-agent-you-sn10,def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_12,101,cl31-nil-nil-hold-[xcomp-prop-tight-sn3,subj-agent-friend-sn2,def_prop(tight,[evaluative]),def_prop(friend,[umano])])
+lf(Ignore The Hornet Lyrics.txt_12,101,cl30-nil-nil-be-[xcomp-theme-careful-sn1,def_prop(careful,[istituzione])])
+lf(Ignore The Hornet Lyrics.txt_13,116,cl33-nil-nil-stay-[iobj-goal-you-sn2,subj-agent-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_14,130,cl36-nil-nil-tell-[subj-prop-you-sn4,xcomp-purpose-tell-4,def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_14,130,cl35-nil-nil-need-[])
+lf(Ignore The Hornet Lyrics.txt_14,130,cl34-nil-nil-do-[xcomp-actor-me-sn3,adj-subj_disc-really-sn2,subj-theme_unaff-you-sn1,aux-do-nil,def_prop(me,[umano]),def_prop(really,[istituzione]),def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_15,148,cl37-nil-nil-say-[subj-actor-you-sn2,subj-actor-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_16,164,cl40-nil-nil-warn-[subj-prop-you-sn4,xcomp-purpose-warn-4,def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_16,164,cl39-nil-nil-need-[])
+lf(Ignore The Hornet Lyrics.txt_16,164,cl38-nil-nil-do-[xcomp-actor-me-sn3,adj-subj_disc-really-sn2,subj-theme_unaff-you-sn1,aux-do-nil,def_prop(me,[umano]),def_prop(really,[istituzione]),def_prop(you,[umano])])
+lf(Ignore The Hornet Lyrics.txt_17,184,cl41-nil-nil-say-[])

@@ -1,0 +1,52 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Club rock Lyrics.txt_1-1  []-negative  [neg]
+Club rock Lyrics.txt_2-3  []-positive  [fgb]
+Club rock Lyrics.txt_3-7  []-positive  []
+Club rock Lyrics.txt_4-12  []-negative  []
+Club rock Lyrics.txt_5-17  []-positive  []
+Club rock Lyrics.txt_6-23  []-positive  []
+Club rock Lyrics.txt_7-30  []-positive  []
+Club rock Lyrics.txt_8-38  []-negative  [neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Club rock Lyrics.txt_1-1  [club,rock,Lyrics,by,Yung,nation]  [title]
+Club rock Lyrics.txt_2-3  [me,what,you,know,.,show]  [provide_expl_just(show,[external,factive,result,background,objective])]
+Club rock Lyrics.txt_3-7  [get,it,get,it,go]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Club rock Lyrics.txt_4-12  [work,work,the,floor]  [provide_expl_just(work,[external,factive,narration,background,objective])]
+Club rock Lyrics.txt_5-17  [young,nation,Here_we_go]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Club rock Lyrics.txt_6-23  [let-s,it,let-s,get,go]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Club rock Lyrics.txt_7-30  [everybody,Rockin,everbody,rocking]  [provide_expl_just(rock,[external,factive,narration,foreground,objective])]
+Club rock Lyrics.txt_8-38  [don-t,stop,rocking,don-t,stop,rocking]  [reject_expl_just(don-t,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Club rock Lyrics.txt_1-1)-[primary-hard]
+2-(Club rock Lyrics.txt_2-3)-[secondary-abstract_tought]
+3-(Club rock Lyrics.txt_3-7)-[]
+4-(Club rock Lyrics.txt_4-12)-[secondary-instru_behavior,secondary-instru_behavior,primary-brink]
+half
+5-(Club rock Lyrics.txt_5-17)-[]
+6-(Club rock Lyrics.txt_6-23)-[]
+7-(Club rock Lyrics.txt_7-30)-[]
+8-(Club rock Lyrics.txt_8-38)-[secondary-restraint,secondary-restraint]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Club rock Lyrics.txt_1,1,cl1-nil-nil-club-[arg_mod-agent-nation-sn3,obj-patient-Lyrics-sn2,subj-agent-rock-sn1,and(nation,Yung,sn3),def_prop(nation,[istituzione]),def_prop(Lyrics,[informa,tecno]),def_prop(rock,[attivita,oggetto,sostanza,umano])])
+lf(Club rock Lyrics.txt_2,3,cl3-nil-nil-know-[])
+lf(Club rock Lyrics.txt_2,3,cl2-nil-nil-show-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Club rock Lyrics.txt_3,7,cl5-nil-nil-go-[subj-agent-pro-nil,subj-agent-it-sn4,def_prop(it,[any])])
+lf(Club rock Lyrics.txt_3,7,cl4-nil-nil-get-[subj-paziente-it-sn2,subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(it,[any]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Club rock Lyrics.txt_4,12,cl6-nil-nil-work-[obj-prop-floor-sn3,obj-theme_aff-work-sn2,subj-actor-you-sn1,def_prop(floor,[astratto,attivita,informa,oggetto,strumento]),def_prop(work,[attivita,cambia,oggetto,strumento]),def_prop(you,[umano])])
+lf(Club rock Lyrics.txt_5,17,cl7-nil-nil-be-[ncmod-modal-nation-sn2,subj-theme_bound-you-sn1,def_prop(nation,[istituzione]),def_prop(you,[umano])])
+lf(Club rock Lyrics.txt_6,23,cl8-nil-nil-go-[subj-agent-get-sn2,subj-agent-get-sn1,and(get,let-s,sn2),and(get,it,sn1),def_prop(get,[informa,tecno]),def_prop(get,[informa,tecno])])
+lf(Club rock Lyrics.txt_7,30,cl9-nil-nil-rock-[subj-agent-everbody-sn2,subj-agent-everbody-sn1,and(everbody,Rockin,sn2),and(everbody,everybody,sn1),def_prop(everbody,[istituzione]),def_prop(everbody,[istituzione])])
+lf(Club rock Lyrics.txt_8,38,cl10-not-nil-don-t-[xcomp-patient-stop-sn2,xcomp-purpose-rock-4,xcomp-result-stop-sn1,xcomp-purpose-don-t-3,def_prop(stop,[attivita,evento,luogo,oggetto,strumento]),def_prop(stop,[attivita,evento,luogo,oggetto,strumento])])

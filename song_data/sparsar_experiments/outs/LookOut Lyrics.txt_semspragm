@@ -1,0 +1,88 @@
+"POLARITY, DISCOURSE MARKERS"
+
+LookOut Lyrics.txt_1-1  []-positive  []
+LookOut Lyrics.txt_2-3  []-question  []
+LookOut Lyrics.txt_2-4  [so-result]-positive  [fgb]
+LookOut Lyrics.txt_3-7  []-negative  [neg]
+LookOut Lyrics.txt_4-12  []-positive  []
+LookOut Lyrics.txt_4-13  []-negative  [neg]
+LookOut Lyrics.txt_5-19  []-positive  []
+LookOut Lyrics.txt_6-25  [but-advers]-negative  [fgb,neg]
+LookOut Lyrics.txt_7-33  []-positive  [fgb,fgb]
+LookOut Lyrics.txt_8-41  []-positive  [fgb]
+LookOut Lyrics.txt_9-51  []-positive  [neg]
+LookOut Lyrics.txt_10-61  []-positive  []
+LookOut Lyrics.txt_11-72  []-negative  [neg]
+LookOut Lyrics.txt_11-73  []-positive  []
+LookOut Lyrics.txt_12-85  []-negative  [neg,neg,fhd]
+LookOut Lyrics.txt_13-98  []-suspension  [neg,neg,neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+LookOut Lyrics.txt_1-1  [lookout,Lyrics,by,4th,pyramid]  [title]
+LookOut Lyrics.txt_2-3  [stay,why,?]  [provide_expl_just(stay,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+LookOut Lyrics.txt_2-4  [so,high]  [provide_expl_just(stay,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+LookOut Lyrics.txt_3-7  [Cause,i,can,not,take,it]  [reject_expl_just(cause,[external,factive,narration,background,objective]),reject_expl_just(take,[external,factive,narration,background,objective])]
+LookOut Lyrics.txt_4-12  [watching,all,the,days,go,by]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(watch,[external,factive,narration,foreground,objective]),provide_expl_just(make,[external,factive,narration,background,objective])]
+LookOut Lyrics.txt_4-13  [,,dying,to,make,it]  [reject_expl_just(go,[external,factive,narration,background,objective]),reject_expl_just(watch,[external,factive,narration,foreground,objective]),reject_expl_just(make,[external,factive,narration,background,objective])]
+LookOut Lyrics.txt_5-19  [life,in,a,house,of,cards,,,trying,to,ace,it]  [provide_expl_just(ace,[external,factive,narration,background,objective])]
+LookOut Lyrics.txt_6-25  [living,in,a,hall,of,mirrors,but,i,will,not,face,it]  [reject_expl_just(mirror,[external,factive,narration,background,objective]),reject_expl_just(face,[external,nonfactive,narration,background,objective])]
+LookOut Lyrics.txt_7-33  [my,wackiest,plans,and,cords,and,mics]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+LookOut Lyrics.txt_8-41  [got,me,still,stuck,with,low-lifes,,,baggies,,,and,grams]  [provide_expl_just(stick,[external,factive,narration,foreground,objective])]
+LookOut Lyrics.txt_9-51  [my,career,rose,from,the,dead,to,over,your,head]  [proposal(be,[_52564,_52570,statement,foreground,_52588])]
+LookOut Lyrics.txt_10-61  [obama-s,in,power,still,some,soldier,just,bled]  [provide_expl_just(bleed,[external,factive,narration,foreground,objective])]
+LookOut Lyrics.txt_11-72  [overly,fed,in,the,booth]  [reject_expl_just(feed,[external,factive,narration,foreground,objective]),reject_expl_just(booth,[internal,factive,narration,background,objective])]
+LookOut Lyrics.txt_11-73  [i,am,a,glutton]  [provide_expl_just(feed,[external,factive,narration,foreground,objective]),provide_expl_just(booth,[internal,factive,narration,background,objective])]
+LookOut Lyrics.txt_12-85  [my,mind,thinks,of,shit,like,llamas,in,space]  [reject_expl_just(think,[external,factive,narration,background,objective])]
+LookOut Lyrics.txt_13-98  [smoke,trees,fuck,bitches,guess,i,am,a,disgrace]  [provide_expl_just(guess,[external,factive,narration,background,objective]),provide_expl_just(smoke,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(LookOut Lyrics.txt_1-1)-[primary-height]
+2-(LookOut Lyrics.txt_2-3)-[secondary-abstract_tought]
+3-(LookOut Lyrics.txt_2-4)-[primary-height]
+4-(LookOut Lyrics.txt_3-7)-[]
+5-(LookOut Lyrics.txt_4-12)-[]
+6-(LookOut Lyrics.txt_4-13)-[primary-passivity,secondary-instru_behavior]
+7-(LookOut Lyrics.txt_5-19)-[secondary-instru_behavior]
+8-(LookOut Lyrics.txt_6-25)-[primary-brink,primary-narcissism]
+half
+9-(LookOut Lyrics.txt_7-33)-[secondary-abstract_tought]
+10-(LookOut Lyrics.txt_8-41)-[]
+11-(LookOut Lyrics.txt_9-51)-[primary-passivity,primary-concreteness,primary-narcissism]
+12-(LookOut Lyrics.txt_10-61)-[]
+13-(LookOut Lyrics.txt_11-72)-[primary-concreteness,primary-orality]
+14-(LookOut Lyrics.txt_11-73)-[primary-orality]
+15-(LookOut Lyrics.txt_12-85)-[secondary-abstract_tought,primary-anality,emotions-affection,primary-concreteness]
+16-(LookOut Lyrics.txt_13-98)-[primary-fire,primary-height,primary-sex,primary-sex,secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(LookOut Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-pyramid-sn2,subj-theme_bound-Lyrics-sn1,and(pyramid,4th,sn2),and(Lyrics,lookout,sn1),def_prop(pyramid,[astratto,oggetto]),def_prop(Lyrics,[informa,tecno])])
+lf(LookOut Lyrics.txt_2,3,cl3-nil-nil-be-[subj-theme_bound-high-sn2,def_prop(high,[misura])])
+lf(LookOut Lyrics.txt_2,3,cl2-nil-nil-stay-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(LookOut Lyrics.txt_3,7,cl5-nil-nil-take-[obj-theme-it-sn3,xcomp-purpose-can-2,def_prop(it,[any])])
+lf(LookOut Lyrics.txt_3,7,cl4-nil-nil-cause-[subj-causer-i-sn2,subj-causer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(LookOut Lyrics.txt_4,12,cl8-nil-nil-make-[subj-agent-it-sn3,def_prop(it,[any])])
+lf(LookOut Lyrics.txt_4,12,cl7-nil-nil-go-[subj-agent-days-sn1,and(days,all,sn1),def_prop(days,[tempo])])
+lf(LookOut Lyrics.txt_4,12,cl6-nil-nil-watch-[subj-tema_unaff-days-sn1,and(days,all,sn1),def_prop(days,[tempo])])
+lf(LookOut Lyrics.txt_5,19,nil-nil-nil-ace-[subj-agent-it-sn2,subj-agent-it-sn1,and(it,life,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(LookOut Lyrics.txt_6,25,cl10-not-will-face-[cmod-subord-face-but,subj-experiencer-it-sn4,subj-experiencer-it-sn3,and(it,i,sn3),def_prop(it,[any]),def_prop(it,[any])])
+lf(LookOut Lyrics.txt_6,25,cl9-nil-nil-mirror-[obj-agent-living-sn2,subj-agent-you-sn1,def_prop(living,[istituzione]),def_prop(you,[umano])])
+lf(LookOut Lyrics.txt_7,33,cl11-nil-nil-be-[coord-theme_bound-cord_and_mics-sn6,subj-theme_bound-mics-sn5,subj-theme_bound-cord-sn4,coord-theme_bound-cord_and_mics-sn3,subj-theme_bound-mics-sn2,subj-theme_bound-cord-sn1,def_prop(cord_and_mics,[nquant,oggetto,strumento,informa,tecno]),def_prop(mics,[nquant,oggetto,strumento,informa,tecno]),def_prop(cord,[nquant,oggetto,strumento,informa,tecno]),def_prop(cord_and_mics,[nquant,oggetto,strumento,informa,tecno]),def_prop(mics,[nquant,oggetto,strumento,informa,tecno]),def_prop(cord,[nquant,oggetto,strumento,informa,tecno])])
+lf(LookOut Lyrics.txt_8,41,cl13-nil-nil-stick-[xadj-adj-baggies-adj2,iobj-goal-low-lifes-sn3,def_prop(baggies,_58454),def_prop(low-lifes,[istituzione,umano])])
+lf(LookOut Lyrics.txt_8,41,cl12-nil-nil-get-[adj-(mod)-still-nil,obj-theme-baggies-sn6,adj-subj_disc-still-sn4,obj-theme_unaff-me-sn2,subj-agent-you-sn1,def_prop(still,[istituzione]),def_prop(baggies,[istituzione]),def_prop(still,[istituzione]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(LookOut Lyrics.txt_9,51,cl14-nil-nil-rise-[iobj-goal-head-sn3,iobj-goal-dead-sn2,subj-agent-career-sn1,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(dead,[tempo]),def_prop(career,[attivita])])
+lf(LookOut Lyrics.txt_10,61,cl15-nil-nil-bleed-[adj-(mod)-just-nil,adj-(mod)-still-nil,subj-agent-soldier-sn2,subj-agent-soldier-sn1,and(soldier,some,sn2),and(soldier,some,sn1),def_prop(soldier,[animato,umano]),def_prop(soldier,[animato,umano])])
+lf(LookOut Lyrics.txt_11,72,cl17-nil-nil-be-[xcomp-prop-glutton-sn4,subj-theme_bound-i-sn3,ncmod-locativo-booth-sn2,def_prop(glutton,[animato,umano]),def_prop(i,[umano]),def_prop(booth,[oggetto,strumento])])
+lf(LookOut Lyrics.txt_11,72,cl16-nil-nil-feed-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(LookOut Lyrics.txt_12,85,cl18-nil-nil-think-[ncmod-locativo-space-sn3,iobj-theme_unaff-shit-sn2,subj-agent-mind-sn1,def_prop(space,[any,astratto,attivita,informa,luogo]),def_prop(shit,[attivita,umano]),def_prop(mind,[astratto])])
+lf(LookOut Lyrics.txt_13,98,cl20-nil-nil-be-[])
+lf(LookOut Lyrics.txt_13,98,nil-nil-nil-guess-[])
+lf(LookOut Lyrics.txt_13,98,cl19-nil-nil-smoke-[subj-agent-tree-sn2,subj-agent-tree-sn1,and(tree,you,sn1),def_prop(tree,[astratto,plant]),def_prop(tree,[astratto,plant])])

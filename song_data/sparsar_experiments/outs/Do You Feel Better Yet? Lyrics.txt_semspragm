@@ -1,0 +1,81 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Do You Feel Better Yet? Lyrics.txt_1-1  [yet-conc]-question  []
+Do You Feel Better Yet? Lyrics.txt_2-3  []-positive  []
+Do You Feel Better Yet? Lyrics.txt_3-6  []-positive  []
+Do You Feel Better Yet? Lyrics.txt_3-7  [but-advers]-negative  [neg,fgb]
+Do You Feel Better Yet? Lyrics.txt_4-11  []-positive  []
+Do You Feel Better Yet? Lyrics.txt_4-12  [when-temp_coinc]-negative  []
+Do You Feel Better Yet? Lyrics.txt_5-18  []-suspension  [neg]
+Do You Feel Better Yet? Lyrics.txt_6-25  [yet-conc]-question  []
+Do You Feel Better Yet? Lyrics.txt_7-32  []-negative  [neg]
+Do You Feel Better Yet? Lyrics.txt_7-33  []-positive  []
+Do You Feel Better Yet? Lyrics.txt_8-41  []-positive  [fgb,fhd]
+Do You Feel Better Yet? Lyrics.txt_9-50  [but-advers]-suspension  [fgb]
+Do You Feel Better Yet? Lyrics.txt_10-60  []-question  [neg]
+Do You Feel Better Yet? Lyrics.txt_10-61  []-positive  [fgb,neg]
+Do You Feel Better Yet? Lyrics.txt_11-71  [yet-conc]-question  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Do You Feel Better Yet? Lyrics.txt_1-1  [yet,better,you,Feel,do,?]  [title]
+Do You Feel Better Yet? Lyrics.txt_2-3  [Lyrics,by,the,Swellers]  [provide_expl_just(Lyrics,[external,factive,narration,background,objective])]
+Do You Feel Better Yet? Lyrics.txt_3-6  [it,is]  [provide_expl_just(need,[external,factive,adverse,background,objective])]
+Do You Feel Better Yet? Lyrics.txt_3-7  [been,a,long,couple,years,but,i,need,this,,,too]  [reject_expl_just(need,[external,factive,adverse,background,objective]),provide_expl_just(need,[external,factive,adverse,background,objective])]
+Do You Feel Better Yet? Lyrics.txt_4-11  [i,miss,the,ringing,in,my,ears]  [provide_expl_just(miss,[external,factive,narration,background,objective]),provide_expl_just(didn-t,[external,factive,narration,foreground,objective])]
+Do You Feel Better Yet? Lyrics.txt_4-12  [when,it,didn-t,come,from,you]  [provide_expl_just(miss,[external,factive,narration,background,objective]),provide_expl_just(didn-t,[external,factive,narration,foreground,objective])]
+Do You Feel Better Yet? Lyrics.txt_5-18  [no_more,heartstrings,left,to,drag,me,down]  [provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(drag,[external,factive,narration,background,objective])]
+Do You Feel Better Yet? Lyrics.txt_6-25  [yet,better,you,feel,do,?]  [provide_expl_just(feel,[internal,factive,narration,background,objective])]
+Do You Feel Better Yet? Lyrics.txt_7-32  [there,is,nothing]  [reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Do You Feel Better Yet? Lyrics.txt_7-33  [i,had,rather,do,than,be,happy]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Do You Feel Better Yet? Lyrics.txt_8-41  [and,two,or,a,love,song,write]  [provide_expl_just(write,[external,factive,narration,background,objective])]
+Do You Feel Better Yet? Lyrics.txt_9-50  [but,they,will,turn,their,backs,on,me]  [suggest(be,[_477412,_477418,statement,background,_477436])]
+Do You Feel Better Yet? Lyrics.txt_10-60  [i,lie,should,?]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Do You Feel Better Yet? Lyrics.txt_10-61  [and,say,i,am,sorry,now]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Do You Feel Better Yet? Lyrics.txt_11-71  [yet,better,you,feel,do,?]  [provide_expl_just(feel,[internal,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Do You Feel Better Yet? Lyrics.txt_1-1)-[]
+2-(Do You Feel Better Yet? Lyrics.txt_2-3)-[]
+3-(Do You Feel Better Yet? Lyrics.txt_3-6)-[]
+4-(Do You Feel Better Yet? Lyrics.txt_3-7)-[primary-concreteness,secondary-temporal_repere]
+5-(Do You Feel Better Yet? Lyrics.txt_4-11)-[primary-sound]
+6-(Do You Feel Better Yet? Lyrics.txt_4-12)-[secondary-temporal_repere]
+7-(Do You Feel Better Yet? Lyrics.txt_5-18)-[]
+half
+8-(Do You Feel Better Yet? Lyrics.txt_6-25)-[]
+9-(Do You Feel Better Yet? Lyrics.txt_7-32)-[]
+10-(Do You Feel Better Yet? Lyrics.txt_7-33)-[emotions-positive_affect]
+11-(Do You Feel Better Yet? Lyrics.txt_8-41)-[emotions-affection]
+12-(Do You Feel Better Yet? Lyrics.txt_9-50)-[primary-concreteness]
+13-(Do You Feel Better Yet? Lyrics.txt_10-60)-[primary-passivity,secondary-moral_imperative]
+14-(Do You Feel Better Yet? Lyrics.txt_10-61)-[secondary-social_behavior,emotions-sadness,secondary-temporal_repere]
+15-(Do You Feel Better Yet? Lyrics.txt_11-71)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Do You Feel Better Yet? Lyrics.txt_1,1,cl1-nil-nil-feel-[subj-experiencer-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Do You Feel Better Yet? Lyrics.txt_2,3,nil-nil-nil-Lyrics-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Do You Feel Better Yet? Lyrics.txt_3,6,cl3-nil-nil-need-[xcomp-prop-this-sn6,subj-experiencer-i-sn5,def_prop(this,[oggetto,umano]),def_prop(i,[umano])])
+lf(Do You Feel Better Yet? Lyrics.txt_3,6,cl2-nil-nil-be-[cmod-subord-need-but,subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Do You Feel Better Yet? Lyrics.txt_4,11,_-nil-nil-come-[iobj-goal-you-sn7,iobj-locat-ear-sn3,def_prop(you,[umano]),def_prop(ear,[astratto,body_part,plant,umano])])
+lf(Do You Feel Better Yet? Lyrics.txt_4,11,cl6-nil-nil-come-[iobj-goal-you-sn7,iobj-locat-ear-sn3,def_prop(you,[umano]),def_prop(ear,[astratto,body_part,plant,umano])])
+lf(Do You Feel Better Yet? Lyrics.txt_4,11,cl5-not-nil-didn-t-[xmod-prop-come-2,subj-agent-it-sn6,def_prop(it,[any])])
+lf(Do You Feel Better Yet? Lyrics.txt_4,11,cl4-nil-nil-miss-[obj-tema_eff-ringing-sn2,subj-experiencer-i-sn1,def_prop(ringing,[attivita,informa]),def_prop(i,[umano])])
+lf(Do You Feel Better Yet? Lyrics.txt_5,18,cl8-nil-nil-drag-[obj-theme-me-sn2,xadj-result-leave-2,def_prop(me,[umano])])
+lf(Do You Feel Better Yet? Lyrics.txt_5,18,cl7-nil-nil-leave-[xadj-adj-down-adj1,adj-(mod)-no_more-nil,subj-theme-heartstrings-sn1,def_prop(down,_484492),def_prop(heartstrings,[emotivo])])
+lf(Do You Feel Better Yet? Lyrics.txt_6,25,cl9-nil-nil-feel-[subj-experiencer-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Do You Feel Better Yet? Lyrics.txt_7,32,cl11-nil-nil-have-[xcomp-prop-happy-sn4,xcomp-purpose-be-2,subj-experiencer-i-sn3,def_prop(happy,[emotivo]),def_prop(i,[umano])])
+lf(Do You Feel Better Yet? Lyrics.txt_7,32,cl10-nil-nil-be-[xcomp-prop-nothing-sn2,subj-theme_bound-there-sn1,def_prop(nothing,[astratto,informa,oggetto]),def_prop(there,[any])])
+lf(Do You Feel Better Yet? Lyrics.txt_8,41,cl12-nil-nil-write-[cmod-subord-write-",subj-agent-song-sn2,subj-agent-song-sn1,and(song,love,sn2),and(song,you,sn1),def_prop(song,[astratto,attivita,evento,informa,oggetto]),def_prop(song,[astratto,attivita,evento,informa,oggetto])])
+lf(Do You Feel Better Yet? Lyrics.txt_9,50,cl13-nil-will-turn-[ncmod-locativo-me-sn3,obj-theme-back-sn2,subj-agent-they-sn1,def_prop(me,[umano]),def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(they,[umano])])
+lf(Do You Feel Better Yet? Lyrics.txt_10,60,cl15-nil-nil-be-[xcomp-prop-sorry-sn2,subj-theme_bound-i-sn1,def_prop(sorry,[valutativo]),def_prop(i,[umano])])
+lf(Do You Feel Better Yet? Lyrics.txt_10,60,cl14-nil-nil-say-[cmod-subord-be-",subj-actor-pro-nil])
+lf(Do You Feel Better Yet? Lyrics.txt_11,71,cl16-nil-nil-feel-[subj-experiencer-you-sn1,aux-do-nil,def_prop(you,[umano])])

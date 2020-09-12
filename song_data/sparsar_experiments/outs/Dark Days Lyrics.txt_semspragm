@@ -1,0 +1,152 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Dark Days Lyrics.txt_1-1  []-positive  [neg,neg]
+Dark Days Lyrics.txt_2-3  []-positive  [neg]
+Dark Days Lyrics.txt_2-4  [when-temp_coinc]-positive  []
+Dark Days Lyrics.txt_3-7  []-positive  []
+Dark Days Lyrics.txt_3-8  []-negative  [neg]
+Dark Days Lyrics.txt_4-12  []-negative  [neg,fgb,neg,fgb,fgb,fgb]
+Dark Days Lyrics.txt_5-21  []-negative  [fhd,neg]
+Dark Days Lyrics.txt_5-22  []-positive  []
+Dark Days Lyrics.txt_6-28  [so-result]-suspension  [neg,neg,fgb,neg,fgb,neg,neg,fgb,neg,bkc]
+Dark Days Lyrics.txt_7-40  []-negative  [neg]
+Dark Days Lyrics.txt_7-41  [but-advers]-negative  [fgb,neg,neg]
+Dark Days Lyrics.txt_8-48  []-suspension  [neg,neg,fgb,fgb,neg,fhd]
+Dark Days Lyrics.txt_9-61  []-suspension  [neg]
+Dark Days Lyrics.txt_9-62  []-positive  [fgb]
+Dark Days Lyrics.txt_10-73  []-positive  []
+Dark Days Lyrics.txt_10-74  []-negative  [neg]
+Dark Days Lyrics.txt_10-75  [so-result,when-temp_coinc]-negative  [fgb,neg,fgb,neg,bkc]
+Dark Days Lyrics.txt_11-87  []-negative  [neg]
+Dark Days Lyrics.txt_11-88  [but-advers]-negative  [fgb,neg,neg]
+Dark Days Lyrics.txt_12-99  []-suspension  [neg,neg,fgb,neg,fgb]
+Dark Days Lyrics.txt_13-115  [when-temp_coinc]-suspension  []
+Dark Days Lyrics.txt_13-116  []-negative  [neg]
+Dark Days Lyrics.txt_14-130  [so-result]-negative  [neg,fgb,neg,bkc]
+Dark Days Lyrics.txt_15-145  []-negative  [neg]
+Dark Days Lyrics.txt_15-146  [but-advers]-suspension  [fgb,neg,neg,neg]
+Dark Days Lyrics.txt_15-147  [so-result]-suspension  [fgb,neg,fgb,neg,bkc,neg]
+Dark Days Lyrics.txt_16-164  []-negative  [neg]
+Dark Days Lyrics.txt_16-165  [but-advers]-negative  [fgb,neg,neg]
+Dark Days Lyrics.txt_17-181  []-negative  [neg]
+Dark Days Lyrics.txt_18-199  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Dark Days Lyrics.txt_1-1  [dark,Days,Lyrics,by,band,pup]  [title]
+Dark Days Lyrics.txt_2-3  [this,funeral,we,dirge,endless,this,night,celebrate,life,at,the,end,of,the,earth]  [propose_opin_neg(celebrate,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Dark Days Lyrics.txt_2-4  [when]  [provide_expl_just(celebrate,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Dark Days Lyrics.txt_3-7  [everything,is,gone,there-ll]  [provide_expl_just(go,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Dark Days Lyrics.txt_3-8  [,,be,nothing,left]  [reject_expl_just(go,[external,factive,explanation,background,objective]),propose_opin_neg(go,[external,factive,explanation,background,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Dark Days Lyrics.txt_4-12  [lose,the,ice,is,closing,in,and,,,nothing,will,remain,we,took,what,we,could,get,and,.,we,could,get,and]  [reject_expl_just(take,[external,factive,narration,foreground,objective]),reject_expl_just(get,[external,nonfactive,narration,background,objective]),reject_expl_just(close,[external,factive,narration,foreground,objective]),reject_expl_just(lose,[external,factive,narration,background,objective]),reject_expl_just(remain,[external,nonfactive,narration,background,objective])]
+Dark Days Lyrics.txt_5-21  [we,burned,it,anyway,with,all,those,secrets,we,swore]  [reject_expl_just(swear,[external,factive,narration,foreground,objective])]
+Dark Days Lyrics.txt_5-22  [we,had]  [provide_expl_just(swear,[external,factive,narration,foreground,objective])]
+Dark Days Lyrics.txt_6-28  [take,them,to,the,grave,the,light,will,falter,and,will,fade,and,in,the,darkness,we,will,say,this,winter,has,not,been,so,rough,oh]  [provide_expl_just(say,[external,nonfactive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(falter,[external,nonfactive,narration,background,objective]),propose_opin_neg(be,[external,factive,circumstance,foreground,objective])]
+Dark Days Lyrics.txt_7-40  [it,was,cold]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Dark Days Lyrics.txt_7-41  [but,still,it,was,not,not]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Dark Days Lyrics.txt_8-48  [cold,enough,to,freeze,the,blood,beneath,my,spine,and,at_least,i,survived,we,are,sleeping,through,the,days,and,sinking,like,a,ship,we,are]  [provide_expl_just(sleep,[external,factive,narration,foreground,objective]),provide_expl_just(freeze,[external,factive,narration,background,objective]),propose_opin_neg(survive,[external,factive,result,foreground,objective]),propose_opin_neg(be,[external,factive,circumstance,background,objective])]
+Dark Days Lyrics.txt_9-61  [wasting,away,bit,by,bit,everyone,is,gone]  [provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Dark Days Lyrics.txt_9-62  [and]  [provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Dark Days Lyrics.txt_10-73  [everything,is,changed]  [provide_expl_just(say,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Dark Days Lyrics.txt_10-74  [it,will,not,ever,be,the,same]  [reject_expl_just(say,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+Dark Days Lyrics.txt_10-75  [and,when,it,is,over,we,will,say,this,winter,has,not,been,so,rough,oh]  [reject_expl_just(say,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+Dark Days Lyrics.txt_11-87  [it,was,cold]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Dark Days Lyrics.txt_11-88  [but,still,it,was,not,not]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Dark Days Lyrics.txt_12-99  [cold,enough,to,freeze,the,blood,beneath,my,spine,and,at_least,i,survived,we,have,had,some,dark,days,we,are,in,the,thick,of,it,now,and]  [provide_expl_just(freeze,[external,factive,narration,background,objective]),propose_opin_neg(survive,[external,factive,result,foreground,objective]),propose_opin_neg(be,[external,factive,circumstance,background,objective])]
+Dark Days Lyrics.txt_13-115  [when,the,ice,breaks,there]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Dark Days Lyrics.txt_13-116  [will,be,no_one]  [reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+Dark Days Lyrics.txt_14-130  [around,this,winter,has,not,been,so,rough,oh]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Dark Days Lyrics.txt_15-145  [it,was,cold]  [reject_expl_just(survive,[external,factive,narration,foreground,objective]),reject_expl_just(freeze,[external,factive,narration,background,objective])]
+Dark Days Lyrics.txt_15-146  [but,it,was,not,cold,not]  [provide_expl_just(survive,[external,factive,narration,foreground,objective]),provide_expl_just(freeze,[external,factive,narration,background,objective])]
+Dark Days Lyrics.txt_15-147  [and,at_least,i,survived,this,winter,has,not,been,so,rough,oh,.,,,enough,to,freeze,the,blood,beneath,my,spine]  [provide_expl_just(survive,[external,factive,narration,foreground,objective]),provide_expl_just(freeze,[external,factive,narration,background,objective])]
+Dark Days Lyrics.txt_16-164  [it,was,cold]  [reject_expl_just(be,[_418654,_418660,_418666,_418672,_418678])]
+Dark Days Lyrics.txt_16-165  [but,still,it,was,not,not]  [reject_expl_just(be,[_418876,_418882,_418888,_418894,_418900])]
+Dark Days Lyrics.txt_17-181  [cold]  reject_expl_opin(nil,[])
+Dark Days Lyrics.txt_18-199  [enough,to,freeze,the,blood,beneath,my,spine,at_least,i,will,survive]  [reject_expl_just(survive,[external,nonfactive,narration,background,objective]),reject_expl_just(freeze,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Dark Days Lyrics.txt_1-1)-[]
+2-(Dark Days Lyrics.txt_2-3)-[emotions-sadness,primary-timelessness,emotions-positive_affect,primary-concreteness,primary-sound]
+3-(Dark Days Lyrics.txt_2-4)-[secondary-temporal_repere]
+4-(Dark Days Lyrics.txt_3-7)-[]
+5-(Dark Days Lyrics.txt_3-8)-[]
+6-(Dark Days Lyrics.txt_4-12)-[primary-cold]
+7-(Dark Days Lyrics.txt_5-21)-[primary-fire,primary-unknow]
+8-(Dark Days Lyrics.txt_5-22)-[]
+9-(Dark Days Lyrics.txt_6-28)-[secondary-abstract_tought,primary-vision,primary-diffusion,secondary-social_behavior,primary-cold,primary-touch]
+10-(Dark Days Lyrics.txt_7-40)-[primary-cold]
+11-(Dark Days Lyrics.txt_7-41)-[]
+12-(Dark Days Lyrics.txt_8-48)-[primary-cold,primary-cold,primary-narcissism,primary-depth,primary-random_movement,emotions-affection,primary-voyage]
+13-(Dark Days Lyrics.txt_9-61)-[primary-concreteness]
+14-(Dark Days Lyrics.txt_9-62)-[]
+15-(Dark Days Lyrics.txt_10-73)-[]
+half
+16-(Dark Days Lyrics.txt_10-74)-[secondary-temporal_repere]
+17-(Dark Days Lyrics.txt_10-75)-[secondary-temporal_repere,primary-concreteness,secondary-social_behavior,primary-cold,primary-touch]
+18-(Dark Days Lyrics.txt_11-87)-[primary-cold]
+19-(Dark Days Lyrics.txt_11-88)-[]
+20-(Dark Days Lyrics.txt_12-99)-[primary-cold,primary-cold,primary-narcissism,primary-depth,primary-random_movement,primary-touch,secondary-temporal_repere]
+21-(Dark Days Lyrics.txt_13-115)-[secondary-temporal_repere,primary-cold,emotions-aggression]
+22-(Dark Days Lyrics.txt_13-116)-[]
+23-(Dark Days Lyrics.txt_14-130)-[primary-cold,primary-touch]
+24-(Dark Days Lyrics.txt_15-145)-[primary-cold]
+25-(Dark Days Lyrics.txt_15-146)-[primary-cold]
+26-(Dark Days Lyrics.txt_15-147)-[primary-cold,primary-touch,primary-cold,primary-narcissism,primary-depth,primary-random_movement]
+27-(Dark Days Lyrics.txt_16-164)-[primary-cold]
+28-(Dark Days Lyrics.txt_16-165)-[]
+29-(Dark Days Lyrics.txt_17-181)-[primary-cold]
+30-(Dark Days Lyrics.txt_18-199)-[primary-cold,primary-narcissism,primary-depth,primary-random_movement]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Dark Days Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-pup-sn2,subj-theme_bound-Lyrics-sn1,and(pup,band,sn2),and(Lyrics,Days,sn1),and(Lyrics,dark,sn1),def_prop(pup,[animato]),def_prop(Lyrics,[informa,tecno])])
+lf(Dark Days Lyrics.txt_2,3,cl3-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Dark Days Lyrics.txt_2,3,cl2-nil-nil-celebrate-[obj-theme-life-sn2,subj-agent-dirge-sn1,and(dirge,this,sn1),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(dirge,[attivita,informa])])
+lf(Dark Days Lyrics.txt_3,7,cl5-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Dark Days Lyrics.txt_3,7,cl4-nil-nil-go-[xcomp-prop-ll-sn2,subj-agent-everything-sn1,aux-(is)-nil,def_prop(ll,[legale]),def_prop(everything,[astratto,informa,oggetto])])
+lf(Dark Days Lyrics.txt_4,12,cl10-nil-could-get-[subj-agent-pro-nil,subj-agent-we-sn7,def_prop(we,[umano])])
+lf(Dark Days Lyrics.txt_4,12,cl9-nil-nil-take-[adj-(mod)-remain-nil,cmod-coord-lose-nil])
+lf(Dark Days Lyrics.txt_4,12,cl8-nil-will-remain-[subj-actor-nothing-sn6,def_prop(nothing,[astratto,informa,oggetto])])
+lf(Dark Days Lyrics.txt_4,12,cl7-nil-nil-close-[obj-theme-what-sn4,xcomp-purpose-take-7,def_prop(what,[oggetto])])
+lf(Dark Days Lyrics.txt_4,12,cl6-nil-nil-lose-[obj-theme_unaff-ice-sn3,subj-theme_aff-we-sn2,subj-theme_aff-we-sn1,and(we,you,sn1),def_prop(ice,[astratto,edible,oggetto,sostanza,strumento]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Dark Days Lyrics.txt_5,21,cl12-nil-nil-have-[subj-experiencer-we-sn9,def_prop(we,[umano])])
+lf(Dark Days Lyrics.txt_5,21,cl11-nil-nil-swear-[adj-(mod)-anyway-nil,obj-theme-we-sn4,ncmod-modale-secret-sn3,subj-agent-it-sn2,subj-agent-it-sn1,and(secret,all,sn3),and(secret,those,sn3),and(it,burned,sn2),and(it,we,sn1),and(it,burned,sn1),def_prop(we,[umano]),def_prop(secret,[attivita,informa]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Dark Days Lyrics.txt_6,28,cl17-not-nil-be-[ncmod-modal-grave-sn3,def_prop(grave,[valutativo])])
+lf(Dark Days Lyrics.txt_6,28,cl16-nil-will-say-[adj-locative-winter-nil,obj-theme_bound-oh-sn7,xcomp-purpose-have-3,ncmod-locativo-darkness-sn6,subj-actor-we-sn5,and(winter,this,sn8),and(oh,rough,sn7),def_prop(winter,[tempo]),def_prop(oh,[informa,tecno]),def_prop(darkness,[astratto,luogo]),def_prop(we,[umano])])
+lf(Dark Days Lyrics.txt_6,28,cl15-nil-will-fade-[cmod-coord-will-and,subj-experiencer-pro-nil])
+lf(Dark Days Lyrics.txt_6,28,cl14-nil-will-falter-[])
+lf(Dark Days Lyrics.txt_6,28,cl13-nil-nil-take-[obj-theme-light-sn4,obj-theme_aff-them-sn2,subj-agent-you-sn1,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(them,[umano]),def_prop(you,[umano])])
+lf(Dark Days Lyrics.txt_7,40,cl18-not-nil-be-[subj-theme_bound-it-sn3,xcomp-prop-cold-sn2,subj-theme_bound-it-sn1,def_prop(it,[any]),def_prop(cold,[valutativo]),def_prop(it,[any])])
+lf(Dark Days Lyrics.txt_8,48,cl23-nil-nil-be-[xcomp-theme-we-sn10,ncmod-modal-days-sn9,subj-theme_bound-we-sn8,def_prop(we,[umano]),def_prop(days,[tempo]),def_prop(we,[umano])])
+lf(Dark Days Lyrics.txt_8,48,cl22-nil-nil-sink-[cmod-coord-be-and,obj-patient-ship-sn12,subj-agent-day-sn11,def_prop(ship,[attivita,informa,oggetto,strumento,umano]),def_prop(day,[stato,tempo])])
+lf(Dark Days Lyrics.txt_8,48,cl21-nil-nil-sleep-[iobj-goal-days-sn7,subj-experiencer-we-sn6,aux-are-nil,progr-sleeping-nil,def_prop(days,[tempo]),def_prop(we,[umano])])
+lf(Dark Days Lyrics.txt_8,48,cl20-nil-nil-survive-[cmod-coord-be-and,adj-(mod)-at_least-nil,subj-agent-i-sn13,def_prop(i,[umano])])
+lf(Dark Days Lyrics.txt_8,48,cl19-nil-nil-freeze-[obj-theme-blood-sn2,subj-agent-enough-sn1,and(enough,cold,sn1),def_prop(blood,[astratto,body_part,istituzione,umano]),def_prop(enough,[astratto,informa,oggetto])])
+lf(Dark Days Lyrics.txt_9,61,cl26-nil-nil-be-[])
+lf(Dark Days Lyrics.txt_9,61,cl25-nil-nil-go-[obj-theme_aff-bite-sn2,xcomp-purpose-waste-2,subj-actor-everyone-sn1,aux-(is)-nil,and(bite,away,sn2),def_prop(bite,[attivita,edible,evento,oggetto,stato]),def_prop(everyone,[umano])])
+lf(Dark Days Lyrics.txt_9,61,cl24-nil-nil-waste-[arg_mod-agent-bite-sn3,def_prop(bite,_423432)])
+lf(Dark Days Lyrics.txt_10,73,cl29-nil-will-say-[adj-locative-winter-nil,xcomp-prop-oh-sn13,subj-actor-you-sn12,obj-theme_bound-oh-sn8,xcomp-purpose-have-3,subj-actor-we-sn7,and(winter,this,sn18),and(winter,this,sn14),and(winter,this,sn9),and(oh,rough,sn13),and(oh,rough,sn8),def_prop(winter,[tempo]),def_prop(oh,[informa,tecno]),def_prop(you,[umano]),def_prop(oh,[informa,tecno]),def_prop(we,[umano])])
+lf(Dark Days Lyrics.txt_10,73,cl28-not-will-be-[cmod-subord-say-",cmod-subord-say-when,subj-theme_bound-oh-sn21,adj-temporal-winter-nil,subj-theme_bound-oh-sn17,subj-actor-it-sn4,xcomp-prop-same-sn3,subj-actor-it-sn2,adj-(mod)-ever-nil,and(oh,rough,sn21),and(winter,this,sn18),and(winter,this,sn14),and(winter,this,sn9),and(oh,rough,sn17),def_prop(oh,[informa,tecno]),def_prop(winter,[tempo]),def_prop(oh,[informa,tecno]),def_prop(it,[any]),def_prop(same,[deittico]),def_prop(it,[any])])
+lf(Dark Days Lyrics.txt_10,73,cl27-nil-nil-change-[subj-theme_aff-you-sn1,aux-(is)-nil,def_prop(you,[umano])])
+lf(Dark Days Lyrics.txt_11,87,cl30-not-nil-be-[subj-theme_bound-it-sn3,xcomp-prop-cold-sn2,subj-theme_bound-it-sn1,def_prop(it,[any]),def_prop(cold,[valutativo]),def_prop(it,[any])])
+lf(Dark Days Lyrics.txt_12,99,cl34-nil-nil-be-[adj-(mod)-now-nil,ncmod-locativo-thick-sn11,subj-theme_bound-we-sn10,def_prop(thick,[luogo]),def_prop(we,[umano])])
+lf(Dark Days Lyrics.txt_12,99,cl33-nil-nil-have-[adj-temporal-days-nil,xcomp-tema_bound-some-sn7,subj-experiencer-we-sn6,and(days,dark,sn8),def_prop(days,[tempo]),def_prop(some,[umano]),def_prop(we,[umano])])
+lf(Dark Days Lyrics.txt_12,99,cl32-nil-nil-survive-[cmod-coord-be-and,adj-(mod)-at_least-nil,subj-agent-i-sn14,def_prop(i,[umano])])
+lf(Dark Days Lyrics.txt_12,99,cl31-nil-nil-freeze-[obj-theme-blood-sn2,subj-agent-enough-sn1,and(enough,cold,sn1),def_prop(blood,[astratto,body_part,istituzione,umano]),def_prop(enough,[astratto,informa,oggetto])])
+lf(Dark Days Lyrics.txt_13,115,cl35-nil-will-be-[xcomp-prop-no_one-sn6,subj-theme_bound-you-sn5,def_prop(no_one,[umano]),def_prop(you,[umano])])
+lf(Dark Days Lyrics.txt_13,115,nil-nil-nil-break-[obj-theme-when-sn2,subj-agent-ice-sn1,def_prop(when,[tempo]),def_prop(ice,[astratto,edible,oggetto,sostanza,strumento])])
+lf(Dark Days Lyrics.txt_14,130,cl36-not-nil-be-[adj-temporal-winter-nil,xcomp-prop-oh-sn2,subj-theme_bound-this-sn1,and(oh,rough,sn2),def_prop(oh,[informa,tecno]),def_prop(this,[oggetto,umano])])
+lf(Dark Days Lyrics.txt_15,145,cl39-nil-nil-freeze-[cmod-subord-freeze-",xcomp-result-blood-sn12,xadj-result-freeze-5,def_prop(blood,[astratto,body_part,istituzione,umano])])
+lf(Dark Days Lyrics.txt_15,145,cl38-nil-nil-survive-[adj-temporal-winter-nil,adj-(mod)-at_least-nil,obj-theme_bound-oh-sn6,xcomp-purpose-have-2,subj-agent-i-sn5,and(winter,this,sn8),and(oh,rough,sn6),def_prop(winter,[tempo]),def_prop(oh,[informa,tecno]),def_prop(i,[umano])])
+lf(Dark Days Lyrics.txt_15,145,cl37-not-nil-be-[xcomp-prop-cold-sn4,subj-theme_bound-it-sn3,xcomp-prop-cold-sn2,subj-theme_bound-it-sn1,def_prop(cold,[valutativo]),def_prop(it,[any]),def_prop(cold,[valutativo]),def_prop(it,[any])])
+lf(Dark Days Lyrics.txt_16,164,cl40-not-nil-be-[subj-theme_bound-it-sn3,xcomp-prop-cold-sn2,subj-theme_bound-it-sn1,def_prop(it,[any]),def_prop(cold,[valutativo]),def_prop(it,[any])])
+lf(Dark Days Lyrics.txt_17,181,cl41-nil-nil-say-[])
+lf(Dark Days Lyrics.txt_18,199,cl43-nil-will-survive-[adj-(mod)-at_least-nil,adj-(mod)-enough-nil,obj-theme-blood-sn2,xcomp-purpose-freeze-2,subj-agent-i-sn1,def_prop(blood,[astratto,body_part,istituzione,umano]),def_prop(i,[umano])])
+lf(Dark Days Lyrics.txt_18,199,cl42-nil-nil-freeze-[])

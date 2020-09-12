@@ -1,0 +1,83 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Tyrant of Nightmares Lyrics.txt_1-1  []-negative  [neg]
+Tyrant of Nightmares Lyrics.txt_2-3  []-positive  []
+Tyrant of Nightmares Lyrics.txt_3-6  []-negative  []
+Tyrant of Nightmares Lyrics.txt_4-10  []-positive  [fhd,neg]
+Tyrant of Nightmares Lyrics.txt_5-15  []-negative  [neg]
+Tyrant of Nightmares Lyrics.txt_6-21  []-positive  [fgb]
+Tyrant of Nightmares Lyrics.txt_7-28  []-negative  [neg,neg]
+Tyrant of Nightmares Lyrics.txt_8-36  []-positive  []
+Tyrant of Nightmares Lyrics.txt_10-56  []-negative  []
+Tyrant of Nightmares Lyrics.txt_11-67  []-negative  [neg,neg]
+Tyrant of Nightmares Lyrics.txt_12-79  []-negative  []
+Tyrant of Nightmares Lyrics.txt_13-92  []-negative  [fgb]
+Tyrant of Nightmares Lyrics.txt_14-106  []-positive  []
+Tyrant of Nightmares Lyrics.txt_15-121  []-positive  []
+Tyrant of Nightmares Lyrics.txt_17-155  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Tyrant of Nightmares Lyrics.txt_1-1  [tyrant,of,Nightmares,Lyrics,by,Xasthur]  [title]
+Tyrant of Nightmares Lyrics.txt_2-3  [under,full,moons,waxing,lyrically]  [raise_issue(be,[_656884,factive,statement,_656902,subjective])]
+Tyrant of Nightmares Lyrics.txt_3-6  [death-s,poetry,floods,the,soul]  [propose_opin_neg(flood,[external,factive,explanation,background,objective])]
+Tyrant of Nightmares Lyrics.txt_4-10  [like,the,freezing,seed,of,a,demon,freed]  [propose_opin_neg(like,[external,factive,explanation,background,objective])]
+Tyrant of Nightmares Lyrics.txt_5-15  [to,curse,the,stars,with,vertigo]  [reject_expl_just(curse,[external,factive,narration,background,objective])]
+Tyrant of Nightmares Lyrics.txt_6-21  [and,in,their,dance,in,trance,i,have,prised,wide]  [provide_expl_just(prise,[external,factive,narration,background,objective])]
+Tyrant of Nightmares Lyrics.txt_7-28  [slick,rifts,twist,obsidian,thighs]  [reject_expl_just(rifts,[external,factive,narration,background,objective])]
+Tyrant of Nightmares Lyrics.txt_8-36  [hymeneal,gates,to,darker,sides]  [provide_expl_just(gate,[external,factive,narration,background,objective])]
+Tyrant of Nightmares Lyrics.txt_10-56  [haunted,by,this,portent]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Tyrant of Nightmares Lyrics.txt_11-67  [this,obsession,in,my,mind]  [reject_expl_just(be,[_659848,_659854,_659860,_659866,_659872])]
+Tyrant of Nightmares Lyrics.txt_12-79  [with,a,city,sunk,below]  [provide_expl_just(sink,[external,factive,narration,foreground,objective])]
+Tyrant of Nightmares Lyrics.txt_13-92  [tall,groves,and,cedar,graves,sublime]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Tyrant of Nightmares Lyrics.txt_14-106  [their,importance,sporting]  [provide_expl_just(sport,[external,factive,narration,foreground,objective])]
+Tyrant of Nightmares Lyrics.txt_15-121  [marble,wings,spread,to,the,skies]  [provide_expl_just(marble,[external,factive,narration,background,objective])]
+Tyrant of Nightmares Lyrics.txt_17-155  [the,daylights,race,to,leave,behind]  [reject_expl_just(leave,[external,factive,narration,background,objective]),reject_expl_just(race,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Tyrant of Nightmares Lyrics.txt_1-1)-[emotions-aggression]
+2-(Tyrant of Nightmares Lyrics.txt_2-3)-[primary-depth]
+3-(Tyrant of Nightmares Lyrics.txt_3-6)-[primary-passivity,emotions-expressive_beh,primary-water]
+4-(Tyrant of Nightmares Lyrics.txt_4-10)-[emotions-affection,primary-vision]
+5-(Tyrant of Nightmares Lyrics.txt_5-15)-[primary-vision,primary-counscious]
+6-(Tyrant of Nightmares Lyrics.txt_6-21)-[emotions-expressive_beh,primary-counscious,primary-concreteness]
+7-(Tyrant of Nightmares Lyrics.txt_7-28)-[primary-touch,primary-random_movement,primary-sex]
+half
+8-(Tyrant of Nightmares Lyrics.txt_8-36)-[primary-brink,primary-concreteness]
+9-(Tyrant of Nightmares Lyrics.txt_10-56)-[]
+10-(Tyrant of Nightmares Lyrics.txt_11-67)-[]
+11-(Tyrant of Nightmares Lyrics.txt_12-79)-[primary-descent,primary-depth]
+12-(Tyrant of Nightmares Lyrics.txt_13-92)-[primary-height,emotions-glory]
+13-(Tyrant of Nightmares Lyrics.txt_14-106)-[secondary-abstract_tought]
+14-(Tyrant of Nightmares Lyrics.txt_15-121)-[primary-hard,primary-ascend,primary-random_movement]
+15-(Tyrant of Nightmares Lyrics.txt_17-155)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Tyrant of Nightmares Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Xasthur-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,tyrant,sn1),def_prop(Xasthur,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Tyrant of Nightmares Lyrics.txt_2,3,cl2-nil-nil-wax-[adj-(mod)-lyrically-nil,ncmod-temporale-moon-sn2,subj-agent-you-sn1,and(moon,full,sn2),def_prop(moon,[oggetto]),def_prop(you,[umano])])
+lf(Tyrant of Nightmares Lyrics.txt_3,6,cl3-nil-nil-flood-[obj-theme-soul-sn2,subj-actor-poetry-sn1,and(poetry,death-s,sn1),def_prop(soul,[attivita,emotivo,informa,umano]),def_prop(poetry,[attivita,informa])])
+lf(Tyrant of Nightmares Lyrics.txt_4,10,nil-nil-nil-like-[xcomp-prop-freed-sn3,obj-tema_emot-see-sn2,subj-experiencer-you-sn1,and(see,freezing,sn2),def_prop(freed,[evaluative]),def_prop(see,[luogo]),def_prop(you,[umano])])
+lf(Tyrant of Nightmares Lyrics.txt_5,15,cl4-nil-nil-curse-[ncmod-modale-vertigo-sn2,subj-experiencer-star-sn1,def_prop(vertigo,[stato]),def_prop(star,[astratto,oggetto,umano])])
+lf(Tyrant of Nightmares Lyrics.txt_6,21,cl5-nil-nil-prise-[cmod-subord-prise-",xcomp-prop-wide-sn4,ncmod-locativo-trance-sn3,ncmod-locativo-dance-sn2,subj-agent-i-sn1,aux-have-nil,def_prop(wide,[evaluative]),def_prop(trance,[astratto]),def_prop(dance,[attivita,evento,informa,istituzione]),def_prop(i,[umano])])
+lf(Tyrant of Nightmares Lyrics.txt_7,28,nil-nil-nil-rifts-[obj-theme_aff-thigh-sn2,subj-agent-slick-sn1,and(thigh,twist,sn2),and(thigh,obsidian,sn2),def_prop(thigh,[body_part,umano]),def_prop(slick,[attivita,informa,oggetto,strumento])])
+lf(Tyrant of Nightmares Lyrics.txt_8,36,cl6-nil-nil-gate-[ncmod-goal-side-sn2,subj-theme-hymeneal-sn1,and(side,darker,sn2),def_prop(side,[astratto,attivita,body_part,edible,informa,luogo,oggetto,strumento,umano]),def_prop(hymeneal,[attivita,informa])])
+lf(Tyrant of Nightmares Lyrics.txt_9,45,cl8-nil-nil-lie-[subj-actor-plinth-sn2,def_prop(plinth,_663838)])
+lf(Tyrant of Nightmares Lyrics.txt_9,45,cl7-nil-nil-be-[xcomp-prop-glimpse-sn1,def_prop(glimpse,[astratto,attivita,informa])])
+lf(Tyrant of Nightmares Lyrics.txt_10,56,cl9-nil-nil-be-[xadj-adj-haunted-adj1,arg_mod-agent-portent-sn1,and(portent,this,sn1),def_prop(haunted,_664032),def_prop(portent,[evento])])
+lf(Tyrant of Nightmares Lyrics.txt_11,67,cl10-nil-nil-mind-[ncmod-modal-my-sn2,subj-theme_unaff-obsession-sn1,and(obsession,this,sn1),def_prop(my,[informa,tecno]),def_prop(obsession,[astratto])])
+lf(Tyrant of Nightmares Lyrics.txt_12,79,cl11-nil-nil-sink-[adj-subj_disc-below-sn2,subj-agent-you-sn1,def_prop(below,[istituzione]),def_prop(you,[umano])])
+lf(Tyrant of Nightmares Lyrics.txt_13,92,cl12-nil-nil-be-[coord-theme_bound-grove_and_grave-sn3,subj-theme_bound-grave-sn2,subj-theme_bound-grove-sn1,def_prop(grove_and_grave,[istituzione,oggetto,strumento,oggetto,strumento,tempo]),def_prop(grave,[istituzione,oggetto,strumento,oggetto,strumento,tempo]),def_prop(grove,[istituzione,oggetto,strumento,oggetto,strumento,tempo])])
+lf(Tyrant of Nightmares Lyrics.txt_14,106,cl13-nil-nil-sport-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Tyrant of Nightmares Lyrics.txt_15,121,nil-nil-nil-marble-[ncmod-loc_direct-sky-sn4,xcomp-prop-spread-sn3,obj-theme-wing-sn2,subj-actor-you-sn1,def_prop(sky,[oggetto]),def_prop(spread,[astratto,attivita,edible,evento,informa,oggetto]),def_prop(wing,[animato,edible,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Tyrant of Nightmares Lyrics.txt_16,137,cl15-nil-would-seem-[subj-actor-it-sn5,xcomp-prop-vale-sn1,def_prop(it,[any]),def_prop(vale,[luogo])])
+lf(Tyrant of Nightmares Lyrics.txt_16,137,cl14-nil-nil-be-[xcomp-prop-vale-sn1,def_prop(vale,[luogo])])
+lf(Tyrant of Nightmares Lyrics.txt_17,155,cl17-nil-nil-leave-[])
+lf(Tyrant of Nightmares Lyrics.txt_17,155,cl16-nil-nil-race-[subj-actor1-daylight-sn1,def_prop(daylight,[attivita,cambia])])

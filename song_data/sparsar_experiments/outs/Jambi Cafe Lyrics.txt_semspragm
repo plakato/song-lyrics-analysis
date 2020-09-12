@@ -1,0 +1,39 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Jambi Cafe Lyrics.txt_1-1  []-positive  []
+Jambi Cafe Lyrics.txt_2-3  []-suspension  [neg,neg,fgb,neg,neg]
+Jambi Cafe Lyrics.txt_3-7  []-positive  []
+Jambi Cafe Lyrics.txt_3-8  [so-result]-positive  [fgb,neg,fgb]
+Jambi Cafe Lyrics.txt_4-12  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Jambi Cafe Lyrics.txt_1-1  [Jambi,Cafe,Lyrics,by,the,Uncluded]  [title]
+Jambi Cafe Lyrics.txt_2-3  [my,Dawson,i_wish,that,your,headaches,would,subside,friend,kimya,and,that,your,healing,is,just,not,a,case,of,double,contact]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Jambi Cafe Lyrics.txt_3-7  [i,Lens,have,got,my,name,down]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Jambi Cafe Lyrics.txt_3-8  [for,table,at,the,Jambi,Cafe,so,i,can,Meka,Leka,Hiney,Ho,all,of,your,pain,away,,,and]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Jambi Cafe Lyrics.txt_4-12  [i,am,D-s,Variety,outside]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Jambi Cafe Lyrics.txt_1-1)-[]
+2-(Jambi Cafe Lyrics.txt_2-3)-[emotions-affection,primary-touch]
+half
+3-(Jambi Cafe Lyrics.txt_3-7)-[]
+4-(Jambi Cafe Lyrics.txt_3-8)-[primary-concreteness,emotions-sadness,primary-concreteness]
+5-(Jambi Cafe Lyrics.txt_4-12)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Jambi Cafe Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Uncluded-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Cafe,sn1),and(Lyrics,Jambi,sn1),def_prop(Uncluded,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Jambi Cafe Lyrics.txt_2,3,cl3-nil-would-will-[obj-theme_aff-Dawson-sn10,def_prop(Dawson,_73508)])
+lf(Jambi Cafe Lyrics.txt_2,3,cl2-not-nil-be-[xcomp-prop-just-sn2,subj-theme_bound-heal-sn1,def_prop(just,[informa,tecno]),def_prop(heal,[istituzione])])
+lf(Jambi Cafe Lyrics.txt_3,7,cl5-nil-can-can-[cmod-subord-get-so,obj-theme-all-sn13,xcomp-prop-Ho-sn12,subj-actor-i-sn11,and(Ho,Hiney,sn12),and(Ho,Meka,sn12),def_prop(all,[_73786]),def_prop(Ho,[place,sostanza,umano]),def_prop(i,[umano])])
+lf(Jambi Cafe Lyrics.txt_3,7,cl4-nil-nil-get-[xcomp-prop-down-sn3,obj-theme_unaff-name-sn2,subj-agent-Lens-sn1,aux-have-nil,and(Lens,i,sn1),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(name,[attivita,informa,stato,umano]),def_prop(Lens,[place,plant])])
+lf(Jambi Cafe Lyrics.txt_4,12,cl6-nil-nil-be-[adj-(mod)-outside-nil,xcomp-prop-variety-sn2,subj-theme_bound-i-sn1,and(variety,D-s,sn2),def_prop(variety,[astratto,istituzione]),def_prop(i,[umano])])

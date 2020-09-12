@@ -1,0 +1,110 @@
+"POLARITY, DISCOURSE MARKERS"
+
+The Show Lyrics.txt_1-1  []-positive  []
+The Show Lyrics.txt_2-3  []-positive  [neg]
+The Show Lyrics.txt_3-6  []-question  []
+The Show Lyrics.txt_4-10  []-positive  [neg]
+The Show Lyrics.txt_4-11  []-positive  []
+The Show Lyrics.txt_5-15  []-positive  [fgb]
+The Show Lyrics.txt_5-16  []-positive  []
+The Show Lyrics.txt_6-25  []-positive  []
+The Show Lyrics.txt_6-26  []-positive  [neg]
+The Show Lyrics.txt_7-33  [but-advers]-positive  [fgb]
+The Show Lyrics.txt_7-34  []-positive  []
+The Show Lyrics.txt_7-35  []-positive  []
+The Show Lyrics.txt_8-43  []-positive  [fhd,fgb]
+The Show Lyrics.txt_9-55  []-positive  []
+The Show Lyrics.txt_10-65  []-negative  [neg]
+The Show Lyrics.txt_11-76  [but-advers]-negative  [fgb,neg]
+The Show Lyrics.txt_11-76  [but-advers]-negative  [fgb,neg]
+The Show Lyrics.txt_12-89  []-positive  []
+The Show Lyrics.txt_13-102  []-negative  []
+The Show Lyrics.txt_14-116  []-positive  []
+The Show Lyrics.txt_15-131  []-positive  [neg]
+The Show Lyrics.txt_15-132  [if-hypoth]-none  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+The Show Lyrics.txt_1-1  [the,Show,Lyrics,by,Vita,Et,Mors]  [title]
+The Show Lyrics.txt_2-3  [welcome,to,my,laboratory,i,am,grind,man]  [provide_expl_just(grind,[external,factive,narration,foreground,objective])]
+The Show Lyrics.txt_3-6  [day,one,in,EP,an,?]  [provide_expl_just(day-da-ag-[suff=y,cat=agg,type=att,cat=noun,pred=da],[internal,factive,narration,foreground,objective])]
+The Show Lyrics.txt_4-10  [i,am,out,my,mind]  [proposal(be,[_417124,_417130,statement,foreground,_417148])]
+The Show Lyrics.txt_4-11  [man]  [raise_issue(be,[_417446,factive,statement,_417464,subjective])]
+The Show Lyrics.txt_5-15  [i,out,write,what,you,spend,a,month,trying,to,craft,.]  [provide_expl_just(try,[external,factive,narration,foreground,objective]),provide_expl_just(spend,[external,factive,narration,background,objective]),provide_expl_just(craft,[external,factive,narration,background,objective]),provide_expl_just(write,[external,factive,narration,background,objective])]
+The Show Lyrics.txt_5-16  [you,spend,a,month,trying,to,craft]  [provide_expl_just(try,[external,factive,narration,foreground,objective]),provide_expl_just(spend,[external,factive,narration,background,objective]),provide_expl_just(craft,[external,factive,narration,background,objective]),provide_expl_just(write,[external,factive,narration,background,objective])]
+The Show Lyrics.txt_6-25  [not_to_mention,it,one,night,took,yea]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+The Show Lyrics.txt_6-26  [i,know,your,mad]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+The Show Lyrics.txt_7-33  [but,cheer,up]  [provide_expl_just(cheer,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+The Show Lyrics.txt_7-34  [i,know]  [provide_expl_just(cheer,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+The Show Lyrics.txt_7-35  [you,are,good,at,some,stuff]  [provide_expl_just(cheer,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+The Show Lyrics.txt_8-43  [like,buying,clothes,sweating,hoes,,,and,shoving,up,your,butt,plug]  [provide_expl_just(sweat,[external,factive,narration,foreground,objective]),provide_expl_just(like,[external,factive,narration,background,objective]),provide_expl_just(shove,[external,factive,cause,foreground,objective])]
+The Show Lyrics.txt_9-55  [yea]  [raise_issue(be,[_445770,factive,statement,_445788,subjective])]
+The Show Lyrics.txt_10-65  [the,talent-s,inconceivable]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+The Show Lyrics.txt_11-76  [but,i,have_to,dumb]  [reject_expl_just(must,[external,nonfactive,narration,foreground,objective])]
+The Show Lyrics.txt_11-76  [but,i,have_to,dumb,it,down,to,make,it,more,believable]  [reject_expl_just(must,[external,nonfactive,narration,foreground,objective])]
+The Show Lyrics.txt_12-89  [standing,on,a,balcony,a,crowd,full,of,people]  [provide_expl_just(full,[external,factive,narration,background,objective])]
+The Show Lyrics.txt_13-102  [shouting,,,screaming,out,to,me,tryna,catch,an,earful]  [provide_expl_just(catch,[external,factive,narration,background,objective])]
+The Show Lyrics.txt_14-116  [swelling,up,the,balance,of,my,next,account,receivable]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+The Show Lyrics.txt_15-131  [all,for,writing,little,rhymes,man,i,love,this,gift]  [provide_expl_just(write,[external,factive,narration,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective])]
+The Show Lyrics.txt_15-132  [if,mine]  [provide_expl_just(write,[external,factive,narration,foreground,objective]),provide_expl_just(love,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(The Show Lyrics.txt_1-1)-[]
+2-(The Show Lyrics.txt_2-3)-[emotions-affection,secondary-instru_behavior,emotions-positive_affect]
+3-(The Show Lyrics.txt_3-6)-[]
+4-(The Show Lyrics.txt_4-10)-[primary-concreteness]
+5-(The Show Lyrics.txt_4-11)-[]
+6-(The Show Lyrics.txt_5-15)-[primary-concreteness,secondary-instru_behavior,secondary-temporal_repere,secondary-instru_behavior,secondary-instru_behavior]
+7-(The Show Lyrics.txt_5-16)-[secondary-instru_behavior,secondary-temporal_repere,secondary-instru_behavior,secondary-instru_behavior]
+8-(The Show Lyrics.txt_6-25)-[]
+9-(The Show Lyrics.txt_6-26)-[secondary-abstract_tought,primary-counscious]
+10-(The Show Lyrics.txt_7-33)-[emotions-positive_affect]
+11-(The Show Lyrics.txt_7-34)-[secondary-abstract_tought]
+half
+12-(The Show Lyrics.txt_7-35)-[primary-concreteness]
+13-(The Show Lyrics.txt_8-43)-[emotions-affection]
+14-(The Show Lyrics.txt_9-55)-[]
+15-(The Show Lyrics.txt_10-65)-[primary-unknow]
+16-(The Show Lyrics.txt_11-76)-[]
+17-(The Show Lyrics.txt_11-76)-[secondary-instru_behavior]
+18-(The Show Lyrics.txt_12-89)-[primary-height,primary-chaos]
+19-(The Show Lyrics.txt_13-102)-[primary-concreteness,secondary-instru_behavior,secondary-restraint]
+20-(The Show Lyrics.txt_14-116)-[secondary-order]
+21-(The Show Lyrics.txt_15-131)-[emotions-affection,secondary-social_behavior]
+22-(The Show Lyrics.txt_15-132)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(The Show Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Mors-sn2,subj-theme_bound-Lyrics-sn1,and(Mors,Vita,sn2),and(Mors,Et,sn2),and(Lyrics,Show,sn1),def_prop(Mors,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(The Show Lyrics.txt_2,3,cl2-nil-nil-grind-[xadj-adj-welcome-adj1,obj2-goal-man-sn3,iobj-goal-laboratory-sn2,subj-actor-i-sn1,aux-am-nil,def_prop(welcome,_450188),def_prop(man,[any]),def_prop(laboratory,[informa,oggetto,strumento,tecno]),def_prop(i,[umano])])
+lf(The Show Lyrics.txt_3,6,cl3-nil-nil-be-[ncmod-temporale-day-sn2,subj-theme_bound-EP-sn1,and(day,one,sn2),def_prop(day,[tempo]),def_prop(EP,[informa,tecno])])
+lf(The Show Lyrics.txt_4,10,cl4-nil-nil-be-[subj-theme_bound-you-sn5,ncmod-locativo-mind-sn2,subj-theme_bound-i-sn1,def_prop(you,[umano]),def_prop(mind,[astratto]),def_prop(i,[umano])])
+lf(The Show Lyrics.txt_5,15,nil-nil-nil-craft-[subj-theme-month-sn6,def_prop(month,[tempo])])
+lf(The Show Lyrics.txt_5,15,cl7-nil-nil-try-[])
+lf(The Show Lyrics.txt_5,15,cl6-nil-nil-spend-[obj-theme_unaff-month-sn6,subj-agent-you-sn5,def_prop(month,[tempo]),def_prop(you,[umano])])
+lf(The Show Lyrics.txt_5,15,cl5-nil-nil-write-[adj-(mod)-out-nil,subj-agent-i-sn1,def_prop(i,[umano])])
+lf(The Show Lyrics.txt_6,25,cl9-nil-nil-know-[xcomp-prop-your-sn8,subj-actor-i-sn7,def_prop(your,[evaluative]),def_prop(i,[umano])])
+lf(The Show Lyrics.txt_6,25,cl8-nil-nil-take-[expl-it-nil,subj-agent-it-sn1,def_prop(it,[any])])
+lf(The Show Lyrics.txt_7,33,cl12-nil-nil-be-[ncmod-locativo-stuff-sn8,xcomp-prop-good-sn7,subj-theme_bound-you-sn6,and(stuff,some,sn8),def_prop(stuff,[astratto,attivita,informa,oggetto]),def_prop(good,[valutativo]),def_prop(you,[umano])])
+lf(The Show Lyrics.txt_7,33,cl11-nil-nil-know-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(The Show Lyrics.txt_7,33,cl10-nil-nil-cheer-[adj-subj_disc-up-sn2,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(you,[umano])])
+lf(The Show Lyrics.txt_8,43,cl15-nil-nil-shove-[cmod-coord-sweat-and,obj-theme-plug-sn7,obj-theme-butt-sn6,adj-subj_disc-up-sn5,subj-agent-you-sn4,def_prop(plug,[oggetto,strumento]),def_prop(butt,[body_part,oggetto,strumento,umano]),def_prop(up,[istituzione]),def_prop(you,[umano])])
+lf(The Show Lyrics.txt_8,43,cl14-nil-nil-sweat-[])
+lf(The Show Lyrics.txt_8,43,cl13-nil-nil-buy-[obj-prop-ho-sn3,xcomp-purpose-sweat-3,def_prop(ho,[istituzione,umano])])
+lf(The Show Lyrics.txt_8,43,nil-nil-nil-like-[obj-theme-cloth-sn2,xcomp-purpose-buy-2,subj-experiencer-you-sn1,def_prop(cloth,[oggetto,strumento]),def_prop(you,[umano])])
+lf(The Show Lyrics.txt_9,55,cl16-nil-nil-say-[])
+lf(The Show Lyrics.txt_10,65,cl17-nil-nil-be-[subj-theme_bound-talent-s-sn1,def_prop(talent-s,[umano])])
+lf(The Show Lyrics.txt_11,76,nil-nil-have_to-must-[xcomp-prop-believable-sn8,obj-agent-it-sn7,xcomp-purpose-make-2,xcomp-prop-down-sn6,obj-theme-it-sn5,xcomp-prop-dumb-sn4,subj-theme_unaff-i-sn3,xcomp-prop-dumb-sn2,subj-theme_unaff-i-sn1,and(believable,more,sn8),def_prop(believable,[istituzione]),def_prop(it,[any]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(it,[any]),def_prop(dumb,[valutativo]),def_prop(i,[umano]),def_prop(dumb,[valutativo]),def_prop(i,[umano])])
+lf(The Show Lyrics.txt_12,89,nil-nil-nil-full-[xadj-adj-standing-adj2,ncmod-specif-people-sn3,ncmod-locativo-balcony-sn2,subj-actor-crowd-sn1,def_prop(standing,_452600),def_prop(people,[istituzione]),def_prop(balcony,[oggetto,strumento]),def_prop(crowd,[istituzione])])
+lf(The Show Lyrics.txt_13,102,cl18-nil-nil-catch-[xadj-adj-screaming-adj4,xadj-adj-shouting-adj3,adj-(mod)-out-nil,obj-theme-earful-sn3,ncmod-goal-me-sn2,subj-agent-tryna-sn1,def_prop(screaming,_452822),def_prop(shouting,_452834),def_prop(earful,[attivita,informa]),def_prop(me,[umano]),def_prop(tryna,[istituzione])])
+lf(The Show Lyrics.txt_14,116,cl19-nil-nil-be-[adj-(mod)-up-nil,subj-theme_bound-balance-sn1,def_prop(balance,[astratto,oggetto,stato,strumento])])
+lf(The Show Lyrics.txt_15,131,cl22-nil-nil-be-[subj-theme_bound-you-sn6,def_prop(you,[umano])])
+lf(The Show Lyrics.txt_15,131,cl21-nil-nil-love-[cmod-subord-write-1,obj-theme_unaff-gift-sn3,subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(gift,this,sn3),and(i,all,sn1),def_prop(gift,[astratto,oggetto]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(The Show Lyrics.txt_15,131,cl20-nil-nil-write-[subj-agent-pro-nil])

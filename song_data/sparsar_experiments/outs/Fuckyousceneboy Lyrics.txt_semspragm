@@ -1,0 +1,83 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Fuckyousceneboy Lyrics.txt_1-1  []-positive  []
+Fuckyousceneboy Lyrics.txt_2-3  [so-result]-suspension  [fgb,neg,neg]
+Fuckyousceneboy Lyrics.txt_3-6  []-negative  [neg]
+Fuckyousceneboy Lyrics.txt_4-10  []-suspension  []
+Fuckyousceneboy Lyrics.txt_5-15  []-negative  [neg]
+Fuckyousceneboy Lyrics.txt_6-21  []-positive  []
+Fuckyousceneboy Lyrics.txt_6-22  []-negative  [fhd,neg]
+Fuckyousceneboy Lyrics.txt_7-29  []-negative  [neg,neg]
+Fuckyousceneboy Lyrics.txt_8-37  []-negative  [fhd,neg]
+Fuckyousceneboy Lyrics.txt_9-46  []-negative  [neg]
+Fuckyousceneboy Lyrics.txt_10-57  [so-result]-positive  [fgb]
+Fuckyousceneboy Lyrics.txt_11-68  []-positive  [fgb]
+Fuckyousceneboy Lyrics.txt_12-80  []-negative  [neg]
+Fuckyousceneboy Lyrics.txt_13-93  []-negative  [neg,neg]
+Fuckyousceneboy Lyrics.txt_14-107  []-positive  []
+Fuckyousceneboy Lyrics.txt_15-122  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Fuckyousceneboy Lyrics.txt_1-1  [fuckyousceneboy,Lyrics,by,Blood,Duster]  [title]
+Fuckyousceneboy Lyrics.txt_2-3  [so,fucking,sick]  [provide_expl_just(fuck,[external,factive,narration,foreground,objective])]
+Fuckyousceneboy Lyrics.txt_3-6  [of,sucking,dick]  [reject_expl_just(be,[_426964,_426970,_426976,_426982,_426988])]
+Fuckyousceneboy Lyrics.txt_4-10  [hanging,off,my,nut]  [provide_expl_just(hang,[external,factive,narration,foreground,objective])]
+Fuckyousceneboy Lyrics.txt_5-15  [i,don-t,give,a,fuck]  [reject_expl_just(be,[_427580,_427586,_427592,_427598,_427604])]
+Fuckyousceneboy Lyrics.txt_6-21  [you,live]  [provide_expl_just(live,[external,factive,narration,background,objective]),provide_expl_just(die,[external,factive,narration,background,objective])]
+Fuckyousceneboy Lyrics.txt_6-22  [or,die]  [reject_expl_just(live,[external,factive,narration,background,objective]),reject_expl_just(die,[external,factive,narration,background,objective])]
+Fuckyousceneboy Lyrics.txt_7-29  [i,am,not,gonna,cry]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Fuckyousceneboy Lyrics.txt_8-37  [or,waste,my,time]  [reject_expl_just(waste,[external,factive,narration,background,objective])]
+Fuckyousceneboy Lyrics.txt_9-46  [listen,to,you,whine]  [reject_expl_just(listen,[external,factive,narration,background,objective]),reject_expl_just(whine,[external,factive,narration,background,objective])]
+Fuckyousceneboy Lyrics.txt_10-57  [so,your,scene,stick]  [provide_expl_just(stick,[external,factive,narration,background,objective])]
+Fuckyousceneboy Lyrics.txt_11-68  [and,your,righteous,dremas]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Fuckyousceneboy Lyrics.txt_12-80  [ram,it,up,your,cunt]  [reject_expl_just(ram,[external,factive,narration,background,objective])]
+Fuckyousceneboy Lyrics.txt_13-93  [you,fucking,little,p]  [reject_expl_just(fuck,[external,factive,narration,foreground,objective])]
+Fuckyousceneboy Lyrics.txt_14-107  [c]  [raise_issue(be,[_431540,factive,statement,_431558,subjective])]
+Fuckyousceneboy Lyrics.txt_15-122  [runt,!]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Fuckyousceneboy Lyrics.txt_1-1)-[]
+2-(Fuckyousceneboy Lyrics.txt_2-3)-[]
+3-(Fuckyousceneboy Lyrics.txt_3-6)-[]
+4-(Fuckyousceneboy Lyrics.txt_4-10)-[primary-concreteness,primary-orality]
+5-(Fuckyousceneboy Lyrics.txt_5-15)-[primary-sex]
+6-(Fuckyousceneboy Lyrics.txt_6-21)-[]
+7-(Fuckyousceneboy Lyrics.txt_6-22)-[primary-passivity]
+8-(Fuckyousceneboy Lyrics.txt_7-29)-[emotions-expressive_beh]
+half
+9-(Fuckyousceneboy Lyrics.txt_8-37)-[secondary-temporal_repere]
+10-(Fuckyousceneboy Lyrics.txt_9-46)-[primary-sound,emotions-sadness]
+11-(Fuckyousceneboy Lyrics.txt_10-57)-[primary-vision]
+12-(Fuckyousceneboy Lyrics.txt_11-68)-[secondary-moral_imperative]
+13-(Fuckyousceneboy Lyrics.txt_12-80)-[primary-sex]
+14-(Fuckyousceneboy Lyrics.txt_13-93)-[]
+15-(Fuckyousceneboy Lyrics.txt_14-107)-[]
+16-(Fuckyousceneboy Lyrics.txt_15-122)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Fuckyousceneboy Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Duster-sn2,subj-theme_bound-Lyrics-sn1,and(Duster,Blood,sn2),and(Lyrics,fuckyousceneboy,sn1),def_prop(Duster,[place,attivita,oggetto,strumento,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Fuckyousceneboy Lyrics.txt_2,3,cl2-nil-nil-fuck-[xcomp-prop-sick-sn2,subj-actor-you-sn1,def_prop(sick,[stato]),def_prop(you,[umano])])
+lf(Fuckyousceneboy Lyrics.txt_3,6,cl3-nil-nil-suck-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Fuckyousceneboy Lyrics.txt_4,10,cl4-nil-nil-hang-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Fuckyousceneboy Lyrics.txt_5,15,cl5-not-nil-give-[obj-goal-fuck-sn2,subj-actor-i-sn1,aux-do-nil,def_prop(fuck,[attivita]),def_prop(i,[umano])])
+lf(Fuckyousceneboy Lyrics.txt_6,21,cl7-nil-nil-die-[subj-theme_aff-you-sn2,def_prop(you,[umano])])
+lf(Fuckyousceneboy Lyrics.txt_6,21,cl6-nil-nil-live-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Fuckyousceneboy Lyrics.txt_7,29,cl8-not-nil-be-[xcomp-prop-cry-sn2,subj-theme_bound-i-sn1,def_prop(cry,[attivita,evento,informa]),def_prop(i,[umano])])
+lf(Fuckyousceneboy Lyrics.txt_8,37,cl9-nil-nil-waste-[cmod-subord-waste-",adj-temporal-time-nil,adj-subj_disc-time-sn2,subj-agent-you-sn1,def_prop(time,[tempo]),def_prop(time,[tempo]),def_prop(you,[umano])])
+lf(Fuckyousceneboy Lyrics.txt_9,46,cl11-nil-nil-whine-[iobj-goal-you-sn2,def_prop(you,[umano])])
+lf(Fuckyousceneboy Lyrics.txt_9,46,cl10-nil-nil-listen-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Fuckyousceneboy Lyrics.txt_10,57,cl12-nil-nil-stick-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Fuckyousceneboy Lyrics.txt_11,68,cl13-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Fuckyousceneboy Lyrics.txt_12,80,cl14-nil-nil-ram-[adj-(mod)-up-nil,adj-subj_disc-up-sn4,obj-theme-cunt-sn3,subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(cunt,[body_part,umano]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Fuckyousceneboy Lyrics.txt_13,93,cl15-nil-nil-fuck-[obj-theme-p-sn2,subj-actor-you-sn1,and(p,little,sn2),def_prop(p,[attivita,informa]),def_prop(you,[umano])])
+lf(Fuckyousceneboy Lyrics.txt_14,107,cl16-nil-nil-say-[obj-theme_unaff-c-sn1,def_prop(c,[attivita,informa])])
+lf(Fuckyousceneboy Lyrics.txt_15,122,cl17-nil-nil-say-[obj-theme_unaff-runt-sn1,def_prop(runt,[umano])])

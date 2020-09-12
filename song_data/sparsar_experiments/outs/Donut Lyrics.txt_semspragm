@@ -1,0 +1,217 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Donut Lyrics.txt_1-1  []-positive  []
+Donut Lyrics.txt_2-3  []-negative  [neg]
+Donut Lyrics.txt_3-6  []-positive  []
+Donut Lyrics.txt_3-7  []-positive  []
+Donut Lyrics.txt_4-11  [if-hypoth]-positive  [fgb]
+Donut Lyrics.txt_5-16  []-positive  []
+Donut Lyrics.txt_5-17  [so-result]-negative  [fgb]
+Donut Lyrics.txt_6-23  []-positive  []
+Donut Lyrics.txt_6-24  []-positive  [fgb]
+Donut Lyrics.txt_7-31  []-positive  []
+Donut Lyrics.txt_7-32  []-positive  []
+Donut Lyrics.txt_8-40  []-negative  [neg]
+Donut Lyrics.txt_9-49  []-negative  [neg,fgb]
+Donut Lyrics.txt_10-60  []-positive  []
+Donut Lyrics.txt_10-61  []-positive  []
+Donut Lyrics.txt_11-71  []-negative  [neg]
+Donut Lyrics.txt_12-83  []-negative  [neg,fgb]
+Donut Lyrics.txt_13-96  []-positive  [neg]
+Donut Lyrics.txt_14-110  []-negative  [neg,fgb]
+Donut Lyrics.txt_15-127  []-suspension  []
+Donut Lyrics.txt_15-128  []-positive  []
+Donut Lyrics.txt_16-144  []-positive  []
+Donut Lyrics.txt_17-161  []-negative  [neg]
+Donut Lyrics.txt_17-162  []-suspension  []
+Donut Lyrics.txt_18-180  []-positive  [fgb]
+Donut Lyrics.txt_19-200  []-negative  [neg]
+Donut Lyrics.txt_20-220  [then-temp_seq]-positive  []
+Donut Lyrics.txt_21-241  [when-temp_coinc]-positive  []
+Donut Lyrics.txt_21-242  []-negative  [neg,neg]
+Donut Lyrics.txt_22-264  []-positive  []
+Donut Lyrics.txt_23-287  []-negative  [neg]
+Donut Lyrics.txt_24-312  []-negative  [neg]
+Donut Lyrics.txt_25-337  []-positive  []
+Donut Lyrics.txt_26-363  []-positive  []
+Donut Lyrics.txt_27-390  []-negative  [neg]
+Donut Lyrics.txt_28-418  [if-hypoth]-positive  [fgb]
+Donut Lyrics.txt_28-419  []-negative  [neg]
+Donut Lyrics.txt_29-448  []-positive  [fgb]
+Donut Lyrics.txt_30-478  []-negative  [neg]
+Donut Lyrics.txt_31-509  []-positive  []
+Donut Lyrics.txt_33-575  []-positive  []
+Donut Lyrics.txt_34-609  []-negative  [neg]
+Donut Lyrics.txt_35-644  []-suspension  [neg,neg,neg]
+Donut Lyrics.txt_36-681  []-suspension  [ack]
+Donut Lyrics.txt_37-718  []-positive  []
+Donut Lyrics.txt_38-756  []-positive  []
+Donut Lyrics.txt_39-795  []-positive  []
+Donut Lyrics.txt_40-835  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Donut Lyrics.txt_1-1  [donut,Lyrics,by,Tyler,Gary]  [title]
+Donut Lyrics.txt_2-3  [Yo,i,been,around,the,block]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Donut Lyrics.txt_3-6  [now,i,am,where,i,started,.]  [provide_expl_just(be,[external,factive,narration,background,objective]),indication(start,[external,factive,inception,foreground,objective]),suggest(start,[external,factive,inception,foreground,objective])]
+Donut Lyrics.txt_3-7  [i,started]  [provide_expl_just(be,[external,factive,narration,background,objective]),indication(start,[external,factive,inception,foreground,objective]),suggest(start,[external,factive,inception,foreground,objective])]
+Donut Lyrics.txt_4-11  [if,i,took,a,couple,notes]  [provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Donut Lyrics.txt_5-16  [they,had,read]  [provide_expl_just(read,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_5-17  [the,world,is,so,retarded]  [provide_expl_just(read,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_6-23  [niggas,think]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_6-24  [they,hot,and,sautered]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_7-31  [just,cause,they,impress]  [provide_expl_just(impress,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_7-32  [they,mamas]  [provide_expl_just(impress,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_8-40  [eat,a,dick,without,a,napkin]  [reject_expl_just(eat,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_9-49  [a,fuck,what,you,had,ordered,.,give]  [reject_expl_just(give,[external,factive,narration,background,objective]),reject_expl_just(order,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_10-60  [name,is,Tyler]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_10-61  [i,am,important]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_11-71  [reporting,for,duty,sporting]  [reject_expl_just(report,[external,factive,narration,foreground,objective])]
+Donut Lyrics.txt_12-83  [a,bomb,on,my,shoes,and,shorts]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_13-96  [could,give,a,fuck,about,some,jordans]  [provide_expl_just(give,[external,nonfactive,narration,background,objective])]
+Donut Lyrics.txt_14-110  [grab,a,glass,and,get,to,pouring]  [reject_expl_just(pour,[external,factive,narration,foreground,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_15-127  [we,will,drink,until,we]  [provide_expl_just(drink,[external,nonfactive,narration,background,objective]),provide_expl_just(hear,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_15-128  [hear,snoring]  [provide_expl_just(drink,[external,nonfactive,narration,background,objective]),provide_expl_just(hear,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_16-144  [wake,up,next,to]  [provide_expl_just(wake,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_17-161  [i,it,fuck]  [reject_expl_just(fuck,[external,factive,narration,background,objective]),reject_expl_just(call,[external,nonfactive,narration,background,objective])]
+Donut Lyrics.txt_17-162  [will,call,her,gorgeous]  [provide_expl_just(fuck,[external,factive,narration,background,objective]),provide_expl_just(call,[external,nonfactive,narration,background,objective])]
+Donut Lyrics.txt_18-180  [make,her,leave,and,start,recording]  [provide_expl_just(record,[external,factive,narration,foreground,objective])]
+Donut Lyrics.txt_19-200  [some,the,shit,world,will,adore]  [reject_expl_just(adore,[external,nonfactive,narration,background,objective])]
+Donut Lyrics.txt_20-220  [more,then,the,look,on,hitlers,face]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_21-241  [when,he,knew]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_170428)]
+Donut Lyrics.txt_21-242  [he,had,lost,the,war]  [reject_expl_just(know,[external,factive,cause,foreground,objective])]
+Donut Lyrics.txt_22-264  [this,is,hip,hop,in,its,purest,form]  [raise_issue(be,[_171030,factive,statement,_171048,subjective])]
+Donut Lyrics.txt_23-287  [fuck,the,world,don-t,conform]  [reject_expl_just(conform,[external,factive,narration,foreground,objective]),reject_expl_just(fuck,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_24-312  [mindless,zombies,everywhere]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_25-337  [the,i,country,inside,was,born]  [provide_expl_just(bear-cl37,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_26-363  [California,San,Jose,Thats,usa,the,northern]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_27-390  [section,of,my,state,of,mind]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_28-418  [if,you,push]  [provide_expl_just(push,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Donut Lyrics.txt_28-419  [play,do,not,rewind]  [reject_expl_just(push,[external,factive,narration,background,objective]),reject_expl_just(do,[external,factive,narration,foreground,objective])]
+Donut Lyrics.txt_29-448  [and,turn,this,dial,clockwise]  [proposal(be,[_174520,_174526,statement,foreground,_174544])]
+Donut Lyrics.txt_30-478  [my,second,job-s,to,cock,wives]  [reject_expl_just(cock,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_31-509  [her,visions,fine,,,i,missed,her,mouth]  [provide_expl_just(miss,[external,factive,narration,foreground,objective])]
+Donut Lyrics.txt_33-575  [bask,in,the,ambiance]  [provide_expl_just(bask,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_34-609  [you,could,not,sleep,on,me,with,the,help,of,100,ambiens]  [reject_expl_just(sleep,[external,nonfactive,narration,background,objective])]
+Donut Lyrics.txt_35-644  [could,not,put,me,to,sleep,with,the,punch,of,an,ape,thats,tantrumin]  [provide_expl_just(put,[external,nonfactive,narration,background,objective]),provide_expl_just(sleep,[external,factive,narration,background,objective])]
+Donut Lyrics.txt_36-681  [she,bet,right,in,front,of,you,i,will,call,me,handsome,man]  [provide_expl_just(call,[external,nonfactive,narration,background,objective])]
+Donut Lyrics.txt_37-718  [truth]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Donut Lyrics.txt_38-756  [truth]  [raise_issue(be,[_177616,factive,statement,_177634,subjective])]
+Donut Lyrics.txt_39-795  [truth]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Donut Lyrics.txt_40-835  [true]  [accept_expl_opin(be,[_178244,_178250,_178256,_178262,_178268])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Donut Lyrics.txt_1-1)-[]
+2-(Donut Lyrics.txt_2-3)-[secondary-restraint]
+3-(Donut Lyrics.txt_3-6)-[secondary-temporal_repere,primary-concreteness]
+4-(Donut Lyrics.txt_3-7)-[]
+5-(Donut Lyrics.txt_4-11)-[]
+6-(Donut Lyrics.txt_5-16)-[]
+7-(Donut Lyrics.txt_5-17)-[]
+8-(Donut Lyrics.txt_6-23)-[secondary-abstract_tought]
+9-(Donut Lyrics.txt_6-24)-[primary-fire]
+10-(Donut Lyrics.txt_7-31)-[secondary-abstract_tought,primary-gen_sensation]
+11-(Donut Lyrics.txt_7-32)-[]
+12-(Donut Lyrics.txt_8-40)-[primary-orality]
+13-(Donut Lyrics.txt_9-49)-[primary-sex,secondary-order]
+14-(Donut Lyrics.txt_10-60)-[]
+15-(Donut Lyrics.txt_10-61)-[secondary-abstract_tought]
+16-(Donut Lyrics.txt_11-71)-[secondary-moral_imperative]
+17-(Donut Lyrics.txt_12-83)-[]
+18-(Donut Lyrics.txt_13-96)-[primary-sex]
+19-(Donut Lyrics.txt_14-110)-[primary-hard]
+20-(Donut Lyrics.txt_15-127)-[primary-orality]
+21-(Donut Lyrics.txt_15-128)-[primary-sound]
+22-(Donut Lyrics.txt_16-144)-[primary-counscious]
+23-(Donut Lyrics.txt_17-161)-[primary-sex]
+24-(Donut Lyrics.txt_17-162)-[secondary-social_behavior]
+half
+25-(Donut Lyrics.txt_18-180)-[secondary-instru_behavior,primary-vision]
+26-(Donut Lyrics.txt_19-200)-[primary-anality]
+27-(Donut Lyrics.txt_20-220)-[secondary-temporal_repere,primary-vision,primary-narcissism]
+28-(Donut Lyrics.txt_21-241)-[secondary-temporal_repere,secondary-abstract_tought]
+29-(Donut Lyrics.txt_21-242)-[emotions-aggression]
+30-(Donut Lyrics.txt_22-264)-[primary-narcissism,secondary-order]
+31-(Donut Lyrics.txt_23-287)-[primary-sex,secondary-restraint]
+32-(Donut Lyrics.txt_24-312)-[primary-concreteness]
+33-(Donut Lyrics.txt_25-337)-[secondary-instru_behavior,primary-concreteness]
+34-(Donut Lyrics.txt_26-363)-[primary-cold]
+35-(Donut Lyrics.txt_27-390)-[]
+36-(Donut Lyrics.txt_28-418)-[]
+37-(Donut Lyrics.txt_28-419)-[emotions-expressive_beh]
+38-(Donut Lyrics.txt_29-448)-[]
+39-(Donut Lyrics.txt_30-478)-[secondary-instru_behavior]
+40-(Donut Lyrics.txt_31-509)-[primary-vision,primary-orality]
+41-(Donut Lyrics.txt_33-575)-[primary-gen_sensation]
+42-(Donut Lyrics.txt_34-609)-[primary-counscious,secondary-social_behavior]
+43-(Donut Lyrics.txt_35-644)-[primary-counscious]
+44-(Donut Lyrics.txt_36-681)-[secondary-moral_imperative,primary-concreteness,secondary-social_behavior]
+45-(Donut Lyrics.txt_37-718)-[secondary-abstract_tought]
+46-(Donut Lyrics.txt_38-756)-[secondary-abstract_tought]
+47-(Donut Lyrics.txt_39-795)-[secondary-abstract_tought]
+48-(Donut Lyrics.txt_40-835)-[secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Donut Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Gary-sn2,subj-theme_bound-Lyrics-sn1,and(Gary,Tyler,sn2),and(Lyrics,donut,sn1),def_prop(Gary,[place,luogo]),def_prop(Lyrics,[informa,tecno])])
+lf(Donut Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-theme-block-sn3,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(i,Yo,sn1),def_prop(block,[astratto,luogo,nquant,oggetto,strumento]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Donut Lyrics.txt_3,6,cl4-nil-nil-start-[subj-agent-you-sn5,def_prop(you,[umano])])
+lf(Donut Lyrics.txt_3,6,cl3-nil-nil-be-[subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Donut Lyrics.txt_4,11,cl5-nil-nil-take-[obj-theme_aff-note-sn3,obj-theme_aff-couple-sn2,subj-agent-i-sn1,def_prop(note,[astratto,attivita,informa,oggetto]),def_prop(couple,[nquant,oggetto]),def_prop(i,[umano])])
+lf(Donut Lyrics.txt_5,16,cl7-nil-nil-be-[xcomp-prop-retarded-sn3,subj-theme_bound-world-sn2,def_prop(retarded,[istituzione]),def_prop(world,[astratto,istituzione,oggetto])])
+lf(Donut Lyrics.txt_5,16,cl6-nil-nil-read-[subj-agent-you-sn1,aux-had-nil,def_prop(you,[umano])])
+lf(Donut Lyrics.txt_6,23,cl9-nil-nil-be-[xcomp-theme-sautered-sn4,xcomp-prop-hot-sn3,subj-theme_bound-they-sn2,def_prop(sautered,[istituzione]),def_prop(hot,[valutativo]),def_prop(they,[umano])])
+lf(Donut Lyrics.txt_6,23,cl8-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Donut Lyrics.txt_7,31,cl11-nil-nil-be-[xcomp-prop-mama-sn5,subj-theme_bound-they-sn4,def_prop(mama,[umano]),def_prop(they,[umano])])
+lf(Donut Lyrics.txt_7,31,cl10-nil-nil-impress-[subj-agent-they-sn2,subj-agent-they-sn1,and(they,cause,sn1),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Donut Lyrics.txt_8,40,cl12-nil-nil-eat-[ncmod-modal-napkin-sn3,obj-theme_unaff-dick-sn2,subj-agent-you-sn1,def_prop(napkin,[oggetto,strumento]),def_prop(dick,[umano]),def_prop(you,[umano])])
+lf(Donut Lyrics.txt_9,49,cl14-nil-nil-order-[aux-had-nil])
+lf(Donut Lyrics.txt_9,49,cl13-nil-nil-give-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Donut Lyrics.txt_10,60,cl15-nil-nil-be-[xcomp-prop-important-sn4,subj-theme_bound-i-sn3,xcomp-prop-Tyler-sn2,subj-theme_bound-name-sn1,def_prop(important,[soggettivo]),def_prop(i,[umano]),def_prop(Tyler,[place,luogo,umano]),def_prop(name,[attivita,informa,stato,umano])])
+lf(Donut Lyrics.txt_11,71,cl16-nil-nil-report-[subj-agent-duty-sn1,def_prop(duty,[astratto,attivita,oggetto])])
+lf(Donut Lyrics.txt_12,83,cl17-nil-nil-be-[ncmod-locativo-short_and_shoes-sn3,subj-theme_bound-bomb-sn1,def_prop(short_and_shoes,[oggetto,strumento]),def_prop(bomb,[oggetto,strumento])])
+lf(Donut Lyrics.txt_13,96,cl18-nil-could-give-[ncmod-subj_disc-jordan-sn3,obj-goal-fuck-sn2,subj-actor-you-sn1,and(jordan,some,sn3),def_prop(jordan,[istituzione,umano]),def_prop(fuck,[attivita]),def_prop(you,[umano])])
+lf(Donut Lyrics.txt_14,110,cl21-nil-nil-pour-[cmod-coord-pour-and,subj-actor-you-sn4,def_prop(you,[umano])])
+lf(Donut Lyrics.txt_14,110,cl20-nil-nil-get-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Donut Lyrics.txt_14,110,cl19-nil-nil-grab-[obj-theme-glass-sn2,subj-agent-you-sn1,def_prop(glass,[nquant,oggetto,sostanza,strumento]),def_prop(you,[umano])])
+lf(Donut Lyrics.txt_15,127,cl23-nil-nil-hear-[xcomp-prop-snoring-sn4,subj-experiencer-you-sn3,ncmod-modal-we-sn2,def_prop(snoring,[attivita]),def_prop(you,[umano]),def_prop(we,[umano])])
+lf(Donut Lyrics.txt_15,127,cl22-nil-will-drink-[subj-agent-we-sn1,def_prop(we,[umano])])
+lf(Donut Lyrics.txt_16,144,cl24-nil-nil-wake-[adj-subj_disc-next-sn2,subj-actor-you-sn1,def_prop(next,[istituzione]),def_prop(you,[umano])])
+lf(Donut Lyrics.txt_17,161,cl26-nil-will-call-[xadj-adj-gorgeous-adj1,obj-theme_bound-gorgeous-sn5,xcomp-prop-her-sn4,subj-agent-you-sn3,adj-(mod)-fuck-nil,ncmod-modal-i-sn2,def_prop(gorgeous,_182282),def_prop(gorgeous,[evaluative]),def_prop(her,[umano]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Donut Lyrics.txt_17,161,cl25-nil-nil-fuck-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Donut Lyrics.txt_18,180,cl28-nil-nil-record-[cmod-subord-record-"])
+lf(Donut Lyrics.txt_18,180,cl27-nil-nil-make-[obj-goal-leave-sn2,subj-agent-you-sn1,def_prop(leave,[attivita,informa,tempo]),def_prop(you,[umano])])
+lf(Donut Lyrics.txt_19,200,cl29-nil-will-adore-[ncmod-modal-shit-sn2,subj-agent-you-sn1,def_prop(shit,[attivita,umano]),def_prop(you,[umano])])
+lf(Donut Lyrics.txt_20,220,cl30-nil-nil-be-[subj-theme_bound-look-sn2,subj-theme_bound-look-sn1,and(look,more,sn1),def_prop(look,[astratto,attivita]),def_prop(look,[astratto,attivita])])
+lf(Donut Lyrics.txt_21,241,cl32-nil-nil-lose-[obj-theme_unaff-war-sn4,subj-theme_aff-he-sn3,aux-had-nil,def_prop(war,[attivita,stato]),def_prop(he,[umano])])
+lf(Donut Lyrics.txt_21,241,cl31-nil-nil-know-[obj-theme-when-sn2,subj-actor-he-sn1,def_prop(when,[tempo]),def_prop(he,[umano])])
+lf(Donut Lyrics.txt_22,264,cl33-nil-nil-be-[ncmod-locativo-form-sn3,xcomp-prop-hop-sn2,subj-theme_bound-this-sn1,and(hop,hip,sn2),def_prop(form,[astratto,attivita,body_part,informa,istituzione,oggetto,strumento,umano]),def_prop(hop,[attivita,evento,plant]),def_prop(this,[oggetto,umano])])
+lf(Donut Lyrics.txt_23,287,cl35-not-nil-conform-[subj-theme-world-sn2,aux-do-nil,def_prop(world,[astratto,istituzione,oggetto])])
+lf(Donut Lyrics.txt_23,287,cl34-nil-nil-fuck-[subj-actor-world-sn2,subj-actor-world-sn1,and(world,you,sn1),def_prop(world,[astratto,istituzione,oggetto]),def_prop(world,[astratto,istituzione,oggetto])])
+lf(Donut Lyrics.txt_24,312,cl36-nil-nil-be-[adj-(mod)-everywhere-nil,subj-theme_bound-zombie-sn1,and(zombie,mindless,sn1),def_prop(zombie,[edible,oggetto])])
+lf(Donut Lyrics.txt_25,337,cl37-nil-nil-bear-[subj-goal-country-sn1,aux-was-nil,and(country,i,sn1),def_prop(country,[luogo])])
+lf(Donut Lyrics.txt_26,363,cl38-nil-nil-be-[subj-theme_bound-northern-sn2,subj-theme_bound-northern-sn1,and(northern,usa,sn1),def_prop(northern,[istituzione,umano]),def_prop(northern,[istituzione,umano])])
+lf(Donut Lyrics.txt_27,390,cl39-nil-nil-be-[ncmod-specif-state-sn2,subj-theme_bound-you-sn1,def_prop(state,[any,attivita,informa,istituzione,luogo,stato,umano]),def_prop(you,[umano])])
+lf(Donut Lyrics.txt_28,418,cl41-not-nil-do-[subj-theme_unaff-you-sn2,aux-do-nil,def_prop(you,[umano])])
+lf(Donut Lyrics.txt_28,418,cl40-nil-nil-push-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Donut Lyrics.txt_29,448,cl42-nil-nil-turn-[cmod-subord-turn-",xcomp-prop-clockwise-sn3,obj-theme-dial-sn2,subj-agent-you-sn1,and(dial,this,sn2),def_prop(clockwise,[evaluative]),def_prop(dial,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Donut Lyrics.txt_30,478,cl43-nil-nil-cock-[obj-theme-wife-sn2,subj-actor-job-s-sn1,def_prop(wife,[umano]),def_prop(job-s,[attivita,informa,oggetto,strumento])])
+lf(Donut Lyrics.txt_31,509,cl44-nil-nil-miss-[obj-tema_eff-mouth-sn3,subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,vision,sn1),def_prop(mouth,[body_part,oggetto,strumento,umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Donut Lyrics.txt_32,541,_184846-nil-nil-call-[voice-call-nil,tense-call-nil,obl-goal-thats-sn1,def_prop(thats,[istituzione])])
+lf(Donut Lyrics.txt_32,541,cl45-nil-nil-be-[voice-call-nil,tense-call-nil,xcomp-prop-thats-sn1,def_prop(thats,[istituzione])])
+lf(Donut Lyrics.txt_33,575,cl46-nil-nil-bask-[iobj-goal-ambiance-sn2,subj-actor-you-sn1,def_prop(ambiance,[luogo]),def_prop(you,[umano])])
+lf(Donut Lyrics.txt_34,609,cl47-not-could-sleep-[iobj-goal-help-sn3,iobj-goal-me-sn2,subj-experiencer-you-sn1,and(help,ambiens,sn3),def_prop(help,[astratto,attivita,informa,legale,relat,sociale,tecno,umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Donut Lyrics.txt_35,644,cl49-nil-nil-sleep-[iobj-goal-punch-sn15,def_prop(punch,[attivita,edible,oggetto,strumento])])
+lf(Donut Lyrics.txt_35,644,cl48-not-could-put-[obj-goal-me-sn3,subj-agent-tantrumin-sn2,subj-agent-tantrumin-sn1,and(tantrumin,thats,sn2),and(tantrumin,thats,sn1),def_prop(me,[umano]),def_prop(tantrumin,[istituzione]),def_prop(tantrumin,[istituzione])])
+lf(Donut Lyrics.txt_36,681,cl50-nil-will-call-[obj-prop-man-sn4,obj-theme_bound-me-sn3,subj-agent-i-sn2,subj-agent-i-sn1,and(man,handsome,sn4),and(i,bet,sn1),def_prop(man,[any]),def_prop(me,[umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Donut Lyrics.txt_37,718,cl51-nil-nil-say-[obj-theme_unaff-truth-sn1,def_prop(truth,[astratto,attivita,informa,stato])])
+lf(Donut Lyrics.txt_38,756,cl52-nil-nil-say-[obj-theme_unaff-truth-sn1,def_prop(truth,[astratto,attivita,informa,stato])])
+lf(Donut Lyrics.txt_39,795,cl53-nil-nil-say-[obj-theme_unaff-truth-sn1,def_prop(truth,[astratto,attivita,informa,stato])])
+lf(Donut Lyrics.txt_40,835,cl54-nil-nil-say-[])

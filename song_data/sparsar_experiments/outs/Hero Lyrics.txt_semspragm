@@ -1,0 +1,404 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Hero Lyrics.txt_1-1  []-positive  []
+Hero Lyrics.txt_2-3  [when-temp_coinc]-positive  []
+Hero Lyrics.txt_2-4  []-suspension  [neg,neg]
+Hero Lyrics.txt_2-5  []-negative  [fgb,neg]
+Hero Lyrics.txt_3-8  []-negative  [neg,fhd]
+Hero Lyrics.txt_4-12  []-negative  [neg]
+Hero Lyrics.txt_4-13  [so-result]-negative  [fgb]
+Hero Lyrics.txt_4-14  []-suspension  [neg,fgb]
+Hero Lyrics.txt_5-21  []-question  []
+Hero Lyrics.txt_5-21  []-question  []
+Hero Lyrics.txt_5-22  [so-result]-suspension  [fgb,fgb]
+Hero Lyrics.txt_6-28  []-positive  []
+Hero Lyrics.txt_6-29  []-suspension  [fgb,neg,neg,ack,neg]
+Hero Lyrics.txt_6-30  []-positive  [fhd]
+Hero Lyrics.txt_6-31  [if-hypoth]-positive  [fgb]
+Hero Lyrics.txt_7-39  []-negative  [neg]
+Hero Lyrics.txt_7-40  []-suspension  [neg,neg]
+Hero Lyrics.txt_7-41  []-positive  []
+Hero Lyrics.txt_8-48  []-positive  []
+Hero Lyrics.txt_9-57  []-negative  [neg]
+Hero Lyrics.txt_10-67  []-negative  [neg]
+Hero Lyrics.txt_11-79  [so-result]-negative  [neg,fgb,fhd,fgb,neg,neg]
+Hero Lyrics.txt_12-94  []-positive  []
+Hero Lyrics.txt_12-95  []-positive  [fhd]
+Hero Lyrics.txt_12-96  []-positive  []
+Hero Lyrics.txt_13-110  []-positive  []
+Hero Lyrics.txt_13-111  []-positive  []
+Hero Lyrics.txt_14-125  [then-temp_seq]-positive  []
+Hero Lyrics.txt_15-140  []-question  []
+Hero Lyrics.txt_16-159  [when-temp_coinc]-question  []
+Hero Lyrics.txt_16-160  []-positive  []
+Hero Lyrics.txt_17-177  []-suspension  [neg,neg,neg,fgb]
+Hero Lyrics.txt_18-198  []-positive  [fhd]
+Hero Lyrics.txt_18-199  []-positive  [fgb,neg]
+Hero Lyrics.txt_18-200  []-positive  [fhd,neg]
+Hero Lyrics.txt_19-222  [when-temp_coinc]-positive  []
+Hero Lyrics.txt_19-223  []-positive  []
+Hero Lyrics.txt_19-224  []-positive  []
+Hero Lyrics.txt_20-245  []-question  []
+Hero Lyrics.txt_21-266  []-positive  [fgb,fhd]
+Hero Lyrics.txt_22-288  []-suspension  []
+Hero Lyrics.txt_23-311  []-acceptance  [neg,ass]
+Hero Lyrics.txt_23-312  []-negative  [neg,neg,neg,fgb]
+Hero Lyrics.txt_24-336  []-suspension  [fhd,neg,neg]
+Hero Lyrics.txt_24-337  []-positive  []
+Hero Lyrics.txt_25-364  []-negative  [neg]
+Hero Lyrics.txt_26-390  []-positive  []
+Hero Lyrics.txt_27-417  []-negative  [neg]
+Hero Lyrics.txt_27-418  []-positive  []
+Hero Lyrics.txt_27-419  []-positive  []
+Hero Lyrics.txt_28-447  []-suspension  []
+Hero Lyrics.txt_28-448  []-positive  []
+Hero Lyrics.txt_28-449  []-negative  []
+Hero Lyrics.txt_29-478  []-positive  []
+Hero Lyrics.txt_30-508  []-positive  []
+Hero Lyrics.txt_31-539  []-positive  []
+Hero Lyrics.txt_32-571  []-positive  []
+Hero Lyrics.txt_33-604  []-positive  []
+Hero Lyrics.txt_34-638  []-positive  []
+Hero Lyrics.txt_35-673  []-positive  []
+Hero Lyrics.txt_35-674  []-positive  []
+Hero Lyrics.txt_35-675  [but-advers]-suspension  [neg,neg,fgb]
+Hero Lyrics.txt_36-711  []-positive  []
+Hero Lyrics.txt_37-748  []-negative  [neg,neg]
+Hero Lyrics.txt_37-749  [when-temp_coinc]-positive  [neg,neg,neg,neg]
+Hero Lyrics.txt_38-788  []-suspension  []
+Hero Lyrics.txt_39-827  []-positive  [neg]
+Hero Lyrics.txt_40-867  []-positive  []
+Hero Lyrics.txt_41-909  []-positive  []
+Hero Lyrics.txt_41-910  []-positive  []
+Hero Lyrics.txt_42-952  []-positive  []
+Hero Lyrics.txt_43-995  []-suspension  [neg]
+Hero Lyrics.txt_43-996  []-suspension  [neg,neg,fgb,neg,neg,neg]
+Hero Lyrics.txt_44-1041  []-negative  [neg]
+Hero Lyrics.txt_44-1042  []-suspension  [neg]
+Hero Lyrics.txt_45-1088  []-suspension  []
+Hero Lyrics.txt_45-1089  [if-hypoth]-suspension  [fgb]
+Hero Lyrics.txt_46-1136  []-suspension  []
+Hero Lyrics.txt_46-1137  []-positive  []
+Hero Lyrics.txt_47-1184  []-suspension  [neg,fgb,neg]
+Hero Lyrics.txt_47-1185  []-positive  []
+Hero Lyrics.txt_47-1186  []-positive  [fgb]
+Hero Lyrics.txt_48-1234  [if-hypoth]-suspension  [fgb,fgb,neg]
+Hero Lyrics.txt_49-1284  []-positive  []
+Hero Lyrics.txt_49-1285  []-negative  [neg]
+Hero Lyrics.txt_49-1286  []-negative  []
+Hero Lyrics.txt_50-1336  []-positive  []
+Hero Lyrics.txt_51-1387  [but-advers]-positive  [fgb]
+Hero Lyrics.txt_52-1439  []-suspension  [neg,neg]
+Hero Lyrics.txt_53-1493  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Hero Lyrics.txt_1-1  [hero,Lyrics,by,Punsy]  [title]
+Hero Lyrics.txt_2-3  [when]  [provide_expl_just(grab,[external,nonfactive,narration,background,objective]),provide_expl_just(rap,[external,factive,cause,foreground,objective])]
+Hero Lyrics.txt_2-4  [,,it,time,is,rapping,i,will,grab,this,Mic,thing,to,smash]  [provide_expl_just(grab,[external,nonfactive,narration,background,objective]),provide_expl_just(rap,[external,factive,cause,foreground,objective])]
+Hero Lyrics.txt_2-5  [your,spine,and,black,,,your,eyes,til]  [reject_expl_just(grab,[external,nonfactive,narration,background,objective]),reject_expl_just(rap,[external,factive,cause,foreground,objective])]
+Hero Lyrics.txt_3-8  [you,can,not,see,me,like,Mr]  [reject_expl_just(see,[external,nonfactive,narration,foreground,objective])]
+Hero Lyrics.txt_4-12  [Fantastic-s,wife,i,am,johnny,storm]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(assume,[external,factive,cause,foreground,objective]),reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+Hero Lyrics.txt_4-13  [so,don-t,assume,that,have]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(assume,[external,factive,cause,foreground,objective]),suggest(assume,[external,factive,cause,foreground,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Hero Lyrics.txt_4-14  [the,torch,i,will,smack,you,back,and,forth]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(assume,[external,factive,cause,foreground,objective]),suggest(assume,[external,factive,cause,foreground,objective]),provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Hero Lyrics.txt_5-21  [?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(act,[internal,factive,narration,background,objective])]
+Hero Lyrics.txt_5-21  [?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(act,[internal,factive,narration,background,objective])]
+Hero Lyrics.txt_5-22  [so,what,you,are,acting,fantastic,for,my,demand]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(act,[internal,factive,narration,background,objective])]
+Hero Lyrics.txt_6-28  [an,action,to,conquer,this,rappin-,call,up,Doctor]  [provide_expl_just(conquer,[external,factive,narration,background,objective]),provide_expl_just(call,[external,factive,narration,background,objective]),provide_expl_just(damage,[external,factive,narration,background,objective]),provide_expl_just(silver,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_6-29  [Manhatten,and,blow,all,your,asses,right,off,of,the,Atlus,i,damage,guys,with,the,blade]  [provide_expl_just(conquer,[external,factive,narration,background,objective]),provide_expl_just(call,[external,factive,narration,background,objective]),provide_expl_just(damage,[external,factive,narration,background,objective]),provide_expl_just(silver,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_6-30  [,,like,i,am,silver,samurai]  [provide_expl_just(conquer,[external,factive,narration,background,objective]),provide_expl_just(call,[external,factive,narration,background,objective]),provide_expl_just(damage,[external,factive,narration,background,objective]),provide_expl_just(silver,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_6-31  [if]  [provide_expl_just(conquer,[external,factive,narration,background,objective]),provide_expl_just(call,[external,factive,narration,background,objective]),provide_expl_just(damage,[external,factive,narration,background,objective]),provide_expl_just(silver,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_7-39  [there,is,a,demand,to,fight]  [reject_expl_just(leave,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_7-40  [i,am,not,leaving,a,man,alive,with,enough,force,in,my,hand]  [provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_7-41  [,,applied]  [provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_8-48  [you,league]  [provide_expl_just(league,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_9-57  [don-t,have,the,guts,to,see,any,one,from,this,rugged]  [reject_expl_just(have,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_10-67  [team,i,am,a,beast,boy]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(team,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_11-79  [the,critics,are,ravin-,other,rappers,were,hatin-,so,i,came,in,like,Robin,and,slayed,them,my,starfire,,,a,blazing,not,hard,to,find]  [reject_expl_just(find,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_12-94  [i,am,amazin-]  [provide_expl_just(like,[external,factive,narration,background,objective]),provide_expl_just(guy,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(place,[external,factive,narration,foreground,objective])]
+Hero Lyrics.txt_12-95  [you,guys,are,like,cyborgs,waiting]  [provide_expl_just(like,[external,factive,narration,background,objective]),provide_expl_just(guy,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(place,[external,factive,narration,foreground,objective])]
+Hero Lyrics.txt_12-96  [for,crucial,parts,to,be,placed,in]  [provide_expl_just(like,[external,factive,narration,background,objective]),provide_expl_just(guy,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(place,[external,factive,narration,foreground,objective])]
+Hero Lyrics.txt_13-110  [i,profess,to,x]  [provide_expl_just(profess,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_13-111  [i,men,,,run,this,class]  [provide_expl_just(profess,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_14-125  [I-m_Professor_X,then]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Hero Lyrics.txt_15-140  [angel,an,meet,will,you,mics,wrecks,that,juggernaut,the,am,i,that,you,believe,would,?]  [provide_expl_just(wreck,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Hero Lyrics.txt_16-159  [give,i,when,?]  [provide_expl_just(give,[internal,factive,narration,foreground,objective])]
+Hero Lyrics.txt_16-160  [you]  [provide_expl_just(give,[internal,factive,narration,foreground,objective])]
+Hero Lyrics.txt_17-177  [strikes,the,mystique,of,my,grooves,is,the,proof,my,rhymes,slaughter,beat,em,black,and,blue,til]  [provide_expl_just(strike,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(rhyme,[external,factive,narration,background,objective]),provide_expl_just(beat,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_18-198  [bitin,i,lines,they,poof,like,night,crawler,you,was,told]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(beat,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_18-199  [and,it,makes,me,want,to,beat,you,up]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(beat,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_18-200  [you,are,kinda,like,that,girl,rogue,cuz,you,are,taking,other,people-s,stuff]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(beat,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_19-222  [when,you,guys,come,to,me]  [provide_expl_just(guy,[external,factive,narration,background,objective]),provide_expl_just(pierce,[external,factive,cause,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_19-223  [my,claws,are,piercing,all]  [provide_expl_just(guy,[external,factive,narration,background,objective]),provide_expl_just(pierce,[external,factive,cause,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_19-224  [you,all,broads,23]  [provide_expl_just(guy,[external,factive,narration,background,objective]),provide_expl_just(pierce,[external,factive,cause,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_20-245  [it,you,get,did,?]  [provide_expl_just(get,[internal,factive,narration,background,objective])]
+Hero Lyrics.txt_21-266  [well,my,flow,is,like,those,robots]  [provide_expl_just(like-cl53,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_22-288  [Opponents,will,be,sent,an,L]  [provide_expl_just(send,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_23-311  [the,killer,with,the,gift,of,the,pun,is,sure,to,rule]  [accept_expl_opin(be,[external,factive,narration,background,objective]),accept_expl_opin(run,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_23-312  [the,game,with,an,iron,fist,and,run,the,earth,in]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(run,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_24-336  [a,flash,like,i,am,super,man,trying,to,crush,a,perp,a,sentry,of,onslaught,by,a,backbacker]  [provide_expl_just(try,[external,factive,narration,foreground,objective]),provide_expl_just(read,[external,factive,narration,background,objective]),provide_expl_just(crush,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_24-337  [my,list,reads]  [provide_expl_just(try,[external,factive,narration,foreground,objective]),provide_expl_just(read,[external,factive,narration,background,objective]),provide_expl_just(crush,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_25-364  [kill,wack,rappers]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_26-390  [task,mastered]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_27-417  [,,talking,crazy]  [reject_expl_just(talk,[external,factive,narration,foreground,objective]),reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(cap,[external,factive,narration,foreground,objective])]
+Hero Lyrics.txt_27-418  [,,gets]  [provide_expl_just(talk,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(cap,[external,factive,narration,foreground,objective])]
+Hero Lyrics.txt_27-419  [you,capped,in,america]  [provide_expl_just(talk,[external,factive,narration,foreground,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(cap,[external,factive,narration,foreground,objective])]
+Hero Lyrics.txt_28-447  [,,even,with,the,sheild,you,will]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_28-448  [,,get]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_28-449  [massacred]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_29-478  [check,it,son,even,with,the,s]  [raise_issue(be,[_3162302,factive,statement,_3162320,subjective])]
+Hero Lyrics.txt_30-508  [H]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Hero Lyrics.txt_31-539  [E]  [raise_issue(be,[_3162982,factive,statement,_3163000,subjective])]
+Hero Lyrics.txt_32-571  [i]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Hero Lyrics.txt_33-604  [L]  [raise_issue(be,[_3163662,factive,statement,_3163680,subjective])]
+Hero Lyrics.txt_34-638  [D,the,organization,you]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_35-673  [really,need,to,hear,all,these,words,where,i,place-em,the,vulture]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_35-674  [that,is,Cravin]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_35-675  [for,some,dope,rhymers,spit,venom,,,but,mainly,through,ghost,writers]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_36-711  [watch,men]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Hero Lyrics.txt_37-748  [,,the,carnage,is,bout]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(start-cl80,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_37-749  [,,be,start,when,this,Brainiac,creates,a,doomsday,of,darkness,an,endless,abyss]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(start-cl80,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_38-788  [i,will]  [provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Hero Lyrics.txt_39-827  [send,you,to,hell,boy,where]  [provide_expl_just(send,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_40-867  [you,can,meet,spawn]  [provide_expl_just(spawn,[external,factive,narration,background,objective]),provide_expl_just(meet,[external,nonfactive,narration,foreground,objective])]
+Hero Lyrics.txt_41-909  [,,i,bid]  [provide_expl_just(bid,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_41-910  [you,farewell]  [provide_expl_just(bid,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_42-952  [Boy]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Hero Lyrics.txt_43-995  [i,will,bruise]  [provide_expl_just(knock,[external,factive,narration,background,objective]),provide_expl_just(bruise,[external,nonfactive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_43-996  [Wayne,in,a,hard,fight,and,leave,him,in,the,dark,.,knock,him,unconscious]  [provide_expl_just(knock,[external,factive,narration,background,objective]),provide_expl_just(bruise,[external,nonfactive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_44-1041  [night,wing,can,not,see]  [reject_expl_just(wing,[external,factive,narration,background,objective]),reject_expl_just(die,[external,nonfactive,narration,background,objective]),reject_expl_just(see,[external,nonfactive,narration,foreground,objective])]
+Hero Lyrics.txt_44-1042  [me,either,he,will,die]  [provide_expl_just(wing,[external,factive,narration,background,objective]),provide_expl_just(die,[external,nonfactive,narration,background,objective]),propose_opin(see,[external,nonfactive,narration,foreground,objective]),provide_expl_just(see,[external,nonfactive,narration,foreground,objective])]
+Hero Lyrics.txt_45-1088  [today,i,will,toss,him,off,a,building,just,to,see]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(fly,[external,nonfactive,narration,background,objective]),provide_expl_just(toss,[external,nonfactive,narration,background,objective])]
+Hero Lyrics.txt_45-1089  [if,he,will,fly,away]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(fly,[external,nonfactive,narration,background,objective]),provide_expl_just(toss,[external,nonfactive,narration,background,objective])]
+Hero Lyrics.txt_46-1136  [i,will,face,two,face,face,to,face]  [provide_expl_just(face,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_46-1137  [til]  [provide_expl_just(face,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_47-1184  [i,blade,i,break,his,face,and,scrape,his,face,with,a,razor,will]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(stomp,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_47-1185  [,,stomp,penguin]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(stomp,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_47-1186  [and,his,boys,with,my,feet]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(stomp,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_48-1234  [and,if,he,survives,he,will,get,a,poison,IV]  [provide_expl_just(get,[external,nonfactive,narration,background,objective])]
+Hero Lyrics.txt_49-1284  [i,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_49-1285  [i,am,cold,at,these]  [reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_49-1286  [written,schemes,i,love]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_50-1336  [writing]  [provide_expl_just(write,[external,factive,narration,foreground,objective])]
+Hero Lyrics.txt_51-1387  [but,honestly,i,miss,the,frees,Stan,lee-s,pen]  [provide_expl_just(miss,[external,factive,narration,background,objective])]
+Hero Lyrics.txt_52-1439  [no,one,can,defeat,around]  [provide_expl_just(be,[external,factive,narration,background,objective]),propose_opin(defeat,[external,nonfactive,narration,foreground,objective]),provide_expl_just(defeat,[external,nonfactive,narration,foreground,objective])]
+Hero Lyrics.txt_53-1493  [me,people,marvel,at,my,image,from,Cali,to,Dc]  [provide_expl_just(people,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Hero Lyrics.txt_1-1)-[emotions-glory]
+2-(Hero Lyrics.txt_2-3)-[secondary-temporal_repere]
+3-(Hero Lyrics.txt_2-4)-[secondary-temporal_repere,emotions-aggression]
+4-(Hero Lyrics.txt_2-5)-[primary-random_movement,primary-narcissism]
+5-(Hero Lyrics.txt_3-8)-[primary-vision,emotions-affection]
+6-(Hero Lyrics.txt_4-12)-[]
+7-(Hero Lyrics.txt_4-13)-[]
+8-(Hero Lyrics.txt_4-14)-[primary-concreteness]
+9-(Hero Lyrics.txt_5-21)-[]
+10-(Hero Lyrics.txt_5-21)-[]
+11-(Hero Lyrics.txt_5-22)-[primary-unknow]
+12-(Hero Lyrics.txt_6-28)-[emotions-glory,secondary-social_behavior]
+13-(Hero Lyrics.txt_6-29)-[primary-anality,secondary-moral_imperative,primary-concreteness,emotions-aggression,emotions-aggression]
+14-(Hero Lyrics.txt_6-30)-[emotions-affection]
+15-(Hero Lyrics.txt_6-31)-[]
+16-(Hero Lyrics.txt_7-39)-[emotions-aggression]
+17-(Hero Lyrics.txt_7-40)-[primary-narcissism]
+18-(Hero Lyrics.txt_7-41)-[secondary-instru_behavior]
+19-(Hero Lyrics.txt_8-48)-[]
+20-(Hero Lyrics.txt_9-57)-[primary-orality,primary-vision]
+21-(Hero Lyrics.txt_10-67)-[primary-orality]
+22-(Hero Lyrics.txt_11-79)-[emotions-aggression,primary-depth,emotions-affection,emotions-aggression,secondary-abstract_tought,primary-hard,secondary-instru_behavior]
+23-(Hero Lyrics.txt_12-94)-[]
+24-(Hero Lyrics.txt_12-95)-[emotions-affection]
+25-(Hero Lyrics.txt_12-96)-[primary-concreteness]
+26-(Hero Lyrics.txt_13-110)-[]
+27-(Hero Lyrics.txt_13-111)-[secondary-order]
+28-(Hero Lyrics.txt_14-125)-[secondary-temporal_repere]
+29-(Hero Lyrics.txt_15-140)-[secondary-social_behavior,emotions-aggression,secondary-abstract_tought]
+30-(Hero Lyrics.txt_16-159)-[secondary-temporal_repere]
+31-(Hero Lyrics.txt_16-160)-[]
+32-(Hero Lyrics.txt_17-177)-[emotions-aggression,secondary-abstract_tought,emotions-aggression,emotions-aggression,primary-vision]
+33-(Hero Lyrics.txt_18-198)-[primary-brink,emotions-affection,secondary-social_behavior]
+34-(Hero Lyrics.txt_18-199)-[secondary-instru_behavior,emotions-aggression]
+35-(Hero Lyrics.txt_18-200)-[emotions-affection,emotions-affection]
+36-(Hero Lyrics.txt_19-222)-[secondary-temporal_repere]
+37-(Hero Lyrics.txt_19-223)-[]
+38-(Hero Lyrics.txt_19-224)-[]
+39-(Hero Lyrics.txt_20-245)-[]
+40-(Hero Lyrics.txt_21-266)-[emotions-affection]
+41-(Hero Lyrics.txt_22-288)-[]
+42-(Hero Lyrics.txt_23-311)-[emotions-aggression,secondary-social_behavior,secondary-abstract_tought]
+43-(Hero Lyrics.txt_23-312)-[emotions-expressive_beh,primary-hard,primary-sound]
+44-(Hero Lyrics.txt_24-336)-[primary-vision,emotions-affection,secondary-instru_behavior,emotions-aggression]
+45-(Hero Lyrics.txt_24-337)-[secondary-order]
+half
+46-(Hero Lyrics.txt_25-364)-[emotions-aggression]
+47-(Hero Lyrics.txt_26-390)-[secondary-instru_behavior]
+48-(Hero Lyrics.txt_27-417)-[primary-counscious]
+49-(Hero Lyrics.txt_27-418)-[]
+50-(Hero Lyrics.txt_27-419)-[]
+51-(Hero Lyrics.txt_28-447)-[]
+52-(Hero Lyrics.txt_28-448)-[]
+53-(Hero Lyrics.txt_28-449)-[]
+54-(Hero Lyrics.txt_29-478)-[]
+55-(Hero Lyrics.txt_30-508)-[]
+56-(Hero Lyrics.txt_31-539)-[]
+57-(Hero Lyrics.txt_32-571)-[]
+58-(Hero Lyrics.txt_33-604)-[]
+59-(Hero Lyrics.txt_34-638)-[]
+60-(Hero Lyrics.txt_35-673)-[secondary-abstract_tought,primary-sound,primary-concreteness]
+61-(Hero Lyrics.txt_35-674)-[]
+62-(Hero Lyrics.txt_35-675)-[primary-orality]
+63-(Hero Lyrics.txt_36-711)-[primary-vision]
+64-(Hero Lyrics.txt_37-748)-[]
+65-(Hero Lyrics.txt_37-749)-[primary-vision,secondary-temporal_repere,primary-timelessness]
+66-(Hero Lyrics.txt_38-788)-[]
+67-(Hero Lyrics.txt_39-827)-[primary-concreteness]
+68-(Hero Lyrics.txt_40-867)-[secondary-social_behavior]
+69-(Hero Lyrics.txt_41-909)-[secondary-instru_behavior]
+70-(Hero Lyrics.txt_41-910)-[emotions-affection]
+71-(Hero Lyrics.txt_42-952)-[]
+72-(Hero Lyrics.txt_43-995)-[]
+73-(Hero Lyrics.txt_43-996)-[primary-hard,emotions-aggression]
+74-(Hero Lyrics.txt_44-1041)-[primary-ascend,primary-vision]
+75-(Hero Lyrics.txt_44-1042)-[primary-passivity]
+76-(Hero Lyrics.txt_45-1088)-[secondary-temporal_repere,primary-ascend,primary-concreteness,primary-vision]
+77-(Hero Lyrics.txt_45-1089)-[primary-ascend,primary-concreteness]
+78-(Hero Lyrics.txt_46-1136)-[primary-narcissism,primary-narcissism,primary-narcissism,primary-narcissism]
+79-(Hero Lyrics.txt_46-1137)-[]
+80-(Hero Lyrics.txt_47-1184)-[emotions-aggression,emotions-aggression,primary-narcissism,primary-narcissism]
+81-(Hero Lyrics.txt_47-1185)-[]
+82-(Hero Lyrics.txt_47-1186)-[primary-narcissism]
+83-(Hero Lyrics.txt_48-1234)-[primary-orality]
+84-(Hero Lyrics.txt_49-1284)-[secondary-abstract_tought]
+85-(Hero Lyrics.txt_49-1285)-[primary-cold,primary-concreteness]
+86-(Hero Lyrics.txt_49-1286)-[secondary-abstract_tought,emotions-affection]
+87-(Hero Lyrics.txt_50-1336)-[]
+88-(Hero Lyrics.txt_51-1387)-[secondary-moral_imperative]
+89-(Hero Lyrics.txt_52-1439)-[emotions-aggression]
+90-(Hero Lyrics.txt_53-1493)-[primary-unknow,primary-concreteness,primary-vision]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Hero Lyrics.txt_1,1,cl1-nil-nil-be-[subj-theme_bound-Lyrics-sn1,and(Lyrics,hero,sn1),def_prop(Lyrics,[informa,tecno])])
+lf(Hero Lyrics.txt_2,3,2-nil-nil-be-[subj-theme_bound-eye-sn9,subj-theme_bound-eye-sn8,xcomp-theme-when-sn1,and(eye,spine,sn8),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(when,[tempo])])
+lf(Hero Lyrics.txt_2,3,cl3-nil-will-grab-[adj-temporal-time-nil,obj-theme_aff-thing-sn5,obj-theme_aff-Mic-sn4,obj-theme-i-sn3,subj-agent-it-sn2,and(Mic,this,sn4),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(Mic,[istituzione,umano]),def_prop(i,[umano]),def_prop(it,[any])])
+lf(Hero Lyrics.txt_2,3,cl2-nil-nil-rap-[aux-(is)-nil,progr-rapping-nil])
+lf(Hero Lyrics.txt_3,8,cl4-not-can-see-[obj-theme_aff-Mr-sn3,obj-actor-me-sn2,subj-experiencer-you-sn1,def_prop(Mr,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Hero Lyrics.txt_4,12,nil-nil-nil-back-[adj-(mod)-forth-nil,subj-agent-you-sn10,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_4,12,cl8-nil-will-will-[obj-theme_aff-smack-sn9,subj-agent-torch-sn8,def_prop(smack,[attivita,oggetto,strumento]),def_prop(torch,[oggetto,strumento])])
+lf(Hero Lyrics.txt_4,12,cl7-nil-nil-have-[])
+lf(Hero Lyrics.txt_4,12,cl6-not-nil-assume-[subj-agent-you-sn7,aux-do-nil,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_4,12,cl5-nil-nil-be-[xcomp-prop-storm-sn3,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(storm,johnny,sn3),and(i,wife,sn1),and(i,Fantastic-s,sn1),def_prop(storm,[attivita,cambia,stato]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Hero Lyrics.txt_5,21,cl10-nil-nil-act-[])
+lf(Hero Lyrics.txt_5,21,cl9-nil-nil-be-[])
+lf(Hero Lyrics.txt_6,28,cl15-nil-nil-be-[subj-actor-pro-nil])
+lf(Hero Lyrics.txt_6,28,cl14-nil-nil-silver-[obj-theme_aff-samurai-sn18,subj-theme-i-sn17,aux-am-nil,def_prop(samurai,[istituzione,umano]),def_prop(i,[umano])])
+lf(Hero Lyrics.txt_6,28,cl13-nil-nil-damage-[adj-(mod)-silver-nil,xadj-adj-right-adj2,adj-locative-off-nil,ncmod-comitativo-blade-sn12,obj-theme-guy-sn11,obj-theme-i-sn10,ncmod-specif-Atlus-sn9,obj-theme-ass-sn8,coord-agent-Manhatten_and_blow-sn7,subj-agent-blow-sn6,subj-agent-Manhatten-sn5,and(ass,all,sn8),def_prop(right,_3202056),def_prop(blade,[body_part,edible,oggetto,plant,strumento,umano]),def_prop(guy,[oggetto,strumento,umano]),def_prop(i,[umano]),def_prop(Atlus,[istituzione,umano]),def_prop(ass,[animato,attivita,body_part,umano]),def_prop(Manhatten_and_blow,[istituzione,umano,attivita]),def_prop(blow,[istituzione,umano,attivita]),def_prop(Manhatten,[istituzione,umano,attivita])])
+lf(Hero Lyrics.txt_6,28,cl12-nil-nil-call-[adj-(mod)-up-nil,obj-theme-Doctor-sn3,obj-theme-[]-sn2,xcomp-purpose-conquer-2,subj-agent-action-sn1,def_prop(Doctor,[umano,sociale]),def_prop([],nil),def_prop(action,[astratto,attivita,informa,oggetto,stato,strumento])])
+lf(Hero Lyrics.txt_6,28,cl11-nil-nil-conquer-[])
+lf(Hero Lyrics.txt_7,39,cl17-not-nil-leave-[ncmod-comitativo-force-sn7,xcomp-prop-alive-sn6,obj-theme-man-sn5,subj-theme-i-sn4,obj2-goal-fight-sn3,aux-am-nil,progr-leaving-nil,def_prop(force,[astratto,attivita,cambia]),def_prop(alive,[valutativo]),def_prop(man,[any]),def_prop(i,[umano]),def_prop(fight,[attivita,informa])])
+lf(Hero Lyrics.txt_7,39,cl16-nil-nil-be-[subj-theme_bound-you-sn11,xcomp-prop-demand-sn2,subj-theme_bound-there-sn1,def_prop(you,[umano]),def_prop(demand,[attivita,informa]),def_prop(there,[any])])
+lf(Hero Lyrics.txt_8,48,cl18-nil-nil-league-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_9,57,cl19-not-nil-have-[xcomp-actor-rugged-sn3,xcomp-purpose-see-2,xcomp-tema_bound-gut-sn2,subj-experiencer-one-sn1,def_prop(rugged,[evaluative]),def_prop(gut,[body_part,oggetto,strumento]),def_prop(one,[umano])])
+lf(Hero Lyrics.txt_10,67,cl21-nil-nil-be-[xcomp-prop-beast-sn3,xcomp-purpose-be-2,def_prop(beast,[umano])])
+lf(Hero Lyrics.txt_10,67,cl20-nil-nil-team-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Hero Lyrics.txt_11,79,cl25-nil-nil-find-[])
+lf(Hero Lyrics.txt_11,79,cl24-nil-nil-slay-[])
+lf(Hero Lyrics.txt_11,79,cl23-nil-nil-come-[iobj-locat-Robin-sn9,subj-agent-i-sn8,def_prop(Robin,[place,umano]),def_prop(i,[umano])])
+lf(Hero Lyrics.txt_11,79,cl22-nil-nil-be-[cmod-subord-come-1,xcomp-prop-[]-sn3,subj-theme_bound-rapper-sn2,subj-theme_bound-rapper-sn1,and(rapper,[],sn2),and(rapper,other,sn2),and(rapper,[],sn1),and(rapper,other,sn1),def_prop([],nil),def_prop(rapper,[umano]),def_prop(rapper,[umano])])
+lf(Hero Lyrics.txt_12,94,cl29-nil-nil-place-[subj-theme-part-sn8,aux-be-nil,and(part,crucial,sn8),def_prop(part,[astratto,attivita,body_part,informa,oggetto,relat,strumento,umano])])
+lf(Hero Lyrics.txt_12,94,cl28-nil-nil-like-[])
+lf(Hero Lyrics.txt_12,94,cl27-nil-nil-guy-[obj-prop-cyborg-sn4,xcomp-purpose-like-cl28,subj-agent-you-sn3,def_prop(cyborg,[umano]),def_prop(you,[umano])])
+lf(Hero Lyrics.txt_12,94,cl26-nil-nil-be-[xcomp-prop-[]-sn2,subj-actor-i-sn1,voice-place-cl29,def_prop([],nil),def_prop(i,[umano])])
+lf(Hero Lyrics.txt_13,110,cl30-nil-nil-run-[obj-theme_aff-class-sn4,subj-agent-man-sn3,and(class,this,sn4),and(man,i,sn3),def_prop(class,[astratto,istituzione]),def_prop(man,[any])])
+lf(Hero Lyrics.txt_13,110,nil-nil-nil-profess-[ncmod-relation-x-sn2,subj-agent-i-sn1,def_prop(x,[attivita,informa]),def_prop(i,[umano])])
+lf(Hero Lyrics.txt_14,125,cl31-nil-nil-say-[obj-theme_unaff-I-m_Professor_X-sn1,def_prop(I-m_Professor_X,[attivita,informa])])
+lf(Hero Lyrics.txt_15,140,cl35-nil-nil-wreck-[subj-agent-juggernaut-sn17,subj-agent-juggernaut-sn15,subj-agent-juggernaut-sn12,subj-agent-juggernaut-sn10,subj-agent-juggernaut-sn7,subj-agent-juggernaut-sn3,def_prop(juggernaut,[umano]),def_prop(juggernaut,[umano]),def_prop(juggernaut,[umano]),def_prop(juggernaut,[umano]),def_prop(juggernaut,[umano]),def_prop(juggernaut,[umano])])
+lf(Hero Lyrics.txt_15,140,cl34-nil-will-meet-[xcomp-prop-mics-sn11,xcomp-prop-juggernaut-sn10,subj-experiencer-angel-sn9,xcomp-prop-mics-sn8,obj-prop-juggernaut-sn7,xcomp-purpose-be-4,obj-actor-angel-sn6,subj-experiencer-you-sn5,def_prop(mics,[informa,tecno]),def_prop(juggernaut,[umano]),def_prop(angel,[plant,umano]),def_prop(mics,[informa,tecno]),def_prop(juggernaut,[umano]),def_prop(angel,[plant,umano]),def_prop(you,[umano])])
+lf(Hero Lyrics.txt_15,140,cl33-nil-nil-be-[xcomp-prop-mics-sn16,subj-theme_bound-juggernaut-sn15,xcomp-prop-mics-sn14,xcomp-prop-angel-sn13,subj-theme_bound-juggernaut-sn12,xcomp-prop-mics-sn4,xcomp-prop-juggernaut-sn3,subj-theme_bound-i-sn2,def_prop(mics,[informa,tecno]),def_prop(juggernaut,[umano]),def_prop(mics,[informa,tecno]),def_prop(angel,[plant,umano]),def_prop(juggernaut,[umano]),def_prop(mics,[informa,tecno]),def_prop(juggernaut,[umano]),def_prop(i,[umano])])
+lf(Hero Lyrics.txt_15,140,cl32-nil-would-believe-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_16,159,cl37-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_16,159,cl36-nil-nil-give-[obj-theme-when-sn2,subj-actor-i-sn1,def_prop(when,[tempo]),def_prop(i,[umano])])
+lf(Hero Lyrics.txt_17,177,cl41-nil-nil-beat-[])
+lf(Hero Lyrics.txt_17,177,cl40-nil-nil-rhyme-[])
+lf(Hero Lyrics.txt_17,177,cl39-nil-nil-be-[])
+lf(Hero Lyrics.txt_17,177,cl38-nil-nil-strike-[coord-prop-black_and_til-sn7,xcomp-prop-til-sn6,xcomp-prop-black-sn5,xcomp-prop-em-sn4,obj-theme-slaughter-sn3,obj-theme_aff-mystique-sn2,subj-agent-you-sn1,def_prop(black_and_til,[estens,informa,tecno]),def_prop(til,[estens,informa,tecno]),def_prop(black,[estens,informa,tecno]),def_prop(em,[nquant]),def_prop(slaughter,[attivita]),def_prop(mystique,[astratto]),def_prop(you,[umano])])
+lf(Hero Lyrics.txt_18,198,cl47-nil-nil-take-[subj-agent-me-sn14,aux-are-nil,progr-taking-nil,xcomp-prop-stuff-sn22,subj-agent-you-sn21,and(stuff,people-s,sn22),and(stuff,other,sn22),def_prop(me,[umano]),def_prop(stuff,[astratto,attivita,informa,oggetto]),def_prop(you,[umano])])
+lf(Hero Lyrics.txt_18,198,cl46-nil-nil-be-[adj-(mod)-kinda-nil,xcomp-theme-cuz-sn19,xcomp-prop-girl-sn18,subj-actor-you-sn17,def_prop(cuz,[istituzione]),def_prop(girl,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Hero Lyrics.txt_18,198,cl45-nil-nil-beat-[])
+lf(Hero Lyrics.txt_18,198,cl44-nil-nil-want-[])
+lf(Hero Lyrics.txt_18,198,cl43-nil-nil-make-[cmod-subord-tell-",adj-(mod)-up-nil,obj-theme_aff-you-sn15,xadj-result-beat-cl45,obj-goal-me-sn14,subj-agent-it-sn13,def_prop(you,[umano]),def_prop(me,[umano]),def_prop(it,[any])])
+lf(Hero Lyrics.txt_18,198,cl42-nil-nil-tell-[adj-temporal-night-nil,subj-theme_unaff-you-sn5,subj-theme_unaff-you-sn4,subj-theme_unaff-crawler-sn3,subj-theme_unaff-poof-sn2,subj-theme_unaff-they-sn1,aux-was-nil,and(you,crawler,sn4),and(crawler,poof,sn3),and(poof,they,sn2),and(they,line,sn1),and(they,bitin,sn1),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(crawler,[animato,umano]),def_prop(poof,[umano]),def_prop(they,[umano])])
+lf(Hero Lyrics.txt_19,222,cl51-nil-nil-be-[xcomp-prop-23-sn10,obj2-benef-broad-sn9,subj-theme_bound-you-sn8,and(broad,all,sn9),def_prop(23,[nquant]),def_prop(broad,[umano]),def_prop(you,[umano])])
+lf(Hero Lyrics.txt_19,222,_-nil-nil-come-[iobj-goal-me-sn3,def_prop(me,[umano])])
+lf(Hero Lyrics.txt_19,222,cl50-nil-nil-pierce-[obj-theme-all-sn5,subj-actor-claw-sn4,xmod-prop-come-3,aux-are-nil,progr-piercing-nil,def_prop(all,[_3207792]),def_prop(claw,[animato])])
+lf(Hero Lyrics.txt_19,222,cl49-nil-nil-come-[iobj-goal-me-sn3,def_prop(me,[umano])])
+lf(Hero Lyrics.txt_19,222,cl48-nil-nil-guy-[subj-theme-you-sn2,obj-theme-when-sn1,def_prop(you,[umano]),def_prop(when,[tempo])])
+lf(Hero Lyrics.txt_20,245,cl52-nil-nil-get-[subj-agent-it-sn2,subj-agent-it-sn1,aux-did-nil,and(it,you,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Hero Lyrics.txt_21,266,cl53-nil-nil-like-[adj-(mod)-well-nil,xcomp-prop-robot-sn2,subj-tema_emot-flow-sn1,aux-(is)-nil,and(robot,those,sn2),def_prop(robot,[informa,oggetto,strumento,tecno]),def_prop(flow,[attivita,evento,tempo])])
+lf(Hero Lyrics.txt_22,288,cl54-nil-will-send-[xcomp-prop-L-sn2,subj-goal-opponent-sn1,aux-be-nil,def_prop(L,[umano]),def_prop(opponent,[relat,sociale,umano])])
+lf(Hero Lyrics.txt_23,311,cl56-nil-nil-run-[xcomp-prop-earth-sn6,subj-agent-game-sn5,def_prop(earth,[sostanza]),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento])])
+lf(Hero Lyrics.txt_23,311,cl55-nil-nil-be-[xcomp-prop-sure-sn3,ncmod-comitativo-gift-sn2,subj-theme_bound-killer-sn1,def_prop(sure,[istituzione]),def_prop(gift,[astratto,oggetto]),def_prop(killer,[astratto,umano])])
+lf(Hero Lyrics.txt_24,336,cl60-nil-nil-read-[subj-agent-you-sn21,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_24,336,cl59-nil-nil-crush-[arg_mod-agent-backbacker-sn20,def_prop(backbacker,[istituzione])])
+lf(Hero Lyrics.txt_24,336,cl58-nil-nil-try-[obj-patient-perp-sn4,xcomp-purpose-crush-4,def_prop(perp,[informa,tecno])])
+lf(Hero Lyrics.txt_24,336,cl57-nil-nil-be-[xcomp-prop-man-sn3,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(man,super,sn3),and(i,flash,sn1),def_prop(man,[any]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Hero Lyrics.txt_25,364,cl61-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_26,390,cl62-nil-nil-be-[subj-theme_bound-task-sn1,def_prop(task,[attivita,informa,legale])])
+lf(Hero Lyrics.txt_27,417,cl65-nil-nil-cap-[ncmod-locativo-america-sn4,subj-agent-you-sn3,def_prop(america,[istituzione,umano]),def_prop(you,[umano])])
+lf(Hero Lyrics.txt_27,417,cl64-nil-nil-get-[subj-theme_bound-pro-nil])
+lf(Hero Lyrics.txt_27,417,cl63-nil-nil-talk-[xcomp-prop-crazy-sn2,subj-actor-you-sn1,def_prop(crazy,[valutativo]),def_prop(you,[umano])])
+lf(Hero Lyrics.txt_28,447,cl68-nil-nil-massacre-[subj-agent-pro-nil])
+lf(Hero Lyrics.txt_28,447,cl67-nil-nil-get-[subj-experiencer-you-sn4,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_28,447,cl66-nil-will-will-[adj-(mod)-even-nil,ncmod-comitativo-sheild-sn2,subj-agent-you-sn1,def_prop(sheild,[istituzione]),def_prop(you,[umano])])
+lf(Hero Lyrics.txt_29,478,cl69-nil-nil-check-[iobj-goal-s-sn4,obj-destination-even-sn3,subj-agent-it-sn2,subj-agent-it-sn1,and(even,son,sn3),and(it,you,sn1),def_prop(s,[tempo]),def_prop(even,[]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Hero Lyrics.txt_30,508,cl70-nil-nil-say-[obj-theme_unaff-H-sn1,def_prop(H,[place,attivita,informa])])
+lf(Hero Lyrics.txt_31,539,cl71-nil-nil-say-[obj-theme_unaff-E-sn1,def_prop(E,[istituzione])])
+lf(Hero Lyrics.txt_32,571,cl72-nil-nil-say-[obj-theme_unaff-i-sn1,def_prop(i,[umano])])
+lf(Hero Lyrics.txt_33,604,cl73-nil-nil-say-[obj-theme_unaff-L-sn1,def_prop(L,[umano])])
+lf(Hero Lyrics.txt_34,638,cl74-nil-nil-be-[subj-theme_bound-D-sn1,and(D,you,sn1),def_prop(D,[istituzione,umano])])
+lf(Hero Lyrics.txt_35,673,cl77-nil-nil-be-[adj-(mod)-mainly-nil,ncmod-relation-writer-sn10,xcomp-prop-venom-sn9,subj-theme_bound-spit-sn8,xcomp-prop-Cravin-sn7,xcomp-theme_unaff-word-sn3,xcomp-purpose-hear-5,and(writer,ghost,sn10),and(spit,some,sn8),and(word,i,sn3),and(word,where,sn3),def_prop(writer,[astratto,attivita,informa,stato,umano]),def_prop(venom,[sostanza]),def_prop(spit,[attivita,oggetto,strumento]),def_prop(Cravin,[istituzione,umano]),def_prop(word,[attivita,informa,nquant])])
+lf(Hero Lyrics.txt_35,673,cl76-nil-nil-hear-[])
+lf(Hero Lyrics.txt_35,673,cl75-nil-nil-need-[subj-experiencer-vulture-sn2,subj-experiencer-vulture-sn1,and(vulture,you,sn1),def_prop(vulture,[animato]),def_prop(vulture,[animato])])
+lf(Hero Lyrics.txt_36,711,cl78-nil-nil-say-[obj-theme_unaff-man-sn1,and(man,watch,sn1),def_prop(man,[any])])
+lf(Hero Lyrics.txt_37,748,cl81-nil-nil-create-[cmod-subord-be-when,obj-prop-abyss-sn6,obj-theme_aff-doomsday-sn5,subj-agent-Brainiac-sn4,and(abyss,endless,sn6),and(Brainiac,this,sn4),def_prop(abyss,[oggetto]),def_prop(doomsday,[tempo]),def_prop(Brainiac,[istituzione,umano])])
+lf(Hero Lyrics.txt_37,748,cl80-nil-nil-start-[subj-actor-bout-sn3,def_prop(bout,[attivita,informa,tempo])])
+lf(Hero Lyrics.txt_37,748,cl79-nil-nil-be-[xcomp-prop-bout-sn2,subj-actor-carnage-sn1,voice-start-cl80,def_prop(bout,[attivita,informa,tempo]),def_prop(carnage,[evento])])
+lf(Hero Lyrics.txt_38,788,cl82-nil-will-will-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_39,827,cl83-nil-nil-send-[obj-theme-where-sn4,obj2-goal-boy-sn3,subj-agent-you-sn2,subj-agent-you-sn1,and(boy,hell,sn3),and(you,you,sn1),def_prop(where,[luogo]),def_prop(boy,[oggetto,strumento]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Hero Lyrics.txt_40,867,cl85-nil-nil-spawn-[subj-theme2-you-sn1,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_40,867,cl84-nil-can-meet-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_41,909,cl87-nil-nil-be-[xcomp-prop-farewell-sn3,subj-theme_bound-you-sn2,def_prop(farewell,[attivita,informa]),def_prop(you,[umano])])
+lf(Hero Lyrics.txt_41,909,cl86-nil-nil-bid-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_42,952,cl88-nil-nil-say-[obj-theme_unaff-Boy-sn1,def_prop(Boy,[umano])])
+lf(Hero Lyrics.txt_43,995,cl91-nil-nil-knock-[xcomp-prop-unconscious-sn5,obj-theme-him-sn4,iobj-goal-fight-sn3,subj-actor-Wayne-sn2,and(fight,hard,sn3),def_prop(unconscious,[astratto,stato]),def_prop(him,[umano]),def_prop(fight,[attivita,informa]),def_prop(Wayne,[place,umano])])
+lf(Hero Lyrics.txt_43,995,cl90-nil-nil-leave-[cmod-coord-knock-and,ncmod-modal-dark-sn8,obj-theme-him-sn7,subj-theme-you-sn6,def_prop(dark,[valutativo]),def_prop(him,[umano]),def_prop(you,[umano])])
+lf(Hero Lyrics.txt_43,995,cl89-nil-will-bruise-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_44,1041,cl94-nil-will-die-[subj-theme_aff-either-sn4,subj-theme_aff-either-sn3,and(either,you,sn3),def_prop(either,[istituzione]),def_prop(either,[istituzione])])
+lf(Hero Lyrics.txt_44,1041,cl93-not-can-see-[adj-temporal-night-nil,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_44,1041,cl92-nil-nil-wing-[adj-(mod)-die-nil])
+lf(Hero Lyrics.txt_45,1088,cl97-nil-will-fly-[xcomp-prop-away-sn7,subj-agent-he-sn6,ncmod-locativo-build-sn3,def_prop(away,[evaluative]),def_prop(he,[umano]),def_prop(build,[body_part,umano])])
+lf(Hero Lyrics.txt_45,1088,cl96-nil-nil-see-[])
+lf(Hero Lyrics.txt_45,1088,cl95-nil-will-toss-[adj-(mod)-just-nil,adj-temporal-today-nil,obj-theme_aff-him-sn2,subj-agent-i-sn1,def_prop(him,[umano]),def_prop(i,[umano])])
+lf(Hero Lyrics.txt_46,1136,cl99-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_46,1136,cl98-nil-will-face-[subj-actor-face-sn3,obj-theme_aff-face-sn3,obj-actor-face-sn2,sn2-two-nil,subj-experiencer-i-sn1,and(face,two,sn2),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(two,[_3213868]),def_prop(i,[umano])])
+lf(Hero Lyrics.txt_47,1184,cl102-nil-nil-be-[cmod-subord-be-",ncmod-comitativo-foot-sn23,subj-theme_bound-boy-sn22,def_prop(foot,[animato,attivita,body_part,luogo,nquant,oggetto,strumento,umano]),def_prop(boy,[oggetto,strumento])])
+lf(Hero Lyrics.txt_47,1184,cl101-nil-nil-stomp-[obj-theme-penguin-sn21,subj-agent-you-sn20,def_prop(penguin,[animato]),def_prop(you,[umano])])
+lf(Hero Lyrics.txt_47,1184,cl100-nil-will-will-[subj-agent-face-sn7,subj-agent-face-sn6,coord-agent-face_and_scrape-sn5,subj-agent-scrape-sn4,subj-agent-face-sn3,subj-agent-break-sn2,subj-agent-i-sn1,and(face,scrape,sn6),and(break,face_and_scrape-sn12,sn2),and(break,scrape-sn4,sn2),and(break,face-sn3,sn2),and(break,i,sn2),and(i,blade,sn1),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(face_and_scrape,[astratto,attivita,body_part,oggetto,strumento,umano,attivita,evento,informa]),def_prop(scrape,[astratto,attivita,body_part,oggetto,strumento,umano,attivita,evento,informa]),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano,attivita,evento,informa]),def_prop(break,[attivita,evento]),def_prop(i,[umano])])
+lf(Hero Lyrics.txt_48,1234,cl104-nil-will-get-[cmod-subord-get-",cmod-subord-get-if,subj-agent-poison-sn4,obj-theme_unaff-poison-sn3,subj-agent-he-sn2,def_prop(poison,[astratto,sostanza]),def_prop(poison,[astratto,sostanza]),def_prop(he,[umano])])
+lf(Hero Lyrics.txt_48,1234,cl103-nil-nil-survive-[subj-agent-he-sn1,def_prop(he,[umano])])
+lf(Hero Lyrics.txt_49,1284,cl107-nil-nil-love-[xadj-theme-scheme-sn6,subj-experiencer-i-sn5,def_prop(scheme,[astratto]),def_prop(i,[umano])])
+lf(Hero Lyrics.txt_49,1284,cl106-nil-nil-be-[ncmod-locativo-this-sn4,xcomp-prop-cold-sn3,subj-theme_bound-i-sn2,def_prop(this,[oggetto,umano]),def_prop(cold,[valutativo]),def_prop(i,[umano])])
+lf(Hero Lyrics.txt_49,1284,cl105-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_50,1336,cl108-nil-nil-write-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_51,1387,cl109-nil-nil-miss-[adj-(mod)-honestly-nil,obj-theme-pen-sn3,obj-tema_eff-Stan-sn2,subj-experiencer-i-sn1,and(pen,lee-s,sn3),and(Stan,free,sn2),def_prop(pen,[animato,oggetto,strumento]),def_prop(Stan,[umano]),def_prop(i,[umano])])
+lf(Hero Lyrics.txt_52,1439,cl111-nil-can-defeat-[])
+lf(Hero Lyrics.txt_52,1439,cl110-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Hero Lyrics.txt_53,1493,cl112-nil-nil-people-[])

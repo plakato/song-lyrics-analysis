@@ -1,0 +1,66 @@
+"POLARITY, DISCOURSE MARKERS"
+
+18 A.D. Lyrics.txt_1-1  []-positive  []
+18 A.D. Lyrics.txt_2-3  []-positive  []
+18 A.D. Lyrics.txt_3-6  []-positive  []
+18 A.D. Lyrics.txt_4-10  []-negative  [neg]
+18 A.D. Lyrics.txt_5-15  []-negative  [neg]
+18 A.D. Lyrics.txt_6-21  []-negative  [neg]
+18 A.D. Lyrics.txt_7-28  []-positive  []
+18 A.D. Lyrics.txt_8-36  []-positive  []
+18 A.D. Lyrics.txt_9-45  []-positive  []
+18 A.D. Lyrics.txt_10-55  []-positive  []
+18 A.D. Lyrics.txt_11-66  []-negative  [neg]
+18 A.D. Lyrics.txt_12-78  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+18 A.D. Lyrics.txt_1-1  [18,a]  [title]
+18 A.D. Lyrics.txt_2-3  [D]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+18 A.D. Lyrics.txt_3-6  [Lyrics,by,queens,of,the,Stone,age]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+18 A.D. Lyrics.txt_4-10  [there,is,no,yesterday]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+18 A.D. Lyrics.txt_5-15  [there,is,no,tomorrow]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+18 A.D. Lyrics.txt_6-21  [can,not,ask,me,in,other,words]  [reject_expl_just(ask,[external,nonfactive,narration,foreground,objective])]
+18 A.D. Lyrics.txt_7-28  [over_and_over]  [raise_issue(be,[_31730,factive,statement,_31748,subjective])]
+18 A.D. Lyrics.txt_8-36  [we,have,forgotten]  [provide_expl_just(forget,[external,factive,narration,background,objective])]
+18 A.D. Lyrics.txt_9-45  [over_and_over]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+18 A.D. Lyrics.txt_10-55  [over_and_over]  [raise_issue(be,[_32804,factive,statement,_32822,subjective])]
+18 A.D. Lyrics.txt_11-66  [there,is,no,tomorrow]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+18 A.D. Lyrics.txt_12-78  [there,is,no,tomorrow]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(18 A.D. Lyrics.txt_1-1)-[]
+2-(18 A.D. Lyrics.txt_2-3)-[]
+3-(18 A.D. Lyrics.txt_3-6)-[]
+4-(18 A.D. Lyrics.txt_4-10)-[secondary-temporal_repere]
+5-(18 A.D. Lyrics.txt_5-15)-[]
+6-(18 A.D. Lyrics.txt_6-21)-[secondary-social_behavior]
+half
+7-(18 A.D. Lyrics.txt_7-28)-[]
+8-(18 A.D. Lyrics.txt_8-36)-[]
+9-(18 A.D. Lyrics.txt_9-45)-[]
+10-(18 A.D. Lyrics.txt_10-55)-[]
+11-(18 A.D. Lyrics.txt_11-66)-[]
+12-(18 A.D. Lyrics.txt_12-78)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(18 A.D. Lyrics.txt_1,1,cl1-nil-nil-say-[])
+lf(18 A.D. Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-D-sn1,def_prop(D,[istituzione,umano])])
+lf(18 A.D. Lyrics.txt_3,6,cl3-nil-nil-be-[adj-temporal-age-nil,ncmod-specif-Stone-sn3,arg_mod-agent-queen-sn2,subj-theme_bound-Lyrics-sn1,def_prop(Stone,[place,umano]),def_prop(queen,[animato,oggetto,plant,strumento,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(18 A.D. Lyrics.txt_4,10,cl4-nil-nil-be-[])
+lf(18 A.D. Lyrics.txt_5,15,cl5-nil-nil-be-[])
+lf(18 A.D. Lyrics.txt_6,21,cl6-not-can-ask-[ncmod-temporale-word-sn3,obj-theme_unaff-me-sn2,subj-actor-you-sn1,and(word,other,sn3),def_prop(word,[attivita,informa,nquant]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(18 A.D. Lyrics.txt_7,28,cl7-nil-nil-say-[])
+lf(18 A.D. Lyrics.txt_8,36,cl8-nil-nil-forget-[subj-experiencer-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(18 A.D. Lyrics.txt_9,45,cl9-nil-nil-say-[])
+lf(18 A.D. Lyrics.txt_10,55,cl10-nil-nil-say-[])
+lf(18 A.D. Lyrics.txt_11,66,cl11-nil-nil-be-[])
+lf(18 A.D. Lyrics.txt_12,78,cl12-nil-nil-be-[])

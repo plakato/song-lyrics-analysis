@@ -1,0 +1,108 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Fight For More Lyrics.txt_1-1  []-negative  [neg]
+Fight For More Lyrics.txt_2-3  []-positive  [ack]
+Fight For More Lyrics.txt_2-4  []-positive  []
+Fight For More Lyrics.txt_3-7  [then-temp_seq]-negative  [neg,neg]
+Fight For More Lyrics.txt_4-12  []-positive  []
+Fight For More Lyrics.txt_5-18  [but-advers]-suspension  [neg,fgb,neg,neg,neg]
+Fight For More Lyrics.txt_6-24  []-positive  []
+Fight For More Lyrics.txt_7-31  [if-hypoth]-positive  [fgb]
+Fight For More Lyrics.txt_7-32  []-positive  [fgb,fhd,fhd]
+Fight For More Lyrics.txt_8-40  []-positive  []
+Fight For More Lyrics.txt_9-50  []-negative  [neg]
+Fight For More Lyrics.txt_10-60  []-positive  []
+Fight For More Lyrics.txt_11-71  []-positive  [neg]
+Fight For More Lyrics.txt_12-83  []-suspension  [neg,neg,neg]
+Fight For More Lyrics.txt_13-97  []-suspension  [neg,neg]
+Fight For More Lyrics.txt_14-111  []-suspension  [neg,fgb,neg]
+Fight For More Lyrics.txt_15-126  [but-advers]-suspension  [fgb,neg,neg,fgb,neg]
+Fight For More Lyrics.txt_15-127  []-positive  [fgb]
+Fight For More Lyrics.txt_16-143  []-suspension  [neg,neg,ack]
+Fight For More Lyrics.txt_17-161  []-negative  [neg]
+Fight For More Lyrics.txt_17-162  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Fight For More Lyrics.txt_1-1  [fight,for,more,Lyrics,by,ZSK]  [title]
+Fight For More Lyrics.txt_2-3  [in,this,society,the,opportunity,to,use,your,right]  [provide_expl_just(use,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Fight For More Lyrics.txt_2-4  [free,speech]  [provide_expl_just(use,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Fight For More Lyrics.txt_3-7  [now,an,then,is,getting,lost,in,clouds,of,tear,gas]  [reject_expl_just(get,[external,factive,narration,foreground,objective]),reject_expl_just(tear,[external,factive,narration,background,objective])]
+Fight For More Lyrics.txt_4-12  [the,kind,of,government,you,?,is,this,are,looking,for]  [provide_expl_just(look,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Fight For More Lyrics.txt_5-18  [just,close,eyes,but,the,injustice,will,not,fade,out]  [provide_expl_just(fade,[external,nonfactive,narration,background,objective])]
+Fight For More Lyrics.txt_6-24  [get,a,move,on]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Fight For More Lyrics.txt_7-31  [if,that,is]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective])]
+Fight For More Lyrics.txt_7-32  [what,your,democracy,looks,like,.,your,democracy,looks,like]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective])]
+Fight For More Lyrics.txt_8-40  [we,have_got,to,move,on]  [provide_expl_just(move,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+Fight For More Lyrics.txt_9-50  [it,is,a,tragedy,of,this,democracy]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Fight For More Lyrics.txt_10-60  [the,goal]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Fight For More Lyrics.txt_11-71  [a,your,positive,change,answer,is,a,punch,in,my,face]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Fight For More Lyrics.txt_12-83  [faced,by,unscrupulous,cops,beating,us,up,,,putting,us,in,prison]  [provide_expl_just(beat,[external,factive,cause,foreground,objective])]
+Fight For More Lyrics.txt_13-97  [we,have_to,cut,our,losses]  [suggest(be,[_141146,_141152,statement,background,_141170])]
+Fight For More Lyrics.txt_14-111  [fight,back,and,that,is,our,protest]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Fight For More Lyrics.txt_15-126  [but,oppression,breeds,resistance,and,resistance,is]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Fight For More Lyrics.txt_15-127  [what,we,need,.,we,need]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Fight For More Lyrics.txt_16-143  [despite,police,brutality,we,will,defend,our,right,to,speak]  [provide_expl_just(defend,[external,nonfactive,narration,background,objective]),provide_expl_just(speak,[external,factive,narration,background,objective])]
+Fight For More Lyrics.txt_17-161  [we,have_got,to,fight]  [reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(fight,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Fight For More Lyrics.txt_17-162  [for,more]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(fight,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Fight For More Lyrics.txt_1-1)-[emotions-aggression]
+2-(Fight For More Lyrics.txt_2-3)-[secondary-instru_behavior,secondary-moral_imperative]
+3-(Fight For More Lyrics.txt_2-4)-[secondary-social_behavior]
+4-(Fight For More Lyrics.txt_3-7)-[secondary-temporal_repere,secondary-temporal_repere,primary-diffusion,primary-orality]
+5-(Fight For More Lyrics.txt_4-12)-[emotions-affection]
+6-(Fight For More Lyrics.txt_5-18)-[primary-concreteness,primary-narcissism,primary-diffusion,primary-concreteness]
+7-(Fight For More Lyrics.txt_6-24)-[]
+8-(Fight For More Lyrics.txt_7-31)-[]
+9-(Fight For More Lyrics.txt_7-32)-[primary-vision,emotions-affection,primary-vision,emotions-affection]
+10-(Fight For More Lyrics.txt_8-40)-[]
+half
+11-(Fight For More Lyrics.txt_9-50)-[emotions-sadness]
+12-(Fight For More Lyrics.txt_10-60)-[secondary-instru_behavior]
+13-(Fight For More Lyrics.txt_11-71)-[secondary-social_behavior,primary-narcissism]
+14-(Fight For More Lyrics.txt_12-83)-[primary-narcissism,secondary-restraint]
+15-(Fight For More Lyrics.txt_13-97)-[emotions-aggression]
+16-(Fight For More Lyrics.txt_14-111)-[emotions-aggression,primary-concreteness,emotions-aggression]
+17-(Fight For More Lyrics.txt_15-126)-[]
+18-(Fight For More Lyrics.txt_15-127)-[]
+19-(Fight For More Lyrics.txt_16-143)-[secondary-restraint,secondary-moral_imperative,secondary-social_behavior]
+20-(Fight For More Lyrics.txt_17-161)-[emotions-aggression]
+21-(Fight For More Lyrics.txt_17-162)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Fight For More Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-ZSK-sn3,subj-theme_bound-Lyrics-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,fight,sn1),def_prop(ZSK,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(Lyrics,[informa,tecno])])
+lf(Fight For More Lyrics.txt_2,3,cl3-nil-nil-be-[subj-theme_bound-speech-sn7,and(speech,free,sn7),def_prop(speech,[attivita,informa])])
+lf(Fight For More Lyrics.txt_2,3,cl2-nil-nil-use-[obj-prop-right-sn3,ncmod-locativo-society-sn2,subj-actor-opportunity-sn1,and(society,this,sn2),def_prop(right,[astratto,attivita,body_part,istituzione,luogo,oggetto,umano]),def_prop(society,[istituzione]),def_prop(opportunity,[stato])])
+lf(Fight For More Lyrics.txt_3,7,cl5-nil-nil-tear-[xcomp-prop-gas-sn2,adj-subj_disc-now-sn1,def_prop(gas,[sostanza,stato]),def_prop(now,[istituzione])])
+lf(Fight For More Lyrics.txt_3,7,cl4-nil-nil-get-[cmod-subord-tear-then,iobj-goal-cloud-sn5,xcomp-prop-lost-sn4,subj-theme_bound-you-sn3,aux-(is)-nil,progr-getting-nil,def_prop(cloud,[attivita,cambia,oggetto,stato]),def_prop(lost,[istituzione]),def_prop(you,[umano])])
+lf(Fight For More Lyrics.txt_4,12,cl7-nil-nil-look-[cmod-subord-be-nil,subj-locat-kind-sn1,aux-are-nil,progr-looking-nil,and(kind,you,sn1),def_prop(kind,[astratto])])
+lf(Fight For More Lyrics.txt_4,12,cl6-nil-nil-be-[subj-theme_bound-kind-sn1,and(kind,you,sn1),def_prop(kind,[astratto])])
+lf(Fight For More Lyrics.txt_5,18,cl8-not-will-fade-[cmod-subord-fade-but,adj-(mod)-out-nil,subj-experiencer-injustice-sn2,def_prop(injustice,[astratto,attivita])])
+lf(Fight For More Lyrics.txt_6,24,cl9-nil-nil-get-[obj-theme_unaff-move-sn2,subj-agent-you-sn1,def_prop(move,[attivita]),def_prop(you,[umano])])
+lf(Fight For More Lyrics.txt_7,31,cl11-nil-nil-look-[subj-agent-democracy-sn2,def_prop(democracy,[astratto,istituzione])])
+lf(Fight For More Lyrics.txt_7,31,cl10-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Fight For More Lyrics.txt_8,40,cl12-nil-nil-move-[])
+lf(Fight For More Lyrics.txt_8,40,nil-nil-nil-have-[subj-experiencer-we-sn1,def_prop(we,[umano])])
+lf(Fight For More Lyrics.txt_9,50,cl13-nil-nil-be-[xcomp-prop-tragedy-sn2,subj-theme_bound-it-sn1,def_prop(tragedy,[attivita,informa]),def_prop(it,[any])])
+lf(Fight For More Lyrics.txt_10,60,cl14-nil-nil-say-[obj-theme_unaff-goal-sn1,def_prop(goal,[astratto,attivita,oggetto,strumento])])
+lf(Fight For More Lyrics.txt_11,71,cl15-nil-nil-be-[xcomp-prop-punch-sn2,subj-theme_bound-answer-sn1,def_prop(punch,[attivita,edible,oggetto,strumento]),def_prop(answer,[attivita,informa])])
+lf(Fight For More Lyrics.txt_12,83,cl17-nil-nil-put-[adj-(mod)-up-nil,obj-theme_aff-us-sn3,xcomp-purpose-beat-2,arg_mod-agent-cop-sn2,subj-agent-us-sn1,and(cop,unscrupulous,sn2),def_prop(us,[umano]),def_prop(cop,[relat,sociale,umano]),def_prop(us,[umano])])
+lf(Fight For More Lyrics.txt_12,83,cl16-nil-nil-beat-[xadj-adj-faced-adj1,ncmod-locativo-prison-sn4,def_prop(faced,_148660),def_prop(prison,[oggetto,stato,strumento])])
+lf(Fight For More Lyrics.txt_13,97,cl18-nil-have_to-cut-[obj-theme_aff-loss-sn2,subj-agent-we-sn1,def_prop(loss,[astratto,attivita,evento,oggetto]),def_prop(we,[umano])])
+lf(Fight For More Lyrics.txt_14,111,cl19-nil-nil-be-[cmod-coord-be-and,xcomp-prop-protest-sn4,subj-theme_bound-that-sn3,def_prop(protest,[attivita,informa]),def_prop(that,[oggetto,umano])])
+lf(Fight For More Lyrics.txt_15,126,cl21-nil-nil-need-[subj-experiencer-we-sn2,def_prop(we,[umano])])
+lf(Fight For More Lyrics.txt_15,126,cl20-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Fight For More Lyrics.txt_16,143,cl23-nil-nil-speak-[subj-patient-right-sn3,def_prop(right,[astratto,attivita,body_part,istituzione,luogo,oggetto,umano])])
+lf(Fight For More Lyrics.txt_16,143,cl22-nil-will-defend-[obj-theme-right-sn3,ncmod-modale-brutality-sn2,subj-agent-we-sn1,and(brutality,police,sn2),def_prop(right,[astratto,attivita,body_part,istituzione,luogo,oggetto,umano]),def_prop(brutality,[attivita]),def_prop(we,[umano])])
+lf(Fight For More Lyrics.txt_17,161,cl25-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Fight For More Lyrics.txt_17,161,cl24-nil-nil-fight-[adj-(mod)-be-nil,subj-tema_nonaff-we-sn1,def_prop(we,[umano])])
+lf(Fight For More Lyrics.txt_17,161,nil-nil-nil-have-[subj-experiencer-we-sn1,def_prop(we,[umano])])

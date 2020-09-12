@@ -1,0 +1,78 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Pornstorestiffi Lyrics.txt_1-1  []-positive  []
+Pornstorestiffi Lyrics.txt_2-3  []-positive  []
+Pornstorestiffi Lyrics.txt_3-6  []-positive  []
+Pornstorestiffi Lyrics.txt_4-10  []-negative  [neg,neg]
+Pornstorestiffi Lyrics.txt_5-15  [but-advers]-positive  [fgb,fhd]
+Pornstorestiffi Lyrics.txt_6-22  []-positive  [fhd]
+Pornstorestiffi Lyrics.txt_7-29  []-positive  []
+Pornstorestiffi Lyrics.txt_7-30  []-positive  [fgb]
+Pornstorestiffi Lyrics.txt_8-37  []-positive  [fhd]
+Pornstorestiffi Lyrics.txt_9-46  []-positive  []
+Pornstorestiffi Lyrics.txt_10-56  []-suspension  []
+Pornstorestiffi Lyrics.txt_10-57  []-positive  [fgb]
+Pornstorestiffi Lyrics.txt_11-68  []-suspension  [neg]
+Pornstorestiffi Lyrics.txt_12-80  []-positive  []
+Pornstorestiffi Lyrics.txt_13-93  []-suspension  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Pornstorestiffi Lyrics.txt_1-1  [pornstorestiffi,Lyrics,by,Blood,Duster]  [title]
+Pornstorestiffi Lyrics.txt_2-3  [i,am,catching,the,bus]  [provide_expl_just(catch,[external,factive,narration,foreground,objective])]
+Pornstorestiffi Lyrics.txt_3-6  [to,go,down,to,my,favourite,place]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+Pornstorestiffi Lyrics.txt_4-10  [it,is,not,the,nicest,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Pornstorestiffi Lyrics.txt_5-15  [but,it,is,where,i,like,to,show,my,face]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Pornstorestiffi Lyrics.txt_6-22  [i,like,them,porn,stores]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+Pornstorestiffi Lyrics.txt_7-29  [there,is,nudes]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Pornstorestiffi Lyrics.txt_7-30  [and,it,is,all,free]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Pornstorestiffi Lyrics.txt_8-37  [i,like,to,wander,round]  [provide_expl_just(wander,[external,factive,narration,background,objective])]
+Pornstorestiffi Lyrics.txt_9-46  [rubbing,my,stiffie]  [provide_expl_just(rub,[external,factive,narration,foreground,objective])]
+Pornstorestiffi Lyrics.txt_10-56  [a,will,mag,i,may,be,standing,there]  [provide_expl_just(stand,[external,nonfactive,narration,foreground,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Pornstorestiffi Lyrics.txt_10-57  [and,take,my,fancy]  [provide_expl_just(stand,[external,nonfactive,narration,foreground,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Pornstorestiffi Lyrics.txt_11-68  [i,will,rub,myself,to,cum,still]  [provide_expl_just(rub,[external,nonfactive,narration,background,objective])]
+Pornstorestiffi Lyrics.txt_12-80  [it,is,quite,relaxing]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Pornstorestiffi Lyrics.txt_13-93  [i,will,cum,on,you]  [provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Pornstorestiffi Lyrics.txt_1-1)-[]
+2-(Pornstorestiffi Lyrics.txt_2-3)-[]
+3-(Pornstorestiffi Lyrics.txt_3-6)-[primary-concreteness]
+4-(Pornstorestiffi Lyrics.txt_4-10)-[]
+5-(Pornstorestiffi Lyrics.txt_5-15)-[primary-concreteness,emotions-affection,primary-narcissism]
+6-(Pornstorestiffi Lyrics.txt_6-22)-[emotions-affection,secondary-abstract_tought]
+7-(Pornstorestiffi Lyrics.txt_7-29)-[primary-sex]
+half
+8-(Pornstorestiffi Lyrics.txt_7-30)-[]
+9-(Pornstorestiffi Lyrics.txt_8-37)-[emotions-affection,primary-voyage,primary-concreteness]
+10-(Pornstorestiffi Lyrics.txt_9-46)-[primary-hard]
+11-(Pornstorestiffi Lyrics.txt_10-56)-[secondary-abstract_tought]
+12-(Pornstorestiffi Lyrics.txt_10-57)-[]
+13-(Pornstorestiffi Lyrics.txt_11-68)-[primary-touch]
+14-(Pornstorestiffi Lyrics.txt_12-80)-[]
+15-(Pornstorestiffi Lyrics.txt_13-93)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Pornstorestiffi Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Duster-sn2,subj-theme_bound-Lyrics-sn1,and(Duster,Blood,sn2),and(Lyrics,pornstorestiffi,sn1),def_prop(Duster,[place,attivita,oggetto,strumento,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Pornstorestiffi Lyrics.txt_2,3,cl2-nil-nil-catch-[obj-goal-bus-sn2,subj-agent-i-sn1,aux-am-nil,progr-catching-nil,def_prop(bus,[oggetto,strumento]),def_prop(i,[umano])])
+lf(Pornstorestiffi Lyrics.txt_3,6,cl3-nil-nil-go-[adj-(mod)-down-nil,iobj-goal-place-sn2,subj-agent-you-sn1,and(place,favourite,sn2),def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(you,[umano])])
+lf(Pornstorestiffi Lyrics.txt_4,10,cl4-not-nil-be-[xcomp-prop-nicest-sn2,subj-theme_bound-it-sn1,def_prop(nicest,[istituzione]),def_prop(it,[any])])
+lf(Pornstorestiffi Lyrics.txt_5,15,cl6-nil-nil-show-[])
+lf(Pornstorestiffi Lyrics.txt_5,15,cl5-nil-nil-be-[subj-theme_bound-it-sn1,def_prop(it,[any])])
+lf(Pornstorestiffi Lyrics.txt_6,22,nil-nil-nil-like-[obj-theme_aff-store-sn3,obj-tema_emot-them-sn2,subj-experiencer-i-sn1,and(store,porn,sn3),def_prop(store,[astratto,oggetto]),def_prop(them,[umano]),def_prop(i,[umano])])
+lf(Pornstorestiffi Lyrics.txt_7,29,cl7-nil-nil-be-[cmod-subord-be-",xcomp-prop-free-sn5,xcomp-prop-all-sn4,subj-theme_bound-it-sn3,xcomp-prop-nude-sn2,subj-theme_bound-there-sn1,def_prop(free,[valutativo]),def_prop(all,[_506216]),def_prop(it,[any]),def_prop(nude,[oggetto,stato,strumento,umano]),def_prop(there,[any])])
+lf(Pornstorestiffi Lyrics.txt_8,37,cl8-nil-nil-wander-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Pornstorestiffi Lyrics.txt_9,46,cl9-nil-nil-rub-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Pornstorestiffi Lyrics.txt_10,56,cl11-nil-nil-take-[cmod-subord-take-",obj-theme_aff-fancy-sn7,subj-agent-you-sn6,def_prop(fancy,[astratto]),def_prop(you,[umano])])
+lf(Pornstorestiffi Lyrics.txt_10,56,cl10-nil-may-stand-[adj-(mod)-there-nil,subj-experiencer-i-sn2,subj-experiencer-i-sn1,aux-be-nil,progr-standing-nil,and(i,mag,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Pornstorestiffi Lyrics.txt_11,68,cl12-nil-will-rub-[adj-(mod)-still-nil,ncmod-goal-cum-sn3,obj-patient-myself-sn2,subj-agent-i-sn1,def_prop(cum,[istituzione,umano]),def_prop(myself,[umano]),def_prop(i,[umano])])
+lf(Pornstorestiffi Lyrics.txt_12,80,cl13-nil-nil-be-[xcomp-prop-relaxing-sn2,subj-theme_bound-it-sn1,def_prop(relaxing,[istituzione]),def_prop(it,[any])])
+lf(Pornstorestiffi Lyrics.txt_13,93,cl14-nil-will-will-[ncmod-locativo-you-sn3,obj-theme_aff-cum-sn2,subj-agent-i-sn1,def_prop(you,[umano]),def_prop(cum,[istituzione,umano]),def_prop(i,[umano])])

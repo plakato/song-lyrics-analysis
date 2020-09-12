@@ -1,0 +1,215 @@
+"POLARITY, DISCOURSE MARKERS"
+
+1998.txt_1-1  []-positive  []
+1998.txt_2-3  []-positive  []
+1998.txt_3-7  []-positive  [fhd,neg]
+1998.txt_4-11  []-positive  []
+1998.txt_5-17  [so-result]-positive  [fgb]
+1998.txt_6-24  []-positive  [fhd]
+1998.txt_7-31  [while-temp_coinc]-positive  [neg]
+1998.txt_8-40  []-negative  [neg]
+1998.txt_9-49  []-positive  [fhd,fgb]
+1998.txt_10-59  []-negative  [neg]
+1998.txt_11-70  [but-advers]-positive  [fgb]
+1998.txt_11-71  []-positive  []
+1998.txt_12-84  []-positive  []
+1998.txt_13-97  []-positive  []
+1998.txt_14-111  []-question  [neg]
+1998.txt_15-127  []-question  []
+1998.txt_16-143  []-suspension  []
+1998.txt_17-161  []-negative  [neg,fhd]
+1998.txt_17-162  []-positive  []
+1998.txt_18-179  []-negative  [neg,fgb]
+1998.txt_19-199  []-negative  [fgb,neg,fhd]
+1998.txt_20-219  []-negative  [neg]
+1998.txt_20-220  []-positive  []
+1998.txt_21-241  []-negative  [neg]
+1998.txt_21-242  []-positive  []
+1998.txt_22-264  []-positive  []
+1998.txt_23-287  []-positive  []
+1998.txt_24-311  [if-hypoth,then-temp_seq]-positive  [fgb]
+1998.txt_25-336  [if-hypoth]-positive  [fgb]
+1998.txt_25-337  [then-temp_seq]-positive  []
+1998.txt_25-338  []-negative  [neg]
+1998.txt_26-365  [if-hypoth]-negative  [fgb,neg,neg,neg]
+1998.txt_26-366  []-positive  []
+1998.txt_27-394  []-negative  [neg]
+1998.txt_28-422  []-negative  [fhd,fhd,neg]
+1998.txt_29-452  [if-hypoth]-negative  [fgb,neg]
+1998.txt_30-482  [if-hypoth,then-temp_seq]-positive  [fgb,fgb]
+1998.txt_31-513  []-positive  []
+1998.txt_31-514  []-positive  []
+1998.txt_32-545  []-positive  []
+1998.txt_32-546  []-negative  [neg]
+1998.txt_33-578  []-positive  []
+1998.txt_34-612  [if-hypoth]-negative  [fgb,fgb,fhd,neg,neg]
+1998.txt_35-648  [if-hypoth,then-temp_seq]-negative  [fgb,neg,neg]
+1998.txt_36-684  []-question  []
+1998.txt_37-721  []-question  [neg]
+1998.txt_37-722  []-negative  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+1998.txt_1-1  [1998,by,Aziz]  [title]
+1998.txt_2-3  [i,am,tryna,get,a,timeshare,in,every,time_zone]  [provide_expl_just(get,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+1998.txt_3-7  [like,a,tickin,time,bomb]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+1998.txt_4-11  [couple,ticky,tocks,i,til,am,on]  [provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(couple,[external,factive,explanation,background,objective])]
+1998.txt_5-17  [the,times,here,so,catch,me,for,i,am,gone]  [provide_expl_just(catch,[external,factive,narration,background,objective])]
+1998.txt_6-24  [make,a,stint,with,my,entourage,like,Saigon]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+1998.txt_7-31  [catch,me,while,the,shows,are,cheap]  [provide_expl_just(catch,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+1998.txt_8-40  [damn]  reject_expl_opin(nil,[])
+1998.txt_9-49  [or,pray,and,kiss,ya,rosary]  [provide_expl_just(kiss,[external,factive,narration,background,objective])]
+1998.txt_10-59  [that,,,nobody,will,notice,me]  [reject_expl_just(notice,[external,factive,narration,background,objective])]
+1998.txt_11-70  [but,the,opposite,is,happening]  [provide_expl_just(happen,[external,factive,narration,foreground,objective]),provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+1998.txt_11-71  [you,find,me,where,the,hoes-ll,be]  [provide_expl_just(happen,[external,factive,narration,foreground,objective]),provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+1998.txt_12-84  [i,choose,door,one,with,the,promise,behind,it]  [provide_expl_just(choose,[external,factive,narration,background,objective])]
+1998.txt_13-97  [Jimmy,is,bond,was,pondering,in,the,quantum,of,solace]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+1998.txt_14-111  [woods,the,in,shit,bears,do,?]  [provide_expl_just(bear,[internal,factive,narration,background,objective]),provide_expl_just(shit,[internal,factive,narration,foreground,objective])]
+1998.txt_15-127  [daughter,your,you,father,did,?]  [provide_expl_just(father,[internal,factive,narration,background,objective])]
+1998.txt_16-143  [hear,the,awkwardest,silence,i,am,often,reminded]  [provide_expl_just(remind,[external,factive,narration,foreground,objective]),provide_expl_just(hear,[external,factive,narration,background,objective])]
+1998.txt_17-161  [these,niggas,is,shady,like]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+1998.txt_17-162  [the,eyes,of,a,baby,rockin,a,bonnet]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+1998.txt_18-179  [gimme,the,beat,and,i,am,hoppin,up,on,it]  [reject_expl_just(gimme,[external,factive,circumstance,background,objective]),propose_opin_neg(gimme,[external,factive,circumstance,background,objective])]
+1998.txt_19-199  [its,only,time,and,it,pass,like,Rubio]  [reject_expl_just(be,[_803436,_803442,_803448,_803454,_803460])]
+1998.txt_20-219  [i,it,fuck]  [reject_expl_just(fuck,[external,factive,narration,background,objective]),reject_expl_just(i,[internal,factive,narration,background,objective])]
+1998.txt_20-220  [am,on,it]  [provide_expl_just(fuck,[external,factive,narration,background,objective]),provide_expl_just(i,[internal,factive,narration,background,objective])]
+1998.txt_21-241  [your,you,talent,look,for,not,gonna]  [reject_expl_just(gonna,[external,factive,narration,background,objective]),reject_expl_just(find,[external,factive,narration,background,objective])]
+1998.txt_21-242  [it,find]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,background,objective])]
+1998.txt_22-264  [hey]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+1998.txt_23-287  [now,here,some,ebonics,go]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+1998.txt_24-311  [if,you,hip,then,you,familiar]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+1998.txt_25-336  [if,he,say]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(dry,[external,factive,narration,background,objective]),provide_expl_just(sell,[external,factive,narration,background,objective])]
+1998.txt_25-337  [that,he,dry,then,he,just,got]  [provide_expl_just(say,[external,factive,narration,background,objective]),provide_expl_just(dry,[external,factive,narration,background,objective]),provide_expl_just(sell,[external,factive,narration,background,objective])]
+1998.txt_25-338  [Nothin,sell,ya]  [reject_expl_just(say,[external,factive,narration,background,objective]),reject_expl_just(dry,[external,factive,narration,background,objective]),reject_expl_just(sell,[external,factive,narration,background,objective])]
+1998.txt_26-365  [if,she,not,fuckin,wit,you,that,mean,she]  [reject_expl_just(wit,[external,factive,narration,background,objective]),reject_expl_just(feel,[external,factive,narration,background,objective]),reject_expl_just(mean,[external,factive,narration,background,objective])]
+1998.txt_26-366  [doesnt,feel,ya]  [provide_expl_just(wit,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(mean,[external,factive,narration,background,objective])]
+1998.txt_27-394  [a,L,can,mean,a,couple,things]  [reject_expl_just(mean,[external,factive,narration,background,objective])]
+1998.txt_28-422  [be,a,licence,or,a,liquor,store,or,cigar,slash,dutchie,thing]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(slash,[external,factive,narration,background,objective])]
+1998.txt_29-452  [if,you,chips,that,mean,you,wack]  [reject_expl_just(chip,[external,factive,narration,background,objective])]
+1998.txt_30-482  [and,if,you,wack,really,then,you,the,big,bag]  [provide_expl_just(bag,[external,factive,narration,background,objective])]
+1998.txt_31-513  [a,slice,is,a,a,eighth,dub]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+1998.txt_31-514  [is,the,G]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+1998.txt_32-545  [the,good,is,the,bud]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+1998.txt_32-546  [Celts,are,the,C-s,who,fuckin,with,me]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+1998.txt_33-578  [a,handle,is,a,gallon,of,liquor]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+1998.txt_34-612  [and,if,you,chopped,or,wounded,that,mean,the,liqs,had,you,sicker]  [reject_expl_just(chop,[external,nonfactive,hypothesis,foreground,objective])]
+1998.txt_35-648  [if,you,a,herb,then,you,a,lame,ass,Nigga,Nigga]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+1998.txt_36-684  [picture,the,get,you,?]  [provide_expl_just(get,[internal,factive,narration,foreground,objective])]
+1998.txt_37-721  [beat,Premo,a,need,i,?]  [provide_expl_just(need,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+1998.txt_37-722  [what,99,for,is,next,boss]  [reject_expl_just(need,[internal,factive,narration,foreground,objective]),reject_expl_just(be,[internal,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(1998.txt_1-1)-[]
+2-(1998.txt_2-3)-[secondary-instru_behavior,secondary-temporal_repere]
+3-(1998.txt_3-7)-[emotions-affection,secondary-temporal_repere]
+4-(1998.txt_4-11)-[]
+5-(1998.txt_5-17)-[secondary-temporal_repere,primary-concreteness,secondary-restraint]
+6-(1998.txt_6-24)-[secondary-instru_behavior,emotions-affection]
+7-(1998.txt_7-31)-[secondary-restraint,secondary-temporal_repere]
+8-(1998.txt_8-40)-[primary-water]
+9-(1998.txt_9-49)-[primary-sex]
+10-(1998.txt_10-59)-[primary-vision]
+11-(1998.txt_11-70)-[]
+12-(1998.txt_11-71)-[secondary-instru_behavior,primary-concreteness]
+13-(1998.txt_12-84)-[secondary-abstract_tought,primary-brink,secondary-social_behavior,primary-concreteness]
+14-(1998.txt_13-97)-[secondary-abstract_tought,primary-passivity]
+15-(1998.txt_14-111)-[primary-anality]
+16-(1998.txt_15-127)-[]
+17-(1998.txt_16-143)-[primary-sound,primary-passivity,secondary-temporal_repere,secondary-social_behavior]
+18-(1998.txt_17-161)-[primary-diffusion,emotions-affection]
+19-(1998.txt_17-162)-[primary-narcissism,primary-hard]
+20-(1998.txt_18-179)-[emotions-aggression]
+21-(1998.txt_19-199)-[secondary-temporal_repere,emotions-affection]
+22-(1998.txt_20-219)-[primary-sex]
+23-(1998.txt_20-220)-[]
+half
+24-(1998.txt_21-241)-[primary-vision]
+25-(1998.txt_21-242)-[secondary-instru_behavior]
+26-(1998.txt_22-264)-[]
+27-(1998.txt_23-287)-[secondary-temporal_repere,primary-concreteness]
+28-(1998.txt_24-311)-[primary-narcissism,secondary-temporal_repere,emotions-affection]
+29-(1998.txt_25-336)-[secondary-social_behavior]
+30-(1998.txt_25-337)-[secondary-temporal_repere]
+31-(1998.txt_25-338)-[secondary-instru_behavior]
+32-(1998.txt_26-365)-[primary-sex]
+33-(1998.txt_26-366)-[]
+34-(1998.txt_27-394)-[]
+35-(1998.txt_28-422)-[primary-orality]
+36-(1998.txt_29-452)-[]
+37-(1998.txt_30-482)-[secondary-abstract_tought,secondary-temporal_repere]
+38-(1998.txt_31-513)-[]
+39-(1998.txt_31-514)-[]
+40-(1998.txt_32-545)-[]
+41-(1998.txt_32-546)-[primary-sex]
+42-(1998.txt_33-578)-[primary-touch,primary-taste,primary-orality]
+43-(1998.txt_34-612)-[emotions-aggression]
+44-(1998.txt_35-648)-[primary-orality,secondary-temporal_repere]
+45-(1998.txt_36-684)-[primary-vision]
+46-(1998.txt_37-721)-[emotions-aggression]
+47-(1998.txt_37-722)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(1998.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Aziz-sn2,subj-theme_bound-1998-sn1,def_prop(Aziz,[umano]),def_prop(1998,[date,tempo])])
+lf(1998.txt_2,3,cl3-nil-nil-get-[iobj-goal-time_zone-sn9,iobj-goal-time_zone-sn7,xcomp-agent-timeshare-sn6,subj-agent-you-sn5,iobj-goal-time_zone-sn4,xcomp-prop-timeshare-sn3,subj-theme_bound-tryna-sn2,and(time_zone,every,sn9),and(time_zone,every,sn7),and(time_zone,every,sn4),def_prop(time_zone,[luogo]),def_prop(time_zone,[luogo]),def_prop(timeshare,[istituzione]),def_prop(you,[umano]),def_prop(time_zone,[luogo]),def_prop(timeshare,[istituzione]),def_prop(tryna,[istituzione])])
+lf(1998.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(1998.txt_3,7,nil-nil-nil-like-[obj-theme_aff-bomb-sn3,obj-tema_emot-tickin-sn2,subj-experiencer-you-sn1,def_prop(bomb,[oggetto,strumento]),def_prop(tickin,[istituzione]),def_prop(you,[umano])])
+lf(1998.txt_4,11,cl5-nil-nil-be-[subj-prop-til-sn2,and(til,ticky,sn2),def_prop(til,[informa,tecno])])
+lf(1998.txt_4,11,cl4-nil-nil-couple-[subj-agent-til-sn2,subj-agent-til-sn1,and(til,ticky,sn2),and(til,ticky,sn1),def_prop(til,[informa,tecno]),def_prop(til,[informa,tecno])])
+lf(1998.txt_5,17,cl7-nil-nil-go-[cmod-subord-go-for,subj-actor-i-sn3,aux-am-nil,def_prop(i,[umano])])
+lf(1998.txt_5,17,cl6-nil-nil-catch-[cmod-subord-go-so,obj-goal-me-sn5,subj-agent-you-sn4,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(1998.txt_6,24,cl8-nil-nil-make-[iobj-goal-entourage-sn3,obj-goal-stint-sn2,subj-agent-you-sn1,def_prop(entourage,[istituzione]),def_prop(stint,[attivita]),def_prop(you,[umano])])
+lf(1998.txt_7,31,cl10-nil-nil-be-[cmod-subord-be-while,subj-theme_bound-pro-nil,subj-theme_bound-show-sn3,def_prop(show,[attivita,informa])])
+lf(1998.txt_7,31,cl9-nil-nil-catch-[obj-goal-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(1998.txt_8,40,cl11-nil-nil-say-[])
+lf(1998.txt_9,49,nil-nil-nil-kiss-[obj-theme-rosary-sn2,subj-actor-ya-sn1,def_prop(rosary,[oggetto,strumento]),def_prop(ya,[legale])])
+lf(1998.txt_10,59,cl12-nil-nil-notice-[obj-theme-me-sn2,subj-actor-will-sn1,and(will,nobody,sn1),def_prop(me,[umano]),def_prop(will,[astratto,attivita,informa])])
+lf(1998.txt_11,70,cl15-nil-nil-be-[])
+lf(1998.txt_11,70,cl14-nil-nil-find-[obj-theme_bound-me-sn3,subj-actor-you-sn2,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(1998.txt_11,70,cl13-nil-nil-happen-[subj-theme_unaff-you-sn1,aux-(is)-nil,progr-happening-nil,def_prop(you,[umano])])
+lf(1998.txt_12,84,cl16-nil-nil-choose-[ncmod-locativo-it-sn3,obj-theme_unaff-door-sn2,subj-actor-i-sn1,and(door,door,sn2),def_prop(it,[any]),def_prop(door,[astratto,oggetto,strumento]),def_prop(i,[umano])])
+lf(1998.txt_13,97,cl17-nil-nil-be-[xcomp-purpose-ponder-2,subj-theme_bound-bond-sn1,and(bond,Jimmy,sn1),def_prop(bond,[astratto,oggetto,sostanza])])
+lf(1998.txt_14,111,cl19-nil-nil-shit-[adj-(mod)-bear-nil,ncmod-locativo-woods-sn2,def_prop(woods,[istituzione])])
+lf(1998.txt_14,111,cl18-nil-nil-bear-[subj-agent-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(1998.txt_15,127,cl20-nil-nil-father-[obj-theme-daughter-sn2,subj-agent-you-sn1,aux-did-nil,def_prop(daughter,[umano]),def_prop(you,[umano])])
+lf(1998.txt_16,143,cl22-nil-nil-remind-[adj-(mod)-often-nil,subj-paziente-silence-sn2,aux-am-nil,and(silence,awkwardest,sn2),def_prop(silence,[astratto,stato])])
+lf(1998.txt_16,143,cl21-nil-nil-hear-[obj-theme-i-sn3,obj-theme_unaff-silence-sn2,subj-experiencer-you-sn1,and(silence,awkwardest,sn2),def_prop(i,[umano]),def_prop(silence,[astratto,stato]),def_prop(you,[umano])])
+lf(1998.txt_17,161,cl23-nil-nil-be-[xcomp-prop-rockin-sn5,subj-theme_bound-eye-sn4,xcomp-prop-shady-sn2,subj-theme_bound-nigga-sn1,and(nigga,these,sn1),def_prop(rockin,[istituzione]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(shady,[evaluative]),def_prop(nigga,[istituzione,umano])])
+lf(1998.txt_18,179,cl24-nil-nil-be-[cmod-coord-gimme-and,ncmod-locativo-it-sn12,adj-(mod)-up-nil,ncmod-locativo-it-sn8,subj-theme_bound-hoppin-sn7,ncmod-locativo-it-sn5,xcomp-prop-hoppin-sn4,subj-theme_bound-i-sn3,def_prop(it,[any]),def_prop(up,[istituzione]),def_prop(it,[any]),def_prop(hoppin,[istituzione]),def_prop(it,[any]),def_prop(hoppin,[istituzione]),def_prop(i,[umano])])
+lf(1998.txt_18,179,nil-nil-nil-gimme-[obj-theme_aff-beat-sn2,subj-agent-you-sn1,def_prop(beat,[astratto,attivita,cambia,evento,luogo]),def_prop(you,[umano])])
+lf(1998.txt_19,199,cl25-nil-nil-pass-[cmod-coord-pass-and,obj-goal-Rubio-sn4,subj-theme_unaff-it-sn3,def_prop(Rubio,[place,umano]),def_prop(it,[any])])
+lf(1998.txt_20,219,cl27-nil-nil-be-[ncmod-locativo-it-sn4,subj-theme_bound-you-sn3,adj-(mod)-fuck-nil,ncmod-modal-i-sn2,def_prop(it,[any]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(1998.txt_20,219,cl26-nil-nil-fuck-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(1998.txt_21,241,cl28-nil-nil-find-[subj-actor-you-sn6,def_prop(you,[umano])])
+lf(1998.txt_21,241,nil-not-nil-gonna-[subj-agent-look-sn2,subj-agent-look-sn1,and(look,talent,sn1),def_prop(look,[astratto,attivita]),def_prop(look,[astratto,attivita])])
+lf(1998.txt_22,264,cl29-nil-nil-say-[obj-theme_unaff-hey-sn1,def_prop(hey,[istituzione])])
+lf(1998.txt_23,287,cl30-nil-nil-go-[adj-(mod)-here-nil,subj-agent-ebonics-sn1,and(here,now,sn3),and(ebonics,some,sn1),def_prop(here,[istituzione]),def_prop(ebonics,[istituzione,umano])])
+lf(1998.txt_24,311,cl31-nil-nil-be-[subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,and(you,hip,sn1),and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(1998.txt_25,336,cl35-nil-nil-sell-[obj-theme-ya-sn8,subj-agent-Nothin-sn7,def_prop(ya,[legale]),def_prop(Nothin,[istituzione,umano])])
+lf(1998.txt_25,336,cl34-nil-nil-get-[subj-agent-he-sn4,subj-agent-he-sn3,def_prop(he,[umano]),def_prop(he,[umano])])
+lf(1998.txt_25,336,cl33-nil-nil-dry-[cmod-subord-get-1,subj-actor-he-sn2,def_prop(he,[umano])])
+lf(1998.txt_25,336,cl32-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(1998.txt_26,365,cl37-nil-nil-mean-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(1998.txt_26,365,cl36-nil-nil-feel-[xcomp-tema_emot-ya-sn7,subj-experiencer-doesnt-sn6,def_prop(ya,[legale]),def_prop(doesnt,[istituzione])])
+lf(1998.txt_26,365,nil-not-nil-wit-[obj-theme-she-sn4,obj-theme_aff-you-sn3,subj-agent-fuckin-sn2,subj-agent-fuckin-sn1,and(fuckin,she,sn1),def_prop(she,[umano]),def_prop(you,[umano]),def_prop(fuckin,[istituzione]),def_prop(fuckin,[istituzione])])
+lf(1998.txt_27,394,cl38-nil-nil-mean-[obj-theme_aff-thing-sn2,subj-theme_bound-can-sn1,and(thing,couple,sn2),and(can,can,sn1),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(can,[attivita,body_part,informa,nquant,oggetto,strumento,umano])])
+lf(1998.txt_28,422,cl40-nil-nil-slash-[cmod-coord-slash-or,obj-theme_aff-thing-sn5,coord-agent-store_or_cigar-sn4,subj-agent-cigar-sn3,subj-agent-store-sn2,and(thing,dutchie,sn5),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(store_or_cigar,[astratto,oggetto,oggetto,strumento]),def_prop(cigar,[astratto,oggetto,oggetto,strumento]),def_prop(store,[astratto,oggetto,oggetto,strumento])])
+lf(1998.txt_28,422,cl39-nil-nil-be-[xcomp-prop-licence-sn1,def_prop(licence,[stato])])
+lf(1998.txt_29,452,cl41-nil-nil-chip-[obj-prop-wack-sn4,obj-theme-you-sn3,obj-theme-mean-sn2,subj-actor-you-sn1,and(mean,that,sn2),def_prop(wack,[istituzione]),def_prop(you,[umano]),def_prop(mean,[astratto]),def_prop(you,[umano])])
+lf(1998.txt_30,482,cl42-nil-nil-bag-[cmod-subord-bag-",obj-theme-big-sn3,obj-theme-wack-sn2,subj-actor-you-sn1,def_prop(big,[informa,tecno]),def_prop(wack,[istituzione]),def_prop(you,[umano])])
+lf(1998.txt_31,513,cl43-nil-nil-be-[subj-theme_bound-G-sn3,xcomp-prop-dub-sn2,subj-theme_bound-slice-sn1,def_prop(G,[place,attivita,informa]),def_prop(dub,[astratto,oggetto,istituzione]),def_prop(slice,[astratto,attivita,oggetto,strumento])])
+lf(1998.txt_32,545,cl44-nil-nil-be-[xcomp-prop-C-s-sn4,subj-theme_bound-female-sn3,xcomp-prop-bud-sn2,subj-theme_bound-good-sn1,and(C-s,fuckin,sn4),and(C-s,who,sn4),def_prop(C-s,[attivita,informa]),def_prop(female,[animato,umano]),def_prop(bud,[plant]),def_prop(good,[astratto])])
+lf(1998.txt_33,578,cl45-nil-nil-be-[xcomp-prop-gallon-sn2,subj-theme_bound-handle-sn1,def_prop(gallon,[nquant]),def_prop(handle,[oggetto,strumento])])
+lf(1998.txt_34,612,cl47-nil-nil-have-[cmod-subord-have-",cmod-subord-have-if,cmod-subord-chop-",xcomp-prop-sicker-sn11,subj-experiencer-you-sn10,xcomp-prop-sicker-sn8,subj-experiencer-you-sn7,subj-experiencer-you-sn6,xcomp-prop-sicker-sn4,subj-experiencer-you-sn3,subj-experiencer-you-sn2,and(you,liq,sn6),and(you,liq,sn2),def_prop(sicker,[evaluative]),def_prop(you,[umano]),def_prop(sicker,[evaluative]),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(sicker,[evaluative]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(1998.txt_34,612,cl46-nil-nil-chop-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(1998.txt_35,648,cl48-nil-nil-be-[xcomp-theme-Nigga-sn3,xcomp-prop-herb-sn2,subj-theme_bound-you-sn1,def_prop(Nigga,[istituzione,umano]),def_prop(herb,[edible,oggetto,plant]),def_prop(you,[umano])])
+lf(1998.txt_36,684,cl49-nil-nil-get-[obj-theme_unaff-picture-sn2,subj-agent-you-sn1,def_prop(picture,[astratto,attivita,informa,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(1998.txt_37,721,cl51-nil-nil-be-[xcomp-prop-boss-sn5,subj-theme_bound-99-sn4,and(boss,next,sn5),and(99,what,sn4),def_prop(boss,[umano]),def_prop(99,[nquant])])
+lf(1998.txt_37,721,cl50-nil-nil-need-[obj-theme-beat-sn3,obj-theme-Premo-sn2,subj-experiencer-i-sn1,def_prop(beat,[astratto,attivita,cambia,evento,luogo]),def_prop(Premo,[umano]),def_prop(i,[umano])])

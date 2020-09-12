@@ -1,0 +1,174 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Last Bayou Lyrics.txt_1-1  []-positive  []
+Last Bayou Lyrics.txt_2-3  []-positive  []
+Last Bayou Lyrics.txt_3-6  []-positive  []
+Last Bayou Lyrics.txt_4-11  []-positive  []
+Last Bayou Lyrics.txt_5-17  []-suspension  [neg]
+Last Bayou Lyrics.txt_6-24  []-negative  [neg]
+Last Bayou Lyrics.txt_6-25  [so-result]-suspension  [fgb]
+Last Bayou Lyrics.txt_6-26  []-positive  []
+Last Bayou Lyrics.txt_7-35  []-positive  []
+Last Bayou Lyrics.txt_7-36  []-suspension  [fhd,neg]
+Last Bayou Lyrics.txt_8-44  []-negative  [neg,neg]
+Last Bayou Lyrics.txt_9-53  []-positive  [fgb]
+Last Bayou Lyrics.txt_10-65  [so-result]-negative  [fgb,fgb,fgb]
+Last Bayou Lyrics.txt_11-78  []-negative  [neg]
+Last Bayou Lyrics.txt_12-90  []-suspension  []
+Last Bayou Lyrics.txt_13-103  []-positive  []
+Last Bayou Lyrics.txt_13-104  []-positive  []
+Last Bayou Lyrics.txt_14-118  [before-temp_prec]-question  [neg,neg]
+Last Bayou Lyrics.txt_15-133  []-negative  []
+Last Bayou Lyrics.txt_15-134  []-positive  []
+Last Bayou Lyrics.txt_16-152  [when-temp_coinc]-negative  [neg]
+Last Bayou Lyrics.txt_17-170  [when-temp_coinc]-positive  []
+Last Bayou Lyrics.txt_17-171  []-positive  [fgb]
+Last Bayou Lyrics.txt_18-189  [so-result]-suspension  [fgb,fgb]
+Last Bayou Lyrics.txt_19-210  [so-result]-negative  [neg,fgb,fgb]
+Last Bayou Lyrics.txt_20-231  []-suspension  [neg]
+Last Bayou Lyrics.txt_21-252  []-positive  []
+Last Bayou Lyrics.txt_21-253  []-positive  []
+Last Bayou Lyrics.txt_22-275  []-positive  []
+Last Bayou Lyrics.txt_23-302  [yet-conc]-positive  []
+Last Bayou Lyrics.txt_24-329  []-positive  []
+Last Bayou Lyrics.txt_25-356  []-positive  []
+Last Bayou Lyrics.txt_25-357  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Last Bayou Lyrics.txt_1-1  [last,Bayou,Lyrics,by,Wolf,Gang,UK]  [title]
+Last Bayou Lyrics.txt_2-3  [last,Bayou]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Last Bayou Lyrics.txt_3-6  [just,had,another,change,of,plan,,,just,choose,another,path,again]  [provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(choose,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_4-11  [run,free,with_the_wind,that,changes,shapes,around,the,people,who,stand,still]  [provide_expl_just(shape,[external,factive,narration,background,objective]),provide_expl_just(stand,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_5-17  [don-t,ever,want,to,be,blockaded,in,,,no,prisons,on,my,continent]  [provide_expl_just(want,[external,factive,narration,foreground,objective])]
+Last Bayou Lyrics.txt_6-24  [no_one,i,feel,inclined,to,love]  [reject_expl_just(love,[external,factive,narration,background,objective]),reject_expl_just(feel,[external,factive,narration,background,objective]),reject_expl_just(incline,[external,factive,cause,foreground,objective]),reject_expl_just(go,[external,nonfactive,narration,background,objective])]
+Last Bayou Lyrics.txt_6-25  [so,i,will,go,lighten,on,my]  [provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(incline,[external,factive,cause,foreground,objective]),suggest(incline,_237482),provide_expl_just(go,[external,nonfactive,narration,background,objective])]
+Last Bayou Lyrics.txt_6-26  [own]  [provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,factive,narration,background,objective]),provide_expl_just(incline,[external,factive,cause,foreground,objective]),suggest(incline,_246660),provide_expl_just(go,[external,nonfactive,narration,background,objective])]
+Last Bayou Lyrics.txt_7-35  [now,i,see]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_7-36  [its,another,make,or,break]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_8-44  [a,little,strength,a,little,leap,of,faith]  [reject_expl_just(leap,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_9-53  [jump,over,rules,that,swim,beneath,and,predictions,keep,in,their,place]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(jump,[external,factive,narration,background,objective]),provide_expl_just(swim,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_10-65  [don-t,care,what,the,elders,have_to,say,,,their,rules,don-t,bend,so,they,just,.,the,elders,have_to,say,their,rules,don-t,bend,so,they,just]  [provide_expl_just(say,[external,nonfactive,narration,foreground,objective]),provide_expl_just(bend,[external,factive,cause,foreground,objective]),suggest(bend,_254110)]
+Last Bayou Lyrics.txt_11-78  [break]  reject_expl_opin(nil,[])
+Last Bayou Lyrics.txt_12-90  [no_thanks,to,them,that,it,seems,.,it,seems]  [provide_expl_just(seem,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_13-103  [these,young,dreams,are,all]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(breathe,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_13-104  [we,breathe]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(breathe,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_14-118  [escape,of,chances,how_many,,,grave,my,before,years,how_many,?]  [provide_expl_just(escape,[internal,factive,narration,foreground,objective])]
+Last Bayou Lyrics.txt_15-133  [i,can,!,how_many,questions]  [provide_expl_just(keep,[internal,factive,narration,foreground,objective]),provide_expl_just(brave,[internal,factive,narration,background,objective]),provide_expl_just(ask,[internal,factive,narration,foreground,objective]),provide_expl_just(question,[internal,factive,narration,foreground,objective])]
+Last Bayou Lyrics.txt_15-134  [ask,to,keep,myself,from,being,brave]  [provide_expl_just(keep,[internal,factive,narration,foreground,objective]),provide_expl_just(brave,[internal,factive,narration,background,objective]),provide_expl_just(ask,[internal,factive,narration,foreground,objective]),provide_expl_just(question,[internal,factive,narration,foreground,objective])]
+Last Bayou Lyrics.txt_16-152  [when,deeds,are,measured,in,their,act,when,thoughts,are,welcomes,not,attached]  [reject_expl_just(welcome,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_17-170  [when,one,man-s,dream,becomes]  [provide_expl_just(become,[external,factive,narration,background,objective]),provide_expl_just(shape,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_17-171  [the,truth,and,his,opinion,shapes,the,fact]  [provide_expl_just(become,[external,factive,narration,background,objective]),provide_expl_just(shape,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_18-189  [and,so,it,seems,that,life,goes,on,,,till,you,wake,to,find,it,is,gone]  [provide_expl_just(find,[external,factive,narration,background,objective]),provide_expl_just(seem,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_19-210  [within,the,passing,of,a,day,summer_suns,that,blend,away,and,so,i,will,see,you,in,the,crowd,of,all,the,people,who,found,out]  [reject_expl_just(see,[external,nonfactive,rationale,background,objective])]
+Last Bayou Lyrics.txt_20-231  [that,our,fear-s,just,of,the,doubt]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_21-252  [these,young,dreams,are,all]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(breathe,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_21-253  [we,breathe]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(breathe,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_22-275  [calling,me,calling,me,i,see,places,left,to,find]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(call,[external,factive,narration,foreground,objective]),provide_expl_just(find,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_23-302  [calling,me,calling,me,i,see,paths,yet,to,align]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(call,[external,factive,narration,foreground,objective]),provide_expl_just(align,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_24-329  [calling,me,calling,me,i,see,spaces,in,my,life]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(call,[external,factive,narration,foreground,objective])]
+Last Bayou Lyrics.txt_25-356  [i,see,somewhere,some,place]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(breathe,[external,factive,narration,background,objective])]
+Last Bayou Lyrics.txt_25-357  [some,these,young,times,dreams,are,all,we,breathe]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(breathe,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Last Bayou Lyrics.txt_1-1)-[]
+2-(Last Bayou Lyrics.txt_2-3)-[]
+3-(Last Bayou Lyrics.txt_3-6)-[secondary-abstract_tought,secondary-abstract_tought,primary-brink,secondary-temporal_repere]
+4-(Last Bayou Lyrics.txt_4-11)-[]
+5-(Last Bayou Lyrics.txt_5-17)-[secondary-temporal_repere,secondary-restraint,secondary-restraint]
+6-(Last Bayou Lyrics.txt_6-24)-[emotions-affection]
+7-(Last Bayou Lyrics.txt_6-25)-[primary-vision]
+8-(Last Bayou Lyrics.txt_6-26)-[]
+9-(Last Bayou Lyrics.txt_7-35)-[secondary-temporal_repere,primary-vision]
+10-(Last Bayou Lyrics.txt_7-36)-[secondary-instru_behavior,emotions-aggression]
+11-(Last Bayou Lyrics.txt_8-44)-[primary-ascend]
+12-(Last Bayou Lyrics.txt_9-53)-[primary-ascend,primary-concreteness,primary-water,primary-depth,primary-concreteness]
+13-(Last Bayou Lyrics.txt_10-65)-[secondary-social_behavior,secondary-social_behavior]
+14-(Last Bayou Lyrics.txt_11-78)-[emotions-aggression]
+15-(Last Bayou Lyrics.txt_12-90)-[secondary-abstract_tought,primary-vision,primary-vision]
+16-(Last Bayou Lyrics.txt_13-103)-[primary-counscious]
+half
+17-(Last Bayou Lyrics.txt_13-104)-[primary-odor]
+18-(Last Bayou Lyrics.txt_14-118)-[primary-chaos,secondary-temporal_repere]
+19-(Last Bayou Lyrics.txt_15-133)-[]
+20-(Last Bayou Lyrics.txt_15-134)-[secondary-social_behavior]
+21-(Last Bayou Lyrics.txt_16-152)-[secondary-temporal_repere,secondary-order,secondary-temporal_repere,secondary-abstract_tought,emotions-affection]
+22-(Last Bayou Lyrics.txt_17-170)-[secondary-temporal_repere,primary-counscious]
+23-(Last Bayou Lyrics.txt_17-171)-[secondary-abstract_tought,secondary-abstract_tought]
+24-(Last Bayou Lyrics.txt_18-189)-[primary-vision,secondary-temporal_repere,primary-counscious,secondary-instru_behavior]
+25-(Last Bayou Lyrics.txt_19-210)-[primary-concreteness,primary-concreteness,primary-vision,primary-chaos,secondary-instru_behavior,primary-concreteness]
+26-(Last Bayou Lyrics.txt_20-231)-[emotions-anxiety,emotions-aggression]
+27-(Last Bayou Lyrics.txt_21-252)-[primary-counscious]
+28-(Last Bayou Lyrics.txt_21-253)-[primary-odor]
+29-(Last Bayou Lyrics.txt_22-275)-[primary-vision,primary-concreteness,secondary-instru_behavior]
+30-(Last Bayou Lyrics.txt_23-302)-[primary-vision,primary-brink]
+31-(Last Bayou Lyrics.txt_24-329)-[primary-vision,primary-concreteness]
+32-(Last Bayou Lyrics.txt_25-356)-[primary-vision,primary-concreteness,primary-concreteness]
+33-(Last Bayou Lyrics.txt_25-357)-[secondary-temporal_repere,primary-counscious,primary-odor]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Last Bayou Lyrics.txt_1,1,cl1-nil-nil-gang-[obj-theme-UK-sn3,arg_mod-agent-Wolf-sn2,subj-actor-Lyrics-sn1,and(Lyrics,Bayou,sn1),and(Lyrics,last,sn1),def_prop(UK,[istituzione,umano]),def_prop(Wolf,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Last Bayou Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-Bayou-sn1,and(Bayou,last,sn1),def_prop(Bayou,[istituzione,umano])])
+lf(Last Bayou Lyrics.txt_3,6,cl4-nil-nil-choose-[])
+lf(Last Bayou Lyrics.txt_3,6,cl3-nil-nil-have-[adj-subj_disc-again-sn5,xcomp-prop-path-sn4,adj-subj_disc-just-sn3,xcomp-tema_bound-change-sn2,adj-subj_disc-just-sn1,and(path,another,sn4),and(change,another,sn2),def_prop(again,[istituzione]),def_prop(path,[luogo,oggetto,strumento]),def_prop(just,[informa,tecno]),def_prop(change,[astratto,attivita,cambia,evento,oggetto,relat,strumento]),def_prop(just,[informa,tecno])])
+lf(Last Bayou Lyrics.txt_4,11,cl6-nil-nil-stand-[xadj-adj-free-adj1,subj-experiencer-people-sn3,def_prop(free,_272458),def_prop(people,[istituzione])])
+lf(Last Bayou Lyrics.txt_4,11,cl5-nil-nil-shape-[adj-(mod)-around-nil,adj-(mod)-with_the_wind-nil,obj-theme1-people-sn3,subj-agent-change-sn2,subj-agent-change-sn1,and(change,that,sn2),and(change,that,sn1),def_prop(people,[istituzione]),def_prop(change,[astratto,attivita,cambia,evento,oggetto,relat,strumento]),def_prop(change,[astratto,attivita,cambia,evento,oggetto,relat,strumento])])
+lf(Last Bayou Lyrics.txt_5,17,cl8-nil-nil-be-[ncmod-locativo-continent-sn4,xcomp-prop-blockaded-sn2,xcomp-purpose-be-2,def_prop(continent,[oggetto]),def_prop(blockaded,[evaluative])])
+lf(Last Bayou Lyrics.txt_5,17,cl7-not-nil-want-[obj-theme-prison-sn3,subj-actor-you-sn1,adj-(mod)-ever-nil,aux-do-nil,and(prison,no,sn3),def_prop(prison,[oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Last Bayou Lyrics.txt_6,24,cl13-nil-nil-lighten-[])
+lf(Last Bayou Lyrics.txt_6,24,cl12-nil-will-go-[ncmod-modale-my-sn5,subj-agent-i-sn4,def_prop(my,[informa,tecno]),def_prop(i,[umano])])
+lf(Last Bayou Lyrics.txt_6,24,cl11-nil-nil-love-[])
+lf(Last Bayou Lyrics.txt_6,24,cl10-nil-nil-incline-[])
+lf(Last Bayou Lyrics.txt_6,24,cl9-nil-nil-feel-[subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,no_one,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Last Bayou Lyrics.txt_7,35,cl15-nil-nil-make-[subj-agent-break-sn5,subj-agent-break-sn4,and(break,another,sn4),def_prop(break,[attivita,evento]),def_prop(break,[attivita,evento])])
+lf(Last Bayou Lyrics.txt_7,35,cl14-nil-nil-see-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Last Bayou Lyrics.txt_8,44,cl16-nil-nil-leap-[ncmod-specif-faith-sn3,subj-actor-little-sn2,subj-actor-little-sn1,and(little,strength,sn1),and(little,little,sn1),def_prop(faith,[astratto,attivita]),def_prop(little,[astratto,informa,oggetto]),def_prop(little,_273852)])
+lf(Last Bayou Lyrics.txt_9,53,2-nil-nil-swim-[subj-theme-rule_and_prediction-nil])
+lf(Last Bayou Lyrics.txt_9,53,cl18-nil-nil-keep-[iobj-goal-over-sn9,iobj-goal-place-sn7,xadj-result-keep-3,def_prop(over,[istituzione]),def_prop(place,[astratto,attivita,informa,luogo,stato])])
+lf(Last Bayou Lyrics.txt_9,53,cl17-nil-nil-jump-[adj-locative-over-nil,coord-agent-rule_and_prediction-sn6,subj-agent-prediction-sn5,subj-agent-rule-sn4,coord-agent-rule_and_prediction-sn3,subj-agent-prediction-sn2,subj-agent-rule-sn1,def_prop(over,[istituzione]),def_prop(rule_and_prediction,[astratto,attivita,informa,oggetto,strumento,tempo,astratto,attivita,informa]),def_prop(prediction,[astratto,attivita,informa,oggetto,strumento,tempo,astratto,attivita,informa]),def_prop(rule,[astratto,attivita,informa,oggetto,strumento,tempo,astratto,attivita,informa]),def_prop(rule_and_prediction,[astratto,attivita,informa,oggetto,strumento,tempo,astratto,attivita,informa]),def_prop(prediction,[astratto,attivita,informa,oggetto,strumento,tempo,astratto,attivita,informa]),def_prop(rule,[astratto,attivita,informa,oggetto,strumento,tempo,astratto,attivita,informa])])
+lf(Last Bayou Lyrics.txt_10,65,cl21-not-nil-bend-[subj-actor-pro-nil,aux-do-nil,subj-actor-rule-sn8,def_prop(rule,[astratto,attivita,informa,oggetto,strumento,tempo])])
+lf(Last Bayou Lyrics.txt_10,65,cl20-nil-have_to-say-[cmod-subord-care-nil])
+lf(Last Bayou Lyrics.txt_10,65,cl19-not-nil-care-[adj-(mod)-just-nil,f2-sn2-what-sn3,subj-experiencer-elder-sn2,subj-experiencer-elder-sn1,aux-do-nil,and(just,they,sn5),and(elder,you,sn1),def_prop(just,[informa,tecno]),def_prop(what,[oggetto]),def_prop(elder,[plant,umano]),def_prop(elder,[plant,umano])])
+lf(Last Bayou Lyrics.txt_11,78,cl22-nil-nil-say-[obj-theme_unaff-break-sn1,def_prop(break,[attivita,evento])])
+lf(Last Bayou Lyrics.txt_12,90,cl23-nil-nil-seem-[xcomp-theme-it-sn3,subj-actor-no_thanks-sn1,def_prop(it,[any]),def_prop(no_thanks,[attivita,informa])])
+lf(Last Bayou Lyrics.txt_13,103,cl25-nil-nil-breathe-[subj-experiencer-you-sn4,def_prop(you,[umano])])
+lf(Last Bayou Lyrics.txt_13,103,cl24-nil-nil-be-[xcomp-prop-all-sn2,subj-theme_bound-dream-sn1,and(dream,these,sn1),and(dream,young,sn1),def_prop(all,[_275508]),def_prop(dream,[astratto,stato])])
+lf(Last Bayou Lyrics.txt_14,118,cl26-nil-nil-escape-[adj-(mod)-before-nil,obj-theme_unaff-chance-sn2,subj-agent-grave-sn1,def_prop(before,[istituzione]),def_prop(chance,[attivita]),def_prop(grave,[oggetto,strumento,tempo])])
+lf(Last Bayou Lyrics.txt_15,133,cl30-nil-nil-brave-[])
+lf(Last Bayou Lyrics.txt_15,133,cl29-nil-nil-keep-[])
+lf(Last Bayou Lyrics.txt_15,133,cl28-nil-nil-ask-[obj-goal-myself-sn4,xcomp-purpose-keep-2,subj-actor-you-sn3,def_prop(myself,[umano]),def_prop(you,[umano])])
+lf(Last Bayou Lyrics.txt_15,133,cl27-nil-nil-question-[subj-agent-can-sn1,and(can,i,sn1),def_prop(can,[attivita,body_part,informa,nquant,oggetto,strumento,umano])])
+lf(Last Bayou Lyrics.txt_16,152,2-nil-nil-be-[])
+lf(Last Bayou Lyrics.txt_16,152,cl31-nil-nil-welcome-[cmod-subord-welcome-when,xcomp-prop-attached-sn2,subj-theme_unaff-thought-sn1,aux-are-nil,def_prop(attached,[istituzione]),def_prop(thought,[astratto])])
+lf(Last Bayou Lyrics.txt_17,170,cl32-nil-nil-shape-[obj-theme1-fact-sn8,coord-agent-truth_and_opinion-sn7,subj-agent-opinion-sn6,subj-agent-truth-sn5,def_prop(fact,[astratto,attivita,informa,stato]),def_prop(truth_and_opinion,[astratto,attivita,informa,stato,astratto,attivita,informa]),def_prop(opinion,[astratto,attivita,informa,stato,astratto,attivita,informa]),def_prop(truth,[astratto,attivita,informa,stato,astratto,attivita,informa])])
+lf(Last Bayou Lyrics.txt_17,170,nil-nil-nil-become-[xcomp-theme-when-sn2,subj-theme_bound-dream-sn1,and(dream,one,sn1),def_prop(when,[tempo]),def_prop(dream,[astratto,stato])])
+lf(Last Bayou Lyrics.txt_18,189,cl34-nil-nil-go-[obj-theme_bound-till-sn7,subj-actor-it-sn6,obj-theme-till-sn3,subj-actor-life-sn2,aux-(is)-nil,def_prop(till,[sostanza]),def_prop(it,[any]),def_prop(till,[sostanza]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Last Bayou Lyrics.txt_18,189,cl36-nil-nil-find-[subj-prop-till-sn5,subj-prop-you-sn4,def_prop(till,[sostanza]),def_prop(you,[umano])])
+lf(Last Bayou Lyrics.txt_18,189,cl35-nil-nil-wake-[cmod-subord-go-",cmod-subord-go-so,subj-actor-till-sn5,subj-actor-you-sn4,def_prop(till,[sostanza]),def_prop(you,[umano])])
+lf(Last Bayou Lyrics.txt_18,189,cl34-nil-nil-go-[obj-theme_bound-till-sn7,subj-actor-it-sn6,obj-theme-till-sn3,subj-actor-life-sn2,aux-(is)-nil,def_prop(till,[sostanza]),def_prop(it,[any]),def_prop(till,[sostanza]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Last Bayou Lyrics.txt_18,189,cl33-nil-nil-seem-[subj-actor-it-sn1,def_prop(it,[any])])
+lf(Last Bayou Lyrics.txt_19,210,cl38-nil-nil-out-[cmod-subord-see-so,subj-actor-people-sn12,def_prop(people,_277602)])
+lf(Last Bayou Lyrics.txt_19,210,cl37-nil-will-see-[subj-experiencer-you-sn9,subj-experiencer-you-sn8,and(you,i,sn8),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Last Bayou Lyrics.txt_20,231,cl39-nil-nil-be-[adj-(mod)-just-nil,ncmod-specif-doubt-sn2,subj-theme_bound-fear-s-sn1,def_prop(doubt,[astratto]),def_prop(fear-s,[emotivo])])
+lf(Last Bayou Lyrics.txt_21,252,cl41-nil-nil-breathe-[subj-experiencer-you-sn4,def_prop(you,[umano])])
+lf(Last Bayou Lyrics.txt_21,252,cl40-nil-nil-be-[xcomp-prop-all-sn2,subj-theme_bound-dream-sn1,and(dream,these,sn1),and(dream,young,sn1),def_prop(all,[_278062]),def_prop(dream,[astratto,stato])])
+lf(Last Bayou Lyrics.txt_22,275,cl45-nil-nil-find-[subj-prop-me-sn3,def_prop(me,[umano])])
+lf(Last Bayou Lyrics.txt_22,275,cl44-nil-nil-leave-[])
+lf(Last Bayou Lyrics.txt_22,275,cl43-nil-nil-see-[obj-goal-me-sn2,xcomp-purpose-call-2,subj-experiencer-i-sn1,def_prop(me,[umano]),def_prop(i,[umano])])
+lf(Last Bayou Lyrics.txt_22,275,cl42-nil-nil-call-[obj-prop-me-sn3,xcomp-purpose-call-3,def_prop(me,[umano])])
+lf(Last Bayou Lyrics.txt_23,302,cl48-nil-nil-align-[subj-experiencer-me-sn3,def_prop(me,[umano])])
+lf(Last Bayou Lyrics.txt_23,302,cl47-nil-nil-see-[adj-(mod)-yet-nil,obj-goal-me-sn2,xcomp-purpose-call-2,subj-experiencer-i-sn1,def_prop(me,[umano]),def_prop(i,[umano])])
+lf(Last Bayou Lyrics.txt_23,302,cl46-nil-nil-call-[obj-prop-me-sn3,xcomp-purpose-call-3,def_prop(me,[umano])])
+lf(Last Bayou Lyrics.txt_24,329,cl50-nil-nil-see-[obj-goal-me-sn2,xcomp-purpose-call-2,subj-experiencer-i-sn1,def_prop(me,[umano]),def_prop(i,[umano])])
+lf(Last Bayou Lyrics.txt_24,329,cl49-nil-nil-call-[obj-prop-me-sn3,xcomp-purpose-call-3,def_prop(me,[umano])])
+lf(Last Bayou Lyrics.txt_25,356,cl53-nil-nil-breathe-[subj-experiencer-pro-nil,subj-experiencer-all-sn7,def_prop(all,[_279082])])
+lf(Last Bayou Lyrics.txt_25,356,cl52-nil-nil-be-[subj-theme_bound-dream-sn3,and(dream,some,sn3),and(dream,these,sn3),and(dream,young,sn3),def_prop(dream,[astratto,stato])])
+lf(Last Bayou Lyrics.txt_25,356,cl51-nil-nil-see-[xcomp-prop-somewhere-sn2,subj-experiencer-i-sn1,def_prop(somewhere,[luogo]),def_prop(i,[umano])])

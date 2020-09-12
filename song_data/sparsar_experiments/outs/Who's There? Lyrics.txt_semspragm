@@ -1,0 +1,162 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Who's There? Lyrics.txt_1-1  []-question  []
+Who's There? Lyrics.txt_2-3  []-positive  []
+Who's There? Lyrics.txt_3-6  []-positive  []
+Who's There? Lyrics.txt_4-10  []-positive  []
+Who's There? Lyrics.txt_5-15  []-positive  []
+Who's There? Lyrics.txt_6-22  []-positive  [neg]
+Who's There? Lyrics.txt_7-29  []-negative  [neg]
+Who's There? Lyrics.txt_7-30  [before-temp_prec]-positive  []
+Who's There? Lyrics.txt_8-40  []-positive  []
+Who's There? Lyrics.txt_8-41  []-positive  []
+Who's There? Lyrics.txt_9-49  []-positive  []
+Who's There? Lyrics.txt_10-59  []-positive  [fgb]
+Who's There? Lyrics.txt_10-60  []-positive  []
+Who's There? Lyrics.txt_11-71  []-suspension  [neg,neg]
+Who's There? Lyrics.txt_12-84  []-positive  []
+Who's There? Lyrics.txt_12-85  []-positive  []
+Who's There? Lyrics.txt_13-97  []-positive  [fgb,neg]
+Who's There? Lyrics.txt_13-98  []-positive  []
+Who's There? Lyrics.txt_14-112  []-negative  []
+Who's There? Lyrics.txt_15-128  []-positive  [neg]
+Who's There? Lyrics.txt_15-129  []-negative  [neg]
+Who's There? Lyrics.txt_16-145  [however-conc]-positive  []
+Who's There? Lyrics.txt_17-163  []-positive  []
+Who's There? Lyrics.txt_17-164  []-positive  [fgb]
+Who's There? Lyrics.txt_18-182  []-positive  []
+Who's There? Lyrics.txt_18-183  []-positive  []
+Who's There? Lyrics.txt_18-184  []-negative  [neg]
+Who's There? Lyrics.txt_18-185  []-positive  []
+Who's There? Lyrics.txt_19-203  []-suspension  [ass,neg]
+Who's There? Lyrics.txt_20-224  []-negative  [neg,neg]
+Who's There? Lyrics.txt_21-245  []-positive  []
+Who's There? Lyrics.txt_21-246  []-positive  []
+Who's There? Lyrics.txt_21-247  []-negative  [neg]
+Who's There? Lyrics.txt_22-269  []-positive  []
+Who's There? Lyrics.txt_22-270  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Who's There? Lyrics.txt_1-1  [there,is,who,?]  [title]
+Who's There? Lyrics.txt_2-3  [Lyrics,by,Running,Legion]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Who's There? Lyrics.txt_3-6  [Yo,!]  [provide_expl_just(say,[internal,factive,explanation,background,objective])]
+Who's There? Lyrics.txt_4-10  [open,is,it,!]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Who's There? Lyrics.txt_5-15  [you,can,come,in]  [provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Who's There? Lyrics.txt_6-22  [an,excellent,beat,maker,steps,in,the,door]  [provide_expl_just(beat,[external,factive,narration,background,objective])]
+Who's There? Lyrics.txt_7-29  [i,give,dap,to,shrine,never,met]  [reject_expl_just(shrine,[external,factive,narration,background,objective]),reject_expl_just(dap,[external,factive,narration,background,objective]),reject_expl_just(give,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Who's There? Lyrics.txt_7-30  [him,before]  [provide_expl_just(shrine,[external,factive,narration,background,objective]),provide_expl_just(dap,[external,factive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Who's There? Lyrics.txt_8-40  [we,get,in,work,as_soon_as]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Who's There? Lyrics.txt_8-41  [we,get,the,groove]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Who's There? Lyrics.txt_9-49  [making,sounds,similar,to,that,of,CL,smooth]  [provide_expl_just(sound,[external,factive,narration,background,objective])]
+Who's There? Lyrics.txt_10-59  [and,P,rock,too]  [provide_expl_just(rock,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Who's There? Lyrics.txt_10-60  [this,is,Madvillainy]  [provide_expl_just(rock,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Who's There? Lyrics.txt_11-71  [beats,too,hard,that,the,shit,is,killing,me]  [provide_expl_just(beat,[external,factive,narration,background,objective]),provide_expl_just(kill,[external,factive,narration,foreground,objective])]
+Who's There? Lyrics.txt_12-84  [your,rhymes,are,worth,that,of,a,shilling]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Who's There? Lyrics.txt_12-85  [,,please]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Who's There? Lyrics.txt_13-97  [we,i,save,room,for,shrine,and,are,chilling]  [provide_expl_just(chill,[external,factive,cause,foreground,objective])]
+Who's There? Lyrics.txt_13-98  [we]  [provide_expl_just(chill,[external,factive,cause,foreground,objective])]
+Who's There? Lyrics.txt_14-112  [in,AZ,this,some,grilling,heat,i,am,in,roast,mode]  [provide_expl_just(grill,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Who's There? Lyrics.txt_15-128  [i-ma,pack,my,mind,with,rhymes]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Who's There? Lyrics.txt_15-129  [,,the,most,load]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Who's There? Lyrics.txt_16-145  [got,enough,for,these,clips,however,much,my,holster,holds]  [provide_expl_just(hold,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Who's There? Lyrics.txt_17-163  [Darius,knows]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Who's There? Lyrics.txt_17-164  [i,am,that,of,what,a,ghost,wrote]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Who's There? Lyrics.txt_18-182  [shine,said]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Who's There? Lyrics.txt_18-183  [shine,said]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Who's There? Lyrics.txt_18-184  [he,got,a,beat,for,me]  [reject_expl_just(get,[external,factive,narration,foreground,objective])]
+Who's There? Lyrics.txt_18-185  [send,me,the,link,man]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Who's There? Lyrics.txt_19-203  [make,sure,it,doesn-t,get,into,some,weak,hands]  [accept_expl_opin(get,[external,factive,narration,foreground,objective]),accept_expl_opin(make,[external,factive,narration,background,objective])]
+Who's There? Lyrics.txt_20-224  [it,would,be,nothing,more_than,a,funny,leak,man]  [reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+Who's There? Lyrics.txt_21-245  [telling,am,i,!]  [provide_expl_just(tell,[internal,factive,narration,background,objective]),provide_expl_just(think,[internal,factive,narration,foreground,objective]),provide_expl_just(need,[internal,factive,narration,foreground,objective])]
+Who's There? Lyrics.txt_21-246  [you,now,i,think]  [provide_expl_just(tell,[internal,factive,narration,background,objective]),provide_expl_just(think,[internal,factive,narration,foreground,objective]),provide_expl_just(need,[internal,factive,narration,foreground,objective])]
+Who's There? Lyrics.txt_21-247  [i,need,a,shrink,man]  [reject_expl_just(tell,[internal,factive,narration,background,objective]),reject_expl_just(think,[internal,factive,narration,foreground,objective]),reject_expl_just(need,[internal,factive,narration,foreground,objective])]
+Who's There? Lyrics.txt_22-269  [it,Yo,is,the,god]  [provide_expl_just(run,[external,factive,cause,foreground,objective])]
+Who's There? Lyrics.txt_22-270  [damn,running,legion]  [reject_expl_just(run,[external,factive,cause,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Who's There? Lyrics.txt_1-1)-[]
+2-(Who's There? Lyrics.txt_2-3)-[]
+3-(Who's There? Lyrics.txt_3-6)-[]
+4-(Who's There? Lyrics.txt_4-10)-[primary-concreteness]
+5-(Who's There? Lyrics.txt_5-15)-[]
+6-(Who's There? Lyrics.txt_6-22)-[emotions-aggression,secondary-instru_behavior,primary-brink,primary-brink]
+7-(Who's There? Lyrics.txt_7-29)-[secondary-social_behavior]
+8-(Who's There? Lyrics.txt_7-30)-[]
+9-(Who's There? Lyrics.txt_8-40)-[secondary-instru_behavior]
+10-(Who's There? Lyrics.txt_8-41)-[]
+11-(Who's There? Lyrics.txt_9-49)-[primary-sound,primary-touch]
+12-(Who's There? Lyrics.txt_10-59)-[primary-hard]
+13-(Who's There? Lyrics.txt_10-60)-[]
+14-(Who's There? Lyrics.txt_11-71)-[emotions-aggression,primary-hard,primary-anality]
+15-(Who's There? Lyrics.txt_12-84)-[]
+16-(Who's There? Lyrics.txt_12-85)-[secondary-social_behavior]
+17-(Who's There? Lyrics.txt_13-97)-[]
+half
+18-(Who's There? Lyrics.txt_13-98)-[]
+19-(Who's There? Lyrics.txt_14-112)-[primary-fire,primary-orality]
+20-(Who's There? Lyrics.txt_15-128)-[]
+21-(Who's There? Lyrics.txt_15-129)-[]
+22-(Who's There? Lyrics.txt_16-145)-[]
+23-(Who's There? Lyrics.txt_17-163)-[secondary-abstract_tought]
+24-(Who's There? Lyrics.txt_17-164)-[]
+25-(Who's There? Lyrics.txt_18-182)-[primary-vision,secondary-social_behavior]
+26-(Who's There? Lyrics.txt_18-183)-[primary-vision,secondary-social_behavior]
+27-(Who's There? Lyrics.txt_18-184)-[emotions-aggression]
+28-(Who's There? Lyrics.txt_18-185)-[]
+29-(Who's There? Lyrics.txt_19-203)-[secondary-instru_behavior,secondary-abstract_tought,primary-narcissism]
+30-(Who's There? Lyrics.txt_20-224)-[emotions-positive_affect]
+31-(Who's There? Lyrics.txt_21-245)-[]
+32-(Who's There? Lyrics.txt_21-246)-[secondary-temporal_repere,secondary-abstract_tought]
+33-(Who's There? Lyrics.txt_21-247)-[]
+34-(Who's There? Lyrics.txt_22-269)-[]
+35-(Who's There? Lyrics.txt_22-270)-[primary-water]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Who's There? Lyrics.txt_1,1,cl1-nil-nil-be-[xcomp-prop-there-sn2,subj-theme_bound-who-sn1,def_prop(there,[any]),def_prop(who,[umano])])
+lf(Who's There? Lyrics.txt_2,3,cl2-nil-nil-be-[arg_mod-agent-Legion-sn2,subj-theme_bound-Lyrics-sn1,and(Legion,Running,sn2),def_prop(Legion,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Who's There? Lyrics.txt_3,6,cl3-nil-nil-say-[obj-theme_unaff-Yo-sn1,def_prop(Yo,[istituzione,umano])])
+lf(Who's There? Lyrics.txt_4,10,cl4-nil-nil-be-[xcomp-prop-open-sn2,subj-theme_bound-it-sn1,def_prop(open,[astratto,evento,luogo]),def_prop(it,[any])])
+lf(Who's There? Lyrics.txt_5,15,cl6-nil-nil-come-[])
+lf(Who's There? Lyrics.txt_5,15,cl5-nil-can-can-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Who's There? Lyrics.txt_6,22,cl7-nil-nil-beat-[obj-theme_aff-step-sn2,subj-agent-excellent-sn1,and(step,maker,sn2),def_prop(step,[attivita,nquant,oggetto,strumento]),def_prop(excellent,[istituzione])])
+lf(Who's There? Lyrics.txt_7,29,cl10-nil-nil-be-[xcomp-prop-before-sn5,subj-theme_bound-him-sn4,def_prop(before,[istituzione]),def_prop(him,[umano])])
+lf(Who's There? Lyrics.txt_7,29,cl9-nil-nil-shrine-[])
+lf(Who's There? Lyrics.txt_7,29,nil-nil-nil-dap-[xcomp-result-meet-sn2,xcomp-purpose-shrine-3,def_prop(meet,[evento])])
+lf(Who's There? Lyrics.txt_7,29,cl8-nil-nil-give-[adj-(mod)-never-nil,subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Who's There? Lyrics.txt_8,40,cl11-nil-nil-get-[obj-theme_unaff-groove-sn5,subj-agent-we-sn4,iobj-goal-as_soon_as-sn2,subj-agent-we-sn1,and(as_soon_as,work,sn2),def_prop(groove,[astratto,body_part,umano]),def_prop(we,[umano]),def_prop(as_soon_as,[istituzione,umano]),def_prop(we,[umano])])
+lf(Who's There? Lyrics.txt_9,49,cl12-nil-nil-sound-[xadj-adj-smooth-adj2,xadj-adj-similar-adj1,ncmod-goal-that-sn1,def_prop(smooth,_555106),def_prop(similar,_555118),def_prop(that,[oggetto,umano])])
+lf(Who's There? Lyrics.txt_10,59,cl14-nil-nil-be-[xcomp-prop-Madvillainy-sn5,subj-theme_bound-this-sn4,cmod-subord-be-",def_prop(Madvillainy,[istituzione,umano]),def_prop(this,[oggetto,umano])])
+lf(Who's There? Lyrics.txt_10,59,cl13-nil-nil-rock-[subj-agent-P-sn1,def_prop(P,[place,attivita,informa])])
+lf(Who's There? Lyrics.txt_11,71,cl16-nil-nil-kill-[aux-(is)-nil,progr-killing-nil])
+lf(Who's There? Lyrics.txt_11,71,cl15-nil-nil-beat-[adj-subj_disc-too-sn3,xcomp-prop-hard-sn2,subj-agent-you-sn1,def_prop(too,[istituzione]),def_prop(hard,[valutativo]),def_prop(you,[umano])])
+lf(Who's There? Lyrics.txt_12,84,cl17-nil-nil-be-[subj-theme_bound-you-sn5,xcomp-prop-that-sn2,subj-theme_bound-rhyme-sn1,def_prop(you,[umano]),def_prop(that,[oggetto,umano]),def_prop(rhyme,[attivita,informa])])
+lf(Who's There? Lyrics.txt_13,97,cl19-nil-nil-be-[subj-theme_bound-you-sn7,def_prop(you,[umano])])
+lf(Who's There? Lyrics.txt_13,97,cl18-nil-nil-chill-[subj-agent-i-sn1,aux-are-nil,progr-chilling-nil,and(i,we,sn1),def_prop(i,[umano])])
+lf(Who's There? Lyrics.txt_14,112,cl21-nil-nil-be-[xcomp-theme-heat-sn3,xcomp-purpose-grill-2,ncmod-locativo-AZ-sn2,subj-theme_bound-some-sn1,and(some,this,sn1),def_prop(heat,[astratto,attivita,cambia,evento]),def_prop(AZ,[astratto,informa,tecno]),def_prop(some,[umano])])
+lf(Who's There? Lyrics.txt_14,112,cl20-nil-nil-grill-[ncmod-locativo-roast-sn5,and(roast,roast,sn5),def_prop(roast,_556270)])
+lf(Who's There? Lyrics.txt_15,128,cl23-nil-nil-be-[xcomp-prop-load-sn6,and(load,most,sn6),def_prop(load,[attivita,cambia,nquant,oggetto,strumento])])
+lf(Who's There? Lyrics.txt_15,128,cl22-nil-nil-mind-[ncmod-modale-rhyme-sn2,subj-theme_unaff-my-sn1,and(my,i-ma,sn1),and(my,pack,sn1),def_prop(rhyme,[attivita,informa]),def_prop(my,[informa,tecno])])
+lf(Who's There? Lyrics.txt_16,145,cl25-nil-nil-hold-[subj-agent-holster-sn3,and(holster,much,sn3),def_prop(holster,[oggetto,strumento])])
+lf(Who's There? Lyrics.txt_16,145,cl24-nil-nil-get-[obj-theme_unaff-enough-sn2,subj-agent-you-sn1,def_prop(enough,[astratto,informa,oggetto]),def_prop(you,[umano])])
+lf(Who's There? Lyrics.txt_17,163,cl27-nil-nil-be-[xcomp-prop-that-sn3,subj-theme_bound-i-sn2,def_prop(that,[oggetto,umano]),def_prop(i,[umano])])
+lf(Who's There? Lyrics.txt_17,163,cl26-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Who's There? Lyrics.txt_18,182,cl30-nil-nil-send-[obj-goal-man-sn9,subj-agent-link-sn8,subj-agent-link-sn7,subj-agent-me-sn6,and(link,me,sn7),and(me,you,sn6),def_prop(man,[any]),def_prop(link,[attivita,informa,nquant,oggetto,relat,strumento]),def_prop(link,[attivita,informa,nquant,oggetto,relat,strumento]),def_prop(me,[umano])])
+lf(Who's There? Lyrics.txt_18,182,cl29-nil-nil-get-[obj-theme-me-sn5,obj-theme_unaff-beat-sn4,subj-agent-he-sn3,def_prop(me,[umano]),def_prop(beat,[astratto,attivita,cambia,evento,luogo]),def_prop(he,[umano])])
+lf(Who's There? Lyrics.txt_18,182,cl28-nil-nil-say-[subj-actor-you-sn2,subj-actor-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Who's There? Lyrics.txt_19,203,cl32-not-nil-get-[ncmod-paziente-hand-sn4,xcomp-purpose-get-3,aux-does-nil,and(hand,weak,sn4),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano])])
+lf(Who's There? Lyrics.txt_19,203,cl31-nil-nil-make-[obj-goal-it-sn3,xcomp-prop-sure-sn2,subj-agent-you-sn1,def_prop(it,[any]),def_prop(sure,[valutativo]),def_prop(you,[umano])])
+lf(Who's There? Lyrics.txt_20,224,cl33-nil-would-be-[adj-(mod)-more_than-nil,obj2-benef-man-sn3,xcomp-prop-nothing-sn2,subj-theme_bound-it-sn1,and(man,funny,sn3),and(man,leak,sn3),def_prop(man,[any]),def_prop(nothing,[astratto,informa,oggetto]),def_prop(it,[any])])
+lf(Who's There? Lyrics.txt_21,245,cl36-nil-nil-need-[obj-theme-man-sn8,subj-experiencer-i-sn7,and(man,shrink,sn8),def_prop(man,[any]),def_prop(i,[umano])])
+lf(Who's There? Lyrics.txt_21,245,cl35-nil-nil-think-[subj-agent-i-sn3,subj-agent-i-sn2,and(i,you,sn2),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Who's There? Lyrics.txt_21,245,cl34-nil-nil-tell-[subj-agent-i-sn1,aux-am-nil,progr-telling-nil,def_prop(i,[umano])])
+lf(Who's There? Lyrics.txt_22,269,cl38-nil-nil-run-[obj-theme_aff-legion-sn5,subj-theme_aff-damn-sn4,def_prop(legion,[istituzione]),def_prop(damn,[astratto])])
+lf(Who's There? Lyrics.txt_22,269,cl37-nil-nil-be-[xcomp-prop-god-sn2,subj-theme_bound-Yo-sn1,and(Yo,it,sn1),def_prop(god,[umano]),def_prop(Yo,[umano])])

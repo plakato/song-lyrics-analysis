@@ -1,0 +1,164 @@
+"POLARITY, DISCOURSE MARKERS"
+
+From the Sun Lyrics.txt_1-1  []-positive  []
+From the Sun Lyrics.txt_2-3  []-suspension  [neg,neg]
+From the Sun Lyrics.txt_3-6  []-negative  [neg]
+From the Sun Lyrics.txt_4-10  []-negative  [neg]
+From the Sun Lyrics.txt_5-15  [if-hypoth]-positive  [fgb]
+From the Sun Lyrics.txt_6-22  []-positive  []
+From the Sun Lyrics.txt_7-29  []-positive  []
+From the Sun Lyrics.txt_8-37  [if-hypoth]-positive  [fgb]
+From the Sun Lyrics.txt_9-47  [if-hypoth]-negative  [fgb,neg]
+From the Sun Lyrics.txt_9-48  []-positive  []
+From the Sun Lyrics.txt_10-58  []-positive  []
+From the Sun Lyrics.txt_10-59  [but-advers,so-result]-suspension  [fgb,neg,fgb,neg]
+From the Sun Lyrics.txt_11-70  []-negative  [neg]
+From the Sun Lyrics.txt_12-82  []-negative  [neg]
+From the Sun Lyrics.txt_13-95  []-positive  []
+From the Sun Lyrics.txt_13-96  [but-advers,so-result]-negative  [fgb,neg,fgb,neg]
+From the Sun Lyrics.txt_14-111  []-negative  [neg]
+From the Sun Lyrics.txt_14-112  []-positive  []
+From the Sun Lyrics.txt_15-127  []-negative  [neg]
+From the Sun Lyrics.txt_15-128  []-positive  []
+From the Sun Lyrics.txt_16-144  []-positive  []
+From the Sun Lyrics.txt_16-145  [but-advers,so-result]-negative  [fgb,neg,fgb,neg]
+From the Sun Lyrics.txt_17-163  []-positive  []
+From the Sun Lyrics.txt_17-164  [so-result]-negative  [fgb,neg]
+From the Sun Lyrics.txt_17-164  [so-result]-negative  [fgb,neg,neg]
+From the Sun Lyrics.txt_18-183  []-positive  [bkc,bkc,bkc]
+From the Sun Lyrics.txt_19-202  []-suspension  [neg,neg]
+From the Sun Lyrics.txt_20-222  []-negative  [neg]
+From the Sun Lyrics.txt_21-243  []-negative  [neg]
+From the Sun Lyrics.txt_22-265  [if-hypoth]-positive  [fgb]
+From the Sun Lyrics.txt_23-289  []-positive  []
+From the Sun Lyrics.txt_24-313  []-positive  []
+From the Sun Lyrics.txt_25-338  [if-hypoth]-positive  [fgb]
+From the Sun Lyrics.txt_26-365  [if-hypoth]-negative  [fgb,neg]
+From the Sun Lyrics.txt_26-366  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+From the Sun Lyrics.txt_1-1  [from,the,Sun,Lyrics,by,Unknown,Mortal,Orchestra]  [title]
+From the Sun Lyrics.txt_2-3  [isolation,can,put,a,gun,your,in,hand]  [provide_expl_just(put,[external,nonfactive,narration,background,objective])]
+From the Sun Lyrics.txt_3-6  [it,can,put,a,gun,in,your,hand]  [reject_expl_just(put,[external,nonfactive,narration,background,objective])]
+From the Sun Lyrics.txt_4-10  [it,can,put,a,gun,in,your,hand]  [reject_expl_just(put,[external,nonfactive,narration,background,objective])]
+From the Sun Lyrics.txt_5-15  [if,you,need,to,,,you,can,get,away,from,the,sun]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(get,[external,nonfactive,narration,foreground,objective])]
+From the Sun Lyrics.txt_6-22  [you,can,get,away,from,the,sun]  [provide_expl_just(get,[external,nonfactive,narration,foreground,objective])]
+From the Sun Lyrics.txt_7-29  [you,can,get,away,from,the,sun]  [raise_issue(be,[_352786,factive,statement,_352804,subjective])]
+From the Sun Lyrics.txt_8-37  [if,you,need,to,,,you,can,get,away,from,the,sun]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(get,[external,nonfactive,narration,foreground,objective])]
+From the Sun Lyrics.txt_9-47  [if,you,need,to,,,you,can,throw,away]  [reject_expl_just(throw,[external,nonfactive,narration,foreground,objective]),reject_expl_just(need,[external,factive,narration,background,objective])]
+From the Sun Lyrics.txt_9-48  [the,only_one]  [provide_expl_just(throw,[external,nonfactive,narration,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+From the Sun Lyrics.txt_10-58  [i,am]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+From the Sun Lyrics.txt_10-59  [so,tired,but,i,can,never,lay,down,my,head]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+From the Sun Lyrics.txt_11-70  [i,can,never,lay,down,my,head]  [reject_expl_just(lay,[external,nonfactive,narration,foreground,objective])]
+From the Sun Lyrics.txt_12-82  [i,can,never,lay,down,my,head]  [reject_expl_just(be,[_356396,_356402,_356408,_356414,_356420])]
+From the Sun Lyrics.txt_13-95  [i,am]  [provide_expl_just(reach,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,adverse,background,objective])]
+From the Sun Lyrics.txt_13-96  [so,lonely,but,i,can,never,quite,reach,the,phone]  [reject_expl_just(reach,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,adverse,background,objective]),provide_expl_just(be,[external,factive,adverse,background,objective])]
+From the Sun Lyrics.txt_14-111  [i,can,never]  [reject_expl_just(can,[external,nonfactive,narration,foreground,objective]),reject_expl_just(reach,[external,factive,narration,background,objective])]
+From the Sun Lyrics.txt_14-112  [quite,reach,the,phone]  [provide_expl_just(can,[external,nonfactive,narration,foreground,objective]),provide_expl_just(reach,[external,factive,narration,background,objective])]
+From the Sun Lyrics.txt_15-127  [i,can,never]  [reject_expl_just(can,[external,nonfactive,narration,foreground,objective]),reject_expl_just(reach,[external,factive,narration,background,objective])]
+From the Sun Lyrics.txt_15-128  [quite,reach,the,phone]  [provide_expl_just(can,[external,nonfactive,narration,foreground,objective]),provide_expl_just(reach,[external,factive,narration,background,objective])]
+From the Sun Lyrics.txt_16-144  [i,am]  [provide_expl_just(reach,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,adverse,background,objective])]
+From the Sun Lyrics.txt_16-145  [so,lonely,but,i,can,never,quite,reach,the,phone]  [reject_expl_just(reach,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,adverse,background,objective]),provide_expl_just(be,[external,factive,adverse,background,objective])]
+From the Sun Lyrics.txt_17-163  [i,am]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(eat,[external,factive,narration,background,objective])]
+From the Sun Lyrics.txt_17-164  [so,lonely,,,i,have,gotta,eat,my,popcorn,all]  [reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(eat,[external,factive,narration,background,objective])]
+From the Sun Lyrics.txt_17-164  [so,lonely,,,i,have,gotta,eat,my,popcorn,all,alone]  [reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(eat,[external,factive,narration,background,objective])]
+From the Sun Lyrics.txt_18-183  [yeah,,,yeah,,,yeah]  [accept_expl_opin(be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+From the Sun Lyrics.txt_19-202  [isolation,can,put,a,gun,your,in,hand]  [provide_expl_just(put,[external,nonfactive,narration,background,objective])]
+From the Sun Lyrics.txt_20-222  [it,can,put,a,gun,in,your,hand]  [reject_expl_just(put,[external,nonfactive,narration,background,objective])]
+From the Sun Lyrics.txt_21-243  [it,can,put,a,gun,in,your,hand]  [reject_expl_just(put,[external,nonfactive,narration,background,objective])]
+From the Sun Lyrics.txt_22-265  [if,you,need,to,,,you,can,get,away,from,the,sun]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(get,[external,nonfactive,narration,foreground,objective])]
+From the Sun Lyrics.txt_23-289  [you,can,get,away,from,the,sun]  [provide_expl_just(get,[external,nonfactive,narration,foreground,objective])]
+From the Sun Lyrics.txt_24-313  [you,can,get,away,from,the,sun]  [raise_issue(be,[_366342,factive,statement,_366360,subjective])]
+From the Sun Lyrics.txt_25-338  [if,you,need,to,,,you,can,get,away,from,the,sun]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(get,[external,nonfactive,narration,foreground,objective])]
+From the Sun Lyrics.txt_26-365  [if,you,need,to,,,you,can,throw,away]  [reject_expl_just(throw,[external,nonfactive,narration,foreground,objective]),reject_expl_just(need,[external,factive,narration,background,objective])]
+From the Sun Lyrics.txt_26-366  [the,only_one]  [provide_expl_just(throw,[external,nonfactive,narration,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(From the Sun Lyrics.txt_1-1)-[]
+2-(From the Sun Lyrics.txt_2-3)-[emotions-aggression,primary-narcissism]
+3-(From the Sun Lyrics.txt_3-6)-[emotions-aggression,primary-narcissism]
+4-(From the Sun Lyrics.txt_4-10)-[emotions-aggression,primary-narcissism]
+5-(From the Sun Lyrics.txt_5-15)-[primary-concreteness,primary-fire]
+6-(From the Sun Lyrics.txt_6-22)-[primary-concreteness,primary-fire]
+7-(From the Sun Lyrics.txt_7-29)-[primary-concreteness,primary-fire]
+8-(From the Sun Lyrics.txt_8-37)-[primary-concreteness,primary-fire]
+9-(From the Sun Lyrics.txt_9-47)-[primary-ascend,primary-concreteness]
+10-(From the Sun Lyrics.txt_9-48)-[]
+11-(From the Sun Lyrics.txt_10-58)-[]
+12-(From the Sun Lyrics.txt_10-59)-[primary-passivity,primary-narcissism]
+13-(From the Sun Lyrics.txt_11-70)-[primary-passivity,primary-narcissism]
+14-(From the Sun Lyrics.txt_12-82)-[primary-passivity,primary-narcissism]
+15-(From the Sun Lyrics.txt_13-95)-[]
+16-(From the Sun Lyrics.txt_13-96)-[emotions-sadness,secondary-instru_behavior]
+17-(From the Sun Lyrics.txt_14-111)-[]
+half
+18-(From the Sun Lyrics.txt_14-112)-[secondary-instru_behavior]
+19-(From the Sun Lyrics.txt_15-127)-[]
+20-(From the Sun Lyrics.txt_15-128)-[secondary-instru_behavior]
+21-(From the Sun Lyrics.txt_16-144)-[]
+22-(From the Sun Lyrics.txt_16-145)-[emotions-sadness,secondary-instru_behavior]
+23-(From the Sun Lyrics.txt_17-163)-[]
+24-(From the Sun Lyrics.txt_17-164)-[emotions-sadness,primary-orality]
+25-(From the Sun Lyrics.txt_17-164)-[emotions-sadness,primary-orality]
+26-(From the Sun Lyrics.txt_18-183)-[]
+27-(From the Sun Lyrics.txt_19-202)-[emotions-aggression,primary-narcissism]
+28-(From the Sun Lyrics.txt_20-222)-[emotions-aggression,primary-narcissism]
+29-(From the Sun Lyrics.txt_21-243)-[emotions-aggression,primary-narcissism]
+30-(From the Sun Lyrics.txt_22-265)-[primary-concreteness,primary-fire]
+31-(From the Sun Lyrics.txt_23-289)-[primary-concreteness,primary-fire]
+32-(From the Sun Lyrics.txt_24-313)-[primary-concreteness,primary-fire]
+33-(From the Sun Lyrics.txt_25-338)-[primary-concreteness,primary-fire]
+34-(From the Sun Lyrics.txt_26-365)-[primary-ascend,primary-concreteness]
+35-(From the Sun Lyrics.txt_26-366)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(From the Sun Lyrics.txt_1,1,cl1-nil-nil-be-[xadj-theme-orchestra-sn4,arg_mod-agent-Unknown-sn3,ncmod-loc_origin-Sun-sn2,subj-theme_bound-Lyrics-sn1,def_prop(orchestra,[istituzione,oggetto,strumento]),def_prop(Unknown,[istituzione]),def_prop(Sun,[place,informa,istituzione,tecno,tempo,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(From the Sun Lyrics.txt_2,3,cl2-nil-can-put-[iobj-goal-hand-sn4,xcomp-prop-your-sn3,obj-goal-gun-sn2,subj-agent-isolation-sn1,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(your,[evaluative]),def_prop(gun,[attivita,oggetto,strumento,umano]),def_prop(isolation,[attivita,emotivo,stato])])
+lf(From the Sun Lyrics.txt_3,6,cl3-nil-can-put-[iobj-goal-hand-sn3,obj-goal-gun-sn2,subj-agent-it-sn1,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(gun,[attivita,oggetto,strumento,umano]),def_prop(it,[any])])
+lf(From the Sun Lyrics.txt_4,10,cl4-nil-can-put-[iobj-goal-hand-sn3,obj-goal-gun-sn2,subj-agent-it-sn1,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(gun,[attivita,oggetto,strumento,umano]),def_prop(it,[any])])
+lf(From the Sun Lyrics.txt_5,15,cl6-nil-can-get-[adj-(mod)-away-nil,ncmod-loc_origin-sun-sn3,subj-experiencer-you-sn2,def_prop(sun,[oggetto,umano]),def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_5,15,cl5-nil-nil-need-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_6,22,cl7-nil-can-get-[adj-(mod)-away-nil,ncmod-loc_origin-sun-sn2,subj-experiencer-you-sn1,def_prop(sun,[oggetto,umano]),def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_7,29,cl8-nil-can-get-[adj-(mod)-away-nil,ncmod-loc_origin-sun-sn2,subj-experiencer-you-sn1,def_prop(sun,[oggetto,umano]),def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_8,37,cl10-nil-can-get-[adj-(mod)-away-nil,ncmod-loc_origin-sun-sn3,subj-experiencer-you-sn2,def_prop(sun,[oggetto,umano]),def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_8,37,cl9-nil-nil-need-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_9,47,cl12-nil-can-throw-[xcomp-prop-away-sn3,subj-agent-you-sn2,def_prop(away,[evaluative]),def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_9,47,cl11-nil-nil-need-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_10,58,cl14-nil-can-lay-[cmod-subord-lay-but,adj-(mod)-down-nil,xcomp-prop-head-sn4,subj-experiencer-i-sn3,neg-never-nil,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(i,[umano])])
+lf(From the Sun Lyrics.txt_10,58,cl13-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_11,70,cl15-nil-can-lay-[adj-(mod)-down-nil,obj-theme_aff-head-sn2,subj-experiencer-i-sn1,neg-never-nil,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(i,[umano])])
+lf(From the Sun Lyrics.txt_12,82,cl16-nil-can-lay-[adj-(mod)-down-nil,obj-theme_aff-head-sn2,subj-experiencer-i-sn1,neg-never-nil,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(i,[umano])])
+lf(From the Sun Lyrics.txt_13,95,cl19-nil-nil-reach-[])
+lf(From the Sun Lyrics.txt_13,95,cl18-nil-can-can-[cmod-subord-reach-but,adj-locative-never-nil,obj-goal-phone-sn4,xcomp-purpose-reach-cl19,subj-actor-i-sn3,def_prop(phone,[attivita,informa]),def_prop(i,[umano])])
+lf(From the Sun Lyrics.txt_13,95,cl17-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_14,111,cl21-nil-nil-reach-[subj-agent-phone-sn4,def_prop(phone,[attivita,informa])])
+lf(From the Sun Lyrics.txt_14,111,cl20-nil-can-can-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(From the Sun Lyrics.txt_15,127,cl23-nil-nil-reach-[subj-agent-phone-sn4,def_prop(phone,[attivita,informa])])
+lf(From the Sun Lyrics.txt_15,127,cl22-nil-can-can-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(From the Sun Lyrics.txt_16,144,cl26-nil-nil-reach-[])
+lf(From the Sun Lyrics.txt_16,144,cl25-nil-can-can-[cmod-subord-reach-but,adj-locative-never-nil,obj-goal-phone-sn4,xcomp-purpose-reach-cl26,subj-actor-i-sn3,def_prop(phone,[attivita,informa]),def_prop(i,[umano])])
+lf(From the Sun Lyrics.txt_16,144,cl24-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_17,163,cl29-nil-nil-eat-[cmod-subord-eat-so,xadj-adj-alone-adj3,xadj-adj-lonely-adj2,obj-theme_unaff-popcorn-sn8,xcomp-purpose-eat-cl29,xadj-adj-lonely-adj1,def_prop(alone,_372464),def_prop(lonely,_372476),def_prop(popcorn,[edible,oggetto,plant]),def_prop(lonely,_372518)])
+lf(From the Sun Lyrics.txt_17,163,cl28-nil-nil-have-[xcomp-tema_nonaff-all-sn9,subj-experiencer-i-sn7,xcomp-tema_nonaff-all-sn4,xcomp-theme_unaff-popcorn-sn3,xcomp-purpose-eat-2,subj-experiencer-i-sn2,def_prop(all,[_372684]),def_prop(i,[umano]),def_prop(all,[_372720]),def_prop(popcorn,[edible,oggetto,plant]),def_prop(i,[umano])])
+lf(From the Sun Lyrics.txt_17,163,cl27-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_18,183,cl30-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(From the Sun Lyrics.txt_19,202,cl31-nil-can-put-[iobj-goal-hand-sn4,xcomp-prop-your-sn3,obj-goal-gun-sn2,subj-agent-isolation-sn1,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(your,[evaluative]),def_prop(gun,[attivita,oggetto,strumento,umano]),def_prop(isolation,[attivita,emotivo,stato])])
+lf(From the Sun Lyrics.txt_20,222,cl32-nil-can-put-[iobj-goal-hand-sn3,obj-goal-gun-sn2,subj-agent-it-sn1,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(gun,[attivita,oggetto,strumento,umano]),def_prop(it,[any])])
+lf(From the Sun Lyrics.txt_21,243,cl33-nil-can-put-[iobj-goal-hand-sn3,obj-goal-gun-sn2,subj-agent-it-sn1,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(gun,[attivita,oggetto,strumento,umano]),def_prop(it,[any])])
+lf(From the Sun Lyrics.txt_22,265,cl35-nil-can-get-[adj-(mod)-away-nil,ncmod-loc_origin-sun-sn3,subj-experiencer-you-sn2,def_prop(sun,[oggetto,umano]),def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_22,265,cl34-nil-nil-need-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_23,289,cl36-nil-can-get-[adj-(mod)-away-nil,ncmod-loc_origin-sun-sn2,subj-experiencer-you-sn1,def_prop(sun,[oggetto,umano]),def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_24,313,cl37-nil-can-get-[adj-(mod)-away-nil,ncmod-loc_origin-sun-sn2,subj-experiencer-you-sn1,def_prop(sun,[oggetto,umano]),def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_25,338,cl39-nil-can-get-[adj-(mod)-away-nil,ncmod-loc_origin-sun-sn3,subj-experiencer-you-sn2,def_prop(sun,[oggetto,umano]),def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_25,338,cl38-nil-nil-need-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_26,365,cl41-nil-can-throw-[xcomp-prop-away-sn3,subj-agent-you-sn2,def_prop(away,[evaluative]),def_prop(you,[umano])])
+lf(From the Sun Lyrics.txt_26,365,cl40-nil-nil-need-[subj-experiencer-you-sn1,def_prop(you,[umano])])

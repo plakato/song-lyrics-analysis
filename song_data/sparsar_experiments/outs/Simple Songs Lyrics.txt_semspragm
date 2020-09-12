@@ -1,0 +1,126 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Simple Songs Lyrics.txt_1-1  []-positive  []
+Simple Songs Lyrics.txt_2-3  []-suspension  []
+Simple Songs Lyrics.txt_3-6  []-positive  []
+Simple Songs Lyrics.txt_3-7  []-suspension  []
+Simple Songs Lyrics.txt_4-11  []-positive  []
+Simple Songs Lyrics.txt_5-16  []-negative  [fgb,neg]
+Simple Songs Lyrics.txt_6-22  []-positive  []
+Simple Songs Lyrics.txt_7-29  []-positive  []
+Simple Songs Lyrics.txt_8-37  []-positive  []
+Simple Songs Lyrics.txt_9-46  []-positive  []
+Simple Songs Lyrics.txt_10-56  []-positive  []
+Simple Songs Lyrics.txt_11-67  []-negative  []
+Simple Songs Lyrics.txt_12-79  []-positive  []
+Simple Songs Lyrics.txt_13-92  []-positive  []
+Simple Songs Lyrics.txt_14-106  []-negative  [neg,neg]
+Simple Songs Lyrics.txt_15-121  []-positive  []
+Simple Songs Lyrics.txt_16-137  []-positive  []
+Simple Songs Lyrics.txt_17-154  [but-advers]-positive  [fgb]
+Simple Songs Lyrics.txt_18-172  []-negative  [neg]
+Simple Songs Lyrics.txt_19-191  []-positive  []
+Simple Songs Lyrics.txt_20-211  []-positive  []
+Simple Songs Lyrics.txt_21-232  []-positive  []
+Simple Songs Lyrics.txt_22-254  []-positive  []
+Simple Songs Lyrics.txt_23-277  []-positive  []
+Simple Songs Lyrics.txt_24-301  []-positive  []
+Simple Songs Lyrics.txt_25-326  []-negative  [neg]
+Simple Songs Lyrics.txt_26-352  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Simple Songs Lyrics.txt_1-1  [simple,Songs,Lyrics,by,QUARTERBACKS]  [title]
+Simple Songs Lyrics.txt_2-3  [i,believe,in,pop,music]  [provide_expl_just(believe,[external,factive,explanation,background,objective]),suggest(believe,[external,factive,explanation,background,objective])]
+Simple Songs Lyrics.txt_3-6  [the,way,i,wish]  [provide_expl_just(believe,[external,factive,narration,foreground,objective])]
+Simple Songs Lyrics.txt_3-7  [i,believed,in,God]  [provide_expl_just(believe,[external,factive,narration,foreground,objective])]
+Simple Songs Lyrics.txt_4-11  [completely]  [raise_issue(be,[_75144,factive,statement,_75162,subjective])]
+Simple Songs Lyrics.txt_5-16  [and,without,question]  [reject_expl_just(question,[external,factive,narration,background,objective])]
+Simple Songs Lyrics.txt_6-22  [there,i_wish,was]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Simple Songs Lyrics.txt_7-29  [something,higher]  [raise_issue(be,[_76274,factive,statement,_76292,subjective])]
+Simple Songs Lyrics.txt_8-37  [that,i,could,subscribe,to]  [provide_expl_just(subscribe,[external,nonfactive,narration,background,objective])]
+Simple Songs Lyrics.txt_9-46  [to,give,my,life]  [provide_expl_just(give,[external,factive,narration,background,objective])]
+Simple Songs Lyrics.txt_10-56  [some,direction]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Simple Songs Lyrics.txt_11-67  [i,cuz,don-t,have]  [provide_expl_just(have,[external,factive,narration,background,objective])]
+Simple Songs Lyrics.txt_12-79  [a,life,plan]  [provide_expl_just(plan,[external,factive,narration,background,objective])]
+Simple Songs Lyrics.txt_13-92  [i,just,have]  [provide_expl_just(have,[external,factive,narration,background,objective])]
+Simple Songs Lyrics.txt_14-106  [this,little,band]  [reject_expl_just(ban,[external,factive,narration,background,objective])]
+Simple Songs Lyrics.txt_15-121  [simple,songs]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Simple Songs Lyrics.txt_16-137  [with,simple,chords]  [provide_expl_just(chord,[external,factive,narration,background,objective])]
+Simple Songs Lyrics.txt_17-154  [but,simple,songs]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Simple Songs Lyrics.txt_18-172  [your,soul,will,not,save]  [reject_expl_just(save,[external,nonfactive,narration,background,objective])]
+Simple Songs Lyrics.txt_19-191  [the,only,thing]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Simple Songs Lyrics.txt_20-211  [that,speaks,to,me]  [provide_expl_just(speak,[external,factive,narration,background,objective])]
+Simple Songs Lyrics.txt_21-232  [catchy,melodies,are]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Simple Songs Lyrics.txt_22-254  [the,same,chords]  [provide_expl_just(chord,[external,factive,narration,background,objective])]
+Simple Songs Lyrics.txt_23-277  [all_the_time]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Simple Songs Lyrics.txt_24-301  [ecg]  [raise_issue(be,[_83116,factive,statement,_83134,subjective])]
+Simple Songs Lyrics.txt_25-326  [the,only,damn,thing]  [reject_expl_just(damn,[external,factive,narration,background,objective])]
+Simple Songs Lyrics.txt_26-352  [that,speaks,to,me]  [provide_expl_just(speak,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Simple Songs Lyrics.txt_1-1)-[secondary-order]
+2-(Simple Songs Lyrics.txt_2-3)-[secondary-abstract_tought,primary-sound]
+3-(Simple Songs Lyrics.txt_3-6)-[]
+4-(Simple Songs Lyrics.txt_3-7)-[secondary-abstract_tought]
+5-(Simple Songs Lyrics.txt_4-11)-[]
+6-(Simple Songs Lyrics.txt_5-16)-[]
+7-(Simple Songs Lyrics.txt_6-22)-[]
+8-(Simple Songs Lyrics.txt_7-29)-[primary-height]
+9-(Simple Songs Lyrics.txt_8-37)-[]
+10-(Simple Songs Lyrics.txt_9-46)-[]
+11-(Simple Songs Lyrics.txt_10-56)-[]
+12-(Simple Songs Lyrics.txt_11-67)-[]
+13-(Simple Songs Lyrics.txt_12-79)-[secondary-abstract_tought]
+half
+14-(Simple Songs Lyrics.txt_13-92)-[]
+15-(Simple Songs Lyrics.txt_14-106)-[]
+16-(Simple Songs Lyrics.txt_15-121)-[secondary-order]
+17-(Simple Songs Lyrics.txt_16-137)-[secondary-order,primary-sound]
+18-(Simple Songs Lyrics.txt_17-154)-[secondary-order]
+19-(Simple Songs Lyrics.txt_18-172)-[]
+20-(Simple Songs Lyrics.txt_19-191)-[]
+21-(Simple Songs Lyrics.txt_20-211)-[secondary-social_behavior]
+22-(Simple Songs Lyrics.txt_21-232)-[secondary-restraint,primary-sound]
+23-(Simple Songs Lyrics.txt_22-254)-[primary-sound]
+24-(Simple Songs Lyrics.txt_23-277)-[]
+25-(Simple Songs Lyrics.txt_24-301)-[]
+26-(Simple Songs Lyrics.txt_25-326)-[primary-water]
+27-(Simple Songs Lyrics.txt_26-352)-[secondary-social_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Simple Songs Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-quarterback-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,female,sn1),and(Lyrics,simple,sn1),def_prop(quarterback,[attivita,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Simple Songs Lyrics.txt_2,3,cl2-nil-nil-believe-[iobj-goal-music-sn2,subj-actor-i-sn1,and(music,pop,sn2),def_prop(music,[astratto,attivita,informa]),def_prop(i,[umano])])
+lf(Simple Songs Lyrics.txt_3,6,cl4-nil-nil-believe-[iobj-goal-God-sn5,subj-actor-i-sn4,def_prop(God,[animato]),def_prop(i,[umano])])
+lf(Simple Songs Lyrics.txt_3,6,cl3-nil-nil-wish-[subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,way,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Simple Songs Lyrics.txt_4,11,cl5-nil-nil-say-[])
+lf(Simple Songs Lyrics.txt_5,16,cl6-nil-nil-question-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Simple Songs Lyrics.txt_6,22,cl7-nil-nil-be-[ncmod-modal-there-sn2,subj-theme_bound-you-sn1,def_prop(there,[any]),def_prop(you,[umano])])
+lf(Simple Songs Lyrics.txt_7,29,cl8-nil-nil-say-[])
+lf(Simple Songs Lyrics.txt_8,37,cl9-nil-could-subscribe-[ccomp-prop-subscribe-cl9,subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Simple Songs Lyrics.txt_9,46,cl10-nil-nil-give-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Simple Songs Lyrics.txt_10,56,cl11-nil-nil-say-[obj-theme_unaff-direction-sn1,and(direction,some,sn1),def_prop(direction,[astratto,attivita,informa,luogo,relat])])
+lf(Simple Songs Lyrics.txt_11,67,cl12-not-nil-have-[ncmod-modal-i-sn2,subj-experiencer-you-sn1,def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Simple Songs Lyrics.txt_12,79,cl13-nil-nil-plan-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Simple Songs Lyrics.txt_13,92,cl14-nil-nil-have-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Simple Songs Lyrics.txt_14,106,cl15-nil-nil-ban-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Simple Songs Lyrics.txt_15,121,cl16-nil-nil-say-[obj-theme_unaff-song-sn1,and(song,simple,sn1),def_prop(song,[astratto,attivita,evento,informa,oggetto])])
+lf(Simple Songs Lyrics.txt_16,137,cl17-nil-nil-chord-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Simple Songs Lyrics.txt_17,154,cl18-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Simple Songs Lyrics.txt_18,172,cl19-not-will-save-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Simple Songs Lyrics.txt_19,191,cl20-nil-nil-be-[subj-theme_bound-thing-sn2,subj-theme_bound-thing-sn1,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Simple Songs Lyrics.txt_20,211,cl21-nil-nil-speak-[iobj-goal-me-sn1,def_prop(me,[umano])])
+lf(Simple Songs Lyrics.txt_21,232,cl22-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Simple Songs Lyrics.txt_22,254,cl23-nil-nil-chord-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Simple Songs Lyrics.txt_23,277,cl24-nil-nil-say-[])
+lf(Simple Songs Lyrics.txt_24,301,cl25-nil-nil-say-[obj-theme_unaff-ecg-sn1,def_prop(ecg,[attivita,informa])])
+lf(Simple Songs Lyrics.txt_25,326,nil-nil-nil-damn-[obj-theme_unaff-thing-sn1,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Simple Songs Lyrics.txt_26,352,cl26-nil-nil-speak-[iobj-goal-me-sn1,def_prop(me,[umano])])

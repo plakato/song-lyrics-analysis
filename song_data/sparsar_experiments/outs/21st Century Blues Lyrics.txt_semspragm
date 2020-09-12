@@ -1,0 +1,229 @@
+"POLARITY, DISCOURSE MARKERS"
+
+21st Century Blues Lyrics.txt_1-1  []-positive  []
+21st Century Blues Lyrics.txt_2-3  []-question  []
+21st Century Blues Lyrics.txt_3-6  []-negative  [neg,neg]
+21st Century Blues Lyrics.txt_4-10  []-positive  []
+21st Century Blues Lyrics.txt_4-11  []-positive  [fgb,fgb]
+21st Century Blues Lyrics.txt_5-17  []-question  [neg,fgb]
+21st Century Blues Lyrics.txt_6-25  []-positive  []
+21st Century Blues Lyrics.txt_7-33  []-suspension  [fgb]
+21st Century Blues Lyrics.txt_7-34  []-negative  [fgb,fgb,neg,neg]
+21st Century Blues Lyrics.txt_8-43  []-negative  []
+21st Century Blues Lyrics.txt_9-52  []-negative  []
+21st Century Blues Lyrics.txt_10-62  []-positive  []
+21st Century Blues Lyrics.txt_11-73  []-negative  [neg]
+21st Century Blues Lyrics.txt_11-74  []-positive  []
+21st Century Blues Lyrics.txt_11-75  []-negative  []
+21st Century Blues Lyrics.txt_12-87  []-negative  []
+21st Century Blues Lyrics.txt_13-100  []-negative  []
+21st Century Blues Lyrics.txt_13-101  []-positive  [fhd]
+21st Century Blues Lyrics.txt_14-115  []-positive  []
+21st Century Blues Lyrics.txt_15-130  [if-hypoth]-negative  [fgb]
+21st Century Blues Lyrics.txt_16-146  []-negative  []
+21st Century Blues Lyrics.txt_17-163  []-positive  []
+21st Century Blues Lyrics.txt_17-164  []-positive  [fgb]
+21st Century Blues Lyrics.txt_18-183  [but-advers]-question  [fgb]
+21st Century Blues Lyrics.txt_19-203  []-question  []
+21st Century Blues Lyrics.txt_19-204  []-negative  [fgb,neg]
+21st Century Blues Lyrics.txt_19-204  []-negative  [fgb,neg,fhd]
+21st Century Blues Lyrics.txt_20-225  []-question  [neg]
+21st Century Blues Lyrics.txt_21-246  []-positive  [bkc]
+21st Century Blues Lyrics.txt_21-247  []-positive  []
+21st Century Blues Lyrics.txt_22-269  []-suspension  [fgb]
+21st Century Blues Lyrics.txt_22-270  []-negative  [fgb,fgb,neg,neg]
+21st Century Blues Lyrics.txt_23-294  []-negative  []
+21st Century Blues Lyrics.txt_24-318  []-negative  []
+21st Century Blues Lyrics.txt_25-343  []-positive  []
+21st Century Blues Lyrics.txt_26-369  []-negative  [neg]
+21st Century Blues Lyrics.txt_26-370  []-positive  []
+21st Century Blues Lyrics.txt_26-371  []-negative  []
+21st Century Blues Lyrics.txt_27-398  []-negative  []
+21st Century Blues Lyrics.txt_28-426  []-negative  []
+21st Century Blues Lyrics.txt_28-427  []-positive  [fhd]
+21st Century Blues Lyrics.txt_29-456  []-positive  []
+21st Century Blues Lyrics.txt_30-486  [if-hypoth]-negative  [fgb]
+21st Century Blues Lyrics.txt_31-517  [if-hypoth,then-temp_seq]-negative  [fgb]
+21st Century Blues Lyrics.txt_32-549  []-negative  [fgb]
+21st Century Blues Lyrics.txt_33-582  []-positive  []
+21st Century Blues Lyrics.txt_34-616  [if-hypoth]-negative  [fgb,fgb,neg]
+21st Century Blues Lyrics.txt_35-651  [then-temp_seq]-negative  [neg]
+21st Century Blues Lyrics.txt_36-687  [if-hypoth]-negative  [fgb]
+21st Century Blues Lyrics.txt_37-725  []-negative  []
+21st Century Blues Lyrics.txt_38-763  [if-hypoth,then-temp_seq]-negative  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+21st Century Blues Lyrics.txt_1-1  [21st,Century,Blues,Lyrics,by,the,Wombats]  [title]
+21st Century Blues Lyrics.txt_2-3  [pool,swimming,the,with,one,the,house,that,you,get,did,?]  [provide_expl_just(get,[internal,factive,explanation,background,objective])]
+21st Century Blues Lyrics.txt_3-6  [the,one,you,never,shut,up,about]  [reject_expl_just(shut,[external,factive,narration,foreground,objective])]
+21st Century Blues Lyrics.txt_4-10  [i,heard]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(pay,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_4-11  [you,got,that,job,and,the,extra,pay,works,well,for,you]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(pay,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_5-17  [coming,down,not,and,high,getting,you,are,?]  [propose_opin_neg(come,[internal,factive,result,background,objective]),propose_opin_neg(be,[internal,factive,circumstance,foreground,objective])]
+21st Century Blues Lyrics.txt_6-25  [i,need,to,decipher,the,differences,between]  [provide_expl_just(decipher,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_7-33  [what,i,will,always,want]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_7-34  [and,what,i,will,never,need,.,i,will,never,need]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_8-43  [i,don-t,need,your]  [provide_expl_just(need,[external,factive,narration,foreground,objective])]
+21st Century Blues Lyrics.txt_9-52  [i,don-t,need,your,swinging,moods]  [proposal(be,[_162654,_162660,statement,foreground,_162678])]
+21st Century Blues Lyrics.txt_10-62  [your,Twenty-first,Century,blues]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_11-73  [i,want,hugs,not]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(scissor,[external,factive,narration,background,objective]),reject_expl_just(kick,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_11-74  [your,scissor]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(scissor,[external,factive,narration,background,objective]),provide_expl_just(kick,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_11-75  [kicks]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(scissor,[external,factive,narration,background,objective]),provide_expl_just(kick,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_12-87  [i,don-t,need,your]  [provide_expl_just(need,[external,factive,narration,foreground,objective])]
+21st Century Blues Lyrics.txt_13-100  [your,broken,plans]  [provide_expl_just(plan,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_13-101  [or,your,panda,eyes]  [provide_expl_just(plan,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_14-115  [your,help,to,improve,my,social,life]  [provide_expl_just(improve,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_15-130  [if,my,head-s,in,the,clouds,in,the,clouds,i,will,live]  [provide_expl_just(live,[external,nonfactive,narration,background,objective])]
+21st Century Blues Lyrics.txt_16-146  [in,the,clouds,i,will,live]  [provide_expl_just(live,[external,nonfactive,narration,background,objective])]
+21st Century Blues Lyrics.txt_17-163  [they,say]  [provide_expl_just(match,[external,factive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_17-164  [you,have,found,some,one,with,style,to,match,their,charm,and,wit]  [provide_expl_just(match,[external,factive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_18-183  [morning_sun,the,in,sex,having,are,you,but,?]  [provide_expl_just(be,[internal,factive,adverse,foreground,objective])]
+21st Century Blues Lyrics.txt_19-203  [?]  [provide_expl_just(screw,[internal,factive,narration,background,objective]),provide_expl_just(loosen,[internal,factive,narration,foreground,objective])]
+21st Century Blues Lyrics.txt_19-204  [and,your,head,is,screwed,tight]  [reject_expl_just(screw,[internal,factive,narration,background,objective]),reject_expl_just(loosen,[internal,factive,narration,foreground,objective])]
+21st Century Blues Lyrics.txt_19-204  [and,your,head,is,screwed,tight,or,success,has,began,to,loosen,it]  [reject_expl_just(screw,[internal,factive,narration,background,objective]),reject_expl_just(loosen,[internal,factive,narration,foreground,objective])]
+21st Century Blues Lyrics.txt_20-225  [that_much,fun,iceberg,the,of,tip,the,is,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+21st Century Blues Lyrics.txt_21-246  [oh,help,me]  [provide_expl_just(help,[external,factive,narration,background,objective]),provide_expl_just(decipher,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_21-247  [decipher,the,differences,between]  [provide_expl_just(help,[external,factive,narration,background,objective]),provide_expl_just(decipher,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_22-269  [what,i,will,always,want]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_22-270  [and,what,i,will,never,need,.,i,will,never,need]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_23-294  [i,don-t,need,your]  [provide_expl_just(need,[external,factive,narration,foreground,objective])]
+21st Century Blues Lyrics.txt_24-318  [i,don-t,need,your,swinging,moods]  [proposal(be,[_164940,_164946,statement,foreground,_164964])]
+21st Century Blues Lyrics.txt_25-343  [your,Twenty-first,Century,blues]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_26-369  [i,want,hugs,not]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(scissor,[external,factive,narration,background,objective]),reject_expl_just(kick,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_26-370  [your,scissor]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(scissor,[external,factive,narration,background,objective]),provide_expl_just(kick,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_26-371  [kicks]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(scissor,[external,factive,narration,background,objective]),provide_expl_just(kick,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_27-398  [i,don-t,need,your]  [provide_expl_just(need,[external,factive,narration,foreground,objective])]
+21st Century Blues Lyrics.txt_28-426  [your,broken,plans]  [provide_expl_just(plan,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_28-427  [or,your,panda,eyes]  [provide_expl_just(plan,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_29-456  [your,help,to,improve,my,social,life]  [provide_expl_just(improve,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_30-486  [if,my,head-s,in,the,clouds,in,the,clouds,i,will,live]  [provide_expl_just(live,[external,nonfactive,narration,background,objective])]
+21st Century Blues Lyrics.txt_31-517  [if,my,head-s,in,the,clouds,then,in,the,clouds,i,will,live]  [provide_expl_just(live,[external,nonfactive,narration,background,objective])]
+21st Century Blues Lyrics.txt_32-549  [and,i,don-t,need,your,swinging,moods]  [provide_expl_just(need,[external,factive,narration,foreground,objective])]
+21st Century Blues Lyrics.txt_33-582  [your,Twenty-first,Century,blues]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_34-616  [and,if,nothing,comes]  [reject_expl_just(be,[_166586,_166592,_166598,_166604,_166610])]
+21st Century Blues Lyrics.txt_35-651  [then,nothing,has_to,leave]  [reject_expl_just(leave,[external,nonfactive,narration,foreground,objective])]
+21st Century Blues Lyrics.txt_36-687  [if,my,head-s,in,the,clouds,in,the,clouds,i,wanna,be]  [provide_expl_just(wanna,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+21st Century Blues Lyrics.txt_37-725  [i,don-t,need,your,love]  [provide_expl_just(need,[external,factive,narration,foreground,objective])]
+21st Century Blues Lyrics.txt_38-763  [if,my,head-s,in,the,clouds,then,in,the,clouds,i,will,live]  [provide_expl_just(live,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(21st Century Blues Lyrics.txt_1-1)-[]
+2-(21st Century Blues Lyrics.txt_2-3)-[primary-water]
+3-(21st Century Blues Lyrics.txt_3-6)-[secondary-restraint]
+4-(21st Century Blues Lyrics.txt_4-10)-[primary-sound]
+5-(21st Century Blues Lyrics.txt_4-11)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+6-(21st Century Blues Lyrics.txt_5-17)-[primary-height]
+7-(21st Century Blues Lyrics.txt_6-25)-[secondary-abstract_tought,primary-concreteness]
+8-(21st Century Blues Lyrics.txt_7-33)-[]
+9-(21st Century Blues Lyrics.txt_7-34)-[]
+10-(21st Century Blues Lyrics.txt_8-43)-[]
+11-(21st Century Blues Lyrics.txt_9-52)-[]
+12-(21st Century Blues Lyrics.txt_10-62)-[primary-vision]
+13-(21st Century Blues Lyrics.txt_11-73)-[]
+14-(21st Century Blues Lyrics.txt_11-74)-[]
+15-(21st Century Blues Lyrics.txt_11-75)-[emotions-aggression]
+16-(21st Century Blues Lyrics.txt_12-87)-[]
+17-(21st Century Blues Lyrics.txt_13-100)-[emotions-aggression,secondary-abstract_tought]
+18-(21st Century Blues Lyrics.txt_13-101)-[primary-narcissism]
+19-(21st Century Blues Lyrics.txt_14-115)-[secondary-social_behavior,secondary-instru_behavior,secondary-social_behavior]
+20-(21st Century Blues Lyrics.txt_15-130)-[primary-narcissism,primary-diffusion,primary-diffusion]
+21-(21st Century Blues Lyrics.txt_16-146)-[primary-diffusion]
+22-(21st Century Blues Lyrics.txt_17-163)-[secondary-social_behavior]
+23-(21st Century Blues Lyrics.txt_17-164)-[secondary-instru_behavior,primary-gen_sensation]
+24-(21st Century Blues Lyrics.txt_18-183)-[primary-sex]
+25-(21st Century Blues Lyrics.txt_19-203)-[]
+half
+26-(21st Century Blues Lyrics.txt_19-204)-[primary-narcissism]
+27-(21st Century Blues Lyrics.txt_19-204)-[primary-narcissism,secondary-instru_behavior]
+28-(21st Century Blues Lyrics.txt_20-225)-[emotions-positive_affect,primary-concreteness]
+29-(21st Century Blues Lyrics.txt_21-246)-[secondary-social_behavior]
+30-(21st Century Blues Lyrics.txt_21-247)-[secondary-abstract_tought,primary-concreteness]
+31-(21st Century Blues Lyrics.txt_22-269)-[]
+32-(21st Century Blues Lyrics.txt_22-270)-[]
+33-(21st Century Blues Lyrics.txt_23-294)-[]
+34-(21st Century Blues Lyrics.txt_24-318)-[]
+35-(21st Century Blues Lyrics.txt_25-343)-[primary-vision]
+36-(21st Century Blues Lyrics.txt_26-369)-[]
+37-(21st Century Blues Lyrics.txt_26-370)-[]
+38-(21st Century Blues Lyrics.txt_26-371)-[emotions-aggression]
+39-(21st Century Blues Lyrics.txt_27-398)-[]
+40-(21st Century Blues Lyrics.txt_28-426)-[emotions-aggression,secondary-abstract_tought]
+41-(21st Century Blues Lyrics.txt_28-427)-[primary-narcissism]
+42-(21st Century Blues Lyrics.txt_29-456)-[secondary-social_behavior,secondary-instru_behavior,secondary-social_behavior]
+43-(21st Century Blues Lyrics.txt_30-486)-[primary-narcissism,primary-diffusion,primary-diffusion]
+44-(21st Century Blues Lyrics.txt_31-517)-[primary-narcissism,primary-diffusion,secondary-temporal_repere,primary-diffusion]
+45-(21st Century Blues Lyrics.txt_32-549)-[]
+46-(21st Century Blues Lyrics.txt_33-582)-[primary-vision]
+47-(21st Century Blues Lyrics.txt_34-616)-[]
+48-(21st Century Blues Lyrics.txt_35-651)-[secondary-temporal_repere]
+49-(21st Century Blues Lyrics.txt_36-687)-[primary-narcissism,primary-diffusion,primary-diffusion]
+50-(21st Century Blues Lyrics.txt_37-725)-[emotions-affection]
+51-(21st Century Blues Lyrics.txt_38-763)-[primary-narcissism,primary-diffusion,secondary-temporal_repere,primary-diffusion]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(21st Century Blues Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-wombat-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,21st,sn1),def_prop(wombat,[animato]),def_prop(Lyrics,[informa,tecno])])
+lf(21st Century Blues Lyrics.txt_2,3,cl2-nil-nil-get-[subj-agent-you-sn1,aux-did-nil,def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_3,6,cl3-nil-nil-shut-[subj-agent-you-sn1,and(you,one,sn1),def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_4,10,cl6-nil-nil-pay-[cmod-coord-pay-and,adj-(mod)-well-nil,obj-theme-you-sn7,obj-goal-work-sn6,subj-agent-extra-sn5,def_prop(you,[umano]),def_prop(work,[attivita,cambia,oggetto,strumento]),def_prop(extra,[attivita,informa,oggetto,strumento])])
+lf(21st Century Blues Lyrics.txt_4,10,cl5-nil-nil-get-[obj-theme_unaff-job-sn3,subj-agent-you-sn2,and(job,that,sn3),def_prop(job,[attivita,informa,oggetto,strumento]),def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_4,10,cl4-nil-nil-hear-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_5,17,cl9-not-nil-come-[subj-agent-down-sn4,subj-agent-down-sn3,obj-paziente-high-sn2,xcomp-purpose-get-3,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(high,[misura])])
+lf(21st Century Blues Lyrics.txt_5,17,cl8-nil-nil-get-[adj-(mod)-be-nil])
+lf(21st Century Blues Lyrics.txt_5,17,cl7-nil-nil-be-[cmod-coord-come-1,subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_6,25,cl11-nil-nil-decipher-[obj-theme-difference-sn2,xcomp-purpose-decipher-2,def_prop(difference,[astratto,relat])])
+lf(21st Century Blues Lyrics.txt_6,25,cl10-nil-nil-need-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(21st Century Blues Lyrics.txt_7,33,2-nil-nil-be-[cmod-subord-be-",f2-sn1-what-sn2,subj-theme_bound-i-sn1,def_prop(what,[oggetto]),def_prop(i,[umano])])
+lf(21st Century Blues Lyrics.txt_7,33,cl12-nil-will-need-[neg-never-nil])
+lf(21st Century Blues Lyrics.txt_8,43,cl13-not-nil-need-[xcomp-prop-your-sn2,subj-experiencer-i-sn1,aux-do-nil,def_prop(your,[evaluative]),def_prop(i,[umano])])
+lf(21st Century Blues Lyrics.txt_9,52,cl14-not-nil-need-[obj-theme-mood-sn2,subj-experiencer-i-sn1,aux-do-nil,and(mood,swinging,sn2),def_prop(mood,[relat]),def_prop(i,[umano])])
+lf(21st Century Blues Lyrics.txt_10,62,cl15-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_11,73,cl17-nil-nil-kick-[subj-actor-you-sn4,def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_11,73,nil-nil-nil-scissor-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_11,73,cl16-nil-nil-want-[obj-tema_unaff-hug-sn2,subj-actor-i-sn1,def_prop(hug,[attivita]),def_prop(i,[umano])])
+lf(21st Century Blues Lyrics.txt_12,87,cl18-not-nil-need-[xcomp-prop-your-sn2,subj-experiencer-i-sn1,aux-do-nil,def_prop(your,[evaluative]),def_prop(i,[umano])])
+lf(21st Century Blues Lyrics.txt_13,100,cl20-nil-nil-be-[cmod-subord-be-",ncmod-modal-panda-sn3,subj-theme_bound-you-sn2,def_prop(panda,[animato]),def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_13,100,cl19-nil-nil-plan-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_14,115,cl21-nil-nil-improve-[obj-patient-life-sn2,subj-agent-help-sn1,and(life,social,sn2),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(help,[astratto,attivita,informa,legale,relat,sociale,tecno,umano])])
+lf(21st Century Blues Lyrics.txt_15,130,cl22-nil-will-live-[obj-theme-i-sn3,iobj-goal-cloud-sn2,subj-actor-head-s-sn1,def_prop(i,[umano]),def_prop(cloud,[attivita,cambia,oggetto,stato]),def_prop(head-s,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano])])
+lf(21st Century Blues Lyrics.txt_16,146,cl23-nil-will-live-[iobj-goal-cloud-sn2,subj-actor-i-sn1,def_prop(cloud,[attivita,cambia,oggetto,stato]),def_prop(i,[umano])])
+lf(21st Century Blues Lyrics.txt_17,163,cl26-nil-nil-match-[])
+lf(21st Century Blues Lyrics.txt_17,163,cl25-nil-nil-find-[ccomp-prop-match-cl26,obj-theme-charm_and_wit-[sn4,sn5],xcomp-purpose-match-2,obj-theme_bound-one-sn3,subj-actor-you-sn2,aux-have-nil,def_prop(charm_and_wit,[oggetto,strumento,attivita,informa]),def_prop(one,[umano]),def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_17,163,cl24-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_18,183,cl28-nil-nil-sex-[cmod-subord-sex-but,ncmod-theme-morning_sun-sn2,def_prop(morning_sun,[oggetto,tempo,umano])])
+lf(21st Century Blues Lyrics.txt_18,183,cl27-nil-nil-be-[xcomp-purpose-sex-3,subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_19,203,cl31-nil-nil-loosen-[subj-patient-success-sn10,def_prop(success,[attivita,evento,stato])])
+lf(21st Century Blues Lyrics.txt_19,203,cl30-nil-nil-begin-[subj-actor-success-sn10,aux-has-nil,def_prop(success,[attivita,evento,stato])])
+lf(21st Century Blues Lyrics.txt_19,203,cl29-nil-nil-screw-[cmod-coord-screw-and,cmod-coord-screw-or,obj-theme-it-sn7,xcomp-prop-tight-sn6,subj-theme-head-sn5,cmod-subord-loosen-",xcomp-prop-tight-sn2,subj-theme-head-sn1,aux-(is)-nil,def_prop(it,[any]),def_prop(tight,[evaluative]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(tight,[evaluative]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano])])
+lf(21st Century Blues Lyrics.txt_20,225,cl32-nil-nil-be-[adj-(mod)-that_much-nil,xcomp-prop-fun-sn2,subj-theme_bound-tip-sn1,def_prop(fun,[attivita,informa]),def_prop(tip,[attivita,informa,luogo])])
+lf(21st Century Blues Lyrics.txt_21,246,cl34-nil-nil-decipher-[obj-theme-difference-sn4,subj-agent-you-sn3,def_prop(difference,[astratto,relat]),def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_21,246,cl33-nil-nil-help-[obj-theme_unaff-me-sn2,subj-agent-oh-sn1,def_prop(me,[umano]),def_prop(oh,[informa,tecno])])
+lf(21st Century Blues Lyrics.txt_22,269,2-nil-nil-be-[cmod-subord-be-",f2-sn1-what-sn2,subj-theme_bound-i-sn1,def_prop(what,[oggetto]),def_prop(i,[umano])])
+lf(21st Century Blues Lyrics.txt_22,269,cl35-nil-will-need-[neg-never-nil])
+lf(21st Century Blues Lyrics.txt_23,294,cl36-not-nil-need-[xcomp-prop-your-sn2,subj-experiencer-i-sn1,aux-do-nil,def_prop(your,[evaluative]),def_prop(i,[umano])])
+lf(21st Century Blues Lyrics.txt_24,318,cl37-not-nil-need-[obj-theme-mood-sn2,subj-experiencer-i-sn1,aux-do-nil,and(mood,swinging,sn2),def_prop(mood,[relat]),def_prop(i,[umano])])
+lf(21st Century Blues Lyrics.txt_25,343,cl38-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_26,369,cl40-nil-nil-kick-[subj-actor-you-sn4,def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_26,369,nil-nil-nil-scissor-[subj-agent-you-sn3,def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_26,369,cl39-nil-nil-want-[obj-tema_unaff-hug-sn2,subj-actor-i-sn1,def_prop(hug,[attivita]),def_prop(i,[umano])])
+lf(21st Century Blues Lyrics.txt_27,398,cl41-not-nil-need-[xcomp-prop-your-sn2,subj-experiencer-i-sn1,aux-do-nil,def_prop(your,[evaluative]),def_prop(i,[umano])])
+lf(21st Century Blues Lyrics.txt_28,426,cl43-nil-nil-be-[cmod-subord-be-",ncmod-modal-panda-sn3,subj-theme_bound-you-sn2,def_prop(panda,[animato]),def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_28,426,cl42-nil-nil-plan-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_29,456,cl44-nil-nil-improve-[obj-patient-life-sn2,subj-agent-help-sn1,and(life,social,sn2),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano]),def_prop(help,[astratto,attivita,informa,legale,relat,sociale,tecno,umano])])
+lf(21st Century Blues Lyrics.txt_30,486,cl45-nil-will-live-[obj-theme-i-sn3,iobj-goal-cloud-sn2,subj-actor-head-s-sn1,def_prop(i,[umano]),def_prop(cloud,[attivita,cambia,oggetto,stato]),def_prop(head-s,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano])])
+lf(21st Century Blues Lyrics.txt_31,517,cl46-nil-will-live-[subj-actor-i-sn2,subj-actor-i-sn1,and(i,head-s,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(21st Century Blues Lyrics.txt_32,549,cl47-not-nil-need-[cmod-subord-need-",obj-theme-mood-sn2,subj-experiencer-i-sn1,aux-do-nil,and(mood,swinging,sn2),def_prop(mood,[relat]),def_prop(i,[umano])])
+lf(21st Century Blues Lyrics.txt_33,582,cl48-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_34,616,cl49-nil-nil-come-[cmod-subord-come-",cmod-subord-come-if,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(21st Century Blues Lyrics.txt_35,651,cl50-nil-has_to-leave-[subj-theme-nothing-sn1,def_prop(nothing,[astratto,informa,oggetto])])
+lf(21st Century Blues Lyrics.txt_36,687,cl51-nil-nil-be-[])
+lf(21st Century Blues Lyrics.txt_36,687,nil-nil-nil-wanna-[obj-theme-i-sn3,ncmod-locativo-cloud-sn2,subj-theme_aff-head-s-sn1,def_prop(i,[umano]),def_prop(cloud,[attivita,cambia,oggetto,stato]),def_prop(head-s,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano])])
+lf(21st Century Blues Lyrics.txt_37,725,cl52-not-nil-need-[obj-theme-love-sn2,subj-experiencer-i-sn1,aux-do-nil,def_prop(love,[astratto,emotivo,nquant]),def_prop(i,[umano])])
+lf(21st Century Blues Lyrics.txt_38,763,cl53-nil-will-live-[subj-actor-i-sn2,subj-actor-i-sn1,and(i,head-s,sn1),def_prop(i,[umano]),def_prop(i,[umano])])

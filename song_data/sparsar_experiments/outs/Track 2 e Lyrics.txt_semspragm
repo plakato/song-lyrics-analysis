@@ -1,0 +1,120 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Track 2 e Lyrics.txt_1-1  []-positive  []
+Track 2 e Lyrics.txt_2-3  []-negative  [neg,fgb]
+Track 2 e Lyrics.txt_2-4  []-positive  []
+Track 2 e Lyrics.txt_3-7  []-positive  []
+Track 2 e Lyrics.txt_4-11  []-suspension  [neg]
+Track 2 e Lyrics.txt_4-12  []-negative  [fgb,neg]
+Track 2 e Lyrics.txt_5-17  []-suspension  [neg,neg]
+Track 2 e Lyrics.txt_6-23  []-negative  [fhd,neg]
+Track 2 e Lyrics.txt_7-30  []-question  []
+Track 2 e Lyrics.txt_8-38  []-negative  []
+Track 2 e Lyrics.txt_9-47  []-positive  [neg]
+Track 2 e Lyrics.txt_10-57  []-question  []
+Track 2 e Lyrics.txt_11-68  []-negative  [neg]
+Track 2 e Lyrics.txt_11-69  [if-hypoth]-suspension  [fgb,fhd]
+Track 2 e Lyrics.txt_12-82  [because-cause]-positive  [fhd,neg]
+Track 2 e Lyrics.txt_13-95  []-negative  []
+Track 2 e Lyrics.txt_13-96  [but-advers,if-hypoth]-positive  [fgb,fgb]
+Track 2 e Lyrics.txt_14-111  []-negative  [neg]
+Track 2 e Lyrics.txt_15-126  []-negative  [neg,neg,neg]
+Track 2 e Lyrics.txt_15-127  []-suspension  [neg]
+Track 2 e Lyrics.txt_16-142  []-negative  []
+Track 2 e Lyrics.txt_16-143  [if-hypoth]-positive  [fgb,fgb]
+Track 2 e Lyrics.txt_16-144  []-positive  [fgb]
+Track 2 e Lyrics.txt_17-162  []-positive  []
+Track 2 e Lyrics.txt_18-180  []-negative  [neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Track 2 e Lyrics.txt_1-1  [track,2,e,Lyrics,by,',68]  [title]
+Track 2 e Lyrics.txt_2-3  [it,doesn-t,matter,what,you,say,.]  [reject_expl_just(matter,[external,factive,narration,foreground,objective]),reject_expl_just(say,[external,factive,explanation,background,objective]),propose_opin_neg(say,[external,factive,explanation,background,objective])]
+Track 2 e Lyrics.txt_2-4  [you,say]  [provide_expl_just(matter,[external,factive,narration,foreground,objective]),provide_expl_just(say,[external,factive,explanation,background,objective])]
+Track 2 e Lyrics.txt_3-7  [they,could,always,disappear]  [provide_expl_just(disappear,[external,nonfactive,narration,background,objective])]
+Track 2 e Lyrics.txt_4-11  [they,will,fall,asleep]  [provide_expl_just(fall,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Track 2 e Lyrics.txt_4-12  [and,never,wake]  [reject_expl_just(fall,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Track 2 e Lyrics.txt_5-17  [no_one,would,hesitate]  [provide_expl_just(hesitate,[external,nonfactive,narration,background,objective])]
+Track 2 e Lyrics.txt_6-23  [recollection,fact,or,fiction]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Track 2 e Lyrics.txt_7-30  [revolution,?]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Track 2 e Lyrics.txt_8-38  [churches,collapsing]  reject_expl_opin(nil,[])
+Track 2 e Lyrics.txt_9-47  [around,falling,me]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Track 2 e Lyrics.txt_10-57  [revolutionless,?]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+Track 2 e Lyrics.txt_11-68  [it,doesn-t,matter]  [reject_expl_just(matter,[external,factive,narration,foreground,objective]),reject_expl_just(respect,[external,factive,narration,background,objective]),reject_expl_just(believe,[external,factive,narration,background,objective])]
+Track 2 e Lyrics.txt_11-69  [if,you,respect,or,believe]  [provide_expl_just(matter,[external,factive,narration,foreground,objective]),provide_expl_just(respect,[external,factive,narration,background,objective]),provide_expl_just(believe,[external,factive,narration,background,objective])]
+Track 2 e Lyrics.txt_12-82  [because,she,could,eat,you,like,a,full-grown,disease]  [provide_expl_just(eat,[external,nonfactive,narration,background,objective])]
+Track 2 e Lyrics.txt_13-95  [i,don-t,know]  [provide_expl_just(speak,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_238614)]
+Track 2 e Lyrics.txt_13-96  [if,i,have,room,to,speak,but]  [provide_expl_just(speak,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_243254)]
+Track 2 e Lyrics.txt_14-111  [you,are,a,six,foot,man,in,the,middle,of,a,grave]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Track 2 e Lyrics.txt_15-126  [i,am,not,scared,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Track 2 e Lyrics.txt_15-127  [,,i,am,just,bored]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Track 2 e Lyrics.txt_16-142  [i,don-t,know]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_248868),provide_expl_just(help,[external,nonfactive,narration,foreground,objective])]
+Track 2 e Lyrics.txt_16-143  [if,i,can,help,anymore,and,that,is]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_253520),provide_expl_just(help,[external,nonfactive,narration,foreground,objective])]
+Track 2 e Lyrics.txt_16-144  [what,terrifies,all,of,me,.,terrifies,all,of,me]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_258172),provide_expl_just(help,[external,nonfactive,narration,foreground,objective])]
+Track 2 e Lyrics.txt_17-162  [yourself,resurrect]  [provide_expl_just(resurrect,[external,factive,narration,background,objective])]
+Track 2 e Lyrics.txt_18-180  [never,the,power,of,change,underestimate]  [reject_expl_just(underestimate,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Track 2 e Lyrics.txt_1-1)-[]
+2-(Track 2 e Lyrics.txt_2-3)-[secondary-social_behavior]
+3-(Track 2 e Lyrics.txt_2-4)-[secondary-social_behavior]
+4-(Track 2 e Lyrics.txt_3-7)-[]
+5-(Track 2 e Lyrics.txt_4-11)-[primary-descent,primary-counscious]
+6-(Track 2 e Lyrics.txt_4-12)-[primary-counscious]
+7-(Track 2 e Lyrics.txt_5-17)-[]
+8-(Track 2 e Lyrics.txt_6-23)-[secondary-abstract_tought]
+9-(Track 2 e Lyrics.txt_7-30)-[]
+10-(Track 2 e Lyrics.txt_8-38)-[]
+11-(Track 2 e Lyrics.txt_9-47)-[]
+12-(Track 2 e Lyrics.txt_10-57)-[]
+half
+13-(Track 2 e Lyrics.txt_11-68)-[]
+14-(Track 2 e Lyrics.txt_11-69)-[secondary-moral_imperative,secondary-abstract_tought]
+15-(Track 2 e Lyrics.txt_12-82)-[primary-orality,emotions-affection]
+16-(Track 2 e Lyrics.txt_13-95)-[secondary-abstract_tought]
+17-(Track 2 e Lyrics.txt_13-96)-[secondary-social_behavior]
+18-(Track 2 e Lyrics.txt_14-111)-[primary-narcissism,primary-concreteness]
+19-(Track 2 e Lyrics.txt_15-126)-[emotions-anxiety]
+20-(Track 2 e Lyrics.txt_15-127)-[]
+21-(Track 2 e Lyrics.txt_16-142)-[secondary-abstract_tought]
+22-(Track 2 e Lyrics.txt_16-143)-[secondary-social_behavior]
+23-(Track 2 e Lyrics.txt_16-144)-[emotions-anxiety,emotions-anxiety]
+24-(Track 2 e Lyrics.txt_17-162)-[]
+25-(Track 2 e Lyrics.txt_18-180)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Track 2 e Lyrics.txt_1,1,cl1-nil-nil-be-[subj-theme_bound-68-sn2,subj-theme_bound-68-sn1,and(68,Lyrics,sn1),def_prop(68,[nquant]),def_prop(68,[nquant])])
+lf(Track 2 e Lyrics.txt_2,3,cl3-nil-nil-say-[subj-actor-you-sn3,def_prop(you,[umano])])
+lf(Track 2 e Lyrics.txt_2,3,cl2-not-nil-matter-[aux-does-nil])
+lf(Track 2 e Lyrics.txt_3,7,cl4-nil-could-disappear-[subj-agent-you-sn1,adj-(mod)-always-nil,def_prop(you,[umano])])
+lf(Track 2 e Lyrics.txt_4,11,cl6-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Track 2 e Lyrics.txt_4,11,cl5-nil-will-fall-[xcomp-prop-asleep-sn2,subj-agent-they-sn1,def_prop(asleep,[evaluative]),def_prop(they,[umano])])
+lf(Track 2 e Lyrics.txt_5,17,cl7-nil-would-hesitate-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Track 2 e Lyrics.txt_6,23,cl8-nil-nil-be-[coord-theme_bound-fact_or_fiction-sn6,subj-theme_bound-fiction-sn5,subj-theme_bound-fact-sn4,coord-theme_bound-fact_or_fiction-sn3,subj-theme_bound-fiction-sn2,subj-theme_bound-fact-sn1,def_prop(fact_or_fiction,[astratto,attivita,informa,stato,attivita,informa]),def_prop(fiction,[astratto,attivita,informa,stato,attivita,informa]),def_prop(fact,[astratto,attivita,informa,stato,attivita,informa]),def_prop(fact_or_fiction,[astratto,attivita,informa,stato,attivita,informa]),def_prop(fiction,[astratto,attivita,informa,stato,attivita,informa]),def_prop(fact,[astratto,attivita,informa,stato,attivita,informa])])
+lf(Track 2 e Lyrics.txt_7,30,cl9-nil-nil-say-[obj-theme_unaff-revolution-sn1,def_prop(revolution,[attivita,evento])])
+lf(Track 2 e Lyrics.txt_8,38,cl10-nil-nil-collapse-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Track 2 e Lyrics.txt_9,47,cl11-nil-nil-be-[ncmod-modal-falling-sn2,subj-theme_bound-you-sn1,def_prop(falling,[evento]),def_prop(you,[umano])])
+lf(Track 2 e Lyrics.txt_10,57,cl12-nil-nil-say-[obj-theme_unaff-revolutionless-sn1,def_prop(revolutionless,[istituzione])])
+lf(Track 2 e Lyrics.txt_11,68,cl15-nil-nil-believe-[subj-actor-pro-nil])
+lf(Track 2 e Lyrics.txt_11,68,cl14-nil-nil-respect-[subj-experiencer-you-sn2,def_prop(you,[umano])])
+lf(Track 2 e Lyrics.txt_11,68,cl13-not-nil-matter-[aux-does-nil])
+lf(Track 2 e Lyrics.txt_12,82,cl16-nil-could-eat-[obj-theme_unaff-disease-sn3,subj-agent-you-sn2,subj-agent-you-sn1,and(you,she,sn1),def_prop(disease,[stato]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Track 2 e Lyrics.txt_13,95,cl19-nil-nil-speak-[])
+lf(Track 2 e Lyrics.txt_13,95,cl18-nil-nil-room-[subj-actor-i-sn2,aux-have-nil,def_prop(i,[umano])])
+lf(Track 2 e Lyrics.txt_13,95,cl17-not-nil-know-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Track 2 e Lyrics.txt_14,111,cl20-nil-nil-be-[xcomp-prop-man-sn2,subj-theme_bound-you-sn1,and(man,foot,sn2),def_prop(man,[any]),def_prop(you,[umano])])
+lf(Track 2 e Lyrics.txt_15,126,cl21-not-nil-be-[xcomp-prop-bored-sn4,subj-theme_bound-i-sn3,xcomp-prop-scared-sn2,subj-theme_bound-i-sn1,def_prop(bored,[istituzione]),def_prop(i,[umano]),def_prop(scared,[evaluative]),def_prop(i,[umano])])
+lf(Track 2 e Lyrics.txt_16,142,nil-nil-nil-terrify-[xcomp-prop-all-sn6,subj-agent-what-sn5,def_prop(all,[_262074]),def_prop(what,[oggetto])])
+lf(Track 2 e Lyrics.txt_16,142,cl24-nil-nil-be-[])
+lf(Track 2 e Lyrics.txt_16,142,cl23-nil-can-help-[cmod-coord-be-and,adj-subj_disc-anymore-sn3,subj-agent-i-sn2,def_prop(anymore,[istituzione]),def_prop(i,[umano])])
+lf(Track 2 e Lyrics.txt_16,142,cl22-not-nil-know-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Track 2 e Lyrics.txt_17,162,cl25-nil-nil-resurrect-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Track 2 e Lyrics.txt_18,180,cl26-nil-nil-underestimate-[adj-(mod)-never-nil,subj-agent-power-sn1,def_prop(power,[astratto,attivita,cambia,umano])])

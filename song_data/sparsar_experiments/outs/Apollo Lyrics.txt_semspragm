@@ -1,0 +1,66 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Apollo Lyrics.txt_1-1  []-positive  []
+Apollo Lyrics.txt_2-3  []-positive  []
+Apollo Lyrics.txt_3-6  []-positive  []
+Apollo Lyrics.txt_4-10  []-positive  []
+Apollo Lyrics.txt_5-15  []-suspension  []
+Apollo Lyrics.txt_5-16  []-negative  [neg]
+Apollo Lyrics.txt_5-16  [before-temp_prec]-negative  [neg]
+Apollo Lyrics.txt_6-23  []-positive  []
+Apollo Lyrics.txt_6-24  []-positive  [fgb]
+Apollo Lyrics.txt_7-31  []-positive  []
+Apollo Lyrics.txt_8-39  []-negative  [neg]
+Apollo Lyrics.txt_9-48  []-positive  [fhd]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Apollo Lyrics.txt_1-1  [apollo,Lyrics,by,Alan,Parsons]  [title]
+Apollo Lyrics.txt_2-3  [voice]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Apollo Lyrics.txt_3-6  [John,F]  [raise_issue(be,[_483904,factive,statement,_483922,subjective])]
+Apollo Lyrics.txt_4-10  [Kennedy]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Apollo Lyrics.txt_5-15  [i,believe]  [provide_expl_just(commit,[external,nonfactive,narration,foreground,objective])]
+Apollo Lyrics.txt_5-16  [that,this,nation,should,commit,itself,to,achieving,the,goal]  [reject_expl_just(commit,[external,nonfactive,narration,foreground,objective])]
+Apollo Lyrics.txt_5-16  [that,this,nation,should,commit,itself,to,achieving,the,goal,,,before]  [reject_expl_just(commit,[external,nonfactive,narration,foreground,objective])]
+Apollo Lyrics.txt_6-23  [this,decade,is,out]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Apollo Lyrics.txt_6-24  [,,of,landing,a,man,on,the,moon,and,returning,him,safely,to]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Apollo Lyrics.txt_7-31  [the,earth]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Apollo Lyrics.txt_8-39  [no,single,space,project,in,this,period,will,be,more,impressive,to]  [reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+Apollo Lyrics.txt_9-48  [mankind,,,or,more,important,for,the,long-range,exploration,of,space]  [provide_expl_just(space,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Apollo Lyrics.txt_1-1)-[]
+2-(Apollo Lyrics.txt_2-3)-[primary-sound]
+3-(Apollo Lyrics.txt_3-6)-[]
+4-(Apollo Lyrics.txt_4-10)-[]
+5-(Apollo Lyrics.txt_5-15)-[secondary-abstract_tought]
+6-(Apollo Lyrics.txt_5-16)-[secondary-moral_imperative,secondary-social_behavior,secondary-instru_behavior]
+half
+7-(Apollo Lyrics.txt_5-16)-[secondary-moral_imperative,secondary-social_behavior,secondary-instru_behavior]
+8-(Apollo Lyrics.txt_6-23)-[secondary-temporal_repere,primary-concreteness]
+9-(Apollo Lyrics.txt_6-24)-[primary-passivity]
+10-(Apollo Lyrics.txt_7-31)-[primary-sound]
+11-(Apollo Lyrics.txt_8-39)-[emotions-expressive_beh,primary-concreteness]
+12-(Apollo Lyrics.txt_9-48)-[secondary-abstract_tought,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Apollo Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Parsons-sn2,subj-theme_bound-Lyrics-sn1,and(Parsons,Alan,sn2),and(Lyrics,apollo,sn1),def_prop(Parsons,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Apollo Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-voice-sn1,def_prop(voice,[astratto,attivita,evento,informa,relat,umano])])
+lf(Apollo Lyrics.txt_3,6,cl3-nil-nil-say-[obj-theme_unaff-F-sn1,and(F,John,sn1),def_prop(F,[attivita,informa])])
+lf(Apollo Lyrics.txt_4,10,cl4-nil-nil-say-[obj-theme_unaff-Kennedy-sn1,def_prop(Kennedy,[place,luogo,umano])])
+lf(Apollo Lyrics.txt_5,15,cl7-nil-nil-achieve-[obj-theme_aff-goal-sn9,xcomp-purpose-achieve-cl7,def_prop(goal,[astratto,attivita,oggetto,strumento])])
+lf(Apollo Lyrics.txt_5,15,cl6-nil-should-commit-[ccomp-prop-achieve-2,subj-agent-itself-sn8,subj-agent-itself-sn7,ccomp-prop-achieve-cl7,obj-theme_aff-goal-sn4,xcomp-purpose-achieve-2,subj-agent-itself-sn3,subj-agent-itself-sn2,and(itself,nation,sn7),and(itself,this,sn7),and(itself,nation,sn2),and(itself,this,sn2),def_prop(itself,[any]),def_prop(itself,[any]),def_prop(goal,[astratto,attivita,oggetto,strumento]),def_prop(itself,[any]),def_prop(itself,[any])])
+lf(Apollo Lyrics.txt_5,15,cl5-nil-nil-believe-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Apollo Lyrics.txt_6,23,cl9-nil-nil-land-[xcomp-prop-safely-sn6,obj-theme-man-sn5,subj-actor-him-sn4,def_prop(safely,[istituzione]),def_prop(man,[any]),def_prop(him,[umano])])
+lf(Apollo Lyrics.txt_6,23,cl8-nil-nil-be-[xcomp-prop-out-sn2,subj-theme_bound-decade-sn1,and(decade,this,sn1),def_prop(out,[istituzione]),def_prop(decade,[tempo])])
+lf(Apollo Lyrics.txt_7,31,cl10-nil-nil-say-[obj-theme_unaff-earth-sn1,def_prop(earth,[sostanza])])
+lf(Apollo Lyrics.txt_8,39,cl11-nil-will-be-[adj-temporal-period-nil,xcomp-prop-impressive-sn2,subj-theme_bound-project-sn1,and(period,this,sn7),and(impressive,more,sn2),and(project,no,sn1),and(project,single,sn1),and(project,space,sn1),def_prop(period,[tempo]),def_prop(impressive,[istituzione]),def_prop(project,[astratto])])
+lf(Apollo Lyrics.txt_9,48,cl12-nil-nil-space-[subj-agent-exploration-sn2,subj-agent-exploration-sn1,and(exploration,long-range,sn2),and(exploration,long-range,sn1),def_prop(exploration,[astratto,attivita]),def_prop(exploration,[astratto,attivita])])

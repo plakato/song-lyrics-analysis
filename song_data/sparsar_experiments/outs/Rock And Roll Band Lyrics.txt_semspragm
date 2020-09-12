@@ -1,0 +1,183 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Rock And Roll Band Lyrics.txt_1-1  []-positive  [fgb]
+Rock And Roll Band Lyrics.txt_2-3  []-positive  [fgb,neg]
+Rock And Roll Band Lyrics.txt_3-6  []-positive  []
+Rock And Roll Band Lyrics.txt_4-12  []-positive  []
+Rock And Roll Band Lyrics.txt_5-17  []-positive  [fgb,ack]
+Rock And Roll Band Lyrics.txt_5-17  []-positive  [fgb,ack]
+Rock And Roll Band Lyrics.txt_6-23  []-negative  [neg]
+Rock And Roll Band Lyrics.txt_7-30  []-negative  [neg]
+Rock And Roll Band Lyrics.txt_8-39  [but-advers,when-temp_coinc]-positive  [fgb,fgb]
+Rock And Roll Band Lyrics.txt_9-49  []-positive  []
+Rock And Roll Band Lyrics.txt_10-59  []-negative  [fgb,neg]
+Rock And Roll Band Lyrics.txt_11-71  []-positive  []
+Rock And Roll Band Lyrics.txt_12-83  []-negative  [neg]
+Rock And Roll Band Lyrics.txt_13-96  []-suspension  [fgb]
+Rock And Roll Band Lyrics.txt_14-110  []-positive  []
+Rock And Roll Band Lyrics.txt_15-125  []-positive  [bkc,bkc,bkc,bkc]
+Rock And Roll Band Lyrics.txt_16-141  []-positive  []
+Rock And Roll Band Lyrics.txt_17-158  []-positive  [neg]
+Rock And Roll Band Lyrics.txt_18-176  []-positive  []
+Rock And Roll Band Lyrics.txt_18-177  []-negative  [fgb,neg]
+Rock And Roll Band Lyrics.txt_19-196  []-positive  []
+Rock And Roll Band Lyrics.txt_19-197  []-positive  []
+Rock And Roll Band Lyrics.txt_20-216  []-positive  []
+Rock And Roll Band Lyrics.txt_20-217  []-positive  []
+Rock And Roll Band Lyrics.txt_21-238  []-negative  [neg,neg,neg]
+Rock And Roll Band Lyrics.txt_21-239  []-negative  [neg]
+Rock And Roll Band Lyrics.txt_22-261  [when-temp_coinc]-positive  [fgb]
+Rock And Roll Band Lyrics.txt_23-286  []-positive  []
+Rock And Roll Band Lyrics.txt_24-310  []-positive  []
+Rock And Roll Band Lyrics.txt_25-335  []-positive  []
+Rock And Roll Band Lyrics.txt_26-361  []-negative  []
+Rock And Roll Band Lyrics.txt_27-388  []-positive  []
+Rock And Roll Band Lyrics.txt_28-416  []-positive  [fgb]
+Rock And Roll Band Lyrics.txt_28-417  []-negative  []
+Rock And Roll Band Lyrics.txt_29-446  []-positive  []
+Rock And Roll Band Lyrics.txt_30-476  []-positive  []
+Rock And Roll Band Lyrics.txt_30-477  []-positive  [ass]
+Rock And Roll Band Lyrics.txt_31-508  [when-temp_coinc]-positive  []
+Rock And Roll Band Lyrics.txt_31-509  []-positive  []
+Rock And Roll Band Lyrics.txt_32-541  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Rock And Roll Band Lyrics.txt_1-1  [rock,and,Roll,Band,Lyrics,by,Boston]  [title]
+Rock And Roll Band Lyrics.txt_2-3  [well,,,we,were,just,another,band,out_of,Boston]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Rock And Roll Band Lyrics.txt_3-6  [on_the_road,to,try,to,make,ends,meet]  [provide_expl_just(try,[external,factive,explanation,background,objective]),provide_expl_just(meet,[external,factive,explanation,background,objective]),provide_expl_just(make,[external,factive,explanation,background,objective])]
+Rock And Roll Band Lyrics.txt_4-12  [playin,all,the,bars,sleepin,in,our,cars]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_5-17  [and,we,practiced,right,on,out]  [provide_expl_just(practiced,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_5-17  [and,we,practiced,right,on,out,in,the,street]  [provide_expl_just(practiced,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_6-23  [we,no,didn-t,have,much,money]  [reject_expl_just(have,[external,factive,narration,foreground,objective])]
+Rock And Roll Band Lyrics.txt_7-30  [we,barely,made,enough,to,survive]  [reject_expl_just(make,[external,factive,cause,foreground,objective])]
+Rock And Roll Band Lyrics.txt_8-39  [but,when,we,got,up,on,stage,and,got,ready,to,play]  [provide_expl_just(play,[external,factive,circumstance,background,objective])]
+Rock And Roll Band Lyrics.txt_9-49  [people,came,alive]  [raise_issue(be,[_1914834,factive,statement,_1914852,subjective])]
+Rock And Roll Band Lyrics.txt_10-59  [rock,and,band,roll]  [reject_expl_just(rock,[external,factive,narration,background,objective]),reject_expl_just(roll,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_11-71  [everybody-s,waitin-]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Rock And Roll Band Lyrics.txt_12-83  [gettin,crazy]  reject_expl_opin(nil,[])
+Rock And Roll Band Lyrics.txt_13-96  [anticipating,love,and,music]  [provide_expl_just(anticipate,[external,factive,narration,foreground,objective])]
+Rock And Roll Band Lyrics.txt_14-110  [play,play,play]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_15-125  [yeah,,,yeah,,,yeah,,,yeah]  [accept_expl_opin(be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_16-141  [dancin,in,the,streets,of,Hyannis]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_17-158  [we,were,getting,pretty,good,at,the,game]  [provide_expl_just(get,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_18-176  [people,stood,in,line]  [provide_expl_just(seem,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_18-177  [and,didn-t,seem,to,mind]  [reject_expl_just(seem,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_19-196  [you,know]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_19-197  [everybody,knew,our,name]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_20-216  [Livin,on,Rocken,,,roll]  [provide_expl_just(roll,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_20-217  [music]  [provide_expl_just(roll,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_21-238  [never,worry,bout]  [reject_expl_just(worry,[external,factive,narration,background,objective]),reject_expl_just(miss,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_21-239  [the,things,we,were,missing]  [reject_expl_just(worry,[external,factive,narration,background,objective]),reject_expl_just(miss,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_22-261  [when,we,got,up,on,the,stage,and,got,ready,to,play]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(play,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_23-286  [everybodyed,listen]  [provide_expl_just(listen,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_24-310  [playin,for,a,week,in,Rhode,island]  [provide_expl_just(island,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_25-335  [a,man,came,to,the,stage,one,night]  [raise_issue(be,[_1936792,factive,statement,_1936810,subjective])]
+Rock And Roll Band Lyrics.txt_26-361  [he,smoked,a,big,cigar]  [provide_expl_just(smoke,[external,factive,narration,foreground,objective])]
+Rock And Roll Band Lyrics.txt_27-388  [drove,a,Cadillac,car]  [provide_expl_just(drive,[external,factive,cause,foreground,objective])]
+Rock And Roll Band Lyrics.txt_28-416  [and,said,Boys]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(think,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_28-417  [i,think,this,outta,bands,sight]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(think,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_29-446  [a,record,company,contract,sign]  [provide_expl_just(sign,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_30-476  [you,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_30-477  [i,have,got,great,expectations]  [accept_expl_opin(know,[external,factive,narration,background,objective]),accept_expl_opin(get,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_31-508  [when,i,hear]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_31-509  [you,on,the,car,radio]  [provide_expl_just(hear,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Rock And Roll Band Lyrics.txt_32-541  [sensation,a,be,to,goin,are,you,!]  [provide_expl_just(be,[internal,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Rock And Roll Band Lyrics.txt_1-1)-[primary-hard]
+2-(Rock And Roll Band Lyrics.txt_2-3)-[]
+3-(Rock And Roll Band Lyrics.txt_3-6)-[secondary-instru_behavior,secondary-instru_behavior,secondary-social_behavior]
+4-(Rock And Roll Band Lyrics.txt_4-12)-[emotions-expressive_beh,secondary-restraint,primary-counscious]
+5-(Rock And Roll Band Lyrics.txt_5-17)-[secondary-instru_behavior,secondary-moral_imperative,primary-concreteness]
+6-(Rock And Roll Band Lyrics.txt_5-17)-[secondary-instru_behavior,secondary-moral_imperative,primary-concreteness,primary-brink]
+7-(Rock And Roll Band Lyrics.txt_6-23)-[secondary-instru_behavior]
+8-(Rock And Roll Band Lyrics.txt_7-30)-[primary-counscious]
+9-(Rock And Roll Band Lyrics.txt_8-39)-[secondary-temporal_repere,emotions-expressive_beh]
+10-(Rock And Roll Band Lyrics.txt_9-49)-[]
+11-(Rock And Roll Band Lyrics.txt_10-59)-[primary-hard,primary-random_movement]
+12-(Rock And Roll Band Lyrics.txt_11-71)-[]
+13-(Rock And Roll Band Lyrics.txt_12-83)-[primary-counscious]
+14-(Rock And Roll Band Lyrics.txt_13-96)-[emotions-affection,primary-sound]
+15-(Rock And Roll Band Lyrics.txt_14-110)-[emotions-expressive_beh,emotions-expressive_beh,emotions-expressive_beh]
+16-(Rock And Roll Band Lyrics.txt_15-125)-[]
+17-(Rock And Roll Band Lyrics.txt_16-141)-[emotions-expressive_beh,primary-brink]
+18-(Rock And Roll Band Lyrics.txt_17-158)-[primary-gen_sensation,primary-concreteness,emotions-expressive_beh]
+19-(Rock And Roll Band Lyrics.txt_18-176)-[primary-brink]
+20-(Rock And Roll Band Lyrics.txt_18-177)-[primary-vision]
+half
+21-(Rock And Roll Band Lyrics.txt_19-196)-[secondary-abstract_tought]
+22-(Rock And Roll Band Lyrics.txt_19-197)-[secondary-abstract_tought]
+23-(Rock And Roll Band Lyrics.txt_20-216)-[primary-random_movement]
+24-(Rock And Roll Band Lyrics.txt_20-217)-[primary-sound]
+25-(Rock And Roll Band Lyrics.txt_21-238)-[emotions-anxiety]
+26-(Rock And Roll Band Lyrics.txt_21-239)-[]
+27-(Rock And Roll Band Lyrics.txt_22-261)-[secondary-temporal_repere,emotions-expressive_beh]
+28-(Rock And Roll Band Lyrics.txt_23-286)-[primary-sound]
+29-(Rock And Roll Band Lyrics.txt_24-310)-[emotions-expressive_beh,secondary-temporal_repere]
+30-(Rock And Roll Band Lyrics.txt_25-335)-[]
+31-(Rock And Roll Band Lyrics.txt_26-361)-[primary-fire]
+32-(Rock And Roll Band Lyrics.txt_27-388)-[]
+33-(Rock And Roll Band Lyrics.txt_28-416)-[secondary-social_behavior]
+34-(Rock And Roll Band Lyrics.txt_28-417)-[secondary-abstract_tought,primary-concreteness,primary-vision]
+35-(Rock And Roll Band Lyrics.txt_29-446)-[secondary-instru_behavior]
+36-(Rock And Roll Band Lyrics.txt_30-476)-[secondary-abstract_tought]
+37-(Rock And Roll Band Lyrics.txt_30-477)-[emotions-glory]
+38-(Rock And Roll Band Lyrics.txt_31-508)-[secondary-temporal_repere,primary-sound]
+39-(Rock And Roll Band Lyrics.txt_31-509)-[]
+40-(Rock And Roll Band Lyrics.txt_32-541)-[primary-sex]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Rock And Roll Band Lyrics.txt_1,1,cl1-nil-nil-ban-[arg_mod-agent-Boston-sn5,obj-theme-Lyrics-sn4,coord-agent-rock_and_Roll-sn3,subj-agent-Roll-sn2,subj-agent-rock-sn1,def_prop(Boston,[place,luogo]),def_prop(Lyrics,[informa,tecno]),def_prop(rock_and_Roll,[attivita,oggetto,sostanza,umano,place,umano]),def_prop(Roll,[attivita,oggetto,sostanza,umano,place,umano]),def_prop(rock,[attivita,oggetto,sostanza,umano,place,umano])])
+lf(Rock And Roll Band Lyrics.txt_2,3,cl2-nil-nil-be-[adj-(mod)-well-nil,ncmod-locativo-Boston-sn3,xcomp-prop-band-sn2,subj-theme_bound-we-sn1,and(band,another,sn2),def_prop(Boston,[place,luogo]),def_prop(band,[astratto,attivita,informa,istituzione,oggetto,strumento]),def_prop(we,[umano])])
+lf(Rock And Roll Band Lyrics.txt_3,6,cl5-nil-nil-meet-[subj-experiencer-on_the_road-sn1,def_prop(on_the_road,[attivita,informa,oggetto,strumento,tecno])])
+lf(Rock And Roll Band Lyrics.txt_3,6,cl4-nil-nil-make-[])
+lf(Rock And Roll Band Lyrics.txt_3,6,cl3-nil-nil-try-[subj-result-end-sn2,xcomp-prop-make-3,def_prop(end,[astratto,attivita,evento,luogo,oggetto,stato,strumento,tempo,umano])])
+lf(Rock And Roll Band Lyrics.txt_4,12,cl6-nil-nil-be-[ncmod-locativo-car-sn4,subj-theme_bound-sleepin-sn3,subj-theme_bound-sleepin-sn2,subj-theme_bound-bar-sn1,and(sleepin,bar,sn2),and(sleepin,all,sn2),and(bar,all,sn1),def_prop(car,[oggetto,strumento]),def_prop(sleepin,[istituzione]),def_prop(sleepin,[istituzione]),def_prop(bar,[nquant,oggetto,strumento])])
+lf(Rock And Roll Band Lyrics.txt_5,17,nil-nil-nil-practiced-[cmod-coord-practiced-and,ncmod-locativo-street-sn7,ncmod-locativo-out-sn6,xcomp-prop-right-sn5,subj-theme_aff-we-sn4,ncmod-locativo-out-sn3,xcomp-prop-right-sn2,subj-theme_aff-we-sn1,def_prop(street,[oggetto,stato,strumento]),def_prop(out,[istituzione]),def_prop(right,[soggettivo]),def_prop(we,[umano]),def_prop(out,[istituzione]),def_prop(right,[soggettivo]),def_prop(we,[umano])])
+lf(Rock And Roll Band Lyrics.txt_6,23,cl7-not-nil-have-[xcomp-tema_bound-money-sn2,subj-experiencer-no-sn1,and(money,much,sn2),and(no,we,sn1),def_prop(money,[astratto,oggetto]),def_prop(no,[istituzione])])
+lf(Rock And Roll Band Lyrics.txt_7,30,cl9-nil-nil-survive-[subj-theme-we-sn1,def_prop(we,[umano])])
+lf(Rock And Roll Band Lyrics.txt_7,30,cl8-nil-nil-make-[adj-(mod)-enough-nil,adj-(mod)-barely-nil,subj-agent-we-sn1,def_prop(we,[umano])])
+lf(Rock And Roll Band Lyrics.txt_8,39,cl11-nil-nil-play-[subj-goal-ready-sn5,subj-goal-ready-sn4,def_prop(ready,[stato]),def_prop(ready,[stato])])
+lf(Rock And Roll Band Lyrics.txt_8,39,cl10-nil-nil-get-[cmod-subord-play-when,subj-agent-ready-sn5,cmod-coord-nil-nil,subj-agent-ready-sn4,adj-(mod)-up-nil,ncmod-temporale-stage-sn2,subj-agent-we-sn1,def_prop(ready,[stato]),def_prop(ready,[stato]),def_prop(stage,[tempo]),def_prop(we,[umano])])
+lf(Rock And Roll Band Lyrics.txt_9,49,cl12-nil-nil-come-[xcomp-prop-alive-sn2,subj-agent-people-sn1,def_prop(alive,[valutativo]),def_prop(people,[istituzione])])
+lf(Rock And Roll Band Lyrics.txt_10,59,cl14-nil-nil-roll-[cmod-coord-roll-and,subj-agent-band-sn2,def_prop(band,[astratto,attivita,informa,istituzione,oggetto,strumento])])
+lf(Rock And Roll Band Lyrics.txt_10,59,cl13-nil-nil-rock-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Rock And Roll Band Lyrics.txt_11,71,cl15-nil-nil-say-[obj-theme_unaff-[]-sn1,def_prop([],nil)])
+lf(Rock And Roll Band Lyrics.txt_12,83,cl16-nil-nil-say-[obj-theme_unaff-gettin-sn1,def_prop(gettin,[istituzione])])
+lf(Rock And Roll Band Lyrics.txt_13,96,cl17-nil-nil-anticipate-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Rock And Roll Band Lyrics.txt_14,110,cl18-nil-nil-be-[ncmod-modal-play-sn2,subj-theme_bound-you-sn1,def_prop(play,[attivita,informa,stato]),def_prop(you,[umano])])
+lf(Rock And Roll Band Lyrics.txt_15,125,cl19-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Rock And Roll Band Lyrics.txt_16,141,cl20-nil-nil-be-[ncmod-locativo-street-sn2,subj-theme_bound-dancin-sn1,def_prop(street,[oggetto,stato,strumento]),def_prop(dancin,[istituzione])])
+lf(Rock And Roll Band Lyrics.txt_17,158,cl21-nil-nil-get-[ncmod-locativo-game-sn3,obj-theme_unaff-good-sn2,subj-agent-we-sn1,aux-were-nil,progr-getting-nil,def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(good,[valutativo]),def_prop(we,[umano])])
+lf(Rock And Roll Band Lyrics.txt_18,176,cl23-not-nil-seem-[cmod-subord-seem-",iobj-goal-mind-sn4,subj-actor-you-sn3,iobj-goal-line-sn2,aux-did-nil,def_prop(mind,[astratto]),def_prop(you,[umano]),def_prop(line,[astratto,attivita,cambia,informa,luogo,oggetto,strumento])])
+lf(Rock And Roll Band Lyrics.txt_18,176,cl22-nil-nil-stand-[subj-experiencer-people-sn1,def_prop(people,[istituzione])])
+lf(Rock And Roll Band Lyrics.txt_19,196,cl24-nil-nil-know-[obj-theme_unaff-name-sn3,subj-actor-everybody-sn2,subj-actor-you-sn1,def_prop(name,[attivita,informa,stato,umano]),def_prop(everybody,[umano]),def_prop(you,[umano])])
+lf(Rock And Roll Band Lyrics.txt_20,216,cl26-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Rock And Roll Band Lyrics.txt_20,216,cl25-nil-nil-roll-[ncmod-locativo-Rocken-sn2,subj-agent-Livin-sn1,def_prop(Rocken,[istituzione,umano]),def_prop(Livin,[istituzione,umano])])
+lf(Rock And Roll Band Lyrics.txt_21,238,cl28-nil-nil-miss-[subj-experiencer-we-sn5,subj-experiencer-we-sn4,aux-were-nil,progr-missing-nil,and(we,you,sn4),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Rock And Roll Band Lyrics.txt_21,238,cl27-nil-nil-worry-[subj_top-causer_emot-bout-sn1,def_prop(bout,[attivita,informa,tempo])])
+lf(Rock And Roll Band Lyrics.txt_22,261,2-nil-nil-be-[cmod-coord-play-and])
+lf(Rock And Roll Band Lyrics.txt_22,261,cl30-nil-nil-play-[subj-goal-you-sn1,def_prop(you,[umano])])
+lf(Rock And Roll Band Lyrics.txt_22,261,cl29-nil-nil-get-[obj-theme_unaff-ready-sn2,subj-agent-you-sn1,def_prop(ready,[stato]),def_prop(you,[umano])])
+lf(Rock And Roll Band Lyrics.txt_23,286,cl31-nil-nil-listen-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Rock And Roll Band Lyrics.txt_24,310,nil-nil-nil-island-[ncmod-locativo-Rhode-sn3,subj-agent-you-sn2,def_prop(Rhode,[umano]),def_prop(you,[umano])])
+lf(Rock And Roll Band Lyrics.txt_25,335,cl32-nil-nil-come-[adj-temporal-night-nil,iobj-goal-stage-sn2,subj-agent-man-sn1,and(night,one,sn3),def_prop(night,[tempo]),def_prop(stage,[tempo]),def_prop(man,[any])])
+lf(Rock And Roll Band Lyrics.txt_26,361,cl33-nil-nil-smoke-[obj-theme-cigar-sn2,subj-agent-he-sn1,and(cigar,big,sn2),def_prop(cigar,[oggetto,strumento]),def_prop(he,[umano])])
+lf(Rock And Roll Band Lyrics.txt_27,388,cl34-nil-nil-drive-[obj-theme-car-sn3,obj-theme_unaff-Cadillac-sn2,subj-agent-you-sn1,def_prop(car,[oggetto,strumento]),def_prop(Cadillac,[istituzione,umano]),def_prop(you,[umano])])
+lf(Rock And Roll Band Lyrics.txt_28,416,cl36-nil-nil-think-[obj-theme_aff-sight-sn4,subj-agent-i-sn3,cmod-subord-think-",and(sight,this,sn4),and(sight,outta,sn4),def_prop(sight,[astratto,attivita,informa,nquant,oggetto,strumento]),def_prop(i,[umano])])
+lf(Rock And Roll Band Lyrics.txt_28,416,cl35-nil-nil-say-[obj-theme_unaff-Boys-sn2,subj-actor-you-sn1,def_prop(Boys,[istituzione,umano]),def_prop(you,[umano])])
+lf(Rock And Roll Band Lyrics.txt_29,446,cl37-nil-nil-sign-[obj-theme-record-sn2,subj-agent-you-sn1,def_prop(record,[astratto,attivita,informa,nquant,oggetto]),def_prop(you,[umano])])
+lf(Rock And Roll Band Lyrics.txt_30,476,cl39-nil-nil-get-[obj-theme_unaff-expectation-sn3,subj-agent-i-sn2,aux-have-nil,and(expectation,great,sn3),def_prop(expectation,[astratto,emotivo]),def_prop(i,[umano])])
+lf(Rock And Roll Band Lyrics.txt_30,476,cl38-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Rock And Roll Band Lyrics.txt_31,508,cl41-nil-nil-be-[xcomp-theme-radio-sn5,ncmod-locativo-car-sn4,subj-theme_bound-you-sn3,def_prop(radio,[attivita,informa,oggetto,strumento]),def_prop(car,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Rock And Roll Band Lyrics.txt_31,508,cl40-nil-nil-hear-[obj-theme-when-sn2,subj-experiencer-i-sn1,def_prop(when,[tempo]),def_prop(i,[umano])])
+lf(Rock And Roll Band Lyrics.txt_32,541,cl42-nil-nil-be-[xcomp-prop-sensation-sn3,xcomp-purpose-be-cl42,xcomp-prop-goin-sn2,subj-theme_bound-you-sn1,def_prop(sensation,[astratto,emotivo,stato,umano]),def_prop(goin,[istituzione]),def_prop(you,[umano])])

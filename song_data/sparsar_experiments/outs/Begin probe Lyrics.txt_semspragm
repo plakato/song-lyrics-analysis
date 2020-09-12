@@ -1,0 +1,115 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Begin probe Lyrics.txt_1-1  []-positive  []
+Begin probe Lyrics.txt_2-3  []-positive  []
+Begin probe Lyrics.txt_3-8  []-positive  [fgb,fgb,neg]
+Begin probe Lyrics.txt_4-14  []-positive  []
+Begin probe Lyrics.txt_5-20  []-positive  []
+Begin probe Lyrics.txt_5-21  []-negative  [fgb,neg]
+Begin probe Lyrics.txt_6-28  []-positive  []
+Begin probe Lyrics.txt_7-35  []-question  []
+Begin probe Lyrics.txt_8-44  []-suspension  []
+Begin probe Lyrics.txt_9-53  []-positive  []
+Begin probe Lyrics.txt_10-63  []-positive  []
+Begin probe Lyrics.txt_11-74  [so-result]-positive  [fgb,fgb,bkc]
+Begin probe Lyrics.txt_11-74  [so-result]-positive  [fgb,fgb,bkc]
+Begin probe Lyrics.txt_12-86  [(as)-temp_coinc,if-hypoth]-positive  [neg,fgb,neg]
+Begin probe Lyrics.txt_13-100  []-negative  [neg]
+Begin probe Lyrics.txt_14-114  []-positive  []
+Begin probe Lyrics.txt_14-115  [but-advers]-positive  [fgb]
+Begin probe Lyrics.txt_14-116  []-negative  [neg]
+Begin probe Lyrics.txt_15-131  [when-temp_coinc]-negative  [neg,neg]
+Begin probe Lyrics.txt_16-147  []-suspension  []
+Begin probe Lyrics.txt_16-148  [if-hypoth]-positive  [fgb]
+Begin probe Lyrics.txt_17-166  []-suspension  [neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Begin probe Lyrics.txt_1-1  [probe,begin,Lyrics,by,two,Inch,Astronaut]  [title]
+Begin probe Lyrics.txt_2-3  [caught,our,first,fish,,,just,to,watch,it,wriggle]  [provide_expl_just(wriggle,[external,factive,narration,background,objective]),provide_expl_just(watch,[external,factive,narration,background,objective]),provide_expl_just(catch,[external,factive,narration,foreground,objective])]
+Begin probe Lyrics.txt_3-8  [guts,and,gills,and,dollar,bills,to,catch,all,of,the,useless,parts]  [provide_expl_just(gut,[external,factive,narration,background,objective]),provide_expl_just(catch,[external,factive,narration,background,objective])]
+Begin probe Lyrics.txt_4-14  [fifth,high_school,reunion,we,had,a,chance,to,catch,up]  [provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(catch,[external,factive,narration,background,objective])]
+Begin probe Lyrics.txt_5-20  [glad,to,see,you,are]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Begin probe Lyrics.txt_5-21  [doin,well,still,can,not,wash,off,that,smell]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(see,[external,factive,narration,background,objective])]
+Begin probe Lyrics.txt_6-28  [probe,begin]  [provide_expl_just(begin,[external,factive,inception,background,objective])]
+Begin probe Lyrics.txt_7-35  [go,it,is,where,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(go,[internal,factive,narration,foreground,objective])]
+Begin probe Lyrics.txt_8-44  [you,should,know]  [provide_expl_just(know,[external,nonfactive,narration,foreground,objective])]
+Begin probe Lyrics.txt_9-53  [up,the,rear]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Begin probe Lyrics.txt_10-63  [you,are,on,a,roll]  [provide_expl_just(roll,[internal,factive,narration,background,objective])]
+Begin probe Lyrics.txt_11-74  [and,it,feels,so,good,,,yeah]  [accept_expl_opin(feel,[external,factive,narration,background,objective]),provide_expl_just(feel,_1024098)]
+Begin probe Lyrics.txt_11-74  [and,it,feels,so,good,,,yeah]  [accept_expl_opin(feel,[external,factive,narration,background,objective]),provide_expl_just(feel,_1028626)]
+Begin probe Lyrics.txt_12-86  [just,dropped,by,to,see,if,your,resolve,is,as,weak,as,mine]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Begin probe Lyrics.txt_13-100  [no,surprise,,,first_class,got,the,ticket,away,from,me]  [reject_expl_just(get,[external,factive,narration,foreground,objective])]
+Begin probe Lyrics.txt_14-114  [we,get,better]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Begin probe Lyrics.txt_14-115  [but,you,know]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Begin probe Lyrics.txt_14-116  [it,is,a,trick]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Begin probe Lyrics.txt_15-131  [no,contestant,when,you,don-t,give,a,shit,about,it]  [reject_expl_just(give,[external,factive,narration,foreground,objective])]
+Begin probe Lyrics.txt_16-147  [i,will,make]  [provide_expl_just(make,[external,nonfactive,narration,background,objective]),raise_issue(be,[_1041382,_1041388,statement,_1041400,_1041406])]
+Begin probe Lyrics.txt_16-148  [it,one,more,minute,if,it,is,the,last,thing,i,do]  [provide_expl_just(make,[external,nonfactive,narration,background,objective]),proposal(be,[_1042024,_1042030,statement,foreground,_1042048])]
+Begin probe Lyrics.txt_17-166  [who,said,there,would,be,no,harm,in,saying,that,to,you]  [provide_expl_just(there_be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,contrast,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Begin probe Lyrics.txt_1-1)-[]
+2-(Begin probe Lyrics.txt_2-3)-[secondary-restraint,primary-vision]
+3-(Begin probe Lyrics.txt_3-8)-[primary-orality,secondary-restraint]
+4-(Begin probe Lyrics.txt_4-14)-[primary-chaos,secondary-restraint]
+5-(Begin probe Lyrics.txt_5-20)-[emotions-positive_affect,primary-vision]
+6-(Begin probe Lyrics.txt_5-21)-[primary-water,primary-concreteness,primary-odor]
+7-(Begin probe Lyrics.txt_6-28)-[]
+8-(Begin probe Lyrics.txt_7-35)-[primary-concreteness]
+9-(Begin probe Lyrics.txt_8-44)-[secondary-moral_imperative,secondary-abstract_tought]
+10-(Begin probe Lyrics.txt_9-53)-[primary-concreteness]
+11-(Begin probe Lyrics.txt_10-63)-[primary-random_movement]
+half
+12-(Begin probe Lyrics.txt_11-74)-[]
+13-(Begin probe Lyrics.txt_11-74)-[]
+14-(Begin probe Lyrics.txt_12-86)-[primary-vision,secondary-abstract_tought]
+15-(Begin probe Lyrics.txt_13-100)-[primary-concreteness]
+16-(Begin probe Lyrics.txt_14-114)-[]
+17-(Begin probe Lyrics.txt_14-115)-[secondary-abstract_tought]
+18-(Begin probe Lyrics.txt_14-116)-[]
+19-(Begin probe Lyrics.txt_15-131)-[secondary-temporal_repere,primary-anality]
+20-(Begin probe Lyrics.txt_16-147)-[secondary-instru_behavior]
+21-(Begin probe Lyrics.txt_16-148)-[secondary-temporal_repere]
+22-(Begin probe Lyrics.txt_17-166)-[secondary-social_behavior,emotions-aggression]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Begin probe Lyrics.txt_1,1,cl1-nil-nil-begin-[arg_mod-agent-astronaut-sn2,subj-actor-Lyrics-sn1,and(astronaut,two,sn2),and(astronaut,Inch,sn2),and(Lyrics,probe,sn1),def_prop(astronaut,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Begin probe Lyrics.txt_2,3,cl4-nil-nil-wriggle-[adj-(mod)-just-nil,obj-goal-first-sn2,xcomp-purpose-catch-2,subj-agent-it-sn1,def_prop(first,[istituzione]),def_prop(it,[any])])
+lf(Begin probe Lyrics.txt_2,3,cl3-nil-nil-watch-[xadj-adj-fish-adj1,def_prop(fish,_45202)])
+lf(Begin probe Lyrics.txt_2,3,cl2-nil-nil-catch-[])
+lf(Begin probe Lyrics.txt_3,8,cl6-nil-nil-catch-[cmod-coord-catch-and,cmod-coord-gut-and,obj-goal-all-sn2,subj-agent-bill-sn1,and(bill,dollar,sn1),def_prop(all,[_45388]),def_prop(bill,[astratto,attivita,informa,oggetto,strumento])])
+lf(Begin probe Lyrics.txt_3,8,nil-nil-nil-gills-[subj-agent-pro-nil])
+lf(Begin probe Lyrics.txt_3,8,cl5-nil-nil-gut-[subj-agent-pro-nil])
+lf(Begin probe Lyrics.txt_4,14,cl8-nil-nil-catch-[subj-goal-we-sn2,def_prop(we,[umano])])
+lf(Begin probe Lyrics.txt_4,14,cl7-nil-nil-have-[adj-(mod)-up-nil,xcomp-tema_bound-chance-sn3,subj-experiencer-we-sn2,subj-experiencer-we-sn1,and(we,reunion,sn1),and(we,fifth,sn1),def_prop(chance,[attivita]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Begin probe Lyrics.txt_5,20,cl11-not-can-wash-[adj-(mod)-still-nil,ncmod-modal-smell-sn3,subj-actor-doin-sn2,and(still,well,sn5),and(smell,that,sn3),def_prop(still,[istituzione]),def_prop(smell,[astratto,attivita]),def_prop(doin,[istituzione])])
+lf(Begin probe Lyrics.txt_5,20,cl10-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Begin probe Lyrics.txt_5,20,cl9-nil-nil-see-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Begin probe Lyrics.txt_6,28,cl12-nil-nil-begin-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Begin probe Lyrics.txt_7,35,cl14-nil-nil-go-[subj-agent-pro-nil,subj-agent-it-sn2,def_prop(it,[any])])
+lf(Begin probe Lyrics.txt_7,35,cl13-nil-nil-be-[subj-theme_bound-where-sn1,def_prop(where,[luogo])])
+lf(Begin probe Lyrics.txt_8,44,cl15-nil-should-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Begin probe Lyrics.txt_9,53,cl16-nil-nil-be-[subj-theme_bound-rear-sn1,def_prop(rear,[body_part,luogo,oggetto,strumento,umano])])
+lf(Begin probe Lyrics.txt_10,63,cl17-nil-nil-be-[ncmod-locativo-roll-sn2,subj-theme_bound-you-sn1,def_prop(roll,[attivita,informa,oggetto,strumento]),def_prop(you,[umano])])
+lf(Begin probe Lyrics.txt_11,74,cl18-nil-nil-feel-[cmod-coord-feel-and,xadj-adj-good-adj2,subj-experiencer-it-sn3,cmod-subord-feel-",subj-experiencer-it-sn1,def_prop(good,_46874),def_prop(it,[any]),def_prop(it,[any])])
+lf(Begin probe Lyrics.txt_12,86,cl20-nil-nil-be-[cmod-subord-be-if,xcomp-prop-weak-sn4,subj-theme_bound-resolve-sn3,def_prop(weak,[istituzione]),def_prop(resolve,[astratto,attivita,informa])])
+lf(Begin probe Lyrics.txt_12,86,cl19-nil-nil-see-[obj-actor-mine-sn2,subj-experiencer-dropped-sn1,def_prop(mine,[oggetto,strumento]),def_prop(dropped,[istituzione])])
+lf(Begin probe Lyrics.txt_13,100,cl21-nil-nil-get-[adj-(mod)-away-nil,ncmod-loc_origin-me-sn4,obj-theme_unaff-ticket-sn3,subj-agent-first_class-sn2,subj-agent-first_class-sn1,and(first_class,surprise,sn1),and(first_class,no,sn1),def_prop(me,[umano]),def_prop(ticket,[astratto,attivita,informa]),def_prop(first_class,[astratto,attivita,informa,oggetto,strumento]),def_prop(first_class,[astratto,attivita,informa,oggetto,strumento])])
+lf(Begin probe Lyrics.txt_14,114,cl24-nil-nil-be-[xcomp-prop-trick-sn6,subj-theme_bound-it-sn5,def_prop(trick,[attivita,tempo]),def_prop(it,[any])])
+lf(Begin probe Lyrics.txt_14,114,cl23-nil-nil-know-[subj-actor-you-sn4,def_prop(you,[umano])])
+lf(Begin probe Lyrics.txt_14,114,cl22-nil-nil-get-[subj-theme_bound-we-sn1,def_prop(we,[umano])])
+lf(Begin probe Lyrics.txt_15,131,cl25-not-nil-give-[cmod-subord-give-when,ncmod-subj_disc-it-sn5,obj-goal-shit-sn4,subj-actor-you-sn3,aux-do-nil,def_prop(it,[any]),def_prop(shit,[attivita,umano]),def_prop(you,[umano])])
+lf(Begin probe Lyrics.txt_16,147,cl28-nil-nil-do-[subj-theme_unaff-i-sn3,subj-theme_unaff-i-sn2,aux-do-nil,and(i,it,sn2),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Begin probe Lyrics.txt_16,147,cl27-nil-nil-be-[cmod-subord-do-if,xcomp-prop-thing-sn7,subj-theme_bound-it-sn6,and(thing,last,sn7),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(it,[any])])
+lf(Begin probe Lyrics.txt_16,147,cl26-nil-will-make-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Begin probe Lyrics.txt_17,166,cl30-nil-would-be-[subj-theme_bound-harm-sn8,subj-theme_bound-harm-sn6,ncmod-goal-you-sn2,and(harm,no,sn8),and(harm,no,sn6),def_prop(harm,[cambia,evento,stato]),def_prop(harm,[cambia,evento,stato]),def_prop(you,[umano])])
+lf(Begin probe Lyrics.txt_17,166,cl29-nil-nil-say-[ccomp-prop-be-cl30,subj-theme_unaff-harm-sn10,subj-theme_unaff-harm-sn8,subj-theme_unaff-harm-sn6,subj-theme_unaff-there-sn3,subj-actor-who-sn1,and(harm,no,sn10),and(harm,no,sn8),and(harm,no,sn6),def_prop(harm,[cambia,evento,stato]),def_prop(harm,[cambia,evento,stato]),def_prop(harm,[cambia,evento,stato]),def_prop(there,[any]),def_prop(who,[umano])])

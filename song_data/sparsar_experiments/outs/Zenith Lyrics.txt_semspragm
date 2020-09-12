@@ -1,0 +1,114 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Zenith Lyrics.txt_1-1  []-positive  []
+Zenith Lyrics.txt_2-3  []-negative  [neg]
+Zenith Lyrics.txt_3-6  []-positive  []
+Zenith Lyrics.txt_4-10  [(as)-temp_coinc]-positive  []
+Zenith Lyrics.txt_5-15  []-positive  []
+Zenith Lyrics.txt_6-21  []-negative  []
+Zenith Lyrics.txt_7-28  []-positive  []
+Zenith Lyrics.txt_8-36  []-positive  [bkc]
+Zenith Lyrics.txt_9-45  [but-advers]-positive  [fgb]
+Zenith Lyrics.txt_9-46  []-positive  []
+Zenith Lyrics.txt_10-56  [even_though-conc]-positive  []
+Zenith Lyrics.txt_11-67  []-positive  []
+Zenith Lyrics.txt_12-79  [but-advers]-suspension  [fgb,neg,neg]
+Zenith Lyrics.txt_13-92  []-negative  [neg]
+Zenith Lyrics.txt_13-93  []-positive  []
+Zenith Lyrics.txt_14-107  []-negative  [neg]
+Zenith Lyrics.txt_15-122  [while-temp_coinc]-positive  []
+Zenith Lyrics.txt_16-138  [but-advers]-suspension  [fgb,neg,neg]
+Zenith Lyrics.txt_17-155  []-positive  [fhd]
+Zenith Lyrics.txt_18-173  []-positive  []
+Zenith Lyrics.txt_19-192  [(as)-temp_coinc]-positive  []
+Zenith Lyrics.txt_20-212  []-positive  [bkc]
+Zenith Lyrics.txt_20-213  []-positive  []
+Zenith Lyrics.txt_21-234  []-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Zenith Lyrics.txt_1-1  [zenith,Lyrics,by,Wolfgun]  [title]
+Zenith Lyrics.txt_2-3  [it,was,cold,that,day]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Zenith Lyrics.txt_3-6  [with,a,cloudless,sky]  [provide_expl_just(sky,[external,factive,narration,background,objective])]
+Zenith Lyrics.txt_4-10  [as,i,felt,your,hand]  [provide_expl_just(feel,[external,factive,narration,foreground,objective])]
+Zenith Lyrics.txt_5-15  [making,peace,with,mine]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Zenith Lyrics.txt_6-21  [your,image,blurred]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Zenith Lyrics.txt_7-28  [in,a,distant,view]  [provide_expl_just(view,[external,factive,narration,background,objective])]
+Zenith Lyrics.txt_8-36  [yeah,,,your,back,was,turned]  [accept_expl_opin(be,[_26194,_26200,setting,_26212,_26218])]
+Zenith Lyrics.txt_9-45  [but,i,thought]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_26300)]
+Zenith Lyrics.txt_9-46  [you,knew]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_26386)]
+Zenith Lyrics.txt_10-56  [even_though,you,are,near]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Zenith Lyrics.txt_11-67  [i,am,light-years,from,your,dreams]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Zenith Lyrics.txt_12-79  [but,i,feel,no,fear]  [provide_expl_just(feel,[external,factive,narration,background,objective])]
+Zenith Lyrics.txt_13-92  [it,is,the,loneliness]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(need,[external,factive,narration,background,objective])]
+Zenith Lyrics.txt_13-93  [i,need]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(need,[external,factive,narration,background,objective])]
+Zenith Lyrics.txt_14-107  [it,was,cold,that,night]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Zenith Lyrics.txt_15-122  [while,the,moon,did,fly]  [provide_expl_just(fly,[external,factive,narration,background,objective])]
+Zenith Lyrics.txt_16-138  [but,the,darkness,fell]  [provide_expl_just(fall,[external,factive,cause,foreground,objective])]
+Zenith Lyrics.txt_17-155  [like,a,fog,inside]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+Zenith Lyrics.txt_18-173  [given,up,on,hope]  [raise_issue(be,[_34690,factive,statement,_34708,subjective])]
+Zenith Lyrics.txt_19-192  [as,i,looked,up,high]  [provide_expl_just(look,[external,factive,narration,foreground,objective])]
+Zenith Lyrics.txt_20-212  [yeah,my,heart]  [provide_expl_just(heart,[external,factive,narration,background,objective])]
+Zenith Lyrics.txt_20-213  [it,spoke]  [provide_expl_just(heart,[external,factive,narration,background,objective])]
+Zenith Lyrics.txt_21-234  [and,the,stars,replied]  [provide_expl_just(reply,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Zenith Lyrics.txt_1-1)-[primary-height]
+2-(Zenith Lyrics.txt_2-3)-[primary-cold]
+3-(Zenith Lyrics.txt_3-6)-[primary-height]
+4-(Zenith Lyrics.txt_4-10)-[primary-narcissism]
+5-(Zenith Lyrics.txt_5-15)-[primary-orality]
+6-(Zenith Lyrics.txt_6-21)-[primary-vision]
+7-(Zenith Lyrics.txt_7-28)-[primary-concreteness,primary-vision]
+8-(Zenith Lyrics.txt_8-36)-[primary-concreteness]
+9-(Zenith Lyrics.txt_9-45)-[secondary-abstract_tought]
+10-(Zenith Lyrics.txt_9-46)-[secondary-abstract_tought]
+11-(Zenith Lyrics.txt_10-56)-[primary-concreteness]
+12-(Zenith Lyrics.txt_11-67)-[primary-counscious]
+half
+13-(Zenith Lyrics.txt_12-79)-[emotions-anxiety]
+14-(Zenith Lyrics.txt_13-92)-[emotions-sadness]
+15-(Zenith Lyrics.txt_13-93)-[]
+16-(Zenith Lyrics.txt_14-107)-[primary-cold]
+17-(Zenith Lyrics.txt_15-122)-[secondary-temporal_repere,primary-ascend]
+18-(Zenith Lyrics.txt_16-138)-[primary-descent]
+19-(Zenith Lyrics.txt_17-155)-[emotions-affection,primary-diffusion,primary-concreteness]
+20-(Zenith Lyrics.txt_18-173)-[]
+21-(Zenith Lyrics.txt_19-192)-[primary-vision,primary-height]
+22-(Zenith Lyrics.txt_20-212)-[primary-narcissism]
+23-(Zenith Lyrics.txt_20-213)-[secondary-social_behavior]
+24-(Zenith Lyrics.txt_21-234)-[primary-vision,secondary-social_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Zenith Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wolfgun-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,zenith,sn1),def_prop(Wolfgun,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Zenith Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-cold-sn2,subj-theme_bound-it-sn1,def_prop(cold,[valutativo]),def_prop(it,[any])])
+lf(Zenith Lyrics.txt_3,6,cl3-nil-nil-sky-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Zenith Lyrics.txt_4,10,cl4-nil-nil-feel-[xcomp-tema_emot-hand-sn2,subj-experiencer-i-sn1,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(Zenith Lyrics.txt_5,15,cl5-nil-nil-make-[iobj-goal-mine-sn2,subj-agent-you-sn1,def_prop(mine,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Zenith Lyrics.txt_6,21,cl6-nil-nil-be-[subj-theme_bound-image-sn1,def_prop(image,[astratto])])
+lf(Zenith Lyrics.txt_7,28,cl7-nil-nil-view-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Zenith Lyrics.txt_8,36,cl8-nil-nil-turn-[subj-agent-back-sn1,aux-was-nil,def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano])])
+lf(Zenith Lyrics.txt_9,45,cl10-nil-nil-know-[subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Zenith Lyrics.txt_9,45,cl9-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Zenith Lyrics.txt_10,56,cl11-nil-nil-be-[xcomp-prop-near-sn2,subj-theme_bound-you-sn1,def_prop(near,[misura]),def_prop(you,[umano])])
+lf(Zenith Lyrics.txt_11,67,cl12-nil-nil-be-[xcomp-prop-light-years-sn2,subj-theme_bound-i-sn1,def_prop(light-years,[istituzione,umano]),def_prop(i,[umano])])
+lf(Zenith Lyrics.txt_12,79,cl13-nil-nil-feel-[xcomp-tema_emot-fear-sn2,subj-experiencer-i-sn1,and(fear,no,sn2),def_prop(fear,[emotivo]),def_prop(i,[umano])])
+lf(Zenith Lyrics.txt_13,92,cl15-nil-nil-need-[subj-experiencer-you-sn3,def_prop(you,[umano])])
+lf(Zenith Lyrics.txt_13,92,cl14-nil-nil-be-[xcomp-prop-loneliness-sn2,subj-theme_bound-it-sn1,def_prop(loneliness,[stato]),def_prop(it,[any])])
+lf(Zenith Lyrics.txt_14,107,cl16-nil-nil-be-[xcomp-prop-cold-sn2,subj-theme_bound-it-sn1,def_prop(cold,[valutativo]),def_prop(it,[any])])
+lf(Zenith Lyrics.txt_15,122,cl17-nil-nil-fly-[subj-agent-you-sn1,aux-did-nil,def_prop(you,[umano])])
+lf(Zenith Lyrics.txt_16,138,cl18-nil-nil-fall-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Zenith Lyrics.txt_17,155,nil-nil-nil-like-[xcomp-prop-inside-sn3,obj-tema_emot-fog-sn2,subj-experiencer-you-sn1,def_prop(inside,[luogo]),def_prop(fog,[attivita,cambia,stato]),def_prop(you,[umano])])
+lf(Zenith Lyrics.txt_18,173,nil-nil-nil-up-[ncmod-locativo-hope-sn2,subj-theme_aff-given-sn1,def_prop(hope,[astratto,emotivo,umano]),def_prop(given,[astratto])])
+lf(Zenith Lyrics.txt_19,192,cl19-nil-nil-look-[xcomp-prop-high-sn2,subj-agent-i-sn1,def_prop(high,[misura]),def_prop(i,[umano])])
+lf(Zenith Lyrics.txt_20,212,cl20-nil-nil-speak-[subj-actor-you-sn4,def_prop(you,[umano])])
+lf(Zenith Lyrics.txt_20,212,nil-nil-nil-heart-[subj-agent-my-sn1,def_prop(my,[informa,tecno])])
+lf(Zenith Lyrics.txt_21,234,cl21-nil-nil-reply-[cmod-subord-reply-",subj-agent-you-sn1,def_prop(you,[umano])])

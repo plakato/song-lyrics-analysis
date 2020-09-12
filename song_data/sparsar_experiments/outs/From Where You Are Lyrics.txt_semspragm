@@ -1,0 +1,82 @@
+"POLARITY, DISCOURSE MARKERS"
+
+From Where You Are Lyrics.txt_2-3  []-suspension  []
+From Where You Are Lyrics.txt_3-6  []-negative  [fhd,neg]
+From Where You Are Lyrics.txt_4-12  [if-hypoth]-negative  [fgb,fgb,neg]
+From Where You Are Lyrics.txt_5-18  []-negative  [neg]
+From Where You Are Lyrics.txt_6-24  [if-hypoth]-negative  [fgb,fgb,neg,neg]
+From Where You Are Lyrics.txt_7-31  []-suspension  []
+From Where You Are Lyrics.txt_7-32  []-positive  []
+From Where You Are Lyrics.txt_9-49  []-positive  []
+From Where You Are Lyrics.txt_10-59  []-positive  []
+From Where You Are Lyrics.txt_11-70  []-suspension  []
+From Where You Are Lyrics.txt_12-83  []-positive  []
+From Where You Are Lyrics.txt_13-96  []-positive  []
+From Where You Are Lyrics.txt_14-111  []-positive  []
+From Where You Are Lyrics.txt_14-112  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+From Where You Are Lyrics.txt_2-3  [will,the,stars,in,the,sky,tonight]  [provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+From Where You Are Lyrics.txt_3-6  [make,you,feel,like,there,is,no,time]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(make,[external,factive,narration,background,objective]),reject_expl_just(feel,[external,factive,narration,background,objective])]
+From Where You Are Lyrics.txt_4-12  [and,if,the,world,spins,upside-down,,,don-t,worry]  [reject_expl_just(worry,[external,factive,narration,foreground,objective])]
+From Where You Are Lyrics.txt_5-18  [it,is,a,ride,just]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+From Where You Are Lyrics.txt_6-24  [and,if,you,lose,yourself,don-t,worry]  [reject_expl_just(worry,[external,factive,narration,foreground,objective])]
+From Where You Are Lyrics.txt_7-31  [i,will,see]  [provide_expl_just(see,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+From Where You Are Lyrics.txt_7-32  [you,on,the,Other_side]  [provide_expl_just(see,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+From Where You Are Lyrics.txt_9-49  [the,goal,see]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+From Where You Are Lyrics.txt_10-59  [is,to,live,our,life,fast]  [provide_expl_just(life,[internal,factive,narration,background,objective])]
+From Where You Are Lyrics.txt_11-70  [will,you,become]  [provide_expl_just(become,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+From Where You Are Lyrics.txt_12-83  [famous,at_last]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+From Where You Are Lyrics.txt_13-96  [hold,on,,,it,is,almost,over]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+From Where You Are Lyrics.txt_14-111  [you,can,feel]  [provide_expl_just(feel,[external,nonfactive,narration,foreground,objective])]
+From Where You Are Lyrics.txt_14-112  [it,coming,closer]  [provide_expl_just(feel,[external,nonfactive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(From Where You Are Lyrics.txt_2-3)-[primary-vision,primary-height,secondary-temporal_repere]
+2-(From Where You Are Lyrics.txt_3-6)-[secondary-instru_behavior,emotions-affection,secondary-temporal_repere]
+3-(From Where You Are Lyrics.txt_4-12)-[primary-random_movement,emotions-anxiety]
+4-(From Where You Are Lyrics.txt_5-18)-[primary-voyage]
+5-(From Where You Are Lyrics.txt_6-24)-[emotions-anxiety]
+6-(From Where You Are Lyrics.txt_7-31)-[primary-vision]
+7-(From Where You Are Lyrics.txt_7-32)-[]
+half
+8-(From Where You Are Lyrics.txt_9-49)-[secondary-instru_behavior,primary-vision]
+9-(From Where You Are Lyrics.txt_10-59)-[primary-orality]
+10-(From Where You Are Lyrics.txt_11-70)-[]
+11-(From Where You Are Lyrics.txt_12-83)-[emotions-glory]
+12-(From Where You Are Lyrics.txt_13-96)-[secondary-abstract_tought,primary-concreteness]
+13-(From Where You Are Lyrics.txt_14-111)-[]
+14-(From Where You Are Lyrics.txt_14-112)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(From Where You Are Lyrics.txt_1,1,cl1-nil-nil-be-[ncmod-loc_origin-where-sn1,def_prop(where,[luogo])])
+lf(From Where You Are Lyrics.txt_2,3,cl2-nil-will-will-[adj-subj_disc-tonight-sn2,subj-agent-star-sn1,def_prop(tonight,[istituzione]),def_prop(star,[astratto,oggetto,umano])])
+lf(From Where You Are Lyrics.txt_3,6,cl5-nil-nil-be-[adj-temporal-time-nil,subj-theme_bound-pro-nil,subj-theme_bound-there-sn4,adj-(mod)-make-nil,and(time,no,sn11),and(time,no,sn8),and(time,no,sn5),def_prop(time,[tempo]),def_prop(there,[istituzione])])
+lf(From Where You Are Lyrics.txt_3,6,cl4-nil-nil-feel-[subj-prop-you-sn2,def_prop(you,[umano])])
+lf(From Where You Are Lyrics.txt_3,6,cl3-nil-nil-make-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(From Where You Are Lyrics.txt_4,12,cl7-not-nil-worry-[cmod-subord-worry-",cmod-subord-worry-if,aux-do-nil])
+lf(From Where You Are Lyrics.txt_4,12,cl6-nil-nil-spin-[xcomp-prop-upside-down-sn2,subj-agent-world-sn1,def_prop(upside-down,[animato,attivita,body_part,luogo,oggetto,umano]),def_prop(world,[astratto,istituzione,oggetto])])
+lf(From Where You Are Lyrics.txt_5,18,cl8-nil-nil-be-[xcomp-prop-ride-sn2,subj-theme_bound-it-sn1,def_prop(ride,[oggetto,strumento]),def_prop(it,[any])])
+lf(From Where You Are Lyrics.txt_6,24,cl10-not-nil-worry-[cmod-subord-worry-",cmod-subord-worry-if,subj-causer_emot-pro-nil,aux-do-nil,subj-causer_emot-yourself-sn2,def_prop(yourself,[istituzione])])
+lf(From Where You Are Lyrics.txt_6,24,cl9-nil-nil-lose-[subj-theme_aff-you-sn1,def_prop(you,[umano])])
+lf(From Where You Are Lyrics.txt_7,31,cl12-nil-nil-be-[ncmod-locativo-Other_side-sn3,subj-theme_bound-you-sn2,def_prop(Other_side,[astratto,attivita,body_part,edible,informa,luogo,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(From Where You Are Lyrics.txt_7,31,cl11-nil-will-see-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(From Where You Are Lyrics.txt_8,40,cl13-nil-nil-be-[ncmod-loc_origin-where-sn1,def_prop(where,[luogo])])
+lf(From Where You Are Lyrics.txt_9,49,cl14-nil-nil-see-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(From Where You Are Lyrics.txt_10,59,cl15-nil-nil-be-[xcomp-theme-fast-sn2,ncmod-goal-life-sn1,and(life,live,sn1),def_prop(fast,[valutativo]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(From Where You Are Lyrics.txt_11,70,cl17-nil-nil-become-[subj-prop-you-sn1,def_prop(you,[umano])])
+lf(From Where You Are Lyrics.txt_11,70,cl16-nil-will-will-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(From Where You Are Lyrics.txt_12,83,cl18-nil-nil-say-[obj-theme_unaff-at_last-sn1,and(at_last,famous,sn1),def_prop(at_last,[informa,tecno])])
+lf(From Where You Are Lyrics.txt_13,96,cl20-nil-nil-be-[subj-theme_bound-over-sn4,xcomp-prop-over-sn3,subj-theme_bound-it-sn2,def_prop(over,[istituzione]),def_prop(over,[istituzione]),def_prop(it,[any])])
+lf(From Where You Are Lyrics.txt_13,96,cl19-nil-nil-hold-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(From Where You Are Lyrics.txt_14,111,cl22-nil-nil-come-[expl-it-nil,subj-agent-it-sn2,def_prop(it,[any])])
+lf(From Where You Are Lyrics.txt_14,111,cl21-nil-can-feel-[subj-experiencer-you-sn1,def_prop(you,[umano])])

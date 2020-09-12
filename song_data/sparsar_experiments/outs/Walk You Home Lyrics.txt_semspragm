@@ -1,0 +1,140 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Walk You Home Lyrics.txt_1-1  []-positive  []
+Walk You Home Lyrics.txt_2-3  []-negative  [neg]
+Walk You Home Lyrics.txt_3-6  []-positive  [neg]
+Walk You Home Lyrics.txt_4-10  []-negative  [neg]
+Walk You Home Lyrics.txt_5-15  []-negative  [neg]
+Walk You Home Lyrics.txt_5-16  []-suspension  []
+Walk You Home Lyrics.txt_6-22  []-negative  [neg]
+Walk You Home Lyrics.txt_7-29  []-suspension  [neg]
+Walk You Home Lyrics.txt_7-30  []-positive  []
+Walk You Home Lyrics.txt_8-39  []-negative  [neg]
+Walk You Home Lyrics.txt_8-40  []-positive  [fgb]
+Walk You Home Lyrics.txt_8-41  []-positive  []
+Walk You Home Lyrics.txt_9-50  []-negative  [neg]
+Walk You Home Lyrics.txt_10-60  []-positive  []
+Walk You Home Lyrics.txt_10-61  []-positive  []
+Walk You Home Lyrics.txt_10-62  []-positive  []
+Walk You Home Lyrics.txt_11-71  []-suspension  []
+Walk You Home Lyrics.txt_11-72  []-positive  []
+Walk You Home Lyrics.txt_12-84  []-positive  []
+Walk You Home Lyrics.txt_12-85  [when-temp_coinc]-positive  []
+Walk You Home Lyrics.txt_12-86  []-positive  []
+Walk You Home Lyrics.txt_13-99  []-suspension  [neg]
+Walk You Home Lyrics.txt_13-100  []-suspension  []
+Walk You Home Lyrics.txt_14-114  []-suspension  [fgb,neg,neg]
+Walk You Home Lyrics.txt_15-130  []-positive  []
+Walk You Home Lyrics.txt_15-131  []-suspension  []
+Walk You Home Lyrics.txt_16-147  []-positive  []
+Walk You Home Lyrics.txt_16-148  []-positive  []
+Walk You Home Lyrics.txt_16-149  []-positive  []
+Walk You Home Lyrics.txt_17-164  []-suspension  []
+Walk You Home Lyrics.txt_17-165  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Walk You Home Lyrics.txt_1-1  [walk,Home,you,Lyrics,by,Rusty]  [title]
+Walk You Home Lyrics.txt_2-3  [life,is,lonely,with,a,bounty,on,your,head]  [reject_expl_just(bounty,[internal,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_3-6  [all,your,alone,you,watch,your,back]  [propose_opin_neg(watch,[external,factive,explanation,background,objective])]
+Walk You Home Lyrics.txt_4-10  [life,is,lonely,with,a,bounty,on,your,head]  [reject_expl_just(bounty,[internal,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_5-15  [you,walk,alone]  [reject_expl_just(walk,[external,factive,narration,background,objective]),reject_expl_just(watch,[external,nonfactive,narration,background,objective])]
+Walk You Home Lyrics.txt_5-16  [,,i,will,watch,your,back]  [provide_expl_just(walk,[external,factive,narration,background,objective]),provide_expl_just(watch,[external,nonfactive,narration,background,objective])]
+Walk You Home Lyrics.txt_6-22  [i,smell,your,fear,from,many,miles,away]  [reject_expl_just(smell,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_7-29  [i,know,your,fear]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(help,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_7-30  [i,am,here,to,help]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(help,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_8-39  [i,sit,alone]  [reject_expl_just(think,[external,factive,narration,background,objective]),reject_expl_just(sit,[external,factive,narration,background,objective]),reject_expl_just(do,[external,factive,narration,foreground,objective])]
+Walk You Home Lyrics.txt_8-40  [and,think,of,all,the,things]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(sit,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Walk You Home Lyrics.txt_8-41  [you,do]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(sit,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Walk You Home Lyrics.txt_9-50  [your,not,with,me,i,am,by,myself]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_10-60  [i,am,always,home]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_10-61  [,,i,am,always,waiting]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_10-62  [for,your,call]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_11-71  [i,will,walk]  [provide_expl_just(walk,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_11-72  [you,home]  [provide_expl_just(walk,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_12-84  [your,steps,they,quicken]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(quicken,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_12-85  [when,you,know]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(quicken,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_12-86  [that,i,am,there]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(quicken,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_13-99  [i,feel,your,fear]  [provide_expl_just(feel,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_13-100  [it,breaks,my,heart]  [provide_expl_just(feel,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_14-114  [please,don-t,run,i_mean,you,very,little,harm]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(don-t,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_15-130  [you,walk,with,him]  [provide_expl_just(walk,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_15-131  [,,it,breaks,my,heart]  [provide_expl_just(walk,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_16-147  [i,am,always,home]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_16-148  [,,i,am,always,waiting]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_16-149  [for,your,call]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_17-164  [i,will,walk]  [provide_expl_just(walk,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Walk You Home Lyrics.txt_17-165  [you,home]  [provide_expl_just(walk,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Walk You Home Lyrics.txt_1-1)-[]
+2-(Walk You Home Lyrics.txt_2-3)-[emotions-sadness,primary-narcissism]
+3-(Walk You Home Lyrics.txt_3-6)-[primary-vision,primary-concreteness]
+4-(Walk You Home Lyrics.txt_4-10)-[emotions-sadness,primary-narcissism]
+5-(Walk You Home Lyrics.txt_5-15)-[]
+6-(Walk You Home Lyrics.txt_5-16)-[primary-vision,primary-concreteness]
+7-(Walk You Home Lyrics.txt_6-22)-[primary-odor,emotions-anxiety,primary-concreteness]
+8-(Walk You Home Lyrics.txt_7-29)-[secondary-abstract_tought,emotions-anxiety]
+9-(Walk You Home Lyrics.txt_7-30)-[primary-concreteness,secondary-social_behavior]
+10-(Walk You Home Lyrics.txt_8-39)-[]
+11-(Walk You Home Lyrics.txt_8-40)-[secondary-abstract_tought]
+12-(Walk You Home Lyrics.txt_8-41)-[]
+13-(Walk You Home Lyrics.txt_9-50)-[]
+14-(Walk You Home Lyrics.txt_10-60)-[]
+15-(Walk You Home Lyrics.txt_10-61)-[]
+half
+16-(Walk You Home Lyrics.txt_10-62)-[secondary-social_behavior]
+17-(Walk You Home Lyrics.txt_11-71)-[]
+18-(Walk You Home Lyrics.txt_11-72)-[]
+19-(Walk You Home Lyrics.txt_12-84)-[primary-brink,secondary-temporal_repere]
+20-(Walk You Home Lyrics.txt_12-85)-[secondary-temporal_repere,secondary-abstract_tought]
+21-(Walk You Home Lyrics.txt_12-86)-[]
+22-(Walk You Home Lyrics.txt_13-99)-[emotions-anxiety]
+23-(Walk You Home Lyrics.txt_13-100)-[emotions-aggression,primary-narcissism]
+24-(Walk You Home Lyrics.txt_14-114)-[secondary-social_behavior,emotions-aggression]
+25-(Walk You Home Lyrics.txt_15-130)-[]
+26-(Walk You Home Lyrics.txt_15-131)-[emotions-aggression,primary-narcissism]
+27-(Walk You Home Lyrics.txt_16-147)-[]
+28-(Walk You Home Lyrics.txt_16-148)-[]
+29-(Walk You Home Lyrics.txt_16-149)-[secondary-social_behavior]
+30-(Walk You Home Lyrics.txt_17-164)-[]
+31-(Walk You Home Lyrics.txt_17-165)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Walk You Home Lyrics.txt_1,1,cl1-nil-nil-walk-[arg_mod-agent-Rusty-sn3,obj-theme_aff-Lyrics-sn2,subj-actor-you-sn1,and(Lyrics,Home,sn2),def_prop(Rusty,[umano]),def_prop(Lyrics,[informa,tecno]),def_prop(you,[umano])])
+lf(Walk You Home Lyrics.txt_2,3,cl2-nil-nil-be-[ncmod-locativo-head-sn4,ncmod-comitativo-bounty-sn3,xcomp-prop-lonely-sn2,subj-theme_bound-life-sn1,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(bounty,[astratto,oggetto]),def_prop(lonely,[estens]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Walk You Home Lyrics.txt_3,6,cl3-nil-nil-watch-[xcomp-prop-your-sn3,subj-actor-you-sn2,subj-actor-you-sn1,and(you,alone,sn1),and(you,all,sn1),def_prop(your,[evaluative]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Walk You Home Lyrics.txt_4,10,cl4-nil-nil-be-[ncmod-locativo-head-sn4,ncmod-comitativo-bounty-sn3,xcomp-prop-lonely-sn2,subj-theme_bound-life-sn1,def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(bounty,[astratto,oggetto]),def_prop(lonely,[estens]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Walk You Home Lyrics.txt_5,15,cl6-nil-will-watch-[xcomp-prop-your-sn4,subj-actor-i-sn3,def_prop(your,[evaluative]),def_prop(i,[umano])])
+lf(Walk You Home Lyrics.txt_5,15,cl5-nil-nil-walk-[xcomp-prop-alone-sn2,subj-actor-you-sn1,def_prop(alone,[valutativo]),def_prop(you,[umano])])
+lf(Walk You Home Lyrics.txt_6,22,cl7-nil-nil-smell-[xadj-adj-away-adj1,ncmod-modal-mile-sn3,xcomp-location-fear-sn2,subj-experiencer-i-sn1,and(mile,many,sn3),def_prop(away,_183472),def_prop(mile,[evento,nquant]),def_prop(fear,[emotivo]),def_prop(i,[umano])])
+lf(Walk You Home Lyrics.txt_7,29,cl10-nil-nil-help-[subj-tema_nonaff-i-sn5,def_prop(i,[umano])])
+lf(Walk You Home Lyrics.txt_7,29,cl9-nil-nil-be-[adj-(mod)-here-nil,subj-theme_bound-i-sn5,def_prop(i,[umano])])
+lf(Walk You Home Lyrics.txt_7,29,cl8-nil-nil-know-[obj-theme_unaff-fear-sn2,subj-actor-i-sn1,def_prop(fear,[emotivo]),def_prop(i,[umano])])
+lf(Walk You Home Lyrics.txt_8,39,cl13-nil-nil-do-[subj-theme_unaff-you-sn6,aux-do-nil,def_prop(you,[umano])])
+lf(Walk You Home Lyrics.txt_8,39,cl12-nil-nil-think-[cmod-subord-do-",iobj-theme_unaff-thing-sn4,subj-agent-you-sn3,and(thing,all,sn4),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(Walk You Home Lyrics.txt_8,39,cl11-nil-nil-sit-[xcomp-prop-alone-sn2,subj-actor-i-sn1,def_prop(alone,[valutativo]),def_prop(i,[umano])])
+lf(Walk You Home Lyrics.txt_9,50,cl14-nil-nil-be-[xadj-adj-your-adj2,arg_mod-agent-myself-sn3,ncmod-comitativo-me-sn2,subj-theme_bound-i-sn1,def_prop(your,_184350),def_prop(myself,[umano]),def_prop(me,[umano]),def_prop(i,[umano])])
+lf(Walk You Home Lyrics.txt_10,60,cl15-nil-nil-be-[subj-theme_bound-you-sn7,adj-(mod)-always-nil,xcomp-prop-waiting-sn5,subj-theme_bound-i-sn4,xcomp-prop-home-sn2,subj-theme_bound-i-sn1,and(home,always,sn2),def_prop(you,[umano]),def_prop(always,[object,institution]),def_prop(waiting,[attivita]),def_prop(i,[umano]),def_prop(home,[luogo]),def_prop(i,[umano])])
+lf(Walk You Home Lyrics.txt_11,71,cl17-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Walk You Home Lyrics.txt_11,71,cl16-nil-will-walk-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Walk You Home Lyrics.txt_12,84,cl20-nil-nil-be-[adj-(mod)-there-nil,subj-theme_bound-i-sn6,def_prop(i,[umano])])
+lf(Walk You Home Lyrics.txt_12,84,cl19-nil-nil-know-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Walk You Home Lyrics.txt_12,84,cl18-nil-nil-quicken-[])
+lf(Walk You Home Lyrics.txt_13,99,nil-nil-nil-break-[obj-theme_aff-hear-sn6,subj-agent-it-sn5,def_prop(hear,[istituzione]),def_prop(it,[any])])
+lf(Walk You Home Lyrics.txt_13,99,cl21-nil-nil-feel-[xcomp-tema_emot-fear-sn2,subj-experiencer-i-sn1,def_prop(fear,[emotivo]),def_prop(i,[umano])])
+lf(Walk You Home Lyrics.txt_14,114,cl23-nil-nil-run-[obj-theme_unaff-harm-sn3,xadj-result-run-2,and(harm,little,sn3),def_prop(harm,[cambia,evento,stato])])
+lf(Walk You Home Lyrics.txt_14,114,cl22-not-nil-don-t-[adj-subj_disc-please-sn2,subj-agent-you-sn1,def_prop(please,[istituzione]),def_prop(you,[umano])])
+lf(Walk You Home Lyrics.txt_15,130,nil-nil-nil-break-[obj-theme_aff-hear-sn4,subj-agent-it-sn3,def_prop(hear,[istituzione]),def_prop(it,[any])])
+lf(Walk You Home Lyrics.txt_15,130,cl24-nil-nil-walk-[ncmod-comitativo-him-sn2,subj-actor-you-sn1,def_prop(him,[umano]),def_prop(you,[umano])])
+lf(Walk You Home Lyrics.txt_16,147,cl25-nil-nil-be-[subj-theme_bound-you-sn7,adj-(mod)-always-nil,xcomp-prop-waiting-sn5,subj-theme_bound-i-sn4,xcomp-prop-home-sn2,subj-theme_bound-i-sn1,and(home,always,sn2),def_prop(you,[umano]),def_prop(always,[object,institution]),def_prop(waiting,[attivita]),def_prop(i,[umano]),def_prop(home,[luogo]),def_prop(i,[umano])])
+lf(Walk You Home Lyrics.txt_17,164,cl27-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Walk You Home Lyrics.txt_17,164,cl26-nil-will-walk-[subj-actor-you-sn1,def_prop(you,[umano])])

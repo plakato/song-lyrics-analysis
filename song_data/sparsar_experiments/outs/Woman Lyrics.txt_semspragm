@@ -1,0 +1,104 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Woman Lyrics.txt_1-1  []-positive  []
+Woman Lyrics.txt_2-3  []-positive  []
+Woman Lyrics.txt_3-6  []-positive  []
+Woman Lyrics.txt_3-7  []-positive  []
+Woman Lyrics.txt_4-11  []-positive  []
+Woman Lyrics.txt_5-17  []-positive  []
+Woman Lyrics.txt_6-23  [when-temp_coinc]-positive  []
+Woman Lyrics.txt_7-30  []-positive  []
+Woman Lyrics.txt_8-38  []-positive  [ack]
+Woman Lyrics.txt_9-47  []-positive  []
+Woman Lyrics.txt_10-57  []-positive  []
+Woman Lyrics.txt_11-68  []-positive  [fgb,fgb]
+Woman Lyrics.txt_12-80  []-positive  []
+Woman Lyrics.txt_13-94  []-positive  []
+Woman Lyrics.txt_14-108  []-positive  []
+Woman Lyrics.txt_14-109  []-positive  []
+Woman Lyrics.txt_15-125  []-positive  [bkc]
+Woman Lyrics.txt_16-141  []-positive  [fgb]
+Woman Lyrics.txt_17-158  []-positive  [fhd]
+Woman Lyrics.txt_18-179  []-negative  [neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Woman Lyrics.txt_1-1  [woman,Lyrics,by,Wolfmother]  [title]
+Woman Lyrics.txt_2-3  [woman]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Woman Lyrics.txt_3-6  [you,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Woman Lyrics.txt_3-7  [you,are,woman]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Woman Lyrics.txt_4-11  [you,got,to,be,a,woman]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Woman Lyrics.txt_5-17  [i,got,the,feeling,of,love]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Woman Lyrics.txt_6-23  [when,you,are]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Woman Lyrics.txt_7-30  [you,are,talkin,to,me]  [provide_expl_just(me,[internal,factive,narration,background,objective])]
+Woman Lyrics.txt_8-38  [you,see,right,through,me]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Woman Lyrics.txt_9-47  [i,got,the,feeling,of,love]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Woman Lyrics.txt_10-57  [she,is,a,woman]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Woman Lyrics.txt_11-68  [you,know,what,i_mean]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+Woman Lyrics.txt_12-80  [you,better,listen]  [provide_expl_just(better,[external,factive,narration,background,objective]),provide_expl_just(listen,[external,factive,narration,background,objective])]
+Woman Lyrics.txt_13-94  [listen,to,me]  [provide_expl_just(listen,[external,factive,narration,background,objective])]
+Woman Lyrics.txt_14-108  [she,is,gonna,set]  [provide_expl_just(free,[external,factive,narration,background,objective]),provide_expl_just(set,[external,factive,cause,foreground,objective])]
+Woman Lyrics.txt_14-109  [you,free]  [provide_expl_just(free,[external,factive,narration,background,objective]),provide_expl_just(set,[external,factive,cause,foreground,objective])]
+Woman Lyrics.txt_15-125  [yeah-ah,yeah]  [accept_expl_opin(be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Woman Lyrics.txt_16-141  [well,you,are,kinda,looking,at,me]  [provide_expl_just(look,[external,factive,narration,foreground,objective])]
+Woman Lyrics.txt_17-158  [like,i,have,got,to,set,you,free]  [provide_expl_just(set,[external,factive,cause,foreground,objective]),provide_expl_just(like,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Woman Lyrics.txt_18-179  [i,can,not,be,nobody]  [reject_expl_just(be,[external,nonfactive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Woman Lyrics.txt_1-1)-[]
+2-(Woman Lyrics.txt_2-3)-[]
+3-(Woman Lyrics.txt_3-6)-[secondary-abstract_tought]
+4-(Woman Lyrics.txt_3-7)-[]
+5-(Woman Lyrics.txt_4-11)-[]
+6-(Woman Lyrics.txt_5-17)-[emotions-affection]
+7-(Woman Lyrics.txt_6-23)-[secondary-temporal_repere]
+8-(Woman Lyrics.txt_7-30)-[secondary-social_behavior]
+9-(Woman Lyrics.txt_8-38)-[primary-vision,secondary-moral_imperative]
+10-(Woman Lyrics.txt_9-47)-[emotions-affection]
+half
+11-(Woman Lyrics.txt_10-57)-[]
+12-(Woman Lyrics.txt_11-68)-[secondary-abstract_tought]
+13-(Woman Lyrics.txt_12-80)-[primary-sound]
+14-(Woman Lyrics.txt_13-94)-[primary-sound]
+15-(Woman Lyrics.txt_14-108)-[]
+16-(Woman Lyrics.txt_14-109)-[]
+17-(Woman Lyrics.txt_15-125)-[]
+18-(Woman Lyrics.txt_16-141)-[emotions-affection,primary-concreteness]
+19-(Woman Lyrics.txt_17-158)-[emotions-affection]
+20-(Woman Lyrics.txt_18-179)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Woman Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wolfmother-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,woman,sn1),def_prop(Wolfmother,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Woman Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-woman-sn1,def_prop(woman,[any])])
+lf(Woman Lyrics.txt_3,6,cl4-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Woman Lyrics.txt_3,6,cl3-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Woman Lyrics.txt_4,11,cl6-nil-nil-be-[xcomp-prop-woman-sn2,xcomp-purpose-be-2,def_prop(woman,[any])])
+lf(Woman Lyrics.txt_4,11,cl5-nil-nil-get-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Woman Lyrics.txt_5,17,cl7-nil-nil-get-[obj-theme_unaff-feel-sn2,subj-agent-i-sn1,def_prop(feel,[astratto,attivita]),def_prop(i,[umano])])
+lf(Woman Lyrics.txt_6,23,cl8-nil-nil-be-[xcomp-theme-when-sn2,subj-theme_bound-you-sn1,def_prop(when,[tempo]),def_prop(you,[umano])])
+lf(Woman Lyrics.txt_7,30,cl9-nil-nil-be-[ncmod-goal-me-sn3,xcomp-prop-talkin-sn2,subj-theme_bound-you-sn1,def_prop(me,[umano]),def_prop(talkin,[istituzione]),def_prop(you,[umano])])
+lf(Woman Lyrics.txt_8,38,cl10-nil-nil-see-[iobj-goal-me-sn3,xcomp-prop-right-sn2,subj-experiencer-you-sn1,def_prop(me,[umano]),def_prop(right,[soggettivo]),def_prop(you,[umano])])
+lf(Woman Lyrics.txt_9,47,cl11-nil-nil-get-[obj-theme_unaff-feel-sn2,subj-agent-i-sn1,def_prop(feel,[astratto,attivita]),def_prop(i,[umano])])
+lf(Woman Lyrics.txt_10,57,cl12-nil-nil-be-[xcomp-prop-woman-sn2,subj-theme_bound-she-sn1,def_prop(woman,[any]),def_prop(she,[umano])])
+lf(Woman Lyrics.txt_11,68,cl13-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Woman Lyrics.txt_12,80,cl14-nil-nil-listen-[subj-theme-you-sn1,def_prop(you,[umano])])
+lf(Woman Lyrics.txt_12,80,nil-nil-nil-better-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Woman Lyrics.txt_13,94,cl15-nil-nil-listen-[iobj-goal-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Woman Lyrics.txt_14,108,cl18-nil-nil-free-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Woman Lyrics.txt_14,108,cl17-nil-nil-set-[adj-(mod)-free-nil,subj-goal-she-sn1,def_prop(she,[umano])])
+lf(Woman Lyrics.txt_14,108,cl16-nil-nil-be-[subj-theme_bound-she-sn1,def_prop(she,[umano])])
+lf(Woman Lyrics.txt_15,125,cl19-nil-nil-be-[subj-theme_bound-yeah-ah-sn1,def_prop(yeah-ah,[istituzione,umano])])
+lf(Woman Lyrics.txt_16,141,cl20-nil-nil-look-[adj-(mod)-well-nil,iobj-locat-me-sn2,subj-agent-you-sn1,adj-(mod)-kinda-nil,aux-are-nil,progr-looking-nil,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Woman Lyrics.txt_17,158,cl23-nil-nil-free-[subj-agent-i-sn2,subj-agent-you-sn4,def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Woman Lyrics.txt_17,158,cl22-nil-nil-set-[])
+lf(Woman Lyrics.txt_17,158,cl21-nil-nil-get-[])
+lf(Woman Lyrics.txt_17,158,nil-nil-nil-like-[subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Woman Lyrics.txt_18,179,cl24-not-can-be-[xcomp-prop-nobody-sn2,subj-theme_bound-i-sn1,def_prop(nobody,[umano]),def_prop(i,[umano])])

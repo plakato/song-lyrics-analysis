@@ -1,0 +1,37 @@
+"POLARITY, DISCOURSE MARKERS"
+
+When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_1-1  [when-temp_coinc]-negative  [neg,fgb]
+When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_2-4  [when-temp_coinc]-negative  [neg,fgb,neg]
+When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_2-5  []-suspension  [neg,fgb,neg,neg,neg,fgb,neg,fgb]
+When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_3-9  [then-temp_seq]-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_1-1  [when,in,disgrace,with,fortune,and,Men-s,eyes,sonnet,29,Lyrics,by,Rufus,Wainwright]  [title]
+When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_2-4  [when,in,disgrace,with,fortune,all,i,and,men-s,eyes,alone,beweep]  [reject_expl_just(disgrace,[external,factive,explanation,background,objective]),propose_opin_neg(disgrace,[external,factive,explanation,background,objective]),reject_expl_just(beweep,[external,factive,explanation,background,objective]),propose_opin_neg(beweep,[external,factive,explanation,background,objective]),reject_expl_just(look,[external,factive,explanation,background,objective]),propose_opin_neg(look,[external,factive,explanation,background,objective])]
+When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_2-5  [,,my,outcast,state,and,trouble,deaf,heaven,with,my,bootless,cries,and,,,look,curse,and,upon,myself]  [propose_opin_neg(disgrace,[external,factive,explanation,background,objective]),propose_opin_neg(beweep,[external,factive,explanation,background,objective]),propose_opin_neg(look,[external,factive,explanation,background,objective])]
+When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_3-9  [then,i,scorn,to,change,my,state,with,kings]  [reject_expl_just(change,[external,factive,narration,background,objective]),reject_expl_just(scorn,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_1-1)-[secondary-temporal_repere,primary-narcissism]
+2-(When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_2-4)-[secondary-temporal_repere,primary-narcissism]
+half
+3-(When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_2-5)-[emotions-anxiety,primary-sound,primary-height,emotions-expressive_beh,primary-vision]
+4-(When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_3-9)-[secondary-temporal_repere,emotions-glory]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_1,1,nil-nil-nil-sonnet-[cmod-coord-disgrace-and,arg_mod-agent-Wainwright-sn6,obj-theme-Lyrics-sn5,obj-theme-29-sn4,subj-actor-eye-sn3,and(Wainwright,Rufus,sn6),and(eye,Men-s,sn3),def_prop(Wainwright,[place,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(29,[nquant]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_1,1,cl1-nil-nil-disgrace-[ncmod-comitativo-fortune-sn2,obj-theme-when-sn1,def_prop(fortune,[astratto,oggetto,stato]),def_prop(when,[tempo])])
+lf(When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_2,4,cl3-nil-nil-look-[cmod-coord-disgrace-and,ncmod-modal-_and_myself-[sn24,sn25],subj-agent-you-sn22,def_prop(_and_myself,[umano]),def_prop(you,[umano])])
+lf(When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_2,4,nil-nil-nil-beweep-[adj-(mod)-alone-nil,subj-theme_aff-eye-sn4,obj-theme-i-sn3,xcomp-purpose-disgrace-2,obj-theme-when-sn1,and(eye,men-s,sn4),and(i,all,sn3),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(i,[umano]),def_prop(when,[tempo])])
+lf(When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_2,4,cl2-nil-nil-disgrace-[cmod-coord-beweep-nil,ncmod-result-fortune-sn2,def_prop(fortune,[astratto,oggetto,stato])])
+lf(When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_3,9,cl5-nil-nil-change-[ncmod-comitativo-king-sn3,obj-theme_aff-state-sn2,xadj-result-change-2,def_prop(king,[astratto,oggetto,plant,stato,strumento,umano]),def_prop(state,[any,attivita,informa,istituzione,luogo,stato,umano])])
+lf(When in Disgrace with Fortune and Men's Eyes (Sonnet 29) Lyrics.txt_3,9,cl4-nil-nil-scorn-[subj-agent-i-sn1,def_prop(i,[umano])])

@@ -1,0 +1,287 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Features Lyrics.txt_1-1  []-positive  []
+Features Lyrics.txt_2-3  []-negative  [bkc,neg]
+Features Lyrics.txt_2-4  []-negative  [neg]
+Features Lyrics.txt_3-6  []-negative  [neg,fhd]
+Features Lyrics.txt_3-7  []-positive  []
+Features Lyrics.txt_4-11  []-positive  [neg,fgb,neg]
+Features Lyrics.txt_5-17  [if-hypoth]-negative  [fgb,neg,neg]
+Features Lyrics.txt_5-18  []-negative  [neg]
+Features Lyrics.txt_6-24  []-negative  [neg]
+Features Lyrics.txt_6-25  []-negative  [neg]
+Features Lyrics.txt_7-31  []-negative  [neg]
+Features Lyrics.txt_7-32  []-negative  [neg]
+Features Lyrics.txt_8-39  []-negative  [neg]
+Features Lyrics.txt_8-40  []-positive  [bkc,bkc,bkc,bkc]
+Features Lyrics.txt_9-49  []-positive  [bkc,neg,fgb]
+Features Lyrics.txt_10-60  []-positive  [bkc,neg,neg]
+Features Lyrics.txt_11-73  []-positive  [bkc,neg]
+Features Lyrics.txt_12-86  []-positive  [bkc,neg]
+Features Lyrics.txt_13-100  []-question  [fhd,neg,fgb,bkc]
+Features Lyrics.txt_14-115  []-positive  [bkc,fgb]
+Features Lyrics.txt_15-131  []-positive  [bkc,neg,fgb,neg]
+Features Lyrics.txt_16-150  []-positive  [neg,neg]
+Features Lyrics.txt_17-167  []-positive  [bkc,neg,neg,neg,neg]
+Features Lyrics.txt_18-186  []-positive  [bkc,fhd,neg]
+Features Lyrics.txt_19-206  []-positive  [bkc,fhd,neg]
+Features Lyrics.txt_20-227  []-positive  []
+Features Lyrics.txt_20-228  [but-advers]-negative  [fgb,fhd,neg]
+Features Lyrics.txt_21-249  []-negative  [bkc,neg]
+Features Lyrics.txt_21-250  []-negative  [neg]
+Features Lyrics.txt_22-271  []-negative  [neg,fhd]
+Features Lyrics.txt_22-272  []-positive  []
+Features Lyrics.txt_23-295  []-positive  [neg,fgb,neg]
+Features Lyrics.txt_24-320  [if-hypoth]-negative  [fgb,neg,neg]
+Features Lyrics.txt_24-321  []-negative  [neg]
+Features Lyrics.txt_25-346  []-negative  [neg]
+Features Lyrics.txt_25-347  []-negative  [neg]
+Features Lyrics.txt_26-372  []-negative  [neg]
+Features Lyrics.txt_26-373  []-negative  [neg]
+Features Lyrics.txt_27-399  []-negative  [neg]
+Features Lyrics.txt_27-400  []-positive  [bkc,bkc,bkc,bkc]
+Features Lyrics.txt_28-428  []-negative  [neg]
+Features Lyrics.txt_29-457  []-positive  []
+Features Lyrics.txt_30-487  []-negative  [neg,fhd]
+Features Lyrics.txt_31-518  []-negative  [neg]
+Features Lyrics.txt_31-519  []-positive  []
+Features Lyrics.txt_32-551  []-negative  [bkc,neg]
+Features Lyrics.txt_32-552  []-negative  [fgb,neg,neg]
+Features Lyrics.txt_33-585  []-positive  [bkc]
+Features Lyrics.txt_33-586  []-positive  [fgb]
+Features Lyrics.txt_34-620  []-negative  [bkc,neg]
+Features Lyrics.txt_34-621  []-positive  []
+Features Lyrics.txt_35-655  []-negative  [neg]
+Features Lyrics.txt_35-656  []-suspension  []
+Features Lyrics.txt_36-692  []-negative  [neg]
+Features Lyrics.txt_36-693  []-negative  [neg]
+Features Lyrics.txt_37-729  []-negative  [neg,fhd]
+Features Lyrics.txt_37-730  []-positive  []
+Features Lyrics.txt_38-768  []-positive  [neg,fgb,neg]
+Features Lyrics.txt_39-808  [if-hypoth]-negative  [fgb,neg,neg]
+Features Lyrics.txt_39-809  []-negative  [neg]
+Features Lyrics.txt_40-849  []-negative  [neg]
+Features Lyrics.txt_40-850  []-negative  [neg]
+Features Lyrics.txt_41-890  []-negative  [neg]
+Features Lyrics.txt_41-891  []-negative  [neg]
+Features Lyrics.txt_42-932  []-negative  [neg]
+Features Lyrics.txt_42-933  []-positive  [bkc,bkc,bkc,bkc]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Features Lyrics.txt_1-1  [key,&,Miller,Quentin,by,Lyrics,features,!]  [title]
+Features Lyrics.txt_2-3  [yeah,,,my,bitch,came,with,features]  [reject_expl_just(be,[_1483768,_1483774,_1483780,_1483786,_1483792])]
+Features Lyrics.txt_2-4  [,,my,bitch,came,with,features]  [reject_expl_just(be,[_1483990,_1483996,_1484002,_1484008,_1484014])]
+Features Lyrics.txt_3-6  [my,bitch,built,like,Mona,Lisa,with,a,platinum]  [reject_expl_just(build,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Features Lyrics.txt_3-7  [visa]  [provide_expl_just(build,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Features Lyrics.txt_4-11  [drive,a,2016,whip,and,still,the,ceiling,drop]  [provide_expl_just(drive,[external,factive,narration,background,objective]),provide_expl_just(drop,[external,factive,narration,background,objective])]
+Features Lyrics.txt_5-17  [if,she,is,not,bringing,no,income]  [reject_expl_just(bring,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Features Lyrics.txt_5-18  [she,is,just,not,appealing]  [reject_expl_just(bring,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Features Lyrics.txt_6-24  [my,bitch,came,with,features]  [reject_expl_just(be,[_1487342,_1487348,_1487354,_1487360,_1487366])]
+Features Lyrics.txt_6-25  [,,my,bitch,came,with,features]  [reject_expl_just(be,[_1487564,_1487570,_1487576,_1487582,_1487588])]
+Features Lyrics.txt_7-31  [my,bitch,came,with,features]  [reject_expl_just(be,[_1487786,_1487792,_1487798,_1487804,_1487810])]
+Features Lyrics.txt_7-32  [,,my,whip,came,with]  [reject_expl_just(be,[_1488008,_1488014,_1488020,_1488026,_1488032])]
+Features Lyrics.txt_8-39  [my,whip,came,with,features]  [accept_expl_opin(be,[external,factive,narration,background,objective])]
+Features Lyrics.txt_8-40  [,,yeah,yeah,yeah,yeah]  [accept_expl_opin(be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Features Lyrics.txt_9-49  [okay,my,bitch,keep,my,tote,and,my,Glock]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(okay,[external,factive,narration,background,objective])]
+Features Lyrics.txt_10-60  [okay,your,bitches,they,keep,on,blowing,smoke]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(blow,[external,factive,narration,foreground,objective]),provide_expl_just(okay,[external,factive,narration,background,objective])]
+Features Lyrics.txt_11-73  [okay,my,bitch,got,a,bumper,on,her,rear]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(okay,[external,factive,narration,background,objective])]
+Features Lyrics.txt_12-86  [okay,my,bitch,got,some,diamonds,in,her,ear]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(okay,[external,factive,narration,background,objective])]
+Features Lyrics.txt_13-100  [like,rolling,we,,,bitch,my,and,me,,,okay,?]  [provide_expl_just(okay,[internal,factive,narration,foreground,objective]),provide_expl_just(roll,[internal,factive,narration,background,objective])]
+Features Lyrics.txt_14-115  [okay,,,with,me,and,she,drinking,on,Bacardi]  [provide_expl_just(drink,[external,factive,narration,foreground,objective]),provide_expl_just(okay,[external,factive,narration,background,objective])]
+Features Lyrics.txt_15-131  [okay,she,jump,up,on,the,dick,and,start,to,ride,it]  [provide_expl_just(ride,[external,factive,narration,background,objective]),provide_expl_just(jump,[external,factive,narration,background,objective]),provide_expl_just(okay,[external,factive,narration,background,objective])]
+Features Lyrics.txt_16-150  [just,drunk,driving,,,she,drunk,driving]  [provide_expl_just(drink,[external,factive,narration,foreground,objective])]
+Features Lyrics.txt_17-167  [okay,,,my,bad,bitch,came,with,more,bad,bitches]  [provide_expl_just(okay,[external,factive,narration,background,objective])]
+Features Lyrics.txt_18-186  [okay,they,got,foreign,features,just,like,foreign,whips]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(okay,[external,factive,narration,background,objective])]
+Features Lyrics.txt_19-206  [okay,they,pull,up,in,it,like,a,car,club]  [provide_expl_just(pull,[external,factive,narration,background,objective]),provide_expl_just(okay,[external,factive,narration,background,objective])]
+Features Lyrics.txt_20-227  [niggas,you,want,some]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(look,[external,factive,narration,background,objective])]
+Features Lyrics.txt_20-228  [but,look,like,bald,no]  [reject_expl_just(want,[external,factive,narration,background,objective]),reject_expl_just(look,[external,factive,narration,background,objective])]
+Features Lyrics.txt_21-249  [yeah,,,my,bitch,came,with,features]  [reject_expl_just(be,[_1497956,_1497962,_1497968,_1497974,_1497980])]
+Features Lyrics.txt_21-250  [,,my,bitch,came,with,features]  [reject_expl_just(be,[_1498178,_1498184,_1498190,_1498196,_1498202])]
+Features Lyrics.txt_22-271  [my,bitch,built,like,Mona,Lisa,with,a,platinum]  [reject_expl_just(build,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Features Lyrics.txt_22-272  [visa]  [provide_expl_just(build,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Features Lyrics.txt_23-295  [drive,a,2016,whip,and,still,the,ceiling,drop]  [provide_expl_just(drive,[external,factive,narration,background,objective]),provide_expl_just(drop,[external,factive,narration,background,objective])]
+Features Lyrics.txt_24-320  [if,she,is,not,bringing,no,income]  [reject_expl_just(bring,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Features Lyrics.txt_24-321  [she,is,just,not,appealing]  [reject_expl_just(bring,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Features Lyrics.txt_25-346  [my,bitch,came,with,features]  [reject_expl_just(be,[_1501280,_1501286,_1501292,_1501298,_1501304])]
+Features Lyrics.txt_25-347  [,,my,bitch,came,with,features]  [reject_expl_just(be,[_1501502,_1501508,_1501514,_1501520,_1501526])]
+Features Lyrics.txt_26-372  [my,bitch,came,with,features]  [reject_expl_just(be,[_1501724,_1501730,_1501736,_1501742,_1501748])]
+Features Lyrics.txt_26-373  [,,my,whip,came,with]  [reject_expl_just(be,[_1501946,_1501952,_1501958,_1501964,_1501970])]
+Features Lyrics.txt_27-399  [my,whip,came,with,features]  [accept_expl_opin(be,[external,factive,narration,background,objective])]
+Features Lyrics.txt_27-400  [,,yeah,yeah,yeah,yeah]  [accept_expl_opin(be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Features Lyrics.txt_28-428  [old,school,your,bitch,is,a,old,school]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Features Lyrics.txt_29-457  [old,news,,,y-all,niggas,is,old,news]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Features Lyrics.txt_30-487  [no,play,GTA,like,Detroit,crew]  [reject_expl_just(like,[external,factive,narration,background,objective])]
+Features Lyrics.txt_31-518  [my,bitch,get,more,paper,than]  [reject_expl_just(get,[external,factive,narration,background,objective]),reject_expl_just(do,[external,factive,narration,foreground,objective])]
+Features Lyrics.txt_31-519  [your,boys,do]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Features Lyrics.txt_32-551  [yeah,,,stepped,up,in,this,game]  [reject_expl_just(step,[external,factive,narration,foreground,objective]),reject_expl_just(suppose-cl54,[external,factive,narration,background,objective])]
+Features Lyrics.txt_32-552  [and,was,not,supposed,to]  [reject_expl_just(step,[external,factive,narration,foreground,objective]),reject_expl_just(suppose-cl54,[external,factive,narration,background,objective])]
+Features Lyrics.txt_33-585  [yeah,,,me,man]  [provide_expl_just(man,[external,factive,narration,background,objective])]
+Features Lyrics.txt_33-586  [and,key,create,our,own,rules]  [provide_expl_just(man,[external,factive,narration,background,objective])]
+Features Lyrics.txt_34-620  [yeah,,,i,got,problems]  [reject_expl_just(get,[external,factive,narration,foreground,objective])]
+Features Lyrics.txt_34-621  [,,all,my,niggas,got,em,all]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+Features Lyrics.txt_35-655  [man,my,bitch,came,with,features]  [reject_expl_just(come,[external,factive,result,foreground,objective]),propose_opin_neg(come,[external,factive,result,foreground,objective])]
+Features Lyrics.txt_35-656  [,,i,might,test,em,out]  [provide_expl_just(come,[external,factive,result,foreground,objective])]
+Features Lyrics.txt_36-692  [my,bitch,came,with,features]  [reject_expl_just(be,[_1508862,_1508868,_1508874,_1508880,_1508886])]
+Features Lyrics.txt_36-693  [,,my,bitch,came,with,features]  [reject_expl_just(be,[_1509084,_1509090,_1509096,_1509102,_1509108])]
+Features Lyrics.txt_37-729  [my,bitch,built,like,Mona,Lisa,with,a,platinum]  [reject_expl_just(build,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Features Lyrics.txt_37-730  [visa]  [provide_expl_just(build,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Features Lyrics.txt_38-768  [drive,a,2016,whip,and,still,the,ceiling,drop]  [provide_expl_just(drive,[external,factive,narration,background,objective]),provide_expl_just(drop,[external,factive,narration,background,objective])]
+Features Lyrics.txt_39-808  [if,she,is,not,bringing,no,income]  [reject_expl_just(bring,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Features Lyrics.txt_39-809  [she,is,just,not,appealing]  [reject_expl_just(bring,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Features Lyrics.txt_40-849  [my,bitch,came,with,features]  [reject_expl_just(be,[_1512186,_1512192,_1512198,_1512204,_1512210])]
+Features Lyrics.txt_40-850  [,,my,bitch,came,with,features]  [reject_expl_just(be,[_1512408,_1512414,_1512420,_1512426,_1512432])]
+Features Lyrics.txt_41-890  [my,bitch,came,with,features]  [reject_expl_just(be,[_1512630,_1512636,_1512642,_1512648,_1512654])]
+Features Lyrics.txt_41-891  [,,my,whip,came,with]  [reject_expl_just(be,[_1512852,_1512858,_1512864,_1512870,_1512876])]
+Features Lyrics.txt_42-932  [my,whip,came,with,features]  [accept_expl_opin(be,[external,factive,narration,background,objective])]
+Features Lyrics.txt_42-933  [,,yeah,yeah,yeah,yeah]  [accept_expl_opin(be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Features Lyrics.txt_1-1)-[secondary-abstract_tought]
+2-(Features Lyrics.txt_2-3)-[primary-sex,secondary-abstract_tought]
+3-(Features Lyrics.txt_2-4)-[primary-sex,secondary-abstract_tought]
+4-(Features Lyrics.txt_3-6)-[primary-sex,secondary-instru_behavior,emotions-affection]
+5-(Features Lyrics.txt_3-7)-[]
+6-(Features Lyrics.txt_4-11)-[primary-voyage,emotions-aggression,primary-descent]
+7-(Features Lyrics.txt_5-17)-[]
+8-(Features Lyrics.txt_5-18)-[]
+9-(Features Lyrics.txt_6-24)-[primary-sex,secondary-abstract_tought]
+10-(Features Lyrics.txt_6-25)-[primary-sex,secondary-abstract_tought]
+11-(Features Lyrics.txt_7-31)-[primary-sex,secondary-abstract_tought]
+12-(Features Lyrics.txt_7-32)-[emotions-aggression]
+13-(Features Lyrics.txt_8-39)-[emotions-aggression,secondary-abstract_tought]
+14-(Features Lyrics.txt_8-40)-[]
+15-(Features Lyrics.txt_9-49)-[primary-sex]
+16-(Features Lyrics.txt_10-60)-[primary-sex,primary-fire]
+17-(Features Lyrics.txt_11-73)-[primary-sex,primary-concreteness]
+18-(Features Lyrics.txt_12-86)-[primary-sex,primary-sound]
+19-(Features Lyrics.txt_13-100)-[emotions-affection,primary-sex]
+20-(Features Lyrics.txt_14-115)-[]
+21-(Features Lyrics.txt_15-131)-[primary-ascend,primary-vision,primary-voyage]
+22-(Features Lyrics.txt_16-150)-[primary-orality,primary-orality]
+23-(Features Lyrics.txt_17-167)-[primary-sex,primary-sex]
+24-(Features Lyrics.txt_18-186)-[secondary-abstract_tought,emotions-affection,emotions-aggression]
+25-(Features Lyrics.txt_19-206)-[emotions-affection]
+26-(Features Lyrics.txt_20-227)-[]
+27-(Features Lyrics.txt_20-228)-[primary-vision,emotions-affection]
+28-(Features Lyrics.txt_21-249)-[primary-sex,secondary-abstract_tought]
+29-(Features Lyrics.txt_21-250)-[primary-sex,secondary-abstract_tought]
+30-(Features Lyrics.txt_22-271)-[primary-sex,secondary-instru_behavior,emotions-affection]
+31-(Features Lyrics.txt_22-272)-[]
+32-(Features Lyrics.txt_23-295)-[primary-voyage,emotions-aggression,primary-descent]
+33-(Features Lyrics.txt_24-320)-[]
+half
+34-(Features Lyrics.txt_24-321)-[]
+35-(Features Lyrics.txt_25-346)-[primary-sex,secondary-abstract_tought]
+36-(Features Lyrics.txt_25-347)-[primary-sex,secondary-abstract_tought]
+37-(Features Lyrics.txt_26-372)-[primary-sex,secondary-abstract_tought]
+38-(Features Lyrics.txt_26-373)-[emotions-aggression]
+39-(Features Lyrics.txt_27-399)-[emotions-aggression,secondary-abstract_tought]
+40-(Features Lyrics.txt_27-400)-[]
+41-(Features Lyrics.txt_28-428)-[secondary-temporal_repere,primary-sex,secondary-temporal_repere]
+42-(Features Lyrics.txt_29-457)-[secondary-temporal_repere,secondary-temporal_repere]
+43-(Features Lyrics.txt_30-487)-[emotions-expressive_beh,emotions-affection]
+44-(Features Lyrics.txt_31-518)-[primary-sex]
+45-(Features Lyrics.txt_31-519)-[]
+46-(Features Lyrics.txt_32-551)-[emotions-expressive_beh]
+47-(Features Lyrics.txt_32-552)-[secondary-abstract_tought]
+48-(Features Lyrics.txt_33-585)-[]
+49-(Features Lyrics.txt_33-586)-[]
+50-(Features Lyrics.txt_34-620)-[secondary-abstract_tought]
+51-(Features Lyrics.txt_34-621)-[]
+52-(Features Lyrics.txt_35-655)-[primary-sex,secondary-abstract_tought]
+53-(Features Lyrics.txt_35-656)-[secondary-instru_behavior,primary-concreteness]
+54-(Features Lyrics.txt_36-692)-[primary-sex,secondary-abstract_tought]
+55-(Features Lyrics.txt_36-693)-[primary-sex,secondary-abstract_tought]
+56-(Features Lyrics.txt_37-729)-[primary-sex,secondary-instru_behavior,emotions-affection]
+57-(Features Lyrics.txt_37-730)-[]
+58-(Features Lyrics.txt_38-768)-[primary-voyage,emotions-aggression,primary-descent]
+59-(Features Lyrics.txt_39-808)-[]
+60-(Features Lyrics.txt_39-809)-[]
+61-(Features Lyrics.txt_40-849)-[primary-sex,secondary-abstract_tought]
+62-(Features Lyrics.txt_40-850)-[primary-sex,secondary-abstract_tought]
+63-(Features Lyrics.txt_41-890)-[primary-sex,secondary-abstract_tought]
+64-(Features Lyrics.txt_41-891)-[emotions-aggression]
+65-(Features Lyrics.txt_42-932)-[emotions-aggression,secondary-abstract_tought]
+66-(Features Lyrics.txt_42-933)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Features Lyrics.txt_1,1,cl1-nil-nil-feature-[xadj-theme-Miller-sn3,arg_mod-agent-Quentin-sn2,subj-agent-Lyrics-sn1,and(Miller,Miller,sn3),def_prop(Miller,[place,umano]),def_prop(Quentin,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Features Lyrics.txt_2,3,cl2-nil-nil-come-[iobj-goal-feature-sn7,subj-agent-bitch-sn6,adj-(mod)-yeah-nil,iobj-goal-feature-sn2,subj-agent-bitch-sn1,def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(bitch,[animato,stato]),def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_3,6,cl4-nil-nil-be-[subj-theme_bound-you-sn7,def_prop(you,[umano])])
+lf(Features Lyrics.txt_3,6,cl3-nil-nil-build-[obj-theme_aff-Lisa-sn2,subj-agent-bitch-sn1,def_prop(Lisa,[umano]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_4,11,cl6-nil-nil-drop-[cmod-coord-drop-and,subj-actor-pro-nil,subj-actor-ceiling-sn6,adj-locative-still-nil,subj-actor-ceiling-sn4,def_prop(ceiling,[astratto,attivita,informa,oggetto,strumento]),def_prop(ceiling,[astratto,attivita,informa,oggetto,strumento])])
+lf(Features Lyrics.txt_4,11,cl5-nil-nil-drive-[obj-theme_unaff-whip-sn2,subj-agent-you-sn1,def_prop(whip,[astratto,attivita,edible,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Features Lyrics.txt_5,17,cl8-nil-nil-be-[adj-(mod)-just-nil,xcomp-prop-appealing-sn5,subj-theme_bound-she-sn4,def_prop(appealing,[istituzione]),def_prop(she,[umano])])
+lf(Features Lyrics.txt_5,17,cl7-not-nil-bring-[obj-theme_aff-income-sn2,subj-agent-she-sn1,aux-(is)-nil,progr-bringing-nil,and(income,no,sn2),def_prop(income,[astratto,oggetto]),def_prop(she,[umano])])
+lf(Features Lyrics.txt_6,24,cl9-nil-nil-come-[iobj-goal-feature-sn6,subj-agent-bitch-sn5,iobj-goal-feature-sn2,subj-agent-bitch-sn1,def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(bitch,[animato,stato]),def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_7,31,cl10-nil-nil-come-[subj-agent-you-sn5,iobj-goal-feature-sn2,subj-agent-bitch-sn1,def_prop(you,[umano]),def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_8,39,cl12-nil-nil-be-[adj-(mod)-yeah-nil,subj-theme_bound-pro-nil,and(yeah,yeah,sn8),and(yeah,yeah,sn5),def_prop(yeah,[object,institution])])
+lf(Features Lyrics.txt_8,39,cl11-nil-nil-come-[iobj-goal-feature-sn2,subj-agent-whip-sn1,def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(whip,[astratto,attivita,edible,oggetto,strumento,umano])])
+lf(Features Lyrics.txt_9,49,cl14-nil-nil-keep-[obj-goal-tote_and_Glock-[sn3,sn4],xadj-result-keep-3,def_prop(tote_and_Glock,[oggetto,strumento,istituzione,umano])])
+lf(Features Lyrics.txt_9,49,cl13-nil-nil-okay-[subj-agent-bitch-sn2,subj-agent-bitch-sn1,def_prop(bitch,[animato,stato]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_10,60,cl17-nil-nil-blow-[])
+lf(Features Lyrics.txt_10,60,cl16-nil-nil-keep-[obj-theme_aff-smoke-sn4,xadj-result-blow-3,def_prop(smoke,[astratto,attivita,cambia,informa,oggetto,strumento])])
+lf(Features Lyrics.txt_10,60,cl15-nil-nil-okay-[obj-theme-they-sn3,obj-theme-bitch-sn2,subj-agent-you-sn1,def_prop(they,[umano]),def_prop(bitch,[animato,stato]),def_prop(you,[umano])])
+lf(Features Lyrics.txt_11,73,cl19-nil-nil-get-[ncmod-locativo-rear-sn4,obj-paziente-bumper-sn3,xcomp-purpose-get-3,def_prop(rear,[body_part,luogo,oggetto,strumento,umano]),def_prop(bumper,[oggetto,strumento])])
+lf(Features Lyrics.txt_11,73,cl18-nil-nil-okay-[subj-agent-bitch-sn2,subj-agent-bitch-sn1,def_prop(bitch,[animato,stato]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_12,86,cl21-nil-nil-get-[iobj-goal-ear-sn4,obj-paziente-diamond-sn3,xcomp-purpose-get-3,and(diamond,some,sn3),def_prop(ear,[astratto,body_part,plant,umano]),def_prop(diamond,[astratto,oggetto,sostanza,strumento])])
+lf(Features Lyrics.txt_12,86,cl20-nil-nil-okay-[subj-agent-bitch-sn2,subj-agent-bitch-sn1,def_prop(bitch,[animato,stato]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_13,100,cl23-nil-nil-roll-[cmod-coord-okay-and,subj-agent-we-sn4,subj-agent-we-sn3,subj-agent-bitch-sn2,and(we,bitch,sn3),def_prop(we,[umano]),def_prop(we,[umano]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_13,100,cl22-nil-nil-okay-[subj-agent-pro-nil])
+lf(Features Lyrics.txt_14,115,cl25-nil-nil-drink-[cmod-coord-okay-nil,ncmod-prop-Bacardi-sn4,xcomp-purpose-drink-3,ncmod-comitativo-me-sn2,def_prop(Bacardi,[istituzione]),def_prop(me,[umano])])
+lf(Features Lyrics.txt_14,115,cl24-nil-nil-okay-[obj-theme-she-sn3,subj-theme-you-sn1,def_prop(she,[umano]),def_prop(you,[umano])])
+lf(Features Lyrics.txt_15,131,cl28-nil-nil-ride-[ncmod-locativo-dick_and_star-[sn14,sn15],adj-subj_disc-up-sn13,subj-agent-you-sn12,subj-tema_nonaff-she-sn4,ncmod-locativo-dick_and_star-[sn5,sn6],def_prop(dick_and_star,[umano,astratto,oggetto,umano]),def_prop(up,[istituzione]),def_prop(you,[umano]),def_prop(she,[umano]),def_prop(dick_and_star,[umano,astratto,oggetto,umano])])
+lf(Features Lyrics.txt_15,131,cl27-nil-nil-jump-[adj-locative-up-nil,ncmod-locativo-dick_and_star-[sn9,sn10],subj-agent-you-sn8,subj-agent-she-sn4,def_prop(up,[istituzione]),def_prop(dick_and_star,[umano,astratto,oggetto,umano]),def_prop(you,[umano]),def_prop(she,[umano])])
+lf(Features Lyrics.txt_15,131,cl26-nil-nil-okay-[subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(Features Lyrics.txt_16,150,cl29-nil-nil-drink-[subj-agent-she-sn2,subj-agent-she-sn1,and(she,driving,sn1),and(she,drunk,sn1),def_prop(she,[umano]),def_prop(she,[umano])])
+lf(Features Lyrics.txt_17,167,cl31-nil-nil-come-[iobj-goal-bitch-sn3,xcomp-purpose-come-2,and(bitch,bad,sn3),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_17,167,cl30-nil-nil-okay-[subj-theme-bitch-sn2,subj-theme-bitch-sn1,and(bitch,bad,sn2),and(bitch,you,sn1),def_prop(bitch,[animato,stato]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_18,186,cl33-nil-nil-get-[ncmod-modal-just-sn15,obj-paziente-feature-sn3,xcomp-purpose-get-3,and(feature,foreign,sn3),def_prop(just,[informa,tecno]),def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano])])
+lf(Features Lyrics.txt_18,186,cl32-nil-nil-okay-[adj-(mod)-just-nil,subj-agent-they-sn2,subj-agent-they-sn1,and(they,you,sn1),def_prop(just,[informa,tecno]),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Features Lyrics.txt_19,206,cl35-nil-nil-pull-[iobj-goal-it-sn11,adj-(mod)-up-nil,iobj-goal-it-sn8,subj-agent-you-sn7,iobj-goal-it-sn5,subj-agent-they-sn4,def_prop(it,[any]),def_prop(up,[istituzione]),def_prop(it,[any]),def_prop(you,[umano]),def_prop(it,[any]),def_prop(they,[umano])])
+lf(Features Lyrics.txt_19,206,cl34-nil-nil-okay-[subj-agent-club-sn2,subj-agent-club-sn1,and(club,you,sn1),def_prop(club,[istituzione,oggetto,strumento]),def_prop(club,[istituzione,oggetto,strumento])])
+lf(Features Lyrics.txt_20,227,cl37-nil-nil-look-[xcomp-prop-no-sn5,subj-agent-you-sn4,def_prop(no,[istituzione]),def_prop(you,[umano])])
+lf(Features Lyrics.txt_20,227,cl36-nil-nil-want-[obj-tema_unaff-some-sn2,subj-actor-you-sn1,and(you,nigga,sn1),def_prop(some,[umano]),def_prop(you,[umano])])
+lf(Features Lyrics.txt_21,249,cl38-nil-nil-come-[iobj-goal-feature-sn7,subj-agent-bitch-sn6,adj-(mod)-yeah-nil,iobj-goal-feature-sn2,subj-agent-bitch-sn1,def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(bitch,[animato,stato]),def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_22,271,cl40-nil-nil-be-[subj-theme_bound-you-sn7,def_prop(you,[umano])])
+lf(Features Lyrics.txt_22,271,cl39-nil-nil-build-[obj-theme_aff-Lisa-sn2,subj-agent-bitch-sn1,def_prop(Lisa,[umano]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_23,295,cl42-nil-nil-drop-[cmod-coord-drop-and,subj-actor-pro-nil,subj-actor-ceiling-sn6,adj-locative-still-nil,subj-actor-ceiling-sn4,def_prop(ceiling,[astratto,attivita,informa,oggetto,strumento]),def_prop(ceiling,[astratto,attivita,informa,oggetto,strumento])])
+lf(Features Lyrics.txt_23,295,cl41-nil-nil-drive-[obj-theme_unaff-whip-sn2,subj-agent-you-sn1,def_prop(whip,[astratto,attivita,edible,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Features Lyrics.txt_24,320,cl44-nil-nil-be-[adj-(mod)-just-nil,xcomp-prop-appealing-sn5,subj-theme_bound-she-sn4,def_prop(appealing,[istituzione]),def_prop(she,[umano])])
+lf(Features Lyrics.txt_24,320,cl43-not-nil-bring-[obj-theme_aff-income-sn2,subj-agent-she-sn1,aux-(is)-nil,progr-bringing-nil,and(income,no,sn2),def_prop(income,[astratto,oggetto]),def_prop(she,[umano])])
+lf(Features Lyrics.txt_25,346,cl45-nil-nil-come-[iobj-goal-feature-sn6,subj-agent-bitch-sn5,iobj-goal-feature-sn2,subj-agent-bitch-sn1,def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(bitch,[animato,stato]),def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_26,372,cl46-nil-nil-come-[subj-agent-you-sn5,iobj-goal-feature-sn2,subj-agent-bitch-sn1,def_prop(you,[umano]),def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_27,399,cl48-nil-nil-be-[adj-(mod)-yeah-nil,subj-theme_bound-pro-nil,and(yeah,yeah,sn8),and(yeah,yeah,sn5),def_prop(yeah,[object,institution])])
+lf(Features Lyrics.txt_27,399,cl47-nil-nil-come-[iobj-goal-feature-sn2,subj-agent-whip-sn1,def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(whip,[astratto,attivita,edible,oggetto,strumento,umano])])
+lf(Features Lyrics.txt_28,428,cl49-nil-nil-be-[xcomp-prop-school-sn3,subj-theme_bound-bitch-sn2,subj-theme_bound-bitch-sn1,and(school,old,sn3),def_prop(school,[astratto,istituzione,oggetto,strumento,tempo]),def_prop(bitch,[animato,stato]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_29,457,cl50-nil-nil-be-[xcomp-prop-news-sn3,subj-theme_bound-nigga-sn2,subj-theme_bound-nigga-sn1,and(news,old,sn3),and(nigga,y-all,sn2),and(nigga,news,sn1),and(nigga,old,sn1),def_prop(news,[attivita,informa]),def_prop(nigga,[istituzione,umano]),def_prop(nigga,[istituzione,umano])])
+lf(Features Lyrics.txt_30,487,nil-nil-nil-like-[obj-tema_emot-crow-sn2,subj-experiencer-GTA-sn1,and(crow,Detroit,sn2),and(GTA,no,sn1),def_prop(crow,[animato,astratto,evento,oggetto,strumento]),def_prop(GTA,[istituzione,umano])])
+lf(Features Lyrics.txt_31,518,cl52-nil-nil-do-[subj-theme_unaff-you-sn6,aux-do-nil,def_prop(you,[umano])])
+lf(Features Lyrics.txt_31,518,cl51-nil-nil-get-[obj-theme_unaff-paper-sn2,subj-agent-bitch-sn1,and(paper,more,sn2),def_prop(paper,[attivita,informa,sostanza]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_32,551,cl54-not-nil-suppose-[subj-theme_unaff-you-sn6,ncmod-locativo-game-sn2,aux-was-nil,and(game,this,sn2),def_prop(you,[umano]),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento])])
+lf(Features Lyrics.txt_32,551,cl53-nil-nil-step-[adj-locative-up-nil,adj-subj_disc-up-sn3,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(you,[umano])])
+lf(Features Lyrics.txt_33,585,cl56-nil-nil-create-[cmod-subord-create-",obj-theme_aff-rule-sn5,subj-agent-key-sn4,and(rule,own,sn5),def_prop(rule,[astratto,attivita,informa,oggetto,strumento,tempo]),def_prop(key,[astratto,attivita,informa,luogo,nquant,oggetto,strumento])])
+lf(Features Lyrics.txt_33,585,cl55-nil-nil-man-[subj-agent-me-sn1,def_prop(me,[umano])])
+lf(Features Lyrics.txt_34,620,cl57-nil-nil-get-[subj-agent-nigga-sn5,obj-theme_unaff-problem-sn2,subj-agent-i-sn1,and(nigga,all,sn5),def_prop(nigga,[istituzione,umano]),def_prop(problem,[attivita,informa,stato]),def_prop(i,[umano])])
+lf(Features Lyrics.txt_35,655,cl59-nil-might-test-[adj-locative-out-nil,obj-theme-em-sn10,subj-agent-i-sn9,def_prop(em,[nquant]),def_prop(i,[umano])])
+lf(Features Lyrics.txt_35,655,cl58-nil-nil-come-[iobj-goal-feature-sn3,subj-agent-bitch-sn2,subj-agent-bitch-sn1,def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(bitch,[animato,stato]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_36,692,cl60-nil-nil-come-[iobj-goal-feature-sn6,subj-agent-bitch-sn5,iobj-goal-feature-sn2,subj-agent-bitch-sn1,def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(bitch,[animato,stato]),def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_37,729,cl62-nil-nil-be-[subj-theme_bound-you-sn7,def_prop(you,[umano])])
+lf(Features Lyrics.txt_37,729,cl61-nil-nil-build-[obj-theme_aff-Lisa-sn2,subj-agent-bitch-sn1,def_prop(Lisa,[umano]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_38,768,cl64-nil-nil-drop-[cmod-coord-drop-and,subj-actor-pro-nil,subj-actor-ceiling-sn6,adj-locative-still-nil,subj-actor-ceiling-sn4,def_prop(ceiling,[astratto,attivita,informa,oggetto,strumento]),def_prop(ceiling,[astratto,attivita,informa,oggetto,strumento])])
+lf(Features Lyrics.txt_38,768,cl63-nil-nil-drive-[obj-theme_unaff-whip-sn2,subj-agent-you-sn1,def_prop(whip,[astratto,attivita,edible,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Features Lyrics.txt_39,808,cl66-nil-nil-be-[adj-(mod)-just-nil,xcomp-prop-appealing-sn5,subj-theme_bound-she-sn4,def_prop(appealing,[istituzione]),def_prop(she,[umano])])
+lf(Features Lyrics.txt_39,808,cl65-not-nil-bring-[obj-theme_aff-income-sn2,subj-agent-she-sn1,aux-(is)-nil,progr-bringing-nil,and(income,no,sn2),def_prop(income,[astratto,oggetto]),def_prop(she,[umano])])
+lf(Features Lyrics.txt_40,849,cl67-nil-nil-come-[iobj-goal-feature-sn6,subj-agent-bitch-sn5,iobj-goal-feature-sn2,subj-agent-bitch-sn1,def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(bitch,[animato,stato]),def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_41,890,cl68-nil-nil-come-[subj-agent-you-sn5,iobj-goal-feature-sn2,subj-agent-bitch-sn1,def_prop(you,[umano]),def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(bitch,[animato,stato])])
+lf(Features Lyrics.txt_42,932,cl70-nil-nil-be-[adj-(mod)-yeah-nil,subj-theme_bound-pro-nil,and(yeah,yeah,sn8),and(yeah,yeah,sn5),def_prop(yeah,[object,institution])])
+lf(Features Lyrics.txt_42,932,cl69-nil-nil-come-[iobj-goal-feature-sn2,subj-agent-whip-sn1,def_prop(feature,[astratto,attivita,body_part,informa,oggetto,strumento,umano]),def_prop(whip,[astratto,attivita,edible,oggetto,strumento,umano])])

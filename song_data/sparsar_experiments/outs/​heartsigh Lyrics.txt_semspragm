@@ -1,0 +1,76 @@
+"POLARITY, DISCOURSE MARKERS"
+
+​heartsigh Lyrics.txt_1-1  []-positive  []
+​heartsigh Lyrics.txt_2-3  [before-temp_prec]-suspension  [neg,neg,neg,neg]
+​heartsigh Lyrics.txt_3-10  []-positive  [fgb]
+​heartsigh Lyrics.txt_3-11  []-suspension  [neg]
+​heartsigh Lyrics.txt_3-12  []-positive  []
+​heartsigh Lyrics.txt_4-16  []-negative  [neg]
+​heartsigh Lyrics.txt_4-17  []-negative  [neg]
+​heartsigh Lyrics.txt_5-22  []-suspension  [neg,neg]
+​heartsigh Lyrics.txt_6-29  []-negative  [neg]
+​heartsigh Lyrics.txt_6-30  []-negative  [neg]
+​heartsigh Lyrics.txt_7-37  []-suspension  [neg,neg]
+​heartsigh Lyrics.txt_7-38  []-suspension  []
+​heartsigh Lyrics.txt_7-39  []-negative  [fgb,neg,fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+​heartsigh Lyrics.txt_1-1  [heartsigh,Lyrics,by,Purity,ring]  [title]
+​heartsigh Lyrics.txt_2-3  [whisper,whimper,on,i,i,you,will,not,forget,to,close,your,eyes,for,will,sing,before,you,lie,down]  [provide_expl_just(lie,[external,factive,narration,background,objective]),provide_expl_just(forget,[external,nonfactive,narration,background,objective]),provide_expl_just(close,[external,factive,narration,background,objective]),provide_expl_just(whisper,[external,factive,narration,background,objective])]
+​heartsigh Lyrics.txt_3-10  [down,and,push]  [provide_expl_just(push,[external,factive,narration,background,objective]),provide_expl_just(sink,[external,nonfactive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,background,objective])]
+​heartsigh Lyrics.txt_3-11  [your,sleep,along,i,will,sink,below]  [provide_expl_just(push,[external,factive,narration,background,objective]),provide_expl_just(sink,[external,nonfactive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,background,objective])]
+​heartsigh Lyrics.txt_3-12  [the,ground,find]  [provide_expl_just(push,[external,factive,narration,background,objective]),provide_expl_just(sink,[external,nonfactive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,background,objective])]
+​heartsigh Lyrics.txt_4-16  [only,where,your,tears,drip,from,the,drawers,only,lonely,hid,the,morning,from,the,stars,only,.,your,tears,drip,from,the,drawers]  [reject_expl_just(hide,[external,factive,narration,foreground,objective]),reject_expl_just(drip,[external,factive,narration,background,objective])]
+​heartsigh Lyrics.txt_4-17  [only,lonely,hid,the,morning,from,the,stars,only]  [reject_expl_just(hide,[external,factive,narration,foreground,objective]),reject_expl_just(drip,[external,factive,narration,background,objective])]
+​heartsigh Lyrics.txt_5-22  [come,now,back,carry,on,wearily,on,only,lonely,hidden,breath,beneath,the,floor,only]  [propose_opin_neg(come,[external,factive,result,background,objective])]
+​heartsigh Lyrics.txt_6-29  [only,where,your,tears,drip,from,the,drawers,only,lonely,hid,the,morning,from,the,stars,only,.,your,tears,drip,from,the,drawers]  [reject_expl_just(hide,[external,factive,narration,foreground,objective]),reject_expl_just(drip,[external,factive,narration,background,objective])]
+​heartsigh Lyrics.txt_6-30  [only,lonely,hid,the,morning,from,the,stars,only]  [reject_expl_just(hide,[external,factive,narration,foreground,objective]),reject_expl_just(drip,[external,factive,narration,background,objective])]
+​heartsigh Lyrics.txt_7-37  [only,weeping,glimmers,in,the,dark,refrain]  [provide_expl_just(bury,[external,factive,narration,background,objective]),propose_opin_neg(whisk,[external,nonfactive,circumstance,background,objective])]
+​heartsigh Lyrics.txt_7-38  [i,will,whisk,away,your,heartsigh]  [provide_expl_just(bury,[external,factive,narration,background,objective]),provide_expl_just(whisk,[external,nonfactive,circumstance,background,objective])]
+​heartsigh Lyrics.txt_7-39  [and,bury,it,in,mine,i,will,,,whisk,away,your,heartsigh,and,bury,it,in,mine]  [reject_expl_just(bury,[external,factive,narration,background,objective]),reject_expl_just(whisk,[external,nonfactive,circumstance,background,objective]),propose_opin_neg(whisk,[external,nonfactive,circumstance,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(​heartsigh Lyrics.txt_1-1)-[primary-sound]
+2-(​heartsigh Lyrics.txt_2-3)-[primary-soft,secondary-instru_behavior,primary-concreteness,primary-narcissism,emotions-expressive_beh,primary-passivity]
+3-(​heartsigh Lyrics.txt_3-10)-[]
+4-(​heartsigh Lyrics.txt_3-11)-[primary-counscious,primary-concreteness,primary-descent,primary-depth]
+5-(​heartsigh Lyrics.txt_3-12)-[secondary-instru_behavior]
+6-(​heartsigh Lyrics.txt_4-16)-[primary-concreteness,primary-orality,primary-water,emotions-sadness,primary-vision,primary-orality,primary-water]
+half
+7-(​heartsigh Lyrics.txt_4-17)-[emotions-sadness,primary-vision]
+8-(​heartsigh Lyrics.txt_5-22)-[secondary-temporal_repere,primary-concreteness,secondary-instru_behavior,emotions-sadness,primary-odor,primary-depth,primary-brink]
+9-(​heartsigh Lyrics.txt_6-29)-[primary-concreteness,primary-orality,primary-water,emotions-sadness,primary-vision,primary-orality,primary-water]
+10-(​heartsigh Lyrics.txt_6-30)-[emotions-sadness,primary-vision]
+11-(​heartsigh Lyrics.txt_7-37)-[]
+12-(​heartsigh Lyrics.txt_7-38)-[primary-concreteness]
+13-(​heartsigh Lyrics.txt_7-39)-[primary-descent,primary-concreteness,primary-descent]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(​heartsigh Lyrics.txt_1,1,cl1-nil-nil-ring-[arg_mod-agent-Purity-sn2,subj-agent-Lyrics-sn1,and(Lyrics,heartsigh,sn1),def_prop(Purity,[place,astratto,stato]),def_prop(Lyrics,[informa,tecno])])
+lf(​heartsigh Lyrics.txt_2,3,cl6-nil-nil-lie-[adj-(mod)-down-nil,subj-actor-you-sn6,subj-actor-you-sn5,cmod-subord-whisper-nil,iobj-goal-i-sn3,def_prop(you,[umano]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(​heartsigh Lyrics.txt_2,3,cl5-nil-will-sing-[subj-actor-whimper-sn2,def_prop(whimper,[attivita,informa])])
+lf(​heartsigh Lyrics.txt_2,3,cl4-nil-nil-close-[obj-goal-eye-sn19,subj-agent-you-sn18,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(​heartsigh Lyrics.txt_2,3,cl3-not-will-forget-[obj-prop-eye-sn15,xcomp-purpose-close-cl4,subj-agent-you-sn14,obj-goal-eye-sn10,subj-experiencer-you-sn9,and(you,i,sn9),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(you,[umano]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(​heartsigh Lyrics.txt_2,3,cl2-nil-nil-whisper-[cmod-subord-lie-1,subj-actor-whimper-sn2,subj-actor-whimper-sn1,and(whimper,you,sn1),def_prop(whimper,[attivita,informa]),def_prop(whimper,[attivita,informa])])
+lf(​heartsigh Lyrics.txt_3,10,cl9-nil-nil-find-[subj-actor-you-sn6,def_prop(you,[umano])])
+lf(​heartsigh Lyrics.txt_3,10,cl8-nil-will-sink-[adj-(mod)-below-nil,ncmod-modal-i-sn2,subj-agent-sleep-sn1,def_prop(i,[umano]),def_prop(sleep,[stato,tempo])])
+lf(​heartsigh Lyrics.txt_3,10,cl7-nil-nil-push-[subj-agent-pro-nil])
+lf(​heartsigh Lyrics.txt_4,16,cl11-nil-nil-hide-[adj-(mod)-only-nil,iobj-goal-star-sn13,obj-patient-morning-sn12,subj-agent-lonely-sn11,def_prop(only,[]),def_prop(star,[astratto,oggetto,umano]),def_prop(morning,[tempo]),def_prop(lonely,[istituzione])])
+lf(​heartsigh Lyrics.txt_4,16,cl10-nil-nil-drip-[adj-(mod)-only-nil,ncmod-loc_origin-drawer-sn7,ncmod-loc_origin-drawer-sn3,subj-actor-tear-sn1,def_prop(only,[]),def_prop(drawer,[oggetto,strumento,umano]),def_prop(drawer,[oggetto,strumento,umano]),def_prop(tear,[attivita,body_part,umano])])
+lf(​heartsigh Lyrics.txt_5,22,_-nil-nil-come-[ncmod-locativo-floor-sn4,ncmod-locativo-breath-sn3,ncmod-prop-wearily-sn2,and(breath,lonely,sn3),and(breath,hidden,sn3),def_prop(floor,[astratto,attivita,informa,oggetto,strumento]),def_prop(breath,[attivita,cambia,sostanza,tempo]),def_prop(wearily,[istituzione])])
+lf(​heartsigh Lyrics.txt_5,22,cl13-nil-nil-carry-[adj-(mod)-only-nil,adj-(mod)-now-nil,xmod-prop-come-2,subj-agent-back-sn1,def_prop(only,[]),def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano])])
+lf(​heartsigh Lyrics.txt_5,22,cl12-nil-nil-come-[ncmod-locativo-floor-sn4,ncmod-locativo-breath-sn3,ncmod-prop-wearily-sn2,and(breath,lonely,sn3),and(breath,hidden,sn3),def_prop(floor,[astratto,attivita,informa,oggetto,strumento]),def_prop(breath,[attivita,cambia,sostanza,tempo]),def_prop(wearily,[istituzione])])
+lf(​heartsigh Lyrics.txt_6,29,cl15-nil-nil-hide-[adj-(mod)-only-nil,iobj-goal-star-sn13,obj-patient-morning-sn12,subj-agent-lonely-sn11,def_prop(only,[]),def_prop(star,[astratto,oggetto,umano]),def_prop(morning,[tempo]),def_prop(lonely,[istituzione])])
+lf(​heartsigh Lyrics.txt_6,29,cl14-nil-nil-drip-[adj-(mod)-only-nil,ncmod-loc_origin-drawer-sn7,ncmod-loc_origin-drawer-sn3,subj-actor-tear-sn1,def_prop(only,[]),def_prop(drawer,[oggetto,strumento,umano]),def_prop(drawer,[oggetto,strumento,umano]),def_prop(tear,[attivita,body_part,umano])])
+lf(​heartsigh Lyrics.txt_7,37,cl18-nil-nil-bury-[cmod-coord-whisk-and,obj-theme-i-sn13,iobj-goal-mine-sn12,subj-result-it-sn11,xcomp-purpose-bury-cl18,sp-sn8-mine-sn10,obj-theme-it-sn9,subj-agent-you-sn8,iobj-goal-refrain-sn2,and(refrain,dark,sn2),def_prop(i,[umano]),def_prop(mine,[oggetto,strumento]),def_prop(it,[any]),def_prop(mine,[oggetto,strumento]),def_prop(it,[any]),def_prop(you,[umano]),def_prop(refrain,[attivita,informa])])
+lf(​heartsigh Lyrics.txt_7,37,cl17-nil-will-whisk-[obj-theme_aff-heartsigh-sn5,subj-causer-i-sn4,and(heartsigh,away,sn5),def_prop(heartsigh,[istituzione]),def_prop(i,[umano])])
+lf(​heartsigh Lyrics.txt_7,37,cl16-nil-nil-weep-[adj-(mod)-only-nil,subj_top-experiencer-glimmer-sn1,def_prop(glimmer,[evento])])

@@ -1,0 +1,51 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Cul-De-Sac Lyrics.txt_1-1  []-positive  [neg]
+Cul-De-Sac Lyrics.txt_2-3  []-positive  []
+Cul-De-Sac Lyrics.txt_2-4  []-negative  [neg]
+Cul-De-Sac Lyrics.txt_2-5  [when-temp_coinc]-negative  []
+Cul-De-Sac Lyrics.txt_2-6  []-suspension  [neg,fgb]
+Cul-De-Sac Lyrics.txt_3-11  []-negative  [fgb,neg,neg,neg]
+Cul-De-Sac Lyrics.txt_3-12  []-negative  [neg]
+Cul-De-Sac Lyrics.txt_3-13  []-suspension  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Cul-De-Sac Lyrics.txt_1-1  [Sac,Lyrics,cul-de,by,band,pup]  [title]
+Cul-De-Sac Lyrics.txt_2-3  [tough,luck]  [provide_expl_just(luck,[external,factive,explanation,background,objective]),provide_expl_just(need,[external,factive,narration,foreground,objective]),provide_expl_just(close,[external,factive,explanation,background,objective]),provide_expl_just(don-t,[external,factive,explanation,background,objective]),provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(wait,[external,nonfactive,narration,background,objective])]
+Cul-De-Sac Lyrics.txt_2-4  [you,don-t,need,me,anymore,no]  [reject_expl_just(luck,[external,factive,explanation,background,objective]),propose_opin_neg(luck,[external,factive,explanation,background,objective]),reject_expl_just(need,[external,factive,narration,foreground,objective]),reject_expl_just(close,[external,factive,explanation,background,objective]),propose_opin_neg(close,[external,factive,explanation,background,objective]),reject_expl_just(don-t,[external,factive,explanation,background,objective]),propose_opin_neg(don-t,[external,factive,explanation,background,objective]),reject_expl_just(leave,[external,factive,narration,foreground,objective]),reject_expl_just(wait,[external,nonfactive,narration,background,objective])]
+Cul-De-Sac Lyrics.txt_2-5  [when,my,eyes,were,closed]  [propose_opin_neg(luck,[external,factive,explanation,background,objective]),provide_expl_just(need,[external,factive,narration,foreground,objective]),propose_opin_neg(close,[external,factive,explanation,background,objective]),propose_opin_neg(don-t,[external,factive,explanation,background,objective]),provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(wait,[external,nonfactive,narration,background,objective])]
+Cul-De-Sac Lyrics.txt_2-6  [,,you,don-t,you,left,me,miserable,and,in,the,morning,i,will,wait,out,the,winter,in]  [propose_opin_neg(luck,[external,factive,explanation,background,objective]),provide_expl_just(need,[external,factive,narration,foreground,objective]),propose_opin_neg(close,[external,factive,explanation,background,objective]),propose_opin_neg(don-t,[external,factive,explanation,background,objective]),provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(wait,[external,nonfactive,narration,background,objective])]
+Cul-De-Sac Lyrics.txt_3-11  [will,wait,and,now,your,heart,will,not,change,my,love,will,not,change,no,my,whole,life,i,will,wait,now]  [reject_expl_just(wait,[external,nonfactive,narration,background,objective]),reject_expl_just(change,[external,nonfactive,narration,background,objective])]
+Cul-De-Sac Lyrics.txt_3-12  [your,heart,will,not,change,my,whole,life]  [reject_expl_just(wait,[external,nonfactive,narration,background,objective]),reject_expl_just(change,[external,nonfactive,narration,background,objective])]
+Cul-De-Sac Lyrics.txt_3-13  [i,will,wait,for,your,heart,to,change]  [provide_expl_just(wait,[external,nonfactive,narration,background,objective]),provide_expl_just(change,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Cul-De-Sac Lyrics.txt_1-1)-[]
+2-(Cul-De-Sac Lyrics.txt_2-3)-[]
+3-(Cul-De-Sac Lyrics.txt_2-4)-[]
+4-(Cul-De-Sac Lyrics.txt_2-5)-[secondary-temporal_repere,primary-narcissism,primary-concreteness]
+half
+5-(Cul-De-Sac Lyrics.txt_2-6)-[emotions-sadness,primary-concreteness,primary-cold]
+6-(Cul-De-Sac Lyrics.txt_3-11)-[secondary-temporal_repere,primary-narcissism,emotions-affection,secondary-temporal_repere]
+7-(Cul-De-Sac Lyrics.txt_3-12)-[primary-narcissism]
+8-(Cul-De-Sac Lyrics.txt_3-13)-[primary-narcissism]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Cul-De-Sac Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-pup-sn2,subj-theme_bound-cul-de-sn1,and(pup,band,sn2),and(cul-de,Lyrics,sn1),def_prop(pup,[animato]),def_prop(cul-de,[informa,oggetto,strumento,tecno])])
+lf(Cul-De-Sac Lyrics.txt_2,3,cl6-nil-will-wait-[adj-temporal-morning-nil,ncmod-modal-winter-sn16,subj-actor-i-sn15,ncmod-modal-winter-sn14,subj-actor-i-sn13,def_prop(morning,[tempo]),def_prop(winter,[tempo]),def_prop(i,[umano]),def_prop(winter,[tempo]),def_prop(i,[umano])])
+lf(Cul-De-Sac Lyrics.txt_2,3,cl5-nil-nil-leave-[])
+lf(Cul-De-Sac Lyrics.txt_2,3,cl4-not-nil-don-t-[cmod-coord-wait-1,xcomp-prop-miserable-sn11,xcomp-theme_aff-me-sn10,subj-agent-you-sn9,subj-agent-you-sn8,and(you,you,sn8),def_prop(miserable,[evaluative]),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Cul-De-Sac Lyrics.txt_2,3,cl3-nil-nil-close-[subj-goal-you-sn7,aux-were-nil,def_prop(you,[umano])])
+lf(Cul-De-Sac Lyrics.txt_2,3,cl2-not-nil-need-[obj-theme-no-sn4,obj-theme-me-sn3,subj-experiencer-you-sn2,aux-do-nil,def_prop(no,[istituzione]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Cul-De-Sac Lyrics.txt_2,3,nil-nil-nil-luck-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Cul-De-Sac Lyrics.txt_3,11,cl8-not-will-change-[obj-theme_aff-hear-sn26,subj-agent-i-sn25,subj-agent-i-sn24,xcomp-prop-my-sn20,subj-agent-hear-sn19,adj-locative-now-nil,subj-agent-hear-sn11,and(i,love,sn24),def_prop(hear,[istituzione]),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(my,[informa,tecno]),def_prop(hear,[istituzione]),def_prop(now,[istituzione]),def_prop(hear,[istituzione])])
+lf(Cul-De-Sac Lyrics.txt_3,11,cl7-nil-will-wait-[adj-(mod)-now-nil,subj-actor-pro-nil,subj-actor-i-sn15,xcomp-prop-my-sn3,xcomp-purpose-will-8,subj-actor-love-sn2,subj-actor-love-sn1,and(my,no,sn3),def_prop(now,[istituzione]),def_prop(i,[umano]),def_prop(my,[informa,tecno]),def_prop(love,[astratto,emotivo,nquant]),def_prop(love,[astratto,emotivo,nquant])])

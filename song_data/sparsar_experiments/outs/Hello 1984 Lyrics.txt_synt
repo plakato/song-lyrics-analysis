@@ -1,0 +1,40 @@
+"Grammatical Functions for Nominal Heads and Modifiers"
+
+arg_mod-agent-1-ZSK
+ncmod-temp-1-1984
+specif-1-hello
+subj-theme_bound-1-Lyrics
+obj-theme-3-hours
+subj-actor-3-nothing
+
+
+
+"Disambiguated Tagged Text"
+
+1-hello-i
+2-1984-num
+3-Lyrics-n
+4-by-pda
+5-ZSK-npro
+6-(.)-punto
+7-welcome-ag
+8-to-p
+9-a-art
+10-life-n
+11-where-rel
+12-you-pron
+13-got-vt
+14-nothing-q
+15-to-p
+16-hide-vin
+17-count-vt
+18-the-art
+19-hours-nt
+20-(.)-punto
+
+
+
+"Clause Separated All Grammatical Functions"
+
+1-[ncmod-specif(1984-sn3,hello),ncmod-temp(Lyrics-sn1,1984),arg_mod-agent(by,be-1,ZSK-sn2),subj-theme_bound(be,Lyrics-sn1),sn1(det,Lyrics,1984),voice(active,cl1,be),tense(pres,cl1,be)]
+3-[obj-theme(count,hours-sn2),subj-actor(count,nothing-sn1),voice(active,cl2,count),tense(pres,cl2,count)]

@@ -1,0 +1,178 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Astronaut Lyrics.txt_1-1  []-positive  []
+Astronaut Lyrics.txt_2-3  [but-advers]-positive  [fgb]
+Astronaut Lyrics.txt_3-6  []-question  []
+Astronaut Lyrics.txt_3-6  []-question  []
+Astronaut Lyrics.txt_3-7  []-negative  [fgb,neg]
+Astronaut Lyrics.txt_3-7  []-negative  [fgb,neg,neg]
+Astronaut Lyrics.txt_4-10  [if-hypoth]-positive  [fgb]
+Astronaut Lyrics.txt_5-15  [(as)-temp_coinc]-positive  []
+Astronaut Lyrics.txt_6-21  []-negative  [neg,fhd]
+Astronaut Lyrics.txt_7-28  []-positive  []
+Astronaut Lyrics.txt_8-36  []-negative  [neg,neg]
+Astronaut Lyrics.txt_9-46  []-negative  [neg,fhd]
+Astronaut Lyrics.txt_10-56  []-positive  [fhd]
+Astronaut Lyrics.txt_11-67  []-positive  []
+Astronaut Lyrics.txt_11-68  []-positive  []
+Astronaut Lyrics.txt_12-79  [(as)-temp_coinc]-suspension  [fhd]
+Astronaut Lyrics.txt_13-92  []-positive  [fhd,fhd]
+Astronaut Lyrics.txt_14-106  []-positive  []
+Astronaut Lyrics.txt_15-121  []-positive  []
+Astronaut Lyrics.txt_16-137  []-positive  [neg]
+Astronaut Lyrics.txt_17-154  []-question  [neg]
+Astronaut Lyrics.txt_17-155  []-suspension  []
+Astronaut Lyrics.txt_17-156  []-positive  [fhd]
+Astronaut Lyrics.txt_18-175  []-negative  [neg,neg,neg]
+Astronaut Lyrics.txt_18-176  [but-advers]-positive  [fgb]
+Astronaut Lyrics.txt_19-194  []-question  []
+Astronaut Lyrics.txt_19-194  []-question  []
+Astronaut Lyrics.txt_19-195  []-negative  [fgb,neg]
+Astronaut Lyrics.txt_19-195  []-negative  [fgb,neg,neg]
+Astronaut Lyrics.txt_20-214  [when-temp_coinc]-suspension  []
+Astronaut Lyrics.txt_21-236  []-negative  [neg]
+Astronaut Lyrics.txt_22-258  []-positive  []
+Astronaut Lyrics.txt_22-259  [(as)-temp_coinc]-positive  []
+Astronaut Lyrics.txt_23-282  []-negative  [neg,fhd]
+Astronaut Lyrics.txt_24-306  []-positive  [bkc]
+Astronaut Lyrics.txt_25-331  []-question  []
+Astronaut Lyrics.txt_25-331  []-question  []
+Astronaut Lyrics.txt_25-332  []-negative  [fgb,neg]
+Astronaut Lyrics.txt_25-332  []-negative  [fgb,neg,neg]
+Astronaut Lyrics.txt_26-357  []-question  [neg]
+Astronaut Lyrics.txt_27-384  []-positive  [fgb,fgb,fgb]
+Astronaut Lyrics.txt_28-412  []-positive  [fgb,fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Astronaut Lyrics.txt_1-1  [astronaut,Lyrics,by,Quasimoto]  [title]
+Astronaut Lyrics.txt_2-3  [but,we,have,been,out_there,in,orbit]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_3-6  [?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_3-6  [?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_3-7  [and,walked,is,not,further]  [reject_expl_just(be,[internal,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_3-7  [and,walked,is,not,further,than,the,moon,not,we]  [reject_expl_just(be,[internal,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_4-10  [ten,to,one,if,you,found,a,dude]  [provide_expl_just(find,[external,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_5-15  [straighten,you,as,good,as,me]  [provide_expl_just(straighten,[external,factive,narration,background,objective])]
+Astronaut Lyrics.txt_6-21  [would,not,be,angel,no_more,than,me,anyway]  [reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+Astronaut Lyrics.txt_7-28  [interlude]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_8-36  [is,not,Gon,pull,no,train,on,you]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(pull,[external,factive,narration,background,objective])]
+Astronaut Lyrics.txt_9-46  [no,freight,train,anyway]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Astronaut Lyrics.txt_10-56  [maybe,one,or,two,after,the,surprisee]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Astronaut Lyrics.txt_11-67  [he,is,first_cause]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Astronaut Lyrics.txt_11-68  [it,is,his,party]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Astronaut Lyrics.txt_12-79  [first,as,far,as,they,will,know,anyway]  [provide_expl_just(know,[external,nonfactive,narration,background,objective])]
+Astronaut Lyrics.txt_13-92  [anyhow,it,look,like,rain,tonight,anyway]  [provide_expl_just(look,[external,factive,narration,background,objective])]
+Astronaut Lyrics.txt_14-106  [come,on]  [raise_issue(be,[_206382,factive,statement,_206400,subjective])]
+Astronaut Lyrics.txt_15-121  [come,on]  [raise_issue(be,[_206674,factive,statement,_206692,subjective])]
+Astronaut Lyrics.txt_16-137  [look,out,for,a,Double,D]  [provide_expl_just(look,[external,factive,narration,background,objective])]
+Astronaut Lyrics.txt_17-154  [who,ya,tellin,am,i,lying,she,?]  [provide_expl_just(lie,[internal,factive,narration,background,objective]),provide_expl_just(gonna,[internal,factive,narration,background,objective]),provide_expl_just(believe,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_17-155  [you,gonna,believe,her]  [provide_expl_just(lie,[internal,factive,narration,background,objective]),provide_expl_just(gonna,[internal,factive,narration,background,objective]),provide_expl_just(believe,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_17-156  [or,me]  [provide_expl_just(lie,[internal,factive,narration,background,objective]),provide_expl_just(gonna,[internal,factive,narration,background,objective]),provide_expl_just(believe,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_18-175  [you,is,not,no,astronaut,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Astronaut Lyrics.txt_18-176  [but,we,have,been,out_there,in,orbit]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Astronaut Lyrics.txt_19-194  [?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_19-194  [?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_19-195  [and,walked,is,not,further]  [reject_expl_just(be,[internal,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_19-195  [and,walked,is,not,further,than,the,moon,not,we]  [reject_expl_just(be,[internal,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_20-214  [who,wants,to,be,full,of,regrets,when,old,father,time,taps]  [provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(want,[external,factive,narration,background,objective])]
+Astronaut Lyrics.txt_21-236  [life,don-t,give,no,green,stamps]  [reject_expl_just(be,[_218100,_218106,_218112,_218118,_218124])]
+Astronaut Lyrics.txt_22-258  [that,could,straighten]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(straighten,[external,nonfactive,narration,background,objective])]
+Astronaut Lyrics.txt_22-259  [you,as,good,as,me]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(straighten,[external,nonfactive,narration,background,objective])]
+Astronaut Lyrics.txt_23-282  [would,not,be,angel,no_more,than,me,anyway]  [reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+Astronaut Lyrics.txt_24-306  [yeah,we,have,been,out_there,in,orbit]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_25-331  [?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_25-331  [?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_25-332  [and,walked,is,not,further]  [reject_expl_just(be,[internal,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_25-332  [and,walked,is,not,further,than,the,moon,not,we]  [reject_expl_just(be,[internal,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_26-357  [we,not,is,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Astronaut Lyrics.txt_27-384  [just,between,you,and,me,me,me,and,you,and,you]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Astronaut Lyrics.txt_28-412  [you,and,me,you,and,me,you]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Astronaut Lyrics.txt_1-1)-[]
+2-(Astronaut Lyrics.txt_2-3)-[primary-random_movement]
+3-(Astronaut Lyrics.txt_3-6)-[]
+4-(Astronaut Lyrics.txt_3-6)-[]
+5-(Astronaut Lyrics.txt_3-7)-[primary-concreteness]
+6-(Astronaut Lyrics.txt_3-7)-[primary-concreteness]
+7-(Astronaut Lyrics.txt_4-10)-[secondary-instru_behavior]
+8-(Astronaut Lyrics.txt_5-15)-[primary-concreteness]
+9-(Astronaut Lyrics.txt_6-21)-[]
+10-(Astronaut Lyrics.txt_7-28)-[secondary-temporal_repere]
+11-(Astronaut Lyrics.txt_8-36)-[]
+12-(Astronaut Lyrics.txt_9-46)-[]
+13-(Astronaut Lyrics.txt_10-56)-[secondary-abstract_tought]
+14-(Astronaut Lyrics.txt_11-67)-[]
+15-(Astronaut Lyrics.txt_11-68)-[]
+16-(Astronaut Lyrics.txt_12-79)-[primary-concreteness,secondary-abstract_tought]
+17-(Astronaut Lyrics.txt_13-92)-[primary-vision,emotions-affection,primary-water,secondary-temporal_repere]
+18-(Astronaut Lyrics.txt_14-106)-[]
+19-(Astronaut Lyrics.txt_15-121)-[]
+20-(Astronaut Lyrics.txt_16-137)-[primary-vision,primary-concreteness]
+21-(Astronaut Lyrics.txt_17-154)-[secondary-social_behavior]
+half
+22-(Astronaut Lyrics.txt_17-155)-[secondary-abstract_tought]
+23-(Astronaut Lyrics.txt_17-156)-[]
+24-(Astronaut Lyrics.txt_18-175)-[]
+25-(Astronaut Lyrics.txt_18-176)-[primary-random_movement]
+26-(Astronaut Lyrics.txt_19-194)-[]
+27-(Astronaut Lyrics.txt_19-194)-[]
+28-(Astronaut Lyrics.txt_19-195)-[primary-concreteness]
+29-(Astronaut Lyrics.txt_19-195)-[primary-concreteness]
+30-(Astronaut Lyrics.txt_20-214)-[emotions-sadness,secondary-temporal_repere,secondary-temporal_repere,secondary-temporal_repere]
+31-(Astronaut Lyrics.txt_21-236)-[primary-vision]
+32-(Astronaut Lyrics.txt_22-258)-[primary-concreteness]
+33-(Astronaut Lyrics.txt_22-259)-[]
+34-(Astronaut Lyrics.txt_23-282)-[]
+35-(Astronaut Lyrics.txt_24-306)-[primary-random_movement]
+36-(Astronaut Lyrics.txt_25-331)-[]
+37-(Astronaut Lyrics.txt_25-331)-[]
+38-(Astronaut Lyrics.txt_25-332)-[primary-concreteness]
+39-(Astronaut Lyrics.txt_25-332)-[primary-concreteness]
+40-(Astronaut Lyrics.txt_26-357)-[]
+41-(Astronaut Lyrics.txt_27-384)-[primary-concreteness]
+42-(Astronaut Lyrics.txt_28-412)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Astronaut Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Quasimoto-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,astronaut,sn1),def_prop(Quasimoto,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Astronaut Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-out_there-sn2,subj-theme_bound-we-sn1,def_prop(out_there,[attivita,luogo]),def_prop(we,[umano])])
+lf(Astronaut Lyrics.txt_3,6,cl3-not-nil-be-[cmod-coord-be-and,xcomp-theme-we-sn4,xcomp-prop-further-sn3,subj-theme_bound-moon-sn2,cmod-subord-be-",subj-theme_bound-further-sn1,def_prop(we,[umano]),def_prop(further,[misura]),def_prop(moon,[oggetto]),def_prop(further,[misura])])
+lf(Astronaut Lyrics.txt_4,10,cl4-nil-nil-find-[cmod-subord-find-if,obj-theme_bound-dude-sn4,subj-actor-you-sn3,def_prop(dude,[relat,sociale,umano]),def_prop(you,[umano])])
+lf(Astronaut Lyrics.txt_5,15,cl5-nil-nil-straighten-[obj-patient-me-sn4,xcomp-prop-good-sn3,subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(me,[umano]),def_prop(good,[valutativo]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Astronaut Lyrics.txt_6,21,cl6-not-would-be-[adj-subj_disc-anyway-sn4,adj-subj_disc-no_more-sn3,xcomp-prop-angel-sn2,subj-theme_bound-me-sn1,def_prop(anyway,[istituzione]),def_prop(no_more,[istituzione]),def_prop(angel,[plant,umano]),def_prop(me,[umano])])
+lf(Astronaut Lyrics.txt_7,28,cl7-nil-nil-say-[obj-theme_unaff-interlude-sn1,def_prop(interlude,[attivita,tempo])])
+lf(Astronaut Lyrics.txt_8,36,cl9-nil-nil-pull-[])
+lf(Astronaut Lyrics.txt_8,36,cl8-not-nil-be-[xcomp-prop-train-sn2,subj-theme_bound-Gon-sn1,def_prop(train,[evento,oggetto,strumento]),def_prop(Gon,[istituzione,umano])])
+lf(Astronaut Lyrics.txt_9,46,cl10-nil-nil-be-[adj-(mod)-anyway-nil,subj-theme_bound-train-sn1,and(train,freight,sn1),and(train,no,sn1),def_prop(train,[evento,oggetto,strumento])])
+lf(Astronaut Lyrics.txt_10,56,cl11-nil-nil-be-[adj-(mod)-maybe-nil,ncmod-temporale-surprisee-sn2,subj-theme_bound-two-sn1,and(two,one,sn1),def_prop(surprisee,[istituzione]),def_prop(two,[_226896])])
+lf(Astronaut Lyrics.txt_11,67,cl12-nil-nil-be-[xcomp-prop-party-sn4,subj-theme_bound-it-sn3,xcomp-prop-first_cause-sn2,subj-theme_bound-he-sn1,def_prop(party,[evento,istituzione,umano]),def_prop(it,[any]),def_prop(first_cause,[umano]),def_prop(he,[umano])])
+lf(Astronaut Lyrics.txt_12,79,cl13-nil-will-know-[subj-actor-they-sn2,subj-actor-they-sn1,and(they,first,sn1),def_prop(they,[umano]),def_prop(they,[umano])])
+lf(Astronaut Lyrics.txt_13,92,cl14-nil-nil-look-[xcomp-prop-rain-sn2,subj-agent-it-sn1,def_prop(rain,[astratto,attivita,cambia,sostanza]),def_prop(it,[any])])
+lf(Astronaut Lyrics.txt_14,106,cl15-nil-nil-come-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Astronaut Lyrics.txt_15,121,cl16-nil-nil-come-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Astronaut Lyrics.txt_16,137,cl17-nil-nil-look-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Astronaut Lyrics.txt_17,154,cl19-nil-nil-believe-[cmod-subord-believe-"])
+lf(Astronaut Lyrics.txt_17,154,nil-nil-nil-gonna-[obj-actor-her-sn7,xcomp-purpose-believe-2,subj-agent-you-sn6,def_prop(her,[umano]),def_prop(you,[umano])])
+lf(Astronaut Lyrics.txt_17,154,cl18-nil-nil-be-[subj-theme_bound-me-sn8,xcomp-theme-ya-sn4,xcomp-prop-tellin-sn3,xcomp-prop-i-sn2,xcomp-purpose-lie-2,subj-theme_bound-she-sn1,and(ya,who,sn4),def_prop(me,[umano]),def_prop(ya,[legale]),def_prop(tellin,[istituzione]),def_prop(i,[umano]),def_prop(she,[umano])])
+lf(Astronaut Lyrics.txt_17,154,nil-nil-nil-lie-[])
+lf(Astronaut Lyrics.txt_18,175,cl20-not-nil-be-[xcomp-prop-out_there-sn5,subj-theme_bound-we-sn4,xcomp-prop-astronaut-sn2,subj-theme_bound-you-sn1,neg-not-nil,and(astronaut,no,sn2),def_prop(out_there,[attivita,luogo]),def_prop(we,[umano]),def_prop(astronaut,[umano]),def_prop(you,[umano])])
+lf(Astronaut Lyrics.txt_19,194,cl21-not-nil-be-[cmod-coord-be-and,xcomp-theme-we-sn4,xcomp-prop-further-sn3,subj-theme_bound-moon-sn2,cmod-subord-be-",subj-theme_bound-further-sn1,def_prop(we,[umano]),def_prop(further,[misura]),def_prop(moon,[oggetto]),def_prop(further,[misura])])
+lf(Astronaut Lyrics.txt_20,214,cl23-nil-nil-be-[xcomp-theme-tap-sn4,xcomp-purpose-regret-3,xcomp-prop-full-sn3,xcomp-purpose-be-2,def_prop(tap,[attivita,oggetto,strumento]),def_prop(full,[valutativo])])
+lf(Astronaut Lyrics.txt_20,214,cl22-nil-nil-want-[obj-tema_unaff-who-sn2,subj-actor-father-sn1,and(father,old,sn1),def_prop(who,[umano]),def_prop(father,[umano])])
+lf(Astronaut Lyrics.txt_21,236,cl24-not-nil-give-[obj-goal-stamp-sn2,subj-actor-life-sn1,aux-do-nil,and(stamp,no,sn2),and(stamp,green,sn2),def_prop(stamp,[attivita,informa,istituzione,oggetto,strumento]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Astronaut Lyrics.txt_22,258,cl26-nil-nil-be-[xcomp-theme-me-sn4,xcomp-prop-good-sn3,subj-theme_bound-you-sn2,def_prop(me,[umano]),def_prop(good,[valutativo]),def_prop(you,[umano])])
+lf(Astronaut Lyrics.txt_22,258,cl25-nil-could-straighten-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Astronaut Lyrics.txt_23,282,cl27-not-would-be-[adj-subj_disc-anyway-sn4,adj-subj_disc-no_more-sn3,xcomp-prop-angel-sn2,subj-theme_bound-me-sn1,def_prop(anyway,[istituzione]),def_prop(no_more,[istituzione]),def_prop(angel,[plant,umano]),def_prop(me,[umano])])
+lf(Astronaut Lyrics.txt_24,306,cl28-nil-nil-be-[adj-(mod)-yeah-nil,xcomp-prop-out_there-sn2,subj-theme_bound-we-sn1,def_prop(out_there,[attivita,luogo]),def_prop(we,[umano])])
+lf(Astronaut Lyrics.txt_25,331,cl29-not-nil-be-[cmod-coord-be-and,xcomp-theme-we-sn4,xcomp-prop-further-sn3,subj-theme_bound-moon-sn2,cmod-subord-be-",subj-theme_bound-further-sn1,def_prop(we,[umano]),def_prop(further,[misura]),def_prop(moon,[oggetto]),def_prop(further,[misura])])
+lf(Astronaut Lyrics.txt_26,357,cl30-not-nil-be-[subj-theme_bound-we-sn1,def_prop(we,[umano])])
+lf(Astronaut Lyrics.txt_27,384,cl31-nil-nil-be-[adj-(mod)-just-nil,xcomp-prop-me-sn4,ncmod-relation-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Astronaut Lyrics.txt_28,412,cl32-nil-nil-be-[subj-theme_bound-you-sn4,subj-theme_bound-you-sn3,subj-theme_bound-me-sn2,subj-theme_bound-you-sn1,and(you,me,sn3),and(me,you,sn2),and(you,me,sn1),and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(me,[umano]),def_prop(you,[umano])])

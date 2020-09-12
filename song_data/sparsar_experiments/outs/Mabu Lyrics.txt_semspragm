@@ -1,0 +1,75 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Mabu Lyrics.txt_1-1  []-positive  [neg]
+Mabu Lyrics.txt_2-3  []-positive  []
+Mabu Lyrics.txt_2-4  []-positive  []
+Mabu Lyrics.txt_2-5  []-positive  []
+Mabu Lyrics.txt_2-6  []-positive  []
+Mabu Lyrics.txt_2-7  []-positive  []
+Mabu Lyrics.txt_3-11  []-negative  [neg]
+Mabu Lyrics.txt_4-15  []-positive  [bkc,bkc,bkc]
+Mabu Lyrics.txt_4-16  []-positive  [bkc,bkc,bkc,fgb]
+Mabu Lyrics.txt_5-21  []-positive  []
+Mabu Lyrics.txt_5-22  [when-temp_coinc]-positive  []
+Mabu Lyrics.txt_6-28  []-negative  [neg]
+Mabu Lyrics.txt_6-29  []-suspension  []
+Mabu Lyrics.txt_6-30  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Mabu Lyrics.txt_1-1  [mabu,Lyrics,by,band,pup]  [title]
+Mabu Lyrics.txt_2-3  [i,went,down,to,the,water,with,the,help,of,my,father,out_of,the,lake,in,mid-June]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(pull,[external,factive,cause,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective])]
+Mabu Lyrics.txt_2-4  [i,pulled]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(pull,[external,factive,cause,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective])]
+Mabu Lyrics.txt_2-5  [my,car,i,Mabu,need,an,engine,that,runs]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(pull,[external,factive,cause,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective])]
+Mabu Lyrics.txt_2-6  [it,came,down,to,the,wire]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(pull,[external,factive,cause,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective])]
+Mabu Lyrics.txt_2-7  [put]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(go,[external,factive,narration,foreground,objective]),provide_expl_just(pull,[external,factive,cause,foreground,objective]),provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective])]
+Mabu Lyrics.txt_3-11  [the,pump,to,the,tire,it,gets,me]  [reject_expl_just(get,[external,factive,narration,background,objective])]
+Mabu Lyrics.txt_4-15  [oh,oh,oh,i,drive,my,car,my,Mabu,car]  [provide_expl_just(drive,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Mabu Lyrics.txt_4-16  [oh,oh,oh,and]  [provide_expl_just(drive,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Mabu Lyrics.txt_5-21  [i,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Mabu Lyrics.txt_5-22  [when,she,is,gone]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(go,[external,factive,narration,background,objective])]
+Mabu Lyrics.txt_6-28  [i,swear]  [reject_expl_just(swear,[external,factive,narration,background,objective])]
+Mabu Lyrics.txt_6-29  [i,will,change]  [provide_expl_just(swear,[external,factive,narration,background,objective])]
+Mabu Lyrics.txt_6-30  [i,need,a,car,i,need,an,engine,that,runs]  [provide_expl_just(swear,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Mabu Lyrics.txt_1-1)-[]
+2-(Mabu Lyrics.txt_2-3)-[primary-water,secondary-social_behavior,primary-water]
+3-(Mabu Lyrics.txt_2-4)-[]
+4-(Mabu Lyrics.txt_2-5)-[]
+5-(Mabu Lyrics.txt_2-6)-[]
+6-(Mabu Lyrics.txt_2-7)-[]
+7-(Mabu Lyrics.txt_3-11)-[]
+half
+8-(Mabu Lyrics.txt_4-15)-[primary-voyage]
+9-(Mabu Lyrics.txt_4-16)-[]
+10-(Mabu Lyrics.txt_5-21)-[secondary-abstract_tought]
+11-(Mabu Lyrics.txt_5-22)-[secondary-temporal_repere]
+12-(Mabu Lyrics.txt_6-28)-[]
+13-(Mabu Lyrics.txt_6-29)-[]
+14-(Mabu Lyrics.txt_6-30)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Mabu Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-pup-sn2,subj-theme_bound-Lyrics-sn1,and(pup,band,sn2),and(Lyrics,mabu,sn1),def_prop(pup,[animato]),def_prop(Lyrics,[informa,tecno])])
+lf(Mabu Lyrics.txt_2,3,cl7-nil-nil-run-[subj-agent-engine-sn12,def_prop(engine,[attivita,cambia,oggetto,strumento])])
+lf(Mabu Lyrics.txt_2,3,cl6-nil-nil-put-[subj-agent-pro-nil,iobj-goal-June-sn5,iobj-goal-lake-sn4,iobj-goal-help-sn3,iobj-goal-water-sn2,def_prop(June,[tempo]),def_prop(lake,[oggetto,sostanza]),def_prop(help,[astratto,attivita,informa,legale,relat,sociale,tecno,umano]),def_prop(water,[edible,oggetto,sostanza])])
+lf(Mabu Lyrics.txt_2,3,cl5-nil-nil-come-[expl-it-nil,adj-(mod)-down-nil,iobj-goal-wire-sn18,subj-agent-it-sn17,def_prop(wire,[luogo,oggetto,strumento]),def_prop(it,[any])])
+lf(Mabu Lyrics.txt_2,3,cl4-nil-nil-need-[obj-theme-engine-sn12,subj-experiencer-Mabu-sn11,def_prop(engine,[attivita,cambia,oggetto,strumento]),def_prop(Mabu,[istituzione,umano])])
+lf(Mabu Lyrics.txt_2,3,cl3-nil-nil-pull-[subj-agent-you-sn10,def_prop(you,[umano])])
+lf(Mabu Lyrics.txt_2,3,cl2-nil-nil-go-[adj-(mod)-down-nil,subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Mabu Lyrics.txt_3,11,cl8-nil-nil-get-[obj-theme_unaff-me-sn2,subj-agent-pump-sn1,def_prop(me,[umano]),def_prop(pump,[oggetto,strumento])])
+lf(Mabu Lyrics.txt_4,15,cl10-nil-nil-be-[xcomp-theme-oh-sn14,xcomp-prop-oh-sn13,subj-theme_bound-oh-sn12,def_prop(oh,[informa,tecno]),def_prop(oh,[informa,tecno]),def_prop(oh,[informa,tecno])])
+lf(Mabu Lyrics.txt_4,15,cl9-nil-nil-drive-[obj-theme_unaff-car-sn3,subj-agent-i-sn2,subj-agent-i-sn1,and(i,oh,sn1),def_prop(car,[oggetto,strumento]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Mabu Lyrics.txt_5,21,cl12-nil-nil-go-[subj-actor-she-sn2,aux-(is)-nil,def_prop(she,[umano])])
+lf(Mabu Lyrics.txt_5,21,cl11-nil-nil-know-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Mabu Lyrics.txt_6,28,cl15-nil-nil-need-[obj-theme-car-sn4,subj-experiencer-i-sn3,def_prop(car,[oggetto,strumento]),def_prop(i,[umano])])
+lf(Mabu Lyrics.txt_6,28,cl14-nil-will-change-[subj-agent-i-sn2,def_prop(i,[umano])])
+lf(Mabu Lyrics.txt_6,28,cl13-nil-nil-swear-[subj-agent-you-sn1,def_prop(you,[umano])])

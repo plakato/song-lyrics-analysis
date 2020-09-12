@@ -1,0 +1,176 @@
+"POLARITY, DISCOURSE MARKERS"
+
+7verses Lyrics.txt_1-1  []-positive  []
+7verses Lyrics.txt_2-3  []-suspension  []
+7verses Lyrics.txt_3-7  []-positive  []
+7verses Lyrics.txt_3-8  []-negative  [neg]
+7verses Lyrics.txt_4-12  []-negative  [neg,fhd]
+7verses Lyrics.txt_5-17  []-positive  []
+7verses Lyrics.txt_6-23  []-negative  [neg]
+7verses Lyrics.txt_6-24  []-positive  []
+7verses Lyrics.txt_7-31  []-positive  []
+7verses Lyrics.txt_7-32  []-positive  []
+7verses Lyrics.txt_8-40  []-positive  []
+7verses Lyrics.txt_8-41  []-suspension  [neg,neg]
+7verses Lyrics.txt_9-50  []-suspension  [neg,neg]
+7verses Lyrics.txt_9-51  []-positive  []
+7verses Lyrics.txt_10-61  []-negative  [neg]
+7verses Lyrics.txt_11-72  []-negative  [neg]
+7verses Lyrics.txt_12-84  []-positive  [neg]
+7verses Lyrics.txt_12-85  []-positive  []
+7verses Lyrics.txt_13-98  []-negative  [neg]
+7verses Lyrics.txt_14-112  []-positive  []
+7verses Lyrics.txt_15-127  []-positive  []
+7verses Lyrics.txt_16-143  []-positive  []
+7verses Lyrics.txt_17-161  []-suspension  [neg,fhd,neg]
+7verses Lyrics.txt_18-179  []-positive  []
+7verses Lyrics.txt_18-180  []-positive  [neg]
+7verses Lyrics.txt_19-199  []-positive  []
+7verses Lyrics.txt_20-220  [(as)-temp_coinc]-negative  [neg]
+7verses Lyrics.txt_20-221  []-positive  []
+7verses Lyrics.txt_21-242  []-negative  [neg]
+7verses Lyrics.txt_22-264  []-suspension  [neg]
+7verses Lyrics.txt_22-265  []-positive  []
+7verses Lyrics.txt_23-288  [as_if-hypoth]-positive  []
+7verses Lyrics.txt_24-312  [so-result]-negative  [fgb,neg]
+7verses Lyrics.txt_25-337  []-suspension  []
+7verses Lyrics.txt_26-363  []-negative  [neg,neg]
+7verses Lyrics.txt_27-390  []-negative  [neg]
+7verses Lyrics.txt_27-391  []-positive  []
+7verses Lyrics.txt_28-419  []-positive  []
+7verses Lyrics.txt_28-420  []-positive  [fhd]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+7verses Lyrics.txt_1-1  [7verses,Lyrics,by,Rx]  [title]
+7verses Lyrics.txt_2-3  [im,goin,in,on,this,some,would,say,ham]  [provide_expl_just(say,[external,nonfactive,narration,background,objective]),provide_expl_just(ham,[external,factive,explanation,background,objective])]
+7verses Lyrics.txt_3-7  [im,blazed]  [provide_expl_just(blaze,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+7verses Lyrics.txt_3-8  [for,the,golory,hallelujah,goddamn]  [reject_expl_just(blaze,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+7verses Lyrics.txt_4-12  [this,im,takin,rap,takin,game,money,like,scams]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_5-17  [ready,your,cameras,i,got,big,plans]  [provide_expl_just(get,[external,factive,narration,foreground,objective])]
+7verses Lyrics.txt_6-23  [im,on,a,race,to,be,the,best,call]  [reject_expl_just(call,[external,factive,narration,foreground,objective]),reject_expl_just(im,[internal,factive,narration,background,objective])]
+7verses Lyrics.txt_6-24  [it,armstrong]  [provide_expl_just(call,[external,factive,narration,foreground,objective]),provide_expl_just(im,[internal,factive,narration,background,objective])]
+7verses Lyrics.txt_7-31  [im,on,top,of,the,empire,,,call]  [provide_expl_just(call,[external,factive,narration,background,objective]),provide_expl_just(king,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_7-32  [me,king,Kong]  [provide_expl_just(call,[external,factive,narration,background,objective]),provide_expl_just(king,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_8-40  [i,am,perfect]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(do,[external,nonfactive,narration,foreground,objective])]
+7verses Lyrics.txt_8-41  [,,can,do,no,wrong]  [provide_expl_just(be,[external,factive,narration,background,objective]),propose_opin(do,[external,nonfactive,narration,foreground,objective]),provide_expl_just(do,[external,nonfactive,narration,foreground,objective])]
+7verses Lyrics.txt_9-50  [the,beat,i,attack]  [provide_expl_just(attack,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_9-51  [that,,,you,just,a,wack,rap]  [provide_expl_just(attack,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_10-61  [ridin,in,a,hatchback,,,sportin,my,fuckin,snapback]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_11-72  [stickin,to,the,damn,back]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_12-84  [you,want,a,piece,of,me,heres]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_12-85  [my,motherfuckin,sack]  [provide_expl_just(want,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_13-98  [a2k,all,day,no,way]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_14-112  [5degreesOff,sportin,all,day]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_15-127  [this,rap,is,the,foreplay,just]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_16-143  [demo,tapes,keep,me,healthy,SoBe]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(demo,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_17-161  [you,keep,me,on,your,mind,like,a,bad,thought]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_18-179  [all,those,scribbles,you,wrote]  [provide_expl_just(shoot,[external,factive,narration,foreground,objective])]
+7verses Lyrics.txt_18-180  [theyre,shot]  [provide_expl_just(shoot,[external,factive,narration,foreground,objective])]
+7verses Lyrics.txt_19-199  [take,it,from,me,,,im,all,you,got]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective])]
+7verses Lyrics.txt_20-220  [you,been,exposed,as,wack]  [reject_expl_just(expose,[external,factive,narration,foreground,objective])]
+7verses Lyrics.txt_20-221  [,,you,been,caught]  [provide_expl_just(expose,[external,factive,narration,foreground,objective])]
+7verses Lyrics.txt_21-242  [rappin,been,old,,,im,too,cold]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_22-264  [sick,my,flow,,,will,end]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_22-265  [it,Yo]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_23-288  [dont,you,keep,playin,as_if,know]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_24-312  [Yall,actin,,,you,so,slow]  [reject_expl_just(slow,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_25-337  [on,the,topic,of,spittin]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_26-363  [i,still,got,a,dick,that,needs,a,little,ticklin]  [reject_expl_just(be,[_585094,_585100,_585106,_585112,_585118])]
+7verses Lyrics.txt_27-390  [ill,fry]  [reject_expl_just(fry,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_27-391  [you,on,a,track,,,mcdonlds,chicken]  [provide_expl_just(fry,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_28-419  [my,words,are,tasty]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+7verses Lyrics.txt_28-420  [,,like,finger,lickin]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(7verses Lyrics.txt_1-1)-[]
+2-(7verses Lyrics.txt_2-3)-[secondary-social_behavior,primary-orality]
+3-(7verses Lyrics.txt_3-7)-[primary-fire]
+4-(7verses Lyrics.txt_3-8)-[]
+5-(7verses Lyrics.txt_4-12)-[emotions-expressive_beh,secondary-instru_behavior,emotions-affection]
+6-(7verses Lyrics.txt_5-17)-[secondary-abstract_tought]
+7-(7verses Lyrics.txt_6-23)-[secondary-social_behavior]
+8-(7verses Lyrics.txt_6-24)-[]
+9-(7verses Lyrics.txt_7-31)-[primary-height,emotions-glory,secondary-social_behavior]
+10-(7verses Lyrics.txt_7-32)-[]
+11-(7verses Lyrics.txt_8-40)-[]
+12-(7verses Lyrics.txt_8-41)-[]
+13-(7verses Lyrics.txt_9-50)-[emotions-aggression,emotions-aggression]
+14-(7verses Lyrics.txt_9-51)-[]
+15-(7verses Lyrics.txt_10-61)-[emotions-expressive_beh,primary-sex]
+16-(7verses Lyrics.txt_11-72)-[primary-water,primary-concreteness]
+17-(7verses Lyrics.txt_12-84)-[primary-concreteness]
+18-(7verses Lyrics.txt_12-85)-[]
+19-(7verses Lyrics.txt_13-98)-[]
+half
+20-(7verses Lyrics.txt_14-112)-[emotions-expressive_beh]
+21-(7verses Lyrics.txt_15-127)-[]
+22-(7verses Lyrics.txt_16-143)-[]
+23-(7verses Lyrics.txt_17-161)-[emotions-affection,secondary-abstract_tought]
+24-(7verses Lyrics.txt_18-179)-[]
+25-(7verses Lyrics.txt_18-180)-[emotions-aggression]
+26-(7verses Lyrics.txt_19-199)-[]
+27-(7verses Lyrics.txt_20-220)-[]
+28-(7verses Lyrics.txt_20-221)-[secondary-restraint]
+29-(7verses Lyrics.txt_21-242)-[secondary-temporal_repere,primary-cold]
+30-(7verses Lyrics.txt_22-264)-[]
+31-(7verses Lyrics.txt_22-265)-[]
+32-(7verses Lyrics.txt_23-288)-[emotions-expressive_beh,secondary-abstract_tought]
+33-(7verses Lyrics.txt_24-312)-[primary-passivity]
+34-(7verses Lyrics.txt_25-337)-[secondary-abstract_tought]
+35-(7verses Lyrics.txt_26-363)-[primary-touch]
+36-(7verses Lyrics.txt_27-390)-[]
+37-(7verses Lyrics.txt_27-391)-[]
+38-(7verses Lyrics.txt_28-419)-[primary-taste]
+39-(7verses Lyrics.txt_28-420)-[emotions-affection,primary-orality]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(7verses Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Rx-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,7verses,sn1),def_prop(Rx,[attivita,informa,tecno]),def_prop(Lyrics,[informa,tecno])])
+lf(7verses Lyrics.txt_2,3,cl3-nil-nil-ham-[])
+lf(7verses Lyrics.txt_2,3,cl2-nil-would-say-[subj-sn1-some-sn3,ncmod-locativo-this-sn2,subj-actor-goin-sn1,and(goin,im,sn1),def_prop(some,[umano]),def_prop(this,[oggetto,umano]),def_prop(goin,[istituzione])])
+lf(7verses Lyrics.txt_3,7,cl5-nil-nil-be-[xcomp-prop-goddamn-sn3,subj-theme_bound-golory-sn2,def_prop(goddamn,[evaluative]),def_prop(golory,[istituzione])])
+lf(7verses Lyrics.txt_3,7,cl4-nil-nil-blaze-[])
+lf(7verses Lyrics.txt_4,12,cl6-nil-nil-be-[subj-theme_bound-scam-sn2,subj-theme_bound-scam-sn1,and(scam,money,sn1),and(scam,this,sn1),def_prop(scam,[attivita]),def_prop(scam,[attivita])])
+lf(7verses Lyrics.txt_5,17,cl7-nil-nil-get-[obj-theme_unaff-plan-sn3,subj-agent-i-sn2,subj-agent-i-sn1,and(plan,big,sn3),and(i,camera,sn1),and(i,ready,sn1),def_prop(plan,[astratto,oggetto,strumento]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(7verses Lyrics.txt_6,23,cl9-nil-nil-call-[obj-prop-best-sn3,xcomp-purpose-be-cl8,iobj-goal-race-sn2,subj-agent-im-sn1,def_prop(best,[valutativo]),def_prop(race,[evento,istituzione]),def_prop(im,[legale])])
+lf(7verses Lyrics.txt_6,23,cl8-nil-nil-be-[xcomp-prop-armstrong-sn5,subj-theme_bound-it-sn4,def_prop(armstrong,[istituzione,umano]),def_prop(it,[any])])
+lf(7verses Lyrics.txt_7,31,nil-nil-nil-king-[subj-agent-Kong-sn5,subj-agent-Kong-sn4,and(Kong,me,sn4),def_prop(Kong,[umano]),def_prop(Kong,[umano])])
+lf(7verses Lyrics.txt_7,31,cl10-nil-nil-call-[iobj-goal-top-sn2,subj-agent-im-sn1,def_prop(top,[astratto,luogo,oggetto,strumento,tempo]),def_prop(im,[legale])])
+lf(7verses Lyrics.txt_8,40,cl12-nil-can-do-[xcomp-prop-wrong-sn4,subj-theme_unaff-you-sn3,aux-do-nil,and(wrong,no,sn4),def_prop(wrong,[soggettivo]),def_prop(you,[umano])])
+lf(7verses Lyrics.txt_8,40,cl11-nil-nil-be-[xcomp-prop-perfect-sn2,subj-theme_bound-i-sn1,def_prop(perfect,[nquant]),def_prop(i,[umano])])
+lf(7verses Lyrics.txt_9,50,cl14-nil-nil-be-[xcomp-theme-rap-sn5,xcomp-prop-wack-sn4,subj-theme_bound-you-sn3,def_prop(rap,[attivita,evento,informa]),def_prop(wack,[istituzione]),def_prop(you,[umano])])
+lf(7verses Lyrics.txt_9,50,cl13-nil-nil-attack-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,beat,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(7verses Lyrics.txt_10,61,cl15-nil-nil-be-[xcomp-theme-snapback-sn5,xcomp-prop-fuckin-sn4,xcomp-theme-sportin-sn3,ncmod-locativo-hatchback-sn2,subj-theme_bound-ridin-sn1,def_prop(snapback,[istituzione]),def_prop(fuckin,[istituzione]),def_prop(sportin,[istituzione]),def_prop(hatchback,[oggetto,strumento]),def_prop(ridin,[istituzione])])
+lf(7verses Lyrics.txt_11,72,cl16-nil-nil-be-[ncmod-goal-back-sn2,subj-theme_bound-stickin-sn1,and(back,damn,sn2),def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(stickin,[istituzione])])
+lf(7verses Lyrics.txt_12,84,cl18-nil-nil-be-[xcomp-prop-sack-sn6,subj-theme_bound-motherfuckin-sn5,def_prop(sack,[attivita,edible,nquant,oggetto,strumento]),def_prop(motherfuckin,[istituzione])])
+lf(7verses Lyrics.txt_12,84,cl17-nil-nil-want-[obj-theme_aff-here-sn3,obj-tema_unaff-piece-sn2,subj-actor-you-sn1,def_prop(here,[luogo]),def_prop(piece,[astratto,attivita,edible,evento,informa,oggetto,strumento]),def_prop(you,[umano])])
+lf(7verses Lyrics.txt_13,98,cl19-nil-nil-be-[subj-theme_bound-a2k-sn1,def_prop(a2k,[istituzione])])
+lf(7verses Lyrics.txt_14,112,cl20-nil-nil-be-[adj-temporal-day-nil,subj-theme_bound-5degreesOff-sn1,and(5degreesOff,sportin,sn1),def_prop(5degreesOff,[nquant])])
+lf(7verses Lyrics.txt_15,127,cl21-nil-nil-be-[adj-(mod)-just-nil,xcomp-prop-foreplay-sn2,subj-theme_bound-rap-sn1,and(rap,this,sn1),def_prop(foreplay,[attivita]),def_prop(rap,[attivita,evento,informa])])
+lf(7verses Lyrics.txt_16,143,cl22-nil-nil-keep-[])
+lf(7verses Lyrics.txt_16,143,nil-nil-nil-demo-[obj-goal-healthy-sn4,xcomp-purpose-keep-2,obj-theme_aff-tape-sn3,subj-agent-SoBe-sn2,subj-agent-SoBe-sn1,and(healthy,me,sn4),and(SoBe,you,sn1),def_prop(healthy,[stato,temp]),def_prop(tape,[luogo,oggetto,strumento]),def_prop(SoBe,[istituzione,umano]),def_prop(SoBe,[istituzione,umano])])
+lf(7verses Lyrics.txt_17,161,cl23-nil-nil-keep-[iobj-goal-mind-sn3,obj-goal-me-sn2,subj-experiencer-you-sn1,def_prop(mind,[astratto]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(7verses Lyrics.txt_18,179,cl25-nil-nil-shoot-[subj-agent-you-sn6,def_prop(you,[umano])])
+lf(7verses Lyrics.txt_18,179,cl24-nil-nil-write-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,scribble,sn1),and(you,all,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(7verses Lyrics.txt_19,199,cl27-nil-nil-get-[subj-experiencer-you-sn8,xadj-theme-im-sn6,subj-experiencer-you-sn5,ncmod-loc_origin-me-sn3,and(im,im,sn6),def_prop(you,[umano]),def_prop(im,[legale]),def_prop(you,[umano]),def_prop(me,[umano])])
+lf(7verses Lyrics.txt_19,199,cl26-nil-nil-take-[expl-it-nil,subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(7verses Lyrics.txt_20,220,cl29-nil-nil-catch-[subj-agent-you-sn3,xcomp-theme-wack-sn2,def_prop(you,[umano]),def_prop(wack,[istituzione])])
+lf(7verses Lyrics.txt_20,220,cl28-nil-nil-expose-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(7verses Lyrics.txt_21,242,cl30-nil-nil-be-[xcomp-theme-im-sn2,subj-theme_bound-rappin-sn1,def_prop(im,[legale]),def_prop(rappin,[istituzione])])
+lf(7verses Lyrics.txt_22,264,cl32-nil-nil-be-[xcomp-prop-Yo-sn5,subj-theme_bound-it-sn4,def_prop(Yo,[umano]),def_prop(it,[any])])
+lf(7verses Lyrics.txt_22,264,cl31-nil-will-will-[adj-temporal-end-nil,subj-agent-flow-sn1,and(flow,sick,sn1),def_prop(flow,[attivita,evento,tempo])])
+lf(7verses Lyrics.txt_23,288,cl33-nil-nil-know-[subj-actor-as_if-sn2,subj-actor-as_if-sn1,and(as_if,keep,sn2),and(as_if,playin,sn2),and(as_if,keep,sn1),and(as_if,playin,sn1),def_prop(as_if,[istituzione,umano]),def_prop(as_if,[istituzione,umano])])
+lf(7verses Lyrics.txt_24,312,cl34-nil-nil-slow-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,actin,sn1),and(you,Yall,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(7verses Lyrics.txt_25,337,cl35-nil-nil-be-[ncmod-specif-spittin-sn2,subj-theme_bound-you-sn1,def_prop(spittin,[istituzione]),def_prop(you,[umano])])
+lf(7verses Lyrics.txt_26,363,cl36-nil-nil-get-[adj-(mod)-still-nil,obj-theme_unaff-dick-sn2,subj-agent-i-sn1,and(dick,that,sn2),def_prop(dick,[umano]),def_prop(i,[umano])])
+lf(7verses Lyrics.txt_27,390,cl38-nil-nil-be-[xcomp-prop-chicken-sn5,xcomp-theme-mcdonlds-sn4,ncmod-locativo-track-sn3,subj-theme_bound-you-sn2,def_prop(chicken,[animato,edible,evento,oggetto]),def_prop(mcdonlds,[istituzione]),def_prop(track,[attivita,oggetto,strumento]),def_prop(you,[umano])])
+lf(7verses Lyrics.txt_27,390,cl37-nil-nil-fry-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(7verses Lyrics.txt_28,419,cl39-nil-nil-be-[subj-theme_bound-lickin-sn5,xcomp-prop-tasty-sn2,subj-theme_bound-word-sn1,and(lickin,finger,sn5),def_prop(lickin,[istituzione]),def_prop(tasty,[valutativo]),def_prop(word,[attivita,informa,nquant])])

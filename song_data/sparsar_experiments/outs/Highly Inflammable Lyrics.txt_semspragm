@@ -1,0 +1,122 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Highly Inflammable Lyrics.txt_1-1  []-positive  []
+Highly Inflammable Lyrics.txt_2-3  []-positive  []
+Highly Inflammable Lyrics.txt_3-6  []-negative  [neg]
+Highly Inflammable Lyrics.txt_4-10  []-negative  [neg]
+Highly Inflammable Lyrics.txt_5-15  []-positive  []
+Highly Inflammable Lyrics.txt_5-16  []-positive  []
+Highly Inflammable Lyrics.txt_6-22  []-positive  []
+Highly Inflammable Lyrics.txt_6-23  []-positive  []
+Highly Inflammable Lyrics.txt_7-30  []-negative  []
+Highly Inflammable Lyrics.txt_8-38  [but-advers]-positive  [fgb]
+Highly Inflammable Lyrics.txt_9-47  []-negative  [fgb,neg]
+Highly Inflammable Lyrics.txt_10-57  []-negative  [neg,neg]
+Highly Inflammable Lyrics.txt_10-58  [if-hypoth]-positive  [fgb]
+Highly Inflammable Lyrics.txt_11-68  []-positive  []
+Highly Inflammable Lyrics.txt_12-80  []-positive  []
+Highly Inflammable Lyrics.txt_13-93  []-positive  []
+Highly Inflammable Lyrics.txt_14-107  []-positive  []
+Highly Inflammable Lyrics.txt_15-122  []-suspension  []
+Highly Inflammable Lyrics.txt_16-139  []-positive  [ack]
+Highly Inflammable Lyrics.txt_17-156  []-negative  []
+Highly Inflammable Lyrics.txt_18-174  []-positive  []
+Highly Inflammable Lyrics.txt_18-175  []-positive  []
+Highly Inflammable Lyrics.txt_19-194  []-positive  []
+Highly Inflammable Lyrics.txt_19-195  []-positive  []
+Highly Inflammable Lyrics.txt_20-215  [but-advers]-positive  [fgb]
+Highly Inflammable Lyrics.txt_21-236  []-negative  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Highly Inflammable Lyrics.txt_1-1  [highly,Inflammable,Lyrics,by,X-Ray,Spex]  [title]
+Highly Inflammable Lyrics.txt_2-3  [highly,inflammable]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Highly Inflammable Lyrics.txt_3-6  [neurotic,tensions]  reject_expl_opin(nil,[])
+Highly Inflammable Lyrics.txt_4-10  [waiting,to,explode]  [reject_expl_just(explode,[external,factive,narration,background,objective])]
+Highly Inflammable Lyrics.txt_5-15  [i,thought]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Highly Inflammable Lyrics.txt_5-16  [you,were,a,man]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Highly Inflammable Lyrics.txt_6-22  [you,thought]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Highly Inflammable Lyrics.txt_6-23  [i,was,a,woman]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Highly Inflammable Lyrics.txt_7-30  [risen,overflowed]  reject_expl_opin(nil,[])
+Highly Inflammable Lyrics.txt_8-38  [but,i,was,Tinkerbell]  [proposal(be,[_302944,_302950,statement,foreground,_302968])]
+Highly Inflammable Lyrics.txt_9-47  [and,you,were,Peter,pan]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Highly Inflammable Lyrics.txt_10-57  [it,is,not,hip,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Highly Inflammable Lyrics.txt_10-58  [if,you,are,retro]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Highly Inflammable Lyrics.txt_11-68  [influenced,by,the,fashion,pages]  [provide_expl_just(influence,[external,factive,cause,foreground,objective])]
+Highly Inflammable Lyrics.txt_12-80  [influenced,by,other-s,phrases]  [provide_expl_just(influence,[external,factive,cause,foreground,objective])]
+Highly Inflammable Lyrics.txt_13-93  [you,are,a,pseudo,quasi,intellectual]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Highly Inflammable Lyrics.txt_14-107  [supreme,equality]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Highly Inflammable Lyrics.txt_15-122  [we,used,to,compete]  [provide_expl_just(use,[external,factive,cause,foreground,objective])]
+Highly Inflammable Lyrics.txt_16-139  [the,right,to,decide]  [provide_expl_just(decide,[external,factive,narration,background,objective])]
+Highly Inflammable Lyrics.txt_17-156  [is,denied,to,the,sheep]  [provide_expl_just(deny,[external,factive,cause,foreground,objective])]
+Highly Inflammable Lyrics.txt_18-174  [i,thought]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Highly Inflammable Lyrics.txt_18-175  [you,were,a,man]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Highly Inflammable Lyrics.txt_19-194  [you,thought]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Highly Inflammable Lyrics.txt_19-195  [i,was,a,woman]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Highly Inflammable Lyrics.txt_20-215  [but,i,was,Tinkerbell]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Highly Inflammable Lyrics.txt_21-236  [and,you,were,Peter,pan]  [reject_expl_just(be,[_310320,_310326,_310332,_310338,_310344])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Highly Inflammable Lyrics.txt_1-1)-[primary-height]
+2-(Highly Inflammable Lyrics.txt_2-3)-[primary-height]
+3-(Highly Inflammable Lyrics.txt_3-6)-[primary-counscious]
+4-(Highly Inflammable Lyrics.txt_4-10)-[]
+5-(Highly Inflammable Lyrics.txt_5-15)-[secondary-abstract_tought]
+6-(Highly Inflammable Lyrics.txt_5-16)-[]
+7-(Highly Inflammable Lyrics.txt_6-22)-[secondary-abstract_tought]
+8-(Highly Inflammable Lyrics.txt_6-23)-[]
+9-(Highly Inflammable Lyrics.txt_7-30)-[primary-ascend,primary-water]
+10-(Highly Inflammable Lyrics.txt_8-38)-[]
+11-(Highly Inflammable Lyrics.txt_9-47)-[]
+12-(Highly Inflammable Lyrics.txt_10-57)-[primary-narcissism]
+13-(Highly Inflammable Lyrics.txt_10-58)-[]
+half
+14-(Highly Inflammable Lyrics.txt_11-68)-[secondary-social_behavior]
+15-(Highly Inflammable Lyrics.txt_12-80)-[secondary-social_behavior]
+16-(Highly Inflammable Lyrics.txt_13-93)-[]
+17-(Highly Inflammable Lyrics.txt_14-107)-[emotions-glory]
+18-(Highly Inflammable Lyrics.txt_15-122)-[secondary-instru_behavior]
+19-(Highly Inflammable Lyrics.txt_16-139)-[secondary-moral_imperative,secondary-abstract_tought]
+20-(Highly Inflammable Lyrics.txt_17-156)-[]
+21-(Highly Inflammable Lyrics.txt_18-174)-[secondary-abstract_tought]
+22-(Highly Inflammable Lyrics.txt_18-175)-[]
+23-(Highly Inflammable Lyrics.txt_19-194)-[secondary-abstract_tought]
+24-(Highly Inflammable Lyrics.txt_19-195)-[]
+25-(Highly Inflammable Lyrics.txt_20-215)-[]
+26-(Highly Inflammable Lyrics.txt_21-236)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Highly Inflammable Lyrics.txt_1,1,cl1-nil-nil-x-ray-[adj-(mod)-highly-nil,obj-theme-Spex-sn2,subj-agent-Lyrics-sn1,and(Lyrics,Inflammable,sn1),def_prop(Spex,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Highly Inflammable Lyrics.txt_2,3,cl2-nil-nil-say-[])
+lf(Highly Inflammable Lyrics.txt_3,6,cl3-nil-nil-say-[obj-theme_unaff-tension-sn1,and(tension,neurotic,sn1),def_prop(tension,[attivita,cambia,stato])])
+lf(Highly Inflammable Lyrics.txt_4,10,cl4-nil-nil-explode-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Highly Inflammable Lyrics.txt_5,15,cl6-nil-nil-be-[xcomp-prop-man-sn3,subj-theme_bound-you-sn2,def_prop(man,[any]),def_prop(you,[umano])])
+lf(Highly Inflammable Lyrics.txt_5,15,cl5-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Highly Inflammable Lyrics.txt_6,22,cl8-nil-nil-be-[xcomp-prop-woman-sn3,subj-theme_bound-i-sn2,def_prop(woman,[any]),def_prop(i,[umano])])
+lf(Highly Inflammable Lyrics.txt_6,22,cl7-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Highly Inflammable Lyrics.txt_7,30,cl9-nil-nil-overflow-[])
+lf(Highly Inflammable Lyrics.txt_8,38,cl10-nil-nil-be-[xcomp-prop-Tinkerbell-sn2,subj-theme_bound-i-sn1,def_prop(Tinkerbell,[istituzione,umano]),def_prop(i,[umano])])
+lf(Highly Inflammable Lyrics.txt_9,47,cl11-nil-nil-be-[cmod-subord-be-",xcomp-prop-pan-sn2,subj-theme_bound-you-sn1,and(pan,Peter,sn2),def_prop(pan,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Highly Inflammable Lyrics.txt_10,57,cl12-not-nil-be-[xcomp-prop-retro-sn4,subj-theme_bound-you-sn3,xcomp-prop-hip-sn2,subj-theme_bound-it-sn1,def_prop(retro,[astratto]),def_prop(you,[umano]),def_prop(hip,[body_part,plant,umano]),def_prop(it,[any])])
+lf(Highly Inflammable Lyrics.txt_11,68,cl13-nil-nil-influence-[obj-theme-page-sn2,arg_mod-agent-fashion-sn1,def_prop(page,[attivita,informa,umano]),def_prop(fashion,[astratto,attivita])])
+lf(Highly Inflammable Lyrics.txt_12,80,cl14-nil-nil-influence-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Highly Inflammable Lyrics.txt_13,93,cl15-nil-nil-be-[xcomp-prop-intellectual-sn2,subj-theme_bound-you-sn1,and(intellectual,pseudo,sn2),and(intellectual,quasi,sn2),def_prop(intellectual,[umano]),def_prop(you,[umano])])
+lf(Highly Inflammable Lyrics.txt_14,107,cl16-nil-nil-say-[obj-theme_unaff-equality-sn1,and(equality,supreme,sn1),def_prop(equality,[astratto,stato])])
+lf(Highly Inflammable Lyrics.txt_15,122,cl18-nil-nil-compete-[subj-actor2-we-sn1,def_prop(we,[umano])])
+lf(Highly Inflammable Lyrics.txt_15,122,cl17-nil-nil-use-[subj-actor-we-sn1,def_prop(we,[umano])])
+lf(Highly Inflammable Lyrics.txt_16,139,cl19-nil-nil-decide-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Highly Inflammable Lyrics.txt_17,156,cl20-nil-nil-deny-[obj2-goal-sheep-sn2,subj-goal-you-sn1,aux-(is)-nil,def_prop(sheep,[animato,umano]),def_prop(you,[umano])])
+lf(Highly Inflammable Lyrics.txt_18,174,cl22-nil-nil-be-[xcomp-prop-man-sn3,subj-theme_bound-you-sn2,def_prop(man,[any]),def_prop(you,[umano])])
+lf(Highly Inflammable Lyrics.txt_18,174,cl21-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Highly Inflammable Lyrics.txt_19,194,cl24-nil-nil-be-[xcomp-prop-woman-sn3,subj-theme_bound-i-sn2,def_prop(woman,[any]),def_prop(i,[umano])])
+lf(Highly Inflammable Lyrics.txt_19,194,cl23-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Highly Inflammable Lyrics.txt_20,215,cl25-nil-nil-be-[xcomp-prop-Tinkerbell-sn2,subj-theme_bound-i-sn1,def_prop(Tinkerbell,[istituzione,umano]),def_prop(i,[umano])])
+lf(Highly Inflammable Lyrics.txt_21,236,cl26-nil-nil-be-[cmod-subord-be-",xcomp-prop-pan-sn2,subj-theme_bound-you-sn1,and(pan,Peter,sn2),def_prop(pan,[oggetto,strumento]),def_prop(you,[umano])])

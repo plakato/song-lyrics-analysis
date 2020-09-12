@@ -1,0 +1,26 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Hello 1984 Lyrics.txt_1-1  []-positive  []
+Hello 1984 Lyrics.txt_2-3  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Hello 1984 Lyrics.txt_1-1  [1984,hello,Lyrics,by,ZSK]  [title]
+Hello 1984 Lyrics.txt_2-3  [welcome,to,a,life,where,you,got,nothing,to,hide,count,the,hours]  [reject_expl_just(count,[external,factive,explanation,background,objective]),propose_opin_neg(count,[external,factive,explanation,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Hello 1984 Lyrics.txt_1-1)-[]
+half
+2-(Hello 1984 Lyrics.txt_2-3)-[emotions-affection,primary-concreteness,secondary-instru_behavior,secondary-temporal_repere]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Hello 1984 Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-ZSK-sn2,subj-theme_bound-Lyrics-sn1,def_prop(ZSK,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Hello 1984 Lyrics.txt_2,3,cl2-nil-nil-count-[obj-theme-hours-sn2,subj-actor-nothing-sn1,def_prop(hours,[tempo]),def_prop(nothing,[astratto,informa,oggetto])])

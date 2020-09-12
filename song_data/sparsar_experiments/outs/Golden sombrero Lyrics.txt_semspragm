@@ -1,0 +1,88 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Golden sombrero Lyrics.txt_1-1  []-positive  []
+Golden sombrero Lyrics.txt_2-3  []-negative  []
+Golden sombrero Lyrics.txt_3-6  []-suspension  [fgb,neg]
+Golden sombrero Lyrics.txt_4-10  []-suspension  []
+Golden sombrero Lyrics.txt_5-15  []-suspension  []
+Golden sombrero Lyrics.txt_6-21  []-suspension  []
+Golden sombrero Lyrics.txt_7-28  []-suspension  []
+Golden sombrero Lyrics.txt_8-36  []-negative  []
+Golden sombrero Lyrics.txt_9-45  []-negative  []
+Golden sombrero Lyrics.txt_10-55  []-negative  []
+Golden sombrero Lyrics.txt_11-66  []-negative  []
+Golden sombrero Lyrics.txt_12-78  []-negative  []
+Golden sombrero Lyrics.txt_13-91  []-negative  []
+Golden sombrero Lyrics.txt_14-107  []-negative  []
+Golden sombrero Lyrics.txt_15-122  []-negative  []
+Golden sombrero Lyrics.txt_16-140  []-negative  []
+Golden sombrero Lyrics.txt_17-158  []-negative  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Golden sombrero Lyrics.txt_1-1  [golden,sombrero,Lyrics,by,Work,Drugz]  [title]
+Golden sombrero Lyrics.txt_2-3  [fighting,off,the,future,with,pencil,lead]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Golden sombrero Lyrics.txt_3-6  [a,subtle,life,of,lunacy,and,regret]  [propose_opin_neg(regret,[external,factive,explanation,background,objective])]
+Golden sombrero Lyrics.txt_4-10  [i,will,go,on,without,you]  [provide_expl_just(go,[external,nonfactive,narration,background,objective])]
+Golden sombrero Lyrics.txt_5-15  [i,will,go,on,without,you]  [provide_expl_just(go,[external,nonfactive,narration,background,objective])]
+Golden sombrero Lyrics.txt_6-21  [i,will,go,on,without,you]  [provide_expl_just(go,[external,nonfactive,narration,background,objective])]
+Golden sombrero Lyrics.txt_7-28  [i,will,go,on,without,you]  [provide_expl_just(go,[external,nonfactive,narration,background,objective])]
+Golden sombrero Lyrics.txt_8-36  [don-t,take,my,words,to,heart]  [provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Golden sombrero Lyrics.txt_9-45  [don-t,walk,away,from,the,stains,of,who,you,are]  [proposal(be,[_175742,_175748,statement,foreground,_175766])]
+Golden sombrero Lyrics.txt_10-55  [don-t,take,my,words,to,heart]  [provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Golden sombrero Lyrics.txt_11-66  [don-t,walk,away,from,the,stains,of,who,you,are]  [proposal(be,[_176488,_176494,statement,foreground,_176512])]
+Golden sombrero Lyrics.txt_12-78  [don-t,take,my,words,to,heart]  [provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Golden sombrero Lyrics.txt_13-91  [don-t,wash,away,the,stains,it,is,who,you,are,.,you,are]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Golden sombrero Lyrics.txt_14-107  [don-t,take,my,words,to,heart]  [provide_expl_just(take,[external,factive,narration,foreground,objective])]
+Golden sombrero Lyrics.txt_15-122  [don-t,wash,away,the,stains,it,is,who,you,are,.,you,are]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Golden sombrero Lyrics.txt_16-140  [don-t,wash,away,the,start,don-t,wash,away,the,start]  [provide_expl_just(wash,[external,factive,narration,foreground,objective])]
+Golden sombrero Lyrics.txt_17-158  [don-t,wash,away,the,start,don-t,wash,away,the,start]  [provide_expl_just(wash,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Golden sombrero Lyrics.txt_1-1)-[emotions-glory]
+2-(Golden sombrero Lyrics.txt_2-3)-[primary-concreteness]
+3-(Golden sombrero Lyrics.txt_3-6)-[primary-counscious,emotions-sadness]
+4-(Golden sombrero Lyrics.txt_4-10)-[]
+5-(Golden sombrero Lyrics.txt_5-15)-[]
+6-(Golden sombrero Lyrics.txt_6-21)-[]
+7-(Golden sombrero Lyrics.txt_7-28)-[]
+8-(Golden sombrero Lyrics.txt_8-36)-[primary-narcissism]
+half
+9-(Golden sombrero Lyrics.txt_9-45)-[primary-concreteness]
+10-(Golden sombrero Lyrics.txt_10-55)-[primary-narcissism]
+11-(Golden sombrero Lyrics.txt_11-66)-[primary-concreteness]
+12-(Golden sombrero Lyrics.txt_12-78)-[primary-narcissism]
+13-(Golden sombrero Lyrics.txt_13-91)-[primary-water,primary-concreteness]
+14-(Golden sombrero Lyrics.txt_14-107)-[primary-narcissism]
+15-(Golden sombrero Lyrics.txt_15-122)-[primary-water,primary-concreteness]
+16-(Golden sombrero Lyrics.txt_16-140)-[primary-water,primary-concreteness,primary-vision,primary-water,primary-concreteness,primary-vision]
+17-(Golden sombrero Lyrics.txt_17-158)-[primary-water,primary-concreteness,primary-vision,primary-water,primary-concreteness,primary-vision]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Golden sombrero Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Drugz-sn2,subj-theme_bound-Lyrics-sn1,and(Drugz,Work,sn2),and(Lyrics,sombrero,sn1),and(Lyrics,golden,sn1),def_prop(Drugz,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Golden sombrero Lyrics.txt_2,3,cl2-nil-nil-be-[xadj-adj-fighting-adj1,ncmod-comitativo-lead-sn2,ncmod-locativo-future-sn1,and(lead,pencil,sn2),def_prop(fighting,_181068),def_prop(lead,[astratto,attivita,informa,luogo,oggetto,sostanza,strumento]),def_prop(future,[attivita,informa,oggetto,strumento,tempo])])
+lf(Golden sombrero Lyrics.txt_3,6,cl3-nil-nil-regret-[subj-experiencer-life-sn1,and(life,subtle,sn1),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(Golden sombrero Lyrics.txt_4,10,cl4-nil-will-go-[iobj-goal-you-sn2,subj-agent-i-sn1,def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Golden sombrero Lyrics.txt_5,15,cl5-nil-will-go-[iobj-goal-you-sn2,subj-agent-i-sn1,def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Golden sombrero Lyrics.txt_6,21,cl6-nil-will-go-[iobj-goal-you-sn2,subj-agent-i-sn1,def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Golden sombrero Lyrics.txt_7,28,cl7-nil-will-go-[iobj-goal-you-sn2,subj-agent-i-sn1,def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Golden sombrero Lyrics.txt_8,36,cl8-not-nil-take-[obj-theme_aff-word-sn2,subj-agent-you-sn1,aux-do-nil,def_prop(word,[attivita,informa,nquant]),def_prop(you,[umano])])
+lf(Golden sombrero Lyrics.txt_9,45,cl9-not-nil-walk-[adj-(mod)-away-nil,adj-subj_disc-away-sn4,ncmod-specif-who-sn3,iobj-goal-stain-sn2,subj-agent-you-sn1,aux-do-nil,def_prop(away,[istituzione]),def_prop(away,[istituzione]),def_prop(who,[umano]),def_prop(stain,[astratto,sostanza]),def_prop(you,[umano])])
+lf(Golden sombrero Lyrics.txt_10,55,cl10-not-nil-take-[obj-theme_aff-word-sn2,subj-agent-you-sn1,aux-do-nil,def_prop(word,[attivita,informa,nquant]),def_prop(you,[umano])])
+lf(Golden sombrero Lyrics.txt_11,66,cl11-not-nil-walk-[adj-(mod)-away-nil,adj-subj_disc-away-sn4,ncmod-specif-who-sn3,iobj-goal-stain-sn2,subj-agent-you-sn1,aux-do-nil,def_prop(away,[istituzione]),def_prop(away,[istituzione]),def_prop(who,[umano]),def_prop(stain,[astratto,sostanza]),def_prop(you,[umano])])
+lf(Golden sombrero Lyrics.txt_12,78,cl12-not-nil-take-[obj-theme_aff-word-sn2,subj-agent-you-sn1,aux-do-nil,def_prop(word,[attivita,informa,nquant]),def_prop(you,[umano])])
+lf(Golden sombrero Lyrics.txt_13,91,cl14-nil-nil-be-[subj-theme_bound-it-sn2,subj-theme_bound-you-sn7,xadj-theme-stain-sn6,xcomp-prop-who-sn4,xcomp-purpose-be-4,def_prop(it,[any]),def_prop(you,[umano]),def_prop(stain,[astratto,sostanza]),def_prop(who,[umano])])
+lf(Golden sombrero Lyrics.txt_13,91,cl13-not-nil-wash-[xcomp-prop-away-sn3,subj-actor-it-sn2,subj-actor-it-sn1,aux-do-nil,and(it,you,sn1),def_prop(away,[evaluative]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Golden sombrero Lyrics.txt_14,107,cl15-not-nil-take-[obj-theme_aff-word-sn2,subj-agent-you-sn1,aux-do-nil,def_prop(word,[attivita,informa,nquant]),def_prop(you,[umano])])
+lf(Golden sombrero Lyrics.txt_15,122,cl17-nil-nil-be-[subj-theme_bound-it-sn2,subj-theme_bound-you-sn7,xadj-theme-stain-sn6,xcomp-prop-who-sn4,xcomp-purpose-be-4,def_prop(it,[any]),def_prop(you,[umano]),def_prop(stain,[astratto,sostanza]),def_prop(who,[umano])])
+lf(Golden sombrero Lyrics.txt_15,122,cl16-not-nil-wash-[xcomp-prop-away-sn3,subj-actor-it-sn2,subj-actor-it-sn1,aux-do-nil,and(it,you,sn1),def_prop(away,[evaluative]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Golden sombrero Lyrics.txt_16,140,cl18-not-nil-wash-[xadj-theme-star-sn6,obj-theme-star-sn5,xcomp-result-away-sn4,xcomp-purpose-wash-3,subj-sn1-star-sn3,xcomp-prop-away-sn2,subj-actor-you-sn1,aux-do-nil,def_prop(star,[astratto,oggetto,umano]),def_prop(star,[astratto,oggetto,umano]),def_prop(away,[evaluative]),def_prop(star,[astratto,oggetto,umano]),def_prop(away,[evaluative]),def_prop(you,[umano])])
+lf(Golden sombrero Lyrics.txt_17,158,cl19-not-nil-wash-[xadj-theme-star-sn6,obj-theme-star-sn5,xcomp-result-away-sn4,xcomp-purpose-wash-3,subj-sn1-star-sn3,xcomp-prop-away-sn2,subj-actor-you-sn1,aux-do-nil,def_prop(star,[astratto,oggetto,umano]),def_prop(star,[astratto,oggetto,umano]),def_prop(away,[evaluative]),def_prop(star,[astratto,oggetto,umano]),def_prop(away,[evaluative]),def_prop(you,[umano])])

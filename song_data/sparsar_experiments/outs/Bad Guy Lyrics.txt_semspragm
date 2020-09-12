@@ -1,0 +1,187 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Bad Guy Lyrics.txt_1-1  []-positive  [neg]
+Bad Guy Lyrics.txt_2-3  []-positive  []
+Bad Guy Lyrics.txt_3-6  []-positive  []
+Bad Guy Lyrics.txt_4-11  []-positive  [neg,neg]
+Bad Guy Lyrics.txt_4-12  [when-temp_coinc]-positive  []
+Bad Guy Lyrics.txt_5-17  []-positive  []
+Bad Guy Lyrics.txt_6-24  []-positive  [neg,neg]
+Bad Guy Lyrics.txt_6-25  [when-temp_coinc]-positive  []
+Bad Guy Lyrics.txt_7-32  []-positive  []
+Bad Guy Lyrics.txt_8-40  []-positive  [fgb]
+Bad Guy Lyrics.txt_9-49  []-positive  [neg]
+Bad Guy Lyrics.txt_10-59  []-positive  []
+Bad Guy Lyrics.txt_11-70  []-positive  []
+Bad Guy Lyrics.txt_12-82  []-positive  []
+Bad Guy Lyrics.txt_13-95  []-positive  []
+Bad Guy Lyrics.txt_14-109  []-positive  []
+Bad Guy Lyrics.txt_15-124  []-positive  []
+Bad Guy Lyrics.txt_16-140  []-positive  [fgb]
+Bad Guy Lyrics.txt_16-141  []-positive  [fgb]
+Bad Guy Lyrics.txt_17-158  []-suspension  [neg,neg]
+Bad Guy Lyrics.txt_17-159  []-negative  [neg]
+Bad Guy Lyrics.txt_18-176  []-positive  []
+Bad Guy Lyrics.txt_19-195  []-positive  [fgb]
+Bad Guy Lyrics.txt_20-215  []-negative  [neg]
+Bad Guy Lyrics.txt_20-216  []-negative  [fgb,neg]
+Bad Guy Lyrics.txt_21-237  []-positive  []
+Bad Guy Lyrics.txt_22-259  []-positive  [fgb]
+Bad Guy Lyrics.txt_23-282  []-negative  [neg]
+Bad Guy Lyrics.txt_24-306  []-positive  []
+Bad Guy Lyrics.txt_24-307  []-positive  []
+Bad Guy Lyrics.txt_25-332  []-positive  []
+Bad Guy Lyrics.txt_25-333  [when-temp_coinc]-suspension  [neg,neg,neg]
+Bad Guy Lyrics.txt_26-358  []-positive  []
+Bad Guy Lyrics.txt_27-385  []-positive  []
+Bad Guy Lyrics.txt_28-413  []-positive  []
+Bad Guy Lyrics.txt_28-414  [when-temp_coinc]-negative  [neg]
+Bad Guy Lyrics.txt_29-442  []-negative  [neg]
+Bad Guy Lyrics.txt_30-472  []-negative  []
+Bad Guy Lyrics.txt_31-504  []-positive  []
+Bad Guy Lyrics.txt_31-505  [when-temp_coinc]-negative  [neg]
+Bad Guy Lyrics.txt_32-536  []-negative  [neg]
+Bad Guy Lyrics.txt_33-569  []-positive  []
+Bad Guy Lyrics.txt_34-603  []-suspension  [neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Bad Guy Lyrics.txt_1-1  [3OH,Guy,by,Lyrics,bad,!]  [title]
+Bad Guy Lyrics.txt_2-3  [3]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Bad Guy Lyrics.txt_3-6  [gather,up,your,loved,ones,gather,up,your,friends]  [provide_expl_just(gather,[external,factive,explanation,background,objective])]
+Bad Guy Lyrics.txt_4-11  [cause,the,bad,a,bad,guy,guy,this,is]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(win,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_4-12  [when,wins]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(win,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_5-17  [gather,up,your,loved,ones,gather,up,your,friends]  [provide_expl_just(gather,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_6-24  [cause,the,bad,a,bad,guy,guy,this,is]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(win,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_6-25  [when,wins]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(win,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_7-32  [now,there,once,was,a,man]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Bad Guy Lyrics.txt_8-40  [who,was,tall,and,handsome]  [proposal(be,[_734684,_734690,statement,foreground,_734708])]
+Bad Guy Lyrics.txt_9-49  [the,best,shot,in,the,land]  [provide_expl_just(shoot,[external,factive,narration,foreground,objective])]
+Bad Guy Lyrics.txt_10-59  [not_to_mention,good,at,dancing]  [raise_issue(be,[_735394,factive,statement,_735412,subjective])]
+Bad Guy Lyrics.txt_11-70  [a,hit,with,the,ladies]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_12-82  [a,heartthrob,with,the,daughters]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_13-95  [cool,with,the,guys]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_14-109  [regular,Roy,Rogers]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_15-124  [he,was,a,man,of,his,word]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Bad Guy Lyrics.txt_16-140  [and,he,did]  [provide_expl_just(do,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_16-141  [what,he,said,.,he,said]  [provide_expl_just(do,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_17-158  [that,is,until,an,outlaw,shot]  [provide_expl_just(shoot,[internal,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_17-159  [him,dead]  [reject_expl_just(shoot,[internal,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_18-176  [na,na,na,na,na,na,na,na,now,there,is,whiskey,in,the,water]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_19-195  [and,blood,in,the,creek]  [provide_expl_just(blood,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_20-215  [the,outlaw,a,glass,has,eye]  [reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_20-216  [and,a,scar,on,his,cheek]  [reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_21-237  [the,town,hall-s,a,saloon]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_22-259  [and,the,women,are,whores]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_23-282  [no,houses,around,to,put,locks,on,the,doors]  [reject_expl_just(put,[external,factive,narration,foreground,objective])]
+Bad Guy Lyrics.txt_24-306  [he,dreamt]  [provide_expl_just(dream,[external,factive,narration,foreground,objective])]
+Bad Guy Lyrics.txt_24-307  [he,was,a,king,safe,in,his,bed]  [provide_expl_just(dream,[external,factive,narration,foreground,objective])]
+Bad Guy Lyrics.txt_25-332  [that,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_25-333  [when,another,outlaw,shot,him,dead]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_26-358  [na,na,na,na,na,na,na,na,gather,up,loved,your,ones]  [provide_expl_just(gather,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_27-385  [gather,up,your,friends]  [provide_expl_just(gather,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_28-413  [cause,this,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_28-414  [when,the,bad,guy]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_29-442  [the,bad,guy,wins]  [reject_expl_just(win,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_30-472  [pray,to,a,church,that,God,forgives,your,sins]  [provide_expl_just(pray,[external,factive,narration,background,objective]),provide_expl_just(forgive,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_31-504  [cause,this,is]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_31-505  [when,the,bad,guy]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_32-536  [the,bad,guy,wins]  [reject_expl_just(win,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_33-569  [na,na,na,na,na,na]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Bad Guy Lyrics.txt_34-603  [shot,him,dead]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Bad Guy Lyrics.txt_1-1)-[]
+2-(Bad Guy Lyrics.txt_2-3)-[]
+3-(Bad Guy Lyrics.txt_3-6)-[emotions-affection,emotions-affection]
+4-(Bad Guy Lyrics.txt_4-11)-[secondary-abstract_tought]
+5-(Bad Guy Lyrics.txt_4-12)-[secondary-temporal_repere,secondary-instru_behavior]
+6-(Bad Guy Lyrics.txt_5-17)-[emotions-affection,emotions-affection]
+7-(Bad Guy Lyrics.txt_6-24)-[secondary-abstract_tought]
+8-(Bad Guy Lyrics.txt_6-25)-[secondary-temporal_repere,secondary-instru_behavior]
+9-(Bad Guy Lyrics.txt_7-32)-[secondary-temporal_repere,secondary-temporal_repere]
+10-(Bad Guy Lyrics.txt_8-40)-[primary-height]
+11-(Bad Guy Lyrics.txt_9-49)-[emotions-aggression]
+12-(Bad Guy Lyrics.txt_10-59)-[primary-concreteness]
+13-(Bad Guy Lyrics.txt_11-70)-[emotions-aggression]
+14-(Bad Guy Lyrics.txt_12-82)-[]
+15-(Bad Guy Lyrics.txt_13-95)-[primary-cold]
+16-(Bad Guy Lyrics.txt_14-109)-[secondary-order]
+17-(Bad Guy Lyrics.txt_15-124)-[]
+18-(Bad Guy Lyrics.txt_16-140)-[]
+19-(Bad Guy Lyrics.txt_16-141)-[secondary-social_behavior,secondary-social_behavior]
+20-(Bad Guy Lyrics.txt_17-158)-[emotions-aggression]
+21-(Bad Guy Lyrics.txt_17-159)-[primary-passivity]
+half
+22-(Bad Guy Lyrics.txt_18-176)-[secondary-temporal_repere,primary-orality,primary-water]
+23-(Bad Guy Lyrics.txt_19-195)-[primary-narcissism,primary-water]
+24-(Bad Guy Lyrics.txt_20-215)-[primary-hard,primary-narcissism]
+25-(Bad Guy Lyrics.txt_20-216)-[primary-narcissism]
+26-(Bad Guy Lyrics.txt_21-237)-[primary-brink]
+27-(Bad Guy Lyrics.txt_22-259)-[primary-sex]
+28-(Bad Guy Lyrics.txt_23-282)-[secondary-restraint,primary-brink]
+29-(Bad Guy Lyrics.txt_24-306)-[primary-counscious]
+30-(Bad Guy Lyrics.txt_24-307)-[primary-passivity,primary-passivity]
+31-(Bad Guy Lyrics.txt_25-332)-[]
+32-(Bad Guy Lyrics.txt_25-333)-[secondary-temporal_repere,emotions-aggression,primary-passivity]
+33-(Bad Guy Lyrics.txt_26-358)-[emotions-affection]
+34-(Bad Guy Lyrics.txt_27-385)-[emotions-affection]
+35-(Bad Guy Lyrics.txt_28-413)-[secondary-abstract_tought]
+36-(Bad Guy Lyrics.txt_28-414)-[secondary-temporal_repere]
+37-(Bad Guy Lyrics.txt_29-442)-[secondary-instru_behavior]
+38-(Bad Guy Lyrics.txt_30-472)-[secondary-social_behavior]
+39-(Bad Guy Lyrics.txt_31-504)-[secondary-abstract_tought]
+40-(Bad Guy Lyrics.txt_31-505)-[secondary-temporal_repere]
+41-(Bad Guy Lyrics.txt_32-536)-[secondary-instru_behavior]
+42-(Bad Guy Lyrics.txt_33-569)-[]
+43-(Bad Guy Lyrics.txt_34-603)-[emotions-aggression,primary-passivity]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Bad Guy Lyrics.txt_1,1,cl1-nil-nil-be-[subj-theme_bound-Lyrics-sn1,def_prop(Lyrics,[istituzione])])
+lf(Bad Guy Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-3-sn1,def_prop(3,[nquant])])
+lf(Bad Guy Lyrics.txt_3,6,cl3-nil-nil-gather-[xadj-adj-loved-adj1,adj-(mod)-up-nil,adj-subj_disc-up-sn6,obj-goal-loved-sn5,adj-subj_disc-up-sn4,obj-goal-friend-sn3,xcomp-purpose-gather-2,xcomp-prop-your-sn2,subj-agent-you-sn1,def_prop(loved,_759470),def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(loved,[evaluative]),def_prop(up,[istituzione]),def_prop(friend,[umano]),def_prop(your,[evaluative]),def_prop(you,[umano])])
+lf(Bad Guy Lyrics.txt_4,11,cl5-nil-nil-win-[subj-actor-you-sn7,def_prop(you,[umano])])
+lf(Bad Guy Lyrics.txt_4,11,cl4-nil-nil-be-[subj-theme_bound-this-sn3,subj-theme_bound-this-sn2,subj-theme_bound-guy-sn1,and(this,guy,sn2),and(this,bad,sn2),and(guy,cause,sn1),and(guy,bad,sn1),def_prop(this,[oggetto,umano]),def_prop(this,[oggetto,umano]),def_prop(guy,[oggetto,strumento,umano])])
+lf(Bad Guy Lyrics.txt_5,17,cl6-nil-nil-gather-[xadj-adj-loved-adj2,adj-(mod)-up-nil,adj-subj_disc-up-sn6,obj-goal-loved-sn5,adj-subj_disc-up-sn4,obj-goal-friend-sn3,xcomp-purpose-gather-2,xcomp-prop-your-sn2,subj-agent-you-sn1,def_prop(loved,_760120),def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(loved,[evaluative]),def_prop(up,[istituzione]),def_prop(friend,[umano]),def_prop(your,[evaluative]),def_prop(you,[umano])])
+lf(Bad Guy Lyrics.txt_6,24,cl8-nil-nil-win-[subj-actor-you-sn7,def_prop(you,[umano])])
+lf(Bad Guy Lyrics.txt_6,24,cl7-nil-nil-be-[subj-theme_bound-this-sn3,subj-theme_bound-this-sn2,subj-theme_bound-guy-sn1,and(this,guy,sn2),and(this,bad,sn2),and(guy,cause,sn1),and(guy,bad,sn1),def_prop(this,[oggetto,umano]),def_prop(this,[oggetto,umano]),def_prop(guy,[oggetto,strumento,umano])])
+lf(Bad Guy Lyrics.txt_7,32,cl9-nil-nil-be-[])
+lf(Bad Guy Lyrics.txt_8,40,cl10-nil-nil-be-[subj-theme_bound-who-sn1,def_prop(who,[umano])])
+lf(Bad Guy Lyrics.txt_9,49,cl11-nil-nil-shoot-[ncmod-locativo-land-sn2,subj-agent-best-sn1,def_prop(land,[astratto,oggetto]),def_prop(best,[attivita,umano])])
+lf(Bad Guy Lyrics.txt_10,59,cl12-nil-nil-dance-[subj-actor-pro-nil])
+lf(Bad Guy Lyrics.txt_11,70,cl13-nil-nil-be-[ncmod-comitativo-lady-sn2,subj-theme_bound-you-sn1,def_prop(lady,[plant,umano]),def_prop(you,[umano])])
+lf(Bad Guy Lyrics.txt_12,82,cl14-nil-nil-be-[ncmod-comitativo-daughter-sn2,subj-theme_bound-heartthrob-sn1,def_prop(daughter,[umano]),def_prop(heartthrob,[umano])])
+lf(Bad Guy Lyrics.txt_13,95,cl15-nil-nil-be-[xadj-adj-cool-adj3,ncmod-comitativo-guy-sn1,def_prop(cool,_761184),def_prop(guy,[oggetto,strumento,umano])])
+lf(Bad Guy Lyrics.txt_14,109,cl16-nil-nil-be-[ncmod-modal-Roy-sn2,subj-theme_bound-you-sn1,def_prop(Roy,[place,umano]),def_prop(you,[umano])])
+lf(Bad Guy Lyrics.txt_15,124,cl17-nil-nil-be-[xcomp-prop-man-sn2,subj-theme_bound-he-sn1,def_prop(man,[any]),def_prop(he,[umano])])
+lf(Bad Guy Lyrics.txt_16,140,cl19-nil-nil-say-[subj-actor-he-sn2,cmod-subord-say-",def_prop(he,[umano])])
+lf(Bad Guy Lyrics.txt_16,140,cl18-nil-nil-do-[subj-theme_unaff-you-sn1,aux-did-nil,def_prop(you,[umano])])
+lf(Bad Guy Lyrics.txt_17,158,cl20-nil-nil-be-[xcomp-prop-dead-sn3,subj-theme_bound-him-sn2,ncmod-modal-shoot-sn1,and(shoot,outlaw,sn1),def_prop(dead,[valutativo]),def_prop(him,[umano]),def_prop(shoot,[attivita,informa,plant])])
+lf(Bad Guy Lyrics.txt_18,176,cl21-nil-nil-be-[adj-(mod)-now-nil,ncmod-locativo-water-sn4,xcomp-prop-whiskey-sn3,subj-theme_bound-there-sn2,subj-theme_bound-there-sn1,and(there,na,sn1),def_prop(water,[edible,oggetto,sostanza]),def_prop(whiskey,[edible,oggetto]),def_prop(there,[any]),def_prop(there,[any])])
+lf(Bad Guy Lyrics.txt_19,195,cl22-nil-nil-blood-[cmod-subord-blood-",ncmod-locativo-creek-sn2,subj-actor-you-sn1,def_prop(creek,[luogo]),def_prop(you,[umano])])
+lf(Bad Guy Lyrics.txt_20,215,cl24-nil-nil-be-[cmod-subord-be-",ncmod-locativo-cheek-sn5,subj-theme_bound-scar-sn4,def_prop(cheek,[body_part,umano]),def_prop(scar,[stato])])
+lf(Bad Guy Lyrics.txt_20,215,cl23-nil-nil-have-[xcomp-tema_bound-eye-sn2,subj-experiencer-outlaw-sn1,and(eye,glass,sn2),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(outlaw,[relat,sociale,umano])])
+lf(Bad Guy Lyrics.txt_21,237,cl25-nil-nil-be-[subj-theme_bound-saloon-sn2,subj-theme_bound-saloon-sn1,and(saloon,town,sn1),and(saloon,hall-s,sn1),def_prop(saloon,[oggetto,strumento]),def_prop(saloon,[oggetto,strumento])])
+lf(Bad Guy Lyrics.txt_22,259,cl26-nil-nil-be-[cmod-subord-be-",xcomp-prop-whore-sn2,subj-theme_bound-woman-sn1,def_prop(whore,[umano]),def_prop(woman,[any])])
+lf(Bad Guy Lyrics.txt_23,282,cl27-nil-nil-put-[adj-(mod)-around-nil,obj-goal-lock-sn2,subj-agent-house-sn1,and(house,no,sn1),def_prop(lock,[attivita,body_part,oggetto,strumento,umano]),def_prop(house,[attivita,istituzione,oggetto,strumento])])
+lf(Bad Guy Lyrics.txt_24,306,cl29-nil-nil-be-[ncmod-modal-be-sn5,xcomp-prop-safe-sn4,xcomp-prop-king-sn3,subj-theme_bound-he-sn2,def_prop(be,[informa,tecno]),def_prop(safe,[emotivo]),def_prop(king,[astratto,oggetto,plant,stato,strumento,umano]),def_prop(he,[umano])])
+lf(Bad Guy Lyrics.txt_24,306,cl28-nil-nil-dream-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Bad Guy Lyrics.txt_25,332,cl30-nil-nil-be-[xcomp-prop-him-sn3,subj-theme_bound-shoot-sn2,subj-theme_bound-you-sn1,and(shoot,another,sn2),and(shoot,outlaw,sn2),def_prop(him,[umano]),def_prop(shoot,[attivita,informa,plant]),def_prop(you,[umano])])
+lf(Bad Guy Lyrics.txt_26,358,cl31-nil-nil-gather-[adj-(mod)-up-nil,subj-agent-na-sn1,and(na,na,sn1),def_prop(na,[informa,tecno])])
+lf(Bad Guy Lyrics.txt_27,385,cl32-nil-nil-gather-[adj-(mod)-up-nil,adj-subj_disc-up-sn3,obj-goal-friend-sn2,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(friend,[umano]),def_prop(you,[umano])])
+lf(Bad Guy Lyrics.txt_28,413,cl33-nil-nil-be-[subj-theme_bound-you-sn4,subj-theme_bound-this-sn2,subj-theme_bound-this-sn1,and(this,cause,sn1),def_prop(you,[umano]),def_prop(this,[oggetto,umano]),def_prop(this,[oggetto,umano])])
+lf(Bad Guy Lyrics.txt_29,442,cl34-nil-nil-win-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Bad Guy Lyrics.txt_30,472,cl36-nil-nil-forgive-[ncmod-loc_direct-church-sn2,def_prop(church,[istituzione,oggetto,strumento])])
+lf(Bad Guy Lyrics.txt_30,472,cl35-nil-nil-pray-[obj-theme-that-sn3,subj-experiencer-you-sn1,def_prop(that,[oggetto,umano]),def_prop(you,[umano])])
+lf(Bad Guy Lyrics.txt_31,504,cl37-nil-nil-be-[subj-theme_bound-you-sn4,subj-theme_bound-this-sn2,subj-theme_bound-this-sn1,and(this,cause,sn1),def_prop(you,[umano]),def_prop(this,[oggetto,umano]),def_prop(this,[oggetto,umano])])
+lf(Bad Guy Lyrics.txt_32,536,cl38-nil-nil-win-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Bad Guy Lyrics.txt_33,569,cl39-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Bad Guy Lyrics.txt_34,603,cl40-nil-nil-be-[subj-theme_bound-him-sn1,def_prop(him,[umano])])

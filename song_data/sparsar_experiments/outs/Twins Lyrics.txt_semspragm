@@ -1,0 +1,96 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Twins Lyrics.txt_1-1  []-positive  []
+Twins Lyrics.txt_2-3  []-suspension  [neg,neg,neg]
+Twins Lyrics.txt_2-4  []-positive  [neg]
+Twins Lyrics.txt_2-5  [if-hypoth]-negative  [fgb,neg,fgb]
+Twins Lyrics.txt_3-8  []-positive  []
+Twins Lyrics.txt_3-9  []-suspension  [fgb]
+Twins Lyrics.txt_4-13  []-positive  []
+Twins Lyrics.txt_4-14  [so-result]-positive  [fgb]
+Twins Lyrics.txt_4-15  [so-result]-suspension  [fgb,neg,neg]
+Twins Lyrics.txt_4-16  []-negative  [neg,neg,neg]
+Twins Lyrics.txt_4-17  [if-hypoth]-negative  [fgb,neg,fgb]
+Twins Lyrics.txt_5-22  []-positive  []
+Twins Lyrics.txt_5-23  []-positive  [fgb]
+Twins Lyrics.txt_6-29  []-suspension  []
+Twins Lyrics.txt_7-37  []-suspension  [neg,fgb]
+Twins Lyrics.txt_8-46  []-positive  []
+Twins Lyrics.txt_8-47  [so-result]-positive  [fgb]
+Twins Lyrics.txt_9-56  []-positive  []
+Twins Lyrics.txt_9-57  [so-result]-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Twins Lyrics.txt_1-1  [twins,Lyrics,by,Pure,Bathing,culture]  [title]
+Twins Lyrics.txt_2-3  [electric,disconnected,slow,my,love,body,goes,into,shadows,through,the,hollows,lonely,echos]  [propose_opin_neg(go,[external,factive,explanation,background,objective]),propose_opin_neg(cry,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Twins Lyrics.txt_2-4  [,,your,name,they,cry]  [propose_opin_neg(go,[external,factive,explanation,background,objective]),propose_opin_neg(cry,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Twins Lyrics.txt_2-5  [and,cry,if]  [reject_expl_just(go,[external,factive,explanation,background,objective]),propose_opin_neg(go,[external,factive,explanation,background,objective]),reject_expl_just(cry,[external,factive,explanation,background,objective]),propose_opin_neg(cry,[external,factive,explanation,background,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Twins Lyrics.txt_3-8  [i,could,go,back]  [provide_expl_just(go,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Twins Lyrics.txt_3-9  [and,find,you,i,would,i,had,safely,hide,you,twins,.]  [provide_expl_just(go,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Twins Lyrics.txt_4-13  [our,bodies,keep,us]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(forearm,[external,factive,narration,background,objective]),provide_expl_just(cry,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Twins Lyrics.txt_4-14  [so,warm,rings,,,around,wrapped,our,forearms,bodies,electric]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(forearm,[external,factive,narration,background,objective]),provide_expl_just(cry,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Twins Lyrics.txt_4-15  [so,disconnected,slow,my,love,,,grows,into,shadows]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(forearm,[external,factive,narration,background,objective]),provide_expl_just(cry,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Twins Lyrics.txt_4-16  [through,the,hollows,lonely,echos,,,my,mind,they,cry]  [reject_expl_just(keep,[external,factive,narration,background,objective]),reject_expl_just(forearm,[external,factive,narration,background,objective]),reject_expl_just(cry,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Twins Lyrics.txt_4-17  [and,cry,if]  [reject_expl_just(keep,[external,factive,narration,background,objective]),reject_expl_just(forearm,[external,factive,narration,background,objective]),reject_expl_just(cry,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Twins Lyrics.txt_5-22  [i,could,go,back]  [provide_expl_just(go,[external,nonfactive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,background,objective])]
+Twins Lyrics.txt_5-23  [and,find,you,i]  [provide_expl_just(go,[external,nonfactive,narration,background,objective]),provide_expl_just(find,[external,factive,narration,background,objective])]
+Twins Lyrics.txt_6-29  [would,i,had,safely]  [provide_expl_just(have,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Twins Lyrics.txt_7-37  [hide,you,far,from,those,things,that,haunt,you,and,my,heart,would,be,inside,you,twins]  [provide_expl_just(hide,[external,factive,narration,background,objective]),provide_expl_just(haunt,[external,factive,narration,background,objective])]
+Twins Lyrics.txt_8-46  [our,bodies,keep,us]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(forearm,[external,factive,narration,background,objective])]
+Twins Lyrics.txt_8-47  [so,warm,rings,,,around,wrapped,our,forearms,twins]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(forearm,[external,factive,narration,background,objective])]
+Twins Lyrics.txt_9-56  [our,bodies,keep,us]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Twins Lyrics.txt_9-57  [so,warm,rings,around,our,wrapped,forearm]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Twins Lyrics.txt_1-1)-[]
+2-(Twins Lyrics.txt_2-3)-[primary-passivity,emotions-affection,primary-narcissism,primary-diffusion,emotions-sadness,primary-sound]
+3-(Twins Lyrics.txt_2-4)-[emotions-expressive_beh]
+4-(Twins Lyrics.txt_2-5)-[emotions-expressive_beh]
+5-(Twins Lyrics.txt_3-8)-[primary-concreteness]
+6-(Twins Lyrics.txt_3-9)-[secondary-instru_behavior,primary-passivity]
+7-(Twins Lyrics.txt_4-13)-[primary-narcissism]
+8-(Twins Lyrics.txt_4-14)-[primary-fire,primary-sound,primary-narcissism]
+9-(Twins Lyrics.txt_4-15)-[primary-passivity,emotions-affection,primary-height,primary-diffusion]
+half
+10-(Twins Lyrics.txt_4-16)-[emotions-sadness,primary-sound,emotions-expressive_beh]
+11-(Twins Lyrics.txt_4-17)-[emotions-expressive_beh]
+12-(Twins Lyrics.txt_5-22)-[primary-concreteness]
+13-(Twins Lyrics.txt_5-23)-[secondary-instru_behavior]
+14-(Twins Lyrics.txt_6-29)-[primary-passivity]
+15-(Twins Lyrics.txt_7-37)-[primary-concreteness,primary-narcissism,primary-concreteness]
+16-(Twins Lyrics.txt_8-46)-[primary-narcissism]
+17-(Twins Lyrics.txt_8-47)-[primary-fire,primary-sound]
+18-(Twins Lyrics.txt_9-56)-[primary-narcissism]
+19-(Twins Lyrics.txt_9-57)-[primary-fire,primary-sound]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Twins Lyrics.txt_1,1,cl1-nil-nil-bathe-[obj-theme-culture-sn2,subj-actor-Lyrics-sn1,adj-(mod)-Pure-nil,and(Lyrics,twin,sn1),def_prop(culture,[astratto,attivita,istituzione,sostanza]),def_prop(Lyrics,[informa,tecno])])
+lf(Twins Lyrics.txt_2,3,cl4-nil-nil-be-[cmod-subord-be-",subj-theme_bound-cry-sn11,def_prop(cry,[attivita,evento,informa])])
+lf(Twins Lyrics.txt_2,3,cl3-nil-nil-cry-[subj-experiencer-they-sn7,ncmod-location-hollow-sn3,ncmod-loc_in-shadow-sn2,def_prop(they,[umano]),def_prop(hollow,[astratto,oggetto]),def_prop(shadow,[astratto,emotivo,stato,umano])])
+lf(Twins Lyrics.txt_2,3,cl2-nil-nil-go-[obj-theme_aff-echo-sn4,subj-agent-body-sn1,and(echo,lonely,sn4),and(body,love,sn1),and(body,slow,sn1),and(body,disconnected,sn1),and(body,electric,sn1),def_prop(echo,[astratto,attivita,informa]),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano])])
+lf(Twins Lyrics.txt_3,8,cl6-nil-nil-be-[])
+lf(Twins Lyrics.txt_3,8,cl5-nil-could-go-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Twins Lyrics.txt_4,13,cl11-nil-nil-be-[cmod-subord-be-",subj-theme_bound-cry-sn20,def_prop(cry,[attivita,evento,informa])])
+lf(Twins Lyrics.txt_4,13,cl10-nil-nil-cry-[obj-theme-they-sn17,xcomp-prop-echo-sn16,ncmod-location-hollow-sn15,subj-experiencer-mind-sn14,and(echo,lonely,sn16),def_prop(they,[umano]),def_prop(echo,[astratto,attivita,informa]),def_prop(hollow,[astratto,oggetto]),def_prop(mind,[astratto])])
+lf(Twins Lyrics.txt_4,13,cl9-nil-nil-grow-[ncmod-loc_in-shadow-sn11,subj-theme_bound-love-sn10,and(love,disconnected,sn10),and(love,slow,sn10),def_prop(shadow,[astratto,emotivo,stato,umano]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Twins Lyrics.txt_4,13,cl8-nil-nil-forearm-[xcomp-prop-electric-sn8,obj-theme-body-sn7,obj-theme-our-sn6,subj-agent-ring-sn5,and(our,wrapped,sn6),and(ring,warm,sn5),def_prop(electric,[oggetto,strumento]),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano]),def_prop(our,[istituzione]),def_prop(ring,[astratto,evento,oggetto,strumento])])
+lf(Twins Lyrics.txt_4,13,cl7-nil-nil-keep-[obj-goal-us-sn2,subj-experiencer-body-sn1,def_prop(us,[umano]),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano])])
+lf(Twins Lyrics.txt_5,22,cl13-nil-nil-find-[cmod-subord-find-",subj-actor-i-sn6,subj-actor-i-sn5,subj-actor-you-sn4,and(i,you,sn5),and(you,you,sn4),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Twins Lyrics.txt_5,22,cl12-nil-could-go-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Twins Lyrics.txt_6,29,cl15-nil-nil-have-[xcomp-theme_bound-safely-sn2,xcomp-purpose-have-2,def_prop(safely,[istituzione])])
+lf(Twins Lyrics.txt_6,29,cl14-nil-would-will-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Twins Lyrics.txt_7,37,cl17-nil-nil-haunt-[subj-cause-thing-sn3,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Twins Lyrics.txt_7,37,cl16-nil-nil-hide-[adj-(mod)-far-nil,adj-subj_disc-far-sn4,iobj-goal-thing-sn3,subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(far,[]),def_prop(far,[]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Twins Lyrics.txt_8,46,cl19-nil-nil-forearm-[obj-theme-twin-sn7,subj-agent-our-sn6,subj-agent-our-sn5,and(our,wrapped,sn6),and(our,ring,sn5),and(our,warm,sn5),def_prop(twin,[umano]),def_prop(our,[istituzione]),def_prop(our,[istituzione])])
+lf(Twins Lyrics.txt_8,46,cl18-nil-nil-keep-[obj-goal-us-sn2,subj-experiencer-body-sn1,def_prop(us,[umano]),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano])])
+lf(Twins Lyrics.txt_9,56,cl21-nil-nil-be-[xcomp-prop-forearm-sn6,subj-theme_bound-ring-sn5,and(ring,warm,sn5),def_prop(forearm,[body_part,umano]),def_prop(ring,[astratto,evento,oggetto,strumento])])
+lf(Twins Lyrics.txt_9,56,cl20-nil-nil-keep-[obj-goal-us-sn2,subj-experiencer-body-sn1,def_prop(us,[umano]),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano])])

@@ -1,0 +1,256 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Alaska Lyrics.txt_1-1  []-positive  []
+Alaska Lyrics.txt_2-3  []-positive  []
+Alaska Lyrics.txt_3-6  []-positive  []
+Alaska Lyrics.txt_3-7  []-positive  [fgb]
+Alaska Lyrics.txt_4-11  []-positive  [fgb]
+Alaska Lyrics.txt_4-12  []-positive  []
+Alaska Lyrics.txt_5-17  []-negative  [fgb,neg]
+Alaska Lyrics.txt_6-23  []-negative  [neg]
+Alaska Lyrics.txt_7-31  []-positive  []
+Alaska Lyrics.txt_7-31  []-positive  []
+Alaska Lyrics.txt_8-39  []-positive  [fgb,ass]
+Alaska Lyrics.txt_9-48  []-positive  []
+Alaska Lyrics.txt_9-49  []-positive  []
+Alaska Lyrics.txt_10-58  [although-advers]-negative  [neg,neg]
+Alaska Lyrics.txt_11-69  []-positive  []
+Alaska Lyrics.txt_12-81  []-positive  []
+Alaska Lyrics.txt_13-94  [when-temp_coinc]-positive  [fgb,fgb]
+Alaska Lyrics.txt_14-108  []-positive  []
+Alaska Lyrics.txt_15-123  []-positive  [fgb]
+Alaska Lyrics.txt_16-139  []-positive  [fgb]
+Alaska Lyrics.txt_17-156  []-positive  []
+Alaska Lyrics.txt_17-157  []-negative  [neg]
+Alaska Lyrics.txt_18-175  []-negative  [fgb,neg]
+Alaska Lyrics.txt_19-194  []-negative  [fgb,neg]
+Alaska Lyrics.txt_19-194  []-negative  [fgb,neg]
+Alaska Lyrics.txt_20-218  []-positive  []
+Alaska Lyrics.txt_21-239  []-suspension  []
+Alaska Lyrics.txt_21-240  []-negative  [fgb,neg]
+Alaska Lyrics.txt_22-263  []-positive  [fgb]
+Alaska Lyrics.txt_23-287  []-suspension  [fgb]
+Alaska Lyrics.txt_24-311  []-positive  [ack,fgb,ass]
+Alaska Lyrics.txt_24-312  []-suspension  []
+Alaska Lyrics.txt_25-336  []-positive  [fgb,neg]
+Alaska Lyrics.txt_26-362  []-suspension  [fgb,neg]
+Alaska Lyrics.txt_27-389  []-positive  []
+Alaska Lyrics.txt_28-417  []-positive  []
+Alaska Lyrics.txt_29-446  []-positive  []
+Alaska Lyrics.txt_30-476  []-positive  [fhd]
+Alaska Lyrics.txt_31-507  []-positive  [fgb]
+Alaska Lyrics.txt_32-539  []-positive  []
+Alaska Lyrics.txt_33-572  []-negative  [neg]
+Alaska Lyrics.txt_34-607  [(as)-temp_coinc]-positive  []
+Alaska Lyrics.txt_35-642  []-positive  []
+Alaska Lyrics.txt_35-643  [then-temp_seq]-positive  []
+Alaska Lyrics.txt_36-679  []-positive  [fgb]
+Alaska Lyrics.txt_37-716  []-positive  []
+Alaska Lyrics.txt_38-754  []-positive  []
+Alaska Lyrics.txt_39-793  []-negative  [fgb,neg]
+Alaska Lyrics.txt_40-833  []-negative  [neg]
+Alaska Lyrics.txt_41-875  []-positive  []
+Alaska Lyrics.txt_42-917  []-positive  []
+Alaska Lyrics.txt_43-960  []-positive  []
+Alaska Lyrics.txt_44-1004  []-positive  [fgb]
+Alaska Lyrics.txt_45-1049  []-positive  []
+Alaska Lyrics.txt_46-1095  []-negative  [neg]
+Alaska Lyrics.txt_47-1142  []-positive  []
+Alaska Lyrics.txt_48-1190  []-positive  []
+Alaska Lyrics.txt_49-1239  []-positive  []
+Alaska Lyrics.txt_50-1289  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Alaska Lyrics.txt_1-1  [alaska,Lyrics,by,Unknown]  [title]
+Alaska Lyrics.txt_2-3  [silkie]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Alaska Lyrics.txt_3-6  [an,earthly,nurse,sits]  [provide_expl_just(sit,[external,factive,narration,background,objective]),provide_expl_just(sing,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_3-7  [and,sings]  [provide_expl_just(sit,[external,factive,narration,background,objective]),provide_expl_just(sing,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_4-11  [and,aye,,,she,sings,by,lily]  [provide_expl_just(sing,[external,factive,narration,background,objective]),provide_expl_just(wean,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_4-12  [wean]  [provide_expl_just(sing,[external,factive,narration,background,objective]),provide_expl_just(wean,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_5-17  [and,little,ken,i,my,bairn-s,father]  [reject_expl_just(ken,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_6-23  [far,less,the,land,where,he,dwells,in]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(dwell,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_7-31  [for,he,came,on,night]  [raise_issue(be,[_830080,factive,statement,_830098,subjective])]
+Alaska Lyrics.txt_7-31  [for,he,came,on,night,to,her,bed,feet]  [raise_issue(be,[_830426,factive,statement,_830444,subjective])]
+Alaska Lyrics.txt_8-39  [a,grumbly,i,guest,and,am,sure,was,he]  [accept_expl_opin(be,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_9-48  [saying,here,am]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_9-49  [i,thy,bairn-s,father]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_10-58  [although,i,be,not,comely]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_11-69  [i,am,a,man,upon,the,land]  [provide_expl_just(land,[internal,factive,narration,background,objective])]
+Alaska Lyrics.txt_12-81  [i,am,a,silkie,on,the,sea]  [provide_expl_just(sea,[internal,factive,narration,background,objective])]
+Alaska Lyrics.txt_13-94  [and,when,i,am,far,and,far,frae,land]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_14-108  [my,home,it,is,in,Sule,Skerrie]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_15-123  [and,he,had,ta-en,a,purse,of,gold]  [provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Alaska Lyrics.txt_16-139  [and,he,had,placed,it,upon,her,knee]  [provide_expl_just(place,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_17-156  [saying,give,to,me]  [provide_expl_just(give,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_17-157  [my,little,young,son]  [reject_expl_just(give,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_18-175  [and,take,thee,up,thy,nurse-s,fee]  [reject_expl_just(take,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_19-194  [and,it,shall,come,to,pass,on,a,summer-s]  [reject_expl_just(pass,[external,factive,result,background,objective]),propose_opin_neg(pass,[external,factive,result,background,objective]),reject_expl_just(come,[external,factive,result,background,objective]),propose_opin_neg(come,[external,factive,result,background,objective])]
+Alaska Lyrics.txt_19-194  [and,it,shall,come,to,pass,on,a,summer-s,day]  [reject_expl_just(pass,[external,factive,result,background,objective]),propose_opin_neg(pass,[external,factive,result,background,objective]),reject_expl_just(come,[external,factive,result,background,objective]),propose_opin_neg(come,[external,factive,result,background,objective])]
+Alaska Lyrics.txt_20-218  [when_the_sun_shines,bright,on,every,stane]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_21-239  [i,will,come]  [provide_expl_just(fetch,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Alaska Lyrics.txt_21-240  [and,fetch,my,little,young,son]  [reject_expl_just(fetch,[external,factive,narration,background,objective]),reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+Alaska Lyrics.txt_22-263  [and,teach,him,how,to,swim,the,faem]  [provide_expl_just(swim,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_23-287  [and,ye,shall,marry,a,gunner,good]  [provide_expl_just(marry,[external,nonfactive,narration,background,objective])]
+Alaska Lyrics.txt_24-311  [a,right,fine,i,gunner,and,am,sure]  [accept_expl_opin(be,[external,nonfactive,narration,background,objective])]
+Alaska Lyrics.txt_24-312  [he,will,be]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Alaska Lyrics.txt_25-336  [and,the,very,first,shot,that,e-er,he,shoots]  [provide_expl_just(shoot,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_26-362  [me,and,both,my,young,son,will,kill]  [provide_expl_just(kill,[external,nonfactive,narration,background,objective])]
+Alaska Lyrics.txt_27-389  [\--,---,---,---,---,---]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_28-417  [child,113]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_29-446  [the,Great,Silkie,of,Sule,Skerry,is,one,of,numerous,tales,of]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_30-476  [the,Silkies,or,seafolk,known,to,the,inhabitants,of,the,Orkney]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_31-507  [islands,and,the,Hebrides]  [provide_expl_just(islands,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_32-539  [these,enchanted,creatures,dwell,in,the]  [provide_expl_just(dwell,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_33-572  [depth,of,the,sea,,,occasionally,doffing,their,seal,skins,to,pass]  [reject_expl_just(doff,[external,factive,narration,foreground,objective])]
+Alaska Lyrics.txt_34-607  [on_land,as,mortal,men]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_35-642  [Legend,has]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(accept,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_35-643  [it,that,they,then,accept,human]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(accept,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_36-679  [partners,and,some,families,on,the,islands,actually,trace,their]  [provide_expl_just(partner,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_37-716  [ancestry,to,such,marriages]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_38-754  [in,more,versions,of,the,complete]  [provide_expl_just(complete,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_39-793  [the,Silkie-s,ballad,forecast,his,son,and,of,the,death,of,himself]  [reject_expl_just(forecast,[external,factive,narration,foreground,objective])]
+Alaska Lyrics.txt_40-833  [eventually,come,to,pass]  [reject_expl_just(come,[external,factive,result,background,objective]),propose_opin_neg(come,[external,factive,result,background,objective])]
+Alaska Lyrics.txt_41-875  [the,tune,is,by,Dr]  [provide_expl_just(Dr,[internal,factive,narration,background,objective])]
+Alaska Lyrics.txt_42-917  [James,waters,of]  [provide_expl_just(water,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_43-960  [columbia,University]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Alaska Lyrics.txt_44-1004  [from,British,Ballads,Folk,and,Songs,from]  [provide_expl_just(British,[internal,factive,narration,background,objective])]
+Alaska Lyrics.txt_45-1049  [the,Baez,Joan,Songbook]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_46-1095  [myth,ballad,love,animal]  [reject_expl_just(love,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_47-1142  [see,also,silkie2]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Alaska Lyrics.txt_48-1190  [filename,silkie1]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Alaska Lyrics.txt_49-1239  [dc]  [raise_issue(be,[_855624,factive,statement,_855642,subjective])]
+Alaska Lyrics.txt_50-1289  [=,document,boundary]  [provide_expl_just(document,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Alaska Lyrics.txt_1-1)-[primary-cold]
+2-(Alaska Lyrics.txt_2-3)-[primary-soft]
+3-(Alaska Lyrics.txt_3-6)-[]
+4-(Alaska Lyrics.txt_3-7)-[emotions-expressive_beh]
+5-(Alaska Lyrics.txt_4-11)-[emotions-expressive_beh]
+6-(Alaska Lyrics.txt_4-12)-[]
+7-(Alaska Lyrics.txt_5-17)-[]
+8-(Alaska Lyrics.txt_6-23)-[primary-concreteness,primary-concreteness]
+9-(Alaska Lyrics.txt_7-31)-[]
+10-(Alaska Lyrics.txt_7-31)-[primary-passivity,primary-narcissism]
+11-(Alaska Lyrics.txt_8-39)-[secondary-social_behavior,secondary-abstract_tought]
+12-(Alaska Lyrics.txt_9-48)-[primary-concreteness]
+13-(Alaska Lyrics.txt_9-49)-[]
+14-(Alaska Lyrics.txt_10-58)-[]
+15-(Alaska Lyrics.txt_11-69)-[]
+16-(Alaska Lyrics.txt_12-81)-[primary-soft,primary-water]
+17-(Alaska Lyrics.txt_13-94)-[secondary-temporal_repere,primary-concreteness,primary-concreteness]
+18-(Alaska Lyrics.txt_14-108)-[]
+19-(Alaska Lyrics.txt_15-123)-[emotions-glory]
+20-(Alaska Lyrics.txt_16-139)-[primary-concreteness,primary-narcissism]
+21-(Alaska Lyrics.txt_17-156)-[]
+22-(Alaska Lyrics.txt_17-157)-[]
+23-(Alaska Lyrics.txt_18-175)-[]
+24-(Alaska Lyrics.txt_19-194)-[]
+25-(Alaska Lyrics.txt_19-194)-[]
+26-(Alaska Lyrics.txt_20-218)-[primary-vision,secondary-temporal_repere]
+27-(Alaska Lyrics.txt_21-239)-[]
+28-(Alaska Lyrics.txt_21-240)-[]
+29-(Alaska Lyrics.txt_22-263)-[secondary-social_behavior,primary-water]
+half
+30-(Alaska Lyrics.txt_23-287)-[emotions-affection,emotions-aggression]
+31-(Alaska Lyrics.txt_24-311)-[secondary-moral_imperative,emotions-aggression,secondary-abstract_tought]
+32-(Alaska Lyrics.txt_24-312)-[]
+33-(Alaska Lyrics.txt_25-336)-[emotions-aggression,emotions-aggression]
+34-(Alaska Lyrics.txt_26-362)-[emotions-aggression]
+35-(Alaska Lyrics.txt_27-389)-[]
+36-(Alaska Lyrics.txt_28-417)-[primary-cold]
+37-(Alaska Lyrics.txt_29-446)-[]
+38-(Alaska Lyrics.txt_30-476)-[secondary-abstract_tought]
+39-(Alaska Lyrics.txt_31-507)-[]
+40-(Alaska Lyrics.txt_32-539)-[primary-counscious]
+41-(Alaska Lyrics.txt_33-572)-[primary-depth,primary-water,secondary-temporal_repere,primary-water,primary-narcissism]
+42-(Alaska Lyrics.txt_34-607)-[]
+43-(Alaska Lyrics.txt_35-642)-[]
+44-(Alaska Lyrics.txt_35-643)-[secondary-temporal_repere,secondary-social_behavior,primary-sound]
+45-(Alaska Lyrics.txt_36-679)-[]
+46-(Alaska Lyrics.txt_37-716)-[emotions-affection]
+47-(Alaska Lyrics.txt_38-754)-[]
+48-(Alaska Lyrics.txt_39-793)-[primary-passivity]
+49-(Alaska Lyrics.txt_40-833)-[]
+50-(Alaska Lyrics.txt_41-875)-[primary-sound]
+51-(Alaska Lyrics.txt_42-917)-[primary-water]
+52-(Alaska Lyrics.txt_43-960)-[]
+53-(Alaska Lyrics.txt_44-1004)-[]
+54-(Alaska Lyrics.txt_45-1049)-[]
+55-(Alaska Lyrics.txt_46-1095)-[emotions-affection]
+56-(Alaska Lyrics.txt_47-1142)-[primary-vision]
+57-(Alaska Lyrics.txt_48-1190)-[]
+58-(Alaska Lyrics.txt_49-1239)-[]
+59-(Alaska Lyrics.txt_50-1289)-[primary-brink]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Alaska Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Unknown-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,alaska,sn1),def_prop(Unknown,[istituzione]),def_prop(Lyrics,[informa,tecno])])
+lf(Alaska Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-silkie-sn1,def_prop(silkie,[istituzione])])
+lf(Alaska Lyrics.txt_3,6,cl4-nil-nil-sing-[subj-agent-you-sn2,def_prop(you,[umano])])
+lf(Alaska Lyrics.txt_3,6,cl3-nil-nil-sit-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Alaska Lyrics.txt_4,11,cl6-nil-nil-wean-[subj-agent-pro-nil])
+lf(Alaska Lyrics.txt_4,11,cl5-nil-nil-sing-[cmod-subord-wean-",adj-(mod)-aye-nil,arg_mod-agent-lily-sn2,subj-agent-she-sn1,def_prop(lily,[plant]),def_prop(she,[umano])])
+lf(Alaska Lyrics.txt_5,17,nil-nil-nil-ken-[obj-theme_aff-father-sn3,subj-agent-i-sn2,subj-agent-i-sn1,and(i,little,sn1),def_prop(father,[umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Alaska Lyrics.txt_6,23,_857966-nil-nil-dwell-[voice-dwell-nil,tense-dwell-nil,obl-locat-land-sn1,def_prop(land,[astratto,oggetto])])
+lf(Alaska Lyrics.txt_6,23,cl7-nil-nil-be-[adj-(mod)-less-nil,adj-(mod)-far-nil,voice-dwell-nil,tense-dwell-nil,subj-theme_bound-land-sn1,def_prop(land,[astratto,oggetto])])
+lf(Alaska Lyrics.txt_7,31,cl8-nil-nil-come-[cmod-subord-come-for,obj-theme_aff-foot-sn6,iobj-goal-be-sn5,ncmod-temporale-night-sn4,subj-agent-he-sn3,ncmod-temporale-night-sn2,subj-agent-he-sn1,def_prop(foot,[animato,attivita,body_part,luogo,nquant,oggetto,strumento,umano]),def_prop(be,[informa,tecno]),def_prop(night,[tempo]),def_prop(he,[umano]),def_prop(night,[tempo]),def_prop(he,[umano])])
+lf(Alaska Lyrics.txt_8,39,cl9-nil-nil-be-[subj-theme_bound-he-sn6,subj-theme_bound-he-sn5,subj-theme_bound-he-sn4,subj-theme_bound-guess-sn1,and(he,sure,sn4),and(guess,grumbly,sn1),def_prop(he,[umano]),def_prop(he,[umano]),def_prop(he,[umano]),def_prop(guess,[astratto,attivita,informa])])
+lf(Alaska Lyrics.txt_9,48,cl10-nil-nil-be-[xcomp-prop-father-sn5,subj-theme_bound-i-sn4,subj-theme_bound-say-sn1,and(father,thy,sn5),def_prop(father,[umano]),def_prop(i,[umano]),def_prop(say,[stato])])
+lf(Alaska Lyrics.txt_10,58,cl11-nil-nil-be-[subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Alaska Lyrics.txt_11,69,cl12-nil-nil-be-[ncmod-subj_disc-land-sn3,xcomp-prop-man-sn2,subj-theme_bound-i-sn1,def_prop(land,[astratto,oggetto]),def_prop(man,[any]),def_prop(i,[umano])])
+lf(Alaska Lyrics.txt_12,81,cl13-nil-nil-be-[ncmod-locativo-sea-sn3,xcomp-prop-silkie-sn2,subj-theme_bound-i-sn1,def_prop(sea,[attivita,cambia,oggetto]),def_prop(silkie,[istituzione]),def_prop(i,[umano])])
+lf(Alaska Lyrics.txt_13,94,cl14-nil-nil-be-[cmod-subord-be-",cmod-subord-be-when,adj-(mod)-far-nil,ncmod-modal-land-sn3,xcomp-prop-far-sn2,subj-theme_bound-i-sn1,def_prop(far,[]),def_prop(land,[astratto,oggetto]),def_prop(far,[]),def_prop(i,[umano])])
+lf(Alaska Lyrics.txt_14,108,cl15-nil-nil-be-[ncmod-locativo-Skerrie-sn3,subj-theme_bound-it-sn2,subj-theme_bound-it-sn1,and(Skerrie,Sule,sn3),and(it,home,sn1),def_prop(Skerrie,[istituzione,umano]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Alaska Lyrics.txt_15,123,cl16-nil-nil-have-[cmod-subord-have-",xcomp-prop-purse-sn3,xcomp-tema_bound-ta-en-sn2,subj-experiencer-he-sn1,def_prop(purse,[astratto,oggetto,strumento]),def_prop(ta-en,[nquant]),def_prop(he,[umano])])
+lf(Alaska Lyrics.txt_16,139,cl17-nil-nil-place-[cmod-subord-place-",iobj-goal-knee-sn3,subj-agent-it-sn2,subj-agent-it-sn1,aux-had-nil,and(it,he,sn1),def_prop(knee,[body_part,oggetto,strumento,umano]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Alaska Lyrics.txt_17,156,cl19-nil-nil-be-[xcomp-prop-son-sn4,subj-theme_bound-little-sn3,and(son,young,sn4),def_prop(son,[umano]),def_prop(little,[astratto,informa,oggetto])])
+lf(Alaska Lyrics.txt_17,156,cl18-nil-nil-give-[obj2-goal-me-sn2,subj-actor-say-sn1,def_prop(me,[umano]),def_prop(say,[stato])])
+lf(Alaska Lyrics.txt_18,175,cl20-nil-nil-take-[cmod-subord-take-",adj-(mod)-up-nil,adj-subj_disc-up-sn4,obj-theme_aff-fee-sn3,obj-theme_aff-thee-sn2,subj-agent-you-sn1,and(fee,thy,sn3),def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(fee,[astratto,oggetto]),def_prop(thee,[umano]),def_prop(you,[umano])])
+lf(Alaska Lyrics.txt_19,194,cl23-nil-nil-pass-[cmod-coord-pass-and,ncmod-temporale-summer-s-sn4,cmod-subord-pass-",ncmod-temporale-summer-s-sn2,def_prop(summer-s,[tempo]),def_prop(summer-s,[tempo])])
+lf(Alaska Lyrics.txt_19,194,cl22-nil-nil-come-[])
+lf(Alaska Lyrics.txt_19,194,cl21-nil-shall-shall-[adj-temporal-day-nil,subj-theme_unaff-it-sn3,subj-theme_unaff-it-sn1,def_prop(it,[any]),def_prop(it,[any])])
+lf(Alaska Lyrics.txt_20,218,cl24-nil-nil-be-[xadj-adj-bright-adj1,ncmod-locativo-stane-sn2,subj-theme_bound-when_the_sun_shine-sn1,and(stane,every,sn2),def_prop(bright,_861070),def_prop(stane,[istituzione]),def_prop(when_the_sun_shine,[astratto,oggetto,umano])])
+lf(Alaska Lyrics.txt_21,239,cl27-nil-nil-fetch-[cmod-subord-fetch-",obj-theme-son-sn4,obj-goal-little-sn3,subj-agent-you-sn2,and(son,young,sn4),def_prop(son,[umano]),def_prop(little,[astratto,informa,oggetto]),def_prop(you,[umano])])
+lf(Alaska Lyrics.txt_21,239,cl26-nil-nil-come-[subj-prop-i-sn1,def_prop(i,[umano])])
+lf(Alaska Lyrics.txt_21,239,cl25-nil-will-will-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Alaska Lyrics.txt_22,263,cl29-nil-nil-swim-[cmod-subord-swim-",obj-patient-faem-sn3,xcomp-purpose-swim-3,def_prop(faem,[istituzione])])
+lf(Alaska Lyrics.txt_22,263,cl28-nil-nil-teach-[obj-actor-him-sn2,subj-theme_unaff-you-sn1,def_prop(him,[umano]),def_prop(you,[umano])])
+lf(Alaska Lyrics.txt_23,287,cl30-nil-shall-marry-[cmod-subord-marry-",xcomp-prop-good-sn3,obj-theme_aff-gunner-sn2,subj-agent-ye-sn1,def_prop(good,[valutativo]),def_prop(gunner,[relat,sociale,umano]),def_prop(ye,[informa,tecno])])
+lf(Alaska Lyrics.txt_24,311,cl31-nil-will-be-[subj-theme_bound-you-sn3,xcomp-prop-sure-sn2,subj-theme_bound-gunner-sn1,and(gunner,right,sn1),and(gunner,fine,sn1),def_prop(you,[umano]),def_prop(sure,[valutativo]),def_prop(gunner,[relat,sociale,umano])])
+lf(Alaska Lyrics.txt_25,336,cl32-nil-nil-shoot-[])
+lf(Alaska Lyrics.txt_26,362,cl33-nil-will-kill-[subj-agent-son-sn2,subj-agent-son-sn1,and(son,both,sn2),and(son,young,sn2),and(son,both,sn1),and(son,young,sn1),def_prop(son,[umano]),def_prop(son,[umano])])
+lf(Alaska Lyrics.txt_27,389,cl34-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Alaska Lyrics.txt_28,417,cl35-nil-nil-be-[subj-theme_bound-113-sn2,subj-theme_bound-113-sn1,and(113,you,sn1),def_prop(113,[nquant]),def_prop(113,[nquant])])
+lf(Alaska Lyrics.txt_29,446,cl36-nil-nil-be-[xcomp-prop-one-sn4,xcomp-theme-Skerry-sn3,ncmod-specif-Sule-sn2,subj-theme_bound-Silkie-sn1,and(Silkie,Great,sn1),def_prop(one,[umano]),def_prop(Skerry,[istituzione]),def_prop(Sule,[istituzione,umano]),def_prop(Silkie,[istituzione,umano])])
+lf(Alaska Lyrics.txt_30,476,cl37-nil-nil-be-[ncmod-goal-inhabitant-sn4,coord-theme_bound-Silkies_or_seafolk-sn3,subj-theme_bound-seafolk-sn2,subj-theme_bound-Silkies-sn1,def_prop(inhabitant,[umano]),def_prop(Silkies_or_seafolk,[istituzione,istituzione]),def_prop(seafolk,[istituzione,istituzione]),def_prop(Silkies,[istituzione,istituzione])])
+lf(Alaska Lyrics.txt_31,507,nil-nil-nil-islands-[subj-agent-Hebrides-sn2,subj-agent-Hebrides-sn1,and(Hebrides,you,sn1),def_prop(Hebrides,[istituzione,umano]),def_prop(Hebrides,[istituzione,umano])])
+lf(Alaska Lyrics.txt_32,539,cl38-nil-nil-dwell-[subj-actor-creature-sn1,and(creature,these,sn1),and(creature,enchanted,sn1),def_prop(creature,[umano])])
+lf(Alaska Lyrics.txt_33,572,cl39-nil-nil-doff-[adj-(mod)-occasionally-nil,obj-theme-seal-sn2,xcomp-purpose-doff-2,subj-agent-depth-sn1,def_prop(seal,[animato,attivita,informa,oggetto,sostanza,strumento]),def_prop(depth,[astratto,luogo,stato])])
+lf(Alaska Lyrics.txt_34,607,cl40-nil-nil-be-[adj-(mod)-on_land-nil,subj-theme_bound-man-sn1,and(man,mortal,sn1),def_prop(man,[any])])
+lf(Alaska Lyrics.txt_35,642,cl42-nil-nil-accept-[])
+lf(Alaska Lyrics.txt_35,642,cl41-nil-nil-have-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Alaska Lyrics.txt_36,679,cl43-nil-nil-partner-[adj-locative-actually-nil,adj-subj_disc-actually-sn6,xcomp-prop-their-sn5,obj-theme-trace-sn4,ncmod-locativo-island-sn3,subj-theme-family-sn2,subj-theme-family-sn1,and(family,some,sn2),and(family,some,sn1),def_prop(actually,[istituzione]),def_prop(actually,[istituzione]),def_prop(their,[evaluative]),def_prop(trace,[attivita,informa,nquant,oggetto,strumento]),def_prop(island,[oggetto,strumento]),def_prop(family,[istituzione]),def_prop(family,[istituzione])])
+lf(Alaska Lyrics.txt_37,716,cl44-nil-nil-be-[ncmod-locativo-marriage-sn2,subj-theme_bound-ancestry-sn1,and(marriage,such,sn2),def_prop(marriage,[attivita,istituzione,stato]),def_prop(ancestry,[astratto,istituzione])])
+lf(Alaska Lyrics.txt_38,754,cl45-nil-nil-complete-[obj-theme-version-sn2,ncmod-locativo-more-sn1,def_prop(version,[astratto,attivita,informa]),def_prop(more,[astratto,informa,oggetto])])
+lf(Alaska Lyrics.txt_39,793,cl46-nil-nil-forecast-[ncmod-modal-son_and_death-[sn2,sn3],subj-theme-ballad-sn1,and(ballad,Silkie-s,sn1),def_prop(son_and_death,[umano,animato,attivita,cambia,evento,informa,stato,tempo]),def_prop(ballad,[attivita,informa])])
+lf(Alaska Lyrics.txt_40,833,cl48-nil-nil-pass-[subj-tema_nonaff-you-sn1,def_prop(you,[umano])])
+lf(Alaska Lyrics.txt_40,833,cl47-nil-nil-come-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Alaska Lyrics.txt_41,875,cl49-nil-nil-be-[arg_mod-agent-Dr-sn2,subj-theme_bound-tune-sn1,def_prop(Dr,[istituzione,umano]),def_prop(tune,[astratto,attivita,informa])])
+lf(Alaska Lyrics.txt_42,917,cl50-nil-nil-water-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Alaska Lyrics.txt_43,960,cl51-nil-nil-say-[obj-theme_unaff-University-sn1,and(University,columbia,sn1),def_prop(University,[luogo,istituzione])])
+lf(Alaska Lyrics.txt_44,1004,cl52-nil-nil-be-[xcomp-theme-female-sn3,ncmod-loc_origin-British-sn2,subj-theme_bound-ballad-sn1,and(female,Folk,sn3),def_prop(female,[animato,umano]),def_prop(British,[umano]),def_prop(ballad,[attivita,informa])])
+lf(Alaska Lyrics.txt_45,1049,cl53-nil-nil-be-[ncmod-modal-Joan-sn2,subj-theme_bound-you-sn1,def_prop(Joan,[place,umano]),def_prop(you,[umano])])
+lf(Alaska Lyrics.txt_46,1095,cl54-nil-nil-love-[xcomp-prop-animal-sn2,subj-experiencer-ballad-sn1,and(ballad,myth,sn1),def_prop(animal,[any]),def_prop(ballad,[attivita,informa])])
+lf(Alaska Lyrics.txt_47,1142,cl55-nil-nil-see-[adj-(mod)-silkie2-nil,adj-subj_disc-silkie2-sn2,subj-experiencer-you-sn1,and(silkie2,also,sn4),and(silkie2,also,sn2),and(silkie2,also,sn2),def_prop(silkie2,[istituzione]),def_prop(silkie2,[istituzione]),def_prop(you,[umano])])
+lf(Alaska Lyrics.txt_48,1190,cl56-nil-nil-say-[obj-theme_unaff-silkie1-sn1,and(silkie1,filename,sn1),def_prop(silkie1,[istituzione])])
+lf(Alaska Lyrics.txt_49,1239,cl57-nil-nil-say-[])
+lf(Alaska Lyrics.txt_50,1289,cl58-nil-nil-document-[obj-theme-boundary-sn2,subj-agent-(=)-sn1,def_prop(boundary,[astratto,luogo]),def_prop(=,nil)])

@@ -1,0 +1,77 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Cigarettes In The Theatre Lyrics.txt_1-1  []-positive  [neg]
+Cigarettes In The Theatre Lyrics.txt_2-3  []-positive  []
+Cigarettes In The Theatre Lyrics.txt_2-4  []-positive  []
+Cigarettes In The Theatre Lyrics.txt_3-7  [if-hypoth]-negative  [fgb,neg]
+Cigarettes In The Theatre Lyrics.txt_4-11  []-positive  [fgb]
+Cigarettes In The Theatre Lyrics.txt_5-16  []-negative  [neg,neg]
+Cigarettes In The Theatre Lyrics.txt_6-22  []-suspension  []
+Cigarettes In The Theatre Lyrics.txt_7-30  []-positive  []
+Cigarettes In The Theatre Lyrics.txt_8-39  []-negative  [neg]
+Cigarettes In The Theatre Lyrics.txt_9-49  []-suspension  []
+Cigarettes In The Theatre Lyrics.txt_10-59  []-positive  [fgb]
+Cigarettes In The Theatre Lyrics.txt_11-70  []-negative  [neg,neg]
+Cigarettes In The Theatre Lyrics.txt_12-82  []-suspension  []
+Cigarettes In The Theatre Lyrics.txt_13-96  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Cigarettes In The Theatre Lyrics.txt_1-1  [cigarettes,in,the,Theatre,Lyrics,by,two,Door,Cinema,club]  [title]
+Cigarettes In The Theatre Lyrics.txt_2-3  [it,starts,in,the,theatre]  [provide_expl_just(start,[external,factive,inception,background,objective]),suggest(start,[external,factive,inception,background,objective]),provide_expl_just(encounter,[external,factive,explanation,background,objective])]
+Cigarettes In The Theatre Lyrics.txt_2-4  [,,a,night,of,encounters]  [provide_expl_just(start,[external,factive,inception,background,objective]),suggest(start,[external,factive,inception,background,objective]),provide_expl_just(encounter,[external,factive,explanation,background,objective])]
+Cigarettes In The Theatre Lyrics.txt_3-7  [if,i,had,not,been,there,if_not,for,a,cigarette]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Cigarettes In The Theatre Lyrics.txt_4-11  [and,you,could,see,it,change]  [provide_expl_just(see,[external,nonfactive,narration,background,objective])]
+Cigarettes In The Theatre Lyrics.txt_5-16  [look,past,the,blinding,light,look,past,the,blinding,light]  [reject_expl_just(look,[external,factive,narration,background,objective])]
+Cigarettes In The Theatre Lyrics.txt_6-22  [we,will,just,keep,talking,on]  [provide_expl_just(talk,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Cigarettes In The Theatre Lyrics.txt_7-30  [tell,me,your,favorite,things,tell,me,your,favorite,things]  [provide_expl_just(tell,[external,factive,narration,background,objective])]
+Cigarettes In The Theatre Lyrics.txt_8-39  [difference,in,opinion,was,never,an,issue]  [reject_expl_just(difference,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Cigarettes In The Theatre Lyrics.txt_9-49  [all,your,questions,cause,collect,we,this_time,all,night,have]  [provide_expl_just(have,[external,factive,narration,background,objective])]
+Cigarettes In The Theatre Lyrics.txt_10-59  [and,you,could,see,it,change]  [provide_expl_just(see,[external,nonfactive,narration,background,objective])]
+Cigarettes In The Theatre Lyrics.txt_11-70  [look,past,the,blinding,light,look,past,the,blinding,light]  [reject_expl_just(look,[external,factive,narration,background,objective])]
+Cigarettes In The Theatre Lyrics.txt_12-82  [we,will,just,keep,talking,on]  [provide_expl_just(talk,[external,factive,narration,foreground,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+Cigarettes In The Theatre Lyrics.txt_13-96  [tell,me,your,favorite,things,tell,me,your,favorite,things]  [provide_expl_just(tell,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Cigarettes In The Theatre Lyrics.txt_1-1)-[]
+2-(Cigarettes In The Theatre Lyrics.txt_2-3)-[primary-vision]
+3-(Cigarettes In The Theatre Lyrics.txt_2-4)-[]
+4-(Cigarettes In The Theatre Lyrics.txt_3-7)-[]
+5-(Cigarettes In The Theatre Lyrics.txt_4-11)-[primary-vision]
+6-(Cigarettes In The Theatre Lyrics.txt_5-16)-[primary-vision,secondary-temporal_repere,primary-vision,primary-vision,secondary-temporal_repere,primary-vision]
+7-(Cigarettes In The Theatre Lyrics.txt_6-22)-[]
+half
+8-(Cigarettes In The Theatre Lyrics.txt_7-30)-[secondary-social_behavior,secondary-social_behavior]
+9-(Cigarettes In The Theatre Lyrics.txt_8-39)-[secondary-abstract_tought]
+10-(Cigarettes In The Theatre Lyrics.txt_9-49)-[secondary-abstract_tought,secondary-instru_behavior]
+11-(Cigarettes In The Theatre Lyrics.txt_10-59)-[primary-vision]
+12-(Cigarettes In The Theatre Lyrics.txt_11-70)-[primary-vision,secondary-temporal_repere,primary-vision,primary-vision,secondary-temporal_repere,primary-vision]
+13-(Cigarettes In The Theatre Lyrics.txt_12-82)-[]
+14-(Cigarettes In The Theatre Lyrics.txt_13-96)-[secondary-social_behavior,secondary-social_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Cigarettes In The Theatre Lyrics.txt_1,1,cl1-nil-nil-club-[obj-theme-cinema-sn5,arg_mod-agent-Door-sn4,obj-theme-Lyrics-sn3,ncmod-locativo-theatre-sn2,subj-patient-cigarette-sn1,and(Door,two,sn4),def_prop(cinema,[oggetto,strumento]),def_prop(Door,[place,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(theatre,[attivita,informa,oggetto,strumento]),def_prop(cigarette,[oggetto,strumento])])
+lf(Cigarettes In The Theatre Lyrics.txt_2,3,cl3-nil-nil-encounter-[subj-agent-you-sn3,ncmod-locativo-theatre-sn2,def_prop(you,[umano]),def_prop(theatre,[attivita,informa,oggetto,strumento])])
+lf(Cigarettes In The Theatre Lyrics.txt_2,3,cl2-nil-nil-start-[subj-agent-it-sn1,def_prop(it,[any])])
+lf(Cigarettes In The Theatre Lyrics.txt_3,7,cl4-not-nil-be-[xcomp-theme-cigarette-sn3,xcomp-prop-there-sn2,subj-theme_bound-i-sn1,def_prop(cigarette,[oggetto,strumento]),def_prop(there,[any]),def_prop(i,[umano])])
+lf(Cigarettes In The Theatre Lyrics.txt_4,11,cl5-nil-could-see-[cmod-subord-see-",obj-actor-change-sn3,subj-experiencer-it-sn2,subj-experiencer-it-sn1,and(it,you,sn1),def_prop(change,[astratto,attivita,cambia,evento,oggetto,relat,strumento]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Cigarettes In The Theatre Lyrics.txt_5,16,cl6-nil-nil-look-[xcomp-prop-past-sn3,subj-agent-light-sn2,subj-agent-light-sn1,and(light,blinding,sn2),and(light,blinding,sn1),def_prop(past,[attivita,informa,tempo]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(Cigarettes In The Theatre Lyrics.txt_6,22,cl8-nil-nil-talk-[])
+lf(Cigarettes In The Theatre Lyrics.txt_6,22,cl7-nil-will-will-[obj-theme_aff-keep-sn2,subj-agent-we-sn1,def_prop(keep,[oggetto,strumento]),def_prop(we,[umano])])
+lf(Cigarettes In The Theatre Lyrics.txt_7,30,cl9-nil-nil-tell-[obj2-paziente-thing-sn5,obj-result-me-sn4,xcomp-prop-tell-3,subj-sn1-thing-sn3,obj-theme_unaff-me-sn2,subj-agent-you-sn1,and(thing,favorite,sn5),and(thing,favorite,sn3),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(me,[umano]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Cigarettes In The Theatre Lyrics.txt_8,39,cl10-nil-nil-be-[])
+lf(Cigarettes In The Theatre Lyrics.txt_8,39,nil-nil-nil-difference-[adj-locative-never-nil,adj-subj_disc-never-sn4,xcomp-prop-issue-sn3,ncmod-locativo-opinion-sn2,subj-theme_aff-you-sn1,def_prop(never,[istituzione]),def_prop(never,[istituzione]),def_prop(issue,[astratto,attivita,informa,oggetto]),def_prop(opinion,[astratto,attivita,informa]),def_prop(you,[umano])])
+lf(Cigarettes In The Theatre Lyrics.txt_9,49,cl11-nil-nil-have-[adj-temporal-night-nil,subj-experiencer-this_time-sn1,and(night,all,sn10),and(this_time,all,sn1),and(this_time,question,sn1),and(this_time,cause,sn1),def_prop(night,[tempo]),def_prop(this_time,[any,evento,tempo])])
+lf(Cigarettes In The Theatre Lyrics.txt_10,59,cl12-nil-could-see-[cmod-subord-see-",obj-actor-change-sn3,subj-experiencer-it-sn2,subj-experiencer-it-sn1,and(it,you,sn1),def_prop(change,[astratto,attivita,cambia,evento,oggetto,relat,strumento]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Cigarettes In The Theatre Lyrics.txt_11,70,cl13-nil-nil-look-[xcomp-prop-past-sn3,subj-agent-light-sn2,subj-agent-light-sn1,and(light,blinding,sn2),and(light,blinding,sn1),def_prop(past,[attivita,informa,tempo]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano])])
+lf(Cigarettes In The Theatre Lyrics.txt_12,82,cl15-nil-nil-talk-[])
+lf(Cigarettes In The Theatre Lyrics.txt_12,82,cl14-nil-will-will-[obj-theme_aff-keep-sn2,subj-agent-we-sn1,def_prop(keep,[oggetto,strumento]),def_prop(we,[umano])])
+lf(Cigarettes In The Theatre Lyrics.txt_13,96,cl16-nil-nil-tell-[obj2-paziente-thing-sn5,obj-result-me-sn4,xcomp-prop-tell-3,subj-sn1-thing-sn3,obj-theme_unaff-me-sn2,subj-agent-you-sn1,and(thing,favorite,sn5),and(thing,favorite,sn3),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(me,[umano]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(me,[umano]),def_prop(you,[umano])])

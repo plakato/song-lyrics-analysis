@@ -1,0 +1,107 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Cold Moon Lyrics.txt_1-1  []-negative  [neg]
+Cold Moon Lyrics.txt_2-3  []-positive  []
+Cold Moon Lyrics.txt_2-4  []-negative  []
+Cold Moon Lyrics.txt_3-7  []-positive  [fgb]
+Cold Moon Lyrics.txt_4-12  [but-advers]-positive  [fgb]
+Cold Moon Lyrics.txt_4-13  []-negative  [neg]
+Cold Moon Lyrics.txt_5-18  []-positive  [fgb]
+Cold Moon Lyrics.txt_6-24  []-suspension  [neg,neg]
+Cold Moon Lyrics.txt_7-32  []-positive  []
+Cold Moon Lyrics.txt_8-40  []-negative  []
+Cold Moon Lyrics.txt_9-50  [but-advers]-positive  [fgb]
+Cold Moon Lyrics.txt_10-60  []-suspension  []
+Cold Moon Lyrics.txt_10-61  []-negative  [neg]
+Cold Moon Lyrics.txt_11-72  []-suspension  [neg]
+Cold Moon Lyrics.txt_12-84  []-positive  []
+Cold Moon Lyrics.txt_13-97  []-negative  [neg,neg]
+Cold Moon Lyrics.txt_14-111  []-positive  []
+Cold Moon Lyrics.txt_15-126  []-positive  []
+Cold Moon Lyrics.txt_16-142  []-negative  [neg]
+Cold Moon Lyrics.txt_17-161  []-positive  []
+Cold Moon Lyrics.txt_17-162  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Cold Moon Lyrics.txt_1-1  [cold,Moon,Lyrics,by,the,Zolas]  [title]
+Cold Moon Lyrics.txt_2-3  [the,paint,is,dry]  [provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(close,[external,factive,explanation,background,objective])]
+Cold Moon Lyrics.txt_2-4  [,,we,have,closed,the,vein]  [propose_opin_neg(be,[external,factive,explanation,background,objective]),propose_opin_neg(close,[external,factive,explanation,background,objective])]
+Cold Moon Lyrics.txt_3-7  [to,rinse,the,brush,and,go,again]  [provide_expl_just(rinse,[external,factive,explanation,background,objective]),provide_expl_just(go,[external,factive,explanation,background,objective])]
+Cold Moon Lyrics.txt_4-12  [but,still,i,know]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+Cold Moon Lyrics.txt_4-13  [i,have,got,the,stain]  [reject_expl_just(know,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
+Cold Moon Lyrics.txt_5-18  [and,maybe,you,do,too]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Cold Moon Lyrics.txt_6-24  [i,found,the,stomach,to,deny]  [provide_expl_just(deny,[external,factive,narration,background,objective])]
+Cold Moon Lyrics.txt_7-32  [the,urge,to,look,you,up,online]  [provide_expl_just(look,[external,factive,narration,background,objective])]
+Cold Moon Lyrics.txt_8-40  [don-t,want,to,creep,on,your,profile]  [provide_expl_just(creep,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,foreground,objective])]
+Cold Moon Lyrics.txt_9-50  [but,sometimes,i,still,do]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Cold Moon Lyrics.txt_10-60  [maybe,i,will,see]  [provide_expl_just(see,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Cold Moon Lyrics.txt_10-61  [you,on,the,cold,moon]  [reject_expl_just(see,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Cold Moon Lyrics.txt_11-72  [we,will,meet,again,beneath,the,cold,moon]  [provide_expl_just(meet,[external,nonfactive,narration,background,objective])]
+Cold Moon Lyrics.txt_12-84  [thin,windows,fill,my,room]  [provide_expl_just(fill,[external,factive,narration,background,objective])]
+Cold Moon Lyrics.txt_13-97  [with,silver,from,the,cold,cold,moon]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Cold Moon Lyrics.txt_14-111  [in,the,mirror,here_and_there]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Cold Moon Lyrics.txt_15-126  [i,catch,a,flash,of,silverware]  [provide_expl_just(catch,[external,factive,narration,background,objective])]
+Cold Moon Lyrics.txt_16-142  [i,shake,my,back,to,try,to,clear]  [reject_expl_just(try,[external,factive,narration,background,objective]),reject_expl_just(clear,[external,factive,narration,background,objective]),reject_expl_just(shake,[external,factive,narration,background,objective])]
+Cold Moon Lyrics.txt_17-161  [the,table,set]  [provide_expl_just(set,[external,factive,cause,foreground,objective])]
+Cold Moon Lyrics.txt_17-162  [for,two]  [provide_expl_just(set,[external,factive,cause,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Cold Moon Lyrics.txt_1-1)-[primary-cold]
+2-(Cold Moon Lyrics.txt_2-3)-[primary-vision]
+3-(Cold Moon Lyrics.txt_2-4)-[primary-concreteness,primary-narcissism]
+4-(Cold Moon Lyrics.txt_3-7)-[primary-touch,secondary-temporal_repere]
+5-(Cold Moon Lyrics.txt_4-12)-[secondary-abstract_tought]
+6-(Cold Moon Lyrics.txt_4-13)-[]
+7-(Cold Moon Lyrics.txt_5-18)-[secondary-abstract_tought]
+8-(Cold Moon Lyrics.txt_6-24)-[secondary-instru_behavior,primary-orality]
+9-(Cold Moon Lyrics.txt_7-32)-[primary-vision]
+10-(Cold Moon Lyrics.txt_8-40)-[]
+half
+11-(Cold Moon Lyrics.txt_9-50)-[secondary-temporal_repere]
+12-(Cold Moon Lyrics.txt_10-60)-[secondary-abstract_tought,primary-vision]
+13-(Cold Moon Lyrics.txt_10-61)-[primary-cold]
+14-(Cold Moon Lyrics.txt_11-72)-[secondary-social_behavior,secondary-temporal_repere,primary-depth,primary-cold]
+15-(Cold Moon Lyrics.txt_12-84)-[primary-brink]
+16-(Cold Moon Lyrics.txt_13-97)-[primary-cold,primary-cold]
+17-(Cold Moon Lyrics.txt_14-111)-[]
+18-(Cold Moon Lyrics.txt_15-126)-[secondary-restraint,primary-vision]
+19-(Cold Moon Lyrics.txt_16-142)-[primary-random_movement,primary-concreteness,secondary-instru_behavior]
+20-(Cold Moon Lyrics.txt_17-161)-[]
+21-(Cold Moon Lyrics.txt_17-162)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Cold Moon Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-female-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Moon,sn1),and(Lyrics,cold,sn1),def_prop(female,[animato,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Cold Moon Lyrics.txt_2,3,cl3-nil-nil-close-[xcomp-prop-vein-sn4,subj-agent-we-sn3,aux-have-nil,def_prop(vein,[animato,attivita,body_part,informa,oggetto,plant,umano]),def_prop(we,[umano])])
+lf(Cold Moon Lyrics.txt_2,3,cl2-nil-nil-be-[xcomp-prop-dry-sn2,subj-theme_bound-paint-sn1,def_prop(dry,[umano]),def_prop(paint,[oggetto,strumento])])
+lf(Cold Moon Lyrics.txt_3,7,cl5-nil-nil-go-[cmod-coord-go-and,adj-subj_disc-again-sn3,subj-agent-you-sn2,def_prop(again,[istituzione]),def_prop(you,[umano])])
+lf(Cold Moon Lyrics.txt_3,7,cl4-nil-nil-rinse-[subj-agent-brush-sn1,def_prop(brush,[attivita,evento,istituzione,oggetto,strumento])])
+lf(Cold Moon Lyrics.txt_4,12,cl7-nil-nil-get-[obj-theme_unaff-stain-sn5,subj-agent-i-sn4,aux-have-nil,def_prop(stain,[astratto,sostanza]),def_prop(i,[umano])])
+lf(Cold Moon Lyrics.txt_4,12,cl6-nil-nil-know-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Cold Moon Lyrics.txt_5,18,cl8-nil-nil-do-[cmod-subord-do-",subj-theme_unaff-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Cold Moon Lyrics.txt_6,24,cl10-nil-nil-deny-[subj-goal-stomach-sn2,def_prop(stomach,[body_part,emotivo,umano])])
+lf(Cold Moon Lyrics.txt_6,24,cl9-nil-nil-find-[obj-theme_bound-stomach-sn2,subj-actor-i-sn1,def_prop(stomach,[body_part,emotivo,umano]),def_prop(i,[umano])])
+lf(Cold Moon Lyrics.txt_7,32,cl11-nil-nil-look-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,urge,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Cold Moon Lyrics.txt_8,40,cl13-nil-nil-creep-[ncmod-theme-profile-sn2,xcomp-purpose-creep-2,def_prop(profile,[attivita,informa,luogo])])
+lf(Cold Moon Lyrics.txt_8,40,cl12-not-nil-want-[subj-actor-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Cold Moon Lyrics.txt_9,50,cl14-nil-nil-do-[subj-theme_unaff-i-sn1,aux-do-nil,def_prop(i,[umano])])
+lf(Cold Moon Lyrics.txt_10,60,cl16-nil-nil-be-[ncmod-locativo-moon-sn5,subj-theme_bound-you-sn4,and(moon,cold,sn5),def_prop(moon,[oggetto]),def_prop(you,[umano])])
+lf(Cold Moon Lyrics.txt_10,60,cl15-nil-will-see-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Cold Moon Lyrics.txt_11,72,cl17-nil-will-meet-[adj-(mod)-again-nil,ncmod-locativo-moon-sn2,subj-experiencer-we-sn1,and(moon,cold,sn2),def_prop(moon,[oggetto]),def_prop(we,[umano])])
+lf(Cold Moon Lyrics.txt_12,84,cl18-nil-nil-fill-[obj-goal-room-sn2,subj-agent-window-sn1,and(window,thin,sn1),def_prop(room,[nquant,oggetto,stato,strumento]),def_prop(window,[oggetto,strumento,tempo])])
+lf(Cold Moon Lyrics.txt_13,97,cl19-nil-nil-be-[ncmod-loc_origin-moon-sn2,ncmod-comitativo-silver-sn1,and(moon,cold,sn2),def_prop(moon,[oggetto]),def_prop(silver,[astratto,oggetto,sostanza])])
+lf(Cold Moon Lyrics.txt_14,111,cl20-nil-nil-be-[adj-(mod)-here_and_there-nil,ncmod-locativo-mirror-sn1,def_prop(mirror,[astratto,oggetto,strumento])])
+lf(Cold Moon Lyrics.txt_15,126,cl21-nil-nil-catch-[obj-goal-flash-sn2,subj-agent-i-sn1,def_prop(flash,[astratto,evento,oggetto,strumento,tempo]),def_prop(i,[umano])])
+lf(Cold Moon Lyrics.txt_16,142,cl24-nil-nil-clear-[subj-patient-my-sn2,def_prop(my,[informa,tecno])])
+lf(Cold Moon Lyrics.txt_16,142,cl23-nil-nil-try-[])
+lf(Cold Moon Lyrics.txt_16,142,cl22-nil-nil-shake-[adj-(mod)-back-nil,xcomp-prop-my-sn2,subj-agent-i-sn1,def_prop(my,[informa,tecno]),def_prop(i,[umano])])
+lf(Cold Moon Lyrics.txt_17,161,cl26-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Cold Moon Lyrics.txt_17,161,cl25-nil-nil-set-[subj-agent-you-sn1,def_prop(you,[umano])])

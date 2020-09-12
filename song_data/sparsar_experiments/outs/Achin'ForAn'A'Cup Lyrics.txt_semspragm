@@ -1,0 +1,64 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Achin'ForAn'A'Cup Lyrics.txt_1-1  []-positive  []
+Achin'ForAn'A'Cup Lyrics.txt_2-3  []-acceptance  [neg,fhd,ass]
+Achin'ForAn'A'Cup Lyrics.txt_3-6  []-positive  [fhd,neg]
+Achin'ForAn'A'Cup Lyrics.txt_4-11  []-negative  [neg]
+Achin'ForAn'A'Cup Lyrics.txt_5-16  []-negative  []
+Achin'ForAn'A'Cup Lyrics.txt_6-22  []-negative  [neg]
+Achin'ForAn'A'Cup Lyrics.txt_7-29  []-positive  [fhd,neg]
+Achin'ForAn'A'Cup Lyrics.txt_8-38  []-negative  [neg]
+Achin'ForAn'A'Cup Lyrics.txt_9-47  []-negative  []
+Achin'ForAn'A'Cup Lyrics.txt_10-57  []-negative  [neg]
+Achin'ForAn'A'Cup Lyrics.txt_11-68  []-negative  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Achin'ForAn'A'Cup Lyrics.txt_1-1  [achin-foran-a-cup,Lyrics,by,Blood,Duster]  [title]
+Achin'ForAn'A'Cup Lyrics.txt_2-3  [i,dicks,i,like,think,there,great]  [propose_opin_neg(think,[external,factive,explanation,background,objective]),suggest(think,_35600)]
+Achin'ForAn'A'Cup Lyrics.txt_3-6  [i,like,bums,that,carry,their,weight]  [propose_opin_neg(carry,[external,factive,explanation,background,objective])]
+Achin'ForAn'A'Cup Lyrics.txt_4-11  [dicks]  reject_expl_opin(nil,[])
+Achin'ForAn'A'Cup Lyrics.txt_5-16  [bums]  reject_expl_opin(nil,[])
+Achin'ForAn'A'Cup Lyrics.txt_6-22  [the,smell,of,dick,is,in,the,air]  [reject_expl_just(air,[internal,factive,narration,background,objective])]
+Achin'ForAn'A'Cup Lyrics.txt_7-29  [i,had,like,to,splash,cum,in,your,hair]  [provide_expl_just(splash,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,foreground,objective])]
+Achin'ForAn'A'Cup Lyrics.txt_8-38  [dicks]  reject_expl_opin(nil,[])
+Achin'ForAn'A'Cup Lyrics.txt_9-47  [bums]  reject_expl_opin(nil,[])
+Achin'ForAn'A'Cup Lyrics.txt_10-57  [dicks]  reject_expl_opin(nil,[])
+Achin'ForAn'A'Cup Lyrics.txt_11-68  [bums]  reject_expl_opin(nil,[])
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Achin'ForAn'A'Cup Lyrics.txt_1-1)-[]
+2-(Achin'ForAn'A'Cup Lyrics.txt_2-3)-[emotions-affection,secondary-abstract_tought,emotions-glory]
+3-(Achin'ForAn'A'Cup Lyrics.txt_3-6)-[emotions-affection,secondary-instru_behavior,secondary-abstract_tought]
+4-(Achin'ForAn'A'Cup Lyrics.txt_4-11)-[]
+5-(Achin'ForAn'A'Cup Lyrics.txt_5-16)-[]
+half
+6-(Achin'ForAn'A'Cup Lyrics.txt_6-22)-[primary-odor]
+7-(Achin'ForAn'A'Cup Lyrics.txt_7-29)-[emotions-affection,primary-water,primary-narcissism]
+8-(Achin'ForAn'A'Cup Lyrics.txt_8-38)-[]
+9-(Achin'ForAn'A'Cup Lyrics.txt_9-47)-[]
+10-(Achin'ForAn'A'Cup Lyrics.txt_10-57)-[]
+11-(Achin'ForAn'A'Cup Lyrics.txt_11-68)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Achin'ForAn'A'Cup Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Duster-sn2,subj-theme_bound-Lyrics-sn1,and(Duster,Blood,sn2),and(Lyrics,achin-foran-a-cup,sn1),def_prop(Duster,[place,attivita,oggetto,strumento,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Achin'ForAn'A'Cup Lyrics.txt_2,3,cl2-nil-nil-think-[xcomp-prop-great-sn4,obj-theme_aff-there-sn3,subj-agent-i-sn2,subj-agent-i-sn1,and(i,dick,sn1),def_prop(great,[evaluative]),def_prop(there,[any]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Achin'ForAn'A'Cup Lyrics.txt_3,6,cl4-nil-nil-carry-[subj-agent-bum-sn2,subj-agent-weight-sn8,subj-agent-bum-sn1,and(bum,i,sn1),def_prop(bum,[body_part,umano]),def_prop(weight,[astratto,emotivo,nquant,oggetto,strumento]),def_prop(bum,[body_part,umano])])
+lf(Achin'ForAn'A'Cup Lyrics.txt_3,6,cl3-nil-nil-be-[subj-theme_bound-bum-sn2,subj-theme_bound-bum-sn1,and(bum,i,sn1),def_prop(bum,[body_part,umano]),def_prop(bum,[body_part,umano])])
+lf(Achin'ForAn'A'Cup Lyrics.txt_4,11,cl5-nil-nil-say-[obj-theme_unaff-dick-sn1,def_prop(dick,[umano])])
+lf(Achin'ForAn'A'Cup Lyrics.txt_5,16,cl6-nil-nil-say-[obj-theme_unaff-bum-sn1,def_prop(bum,[body_part,umano])])
+lf(Achin'ForAn'A'Cup Lyrics.txt_6,22,cl7-nil-nil-be-[ncmod-locativo-air-sn2,subj-theme_bound-smell-sn1,def_prop(air,[astratto,attivita,informa,luogo,sostanza]),def_prop(smell,[astratto,attivita])])
+lf(Achin'ForAn'A'Cup Lyrics.txt_7,29,cl9-nil-nil-splash-[ncmod-locativo-hair-sn3,obj-theme-cum-sn2,xadj-result-splash-2,def_prop(hair,[animato,body_part,nquant,plant,umano]),def_prop(cum,[istituzione,umano])])
+lf(Achin'ForAn'A'Cup Lyrics.txt_7,29,cl8-nil-nil-have-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Achin'ForAn'A'Cup Lyrics.txt_8,38,cl10-nil-nil-say-[obj-theme_unaff-dick-sn1,def_prop(dick,[umano])])
+lf(Achin'ForAn'A'Cup Lyrics.txt_9,47,cl11-nil-nil-say-[obj-theme_unaff-bum-sn1,def_prop(bum,[body_part,umano])])
+lf(Achin'ForAn'A'Cup Lyrics.txt_10,57,cl12-nil-nil-say-[obj-theme_unaff-dick-sn1,def_prop(dick,[umano])])
+lf(Achin'ForAn'A'Cup Lyrics.txt_11,68,cl13-nil-nil-say-[obj-theme_unaff-bum-sn1,def_prop(bum,[body_part,umano])])

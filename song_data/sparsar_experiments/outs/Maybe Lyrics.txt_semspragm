@@ -1,0 +1,71 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Maybe Lyrics.txt_1-1  []-positive  [neg]
+Maybe Lyrics.txt_2-3  [else-advers]-negative  [neg]
+Maybe Lyrics.txt_3-7  []-negative  []
+Maybe Lyrics.txt_4-11  []-negative  [neg,neg]
+Maybe Lyrics.txt_4-12  [unless-cond]-positive  []
+Maybe Lyrics.txt_5-17  []-positive  []
+Maybe Lyrics.txt_5-18  []-negative  [neg]
+Maybe Lyrics.txt_6-24  [but-advers]-positive  [fgb]
+Maybe Lyrics.txt_7-31  []-positive  [bkc]
+Maybe Lyrics.txt_8-39  []-positive  []
+Maybe Lyrics.txt_9-48  []-negative  []
+Maybe Lyrics.txt_10-58  []-positive  []
+Maybe Lyrics.txt_11-69  [but-advers]-negative  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Maybe Lyrics.txt_1-1  [maybe,Lyrics,by,Quiero,club]  [title]
+Maybe Lyrics.txt_2-3  [i,am,left,with,nothing,else,to,say]  [reject_expl_just(say,[external,factive,explanation,background,objective]),propose_opin_neg(say,[external,factive,explanation,background,objective]),reject_expl_just(leave,[external,factive,narration,foreground,objective])]
+Maybe Lyrics.txt_3-7  [hearts,are,broken,almost,every_day]  [proposal(be,[_31954,_31960,statement,foreground,_31978])]
+Maybe Lyrics.txt_4-11  [things,are,not,yours,not]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),reject_expl_just(pay,[external,factive,explanation,background,objective]),propose_opin_neg(pay,[external,factive,explanation,background,objective])]
+Maybe Lyrics.txt_4-12  [unless,there,pay,for,them]  [provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(pay,[external,factive,explanation,background,objective])]
+Maybe Lyrics.txt_5-17  [we,are,looking]  [provide_expl_just(look,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Maybe Lyrics.txt_5-18  [for,another,empty,day]  [reject_expl_just(look,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Maybe Lyrics.txt_6-24  [but,in,between]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Maybe Lyrics.txt_7-31  [yeah,i,have,seen]  [provide_expl_just(see,[external,factive,narration,foreground,objective])]
+Maybe Lyrics.txt_8-39  [maybe,i,promised]  [raise_issue(be,[_36184,factive,statement,_36202,subjective])]
+Maybe Lyrics.txt_9-48  [maybe,i,lied]  [provide_expl_just(lie,[external,factive,cause,foreground,objective]),suggest(lie,[external,factive,cause,foreground,objective])]
+Maybe Lyrics.txt_10-58  [maybe,i,promised]  [provide_expl_just(promise,[external,factive,narration,foreground,objective])]
+Maybe Lyrics.txt_11-69  [but,there,are,things,that,change,in,my,mind]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Maybe Lyrics.txt_1-1)-[secondary-abstract_tought]
+2-(Maybe Lyrics.txt_2-3)-[secondary-social_behavior]
+3-(Maybe Lyrics.txt_3-7)-[primary-narcissism,emotions-aggression,secondary-abstract_tought]
+4-(Maybe Lyrics.txt_4-11)-[]
+5-(Maybe Lyrics.txt_4-12)-[secondary-instru_behavior,secondary-abstract_tought]
+6-(Maybe Lyrics.txt_5-17)-[]
+half
+7-(Maybe Lyrics.txt_5-18)-[]
+8-(Maybe Lyrics.txt_6-24)-[primary-concreteness]
+9-(Maybe Lyrics.txt_7-31)-[primary-vision]
+10-(Maybe Lyrics.txt_8-39)-[secondary-abstract_tought,secondary-social_behavior]
+11-(Maybe Lyrics.txt_9-48)-[secondary-abstract_tought,primary-passivity]
+12-(Maybe Lyrics.txt_10-58)-[secondary-abstract_tought,secondary-social_behavior]
+13-(Maybe Lyrics.txt_11-69)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Maybe Lyrics.txt_1,1,cl1-nil-nil-club-[arg_mod-agent-Quiero-sn2,subj-patient-Lyrics-sn1,def_prop(Quiero,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Maybe Lyrics.txt_2,3,cl3-nil-nil-say-[ncmod-comitativo-nothing-sn2,def_prop(nothing,[astratto,informa,oggetto])])
+lf(Maybe Lyrics.txt_2,3,cl2-nil-nil-leave-[adj-(mod)-else-nil,subj-theme-i-sn1,aux-am-nil,def_prop(i,[umano])])
+lf(Maybe Lyrics.txt_3,7,cl4-nil-nil-break-[xcomp-prop-every_day-sn2,subj-theme_aff-heart-sn1,aux-are-nil,def_prop(every_day,[stato,tempo]),def_prop(heart,[astratto,body_part,edible,oggetto,strumento,umano])])
+lf(Maybe Lyrics.txt_4,11,cl6-nil-nil-pay-[subj-agent-them-sn4,subj-agent-them-sn3,def_prop(them,[umano]),def_prop(them,[umano])])
+lf(Maybe Lyrics.txt_4,11,cl5-not-nil-be-[xcomp-prop-yours-sn2,subj-theme_bound-thing-sn1,def_prop(yours,[istituzione]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Maybe Lyrics.txt_5,17,cl8-nil-nil-be-[adj-temporal-day-nil,subj-theme_bound-empty-sn2,and(empty,another,sn2),def_prop(empty,[oggetto,strumento])])
+lf(Maybe Lyrics.txt_5,17,cl7-nil-nil-look-[subj-agent-you-sn1,aux-are-nil,progr-looking-nil,def_prop(you,[umano])])
+lf(Maybe Lyrics.txt_6,24,cl9-nil-nil-be-[])
+lf(Maybe Lyrics.txt_7,31,cl10-nil-nil-see-[subj-experiencer-i-sn1,aux-have-nil,def_prop(i,[umano])])
+lf(Maybe Lyrics.txt_8,39,cl11-nil-nil-promise-[subj-causer-i-sn1,def_prop(i,[umano])])
+lf(Maybe Lyrics.txt_9,48,cl12-nil-nil-lie-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Maybe Lyrics.txt_10,58,cl13-nil-nil-promise-[subj-causer-i-sn1,def_prop(i,[umano])])
+lf(Maybe Lyrics.txt_11,69,cl14-nil-nil-be-[])

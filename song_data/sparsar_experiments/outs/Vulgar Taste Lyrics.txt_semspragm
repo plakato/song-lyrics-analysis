@@ -1,0 +1,92 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Vulgar Taste Lyrics.txt_1-1  []-negative  [neg]
+Vulgar Taste Lyrics.txt_2-3  []-positive  [neg]
+Vulgar Taste Lyrics.txt_3-6  []-positive  [fgb]
+Vulgar Taste Lyrics.txt_3-6  []-positive  [fgb]
+Vulgar Taste Lyrics.txt_4-10  []-suspension  [neg,neg,neg]
+Vulgar Taste Lyrics.txt_5-15  []-negative  [neg]
+Vulgar Taste Lyrics.txt_6-21  []-suspension  [neg,neg]
+Vulgar Taste Lyrics.txt_7-28  []-negative  [neg]
+Vulgar Taste Lyrics.txt_8-36  []-suspension  [neg,neg]
+Vulgar Taste Lyrics.txt_9-45  []-suspension  []
+Vulgar Taste Lyrics.txt_10-55  []-positive  []
+Vulgar Taste Lyrics.txt_11-66  []-suspension  [neg,fgb,neg]
+Vulgar Taste Lyrics.txt_12-78  []-negative  [neg]
+Vulgar Taste Lyrics.txt_13-91  []-positive  [fgb]
+Vulgar Taste Lyrics.txt_14-106  []-positive  []
+Vulgar Taste Lyrics.txt_15-121  []-positive  []
+Vulgar Taste Lyrics.txt_16-137  []-positive  []
+Vulgar Taste Lyrics.txt_17-154  []-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Vulgar Taste Lyrics.txt_1-1  [vulgar,Taste,Lyrics,by,Blood,Duster]  [title]
+Vulgar Taste Lyrics.txt_2-3  [open,the,wound]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Vulgar Taste Lyrics.txt_3-6  [and,peel,back]  [provide_expl_just(peel,[external,factive,explanation,background,objective])]
+Vulgar Taste Lyrics.txt_3-6  [and,peel,back,the,skin]  [provide_expl_just(peel,[external,factive,explanation,background,objective])]
+Vulgar Taste Lyrics.txt_4-10  [stench,of,rotten,cunt,meat]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Vulgar Taste Lyrics.txt_5-15  [put,your,cock,in]  [reject_expl_just(put,[external,factive,narration,foreground,objective])]
+Vulgar Taste Lyrics.txt_6-21  [the,hole,is,rotten]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Vulgar Taste Lyrics.txt_7-28  [your,meat,is,getting,sore]  [reject_expl_just(get,[external,factive,narration,foreground,objective])]
+Vulgar Taste Lyrics.txt_8-36  [along_with,the,dead,slut]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Vulgar Taste Lyrics.txt_9-45  [bleeding,on,the,floor]  [provide_expl_just(bleed,[external,factive,narration,foreground,objective])]
+Vulgar Taste Lyrics.txt_10-55  [face,to,the,crotch,the]  [provide_expl_just(face,[external,factive,narration,background,objective])]
+Vulgar Taste Lyrics.txt_11-66  [corpse,dead,and,stiff]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Vulgar Taste Lyrics.txt_12-78  [chunky,rotten,meat,flaps]  [reject_expl_just(flap,[external,factive,narration,background,objective])]
+Vulgar Taste Lyrics.txt_13-91  [try,and,a,whiff,take]  [provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Vulgar Taste Lyrics.txt_14-106  [the,pungent,aroma]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Vulgar Taste Lyrics.txt_15-121  [of,this,rancid,treat]  [raise_issue(be,[_737646,factive,statement,_737664,subjective])]
+Vulgar Taste Lyrics.txt_16-137  [wafts,to,my,nostrils]  [provide_expl_just(waft,[external,factive,narration,background,objective])]
+Vulgar Taste Lyrics.txt_17-154  [and,makes,me,want,to,eat]  [provide_expl_just(eat,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Vulgar Taste Lyrics.txt_1-1)-[]
+2-(Vulgar Taste Lyrics.txt_2-3)-[primary-concreteness,emotions-aggression]
+3-(Vulgar Taste Lyrics.txt_3-6)-[primary-concreteness]
+4-(Vulgar Taste Lyrics.txt_3-6)-[primary-concreteness,primary-narcissism]
+5-(Vulgar Taste Lyrics.txt_4-10)-[primary-anality,primary-anality,primary-sex,primary-orality]
+6-(Vulgar Taste Lyrics.txt_5-15)-[]
+7-(Vulgar Taste Lyrics.txt_6-21)-[primary-depth,primary-anality]
+8-(Vulgar Taste Lyrics.txt_7-28)-[primary-orality]
+9-(Vulgar Taste Lyrics.txt_8-36)-[primary-passivity,primary-sex]
+half
+10-(Vulgar Taste Lyrics.txt_9-45)-[primary-brink]
+11-(Vulgar Taste Lyrics.txt_10-55)-[primary-narcissism]
+12-(Vulgar Taste Lyrics.txt_11-66)-[primary-narcissism,primary-passivity,primary-hard]
+13-(Vulgar Taste Lyrics.txt_12-78)-[primary-anality,primary-orality,primary-ascend]
+14-(Vulgar Taste Lyrics.txt_13-91)-[secondary-instru_behavior]
+15-(Vulgar Taste Lyrics.txt_14-106)-[primary-odor,primary-odor]
+16-(Vulgar Taste Lyrics.txt_15-121)-[primary-anality,secondary-social_behavior]
+17-(Vulgar Taste Lyrics.txt_16-137)-[primary-odor]
+18-(Vulgar Taste Lyrics.txt_17-154)-[secondary-instru_behavior,primary-orality]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Vulgar Taste Lyrics.txt_1,1,cl1-nil-nil-taste-[arg_mod-agent-Duster-sn3,xcomp-tema_emot-Lyrics-sn2,subj-theme_bound-vulgar-sn1,and(Duster,Blood,sn3),def_prop(Duster,[place,attivita,oggetto,strumento,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(vulgar,[evaluative])])
+lf(Vulgar Taste Lyrics.txt_2,3,cl2-nil-nil-be-[subj-theme_bound-wind-sn1,def_prop(wind,[attivita,cambia,informa])])
+lf(Vulgar Taste Lyrics.txt_3,6,cl3-nil-nil-peel-[cmod-coord-peel-and,xcomp-prop-back-sn5,subj-agent-skin-sn4,subj-agent-skin-sn3,cmod-subord-peel-",xcomp-prop-back-sn2,subj-agent-you-sn1,and(skin,you,sn3),def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(skin,[body_part,oggetto,sostanza,stato,strumento,umano]),def_prop(skin,[body_part,oggetto,sostanza,stato,strumento,umano]),def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Vulgar Taste Lyrics.txt_4,10,cl4-nil-nil-be-[xcomp-theme-cunt-sn2,subj-theme_bound-you-sn1,and(cunt,rotten,sn2),def_prop(cunt,[body_part,umano]),def_prop(you,[umano])])
+lf(Vulgar Taste Lyrics.txt_5,15,cl5-nil-nil-put-[obj-goal-cock-sn2,subj-agent-you-sn1,def_prop(cock,[animato,body_part,plant,umano]),def_prop(you,[umano])])
+lf(Vulgar Taste Lyrics.txt_6,21,cl6-nil-nil-be-[xcomp-prop-rotten-sn2,subj-theme_bound-hole-sn1,def_prop(rotten,[evaluative]),def_prop(hole,[astratto,oggetto,stato,strumento])])
+lf(Vulgar Taste Lyrics.txt_7,28,cl7-nil-nil-get-[xcomp-prop-sore-sn2,subj-theme_bound-meat-sn1,aux-(is)-nil,progr-getting-nil,def_prop(sore,[stato]),def_prop(meat,[astratto,edible,oggetto])])
+lf(Vulgar Taste Lyrics.txt_8,36,cl8-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Vulgar Taste Lyrics.txt_9,45,cl9-nil-nil-bleed-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Vulgar Taste Lyrics.txt_10,55,cl10-nil-nil-face-[ncmod-goal-crotch-sn2,subj-experiencer-you-sn1,def_prop(crotch,[body_part,umano]),def_prop(you,[umano])])
+lf(Vulgar Taste Lyrics.txt_11,66,cl11-nil-nil-be-[subj-theme_bound-corpse-sn1,def_prop(corpse,[body_part,oggetto])])
+lf(Vulgar Taste Lyrics.txt_12,78,cl12-nil-nil-flap-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Vulgar Taste Lyrics.txt_13,91,cl14-nil-nil-take-[cmod-coord-take-and,subj-agent-pro-nil,subj-agent-whiff-sn2,def_prop(whiff,[animato,attivita])])
+lf(Vulgar Taste Lyrics.txt_13,91,cl13-nil-nil-try-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Vulgar Taste Lyrics.txt_14,106,cl15-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Vulgar Taste Lyrics.txt_15,121,cl16-nil-nil-treat-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Vulgar Taste Lyrics.txt_16,137,cl17-nil-nil-waft-[ncmod-goal-nostril-sn2,subj-theme-you-sn1,def_prop(nostril,[body_part,umano]),def_prop(you,[umano])])
+lf(Vulgar Taste Lyrics.txt_17,154,cl20-nil-nil-eat-[cmod-subord-eat-",subj-tema_nonaff-me-sn2,def_prop(me,[umano])])
+lf(Vulgar Taste Lyrics.txt_17,154,cl19-nil-nil-want-[])
+lf(Vulgar Taste Lyrics.txt_17,154,cl18-nil-nil-make-[obj-goal-me-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])

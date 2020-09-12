@@ -1,0 +1,53 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Channelling Lyrics.txt_1-1  []-positive  []
+Channelling Lyrics.txt_2-3  []-positive  []
+Channelling Lyrics.txt_2-4  []-negative  [fgb]
+Channelling Lyrics.txt_2-5  []-negative  [fgb,neg]
+Channelling Lyrics.txt_2-6  []-positive  [neg]
+Channelling Lyrics.txt_2-7  [when-temp_coinc]-positive  [neg,neg,neg,neg,neg,neg,neg,fgb,neg,neg]
+Channelling Lyrics.txt_3-17  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Channelling Lyrics.txt_1-1  [channelling,Lyrics,by,Vita,Et,Mors]  [title]
+Channelling Lyrics.txt_2-3  [channeling,energy,through,this,track,hugs,kisses]  [provide_expl_just(replace,[external,factive,narration,foreground,objective]),provide_expl_just(hug,[external,factive,explanation,background,objective]),provide_expl_just(envision,[external,factive,explanation,background,objective]),provide_expl_just(channel,[external,factive,narration,foreground,objective]),provide_expl_just(arrive,[external,factive,explanation,background,objective]),provide_expl_just(kitten,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(jump,[external,factive,explanation,background,objective]),provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Channelling Lyrics.txt_2-4  [and,kittens,snowball,fights,in,mittens,riches]  [provide_expl_just(replace,[external,factive,narration,foreground,objective]),propose_opin_neg(hug,[external,factive,explanation,background,objective]),propose_opin_neg(envision,[external,factive,explanation,background,objective]),provide_expl_just(channel,[external,factive,narration,foreground,objective]),propose_opin_neg(arrive,[external,factive,explanation,background,objective]),propose_opin_neg(kitten,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),propose_opin_neg(jump,[external,factive,explanation,background,objective]),provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Channelling Lyrics.txt_2-5  [and,bitches,you,are,,,a,different,type,of,wack,you,are,all,about,defense]  [reject_expl_just(replace,[external,factive,narration,foreground,objective]),reject_expl_just(hug,[external,factive,explanation,background,objective]),propose_opin_neg(hug,[external,factive,explanation,background,objective]),reject_expl_just(envision,[external,factive,explanation,background,objective]),propose_opin_neg(envision,[external,factive,explanation,background,objective]),reject_expl_just(channel,[external,factive,narration,foreground,objective]),reject_expl_just(arrive,[external,factive,explanation,background,objective]),propose_opin_neg(arrive,[external,factive,explanation,background,objective]),reject_expl_just(kitten,[external,factive,explanation,background,objective]),propose_opin_neg(kitten,[external,factive,explanation,background,objective]),reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),reject_expl_just(jump,[external,factive,explanation,background,objective]),propose_opin_neg(jump,[external,factive,explanation,background,objective]),reject_expl_just(make,[external,factive,cause,foreground,objective])]
+Channelling Lyrics.txt_2-6  [,,i,am,all,about,attack]  [provide_expl_just(replace,[external,factive,narration,foreground,objective]),propose_opin_neg(hug,[external,factive,explanation,background,objective]),propose_opin_neg(envision,[external,factive,explanation,background,objective]),provide_expl_just(channel,[external,factive,narration,foreground,objective]),propose_opin_neg(arrive,[external,factive,explanation,background,objective]),propose_opin_neg(kitten,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),propose_opin_neg(jump,[external,factive,explanation,background,objective]),provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Channelling Lyrics.txt_2-7  [verbal,crucifixion,,,when,i,jump,on,a,track,i,am,making,it,my,mission,to,envision,a,decision,of,replacing,your,religion,with,,,a,Vita,filled,addiction,a,butcher,wielding,knife,homie,,,get,ready,for,incisions,arrive,at,your,crib,at,night,,,dressed,in,chain,mail,bust,through,the,front,door,throw,away,the,knife,grab,a,sprite,and,stab,your,wife,with,a,fucking,hang,nail]  [provide_expl_just(replace,[external,factive,narration,foreground,objective]),propose_opin_neg(hug,[external,factive,explanation,background,objective]),propose_opin_neg(envision,[external,factive,explanation,background,objective]),provide_expl_just(channel,[external,factive,narration,foreground,objective]),propose_opin_neg(arrive,[external,factive,explanation,background,objective]),propose_opin_neg(kitten,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective]),propose_opin_neg(jump,[external,factive,explanation,background,objective]),provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Channelling Lyrics.txt_3-17  [my,credit-s,ruined]  [reject_expl_just(be,[_51298,_51304,_51310,_51316,_51322])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Channelling Lyrics.txt_1-1)-[]
+2-(Channelling Lyrics.txt_2-3)-[primary-sex]
+3-(Channelling Lyrics.txt_2-4)-[emotions-aggression,emotions-glory]
+half
+4-(Channelling Lyrics.txt_2-5)-[primary-sex,secondary-abstract_tought]
+5-(Channelling Lyrics.txt_2-6)-[emotions-aggression]
+6-(Channelling Lyrics.txt_2-7)-[secondary-temporal_repere,primary-ascend,emotions-aggression,primary-concreteness,primary-concreteness,primary-concreteness,primary-brink,primary-ascend,primary-concreteness,emotions-aggression,emotions-aggression,primary-ascend,primary-hard]
+7-(Channelling Lyrics.txt_3-17)-[primary-chaos]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Channelling Lyrics.txt_1,1,cl1-nil-nil-channel-[arg_mod-agent-Mors-sn2,subj-agent-Lyrics-sn1,and(Mors,Vita,sn2),and(Mors,Et,sn2),def_prop(Mors,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Channelling Lyrics.txt_2,3,nil-nil-nil-envision-[adj-subj_disc-night-sn42,xcomp-prop-ready-sn41,obj-theme-homie-sn40,xcomp-prop-addiction-sn39,obj-theme-Vita-sn38,xcomp-result-religion-sn37,xcomp-purpose-replace-2,obj-theme-decision-sn36,xcomp-prop-mission-sn35,obj-theme-it-sn34,subj-agent-i-sn33,subj-agent-i-sn32,subj-agent-crucifixion-sn31,and(homie,butcher,sn40),and(homie,knife,sn40),and(addiction,filled,sn39),and(i,crucifixion,sn32),and(i,verbal,sn32),and(crucifixion,energy,sn31),and(crucifixion,verbal,sn31),def_prop(night,[tempo]),def_prop(ready,[telico]),def_prop(homie,[istituzione]),def_prop(addiction,[attivita,emotivo,stato]),def_prop(Vita,[umano]),def_prop(religion,[astratto,istituzione]),def_prop(decision,[astratto,attivita,evento]),def_prop(mission,[attivita,istituzione]),def_prop(it,[any]),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(crucifixion,[attivita])])
+lf(Channelling Lyrics.txt_2,3,cl12-nil-nil-grab-[ncmod-comitativo-hang-sn71,xcomp-prop-wife-sn70,coord-prop-sprite_and_stab-sn69,xcomp-prop-stab-sn68,xcomp-prop-sprite-sn67,subj-agent-knife-sn66,and(hang,fucking,sn71),and(hang,hang,sn71),def_prop(hang,[astratto,attivita]),def_prop(wife,[umano]),def_prop(sprite_and_stab,[astratto,informa,tecno,umano,attivita]),def_prop(stab,[astratto,informa,tecno,umano,attivita]),def_prop(sprite,[astratto,informa,tecno,umano,attivita]),def_prop(knife,[oggetto,strumento])])
+lf(Channelling Lyrics.txt_2,3,cl11-nil-nil-throw-[ncmod-locativo-bus-sn62,xadj-adj-dressed-adj1,xcomp-prop-away-sn61,ncmod-location-front-sn60,subj-agent-door-sn59,and(bus,chain,sn62),and(bus,mail,sn62),def_prop(bus,_52850),def_prop(dressed,_52862),def_prop(away,[evaluative]),def_prop(front,[astratto,attivita,cambia,luogo,oggetto,stato,strumento]),def_prop(door,[astratto,oggetto,strumento])])
+lf(Channelling Lyrics.txt_2,3,cl10-nil-nil-arrive-[cmod-subord-be-for,iobj-goal-crib-sn54,subj-agent-incision-sn53,def_prop(crib,[oggetto,strumento]),def_prop(incision,[astratto,attivita])])
+lf(Channelling Lyrics.txt_2,3,cl9-nil-nil-get-[])
+lf(Channelling Lyrics.txt_2,3,cl8-nil-nil-replace-[])
+lf(Channelling Lyrics.txt_2,3,cl7-nil-nil-make-[aux-am-nil,progr-making-nil])
+lf(Channelling Lyrics.txt_2,3,cl6-nil-nil-jump-[cmod-subord-be-when,ncmod-locativo-track-sn58,subj-agent-i-sn57,def_prop(track,[attivita,oggetto,strumento]),def_prop(i,[umano])])
+lf(Channelling Lyrics.txt_2,3,cl5-nil-nil-be-[ncmod-subj_disc-attack-sn30,xcomp-prop-all-sn29,subj-theme_bound-i-sn28,cmod-subord-kitten-",ncmod-subj_disc-defense-sn24,xcomp-prop-all-sn23,subj-theme_bound-you-sn22,subj-theme_bound-you-sn21,subj-theme_bound-you-sn19,subj-theme_bound-you-sn18,and(you,type,sn21),and(you,different,sn21),and(you,bitch,sn18),def_prop(attack,[attivita,stato]),def_prop(all,[_53718]),def_prop(i,[umano]),def_prop(defense,[attivita,informa,istituzione]),def_prop(all,[_53784]),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Channelling Lyrics.txt_2,3,cl4-nil-nil-kitten-[xcomp-prop-riches-sn14,subj-actor-fight-sn13,and(fight,snowball,sn13),def_prop(riches,[oggetto]),def_prop(fight,[attivita,informa])])
+lf(Channelling Lyrics.txt_2,3,cl3-nil-nil-hug-[xcomp-purpose-channel-2,subj-actor1-energy-sn1,def_prop(energy,[astratto,attivita,cambia,stato])])
+lf(Channelling Lyrics.txt_2,3,cl2-nil-nil-channel-[iobj-goal-track-sn2,and(track,this,sn2),def_prop(track,[attivita,oggetto,strumento])])
+lf(Channelling Lyrics.txt_3,17,cl13-nil-nil-ruin-[subj-agent-you-sn1,def_prop(you,[umano])])

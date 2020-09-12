@@ -1,0 +1,68 @@
+"POLARITY, DISCOURSE MARKERS"
+
+My Favorite 100 Songs of 2015 Lyrics.txt_1-1  []-positive  []
+My Favorite 100 Songs of 2015 Lyrics.txt_2-3  [so-result]-negative  [fgb,fgb,neg]
+My Favorite 100 Songs of 2015 Lyrics.txt_3-7  []-positive  [neg]
+My Favorite 100 Songs of 2015 Lyrics.txt_4-13  []-negative  []
+My Favorite 100 Songs of 2015 Lyrics.txt_5-18  []-positive  []
+My Favorite 100 Songs of 2015 Lyrics.txt_6-24  []-negative  [neg,fgb]
+My Favorite 100 Songs of 2015 Lyrics.txt_7-31  [else-advers]-suspension  []
+My Favorite 100 Songs of 2015 Lyrics.txt_8-39  []-positive  []
+My Favorite 100 Songs of 2015 Lyrics.txt_9-48  []-positive  []
+My Favorite 100 Songs of 2015 Lyrics.txt_10-58  []-positive  []
+My Favorite 100 Songs of 2015 Lyrics.txt_11-69  []-positive  []
+My Favorite 100 Songs of 2015 Lyrics.txt_12-81  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+My Favorite 100 Songs of 2015 Lyrics.txt_1-1  [my,100,Favorite,Songs,of,2015,Lyrics,by,swinelord]  [title]
+My Favorite 100 Songs of 2015 Lyrics.txt_2-3  [with,so,many,songs,released,by,high,hitting,and,underground,alike,artists,,]  [reject_expl_just(hit,[external,factive,cause,foreground,objective])]
+My Favorite 100 Songs of 2015 Lyrics.txt_3-7  [making,a,list,of,just,100,songs,was,near,impossible]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+My Favorite 100 Songs of 2015 Lyrics.txt_4-13  [flooded,with,an,entire]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+My Favorite 100 Songs of 2015 Lyrics.txt_5-18  [album,of,irresistible,Lupe,Fiasco,songs,heightened,Kendrick,Lamar]  [provide_expl_just(heighten,[external,factive,narration,foreground,objective])]
+My Favorite 100 Songs of 2015 Lyrics.txt_6-24  [many,underground,this,list,favorites,masterpieces,and,oh-so,has,a,wider]  [reject_expl_just(have,[external,factive,narration,background,objective])]
+My Favorite 100 Songs of 2015 Lyrics.txt_7-31  [variety,than,you,will,find,anywhere,else]  [provide_expl_just(find,[external,nonfactive,narration,background,objective])]
+My Favorite 100 Songs of 2015 Lyrics.txt_8-39  [also,check,out,my,joint,list,with,Open,Michael]  [provide_expl_just(out,[external,factive,narration,background,objective])]
+My Favorite 100 Songs of 2015 Lyrics.txt_9-48  [Aguila]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+My Favorite 100 Songs of 2015 Lyrics.txt_10-58  [Honorable,mentions]  [provide_expl_just(mention,[external,factive,narration,background,objective])]
+My Favorite 100 Songs of 2015 Lyrics.txt_11-69  [Mix,it,FACTS,&,amp]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+My Favorite 100 Songs of 2015 Lyrics.txt_12-81  [Wonderful]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(My Favorite 100 Songs of 2015 Lyrics.txt_1-1)-[]
+2-(My Favorite 100 Songs of 2015 Lyrics.txt_2-3)-[primary-height,primary-depth]
+3-(My Favorite 100 Songs of 2015 Lyrics.txt_3-7)-[secondary-order,primary-concreteness]
+4-(My Favorite 100 Songs of 2015 Lyrics.txt_4-13)-[primary-water]
+5-(My Favorite 100 Songs of 2015 Lyrics.txt_5-18)-[]
+6-(My Favorite 100 Songs of 2015 Lyrics.txt_6-24)-[primary-depth,secondary-order,primary-concreteness]
+half
+7-(My Favorite 100 Songs of 2015 Lyrics.txt_7-31)-[secondary-instru_behavior]
+8-(My Favorite 100 Songs of 2015 Lyrics.txt_8-39)-[primary-concreteness,secondary-order]
+9-(My Favorite 100 Songs of 2015 Lyrics.txt_9-48)-[]
+10-(My Favorite 100 Songs of 2015 Lyrics.txt_10-58)-[]
+11-(My Favorite 100 Songs of 2015 Lyrics.txt_11-69)-[]
+12-(My Favorite 100 Songs of 2015 Lyrics.txt_12-81)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(My Favorite 100 Songs of 2015 Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-swinelord-sn3,ncmod-specif-Lyrics-sn2,subj-theme_bound-female-sn1,and(female,100,sn1),def_prop(swinelord,[istituzione]),def_prop(Lyrics,[informa,tecno]),def_prop(female,[animato,umano])])
+lf(My Favorite 100 Songs of 2015 Lyrics.txt_2,3,cl3-nil-nil-hit-[subj-goal-song-sn1,and(song,many,sn1),def_prop(song,[astratto,attivita,evento,informa,oggetto])])
+lf(My Favorite 100 Songs of 2015 Lyrics.txt_2,3,cl2-nil-nil-release-[subj-agent-song-sn1,and(song,many,sn1),def_prop(song,[astratto,attivita,evento,informa,oggetto])])
+lf(My Favorite 100 Songs of 2015 Lyrics.txt_3,7,cl5-nil-nil-near-[aux-was-nil])
+lf(My Favorite 100 Songs of 2015 Lyrics.txt_3,7,cl4-nil-nil-make-[])
+lf(My Favorite 100 Songs of 2015 Lyrics.txt_4,13,cl6-nil-nil-be-[xadj-adj-flooded-adj1,ncmod-modal-entire-sn1,def_prop(flooded,_95204),def_prop(entire,[animato])])
+lf(My Favorite 100 Songs of 2015 Lyrics.txt_5,18,cl7-nil-nil-heighten-[obj-patient-Lamar-sn2,subj-agent-album-sn1,and(Lamar,Kendrick,sn2),and(album,song,sn1),def_prop(Lamar,[place,umano]),def_prop(album,[attivita,informa,oggetto,strumento])])
+lf(My Favorite 100 Songs of 2015 Lyrics.txt_6,24,cl8-nil-nil-have-[adj-(mod)-oh-so-nil,xcomp-tema_bound-wider-sn3,subj-experiencer-masterpiece-sn2,subj-experiencer-masterpiece-sn1,and(masterpiece,favorite,sn1),and(masterpiece,underground,sn1),and(masterpiece,many,sn1),def_prop(wider,[istituzione]),def_prop(masterpiece,[attivita,oggetto,strumento]),def_prop(masterpiece,[attivita,oggetto,strumento])])
+lf(My Favorite 100 Songs of 2015 Lyrics.txt_7,31,cl9-nil-will-find-[xcomp-prop-else-sn3,subj-actor-you-sn2,subj-actor-you-sn1,and(else,anywhere,sn3),and(you,variety,sn1),def_prop(else,[istituzione]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(My Favorite 100 Songs of 2015 Lyrics.txt_8,39,nil-nil-nil-out-[adj-(mod)-also-nil,ncmod-comitativo-Michael-sn4,obj-theme-list-sn3,obj-theme-joint-sn2,subj-actor-check-sn1,and(Michael,Open,sn4),def_prop(Michael,[place,umano]),def_prop(list,[attivita,informa]),def_prop(joint,[body_part,oggetto,strumento,umano]),def_prop(check,[astratto,attivita,informa,oggetto,strumento])])
+lf(My Favorite 100 Songs of 2015 Lyrics.txt_9,48,cl10-nil-nil-say-[obj-theme_unaff-Aguila-sn1,def_prop(Aguila,[place,umano])])
+lf(My Favorite 100 Songs of 2015 Lyrics.txt_10,58,cl11-nil-nil-mention-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(My Favorite 100 Songs of 2015 Lyrics.txt_11,69,cl12-nil-nil-be-[xcomp-theme-amp-sn2,subj-theme_bound-Mix-sn1,and(Mix,fact,sn1),def_prop(amp,[nquant]),def_prop(Mix,[place,umano])])
+lf(My Favorite 100 Songs of 2015 Lyrics.txt_12,81,cl13-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])

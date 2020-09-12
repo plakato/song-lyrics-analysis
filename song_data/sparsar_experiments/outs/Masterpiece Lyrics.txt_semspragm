@@ -1,0 +1,266 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Masterpiece Lyrics.txt_1-1  []-positive  [ass]
+Masterpiece Lyrics.txt_2-3  []-positive  []
+Masterpiece Lyrics.txt_3-6  []-negative  [neg]
+Masterpiece Lyrics.txt_4-10  []-suspension  [neg,neg,neg]
+Masterpiece Lyrics.txt_5-15  []-negative  [neg]
+Masterpiece Lyrics.txt_6-21  []-negative  [neg]
+Masterpiece Lyrics.txt_7-28  []-suspension  [neg,neg]
+Masterpiece Lyrics.txt_8-36  []-negative  [neg]
+Masterpiece Lyrics.txt_9-45  []-negative  [neg]
+Masterpiece Lyrics.txt_10-55  []-positive  []
+Masterpiece Lyrics.txt_10-56  []-positive  [fgb]
+Masterpiece Lyrics.txt_11-67  []-negative  [neg]
+Masterpiece Lyrics.txt_12-79  []-positive  [fgb]
+Masterpiece Lyrics.txt_13-92  [but-advers]-suspension  [fgb]
+Masterpiece Lyrics.txt_14-106  []-negative  [neg,neg,neg]
+Masterpiece Lyrics.txt_14-107  []-negative  [neg]
+Masterpiece Lyrics.txt_15-121  [so-result]-positive  [fgb]
+Masterpiece Lyrics.txt_16-137  []-negative  []
+Masterpiece Lyrics.txt_17-154  []-positive  []
+Masterpiece Lyrics.txt_18-172  []-positive  [fhd]
+Masterpiece Lyrics.txt_19-191  []-suspension  [neg]
+Masterpiece Lyrics.txt_20-212  []-suspension  [neg,neg]
+Masterpiece Lyrics.txt_21-233  []-positive  []
+Masterpiece Lyrics.txt_22-256  []-positive  []
+Masterpiece Lyrics.txt_23-280  []-positive  []
+Masterpiece Lyrics.txt_24-305  []-negative  [neg]
+Masterpiece Lyrics.txt_24-306  []-suspension  [neg]
+Masterpiece Lyrics.txt_25-331  []-positive  []
+Masterpiece Lyrics.txt_26-358  []-positive  []
+Masterpiece Lyrics.txt_27-386  []-positive  []
+Masterpiece Lyrics.txt_28-415  []-negative  [neg]
+Masterpiece Lyrics.txt_29-444  []-positive  [fgb]
+Masterpiece Lyrics.txt_29-445  []-positive  []
+Masterpiece Lyrics.txt_30-475  []-positive  []
+Masterpiece Lyrics.txt_31-507  []-positive  []
+Masterpiece Lyrics.txt_31-508  []-negative  [neg]
+Masterpiece Lyrics.txt_32-541  []-negative  [neg,neg]
+Masterpiece Lyrics.txt_33-574  []-positive  [neg]
+Masterpiece Lyrics.txt_34-609  [before-temp_prec]-positive  [fgb]
+Masterpiece Lyrics.txt_35-644  []-positive  []
+Masterpiece Lyrics.txt_35-645  []-positive  []
+Masterpiece Lyrics.txt_36-681  []-positive  []
+Masterpiece Lyrics.txt_37-718  []-positive  []
+Masterpiece Lyrics.txt_38-756  []-positive  []
+Masterpiece Lyrics.txt_39-795  [then-temp_seq]-positive  []
+Masterpiece Lyrics.txt_40-835  [but-advers]-negative  [neg,fgb,fgb]
+Masterpiece Lyrics.txt_41-876  [but-advers,when-temp_coinc]-positive  [neg,fgb,neg]
+Masterpiece Lyrics.txt_42-918  []-positive  [neg]
+Masterpiece Lyrics.txt_42-919  []-negative  [neg]
+Masterpiece Lyrics.txt_43-962  []-negative  []
+Masterpiece Lyrics.txt_44-1006  []-negative  [neg]
+Masterpiece Lyrics.txt_45-1051  []-positive  []
+Masterpiece Lyrics.txt_45-1052  [when-temp_coinc]-positive  []
+Masterpiece Lyrics.txt_45-1053  []-positive  []
+Masterpiece Lyrics.txt_45-1054  []-positive  []
+Masterpiece Lyrics.txt_46-1100  []-positive  [fhd]
+Masterpiece Lyrics.txt_47-1147  []-positive  []
+Masterpiece Lyrics.txt_48-1195  []-positive  []
+Masterpiece Lyrics.txt_48-1196  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Masterpiece Lyrics.txt_1-1  [masterpiece,Lyrics,by,the,wow]  [title]
+Masterpiece Lyrics.txt_2-3  [the,Legend,ko]  [provide_expl_just(ko,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_3-6  [i,am,the,mutha,fuckin,man,all,caps]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_4-10  [uncut,dope,i,be,spittin,raw,raps]  [propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Masterpiece Lyrics.txt_5-15  [real,big,dogs,can,not,hang,wit,small,cats]  [reject_expl_just(hang,[external,nonfactive,narration,foreground,objective])]
+Masterpiece Lyrics.txt_6-21  [i,be,chillin,with,the,Forbes,listers,kickin,hard,facts]  [reject_expl_just(Forbes,[internal,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_7-28  [dressed,in,all,black,no,Batman]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_8-36  [see,through,every,emcee,no,Cat,scan]  [reject_expl_just(see,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_9-45  [bare,necks,wit,my,black,hands,breakin]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_10-55  [snappin,backs]  [provide_expl_just(back,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_10-56  [and]  [provide_expl_just(back,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_11-67  [leavin,bodies,in,the,trash,can]  [reject_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Masterpiece Lyrics.txt_12-79  [chasin,40,acres,and,some,horse,power]  [provide_expl_just(power,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_13-92  [but,the,forecast,say,we,gettin,more,showers]  [provide_expl_just(say,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_14-106  [shit,is,not,sweet,in,fact,not]  [reject_expl_just(fact,[internal,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_14-107  [its,gettin,more,sour]  [reject_expl_just(fact,[internal,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_15-121  [so,i,am,chasin,everyday,24,money,hours]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_16-137  [this,rap,shits,the,easiest]  [provide_expl_just(shit,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_17-154  [all,my,bars,the,beefiest]  [provide_expl_just(bar,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_18-172  [i,bring,fire,to,the,world,like,Prometheus]  [provide_expl_just(bring,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_19-191  [catch,me,sailin,cross,the,7,seas,Odysseus]  [provide_expl_just(cross,[external,factive,narration,background,objective]),provide_expl_just(catch,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_20-212  [kick,raps,till,the,tracks,deceased]  [provide_expl_just(kick,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_21-233  [i,show,ya,how,to,make,a,masterpiece]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_22-256  [i,show,ya,how,to,make,a,masterpiece]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_23-280  [i,show,ya,how,to,make,a,masterpiece]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_24-305  [i,am,beyond,a,monster]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_24-306  [i,am,passed,a,beast]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_25-331  [i,show,ya,how,to,make,a,masterpiece]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_26-358  [i,show,ya,how,to,make,a,masterpiece]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_27-386  [i,show,ya,how,to,make,a,masterpiece]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_28-415  [10,years,for,a,Homi,$,100,a,jar]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_29-444  [and,i,am,chargin,twice,the,amount,on,every,dollar]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(borrow,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_29-445  [you,borrow]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(borrow,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_30-475  [whatever,happen,tonight,sun,Gon,come,out,tomorrow]  [provide_expl_just(happen,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_31-507  [till,i,cash,out,some,rappers]  [provide_expl_just(cash,[external,factive,narration,background,objective]),provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Masterpiece Lyrics.txt_31-508  [can,not,even,come,out,the,yard]  [reject_expl_just(cash,[external,factive,narration,background,objective]),reject_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Masterpiece Lyrics.txt_32-541  [this,that,black,out,.,black,out]  [reject_expl_just(out,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_33-574  [i,am,just,tryin,to,dump,a,cigar]  [provide_expl_just(dump,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_34-609  [and,be,gone,before,the,police,can,even,jump,out,the,car]  [provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Masterpiece Lyrics.txt_35-644  [white,America,you,know,who,we,are,.]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_35-645  [we,are]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_36-681  [you,see,the,squad]  [provide_expl_just(see,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_37-718  [give,that,internet,gangster,more,ammo,to,feed,his,Blog]  [provide_expl_just(give,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_38-756  [i,am,a,real,man]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_39-795  [feed,my_family,then,feed,my,dogs]  [provide_expl_just(feed,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_40-835  [haters,them,nothing,left,but,humble,pie,and,can,eat,it,all]  [reject_expl_just(eat,[external,nonfactive,narration,foreground,objective])]
+Masterpiece Lyrics.txt_41-876  [play,rough,when,i,ball,but,smoother,than,raw,silk]  [propose_opin_neg(ball,[external,factive,circumstance,background,objective])]
+Masterpiece Lyrics.txt_42-918  [meth,shoot]  [provide_expl_just(shoot,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_42-919  [it,at,your,head,from,the,booth,no,John,Wilkes]  [reject_expl_just(shoot,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_43-962  [now,how_many,has,killed,John]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_44-1006  [got,em,screamin,infidel,in,the,house,that,Sadaam,built]  [reject_expl_just(get,[external,factive,narration,foreground,objective])]
+Masterpiece Lyrics.txt_45-1051  [you,know,the,flow]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(man,[external,factive,narration,background,objective]),provide_expl_just(spit,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_45-1052  [when,its,Meth,man,ya]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(man,[external,factive,narration,background,objective]),provide_expl_just(spit,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_45-1053  [Boi,spit]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(man,[external,factive,narration,background,objective]),provide_expl_just(spit,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_45-1054  [it]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(man,[external,factive,narration,background,objective]),provide_expl_just(spit,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_46-1100  [ya,lady,like,me]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_47-1147  [its,more_than,likely]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Masterpiece Lyrics.txt_48-1195  [ya,Boi,hit]  [provide_expl_just(hit,[external,factive,cause,foreground,objective])]
+Masterpiece Lyrics.txt_48-1196  [it]  [provide_expl_just(hit,[external,factive,cause,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Masterpiece Lyrics.txt_1-1)-[]
+2-(Masterpiece Lyrics.txt_2-3)-[]
+3-(Masterpiece Lyrics.txt_3-6)-[primary-sex]
+4-(Masterpiece Lyrics.txt_4-10)-[primary-orality]
+5-(Masterpiece Lyrics.txt_5-15)-[secondary-abstract_tought,primary-ascend]
+6-(Masterpiece Lyrics.txt_6-21)-[primary-cold,emotions-aggression,primary-hard,secondary-abstract_tought]
+7-(Masterpiece Lyrics.txt_7-28)-[]
+8-(Masterpiece Lyrics.txt_8-36)-[primary-vision,secondary-temporal_repere,primary-vision]
+9-(Masterpiece Lyrics.txt_9-45)-[secondary-restraint,primary-narcissism,primary-narcissism,emotions-aggression]
+10-(Masterpiece Lyrics.txt_10-55)-[primary-concreteness]
+11-(Masterpiece Lyrics.txt_10-56)-[]
+12-(Masterpiece Lyrics.txt_11-67)-[primary-narcissism]
+13-(Masterpiece Lyrics.txt_12-79)-[primary-voyage]
+14-(Masterpiece Lyrics.txt_13-92)-[secondary-social_behavior,primary-water]
+15-(Masterpiece Lyrics.txt_14-106)-[primary-anality,primary-taste,secondary-abstract_tought]
+16-(Masterpiece Lyrics.txt_14-107)-[primary-taste]
+17-(Masterpiece Lyrics.txt_15-121)-[primary-voyage,secondary-instru_behavior,secondary-temporal_repere]
+18-(Masterpiece Lyrics.txt_16-137)-[primary-anality]
+19-(Masterpiece Lyrics.txt_17-154)-[secondary-restraint]
+20-(Masterpiece Lyrics.txt_18-172)-[primary-fire,emotions-affection]
+21-(Masterpiece Lyrics.txt_19-191)-[secondary-restraint,primary-voyage,primary-water]
+22-(Masterpiece Lyrics.txt_20-212)-[emotions-aggression,secondary-temporal_repere]
+23-(Masterpiece Lyrics.txt_21-233)-[secondary-instru_behavior]
+24-(Masterpiece Lyrics.txt_22-256)-[secondary-instru_behavior]
+25-(Masterpiece Lyrics.txt_23-280)-[secondary-instru_behavior]
+26-(Masterpiece Lyrics.txt_24-305)-[]
+27-(Masterpiece Lyrics.txt_24-306)-[]
+28-(Masterpiece Lyrics.txt_25-331)-[secondary-instru_behavior]
+29-(Masterpiece Lyrics.txt_26-358)-[secondary-instru_behavior]
+half
+30-(Masterpiece Lyrics.txt_27-386)-[secondary-instru_behavior]
+31-(Masterpiece Lyrics.txt_28-415)-[secondary-temporal_repere]
+32-(Masterpiece Lyrics.txt_29-444)-[secondary-temporal_repere]
+33-(Masterpiece Lyrics.txt_29-445)-[secondary-social_behavior]
+34-(Masterpiece Lyrics.txt_30-475)-[secondary-temporal_repere,primary-fire,primary-concreteness]
+35-(Masterpiece Lyrics.txt_31-507)-[secondary-temporal_repere,primary-concreteness]
+36-(Masterpiece Lyrics.txt_31-508)-[primary-concreteness]
+37-(Masterpiece Lyrics.txt_32-541)-[primary-concreteness,primary-concreteness]
+38-(Masterpiece Lyrics.txt_33-574)-[secondary-instru_behavior]
+39-(Masterpiece Lyrics.txt_34-609)-[secondary-restraint,primary-ascend,primary-concreteness]
+40-(Masterpiece Lyrics.txt_35-644)-[secondary-abstract_tought]
+41-(Masterpiece Lyrics.txt_35-645)-[]
+42-(Masterpiece Lyrics.txt_36-681)-[primary-vision]
+43-(Masterpiece Lyrics.txt_37-718)-[primary-orality]
+44-(Masterpiece Lyrics.txt_38-756)-[secondary-abstract_tought]
+45-(Masterpiece Lyrics.txt_39-795)-[primary-orality,secondary-temporal_repere,primary-orality]
+46-(Masterpiece Lyrics.txt_40-835)-[emotions-aggression,secondary-abstract_tought,primary-orality]
+47-(Masterpiece Lyrics.txt_41-876)-[emotions-expressive_beh,primary-touch,secondary-temporal_repere,primary-touch,primary-orality,primary-soft]
+48-(Masterpiece Lyrics.txt_42-918)-[secondary-social_behavior,emotions-aggression]
+49-(Masterpiece Lyrics.txt_42-919)-[primary-concreteness,primary-narcissism]
+50-(Masterpiece Lyrics.txt_43-962)-[secondary-temporal_repere,emotions-aggression]
+51-(Masterpiece Lyrics.txt_44-1006)-[emotions-expressive_beh,secondary-instru_behavior]
+52-(Masterpiece Lyrics.txt_45-1051)-[secondary-abstract_tought]
+53-(Masterpiece Lyrics.txt_45-1052)-[secondary-temporal_repere]
+54-(Masterpiece Lyrics.txt_45-1053)-[primary-orality]
+55-(Masterpiece Lyrics.txt_45-1054)-[]
+56-(Masterpiece Lyrics.txt_46-1100)-[emotions-affection]
+57-(Masterpiece Lyrics.txt_47-1147)-[emotions-affection]
+58-(Masterpiece Lyrics.txt_48-1195)-[emotions-aggression]
+59-(Masterpiece Lyrics.txt_48-1196)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Masterpiece Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-wow-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,masterpiece,sn1),def_prop(wow,[attivita,informa]),def_prop(Lyrics,[informa,tecno])])
+lf(Masterpiece Lyrics.txt_2,3,nil-nil-nil-ko-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_3,6,cl2-nil-nil-be-[obj2-benef-man-sn3,xcomp-prop-mutha-sn2,subj-theme_bound-i-sn1,and(man,fuckin,sn3),def_prop(man,[any]),def_prop(mutha,[istituzione]),def_prop(i,[umano])])
+lf(Masterpiece Lyrics.txt_4,10,cl3-nil-nil-be-[obj2-benef-rap-sn4,xcomp-prop-spittin-sn3,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(rap,raw,sn4),and(i,dope,sn1),and(i,uncut,sn1),def_prop(rap,[attivita,evento,informa]),def_prop(spittin,[istituzione]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Masterpiece Lyrics.txt_5,15,cl4-not-can-hang-[obj-theme_aff-cat-sn3,obj-goal-wit-sn2,subj-agent-dog-sn1,and(cat,small,sn3),and(dog,real,sn1),and(dog,big,sn1),def_prop(cat,[animato,attivita,oggetto,plant,sostanza,strumento,umano]),def_prop(wit,[attivita,informa]),def_prop(dog,[animato,plant,stato,umano])])
+lf(Masterpiece Lyrics.txt_6,21,cl5-nil-nil-be-[xcomp-prop-fact-sn5,xcomp-theme-kickin-sn4,ncmod-comitativo-Forbes-sn3,xcomp-prop-chillin-sn2,subj-theme_bound-i-sn1,and(fact,hard,sn5),and(kickin,lister,sn4),def_prop(fact,[astratto,attivita,informa,stato]),def_prop(kickin,[istituzione]),def_prop(Forbes,[place,umano]),def_prop(chillin,[istituzione]),def_prop(i,[umano])])
+lf(Masterpiece Lyrics.txt_7,28,cl6-nil-nil-be-[subj-theme_bound-Batman-sn1,and(Batman,black,sn1),and(Batman,no,sn1),def_prop(Batman,[place,umano])])
+lf(Masterpiece Lyrics.txt_8,36,cl7-nil-nil-see-[obj-theme_aff-scan-sn4,obj-theme-no-sn3,iobj-goal-emcee-sn2,subj-experiencer-you-sn1,and(scan,Cat,sn4),and(emcee,every,sn2),def_prop(scan,[attivita,oggetto,strumento]),def_prop(no,[istituzione]),def_prop(emcee,[relat,sociale,umano]),def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_9,45,cl8-nil-nil-be-[ncmod-modal-hand-sn2,subj-theme_bound-you-sn1,and(hand,wit,sn2),and(hand,black,sn2),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_10,55,cl9-nil-nil-be-[])
+lf(Masterpiece Lyrics.txt_10,55,nil-nil-nil-back-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_11,67,cl10-nil-can-can-[ncmod-locativo-trash-sn2,subj-actor-you-sn1,def_prop(trash,[istituzione,oggetto,strumento]),def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_12,79,cl11-nil-nil-power-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_13,92,cl12-nil-nil-say-[obj-theme_unaff-shower-sn3,subj-actor-we-sn2,subj-actor-we-sn1,and(shower,gettin,sn3),and(we,forecast,sn1),def_prop(shower,[attivita,cambia,evento,istituzione,oggetto,strumento]),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(Masterpiece Lyrics.txt_14,106,cl13-not-nil-be-[xcomp-prop-sour-sn5,subj-theme_bound-gettin-sn4,ncmod-locativo-fact-sn3,xcomp-prop-sweet-sn2,subj-theme_bound-shit-sn1,def_prop(sour,[astratto,edible,oggetto]),def_prop(gettin,[istituzione]),def_prop(fact,[astratto,attivita,informa,stato]),def_prop(sweet,[astratto,edible,oggetto]),def_prop(shit,[attivita,umano])])
+lf(Masterpiece Lyrics.txt_15,121,cl14-nil-nil-be-[adj-temporal-hours-nil,xcomp-prop-money-sn2,subj-theme_bound-i-sn1,and(money,chasin,sn2),def_prop(money,[astratto,oggetto]),def_prop(i,[umano])])
+lf(Masterpiece Lyrics.txt_16,137,nil-nil-nil-shit-[obj-theme_aff-easiest-sn2,subj-agent-rap-sn1,and(rap,this,sn1),def_prop(easiest,[istituzione]),def_prop(rap,[attivita,evento,informa])])
+lf(Masterpiece Lyrics.txt_17,154,nil-nil-nil-bar-[obj-goal-beefiest-sn2,subj-agent-my-sn1,and(my,all,sn1),def_prop(beefiest,[istituzione]),def_prop(my,[informa,tecno])])
+lf(Masterpiece Lyrics.txt_18,172,cl15-nil-nil-bring-[obj2-goal-world-sn3,obj-theme_aff-fire-sn2,subj-agent-i-sn1,def_prop(world,[astratto,istituzione,oggetto]),def_prop(fire,[attivita,evento,informa,oggetto,sostanza,strumento]),def_prop(i,[umano])])
+lf(Masterpiece Lyrics.txt_19,191,cl17-nil-nil-cross-[obj-goal-7-sn4,xadj-result-cross-3,def_prop(7,[nquant])])
+lf(Masterpiece Lyrics.txt_19,191,cl16-nil-nil-catch-[obj-theme-sailin-sn3,obj-goal-me-sn2,subj-agent-you-sn1,def_prop(sailin,[istituzione]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_20,212,cl18-nil-nil-kick-[obj-theme-deceased-sn4,obj-prop-track-sn3,obj-theme-till-sn2,subj-actor-you-sn1,and(till,rap,sn2),def_prop(deceased,[relat,sociale,umano]),def_prop(track,[attivita,oggetto,strumento]),def_prop(till,[sostanza]),def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_21,233,cl20-nil-nil-make-[obj-agent-masterpiece-sn3,xadj-result-make-3,def_prop(masterpiece,[attivita,oggetto,strumento])])
+lf(Masterpiece Lyrics.txt_21,233,cl19-nil-nil-show-[obj-goal-ya-sn2,subj-actor-i-sn1,def_prop(ya,[legale]),def_prop(i,[umano])])
+lf(Masterpiece Lyrics.txt_22,256,cl22-nil-nil-make-[obj-agent-masterpiece-sn3,xadj-result-make-3,def_prop(masterpiece,[attivita,oggetto,strumento])])
+lf(Masterpiece Lyrics.txt_22,256,cl21-nil-nil-show-[obj-goal-ya-sn2,subj-actor-i-sn1,def_prop(ya,[legale]),def_prop(i,[umano])])
+lf(Masterpiece Lyrics.txt_23,280,cl24-nil-nil-make-[obj-agent-masterpiece-sn3,xadj-result-make-3,def_prop(masterpiece,[attivita,oggetto,strumento])])
+lf(Masterpiece Lyrics.txt_23,280,cl23-nil-nil-show-[obj-goal-ya-sn2,subj-actor-i-sn1,def_prop(ya,[legale]),def_prop(i,[umano])])
+lf(Masterpiece Lyrics.txt_24,305,cl26-nil-nil-pass-[xcomp-prop-beast-sn4,subj-goal-i-sn3,ncmod-modal-monster-sn2,aux-am-nil,def_prop(beast,[umano]),def_prop(i,[umano]),def_prop(monster,[animato,umano])])
+lf(Masterpiece Lyrics.txt_24,305,cl25-nil-nil-be-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(Masterpiece Lyrics.txt_25,331,cl28-nil-nil-make-[obj-agent-masterpiece-sn3,xadj-result-make-3,def_prop(masterpiece,[attivita,oggetto,strumento])])
+lf(Masterpiece Lyrics.txt_25,331,cl27-nil-nil-show-[obj-goal-ya-sn2,subj-actor-i-sn1,def_prop(ya,[legale]),def_prop(i,[umano])])
+lf(Masterpiece Lyrics.txt_26,358,cl30-nil-nil-make-[obj-agent-masterpiece-sn3,xadj-result-make-3,def_prop(masterpiece,[attivita,oggetto,strumento])])
+lf(Masterpiece Lyrics.txt_26,358,cl29-nil-nil-show-[obj-goal-ya-sn2,subj-actor-i-sn1,def_prop(ya,[legale]),def_prop(i,[umano])])
+lf(Masterpiece Lyrics.txt_27,386,cl32-nil-nil-make-[obj-agent-masterpiece-sn3,xadj-result-make-3,def_prop(masterpiece,[attivita,oggetto,strumento])])
+lf(Masterpiece Lyrics.txt_27,386,cl31-nil-nil-show-[obj-goal-ya-sn2,subj-actor-i-sn1,def_prop(ya,[legale]),def_prop(i,[umano])])
+lf(Masterpiece Lyrics.txt_28,415,cl33-nil-nil-be-[xcomp-theme-jar-sn2,subj-theme_bound-Homi-sn1,def_prop(jar,[nquant,oggetto,strumento]),def_prop(Homi,[istituzione,umano])])
+lf(Masterpiece Lyrics.txt_29,444,cl35-nil-nil-borrow-[subj-agent-you-sn6,cmod-subord-borrow-",def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_29,444,cl34-nil-nil-be-[adj-(mod)-twice-nil,obj2-benef-amount-sn3,xcomp-prop-chargin-sn2,subj-theme_bound-i-sn1,def_prop(amount,[astratto]),def_prop(chargin,[istituzione]),def_prop(i,[umano])])
+lf(Masterpiece Lyrics.txt_30,475,_-nil-nil-come-[ncmod-prop-tomorrow-sn3,xmod-prop-come-3,def_prop(tomorrow,[tempo])])
+lf(Masterpiece Lyrics.txt_30,475,cl37-nil-nil-come-[ncmod-prop-tomorrow-sn3,xmod-prop-come-3,def_prop(tomorrow,[tempo])])
+lf(Masterpiece Lyrics.txt_30,475,cl36-nil-nil-happen-[adj-(mod)-tonight-nil,obj-theme_aff-Gon-sn2,subj-theme_unaff-sun-sn1,def_prop(Gon,[istituzione,umano]),def_prop(sun,[oggetto,umano])])
+lf(Masterpiece Lyrics.txt_31,507,_-nil-nil-come-[ncmod-prop-yard-sn6,def_prop(yard,[luogo,nquant,oggetto,strumento])])
+lf(Masterpiece Lyrics.txt_31,507,cl40-nil-nil-come-[ncmod-prop-yard-sn6,def_prop(yard,[luogo,nquant,oggetto,strumento])])
+lf(Masterpiece Lyrics.txt_31,507,cl39-not-can-can-[xmod-prop-come-2,subj-actor-you-sn5,adj-(mod)-even-nil,def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_31,507,cl38-nil-nil-cash-[ncmod-locativo-rapper-sn3,subj-theme-i-sn2,subj-theme-i-sn1,and(rapper,some,sn3),def_prop(rapper,[umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Masterpiece Lyrics.txt_32,541,nil-nil-nil-out-[obj-theme-black-sn3,subj-actor-this-sn1,def_prop(black,[estens]),def_prop(this,[oggetto,umano])])
+lf(Masterpiece Lyrics.txt_33,574,cl42-nil-nil-dump-[obj-theme-cigar-sn3,xcomp-purpose-dump-2,def_prop(cigar,[oggetto,strumento])])
+lf(Masterpiece Lyrics.txt_33,574,cl41-nil-nil-be-[xcomp-prop-tryin-sn2,subj-theme_bound-i-sn1,def_prop(tryin,[istituzione]),def_prop(i,[umano])])
+lf(Masterpiece Lyrics.txt_34,609,cl44-nil-can-can-[cmod-subord-can-",cmod-subord-can-before,ncmod-locativo-car-sn3,obj-theme-jump-sn2,subj-actor-police-sn1,def_prop(car,[oggetto,strumento]),def_prop(jump,[attivita,evento,informa]),def_prop(police,[istituzione])])
+lf(Masterpiece Lyrics.txt_34,609,cl43-nil-nil-go-[subj-actor-pro-nil,aux-be-nil])
+lf(Masterpiece Lyrics.txt_35,644,cl46-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_35,644,cl45-nil-nil-know-[subj-actor-you-sn2,subj-actor-you-sn1,and(you,America,sn1),and(you,white,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_36,681,cl47-nil-nil-see-[obj-actor-squad-sn2,subj-experiencer-you-sn1,def_prop(squad,[istituzione]),def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_37,718,cl48-nil-nil-give-[subj-actor-Blog-sn1,and(Blog,Blog,sn1),def_prop(Blog,[istituzione,umano])])
+lf(Masterpiece Lyrics.txt_38,756,cl49-nil-nil-be-[xcomp-prop-man-sn2,subj-theme_bound-i-sn1,and(man,real,sn2),def_prop(man,[any]),def_prop(i,[umano])])
+lf(Masterpiece Lyrics.txt_39,795,cl50-nil-nil-feed-[cmod-subord-feed-then,obj-goal-dog-sn4,subj-agent-you-sn3,def_prop(dog,[animato,plant,stato,umano]),def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_40,835,cl51-nil-can-eat-[obj-theme_unaff-all-sn3,subj-agent-pie-sn2,subj-agent-pie-sn1,and(all,it,sn3),and(pie,humble,sn2),and(pie,them,sn1),and(pie,humble,sn1),def_prop(all,[_566730]),def_prop(pie,[edible,oggetto]),def_prop(pie,[edible,oggetto])])
+lf(Masterpiece Lyrics.txt_41,876,cl52-nil-nil-ball-[subj-actor-i-sn3,def_prop(i,[umano])])
+lf(Masterpiece Lyrics.txt_42,918,cl54-nil-nil-be-[xcomp-theme-Wilkes-sn6,xcomp-prop-John-sn5,ncmod-loc_origin-booth-sn4,ncmod-locativo-head-sn3,subj-theme_bound-it-sn2,and(John,no,sn5),def_prop(Wilkes,[place,umano]),def_prop(John,[place,umano]),def_prop(booth,[oggetto,strumento]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(it,[any])])
+lf(Masterpiece Lyrics.txt_42,918,cl53-nil-nil-shoot-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_43,962,cl55-nil-nil-be-[subj-theme_bound-how_many-sn1,def_prop(how_many,[quant,attivita,stato])])
+lf(Masterpiece Lyrics.txt_44,1006,cl56-nil-nil-get-[iobj-goal-house-sn3,obj-theme_unaff-infidel-sn2,subj-agent-you-sn1,and(house,Sadaam,sn3),and(infidel,em,sn2),and(infidel,screamin,sn2),def_prop(house,[attivita,istituzione,oggetto,strumento]),def_prop(infidel,[relat,sociale,umano]),def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_45,1051,cl60-nil-nil-be-[subj-theme_bound-you-sn7,def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_45,1051,cl59-nil-nil-spit-[subj-agent-you-sn6,def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_45,1051,cl58-nil-nil-man-[obj-theme-ya-sn4,subj-agent-Meth-sn3,def_prop(ya,[legale]),def_prop(Meth,[umano])])
+lf(Masterpiece Lyrics.txt_45,1051,cl57-nil-nil-know-[obj-theme_unaff-flow-sn2,subj-actor-you-sn1,def_prop(flow,[attivita,evento,tempo]),def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_46,1100,nil-nil-nil-like-[obj-tema_emot-me-sn2,subj-experiencer-lady-sn1,and(lady,ya,sn1),def_prop(me,[umano]),def_prop(lady,[plant,umano])])
+lf(Masterpiece Lyrics.txt_47,1147,cl61-nil-nil-be-[subj-theme_bound-likely-sn2,subj-theme_bound-likely-sn1,def_prop(likely,[modal]),def_prop(likely,[modal])])
+lf(Masterpiece Lyrics.txt_48,1195,cl63-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Masterpiece Lyrics.txt_48,1195,cl62-nil-nil-hit-[ncmod-modal-ya-sn2,subj-agent-you-sn1,def_prop(ya,[legale]),def_prop(you,[umano])])

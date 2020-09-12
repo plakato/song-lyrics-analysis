@@ -1,0 +1,257 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Desperate Times.txt_1-1  []-negative  [neg]
+Desperate Times.txt_2-3  []-negative  []
+Desperate Times.txt_3-6  []-positive  [neg]
+Desperate Times.txt_4-10  []-suspension  []
+Desperate Times.txt_5-15  []-negative  [neg]
+Desperate Times.txt_6-21  []-negative  [neg]
+Desperate Times.txt_7-29  []-negative  []
+Desperate Times.txt_8-37  []-suspension  [neg,neg]
+Desperate Times.txt_9-46  []-negative  [neg]
+Desperate Times.txt_10-56  []-positive  [fgb]
+Desperate Times.txt_11-67  [so-result]-suspension  [bkc,fgb,neg]
+Desperate Times.txt_12-79  []-suspension  []
+Desperate Times.txt_13-92  []-positive  [fgb,neg]
+Desperate Times.txt_14-107  []-suspension  []
+Desperate Times.txt_15-123  []-positive  []
+Desperate Times.txt_16-139  [when-temp_coinc]-suspension  []
+Desperate Times.txt_17-156  []-suspension  []
+Desperate Times.txt_17-157  []-suspension  []
+Desperate Times.txt_18-174  []-negative  [neg]
+Desperate Times.txt_19-193  [when-temp_coinc]-suspension  []
+Desperate Times.txt_20-213  []-suspension  []
+Desperate Times.txt_20-214  []-suspension  []
+Desperate Times.txt_21-234  []-positive  []
+Desperate Times.txt_22-257  []-negative  [fgb,neg]
+Desperate Times.txt_23-280  []-negative  [bkc,neg]
+Desperate Times.txt_24-304  [so-result]-negative  [fgb,neg,fgb,neg]
+Desperate Times.txt_25-329  []-positive  []
+Desperate Times.txt_26-356  [but-advers]-negative  [fgb,neg]
+Desperate Times.txt_27-383  []-positive  []
+Desperate Times.txt_28-411  []-positive  []
+Desperate Times.txt_29-441  [but-advers]-negative  [fgb,neg]
+Desperate Times.txt_30-471  []-positive  []
+Desperate Times.txt_31-502  []-question  []
+Desperate Times.txt_32-534  []-negative  [neg]
+Desperate Times.txt_33-567  []-positive  []
+Desperate Times.txt_34-601  []-question  []
+Desperate Times.txt_35-636  []-question  []
+Desperate Times.txt_35-637  []-positive  []
+Desperate Times.txt_36-673  [while-temp_coinc]-negative  [neg]
+Desperate Times.txt_37-710  [(as)-temp_coinc]-negative  [neg]
+Desperate Times.txt_38-749  []-positive  []
+Desperate Times.txt_39-788  [when-temp_coinc]-suspension  []
+Desperate Times.txt_40-828  []-suspension  []
+Desperate Times.txt_40-829  []-suspension  []
+Desperate Times.txt_41-869  []-positive  []
+Desperate Times.txt_42-912  []-negative  [fgb,neg]
+Desperate Times.txt_43-955  [when-temp_coinc]-suspension  []
+Desperate Times.txt_44-999  []-suspension  []
+Desperate Times.txt_44-1000  []-suspension  []
+Desperate Times.txt_45-1044  []-negative  [neg]
+Desperate Times.txt_46-1090  []-negative  [neg]
+Desperate Times.txt_47-1137  []-negative  [neg]
+Desperate Times.txt_48-1185  []-negative  [neg,neg]
+Desperate Times.txt_49-1234  []-negative  [neg]
+Desperate Times.txt_50-1284  []-negative  [neg]
+Desperate Times.txt_51-1335  []-negative  [neg,neg]
+Desperate Times.txt_52-1387  []-positive  []
+Desperate Times.txt_53-1440  []-positive  []
+Desperate Times.txt_54-1494  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Desperate Times.txt_1-1  [desperate,times,by,Underoath]  [title]
+Desperate Times.txt_2-3  [Ive,been,crawling,around]  [provide_expl_just(crawl,[external,factive,narration,foreground,objective])]
+Desperate Times.txt_3-6  [in,the,dark,for_a_while]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Desperate Times.txt_4-10  [sprawled,out,across,the,floor]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Desperate Times.txt_5-15  [not,collecting,dust,anymore]  [reject_expl_just(collect,[external,factive,narration,foreground,objective])]
+Desperate Times.txt_6-21  [define,me,a,parasite,define,my,host]  [reject_expl_just(define,[external,factive,narration,background,objective])]
+Desperate Times.txt_7-29  [trapped,beneath,the,floor]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Desperate Times.txt_8-37  [i,slowly,waste,away]  [provide_expl_just(waste,[external,factive,narration,background,objective])]
+Desperate Times.txt_9-46  [now,i,pull,my,frail,body,into,the,chair]  [reject_expl_just(pull,[external,factive,narration,background,objective])]
+Desperate Times.txt_10-56  [and,look,me,in,the,face]  [provide_expl_just(look,[external,factive,narration,background,objective])]
+Desperate Times.txt_11-67  [oh,disappointments,so,disappointing]  [provide_expl_just(disappoint,[external,factive,narration,foreground,objective])]
+Desperate Times.txt_12-79  [this,may,be,my,last,one]  [raise_issue(be,[_249628,_249634,statement,_249646,_249652])]
+Desperate Times.txt_13-92  [its,gonna,be,good,and,hard]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Desperate Times.txt_14-107  [it,might,be,a,touch,out_of,key]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(might,[external,nonfactive,narration,foreground,objective])]
+Desperate Times.txt_15-123  [a,touch,out_of,key]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Desperate Times.txt_16-139  [when,this,thing,breaks]  [raise_issue(be,[_252250,_252256,statement,_252268,_252274])]
+Desperate Times.txt_17-156  [you,you,i,will,be]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Desperate Times.txt_17-157  [will,be,me]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Desperate Times.txt_18-174  [im,afraid,that,this,is,really,happening]  [reject_expl_just(happen,[external,factive,narration,foreground,objective])]
+Desperate Times.txt_19-193  [when,this,thing,breaks]  [raise_issue(be,[_254142,_254148,statement,_254160,_254166])]
+Desperate Times.txt_20-213  [you,you,i,will,be]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Desperate Times.txt_20-214  [will,be,me]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Desperate Times.txt_21-234  [lets,hope,this,is,short,lived]  [provide_expl_just(short,[external,factive,narration,foreground,objective]),provide_expl_just(let,[external,factive,narration,background,objective])]
+Desperate Times.txt_22-257  [and,riddled,with,dizzy]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Desperate Times.txt_23-280  [oh,God,the,noise,is,ringing,in,my,ear]  [reject_expl_just(ring,[external,factive,cause,foreground,objective])]
+Desperate Times.txt_24-304  [its,so,unclear,,,so,unclear]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Desperate Times.txt_25-329  [i,hear,them,talking]  [provide_expl_just(talk,[external,factive,narration,foreground,objective]),provide_expl_just(hear,[external,factive,narration,background,objective])]
+Desperate Times.txt_26-356  [but,can,not,make,out,the,words]  [reject_expl_just(be,[_257824,_257830,_257836,_257842,_257848])]
+Desperate Times.txt_27-383  [speak,up,,,speak,clear]  [provide_expl_just(speak,[external,factive,narration,background,objective])]
+Desperate Times.txt_28-411  [i,hear,them,talking]  [provide_expl_just(talk,[external,factive,narration,foreground,objective]),provide_expl_just(hear,[external,factive,narration,background,objective])]
+Desperate Times.txt_29-441  [but,can,not,make,out,the,words]  [reject_expl_just(be,[_259090,_259096,_259102,_259108,_259114])]
+Desperate Times.txt_30-471  [speak,up,,,speak,clear]  [provide_expl_just(speak,[external,factive,narration,background,objective])]
+Desperate Times.txt_31-502  [have,i,where,,,god,?]  [provide_expl_just(have,[internal,factive,narration,foreground,objective])]
+Desperate Times.txt_32-534  [a,terrible,im,company]  [reject_expl_just(company,[external,factive,narration,background,objective])]
+Desperate Times.txt_33-567  [with,zero,apologies]  [provide_expl_just(zero,[external,factive,narration,background,objective])]
+Desperate Times.txt_34-601  [have,i,where,,,God,my,?]  [provide_expl_just(have,[internal,factive,narration,foreground,objective])]
+Desperate Times.txt_35-636  [have,where,?]  [provide_expl_just(have,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Desperate Times.txt_35-637  [i]  [provide_expl_just(have,[internal,factive,narration,foreground,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Desperate Times.txt_36-673  [while,i,sink,to,the,bottom]  [reject_expl_just(sink,[external,factive,narration,background,objective])]
+Desperate Times.txt_37-710  [ill,sing,out,as,it,fills,with,water]  [reject_expl_just(sing,[external,factive,narration,background,objective]),reject_expl_just(fill,[external,factive,narration,background,objective])]
+Desperate Times.txt_38-749  [i,hope,Ive,done,enough]  [provide_expl_just(hope,[external,factive,narration,background,objective])]
+Desperate Times.txt_39-788  [when,this,thing,breaks]  [raise_issue(be,[_264076,_264082,statement,_264094,_264100])]
+Desperate Times.txt_40-828  [you,you,i,will,be]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Desperate Times.txt_40-829  [will,be,me]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Desperate Times.txt_41-869  [lets,hope,this,is,short,lived]  [provide_expl_just(short,[external,factive,narration,foreground,objective]),provide_expl_just(let,[external,factive,narration,background,objective])]
+Desperate Times.txt_42-912  [and,riddled,with,dizzy]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Desperate Times.txt_43-955  [when,this,thing,breaks]  [raise_issue(be,[_266618,_266624,statement,_266636,_266642])]
+Desperate Times.txt_44-999  [you,you,i,will,be]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Desperate Times.txt_44-1000  [will,be,me]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Desperate Times.txt_45-1044  [im,afraid,that,this,is,really,happening]  [reject_expl_just(happen,[external,factive,narration,foreground,objective])]
+Desperate Times.txt_46-1090  [im,worn,out]  [reject_expl_just(be,[_268416,_268422,_268428,_268434,_268440])]
+Desperate Times.txt_47-1137  [im,worn,thin]  [reject_expl_just(wear,[external,factive,narration,foreground,objective])]
+Desperate Times.txt_48-1185  [i,will,never,break,through]  [reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+Desperate Times.txt_49-1234  [im,worn,out]  [reject_expl_just(wear,[external,factive,narration,foreground,objective])]
+Desperate Times.txt_50-1284  [im,worn,thin]  [reject_expl_just(be,[_269514,_269520,_269526,_269532,_269538])]
+Desperate Times.txt_51-1335  [i,will,never,break,through]  [reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+Desperate Times.txt_52-1387  [let,me,out]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Desperate Times.txt_53-1440  [let,me,out]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Desperate Times.txt_54-1494  [let,me,out]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Desperate Times.txt_1-1)-[emotions-anxiety,secondary-temporal_repere]
+2-(Desperate Times.txt_2-3)-[]
+3-(Desperate Times.txt_3-6)-[]
+4-(Desperate Times.txt_4-10)-[primary-concreteness,primary-concreteness,primary-brink]
+5-(Desperate Times.txt_5-15)-[]
+6-(Desperate Times.txt_6-21)-[secondary-abstract_tought,secondary-abstract_tought]
+7-(Desperate Times.txt_7-29)-[primary-depth,primary-brink]
+8-(Desperate Times.txt_8-37)-[primary-passivity,primary-concreteness]
+9-(Desperate Times.txt_9-46)-[secondary-temporal_repere,primary-narcissism]
+10-(Desperate Times.txt_10-56)-[primary-vision,primary-narcissism]
+11-(Desperate Times.txt_11-67)-[emotions-sadness]
+12-(Desperate Times.txt_12-79)-[secondary-abstract_tought]
+13-(Desperate Times.txt_13-92)-[primary-hard]
+14-(Desperate Times.txt_14-107)-[primary-touch]
+15-(Desperate Times.txt_15-123)-[primary-touch]
+16-(Desperate Times.txt_16-139)-[secondary-temporal_repere,emotions-aggression]
+17-(Desperate Times.txt_17-156)-[]
+18-(Desperate Times.txt_17-157)-[]
+19-(Desperate Times.txt_18-174)-[emotions-anxiety,secondary-abstract_tought]
+20-(Desperate Times.txt_19-193)-[secondary-temporal_repere,emotions-aggression]
+21-(Desperate Times.txt_20-213)-[]
+22-(Desperate Times.txt_20-214)-[]
+23-(Desperate Times.txt_21-234)-[]
+24-(Desperate Times.txt_22-257)-[]
+25-(Desperate Times.txt_23-280)-[primary-sound,primary-sound]
+26-(Desperate Times.txt_24-304)-[primary-diffusion,primary-diffusion]
+27-(Desperate Times.txt_25-329)-[primary-sound,secondary-abstract_tought]
+28-(Desperate Times.txt_26-356)-[secondary-instru_behavior,primary-concreteness]
+29-(Desperate Times.txt_27-383)-[secondary-social_behavior,secondary-social_behavior]
+half
+30-(Desperate Times.txt_28-411)-[primary-sound,secondary-abstract_tought]
+31-(Desperate Times.txt_29-441)-[secondary-instru_behavior,primary-concreteness]
+32-(Desperate Times.txt_30-471)-[secondary-social_behavior,secondary-social_behavior]
+33-(Desperate Times.txt_31-502)-[primary-concreteness]
+34-(Desperate Times.txt_32-534)-[]
+35-(Desperate Times.txt_33-567)-[]
+36-(Desperate Times.txt_34-601)-[primary-concreteness]
+37-(Desperate Times.txt_35-636)-[primary-concreteness]
+38-(Desperate Times.txt_35-637)-[]
+39-(Desperate Times.txt_36-673)-[secondary-temporal_repere,primary-descent,primary-depth]
+40-(Desperate Times.txt_37-710)-[emotions-expressive_beh,primary-concreteness,primary-water]
+41-(Desperate Times.txt_38-749)-[]
+42-(Desperate Times.txt_39-788)-[secondary-temporal_repere,emotions-aggression]
+43-(Desperate Times.txt_40-828)-[]
+44-(Desperate Times.txt_40-829)-[]
+45-(Desperate Times.txt_41-869)-[]
+46-(Desperate Times.txt_42-912)-[]
+47-(Desperate Times.txt_43-955)-[secondary-temporal_repere,emotions-aggression]
+48-(Desperate Times.txt_44-999)-[]
+49-(Desperate Times.txt_44-1000)-[]
+50-(Desperate Times.txt_45-1044)-[emotions-anxiety,secondary-abstract_tought]
+51-(Desperate Times.txt_46-1090)-[primary-concreteness]
+52-(Desperate Times.txt_47-1137)-[]
+53-(Desperate Times.txt_48-1185)-[emotions-aggression]
+54-(Desperate Times.txt_49-1234)-[primary-concreteness]
+55-(Desperate Times.txt_50-1284)-[]
+56-(Desperate Times.txt_51-1335)-[emotions-aggression]
+57-(Desperate Times.txt_52-1387)-[primary-concreteness]
+58-(Desperate Times.txt_53-1440)-[primary-concreteness]
+59-(Desperate Times.txt_54-1494)-[primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Desperate Times.txt_1,1,cl1-nil-nil-time-[arg_mod-agent-Underoath-sn2,subj-agent-desperate-sn1,def_prop(Underoath,[istituzione,umano]),def_prop(desperate,[umano])])
+lf(Desperate Times.txt_2,3,cl2-nil-nil-crawl-[subj-agent-Ive-sn1,aux-been-nil,progr-crawling-nil,def_prop(Ive,[istituzione,umano])])
+lf(Desperate Times.txt_3,6,cl3-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Desperate Times.txt_4,10,cl4-nil-nil-be-[xadj-adj-sprawled-adj1,adj-(mod)-out-nil,ncmod-locativo-floor-sn1,def_prop(sprawled,_273036),def_prop(floor,[astratto,attivita,informa,oggetto,strumento])])
+lf(Desperate Times.txt_5,15,cl5-nil-nil-collect-[subj-agent-dust-sn1,def_prop(dust,[sostanza])])
+lf(Desperate Times.txt_6,21,cl6-nil-nil-define-[obj-goal-host-sn4,xcomp-purpose-define-2,obj-theme-parasite-sn3,obj-goal-me-sn2,subj-agent-you-sn1,def_prop(host,[animato,istituzione,umano]),def_prop(parasite,[animato]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Desperate Times.txt_7,29,cl7-nil-nil-be-[xadj-adj-trapped-adj2,ncmod-locativo-floor-sn1,def_prop(trapped,_273462),def_prop(floor,[astratto,attivita,informa,oggetto,strumento])])
+lf(Desperate Times.txt_8,37,cl8-nil-nil-waste-[xcomp-prop-away-sn2,subj-agent-i-sn1,def_prop(away,[evaluative]),def_prop(i,[umano])])
+lf(Desperate Times.txt_9,46,cl9-nil-nil-pull-[adj-(mod)-now-nil,iobj-goal-chair-sn3,obj-goal-body-sn2,subj-agent-i-sn1,and(body,frail,sn2),def_prop(chair,[oggetto,strumento]),def_prop(body,[attivita,body_part,informa,istituzione,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(Desperate Times.txt_10,56,cl10-nil-nil-look-[cmod-subord-look-",iobj-goal-face-sn3,xcomp-prop-me-sn2,subj-agent-you-sn1,def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Desperate Times.txt_11,67,cl11-nil-nil-disappoint-[subj-cause-oh-sn1,def_prop(oh,[informa,tecno])])
+lf(Desperate Times.txt_12,79,cl12-nil-may-be-[obj2-benef-one-sn3,xcomp-prop-lass-sn2,subj-theme_bound-this-sn1,def_prop(one,[umano]),def_prop(lass,[umano]),def_prop(this,[oggetto,umano])])
+lf(Desperate Times.txt_13,92,cl13-nil-nil-be-[])
+lf(Desperate Times.txt_13,92,nil-nil-nil-gonna-[obj-prop-good_and_hard-[sn2,sn3],xcomp-purpose-be-2,subj-agent-its-sn1,def_prop(good_and_hard,[valutativo,valutativo]),def_prop(its,[istituzione])])
+lf(Desperate Times.txt_14,107,cl15-nil-nil-be-[ncmod-locativo-key-sn3,xcomp-prop-touch-sn2,xcomp-purpose-be-2,def_prop(key,[astratto,attivita,informa,luogo,nquant,oggetto,strumento]),def_prop(touch,[astratto,attivita,evento,informa,nquant,stato])])
+lf(Desperate Times.txt_14,107,cl14-nil-might-might-[subj-theme_unaff-it-sn1,def_prop(it,[any])])
+lf(Desperate Times.txt_15,123,cl16-nil-nil-be-[ncmod-locativo-key-sn2,subj-theme_bound-touch-sn1,def_prop(key,[astratto,attivita,informa,luogo,nquant,oggetto,strumento]),def_prop(touch,[astratto,attivita,evento,informa,nquant,stato])])
+lf(Desperate Times.txt_16,139,nil-nil-nil-break-[obj-theme-when-sn2,subj-agent-thing-sn1,and(thing,this,sn1),def_prop(when,[tempo]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Desperate Times.txt_17,156,cl17-nil-will-be-[xcomp-prop-me-sn6,subj-theme_bound-you-sn5,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(i,you,sn1),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Desperate Times.txt_18,174,cl18-nil-nil-happen-[subj-theme_unaff-this-sn1,adj-(mod)-really-nil,aux-(is)-nil,progr-happening-nil,def_prop(this,[oggetto,umano])])
+lf(Desperate Times.txt_19,193,nil-nil-nil-break-[obj-theme-when-sn2,subj-agent-thing-sn1,and(thing,this,sn1),def_prop(when,[tempo]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Desperate Times.txt_20,213,cl19-nil-will-be-[xcomp-prop-me-sn6,subj-theme_bound-you-sn5,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(i,you,sn1),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Desperate Times.txt_21,234,cl21-nil-nil-short-[xcomp-result-lived-sn4,xcomp-purpose-short-3,aux-(is)-nil,def_prop(lived,[evaluative])])
+lf(Desperate Times.txt_21,234,cl20-nil-nil-let-[subj-sn1-this-sn3,obj-theme_unaff-hope-sn2,subj-actor-you-sn1,def_prop(this,[oggetto,umano]),def_prop(hope,[astratto,emotivo,umano]),def_prop(you,[umano])])
+lf(Desperate Times.txt_22,257,cl22-nil-nil-be-[cmod-subord-be-",xadj-adj-riddled-adj3,ncmod-modal-dizzy-sn1,def_prop(riddled,_276208),def_prop(dizzy,[evaluative])])
+lf(Desperate Times.txt_23,280,cl23-nil-nil-ring-[ncmod-locativo-ear-sn3,subj-agent-noise-sn2,subj-agent-noise-sn1,aux-(is)-nil,progr-ringing-nil,and(noise,oh,sn1),and(noise,God,sn1),def_prop(ear,[astratto,body_part,plant,umano]),def_prop(noise,[astratto,attivita,evento,informa]),def_prop(noise,[astratto,attivita,evento,informa])])
+lf(Desperate Times.txt_24,304,cl24-nil-nil-be-[subj-theme_bound-its-sn1,def_prop(its,[istituzione])])
+lf(Desperate Times.txt_25,329,cl26-nil-nil-talk-[subj-goal-them-sn2,def_prop(them,[umano])])
+lf(Desperate Times.txt_25,329,cl25-nil-nil-hear-[obj-theme_unaff-them-sn2,subj-experiencer-i-sn1,def_prop(them,[umano]),def_prop(i,[umano])])
+lf(Desperate Times.txt_26,356,cl27-not-can-make-[ncmod-modal-word-sn2,subj-agent-you-sn1,def_prop(word,[attivita,informa,nquant]),def_prop(you,[umano])])
+lf(Desperate Times.txt_27,383,cl28-nil-nil-speak-[xcomp-agent-clear-sn5,subj-agent-you-sn4,subj-actor-you-sn1,def_prop(clear,[valutativo]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Desperate Times.txt_28,411,cl30-nil-nil-talk-[subj-goal-them-sn2,def_prop(them,[umano])])
+lf(Desperate Times.txt_28,411,cl29-nil-nil-hear-[obj-theme_unaff-them-sn2,subj-experiencer-i-sn1,def_prop(them,[umano]),def_prop(i,[umano])])
+lf(Desperate Times.txt_29,441,cl31-not-can-make-[ncmod-modal-word-sn2,subj-agent-you-sn1,def_prop(word,[attivita,informa,nquant]),def_prop(you,[umano])])
+lf(Desperate Times.txt_30,471,cl32-nil-nil-speak-[xcomp-agent-clear-sn5,subj-agent-you-sn4,subj-actor-you-sn1,def_prop(clear,[valutativo]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Desperate Times.txt_31,502,cl33-nil-nil-have-[])
+lf(Desperate Times.txt_32,534,nil-nil-nil-company-[ncmod-modal-terrible-sn2,subj-actor-you-sn1,def_prop(terrible,[istituzione]),def_prop(you,[umano])])
+lf(Desperate Times.txt_33,567,nil-nil-nil-zero-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Desperate Times.txt_34,601,cl34-nil-nil-have-[])
+lf(Desperate Times.txt_35,636,cl36-nil-nil-be-[subj-theme_bound-i-sn2,def_prop(i,[umano])])
+lf(Desperate Times.txt_35,636,cl35-nil-nil-have-[subj-experiencer-where-sn1,def_prop(where,[luogo])])
+lf(Desperate Times.txt_36,673,cl37-nil-nil-sink-[iobj-goal-bottom-sn2,subj-agent-i-sn1,def_prop(bottom,[body_part,luogo,oggetto,strumento,tempo,umano]),def_prop(i,[umano])])
+lf(Desperate Times.txt_37,710,cl39-nil-nil-fill-[adj-(mod)-out-nil,adj-(mod)-ill-nil,xcomp-purpose-sing-2,subj-agent-it-sn1,def_prop(it,[any])])
+lf(Desperate Times.txt_37,710,cl38-nil-nil-sing-[adj-(mod)-fill-nil,ncmod-actor-water-sn2,def_prop(water,[edible,oggetto,sostanza])])
+lf(Desperate Times.txt_38,749,cl40-nil-nil-hope-[obj-theme_aff-enough-sn3,obj-theme_aff-Ive-sn2,subj-agent-i-sn1,and(enough,done,sn3),def_prop(enough,[astratto,informa,oggetto]),def_prop(Ive,[istituzione,umano]),def_prop(i,[umano])])
+lf(Desperate Times.txt_39,788,nil-nil-nil-break-[obj-theme-when-sn2,subj-agent-thing-sn1,and(thing,this,sn1),def_prop(when,[tempo]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Desperate Times.txt_40,828,cl41-nil-will-be-[xcomp-prop-me-sn6,subj-theme_bound-you-sn5,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(i,you,sn1),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Desperate Times.txt_41,869,cl43-nil-nil-short-[xcomp-result-lived-sn4,xcomp-purpose-short-3,aux-(is)-nil,def_prop(lived,[evaluative])])
+lf(Desperate Times.txt_41,869,cl42-nil-nil-let-[subj-sn1-this-sn3,obj-theme_unaff-hope-sn2,subj-actor-you-sn1,def_prop(this,[oggetto,umano]),def_prop(hope,[astratto,emotivo,umano]),def_prop(you,[umano])])
+lf(Desperate Times.txt_42,912,cl44-nil-nil-be-[cmod-subord-be-",xadj-adj-riddled-adj4,ncmod-modal-dizzy-sn1,def_prop(riddled,_279272),def_prop(dizzy,[evaluative])])
+lf(Desperate Times.txt_43,955,nil-nil-nil-break-[obj-theme-when-sn2,subj-agent-thing-sn1,and(thing,this,sn1),def_prop(when,[tempo]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Desperate Times.txt_44,999,cl45-nil-will-be-[xcomp-prop-me-sn6,subj-theme_bound-you-sn5,subj-theme_bound-i-sn2,subj-theme_bound-i-sn1,and(i,you,sn1),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Desperate Times.txt_45,1044,cl46-nil-nil-happen-[subj-theme_unaff-this-sn1,adj-(mod)-really-nil,aux-(is)-nil,progr-happening-nil,def_prop(this,[oggetto,umano])])
+lf(Desperate Times.txt_46,1090,cl47-nil-nil-wear-[subj-experiencer-im-sn1,def_prop(im,[legale])])
+lf(Desperate Times.txt_47,1137,cl48-nil-nil-wear-[xcomp-prop-thin-sn2,subj-experiencer-im-sn1,def_prop(thin,[evaluative]),def_prop(im,[legale])])
+lf(Desperate Times.txt_48,1185,cl49-nil-will-will-[obj-theme_aff-break-sn2,subj-agent-i-sn1,def_prop(break,[attivita,evento]),def_prop(i,[umano])])
+lf(Desperate Times.txt_49,1234,cl50-nil-nil-wear-[subj-experiencer-im-sn1,def_prop(im,[legale])])
+lf(Desperate Times.txt_50,1284,cl51-nil-nil-wear-[xcomp-prop-thin-sn2,subj-experiencer-im-sn1,def_prop(thin,[evaluative]),def_prop(im,[legale])])
+lf(Desperate Times.txt_51,1335,cl52-nil-will-will-[obj-theme_aff-break-sn2,subj-agent-i-sn1,def_prop(break,[attivita,evento]),def_prop(i,[umano])])
+lf(Desperate Times.txt_52,1387,cl53-nil-nil-be-[xcomp-prop-out-sn2,subj-theme_bound-me-sn1,def_prop(out,[istituzione]),def_prop(me,[umano])])
+lf(Desperate Times.txt_53,1440,cl54-nil-nil-be-[xcomp-prop-out-sn2,subj-theme_bound-me-sn1,def_prop(out,[istituzione]),def_prop(me,[umano])])
+lf(Desperate Times.txt_54,1494,cl55-nil-nil-be-[xcomp-prop-out-sn2,subj-theme_bound-me-sn1,def_prop(out,[istituzione]),def_prop(me,[umano])])

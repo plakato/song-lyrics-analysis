@@ -1,0 +1,62 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Across The Universe Lyrics.txt_1-1  []-positive  []
+Across The Universe Lyrics.txt_2-3  []-positive  [fhd,neg]
+Across The Universe Lyrics.txt_3-6  []-negative  [neg]
+Across The Universe Lyrics.txt_4-10  []-positive  [fhd]
+Across The Universe Lyrics.txt_5-15  []-positive  []
+Across The Universe Lyrics.txt_6-21  []-positive  []
+Across The Universe Lyrics.txt_7-28  []-positive  []
+Across The Universe Lyrics.txt_8-36  []-positive  []
+Across The Universe Lyrics.txt_9-45  []-positive  []
+Across The Universe Lyrics.txt_10-55  []-positive  []
+Across The Universe Lyrics.txt_11-66  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Across The Universe Lyrics.txt_1-1  [across,the,Universe,Lyrics,by,Rufus,Wainwright]  [title]
+Across The Universe Lyrics.txt_2-3  [words,are,flowing,out,like,endless,rain,into,a,paper]  [proposal(be,[_388940,_388946,statement,foreground,_388964])]
+Across The Universe Lyrics.txt_3-6  [pools,of,sorrow,cup]  [reject_expl_just(cup,[external,factive,explanation,background,objective]),propose_opin_neg(cup,[external,factive,explanation,background,objective])]
+Across The Universe Lyrics.txt_4-10  [like,a,jai,million,suns,Guru]  [provide_expl_just(like,[external,factive,explanation,background,objective])]
+Across The Universe Lyrics.txt_5-15  [Deva,Om,nothing-s,Gon,na,change]  [provide_expl_just(change,[external,factive,narration,background,objective])]
+Across The Universe Lyrics.txt_6-21  [my,nothing-s,world,na,Gon,change]  [provide_expl_just(change,[external,factive,narration,background,objective])]
+Across The Universe Lyrics.txt_7-28  [my,nothing-s,world,na,Gon,change]  [provide_expl_just(change,[external,factive,narration,background,objective])]
+Across The Universe Lyrics.txt_8-36  [my,nothing-s,world,na,Gon,change]  [provide_expl_just(change,[external,factive,narration,background,objective])]
+Across The Universe Lyrics.txt_9-45  [my,nothing-s,world,na,Gon,change]  [provide_expl_just(change,[external,factive,narration,background,objective])]
+Across The Universe Lyrics.txt_10-55  [my,nothing-s,world,na,Gon,change]  [provide_expl_just(change,[external,factive,narration,background,objective])]
+Across The Universe Lyrics.txt_11-66  [my,nothing-s,world,Gon,na,my,nothing-s,world,Gon,na,my,jai,world,Guru,change,change,jai,Guru,Deva,Deva,jai,Guru,Deva,jai,Guru,,,Deva]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Across The Universe Lyrics.txt_1-1)-[primary-concreteness]
+2-(Across The Universe Lyrics.txt_2-3)-[primary-concreteness,emotions-affection,primary-timelessness,primary-water]
+3-(Across The Universe Lyrics.txt_3-6)-[primary-water,emotions-sadness]
+4-(Across The Universe Lyrics.txt_4-10)-[emotions-affection,primary-fire]
+5-(Across The Universe Lyrics.txt_5-15)-[]
+half
+6-(Across The Universe Lyrics.txt_6-21)-[]
+7-(Across The Universe Lyrics.txt_7-28)-[]
+8-(Across The Universe Lyrics.txt_8-36)-[]
+9-(Across The Universe Lyrics.txt_9-45)-[]
+10-(Across The Universe Lyrics.txt_10-55)-[]
+11-(Across The Universe Lyrics.txt_11-66)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Across The Universe Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wainwright-sn3,ncmod-locativo-universe-sn2,subj-theme_bound-Lyrics-sn1,and(Wainwright,Rufus,sn3),def_prop(Wainwright,[place,umano]),def_prop(universe,[astratto,oggetto]),def_prop(Lyrics,[informa,tecno])])
+lf(Across The Universe Lyrics.txt_2,3,cl2-nil-nil-flow-[adj-(mod)-out-nil,obj-theme-rain-sn2,subj-actor-word-sn1,aux-are-nil,progr-flowing-nil,def_prop(rain,[astratto,attivita,cambia,sostanza]),def_prop(word,[attivita,informa,nquant])])
+lf(Across The Universe Lyrics.txt_3,6,cl3-nil-nil-cup-[ncmod-specif-sorrow-sn2,subj-agent-you-sn1,def_prop(sorrow,[emotivo]),def_prop(you,[umano])])
+lf(Across The Universe Lyrics.txt_4,10,nil-nil-nil-like-[obj-tema_emot-Guru-sn2,subj-experiencer-you-sn1,and(Guru,jai,sn2),def_prop(Guru,[umano]),def_prop(you,[umano])])
+lf(Across The Universe Lyrics.txt_5,15,cl4-nil-nil-change-[subj-agent-na-sn2,subj-agent-na-sn1,and(na,nothing-s,sn2),and(na,nothing-s,sn1),def_prop(na,[informa,tecno]),def_prop(na,[informa,tecno])])
+lf(Across The Universe Lyrics.txt_6,21,cl5-nil-nil-change-[ncmod-modal-na-sn2,subj-agent-you-sn1,def_prop(na,[informa,tecno]),def_prop(you,[umano])])
+lf(Across The Universe Lyrics.txt_7,28,cl6-nil-nil-change-[ncmod-modal-na-sn2,subj-agent-you-sn1,def_prop(na,[informa,tecno]),def_prop(you,[umano])])
+lf(Across The Universe Lyrics.txt_8,36,cl7-nil-nil-change-[ncmod-modal-na-sn2,subj-agent-you-sn1,def_prop(na,[informa,tecno]),def_prop(you,[umano])])
+lf(Across The Universe Lyrics.txt_9,45,cl8-nil-nil-change-[ncmod-modal-na-sn2,subj-agent-you-sn1,def_prop(na,[informa,tecno]),def_prop(you,[umano])])
+lf(Across The Universe Lyrics.txt_10,55,cl9-nil-nil-change-[ncmod-modal-na-sn2,subj-agent-you-sn1,def_prop(na,[informa,tecno]),def_prop(you,[umano])])
+lf(Across The Universe Lyrics.txt_11,66,cl10-nil-nil-be-[subj-theme_bound-Deva-sn2,subj-theme_bound-Deva-sn1,and(Deva,Deva,sn2),and(Deva,change,sn1),and(Deva,nothing-s,sn1),def_prop(Deva,[istituzione,umano]),def_prop(Deva,[istituzione,umano])])

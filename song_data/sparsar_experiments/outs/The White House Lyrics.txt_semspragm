@@ -1,0 +1,153 @@
+"POLARITY, DISCOURSE MARKERS"
+
+The White House Lyrics.txt_1-1  []-positive  []
+The White House Lyrics.txt_2-3  [if-hypoth,then-temp_seq]-positive  [fgb]
+The White House Lyrics.txt_3-8  []-positive  [fgb,fgb,fgb]
+The White House Lyrics.txt_4-14  []-positive  [fgb,neg]
+The White House Lyrics.txt_5-19  []-suspension  [neg,neg]
+The White House Lyrics.txt_5-20  [so-result]-suspension  [fgb,neg]
+The White House Lyrics.txt_6-25  []-negative  [neg]
+The White House Lyrics.txt_7-33  [if-hypoth]-positive  [fgb,fgb]
+The White House Lyrics.txt_8-43  []-negative  [neg]
+The White House Lyrics.txt_8-44  []-positive  [ass]
+The White House Lyrics.txt_8-45  []-negative  [neg]
+The White House Lyrics.txt_9-54  []-suspension  [neg,neg]
+The White House Lyrics.txt_9-55  []-negative  [neg]
+The White House Lyrics.txt_10-65  []-positive  [fgb]
+The White House Lyrics.txt_10-65  [but-advers]-positive  [fgb,fgb]
+The White House Lyrics.txt_11-77  []-negative  [neg]
+The White House Lyrics.txt_11-78  []-negative  [neg]
+The White House Lyrics.txt_12-91  []-negative  [neg,neg]
+The White House Lyrics.txt_12-92  [then-temp_seq]-negative  [neg]
+The White House Lyrics.txt_13-105  [so-result]-negative  [fgb,neg]
+The White House Lyrics.txt_14-119  []-negative  [fgb,neg,neg]
+The White House Lyrics.txt_15-134  []-positive  []
+The White House Lyrics.txt_15-135  [when-temp_coinc]-suspension  [fgb]
+The White House Lyrics.txt_16-153  []-positive  []
+The White House Lyrics.txt_17-171  []-negative  [neg]
+The White House Lyrics.txt_18-190  []-positive  [fgb,neg]
+The White House Lyrics.txt_19-209  []-negative  [neg]
+The White House Lyrics.txt_19-210  []-positive  []
+The White House Lyrics.txt_20-230  []-positive  []
+The White House Lyrics.txt_20-231  []-positive  []
+The White House Lyrics.txt_21-253  []-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+The White House Lyrics.txt_1-1  [the,White,House,Lyrics,by,Ry]  [title]
+The White House Lyrics.txt_2-3  [if,you,want,me,to,rap,then,just,give,me,a,bassline]  [provide_expl_just(give,[external,factive,explanation,background,objective]),provide_expl_just(want,[external,factive,explanation,background,objective])]
+The White House Lyrics.txt_3-8  [and,sit,back,and,relax,and,listen,to,Ray-s,rhymes]  [provide_expl_just(listen,[external,factive,narration,background,objective])]
+The White House Lyrics.txt_4-14  [we,asking,where,the,party,at,and,we,dont,waste,time]  [provide_expl_just(ask,[external,factive,narration,foreground,objective])]
+The White House Lyrics.txt_5-19  [i,would,not,waste,yours]  [provide_expl_just(waste,[external,nonfactive,narration,background,objective])]
+The White House Lyrics.txt_5-20  [so,please,mine,don-t,waste]  [provide_expl_just(waste,[external,nonfactive,narration,background,objective])]
+The White House Lyrics.txt_6-25  [call,your,people,over,we,can,not,turn,up,on,facetime]  [reject_expl_just(call,[external,factive,narration,background,objective])]
+The White House Lyrics.txt_7-33  [and,if,you,wanna,freestyle,there,is,a,waitline]  [proposal(be,[_211638,_211644,statement,foreground,_211662])]
+The White House Lyrics.txt_8-43  [you,kill]  [reject_expl_just(kill,[external,factive,narration,background,objective]),reject_expl_just(make,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+The White House Lyrics.txt_8-44  [somebody-s,vibe,just,make,sure]  [accept_expl_opin(kill,[external,factive,narration,background,objective]),accept_expl_opin(make,[external,factive,narration,background,objective]),accept_expl_opin(be,[external,factive,narration,background,objective])]
+The White House Lyrics.txt_8-45  [that,it,is,not,mine]  [reject_expl_just(kill,[external,factive,narration,background,objective]),reject_expl_just(make,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+The White House Lyrics.txt_9-54  [we,don-t,have,no,drama]  [provide_expl_just(have,[external,factive,narration,background,objective]),provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+The White House Lyrics.txt_9-55  [we,will,not,end,up,on,dateline]  [reject_expl_just(have,[external,factive,narration,background,objective]),reject_expl_just(will,[external,nonfactive,narration,background,objective])]
+The White House Lyrics.txt_10-65  [and,i,just,had,a,cup]  [provide_expl_just(drink,[external,factive,narration,foreground,objective])]
+The White House Lyrics.txt_10-65  [and,i,just,had,a,cup,but,somebody,just,drank,mine]  [provide_expl_just(drink,[external,factive,narration,foreground,objective])]
+The White House Lyrics.txt_11-77  [i,some,time,need,to,kill,the,rhymes,these,rappers]  [reject_expl_just(kill,[external,factive,narration,background,objective]),reject_expl_just(hate,[external,factive,narration,background,objective]),reject_expl_just(need,[external,factive,narration,background,objective])]
+The White House Lyrics.txt_11-78  [they,hate,mine]  [reject_expl_just(kill,[external,factive,narration,background,objective]),reject_expl_just(hate,[external,factive,narration,background,objective]),reject_expl_just(need,[external,factive,narration,background,objective])]
+The White House Lyrics.txt_12-91  [the,rhymes,is,not,good,not]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(know,[external,factive,narration,background,objective])]
+The White House Lyrics.txt_12-92  [then,you,know,that,they,is,not,mine]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(know,[external,factive,narration,background,objective])]
+The White House Lyrics.txt_13-105  [we,so,turnt,up,we,can,not,walk,in,a,straight,line]  [reject_expl_just(be,[_218172,_218178,_218184,_218190,_218196])]
+The White House Lyrics.txt_14-119  [and,nine,out_of,ten,you,is,not,leaving,here,sober]  [reject_expl_just(leave,[external,factive,narration,foreground,objective])]
+The White House Lyrics.txt_15-134  [i,am,asking,turn,down]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(ask,[external,factive,narration,foreground,objective]),provide_expl_just(do,[external,nonfactive,narration,background,objective])]
+The White House Lyrics.txt_15-135  [for,what,,,i,will,do,that,when,i,am,older]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(ask,[external,factive,narration,foreground,objective]),provide_expl_just(do,[external,nonfactive,narration,background,objective])]
+The White House Lyrics.txt_16-153  [tell,the,twerk,twerk,girls,twerk,,,just,bend,it,over]  [provide_expl_just(bend,[external,factive,narration,background,objective]),provide_expl_just(tell,[external,factive,narration,background,objective])]
+The White House Lyrics.txt_17-171  [it,is,some,bad,girls,outside,that,just,pulled,up,in,a,rover]  [reject_expl_just(pull,[external,factive,cause,foreground,objective])]
+The White House Lyrics.txt_18-190  [and,we,go,dumb,my,Nigga,mentally_retarded]  [provide_expl_just(go,[external,factive,narration,background,objective])]
+The White House Lyrics.txt_19-209  [we,it,a,couple,people,could,not,make]  [reject_expl_just(make,[external,nonfactive,narration,background,objective])]
+The White House Lyrics.txt_19-210  [gone,turn,up,regaurdless]  [provide_expl_just(make,[external,nonfactive,narration,background,objective])]
+The White House Lyrics.txt_20-230  [we,turning,up,in,outer,space,man,,,you,know]  [provide_expl_just(turn,[external,factive,cause,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+The White House Lyrics.txt_20-231  [we,some,martians]  [provide_expl_just(turn,[external,factive,cause,foreground,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+The White House Lyrics.txt_21-253  [its,some,drinks,in,the,house,and,you,know,its,some,Marley]  [provide_expl_just(know,[external,factive,circumstance,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(The White House Lyrics.txt_1-1)-[]
+2-(The White House Lyrics.txt_2-3)-[secondary-temporal_repere]
+3-(The White House Lyrics.txt_3-8)-[primary-concreteness,primary-passivity,primary-sound]
+4-(The White House Lyrics.txt_4-14)-[secondary-social_behavior,primary-concreteness,primary-concreteness,secondary-temporal_repere]
+5-(The White House Lyrics.txt_5-19)-[]
+6-(The White House Lyrics.txt_5-20)-[secondary-social_behavior]
+7-(The White House Lyrics.txt_6-25)-[secondary-social_behavior,primary-concreteness]
+8-(The White House Lyrics.txt_7-33)-[]
+9-(The White House Lyrics.txt_8-43)-[emotions-aggression]
+10-(The White House Lyrics.txt_8-44)-[secondary-instru_behavior,secondary-abstract_tought]
+11-(The White House Lyrics.txt_8-45)-[]
+12-(The White House Lyrics.txt_9-54)-[]
+13-(The White House Lyrics.txt_9-55)-[]
+14-(The White House Lyrics.txt_10-65)-[]
+15-(The White House Lyrics.txt_10-65)-[primary-orality]
+half
+16-(The White House Lyrics.txt_11-77)-[secondary-temporal_repere,emotions-aggression]
+17-(The White House Lyrics.txt_11-78)-[emotions-aggression]
+18-(The White House Lyrics.txt_12-91)-[]
+19-(The White House Lyrics.txt_12-92)-[secondary-temporal_repere,secondary-abstract_tought]
+20-(The White House Lyrics.txt_13-105)-[primary-concreteness,primary-brink]
+21-(The White House Lyrics.txt_14-119)-[primary-concreteness,emotions-sadness]
+22-(The White House Lyrics.txt_15-134)-[secondary-social_behavior]
+23-(The White House Lyrics.txt_15-135)-[secondary-temporal_repere,secondary-temporal_repere]
+24-(The White House Lyrics.txt_16-153)-[secondary-social_behavior,primary-concreteness]
+25-(The White House Lyrics.txt_17-171)-[primary-concreteness,primary-voyage]
+26-(The White House Lyrics.txt_18-190)-[]
+27-(The White House Lyrics.txt_19-209)-[secondary-instru_behavior]
+28-(The White House Lyrics.txt_19-210)-[]
+29-(The White House Lyrics.txt_20-230)-[primary-concreteness,primary-concreteness,secondary-abstract_tought]
+30-(The White House Lyrics.txt_20-231)-[]
+31-(The White House Lyrics.txt_21-253)-[primary-orality,secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(The White House Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Ry-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,House,sn1),def_prop(Ry,[istituzione]),def_prop(Lyrics,[informa,tecno])])
+lf(The White House Lyrics.txt_2,3,cl4-nil-nil-give-[adj-(mod)-just-nil,obj-goal-bassline-sn6,subj-actor-me-sn5,obj-goal-bassline-sn4,subj-actor-me-sn3,def_prop(bassline,[istituzione]),def_prop(me,[umano]),def_prop(bassline,[istituzione]),def_prop(me,[umano])])
+lf(The White House Lyrics.txt_2,3,cl3-nil-nil-rap-[subj-theme-me-sn2,def_prop(me,[umano])])
+lf(The White House Lyrics.txt_2,3,cl2-nil-nil-want-[cmod-subord-give-1,obj-tema_unaff-me-sn2,subj-actor-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(The White House Lyrics.txt_3,8,cl7-nil-nil-listen-[cmod-subord-listen-",cmod-coord-listen-and,iobj-goal-rhyme-sn7,iobj-goal-rhyme-sn5,subj-agent-you-sn4,and(rhyme,Ray-s,sn7),and(rhyme,Ray-s,sn5),def_prop(rhyme,[attivita,informa]),def_prop(rhyme,[attivita,informa]),def_prop(you,[umano])])
+lf(The White House Lyrics.txt_3,8,cl6-nil-nil-relax-[subj-cause-you-sn3,def_prop(you,[umano])])
+lf(The White House Lyrics.txt_3,8,cl5-nil-nil-sit-[adj-subj_disc-back-sn2,subj-agent-you-sn1,def_prop(back,[istituzione]),def_prop(you,[umano])])
+lf(The White House Lyrics.txt_4,14,cl8-nil-nil-ask-[subj-actor-we-sn1,and(we,we,sn1),and(we,party,sn1),def_prop(we,[umano])])
+lf(The White House Lyrics.txt_5,19,cl9-not-would-waste-[subj-agent-mine-sn3,obj-theme_aff-yours-sn2,subj-agent-i-sn1,aux-do-nil,def_prop(mine,[oggetto,strumento]),def_prop(yours,[istituzione]),def_prop(i,[umano])])
+lf(The White House Lyrics.txt_6,25,cl11-not-can-turn-[xadj-result-can-3])
+lf(The White House Lyrics.txt_6,25,cl10-nil-nil-call-[adj-(mod)-up-nil,adj-(mod)-over-nil,subj-sn1-we-sn3,obj-theme_bound-people-sn2,subj-agent-you-sn1,def_prop(up,[istituzione]),def_prop(over,[istituzione]),def_prop(we,[umano]),def_prop(people,[istituzione]),def_prop(you,[umano])])
+lf(The White House Lyrics.txt_7,33,cl12-nil-nil-be-[subj-theme_bound-waitline-sn5,def_prop(waitline,[istituzione])])
+lf(The White House Lyrics.txt_7,33,nil-nil-nil-wanna-[obj-theme_aff-freestyle-sn2,subj-agent-you-sn1,def_prop(freestyle,[evento]),def_prop(you,[umano])])
+lf(The White House Lyrics.txt_8,43,cl15-nil-nil-be-[xcomp-prop-mine-sn7,subj-theme_bound-it-sn6,def_prop(mine,[oggetto,strumento]),def_prop(it,[any])])
+lf(The White House Lyrics.txt_8,43,cl14-nil-nil-make-[adj-(mod)-just-nil,xcomp-prop-sure-sn3,subj-agent-vibe-sn2,and(vibe,somebody-s,sn2),def_prop(sure,[valutativo]),def_prop(vibe,[stato])])
+lf(The White House Lyrics.txt_8,43,cl13-nil-nil-kill-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(The White House Lyrics.txt_9,54,cl17-not-will-will-[adj-(mod)-up-nil,adj-temporal-end-nil,ncmod-locativo-dateline-sn5,subj-agent-we-sn4,def_prop(dateline,[attivita,informa,luogo]),def_prop(we,[umano])])
+lf(The White House Lyrics.txt_9,54,cl16-not-nil-have-[xcomp-tema_bound-drama-sn2,subj-experiencer-we-sn1,and(drama,no,sn2),def_prop(drama,[astratto,attivita,evento,informa]),def_prop(we,[umano])])
+lf(The White House Lyrics.txt_10,65,cl19-nil-nil-drink-[cmod-coord-drink-and,cmod-subord-have-nil,obj-goal-mine-sn7,xcomp-purpose-drink-4,cmod-subord-drink-",def_prop(mine,[oggetto,strumento])])
+lf(The White House Lyrics.txt_10,65,cl18-nil-nil-have-[adj-(mod)-just-nil,subj-sn4-somebody-sn6,xcomp-tema_bound-cup-sn5,subj-experiencer-i-sn4,xcomp-tema_bound-cup-sn2,subj-experiencer-i-sn1,def_prop(somebody,[umano]),def_prop(cup,[astratto,edible,nquant,oggetto,plant,strumento]),def_prop(i,[umano]),def_prop(cup,[astratto,edible,nquant,oggetto,plant,strumento]),def_prop(i,[umano])])
+lf(The White House Lyrics.txt_11,77,cl22-nil-nil-hate-[obj-theme-mine-sn7,subj-actor-they-sn6,obj-theme_aff-rhyme-sn2,xcomp-purpose-kill-3,def_prop(mine,[oggetto,strumento]),def_prop(they,[umano]),def_prop(rhyme,[attivita,informa])])
+lf(The White House Lyrics.txt_11,77,cl21-nil-nil-kill-[])
+lf(The White House Lyrics.txt_11,77,cl20-nil-nil-need-[adj-temporal-time-nil,subj-experiencer-i-sn1,and(time,some,sn3),def_prop(time,[tempo]),def_prop(i,[umano])])
+lf(The White House Lyrics.txt_12,91,cl24-nil-nil-know-[subj-actor-you-sn4,subj-actor-you-sn3,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(The White House Lyrics.txt_12,91,cl23-not-nil-be-[xcomp-prop-good-sn2,subj-theme_bound-rhyme-sn1,def_prop(good,[valutativo]),def_prop(rhyme,[attivita,informa])])
+lf(The White House Lyrics.txt_13,105,cl25-not-can-walk-[adj-(mod)-up-nil,subj-agent-we-sn3,subj-agent-we-sn2,and(we,turnt,sn2),def_prop(we,[umano]),def_prop(we,[umano])])
+lf(The White House Lyrics.txt_14,119,cl26-not-nil-leave-[cmod-subord-leave-",adj-(mod)-here-nil,xcomp-prop-sober-sn4,obj-theme-you-sn3,ncmod-modal-ten-sn2,subj-theme-nine-sn1,aux-(is)-nil,progr-leaving-nil,def_prop(sober,[valutativo]),def_prop(you,[umano]),def_prop(ten,[nquant]),def_prop(nine,[nquant])])
+lf(The White House Lyrics.txt_15,134,cl30-nil-nil-be-[xcomp-prop-older-sn12,subj-theme_bound-i-sn11,def_prop(older,[evaluative]),def_prop(i,[umano])])
+lf(The White House Lyrics.txt_15,134,cl29-nil-will-do-[subj-theme_unaff-i-sn10,aux-do-nil,def_prop(i,[umano])])
+lf(The White House Lyrics.txt_15,134,cl28-nil-nil-turn-[])
+lf(The White House Lyrics.txt_15,134,cl27-nil-nil-ask-[xcomp-prop-down-sn9,subj-actor-i-sn1,aux-am-nil,progr-asking-nil,def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(i,[umano])])
+lf(The White House Lyrics.txt_16,153,cl32-nil-nil-bend-[adj-(mod)-over-nil,subj-actor-it-sn11,adj-(mod)-just-nil,subj-actor-it-sn8,def_prop(over,[istituzione]),def_prop(it,[any]),def_prop(it,[any])])
+lf(The White House Lyrics.txt_16,153,cl31-nil-nil-tell-[obj-theme_unaff-twerk-sn2,subj-agent-you-sn1,and(twerk,twerk,sn2),def_prop(twerk,[istituzione]),def_prop(you,[umano])])
+lf(The White House Lyrics.txt_17,171,cl34-nil-nil-pull-[])
+lf(The White House Lyrics.txt_17,171,cl33-nil-nil-be-[xcomp-prop-outside-sn4,xcomp-prop-girl-sn3,subj-theme_bound-it-sn2,and(girl,some,sn3),and(girl,bad,sn3),def_prop(outside,[luogo]),def_prop(girl,[oggetto,strumento]),def_prop(it,[any])])
+lf(The White House Lyrics.txt_18,190,cl35-nil-nil-go-[cmod-subord-go-",obj-theme_aff-mentally_retarded-sn2,subj-agent-we-sn1,and(mentally_retarded,dumb,sn2),and(mentally_retarded,Nigga,sn2),def_prop(mentally_retarded,[istituzione]),def_prop(we,[umano])])
+lf(The White House Lyrics.txt_19,209,cl37-nil-nil-turn-[adj-locative-regaurdless-nil,adj-subj_disc-regaurdless-sn9,subj-agent-you-sn8,def_prop(regaurdless,[istituzione]),def_prop(regaurdless,[istituzione]),def_prop(you,[umano])])
+lf(The White House Lyrics.txt_19,209,cl36-not-could-make-[subj-agent-people-sn2,subj-agent-people-sn1,and(people,couple,sn2),and(people,it,sn1),def_prop(people,[istituzione]),def_prop(people,[istituzione])])
+lf(The White House Lyrics.txt_20,230,cl40-nil-nil-be-[xcomp-prop-martian-sn25,subj-theme_bound-we-sn24,and(martian,some,sn25),def_prop(martian,[informa,tecno]),def_prop(we,[umano])])
+lf(The White House Lyrics.txt_20,230,cl39-nil-nil-know-[adj-(mod)-up-nil,obj-theme-you-sn22,obj-theme_aff-man-sn21,ncmod-locativo-space-sn20,subj-actor-we-sn1,and(space,outer,sn20),def_prop(you,[umano]),def_prop(man,[any]),def_prop(space,[any,astratto,attivita,informa,luogo]),def_prop(we,[umano])])
+lf(The White House Lyrics.txt_20,230,cl38-nil-nil-turn-[])
+lf(The White House Lyrics.txt_21,253,cl41-nil-nil-know-[obj-theme-Marley-sn7,obj-theme_unaff-its-sn6,subj-actor-you-sn5,and(Marley,some,sn7),def_prop(Marley,[place,umano]),def_prop(its,[istituzione]),def_prop(you,[umano])])

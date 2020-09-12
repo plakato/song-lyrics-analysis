@@ -1,0 +1,129 @@
+"POLARITY, DISCOURSE MARKERS"
+
+#polygamy Lyrics.txt_1-1  []-positive  []
+#polygamy Lyrics.txt_2-3  []-positive  []
+#polygamy Lyrics.txt_3-6  []-positive  []
+#polygamy Lyrics.txt_3-7  []-positive  []
+#polygamy Lyrics.txt_4-11  []-question  []
+#polygamy Lyrics.txt_4-12  []-positive  []
+#polygamy Lyrics.txt_5-16  []-positive  [neg]
+#polygamy Lyrics.txt_5-17  []-negative  [neg]
+#polygamy Lyrics.txt_6-24  [if-hypoth,then-temp_seq]-negative  [bkc,fgb,neg]
+#polygamy Lyrics.txt_7-33  []-positive  []
+#polygamy Lyrics.txt_8-41  []-positive  []
+#polygamy Lyrics.txt_9-50  []-negative  [bkc,neg]
+#polygamy Lyrics.txt_10-62  [when-temp_coinc]-positive  [fhd,neg]
+#polygamy Lyrics.txt_11-77  []-positive  []
+#polygamy Lyrics.txt_11-78  []-positive  []
+#polygamy Lyrics.txt_11-79  []-positive  [fgb]
+#polygamy Lyrics.txt_11-80  []-positive  [fgb,neg]
+#polygamy Lyrics.txt_11-80  []-positive  [fgb,neg]
+#polygamy Lyrics.txt_12-90  []-positive  []
+#polygamy Lyrics.txt_12-91  [if-hypoth]-positive  [fgb]
+#polygamy Lyrics.txt_13-104  []-positive  []
+#polygamy Lyrics.txt_13-105  [but-advers,if-hypoth]-suspension  [fgb,fhd,fhd,neg,fhd,fgb]
+#polygamy Lyrics.txt_14-122  []-positive  []
+#polygamy Lyrics.txt_14-123  [then-temp_seq]-negative  [neg,fgb]
+#polygamy Lyrics.txt_14-123  [then-temp_seq]-negative  [neg,fgb,neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+#polygamy Lyrics.txt_1-1  [#,polygamy,Lyrics,by,WordPlay,T]  [title]
+#polygamy Lyrics.txt_2-3  [Jay]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+#polygamy Lyrics.txt_3-6  [all,my,people,love]  [provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+#polygamy Lyrics.txt_3-7  [it]  [provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+#polygamy Lyrics.txt_4-11  [are,how,?]  [provide_expl_just(me,[internal,factive,narration,background,objective])]
+#polygamy Lyrics.txt_4-12  [they,this,into,me]  [provide_expl_just(me,[internal,factive,narration,background,objective])]
+#polygamy Lyrics.txt_5-16  [Hmm,-,cause,its,probably,where,i,am,finna,be,that,boy,on,stage,that,the,bad,girls,came,to,see,,,,,call]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(call,[external,factive,narration,background,objective]),provide_expl_just(pound,[external,factive,narration,background,objective])]
+#polygamy Lyrics.txt_5-17  [it,pound]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(call,[external,factive,narration,background,objective]),reject_expl_just(pound,[external,factive,narration,background,objective])]
+#polygamy Lyrics.txt_6-24  [Polygamy,yeah,if,is,where,you,wan,na,,,be,girl,grab,ya,girlfriend,then,follow,me]  [reject_expl_just(follow,[external,factive,narration,background,objective]),reject_expl_just(be,[external,nonfactive,hypothesis,background,objective])]
+#polygamy Lyrics.txt_7-33  [X2,girl]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+#polygamy Lyrics.txt_8-41  [you,know,u]  [provide_expl_just(know,[external,factive,narration,background,objective])]
+#polygamy Lyrics.txt_9-50  [Baaaaad,uh,,,where,you,sheep,at,i,,,mean,sleep,at,thought]  [reject_expl_just(mean,[external,factive,narration,background,objective]),reject_expl_just(sleep,[external,factive,narration,background,objective]),reject_expl_just(think,[external,factive,narration,foreground,objective])]
+#polygamy Lyrics.txt_10-62  [it,when,i,peeped,that,you,can,tweet,that,got,like,14,bars,lets,grab,a,drank,cause]  [propose_opin_neg(tweet,[external,nonfactive,result,foreground,objective]),provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(peep,[external,factive,cause,foreground,objective]),propose_opin_neg(grab,[external,factive,circumstance,background,objective])]
+#polygamy Lyrics.txt_11-77  [i,know]  [provide_expl_just(parch,[external,factive,circumstance,foreground,objective]),provide_expl_just(start,[external,factive,inception,background,objective]),suggest(start,[external,factive,inception,background,objective])]
+#polygamy Lyrics.txt_11-78  [you,parched]  [provide_expl_just(parch,[external,factive,circumstance,foreground,objective]),provide_expl_just(start,[external,factive,inception,background,objective]),suggest(start,[external,factive,inception,background,objective])]
+#polygamy Lyrics.txt_11-79  [teamotm,and,you,know]  [provide_expl_just(parch,[external,factive,circumstance,foreground,objective]),provide_expl_just(start,[external,factive,inception,background,objective]),suggest(start,[external,factive,inception,background,objective])]
+#polygamy Lyrics.txt_11-80  [i,start,me,and,a,couple,of,my,niggas,bout,to,go]  [propose_opin_neg(parch,[external,factive,circumstance,foreground,objective]),provide_expl_just(start,[external,factive,inception,background,objective]),suggest(start,[external,factive,inception,background,objective])]
+#polygamy Lyrics.txt_11-80  [i,start,me,and,a,couple,of,my,niggas,bout,to,go,real,far]  [propose_opin_neg(parch,[external,factive,circumstance,foreground,objective]),provide_expl_just(start,[external,factive,inception,background,objective]),suggest(start,[external,factive,inception,background,objective])]
+#polygamy Lyrics.txt_12-90  [you,can,be,my,queen]  [provide_expl_just(be,[external,nonfactive,narration,foreground,objective]),provide_expl_just(play,[external,factive,narration,background,objective])]
+#polygamy Lyrics.txt_12-91  [if,you,play,your,cards]  [provide_expl_just(be,[external,nonfactive,narration,foreground,objective]),provide_expl_just(play,[external,factive,narration,background,objective])]
+#polygamy Lyrics.txt_13-104  [i,am,talking,about,diamonds]  [provide_expl_just(take,[external,factive,result,foreground,objective]),provide_expl_just(hang,[external,factive,narration,foreground,objective]),provide_expl_just(talk,[external,factive,result,foreground,objective]),provide_expl_just(be,[external,factive,adverse,background,objective])]
+#polygamy Lyrics.txt_13-105  [for,the,queen,of,my,heart,,,but,back,to,the,subject,hanging,like,a,mullet,taking,things,over,the,top,like,a,muffin,all,,,the,temptation,is,sort,of,like,i,am,Ruffin,if]  [propose_opin_neg(take,[external,factive,result,foreground,objective]),provide_expl_just(hang,[external,factive,narration,foreground,objective]),propose_opin_neg(talk,[external,factive,result,foreground,objective]),provide_expl_just(be,[external,factive,adverse,background,objective])]
+#polygamy Lyrics.txt_14-122  [you,see]  [provide_expl_just(fake,[external,factive,cause,foreground,objective])]
+#polygamy Lyrics.txt_14-123  [that,man,whack,then,gone,and,Beebe,bluff]  [reject_expl_just(fake,[external,factive,cause,foreground,objective])]
+#polygamy Lyrics.txt_14-123  [that,man,whack,then,gone,and,Beebe,bluff,him,where,his,money,at,faking,on,his,dummy,act,empty,out,my,pockets]  [reject_expl_just(fake,[external,factive,cause,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(#polygamy Lyrics.txt_1-1)-[]
+2-(#polygamy Lyrics.txt_2-3)-[]
+3-(#polygamy Lyrics.txt_3-6)-[emotions-affection]
+4-(#polygamy Lyrics.txt_3-7)-[]
+5-(#polygamy Lyrics.txt_4-11)-[]
+6-(#polygamy Lyrics.txt_4-12)-[]
+7-(#polygamy Lyrics.txt_5-16)-[secondary-abstract_tought,secondary-abstract_tought,primary-concreteness,primary-vision,secondary-social_behavior]
+8-(#polygamy Lyrics.txt_5-17)-[]
+9-(#polygamy Lyrics.txt_6-24)-[primary-concreteness,secondary-temporal_repere,secondary-social_behavior]
+10-(#polygamy Lyrics.txt_7-33)-[]
+11-(#polygamy Lyrics.txt_8-41)-[secondary-abstract_tought]
+12-(#polygamy Lyrics.txt_9-50)-[primary-concreteness,primary-concreteness,primary-counscious,primary-concreteness,secondary-abstract_tought]
+half
+13-(#polygamy Lyrics.txt_10-62)-[secondary-temporal_repere,emotions-affection,secondary-restraint,primary-orality,secondary-abstract_tought]
+14-(#polygamy Lyrics.txt_11-77)-[secondary-abstract_tought]
+15-(#polygamy Lyrics.txt_11-78)-[]
+16-(#polygamy Lyrics.txt_11-79)-[secondary-abstract_tought]
+17-(#polygamy Lyrics.txt_11-80)-[primary-vision]
+18-(#polygamy Lyrics.txt_11-80)-[primary-vision,secondary-abstract_tought,primary-concreteness]
+19-(#polygamy Lyrics.txt_12-90)-[]
+20-(#polygamy Lyrics.txt_12-91)-[emotions-expressive_beh]
+21-(#polygamy Lyrics.txt_13-104)-[]
+22-(#polygamy Lyrics.txt_13-105)-[primary-narcissism,primary-concreteness,secondary-abstract_tought,emotions-affection,primary-concreteness,primary-height,emotions-affection,emotions-affection]
+23-(#polygamy Lyrics.txt_14-122)-[primary-vision]
+24-(#polygamy Lyrics.txt_14-123)-[secondary-temporal_repere]
+25-(#polygamy Lyrics.txt_14-123)-[secondary-temporal_repere,primary-concreteness,secondary-instru_behavior,primary-concreteness,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(#polygamy Lyrics.txt_1,1,cl1-nil-nil-be-[xadj-adj-T-adj1,arg_mod-agent-wordplay-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,polygamy,sn1),def_prop(T,_518476),def_prop(wordplay,[attivita,informa]),def_prop(Lyrics,[informa,tecno])])
+lf(#polygamy Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-Jay-sn1,def_prop(Jay,[place,umano])])
+lf(#polygamy Lyrics.txt_3,6,cl4-nil-nil-be-[subj-theme_bound-you-sn8,def_prop(you,[umano])])
+lf(#polygamy Lyrics.txt_3,6,cl3-nil-nil-love-[subj-experiencer-people-sn2,subj-experiencer-people-sn1,def_prop(people,[istituzione]),def_prop(people,[istituzione])])
+lf(#polygamy Lyrics.txt_4,11,cl5-nil-nil-be-[ncmod-loc_in-me-sn4,xcomp-prop-this-sn3,subj-theme_bound-they-sn2,xcomp-theme-how-sn1,def_prop(me,[umano]),def_prop(this,[oggetto,umano]),def_prop(they,[umano]),def_prop(how,[manner])])
+lf(#polygamy Lyrics.txt_5,16,cl8-nil-nil-be-[xcomp-prop-boy-sn4,xcomp-purpose-be-5,and(boy,that,sn4),def_prop(boy,[oggetto,strumento])])
+lf(#polygamy Lyrics.txt_5,16,cl7-nil-nil-pound-[subj-agent-you-sn11,def_prop(you,[umano])])
+lf(#polygamy Lyrics.txt_5,16,cl6-nil-nil-call-[adj-(mod)-probably-nil,subj-agent-Hmm-sn1,and(Hmm,cause,sn1),def_prop(Hmm,[istituzione,umano])])
+lf(#polygamy Lyrics.txt_6,24,nil-nil-nil-wan-[cmod-subord-follow-if,obj-prop-girl-sn9,xcomp-purpose-be-cl9,def_prop(girl,[oggetto,strumento])])
+lf(#polygamy Lyrics.txt_6,24,cl10-nil-nil-follow-[cmod-subord-follow-then,subj-agent-polygamy-sn1,xcomp-agent-me-sn4,subj-agent-you-sn3,def_prop(polygamy,[stato]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(#polygamy Lyrics.txt_6,24,cl9-nil-nil-be-[subj-theme_bound-you-sn6,def_prop(you,[umano])])
+lf(#polygamy Lyrics.txt_7,33,cl11-nil-nil-say-[obj-theme_unaff-girl-sn1,and(girl,X2,sn1),def_prop(girl,[oggetto,strumento])])
+lf(#polygamy Lyrics.txt_8,41,cl12-nil-nil-know-[obj-theme_unaff-u-sn2,subj-actor-you-sn1,def_prop(u,[attivita,informa]),def_prop(you,[umano])])
+lf(#polygamy Lyrics.txt_9,50,cl15-nil-nil-think-[subj-theme-sheep-sn4,def_prop(sheep,[animato,umano])])
+lf(#polygamy Lyrics.txt_9,50,cl14-nil-nil-sleep-[])
+lf(#polygamy Lyrics.txt_9,50,cl13-nil-nil-mean-[])
+lf(#polygamy Lyrics.txt_10,62,cl20-nil-nil-grab-[])
+lf(#polygamy Lyrics.txt_10,62,cl19-nil-nil-let-[])
+lf(#polygamy Lyrics.txt_10,62,cl18-nil-nil-get-[adj-(mod)-tweet-nil])
+lf(#polygamy Lyrics.txt_10,62,cl17-nil-can-tweet-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(#polygamy Lyrics.txt_10,62,cl16-nil-nil-peep-[cmod-subord-grab-when,subj-actor-you-sn7,def_prop(you,[umano])])
+lf(#polygamy Lyrics.txt_11,77,cl24-nil-nil-go-[subj-agent-pro-nil])
+lf(#polygamy Lyrics.txt_11,77,cl23-nil-nil-start-[cmod-coord-go-cl24,obj-actor-me-sn10,subj-agent-i-sn9,cmod-coord-go-1,obj-actor-me-sn8,subj-agent-i-sn7,adj-(mod)-know-nil,def_prop(me,[umano]),def_prop(i,[umano]),def_prop(me,[umano]),def_prop(i,[umano])])
+lf(#polygamy Lyrics.txt_11,77,cl22-nil-nil-parch-[adj-(mod)-know-nil,subj-agent-you-sn2,def_prop(you,[umano])])
+lf(#polygamy Lyrics.txt_11,77,cl21-nil-nil-know-[obj-theme-teamotm-sn6,subj-actor-you-sn3,subj-actor-you-sn1,def_prop(teamotm,[istituzione]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(#polygamy Lyrics.txt_12,90,cl26-nil-nil-play-[obj-goal-card-sn6,subj-agent-you-sn5,def_prop(card,[attivita,informa,oggetto,sostanza,strumento]),def_prop(you,[umano])])
+lf(#polygamy Lyrics.txt_12,90,cl25-nil-can-be-[xcomp-prop-queen-sn2,subj-theme_bound-you-sn1,def_prop(queen,[animato,oggetto,plant,strumento,umano]),def_prop(you,[umano])])
+lf(#polygamy Lyrics.txt_13,104,cl31-nil-nil-be-[ncmod-subj_disc-diamond-sn2,def_prop(diamond,[astratto,oggetto,sostanza,strumento])])
+lf(#polygamy Lyrics.txt_13,104,cl30-nil-nil-sort-[xcomp-prop-Ruffin-sn8,ncmod-specif-i-sn7,obj-theme-temptation-sn6,obj-theme_aff-all-sn5,subj-theme-muffin-sn4,subj-theme-muffin-sn3,aux-(is)-nil,and(muffin,queen,sn3),def_prop(Ruffin,[place,umano]),def_prop(i,[umano]),def_prop(temptation,[astratto,emotivo]),def_prop(all,[_521554]),def_prop(muffin,[edible,oggetto]),def_prop(muffin,[edible,oggetto])])
+lf(#polygamy Lyrics.txt_13,104,cl29-nil-nil-take-[adj-(mod)-over-nil,adj-(mod)-back-nil,obj-goal-thing-sn18,xcomp-purpose-hang-3,obj2-goal-subject-sn17,subj-agent-mullet-sn16,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(subject,[attivita,informa,oggetto,strumento,umano]),def_prop(mullet,[animato,edible,oggetto])])
+lf(#polygamy Lyrics.txt_13,104,cl28-nil-nil-hang-[cmod-subord-be-but,adj-(mod)-take-nil])
+lf(#polygamy Lyrics.txt_13,104,cl27-nil-nil-talk-[subj-actor-i-sn1,aux-am-nil,progr-talking-nil,def_prop(i,[umano])])
+lf(#polygamy Lyrics.txt_14,122,cl35-nil-nil-fake-[ncmod-locativo-dummy-sn10,def_prop(dummy,[oggetto,strumento,umano])])
+lf(#polygamy Lyrics.txt_14,122,cl34-nil-nil-go-[ncmod-locativo-pocket-sn7,subj-agent-pro-nil,def_prop(pocket,[astratto,oggetto,strumento])])
+lf(#polygamy Lyrics.txt_14,122,cl33-nil-nil-whack-[cmod-subord-go-cl34,subj-agent-man-sn3,cmod-subord-go-1,subj-agent-man-sn2,def_prop(man,[any]),def_prop(man,[any])])
+lf(#polygamy Lyrics.txt_14,122,cl32-nil-nil-see-[subj-experiencer-you-sn1,def_prop(you,[umano])])

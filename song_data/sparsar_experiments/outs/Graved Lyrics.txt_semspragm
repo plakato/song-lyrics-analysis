@@ -1,0 +1,62 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Graved Lyrics.txt_1-1  []-negative  []
+Graved Lyrics.txt_2-3  []-negative  [neg,fhd]
+Graved Lyrics.txt_3-7  []-negative  [neg]
+Graved Lyrics.txt_4-11  []-positive  []
+Graved Lyrics.txt_4-12  []-positive  []
+Graved Lyrics.txt_5-16  [so-result]-negative  [fgb,neg]
+Graved Lyrics.txt_6-22  []-negative  [neg,fhd]
+Graved Lyrics.txt_7-30  []-negative  [neg]
+Graved Lyrics.txt_8-38  []-positive  []
+Graved Lyrics.txt_8-39  []-positive  []
+Graved Lyrics.txt_9-47  [so-result]-negative  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Graved Lyrics.txt_1-1  [graved,Lyrics,by,Wray]  [title]
+Graved Lyrics.txt_2-3  [don-t,stop,i,like,the,way,you,act]  [reject_expl_just(stop,[external,factive,narration,foreground,objective]),reject_expl_just(act,[external,factive,explanation,background,objective]),propose_opin_neg(act,[external,factive,explanation,background,objective])]
+Graved Lyrics.txt_3-7  [probably,you,will,not,see,me,again]  [reject_expl_just(see,[external,nonfactive,narration,background,objective])]
+Graved Lyrics.txt_4-11  [that,is,the,way,things,just]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Graved Lyrics.txt_4-12  [are]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Graved Lyrics.txt_5-16  [so,don-t,stop]  [reject_expl_just(stop,[external,factive,narration,foreground,objective])]
+Graved Lyrics.txt_6-22  [don-t,stop,i,like,the,way,you,act]  [reject_expl_just(stop,[external,factive,narration,foreground,objective]),reject_expl_just(act,[external,factive,narration,background,objective])]
+Graved Lyrics.txt_7-30  [probably,you,will,not,see,me,again]  [reject_expl_just(see,[external,nonfactive,narration,background,objective])]
+Graved Lyrics.txt_8-38  [that,is,the,way,things,just]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Graved Lyrics.txt_8-39  [are]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Graved Lyrics.txt_9-47  [so,don-t,stop]  [reject_expl_just(stop,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Graved Lyrics.txt_1-1)-[]
+2-(Graved Lyrics.txt_2-3)-[secondary-restraint,emotions-affection]
+3-(Graved Lyrics.txt_3-7)-[secondary-abstract_tought,primary-vision,secondary-temporal_repere]
+4-(Graved Lyrics.txt_4-11)-[]
+5-(Graved Lyrics.txt_4-12)-[]
+half
+6-(Graved Lyrics.txt_5-16)-[secondary-restraint]
+7-(Graved Lyrics.txt_6-22)-[secondary-restraint,emotions-affection]
+8-(Graved Lyrics.txt_7-30)-[secondary-abstract_tought,primary-vision,secondary-temporal_repere]
+9-(Graved Lyrics.txt_8-38)-[]
+10-(Graved Lyrics.txt_8-39)-[]
+11-(Graved Lyrics.txt_9-47)-[secondary-restraint]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Graved Lyrics.txt_1,1,cl1-nil-nil-grave-[arg_mod-agent-Wray-sn2,subj-actor-Lyrics-sn1,def_prop(Wray,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Graved Lyrics.txt_2,3,cl3-nil-nil-act-[subj-actor-pro-nil,subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Graved Lyrics.txt_2,3,cl2-not-nil-stop-[obj-actor-way-sn3,subj-agent-i-sn2,subj-agent-i-sn1,aux-do-nil,and(i,you,sn1),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Graved Lyrics.txt_3,7,cl4-not-will-see-[obj-actor-me-sn2,subj-experiencer-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Graved Lyrics.txt_4,11,cl5-nil-nil-be-[subj-theme_bound-pro-nil,adj-(mod)-just-nil,xcomp-prop-thing-sn1,and(thing,way,sn1),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Graved Lyrics.txt_5,16,cl6-not-nil-stop-[subj-agent-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Graved Lyrics.txt_6,22,cl8-nil-nil-act-[subj-actor-pro-nil,subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Graved Lyrics.txt_6,22,cl7-not-nil-stop-[obj-actor-way-sn3,subj-agent-i-sn2,subj-agent-i-sn1,aux-do-nil,and(i,you,sn1),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Graved Lyrics.txt_7,30,cl9-not-will-see-[obj-actor-me-sn2,subj-experiencer-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Graved Lyrics.txt_8,38,cl10-nil-nil-be-[subj-theme_bound-pro-nil,adj-(mod)-just-nil,xcomp-prop-thing-sn1,and(thing,way,sn1),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento])])
+lf(Graved Lyrics.txt_9,47,cl11-not-nil-stop-[subj-agent-you-sn1,aux-do-nil,def_prop(you,[umano])])

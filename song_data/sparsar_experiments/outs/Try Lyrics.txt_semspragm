@@ -1,0 +1,320 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Try Lyrics.txt_1-1  []-positive  []
+Try Lyrics.txt_2-3  []-positive  [bkc,bkc]
+Try Lyrics.txt_3-6  []-question  [fgb]
+Try Lyrics.txt_4-10  []-positive  []
+Try Lyrics.txt_5-16  []-positive  []
+Try Lyrics.txt_5-17  []-positive  []
+Try Lyrics.txt_6-23  []-negative  [neg]
+Try Lyrics.txt_7-30  []-positive  []
+Try Lyrics.txt_8-38  []-positive  []
+Try Lyrics.txt_9-48  []-positive  []
+Try Lyrics.txt_10-58  []-negative  [neg]
+Try Lyrics.txt_11-69  [because-cause,but-advers]-positive  [fgb]
+Try Lyrics.txt_12-81  []-suspension  [neg,neg]
+Try Lyrics.txt_13-96  []-positive  []
+Try Lyrics.txt_13-97  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_13-97  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_14-112  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_15-129  []-positive  []
+Try Lyrics.txt_15-130  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_15-130  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_16-147  []-positive  []
+Try Lyrics.txt_17-164  []-positive  [neg]
+Try Lyrics.txt_18-182  []-positive  []
+Try Lyrics.txt_19-201  []-question  [neg]
+Try Lyrics.txt_19-202  [so-result]-positive  [fgb]
+Try Lyrics.txt_20-222  [when-temp_coinc]-negative  [neg]
+Try Lyrics.txt_21-243  []-positive  []
+Try Lyrics.txt_22-265  []-positive  []
+Try Lyrics.txt_23-289  []-positive  []
+Try Lyrics.txt_24-313  []-negative  [neg]
+Try Lyrics.txt_25-338  [because-cause,but-advers]-positive  [fgb]
+Try Lyrics.txt_26-364  []-suspension  [neg,neg]
+Try Lyrics.txt_27-393  []-positive  []
+Try Lyrics.txt_27-394  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_27-394  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_28-423  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_29-454  []-positive  []
+Try Lyrics.txt_29-455  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_29-455  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_30-486  []-negative  [neg]
+Try Lyrics.txt_30-487  []-suspension  [neg]
+Try Lyrics.txt_31-519  []-question  []
+Try Lyrics.txt_31-520  []-positive  [fgb]
+Try Lyrics.txt_31-520  []-positive  [fgb,neg]
+Try Lyrics.txt_32-552  [when-temp_coinc]-positive  [fgb]
+Try Lyrics.txt_33-586  []-question  []
+Try Lyrics.txt_34-620  []-question  []
+Try Lyrics.txt_35-655  []-positive  []
+Try Lyrics.txt_36-691  []-positive  []
+Try Lyrics.txt_37-729  []-positive  []
+Try Lyrics.txt_38-767  []-negative  [neg]
+Try Lyrics.txt_39-806  [because-cause,but-advers]-positive  [fgb]
+Try Lyrics.txt_40-846  []-suspension  [neg,neg]
+Try Lyrics.txt_41-889  []-positive  []
+Try Lyrics.txt_41-890  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_41-890  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_42-933  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_43-978  []-positive  []
+Try Lyrics.txt_43-979  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_43-979  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_44-1024  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_45-1071  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_46-1119  []-positive  []
+Try Lyrics.txt_46-1120  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_46-1120  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_47-1168  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_48-1218  []-positive  []
+Try Lyrics.txt_48-1219  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_48-1219  []-positive  [fgb,fgb,fgb]
+Try Lyrics.txt_49-1269  []-positive  [fgb,fgb,fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Try Lyrics.txt_1-1  [try,Lyrics,by,Tyler,ward]  [title]
+Try Lyrics.txt_2-3  [oh,oh]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Try Lyrics.txt_3-6  [doing,is,he,what,about,wonder,ever,?]  [provide_expl_just(wonder,[internal,factive,narration,foreground,objective])]
+Try Lyrics.txt_4-10  [all,it,?,how,turned,to,lies]  [provide_expl_just(lie,[internal,factive,narration,foreground,objective])]
+Try Lyrics.txt_5-16  [sometimes,i,think]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Try Lyrics.txt_5-17  [that,it,is,better]  [provide_expl_just(think,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Try Lyrics.txt_6-23  [to,never,ask]  [reject_expl_just(ask,[external,factive,narration,background,objective])]
+Try Lyrics.txt_7-30  [whywhere,there,is,desire]  [provide_expl_just(desire-cl9,[external,factive,narration,background,objective])]
+Try Lyrics.txt_8-38  [there,is,gonna,be,a,flame]  [provide_expl_just(there_be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Try Lyrics.txt_9-48  [where,there,is,a,flame]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Try Lyrics.txt_10-58  [someone-s,bound,to,get,burned]  [reject_expl_just(get,[external,factive,narration,background,objective])]
+Try Lyrics.txt_11-69  [but,just,because,it,burns]  [provide_expl_just(burn,[external,factive,narration,background,objective])]
+Try Lyrics.txt_12-81  [doesn-t,mean,you,are,gonna,die]  [provide_expl_just(mean,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(die,[external,factive,narration,background,objective])]
+Try Lyrics.txt_13-96  [you,have,gotta,get,up]  [provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_13-97  [and,try,and,try,,,and,try]  [provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_13-97  [and,try,and,try,,,and,try]  [provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_14-112  [gotta,get,up,and,try,and,try,,,and,try]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_15-129  [you,gotta,get,up]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_15-130  [and,try,and,try,,,and,try]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_15-130  [and,try,and,try,,,and,try]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_16-147  [eh,eh,eh]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Try Lyrics.txt_17-164  [funny,how,the,heart,can,be,deceiving]  [provide_expl_just(deceive,[external,nonfactive,narration,foreground,objective])]
+Try Lyrics.txt_18-182  [more_than,just,a,couple,times]  [provide_expl_just(time,[external,factive,narration,background,objective])]
+Try Lyrics.txt_19-201  [fall,do,why,?]  [provide_expl_just(fall,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Try Lyrics.txt_19-202  [we,in,love,so,easy]  [provide_expl_just(fall,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Try Lyrics.txt_20-222  [even,when,it,is,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Try Lyrics.txt_21-243  [where,there,is,desire]  [provide_expl_just(desire,[external,factive,narration,background,objective])]
+Try Lyrics.txt_22-265  [there,is,gonna,be,a,flame]  [provide_expl_just(there_be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Try Lyrics.txt_23-289  [where,there,is,a,flame]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Try Lyrics.txt_24-313  [someone-s,bound,to,get,burned]  [reject_expl_just(get,[external,factive,narration,background,objective])]
+Try Lyrics.txt_25-338  [but,just,because,it,burns]  [provide_expl_just(burn,[external,factive,narration,background,objective])]
+Try Lyrics.txt_26-364  [doesn-t,mean,you,are,gonna,die]  [provide_expl_just(mean,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(die,[external,factive,narration,background,objective])]
+Try Lyrics.txt_27-393  [you,have,gotta,get,up]  [provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_27-394  [and,try,and,try,,,and,try]  [provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_27-394  [and,try,and,try,,,and,try]  [provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_28-423  [gotta,get,up,and,try,and,try,,,and,try]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_29-454  [you,gotta,get,up]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_29-455  [and,try,and,try,,,and,try]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_29-455  [and,try,and,try,,,and,try]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_30-486  [ever,worry]  [reject_expl_just(might,[external,nonfactive,narration,foreground,objective]),reject_expl_just(worry,[external,factive,narration,background,objective])]
+Try Lyrics.txt_30-487  [that,it,might,be,ruined]  [propose_opin(might,[external,nonfactive,narration,foreground,objective]),provide_expl_just(might,[external,nonfactive,narration,foreground,objective]),provide_expl_just(worry,[external,factive,narration,background,objective])]
+Try Lyrics.txt_31-519  [?]  [provide_expl_just(make,[internal,factive,circumstance,background,objective])]
+Try Lyrics.txt_31-520  [and,it,does,make]  [provide_expl_just(make,[internal,factive,circumstance,background,objective])]
+Try Lyrics.txt_31-520  [and,it,does,make,you,wanna,cry]  [propose_opin_neg(make,[internal,factive,circumstance,background,objective])]
+Try Lyrics.txt_32-552  [when,you,are,out_there,doing,what,you,are,doing]  [provide_expl_just(do,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Try Lyrics.txt_33-586  [by,getting,just,you,are,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Try Lyrics.txt_34-620  [by,,,by,,,by,getting,just,you,me,are,tell,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Try Lyrics.txt_35-655  [where,there,is,desire]  [provide_expl_just(desire,[external,factive,narration,background,objective])]
+Try Lyrics.txt_36-691  [there,is,gonna,be,a,flame]  [provide_expl_just(there_be,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Try Lyrics.txt_37-729  [where,there,is,a,flame]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Try Lyrics.txt_38-767  [someone-s,bound,to,get,burned]  [reject_expl_just(get,[external,factive,narration,background,objective])]
+Try Lyrics.txt_39-806  [but,just,because,it,burns]  [provide_expl_just(burn,[external,factive,narration,background,objective])]
+Try Lyrics.txt_40-846  [doesn-t,mean,you,are,gonna,die]  [provide_expl_just(mean,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(die,[external,factive,narration,background,objective])]
+Try Lyrics.txt_41-889  [you,have,gotta,get,up]  [provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_41-890  [and,try,and,try,,,and,try]  [provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_41-890  [and,try,and,try,,,and,try]  [provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_42-933  [gotta,get,up,and,try,and,try,,,and,try]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_43-978  [you,gotta,get,up]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_43-979  [and,try,and,try,,,and,try]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_43-979  [and,try,and,try,,,and,try]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_44-1024  [gotta,get,up,and,try,and,try,,,and,try]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_45-1071  [gotta,get,up,and,try,and,try,,,and,try]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_46-1119  [you,gotta,get,up]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_46-1120  [and,try,and,try,,,and,try]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_46-1120  [and,try,and,try,,,and,try]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_47-1168  [gotta,get,up,and,try,and,try,,,and,try]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_48-1218  [you,gotta,get,up]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_48-1219  [and,try,and,try,,,and,try]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_48-1219  [and,try,and,try,,,and,try]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+Try Lyrics.txt_49-1269  [gotta,get,up,and,try,and,try,,,and,try]  [provide_expl_just(gotta,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Try Lyrics.txt_1-1)-[secondary-instru_behavior,emotions-aggression]
+2-(Try Lyrics.txt_2-3)-[]
+3-(Try Lyrics.txt_3-6)-[emotions-glory,secondary-temporal_repere]
+4-(Try Lyrics.txt_4-10)-[primary-passivity]
+5-(Try Lyrics.txt_5-16)-[secondary-temporal_repere,secondary-abstract_tought]
+6-(Try Lyrics.txt_5-17)-[]
+7-(Try Lyrics.txt_6-23)-[secondary-social_behavior]
+8-(Try Lyrics.txt_7-30)-[]
+9-(Try Lyrics.txt_8-38)-[primary-fire]
+10-(Try Lyrics.txt_9-48)-[primary-concreteness,primary-fire]
+11-(Try Lyrics.txt_10-58)-[secondary-restraint,primary-fire]
+12-(Try Lyrics.txt_11-69)-[primary-fire]
+13-(Try Lyrics.txt_12-81)-[primary-passivity]
+14-(Try Lyrics.txt_13-96)-[]
+15-(Try Lyrics.txt_13-97)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+16-(Try Lyrics.txt_13-97)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+17-(Try Lyrics.txt_14-112)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+18-(Try Lyrics.txt_15-129)-[]
+19-(Try Lyrics.txt_15-130)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+20-(Try Lyrics.txt_15-130)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+21-(Try Lyrics.txt_16-147)-[]
+22-(Try Lyrics.txt_17-164)-[emotions-positive_affect,primary-narcissism]
+23-(Try Lyrics.txt_18-182)-[secondary-temporal_repere]
+24-(Try Lyrics.txt_19-201)-[primary-descent,secondary-abstract_tought]
+25-(Try Lyrics.txt_19-202)-[emotions-affection]
+26-(Try Lyrics.txt_20-222)-[secondary-temporal_repere]
+27-(Try Lyrics.txt_21-243)-[primary-concreteness]
+28-(Try Lyrics.txt_22-265)-[primary-fire]
+29-(Try Lyrics.txt_23-289)-[primary-concreteness,primary-fire]
+30-(Try Lyrics.txt_24-313)-[secondary-restraint,primary-fire]
+31-(Try Lyrics.txt_25-338)-[primary-fire]
+32-(Try Lyrics.txt_26-364)-[primary-passivity]
+33-(Try Lyrics.txt_27-393)-[]
+34-(Try Lyrics.txt_27-394)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+35-(Try Lyrics.txt_27-394)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+half
+36-(Try Lyrics.txt_28-423)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+37-(Try Lyrics.txt_29-454)-[]
+38-(Try Lyrics.txt_29-455)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+39-(Try Lyrics.txt_29-455)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+40-(Try Lyrics.txt_30-486)-[secondary-temporal_repere,emotions-anxiety]
+41-(Try Lyrics.txt_30-487)-[primary-chaos]
+42-(Try Lyrics.txt_31-519)-[]
+43-(Try Lyrics.txt_31-520)-[secondary-instru_behavior]
+44-(Try Lyrics.txt_31-520)-[secondary-instru_behavior,emotions-expressive_beh]
+45-(Try Lyrics.txt_32-552)-[secondary-temporal_repere]
+46-(Try Lyrics.txt_33-586)-[]
+47-(Try Lyrics.txt_34-620)-[secondary-social_behavior]
+48-(Try Lyrics.txt_35-655)-[primary-concreteness]
+49-(Try Lyrics.txt_36-691)-[primary-fire]
+50-(Try Lyrics.txt_37-729)-[primary-concreteness,primary-fire]
+51-(Try Lyrics.txt_38-767)-[secondary-restraint,primary-fire]
+52-(Try Lyrics.txt_39-806)-[primary-fire]
+53-(Try Lyrics.txt_40-846)-[primary-passivity]
+54-(Try Lyrics.txt_41-889)-[]
+55-(Try Lyrics.txt_41-890)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+56-(Try Lyrics.txt_41-890)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+57-(Try Lyrics.txt_42-933)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+58-(Try Lyrics.txt_43-978)-[]
+59-(Try Lyrics.txt_43-979)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+60-(Try Lyrics.txt_43-979)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+61-(Try Lyrics.txt_44-1024)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+62-(Try Lyrics.txt_45-1071)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+63-(Try Lyrics.txt_46-1119)-[]
+64-(Try Lyrics.txt_46-1120)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+65-(Try Lyrics.txt_46-1120)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+66-(Try Lyrics.txt_47-1168)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+67-(Try Lyrics.txt_48-1218)-[]
+68-(Try Lyrics.txt_48-1219)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+69-(Try Lyrics.txt_48-1219)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+70-(Try Lyrics.txt_49-1269)-[secondary-instru_behavior,secondary-instru_behavior,secondary-instru_behavior]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Try Lyrics.txt_1,1,cl1-nil-nil-war-[arg_mod-agent-Tyler-sn2,subj-actor-Lyrics-sn1,and(Lyrics,try,sn1),def_prop(Tyler,[place,luogo,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Try Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-oh-sn1,and(oh,oh,sn1),def_prop(oh,[informa,tecno])])
+lf(Try Lyrics.txt_3,6,cl3-nil-nil-wonder-[subj-agent-he-sn2,subj-agent-you-sn1,def_prop(he,[umano]),def_prop(you,[umano])])
+lf(Try Lyrics.txt_4,10,cl5-nil-nil-lie-[adj-(mod)-turn-nil])
+lf(Try Lyrics.txt_4,10,cl4-nil-nil-turn-[subj-agent-it-sn1,and(it,all,sn1),def_prop(it,[any])])
+lf(Try Lyrics.txt_5,16,cl7-nil-nil-be-[xcomp-prop-better-sn5,subj-theme_bound-it-sn4,def_prop(better,[valutativo]),def_prop(it,[any])])
+lf(Try Lyrics.txt_5,16,cl6-nil-nil-think-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Try Lyrics.txt_6,23,cl8-nil-nil-ask-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_7,30,cl9-nil-nil-desire-[subj-theme-there-sn2,subj-theme-there-sn1,aux-(is)-nil,and(there,whywhere,sn1),def_prop(there,[istituzione]),def_prop(there,[istituzione])])
+lf(Try Lyrics.txt_8,38,cl10-nil-nil-be-[])
+lf(Try Lyrics.txt_9,48,cl11-nil-nil-be-[xcomp-prop-flame-sn3,obl-modal-where-sn2,subj-theme_bound-there-sn1,def_prop(flame,[attivita]),def_prop(where,[luogo]),def_prop(there,[any])])
+lf(Try Lyrics.txt_10,58,cl12-nil-nil-get-[subj-agent-bind-sn1,and(bind,someone-s,sn1),def_prop(bind,[astratto])])
+lf(Try Lyrics.txt_11,69,nil-nil-nil-burn-[subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Try Lyrics.txt_12,81,cl15-nil-nil-die-[])
+lf(Try Lyrics.txt_12,81,cl14-nil-nil-be-[])
+lf(Try Lyrics.txt_12,81,cl13-not-nil-mean-[subj-theme_bound-you-sn1,aux-does-nil,def_prop(you,[umano])])
+lf(Try Lyrics.txt_13,96,cl18-nil-nil-try-[cmod-coord-try-and,subj-actor-pro-nil,subj-actor-you-sn5,subj-actor-you-sn4,subj-actor-you-sn3,def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Try Lyrics.txt_13,96,cl17-nil-nil-get-[subj-paziente-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_13,96,cl16-nil-nil-have-[adj-(mod)-up-nil,subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_14,112,cl20-nil-nil-try-[cmod-coord-gotta-and,subj-actor-pro-nil])
+lf(Try Lyrics.txt_14,112,cl19-nil-nil-get-[])
+lf(Try Lyrics.txt_14,112,nil-nil-nil-gotta-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_15,129,cl22-nil-nil-try-[cmod-coord-try-and,subj-actor-pro-nil,subj-actor-you-sn5,cmod-coord-gotta-and,subj-actor-you-sn4,subj-actor-you-sn3,def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Try Lyrics.txt_15,129,cl21-nil-nil-get-[subj-paziente-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_15,129,nil-nil-nil-gotta-[adj-(mod)-try-nil,adj-(mod)-up-nil,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_16,147,cl23-nil-nil-be-[ncmod-modal-eh-sn2,subj-theme_bound-you-sn1,def_prop(eh,[istituzione]),def_prop(you,[umano])])
+lf(Try Lyrics.txt_17,164,cl24-nil-can-deceive-[obj-theme-how-sn2,subj-agent-hear-sn1,aux-be-nil,progr-deceiving-nil,def_prop(how,[manner]),def_prop(hear,[istituzione])])
+lf(Try Lyrics.txt_18,182,cl25-nil-nil-time-[subj-agent-couple-sn1,def_prop(couple,[nquant,oggetto])])
+lf(Try Lyrics.txt_19,201,cl27-nil-nil-be-[xcomp-theme-easy-sn4,ncmod-locativo-love-sn3,subj-theme_bound-we-sn2,def_prop(easy,[soggettivo]),def_prop(love,[astratto,emotivo,nquant]),def_prop(we,[umano])])
+lf(Try Lyrics.txt_19,201,cl26-nil-nil-fall-[subj-agent-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Try Lyrics.txt_20,222,cl28-nil-nil-be-[cmod-subord-be-when,subj-theme_bound-it-sn2,def_prop(it,[any])])
+lf(Try Lyrics.txt_21,243,cl29-nil-nil-desire-[obl-modal-[]-[],subj-theme-there-sn1,aux-(is)-nil,def_prop([],[]),def_prop(there,[any])])
+lf(Try Lyrics.txt_22,265,cl30-nil-nil-be-[])
+lf(Try Lyrics.txt_23,289,cl31-nil-nil-be-[xcomp-prop-flame-sn3,obl-modal-where-sn2,subj-theme_bound-there-sn1,def_prop(flame,[attivita]),def_prop(where,[luogo]),def_prop(there,[any])])
+lf(Try Lyrics.txt_24,313,cl32-nil-nil-get-[subj-agent-bind-sn1,and(bind,someone-s,sn1),def_prop(bind,[astratto])])
+lf(Try Lyrics.txt_25,338,nil-nil-nil-burn-[subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Try Lyrics.txt_26,364,cl35-nil-nil-die-[])
+lf(Try Lyrics.txt_26,364,cl34-nil-nil-be-[])
+lf(Try Lyrics.txt_26,364,cl33-not-nil-mean-[subj-theme_bound-you-sn1,aux-does-nil,def_prop(you,[umano])])
+lf(Try Lyrics.txt_27,393,cl38-nil-nil-try-[cmod-coord-try-and,subj-actor-pro-nil,subj-actor-you-sn5,subj-actor-you-sn4,subj-actor-you-sn3,def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Try Lyrics.txt_27,393,cl37-nil-nil-get-[subj-paziente-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_27,393,cl36-nil-nil-have-[adj-(mod)-up-nil,subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_28,423,cl40-nil-nil-try-[cmod-coord-gotta-and,subj-actor-pro-nil])
+lf(Try Lyrics.txt_28,423,cl39-nil-nil-get-[])
+lf(Try Lyrics.txt_28,423,nil-nil-nil-gotta-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_29,454,cl42-nil-nil-try-[cmod-coord-try-and,subj-actor-pro-nil,subj-actor-you-sn5,cmod-coord-gotta-and,subj-actor-you-sn4,subj-actor-you-sn3,def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Try Lyrics.txt_29,454,cl41-nil-nil-get-[subj-paziente-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_29,454,nil-nil-nil-gotta-[adj-(mod)-try-nil,adj-(mod)-up-nil,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_30,486,cl45-nil-nil-ruin-[subj-tema_nonaff-it-sn2,def_prop(it,[any])])
+lf(Try Lyrics.txt_30,486,cl44-nil-might-might-[subj-theme_unaff-it-sn2,def_prop(it,[any])])
+lf(Try Lyrics.txt_30,486,cl43-nil-nil-worry-[subj-causer_emot-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_31,519,nil-nil-nil-wanna-[cmod-coord-be-and,obj-theme-cry-sn5,obj-theme_aff-you-sn4,subj-agent-it-sn3,def_prop(cry,[attivita,evento,informa]),def_prop(you,[umano]),def_prop(it,[any])])
+lf(Try Lyrics.txt_31,519,cl46-nil-nil-make-[aux-does-nil,subj-agent-it-sn1,def_prop(it,[any])])
+lf(Try Lyrics.txt_32,552,cl48-nil-nil-do-[xcomp-actor-what-sn4,xcomp-purpose-do-2,aux-are-nil,progr-doing-nil,def_prop(what,[oggetto])])
+lf(Try Lyrics.txt_32,552,cl47-nil-nil-be-[xcomp-prop-out_there-sn3,adj-sn1-when-sn2,subj-theme_bound-you-sn1,def_prop(out_there,[attivita,luogo]),def_prop(when,[tempo]),def_prop(you,[umano])])
+lf(Try Lyrics.txt_33,586,cl49-nil-nil-be-[xcomp-prop-just-sn2,subj-theme_bound-you-sn1,def_prop(just,[informa,tecno]),def_prop(you,[umano])])
+lf(Try Lyrics.txt_34,620,cl50-nil-nil-be-[xcomp-prop-just-sn3,subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,and(you,me,sn1),def_prop(just,[informa,tecno]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Try Lyrics.txt_35,655,cl51-nil-nil-desire-[obl-modal-[]-[],subj-theme-there-sn1,aux-(is)-nil,def_prop([],[]),def_prop(there,[any])])
+lf(Try Lyrics.txt_36,691,cl52-nil-nil-be-[])
+lf(Try Lyrics.txt_37,729,cl53-nil-nil-be-[xcomp-prop-flame-sn3,obl-modal-where-sn2,subj-theme_bound-there-sn1,def_prop(flame,[attivita]),def_prop(where,[luogo]),def_prop(there,[any])])
+lf(Try Lyrics.txt_38,767,cl54-nil-nil-get-[subj-agent-bind-sn1,and(bind,someone-s,sn1),def_prop(bind,[astratto])])
+lf(Try Lyrics.txt_39,806,nil-nil-nil-burn-[subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Try Lyrics.txt_40,846,cl57-nil-nil-die-[])
+lf(Try Lyrics.txt_40,846,cl56-nil-nil-be-[])
+lf(Try Lyrics.txt_40,846,cl55-not-nil-mean-[subj-theme_bound-you-sn1,aux-does-nil,def_prop(you,[umano])])
+lf(Try Lyrics.txt_41,889,cl60-nil-nil-try-[cmod-coord-try-and,subj-actor-pro-nil,subj-actor-you-sn5,subj-actor-you-sn4,subj-actor-you-sn3,def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Try Lyrics.txt_41,889,cl59-nil-nil-get-[subj-paziente-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_41,889,cl58-nil-nil-have-[adj-(mod)-up-nil,subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_42,933,cl62-nil-nil-try-[cmod-coord-gotta-and,subj-actor-pro-nil])
+lf(Try Lyrics.txt_42,933,cl61-nil-nil-get-[])
+lf(Try Lyrics.txt_42,933,nil-nil-nil-gotta-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_43,978,cl64-nil-nil-try-[cmod-coord-try-and,subj-actor-pro-nil,subj-actor-you-sn5,cmod-coord-gotta-and,subj-actor-you-sn4,subj-actor-you-sn3,def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Try Lyrics.txt_43,978,cl63-nil-nil-get-[subj-paziente-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_43,978,nil-nil-nil-gotta-[adj-(mod)-try-nil,adj-(mod)-up-nil,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_44,1024,cl66-nil-nil-try-[cmod-coord-gotta-and,subj-actor-pro-nil])
+lf(Try Lyrics.txt_44,1024,cl65-nil-nil-get-[])
+lf(Try Lyrics.txt_44,1024,nil-nil-nil-gotta-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_45,1071,cl68-nil-nil-try-[cmod-coord-gotta-and,subj-actor-pro-nil])
+lf(Try Lyrics.txt_45,1071,cl67-nil-nil-get-[])
+lf(Try Lyrics.txt_45,1071,nil-nil-nil-gotta-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_46,1119,cl70-nil-nil-try-[cmod-coord-try-and,subj-actor-pro-nil,subj-actor-you-sn5,cmod-coord-gotta-and,subj-actor-you-sn4,subj-actor-you-sn3,def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Try Lyrics.txt_46,1119,cl69-nil-nil-get-[subj-paziente-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_46,1119,nil-nil-nil-gotta-[adj-(mod)-try-nil,adj-(mod)-up-nil,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_47,1168,cl72-nil-nil-try-[cmod-coord-gotta-and,subj-actor-pro-nil])
+lf(Try Lyrics.txt_47,1168,cl71-nil-nil-get-[])
+lf(Try Lyrics.txt_47,1168,nil-nil-nil-gotta-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_48,1218,cl74-nil-nil-try-[cmod-coord-try-and,subj-actor-pro-nil,subj-actor-you-sn5,cmod-coord-gotta-and,subj-actor-you-sn4,subj-actor-you-sn3,def_prop(you,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Try Lyrics.txt_48,1218,cl73-nil-nil-get-[subj-paziente-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_48,1218,nil-nil-nil-gotta-[adj-(mod)-try-nil,adj-(mod)-up-nil,subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Try Lyrics.txt_49,1269,cl76-nil-nil-try-[cmod-coord-gotta-and,subj-actor-pro-nil])
+lf(Try Lyrics.txt_49,1269,cl75-nil-nil-get-[])
+lf(Try Lyrics.txt_49,1269,nil-nil-nil-gotta-[subj-agent-you-sn1,def_prop(you,[umano])])

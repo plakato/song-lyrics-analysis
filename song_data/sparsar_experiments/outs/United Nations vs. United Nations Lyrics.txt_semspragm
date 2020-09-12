@@ -1,0 +1,92 @@
+"POLARITY, DISCOURSE MARKERS"
+
+United Nations vs. United Nations Lyrics.txt_1-1  []-negative  [neg]
+United Nations vs. United Nations Lyrics.txt_2-3  []-positive  []
+United Nations vs. United Nations Lyrics.txt_3-6  []-positive  []
+United Nations vs. United Nations Lyrics.txt_4-10  []-question  []
+United Nations vs. United Nations Lyrics.txt_5-16  []-negative  []
+United Nations vs. United Nations Lyrics.txt_6-22  []-negative  [neg]
+United Nations vs. United Nations Lyrics.txt_7-29  []-negative  []
+United Nations vs. United Nations Lyrics.txt_8-37  []-positive  [fgb]
+United Nations vs. United Nations Lyrics.txt_9-47  []-negative  [neg]
+United Nations vs. United Nations Lyrics.txt_10-57  []-positive  []
+United Nations vs. United Nations Lyrics.txt_11-68  []-negative  [neg]
+United Nations vs. United Nations Lyrics.txt_12-80  []-positive  []
+United Nations vs. United Nations Lyrics.txt_13-93  []-negative  [neg]
+United Nations vs. United Nations Lyrics.txt_14-107  []-negative  [neg]
+United Nations vs. United Nations Lyrics.txt_15-122  []-positive  []
+United Nations vs. United Nations Lyrics.txt_16-138  []-positive  []
+United Nations vs. United Nations Lyrics.txt_17-155  []-negative  []
+United Nations vs. United Nations Lyrics.txt_18-173  []-suspension  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+United Nations vs. United Nations Lyrics.txt_1-1  [united,Nations,vs]  [title]
+United Nations vs. United Nations Lyrics.txt_2-3  [United,Nations,Lyrics,by,United,Nations]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+United Nations vs. United Nations Lyrics.txt_3-6  [assailants,one,through,five]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+United Nations vs. United Nations Lyrics.txt_4-10  [listening,you,are,?]  [provide_expl_just(listen,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+United Nations vs. United Nations Lyrics.txt_5-16  [everything,everyone,is,twisting]  [provide_expl_just(twist,[external,factive,narration,foreground,objective])]
+United Nations vs. United Nations Lyrics.txt_6-22  [in,the,path,of,the,storm]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+United Nations vs. United Nations Lyrics.txt_7-29  [damaged,supermarks,on,the,table]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+United Nations vs. United Nations Lyrics.txt_8-37  [were,we,willing,and,able]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+United Nations vs. United Nations Lyrics.txt_9-47  [with,intention,to,harm,the,UN]  [reject_expl_just(harm,[external,factive,narration,background,objective])]
+United Nations vs. United Nations Lyrics.txt_10-57  [pattern]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+United Nations vs. United Nations Lyrics.txt_11-68  [sell,our,plans,to,the,city]  [reject_expl_just(sell,[external,factive,narration,background,objective])]
+United Nations vs. United Nations Lyrics.txt_12-80  [motion,motion]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+United Nations vs. United Nations Lyrics.txt_13-93  [sell,our,guns,to,the,river]  [reject_expl_just(sell,[external,factive,narration,background,objective])]
+United Nations vs. United Nations Lyrics.txt_14-107  [drown,ourselves,in,the,sea]  [reject_expl_just(drown,[external,factive,narration,background,objective])]
+United Nations vs. United Nations Lyrics.txt_15-122  [motion]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+United Nations vs. United Nations Lyrics.txt_16-138  [motion]  [raise_issue(be,[_935630,factive,statement,_935648,subjective])]
+United Nations vs. United Nations Lyrics.txt_17-155  [take,our,guns,to,the,river]  [provide_expl_just(take,[external,factive,narration,background,objective])]
+United Nations vs. United Nations Lyrics.txt_18-173  [drown,our,bombs,in,the,sea]  [provide_expl_just(drown,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(United Nations vs. United Nations Lyrics.txt_1-1)-[]
+2-(United Nations vs. United Nations Lyrics.txt_2-3)-[]
+3-(United Nations vs. United Nations Lyrics.txt_3-6)-[]
+4-(United Nations vs. United Nations Lyrics.txt_4-10)-[]
+5-(United Nations vs. United Nations Lyrics.txt_5-16)-[]
+6-(United Nations vs. United Nations Lyrics.txt_6-22)-[primary-brink]
+7-(United Nations vs. United Nations Lyrics.txt_7-29)-[emotions-aggression]
+8-(United Nations vs. United Nations Lyrics.txt_8-37)-[secondary-social_behavior]
+9-(United Nations vs. United Nations Lyrics.txt_9-47)-[emotions-aggression]
+half
+10-(United Nations vs. United Nations Lyrics.txt_10-57)-[secondary-order]
+11-(United Nations vs. United Nations Lyrics.txt_11-68)-[secondary-instru_behavior,secondary-abstract_tought]
+12-(United Nations vs. United Nations Lyrics.txt_12-80)-[]
+13-(United Nations vs. United Nations Lyrics.txt_13-93)-[secondary-instru_behavior,emotions-aggression,primary-water]
+14-(United Nations vs. United Nations Lyrics.txt_14-107)-[primary-water]
+15-(United Nations vs. United Nations Lyrics.txt_15-122)-[]
+16-(United Nations vs. United Nations Lyrics.txt_16-138)-[]
+17-(United Nations vs. United Nations Lyrics.txt_17-155)-[emotions-aggression,primary-water]
+18-(United Nations vs. United Nations Lyrics.txt_18-173)-[primary-water]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(United Nations vs. United Nations Lyrics.txt_1,1,cl1-nil-nil-be-[ncmod-modal-Nations-sn2,subj-theme_bound-you-sn1,def_prop(Nations,[umano]),def_prop(you,[umano])])
+lf(United Nations vs. United Nations Lyrics.txt_2,3,cl2-nil-nil-be-[arg_mod-agent-Nations-sn2,subj-theme_bound-Lyrics-sn1,and(Nations,United,sn2),and(Lyrics,Nations,sn1),and(Lyrics,United,sn1),def_prop(Nations,[umano]),def_prop(Lyrics,[informa,tecno])])
+lf(United Nations vs. United Nations Lyrics.txt_3,6,cl3-nil-nil-be-[ncmod-modal-five-sn2,subj-theme_bound-assailant-sn1,and(assailant,assailant,sn1),def_prop(five,[nquant]),def_prop(assailant,[relat,sociale,umano])])
+lf(United Nations vs. United Nations Lyrics.txt_4,10,cl5-nil-nil-listen-[adj-(mod)-be-nil,subj-theme-you-sn1,def_prop(you,[umano])])
+lf(United Nations vs. United Nations Lyrics.txt_4,10,cl4-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(United Nations vs. United Nations Lyrics.txt_5,16,cl6-nil-nil-twist-[ncmod-modal-everything-sn2,subj-agent-you-sn1,aux-(is)-nil,progr-twisting-nil,def_prop(everything,[astratto,informa,oggetto]),def_prop(you,[umano])])
+lf(United Nations vs. United Nations Lyrics.txt_6,22,cl7-nil-nil-be-[ncmod-specif-storm-sn2,subj-theme_bound-you-sn1,def_prop(storm,[attivita,cambia,stato]),def_prop(you,[umano])])
+lf(United Nations vs. United Nations Lyrics.txt_7,29,cl8-nil-nil-be-[ncmod-locativo-(table)-sn2,subj-theme_bound-supermarks-sn1,and(supermarks,damaged,sn1),def_prop(table,[istituzione,oggetto,strumento]),def_prop(supermarks,[istituzione])])
+lf(United Nations vs. United Nations Lyrics.txt_8,37,cl10-nil-nil-will-[obj-theme_aff-able-sn2,xcomp-purpose-will-2,def_prop(able,[valutativo])])
+lf(United Nations vs. United Nations Lyrics.txt_8,37,cl9-nil-nil-be-[subj-theme_bound-we-sn1,def_prop(we,[umano])])
+lf(United Nations vs. United Nations Lyrics.txt_9,47,cl11-nil-nil-harm-[iobj-goal-intention-sn2,subj-agent-UN-sn1,def_prop(intention,[astratto,attivita]),def_prop(UN,[istituzione,umano])])
+lf(United Nations vs. United Nations Lyrics.txt_10,57,cl12-nil-nil-say-[obj-theme_unaff-pattern-sn1,def_prop(pattern,[astratto])])
+lf(United Nations vs. United Nations Lyrics.txt_11,68,cl13-nil-nil-sell-[obj2-goal-city-sn3,obj-theme-plan-sn2,subj-agent-you-sn1,def_prop(city,[istituzione,luogo]),def_prop(plan,[astratto,oggetto,strumento]),def_prop(you,[umano])])
+lf(United Nations vs. United Nations Lyrics.txt_12,80,cl14-nil-nil-be-[subj-theme_bound-motion-sn2,subj-theme_bound-motion-sn1,and(motion,you,sn1),def_prop(motion,[attivita,informa,stato]),def_prop(motion,[attivita,informa,stato])])
+lf(United Nations vs. United Nations Lyrics.txt_13,93,cl15-nil-nil-sell-[obj2-goal-river-sn3,obj-theme-gun-sn2,subj-agent-you-sn1,def_prop(river,[oggetto]),def_prop(gun,[attivita,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(United Nations vs. United Nations Lyrics.txt_14,107,cl16-nil-nil-drown-[iobj-goal-sea-sn3,obj-theme-ourselves-sn2,subj-agent-you-sn1,def_prop(sea,[attivita,cambia,oggetto]),def_prop(ourselves,[umano]),def_prop(you,[umano])])
+lf(United Nations vs. United Nations Lyrics.txt_15,122,cl17-nil-nil-say-[obj-theme_unaff-motion-sn1,def_prop(motion,[attivita,informa,stato])])
+lf(United Nations vs. United Nations Lyrics.txt_16,138,cl18-nil-nil-say-[obj-theme_unaff-motion-sn1,def_prop(motion,[attivita,informa,stato])])
+lf(United Nations vs. United Nations Lyrics.txt_17,155,cl19-nil-nil-take-[obj2-goal-river-sn3,obj-theme_aff-gun-sn2,subj-agent-you-sn1,def_prop(river,[oggetto]),def_prop(gun,[attivita,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(United Nations vs. United Nations Lyrics.txt_18,173,cl20-nil-nil-drown-[iobj-goal-sea-sn3,obj-theme-bomb-sn2,subj-agent-you-sn1,def_prop(sea,[attivita,cambia,oggetto]),def_prop(bomb,[oggetto,strumento]),def_prop(you,[umano])])

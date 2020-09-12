@@ -1,0 +1,55 @@
+"POLARITY, DISCOURSE MARKERS"
+
+The Dogs Lyrics.txt_1-1  []-positive  []
+The Dogs Lyrics.txt_2-3  []-positive  []
+The Dogs Lyrics.txt_3-7  []-positive  []
+The Dogs Lyrics.txt_4-11  [so-result]-positive  [fgb]
+The Dogs Lyrics.txt_5-16  []-negative  [neg]
+The Dogs Lyrics.txt_6-22  []-positive  [fgb]
+The Dogs Lyrics.txt_7-29  []-suspension  [fhd]
+The Dogs Lyrics.txt_8-37  []-positive  []
+The Dogs Lyrics.txt_9-46  []-positive  [fgb]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+The Dogs Lyrics.txt_1-1  [the,Dogs,Lyrics,by,QUARTERBACKS]  [title]
+The Dogs Lyrics.txt_2-3  [saw,a,guy,drive,by,with]  [provide_expl_just(drive,[external,factive,explanation,background,objective]),provide_expl_just(see,[external,factive,narration,foreground,objective])]
+The Dogs Lyrics.txt_3-7  [two,puppies,on,his,lap]  [provide_expl_just(lap,[external,factive,explanation,background,objective])]
+The Dogs Lyrics.txt_4-11  [made,it,so]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+The Dogs Lyrics.txt_5-16  [he,could,not,see,the,road]  [reject_expl_just(see,[external,nonfactive,narration,background,objective])]
+The Dogs Lyrics.txt_6-22  [and,he,drove,up,on,the,grass]  [provide_expl_just(drive,[external,factive,cause,foreground,objective])]
+The Dogs Lyrics.txt_7-29  [seemed,like,a,fair,trade]  [provide_expl_just(seem,[external,factive,narration,background,objective])]
+The Dogs Lyrics.txt_8-37  [you,i_wish,could,have,seen]  [provide_expl_just(see,[external,nonfactive,narration,background,objective])]
+The Dogs Lyrics.txt_9-46  [everything,and,the,dogs]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(The Dogs Lyrics.txt_1-1)-[]
+2-(The Dogs Lyrics.txt_2-3)-[primary-vision,primary-voyage]
+3-(The Dogs Lyrics.txt_3-7)-[primary-orality]
+4-(The Dogs Lyrics.txt_4-11)-[primary-counscious]
+half
+5-(The Dogs Lyrics.txt_5-16)-[primary-vision,primary-brink]
+6-(The Dogs Lyrics.txt_6-22)-[]
+7-(The Dogs Lyrics.txt_7-29)-[emotions-affection,primary-gen_sensation,secondary-instru_behavior]
+8-(The Dogs Lyrics.txt_8-37)-[primary-vision]
+9-(The Dogs Lyrics.txt_9-46)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(The Dogs Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-quarterback-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Dogs,sn1),def_prop(quarterback,[attivita,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(The Dogs Lyrics.txt_2,3,cl3-nil-nil-drive-[adj-(mod)-see-nil,iobj-modal-[]-[],def_prop([],[])])
+lf(The Dogs Lyrics.txt_2,3,cl2-nil-nil-see-[obj-actor-guy-sn2,subj-experiencer-you-sn1,def_prop(guy,[oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(The Dogs Lyrics.txt_3,7,cl4-nil-nil-lap-[ncmod-locativo-his-sn2,subj-actor-puppy-sn1,and(puppy,two,sn1),def_prop(his,[umano]),def_prop(puppy,[animato,umano])])
+lf(The Dogs Lyrics.txt_4,11,cl5-nil-nil-make-[subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(it,[any]),def_prop(it,[any])])
+lf(The Dogs Lyrics.txt_5,16,cl6-not-could-see-[obj-actor-road-sn2,subj-experiencer-he-sn1,def_prop(road,[attivita,oggetto,strumento]),def_prop(he,[umano])])
+lf(The Dogs Lyrics.txt_6,22,cl7-nil-nil-drive-[cmod-subord-drive-",adj-locative-up-nil,ncmod-locativo-grass-sn2,subj-agent-he-sn1,def_prop(grass,[oggetto,plant,strumento]),def_prop(he,[umano])])
+lf(The Dogs Lyrics.txt_7,29,cl8-nil-nil-seem-[obj2-goal-trade-sn2,subj-actor-you-sn1,def_prop(trade,[attivita]),def_prop(you,[umano])])
+lf(The Dogs Lyrics.txt_8,37,cl9-nil-could-see-[ncmod-modal-you-sn2,subj-experiencer-you-sn1,aux-have-nil,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(The Dogs Lyrics.txt_9,46,cl10-nil-nil-be-[subj-theme_bound-dog-sn2,subj-theme_bound-dog-sn1,and(dog,you,sn1),def_prop(dog,[animato,plant,stato,umano]),def_prop(dog,[animato,plant,stato,umano])])

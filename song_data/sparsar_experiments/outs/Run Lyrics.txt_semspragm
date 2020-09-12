@@ -1,0 +1,431 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Run Lyrics.txt_1-1  []-positive  []
+Run Lyrics.txt_2-3  []-negative  [neg,ack]
+Run Lyrics.txt_3-6  [when-temp_coinc]-positive  []
+Run Lyrics.txt_4-10  []-positive  []
+Run Lyrics.txt_5-15  [so-result]-suspension  [fgb,fgb]
+Run Lyrics.txt_6-21  []-positive  []
+Run Lyrics.txt_7-28  [before-temp_prec]-positive  []
+Run Lyrics.txt_8-36  []-positive  []
+Run Lyrics.txt_9-45  [before-temp_prec]-positive  []
+Run Lyrics.txt_10-55  []-positive  []
+Run Lyrics.txt_11-67  []-suspension  [fgb,neg]
+Run Lyrics.txt_12-79  []-positive  []
+Run Lyrics.txt_13-93  []-positive  []
+Run Lyrics.txt_13-94  []-positive  [fgb]
+Run Lyrics.txt_13-95  []-positive  []
+Run Lyrics.txt_14-109  []-positive  []
+Run Lyrics.txt_14-110  []-positive  []
+Run Lyrics.txt_14-111  []-positive  []
+Run Lyrics.txt_15-126  []-positive  []
+Run Lyrics.txt_16-147  []-positive  []
+Run Lyrics.txt_16-148  []-positive  []
+Run Lyrics.txt_17-166  []-negative  [neg]
+Run Lyrics.txt_17-167  []-positive  []
+Run Lyrics.txt_18-185  []-negative  []
+Run Lyrics.txt_19-204  [but-advers]-positive  [fgb,ass,ack]
+Run Lyrics.txt_20-225  []-negative  []
+Run Lyrics.txt_20-226  []-positive  []
+Run Lyrics.txt_21-247  [but-advers]-positive  [fgb]
+Run Lyrics.txt_21-247  [but-advers]-positive  [fgb]
+Run Lyrics.txt_22-269  []-negative  [neg,neg,neg,neg]
+Run Lyrics.txt_23-292  []-negative  []
+Run Lyrics.txt_23-293  []-positive  []
+Run Lyrics.txt_24-317  []-negative  [neg,neg,neg,neg]
+Run Lyrics.txt_25-342  []-negative  [neg,ack]
+Run Lyrics.txt_26-368  []-positive  []
+Run Lyrics.txt_27-395  [before-temp_prec]-positive  []
+Run Lyrics.txt_28-423  []-positive  []
+Run Lyrics.txt_29-452  [before-temp_prec]-positive  []
+Run Lyrics.txt_30-482  [so-result]-suspension  [fgb]
+Run Lyrics.txt_31-513  []-negative  [neg,fhd,neg]
+Run Lyrics.txt_32-545  []-positive  []
+Run Lyrics.txt_32-546  []-positive  [neg]
+Run Lyrics.txt_32-546  []-positive  [neg,fhd]
+Run Lyrics.txt_33-579  [so-result]-suspension  [fgb,fgb,neg]
+Run Lyrics.txt_34-614  []-positive  []
+Run Lyrics.txt_35-649  []-negative  [neg,neg,neg,neg]
+Run Lyrics.txt_36-685  []-negative  [neg,ack]
+Run Lyrics.txt_37-722  []-negative  [neg,neg,neg,neg]
+Run Lyrics.txt_38-760  []-negative  []
+Run Lyrics.txt_38-761  []-positive  []
+Run Lyrics.txt_39-800  []-positive  []
+Run Lyrics.txt_40-841  []-suspension  [fgb,neg]
+Run Lyrics.txt_41-882  []-positive  []
+Run Lyrics.txt_42-925  []-positive  []
+Run Lyrics.txt_42-926  []-positive  [fgb]
+Run Lyrics.txt_42-927  []-positive  []
+Run Lyrics.txt_43-970  []-positive  []
+Run Lyrics.txt_43-971  []-positive  []
+Run Lyrics.txt_43-972  []-positive  []
+Run Lyrics.txt_44-1016  []-positive  []
+Run Lyrics.txt_45-1066  []-positive  []
+Run Lyrics.txt_45-1067  []-positive  []
+Run Lyrics.txt_46-1114  []-negative  [neg]
+Run Lyrics.txt_46-1115  []-positive  []
+Run Lyrics.txt_47-1162  []-suspension  [neg]
+Run Lyrics.txt_47-1163  []-positive  []
+Run Lyrics.txt_48-1211  []-negative  [neg]
+Run Lyrics.txt_49-1260  []-negative  [neg]
+Run Lyrics.txt_50-1311  []-negative  [neg,neg,neg,neg]
+Run Lyrics.txt_51-1362  []-negative  []
+Run Lyrics.txt_51-1363  []-positive  []
+Run Lyrics.txt_52-1415  []-negative  [neg,neg,neg,neg]
+Run Lyrics.txt_53-1468  []-negative  [neg,ack]
+Run Lyrics.txt_54-1522  []-positive  []
+Run Lyrics.txt_55-1578  []-suspension  [fgb,neg]
+Run Lyrics.txt_56-1634  []-positive  []
+Run Lyrics.txt_57-1692  []-positive  []
+Run Lyrics.txt_57-1693  []-positive  [fgb]
+Run Lyrics.txt_57-1694  []-positive  []
+Run Lyrics.txt_58-1752  []-positive  []
+Run Lyrics.txt_58-1753  []-positive  []
+Run Lyrics.txt_58-1754  []-positive  []
+Run Lyrics.txt_59-1813  []-positive  []
+Run Lyrics.txt_60-1878  []-positive  []
+Run Lyrics.txt_60-1879  []-positive  []
+Run Lyrics.txt_61-1941  []-negative  [neg]
+Run Lyrics.txt_61-1942  []-positive  []
+Run Lyrics.txt_62-2004  []-positive  []
+Run Lyrics.txt_63-2067  [before-temp_prec]-positive  []
+Run Lyrics.txt_64-2131  []-positive  []
+Run Lyrics.txt_65-2196  [before-temp_prec]-positive  []
+Run Lyrics.txt_66-2262  []-positive  []
+Run Lyrics.txt_67-2329  [before-temp_prec]-positive  []
+Run Lyrics.txt_68-2397  []-positive  []
+Run Lyrics.txt_69-2466  [before-temp_prec]-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Run Lyrics.txt_1-1  [run,Lyrics,by,Sweet,Honey,in,the,rock]  [title]
+Run Lyrics.txt_2-3  [no_one,has,the,right]  [reject_expl_just(have,[external,factive,explanation,background,objective]),propose_opin_neg(have,[external,factive,explanation,background,objective])]
+Run Lyrics.txt_3-6  [especially,when,they,say]  [provide_expl_just(say,[external,factive,explanation,background,objective])]
+Run Lyrics.txt_4-10  [apologies,dont,make]  [provide_expl_just(make,[external,factive,explanation,background,objective])]
+Run Lyrics.txt_5-15  [so,i,will,take,my,life,and,my,love]  [provide_expl_just(take,[external,nonfactive,narration,background,objective])]
+Run Lyrics.txt_6-21  [run,to,a,shelter,,,run,to,a,friend]  [provide_expl_just(run,[external,factive,narration,background,objective])]
+Run Lyrics.txt_7-28  [better,run,for,my,life,before,it,comes,to,an,end]  [raise_issue(be,[_1597728,factive,statement,_1597746,subjective])]
+Run Lyrics.txt_8-36  [run,to,a,shelter,,,run,to,a,friend]  [provide_expl_just(run,[external,factive,narration,background,objective])]
+Run Lyrics.txt_9-45  [better,run,for,my,life,before,it,comes,to,an,end]  [raise_issue(be,[_1598474,factive,statement,_1598492,subjective])]
+Run Lyrics.txt_10-55  [i,am,gonna,run,far,away,from,here]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_11-67  [no_more,cussin,,,no_more,fighting,and,living,in,fear]  [propose_opin_neg(live,[external,factive,circumstance,foreground,objective])]
+Run Lyrics.txt_12-79  [i,am,gonna,run,far,away,from,you]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_13-93  [i,have,come,to,my,senses]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_13-94  [dont,i,and,need]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_13-95  [you]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_14-109  [i,am,gonna]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective])]
+Run Lyrics.txt_14-110  [run,gonna,leave]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective])]
+Run Lyrics.txt_14-111  [you,today]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective])]
+Run Lyrics.txt_15-126  [cause,i,know,there,is,got,to,be,a,better,way]  [provide_expl_just(get,[external,factive,result,foreground,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(cause,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Run Lyrics.txt_16-147  [im,gonna,run]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Run Lyrics.txt_16-148  [,,take,my,children-s,hand]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Run Lyrics.txt_17-166  [we,are,leaving,this,nightmare,as_fast_as]  [reject_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Run Lyrics.txt_17-167  [we,can]  [provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Run Lyrics.txt_18-185  [i,don-t,even,know,in,which,direction,i,should,go]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_1619714)]
+Run Lyrics.txt_19-204  [but,im,sure,its,the,right,thing,to,do,,,its,time,to,make,a,move]  [accept_expl_opin(do,[external,factive,narration,foreground,objective]),accept_expl_opin(make,[external,factive,narration,background,objective])]
+Run Lyrics.txt_20-225  [the,first,time,i,was,shoved]  [provide_expl_just(shove,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_20-226  [i,shoulda,been,out,the,door]  [provide_expl_just(shove,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_21-247  [but,i,accepted,the,spologie,open]  [provide_expl_just(accept,[external,factive,narration,foreground,objective])]
+Run Lyrics.txt_21-247  [but,i,accepted,the,spologie,open,myself,up,for,more]  [provide_expl_just(accept,[external,factive,narration,foreground,objective])]
+Run Lyrics.txt_22-269  [me,excuse,abuses,excuses,,,abuses,!]  [reject_expl_just(excuse,[internal,factive,narration,foreground,objective])]
+Run Lyrics.txt_23-292  [i,don-t,have_to,live,this,way]  [provide_expl_just(leave,[external,factive,narration,foreground,objective])]
+Run Lyrics.txt_23-293  [,,Im,leaving,you,today]  [provide_expl_just(leave,[external,factive,narration,foreground,objective])]
+Run Lyrics.txt_24-317  [me,excuse,abuses,excuses,,,abuses,!]  [reject_expl_just(excuse,[internal,factive,narration,foreground,objective])]
+Run Lyrics.txt_25-342  [i,don-t,have_to,suffer,anymore,im,walking,right,out_of,that,door]  [reject_expl_just(be,[_1624608,_1624614,_1624620,_1624626,_1624632])]
+Run Lyrics.txt_26-368  [run,to,a,shelter,,,run,to,a,friend]  [provide_expl_just(run,[external,factive,narration,background,objective])]
+Run Lyrics.txt_27-395  [better,run,for,my,life,before,it,comes,to,an,end]  [raise_issue(be,[_1625354,factive,statement,_1625372,subjective])]
+Run Lyrics.txt_28-423  [run,to,a,shelter,,,run,to,a,friend]  [provide_expl_just(run,[external,factive,narration,background,objective])]
+Run Lyrics.txt_29-452  [better,run,for,my,life,before,it,comes,to,an,end]  [raise_issue(be,[_1626100,factive,statement,_1626118,subjective])]
+Run Lyrics.txt_30-482  [some,of,my,so,called,friends,,,advised,me,to,stick,around]  [provide_expl_just(stick,[external,factive,narration,background,objective])]
+Run Lyrics.txt_31-513  [their,not,the,one-s,getting,burned,,,slapped,or,beaten,down,to,the,ground]  [reject_expl_just(get,[external,factive,narration,foreground,objective])]
+Run Lyrics.txt_32-545  [they,say]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_32-546  [financial,security,is,hard,to,come]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_32-546  [financial,security,is,hard,to,come,by,for,a,woman,like,me]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_33-579  [and,for,the,children,,,i,need,a,good,home,so,i,should,sacrifice,until,their]  [provide_expl_just(need,[external,factive,narration,background,objective]),propose_opin(sacrifice,[external,nonfactive,narration,foreground,objective]),provide_expl_just(sacrifice,[external,nonfactive,narration,foreground,objective])]
+Run Lyrics.txt_34-614  [grown]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Run Lyrics.txt_35-649  [me,excuse,abuses,excuses,,,abuses,!]  [reject_expl_just(excuse,[internal,factive,narration,foreground,objective])]
+Run Lyrics.txt_36-685  [i,don-t,have_to,suffer,anymore,im,walking,right,out_of,that,door]  [reject_expl_just(be,[_1630462,_1630468,_1630474,_1630480,_1630486])]
+Run Lyrics.txt_37-722  [me,excuse,abuses,excuses,,,abuses,!]  [reject_expl_just(excuse,[internal,factive,narration,foreground,objective])]
+Run Lyrics.txt_38-760  [i,don-t,have_to,live,this,way]  [provide_expl_just(leave,[external,factive,narration,foreground,objective])]
+Run Lyrics.txt_38-761  [,,Im,leaving,you,today]  [provide_expl_just(leave,[external,factive,narration,foreground,objective])]
+Run Lyrics.txt_39-800  [i,am,gonna,run,far,away,from,here]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_40-841  [no_more,cussin,,,no_more,fighting,and,living,in,fear]  [propose_opin_neg(live,[external,factive,circumstance,foreground,objective])]
+Run Lyrics.txt_41-882  [i,am,gonna,run,far,away,from,you]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_42-925  [i,have,come,to,my,senses]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_42-926  [dont,i,and,need]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_42-927  [you]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_43-970  [i,am,gonna]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective])]
+Run Lyrics.txt_43-971  [run,gonna,leave]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective])]
+Run Lyrics.txt_43-972  [you,today]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective])]
+Run Lyrics.txt_44-1016  [cause,i,know,there,is,got,to,be,a,better,way]  [provide_expl_just(get,[external,factive,result,foreground,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(cause,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Run Lyrics.txt_45-1066  [im,gonna,run]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Run Lyrics.txt_45-1067  [,,take,my,children-s,hand]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Run Lyrics.txt_46-1114  [we,are,leaving,this,nightmare,as_fast_as]  [reject_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Run Lyrics.txt_46-1115  [we,can]  [provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Run Lyrics.txt_47-1162  [now,,,i,don-t,blame,myself]  [provide_expl_just(blame,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_47-1163  [for,the,present,situation]  [provide_expl_just(blame,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_48-1211  [for,this,,,kind,of,behavior,there,is,no,justification]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_49-1260  [im,looking,ahead,to,the,future,i,will,not,forget,the,past]  [reject_expl_just(look,[external,factive,narration,foreground,objective]),reject_expl_just(forget,[external,nonfactive,narration,background,objective])]
+Run Lyrics.txt_50-1311  [me,excuse,abuses,excuses,,,abuses,!]  [reject_expl_just(excuse,[internal,factive,narration,foreground,objective])]
+Run Lyrics.txt_51-1362  [i,don-t,have_to,live,this,way]  [provide_expl_just(leave,[external,factive,narration,foreground,objective])]
+Run Lyrics.txt_51-1363  [,,Im,leaving,you,today]  [provide_expl_just(leave,[external,factive,narration,foreground,objective])]
+Run Lyrics.txt_52-1415  [me,excuse,abuses,excuses,,,abuses,!]  [reject_expl_just(excuse,[internal,factive,narration,foreground,objective])]
+Run Lyrics.txt_53-1468  [i,don-t,have_to,suffer,anymore,im,walking,right,out_of,that,door]  [reject_expl_just(be,[_1652514,_1652520,_1652526,_1652532,_1652538])]
+Run Lyrics.txt_54-1522  [i,am,gonna,run,far,away,from,here]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_55-1578  [no_more,cussin,,,no_more,fighting,and,living,in,fear]  [propose_opin_neg(live,[external,factive,circumstance,foreground,objective])]
+Run Lyrics.txt_56-1634  [i,am,gonna,run,far,away,from,you]  [provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_57-1692  [i,have,come,to,my,senses]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_57-1693  [dont,i,and,need]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_57-1694  [you]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Run Lyrics.txt_58-1752  [i,am,gonna]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective])]
+Run Lyrics.txt_58-1753  [run,gonna,leave]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective])]
+Run Lyrics.txt_58-1754  [you,today]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(leave,[external,factive,narration,background,objective])]
+Run Lyrics.txt_59-1813  [cause,i,know,there,is,got,to,be,a,better,way]  [provide_expl_just(get,[external,factive,result,foreground,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective]),provide_expl_just(cause,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Run Lyrics.txt_60-1878  [im,gonna,run]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Run Lyrics.txt_60-1879  [,,take,my,children-s,hand]  [provide_expl_just(gonna,[external,factive,narration,background,objective]),provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Run Lyrics.txt_61-1941  [we,are,leaving,this,nightmare,as_fast_as]  [reject_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Run Lyrics.txt_61-1942  [we,can]  [provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Run Lyrics.txt_62-2004  [run,to,a,shelter,,,run,to,a,friend]  [provide_expl_just(run,[external,factive,narration,background,objective])]
+Run Lyrics.txt_63-2067  [better,run,for,my,life,before,it,comes,to,an,end]  [raise_issue(be,[_1670086,factive,statement,_1670104,subjective])]
+Run Lyrics.txt_64-2131  [run,to,a,shelter,,,run,to,a,friend]  [provide_expl_just(run,[external,factive,narration,background,objective])]
+Run Lyrics.txt_65-2196  [better,run,for,my,life,before,it,comes,to,an,end]  [raise_issue(be,[_1670832,factive,statement,_1670850,subjective])]
+Run Lyrics.txt_66-2262  [run,to,a,shelter,,,run,to,a,friend]  [provide_expl_just(run,[external,factive,narration,background,objective])]
+Run Lyrics.txt_67-2329  [better,run,for,my,life,before,it,comes,to,an,end]  [raise_issue(be,[_1671578,factive,statement,_1671596,subjective])]
+Run Lyrics.txt_68-2397  [run,to,a,shelter,,,run,to,a,friend]  [provide_expl_just(run,[external,factive,narration,background,objective])]
+Run Lyrics.txt_69-2466  [better,run,for,my,life,before,it,comes,to,an,end]  [raise_issue(be,[_1672324,factive,statement,_1672342,subjective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Run Lyrics.txt_1-1)-[primary-hard]
+2-(Run Lyrics.txt_2-3)-[secondary-moral_imperative]
+3-(Run Lyrics.txt_3-6)-[secondary-temporal_repere,secondary-social_behavior]
+4-(Run Lyrics.txt_4-10)-[secondary-instru_behavior]
+5-(Run Lyrics.txt_5-15)-[emotions-affection]
+6-(Run Lyrics.txt_6-21)-[secondary-social_behavior,emotions-affection]
+7-(Run Lyrics.txt_7-28)-[]
+8-(Run Lyrics.txt_8-36)-[secondary-social_behavior,emotions-affection]
+9-(Run Lyrics.txt_9-45)-[]
+10-(Run Lyrics.txt_10-55)-[primary-concreteness,primary-concreteness,primary-concreteness]
+11-(Run Lyrics.txt_11-67)-[emotions-anxiety]
+12-(Run Lyrics.txt_12-79)-[primary-concreteness,primary-concreteness]
+13-(Run Lyrics.txt_13-93)-[]
+14-(Run Lyrics.txt_13-94)-[]
+15-(Run Lyrics.txt_13-95)-[]
+16-(Run Lyrics.txt_14-109)-[]
+17-(Run Lyrics.txt_14-110)-[]
+18-(Run Lyrics.txt_14-111)-[secondary-temporal_repere]
+19-(Run Lyrics.txt_15-126)-[secondary-abstract_tought,secondary-abstract_tought]
+20-(Run Lyrics.txt_16-147)-[]
+21-(Run Lyrics.txt_16-148)-[primary-narcissism]
+22-(Run Lyrics.txt_17-166)-[primary-counscious]
+23-(Run Lyrics.txt_17-167)-[]
+24-(Run Lyrics.txt_18-185)-[secondary-abstract_tought,secondary-moral_imperative]
+25-(Run Lyrics.txt_19-204)-[secondary-abstract_tought,secondary-moral_imperative,secondary-temporal_repere,secondary-instru_behavior]
+26-(Run Lyrics.txt_20-225)-[secondary-temporal_repere,emotions-aggression]
+27-(Run Lyrics.txt_20-226)-[secondary-moral_imperative,primary-concreteness,primary-brink]
+28-(Run Lyrics.txt_21-247)-[secondary-social_behavior,primary-concreteness]
+29-(Run Lyrics.txt_21-247)-[secondary-social_behavior,primary-concreteness]
+30-(Run Lyrics.txt_22-269)-[secondary-social_behavior,emotions-aggression,secondary-social_behavior,emotions-aggression]
+31-(Run Lyrics.txt_23-292)-[]
+32-(Run Lyrics.txt_23-293)-[secondary-temporal_repere]
+33-(Run Lyrics.txt_24-317)-[secondary-social_behavior,emotions-aggression,secondary-social_behavior,emotions-aggression]
+34-(Run Lyrics.txt_25-342)-[emotions-sadness,secondary-moral_imperative,primary-brink]
+35-(Run Lyrics.txt_26-368)-[secondary-social_behavior,emotions-affection]
+36-(Run Lyrics.txt_27-395)-[]
+37-(Run Lyrics.txt_28-423)-[secondary-social_behavior,emotions-affection]
+38-(Run Lyrics.txt_29-452)-[]
+39-(Run Lyrics.txt_30-482)-[secondary-social_behavior,emotions-affection,secondary-social_behavior]
+40-(Run Lyrics.txt_31-513)-[primary-fire,emotions-aggression]
+41-(Run Lyrics.txt_32-545)-[secondary-social_behavior]
+42-(Run Lyrics.txt_32-546)-[primary-passivity,primary-hard]
+43-(Run Lyrics.txt_32-546)-[primary-passivity,primary-hard,emotions-affection]
+44-(Run Lyrics.txt_33-579)-[secondary-moral_imperative]
+45-(Run Lyrics.txt_34-614)-[primary-height]
+46-(Run Lyrics.txt_35-649)-[secondary-social_behavior,emotions-aggression,secondary-social_behavior,emotions-aggression]
+47-(Run Lyrics.txt_36-685)-[emotions-sadness,secondary-moral_imperative,primary-brink]
+half
+48-(Run Lyrics.txt_37-722)-[secondary-social_behavior,emotions-aggression,secondary-social_behavior,emotions-aggression]
+49-(Run Lyrics.txt_38-760)-[]
+50-(Run Lyrics.txt_38-761)-[secondary-temporal_repere]
+51-(Run Lyrics.txt_39-800)-[primary-concreteness,primary-concreteness,primary-concreteness]
+52-(Run Lyrics.txt_40-841)-[emotions-anxiety]
+53-(Run Lyrics.txt_41-882)-[primary-concreteness,primary-concreteness]
+54-(Run Lyrics.txt_42-925)-[]
+55-(Run Lyrics.txt_42-926)-[]
+56-(Run Lyrics.txt_42-927)-[]
+57-(Run Lyrics.txt_43-970)-[]
+58-(Run Lyrics.txt_43-971)-[]
+59-(Run Lyrics.txt_43-972)-[secondary-temporal_repere]
+60-(Run Lyrics.txt_44-1016)-[secondary-abstract_tought,secondary-abstract_tought]
+61-(Run Lyrics.txt_45-1066)-[]
+62-(Run Lyrics.txt_45-1067)-[primary-narcissism]
+63-(Run Lyrics.txt_46-1114)-[primary-counscious]
+64-(Run Lyrics.txt_46-1115)-[]
+65-(Run Lyrics.txt_47-1162)-[secondary-temporal_repere,emotions-aggression]
+66-(Run Lyrics.txt_47-1163)-[secondary-temporal_repere]
+67-(Run Lyrics.txt_48-1211)-[emotions-affection]
+68-(Run Lyrics.txt_49-1260)-[primary-concreteness,secondary-instru_behavior,secondary-temporal_repere]
+69-(Run Lyrics.txt_50-1311)-[secondary-social_behavior,emotions-aggression,secondary-social_behavior,emotions-aggression]
+70-(Run Lyrics.txt_51-1362)-[]
+71-(Run Lyrics.txt_51-1363)-[secondary-temporal_repere]
+72-(Run Lyrics.txt_52-1415)-[secondary-social_behavior,emotions-aggression,secondary-social_behavior,emotions-aggression]
+73-(Run Lyrics.txt_53-1468)-[emotions-sadness,secondary-moral_imperative,primary-brink]
+74-(Run Lyrics.txt_54-1522)-[primary-concreteness,primary-concreteness,primary-concreteness]
+75-(Run Lyrics.txt_55-1578)-[emotions-anxiety]
+76-(Run Lyrics.txt_56-1634)-[primary-concreteness,primary-concreteness]
+77-(Run Lyrics.txt_57-1692)-[]
+78-(Run Lyrics.txt_57-1693)-[]
+79-(Run Lyrics.txt_57-1694)-[]
+80-(Run Lyrics.txt_58-1752)-[]
+81-(Run Lyrics.txt_58-1753)-[]
+82-(Run Lyrics.txt_58-1754)-[secondary-temporal_repere]
+83-(Run Lyrics.txt_59-1813)-[secondary-abstract_tought,secondary-abstract_tought]
+84-(Run Lyrics.txt_60-1878)-[]
+85-(Run Lyrics.txt_60-1879)-[primary-narcissism]
+86-(Run Lyrics.txt_61-1941)-[primary-counscious]
+87-(Run Lyrics.txt_61-1942)-[]
+88-(Run Lyrics.txt_62-2004)-[secondary-social_behavior,emotions-affection]
+89-(Run Lyrics.txt_63-2067)-[]
+90-(Run Lyrics.txt_64-2131)-[secondary-social_behavior,emotions-affection]
+91-(Run Lyrics.txt_65-2196)-[]
+92-(Run Lyrics.txt_66-2262)-[secondary-social_behavior,emotions-affection]
+93-(Run Lyrics.txt_67-2329)-[]
+94-(Run Lyrics.txt_68-2397)-[secondary-social_behavior,emotions-affection]
+95-(Run Lyrics.txt_69-2466)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Run Lyrics.txt_1,1,cl1-nil-nil-be-[ncmod-locativo-rock-sn3,arg_mod-agent-Honey-sn2,subj-theme_bound-Lyrics-sn1,and(Honey,Sweet,sn2),and(Lyrics,run,sn1),def_prop(rock,[attivita,oggetto,sostanza,umano]),def_prop(Honey,[place,edible,oggetto,relat,sociale,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Run Lyrics.txt_2,3,cl2-nil-nil-have-[xcomp-tema_bound-right-sn2,subj-experiencer-no_one-sn1,def_prop(right,[astratto,attivita,body_part,istituzione,luogo,oggetto,umano]),def_prop(no_one,[umano])])
+lf(Run Lyrics.txt_3,6,cl3-nil-nil-say-[cmod-subord-say-when,subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Run Lyrics.txt_4,10,cl4-nil-nil-make-[ncmod-modal-apology-sn2,subj-agent-you-sn1,def_prop(apology,[astratto,attivita,informa]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_5,15,cl5-nil-will-take-[coord-theme_aff-life_and_love-sn4,obj-theme_aff-love-sn3,obj-theme_aff-life-sn2,subj-agent-i-sn1,def_prop(life_and_love,[any,astratto,attivita,cambia,informa,stato,tempo,umano,astratto,emotivo,nquant]),def_prop(love,[any,astratto,attivita,cambia,informa,stato,tempo,umano,astratto,emotivo,nquant]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano,astratto,emotivo,nquant]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_6,21,_-nil-nil-run-[iobj-goal-friend-sn3,xmod-prop-run-4,iobj-goal-shelter-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(shelter,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_6,21,cl6-nil-nil-run-[iobj-goal-friend-sn3,xmod-prop-run-4,iobj-goal-shelter-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(shelter,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_7,28,cl7-nil-nil-come-[expl-it-nil,cmod-subord-come-before,iobj-goal-end-sn6,subj-agent-it-sn5,def_prop(end,[tempo]),def_prop(it,[any])])
+lf(Run Lyrics.txt_8,36,_-nil-nil-run-[iobj-goal-friend-sn3,xmod-prop-run-4,iobj-goal-shelter-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(shelter,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_8,36,cl8-nil-nil-run-[iobj-goal-friend-sn3,xmod-prop-run-4,iobj-goal-shelter-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(shelter,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_9,45,cl9-nil-nil-come-[expl-it-nil,cmod-subord-come-before,iobj-goal-end-sn6,subj-agent-it-sn5,def_prop(end,[tempo]),def_prop(it,[any])])
+lf(Run Lyrics.txt_10,55,_-nil-nil-run-[iobj-goal-here-sn2,xmod-prop-run-2,def_prop(here,[istituzione])])
+lf(Run Lyrics.txt_10,55,cl11-nil-nil-run-[iobj-goal-here-sn2,xmod-prop-run-2,def_prop(here,[istituzione])])
+lf(Run Lyrics.txt_10,55,cl10-nil-nil-be-[adj-(mod)-away-nil,subj-theme_bound-i-sn1,def_prop(away,[istituzione]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_11,67,cl12-nil-nil-live-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Run Lyrics.txt_12,79,_-nil-nil-run-[iobj-goal-you-sn2,xmod-prop-run-2,def_prop(you,[umano])])
+lf(Run Lyrics.txt_12,79,cl14-nil-nil-run-[iobj-goal-you-sn2,xmod-prop-run-2,def_prop(you,[umano])])
+lf(Run Lyrics.txt_12,79,cl13-nil-nil-be-[adj-(mod)-away-nil,subj-theme_bound-i-sn1,def_prop(away,[istituzione]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_13,93,cl17-nil-nil-be-[subj-theme_bound-you-sn7,def_prop(you,[umano])])
+lf(Run Lyrics.txt_13,93,cl16-nil-nil-need-[subj-experiencer-i-sn5,ncmod-loc_direct-sens-sn2,and(i,dont,sn5),def_prop(i,[umano]),def_prop(sens,[oggetto,strumento])])
+lf(Run Lyrics.txt_13,93,cl15-nil-nil-come-[subj-agent-i-sn1,aux-have-nil,def_prop(i,[umano])])
+lf(Run Lyrics.txt_14,109,cl19-nil-nil-leave-[subj-theme-run-sn2,def_prop(run,[astratto,attivita,evento,nquant,stato,tempo])])
+lf(Run Lyrics.txt_14,109,nil-nil-nil-gonna-[subj-agent-run-sn2,def_prop(run,[astratto,attivita,evento,nquant,stato,tempo])])
+lf(Run Lyrics.txt_14,109,cl18-nil-nil-be-[adj-temporal-today-nil,subj-theme_bound-you-sn3,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_15,126,cl23-nil-nil-be-[xcomp-prop-way-sn9,subj-actor-you-sn8,xcomp-prop-way-sn5,xcomp-purpose-be-3,and(way,better,sn9),and(way,better,sn5),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(you,[umano]),def_prop(way,[astratto,attivita,oggetto,stato,strumento])])
+lf(Run Lyrics.txt_15,126,cl22-nil-nil-get-[obj-prop-way-sn7,xcomp-purpose-be-4,subj-agent-you-sn6,subj-theme_unaff-there-sn4,aux-(is)-nil,and(way,better,sn7),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(you,[umano]),def_prop(there,[any])])
+lf(Run Lyrics.txt_15,126,cl21-nil-nil-know-[subj-tema_nonaff-i-sn2,def_prop(i,[umano])])
+lf(Run Lyrics.txt_15,126,cl20-nil-nil-cause-[subj-causer-i-sn2,subj-causer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_16,147,cl25-nil-nil-take-[obj-theme_aff-hand-sn3,subj-agent-you-sn2,and(hand,children-s,sn3),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_16,147,cl24-nil-nil-run-[subj-tema_nonaff-im-sn1,def_prop(im,[legale])])
+lf(Run Lyrics.txt_16,147,nil-nil-nil-gonna-[subj-agent-im-sn1,def_prop(im,[legale])])
+lf(Run Lyrics.txt_17,166,cl27-nil-can-can-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Run Lyrics.txt_17,166,cl26-nil-nil-leave-[obj2-paziente-as_fast_as-sn3,obj-theme-nightmare-sn2,subj-theme-we-sn1,aux-are-nil,progr-leaving-nil,and(nightmare,this,sn2),def_prop(as_fast_as,[attivita]),def_prop(nightmare,[astratto,stato]),def_prop(we,[umano])])
+lf(Run Lyrics.txt_18,185,cl28-not-nil-know-[ncmod-locativo-which-sn2,subj-actor-i-sn1,adj-(mod)-even-nil,aux-do-nil,def_prop(which,[entity]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_19,204,cl30-nil-nil-make-[])
+lf(Run Lyrics.txt_19,204,cl29-nil-nil-do-[adj-temporal-time-nil,xcomp-actor-move-sn4,xcomp-purpose-make-cl30,xcomp-theme-thing-sn3,xcomp-actor-its-sn2,subj-theme_unaff-im-sn1,aux-do-nil,and(thing,right,sn3),and(its,sure,sn2),def_prop(time,[tempo]),def_prop(move,[attivita]),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(its,[istituzione]),def_prop(im,[legale])])
+lf(Run Lyrics.txt_20,225,cl32-nil-nil-be-[ncmod-locativo-door-sn5,xcomp-prop-shoulda-sn4,subj-actor-i-sn3,def_prop(door,[astratto,oggetto,strumento]),def_prop(shoulda,[istituzione]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_20,225,cl31-nil-nil-shove-[subj-theme-i-sn1,aux-was-nil,def_prop(i,[umano])])
+lf(Run Lyrics.txt_21,247,cl33-nil-nil-accept-[cmod-subord-accept-but,obj-theme-more-sn9,xcomp-prop-up-sn8,obj-theme-myself-sn7,xcomp-prop-open-sn6,obj-theme_unaff-spologie-sn5,subj-actor-i-sn4,xcomp-prop-open-sn3,obj-theme_unaff-spologie-sn2,subj-actor-i-sn1,def_prop(more,[astratto,informa,oggetto]),def_prop(up,[istituzione]),def_prop(myself,[umano]),def_prop(open,[stato]),def_prop(spologie,[istituzione]),def_prop(i,[umano]),def_prop(open,[stato]),def_prop(spologie,[istituzione]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_22,269,cl34-nil-nil-excuse-[obj-theme-me-sn3,obj-theme-excuse-sn2,subj-agent-abuse-sn1,def_prop(me,[umano]),def_prop(excuse,[attivita,informa]),def_prop(abuse,[attivita,informa])])
+lf(Run Lyrics.txt_23,292,cl36-nil-nil-leave-[adj-temporal-today-nil,subj-theme-you-sn5,subj-theme-you-sn4,and(you,Im,sn4),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_23,292,cl35-not-have_to-must-[obj-prop-way-sn2,subj-theme_unaff-i-sn1,aux-do-nil,and(way,this,sn2),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_24,317,cl37-nil-nil-excuse-[obj-theme-me-sn3,obj-theme-excuse-sn2,subj-agent-abuse-sn1,def_prop(me,[umano]),def_prop(excuse,[attivita,informa]),def_prop(abuse,[attivita,informa])])
+lf(Run Lyrics.txt_25,342,cl38-not-have_to-must-[adj-(mod)-anymore-nil,ncmod-locativo-door-sn3,obj-prop-right-sn2,subj-theme_unaff-i-sn1,aux-do-nil,and(door,that,sn3),and(right,im,sn2),and(right,walking,sn2),def_prop(door,[astratto,oggetto,strumento]),def_prop(right,[astratto,attivita,body_part,istituzione,luogo,oggetto,umano]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_26,368,_-nil-nil-run-[iobj-goal-friend-sn3,xmod-prop-run-4,iobj-goal-shelter-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(shelter,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_26,368,cl39-nil-nil-run-[iobj-goal-friend-sn3,xmod-prop-run-4,iobj-goal-shelter-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(shelter,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_27,395,cl40-nil-nil-come-[expl-it-nil,cmod-subord-come-before,iobj-goal-end-sn6,subj-agent-it-sn5,def_prop(end,[tempo]),def_prop(it,[any])])
+lf(Run Lyrics.txt_28,423,_-nil-nil-run-[iobj-goal-friend-sn3,xmod-prop-run-4,iobj-goal-shelter-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(shelter,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_28,423,cl41-nil-nil-run-[iobj-goal-friend-sn3,xmod-prop-run-4,iobj-goal-shelter-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(shelter,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_29,452,cl42-nil-nil-come-[expl-it-nil,cmod-subord-come-before,iobj-goal-end-sn6,subj-agent-it-sn5,def_prop(end,[tempo]),def_prop(it,[any])])
+lf(Run Lyrics.txt_30,482,cl43-nil-nil-stick-[adj-(mod)-around-nil,subj-agent-me-sn3,subj-agent-me-sn2,subj-agent-friend-sn1,and(me,friend,sn2),and(me,called,sn2),and(friend,some,sn1),and(friend,called,sn1),def_prop(me,[umano]),def_prop(me,[umano]),def_prop(friend,[umano])])
+lf(Run Lyrics.txt_31,513,cl44-not-nil-get-[iobj-paziente-ground-sn10,coord-experiencer-down_or_slapped-sn9,subj-experiencer-slapped-sn8,subj-experiencer-down-sn7,coord-experiencer-down_or_slapped-sn5,subj-experiencer-slapped-sn4,subj-experiencer-down-sn3,and(slapped,down_or_slapped-sn20,sn8),and(slapped,slapped-sn19,sn8),and(slapped,down-sn7,sn8),and(slapped,down_or_slapped-sn20,sn4),and(slapped,slapped-sn19,sn4),and(slapped,down-sn7,sn4),def_prop(ground,[astratto,luogo,oggetto,strumento]),def_prop(down_or_slapped,[animato,attivita,body_part,oggetto,umano]),def_prop(slapped,[animato,attivita,body_part,oggetto,umano]),def_prop(down,[animato,attivita,body_part,oggetto,umano]),def_prop(down_or_slapped,[animato,attivita,body_part,oggetto,umano]),def_prop(slapped,[animato,attivita,body_part,oggetto,umano]),def_prop(down,[animato,attivita,body_part,oggetto,umano])])
+lf(Run Lyrics.txt_32,545,cl46-nil-nil-be-[iobj-modal-[]-[],xcomp-prop-hard-sn5,subj-theme_bound-security-sn4,xcomp-prop-hard-sn3,subj-theme_bound-security-sn2,and(security,financial,sn4),and(security,financial,sn2),def_prop([],[]),def_prop(hard,[valutativo]),def_prop(security,[astratto,attivita,emotivo,informa,istituzione,oggetto,stato]),def_prop(hard,[valutativo]),def_prop(security,[astratto,attivita,emotivo,informa,istituzione,oggetto,stato])])
+lf(Run Lyrics.txt_32,545,cl45-nil-nil-say-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Run Lyrics.txt_33,579,cl48-nil-should-sacrifice-[cmod-subord-sacrifice-",cmod-subord-sacrifice-for,ncmod-modal-their-sn8,subj-agent-i-sn7,ncmod-modal-their-sn6,subj-agent-i-sn5,def_prop(their,[evaluative]),def_prop(i,[umano]),def_prop(their,[evaluative]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_33,579,cl47-nil-nil-need-[cmod-subord-sacrifice-1,obj-theme-home-sn3,subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(home,good,sn3),and(i,children,sn1),def_prop(home,[luogo,oggetto,stato,strumento]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_34,614,cl49-nil-nil-say-[])
+lf(Run Lyrics.txt_35,649,cl50-nil-nil-excuse-[obj-theme-me-sn3,obj-theme-excuse-sn2,subj-agent-abuse-sn1,def_prop(me,[umano]),def_prop(excuse,[attivita,informa]),def_prop(abuse,[attivita,informa])])
+lf(Run Lyrics.txt_36,685,cl51-not-have_to-must-[adj-(mod)-anymore-nil,ncmod-locativo-door-sn3,obj-prop-right-sn2,subj-theme_unaff-i-sn1,aux-do-nil,and(door,that,sn3),and(right,im,sn2),and(right,walking,sn2),def_prop(door,[astratto,oggetto,strumento]),def_prop(right,[astratto,attivita,body_part,istituzione,luogo,oggetto,umano]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_37,722,cl52-nil-nil-excuse-[obj-theme-me-sn3,obj-theme-excuse-sn2,subj-agent-abuse-sn1,def_prop(me,[umano]),def_prop(excuse,[attivita,informa]),def_prop(abuse,[attivita,informa])])
+lf(Run Lyrics.txt_38,760,cl54-nil-nil-leave-[adj-temporal-today-nil,subj-theme-you-sn5,subj-theme-you-sn4,and(you,Im,sn4),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_38,760,cl53-not-have_to-must-[obj-prop-way-sn2,subj-theme_unaff-i-sn1,aux-do-nil,and(way,this,sn2),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_39,800,_-nil-nil-run-[iobj-goal-here-sn2,xmod-prop-run-2,def_prop(here,[istituzione])])
+lf(Run Lyrics.txt_39,800,cl56-nil-nil-run-[iobj-goal-here-sn2,xmod-prop-run-2,def_prop(here,[istituzione])])
+lf(Run Lyrics.txt_39,800,cl55-nil-nil-be-[adj-(mod)-away-nil,subj-theme_bound-i-sn1,def_prop(away,[istituzione]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_40,841,cl57-nil-nil-live-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Run Lyrics.txt_41,882,_-nil-nil-run-[iobj-goal-you-sn2,xmod-prop-run-2,def_prop(you,[umano])])
+lf(Run Lyrics.txt_41,882,cl59-nil-nil-run-[iobj-goal-you-sn2,xmod-prop-run-2,def_prop(you,[umano])])
+lf(Run Lyrics.txt_41,882,cl58-nil-nil-be-[adj-(mod)-away-nil,subj-theme_bound-i-sn1,def_prop(away,[istituzione]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_42,925,cl62-nil-nil-be-[subj-theme_bound-you-sn7,def_prop(you,[umano])])
+lf(Run Lyrics.txt_42,925,cl61-nil-nil-need-[subj-experiencer-i-sn5,ncmod-loc_direct-sens-sn2,and(i,dont,sn5),def_prop(i,[umano]),def_prop(sens,[oggetto,strumento])])
+lf(Run Lyrics.txt_42,925,cl60-nil-nil-come-[subj-agent-i-sn1,aux-have-nil,def_prop(i,[umano])])
+lf(Run Lyrics.txt_43,970,cl64-nil-nil-leave-[subj-theme-run-sn2,def_prop(run,[astratto,attivita,evento,nquant,stato,tempo])])
+lf(Run Lyrics.txt_43,970,nil-nil-nil-gonna-[subj-agent-run-sn2,def_prop(run,[astratto,attivita,evento,nquant,stato,tempo])])
+lf(Run Lyrics.txt_43,970,cl63-nil-nil-be-[adj-temporal-today-nil,subj-theme_bound-you-sn3,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_44,1016,cl68-nil-nil-be-[xcomp-prop-way-sn9,subj-actor-you-sn8,xcomp-prop-way-sn5,xcomp-purpose-be-3,and(way,better,sn9),and(way,better,sn5),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(you,[umano]),def_prop(way,[astratto,attivita,oggetto,stato,strumento])])
+lf(Run Lyrics.txt_44,1016,cl67-nil-nil-get-[obj-prop-way-sn7,xcomp-purpose-be-4,subj-agent-you-sn6,subj-theme_unaff-there-sn4,aux-(is)-nil,and(way,better,sn7),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(you,[umano]),def_prop(there,[any])])
+lf(Run Lyrics.txt_44,1016,cl66-nil-nil-know-[subj-tema_nonaff-i-sn2,def_prop(i,[umano])])
+lf(Run Lyrics.txt_44,1016,cl65-nil-nil-cause-[subj-causer-i-sn2,subj-causer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_45,1066,cl70-nil-nil-take-[obj-theme_aff-hand-sn3,subj-agent-you-sn2,and(hand,children-s,sn3),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_45,1066,cl69-nil-nil-run-[subj-tema_nonaff-im-sn1,def_prop(im,[legale])])
+lf(Run Lyrics.txt_45,1066,nil-nil-nil-gonna-[subj-agent-im-sn1,def_prop(im,[legale])])
+lf(Run Lyrics.txt_46,1114,cl72-nil-can-can-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Run Lyrics.txt_46,1114,cl71-nil-nil-leave-[obj2-paziente-as_fast_as-sn3,obj-theme-nightmare-sn2,subj-theme-we-sn1,aux-are-nil,progr-leaving-nil,and(nightmare,this,sn2),def_prop(as_fast_as,[attivita]),def_prop(nightmare,[astratto,stato]),def_prop(we,[umano])])
+lf(Run Lyrics.txt_47,1162,cl74-nil-nil-be-[subj-theme_bound-you-sn5,def_prop(you,[umano])])
+lf(Run Lyrics.txt_47,1162,cl73-not-nil-blame-[obj-theme-myself-sn2,subj-agent-i-sn1,aux-do-nil,def_prop(myself,[umano]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_48,1211,cl75-nil-nil-be-[])
+lf(Run Lyrics.txt_49,1260,cl77-not-will-forget-[adj-(mod)-ahead-nil,xcomp-purpose-look-2,subj-experiencer-im-sn1,def_prop(im,[legale])])
+lf(Run Lyrics.txt_49,1260,cl76-nil-nil-look-[iobj-goal-future-sn2,def_prop(future,[attivita,informa,oggetto,strumento,tempo])])
+lf(Run Lyrics.txt_50,1311,cl78-nil-nil-excuse-[obj-theme-me-sn3,obj-theme-excuse-sn2,subj-agent-abuse-sn1,def_prop(me,[umano]),def_prop(excuse,[attivita,informa]),def_prop(abuse,[attivita,informa])])
+lf(Run Lyrics.txt_51,1362,cl80-nil-nil-leave-[adj-temporal-today-nil,subj-theme-you-sn5,subj-theme-you-sn4,and(you,Im,sn4),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_51,1362,cl79-not-have_to-must-[obj-prop-way-sn2,subj-theme_unaff-i-sn1,aux-do-nil,and(way,this,sn2),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_52,1415,cl81-nil-nil-excuse-[obj-theme-me-sn3,obj-theme-excuse-sn2,subj-agent-abuse-sn1,def_prop(me,[umano]),def_prop(excuse,[attivita,informa]),def_prop(abuse,[attivita,informa])])
+lf(Run Lyrics.txt_53,1468,cl82-not-have_to-must-[adj-(mod)-anymore-nil,ncmod-locativo-door-sn3,obj-prop-right-sn2,subj-theme_unaff-i-sn1,aux-do-nil,and(door,that,sn3),and(right,im,sn2),and(right,walking,sn2),def_prop(door,[astratto,oggetto,strumento]),def_prop(right,[astratto,attivita,body_part,istituzione,luogo,oggetto,umano]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_54,1522,_-nil-nil-run-[iobj-goal-here-sn2,xmod-prop-run-2,def_prop(here,[istituzione])])
+lf(Run Lyrics.txt_54,1522,cl84-nil-nil-run-[iobj-goal-here-sn2,xmod-prop-run-2,def_prop(here,[istituzione])])
+lf(Run Lyrics.txt_54,1522,cl83-nil-nil-be-[adj-(mod)-away-nil,subj-theme_bound-i-sn1,def_prop(away,[istituzione]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_55,1578,cl85-nil-nil-live-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Run Lyrics.txt_56,1634,_-nil-nil-run-[iobj-goal-you-sn2,xmod-prop-run-2,def_prop(you,[umano])])
+lf(Run Lyrics.txt_56,1634,cl87-nil-nil-run-[iobj-goal-you-sn2,xmod-prop-run-2,def_prop(you,[umano])])
+lf(Run Lyrics.txt_56,1634,cl86-nil-nil-be-[adj-(mod)-away-nil,subj-theme_bound-i-sn1,def_prop(away,[istituzione]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_57,1692,cl90-nil-nil-be-[subj-theme_bound-you-sn7,def_prop(you,[umano])])
+lf(Run Lyrics.txt_57,1692,cl89-nil-nil-need-[subj-experiencer-i-sn5,ncmod-loc_direct-sens-sn2,and(i,dont,sn5),def_prop(i,[umano]),def_prop(sens,[oggetto,strumento])])
+lf(Run Lyrics.txt_57,1692,cl88-nil-nil-come-[subj-agent-i-sn1,aux-have-nil,def_prop(i,[umano])])
+lf(Run Lyrics.txt_58,1752,cl92-nil-nil-leave-[subj-theme-run-sn2,def_prop(run,[astratto,attivita,evento,nquant,stato,tempo])])
+lf(Run Lyrics.txt_58,1752,nil-nil-nil-gonna-[subj-agent-run-sn2,def_prop(run,[astratto,attivita,evento,nquant,stato,tempo])])
+lf(Run Lyrics.txt_58,1752,cl91-nil-nil-be-[adj-temporal-today-nil,subj-theme_bound-you-sn3,subj-theme_bound-you-sn1,def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_59,1813,cl96-nil-nil-be-[xcomp-prop-way-sn9,subj-actor-you-sn8,xcomp-prop-way-sn5,xcomp-purpose-be-3,and(way,better,sn9),and(way,better,sn5),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(you,[umano]),def_prop(way,[astratto,attivita,oggetto,stato,strumento])])
+lf(Run Lyrics.txt_59,1813,cl95-nil-nil-get-[obj-prop-way-sn7,xcomp-purpose-be-4,subj-agent-you-sn6,subj-theme_unaff-there-sn4,aux-(is)-nil,and(way,better,sn7),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(you,[umano]),def_prop(there,[any])])
+lf(Run Lyrics.txt_59,1813,cl94-nil-nil-know-[subj-tema_nonaff-i-sn2,def_prop(i,[umano])])
+lf(Run Lyrics.txt_59,1813,cl93-nil-nil-cause-[subj-causer-i-sn2,subj-causer-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Run Lyrics.txt_60,1878,cl98-nil-nil-take-[obj-theme_aff-hand-sn3,subj-agent-you-sn2,and(hand,children-s,sn3),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_60,1878,cl97-nil-nil-run-[subj-tema_nonaff-im-sn1,def_prop(im,[legale])])
+lf(Run Lyrics.txt_60,1878,nil-nil-nil-gonna-[subj-agent-im-sn1,def_prop(im,[legale])])
+lf(Run Lyrics.txt_61,1941,cl100-nil-can-can-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(Run Lyrics.txt_61,1941,cl99-nil-nil-leave-[obj2-paziente-as_fast_as-sn3,obj-theme-nightmare-sn2,subj-theme-we-sn1,aux-are-nil,progr-leaving-nil,and(nightmare,this,sn2),def_prop(as_fast_as,[attivita]),def_prop(nightmare,[astratto,stato]),def_prop(we,[umano])])
+lf(Run Lyrics.txt_62,2004,_-nil-nil-run-[iobj-goal-friend-sn3,xmod-prop-run-4,iobj-goal-shelter-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(shelter,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_62,2004,cl101-nil-nil-run-[iobj-goal-friend-sn3,xmod-prop-run-4,iobj-goal-shelter-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(shelter,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_63,2067,cl102-nil-nil-come-[expl-it-nil,cmod-subord-come-before,iobj-goal-end-sn6,subj-agent-it-sn5,def_prop(end,[tempo]),def_prop(it,[any])])
+lf(Run Lyrics.txt_64,2131,_-nil-nil-run-[iobj-goal-friend-sn3,xmod-prop-run-4,iobj-goal-shelter-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(shelter,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_64,2131,cl103-nil-nil-run-[iobj-goal-friend-sn3,xmod-prop-run-4,iobj-goal-shelter-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(shelter,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_65,2196,cl104-nil-nil-come-[expl-it-nil,cmod-subord-come-before,iobj-goal-end-sn6,subj-agent-it-sn5,def_prop(end,[tempo]),def_prop(it,[any])])
+lf(Run Lyrics.txt_66,2262,_-nil-nil-run-[iobj-goal-friend-sn3,xmod-prop-run-4,iobj-goal-shelter-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(shelter,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_66,2262,cl105-nil-nil-run-[iobj-goal-friend-sn3,xmod-prop-run-4,iobj-goal-shelter-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(shelter,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_67,2329,cl106-nil-nil-come-[expl-it-nil,cmod-subord-come-before,iobj-goal-end-sn6,subj-agent-it-sn5,def_prop(end,[tempo]),def_prop(it,[any])])
+lf(Run Lyrics.txt_68,2397,_-nil-nil-run-[iobj-goal-friend-sn3,xmod-prop-run-4,iobj-goal-shelter-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(shelter,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_68,2397,cl107-nil-nil-run-[iobj-goal-friend-sn3,xmod-prop-run-4,iobj-goal-shelter-sn2,subj-agent-you-sn1,def_prop(friend,[umano]),def_prop(shelter,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Run Lyrics.txt_69,2466,cl108-nil-nil-come-[expl-it-nil,cmod-subord-come-before,iobj-goal-end-sn6,subj-agent-it-sn5,def_prop(end,[tempo]),def_prop(it,[any])])

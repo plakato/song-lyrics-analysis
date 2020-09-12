@@ -1,0 +1,55 @@
+"POLARITY, DISCOURSE MARKERS"
+
+His Life Of Academic Freedom Lyrics.txt_1-1  []-positive  []
+His Life Of Academic Freedom Lyrics.txt_2-3  []-negative  [fgb,neg]
+His Life Of Academic Freedom Lyrics.txt_3-6  []-positive  [bkc]
+His Life Of Academic Freedom Lyrics.txt_3-7  []-positive  []
+His Life Of Academic Freedom Lyrics.txt_4-10  []-positive  [fhd]
+His Life Of Academic Freedom Lyrics.txt_5-15  []-negative  [neg,neg]
+His Life Of Academic Freedom Lyrics.txt_6-21  [so-result]-negative  [fgb,fgb,neg]
+His Life Of Academic Freedom Lyrics.txt_7-29  []-positive  []
+His Life Of Academic Freedom Lyrics.txt_8-38  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+His Life Of Academic Freedom Lyrics.txt_1-1  [his,Life,of,Academic,Freedom,Lyrics,by,Swirlies]  [title]
+His Life Of Academic Freedom Lyrics.txt_2-3  [estless,and,numb]  [reject_expl_just(numb,[external,factive,explanation,background,objective]),propose_opin_neg(numb,[external,factive,explanation,background,objective])]
+His Life Of Academic Freedom Lyrics.txt_3-6  [it,oh,is,the,way,just]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+His Life Of Academic Freedom Lyrics.txt_3-7  [you,are]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+His Life Of Academic Freedom Lyrics.txt_4-10  [she,shines,like,gold]  [provide_expl_just(shine,[external,factive,narration,background,objective])]
+His Life Of Academic Freedom Lyrics.txt_5-15  [her,mind,is,far,from,being,dumb]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+His Life Of Academic Freedom Lyrics.txt_6-21  [so,what,starts,a,blush,of,mind,is]  [reject_expl_just(start,[external,factive,inception,background,objective]),provide_expl_just(start,[external,factive,inception,background,objective])]
+His Life Of Academic Freedom Lyrics.txt_7-29  [head,gives,to,heart]  [provide_expl_just(head,[external,factive,narration,background,objective]),provide_expl_just(give,[external,factive,narration,background,objective])]
+His Life Of Academic Freedom Lyrics.txt_8-38  [estate,of,thoughts,consigned]  [provide_expl_just(consign,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(His Life Of Academic Freedom Lyrics.txt_1-1)-[]
+2-(His Life Of Academic Freedom Lyrics.txt_2-3)-[primary-cold]
+3-(His Life Of Academic Freedom Lyrics.txt_3-6)-[]
+4-(His Life Of Academic Freedom Lyrics.txt_3-7)-[]
+half
+5-(His Life Of Academic Freedom Lyrics.txt_4-10)-[primary-vision,emotions-affection,emotions-glory]
+6-(His Life Of Academic Freedom Lyrics.txt_5-15)-[primary-concreteness]
+7-(His Life Of Academic Freedom Lyrics.txt_6-21)-[primary-vision,emotions-anxiety]
+8-(His Life Of Academic Freedom Lyrics.txt_7-29)-[primary-narcissism,primary-narcissism]
+9-(His Life Of Academic Freedom Lyrics.txt_8-38)-[secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(His Life Of Academic Freedom Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Swirlies-sn3,subj-theme_bound-Lyrics-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Life,sn1),def_prop(Swirlies,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(Lyrics,[informa,tecno])])
+lf(His Life Of Academic Freedom Lyrics.txt_2,3,cl2-nil-nil-numb-[subj-agent-estless-sn1,def_prop(estless,[istituzione])])
+lf(His Life Of Academic Freedom Lyrics.txt_3,6,cl3-nil-nil-be-[subj-theme_bound-you-sn5,adj-(mod)-just-nil,xcomp-prop-way-sn2,subj-theme_bound-oh-sn1,and(oh,it,sn1),def_prop(you,[umano]),def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(oh,[informa,tecno])])
+lf(His Life Of Academic Freedom Lyrics.txt_4,10,cl4-nil-nil-shine-[obj-theme-gold-sn2,subj-theme-she-sn1,def_prop(gold,[astratto,oggetto,sostanza]),def_prop(she,[umano])])
+lf(His Life Of Academic Freedom Lyrics.txt_5,15,cl5-nil-nil-be-[subj-theme_aff-mind-sn1,xcomp-prop-far-sn2,subj-theme_bound-mind-sn1,def_prop(mind,[astratto]),def_prop(far,[]),def_prop(mind,[astratto])])
+lf(His Life Of Academic Freedom Lyrics.txt_6,21,cl7-nil-nil-be-[subj-theme_bound-blush-sn1,def_prop(blush,[attivita])])
+lf(His Life Of Academic Freedom Lyrics.txt_6,21,cl6-nil-nil-start-[subj-agent-blush-sn1,def_prop(blush,[attivita])])
+lf(His Life Of Academic Freedom Lyrics.txt_7,29,cl9-nil-nil-give-[])
+lf(His Life Of Academic Freedom Lyrics.txt_7,29,cl8-nil-nil-head-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(His Life Of Academic Freedom Lyrics.txt_8,38,cl10-nil-nil-consign-[ncmod-specif-thought-sn2,subj-actor-you-sn1,def_prop(thought,[astratto]),def_prop(you,[umano])])

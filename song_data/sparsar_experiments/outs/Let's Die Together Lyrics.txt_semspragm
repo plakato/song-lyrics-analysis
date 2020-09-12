@@ -1,0 +1,66 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Let's Die Together Lyrics.txt_1-1  []-positive  []
+Let's Die Together Lyrics.txt_2-3  []-positive  []
+Let's Die Together Lyrics.txt_2-4  []-positive  []
+Let's Die Together Lyrics.txt_3-8  []-negative  [neg]
+Let's Die Together Lyrics.txt_3-9  []-positive  [fhd]
+Let's Die Together Lyrics.txt_4-14  []-positive  []
+Let's Die Together Lyrics.txt_5-19  []-negative  [neg]
+Let's Die Together Lyrics.txt_6-25  [when-temp_coinc]-negative  [neg,neg]
+Let's Die Together Lyrics.txt_7-34  []-negative  []
+Let's Die Together Lyrics.txt_8-42  []-negative  [neg]
+Let's Die Together Lyrics.txt_8-43  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Let's Die Together Lyrics.txt_1-1  [let-s,Die,together,Lyrics,by,Volcanoes]  [title]
+Let's Die Together Lyrics.txt_2-3  [every,time,that,we,try,to,pick,our,heads,up,.,we,try,to,pick]  [provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(pick,[external,factive,narration,background,objective]),provide_expl_just(head,[external,factive,narration,background,objective])]
+Let's Die Together Lyrics.txt_2-4  [our,heads,up]  [provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(pick,[external,factive,narration,background,objective]),provide_expl_just(head,[external,factive,narration,background,objective])]
+Let's Die Together Lyrics.txt_3-8  [the,weight,comes,crashing,down,on]  [reject_expl_just(crash,[external,factive,cause,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Let's Die Together Lyrics.txt_3-9  [,,on,our,shoulders,like,giants,standing,over]  [provide_expl_just(crash,[external,factive,cause,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Let's Die Together Lyrics.txt_4-14  [us]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Let's Die Together Lyrics.txt_5-19  [our,HEAVY,HEARTS,in,our,hands]  [reject_expl_just(hand,[external,factive,narration,background,objective])]
+Let's Die Together Lyrics.txt_6-25  [pick,through,my,brain,i,can,not,find,a,memory,of,when,we,were,not,happy]  [reject_expl_just(pick,[external,factive,narration,background,objective]),reject_expl_just(find,[external,nonfactive,narration,foreground,objective]),reject_expl_just(brain,[internal,factive,narration,background,objective])]
+Let's Die Together Lyrics.txt_7-34  [don-t,let,go,of,my,hand,this_time]  [provide_expl_just(don-t,[external,factive,narration,background,objective])]
+Let's Die Together Lyrics.txt_8-42  [i,can,not,tell]  [reject_expl_just(tell,[external,nonfactive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Let's Die Together Lyrics.txt_8-43  [you,that,it,is,alright]  [provide_expl_just(tell,[external,nonfactive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Let's Die Together Lyrics.txt_1-1)-[]
+2-(Let's Die Together Lyrics.txt_2-3)-[secondary-temporal_repere,secondary-temporal_repere,secondary-instru_behavior,secondary-instru_behavior,primary-narcissism,secondary-instru_behavior,secondary-instru_behavior]
+3-(Let's Die Together Lyrics.txt_2-4)-[primary-narcissism]
+4-(Let's Die Together Lyrics.txt_3-8)-[secondary-abstract_tought]
+5-(Let's Die Together Lyrics.txt_3-9)-[primary-narcissism,emotions-affection,primary-concreteness]
+half
+6-(Let's Die Together Lyrics.txt_4-14)-[]
+7-(Let's Die Together Lyrics.txt_5-19)-[primary-narcissism]
+8-(Let's Die Together Lyrics.txt_6-25)-[secondary-instru_behavior,primary-narcissism,secondary-instru_behavior,secondary-temporal_repere,emotions-positive_affect]
+9-(Let's Die Together Lyrics.txt_7-34)-[primary-narcissism]
+10-(Let's Die Together Lyrics.txt_8-42)-[secondary-social_behavior]
+11-(Let's Die Together Lyrics.txt_8-43)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Let's Die Together Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-volcano-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Die,sn1),and(Lyrics,together,sn1),def_prop(volcano,[oggetto]),def_prop(Lyrics,[informa,tecno])])
+lf(Let's Die Together Lyrics.txt_2,3,cl4-nil-nil-head-[adj-(mod)-up-nil,subj-actor-our-sn5,def_prop(our,[evaluative])])
+lf(Let's Die Together Lyrics.txt_2,3,cl3-nil-nil-pick-[])
+lf(Let's Die Together Lyrics.txt_2,3,cl2-nil-nil-try-[adj-temporal-time-nil,f2-sn1-that-sn2,subj-actor-we-sn1,and(time,every,sn3),def_prop(time,[tempo]),def_prop(that,[oggetto,umano]),def_prop(we,[umano])])
+lf(Let's Die Together Lyrics.txt_3,8,cl7-nil-nil-be-[ncmod-locativo-shoulder-sn4,subj-theme_bound-over-sn3,and(over,standing,sn3),def_prop(shoulder,[body_part,edible,oggetto,strumento,umano]),def_prop(over,[istituzione])])
+lf(Let's Die Together Lyrics.txt_3,8,cl6-nil-nil-crash-[obj-theme-down-sn2,xadj-result-crash-2,def_prop(down,[animato,attivita,body_part,oggetto,umano])])
+lf(Let's Die Together Lyrics.txt_3,8,cl5-nil-nil-come-[subj-agent-weight-sn1,def_prop(weight,[astratto,emotivo,nquant,oggetto,strumento])])
+lf(Let's Die Together Lyrics.txt_4,14,cl8-nil-nil-say-[obj-theme_unaff-us-sn1,def_prop(us,[umano])])
+lf(Let's Die Together Lyrics.txt_5,19,cl9-nil-nil-hand-[ncmod-modal-our-sn2,subj-agent-heart-sn1,and(heart,HEAVY,sn1),def_prop(our,[evaluative]),def_prop(heart,[astratto,body_part,edible,oggetto,strumento,umano])])
+lf(Let's Die Together Lyrics.txt_6,25,cl12-nil-nil-be-[xcomp-prop-memory-sn4,xcomp-purpose-can-4,ncmod-location-brain-sn2,def_prop(memory,[astratto,oggetto,strumento]),def_prop(brain,[astratto,body_part,edible,oggetto,umano])])
+lf(Let's Die Together Lyrics.txt_6,25,cl11-not-can-find-[])
+lf(Let's Die Together Lyrics.txt_6,25,cl10-nil-nil-pick-[obj-theme-i-sn3,subj-agent-you-sn1,def_prop(i,[umano]),def_prop(you,[umano])])
+lf(Let's Die Together Lyrics.txt_7,34,cl13-not-nil-don-t-[xcomp-purpose-go-2,xcomp-theme_aff-let-sn2,subj-agent-this_time-sn1,def_prop(let,[attivita]),def_prop(this_time,[any,evento,tempo])])
+lf(Let's Die Together Lyrics.txt_8,42,cl15-nil-nil-be-[xcomp-prop-alright-sn5,xcomp-theme-it-sn4,xcomp-prop-that-sn3,subj-theme_bound-you-sn2,def_prop(alright,[istituzione]),def_prop(it,[any]),def_prop(that,[oggetto,umano]),def_prop(you,[umano])])
+lf(Let's Die Together Lyrics.txt_8,42,cl14-not-can-tell-[subj-agent-you-sn1,def_prop(you,[umano])])

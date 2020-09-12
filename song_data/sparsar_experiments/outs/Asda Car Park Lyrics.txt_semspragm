@@ -1,0 +1,51 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Asda Car Park Lyrics.txt_1-1  []-positive  []
+Asda Car Park Lyrics.txt_2-3  []-negative  [fgb]
+Asda Car Park Lyrics.txt_3-6  []-positive  [fgb]
+Asda Car Park Lyrics.txt_3-7  []-positive  []
+Asda Car Park Lyrics.txt_4-11  []-negative  [neg]
+Asda Car Park Lyrics.txt_4-12  [so-result]-positive  [fgb,neg]
+Asda Car Park Lyrics.txt_5-17  []-negative  [neg]
+Asda Car Park Lyrics.txt_5-18  [so-result]-negative  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Asda Car Park Lyrics.txt_1-1  [Asda,Car,Park,Lyrics,by,Rusko]  [title]
+Asda Car Park Lyrics.txt_2-3  [and,through,those,eyes,you,don-t,recognize,my,face]  [provide_expl_just(recognize,[external,factive,narration,foreground,objective])]
+Asda Car Park Lyrics.txt_3-6  [and,i,take,you,with,me]  [provide_expl_just(stay,[external,factive,explanation,background,objective])]
+Asda Car Park Lyrics.txt_3-7  [every,place,i,stay]  [provide_expl_just(stay,[external,factive,explanation,background,objective])]
+Asda Car Park Lyrics.txt_4-11  [never,thought]  [reject_expl_just(think,[external,factive,narration,foreground,objective]),reject_expl_just(feel,[external,factive,narration,background,objective])]
+Asda Car Park Lyrics.txt_4-12  [i,had,feel,so,alone]  [provide_expl_just(think,[external,factive,narration,foreground,objective]),provide_expl_just(feel,[external,factive,narration,background,objective])]
+Asda Car Park Lyrics.txt_5-17  [never,thought]  [reject_expl_just(have,[external,factive,narration,foreground,objective])]
+Asda Car Park Lyrics.txt_5-18  [i,had,be,so,afraid]  [reject_expl_just(have,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Asda Car Park Lyrics.txt_1-1)-[]
+2-(Asda Car Park Lyrics.txt_2-3)-[primary-narcissism,primary-narcissism]
+3-(Asda Car Park Lyrics.txt_3-6)-[]
+4-(Asda Car Park Lyrics.txt_3-7)-[secondary-temporal_repere,primary-concreteness]
+half
+5-(Asda Car Park Lyrics.txt_4-11)-[secondary-abstract_tought]
+6-(Asda Car Park Lyrics.txt_4-12)-[]
+7-(Asda Car Park Lyrics.txt_5-17)-[secondary-abstract_tought]
+8-(Asda Car Park Lyrics.txt_5-18)-[emotions-anxiety]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Asda Car Park Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Rusko-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Park,sn1),and(Lyrics,Asda,sn1),def_prop(Rusko,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Asda Car Park Lyrics.txt_2,3,cl2-not-nil-recognize-[cmod-subord-recognize-",obj-stimulus-face-sn3,ncmod-location-eye-sn2,subj-agent-you-sn1,aux-do-nil,and(eye,those,sn2),def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Asda Car Park Lyrics.txt_3,6,cl4-nil-nil-stay-[xadj-theme-place-sn6,subj-agent-i-sn5,cmod-subord-stay-",iobj-goal-me-sn3,and(place,every,sn6),def_prop(place,[astratto,attivita,informa,luogo,stato]),def_prop(i,[umano]),def_prop(me,[umano])])
+lf(Asda Car Park Lyrics.txt_3,6,cl3-nil-nil-take-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,i,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Asda Car Park Lyrics.txt_4,11,cl6-nil-nil-feel-[subj-experiencer-i-sn2,aux-had-nil,def_prop(i,[umano])])
+lf(Asda Car Park Lyrics.txt_4,11,cl5-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Asda Car Park Lyrics.txt_5,17,cl9-nil-nil-be-[subj-prop-i-sn2,def_prop(i,[umano])])
+lf(Asda Car Park Lyrics.txt_5,17,cl8-nil-nil-have-[subj-experiencer-i-sn2,def_prop(i,[umano])])
+lf(Asda Car Park Lyrics.txt_5,17,cl7-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])

@@ -1,0 +1,121 @@
+"POLARITY, DISCOURSE MARKERS"
+
+He was our boy Lyrics.txt_1-1  []-positive  []
+He was our boy Lyrics.txt_2-3  []-negative  [neg,fgb]
+He was our boy Lyrics.txt_3-6  []-positive  []
+He was our boy Lyrics.txt_3-7  []-positive  [fgb]
+He was our boy Lyrics.txt_3-8  [while-temp_coinc]-none  []
+He was our boy Lyrics.txt_4-12  []-positive  []
+He was our boy Lyrics.txt_4-13  []-positive  [fgb]
+He was our boy Lyrics.txt_5-18  [so-result]-positive  [fgb]
+He was our boy Lyrics.txt_6-24  []-positive  []
+He was our boy Lyrics.txt_7-31  []-positive  []
+He was our boy Lyrics.txt_8-39  []-negative  [neg]
+He was our boy Lyrics.txt_9-48  []-positive  []
+He was our boy Lyrics.txt_9-49  []-positive  []
+He was our boy Lyrics.txt_10-59  []-positive  []
+He was our boy Lyrics.txt_11-70  []-positive  []
+He was our boy Lyrics.txt_12-82  []-positive  []
+He was our boy Lyrics.txt_13-95  []-negative  [neg]
+He was our boy Lyrics.txt_14-109  []-negative  [neg]
+He was our boy Lyrics.txt_15-124  []-question  [fgb]
+He was our boy Lyrics.txt_15-125  []-positive  []
+He was our boy Lyrics.txt_16-140  []-positive  [ack]
+He was our boy Lyrics.txt_17-157  []-question  []
+He was our boy Lyrics.txt_18-175  []-question  [neg]
+He was our boy Lyrics.txt_19-194  []-question  []
+He was our boy Lyrics.txt_20-214  []-negative  [neg]
+He was our boy Lyrics.txt_21-235  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+He was our boy Lyrics.txt_1-1  [he,was,our,boy,Lyrics,by,two,Inch,Astronaut]  [title]
+He was our boy Lyrics.txt_2-3  [dental,tools,across,the,floor,lie,inert,and,flecked,with,blood]  [reject_expl_just(lie,[external,factive,explanation,background,objective]),propose_opin_neg(lie,[external,factive,explanation,background,objective])]
+He was our boy Lyrics.txt_3-6  [i,see]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(hum,[external,factive,narration,foreground,objective]),provide_expl_just(wait,[external,factive,narration,background,objective])]
+He was our boy Lyrics.txt_3-7  [and,you,are,humming]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(hum,[external,factive,narration,foreground,objective]),provide_expl_just(wait,[external,factive,narration,background,objective])]
+He was our boy Lyrics.txt_3-8  [while,you,wait]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(hum,[external,factive,narration,foreground,objective]),provide_expl_just(wait,[external,factive,narration,background,objective])]
+He was our boy Lyrics.txt_4-12  [they,call]  [provide_expl_just(mispronounce,[external,factive,circumstance,background,objective])]
+He was our boy Lyrics.txt_4-13  [you,up,and,your,name,mispronounce]  [provide_expl_just(mispronounce,[external,factive,circumstance,background,objective])]
+He was our boy Lyrics.txt_5-18  [so,it,is,all,the,sweeter]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+He was our boy Lyrics.txt_6-24  [he,was,our,boy]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+He was our boy Lyrics.txt_7-31  [now,he,is,a,dentist]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+He was our boy Lyrics.txt_8-39  [our,little,champion]  [reject_expl_just(champion,[external,factive,narration,background,objective])]
+He was our boy Lyrics.txt_9-48  [now,spit,go]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(wash,[external,factive,narration,background,objective])]
+He was our boy Lyrics.txt_9-49  [wash,your,face]  [provide_expl_just(go,[external,factive,narration,background,objective]),provide_expl_just(wash,[external,factive,narration,background,objective])]
+He was our boy Lyrics.txt_10-59  [your,next,appointment,is,in,four,months,time]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+He was our boy Lyrics.txt_11-70  [he,was,our,boy]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+He was our boy Lyrics.txt_12-82  [now,he,is,a,dentist]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+He was our boy Lyrics.txt_13-95  [our,little,champion]  [reject_expl_just(champion,[external,factive,narration,background,objective])]
+He was our boy Lyrics.txt_14-109  [our,big,mistake]  [reject_expl_just(mistake,[external,factive,narration,background,objective])]
+He was our boy Lyrics.txt_15-124  [ever,did,what,?]  [provide_expl_just(do,[internal,factive,narration,background,objective])]
+He was our boy Lyrics.txt_15-125  [do]  [provide_expl_just(do,[internal,factive,narration,background,objective])]
+He was our boy Lyrics.txt_16-140  [raised,him,right,paid,him,attention]  [provide_expl_just(pay,[external,factive,narration,foreground,objective])]
+He was our boy Lyrics.txt_17-157  [how,?]  [provide_expl_just(say,[internal,factive,narration,background,objective])]
+He was our boy Lyrics.txt_18-175  [stop,can,he,times,how_many,?]  [provide_expl_just(stop,[internal,nonfactive,narration,background,objective])]
+He was our boy Lyrics.txt_19-194  [months,how_many,days,how_many,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+He was our boy Lyrics.txt_20-214  [stop]  reject_expl_opin(nil,[])
+He was our boy Lyrics.txt_21-235  [stop]  reject_expl_opin(nil,[])
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(He was our boy Lyrics.txt_1-1)-[]
+2-(He was our boy Lyrics.txt_2-3)-[primary-concreteness,primary-brink,primary-passivity,primary-passivity,primary-narcissism]
+3-(He was our boy Lyrics.txt_3-6)-[primary-vision]
+4-(He was our boy Lyrics.txt_3-7)-[]
+5-(He was our boy Lyrics.txt_3-8)-[secondary-temporal_repere]
+6-(He was our boy Lyrics.txt_4-12)-[secondary-social_behavior]
+7-(He was our boy Lyrics.txt_4-13)-[]
+8-(He was our boy Lyrics.txt_5-18)-[primary-taste]
+9-(He was our boy Lyrics.txt_6-24)-[]
+10-(He was our boy Lyrics.txt_7-31)-[secondary-temporal_repere]
+11-(He was our boy Lyrics.txt_8-39)-[]
+12-(He was our boy Lyrics.txt_9-48)-[secondary-temporal_repere,primary-orality]
+13-(He was our boy Lyrics.txt_9-49)-[primary-water,primary-narcissism]
+half
+14-(He was our boy Lyrics.txt_10-59)-[secondary-temporal_repere,secondary-temporal_repere]
+15-(He was our boy Lyrics.txt_11-70)-[]
+16-(He was our boy Lyrics.txt_12-82)-[secondary-temporal_repere]
+17-(He was our boy Lyrics.txt_13-95)-[]
+18-(He was our boy Lyrics.txt_14-109)-[secondary-abstract_tought]
+19-(He was our boy Lyrics.txt_15-124)-[secondary-temporal_repere]
+20-(He was our boy Lyrics.txt_15-125)-[]
+21-(He was our boy Lyrics.txt_16-140)-[secondary-moral_imperative,secondary-instru_behavior]
+22-(He was our boy Lyrics.txt_17-157)-[]
+23-(He was our boy Lyrics.txt_18-175)-[secondary-restraint,secondary-temporal_repere]
+24-(He was our boy Lyrics.txt_19-194)-[secondary-temporal_repere]
+25-(He was our boy Lyrics.txt_20-214)-[secondary-restraint]
+26-(He was our boy Lyrics.txt_21-235)-[secondary-restraint]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(He was our boy Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-astronaut-sn4,xcomp-theme_aff-Lyrics-sn3,xcomp-prop-boy-sn2,subj-theme_bound-he-sn1,and(astronaut,two,sn4),and(astronaut,Inch,sn4),def_prop(astronaut,[umano]),def_prop(Lyrics,[informa,tecno]),def_prop(boy,[oggetto,strumento]),def_prop(he,[umano])])
+lf(He was our boy Lyrics.txt_2,3,cl2-nil-nil-lie-[ncmod-comitativo-blood-sn5,xcomp-prop-flecked-sn4,ncmod-locativo-floor-sn2,subj-actor-tool-sn1,and(flecked,inert,sn4),and(tool,dental,sn1),def_prop(blood,[astratto,body_part,istituzione,umano]),def_prop(flecked,[istituzione]),def_prop(floor,[astratto,attivita,informa,oggetto,strumento]),def_prop(tool,[oggetto,strumento])])
+lf(He was our boy Lyrics.txt_3,6,cl5-nil-nil-wait-[subj-actor-you-sn3,cmod-subord-wait-",def_prop(you,[umano])])
+lf(He was our boy Lyrics.txt_3,6,cl4-nil-nil-hum-[subj-actor-you-sn2,aux-are-nil,progr-humming-nil,def_prop(you,[umano])])
+lf(He was our boy Lyrics.txt_3,6,cl3-nil-nil-see-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(He was our boy Lyrics.txt_4,12,cl7-nil-nil-mispronounce-[subj-agent-you-sn4,def_prop(you,[umano])])
+lf(He was our boy Lyrics.txt_4,12,cl6-nil-nil-call-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(He was our boy Lyrics.txt_5,18,cl8-nil-nil-be-[xcomp-prop-sweeter-sn2,subj-theme_bound-it-sn1,and(sweeter,all,sn2),def_prop(sweeter,[istituzione]),def_prop(it,[any])])
+lf(He was our boy Lyrics.txt_6,24,cl9-nil-nil-be-[xcomp-prop-boy-sn2,subj-theme_bound-he-sn1,def_prop(boy,[oggetto,strumento]),def_prop(he,[umano])])
+lf(He was our boy Lyrics.txt_7,31,cl10-nil-nil-be-[xcomp-prop-dentist-sn2,subj-theme_bound-he-sn1,def_prop(dentist,[oggetto,strumento,umano]),def_prop(he,[umano])])
+lf(He was our boy Lyrics.txt_8,39,cl11-nil-nil-champion-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(He was our boy Lyrics.txt_9,48,cl13-nil-nil-wash-[obj-theme_aff-face-sn5,subj-actor-you-sn4,def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(He was our boy Lyrics.txt_9,48,cl12-nil-nil-go-[subj-agent-spit-sn1,def_prop(spit,[attivita,oggetto,strumento])])
+lf(He was our boy Lyrics.txt_10,59,cl14-nil-nil-be-[xcomp-prop-time-sn2,subj-theme_bound-appointment-sn1,and(appointment,next,sn1),def_prop(time,[tempo]),def_prop(appointment,[attivita,oggetto,strumento])])
+lf(He was our boy Lyrics.txt_11,70,cl15-nil-nil-be-[xcomp-prop-boy-sn2,subj-theme_bound-he-sn1,def_prop(boy,[oggetto,strumento]),def_prop(he,[umano])])
+lf(He was our boy Lyrics.txt_12,82,cl16-nil-nil-be-[xcomp-prop-dentist-sn2,subj-theme_bound-he-sn1,def_prop(dentist,[oggetto,strumento,umano]),def_prop(he,[umano])])
+lf(He was our boy Lyrics.txt_13,95,cl17-nil-nil-champion-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(He was our boy Lyrics.txt_14,109,cl18-nil-nil-mistake-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(He was our boy Lyrics.txt_15,124,cl19-nil-nil-do-[subj-theme_unaff-pro-nil,aux-do-nil,subj-theme_unaff-what-sn1,aux-did-nil,def_prop(what,[oggetto])])
+lf(He was our boy Lyrics.txt_16,140,cl20-nil-nil-pay-[obj-theme_aff-attention-sn3,obj-goal-him-sn2,subj-agent-right-sn1,and(right,him,sn1),def_prop(attention,[astratto,attivita]),def_prop(him,[umano]),def_prop(right,[soggettivo])])
+lf(He was our boy Lyrics.txt_17,157,cl21-nil-nil-say-[])
+lf(He was our boy Lyrics.txt_18,175,cl22-nil-can-stop-[subj-agent-he-sn1,def_prop(he,[umano])])
+lf(He was our boy Lyrics.txt_19,194,cl23-nil-nil-be-[subj-theme_bound-female-sn1,and(female,how_many,sn1),def_prop(female,[tempo])])
+lf(He was our boy Lyrics.txt_20,214,cl24-nil-nil-say-[obj-theme_unaff-stop-sn1,def_prop(stop,[attivita,evento,luogo,oggetto,strumento])])
+lf(He was our boy Lyrics.txt_21,235,cl25-nil-nil-say-[obj-theme_unaff-stop-sn1,def_prop(stop,[attivita,evento,luogo,oggetto,strumento])])

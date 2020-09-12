@@ -1,0 +1,277 @@
+"POLARITY, DISCOURSE MARKERS"
+
+At 30.txt_1-1  []-positive  []
+At 30.txt_2-3  []-positive  []
+At 30.txt_3-6  []-positive  []
+At 30.txt_4-10  []-negative  [neg]
+At 30.txt_5-15  []-negative  [neg,fgb]
+At 30.txt_6-21  []-negative  [neg]
+At 30.txt_7-28  []-positive  []
+At 30.txt_8-36  []-positive  []
+At 30.txt_8-37  []-negative  [neg]
+At 30.txt_9-45  []-positive  []
+At 30.txt_10-55  []-positive  []
+At 30.txt_11-66  []-positive  []
+At 30.txt_11-67  []-positive  []
+At 30.txt_12-79  []-positive  [neg]
+At 30.txt_12-80  []-positive  []
+At 30.txt_13-93  []-suspension  [neg]
+At 30.txt_14-108  []-positive  []
+At 30.txt_15-123  []-positive  []
+At 30.txt_16-139  [(as)-temp_coinc]-positive  []
+At 30.txt_17-156  []-negative  [neg,neg,neg]
+At 30.txt_18-174  []-suspension  []
+At 30.txt_19-193  []-positive  []
+At 30.txt_20-213  []-positive  []
+At 30.txt_20-214  [so-result]-positive  [fgb,neg]
+At 30.txt_21-235  []-negative  [neg]
+At 30.txt_22-257  []-positive  [neg]
+At 30.txt_23-281  []-suspension  []
+At 30.txt_24-305  []-negative  [neg,neg]
+At 30.txt_25-330  []-suspension  [neg,neg]
+At 30.txt_26-356  []-suspension  [fgb,neg,neg]
+At 30.txt_27-383  []-positive  []
+At 30.txt_27-384  []-suspension  []
+At 30.txt_28-412  []-positive  []
+At 30.txt_29-441  [(as)-temp_coinc]-positive  []
+At 30.txt_30-471  []-negative  [neg,neg]
+At 30.txt_31-502  []-suspension  []
+At 30.txt_32-534  []-positive  []
+At 30.txt_32-535  []-positive  []
+At 30.txt_33-567  []-positive  []
+At 30.txt_34-601  []-negative  [neg]
+At 30.txt_34-602  [when-temp_coinc]-positive  []
+At 30.txt_35-637  []-negative  [neg]
+At 30.txt_36-674  []-positive  []
+At 30.txt_37-711  []-negative  [neg]
+At 30.txt_38-749  []-positive  []
+At 30.txt_39-788  []-positive  []
+At 30.txt_40-828  []-suspension  []
+At 30.txt_41-870  []-question  []
+At 30.txt_42-912  []-positive  []
+At 30.txt_43-956  []-negative  [neg]
+At 30.txt_43-957  []-negative  [neg]
+At 30.txt_44-1001  []-suspension  []
+At 30.txt_45-1047  []-positive  []
+At 30.txt_45-1048  []-positive  []
+At 30.txt_46-1093  []-negative  []
+At 30.txt_47-1140  []-positive  []
+At 30.txt_47-1141  []-positive  []
+At 30.txt_48-1189  []-positive  [fgb]
+At 30.txt_49-1238  []-question  [neg,fgb]
+At 30.txt_49-1239  []-positive  []
+At 30.txt_50-1289  []-positive  []
+At 30.txt_51-1340  []-positive  []
+At 30.txt_52-1392  []-question  [neg,fgb]
+At 30.txt_52-1393  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+At 30.txt_1-1  [at,30,by,Queensrÿche]  [title]
+At 30.txt_2-3  [whatever,happens,now]  [provide_expl_just(happen,[external,factive,narration,background,objective])]
+At 30.txt_3-6  [is,my,control,beyond]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+At 30.txt_4-10  [emotion,has,abandoned,me]  [reject_expl_just(have,[external,factive,explanation,background,objective]),propose_opin_neg(have,[external,factive,explanation,background,objective])]
+At 30.txt_5-15  [faded,away,and,me,left]  [reject_expl_just(leave,[external,factive,circumstance,foreground,objective]),propose_opin_neg(leave,[external,factive,circumstance,foreground,objective])]
+At 30.txt_6-21  [cold]  reject_expl_opin(nil,[])
+At 30.txt_7-28  [the,call-s,been,made]  [provide_expl_just(make,[external,factive,cause,foreground,objective])]
+At 30.txt_8-36  [i,am,here]  [provide_expl_just(atmosphere,[internal,factive,narration,background,objective])]
+At 30.txt_8-37  [,,dependent,on,the,atmosphere]  [reject_expl_just(atmosphere,[internal,factive,narration,background,objective])]
+At 30.txt_9-45  [contained,this,inside,i,mask,wear]  [provide_expl_just(wear,[external,factive,narration,background,objective])]
+At 30.txt_10-55  [my,breathing,is,all,i,here]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+At 30.txt_11-66  [i,have,got]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(switch,[external,factive,narration,background,objective])]
+At 30.txt_11-67  [the,target,switch,in,hand]  [provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(switch,[external,factive,narration,background,objective])]
+At 30.txt_12-79  [just,feel,i,numb]  [provide_expl_just(numb,[external,factive,narration,background,objective]),provide_expl_just(scan,[external,factive,narration,foreground,objective])]
+At 30.txt_12-80  [,,scanning,the]  [provide_expl_just(numb,[external,factive,narration,background,objective]),provide_expl_just(scan,[external,factive,narration,foreground,objective])]
+At 30.txt_13-93  [ground,at,the,hell,that,i,will,make]  [provide_expl_just(hell,[internal,factive,narration,background,objective]),provide_expl_just(make,[external,nonfactive,narration,background,objective])]
+At 30.txt_14-108  [i,am,above,it,in,the,air]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+At 30.txt_15-123  [flying,high,above,the,city,walls]  [provide_expl_just(fly,[external,factive,narration,foreground,objective])]
+At 30.txt_16-139  [as,the,insurgents,run]  [provide_expl_just(run,[external,factive,narration,background,objective])]
+At 30.txt_17-156  [can,not,stand,their,ground,against,the,hell]  [reject_expl_just(stand,[external,nonfactive,narration,foreground,objective])]
+At 30.txt_18-174  [that,i,will,make]  [provide_expl_just(make,[external,nonfactive,narration,background,objective])]
+At 30.txt_19-193  [i,am,above,it,in,the,air]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+At 30.txt_20-213  [i,see]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+At 30.txt_20-214  [it,all,so,clear,at,30,0,feet,above,the,enemy]  [provide_expl_just(see,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+At 30.txt_21-235  [no_one,can,see,me]  [reject_expl_just(see,[external,nonfactive,narration,foreground,objective])]
+At 30.txt_22-257  [press,execute]  [provide_expl_just(press,[external,factive,narration,background,objective])]
+At 30.txt_23-281  [i,will,send,the,pigs,away]  [provide_expl_just(send,[external,nonfactive,narration,background,objective])]
+At 30.txt_24-305  [the,tortured,painful,cries]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+At 30.txt_25-330  [will,never,fall,upon,my,ears]  [provide_expl_just(fall,[external,nonfactive,narration,background,objective])]
+At 30.txt_26-356  [and,never,elder,my,years,stain]  [provide_expl_just(stain,[external,factive,narration,background,objective])]
+At 30.txt_27-383  [my,heartbeat,is,all]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,nonfactive,narration,background,objective])]
+At 30.txt_27-384  [i,will,feel]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(feel,[external,nonfactive,narration,background,objective])]
+At 30.txt_28-412  [infrared,tracks,the,land]  [provide_expl_just(track,[external,factive,narration,background,objective])]
+At 30.txt_29-441  [as,the,weapons,lock]  [provide_expl_just(lock,[external,factive,narration,background,objective])]
+At 30.txt_30-471  [there,is,no,defense,against]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+At 30.txt_31-502  [the,Hell,that,i,will,make]  [provide_expl_just(make,[external,nonfactive,narration,background,objective])]
+At 30.txt_32-534  [i,am,above,it,in,the,air]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+At 30.txt_32-535  [i,am,above,it]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+At 30.txt_33-567  [moving,past,the,speed,of,sound]  [provide_expl_just(move,[external,factive,cause,foreground,objective]),suggest(move,[external,factive,cause,foreground,objective])]
+At 30.txt_34-601  [i,will,not,see,them]  [reject_expl_just(hit,[external,factive,cause,foreground,objective])]
+At 30.txt_34-602  [when,they,hit,the,ground]  [provide_expl_just(hit,[external,factive,cause,foreground,objective])]
+At 30.txt_35-637  [no,hiding,from,the,Hell,that,i,make]  [reject_expl_just(hide,[external,factive,narration,foreground,objective]),reject_expl_just(make,[external,factive,narration,background,objective])]
+At 30.txt_36-674  [i,am,above,it,in,the,air]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+At 30.txt_37-711  [i,am,a,shadow]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+At 30.txt_38-749  [over,the,rooftops,of,the,city,he,word]  [provide_expl_just(word,[external,factive,narration,background,objective])]
+At 30.txt_39-788  [travels,fast,from,cell,phone,to,cell,phone]  [provide_expl_just(travel,[external,factive,narration,background,objective])]
+At 30.txt_40-828  [faces,their,see,to,demand,they,!]  [provide_expl_just(see,[internal,factive,narration,foreground,objective]),provide_expl_just(demand,[internal,factive,narration,foreground,objective])]
+At 30.txt_41-870  [veil,the,behind,hidden,women,the,of,?]  [provide_expl_just(hide,[internal,factive,narration,background,objective])]
+At 30.txt_42-912  [flaming,oil,blackens,the,sky]  [provide_expl_just(flame,[external,factive,narration,foreground,objective]),provide_expl_just(blacken,[external,factive,narration,background,objective])]
+At 30.txt_43-956  [i,don-t,know,why,their,hate,is,the,.]  [reject_expl_just(know,[external,factive,cause,foreground,objective])]
+At 30.txt_43-957  [their,hate,is,the]  [reject_expl_just(know,[external,factive,cause,foreground,objective])]
+At 30.txt_44-1001  [reason,for,the,Hell,that,i,make]  [provide_expl_just(make,[external,factive,narration,background,objective])]
+At 30.txt_45-1047  [i,am,above,it,in,the,air]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+At 30.txt_45-1048  [i,am,above,it]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+At 30.txt_46-1093  [gazing,down,at,the,burning,land]  [provide_expl_just(gaze,[external,factive,narration,foreground,objective])]
+At 30.txt_47-1140  [i,am,the,creator,of,this,new]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+At 30.txt_47-1141  [Promised,land]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+At 30.txt_48-1189  [and,i,wonder]  [provide_expl_just(wonder,[external,factive,narration,background,objective])]
+At 30.txt_49-1238  [make,did,hell,the,what,?]  [provide_expl_just(make,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+At 30.txt_49-1239  [i]  [provide_expl_just(make,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+At 30.txt_50-1289  [i,am,above,it,in,the,air]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+At 30.txt_51-1340  [i,am,above,it]  [provide_expl_just(it,[internal,factive,narration,background,objective])]
+At 30.txt_52-1392  [make,did,hell,the,what,?]  [provide_expl_just(make,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+At 30.txt_52-1393  [i]  [provide_expl_just(make,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(At 30.txt_1-1)-[primary-concreteness]
+2-(At 30.txt_2-3)-[secondary-temporal_repere]
+3-(At 30.txt_3-6)-[secondary-restraint]
+4-(At 30.txt_4-10)-[]
+5-(At 30.txt_5-15)-[primary-diffusion,primary-concreteness]
+6-(At 30.txt_6-21)-[primary-cold]
+7-(At 30.txt_7-28)-[secondary-social_behavior,primary-counscious]
+8-(At 30.txt_8-36)-[primary-concreteness]
+9-(At 30.txt_8-37)-[secondary-social_behavior,primary-height]
+10-(At 30.txt_9-45)-[primary-concreteness]
+11-(At 30.txt_10-55)-[primary-concreteness]
+12-(At 30.txt_11-66)-[]
+13-(At 30.txt_11-67)-[primary-narcissism]
+14-(At 30.txt_12-79)-[primary-cold]
+15-(At 30.txt_12-80)-[]
+16-(At 30.txt_13-93)-[primary-concreteness,secondary-instru_behavior]
+17-(At 30.txt_14-108)-[primary-height]
+18-(At 30.txt_15-123)-[primary-height,primary-height,primary-brink]
+19-(At 30.txt_16-139)-[]
+20-(At 30.txt_17-156)-[secondary-temporal_repere]
+21-(At 30.txt_18-174)-[secondary-instru_behavior]
+22-(At 30.txt_19-193)-[primary-height]
+23-(At 30.txt_20-213)-[primary-vision]
+24-(At 30.txt_20-214)-[primary-concreteness,primary-narcissism,primary-height,emotions-aggression]
+25-(At 30.txt_21-235)-[primary-vision]
+26-(At 30.txt_22-257)-[]
+27-(At 30.txt_23-281)-[primary-concreteness]
+28-(At 30.txt_24-305)-[emotions-aggression,emotions-expressive_beh]
+29-(At 30.txt_25-330)-[primary-descent,primary-sound]
+30-(At 30.txt_26-356)-[secondary-temporal_repere]
+31-(At 30.txt_27-383)-[]
+32-(At 30.txt_27-384)-[]
+half
+33-(At 30.txt_28-412)-[]
+34-(At 30.txt_29-441)-[emotions-aggression,secondary-restraint]
+35-(At 30.txt_30-471)-[secondary-temporal_repere]
+36-(At 30.txt_31-502)-[secondary-instru_behavior]
+37-(At 30.txt_32-534)-[primary-height]
+38-(At 30.txt_32-535)-[primary-height]
+39-(At 30.txt_33-567)-[secondary-temporal_repere,primary-sound]
+40-(At 30.txt_34-601)-[primary-vision,secondary-abstract_tought]
+41-(At 30.txt_34-602)-[secondary-temporal_repere,emotions-aggression]
+42-(At 30.txt_35-637)-[secondary-instru_behavior]
+43-(At 30.txt_36-674)-[primary-height]
+44-(At 30.txt_37-711)-[primary-diffusion]
+45-(At 30.txt_38-749)-[primary-concreteness]
+46-(At 30.txt_39-788)-[primary-voyage,primary-orality]
+47-(At 30.txt_40-828)-[primary-narcissism,primary-vision]
+48-(At 30.txt_41-870)-[primary-diffusion,primary-concreteness]
+49-(At 30.txt_42-912)-[primary-height]
+50-(At 30.txt_43-956)-[secondary-abstract_tought,secondary-abstract_tought,emotions-aggression]
+51-(At 30.txt_43-957)-[emotions-aggression]
+52-(At 30.txt_44-1001)-[secondary-abstract_tought,secondary-instru_behavior]
+53-(At 30.txt_45-1047)-[primary-height]
+54-(At 30.txt_45-1048)-[primary-height]
+55-(At 30.txt_46-1093)-[primary-vision,primary-concreteness]
+56-(At 30.txt_47-1140)-[]
+57-(At 30.txt_47-1141)-[]
+58-(At 30.txt_48-1189)-[emotions-glory]
+59-(At 30.txt_49-1238)-[secondary-instru_behavior]
+60-(At 30.txt_49-1239)-[]
+61-(At 30.txt_50-1289)-[primary-height]
+62-(At 30.txt_51-1340)-[primary-height]
+63-(At 30.txt_52-1392)-[secondary-instru_behavior]
+64-(At 30.txt_52-1393)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(At 30.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Queensrÿche-sn2,ncmod-modale-30-sn1,def_prop(Queensrÿche,[istituzione,umano]),def_prop(30,[nquant])])
+lf(At 30.txt_2,3,cl2-nil-nil-happen-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(At 30.txt_3,6,cl3-nil-nil-be-[adj-subj_disc-beyond-sn2,subj-theme_bound-control-sn1,def_prop(beyond,[istituzione]),def_prop(control,[astratto,attivita,informa,oggetto,relat,strumento,umano])])
+lf(At 30.txt_4,10,cl4-nil-nil-have-[xcomp-tema_bound-me-sn2,subj-experiencer-emotion-sn1,and(me,abandoned,sn2),def_prop(me,[umano]),def_prop(emotion,[emotivo])])
+lf(At 30.txt_5,15,cl5-nil-nil-leave-[subj-theme-you-sn3,def_prop(you,[umano])])
+lf(At 30.txt_6,21,cl6-nil-nil-say-[])
+lf(At 30.txt_7,28,cl7-nil-nil-make-[subj-agent-call-s-sn1,def_prop(call-s,[attivita,informa])])
+lf(At 30.txt_8,36,cl8-nil-nil-be-[xadj-adj-dependent-adj1,ncmod-locativo-atmosphere-sn3,xcomp-prop-here-sn2,subj-theme_bound-i-sn1,def_prop(dependent,_941834),def_prop(atmosphere,[luogo,oggetto,stato]),def_prop(here,[istituzione]),def_prop(i,[umano])])
+lf(At 30.txt_9,45,cl9-nil-nil-wear-[ncmod-locativo-i-sn2,subj-experiencer-you-sn1,def_prop(i,[umano]),def_prop(you,[umano])])
+lf(At 30.txt_10,55,cl10-nil-nil-be-[xcomp-prop-all-sn2,subj-theme_bound-i-sn1,def_prop(all,[_942108]),def_prop(i,[umano])])
+lf(At 30.txt_11,66,cl12-nil-nil-switch-[ncmod-locativo-hand-sn3,subj-agent-target-sn2,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(target,[attivita,informa,luogo,oggetto,strumento])])
+lf(At 30.txt_11,66,cl11-nil-nil-get-[subj-experiencer-you-sn1,aux-have-nil,def_prop(you,[umano])])
+lf(At 30.txt_12,79,cl14-nil-nil-scan-[subj-agent-you-sn3,adj-(mod)-numb-nil,ncmod-modal-feel-sn2,def_prop(you,[umano]),def_prop(feel,[astratto,attivita])])
+lf(At 30.txt_12,79,cl13-nil-nil-numb-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(At 30.txt_13,93,cl16-nil-will-make-[xadj-adj-ground-adj2,obj-goal-hell-sn1,def_prop(ground,_942722),def_prop(hell,[attivita,evento,luogo])])
+lf(At 30.txt_13,93,cl15-nil-nil-be-[ncmod-locativo-hell-sn1,def_prop(hell,[attivita,evento,luogo])])
+lf(At 30.txt_14,108,cl17-nil-nil-be-[ncmod-locativo-air-sn3,ncmod-loc_direct-it-sn2,subj-theme_bound-i-sn1,def_prop(air,[astratto,attivita,informa,luogo,sostanza]),def_prop(it,[any]),def_prop(i,[umano])])
+lf(At 30.txt_15,123,cl18-nil-nil-fly-[obj-theme-wall-sn4,ncmod-loc_direct-city-sn3,xcomp-prop-high-sn2,subj-agent-you-sn1,def_prop(wall,[body_part,oggetto,stato,strumento,umano]),def_prop(city,[istituzione,luogo]),def_prop(high,[misura]),def_prop(you,[umano])])
+lf(At 30.txt_16,139,cl19-nil-nil-run-[subj-theme_aff-you-sn1,def_prop(you,[umano])])
+lf(At 30.txt_17,156,cl20-not-can-stand-[ncmod-malefattivo-hell-sn3,obj-tema_emot-grind-sn2,subj-experiencer-you-sn1,def_prop(hell,[attivita,evento,luogo]),def_prop(grind,[attivita]),def_prop(you,[umano])])
+lf(At 30.txt_18,174,cl21-nil-will-make-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(At 30.txt_19,193,cl22-nil-nil-be-[ncmod-locativo-air-sn3,ncmod-loc_direct-it-sn2,subj-theme_bound-i-sn1,def_prop(air,[astratto,attivita,informa,luogo,sostanza]),def_prop(it,[any]),def_prop(i,[umano])])
+lf(At 30.txt_20,213,cl24-nil-nil-be-[xadj-adj-clear-adj3,ncmod-loc_direct-enemy-sn6,xcomp-prop-foot-sn5,ncmod-modale-30-sn4,xcomp-prop-all-sn3,subj-theme_bound-it-sn2,and(foot,0,sn5),def_prop(clear,_943900),def_prop(enemy,[istituzione,umano]),def_prop(foot,[animato,attivita,body_part,luogo,nquant,oggetto,strumento,umano]),def_prop(30,[nquant]),def_prop(all,[_944018]),def_prop(it,[any])])
+lf(At 30.txt_20,213,cl23-nil-nil-see-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(At 30.txt_21,235,cl25-nil-can-see-[obj-actor-me-sn2,subj-experiencer-no_one-sn1,def_prop(me,[umano]),def_prop(no_one,[umano])])
+lf(At 30.txt_22,257,cl26-nil-nil-execute-[])
+lf(At 30.txt_22,257,nil-nil-nil-press-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(At 30.txt_23,281,cl27-nil-will-send-[xcomp-prop-away-sn3,obj-goal-pig-sn2,subj-agent-i-sn1,def_prop(away,[evaluative]),def_prop(pig,[oggetto,plant,strumento]),def_prop(i,[umano])])
+lf(At 30.txt_24,305,cl28-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(At 30.txt_25,330,cl29-nil-will-fall-[iobj-goal-ear-sn2,subj-agent-you-sn1,neg-never-nil,def_prop(ear,[astratto,body_part,plant,umano]),def_prop(you,[umano])])
+lf(At 30.txt_26,356,cl30-nil-nil-stain-[cmod-subord-stain-",adj-(mod)-never-nil,subj-agent-years-sn1,and(years,elder,sn1),def_prop(years,[tempo])])
+lf(At 30.txt_27,383,cl32-nil-will-feel-[subj-experiencer-you-sn5,def_prop(you,[umano])])
+lf(At 30.txt_27,383,cl31-nil-nil-be-[xcomp-prop-all-sn2,subj-theme_bound-heartbeat-sn1,def_prop(all,[_945040]),def_prop(heartbeat,[astratto,tempo])])
+lf(At 30.txt_28,412,cl33-nil-nil-track-[obj-theme-land-sn2,subj-agent-infrared-sn1,def_prop(land,[astratto,oggetto]),def_prop(infrared,[astratto,attivita,cambia])])
+lf(At 30.txt_29,441,cl34-nil-nil-lock-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(At 30.txt_30,471,cl35-nil-nil-be-[xcomp-prop-defense-sn2,subj-theme_bound-there-sn1,and(defense,no,sn2),def_prop(defense,[attivita,informa,istituzione]),def_prop(there,[any])])
+lf(At 30.txt_31,502,cl36-nil-will-make-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(At 30.txt_32,534,cl37-nil-nil-be-[ncmod-loc_direct-it-sn5,subj-theme_bound-i-sn4,ncmod-locativo-air-sn3,ncmod-loc_direct-it-sn2,subj-theme_bound-i-sn1,def_prop(it,[any]),def_prop(i,[umano]),def_prop(air,[astratto,attivita,informa,luogo,sostanza]),def_prop(it,[any]),def_prop(i,[umano])])
+lf(At 30.txt_33,567,cl38-nil-nil-move-[obj-theme-spe-sn3,xcomp-prop-past-sn2,subj-theme-you-sn1,def_prop(spe,[legale]),def_prop(past,[attivita,informa,tempo]),def_prop(you,[umano])])
+lf(At 30.txt_34,601,cl40-nil-nil-hit-[obj-goal-ground-sn4,subj-agent-they-sn3,def_prop(ground,[astratto,luogo,oggetto,strumento]),def_prop(they,[umano])])
+lf(At 30.txt_34,601,cl39-not-will-see-[obj-actor-them-sn2,subj-experiencer-i-sn1,def_prop(them,[umano]),def_prop(i,[umano])])
+lf(At 30.txt_35,637,cl42-nil-nil-make-[obj-goal-Hell-sn2,def_prop(Hell,[place,astratto,luogo])])
+lf(At 30.txt_35,637,cl41-nil-nil-hide-[iobj-goal-Hell-sn2,subj-agent-no-sn1,def_prop(Hell,[place,astratto,luogo]),def_prop(no,[istituzione])])
+lf(At 30.txt_36,674,cl43-nil-nil-be-[ncmod-locativo-air-sn3,ncmod-loc_direct-it-sn2,subj-theme_bound-i-sn1,def_prop(air,[astratto,attivita,informa,luogo,sostanza]),def_prop(it,[any]),def_prop(i,[umano])])
+lf(At 30.txt_37,711,cl44-nil-nil-be-[xcomp-prop-shadow-sn2,subj-theme_bound-i-sn1,def_prop(shadow,[astratto,emotivo,stato,umano]),def_prop(i,[umano])])
+lf(At 30.txt_38,749,cl45-nil-nil-word-[adj-locative-over-nil,subj-agent-rooftop-sn1,def_prop(rooftop,[luogo])])
+lf(At 30.txt_39,788,cl46-nil-nil-travel-[adj-(mod)-fast-nil,adj-subj_disc-fast-sn4,iobj-goal-phone-sn3,iobj-goal-phone-sn2,subj-theme-you-sn1,and(phone,cell,sn3),and(phone,cell,sn2),def_prop(fast,[istituzione]),def_prop(fast,[istituzione]),def_prop(phone,[attivita,informa]),def_prop(phone,[attivita,informa]),def_prop(you,[umano])])
+lf(At 30.txt_40,828,cl48-nil-nil-see-[])
+lf(At 30.txt_40,828,cl47-nil-nil-demand-[obj-actor-face-sn2,xcomp-purpose-see-cl48,subj-agent-they-sn1,def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(they,[umano])])
+lf(At 30.txt_41,870,cl49-nil-nil-hide-[ncmod-locativo-veil-sn3,ncmod-specif-woman-sn2,subj-agent-you-sn1,def_prop(veil,[body_part,oggetto,strumento]),def_prop(woman,[any]),def_prop(you,[umano])])
+lf(At 30.txt_42,912,nil-nil-nil-blacken-[])
+lf(At 30.txt_42,912,cl50-nil-nil-flame-[obj-patient-sky-sn3,xcomp-purpose-blacken-2,subj-agent-oil-sn2,subj-agent-oil-sn1,and(oil,you,sn1),def_prop(sky,[oggetto]),def_prop(oil,[oggetto,sostanza,strumento]),def_prop(oil,[oggetto,sostanza,strumento])])
+lf(At 30.txt_43,956,cl52-nil-nil-be-[subj-theme_bound-hate-sn5,def_prop(hate,[emotivo])])
+lf(At 30.txt_43,956,cl51-not-nil-know-[subj-actor-i-sn1,aux-do-nil,def_prop(i,[umano])])
+lf(At 30.txt_44,1001,cl54-nil-nil-make-[cmod-subord-be-nil,obj-goal-Hell-sn2,subj-agent-you-sn6,obj-goal-Hell-sn1,and(Hell,reason,sn1),def_prop(Hell,[place,astratto,luogo]),def_prop(you,[umano]),def_prop(Hell,[place,astratto,luogo])])
+lf(At 30.txt_44,1001,cl53-nil-nil-be-[subj-theme_bound-Hell-sn2,subj-theme_bound-Hell-sn1,and(Hell,reason,sn1),def_prop(Hell,[place,astratto,luogo]),def_prop(Hell,[place,astratto,luogo])])
+lf(At 30.txt_45,1047,cl55-nil-nil-be-[ncmod-loc_direct-it-sn5,subj-theme_bound-i-sn4,ncmod-locativo-air-sn3,ncmod-loc_direct-it-sn2,subj-theme_bound-i-sn1,def_prop(it,[any]),def_prop(i,[umano]),def_prop(air,[astratto,attivita,informa,luogo,sostanza]),def_prop(it,[any]),def_prop(i,[umano])])
+lf(At 30.txt_46,1093,cl56-nil-nil-gaze-[adj-(mod)-down-nil,iobj-goal-land-sn2,subj-agent-you-sn1,and(land,burning,sn2),def_prop(land,[astratto,oggetto]),def_prop(you,[umano])])
+lf(At 30.txt_47,1140,cl58-nil-nil-promise-[xcomp-prop-land-sn6,subj-causer-you-sn5,def_prop(land,[astratto,oggetto]),def_prop(you,[umano])])
+lf(At 30.txt_47,1140,cl57-nil-nil-be-[adj-(mod)-new-nil,xcomp-prop-creator-sn2,subj-theme_bound-i-sn1,def_prop(creator,[umano]),def_prop(i,[umano])])
+lf(At 30.txt_48,1189,cl59-nil-nil-wonder-[cmod-subord-wonder-",subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(At 30.txt_49,1238,cl61-nil-nil-be-[subj-theme_bound-i-sn4,def_prop(i,[umano])])
+lf(At 30.txt_49,1238,cl60-nil-nil-make-[subj-agent-hell-sn1,aux-did-nil,and(hell,what,sn1),def_prop(hell,[attivita,evento,luogo])])
+lf(At 30.txt_50,1289,cl62-nil-nil-be-[ncmod-locativo-air-sn3,ncmod-loc_direct-it-sn2,subj-theme_bound-i-sn1,def_prop(air,[astratto,attivita,informa,luogo,sostanza]),def_prop(it,[any]),def_prop(i,[umano])])
+lf(At 30.txt_51,1340,cl63-nil-nil-be-[ncmod-loc_direct-it-sn2,subj-theme_bound-i-sn1,def_prop(it,[any]),def_prop(i,[umano])])
+lf(At 30.txt_52,1392,cl65-nil-nil-be-[subj-theme_bound-i-sn4,def_prop(i,[umano])])
+lf(At 30.txt_52,1392,cl64-nil-nil-make-[subj-agent-hell-sn1,aux-did-nil,and(hell,what,sn1),def_prop(hell,[attivita,evento,luogo])])

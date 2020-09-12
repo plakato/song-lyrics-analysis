@@ -1,0 +1,44 @@
+"POLARITY, DISCOURSE MARKERS"
+
+AH EE Lyrics.txt_1-1  []-positive  [bkc]
+AH EE Lyrics.txt_2-3  []-positive  []
+AH EE Lyrics.txt_2-4  [so-result]-negative  [fgb,neg]
+AH EE Lyrics.txt_3-8  []-positive  []
+AH EE Lyrics.txt_4-12  [if-hypoth,then-temp_seq]-suspension  [fgb]
+AH EE Lyrics.txt_5-17  [but-advers]-negative  [fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+AH EE Lyrics.txt_1-1  [EE,Lyrics,ah,by,Quanche]  [title]
+AH EE Lyrics.txt_2-3  [i,just,came]  [provide_expl_just(come,[external,factive,result,foreground,objective]),provide_expl_just(guess,[external,factive,explanation,background,objective]),suggest(guess,[external,factive,explanation,background,objective])]
+AH EE Lyrics.txt_2-4  [for,cash,so,i,guess,i,am,looking,for,problems]  [reject_expl_just(come,[external,factive,result,foreground,objective]),propose_opin_neg(come,[external,factive,result,foreground,objective]),reject_expl_just(guess,[external,factive,explanation,background,objective]),propose_opin_neg(guess,[external,factive,explanation,background,objective])]
+AH EE Lyrics.txt_3-8  [mob,the,up,FREE,yelling,ave,that,on,up,all,!]  [provide_expl_just(yell,[internal,factive,narration,background,objective])]
+AH EE Lyrics.txt_4-12  [if,you,out,here,then,AH,EE,bet,you,will,see,me,lookin,SAU,$,Y]  [provide_expl_just(see,[external,nonfactive,narration,background,objective])]
+AH EE Lyrics.txt_5-17  [living,young,but,life,is,free,not]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(AH EE Lyrics.txt_1-1)-[]
+2-(AH EE Lyrics.txt_2-3)-[]
+3-(AH EE Lyrics.txt_2-4)-[secondary-abstract_tought,secondary-abstract_tought]
+half
+4-(AH EE Lyrics.txt_3-8)-[primary-chaos]
+5-(AH EE Lyrics.txt_4-12)-[primary-concreteness,primary-concreteness,secondary-temporal_repere,primary-vision,primary-vision]
+6-(AH EE Lyrics.txt_5-17)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(AH EE Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Quanche-sn2,subj-theme_bound-ah-sn1,and(ah,Lyrics,sn1),def_prop(Quanche,[istituzione,umano]),def_prop(ah,[informa,tecno])])
+lf(AH EE Lyrics.txt_2,3,cl3-nil-nil-look-[aux-am-nil,progr-looking-nil,subj-agent-problem-sn5,subj-agent-problem-sn4,subj-agent-i-sn3,and(problem,i,sn4),and(i,cash,sn3),def_prop(problem,[attivita,informa,stato]),def_prop(problem,[attivita,informa,stato]),def_prop(i,[umano])])
+lf(AH EE Lyrics.txt_2,3,nil-nil-nil-guess-[cmod-subord-look-so,subj-experiencer-you-sn11,def_prop(you,[umano])])
+lf(AH EE Lyrics.txt_2,3,cl2-nil-nil-come-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(AH EE Lyrics.txt_3,8,cl4-nil-nil-yell-[adj-(mod)-mob-nil,adj-(mod)-up-nil,xcomp-prop-FREE-sn3,ncmod-locativo-ave-sn2,subj-agent-all-sn1,and(ave,that,sn2),def_prop(mob,[istituzione]),def_prop(FREE,[istituzione]),def_prop(ave,[istituzione]),def_prop(all,[_180348])])
+lf(AH EE Lyrics.txt_4,12,cl5-nil-will-see-[obj-theme_aff-SAU-sn4,obj-actor-me-sn3,subj-experiencer-you-sn2,subj-experiencer-you-sn1,and(you,you,sn1),def_prop(SAU,[istituzione]),def_prop(me,[umano]),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(AH EE Lyrics.txt_5,17,cl7-nil-nil-be-[cmod-subord-be-but,subj-theme_bound-free-sn5,xcomp-prop-free-sn4,subj-theme_bound-life-sn3,def_prop(free,[valutativo]),def_prop(free,[valutativo]),def_prop(life,[any,astratto,attivita,cambia,informa,stato,tempo,umano])])
+lf(AH EE Lyrics.txt_5,17,cl6-nil-nil-live-[xcomp-prop-young-sn2,subj-actor-you-sn1,def_prop(young,[valutativo]),def_prop(you,[umano])])

@@ -1,0 +1,74 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Los silent kidz Lyrics.txt_1-1  []-positive  []
+Los silent kidz Lyrics.txt_2-3  []-positive  [fhd]
+Los silent kidz Lyrics.txt_3-8  []-positive  [neg]
+Los silent kidz Lyrics.txt_3-9  []-positive  []
+Los silent kidz Lyrics.txt_4-14  []-positive  []
+Los silent kidz Lyrics.txt_4-15  []-positive  []
+Los silent kidz Lyrics.txt_4-16  [when-temp_coinc]-positive  []
+Los silent kidz Lyrics.txt_5-21  [when-temp_coinc]-negative  [neg]
+Los silent kidz Lyrics.txt_6-27  []-suspension  [neg,neg]
+Los silent kidz Lyrics.txt_7-37  []-positive  []
+Los silent kidz Lyrics.txt_7-38  []-negative  [neg]
+Los silent kidz Lyrics.txt_8-46  [because-cause]-negative  [neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Los silent kidz Lyrics.txt_1-1  [silent,kidz,Lyrics,los,by,Zoomboom]  [title]
+Los silent kidz Lyrics.txt_2-3  [driving,through,the,lot,finding,different,cars,to,drive,out,moving,snow,like]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(move,[external,factive,cause,foreground,objective]),suggest(move,[external,factive,cause,foreground,objective])]
+Los silent kidz Lyrics.txt_3-8  [bricks,falling,off,my,hands,birds]  [provide_expl_just(ears,[external,factive,narration,background,objective]),provide_expl_just(birds,[external,factive,narration,background,objective])]
+Los silent kidz Lyrics.txt_3-9  [singing,music,to,my,ears,the,come,up,coming]  [provide_expl_just(ears,[external,factive,narration,background,objective]),provide_expl_just(birds,[external,factive,narration,background,objective])]
+Los silent kidz Lyrics.txt_4-14  [through,we,hide]  [provide_expl_just(hide,[external,factive,narration,background,objective]),provide_expl_just(stick,[external,factive,narration,background,objective])]
+Los silent kidz Lyrics.txt_4-15  [the,Glocks,around,stick,up,kidz,coming,through]  [provide_expl_just(hide,[external,factive,narration,background,objective]),provide_expl_just(stick,[external,factive,narration,background,objective])]
+Los silent kidz Lyrics.txt_4-16  [when,u,talking]  [provide_expl_just(hide,[external,factive,narration,background,objective]),provide_expl_just(stick,[external,factive,narration,background,objective])]
+Los silent kidz Lyrics.txt_5-21  [to,much,we,quick,when,its,around,danger,thoughts,to,silent,to,touch,eyes,to]  [reject_expl_just(touch,[external,factive,narration,background,objective])]
+Los silent kidz Lyrics.txt_6-27  [closed,to,see,knock,your,self,out,words,can,not,touch,me,to,soild,to,be,seened]  [provide_expl_just(soil,[external,factive,narration,background,objective]),provide_expl_just(knock,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective]),propose_opin(touch,[external,nonfactive,narration,foreground,objective]),provide_expl_just(touch,[external,nonfactive,narration,foreground,objective])]
+Los silent kidz Lyrics.txt_7-37  [around,here,give,em,the,full,clip,same]  [provide_expl_just(pass,[external,factive,cause,foreground,objective])]
+Los silent kidz Lyrics.txt_7-38  [clip,bullets,passing,at,fast,speeds,u]  [reject_expl_just(pass,[external,factive,cause,foreground,objective])]
+Los silent kidz Lyrics.txt_8-46  [can,not,escape,it,because,we,see,through]  [reject_expl_just(escape,[external,nonfactive,narration,foreground,objective]),reject_expl_just(see,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Los silent kidz Lyrics.txt_1-1)-[primary-passivity]
+2-(Los silent kidz Lyrics.txt_2-3)-[secondary-abstract_tought,primary-voyage,primary-concreteness,primary-cold,emotions-affection]
+3-(Los silent kidz Lyrics.txt_3-8)-[primary-concreteness,primary-narcissism,primary-height]
+4-(Los silent kidz Lyrics.txt_3-9)-[primary-sound,primary-sound]
+5-(Los silent kidz Lyrics.txt_4-14)-[]
+6-(Los silent kidz Lyrics.txt_4-15)-[]
+half
+7-(Los silent kidz Lyrics.txt_4-16)-[secondary-temporal_repere]
+8-(Los silent kidz Lyrics.txt_5-21)-[secondary-temporal_repere,secondary-temporal_repere,secondary-abstract_tought,primary-passivity,primary-touch,primary-narcissism]
+9-(Los silent kidz Lyrics.txt_6-27)-[primary-concreteness,primary-vision,secondary-instru_behavior,primary-concreteness,primary-touch,primary-anality,primary-vision]
+10-(Los silent kidz Lyrics.txt_7-37)-[primary-concreteness]
+11-(Los silent kidz Lyrics.txt_7-38)-[primary-concreteness,primary-orality]
+12-(Los silent kidz Lyrics.txt_8-46)-[primary-vision]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Los silent kidz Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Zoomboom-sn2,subj-theme_bound-lo-sn1,and(lo,Lyrics,sn1),def_prop(Zoomboom,[istituzione,umano]),def_prop(lo,[informa,tecno])])
+lf(Los silent kidz Lyrics.txt_2,3,cl4-nil-nil-move-[adj-locative-out-nil,obj-prop-car-sn2,xadj-result-find-2,subj-agent-you-sn1,and(car,different,sn2),def_prop(car,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Los silent kidz Lyrics.txt_2,3,cl3-nil-nil-drive-[adj-(mod)-move-nil,ncmod-location-lot-sn5,xadj-adj-driving-adj1,def_prop(lot,_936306),def_prop(driving,_936318)])
+lf(Los silent kidz Lyrics.txt_2,3,cl2-nil-nil-find-[obj-theme_unaff-snow-sn3,xcomp-purpose-drive-3,def_prop(snow,[attivita,cambia,sostanza])])
+lf(Los silent kidz Lyrics.txt_3,8,nil-nil-nil-ears-[])
+lf(Los silent kidz Lyrics.txt_3,8,cl5-nil-nil-singe-[adj-(mod)-up-nil,adj-subj_disc-up-sn10,xcomp-prop-coming-sn9,subj-agent-music-sn6,subj-agent-music-sn5,and(music,you,sn5),def_prop(up,[istituzione]),def_prop(up,[istituzione]),def_prop(coming,[astratto,cambia,evento]),def_prop(music,[astratto,attivita,informa]),def_prop(music,[astratto,attivita,informa])])
+lf(Los silent kidz Lyrics.txt_3,8,nil-nil-nil-birds-[obj-prop-come-sn8,xcomp-purpose-ears-2,ncmod-loc_direct-my-sn7,xadj-adj-falling-adj2,ncmod-locativo-hand-sn2,subj-theme_aff-brick-sn1,def_prop(come,[astratto,oggetto,istituzione]),def_prop(my,[informa,tecno]),def_prop(falling,_936956),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(brick,[oggetto,strumento,umano])])
+lf(Los silent kidz Lyrics.txt_4,14,cl8-nil-nil-be-[xcomp-prop-talking-sn10,subj-theme_bound-u-sn9,def_prop(talking,[attivita,informa]),def_prop(u,[attivita,informa])])
+lf(Los silent kidz Lyrics.txt_4,14,cl7-nil-nil-stick-[obj-theme-kidz-sn3,subj-agent-female-sn2,def_prop(kidz,[istituzione]),def_prop(female,[animato,umano])])
+lf(Los silent kidz Lyrics.txt_4,14,cl6-nil-nil-hide-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Los silent kidz Lyrics.txt_5,21,cl9-nil-nil-touch-[obj-theme-eye-sn6,iobj-goal-silent-sn5,obj-theme-thought-sn4,obj-theme-its-sn3,iobj-goal-much-sn2,subj-agent-we-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(silent,[istituzione,umano]),def_prop(thought,[astratto]),def_prop(its,[istituzione]),def_prop(much,[nquant]),def_prop(we,[umano])])
+lf(Los silent kidz Lyrics.txt_6,27,cl12-nil-nil-be-[subj-prop-me-sn3,xcomp-prop-self-sn2,xcomp-purpose-knock-2,def_prop(me,[umano]),def_prop(self,[astratto,umano])])
+lf(Los silent kidz Lyrics.txt_6,27,nil-nil-nil-soil-[])
+lf(Los silent kidz Lyrics.txt_6,27,cl11-not-can-touch-[seened-n-sn2-amends-sn4,obj-prop-me-sn3,subj-agent-you-sn1,def_prop(amends,[evento,oggetto]),def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Los silent kidz Lyrics.txt_6,27,cl10-nil-nil-knock-[])
+lf(Los silent kidz Lyrics.txt_7,37,cl14-nil-nil-pass-[obj-theme-u-sn9,ncmod-clock_cal-speed-sn8,obj-goal-bullet-sn7,subj-theme_unaff-clip-sn6,and(speed,fast,sn8),def_prop(u,[attivita,informa]),def_prop(speed,[astratto,attivita,tempo]),def_prop(bullet,[oggetto,strumento]),def_prop(clip,[attivita,oggetto,strumento])])
+lf(Los silent kidz Lyrics.txt_7,37,cl13-nil-nil-give-[adj-(mod)-here-nil,subj_top-actor-em-sn2,subj_top-actor-em-sn1,and(em,clip,sn1),and(em,full,sn1),def_prop(here,[istituzione]),def_prop(em,[nquant]),def_prop(em,[nquant])])
+lf(Los silent kidz Lyrics.txt_8,46,cl17-nil-nil-be-[cmod-subord-see-because])
+lf(Los silent kidz Lyrics.txt_8,46,cl16-nil-nil-see-[subj-experiencer-we-sn4,def_prop(we,[umano])])
+lf(Los silent kidz Lyrics.txt_8,46,cl15-not-can-escape-[subj-agent-it-sn2,subj-agent-it-sn1,and(it,you,sn1),def_prop(it,[any]),def_prop(it,[any])])

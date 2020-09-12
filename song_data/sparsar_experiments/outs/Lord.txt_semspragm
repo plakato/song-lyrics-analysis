@@ -1,0 +1,190 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Lord.txt_1-1  []-positive  []
+Lord.txt_2-3  []-positive  []
+Lord.txt_3-6  []-negative  [neg]
+Lord.txt_3-7  []-positive  []
+Lord.txt_4-11  []-positive  []
+Lord.txt_4-12  []-negative  [fgb,neg]
+Lord.txt_5-17  []-negative  [neg,neg]
+Lord.txt_6-24  []-positive  []
+Lord.txt_7-32  []-positive  []
+Lord.txt_8-41  []-positive  []
+Lord.txt_9-51  []-positive  []
+Lord.txt_10-62  []-positive  []
+Lord.txt_10-62  []-positive  []
+Lord.txt_11-73  []-positive  []
+Lord.txt_12-85  []-positive  []
+Lord.txt_13-100  []-positive  []
+Lord.txt_13-101  []-positive  [fgb]
+Lord.txt_14-115  []-positive  []
+Lord.txt_15-130  []-positive  [fgb,neg]
+Lord.txt_16-146  []-positive  []
+Lord.txt_17-163  []-positive  []
+Lord.txt_18-181  [so-result]-suspension  [fgb,neg]
+Lord.txt_19-200  []-positive  []
+Lord.txt_20-220  []-positive  []
+Lord.txt_20-221  []-positive  [fgb]
+Lord.txt_21-242  []-positive  [fgb]
+Lord.txt_22-264  []-positive  []
+Lord.txt_23-287  []-positive  []
+Lord.txt_23-288  []-positive  []
+Lord.txt_24-312  []-positive  []
+Lord.txt_25-338  []-positive  []
+Lord.txt_26-365  []-positive  []
+Lord.txt_27-392  []-positive  []
+Lord.txt_27-393  []-positive  [fgb]
+Lord.txt_28-421  []-positive  []
+Lord.txt_28-422  []-positive  []
+Lord.txt_29-451  []-positive  []
+Lord.txt_30-484  []-positive  []
+Lord.txt_31-516  []-positive  []
+Lord.txt_32-548  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Lord.txt_1-1  [lord,by,Virtue]  [title]
+Lord.txt_2-3  [miracle,after,miracle]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lord.txt_3-6  [i,can,not,count,the,times]  [reject_expl_just(count,[external,nonfactive,narration,foreground,objective]),reject_expl_just(undergirded,[external,factive,explanation,background,objective]),propose_opin_neg(undergirded,[external,factive,explanation,background,objective])]
+Lord.txt_3-7  [you,undergirded,me]  [provide_expl_just(count,[external,nonfactive,narration,foreground,objective]),provide_expl_just(undergirded,[external,factive,explanation,background,objective])]
+Lord.txt_4-11  [you,loosed,the,chains]  [provide_expl_just(remove,[external,factive,cause,foreground,objective])]
+Lord.txt_4-12  [and,the,shame,removed]  [reject_expl_just(remove,[external,factive,cause,foreground,objective])]
+Lord.txt_5-17  [you,kept,my,mind,from,hurting]  [reject_expl_just(hurt,[external,factive,cause,foreground,objective]),reject_expl_just(keep,[external,factive,cause,foreground,objective])]
+Lord.txt_6-24  [lord,i,thank,you]  [provide_expl_just(lord,[external,factive,narration,background,objective]),provide_expl_just(thank,[external,factive,narration,background,objective])]
+Lord.txt_7-32  [lord,i,thank,you]  [provide_expl_just(lord,[external,factive,narration,background,objective]),provide_expl_just(thank,[external,factive,narration,background,objective])]
+Lord.txt_8-41  [lord,i,thank,you]  [provide_expl_just(lord,[external,factive,narration,background,objective]),provide_expl_just(thank,[external,factive,narration,background,objective])]
+Lord.txt_9-51  [lord,i,thank,you]  [provide_expl_just(lord,[external,factive,narration,background,objective]),provide_expl_just(thank,[external,factive,narration,background,objective])]
+Lord.txt_10-62  [for,you,are,worthy,to,be,praised]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lord.txt_10-62  [for,you,are,worthy,to,be,praised,;]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lord.txt_11-73  [i,magnify,your,name]  [provide_expl_just(magnify,[external,factive,narration,background,objective])]
+Lord.txt_12-85  [lord,i,lift,my,hands,i,bless,your,name]  [provide_expl_just(lift,[external,factive,narration,background,objective]),provide_expl_just(bless,[external,factive,narration,background,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
+Lord.txt_13-100  [i,look,back]  [provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Lord.txt_13-101  [and,see]  [provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Lord.txt_14-115  [where,you,brought,me,from]  [provide_expl_just(bring,[external,factive,narration,foreground,objective])]
+Lord.txt_15-130  [through,the,good,and,bad]  [provide_expl_just(good,[internal,factive,narration,background,objective])]
+Lord.txt_16-146  [you,remain,the,same]  [provide_expl_just(remain,[external,factive,narration,background,objective])]
+Lord.txt_17-163  [i,praise,your,name]  [provide_expl_just(praise,[external,factive,narration,background,objective])]
+Lord.txt_18-181  [so,many,tears,fall]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Lord.txt_19-200  [just,hearing,your,name]  [provide_expl_just(hear,[external,factive,narration,foreground,objective])]
+Lord.txt_20-220  [my,lord]  [provide_expl_just(lord,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Lord.txt_20-221  [and,Savior]  [provide_expl_just(lord,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Lord.txt_21-242  [my,God,and,king]  [provide_expl_just(king,[external,factive,narration,background,objective])]
+Lord.txt_22-264  [how,i,love,your,name]  [provide_expl_just(love,[external,factive,narration,background,objective])]
+Lord.txt_23-287  [it,is,the,sweetest,name]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Lord.txt_23-288  [i,know]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+Lord.txt_24-312  [lord,i,lift,my,hands,to,thee]  [provide_expl_just(lift,[external,factive,narration,background,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
+Lord.txt_25-338  [lord,i,lift,my,hands]  [provide_expl_just(lift,[external,factive,narration,background,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
+Lord.txt_26-365  [i,bless,your,name]  [provide_expl_just(bless,[external,factive,narration,background,objective])]
+Lord.txt_27-392  [i,look,back]  [provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Lord.txt_27-393  [and,see]  [provide_expl_just(look,[external,factive,narration,background,objective]),provide_expl_just(see,[external,factive,narration,background,objective])]
+Lord.txt_28-421  [where,you,bought,me,from]  [provide_expl_just(buy,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Lord.txt_28-422  [;]  [provide_expl_just(buy,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Lord.txt_29-451  [lord,i,bow,down,to,worship,you]  [provide_expl_just(worship,[external,factive,narration,background,objective]),provide_expl_just(bow,[external,factive,narration,background,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
+Lord.txt_30-484  [lord,i,magnify,your,name]  [provide_expl_just(magnify,[external,factive,narration,background,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
+Lord.txt_31-516  [ending]  [provide_expl_just(end,[external,factive,cause,foreground,objective])]
+Lord.txt_32-548  [lord,i,magnify,your,name]  [provide_expl_just(magnify,[external,factive,narration,background,objective]),provide_expl_just(lord,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Lord.txt_1-1)-[]
+2-(Lord.txt_2-3)-[]
+3-(Lord.txt_3-6)-[secondary-instru_behavior,secondary-temporal_repere]
+4-(Lord.txt_3-7)-[]
+5-(Lord.txt_4-11)-[]
+6-(Lord.txt_4-12)-[]
+7-(Lord.txt_5-17)-[]
+8-(Lord.txt_6-24)-[secondary-social_behavior]
+9-(Lord.txt_7-32)-[secondary-social_behavior]
+10-(Lord.txt_8-41)-[secondary-social_behavior]
+11-(Lord.txt_9-51)-[secondary-social_behavior]
+12-(Lord.txt_10-62)-[]
+13-(Lord.txt_10-62)-[]
+14-(Lord.txt_11-73)-[]
+15-(Lord.txt_12-85)-[primary-ascend,primary-narcissism]
+16-(Lord.txt_13-100)-[primary-vision,primary-concreteness]
+17-(Lord.txt_13-101)-[primary-vision]
+18-(Lord.txt_14-115)-[primary-concreteness]
+19-(Lord.txt_15-130)-[]
+20-(Lord.txt_16-146)-[]
+half
+21-(Lord.txt_17-163)-[]
+22-(Lord.txt_18-181)-[primary-orality,primary-descent]
+23-(Lord.txt_19-200)-[]
+24-(Lord.txt_20-220)-[]
+25-(Lord.txt_20-221)-[]
+26-(Lord.txt_21-242)-[]
+27-(Lord.txt_22-264)-[emotions-affection]
+28-(Lord.txt_23-287)-[]
+29-(Lord.txt_23-288)-[secondary-abstract_tought]
+30-(Lord.txt_24-312)-[primary-ascend,primary-narcissism]
+31-(Lord.txt_25-338)-[primary-ascend,primary-narcissism]
+32-(Lord.txt_26-365)-[]
+33-(Lord.txt_27-392)-[primary-vision,primary-concreteness]
+34-(Lord.txt_27-393)-[primary-vision]
+35-(Lord.txt_28-421)-[primary-concreteness,secondary-instru_behavior]
+36-(Lord.txt_28-422)-[]
+37-(Lord.txt_29-451)-[]
+38-(Lord.txt_30-484)-[]
+39-(Lord.txt_31-516)-[]
+40-(Lord.txt_32-548)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Lord.txt_1,1,cl1-nil-nil-lord-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Lord.txt_2,3,cl2-nil-nil-be-[ncmod-modal-miracle-sn2,subj-theme_bound-miracle-sn1,def_prop(miracle,[evento]),def_prop(miracle,[evento])])
+lf(Lord.txt_3,6,nil-nil-nil-undergirded-[obj-theme_aff-me-sn4,subj-agent-you-sn3,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Lord.txt_3,6,cl3-not-can-count-[obj-theme-times-sn2,subj-actor-i-sn1,def_prop(times,[tempo]),def_prop(i,[umano])])
+lf(Lord.txt_4,11,cl5-nil-nil-remove-[cmod-subord-remove-",subj-agent-you-sn3,def_prop(you,[umano])])
+lf(Lord.txt_4,11,cl4-nil-nil-loose-[obj-theme-chain-sn2,subj-agent-you-sn1,def_prop(chain,[nquant,oggetto,strumento]),def_prop(you,[umano])])
+lf(Lord.txt_5,17,cl7-nil-nil-hurt-[subj-theme_unaff-mind-sn2,def_prop(mind,[astratto])])
+lf(Lord.txt_5,17,cl6-nil-nil-keep-[obj-goal-mind-sn2,subj-experiencer-you-sn1,def_prop(mind,[astratto]),def_prop(you,[umano])])
+lf(Lord.txt_6,24,cl9-nil-nil-thank-[subj-agent-i-sn4,def_prop(i,[umano])])
+lf(Lord.txt_6,24,cl8-nil-nil-lord-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Lord.txt_7,32,cl11-nil-nil-thank-[subj-agent-i-sn4,def_prop(i,[umano])])
+lf(Lord.txt_7,32,cl10-nil-nil-lord-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Lord.txt_8,41,cl13-nil-nil-thank-[subj-agent-i-sn4,def_prop(i,[umano])])
+lf(Lord.txt_8,41,cl12-nil-nil-lord-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Lord.txt_9,51,cl15-nil-nil-thank-[subj-agent-i-sn4,def_prop(i,[umano])])
+lf(Lord.txt_9,51,cl14-nil-nil-lord-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Lord.txt_10,62,cl16-nil-nil-be-[cmod-subord-praise-for,xcomp-prop-worthy-sn4,subj-theme_bound-you-sn3,xcomp-prop-worthy-sn2,subj-theme_bound-you-sn1,def_prop(worthy,[umano]),def_prop(you,[umano]),def_prop(worthy,[umano]),def_prop(you,[umano])])
+lf(Lord.txt_11,73,cl17-nil-nil-magnify-[obj-patient-name-sn2,subj-agent-i-sn1,def_prop(name,[attivita,informa,stato,umano]),def_prop(i,[umano])])
+lf(Lord.txt_12,85,nil-nil-nil-bless-[subj-agent-name-sn11,obj-theme-name-sn8,subj-agent-i-sn7,def_prop(name,[attivita,informa,stato,umano]),def_prop(name,[attivita,informa,stato,umano]),def_prop(i,[umano])])
+lf(Lord.txt_12,85,cl19-nil-nil-lift-[obj-theme-hand-sn3,xadj-result-lift-3,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano])])
+lf(Lord.txt_12,85,cl18-nil-nil-lord-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Lord.txt_13,100,cl21-nil-nil-see-[subj-experiencer-you-sn4,def_prop(you,[umano])])
+lf(Lord.txt_13,100,cl20-nil-nil-look-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Lord.txt_14,115,cl22-nil-nil-bring-[obj-theme_aff-me-sn3,obl-modal-where-sn2,subj-agent-you-sn1,def_prop(me,[umano]),def_prop(where,[luogo]),def_prop(you,[umano])])
+lf(Lord.txt_15,130,cl23-nil-nil-be-[xadj-adj-bad-adj1,ncmod-modal-good-sn1,def_prop(bad,_946310),def_prop(good,[valutativo])])
+lf(Lord.txt_16,146,cl24-nil-nil-remain-[obj2-goal-same-sn2,subj-theme_bound-you-sn1,def_prop(same,[deittico]),def_prop(you,[umano])])
+lf(Lord.txt_17,163,cl25-nil-nil-praise-[obj-theme_unaff-name-sn2,subj-experiencer-i-sn1,def_prop(name,[attivita,informa,stato,umano]),def_prop(i,[umano])])
+lf(Lord.txt_18,181,cl26-nil-nil-be-[ncmod-modal-tear-sn2,subj-theme_bound-you-sn1,def_prop(tear,[attivita,body_part,umano]),def_prop(you,[umano])])
+lf(Lord.txt_19,200,cl27-nil-nil-hear-[adj-(mod)-just-nil,subj-experiencer-name-sn1,def_prop(name,[attivita,informa,stato,umano])])
+lf(Lord.txt_20,220,cl29-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Lord.txt_20,220,cl28-nil-nil-lord-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Lord.txt_21,242,nil-nil-nil-king-[subj-agent-God-sn1,def_prop(God,[animato])])
+lf(Lord.txt_22,264,cl30-nil-nil-love-[obj-theme_unaff-name-sn3,obj-theme-how-sn2,subj-experiencer-i-sn1,def_prop(name,[attivita,informa,stato,umano]),def_prop(how,[manner]),def_prop(i,[umano])])
+lf(Lord.txt_23,287,cl32-nil-nil-know-[subj-actor-you-sn4,def_prop(you,[umano])])
+lf(Lord.txt_23,287,cl31-nil-nil-be-[xcomp-prop-name-sn2,subj-theme_bound-it-sn1,and(name,sweetest,sn2),def_prop(name,[attivita,informa,stato,umano]),def_prop(it,[any])])
+lf(Lord.txt_24,312,cl34-nil-nil-lift-[iobj-goal-thee-sn4,obj-theme-hand-sn3,xadj-result-lift-3,def_prop(thee,[umano]),def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano])])
+lf(Lord.txt_24,312,cl33-nil-nil-lord-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Lord.txt_25,338,cl36-nil-nil-lift-[obj-theme-hand-sn3,xadj-result-lift-3,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano])])
+lf(Lord.txt_25,338,cl35-nil-nil-lord-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Lord.txt_26,365,nil-nil-nil-bless-[obj-theme-name-sn2,subj-agent-i-sn1,def_prop(name,[attivita,informa,stato,umano]),def_prop(i,[umano])])
+lf(Lord.txt_27,392,cl38-nil-nil-see-[subj-experiencer-you-sn4,def_prop(you,[umano])])
+lf(Lord.txt_27,392,cl37-nil-nil-look-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Lord.txt_28,421,cl40-nil-nil-be-[subj-theme_bound-pro-nil])
+lf(Lord.txt_28,421,cl39-nil-nil-buy-[obj-prop-me-sn3,obl-modal-where-sn2,subj-actor-you-sn1,def_prop(me,[umano]),def_prop(where,[luogo]),def_prop(you,[umano])])
+lf(Lord.txt_29,451,cl43-nil-nil-worship-[adj-subj_disc-down-sn9,subj-actor-you-sn8,subj-theme-i-sn4,def_prop(down,[istituzione]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Lord.txt_29,451,cl42-nil-nil-bow-[adj-(mod)-down-nil,subj-agent-you-sn6,subj-agent-i-sn4,def_prop(down,[istituzione]),def_prop(you,[umano]),def_prop(i,[umano])])
+lf(Lord.txt_29,451,cl41-nil-nil-lord-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Lord.txt_30,484,cl45-nil-nil-magnify-[obj-patient-name-sn3,xadj-result-magnify-3,def_prop(name,[attivita,informa,stato,umano])])
+lf(Lord.txt_30,484,cl44-nil-nil-lord-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Lord.txt_31,516,cl46-nil-nil-end-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Lord.txt_32,548,cl48-nil-nil-magnify-[obj-patient-name-sn3,xadj-result-magnify-3,def_prop(name,[attivita,informa,stato,umano])])
+lf(Lord.txt_32,548,cl47-nil-nil-lord-[subj-agent-i-sn2,subj-agent-i-sn1,and(i,you,sn1),def_prop(i,[umano]),def_prop(i,[umano])])

@@ -1,0 +1,172 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Beware Lyrics.txt_1-1  []-negative  [neg]
+Beware Lyrics.txt_2-3  []-negative  [neg]
+Beware Lyrics.txt_3-6  []-negative  [neg]
+Beware Lyrics.txt_4-10  []-positive  []
+Beware Lyrics.txt_4-11  []-positive  []
+Beware Lyrics.txt_5-16  []-positive  []
+Beware Lyrics.txt_6-22  [(as)-temp_coinc]-negative  [neg]
+Beware Lyrics.txt_6-23  []-positive  []
+Beware Lyrics.txt_7-30  []-negative  [neg]
+Beware Lyrics.txt_8-39  []-question  []
+Beware Lyrics.txt_8-40  []-positive  []
+Beware Lyrics.txt_9-48  []-suspension  []
+Beware Lyrics.txt_9-49  []-suspension  [neg]
+Beware Lyrics.txt_10-60  []-negative  [neg,neg]
+Beware Lyrics.txt_11-71  []-suspension  []
+Beware Lyrics.txt_12-83  []-positive  []
+Beware Lyrics.txt_13-96  []-negative  [neg]
+Beware Lyrics.txt_14-110  []-negative  [neg]
+Beware Lyrics.txt_15-125  []-positive  []
+Beware Lyrics.txt_15-126  [when-temp_coinc]-positive  []
+Beware Lyrics.txt_16-142  []-positive  []
+Beware Lyrics.txt_17-159  [but-advers]-positive  [fgb]
+Beware Lyrics.txt_18-177  [(as)-temp_coinc]-negative  [neg]
+Beware Lyrics.txt_18-178  []-positive  []
+Beware Lyrics.txt_19-197  []-negative  [neg,neg]
+Beware Lyrics.txt_20-217  []-suspension  []
+Beware Lyrics.txt_21-238  []-positive  []
+Beware Lyrics.txt_22-260  []-negative  [neg]
+Beware Lyrics.txt_23-283  []-negative  [neg]
+Beware Lyrics.txt_24-308  []-negative  [neg]
+Beware Lyrics.txt_25-334  [yet-conc]-negative  [fgb,neg]
+Beware Lyrics.txt_26-360  [so-result]-negative  [fgb,neg]
+Beware Lyrics.txt_26-360  [so-result]-negative  [fgb,neg]
+Beware Lyrics.txt_27-387  []-negative  [neg,neg]
+Beware Lyrics.txt_28-415  []-suspension  []
+Beware Lyrics.txt_29-444  []-negative  [neg]
+Beware Lyrics.txt_30-474  []-suspension  []
+Beware Lyrics.txt_30-475  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Beware Lyrics.txt_1-1  [beware,Lyrics,by,Xandria]  [title]
+Beware Lyrics.txt_2-3  [i,dress,myself,in,black]  [reject_expl_just(be,[_129120,_129126,_129132,_129138,_129144])]
+Beware Lyrics.txt_3-6  [in,black,from,head,to,heels]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_4-10  [i,take]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(promise,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_4-11  [my,promise,back]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(promise,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_5-16  [cause,you_don-t_know_how_it_feels]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Beware Lyrics.txt_6-22  [you,no,don-t,take,me,as]  [reject_expl_just(take,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_6-23  [i,am]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_7-30  [you,no,don-t,want,to,know,at_all]  [reject_expl_just(want,[external,factive,narration,foreground,objective]),reject_expl_just(know,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_8-39  [is,who,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Beware Lyrics.txt_8-40  [the,face,Behind_the_mask]  [provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+Beware Lyrics.txt_9-48  [i,will,be,the,one,who]  [provide_expl_just(fall,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(make,[external,nonfactive,narration,background,objective])]
+Beware Lyrics.txt_9-49  [will,make,you,fall]  [provide_expl_just(fall,[external,factive,narration,background,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(make,[external,nonfactive,narration,background,objective])]
+Beware Lyrics.txt_10-60  [beware,,,beware]  [reject_expl_just(beware,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_11-71  [i,will,be,the,one]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Beware Lyrics.txt_12-83  [the,one,to,take,you,under]  [provide_expl_just(take,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_13-96  [beware]  reject_expl_opin(nil,[])
+Beware Lyrics.txt_14-110  [i,hate,the,light,of,day]  [reject_expl_just(hate,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_15-125  [i,am,happy]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(rain,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_15-126  [when,it,rains]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(rain,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_16-142  [the,stars,shine,on,my_way]  [provide_expl_just(shine,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_17-159  [but,the,memory,remains]  [provide_expl_just(remain,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_18-177  [you,no,don-t,take,me,as]  [reject_expl_just(take,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_18-178  [i,am]  [provide_expl_just(take,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_19-197  [beware,,,beware]  [reject_expl_just(beware,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_20-217  [i,will,be,the,one]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Beware Lyrics.txt_21-238  [the,one,to,take,you,under]  [provide_expl_just(take,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_22-260  [beware]  reject_expl_opin(nil,[])
+Beware Lyrics.txt_23-283  [i,am,the,night-s,revenge]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(revenge,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_24-308  [i,have,got,a,soul,to,sell]  [reject_expl_just(sell,[external,factive,narration,background,objective]),reject_expl_just(get,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_25-334  [and,yet,a,fist,to,clench]  [reject_expl_just(clench,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_26-360  [so,wait,for,me,in,hell]  [reject_expl_just(wait,[external,factive,rationale,background,objective])]
+Beware Lyrics.txt_26-360  [so,wait,for,me,in,hell]  [reject_expl_just(wait,[external,factive,rationale,background,objective])]
+Beware Lyrics.txt_27-387  [beware,,,beware]  [reject_expl_just(beware,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_28-415  [i,will,be,the,one]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+Beware Lyrics.txt_29-444  [wait,for,me,in,hell]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_30-474  [i,will,see]  [provide_expl_just(see,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Beware Lyrics.txt_30-475  [you,in,hell]  [reject_expl_just(see,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Beware Lyrics.txt_1-1)-[]
+2-(Beware Lyrics.txt_2-3)-[]
+3-(Beware Lyrics.txt_3-6)-[primary-narcissism,primary-narcissism]
+4-(Beware Lyrics.txt_4-10)-[]
+5-(Beware Lyrics.txt_4-11)-[secondary-social_behavior,primary-concreteness]
+6-(Beware Lyrics.txt_5-16)-[secondary-abstract_tought]
+7-(Beware Lyrics.txt_6-22)-[]
+8-(Beware Lyrics.txt_6-23)-[]
+9-(Beware Lyrics.txt_7-30)-[secondary-abstract_tought]
+10-(Beware Lyrics.txt_8-39)-[]
+11-(Beware Lyrics.txt_8-40)-[primary-narcissism]
+12-(Beware Lyrics.txt_9-48)-[]
+13-(Beware Lyrics.txt_9-49)-[secondary-instru_behavior,primary-descent]
+14-(Beware Lyrics.txt_10-60)-[]
+15-(Beware Lyrics.txt_11-71)-[]
+16-(Beware Lyrics.txt_12-83)-[primary-depth]
+17-(Beware Lyrics.txt_13-96)-[]
+18-(Beware Lyrics.txt_14-110)-[emotions-aggression,primary-vision]
+19-(Beware Lyrics.txt_15-125)-[emotions-positive_affect]
+half
+20-(Beware Lyrics.txt_15-126)-[secondary-temporal_repere,primary-water]
+21-(Beware Lyrics.txt_16-142)-[primary-vision,primary-vision]
+22-(Beware Lyrics.txt_17-159)-[]
+23-(Beware Lyrics.txt_18-177)-[]
+24-(Beware Lyrics.txt_18-178)-[]
+25-(Beware Lyrics.txt_19-197)-[]
+26-(Beware Lyrics.txt_20-217)-[]
+27-(Beware Lyrics.txt_21-238)-[primary-depth]
+28-(Beware Lyrics.txt_22-260)-[]
+29-(Beware Lyrics.txt_23-283)-[emotions-aggression]
+30-(Beware Lyrics.txt_24-308)-[secondary-instru_behavior]
+31-(Beware Lyrics.txt_25-334)-[]
+32-(Beware Lyrics.txt_26-360)-[]
+33-(Beware Lyrics.txt_26-360)-[]
+34-(Beware Lyrics.txt_27-387)-[]
+35-(Beware Lyrics.txt_28-415)-[]
+36-(Beware Lyrics.txt_29-444)-[]
+37-(Beware Lyrics.txt_30-474)-[primary-vision]
+38-(Beware Lyrics.txt_30-475)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Beware Lyrics.txt_1,1,nil-nil-nil-beware-[arg_mod-agent-Xandria-sn2,subj-experiencer-Lyrics-sn1,def_prop(Xandria,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Beware Lyrics.txt_2,3,cl1-nil-nil-dress-[iobj-goal-black-sn3,obj-theme-myself-sn2,subj-actor-i-sn1,def_prop(black,[estens]),def_prop(myself,[umano]),def_prop(i,[umano])])
+lf(Beware Lyrics.txt_3,6,cl2-nil-nil-be-[ncmod-goal-heel-sn3,ncmod-loc_origin-head-sn2,ncmod-modal-black-sn1,def_prop(heel,[body_part,edible,oggetto,strumento,umano]),def_prop(head,[animato,attivita,body_part,cambia,informa,luogo,nquant,oggetto,stato,strumento,umano]),def_prop(black,[estens])])
+lf(Beware Lyrics.txt_4,10,cl4-nil-nil-promise-[xcomp-prop-back-sn3,subj-causer-my-sn2,def_prop(back,[attivita,body_part,luogo,oggetto,strumento,umano]),def_prop(my,[informa,tecno])])
+lf(Beware Lyrics.txt_4,10,cl3-nil-nil-take-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Beware Lyrics.txt_5,16,cl5-nil-nil-say-[obj-theme_unaff-you_don-t_know_how_it_feels-sn1,and(you_don-t_know_how_it_feels,cause,sn1),def_prop(you_don-t_know_how_it_feels,[umano])])
+lf(Beware Lyrics.txt_6,22,cl7-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Beware Lyrics.txt_6,22,cl6-not-nil-take-[obj-theme_aff-me-sn2,subj-agent-no-sn1,aux-do-nil,and(no,you,sn1),def_prop(me,[umano]),def_prop(no,[istituzione])])
+lf(Beware Lyrics.txt_7,30,cl9-nil-nil-know-[subj-tema_nonaff-no-sn1,and(no,you,sn1),def_prop(no,[istituzione])])
+lf(Beware Lyrics.txt_7,30,cl8-not-nil-want-[adj-(mod)-at_all-nil,subj-actor-no-sn1,aux-do-nil,and(no,you,sn1),def_prop(no,[istituzione])])
+lf(Beware Lyrics.txt_8,39,cl10-nil-nil-be-[subj-theme_bound-Behind_the_mask-sn2,subj-theme_bound-who-sn1,and(Behind_the_mask,face,sn2),def_prop(Behind_the_mask,[attivita,oggetto,strumento]),def_prop(who,[umano])])
+lf(Beware Lyrics.txt_9,48,cl13-nil-nil-fall-[subj-tema_nonaff-you-sn5,def_prop(you,[umano])])
+lf(Beware Lyrics.txt_9,48,cl12-nil-will-make-[subj-agent-you-sn5,subj-agent-you-sn4,and(you,you,sn4),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Beware Lyrics.txt_9,48,cl11-nil-will-be-[xcomp-prop-who-sn2,subj-theme_bound-i-sn1,and(who,one,sn2),def_prop(who,[umano]),def_prop(i,[umano])])
+lf(Beware Lyrics.txt_10,60,nil-nil-nil-beware-[subj-experiencer-pro-nil,subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Beware Lyrics.txt_11,71,cl14-nil-will-be-[xcomp-prop-one-sn2,subj-theme_bound-i-sn1,def_prop(one,[umano]),def_prop(i,[umano])])
+lf(Beware Lyrics.txt_12,83,cl15-nil-nil-take-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,one,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Beware Lyrics.txt_13,96,nil-nil-nil-beware-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Beware Lyrics.txt_14,110,cl16-nil-nil-hate-[obj-theme-light-sn2,subj-actor-i-sn1,def_prop(light,[astratto,attivita,cambia,informa,luogo,oggetto,stato,strumento,umano]),def_prop(i,[umano])])
+lf(Beware Lyrics.txt_15,125,cl18-nil-nil-rain-[subj-form-it-sn3,def_prop(it,[any])])
+lf(Beware Lyrics.txt_15,125,cl17-nil-nil-be-[xcomp-prop-happy-sn2,subj-theme_bound-i-sn1,def_prop(happy,[emotivo]),def_prop(i,[umano])])
+lf(Beware Lyrics.txt_16,142,cl19-nil-nil-shine-[ncmod-locativo-my_way-sn2,subj-theme-star-sn1,def_prop(my_way,[astratto,attivita,informa,oggetto,stato,strumento,tecno]),def_prop(star,[astratto,oggetto,umano])])
+lf(Beware Lyrics.txt_17,159,cl20-nil-nil-remain-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Beware Lyrics.txt_18,177,cl22-nil-nil-be-[subj-theme_bound-you-sn4,def_prop(you,[umano])])
+lf(Beware Lyrics.txt_18,177,cl21-not-nil-take-[obj-theme_aff-me-sn2,subj-agent-no-sn1,aux-do-nil,and(no,you,sn1),def_prop(me,[umano]),def_prop(no,[istituzione])])
+lf(Beware Lyrics.txt_19,197,nil-nil-nil-beware-[subj-experiencer-pro-nil,subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Beware Lyrics.txt_20,217,cl23-nil-will-be-[xcomp-prop-one-sn2,subj-theme_bound-i-sn1,def_prop(one,[umano]),def_prop(i,[umano])])
+lf(Beware Lyrics.txt_21,238,cl24-nil-nil-take-[subj-agent-you-sn2,subj-agent-you-sn1,and(you,one,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Beware Lyrics.txt_22,260,nil-nil-nil-beware-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Beware Lyrics.txt_23,283,cl26-nil-nil-revenge-[subj-agent-night-s-sn2,def_prop(night-s,[stato,tempo])])
+lf(Beware Lyrics.txt_23,283,cl25-nil-nil-be-[subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(Beware Lyrics.txt_24,308,cl28-nil-nil-sell-[subj-theme-soul-sn2,def_prop(soul,[attivita,emotivo,informa,umano])])
+lf(Beware Lyrics.txt_24,308,cl27-nil-nil-get-[obj-theme_unaff-soul-sn2,subj-agent-i-sn1,aux-have-nil,def_prop(soul,[attivita,emotivo,informa,umano]),def_prop(i,[umano])])
+lf(Beware Lyrics.txt_25,334,cl29-nil-nil-clench-[cmod-subord-clench-",subj-agent-fist-sn1,def_prop(fist,[body_part,umano])])
+lf(Beware Lyrics.txt_26,360,cl30-nil-nil-wait-[cmod-subord-wait-so,ncmod-locativo-hell-sn6,subj-actor-you-sn4,ncmod-locativo-hell-sn3,subj-actor-you-sn1,def_prop(hell,[attivita,evento,luogo]),def_prop(you,[umano]),def_prop(hell,[attivita,evento,luogo]),def_prop(you,[umano])])
+lf(Beware Lyrics.txt_27,387,nil-nil-nil-beware-[subj-experiencer-pro-nil,subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Beware Lyrics.txt_28,415,cl31-nil-will-be-[xcomp-prop-one-sn2,subj-theme_bound-i-sn1,def_prop(one,[umano]),def_prop(i,[umano])])
+lf(Beware Lyrics.txt_29,444,cl32-nil-nil-be-[ncmod-locativo-hell-sn3,subj-theme_bound-me-sn2,subj-theme_bound-me-sn1,and(me,wait,sn1),def_prop(hell,[attivita,evento,luogo]),def_prop(me,[umano]),def_prop(me,[umano])])
+lf(Beware Lyrics.txt_30,474,cl34-nil-nil-be-[ncmod-locativo-hell-sn3,subj-theme_bound-you-sn2,def_prop(hell,[attivita,evento,luogo]),def_prop(you,[umano])])
+lf(Beware Lyrics.txt_30,474,cl33-nil-will-see-[subj-experiencer-you-sn1,def_prop(you,[umano])])

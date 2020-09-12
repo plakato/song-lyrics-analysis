@@ -1,0 +1,72 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Born To Hula Lyrics.txt_1-1  []-positive  []
+Born To Hula Lyrics.txt_2-3  []-positive  []
+Born To Hula Lyrics.txt_3-6  []-positive  []
+Born To Hula Lyrics.txt_3-7  []-positive  []
+Born To Hula Lyrics.txt_4-11  []-positive  []
+Born To Hula Lyrics.txt_5-16  []-positive  []
+Born To Hula Lyrics.txt_6-22  []-positive  []
+Born To Hula Lyrics.txt_7-29  [so-result]-positive  [fgb]
+Born To Hula Lyrics.txt_8-37  []-positive  []
+Born To Hula Lyrics.txt_9-46  []-negative  [neg]
+Born To Hula Lyrics.txt_10-57  []-positive  []
+Born To Hula Lyrics.txt_11-68  [while-temp_coinc]-positive  []
+Born To Hula Lyrics.txt_12-80  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Born To Hula Lyrics.txt_1-1  [born,to,Hula,Lyrics,by,queens,of,the,Stone,age]  [title]
+Born To Hula Lyrics.txt_2-3  [follow,trails,of,you,to,here]  [provide_expl_just(follow,[external,factive,explanation,background,objective])]
+Born To Hula Lyrics.txt_3-6  [every,mile,takes]  [provide_expl_just(take,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Born To Hula Lyrics.txt_3-7  [you,my_way]  [provide_expl_just(take,[external,factive,explanation,background,objective]),provide_expl_just(be,[external,factive,explanation,background,objective])]
+Born To Hula Lyrics.txt_4-11  [rolling,faster,than,we,can]  [provide_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Born To Hula Lyrics.txt_5-16  [tables,turning,all_the_time]  [provide_expl_just(turn,[external,factive,cause,foreground,objective])]
+Born To Hula Lyrics.txt_6-22  [i,am,the,dog,at,your,feet]  [provide_expl_just(foot,[internal,factive,narration,background,objective])]
+Born To Hula Lyrics.txt_7-29  [so,we,are,it,again]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Born To Hula Lyrics.txt_8-37  [you,are,the,one,x4]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Born To Hula Lyrics.txt_9-46  [fucking,a,dime,have_to,wait]  [reject_expl_just(fuck,[external,factive,narration,foreground,objective])]
+Born To Hula Lyrics.txt_10-57  [every,single,flinging,mile]  [provide_expl_just(fling,[external,factive,cause,foreground,objective])]
+Born To Hula Lyrics.txt_11-68  [they,are,coming,faster,all,the,while]  [raise_issue(be,[_20270,factive,statement,_20288,subjective])]
+Born To Hula Lyrics.txt_12-80  [is,not,it,something,,,we,are,born,to,hula,x4]  [reject_expl_just(be,[external,factive,narration,background,objective]),reject_expl_just(bear-cl15,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Born To Hula Lyrics.txt_1-1)-[]
+2-(Born To Hula Lyrics.txt_2-3)-[secondary-social_behavior,primary-brink,primary-concreteness]
+3-(Born To Hula Lyrics.txt_3-6)-[secondary-temporal_repere]
+4-(Born To Hula Lyrics.txt_3-7)-[]
+5-(Born To Hula Lyrics.txt_4-11)-[primary-orality]
+6-(Born To Hula Lyrics.txt_5-16)-[]
+half
+7-(Born To Hula Lyrics.txt_6-22)-[primary-concreteness,primary-narcissism]
+8-(Born To Hula Lyrics.txt_7-29)-[secondary-temporal_repere]
+9-(Born To Hula Lyrics.txt_8-37)-[]
+10-(Born To Hula Lyrics.txt_9-46)-[primary-diffusion]
+11-(Born To Hula Lyrics.txt_10-57)-[secondary-temporal_repere,emotions-expressive_beh]
+12-(Born To Hula Lyrics.txt_11-68)-[primary-orality,secondary-temporal_repere]
+13-(Born To Hula Lyrics.txt_12-80)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Born To Hula Lyrics.txt_1,1,cl1-nil-nil-bear-[adj-temporal-age-nil,ncmod-specif-Stone-sn4,arg_mod-agent-queen-sn3,iobj-goal-hula-sn2,subj-agent-Lyrics-sn1,def_prop(Stone,[place,umano]),def_prop(queen,[animato,oggetto,plant,strumento,umano]),def_prop(hula,[attivita]),def_prop(Lyrics,[informa,tecno])])
+lf(Born To Hula Lyrics.txt_2,3,cl2-nil-nil-follow-[iobj-goal-here-sn3,obj-theme_unaff-trail-sn2,subj-agent-you-sn1,def_prop(here,[istituzione]),def_prop(trail,[oggetto,strumento]),def_prop(you,[umano])])
+lf(Born To Hula Lyrics.txt_3,6,cl4-nil-nil-be-[xcomp-prop-my_way-sn3,subj-theme_bound-you-sn2,def_prop(my_way,[astratto,attivita,informa,oggetto,stato,strumento,tecno]),def_prop(you,[umano])])
+lf(Born To Hula Lyrics.txt_3,6,cl3-nil-nil-take-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Born To Hula Lyrics.txt_4,11,cl5-nil-can-can-[subj-actor-we-sn1,def_prop(we,[umano])])
+lf(Born To Hula Lyrics.txt_5,16,cl6-nil-nil-turn-[subj-agent-(table)-sn1,def_prop(table,[istituzione,oggetto,strumento])])
+lf(Born To Hula Lyrics.txt_6,22,cl7-nil-nil-be-[ncmod-locativo-foot-sn3,xcomp-prop-dog-sn2,subj-theme_bound-i-sn1,def_prop(foot,[animato,attivita,body_part,luogo,nquant,oggetto,strumento,umano]),def_prop(dog,[animato,plant,stato,umano]),def_prop(i,[umano])])
+lf(Born To Hula Lyrics.txt_7,29,cl8-nil-nil-be-[xcomp-prop-again-sn3,subj-theme_bound-it-sn2,subj-theme_bound-it-sn1,and(it,we,sn1),def_prop(again,[istituzione]),def_prop(it,[any]),def_prop(it,[any])])
+lf(Born To Hula Lyrics.txt_8,37,cl9-nil-nil-be-[xcomp-prop-x4-sn2,subj-theme_bound-you-sn1,and(x4,one,sn2),def_prop(x4,[istituzione]),def_prop(you,[umano])])
+lf(Born To Hula Lyrics.txt_9,46,cl11-nil-have_to-wait-[subj-actor-dime-sn1,def_prop(dime,[astratto,oggetto])])
+lf(Born To Hula Lyrics.txt_9,46,cl10-nil-nil-fuck-[])
+lf(Born To Hula Lyrics.txt_10,57,cl12-nil-nil-fling-[obj-patient-mile-sn2,subj-agent-single-sn1,and(single,every,sn1),def_prop(mile,[evento,nquant]),def_prop(single,[attivita])])
+lf(Born To Hula Lyrics.txt_11,68,cl13-nil-nil-come-[obj-theme_aff-while-sn2,subj-agent-they-sn1,aux-are-nil,progr-coming-nil,and(while,all,sn2),def_prop(while,[tempo]),def_prop(they,[umano])])
+lf(Born To Hula Lyrics.txt_12,80,cl15-nil-nil-bear-[iobj-goal-x4-sn3,aux-are-nil,and(x4,hula,sn3),def_prop(x4,[istituzione])])
+lf(Born To Hula Lyrics.txt_12,80,cl14-not-nil-be-[xcomp-prop-something-sn2,subj-actor-we-sn1,and(something,it,sn2),def_prop(something,[astratto,informa,oggetto]),def_prop(we,[umano])])

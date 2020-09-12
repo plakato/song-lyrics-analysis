@@ -1,0 +1,101 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Casablanca Lyrics.txt_1-1  []-positive  []
+Casablanca Lyrics.txt_2-3  []-suspension  [neg,neg]
+Casablanca Lyrics.txt_3-6  []-positive  []
+Casablanca Lyrics.txt_3-7  []-positive  []
+Casablanca Lyrics.txt_4-11  []-positive  []
+Casablanca Lyrics.txt_5-16  []-negative  [neg]
+Casablanca Lyrics.txt_6-22  []-positive  [neg]
+Casablanca Lyrics.txt_7-30  []-suspension  [neg,fgb]
+Casablanca Lyrics.txt_8-40  []-positive  []
+Casablanca Lyrics.txt_9-49  []-positive  [fgb]
+Casablanca Lyrics.txt_9-49  []-positive  [fgb]
+Casablanca Lyrics.txt_10-60  []-suspension  [fgb]
+Casablanca Lyrics.txt_11-71  []-positive  [neg]
+Casablanca Lyrics.txt_12-83  []-negative  []
+Casablanca Lyrics.txt_13-96  []-negative  [neg,neg]
+Casablanca Lyrics.txt_14-110  []-suspension  [neg,neg]
+Casablanca Lyrics.txt_15-125  []-suspension  [neg]
+Casablanca Lyrics.txt_16-141  []-suspension  []
+Casablanca Lyrics.txt_16-142  []-positive  []
+Casablanca Lyrics.txt_17-159  [(as)-temp_coinc]-suspension  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Casablanca Lyrics.txt_1-1  [casablanca,Lyrics,by,Xandria]  [title]
+Casablanca Lyrics.txt_2-3  [at,the,temple,of,black,gods,i,failed,again]  [provide_expl_just(fail,[external,factive,narration,foreground,objective])]
+Casablanca Lyrics.txt_3-6  [a,chilvarous,you,for,end]  [provide_expl_just(end,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Casablanca Lyrics.txt_3-7  [for,a,man]  [provide_expl_just(end,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Casablanca Lyrics.txt_4-11  [clandestine,enthralling,haze]  [provide_expl_just(enthral,[external,factive,narration,foreground,objective])]
+Casablanca Lyrics.txt_5-16  [a,docile,sacrifice,for,your,grace]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Casablanca Lyrics.txt_6-22  [resurrect,from,the,ban,they,put,on,you]  [provide_expl_just(put,[external,factive,narration,foreground,objective]),provide_expl_just(resurrect,[external,factive,narration,background,objective])]
+Casablanca Lyrics.txt_7-30  [fall,again,you,will,-,what,they,foreknew,.,they,foreknew]  [provide_expl_just(will,[external,nonfactive,narration,background,objective]),provide_expl_just(foreknow,[external,factive,narration,foreground,objective]),provide_expl_just(fall,[external,factive,narration,background,objective])]
+Casablanca Lyrics.txt_8-40  [only,gods,illuminate]  [provide_expl_just(illuminate,[external,factive,narration,background,objective])]
+Casablanca Lyrics.txt_9-49  [and,just,a,slave,to,be,is]  [provide_expl_just(fate,[external,factive,circumstance,background,objective])]
+Casablanca Lyrics.txt_9-49  [and,just,a,slave,to,be,is,my,fate]  [provide_expl_just(fate,[external,factive,circumstance,background,objective])]
+Casablanca Lyrics.txt_10-60  [and,you,will,hear,me]  [provide_expl_just(hear,[external,nonfactive,narration,background,objective])]
+Casablanca Lyrics.txt_11-71  [siren-s,calls,of,temptation]  [provide_expl_just(call,[external,factive,narration,background,objective])]
+Casablanca Lyrics.txt_12-83  [you,teasing]  reject_expl_opin(nil,[])
+Casablanca Lyrics.txt_13-96  [no,limit,will,be]  [reject_expl_just(be,[external,nonfactive,narration,background,objective])]
+Casablanca Lyrics.txt_14-110  [no,taboo,of,imagination]  [provide_expl_just(taboo,[external,factive,narration,background,objective])]
+Casablanca Lyrics.txt_15-125  [i,will,fill,your,void]  [provide_expl_just(fill,[external,nonfactive,narration,background,objective])]
+Casablanca Lyrics.txt_16-141  [i,will,always,savour]  [provide_expl_just(savour,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Casablanca Lyrics.txt_16-142  [you]  [provide_expl_just(savour,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Casablanca Lyrics.txt_17-159  [as,i,will,always,be,your,fool]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Casablanca Lyrics.txt_1-1)-[]
+2-(Casablanca Lyrics.txt_2-3)-[primary-concreteness,secondary-temporal_repere]
+3-(Casablanca Lyrics.txt_3-6)-[]
+4-(Casablanca Lyrics.txt_3-7)-[]
+5-(Casablanca Lyrics.txt_4-11)-[primary-diffusion]
+6-(Casablanca Lyrics.txt_5-16)-[]
+7-(Casablanca Lyrics.txt_6-22)-[]
+8-(Casablanca Lyrics.txt_7-30)-[primary-descent,secondary-temporal_repere]
+9-(Casablanca Lyrics.txt_8-40)-[primary-vision]
+10-(Casablanca Lyrics.txt_9-49)-[]
+half
+11-(Casablanca Lyrics.txt_9-49)-[primary-orality]
+12-(Casablanca Lyrics.txt_10-60)-[primary-sound]
+13-(Casablanca Lyrics.txt_11-71)-[secondary-social_behavior]
+14-(Casablanca Lyrics.txt_12-83)-[]
+15-(Casablanca Lyrics.txt_13-96)-[secondary-restraint]
+16-(Casablanca Lyrics.txt_14-110)-[secondary-restraint]
+17-(Casablanca Lyrics.txt_15-125)-[primary-unknow]
+18-(Casablanca Lyrics.txt_16-141)-[primary-taste]
+19-(Casablanca Lyrics.txt_16-142)-[]
+20-(Casablanca Lyrics.txt_17-159)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Casablanca Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Xandria-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,casablanca,sn1),def_prop(Xandria,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Casablanca Lyrics.txt_2,3,cl2-nil-nil-fail-[adj-(mod)-again-nil,ncmod-locativo-temple-sn2,subj-theme_aff-i-sn1,def_prop(temple,[body_part,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(Casablanca Lyrics.txt_3,6,cl4-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Casablanca Lyrics.txt_3,6,cl3-nil-nil-end-[subj-agent-you-sn1,and(you,chilvarous,sn1),def_prop(you,[umano])])
+lf(Casablanca Lyrics.txt_4,11,cl5-nil-nil-enthral-[obj-theme-haze-sn2,subj-agent-clandestine-sn1,def_prop(haze,[attivita,cambia]),def_prop(clandestine,[evaluative])])
+lf(Casablanca Lyrics.txt_5,16,cl6-nil-nil-be-[subj-theme_bound-grace-sn2,subj-theme_bound-grace-sn1,def_prop(grace,[astratto,attivita,informa,stato]),def_prop(grace,[astratto,attivita,informa,stato])])
+lf(Casablanca Lyrics.txt_6,22,cl8-nil-nil-put-[iobj-goal-you-sn4,xmod-prop-put-3,iobj-goal-ban-sn2,def_prop(you,[umano]),def_prop(ban,[attivita,informa,nquant])])
+lf(Casablanca Lyrics.txt_6,22,cl7-nil-nil-resurrect-[obj-theme-they-sn3,subj-agent-you-sn1,def_prop(they,[umano]),def_prop(you,[umano])])
+lf(Casablanca Lyrics.txt_7,30,cl11-nil-nil-foreknow-[subj-agent-you-sn2,subj-agent-they-sn6,obj-theme_aff-what-sn3,xcomp-purpose-will-5,def_prop(you,[umano]),def_prop(they,[umano]),def_prop(what,[oggetto])])
+lf(Casablanca Lyrics.txt_7,30,cl10-nil-will-will-[])
+lf(Casablanca Lyrics.txt_7,30,cl9-nil-nil-fall-[adj-locative-again-nil,subj-agent-you-sn2,subj-agent-you-sn1,and(you,you,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Casablanca Lyrics.txt_8,40,cl12-nil-nil-illuminate-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Casablanca Lyrics.txt_9,49,cl14-nil-nil-fate-[adj-(mod)-just-nil,obj-prop-my-sn4,xcomp-purpose-be-2,subj-actor-slave-sn3,cmod-subord-fate-",def_prop(just,[informa,tecno]),def_prop(my,[informa,tecno]),def_prop(slave,[umano])])
+lf(Casablanca Lyrics.txt_9,49,cl13-nil-nil-be-[cmod-coord-fate-and,adj-subj_disc-just-sn2,subj-theme_bound-slave-sn1,def_prop(just,[informa,tecno]),def_prop(slave,[umano])])
+lf(Casablanca Lyrics.txt_10,60,cl15-nil-will-hear-[cmod-subord-hear-",obj-theme_unaff-me-sn2,subj-experiencer-you-sn1,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(Casablanca Lyrics.txt_11,71,cl16-nil-nil-call-[ncmod-specif-temptation-sn2,subj-agent-siren-s-sn1,def_prop(temptation,[astratto,emotivo]),def_prop(siren-s,[animato,attivita,informa,oggetto,strumento])])
+lf(Casablanca Lyrics.txt_12,83,cl17-nil-nil-tease-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Casablanca Lyrics.txt_13,96,cl18-nil-will-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Casablanca Lyrics.txt_14,110,cl19-nil-nil-taboo-[ncmod-specif-imagination-sn2,subj-theme-no-sn1,def_prop(imagination,[astratto]),def_prop(no,[istituzione])])
+lf(Casablanca Lyrics.txt_15,125,cl20-nil-will-fill-[obj-goal-void-sn2,subj-agent-i-sn1,def_prop(void,[astratto]),def_prop(i,[umano])])
+lf(Casablanca Lyrics.txt_16,141,cl22-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Casablanca Lyrics.txt_16,141,cl21-nil-will-savour-[subj-actor-you-sn1,adj-(mod)-always-nil,def_prop(you,[umano])])
+lf(Casablanca Lyrics.txt_17,159,cl23-nil-will-be-[xcomp-prop-fool-sn2,subj-theme_bound-i-sn1,adj-(mod)-always-nil,def_prop(fool,[attivita,plant,stato,umano]),def_prop(i,[umano])])

@@ -1,0 +1,34 @@
+"POLARITY, DISCOURSE MARKERS"
+
+DeLorean Lyrics.txt_1-1  []-positive  []
+DeLorean Lyrics.txt_2-3  []-positive  []
+DeLorean Lyrics.txt_3-6  [so-result]-positive  [fgb,fgb,fgb]
+DeLorean Lyrics.txt_4-10  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+DeLorean Lyrics.txt_1-1  [delorean,Lyrics,by,WordPlay,T]  [title]
+DeLorean Lyrics.txt_2-3  [Jay]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+DeLorean Lyrics.txt_3-6  [background,so,i,can,go,on,and,on,and,on]  [proposal(be,[_13512,_13518,statement,foreground,_13536])]
+DeLorean Lyrics.txt_4-10  [milk,!]  [provide_expl_just(milk,[internal,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(DeLorean Lyrics.txt_1-1)-[]
+2-(DeLorean Lyrics.txt_2-3)-[]
+half
+3-(DeLorean Lyrics.txt_3-6)-[]
+4-(DeLorean Lyrics.txt_4-10)-[primary-orality]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(DeLorean Lyrics.txt_1,1,cl1-nil-nil-be-[xadj-adj-T-adj1,arg_mod-agent-wordplay-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,delorean,sn1),def_prop(T,_15108),def_prop(wordplay,[attivita,informa]),def_prop(Lyrics,[informa,tecno])])
+lf(DeLorean Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-Jay-sn1,def_prop(Jay,[place,umano])])
+lf(DeLorean Lyrics.txt_3,6,cl3-nil-can-go-[cmod-subord-go-so,subj-agent-i-sn2,def_prop(i,[umano])])
+lf(DeLorean Lyrics.txt_4,10,cl4-nil-nil-milk-[subj-agent-you-sn1,def_prop(you,[umano])])

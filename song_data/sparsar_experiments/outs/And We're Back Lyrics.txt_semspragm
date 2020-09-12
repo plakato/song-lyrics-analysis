@@ -1,0 +1,138 @@
+"POLARITY, DISCOURSE MARKERS"
+
+And We're Back Lyrics.txt_1-1  []-positive  [fgb]
+And We're Back Lyrics.txt_2-3  []-positive  []
+And We're Back Lyrics.txt_3-6  []-question  [neg]
+And We're Back Lyrics.txt_3-7  []-positive  [fgb]
+And We're Back Lyrics.txt_4-11  []-positive  []
+And We're Back Lyrics.txt_5-16  [while-temp_coinc]-negative  [fgb,neg]
+And We're Back Lyrics.txt_6-23  []-positive  [fgb,fgb]
+And We're Back Lyrics.txt_7-30  []-positive  [fgb]
+And We're Back Lyrics.txt_8-38  [but-advers]-negative  [fgb,neg,neg]
+And We're Back Lyrics.txt_9-48  []-negative  [neg]
+And We're Back Lyrics.txt_10-58  []-positive  []
+And We're Back Lyrics.txt_11-69  []-positive  [fgb]
+And We're Back Lyrics.txt_11-70  [so-result]-positive  [fgb]
+And We're Back Lyrics.txt_12-82  []-negative  [neg,fhd]
+And We're Back Lyrics.txt_13-96  []-negative  [neg]
+And We're Back Lyrics.txt_14-110  [since-cause]-positive  []
+And We're Back Lyrics.txt_15-125  [before-temp_prec]-negative  [neg]
+And We're Back Lyrics.txt_15-126  [so-result]-positive  [fgb]
+And We're Back Lyrics.txt_16-142  [if-hypoth]-suspension  [fhd,fgb,fhd,neg]
+And We're Back Lyrics.txt_17-159  []-positive  []
+And We're Back Lyrics.txt_18-178  []-positive  [neg]
+And We're Back Lyrics.txt_19-198  []-suspension  [neg,neg]
+And We're Back Lyrics.txt_20-220  []-suspension  [neg]
+And We're Back Lyrics.txt_20-221  []-positive  [fgb]
+And We're Back Lyrics.txt_21-242  []-positive  []
+And We're Back Lyrics.txt_22-264  []-positive  [neg,ack]
+And We're Back Lyrics.txt_23-287  []-positive  [fgb]
+And We're Back Lyrics.txt_23-288  []-positive  [fhd]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+And We're Back Lyrics.txt_1-1  [and,we,are,back,Lyrics,by,sweats]  [title]
+And We're Back Lyrics.txt_2-3  [welcome]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+And We're Back Lyrics.txt_3-6  [ass,seeming,niggas,these,?]  [provide_expl_just(seem,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+And We're Back Lyrics.txt_3-7  [and,me]  [provide_expl_just(seem,[internal,factive,narration,background,objective]),provide_expl_just(be,[internal,factive,narration,foreground,objective])]
+And We're Back Lyrics.txt_4-11  [i,am,just,thinking,fast]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+And We're Back Lyrics.txt_5-16  [and,X-ing,bitches,boxes,while,i,am,putting,niggas,dreams,in,casts]  [reject_expl_just(cast,[external,factive,circumstance,background,objective]),propose_opin_neg(cast,[external,factive,circumstance,background,objective])]
+And We're Back Lyrics.txt_6-23  [and,my,niggas,is,dreaming,cash,and,play,at,every,station]  [proposal(be,[_196766,_196772,statement,foreground,_196790])]
+And We're Back Lyrics.txt_7-30  [me,and,you]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+And We're Back Lyrics.txt_8-38  [two,I-s,,,making,a,we,but,i,is,not,fucking,playin-]  [reject_expl_just(make,[external,factive,cause,foreground,objective])]
+And We're Back Lyrics.txt_9-48  [no,sentiment,your,raps]  [reject_expl_just(rap,[external,factive,narration,background,objective])]
+And We're Back Lyrics.txt_10-58  [collecting,sediment]  [provide_expl_just(collect,[external,factive,narration,foreground,objective])]
+And We're Back Lyrics.txt_11-69  [and,sweats,is,only,letterin]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+And We're Back Lyrics.txt_11-70  [so,po-po,have,some,evidence]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(have,[external,factive,narration,background,objective])]
+And We're Back Lyrics.txt_12-82  [a,motherfucking,fresh-a,-,man,spitting,like,i,am,a,Letterman,veteran]  [reject_expl_just(spit,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+And We're Back Lyrics.txt_13-96  [fucking,hellish-bent,on,seeing,niggas,Heaven-sent]  [reject_expl_just(be,[_200772,_200778,_200784,_200790,_200796])]
+And We're Back Lyrics.txt_14-110  [since,8,i,have,been,wanting,these,dreams]  [provide_expl_just(want,[external,factive,narration,foreground,objective])]
+And We're Back Lyrics.txt_15-125  [before,i,am,fucking,24]  [reject_expl_just(fuck,[external,factive,narration,foreground,objective])]
+And We're Back Lyrics.txt_15-126  [so,i,have,been,writing,16s]  [provide_expl_just(fuck,[external,factive,narration,foreground,objective])]
+And We're Back Lyrics.txt_16-142  [or,even,32s,if,it,is,that,or,half,,,i,will,still,murder,you]  [provide_expl_just(will,[external,nonfactive,narration,background,objective])]
+And We're Back Lyrics.txt_17-159  [girls,saying,Sweats,i,have,heard,of,you]  [provide_expl_just(say,[external,factive,narration,foreground,objective]),provide_expl_just(hear,[external,factive,narration,background,objective])]
+And We're Back Lyrics.txt_18-178  [i,am,tryna,make,a,dirty,two]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+And We're Back Lyrics.txt_19-198  [tired,of,lunchables,thinking,they,fucking,run,the,show]  [provide_expl_just(think,[external,factive,narration,foreground,objective]),provide_expl_just(run,[external,factive,narration,background,objective]),provide_expl_just(fuck,[external,factive,narration,foreground,objective])]
+And We're Back Lyrics.txt_20-220  [i,will,shit,on,your,Huxtable]  [provide_expl_just(shit,[external,nonfactive,narration,background,objective]),provide_expl_just(mitch,[external,factive,narration,background,objective])]
+And We're Back Lyrics.txt_20-221  [and,your,mitch,&,amp]  [provide_expl_just(shit,[external,nonfactive,narration,background,objective]),provide_expl_just(mitch,[external,factive,narration,background,objective])]
+And We're Back Lyrics.txt_21-242  [Ness,adjustable]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+And We're Back Lyrics.txt_22-264  [coming,proper,to,knock,you,right,off,your,rocker]  [proposal(be,[_210694,_210700,statement,foreground,_210718])]
+And We're Back Lyrics.txt_23-287  [i,am,bending,flows,and,kickin]  [provide_expl_just(bend,[external,factive,cause,foreground,objective]),suggest(bend,_215108)]
+And We're Back Lyrics.txt_23-288  [it,like,Sokka,playing,soccer]  [provide_expl_just(bend,[external,factive,cause,foreground,objective]),suggest(bend,_219492)]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(And We're Back Lyrics.txt_1-1)-[primary-concreteness,primary-anality]
+2-(And We're Back Lyrics.txt_2-3)-[emotions-affection]
+3-(And We're Back Lyrics.txt_3-6)-[]
+4-(And We're Back Lyrics.txt_3-7)-[]
+5-(And We're Back Lyrics.txt_4-11)-[primary-orality]
+6-(And We're Back Lyrics.txt_5-16)-[primary-sex,secondary-temporal_repere,primary-counscious]
+7-(And We're Back Lyrics.txt_6-23)-[emotions-expressive_beh,primary-concreteness,secondary-temporal_repere]
+8-(And We're Back Lyrics.txt_7-30)-[]
+9-(And We're Back Lyrics.txt_8-38)-[]
+10-(And We're Back Lyrics.txt_9-48)-[]
+11-(And We're Back Lyrics.txt_10-58)-[]
+12-(And We're Back Lyrics.txt_11-69)-[primary-anality]
+13-(And We're Back Lyrics.txt_11-70)-[secondary-abstract_tought]
+14-(And We're Back Lyrics.txt_12-82)-[emotions-affection]
+half
+15-(And We're Back Lyrics.txt_13-96)-[primary-vision]
+16-(And We're Back Lyrics.txt_14-110)-[primary-counscious]
+17-(And We're Back Lyrics.txt_15-125)-[]
+18-(And We're Back Lyrics.txt_15-126)-[]
+19-(And We're Back Lyrics.txt_16-142)-[emotions-aggression]
+20-(And We're Back Lyrics.txt_17-159)-[primary-sound]
+21-(And We're Back Lyrics.txt_18-178)-[secondary-instru_behavior,secondary-instru_behavior,primary-anality]
+22-(And We're Back Lyrics.txt_19-198)-[]
+23-(And We're Back Lyrics.txt_20-220)-[primary-anality]
+24-(And We're Back Lyrics.txt_20-221)-[]
+25-(And We're Back Lyrics.txt_21-242)-[]
+26-(And We're Back Lyrics.txt_22-264)-[secondary-moral_imperative,secondary-moral_imperative,primary-concreteness,primary-hard]
+27-(And We're Back Lyrics.txt_23-287)-[emotions-aggression]
+28-(And We're Back Lyrics.txt_23-288)-[emotions-affection]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(And We're Back Lyrics.txt_1,1,cl1-nil-nil-be-[cmod-subord-be-",arg_mod-agent-sweat-sn3,xcomp-prop-Lyrics-sn2,subj-theme_bound-we-sn1,and(Lyrics,back,sn2),def_prop(sweat,[attivita,cambia]),def_prop(Lyrics,[informa,tecno]),def_prop(we,[umano])])
+lf(And We're Back Lyrics.txt_2,3,cl2-nil-nil-say-[])
+lf(And We're Back Lyrics.txt_3,6,cl4-nil-nil-be-[cmod-subord-be-",subj-theme_bound-me-sn4,def_prop(me,[umano])])
+lf(And We're Back Lyrics.txt_3,6,cl3-nil-nil-seem-[obj2-goal-ass-sn2,subj-actor-nigga-sn1,and(nigga,these,sn1),def_prop(ass,[animato,attivita,body_part,umano]),def_prop(nigga,[istituzione,umano])])
+lf(And We're Back Lyrics.txt_4,11,cl5-nil-nil-be-[xcomp-prop-fast-sn2,subj-theme_bound-i-sn1,and(fast,thinking,sn2),def_prop(fast,[attivita]),def_prop(i,[umano])])
+lf(And We're Back Lyrics.txt_5,16,cl7-nil-nil-cast-[subj-theme-dream-sn7,and(dream,nigga,sn7),def_prop(dream,[astratto,stato])])
+lf(And We're Back Lyrics.txt_5,16,cl6-nil-nil-put-[cmod-subord-cast-",cmod-subord-cast-while,obj-goal-dream-sn7,subj-agent-i-sn6,aux-am-nil,progr-putting-nil,and(dream,nigga,sn7),def_prop(dream,[astratto,stato]),def_prop(i,[umano])])
+lf(And We're Back Lyrics.txt_6,23,cl8-nil-nil-dream-[cmod-subord-dream-",ncmod-locativo-station-sn5,coord-theme-cash_and_play-sn4,obj-theme-play-sn3,obj-theme-cash-sn2,subj-agent-nigga-sn1,aux-(is)-nil,progr-dreaming-nil,and(station,every,sn5),def_prop(station,[luogo,oggetto,strumento]),def_prop(cash_and_play,[astratto,oggetto,attivita,informa,stato]),def_prop(play,[astratto,oggetto,attivita,informa,stato]),def_prop(cash,[astratto,oggetto,attivita,informa,stato]),def_prop(nigga,[istituzione,umano])])
+lf(And We're Back Lyrics.txt_7,30,cl9-nil-nil-be-[subj-theme_bound-you-sn2,subj-theme_bound-you-sn1,and(you,me,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(And We're Back Lyrics.txt_8,38,cl11-not-nil-fuck-[cmod-subord-fuck-but,obj-theme-[]-sn5,subj-actor-i-sn4,aux-(is)-nil,progr-fucking-nil,def_prop([],nil),def_prop(i,[umano])])
+lf(And We're Back Lyrics.txt_8,38,cl10-nil-nil-make-[obj-goal-we-sn2,subj-agent-two-sn1,and(two,I-s,sn1),def_prop(we,[umano]),def_prop(two,[_221782])])
+lf(And We're Back Lyrics.txt_9,48,nil-nil-nil-rap-[subj-actor-your-sn2,subj-actor-your-sn1,and(your,sentiment,sn1),and(your,no,sn1),def_prop(your,[evaluative]),def_prop(your,[istituzione])])
+lf(And We're Back Lyrics.txt_10,58,cl12-nil-nil-collect-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(And We're Back Lyrics.txt_11,69,cl14-nil-nil-have-[xcomp-tema_bound-evidence-sn4,subj-experiencer-po-po-sn3,cmod-subord-have-",and(evidence,some,sn4),def_prop(evidence,[astratto,attivita,informa]),def_prop(po-po,[oggetto])])
+lf(And We're Back Lyrics.txt_11,69,cl13-nil-nil-be-[xcomp-prop-letterin-sn2,subj-theme_bound-sweat-sn1,def_prop(letterin,[istituzione]),def_prop(sweat,[attivita,cambia])])
+lf(And We're Back Lyrics.txt_12,82,cl16-nil-nil-be-[xcomp-prop-veteran-sn4,xcomp-theme_unaff-i-sn3,xcomp-purpose-spit-2,subj-theme_bound-man-sn2,subj-theme_bound-man-sn1,and(veteran,Letterman,sn4),and(man,fresh-a,sn1),def_prop(veteran,[umano]),def_prop(i,[umano]),def_prop(man,[any]),def_prop(man,[any])])
+lf(And We're Back Lyrics.txt_12,82,cl15-nil-nil-spit-[])
+lf(And We're Back Lyrics.txt_13,96,cl17-nil-nil-see-[obj-theme-nigga-sn2,subj-agent-hellish-bent-sn1,and(hellish-bent,fucking,sn1),def_prop(nigga,[istituzione,umano]),def_prop(hellish-bent,[astratto,plant])])
+lf(And We're Back Lyrics.txt_14,110,cl18-nil-nil-want-[cmod-subord-want-",obj-tema_unaff-dream-sn2,subj-actor-i-sn1,aux-been-nil,aux-have-nil,and(dream,these,sn2),and(i,8,sn1),def_prop(dream,[astratto,stato]),def_prop(i,[umano])])
+lf(And We're Back Lyrics.txt_15,125,cl20-nil-nil-write-[obj-source_information-16s-sn4,subj-agent-i-sn3,ncmod-temporale-i-sn1,aux-been-nil,aux-have-nil,def_prop(16s,[nquant]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(And We're Back Lyrics.txt_15,125,cl19-nil-nil-fuck-[obj-theme-24-sn2,aux-am-nil,progr-fucking-nil,def_prop(24,[nquant])])
+lf(And We're Back Lyrics.txt_16,142,cl22-nil-will-will-[cmod-subord-will-",cmod-subord-will-if,obj-theme-you-sn4,xcomp-prop-murder-sn3,subj-agent-i-sn2,subj-agent-i-sn1,and(i,32s,sn1),def_prop(you,[umano]),def_prop(murder,[attivita]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(And We're Back Lyrics.txt_16,142,cl21-nil-nil-be-[coord-prop-that_or_half-sn11,xcomp-prop-half-sn10,xcomp-prop-that-sn9,subj-theme_bound-it-sn8,def_prop(that_or_half,[oggetto,umano,valutativo]),def_prop(half,[oggetto,umano,valutativo]),def_prop(that,[oggetto,umano,valutativo]),def_prop(it,[any])])
+lf(And We're Back Lyrics.txt_17,159,cl24-nil-nil-hear-[obj-prop-Sweat-sn2,xcomp-purpose-say-2,subj-experiencer-girl-sn1,aux-have-nil,def_prop(Sweat,[attivita,body_part,cambia,evento,oggetto,stato,umano]),def_prop(girl,[oggetto,strumento])])
+lf(And We're Back Lyrics.txt_17,159,cl23-nil-nil-say-[ncmod-specif-you-sn4,def_prop(you,[umano])])
+lf(And We're Back Lyrics.txt_18,178,cl26-nil-nil-make-[xcomp-agent-two-sn5,subj-agent-you-sn4,xcomp-prop-two-sn3,subj-agent-tryna-sn2,and(two,dirty,sn5),and(two,dirty,sn3),def_prop(two,[_224084]),def_prop(you,[umano]),def_prop(two,[_224120]),def_prop(tryna,[istituzione])])
+lf(And We're Back Lyrics.txt_18,178,cl25-nil-nil-be-[subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(And We're Back Lyrics.txt_19,198,cl29-nil-nil-run-[xadj-adj-tired-adj1,def_prop(tired,_224290)])
+lf(And We're Back Lyrics.txt_19,198,cl28-nil-nil-fuck-[subj-actor-they-sn1,def_prop(they,[umano])])
+lf(And We're Back Lyrics.txt_19,198,cl27-nil-nil-think-[obj-result-show-sn2,xcomp-prop-run-3,def_prop(show,[attivita,informa])])
+lf(And We're Back Lyrics.txt_20,220,nil-nil-nil-mitch-[cmod-subord-shit-",obj-theme_aff-amp-sn6,subj-agent-your-sn5,def_prop(amp,[nquant]),def_prop(your,[evaluative])])
+lf(And We're Back Lyrics.txt_20,220,cl30-nil-will-shit-[ncmod-locativo-Huxtable-sn2,subj-theme_aff-i-sn1,def_prop(Huxtable,[umano]),def_prop(i,[umano])])
+lf(And We're Back Lyrics.txt_21,242,cl31-nil-nil-say-[obj-theme_unaff-Ness-sn1,def_prop(Ness,[place,umano])])
+lf(And We're Back Lyrics.txt_22,264,cl32-nil-nil-come-[xcomp-prop-right-sn4,obj-theme_aff-you-sn3,xcomp-purpose-knock-2,xcomp-prop-proper-sn2,subj-agent-you-sn1,def_prop(right,[soggettivo]),def_prop(you,[umano]),def_prop(proper,[evaluative]),def_prop(you,[umano])])
+lf(And We're Back Lyrics.txt_23,287,cl34-nil-nil-be-[xcomp-theme-soccer-sn7,xcomp-prop-Sokka-sn6,subj-theme_bound-it-sn5,def_prop(soccer,[attivita]),def_prop(Sokka,[istituzione,umano]),def_prop(it,[any])])
+lf(And We're Back Lyrics.txt_23,287,cl33-nil-nil-bend-[coord-theme-flow_and_kickin-sn4,obj-theme-kickin-sn3,obj-theme-flow-sn2,subj-actor-i-sn1,aux-am-nil,progr-bending-nil,def_prop(flow_and_kickin,[attivita,evento,tempo,istituzione]),def_prop(kickin,[attivita,evento,tempo,istituzione]),def_prop(flow,[attivita,evento,tempo,istituzione]),def_prop(i,[umano])])

@@ -1,0 +1,65 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Creation Lyrics.txt_1-1  []-positive  []
+Creation Lyrics.txt_2-3  []-positive  []
+Creation Lyrics.txt_3-6  []-positive  []
+Creation Lyrics.txt_4-10  []-positive  [fgb]
+Creation Lyrics.txt_5-15  []-positive  [fgb]
+Creation Lyrics.txt_5-15  []-positive  [fgb,fgb,neg]
+Creation Lyrics.txt_6-21  []-negative  [fgb,neg]
+Creation Lyrics.txt_7-28  []-positive  [fgb]
+Creation Lyrics.txt_8-36  []-positive  [fgb]
+Creation Lyrics.txt_9-45  []-positive  []
+Creation Lyrics.txt_10-55  []-positive  [fgb]
+Creation Lyrics.txt_11-66  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Creation Lyrics.txt_1-1  [creation,Lyrics,by,Zion,i]  [title]
+Creation Lyrics.txt_2-3  [spoken]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Creation Lyrics.txt_3-6  [Carolyn,Gaines]  [raise_issue(be,[_24608,factive,statement,_24626,subjective])]
+Creation Lyrics.txt_4-10  [in,the,beginning,God,the,earth,and,the,heaven,created]  [provide_expl_just(create,[external,factive,cause,foreground,objective])]
+Creation Lyrics.txt_5-15  [and,the,earth,is,without,form]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Creation Lyrics.txt_5-15  [and,the,earth,is,without,form,,,and,void]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Creation Lyrics.txt_6-21  [and,darkness,was,upon,the,face,of,the,deep]  [reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Creation Lyrics.txt_7-28  [and,the,spirit,of,God,moved,upon,the,face,of,the,waters]  [provide_expl_just(move,[external,factive,cause,foreground,objective]),suggest(move,[external,factive,cause,foreground,objective])]
+Creation Lyrics.txt_8-36  [and,God,said]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Creation Lyrics.txt_9-45  [let,there,be,light]  [provide_expl_just(light,[external,factive,narration,background,objective])]
+Creation Lyrics.txt_10-55  [and]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Creation Lyrics.txt_11-66  [there,was,light]  [provide_expl_just(light,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Creation Lyrics.txt_1-1)-[]
+2-(Creation Lyrics.txt_2-3)-[secondary-social_behavior]
+3-(Creation Lyrics.txt_3-6)-[]
+4-(Creation Lyrics.txt_4-10)-[primary-sound,primary-height]
+5-(Creation Lyrics.txt_5-15)-[primary-sound,secondary-order]
+6-(Creation Lyrics.txt_5-15)-[primary-sound,secondary-order,primary-unknow]
+half
+7-(Creation Lyrics.txt_6-21)-[primary-narcissism,primary-depth]
+8-(Creation Lyrics.txt_7-28)-[primary-height,primary-narcissism,primary-water]
+9-(Creation Lyrics.txt_8-36)-[secondary-social_behavior]
+10-(Creation Lyrics.txt_9-45)-[primary-vision]
+11-(Creation Lyrics.txt_10-55)-[]
+12-(Creation Lyrics.txt_11-66)-[primary-vision]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Creation Lyrics.txt_1,1,cl1-nil-nil-be-[xcomp-theme-i-sn3,arg_mod-agent-Zion-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,creation,sn1),def_prop(i,[umano]),def_prop(Zion,[place,luogo]),def_prop(Lyrics,[informa,tecno])])
+lf(Creation Lyrics.txt_2,3,cl2-nil-nil-say-[])
+lf(Creation Lyrics.txt_3,6,cl3-nil-nil-say-[obj-theme_unaff-Gaines-sn1,and(Gaines,Carolyn,sn1),def_prop(Gaines,[place,umano])])
+lf(Creation Lyrics.txt_4,10,cl4-nil-nil-create-[ncmod-locativo-God-sn4,coord-agent-earth_and_heaven-sn3,subj-agent-heaven-sn2,subj-agent-earth-sn1,and(God,beginning,sn4),def_prop(God,[animato]),def_prop(earth_and_heaven,[sostanza,luogo]),def_prop(heaven,[sostanza,luogo]),def_prop(earth,[sostanza,luogo])])
+lf(Creation Lyrics.txt_5,15,cl5-nil-nil-be-[cmod-coord-be-and,ncmod-privation-form-sn4,subj-theme_bound-earth-sn3,cmod-subord-be-",ncmod-privation-form-sn2,subj-theme_bound-earth-sn1,def_prop(form,[astratto,attivita,body_part,informa,istituzione,oggetto,strumento,umano]),def_prop(earth,[sostanza]),def_prop(form,[astratto,attivita,body_part,informa,istituzione,oggetto,strumento,umano]),def_prop(earth,[sostanza])])
+lf(Creation Lyrics.txt_6,21,cl6-nil-nil-be-[cmod-subord-be-",ncmod-subj_disc-face-sn2,subj-theme_bound-darkness-sn1,def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(darkness,[astratto,luogo])])
+lf(Creation Lyrics.txt_7,28,cl7-nil-nil-move-[cmod-subord-move-",ncmod-subj_disc-face-sn2,subj-theme-spirit-sn1,def_prop(face,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(spirit,[astratto,stato,umano])])
+lf(Creation Lyrics.txt_8,36,cl8-nil-nil-say-[cmod-subord-say-",subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Creation Lyrics.txt_9,45,cl9-nil-nil-light-[xcomp-prop-there-sn2,subj-theme-you-sn1,aux-be-nil,def_prop(there,[any]),def_prop(you,[umano])])
+lf(Creation Lyrics.txt_10,55,cl10-nil-nil-say-[])
+lf(Creation Lyrics.txt_11,66,cl11-nil-nil-light-[subj-theme-you-sn1,aux-was-nil,def_prop(you,[umano])])

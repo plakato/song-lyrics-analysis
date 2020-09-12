@@ -1,0 +1,254 @@
+"POLARITY, DISCOURSE MARKERS"
+
+New York.txt_1-1  []-positive  []
+New York.txt_2-3  []-positive  [fgb]
+New York.txt_3-6  []-negative  [neg]
+New York.txt_4-12  []-positive  [fhd,neg]
+New York.txt_5-17  []-positive  []
+New York.txt_6-23  []-positive  []
+New York.txt_7-30  []-positive  []
+New York.txt_8-38  []-positive  []
+New York.txt_9-48  [but-advers,since-cause]-negative  [fgb,fgb,neg]
+New York.txt_10-58  []-negative  [fgb]
+New York.txt_11-69  [before-temp_prec]-positive  [fhd]
+New York.txt_12-81  []-negative  [neg]
+New York.txt_12-82  [so-result]-positive  [fgb,neg]
+New York.txt_13-96  []-positive  [ack]
+New York.txt_14-110  []-negative  [neg]
+New York.txt_14-111  []-positive  []
+New York.txt_15-126  []-suspension  []
+New York.txt_16-143  []-positive  [fgb]
+New York.txt_17-160  []-negative  [neg]
+New York.txt_17-161  []-positive  []
+New York.txt_18-179  [when-temp_coinc]-negative  [neg,fgb]
+New York.txt_19-199  []-positive  []
+New York.txt_20-219  []-positive  [fgb]
+New York.txt_21-240  []-suspension  [fgb]
+New York.txt_22-263  []-suspension  []
+New York.txt_22-264  []-positive  [fgb]
+New York.txt_23-288  []-negative  [fgb,neg]
+New York.txt_24-312  [if-hypoth]-negative  [fgb]
+New York.txt_25-337  []-negative  [neg]
+New York.txt_25-338  []-positive  [fgb]
+New York.txt_25-339  []-negative  [neg]
+New York.txt_26-365  [but-advers]-suspension  [fgb,neg]
+New York.txt_27-392  []-negative  [neg]
+New York.txt_27-393  []-positive  []
+New York.txt_28-421  []-negative  [neg]
+New York.txt_28-422  []-positive  []
+New York.txt_29-451  []-positive  []
+New York.txt_30-481  []-suspension  [neg,neg]
+New York.txt_31-512  []-positive  []
+New York.txt_32-544  []-positive  []
+New York.txt_32-545  []-negative  [neg]
+New York.txt_33-578  []-positive  [fhd]
+New York.txt_34-612  []-suspension  [neg]
+New York.txt_35-647  [but-advers]-positive  [fgb]
+New York.txt_36-684  []-positive  [fgb]
+New York.txt_37-721  []-positive  []
+New York.txt_37-722  [before-temp_prec]-suspension  []
+New York.txt_38-760  []-negative  [fgb,neg]
+New York.txt_39-799  [if-hypoth]-positive  [fgb]
+New York.txt_40-839  [so-result]-positive  [fgb,neg]
+New York.txt_41-881  []-suspension  []
+New York.txt_42-923  []-suspension  []
+New York.txt_42-924  [though-advers]-positive  []
+New York.txt_43-967  []-suspension  []
+New York.txt_43-968  [though-advers]-positive  []
+New York.txt_43-969  []-positive  []
+New York.txt_43-970  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+New York.txt_1-1  [new,york,by,Ryan,Adams]  [title]
+New York.txt_2-3  [well,,,i,shuffled,through,the,city,on,the,4th,of,July]  [provide_expl_just(shuffle,[external,factive,narration,foreground,objective])]
+New York.txt_3-6  [i,had,a,firecracker,waiting,to,blow]  [reject_expl_just(blow,[external,factive,explanation,background,objective]),propose_opin_neg(blow,[external,factive,explanation,background,objective]),reject_expl_just(have,[external,factive,narration,foreground,objective])]
+New York.txt_4-12  [breakin,like,a,robber,who,makin,its,way]  [provide_expl_just(like,[external,factive,narration,background,objective])]
+New York.txt_5-17  [to,the,cities,of,Mexico]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+New York.txt_6-23  [lived,in,an,apartment,out,on,Avenue,a]  [provide_expl_just(live,[external,factive,narration,foreground,objective])]
+New York.txt_7-30  [i,had,a,tar-hut,on,the,corner,of,10th]  [provide_expl_just(corn,[internal,factive,narration,foreground,objective])]
+New York.txt_8-38  [had,myself,a,lover,who,was,finer,than,gold]  [provide_expl_just(gold,[internal,factive,narration,background,objective])]
+New York.txt_9-48  [but,i,have,broken,up,and,busted,up,since]  [reject_expl_just(be,[_539226,_539232,_539238,_539244,_539250])]
+New York.txt_10-58  [and,love,don-t,play,any,games,with,me]  [provide_expl_just(play,[external,factive,cause,foreground,objective])]
+New York.txt_11-69  [anymore,like,she,did,before]  [provide_expl_just(do,[external,factive,narration,background,objective])]
+New York.txt_12-81  [the,world,will,not,wait]  [reject_expl_just(better,[external,factive,narration,background,objective]),reject_expl_just(wait,[external,nonfactive,narration,background,objective]),reject_expl_just(shake,[external,factive,narration,background,objective])]
+New York.txt_12-82  [so,i,better,shake]  [provide_expl_just(better,[external,factive,narration,background,objective]),provide_expl_just(wait,[external,nonfactive,narration,background,objective]),provide_expl_just(shake,[external,factive,narration,background,objective])]
+New York.txt_13-96  [that,right,thing,out_there,through,the,door]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+New York.txt_14-110  [New,you,hell,i,still,love]  [reject_expl_just(love,[external,factive,narration,background,objective]),reject_expl_just(york,[external,factive,narration,background,objective])]
+New York.txt_14-111  [york]  [provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(york,[external,factive,narration,background,objective])]
+New York.txt_15-126  [found,myself,a,picture,that,would,fit,in,the,folds]  [provide_expl_just(fit,[external,nonfactive,narration,background,objective])]
+New York.txt_16-143  [of,my,wallet,and,it,stayed,pretty,good]  [provide_expl_just(stay,[external,factive,narration,foreground,objective])]
+New York.txt_17-160  [still,amazed,i,didn-t,lose]  [reject_expl_just(lose,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+New York.txt_17-161  [it,on,the,roof,of,the,place]  [provide_expl_just(lose,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+New York.txt_18-179  [when,i,was,drunk,and,i,was,thinking,of,you]  [reject_expl_just(think,[external,factive,narration,background,objective])]
+New York.txt_19-199  [the,they,children,every_day,were,singing,their,tune]  [provide_expl_just(singe,[external,factive,narration,background,objective])]
+New York.txt_20-219  [out,on,the,streets,and,you,could,hear,from,inside]  [provide_expl_just(hear,[external,nonfactive,narration,background,objective])]
+New York.txt_21-240  [used,to,take,the,subway,3rd,and,up_to,Houston]  [provide_expl_just(use,[external,factive,cause,foreground,objective])]
+New York.txt_22-263  [i,would,wait]  [provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(hide,[external,factive,circumstance,background,objective])]
+New York.txt_22-264  [for,you,and,i,had,try,to,hide]  [provide_expl_just(try,[external,factive,narration,background,objective]),provide_expl_just(hide,[external,factive,circumstance,background,objective])]
+New York.txt_23-288  [and,love,will,not,play,any,games,with,me]  [reject_expl_just(play,[external,nonfactive,narration,background,objective])]
+New York.txt_24-312  [anymore,if,you,don-t,want,it,to]  [proposal(be,[_549866,_549872,statement,foreground,_549890])]
+New York.txt_25-337  [the,world,will,not,wait]  [reject_expl_just(wait,[external,nonfactive,narration,background,objective]),reject_expl_just(shake,[external,factive,narration,background,objective])]
+New York.txt_25-338  [and,i,watched]  [provide_expl_just(wait,[external,nonfactive,narration,background,objective]),provide_expl_just(shake,[external,factive,narration,background,objective])]
+New York.txt_25-339  [you,shake]  [reject_expl_just(wait,[external,nonfactive,narration,background,objective]),reject_expl_just(shake,[external,factive,narration,background,objective])]
+New York.txt_26-365  [but,honey,,,i,don-t,blame,you]  [provide_expl_just(blame,[external,factive,narration,foreground,objective])]
+New York.txt_27-392  [New,you,hell,i,still,love]  [reject_expl_just(love,[external,factive,narration,background,objective]),reject_expl_just(york,[external,factive,narration,background,objective])]
+New York.txt_27-393  [york]  [provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(york,[external,factive,narration,background,objective])]
+New York.txt_28-421  [New,you,hell,i,still,love]  [reject_expl_just(love,[external,factive,narration,background,objective]),reject_expl_just(york,[external,factive,narration,background,objective])]
+New York.txt_28-422  [york]  [provide_expl_just(love,[external,factive,narration,background,objective]),provide_expl_just(york,[external,factive,narration,background,objective])]
+New York.txt_29-451  [new,york]  [provide_expl_just(york,[external,factive,narration,background,objective])]
+New York.txt_30-481  [i_remember,Christmas,in,the,blistering,cold]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+New York.txt_31-512  [in,a,church,on,the,upper,west_side]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+New York.txt_32-544  [i,babe,stood,their,singing]  [provide_expl_just(stand,[external,factive,narration,foreground,objective]),provide_expl_just(hold,[external,factive,narration,background,objective])]
+New York.txt_32-545  [i,was,holding,your,arm]  [reject_expl_just(stand,[external,factive,narration,foreground,objective]),reject_expl_just(hold,[external,factive,narration,background,objective])]
+New York.txt_33-578  [you,were,holding,my,trust,like,a,child]  [provide_expl_just(hold,[external,factive,narration,background,objective])]
+New York.txt_34-612  [found,a,lot,of,trouble,out,on,Avenue,B]  [provide_expl_just(trouble,[external,factive,narration,background,objective])]
+New York.txt_35-647  [but,i,tried,to,keep,the,overhead,low]  [provide_expl_just(keep,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,foreground,objective])]
+New York.txt_36-684  [farewell,the,love,of,my,life,and,to,the,city]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+New York.txt_37-721  [at_least,we,left]  [provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(go,[external,nonfactive,narration,background,objective])]
+New York.txt_37-722  [before,we,had_to,go]  [provide_expl_just(leave,[external,factive,narration,foreground,objective]),provide_expl_just(go,[external,nonfactive,narration,background,objective])]
+New York.txt_38-760  [and,love,will,not,play,any,games,with,you]  [reject_expl_just(play,[external,nonfactive,narration,background,objective])]
+New York.txt_39-799  [anymore,if,you,want,em,to]  [proposal(be,[_560700,_560706,statement,foreground,_560724])]
+New York.txt_40-839  [so,we,better,shake,this,old,thing,out,the,door]  [provide_expl_just(shake,[external,factive,narration,background,objective]),provide_expl_just(better,[external,factive,narration,background,objective])]
+New York.txt_41-881  [i,will,always,be,thinkin,of,you]  [provide_expl_just(be,[external,nonfactive,narration,background,objective])]
+New York.txt_42-923  [i,will,always,love]  [provide_expl_just(love,[external,nonfactive,narration,background,objective]),provide_expl_just(york,[external,factive,narration,background,objective])]
+New York.txt_42-924  [you,though,New,york]  [provide_expl_just(love,[external,nonfactive,narration,background,objective]),provide_expl_just(york,[external,factive,narration,background,objective])]
+New York.txt_43-967  [i,will,always,love]  [provide_expl_just(love,[external,nonfactive,narration,background,objective]),provide_expl_just(york,[external,factive,narration,background,objective])]
+New York.txt_43-968  [you,though,New,york]  [provide_expl_just(love,[external,nonfactive,narration,background,objective]),provide_expl_just(york,[external,factive,narration,background,objective])]
+New York.txt_43-969  [New,york]  [provide_expl_just(love,[external,nonfactive,narration,background,objective]),provide_expl_just(york,[external,factive,narration,background,objective])]
+New York.txt_43-970  [New,york]  [provide_expl_just(love,[external,nonfactive,narration,background,objective]),provide_expl_just(york,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(New York.txt_1-1)-[]
+2-(New York.txt_2-3)-[]
+3-(New York.txt_3-6)-[]
+4-(New York.txt_4-12)-[emotions-aggression,emotions-affection,emotions-aggression,secondary-instru_behavior]
+5-(New York.txt_5-17)-[]
+6-(New York.txt_6-23)-[primary-concreteness]
+7-(New York.txt_7-30)-[primary-concreteness]
+8-(New York.txt_8-38)-[primary-sex,emotions-glory]
+9-(New York.txt_9-48)-[emotions-aggression]
+10-(New York.txt_10-58)-[emotions-affection,emotions-expressive_beh,emotions-expressive_beh]
+11-(New York.txt_11-69)-[emotions-affection]
+12-(New York.txt_12-81)-[]
+13-(New York.txt_12-82)-[primary-random_movement]
+14-(New York.txt_13-96)-[secondary-moral_imperative,primary-brink]
+15-(New York.txt_14-110)-[emotions-affection]
+16-(New York.txt_14-111)-[]
+17-(New York.txt_15-126)-[secondary-instru_behavior,primary-vision]
+18-(New York.txt_16-143)-[primary-brink,primary-gen_sensation]
+19-(New York.txt_17-160)-[]
+20-(New York.txt_17-161)-[primary-height,primary-concreteness]
+21-(New York.txt_18-179)-[secondary-temporal_repere,primary-orality]
+22-(New York.txt_19-199)-[primary-sound]
+23-(New York.txt_20-219)-[primary-concreteness,primary-brink,primary-sound,primary-concreteness]
+24-(New York.txt_21-240)-[secondary-instru_behavior]
+25-(New York.txt_22-263)-[]
+26-(New York.txt_22-264)-[secondary-instru_behavior]
+27-(New York.txt_23-288)-[emotions-affection,emotions-expressive_beh,emotions-expressive_beh]
+28-(New York.txt_24-312)-[]
+half
+29-(New York.txt_25-337)-[]
+30-(New York.txt_25-338)-[primary-vision]
+31-(New York.txt_25-339)-[primary-random_movement]
+32-(New York.txt_26-365)-[primary-orality,emotions-aggression]
+33-(New York.txt_27-392)-[emotions-affection]
+34-(New York.txt_27-393)-[]
+35-(New York.txt_28-421)-[emotions-affection]
+36-(New York.txt_28-422)-[]
+37-(New York.txt_29-451)-[]
+38-(New York.txt_30-481)-[primary-cold]
+39-(New York.txt_31-512)-[primary-height]
+40-(New York.txt_32-544)-[]
+41-(New York.txt_32-545)-[primary-narcissism]
+42-(New York.txt_33-578)-[emotions-affection,primary-cold]
+43-(New York.txt_34-612)-[secondary-instru_behavior,emotions-anxiety,primary-concreteness]
+44-(New York.txt_35-647)-[secondary-instru_behavior,primary-height,primary-depth]
+45-(New York.txt_36-684)-[emotions-affection,emotions-affection]
+46-(New York.txt_37-721)-[]
+47-(New York.txt_37-722)-[]
+48-(New York.txt_38-760)-[emotions-affection,emotions-expressive_beh,emotions-expressive_beh]
+49-(New York.txt_39-799)-[]
+50-(New York.txt_40-839)-[primary-random_movement,secondary-temporal_repere,primary-concreteness,primary-brink]
+51-(New York.txt_41-881)-[secondary-abstract_tought]
+52-(New York.txt_42-923)-[emotions-affection]
+53-(New York.txt_42-924)-[]
+54-(New York.txt_43-967)-[emotions-affection]
+55-(New York.txt_43-968)-[]
+56-(New York.txt_43-969)-[]
+57-(New York.txt_43-970)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(New York.txt_1,1,nil-nil-nil-york-[arg_mod-agent-Adams-sn2,subj-agent-you-sn1,and(Adams,Ryan,sn2),def_prop(Adams,[place,oggetto,umano]),def_prop(you,[umano])])
+lf(New York.txt_2,3,cl1-nil-nil-shuffle-[adj-(mod)-well-nil,ncmod-modal-4th-sn3,ncmod-location-city-sn2,subj-agent-i-sn1,def_prop(4th,[nquant]),def_prop(city,[istituzione,luogo]),def_prop(i,[umano])])
+lf(New York.txt_3,6,cl4-nil-nil-blow-[subj-tema_aff-firecracker-sn2,def_prop(firecracker,[oggetto,strumento])])
+lf(New York.txt_3,6,cl3-nil-nil-wait-[])
+lf(New York.txt_3,6,cl2-nil-nil-have-[xcomp-tema_bound-firecracker-sn2,subj-experiencer-i-sn1,def_prop(firecracker,[oggetto,strumento]),def_prop(i,[umano])])
+lf(New York.txt_4,12,nil-nil-nil-like-[obj-tema_emot-robber-sn2,subj-experiencer-breakin-sn1,and(robber,makin,sn2),and(robber,who,sn2),def_prop(robber,[umano]),def_prop(breakin,[istituzione])])
+lf(New York.txt_5,17,cl5-nil-nil-be-[ncmod-specif-Mexico-sn2,subj-theme_bound-you-sn1,def_prop(Mexico,[place,luogo]),def_prop(you,[umano])])
+lf(New York.txt_6,23,cl6-nil-nil-live-[adj-(mod)-out-nil,adj-subj_disc-out-sn4,iobj-goal-Avenue-sn3,iobj-goal-apartment-sn2,subj-actor-you-sn1,def_prop(out,[istituzione]),def_prop(out,[istituzione]),def_prop(Avenue,[istituzione,umano]),def_prop(apartment,[oggetto,strumento]),def_prop(you,[umano])])
+lf(New York.txt_7,30,cl7-nil-nil-have-[ncmod-locativo-corner-sn3,xcomp-tema_bound-tar-hut-sn2,subj-experiencer-i-sn1,def_prop(corner,[luogo,oggetto,stato,strumento]),def_prop(tar-hut,[informa,oggetto,relat,sociale,sostanza,strumento,tecno,umano]),def_prop(i,[umano])])
+lf(New York.txt_8,38,cl9-nil-nil-be-[subj-theme_bound-lover-sn1,def_prop(lover,[umano])])
+lf(New York.txt_8,38,cl8-nil-nil-have-[xcomp-tema_bound-myself-sn2,subj-experiencer-lover-sn1,def_prop(myself,[umano]),def_prop(lover,[umano])])
+lf(New York.txt_9,48,cl10-nil-nil-break-[subj-agent-i-sn1,aux-have-nil,def_prop(i,[umano])])
+lf(New York.txt_10,58,cl11-not-nil-play-[cmod-subord-play-",obj-goal-game-sn2,subj-agent-love-sn1,aux-do-nil,def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(love,[astratto,emotivo,nquant])])
+lf(New York.txt_11,69,cl12-nil-nil-do-[subj-theme_unaff-she-sn1,aux-did-nil,def_prop(she,[umano])])
+lf(New York.txt_12,81,cl14-nil-nil-shake-[subj-patient-i-sn2,def_prop(i,[umano])])
+lf(New York.txt_12,81,nil-nil-nil-better-[subj-agent-i-sn2,def_prop(i,[umano])])
+lf(New York.txt_12,81,cl13-not-will-wait-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(New York.txt_13,96,cl15-nil-nil-be-[ncmod-location-door-sn2,subj-theme_bound-out_there-sn1,and(out_there,that,sn1),and(out_there,right,sn1),def_prop(door,[astratto,oggetto,strumento]),def_prop(out_there,[attivita,luogo])])
+lf(New York.txt_14,110,nil-nil-nil-york-[subj-agent-you-sn7,def_prop(you,[umano])])
+lf(New York.txt_14,110,cl16-nil-nil-love-[adj-(mod)-still-nil,subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,hell,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(New York.txt_15,126,cl18-nil-would-fit-[xadj-adj-found-adj1,iobj-goal-fold-sn8,subj-agent-picture-sn2,iobj-goal-fold-sn6,iobj-goal-fold-sn3,subj-agent-picture-sn1,and(picture,myself,sn1),def_prop(found,_569622),def_prop(fold,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(picture,[astratto,attivita,informa,oggetto,stato,strumento]),def_prop(fold,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(fold,[astratto,attivita,body_part,oggetto,strumento,umano]),def_prop(picture,[astratto,attivita,informa,oggetto,stato,strumento])])
+lf(New York.txt_15,126,cl17-nil-nil-be-[subj-theme_bound-picture-sn2,subj-theme_bound-picture-sn1,and(picture,myself,sn1),def_prop(picture,[astratto,attivita,informa,oggetto,stato,strumento]),def_prop(picture,[astratto,attivita,informa,oggetto,stato,strumento])])
+lf(New York.txt_16,143,cl19-nil-nil-stay-[cmod-coord-stay-and,obj-theme_unaff-good-sn5,subj-agent-it-sn4,def_prop(good,[valutativo]),def_prop(it,[any])])
+lf(New York.txt_17,160,cl21-nil-nil-be-[ncmod-locativo-roof-sn5,subj-theme_bound-it-sn4,def_prop(roof,[oggetto,strumento]),def_prop(it,[any])])
+lf(New York.txt_17,160,cl20-not-nil-lose-[subj-theme_aff-i-sn1,aux-did-nil,def_prop(i,[umano])])
+lf(New York.txt_18,179,2-nil-nil-be-[])
+lf(New York.txt_18,179,cl22-nil-nil-think-[cmod-coord-think-and,iobj-theme_unaff-you-sn2,subj-agent-i-sn1,aux-was-nil,progr-thinking-nil,def_prop(you,[umano]),def_prop(i,[umano])])
+lf(New York.txt_19,199,cl23-nil-nil-singe-[obj-theme-tune-sn2,subj-agent-child-sn1,aux-were-nil,progr-singing-nil,and(child,they,sn1),def_prop(tune,[astratto,attivita,informa]),def_prop(child,[any,attivita,body_part,oggetto,strumento,umano])])
+lf(New York.txt_20,219,cl24-nil-could-hear-[cmod-coord-hear-and,iobj-goal-inside-sn4,subj-experiencer-you-sn3,def_prop(inside,[luogo]),def_prop(you,[umano])])
+lf(New York.txt_21,240,cl26-nil-nil-take-[ncmod-modal-_and_Houston-[sn4,sn5],obj-theme-subway-sn2,xcomp-purpose-take-2,def_prop(_and_Houston,[place,luogo,umano]),def_prop(subway,[oggetto,strumento])])
+lf(New York.txt_21,240,cl25-nil-nil-use-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(New York.txt_22,263,cl29-nil-nil-hide-[subj-patient-i-sn3,def_prop(i,[umano])])
+lf(New York.txt_22,263,cl28-nil-nil-try-[cmod-coord-hide-and,subj-actor-i-sn3,aux-had-nil,def_prop(i,[umano])])
+lf(New York.txt_22,263,cl27-nil-would-wait-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(New York.txt_23,288,cl30-not-will-play-[cmod-subord-play-",obj-goal-game-sn2,subj-agent-love-sn1,def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(love,[astratto,emotivo,nquant])])
+lf(New York.txt_24,312,cl31-not-nil-want-[subj-actor-it-sn3,subj-actor-it-sn2,aux-do-nil,and(it,you,sn2),def_prop(it,[any]),def_prop(it,[any])])
+lf(New York.txt_25,337,cl34-nil-nil-shake-[subj-agent-you-sn3,cmod-subord-shake-",def_prop(you,[umano])])
+lf(New York.txt_25,337,cl33-nil-nil-watch-[subj-actor-you-sn2,def_prop(you,[umano])])
+lf(New York.txt_25,337,cl32-not-will-wait-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(New York.txt_26,365,cl35-not-nil-blame-[subj-agent-you-sn2,subj-agent-you-sn1,aux-do-nil,and(you,i,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(New York.txt_27,392,nil-nil-nil-york-[subj-agent-you-sn7,def_prop(you,[umano])])
+lf(New York.txt_27,392,cl36-nil-nil-love-[adj-(mod)-still-nil,subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,hell,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(New York.txt_28,421,nil-nil-nil-york-[subj-agent-you-sn7,def_prop(you,[umano])])
+lf(New York.txt_28,421,cl37-nil-nil-love-[adj-(mod)-still-nil,subj-experiencer-i-sn2,subj-experiencer-i-sn1,and(i,hell,sn1),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(New York.txt_29,451,nil-nil-nil-york-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(New York.txt_30,481,cl38-nil-nil-be-[ncmod-locativo-cold-sn2,subj-theme_bound-Christmas-sn1,and(cold,blistering,sn2),and(Christmas,i_remember,sn1),def_prop(cold,[astratto,stato]),def_prop(Christmas,[place,tempo])])
+lf(New York.txt_31,512,cl39-nil-nil-be-[ncmod-locativo-west_side-sn2,ncmod-locativo-church-sn1,and(west_side,upper,sn2),def_prop(west_side,[luogo]),def_prop(church,[istituzione,oggetto,strumento])])
+lf(New York.txt_32,544,cl41-nil-nil-hold-[obj-goal-arm-sn7,subj-agent-i-sn6,aux-was-nil,progr-holding-nil,def_prop(arm,[astratto,body_part,oggetto,strumento,umano]),def_prop(i,[umano])])
+lf(New York.txt_32,544,cl40-nil-nil-stand-[obj-tema_emot-singing-sn2,subj-experiencer-babe-sn1,and(babe,i,sn1),def_prop(singing,[attivita]),def_prop(babe,[relat,sociale,umano])])
+lf(New York.txt_33,578,cl42-nil-nil-hold-[obj-theme-child-sn3,obj-goal-truss-sn2,subj-agent-you-sn1,aux-were-nil,progr-holding-nil,def_prop(child,[any,attivita,body_part,oggetto,strumento,umano]),def_prop(truss,[oggetto,strumento]),def_prop(you,[umano])])
+lf(New York.txt_34,612,cl43-nil-nil-trouble-[xadj-adj-found-adj2,adj-locative-out-nil,ncmod-locativo-B-sn2,subj-cause-lot-sn1,and(B,Avenue,sn2),def_prop(found,_573670),def_prop(B,[attivita,informa,istituzione,oggetto,strumento]),def_prop(lot,[luogo,nquant])])
+lf(New York.txt_35,647,cl45-nil-nil-keep-[obj-goal-low-sn2,xadj-result-keep-2,and(low,overhead,sn2),def_prop(low,[astratto,stato])])
+lf(New York.txt_35,647,cl44-nil-nil-try-[subj-actor-i-sn1,def_prop(i,[umano])])
+lf(New York.txt_36,684,cl46-nil-nil-be-[ncmod-modal-love_and_city-[sn2,sn3],subj-theme_bound-farewell-sn1,def_prop(love_and_city,[astratto,emotivo,nquant,istituzione,luogo]),def_prop(farewell,[attivita,informa])])
+lf(New York.txt_37,721,cl48-nil-had_to-go-[subj-agent-we-sn3,def_prop(we,[umano])])
+lf(New York.txt_37,721,cl47-nil-nil-leave-[subj-theme-we-sn1,def_prop(we,[umano])])
+lf(New York.txt_38,760,cl49-not-will-play-[cmod-subord-play-",obj-goal-game-sn2,subj-agent-love-sn1,def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(love,[astratto,emotivo,nquant])])
+lf(New York.txt_39,799,cl50-nil-nil-want-[obj-tema_unaff-em-sn3,subj-actor-you-sn2,def_prop(em,[nquant]),def_prop(you,[umano])])
+lf(New York.txt_40,839,cl51-nil-nil-shake-[ncmod-locativo-door-sn3,def_prop(door,[astratto,oggetto,strumento])])
+lf(New York.txt_40,839,nil-nil-nil-better-[obj-patient-thing-sn2,xcomp-purpose-shake-2,subj-agent-we-sn1,and(thing,this,sn2),and(thing,old,sn2),def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(we,[umano])])
+lf(New York.txt_41,881,cl52-nil-will-be-[xcomp-prop-thinkin-sn2,subj-theme_bound-i-sn1,adj-(mod)-always-nil,def_prop(thinkin,[istituzione]),def_prop(i,[umano])])
+lf(New York.txt_42,923,nil-nil-nil-york-[subj-agent-New-sn3,subj-agent-New-sn2,and(New,you,sn2),def_prop(New,[place,umano]),def_prop(New,[place,umano])])
+lf(New York.txt_42,923,cl53-nil-will-love-[subj-experiencer-you-sn1,adj-(mod)-always-nil,def_prop(you,[umano])])
+lf(New York.txt_43,967,nil-nil-nil-york-[subj-agent-you-sn8,subj-agent-you-sn7,subj-agent-New-sn3,subj-agent-New-sn2,and(New,you,sn2),def_prop(you,[umano]),def_prop(you,[umano]),def_prop(New,[place,umano]),def_prop(New,[place,umano])])
+lf(New York.txt_43,967,cl54-nil-will-love-[subj-experiencer-you-sn1,adj-(mod)-always-nil,def_prop(you,[umano])])

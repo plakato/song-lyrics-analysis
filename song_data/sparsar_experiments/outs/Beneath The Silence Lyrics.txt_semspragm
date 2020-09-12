@@ -1,0 +1,68 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Beneath The Silence Lyrics.txt_1-1  []-positive  []
+Beneath The Silence Lyrics.txt_2-3  []-negative  [neg,neg]
+Beneath The Silence Lyrics.txt_3-6  []-positive  []
+Beneath The Silence Lyrics.txt_4-11  []-positive  []
+Beneath The Silence Lyrics.txt_5-16  []-negative  [neg]
+Beneath The Silence Lyrics.txt_6-22  []-negative  [neg]
+Beneath The Silence Lyrics.txt_7-29  []-suspension  [neg,fgb]
+Beneath The Silence Lyrics.txt_8-38  []-positive  []
+Beneath The Silence Lyrics.txt_9-47  []-suspension  [neg]
+Beneath The Silence Lyrics.txt_10-57  []-negative  [neg]
+Beneath The Silence Lyrics.txt_11-69  []-positive  []
+Beneath The Silence Lyrics.txt_12-81  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Beneath The Silence Lyrics.txt_1-1  [beneath,the,Silence,Lyrics,by,Angel,dust]  [title]
+Beneath The Silence Lyrics.txt_2-3  [a,mind,full,of,haunted,shadows]  [reject_expl_just(full,[external,factive,explanation,background,objective]),propose_opin_neg(full,[external,factive,explanation,background,objective])]
+Beneath The Silence Lyrics.txt_3-6  [keeps,away,the,painfull,sleep]  [provide_expl_just(keep,[external,factive,explanation,background,objective]),provide_expl_just(sleep,[external,factive,explanation,background,objective])]
+Beneath The Silence Lyrics.txt_4-11  [light,a,candle,for,the,sacred,moment]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Beneath The Silence Lyrics.txt_5-16  [needless,thoughts,are,in,to,deep]  [reject_expl_just(deep,[internal,factive,narration,background,objective])]
+Beneath The Silence Lyrics.txt_6-22  [scary,pictures,behind,the,curtain]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Beneath The Silence Lyrics.txt_7-29  [burn,my,eyes,and,the,tears,melt]  [provide_expl_just(burn,[external,factive,narration,background,objective]),provide_expl_just(melt,[external,factive,narration,background,objective])]
+Beneath The Silence Lyrics.txt_8-38  [lonleyness,in,a,hidden,chamber]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Beneath The Silence Lyrics.txt_9-47  [the,doors,to,forgotten,fears,unlock]  [provide_expl_just(unlock,[external,factive,narration,background,objective])]
+Beneath The Silence Lyrics.txt_10-57  [there,is,nothing,left,to,take]  [reject_expl_just(there_be,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Beneath The Silence Lyrics.txt_11-69  [all,i,do,is,lay,awake]  [provide_expl_just(lay,[external,factive,narration,foreground,objective])]
+Beneath The Silence Lyrics.txt_12-81  [h,t,h,b,e,n,e,a,t,e,s,i,l,e,n,c,e]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Beneath The Silence Lyrics.txt_1-1)-[primary-depth]
+2-(Beneath The Silence Lyrics.txt_2-3)-[primary-diffusion]
+3-(Beneath The Silence Lyrics.txt_3-6)-[primary-concreteness,primary-counscious]
+4-(Beneath The Silence Lyrics.txt_4-11)-[primary-vision,primary-fire,secondary-temporal_repere]
+5-(Beneath The Silence Lyrics.txt_5-16)-[secondary-abstract_tought,primary-depth]
+6-(Beneath The Silence Lyrics.txt_6-22)-[emotions-anxiety,primary-vision,primary-concreteness,primary-diffusion]
+half
+7-(Beneath The Silence Lyrics.txt_7-29)-[primary-fire,primary-narcissism,primary-orality,primary-fire]
+8-(Beneath The Silence Lyrics.txt_8-38)-[]
+9-(Beneath The Silence Lyrics.txt_9-47)-[primary-brink,emotions-anxiety]
+10-(Beneath The Silence Lyrics.txt_10-57)-[]
+11-(Beneath The Silence Lyrics.txt_11-69)-[primary-passivity,primary-counscious]
+12-(Beneath The Silence Lyrics.txt_12-81)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Beneath The Silence Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-dust-sn3,ncmod-locativo-Silence-sn2,subj-theme_bound-Lyrics-sn1,and(dust,Angel,sn3),def_prop(dust,[sostanza]),def_prop(Silence,[astratto,stato,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Beneath The Silence Lyrics.txt_2,3,nil-nil-nil-full-[ncmod-specif-shadow-sn2,subj-actor-mind-sn1,and(shadow,haunted,sn2),def_prop(shadow,[astratto,emotivo,stato,umano]),def_prop(mind,[astratto])])
+lf(Beneath The Silence Lyrics.txt_3,6,cl3-nil-nil-sleep-[])
+lf(Beneath The Silence Lyrics.txt_3,6,cl2-nil-nil-keep-[subj-sn1-painfull-sn3,xcomp-prop-away-sn2,subj-experiencer-you-sn1,def_prop(painfull,[istituzione]),def_prop(away,[evaluative]),def_prop(you,[umano])])
+lf(Beneath The Silence Lyrics.txt_4,11,cl4-nil-nil-be-[subj-theme_bound-moment-sn2,subj-theme_bound-moment-sn1,and(moment,sacred,sn2),and(moment,sacred,sn1),def_prop(moment,[astratto,attivita,cambia,tempo]),def_prop(moment,[astratto,attivita,cambia,tempo])])
+lf(Beneath The Silence Lyrics.txt_5,16,cl5-nil-nil-be-[ncmod-loc_direct-deep-sn2,subj-theme_bound-thought-sn1,and(thought,needless,sn1),def_prop(deep,[oggetto,tempo]),def_prop(thought,[astratto])])
+lf(Beneath The Silence Lyrics.txt_6,22,cl6-nil-nil-be-[ncmod-locativo-curtain-sn2,subj-theme_bound-picture-sn1,and(picture,scary,sn1),def_prop(curtain,[oggetto,strumento]),def_prop(picture,[astratto,attivita,informa,oggetto,stato,strumento])])
+lf(Beneath The Silence Lyrics.txt_7,29,cl8-nil-nil-melt-[cmod-coord-melt-and,subj-agent-tear-sn5,def_prop(tear,[attivita,body_part,umano])])
+lf(Beneath The Silence Lyrics.txt_7,29,cl7-nil-nil-burn-[obj-theme-eye-sn2,subj-actor-you-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(you,[umano])])
+lf(Beneath The Silence Lyrics.txt_8,38,cl9-nil-nil-be-[ncmod-locativo-chamber-sn2,subj-theme_bound-lonleyness-sn1,and(chamber,hidden,sn2),def_prop(chamber,[body_part,istituzione,oggetto,strumento,umano]),def_prop(lonleyness,[istituzione])])
+lf(Beneath The Silence Lyrics.txt_9,47,cl10-nil-nil-unlock-[ncmod-modal-fear-sn2,subj-agent-you-sn1,and(fear,forgotten,sn2),def_prop(fear,[emotivo]),def_prop(you,[umano])])
+lf(Beneath The Silence Lyrics.txt_10,57,cl11-nil-nil-be-[])
+lf(Beneath The Silence Lyrics.txt_11,69,cl12-nil-nil-lay-[xcomp-prop-awake-sn3,subj-experiencer-i-sn2,subj-experiencer-i-sn1,aux-(is)-nil,aux-do-nil,and(i,all,sn1),def_prop(awake,[evaluative]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Beneath The Silence Lyrics.txt_12,81,cl13-nil-nil-be-[subj-theme_bound-c-sn3,subj-theme_bound-c-sn2,subj-theme_bound-i-sn1,and(c,l,sn3),and(c,c,sn3),and(c,e,sn3),and(c,l,sn2),and(c,c,sn2),and(c,e,sn2),and(i,e,sn1),and(i,h,sn1),and(i,s,sn1),def_prop(c,[attivita,informa]),def_prop(c,[attivita,informa]),def_prop(i,[umano])])

@@ -1,0 +1,77 @@
+"POLARITY, DISCOURSE MARKERS"
+
+In Harmony New Found Freedom Lyrics.txt_1-1  []-positive  []
+In Harmony New Found Freedom Lyrics.txt_2-3  []-positive  []
+In Harmony New Found Freedom Lyrics.txt_3-6  []-positive  []
+In Harmony New Found Freedom Lyrics.txt_4-10  []-positive  [fgb]
+In Harmony New Found Freedom Lyrics.txt_5-15  []-positive  [fhd]
+In Harmony New Found Freedom Lyrics.txt_6-22  []-positive  []
+In Harmony New Found Freedom Lyrics.txt_7-29  []-positive  [neg]
+In Harmony New Found Freedom Lyrics.txt_8-37  []-suspension  [ass]
+In Harmony New Found Freedom Lyrics.txt_9-46  []-positive  []
+In Harmony New Found Freedom Lyrics.txt_10-56  [if-hypoth]-positive  [fgb,neg]
+In Harmony New Found Freedom Lyrics.txt_11-67  []-positive  []
+In Harmony New Found Freedom Lyrics.txt_12-80  [but-advers]-suspension  [fgb,fgb,neg]
+In Harmony New Found Freedom Lyrics.txt_13-94  []-positive  [fgb]
+In Harmony New Found Freedom Lyrics.txt_14-108  []-negative  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+In Harmony New Found Freedom Lyrics.txt_1-1  [in,Harmony,New,Freedom,Found,Lyrics,by,Swirlies]  [title]
+In Harmony New Found Freedom Lyrics.txt_2-3  [does,correlation,imply,a,true,cause]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+In Harmony New Found Freedom Lyrics.txt_3-6  [self,absorption]  [raise_issue(be,[_778452,factive,statement,_778470,subjective])]
+In Harmony New Found Freedom Lyrics.txt_4-10  [and,self,importance]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+In Harmony New Found Freedom Lyrics.txt_5-15  [or,am,i,destroying,myself]  [provide_expl_just(destroy,[external,factive,cause,foreground,objective])]
+In Harmony New Found Freedom Lyrics.txt_6-22  [by,asserting,the,self]  [provide_expl_just(assert,[external,factive,narration,foreground,objective])]
+In Harmony New Found Freedom Lyrics.txt_7-29  [safer,is,ignorance]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+In Harmony New Found Freedom Lyrics.txt_8-37  [used,i,am,sure]  [accept_expl_opin(be,[external,factive,narration,background,objective])]
+In Harmony New Found Freedom Lyrics.txt_9-46  [you,had,find,a,way,around]  [provide_expl_just(find,[external,factive,narration,background,objective])]
+In Harmony New Found Freedom Lyrics.txt_10-56  [if,only,heart,knew,this,weight,on,her,breast]  [provide_expl_just(know,[external,factive,cause,foreground,objective]),suggest(know,_785686)]
+In Harmony New Found Freedom Lyrics.txt_11-67  [try,to,change]  [provide_expl_just(change,[external,factive,narration,background,objective]),provide_expl_just(try,[external,factive,narration,background,objective])]
+In Harmony New Found Freedom Lyrics.txt_12-80  [but,i,don-t,and,only,heart,knows,this,waste,of,her,breath]  [provide_expl_just(don-t,[external,factive,narration,background,objective]),provide_expl_just(know,[external,factive,narration,background,objective])]
+In Harmony New Found Freedom Lyrics.txt_13-94  [drifting,and,dealing]  [proposal(be,[_791232,_791238,statement,foreground,_791256])]
+In Harmony New Found Freedom Lyrics.txt_14-108  [with,diamond,cut,eyes]  [reject_expl_just(cut,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(In Harmony New Found Freedom Lyrics.txt_1-1)-[]
+2-(In Harmony New Found Freedom Lyrics.txt_2-3)-[secondary-abstract_tought,secondary-abstract_tought]
+3-(In Harmony New Found Freedom Lyrics.txt_3-6)-[secondary-instru_behavior]
+4-(In Harmony New Found Freedom Lyrics.txt_4-10)-[secondary-instru_behavior,secondary-abstract_tought]
+5-(In Harmony New Found Freedom Lyrics.txt_5-15)-[]
+6-(In Harmony New Found Freedom Lyrics.txt_6-22)-[secondary-instru_behavior]
+7-(In Harmony New Found Freedom Lyrics.txt_7-29)-[primary-passivity]
+half
+8-(In Harmony New Found Freedom Lyrics.txt_8-37)-[secondary-instru_behavior,secondary-abstract_tought]
+9-(In Harmony New Found Freedom Lyrics.txt_9-46)-[secondary-instru_behavior]
+10-(In Harmony New Found Freedom Lyrics.txt_10-56)-[primary-narcissism,secondary-abstract_tought,secondary-abstract_tought,primary-orality]
+11-(In Harmony New Found Freedom Lyrics.txt_11-67)-[secondary-instru_behavior]
+12-(In Harmony New Found Freedom Lyrics.txt_12-80)-[primary-narcissism,secondary-abstract_tought,primary-odor]
+13-(In Harmony New Found Freedom Lyrics.txt_13-94)-[]
+14-(In Harmony New Found Freedom Lyrics.txt_14-108)-[emotions-aggression,primary-narcissism]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(In Harmony New Found Freedom Lyrics.txt_1,1,cl1-nil-nil-find-[arg_mod-agent-Swirlies-sn4,obj-prop-Lyrics-sn3,iobj-goal-Harmony-sn2,subj-actor-New-sn1,and(Lyrics,Freedom,sn3),def_prop(Swirlies,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(Harmony,[place,astratto,attivita,evento,informa,stato,umano]),def_prop(New,[place,umano])])
+lf(In Harmony New Found Freedom Lyrics.txt_2,3,cl2-nil-nil-do-[xcomp-prop-cause-sn2,xcomp-purpose-imply-2,xcomp-actor-correlation-sn1,aux-does-nil,and(cause,true,sn2),def_prop(cause,[attivita,evento,informa]),def_prop(correlation,[astratto,relat])])
+lf(In Harmony New Found Freedom Lyrics.txt_3,6,cl3-nil-nil-say-[obj-theme_unaff-absorption-sn1,and(absorption,self,sn1),def_prop(absorption,[attivita])])
+lf(In Harmony New Found Freedom Lyrics.txt_4,10,cl4-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(In Harmony New Found Freedom Lyrics.txt_5,15,cl6-nil-nil-destroy-[cmod-subord-destroy-",obj-patient-myself-sn2,xadj-result-destroy-2,def_prop(myself,[umano])])
+lf(In Harmony New Found Freedom Lyrics.txt_5,15,cl5-nil-nil-be-[subj-theme_bound-i-sn1,def_prop(i,[umano])])
+lf(In Harmony New Found Freedom Lyrics.txt_6,22,cl7-nil-nil-assert-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(In Harmony New Found Freedom Lyrics.txt_7,29,cl8-nil-nil-be-[xcomp-prop-ignorance-sn2,subj-theme_bound-safer-sn1,def_prop(ignorance,[astratto]),def_prop(safer,[evaluative])])
+lf(In Harmony New Found Freedom Lyrics.txt_8,37,cl9-nil-nil-be-[xcomp-prop-sure-sn2,subj-theme_bound-i-sn1,def_prop(sure,[valutativo]),def_prop(i,[umano])])
+lf(In Harmony New Found Freedom Lyrics.txt_9,46,cl10-nil-nil-find-[obj-theme_bound-way-sn2,subj-actor-you-sn1,aux-had-nil,def_prop(way,[astratto,attivita,oggetto,stato,strumento]),def_prop(you,[umano])])
+lf(In Harmony New Found Freedom Lyrics.txt_10,56,cl11-nil-nil-know-[ncmod-locativo-breast-sn3,obj-theme_unaff-weight-sn2,subj-actor-hear-sn1,and(weight,this,sn2),def_prop(breast,[body_part,edible,oggetto,umano]),def_prop(weight,[astratto,emotivo,nquant,oggetto,strumento]),def_prop(hear,[istituzione])])
+lf(In Harmony New Found Freedom Lyrics.txt_11,67,cl13-nil-nil-change-[subj-tema_aff-you-sn1,def_prop(you,[umano])])
+lf(In Harmony New Found Freedom Lyrics.txt_11,67,cl12-nil-nil-try-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(In Harmony New Found Freedom Lyrics.txt_12,80,cl15-nil-nil-know-[obj-theme_unaff-waste-sn9,subj-actor-hear-sn8,obj-theme_unaff-waste-sn3,subj-actor-hear-sn2,and(waste,this,sn9),and(waste,this,sn3),def_prop(waste,[attivita,sostanza]),def_prop(hear,[istituzione]),def_prop(waste,[attivita,sostanza]),def_prop(hear,[istituzione])])
+lf(In Harmony New Found Freedom Lyrics.txt_12,80,cl14-not-nil-don-t-[cmod-coord-know-cl15,subj-agent-i-sn1,def_prop(i,[umano])])
+lf(In Harmony New Found Freedom Lyrics.txt_13,94,cl16-nil-nil-deal-[subj-agent-pro-nil])
+lf(In Harmony New Found Freedom Lyrics.txt_14,108,cl17-nil-nil-cut-[ncmod-comitativo-diamond-sn2,subj-agent-eye-sn1,def_prop(diamond,[astratto,oggetto,sostanza,strumento]),def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])

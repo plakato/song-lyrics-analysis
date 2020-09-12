@@ -1,0 +1,75 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Airplanes Lyrics.txt_1-1  []-positive  []
+Airplanes Lyrics.txt_2-3  []-positive  []
+Airplanes Lyrics.txt_3-6  []-negative  []
+Airplanes Lyrics.txt_3-7  []-positive  []
+Airplanes Lyrics.txt_4-12  []-positive  [neg]
+Airplanes Lyrics.txt_4-13  []-negative  [neg]
+Airplanes Lyrics.txt_5-19  []-positive  []
+Airplanes Lyrics.txt_5-20  []-positive  [fgb]
+Airplanes Lyrics.txt_5-21  []-suspension  [neg,fhd]
+Airplanes Lyrics.txt_5-22  []-suspension  [neg,neg]
+Airplanes Lyrics.txt_6-29  []-negative  [neg]
+Airplanes Lyrics.txt_7-36  []-negative  [fhd,neg,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Airplanes Lyrics.txt_1-1  [airplanes,Lyrics,by,5,seconds,of,summer]  [title]
+Airplanes Lyrics.txt_2-3  [most,of,my,life,i,sat,on,my,hands]  [provide_expl_just(sit,[external,factive,narration,foreground,objective])]
+Airplanes Lyrics.txt_3-6  [i,don-t,make,a,sound,getting]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Airplanes Lyrics.txt_3-7  [it]  [provide_expl_just(get,[external,factive,narration,foreground,objective]),provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Airplanes Lyrics.txt_4-12  [i,made,all,my,plans,lost]  [provide_expl_just(find,[external,factive,narration,foreground,objective]),provide_expl_just(make,[external,factive,cause,foreground,objective])]
+Airplanes Lyrics.txt_4-13  [,,never,found,your,eyes]  [reject_expl_just(find,[external,factive,narration,foreground,objective]),reject_expl_just(make,[external,factive,cause,foreground,objective])]
+Airplanes Lyrics.txt_5-19  [your,smile,can,light,up]  [provide_expl_just(cut,[external,factive,narration,background,objective]),provide_expl_just(light,[external,nonfactive,narration,foreground,objective]),provide_expl_just(paint,[external,factive,narration,background,objective]),provide_expl_just(fly,[external,nonfactive,narration,foreground,objective]),provide_expl_just(die,[external,nonfactive,narration,background,objective])]
+Airplanes Lyrics.txt_5-20  [the,night,embers,and,neon,night,signs,paint,up,our,sky]  [provide_expl_just(cut,[external,factive,narration,background,objective]),provide_expl_just(light,[external,nonfactive,narration,foreground,objective]),provide_expl_just(paint,[external,factive,narration,background,objective]),provide_expl_just(fly,[external,nonfactive,narration,foreground,objective]),provide_expl_just(die,[external,nonfactive,narration,background,objective])]
+Airplanes Lyrics.txt_5-21  [sky,airplanes,cut,through,the,clouds,like,angels,can,fly]  [provide_expl_just(cut,[external,factive,narration,background,objective]),propose_opin(light,[external,nonfactive,narration,foreground,objective]),provide_expl_just(light,[external,nonfactive,narration,foreground,objective]),provide_expl_just(paint,[external,factive,narration,background,objective]),propose_opin(fly,[external,nonfactive,narration,foreground,objective]),provide_expl_just(fly,[external,nonfactive,narration,foreground,objective]),provide_expl_just(die,[external,nonfactive,narration,background,objective])]
+Airplanes Lyrics.txt_5-22  [we,will,never,die]  [provide_expl_just(cut,[external,factive,narration,background,objective]),propose_opin(light,[external,nonfactive,narration,foreground,objective]),provide_expl_just(light,[external,nonfactive,narration,foreground,objective]),provide_expl_just(paint,[external,factive,narration,background,objective]),propose_opin(fly,[external,nonfactive,narration,foreground,objective]),provide_expl_just(fly,[external,nonfactive,narration,foreground,objective]),provide_expl_just(die,[external,nonfactive,narration,background,objective])]
+Airplanes Lyrics.txt_6-29  [sirens,cut,through,the,night]  [reject_expl_just(cut,[external,factive,narration,background,objective])]
+Airplanes Lyrics.txt_7-36  [like,screams,set,on_fire,rising,up,higher,i,have,,,got,something,to,prove,nothing,to,lose,in,this,city,in,this,city,,,woah,oooh-ooooh,-,Luke,oooh-oooh]  [reject_expl_just(set,[external,factive,cause,foreground,objective]),reject_expl_just(prove,[external,factive,narration,background,objective]),reject_expl_just(lose,[external,factive,narration,background,objective]),reject_expl_just(like,[external,factive,narration,background,objective]),reject_expl_just(have,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Airplanes Lyrics.txt_1-1)-[primary-height]
+2-(Airplanes Lyrics.txt_2-3)-[primary-narcissism]
+3-(Airplanes Lyrics.txt_3-6)-[secondary-instru_behavior,primary-sound]
+4-(Airplanes Lyrics.txt_3-7)-[]
+5-(Airplanes Lyrics.txt_4-12)-[primary-counscious,secondary-abstract_tought]
+6-(Airplanes Lyrics.txt_4-13)-[secondary-instru_behavior,primary-narcissism]
+half
+7-(Airplanes Lyrics.txt_5-19)-[emotions-positive_affect,primary-vision]
+8-(Airplanes Lyrics.txt_5-20)-[primary-fire,primary-vision,primary-height]
+9-(Airplanes Lyrics.txt_5-21)-[primary-height,primary-height,emotions-aggression,primary-diffusion,emotions-affection,primary-ascend]
+10-(Airplanes Lyrics.txt_5-22)-[primary-passivity]
+11-(Airplanes Lyrics.txt_6-29)-[emotions-aggression]
+12-(Airplanes Lyrics.txt_7-36)-[emotions-affection,emotions-expressive_beh,primary-ascend,primary-height,secondary-abstract_tought]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Airplanes Lyrics.txt_1,1,cl1-nil-nil-second-[ncmod-specif-summer-sn3,iobj-scale-5-sn2,subj-theme-Lyrics-sn1,and(Lyrics,airplane,sn1),def_prop(summer,[tempo]),def_prop(5,[nquant]),def_prop(Lyrics,[informa,tecno])])
+lf(Airplanes Lyrics.txt_2,3,cl2-nil-nil-sit-[iobj-goal-hand-sn2,subj-actor-most-sn1,def_prop(hand,[animato,astratto,attivita,body_part,informa,luogo,nquant,oggetto,strumento,umano]),def_prop(most,[nquant])])
+lf(Airplanes Lyrics.txt_3,6,cl5-nil-nil-be-[subj-theme_bound-you-sn3,def_prop(you,[umano])])
+lf(Airplanes Lyrics.txt_3,6,cl4-nil-nil-get-[adj-(mod)-be-nil,subj-paziente-sound-sn2,def_prop(sound,[astratto,attivita,cambia,evento,oggetto])])
+lf(Airplanes Lyrics.txt_3,6,cl3-not-nil-make-[obj-goal-sound-sn2,subj-agent-i-sn1,aux-do-nil,def_prop(sound,[astratto,attivita,cambia,evento,oggetto]),def_prop(i,[umano])])
+lf(Airplanes Lyrics.txt_4,12,cl8-nil-nil-find-[adj-(mod)-never-nil,subj_top-actor-eye-sn6,def_prop(eye,[astratto,body_part,oggetto,strumento,umano])])
+lf(Airplanes Lyrics.txt_4,12,cl7-nil-nil-lose-[subj-actor-plan-sn2,and(plan,all,sn2),def_prop(plan,[astratto,oggetto,strumento])])
+lf(Airplanes Lyrics.txt_4,12,cl6-nil-nil-make-[obj-goal-plan-sn2,subj-agent-i-sn1,and(plan,all,sn2),def_prop(plan,[astratto,oggetto,strumento]),def_prop(i,[umano])])
+lf(Airplanes Lyrics.txt_5,19,_-nil-nil-cut-[adj-(mod)-fly-nil,iobj-goal-cloud-sn23,def_prop(cloud,[attivita,cambia,oggetto,stato])])
+lf(Airplanes Lyrics.txt_5,19,cl13-nil-will-die-[subj-theme_aff-you-sn25,neg-never-nil,def_prop(you,[umano])])
+lf(Airplanes Lyrics.txt_5,19,cl12-nil-can-fly-[subj-agent-angel-sn24,xmod-prop-cut-2,obj-theme_aff-airplane-sn22,subj-agent-sky-sn21,def_prop(angel,[plant,umano]),def_prop(airplane,[oggetto,strumento]),def_prop(sky,[oggetto])])
+lf(Airplanes Lyrics.txt_5,19,cl11-nil-nil-cut-[adj-(mod)-fly-nil,iobj-goal-cloud-sn23,def_prop(cloud,[attivita,cambia,oggetto,stato])])
+lf(Airplanes Lyrics.txt_5,19,cl10-nil-nil-paint-[adj-(mod)-up-nil,obj-goal-sky-sn8,coord-agent-ember_and_sign-sn7,subj-agent-sign-sn6,subj-agent-ember-sn5,def_prop(sky,[oggetto]),def_prop(ember_and_sign,[oggetto,attivita,informa,stato]),def_prop(sign,[oggetto,attivita,informa,stato]),def_prop(ember,[oggetto,attivita,informa,stato])])
+lf(Airplanes Lyrics.txt_5,19,cl9-nil-can-light-[adj-locative-up-nil,subj-actor-smile-sn1,def_prop(smile,[attivita,informa])])
+lf(Airplanes Lyrics.txt_6,29,cl14-nil-nil-cut-[iobj-goal-night-sn2,subj-agent-siren-sn1,def_prop(night,[tempo]),def_prop(siren,[animato,attivita,informa,oggetto,strumento])])
+lf(Airplanes Lyrics.txt_7,36,cl19-nil-nil-lose-[iobj-goal-city-sn26,iobj-goal-city-sn9,def_prop(city,[istituzione,luogo]),def_prop(city,[istituzione,luogo])])
+lf(Airplanes Lyrics.txt_7,36,cl18-nil-nil-prove-[xcomp-purpose-lose-4,obj-theme_aff-nothing-sn25,xcomp-prop-something-sn24,subj-actor-something-sn23,xcomp-purpose-lose-5,def_prop(nothing,[astratto,informa,oggetto]),def_prop(something,[astratto,informa,oggetto]),def_prop(something,[astratto,informa,oggetto])])
+lf(Airplanes Lyrics.txt_7,36,cl17-nil-nil-get-[xcomp-prop-something-sn7,subj-agent-woah-sn6,def_prop(something,[astratto,informa,oggetto]),def_prop(woah,[istituzione])])
+lf(Airplanes Lyrics.txt_7,36,cl16-nil-nil-have-[xcomp-prop-nothing-sn8,xcomp-purpose-prove-4,xadj-adj-higher-adj2,xadj-adj-rising-adj1,def_prop(nothing,[astratto,informa,oggetto]),def_prop(higher,_49084),def_prop(rising,_49096)])
+lf(Airplanes Lyrics.txt_7,36,cl15-nil-nil-set-[])
+lf(Airplanes Lyrics.txt_7,36,nil-nil-nil-like-[adj-(mod)-up-nil,obj-goal-i-sn4,obj-goal-on_fire-sn3,xcomp-purpose-set-2,obj-tema_emot-scream-sn2,subj-experiencer-you-sn1,def_prop(i,[umano]),def_prop(on_fire,[attivita,evento,informa,oggetto,sostanza,strumento,tecno]),def_prop(scream,[attivita,informa]),def_prop(you,[umano])])

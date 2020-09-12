@@ -368,3 +368,29 @@ vytrenovat classifier alebo vysvetlit preco sa to neda
 - bez embeddingu sa trenovanie vzdy zastavi na (konkretne hodnoty zavisia aj na rozshufflovani dat)
     - val_acc = 0.7606 (0.3 na validation)
     - val_acc = 0.7695 (0.2 na validation)
+
+-------------------------------------------------------------------------------------------------------------------
+10.9.2020
+TASKS FOR NEXT WEEK
+
+- pregenerovat mnozinu false examples v kazdej epoche
+- na akych prikladoch to robi chyby
+    - ak vygeneruje false validnu pesnicku, skusit nieco ine
+- skusit ensemble, viac sieti a o vysledku hlasuju
+- urobit si poriadok v tensorboarde
+- (DONE) skusit zas GPT3 
+- (1) trenovat to priamo na textoch
+    - tokeny koniec verse, slohy
+    - na fonemach urobit nieco ako hierarchicke klusterovanie (caste slabiky sa zjednotia) - Byte-Pair Encoding
+    - https://www.tensorflow.org/datasets/api_docs/python/tfds/features/text/SubwordTextEncoder
+    - vyvazenie nad velkostou slovniku a dlzkou sekvencii (v preklade byva dlzka sekvencii 100)
+    - pravedepodobne viac vrstiev, bude to trvat dlhsie
+    - su modely, ktore sekvenciu postupne skracuju? napr. 1 krok pre kazde 3 kroky predchadzajucej vrstvy?
+    - pridat embeddingy
+- stvrtok 9:00
+
+-------------------------------------------------------------------------------------------------------------------
+17.9.2020
+TASKS FOR NEXT WEEK
+
+- radsej piatok rano-15:00

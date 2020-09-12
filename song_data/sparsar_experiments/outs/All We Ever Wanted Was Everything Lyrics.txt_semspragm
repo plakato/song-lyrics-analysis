@@ -1,0 +1,63 @@
+"POLARITY, DISCOURSE MARKERS"
+
+All We Ever Wanted Was Everything Lyrics.txt_1-1  []-positive  []
+All We Ever Wanted Was Everything Lyrics.txt_2-3  []-positive  []
+All We Ever Wanted Was Everything Lyrics.txt_3-6  []-positive  [neg]
+All We Ever Wanted Was Everything Lyrics.txt_4-10  []-positive  []
+All We Ever Wanted Was Everything Lyrics.txt_5-16  []-negative  [fgb]
+All We Ever Wanted Was Everything Lyrics.txt_6-22  []-negative  [neg]
+All We Ever Wanted Was Everything Lyrics.txt_7-29  []-positive  []
+All We Ever Wanted Was Everything Lyrics.txt_8-37  []-positive  []
+All We Ever Wanted Was Everything Lyrics.txt_9-46  []-suspension  [neg,neg]
+All We Ever Wanted Was Everything Lyrics.txt_10-56  []-positive  []
+All We Ever Wanted Was Everything Lyrics.txt_11-67  []-positive  [bkc]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+All We Ever Wanted Was Everything Lyrics.txt_1-1  [all,we,ever,Wanted,was,everything,Lyrics,by,Xiu,Xiu]  [title]
+All We Ever Wanted Was Everything Lyrics.txt_2-3  [all,we,ever,wanted,was,everything]  [provide_expl_just(be,[external,factive,narration,foreground,objective])]
+All We Ever Wanted Was Everything Lyrics.txt_3-6  [all,we,got,ever,was,cold]  [proposal(be,[_23466,_23472,statement,foreground,_23490])]
+All We Ever Wanted Was Everything Lyrics.txt_4-10  [get,up,jelly,eat]  [provide_expl_just(eat,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective])]
+All We Ever Wanted Was Everything Lyrics.txt_5-16  [sandwich,bars,and,barbed,wire]  [provide_expl_just(sandwich,[external,factive,narration,background,objective])]
+All We Ever Wanted Was Everything Lyrics.txt_6-22  [squash,every_week,into,a,day]  [reject_expl_just(squash,[external,factive,narration,background,objective])]
+All We Ever Wanted Was Everything Lyrics.txt_7-29  [the,sound,of,drums,is,calling]  [provide_expl_just(call,[external,factive,narration,foreground,objective])]
+All We Ever Wanted Was Everything Lyrics.txt_8-37  [the,sound,of,the,drum,has,called]  [provide_expl_just(call,[external,factive,narration,background,objective])]
+All We Ever Wanted Was Everything Lyrics.txt_9-46  [flash,of,youth,shoot,out_of,darkness]  [provide_expl_just(shoot,[external,factive,narration,background,objective])]
+All We Ever Wanted Was Everything Lyrics.txt_10-56  [factorytown]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+All We Ever Wanted Was Everything Lyrics.txt_11-67  [oh,,,to,be,the,cream]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(All We Ever Wanted Was Everything Lyrics.txt_1-1)-[secondary-temporal_repere]
+2-(All We Ever Wanted Was Everything Lyrics.txt_2-3)-[secondary-temporal_repere]
+3-(All We Ever Wanted Was Everything Lyrics.txt_3-6)-[secondary-temporal_repere,primary-cold]
+4-(All We Ever Wanted Was Everything Lyrics.txt_4-10)-[primary-orality]
+5-(All We Ever Wanted Was Everything Lyrics.txt_5-16)-[secondary-restraint]
+half
+6-(All We Ever Wanted Was Everything Lyrics.txt_6-22)-[]
+7-(All We Ever Wanted Was Everything Lyrics.txt_7-29)-[primary-sound,primary-sound]
+8-(All We Ever Wanted Was Everything Lyrics.txt_8-37)-[primary-sound,primary-sound,secondary-social_behavior]
+9-(All We Ever Wanted Was Everything Lyrics.txt_9-46)-[primary-vision,emotions-aggression]
+10-(All We Ever Wanted Was Everything Lyrics.txt_10-56)-[]
+11-(All We Ever Wanted Was Everything Lyrics.txt_11-67)-[primary-orality]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(All We Ever Wanted Was Everything Lyrics.txt_1,1,cl1-nil-nil-be-[adj-(mod)-ever-nil,arg_mod-agent-Xiu-sn5,xcomp-prop-Lyrics-sn4,subj-theme_bound-Wanted-sn3,subj-theme_bound-Wanted-sn2,subj-theme_bound-we-sn1,and(Xiu,Xiu,sn5),and(Lyrics,everything,sn4),and(Wanted,we,sn2),and(we,all,sn1),def_prop(Xiu,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(Wanted,[istituzione]),def_prop(Wanted,[istituzione]),def_prop(we,[umano])])
+lf(All We Ever Wanted Was Everything Lyrics.txt_2,3,cl2-nil-nil-be-[adj-(mod)-ever-nil,xcomp-prop-everything-sn4,subj-theme_bound-wanted-sn3,subj-theme_bound-wanted-sn2,subj-theme_bound-we-sn1,and(wanted,we,sn2),and(we,all,sn1),def_prop(everything,[astratto,informa,oggetto]),def_prop(wanted,[evaluative]),def_prop(wanted,[istituzione]),def_prop(we,[umano])])
+lf(All We Ever Wanted Was Everything Lyrics.txt_3,6,cl3-nil-nil-be-[xcomp-prop-cold-sn2,subj-theme_bound-all-sn1,def_prop(cold,[valutativo]),def_prop(all,[_27950])])
+lf(All We Ever Wanted Was Everything Lyrics.txt_4,10,cl5-nil-nil-eat-[obj-theme_unaff-up-sn3,xcomp-purpose-eat-3,def_prop(up,[istituzione])])
+lf(All We Ever Wanted Was Everything Lyrics.txt_4,10,cl4-nil-nil-get-[adj-(mod)-up-nil,subj-agent-jelly-sn2,subj-agent-jelly-sn1,and(jelly,you,sn1),def_prop(up,[istituzione]),def_prop(jelly,[edible,oggetto,sostanza]),def_prop(jelly,[edible,oggetto,sostanza])])
+lf(All We Ever Wanted Was Everything Lyrics.txt_5,16,cl6-nil-nil-sandwich-[coord-theme-bar_and_wire-sn4,obj-theme-wire-sn3,obj-theme-bar-sn2,subj-agent-you-sn1,def_prop(bar_and_wire,[nquant,oggetto,strumento,luogo,oggetto,strumento]),def_prop(wire,[nquant,oggetto,strumento,luogo,oggetto,strumento]),def_prop(bar,[nquant,oggetto,strumento,luogo,oggetto,strumento]),def_prop(you,[umano])])
+lf(All We Ever Wanted Was Everything Lyrics.txt_6,22,cl7-nil-nil-squash-[adj-(mod)-every_week-nil,adj-subj_disc-every_week-sn3,iobj-goal-day-sn2,subj-actor-you-sn1,def_prop(every_week,[tempo]),def_prop(every_week,[tempo]),def_prop(day,[tempo]),def_prop(you,[umano])])
+lf(All We Ever Wanted Was Everything Lyrics.txt_7,29,cl8-nil-nil-call-[ncmod-specif-drum-sn2,subj-agent-you-sn1,aux-(is)-nil,progr-calling-nil,def_prop(drum,[animato,evento,oggetto,strumento]),def_prop(you,[umano])])
+lf(All We Ever Wanted Was Everything Lyrics.txt_8,37,cl9-nil-nil-call-[ncmod-specif-drum-sn2,subj-agent-you-sn1,aux-has-nil,def_prop(drum,[animato,evento,oggetto,strumento]),def_prop(you,[umano])])
+lf(All We Ever Wanted Was Everything Lyrics.txt_9,46,cl10-nil-nil-shoot-[ncmod-locativo-darkness-sn2,subj-agent-flash-sn1,def_prop(darkness,[astratto,luogo]),def_prop(flash,[astratto,evento,oggetto,strumento,tempo])])
+lf(All We Ever Wanted Was Everything Lyrics.txt_10,56,cl11-nil-nil-say-[obj-theme_unaff-factorytown-sn1,def_prop(factorytown,[istituzione])])
+lf(All We Ever Wanted Was Everything Lyrics.txt_11,67,cl12-nil-nil-be-[xcomp-prop-cream-sn2,subj-theme_bound-oh-sn1,def_prop(cream,[edible,istituzione,oggetto,strumento]),def_prop(oh,[informa,tecno])])

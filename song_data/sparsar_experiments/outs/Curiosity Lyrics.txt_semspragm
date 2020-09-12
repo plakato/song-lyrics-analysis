@@ -1,0 +1,41 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Curiosity Lyrics.txt_1-1  []-positive  []
+Curiosity Lyrics.txt_2-3  []-positive  []
+Curiosity Lyrics.txt_2-4  []-positive  [fgb,fhd,fhd,fhd,fgb,neg,neg,fhd,fhd,fhd,fgb,neg,neg]
+Curiosity Lyrics.txt_3-10  []-suspension  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Curiosity Lyrics.txt_1-1  [curiosity,Lyrics,by,VK]  [title]
+Curiosity Lyrics.txt_2-3  [vk,ah-hah,ahaha,this,is,tripped,out]  [provide_expl_just(put,[external,factive,explanation,background,objective]),provide_expl_just(look,[external,factive,explanation,background,objective]),provide_expl_just(trip,[external,factive,explanation,background,objective]),provide_expl_just(wonder,[external,factive,explanation,background,objective])]
+Curiosity Lyrics.txt_2-4  [tripped,out,i,wonder,what,you,look,like,haha,like,dat,like,dat,well,,,where,you,at,where,you,at,where,you,at,where,you,at,Buk,Buk,you,are,the,pain,that,puts,stress,on,my,brain,how,.,you,look,like,haha,like,dat,like,dat,well,,,where,you,at,where,you,at,where,you,at,where,you,at,Buk,Buk,you,are,the,pain,that,puts,stress,on,my,brain,how]  [propose_opin_neg(put,[external,factive,explanation,background,objective]),propose_opin_neg(look,[external,factive,explanation,background,objective]),propose_opin_neg(trip,[external,factive,explanation,background,objective]),propose_opin_neg(wonder,[external,factive,explanation,background,objective])]
+Curiosity Lyrics.txt_3-10  [do,i,refrain,from,making,you,a,bloodstain,just,,,a,memory,would,suffice]  [provide_expl_just(refrain,[external,factive,narration,background,objective]),provide_expl_just(make,[external,factive,cause,foreground,objective]),provide_expl_just(do,[external,factive,narration,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Curiosity Lyrics.txt_1-1)-[]
+2-(Curiosity Lyrics.txt_2-3)-[primary-concreteness]
+half
+3-(Curiosity Lyrics.txt_2-4)-[primary-concreteness,emotions-glory,primary-vision,emotions-affection,emotions-affection,emotions-affection,primary-concreteness,primary-concreteness,primary-concreteness,primary-concreteness,primary-concreteness,primary-concreteness,primary-concreteness,primary-concreteness,emotions-sadness,primary-narcissism,primary-vision,emotions-affection,emotions-affection,emotions-affection,primary-concreteness,primary-concreteness,primary-concreteness,primary-concreteness,primary-concreteness,primary-concreteness,primary-concreteness,primary-concreteness,emotions-sadness,primary-narcissism]
+4-(Curiosity Lyrics.txt_3-10)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Curiosity Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-VK-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,curiosity,sn1),def_prop(VK,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Curiosity Lyrics.txt_2,3,cl6-nil-nil-put-[subj-agent-pain-sn38,def_prop(pain,[astratto,emotivo,stato,umano])])
+lf(Curiosity Lyrics.txt_2,3,cl5-nil-nil-be-[])
+lf(Curiosity Lyrics.txt_2,3,cl4-nil-nil-look-[adj-(mod)-well-nil,xcomp-prop-dat-sn50,xcomp-prop-haha-sn49,xcomp-prop-dat-sn47,xcomp-prop-haha-sn46,subj-agent-you-sn45,iobj-locat-Buk-sn24,def_prop(well,[istituzione]),def_prop(dat,[informa,oggetto,strumento,tecno]),def_prop(haha,[istituzione]),def_prop(dat,[informa,oggetto,strumento,tecno]),def_prop(haha,[istituzione]),def_prop(you,[umano]),def_prop(Buk,[istituzione,umano])])
+lf(Curiosity Lyrics.txt_2,3,cl3-nil-nil-wonder-[])
+lf(Curiosity Lyrics.txt_2,3,cl2-nil-nil-trip-[xcomp-prop-pain-sn38,obj-theme-you-sn37,obj-theme-Buk-sn36,ncmod-locativo-i-sn10,subj-theme-dat-sn9,subj-theme-dat-sn8,adj-(mod)-out-nil,subj-theme-this-sn3,subj-theme-this-sn2,aux-(is)-nil,and(dat,you,sn8),and(this,ahaha,sn2),and(this,vk,sn2),def_prop(pain,[astratto,emotivo,stato,umano]),def_prop(you,[umano]),def_prop(Buk,[istituzione,umano]),def_prop(i,[umano]),def_prop(dat,[informa,oggetto,strumento,tecno]),def_prop(dat,[informa,oggetto,strumento,tecno]),def_prop(this,[oggetto,umano]),def_prop(this,[oggetto,umano])])
+lf(Curiosity Lyrics.txt_2,3,cl2-nil-nil-trip-[xcomp-prop-pain-sn38,obj-theme-you-sn37,obj-theme-Buk-sn36,ncmod-locativo-i-sn10,subj-theme-dat-sn9,subj-theme-dat-sn8,adj-(mod)-out-nil,subj-theme-this-sn3,subj-theme-this-sn2,aux-(is)-nil,and(dat,you,sn8),and(this,ahaha,sn2),and(this,vk,sn2),def_prop(pain,[astratto,emotivo,stato,umano]),def_prop(you,[umano]),def_prop(Buk,[istituzione,umano]),def_prop(i,[umano]),def_prop(dat,[informa,oggetto,strumento,tecno]),def_prop(dat,[informa,oggetto,strumento,tecno]),def_prop(this,[oggetto,umano]),def_prop(this,[oggetto,umano])])
+lf(Curiosity Lyrics.txt_3,10,cl10-nil-would-suffice-[])
+lf(Curiosity Lyrics.txt_3,10,cl9-nil-nil-make-[])
+lf(Curiosity Lyrics.txt_3,10,cl8-nil-nil-refrain-[subj-result-you-sn2,xcomp-purpose-make-5,def_prop(you,[umano])])
+lf(Curiosity Lyrics.txt_3,10,cl7-nil-nil-do-[xcomp-theme-memory-sn5,adj-subj_disc-just-sn4,xcomp-theme-bloodstain-sn3,subj-theme_unaff-i-sn1,aux-do-nil,def_prop(memory,[astratto,oggetto,strumento]),def_prop(just,[informa,tecno]),def_prop(bloodstain,[astratto]),def_prop(i,[umano])])

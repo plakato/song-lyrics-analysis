@@ -1,0 +1,50 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Alot of diss and dat Lyrics.txt_1-1  []-positive  [fgb]
+Alot of diss and dat Lyrics.txt_2-3  []-positive  [fgb]
+Alot of diss and dat Lyrics.txt_3-6  []-positive  []
+Alot of diss and dat Lyrics.txt_3-7  []-positive  [neg]
+Alot of diss and dat Lyrics.txt_4-11  []-positive  []
+Alot of diss and dat Lyrics.txt_5-16  []-negative  [neg,fhd]
+Alot of diss and dat Lyrics.txt_6-22  []-negative  [neg]
+Alot of diss and dat Lyrics.txt_7-29  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Alot of diss and dat Lyrics.txt_1-1  [alot,of,Diss,and,dat,Lyrics,by,Yungbrezzy]  [title]
+Alot of diss and dat Lyrics.txt_2-3  [yea,i,Ballin,with,5hunna,niggas,Rollin,we,yea,keep,thats,red,and,yellow]  [provide_expl_just(keep,[external,factive,explanation,background,objective])]
+Alot of diss and dat Lyrics.txt_3-6  [bannda,hulk,hogan,alot,of,Diss,alot,of,dat,my,Nigga]  [provide_expl_just(hulk,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Alot of diss and dat Lyrics.txt_3-7  [u,wack,Boyz,Glory,shit,my]  [provide_expl_just(hulk,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Alot of diss and dat Lyrics.txt_4-11  [yagans,keep,Diss,5hunna]  [provide_expl_just(keep,[external,factive,narration,background,objective])]
+Alot of diss and dat Lyrics.txt_5-16  [Ballin,i,no,tomorrow,like]  [reject_expl_just(like,[external,factive,narration,background,objective])]
+Alot of diss and dat Lyrics.txt_6-22  [soon,COMING,more,!]  [reject_expl_just(be,[internal,factive,narration,foreground,objective])]
+Alot of diss and dat Lyrics.txt_7-29  [12,25,12]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Alot of diss and dat Lyrics.txt_1-1)-[]
+2-(Alot of diss and dat Lyrics.txt_2-3)-[primary-vision]
+3-(Alot of diss and dat Lyrics.txt_3-6)-[]
+4-(Alot of diss and dat Lyrics.txt_3-7)-[primary-anality]
+half
+5-(Alot of diss and dat Lyrics.txt_4-11)-[]
+6-(Alot of diss and dat Lyrics.txt_5-16)-[emotions-affection]
+7-(Alot of diss and dat Lyrics.txt_6-22)-[secondary-temporal_repere]
+8-(Alot of diss and dat Lyrics.txt_7-29)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Alot of diss and dat Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Yungbrezzy-sn3,subj-theme_bound-Lyrics-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,dat,sn2),and(Lyrics,Diss,sn1),and(Lyrics,alot,sn1),def_prop(Yungbrezzy,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(Lyrics,[informa,tecno])])
+lf(Alot of diss and dat Lyrics.txt_2,3,cl2-nil-nil-keep-[adj-(mod)-yea-nil,coord-prop-red_and_yellow-sn7,xcomp-prop-yellow-sn6,xcomp-prop-red-sn5,obj-theme_aff-thats-sn4,obj-theme-we-sn3,iobj-goal-nigga-sn2,subj-experiencer-Ballin-sn1,and(we,Rollin,sn3),and(nigga,5hunna,sn2),and(Ballin,Ballin,sn1),def_prop(red_and_yellow,[estens,estens]),def_prop(yellow,[estens,estens]),def_prop(red,[estens,estens]),def_prop(thats,[istituzione]),def_prop(we,[umano]),def_prop(nigga,[istituzione,umano]),def_prop(Ballin,[istituzione,umano])])
+lf(Alot of diss and dat Lyrics.txt_3,6,cl3-nil-nil-be-[xcomp-prop-my-sn18,xcomp-theme-shit-sn17,xcomp-prop-Glory-sn16,subj-theme_bound-u-sn15,and(shit,Boyz,sn17),and(Glory,wack,sn16),def_prop(my,[informa,tecno]),def_prop(shit,[attivita,umano]),def_prop(Glory,[place,umano]),def_prop(u,[attivita,informa])])
+lf(Alot of diss and dat Lyrics.txt_3,6,nil-nil-nil-hulk-[obj-theme-Nigga-sn3,obj-theme-alot-sn2,subj-actor-bannda-sn1,and(alot,hogan,sn2),def_prop(Nigga,[istituzione,umano]),def_prop(alot,[istituzione]),def_prop(bannda,[istituzione])])
+lf(Alot of diss and dat Lyrics.txt_4,11,cl4-nil-nil-keep-[obj-goal-5hunna-sn2,subj-experiencer-yagans-sn1,and(5hunna,Diss,sn2),def_prop(5hunna,[nquant]),def_prop(yagans,[istituzione])])
+lf(Alot of diss and dat Lyrics.txt_5,16,nil-nil-nil-like-[subj-experiencer-i-sn1,and(i,Ballin,sn1),def_prop(i,[umano])])
+lf(Alot of diss and dat Lyrics.txt_6,22,cl5-nil-nil-be-[xcomp-prop-COMING-sn1,def_prop(COMING,[istituzione])])
+lf(Alot of diss and dat Lyrics.txt_7,29,cl6-nil-nil-be-[ncmod-modal-25-sn2,subj-theme_bound-you-sn1,def_prop(25,[nquant]),def_prop(you,[umano])])

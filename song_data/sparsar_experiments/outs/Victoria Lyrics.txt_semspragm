@@ -1,0 +1,106 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Victoria Lyrics.txt_1-1  []-positive  []
+Victoria Lyrics.txt_2-3  []-positive  []
+Victoria Lyrics.txt_3-6  []-negative  [neg]
+Victoria Lyrics.txt_4-10  []-negative  [neg]
+Victoria Lyrics.txt_5-15  []-positive  []
+Victoria Lyrics.txt_5-16  [because-cause]-positive  []
+Victoria Lyrics.txt_6-22  [because-cause]-positive  []
+Victoria Lyrics.txt_7-29  []-positive  []
+Victoria Lyrics.txt_8-37  []-positive  [neg]
+Victoria Lyrics.txt_9-46  []-positive  []
+Victoria Lyrics.txt_10-56  []-positive  []
+Victoria Lyrics.txt_11-68  []-positive  []
+Victoria Lyrics.txt_11-69  []-positive  []
+Victoria Lyrics.txt_12-82  []-positive  []
+Victoria Lyrics.txt_13-95  []-positive  []
+Victoria Lyrics.txt_14-110  []-positive  []
+Victoria Lyrics.txt_15-126  []-question  []
+Victoria Lyrics.txt_16-142  []-positive  []
+Victoria Lyrics.txt_17-159  [but-advers]-negative  [fgb,neg]
+Victoria Lyrics.txt_18-177  []-negative  [neg]
+Victoria Lyrics.txt_18-178  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Victoria Lyrics.txt_1-1  [Victoria,Lyrics,by,Univore]  [title]
+Victoria Lyrics.txt_2-3  [she,drinks,the,chardonnay]  [provide_expl_just(drink,[external,factive,explanation,background,objective])]
+Victoria Lyrics.txt_3-6  [she,the,baseball,watch,game]  [reject_expl_just(watch,[external,factive,explanation,background,objective]),propose_opin_neg(watch,[external,factive,explanation,background,objective])]
+Victoria Lyrics.txt_4-10  [expensive,lingerie]  reject_expl_opin(nil,[])
+Victoria Lyrics.txt_5-15  [she,wears]  [provide_expl_just(wear,[external,factive,narration,background,objective])]
+Victoria Lyrics.txt_5-16  [because,the,other,girls,do]  [provide_expl_just(wear,[external,factive,narration,background,objective])]
+Victoria Lyrics.txt_6-22  [because,the,other,girls,do]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Victoria Lyrics.txt_7-29  [she,was,married,in,America]  [provide_expl_just(marry,[external,factive,narration,background,objective])]
+Victoria Lyrics.txt_8-37  [hot,shit,her,name-s,Victoria]  [provide_expl_just(shit,[external,factive,narration,background,objective])]
+Victoria Lyrics.txt_9-46  [she,visit,Portland]  [provide_expl_just(visit,[external,factive,narration,background,objective])]
+Victoria Lyrics.txt_10-56  [she,wants,to,move,there,cause]  [provide_expl_just(move,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective])]
+Victoria Lyrics.txt_11-68  [she,thinks]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,background,objective])]
+Victoria Lyrics.txt_11-69  [that,it,is,a,thing,to,do]  [provide_expl_just(be,[external,factive,narration,background,objective]),provide_expl_just(think,[external,factive,narration,background,objective])]
+Victoria Lyrics.txt_12-82  [a,thing,to,do]  [provide_expl_just(do,[external,factive,narration,foreground,objective])]
+Victoria Lyrics.txt_13-95  [you,want,to,talk,to,her]  [provide_expl_just(talk,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective])]
+Victoria Lyrics.txt_14-110  [you,want,to,buy,her,drink]  [provide_expl_just(buy,[external,factive,narration,background,objective]),provide_expl_just(want,[external,factive,narration,background,objective])]
+Victoria Lyrics.txt_15-126  [a,have,will,she,?]  [provide_expl_just(have,[internal,nonfactive,narration,background,objective])]
+Victoria Lyrics.txt_16-142  [with,two,onions]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Victoria Lyrics.txt_17-159  [but,she,will,not,have,you]  [reject_expl_just(have,[external,nonfactive,narration,background,objective])]
+Victoria Lyrics.txt_18-177  [she,will,not,have]  [reject_expl_just(have,[external,nonfactive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,background,objective])]
+Victoria Lyrics.txt_18-178  [you]  [provide_expl_just(have,[external,nonfactive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Victoria Lyrics.txt_1-1)-[]
+2-(Victoria Lyrics.txt_2-3)-[primary-orality]
+3-(Victoria Lyrics.txt_3-6)-[primary-vision,emotions-expressive_beh]
+4-(Victoria Lyrics.txt_4-10)-[primary-passivity]
+5-(Victoria Lyrics.txt_5-15)-[]
+6-(Victoria Lyrics.txt_5-16)-[]
+7-(Victoria Lyrics.txt_6-22)-[]
+8-(Victoria Lyrics.txt_7-29)-[emotions-affection]
+9-(Victoria Lyrics.txt_8-37)-[primary-fire,primary-anality]
+10-(Victoria Lyrics.txt_9-46)-[secondary-social_behavior]
+half
+11-(Victoria Lyrics.txt_10-56)-[secondary-abstract_tought]
+12-(Victoria Lyrics.txt_11-68)-[secondary-abstract_tought]
+13-(Victoria Lyrics.txt_11-69)-[]
+14-(Victoria Lyrics.txt_12-82)-[]
+15-(Victoria Lyrics.txt_13-95)-[secondary-social_behavior]
+16-(Victoria Lyrics.txt_14-110)-[secondary-instru_behavior,primary-orality]
+17-(Victoria Lyrics.txt_15-126)-[]
+18-(Victoria Lyrics.txt_16-142)-[]
+19-(Victoria Lyrics.txt_17-159)-[]
+20-(Victoria Lyrics.txt_18-177)-[]
+21-(Victoria Lyrics.txt_18-178)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Victoria Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Univore-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,Victoria,sn1),def_prop(Univore,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Victoria Lyrics.txt_2,3,cl2-nil-nil-drink-[obj-goal-chardonnay-sn2,subj-agent-she-sn1,def_prop(chardonnay,[istituzione,umano]),def_prop(she,[umano])])
+lf(Victoria Lyrics.txt_3,6,cl3-nil-nil-watch-[obj-tema_unaff-game-sn2,subj-actor-she-sn1,and(game,baseball,sn2),def_prop(game,[animato,attivita,edible,nquant,oggetto,strumento]),def_prop(she,[umano])])
+lf(Victoria Lyrics.txt_4,10,cl4-nil-nil-say-[obj-theme_unaff-lingerie-sn1,and(lingerie,expensive,sn1),def_prop(lingerie,[oggetto,strumento])])
+lf(Victoria Lyrics.txt_5,15,cl6-nil-nil-do-[subj-theme_unaff-girl-sn2,aux-do-nil,and(girl,other,sn2),def_prop(girl,[oggetto,strumento])])
+lf(Victoria Lyrics.txt_5,15,cl5-nil-nil-wear-[subj-experiencer-you-sn1,def_prop(you,[umano])])
+lf(Victoria Lyrics.txt_6,22,cl7-nil-nil-do-[subj-theme_unaff-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Victoria Lyrics.txt_7,29,cl8-nil-nil-marry-[ncmod-locativo-America-sn2,subj-theme_aff-she-sn1,aux-was-nil,def_prop(America,[place,oggetto]),def_prop(she,[umano])])
+lf(Victoria Lyrics.txt_8,37,cl9-nil-nil-shit-[subj-agent-hot-sn1,def_prop(hot,[valutativo])])
+lf(Victoria Lyrics.txt_9,46,cl10-nil-nil-visit-[obj-theme_unaff-Portland-sn2,subj-agent-she-sn1,def_prop(Portland,[place,luogo]),def_prop(she,[umano])])
+lf(Victoria Lyrics.txt_10,56,cl12-nil-nil-move-[obj-actor-there-sn2,xadj-result-move-2,def_prop(there,[any])])
+lf(Victoria Lyrics.txt_10,56,cl11-nil-nil-want-[subj-actor-she-sn1,def_prop(she,[umano])])
+lf(Victoria Lyrics.txt_11,68,cl15-nil-nil-do-[aux-do-nil,subj-actor-it-sn2,def_prop(it,[any])])
+lf(Victoria Lyrics.txt_11,68,cl14-nil-nil-be-[xcomp-prop-thing-sn3,subj-theme_bound-it-sn2,def_prop(thing,[any,astratto,attivita,emotivo,evento,informa,oggetto,stato,strumento]),def_prop(it,[any])])
+lf(Victoria Lyrics.txt_11,68,cl13-nil-nil-think-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Victoria Lyrics.txt_12,82,cl16-nil-nil-do-[subj-theme_unaff-you-sn1,aux-do-nil,def_prop(you,[umano])])
+lf(Victoria Lyrics.txt_13,95,cl18-nil-nil-talk-[iobj-goal-her-sn2,xcomp-purpose-talk-2,def_prop(her,[umano])])
+lf(Victoria Lyrics.txt_13,95,cl17-nil-nil-want-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Victoria Lyrics.txt_14,110,cl20-nil-nil-buy-[obj-theme-drink-sn2,xcomp-purpose-buy-2,def_prop(drink,[attivita,edible,oggetto])])
+lf(Victoria Lyrics.txt_14,110,cl19-nil-nil-want-[subj-actor-you-sn1,def_prop(you,[umano])])
+lf(Victoria Lyrics.txt_15,126,cl21-nil-will-have-[subj-experiencer-she-sn1,def_prop(she,[umano])])
+lf(Victoria Lyrics.txt_16,142,cl22-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Victoria Lyrics.txt_17,159,cl23-not-will-have-[subj-experiencer-you-sn2,subj-experiencer-you-sn1,and(you,she,sn1),def_prop(you,[umano]),def_prop(you,[umano])])
+lf(Victoria Lyrics.txt_18,177,cl25-nil-nil-be-[subj-theme_bound-you-sn2,def_prop(you,[umano])])
+lf(Victoria Lyrics.txt_18,177,cl24-not-will-have-[subj-experiencer-you-sn1,def_prop(you,[umano])])

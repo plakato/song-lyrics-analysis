@@ -1,0 +1,72 @@
+"POLARITY, DISCOURSE MARKERS"
+
+TV Lyrics.txt_1-1  []-positive  []
+TV Lyrics.txt_2-3  []-positive  []
+TV Lyrics.txt_2-4  []-positive  []
+TV Lyrics.txt_3-8  []-positive  []
+TV Lyrics.txt_3-9  []-positive  []
+TV Lyrics.txt_4-12  []-positive  []
+TV Lyrics.txt_5-17  []-positive  []
+TV Lyrics.txt_5-18  []-positive  []
+TV Lyrics.txt_6-23  []-positive  [fgb]
+TV Lyrics.txt_7-30  []-positive  [fgb]
+TV Lyrics.txt_7-31  []-positive  [fgb]
+TV Lyrics.txt_8-38  []-positive  [fgb]
+TV Lyrics.txt_9-47  []-positive  [bkc]
+TV Lyrics.txt_9-48  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+TV Lyrics.txt_1-1  [tv,Lyrics,by,Vondelpark]  [title]
+TV Lyrics.txt_2-3  [tv,promise,me,Impressive]  [provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(promise,[external,factive,explanation,background,objective]),provide_expl_just(take,[external,factive,explanation,background,objective])]
+TV Lyrics.txt_2-4  [take,me,that,is,good]  [provide_expl_just(be,[external,factive,explanation,background,objective]),provide_expl_just(promise,[external,factive,explanation,background,objective]),provide_expl_just(take,[external,factive,explanation,background,objective])]
+TV Lyrics.txt_3-8  [tv,Impressive,that,is,good]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+TV Lyrics.txt_3-9  [,,anything]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+TV Lyrics.txt_4-12  [tv,television,television,television]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+TV Lyrics.txt_5-17  [i,am,a,coolder]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+TV Lyrics.txt_5-18  [i,am,a,faster]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+TV Lyrics.txt_6-23  [and,the,water]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+TV Lyrics.txt_7-30  [it,is,a,coolder,and,a,faster,the,caller]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+TV Lyrics.txt_7-31  [and,the,television,yeeeeah]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+TV Lyrics.txt_8-38  [hardstyle,and,the,shakening,the,television,says,the,television,eeeeyyyyyyy]  [provide_expl_just(say,[external,factive,narration,background,objective])]
+TV Lyrics.txt_9-47  [TVTVTV,tv,take,me,television,yeah]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+TV Lyrics.txt_9-48  [,,anything]  [provide_expl_just(take,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(TV Lyrics.txt_1-1)-[]
+2-(TV Lyrics.txt_2-3)-[secondary-social_behavior]
+3-(TV Lyrics.txt_2-4)-[]
+4-(TV Lyrics.txt_3-8)-[]
+5-(TV Lyrics.txt_3-9)-[]
+6-(TV Lyrics.txt_4-12)-[]
+7-(TV Lyrics.txt_5-17)-[]
+half
+8-(TV Lyrics.txt_5-18)-[primary-orality]
+9-(TV Lyrics.txt_6-23)-[primary-water]
+10-(TV Lyrics.txt_7-30)-[primary-orality,secondary-social_behavior]
+11-(TV Lyrics.txt_7-31)-[]
+12-(TV Lyrics.txt_8-38)-[secondary-social_behavior]
+13-(TV Lyrics.txt_9-47)-[]
+14-(TV Lyrics.txt_9-48)-[]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(TV Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Vondelpark-sn2,subj-theme_bound-Lyrics-sn1,and(Lyrics,tv,sn1),def_prop(Vondelpark,[istituzione,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(TV Lyrics.txt_2,3,cl4-nil-nil-be-[xcomp-prop-good-sn6,xcomp-purpose-be-3,def_prop(good,[valutativo])])
+lf(TV Lyrics.txt_2,3,cl3-nil-nil-take-[obj-theme_aff-me-sn5,subj-agent-you-sn4,def_prop(me,[umano]),def_prop(you,[umano])])
+lf(TV Lyrics.txt_2,3,cl2-nil-nil-promise-[obj-theme-Impressive-sn3,obj-theme_aff-me-sn2,subj-causer-tv-sn1,def_prop(Impressive,[istituzione]),def_prop(me,[umano]),def_prop(tv,[oggetto,strumento])])
+lf(TV Lyrics.txt_3,8,cl5-nil-nil-be-[subj-theme_bound-you-sn4,xcomp-prop-good-sn3,xcomp-theme-Impressive-sn2,subj-theme_bound-tv-sn1,def_prop(you,[umano]),def_prop(good,[valutativo]),def_prop(Impressive,[istituzione]),def_prop(tv,[oggetto,strumento])])
+lf(TV Lyrics.txt_4,12,cl6-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(TV Lyrics.txt_5,17,cl7-nil-nil-be-[xcomp-prop-faster-sn4,subj-theme_bound-i-sn3,xcomp-prop-coolder-sn2,subj-theme_bound-i-sn1,def_prop(faster,[istituzione]),def_prop(i,[umano]),def_prop(coolder,[istituzione]),def_prop(i,[umano])])
+lf(TV Lyrics.txt_6,23,cl8-nil-nil-be-[cmod-subord-be-",subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(TV Lyrics.txt_7,30,cl9-nil-nil-be-[cmod-subord-be-",xcomp-prop-yeeeeah-sn8,subj-theme_bound-television-sn7,obj2-benef-caller-sn4,xcomp-prop-coolder-sn3,subj-theme_bound-it-sn1,def_prop(yeeeeah,[istituzione]),def_prop(television,[attivita,informa,oggetto,strumento]),def_prop(caller,[umano]),def_prop(coolder,[istituzione]),def_prop(it,[any])])
+lf(TV Lyrics.txt_8,38,cl10-nil-nil-say-[obj2-addressee-eeeeyyyyyyy-sn4,obj-theme_unaff-television-sn3,subj-actor-hardstyle-sn2,def_prop(eeeeyyyyyyy,[istituzione]),def_prop(television,[attivita,informa,oggetto,strumento]),def_prop(hardstyle,[istituzione])])
+lf(TV Lyrics.txt_9,47,cl12-nil-nil-be-[subj-theme_bound-you-sn6,def_prop(you,[umano])])
+lf(TV Lyrics.txt_9,47,cl11-nil-nil-take-[adj-(mod)-yeah-nil,obj-theme_aff-television-sn3,obj-theme_aff-me-sn2,subj-agent-tv-sn1,and(tv,TVTVTV,sn1),def_prop(television,[attivita,informa,oggetto,strumento]),def_prop(me,[umano]),def_prop(tv,[oggetto,strumento])])

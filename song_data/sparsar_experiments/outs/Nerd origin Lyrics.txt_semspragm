@@ -1,0 +1,126 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Nerd origin Lyrics.txt_1-1  []-positive  []
+Nerd origin Lyrics.txt_2-3  []-suspension  []
+Nerd origin Lyrics.txt_2-4  []-negative  [neg]
+Nerd origin Lyrics.txt_2-5  [because-cause]-negative  [neg]
+Nerd origin Lyrics.txt_2-5  [because-cause,but-advers]-negative  [neg,fgb]
+Nerd origin Lyrics.txt_3-8  [(as)-temp_coinc]-negative  [neg]
+Nerd origin Lyrics.txt_4-14  []-positive  [neg]
+Nerd origin Lyrics.txt_5-19  []-suspension  [neg,neg]
+Nerd origin Lyrics.txt_6-27  []-negative  [neg,neg,neg]
+Nerd origin Lyrics.txt_7-36  []-positive  []
+Nerd origin Lyrics.txt_8-44  [because-cause]-positive  []
+Nerd origin Lyrics.txt_9-53  []-suspension  []
+Nerd origin Lyrics.txt_10-63  []-positive  []
+Nerd origin Lyrics.txt_10-64  []-negative  [neg,neg]
+Nerd origin Lyrics.txt_11-78  []-positive  []
+Nerd origin Lyrics.txt_12-90  []-positive  [fgb,neg]
+Nerd origin Lyrics.txt_12-91  []-positive  [fhd]
+Nerd origin Lyrics.txt_13-104  []-positive  []
+Nerd origin Lyrics.txt_14-118  []-positive  []
+Nerd origin Lyrics.txt_14-119  []-negative  [neg]
+Nerd origin Lyrics.txt_14-120  [if-hypoth]-positive  [fgb]
+Nerd origin Lyrics.txt_15-135  []-negative  [fgb,neg]
+Nerd origin Lyrics.txt_16-151  [but-advers]-negative  [fgb,neg]
+Nerd origin Lyrics.txt_16-151  [but-advers]-negative  [fgb,neg]
+Nerd origin Lyrics.txt_17-168  []-positive  [neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Nerd origin Lyrics.txt_1-1  [nerd,origin,Lyrics,by,Syco,myko]  [title]
+Nerd origin Lyrics.txt_2-3  [alright,i,guess]  [provide_expl_just(fuck,[external,factive,narration,background,objective]),provide_expl_just(say,[external,factive,narration,foreground,objective])]
+Nerd origin Lyrics.txt_2-4  [they,said,fuck,me]  [reject_expl_just(fuck,[external,factive,narration,background,objective]),reject_expl_just(say,[external,factive,narration,foreground,objective])]
+Nerd origin Lyrics.txt_2-5  [because,i,said,fuck,dc]  [reject_expl_just(fuck,[external,factive,narration,background,objective]),reject_expl_just(say,[external,factive,narration,foreground,objective])]
+Nerd origin Lyrics.txt_2-5  [because,i,said,fuck,dc,but]  [reject_expl_just(fuck,[external,factive,narration,background,objective]),reject_expl_just(say,[external,factive,narration,foreground,objective])]
+Nerd origin Lyrics.txt_3-8  [how,can,me,blame,December,28,i,even,the,same,birth,date,as,Stan,share,lee]  [reject_expl_just(share,[external,factive,narration,background,objective]),reject_expl_just(blame,[external,factive,narration,background,objective]),reject_expl_just(can,[external,nonfactive,narration,foreground,objective])]
+Nerd origin Lyrics.txt_4-14  [i,also,love,Wwf,slash,e]  [provide_expl_just(slash,[external,factive,narration,background,objective])]
+Nerd origin Lyrics.txt_5-19  [can,not,be,hurt,to,used,to,being,called,nerdy]  [provide_expl_just(use,[external,factive,cause,foreground,objective]),provide_expl_just(call,[external,factive,narration,background,objective])]
+Nerd origin Lyrics.txt_6-27  [ya-,embarrass,to,mean,not,is,i,friends,toy,apologize,!]  [reject_expl_just(mean,[internal,factive,narration,background,objective]),reject_expl_just(embarrass,[internal,factive,narration,background,objective]),reject_expl_just(apologize,[internal,factive,narration,foreground,objective])]
+Nerd origin Lyrics.txt_7-36  [they,laughing,at,us]  [provide_expl_just(laugh,[external,factive,narration,foreground,objective])]
+Nerd origin Lyrics.txt_8-44  [America,captain,with,shirt,a,rocking,am,i,because,!]  [provide_expl_just(rock,[internal,factive,cause,background,objective])]
+Nerd origin Lyrics.txt_9-53  [an,adventure,of,self,esteem]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Nerd origin Lyrics.txt_10-63  [that,is,were]  [provide_expl_just(need,[external,factive,narration,background,objective]),provide_expl_just(might,[external,nonfactive,narration,foreground,objective]),provide_expl_just(embark,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,foreground,objective])]
+Nerd origin Lyrics.txt_10-64  [i,need,to,embark,scared,i,might,come,back,more,childish,than]  [reject_expl_just(need,[external,factive,narration,background,objective]),reject_expl_just(might,[external,nonfactive,narration,foreground,objective]),reject_expl_just(embark,[external,factive,narration,background,objective]),reject_expl_just(be,[external,factive,narration,foreground,objective])]
+Nerd origin Lyrics.txt_11-78  [the,Arthur,ardvark]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Nerd origin Lyrics.txt_12-90  [majority,of,people,i,the,i_mean,know,either,hate,me]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Nerd origin Lyrics.txt_12-91  [or]  [provide_expl_just(know,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+Nerd origin Lyrics.txt_13-104  [under,estimate,me]  [provide_expl_just(estimate,[external,factive,narration,background,objective])]
+Nerd origin Lyrics.txt_14-118  [i,am,now,thinking,about,how]  [provide_expl_just(think,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Nerd origin Lyrics.txt_14-119  [it,would,not,be,funny]  [reject_expl_just(think,[external,factive,narration,foreground,objective]),reject_expl_just(be,[external,nonfactive,narration,background,objective]),reject_expl_just(take,[external,factive,narration,background,objective])]
+Nerd origin Lyrics.txt_14-120  [if,i,take]  [provide_expl_just(think,[external,factive,narration,foreground,objective]),provide_expl_just(be,[external,nonfactive,narration,background,objective]),provide_expl_just(take,[external,factive,narration,background,objective])]
+Nerd origin Lyrics.txt_15-135  [ya,and,you,stab,in,the,trachea]  [reject_expl_just(stab,[external,factive,narration,background,objective])]
+Nerd origin Lyrics.txt_16-151  [but,,,it,would,seem,i,lack]  [reject_expl_just(seem,[external,nonfactive,narration,background,objective])]
+Nerd origin Lyrics.txt_16-151  [but,,,it,would,seem,i,lack,too_much,self,esteem]  [reject_expl_just(seem,[external,nonfactive,narration,background,objective])]
+Nerd origin Lyrics.txt_17-168  [to,just,to,make,the,message,boy,even,home,i,hate,the,the,man,in,the,mirror]  [provide_expl_just(make,[external,factive,narration,background,objective]),provide_expl_just(hate,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Nerd origin Lyrics.txt_1-1)-[]
+2-(Nerd origin Lyrics.txt_2-3)-[secondary-abstract_tought]
+3-(Nerd origin Lyrics.txt_2-4)-[secondary-social_behavior,primary-sex]
+4-(Nerd origin Lyrics.txt_2-5)-[secondary-social_behavior,primary-sex]
+5-(Nerd origin Lyrics.txt_2-5)-[secondary-social_behavior,primary-sex]
+6-(Nerd origin Lyrics.txt_3-8)-[emotions-aggression,secondary-temporal_repere,secondary-social_behavior]
+7-(Nerd origin Lyrics.txt_4-14)-[emotions-affection]
+8-(Nerd origin Lyrics.txt_5-19)-[emotions-aggression,secondary-instru_behavior,secondary-social_behavior]
+9-(Nerd origin Lyrics.txt_6-27)-[emotions-affection,secondary-social_behavior]
+10-(Nerd origin Lyrics.txt_7-36)-[primary-concreteness]
+11-(Nerd origin Lyrics.txt_8-44)-[]
+12-(Nerd origin Lyrics.txt_9-53)-[emotions-glory,secondary-instru_behavior]
+half
+13-(Nerd origin Lyrics.txt_10-63)-[]
+14-(Nerd origin Lyrics.txt_10-64)-[primary-voyage,emotions-anxiety,primary-concreteness]
+15-(Nerd origin Lyrics.txt_11-78)-[]
+16-(Nerd origin Lyrics.txt_12-90)-[secondary-abstract_tought,emotions-aggression]
+17-(Nerd origin Lyrics.txt_12-91)-[]
+18-(Nerd origin Lyrics.txt_13-104)-[primary-depth,secondary-abstract_tought]
+19-(Nerd origin Lyrics.txt_14-118)-[secondary-temporal_repere]
+20-(Nerd origin Lyrics.txt_14-119)-[emotions-positive_affect]
+21-(Nerd origin Lyrics.txt_14-120)-[]
+22-(Nerd origin Lyrics.txt_15-135)-[emotions-aggression]
+23-(Nerd origin Lyrics.txt_16-151)-[primary-vision]
+24-(Nerd origin Lyrics.txt_16-151)-[primary-vision,secondary-instru_behavior]
+25-(Nerd origin Lyrics.txt_17-168)-[secondary-instru_behavior,secondary-social_behavior,emotions-aggression]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Nerd origin Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-myko-sn2,subj-theme_bound-Lyrics-sn1,and(myko,Syco,sn2),and(Lyrics,origin,sn1),def_prop(myko,[istituzione]),def_prop(Lyrics,[informa,tecno])])
+lf(Nerd origin Lyrics.txt_2,3,cl3-nil-nil-say-[cmod-subord-say-because,xcomp-prop-dc-sn11,obj-theme_unaff-fuck-sn10,subj-actor-i-sn9,xcomp-prop-dc-sn8,obj-theme_unaff-fuck-sn7,subj-actor-i-sn6,def_prop(dc,[evento,informa,luogo,tecno]),def_prop(fuck,[attivita]),def_prop(i,[umano]),def_prop(dc,[evento,informa,luogo,tecno]),def_prop(fuck,[attivita]),def_prop(i,[umano])])
+lf(Nerd origin Lyrics.txt_2,3,cl2-nil-nil-fuck-[obj-theme-me-sn5,subj-actor-they-sn4,def_prop(me,[umano]),def_prop(they,[umano])])
+lf(Nerd origin Lyrics.txt_2,3,nil-nil-nil-guess-[subj-experiencer-i-sn1,def_prop(i,[umano])])
+lf(Nerd origin Lyrics.txt_3,8,cl6-nil-nil-share-[xcomp-agent-lee-sn9,subj-agent-you-sn8,xcomp-prop-lee-sn7,subj-agent-date-sn6,obj-theme-i-sn2,xcomp-purpose-blame-3,and(i,28,sn2),def_prop(lee,[luogo]),def_prop(you,[umano]),def_prop(lee,[luogo]),def_prop(date,[edible,oggetto,tempo,umano]),def_prop(i,[umano])])
+lf(Nerd origin Lyrics.txt_3,8,cl5-nil-nil-blame-[])
+lf(Nerd origin Lyrics.txt_3,8,cl4-nil-can-can-[adj-locative-even-nil,adj-locative-December-nil,subj-actor-me-sn1,def_prop(me,[umano])])
+lf(Nerd origin Lyrics.txt_4,14,cl7-nil-nil-slash-[adj-(mod)-also-nil,obj-theme_aff-e-sn2,subj-agent-Wwf-sn1,and(Wwf,Wwf,sn1),def_prop(e,[nquant]),def_prop(Wwf,[istituzione,umano])])
+lf(Nerd origin Lyrics.txt_5,19,cl10-nil-nil-call-[])
+lf(Nerd origin Lyrics.txt_5,19,cl9-nil-nil-use-[xcomp-result-nerdy-sn2,xcomp-prop-call-3,def_prop(nerdy,[evaluative])])
+lf(Nerd origin Lyrics.txt_5,19,cl8-not-can-hurt-[subj-theme_unaff-you-sn1,aux-be-nil,def_prop(you,[umano])])
+lf(Nerd origin Lyrics.txt_6,27,nil-nil-nil-embarrass-[xadj-theme-friend-sn3,def_prop(friend,[umano])])
+lf(Nerd origin Lyrics.txt_6,27,cl12-not-nil-mean-[obj-result-ya- - sn2,xcomp-prop-embarrass-3,aux-(is)-nil,def_prop(ya-,[legale])])
+lf(Nerd origin Lyrics.txt_6,27,cl11-nil-nil-apologize-[subj-agent-i-sn1,def_prop(i,[umano])])
+lf(Nerd origin Lyrics.txt_7,36,cl13-nil-nil-laugh-[iobj-goal-us-sn2,subj-experiencer-they-sn1,def_prop(us,[umano]),def_prop(they,[umano])])
+lf(Nerd origin Lyrics.txt_8,44,cl14-nil-nil-rock-[cmod-subord-rock-because,iobj-goal-America-sn3,obj-patient-shirr-sn2,subj-agent-i-sn1,aux-am-nil,progr-rocking-nil,and(America,captain,sn3),def_prop(America,[place,oggetto]),def_prop(shirr,[istituzione]),def_prop(i,[umano])])
+lf(Nerd origin Lyrics.txt_9,53,cl15-nil-nil-be-[ncmod-specif-esteem-sn2,subj-theme_bound-you-sn1,and(esteem,self,sn2),def_prop(esteem,[stato]),def_prop(you,[umano])])
+lf(Nerd origin Lyrics.txt_10,63,cl20-nil-nil-come-[])
+lf(Nerd origin Lyrics.txt_10,63,cl19-nil-might-might-[adj-(mod)-back-nil,obj-theme-i-sn4,subj-theme_unaff-i-sn2,def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Nerd origin Lyrics.txt_10,63,cl18-nil-nil-embark-[obj-prop-more-sn5,xcomp-purpose-come-4,def_prop(more,[astratto,informa,oggetto])])
+lf(Nerd origin Lyrics.txt_10,63,cl17-nil-nil-need-[xcomp-result-scared-sn3,xcomp-prop-embark-3,def_prop(scared,[evaluative])])
+lf(Nerd origin Lyrics.txt_10,63,cl16-nil-nil-be-[subj-theme_bound-you-sn1,def_prop(you,[umano])])
+lf(Nerd origin Lyrics.txt_11,78,cl21-nil-nil-be-[ncmod-modal-Arthur-sn2,subj-theme_bound-you-sn1,def_prop(Arthur,[place,umano]),def_prop(you,[umano])])
+lf(Nerd origin Lyrics.txt_12,90,cl23-nil-nil-be-[])
+lf(Nerd origin Lyrics.txt_12,90,cl22-nil-nil-know-[obj-theme_aff-me-sn2,obj-theme_unaff-hate-sn1,and(hate,either,sn1),def_prop(me,[umano]),def_prop(hate,[emotivo])])
+lf(Nerd origin Lyrics.txt_13,104,cl24-nil-nil-estimate-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Nerd origin Lyrics.txt_14,118,cl27-nil-nil-take-[subj-agent-i-sn4,def_prop(i,[umano])])
+lf(Nerd origin Lyrics.txt_14,118,cl26-not-would-be-[xcomp-prop-funny-sn3,subj-theme_bound-it-sn2,def_prop(funny,[evaluative]),def_prop(it,[any])])
+lf(Nerd origin Lyrics.txt_14,118,cl25-nil-nil-think-[subj-agent-i-sn1,adj-(mod)-now-nil,aux-am-nil,progr-thinking-nil,def_prop(i,[umano])])
+lf(Nerd origin Lyrics.txt_15,135,cl28-nil-nil-stab-[iobj-goal-trachea-sn4,coord-agent-ya_and_you-sn3,subj-agent-you-sn2,subj-agent-ya-sn1,def_prop(trachea,[body_part,umano]),def_prop(ya_and_you,[legale,umano]),def_prop(you,[legale,umano]),def_prop(ya,[legale,umano])])
+lf(Nerd origin Lyrics.txt_16,151,cl29-nil-would-seem-[cmod-subord-seem-but,obj2-goal-lack-sn7,subj-actor-i-sn6,subj-actor-i-sn5,obj2-goal-lack-sn3,subj-actor-i-sn2,subj-actor-i-sn1,and(i,it,sn5),and(i,it,sn1),def_prop(lack,[stato]),def_prop(i,[umano]),def_prop(i,[umano]),def_prop(lack,[stato]),def_prop(i,[umano]),def_prop(i,[umano])])
+lf(Nerd origin Lyrics.txt_17,168,cl31-nil-nil-hate-[adj-(mod)-home-nil,obj-agent-message-sn3,xcomp-purpose-make-2,ncmod-loc_direct-just-sn2,subj-actor-i-sn1,def_prop(message,[attivita,informa]),def_prop(just,[informa,tecno]),def_prop(i,[umano])])
+lf(Nerd origin Lyrics.txt_17,168,cl30-nil-nil-make-[])

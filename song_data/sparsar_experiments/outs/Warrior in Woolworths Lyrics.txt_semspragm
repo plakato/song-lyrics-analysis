@@ -1,0 +1,86 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Warrior in Woolworths Lyrics.txt_1-1  []-negative  [neg]
+Warrior in Woolworths Lyrics.txt_2-3  []-negative  [neg]
+Warrior in Woolworths Lyrics.txt_3-6  []-positive  []
+Warrior in Woolworths Lyrics.txt_4-10  []-suspension  [neg,neg]
+Warrior in Woolworths Lyrics.txt_5-15  []-negative  []
+Warrior in Woolworths Lyrics.txt_5-16  []-negative  [fgb]
+Warrior in Woolworths Lyrics.txt_6-22  []-suspension  []
+Warrior in Woolworths Lyrics.txt_7-29  []-negative  [neg]
+Warrior in Woolworths Lyrics.txt_8-37  []-suspension  [neg,neg]
+Warrior in Woolworths Lyrics.txt_9-46  []-negative  []
+Warrior in Woolworths Lyrics.txt_10-56  []-negative  [neg]
+Warrior in Woolworths Lyrics.txt_11-67  []-negative  [neg]
+Warrior in Woolworths Lyrics.txt_12-79  []-negative  [neg]
+Warrior in Woolworths Lyrics.txt_13-92  []-negative  [neg]
+Warrior in Woolworths Lyrics.txt_14-106  []-negative  []
+Warrior in Woolworths Lyrics.txt_15-121  []-positive  []
+Warrior in Woolworths Lyrics.txt_16-137  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Warrior in Woolworths Lyrics.txt_1-1  [warrior,in,Woolworths,Lyrics,by,X-Ray,Spex]  [title]
+Warrior in Woolworths Lyrics.txt_2-3  [warrior,in,Woolworths]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Warrior in Woolworths Lyrics.txt_3-6  [behind,his,serville,innocence]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Warrior in Woolworths Lyrics.txt_4-10  [he,is,the,rebel,on,the,underground]  [provide_expl_just(underground,[internal,factive,narration,background,objective])]
+Warrior in Woolworths Lyrics.txt_5-15  [he,plots]  [provide_expl_just(plot,[external,factive,narration,background,objective]),provide_expl_just(scheme,[external,factive,narration,background,objective])]
+Warrior in Woolworths Lyrics.txt_5-16  [and,he,schemes]  [provide_expl_just(plot,[external,factive,narration,background,objective]),provide_expl_just(scheme,[external,factive,narration,background,objective])]
+Warrior in Woolworths Lyrics.txt_6-22  [humble,he,may,seem]  [provide_expl_just(seem,[external,nonfactive,narration,foreground,objective])]
+Warrior in Woolworths Lyrics.txt_7-29  [she,is,the,rebel,of,the,modern,town]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Warrior in Woolworths Lyrics.txt_8-37  [he,is,the,rebel,on,the,underground]  [provide_expl_just(underground,[internal,factive,narration,background,objective])]
+Warrior in Woolworths Lyrics.txt_9-46  [his,roots,are,in,today]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Warrior in Woolworths Lyrics.txt_10-56  [warrior,in,Woolworths]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Warrior in Woolworths Lyrics.txt_11-67  [she,is,the,rebel,of,the,modern,town]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Warrior in Woolworths Lyrics.txt_12-79  [no,history,doesn-t,know]  [reject_expl_just(know,[external,factive,cause,foreground,objective])]
+Warrior in Woolworths Lyrics.txt_13-92  [warrior,in,Woolworths]  [reject_expl_just(be,[external,factive,narration,background,objective])]
+Warrior in Woolworths Lyrics.txt_14-106  [he,threw,the,past,away]  [provide_expl_just(throw,[external,factive,cause,foreground,objective])]
+Warrior in Woolworths Lyrics.txt_15-121  [weapons,rule,their,livesDips,on,friday,nights]  [provide_expl_just(rule,[external,factive,narration,background,objective])]
+Warrior in Woolworths Lyrics.txt_16-137  [youths,meet,at,Stockwell,tube]  [provide_expl_just(meet,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Warrior in Woolworths Lyrics.txt_1-1)-[emotions-aggression]
+2-(Warrior in Woolworths Lyrics.txt_2-3)-[emotions-aggression]
+3-(Warrior in Woolworths Lyrics.txt_3-6)-[primary-concreteness]
+4-(Warrior in Woolworths Lyrics.txt_4-10)-[emotions-aggression,primary-depth]
+5-(Warrior in Woolworths Lyrics.txt_5-15)-[]
+6-(Warrior in Woolworths Lyrics.txt_5-16)-[secondary-abstract_tought]
+7-(Warrior in Woolworths Lyrics.txt_6-22)-[secondary-abstract_tought,primary-vision]
+8-(Warrior in Woolworths Lyrics.txt_7-29)-[emotions-aggression]
+half
+9-(Warrior in Woolworths Lyrics.txt_8-37)-[emotions-aggression,primary-depth]
+10-(Warrior in Woolworths Lyrics.txt_9-46)-[primary-depth,secondary-temporal_repere]
+11-(Warrior in Woolworths Lyrics.txt_10-56)-[emotions-aggression]
+12-(Warrior in Woolworths Lyrics.txt_11-67)-[emotions-aggression]
+13-(Warrior in Woolworths Lyrics.txt_12-79)-[secondary-abstract_tought,secondary-abstract_tought]
+14-(Warrior in Woolworths Lyrics.txt_13-92)-[emotions-aggression]
+15-(Warrior in Woolworths Lyrics.txt_14-106)-[primary-ascend,secondary-temporal_repere,primary-concreteness]
+16-(Warrior in Woolworths Lyrics.txt_15-121)-[emotions-aggression]
+17-(Warrior in Woolworths Lyrics.txt_16-137)-[secondary-social_behavior,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Warrior in Woolworths Lyrics.txt_1,1,cl1-nil-nil-x-ray-[obj-theme-Spex-sn4,obj-theme-Lyrics-sn3,ncmod-locativo-Woolworths-sn2,subj-agent-warrior-sn1,def_prop(Spex,[istituzione,umano]),def_prop(Lyrics,[informa,tecno]),def_prop(Woolworths,[istituzione,umano]),def_prop(warrior,[umano])])
+lf(Warrior in Woolworths Lyrics.txt_2,3,cl2-nil-nil-be-[ncmod-locativo-Woolworths-sn2,subj-theme_bound-warrior-sn1,def_prop(Woolworths,[istituzione,umano]),def_prop(warrior,[umano])])
+lf(Warrior in Woolworths Lyrics.txt_3,6,cl3-nil-nil-be-[ncmod-locativo-serville-sn2,subj-theme_bound-innocence-sn1,def_prop(serville,[istituzione]),def_prop(innocence,[stato])])
+lf(Warrior in Woolworths Lyrics.txt_4,10,cl4-nil-nil-be-[ncmod-locativo-underground-sn3,xcomp-prop-rebel-sn2,subj-theme_bound-he-sn1,def_prop(underground,[istituzione]),def_prop(rebel,[relat,sociale,umano]),def_prop(he,[umano])])
+lf(Warrior in Woolworths Lyrics.txt_5,15,cl6-nil-nil-scheme-[cmod-subord-scheme-",subj-actor-you-sn2,def_prop(you,[umano])])
+lf(Warrior in Woolworths Lyrics.txt_5,15,cl5-nil-nil-plot-[subj-agent-you-sn1,def_prop(you,[umano])])
+lf(Warrior in Woolworths Lyrics.txt_6,22,cl7-nil-may-seem-[ncmod-modal-humble-sn2,subj-actor-you-sn1,def_prop(humble,[evaluative]),def_prop(you,[umano])])
+lf(Warrior in Woolworths Lyrics.txt_7,29,cl8-nil-nil-be-[xcomp-prop-rebel-sn2,subj-theme_bound-she-sn1,def_prop(rebel,[relat,sociale,umano]),def_prop(she,[umano])])
+lf(Warrior in Woolworths Lyrics.txt_8,37,cl9-nil-nil-be-[ncmod-locativo-underground-sn3,xcomp-prop-rebel-sn2,subj-theme_bound-he-sn1,def_prop(underground,[istituzione]),def_prop(rebel,[relat,sociale,umano]),def_prop(he,[umano])])
+lf(Warrior in Woolworths Lyrics.txt_9,46,cl10-nil-nil-be-[xcomp-prop-today-sn2,subj-theme_bound-root-sn1,def_prop(today,[tempo]),def_prop(root,[attivita,body_part,informa,nquant,plant,umano])])
+lf(Warrior in Woolworths Lyrics.txt_10,56,cl11-nil-nil-be-[ncmod-locativo-Woolworths-sn2,subj-theme_bound-warrior-sn1,def_prop(Woolworths,[istituzione,umano]),def_prop(warrior,[umano])])
+lf(Warrior in Woolworths Lyrics.txt_11,67,cl12-nil-nil-be-[xcomp-prop-rebel-sn2,subj-theme_bound-she-sn1,def_prop(rebel,[relat,sociale,umano]),def_prop(she,[umano])])
+lf(Warrior in Woolworths Lyrics.txt_12,79,cl13-not-nil-know-[subj-actor-you-sn1,aux-does-nil,def_prop(you,[umano])])
+lf(Warrior in Woolworths Lyrics.txt_13,92,cl14-nil-nil-be-[ncmod-locativo-Woolworths-sn2,subj-theme_bound-warrior-sn1,def_prop(Woolworths,[istituzione,umano]),def_prop(warrior,[umano])])
+lf(Warrior in Woolworths Lyrics.txt_14,106,cl15-nil-nil-throw-[obj-theme_unaff-away-sn2,subj-agent-he-sn1,and(away,past,sn2),def_prop(away,[istituzione]),def_prop(he,[umano])])
+lf(Warrior in Woolworths Lyrics.txt_15,121,cl16-nil-nil-rule-[ncmod-temporale-female-sn3,obj-theme-livesDips-sn2,subj-agent-weapon-sn1,def_prop(female,[tempo]),def_prop(livesDips,[istituzione]),def_prop(weapon,[attivita,informa,oggetto,strumento])])
+lf(Warrior in Woolworths Lyrics.txt_16,137,cl17-nil-nil-meet-[iobj-goal-tube-sn2,subj-experiencer-youth-sn1,and(tube,Stockwell,sn2),def_prop(tube,[body_part,oggetto,strumento,umano]),def_prop(youth,[astratto,stato,tempo])])

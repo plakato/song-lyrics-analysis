@@ -1,0 +1,78 @@
+"POLARITY, DISCOURSE MARKERS"
+
+\ Smoke In My Eyes \ Lyrics.txt_1-1  []-negative  []
+\ Smoke In My Eyes \ Lyrics.txt_2-3  []-positive  []
+\ Smoke In My Eyes \ Lyrics.txt_3-6  []-positive  []
+\ Smoke In My Eyes \ Lyrics.txt_4-10  []-positive  []
+\ Smoke In My Eyes \ Lyrics.txt_4-11  []-positive  []
+\ Smoke In My Eyes \ Lyrics.txt_5-15  []-negative  [neg]
+\ Smoke In My Eyes \ Lyrics.txt_6-21  []-negative  []
+\ Smoke In My Eyes \ Lyrics.txt_7-28  []-question  []
+\ Smoke In My Eyes \ Lyrics.txt_8-36  []-positive  [bkc]
+\ Smoke In My Eyes \ Lyrics.txt_9-45  []-question  [neg,fgb,neg]
+\ Smoke In My Eyes \ Lyrics.txt_10-56  []-positive  []
+\ Smoke In My Eyes \ Lyrics.txt_11-67  []-positive  []
+\ Smoke In My Eyes \ Lyrics.txt_11-68  []-positive  []
+\ Smoke In My Eyes \ Lyrics.txt_12-81  []-positive  []
+\ Smoke In My Eyes \ Lyrics.txt_13-94  []-positive  []
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+\ Smoke In My Eyes \ Lyrics.txt_1-1  [Smoke,in,my,eyes,Lyrics,by,Yung,Poppy]  [title]
+\ Smoke In My Eyes \ Lyrics.txt_2-3  [Yung,POPPY]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+\ Smoke In My Eyes \ Lyrics.txt_3-6  [i,am,Stuck,on,this,roof]  [provide_expl_just(roof,[internal,factive,narration,background,objective])]
+\ Smoke In My Eyes \ Lyrics.txt_4-10  [it,is,Burning]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+\ Smoke In My Eyes \ Lyrics.txt_4-11  [&,amp]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+\ Smoke In My Eyes \ Lyrics.txt_5-15  [shit]  reject_expl_opin(nil,[])
+\ Smoke In My Eyes \ Lyrics.txt_6-21  [it,is,Smoke,in,my,eyes]  [provide_expl_just(eye,[internal,factive,narration,background,objective])]
+\ Smoke In My Eyes \ Lyrics.txt_7-28  [eyes,his,in,Smoke,is,it,?]  [provide_expl_just(eye,[internal,factive,narration,background,objective])]
+\ Smoke In My Eyes \ Lyrics.txt_8-36  [yes,there,Smoke,in,my,eyes]  [provide_expl_just(there,[external,factive,narration,background,objective])]
+\ Smoke In My Eyes \ Lyrics.txt_9-45  [this,is,Fuck,the,what,shit,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(shit,[internal,factive,narration,foreground,objective])]
+\ Smoke In My Eyes \ Lyrics.txt_10-56  [Idk,Ay]  [provide_expl_just(say,[external,factive,narration,foreground,objective])]
+\ Smoke In My Eyes \ Lyrics.txt_11-67  [let,me,get,back,to,this,Shit]  [provide_expl_just(let,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+\ Smoke In My Eyes \ Lyrics.txt_11-68  [Ay]  [provide_expl_just(let,[external,factive,narration,background,objective]),provide_expl_just(get,[external,factive,narration,background,objective]),provide_expl_just(be,[external,factive,narration,background,objective])]
+\ Smoke In My Eyes \ Lyrics.txt_12-81  [jumpin,off,the,Roof,with,this,one]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+\ Smoke In My Eyes \ Lyrics.txt_13-94  [jumpin,off,the,Roof,with]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(\ Smoke In My Eyes \ Lyrics.txt_1-1)-[primary-narcissism]
+2-(\ Smoke In My Eyes \ Lyrics.txt_2-3)-[]
+3-(\ Smoke In My Eyes \ Lyrics.txt_3-6)-[primary-height]
+4-(\ Smoke In My Eyes \ Lyrics.txt_4-10)-[]
+5-(\ Smoke In My Eyes \ Lyrics.txt_4-11)-[]
+6-(\ Smoke In My Eyes \ Lyrics.txt_5-15)-[primary-anality]
+7-(\ Smoke In My Eyes \ Lyrics.txt_6-21)-[primary-narcissism]
+half
+8-(\ Smoke In My Eyes \ Lyrics.txt_7-28)-[primary-narcissism]
+9-(\ Smoke In My Eyes \ Lyrics.txt_8-36)-[primary-narcissism]
+10-(\ Smoke In My Eyes \ Lyrics.txt_9-45)-[primary-anality]
+11-(\ Smoke In My Eyes \ Lyrics.txt_10-56)-[]
+12-(\ Smoke In My Eyes \ Lyrics.txt_11-67)-[primary-concreteness]
+13-(\ Smoke In My Eyes \ Lyrics.txt_11-68)-[]
+14-(\ Smoke In My Eyes \ Lyrics.txt_12-81)-[primary-ascend,primary-concreteness]
+15-(\ Smoke In My Eyes \ Lyrics.txt_13-94)-[primary-ascend,primary-concreteness]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(\ Smoke In My Eyes \ Lyrics.txt_1,1,cl1-nil-nil-eye-[arg_mod-agent-Poppy-sn4,obj-theme-Lyrics-sn3,ncmod-modal-my-sn2,subj-experiencer-Smoke-sn1,and(Poppy,Yung,sn4),def_prop(Poppy,[plant]),def_prop(Lyrics,[informa,tecno]),def_prop(my,[informa,tecno]),def_prop(Smoke,[astratto,attivita,cambia,evento,informa,oggetto,strumento,umano])])
+lf(\ Smoke In My Eyes \ Lyrics.txt_2,3,cl2-nil-nil-say-[obj-theme_unaff-poppy-sn1,and(poppy,Yung,sn1),def_prop(poppy,[plant])])
+lf(\ Smoke In My Eyes \ Lyrics.txt_3,6,cl3-nil-nil-be-[ncmod-locativo-roof-sn3,xcomp-prop-Stuck-sn2,subj-theme_bound-i-sn1,and(roof,this,sn3),def_prop(roof,[oggetto,strumento]),def_prop(Stuck,[place,umano]),def_prop(i,[umano])])
+lf(\ Smoke In My Eyes \ Lyrics.txt_4,10,cl4-nil-nil-be-[subj-theme_bound-amp-sn3,xcomp-prop-Burning-sn2,subj-theme_bound-it-sn1,def_prop(amp,[nquant]),def_prop(Burning,[istituzione]),def_prop(it,[any])])
+lf(\ Smoke In My Eyes \ Lyrics.txt_5,15,cl5-nil-nil-say-[obj-theme_unaff-shit-sn1,def_prop(shit,[attivita,umano])])
+lf(\ Smoke In My Eyes \ Lyrics.txt_6,21,cl6-nil-nil-be-[ncmod-locativo-eye-sn3,xcomp-prop-Smoke-sn2,subj-theme_bound-it-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(Smoke,[astratto,attivita,cambia,evento,informa,oggetto,strumento,umano]),def_prop(it,[any])])
+lf(\ Smoke In My Eyes \ Lyrics.txt_7,28,cl7-nil-nil-be-[ncmod-locativo-eye-sn3,xcomp-prop-Smoke-sn2,subj-theme_bound-it-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(Smoke,[astratto,attivita,cambia,evento,informa,oggetto,strumento,umano]),def_prop(it,[any])])
+lf(\ Smoke In My Eyes \ Lyrics.txt_8,36,nil-nil-nil-there-[ncmod-locativo-eye-sn3,obj-theme_aff-Smoke-sn2,subj-agent-yes-sn1,def_prop(eye,[astratto,body_part,oggetto,strumento,umano]),def_prop(Smoke,[astratto,attivita,cambia,evento,informa,oggetto,strumento,umano]),def_prop(yes,[attivita,informa])])
+lf(\ Smoke In My Eyes \ Lyrics.txt_9,45,cl9-nil-nil-be-[adj-(mod)-shit-nil,xcomp-result-this-sn3,xcomp-purpose-be-4,def_prop(this,[oggetto,umano])])
+lf(\ Smoke In My Eyes \ Lyrics.txt_9,45,cl8-nil-nil-shit-[f2-sn1-what-sn2,subj-agent-fuck-sn1,def_prop(what,[oggetto]),def_prop(fuck,[attivita])])
+lf(\ Smoke In My Eyes \ Lyrics.txt_10,56,cl10-nil-nil-say-[obj-theme_unaff-Ay-sn1,and(Ay,Idk,sn1),def_prop(Ay,[istituzione,umano])])
+lf(\ Smoke In My Eyes \ Lyrics.txt_11,67,cl12-nil-nil-be-[subj-actor-you-sn5,def_prop(you,[umano])])
+lf(\ Smoke In My Eyes \ Lyrics.txt_11,67,cl11-nil-nil-get-[adj-(mod)-back-nil,xmod-prop-let-2,subj-experiencer-me-sn1,def_prop(me,[umano])])
+lf(\ Smoke In My Eyes \ Lyrics.txt_12,81,cl13-nil-nil-be-[ncmod-locativo-Roof-sn2,subj-theme_bound-jumpin-sn1,def_prop(Roof,[umano]),def_prop(jumpin,[istituzione])])
+lf(\ Smoke In My Eyes \ Lyrics.txt_13,94,cl14-nil-nil-be-[ncmod-locativo-Roof-sn2,subj-theme_bound-jumpin-sn1,def_prop(Roof,[umano]),def_prop(jumpin,[istituzione])])

@@ -1,0 +1,57 @@
+"POLARITY, DISCOURSE MARKERS"
+
+Alone Together Lyrics.txt_1-1  []-negative  [neg]
+Alone Together Lyrics.txt_2-3  []-negative  [neg,neg,neg]
+Alone Together Lyrics.txt_2-4  []-positive  []
+Alone Together Lyrics.txt_3-6  [(as)-temp_coinc]-negative  [neg,neg,neg]
+Alone Together Lyrics.txt_3-7  []-negative  [neg,neg,fgb]
+Alone Together Lyrics.txt_4-11  []-question  [fgb]
+Alone Together Lyrics.txt_4-12  []-negative  [neg]
+Alone Together Lyrics.txt_5-17  [(as)-temp_coinc]-positive  []
+Alone Together Lyrics.txt_5-18  [(as)-temp_coinc]-positive  [ass]
+Alone Together Lyrics.txt_6-23  [if-hypoth]-positive  [ass,neg,fgb,neg,fgb,neg]
+
+
+
+"ARGUMENT_CATS, CLAUSES, DISCOURSE SEMANTICS, DISCOURSE RELATIONS, RELEVANCE"
+
+Alone Together Lyrics.txt_1-1  [alone,together,Lyrics,by,Rufus,Wainwright]  [title]
+Alone Together Lyrics.txt_2-3  [the,we,world,alone,,,together,above,the,crowd,beyond,,,are,not,too,proud,to,cling,not,together]  [reject_expl_just(be,[external,factive,explanation,background,objective]),propose_opin_neg(be,[external,factive,explanation,background,objective])]
+Alone Together Lyrics.txt_2-4  [we,are,strong]  [provide_expl_just(be,[external,factive,explanation,background,objective])]
+Alone Together Lyrics.txt_3-6  [as,long,as,we,are,together,alone,together,the,blinding,rain]  [reject_expl_just(rain,[internal,nonfactive,hypothesis,background,objective])]
+Alone Together Lyrics.txt_3-7  [the,starless,night,was,not,in,vain,for,we,are,together,and]  [reject_expl_just(rain,[internal,nonfactive,hypothesis,background,objective])]
+Alone Together Lyrics.txt_4-11  [is,what,?]  [provide_expl_just(be,[internal,factive,narration,foreground,objective]),provide_expl_just(fear,[internal,factive,narration,foreground,objective])]
+Alone Together Lyrics.txt_4-12  [there,to,fear,together]  [reject_expl_just(be,[internal,factive,narration,foreground,objective]),reject_expl_just(fear,[internal,factive,narration,foreground,objective])]
+Alone Together Lyrics.txt_5-17  [our,love,is,as,deep,as]  [provide_expl_just(be,[external,factive,narration,background,objective])]
+Alone Together Lyrics.txt_5-18  [the,our,sea,love,is,as,great,as,a,love]  [accept_expl_opin(be,[external,factive,narration,background,objective])]
+Alone Together Lyrics.txt_6-23  [can,be,for,we,can,weather,the,great,unknown,if,,,we,are,alone,together,together,together,if,,,we,are,alone,together]  [accept_expl_opin(weather,[external,nonfactive,hypothesis,foreground,objective])]
+
+
+
+"RID - REGRESSIVE IMAGERY DICTIONARY"
+
+1-(Alone Together Lyrics.txt_1-1)-[]
+2-(Alone Together Lyrics.txt_2-3)-[primary-height,primary-chaos,emotions-glory]
+3-(Alone Together Lyrics.txt_2-4)-[]
+4-(Alone Together Lyrics.txt_3-6)-[primary-concreteness,primary-water]
+5-(Alone Together Lyrics.txt_3-7)-[]
+half
+6-(Alone Together Lyrics.txt_4-11)-[]
+7-(Alone Together Lyrics.txt_4-12)-[emotions-anxiety]
+8-(Alone Together Lyrics.txt_5-17)-[emotions-affection,primary-depth]
+9-(Alone Together Lyrics.txt_5-18)-[primary-water,emotions-affection,emotions-glory,emotions-affection]
+10-(Alone Together Lyrics.txt_6-23)-[emotions-glory,primary-unknow]
+
+
+
+"LOGICAL FORM WITH SEMANTIC ROLES, GRAMMATICAL FUNCTIONS AND DEFAULT SEMANTIC FEATURES"
+
+lf(Alone Together Lyrics.txt_1,1,cl1-nil-nil-be-[arg_mod-agent-Wainwright-sn2,subj-theme_bound-Lyrics-sn1,and(Wainwright,Rufus,sn2),and(Lyrics,alone,sn1),and(Lyrics,together,sn1),def_prop(Wainwright,[place,umano]),def_prop(Lyrics,[informa,tecno])])
+lf(Alone Together Lyrics.txt_2,3,cl2-not-nil-be-[xcomp-prop-strong-sn7,subj-theme_bound-we-sn6,xadj-adj-together-adj3,xadj-adj-together-adj2,xadj-adj-alone-adj1,xcomp-prop-proud-sn3,ncmod-loc_direct-crowd-sn2,subj-theme_bound-world-sn1,neg-not-nil,and(proud,too,sn3),and(world,we,sn1),def_prop(strong,[valutativo]),def_prop(we,[umano]),def_prop(together,_310234),def_prop(together,_310246),def_prop(alone,_310258),def_prop(proud,[istituzione]),def_prop(crowd,[istituzione]),def_prop(world,[astratto,istituzione,oggetto])])
+lf(Alone Together Lyrics.txt_3,6,cl4-nil-nil-rain-[subj-form-pro-nil,subj-form-blinding-sn3,def_prop(blinding,[evaluative])])
+lf(Alone Together Lyrics.txt_3,6,cl3-nil-nil-be-[cmod-subord-rain-for,xcomp-prop-together-sn8,subj-theme_bound-we-sn7,adj-temporal-night-nil,ncmod-modal-vain-sn5,subj-theme_bound-starless-sn4,xcomp-prop-alone-sn2,subj-theme_bound-we-sn1,and(alone,together,sn2),def_prop(together,[evaluative]),def_prop(we,[umano]),def_prop(vain,[istituzione]),def_prop(starless,[istituzione]),def_prop(alone,[valutativo]),def_prop(we,[umano])])
+lf(Alone Together Lyrics.txt_4,11,cl6-nil-nil-fear-[xcomp-prop-together-sn3,subj-experiencer-there-sn2,def_prop(together,[istituzione]),def_prop(there,[istituzione])])
+lf(Alone Together Lyrics.txt_4,11,cl5-nil-nil-be-[subj-theme_bound-what-sn1,def_prop(what,[oggetto])])
+lf(Alone Together Lyrics.txt_5,17,cl7-nil-nil-be-[adj-(mod)-love-nil,xcomp-prop-great-sn6,subj-theme_bound-love-sn5,xcomp-prop-deep-sn2,subj-theme_bound-love-sn1,def_prop(love,[astratto,emotivo,nquant]),def_prop(great,[istituzione,umano]),def_prop(love,[astratto,emotivo,nquant]),def_prop(deep,[oggetto,tempo]),def_prop(love,[astratto,emotivo,nquant])])
+lf(Alone Together Lyrics.txt_6,23,cl9-nil-can-weather-[cmod-subord-be-2,obj-causer_emot-unknown-sn9,subj-experiencer-we-sn8,and(unknown,great,sn9),def_prop(unknown,[attivita,informa,luogo]),def_prop(we,[umano])])
+lf(Alone Together Lyrics.txt_6,23,cl8-nil-nil-be-[cmod-subord-weather-for,xcomp-prop-alone-sn13,subj-theme_bound-we-sn12,xcomp-prop-alone-sn11,subj-theme_bound-we-sn10,cmod-subord-weather-if,xcomp-prop-alone-sn7,subj-theme_bound-we-sn6,xcomp-theme-together-sn5,xcomp-theme-together-sn4,xcomp-theme-together-sn3,xcomp-theme-together-sn2,subj-theme_bound-can-sn1,def_prop(alone,[valutativo]),def_prop(we,[umano]),def_prop(alone,[valutativo]),def_prop(we,[umano]),def_prop(alone,[valutativo]),def_prop(we,[umano]),def_prop(together,[evaluative]),def_prop(together,[evaluative]),def_prop(together,[evaluative]),def_prop(together,[evaluative]),def_prop(can,[attivita,body_part,informa,nquant,oggetto,strumento,umano])])
