@@ -7,9 +7,7 @@ from tensorflow.python import keras
 # The neural network model
 from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
 from dataset import get_dataset
-from OneHotEncodingLayer import OneHotEncodingLayer
 from tensorflow.keras import layers
-from tensorflow.python.data import Dataset
 
 
 class Network(tf.keras.Sequential):

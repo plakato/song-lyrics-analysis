@@ -45,12 +45,15 @@ def get_dataset(dir='train', batch_size=32):
     # # Convert to numpy array to create Dataset object.
     # dataset = Dataset.from_tensor_slices((data, labels))
     data_gen = lambda: (d for d in data)
-    label_gen = lambda: (l for l in labels)
+    label_gen = lambda: ([l] for l in labels)
     dataset_data = tf.data.Dataset.from_generator(data_gen, output_types=tf.int32)
     dataset_labels = tf.data.Dataset.from_generator(label_gen, output_types=tf.int32)
     dataset = Dataset.zip((dataset_data, dataset_labels))
+    for elem in dataset_labels:
+        print(elem)
+        break
     # Each batch is padded to the size of the longest element in that batch.
-    dataset_batched = dataset.padded_batch(batch_size, padding_values=0, padded_shapes=([1, max_len], [1]))
+    dataset_batched = dataset.padded_batch(batch_size, padding_values=0, padded_shapes=(max_len, 1))
     # Debug prints:
     print('{0} dataset: {1}'.format(dir, dataset_batched.cardinality()))
     # for element in dataset:
