@@ -7,16 +7,14 @@ from tensorflow.python import keras
 # The neural network model
 from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
 from dataset import get_dataset
-from OneHotEncodingLayer import OneHotEncodingLayer
 from tensorflow.keras import layers
-from tensorflow.python.data import Dataset
 
 
 class Network(tf.keras.Sequential):
     def __init__(self, args):
         super().__init__()
 
-        encoded_input = tf.keras.Input(shape=(1, ), dtype=tf.string, name='text')
+        encoded_input = tf.keras.Input(shape=(102, ), dtype=tf.int32, name='text')
         # Set up preprocessing layer.
         x = layers.Embedding(1000, 5)(encoded_input)
         x = layers.LSTM(args.lstm)(x)
@@ -32,7 +30,9 @@ class Network(tf.keras.Sequential):
         print(self.model.summary())
 
     def train(self, train_ds, val_ds, args):
-        history = self.model.fit(train_ds,
+        features, labels = train_ds
+        print('train labels shape', labels.shape)
+        history = self.model.fit(features, labels,
                                  epochs=args.epochs,
                                  verbose=1,
                                  callbacks=[tf.keras.callbacks.ModelCheckpoint(args.logdir, monitor='val_loss', save_best_only=True, verbose=1), self.tb_callback],

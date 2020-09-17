@@ -26,8 +26,8 @@ def get_dataset(dir='train', batch_size=32):
             max_len = len(data[i])
     print('max len is', max_len)
     # Add padding.
-    # for i in range(len(data)):
-    #     data[i] += [0]*(max_len - len(data[i]))
+    for i in range(len(data)):
+        data[i] += [0]*(max_len - len(data[i]))
     # Add labels.
     labels = [1]*len(data_orig) + [0]*len(data_shuffled)
     # Shuffle.
@@ -35,31 +35,10 @@ def get_dataset(dir='train', batch_size=32):
     random.shuffle(data)
     random.seed(42)
     random.shuffle(labels)
-    # Convert to tensors.
-    # data_tensor = tf.ragged.constant(data)
-    # labels_tensor = tf.ragged.constant(labels)
-    # # Convert to Dataset object.
-    # features_dataset = Dataset.from_tensor_slices(data_tensor)
-    # labels_dataset = Dataset.from_tensor_slices(labels_tensor)
-    # dataset = Dataset.zip((features_dataset, labels_dataset))
-    # # Convert to numpy array to create Dataset object.
-    # dataset = Dataset.from_tensor_slices((data, labels))
-    data_gen = lambda: (d for d in data)
-    label_gen = lambda: (l for l in labels)
-    dataset_data = tf.data.Dataset.from_generator(data_gen, output_types=tf.int32)
-    dataset_labels = tf.data.Dataset.from_generator(label_gen, output_types=tf.int32)
-    dataset = Dataset.zip((dataset_data, dataset_labels))
-    # Each batch is padded to the size of the longest element in that batch.
-    dataset_batched = dataset.padded_batch(batch_size, padding_values=0, padded_shapes=([1, max_len], [1]))
-    # Debug prints:
-    print('{0} dataset: {1}'.format(dir, dataset_batched.cardinality()))
-    # for element in dataset:
-    #   print(element)
-    for text_batch, label_batch in dataset_batched.take(1):
-        for i in range(5):
-            print(text_batch.numpy()[i])
-            print(label_batch.numpy()[i])
-    return dataset
+    # Make batches.
+    batched_data = np.asarray([np.asarray(data[i:i+batch_size]) for i in range(0, len(data), batch_size)])
+    batched_labels = np.asarray([np.asarray(labels[i:i+batch_size]) for i in range(0, len(labels), batch_size)])
+    return batched_data, batched_labels
 
 
 if __name__ == '__main__':

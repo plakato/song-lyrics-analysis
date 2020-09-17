@@ -4,6 +4,7 @@
     <list default="true" id="1b63ffb1-2ce8-4d7c-99a7-09c7c211f71e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/phonetic_lyrics_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/phonetic_lyrics_classifier.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +59,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="959" />
-    <option name="height" value="1039" />
-  </component>
   <component name="ProjectId" id="1hPy6bWFHExlDOcknrGfRovY89b" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -85,7 +82,7 @@
       <recent name="$PROJECT_DIR$/song_data/sparsar_experiments" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dataset (1)">
+  <component name="RunManager" selected="Python.phonetic_lyrics_classifier">
     <configuration name="data (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="diplomka" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,27 +125,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="diplomka" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/dataset.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="generate_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="diplomka" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,6 +138,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/generate_dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="phonetic_lyrics_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="diplomka" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/phonetic_lyrics_classifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.phonetic_lyrics_classifier" />
         <item itemvalue="Python.dataset (1)" />
         <item itemvalue="Python.generate_dataset" />
         <item itemvalue="Python.rhyme_seq_classifier" />
         <item itemvalue="Python.data (1)" />
-        <item itemvalue="Python.dataset" />
       </list>
     </recent_temporary>
   </component>
@@ -228,38 +225,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="statistics with language" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1562" height="380" key="GridCell.Tab.0.bottom" timestamp="1600269423596">
+    <state width="1560" height="258" key="GridCell.Tab.0.bottom" timestamp="1600291643331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1562" height="380" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600269423596" />
-    <state width="1562" height="380" key="GridCell.Tab.0.center" timestamp="1600269423595">
+    <state width="1560" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600291643331" />
+    <state width="1560" height="258" key="GridCell.Tab.0.center" timestamp="1600291643330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1562" height="380" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600269423595" />
-    <state width="1562" height="380" key="GridCell.Tab.0.left" timestamp="1600269423595">
+    <state width="1560" height="258" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600291643330" />
+    <state width="1560" height="258" key="GridCell.Tab.0.left" timestamp="1600291643329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1562" height="380" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600269423595" />
-    <state width="1562" height="380" key="GridCell.Tab.0.right" timestamp="1600269423596">
+    <state width="1560" height="258" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600291643329" />
+    <state width="1560" height="258" key="GridCell.Tab.0.right" timestamp="1600291643331">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1562" height="380" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600269423596" />
-    <state width="1093" height="324" key="GridCell.Tab.1.bottom" timestamp="1600268356503">
+    <state width="1560" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600291643331" />
+    <state width="1091" height="324" key="GridCell.Tab.1.bottom" timestamp="1600291227627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1093" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600268356503" />
-    <state width="1093" height="324" key="GridCell.Tab.1.center" timestamp="1600268356503">
+    <state width="1091" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600291227627" />
+    <state width="1091" height="324" key="GridCell.Tab.1.center" timestamp="1600291227627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1093" height="324" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600268356503" />
-    <state width="1093" height="324" key="GridCell.Tab.1.left" timestamp="1600268356503">
+    <state width="1091" height="324" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600291227627" />
+    <state width="1091" height="324" key="GridCell.Tab.1.left" timestamp="1600291227627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1093" height="324" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600268356503" />
-    <state width="1093" height="324" key="GridCell.Tab.1.right" timestamp="1600268356503">
+    <state width="1091" height="324" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600291227627" />
+    <state width="1091" height="324" key="GridCell.Tab.1.right" timestamp="1600291227627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1093" height="324" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600268356503" />
+    <state width="1091" height="324" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600291227627" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -361,9 +358,9 @@
           <option name="timeStamp" value="210" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset.py</url>
-          <line>58</line>
-          <option name="timeStamp" value="245" />
+          <url>file://$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/phonetic_lyrics_classifier.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="247" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
