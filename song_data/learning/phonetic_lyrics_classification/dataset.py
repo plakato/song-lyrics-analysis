@@ -46,24 +46,44 @@ def get_dataset(dir='train', batch_size=32):
     # dataset = Dataset.from_tensor_slices((data, labels))
     data_gen = lambda: (d for d in data)
     label_gen = lambda: ([l] for l in labels)
-    dataset_data = tf.data.Dataset.from_generator(data_gen, output_types=tf.int32)
-    dataset_labels = tf.data.Dataset.from_generator(label_gen, output_types=tf.int32)
+    dataset_data = tf.data.Dataset.from_generator(data_gen, output_types=tf.int32, output_shapes=tf.TensorShape([None]))
+    dataset_labels = tf.data.Dataset.from_generator(label_gen, output_types=tf.int32, output_shapes=tf.TensorShape([1]))
     dataset = Dataset.zip((dataset_data, dataset_labels))
-    for elem in dataset_labels:
-        print(elem)
-        break
+    # im_dataset = im_dataset.prefetch(4)
+    # print("output data type is ", im_dataset.output_types)
+    # print("output data shape is ", im_dataset.output_shapes)
+    # iterator = im_dataset.make_initializable_iterator()
+    # with tf.Session() as sess:
+    #     sess.run(iterator.initializer)
+    #     a = sess.run(iterator.get_next())
+    # print("shape of the run results are: ")
+    # print(a[0].shape)
+    # print(a[1].shape)
+    # print(a[2].shape)
+    # print(a[3].shape)
+    # for elem, val in dataset:
+    #     print(elem)
+    #     print(val)
+    #     break
     # Each batch is padded to the size of the longest element in that batch.
     dataset_batched = dataset.padded_batch(batch_size, padding_values=0, padded_shapes=(max_len, 1))
     # Debug prints:
     print('{0} dataset: {1}'.format(dir, dataset_batched.cardinality()))
     # for element in dataset:
     #   print(element)
-    for text_batch, label_batch in dataset_batched.take(1):
-        for i in range(5):
-            print(text_batch.numpy()[i])
-            print(label_batch.numpy()[i])
+    # for text_batch, label_batch in dataset_batched.take(1):
+    #     print(text_batch.shape)
+    #     print(label_batch.shape)
+    #     for i in range(5):
+    #         print(text_batch[i])
+    #         print(label_batch[i])
     return dataset
 
+
+def set_shapes(image, label):
+    image.set_shape((300, 300, 3))
+    label.set_shape([])
+    return image, label
 
 if __name__ == '__main__':
     dataset = get_dataset()

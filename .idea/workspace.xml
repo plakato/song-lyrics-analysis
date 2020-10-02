@@ -4,6 +4,11 @@
     <list default="true" id="1b63ffb1-2ce8-4d7c-99a7-09c7c211f71e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset/train/original.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset/train/original.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset/train/shuffled.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset/train/shuffled.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset/val/original.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset/val/original.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset/val/shuffled.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset/val/shuffled.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/generate_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/generate_dataset.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/phonetic_lyrics_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/phonetic_lyrics_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work_diary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/work_diary.txt" afterDir="false" />
     </list>
@@ -196,8 +201,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.phonetic_lyrics_classifier" />
-        <item itemvalue="Python.dataset (1)" />
         <item itemvalue="Python.generate_dataset" />
+        <item itemvalue="Python.dataset (1)" />
         <item itemvalue="Python.rhyme_seq_classifier" />
         <item itemvalue="Python.data (1)" />
       </list>
@@ -230,38 +235,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="statistics with language" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1551" height="252" key="GridCell.Tab.0.bottom" timestamp="1600330469904">
+    <state width="1544" height="456" key="GridCell.Tab.0.bottom" timestamp="1601588801425">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1551" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600330469904" />
-    <state width="1551" height="252" key="GridCell.Tab.0.center" timestamp="1600330469903">
+    <state width="1544" height="456" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601588801425" />
+    <state width="1544" height="456" key="GridCell.Tab.0.center" timestamp="1601588801425">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1551" height="252" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600330469903" />
-    <state width="1551" height="252" key="GridCell.Tab.0.left" timestamp="1600330469902">
+    <state width="1544" height="456" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601588801425" />
+    <state width="1544" height="456" key="GridCell.Tab.0.left" timestamp="1601588801424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1551" height="252" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600330469902" />
-    <state width="1551" height="252" key="GridCell.Tab.0.right" timestamp="1600330469903">
+    <state width="1544" height="456" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601588801424" />
+    <state width="1544" height="456" key="GridCell.Tab.0.right" timestamp="1601588801425">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1551" height="252" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600330469903" />
-    <state width="1635" height="308" key="GridCell.Tab.1.bottom" timestamp="1600330378564">
+    <state width="1544" height="456" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601588801425" />
+    <state width="1631" height="206" key="GridCell.Tab.1.bottom" timestamp="1601114092614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1635" height="308" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600330378564" />
-    <state width="1635" height="308" key="GridCell.Tab.1.center" timestamp="1600330378564">
+    <state width="1631" height="206" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601114092614" />
+    <state width="1631" height="206" key="GridCell.Tab.1.center" timestamp="1601114092614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1635" height="308" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600330378564" />
-    <state width="1635" height="308" key="GridCell.Tab.1.left" timestamp="1600330378563">
+    <state width="1631" height="206" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601114092614" />
+    <state width="1631" height="206" key="GridCell.Tab.1.left" timestamp="1601114092614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1635" height="308" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600330378563" />
-    <state width="1635" height="308" key="GridCell.Tab.1.right" timestamp="1600330378564">
+    <state width="1631" height="206" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601114092614" />
+    <state width="1631" height="206" key="GridCell.Tab.1.right" timestamp="1601114092614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1635" height="308" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600330378564" />
+    <state width="1631" height="206" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601114092614" />
+    <state width="960" height="540" key="XDebugger.FullValuePopup" timestamp="1601112041659">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="960" height="540" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1601112041659" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -364,12 +373,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="245" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset.py</url>
-          <line>55</line>
+          <line>68</line>
           <option name="timeStamp" value="248" />
         </line-breakpoint>
       </breakpoints>

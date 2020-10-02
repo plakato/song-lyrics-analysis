@@ -114,4 +114,4 @@ if __name__ == '__main__':
     data = get_data(dir)
     print_data_statistics(data)
     encode_subwords(data)
-    prepare_data_for_learning(data)
+    # prepare_data_for_learning(data)
