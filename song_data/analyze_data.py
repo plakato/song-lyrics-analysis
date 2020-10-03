@@ -137,18 +137,24 @@ def add_word_count(filename):
     save_dataset(songs, filename)
 
 
-def filter_short(input_file):
+def print_short_and_long(input_file, short=10, long=30000):
     with open(input_file) as file:
         data = json.load(file)
-        corrupted = 0
+        short_count = 0
+        long_count = 0
         total = 0
         for song in data:
-            if len(song['lyrics']) < 10:
-                print(song['lyrics'])
-                corrupted += 1
+            chars = len(''.join(song['lyrics']))
+            if len(song['lyrics']) < short:
+                print("SHORT:", song['lyrics'])
+                short_count += 1
+            elif chars > long:
+                print("LONG:", song['title'], "CHARS:", chars)
+                long_count += 1
             total += 1
-        print('corrupted: ', corrupted)
-        print('total: ', total)
+        print('Shorter than {0} lines: {1}'.format(short, short_count))
+        print('Longer than {0} characters: {1}'.format(long, long_count))
+        print('Total: ', total)
 
 
 def detect_languages(input_file):
@@ -218,7 +224,7 @@ def print_statistics(input_file):
 
 def main():
     # filter_unique('lyrics_cleaned.json', 'lyrics_cleaned_unique.json')
-    # filter_short('data/1000lyrics_cleaned.json')
+    print_short_and_long('data/ENlyrics_cleaned.json')
     # detect_languages('data/100lyrics_cleaned.json')
     # print_statistics('lyrics_cleaned_unique.json')
     # create_clean_dataset('data/lyrics_cleaned_unique.json', 'data/
@@ -226,7 +232,7 @@ def main():
     # remove_noise('data/10000lyrics_cleaned.json')
     # add_word_count('data/lyrics_cleaned.json')
     # graph_verse_count_vs_rhyme_class_count('sparsar_experiments/rhymes/original')
-    test_CRP('sparsar_experiments/rhymes/original')
+    # test_CRP('sparsar_experiments/rhymes/original')
 
 
 if __name__== "__main__":

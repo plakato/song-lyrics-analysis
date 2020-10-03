@@ -419,3 +419,91 @@ TASKS FOR NEXT WEEK
     - skusit aj ine napr. trenovat z koncu versu
 
 - piatok 9:00
+
+- neuci sa, stale uspesnost okolo 50 percent, aj po velmi dlhom behu (25 h) bud to osciluje alebo sa zasekne
+- problem je aj so vstupom, davam phonemy oddelene "/" pretože sparsar generuje viacpismenkove phonemy tak že po spojeni by nebolo jasne, kde jedna konci a druha začína
+- plus používam SubwordTextEncoder ktorý si neznámo prečo sám určuje veľkosť slovníku, aj pri target_vocab_size 2**15 ma vo vysledku len 409 prvkov v slovniku
+- pri debugu to vyzera ze vahy embeddingu sa nemenia
+-------------------------------------------------------------------------------------------------------------------
+2.10.2020
+TASKS FOR NEXT WEEK
+
+- precitat aj nieco co ma navrhnutu trojku
+- (1.1) ucit na origo texte
+    - myslienka: mohlo by to pomoct ze bude mensia velkost vstupu, vyslovnost sa to snad nauci
+    - tokeny zacatek pisnicky, konec verse, konec slohy
+- (1.2) skusit jednoduchsie ulohy 
+    - zobrat dvojversie (origo)  a klasifikovat ci sa rymuje alebo nie
+    - myslienka: nahradi to sparsar, pomoze aj pri generovani generovat rymujuci sa vers
+    - jeden vers len v jednej vystupnej dvojici aby neboli korelovane
+    - pomer 1:1
+    - generovat data behom trenovania, v kazdom batchi z jednej pesnicky jeden pozitivny a jeden negativny
+    - zacat napr. permutaciou prvy vers s kazdym ostatnym
+    - vstup kazdy vers zvlast a potom jednou vrstvou spojit
+- (2) skusit CMU dict - je segmentovatelny (su fonemy rozlisitelne bez oddelovaca)
+- piatok 9:00 (od stredy pripadne po maily)
+
+notes:
+    - medzi anglickymi pesnickami su este stale nejake, ktore nie su uplne cele v anglictine - netreba ich vytriedit, neskodia uceniu?  
+full_lyrics_classifier:
+    - ucenie na celom texte ma vyhodu ze netxreba predspracovanie sparsarom -> ovela viac dat na trenovanie
+    - ako false examples som dala prehadzane riadky ale prazdne riadky (konce sloh) som zachovala na rovnakych poziciach, aby boli "nejak rozumne" a nemohla ich neuronka pouzit na detekciu false ex.
+    - na SubwordTextEncoder som pouzila len true examples - nebolo by na skodu to prepisat aby tam sli true+false? Na druhu stranu uz tak to bezi brutalne dlho...      
+    - vocab_size: 32540
+    - input_len (max_len): 196038
+        - dataset apparently contains book chapters
+        - also rap battle transcripts cca 39000 chars - maybe we want to keep them? because they are good source of rhyme examples...
+        - TODO? - remove them as part of dataset cleaning, might speed up all functions that work with the whole dataset
+        - e.g. https://genius.com/Marcel-proust-m-de-charlus-during-the-warchap-2-lyrics
+        - for now I restricted song length to 30 000 characters for this task (since 3750 chars is A4 I figured that would be plenty)
+        - new vocab size: 32990
+        - new max length: 9506
+        - still it takes 5 minutes to load training dataset
+output from long lyrics analysis (39 songs longer than 30 000 chars):
+    LONG: Hieroglyphics vs. Hobo Junction Freestyle Battle Lyrics CHARS: 37971
+    LONG: Speech to the 2012 Democratic National Convention Lyrics CHARS: 30467
+    LONG: The Book - Chapter 1 Lyrics CHARS: 30050
+    LONG: Letter to Shareholders 2013 Lyrics CHARS: 76561
+    LONG: Cutter Lyrics CHARS: 60172
+    LONG: The Rap Monument Lyrics CHARS: 38491
+    LONG: Noel Gallagher Reddit AMA Lyrics CHARS: 30781
+    LONG: Selected Sermons of Jonathan Edwards (Chap. 7) Lyrics CHARS: 67052
+    LONG: 2015 Zane Lowe BBC Radio Interview Lyrics CHARS: 38050
+    LONG: Iron Solomon vs. Dizaster Lyrics CHARS: 35544
+    LONG: Dizaster vs DNA Lyrics CHARS: 42298
+    LONG: 10 CHARS: 33875
+    LONG: Place-Names CHARS: 103885
+    LONG: Seascape CHARS: 392547
+    LONG: M. de Charlus during the war(Chap. 2) Lyrics CHARS: 271807
+    LONG: Mademoiselle De Forcheville(Chap. 2) Lyrics CHARS: 148789
+    LONG: Life with Albertine(Chap. 1.2) Lyrics CHARS: 269671
+    LONG: Introduction Lyrics CHARS: 73442
+    LONG: Flight of Albertine(Chap. 3) Lyrics CHARS: 199287
+    LONG: Chapter 4 Lyrics CHARS: 43017
+    LONG: Chapter 3 Lyrics CHARS: 306630
+    LONG: Chapter 1 Lyrics CHARS: 334137
+    LONG: An afternoon party(Chap. 3) Lyrics CHARS: 404986
+    LONG: A Fresh Light (Chap. 4) Lyrics CHARS: 87939
+    LONG: Grief And Oblivion (Chap. 1) Lyrics CHARS: 322168
+    LONG: A visit from Albertine (Chapter 2) Lyrics CHARS: 569277
+    LONG: Chapter 2 Lyrics CHARS: 447314
+    LONG: Madame Swann at Home (Chapter 1) Lyrics CHARS: 504156
+    LONG: Names of People (Chapter 1) Lyrics CHARS: 782259
+    LONG: Place-names CHARS: 340877
+    LONG: Charlie Clips vs Arsonal Lyrics CHARS: 32507
+    LONG: Loaded Lux Vs. Hollow Da Don Lyrics CHARS: 32790
+    LONG: Loaded Lux vs Charlie Clips Lyrics CHARS: 30991
+    LONG: Loaded Lux vs Calicoe Lyrics CHARS: 30467
+    LONG: Commissioner v. Duberstein Lyrics CHARS: 36677
+    LONG: Jay Z on The Breakfast Club (Power 105.1) Lyrics CHARS: 51753
+    LONG: Kanye West Interview at The Breakfast Club 22015 Lyrics CHARS: 56438
+    LONG: Remarks at the National Defense University CHARS: 39261
+    LONG: Section Six - Use of Force Lyrics CHARS: 46337
+    Shorter than 10 lines: 7879
+    Shorter than 5 lines: 379
+    Longer than 30000 characters: 39
+    Longer than 20000 characters: 70
+    Longer than 10000 characters: 265
+    Longer than 5000 characters: 1519
+    Total:  436631
+
