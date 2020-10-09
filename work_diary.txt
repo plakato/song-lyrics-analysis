@@ -507,3 +507,11 @@ output from long lyrics analysis (39 songs longer than 30 000 chars):
     Longer than 5000 characters: 1519
     Total:  436631
 
+- two_verses_classifier:
+    - don't use the songs where everything rhymes with everything, because in reality they don't always rhyme - SPARSAR probably assumes they have to...
+
+notes from reading other master theses:
+- use many citations - e.g. cite who discovered the approach used, who used it and proved it is better than the older approach, etc.
+- explain background thoroughly, with examples, if you can, add graphics
+- explain how the parameters that we are tuning affect the network
+- refer to figures in text

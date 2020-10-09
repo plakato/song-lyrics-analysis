@@ -79,11 +79,5 @@ def get_dataset(dir='train', batch_size=32):
     #         print(label_batch[i])
     return dataset
 
-
-def set_shapes(image, label):
-    image.set_shape((300, 300, 3))
-    label.set_shape([])
-    return image, label
-
 if __name__ == '__main__':
     dataset = get_dataset()

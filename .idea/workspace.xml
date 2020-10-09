@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b63ffb1-2ce8-4d7c-99a7-09c7c211f71e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/prepare_dataset.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/full_lyrics_classification/full_lyrics_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/full_lyrics_classification/full_lyrics_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset/train/original.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset/train/original.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset/train/shuffled.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset/train/shuffled.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset/val/original.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset/val/original.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset/val/shuffled.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset/val/shuffled.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/generate_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/generate_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/phonetic_lyrics_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/phonetic_lyrics_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work_diary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/work_diary.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,50 +20,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>schemes</find>
-      <find>Akala</find>
-      <find>&quot;words&quot;: 26}</find>
-      <find>Alan Parson</find>
-      <find>Alan Parsons</find>
-      <find>Interlude 1 Lyrics</find>
-      <find>Breakaway Lyrics</find>
-      <find>Fuckyousceneboy</find>
-      <find>A-</find>
-      <find>&quot;words&quot;: 11</find>
-      <find>value</find>
-      <find>original_songs</find>
-      <find>’</find>
-      <find>repla</find>
-      <find>;</find>
-      <find>json</find>
-      <find>data</find>
-      <find>csv</find>
-      <find>create_cl</find>
-      <find>replace_prohibited_characters</find>
-      <find>11</find>
-      <find>&quot;id&quot;</find>
-      <find>&amp;am</find>
-      <find>get_scheme_letters</find>
-      <find>predic</find>
-      <find>os.l</find>
-      <find>callba</find>
-      <find>call</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>scheme</replace>
-      <replace>values</replace>
-      <replace>songs</replace>
-      <replace>pixels</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="959" />
-    <option name="height" value="1039" />
   </component>
   <component name="ProjectId" id="1hPy6bWFHExlDOcknrGfRovY89b" />
   <component name="ProjectViewState">
@@ -76,24 +30,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/song_data/sparsar_experiments" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/song_data/learning" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/song_data/sparsar_experiments" />
-      <recent name="$PROJECT_DIR$/song_data/data/shuffled_lyrics" />
-      <recent name="$PROJECT_DIR$/song_data/data/miniset_for_lyrics_cleaning/manually_cleaned" />
-      <recent name="$PROJECT_DIR$/song_data" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/song_data/learning" />
       <recent name="$PROJECT_DIR$/song_data" />
       <recent name="$PROJECT_DIR$/song_data/sparsar_experiments" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/song_data/learning" />
+      <recent name="$PROJECT_DIR$/song_data/sparsar_experiments" />
+      <recent name="$PROJECT_DIR$/song_data/data/shuffled_lyrics" />
+      <recent name="$PROJECT_DIR$/song_data/data/miniset_for_lyrics_cleaning/manually_cleaned" />
+      <recent name="$PROJECT_DIR$/song_data" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.phonetic_lyrics_classifier">
-    <configuration name="data (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.two_lines_rhyme_classifier">
+    <configuration name="analyze_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diplomka" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,11 +56,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/generate_dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/analyze_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +69,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dataset (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dataset_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diplomka" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,11 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset_generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generate_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="full_lyrics_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diplomka" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/learning/full_lyrics_classification" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/generate_dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/full_lyrics_classification/full_lyrics_classifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="phonetic_lyrics_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="prepare_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diplomka" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/phonetic_lyrics_classifier.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/prepare_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rhyme_seq_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="two_lines_rhyme_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diplomka" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/rhyme_seq_classification/rhyme_seq_classifier.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/two_lines_rhyme_classifier.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.phonetic_lyrics_classifier" />
-        <item itemvalue="Python.generate_dataset" />
-        <item itemvalue="Python.dataset (1)" />
-        <item itemvalue="Python.rhyme_seq_classifier" />
-        <item itemvalue="Python.data (1)" />
+        <item itemvalue="Python.two_lines_rhyme_classifier" />
+        <item itemvalue="Python.full_lyrics_classifier" />
+        <item itemvalue="Python.dataset_generator" />
+        <item itemvalue="Python.prepare_dataset" />
+        <item itemvalue="Python.analyze_data" />
       </list>
     </recent_temporary>
   </component>
@@ -235,42 +190,62 @@
     <option name="LAST_COMMIT_MESSAGE" value="statistics with language" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1544" height="456" key="GridCell.Tab.0.bottom" timestamp="1601588801425">
+    <state width="1630" height="249" key="GridCell.Tab.-1.bottom" timestamp="1601726911884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1544" height="456" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601588801425" />
-    <state width="1544" height="456" key="GridCell.Tab.0.center" timestamp="1601588801425">
+    <state width="1630" height="249" key="GridCell.Tab.-1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601726911884" />
+    <state width="1630" height="249" key="GridCell.Tab.-1.center" timestamp="1601726911882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1544" height="456" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601588801425" />
-    <state width="1544" height="456" key="GridCell.Tab.0.left" timestamp="1601588801424">
+    <state width="1630" height="249" key="GridCell.Tab.-1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601726911882" />
+    <state width="1630" height="249" key="GridCell.Tab.-1.left" timestamp="1601726911882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1544" height="456" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601588801424" />
-    <state width="1544" height="456" key="GridCell.Tab.0.right" timestamp="1601588801425">
+    <state width="1630" height="249" key="GridCell.Tab.-1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601726911882" />
+    <state width="1630" height="249" key="GridCell.Tab.-1.right" timestamp="1601726911882">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1544" height="456" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601588801425" />
-    <state width="1631" height="206" key="GridCell.Tab.1.bottom" timestamp="1601114092614">
+    <state width="1630" height="249" key="GridCell.Tab.-1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601726911882" />
+    <state width="1895" height="283" key="GridCell.Tab.0.bottom" timestamp="1602258988015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1631" height="206" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601114092614" />
-    <state width="1631" height="206" key="GridCell.Tab.1.center" timestamp="1601114092614">
+    <state width="1895" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602258988015" />
+    <state width="1895" height="283" key="GridCell.Tab.0.center" timestamp="1602258988015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1631" height="206" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601114092614" />
-    <state width="1631" height="206" key="GridCell.Tab.1.left" timestamp="1601114092614">
+    <state width="1895" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602258988015" />
+    <state width="1895" height="283" key="GridCell.Tab.0.left" timestamp="1602258988014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1631" height="206" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601114092614" />
-    <state width="1631" height="206" key="GridCell.Tab.1.right" timestamp="1601114092614">
+    <state width="1895" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602258988014" />
+    <state width="1895" height="283" key="GridCell.Tab.0.right" timestamp="1602258988015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1631" height="206" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601114092614" />
-    <state width="960" height="540" key="XDebugger.FullValuePopup" timestamp="1601112041659">
+    <state width="1895" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602258988015" />
+    <state width="1895" height="345" key="GridCell.Tab.1.bottom" timestamp="1602194164361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="960" height="540" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1601112041659" />
+    <state width="1895" height="345" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602194164361" />
+    <state width="1895" height="345" key="GridCell.Tab.1.center" timestamp="1602194164360">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1895" height="345" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602194164360" />
+    <state width="1895" height="345" key="GridCell.Tab.1.left" timestamp="1602194164360">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1895" height="345" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602194164360" />
+    <state width="1895" height="345" key="GridCell.Tab.1.right" timestamp="1602194164360">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1895" height="345" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602194164360" />
+    <state x="441" y="154" width="1037" height="732" key="SettingsEditor" timestamp="1602258657225">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="441" y="154" width="1037" height="732" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602258657225" />
+    <state width="960" height="540" key="XDebugger.FullValuePopup" timestamp="1601933721457">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="960" height="540" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1601933721457" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -376,6 +351,26 @@
           <line>68</line>
           <option name="timeStamp" value="248" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/song_data/learning/full_lyrics_classification/dataset.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/prepare_dataset.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset_generator.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset_generator.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -393,83 +388,5 @@
         <watch expression="text_batch.numpy()" language="Python" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="breakpointCondition">
-      <expression>
-        <expression-string>inputfile == 'sparsar_experiments/outs/\'On Site Lyrics.txt\'_phon.xml'</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>inputfile ==</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>inputfile == 'sparsar_experiments/outs/\'On Site Lyrics.txt'</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>inputfile == ''</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="watch">
-      <expression>
-        <expression-string>text_batch.numpy()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>label_batch.numpy()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>scheme.values()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>list(scheme)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>all_images.shape</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>scheme</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>print(raw_train_ds.take(1))</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>raw_train_ds.take(1)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>print(text_ds)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>print(raw_train_ds)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>

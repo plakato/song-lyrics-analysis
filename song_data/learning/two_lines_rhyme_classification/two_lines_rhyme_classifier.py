@@ -7,7 +7,7 @@ from tensorflow.python import keras
 
 # The neural network model
 from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
-from dataset import get_dataset
+from dataset_generator import DataGenerator
 from tensorflow.keras import layers
 
 
@@ -15,14 +15,17 @@ class Network(tf.keras.Sequential):
     def __init__(self, args):
         super().__init__()
 
-        encoded_input = tf.keras.Input(shape=(None,), dtype=tf.int32, name='lyrics')
+        first_verse = tf.keras.Input(shape=(None,), dtype=tf.int32, name='first')
+        second_verse = tf.keras.Input(shape=(None,), dtype=tf.int32, name='second')
         # Set up preprocessing layer.
-        x = layers.Embedding(args.vocab_size, 32)(encoded_input)
-        x = layers.LSTM(args.lstm, return_sequences=True)(x)
+        first_embedded = layers.Embedding(args.vocab_size, 32)(first_verse)
+        second_embedded = layers.Embedding(args.vocab_size, 32)(second_verse)
+        concats = tf.keras.layers.concatenate([first_embedded, second_embedded])
+        x = layers.LSTM(args.lstm, return_sequences=True)(concats)
         # x = layers.Dropout(args.dropout)(x)
         predictions = layers.Dense(1, activation='sigmoid')(x)
 
-        self.model = tf.keras.Model(encoded_input, predictions)
+        self.model = tf.keras.Model([first_verse, second_verse], predictions)
         adam = tf.keras.optimizers.Adam(lr=args.lr)
         self.model.compile(loss='binary_crossentropy', optimizer=adam, metrics=['accuracy'])
 
@@ -43,15 +46,15 @@ class Network(tf.keras.Sequential):
                                             self.tb_callback,
                                             print_weights],
                                  validation_data=val_ds)
-        print('Loss history:', history.history['loss'])
-        print('Accuracy history:', history.history['accuracy'])
+        print(history.history['loss'])
+        print(history.history['accuracy'])
         return history
 
     def print_logs(self):
-        print('Layer 2 weights:', self.model.layers[1].get_weights())
-        print('Layer 3 weights:', self.model.layers[2].get_weights())
-        print('Input:', self.model.input)
-        print('Output:', self.model.output)
+        print(self.model.layers[1].get_weights())
+        print(self.model.layers[2].get_weights())
+        print(self.model.input)
+        print(self.model.output)
 
     def plot(self, history):
         pyplot.plot(history.history['loss'])
@@ -76,11 +79,11 @@ if __name__ == "__main__":
     parser.add_argument("--batch_size", default=32
                         , type=int, help="Batch size.")
     parser.add_argument("--epochs", default=10, type=int, help="Number of epochs.")
-    parser.add_argument("--dropout", default=0, type=float, help="Dropout rate, LSTM layer.")
-    parser.add_argument("--lstm", default=15, type=int, help="Neurons in LSTM layer.")
+    parser.add_argument("--dropout", default=0.2, type=float, help="Dropout rate, LSTM layer.")
+    parser.add_argument("--lstm", default=100, type=int, help="Neurons in LSTM layer.")
     parser.add_argument("--lr", default=0.01, type=float, help="Learning rate for the optimizer.")
-    parser.add_argument("--vocab_size", default=32991, type=int, help="Size of vocabulary of SubwordTextEncoder used on input.")
     parser.add_argument("--threads", default=2, type=int, help="Maximum number of threads to use.")
+    parser.add_argument("--vocab_size", default=35688, type=int, help="Size of vocabulary of SubwordTextEncoder used on input + 1.")
     args = parser.parse_args()
 
     # Fix random seeds
@@ -96,8 +99,8 @@ if __name__ == "__main__":
         ",".join(("{}={}".format(re.sub("(.)[^_]*_?", r"\1", key), value) for key, value in sorted(vars(args).items())))
     ))
 
-    train_ds = get_dataset(dir='train', batch_size=args.batch_size)
-    val_ds = get_dataset(dir='val', batch_size=args.batch_size)
+    train_ds = DataGenerator('dataset/train', batch_size=args.batch_size)
+    val_ds = DataGenerator('dataset/val', batch_size=args.batch_size)
     # Create the network and train.
     network = Network(args)
     history = network.train(train_ds, val_ds, args)
