@@ -511,7 +511,22 @@ output from long lyrics analysis (39 songs longer than 30 000 chars):
     - don't use the songs where everything rhymes with everything, because in reality they don't always rhyme - SPARSAR probably assumes they have to...
 
 notes from reading other master theses:
-- use many citations - e.g. cite who discovered the approach used, who used it and proved it is better than the older approach, etc.
-- explain background thoroughly, with examples, if you can, add graphics
-- explain how the parameters that we are tuning affect the network
-- refer to figures in text
+https://dspace.cuni.cz/bitstream/handle/20.500.11956/107286/120331203.pdf?sequence=1&isAllowed=y 
+    (ohodnotena cenou dekana)
+    - use many citations - e.g. cite who discovered the approach used, who used it and proved it is better than the older approach, etc.
+    - explain background thoroughly, with examples, if you can, add graphics (aj napr. popis neuronky + obrazok ukazkovej zakladnej neuronky)
+    - explain how the parameters that we are tuning affect the network (ten a ten parameter tam je preto aby...ak je zle nastaveny problem je...)
+    - refer to figures in text
+    - hodne na seba kapitoly nadvazuju, vela viet popisujucich strukturu diplomky (doteraz sme riesili iba toto, teraz ale prejdeme na pripady ked...)
+    - popisovat motivaciu za vsetkym
+    - na zaciatku velkej kapitoly kratky odstavec k tomu co vsetko dana kapitola obsahuje
+
+-------------------------------------------------------------------------------------------------------------------
+9.10.2020
+TASKS FOR NEXT WEEK
+
+- prehnat rozpoznavacom jazykov po versoch
+- zahodit tak cca percento dlhych lyrics - nakreslit si histogram (do diplomky)
+- https://packaging.python.org/tutorials/packaging-projects/ precitat a podla toho fixnut svoj projekt nech je lahko nainstalovatelny symlinkom (pip install -e .)?
+- udpate python to 3.7.7.
+- stvrtok 9:00

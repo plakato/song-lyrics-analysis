@@ -7,7 +7,7 @@ import tensorflow as tf
 
 
 class DataGenerator(Sequence):
-    def __init__(self, dataset_path, batch_size=16):
+    def __init__(self, dataset_path, batch_size=1):
         'Initialization'
         self.batch_size = batch_size
         self.dataset_path = dataset_path
@@ -28,7 +28,9 @@ class DataGenerator(Sequence):
         first_verses = [first for first, _, _ in self.dataset[idxs]]
         second_verses = [second for _, second, _ in self.dataset[idxs]]
         y = [y for _, _, y in self.dataset[idxs]]
-        return [first_verses, second_verses],[y]
+        batch = {"first": first_verses,  "second": second_verses}, [y]
+        print('Batch:', batch)
+        return batch
 
     def load_epoch(self, filename, pointer, label):
         encoder = tfds.features.text.SubwordTextEncoder.load_from_file('vocab')
@@ -43,8 +45,7 @@ class DataGenerator(Sequence):
                 second_verse = encoder.encode(second_verse.strip())
                 pairs.append([tf.convert_to_tensor(first_verse, dtype=tf.int32),
                               tf.convert_to_tensor(second_verse, dtype=tf.int32),
-                              tf.convert_to_tensor([label], dtype=tf.int32)])
-                # pairs.append([first_verse, second_verse, label])
+                              tf.convert_to_tensor(label, dtype=tf.int32)])
                 first_verse = rhyming_file.readline()
             new_pointer = rhyming_file.tell()
         return pairs, new_pointer
@@ -62,4 +63,5 @@ if __name__ == '__main__':
     gen = DataGenerator('dataset/train')
     batch = gen.__getitem__(0)
     print("f,s,y:", batch)
+
 

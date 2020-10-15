@@ -6,6 +6,7 @@ import numpy as np
 import matplotlib.pyplot as mpl
 from collections import Counter
 import pandas as pd
+import matplotlib.pyplot as plt
 
 
 # Test if the data can be modeled using Chinese restaurant process.
@@ -137,6 +138,56 @@ def add_word_count(filename):
     save_dataset(songs, filename)
 
 
+def create_histogram_for_length(input_file):
+    songs_char_len = []
+    songs_words = []
+    songs_lines = []
+    # Generate data.
+    with open(input_file) as file:
+        data = json.load(file)
+    for song in data:
+        one_string = ' '.join(song['lyrics'])
+        songs_char_len.append(len(one_string))
+        songs_words.append(len(one_string.split(' ')))
+        songs_lines.append(len(song['lyrics']))
+    # Draw graph for length in characters.
+    bins = np.geomspace(1, max(songs_char_len), num=200)
+    plt.hist(x=songs_char_len, bins=bins, color='#abd7eb') #0504aa
+    plt.yscale('log')
+    plt.xscale('log')
+    plt.axvline(x=65, color='red')
+    plt.axvline(x=120000, color='red')
+    plt.xlabel('Length in characters')
+    plt.ylabel('No. of songs with given length')
+    plt.title('Histogram of length in characters')
+    plt.savefig('graphs/histogram_song_length_in_char.png')
+    plt.show()
+    # Draw graph for length in characters.
+    bins = np.geomspace(1, max(songs_words), num=200)
+    plt.hist(x=songs_words, bins=bins, color='#abd7eb')  # 0504aa
+    plt.yscale('log')
+    plt.xscale('log')
+    plt.axvline(x=10, color='red')
+    plt.axvline(x=21000, color='red')
+    plt.xlabel('Length in words')
+    plt.ylabel('No. of songs with given length')
+    plt.title('Histogram of length in words')
+    plt.savefig('graphs/histogram_song_length_in_words.png')
+    plt.show()
+    # Draw graph for length in lines.
+    bins = np.geomspace(1, max(songs_lines), num=200)
+    plt.hist(x=songs_lines, bins=bins, color='#abd7eb')  # 0504aa
+    plt.yscale('log')
+    plt.xscale('log')
+    plt.axvline(x=2.5, color='red')
+    plt.axvline(x=2000, color='red')
+    plt.xlabel('Length in lines')
+    plt.ylabel('No. of songs with given length')
+    plt.title('Histogram of length in lines')
+    plt.savefig('graphs/histogram_song_length_in_lines.png')
+    plt.show()
+
+
 def print_short_and_long(input_file, short=10, long=30000):
     with open(input_file) as file:
         data = json.load(file)
@@ -224,7 +275,8 @@ def print_statistics(input_file):
 
 def main():
     # filter_unique('lyrics_cleaned.json', 'lyrics_cleaned_unique.json')
-    print_short_and_long('data/ENlyrics_cleaned.json')
+    # print_short_and_long('data/ENlyrics_cleaned.json')
+    create_histogram_for_length('data/ENlyrics_cleaned.json')
     # detect_languages('data/100lyrics_cleaned.json')
     # print_statistics('lyrics_cleaned_unique.json')
     # create_clean_dataset('data/lyrics_cleaned_unique.json', 'data/

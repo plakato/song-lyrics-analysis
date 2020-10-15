@@ -60,8 +60,8 @@ class Network(tf.keras.Sequential):
         pyplot.ylabel('loss')
         pyplot.xlabel('epoch')
         pyplot.legend(['train', 'validation'], loc='upper right')
-        pyplot.show()
         pyplot.savefig(args.logdir + '/loss.png')
+        pyplot.show()
 
 
 if __name__ == "__main__":

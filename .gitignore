@@ -1,10 +1,12 @@
 venv/*
 .vscode/
 logs/
-.idea/
+.idea/*
 *.zip
 song_data/data/*
 __pycache__/*
 .~lock.*
 *.pyc
 song_data/learning/full_lyrics_classification/dataset/
+dist/*
+*.egg-info*

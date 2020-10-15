@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b63ffb1-2ce8-4d7c-99a7-09c7c211f71e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/prepare_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/diplomka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/diplomka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/analyze_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/analyze_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/song_data/learning/full_lyrics_classification/full_lyrics_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/full_lyrics_classification/full_lyrics_classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/phonetic_lyrics_classification/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/two_lines_rhyme_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/two_lines_rhyme_classifier.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work_diary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/work_diary.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,10 +160,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.two_lines_rhyme_classifier" />
-        <item itemvalue="Python.full_lyrics_classifier" />
-        <item itemvalue="Python.dataset_generator" />
-        <item itemvalue="Python.prepare_dataset" />
         <item itemvalue="Python.analyze_data" />
+        <item itemvalue="Python.dataset_generator" />
+        <item itemvalue="Python.full_lyrics_classifier" />
+        <item itemvalue="Python.prepare_dataset" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +194,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="statistics with language" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="496" height="540" key="DebuggerActiveHint" timestamp="1602619745528">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="496" height="540" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1602619745528" />
+    <state x="766" y="379" width="424" height="486" key="FileChooserDialogImpl" timestamp="1602318844795">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="766" y="379" width="424" height="486" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602318844795" />
     <state width="1630" height="249" key="GridCell.Tab.-1.bottom" timestamp="1601726911884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -206,42 +218,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1630" height="249" key="GridCell.Tab.-1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601726911882" />
-    <state width="1895" height="283" key="GridCell.Tab.0.bottom" timestamp="1602258988015">
+    <state width="1895" height="163" key="GridCell.Tab.0.bottom" timestamp="1602671164294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602258988015" />
-    <state width="1895" height="283" key="GridCell.Tab.0.center" timestamp="1602258988015">
+    <state width="1895" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602671164294" />
+    <state width="1895" height="163" key="GridCell.Tab.0.center" timestamp="1602671164293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602258988015" />
-    <state width="1895" height="283" key="GridCell.Tab.0.left" timestamp="1602258988014">
+    <state width="1895" height="163" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602671164293" />
+    <state width="1895" height="163" key="GridCell.Tab.0.left" timestamp="1602671164293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602258988014" />
-    <state width="1895" height="283" key="GridCell.Tab.0.right" timestamp="1602258988015">
+    <state width="1895" height="163" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602671164293" />
+    <state width="1895" height="163" key="GridCell.Tab.0.right" timestamp="1602671164294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602258988015" />
-    <state width="1895" height="345" key="GridCell.Tab.1.bottom" timestamp="1602194164361">
+    <state width="1895" height="163" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602671164294" />
+    <state width="1895" height="286" key="GridCell.Tab.1.bottom" timestamp="1602620238447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="345" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602194164361" />
-    <state width="1895" height="345" key="GridCell.Tab.1.center" timestamp="1602194164360">
+    <state width="1895" height="286" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602620238447" />
+    <state width="1895" height="286" key="GridCell.Tab.1.center" timestamp="1602620238447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="345" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602194164360" />
-    <state width="1895" height="345" key="GridCell.Tab.1.left" timestamp="1602194164360">
+    <state width="1895" height="286" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602620238447" />
+    <state width="1895" height="286" key="GridCell.Tab.1.left" timestamp="1602620238446">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="345" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602194164360" />
-    <state width="1895" height="345" key="GridCell.Tab.1.right" timestamp="1602194164360">
+    <state width="1895" height="286" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602620238446" />
+    <state width="1895" height="286" key="GridCell.Tab.1.right" timestamp="1602620238447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="345" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602194164360" />
-    <state x="441" y="154" width="1037" height="732" key="SettingsEditor" timestamp="1602258657225">
+    <state width="1895" height="286" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602620238447" />
+    <state x="475" y="253" width="1037" height="732" key="SettingsEditor" timestamp="1602618662892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="441" y="154" width="1037" height="732" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602258657225" />
+    <state x="475" y="253" width="1037" height="732" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602618662892" />
     <state width="960" height="540" key="XDebugger.FullValuePopup" timestamp="1601933721457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -267,7 +279,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/song_data/analyze_data.py</url>
-          <line>131</line>
+          <line>132</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -318,7 +330,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/song_data/analyze_data.py</url>
-          <line>30</line>
+          <line>31</line>
           <option name="timeStamp" value="153" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -328,12 +340,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/song_data/analyze_data.py</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="165" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/song_data/analyze_data.py</url>
-          <line>28</line>
+          <line>29</line>
           <option name="timeStamp" value="166" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -360,16 +372,6 @@
           <url>file://$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/prepare_dataset.py</url>
           <line>83</line>
           <option name="timeStamp" value="274" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset_generator.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="275" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset_generator.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="276" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

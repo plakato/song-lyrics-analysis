@@ -7,7 +7,7 @@ from tensorflow.python import keras
 
 # The neural network model
 from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
-from dataset_generator import DataGenerator
+from song_data.learning.two_lines_rhyme_classification.dataset_generator import DataGenerator
 from tensorflow.keras import layers
 
 
@@ -76,7 +76,7 @@ if __name__ == "__main__":
 
     # Parse arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument("--batch_size", default=32
+    parser.add_argument("--batch_size", default=1
                         , type=int, help="Batch size.")
     parser.add_argument("--epochs", default=10, type=int, help="Number of epochs.")
     parser.add_argument("--dropout", default=0.2, type=float, help="Dropout rate, LSTM layer.")
