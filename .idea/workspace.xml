@@ -7,9 +7,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/song_data/analyze_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/analyze_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/learning/full_lyrics_classification/full_lyrics_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/full_lyrics_classification/full_lyrics_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset/train/not_rhyming.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset/train/not_rhyming.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset/train/rhyming.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset/train/rhyming.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset/val/not_rhyming.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset/val/not_rhyming.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset/val/rhyming.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset/val/rhyming.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/prepare_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/prepare_dataset.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/two_lines_rhyme_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/two_lines_rhyme_classifier.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/vocab.subwords" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/vocab.subwords" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work_diary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/work_diary.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +39,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/song_data/learning" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv3.7" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -160,10 +165,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.two_lines_rhyme_classifier" />
+        <item itemvalue="Python.prepare_dataset" />
         <item itemvalue="Python.analyze_data" />
         <item itemvalue="Python.dataset_generator" />
         <item itemvalue="Python.full_lyrics_classifier" />
-        <item itemvalue="Python.prepare_dataset" />
       </list>
     </recent_temporary>
   </component>
@@ -194,14 +199,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="statistics with language" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="496" height="540" key="DebuggerActiveHint" timestamp="1602619745528">
+    <state x="589" y="200" width="732" height="640" key="#Inspections" timestamp="1603123518707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="496" height="540" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1602619745528" />
-    <state x="766" y="379" width="424" height="486" key="FileChooserDialogImpl" timestamp="1602318844795">
+    <state x="589" y="200" width="732" height="640" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1603123518707" />
+    <state width="1050" height="540" key="DebuggerActiveHint" timestamp="1603553356368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="766" y="379" width="424" height="486" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602318844795" />
+    <state width="1050" height="540" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1603553356368" />
+    <state x="766" y="379" width="424" height="486" key="FileChooserDialogImpl" timestamp="1602746154534">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="766" y="379" width="424" height="486" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602746154534" />
     <state width="1630" height="249" key="GridCell.Tab.-1.bottom" timestamp="1601726911884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -218,46 +227,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1630" height="249" key="GridCell.Tab.-1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601726911882" />
-    <state width="1895" height="163" key="GridCell.Tab.0.bottom" timestamp="1602671164294">
+    <state width="1895" height="379" key="GridCell.Tab.0.bottom" timestamp="1604418607743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="163" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602671164294" />
-    <state width="1895" height="163" key="GridCell.Tab.0.center" timestamp="1602671164293">
+    <state width="1895" height="379" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604418607743" />
+    <state width="1895" height="379" key="GridCell.Tab.0.center" timestamp="1604418607742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="163" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602671164293" />
-    <state width="1895" height="163" key="GridCell.Tab.0.left" timestamp="1602671164293">
+    <state width="1895" height="379" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604418607742" />
+    <state width="1895" height="379" key="GridCell.Tab.0.left" timestamp="1604418607742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="163" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602671164293" />
-    <state width="1895" height="163" key="GridCell.Tab.0.right" timestamp="1602671164294">
+    <state width="1895" height="379" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604418607742" />
+    <state width="1895" height="379" key="GridCell.Tab.0.right" timestamp="1604418607743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="163" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602671164294" />
-    <state width="1895" height="286" key="GridCell.Tab.1.bottom" timestamp="1602620238447">
+    <state width="1895" height="379" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604418607743" />
+    <state width="1895" height="128" key="GridCell.Tab.1.bottom" timestamp="1604152795648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="286" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602620238447" />
-    <state width="1895" height="286" key="GridCell.Tab.1.center" timestamp="1602620238447">
+    <state width="1895" height="128" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604152795648" />
+    <state width="1895" height="128" key="GridCell.Tab.1.center" timestamp="1604152795647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="286" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602620238447" />
-    <state width="1895" height="286" key="GridCell.Tab.1.left" timestamp="1602620238446">
+    <state width="1895" height="128" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604152795647" />
+    <state width="1895" height="128" key="GridCell.Tab.1.left" timestamp="1604152795647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="286" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602620238446" />
-    <state width="1895" height="286" key="GridCell.Tab.1.right" timestamp="1602620238447">
+    <state width="1895" height="128" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604152795647" />
+    <state width="1895" height="128" key="GridCell.Tab.1.right" timestamp="1604152795648">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="286" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602620238447" />
-    <state x="475" y="253" width="1037" height="732" key="SettingsEditor" timestamp="1602618662892">
+    <state width="1895" height="128" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604152795648" />
+    <state x="475" y="253" width="1037" height="732" key="SettingsEditor" timestamp="1603123560079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="475" y="253" width="1037" height="732" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602618662892" />
+    <state x="475" y="253" width="1037" height="732" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603123560079" />
     <state width="960" height="540" key="XDebugger.FullValuePopup" timestamp="1601933721457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="960" height="540" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1601933721457" />
+    <state x="632" y="194" width="646" height="651" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603553869419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="632" y="194" width="646" height="651" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603553869419" />
+    <state x="0" y="0" width="1529" height="563" key="dock-window-1" timestamp="1603548072356">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="1529" height="563" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1603548072356" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -369,9 +386,9 @@
           <option name="timeStamp" value="262" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/prepare_dataset.py</url>
-          <line>83</line>
-          <option name="timeStamp" value="274" />
+          <url>file://$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset_generator.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="278" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

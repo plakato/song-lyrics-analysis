@@ -152,7 +152,7 @@ def create_histogram_for_length(input_file):
         songs_lines.append(len(song['lyrics']))
     # Draw graph for length in characters.
     bins = np.geomspace(1, max(songs_char_len), num=200)
-    plt.hist(x=songs_char_len, bins=bins, color='#abd7eb') #0504aa
+    plt.hist(x=songs_char_len, bins=bins, color='#abd7eb')
     plt.yscale('log')
     plt.xscale('log')
     plt.axvline(x=65, color='red')

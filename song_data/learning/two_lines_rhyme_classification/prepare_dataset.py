@@ -64,15 +64,29 @@ def get_verse_pairs(lyrics, rhyme_classes, count, rhyming):
 
 def encode_subwords(data, vocab_filename='vocab'):
     # Convert each array to one string.
-    gen = (' '.join([item for touple in song for item in touple]) for song in data)
-    encoder = tfds.features.text.SubwordTextEncoder.build_from_corpus(gen, target_vocab_size=2 ** 15)
+    gen = (' '.join([item for tuple in song for item in tuple]) for song in data)
+    encoder = tfds.deprecated.text.SubwordTextEncoder.build_from_corpus(gen, target_vocab_size=2 ** 15)
     encoder.save_to_file(vocab_filename)
 
 
-def prepare_data_for_learning(data, label, test=3):
+def prepare_data_for_learning(data, label, val=0.3):
+    # Calculate border index between training and validation data.
+    train_idx = int((1-val)*len(data))
+    train_songs = data[:train_idx]
+    val_songs = data[train_idx:]
+    train_shuffled = create_epoch_sets(train_songs)
+    val_shuffled = create_epoch_sets(val_songs)
+    # Save.
+    Path("dataset/train").mkdir(parents=True, exist_ok=True)
+    Path("dataset/val").mkdir(parents=True, exist_ok=True)
+    write_to_file(train_shuffled, 'dataset/train/' + label + '.txt')
+    write_to_file(val_shuffled, 'dataset/val/' + label + '.txt')
+
+
+def create_epoch_sets(data):
     total_count = len(data)
     song_count = len(data[0])
-    # Reorganize to sets. Each set contains only one verse couple from each song. Shuffle.
+    # Reorganize to epoch sets. Each set contains only one verse couple from each song. Shuffle.
     data_shuffled = []
     for j in range(song_count):
         column = []
@@ -80,14 +94,7 @@ def prepare_data_for_learning(data, label, test=3):
             column.append(data[i][j])
         random.shuffle(column)
         data_shuffled.append(column)
-    # Save.
-    train = song_count - test
-    Path("dataset/train").mkdir(parents=True, exist_ok=True)
-    Path("dataset/val").mkdir(parents=True, exist_ok=True)
-    # Validation doesn't have epochs so let's flatten the data as one epoch.
-    val_data = [list(itertools.chain.from_iterable(data_shuffled[train:]))]
-    write_to_file(data_shuffled[:train], 'dataset/train/' + label + '.txt')
-    write_to_file(val_data, 'dataset/val/' + label + '.txt')
+    return data_shuffled
 
 
 def write_to_file(data, filename):
@@ -100,10 +107,10 @@ def write_to_file(data, filename):
 
 
 if __name__ == '__main__':
-    # pairs = get_verse_pairs(['nie','ci','ano', 'vrie','ti', 'voda'],['a', 'b', 'c', 'a', 'b','d'], 2, True)
     dir='../../sparsar_experiments/rhymes/original'
-    count = 10
+    # Add +1 to number of epochs because there is always one more evaluation of validation data at the beginning.
+    count = 51
     rhyming, not_rhyming = get_data(dir, count)
     encode_subwords(rhyming+not_rhyming)
-    prepare_data_for_learning(rhyming, label='rhyming', test=3)
-    prepare_data_for_learning(not_rhyming, label='not_rhyming', test=3)
+    prepare_data_for_learning(rhyming, label='rhyming', val=0.3)
+    prepare_data_for_learning(not_rhyming, label='not_rhyming', val=0.3)

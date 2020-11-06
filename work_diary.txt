@@ -1,6 +1,14 @@
 RESOURCES
 - https://towardsdatascience.com/implementing-a-fully-convolutional-network-fcn-in-tensorflow-2-3c46fb61de3b
 - https://www.guru99.com/tensor-tensorflow.html
+
+
+RELATED WORK
+    - https://www.freecodecamp.org/news/building-a-twitter-lyric-bot-12468255a4ee/
+        - https://github.com/ShawnToubeau/lyric-bot 
+    - https://www.song-lyrics-generator.org.uk/
+        - you have to fill in many words and it just uses them in (I guess) prepared draft
+
 MEETING THE DATA
 - "crowd-sourced lyrics data"
     PROBLEMS
@@ -87,10 +95,6 @@ SPARSAR
     - took way too much time to debug
         - still won't be able to run for all songs (many english contractions like 'em missing)
         - probably only run once because of how long it takes
-
-RELATED WORK
-    - https://www.freecodecamp.org/news/building-a-twitter-lyric-bot-12468255a4ee/
-        - https://github.com/ShawnToubeau/lyric-bot 
 
 TASKS FOR NEXT WEEK
 - write email with lyrics that rhymes don't match - mistake or some unfulfilled presumption about lyrics
@@ -520,6 +524,32 @@ https://dspace.cuni.cz/bitstream/handle/20.500.11956/107286/120331203.pdf?sequen
     - hodne na seba kapitoly nadvazuju, vela viet popisujucich strukturu diplomky (doteraz sme riesili iba toto, teraz ale prejdeme na pripady ked...)
     - popisovat motivaciu za vsetkym
     - na zaciatku velkej kapitoly kratky odstavec k tomu co vsetko dana kapitola obsahuje
+    - v nadpisoch kazde slovo velkym
+    - link na github pouziteho projektu cez poznamku pod ciarou
+    - it's ok to express hopes and expectations from experiments
+https://is.cuni.cz/webapps/zzp/detail/222230/48517737/?q=%7B%22______searchform___search%22%3A%22informatika+nlp+3%22%2C%22______searchform___butsearch%22%3A%22Vyhledat%22%2C%22______facetform___facets___workType%22%3A%5B%22DP%22%5D%2C%22______facetform___facets___faculty%22%3A%5B%2211320%22%5D%2C%22______facetform___facets___defenseYear%22%3A%5B%222020%22%2C%222019%22%2C%222018%22%2C%222017%22%5D%2C%22______facetform___facets___lang%22%3A%5B%22ENG%22%2C%22CZE%22%2C%22SLO%22%5D%2C%22PNzzpSearchListbasic%22%3A%223%22%7D&lang=cs
+    - different approach - background information in the beginning of each chapter
+    - describe EVERYTHING 
+        - dataset
+        - used libraries
+        - techniques (why, what are they for)
+        - for each pros/cons (advantages/problems)
+        - previous works (even for partial subproblems)
+        - in the beginning of each (sub)chapter what it cotains
+        - explain EVERY choice (why subword units...)
+    - every sentence doesn't have to be unique, it's OK if something is mentioned in multiple places
+    - he found keeping multicharacter phonemes was better than separating them into single characters which then overlap with existing single character phonemes (his task: audio -> phonemes)
+    - he found larger vocabulary sizes for subword units were always better (page 43)
+https://is.cuni.cz/webapps/zzp/detail/221320/48860355/?q=%7B%22______searchform___search%22%3A%22kate%5Cu0159ina+mackov%5Cu00e1%22%2C%22______searchform___butsearch%22%3A%22Vyhledat%22%2C%22______facetform___facets___workType%22%3A%5B%22DP%22%5D%2C%22______facetform___facets___faculty%22%3A%5B%2211320%22%5D%2C%22______facetform___facets___defenseYear%22%3A%5B%222020%22%2C%222019%22%2C%222018%22%2C%222017%22%5D%2C%22PNzzpSearchListbasic%22%3A1%7D&lang=cs
+    - very bad work (3)
+    - very little citations, weird format, some to wikipedia
+    - using general words, little specification
+    - bad English
+    - not mentioning other alternative solutions than the one she used
+    - not addressing or trying to solve simple problems that emerged
+    - k vysledku by mozno bodlo prilozit spustitelny natrenovany system
+    - text at some places doesn't "flow" naturelly - jumps from one topic to next unexpectedly
+    - na konci uviest ako prilohu popis struktury projektu/kodu pre lepsiu orientaciu v prilozenych skriptoch
 
 -------------------------------------------------------------------------------------------------------------------
 9.10.2020
@@ -530,3 +560,20 @@ TASKS FOR NEXT WEEK
 - https://packaging.python.org/tutorials/packaging-projects/ precitat a podla toho fixnut svoj projekt nech je lahko nainstalovatelny symlinkom (pip install -e .)?
 - udpate python to 3.7.7.
 - stvrtok 9:00
+
+-problem nainstalovat pycld2 (requirement na polyglota)
+- import projektu z PyPI tiez nefunguje - Module not found
+- stale nejde spustit neuronku na dvojversia
+    - skusila som pridat padding, nepomohlo
+    - SubwordTextEncoder je deprecated, ale alternativa tf.Text neposkytuje vytvorenie slovniku
+    - imports (tf.keras vs keras), keras' tensor
+    - vyriesilo to dat vstup ako numpy array s +1 dimenziou (np.stack) + concatenate input layers on axis 1
+    - similar project: https://github.com/a-coles/deep-rhyme-detection
+    - there are still some chinese characters - remove songs with those 
+    - now validation acc. stays at 50%, while training learns up to 55% (probably just overfitting)
+    - TODO - try precomputed embeddings
+
+- find rhyme for word API https://github.com/gmarmstrong/python-datamuse/
+-------------------------------------------------------------------------------------------------------------------
+15.10.2020
+TASKS FOR NEXT WEEK
