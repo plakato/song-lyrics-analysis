@@ -14,8 +14,12 @@ class Network(tf.keras.Sequential):
         first_verse = tf.keras.layers.Input(shape=(None,), dtype=tf.int32, name='first')
         second_verse = tf.keras.layers.Input(shape=(None,), dtype=tf.int32, name='second')
         # Set up preprocessing layer.
-        first_embedded = tf.keras.layers.Embedding(args.vocab_size, 32)(first_verse)
-        second_embedded = tf.keras.layers.Embedding(args.vocab_size, 32)(second_verse)
+        embedding = tf.keras.layers.Embedding(args.vocab_size,
+                                              32,
+                                              embeddings_initializer = tf.keras.initializers.Constant(args.embedding_matrix),
+                                              trainable = False)
+        first_embedded = embedding(first_verse)
+        second_embedded = embedding(second_verse)
         concats = tf.keras.layers.Concatenate(axis=1)([first_embedded, second_embedded])
         x = tf.keras.layers.LSTM(args.lstm, return_sequences=True)(concats)
         x = tf.keras.layers.LSTM(args.lstm, return_sequences=True)(x)
@@ -82,7 +86,7 @@ if __name__ == "__main__":
     parser.add_argument("--lstm", default=100, type=int, help="Neurons in LSTM layer.")
     parser.add_argument("--lr", default=0.001, type=float, help="Learning rate for the optimizer.")
     parser.add_argument("--threads", default=2, type=int, help="Maximum number of threads to use.")
-    # parser.add_argument("--vocab_size", default=32659, type=int, help="Size of vocabulary of SubwordTextEncoder used on input + 1.")
+    parser.add_argument("--vocab_size", default=20000, type=int, help="Size of vocabulary of SubwordTextEncoder used on input + 1.")
     args = parser.parse_args()
 
     # Fix random seeds
@@ -102,6 +106,7 @@ if __name__ == "__main__":
     args.vocab_size = encoder.vocab_size
     train_ds = DataGenerator('dataset/train', batch_size=args.batch_size)
     val_ds = DataGenerator('dataset/val', batch_size=args.batch_size)
+    args.embedding_matrix = train_ds.embedding_matrix
     # Create the network and train.
     network = Network(args)
     history = network.train(train_ds, val_ds, args)

@@ -108,7 +108,7 @@ def write_to_file(data, filename):
 
 if __name__ == '__main__':
     dir='../../sparsar_experiments/rhymes/original'
-    # Add +1 to number of epochs because there is always one more evaluation of validation data at the beginning.
+    # Add +1 to number of epochs because there is always one more evaluation of validation data in the beginning.
     count = 51
     rhyming, not_rhyming = get_data(dir, count)
     encode_subwords(rhyming+not_rhyming)

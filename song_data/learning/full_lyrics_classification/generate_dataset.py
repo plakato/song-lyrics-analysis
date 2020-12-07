@@ -19,6 +19,7 @@ song_start = '>'
 max_char_count = 30*1000
 
 
+# Getting data and preprocessing - adding special tokens to mark separation of verses etc.
 def get_data(filename):
     data = []
     with open(filename) as input:

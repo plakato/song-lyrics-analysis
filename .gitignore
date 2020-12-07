@@ -2,7 +2,7 @@ venv/*
 venv3.7/*
 .vscode/
 logs/
-.idea/*
+.idea/
 *.zip
 song_data/data/*
 __pycache__/*
@@ -11,3 +11,4 @@ __pycache__/*
 song_data/learning/full_lyrics_classification/dataset/
 dist/*
 *.egg-info*
+glove*/

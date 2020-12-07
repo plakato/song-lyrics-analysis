@@ -1,9 +1,14 @@
 import math
+from os.path import join, isfile
+
 import numpy as np
+from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
 from prepare_dataset import epoch_sep
 import tensorflow.keras.backend as K
 import tensorflow_datasets as tfds
 import tensorflow as tf
+import os
+import pandas as pd
 
 
 class DataGenerator(tf.keras.utils.Sequence):
@@ -14,6 +19,7 @@ class DataGenerator(tf.keras.utils.Sequence):
         # Pointer to a file from which we read the dataset on demand.
         self.rhyming_stream_pointer = 0
         self.not_rhyming_stream_pointer = 0
+        self.set_up_precomputed_embeddings()
         self.on_epoch_end()
 
     def __len__(self):
@@ -28,8 +34,8 @@ class DataGenerator(tf.keras.utils.Sequence):
         first_verses = [first for first, _, _ in self.dataset[idxs]]
         second_verses = [second for _, second, _ in self.dataset[idxs]]
         # Add paddding to the longest element in the batch.
-        first_verses = tf.keras.preprocessing.sequence.pad_sequences(first_verses, padding='pre',value=0.0)
-        second_verses = tf.keras.preprocessing.sequence.pad_sequences(second_verses, padding='pre',value=0.0)
+        first_verses = tf.keras.preprocessing.sequence.pad_sequences(first_verses, padding='pre', value=0.0)
+        second_verses = tf.keras.preprocessing.sequence.pad_sequences(second_verses, padding='pre', value=0.0)
         # Convert to tensors.
         # first_verses = list(map(tf.convert_to_tensor, first_verses))
         # second_verses = list(map(tf.convert_to_tensor, second_verses))
@@ -71,10 +77,53 @@ class DataGenerator(tf.keras.utils.Sequence):
         self.dataset = np.array(rhyming + not_rhyming)
         np.random.shuffle(self.dataset)
 
+    def set_up_precomputed_embeddings(self):
+        # Load embeddings.
+        path_to_glove_file = "dataset/glove.6B/glove.6B.100d.txt"
+
+        embeddings_index = {}
+        with open(path_to_glove_file) as f:
+            for line in f:
+                word, coefs = line.split(maxsplit=1)
+                coefs = np.fromstring(coefs, "f", sep=" ")
+                embeddings_index[word] = coefs
+
+        print("Found %s word vectors." % len(embeddings_index))
+        # Extract vocabulary from the data.
+        dir = '../../sparsar_experiments/rhymes/original'
+        data = []
+        for item in os.listdir(dir):
+            file_name = join(dir, item)
+            if isfile(file_name) and item.endswith('.csv'):
+                df = pd.read_csv(file_name, sep=';')
+                lyrics = data.append('\n'.join(df['Lyrics'].tolist()))
+        vectorizer = TextVectorization(max_tokens=20000, output_sequence_length=200)
+        text_ds = tf.data.Dataset.from_tensor_slices(data).batch(self.batch_size)
+        vectorizer.adapt(text_ds)
+        voc = vectorizer.get_vocabulary()
+        word_index = dict(zip(voc, range(len(voc))))
+
+        num_tokens = len(voc) + 2
+        embedding_dim = 100
+        hits = 0
+        misses = 0
+
+        # Prepare embedding matrix
+        self.embedding_matrix = np.zeros((num_tokens, embedding_dim))
+        for word, i in word_index.items():
+            embedding_vector = embeddings_index.get(word)
+            if embedding_vector is not None:
+                # Words not found in embedding index will be all-zeros.
+                # This includes the representation for "padding" and "OOV"
+                self.embedding_matrix[i] = embedding_vector
+                hits += 1
+            else:
+                misses += 1
+        print("Converted %d words (%d misses)" % (hits, misses))
 
 if __name__ == '__main__':
     gen = DataGenerator('dataset/train')
     batch = gen.__getitem__(0)
-    print("f,s,y:", batch)
+    # print("f,s,y:", batch)
 
 
