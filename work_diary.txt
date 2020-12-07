@@ -572,8 +572,14 @@ TASKS FOR NEXT WEEK
     - there are still some chinese characters - remove songs with those 
     - now validation acc. stays at 50%, while training learns up to 55% (probably just overfitting)
     - TODO - try precomputed embeddings
+        - limited dictionary, OOV words are assigned zero 
+        - Converted 17770 words (2230 misses) in the dataset.
+        - there are 400000 word vectors in precomputed embeddings GloVe
 
 - find rhyme for word API https://github.com/gmarmstrong/python-datamuse/
 -------------------------------------------------------------------------------------------------------------------
-15.10.2020
-TASKS FOR NEXT WEEK
+5.12.2020
+TIPS FROM STRAKA
+- try pre-trained BERT (https://ufal.mff.cuni.cz/courses/npfl114/1920-summer#sentiment_analysis)
+- https://github.com/huggingface/transformers
+    - includes pre-trained GPT-2 for text generation
