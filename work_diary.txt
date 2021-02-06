@@ -7,7 +7,7 @@ RELATED WORK
     - https://www.freecodecamp.org/news/building-a-twitter-lyric-bot-12468255a4ee/
         - https://github.com/ShawnToubeau/lyric-bot 
     - https://www.song-lyrics-generator.org.uk/
-        - you have to fill in many words and it just uses them in (I guess) prepared draft
+        - you have to fill in many words and it just uses them in (I guess) prepared template
 
 MEETING THE DATA
 - "crowd-sourced lyrics data"
@@ -581,5 +581,150 @@ TASKS FOR NEXT WEEK
 5.12.2020
 TIPS FROM STRAKA
 - try pre-trained BERT (https://ufal.mff.cuni.cz/courses/npfl114/1920-summer#sentiment_analysis)
+    - needs all lowercase for easier training
 - https://github.com/huggingface/transformers
     - includes pre-trained GPT-2 for text generation
+-------------------------------------------------------------------------------------------------------------------
+ZHRNUTIE CELEHO PROJEKTU (DOTERAZ)
+
+DATA 
+- 658,460 zo stránky genius.com vo viacerých jazykoch
+- extrakcia pouzitelných - cca 500,000
+    - anglicke
+    - vhodna dlzka
+    - vyber užitočných atribútov, pridanie nových
+    - čistenie textu (Verse, Refrain, ...) - aj niekoľko neúspešných pokusov o čistenie od reklám
+- štatistiky
+    - o dĺžke (počet slov, riadkov...)
+    - žánre
+    - grafy
+    
+
+SPARSAR
+- analýza rýmovaného textu
+    - rýmy, metrika, slabiky, phonémy...
+- parsing vypľuvnutého xml-ka => vlastné csv len s užitočnými atribútmi
+- nutné ďalšie čistenie dát aby to bol schopný spracovať 
+    - zakázané znaky
+    - pridanie diaktritiky pomocou punctuator2
+- distribúcia rýmových tried je zhruba podľa čínskeho reštauračného procesu
+
+TEST DATA
+- modifikácia pesničiek na vytvorenie setov nevalidných textov
+    - prehadzané riadky
+    - prehádzaná polovica riadkov
+    - náhodné slovo nahradiť iným
+    - podstatné meno posunúť o slovo dozadu
+    - zmazať čast slov
+
+LEARNING
+- similarity/repetition matrix
+    - najlepšie fungovalo počítanie entropie (77% accuracy), neuronka o percento menej
+- rhyme sequence
+- phonemic text
+- full text
+    - BERT?
+- two verses (rhyme or not?)
+    - na každú etapu iná sada dát
+
++ projekt na PyPI - nefunguje?
++ rozbehaná šablóna na text, bibliografia
++ som prečítala 4 diplomky
++ GPT3...
+-------------------------------------------------------------------------------------------------------------------
+TASKS 21.12.2020
+
+- resersi na ine nastroje detekce rymov atd..
+
+Visualization tools:
+Poem Viewer
+https://nms.kcl.ac.uk:8443/poemvis/index.html
+    - web-based tool for visualizing poems
+    - on-going research project
+    - very complex, different views
+    - stress, vowel length, syllables, even vowel tongue position
+    - rhyme, end-rhyme, alliteration, consonance, assonance - and their frequencies
+    - word class (noun etc.), word sentiment, word repetition
+    - it requires phonetic transcription as a part of input (+the original text)
+
+ProseVis
+https://sourceforge.net/projects/prosevis/
+    - visual encodings of different patterns related to the pronunciation information
+    - parts-of-speech, accent, phoneme, stress, tone, break index
+    - desktop app
+    - doesn't seem as smart as the other ones
+
+RhymeDesign
+http://www.sci.utah.edu/~nmccurdy/rhymeDesign/
+    - open-source implementation
+    - analysis of sonic devices in poetry
+    - desktop app for macOS only
+    - publication: https://www.aclweb.org/anthology/W15-0702.pdf
+
+Ambiances: A Framework to Write and Visualize Poetry
+http://dh2013.unl.edu/abstracts/ab-365.html
+    - I wasn't able to find the actual program 
+    - the process of writing a new poem influences its resulting visualization and the visualization also affects the process of writing
+
+Publications:
+- https://www.aclweb.org/anthology/W18-4509.pdf
+    - rhyme detectino using Siamese Recurrent Networks
+    - English, German, French
+    - poetry, hip-hop
+- https://www.aclweb.org/anthology/P11-2014.pdf
+    - unsupervised discovery of rhyme schemes
+- https://www.aclweb.org/anthology/D10-1051.pdf
+    - Automatic Analysis of Rhythmic Poetry with Applications to Generation and Translation
+    - Finite-state transducer to find stress
+    - poetry generation using statistical methods
+- https://www.researchgate.net/publication/2349215_Towards_A_Computational_Model_of_Poetry_Generation
+    - poetry generation with stochastic hillclimbing search model 
+- http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.205.8962&rep=rep1&type=pdf
+    - finding internal and imperfect rhymes in rap lyrics with probabilistic model
+- http://phylonetworks.blogspot.com/2020/07/automated-detection-of-rhymes-in-texts.html
+    - nice blog post summarizing "related works" concerning rhyme (scheme) discovery
+    - points out most works focus on rhyme schemes in well structured poetry instead of common rhymes in text
+    - where to draw the line between intended rhyme and accidental word similarity
+
+Other tools:
+- https://rhymezone.com/
+    - for given word returns (multi-word) rhymes, poem excerpts, synonyms, phrases, mentions in text etc.
+    - datamuse API
+- http://www.photransedit.com/Online/Text2Phonetics.aspx
+    - nice tools for phonetic transcription with some additional output settings
+    - 2 output options - general American, received pronunciation (british)
+https://developer.oxforddictionaries.com/
+    - limited free access, similar to rhymezone
+http://www.cs.umd.edu/hcil/patternfinder/
+    - query patterns involving specific sounds
+
+- vlastna detekce rymov v anglictine
+- ziskat anotovane data
+- nacrtnut nove zadanie
+
+-------------------------------------------------------------------------------------------------------------------
+20.1.2021
+
+https://demo.allennlp.org/next-token-lm?text=AllenNLP%20isAin%27t%20no%20good%20life%20%20%0ANot%20the%20one%20that%20I%20lead%20%20%0ABecause%20the%20more%20I%20fight%20the%20sadness%2C%20yeah%20%20%0AIt%20only%20seems%20the%20more%20that%20I%20grieve%20
+- unsupervised trenovanie rymov?
+TODO 
+    - teoriu za rymami  
+    - ako rozlisit slabiky, + test set na to
+    - detekcia rýmov radšej pravidlovo
+    - ak neurónky, dať fonetický prepis
+- najst oanotované anglické rýmované trenovacie data
+TODO 
+    - GPT basleine (na pc, aj ako webservis - najst, vyskúšať)
+    - finetunovať na piesňach
+    - pri trénování možem skúsiť pridať dodatočné data pre BERTA (doplňa slová), ktoré sa v postprocese zmažu
+    + inú baseline s fonetickým vstupom? celé trénovať znova, asi na nejakom školskom GPU, príp. Google Colab
+        - subwordy nie su dobre na generovanie - radšej slabiky, alebo ešte menšie jednotky
+TODO
+    - vizualizace webovo - skúsiť nainštalovať sparsar na server alebo ho niečím nahradiť
+        - dodať do matíc barvy na rôzne typy rýmov
+        - ako sa napojí backend do vizualizácií, aby to potom nebolo problém prepojiť - zvážiť písať to v angulari
+TODO
+    - text - related works
+    - spracovať tie odrážky čo som posielala, formálnejšie popísať
+TODO 
+    - poslať origo data

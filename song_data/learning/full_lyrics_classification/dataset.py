@@ -6,9 +6,9 @@ import tensorflow_datasets as tfds
 import numpy as np
 
 
-def get_dataset(dir='train', batch_size=32):
+def get_dataset_encoded(dir='train', batch_size=32):
     # Load encoder.
-    encoder = tfds.features.text.SubwordTextEncoder.load_from_file('vocab')
+    encoder = tfds.deprecated.text.SubwordTextEncoder.load_from_file('vocab')
     print('Vocab size is', encoder.vocab_size)
     # Load data.
     with open('dataset/' + dir + '/original.txt') as original:
@@ -58,5 +58,25 @@ def get_dataset(dir='train', batch_size=32):
             print(label_batch[i])
     return dataset
 
+
+def get_dataset_for_BERT(dir):
+    # Load data.
+    with open('dataset/' + dir + '/original.txt') as original:
+        # Remove newline at the end.
+        data_orig = original.readlines()[:-1]
+    with open('dataset/' + dir + '/shuffled.txt') as modified:
+        data_modified = modified.readlines()[:-1]
+    data = data_orig + data_modified
+    # Remove newlines.
+    for i in range(len(data)):
+        data[i] = data[i].strip().replace('>', '')
+    # Create labels.
+    labels = [1] * len(data_orig) + [0] * len(data_modified)
+    return data
+
+    return dataset
+
+
 if __name__ == '__main__':
-    dataset = get_dataset()
+    # dataset = get_dataset_encoded()
+    dataset = get_dataset_for_BERT('train')

@@ -27,6 +27,9 @@ def get_data(filename):
         lines = song['lyrics']
         lyrics = song_start
         for line in lines:
+            # Make lowercase for BERT.
+            line = line.lower()
+            # Add markers.
             if line == '' and lyrics[-1] != stanza_end and lyrics[-1] != song_start:
                 lyrics += stanza_end
             if lyrics[-1] == stanza_end or lyrics[-1] == song_start:
@@ -46,7 +49,7 @@ def print_data_statistics(data):
 
 def encode_subwords(data, vocab_filename='vocab'):
     gen = (song for song in data)
-    encoder = tfds.features.text.SubwordTextEncoder.build_from_corpus(gen, target_vocab_size=2 ** 15)
+    encoder = tfds.deprecated.text.SubwordTextEncoder.build_from_corpus(gen, target_vocab_size=2 ** 15)
     encoder.save_to_file(vocab_filename)
     print('SubwordTextEncoder vocabulary size is', encoder.vocab_size)
 
@@ -93,5 +96,5 @@ if __name__ == '__main__':
     file = '../../data/ENlyrics_cleaned.json'
     data = get_data(file)
     print_data_statistics(data)
-    encode_subwords(data)
+    # encode_subwords(data)
     prepare_data_for_learning(data)

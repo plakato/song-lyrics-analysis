@@ -23,7 +23,8 @@ def get_data(dir, count=10):
         file_name = join(dir, item)
         if isfile(file_name) and item.endswith('.csv'):
             df = pd.read_csv(file_name, sep=';')
-            lyrics = df['Lyrics'].tolist()
+            # Convert to lower case because BERT is easier to train uncased.
+            lyrics = [str(map(lambda x:x.lower(), line)) for line in df['Lyrics'].tolist()]
             rhyme_classes = df['Rhyme Scheme Letter'].tolist()
             not_rhyming = get_verse_pairs(lyrics, rhyme_classes, count, False)
             # Don't use the songs where everything rhymes with everything.

@@ -7,7 +7,7 @@ from tensorflow.python import keras
 
 # The neural network model
 from tensorflow.keras.layers.experimental.preprocessing import TextVectorization
-from dataset import get_dataset
+from dataset import get_dataset_encoded
 from tensorflow.keras import layers
 
 
@@ -96,8 +96,8 @@ if __name__ == "__main__":
         ",".join(("{}={}".format(re.sub("(.)[^_]*_?", r"\1", key), value) for key, value in sorted(vars(args).items())))
     ))
 
-    train_ds = get_dataset(dir='train', batch_size=args.batch_size)
-    val_ds = get_dataset(dir='val', batch_size=args.batch_size)
+    train_ds = get_dataset_encoded(dir='train', batch_size=args.batch_size)
+    val_ds = get_dataset_encoded(dir='val', batch_size=args.batch_size)
     # Create the network and train.
     network = Network(args)
     history = network.train(train_ds, val_ds, args)
