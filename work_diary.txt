@@ -697,6 +697,16 @@ https://developer.oxforddictionaries.com/
     - limited free access, similar to rhymezone
 http://www.cs.umd.edu/hcil/patternfinder/
     - query patterns involving specific sounds
+https://thewordshop.tripod.com/links.html
+    - linky na kopu poetických stránok, slovníkov, starý jazyk, british <=> American
+
+Rhyme suggesting tools:
+- http://odp.org/Reference/Dictionaries/Rhyming (linky na rýmové slovníky)
+    - sú slovníky kde si môžem zvoliť typ rýmu a podľa toho mi navrhne ďalšie
+- https://www.wolframalpha.com/input/?i=words+that+rhyme+with+will
+- https://rhymebrain.com/en/What_rhymes_with_better.html
+- https://www.rhymer.com/
+    - vygeneruje konkrétny zvolený typ rýmu
 
 - vlastna detekce rymov v anglictine
 - ziskat anotovane data
@@ -705,26 +715,80 @@ http://www.cs.umd.edu/hcil/patternfinder/
 -------------------------------------------------------------------------------------------------------------------
 20.1.2021
 
-https://demo.allennlp.org/next-token-lm?text=AllenNLP%20isAin%27t%20no%20good%20life%20%20%0ANot%20the%20one%20that%20I%20lead%20%20%0ABecause%20the%20more%20I%20fight%20the%20sadness%2C%20yeah%20%20%0AIt%20only%20seems%20the%20more%20that%20I%20grieve%20
-- unsupervised trenovanie rymov?
+
 TODO 
+    - detekcia rýmov radšej pravidlovo
     - teoriu za rymami  
+        - definition of rhyme https://www.poetryfoundation.org/learn/glossary-terms/rhyme
+        - typy rýmov
+            - types of rhymes (https://www.rhymer.com/)
+            - wiki ( https://en.wikipedia.org/wiki/Rhymehttps://en.wikipedia.org/wiki/Rhyme)
+            - https://literarydevices.net/rhyme/
+        - guidelines for rhyme encoding https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-rhyme.html
     - ako rozlisit slabiky, + test set na to
     - detekcia rýmov radšej pravidlovo
     - ak neurónky, dať fonetický prepis
+        - foneticky prepis pomocou https://github.com/mphilli/English-to-IPA
+        - zvažovala som ešte https://github.com/aparrish/pronouncingpy ale nepoužívajú IPA ale ARPAbe - horšie čitateľné na prvý pohľad
 - najst oanotované anglické rýmované trenovacie data
 TODO 
-    - GPT basleine (na pc, aj ako webservis - najst, vyskúšať)
+    - GPT baseline (na pc, aj ako webservis - najst, vyskúšať)
+        - webservis
+            - https://gpt2.ai-demo.xyz/
+                - nieto napísal OpenAI GTP2 scratchpad
+                - výsledky sa nerýmujú ani nemajú štruktúru
+            - https://app.inferkit.com/demo
+                - výsledok je formou rozhovoru :(
+            - https://deepai.org/machine-learning-model/text-generator
+                - predpovedá celé paragrafy, formu "komentárov" ľudí
+            - https://demo.allennlp.org/next-token-lm?text=AllenNLP%20isAin%27t%20no%20good%20life%20%20%0ANot%20the%20one%20that%20I%20lead%20%20%0ABecause%20the%20more%20I%20fight%20the%20sadness%2C%20yeah%20%20%0AIt%20only%20seems%20the%20more%20that%20I%20grieve%20
+
     - finetunovať na piesňach
     - pri trénování možem skúsiť pridať dodatočné data pre BERTA (doplňa slová), ktoré sa v postprocese zmažu
     + inú baseline s fonetickým vstupom? celé trénovať znova, asi na nejakom školskom GPU, príp. Google Colab
         - subwordy nie su dobre na generovanie - radšej slabiky, alebo ešte menšie jednotky
-TODO
+TODO (DONE)
     - vizualizace webovo - skúsiť nainštalovať sparsar na server alebo ho niečím nahradiť
         - dodať do matíc barvy na rôzne typy rýmov
         - ako sa napojí backend do vizualizácií, aby to potom nebolo problém prepojiť - zvážiť písať to v angulari
-TODO
+TODO (DONE)
     - text - related works
     - spracovať tie odrážky čo som posielala, formálnejšie popísať
-TODO 
+TODO (DONE)
     - poslať origo data
+
+lyrics generation articles:
+- https://books.google.cz/books?hl=cs&lr=&id=fb7DAQAAQBAJ&oi=fnd&pg=PA115&dq=lyrics+generation&ots=2XJpa9A5cL&sig=IQ49s9xxT4iFQ7US5qnaG3S8kRc&redir_esc=y#v=onepage&q=lyrics%20generation&f=false
+- https://content.sciendo.com/view/journals/jagi/6/1/article-p87.xml
+- https://dl.acm.org/doi/abs/10.1145/3025171.3025194
+- https://ieeexplore.ieee.org/abstract/document/6897243
+
+FIRST "BASELINE"? RESULTS: (gpt2, without training on my examples)
+0: Roses are red
+violets are blue
+tell me Ted
+do you have a flu? (It is very likely that I am having one. It will take the following 5 to 10 days for it...we'll see!) You're going to get some fairly big stuff from this, and even if your spleen doesn't work at all or not keep up its usual "normal" strength output in much of time after these two things happen we may be able pick out an important breakthrough before long but something special comes along which should never surprise anyone who's just starting their life as well on either side! Keep doing what they do best by being patient while watching every little thing with great attention so no matter where he gets tired his eyes
+
+1: Roses are red
+violets are blue
+tell me Ted
+do you have a flu? Will it come back and kill your baby?" A.D., 6/29-30, 1966; Bisham: "Hepatitis of the pettifellus" (1964); Brinton on disease with diphtheria in newborns ("Lung tumour after birth from menses as well"). He was born before any epidemiological investigation had been done that might lead to serious health consequences for babies affected by tuberculosis - not influenza. The doctor's notes were withdrawn because he feared an allergic reaction or illness at this time ; but they soon started circulating along lines about how new infections could be prevented if doctors used antibiotics
+
+2: Roses are red
+violets are blue
+tell me Ted
+do you have a flu? what would happen if I tried to help my sister with her own colds and migraines or any of the other things that come up when they get too hot, please do not write this off as "doubtful" just because your brother has been in medical school. tell us why we should hate him while he is so ill it will hurt his life (this can be explained by all kinds on how much money our brothers make) did anyone else really think about putting their mother down at night for getting into an accident where she's sitting next tbh but also thank god now look who lost like 40 hours last week from taking out
+
+3: Roses are red
+violets are blue
+tell me Ted
+do you have a flu? - (In the middle of nowhere, and at all times talking to people who do not exist) "Yeah I got it. You know what that means!"
+
+- Mr Hyde asks for food; he says she did nothing wrong in your home's cooking room with her husband! If anything happens please let him send away some spare time before we get his letter sohe can spend more days writing about us :) We will be going camping together but i'll tell u one thing:- no pets on my patio is great im sure there was someone around when they were sick..and probably next door too...but our house does look nice anyways after 8
+
+4: Roses are red
+violets are blue
+tell me Ted
+do you have a flu? I'm trying to get my testicles under the eye of your doctor. The lady from Connecticut is still waiting for her daughter, who has got hepatitis C after getting sick with it last year and was hospitalized multiple times by CT doctors before being shot dead in front at gunpoint while she tried CPR on him. She took two doses so they could give them up without an overdose but even now there's no needle already sticking out that will stop his blood clotting."
+
+ "When he wasn't dying like this...the girl next door stopped following us around," says Hernández Cruz; "'Why wouldn' would [her] be
