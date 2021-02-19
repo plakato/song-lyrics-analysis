@@ -666,6 +666,9 @@ http://dh2013.unl.edu/abstracts/ab-365.html
     - I wasn't able to find the actual program 
     - the process of writing a new poem influences its resulting visualization and the visualization also affects the process of writing
 
+Poemage:
+http://www.sci.utah.edu/~nmccurdy/Poemage/
+
 Publications:
 - https://www.aclweb.org/anthology/W18-4509.pdf
     - rhyme detectino using Siamese Recurrent Networks
@@ -731,7 +734,7 @@ TODO
         - foneticky prepis pomocou https://github.com/mphilli/English-to-IPA
         - zvažovala som ešte https://github.com/aparrish/pronouncingpy ale nepoužívajú IPA ale ARPAbe - horšie čitateľné na prvý pohľad
 - najst oanotované anglické rýmované trenovacie data
-TODO 
+TODO (DONE)
     - GPT baseline (na pc, aj ako webservis - najst, vyskúšať)
         - webservis
             - https://gpt2.ai-demo.xyz/
@@ -792,3 +795,43 @@ tell me Ted
 do you have a flu? I'm trying to get my testicles under the eye of your doctor. The lady from Connecticut is still waiting for her daughter, who has got hepatitis C after getting sick with it last year and was hospitalized multiple times by CT doctors before being shot dead in front at gunpoint while she tried CPR on him. She took two doses so they could give them up without an overdose but even now there's no needle already sticking out that will stop his blood clotting."
 
  "When he wasn't dying like this...the girl next door stopped following us around," says Hernández Cruz; "'Why wouldn' would [her] be
+
+
+-------------------------------------------------------------------------------------------------------------------
+17.2.2021
+
+TODO (rymy)
+    - rymy oznacovat pismenkami  
+    - vzdialene rymy - ak sa dany rym neopakuje 10 versov povazujem ho za novy rym
+    - oznacit konkretne slovo (aj vo vizualizacii)
+    PROBLEMY
+        slabiky
+            - v kazdej slabike je samohlaska takze ich viem spocitat pomocou https://github.com/cmusphinx/cmudict
+            - ale neviem kde konkretne su hranice - pouzit slovniky, slova co nie su v slovnikoch skusit nejaky automaticky nastroje
+            - clanok co popisuje automatizovane pristupy: https://eprints.soton.ac.uk/264285/1/MarchandAdsettDamper_ISCA07.pdf
+            - nltk ma automaticke delenie https://www.nltk.org/api/nltk.tokenize.html
+            mozno to nepotrebujeme? pouzijeme proste to so slabikami
+        vyslovnost
+            - IPA vs ARPAbet
+            - metrika priamo v prepise vacsinou
+            - panphon kniznica ma dogol distance - podobne znejuce fonemy su v triedach ekvivalencie
+        format vystupu
+            - je nejaky XML guideline https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-rhyme.html
+            - skusit nieco svoje? lahsie? - ale ako?
+TODO (web)
+    - rovnake pismenka rovnakou farbou
+    - napojit sparsar a moj
+    - zobrazit rozdiel SPARSAR vs moj
+TODO (gpt2)
+    - skusit doucit plain textom aj tagmi
+    - VYSKUSAT ci pojde na pc
+TODO-DONE
+    - poslat linky na github
+TODO (text)
+    - overit ci je poemviewer open-source
+    - zmienit aj nastroje hladajuce vsetky mozne rymy
+
+AKO RIESIT METRIKU KVALITY RYMU?
+- riesit eye rhyme?
+-------------------------------------------------------------------------------------------------------------------
+24.2.2021 15:00

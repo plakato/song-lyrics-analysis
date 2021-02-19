@@ -274,13 +274,13 @@ def main():
     # Prepare files for SPARSAR.
     prefixes = ['']
     os.environ["PYTHONIOENCODING"] = "utf-8"
-    # for prefix in prefixes:
-    #     filename = 'data/' + \
-    #                prefix + 'ENlyrics_cleaned.json'
-    #     # run_sparsar_for_failed(prefix, filename)
-    #     replace_prohibited_characters(filename)
-    #     # Generate SPARSAR output files.
-    #     run_sparsar_for_files(filename, prefix, start_idx=6400, end_idx=6600)  # Analyzed up to index 6421.
+    for prefix in prefixes:
+        filename = 'data/' + \
+                   prefix + 'ENlyrics_cleaned.json'
+        # run_sparsar_for_failed(prefix, filename)
+        replace_prohibited_characters(filename)
+        # Generate SPARSAR output files.
+        run_sparsar_for_files(filename, prefix, start_idx=6400, end_idx=6600)  # Analyzed up to index 6421.
     # Extract useful information from SPARSAR output files to .csv file.
     path = 'sparsar_experiments/outs/'
     output_path = 'sparsar_experiments/rhymes/'

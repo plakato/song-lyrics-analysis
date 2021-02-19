@@ -8,6 +8,10 @@ model = TFGPT2LMHeadModel.from_pretrained("gpt2", pad_token_id=tokenizer.eos_tok
 
 # Encode input text.
 input_ids = tokenizer.encode("Roses are red\nviolets are blue\ntell me Ted\ndo you have a flu?", return_tensors='tf')
+print(input_ids)
+print()
+input_ids = tokenizer.encode("Roses are red violets are blue tell me Ted do you have a flu?", return_tensors='tf')
+print(input_ids)
 
 generated_text_samples = model.generate(
     input_ids,
