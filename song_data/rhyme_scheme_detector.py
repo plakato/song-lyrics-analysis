@@ -11,8 +11,14 @@ import panphon.distance
 # How many lines should rhyme not repeat to be considered a new rhyme.
 
 NO_OF_PRECEDING_LINES = 3
-IPA_VOWELS = set(['i','y','ɨ','ʉ','ɯ','u','ɪ','ʏ','ʊ','e','ø','ɘ','ɵ','ɤ','o','e','ø','ə','ɤ','o','ɛ','œ','ɜ','ɞ','ʌ','ɔ','æ','ɐ','a','ɶ','ä','ɑ','ɒ'])
-{"ə","e","ɪ","ɑ","æ","ə","ɔ","aʊ","aɪ","ʧ","ð","ɛ","ə","oʊ","ɔɪ","ʊ","u","i","j"}
+IPA_VOWELS = {'i', 'y', 'ɨ', 'ʉ', 'ɯ', 'u',
+              'ɪ', 'ʏ', 'ɪ̈', 'ʊ̈', 'ʊ',
+              'e', 'ø', 'ɘ', 'ɵ', 'ɤ', 'o',
+              'ə',
+              'ɛ', 'œ', 'ɜ', 'ɞ', 'ʌ', 'ɔ',
+              'æ', 'ɐ',
+              'a', 'ɶ', 'ɑ', 'ɒ'}
+dst = panphon.distance.Distance()
 
 
 def load_lines_from_sparsar_output(filename):
@@ -66,20 +72,41 @@ def rhymes(first, second):
     # Find matching phonemes by transversing the line backwards.
     n_perfect_match = 0
     n_close_match = 0
+    skipped_phons = 0
     rhyme_found = False
-    dst = panphon.distance.Distance()
-    for i in range(1, min(len(first), len(second))+1):
-        if first[-i] == second[-i]:
-            n_perfect_match += 1
-            if first[-i] in IPA_VOWELS:
+    i1 = len(first) -1
+    i2 = len(second) -1
+    while i1 >= 0 and i2 >= 0:
+        # Matching phonemes.
+        if first[i1] == second[i2]:
+            if first[i1] in IPA_VOWELS:
                 rhyme_found = True
-        elif dst.dogol_prime_distance(first[-i], second[-i]) < 1:
-            # if first[-i] in IPA_VOWELS:
-            #     rhyme_found = True
-            n_close_match += 1
+            n_perfect_match += 1
+            i1 -= 1
+            i2 -= 1
+        # Related phonemes.
+        elif dst.dogol_prime_distance(first[i1], second[i2]) < 1:
+            if first[i1] in IPA_VOWELS:
+                rhyme_found = True
+            n_close_match +=1
+            i1 -= 1
+            i2 -= 1
+        # Space -> skip.
+        elif first[i1] == ' ':
+            i1 -= 1
+        elif second[i2] == ' ':
+            i2 -= 1
+        # Different classes -> skip.
+        elif first[i1] not in IPA_VOWELS and second[i2] in IPA_VOWELS:
+            skipped_phons += 1
+            i1 -= 1
+        elif first[i1] in IPA_VOWELS and second[i2] not in IPA_VOWELS:
+            skipped_phons += 1
+            i2 -= 1
+        # Totally different phonemes -> end.
         else:
             break
-    return rhyme_found, {'perfect_match': n_perfect_match, 'close_match': n_close_match}
+    return rhyme_found, {'perfect_match': n_perfect_match, 'close_match': n_close_match, 'skipped_phonemes': skipped_phons}
 
 
 # Gives next letter given a pattern - alphabetically, after 'z' double 'aa'.
@@ -164,5 +191,5 @@ if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv[1] == '-sparsar':
         get_perfect_rhymes_from_sparsar_output()
     else:
-        scheme = get_rhyme_scheme(lyrics2)
+        scheme = get_rhyme_scheme(poem1)
         print(scheme)
