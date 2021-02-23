@@ -7,11 +7,9 @@ tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 model = TFGPT2LMHeadModel.from_pretrained("gpt2", pad_token_id=tokenizer.eos_token_id)
 
 # Encode input text.
-input_ids = tokenizer.encode("Roses are red\nviolets are blue\ntell me Ted\ndo you have a flu?", return_tensors='tf')
-print(input_ids)
-print()
-input_ids = tokenizer.encode("Roses are red violets are blue tell me Ted do you have a flu?", return_tensors='tf')
-print(input_ids)
+input1 = "Roses are red\nviolets are blue\ntell me Ted\ndo you have a flu?"
+input2 = "We were both young when I first saw you.\nI close my eyes and the flashback starts:\nI\'m standing there\nOn a balcony in summer air.\nSee the lights, see the party, the ball gowns,\nSee you make your way through the crowd,\nAnd say, Hello.\nLittle did I know..."
+input_ids = tokenizer.encode(input2, return_tensors='tf')
 
 generated_text_samples = model.generate(
     input_ids,
