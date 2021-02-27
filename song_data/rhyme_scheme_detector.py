@@ -32,19 +32,19 @@ lyrics2 = ["I'm at a party I don't wanna be at", "And I don't ever wear a suit a
            "You make it better like that", "Don't think I fit in at this party", "Everyone's got so much to say", "I always feel like I'm nobody", "Who wants to fit in anyway?", "Cause I don't care when I'm with my baby, yeah", "All the bad things disappear"]
 # a, a, b, a, c, d, a, c, e, f, e, f, g, g
 lyrics2_syllables_correct = [['wi', 'wər', 'boʊθ', 'jəŋ', 'wɪn', 'aɪ', 'fərst', 'sɔ', 'ju'],
-                             ['aɪ', 'kloʊz', 'maɪ', 'aɪz', 'ənd', 'ðə', 'ˈflæʃˌ', 'bæk', 'stɑrts'],
+                             ['aɪ', 'kloʊz', 'maɪ', 'aɪz', 'ənd', 'ðə', 'ˈflæʃ', 'ˌbæk', 'stɑrts'],
                              ['əm', 'ˈstæn', 'dɪŋ', 'ðɛr'],
                              ['ɔn', 'ə', 'ˈbæl', 'kə', 'ni', 'ɪn', 'ˈsə', 'mər', 'ɛr'],
                              ['si', 'ðə', 'laɪts', 'si', 'ðə', 'ˈpɑr', 'ti', 'ðə', 'bɔl', 'gaʊnz'],
                              ['si', 'ju', 'meɪk', 'jʊr', 'weɪ', 'θru', 'ðə', 'kraʊd'],
                              ['ənd', 'seɪ', 'hɛˈ', 'loʊ'],
                              ['ˈlɪ', 'təl', 'dɪd', 'aɪ', 'noʊ'],
-                             ['ðət', 'ju', 'wər', 'ˈroʊ', 'miˌ', 'oʊ', 'ju', 'wər', 'θro', 'ʊɪŋ', 'ˈpɛ', 'bəlz'],
-                             ['ənd', 'maɪ', 'ˈdæ', 'di', 'sɛd', 'steɪ', 'əˈ', 'weɪ', 'frəm', 'ˈʤu', 'liˌ', 'ɛt'],
-                             ['ənd', 'aɪ', 'wɑz', 'kraɪ', 'ɪŋ', 'ɔn', 'ðə', 'ˈstɛrˌ', 'keɪs'],
+                             ['ðət', 'ju', 'wər', 'ˈroʊ', 'mi', 'ˌoʊ', 'ju', 'wər', 'θro', 'ʊɪŋ', 'ˈpɛ', 'bəlz'],
+                             ['ənd', 'maɪ', 'ˈdæ', 'di', 'sɛd', 'steɪ', 'əˈ', 'weɪ', 'frəm', 'ˈʤu', 'li', 'ˌɛt'],
+                             ['ənd', 'aɪ', 'wɑz', 'kraɪ', 'ɪŋ', 'ɔn', 'ðə', 'ˈstɛr', 'ˌkeɪs'],
                              ['ˈbɛ', 'gɪŋ', 'ju', 'pliz', 'doʊnt', 'goʊ'],
                              ['ənd', 'aɪ', 'sɛd'],
-                             ['ˈroʊ', 'miˌ', 'oʊ', 'teɪk', 'mi', 'ˈsəmˌ', 'wɛr', 'wi', 'kən', 'bi', 'əˈ', 'loʊn'],
+                             ['ˈroʊ', 'mi', 'ˌoʊ', 'teɪk', 'mi', 'ˈsəm', 'ˌwɛr', 'wi', 'kən', 'bi', 'əˈ', 'loʊn'],
                              ['aɪl', 'bi', 'ˈweɪ', 'tɪŋ', 'ɔl', 'ðɛrz', 'lɛft', 'tɪ', 'du', 'ɪz', 'rən'],
                              ['jul', 'bi', 'ðə', 'prɪns', 'ənd', 'aɪl', 'bi', 'ðə', 'ˈprɪn', 'sɛs'],
                              ['ɪts', 'ə', 'ləv', 'ˈstɔ', 'ri', 'ˈbeɪ', 'bi', 'ʤɪst', 'seɪ', 'jɛs']]
@@ -144,30 +144,36 @@ def get_syllables(line):
     current_syllable = []
     vowels_in_syllable = 0
     trailing_consonants = 0
-    for a in phon_line:
-        # Cases that complete a syllable.
-        if a == ' ':
+    # We go backwards because it's easier.
+    for word in phon_line.split(' '):
+        i = 0
+        while i < len(word):
+            # Let's create a syllable.
+            while i < len(word) and word[i] not in IPA_VOWELS:
+                current_syllable.append(word[i])
+                i += 1
+            # Max two vowels per syllable.
+            vowels = 0
+            while i < len(word) and word[i] in IPA_VOWELS:
+                current_syllable.append(word[i])
+                vowels += 1
+                i += 1
+                if vowels == 2:
+                    break
+            # Find next vowel and take half of the consonants in between.
+            cons_between = 0
+            explorer_i = i
+            while explorer_i < len(word) and word[explorer_i] not in IPA_VOWELS:
+                explorer_i += 1
+                cons_between += 1
+            n_consonants_to_assign = int(cons_between/2) if explorer_i < len(word) else cons_between
+            # Append assigned consonants.
+            while n_consonants_to_assign > 0:
+                current_syllable.append(word[i])
+                i += 1
+                n_consonants_to_assign -= 1
             syllables.append(''.join(current_syllable))
             current_syllable = []
-            vowels_in_syllable = 0
-            trailing_consonants = 0
-        elif vowels_in_syllable > 0 and trailing_consonants > 0 and a in IPA_VOWELS:
-            syllables.append(''.join(current_syllable))
-            current_syllable = [a]
-            vowels_in_syllable = 1
-            trailing_consonants = 0
-        # Cases that continue a syllable.
-        elif a in IPA_VOWELS:
-            current_syllable.append(a)
-            vowels_in_syllable += 1
-        else:
-            if vowels_in_syllable > 0:
-                current_syllable.append(a)
-                trailing_consonants += 1
-            else:
-                current_syllable.append(a)
-    syllables.append(''.join(current_syllable))
-    # print(len(syllables), syllables, phon_line)
     return syllables
 
 
@@ -256,7 +262,5 @@ if __name__ == '__main__':
         scheme = get_rhyme_scheme(input)
     for i in range(len(input)):
         print(scheme[i], input[i])
-    syllables = []
     for line in input:
-        syllables.append(get_syllables(line))
-    print_syllable_check(syllables, lyrics2_syllables_correct)
+        print(get_syllables(line))
