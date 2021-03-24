@@ -765,6 +765,10 @@ lyrics generation articles:
 - https://content.sciendo.com/view/journals/jagi/6/1/article-p87.xml
 - https://dl.acm.org/doi/abs/10.1145/3025171.3025194
 - https://ieeexplore.ieee.org/abstract/document/6897243
+- https://www.kaggle.com/paultimothymooney/poetry-generator-rnn-markov
+- https://www.researchgate.net/publication/291386243_Tra-la-Lyrics_20_Automatic_Generation_of_Song_Lyrics_on_a_Semantic_Domain
+- https://dspace.library.uvic.ca/bitstream/handle/1828/10801/Peterson_Cole_MSc_2019.pdf?sequence=3&isAllowed=y
+- https://github.com/aparrish/gutenberg-poetry-corpus/blob/master/quick-experiments.ipynb (markovove retazce)
 
 FIRST "BASELINE"? RESULTS: (gpt2, without training on my examples)
 0: Roses are red
@@ -811,29 +815,119 @@ TODO (rymy)
             - clanok co popisuje automatizovane pristupy: https://eprints.soton.ac.uk/264285/1/MarchandAdsettDamper_ISCA07.pdf
             - nltk ma automaticke delenie https://www.nltk.org/api/nltk.tokenize.html
             mozno to nepotrebujeme? pouzijeme proste to so slabikami
+            - kniznica pre ARPAbet https://github.com/kylebgorman/syllabify/blob/master/syllabify.py
         vyslovnost
             - IPA vs ARPAbet
             - metrika priamo v prepise vacsinou
             - panphon kniznica ma dogol distance - podobne znejuce fonemy su v triedach ekvivalencie
             - vowel confusion matrix https://www.e-cacd.org/journal/view.php?number=9
-            - https://pdfs.semanticscholar.org/103d/2751591b57963c76e8c81082972ca4eb0321.pdf
+                - https://pdfs.semanticscholar.org/103d/2751591b57963c76e8c81082972ca4eb0321.pdf
         format vystupu
             - je nejaky XML guideline https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-rhyme.html
             - skusit nieco svoje? lahsie? - ale ako?
+        resers
+            - software z versologie https://github.com/versotym/rhymeTagger
+                - 3 formaty outputu
+                - nastavenia - ipa_prob, window
+                - da sa tam pridat basen a dotrenovat ju na nej
+            - https://en.wikipedia.org/wiki/Metaphone
+                - toto je nejaky algoritmus na vypocet cisla/indexu pre dane slovo
+                - slova, ktore zneju podobne maju rovnake cislo (napr. znaky B,P su zgrupene) 
+                - nepracuje so samohlaskami z konca slova kvoli ich rozdielnosti vyslovnosti v roznych prizvukoch
 TODO (web)
     - rovnake pismenka rovnakou farbou
     - napojit sparsar a moj
     - zobrazit rozdiel SPARSAR vs moj
-TODO (gpt2)
+(gpt2)
     - skusit doucit plain textom aj tagmi
+    - pekny GPT2 vysvetlenie s obrazkami https://jalammar.github.io/illustrated-gpt2/
     - VYSKUSAT ci pojde na pc
-TODO-DONE
-    - poslat linky na github
-TODO (text)
+- poslat linky na github
+(text)
     - overit ci je poemviewer open-source
     - zmienit aj nastroje hladajuce vsetky mozne rymy
 
 AKO RIESIT METRIKU KVALITY RYMU?
 - riesit eye rhyme?
+
 -------------------------------------------------------------------------------------------------------------------
 24.2.2021 15:00
+
+TRENOVANIE
+- dev set a test set - dokopy < 1/10
+- prihlasi ma do studentskych klusterov
+- rozbehnut tensorboard
+- golden data na rymy  
+    - https://github.com/DanielJohnBenton/Rime/blob/master/rhymelist.txt
+        - iba zoznam rymujucich sa slov, 74 skupin
+
+- mrknut sa na clanok taggeru
+TODO - spracovat kapitolku o rhyme detektoroch
+TODO - skusit pozriet na nejaku literarnu pracu
+    - evaluacnu metriku ako porovnat moje vystupy s golden datami
+
+
+-------------------------------------------------------------------------------------------------------------------
+5.3.2021 15:00
+
+TODO - urobit porovnanie mojich slabik s CMUdict
+TODO - napisat kapitolku teorie ako robit rhyme detection, rhyme types...
+- u rymov rozlisovat konkretne typy rymov podla https://en.wikipedia.org/wiki/Rhyme
+
+-------------------------------------------------------------------------------------------------------------------
+12.3.2021 15:00
+
+- BLEU skore do evaluace, pripadne detekci rymu
+
+SMALL GPT2, FULL LYRICS RAW AS INPUT, 10 EPOCHS
+0: We were both young when I first saw you.
+I close my eyes and the flashback starts:
+I'm standing there
+On a balcony in summer air.
+See the lights, see the party, the ball gowns,
+See you make your way through the crowd,
+And say, Hello.
+Little did I know...
+
+1: We were both young when I first saw you.
+I close my eyes and the flashback starts:
+I'm standing there
+On a balcony in summer air.
+See the lights, see the party, the ball gowns,
+See you make your way through the crowd,
+And say, Hello.
+Little did I know... hikes begin to climb hiking! Wilderness!23's on hike 67Fingertips kiss away every inch of snow23'10 is nearly complete;99% are still aliveNearly done--23 miles wide—23 more left for me13 flights just wouldn't sufficeNow we're back home tucked behind our 10-gallon pine22 blankets packed full ooze21 stars above as each other cry,
+
+2: We were both young when I first saw you.
+I close my eyes and the flashback starts:
+I'm standing there
+On a balcony in summer air.
+See the lights, see the party, the ball gowns,
+See you make your way through the crowd,
+And say, Hello.
+Little did I know...you'd be right here! :)2013 was awesome. Instead of being famous we grew up as adultswith our parents living near California's beachesAfter three years together went to school? 2013 has been really crazy for me. Iwish that it could've never happened but now its something like an adventure 2013has just begun. 2013 is where i wanna grow old
+
+3: We were both young when I first saw you.
+I close my eyes and the flashback starts:
+I'm standing there
+On a balcony in summer air.
+See the lights, see the party, the ball gowns,
+See you make your way through the crowd,
+And say, Hello.
+Little did I know... RP's on hisway to Copenhagen!TP drives by Copenhagen in our carWe'll meet him halfway around OsloAnd he says thank God for every little change we've made. <Both laugh as they drive away} questsxpThere are three things that we all like bestThe most important is just being with you...|This could be good!| |TP|Should have known this day would come|
+
+4: We were both young when I first saw you.
+I close my eyes and the flashback starts:
+I'm standing there
+On a balcony in summer air.
+See the lights, see the party, the ball gowns,
+See you make your way through the crowd,
+And say, Hello.
+Little did I know...
+
+-------------------------------------------------------------------------------------------------------------------
+19.3.2021 15:00
+
+- napisat Patricii S.
+- zistit preco nie su newliny
+- napisat deep speare o generovane texty a ich evaluaci

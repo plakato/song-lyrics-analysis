@@ -1,14 +1,17 @@
 import itertools
 import os
+import re
 import string
 import sys
 import xml.etree.ElementTree as ET
 import eng_to_ipa
 import cmudict
 import panphon.distance
+from syllabify import syllabify
 
 # PARAMETERS
 # How many lines should rhyme not repeat to be considered a new rhyme.
+import pronouncing
 from rhymetagger import RhymeTagger
 from torch.utils.hipify.hipify_python import bcolors
 
@@ -20,7 +23,13 @@ IPA_VOWELS = {'i', 'y', 'ɨ', 'ʉ', 'ɯ', 'u',
               'ɛ', 'œ', 'ɜ', 'ɞ', 'ʌ', 'ɔ',
               'æ', 'ɐ',
               'a', 'ɶ', 'ɑ', 'ɒ'}
+ARPA_VOWELS = {'AA', 'AE', 'AH', 'AO', 'AW', 'AX', 'AXR', 'AY',
+               'EH', 'ER', 'EY',
+               'IH', 'IX', 'IY',
+               'OW', 'OY',
+               'UH', 'UW', 'UX'}
 dst = panphon.distance.Distance()
+dict = cmudict.dict()
 # Examples of input and output.
 poem1 = ['Roses are red', 'you are tool', 'please don\'t be mad', 'be a fool.']
 poem2 = ["Twinkle, twinkle, little star,", "How I wonder what you are.", "Up above the world so high,", "Like a diamond in the sky.", "When the blazing sun is gone,", "When he nothing shines upon,", "Then you show your little light,", "Twinkle, twinkle, all the night."]
@@ -48,6 +57,7 @@ lyrics2_syllables_correct = [['wi', 'wər', 'boʊθ', 'jəŋ', 'wɪn', 'aɪ', 'f
                              ['aɪl', 'bi', 'ˈweɪ', 'tɪŋ', 'ɔl', 'ðɛrz', 'lɛft', 'tɪ', 'du', 'ɪz', 'rən'],
                              ['jul', 'bi', 'ðə', 'prɪns', 'ənd', 'aɪl', 'bi', 'ðə', 'ˈprɪn', 'sɛs'],
                              ['ɪts', 'ə', 'ləv', 'ˈstɔ', 'ri', 'ˈbeɪ', 'bi', 'ʤɪst', 'seɪ', 'jɛs']]
+
 
 def load_lines_from_sparsar_output(filename):
     tree = ET.parse(filename)
@@ -96,7 +106,105 @@ def get_perfect_rhymes_from_sparsar_output():
     return scheme
 
 
+def get_rhyming_parts_line(words):
+    result = None
+    for word in reversed(words):
+        rhyming_parts, pronunciations = get_rhyming_parts_word(word)
+        if len(pronunciations) == 0:
+            return ''
+        # Add it to result - either rhyming part or the entire word if it was unstressed.
+        if not result:
+            if rhyming_parts:
+                result = rhyming_parts
+                break
+            else:
+                result = [' '.join(pron) for pron in pronunciations]
+        else:
+            # We have a result already, we have to join.
+            if rhyming_parts:
+                new_result = []
+                for rhyming_part in rhyming_parts:
+                    for r in result:
+                        new_result.append(rhyming_part+' '+r)
+                result = new_result
+                break
+            else:
+                new_result = []
+                for pron in pronunciations:
+                    for r in result:
+                        new_result.append(' '.join(pron) + ' ' + r)
+                result = new_result
+        # If we found a rhyming part we're done.
+        if result:
+            break
+    return result
+
+
+# todo nejak zakomponovat ak tam je vyslovnost bez primarneho prizvuku, tiez by mohla byt pouzitelna spolu s predchadzajucim slovom.
+def get_rhyming_parts_word(word):
+    # Strip punctuation.
+    word = word.translate(str.maketrans('', '', string.punctuation))
+    # Convert to all lower-case.
+    word = word.lower()
+    pronunciations = dict.get(word)
+    rhyming_parts = []
+    if pronunciations is None:
+        print('Pronunciation not found for', word)
+        return ''
+    for pron in pronunciations:
+        print(' '.join(pron))
+        # Look for primary or secondary stress backwards.
+        for i in range(len(pron) - 1, -1, -1):
+            if pron[i][-1] in '12':
+                rhyming_part = ' '.join(pron[i:])
+                rhyming_parts.append(rhyming_part.replace('12', ''))
+                break
+    return set(rhyming_parts), pronunciations
+
+
 def rhymes(first, second):
+    rhyme_found = False
+    perfect_rhyme = None
+    identity = False
+    imperfect = False
+    weak = False
+    forced = False
+    assonance = 0
+    conconance = 0
+    words1 = first.split(' ')
+    words2 = second.split(' ')
+    # Look at the phones after last stress mark.
+    rhyming_part1 = get_rhyming_parts_line(words1)
+    rhyming_part2 = get_rhyming_parts_line(words2)
+
+    # Find perfect rhyme and define its type.
+    for elem1 in rhyming_part1:
+        for elem2 in rhyming_part2:
+            if elem1 == elem2:
+                no_stress = elem1.count('0')
+                if no_stress == 0:
+                    perfect_rhyme = 'masculine'
+                elif no_stress == 1:
+                    perfect_rhyme = 'feminine'
+                elif no_stress == 2:
+                    perfect_rhyme = 'dactylic'
+                else:
+                    perfect_rhyme = 'undefined'
+                break
+    if perfect_rhyme:
+        rhyme_found = True
+    return rhyme_found, {'perfect': perfect_rhyme,
+                         'identity': identity,
+                         'impefect': imperfect,
+                         'weak': weak,
+                         'forced': forced,
+                         'assosnance': assonance,
+                         'consonance': conconance}
+
+
+def simple_rhyme_detector(first, second):
+    first = convert_to_phonetic([first])[0]
+    second = convert_to_phonetic([second])[0]
     # Find matching phonemes by transversing the line backwards.
     n_perfect_match = 0
     n_close_match = 0
@@ -203,6 +311,7 @@ def print_syllable_check(computed, correct):
                         break
         print()
 
+
 # Gives next letter given a pattern - alphabetically, after 'z' double 'aa'.
 def next_letter_generator():
     for i in itertools.count(1):
@@ -233,7 +342,7 @@ def get_rhyme_scheme(lines):
         rhyme_found = False
         for lines_back in range(1,min(NO_OF_PRECEDING_LINES,i)+1):
             print(f'Checking >{lines[i]}< versus >{lines[i-lines_back]}<')
-            they_rhyme, _ = rhymes(phon_lines[i], phon_lines[i-lines_back])
+            they_rhyme, _ = rhymes(lines[i], lines[i-lines_back])
             if they_rhyme:
                 rhyme_found = True
                 scheme.append(scheme[i-lines_back])
@@ -252,7 +361,7 @@ def get_scheme_from_tagger(lyrics):
 
 if __name__ == '__main__':
     scheme = ''
-    input = lyrics1
+    input = poem2
     if len(sys.argv) > 1:
         if sys.argv[1] == '-sparsar':
             scheme = get_perfect_rhymes_from_sparsar_output()
@@ -262,5 +371,5 @@ if __name__ == '__main__':
         scheme = get_rhyme_scheme(input)
     for i in range(len(input)):
         print(scheme[i], input[i])
-    for line in input:
-        print(get_syllables(line))
+    # for line in input:
+    #     print(get_syllables(line))
