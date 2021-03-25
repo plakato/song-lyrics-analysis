@@ -9,9 +9,10 @@ class TestRhymeDetector(unittest.TestCase):
                  'impefect': False,
                  'weak': False,
                  'forced': False,
+                 'syllabic': False,
                  'assosnance': 0,
                  'consonance': 0}
-        self.assertEqual((True, result), rsd.rhymes('That is not me' 'I was swimming someplace else'))
+        self.assertEqual((False, []), rsd.rhymes('That is not me', 'I was swimming someplace else'))
 
     def test_perfect_masc(self):
         result = {'perfect': 'masculine',
@@ -19,6 +20,7 @@ class TestRhymeDetector(unittest.TestCase):
                  'impefect': False,
                  'weak': False,
                  'forced': False,
+                 'syllabic': False,
                  'assosnance': 0,
                  'consonance': 0}
         self.assertEqual((True, result), rsd.rhymes('Oh, what a rhyme', 'it\'s so sublime'))
@@ -29,6 +31,7 @@ class TestRhymeDetector(unittest.TestCase):
                  'impefect': False,
                  'weak': False,
                  'forced': False,
+                 'syllabic': False,
                  'assosnance': 0,
                  'consonance': 0}
         self.assertEqual((True, result), rsd.rhymes('You are so picky', 'making it tricky'))
@@ -39,6 +42,7 @@ class TestRhymeDetector(unittest.TestCase):
                  'impefect': False,
                  'weak': False,
                  'forced': False,
+                 'syllabic': False,
                  'assosnance': 0,
                  'consonance': 0}
         self.assertEqual((True, result), rsd.rhymes('I said you\'re a poet', 'it\'s true and you know it'))
@@ -49,6 +53,7 @@ class TestRhymeDetector(unittest.TestCase):
                  'impefect': False,
                  'weak': False,
                  'forced': False,
+                 'syllabic': False,
                  'assosnance': 0,
                  'consonance': 0}
         self.assertEqual((True, result), rsd.rhymes('Sometimes I\'m amorous', 'but always glamorous'))

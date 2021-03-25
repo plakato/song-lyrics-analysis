@@ -929,5 +929,14 @@ Little did I know...
 19.3.2021 15:00
 
 - napisat Patricii S.
-- zistit preco nie su newliny
-- napisat deep speare o generovane texty a ich evaluaci
+    - zistit preco nie su newliny
+DONE- napisat deep speare o generovane texty a ich evaluaci
+- detekcia rymov
+    - zoberiem posledne 4 slabiky
+    - pre kazdy riadok vsetky mozne vyslovnosti
+        - pre kazdy par vyslovnosti:
+            - zhodne cele -> identita
+            - kde je stress?
+            - kolko slabik sa zhoduje?
+            - seriou ifov urcim typ?
+    - na konci skontrolujem assonance, consonance

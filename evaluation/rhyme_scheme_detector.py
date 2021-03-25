@@ -106,100 +106,133 @@ def get_perfect_rhymes_from_sparsar_output():
     return scheme
 
 
-def get_rhyming_parts_line(words):
-    result = None
-    for word in reversed(words):
-        rhyming_parts, pronunciations = get_rhyming_parts_word(word)
-        if len(pronunciations) == 0:
-            return ''
-        # Add it to result - either rhyming part or the entire word if it was unstressed.
-        if not result:
-            if rhyming_parts:
-                result = rhyming_parts
-                break
-            else:
-                result = [' '.join(pron) for pron in pronunciations]
-        else:
-            # We have a result already, we have to join.
-            if rhyming_parts:
-                new_result = []
-                for rhyming_part in rhyming_parts:
-                    for r in result:
-                        new_result.append(rhyming_part+' '+r)
-                result = new_result
-                break
-            else:
-                new_result = []
-                for pron in pronunciations:
-                    for r in result:
-                        new_result.append(' '.join(pron) + ' ' + r)
-                result = new_result
-        # If we found a rhyming part we're done.
-        if result:
-            break
-    return result
-
-
-# todo nejak zakomponovat ak tam je vyslovnost bez primarneho prizvuku, tiez by mohla byt pouzitelna spolu s predchadzajucim slovom.
-def get_rhyming_parts_word(word):
+def get_pronunciation_for_word(word):
     # Strip punctuation.
     word = word.translate(str.maketrans('', '', string.punctuation))
     # Convert to all lower-case.
     word = word.lower()
     pronunciations = dict.get(word)
-    rhyming_parts = []
-    if pronunciations is None:
-        print('Pronunciation not found for', word)
-        return ''
-    for pron in pronunciations:
-        print(' '.join(pron))
-        # Look for primary or secondary stress backwards.
-        for i in range(len(pron) - 1, -1, -1):
-            if pron[i][-1] in '12':
-                rhyming_part = ' '.join(pron[i:])
-                rhyming_parts.append(rhyming_part.replace('12', ''))
+    # todo fallback when not in dictionary
+    return pronunciations
+
+
+# Return a list of strings(=syllables) with space-separated phonemes.
+def get_syllables_ARPA(word):
+    syllables = syllabify.syllabify(word)
+    return [' '.join(' '.join(p) for p in syl).strip() for syl in syllables]
+
+
+def get_pronunciations_for_n_syllables(line, n):
+    words = line.split(' ')
+    result = None
+    for word in reversed(words):
+        pronunciations = get_pronunciation_for_word(word)
+        if len(pronunciations) == 0:
+            return ''
+        syllabifications = [get_syllables_ARPA(pron) for pron in pronunciations]
+        # Append to result.
+        if not result:
+            result = syllabifications
+        else:
+            # We have a result already, we have to join each with each.
+            new_result = []
+            for sylab in syllabifications:
+                for r in result:
+                    new_result.append(sylab+r)
+            result = new_result
+        # If we have n syllables in all syllabifications we're done.
+        reached_n = True
+        for r in result:
+            if len(r) < n:
+                reached_n = False
                 break
-    return set(rhyming_parts), pronunciations
+        if reached_n:
+            break
+    # Shorten each syllabification to n syllables.
+    for i in range(len(result)):
+        if len(result[i]) > n:
+            result[i] = result[i][-4:]
+    return result
 
 
-def rhymes(first, second):
+def extract_syllable_stresses(syllables):
+    stresses = []
+    pron = []
+    for syl in syllables:
+        s = re.findall('[012]', syl)
+        if len(s) > 1:
+            print('BIG BIG ERROR: More than one stress in one syllable. \nSyllable: {syl}\nsequence of syllables {syllables}')
+            exit(1)
+        if len(s) == 0:
+            s = ['0']
+        stresses.append(s[0])
+        pron.append(re.sub('[012]', '', syl))
+    return stresses, pron
+
+
+def pronunciations_rhyme(pron1, pron2, meter1, meter2):
+    # Set variables.
     rhyme_found = False
     perfect_rhyme = None
     identity = False
     imperfect = False
+    syllabic = False
     weak = False
     forced = False
     assonance = 0
     conconance = 0
-    words1 = first.split(' ')
-    words2 = second.split(' ')
-    # Look at the phones after last stress mark.
-    rhyming_part1 = get_rhyming_parts_line(words1)
-    rhyming_part2 = get_rhyming_parts_line(words2)
-
-    # Find perfect rhyme and define its type.
-    for elem1 in rhyming_part1:
-        for elem2 in rhyming_part2:
-            if elem1 == elem2:
-                no_stress = elem1.count('0')
-                if no_stress == 0:
-                    perfect_rhyme = 'masculine'
-                elif no_stress == 1:
-                    perfect_rhyme = 'feminine'
-                elif no_stress == 2:
-                    perfect_rhyme = 'dactylic'
-                else:
-                    perfect_rhyme = 'undefined'
-                break
-    if perfect_rhyme:
+    # Find non-rhymes first to save time.
+    if pron1[-1] != pron2[-1]:
+        pass
+    elif pron1[-2] != pron2[-2]:
+        if meter1[-1] == '1' and meter2[-1] == '1':
+            perfect_rhyme = 'masculine'
+        elif meter1[-1] == '0' and meter2[-1] == '0':
+            syllabic = True
+        else:
+            imperfect = True
+    elif pron1[-3] != pron2[-3]:
+        if meter1[-2:] == ['1', '0'] and meter2[-2:] == ['1', '0']:
+            perfect_rhyme = 'feminine'
+        elif meter1[-2:] == ['0', '0'] and meter2[-2:] == ['0', '0']:
+            syllabic = True
+        else:
+            imperfect = True
+    elif pron1[-3] != pron2[-3]:
+        if meter1[-3:] == ['1', '0', '0'] and meter2[-3:] == ['1', '0', '0']:
+            perfect_rhyme = 'dactylic'
+        else:
+            imperfect = True
+    else:
+        identity = True
+    if perfect_rhyme or identity or imperfect or weak or forced:
         rhyme_found = True
     return rhyme_found, {'perfect': perfect_rhyme,
                          'identity': identity,
                          'impefect': imperfect,
                          'weak': weak,
                          'forced': forced,
+                         'syllabic': syllabic,
                          'assosnance': assonance,
                          'consonance': conconance}
+
+
+def rhymes(first, second):
+    rhyme_found = False
+    statistics = []
+    # Get pronunciations for line-end syllables.
+    end_pronunciations1 = get_pronunciations_for_n_syllables(first, 4)
+    end_pronunciations2 = get_pronunciations_for_n_syllables(second, 4)
+    # Look at each pair of pronunciations.
+    for end_pron1 in end_pronunciations1:
+        stresses1, pron1 = extract_syllable_stresses(end_pron1)
+        for end_pron2 in end_pronunciations2:
+            stresses2, pron2 = extract_syllable_stresses(end_pron2)
+            rhyme, stats = pronunciations_rhyme(pron1, pron2, stresses1, stresses2)
+            if rhyme:
+                rhyme_found = True
+                statistics.append((end_pron1, end_pron2,stats))
+    return rhyme_found, statistics
 
 
 def simple_rhyme_detector(first, second):
@@ -246,7 +279,7 @@ def simple_rhyme_detector(first, second):
 
 
 # Syllables based on number of vowels in phonetic translation.
-def get_syllables(line):
+def get_syllables_IPA(line):
     phon_line = convert_to_phonetic([line])[0]
     syllables = []
     current_syllable = []
@@ -371,5 +404,3 @@ if __name__ == '__main__':
         scheme = get_rhyme_scheme(input)
     for i in range(len(input)):
         print(scheme[i], input[i])
-    # for line in input:
-    #     print(get_syllables(line))
