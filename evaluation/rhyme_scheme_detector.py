@@ -1,4 +1,5 @@
 import itertools
+import math
 import os
 import re
 import string
@@ -31,7 +32,7 @@ ARPA_VOWELS = {'AA', 'AE', 'AH', 'AO', 'AW', 'AX', 'AXR', 'AY',
 dst = panphon.distance.Distance()
 dict = cmudict.dict()
 # Examples of input and output.
-poem1 = ['Roses are red', 'you are tool', 'please don\'t be mad', 'be a fool.']
+poem1 = ['Roses are red', 'you are tool', "please don't be mad", 'be a fool.']
 poem2 = ["Twinkle, twinkle, little star,", "How I wonder what you are.", "Up above the world so high,", "Like a diamond in the sky.", "When the blazing sun is gone,", "When he nothing shines upon,", "Then you show your little light,", "Twinkle, twinkle, all the night."]
 lyrics1 = ["We were both young when I first saw you.", "I close my eyes and the flashback starts:", "I'm standing there", "On a balcony in summer air.", "See the lights, see the party, the ball gowns,", "See you make your way through the crowd,", "And say, Hello.", "Little did I know...",
            "That you were Romeo, you were throwing pebbles", "And my daddy said, Stay away from Juliet.", "And I was crying on the staircase", "Begging you, Please don't go.", "And I said,", "Romeo, take me somewhere we can be alone.", "I'll be waiting. All there's left to do is run.",
@@ -108,7 +109,7 @@ def get_perfect_rhymes_from_sparsar_output():
 
 def get_pronunciation_for_word(word):
     # Strip punctuation.
-    word = word.translate(str.maketrans('', '', string.punctuation))
+    word = re.sub(r"[^\w\d'\s]+",'',word) #word.translate(str.maketrans('', '', string.punctuation))
     # Convert to all lower-case.
     word = word.lower()
     pronunciations = dict.get(word)
@@ -223,7 +224,7 @@ def pronunciations_rhyme(pron1, pron2, meter1, meter2):
 #   0 - absent on at least one side
 #   -1 - totally different
 def evaluate_similarity(A, B):
-    n = len(A)
+    n = min(len(A), len(B))
     result = [(-1, -1, -1)]*n
     for i in range(n):
         Acon1, Avow, Acon2 = A[i]
@@ -265,6 +266,7 @@ def get_stats_for_verse_pair(first, second):
 
 def get_rhyme_rating(stats):
     total_rating = 0
+    min_syll_rating = 0.6
     # How much does each group contribute to rhyme.
     c1_weight = 1
     c2_weight = 2
@@ -293,13 +295,15 @@ def get_rhyme_rating(stats):
             rating += v_weight * v
             if c2 < 0:
                 rating -= 0.5
+            elif c2 == 0:
+                rating += c2_weight/2
         if c2 > 0:
             rating += c2_weight * c2
         if c1 > 0:
             rating += c1_weight * c1
         elif c1 < 0:
             rating -= 0.1
-        return rating/total
+        return meter_rating*rating/total
 
     # Look at last syllable.
     last_syll_rating = rate_syllable(stats['meter1'][-1], stats['meter2'][-1], *stats['similarity'][-1])
@@ -308,7 +312,7 @@ def get_rhyme_rating(stats):
         sectolast_syll_rating = rate_syllable(stats['meter1'][-2], stats['meter2'][-2], *stats['similarity'][-2])
         # We ignore this syllable if we have low rating and we've already seen primary stresses.
         # It means rhyme doesn't extend to this syllable.
-        if sectolast_syll_rating < 0.7 and \
+        if sectolast_syll_rating < min_syll_rating and \
             (stats['meter1'][-2] == 1 or stats['meter1'][-1] == 1) and \
             (stats['meter2'][-2] == 1 or stats['meter2'][-1] == 1):
             return last_syll_rating
@@ -319,7 +323,7 @@ def get_rhyme_rating(stats):
     if len(stats['meter1']) > 2 and len(stats['meter1']) > 2:
         thirdtolast_syll_rating = rate_syllable(stats['meter1'][-3], stats['meter2'][-3], *stats['similarity'][-3])
         # We ignore this syllable if we have low rating.
-        if thirdtolast_syll_rating < 0.7:
+        if thirdtolast_syll_rating < min_syll_rating:
             return total_rating/syll_considered
         else:
             total_rating += thirdtolast_syll_rating
@@ -328,7 +332,7 @@ def get_rhyme_rating(stats):
     if len(stats['meter1']) > 3 and len(stats['meter1']) > 3:
         fourthtolast_syll_rating = rate_syllable(stats['meter1'][-4], stats['meter2'][-4], *stats['similarity'][-4])
         # We ignore this syllable if we have low rating.
-        if fourthtolast_syll_rating < 0.7:
+        if fourthtolast_syll_rating < min_syll_rating:
             return total_rating / syll_considered
         else:
             return (total_rating + fourthtolast_syll_rating)/(syll_considered + 1)
@@ -481,8 +485,8 @@ def convert_to_phonetic(lines):
 
 # For lyrics, detect standard rhyme types.
 def get_rhyme_scheme_and_rating(lines):
-    phon_lines = convert_to_phonetic(lines)
-    print(phon_lines)
+    sum_of_rhyme_ratings = 0
+    rating_for_letter = {}
     # For each line identify its rhyme buddy or assign a new letter.
     letter_gen = next_letter_generator()
     scheme = [next(letter_gen)]
@@ -494,11 +498,31 @@ def get_rhyme_scheme_and_rating(lines):
             they_rhyme, stats = rhymes(lines[i], lines[i-lines_back])
             if they_rhyme:
                 rhyme_found = True
-                scheme.append(scheme[i-lines_back])
+                letter = scheme[i-lines_back]
+                scheme.append(letter)
+                rating_for_letter[letter] = stats['rating']
+                sum_of_rhyme_ratings += stats['rating']
                 break
         if not rhyme_found:
             scheme.append(next(letter_gen))
-    return scheme
+    print("Ratings for individual rhyme scheme letters:", rating_for_letter)
+    # Calculate number of non-rhyming lines.
+    nonrhyming_letters_unique = set()
+    rhyming_letters_unique = set()
+    for l in scheme:
+        if l in nonrhyming_letters_unique:
+            nonrhyming_letters_unique.remove(l)
+            rhyming_letters_unique.add(l)
+        else:
+            nonrhyming_letters_unique.add(l)
+    no_nonrhyming_lines = len(nonrhyming_letters_unique)
+    unique_letters = len(set(scheme))
+    no_rhyming_lines = len(lines) - no_nonrhyming_lines
+    # Calculate overall rating.
+    avg_rhyme_rating = sum_of_rhyme_ratings/len(rhyming_letters_unique)
+    rhymed_lines_ratio = math.log(no_rhyming_lines, len(lines))
+    song_rating = avg_rhyme_rating * rhymed_lines_ratio
+    return scheme, song_rating
 
 
 def get_scheme_from_tagger(lyrics):
@@ -517,14 +541,14 @@ if __name__ == '__main__':
         elif sys.argv[1] == '-tagger':
             scheme = get_scheme_from_tagger(poem1)
     else:
-        ex = 'Dreaming about the tide', 'that washed the shore white.'
-        stats = get_stats_for_verse_pair('Dreaming about the pride', 'that washed the shore rides.')
-        print(f'Analysis of example <{ex}> yielded following statistics:')
-        for stat in stats:
-            for k in stat:
-                print(f'{k}: {stat[k]}')
-            print("rating:", get_rhyme_rating(stat))
-
-    #     scheme = get_rhyme_scheme(input)
-    # for i in range(len(input)):
-    #     print(scheme[i], input[i])
+        # ex = 'Dreaming about the tide', 'that washed the shore white.'
+        # stats = get_stats_for_verse_pair('Dreaming about the pride', 'that washed the shore rides.')
+        # print(f'Analysis of example <{ex}> yielded following statistics:')
+        # for stat in stats:
+        #     for k in stat:
+        #         print(f'{k}: {stat[k]}')
+        #     print("rating:", get_rhyme_rating(stat))
+        scheme, rating = get_rhyme_scheme_and_rating(input)
+        for i in range(len(input)):
+            print(scheme[i], input[i])
+        print("RATING:", rating)
