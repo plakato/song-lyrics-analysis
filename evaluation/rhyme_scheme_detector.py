@@ -116,10 +116,10 @@ def get_pronunciation_for_word(word):
     return pronunciations
 
 
-# Return a list of strings(=syllables) with space-separated phonemes.
+# Returned format is a list of triples - each triplet is one syllable, split to parts by pattern CVC (conconants, vowels, consonants).
 def get_syllables_ARPA(word):
     syllables = syllabify.syllabify(word)
-    return [' '.join(' '.join(p) for p in syl).strip() for syl in syllables]
+    return syllables
 
 
 def get_pronunciations_for_n_syllables(line, n):
@@ -158,15 +158,15 @@ def get_pronunciations_for_n_syllables(line, n):
 def extract_syllable_stresses(syllables):
     stresses = []
     pron = []
-    for syl in syllables:
-        s = re.findall('[012]', syl)
+    for con1, vow, con2 in syllables:
+        s = re.findall('[012]', ' '.join(vow))
         if len(s) > 1:
-            print('BIG BIG ERROR: More than one stress in one syllable. \nSyllable: {syl}\nsequence of syllables {syllables}')
+            print(f'BIG BIG ERROR: More than one stress in one syllable. \nSyllable vowels: {vow}\nsequence of syllables {syllables}')
             exit(1)
         if len(s) == 0:
             s = ['0']
-        stresses.append(s[0])
-        pron.append(re.sub('[012]', '', syl))
+        stresses.append(int(s[0]))
+        pron.append((con1, [re.sub('[012]', '', v) for v in vow], con2))
     return stresses, pron
 
 
@@ -217,8 +217,38 @@ def pronunciations_rhyme(pron1, pron2, meter1, meter2):
                          'consonance': conconance}
 
 
-def rhymes(first, second):
-    rhyme_found = False
+# For a pair of phonetic transcription assign value whether the corresponding pair is
+#   1 - exactly the same
+#   0.5 - sounds similar
+#   0 - absent on at least one side
+#   -1 - totally different
+def evaluate_similarity(A, B):
+    n = len(A)
+    result = [(-1, -1, -1)]*n
+    for i in range(n):
+        Acon1, Avow, Acon2 = A[i]
+        Bcon1, Bvow, Bcon2 = B[i]
+        con1 = evaluate_similarity_for_phoneme_group(Acon1, Bcon1)
+        vow = evaluate_similarity_for_phoneme_group(Avow, Bvow)
+        con2 = evaluate_similarity_for_phoneme_group(Acon2, Bcon2)
+        result[i] = (con1, vow, con2)
+    return result
+
+
+def evaluate_similarity_for_phoneme_group(A, B):
+    # Empty group does not indicate similarity in sound, only in structure.
+    if A == [] or B == []:
+        return 0
+    if A == B:
+        return 1
+    # One is a subset of another.
+    if set(A) <= set(B) or set(B) <= set(A):
+        return 0.5
+    return -1
+
+
+# Returns meter and similarity statistics for each possible pronunciation combination.
+def get_stats_for_verse_pair(first, second):
     statistics = []
     # Get pronunciations for line-end syllables.
     end_pronunciations1 = get_pronunciations_for_n_syllables(first, 4)
@@ -228,13 +258,99 @@ def rhymes(first, second):
         stresses1, pron1 = extract_syllable_stresses(end_pron1)
         for end_pron2 in end_pronunciations2:
             stresses2, pron2 = extract_syllable_stresses(end_pron2)
-            rhyme, stats = pronunciations_rhyme(pron1, pron2, stresses1, stresses2)
-            if rhyme:
-                rhyme_found = True
-                statistics.append((end_pron1, end_pron2,stats))
-    return rhyme_found, statistics
+            similarity = evaluate_similarity(pron1, pron2)
+            statistics.append({'pronunciation1': pron1, 'pronunciation2': pron2, 'meter1': stresses1, 'meter2': stresses2, 'similarity': similarity})
+    return statistics
 
 
+def get_rhyme_rating(stats):
+    total_rating = 0
+    # How much does each group contribute to rhyme.
+    c1_weight = 1
+    c2_weight = 2
+    v_weight = 3
+    identity_penalty = 0.8
+    total = c1_weight + c2_weight + v_weight
+    syll_considered = 1
+
+    def rate_syllable(meter1, meter2, c1, v, c2):
+        rating = 0
+        # Consider secondary stress as primary.
+        meter1 = meter1 if meter1 <= 1 else 1
+        meter_rating = 1
+        if meter1 != meter2:
+            meter_rating = 0.8
+        elif meter1 == 0:
+            meter_rating = 0.9
+        # First get rid of non-rhymes.
+        if c1 <= 0 and c2 <= 0 and v <= 0:
+            return 0
+        # Give penalty for identity.
+        if c1 == 1 and c2 == 1 and v == 1 and meter1 == 1 and meter2 == 1:
+            return identity_penalty
+        # Modify rating depending on similarities and their positions.
+        if v > 0:
+            rating += v_weight * v
+            if c2 < 0:
+                rating -= 0.5
+        if c2 > 0:
+            rating += c2_weight * c2
+        if c1 > 0:
+            rating += c1_weight * c1
+        elif c1 < 0:
+            rating -= 0.1
+        return rating/total
+
+    # Look at last syllable.
+    last_syll_rating = rate_syllable(stats['meter1'][-1], stats['meter2'][-1], *stats['similarity'][-1])
+    # Look at second-to-last syllable.
+    if len(stats['meter1']) > 1 and len(stats['meter1']) > 1:
+        sectolast_syll_rating = rate_syllable(stats['meter1'][-2], stats['meter2'][-2], *stats['similarity'][-2])
+        # We ignore this syllable if we have low rating and we've already seen primary stresses.
+        # It means rhyme doesn't extend to this syllable.
+        if sectolast_syll_rating < 0.7 and \
+            (stats['meter1'][-2] == 1 or stats['meter1'][-1] == 1) and \
+            (stats['meter2'][-2] == 1 or stats['meter2'][-1] == 1):
+            return last_syll_rating
+        else:
+            total_rating = sectolast_syll_rating + last_syll_rating
+            syll_considered += 1
+    # Look at third-to-last syllable.
+    if len(stats['meter1']) > 2 and len(stats['meter1']) > 2:
+        thirdtolast_syll_rating = rate_syllable(stats['meter1'][-3], stats['meter2'][-3], *stats['similarity'][-3])
+        # We ignore this syllable if we have low rating.
+        if thirdtolast_syll_rating < 0.7:
+            return total_rating/syll_considered
+        else:
+            total_rating += thirdtolast_syll_rating
+            syll_considered += 1
+    # Look at fourth-to-last syllable.
+    if len(stats['meter1']) > 3 and len(stats['meter1']) > 3:
+        fourthtolast_syll_rating = rate_syllable(stats['meter1'][-4], stats['meter2'][-4], *stats['similarity'][-4])
+        # We ignore this syllable if we have low rating.
+        if fourthtolast_syll_rating < 0.7:
+            return total_rating / syll_considered
+        else:
+            return (total_rating + fourthtolast_syll_rating)/(syll_considered + 1)
+
+
+# Evaluates a pair of lines and returns the most rhyming pronounciations with their rating.
+def rhymes(first, second):
+    rhyme_found = False
+    statistics = get_stats_for_verse_pair(first, second)
+    highest_rating = -1
+    highest_rated_combo = None
+    for combo in statistics:
+        rating = get_rhyme_rating(combo)
+        if rating > highest_rating:
+            highest_rating = rating
+            highest_rated_combo = combo
+    if highest_rating > 0.7:
+        rhyme_found = True
+    return rhyme_found, {'rating': highest_rating, 'pronunciation': highest_rated_combo}
+
+
+# First attempt to create rhyme detector. Uses IPA translation and checks for identity or similarity using Dogol distance.
 def simple_rhyme_detector(first, second):
     first = convert_to_phonetic([first])[0]
     second = convert_to_phonetic([second])[0]
@@ -364,7 +480,7 @@ def convert_to_phonetic(lines):
 
 
 # For lyrics, detect standard rhyme types.
-def get_rhyme_scheme(lines):
+def get_rhyme_scheme_and_rating(lines):
     phon_lines = convert_to_phonetic(lines)
     print(phon_lines)
     # For each line identify its rhyme buddy or assign a new letter.
@@ -373,9 +489,9 @@ def get_rhyme_scheme(lines):
     for i in range(1, len(lines)):
         # Try if it rhymes with preceding lines.
         rhyme_found = False
-        for lines_back in range(1,min(NO_OF_PRECEDING_LINES,i)+1):
+        for lines_back in range(1,min(NO_OF_PRECEDING_LINES, i)+1):
             print(f'Checking >{lines[i]}< versus >{lines[i-lines_back]}<')
-            they_rhyme, _ = rhymes(lines[i], lines[i-lines_back])
+            they_rhyme, stats = rhymes(lines[i], lines[i-lines_back])
             if they_rhyme:
                 rhyme_found = True
                 scheme.append(scheme[i-lines_back])
@@ -401,6 +517,14 @@ if __name__ == '__main__':
         elif sys.argv[1] == '-tagger':
             scheme = get_scheme_from_tagger(poem1)
     else:
-        scheme = get_rhyme_scheme(input)
-    for i in range(len(input)):
-        print(scheme[i], input[i])
+        ex = 'Dreaming about the tide', 'that washed the shore white.'
+        stats = get_stats_for_verse_pair('Dreaming about the pride', 'that washed the shore rides.')
+        print(f'Analysis of example <{ex}> yielded following statistics:')
+        for stat in stats:
+            for k in stat:
+                print(f'{k}: {stat[k]}')
+            print("rating:", get_rhyme_rating(stat))
+
+    #     scheme = get_rhyme_scheme(input)
+    # for i in range(len(input)):
+    #     print(scheme[i], input[i])
