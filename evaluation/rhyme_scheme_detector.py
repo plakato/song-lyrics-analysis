@@ -32,7 +32,7 @@ ARPA_VOWELS = {'AA', 'AE', 'AH', 'AO', 'AW', 'AX', 'AXR', 'AY',
 dst = panphon.distance.Distance()
 dict = cmudict.dict()
 # Examples of input and output.
-poem1 = ['Roses are red', 'you are tool', "please don't be mad", 'be a fool.']
+poem1 = ['Roses are red', 'you are too', "please don't be mad", 'be a fool.']
 poem2 = ["Twinkle, twinkle, little star,", "How I wonder what you are.", "Up above the world so high,", "Like a diamond in the sky.", "When the blazing sun is gone,", "When he nothing shines upon,", "Then you show your little light,", "Twinkle, twinkle, all the night."]
 lyrics1 = ["We were both young when I first saw you.", "I close my eyes and the flashback starts:", "I'm standing there", "On a balcony in summer air.", "See the lights, see the party, the ball gowns,", "See you make your way through the crowd,", "And say, Hello.", "Little did I know...",
            "That you were Romeo, you were throwing pebbles", "And my daddy said, Stay away from Juliet.", "And I was crying on the staircase", "Begging you, Please don't go.", "And I said,", "Romeo, take me somewhere we can be alone.", "I'll be waiting. All there's left to do is run.",
@@ -228,13 +228,14 @@ def pronunciations_rhyme(pron1, pron2, meter1, meter2):
 def evaluate_similarity(A, B):
     n = min(len(A), len(B))
     result = [(-1, -1, -1)]*n
-    for i in range(n):
-        Acon1, Avow, Acon2 = A[i]
-        Bcon1, Bvow, Bcon2 = B[i]
+    # Traverse backwards in case there is an uneven number of syllables.
+    for i in range(1, n+1):
+        Acon1, Avow, Acon2 = A[-i]
+        Bcon1, Bvow, Bcon2 = B[-i]
         con1 = evaluate_similarity_for_phoneme_group(Acon1, Bcon1)
         vow = evaluate_similarity_for_phoneme_group(Avow, Bvow)
         con2 = evaluate_similarity_for_phoneme_group(Acon2, Bcon2)
-        result[i] = (con1, vow, con2)
+        result[-i] = (con1, vow, con2)
     return result
 
 
@@ -294,6 +295,7 @@ def get_rhyme_rating(stats):
         rating = 0
         # Consider secondary stress as primary.
         meter1 = meter1 if meter1 <= 1 else 1
+        meter2 = meter2 if meter2 <= 1 else 1
         meter_rating = 1
         if meter1 != meter2:
             meter_rating = 0.8
@@ -303,7 +305,7 @@ def get_rhyme_rating(stats):
         if c1 <= 0 and c2 <= 0 and v <= 0:
             return 0
         # Give penalty for identity.
-        if c1 == 1 and c2 == 1 and v == 1 and meter1 == 1 and meter2 == 1:
+        if c1 in [0,1] and c2 == 1 and v == 1 and meter1 == 1 and meter2 == 1:
             return identity_penalty
         # Modify rating depending on similarities and their positions.
         if v >= 0:
@@ -329,8 +331,8 @@ def get_rhyme_rating(stats):
         # We ignore this syllable if we have low rating and we've already seen primary stresses.
         # It means rhyme doesn't extend to this syllable.
         if sectolast_syll_rating < min_syll_rating and \
-            (stats['meter1'][-2] == 1 or stats['meter1'][-1] == 1) and \
-            (stats['meter2'][-2] == 1 or stats['meter2'][-1] == 1):
+            (stats['meter1'][-2] >= 1 or stats['meter1'][-1] >= 1) and \
+            (stats['meter2'][-2] >= 1 or stats['meter2'][-1] >= 1):
             return last_syll_rating
         else:
             total_rating = sectolast_syll_rating + last_syll_rating
@@ -352,6 +354,7 @@ def get_rhyme_rating(stats):
             return total_rating / syll_considered
         else:
             return (total_rating + fourthtolast_syll_rating)/(syll_considered + 1)
+    return total_rating/syll_considered
 
 
 # Evaluates a pair of lines and returns the most rhyming pronounciations with their rating.
@@ -508,6 +511,7 @@ def get_rhyme_scheme_and_rating(lyrics):
     lines = []
     for line in lyrics:
         line = re.sub(r"-", " ", line)
+        line = re.sub(r"’", "'", line)
         line = re.sub(r"[^\w\d'\s]+",'',line)
         line = ' '.join(line.split())
         if line != '':
@@ -515,10 +519,11 @@ def get_rhyme_scheme_and_rating(lyrics):
     # For each line identify its rhyme buddy or assign a new letter.
     letter_gen = next_letter_generator()
     scheme = [next(letter_gen)]
+    ratings = ['NO_RHYME']*len(lines)
     for i in range(1, len(lines)):
         # Try if it rhymes with preceding lines.
         rhyme_found = False
-        for lines_back in range(1,min(NO_OF_PRECEDING_LINES, i)+1):
+        for lines_back in range(1, min(NO_OF_PRECEDING_LINES, i)+1):
             print(f'Checking >{lines[i]}< versus >{lines[i-lines_back]}<')
             they_rhyme, stats = rhymes(lines[i], lines[i-lines_back])
             if they_rhyme:
@@ -528,6 +533,9 @@ def get_rhyme_scheme_and_rating(lyrics):
                 rating_for_letter[letter] = stats['rating']
                 sum_of_rhyme_ratings += stats['rating']
                 n_rhymes += 1
+                ratings[i] = stats['rating']
+                if ratings[i-lines_back] == 'NO_RHYME':
+                    ratings[i-lines_back] = 'NOT_AVAILABLE'
                 break
         if not rhyme_found:
             scheme.append(next(letter_gen))
@@ -537,17 +545,22 @@ def get_rhyme_scheme_and_rating(lyrics):
     rhyming_letters_unique = set()
     for l in scheme:
         if l in nonrhyming_letters_unique:
-            nonrhyming_letters_unique.remove(l)
             rhyming_letters_unique.add(l)
         else:
             nonrhyming_letters_unique.add(l)
+    for letter in rhyming_letters_unique:
+        nonrhyming_letters_unique.remove(letter)
     no_nonrhyming_lines = len(nonrhyming_letters_unique)
     unique_letters = len(set(scheme))
     no_rhyming_lines = len(lines) - no_nonrhyming_lines
     # Calculate overall rating.
     avg_rhyme_rating = sum_of_rhyme_ratings/n_rhymes
-    rhymed_lines_ratio = math.log(no_rhyming_lines, len(lines))
+    rhymed_lines_ratio = no_rhyming_lines/len(lines) # math.log(no_rhyming_lines, len(lines))
     song_rating = avg_rhyme_rating * rhymed_lines_ratio
+    # Print the results.
+    for i in range(len(lines)):
+        print(scheme[i], lines[i], ratings[i])
+    print("RATING:", song_rating)
     return scheme, song_rating, lines
 
 
@@ -572,6 +585,3 @@ if __name__ == '__main__':
                 input = input_file.read().splitlines()
         lines = [line for line in input if line]
         scheme, rating, lines = get_rhyme_scheme_and_rating(lines)
-        for i in range(len(lines)):
-            print(scheme[i], lines[i])
-        print("RATING:", rating)

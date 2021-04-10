@@ -769,6 +769,8 @@ lyrics generation articles:
 - https://www.researchgate.net/publication/291386243_Tra-la-Lyrics_20_Automatic_Generation_of_Song_Lyrics_on_a_Semantic_Domain
 - https://dspace.library.uvic.ca/bitstream/handle/1828/10801/Peterson_Cole_MSc_2019.pdf?sequence=3&isAllowed=y
 - https://github.com/aparrish/gutenberg-poetry-corpus/blob/master/quick-experiments.ipynb (markovove retazce)
+- https://www.gwern.net/GPT-2
+- https://www.gavinoscott.com/uploads/5/7/4/0/57406539/cpe582_paper.pdf
 
 FIRST "BASELINE"? RESULTS: (gpt2, without training on my examples)
 0: Roses are red
@@ -932,18 +934,52 @@ Little did I know...
     - zistit preco nie su newliny
 DONE- napisat deep speare o generovane texty a ich evaluaci
 - detekcia rymov
-    - zoberiem posledne 4 slabiky
+    - zoberiem posledne 4 slabiky po trojiciach CVC
     - pre kazdy riadok vsetky mozne vyslovnosti
         - pre kazdy par vyslovnosti:
-            - zhodne cele -> identita
-            - kde je stress?
+            - davam body za kazdu zhodnu cast
+            - najvacsiu vahu ma samohlaska, potom koncova spoluhlaska, potom ta prva
+            - specialne osetrena identita
             - kolko slabik sa zhoduje?
-            - seriou ifov urcim typ?
     - na konci skontrolujem assonance, consonance
     - zatial radsej z poslednych slabik urcim zhody a priblizne zhody, na urcenie ohodnotenia to staci a typ mozem urcit aj dodatocne
-
+fixovanie algoritmu 
+    - nahradila som ’ za ' lebo niekde pre apostrof pouzili iny znak
+    - nahradila - za medzeru -> pre slova spojene pomlckou to casto nenajde vyslovnost, oddelene su to uz len 2 slova a navyse ak mam pomlcku medzi dvoma medzerami bralo to ako jedno slovo
+    - pri similarity hodnoteni postupovat odzadu, ak sa nezhoduje pocet slabik
 -------------------------------------------------------------------------------------------------------------------
-31.3.2021 16:00
 
--napisat v utorok/stresu rano, ci ma zmysel call, pripadne co som stihla
+- generovanie lyrics:
+    - https://theselyricsdonotexist.com/
+    - https://lyrics.mathigatti.com/
+    - https://www.writerswrite.com/songwriting/lyric-generators/
 
+ako nainstalovat g2p-seq2seq do venv
+    - git clone git@github.com:cmusphinx/g2p-seq2seq.git
+    - wget -O g2p-seq2seq-cmudict.tar.gz https://sourceforge.net/projects/cmusphinx/files/G2P%20Models/g2p-seq2seq-model-6.2-cmudict-nostress.tar.gz/download
+    - tar xf g2p-seq2seq-cmudict.tar.gz
+    * (ak neni v PATH, pridat)  export PATH=/home/patricia/diplomka/song-lyrics-analysis/venv3.7/lib/python3.7:$PATH
+    * export PYTHONPATH=/home/patricia/diplomka/song-lyrics-analysis/venv3.7/lib/python3.7
+    - /home/patricia/diplomka/song-lyrics-analysis/venv3.7/bin/python3.7 setup.py install --prefix=/home/patricia/diplomka/song-lyrics-analysis/venv3.7/lib/python3.7
+    - POZOR predchadzajuci prikaz casto mylne vyzera, ze prebehol OK, pre errory treba skrolovat na zaciatok!
+    - NEFUNGOVALO, INY POKUS:
+    - nainstalovat venv s python3.6 -m venv venv-g2p
+    - pip install setuptools==41.0.0
+    - pip install tensorflow==1.9.0
+
+
+??? pri aktualnom hodnoteni dostanu 2 opakujuce sa riadky rating 0.8, sice sa to povazuje ofiko za slabsi rym, v pesnickach to je caste, nechceme to hodnotit kladnejsie?
+
+
+PREMISES
+    - najdenie dalsieho rymu nema znizit skore
+
+TODO
+    - g2p - skusit a poslat mu ak to zas nepojde
+    - GPT2
+    - metrika rymov star-dark - vzdy zobrat len ten rym s lepsim skore 
+        - vysledne skore poscitat len priemer z koncovych hodnot pri vypise (NO_RHYME==0, NOT_AVAILABLE vynechat)
+    - podobne fonemy 
+        - mini anotace rymov
+    - pisat to uz rovno do textu aspon hocijak, nech sa na to nezabudne
+    - poslat vystup na cca 10 basniach (5 nahodnych + 5 zaujimave pripady) + foneticky prepis
