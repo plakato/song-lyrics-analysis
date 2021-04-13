@@ -947,6 +947,122 @@ fixovanie algoritmu
     - nahradila som ’ za ' lebo niekde pre apostrof pouzili iny znak
     - nahradila - za medzeru -> pre slova spojene pomlckou to casto nenajde vyslovnost, oddelene su to uz len 2 slova a navyse ak mam pomlcku medzi dvoma medzerami bralo to ako jedno slovo
     - pri similarity hodnoteni postupovat odzadu, ak sa nezhoduje pocet slabik
+
+OUTPUT of 1st version:
+Ratings for individual rhyme scheme letters: {'a': 1.0, 'b': 1.0, 'e': 1.0, 'f': 1.0, 'g': 1.0, 'h': 1.0, 'i': 1.0, 'j': 1.0}
+a Twinkle twinkle little star NOT_AVAILABLE
+a How I wonder what you are 1.0
+b Up above the world so high NOT_AVAILABLE
+b Like a diamond in the sky 1.0
+a Twinkle twinkle little star 1.0
+a How I wonder what you are 1.0
+c When the blazing sun is gone NO_RHYME
+d When he nothing shines upon NO_RHYME
+e Then you show your little light NOT_AVAILABLE
+e Twinkle twinkle all the night 1.0
+f Twinkle twinkle little star NOT_AVAILABLE
+f How I wonder what you are 1.0
+f Then the traveller in the dark 0.8571428571428571
+f Thanks you for your tiny spark 1.0
+g He could not see which way to go NOT_AVAILABLE
+g If you did not twinkle so 1.0
+f Twinkle twinkle little star 0.8571428571428571
+f How I wonder what you are 1.0
+h In the dark blue sky you keep NOT_AVAILABLE
+h And often through my curtains peep 1.0
+i For you never shut your eye NOT_AVAILABLE
+i Till the sun is in the sky 1.0
+j Twinkle twinkle little star NOT_AVAILABLE
+j How I wonder what you are 1.0
+RATING: 0.8979591836734694
+
+Ratings for individual rhyme scheme letters: {'b': 0.9, 'f': 0.9, 's': 0.7007142857142857}
+a Spirits here are quite high NO_RHYME
+b There's a strong sense of achievement NOT_AVAILABLE
+c Some experts had warned that it might take NO_RHYME
+b weeks to free the Ever Given 0.7714285714285715
+d But the high tide NO_RHYME
+e as well as the specialist NO_RHYME
+b equipment brought in 0.9
+f all helped the rescue operation NOT_AVAILABLE
+g Now the authorities will have to NO_RHYME
+f address another challenge congestion 0.9
+h The head of the Suez Canal Authority said NO_RHYME
+i that hundreds of stranded vessels would be allowed NO_RHYME
+j through the canal on a first come first served basis NO_RHYME
+k though there might be some exceptions to specific ships NO_RHYME
+l based on the types of goods on board NO_RHYME
+m The blockage put the authorities NO_RHYME
+n under immense pressure NO_RHYME
+o given the major impact NO_RHYME
+p it had on global trade NO_RHYME
+q For Egyptians the canal is NO_RHYME
+r not only a source of national pride NO_RHYME
+s but it also provides the economy NOT_AVAILABLE
+s with much needed foreign currency 0.7007142857142857
+t A couple of days ago NO_RHYME
+u I asked Osama Rabies NO_RHYME
+s the head of the Suez Canal Authority 0.7007142857142857
+v whether he was concerned that some NO_RHYME
+w shipping companies might be discouraged NO_RHYME
+x from sending such giant ships NO_RHYME
+y through the canal in the future NO_RHYME
+z He replied that there was NO_RHYME
+aa no alternative to the Suez Canal NO_RHYME
+ab which he said was fast and safe NO_RHYME
+ac So it's not just about time here NO_RHYME
+ad but also about security NO_RHYME
+RATING: 0.18161632653061224
+
+Ratings for individual rhyme scheme letters: {'a': 1.0}
+a Hallucinate desegregate NOT_AVAILABLE
+a Mediate alleviate 1.0
+a Try not to hate 1.0
+a Love your mate 1.0
+a Don't suffocate on your own hate 1.0
+a Designate your love as fate 1.0
+a A one world state as human freight 1.0
+a The number eight a white black state 1.0
+a A gentle trait the broken crate 1.0
+a A heavy weight or just too late 1.0
+a Like pretty Kate has sex ornate 1.0
+a Now devastate appreciate 1.0
+a Depreciate fabricate 1.0
+a Emulate the truth dilate 1.0
+a Special date the animal we ate 1.0
+a Guilt debate the edge serrate 1.0
+a A better rate the youth irate 0.8
+a Deliberate fascinate 1.0
+a Deviate reinstate 1.0
+a Liberate to moderate 1.0
+a Recreate or detonate 1.0
+a Annihiliate atomic fate 1.0
+a Mediate clear the state 1.0
+a Activate now radiate 1.0
+a A perfect state food on plate 1.0
+a Gravitate the Earth's own weight 1.0
+a Designate your love as fate 1.0
+a At ninety eight we all rotate 1.0
+a Hallucinate desegregate 1.0
+a Mediate alleviate 1.0
+a Try not to hate love your mate 1.0
+a Don't suffocate on your own hate 1.0
+a Designate your love as fate 1.0
+a A one world state as human freight 1.0
+a The number eight a white black state 1.0
+a A gentle trait the broken crate 1.0
+a A heavy weight or just too late 1.0
+a Like pretty Kate has sex ornate 1.0
+a Now devastate appreciate 1.0
+a Depreciate fabricate 1.0
+a Emulate the truth dilate 1.0
+a Special date the animals we ate 1.0
+a Guilt debate the edge serrate 1.0
+a A better rate the youth irate 0.8
+a Deliberate fascinate 1.0
+a Deviate reinstate 1.0
+a Liberate to liberate 1.0
+RATING: 0.9913043478260868
 -------------------------------------------------------------------------------------------------------------------
 
 - generovanie lyrics:
@@ -976,10 +1092,32 @@ PREMISES
 
 TODO
     - g2p - skusit a poslat mu ak to zas nepojde
+        - DONE zatial ignorujeme nezname 
     - GPT2
-    - metrika rymov star-dark - vzdy zobrat len ten rym s lepsim skore 
-        - vysledne skore poscitat len priemer z koncovych hodnot pri vypise (NO_RHYME==0, NOT_AVAILABLE vynechat)
+    - DONE metrika rymov star-dark - vzdy zobrat len ten rym s lepsim skore 
+        - DONE vysledne skore poscitat len priemer z koncovych hodnot pri vypise (NO_RHYME==0, NOT_AVAILABLE vynechat)
     - podobne fonemy 
-        - mini anotace rymov
+        - mini anotace rymov alebo metoda postupneho zoskupovania
+    - DONE pridat porovnanie poctu slabik            
     - pisat to uz rovno do textu aspon hocijak, nech sa na to nezabudne
-    - poslat vystup na cca 10 basniach (5 nahodnych + 5 zaujimave pripady) + foneticky prepis
+    - poslat vystup na cca 10 basniach (5 nahodnych + 5 zaujimave pripady) + DONE foneticky prepis
+
+POVODNE RIESENIE
+    + ak pesnicke rym pribudne, skore sa zvysi 
+    - ak pribudne slaby rym, tak sa moze aj znizit
+
+NOVE RIESENIE
+    + pesnicka ABAB bude mat plne skore
+    - dava nizke hodnotenie aj realnym pesnickam (napr. All_in_Together_Lyrics dostalo 0.3)
+    - rymujuci par sa zapocitava len raz, ale nerymujuci vlastne dva krat (za kazdy riadok)
+
+SIMILARITY EXAMPES:
+AA, AH - "cop", "up"
+AA, AO - "gone", "upon"
+M , N  - "shame", "again"
+T , TH - "drought", "mouth"
+NG, N  - "on", "long"
+AO, OW - "floor", "gold"
+
+NOT SIMILAR EXAMPLES:
+AA, AY - "Glock", "like"
