@@ -16,6 +16,7 @@ from evaluation.constants import poem1, NO_OF_PRECEDING_LINES, SIMILAR_SOUNDS
 
 dict = cmudict.dict()
 
+
 def get_pronunciation_for_word(word):
     # Strip punctuation except apostrophes.
     word = re.sub(r"[^\w\d'\s]+",'',word)
@@ -238,7 +239,7 @@ def get_rhyme_rating(stats):
         if c1 <= 0 and c2 <= 0 and v <= 0:
             return 0
         # Give penalty for identity.
-        if c1 in [0,1] and c2 == 1 and v == 1 and meter1 == 1 and meter2 == 1:
+        if c1 in [0, 1] and c2 in [0, 1] and v == 1 and meter1 == 1 and meter2 == 1:
             return identity_penalty
         # Modify rating depending on similarities and their positions.
         if v >= 0:

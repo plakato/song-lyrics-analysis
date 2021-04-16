@@ -1096,11 +1096,11 @@ TODO
     - GPT2
     - DONE metrika rymov star-dark - vzdy zobrat len ten rym s lepsim skore 
         - DONE vysledne skore poscitat len priemer z koncovych hodnot pri vypise (NO_RHYME==0, NOT_AVAILABLE vynechat)
-    - podobne fonemy 
+    - HALF DONE podobne fonemy 
         - mini anotace rymov alebo metoda postupneho zoskupovania
     - DONE pridat porovnanie poctu slabik            
-    - pisat to uz rovno do textu aspon hocijak, nech sa na to nezabudne
-    - poslat vystup na cca 10 basniach (5 nahodnych + 5 zaujimave pripady) + DONE foneticky prepis
+    - STARTED pisat to uz rovno do textu aspon hocijak, nech sa na to nezabudne
+    - DONE poslat vystup na cca 10 basniach (5 nahodnych + 5 zaujimave pripady) + DONE foneticky prepis
 
 POVODNE RIESENIE
     + ak pesnicke rym pribudne, skore sa zvysi 
@@ -1119,5 +1119,18 @@ T , TH - "drought", "mouth"
 NG, N  - "on", "long"
 AO, OW - "floor", "gold"
 
-NOT SIMILAR EXAMPLES:
+DEFINITELY NOT SIMILAR EXAMPLES:
 AA, AY - "Glock", "like"
+OW, UW - "tomorrow", "you"
+IH, IY - "to", "me"
+
+-------------------------------------------------------------------------------------------------------------------
+
+TODO 
+    - ist len po prvu prizvucnu slabiku
+    - DONE kolko percent bez vyslovnosti tvoria cisla
+    - DONE 6. "pot scale" preco nema pronunciation? - nepozna slovo lacing
+    - prilis casto NOT_AVAILABLE
+    - pokracovat podobne fonemy
+    - kapitolku o datach
+    - do buducna zeby mi to vratilo aj typ rymu a mohla som robit statistiky na datach napr. podla zanru

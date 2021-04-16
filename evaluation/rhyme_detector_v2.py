@@ -2,8 +2,7 @@ import re
 import sys
 
 from evaluation.constants import NO_OF_PRECEDING_LINES
-from evaluation.rhyme_detector_simple import get_syllables_IPA
-from evaluation.rhyme_detector_v1 import next_letter_generator, rhymes, get_syllables_ARPA, get_pronunciation_for_word
+import evaluation.rhyme_detector_v1 as rd1
 
 NOT_AVAILABLE = 'NOT_AVAILABLE'
 
@@ -18,9 +17,9 @@ def get_syllable_count_and_pronunciations(lyrics):
         for word in words:
             sylls = None
             # Tries to get syllables using syllabify library.
-            pron = get_pronunciation_for_word(word)
+            pron = rd1.get_pronunciation_for_word(word)
             if pron:
-                sylls = get_syllables_ARPA(pron[0])
+                sylls = rd1.get_syllables_ARPA(pron[0])
                 line_pron.append(' '.join(pron[0]))
             if not sylls:
                 # Estimates number of syllables as number of vowel groups in the word.
@@ -35,6 +34,24 @@ def get_syllable_count_and_pronunciations(lyrics):
     for i in range(len(lines)):
         print(syll_counts[i], lines[i])
     return syll_counts, pronunciations
+
+
+# Evaluates a pair of lines and returns the most rhyming pronunciations with their rating.
+def rhymes(first, second):
+    rhyme_found = False
+    statistics = rd1.get_stats_for_verse_pair(first, second)
+    if len(statistics) == 1 and not statistics[0]['similarity']:
+        return False, {'rating': 0, 'pronunciation': statistics[0]}
+    highest_rating = -1
+    highest_rated_combo = None
+    for combo in statistics:
+        rating = rd1.get_rhyme_rating(combo)
+        if rating > highest_rating:
+            highest_rating = rating
+            highest_rated_combo = combo
+    if highest_rating >= 0.7:
+        rhyme_found = True
+    return rhyme_found, {'rating': highest_rating, 'pronunciation': highest_rated_combo}
 
 
 # Prepare lines by removing punctuation and empty lines.
@@ -52,10 +69,11 @@ def preprocess_lyrics(lyrics):
 
 # For lyrics, detect standard rhyme types.
 def get_rhyme_scheme_and_rating(lines):
+    syll_counts, _ = get_syllable_count_and_pronunciations(lines)
     rating_for_letter = {}
     pronunciations = ['']*len(lines)
     # For each line identify its rhyme buddy or assign a new letter.
-    letter_gen = next_letter_generator()
+    letter_gen = rd1.next_letter_generator()
     scheme = [next(letter_gen)]
     ratings = [0]*len(lines)
     # We ignore the rating of first line of the rhymed pair. Otherwise we would count each rating twice.
@@ -84,10 +102,14 @@ def get_rhyme_scheme_and_rating(lines):
                     ratings[i-lines_back] = stats['rating']
                     ignored_ratings[i-lines_back] = True
                 # There already is a rating but it's worse - replace it with new rating
-                # TODO think about this case...AABB vs AcAcA
                 elif stats['rating'] > ratings[i-lines_back] > 0:
-                    ignored_ratings[i - lines_back] = True
-                    ratings[i - lines_back] = stats['rating']
+                    # Careful - only replace if previous line has something else to rhyme with - otherwise keep both.
+                    for preceding in range(1,NO_OF_PRECEDING_LINES+1):
+                        index = i-lines_back-preceding
+                        if index >= 0 and scheme[index] == letter and not ignored_ratings[index]:
+                            ignored_ratings[i - lines_back] = True
+                            ratings[i - lines_back] = stats['rating']
+                            break
                 break
         if not rhyme_found:
             scheme.append(next(letter_gen))
@@ -115,7 +137,7 @@ def get_rhyme_scheme_and_rating(lines):
             pron = [' '.join(' '.join(letters) for letters in triplet) for triplet in pronunciations[i]]
             # Remove possible meter.
             pron = [re.sub('[012]', '', syll) for syll in pron]
-        print(f'{scheme[i]:<2}', f'{rating_value[:13]:<13}', lines[i], pron)
+        print(f'{scheme[i]:<2}', f'{rating_value[:13]:<13}', f'{syll_counts[i]:<2}', lines[i], pron)
     print("RATING:", song_rating)
     return scheme, song_rating, lines
 
@@ -128,5 +150,4 @@ if __name__ == '__main__':
         input = input_file.read().splitlines()
     lines = [line for line in input if line]
     lines = preprocess_lyrics(lines)
-    syll_counts, _ = get_syllable_count_and_pronunciations(lines)
     scheme, rating, lines = get_rhyme_scheme_and_rating(lines)

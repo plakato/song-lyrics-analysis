@@ -14,14 +14,9 @@ ARPA_VOWELS = {'AA', 'AE', 'AH', 'AO', 'AW', 'AX', 'AXR', 'AY',
                'IH', 'IX', 'IY',
                'OW', 'OY',
                'UH', 'UW', 'UX'}
-SIMILAR_SOUNDS = [['B'], ['CH'], ['D'], ['DH'], ['DX'], ['EL'], ['EM'], ['EN'], ['F'], ['G'], ['HH'],
-                  ['JH'], ['K'], ['L'], ['M', 'N', 'NG'], ['P'], ['Q'], ['R'], ['S'], ['SH'], ['T', 'TH'],
-                  ['V'], ['W'], ['WH'], ['Y'], ['Z'], ['ZH'],
-                  ['AA', 'AO'], ['AA', 'AH'], ['AE'], ['AW'], ['AX'], ['AXR'], ['AY'],
-                  ['EH'], ['ER'], ['EY'],
-                  ['IH'], ['IX'], ['IY'],
-                  ['OW', 'AO'], ['OY'],
-                  ['UH'], ['UW'], ['UX']]
+SIMILAR_SOUNDS = [['M', 'N'], ['N', 'NG'], ['T', 'TH'],
+                  ['AA', 'AO'], ['AA', 'AH'], ['AW', 'OW'],
+                  ['IH', 'AH'], ['OW', 'AO']]
 dst = panphon.distance.Distance()
 dict = cmudict.dict()
 # Examples of input and output.
