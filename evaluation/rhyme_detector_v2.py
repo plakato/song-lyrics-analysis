@@ -36,6 +36,68 @@ def get_syllable_count_and_pronunciations(lyrics):
     return syll_counts, pronunciations
 
 
+def get_rhyme_rating(stats):
+    ratings = []
+    # How much does each group contribute to rhyme.
+    c1_weight = 1
+    c2_weight = 2
+    v_weight = 4
+    identity_penalty = 0.8
+    total = c1_weight + c2_weight + v_weight
+    syll_considered = 0
+    # Where to stop analysis - if we've seen both stresses (looking backwards).
+    stop = max(min(filter(lambda i: stats['meter1'][-i] >= 1, range(1, len(stats['meter1'])+1))),
+               min(filter(lambda i: stats['meter2'][-i] >= 1, range(1, len(stats['meter2'])+1))))
+
+    def rate_syllable(meter1, meter2, c1, v, c2):
+        rating = 0
+        # Consider secondary stress as primary.
+        meter1 = meter1 if meter1 <= 1 else 1
+        meter2 = meter2 if meter2 <= 1 else 1
+        # Both stressed have the best rating.
+        # But if it's identity, give it full rating as well, identity with different stress doesn't make sense.
+        if (meter1 == 1 and meter2 == 1) or (c1 == 1 and v == 1 and c2 == 1):
+            meter_rating = 1
+        elif meter1 != meter2:
+            meter_rating = 0.8
+        elif meter1 == 0:
+            meter_rating = 0.9
+        # First get rid of non-rhymes.
+        if c1 <= 0 and c2 <= 0 and v <= 0:
+            return 0
+        # Give penalty for identity.
+        if c1 in [0, 1] and c2 in [0, 1] and v == 1 and meter1 == 1 and meter2 == 1:
+            return identity_penalty
+        # Modify rating depending on similarities and their positions.
+        if v >= 0:
+            rating += v_weight * v
+            # Lower rating if last consonant doesn't match.
+            if c2 < 0:
+                rating += c2/10
+        # If last consonant is absent, it's technically a match.
+        if c2 >= 0:
+            rating += c2_weight*(c2 if c2 != 0 else 1)
+        # If first consonant matches or the condition for perfect rhyme is fulfilled.
+        if c1 >= 0 or (c2 >= 0 and v >= 0):
+            rating += c1_weight
+        elif c1 < 0:
+            rating += c1/10
+        return meter_rating*rating/total
+
+    # Look at syllables backwards one by one until stop index.
+    for i in range(1, min(len(stats['meter1']), len(stats['meter2'])) + 1):
+        syll_rating = rate_syllable(stats['meter1'][-i], stats['meter2'][-i], *stats['similarity'][-i])
+        # Special case for multisyllable perfect rhyme.
+        if i > 1 and syll_rating == 1.0 and stats['meter1'][-i] >= 1 and stats['meter2'][-i] >= 1 and \
+                all(r == identity_penalty for r in ratings):  # all previous ratings were identities
+            ratings = [1.0]*len(ratings)    # We give it a perfect rating.
+        ratings = [syll_rating] + ratings
+        syll_considered += 1
+        if stop == i:
+            return sum(ratings)/syll_considered
+    return sum(ratings)/syll_considered
+
+
 # Evaluates a pair of lines and returns the most rhyming pronunciations with their rating.
 def rhymes(first, second):
     rhyme_found = False
@@ -45,7 +107,7 @@ def rhymes(first, second):
     highest_rating = -1
     highest_rated_combo = None
     for combo in statistics:
-        rating = rd1.get_rhyme_rating(combo)
+        rating = get_rhyme_rating(combo)
         if rating > highest_rating:
             highest_rating = rating
             highest_rated_combo = combo
@@ -104,7 +166,7 @@ def get_rhyme_scheme_and_rating(lines):
                 # There already is a rating but it's worse - replace it with new rating
                 elif stats['rating'] > ratings[i-lines_back] > 0:
                     # Careful - only replace if previous line has something else to rhyme with - otherwise keep both.
-                    for preceding in range(1,NO_OF_PRECEDING_LINES+1):
+                    for preceding in range(1, NO_OF_PRECEDING_LINES+1):
                         index = i-lines_back-preceding
                         if index >= 0 and scheme[index] == letter and not ignored_ratings[index]:
                             ignored_ratings[i - lines_back] = True
