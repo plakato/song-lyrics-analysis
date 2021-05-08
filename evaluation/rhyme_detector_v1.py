@@ -167,10 +167,10 @@ def evaluate_similarity_for_phoneme_group(A, B):
         return 1
     # They are similar sounding phonemes.
     if len(A) == 1 and len(B) == 1 and sound_similar(A[0], B[0]):
-        return 0.7
+        return 0.75
     # One is a subset of another.
     if set(A) <= set(B) or set(B) <= set(A):
-        return 0.7
+        return 0.75
     # Check whether multi-letter groups don't share a letter.
     if len(A) > 1 or len(B) > 1:
         if len(B) < len(A):

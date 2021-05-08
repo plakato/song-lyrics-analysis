@@ -3,7 +3,8 @@ import json
 import os
 from os.path import isfile, join
 import numpy as np
-import matplotlib.pyplot as mpl
+import matplotlib.pyplot as plt
+
 from collections import Counter
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -86,56 +87,13 @@ def graph_verse_count_vs_rhyme_class_count(dir):
         sizes = [5 * c[key] for key in c]
         x = [key]*len(c)
         y = c.keys()
-        mpl.scatter(x, y, s=sizes, alpha=0.3, color='r', linewidths=0.0)
+        plt.scatter(x, y, s=sizes, alpha=0.3, color='r', linewidths=0.0)
     # mpl.xlim(0, 70)
     # mpl.ylim(0,35)
-    mpl.xlabel('Verses')
-    mpl.ylabel('Rhyme classes')
-    mpl.title('Relationship between verse count and rhyme class count')
-    mpl.savefig('graphs/verse_count_vs_rhyme_class_count.png', dpi=300)
-
-
-def filter_unique(input_file, output_file):
-    with open(input_file) as file:
-        data = json.load(file)
-        total = 0
-        unique_lyrics = set()
-        unique = []
-        for song in data:
-            lyrics = ''.join(song['lyrics'])
-            if not lyrics in unique_lyrics:
-                unique.append(song)
-            unique_lyrics.add(lyrics)
-            total += 1
-        print('total: ', total)
-
-    print('Unique: ', len(unique))
-    save_dataset(unique, output_file)
-
-
-# Save in json format.
-def save_dataset(dataset, output_file):
-    with open(output_file, 'w+') as output:
-        output.write('[\n')
-        i = 0
-        for song in dataset:
-            if i != 0:
-                output.write(',\n')
-            json.dump(song, output)
-            i += 1
-        output.write('\n]')
-
-
-def add_word_count(filename):
-    with open(filename) as f:
-        songs = json.load(f)
-        for song in songs:
-            total_words = 0
-            for line in song['lyrics']:
-                words = line.strip().split()
-                total_words += len(words)
-            song['words'] = total_words
-    save_dataset(songs, filename)
+    plt.xlabel('Verses')
+    plt.ylabel('Rhyme classes')
+    plt.title('Relationship between verse count and rhyme class count')
+    plt.savefig('graphs/verse_count_vs_rhyme_class_count.png', dpi=300)
 
 
 def create_histogram_for_length(input_file):
@@ -155,8 +113,8 @@ def create_histogram_for_length(input_file):
     plt.hist(x=songs_char_len, bins=bins, color='#abd7eb')
     plt.yscale('log')
     plt.xscale('log')
-    plt.axvline(x=65, color='red')
-    plt.axvline(x=120000, color='red')
+    plt.axvline(x=20, color='red')
+    plt.axvline(x=45000, color='red')
     plt.xlabel('Length in characters')
     plt.ylabel('No. of songs with given length')
     plt.title('Histogram of length in characters')
@@ -168,7 +126,7 @@ def create_histogram_for_length(input_file):
     plt.yscale('log')
     plt.xscale('log')
     plt.axvline(x=10, color='red')
-    plt.axvline(x=21000, color='red')
+    plt.axvline(x=9000, color='red')
     plt.xlabel('Length in words')
     plt.ylabel('No. of songs with given length')
     plt.title('Histogram of length in words')
@@ -179,7 +137,7 @@ def create_histogram_for_length(input_file):
     plt.hist(x=songs_lines, bins=bins, color='#abd7eb')  # 0504aa
     plt.yscale('log')
     plt.xscale('log')
-    plt.axvline(x=2.5, color='red')
+    plt.axvline(x=6, color='red')
     plt.axvline(x=2000, color='red')
     plt.xlabel('Length in lines')
     plt.ylabel('No. of songs with given length')
@@ -237,8 +195,6 @@ def print_statistics(input_file):
             if total_songs == 0:
                 attributes = song.keys()
                 attributes_count = dict.fromkeys(attributes, 0)
-            if song['is_music'] != 'true':
-                continue
             total_songs += 1
             total_lines += len(song['lyrics'])
             for line in song['lyrics']:
@@ -250,41 +206,46 @@ def print_statistics(input_file):
             for attr in attributes:
                 if not (song[attr] == '' or \
                         song[attr] == [] or \
-                        song[attr] == 'N/A'):
+                        song[attr] == 'N/A' or \
+                        song[attr] == 'null'):
                     attributes_count[attr] += 1
-            try:
-                lyrics = ''.join(song['lyrics'])
-                isReliable, textBytesFound, details = cld2.detect(lyrics)
-                lang = details[0][0]
-                if lang in languages:
-                    languages[lang] += 1
-                else:
-                    languages[lang] = 1
-            except:
-                undetected_lang += 1
-
+            lang = song['lang']
+            if lang in languages:
+                languages[lang] += 1
+            else:
+                languages[lang] = 1
+    # Sort language by count.
+    languages = dict(sorted(languages.items(), key=lambda item: item[1]))
+    save_piechart_with_genres(genres)
     print('Total songs: ', total_songs)
     print('Average number of lines per song: ', total_lines/total_songs)
     print('Average number of words per line: ', total_words/total_lines)
     print('Genres: \n', genres)
-    print('Attributes:\n', attributes_count)
+    print('Attributes (count of non-empty values):\n', attributes_count)
     print('Languages:\n', len(languages))
     print(languages)
     print('Undetected: ', undetected_lang)
 
 
+def save_piechart_with_genres(genres):
+    # Data to plot
+    labels = genres.keys()
+    sizes = genres.values()
+    colors = ['#e76f51', '#f4a261', '#e9c46a', '#2a9d8f', '#264653']
+    fig, ax = plt.subplots(figsize=(6, 3), subplot_kw=dict(aspect="equal"))
+    # Plot
+    wedges, texts, autotexts = ax.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140)
+    ax.legend(wedges, labels, title="Genres", loc="center left", bbox_to_anchor=(1, 0, 0.5, 1))
+
+    plt.setp(autotexts, size=8)
+    plt.axis('equal')
+    plt.savefig('graphs/piechart_genres.png')
+    plt.show()
+
+
 def main():
-    # filter_unique('lyrics_cleaned.json', 'lyrics_cleaned_unique.json')
-    # print_short_and_long('data/ENlyrics_cleaned.json')
-    create_histogram_for_length('data/ENlyrics_cleaned.json')
-    # detect_languages('data/100lyrics_cleaned.json')
-    # print_statistics('lyrics_cleaned_unique.json')
-    # create_clean_dataset('data/lyrics_cleaned_unique.json', 'data/
-    # lyrics_cleaned2.json')
-    # remove_noise('data/10000lyrics_cleaned.json')
-    # add_word_count('data/lyrics_cleaned.json')
-    # graph_verse_count_vs_rhyme_class_count('sparsar_experiments/rhymes/original')
-    # test_CRP('sparsar_experiments/rhymes/original')
+    # create_histogram_for_length('data/ENlyrics_cleaned_unique.json')
+    print_statistics('data/ENlyrics_final.json')
 
 
 if __name__== "__main__":

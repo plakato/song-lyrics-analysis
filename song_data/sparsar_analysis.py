@@ -6,7 +6,7 @@ import re
 import shlex
 import subprocess
 from os.path import join, isfile
-from analyze_data import save_dataset
+from preprocess_data import save_dataset
 import xml.etree.ElementTree as ET
 # import altered_data_generator
 
@@ -14,6 +14,25 @@ import xml.etree.ElementTree as ET
 # File where indexes of songs for which SPARSAR analysis failed are written.
 failed='sparsar_failed_song_idxs.txt'
 
+# Input: file with multiple songs in json
+# Creates a separate file for each song.
+def create_individual_files(filename):
+    with open(filename) as input:
+        data = json.load(input)
+        i = 0
+        for song in data:
+            if song['lang'] != 'ENGLISH':
+                continue
+            i += 1
+            # # Take just hundred songs.
+            # if i < 200 or i > 300:
+            #     continue
+            # Get rid of slashes because they can affect the file location.
+            song_file = song['title'].replace('/', '') + '.txt'
+            print(song_file)
+            create_sparsar_input_file_from_song(song,
+                                                'data/individual_songs/' +
+                                                song_file)
 
 def create_sparsar_input_file_from_song(song, output_filename):
     with open(output_filename, 'w+') as output:

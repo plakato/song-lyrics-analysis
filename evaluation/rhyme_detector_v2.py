@@ -4,7 +4,7 @@ import sys
 from evaluation.constants import NO_OF_PRECEDING_LINES
 import evaluation.rhyme_detector_v1 as rd1
 
-NOT_AVAILABLE = 'NOT_AVAILABLE'
+NOT_AVAILABLE = 'X'
 
 
 def get_syllable_count_and_pronunciations(lyrics):
@@ -71,9 +71,6 @@ def get_rhyme_rating(stats):
         # Modify rating depending on similarities and their positions.
         if v >= 0:
             rating += v_weight * v
-            # Lower rating if last consonant doesn't match.
-            if c2 < 0:
-                rating += c2/10
         # If last consonant is absent, it's technically a match.
         if c2 >= 0:
             rating += c2_weight*(c2 if c2 != 0 else 1)
@@ -199,7 +196,7 @@ def get_rhyme_scheme_and_rating(lines):
             pron = [' '.join(' '.join(letters) for letters in triplet) for triplet in pronunciations[i]]
             # Remove possible meter.
             pron = [re.sub('[012]', '', syll) for syll in pron]
-        print(f'{scheme[i]:<2}', f'{rating_value[:13]:<13}', f'{syll_counts[i]:<2}', lines[i], pron)
+        print(f'{scheme[i]:<2}', f'{rating_value[:3]:<3}', f'{syll_counts[i]:<2}', lines[i], pron)
     print("RATING:", song_rating)
     return scheme, song_rating, lines
 

@@ -17,6 +17,10 @@ ARPA_VOWELS = {'AA', 'AE', 'AH', 'AO', 'AW', 'AX', 'AXR', 'AY',
 SIMILAR_SOUNDS = [['M', 'N'], ['N', 'NG'], ['T', 'TH'],
                   ['AA', 'AO'], ['AA', 'AH'], ['AW', 'OW'],
                   ['IH', 'AH'], ['OW', 'AO']]
+# Differing in place of articulation only (nasals/voiceless plosives/sibilants).
+HOLTMAN_SIMILAR_CONS1 = {{}}
+# Differing in height or ATR.
+HOLTMAN_SIMILAR_VOW1 = {{}}
 dst = panphon.distance.Distance()
 dict = cmudict.dict()
 # Examples of input and output.
