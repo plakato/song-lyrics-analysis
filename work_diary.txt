@@ -32,7 +32,7 @@ MEETING THE DATA
         Languages (120):
         {'ENGLISH': 443262, 'FRENCH': 21678, 'PORTUGUESE': 15224, 'TAGALOG': 976, 'GERMAN': 21068, 'Unknown': 5404, 'PERSIAN': 608, 'ITALIAN': 8651, 'SPANISH': 28210, 'DANISH': 2891, 'SWEDISH': 5380, 'LINGALA': 35, 'RUSSIAN': 1389, 'HUNGARIAN': 626, 'SERBIAN': 438, 'WOLOF': 27, 'POLISH': 10178, 'TURKISH': 1767, 'CROATIAN': 757, 'SCOTS': 78, 'Korean': 1352, 'Chinese': 12, 'Japanese': 1341, 'DUTCH': 3862, 'MALAY': 255, 'AZERBAIJANI': 34, 'HAITIAN_CREOLE': 132, 'ChineseT': 89, 'ROMANIAN': 507, 'MACEDONIAN': 228, 'SWAHILI': 97, 'LATIN': 359, 'ICELANDIC': 293, 'NORWEGIAN': 2056, 'GREEK': 373, 'ALBANIAN': 202, 'SHONA': 12, 'AKAN': 8, 'FINNISH': 4093, 'IRISH': 100, 'CORSICAN': 125, 'ARABIC': 599, 'INDONESIAN': 433, 'SLOVENIAN': 100, 'HMONG': 1, 'XHOSA': 30, 'NORWEGIAN_N': 731, 'YORUBA': 26, 'CZECH': 790, 'GEORGIAN': 17, 'ZULU': 29, 'LATVIAN': 181, 'KHASI': 2, 'LITHUANIAN': 282, 'BULGARIAN': 109, 'GALICIAN': 64, 'SLOVAK': 270, 'AFAR': 7, 'CATALAN': 697, 'HEBREW': 62, 'SESOTHO': 4, 'SANSKRIT': 33, 'BASQUE': 269, 'GREENLANDIC': 9, 'SAMOAN': 7, 'BOSNIAN': 245, 'SUNDANESE': 22, 'MALAGASY': 13, 'FAROESE': 14, 'TSWANA': 7, 'AFRIKAANS': 196, 'SESELWA': 2, 'SCOTS_GAELIC': 39, 'BENGALI': 9, 'HAWAIIAN': 12, 'VIETNAMESE': 61, 'ESTONIAN': 206, 'MANX': 3, 'JAVANESE': 4, 'HAUSA': 3, 'MONGOLIAN': 2, 'CEBUANO': 10, 'LUXEMBOURGISH': 8, 'INTERLINGUA': 6, 'NEPALI': 1, 'BISLAMA': 2, 'ESPERANTO': 25, 'QUECHUA': 2, 'SOMALI': 3, 'SINHALESE': 4, 'SISWANT': 1, 'RHAETO_ROMANCE': 3, 'GUARANI': 4, 'THAI': 4, 'VENDA': 4, 'UKRAINIAN': 14, 'ARMENIAN': 1, 'X_KLINGON': 3, 'MAORI': 6, 'BRETON': 39, 'FRISIAN': 3, 'NYANJA': 7, 'TURKMEN': 1, 'OCCITAN': 8, 'TONGA': 1, 'KINYARWANDA': 2, 'HINDI': 4, 'MALTESE': 1, 'OROMO': 1, 'WELSH': 16, 'X_PIG_LATIN': 4, 'AYMARA': 1, 'BELARUSIAN': 7, 'INTERLINGUE': 1, 'YIDDISH': 12, 'TSONGA': 1, 'TAMIL': 1, 'IGBO': 2, 'VOLAPUK': 1, 'MALAYALAM': 2}
         Undetected:  2768
-    - vytah medzi poctom versov a rymovych tried - linearne?
+    - vztah medzi poctom versov a rymovych tried - linearne?
 
     QUESTIONS
     - description of data? what is_music means?
@@ -947,6 +947,7 @@ fixovanie algoritmu
     - nahradila som ’ za ' lebo niekde pre apostrof pouzili iny znak
     - nahradila - za medzeru -> pre slova spojene pomlckou to casto nenajde vyslovnost, oddelene su to uz len 2 slova a navyse ak mam pomlcku medzi dvoma medzerami bralo to ako jedno slovo
     - pri similarity hodnoteni postupovat odzadu, ak sa nezhoduje pocet slabik
+    - ak je to identita len sa lisi prizvukom nema dostat viac bodov
 
 OUTPUT of 1st version:
 Ratings for individual rhyme scheme letters: {'a': 1.0, 'b': 1.0, 'e': 1.0, 'f': 1.0, 'g': 1.0, 'h': 1.0, 'i': 1.0, 'j': 1.0}
@@ -1127,10 +1128,88 @@ IH, IY - "to", "me"
 -------------------------------------------------------------------------------------------------------------------
 
 TODO 
-    - ist len po prvu prizvucnu slabiku
+    - DONE ist len po prvu prizvucnu slabiku
     - DONE kolko percent bez vyslovnosti tvoria cisla
     - DONE 6. "pot scale" preco nema pronunciation? - nepozna slovo lacing
-    - prilis casto NOT_AVAILABLE
-    - pokracovat podobne fonemy
-    - kapitolku o datach
-    - do buducna zeby mi to vratilo aj typ rymu a mohla som robit statistiky na datach napr. podla zanru
+    - DONE prilis casto NOT_AVAILABLE
+    - DONE text typy rymov
+    - DONE upraviť príklady u rýmov - dať tam prízvuk aj výslovnosť aj slabiky 
+    - DONE dokoncit text o song ratingu  
+    - DONE fix rhyme scheme in twinkle
+    - DONE klasifikace typov rymov
+
+  
+???
+    - je nutne do glossary pisat zdroje?
+    - uviest do related works aj 4 metody detekcie rymov od plechaca? ale vsetky priklady su machine learning okrem sparsaru
+    - is rhymetagger algorithm explanation enough?  
+        - treba vyslovene napisat, ze nepracuje s prizvukmi?
+    - ako ozdrojovat obrazok - odkial som ho stiahla?
+    - headless vysvetlene v glossary - ok?  
+    - bez kontrakci - aj let's???
+
+THINGS TO CHECK AT THE END WHEN FINALIZING TEXT
+    - namiesto "-" dat "--"
+    - na webstranky dat \url{}
+-------------------------------------------------------------------------------------------------------------------
+5.5. 16:00
+
+- DONE k obrazku "Reproduced from ..citace..." v bibliografii
+
+ZMENA RAMECKOV PRI ODKAZOCH V TEXu:
+\definecolor{dgreen}{rgb}{.0,.4,.0}
+\hypersetup{
+   pdfdisplaydoctitle, breaklinks,
+   %colorlinks,
+   pdfborderstyle={/S/U/W 1}, allbordercolors=dgreen,
+   linkcolor=dgreen, citecolor=dgreen, filecolor=black, urlcolor=dgreen,
+   %backref=page,
+   pagebackref=true,
+   pdfencoding=auto,
+}
+
+# Output of the analysis for the text of thesis.
+Analyzed 658460 songs.
+Removed 35091 songs.
+Songs removed for is_music=False: 34259
+Songs deleted for language detection errors: 832
+English language detection not reliable for 1313 songs.
+Saved 623369 valid songs.
+total:  623369
+Unique:  590818
+Removed 32551 duplicates.
+Total:  590818
+English:  438037
+Removed 152781 non-English songs.
+
+
+DONE THIS WEEK:
+    - chapter about data
+    - refactored code for data cleaning and (some) analysis
+        - added comments, printing statistics, structural reorganization and renaming
+        - used pycld3 (instead of pycld2)
+    - recreated the data with the new code
+    - co s tymy co nie su v CMU?
+        - skusit OpenMary
+        - pouzit 1-gramovy preklad g2p -> nejakym zazrakom som natrafila na kniznicu co funguje
+    - DONE urobit dev set a test set
+   
+
+-------------------------------------------------------------------------------------------------------------------
+14.5. 9:00
+
+TODO:
+    - pokracovat podobne fonemy (skusit holtmanovu hierarchiu ale nezasekat sa na tom prilis)
+        - dopisat o tom do textu
+    - do prilohy prevod arpabet ipa, resp. odkaz na wiki
+    - na typy rymov dat ipa s dvojteckami 
+    - plechac data su dostupne?
+    - pozriet sa na vsetky dvojice (pri hladani rymov 3 riady spat) a vybrat tunajlepsiu
+    - 3 verzia rhyme detectoru
+        - s maticou pre syllable componenty
+    - zistit preco sa pri webovych citaciach neukazuje "accessed on"
+    
+    - urobit jednu anotovanu skupinu
+        - co vsetko tam ma byt anotované?
+    - prehodnotit definicie rymov
+        - rozlisovat typy identity?

@@ -5,6 +5,7 @@ import sys
 
 import cmudict
 from syllabify import syllabify
+from g2p_en import G2p
 
 # PARAMETERS
 # How many lines should rhyme not repeat to be considered a new rhyme.
@@ -12,26 +13,35 @@ import pronouncing
 from rhymetagger import RhymeTagger
 from torch.utils.hipify.hipify_python import bcolors
 
-from evaluation.constants import poem1, NO_OF_PRECEDING_LINES, SIMILAR_SOUNDS
+from evaluation.constants import poem1, NO_OF_PRECEDING_LINES, SIMILAR_SOUNDS, ARPA_VOWELS
 
 dict = cmudict.dict()
+g2p = G2p()
 
 
 def get_pronunciation_for_word(word):
     # Strip punctuation except apostrophes.
-    word = re.sub(r"[^\w\d'\s]+",'',word)
+    word = re.sub(r"[^\w\d']+",'',word)
     # Convert to all lower-case.
     word = word.lower()
     pronunciations = dict.get(word)
     if pronunciations is None:
-        print(f"Haven't found pronunciation for {word}.")
-        # todo fallback when not in dictionary
+        # Estimate the pronunciation using g2p.
+        word = word.replace('\'', '')
+        pron = g2p(word)
+        pronunciations = [pron]
+        # print(f"Haven't found pronunciation for {word}. Estimating {pron}.")
     return pronunciations
 
 
 # Returned format is a list of triples - each triplet is one syllable, split to parts by pattern CVC (conconants, vowels, consonants).
 def get_syllables_ARPA(word):
-    syllables = syllabify.syllabify(word)
+    try:
+        syllables = syllabify.syllabify(word)
+    except:
+        # The reason for failed syllabification is absence of vowels.
+        # => the word is only one syllable (e.g. 'HH M')
+        syllables = [(word, [], [])]
     return syllables
 
 
@@ -64,7 +74,7 @@ def get_pronunciations_for_n_syllables(line, n):
     # Shorten each syllabification to n syllables.
     for i in range(len(result)):
         if len(result[i]) > n:
-            result[i] = result[i][-4:]
+            result[i] = result[i][-n:]
     return result
 
 
@@ -422,8 +432,8 @@ if __name__ == '__main__':
         if sys.argv[1] == '-tagger':
             scheme = get_scheme_from_tagger(poem1)
     else:
-        if sys.argv[1] == '-test_lyrics':
-            with open('test_lyrics/'+sys.argv[2]) as input_file:
+        if sys.argv[1] == '-data':
+            with open('data/'+sys.argv[2]) as input_file:
                 input = input_file.read().splitlines()
         lines = [line for line in input if line]
         scheme, rating, lines = get_rhyme_scheme_and_rating(lines)

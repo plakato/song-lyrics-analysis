@@ -202,8 +202,8 @@ def get_rhyme_scheme_and_rating(lines):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) < 2 or not sys.argv[1] == '-test_lyrics':
-        print('Please enter the input for analysis using --test_lyrics file_path')
+    if len(sys.argv) < 2 or not sys.argv[1] == '-data':
+        print('Please enter the input for analysis using --data file_path')
         exit(11)
     with open(sys.argv[2]) as input_file:
         input = input_file.read().splitlines()
