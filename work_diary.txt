@@ -1198,18 +1198,28 @@ DONE THIS WEEK:
 -------------------------------------------------------------------------------------------------------------------
 14.5. 9:00
 
-TODO:
+DONE:
     - pokracovat podobne fonemy (skusit holtmanovu hierarchiu ale nezasekat sa na tom prilis)
-        - dopisat o tom do textu
+
+21.5. 10:00
+
+TODO:
+    - dopisat o holt.hierarchii do textu
     - do prilohy prevod arpabet ipa, resp. odkaz na wiki
     - na typy rymov dat ipa s dvojteckami 
     - plechac data su dostupne?
     - pozriet sa na vsetky dvojice (pri hladani rymov 3 riady spat) a vybrat tunajlepsiu
     - 3 verzia rhyme detectoru
         - s maticou pre syllable componenty
+        - ako tam osetrit identitu?
+        - dopisat aby to urcovalo aj konkretny typ rymu
+        - poriesit dlhe rymy - nie vzdy su relevantne komponenty rovnako dlhe
     - zistit preco sa pri webovych citaciach neukazuje "accessed on"
-    
     - urobit jednu anotovanu skupinu
-        - co vsetko tam ma byt anotované?
+        - co vsetko tam ma byt anotované? staci schema
+        - aby bol zastupeny kazdy zaner, rozdelit data podla zanrov
+    - statistiky pre kazdy zaner zvlast 
+
+    - pre porovnanie evaluacie dotrenovat tagger na mojich datach
     - prehodnotit definicie rymov
         - rozlisovat typy identity?
