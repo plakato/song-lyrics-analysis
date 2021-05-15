@@ -9,14 +9,26 @@ IPA_VOWELS = {'i', 'y', 'ɨ', 'ʉ', 'ɯ', 'u',
               'ɛ', 'œ', 'ɜ', 'ɞ', 'ʌ', 'ɔ',
               'æ', 'ɐ',
               'a', 'ɶ', 'ɑ', 'ɒ'}
-ARPA_VOWELS = {'AA', 'AE', 'AH', 'AO', 'AW', 'AX', 'AXR', 'AY',
+# Used in CMUdict.
+ARPA_VOWELS = {'AA', 'AE', 'AH', 'AO', 'AW', 'AY',
                'EH', 'ER', 'EY',
-               'IH', 'IX', 'IY',
+               'IH', 'IY',
                'OW', 'OY',
-               'UH', 'UW', 'UX'}
-SIMILAR_SOUNDS = [['M', 'N'], ['N', 'NG'], ['T', 'TH'],
-                  ['AA', 'AO'], ['AA', 'AH'], ['AW', 'OW'],
-                  ['IH', 'AH'], ['OW', 'AO']]
+               'UH', 'UW'}
+                    # Differing in place of aritculation only (voiceless plosives, fricatives, nasals).
+SIMILAR_SOUNDS = [['M', 'N', 'NG'], ['P', 'T', 'K', 'Q'], ['F', 'TH', 'S', 'SH', 'HH'], ['DH', 'V', 'Z', 'ZH'],
+                  # Differing in place only (voiced plosives).
+                  ['B', 'D', 'G'],
+                  # Differing in voice only (plosives, fricatives).
+                  ['B', 'P'], ['T', 'D'], ['K', 'G'], ['F', 'V'], ['TH', 'DH'], ['S', 'Z'], ['SH', 'ZH'],
+                  # Differing in continuacy only (coronals).
+                  ['T', 'TH'], ['P', 'F'], ['K', 'X'],
+                  # Differing in height.
+                  ['AA', 'AH'], ['IY', 'IH'], ['EH', 'AE'], ['UW', 'UH', 'AO'],
+                  # Differing in front/back (+minor difference in height).
+                  ['IH', 'UH'], ['EH', 'ER', 'AH', 'AE'],
+                  # Diphthongs sharing a vowel.
+                  ['AW', 'OW'], ['AY', 'EY', 'OY']]
 # Differing in place of articulation only (nasals/voiceless plosives/sibilants).
 HOLTMAN_SIMILAR_CONS1 = {}
 # Differing in height or ATR.
