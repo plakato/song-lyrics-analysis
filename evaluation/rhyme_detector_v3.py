@@ -72,7 +72,7 @@ class RhymeDetector:
     def _initialize_matrix(self, size):
         matrix = [[0.6]*size for i in range(size)]
         for i in range(len(matrix)):
-            matrix[i][i] = 0.99
+            matrix[i][i] = 1.0
         return matrix
 
     # Get components after the last stress.
@@ -135,10 +135,10 @@ class RhymeDetector:
             if i < idx:
                 matrix[i].insert(idx, self.new_value)
             elif i == idx:
-                matrix[i].insert(idx, 0.99)
+                matrix[i].insert(idx, 1.0)
             else:
                 matrix[i].insert(idx, 0)
-        matrix[idx][idx] = 0.99
+        matrix[idx][idx] = 1.0
 
     # Get rhyme rating using multiplication of partial probabilities with inverse probabilities.
     def get_rhyme_rating(self, first, second, stress_penalty):
@@ -216,6 +216,7 @@ class RhymeDetector:
             scheme = ['']*len(song)
             ratings = [0]*len(song)
             start_idx = 0
+            rhyme_pairs = [0]*len(song)
             while not song[start_idx]:
                 ratings[start_idx] = NOT_AVAILABLE
                 start_idx += 1
@@ -240,7 +241,7 @@ class RhymeDetector:
                             result = {'rating': rating,
                                       'relevant_comps1': rel_first,
                                       'relevant_comps2': rel_second,
-                                      'index': line_idx - lines_back}
+                                      'index': lines_back}
                             rhyme_fellows.append(result)
                 # Select the rhyme fellow with best rating.
                 best_rated_rhyme = max(rhyme_fellows, key=lambda item: item['rating'])
@@ -249,12 +250,31 @@ class RhymeDetector:
                     scheme[line_idx] = next(letter_gen)
                     relevant_comps[line_idx] = best_rated_rhyme['relevant_comps1']
                     continue
-                # todo take care of exceptions like AAAA->AABB
-                scheme[line_idx] = scheme[best_rated_rhyme['index']]
+                scheme[line_idx] = scheme[line_idx - best_rated_rhyme['index']]
                 ratings[line_idx] = best_rated_rhyme['rating']
+                rhyme_pairs[line_idx] = - best_rated_rhyme['index']
                 relevant_comps[line_idx] = best_rated_rhyme['relevant_comps1']
-                relevant_comps[best_rated_rhyme['index']] = best_rated_rhyme['relevant_comps2']
-            stats.append({'scheme': scheme, 'ratings': ratings, 'relevant_components': relevant_comps})
+                relevant_comps[line_idx - best_rated_rhyme['index']] = best_rated_rhyme['relevant_comps2']
+            stats.append({'scheme': scheme,
+                          'ratings': ratings,
+                          'relevant_components': relevant_comps,
+                          'rhyme_pairs': rhyme_pairs})
+            stats = self._revise_scheme(stats, letter_gen)
+        return stats
+
+    # Take care of exceptions like AAAA->AABB
+    def _revise_scheme(self, stats, letter_gen):
+        for song in stats:
+            i = len(song['scheme']) - 4
+            while i >= 0:
+                if song['scheme'][i] == song['scheme'][i+1] and \
+                        song['scheme'][i+1] == song['scheme'][i+2] and \
+                        song['scheme'][i+2] == song['scheme'][i+3] and \
+                        song['ratings'][i+3] > song['ratings'][i+2]:
+                    song['ratings'][i+2] = NOT_AVAILABLE
+                    song['scheme'][i+2] = next(letter_gen)
+                    song['scheme'][i+3] = song['scheme'][i+2]
+                i -= 1
         return stats
 
     def adjust_matrix(self, stats):
@@ -307,26 +327,20 @@ class RhymeDetector:
                                 frequencies_CC[ai][bi] += 1
         # Calculate relative frequencies.
         totalC = sum(frequencies_C)
-        rel_freqC = [f/totalC for f in frequencies_C]
+        rel_freqC = [(f + len(self.matrixC))/totalC for f in frequencies_C]
         totalV = sum(frequencies_V)
-        rel_freqV = [f / totalV for f in frequencies_V]
+        rel_freqV = [(f + len(self.matrixV)) / totalV for f in frequencies_V]
         # Create new matrices based on calculated frequencies.
         totalVV = sum(map(sum, frequencies_VV))
         totalCC = sum(map(sum, frequencies_CC))
         for i in range(len(self.matrixV)):
             for j in range(i+1, len(self.matrixV)):
-                if frequencies_VV[i][j] == 0:
-                    self.matrixV[i][j] = 0.0001
-                else:
-                    rel_freq = frequencies_VV[i][j]/totalVV
-                    self.matrixV[i][j] = rel_freq/(rel_freq + rel_freqV[i]*rel_freqV[j])
+                rel_freq = (frequencies_VV[i][j]+1)/totalVV
+                self.matrixV[i][j] = rel_freq/(rel_freq + rel_freqV[i]*rel_freqV[j])
         for i in range(len(self.matrixC)):
             for j in range(i+1, len(self.matrixC)):
-                if frequencies_CC[i][j] == 0:
-                    self.matrixC[i][j] = 0.0001
-                else:
-                    rel_freq = frequencies_CC[i][j]/totalCC
-                    self.matrixC[i][j] = rel_freq/(rel_freq + rel_freqC[i]*rel_freqC[j])
+                rel_freq = (frequencies_CC[i][j]+1)/totalCC
+                self.matrixC[i][j] = rel_freq/(rel_freq + rel_freqC[i]*rel_freqC[j])
         self.freqC = frequencies_C
         self.freqV = frequencies_V
         self._print_state()
@@ -375,19 +389,21 @@ class RhymeDetector:
 
 def main():
     # Prepare dataset and initialize the detector.
-    # split_dataset('../song_data/data/ENlyrics_final.json', 0.001, 0.001)
+    split_dataset('../song_data/data/ENlyrics_final.json', 0.001, 0.001)
     # detector = RhymeDetector('data/train_lyrics0.001.json')
+    # detector.save_matrixC('data/matrixC_init.csv')
+    # detector.save_matrixV('data/matrixV_init.csv')
     # n = 0
     # # Train the detector.
-    # while n < 10:
+    # while n < 2:
     #     print(f"ITERATION {n+1}")
     #     stats = detector.find_rhymes()
     #     detector.adjust_matrix(stats)
+    #     detector.save_matrixC('data/matrixC_iter'+str(n)+'.csv')
+    #     detector.save_matrixV('data/matrixV_iter'+str(n)+'.csv')
     #     n += 1
-    # detector.save_matrixC('data/matrixC.csv')
-    # detector.save_matrixV('data/matrixV.csv')
     # Test the detector.
-    detector = RhymeDetector(None, 'data/matrixC.csv', 'data/matrixV.csv')
+    detector = RhymeDetector(None, 'data/matrixC_iter1.csv', 'data/matrixV_iter1.csv')
     test_data_file = 'data/test_lyrics0.001.json'
     test_data_pron, cons, vows = detector.extract_relevant_data(test_data_file)
     with open(test_data_file) as input:
@@ -403,7 +419,9 @@ def main():
     for s in range(len(test_data)):
         print(f"NEXT SONG: {test_data[s]['title']}")
         for l in range(len(test_data[s]['lyrics'])):
-            print(f"{stats[s]['scheme'][l]:<2}", f"{stats[s]['ratings'][l]:<3}",
+            print(f"{stats[s]['scheme'][l]:<2}",
+                  f"{stats[s]['ratings'][l]:5.3f}" if isinstance(stats[s]['ratings'][l], float) else f"{stats[s]['ratings'][l]:<5}",
+                  f"{stats[s]['rhyme_pairs'][l]:<3}",
                   f"{stats[s]['relevant_components'][l]}", test_data[s]['lyrics'][l])
 
 

@@ -1200,25 +1200,44 @@ DONE THIS WEEK:
 
 DONE:
     - pokracovat podobne fonemy (skusit holtmanovu hierarchiu ale nezasekat sa na tom prilis)
+     - 3 verzia rhyme detectoru
+        - s maticou pre syllable componenty
+        - poriesit dlhe rymy - nie vzdy su relevantne komponenty rovnako dlhe
+        - pozriet sa na vsetky dvojice (pri hladani rymov 3 riady spat) a vybrat tunajlepsiu
+
+ROZDIELY MEDZI V3 A V2:
+    - v3 vybera najlepsi z 3 prechadzajucich, v2 vybera najblizsi nad thresholdom
+    - v3 zachovava prazdne riadky (pripadne medzery medzi slohami), v2 ich preskoci
+    ...
 
 21.5. 10:00
 
-TODO:
-    - dopisat o holt.hierarchii do textu
+DONE:
     - do prilohy prevod arpabet ipa, resp. odkaz na wiki
+    - statistiky pre kazdy zaner zvlast 
+    - paragraf do dat - metody cistenia
+    - pridat k vypisom s ktorym riadkom sa to rymuje (-1, -2..)
+    - take care of exceptions like AAAA->AABB
+
+28.5. 10:00
+
+
+TODO:
+    - prepisat vnutorne uchovavanie rymov, schema pridelit az na konci
+    - dopisat o holt.hierarchii do textu
     - na typy rymov dat ipa s dvojteckami 
     - plechac data su dostupne?
-    - pozriet sa na vsetky dvojice (pri hladani rymov 3 riady spat) a vybrat tunajlepsiu
     - 3 verzia rhyme detectoru
-        - s maticou pre syllable componenty
-        - ako tam osetrit identitu?
+        - osetrit tam nejak specialne identitu?
         - dopisat aby to urcovalo aj konkretny typ rymu
-        - poriesit dlhe rymy - nie vzdy su relevantne komponenty rovnako dlhe
     - zistit preco sa pri webovych citaciach neukazuje "accessed on"
     - urobit jednu anotovanu skupinu
         - co vsetko tam ma byt anotované? staci schema
         - aby bol zastupeny kazdy zaner, rozdelit data podla zanrov
-    - statistiky pre kazdy zaner zvlast 
+    - pohladat tie shakespearovske data
+    - poslat 5 najhorsich ratingov zo 100 z v2
+    - urobit prepinace a nemat len zakomentovany kod
+    - este sme nedoriesili celkovy rating pre celu pesnicku
 
     - pre porovnanie evaluacie dotrenovat tagger na mojich datach
     - prehodnotit definicie rymov

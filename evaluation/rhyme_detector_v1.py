@@ -34,7 +34,7 @@ def get_pronunciation_for_word(word):
     return pronunciations
 
 
-# Returned format is a list of triples - each triplet is one syllable, split to parts by pattern CVC (conconants, vowels, consonants).
+# Returned format is a list of triples - each triplet is one syllable, split to parts by pattern CVC (consonants, vowels, consonants).
 def get_syllables_ARPA(word):
     try:
         syllables = syllabify.syllabify(word)

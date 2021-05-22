@@ -245,7 +245,7 @@ def save_piechart_with_genres(genres):
 
 def main():
     # create_histogram_for_length('data/ENlyrics_cleaned_unique.json')
-    print_statistics('data/ENlyrics_final.json')
+    print_statistics('data/ENlyrics_final_country.json')
 
 
 if __name__== "__main__":

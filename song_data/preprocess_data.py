@@ -254,6 +254,39 @@ def remove_unwanted_words_from_all_songs(file):
         song['lyrics'] = remove_unwanted_words_from_lyrics(song['lyrics'])
     save_dataset(songs, file)
 
+# Create separate file for different genres.
+def split_by_genre(filename):
+    genres = {}
+    with open(filename) as input:
+        data = json.load(input)
+        for song in data:
+            if song['genre'] not in genres:
+                genres[song['genre']] = [song]
+            else:
+                genres[song['genre']].append(song)
+    for genre in genres:
+        result = re.search(r"(^.+)(\..+$)", filename)
+        prefix, suffix = result.groups()
+        genre_filename = prefix + '_' + genre + suffix
+        save_dataset(genres[genre], genre_filename)
+
+
+def create_individual_song_files(filename, output_dir, n=None):
+    with open(filename) as input:
+        data = json.load(input)
+        i = 0
+        for song in data:
+            i += 1
+            # Take just n songs.
+            if n and i > n:
+                continue
+            # Get rid of slashes because they can affect the file location.
+            song_file = output_dir + song['title'].replace('/', '') + '.txt'
+            print(f"Generating file for song {song_file}.")
+            with open(song_file, 'w+') as output:
+                for line in song['lyrics']:
+                    output.write(line + '\n')
+
 
 def create_clean_dataset():
     isolate_relevant_songs_and_their_attributes('data/lyrics_original.json',
@@ -263,17 +296,24 @@ def create_clean_dataset():
     filter_english('data/lyrics_cleaned_unique.json', 'data/ENlyrics_cleaned_unique.json')
     remove_unwanted_words_from_all_songs('data/ENlyrics_cleaned_unique.json')
     add_word_count('data/ENlyrics_cleaned_unique.json')
-    # filter_optimal_length('data/ENlyrics_cleaned_unique.json', 'data/ENlyrics_final.json')
+    filter_optimal_length('data/ENlyrics_cleaned_unique.json', 'data/ENlyrics_final.json')
+    split_by_genre('data/ENlyrics_final.json')
 
 
 if __name__=='__main__':
     # create_clean_dataset()
-    filter_optimal_length('data/ENlyrics_cleaned_unique.json', 'data/ENlyrics_final.json')
-
-# # Create individual song files for easier song checking by eye.
-# filename = 'data/1000ENlyrics_cleaned.json'
-# create_individual_files(filename)
-
+    inputs = ['data/ENlyrics_final_pop.json',
+              'data/ENlyrics_final_rock.json',
+              'data/ENlyrics_final_rap.json',
+              'data/ENlyrics_final_r-b.json',
+              'data/ENlyrics_final_country.json']
+    outputs = ['../evaluation/data/scheme_annotated/pop/',
+               '../evaluation/data/scheme_annotated/rock/',
+               '../evaluation/data/scheme_annotated/rap/',
+               '../evaluation/data/scheme_annotated/r-b/',
+               '../evaluation/data/scheme_annotated/country/']
+    for i in range(len(inputs)):
+        create_individual_song_files(inputs[i], outputs[i], 7)
 # check_cleaner_with_miniset('data/miniset_for_lyrics_cleaning/',
 #                            'data/miniset_for_lyrics_cleaning/manually_cleaned/')
 # clean_all_songs('data/lyrics_cleaned.json')

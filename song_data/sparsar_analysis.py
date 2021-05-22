@@ -24,15 +24,13 @@ def create_individual_files(filename):
             if song['lang'] != 'ENGLISH':
                 continue
             i += 1
-            # # Take just hundred songs.
-            # if i < 200 or i > 300:
-            #     continue
             # Get rid of slashes because they can affect the file location.
             song_file = song['title'].replace('/', '') + '.txt'
             print(song_file)
             create_sparsar_input_file_from_song(song,
                                                 'data/individual_songs/' +
                                                 song_file)
+
 
 def create_sparsar_input_file_from_song(song, output_filename):
     with open(output_filename, 'w+') as output:
@@ -321,4 +319,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    # main()
+    create_individual_files('data/ENlyrics_final_pop.json')
