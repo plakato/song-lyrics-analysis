@@ -1218,25 +1218,24 @@ DONE:
     - paragraf do dat - metody cistenia
     - pridat k vypisom s ktorym riadkom sa to rymuje (-1, -2..)
     - take care of exceptions like AAAA->AABB
+    - urobit jednu anotovanu skupinu
+        - co vsetko tam ma byt anotované? staci schema
+        - aby bol zastupeny kazdy zaner, rozdelit data podla zanrov
+    - poslat 5 najhorsich ratingov zo 100 z v2
+    - pohladat tie shakespearovske/plecháč data
+        - https://github.com/sravanareddy/rhymedata
+
 
 28.5. 10:00
 
 
 TODO:
     - prepisat vnutorne uchovavanie rymov, schema pridelit az na konci
-    - dopisat o holt.hierarchii do textu
-    - na typy rymov dat ipa s dvojteckami 
-    - plechac data su dostupne?
-    - 3 verzia rhyme detectoru
-        - osetrit tam nejak specialne identitu?
-        - dopisat aby to urcovalo aj konkretny typ rymu
-    - zistit preco sa pri webovych citaciach neukazuje "accessed on"
-    - urobit jednu anotovanu skupinu
-        - co vsetko tam ma byt anotované? staci schema
-        - aby bol zastupeny kazdy zaner, rozdelit data podla zanrov
-    - pohladat tie shakespearovske data
-    - poslat 5 najhorsich ratingov zo 100 z v2
+    - dopisat aby to urcovalo aj konkretny typ rymu
+    - zistit preco sa pri webovych citaciach neukazuje "accessed on" 
+        - OPYTAT SA NA VECNY PROBLEM S BIBTEXOM   
     - urobit prepinace a nemat len zakomentovany kod
+    - na typy rymov dat ipa s dvojteckami 
     - este sme nedoriesili celkovy rating pre celu pesnicku
 
     - pre porovnanie evaluacie dotrenovat tagger na mojich datach

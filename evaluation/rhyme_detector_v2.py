@@ -1,3 +1,5 @@
+import heapq
+import json
 import re
 import sys
 
@@ -7,7 +9,7 @@ import evaluation.rhyme_detector_v1 as rd1
 NOT_AVAILABLE = 'X'
 
 
-def get_syllable_count_and_pronunciations(lyrics):
+def get_syllable_count_and_pronunciations(lyrics, verbose=True):
     syll_counts = []
     pronunciations = []
     for line in lyrics:
@@ -26,13 +28,15 @@ def get_syllable_count_and_pronunciations(lyrics):
                 vowel_group_patt = re.compile('[aeiouy]+')
                 sylls = re.findall(vowel_group_patt, word)
                 line_pron.append(word)
-                print(f'Haven\'t found syllable count for word: {word}, estimating {len(sylls)} syllables.')
+                if verbose:
+                    print(f'Haven\'t found syllable count for word: {word}, estimating {len(sylls)} syllables.')
             count += len(sylls)
         syll_counts.append(count)
         pronunciations.append(line_pron)
-    print('LINE SYLLABLE COUNTS:')
-    for i in range(len(lines)):
-        print(syll_counts[i], lines[i])
+    if verbose:
+        print('LINE SYLLABLE COUNTS:')
+        for i in range(len(lines)):
+            print(syll_counts[i], lines[i])
     return syll_counts, pronunciations
 
 
@@ -46,8 +50,8 @@ def get_rhyme_rating(stats):
     total = c1_weight + c2_weight + v_weight
     syll_considered = 0
     # Where to stop analysis - if we've seen both stresses (looking backwards).
-    stop = max(min(filter(lambda i: stats['meter1'][-i] >= 1, range(1, len(stats['meter1'])+1))),
-               min(filter(lambda i: stats['meter2'][-i] >= 1, range(1, len(stats['meter2'])+1))))
+    stop = max(min(filter(lambda i: stats['meter1'][-i] >= 1, range(1, len(stats['meter1'])+1)), default=len(stats['meter1'])),
+               min(filter(lambda i: stats['meter2'][-i] >= 1, range(1, len(stats['meter2'])+1)), default=len(stats['meter2'])))
 
     def rate_syllable(meter1, meter2, c1, v, c2):
         rating = 0
@@ -126,9 +130,26 @@ def preprocess_lyrics(lyrics):
     return lines
 
 
+def print_stats(stats):
+    for i in range(len(stats['lines'])):
+        if stats['ignored_ratings'][i]:
+            rating_value = NOT_AVAILABLE
+        else:
+            rating_value = str(stats['individual_ratings'][i]) + ' ' * 10
+        if not stats['pronunciations'][i]:
+            pron = 'PRONUNCIATION_NOT_FOUND'
+        else:
+            # Convert to more readable form.
+            pron = [' '.join(' '.join(letters) for letters in triplet) for triplet in stats['pronunciations'][i]]
+            # Remove possible meter.
+            pron = [re.sub('[012]', '', syll) for syll in pron]
+        print(f"{stats['scheme'][i]:<2}", f'{rating_value[:3]:<3}', f"{stats['syllable_counts'][i]:<2}", stats['lines'][i], pron)
+    print("RATING:", stats['song_rating'])
+
+
 # For lyrics, detect standard rhyme types.
-def get_rhyme_scheme_and_rating(lines):
-    syll_counts, _ = get_syllable_count_and_pronunciations(lines)
+def get_rhyme_scheme_and_rating(lines, verbose=True):
+    syll_counts, _ = get_syllable_count_and_pronunciations(lines, verbose)
     rating_for_letter = {}
     pronunciations = ['']*len(lines)
     # For each line identify its rhyme buddy or assign a new letter.
@@ -141,7 +162,8 @@ def get_rhyme_scheme_and_rating(lines):
         # Try if it rhymes with preceding lines.
         rhyme_found = False
         for lines_back in range(1, min(NO_OF_PRECEDING_LINES, i)+1):
-            print(f'Checking >{lines[i]}< versus >{lines[i-lines_back]}<')
+            if verbose:
+                print(f'Checking >{lines[i]}< versus >{lines[i-lines_back]}<')
             they_rhyme, stats = rhymes(lines[i], lines[i-lines_back])
             # We need to add the pronunciation for the first line separately, because it was skipped.
             if i-lines_back == 0:
@@ -172,7 +194,8 @@ def get_rhyme_scheme_and_rating(lines):
                 break
         if not rhyme_found:
             scheme.append(next(letter_gen))
-    print("Ratings for individual rhyme scheme letters:", rating_for_letter)
+    if verbose:
+        print("Ratings for individual rhyme scheme letters:", rating_for_letter)
     # Calculate overall rating.
     sum_of_line_ratings = 0
     n_valid_lines = 0
@@ -183,30 +206,44 @@ def get_rhyme_scheme_and_rating(lines):
         sum_of_line_ratings += ratings[i]
         n_valid_lines += 1
     song_rating = sum_of_line_ratings/n_valid_lines
+    stats = {'scheme': scheme,
+             'song_rating': song_rating,
+             'lines': lines,
+             'individual_ratings': ratings,
+             'ignored_ratings': ignored_ratings,
+             'syllable_counts': syll_counts,
+             'pronunciations': pronunciations}
     # Print the results.
-    for i in range(len(lines)):
-        if ignored_ratings[i]:
-            rating_value = NOT_AVAILABLE
-        else:
-            rating_value = str(ratings[i]) + ' '*10
-        if not pronunciations[i]:
-            pron = 'PRONUNCIATION_NOT_FOUND'
-        else:
-            # Convert to more readable form.
-            pron = [' '.join(' '.join(letters) for letters in triplet) for triplet in pronunciations[i]]
-            # Remove possible meter.
-            pron = [re.sub('[012]', '', syll) for syll in pron]
-        print(f'{scheme[i]:<2}', f'{rating_value[:3]:<3}', f'{syll_counts[i]:<2}', lines[i], pron)
-    print("RATING:", song_rating)
-    return scheme, song_rating, lines
+    if verbose:
+        print_stats(stats)
+    return stats
 
 
 if __name__ == '__main__':
-    if len(sys.argv) < 2 or not sys.argv[1] == '-data':
-        print('Please enter the input for analysis using --data file_path')
+    if len(sys.argv) == 3 and sys.argv[1] == '-song_file':
+        with open(sys.argv[2]) as input_file:
+            input = input_file.read().splitlines()
+        lines = [line for line in input if line]
+        lines = preprocess_lyrics(lines)
+        scheme, rating, lines = get_rhyme_scheme_and_rating(lines)
+    elif len(sys.argv) == 3 and sys.argv[1] == '-data':
+        all_stats = []
+        n = 10
+        with open(sys.argv[2]) as input_file:
+            data = json.load(input_file)
+            for song in data:
+                # Remove lines without a letter/number.
+                lines = list(filter(lambda line: bool(re.search(r'\w', line)), song['lyrics']))
+                result = get_rhyme_scheme_and_rating(lines, verbose=False)
+                result['title'] = song['title']
+                print(song['title'], result['song_rating'])
+                all_stats.append(result)
+        print(f'Printing worst {n} ratings:')
+        worst = heapq.nsmallest(n, all_stats, key=lambda x: x['song_rating'])
+        for item in worst:
+            print(f"Song: {item['title']}")
+            print_stats(item)
+            print('-'*200)
+    else:
+        print('Please enter the input for analysis using --song_file for one .txt song, or --data for .json file with multiple songs.')
         exit(11)
-    with open(sys.argv[2]) as input_file:
-        input = input_file.read().splitlines()
-    lines = [line for line in input if line]
-    lines = preprocess_lyrics(lines)
-    scheme, rating, lines = get_rhyme_scheme_and_rating(lines)

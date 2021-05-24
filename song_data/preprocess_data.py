@@ -82,7 +82,7 @@ def detect_noise(input_file):
 # Get rid of unnecessary words in lyrics.
 def remove_unwanted_words_from_lyrics(lyrics):
     undesirable_words = ['verse', 'chorus', 'intro', 'outro', 'repeat', 'hook',
-                         'bridge', 'transition', 'solo', 'http', 'www.',
+                         'bridge', 'transition', 'solo', 'http', 'www.'
                          'interlude']
     clean_lyrics = []
     newline = False
@@ -282,10 +282,11 @@ def create_individual_song_files(filename, output_dir, n=None):
                 continue
             # Get rid of slashes because they can affect the file location.
             song_file = output_dir + song['title'].replace('/', '') + '.txt'
-            print(f"Generating file for song {song_file}.")
-            with open(song_file, 'w+') as output:
-                for line in song['lyrics']:
-                    output.write(line + '\n')
+            if not os.path.exists(song_file):
+                print(f"Generating file for song {song_file}.")
+                with open(song_file, 'w+') as output:
+                    for line in song['lyrics']:
+                        output.write(line + '\n')
 
 
 def create_clean_dataset():
@@ -313,7 +314,7 @@ if __name__=='__main__':
                '../evaluation/data/scheme_annotated/r-b/',
                '../evaluation/data/scheme_annotated/country/']
     for i in range(len(inputs)):
-        create_individual_song_files(inputs[i], outputs[i], 7)
+        create_individual_song_files(inputs[i], outputs[i], 10)
 # check_cleaner_with_miniset('data/miniset_for_lyrics_cleaning/',
 #                            'data/miniset_for_lyrics_cleaning/manually_cleaned/')
 # clean_all_songs('data/lyrics_cleaned.json')
