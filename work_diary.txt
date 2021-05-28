@@ -1224,20 +1224,33 @@ DONE:
     - poslat 5 najhorsich ratingov zo 100 z v2
     - pohladat tie shakespearovske/plecháč data
         - https://github.com/sravanareddy/rhymedata
-
+    - prepisat vnutorne uchovavanie rymov, schema pridelit az na konci
 
 28.5. 10:00
 
+latexmk thesis.tex -pdf -pvc
+
+2.6. 13:00 - 15:00
 
 TODO:
-    - prepisat vnutorne uchovavanie rymov, schema pridelit az na konci
     - dopisat aby to urcovalo aj konkretny typ rymu
     - zistit preco sa pri webovych citaciach neukazuje "accessed on" 
         - OPYTAT SA NA VECNY PROBLEM S BIBTEXOM   
     - urobit prepinace a nemat len zakomentovany kod
     - na typy rymov dat ipa s dvojteckami 
     - este sme nedoriesili celkovy rating pre celu pesnicku
-
+    - vynimky - ak sa zmeni zoskupenie rymov - pozor aby nejaky dalsi neodkazoval na nieco co uz je v inej skupine
+    - vynimky - ak sa vytahuju dva rymy na jeden riadok - pozor aby sa nevytahovali k roznej vyslovnosti
     - pre porovnanie evaluacie dotrenovat tagger na mojich datach
     - prehodnotit definicie rymov
         - rozlisovat typy identity?
+    - pridat prizvuky do ladiacich vypisov
+    - pripisat o sparsare 
+        - uviest priklady pesnicky, ktora sa zjavne rymuje ale urcilo ju to zle
+        - priklad slova na ktorom sparsar spadne 
+    - mat verziu ktora detekuje len perfektne rymy
+        - s jednickovou diagonalou, len na prepinac
+    - odtestovat rhymetagger
+        - zistit ako funguje, uklada si nejak model?
+        - funguje inak ak dostane pesnicku samotnu vs. ak ju dostane vramci vacsich dat
+        - funguje len na perfektne rymy alebo aj tie podobne

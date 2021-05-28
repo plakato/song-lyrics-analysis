@@ -228,7 +228,7 @@ if __name__ == '__main__':
         scheme, rating, lines = get_rhyme_scheme_and_rating(lines)
     elif len(sys.argv) == 3 and sys.argv[1] == '-data':
         all_stats = []
-        n = 10
+        n = 50
         with open(sys.argv[2]) as input_file:
             data = json.load(input_file)
             for song in data:
