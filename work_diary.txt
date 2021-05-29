@@ -1228,14 +1228,28 @@ DONE:
 
 28.5. 10:00
 
+- automaticky refresh pdfka aj s bibliografiou
 latexmk thesis.tex -pdf -pvc
+
+DONE
+  - odtestovat rhymetagger
+        - zistit ako funguje, uklada si nejak model?
+            - pri tagovani nacita model, prida donho nove slovo a potom detekuje rymy
+            - uklada si cely model, aj s maticou, zjavne je spolocna, pre componenty aj trigramy
+        - funguje inak ak dostane pesnicku samotnu vs. ak ju dostane vramci vacsich dat
+            - asi iba ak su data dostatocne aby ovplyvnili model, netestovane
+        - funguje len na perfektne rymy alebo aj tie podobne
+            - su vynimky (niekedy ignoruje plural) ale vacinou len perfektne
+    - mat verziu ktora detekuje len perfektne rymy
+        - s jednickovou diagonalou, len na prepinac
+        - skusit s jednoduchym nasobenim bez vzorca
+
 
 2.6. 13:00 - 15:00
 
 TODO:
     - dopisat aby to urcovalo aj konkretny typ rymu
     - zistit preco sa pri webovych citaciach neukazuje "accessed on" 
-        - OPYTAT SA NA VECNY PROBLEM S BIBTEXOM   
     - urobit prepinace a nemat len zakomentovany kod
     - na typy rymov dat ipa s dvojteckami 
     - este sme nedoriesili celkovy rating pre celu pesnicku
@@ -1248,9 +1262,7 @@ TODO:
     - pripisat o sparsare 
         - uviest priklady pesnicky, ktora sa zjavne rymuje ale urcilo ju to zle
         - priklad slova na ktorom sparsar spadne 
-    - mat verziu ktora detekuje len perfektne rymy
-        - s jednickovou diagonalou, len na prepinac
-    - odtestovat rhymetagger
-        - zistit ako funguje, uklada si nejak model?
-        - funguje inak ak dostane pesnicku samotnu vs. ak ju dostane vramci vacsich dat
-        - funguje len na perfektne rymy alebo aj tie podobne
+    - urobit si porovnavaciu funkciu
+        - s datami z taggeru, prip. mojimi
+        - vediet porovnat kolko uhadla spravne, prip. ci sa zlepsila
+    - problem - akosi mi rymuje veci s prazdnym polom

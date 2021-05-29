@@ -26,19 +26,26 @@ def split_dataset(dataset_file, train_perc, test_perc):
 
 
 class RhymeDetector:
-    def __init__(self, data_path = None, matrixC_path = None, matrixV_path = None):
+    def __init__(self, data_path, perfect_only, matrixC_path=None, matrixV_path=None):
         if data_path:
             self.data, self.cons_comp, self.vow_comp = self.extract_relevant_data(data_path)
-        if matrixC_path and matrixV_path:
+        if perfect_only:
+            self.cons_comp, self.matrixC = self._load_matrix('data/matrixC_identity.csv')
+            self.vow_comp, self.matrixV = self._load_matrix('data/matrixV_identity.csv')
+            self.init_value = 0
+        elif matrixC_path and matrixV_path:
             self.cons_comp, self.matrixC = self._load_matrix(matrixC_path)
             self.vow_comp, self.matrixV = self._load_matrix(matrixV_path)
+            self.init_value = 0.1
         else:
             self.matrixC = self._initialize_matrix(len(self.cons_comp))
             self.matrixV = self._initialize_matrix(len(self.vow_comp))
+            self.init_value = 0.1
         self.freqC = [1/len(self.cons_comp)]*len(self.cons_comp)
         self.freqV = [1/len(self.vow_comp)]*len(self.vow_comp)
         # Default value to use when previously unseen component is found.
-        self.new_value = 0.1
+        self.perfect_only = perfect_only
+        self.rhyme_rating_min = 0.8
 
     # Returns an array of songs.
     # Each song is an array of lines.
@@ -72,14 +79,30 @@ class RhymeDetector:
         unique_vow_components = sorted(list(unique_vow_components))
         return new_data, unique_cons_components, unique_vow_components
 
-    def _initialize_matrix(self, size):
-        matrix = [[0.2]*size for i in range(size)]
+    def _initialize_matrix(self, size, init_val=0.2):
+        matrix = [[init_val]*size for i in range(size)]
         for i in range(len(matrix)):
             matrix[i][i] = 1.0
         return matrix
 
-    # Get components after the last stress.
-    def get_relevant_components(self, first, second):
+    # Get the phonemes after the last stress (the "relevant" part).
+    def get_phonemes_after_last_stress(self, line):
+        relevant = []
+        idx = 0
+        for i in range(len(line), -1, -1):
+            _, v, c2 = line[i]
+            if '1' in v or '2' in v:
+                relevant = [v, c2]
+                idx = i + 1
+                break
+        while idx < len(line):
+            c1, v, c2 = line[idx]
+            relevant.extend([c1, v, c2])
+            idx += 1
+        return relevant
+
+    # Get components after the last stress for a pair - move stress if needed.
+    def get_relevant_components_for_pair(self, first, second):
         stress_penalty = False
         last_stressed_idx1 = 4
         last_stressed_idx2 = 4
@@ -87,12 +110,12 @@ class RhymeDetector:
         for i in range(len(first)):
             _, v, _ = first[i]
             v = ''.join(v)
-            if '1' in v or '2' in 'v':
+            if '1' in v or '2' in v:
                 last_stressed_idx1 = i
         for i in range(len(second)):
             _, v, _ = second[i]
             v = ''.join(v)
-            if '1' in v or '2' in 'v':
+            if '1' in v or '2' in v:
                 last_stressed_idx2 = i
         # Select index of last stressed syllable (joined for both), add penalty if needed.
         if len(first) - last_stressed_idx1 != len(second) - last_stressed_idx2:
@@ -126,7 +149,7 @@ class RhymeDetector:
             idx += 1
         ids.insert(idx, a)
         # Add a row.
-        new_row = [0]*idx + [self.new_value] * (len(matrix)- idx)
+        new_row = [0]*idx + [self.init_value] * (len(matrix)- idx)
         if idx == len(matrix):
             matrix.append(new_row)
         else:
@@ -138,7 +161,7 @@ class RhymeDetector:
         # Add column.
         for i in range(len(matrix)):
             if i < idx:
-                matrix[i].insert(idx, self.new_value)
+                matrix[i].insert(idx, self.init_value)
             elif i == idx:
                 matrix[i].insert(idx, 1.0)
             else:
@@ -216,14 +239,20 @@ class RhymeDetector:
         if not data:
             data = self.data
         for song in data:
-            rhymes = [{'rating': 0, 'rhyme_fellow': 0} for i in range(len(song))]
+            # Best rhyme for each line with its parameters.
+            rhymes = [{'rating': 0,
+                       'rhyme_fellow': 0,
+                       'relevant_components': None,
+                       'relevant_components_rhyme_fellow': None,
+                       'other_candidates': []} for i in range(len(song))]
+            # Phonemes after last stress for each line (these are only used when no rhyme for the line is found).
+            last_stressed_phonemes = []*len(song)
+            last_stressed_phonemes[0] = self.get_phonemes_after_last_stress(song[0])
             start_idx = 0
-            # Components participating in rhyme (or not).
-            # Their matrix values will be recalculated later.
-            relevant_comps = [None]*len(song)
             for line_idx in range(start_idx + 1, len(song)):
+                last_stressed_phonemes[line_idx] = self.get_phonemes_after_last_stress(song[line_idx])
                 # Find the best rated combination of pronunciation of this line and its selected predecessors.
-                rhyme_fellows = []
+                possible_rhymes = []
                 if not song[line_idx]:
                     continue
                 for pronunciation1 in song[line_idx]:
@@ -232,36 +261,35 @@ class RhymeDetector:
                         if not song[line_idx-lines_back]:
                             continue
                         for pronunciation2 in song[line_idx-lines_back]:
-                            rel_first, rel_second, stress_penalty = self.get_relevant_components(pronunciation1, pronunciation2)
+                            rel_first, rel_second, stress_penalty = self.get_relevant_components_for_pair(pronunciation1, pronunciation2)
                             rating = self.get_rhyme_rating_simple_multiplication(rel_first, rel_second, stress_penalty)
-                            if not relevant_comps[0] and line_idx-lines_back == 0:
-                                relevant_comps[0] = rel_second
                             result = {'rating': rating,
-                                      'relevant_comps1': rel_first,
-                                      'relevant_comps2': rel_second,
-                                      'index': lines_back}
-                            rhyme_fellows.append(result)
-                if not rhyme_fellows:
-                    _, rel_second, _ = self.get_relevant_components('', song[line_idx][0])
-                    relevant_comps[line_idx] = rel_second
+                                      'relevant_comps': rel_first,
+                                      'relevant_comps_fellow': rel_second,
+                                      'relative_index': lines_back}
+                            possible_rhymes.append(result)
+                if not possible_rhymes:
                     continue
                 # Select the rhyme fellow with best rating.
-                best_rated_rhyme = max(rhyme_fellows, key=lambda item: item['rating'])
+                best_rated_rhyme = max(possible_rhymes, key=lambda item: item['rating'])
                 # Small rating is not a rhyme.
-                if best_rated_rhyme['rating'] > 0.8:
+                if best_rated_rhyme['rating'] > self.rhyme_rating_min:
                     rhymes[line_idx]['rating'] = best_rated_rhyme['rating']
-                    rhymes[line_idx]['rhyme_fellow'] = - best_rated_rhyme['index']
-                    relevant_comps[line_idx - best_rated_rhyme['index']] = best_rated_rhyme['relevant_comps2']
-                relevant_comps[line_idx] = best_rated_rhyme['relevant_comps1']
-            stats.append(self._revise_and_create_scheme(rhymes, relevant_comps))
+                    rhymes[line_idx]['rhyme_fellow'] = - best_rated_rhyme['relative_index']
+                    rhymes[line_idx]['relevant_components_rhyme_fellow'] = best_rated_rhyme['relevant_comps_fellow']
+                    # Keep other candidates in case of pronunciation conflict.
+                    rhymes[line_idx]['other_candidates'] = list(filter(lambda c: c['rating'] > self.rhyme_rating_min and c != best_rated_rhyme, possible_rhymes))
+                rhymes[line_idx]['relevant_components'] = best_rated_rhyme['relevant_comps']
+            stats.append(self._revise_and_create_scheme(rhymes, last_stressed_phonemes))
         return stats
 
     # Create rhyme scheme.
-    def _revise_and_create_scheme(self, rhymes, relevant_comps):
+    # todo avoid pronunciation conflicts.
+    def _revise_and_create_scheme(self, rhymes, relevant_part):
         # Lists of line index with the same rhyme.
         rhyme_groups = []
         for i in range(len(rhymes)):
-            if not relevant_comps[i]:
+            if not relevant_part[i]:
                 continue
             if rhymes[i]['rhyme_fellow'] == 0:
                 rhyme_groups.append([i])
@@ -317,7 +345,7 @@ class RhymeDetector:
                     continue
         stats = {'scheme': scheme,
                  'ratings': rhymes,
-                 'relevant_components': relevant_comps}
+                 'relevant_components': relevant_part}
         return stats
 
     def adjust_matrix(self, stats):
@@ -420,67 +448,87 @@ class RhymeDetector:
                 output.write(' '*i*8 + ",".join(format(x, "1.5f") for x in matrix[i][i:])+'\n')
 
     def _load_matrix(self, filename):
-        with open(filename) as input:
-            idxs = [id.strip() for id in input.readline().split(',')]
+        with open(filename) as matrix_input:
+            idxs = [id.strip() for id in matrix_input.readline().split(',')]
             size = len(idxs)
             matrix = [[0] * size for i in range(size)]
             for i in range(size):
-                line = [float(item.strip()) for item in input.readline().split(',')]
+                line = [float(item.strip()) for item in matrix_input.readline().split(',')]
                 for j in range(i, size):
                     matrix[i][j] = line[j-i]
         return idxs, matrix
 
 
 def main(args):
-    # Prepare dataset and initialize the detector.
-    # split_dataset('../song_data/data/ENlyrics_final.json', ratio, ratio)
-    # detector = RhymeDetector(None, 'data/matrixC.csv', 'data/matrixV.csv')
-    # detector = RhymeDetector('data/train_lyrics'+str(ratio)+'.json')
-    # detector.save_matrixC('data/matrixC_init.csv')
-    # detector.save_matrixV('data/matrixV_init.csv')
-    detector = RhymeDetector('data/train_lyrics'+str(args.ratio)+'.json', args.matrix_C_file, args.matrix_V_file)
-    n = 0
-    # Train the detector.
-    while n < 3:
-        print(f"ITERATION {n+1}")
-        stats = detector.find_rhymes()
-        detector.adjust_matrix(stats)
-        detector.save_matrixC('data/matrixC_iter'+str(n)+'.csv')
-        detector.save_matrixV('data/matrixV_iter'+str(n)+'.csv')
-        n += 1
-    # Test the detector.
-    detector = RhymeDetector(None, 'data/matrixC_iter'+str(n)+'.csv', 'data/matrixV_iter'+str(n)+'.csv')
-    test_data_file = 'data/test_lyrics'+str(args.ratio)+'.json'
-    test_data_pron, cons, vows = detector.extract_relevant_data(test_data_file)
-    with open(test_data_file) as input:
-        test_data = json.load(input)
-    # Add new components.
-    for c in cons:
-        if c not in detector.cons_comp:
-            detector.add_new_component(detector.matrixC, detector.cons_comp, c)
-    for v in vows:
-        if v not in detector.vow_comp:
-            detector.add_new_component(detector.matrixV, detector.vow_comp, v)
-    stats = detector.find_rhymes(test_data_pron)
-    for s in range(len(test_data)):
-        print(f"NEXT SONG: {test_data[s]['title']}")
-        for l in range(len(test_data[s]['lyrics'])):
-            print(f"{stats[s]['scheme'][l]:<2}",
-                  f"{stats[s]['ratings'][l]['rating']:5.3f}" if isinstance(stats[s]['ratings'][l]['rating'], float) else f"{stats[s]['ratings'][l]['rating']:<5}",
-                  f"{stats[s]['ratings'][l]['rhyme_fellow']:<3}",
-                  f"{stats[s]['relevant_components'][l]}", test_data[s]['lyrics'][l])
+    if args.do_train:
+        if not args.matrix_C_file and not args.matrix_V_file:
+            if args.ratio:
+                # Prepare dataset and initialize the detector.
+                split_dataset(args.train_file, args.ratio, args.ratio)
+                detector = RhymeDetector('data/train_lyrics'+str(args.ratio)+'.json', args.perfect_only)
+                args.test_file = 'data/test_lyrics' + str(args.ratio) + '.json'
+            else:
+                # Initialize the detector from train file.
+                detector = RhymeDetector(args.train_file, args.perfect_only)
+            detector.save_matrixC('data/matrixC_init.csv')
+            detector.save_matrixV('data/matrixV_init.csv')
+        else:
+            detector = RhymeDetector(args.train_file, args.perfect_only, args.matrix_C_file, args.matrix_V_file)
+        detector.save_matrixC('data/matrixC_init.csv')
+        detector.save_matrixV('data/matrixV_init.csv')
+        n = 0
+        # Train the detector.
+        while n < 3:
+            print(f"ITERATION {n+1}")
+            stats = detector.find_rhymes()
+            detector.adjust_matrix(stats)
+            detector.save_matrixC('data/matrixC_iter'+str(n)+'.csv')
+            detector.save_matrixV('data/matrixV_iter'+str(n)+'.csv')
+            n += 1
+    if args.do_test:
+        # Test the detector.
+        if not args.do_train:
+            matrixC_file = args.matrix_C_file
+            matrixV_file = args.matrix_V_file
+            detector = RhymeDetector(None, args.perfect_only, matrixC_file, matrixV_file)
+        test_data_pron, cons, vows = detector.extract_relevant_data(args.test_file)
+        with open(args.test_file) as input:
+            test_data = json.load(input)
+        # Add new components.
+        for c in cons:
+            if c not in detector.cons_comp:
+                detector.add_new_component(detector.matrixC, detector.cons_comp, c)
+        for v in vows:
+            if v not in detector.vow_comp:
+                detector.add_new_component(detector.matrixV, detector.vow_comp, v)
+        stats = detector.find_rhymes(test_data_pron)
+        for s in range(len(test_data)):
+            print(f"NEXT SONG: {test_data[s]['title']}")
+            for l in range(len(test_data[s]['lyrics'])):
+                print(f"{stats[s]['scheme'][l]:<2}",
+                      f"{stats[s]['ratings'][l]['rating']:5.3f}" if isinstance(stats[s]['ratings'][l]['rating'], float) else f"{stats[s]['ratings'][l]['rating']:<5}",
+                      f"{stats[s]['ratings'][l]['rhyme_fellow']:<3}",
+                      f"{stats[s]['relevant_components'][l]}", test_data[s]['lyrics'][l])
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_file')
-    parser.add_argument('--ratio', type=float)
-    parser.add_argument('--matrix_C_file')
-    parser.add_argument('--matrix_V_file')
-    parser.add_argument('--do_test', type=bool, default=True)
-    parser.add_argument('--do_train', type=bool, default=True)
-    args = parser.parse_args(['--data_file', 'data/train_lyrics0.001.json',
-                              '--ratio', '0.001',
-                              '--matrix_C_file', 'data/matrixC_init.csv',
-                              '--matrix_V_file', 'data/matrixV_init.csv'])
+    parser.add_argument('--do_test',  default=False, action='store_true')
+    parser.add_argument('--do_train',  default=False, action='store_true')
+    parser.add_argument('--train_file', required='do_train' in sys.argv, help="Either a file for train file generation (if ratio is given) or already generated train file.")
+    parser.add_argument('--test_file', required='do_test' in sys.argv and '--ratio' not in sys.argv)
+    parser.add_argument('--ratio', type=float, help="If given, data for training/testing are generated from given train_file in given ratio.")
+    parser.add_argument('--matrix_C_file', help="Matrix loaded for testing. If training selected, this matrix will be loaded as initialization matrix.")
+    parser.add_argument('--matrix_V_file', help="Matrix loaded for testing. If training selected, this matrix will be loaded as initialization matrix.")
+    parser.add_argument('--perfect_only', default=False, action='store_true')
+
+    args = parser.parse_args([#'--train_file', '../song_data/data/ENlyrics_final.json',
+                              # '--train_file', 'data/train_lyrics0.001.json',
+                              '--test_file', 'data/test_lyrics0.001.json',
+                              # '--ratio', '0.001',
+                              '--matrix_C_file', 'data/matrixC_identity.csv',
+                              '--matrix_V_file', 'data/matrixV_identity.csv',
+                              # '--do_train',
+                              '--do_test',
+                              '--perfect_only'])
     main(args)
