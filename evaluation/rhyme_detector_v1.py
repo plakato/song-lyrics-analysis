@@ -1,4 +1,6 @@
+import argparse
 import itertools
+import json
 import re
 import string
 import sys
@@ -426,14 +428,22 @@ def get_scheme_from_tagger(lyrics):
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--tagger', default=False, action='store_true')
+    parser.add_argument('--input_file')
+    args = parser.parse_args(['--tagger', '--input_file', '../evaluation/data/test_lyrics0.001.json'])
     scheme = ''
     input = poem1
-    if len(sys.argv) == 1:
-        if sys.argv[1] == '-tagger':
-            scheme = get_scheme_from_tagger(poem1)
+    if args.tagger:
+        with open(args.input_file) as input:
+            data = json.load(input)
+            for song in data:
+                scheme = get_scheme_from_tagger(song['lyrics'])
+                print('NEXT SONG:', song['title'])
+                for i in range(len(song['lyrics'])):
+                    print(f"{scheme[i]:<5}" if scheme[i] else scheme[i], song['lyrics'][i])
     else:
-        if sys.argv[1] == '-data':
-            with open('data/'+sys.argv[2]) as input_file:
-                input = input_file.read().splitlines()
+        with open(args.input_file) as input_file:
+            input = input_file.read().splitlines()
         lines = [line for line in input if line]
         scheme, rating, lines = get_rhyme_scheme_and_rating(lines)
