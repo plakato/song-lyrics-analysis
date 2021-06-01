@@ -465,16 +465,8 @@ class RhymeDetector:
 def main(args):
     if args.do_train:
         if not args.matrix_C_file and not args.matrix_V_file:
-            if args.ratio:
-                # Prepare dataset and initialize the detector.
-                split_dataset(args.train_file, args.ratio, args.ratio)
-                detector = RhymeDetector('data/train_lyrics'+str(args.ratio)+'.json', args.perfect_only)
-                args.test_file = 'data/test_lyrics' + str(args.ratio) + '.json'
-            else:
-                # Initialize the detector from train file.
-                detector = RhymeDetector(args.train_file, args.perfect_only)
-            detector.save_matrixC('data/matrixC_init.csv')
-            detector.save_matrixV('data/matrixV_init.csv')
+            # Initialize the detector from train file.
+            detector = RhymeDetector(args.train_file, args.perfect_only)
         else:
             detector = RhymeDetector(args.train_file, args.perfect_only, args.matrix_C_file, args.matrix_V_file)
         detector.save_matrixC('data/matrixC_init.csv')
@@ -523,13 +515,18 @@ if __name__ == '__main__':
     parser.add_argument('--matrix_C_file', help="Matrix loaded for testing. If training selected, this matrix will be loaded as initialization matrix.")
     parser.add_argument('--matrix_V_file', help="Matrix loaded for testing. If training selected, this matrix will be loaded as initialization matrix.")
     parser.add_argument('--perfect_only', default=False, action='store_true')
-
-    args = parser.parse_args([# '--train_file', 'data/train_lyrics0.001.json',
-                              '--test_file', 'data/test_lyrics0.001.json',
-                              '--matrix_C_file', 'data/matrixC_identity.csv',
-                              '--matrix_V_file', 'data/matrixV_identity.csv',
-                              # '--do_train',
-                              '--do_test',
-                              '--perfect_only'
-    ])
+    # args = parser.parse_args([# '--train_file', 'data/train_lyrics0.001.json',
+    #                           '--test_file', 'data/test_lyrics0.001.json',
+    #                           '--matrix_C_file', 'data/matrixC_identity.csv',
+    #                           '--matrix_V_file', 'data/matrixV_identity.csv',
+    #                           # '--do_train',
+    #                           '--do_test',
+    #                           '--perfect_only'
+    # ])
+    args = parser.parse_args([  '--train_file', 'data/train_lyrics0.001.json',
+                                '--test_file', 'data/test_lyrics0.001.json',
+                                # '--matrix_C_file', 'data/matrixC_identity.csv',
+                                # '--matrix_V_file', 'data/matrixV_identity.csv',
+                                '--do_train',
+                                '--do_test'])
     main(args)
