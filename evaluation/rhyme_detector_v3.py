@@ -303,8 +303,9 @@ class RhymeDetector:
                     if i+rhymes[i]['rhyme_fellow'] in group:
                         # Keep the pronunciation used for the rhyme.
                         relevant_parts[i] = rhymes[i]['relevant_components']
+                        # If conflict found, forget about the rhyme and create new group.
                         if relevant_parts[i+rhymes[i]['rhyme_fellow']] != rhymes[i]['relevant_components_rhyme_fellow']:
-                            print(f"CONFLICT FOUND:{i}")
+                            rhyme_groups.append([i])
                         relevant_parts[i + rhymes[i]['rhyme_fellow']] = rhymes[i]['relevant_components_rhyme_fellow']
                         group.append(i)
                         continue
