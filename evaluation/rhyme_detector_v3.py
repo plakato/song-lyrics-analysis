@@ -12,18 +12,6 @@ from evaluation.rhyme_detector_v1 import get_pronunciations_for_n_syllables, nex
 from song_data.preprocess_data import save_dataset
 
 
-def split_dataset(dataset_file, train_perc, test_perc):
-    with open(dataset_file) as file:
-        data = json.load(file)
-    random.shuffle(data)
-    l = len(data)
-    train_idx = int(train_perc*l)
-    test_idx = train_idx + int(test_perc*l)
-    train_data = data[:train_idx]
-    test_data = data[train_idx:min(test_idx, l)]
-    save_dataset(train_data, f'data/train_lyrics{train_perc}.json')
-    save_dataset(test_data, f'data/test_lyrics{test_perc}.json')
-
 
 class RhymeDetector:
     def __init__(self, data_path, perfect_only, matrixC_path=None, matrixV_path=None):
@@ -526,17 +514,14 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--do_test',  default=False, action='store_true')
     parser.add_argument('--do_train',  default=False, action='store_true')
-    parser.add_argument('--train_file', required='do_train' in sys.argv, help="Either a file for train file generation (if ratio is given) or already generated train file.")
-    parser.add_argument('--test_file', required='do_test' in sys.argv and '--ratio' not in sys.argv)
-    parser.add_argument('--ratio', type=float, help="If given, data for training/testing are generated from given train_file in given ratio.")
+    parser.add_argument('--train_file', required='do_train' in sys.argv, help="A file with songs for training.")
+    parser.add_argument('--test_file', required='do_test' in sys.argv)
     parser.add_argument('--matrix_C_file', help="Matrix loaded for testing. If training selected, this matrix will be loaded as initialization matrix.")
     parser.add_argument('--matrix_V_file', help="Matrix loaded for testing. If training selected, this matrix will be loaded as initialization matrix.")
     parser.add_argument('--perfect_only', default=False, action='store_true')
 
-    args = parser.parse_args([#'--train_file', '../song_data/data/ENlyrics_final.json',
-                              # '--train_file', 'data/train_lyrics0.001.json',
+    args = parser.parse_args([# '--train_file', 'data/train_lyrics0.001.json',
                               '--test_file', 'data/test_lyrics0.001.json',
-                              # '--ratio', '0.001',
                               '--matrix_C_file', 'data/matrixC_identity.csv',
                               '--matrix_V_file', 'data/matrixV_identity.csv',
                               # '--do_train',
