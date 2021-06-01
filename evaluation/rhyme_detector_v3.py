@@ -94,12 +94,14 @@ class RhymeDetector:
             v = ' '.join(v)
             c2 = ' '.join(c2)
             if '1' in v or '2' in v:
+                v = re.sub(r"[12]", '', v)
                 relevant = [v, c2]
                 idx = i + 1
                 break
         while idx < len(line):
             c1, v, c2 = line[idx]
-            relevant.extend([' '.join(c1), ' '.join(v), ' '.join(c2)])
+            v = re.sub(r"[012]", '', ' '.join(v))
+            relevant.extend([' '.join(c1), v, ' '.join(c2)])
             idx += 1
         return relevant
 
