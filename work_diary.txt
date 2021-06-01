@@ -1251,18 +1251,21 @@ TODO:
     - dopisat aby to urcovalo aj konkretny typ rymu
     - zistit preco sa pri webovych citaciach neukazuje "accessed on" 
     - urobit prepinace a nemat len zakomentovany kod
-    - na typy rymov dat ipa s dvojteckami 
     - este sme nedoriesili celkovy rating pre celu pesnicku
     - vynimky - ak sa zmeni zoskupenie rymov - pozor aby nejaky dalsi neodkazoval na nieco co uz je v inej skupine
     - vynimky - ak sa vytahuju dva rymy na jeden riadok - pozor aby sa nevytahovali k roznej vyslovnosti
     - pre porovnanie evaluacie dotrenovat tagger na mojich datach
-    - prehodnotit definicie rymov
-        - rozlisovat typy identity?
     - pridat prizvuky do ladiacich vypisov
-    - pripisat o sparsare 
-        - uviest priklady pesnicky, ktora sa zjavne rymuje ale urcilo ju to zle
-        - priklad slova na ktorom sparsar spadne 
     - urobit si porovnavaciu funkciu
         - s datami z taggeru, prip. mojimi
         - vediet porovnat kolko uhadla spravne, prip. ci sa zlepsila
+        - porovna 2 schemy pre tu istu pesnicku
     - problem - akosi mi rymuje veci s prazdnym polom
+    - do textu
+        - rymy, ktore rhyme tagger nezvlada
+        - na typy rymov dat ipa s dvojteckami 
+        - prehodnotit definicie rymov
+            - rozlisovat typy identity?
+        - pripisat o sparsare 
+            - uviest priklady pesnicky, ktora sa zjavne rymuje ale urcilo ju to zle
+            - priklad slova na ktorom sparsar spadne 

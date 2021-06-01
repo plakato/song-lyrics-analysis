@@ -89,15 +89,17 @@ class RhymeDetector:
     def get_phonemes_after_last_stress(self, line):
         relevant = []
         idx = 0
-        for i in range(len(line), -1, -1):
+        for i in range(len(line)-1, -1, -1):
             _, v, c2 = line[i]
+            v = ' '.join(v)
+            c2 = ' '.join(c2)
             if '1' in v or '2' in v:
                 relevant = [v, c2]
                 idx = i + 1
                 break
         while idx < len(line):
             c1, v, c2 = line[idx]
-            relevant.extend([c1, v, c2])
+            relevant.extend([' '.join(c1), ' '.join(v), ' '.join(c2)])
             idx += 1
         return relevant
 
@@ -246,15 +248,16 @@ class RhymeDetector:
                        'relevant_components_rhyme_fellow': None,
                        'other_candidates': []} for i in range(len(song))]
             # Phonemes after last stress for each line (these are only used when no rhyme for the line is found).
-            last_stressed_phonemes = []*len(song)
-            last_stressed_phonemes[0] = self.get_phonemes_after_last_stress(song[0])
+            last_stressed_phonemes = [[]]*len(song)
+            if song[0]:
+                last_stressed_phonemes[0] = self.get_phonemes_after_last_stress(song[0][0])
             start_idx = 0
             for line_idx in range(start_idx + 1, len(song)):
-                last_stressed_phonemes[line_idx] = self.get_phonemes_after_last_stress(song[line_idx])
-                # Find the best rated combination of pronunciation of this line and its selected predecessors.
-                possible_rhymes = []
                 if not song[line_idx]:
                     continue
+                last_stressed_phonemes[line_idx] = self.get_phonemes_after_last_stress(song[line_idx][0])
+                # Find the best rated combination of pronunciation of this line and its selected predecessors.
+                possible_rhymes = []
                 for pronunciation1 in song[line_idx]:
                     # Look for rhyme fellow in preceding lines.
                     for lines_back in range(1, min(NO_OF_PRECEDING_LINES, line_idx) + 1):
@@ -285,17 +288,22 @@ class RhymeDetector:
 
     # Create rhyme scheme.
     # todo avoid pronunciation conflicts.
-    def _revise_and_create_scheme(self, rhymes, relevant_part):
+    def _revise_and_create_scheme(self, rhymes, relevant_parts):
         # Lists of line index with the same rhyme.
         rhyme_groups = []
         for i in range(len(rhymes)):
-            if not relevant_part[i]:
+            if not relevant_parts[i]:
                 continue
             if rhymes[i]['rhyme_fellow'] == 0:
                 rhyme_groups.append([i])
             else:
                 for group in rhyme_groups:
                     if i+rhymes[i]['rhyme_fellow'] in group:
+                        # Keep the pronunciation used for the rhyme.
+                        relevant_parts[i] = rhymes[i]['relevant_components']
+                        if relevant_parts[i+rhymes[i]['rhyme_fellow']] != rhymes[i]['relevant_components_rhyme_fellow']:
+                            print(f"CONFLICT FOUND:{i}")
+                        relevant_parts[i + rhymes[i]['rhyme_fellow']] = rhymes[i]['relevant_components_rhyme_fellow']
                         group.append(i)
                         continue
         # Take care of exceptions like AAAA->AABB
@@ -345,7 +353,7 @@ class RhymeDetector:
                     continue
         stats = {'scheme': scheme,
                  'ratings': rhymes,
-                 'relevant_components': relevant_part}
+                 'relevant_components': relevant_parts}
         return stats
 
     def adjust_matrix(self, stats):
