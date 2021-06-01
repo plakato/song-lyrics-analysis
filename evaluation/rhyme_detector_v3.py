@@ -98,6 +98,11 @@ class RhymeDetector:
         stress_penalty = False
         last_stressed_idx1 = 4
         last_stressed_idx2 = 4
+        # Solve for the case when one is empty.
+        if not first:
+            return [], self.get_phonemes_after_last_stress(second), True
+        if not second:
+            return self.get_phonemes_after_last_stress(second), [], True
         # Find last stressed syllable index in both.
         for i in range(len(first)):
             _, v, _ = first[i]
@@ -112,7 +117,7 @@ class RhymeDetector:
         # Select index of last stressed syllable (joined for both), add penalty if needed.
         if len(first) - last_stressed_idx1 != len(second) - last_stressed_idx2:
             stress_penalty = True
-        relevent_last_sylls = max(len(first) - last_stressed_idx1, len(second) - last_stressed_idx2)
+        relevent_last_sylls = min(len(first) - last_stressed_idx1, len(second) - last_stressed_idx2)
         if relevent_last_sylls > len(first):
             relevent_last_sylls = len(first)
         if relevent_last_sylls > len(second):
@@ -277,7 +282,6 @@ class RhymeDetector:
         return stats
 
     # Create rhyme scheme.
-    # todo avoid pronunciation conflicts.
     def _revise_and_create_scheme(self, rhymes, relevant_parts):
         # Lists of line index with the same rhyme.
         rhyme_groups = []
@@ -526,5 +530,6 @@ if __name__ == '__main__':
                               '--matrix_V_file', 'data/matrixV_identity.csv',
                               # '--do_train',
                               '--do_test',
-                              '--perfect_only'])
+                              '--perfect_only'
+    ])
     main(args)
