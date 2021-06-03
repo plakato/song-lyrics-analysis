@@ -1247,6 +1247,7 @@ DONE
 
 
 2.6. 13:00 - 15:00
+piatok 11.6. 10:00
 
 TODO:
     - dopisat aby to urcovalo aj konkretny typ rymu
@@ -1272,3 +1273,15 @@ TODO:
         - pripisat o sparsare 
             - uviest priklady pesnicky, ktora sa zjavne rymuje ale urcilo ju to zle
             - priklad slova na ktorom sparsar spadne 
+    - pre nerymy nedavat pismenko len pomlcku (prave vtedy je v 2.stlpci 0)
+        - ak je to 1. pismenko, tak je rating '-', inak nenulove cislo
+        - rating celej piesne je priemer 2. stlpca, okrem '-' 
+    - rozdelit anotovane na test/dev set podla poctu riadkov 
+        - tieto pesnicky nemaju byt v celkovych datach!!!
+!!!    - rozmysliet si ako porovnavat schemy - metriku
+            - prisna varianta - vypisat si len indexy rymovanych riadkov a porovnavat na rovnost
+    - frequencies prerobit na dictionary
+    - pocitat frequencies len z neperfektnych rymov
+        - ak medzi 4 poslednymi nie je rym - urcim ten predchadzajuci (perfektne rymy ignorujem)
+        - spocitat suvyskyty component
+        - vypisat si absolutne pocty suvyskyty component (neidentit, top10)

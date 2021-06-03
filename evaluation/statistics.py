@@ -6,6 +6,9 @@ import re
 
 import cmudict
 
+from evaluation.constants import NO_OF_PRECEDING_LINES
+from evaluation.rhyme_detector_v3 import RhymeDetector
+
 
 def percetage_not_in_CMU(filename, verbose):
     total_words = 0
@@ -83,13 +86,62 @@ def percentage_of_numbers_to_all_OOD(filename, verbose):
     return (n_contain_numbers+n_only_numbers)/n_not_in_CMU, n_only_numbers/n_not_in_CMU
 
 
+# Returns top n co-occurences of components (not-identical).
+def print_nonidentical_cooccurences(file, n):
+    comp_coocurence = dict()
+    separator = '&'
+    data, _, _ = RhymeDetector.extract_relevant_data(file)
+    for song in data:
+        for line_idx in range(1, len(song)):
+            if not song[line_idx]:
+                continue
+
+            # Finds rhyme in preceding lines. Returns relevant components for both lines + flag if the rhyme was perfect.
+            def find_rhyme_for_line():
+                rel_first = []
+                rel_second = []
+                found_perfect = False
+                for pronunciation1 in song[line_idx]:
+                    # Look for rhyme fellow in preceding lines.
+                    for lines_back in range(min(NO_OF_PRECEDING_LINES, line_idx), 0, -1):
+                        if not song[line_idx - lines_back]:
+                            continue
+                        for pronunciation2 in song[line_idx - lines_back]:
+                            rel_first, rel_second, _ = RhymeDetector.get_relevant_components_for_pair(pronunciation1, pronunciation2)
+                            if rel_first == rel_second:
+                                found_perfect = True
+                                return rel_first, rel_second, found_perfect
+                return rel_first, rel_second, found_perfect
+            # Ignore if we found perfect rhyme or only "rhyme" with an empty line.
+            rel_first, rel_second, found_perfect = find_rhyme_for_line()
+            if found_perfect or rel_first == [] or rel_second == []:
+                continue
+            # Add components to cooccurence list if they are not identical.
+            for i in range(len(rel_first)):
+                if rel_first[i] != rel_second[i]:
+                    index = separator.join(sorted([rel_first[i], rel_second[i]]))
+                    if index in comp_coocurence:
+                        comp_coocurence[index] += 1
+                    else:
+                        comp_coocurence[index] = 1
+    # Sort the list of co-occurences and print the top n combinations.
+    for comp, occ in sorted(comp_coocurence.items(), key=lambda item: item[1], reverse=True):
+        comp = comp.split(separator)
+        print(f"{comp[0]:<5} | {comp[1]:<5}: {occ}")
+        n -= 1
+        if n == 0:
+            break
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--not_in_cmu', default=False, action='store_true', help="Prints the percentage of line-end word that are not in CMU.")
     parser.add_argument('--numbers_in_OOD', default=False, action='store_true', help="Prints statistics about numbers among out-of-dictionary words.")
+    parser.add_argument('--n_cooccurences', default=False, type=int, help="Prints top n non-identical co-occurences of components.")
     parser.add_argument('--file', required=True, help="JSON file with songs to calculate the statistics for.")
     parser.add_argument('--verbose', default=False, action='store_true')
-    args = parser.parse_args(['--numbers_in_OOD', '--file', '../song_data/data/ENlyrics_final.json'])
+    # args = parser.parse_args(['--numbers_in_OOD', '--file', '../song_data/data/ENlyrics_final.json'])
+    args = parser.parse_args(['--n_cooccurences', '100', '--file', 'data/train_lyrics0.3.json'])
     if args.not_in_cmu:
         percentage = percetage_not_in_CMU(args.file, args.verbose)
         print(f'{percentage*100}% of line-end words are not in CMU dictionary.')
@@ -97,3 +149,5 @@ if __name__ == '__main__':
         contain_number, only_numbers = percentage_of_numbers_to_all_OOD(args.file, args.verbose)
         print(f"{contain_number*100}% of out-of-dictionary words contain numbers.")
         print(f"{only_numbers*100}% of out-of-dictionary words are numbers.")
+    if args.n_cooccurences:
+        print_nonidentical_cooccurences(args.file, args.n_cooccurences)
