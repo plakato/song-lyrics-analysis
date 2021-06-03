@@ -9,8 +9,6 @@ import sklearn
 
 from evaluation.constants import NO_OF_PRECEDING_LINES, NOT_AVAILABLE
 from evaluation.rhyme_detector_v1 import get_pronunciations_for_n_syllables, next_letter_generator
-from song_data.preprocess_data import save_dataset
-
 
 
 class RhymeDetector:
@@ -40,7 +38,8 @@ class RhymeDetector:
     # Each line is an array possible pronunciations.
     # Each pronunciation is an array of 4 last syllables.
     # Each syllable is a triplet CVC.
-    def extract_relevant_data(self, dataset_file):
+    @staticmethod
+    def extract_relevant_data(dataset_file):
         unique_cons_components = set()
         unique_vow_components = set()
         # In new data, every song is an array of possible pronunciations of last 4 syllables.
@@ -74,7 +73,9 @@ class RhymeDetector:
         return matrix
 
     # Get the phonemes after the last stress (the "relevant" part).
-    def get_phonemes_after_last_stress(self, line):
+    # Line is a list of triplets CVC.
+    @staticmethod
+    def get_phonemes_after_last_stress(line):
         relevant = []
         idx = 0
         for i in range(len(line)-1, -1, -1):
@@ -94,15 +95,16 @@ class RhymeDetector:
         return relevant
 
     # Get components after the last stress for a pair - move stress if needed.
-    def get_relevant_components_for_pair(self, first, second):
+    @staticmethod
+    def get_relevant_components_for_pair(first, second):
         stress_penalty = False
         last_stressed_idx1 = 4
         last_stressed_idx2 = 4
         # Solve for the case when one is empty.
         if not first:
-            return [], self.get_phonemes_after_last_stress(second), True
+            return [], RhymeDetector.get_phonemes_after_last_stress(second), True
         if not second:
-            return self.get_phonemes_after_last_stress(second), [], True
+            return RhymeDetector.get_phonemes_after_last_stress(second), [], True
         # Find last stressed syllable index in both.
         for i in range(len(first)):
             _, v, _ = first[i]
@@ -525,8 +527,8 @@ if __name__ == '__main__':
     # ])
     args = parser.parse_args([  '--train_file', 'data/train_lyrics0.001.json',
                                 '--test_file', 'data/test_lyrics0.001.json',
-                                # '--matrix_C_file', 'data/matrixC_identity.csv',
-                                # '--matrix_V_file', 'data/matrixV_identity.csv',
+                                '--matrix_C_file', 'data/matrixC_identity.csv',
+                                '--matrix_V_file', 'data/matrixV_identity.csv',
                                 '--do_train',
                                 '--do_test'])
     main(args)
