@@ -1,6 +1,7 @@
 import argparse
 import json
 import math
+import pickle
 import random
 import re
 import sys
@@ -12,23 +13,22 @@ from evaluation.rhyme_detector_v1 import get_pronunciations_for_n_syllables, nex
 
 
 class RhymeDetector:
-    def __init__(self, data_path, perfect_only, matrixC_path=None, matrixV_path=None):
+    def __init__(self, data_path, perfect_only, matrix_path=None):
+        self.separator = '&'
+        self.zero_value = 0.001
+        self.init_value = 0.2
         if data_path:
             self.data, self.cons_comp, self.vow_comp = self.extract_relevant_data(data_path)
         if perfect_only:
+            # todo
             self.cons_comp, self.matrixC = self._load_matrix('data/matrixC_identity.csv')
-            self.vow_comp, self.matrixV = self._load_matrix('data/matrixV_identity.csv')
             self.init_value = 0
-        elif matrixC_path and matrixV_path:
-            self.cons_comp, self.matrixC = self._load_matrix(matrixC_path)
-            self.vow_comp, self.matrixV = self._load_matrix(matrixV_path)
-            self.init_value = 0.1
+        elif matrix_path:
+            self.cooc = self._load_matrix(matrix_path)
         else:
-            self.matrixC = self._initialize_matrix(len(self.cons_comp))
-            self.matrixV = self._initialize_matrix(len(self.vow_comp))
-            self.init_value = 0.1
-        self.freqC = [1/len(self.cons_comp)]*len(self.cons_comp)
-        self.freqV = [1/len(self.vow_comp)]*len(self.vow_comp)
+            self._initialize_matrix()
+        # todo - do I need this?
+        self.freq = dict.fromkeys(self.cons_comp+self.vow_comp, 1/len(self.cons_comp+self.vow_comp))
         # Default value to use when previously unseen component is found.
         self.perfect_only = perfect_only
         self.rhyme_rating_min = 0.8
@@ -66,11 +66,17 @@ class RhymeDetector:
         unique_vow_components = sorted(list(unique_vow_components))
         return new_data, unique_cons_components, unique_vow_components
 
-    def _initialize_matrix(self, size, init_val=0.2):
-        matrix = [[init_val]*size for i in range(size)]
-        for i in range(len(matrix)):
-            matrix[i][i] = 1.0
-        return matrix
+    # Initialize with self.init_value all vowel combinations and all consonant combinations.
+    def _initialize_matrix(self):
+        self.cooc = dict()
+        for i in range(len(self.cons_comp)):
+            for j in range(i+1, len(self.cons_comp)):
+                key = self.separator.join(sorted([self.cons_comp[i], self.cons_comp[j]]))
+                self.cooc[key] = self.init_value
+        for i in range(len(self.vow_comp)):
+            for j in range(i + 1, len(self.vow_comp)):
+                key = self.separator.join(sorted([self.vow_comp[i], self.vow_comp[j]]))
+                self.cooc[key] = self.init_value
 
     # Get the phonemes after the last stress (the "relevant" part).
     # Line is a list of triplets CVC.
@@ -141,67 +147,20 @@ class RhymeDetector:
         rel_second = [re.sub(r'\d', '', ' '.join(item).strip()) for item in rel_second]
         return rel_first, rel_second, stress_penalty
 
-    # Tried to work with previously unseen component - add it to the matrix.
-    def add_new_component(self, matrix, ids, a):
-        idx = 0
-        while idx < len(ids) and ids[idx] < a:
-            idx += 1
-        ids.insert(idx, a)
-        # Add a row.
-        new_row = [0]*idx + [self.init_value] * (len(matrix)- idx)
-        if idx == len(matrix):
-            matrix.append(new_row)
-        else:
-            to_shift = matrix[idx:]
-            matrix[idx] = new_row
-            for i in range(idx+1, len(matrix)):
-                matrix[i] = to_shift[i-idx-1]
-            matrix.append(to_shift[-1])
-        # Add column.
-        for i in range(len(matrix)):
-            if i < idx:
-                matrix[i].insert(idx, self.init_value)
-            elif i == idx:
-                matrix[i].insert(idx, 1.0)
-            else:
-                matrix[i].insert(idx, 0)
-        matrix[idx][idx] = 1.0
-
+    # todo prehodnotit pripad ak to neni v cooc
     # Get rhyme rating using multiplication of partial probabilities with inverse probabilities.
     def get_rhyme_rating(self, first, second, stress_penalty):
         product_prob = 1
         product_inverse_prob = 1
-        vowel = True
-        next_vowel = False
         for i in range(len(first)):
             a, b = sorted([first[i], second[i]])
-            if vowel:
-                # If new component found, add it to the matrix.
-                if a not in self.vow_comp:
-                    self.add_new_component(self.matrixV, self.vow_comp, a)
-                if b not in self.vow_comp:
-                    self.add_new_component(self.matrixV, self.vow_comp, b)
-                # Get the index a multiply with given probability.
-                ai = self.vow_comp.index(a)
-                bi = self.vow_comp.index(b)
-                product_prob *= self.matrixV[ai][bi]
-                product_inverse_prob *= 1-self.matrixV[ai][bi]
-            else:
-                # If new component found, add it to the matrix.
-                if a not in self.cons_comp:
-                    self.add_new_component(self.matrixC, self.cons_comp, a)
-                if b not in self.cons_comp:
-                    self.add_new_component(self.matrixC, self.cons_comp, b)
-                ai = self.cons_comp.index(a)
-                bi = self.cons_comp.index(b)
-                product_prob *= self.matrixC[ai][bi]
-                product_inverse_prob *= 1 - self.matrixC[ai][bi]
-            last_vowel = vowel
-            vowel = next_vowel
-            if vowel:
-                next_vowel = False
-            elif not last_vowel:
-                next_vowel = True
+            if a == b:
+                product_inverse_prob *= self.zero_value
+                continue
+            index = self.separator.join([a, b])
+            val = self.cooc.get(index, self.zero_value)
+            product_prob *= val
+            product_inverse_prob *= 1-val
         rating = product_prob/(product_prob + product_inverse_prob)
         if stress_penalty:
             rating -= 0.1
@@ -209,24 +168,12 @@ class RhymeDetector:
 
     def get_rhyme_rating_simple_multiplication(self, first, second, stress_penalty):
         rating = 1
-        vowel = True
-        next_vowel = False
         for i in range(len(first)):
             a, b = sorted([first[i], second[i]])
-            if vowel:
-                ai = self.vow_comp.index(a)
-                bi = self.vow_comp.index(b)
-                rating *= self.matrixV[ai][bi]
-            else:
-                ai = self.cons_comp.index(a)
-                bi = self.cons_comp.index(b)
-                rating *= self.matrixC[ai][bi]
-            last_vowel = vowel
-            vowel = next_vowel
-            if vowel:
-                next_vowel = False
-            elif not last_vowel:
-                next_vowel = True
+            if a == b:
+                continue
+            index = self.separator.join([a, b])
+            rating *= self.cooc.get(index, self.zero_value)
         if stress_penalty:
             rating -= 0.1
         return rating
@@ -283,7 +230,7 @@ class RhymeDetector:
             stats.append(self._revise_and_create_scheme(rhymes, last_stressed_phonemes))
         return stats
 
-    # Create rhyme scheme.
+    # Create rhyme scheme - cluster rhymes into groups, yield higher ratings, assign letters.
     def _revise_and_create_scheme(self, rhymes, relevant_parts):
         # Lists of line index with the same rhyme.
         rhyme_groups = []
@@ -354,10 +301,8 @@ class RhymeDetector:
         return stats
 
     def adjust_matrix(self, stats):
-        frequencies_C = [0]*len(self.cons_comp)
-        frequencies_V = [0]*len(self.vow_comp)
-        frequencies_CC = [[0]*len(self.cons_comp) for i in range(len(self.cons_comp))]
-        frequencies_VV = [[0]*len(self.vow_comp) for i in range(len(self.vow_comp))]
+        frequencies_indiv = dict()
+        frequencies_pairs = dict()
         # Count frequencies for pairs and individual components.
         for song in stats:
             scheme = song['scheme']
@@ -365,12 +310,10 @@ class RhymeDetector:
             if song['relevant_components'][0]:
                 for s in range(len(song['relevant_components'][0])):
                     a = song['relevant_components'][0][s]
-                    if a in self.vow_comp:
-                        ai = self.vow_comp.index(a)
-                        frequencies_V[ai] += 1
+                    if a in frequencies_indiv:
+                        frequencies_indiv[a] += 1
                     else:
-                        ai = self.cons_comp.index(a)
-                        frequencies_C[ai] += 1
+                        frequencies_indiv[a] = 1
             # Look at preceding lines for rhyme pairs.
             for i in range(1, len(song['relevant_components'])):
                 if not song['relevant_components'][i]:
@@ -378,12 +321,10 @@ class RhymeDetector:
                 # Add individual frequencies.
                 for s in range(len(song['relevant_components'][i])):
                     a = song['relevant_components'][i][s]
-                    if a in self.vow_comp:
-                        ai = self.vow_comp.index(a)
-                        frequencies_V[ai] += 1
+                    if a in frequencies_indiv:
+                        frequencies_indiv[a] += 1
                     else:
-                        ai = self.cons_comp.index(a)
-                        frequencies_C[ai] += 1
+                        frequencies_indiv[a] = 1
                 for lines_back in range(1, min(NO_OF_PRECEDING_LINES, i) + 1):
                     if not song['relevant_components'][i-lines_back]:
                         continue
@@ -393,111 +334,68 @@ class RhymeDetector:
                         for s in range(1, l):
                             a, b = sorted([song['relevant_components'][i][-s],
                                            song['relevant_components'][i-lines_back][-s]])
-                            if a in self.vow_comp and b in self.vow_comp:
-                                ai = self.vow_comp.index(a)
-                                bi = self.vow_comp.index(b)
-                                frequencies_VV[ai][bi] += 1
+                            if a == b:
+                                continue
+                            index = self.separator.join([a, b])
+                            if index in frequencies_pairs:
+                                frequencies_pairs[index] += 1
                             else:
-                                ai = self.cons_comp.index(a)
-                                bi = self.cons_comp.index(b)
-                                frequencies_CC[ai][bi] += 1
+                                frequencies_pairs[index] = 1
         # Calculate relative frequencies.
-        totalC = sum(frequencies_C)
-        rel_freqC = [(f + len(self.matrixC))/totalC for f in frequencies_C]
-        totalV = sum(frequencies_V)
-        rel_freqV = [(f + len(self.matrixV)) / totalV for f in frequencies_V]
+        total_indiv = sum(frequencies_indiv.values())
+        rel_freq_indiv = [(frequencies_indiv[f] + len(frequencies_indiv))/total_indiv for f in frequencies_indiv]
         # Create new matrices based on calculated frequencies.
-        totalVV = sum(map(sum, frequencies_VV))
-        totalCC = sum(map(sum, frequencies_CC))
-        for i in range(len(self.matrixV)):
-            for j in range(i+1, len(self.matrixV)):
-                rel_freq = (frequencies_VV[i][j]+1)/totalVV
-                self.matrixV[i][j] = rel_freq/(rel_freq + rel_freqV[i]*rel_freqV[j])
-        for i in range(len(self.matrixC)):
-            for j in range(i+1, len(self.matrixC)):
-                rel_freq = (frequencies_CC[i][j]+1)/totalCC
-                self.matrixC[i][j] = rel_freq/(rel_freq + rel_freqC[i]*rel_freqC[j])
-        self.freqC = frequencies_C
-        self.freqV = frequencies_V
+        total_pairs = sum(frequencies_pairs.values())
+        new_cooc = dict.fromkeys(frequencies_pairs.keys(), 0)
+        for key in frequencies_pairs:
+            key_elem = key.split(self.separator)
+            rel_freq = (frequencies_pairs[key] + 1) / total_pairs
+            new_cooc[key] = rel_freq / (rel_freq + rel_freq_indiv[key_elem[0]] * rel_freq_indiv[key_elem[1]])
+        self.cooc = new_cooc
+        self.freq = frequencies_indiv
         self._print_state()
         return
 
-    def save_matrixC(self, path):
-        self._save_matrix(self.matrixC, self.cons_comp, path)
-
-    def save_matrixV(self, path):
-        self._save_matrix(self.matrixV, self.vow_comp, path)
-
-    # Prints current state of matrices and component frequencies.
+    # Prints current state of matrix.
     def _print_state(self):
-        print('CONSONANT MATRIX')
-        self._print_matrix(self.matrixC, self.cons_comp)
-        print('VOWEL MATRIX')
-        self._print_matrix(self.matrixV, self.vow_comp)
-        print('CONSONANT FREQUENCIES')
-        for i in range(len(self.cons_comp)):
-            print(f'{self.cons_comp[i]}: {self.freqC[i]}')
-        print('VOWEL FREQUENCIES')
-        for i in range(len(self.vow_comp)):
-            print(f'{self.vow_comp[i]}: {self.freqV[i]}')
+        for key, value in self.cooc:
+            key = key.split(self.separator)
+            print(f"{key[0]:<5}|{key[1]:<5}:value")
 
-    def _print_matrix(self, matrix, ids):
-        print(','.join(x.ljust(5) for x in ids))
-        for i in range(len(matrix)):
-            print(' ' * i * 6 + ",".join(format(x, "1.3f") for x in matrix[i][i:]))
-
-    def _save_matrix(self, matrix, ids, filename):
-        with open(filename, 'w+') as output:
-            output.write(','.join(x.ljust(7) for x in ids) + '\n')
-            for i in range(len(matrix)):
-                output.write(' '*i*8 + ",".join(format(x, "1.5f") for x in matrix[i][i:])+'\n')
+    def save_matrix(self, filename):
+        with open(filename, 'w+') as f:
+            json.dump(self.cooc, f, sort_keys=True)
 
     def _load_matrix(self, filename):
-        with open(filename) as matrix_input:
-            idxs = [id.strip() for id in matrix_input.readline().split(',')]
-            size = len(idxs)
-            matrix = [[0] * size for i in range(size)]
-            for i in range(size):
-                line = [float(item.strip()) for item in matrix_input.readline().split(',')]
-                for j in range(i, size):
-                    matrix[i][j] = line[j-i]
-        return idxs, matrix
+        with open(filename, 'r') as file:
+            data = json.load(file)
+        return data
 
 
 def main(args):
     if args.do_train:
-        if not args.matrix_C_file and not args.matrix_V_file:
+        if not args.matrix_file:
             # Initialize the detector from train file.
             detector = RhymeDetector(args.train_file, args.perfect_only)
         else:
-            detector = RhymeDetector(args.train_file, args.perfect_only, args.matrix_C_file, args.matrix_V_file)
-        detector.save_matrixC('data/matrixC_init.csv')
-        detector.save_matrixV('data/matrixV_init.csv')
+            detector = RhymeDetector(args.train_file, args.perfect_only, args.matrix_file)
+        detector.save_matrix('data/cooc_init.json')
         n = 0
         # Train the detector.
-        while n < 3:
+        while n < 2:
             print(f"ITERATION {n+1}")
             stats = detector.find_rhymes()
             detector.adjust_matrix(stats)
-            detector.save_matrixC('data/matrixC_iter'+str(n)+'.csv')
-            detector.save_matrixV('data/matrixV_iter'+str(n)+'.csv')
+            detector.save_matrix('data/cooc_iter'+str(n)+'.json')
             n += 1
     if args.do_test:
         # Test the detector.
         if not args.do_train:
-            matrixC_file = args.matrix_C_file
-            matrixV_file = args.matrix_V_file
-            detector = RhymeDetector(None, args.perfect_only, matrixC_file, matrixV_file)
+            matrix_file = args.matrix_file
+            detector = RhymeDetector(None, args.perfect_only, matrix_file)
         test_data_pron, cons, vows = detector.extract_relevant_data(args.test_file)
         with open(args.test_file) as input:
             test_data = json.load(input)
-        # Add new components.
-        for c in cons:
-            if c not in detector.cons_comp:
-                detector.add_new_component(detector.matrixC, detector.cons_comp, c)
-        for v in vows:
-            if v not in detector.vow_comp:
-                detector.add_new_component(detector.matrixV, detector.vow_comp, v)
         stats = detector.find_rhymes(test_data_pron)
         for s in range(len(test_data)):
             print(f"NEXT SONG: {test_data[s]['title']}")
@@ -514,8 +412,7 @@ if __name__ == '__main__':
     parser.add_argument('--do_train',  default=False, action='store_true')
     parser.add_argument('--train_file', required='do_train' in sys.argv, help="A file with songs for training.")
     parser.add_argument('--test_file', required='do_test' in sys.argv)
-    parser.add_argument('--matrix_C_file', help="Matrix loaded for testing. If training selected, this matrix will be loaded as initialization matrix.")
-    parser.add_argument('--matrix_V_file', help="Matrix loaded for testing. If training selected, this matrix will be loaded as initialization matrix.")
+    parser.add_argument('--matrix_file', help="Matrix loaded for testing. If training selected, this matrix will be loaded as initialization matrix.")
     parser.add_argument('--perfect_only', default=False, action='store_true')
     # args = parser.parse_args([# '--train_file', 'data/train_lyrics0.001.json',
     #                           '--test_file', 'data/test_lyrics0.001.json',
@@ -527,8 +424,8 @@ if __name__ == '__main__':
     # ])
     args = parser.parse_args([  '--train_file', 'data/train_lyrics0.001.json',
                                 '--test_file', 'data/test_lyrics0.001.json',
-                                '--matrix_C_file', 'data/matrixC_identity.csv',
-                                '--matrix_V_file', 'data/matrixV_identity.csv',
+                                # '--matrix_C_file', 'data/matrixC_identity.csv',
+                                # '--matrix_V_file', 'data/matrixV_identity.csv',
                                 '--do_train',
                                 '--do_test'])
     main(args)
