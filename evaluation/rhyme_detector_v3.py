@@ -18,13 +18,12 @@ class RhymeDetector:
         self.zero_value = 0.001
         self.init_value = 0.2
         self.perfect_only = perfect_only
-        self.rhyme_rating_min = 0.001
+        self.rhyme_rating_min = 0.5
+        self.non_rhyme_char = "-"
         if data_path:
             self.data, self.cons_comp, self.vow_comp = self.extract_relevant_data(data_path)
         if perfect_only:
-            # todo
-            self.cons_comp, self.matrixC = self._load_matrix('data/matrixC_identity.csv')
-            self.init_value = 0
+            self.cooc = dict()
         elif matrix_path:
             self.cooc = self._load_matrix(matrix_path)
         else:
@@ -245,11 +244,12 @@ class RhymeDetector:
                         # Keep the pronunciation used for the rhyme.
                         relevant_parts[i] = rhymes[i]['relevant_components']
                         # If conflict found, forget about the rhyme and create new group.
-                        if relevant_parts[i+rhymes[i]['rhyme_fellow']] != rhymes[i]['relevant_components_rhyme_fellow']:
+                        if relevant_parts[i+rhymes[i]['rhyme_fellow']] != rhymes[i]['relevant_components_rhyme_fellow'] and len(group) > 1:
                             rhyme_groups.append([i])
-                        relevant_parts[i + rhymes[i]['rhyme_fellow']] = rhymes[i]['relevant_components_rhyme_fellow']
-                        group.append(i)
-                        continue
+                        else:
+                            relevant_parts[i + rhymes[i]['rhyme_fellow']] = rhymes[i]['relevant_components_rhyme_fellow']
+                            group.append(i)
+                        break
         # Take care of exceptions like AAAA->AABB
         revised_groups = []
         for group in rhyme_groups:
@@ -286,15 +286,20 @@ class RhymeDetector:
         # Assign rhyme scheme letters.
         letter_gen = next_letter_generator()
         scheme = ['']*len(rhymes)
+        # For each line find and deal with its group.
         for i in range(len(rhymes)):
             for group in revised_groups:
-                # Assign one letter to the entire rhyme group.
                 if i in group:
-                    l = next(letter_gen)
-                    for idx in group:
-                        scheme[idx] = l
+                    # Assign neutral character for non-rhymes.
+                    if len(group) == 1:
+                        scheme[i] = self.non_rhyme_char
+                    else:
+                        # Assign one letter to the entire rhyme group.
+                        l = next(letter_gen)
+                        for idx in group:
+                            scheme[idx] = l
                     revised_groups.remove(group)
-                    continue
+                    break
         stats = {'scheme': scheme,
                  'ratings': rhymes,
                  'relevant_components': relevant_parts}

@@ -1257,7 +1257,9 @@ DONE
             - prisna varianta - vypisat si len indexy rymovanych riadkov a porovnavat na rovnost
     - vynimky - ak sa vytahuju dva rymy na jeden riadok - pozor aby sa nevytahovali k roznej vyslovnosti
         - vyriesene zatial tak, ze ak je tam konflikt, tak sa druha zahodi
-    
+    - frequencies prerobit na dictionary
+    - pre nerymy nedavat pismenko len pomlcku (prave vtedy je v 2.stlpci 0)
+        - ak je to 1. pismenko, tak je rating '-', inak nenulove cislo
 
 piatok 11.6. 10:00
 
@@ -1284,10 +1286,7 @@ TODO:
         - pripisat o sparsare 
             - uviest priklady pesnicky, ktora sa zjavne rymuje ale urcilo ju to zle
             - priklad slova na ktorom sparsar spadne 
-    - pre nerymy nedavat pismenko len pomlcku (prave vtedy je v 2.stlpci 0)
-        - ak je to 1. pismenko, tak je rating '-', inak nenulove cislo
         - rating celej piesne je priemer 2. stlpca, okrem '-' 
     - rozdelit anotovane na test/dev set podla poctu riadkov 
         - tieto pesnicky nemaju byt v celkovych datach!!!
-    - frequencies prerobit na dictionary
-    
+    - is nefative rating ok? (for lines)
