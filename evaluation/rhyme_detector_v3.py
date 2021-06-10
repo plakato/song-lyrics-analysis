@@ -90,7 +90,7 @@ class RhymeDetector:
     def analyze_lyrics(self, lyrics):
         self.data = [self.preprocess_lyrics(lyrics)]
         stats = self.find_rhymes()
-        return stats
+        return stats[0]
 
     # Get the phonemes after the last stress (the "relevant" part).
     # Line is a list of triplets CVC.
@@ -301,7 +301,7 @@ class RhymeDetector:
             revised_groups.append(group[leftover_idx:])
         # Assign rhyme scheme letters.
         letter_gen = next_letter_generator()
-        scheme = ['']*len(rhymes)
+        scheme = [self.non_rhyme_char]*len(rhymes)
         # For each line find and deal with its group.
         for i in range(len(rhymes)):
             for group in revised_groups:
