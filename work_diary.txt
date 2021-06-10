@@ -1260,6 +1260,7 @@ DONE
     - frequencies prerobit na dictionary
     - pre nerymy nedavat pismenko len pomlcku (prave vtedy je v 2.stlpci 0)
         - ak je to 1. pismenko, tak je rating '-', inak nenulove cislo
+   
 
 piatok 11.6. 10:00
 
@@ -1271,12 +1272,14 @@ TODO:
     - vynimky - ak sa zmeni zoskupenie rymov - pozor aby nejaky dalsi neodkazoval na nieco co uz je v inej skupine
     - pre porovnanie evaluacie dotrenovat tagger na mojich datach
     - pridat prizvuky do ladiacich vypisov
-    - urobit si porovnavaciu funkciu
-        - s datami z taggeru, prip. mojimi
-        - vediet porovnat kolko uhadla spravne, prip. ci sa zlepsila
+   - urobit si porovnavaciu funkciu
         - porovna 2 schemy pre tu istu pesnicku
+        - s datami z taggeru, v2, v3, detekovanymi
+        - vzdy jedny su akoze golden a druhe sa porovnavaju
+        - vediet porovnat kolko uhadla spravne, zatial ARI score 
+        - vediet nejak ulozit vysledok, ci sa zlepsila
         - vizualizovat rozdiely
-        - vypisat accuracy skore pre celu piesen
+    - vypisat accuracy skore pre celu piesen
     - problem - akosi mi rymuje veci s prazdnym polom
     - do textu
         - rymy, ktore rhyme tagger nezvlada

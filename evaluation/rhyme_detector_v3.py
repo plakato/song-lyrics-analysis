@@ -13,32 +13,28 @@ from evaluation.rhyme_detector_v1 import get_pronunciations_for_n_syllables, nex
 
 
 class RhymeDetector:
-    def __init__(self, data_path, perfect_only, matrix_path=None):
+    def __init__(self, perfect_only, matrix_path=None):
         self.separator = '&'
         self.zero_value = 0.001
         self.init_value = 0.2
         self.perfect_only = perfect_only
         self.rhyme_rating_min = 0.5
         self.non_rhyme_char = "-"
-        if data_path:
-            self.data, self.cons_comp, self.vow_comp = self.extract_relevant_data(data_path)
+        self.cons_comp = dict()
+        self.vow_comp = dict()
         if perfect_only:
             self.cooc = dict()
         elif matrix_path:
             self.cooc = self._load_matrix(matrix_path)
         else:
             self._initialize_matrix()
-        # todo - do I need this?
-        self.freq = dict.fromkeys(self.cons_comp+self.vow_comp, 1/len(self.cons_comp+self.vow_comp))
-        # Default value to use when previously unseen component is found.
 
     # Returns an array of songs.
     # Each song is an array of lines.
     # Each line is an array possible pronunciations.
     # Each pronunciation is an array of 4 last syllables.
     # Each syllable is a triplet CVC.
-    @staticmethod
-    def extract_relevant_data(dataset_file):
+    def load_and_preprocess_data(self, dataset_file):
         unique_cons_components = set()
         unique_vow_components = set()
         # In new data, every song is an array of possible pronunciations of last 4 syllables.
@@ -61,9 +57,10 @@ class RhymeDetector:
                             unique_vow_components.add(re.sub(r'\d+', '', ' '.join(v).strip()))
                     lyrics_last4.append(prons)
                 new_data.append(lyrics_last4)
-        unique_cons_components = sorted(list(unique_cons_components))
-        unique_vow_components = sorted(list(unique_vow_components))
-        return new_data, unique_cons_components, unique_vow_components
+        self.cons_comp = sorted(list(unique_cons_components))
+        self.vow_comp = sorted(list(unique_vow_components))
+        self.data = new_data
+        return new_data
 
     # Initialize with self.init_value all vowel combinations and all consonant combinations.
     def _initialize_matrix(self):
@@ -378,10 +375,11 @@ class RhymeDetector:
 def main(args):
     if args.do_train:
         if not args.matrix_file:
-            # Initialize the detector from train file.
-            detector = RhymeDetector(args.train_file, args.perfect_only)
+            # Initialize the detector.
+            detector = RhymeDetector(args.perfect_only)
         else:
-            detector = RhymeDetector(args.train_file, args.perfect_only, args.matrix_file)
+            detector = RhymeDetector(args.perfect_only, args.matrix_file)
+        detector.load_and_preprocess_data(args.train_file)
         detector.save_matrix('data/cooc_init.json')
         n = 0
         # Train the detector.
@@ -395,8 +393,8 @@ def main(args):
         # Test the detector.
         if not args.do_train:
             matrix_file = args.matrix_file
-            detector = RhymeDetector(None, args.perfect_only, matrix_file)
-        test_data_pron, cons, vows = detector.extract_relevant_data(args.test_file)
+            detector = RhymeDetector(args.perfect_only, matrix_file)
+        test_data_pron = detector.load_and_preprocess_data(args.test_file)
         with open(args.test_file) as input:
             test_data = json.load(input)
         stats = detector.find_rhymes(test_data_pron)
