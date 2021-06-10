@@ -297,6 +297,9 @@ class RhymeDetector:
                         # Assign one letter to the entire rhyme group.
                         l = next(letter_gen)
                         for idx in group:
+                            # First rhyme fellow doesn't have a rating.
+                            if idx == group[0]:
+                                rhymes[idx]['rating'] = self.non_rhyme_char
                             scheme[idx] = l
                     revised_groups.remove(group)
                     break
