@@ -1247,6 +1247,18 @@ DONE
 
 
 2.6. 13:00 - 15:00
+
+DONE
+    - pocitat frequencies len z neperfektnych rymov
+        - ak medzi 4 poslednymi nie je rym - urcim ten predchadzajuci (perfektne rymy ignorujem)
+        - spocitat suvyskyty component
+        - vypisat si absolutne pocty suvyskyty component (neidentit, top10)
+    - rozmysliet si ako porovnavat schemy - metriku
+            - prisna varianta - vypisat si len indexy rymovanych riadkov a porovnavat na rovnost
+    - vynimky - ak sa vytahuju dva rymy na jeden riadok - pozor aby sa nevytahovali k roznej vyslovnosti
+        - vyriesene zatial tak, ze ak je tam konflikt, tak sa druha zahodi
+    
+
 piatok 11.6. 10:00
 
 TODO:
@@ -1255,7 +1267,6 @@ TODO:
     - urobit prepinace a nemat len zakomentovany kod
     - este sme nedoriesili celkovy rating pre celu pesnicku
     - vynimky - ak sa zmeni zoskupenie rymov - pozor aby nejaky dalsi neodkazoval na nieco co uz je v inej skupine
-    - vynimky - ak sa vytahuju dva rymy na jeden riadok - pozor aby sa nevytahovali k roznej vyslovnosti
     - pre porovnanie evaluacie dotrenovat tagger na mojich datach
     - pridat prizvuky do ladiacich vypisov
     - urobit si porovnavaciu funkciu
@@ -1278,10 +1289,5 @@ TODO:
         - rating celej piesne je priemer 2. stlpca, okrem '-' 
     - rozdelit anotovane na test/dev set podla poctu riadkov 
         - tieto pesnicky nemaju byt v celkovych datach!!!
-!!!    - rozmysliet si ako porovnavat schemy - metriku
-            - prisna varianta - vypisat si len indexy rymovanych riadkov a porovnavat na rovnost
     - frequencies prerobit na dictionary
-    - pocitat frequencies len z neperfektnych rymov
-        - ak medzi 4 poslednymi nie je rym - urcim ten predchadzajuci (perfektne rymy ignorujem)
-        - spocitat suvyskyty component
-        - vypisat si absolutne pocty suvyskyty component (neidentit, top10)
+    

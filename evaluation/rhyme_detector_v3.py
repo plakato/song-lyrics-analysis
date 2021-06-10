@@ -17,6 +17,8 @@ class RhymeDetector:
         self.separator = '&'
         self.zero_value = 0.001
         self.init_value = 0.2
+        self.perfect_only = perfect_only
+        self.rhyme_rating_min = 0.001
         if data_path:
             self.data, self.cons_comp, self.vow_comp = self.extract_relevant_data(data_path)
         if perfect_only:
@@ -30,8 +32,6 @@ class RhymeDetector:
         # todo - do I need this?
         self.freq = dict.fromkeys(self.cons_comp+self.vow_comp, 1/len(self.cons_comp+self.vow_comp))
         # Default value to use when previously unseen component is found.
-        self.perfect_only = perfect_only
-        self.rhyme_rating_min = 0.8
 
     # Returns an array of songs.
     # Each song is an array of lines.
@@ -306,25 +306,10 @@ class RhymeDetector:
         # Count frequencies for pairs and individual components.
         for song in stats:
             scheme = song['scheme']
-            # Add individual frequencies of the first line.
-            if song['relevant_components'][0]:
-                for s in range(len(song['relevant_components'][0])):
-                    a = song['relevant_components'][0][s]
-                    if a in frequencies_indiv:
-                        frequencies_indiv[a] += 1
-                    else:
-                        frequencies_indiv[a] = 1
             # Look at preceding lines for rhyme pairs.
             for i in range(1, len(song['relevant_components'])):
                 if not song['relevant_components'][i]:
                     continue
-                # Add individual frequencies.
-                for s in range(len(song['relevant_components'][i])):
-                    a = song['relevant_components'][i][s]
-                    if a in frequencies_indiv:
-                        frequencies_indiv[a] += 1
-                    else:
-                        frequencies_indiv[a] = 1
                 for lines_back in range(1, min(NO_OF_PRECEDING_LINES, i) + 1):
                     if not song['relevant_components'][i-lines_back]:
                         continue
@@ -341,9 +326,19 @@ class RhymeDetector:
                                 frequencies_pairs[index] += 1
                             else:
                                 frequencies_pairs[index] = 1
-        # Calculate relative frequencies.
+                            if a in frequencies_indiv:
+                                frequencies_indiv[a] += 1
+                            else:
+                                frequencies_indiv[a] = 1
+                            if b in frequencies_indiv:
+                                frequencies_indiv[b] += 1
+                            else:
+                                frequencies_indiv[b] = 1
+        # Calculate relative frequencies for individual keys that occur in rhyme pairs => perfect match doesn't count
         total_indiv = sum(frequencies_indiv.values())
-        rel_freq_indiv = [(frequencies_indiv[f] + len(frequencies_indiv))/total_indiv for f in frequencies_indiv]
+        rel_freq_indiv = dict()
+        for key in frequencies_indiv:
+            rel_freq_indiv[key] = (frequencies_indiv[key] + len(frequencies_indiv))/total_indiv
         # Create new matrices based on calculated frequencies.
         total_pairs = sum(frequencies_pairs.values())
         new_cooc = dict.fromkeys(frequencies_pairs.keys(), 0)
@@ -358,9 +353,9 @@ class RhymeDetector:
 
     # Prints current state of matrix.
     def _print_state(self):
-        for key, value in self.cooc:
-            key = key.split(self.separator)
-            print(f"{key[0]:<5}|{key[1]:<5}:value")
+        for key in self.cooc:
+            key_parts = key.split(self.separator)
+            print(f"{key_parts[0]:<5}|{key_parts[1]:<5}:{self.cooc[key]}")
 
     def save_matrix(self, filename):
         with open(filename, 'w+') as f:
