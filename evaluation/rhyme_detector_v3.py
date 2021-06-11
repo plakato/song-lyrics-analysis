@@ -262,7 +262,7 @@ class RhymeDetector:
                     elif relevant_parts[i+rhymes[i]['rhyme_fellow']] != rhymes[i]['relevant_components_rhyme_fellow']:
                         better_cand_found = False
                         for cand in rhymes[i]['other_candidates']:
-                            if cand['relevant_components_rhyme_fellow'] == relevant_parts[i-cand['rhyme_fellow']] and i - cand['rhyme_fellow'] in group:
+                            if cand['relevant_components_rhyme_fellow'] == relevant_parts[i+cand['rhyme_fellow']] and i + cand['rhyme_fellow'] in group:
                                 rhymes[i] = cand
                                 better_cand_found = True
                                 group.append(i)
