@@ -1260,9 +1260,30 @@ DONE
     - frequencies prerobit na dictionary
     - pre nerymy nedavat pismenko len pomlcku (prave vtedy je v 2.stlpci 0)
         - ak je to 1. pismenko, tak je rating '-', inak nenulove cislo
-   
+    - urobit si porovnavaciu funkciu
+        - porovna 2 schemy pre tu istu pesnicku
+        - s datami z taggera a v3 zatial
+        - vzdy jedny su akoze golden a druhe sa porovnavaju
+        - vediet porovnat kolko uhadla spravne, zatial ARI score 
+    - pri porovnavani som zistila ze v3 si nevsima niektore rymy
+        - clear/hear - nie je perfektny, kombinaciu komponent predtym nevidel, moze pomoct ak bude viac natrenovany
+        - rymy cez viac nez 3 riadky - kedze rhyme tagger pozera viac riadkov
+        - viac slabicne "unaccented rhymes" burning/something
 
 piatok 11.6. 10:00
+
+DONE
+Vyriesene nedostatky oproti taggeru
+    - Counting the Cost Lyrics - again/pain
+        - tu bol problem, ze nesedela vyslovnost jedneho rymu s druhym 
+        - pridala som prechadzanie vsetkych dalsich kandidatov na rym v tomto pripade - ak sa najde vhodnejsi, pouzije sa ten
+
+DONE
+    - problem - akosi mi rymuje veci s prazdnym polom
+        - prazdne polia vyradene z hry
+
+
+streda 16.6. 11:00
 
 TODO:
     - dopisat aby to urcovalo aj konkretny typ rymu
@@ -1273,14 +1294,9 @@ TODO:
     - pre porovnanie evaluacie dotrenovat tagger na mojich datach
     - pridat prizvuky do ladiacich vypisov
    - urobit si porovnavaciu funkciu
-        - porovna 2 schemy pre tu istu pesnicku
-        - s datami z taggeru, v2, v3, detekovanymi
-        - vzdy jedny su akoze golden a druhe sa porovnavaju
-        - vediet porovnat kolko uhadla spravne, zatial ARI score 
+        - s datami z taggeru, v2, v3, anotovanymi
         - vediet nejak ulozit vysledok, ci sa zlepsila
         - vizualizovat rozdiely
-    - vypisat accuracy skore pre celu piesen
-    - problem - akosi mi rymuje veci s prazdnym polom
     - do textu
         - rymy, ktore rhyme tagger nezvlada
         - na typy rymov dat ipa s dvojteckami 
@@ -1293,3 +1309,25 @@ TODO:
     - rozdelit anotovane na test/dev set podla poctu riadkov 
         - tieto pesnicky nemaju byt v celkovych datach!!!
     - is negative rating ok? (for lines)
+    - scorer - dostane 2 schemy na vstup/zo suboru
+        - prejst a prerusit ak je vzdialenost rymov > 5 (volitelne)
+        - (volitelne) ak je prazdny riadok oddelujuci slohy, v druhej slohe uz bude nove pismenko
+    - tagger - cita zo std a vypisuje na stdout - bude iba 2 stlpce alebo aj dalsie info, aby to slo presmerovat do suboru
+            - oddelene tabulatorom
+    - ukoncit ak uz sa matica nemeni 
+        - porovnat po 1. iteracii vs az sa ustali
+    - porovnat EM po 1.iteracii vs. experiment
+    - porovnat so shakespearovymi datami a mojimi
+        - oddelit cast shakespeara ako dev, opravit podla toho chyby
+    - automaticky najst basne, kde je rhyme tagger lepsi
+
+
+!!!Chyby:
+Counting the Cost Lyrics - again/pain
+Homicide Housing 04' Lyrics - rain/acitane, on/gone
+Shooter Guy Lyrics - pocket/block it
+Senpai Why Won't Senpai Notice Lyrics - agree/D
+Ham and Blue Cheese Lyrics - clusters/dumpsters
+An Atheists Prayer Lyrics - tragedy/tragedy
+
+other candidates maju iny format ako rhymes -> previest to na rovnaky

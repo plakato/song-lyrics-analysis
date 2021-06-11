@@ -1,7 +1,7 @@
 import cmudict
 import panphon.distance
 
-NO_OF_PRECEDING_LINES = 3
+NO_OF_PRECEDING_LINES = 5
 NOT_AVAILABLE = 'X'
 IPA_VOWELS = {'i', 'y', 'ɨ', 'ʉ', 'ɯ', 'u',
               'ɪ', 'ʏ', 'ɪ̈', 'ʊ̈', 'ʊ',

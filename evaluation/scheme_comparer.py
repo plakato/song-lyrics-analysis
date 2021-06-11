@@ -54,7 +54,7 @@ class SchemeComparer:
         for i in range(len(lyrics)):
             print(f"{scheme_gold[i]:<2} {scheme_out[i]:<2} {lyrics[i]}")
         score = sklearn.metrics.adjusted_rand_score(scheme_gold, scheme_out)
-        print(f"SCORE: {score}")
+        print(f"ARI SCORE: {score}")
 
 
 if __name__ == '__main__':

@@ -52,8 +52,8 @@ def get_pronunciations_for_n_syllables(line, n):
     result = None
     for word in reversed(words):
         pronunciations = get_pronunciation_for_word(word)
-        if not pronunciations or pronunciations == []:
-            return None
+        if not pronunciations or pronunciations == [] or pronunciations == [[]]:
+            return []
         syllabifications = [get_syllables_ARPA(pron) for pron in pronunciations]
         # Append to result.
         if not result:

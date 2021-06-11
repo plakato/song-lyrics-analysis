@@ -8,7 +8,7 @@ import sys
 
 import sklearn
 
-from evaluation.constants import NO_OF_PRECEDING_LINES, NOT_AVAILABLE
+from evaluation.constants import NO_OF_PRECEDING_LINES
 from evaluation.rhyme_detector_v1 import get_pronunciations_for_n_syllables, next_letter_generator
 
 
@@ -161,7 +161,6 @@ class RhymeDetector:
         rel_second = [re.sub(r'\d', '', ' '.join(item).strip()) for item in rel_second]
         return rel_first, rel_second, stress_penalty
 
-    # todo prehodnotit pripad ak to neni v cooc
     # Get rhyme rating using multiplication of partial probabilities with inverse probabilities.
     def get_rhyme_rating(self, first, second, stress_penalty):
         product_prob = 1
@@ -181,6 +180,9 @@ class RhymeDetector:
         return rating
 
     def get_rhyme_rating_simple_multiplication(self, first, second, stress_penalty):
+        # Empty lines can't rhyme.
+        if first == [] or second == []:
+            return 0
         rating = 1
         for i in range(len(first)):
             a, b = sorted([first[i], second[i]])
@@ -224,23 +226,19 @@ class RhymeDetector:
                         for pronunciation2 in song[line_idx-lines_back]:
                             rel_first, rel_second, stress_penalty = self.get_relevant_components_for_pair(pronunciation1, pronunciation2)
                             rating = self.get_rhyme_rating_simple_multiplication(rel_first, rel_second, stress_penalty)
-                            result = {'rating': rating,
-                                      'relevant_comps': rel_first,
-                                      'relevant_comps_fellow': rel_second,
-                                      'relative_index': lines_back}
-                            possible_rhymes.append(result)
+                            if rating > self.rhyme_rating_min:
+                                result = {'rating': rating,
+                                          'relevant_components': rel_first,
+                                          'relevant_components_rhyme_fellow': rel_second,
+                                          'rhyme_fellow': - lines_back}
+                                possible_rhymes.append(result)
                 if not possible_rhymes:
                     continue
                 # Select the rhyme fellow with best rating.
                 best_rated_rhyme = max(possible_rhymes, key=lambda item: item['rating'])
-                # Small rating is not a rhyme.
-                if best_rated_rhyme['rating'] > self.rhyme_rating_min:
-                    rhymes[line_idx]['rating'] = best_rated_rhyme['rating']
-                    rhymes[line_idx]['rhyme_fellow'] = - best_rated_rhyme['relative_index']
-                    rhymes[line_idx]['relevant_components_rhyme_fellow'] = best_rated_rhyme['relevant_comps_fellow']
-                    # Keep other candidates in case of pronunciation conflict.
-                    rhymes[line_idx]['other_candidates'] = list(filter(lambda c: c['rating'] > self.rhyme_rating_min and c != best_rated_rhyme, possible_rhymes))
-                rhymes[line_idx]['relevant_components'] = best_rated_rhyme['relevant_comps']
+                rhymes[line_idx] = best_rated_rhyme
+                # Keep other candidates in case of pronunciation conflict.
+                rhymes[line_idx]['other_candidates'] = list(filter(lambda c: c != best_rated_rhyme, possible_rhymes))
             song_stats = self._revise_and_create_scheme(rhymes, last_stressed_phonemes)
             stats.append(song_stats)
         return stats
@@ -254,18 +252,34 @@ class RhymeDetector:
                 continue
             if rhymes[i]['rhyme_fellow'] == 0:
                 rhyme_groups.append([i])
-            else:
-                for group in rhyme_groups:
-                    if i+rhymes[i]['rhyme_fellow'] in group:
-                        # Keep the pronunciation used for the rhyme.
-                        relevant_parts[i] = rhymes[i]['relevant_components']
-                        # If conflict found, forget about the rhyme and create new group.
-                        if relevant_parts[i+rhymes[i]['rhyme_fellow']] != rhymes[i]['relevant_components_rhyme_fellow'] and len(group) > 1:
+                continue
+            for group in rhyme_groups:
+                if i+rhymes[i]['rhyme_fellow'] in group:
+                    if len(group) == 1:
+                        relevant_parts[i + rhymes[i]['rhyme_fellow']] = rhymes[i]['relevant_components_rhyme_fellow']
+                        group.append(i)
+                    # If conflict found, try other candidates or forget about the rhyme and create new group.
+                    elif relevant_parts[i+rhymes[i]['rhyme_fellow']] != rhymes[i]['relevant_components_rhyme_fellow']:
+                        better_cand_found = False
+                        for cand in rhymes[i]['other_candidates']:
+                            if cand['relevant_components_rhyme_fellow'] == relevant_parts[i-cand['rhyme_fellow']] and i - cand['rhyme_fellow'] in group:
+                                rhymes[i] = cand
+                                better_cand_found = True
+                                group.append(i)
+                                break
+                        if not better_cand_found:
                             rhyme_groups.append([i])
-                        else:
-                            relevant_parts[i + rhymes[i]['rhyme_fellow']] = rhymes[i]['relevant_components_rhyme_fellow']
-                            group.append(i)
-                        break
+                    else:
+                        group.append(i)
+                    # Keep the pronunciation used for the rhyme.
+                    relevant_parts[i] = rhymes[i]['relevant_components']
+                    break
+        revised_groups = self.solve_exceptions_in_rhymes(rhyme_groups, rhymes)
+        scheme = self.assign_scheme_letters(rhymes, revised_groups)
+        stats = {'scheme': scheme, 'ratings': rhymes, 'relevant_components': relevant_parts}
+        return stats
+
+    def solve_exceptions_in_rhymes(self, rhyme_groups, rhymes):
         # Take care of exceptions like AAAA->AABB
         revised_groups = []
         for group in rhyme_groups:
@@ -292,13 +306,16 @@ class RhymeDetector:
             # Remove indexes that separated.
             for idx in separated_indexes:
                 group.remove(idx)
-            # Make sure that no spaces are further than 3 lines.
+            # Make sure that no spaces are further than n lines.
             leftover_idx = 0
             for i in range(len(group)-1):
-                if group[i+1] - group[i] > 3:
+                if group[i+1] - group[i] > NO_OF_PRECEDING_LINES:
                     revised_groups.append(group[:i])
                     leftover_idx = i+1
             revised_groups.append(group[leftover_idx:])
+        return revised_groups
+
+    def assign_scheme_letters(self, rhymes, revised_groups):
         # Assign rhyme scheme letters.
         letter_gen = next_letter_generator()
         scheme = [self.non_rhyme_char]*len(rhymes)
@@ -319,10 +336,7 @@ class RhymeDetector:
                             scheme[idx] = l
                     revised_groups.remove(group)
                     break
-        stats = {'scheme': scheme,
-                 'ratings': rhymes,
-                 'relevant_components': relevant_parts}
-        return stats
+        return scheme
 
     def adjust_matrix(self, stats):
         frequencies_indiv = dict()
@@ -442,7 +456,7 @@ if __name__ == '__main__':
     #                           '--do_test',
     #                           '--perfect_only'
     # ])
-    args = parser.parse_args([  '--train_file', 'data/train_lyrics0.001.json',
+    args = parser.parse_args([  '--train_file', 'data/train_lyrics0.01.json',
                                 '--test_file', 'data/test_lyrics0.001.json',
                                 # '--matrix_C_file', 'data/matrixC_identity.csv',
                                 # '--matrix_V_file', 'data/matrixV_identity.csv',
