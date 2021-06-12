@@ -1273,14 +1273,24 @@ DONE
 piatok 11.6. 10:00
 
 DONE
-Vyriesene nedostatky oproti taggeru
+Vyriesene konkretne priklady preco nefungovali
     - Counting the Cost Lyrics - again/pain
         - tu bol problem, ze nesedela vyslovnost jedneho rymu s druhym 
         - pridala som prechadzanie vsetkych dalsich kandidatov na rym v tomto pripade - ak sa najde vhodnejsi, pouzije sa ten
+    - Shooter Guy Lyrics - pocket/block it
+        -tam nie su zhodne fonemy, a 
+    - Rafiki Freeky Lyrics - waterslide/outside, Jay-Z Beat Lyrics - trace/Mase
+        - zla vyslovnost pre waterslide v slovniku
+    - Homicide Housing 04' Lyrics - on/gone
+        - on malo vybranu inu vyslovnost kvoli dalsim rymom - takze sa nemohlo prisposobit pre gone
+    - Senpai Why Won't Senpai Notice Lyrics - agree/D
+        - kvoli punctuation mal prazdnu vyslovnost pre cely riadok
+
 
 DONE
     - problem - akosi mi rymuje veci s prazdnym polom
         - prazdne polia vyradene z hry
+    - other candidates maju iny format ako rhymes -> previest to na rovnaky
 
 
 streda 16.6. 11:00
@@ -1293,7 +1303,7 @@ TODO:
     - vynimky - ak sa zmeni zoskupenie rymov - pozor aby nejaky dalsi neodkazoval na nieco co uz je v inej skupine
     - pre porovnanie evaluacie dotrenovat tagger na mojich datach
     - pridat prizvuky do ladiacich vypisov
-   - urobit si porovnavaciu funkciu
+    - urobit si porovnavaciu funkciu
         - s datami z taggeru, v2, v3, anotovanymi
         - vediet nejak ulozit vysledok, ci sa zlepsila
         - vizualizovat rozdiely
@@ -1320,12 +1330,11 @@ TODO:
     - porovnat so shakespearovymi datami a mojimi
         - oddelit cast shakespeara ako dev, opravit podla toho chyby
     - automaticky najst basne, kde je rhyme tagger lepsi
+    - vsetky samohlasky navzajom maju podozrivo vysoke cisla
 
 
-!!!Chyby:
-Homicide Housing 04' Lyrics - rain/acitane, on/gone
-Shooter Guy Lyrics - pocket/block it
-Senpai Why Won't Senpai Notice Lyrics - agree/D
-An Atheists Prayer Lyrics - tragedy/tragedy
+NEVSIMOL SI:
 
-other candidates maju iny format ako rhymes -> previest to na rovnaky
+NASIEL NAVIAC:
+Endless love feat. louie austen - original mix Lyrics - me/you
+Rafiki Freeky Lyrics - me/mother

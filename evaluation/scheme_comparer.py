@@ -62,6 +62,6 @@ if __name__ == '__main__':
     parser.add_argument('--file')
     parser.add_argument('--detector_matrix_file')
     args = parser.parse_args(['--file', 'data/test_lyrics0.001.json',
-                              '--detector_matrix_file', 'data/cooc_iter2.json'])
+                              '--detector_matrix_file', 'data/cooc_iter1.json'])
     sc = SchemeComparer(args)
     sc.compare()

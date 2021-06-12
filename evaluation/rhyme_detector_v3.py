@@ -22,7 +22,7 @@ class RhymeDetector:
         self.init_value = 0.2
         self.perfect_only = perfect_only
         # Minimal rating for a pair of lines to be judged a rhyme.
-        self.rhyme_rating_min = 0.5
+        self.rhyme_rating_min = 0.8
         # Default character used
         # - when rating is not available (first line in rhyme group)
         # - when the line doesn't rhyme (in place of scheme letter)
@@ -225,13 +225,18 @@ class RhymeDetector:
                             continue
                         for pronunciation2 in song[line_idx-lines_back]:
                             rel_first, rel_second, stress_penalty = self.get_relevant_components_for_pair(pronunciation1, pronunciation2)
-                            rating = self.get_rhyme_rating_simple_multiplication(rel_first, rel_second, stress_penalty)
-                            if rating > self.rhyme_rating_min:
-                                result = {'rating': rating,
-                                          'relevant_components': rel_first,
-                                          'relevant_components_rhyme_fellow': rel_second,
-                                          'rhyme_fellow': - lines_back}
-                                possible_rhymes.append(result)
+                            while len(rel_first) >= 2 and len(rel_second) >= 2:
+                                rating = self.get_rhyme_rating_simple_multiplication(rel_first, rel_second, stress_penalty)
+                                if rating > self.rhyme_rating_min:
+                                    result = {'rating': rating,
+                                              'relevant_components': rel_first,
+                                              'relevant_components_rhyme_fellow': rel_second,
+                                              'rhyme_fellow': - lines_back}
+                                    possible_rhymes.append(result)
+                                # Try truncating the relevant part and look for rhyme only closer to the end.
+                                rel_first = rel_first[3:] if len(rel_first) > 2 else []
+                                rel_second = rel_second[3:] if len(rel_second) > 2 else []
+                                stress_penalty = True
                 if not possible_rhymes:
                     continue
                 # Select the rhyme fellow with best rating.
