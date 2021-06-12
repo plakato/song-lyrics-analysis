@@ -15,7 +15,7 @@ import pronouncing
 from rhymetagger import RhymeTagger
 from torch.utils.hipify.hipify_python import bcolors
 
-from evaluation.constants import poem1, NO_OF_PRECEDING_LINES, SIMILAR_SOUNDS, ARPA_VOWELS
+from constants import poem1, NO_OF_PRECEDING_LINES, SIMILAR_SOUNDS
 
 dict = cmudict.dict()
 g2p = G2p()

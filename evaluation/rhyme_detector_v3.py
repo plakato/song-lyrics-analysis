@@ -8,8 +8,8 @@ import sys
 
 import sklearn
 
-from evaluation.constants import NO_OF_PRECEDING_LINES
-from evaluation.rhyme_detector_v1 import get_pronunciations_for_n_syllables, next_letter_generator
+from constants import NO_OF_PRECEDING_LINES
+from rhyme_detector_v1 import get_pronunciations_for_n_syllables, next_letter_generator
 
 
 class RhymeDetector:
