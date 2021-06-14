@@ -1293,6 +1293,7 @@ DONE
     - other candidates maju iny format ako rhymes -> previest to na rovnaky
     - viacslabicne rymy aby prehladavali aj skratene verzie riadkov
     - scorer - dostane 2 schemy na vstup/zo suboru
+                - naprv na tagger a v3
     - tagger - cita zo std a vypisuje na stdout 
             - bud iba 2 stlpce alebo aj dalsie info, aby to slo presmerovat do suboru
             - oddelene tabulatorom
@@ -1320,14 +1321,12 @@ TODO:
     - vsetky samohlasky navzajom maju podozrivo vysoke cisla
 
 
-
-            - naprv na tagger a v3
-            - potom aj na shakespeare data
     - scorer  
         - prejst a prerusit ak je vzdialenost rymov > 5 (volitelne)
         - (volitelne) ak je prazdny riadok oddelujuci slohy, v druhej slohe uz bude nove pismenko
     - ukoncit ak uz sa matica nemeni 
         - porovnat po 1. iteracii vs az sa ustali
+    - prepisat vystup experimentu ako cooc maticu
     - porovnat EM po 1.iteracii vs. experiment
     - oddelit cast shakespeara ako dev
     - porovnat so shakespearovymi datami

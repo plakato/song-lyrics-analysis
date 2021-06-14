@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1b63ffb1-2ce8-4d7c-99a7-09c7c211f71e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/song_data/learning/full_lyrics_classification/pretrainedBERT_classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluation/reddy_data_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/diplomka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/diplomka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/learning/full_lyrics_classification/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/full_lyrics_classification/dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/learning/full_lyrics_classification/full_lyrics_classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/full_lyrics_classification/full_lyrics_classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/learning/full_lyrics_classification/generate_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/full_lyrics_classification/generate_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset/train/not_rhyming.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset/train/not_rhyming.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset/train/rhyming.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset/train/rhyming.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset/val/not_rhyming.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset/val/not_rhyming.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset/val/rhyming.txt" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset/val/rhyming.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/prepare_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/prepare_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/vocab.subwords" beforeDir="false" afterPath="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/vocab.subwords" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluation/data/matrixC.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluation/data/matrixV.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generation/gpt2/transformers/ISSUES.md" beforeDir="false" afterPath="$PROJECT_DIR$/generation/gpt2/transformers/ISSUES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generation/gpt2/transformers/examples/language-modeling/run_clm.py" beforeDir="false" afterPath="$PROJECT_DIR$/generation/gpt2/transformers/examples/language-modeling/run_clm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generation/gpt2/transformers/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/generation/gpt2/transformers/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generation/gpt2/transformers/templates/adding_a_new_model/cookiecutter-template-{{cookiecutter.modelname}}/to_replace_{{cookiecutter.lowercase_modelname}}.py" beforeDir="false" afterPath="$PROJECT_DIR$/generation/gpt2/transformers/templates/adding_a_new_model/cookiecutter-template-{{cookiecutter.modelname}}/to_replace_{{cookiecutter.lowercase_modelname}}.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generation/gpt2/transformers/tests/test_doc_samples.py" beforeDir="false" afterPath="$PROJECT_DIR$/generation/gpt2/transformers/tests/test_doc_samples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generation/gpt2/transformers/utils/check_dummies.py" beforeDir="false" afterPath="$PROJECT_DIR$/generation/gpt2/transformers/utils/check_dummies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generation/gpt2/transformers/utils/check_repo.py" beforeDir="false" afterPath="$PROJECT_DIR$/generation/gpt2/transformers/utils/check_repo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generation/gpt2/transformers/utils/check_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/generation/gpt2/transformers/utils/check_table.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work_diary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/work_diary.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,31 +39,34 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hPy6bWFHExlDOcknrGfRovY89b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv3.7" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/evaluation/data/twinkle_twinkle.txt" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/evaluation/g2p-seq2seq" />
+      <recent name="$PROJECT_DIR$/evaluation" />
+      <recent name="$PROJECT_DIR$/evaluation/g2p" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/song_data/learning" />
-      <recent name="$PROJECT_DIR$/song_data" />
-      <recent name="$PROJECT_DIR$/song_data/sparsar_experiments" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/evaluation/test_lyrics" />
       <recent name="$PROJECT_DIR$/song_data/learning" />
       <recent name="$PROJECT_DIR$/song_data/sparsar_experiments" />
       <recent name="$PROJECT_DIR$/song_data/data/shuffled_lyrics" />
       <recent name="$PROJECT_DIR$/song_data/data/miniset_for_lyrics_cleaning/manually_cleaned" />
-      <recent name="$PROJECT_DIR$/song_data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dataset">
-    <configuration name="dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.reddy_data_parser">
+    <configuration name="reddy_data_parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diplomka" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,11 +74,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/learning/full_lyrics_classification" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/evaluation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/full_lyrics_classification/dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluation/reddy_data_parser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dataset_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="rhyme_detector_v3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diplomka" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +95,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/evaluation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/dataset_generator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluation/rhyme_detector_v3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generate_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="scheme_scorer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diplomka" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,11 +116,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/learning/full_lyrics_classification" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/evaluation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="false" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluation/scheme_scorer.py" />
+      <option name="PARAMETERS" value="--gold_file data/scheme_tagged/twinkle_twinkle.rt.txt --out_file data/scheme_tagged/twinkle_twinkle.v3.txt" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="statistics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="diplomka" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/evaluation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/full_lyrics_classification/generate_dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluation/statistics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="prepare_dataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="universal_rhyme_tagger" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="diplomka" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,47 +158,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/evaluation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/prepare_dataset.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evaluation/universal_rhyme_tagger.py" />
+      <option name="PARAMETERS" value="--rhyme_tagger" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/evaluation/data/twinkle_twinkle.txt" />
       <method v="2" />
     </configuration>
-    <configuration name="two_lines_rhyme_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="diplomka" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/song_data/learning/two_lines_rhyme_classification/two_lines_rhyme_classifier.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Python.rhyme_detector_v3" />
+      <item itemvalue="Python.statistics" />
+      <item itemvalue="Python.scheme_scorer" />
+      <item itemvalue="Python.universal_rhyme_tagger" />
+      <item itemvalue="Python.reddy_data_parser" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dataset" />
-        <item itemvalue="Python.generate_dataset" />
-        <item itemvalue="Python.prepare_dataset" />
-        <item itemvalue="Python.two_lines_rhyme_classifier" />
-        <item itemvalue="Python.dataset_generator" />
+        <item itemvalue="Python.reddy_data_parser" />
+        <item itemvalue="Python.scheme_scorer" />
+        <item itemvalue="Python.universal_rhyme_tagger" />
+        <item itemvalue="Python.rhyme_detector_v3" />
+        <item itemvalue="Python.statistics" />
       </list>
     </recent_temporary>
   </component>
@@ -197,111 +215,90 @@
     <option name="LAST_COMMIT_MESSAGE" value="statistics with language" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="589" y="200" width="732" height="640" key="#Inspections" timestamp="1603123518707">
+    <state x="427" y="338" width="1084" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623517200545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="589" y="200" width="732" height="640" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1603123518707" />
-    <state width="1050" height="540" key="DebuggerActiveHint" timestamp="1603553356368">
+    <state x="427" y="338" width="1084" height="702" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623517200545" />
+    <state x="100" y="99" width="1720" height="840" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1616609353950">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1050" height="540" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1603553356368" />
-    <state x="766" y="379" width="424" height="486" key="FileChooserDialogImpl" timestamp="1602746154534">
+    <state x="100" y="99" width="1720" height="840" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616609353950" />
+    <state x="651" y="316" width="608" height="408" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623534511318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="766" y="379" width="424" height="486" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602746154534" />
-    <state width="1630" height="249" key="GridCell.Tab.-1.bottom" timestamp="1601726911884">
+    <state x="651" y="316" width="608" height="408" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1623534511318" />
+    <state x="693" y="266" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615574410700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1630" height="249" key="GridCell.Tab.-1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601726911884" />
-    <state width="1630" height="249" key="GridCell.Tab.-1.center" timestamp="1601726911882">
+    <state x="693" y="266" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615574410700" />
+    <state x="636" y="425" width="741" height="189" key="#com.jetbrains.python.refactoring.move.PyMakeFunctionTopLevelDialog" timestamp="1622553682517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1630" height="249" key="GridCell.Tab.-1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601726911882" />
-    <state width="1630" height="249" key="GridCell.Tab.-1.left" timestamp="1601726911882">
+    <state x="636" y="425" width="741" height="189" key="#com.jetbrains.python.refactoring.move.PyMakeFunctionTopLevelDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622553682517" />
+    <state x="743" y="289" width="424" height="486" key="FileChooserDialogImpl" timestamp="1623506755748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1630" height="249" key="GridCell.Tab.-1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601726911882" />
-    <state width="1630" height="249" key="GridCell.Tab.-1.right" timestamp="1601726911882">
+    <state x="743" y="289" width="424" height="486" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623506755748" />
+    <state width="1498" height="375" key="GridCell.Tab.0.bottom" timestamp="1623671372663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1630" height="249" key="GridCell.Tab.-1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601726911882" />
-    <state width="1895" height="63" key="GridCell.Tab.0.bottom" timestamp="1607549193336">
+    <state width="1498" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623671372663" />
+    <state width="1498" height="375" key="GridCell.Tab.0.center" timestamp="1623671372659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="63" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607549193336" />
-    <state width="1895" height="63" key="GridCell.Tab.0.center" timestamp="1607549193335">
+    <state width="1498" height="375" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623671372659" />
+    <state width="1498" height="375" key="GridCell.Tab.0.left" timestamp="1623671372657">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="63" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607549193335" />
-    <state width="1895" height="63" key="GridCell.Tab.0.left" timestamp="1607549193335">
+    <state width="1498" height="375" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623671372657" />
+    <state width="1498" height="375" key="GridCell.Tab.0.right" timestamp="1623671372661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="63" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607549193335" />
-    <state width="1895" height="63" key="GridCell.Tab.0.right" timestamp="1607549193335">
+    <state width="1498" height="375" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623671372661" />
+    <state width="1573" height="296" key="GridCell.Tab.1.bottom" timestamp="1623670941717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="63" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607549193335" />
-    <state width="1895" height="63" key="GridCell.Tab.1.bottom" timestamp="1607549193337">
+    <state width="1573" height="296" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623670941717" />
+    <state width="1573" height="296" key="GridCell.Tab.1.center" timestamp="1623670941716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="63" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607549193337" />
-    <state width="1895" height="63" key="GridCell.Tab.1.center" timestamp="1607549193336">
+    <state width="1573" height="296" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623670941716" />
+    <state width="1573" height="296" key="GridCell.Tab.1.left" timestamp="1623670941716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="63" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607549193336" />
-    <state width="1895" height="63" key="GridCell.Tab.1.left" timestamp="1607549193336">
+    <state width="1573" height="296" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623670941716" />
+    <state width="1573" height="296" key="GridCell.Tab.1.right" timestamp="1623670941716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="63" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607549193336" />
-    <state width="1895" height="63" key="GridCell.Tab.1.right" timestamp="1607549193336">
+    <state width="1573" height="296" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623670941716" />
+    <state x="441" y="154" width="1037" height="732" key="SettingsEditor" timestamp="1623527645590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1895" height="63" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607549193336" />
-    <state x="475" y="253" width="1037" height="732" key="SettingsEditor" timestamp="1603123560079">
+    <state x="441" y="154" width="1037" height="732" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1623527645590" />
+    <state width="609" height="448" key="SwitcherDM" timestamp="1622295519220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="475" y="253" width="1037" height="732" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603123560079" />
-    <state width="960" height="540" key="XDebugger.FullValuePopup" timestamp="1607507030117">
+    <state width="609" height="448" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1622295519220" />
+    <state width="960" height="540" key="XDebugger.FullValuePopup" timestamp="1620387209468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="960" height="540" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1607507030117" />
-    <state x="632" y="194" width="646" height="651" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603553869419">
+    <state width="960" height="540" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1620387209468" />
+    <state x="445" y="113" width="1020" height="813" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1616604083150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="632" y="194" width="646" height="651" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603553869419" />
-    <state x="0" y="0" width="1529" height="563" key="dock-window-1" timestamp="1603548072356">
+    <state x="445" y="113" width="1020" height="813" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1616604083150" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1623397623172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1529" height="563" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1603548072356" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623397623172" />
+    <state x="685" y="336" width="540" height="368" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1617635535631">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="685" y="336" width="540" height="368" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617635535631" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/song_data/rhyme_scheme_detector.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/song_data/rhyme_scheme_detector.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/song_data/clean_data.py</url>
-          <line>122</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/song_data/analyze_data.py</url>
-          <line>132</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/song_data/clean_data.py</url>
-          <line>78</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/song_data/get_partial_datasets.py</url>
           <line>11</line>
@@ -319,18 +316,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/song_data/sparsar_analysis.py</url>
-          <line>88</line>
+          <line>105</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/song_data/sparsar_analysis.py</url>
-          <line>83</line>
+          <line>100</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <condition expression="inputfile == 'sparsar_experiments/outs/\'On Site Lyrics.txt\'_phon.xml'" language="Python" />
           <url>file://$PROJECT_DIR$/song_data/sparsar_analysis.py</url>
-          <line>178</line>
+          <line>195</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -345,7 +342,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/song_data/analyze_data.py</url>
-          <line>31</line>
+          <line>32</line>
           <option name="timeStamp" value="153" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -355,12 +352,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/song_data/analyze_data.py</url>
-          <line>21</line>
+          <line>22</line>
           <option name="timeStamp" value="165" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/song_data/analyze_data.py</url>
-          <line>29</line>
+          <line>30</line>
           <option name="timeStamp" value="166" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -392,6 +389,72 @@
           <url>file://$PROJECT_DIR$/song_data/learning/full_lyrics_classification/dataset.py</url>
           <line>73</line>
           <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="lines[i]==lines[i-lines_back]" language="Python" />
+          <url>file://$PROJECT_DIR$/evaluation/rhyme_detector_v1.py</url>
+          <line>359</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="l&gt;=len(stats[s]['ratings'])" language="Python" />
+          <url>file://$PROJECT_DIR$/evaluation/rhyme_detector_v3.py</url>
+          <line>441</line>
+          <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/song_data/preprocess_data.py</url>
+          <line>283</line>
+          <option name="timeStamp" value="427" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/evaluation/rhyme_detector_v2.py</url>
+          <line>243</line>
+          <option name="timeStamp" value="435" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/evaluation/rhyme_detector_v2.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="438" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/evaluation/rhyme_detector_v3.py</url>
+          <line>437</line>
+          <option name="timeStamp" value="491" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/evaluation/rhyme_detector_v3.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="558" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/evaluation/rhyme_detector_v3.py</url>
+          <line>407</line>
+          <option name="timeStamp" value="561" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="l &gt;= len(schemes[i]) or l &gt;= len(lyrics[i]) " language="Python" />
+          <url>file://$PROJECT_DIR$/evaluation/reddy_data_parser.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="569" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="l &gt;= len(schemes[i]) or l &gt;= len(lyrics[i])" language="Python" />
+          <url>file://$PROJECT_DIR$/evaluation/reddy_data_parser.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="570" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="len(schemes) -2 == len(lyrics) or len(schemes) &lt; len(lyrics)" language="Python" />
+          <url>file://$PROJECT_DIR$/evaluation/reddy_data_parser.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="581" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <condition expression="c==765 and filename=='sidney.txt'" language="Python" />
+          <url>file://$PROJECT_DIR$/evaluation/reddy_data_parser.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="598" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
