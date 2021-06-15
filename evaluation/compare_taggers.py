@@ -11,7 +11,6 @@ def compare_goldreddy_vs_v3(schemes, stanzas, verbose):
     summed_ari = 0
     summed_li = 0
     for i in range(len(stanzas)):
-        out_scheme = UniTagger.detector_v3_tag('data/cooc_iter4.json', stanzas[i], verbose=verbose)
         ari_score, li_score = ss.compare_direct(schemes[i], out_scheme, stanzas[i], verbose=verbose)
         summed_ari += ari_score
         summed_li += li_score
@@ -38,27 +37,54 @@ def load_reddy(filename):
     return schemes, stanzas
 
 
-def compare_goldreddy_vs_rt(schemes, stanzas, verbose):
+def compare(gold_schemes, out_schemes, stanzas, verbose):
     ss = SchemeScorer()
     summed_ari = 0
     summed_li = 0
     for i in range(len(stanzas)):
-        tagger_scheme = UniTagger.tagger_tag(stanzas[i])
-        ari_score, li_score = ss.compare_direct(schemes[i], tagger_scheme, stanzas[i], verbose=verbose)
+        ari_score, li_score = ss.compare_direct(gold_schemes[i], out_schemes[i], stanzas[i], verbose=verbose)
         summed_ari += ari_score
         summed_li += li_score
-    print(f'Average ARI score for RhymeTagger is {summed_ari/len(stanzas)}.')
-    print(f'Average last index score for RhymeTagger is {summed_li/len(stanzas)}.')
+    print(f'Average ARI score is {summed_ari/len(stanzas)}.')
+    print(f'Average last index score is {summed_li/len(stanzas)}.')
 
 
-if __name__=='__main__':
+def get_schemes(source, stanzas, verbose=False):
+    schemes = []
+    for stanza in stanzas:
+        if source == 'tagger':
+            scheme = UniTagger.tagger_tag(stanza)
+        elif source == 'v3':
+            scheme = UniTagger.detector_v3_tag('data/cooc_iter4.json', stanza, verbose=verbose)
+        schemes.append(scheme)
+    return schemes
+
+
+if __name__ == '__main__':
+    scheme_sources = ['reddy', 'tagger', 'v3']
     parser = argparse.ArgumentParser()
-    parser.add_argument('--verbose', required=True, action='store_true')
-    parser.add_argument('--dir')
-    args = parser.parse_args(['--dir', 'data_reddy/parsed/', '--verbose'])
-    for filename in os.listdir(args.dir):
-        if filename.endswith('.dev'):
+    parser.add_argument('--verbose', default=False, action='store_true')
+    parser.add_argument('--data', required=True, choices=['reddy'])
+    parser.add_argument('--gold', required=True, choices=scheme_sources)
+    parser.add_argument('--out', required=True, choices=scheme_sources)
+    args = parser.parse_args(['--data', 'reddy',
+                              '--gold', 'reddy',
+                              '--out', 'tagger'])
+    print(f"Using data {args.data} to evaluate schemes by {args.out} in comparison to gold schemes by {args.gold}.")
+    if args.data == 'reddy':
+        for filename in os.listdir('data_reddy/parsed/'):
+            if not filename.endswith('.dev'):
+                continue
+            print('-'* 20)
             print(f'Analyzing file: {filename}')
-            schemes, stanzas = load_reddy(args.dir+filename)
-            compare_goldreddy_vs_rt(schemes, stanzas, args.verbose)
-            compare_goldreddy_vs_v3(schemes, stanzas, args.verbose)
+            schemes, stanzas = load_reddy('data_reddy/parsed/' + filename)
+            # Get gold and output data.
+            if args.gold == 'reddy':
+                gold = schemes
+            else:
+                gold = get_schemes(args.gold, stanzas, args.verbose)
+            if args.out == 'reddy':
+                out = schemes
+            else:
+                out = get_schemes(args.out, stanzas, args.verbose)
+            compare(gold, out, stanzas, args.verbose)

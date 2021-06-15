@@ -2,6 +2,8 @@ import argparse
 
 import sklearn.metrics
 
+from universal_rhyme_tagger import UniTagger
+
 
 class SchemeScorer:
     def load(self, args):
@@ -47,10 +49,10 @@ class SchemeScorer:
     @staticmethod
     # Convert scheme to format where each line holds index to the last line it rhymes with.
     def convert_to_last_index_scheme(scheme):
-        li_scheme = [0]*len(scheme)
+        li_scheme = [-1]*len(scheme)
         for i in range(1, len(scheme)):
             for fellow in range(i-1, -1, -1):
-                if scheme[i] == scheme[fellow]:
+                if scheme[i] == scheme[fellow] and scheme[i] != UniTagger.non_rhyme:
                     li_scheme[i] = fellow
                     break
         return li_scheme

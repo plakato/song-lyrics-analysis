@@ -380,11 +380,21 @@ class RhymeDetector:
                                 frequencies_indiv[b] += 1
                             else:
                                 frequencies_indiv[b] = 1
+        new_cooc = self.calculate_new_matrix_from_frequencies(frequencies_indiv, frequencies_pairs)
+        if self.cooc == new_cooc or new_cooc == self.oscilation_check:
+            changed = False
+        self.oscilation_check = self.cooc
+        self.cooc = new_cooc
+        if self.verbose:
+            self._print_state()
+        return changed
+
+    def calculate_new_matrix_from_frequencies(self, frequencies_indiv, frequencies_pairs):
         # Calculate relative frequencies for individual keys that occur in rhyme pairs => perfect match doesn't count
         total_indiv = sum(frequencies_indiv.values())
         rel_freq_indiv = dict()
         for key in frequencies_indiv:
-            rel_freq_indiv[key] = (frequencies_indiv[key] + len(frequencies_indiv))/total_indiv
+            rel_freq_indiv[key] = (frequencies_indiv[key] + len(frequencies_indiv)) / total_indiv
         # Create new matrices based on calculated frequencies.
         total_pairs = sum(frequencies_pairs.values())
         new_cooc = dict.fromkeys(frequencies_pairs.keys(), 0)
@@ -392,14 +402,7 @@ class RhymeDetector:
             key_elem = key.split(self.separator)
             rel_freq = (frequencies_pairs[key] + 1) / total_pairs
             new_cooc[key] = rel_freq / (rel_freq + rel_freq_indiv[key_elem[0]] * rel_freq_indiv[key_elem[1]])
-        if self.cooc == new_cooc or new_cooc == self.oscilation_check:
-            changed = False
-        self.oscilation_check = self.cooc
-        self.cooc = new_cooc
-        self.freq = frequencies_indiv
-        if self.verbose:
-            self._print_state()
-        return changed
+        return new_cooc
 
     # Prints current state of matrix.
     def _print_state(self):
@@ -410,6 +413,7 @@ class RhymeDetector:
     def save_matrix(self, filename):
         with open(filename, 'w+') as f:
             json.dump(self.cooc, f, sort_keys=True)
+
 
     def _load_matrix(self, filename):
         with open(filename, 'r') as file:
@@ -425,7 +429,7 @@ def main(args):
         else:
             detector = RhymeDetector(args.perfect_only, args.matrix_file)
         detector.load_and_preprocess_data_from_file(args.train_file)
-        detector.save_matrix('data/cooc_init.json')
+        detector.save_matrix('data/cooc_init.json', detector.cooc)
         i = 0
         changed = True
         # Train the detector until it stops changing or desired number of iterations is reached.
@@ -433,7 +437,7 @@ def main(args):
             print(f"ITERATION {i+1}")
             stats = detector.find_rhymes()
             changed = detector.adjust_matrix(stats)
-            detector.save_matrix('data/cooc_iter'+str(i)+'.json')
+            detector.save_matrix('data/cooc_iter'+str(i)+'.json', detector.cooc)
             i += 1
     if args.do_test:
         # Test the detector.

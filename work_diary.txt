@@ -1301,6 +1301,8 @@ DONE
     - ukoncit ak uz sa matica nemeni 
         - nestagnuje ale osciluje
         - pri 0.001 datasete uz 6.iter==4.iter
+    - porovnat so shakespearovymi datami
+        - opravit podla dev chyby - zatial len najdene najcastejsie chyby
 
     
 
@@ -1309,7 +1311,11 @@ streda 16.6. 11:00
 - caste dovody zlyhania v3 
     - zla vyslovnost
     - prislisna podobnost - dve dvojice sa natolko podobaju, ze dostanu rovnake pismenko
+    - vynimocnejsie - asi vyhodnoti ako podobne hoci sa nepodobaju
 - nemyslim si, ze uz stihnem cokolvek ku generovaniu - co s tym? co k tomu napisat?
+- vsetky samohlasky navzajom maju podozrivo vysoke cisla
+    - netreba ich pocitat nejak zvlast - ako? mat dve total a vsade to vydelit prislusnym?
+
 
 Nevyhoda ARI SCORE:
 GOLD | OUT | LYRICS
@@ -1339,18 +1345,16 @@ TODO:
             - priklad slova na ktorom sparsar spadne 
         - rating celej piesne je priemer 2. stlpca, okrem '-' 
     - is negative rating ok? (for lines)
-    - vsetky samohlasky navzajom maju podozrivo vysoke cisla
+    - perfect_only v upravenej verzii este nefunguje
 
 
     - scorer  
         - prejst a prerusit ak je vzdialenost rymov > 5 (volitelne)
         - (volitelne) ak je prazdny riadok oddelujuci slohy, v druhej slohe uz bude nove pismenko
         - aby bral aj ked su nerymovane riadky oznacene unikatnym pismenkom
-        - porovnat po 1. iteracii vs az sa ustali
+    - porovnat po 1. iteracii vs az sa ustali
     - prepisat vystup experimentu ako cooc maticu
-    - porovnat EM po 1.iteracii vs. experiment
-    - porovnat so shakespearovymi datami
-        - opravit podla dev chyby
+        - porovnat EM po 1.iteracii vs. experiment
     ??? (ak je vela v dev) automaticky najst basne, kde je rhyme tagger lepsi
     - rozdelit anotovane na test/dev set podla poctu riadkov 
         - tieto pesnicky nemaju byt v celkovych datach!!!
