@@ -32,19 +32,27 @@ class SchemeScorer:
             return False
         return True
 
+    def compare_direct(self, scheme_gold, scheme_out, lyrics, verbose=True):
+        self.gold = scheme_gold
+        self.out = scheme_out
+        self.lyrics = lyrics
+        return self.score(verbose)
+
     def compare(self, args):
         loadedOK = self.load(args)
         if not loadedOK:
             return
-        self.print_score()
+        self.score()
 
-    def print_score(self):
-        print('GOLD | OUT | LYRICS')
-        print('-'*20)
-        for i in range(len(self.lyrics)):
-            print(f"{self.gold[i]:<2} {self.out[i]:<2} {self.lyrics[i]}")
+    def score(self, verbose=True):
         score = sklearn.metrics.adjusted_rand_score(self.gold, self.out)
-        print(f"ARI SCORE: {score}")
+        if verbose:
+            print('GOLD | OUT | LYRICS')
+            print('-'*20)
+            for i in range(len(self.lyrics)):
+                print(f"{self.gold[i]:<2} {self.out[i]:<2} {self.lyrics[i]}")
+            print(f"ARI SCORE: {score}")
+        return score
 
 
 if __name__ == '__main__':

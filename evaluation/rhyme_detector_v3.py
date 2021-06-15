@@ -13,9 +13,11 @@ from rhyme_detector_v1 import get_pronunciations_for_n_syllables, next_letter_ge
 
 
 class RhymeDetector:
-    def __init__(self, perfect_only=False, matrix_path=None):
+    def __init__(self, perfect_only=False, matrix_path=None, verbose=False):
         self.data = []
+        self.verbose = verbose
         self.separator = '&'
+        self.oscilation_check = dict()
         # Value assigned when the component is not in the matrix (cooc).
         self.zero_value = 0.001
         # Initialization value for the matrix components at the beginning of training.
@@ -344,6 +346,7 @@ class RhymeDetector:
         return scheme
 
     def adjust_matrix(self, stats):
+        changed = True
         frequencies_indiv = dict()
         frequencies_pairs = dict()
         # Count frequencies for pairs and individual components.
@@ -389,10 +392,14 @@ class RhymeDetector:
             key_elem = key.split(self.separator)
             rel_freq = (frequencies_pairs[key] + 1) / total_pairs
             new_cooc[key] = rel_freq / (rel_freq + rel_freq_indiv[key_elem[0]] * rel_freq_indiv[key_elem[1]])
+        if self.cooc == new_cooc or new_cooc == self.oscilation_check:
+            changed = False
+        self.oscilation_check = self.cooc
         self.cooc = new_cooc
         self.freq = frequencies_indiv
-        self._print_state()
-        return
+        if self.verbose:
+            self._print_state()
+        return changed
 
     # Prints current state of matrix.
     def _print_state(self):
@@ -419,14 +426,15 @@ def main(args):
             detector = RhymeDetector(args.perfect_only, args.matrix_file)
         detector.load_and_preprocess_data_from_file(args.train_file)
         detector.save_matrix('data/cooc_init.json')
-        n = 0
-        # Train the detector.
-        while n < 2:
-            print(f"ITERATION {n+1}")
+        i = 0
+        changed = True
+        # Train the detector until it stops changing or desired number of iterations is reached.
+        while i < args.n and changed:
+            print(f"ITERATION {i+1}")
             stats = detector.find_rhymes()
-            detector.adjust_matrix(stats)
-            detector.save_matrix('data/cooc_iter'+str(n)+'.json')
-            n += 1
+            changed = detector.adjust_matrix(stats)
+            detector.save_matrix('data/cooc_iter'+str(i)+'.json')
+            i += 1
     if args.do_test:
         # Test the detector.
         if not args.do_train:
@@ -449,6 +457,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--do_test',  default=False, action='store_true')
     parser.add_argument('--do_train',  default=False, action='store_true')
+    parser.add_argument('--verbose',  default=False, action='store_true')
+    parser.add_argument('--n',  default=1000, help="Maximal number of iterations (actual number may be smaller if consistency is reached).")
     parser.add_argument('--train_file', required='do_train' in sys.argv, help="A file with songs for training.")
     parser.add_argument('--test_file', required='do_test' in sys.argv)
     parser.add_argument('--matrix_file', help="Matrix loaded for testing. If training selected, this matrix will be loaded as initialization matrix.")
@@ -461,10 +471,11 @@ if __name__ == '__main__':
     #                           '--do_test',
     #                           '--perfect_only'
     # ])
-    args = parser.parse_args([  '--train_file', 'data/train_lyrics0.01.json',
+    args = parser.parse_args([  '--train_file', 'data/train_lyrics0.001.json',
                                 '--test_file', 'data/test_lyrics0.001.json',
                                 # '--matrix_C_file', 'data/matrixC_identity.csv',
                                 # '--matrix_V_file', 'data/matrixV_identity.csv',
                                 '--do_train',
-                                '--do_test'])
+                                # '--do_test'
+                                ])
     main(args)
