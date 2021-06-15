@@ -44,15 +44,32 @@ class SchemeScorer:
             return
         self.score()
 
+    @staticmethod
+    # Convert scheme to format where each line holds index to the last line it rhymes with.
+    def convert_to_last_index_scheme(scheme):
+        li_scheme = [0]*len(scheme)
+        for i in range(1, len(scheme)):
+            for fellow in range(i-1, -1, -1):
+                if scheme[i] == scheme[fellow]:
+                    li_scheme[i] = fellow
+                    break
+        return li_scheme
+
     def score(self, verbose=True):
-        score = sklearn.metrics.adjusted_rand_score(self.gold, self.out)
+        # ARI score
+        ari_score = sklearn.metrics.adjusted_rand_score(self.gold, self.out)
+        # Last index score
+        li_gold = self.convert_to_last_index_scheme(self.gold)
+        li_out = self.convert_to_last_index_scheme(self.out)
+        li_score = sum([1 if li_gold[i] == li_out[i] else 0 for i in range(len(li_gold))])/len(li_gold)
         if verbose:
             print('GOLD | OUT | LYRICS')
             print('-'*20)
             for i in range(len(self.lyrics)):
                 print(f"{self.gold[i]:<2} {self.out[i]:<2} {self.lyrics[i]}")
-            print(f"ARI SCORE: {score}")
-        return score
+            print(f"ARI SCORE: {ari_score}")
+            print(f"Last index score: {li_score}")
+        return ari_score, li_score
 
 
 if __name__ == '__main__':

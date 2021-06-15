@@ -1,3 +1,4 @@
+import argparse
 import os
 from subprocess import Popen, PIPE
 
@@ -5,14 +6,17 @@ from scheme_scorer import SchemeScorer
 from universal_rhyme_tagger import UniTagger
 
 
-def compare_goldreddy_vs_v3(schemes, stanzas):
+def compare_goldreddy_vs_v3(schemes, stanzas, verbose):
     ss = SchemeScorer()
-    summed = 0
+    summed_ari = 0
+    summed_li = 0
     for i in range(len(stanzas)):
-        out_scheme = UniTagger.detector_v3_tag('data/cooc_iter4.json', stanzas[i], verbose=False)
-        score = ss.compare_direct(schemes[i], out_scheme, stanzas[i], verbose=False)
-        summed += score
-    print(f'Average score for v3 is {summed / len(stanzas)}.')
+        out_scheme = UniTagger.detector_v3_tag('data/cooc_iter4.json', stanzas[i], verbose=verbose)
+        ari_score, li_score = ss.compare_direct(schemes[i], out_scheme, stanzas[i], verbose=verbose)
+        summed_ari += ari_score
+        summed_li += li_score
+    print(f'Average ARI score for v3 is {summed_ari / len(stanzas)}.')
+    print(f'Average last index score for v3 is {summed_li / len(stanzas)}.')
 
 
 def load_reddy(filename):
@@ -34,21 +38,27 @@ def load_reddy(filename):
     return schemes, stanzas
 
 
-def compare_goldreddy_vs_rt(schemes, stanzas):
+def compare_goldreddy_vs_rt(schemes, stanzas, verbose):
     ss = SchemeScorer()
-    summed = 0
+    summed_ari = 0
+    summed_li = 0
     for i in range(len(stanzas)):
         tagger_scheme = UniTagger.tagger_tag(stanzas[i])
-        score = ss.compare_direct(schemes[i], tagger_scheme, stanzas[i], verbose=False)
-        summed += score
-    print(f'Average score for RhymeTagger is {summed/len(stanzas)}.')
+        ari_score, li_score = ss.compare_direct(schemes[i], tagger_scheme, stanzas[i], verbose=verbose)
+        summed_ari += ari_score
+        summed_li += li_score
+    print(f'Average ARI score for RhymeTagger is {summed_ari/len(stanzas)}.')
+    print(f'Average last index score for RhymeTagger is {summed_li/len(stanzas)}.')
 
 
 if __name__=='__main__':
-    dir = 'data_reddy/parsed/'
-    for filename in os.listdir(dir):
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--verbose', required=True, action='store_true')
+    parser.add_argument('--dir')
+    args = parser.parse_args(['--dir', 'data_reddy/parsed/', '--verbose'])
+    for filename in os.listdir(args.dir):
         if filename.endswith('.dev'):
             print(f'Analyzing file: {filename}')
-            schemes, stanzas = load_reddy(dir+filename)
-            compare_goldreddy_vs_rt(schemes, stanzas)
-            compare_goldreddy_vs_v3(schemes, stanzas)
+            schemes, stanzas = load_reddy(args.dir+filename)
+            compare_goldreddy_vs_rt(schemes, stanzas, args.verbose)
+            compare_goldreddy_vs_v3(schemes, stanzas, args.verbose)
