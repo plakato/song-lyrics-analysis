@@ -2,6 +2,7 @@ import argparse
 
 import sklearn.metrics
 
+from rhyme_detector_v1 import next_letter_generator
 from universal_rhyme_tagger import UniTagger
 
 
@@ -57,6 +58,42 @@ class SchemeScorer:
                     break
         return li_scheme
 
+    @staticmethod
+    # Assign scheme letters alphabetically. Each non-rhyming line will receive a unique letter.
+    def convert_nonrhymes_to_unique(scheme):
+        if not scheme:
+            return []
+        letter_gen = next_letter_generator()
+        new_scheme = [next(letter_gen)]
+        for i in range(1, len(scheme)):
+            letter = ''
+            if scheme[i] != UniTagger.non_rhyme:
+                for l in range(i):
+                    if scheme[i] == scheme[l]:
+                        letter = new_scheme[l]
+                        break
+            if letter == '':
+                letter = next(letter_gen)
+            new_scheme.append(letter)
+        return new_scheme
+
+    @staticmethod
+    # Assign scheme letters alphabetically. Each non-rhyming line will receive the default character.
+    def convert_nonrhymes_to_default(scheme, default=UniTagger.non_rhyme):
+        if not scheme:
+            return []
+        new_scheme = [default]
+        letter_gen = next_letter_generator()
+        for i in range(1, len(scheme)):
+            new_scheme.append(default)
+            for j in range(i):
+                if scheme[i] == scheme[j]:
+                    if new_scheme[j] == default:
+                        new_scheme[j] = next(letter_gen)
+                    new_scheme[i] = new_scheme[j]
+                    break
+        return new_scheme
+
     def score(self, verbose=True):
         # ARI score
         ari_score = sklearn.metrics.adjusted_rand_score(self.gold, self.out)
@@ -78,6 +115,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--gold_file', required=True)
     parser.add_argument('--out_file', required=True)
+    parser.add_argument('--non_rhyme', default='default_char', choices=['default_char', 'unique_char'], help='Choose default_char for having one special character identical for all non-rhyming lines. Choose unique_char to give each non-rhyming line a unique different character.')
     # Maximal rhyme distance allowed - scheme will be adjusted if further.
     parser.add_argument('--dist_max',  default=False)
     # Different stanzas can't share a scheme letter.

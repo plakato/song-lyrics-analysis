@@ -1334,6 +1334,9 @@ DONE
     - pridat vazeny priemer
     - perfect_only v upravenej verzii este nefunguje
 
+NICE-TO-HAVE:
+    - dopisat aby to urcovalo aj konkretny typ rymu
+    - pridat prizvuky do ladiacich vypisov
 
 TODO TEXT:
     - rymy, ktore rhyme tagger nezvlada
@@ -1351,13 +1354,10 @@ TODO TEXT:
     - do future works pripisat napady z mailov a tohto suboru 
 
 TODO:
-    - dopisat aby to urcovalo aj konkretny typ rymu
     - zistit preco sa pri webovych citaciach neukazuje "accessed on" 
     - urobit prepinace a nemat len zakomentovany kod
     - vynimky - ak sa zmeni zoskupenie rymov - pozor aby nejaky dalsi neodkazoval na nieco co uz je v inej skupine
     - pre porovnanie evaluacie dotrenovat tagger na mojich datach
-    - pridat prizvuky do ladiacich vypisov
-    
     - is negative rating ok? (for lines)
 
 

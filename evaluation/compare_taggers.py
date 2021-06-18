@@ -17,9 +17,10 @@ def load_lyrics_annotated(directory):
             scheme = []
             with open(filename, 'r') as song_file:
                 for line in song_file:
-                    items = line.strip().split(';')
-                    scheme.append(items[0])
-                    song.append(items[1])
+                    if line.strip():
+                        items = line.strip().split(';')
+                        scheme.append(items[0])
+                        song.append(items[1])
             songs.append(song)
             schemes.append(scheme)
     return schemes, songs
@@ -99,18 +100,18 @@ def run_on_reddy_data(args):
 
 
 if __name__ == '__main__':
-    scheme_sources = ['reddy', 'tagger', 'v3', 'v3_experiment', 'v3_1st_iter']
-    data_sources = ['reddy', 'lyrics_annotated']
+    scheme_sources = ['reddy', 'tagger', 'v3', 'v3_experiment', 'v3_1st_iter', 'lyrics_annotated']
+    data_sources = ['reddy','lyrics_annotated']
     parser = argparse.ArgumentParser()
     parser.add_argument('--verbose', default=False, action='store_true')
     parser.add_argument('--data', required=True, choices=data_sources)
     parser.add_argument('--gold', required=True, choices=scheme_sources)
     parser.add_argument('--out', required=True, choices=scheme_sources)
     # args = parser.parse_args()
-    args = parser.parse_args(['--data', 'reddy',
-                              '--gold', 'reddy',
-                              '--out', 'tagger',
-                              # '--verbose'
+    args = parser.parse_args(['--data', 'lyrics_annotated',
+                              '--gold', 'lyrics_annotated',
+                              '--out', 'v3',
+                              '--verbose'
                               ])
     print(f"Using data {args.data} to evaluate schemes by {args.out} in comparison to gold schemes by {args.gold}.")
     if args.data == 'reddy':
