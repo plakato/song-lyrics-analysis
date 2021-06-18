@@ -1303,18 +1303,17 @@ DONE
         - pri 0.001 datasete uz 6.iter==4.iter
     - porovnat so shakespearovymi datami
         - opravit podla dev chyby - zatial len najdene najcastejsie chyby
+        - porovnat po 1. iteracii vs az sa ustali
+    - prepisat vystup experimentu ako cooc maticu
+        - porovnat EM po 1.iteracii vs. experiment
 
     
-
-streda 16.6. 11:00
-- problem - rhyme tagger stale vypise "New model initialized"
+- problem - rhyme tagger stale vypise "New model initialized" DONE
 - caste dovody zlyhania v3 
     - zla vyslovnost
     - prislisna podobnost - dve dvojice sa natolko podobaju, ze dostanu rovnake pismenko
     - vynimocnejsie - asi vyhodnoti ako podobne hoci sa nepodobaju
 - nemyslim si, ze uz stihnem cokolvek ku generovaniu - co s tym? co k tomu napisat?
-- vsetky samohlasky navzajom maju podozrivo vysoke cisla
-    - netreba ich pocitat nejak zvlast - ako? mat dve total a vsade to vydelit prislusnym?
 
 
 Nevyhoda ARI SCORE:
@@ -1328,6 +1327,29 @@ c  2  Till it was no more visible; then turned again
 c  2  With sorrowful quiet faces downward to the plain.
 ARI SCORE: 1.0
 
+streda 16.6. 11:00
+
+DONE 
+    - vymysliet ako riesit vynimky u preorganizovani schemat
+    - pridat vazeny priemer
+    - perfect_only v upravenej verzii este nefunguje
+
+
+TODO TEXT:
+    - rymy, ktore rhyme tagger nezvlada
+    - na typy rymov dat ipa s dvojteckami 
+    - prehodnotit definicie rymov
+        - rozlisovat typy identity?
+    - pripisat o sparsare 
+        - uviest priklady pesnicky, ktora sa zjavne rymuje ale urcilo ju to zle
+        - priklad slova na ktorom sparsar spadne 
+    - rating celej piesne je priemer 2. stlpca, okrem '-' 
+    - related work - generovani
+        - deepspeare - ako oni generuju
+        - gpt2
+        - pravidlove generatory - tym sa nebudeme venovat, spomenut priklad
+    - do future works pripisat napady z mailov a tohto suboru 
+
 TODO:
     - dopisat aby to urcovalo aj konkretny typ rymu
     - zistit preco sa pri webovych citaciach neukazuje "accessed on" 
@@ -1335,26 +1357,14 @@ TODO:
     - vynimky - ak sa zmeni zoskupenie rymov - pozor aby nejaky dalsi neodkazoval na nieco co uz je v inej skupine
     - pre porovnanie evaluacie dotrenovat tagger na mojich datach
     - pridat prizvuky do ladiacich vypisov
-    - do textu
-        - rymy, ktore rhyme tagger nezvlada
-        - na typy rymov dat ipa s dvojteckami 
-        - prehodnotit definicie rymov
-            - rozlisovat typy identity?
-        - pripisat o sparsare 
-            - uviest priklady pesnicky, ktora sa zjavne rymuje ale urcilo ju to zle
-            - priklad slova na ktorom sparsar spadne 
-        - rating celej piesne je priemer 2. stlpca, okrem '-' 
+    
     - is negative rating ok? (for lines)
-    - perfect_only v upravenej verzii este nefunguje
 
 
     - scorer  
         - prejst a prerusit ak je vzdialenost rymov > 5 (volitelne)
         - (volitelne) ak je prazdny riadok oddelujuci slohy, v druhej slohe uz bude nove pismenko
         - aby bral aj ked su nerymovane riadky oznacene unikatnym pismenkom
-    - porovnat po 1. iteracii vs az sa ustali
-    - prepisat vystup experimentu ako cooc maticu
-        - porovnat EM po 1.iteracii vs. experiment
     ??? (ak je vela v dev) automaticky najst basne, kde je rhyme tagger lepsi
     - rozdelit anotovane na test/dev set podla poctu riadkov 
         - tieto pesnicky nemaju byt v celkovych datach!!!
@@ -1362,4 +1372,10 @@ TODO:
     - pridat do unitaggeru moje data    
     - odtestovat na mojich datach tagger, v3
 
+    - skusit natrenovat moj na reddy datach
+    - vsetky samohlasky navzajom maju podozrivo vysoke cisla
+        - netreba ich pocitat nejak zvlast - ako? mat dve total a vsade to vydelit prislusnym?
+        - preco su sparovane s prazdnym clustrom
+    - upravit pre ARI - pomlcka ako samostatny kluster
 
+piatok 25.6. 9:00

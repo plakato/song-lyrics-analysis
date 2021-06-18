@@ -26,7 +26,7 @@ class UniTagger:
     def _tagger_tag(self):
         if not self.rt:
             self.rt = RhymeTagger()
-            self.rt.new_model('en', ngram=4, prob_ipa_min=0.95)
+            self.rt.new_model('en', ngram=4, prob_ipa_min=0.95, verbose=False)
         tagger_scheme = self.rt.tag(self.lyrics, output_format=3)
         scheme = self.convert_none_to_default_char(tagger_scheme)
         # Print the result.
@@ -37,13 +37,13 @@ class UniTagger:
     @staticmethod
     def tagger_tag(lyrics):
         rt = RhymeTagger()
-        rt.new_model('en', ngram=4, prob_ipa_min=0.95)
+        rt.new_model('en', ngram=4, prob_ipa_min=0.95, verbose=False)
         tagger_scheme = rt.tag(lyrics, output_format=3)
         scheme = UniTagger.convert_none_to_default_char(tagger_scheme)
         return scheme
 
     @staticmethod
-    def detector_v3_tag(file, lyrics=None, verbose=True):
+    def detector_v3_tag(file, lyrics=None, verbose=False):
         detector_v3 = RhymeDetector(False, file)
         stats_v3 = detector_v3.analyze_lyrics(lyrics)
         if verbose:

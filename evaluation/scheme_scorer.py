@@ -34,7 +34,7 @@ class SchemeScorer:
             return False
         return True
 
-    def compare_direct(self, scheme_gold, scheme_out, lyrics, verbose=True):
+    def compare_direct(self, scheme_gold, scheme_out, lyrics, verbose=False):
         self.gold = scheme_gold
         self.out = scheme_out
         self.lyrics = lyrics

@@ -33,6 +33,7 @@ class RhymeDetector:
         self.vow_comp = set()
         if perfect_only:
             self.cooc = dict()
+            self.rhyme_rating_min = 1.0
         elif matrix_path:
             self.cooc = self._load_matrix(matrix_path)
         else:
@@ -229,7 +230,7 @@ class RhymeDetector:
                             rel_first, rel_second, stress_penalty = self.get_relevant_components_for_pair(pronunciation1, pronunciation2)
                             while len(rel_first) >= 2 and len(rel_second) >= 2:
                                 rating = self.get_rhyme_rating_simple_multiplication(rel_first, rel_second, stress_penalty)
-                                if rating > self.rhyme_rating_min:
+                                if rating >= self.rhyme_rating_min:
                                     result = {'rating': rating,
                                               'relevant_components': rel_first,
                                               'relevant_components_rhyme_fellow': rel_second,
@@ -287,6 +288,8 @@ class RhymeDetector:
         return stats
 
     def solve_exceptions_in_rhymes(self, rhyme_groups, rhymes):
+        # rhyme_groups = [[0,1], [2,3]]
+        # rhymes = [{'rating': 0.9, 'rhyme_fellow': -2}, {'rating': 0.8, 'rhyme_fellow': -1},...]
         # Take care of exceptions like AAAA->AABB
         revised_groups = []
         for group in rhyme_groups:
@@ -295,6 +298,9 @@ class RhymeDetector:
                 continue
             i = 0
             separated_indexes = []
+            # TODO
+            # OD 2. do pred-predposledneho
+                # if score < 1 ---> rozdelit a zvysit i+1
             while i < len(group)-4:
                 # If we have four consecutive lines and ratings are stronger between first two and second two -> pair them.
                 if group[i+1] == group[i]+1 and \
@@ -475,11 +481,12 @@ if __name__ == '__main__':
     #                           '--do_test',
     #                           '--perfect_only'
     # ])
-    args = parser.parse_args([  '--train_file', 'data/train_lyrics0.001.json',
+    args = parser.parse_args([
+                                # '--train_file', 'data/train_lyrics0.001.json',
                                 '--test_file', 'data/test_lyrics0.001.json',
-                                # '--matrix_C_file', 'data/matrixC_identity.csv',
-                                # '--matrix_V_file', 'data/matrixV_identity.csv',
-                                '--do_train',
-                                # '--do_test'
+                                '--matrix_file', 'data/cooc_iter0.json',
+                                # '--do_train',
+                                '--perfect_only',
+                                '--do_test'
                                 ])
     main(args)
