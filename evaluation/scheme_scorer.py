@@ -35,17 +35,17 @@ class SchemeScorer:
             return False
         return True
 
-    def compare_direct(self, scheme_gold, scheme_out, lyrics, verbose=False):
+    def compare_direct(self, scheme_gold, scheme_out, lyrics, dist=None, verbose=False):
         self.gold = scheme_gold
         self.out = scheme_out
         self.lyrics = lyrics
-        return self.score(verbose)
+        return self.score(dist=dist, verbose=verbose)
 
     def compare(self, args):
         loadedOK = self.load(args)
         if not loadedOK:
             return
-        self.score()
+        self.score(dist=args.dist_max)
 
     @staticmethod
     # Convert scheme to format where each line holds index to the last line it rhymes with.
@@ -94,8 +94,33 @@ class SchemeScorer:
                     break
         return new_scheme
 
-    def score(self, verbose=True):
+    def forbid_distant_rhymes(self, scheme, dist):
+        letter_gen = next_letter_generator()
+        for i in range(dist, len(scheme)):
+            n = i-1
+            while n >= 0:
+                if scheme[i] == scheme[n]:
+                    # Found a match within given distance - rule not broken.
+                    if n >= i-dist:
+                        break
+                    # Found a match too far, change all following matching letters.
+                    else:
+                        letter = next(letter_gen)
+                        while letter in scheme:
+                            letter = next(letter_gen)
+                        for j in range(i+1, len(scheme)):
+                            if scheme[j] == scheme[i]:
+                                scheme[j] = letter
+                        scheme[i] = letter
+                n -= 1
+
+    def score(self, dist=None, verbose=True):
+        if dist:
+            self.gold = self.forbid_distant_rhymes(self.gold, dist)
+            self.out = self.forbid_distant_rhymes(self.out, dist)
         # ARI score
+        self.gold = self.convert_nonrhymes_to_unique(self.gold)
+        self.out = self.convert_nonrhymes_to_unique(self.out)
         ari_score = sklearn.metrics.adjusted_rand_score(self.gold, self.out)
         # Last index score
         li_gold = self.convert_to_last_index_scheme(self.gold)
@@ -115,7 +140,6 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--gold_file', required=True)
     parser.add_argument('--out_file', required=True)
-    parser.add_argument('--non_rhyme', default='default_char', choices=['default_char', 'unique_char'], help='Choose default_char for having one special character identical for all non-rhyming lines. Choose unique_char to give each non-rhyming line a unique different character.')
     # Maximal rhyme distance allowed - scheme will be adjusted if further.
     parser.add_argument('--dist_max',  default=False)
     # Different stanzas can't share a scheme letter.

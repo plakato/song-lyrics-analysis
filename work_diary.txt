@@ -1333,6 +1333,12 @@ DONE
     - vymysliet ako riesit vynimky u preorganizovani schemat
     - pridat vazeny priemer
     - perfect_only v upravenej verzii este nefunguje
+    - aby bral aj ked su nerymovane riadky oznacene unikatnym pismenkom
+    - upravit pre ARI - pomlcka ako samostatny kluster
+    - pridat do unitaggeru moje data    
+    - prejst a prerusit ak je vzdialenost rymov > 5 (volitelne)
+
+
 
 NICE-TO-HAVE:
     - dopisat aby to urcovalo aj konkretny typ rymu
@@ -1362,20 +1368,16 @@ TODO:
 
 
     - scorer  
-        - prejst a prerusit ak je vzdialenost rymov > 5 (volitelne)
         - (volitelne) ak je prazdny riadok oddelujuci slohy, v druhej slohe uz bude nove pismenko
-        - aby bral aj ked su nerymovane riadky oznacene unikatnym pismenkom
     ??? (ak je vela v dev) automaticky najst basne, kde je rhyme tagger lepsi
     - rozdelit anotovane na test/dev set podla poctu riadkov 
         - tieto pesnicky nemaju byt v celkovych datach!!!
         - doanotovat aby bol rovnaky pocet riadkov
-    - pridat do unitaggeru moje data    
     - odtestovat na mojich datach tagger, v3
 
     - skusit natrenovat moj na reddy datach
     - vsetky samohlasky navzajom maju podozrivo vysoke cisla
         - netreba ich pocitat nejak zvlast - ako? mat dve total a vsade to vydelit prislusnym?
         - preco su sparovane s prazdnym clustrom
-    - upravit pre ARI - pomlcka ako samostatny kluster
 
 piatok 25.6. 9:00
