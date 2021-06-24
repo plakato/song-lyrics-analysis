@@ -78,7 +78,6 @@ def detect_noise(input_file):
     print(noise)
 
 
-
 # Get rid of unnecessary words in lyrics.
 def remove_unwanted_words_from_lyrics(lyrics):
     undesirable_words = ['verse', 'chorus', 'intro', 'outro', 'repeat', 'hook',
@@ -254,6 +253,7 @@ def remove_unwanted_words_from_all_songs(file):
         song['lyrics'] = remove_unwanted_words_from_lyrics(song['lyrics'])
     save_dataset(songs, file)
 
+
 # Create separate file for different genres.
 def split_by_genre(filename):
     genres = {}
@@ -289,32 +289,52 @@ def create_individual_song_files(filename, output_dir, n=None):
                         output.write(line + '\n')
 
 
+# Removed data that will be used for testing so they don't participate in training.
+def remove_annotated_data(filename):
+    with open(filename) as input_data:
+        data = json.load(input_data)
+    annotated = []
+    # Load all annotated lyrics for comparison.
+    for folder, subs, files in os.walk('../evaluation/data/scheme_annotated/'):
+        for filename in files:
+            with open(os.path.join(folder, filename), 'r') as song_file:
+                lyrics = []
+                for line in song_file:
+                    items = line.strip().split(';')
+                    if len(items) == 2:
+                        lyrics.append(items[1])
+                    else:
+                        lyrics.append(line.strip())
+            annotated.append(lyrics)
+    # Iterate and keep only differen from annotated.
+    new_data = []
+    total_removed = 0
+    for song in data:
+        if song['lyrics'] not in annotated:
+            new_data.append(song)
+        else:
+            print(f"Removed {song['title']} with id {song['id']}")
+            total_removed += 1
+    print(f"Removed total of {total_removed} annotated songs.")
+    return new_data
+
+
 def create_clean_dataset():
-    isolate_relevant_songs_and_their_attributes('data/lyrics_original.json',
-                                                'data/lyrics_cleaned.json',
-                                                'data/removed_lyrics.json')
-    filter_unique('data/lyrics_cleaned.json', 'data/lyrics_cleaned_unique.json')
-    filter_english('data/lyrics_cleaned_unique.json', 'data/ENlyrics_cleaned_unique.json')
-    remove_unwanted_words_from_all_songs('data/ENlyrics_cleaned_unique.json')
-    add_word_count('data/ENlyrics_cleaned_unique.json')
-    filter_optimal_length('data/ENlyrics_cleaned_unique.json', 'data/ENlyrics_final.json')
-    split_by_genre('data/ENlyrics_final.json')
+    # isolate_relevant_songs_and_their_attributes('data/lyrics_original.json',
+    #                                             'data/lyrics_cleaned.json',
+    #                                             'data/removed_lyrics.json')
+    # filter_unique('data/lyrics_cleaned.json', 'data/lyrics_cleaned_unique.json')
+    # filter_english('data/lyrics_cleaned_unique.json', 'data/ENlyrics_cleaned_unique.json')
+    # remove_unwanted_words_from_all_songs('data/ENlyrics_cleaned_unique.json')
+    # add_word_count('data/ENlyrics_cleaned_unique.json')
+    # filter_optimal_length('data/ENlyrics_cleaned_unique.json', 'data/ENlyrics_final.json')
+    remove_annotated_data('data/ENlyrics_final.json')
+    # split_by_genre('data/ENlyrics_final.json')
 
 
 if __name__=='__main__':
-    # create_clean_dataset()
-    inputs = ['data/ENlyrics_final_pop.json',
-              'data/ENlyrics_final_rock.json',
-              'data/ENlyrics_final_rap.json',
-              'data/ENlyrics_final_r-b.json',
-              'data/ENlyrics_final_country.json']
-    outputs = ['../evaluation/data/scheme_annotated/pop/',
-               '../evaluation/data/scheme_annotated/rock/',
-               '../evaluation/data/scheme_annotated/rap/',
-               '../evaluation/data/scheme_annotated/r-b/',
-               '../evaluation/data/scheme_annotated/country/']
-    for i in range(len(inputs)):
-        create_individual_song_files(inputs[i], outputs[i], 10)
+    create_clean_dataset()
+
 # check_cleaner_with_miniset('data/miniset_for_lyrics_cleaning/',
 #                            'data/miniset_for_lyrics_cleaning/manually_cleaned/')
 # clean_all_songs('data/lyrics_cleaned.json')

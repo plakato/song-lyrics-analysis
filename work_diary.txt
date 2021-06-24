@@ -1337,7 +1337,23 @@ DONE
     - upravit pre ARI - pomlcka ako samostatny kluster
     - pridat do unitaggeru moje data    
     - prejst a prerusit ak je vzdialenost rymov > 5 (volitelne)
-
+    - rozdelit anotovane na test/dev set podla poctu riadkov 
+        aktualny stav:
+            country (283) - 50, 29, 34, 6, 26, 20, 35, 34, 27, 22 
+            50, 34, 29, 22  6 = 141 (dev)
+            35, 34, 27, 26, 20 = 142 (test)
+            pop (333) - 51, 44, 24, 12, 28, 32, 44, 22, 19, 57
+            51, 44, 28, 24, 19 = 166
+            57, 44, 32, 22, 12 = 167
+            r-b (562) - 37, 69, 91, 45, 75, 43, 73, 33, 66, 30
+            75, 73, 66, 37, 30 = 281
+            91, 69, 45, 43, 33 = 
+            rap (600) - 36, 62, 39, 59, 127, 73, 84, 33, 21, 66
+            127, 73, 62, 39 = 301
+            84, 66, 59, 36, 21, 33 = 299
+            rock (241) -  20, 28, 14, 19, 23, 36, 28, 27, 22, 24
+            36, 28, 24, 19, 14 = 121
+            28, 27, 23, 22, 20 = 120
 
 
 NICE-TO-HAVE:
@@ -1358,26 +1374,27 @@ TODO TEXT:
         - gpt2
         - pravidlove generatory - tym sa nebudeme venovat, spomenut priklad
     - do future works pripisat napady z mailov a tohto suboru 
+    - zistit preco sa pri webovych citaciach neukazuje "accessed on" 
+
 
 TODO:
-    - zistit preco sa pri webovych citaciach neukazuje "accessed on" 
     - urobit prepinace a nemat len zakomentovany kod
     - vynimky - ak sa zmeni zoskupenie rymov - pozor aby nejaky dalsi neodkazoval na nieco co uz je v inej skupine
-    - pre porovnanie evaluacie dotrenovat tagger na mojich datach
     - is negative rating ok? (for lines)
 
 
     - scorer  
         - (volitelne) ak je prazdny riadok oddelujuci slohy, v druhej slohe uz bude nove pismenko
     ??? (ak je vela v dev) automaticky najst basne, kde je rhyme tagger lepsi
-    - rozdelit anotovane na test/dev set podla poctu riadkov 
+
         - tieto pesnicky nemaju byt v celkovych datach!!!
-        - doanotovat aby bol rovnaky pocet riadkov
     - odtestovat na mojich datach tagger, v3
 
     - skusit natrenovat moj na reddy datach
+    - dotrenovat tagger na mojich datach
     - vsetky samohlasky navzajom maju podozrivo vysoke cisla
         - netreba ich pocitat nejak zvlast - ako? mat dve total a vsade to vydelit prislusnym?
         - preco su sparovane s prazdnym clustrom
 
 piatok 25.6. 9:00
+    - doanotovat aby bol rovnaky pocet riadkov - je este treba? 
