@@ -57,21 +57,32 @@ def compare(gold_schemes, out_schemes, stanzas, verbose):
         summed_li += li_score
         weighted_summed_ari += ari_score*len(stanzas[i])
         weighted_summed_li += li_score*len(stanzas[i])
+    avg_ari = summed_ari/len(stanzas)
+    avg_li = summed_li/len(stanzas)
     weighted_ari = weighted_summed_ari/sum(map(len, stanzas))
     weighted_li = weighted_summed_li/sum(map(len, stanzas))
-    print(f'Average ARI score is {summed_ari/len(stanzas)}.')
+    print(f'Average ARI score is {avg_ari}.')
     print(f'Weighted average ARI score is {weighted_ari}.')
-    print(f'Average last index score is {summed_li/len(stanzas)}.')
+    print(f'Average last index score is {avg_li}.')
     print(f'Weighted average last index score is {weighted_li}.')
+    return avg_ari, weighted_ari, avg_li, weighted_li
 
 
 def get_schemes(source, stanzas, verbose=False):
     schemes = []
+    tagger = None
     for stanza in stanzas:
         if source == 'tagger':
-            scheme = UniTagger.tagger_tag(stanza)
+            scheme = UniTagger.tagger_tag(lyrics=stanza)
+        elif source == 'tagger_pretrained':
+            if not tagger:
+                tagger = UniTagger()
+                tagger.pretrain_tagger('tagger_pretrained_on_lyrics-train0.3.model.json')
+            scheme = tagger.tagger_tag(lyrics=stanza)
         elif source == 'v3':
             scheme = UniTagger.detector_v3_tag('data/cooc_iter4.json', stanza, verbose=verbose)
+        elif source == 'v3_perfect':
+            scheme = UniTagger.detector_v3_tag('data/cooc_iter4.json', stanza, perfect=True, verbose=verbose)
         elif source == 'v3_1st_iter':
             scheme = UniTagger.detector_v3_tag('data/cooc_iter0.json', stanza, verbose=verbose)
         elif source == 'v3_experiment':
@@ -100,29 +111,35 @@ def run_on_reddy_data(args):
 
 
 if __name__ == '__main__':
-    scheme_sources = ['reddy', 'tagger', 'v3', 'v3_experiment', 'v3_1st_iter', 'lyrics_annotated']
-    data_sources = ['reddy','lyrics_annotated']
+    scheme_sources = ['reddy',
+                      'tagger', 'tagger_pretrained',
+                      'v3', 'v3_experiment', 'v3_1st_iter', 'v3_perfect',
+                      'lyrics_annotated_dev', 'lyrics_annotated_test']
+    data_sources = ['reddy', 'lyrics_annotated_dev', 'lyrics_annotated_test']
     parser = argparse.ArgumentParser()
     parser.add_argument('--verbose', default=False, action='store_true')
     parser.add_argument('--data', required=True, choices=data_sources)
     parser.add_argument('--gold', required=True, choices=scheme_sources)
     parser.add_argument('--out', required=True, choices=scheme_sources)
     # args = parser.parse_args()
-    args = parser.parse_args(['--data', 'lyrics_annotated',
-                              '--gold', 'lyrics_annotated',
-                              '--out', 'v3',
+    args = parser.parse_args(['--data', 'lyrics_annotated_dev',
+                              '--gold', 'lyrics_annotated_dev',
+                              '--out', 'tagger_pretrained',
                               '--verbose'
                               ])
     print(f"Using data {args.data} to evaluate schemes by {args.out} in comparison to gold schemes by {args.gold}.")
     if args.data == 'reddy':
         run_on_reddy_data(args)
-    elif args.data == 'lyrics_annotated':
-        schemes, stanzas = load_lyrics_annotated('data/scheme_annotated/')
-        if args.gold == 'lyrics_annotated':
+    elif args.data.startswith('lyrics_annotated'):
+        if args.data == 'lyrics_annotated_dev':
+            schemes, stanzas = load_lyrics_annotated('data/scheme_annotated/dev/')
+        elif args.data == 'lyrics_annotated_test':
+            schemes, stanzas = load_lyrics_annotated('data/scheme_annotated/test/')
+        if args.gold.startswith('lyrics_annotated'):
             gold = schemes
         else:
             gold = get_schemes(args.out, stanzas)
-        if args.out == 'lyrics_annotated':
+        if args.out.startswith('lyrics_annotated'):
             out = schemes
         else:
             out = get_schemes(args.out, stanzas)

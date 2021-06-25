@@ -1332,10 +1332,12 @@ streda 16.6. 11:00
 DONE 
     - vymysliet ako riesit vynimky u preorganizovani schemat
     - pridat vazeny priemer
-    - perfect_only v upravenej verzii este nefunguje
+    - perfect_only v upravenej verzii uz funguje
     - aby bral aj ked su nerymovane riadky oznacene unikatnym pismenkom
     - upravit pre ARI - pomlcka ako samostatny kluster
     - pridat do unitaggeru moje data    
+    - vsetky samohlasky navzajom maju podozrivo vysoke cisla
+        - preco su sparovane s prazdnym clustrom -> uz sa to nestava
     - prejst a prerusit ak je vzdialenost rymov > 5 (volitelne)
     - rozdelit anotovane na test/dev set podla poctu riadkov 
         aktualny stav:
@@ -1354,7 +1356,22 @@ DONE
             rock (241) -  20, 28, 14, 19, 23, 36, 28, 27, 22, 24
             36, 28, 24, 19, 14 = 121
             28, 27, 23, 22, 20 = 120
+    - tieto pesnicky nemaju byt v celkovych datach!!!
+    - odtestovat na mojich datach tagger, v3
+    - dotrenovat tagger na mojich datach
 
+
+Annotated data, gold vs tagger:
+Average ARI score is 0.5871705023996622.
+Weighted average ARI score is 0.6060242974167.
+Average last index score is 0.7683268757345334.
+Weighted average last index score is 0.7831683168316832.
+
+ANNOTATED DATA, GOLD VS V3:
+Average ARI score is 0.49801392824762963.
+Weighted average ARI score is 0.518351740993207.
+Average last index score is 0.7113217242126972.
+Weighted average last index score is 0.7306930693069307.
 
 NICE-TO-HAVE:
     - dopisat aby to urcovalo aj konkretny typ rymu
@@ -1375,26 +1392,37 @@ TODO TEXT:
         - pravidlove generatory - tym sa nebudeme venovat, spomenut priklad
     - do future works pripisat napady z mailov a tohto suboru 
     - zistit preco sa pri webovych citaciach neukazuje "accessed on" 
-
+    - rozlišovat terminologicky:
+        - (rhyme) rating, tedy rating dvou veršů=řádků, číslo mezi 0 a 1
+        - assigned (rhyme) rating, tedy rating, který nakonec danému řádku přidělíte(zatím jako nejvyšší možný z předchozích 1-5 řádků; případně 0, jsou-li všechny ratingy <0.8; případně žádný, jde-li o první řádku skupiny)
+        - (rhyme) score, skóre celé písně, tedy průměr všech assigned ratings.
 
 TODO:
     - urobit prepinace a nemat len zakomentovany kod
-    - vynimky - ak sa zmeni zoskupenie rymov - pozor aby nejaky dalsi neodkazoval na nieco co uz je v inej skupine
     - is negative rating ok? (for lines)
-
 
     - scorer  
         - (volitelne) ak je prazdny riadok oddelujuci slohy, v druhej slohe uz bude nove pismenko
     ??? (ak je vela v dev) automaticky najst basne, kde je rhyme tagger lepsi
-
-        - tieto pesnicky nemaju byt v celkovych datach!!!
-    - odtestovat na mojich datach tagger, v3
-
     - skusit natrenovat moj na reddy datach
-    - dotrenovat tagger na mojich datach
-    - vsetky samohlasky navzajom maju podozrivo vysoke cisla
-        - netreba ich pocitat nejak zvlast - ako? mat dve total a vsade to vydelit prislusnym?
-        - preco su sparovane s prazdnym clustrom
+    - pozriet sa na styri a-cka
+    - spocitat priemerne skore za vsetky pesnicky
+    - spocitat podiel rymujucich sa riadkov (ignorujem prve v skupine + prvy riadok) = skore akoby vsetko bolo perfektne
+
+
+generovanie
+    -  z kazdeho zanru 1 pesnicku
+        - dat z pesnicky 1, 2, 4, 8 riadkov ako primer
+
 
 piatok 25.6. 9:00
     - doanotovat aby bol rovnaky pocet riadkov - je este treba? 
+    - algorimtus na upravu score
+        - nechapem B
+        - snazit sa za kazdu cenu zvysit score? - ex. Don't wanna be your teacher
+
+- opravit
+AAA B CCC B
+AAA B AAA B
+
+piatok 2.7. 9:00
