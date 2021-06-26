@@ -5,6 +5,7 @@ import sys
 
 from rhymetagger import RhymeTagger
 
+from constants import NO_OF_PRECEDING_LINES
 from rhyme_detector_v3 import RhymeDetector
 
 
@@ -32,7 +33,7 @@ class UniTagger:
         print(f"Pretrained model doesn't exist. Pretraining from file {train_file}")
         with open(train_file, 'r') as train_input:
             train_data = json.load(train_input)
-        self.rt.new_model(lang='en', verbose=False)
+        self.rt.new_model(lang='en', window=NO_OF_PRECEDING_LINES, verbose=False)
         for song in train_data:
             self.rt.add_to_model(song['lyrics'])
         self.rt.train_model()
@@ -49,9 +50,9 @@ class UniTagger:
     def tagger_tag(self, verbose=False, lyrics=None):
         if lyrics:
             self.lyrics = lyrics
-        if not self.rt:
+        if not hasattr(self, 'rt'):
             self.rt = RhymeTagger()
-            self.rt.new_model('en', ngram=4, prob_ipa_min=0.95, verbose=False)
+            self.rt.new_model('en', ngram=4, prob_ipa_min=0.95, window=NO_OF_PRECEDING_LINES, verbose=False)
         tagger_scheme = self.rt.tag(self.lyrics, output_format=3)
         scheme = self.convert_none_to_default_char(tagger_scheme)
         if verbose:

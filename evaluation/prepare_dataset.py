@@ -34,7 +34,6 @@ if __name__ == '__main__':
     parser.add_argument('--test', type=float, default=None, help="Proportion of data for testing.")
 
     args = parser.parse_args(['--file', '../song_data/data/ENlyrics_final.json',
-                              '--train', '0.33',
-                              '--dev', '0.33',
-                              '--test', '0.33'])
+                              '--train', '0.001',
+                              '--dev', '0.001'])
     split_dataset(args)

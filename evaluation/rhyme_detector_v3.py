@@ -205,7 +205,7 @@ class RhymeDetector:
             data = self.data
         for song in data:
             # Best rhyme for each line with its parameters.
-            rhymes = [{'rating': 0,
+            rhymes = [{'rating': None,
                        'rhyme_fellow': 0,
                        'relevant_components': None,
                        'relevant_components_rhyme_fellow': None,
@@ -235,7 +235,8 @@ class RhymeDetector:
                                               'relevant_components': rel_first,
                                               'relevant_components_rhyme_fellow': rel_second,
                                               'rhyme_fellow': - lines_back}
-                                    possible_rhymes.append(result)
+                                    if result not in possible_rhymes:
+                                        possible_rhymes.append(result)
                                 # Try truncating the relevant part and look for rhyme only closer to the end.
                                 rel_first = rel_first[3:] if len(rel_first) > 2 else []
                                 rel_second = rel_second[3:] if len(rel_second) > 2 else []
@@ -276,6 +277,8 @@ class RhymeDetector:
                                 group.append(i)
                                 break
                         if not better_cand_found:
+                            rhymes[i]['rating'] = None
+                            rhymes[i]['rhyme_fellow'] = 0
                             rhyme_groups.append([i])
                     else:
                         group.append(i)
@@ -288,45 +291,67 @@ class RhymeDetector:
         return stats
 
     def solve_exceptions_in_rhymes(self, rhyme_groups, rhymes):
-        # rhyme_groups = [[0,1], [2,3]]
+        # rhyme_groups = [[0,1], [2,3], ...]
         # rhymes = [{'rating': 0.9, 'rhyme_fellow': -2}, {'rating': 0.8, 'rhyme_fellow': -1},...]
-        # Take care of exceptions like AAAA->AABB
+        # Take care of exceptions where splitting rhyme group would yield better song rating.
         revised_groups = []
-        for group in rhyme_groups:
+        while len(rhyme_groups) > 0:
+            group = rhyme_groups.pop()
+            # Remove small groups.
             if len(group) < 4:
                 revised_groups.append(group)
                 continue
-            i = 0
-            separated_indexes = []
-            # TODO
-            # OD 2. do pred-predposledneho
-                # if score < 1 ---> rozdelit a zvysit i+1
-            while i < len(group)-4:
-                # If we have four consecutive lines and ratings are stronger between first two and second two -> pair them.
-                if group[i+1] == group[i]+1 and \
-                    group[i+2] == group[i]+2 and \
-                    group[i+3] == group[i]+3 and \
-                    rhymes[i+3]['rating'] > rhymes[i+2]['rating'] and \
-                    rhymes[i+1]['rhyme_fellow'] == -1 and \
-                    rhymes[i+3]['rhyme_fellow'] == -1:
-                        revised_groups.append([group[i], group[i+1]])
-                        separated_indexes.extend([group[i], group[i+1]])
-                        # Remove the weaker rhyme.
-                        rhymes[i+2]['rating'] = 0
-                        rhymes[i+2]['rhyme_fellow'] = 0
-                # Always jump 2 to avoid separating one rhyming line from the rest.
-                i += 2
-            # Remove indexes that separated.
-            for idx in separated_indexes:
-                group.remove(idx)
-            # Make sure that no spaces are further than n lines.
-            leftover_idx = 0
-            for i in range(len(group)-1):
-                if group[i+1] - group[i] > NO_OF_PRECEDING_LINES:
-                    revised_groups.append(group[:i])
-                    leftover_idx = i+1
-            revised_groups.append(group[leftover_idx:])
+            # Extract imperfect rhymes (to consider removing them).
+            imperfects = [i for i in group if rhymes[i]['rating'] and 0 < rhymes[i]['rating'] < 1]
+            imperfects = sorted(imperfects, key=lambda imp: rhymes[imp]['rating'])
+            # Try removing rhyme - if the group splits and achieves higher rating, keep it.
+            removed = False
+            old_rating = self.song_rating(rhymes)
+            for imperfect in imperfects:
+                # Will both lines still be a part of some rhyme? Otherwise higher rating is impossible.
+                fellow_idx = imperfect + rhymes[imperfect]['rhyme_fellow']
+                without_imperfect = group.copy()
+                without_imperfect.remove(imperfect)
+                without_imperfect.remove(fellow_idx)
+                if any(i+rhymes[i]['rhyme_fellow'] == imperfect for i in group) and \
+                    (any(i+rhymes[i]['rhyme_fellow'] == fellow_idx for i in without_imperfect) or rhymes[fellow_idx]['rating']):
+                    removed_imperfect = rhymes.copy()
+                    removed_imperfect[imperfect]['rating'] = None
+                    removed_imperfect[imperfect]['rhyme_fellow'] = 0
+                    # rhyme_group = [removed_imperfect[i] for i in group]
+                    new_rating = self.song_rating(removed_imperfect)
+                    if new_rating > old_rating:
+                        rhymes = removed_imperfect
+                        new_groups = self._get_new_groups(group, rhymes)
+                        rhyme_groups.extend(new_groups)
+                        removed = True
+                        break
+            if not removed:
+                revised_groups.append(group)
         return revised_groups
+
+    def _get_new_groups(self, group, rhymes):
+        group.sort()
+        new_groups = [[group.pop(0)]]
+        for elem in group:
+            group_found = False
+            for g in new_groups:
+                if elem+rhymes[elem]['rhyme_fellow'] in g:
+                    g.append(elem)
+                    group_found = True
+                    break
+            if not group_found:
+                new_groups.append([elem])
+        # Make sure that no spaces are further than n lines.
+        no_space_groups = []
+        for group in new_groups:
+            leftover_idx = 0
+            for i in range(len(group) - 1):
+                if group[i + 1] - group[i] > NO_OF_PRECEDING_LINES:
+                    no_space_groups.append(group[leftover_idx:i])
+                    leftover_idx = i + 1
+            no_space_groups.append(group[leftover_idx:])
+        return no_space_groups
 
     def assign_scheme_letters(self, rhymes, revised_groups):
         # Assign rhyme scheme letters.
@@ -339,6 +364,7 @@ class RhymeDetector:
                     # Assign neutral character for non-rhymes.
                     if len(group) == 1:
                         scheme[i] = self.non_rhyme_char
+                        rhymes[i]['rating'] = 0
                     else:
                         # Assign one letter to the entire rhyme group.
                         l = next(letter_gen)
@@ -394,6 +420,15 @@ class RhymeDetector:
         if self.verbose:
             self._print_state()
         return changed
+
+    def song_rating(self, rhymes):
+        summed = 0
+        n = 0
+        for r in rhymes:
+            if type(r['rating']) == int or type(r['rating']) == float:
+                n += 1
+                summed += r['rating']
+        return summed/n
 
     def calculate_new_matrix_from_frequencies(self, frequencies_indiv, frequencies_pairs):
         # Calculate relative frequencies for individual keys that occur in rhyme pairs => perfect match doesn't count
@@ -483,10 +518,10 @@ if __name__ == '__main__':
     # ])
     args = parser.parse_args([
                                 # '--train_file', 'data/train_lyrics0.001.json',
-                                '--test_file', 'data/test_lyrics0.001.json',
+                                '--test_file', 'data/dev_lyrics0.001.json',
                                 '--matrix_file', 'data/cooc_iter0.json',
                                 # '--do_train',
-                                '--perfect_only',
+                                # '--perfect_only',
                                 '--do_test'
                                 ])
     main(args)

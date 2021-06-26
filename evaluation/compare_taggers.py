@@ -73,7 +73,9 @@ def get_schemes(source, stanzas, verbose=False):
     tagger = None
     for stanza in stanzas:
         if source == 'tagger':
-            scheme = UniTagger.tagger_tag(lyrics=stanza)
+            if not tagger:
+                tagger = UniTagger()
+            scheme = tagger.tagger_tag(lyrics=stanza)
         elif source == 'tagger_pretrained':
             if not tagger:
                 tagger = UniTagger()
@@ -124,7 +126,7 @@ if __name__ == '__main__':
     # args = parser.parse_args()
     args = parser.parse_args(['--data', 'lyrics_annotated_dev',
                               '--gold', 'lyrics_annotated_dev',
-                              '--out', 'tagger_pretrained',
+                              '--out', 'tagger',
                               '--verbose'
                               ])
     print(f"Using data {args.data} to evaluate schemes by {args.out} in comparison to gold schemes by {args.gold}.")
