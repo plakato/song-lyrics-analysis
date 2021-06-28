@@ -67,7 +67,7 @@ class SchemeScorer:
         new_scheme = [next(letter_gen)]
         for i in range(1, len(scheme)):
             letter = ''
-            if scheme[i] != UniTagger.non_rhyme:
+            if scheme[i] and scheme[i] != UniTagger.non_rhyme:
                 for l in range(i):
                     if scheme[i] == scheme[l]:
                         letter = new_scheme[l]
