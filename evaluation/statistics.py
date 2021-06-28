@@ -6,8 +6,9 @@ import re
 
 import cmudict
 
-from evaluation.constants import NO_OF_PRECEDING_LINES
-from evaluation.rhyme_detector_v3 import RhymeDetector
+from compare_taggers import load_reddy
+from constants import NO_OF_PRECEDING_LINES
+from rhyme_detector_v3 import RhymeDetector
 
 
 def percetage_not_in_CMU(filename, verbose):
@@ -86,6 +87,26 @@ def percentage_of_numbers_to_all_OOD(filename, verbose):
     return (n_contain_numbers+n_only_numbers)/n_not_in_CMU, n_only_numbers/n_not_in_CMU
 
 
+def print_max_rhyme_dist_reddy():
+    print("Searching for maximal rhyme distance on Reddy's data...")
+    max_dist = 0
+    for filename in os.listdir('data_reddy/parsed/'):
+        if not filename.endswith('.dev'):
+            continue
+        print('-' * 20)
+        print(f'Analyzing file: {filename}')
+        schemes, _ = load_reddy('data_reddy/parsed/' + filename)
+        # Check schemes to find longest distance.
+        for scheme in schemes:
+            for i in range(len(scheme)):
+                for dist in range(1, len(scheme)-i-1):
+                    if scheme[i] == scheme[i+dist]:
+                        if dist > max_dist:
+                            max_dist = dist
+                            print(f"New maximal distance is {max_dist}.")
+                        break
+
+
 # Returns top n co-occurrences of components (not-identical).
 def print_nonidentical_cooccurrences(file, n, out_file):
     comp_coocurence = dict()
@@ -154,12 +175,10 @@ if __name__ == '__main__':
     parser.add_argument('--numbers_in_OOD', default=False, action='store_true', help="Prints statistics about numbers among out-of-dictionary words.")
     parser.add_argument('--n_cooccurrences', default=False, type=int, help="Prints top n non-identical co-occurrences of components.")
     parser.add_argument('--cooc_file', default=None, help="File where co-occurrences in format that allows it to be used by rhyme_detector_v3.")
-    parser.add_argument('--file', required=True, help="JSON file with songs to calculate the statistics for.")
+    parser.add_argument('--max_rhyme_dist_reddy', default=False, action='store_true', help="Maximal distance between two rhymes in Reddy's data.")
+    parser.add_argument('--file', help="JSON file with songs to calculate the statistics for.")
     parser.add_argument('--verbose', default=False, action='store_true')
-    # args = parser.parse_args(['--numbers_in_OOD', '--file', '../song_data/data/ENlyrics_final.json'])
-    args = parser.parse_args(['--n_cooccurrences', '100',
-                              '--file', 'data/train_lyrics0.01.json',
-                              '--cooc_file', 'data/cooc_statistical_0.01.json'])
+    args = parser.parse_args()
     if args.not_in_cmu:
         percentage = percetage_not_in_CMU(args.file, args.verbose)
         print(f'{percentage*100}% of line-end words are not in CMU dictionary.')
@@ -169,3 +188,5 @@ if __name__ == '__main__':
         print(f"{only_numbers*100}% of out-of-dictionary words are numbers.")
     if args.n_cooccurrences:
         print_nonidentical_cooccurrences(args.file, args.n_cooccurrences, args.cooc_file)
+    if args.max_rhyme_dist_reddy:
+        print_max_rhyme_dist_reddy()
