@@ -1,5 +1,4 @@
 import cmudict
-import panphon.distance
 
 NO_OF_PRECEDING_LINES = 3
 NOT_AVAILABLE = 'X'

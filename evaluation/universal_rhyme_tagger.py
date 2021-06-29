@@ -71,6 +71,7 @@ class UniTagger:
                 print(f"{stats_v3['scheme'][i]}\t{lyrics[i]}")
         return stats_v3['scheme']
 
+
     @staticmethod
     def convert_none_to_default_char(scheme):
         new_scheme = []

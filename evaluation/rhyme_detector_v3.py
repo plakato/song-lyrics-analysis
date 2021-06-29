@@ -1,4 +1,5 @@
 import argparse
+import copy
 import json
 import math
 import pickle
@@ -214,18 +215,26 @@ class RhymeDetector:
             last_stressed_phonemes = [[]]*len(song)
             if song[0]:
                 last_stressed_phonemes[0] = self.get_phonemes_after_last_stress(song[0][0])
+            else:
+                rhymes[0]['rating'] = self.non_rhyme_char
             start_idx = 0
             for line_idx in range(start_idx + 1, len(song)):
                 if not song[line_idx]:
+                    rhymes[line_idx]['rating'] = self.non_rhyme_char
                     continue
                 last_stressed_phonemes[line_idx] = self.get_phonemes_after_last_stress(song[line_idx][0])
                 # Find the best rated combination of pronunciation of this line and its selected predecessors.
                 possible_rhymes = []
                 for pronunciation1 in song[line_idx]:
                     # Look for rhyme fellow in preceding lines.
-                    for lines_back in range(1, min(NO_OF_PRECEDING_LINES, line_idx) + 1):
+                    lines_back = 0
+                    lines_evaluated = 0
+                    while lines_evaluated < NO_OF_PRECEDING_LINES and line_idx - lines_back >= 0:
+                        lines_back += 1
                         if not song[line_idx-lines_back]:
+                            lines_evaluated += 1
                             continue
+                        lines_evaluated += 1
                         for pronunciation2 in song[line_idx-lines_back]:
                             rel_first, rel_second, stress_penalty = self.get_relevant_components_for_pair(pronunciation1, pronunciation2)
                             while len(rel_first) >= 2 and len(rel_second) >= 2:
@@ -310,15 +319,14 @@ class RhymeDetector:
             for imperfect in imperfects:
                 # Will both lines still be a part of some rhyme? Otherwise higher rating is impossible.
                 fellow_idx = imperfect + rhymes[imperfect]['rhyme_fellow']
-                without_imperfect = group.copy()
+                without_imperfect = copy.deepcopy(group)
                 without_imperfect.remove(imperfect)
                 without_imperfect.remove(fellow_idx)
                 if any(i+rhymes[i]['rhyme_fellow'] == imperfect for i in group) and \
                     (any(i+rhymes[i]['rhyme_fellow'] == fellow_idx for i in without_imperfect) or rhymes[fellow_idx]['rating']):
-                    removed_imperfect = rhymes.copy()
+                    removed_imperfect = copy.deepcopy(rhymes)
                     removed_imperfect[imperfect]['rating'] = None
                     removed_imperfect[imperfect]['rhyme_fellow'] = 0
-                    # rhyme_group = [removed_imperfect[i] for i in group]
                     new_rating = self.song_rating(removed_imperfect)
                     if new_rating > old_rating:
                         rhymes = removed_imperfect
@@ -348,7 +356,7 @@ class RhymeDetector:
             leftover_idx = 0
             for i in range(len(group) - 1):
                 if group[i + 1] - group[i] > NO_OF_PRECEDING_LINES:
-                    no_space_groups.append(group[leftover_idx:i])
+                    no_space_groups.append(group[leftover_idx:i+1])
                     leftover_idx = i + 1
             no_space_groups.append(group[leftover_idx:])
         return no_space_groups
@@ -360,6 +368,7 @@ class RhymeDetector:
         # For each line find and deal with its group.
         for i in range(len(rhymes)):
             for group in revised_groups:
+                first = min(group)
                 if i in group:
                     # Assign neutral character for non-rhymes.
                     if len(group) == 1:
@@ -370,7 +379,7 @@ class RhymeDetector:
                         l = next(letter_gen)
                         for idx in group:
                             # First rhyme fellow doesn't have a rating.
-                            if idx == group[0]:
+                            if idx == first:
                                 rhymes[idx]['rating'] = self.non_rhyme_char
                             scheme[idx] = l
                     revised_groups.remove(group)

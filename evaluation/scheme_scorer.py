@@ -88,7 +88,7 @@ class SchemeScorer:
             new_scheme.append(default)
             for j in range(i):
                 if scheme[i] == scheme[j]:
-                    if new_scheme[j] == default:
+                    if not new_scheme[j] or new_scheme[j] == default:
                         new_scheme[j] = next(letter_gen)
                     new_scheme[i] = new_scheme[j]
                     break
@@ -118,10 +118,12 @@ class SchemeScorer:
         if dist:
             self.gold = self.forbid_distant_rhymes(self.gold, dist)
             self.out = self.forbid_distant_rhymes(self.out, dist)
+        self.gold = self.convert_nonrhymes_to_default(self.gold)
+        self.out = self.convert_nonrhymes_to_default(self.out)
         # ARI score
-        self.gold = self.convert_nonrhymes_to_unique(self.gold)
-        self.out = self.convert_nonrhymes_to_unique(self.out)
-        ari_score = sklearn.metrics.adjusted_rand_score(self.gold, self.out)
+        gold_unique = self.convert_nonrhymes_to_unique(self.gold)
+        out_unique = self.convert_nonrhymes_to_unique(self.out)
+        ari_score = sklearn.metrics.adjusted_rand_score(gold_unique, out_unique)
         # Last index score
         li_gold = self.convert_to_last_index_scheme(self.gold)
         li_out = self.convert_to_last_index_scheme(self.out)

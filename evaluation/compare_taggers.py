@@ -3,6 +3,7 @@ import argparse
 import os
 from subprocess import Popen, PIPE
 
+from constants import NO_OF_PRECEDING_LINES
 from scheme_scorer import SchemeScorer
 from universal_rhyme_tagger import UniTagger
 
@@ -21,6 +22,9 @@ def load_lyrics_annotated(directory):
                         items = line.strip().split(';')
                         scheme.append(items[0])
                         song.append(items[1])
+                    else:
+                        scheme.append(UniTagger.non_rhyme)
+                        song.append(line.strip())
             songs.append(song)
             schemes.append(scheme)
     return schemes, songs
@@ -79,7 +83,7 @@ def get_schemes(source, stanzas, verbose=False):
         elif source == 'tagger_pretrained':
             if not tagger:
                 tagger = UniTagger()
-                tagger.pretrain_tagger('tagger_pretrained_on_lyrics-train0.3.model.json')
+                tagger.pretrain_tagger(f'tagger_pretrained_window={NO_OF_PRECEDING_LINES}-train0.3.model.json')
             scheme = tagger.tagger_tag(lyrics=stanza)
         elif source == 'v3':
             scheme = UniTagger.detector_v3_tag('data/cooc_iter4.json', stanza, verbose=verbose)
@@ -123,12 +127,7 @@ if __name__ == '__main__':
     parser.add_argument('--data', required=True, choices=data_sources)
     parser.add_argument('--gold', required=True, choices=scheme_sources)
     parser.add_argument('--out', required=True, choices=scheme_sources)
-    # args = parser.parse_args()
-    args = parser.parse_args(['--data', 'lyrics_annotated_dev',
-                              '--gold', 'lyrics_annotated_dev',
-                              '--out', 'tagger',
-                              '--verbose'
-                              ])
+    args = parser.parse_args()
     print(f"Using data {args.data} to evaluate schemes by {args.out} in comparison to gold schemes by {args.gold}.")
     if args.data == 'reddy':
         run_on_reddy_data(args)
