@@ -16,12 +16,13 @@ class UniTagger:
         # Default character used for non-rhyming lines' as scheme letter.
         self.lyrics = self.load_input()
         if args.rhyme_tagger:
-            self.tagger_tag()
+            scheme = self.tagger_tag()
         elif args.rhyme_detector_v3:
-            self.detector_v3_tag(args.rhyme_detector_v3, self.lyrics)
+            scheme = self.detector_v3_tag(args.rhyme_detector_v3, self.lyrics)
         elif args.rhyme_tagger_pretrained:
             self.pretrain_tagger(args.rhyme_tagger_pretrained)
-            self.tagger_tag()
+            scheme = self.tagger_tag()
+        return scheme
 
     def pretrain_tagger(self, pretrained_file):
         train_file = 'data/train_lyrics0.33.json'
@@ -88,8 +89,9 @@ if __name__ == '__main__':
     parser.add_argument('--rhyme_tagger', default=False, action='store_true')
     parser.add_argument('--rhyme_tagger_pretrained', default=None, help="File where the pretrained model is stored.")
     parser.add_argument('--rhyme_detector_v3', default=None, help="File with the stored model (co-occurences matrix).")
-    # args = parser.parse_args()
-    args = parser.parse_args(['--rhyme_tagger_pretrained', 'tagger_pretrained_on_lyrics-train0.3.model.json'])
+    args = parser.parse_args()
+    # args = parser.parse_args(['--rhyme_tagger_pretrained', 'tagger_pretrained_on_lyrics-train0.3.model.json'])
     ut = UniTagger()
-    ut.tag(args)
+    scheme = ut.tag(args)
+    print(scheme)
 

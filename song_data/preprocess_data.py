@@ -321,15 +321,15 @@ def remove_annotated_data(filename):
 
 
 def create_clean_dataset():
-    isolate_relevant_songs_and_their_attributes('data/lyrics_original.json',
-                                                'data/lyrics_cleaned.json',
-                                                'data/removed_lyrics.json')
-    filter_unique('data/lyrics_cleaned.json', 'data/lyrics_cleaned_unique.json')
-    filter_english('data/lyrics_cleaned_unique.json', 'data/ENlyrics_cleaned_unique.json')
-    remove_unwanted_words_from_all_songs('data/ENlyrics_cleaned_unique.json')
-    add_word_count('data/ENlyrics_cleaned_unique.json')
-    filter_optimal_length('data/ENlyrics_cleaned_unique.json', 'data/ENlyrics_final.json')
-    remove_annotated_data('data/ENlyrics_final.json')
+    # isolate_relevant_songs_and_their_attributes('data/lyrics_original.json',
+    #                                             'data/lyrics_cleaned.json',
+    #                                             'data/removed_lyrics.json')
+    # filter_unique('data/lyrics_cleaned.json', 'data/lyrics_cleaned_unique.json')
+    # filter_english('data/lyrics_cleaned_unique.json', 'data/ENlyrics_cleaned_unique.json')
+    # remove_unwanted_words_from_all_songs('data/ENlyrics_cleaned_unique.json')
+    # add_word_count('data/ENlyrics_cleaned_unique.json')
+    # filter_optimal_length('data/ENlyrics_cleaned_unique.json', 'data/ENlyrics_final.json')
+    # remove_annotated_data('data/ENlyrics_final.json')
     split_by_genre('data/ENlyrics_final.json')
 
 

@@ -14,18 +14,20 @@ from rhyme_detector_v1 import get_pronunciations_for_n_syllables, next_letter_ge
 
 
 class RhymeDetector:
-    def __init__(self, perfect_only=False, matrix_path=None, verbose=False):
+    def __init__(self, perfect_only=False, matrix_path=None, zero_value=0.001, rhyme_rating_min=0.8, window=3, verbose=False):
         self.data = []
         self.verbose = verbose
         self.separator = '&'
         self.oscilation_check = dict()
+        global NO_OF_PRECEDING_LINES
+        NO_OF_PRECEDING_LINES = window
         # Value assigned when the component is not in the matrix (cooc).
-        self.zero_value = 0.001
+        self.zero_value = zero_value
         # Initialization value for the matrix components at the beginning of training.
         self.init_value = 0.2
         self.perfect_only = perfect_only
         # Minimal rating for a pair of lines to be judged a rhyme.
-        self.rhyme_rating_min = 0.8
+        self.rhyme_rating_min = rhyme_rating_min
         # Default character used
         # - when rating is not available (first line in rhyme group)
         # - when the line doesn't rhyme (in place of scheme letter)
@@ -210,6 +212,7 @@ class RhymeDetector:
                        'rhyme_fellow': 0,
                        'relevant_components': None,
                        'relevant_components_rhyme_fellow': None,
+                       'stress_moved': False,
                        'other_candidates': []} for i in range(len(song))]
             # Phonemes after last stress for each line (these are only used when no rhyme for the line is found).
             last_stressed_phonemes = [[]]*len(song)
@@ -229,7 +232,7 @@ class RhymeDetector:
                     # Look for rhyme fellow in preceding lines.
                     lines_back = 0
                     lines_evaluated = 0
-                    while lines_evaluated < NO_OF_PRECEDING_LINES and line_idx - lines_back >= 0:
+                    while lines_evaluated < NO_OF_PRECEDING_LINES and line_idx - lines_back > 0:
                         lines_back += 1
                         if not song[line_idx-lines_back]:
                             lines_evaluated += 1
@@ -243,7 +246,8 @@ class RhymeDetector:
                                     result = {'rating': rating,
                                               'relevant_components': rel_first,
                                               'relevant_components_rhyme_fellow': rel_second,
-                                              'rhyme_fellow': - lines_back}
+                                              'rhyme_fellow': - lines_back,
+                                              'stress_moved': stress_penalty}
                                     if result not in possible_rhymes:
                                         possible_rhymes.append(result)
                                 # Try truncating the relevant part and look for rhyme only closer to the end.
@@ -258,6 +262,7 @@ class RhymeDetector:
                 # Keep other candidates in case of pronunciation conflict (sorted - descending rating).
                 rhymes[line_idx]['other_candidates'] = sorted(list(filter(lambda c: c != best_rated_rhyme, possible_rhymes)), key=lambda item: item['rating'], reverse=True)
             song_stats = self._revise_and_create_scheme(rhymes, last_stressed_phonemes)
+            song_stats['song_rating'] = self.song_rating(rhymes)
             stats.append(song_stats)
         return stats
 
@@ -294,7 +299,7 @@ class RhymeDetector:
                     # Keep the pronunciation used for the rhyme.
                     relevant_parts[i] = rhymes[i]['relevant_components']
                     break
-        revised_groups = self.solve_exceptions_in_rhymes(rhyme_groups, rhymes)
+        revised_groups, rhymes = self.solve_exceptions_in_rhymes(rhyme_groups, rhymes)
         scheme = self.assign_scheme_letters(rhymes, revised_groups)
         stats = {'scheme': scheme, 'ratings': rhymes, 'relevant_components': relevant_parts}
         return stats
@@ -336,7 +341,7 @@ class RhymeDetector:
                         break
             if not removed:
                 revised_groups.append(group)
-        return revised_groups
+        return revised_groups, rhymes
 
     def _get_new_groups(self, group, rhymes):
         group.sort()

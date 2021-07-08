@@ -1,6 +1,7 @@
 import cmudict
 
 NO_OF_PRECEDING_LINES = 3
+
 NOT_AVAILABLE = 'X'
 IPA_VOWELS = {'i', 'y', 'ɨ', 'ʉ', 'ɯ', 'u',
               'ɪ', 'ʏ', 'ɪ̈', 'ʊ̈', 'ʊ',
@@ -33,7 +34,6 @@ SIMILAR_SOUNDS = [['M', 'N', 'NG'], ['P', 'T', 'K', 'Q'], ['F', 'TH', 'S', 'SH',
 HOLTMAN_SIMILAR_CONS1 = {}
 # Differing in height or ATR.
 HOLTMAN_SIMILAR_VOW1 = {}
-dst = panphon.distance.Distance()
 dict = cmudict.dict()
 # Examples of input and output.
 poem1 = ['Roses are red', 'you are too', "please don't be mad", 'be a fool.']

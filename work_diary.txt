@@ -1390,7 +1390,26 @@ DONE
 
 
 piatok 2.7. 9:00
-
+- generovanie 
+    - text ok? pokusy?
+    - ake analyzy na tom pustat? rymy asi velmi nemaju zmysel ked tam nie su...
+    - originality score - porovnat oproti hodnotach na celych datach
+    - form score - pre kazdy riadok a priemer celej pesnicky, 
+        - ideal - aby bolo horsie skore ked sa prehadzu riadky
+- web 
+    - nejaka chyba?
+    - co s tou maticou?
+    - do akeho detailu v texte?
+web 
+    X default for unseen components - vypustit
+    X song rhyme rating
+    X processing?
+    X diagonalu nejak sede, proskrtnute
+    X pri najeti na policku v matici dat tooltip s ratingom, componentami, typom rymu, ak sa presunie prizvuk priznak
+    X typ rymu odlisit farebne
+    X sytostou odlisit rhyme rating
+    X k song ratingu kolko percent ktorych rymov
+    - pocitat rhyme type v matici pre kazde policko zvlast - inak to pri vacsej skupine nemusi sediet
 
 TODO:
     - urobit prepinace a nemat len zakomentovany kod
@@ -1402,7 +1421,47 @@ TODO:
         - (volitelne) ak je prazdny riadok oddelujuci slohy, v druhej slohe uz bude nove pismenko
     - spocitat priemerne skore za vsetky pesnicky
     - uprava skore - AAAAAA u neperfektnych rymoch nema byt AABBCC
+    - rymy na poslednom riadku nemaju pismenko!!
+    - vzdialenost rymov pri anotacii
+    - glossary not adding new words
 
-    - opravit
-        AAA B CCC B
-        AAA B AAA B
+    - statistiky na datach - co vsetko?
+        - riadky
+            - pocet radku
+            - pocet riadkov co sa rymuju
+            - pocet skupin (=pocet roznych pismen)
+                - per song, min, max
+        - rymy 
+            - podiel rymov zo vsekych riadkov
+            - podiel jednotlivych typov z riadkov ktore sa rymuju
+            - typy rymov: perfektne, podla poctu slabik, podla presunutia prizvuku
+        - histogram? poctov rymov v rymovej skupine
+        - song rating 
+            - priemerne na pesnicku/zaner
+            - median
+            - pre kazdy algoritmus (porovnanie iba na vsetkych datach)
+        - na datach: pre kazdy zaner, vsetko spolu, reddy
+        - nejake slabiky? 
+        - (keby sa zanry nelisili), skusit najcastejsie slova v rymoch
+    - co este vsetko do textu?  
+        - jednu piesen/basen celu popisat (4 verse), aby tam boli aj komponenty s nizkou podobnostou
+        - najcastejsie kombinacie component (neperfektne rymy) 
+            - dat to k popisu algoritmu, pre kontrast uviest aj par menej castych
+        - do popisu algoritmu potom mozem dat screenshoty
+
+
+
+piatok 9.2. 11:00
+
+rock
+{'avg_group_count': 6.090655184452461,
+ 'avg_group_size': 2.502431358312475,
+ 'avg_lines_per_song': 0.0,
+ 'max_group_count': 81,
+ 'max_group_size': 68,
+ 'min_group_count': 0,
+ 'min_group_size': 0,
+ 'percentage_of_rhyming_lines': 0.39357468640103255,
+ 'total_lines': 1331079,
+ 'total_rhyming_lines': 523879,
+ 'total_songs': 34372}
