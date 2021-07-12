@@ -32,9 +32,10 @@ def percetage_not_in_CMU(filename, verbose):
                 if last_word == '':
                     continue
                 pron = dict.get(last_word)
-                if not pron and verbose:
-                    print(last_word)
+                if not pron:
                     n_not_in_CMU += 1
+                    if verbose:
+                        print(last_word)
                 total_words += 1
     print(f'Analyzed {total_songs} songs.')
     return n_not_in_CMU/total_words
