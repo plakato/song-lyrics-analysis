@@ -533,7 +533,7 @@ if __name__ == '__main__':
     args = parser.parse_args([
                                 # '--train_file', 'data/train_lyrics0.001.json',
                                 '--test_file', 'data/dev_lyrics0.001.json',
-                                '--matrix_file', 'data/cooc_iter0.json',
+                                '--matrix_file', 'data/cooc_iter3.json',
                                 # '--do_train',
                                 # '--perfect_only',
                                 '--do_test'

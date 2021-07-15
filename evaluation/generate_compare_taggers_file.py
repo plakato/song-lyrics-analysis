@@ -16,7 +16,7 @@ def get_scores(data, tagger):
 
 def main(args):
     tagger_sources = ['tagger', 'tagger_pretrained', 'v3', 'v3_experiment', 'v3_1st_iter', 'v3_perfect']
-    data_sources = ['reddy', 'lyrics_annotated_dev']
+    data_sources = ['reddy', 'lyrics_annotated_test']
     header = ['', 'macro ARI', 'micro ARI', 'macro LI', 'micro LI']
     with open(args.out, 'w+') as f:
         writer = csv.writer(f)
