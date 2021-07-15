@@ -66,7 +66,6 @@ def save_dev_and_test(out_dir, filename, dev_count, schemes, lyrics):
     with open(test_filename, 'w+') as test_out:
         for i in range(last_dev_idx+1, len(lyrics)):
             for l in range(len(lyrics[i])):
-                # todo
                 # Special case - * means continue as shown
                 letter_gen = next_letter_generator()
                 next_letter = True

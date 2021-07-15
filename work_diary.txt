@@ -1419,26 +1419,25 @@ TODO:
 
     - scorer  
         - (volitelne) ak je prazdny riadok oddelujuci slohy, v druhej slohe uz bude nove pismenko
-    - spocitat priemerne skore za vsetky pesnicky
     - uprava skore - AAAAAA u neperfektnych rymoch nema byt AABBCC
-    - rymy na poslednom riadku nemaju pismenko!!
+    X rymy na poslednom riadku nemaju pismenko!!
     - vzdialenost rymov pri anotacii
     - glossary not adding new words
 
     - statistiky na datach - co vsetko?
-        - riadky
-            - pocet radku
-            - pocet riadkov co sa rymuju
-            - pocet skupin (=pocet roznych pismen)
+        X riadky
+            X pocet radku
+            X pocet riadkov co sa rymuju
+            X pocet skupin (=pocet roznych pismen)
                 - per song, min, max
         - rymy 
-            - podiel rymov zo vsekych riadkov
+            X podiel rymov zo vsekych riadkov
             - podiel jednotlivych typov z riadkov ktore sa rymuju
             - typy rymov: perfektne, podla poctu slabik, podla presunutia prizvuku
         - histogram? poctov rymov v rymovej skupine
         - song rating 
-            - priemerne na pesnicku/zaner
-            - median
+            X priemerne na pesnicku/zaner
+            X median
             - pre kazdy algoritmus (porovnanie iba na vsetkych datach)
         - na datach: pre kazdy zaner, vsetko spolu, reddy
         - nejake slabiky? 
@@ -1453,6 +1452,19 @@ TODO:
 
 piatok 9.2. 11:00
 
+-data to webu vychodzie window = 5 alebo nekonecno
+- pirdat v lavej casti do tooltipu foneticky prepis 
+- do matice pridat posledne slovo
+- ukazky basni na demonstraciu rymov
+- nejak vyznacit ten dominantny rym
+
+- do textu zmienit ze k verzologii patri aj metrika a repetition on higher level (pozriet na zadanie) ...ale ja sa budem venovat len rymom
+
+statistiky
+- statistika slabik - avg, max, median
+- priemerny rhyme rating
+
+
 rock
 {'avg_group_count': 6.090655184452461,
  'avg_group_size': 2.502431358312475,
@@ -1465,3 +1477,148 @@ rock
  'total_lines': 1331079,
  'total_rhyming_lines': 523879,
  'total_songs': 34372}
+
+ /home/patricia/diplomka/song-lyrics-analysis/venv3.7/bin/python /home/patricia/diplomka/song-lyrics-analysis/evaluation/rhyme_statistics.py
+{'avg_group_count': 7.23394495412844,
+ 'avg_group_size': 2.523145212428662,
+ 'avg_lines_per_song': 0.0,
+ 'max_group_count': 33,
+ 'max_group_size': 28,
+ 'min_group_count': 0,
+ 'min_group_size': 2,
+ 'percentage_of_rhyming_lines': 0.4963822355289421,
+ 'total_lines': 16032,
+ 'total_rhyming_lines': 7958,
+ 'total_songs': 436}
+{'avg_song_rating': 0.46011490224582957, 'median': 0.26723330046531335}
+{'eight_syllable': 39,
+ 'five_syllable': 685,
+ 'forced': 393,
+ 'imperfect': 0,
+ 'perc_eight_syllable': 0.004886605688510212,
+ 'perc_five_syllable': 0.08582884350332039,
+ 'perc_forced': 0.04924194963037214,
+ 'perc_imperfect': 0.0,
+ 'perc_perfect_dact': 0.004886605688510212,
+ 'perc_perfect_fem': 0.08106753539656684,
+ 'perc_perfect_masc': 0.6779852148853527,
+ 'perc_perfect_sound_match': 0.9115399072797895,
+ 'perc_stress_moved': 0.0,
+ 'perc_two_syllable': 0.909033955644656,
+ 'perfect_dact': 39,
+ 'perfect_fem': 647,
+ 'perfect_masc': 5411,
+ 'perfect_sound_match': 7275,
+ 'stress_moved': 0,
+ 'total_rhyming_lines': 7981,
+ 'two_syllable': 7255}
+
+Process finished with exit code 0
+
+../song_data/data/ENlyrics_final_rock.json
+Time: 18:42:58
+{'avg_group_count': 6.090655184452461,
+ 'avg_group_size': 2.502431358312475,
+ 'avg_lines_per_song': 0.0,
+ 'max_group_count': 81,
+ 'max_group_size': 68,
+ 'min_group_count': 0,
+ 'min_group_size': 2,
+ 'percentage_of_rhyming_lines': 0.4818407994518255,
+ 'total_lines': 1087245,
+ 'total_rhyming_lines': 523879,
+ 'total_songs': 34372}
+{'avg_song_rating': 0.4200828432532065, 'median': 0.35714285714285715}
+{'eight_syllable': 4560,
+ 'five_syllable': 41945,
+ 'forced': 20187,
+ 'imperfect': 0,
+ 'perc_eight_syllable': 0.008679415509887111,
+ 'perc_five_syllable': 0.0798372990268015,
+ 'perc_forced': 0.038423544056598924,
+ 'perc_imperfect': 0.0,
+ 'perc_perfect_dact': 0.008610893808493265,
+ 'perc_perfect_fem': 0.07736861439602878,
+ 'perc_perfect_masc': 0.7227611961605007,
+ 'perc_perfect_sound_match': 0.930090734152929,
+ 'perc_stress_moved': 0.0,
+ 'perc_two_syllable': 0.9111083194862395,
+ 'perfect_dact': 4524,
+ 'perfect_fem': 40648,
+ 'perfect_masc': 379725,
+ 'perfect_sound_match': 488652,
+ 'stress_moved': 0,
+ 'total_rhyming_lines': 525381,
+ 'two_syllable': 478679}
+../song_data/data/ENlyrics_final_pop.json
+Time: 18:57:07
+{'avg_group_count': 6.134085174629442,
+ 'avg_group_size': 2.518276368174117,
+ 'avg_lines_per_song': 0.0,
+ 'max_group_count': 169,
+ 'max_group_size': 159,
+ 'min_group_count': 0,
+ 'min_group_size': 2,
+ 'percentage_of_rhyming_lines': 0.49828844104301356,
+ 'total_lines': 9104273,
+ 'total_rhyming_lines': 4536554,
+ 'total_songs': 293679}
+{'avg_song_rating': 0.4320742496821079, 'median': 0.5210526315789474}
+{'eight_syllable': 33790,
+ 'five_syllable': 370952,
+ 'forced': 172394,
+ 'imperfect': 0,
+ 'perc_eight_syllable': 0.007426633150477127,
+ 'perc_five_syllable': 0.0815307611848414,
+ 'perc_forced': 0.037890115280951576,
+ 'perc_imperfect': 0.0,
+ 'perc_perfect_dact': 0.007341135657268023,
+ 'perc_perfect_fem': 0.07860846126271226,
+ 'perc_perfect_masc': 0.7246881814111746,
+ 'perc_perfect_sound_match': 0.9313334246185746,
+ 'perc_stress_moved': 0.0,
+ 'perc_two_syllable': 0.9108017181259741,
+ 'perfect_dact': 33401,
+ 'perfect_fem': 357656,
+ 'perfect_masc': 3297216,
+ 'perfect_sound_match': 4237419,
+ 'stress_moved': 0,
+ 'total_rhyming_lines': 4549841,
+ 'two_syllable': 4144003}
+../song_data/data/ENlyrics_final_r-b.json
+Time: 21:05:44
+../song_data/data/ENlyrics_final_country.json
+Time: 00:01:04
+{'avg_group_count': 6.67583857442348,
+ 'avg_group_size': 2.4000785083415113,
+ 'avg_lines_per_song': 0.0,
+ 'max_group_count': 98,
+ 'max_group_size': 24,
+ 'min_group_count': 0,
+ 'min_group_size': 2,
+ 'percentage_of_rhyming_lines': 0.504442812708837,
+ 'total_lines': 121207,
+ 'total_rhyming_lines': 61142,
+ 'total_songs': 3816}
+{'avg_song_rating': 0.45585660625590796, 'median': 0.2692307692307692}
+{'eight_syllable': 198,
+ 'five_syllable': 3909, 
+ 'forced': 2598,
+ 'imperfect': 0,
+ 'perc_eight_syllable': 0.0032287522014219556,
+ 'perc_five_syllable': 0.06374339573413346,
+ 'perc_forced': 0.04236514252168808,
+ 'perc_imperfect': 0.0,
+ 'perc_perfect_dact': 0.0032287522014219556,
+ 'perc_perfect_fem': 0.061688735242319485,
+ 'perc_perfect_masc': 0.7352260126540996,
+ 'perc_perfect_sound_match': 0.922363185702172,
+ 'perc_stress_moved': 0.0,
+ 'perc_two_syllable': 0.9330278520644446,
+ 'perfect_dact': 198,
+ 'perfect_fem': 3783,
+ 'perfect_masc': 45087,
+ 'perfect_sound_match': 56563,
+ 'stress_moved': 0,
+ 'total_rhyming_lines': 61324,
+ 'two_syllable': 57217}
