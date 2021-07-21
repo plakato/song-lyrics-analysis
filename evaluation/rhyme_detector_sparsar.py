@@ -1,3 +1,4 @@
+import argparse
 import string
 import xml.etree.ElementTree as ET
 
@@ -38,9 +39,8 @@ def find_perfect_rhymes(lines):
     return scheme
 
 
-def get_perfect_rhymes_from_sparsar_output():
-    words, phons = load_lines_from_sparsar_output('sparsar_experiments/outs/\'Ask Me '
-                              'Lyrics.txt\'_phon.xml')
+def get_perfect_rhymes_from_sparsar_output(filename):
+    words, phons = load_lines_from_sparsar_output(filename)
     scheme = find_perfect_rhymes(phons)
     i = 0
     for i in range(len(scheme)):
@@ -49,5 +49,8 @@ def get_perfect_rhymes_from_sparsar_output():
 
 
 if __name__ == '__main__':
-    scheme = get_perfect_rhymes_from_sparsar_output()
-    print(scheme)
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--song_out_file', required=True, help="SPARSAR output _phon.xml file.")
+    args = parser.parse_args()
+    scheme = get_perfect_rhymes_from_sparsar_output(args.song_out_file)
+    print('SCHEME: ', scheme)

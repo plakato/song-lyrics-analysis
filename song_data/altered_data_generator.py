@@ -1,3 +1,4 @@
+import argparse
 import copy
 import os
 import nltk
@@ -5,7 +6,6 @@ import nltk
 from analyze_data import save_dataset
 from sparsar_analysis import get_scheme_letters, sparsar_process_song, get_scheme_letters,get_sparsar_phon_files_from_dir
 import json
-import csv
 import random
 
 
@@ -158,17 +158,32 @@ def compare_line_shuffle():
     print('SHUFFLED BEFORE\n', shuffled_schemes)
 
 
-random.seed(12345)
-path = 'test_sets/'
-filename = '100ENlyrics_cleaned.json'
-remove_words(path, filename)
-# shift_nouns_back(path, filename)
-# replace_random_words('data/shuffled_lyrics/', '100ENlyrics_cleaned.json')
-# compare_line_shuffle()
-# generate_mixed_lines('data/shuffled_lyrics/', '100ENlyrics_cleaned.json')
-# generate_halfmixed_lines('data/shuffled_lyrics/', '100ENlyrics_cleaned.json')
-# path = 'sparsar_experiments/outs/'
-# for filename in os.listdir(path):
-#     if filename.endswith('_phon.xml'):
-#         score = calculate_rhyme_score(path + filename)
-#         print(score, '\n')
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--seed', default=12345, type=int)
+    parser.add_argument('--path', default='test_sets/')
+    parser.add_argument('--filename', default='100ENlyrics_cleaned.json')
+    parser.add_argument('--remove_words', default=False, action='store_true')
+    parser.add_argument('--shift_nouns_back', default=False, action='store_true')
+    parser.add_argument('--replace_random_words', default=False, action='store_true')
+    parser.add_argument('--mix_lines', default=False, action='store_true')
+    parser.add_argument('--half_mix_lines', default=False, action='store_true')
+    parser.add_argument('--get_scores', default=False, action='store_true')
+    args = parser.parse_args()
+    random.seed(args.seed)
+    if args.remove_words:
+        remove_words(args.path, args.filename)
+    if args.shift_nouns_back:
+        shift_nouns_back(args.path, args.filename)
+    if args.replace_random_words:
+        replace_random_words(args.path, args.filename)
+    compare_line_shuffle()
+    if args.mix_lines:
+        generate_mixed_lines(args.path, args.filename)
+    if args.half_mix_lines:
+        generate_halfmixed_lines(args.path, args.filename)
+    if args.get_scores:
+        for filename in os.listdir(args.path):
+            if filename.endswith('_phon.xml'):
+                score = calculate_rhyme_score(args.path + args.filename)
+                print(score, '\n')

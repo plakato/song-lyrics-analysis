@@ -1,8 +1,6 @@
 import argparse
 import os
 
-from rhyme_detector_v1 import next_letter_generator
-
 
 def stats(args):
     total_songs = 0

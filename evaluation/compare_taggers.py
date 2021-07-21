@@ -86,9 +86,9 @@ def get_schemes(source, stanzas, verbose=False):
                 tagger.pretrain_tagger(f'tagger_pretrained_window={NO_OF_PRECEDING_LINES}-train0.3.model.json')
             scheme = tagger.tagger_tag(lyrics=stanza)
         elif source == 'v3':
-            scheme = UniTagger.detector_v3_tag('data/cooc_iter4.json', stanza, verbose=verbose)
+            scheme = UniTagger.detector_v3_tag('data/cooc_iter3.json', stanza, verbose=verbose)
         elif source == 'v3_perfect':
-            scheme = UniTagger.detector_v3_tag('data/cooc_iter4.json', stanza, perfect=True, verbose=verbose)
+            scheme = UniTagger.detector_v3_tag('data/cooc_iter3.json', stanza, perfect=True, verbose=verbose)
         elif source == 'v3_1st_iter':
             scheme = UniTagger.detector_v3_tag('data/cooc_iter0.json', stanza, verbose=verbose)
         elif source == 'v3_experiment':

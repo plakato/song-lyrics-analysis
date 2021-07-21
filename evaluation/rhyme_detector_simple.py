@@ -10,7 +10,6 @@ def convert_to_phonetic(lines):
     for line in lines:
         # Strip punctuation.
         line = eng_to_ipa.convert(line, keep_punct=False)
-        # line = line.translate(str.maketrans('', '', string.punctuation))
         phon_lines.append(line)
     return phon_lines
 
@@ -64,8 +63,6 @@ def get_syllables_IPA(line):
     phon_line = convert_to_phonetic([line])[0]
     syllables = []
     current_syllable = []
-    vowels_in_syllable = 0
-    trailing_consonants = 0
     # We go backwards because it's easier.
     for word in phon_line.split(' '):
         i = 0

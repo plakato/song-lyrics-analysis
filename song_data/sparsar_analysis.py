@@ -41,12 +41,6 @@ def create_sparsar_input_file_from_song(song, output_filename):
             # everything following a semicolon.
             song['lyrics'][i] = song['lyrics'][i].strip().replace(
                 '&amp;', 'and').replace(';', ',')
-            # punctuation = '.'
-            # if line == '' or \
-            #         line[-1] == '?' or \
-            #         line[-1] == '!' or \
-            #         line[-1] == '…':
-            #     punctuation = ''
         punctuated_lyrics = add_punctuation(song['lyrics'])
         for i in range(len(punctuated_lyrics)):
             output.write(punctuated_lyrics[i] + '\n')
@@ -259,8 +253,6 @@ def extract_rhymes_to_csv(path, filename, output_path):
             scheme_letter_no += 1
             lines.append('{0};{1};{2};{3}\n'.format(scheme_letters[keys[scheme_letter_no]], no, ' '.join(words), ' '.join(phons)))
     os.makedirs(os.path.dirname(outputfile), exist_ok=True)
-    # lines = altered_data_generator.shuffle(lines)
-    # print(lines)
     with open(outputfile, 'w+') as output:
         output.write('Rhyme Scheme Letter;Line Number;Lyrics;Phonetic '
                      'Transcription\n')
@@ -301,8 +293,6 @@ def main():
     # Extract useful information from SPARSAR output files to .csv file.
     path = 'sparsar_experiments/outs/'
     output_path = 'sparsar_experiments/rhymes/'
-    # output_path = 'sparsar_experiments/line_shuffle_comparison/analyzed_before_shuffle/'
-    # path = output_path
     total = 0
     for item in os.listdir(path):
         if isfile(join(path, item)) and item.endswith('_phon.xml'):
@@ -319,5 +309,4 @@ def main():
 
 
 if __name__ == '__main__':
-    # main()
-    create_individual_files('data/ENlyrics_final_pop.json')
+    main()

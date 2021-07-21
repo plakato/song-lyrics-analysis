@@ -1,3 +1,4 @@
+import argparse
 import os
 from os.path import isfile, join
 import numpy as np
@@ -36,7 +37,6 @@ def test_pairs(path, shuffled_path):
         shuffled = join(path, shuffled_path + item[1:])
         if isfile(original) and isfile(shuffled) and item.endswith('.csv'):
             count += 1
-            # song_name = item.replace('.txt', '').replace('.csv', '')
             original = generate_endrhyme_matrix(path, item)
             shuffled = generate_endrhyme_matrix(path, shuffled_path + item[1:])
             if choose_original(original, shuffled):
@@ -62,6 +62,7 @@ def choose_original(original, shuffled):
     else:
         result = original_white_square < shuffled_white_square
     return result
+
 
 # Count islands on half of matrix (the other half is symmetrical).
 def count_lonely_black_pixels(data):
@@ -134,7 +135,9 @@ def is_song(matrix):
 
 
 if __name__ == '__main__':
-    path = 'sparsar_experiments/rhymes/'
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--path', default='sparsar_experiments/rhymes/')
+    args = parser.parse_args()
     shuffled_path = '\'shuffled0_'
-    test_pairs(path, shuffled_path)
-    # test_individual(path, shuffled_path)
+    test_pairs(args.path, shuffled_path)
+    test_individual(args.path, shuffled_path)

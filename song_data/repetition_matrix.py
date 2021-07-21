@@ -1,3 +1,4 @@
+import argparse
 import csv
 import os
 from os.path import isfile, join
@@ -66,10 +67,12 @@ def create_and_save_image(data, delimiter, song_name, path):
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--path', default='sparsar_experiments/rhymes/original/')
+    args = parser.parse_args()
     # Generate matrices for all files.
-    path = 'sparsar_experiments/rhymes/original/'
-    for item in os.listdir(path):
-        if isfile(join(path, item)) and item.endswith('.csv'):
+    for item in os.listdir(args.path):
+        if isfile(join(args.path, item)) and item.endswith('.csv'):
             save_path = 'sparsar_experiments/repetition_matrices/endrhymes_original/'
-            generate_endrhyme_matrix(path, item, save_path)
-            # generate_phoneme_matrix(path, item)
+            generate_endrhyme_matrix(args.path, item, save_path)
+            generate_phoneme_matrix(args.path, item)

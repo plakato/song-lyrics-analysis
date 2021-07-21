@@ -19,7 +19,8 @@ def generate(size, data):
         output.write('\n]')
 
 
-with open('data/' + filename) as input:
-    data = json.load(input)
-    for size in subsets:
-        generate(size, data)
+if __name__ == '__main__':
+    with open('data/' + filename) as input:
+        data = json.load(input)
+        for size in subsets:
+            generate(size, data)

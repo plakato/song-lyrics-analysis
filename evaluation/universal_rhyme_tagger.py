@@ -90,7 +90,6 @@ if __name__ == '__main__':
     parser.add_argument('--rhyme_tagger_pretrained', default=None, help="File where the pretrained model is stored.")
     parser.add_argument('--rhyme_detector_v3', default=None, help="File with the stored model (co-occurences matrix).")
     args = parser.parse_args()
-    # args = parser.parse_args(['--rhyme_tagger_pretrained', 'tagger_pretrained_on_lyrics-train0.3.model.json'])
     ut = UniTagger()
     scheme = ut.tag(args)
     print(scheme)

@@ -160,12 +160,11 @@ def run_on_data(filename):
 
 if __name__ == '__main__':
     genre_files = [
-        # '../song_data/data/ENlyrics_final_rock.json',
-        #            '../song_data/data/ENlyrics_final_pop.json',
-        #            '../song_data/data/ENlyrics_final_r-b.json',
-        #            '../song_data/data/ENlyrics_final_country.json',
-        #            '../song_data/data/ENlyrics_final_rap.json',
-                   '../song_data/data/ENlyrics_final.json']
+        '../song_data/data/ENlyrics_final_rock.json',
+                   '../song_data/data/ENlyrics_final_pop.json',
+                   '../song_data/data/ENlyrics_final_r-b.json',
+                   '../song_data/data/ENlyrics_final_country.json',
+                   '../song_data/data/ENlyrics_final_rap.json']
     parser = argparse.ArgumentParser()
     parser.add_argument('--verbose', default=False, action='store_true')
     args = parser.parse_args()
@@ -173,4 +172,3 @@ if __name__ == '__main__':
         print(filename)
         print(f'Time: {datetime.now().strftime("%H:%M:%S")}')
         run_on_data(filename)
-    # run_on_data('data/train_lyrics0.001.json')

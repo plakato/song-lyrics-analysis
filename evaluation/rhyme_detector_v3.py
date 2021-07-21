@@ -14,7 +14,7 @@ from rhyme_detector_v1 import get_pronunciations_for_n_syllables, next_letter_ge
 
 
 class RhymeDetector:
-    def __init__(self, perfect_only=False, matrix_path=None, zero_value=0.001, rhyme_rating_min=0.8, window=3, verbose=False):
+    def __init__(self, perfect_only=False, matrix_path=None, zero_value=0.001, rhyme_rating_min=0.8, window=5, verbose=False):
         self.data = []
         self.verbose = verbose
         self.separator = '&'
@@ -305,6 +305,7 @@ class RhymeDetector:
         return stats
 
     def solve_exceptions_in_rhymes(self, rhyme_groups, rhymes):
+        # Example of data structures:
         # rhyme_groups = [[0,1], [2,3], ...]
         # rhymes = [{'rating': 0.9, 'rhyme_fellow': -2}, {'rating': 0.8, 'rhyme_fellow': -1},...]
         # Take care of exceptions where splitting rhyme group would yield better song rating.
@@ -520,22 +521,7 @@ if __name__ == '__main__':
     parser.add_argument('--n',  default=1000, help="Maximal number of iterations (actual number may be smaller if consistency is reached).")
     parser.add_argument('--train_file', required='do_train' in sys.argv, help="A file with songs for training.")
     parser.add_argument('--test_file', required='do_test' in sys.argv)
-    parser.add_argument('--matrix_file', help="Matrix loaded for testing. If training selected, this matrix will be loaded as initialization matrix.")
+    parser.add_argument('--matrix_file', default='data/cooc_iter3.json', help="Matrix loaded for testing. If training selected, this matrix will be loaded as initialization matrix.")
     parser.add_argument('--perfect_only', default=False, action='store_true')
-    # args = parser.parse_args([# '--train_file', 'data/train_lyrics0.001.json',
-    #                           '--test_file', 'data/test_lyrics0.001.json',
-    #                           '--matrix_C_file', 'data/matrixC_identity.csv',
-    #                           '--matrix_V_file', 'data/matrixV_identity.csv',
-    #                           # '--do_train',
-    #                           '--do_test',
-    #                           '--perfect_only'
-    # ])
-    args = parser.parse_args([
-                                # '--train_file', 'data/train_lyrics0.001.json',
-                                '--test_file', 'data/dev_lyrics0.001.json',
-                                '--matrix_file', 'data/cooc_iter3.json',
-                                # '--do_train',
-                                # '--perfect_only',
-                                '--do_test'
-                                ])
+    args = parser.parse_args()
     main(args)

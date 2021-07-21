@@ -1,3 +1,4 @@
+import argparse
 import os
 import json
 import re
@@ -321,26 +322,32 @@ def remove_annotated_data(filename):
 
 
 def create_clean_dataset():
-    # isolate_relevant_songs_and_their_attributes('data/lyrics_original.json',
-    #                                             'data/lyrics_cleaned.json',
-    #                                             'data/removed_lyrics.json')
-    # filter_unique('data/lyrics_cleaned.json', 'data/lyrics_cleaned_unique.json')
-    # filter_english('data/lyrics_cleaned_unique.json', 'data/ENlyrics_cleaned_unique.json')
-    # remove_unwanted_words_from_all_songs('data/ENlyrics_cleaned_unique.json')
-    # add_word_count('data/ENlyrics_cleaned_unique.json')
-    # filter_optimal_length('data/ENlyrics_cleaned_unique.json', 'data/ENlyrics_final.json')
-    # remove_annotated_data('data/ENlyrics_final.json')
+    isolate_relevant_songs_and_their_attributes('data/lyrics_original.json',
+                                                'data/lyrics_cleaned.json',
+                                                'data/removed_lyrics.json')
+    filter_unique('data/lyrics_cleaned.json', 'data/lyrics_cleaned_unique.json')
+    filter_english('data/lyrics_cleaned_unique.json', 'data/ENlyrics_cleaned_unique.json')
+    remove_unwanted_words_from_all_songs('data/ENlyrics_cleaned_unique.json')
+    add_word_count('data/ENlyrics_cleaned_unique.json')
+    filter_optimal_length('data/ENlyrics_cleaned_unique.json', 'data/ENlyrics_final.json')
+    remove_annotated_data('data/ENlyrics_final.json')
     split_by_genre('data/ENlyrics_final.json')
 
 
 if __name__ == '__main__':
-    create_clean_dataset()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--create_clean_dataset', default=False, action='store_true')
+    parser.add_argument('--filename')
+    parser.add_argument('--extract_suspicious_songs', default=False, action='store_true')
+    parser.add_argument('--check_cleaner_with_miniset', default=False, action='store_true')
+    args = parser.parse_args()
+    if args.create_clean_dataset:
+        create_clean_dataset()
+    elif args.extract_suspicious_songs:
+        extract_suspicious_songs('data/' + args.filename, 'data/suspicious_' + args.filename)
+    elif args.check_cleaner_with_miniset:
+        check_cleaner_with_miniset('data/miniset_for_lyrics_cleaning/',
+                           'data/miniset_for_lyrics_cleaning/manually_cleaned/')
 
-# check_cleaner_with_miniset('data/miniset_for_lyrics_cleaning/',
-#                            'data/miniset_for_lyrics_cleaning/manually_cleaned/')
-# clean_all_songs('data/lyrics_cleaned.json')
-
-# file = '100000ENlyrics_cleaned.json'
-# extract_suspicious_songs('data/' + file, 'data/suspicious_' + file)
 
 

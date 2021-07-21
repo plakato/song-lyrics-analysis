@@ -1,7 +1,9 @@
 import cmudict
 
-NO_OF_PRECEDING_LINES = 3
+# Size of the window in rhyme detection.
+NO_OF_PRECEDING_LINES = 5
 
+# Following contants were used for experiments only, not a part of final rhyme detector.
 NOT_AVAILABLE = 'X'
 IPA_VOWELS = {'i', 'y', 'ɨ', 'ʉ', 'ɯ', 'u',
               'ɪ', 'ʏ', 'ɪ̈', 'ʊ̈', 'ʊ',
@@ -16,7 +18,7 @@ ARPA_VOWELS = {'AA', 'AE', 'AH', 'AO', 'AW', 'AY',
                'IH', 'IY',
                'OW', 'OY',
                'UH', 'UW'}
-                    # Differing in place of aritculation only (voiceless plosives, fricatives, nasals).
+# Differing in place of aritculation only (voiceless plosives, fricatives, nasals).
 SIMILAR_SOUNDS = [['M', 'N', 'NG'], ['P', 'T', 'K', 'Q'], ['F', 'TH', 'S', 'SH', 'HH'], ['DH', 'V', 'Z', 'ZH'],
                   # Differing in place only (voiced plosives).
                   ['B', 'D', 'G'],

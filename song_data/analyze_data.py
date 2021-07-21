@@ -1,3 +1,4 @@
+import argparse
 import csv
 import json
 import os
@@ -244,8 +245,16 @@ def save_piechart_with_genres(genres):
 
 
 def main():
-    # create_histogram_for_length('data/ENlyrics_cleaned_unique.json')
-    print_statistics('data/ENlyrics_final_country.json')
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--print_stats', default=False, action='store_true')
+    parser.add_argument('--histogram', default=False, action='store_true')
+    parser.add_argument('--filename')
+    args = parser.parse_args()
+    if args.print_stats:
+        print_statistics(args.filename)
+    elif args.histogram:
+        create_histogram_for_length(args.filename)
+
 
 
 if __name__== "__main__":
